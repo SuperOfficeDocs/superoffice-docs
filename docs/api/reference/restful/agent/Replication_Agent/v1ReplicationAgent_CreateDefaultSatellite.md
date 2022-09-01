@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Replication/CreateDefaultSatellite
-id: v1ReplicationAgent_CreateDefaultSatellite
+uid: v1ReplicationAgent_CreateDefaultSatellite
 ---
 
 # POST Agents/Replication/CreateDefaultSatellite
@@ -11,9 +11,17 @@ POST /api/v1/Agents/Replication/CreateDefaultSatellite
 
 Set default values into a new Satellite.
 
+
 NetServer calculates default values on the entity, which is required when creating/storing a new instance
 
-## Online Restricted: ## The Replication agent is not available in Online by default. Not available in Online. Only used on-site
+
+## Online Restricted: ## The Replication agent is not available in Online by default. Not available in Online. Only used on-site.
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -28,16 +36,16 @@ NetServer calculates default values on the entity, which is required when creati
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response: object
 
-Carrier object for Satellite.
-Services for the Satellite Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IReplicationAgent">Replication Agent</see>.
+## Response: 
+
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -52,7 +60,7 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Replication/CreateDefaultSatellite
@@ -61,122 +69,24 @@ Accept: application/json; charset=utf-8
 Accept-Language: en
 ```
 
+## Sample response
+
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SatelliteId": 916,
-  "Created": "2005-06-15T18:28:50.0141324+02:00",
-  "CreatedBy": {
-    "AssociateId": 323,
-    "Name": "Rippin LLC",
-    "PersonId": 376,
-    "Rank": 459,
-    "Tooltip": "ex",
-    "Type": "AnonymousAssociate",
-    "GroupIdx": 557,
-    "FullName": "Margaretta Nienow",
-    "FormalName": "Schaden Inc and Sons",
-    "Deleted": false,
-    "EjUserId": 206,
-    "UserName": "Labadie LLC",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 272
-      }
-    }
-  },
-  "Updated": "2014-06-04T18:28:50.0141324+02:00",
-  "UpdatedBy": {
-    "AssociateId": 883,
-    "Name": "Thompson, Lemke and Kuphal",
-    "PersonId": 913,
-    "Rank": 787,
-    "Tooltip": "et",
-    "Type": "AnonymousAssociate",
-    "GroupIdx": 244,
-    "FullName": "Kellie Nitzsche",
-    "FormalName": "Gleichner, Keeling and Rowe",
-    "Deleted": true,
-    "EjUserId": 239,
-    "UserName": "Pouros LLC",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 465
-      }
-    }
-  },
-  "Contact": {
-    "ContactId": 408,
-    "Name": "Baumbach Group",
-    "OrgNr": "1285774",
-    "Department": "incubate enterprise vortals",
-    "URL": "http://www.example.com/",
-    "City": "illo",
-    "DirectPhone": "731.407.5461",
-    "AssociateId": 845,
-    "CountryId": 518,
-    "EmailAddress": "alexie.dickens@gaylordmarvin.ca",
-    "Kananame": "vel",
-    "EmailAddressName": "shaina@funkkuhn.uk",
-    "URLName": "http://www.example.com/",
-    "AssociateFullName": "Mr. Pearlie Howe",
-    "BusinessName": "Information Technology",
-    "CategoryName": "VIP Customer",
-    "CountryName": "Sokovia",
-    "Address": {},
-    "FormattedAddress": "placeat",
-    "FullName": "Louisa Langworth",
-    "IsOwnerContact": false,
-    "ActiveErpLinks": 546,
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.Int32",
-        "FieldLength": 689
-      }
-    }
-  },
-  "Area": {
-    "AreaId": 35,
-    "Name": "Hartmann LLC",
-    "MaxDataAge": 265,
-    "NumberOfUsers": 893,
-    "NumberOfLogins": 388,
-    "FreetextEnabeled": true,
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 933
-      }
-    }
-  },
+  "SatelliteId": 377,
+  "Created": "2008-02-22T11:10:27.7494954+01:00",
+  "CreatedBy": null,
+  "Updated": "2007-03-03T11:10:27.7504949+01:00",
+  "UpdatedBy": null,
+  "Contact": null,
+  "Area": null,
   "LicenseOwners": [
     {
-      "Name": "Jacobi-Gulgowski",
-      "Description": "Adaptive solution-oriented encoding",
+      "Name": "Corkery-Hauck",
+      "Description": "Down-sized optimal architecture",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -185,21 +95,18 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "TableRight": {},
+      "TableRight": null,
       "FieldProperties": {
         "fieldName": {
-          "FieldRight": {
-            "Mask": "FULL",
-            "Reason": ""
-          },
+          "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 358
+          "FieldLength": 923
         }
       }
     },
     {
-      "Name": "Jacobi-Gulgowski",
-      "Description": "Adaptive solution-oriented encoding",
+      "Name": "Corkery-Hauck",
+      "Description": "Down-sized optimal architecture",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -208,31 +115,22 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "TableRight": {},
+      "TableRight": null,
       "FieldProperties": {
         "fieldName": {
-          "FieldRight": {
-            "Mask": "FULL",
-            "Reason": ""
-          },
+          "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 358
+          "FieldLength": 923
         }
       }
     }
   ],
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
-      "FieldType": "System.String",
-      "FieldLength": 675
+      "FieldRight": null,
+      "FieldType": "System.Int32",
+      "FieldLength": 798
     }
   }
 }

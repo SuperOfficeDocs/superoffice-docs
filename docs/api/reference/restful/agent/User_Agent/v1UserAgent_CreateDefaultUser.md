@@ -1,6 +1,6 @@
 ---
 title: POST Agents/User/CreateDefaultUser
-id: v1UserAgent_CreateDefaultUser
+uid: v1UserAgent_CreateDefaultUser
 ---
 
 # POST Agents/User/CreateDefaultUser
@@ -11,9 +11,17 @@ POST /api/v1/Agents/User/CreateDefaultUser
 
 Set default values into a new User.
 
+
 NetServer calculates default values on the entity, which is required when creating/storing a new instance
 
-## Online Restricted: ## The User agent is not available in Online by default. User management is not allowed for partner apps
+
+## Online Restricted: ## The User agent is not available in Online by default. User management is not allowed for partner apps.
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -28,18 +36,16 @@ NetServer calculates default values on the entity, which is required when creati
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response: object
 
-SuperOffice User, with login credentials and an associated person.
+## Response: 
 
-Carrier object for User.
-Services for the User Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IUserAgent">User Agent</see>.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -49,9 +55,9 @@ Response body: object
 | Tooltip | string | Tooltip or other description |
 | LicenseOwners | array | The restricted and unrestricted module licenses grouped by license owner. These module licenses are either assigned or unassigned to this user |
 | Role |  | Users role for role-based security. Determines permissions and access rights for the user. |
-| UserGroup |  | The main user group that this user belongs to.  <br />Use MDO List name "usergroup" to get list items. |
-| OtherGroups | array | The other groups this user is a member of, apart from the main user group.  <br />Use MDO List name "usergroup" to get list items. |
-| Person |  | The person associated with this user. Detailed information about the user  <br />Use MDO List name "person_new" to get list items. |
+| UserGroup |  | The main user group that this user belongs to.  <para>Use MDO List name "usergroup" to get list items.</para> |
+| OtherGroups | array | The other groups this user is a member of, apart from the main user group.  <para>Use MDO List name "usergroup" to get list items.</para> |
+| Person |  | The person associated with this user. Detailed information about the user  <para>Use MDO List name "person_new" to get list items.</para> |
 | Deleted | bool | If true, the user is retired and should have no rights, not appear in lists, etc. |
 | Lastlogin | date-time | Last login date |
 | Lastlogout | date-time | Last logout date |
@@ -62,7 +68,7 @@ Response body: object
 | IsOnTravel | bool | True if the user is on travel. |
 | Credentials | array | List of credentials registered for this user. i.e. valid authentication methods. |
 | UserName | string | User name, a.k.a. Login name. This might be an e-mail address. |
-| TicketCategories | array | Request Ticket Categories assigned to the user.   <br />Use MDO List name "ejCategory" to get list items. |
+| TicketCategories | array | Request Ticket Categories assigned to the user.   <para>Use MDO List name "ejCategory" to get list items.</para> |
 | NickName | string | The unique nick name for this user. Used in Service as an alias, similar to Name/Initials. |
 | WaitingForApproval | bool | The user is waiting for an administrator to approve/grant her/him access. |
 | ExtraFields | object | Deprecated: Use {SuperOffice.CRM.Services.User.CustomFields} instead. Extra fields added to the carrier. This could be data from Plug-ins, the foreign key system, external applications, etc. |
@@ -71,7 +77,7 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/User/CreateDefaultUser
@@ -80,19 +86,21 @@ Accept: application/json; charset=utf-8
 Accept-Language: fr,de,ru,zh
 ```
 
+## Sample response
+
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 16,
-  "Name": "Wilderman-McDermott",
-  "Rank": 135,
-  "Tooltip": "consectetur",
+  "AssociateId": 245,
+  "Name": "Ankunding, Bartoletti and Greenholt",
+  "Rank": 901,
+  "Tooltip": "est",
   "LicenseOwners": [
     {
-      "Name": "Casper Group",
-      "Description": "Automated encompassing focus group",
+      "Name": "Hagenes Group",
+      "Description": "Optional interactive customer loyalty",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -101,21 +109,18 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "TableRight": {},
+      "TableRight": null,
       "FieldProperties": {
         "fieldName": {
-          "FieldRight": {
-            "Mask": "FULL",
-            "Reason": ""
-          },
+          "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 289
+          "FieldLength": 810
         }
       }
     },
     {
-      "Name": "Casper Group",
-      "Description": "Automated encompassing focus group",
+      "Name": "Hagenes Group",
+      "Description": "Optional interactive customer loyalty",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -124,242 +129,134 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "TableRight": {},
+      "TableRight": null,
       "FieldProperties": {
         "fieldName": {
-          "FieldRight": {
-            "Mask": "FULL",
-            "Reason": ""
-          },
+          "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 289
+          "FieldLength": 810
         }
       }
     }
   ],
-  "Role": {
-    "Id": 550,
-    "Value": "et",
-    "Tooltip": "voluptatibus",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.Int32",
-        "FieldLength": 501
-      }
-    }
-  },
-  "UserGroup": {
-    "Value": "et",
-    "Tooltip": "est",
-    "Id": 293,
-    "Rank": 156,
-    "Deleted": false,
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.Int32",
-        "FieldLength": 41
-      }
-    }
-  },
+  "Role": null,
+  "UserGroup": null,
   "OtherGroups": [
     {
-      "Value": "eum",
-      "Tooltip": "molestias",
-      "Id": 515,
-      "Rank": 315,
+      "Value": "provident",
+      "Tooltip": "nam",
+      "Id": 380,
+      "Rank": 321,
       "Deleted": false,
-      "TableRight": {},
+      "TableRight": null,
       "FieldProperties": {
         "fieldName": {
-          "FieldRight": {
-            "Mask": "FULL",
-            "Reason": ""
-          },
-          "FieldType": "System.String",
-          "FieldLength": 309
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 736
         }
       }
     }
   ],
-  "Person": {
-    "Position": "illo",
-    "PersonId": 547,
-    "Mrmrs": "et",
-    "Firstname": "Demetrius",
-    "Lastname": "Quitzon",
-    "MiddleName": "Romaguera Group",
-    "Title": "harum",
-    "Description": "Monitored value-added protocol",
-    "Email": "leif@kulas.co.uk",
-    "FullName": "Lizeth Raynor",
-    "DirectPhone": "316-225-8772",
-    "FormalName": "Corwin Inc and Sons",
-    "CountryId": 598,
-    "ContactId": 182,
-    "ContactName": "Mayert, Hills and Fadel",
-    "Retired": 197,
-    "Rank": 40,
-    "ActiveInterests": 565,
-    "ContactDepartment": "",
-    "ContactCountryId": 916,
-    "ContactOrgNr": "1037294",
-    "FaxPhone": "113.783.7753 x43665",
-    "MobilePhone": "414.782.3483",
-    "ContactPhone": "1-173-621-6753 x426",
-    "AssociateName": "Roob LLC",
-    "AssociateId": 408,
-    "UsePersonAddress": true,
-    "ContactFax": "qui",
-    "Kanafname": "quis",
-    "Kanalname": "voluptatem",
-    "Post1": "blanditiis",
-    "Post2": "explicabo",
-    "Post3": "est",
-    "EmailName": "susie_tromp@zemlakcummerata.ca",
-    "ContactFullName": "Dina Bradtke PhD",
-    "ActiveErpLinks": 15,
-    "TicketPriorityId": 715,
-    "SupportLanguageId": 73,
-    "SupportAssociateId": 961,
-    "CategoryName": "VIP Customer",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.Int32",
-        "FieldLength": 683
-      }
-    }
-  },
+  "Person": null,
   "Deleted": false,
-  "Lastlogin": "2009-02-01T18:28:50.4964407+01:00",
-  "Lastlogout": "1996-08-28T18:28:50.4964407+02:00",
-  "EjUserId": 953,
-  "RequestSignature": "fugiat",
+  "Lastlogin": "2022-02-24T11:10:28.3652069+01:00",
+  "Lastlogout": "2008-06-29T11:10:28.3652069+02:00",
+  "EjUserId": 804,
+  "RequestSignature": "alias",
   "Type": "AnonymousAssociate",
-  "IsPersonRetired": true,
-  "IsOnTravel": true,
+  "IsPersonRetired": false,
+  "IsOnTravel": false,
   "Credentials": [
     {
-      "Type": {},
-      "Value": "vel",
-      "DisplayValue": "tenetur",
-      "TableRight": {},
+      "Type": null,
+      "Value": "provident",
+      "DisplayValue": "dolorem",
+      "TableRight": null,
       "FieldProperties": {
         "fieldName": {
-          "FieldRight": {
-            "Mask": "FULL",
-            "Reason": ""
-          },
-          "FieldType": "System.String",
-          "FieldLength": 748
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 491
         }
       }
     },
     {
-      "Type": {},
-      "Value": "vel",
-      "DisplayValue": "tenetur",
-      "TableRight": {},
+      "Type": null,
+      "Value": "provident",
+      "DisplayValue": "dolorem",
+      "TableRight": null,
       "FieldProperties": {
         "fieldName": {
-          "FieldRight": {
-            "Mask": "FULL",
-            "Reason": ""
-          },
-          "FieldType": "System.String",
-          "FieldLength": 748
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 491
         }
       }
     }
   ],
-  "UserName": "O'Connell, Ruecker and Kassulke",
+  "UserName": "Borer Inc and Sons",
   "TicketCategories": [
     {
-      "Id": 794,
-      "Name": "Prohaska, Heller and Marvin",
-      "ToolTip": "Cumque beatae minus qui.",
-      "Deleted": false,
-      "Rank": 955,
-      "Type": "est",
+      "Id": 491,
+      "Name": "Cruickshank, Huels and Cassin",
+      "ToolTip": "Totam repudiandae.",
+      "Deleted": true,
+      "Rank": 666,
+      "Type": "quod",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "maiores",
-      "ColorBlock": 563,
-      "ExtraInfo": "repellendus",
-      "StyleHint": "necessitatibus",
-      "FullName": "Felicita Klein",
-      "TableRight": {},
+      "IconHint": "expedita",
+      "ColorBlock": 648,
+      "ExtraInfo": "nisi",
+      "StyleHint": "a",
+      "FullName": "Hilda Terry",
+      "TableRight": null,
       "FieldProperties": {
         "fieldName": {
-          "FieldRight": {
-            "Mask": "FULL",
-            "Reason": ""
-          },
+          "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 112
+          "FieldLength": 933
         }
       }
     }
   ],
-  "NickName": "Effertz-Tromp",
-  "WaitingForApproval": false,
+  "NickName": "Bogan Group",
+  "WaitingForApproval": true,
   "ExtraFields": {
-    "ExtraFields1": "aliquam",
-    "ExtraFields2": "et"
+    "ExtraFields1": "quisquam",
+    "ExtraFields2": "omnis"
   },
   "CustomFields": {
-    "CustomFields1": "animi",
-    "CustomFields2": "rem"
+    "CustomFields1": "voluptatibus",
+    "CustomFields2": "ipsa"
   },
   "PostSaveCommands": [
     {
-      "Name": "Dietrich, Hane and Cole",
-      "DisplayName": "Mueller Group",
-      "Description": "Diverse contextually-based leverage",
-      "ToolTip": "Delectus eos sed.",
+      "Name": "Strosin, Spinka and Mertz",
+      "DisplayName": "Carroll, Runte and Keeling",
+      "Description": "Phased bandwidth-monitored neural-net",
+      "ToolTip": "Ullam sunt eum.",
       "Actions": "Implicit",
-      "ActionData": "corrupti",
-      "TableRight": {},
+      "ActionData": "quia",
+      "TableRight": null,
       "FieldProperties": {
         "fieldName": {
-          "FieldRight": {
-            "Mask": "FULL",
-            "Reason": ""
-          },
-          "FieldType": "System.String",
-          "FieldLength": 275
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 381
         }
       }
     }
   ],
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
-      "FieldType": "System.String",
-      "FieldLength": 578
+      "FieldRight": null,
+      "FieldType": "System.Int32",
+      "FieldLength": 715
     }
   }
 }

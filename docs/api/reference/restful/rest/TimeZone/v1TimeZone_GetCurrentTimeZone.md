@@ -1,6 +1,6 @@
 ---
 title: GET TimeZone/current
-id: v1TimeZone_GetCurrentTimeZone
+uid: v1TimeZone_GetCurrentTimeZone
 ---
 
 # GET TimeZone/current
@@ -11,7 +11,14 @@ GET /api/v1/TimeZone/current
 
 Base Time Zone info.
 
+
 This is the time zone used internally for storing data.
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -26,13 +33,16 @@ This is the time zone used internally for storing data.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response: object
+
+## Response: 
+
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -44,45 +54,47 @@ Response body: object
 | TimeZoneSTDRules | object |  |
 | TimeZoneDSTRules | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 GET /api/v1/TimeZone/current
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TZLocationID": 858,
-  "Name": "Gislason Inc and Sons",
-  "TZLocationCode": "pariatur",
-  "TZLocationCities": "non",
-  "IsoNumber": 422,
+  "TZLocationID": 50,
+  "Name": "Carroll Inc and Sons",
+  "TZLocationCode": "repudiandae",
+  "TZLocationCities": "omnis",
+  "IsoNumber": 922,
   "TimeZoneSTDRules": {
     "fieldName": {
-      "StartDay": 703,
-      "StartMonth": 419,
-      "EndDay": 466,
-      "EndMonth": 686,
-      "TZOffset": 659,
-      "StartRulePattern": "facere",
-      "EndRulePattern": "est"
+      "StartDay": 573,
+      "StartMonth": 600,
+      "EndDay": 196,
+      "EndMonth": 837,
+      "TZOffset": 888,
+      "StartRulePattern": "rerum",
+      "EndRulePattern": "praesentium"
     }
   },
   "TimeZoneDSTRules": {
     "fieldName": {
-      "StartDay": 675,
-      "StartMonth": 672,
-      "EndDay": 400,
-      "EndMonth": 663,
-      "TZOffset": 259,
-      "StartRulePattern": "sed",
-      "EndRulePattern": "autem"
+      "StartDay": 335,
+      "StartMonth": 701,
+      "EndDay": 210,
+      "EndMonth": 779,
+      "TZOffset": 679,
+      "StartRulePattern": "ut",
+      "EndRulePattern": "culpa"
     }
   }
 }

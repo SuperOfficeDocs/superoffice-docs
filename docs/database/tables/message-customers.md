@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "message_customers"
-so.date: 04.12.2022
+so.date: 08.26.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -25,6 +25,7 @@ This table contains all cutomers who are involved in a message
 |message\_id|The id of the message the customer is involved in|FK [ej_message](ej-message.md)| |
 |customer\_id|The id of the customer who has received this message, or another message in this ticket|FK [person](person.md)| |
 |email|The email-adresse used in this message|String(255)|&#x25CF;|
+
 
 ![message_customers table relationship diagram](./media/message_customers.png)
 
@@ -45,6 +46,7 @@ This table contains all cutomers who are involved in a message
 |[ej\_message](ej-message.md)  |This table contains the messages listed under tickets. |
 |[person](person.md)  |Persons in a company or an organizations. All associates have a corresponding person record |
 
+
 ## Replication Flags
 
 * None
@@ -52,3 +54,4 @@ This table contains all cutomers who are involved in a message
 ## Security Flags
 
 * No access control via user's Role.
+

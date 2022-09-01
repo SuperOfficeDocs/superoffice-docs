@@ -24,6 +24,7 @@ Create a new document content based on a document template and store it in the d
 
 **Returns:** The updated document entity, after creating the document content from the template.
 
+
 [WSDL file for Services86/Document](../Services86-Document.md)
 
 Obtain a ticket from the [Services86/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -62,6 +63,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+
 
 ## CreateNewPhysicalDocumentFromTemplate Response
 
@@ -112,8 +114,8 @@ Application tokens must be specified if calling an Online installation. Applicat
     <Document:Name xsi:type="xsd:string"></Document:Name>
     <Document:OurRef xsi:type="xsd:string"></Document:OurRef>
     <Document:YourRef xsi:type="xsd:string"></Document:YourRef>
-    <Document:CreatedDate xsi:type="xsd:dateTime">2021-11-30T13:22:51Z</Document:CreatedDate>
-    <Document:UpdatedDate xsi:type="xsd:dateTime">2021-11-30T13:22:51Z</Document:UpdatedDate>
+    <Document:CreatedDate xsi:type="xsd:dateTime">2022-08-26T08:54:46Z</Document:CreatedDate>
+    <Document:UpdatedDate xsi:type="xsd:dateTime">2022-08-26T08:54:46Z</Document:UpdatedDate>
     <Document:Description xsi:type="xsd:string"></Document:Description>
     <Document:DocumentTemplate xsi:type="Document:DocumentTemplate">
      <Document:DocumentTemplateId xsi:type="xsd:int">0</Document:DocumentTemplateId>
@@ -251,18 +253,18 @@ Application tokens must be specified if calling an Online installation. Applicat
      <Document:AssociateId xsi:type="xsd:int">0</Document:AssociateId>
      <Document:AssociateFullName xsi:type="xsd:string"></Document:AssociateFullName>
      <Document:TypeId xsi:type="xsd:int">0</Document:TypeId>
-     <Document:Updated xsi:type="xsd:dateTime">2021-11-30T13:22:51Z</Document:Updated>
+     <Document:Updated xsi:type="xsd:dateTime">2022-08-26T08:54:46Z</Document:Updated>
      <Document:StatusId xsi:type="xsd:int">0</Document:StatusId>
      <Document:Status xsi:type="xsd:string"></Document:Status>
      <Document:TextId xsi:type="xsd:int">0</Document:TextId>
-     <Document:PublishTo xsi:type="xsd:dateTime">2021-11-30T13:22:51Z</Document:PublishTo>
-     <Document:PublishFrom xsi:type="xsd:dateTime">2021-11-30T13:22:51Z</Document:PublishFrom>
+     <Document:PublishTo xsi:type="xsd:dateTime">2022-08-26T08:54:46Z</Document:PublishTo>
+     <Document:PublishFrom xsi:type="xsd:dateTime">2022-08-26T08:54:46Z</Document:PublishFrom>
      <Document:IsPublished xsi:type="xsd:boolean">false</Document:IsPublished>
      <Document:URLName xsi:type="xsd:string"></Document:URLName>
      <Document:ProjectNumber xsi:type="xsd:string"></Document:ProjectNumber>
      <Document:ActiveErpLinks xsi:type="xsd:int">0</Document:ActiveErpLinks>
     </Document:Project>
-    <Document:Date xsi:type="xsd:dateTime">2021-11-30T13:22:51Z</Document:Date>
+    <Document:Date xsi:type="xsd:dateTime">2022-08-26T08:54:46Z</Document:Date>
     <Document:ExternalRef xsi:type="xsd:string"></Document:ExternalRef>
     <Document:Completed xsi:type="Document:ActivityStatus">Unknown</Document:Completed>
     <Document:ActiveLinks xsi:type="xsd:int">0</Document:ActiveLinks>
@@ -279,7 +281,7 @@ Application tokens must be specified if calling an Online installation. Applicat
     <Document:LockSemantics xsi:type="Document:DocumentLockSemantics">None</Document:LockSemantics>
     <Document:Sale xsi:type="Document:Sale">
      <Document:ContactName xsi:type="xsd:string"></Document:ContactName>
-     <Document:SaleDate xsi:type="xsd:dateTime">2021-11-30T13:22:51Z</Document:SaleDate>
+     <Document:SaleDate xsi:type="xsd:dateTime">2022-08-26T08:54:46Z</Document:SaleDate>
      <Document:SaleId xsi:type="xsd:int">0</Document:SaleId>
      <Document:Probability xsi:type="xsd:short">0</Document:Probability>
      <Document:Title xsi:type="xsd:string"></Document:Title>
@@ -301,7 +303,7 @@ Application tokens must be specified if calling an Online installation. Applicat
      <Document:PersonFullName xsi:type="xsd:string"></Document:PersonFullName>
      <Document:Completed xsi:type="Document:ActivityStatus">Unknown</Document:Completed>
      <Document:ActiveErpLinks xsi:type="xsd:int">0</Document:ActiveErpLinks>
-     <Document:NextDueDate xsi:type="xsd:dateTime">2021-11-30T13:22:51Z</Document:NextDueDate>
+     <Document:NextDueDate xsi:type="xsd:dateTime">2022-08-26T08:54:46Z</Document:NextDueDate>
     </Document:Sale>
     <Document:SuggestedDocumentId xsi:type="xsd:int">0</Document:SuggestedDocumentId>
     <Document:UserDefinedFields xsi:type="Document:StringDictionary">
@@ -316,9 +318,9 @@ Application tokens must be specified if calling an Online installation. Applicat
       <Document:Value xsi:type="xsd:string"></Document:Value>
      </Document:StringKeyValuePair>
     </Document:ExtraFields>
-    <Document:PublishEventDate xsi:type="xsd:dateTime">2021-11-30T13:22:51Z</Document:PublishEventDate>
-    <Document:PublishTo xsi:type="xsd:dateTime">2021-11-30T13:22:51Z</Document:PublishTo>
-    <Document:PublishFrom xsi:type="xsd:dateTime">2021-11-30T13:22:51Z</Document:PublishFrom>
+    <Document:PublishEventDate xsi:type="xsd:dateTime">2022-08-26T08:54:46Z</Document:PublishEventDate>
+    <Document:PublishTo xsi:type="xsd:dateTime">2022-08-26T08:54:46Z</Document:PublishTo>
+    <Document:PublishFrom xsi:type="xsd:dateTime">2022-08-26T08:54:46Z</Document:PublishFrom>
     <Document:IsPublished xsi:type="xsd:boolean">false</Document:IsPublished>
     <Document:VisibleFor xsi:type="Document:ArrayOfVisibleFor">
      <Document:VisibleFor xsi:type="Document:VisibleFor">
@@ -333,3 +335,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

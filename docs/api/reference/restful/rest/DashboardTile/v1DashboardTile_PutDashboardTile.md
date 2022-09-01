@@ -1,6 +1,6 @@
 ---
 title: PUT DashboardTile/{id}
-id: v1DashboardTile_PutDashboardTile
+uid: v1DashboardTile_PutDashboardTile
 ---
 
 # PUT DashboardTile/{id}
@@ -11,9 +11,15 @@ PUT /api/v1/DashboardTile/{id}
 
 Updates the existing DashboardTile
 
+
+
+
+
+
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | id | int32 | The DashboardTile id to update. **Required** |
+
 
 ## Query String Parameters
 
@@ -24,6 +30,7 @@ Updates the existing DashboardTile
 ```http
 PUT /api/v1/DashboardTile/{id}?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -39,9 +46,9 @@ PUT /api/v1/DashboardTile/{id}?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entity
+## Request Body: entity  
 
-The DashboardTile to be saved.
+The DashboardTile to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -60,18 +67,17 @@ The DashboardTile to be saved.
 | Options | array | The tile options |
 | VisibleFor | array | The set of users or groups the record is visible for |
 
-## Response: object
 
-Dashboard Tile configuration
+## Response: 
 
-DashboardTile entity with API _Links added.
+DashboardTile updated.
 
 | Response | Description |
 |----------------|-------------|
 | 200 | DashboardTile updated. |
 | 400 | Bad request. Entity to save is not in request body. |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -93,150 +99,137 @@ Response body: object
 | FieldProperties | object |  |
 | _Links | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 PUT /api/v1/DashboardTile/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 60,
-  "Caption": "nesciunt",
-  "Description": "De-engineered bi-directional superstructure",
-  "ChartName": "Deckow, Hills and Daugherty",
-  "ChartId": "assumenda",
+  "DashboardTileId": 498,
+  "Caption": "debitis",
+  "Description": "Customizable maximized database",
+  "ChartName": "Hudson, Rosenbaum and Gislason",
+  "ChartId": "voluptatem",
   "IsDefault": true,
-  "AssociateId": 46,
-  "GroupId": 93,
-  "SelectionId": 873,
-  "Config": "nostrum",
+  "AssociateId": 967,
+  "GroupId": 125,
+  "SelectionId": 62,
+  "Config": "sint",
   "Type": "Bignum",
   "EntityType": "Activity",
   "Options": [
     {
-      "Name": "Kuvalis, Lang and Rogahn",
-      "Description": "Object-based asynchronous concept",
+      "Name": "Nienow-Schroeder",
+      "Description": "Configurable 6th generation ability",
       "Type": "Boolean",
-      "ListName": "Renner Inc and Sons",
+      "ListName": "Kohler-Brekke",
       "ListItems": [
         {},
         {}
       ],
-      "Value": "eius",
-      "DefaultDataOption": false
+      "Value": "ea",
+      "DefaultDataOption": true
     }
   ],
   "VisibleFor": [
     {
-      "VisibleId": 213,
+      "VisibleId": 881,
       "Visibility": "All",
-      "DisplayValue": "sint"
+      "DisplayValue": "officia"
     },
     {
-      "VisibleId": 213,
+      "VisibleId": 881,
       "Visibility": "All",
-      "DisplayValue": "sint"
+      "DisplayValue": "officia"
     }
   ]
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 DashboardTile updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 169,
-  "Caption": "id",
-  "Description": "Implemented encompassing info-mediaries",
-  "ChartName": "Olson, Eichmann and Funk",
-  "ChartId": "rem",
-  "IsDefault": false,
-  "AssociateId": 568,
-  "GroupId": 600,
-  "SelectionId": 429,
-  "Config": "quo",
+  "DashboardTileId": 715,
+  "Caption": "dicta",
+  "Description": "Re-engineered cohesive budgetary management",
+  "ChartName": "Willms Inc and Sons",
+  "ChartId": "vel",
+  "IsDefault": true,
+  "AssociateId": 73,
+  "GroupId": 481,
+  "SelectionId": 93,
+  "Config": "corrupti",
   "Type": "Bignum",
   "EntityType": "Activity",
   "Options": [
     {
-      "Name": "Pouros, Schuster and Konopelski",
-      "Description": "Synergized client-server productivity",
+      "Name": "Huel, O'Kon and Boyle",
+      "Description": "Progressive contextually-based knowledge user",
       "Type": "Boolean",
-      "ListName": "Prosacco Group",
+      "ListName": "Abshire, O'Hara and Cruickshank",
       "ListItems": [
         {},
         {}
       ],
-      "Value": "deleniti",
+      "Value": "ea",
       "DefaultDataOption": false,
-      "TableRight": {},
+      "TableRight": null,
       "FieldProperties": {
         "fieldName": {
-          "FieldRight": {
-            "Mask": "FULL",
-            "Reason": ""
-          },
+          "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 650
+          "FieldLength": 862
         }
       }
     }
   ],
   "VisibleFor": [
     {
-      "VisibleId": 238,
+      "VisibleId": 253,
       "Visibility": "All",
-      "DisplayValue": "inventore",
-      "TableRight": {},
+      "DisplayValue": "consectetur",
+      "TableRight": null,
       "FieldProperties": {
         "fieldName": {
-          "FieldRight": {
-            "Mask": "FULL",
-            "Reason": ""
-          },
+          "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 765
+          "FieldLength": 272
         }
       }
     },
     {
-      "VisibleId": 238,
+      "VisibleId": 253,
       "Visibility": "All",
-      "DisplayValue": "inventore",
-      "TableRight": {},
+      "DisplayValue": "consectetur",
+      "TableRight": null,
       "FieldProperties": {
         "fieldName": {
-          "FieldRight": {
-            "Mask": "FULL",
-            "Reason": ""
-          },
+          "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 765
+          "FieldLength": 272
         }
       }
     }
   ],
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
-      "FieldType": "System.String",
-      "FieldLength": 988
+      "FieldRight": null,
+      "FieldType": "System.Int32",
+      "FieldLength": 992
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

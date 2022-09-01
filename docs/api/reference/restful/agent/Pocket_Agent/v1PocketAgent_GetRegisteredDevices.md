@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Pocket/GetRegisteredDevices
-id: v1PocketAgent_GetRegisteredDevices
+uid: v1PocketAgent_GetRegisteredDevices
 ---
 
 # POST Agents/Pocket/GetRegisteredDevices
@@ -11,6 +11,12 @@ POST /api/v1/Agents/Pocket/GetRegisteredDevices
 
 Retrieve all registered devices for an associate
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Retrieve all registered devices for an associate
 ```http
 POST /api/v1/Agents/Pocket/GetRegisteredDevices?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,15 +42,18 @@ POST /api/v1/Agents/Pocket/GetRegisteredDevices?$select=name,department,category
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-AssociateId
+AssociateId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | AssociateId | int32 |  |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -62,7 +72,7 @@ Response body: array
 | OSVersion | string | The operating system version. Ex: 'iOS v10.2' |
 | TimeZoneId | int32 | The timezone to show for dates in messages |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Pocket/GetRegisteredDevices
@@ -72,9 +82,11 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 891
+  "AssociateId": 432
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -82,14 +94,14 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DeviceName": "Spinka Group",
-    "DeviceIdentifier": "quia",
-    "PocketVersion": "vel",
-    "Language": "ipsa",
-    "PNSHandle": "esse",
+    "DeviceName": "Erdman, Bednar and Bernhard",
+    "DeviceIdentifier": "enim",
+    "PocketVersion": "architecto",
+    "Language": "sed",
+    "PNSHandle": "consequatur",
     "Platform": "Apple",
-    "OSVersion": "debitis",
-    "TimeZoneId": 227
+    "OSVersion": "aut",
+    "TimeZoneId": 910
   }
 ]
 ```

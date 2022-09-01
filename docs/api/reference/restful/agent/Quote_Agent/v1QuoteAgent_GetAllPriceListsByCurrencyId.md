@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Quote/GetAllPriceListsByCurrencyId
-id: v1QuoteAgent_GetAllPriceListsByCurrencyId
+uid: v1QuoteAgent_GetAllPriceListsByCurrencyId
 ---
 
 # POST Agents/Quote/GetAllPriceListsByCurrencyId
@@ -11,7 +11,13 @@ POST /api/v1/Agents/Quote/GetAllPriceListsByCurrencyId
 
 Gets the all PriceLists in all currencies, including those inactive.
 
+
 Will return empty array if there is no PriceList available.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +28,7 @@ Will return empty array if there is no PriceList available.
 ```http
 POST /api/v1/Agents/Quote/GetAllPriceListsByCurrencyId?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,16 +44,19 @@ POST /api/v1/Agents/Quote/GetAllPriceListsByCurrencyId?$select=name,department,c
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-QuoteConnectionId, CurrencyId
+QuoteConnectionId, CurrencyId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | QuoteConnectionId | int32 |  |
 | CurrencyId | int32 |  |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -69,20 +79,22 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Quote/GetAllPriceListsByCurrencyId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 846,
-  "CurrencyId": 752
+  "QuoteConnectionId": 150,
+  "CurrencyId": 147
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -90,28 +102,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PriceListId": 37,
-    "ERPPriceListKey": "reiciendis",
-    "QuoteConnectionId": 43,
-    "Name": "Rowe, Blanda and Reilly",
-    "Description": "Ameliorated assymetric focus group",
-    "Currency": "consequuntur",
-    "CurrencyName": "Funk-Herman",
-    "ValidFrom": "2013-06-05T18:28:49.9451373+02:00",
-    "ValidTo": "2018-12-19T18:28:49.9451373+01:00",
-    "IsActive": false,
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": "leverage frictionless experiences"
-    },
+    "PriceListId": 81,
+    "ERPPriceListKey": "quod",
+    "QuoteConnectionId": 859,
+    "Name": "Bruen Group",
+    "Description": "Streamlined assymetric website",
+    "Currency": "et",
+    "CurrencyName": "Conroy Inc and Sons",
+    "ValidFrom": "2019-09-20T11:10:27.7114917+02:00",
+    "ValidTo": "2009-09-02T11:10:27.7114917+02:00",
+    "IsActive": true,
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.Int32",
-        "FieldLength": 783
+        "FieldRight": null,
+        "FieldType": "System.String",
+        "FieldLength": 763
       }
     }
   }

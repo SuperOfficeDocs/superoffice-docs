@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Document/GetPersonDocumentsByDate
-id: v1DocumentAgent_GetPersonDocumentsByDate
+uid: v1DocumentAgent_GetPersonDocumentsByDate
 ---
 
 # POST Agents/Document/GetPersonDocumentsByDate
@@ -11,7 +11,13 @@ POST /api/v1/Agents/Document/GetPersonDocumentsByDate
 
 Method that returns a specified number of document appointments within a time range.
 
+
 The document appointments belong to the person specified.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +28,7 @@ The document appointments belong to the person specified.
 ```http
 POST /api/v1/Agents/Document/GetPersonDocumentsByDate?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,9 +44,9 @@ POST /api/v1/Agents/Document/GetPersonDocumentsByDate?$select=name,department,ca
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-PersonId, IncludeProjectDocuments, StartTime, EndTime, Count
+PersonId, IncludeProjectDocuments, StartTime, EndTime, Count 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -49,7 +56,10 @@ PersonId, IncludeProjectDocuments, StartTime, EndTime, Count
 | EndTime | date-time |  |
 | Count | int32 |  |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -77,26 +87,30 @@ Response body: array
 | ProjectName | string | Project name |
 | AssociateId | int32 | ID of associate whose diary the appointment is in, REQUIRED |
 | Snum | int32 | The sequence number allocated from refcount on used template when creating the document |
+| SaleId | int32 | Owning sale, if any (may be 0) |
+| SaleName | string | Heading of Owning sale, if any. (may be blank) |
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Document/GetPersonDocumentsByDate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 406,
+  "PersonId": 298,
   "IncludeProjectDocuments": false,
-  "StartTime": "2019-04-30T18:28:48.7279561+02:00",
-  "EndTime": "2017-08-04T18:28:48.7279561+02:00",
-  "Count": 193
+  "StartTime": "2004-11-07T11:10:26.4854527+01:00",
+  "EndTime": "2019-07-12T11:10:26.4854527+02:00",
+  "Count": 492
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -104,36 +118,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 814,
-    "Attention": "quos",
-    "Header": "nam",
-    "Name": "Crooks-Howell",
-    "OurRef": "et",
-    "YourRef": "magni",
-    "Description": "Reverse-engineered cohesive toolset",
-    "DocumentTemplate": "voluptas",
-    "IsPublished": false,
-    "PersonId": 433,
-    "PersonFullName": "Santino Rohan",
-    "AssociateFullName": "Florence Jast",
-    "ContactId": 62,
-    "ContactName": "Huels Group",
-    "ProjectId": 1001,
-    "ProjectName": "Ferry, Harber and Haley",
-    "AssociateId": 175,
-    "Snum": 969,
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "DocumentId": 158,
+    "Attention": "voluptates",
+    "Header": "dolores",
+    "Name": "Berge, Pollich and Corkery",
+    "OurRef": "porro",
+    "YourRef": "sed",
+    "Description": "Public-key assymetric groupware",
+    "DocumentTemplate": "praesentium",
+    "IsPublished": true,
+    "PersonId": 780,
+    "PersonFullName": "Isabella Dicki",
+    "AssociateFullName": "Karlee Bernhard",
+    "ContactId": 128,
+    "ContactName": "Grant, Pouros and Kulas",
+    "ProjectId": 982,
+    "ProjectName": "Haag Inc and Sons",
+    "AssociateId": 307,
+    "Snum": 874,
+    "SaleId": 257,
+    "SaleName": "Hermann LLC",
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 623
+        "FieldRight": null,
+        "FieldType": "System.Int32",
+        "FieldLength": 152
       }
     }
   }

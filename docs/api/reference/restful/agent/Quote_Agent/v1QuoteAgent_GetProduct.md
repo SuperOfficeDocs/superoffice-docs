@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Quote/GetProduct
-id: v1QuoteAgent_GetProduct
+uid: v1QuoteAgent_GetProduct
 ---
 
 # POST Agents/Quote/GetProduct
@@ -11,6 +11,12 @@ POST /api/v1/Agents/Quote/GetProduct
 
 Get a product with the given key
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Get a product with the given key
 ```http
 POST /api/v1/Agents/Quote/GetProduct?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,27 +42,25 @@ POST /api/v1/Agents/Quote/GetProduct?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-QuoteConnectionId, ERPProductKey
+QuoteConnectionId, ERPProductKey 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | QuoteConnectionId | int32 |  |
 | ERPProductKey | string |  |
 
-## Response: object
 
-Information about a Product from the ERP system. This may be fetched from SuperOffice Product table through the SO Connector
+## Response: 
 
-Carrier object for Product.
-Services for the Product Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IQuoteAgent">Quote Agent</see>.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -75,7 +80,7 @@ Response body: object
 | ProductCategoryKey | string | Either a List id to an id from a connector provided list, or, if the connection doesn’t support lists, a text with the actual product category. |
 | ProductFamilyKey | string | Either a List id to an id from a connector provided list, or, if the connection doesn't support lists, a text with the actual product family. |
 | ProductTypeKey | string | Either a List id to an id from a connector provided list, or, if the connection doesn’t support lists, a text with the actual product type. |
-| VAT | double | Tax/VAT if available from ERP system. THIS IS A PERCENTAGE. In the SuperOffice product register, this field is available in the product admin GUI. |
+| VAT | double | Tax/VAT if available from ERP system. THIS IS A PERCENTAGE. In the Superoffice product register, this field is available in the product admin GUI. |
 | VATInfo | string | A field for putting VATInfo you need to show in the final quoteDocument, like the VAT type that is used. Not used in any business logic in SuperOffice; available to document templates. |
 | UnitCost | double | The cost price. Might not be given, use Decimal.MinValue to signal this. |
 | UnitMinimumPrice | double | The minimum price this salesman can offer to his customer. This might be cost price if there is no policy. Might not be given, use Decimal.MinValue to signal this. |
@@ -96,7 +101,7 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Quote/GetProduct
@@ -106,95 +111,85 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 369,
-  "ERPProductKey": "omnis"
+  "QuoteConnectionId": 409,
+  "ERPProductKey": "ut"
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 976,
-  "ERPProductKey": "tenetur",
-  "ERPPriceListKey": "quasi",
-  "Name": "Nolan, Zboncak and McDermott",
-  "Description": "Implemented responsive support",
-  "Code": "maiores",
-  "PriceUnit": "rem",
-  "QuantityUnit": "nesciunt",
-  "IsSubscription": true,
-  "SubscriptionUnit": "consequatur",
-  "DefaultSubscriptionQuantity": 23370.237999999998,
-  "ItemNumber": "1407625",
+  "ProductId": 596,
+  "ERPProductKey": "quia",
+  "ERPPriceListKey": "vero",
+  "Name": "Rodriguez Group",
+  "Description": "Persistent even-keeled knowledge user",
+  "Code": "et",
+  "PriceUnit": "itaque",
+  "QuantityUnit": "repellat",
+  "IsSubscription": false,
+  "SubscriptionUnit": "dolor",
+  "DefaultSubscriptionQuantity": 3807.81,
+  "ItemNumber": "822314",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "praesentium",
-  "ProductTypeKey": "quidem",
-  "VAT": 4885.906,
-  "VATInfo": "inventore",
-  "UnitCost": 5249.45,
-  "UnitMinimumPrice": 28231.072,
-  "UnitListPrice": 20634.255999999998,
+  "ProductFamilyKey": "beatae",
+  "ProductTypeKey": "quia",
+  "VAT": 23034.899999999998,
+  "VATInfo": "et",
+  "UnitCost": 21734.29,
+  "UnitMinimumPrice": 22094.7,
+  "UnitListPrice": 1300.61,
   "InAssortment": true,
-  "Supplier": "enim",
-  "SupplierCode": "magnam",
-  "Rights": "fugiat",
-  "Rule": "sunt",
+  "Supplier": "quidem",
+  "SupplierCode": "quaerat",
+  "Rights": "dicta",
+  "Rule": "aliquid",
   "ExtraInfo": [
     {
-      "Name": "Parisian-Parker",
-      "Value": "voluptatum",
+      "Name": "Cruickshank, Daniel and Cormier",
+      "Value": "accusantium",
       "Type": "Image",
-      "TableRight": {},
+      "TableRight": null,
       "FieldProperties": {
         "fieldName": {
-          "FieldRight": {
-            "Mask": "FULL",
-            "Reason": ""
-          },
+          "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 425
+          "FieldLength": 792
         }
       }
     },
     {
-      "Name": "Parisian-Parker",
-      "Value": "voluptatum",
+      "Name": "Cruickshank, Daniel and Cormier",
+      "Value": "accusantium",
       "Type": "Image",
-      "TableRight": {},
+      "TableRight": null,
       "FieldProperties": {
         "fieldName": {
-          "FieldRight": {
-            "Mask": "FULL",
-            "Reason": ""
-          },
+          "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 425
+          "FieldLength": 792
         }
       }
     }
   ],
-  "RawExtraInfo": "aut",
-  "ExtraField1": "harum",
-  "ExtraField2": "asperiores",
-  "ExtraField3": "consequatur",
-  "ExtraField4": "quo",
-  "ExtraField5": "ipsam",
-  "InStock": 19687.788,
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "RawExtraInfo": "voluptas",
+  "ExtraField1": "qui",
+  "ExtraField2": "molestiae",
+  "ExtraField3": "ut",
+  "ExtraField4": "quidem",
+  "ExtraField5": "facere",
+  "InStock": 15948.926,
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
+      "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 404
+      "FieldLength": 964
     }
   }
 }

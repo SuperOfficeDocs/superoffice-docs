@@ -1,6 +1,6 @@
 ---
 title: GET List/Task/Items/{id}/Headings
-id: v1TaskList_GetTaskListItemHeadingsForListItem
+uid: v1TaskList_GetTaskListItemHeadingsForListItem
 ---
 
 # GET List/Task/Items/{id}/Headings
@@ -11,11 +11,17 @@ GET /api/v1/List/Task/Items/{itemId}/Headings
 
 Gets headings for the TaskListItem list's item.
 
+
 Calls the Appointment agent service GetHeadings.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | itemId | int32 | The ID of the headings to be get. **Required** |
+
 
 ## Query String Parameters
 
@@ -26,6 +32,7 @@ Calls the Appointment agent service GetHeadings.
 ```http
 GET /api/v1/List/Task/Items/{itemId}/Headings?showDeleted=False
 ```
+
 
 ## Request Headers
 
@@ -40,7 +47,10 @@ GET /api/v1/List/Task/Items/{itemId}/Headings?showDeleted=False
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -68,14 +78,16 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 GET /api/v1/List/Task/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -83,65 +95,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 7,
-    "Name": "Grady Group",
-    "ToolTip": "Officia esse saepe.",
+    "Id": 204,
+    "Name": "McKenzie, D'Amore and Christiansen",
+    "ToolTip": "Est odit iusto aut recusandae.",
     "Deleted": true,
-    "Rank": 893,
-    "Type": "aperiam",
-    "ColorBlock": 982,
-    "IconHint": "et",
+    "Rank": 990,
+    "Type": "sequi",
+    "ColorBlock": 864,
+    "IconHint": "aliquid",
     "Selected": false,
-    "LastChanged": "1997-08-27T18:25:52.2856766+02:00",
+    "LastChanged": "2012-10-17T11:10:54.6649294+02:00",
     "ChildItems": [
       {
-        "Id": 693,
-        "Name": "Fahey Group",
-        "ToolTip": "Doloremque est.",
-        "Deleted": false,
-        "Rank": 51,
-        "Type": "perspiciatis",
-        "ColorBlock": 709,
-        "IconHint": "magnam",
+        "Id": 573,
+        "Name": "Franecki-Flatley",
+        "ToolTip": "Alias repudiandae enim aut.",
+        "Deleted": true,
+        "Rank": 776,
+        "Type": "minus",
+        "ColorBlock": 305,
+        "IconHint": "nulla",
         "Selected": false,
-        "LastChanged": "1994-09-11T18:25:52.2856766+02:00",
+        "LastChanged": "2006-09-14T11:10:54.6649294+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "aperiam",
-        "StyleHint": "nihil",
+        "ExtraInfo": "illum",
+        "StyleHint": "error",
         "Hidden": false,
-        "FullName": "Ms. Kyleigh Gottlieb",
-        "TableRight": {},
+        "FullName": "Cornell Cordie Koss MD",
+        "TableRight": null,
         "FieldProperties": {
           "fieldName": {
-            "FieldRight": {
-              "Mask": "FULL",
-              "Reason": ""
-            },
+            "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 881
+            "FieldLength": 151
           }
         }
       }
     ],
-    "ExtraInfo": "vel",
-    "StyleHint": "praesentium",
-    "Hidden": false,
-    "FullName": "Betsy Strosin",
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "ExtraInfo": "commodi",
+    "StyleHint": "fugiat",
+    "Hidden": true,
+    "FullName": "Mr. Cecile Kshlerin V",
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
+        "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 199
+        "FieldLength": 594
       }
     }
   }

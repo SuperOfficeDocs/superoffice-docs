@@ -1,6 +1,6 @@
 ---
 title: POST ChatSession/{id}/Transcript
-id: v1ChatSessionEntity_GetChatTranscript
+uid: v1ChatSessionEntity_GetChatTranscript
 ---
 
 # POST ChatSession/{id}/Transcript
@@ -11,9 +11,15 @@ POST /api/v1/ChatSession/{chatSessionId}/Transcript
 
 Get the chat transcript, formatted as plain text or html
 
+
+
+
+
+
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | chatSessionId | int32 | id of the chat session to get the transcript for **Required** |
+
 
 ## Query String Parameters
 
@@ -22,8 +28,9 @@ Get the chat transcript, formatted as plain text or html
 | html | bool |  Get transcript as HTML |
 
 ```http
-POST /api/v1/ChatSession/{chatSessionId}/Transcript?html=True
+POST /api/v1/ChatSession/{chatSessionId}/Transcript?html=False
 ```
+
 
 ## Request Headers
 
@@ -38,7 +45,10 @@ POST /api/v1/ChatSession/{chatSessionId}/Transcript?html=True
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
+
 ## Response: string
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -46,18 +56,21 @@ POST /api/v1/ChatSession/{chatSessionId}/Transcript?html=True
 
 Response body: string
 
-## Sample Request
+
+## Sample request
 
 ```http!
 POST /api/v1/ChatSession/{chatSessionId}/Transcript
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"error"
+"suscipit"
 ```

@@ -1,6 +1,6 @@
 ---
 title: POST Agents/NumberAllocation/SaveDefaultNumbering
-id: v1NumberAllocationAgent_SaveDefaultNumbering
+uid: v1NumberAllocationAgent_SaveDefaultNumbering
 ---
 
 # POST Agents/NumberAllocation/SaveDefaultNumbering
@@ -10,6 +10,12 @@ POST /api/v1/Agents/NumberAllocation/SaveDefaultNumbering
 ```
 
 Saves default numbering values in preferences
+
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -21,6 +27,7 @@ Saves default numbering values in preferences
 POST /api/v1/Agents/NumberAllocation/SaveDefaultNumbering?$select=name,department,category/id
 ```
 
+
 ## Request Headers
 
 | Parameter Name | Description |
@@ -28,18 +35,48 @@ POST /api/v1/Agents/NumberAllocation/SaveDefaultNumbering?$select=name,departmen
 | Authorization  | Supports 'Basic', 'SoTicket' and 'Bearer' schemes, depending on installation type. |
 | X-XSRF-TOKEN   | If not using Authorization header, you must provide XSRF value from cookie or hidden input field |
 | Content-Type | Content-type of the request body: `application/json`, `text/json`, `application/xml`, `text/xml`, `application/x-www-form-urlencoded`, `application/json-patch+json`, `application/merge-patch+json` |
+| Accept         | Content-type(s) you would like the response in:  |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-RefCountEntity
+RefCountEntity 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| RefCountEntity |  | A refcount entity for a number allocation <br /> Carrier object for RefCountEntity. Services for the RefCountEntity Carrier is available from the <see cref="T:SuperOffice.CRM.Services.INumberAllocationAgent">NumberAllocation Agent</see>. |
+| RefCountEntity |  | A refcount entity for a number allocation <para /> Carrier object for RefCountEntity. Services for the RefCountEntity Carrier is available from the <see cref="T:SuperOffice.CRM.Services.INumberAllocationAgent">NumberAllocation Agent</see>. |
 
-## Response
+
+## Response: 
+
+No Content
 
 | Response | Description |
 |----------------|-------------|
 | 204 | No Content |
+
+Response body: 
+
+
+## Sample request
+
+```http!
+POST /api/v1/Agents/NumberAllocation/SaveDefaultNumbering
+Authorization: Basic dGplMDpUamUw
+Accept: application/json; charset=utf-8
+Accept-Language: en
+Content-Type: application/json; charset=utf-8
+
+{
+  "RefCountEntity": null
+}
+```
+
+## Sample response
+
+```http_
+HTTP/1.1 204 No Content
+Content-Type: application/json; charset=utf-8
+
+null
+```

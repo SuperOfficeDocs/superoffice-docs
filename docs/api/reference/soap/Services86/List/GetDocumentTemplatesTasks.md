@@ -13,7 +13,9 @@ Implemented by the <see cref="M:SuperOffice.Services86.IListAgent.GetDocumentTem
 
 The appointment's task is a Document template item when the appointment is a document.
 
+
 **Returns:** Document Template list as a array of Tasks
+
 
 [WSDL file for Services86/List](../Services86-List.md)
 
@@ -46,6 +48,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## GetDocumentTemplatesTasks Response
 
 ```xml
@@ -72,3 +75,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

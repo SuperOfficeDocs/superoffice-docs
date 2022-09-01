@@ -8,7 +8,7 @@ keywords:
   - "archive provider"
   - "FreetextSelection"
 so.generated: true
-so.date: 03.23.2021
+so.date: 08.26.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -20,27 +20,27 @@ so.envir:
 This provider name is implemented by the class <see cref="T:SuperOffice.CRM.ArchiveLists.FreetextSelectionResultProvider">SuperOffice.CRM.ArchiveLists.FreetextSelectionResultProvider</see> inside NetServer's SODatabase assembly.
 
 Archive provider for freetext search on the Selection entity.
-
+<para />
 Use the 'searchwords' restriction with one or more words to specify what to search for. The operator is ignored,
 the freetext search will apply the 'begins' operator to each word and 'AND' between them.
-
+<para />
 It is possible to combine freetext search words with other restrictions and criteria native to the entity and
 its standard subproviders. Note however that this is not the same search as provided by the 'Find' providers, since
 they apply various special rules not present here.
-
+<para />
 Freetext search will limit the number of hits to the first 1000. This clipping is applied before any other criteria,
 as well as before any ORDER BY, are applied.
 
 ## Supported Entities
 
 | Name | Description |
-| ---- | ----- |
+| ---- | ----------- |
 |"selection"|Selection|
 
 ## Supported Columns
 
-| Name | Restriction | Description | OrderBy
-| ---- | ----- | ------- | ------ |
+| Name | Restriction | Description | OrderBy |
+| ---- | ----------- | ----------- | ------- |
 |getAllRows|bool|GetAll: Get all rows of archive - use with care, you may be fetching the whole database|  |
 |getNoRows|bool|GetNone: Do not get any rows from the archive|  |
 |searchwords|string|Search word: One or more words to be used in free text search|  |
@@ -53,13 +53,17 @@ as well as before any ORDER BY, are applied.
 |combinationType|listAny|Combination type: Displays the combination type for a selection| x |
 |done|bool|Completed: Shows whether the selection has been completed| x |
 |updatedBy|associate|Updated by: The user who last updated the data| x |
+|updatedByFullName|associate|Updated by - Full name: The user who last updated the data| x |
 |updatedDate|date|Updated: The date/time the data was last updated in UTC.| x |
 |registeredBy|associate|Registered by: The user who registered the data| x |
+|registeredByFullName|associate|Registered by - Full name: The user who registered the data| x |
 |registeredDate|date|Registered date: The date/time the data was registered in UTC.| x |
-|lastLoaded|date|Viewed: When was the result list for the selection last shown| x |
-|lastLoadedBy|associate|Viewed by: Who was the last person to show the result list for the selection| x |
+|lastLoaded|date|Last used: When was the result list for the selection last shown| x |
+|lastLoadedBy|associate|Last used by: Who was the last person to show the result list for the selection| x |
+|lastLoadedByFullName|associate|Last used by - Full name: Who was the last person to show the result list for the selection| x |
 |lastMembershipChange|date|Members changed: When was the result list for the selection last changed, for instance due to a change in the criteria| x |
 |lastMembershipChangeBy|associate|Members changed by: Who was the last person to change the result list for the selection, for instance by changing the criteria| x |
+|lastMembershipChangeByFullName|associate|Members changed by - Full name: Who was the last person to change the result list for the selection, for instance by changing the criteria| x |
 |memberCount|int|Members: How many members were in the selection, the last time all were fetched. May be imprecise/outdated.| x |
 |visibleFor|listAny|Visible for|  |
 |selectionAssociate/firstName|string|First name: Displays the contact's first name| x |
@@ -96,11 +100,14 @@ as well as before any ORDER BY, are applied.
 ## Sample
 
 ```http!
-GET /api/v1/archive/FreetextSelection?$select=lastMembershipChange,selectionAssociate/contactId
+GET /api/v1/archive/FreetextSelection?$select=lastLoadedBy,selectionAssociate/middleName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv
 
 ```
 
-See also: <see cref="T:SuperOffice.CRM.Services.IArchiveAgent">IArchiveAgent</see>.
+
+
+See also: <see cref="T:SuperOffice.CRM.Services.IArchiveAgent">IArchiveAgent</see>.</p>
+

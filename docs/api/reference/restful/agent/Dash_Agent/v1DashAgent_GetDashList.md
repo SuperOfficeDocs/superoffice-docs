@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Dash/GetDashList
-id: v1DashAgent_GetDashList
+uid: v1DashAgent_GetDashList
 ---
 
 # POST Agents/Dash/GetDashList
@@ -11,6 +11,12 @@ POST /api/v1/Agents/Dash/GetDashList
 
 Gets the ordered list of dashboards
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Gets the ordered list of dashboards
 ```http
 POST /api/v1/Agents/Dash/GetDashList?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,15 +42,18 @@ POST /api/v1/Agents/Dash/GetDashList?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-Dashboards
+Dashboards 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | Dashboards | array |  |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -69,22 +79,24 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Dash/GetDashList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "Dashboards": [
-    168,
-    22
+    197,
+    457
   ]
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -92,60 +104,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DashboardId": 265,
-    "UniqueId": "suscipit",
-    "Name": "Jacobs-Breitenberg",
-    "Description": "Organized bandwidth-monitored workforce",
-    "AssociateId": 578,
-    "Columns": 739,
-    "Theme": {
-      "DashboardThemeId": 245,
-      "Name": "Greenholt-Gottlieb",
-      "Config": "voluptatum",
-      "Rank": 783,
-      "Client": "rerum",
-      "TableRight": {},
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": {
-            "Mask": "FULL",
-            "Reason": ""
-          },
-          "FieldType": "System.Int32",
-          "FieldLength": 117
-        }
-      }
-    },
-    "VisibleForAll": 770,
+    "DashboardId": 45,
+    "UniqueId": "est",
+    "Name": "Collins-Streich",
+    "Description": "Ergonomic analyzing secured line",
+    "AssociateId": 516,
+    "Columns": 74,
+    "Theme": null,
+    "VisibleForAll": 662,
     "VisibleForAssociates": [
-      447,
-      647
+      691,
+      726
     ],
     "VisibleForGroups": [
-      486,
-      424
+      995,
+      814
     ],
-    "PinForAll": 775,
+    "PinForAll": 451,
     "PinForAssociates": [
-      353,
-      588
+      213,
+      254
     ],
     "PinForGroups": [
-      170,
-      383
+      157,
+      635
     ],
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": "whiteboard dot-com e-services"
-    },
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
+        "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 939
+        "FieldLength": 408
       }
     }
   }

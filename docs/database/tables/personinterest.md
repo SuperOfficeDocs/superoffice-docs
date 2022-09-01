@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "personinterest"
-so.date: 04.12.2022
+so.date: 08.26.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -33,6 +33,7 @@ Note; If you add or remove rows in this table, you will need to update the inter
 |updated\_associate\_id|Last updated by whom|FK [associate](associate.md)| |
 |updatedCount|Number of updates made to this record|UShort| |
 
+
 ![personinterest table relationship diagram](./media/personinterest.png)
 
 [!include[details](./includes/personinterest.md)]
@@ -56,6 +57,7 @@ Note; If you add or remove rows in this table, you will need to update the inter
 |[PersInt](persint.md)  |PersInt list table. List of Person interests. |
 |[person](person.md)  |Persons in a company or an organizations. All associates have a corresponding person record |
 
+
 ## Replication Flags
 
 * Area Management controlled table. Contents replicated to satellites and traveller databases.
@@ -65,3 +67,4 @@ Note; If you add or remove rows in this table, you will need to update the inter
 ## Security Flags
 
 * Sentry controls access to items in this table using user's Role and data rights matrix on the table's parent.
+

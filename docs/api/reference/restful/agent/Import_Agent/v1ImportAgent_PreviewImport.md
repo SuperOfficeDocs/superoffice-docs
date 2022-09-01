@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Import/PreviewImport
-id: v1ImportAgent_PreviewImport
+uid: v1ImportAgent_PreviewImport
 ---
 
 # POST Agents/Import/PreviewImport
@@ -11,6 +11,12 @@ POST /api/v1/Agents/Import/PreviewImport
 
 Preview the import
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Preview the import
 ```http
 POST /api/v1/Agents/Import/PreviewImport?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,9 +42,9 @@ POST /api/v1/Agents/Import/PreviewImport?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-ImportLines, ColumnDefinition, Culture, Context
+ImportLines, ColumnDefinition, Culture, Context 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -46,7 +53,10 @@ ImportLines, ColumnDefinition, Culture, Context
 | Culture | string |  |
 | Context | string |  |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -64,46 +74,48 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Import/PreviewImport
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "ImportLines": [
     {
       "Values": [
-        "sed",
-        "et"
+        "quisquam",
+        "nemo"
       ],
       "Selected": false,
       "Operation": "ContactAdded",
       "Type": "Contact",
-      "ExternalKey": "sit"
+      "ExternalKey": "voluptatem"
     },
     {
       "Values": [
-        "sed",
-        "et"
+        "quisquam",
+        "nemo"
       ],
       "Selected": false,
       "Operation": "ContactAdded",
       "Type": "Contact",
-      "ExternalKey": "sit"
+      "ExternalKey": "voluptatem"
     }
   ],
   "ColumnDefinition": [
-    "quos",
-    "autem"
+    "voluptatem",
+    "eos"
   ],
-  "Culture": "tenetur",
-  "Context": "voluptas"
+  "Culture": "doloremque",
+  "Context": "ut"
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -112,25 +124,19 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "Values": [
-      "iusto",
-      "porro"
+      "molestias",
+      "aut"
     ],
     "Selected": true,
     "Operation": "ContactAdded",
     "Type": "Contact",
-    "ExternalKey": "unde",
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "ExternalKey": "possimus",
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
+        "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 275
+        "FieldLength": 559
       }
     }
   }

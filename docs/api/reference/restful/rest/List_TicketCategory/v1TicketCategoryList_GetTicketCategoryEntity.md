@@ -1,6 +1,6 @@
 ---
 title: GET List/TicketCategory/Items/{id}
-id: v1TicketCategoryList_GetTicketCategoryEntity
+uid: v1TicketCategoryList_GetTicketCategoryEntity
 ---
 
 # GET List/TicketCategory/Items/{id}
@@ -11,11 +11,18 @@ GET /api/v1/List/TicketCategory/Items/{id}
 
 Gets a TicketCategoryEntity list item.
 
+
 Calls the List agent service GetTicketCategoryEntity.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | id | int32 | The id of the TicketCategoryEntity to return. **Required** |
+
+
 
 ## Request Headers
 
@@ -30,19 +37,17 @@ Calls the List agent service GetTicketCategoryEntity.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response: object
 
-This entity describes the meta data for a ticket category, and provides special operations on it.
+## Response: 
 
-Carrier object for TicketCategoryEntity.
-Services for the TicketCategoryEntity Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IListAgent">List Agent</see>.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 | 404 | Not Found. |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -66,93 +71,51 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 GET /api/v1/List/TicketCategory/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketCategoryId": 85,
-  "ParentId": 124,
-  "Name": "Morar-Cronin",
-  "Fullname": "consequuntur",
-  "CategoryMaster": 164,
+  "TicketCategoryId": 868,
+  "ParentId": 534,
+  "Name": "Christiansen, Crooks and Yundt",
+  "Fullname": "expedita",
+  "CategoryMaster": 751,
   "Flags": "AcceptWhenReplying",
   "DelegateMethod": "Even",
-  "ExternalName": "Bernier, Runolfsdottir and Johnson",
+  "ExternalName": "Brakus-Muller",
   "ClosingStatus": "Active",
   "MsgClosingStatus": "Active",
-  "AssignmentLag": 82,
-  "ReplyTemplate": 707,
-  "NotificationEmail": "carolyne.friesen@schowalter.biz",
-  "DefaultTicketStatus": {
-    "TicketStatusId": 803,
-    "Name": "Boehm, Lesch and Ledner",
-    "Status": "Active",
-    "TimeCounter": "Externally",
-    "NoEmailReopen": true,
-    "IsDefault": false,
-    "UsedInQueue": true,
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": "enhance 24/365 schemas"
-        },
-        "FieldType": "System.Int32",
-        "FieldLength": 984
-      }
-    }
-  },
-  "DefaultMessageStatus": {
-    "TicketStatusId": 323,
-    "Name": "Wisoky, Lind and Schroeder",
-    "Status": "Active",
-    "TimeCounter": "Externally",
-    "NoEmailReopen": false,
-    "IsDefault": true,
-    "UsedInQueue": false,
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.Int32",
-        "FieldLength": 757
-      }
-    }
-  },
+  "AssignmentLag": 187,
+  "ReplyTemplate": 307,
+  "NotificationEmail": "uriah.lesch@fay.info",
+  "DefaultTicketStatus": null,
+  "DefaultMessageStatus": null,
   "ExtraFields": {
-    "ExtraFields1": "eligendi",
-    "ExtraFields2": "quia"
+    "ExtraFields1": "ut",
+    "ExtraFields2": "qui"
   },
   "CustomFields": {
-    "CustomFields1": "tempora",
-    "CustomFields2": "consectetur"
+    "CustomFields1": "qui",
+    "CustomFields2": "qui"
   },
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
+      "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 97
+      "FieldLength": 690
     }
   }
 }

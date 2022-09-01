@@ -1,6 +1,6 @@
 ---
 title: PUT Contact/{id}/ImageInfo
-id: v1ContactEntity_PutImageInfo
+uid: v1ContactEntity_PutImageInfo
 ---
 
 # PUT Contact/{id}/ImageInfo
@@ -11,11 +11,18 @@ PUT /api/v1/Contact/{contactId}/ImageInfo
 
 Update the Blob that describes the given contact's picture.
 
+
 The actual bitmap is accessible via /api/v1/contact/123/image.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | contactId | int32 | Contact id **Required** |
+
+
 
 ## Request Headers
 
@@ -31,9 +38,9 @@ The actual bitmap is accessible via /api/v1/contact/123/image.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: imageInfo
+## Request Body: imageInfo  
 
-New or Updated information about the image.
+New or Updated information about the image. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -51,16 +58,16 @@ New or Updated information about the image.
 | UpdatedBy |  | The person that last updated the appointment. |
 | ConceptualType | string | The type, for instance PHOTO, PERSONPHOTO, or whatever, that is descriptive of what kind of image or data this is |
 
-## Response: object
 
-Carrier object for BlobEntity.
-Services for the BlobEntity Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IBLOBAgent">BLOB Agent</see>.
+## Response: 
+
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -80,136 +87,58 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 PUT /api/v1/Contact/{contactId}/ImageInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 439,
-  "BlobSize": 87,
-  "Description": "Cross-platform zero administration monitoring",
-  "ExtraInfo": "nam",
-  "IsEncrypted": true,
+  "BlobId": 940,
+  "BlobSize": 815,
+  "Description": "Synergized user-facing middleware",
+  "ExtraInfo": "et",
+  "IsEncrypted": false,
   "IsZipped": false,
-  "MimeType": "rem",
-  "OriginalSize": 412,
-  "CreatedDate": "1995-03-25T18:25:50.1946246+01:00",
-  "UpdatedDate": "2009-03-17T18:25:50.1946246+01:00",
-  "CreatedBy": {
-    "AssociateId": 726,
-    "Name": "Schaefer Inc and Sons",
-    "PersonId": 699,
-    "Rank": 119,
-    "Tooltip": "ducimus",
-    "Type": "AnonymousAssociate",
-    "GroupIdx": 985,
-    "FullName": "Armani Kirlin",
-    "FormalName": "Kerluke Inc and Sons",
-    "Deleted": true,
-    "EjUserId": 596,
-    "UserName": "Macejkovic Group"
-  },
-  "UpdatedBy": {
-    "AssociateId": 298,
-    "Name": "Conroy, Nienow and Green",
-    "PersonId": 903,
-    "Rank": 250,
-    "Tooltip": "qui",
-    "Type": "AnonymousAssociate",
-    "GroupIdx": 273,
-    "FullName": "Miss Selina Oberbrunner",
-    "FormalName": "Kautzer, Reichel and O'Kon",
-    "Deleted": false,
-    "EjUserId": 990,
-    "UserName": "Connelly Inc and Sons"
-  },
-  "ConceptualType": "minus"
+  "MimeType": "et",
+  "OriginalSize": 637,
+  "CreatedDate": "2002-06-02T11:10:52.6101755+02:00",
+  "UpdatedDate": "1999-01-16T11:10:52.6101755+01:00",
+  "CreatedBy": null,
+  "UpdatedBy": null,
+  "ConceptualType": "fuga"
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 662,
-  "BlobSize": 731,
-  "Description": "Fundamental contextually-based software",
-  "ExtraInfo": "non",
-  "IsEncrypted": true,
+  "BlobId": 528,
+  "BlobSize": 391,
+  "Description": "Re-contextualized coherent superstructure",
+  "ExtraInfo": "quaerat",
+  "IsEncrypted": false,
   "IsZipped": false,
-  "MimeType": "rerum",
-  "OriginalSize": 117,
-  "CreatedDate": "2007-09-01T18:25:50.1966245+02:00",
-  "UpdatedDate": "2005-05-18T18:25:50.1966245+02:00",
-  "CreatedBy": {
-    "AssociateId": 864,
-    "Name": "Brakus, Nolan and Powlowski",
-    "PersonId": 723,
-    "Rank": 286,
-    "Tooltip": "numquam",
-    "Type": "AnonymousAssociate",
-    "GroupIdx": 383,
-    "FullName": "Jakob Larkin",
-    "FormalName": "Reinger, Bruen and Barrows",
-    "Deleted": true,
-    "EjUserId": 159,
-    "UserName": "Prohaska LLC",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.Int32",
-        "FieldLength": 239
-      }
-    }
-  },
-  "UpdatedBy": {
-    "AssociateId": 101,
-    "Name": "Yost, Mante and Murphy",
-    "PersonId": 876,
-    "Rank": 249,
-    "Tooltip": "ut",
-    "Type": "AnonymousAssociate",
-    "GroupIdx": 189,
-    "FullName": "Ms. Baylee Davis",
-    "FormalName": "Huels-Stehr",
-    "Deleted": true,
-    "EjUserId": 98,
-    "UserName": "Leuschke, West and Collier",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.Int32",
-        "FieldLength": 311
-      }
-    }
-  },
-  "ConceptualType": "quia",
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "MimeType": "cumque",
+  "OriginalSize": 779,
+  "CreatedDate": "2002-01-23T11:10:52.6131796+01:00",
+  "UpdatedDate": "1995-04-16T11:10:52.6131796+02:00",
+  "CreatedBy": null,
+  "UpdatedBy": null,
+  "ConceptualType": "dolorem",
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
-      "FieldType": "System.Int32",
-      "FieldLength": 515
+      "FieldRight": null,
+      "FieldType": "System.String",
+      "FieldLength": 697
     }
   }
 }

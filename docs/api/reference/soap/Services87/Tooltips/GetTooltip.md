@@ -13,7 +13,9 @@ Implemented by the <see cref="M:SuperOffice.Services87.ITooltipsAgent.GetTooltip
 
 Parse a tooltip hint and return a tooltip. The returned tooltip string may contain resource string identifiers (in square brackets), to be processed by the resource manager.&lt;para /&gt;The tooltip hint is either a literal text, representing itself, or a set of key/value pairs enclosed in curly braces. Each key is separated from its value by an equals sign, and each pair from the next by an ampersand, according to usual conventions.&lt;para /&gt;A typical tooltip hint could be {contact\_id=123} or {appointment\_id=222&amp;amp;mode=simple}
 
-* **tooltipHint:**
+* **tooltipHint:** 
+
+
 
 [WSDL file for Services87/Tooltips](../Services87-Tooltips.md)
 
@@ -46,6 +48,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## GetTooltip Response
 
 ```xml
@@ -65,3 +68,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

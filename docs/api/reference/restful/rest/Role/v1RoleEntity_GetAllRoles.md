@@ -1,6 +1,6 @@
 ---
 title: GET Role/{roleType}
-id: v1RoleEntity_GetAllRoles
+uid: v1RoleEntity_GetAllRoles
 ---
 
 # GET Role/{roleType}
@@ -11,13 +11,21 @@ GET /api/v1/Role/{roleType}
 
 Get a list of all roles for the given type of role.
 
-MDO List name = 'Roles', extra='0' (roleType)
 
-## Online Restricted: ## The User agent is not available in Online by default. User management is not allowed for partner apps
+MDO List name = 'Roles', extra='0' (roleType) 
+
+
+## Online Restricted: ## The User agent is not available in Online by default. User management is not allowed for partner apps.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | roleType | Enum: Employee, ExternalUser, Anonymous, System | Type of role (Employee/External/Anonymous/System) **Required** |
+
+
 
 ## Request Headers
 
@@ -32,7 +40,10 @@ MDO List name = 'Roles', extra='0' (roleType)
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -60,14 +71,16 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 GET /api/v1/Role/{roleType}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -75,65 +88,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 131,
-    "Name": "Boyle, Wilkinson and Abernathy",
-    "ToolTip": "Quisquam dolores.",
-    "Deleted": false,
-    "Rank": 306,
-    "Type": "dolor",
-    "ColorBlock": 113,
-    "IconHint": "sed",
-    "Selected": true,
-    "LastChanged": "2009-02-19T18:25:50.8748835+01:00",
+    "Id": 973,
+    "Name": "Bernier Inc and Sons",
+    "ToolTip": "Adipisci deleniti facilis eius.",
+    "Deleted": true,
+    "Rank": 685,
+    "Type": "ea",
+    "ColorBlock": 912,
+    "IconHint": "ut",
+    "Selected": false,
+    "LastChanged": "2013-11-25T11:10:53.357174+01:00",
     "ChildItems": [
       {
-        "Id": 347,
-        "Name": "Jacobson Inc and Sons",
-        "ToolTip": "Nisi unde nam mollitia qui.",
+        "Id": 689,
+        "Name": "Hand, Cole and Carroll",
+        "ToolTip": "Alias quasi omnis animi error.",
         "Deleted": false,
-        "Rank": 548,
-        "Type": "a",
-        "ColorBlock": 714,
-        "IconHint": "eligendi",
+        "Rank": 992,
+        "Type": "earum",
+        "ColorBlock": 306,
+        "IconHint": "quia",
         "Selected": false,
-        "LastChanged": "2021-11-13T18:25:50.8748835+01:00",
+        "LastChanged": "2004-01-22T11:10:53.3581433+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quis",
-        "StyleHint": "aut",
-        "Hidden": true,
-        "FullName": "Rusty McCullough",
-        "TableRight": {},
+        "ExtraInfo": "sapiente",
+        "StyleHint": "facere",
+        "Hidden": false,
+        "FullName": "Katelin Thea Kulas I",
+        "TableRight": null,
         "FieldProperties": {
           "fieldName": {
-            "FieldRight": {
-              "Mask": "FULL",
-              "Reason": ""
-            },
-            "FieldType": "System.String",
-            "FieldLength": 482
+            "FieldRight": null,
+            "FieldType": "System.Int32",
+            "FieldLength": 880
           }
         }
       }
     ],
-    "ExtraInfo": "voluptatum",
-    "StyleHint": "laborum",
+    "ExtraInfo": "officiis",
+    "StyleHint": "similique",
     "Hidden": true,
-    "FullName": "Alexzander Lehner",
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "FullName": "Nakia Satterfield",
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
+        "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 875
+        "FieldLength": 273
       }
     }
   }

@@ -14,11 +14,12 @@ Implemented by the <see cref="M:SuperOffice.Services87.IFavouriteAgent.ToggleFav
 Toggle a record in a table as a favourite for an associate
 
 * **tableName:** Table name, transformed to and from numeric table id by the service layer.
-* **recordId:**
-* **associateId:**
-* **extraInfo:**
+* **recordId:** 
+* **associateId:** 
+* **extraInfo:** 
 
 **Returns:** Return the new value, true if added, false if removed
+
 
 [WSDL file for Services87/Favourite](../Services87-Favourite.md)
 
@@ -55,6 +56,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## ToggleFavourite Response
 
 ```xml
@@ -75,3 +77,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

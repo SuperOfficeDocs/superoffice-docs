@@ -13,7 +13,9 @@ Implemented by the <see cref="M:SuperOffice.Services87.IListAgent.GetPriorities"
 
 Returns all priorities an appointment could have.
 
+
 **Returns:** An array of all available priorities
+
 
 [WSDL file for Services87/List](../Services87-List.md)
 
@@ -46,6 +48,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## GetPriorities Response
 
 ```xml
@@ -72,3 +75,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

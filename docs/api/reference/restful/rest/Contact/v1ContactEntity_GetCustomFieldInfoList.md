@@ -1,6 +1,6 @@
 ---
 title: GET Contact/CustomField
-id: v1ContactEntity_GetCustomFieldInfoList
+uid: v1ContactEntity_GetCustomFieldInfoList
 ---
 
 # GET Contact/CustomField
@@ -11,7 +11,14 @@ GET /api/v1/Contact/CustomField
 
 Custom fields meta-data (published user defined + extra fields) on ContactEntity.
 
+
 Excludes standard fields.
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -26,7 +33,10 @@ Excludes standard fields.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -50,7 +60,7 @@ Response body: array
 | Rank | int32 | Tab order, ranking within the custom fields. |
 | TemplateVariableName | string | Template variable name: 'cs01', 'cl02' etc. Null for extra fields. |
 
-## Sample Request
+## Sample request
 
 ```http!
 GET /api/v1/Contact/CustomField
@@ -59,6 +69,8 @@ Accept: application/json; charset=utf-8
 Accept-Language: en
 ```
 
+## Sample response
+
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
@@ -66,18 +78,18 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "FieldType": "Attachment",
-    "FieldName": "Deckow, Williamson and Hauck",
-    "DisplayName": "King, Gottlieb and VonRueden",
-    "Description": "Decentralized didactic open architecture",
-    "ShortLabel": "eligendi",
+    "FieldName": "Parker-Abernathy",
+    "DisplayName": "Waelchi Group",
+    "Description": "Universal scalable secured line",
+    "ShortLabel": "neque",
     "HideLabel": true,
-    "HideField": true,
-    "IsIndexed": false,
+    "HideField": false,
+    "IsIndexed": true,
     "IsMandatory": true,
     "IsReadOnly": false,
     "IsExternal": true,
-    "Rank": 797,
-    "TemplateVariableName": "Gleason Group"
+    "Rank": 392,
+    "TemplateVariableName": "Keeling, Streich and White"
   }
 ]
 ```

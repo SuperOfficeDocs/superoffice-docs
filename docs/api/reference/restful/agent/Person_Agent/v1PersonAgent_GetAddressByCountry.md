@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Person/GetAddressByCountry
-id: v1PersonAgent_GetAddressByCountry
+uid: v1PersonAgent_GetAddressByCountry
 ---
 
 # POST Agents/Person/GetAddressByCountry
@@ -11,6 +11,12 @@ POST /api/v1/Agents/Person/GetAddressByCountry
 
 Gets the person's localized address.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Gets the person's localized address.
 ```http
 POST /api/v1/Agents/Person/GetAddressByCountry?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,26 +42,25 @@ POST /api/v1/Agents/Person/GetAddressByCountry?$select=name,department,category/
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-PersonId, CountryId
+PersonId, CountryId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | PersonId | int32 |  |
 | CountryId | int32 |  |
 
-## Response: object
 
-Street and/or Postal address, in both formatted and structured forms. You only need to modify one of the two for the change to be registered.
+## Response: 
 
-Carrier object for Address.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -67,113 +73,77 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Person/GetAddressByCountry
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 111,
-  "CountryId": 651
+  "PersonId": 245,
+  "CountryId": 863
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Wgs84Latitude": 11777.572,
-  "Wgs84Longitude": 3422.328,
+  "Wgs84Latitude": 24749.198,
+  "Wgs84Longitude": 13479.333999999999,
   "LocalizedAddress": [
     [
       {
-        "Name": "Lakin-Medhurst",
-        "Value": "officiis",
-        "Tooltip": "sint",
-        "Label": "ducimus",
-        "ValueLength": 488,
-        "AddressType": "ipsam",
-        "TableRight": {
-          "Mask": "Delete",
-          "Reason": ""
-        },
+        "Name": "Von, Kuphal and Little",
+        "Value": "occaecati",
+        "Tooltip": "voluptates",
+        "Label": "enim",
+        "ValueLength": 933,
+        "AddressType": "veritatis",
+        "TableRight": null,
         "FieldProperties": {
           "fieldName": {
-            "FieldRight": {
-              "Mask": "FULL",
-              "Reason": ""
-            },
-            "FieldType": "System.Int32",
-            "FieldLength": 80
+            "FieldRight": null,
+            "FieldType": "System.String",
+            "FieldLength": 334
           }
         }
       }
     ],
     [
       {
-        "Name": "Runte-Mraz",
-        "Value": "iste",
-        "Tooltip": "nostrum",
-        "Label": "quisquam",
-        "ValueLength": 204,
-        "AddressType": "culpa",
-        "TableRight": {
-          "Mask": "Delete",
-          "Reason": ""
-        },
+        "Name": "Gerhold, Conn and Shanahan",
+        "Value": "et",
+        "Tooltip": "eos",
+        "Label": "corporis",
+        "ValueLength": 972,
+        "AddressType": "labore",
+        "TableRight": null,
         "FieldProperties": {
           "fieldName": {
-            "FieldRight": {
-              "Mask": "FULL",
-              "Reason": ""
-            },
-            "FieldType": "System.Int32",
-            "FieldLength": 494
+            "FieldRight": null,
+            "FieldType": "System.String",
+            "FieldLength": 526
           }
         }
       }
     ]
   ],
-  "Street": {
-    "AtypeIdx": "ContactPostalAddress",
-    "Address1": "nihil",
-    "Address2": "quaerat",
-    "Address3": "neque",
-    "City": "consequuntur",
-    "County": "consequuntur",
-    "State": "qui",
-    "Zipcode": "nemo",
-    "Formatted": "quo"
-  },
-  "Postal": {
-    "AtypeIdx": "ContactPostalAddress",
-    "Address1": "ut",
-    "Address2": "illo",
-    "Address3": "rerum",
-    "City": "porro",
-    "County": "et",
-    "State": "eum",
-    "Zipcode": "voluptatem",
-    "Formatted": "omnis"
-  },
+  "Street": null,
+  "Postal": null,
   "Formatted": "beatae",
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": "syndicate turn-key functionalities"
-  },
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
-      "FieldType": "System.String",
-      "FieldLength": 862
+      "FieldRight": null,
+      "FieldType": "System.Int32",
+      "FieldLength": 186
     }
   }
 }

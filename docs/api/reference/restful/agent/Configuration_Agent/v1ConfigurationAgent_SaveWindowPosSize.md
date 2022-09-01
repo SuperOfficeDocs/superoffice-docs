@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Configuration/SaveWindowPosSize
-id: v1ConfigurationAgent_SaveWindowPosSize
+uid: v1ConfigurationAgent_SaveWindowPosSize
 ---
 
 # POST Agents/Configuration/SaveWindowPosSize
@@ -11,6 +11,12 @@ POST /api/v1/Agents/Configuration/SaveWindowPosSize
 
 Saves a window and dialog position and size setting.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Saves a window and dialog position and size setting.
 ```http
 POST /api/v1/Agents/Configuration/SaveWindowPosSize?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,21 +42,24 @@ POST /api/v1/Agents/Configuration/SaveWindowPosSize?$select=name,department,cate
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-WindowPosSize
+WindowPosSize 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | WindowPosSize |  |  |
 
-## Response: object
+
+## Response: 
+
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -67,7 +77,7 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Configuration/SaveWindowPosSize
@@ -77,50 +87,34 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "WindowPosSize": {
-    "OwnerWindow": "ut",
-    "PersonId": 900,
-    "AssociateId": 879,
-    "ExtraId": 291,
-    "ExtraInfo": "repellat",
-    "Height": 659,
-    "LeftX": 503,
-    "State": "Maximized",
-    "UpperY": 217,
-    "Width": 367,
-    "WindowPosSizeId": 580
-  }
+  "WindowPosSize": null
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "OwnerWindow": "eum",
-  "PersonId": 858,
-  "AssociateId": 617,
-  "ExtraId": 402,
-  "ExtraInfo": "quaerat",
-  "Height": 849,
-  "LeftX": 584,
+  "OwnerWindow": "nihil",
+  "PersonId": 584,
+  "AssociateId": 678,
+  "ExtraId": 533,
+  "ExtraInfo": "commodi",
+  "Height": 766,
+  "LeftX": 880,
   "State": "Maximized",
-  "UpperY": 442,
-  "Width": 942,
-  "WindowPosSizeId": 919,
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "UpperY": 950,
+  "Width": 564,
+  "WindowPosSizeId": 587,
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
-      "FieldType": "System.String",
-      "FieldLength": 840
+      "FieldRight": null,
+      "FieldType": "System.Int32",
+      "FieldLength": 831
     }
   }
 }

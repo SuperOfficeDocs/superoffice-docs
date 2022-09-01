@@ -17,6 +17,7 @@ Returns all ForeignKeys that belong to an application.
 
 **Returns:** Array of all ForeignKeys in the ForeignApp.
 
+
 [WSDL file for Services86/ForeignSystem](../Services86-ForeignSystem.md)
 
 Obtain a ticket from the [Services86/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -48,6 +49,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## GetApplicationKeys Response
 
 ```xml
@@ -66,8 +68,8 @@ Application tokens must be specified if calling an Online installation. Applicat
      <ForeignSystem:Key xsi:type="xsd:string"></ForeignSystem:Key>
      <ForeignSystem:Value xsi:type="xsd:string"></ForeignSystem:Value>
      <ForeignSystem:RecordId xsi:type="xsd:int">0</ForeignSystem:RecordId>
-     <ForeignSystem:CreatedDate xsi:type="xsd:dateTime">2021-11-30T13:22:54Z</ForeignSystem:CreatedDate>
-     <ForeignSystem:UpdatedDate xsi:type="xsd:dateTime">2021-11-30T13:22:54Z</ForeignSystem:UpdatedDate>
+     <ForeignSystem:CreatedDate xsi:type="xsd:dateTime">2022-08-26T08:55:08Z</ForeignSystem:CreatedDate>
+     <ForeignSystem:UpdatedDate xsi:type="xsd:dateTime">2022-08-26T08:55:08Z</ForeignSystem:UpdatedDate>
      <ForeignSystem:UpdatedBy xsi:type="xsd:string"></ForeignSystem:UpdatedBy>
      <ForeignSystem:CreatedBy xsi:type="xsd:string"></ForeignSystem:CreatedBy>
      <ForeignSystem:TableName xsi:type="xsd:string"></ForeignSystem:TableName>
@@ -78,3 +80,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

@@ -17,6 +17,7 @@ Updates the existing DashTile or creates a new DashTile if the id parameter is 0
 
 **Returns:** New or updated DashTile
 
+
 [WSDL file for Services88/Dash](../Services88-Dash.md)
 
 Obtain a ticket from the [Services88/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -65,6 +66,7 @@ Application tokens must be specified if calling an Online installation. Applicat
       <Dash:LayoutConfig xsi:type="xsd:string"></Dash:LayoutConfig>
       <Dash:SecondarySelectionId xsi:type="xsd:int">0</Dash:SecondarySelectionId>
       <Dash:MeasureByField xsi:type="xsd:string"></Dash:MeasureByField>
+      <Dash:Usage xsi:type="Dash:DashTileUsage">Dashboard</Dash:Usage>
       <Dash:ProviderName xsi:type="xsd:string"></Dash:ProviderName>
      </Dash:DashTileDefinition>
     </Dash:DashTile>
@@ -74,6 +76,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+
 
 ## SaveDashTile Response
 
@@ -113,6 +116,7 @@ Application tokens must be specified if calling an Online installation. Applicat
      <Dash:LayoutConfig xsi:type="xsd:string"></Dash:LayoutConfig>
      <Dash:SecondarySelectionId xsi:type="xsd:int">0</Dash:SecondarySelectionId>
      <Dash:MeasureByField xsi:type="xsd:string"></Dash:MeasureByField>
+     <Dash:Usage xsi:type="Dash:DashTileUsage">Dashboard</Dash:Usage>
      <Dash:ProviderName xsi:type="xsd:string"></Dash:ProviderName>
     </Dash:DashTileDefinition>
    </Dash:Response>
@@ -121,3 +125,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

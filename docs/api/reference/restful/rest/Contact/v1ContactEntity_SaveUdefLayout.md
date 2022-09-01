@@ -1,6 +1,6 @@
 ---
 title: PUT Contact/UdefLayout
-id: v1ContactEntity_SaveUdefLayout
+uid: v1ContactEntity_SaveUdefLayout
 ---
 
 # PUT Contact/UdefLayout
@@ -10,6 +10,13 @@ PUT /api/v1/Contact/UdefLayout
 ```
 
 Save ContactEntity user-defined field layout.
+
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -25,7 +32,9 @@ Save ContactEntity user-defined field layout.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: fields
+## Request Body: fields  
+
+ 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -64,7 +73,10 @@ Save ContactEntity user-defined field layout.
 | HasBeenPublished | bool | Has the udef field been published? |
 | MdoListName | string | MDO list name used to populate this list. Derived from UDListDefinitionId and ListTableId. (Read-only) |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -111,7 +123,7 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 PUT /api/v1/Contact/UdefLayout
@@ -122,43 +134,45 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 317,
-    "ColumnId": 300,
-    "FieldDefault": "nemo",
-    "FieldHeight": 491,
-    "FieldLabel": "ducimus",
-    "FieldLeft": 915,
-    "FieldTop": 977,
+    "UDefFieldId": 210,
+    "ColumnId": 215,
+    "FieldDefault": "quam",
+    "FieldHeight": 288,
+    "FieldLabel": "vel",
+    "FieldLeft": 517,
+    "FieldTop": 578,
     "FieldType": "Checkbox",
-    "FieldWidth": 242,
-    "FormatMask": "ab",
-    "HideLabel": false,
+    "FieldWidth": 809,
+    "FormatMask": "dolorem",
+    "HideLabel": true,
     "IsIndexed": false,
-    "LabelHeight": 920,
-    "LabelLeft": 331,
-    "LabelTop": 959,
-    "LabelWidth": 305,
-    "LastVersionId": 441,
-    "ListTableId": 671,
-    "IsMandatory": false,
+    "LabelHeight": 11,
+    "LabelLeft": 615,
+    "LabelTop": 915,
+    "LabelWidth": 863,
+    "LastVersionId": 655,
+    "ListTableId": 530,
+    "IsMandatory": true,
     "Type": "Appointment",
-    "Page1LineNo": 70,
-    "ProgId": "aspernatur",
-    "IsReadOnly": true,
-    "ShortLabel": "minima",
-    "TabOrder": 651,
-    "TextLength": 300,
-    "Tooltip": "numquam",
-    "UdefIdentity": 799,
-    "UDListDefinitionId": 45,
+    "Page1LineNo": 963,
+    "ProgId": "sed",
+    "IsReadOnly": false,
+    "ShortLabel": "id",
+    "TabOrder": 517,
+    "TextLength": 329,
+    "Tooltip": "vel",
+    "UdefIdentity": 583,
+    "UDListDefinitionId": 22,
     "Justification": "Center",
-    "Version": 589,
-    "TemplateVariableName": "Durgan, Kris and Murazik",
+    "Version": 663,
+    "TemplateVariableName": "Welch-Blick",
     "HasBeenPublished": false,
-    "MdoListName": "Harber-Tillman"
+    "MdoListName": "Prohaska-O'Connell"
   }
 ]
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -166,52 +180,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 516,
-    "ColumnId": 913,
-    "FieldDefault": "natus",
-    "FieldHeight": 636,
-    "FieldLabel": "deleniti",
-    "FieldLeft": 5,
-    "FieldTop": 697,
+    "UDefFieldId": 507,
+    "ColumnId": 57,
+    "FieldDefault": "sed",
+    "FieldHeight": 4,
+    "FieldLabel": "dolores",
+    "FieldLeft": 393,
+    "FieldTop": 303,
     "FieldType": "Checkbox",
-    "FieldWidth": 50,
-    "FormatMask": "libero",
-    "HideLabel": true,
+    "FieldWidth": 9,
+    "FormatMask": "voluptatem",
+    "HideLabel": false,
     "IsIndexed": false,
-    "LabelHeight": 442,
-    "LabelLeft": 33,
-    "LabelTop": 166,
-    "LabelWidth": 851,
-    "LastVersionId": 23,
-    "ListTableId": 971,
+    "LabelHeight": 682,
+    "LabelLeft": 972,
+    "LabelTop": 174,
+    "LabelWidth": 199,
+    "LastVersionId": 2,
+    "ListTableId": 809,
     "IsMandatory": true,
     "Type": "Appointment",
-    "Page1LineNo": 385,
-    "ProgId": "maxime",
-    "IsReadOnly": true,
-    "ShortLabel": "magni",
-    "TabOrder": 960,
-    "TextLength": 96,
-    "Tooltip": "non",
-    "UdefIdentity": 990,
-    "UDListDefinitionId": 298,
+    "Page1LineNo": 663,
+    "ProgId": "labore",
+    "IsReadOnly": false,
+    "ShortLabel": "et",
+    "TabOrder": 696,
+    "TextLength": 142,
+    "Tooltip": "consequatur",
+    "UdefIdentity": 618,
+    "UDListDefinitionId": 823,
     "Justification": "Center",
-    "Version": 59,
-    "TemplateVariableName": "Lowe, Friesen and Towne",
+    "Version": 863,
+    "TemplateVariableName": "Veum, Kertzmann and Kovacek",
     "HasBeenPublished": false,
-    "MdoListName": "D'Amore-Trantow",
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "MdoListName": "Wuckert LLC",
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
+        "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 610
+        "FieldLength": 293
       }
     }
   }

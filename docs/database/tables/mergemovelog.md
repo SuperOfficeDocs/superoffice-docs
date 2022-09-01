@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "MergeMoveLog"
-so.date: 04.12.2022
+so.date: 08.26.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -33,6 +33,7 @@ Log of merge and move operations (person, contact, project)
 |updated\_associate\_id|Last updated by whom|FK [associate](associate.md)| |
 |updatedCount|Number of updates made to this record|UShort| |
 
+
 ![MergeMoveLog table relationship diagram](./media/MergeMoveLog.png)
 
 [!include[details](./includes/mergemovelog.md)]
@@ -51,6 +52,7 @@ Log of merge and move operations (person, contact, project)
 |------|-------------|
 |[associate](associate.md)  |Employees, resources and other users - except for External persons |
 
+
 ## Replication Flags
 
 * Replicate changes DOWN from central to satellites and travellers.
@@ -60,3 +62,4 @@ Log of merge and move operations (person, contact, project)
 ## Security Flags
 
 * No access control via user's Role.
+

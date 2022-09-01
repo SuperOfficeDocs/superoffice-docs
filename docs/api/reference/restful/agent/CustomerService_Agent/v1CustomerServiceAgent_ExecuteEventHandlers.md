@@ -1,6 +1,6 @@
 ---
 title: POST Agents/CustomerService/ExecuteEventHandlers
-id: v1CustomerServiceAgent_ExecuteEventHandlers
+uid: v1CustomerServiceAgent_ExecuteEventHandlers
 ---
 
 # POST Agents/CustomerService/ExecuteEventHandlers
@@ -11,6 +11,12 @@ POST /api/v1/Agents/CustomerService/ExecuteEventHandlers
 
 This method will execute event handlers in CRMScript for a given event.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ This method will execute event handlers in CRMScript for a given event.
 ```http
 POST /api/v1/Agents/CustomerService/ExecuteEventHandlers?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,26 +42,24 @@ POST /api/v1/Agents/CustomerService/ExecuteEventHandlers?$select=name,department
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-EventData
+EventData 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| EventData |  | EventData containing data related to event handlers <br /> Carrier object for EventData. Services for the EventData Carrier is available from the <see cref="T:SuperOffice.CRM.Services.ICustomerServiceAgent">CustomerService Agent</see>. |
+| EventData |  | EventData containing data related to event handlers <para /> Carrier object for EventData. Services for the EventData Carrier is available from the <see cref="T:SuperOffice.CRM.Services.ICustomerServiceAgent">CustomerService Agent</see>. |
 
-## Response: object
 
-EventData containing data related to event handlers
+## Response: 
 
-Carrier object for EventData.
-Services for the EventData Carrier is available from the <see cref="T:SuperOffice.CRM.Services.ICustomerServiceAgent">CustomerService Agent</see>.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -69,7 +74,7 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/CustomerService/ExecuteEventHandlers
@@ -79,27 +84,11 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "EventData": {
-    "Type": "ChatAfterSaveNewMessage",
-    "InputValues": {
-      "InputValues1": "aspernatur",
-      "InputValues2": "earum"
-    },
-    "BlockExecution": true,
-    "NavigateTo": "laborum",
-    "Message": "et",
-    "OutputValues": {
-      "OutputValues1": "mollitia",
-      "OutputValues2": "ut"
-    },
-    "StateValues": {
-      "StateValues1": "reprehenderit",
-      "StateValues2": "recusandae"
-    },
-    "Exception": "repellat"
-  }
+  "EventData": null
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -108,33 +97,27 @@ Content-Type: application/json; charset=utf-8
 {
   "Type": "ChatAfterSaveNewMessage",
   "InputValues": {
-    "InputValues1": "qui",
-    "InputValues2": "cupiditate"
+    "InputValues1": "vel",
+    "InputValues2": "nemo"
   },
-  "BlockExecution": true,
-  "NavigateTo": "odit",
-  "Message": "totam",
+  "BlockExecution": false,
+  "NavigateTo": "maiores",
+  "Message": "omnis",
   "OutputValues": {
-    "OutputValues1": "molestias",
-    "OutputValues2": "unde"
+    "OutputValues1": "explicabo",
+    "OutputValues2": "qui"
   },
   "StateValues": {
-    "StateValues1": "non",
-    "StateValues2": "blanditiis"
+    "StateValues1": "fugit",
+    "StateValues2": "officia"
   },
-  "Exception": "aut",
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "Exception": "ipsa",
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
-      "FieldType": "System.String",
-      "FieldLength": 888
+      "FieldRight": null,
+      "FieldType": "System.Int32",
+      "FieldLength": 368
     }
   }
 }

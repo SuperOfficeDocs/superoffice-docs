@@ -18,6 +18,7 @@ Gets an array of BatchTaskInfo with state defined by a BatchTaskState and the ba
 
 **Returns:** Returns an array of BatchTaskInfo.
 
+
 [WSDL file for Services85/Batch](../Services85-Batch.md)
 
 Obtain a ticket from the [Services85/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -51,6 +52,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## GetBatchTaskInfosByNameAndState Response
 
 ```xml
@@ -80,8 +82,8 @@ Application tokens must be specified if calling an Online installation. Applicat
        <Batch:Value xsi:type="xsd:string"></Batch:Value>
       </Batch:StringKeyValuePair>
      </Batch:ParameterObject>
-     <Batch:LastStarted xsi:type="xsd:dateTime">2021-11-30T13:22:26Z</Batch:LastStarted>
-     <Batch:Created xsi:type="xsd:dateTime">2021-11-30T13:22:26Z</Batch:Created>
+     <Batch:LastStarted xsi:type="xsd:dateTime">2022-08-26T08:52:19Z</Batch:LastStarted>
+     <Batch:Created xsi:type="xsd:dateTime">2022-08-26T08:52:19Z</Batch:Created>
      <Batch:StartCount xsi:type="xsd:int">0</Batch:StartCount>
      <Batch:DatabaseSerialNumber xsi:type="xsd:string"></Batch:DatabaseSerialNumber>
      <Batch:Context xsi:type="xsd:string"></Batch:Context>
@@ -99,3 +101,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

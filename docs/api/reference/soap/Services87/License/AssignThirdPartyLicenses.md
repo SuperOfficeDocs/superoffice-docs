@@ -19,6 +19,7 @@ Assign third party licenses
 
 **Returns:** All module license names assigned
 
+
 [WSDL file for Services87/License](../Services87-License.md)
 
 Obtain a ticket from the [Services87/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -55,6 +56,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+
 
 ## AssignThirdPartyLicenses Response
 
@@ -93,3 +95,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

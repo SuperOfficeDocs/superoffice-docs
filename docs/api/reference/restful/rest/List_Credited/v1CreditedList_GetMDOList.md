@@ -1,6 +1,6 @@
 ---
 title: GET List/Credited/MDOItems
-id: v1CreditedList_GetMDOList
+uid: v1CreditedList_GetMDOList
 ---
 
 # GET List/Credited/MDOItems
@@ -11,6 +11,12 @@ GET /api/v1/List/Credited/MDOItems
 
 Get the MDO list items for "Credited" - with headings and filtering by user group.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -19,9 +25,10 @@ Get the MDO list items for "Credited" - with headings and filtering by user grou
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/Credited/MDOItems?flat=False
-GET /api/v1/List/Credited/MDOItems?query=at
+GET /api/v1/List/Credited/MDOItems?flat=True
+GET /api/v1/List/Credited/MDOItems?query=quia
 ```
+
 
 ## Request Headers
 
@@ -36,7 +43,10 @@ GET /api/v1/List/Credited/MDOItems?query=at
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -61,14 +71,16 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 GET /api/v1/List/Credited/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -76,59 +88,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 394,
-    "Name": "Rodriguez, Bartoletti and Jaskolski",
-    "ToolTip": "Est modi.",
+    "Id": 120,
+    "Name": "Bernhard Group",
+    "ToolTip": "Ea quasi quia aut ad quia.",
     "Deleted": true,
-    "Rank": 415,
-    "Type": "sint",
+    "Rank": 81,
+    "Type": "rem",
     "ChildItems": [
       {
-        "Id": 453,
-        "Name": "Steuber-Runolfsson",
-        "ToolTip": "Vel maxime.",
-        "Deleted": false,
-        "Rank": 499,
-        "Type": "ipsam",
+        "Id": 322,
+        "Name": "Rempel, Stoltenberg and D'Amore",
+        "ToolTip": "Minus nostrum eaque.",
+        "Deleted": true,
+        "Rank": 52,
+        "Type": "consequatur",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "sint",
-        "ColorBlock": 238,
-        "ExtraInfo": "non",
-        "StyleHint": "dolor",
-        "FullName": "Arne Gulgowski",
-        "TableRight": {},
+        "IconHint": "molestias",
+        "ColorBlock": 668,
+        "ExtraInfo": "doloribus",
+        "StyleHint": "rerum",
+        "FullName": "Esther Hilpert",
+        "TableRight": null,
         "FieldProperties": {
           "fieldName": {
-            "FieldRight": {
-              "Mask": "FULL",
-              "Reason": ""
-            },
-            "FieldType": "System.Int32",
-            "FieldLength": 657
+            "FieldRight": null,
+            "FieldType": "System.String",
+            "FieldLength": 675
           }
         }
       }
     ],
-    "IconHint": "architecto",
-    "ColorBlock": 136,
-    "ExtraInfo": "odio",
+    "IconHint": "a",
+    "ColorBlock": 757,
+    "ExtraInfo": "unde",
     "StyleHint": "quas",
-    "FullName": "Glennie Kunde",
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "FullName": "Alexie Leffler",
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.Int32",
-        "FieldLength": 630
+        "FieldRight": null,
+        "FieldType": "System.String",
+        "FieldLength": 366
       }
     }
   }

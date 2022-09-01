@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Diagnostics/GetWebAppUsagesForPeriod
-id: v1DiagnosticsAgent_GetWebAppUsagesForPeriod
+uid: v1DiagnosticsAgent_GetWebAppUsagesForPeriod
 ---
 
 # POST Agents/Diagnostics/GetWebAppUsagesForPeriod
@@ -11,6 +11,12 @@ POST /api/v1/Agents/Diagnostics/GetWebAppUsagesForPeriod
 
 Get all WebAppUsages for a given period, that match an optional search term
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Get all WebAppUsages for a given period, that match an optional search term
 ```http
 POST /api/v1/Agents/Diagnostics/GetWebAppUsagesForPeriod?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,9 +42,9 @@ POST /api/v1/Agents/Diagnostics/GetWebAppUsagesForPeriod?$select=name,department
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-FromDate, ToDate, SearchTerm
+FromDate, ToDate, SearchTerm 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -45,7 +52,10 @@ FromDate, ToDate, SearchTerm
 | ToDate | date-time |  |
 | SearchTerm | string |  |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -65,21 +75,23 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Diagnostics/GetWebAppUsagesForPeriod
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "FromDate": "2008-03-16T18:28:48.7029564+01:00",
-  "ToDate": "2015-03-23T18:28:48.7029564+01:00",
-  "SearchTerm": "voluptatem"
+  "FromDate": "2000-06-28T11:10:26.454455+02:00",
+  "ToDate": "2015-10-16T11:10:26.454455+02:00",
+  "SearchTerm": "eaque"
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -87,25 +99,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "WebAppUsageId": 964,
-    "AssocId": 902,
-    "Timestamp": "2011-03-09T18:28:48.7029564+01:00",
-    "ViewState": "aut",
-    "AggregateCount": 247,
-    "AggregateBin": 308,
-    "Version": 161,
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": "utilize 24/365 mindshare"
-    },
+    "WebAppUsageId": 858,
+    "AssocId": 557,
+    "Timestamp": "2016-01-08T11:10:26.454455+01:00",
+    "ViewState": "consequatur",
+    "AggregateCount": 722,
+    "AggregateBin": 437,
+    "Version": 41,
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 779
+        "FieldRight": null,
+        "FieldType": "System.Int32",
+        "FieldLength": 254
       }
     }
   }

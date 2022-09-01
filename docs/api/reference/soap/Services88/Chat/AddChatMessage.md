@@ -18,6 +18,7 @@ Add a new message to a chat session
 
 **Returns:** The chat message added to the session
 
+
 [WSDL file for Services88/Chat](../Services88-Chat.md)
 
 Obtain a ticket from the [Services88/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -52,7 +53,7 @@ Application tokens must be specified if calling an Online installation. Applicat
      <Chat:ReadByCustomer xsi:type="xsd:short">0</Chat:ReadByCustomer>
      <Chat:SpecialType xsi:type="Chat:ChatMessageSpecialType">None</Chat:SpecialType>
      <Chat:SpecialParam xsi:type="xsd:string"></Chat:SpecialParam>
-     <Chat:WhenPosted xsi:type="xsd:dateTime">2021-11-30T13:23:34Z</Chat:WhenPosted>
+     <Chat:WhenPosted xsi:type="xsd:dateTime">2022-08-26T08:58:42Z</Chat:WhenPosted>
     </Chat:Message>
    </Chat:AddChatMessage>
 
@@ -60,6 +61,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+
 
 ## AddChatMessage Response
 
@@ -84,10 +86,11 @@ Application tokens must be specified if calling an Online installation. Applicat
     <Chat:ReadByCustomer xsi:type="xsd:short">0</Chat:ReadByCustomer>
     <Chat:SpecialType xsi:type="Chat:ChatMessageSpecialType">None</Chat:SpecialType>
     <Chat:SpecialParam xsi:type="xsd:string"></Chat:SpecialParam>
-    <Chat:WhenPosted xsi:type="xsd:dateTime">2021-11-30T13:23:34Z</Chat:WhenPosted>
+    <Chat:WhenPosted xsi:type="xsd:dateTime">2022-08-26T08:58:42Z</Chat:WhenPosted>
    </Chat:Response>
   </Chat:AddChatMessageResponse>
  </SOAP-ENV:Body>
 </SOAP-ENV:Envelope>
 
 ```
+

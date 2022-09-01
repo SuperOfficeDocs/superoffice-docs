@@ -1,6 +1,6 @@
 ---
 title: POST Agents/List/GetProductCategories
-id: v1ListAgent_GetProductCategories
+uid: v1ListAgent_GetProductCategories
 ---
 
 # POST Agents/List/GetProductCategories
@@ -11,6 +11,12 @@ POST /api/v1/Agents/List/GetProductCategories
 
 Returns all ProductCategories in SuperOffice list.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Returns all ProductCategories in SuperOffice list.
 ```http
 POST /api/v1/Agents/List/GetProductCategories?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -34,7 +41,10 @@ POST /api/v1/Agents/List/GetProductCategories?$select=name,department,category/i
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -50,14 +60,16 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/List/GetProductCategories
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -65,40 +77,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 47,
-    "Value": "rerum",
-    "Tooltip": "corrupti",
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "Id": 456,
+    "Value": "corporis",
+    "Tooltip": "autem",
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
+        "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 405
+        "FieldLength": 762
       }
     }
   },
   {
-    "Id": 47,
-    "Value": "rerum",
-    "Tooltip": "corrupti",
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "Id": 456,
+    "Value": "corporis",
+    "Tooltip": "autem",
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
+        "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 405
+        "FieldLength": 762
       }
     }
   }

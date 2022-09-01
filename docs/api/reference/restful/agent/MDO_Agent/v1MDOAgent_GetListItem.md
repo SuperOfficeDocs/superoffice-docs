@@ -1,6 +1,6 @@
 ---
 title: POST Agents/MDO/GetListItem
-id: v1MDOAgent_GetListItem
+uid: v1MDOAgent_GetListItem
 ---
 
 # POST Agents/MDO/GetListItem
@@ -11,6 +11,12 @@ POST /api/v1/Agents/MDO/GetListItem
 
 Returns a single list item
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Returns a single list item
 ```http
 POST /api/v1/Agents/MDO/GetListItem?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,25 +42,25 @@ POST /api/v1/Agents/MDO/GetListItem?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-ListName, Id
+ListName, Id 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | ListName | string |  |
 | Id | int32 |  |
 
-## Response: object
 
-Carrier object for MDOListItem.
-Services for the MDOListItem Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IMDOAgent">MDO Agent</see>.
+## Response: 
+
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -72,79 +79,72 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/MDO/GetListItem
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ListName": "Daugherty LLC",
-  "Id": 722
+  "ListName": "Grant, Koepp and Dicki",
+  "Id": 37
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 294,
-  "Name": "Hilll-Ullrich",
-  "ToolTip": "Accusamus dicta vel sed velit reprehenderit.",
-  "Deleted": true,
-  "Rank": 470,
-  "Type": "quis",
+  "Id": 899,
+  "Name": "Emmerich, Senger and Buckridge",
+  "ToolTip": "Iste et tenetur consectetur in.",
+  "Deleted": false,
+  "Rank": 752,
+  "Type": "quisquam",
   "ChildItems": [
     {
-      "Id": 446,
-      "Name": "Spinka Group",
-      "ToolTip": "Hic nihil et.",
+      "Id": 901,
+      "Name": "Schimmel, Smitham and Torp",
+      "ToolTip": "Magnam non ratione ut ipsum aut consectetur.",
       "Deleted": false,
-      "Rank": 51,
-      "Type": "animi",
+      "Rank": 285,
+      "Type": "quia",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "facere",
-      "ColorBlock": 104,
-      "ExtraInfo": "autem",
-      "StyleHint": "dolorem",
-      "FullName": "Tom O'Keefe",
-      "TableRight": {},
+      "IconHint": "dicta",
+      "ColorBlock": 213,
+      "ExtraInfo": "veniam",
+      "StyleHint": "cupiditate",
+      "FullName": "Jermey Tremblay",
+      "TableRight": null,
       "FieldProperties": {
         "fieldName": {
-          "FieldRight": {
-            "Mask": "FULL",
-            "Reason": ""
-          },
-          "FieldType": "System.String",
-          "FieldLength": 229
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 389
         }
       }
     }
   ],
-  "IconHint": "iusto",
-  "ColorBlock": 409,
-  "ExtraInfo": "nulla",
-  "StyleHint": "non",
-  "FullName": "Dana Gutmann DVM",
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "IconHint": "non",
+  "ColorBlock": 149,
+  "ExtraInfo": "est",
+  "StyleHint": "cumque",
+  "FullName": "Phyllis Daniel",
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
-      "FieldType": "System.String",
-      "FieldLength": 483
+      "FieldRight": null,
+      "FieldType": "System.Int32",
+      "FieldLength": 636
     }
   }
 }

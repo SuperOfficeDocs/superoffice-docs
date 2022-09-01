@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "notice_frame"
-so.date: 04.12.2022
+so.date: 08.26.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -29,6 +29,7 @@ PID controller for automatic adjustment of pop up message check rate
 |average\_dt|Average dt|Double| |
 |refresh\_rate|Notice frame refresh rate|Double| |
 
+
 ![notice_frame table relationship diagram](./media/notice_frame.png)
 
 [!include[details](./includes/notice-frame.md)]
@@ -46,3 +47,4 @@ PID controller for automatic adjustment of pop up message check rate
 ## Security Flags
 
 * No access control via user's Role.
+

@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Person/ValidatePersonEntity
-id: v1PersonAgent_ValidatePersonEntity
+uid: v1PersonAgent_ValidatePersonEntity
 ---
 
 # POST Agents/Person/ValidatePersonEntity
@@ -11,6 +11,12 @@ POST /api/v1/Agents/Person/ValidatePersonEntity
 
 Check that entity is ready for saving, return error messages by field.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Check that entity is ready for saving, return error messages by field.
 ```http
 POST /api/v1/Agents/Person/ValidatePersonEntity?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,15 +42,18 @@ POST /api/v1/Agents/Person/ValidatePersonEntity?$select=name,department,category
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-PersonEntity
+PersonEntity 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | PersonEntity |  |  |
 
+
 ## Response: object
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -51,138 +61,29 @@ PersonEntity
 
 Response body: object
 
-## Sample Request
+
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Person/ValidatePersonEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonEntity": {
-    "PersonId": 244,
-    "Firstname": "Clara",
-    "MiddleName": "Gleason-Mertz",
-    "Lastname": "Carter",
-    "Mrmrs": "vel",
-    "Title": "est",
-    "UpdatedDate": "2019-02-19T18:28:49.4990899+01:00",
-    "CreatedDate": "1995-04-12T18:28:49.4990899+02:00",
-    "BirthDate": "2017-04-20T18:28:49.4990899+02:00",
-    "CreatedBy": {},
-    "Emails": [
-      {},
-      {}
-    ],
-    "Description": "Customizable multimedia focus group",
-    "IsAssociate": true,
-    "PrivatePhones": [
-      {},
-      {}
-    ],
-    "Faxes": [
-      {},
-      {}
-    ],
-    "MobilePhones": [
-      {},
-      {}
-    ],
-    "OfficePhones": [
-      {},
-      {}
-    ],
-    "OtherPhones": [
-      {},
-      {}
-    ],
-    "Position": {},
-    "UpdatedBy": {},
-    "Contact": {},
-    "Country": {},
-    "Interests": [
-      {},
-      {}
-    ],
-    "PersonNumber": "384628",
-    "FullName": "Mariela Kovacek",
-    "NoMailing": true,
-    "UsePersonAddress": false,
-    "Retired": false,
-    "Urls": [
-      {},
-      {}
-    ],
-    "FormalName": "Tremblay-Schoen",
-    "Address": {},
-    "Post3": "praesentium",
-    "Post2": "neque",
-    "Post1": "rerum",
-    "Kanalname": "voluptas",
-    "Kanafname": "laborum",
-    "CorrespondingAssociate": {},
-    "Category": {},
-    "Business": {},
-    "Associate": {},
-    "Salutation": "nihil",
-    "ActiveInterests": 860,
-    "SupportAssociate": {},
-    "TicketPriority": {},
-    "CustomerLanguage": {},
-    "DbiAgentId": 999,
-    "DbiKey": "mollitia",
-    "DbiLastModified": "2014-11-09T18:28:49.5000904+01:00",
-    "DbiLastSyncronized": "2005-02-08T18:28:49.5000904+01:00",
-    "SentInfo": 441,
-    "ShowContactTickets": 684,
-    "UserInfo": {},
-    "ChatEmails": [
-      {},
-      {}
-    ],
-    "InternetPhones": [
-      {},
-      {}
-    ],
-    "Source": 682,
-    "ActiveErpLinks": 615,
-    "ShipmentTypes": [
-      {},
-      {}
-    ],
-    "Consents": [
-      {},
-      {}
-    ],
-    "BounceEmails": [
-      "august.treutel@runteaufderhar.ca",
-      "antonina.batz@skiles.name"
-    ],
-    "ActiveStatusMonitorId": 971,
-    "UserDefinedFields": {
-      "SuperOffice:1": "Melba Koepp",
-      "SuperOffice:2": "True"
-    },
-    "ExtraFields": {
-      "ExtraFields1": "minima",
-      "ExtraFields2": "est"
-    },
-    "CustomFields": {
-      "CustomFields1": "vitae",
-      "CustomFields2": "consequuntur"
-    }
-  }
+  "PersonEntity": null
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "1": "voluptate",
-  "2": "qui"
+  "1": "in",
+  "2": "est"
 }
 ```

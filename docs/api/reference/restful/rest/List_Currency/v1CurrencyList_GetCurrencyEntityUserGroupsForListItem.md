@@ -1,6 +1,6 @@
 ---
 title: GET List/Currency/Items/{id}/UserGroups
-id: v1CurrencyList_GetCurrencyEntityUserGroupsForListItem
+uid: v1CurrencyList_GetCurrencyEntityUserGroupsForListItem
 ---
 
 # GET List/Currency/Items/{id}/UserGroups
@@ -11,11 +11,18 @@ GET /api/v1/List/Currency/Items/{itemId}/UserGroups
 
 Gets user groups visible for the CurrencyEntity list's item.
 
+
 Calls the List agent service GetHeadings.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | itemId | int32 | The ID of the item to get. **Required** |
+
+
 
 ## Request Headers
 
@@ -30,7 +37,10 @@ Calls the List agent service GetHeadings.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -58,14 +68,16 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 GET /api/v1/List/Currency/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -73,65 +85,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 474,
-    "Name": "Johns LLC",
-    "ToolTip": "Vitae ea eum.",
+    "Id": 38,
+    "Name": "Heidenreich Inc and Sons",
+    "ToolTip": "Cumque aspernatur incidunt beatae inventore.",
     "Deleted": true,
-    "Rank": 760,
-    "Type": "sit",
-    "ColorBlock": 790,
-    "IconHint": "et",
-    "Selected": false,
-    "LastChanged": "2007-10-06T18:25:51.7813272+02:00",
+    "Rank": 559,
+    "Type": "recusandae",
+    "ColorBlock": 512,
+    "IconHint": "quis",
+    "Selected": true,
+    "LastChanged": "1999-04-04T11:10:54.2328956+02:00",
     "ChildItems": [
       {
-        "Id": 672,
-        "Name": "Harvey-Leffler",
-        "ToolTip": "Dicta et sed laudantium excepturi animi.",
-        "Deleted": true,
-        "Rank": 564,
-        "Type": "ab",
-        "ColorBlock": 959,
-        "IconHint": "velit",
-        "Selected": false,
-        "LastChanged": "2010-01-17T18:25:51.7813272+01:00",
+        "Id": 165,
+        "Name": "Bogan LLC",
+        "ToolTip": "Molestiae velit consequatur nesciunt est.",
+        "Deleted": false,
+        "Rank": 492,
+        "Type": "nobis",
+        "ColorBlock": 684,
+        "IconHint": "nihil",
+        "Selected": true,
+        "LastChanged": "2017-06-02T11:10:54.2328956+02:00",
         "ChildItems": [
           {},
           {}
         ],
         "ExtraInfo": "et",
-        "StyleHint": "repellat",
-        "Hidden": true,
-        "FullName": "Nayeli Gorczany DDS",
-        "TableRight": {},
+        "StyleHint": "eius",
+        "Hidden": false,
+        "FullName": "Dashawn Kiehn",
+        "TableRight": null,
         "FieldProperties": {
           "fieldName": {
-            "FieldRight": {
-              "Mask": "FULL",
-              "Reason": ""
-            },
+            "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 750
+            "FieldLength": 55
           }
         }
       }
     ],
-    "ExtraInfo": "omnis",
-    "StyleHint": "sed",
+    "ExtraInfo": "quia",
+    "StyleHint": "hic",
     "Hidden": false,
-    "FullName": "Christophe Dare",
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "FullName": "Mr. Leslie Frida Lakin",
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
+        "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 596
+        "FieldLength": 843
       }
     }
   }

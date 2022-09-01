@@ -1,6 +1,6 @@
 ---
 title: POST Agents/List/SaveConsentSource
-id: v1ListAgent_SaveConsentSource
+uid: v1ListAgent_SaveConsentSource
 ---
 
 # POST Agents/List/SaveConsentSource
@@ -8,6 +8,14 @@ id: v1ListAgent_SaveConsentSource
 ```http
 POST /api/v1/Agents/List/SaveConsentSource
 ```
+
+
+
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -18,6 +26,7 @@ POST /api/v1/Agents/List/SaveConsentSource
 ```http
 POST /api/v1/Agents/List/SaveConsentSource?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -33,24 +42,24 @@ POST /api/v1/Agents/List/SaveConsentSource?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-ConsentSource
+ConsentSource 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | ConsentSource |  | Carrier object for ConsentSource. Services for the ConsentSource Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IListAgent">List Agent</see>. |
 
-## Response: object
 
-Carrier object for ConsentSource.
-Services for the ConsentSource Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IListAgent">List Agent</see>.
+## Response: 
+
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -64,52 +73,40 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/List/SaveConsentSource
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConsentSource": {
-    "ConsentSourceId": 625,
-    "Name": "Hudson, Cartwright and Luettgen",
-    "Tooltip": "ut",
-    "Rank": 251,
-    "Key": "iusto",
-    "MailTemplateId": 183,
-    "Deleted": true
-  }
+  "ConsentSource": null
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConsentSourceId": 20,
-  "Name": "Parisian LLC",
-  "Tooltip": "odit",
-  "Rank": 111,
-  "Key": "ducimus",
-  "MailTemplateId": 628,
+  "ConsentSourceId": 931,
+  "Name": "Bailey-Feil",
+  "Tooltip": "distinctio",
+  "Rank": 202,
+  "Key": "ipsam",
+  "MailTemplateId": 877,
   "Deleted": false,
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
+      "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 342
+      "FieldLength": 158
     }
   }
 }

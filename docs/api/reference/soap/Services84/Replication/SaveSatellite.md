@@ -17,6 +17,7 @@ Updates the existing Satellite or creates a new Satellite if the id parameter is
 
 **Returns:** New or updated Satellite
 
+
 [WSDL file for Services84/Replication](../Services84-Replication.md)
 
 Obtain a ticket from the [Services84/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -43,7 +44,7 @@ Application tokens must be specified if calling an Online installation. Applicat
    <Replication:SaveSatellite>
     <Replication:Satellite xsi:type="Replication:Satellite">
      <Replication:SatelliteId xsi:type="xsd:int">0</Replication:SatelliteId>
-     <Replication:Created xsi:type="xsd:dateTime">2021-11-30T13:22:20Z</Replication:Created>
+     <Replication:Created xsi:type="xsd:dateTime">2022-08-26T08:51:39Z</Replication:Created>
      <Replication:CreatedBy xsi:type="Replication:Associate">
       <Replication:AssociateId xsi:type="xsd:int">0</Replication:AssociateId>
       <Replication:Name xsi:type="xsd:string"></Replication:Name>
@@ -57,7 +58,7 @@ Application tokens must be specified if calling an Online installation. Applicat
       <Replication:Deleted xsi:type="xsd:boolean">false</Replication:Deleted>
       <Replication:EjUserId xsi:type="xsd:int">0</Replication:EjUserId>
      </Replication:CreatedBy>
-     <Replication:Updated xsi:type="xsd:dateTime">2021-11-30T13:22:20Z</Replication:Updated>
+     <Replication:Updated xsi:type="xsd:dateTime">2022-08-26T08:51:39Z</Replication:Updated>
      <Replication:UpdatedBy xsi:type="Replication:Associate">
       <Replication:AssociateId xsi:type="xsd:int">0</Replication:AssociateId>
       <Replication:Name xsi:type="xsd:string"></Replication:Name>
@@ -164,6 +165,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## SaveSatellite Response
 
 ```xml
@@ -180,7 +182,7 @@ Application tokens must be specified if calling an Online installation. Applicat
   <Replication:SaveSatelliteResponse>
    <Replication:Response xsi:type="Replication:Satellite">
     <Replication:SatelliteId xsi:type="xsd:int">0</Replication:SatelliteId>
-    <Replication:Created xsi:type="xsd:dateTime">2021-11-30T13:22:20Z</Replication:Created>
+    <Replication:Created xsi:type="xsd:dateTime">2022-08-26T08:51:39Z</Replication:Created>
     <Replication:CreatedBy xsi:type="Replication:Associate">
      <Replication:AssociateId xsi:type="xsd:int">0</Replication:AssociateId>
      <Replication:Name xsi:type="xsd:string"></Replication:Name>
@@ -194,7 +196,7 @@ Application tokens must be specified if calling an Online installation. Applicat
      <Replication:Deleted xsi:type="xsd:boolean">false</Replication:Deleted>
      <Replication:EjUserId xsi:type="xsd:int">0</Replication:EjUserId>
     </Replication:CreatedBy>
-    <Replication:Updated xsi:type="xsd:dateTime">2021-11-30T13:22:20Z</Replication:Updated>
+    <Replication:Updated xsi:type="xsd:dateTime">2022-08-26T08:51:39Z</Replication:Updated>
     <Replication:UpdatedBy xsi:type="Replication:Associate">
      <Replication:AssociateId xsi:type="xsd:int">0</Replication:AssociateId>
      <Replication:Name xsi:type="xsd:string"></Replication:Name>
@@ -299,3 +301,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

@@ -1,6 +1,6 @@
 ---
 title: POST Agents/License/GetUserLicensesMDOList
-id: v1LicenseAgent_GetUserLicensesMDOList
+uid: v1LicenseAgent_GetUserLicensesMDOList
 ---
 
 # POST Agents/License/GetUserLicensesMDOList
@@ -11,6 +11,12 @@ POST /api/v1/Agents/License/GetUserLicensesMDOList
 
 Get all licenses in a MDOListItem structure.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Get all licenses in a MDOListItem structure.
 ```http
 POST /api/v1/Agents/License/GetUserLicensesMDOList?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -34,7 +41,10 @@ POST /api/v1/Agents/License/GetUserLicensesMDOList?$select=name,department,categ
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -62,14 +72,16 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/License/GetUserLicensesMDOList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -77,65 +89,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 253,
-    "Name": "Fadel, Davis and Berge",
-    "ToolTip": "Dolor voluptas voluptas animi.",
+    "Id": 863,
+    "Name": "Becker Inc and Sons",
+    "ToolTip": "Quis quia porro et ipsam.",
     "Deleted": false,
-    "Rank": 907,
-    "Type": "quidem",
-    "ColorBlock": 525,
-    "IconHint": "et",
+    "Rank": 219,
+    "Type": "repudiandae",
+    "ColorBlock": 421,
+    "IconHint": "reiciendis",
     "Selected": false,
-    "LastChanged": "2011-09-01T18:28:49.2441178+02:00",
+    "LastChanged": "2021-06-30T11:10:27.1114536+02:00",
     "ChildItems": [
       {
-        "Id": 499,
-        "Name": "Ritchie Group",
-        "ToolTip": "Dolores dolorum facere reiciendis quisquam quo magni.",
-        "Deleted": true,
-        "Rank": 544,
-        "Type": "dolorum",
-        "ColorBlock": 5,
-        "IconHint": "accusantium",
+        "Id": 823,
+        "Name": "Nikolaus Group",
+        "ToolTip": "Dolor voluptatem sed magnam odit animi.",
+        "Deleted": false,
+        "Rank": 137,
+        "Type": "quod",
+        "ColorBlock": 838,
+        "IconHint": "ullam",
         "Selected": false,
-        "LastChanged": "2004-06-30T18:28:49.2441178+02:00",
+        "LastChanged": "1995-10-02T11:10:27.1114536+02:00",
         "ChildItems": [
           {},
           {}
         ],
         "ExtraInfo": "dolores",
-        "StyleHint": "veniam",
-        "Hidden": true,
-        "FullName": "Anais Kling",
-        "TableRight": {},
+        "StyleHint": "laudantium",
+        "Hidden": false,
+        "FullName": "Miss Treva Ritchie",
+        "TableRight": null,
         "FieldProperties": {
           "fieldName": {
-            "FieldRight": {
-              "Mask": "FULL",
-              "Reason": ""
-            },
+            "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 296
+            "FieldLength": 521
           }
         }
       }
     ],
-    "ExtraInfo": "sed",
-    "StyleHint": "excepturi",
+    "ExtraInfo": "blanditiis",
+    "StyleHint": "iusto",
     "Hidden": true,
-    "FullName": "Alverta Kessler",
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "FullName": "Syble Prohaska",
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": "grow cross-media action-items"
-        },
-        "FieldType": "System.String",
-        "FieldLength": 19
+        "FieldRight": null,
+        "FieldType": "System.Int32",
+        "FieldLength": 709
       }
     }
   }

@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "inbox"
-so.date: 04.12.2022
+so.date: 08.26.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -33,6 +33,7 @@ Info and status for safe email import
 |plugin|Name of plugin that created this inbox entry|String(255)| |
 |format|Format of the inbox entry|String(255)| |
 
+
 ![inbox table relationship diagram](./media/inbox.png)
 
 [!include[details](./includes/inbox.md)]
@@ -55,6 +56,7 @@ Info and status for safe email import
 |[locking](locking.md)  |Generic locking and error messages |
 |[mail\_in\_filter](mail-in-filter.md)  |This table contains entries for the mailboxes the eJournal system is fetching mail from (POP3 or IMAP). |
 
+
 ## Replication Flags
 
 * None
@@ -62,3 +64,4 @@ Info and status for safe email import
 ## Security Flags
 
 * No access control via user's Role.
+

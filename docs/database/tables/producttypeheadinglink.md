@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "ProductTypeHeadingLink"
-so.date: 04.12.2022
+so.date: 08.26.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -30,6 +30,7 @@ Heading link table for ProductType, for MDO item headings
 |updated\_associate\_id|Last updated by whom|FK [associate](associate.md)| |
 |updatedCount|Number of updates made to this record|UShort| |
 
+
 ![ProductTypeHeadingLink table relationship diagram](./media/ProductTypeHeadingLink.png)
 
 [!include[details](./includes/producttypeheadinglink.md)]
@@ -50,6 +51,7 @@ Heading link table for ProductType, for MDO item headings
 |[Heading](heading.md)  |Heading items for all MDO lists, lists that are grouped and filtered. |
 |[ProductType](producttype.md)  |List for the ProductType field of the Product table (Quote Management) |
 
+
 ## Replication Flags
 
 * Replicate changes DOWN from central to satellites and travellers.
@@ -59,3 +61,4 @@ Heading link table for ProductType, for MDO item headings
 ## Security Flags
 
 * No access control via user's Role.
+

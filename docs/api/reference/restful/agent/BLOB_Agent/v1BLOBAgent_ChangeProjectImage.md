@@ -1,6 +1,6 @@
 ---
 title: POST Agents/BLOB/ChangeProjectImage
-id: v1BLOBAgent_ChangeProjectImage
+uid: v1BLOBAgent_ChangeProjectImage
 ---
 
 # POST Agents/BLOB/ChangeProjectImage
@@ -11,7 +11,13 @@ POST /api/v1/Agents/BLOB/ChangeProjectImage
 
 Changes the project image link.
 
+
 If the Binary object id is 0, any image link is removed from the project.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -23,6 +29,7 @@ If the Binary object id is 0, any image link is removed from the project.
 POST /api/v1/Agents/BLOB/ChangeProjectImage?$select=name,department,category/id
 ```
 
+
 ## Request Headers
 
 | Parameter Name | Description |
@@ -30,19 +37,50 @@ POST /api/v1/Agents/BLOB/ChangeProjectImage?$select=name,department,category/id
 | Authorization  | Supports 'Basic', 'SoTicket' and 'Bearer' schemes, depending on installation type. |
 | X-XSRF-TOKEN   | If not using Authorization header, you must provide XSRF value from cookie or hidden input field |
 | Content-Type | Content-type of the request body: `application/json`, `text/json`, `application/xml`, `text/xml`, `application/x-www-form-urlencoded`, `application/json-patch+json`, `application/merge-patch+json` |
+| Accept         | Content-type(s) you would like the response in:  |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-ProjectId, BlobId
+ProjectId, BlobId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | ProjectId | int32 |  |
 | BlobId | int32 |  |
 
-## Response
+
+## Response: 
+
+No Content
 
 | Response | Description |
 |----------------|-------------|
 | 204 | No Content |
+
+Response body: 
+
+
+## Sample request
+
+```http!
+POST /api/v1/Agents/BLOB/ChangeProjectImage
+Authorization: Basic dGplMDpUamUw
+Accept: application/json; charset=utf-8
+Accept-Language: sv
+Content-Type: application/json; charset=utf-8
+
+{
+  "ProjectId": 469,
+  "BlobId": 502
+}
+```
+
+## Sample response
+
+```http_
+HTTP/1.1 204 No Content
+Content-Type: application/json; charset=utf-8
+
+null
+```

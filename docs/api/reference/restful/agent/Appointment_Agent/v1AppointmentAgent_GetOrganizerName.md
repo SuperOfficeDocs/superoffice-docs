@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Appointment/GetOrganizerName
-id: v1AppointmentAgent_GetOrganizerName
+uid: v1AppointmentAgent_GetOrganizerName
 ---
 
 # POST Agents/Appointment/GetOrganizerName
@@ -11,6 +11,12 @@ POST /api/v1/Agents/Appointment/GetOrganizerName
 
 Lookup the name / email of an event-organizer
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Lookup the name / email of an event-organizer
 ```http
 POST /api/v1/Agents/Appointment/GetOrganizerName?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,15 +42,18 @@ POST /api/v1/Agents/Appointment/GetOrganizerName?$select=name,department,categor
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-MotherAppointmentId
+MotherAppointmentId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | MotherAppointmentId | int32 |  |
 
+
 ## Response: string
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -51,23 +61,26 @@ MotherAppointmentId
 
 Response body: string
 
-## Sample Request
+
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Appointment/GetOrganizerName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "MotherAppointmentId": 403
+  "MotherAppointmentId": 875
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"Breitenberg Inc and Sons"
+"Kulas-Hartmann"
 ```

@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Selection/GetSelectionShadowMembersArchiveRows
-id: v1SelectionAgent_GetSelectionShadowMembersArchiveRows
+uid: v1SelectionAgent_GetSelectionShadowMembersArchiveRows
 ---
 
 # POST Agents/Selection/GetSelectionShadowMembersArchiveRows
@@ -11,7 +11,13 @@ POST /api/v1/Agents/Selection/GetSelectionShadowMembersArchiveRows
 
 Get the list of members in this selection's shadow (i.
 
+
 e. the list of contacts + persons referenced in the main selection).
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +28,7 @@ e. the list of contacts + persons referenced in the main selection).
 ```http
 POST /api/v1/Agents/Selection/GetSelectionShadowMembersArchiveRows?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,16 +44,19 @@ POST /api/v1/Agents/Selection/GetSelectionShadowMembersArchiveRows?$select=name,
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-SelectionId, Select
+SelectionId, Select 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | SelectionId | int32 |  |
 | Select | string |  |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -64,20 +74,22 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Selection/GetSelectionShadowMembersArchiveRows
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 399,
-  "Select": "aut"
+  "SelectionId": 443,
+  "Select": "placeat"
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -85,29 +97,23 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EntityName": "Marquardt-Reilly",
-    "PrimaryKey": 146,
+    "EntityName": "Jerde-Turcotte",
+    "PrimaryKey": 696,
     "ColumnData": {
       "fieldName": {
-        "DisplayValue": "quia",
-        "TooltipHint": "aliquid",
-        "LinkHint": "amet"
+        "DisplayValue": "qui",
+        "TooltipHint": "nesciunt",
+        "LinkHint": "eum"
       }
     },
-    "LinkHint": "vel",
-    "StyleHint": "qui",
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "LinkHint": "id",
+    "StyleHint": "exercitationem",
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 101
+        "FieldRight": null,
+        "FieldType": "System.Int32",
+        "FieldLength": 557
       }
     }
   }

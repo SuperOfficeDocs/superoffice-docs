@@ -1,6 +1,6 @@
 ---
 title: POST Agents/FreeText/RegenerateIndex
-id: v1FreeTextAgent_RegenerateIndex
+uid: v1FreeTextAgent_RegenerateIndex
 ---
 
 # POST Agents/FreeText/RegenerateIndex
@@ -11,6 +11,12 @@ POST /api/v1/Agents/FreeText/RegenerateIndex
 
 Wipe and regenerate the freetext index by scanning the database (freetext search will be unavailable while this operation runs
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Wipe and regenerate the freetext index by scanning the database (freetext search
 ```http
 POST /api/v1/Agents/FreeText/RegenerateIndex?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,26 +42,24 @@ POST /api/v1/Agents/FreeText/RegenerateIndex?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-RunAsBatch
+RunAsBatch 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | RunAsBatch | bool |  |
 
-## Response: object
 
-BatchTaskInfo contains information about one batch task.
+## Response: 
 
-Carrier object for BatchTaskInfo.
-Services for the BatchTaskInfo Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IBatchAgent">Batch Agent</see>.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -82,7 +87,7 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/FreeText/RegenerateIndex
@@ -92,51 +97,47 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "RunAsBatch": false
+  "RunAsBatch": true
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 629,
-  "Name": "Doyle-Price",
-  "AssociateId": 436,
-  "DetailsTable": 773,
-  "DetailsRecord": 182,
-  "IsSystemTask": true,
+  "Id": 275,
+  "Name": "Abshire-Eichmann",
+  "AssociateId": 258,
+  "DetailsTable": 482,
+  "DetailsRecord": 724,
+  "IsSystemTask": false,
   "IsInternalTask": false,
   "ParameterObject": {
-    "ParameterObject1": "ex",
-    "ParameterObject2": "perspiciatis"
+    "ParameterObject1": "est",
+    "ParameterObject2": "incidunt"
   },
-  "LastStarted": "1999-01-31T18:28:49.2291233+01:00",
-  "Created": "2018-07-11T18:28:49.2291233+02:00",
-  "StartCount": 667,
-  "DatabaseSerialNumber": "333721",
-  "Context": "numquam",
-  "Result": "quo",
+  "LastStarted": "1999-02-06T11:10:27.0984528+01:00",
+  "Created": "2007-09-18T11:10:27.0984528+02:00",
+  "StartCount": 5,
+  "DatabaseSerialNumber": "528575",
+  "Context": "quia",
+  "Result": "maxime",
   "State": "All",
-  "Description": "Exclusive 3rd generation array",
-  "Response": "officiis",
-  "Request": "eveniet",
-  "ProgressDescription": "Advanced web-enabled complexity",
-  "ProgressPercent": 649,
-  "FileName": "Sauer Group",
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "Description": "Cross-platform dynamic approach",
+  "Response": "quae",
+  "Request": "consequatur",
+  "ProgressDescription": "Re-engineered analyzing task-force",
+  "ProgressPercent": 50,
+  "FileName": "White, Berge and Langosh",
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
-      "FieldType": "System.String",
-      "FieldLength": 400
+      "FieldRight": null,
+      "FieldType": "System.Int32",
+      "FieldLength": 716
     }
   }
 }

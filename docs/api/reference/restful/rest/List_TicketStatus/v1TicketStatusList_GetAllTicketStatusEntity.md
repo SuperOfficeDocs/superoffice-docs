@@ -1,6 +1,6 @@
 ---
 title: GET List/TicketStatus/Items
-id: v1TicketStatusList_GetAllTicketStatusEntity
+uid: v1TicketStatusList_GetAllTicketStatusEntity
 ---
 
 # GET List/TicketStatus/Items
@@ -11,7 +11,14 @@ GET /api/v1/List/TicketStatus/Items
 
 Gets a list of all TicketStatusEntity list items.
 
+
 Calls the List agent service GetAllTicketStatusEntity.
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -26,7 +33,10 @@ Calls the List agent service GetAllTicketStatusEntity.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -46,7 +56,7 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 GET /api/v1/List/TicketStatus/Items
@@ -55,31 +65,27 @@ Accept: application/json; charset=utf-8
 Accept-Language: en
 ```
 
+## Sample response
+
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TicketStatusId": 837,
-    "Name": "Ernser Inc and Sons",
+    "TicketStatusId": 201,
+    "Name": "Boyle, Blanda and Wisoky",
     "Status": "Active",
     "TimeCounter": "Externally",
     "NoEmailReopen": false,
-    "IsDefault": true,
-    "UsedInQueue": true,
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "IsDefault": false,
+    "UsedInQueue": false,
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 458
+        "FieldRight": null,
+        "FieldType": "System.Int32",
+        "FieldLength": 496
       }
     }
   }

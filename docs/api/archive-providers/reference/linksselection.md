@@ -8,7 +8,7 @@ keywords:
   - "archive provider"
   - "LinksSelection"
 so.generated: true
-so.date: 03.23.2021
+so.date: 08.26.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -22,13 +22,13 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 ## Supported Entities
 
 | Name | Description |
-| ---- | ----- |
+| ---- | ----------- |
 |"Selection"|Selection|
 
 ## Supported Columns
 
-| Name | Restriction | Description | OrderBy
-| ---- | ----- | ------- | ------ |
+| Name | Restriction | Description | OrderBy |
+| ---- | ----------- | ----------- | ------- |
 |getAllRows|bool|GetAll: Get all rows of archive - use with care, you may be fetching the whole database|  |
 |getNoRows|bool|GetNone: Do not get any rows from the archive|  |
 |sourceAppointmentRestrictionId|int|Source follow-up ID: Unique ID of follow-up to fetch link data for|  |
@@ -49,13 +49,17 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |combinationType|listAny|Combination type: Displays the combination type for a selection| x |
 |done|bool|Completed: Shows whether the selection has been completed| x |
 |updatedBy|associate|Updated by: The user who last updated the data| x |
+|updatedByFullName|associate|Updated by - Full name: The user who last updated the data| x |
 |updatedDate|date|Updated: The date/time the data was last updated in UTC.| x |
 |registeredBy|associate|Registered by: The user who registered the data| x |
+|registeredByFullName|associate|Registered by - Full name: The user who registered the data| x |
 |registeredDate|date|Registered date: The date/time the data was registered in UTC.| x |
-|lastLoaded|date|Viewed: When was the result list for the selection last shown| x |
-|lastLoadedBy|associate|Viewed by: Who was the last person to show the result list for the selection| x |
+|lastLoaded|date|Last used: When was the result list for the selection last shown| x |
+|lastLoadedBy|associate|Last used by: Who was the last person to show the result list for the selection| x |
+|lastLoadedByFullName|associate|Last used by - Full name: Who was the last person to show the result list for the selection| x |
 |lastMembershipChange|date|Members changed: When was the result list for the selection last changed, for instance due to a change in the criteria| x |
 |lastMembershipChangeBy|associate|Members changed by: Who was the last person to change the result list for the selection, for instance by changing the criteria| x |
+|lastMembershipChangeByFullName|associate|Members changed by - Full name: Who was the last person to change the result list for the selection, for instance by changing the criteria| x |
 |memberCount|int|Members: How many members were in the selection, the last time all were fetched. May be imprecise/outdated.| x |
 |icon| *None* |Category: Displays the icon for an activity type| x |
 |text|string|Text: Displays a descriptive text for the item| x |
@@ -67,11 +71,14 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 ## Sample
 
 ```http!
-GET /api/v1/archive/LinksSelection?$select=linkId,kind,selectionId
+GET /api/v1/archive/LinksSelection?$select=lastLoadedBy,name,updatedBy
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv
 
 ```
 
-See also: <see cref="T:SuperOffice.CRM.Services.IArchiveAgent">IArchiveAgent</see>.
+
+
+See also: <see cref="T:SuperOffice.CRM.Services.IArchiveAgent">IArchiveAgent</see>.</p>
+

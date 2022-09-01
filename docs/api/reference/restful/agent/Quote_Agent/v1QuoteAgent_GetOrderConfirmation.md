@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Quote/GetOrderConfirmation
-id: v1QuoteAgent_GetOrderConfirmation
+uid: v1QuoteAgent_GetOrderConfirmation
 ---
 
 # POST Agents/Quote/GetOrderConfirmation
@@ -11,6 +11,12 @@ POST /api/v1/Agents/Quote/GetOrderConfirmation
 
 Get a base64-encoded data stream that is just the order confirmation document, for the given quote version; no permanent document is created or stored anywhere; the result is a PDF
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Get a base64-encoded data stream that is just the order confirmation document, f
 ```http
 POST /api/v1/Agents/Quote/GetOrderConfirmation?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,16 +42,19 @@ POST /api/v1/Agents/Quote/GetOrderConfirmation?$select=name,department,category/
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-QuoteVersionId, ConfirmationTemplateId
+QuoteVersionId, ConfirmationTemplateId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | QuoteVersionId | int32 |  |
 | ConfirmationTemplateId | int32 |  |
 
+
 ## Response: string
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -52,7 +62,8 @@ QuoteVersionId, ConfirmationTemplateId
 
 Response body: string
 
-## Sample Request
+
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Quote/GetOrderConfirmation
@@ -62,14 +73,16 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 603,
-  "ConfirmationTemplateId": 332
+  "QuoteVersionId": 779,
+  "ConfirmationTemplateId": 538
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"quis"
+"qui"
 ```

@@ -1,6 +1,6 @@
 ---
 title: POST Agents/EMail/CreateDefaultEMailEntity
-id: v1EMailAgent_CreateDefaultEMailEntity
+uid: v1EMailAgent_CreateDefaultEMailEntity
 ---
 
 # POST Agents/EMail/CreateDefaultEMailEntity
@@ -11,9 +11,17 @@ POST /api/v1/Agents/EMail/CreateDefaultEMailEntity
 
 Set default values into a new EMailEntity.
 
+
 NetServer calculates default values on the entity, which is required when creating/storing a new instance
 
-## Online Restricted: ## The EMail agent is not available in Online by default. Access must be requested specifically when app is registered
+
+## Online Restricted: ## The EMail agent is not available in Online by default. Access must be requested specifically when app is registered.
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -28,18 +36,16 @@ NetServer calculates default values on the entity, which is required when creati
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response: object
 
-All information about an e-mail
+## Response: 
 
-Carrier object for EMailEntity.
-Services for the EMailEntity Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IEMailAgent">EMail Agent</see>.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -72,14 +78,16 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/EMail/CreateDefaultEMailEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -88,248 +96,155 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 250,
-      "ContactName": "Senger, Denesik and Ritchie",
-      "PersonId": 741,
-      "PersonName": "Schroeder, Effertz and Kreiger",
-      "AssociateId": 784,
-      "Address": "voluptas",
-      "EmailId": 480,
+      "ContactId": 487,
+      "ContactName": "Wisozk, Luettgen and Lakin",
+      "PersonId": 156,
+      "PersonName": "Botsford, Macejkovic and Hickle",
+      "AssociateId": 185,
+      "Address": "voluptatibus",
+      "EmailId": 465,
       "DuplicatePersonIds": [
-        444,
-        339
+        282,
+        687
       ],
-      "Name": "Hodkiewicz, Collier and Howe",
-      "TableRight": {},
+      "Name": "Ankunding Group",
+      "TableRight": null,
       "FieldProperties": {
         "fieldName": {
-          "FieldRight": {
-            "Mask": "FULL",
-            "Reason": "integrate rich relationships"
-          },
-          "FieldType": "System.Int32",
-          "FieldLength": 890
+          "FieldRight": null,
+          "FieldType": "System.String",
+          "FieldLength": 156
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 973,
-      "ContactName": "Baumbach, Hermiston and Sauer",
-      "PersonId": 453,
-      "PersonName": "Leffler-Gerhold",
-      "AssociateId": 138,
-      "Address": "quaerat",
-      "EmailId": 212,
+      "ContactId": 47,
+      "ContactName": "Kovacek, Bartell and Lakin",
+      "PersonId": 122,
+      "PersonName": "Hoeger Group",
+      "AssociateId": 673,
+      "Address": "deserunt",
+      "EmailId": 893,
       "DuplicatePersonIds": [
-        455,
-        842
+        772,
+        670
       ],
-      "Name": "Beahan LLC",
-      "TableRight": {},
+      "Name": "Kautzer, Abernathy and Rice",
+      "TableRight": null,
       "FieldProperties": {
         "fieldName": {
-          "FieldRight": {
-            "Mask": "FULL",
-            "Reason": ""
-          },
+          "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 714
+          "FieldLength": 660
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 1001,
-      "ContactName": "Bergnaum LLC",
-      "PersonId": 119,
-      "PersonName": "Conn-Swift",
-      "AssociateId": 835,
-      "Address": "voluptate",
-      "EmailId": 853,
+      "ContactId": 520,
+      "ContactName": "Stanton, Mohr and Lemke",
+      "PersonId": 291,
+      "PersonName": "Hammes Inc and Sons",
+      "AssociateId": 873,
+      "Address": "autem",
+      "EmailId": 529,
       "DuplicatePersonIds": [
-        749,
-        822
+        734,
+        759
       ],
-      "Name": "Casper Inc and Sons",
-      "TableRight": {},
+      "Name": "Anderson, Auer and Hintz",
+      "TableRight": null,
       "FieldProperties": {
         "fieldName": {
-          "FieldRight": {
-            "Mask": "FULL",
-            "Reason": ""
-          },
+          "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 185
+          "FieldLength": 899
         }
       }
     }
   ],
-  "Subject": "impedit",
-  "HTMLBody": "molestiae",
-  "From": {
-    "ContactId": 936,
-    "ContactName": "Strosin Group",
-    "PersonId": 475,
-    "PersonName": "Auer, Wunsch and Gerhold",
-    "AssociateId": 992,
-    "Address": "exercitationem",
-    "EmailId": 418,
-    "DuplicatePersonIds": [
-      335,
-      999
-    ],
-    "Name": "Homenick-Gutkowski",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.Int32",
-        "FieldLength": 708
-      }
-    }
-  },
-  "Sent": "2021-05-08T18:28:49.0859569+02:00",
-  "Size": 73,
+  "Subject": "amet",
+  "HTMLBody": "delectus",
+  "From": null,
+  "Sent": "2017-11-25T11:10:26.8964578+01:00",
+  "Size": 906,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "vitae",
-  "PlainBody": "non",
+  "MessageID": "aperiam",
+  "PlainBody": "possimus",
   "IsSent": false,
-  "EMailSOInfo": {
-    "DocumentId": 615,
-    "AppointmentId": 947,
-    "ProjectId": 443,
-    "SaleId": 185,
-    "Archived": true,
-    "ArchivedAt": "2014-07-26T18:28:49.0859569+02:00",
-    "ArchivedBy": 880,
-    "ArchivedDisplayName": "Wilderman-Hudson",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 449
-      }
-    }
-  },
-  "ServerId": 831,
+  "EMailSOInfo": null,
+  "ServerId": 860,
   "Attachments": [
     {
-      "Description": "Persevering homogeneous core",
-      "Filename": "quibusdam",
-      "Size": 901,
-      "Type": "ut",
-      "Encoding": "tempora",
-      "Id": "quibusdam",
-      "Disposition": "a",
+      "Description": "Polarised fresh-thinking instruction set",
+      "Filename": "nam",
+      "Size": 123,
+      "Type": "officiis",
+      "Encoding": "commodi",
+      "Id": "quia",
+      "Disposition": "molestias",
       "Stream": "GIF89....File contents as raw bytes...",
-      "TableRight": {},
+      "TableRight": null,
       "FieldProperties": {
         "fieldName": {
-          "FieldRight": {
-            "Mask": "FULL",
-            "Reason": ""
-          },
+          "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 731
+          "FieldLength": 484
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Brekke LLC",
+      "Name": "Shields LLC",
       "Values": [
-        "voluptatem",
-        "quia"
+        "aspernatur",
+        "dolorum"
       ],
-      "TableRight": {},
+      "TableRight": null,
       "FieldProperties": {
         "fieldName": {
-          "FieldRight": {
-            "Mask": "FULL",
-            "Reason": ""
-          },
+          "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 461
+          "FieldLength": 198
         }
       }
     },
     {
-      "Name": "Brekke LLC",
+      "Name": "Shields LLC",
       "Values": [
-        "voluptatem",
-        "quia"
+        "aspernatur",
+        "dolorum"
       ],
-      "TableRight": {},
+      "TableRight": null,
       "FieldProperties": {
         "fieldName": {
-          "FieldRight": {
-            "Mask": "FULL",
-            "Reason": ""
-          },
+          "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 461
+          "FieldLength": 198
         }
       }
     }
   ],
-  "FolderName": "Emmerich-Dicki",
-  "EmailItemId": 626,
-  "AccountId": 95,
-  "ReceivedAt": "1996-05-16T18:28:49.0869567+02:00",
-  "InReplyTo": {
-    "ServerId": 527,
-    "MessageId": "qui",
-    "Subject": "eveniet",
-    "From": {},
-    "To": [
-      {},
-      {}
-    ],
-    "Sent": "2008-10-25T18:28:49.0869567+02:00",
-    "Priority": "High",
-    "Flags": "Answered",
-    "Size": 957,
-    "EMailSOInfo": {},
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 405
-      }
-    }
-  },
-  "RepliedAt": "2014-10-17T18:28:49.0869567+02:00",
+  "FolderName": "Durgan-Beahan",
+  "EmailItemId": 244,
+  "AccountId": 86,
+  "ReceivedAt": "1999-12-29T11:10:26.8974525+01:00",
+  "InReplyTo": null,
+  "RepliedAt": "2011-11-23T11:10:26.8974525+01:00",
   "HasCalendarData": true,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
+      "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 507
+      "FieldLength": 564
     }
   }
 }

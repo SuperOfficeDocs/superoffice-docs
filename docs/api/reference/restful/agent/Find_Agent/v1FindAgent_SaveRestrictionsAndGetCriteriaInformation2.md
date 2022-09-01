@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Find/SaveRestrictionsAndGetCriteriaInformation2
-id: v1FindAgent_SaveRestrictionsAndGetCriteriaInformation2
+uid: v1FindAgent_SaveRestrictionsAndGetCriteriaInformation2
 ---
 
 # POST Agents/Find/SaveRestrictionsAndGetCriteriaInformation2
@@ -11,7 +11,13 @@ POST /api/v1/Agents/Find/SaveRestrictionsAndGetCriteriaInformation2
 
 Save an array of restrictions for later use as search criteria (including as dynamic selection and Find).
 
+
 Then, return the same result as a call to GetCriteriaInformation would have done. The purpose is to encapsulate saving and updating of a GUI in one round trip.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +28,7 @@ Then, return the same result as a call to GetCriteriaInformation would have done
 ```http
 POST /api/v1/Agents/Find/SaveRestrictionsAndGetCriteriaInformation2?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,9 +44,9 @@ POST /api/v1/Agents/Find/SaveRestrictionsAndGetCriteriaInformation2?$select=name
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-StorageType, ProviderName, StorageKey, Restrictions, StaticColumns
+StorageType, ProviderName, StorageKey, Restrictions, StaticColumns 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -49,18 +56,16 @@ StorageType, ProviderName, StorageKey, Restrictions, StaticColumns
 | Restrictions | string |  |
 | StaticColumns | string |  |
 
-## Response: object
 
-Carrier for criteria information. It contains all the search criteria - that is, ArchiveRestrictionInfo - objects, including a  column specification. In addition, it contains the same criteria expressed as an archive, with an array of ArchiveColumnInfo specifications and a set of ArchiveRow rows. The rows of the archive form a subset of the restriction array.
+## Response: 
 
-Carrier object for CriteriaInformation.
-Services for the CriteriaInformation Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IFindAgent">Find Agent</see>.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -71,23 +76,25 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Find/SaveRestrictionsAndGetCriteriaInformation2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "facere",
-  "ProviderName": "Kulas LLC",
-  "StorageKey": "necessitatibus",
-  "Restrictions": "repellendus",
-  "StaticColumns": "saepe"
+  "StorageType": "dolor",
+  "ProviderName": "Schaden Group",
+  "StorageKey": "enim",
+  "Restrictions": "sint",
+  "StaticColumns": "facilis"
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -96,102 +103,93 @@ Content-Type: application/json; charset=utf-8
 {
   "Restrictions": [
     {
-      "Name": "Treutel-Maggio",
-      "Operator": "sit",
+      "Name": "Hane, Kovacek and Beer",
+      "Operator": "qui",
       "Values": [
-        "rem",
-        "quia"
+        "alias",
+        "voluptatum"
       ],
       "DisplayValues": [
-        "ea",
-        "nostrum"
+        "praesentium",
+        "dolores"
       ],
-      "ColumnInfo": {},
+      "ColumnInfo": null,
       "IsActive": false,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 437,
+      "InterParenthesis": 91,
       "InterOperator": "And",
-      "UniqueHash": 559
+      "UniqueHash": 828
     }
   ],
   "CriteriaArchiveColumns": [
     {
-      "DisplayName": "Denesik-Jenkins",
-      "DisplayTooltip": "quaerat",
-      "DisplayType": "illo",
-      "CanOrderBy": false,
-      "Name": "Haley-Nicolas",
-      "CanRestrictBy": true,
-      "RestrictionType": "et",
-      "RestrictionListName": "Kemmer Group",
-      "IsVisible": false,
-      "ExtraInfo": "ducimus",
-      "Width": "expedita",
-      "IconHint": "consequuntur",
-      "HeadingIconHint": "dolores"
+      "DisplayName": "Weber-Kemmer",
+      "DisplayTooltip": "ullam",
+      "DisplayType": "corrupti",
+      "CanOrderBy": true,
+      "Name": "McClure LLC",
+      "CanRestrictBy": false,
+      "RestrictionType": "perferendis",
+      "RestrictionListName": "Hane LLC",
+      "IsVisible": true,
+      "ExtraInfo": "iure",
+      "Width": "laborum",
+      "IconHint": "voluptatem",
+      "HeadingIconHint": "doloribus"
     }
   ],
   "CriteriaArchiveRows": [
     {
-      "EntityName": "Boyle-Botsford",
-      "PrimaryKey": 867,
+      "EntityName": "Quitzon, Green and Hilpert",
+      "PrimaryKey": 465,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "quo",
-          "TooltipHint": "autem",
-          "LinkHint": "quidem"
+          "DisplayValue": "enim",
+          "TooltipHint": "pariatur",
+          "LinkHint": "illum"
         }
       },
-      "LinkHint": "iste",
-      "StyleHint": "ut",
-      "TableRight": {},
+      "LinkHint": "eveniet",
+      "StyleHint": "placeat",
+      "TableRight": null,
       "FieldProperties": {
         "fieldName": {
-          "FieldRight": {
-            "Mask": "FULL",
-            "Reason": ""
-          },
-          "FieldType": "System.String",
-          "FieldLength": 355
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 511
         }
       }
     }
   ],
   "RestrictionGroups": [
     {
-      "Name": "Bahringer, Grant and Cremin",
-      "Description": "Enhanced object-oriented Graphic Interface",
-      "Rank": 107,
+      "Name": "Heathcote Inc and Sons",
+      "Description": "Enterprise-wide attitude-oriented functionalities",
+      "Rank": 972,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Bahringer, Grant and Cremin",
-      "Description": "Enhanced object-oriented Graphic Interface",
-      "Rank": 107,
+      "Name": "Heathcote Inc and Sons",
+      "Description": "Enterprise-wide attitude-oriented functionalities",
+      "Rank": 972,
       "Restrictions": [
         {},
         {}
       ]
     }
   ],
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
+      "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 287
+      "FieldLength": 177
     }
   }
 }

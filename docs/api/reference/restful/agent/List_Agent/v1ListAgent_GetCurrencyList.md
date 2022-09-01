@@ -1,6 +1,6 @@
 ---
 title: POST Agents/List/GetCurrencyList
-id: v1ListAgent_GetCurrencyList
+uid: v1ListAgent_GetCurrencyList
 ---
 
 # POST Agents/List/GetCurrencyList
@@ -11,6 +11,12 @@ POST /api/v1/Agents/List/GetCurrencyList
 
 Gets an array of Currency objects.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Gets an array of Currency objects.
 ```http
 POST /api/v1/Agents/List/GetCurrencyList?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,11 +42,15 @@ POST /api/v1/Agents/List/GetCurrencyList?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: currencyIds
+## Request Body: currencyIds  
 
-The primary keys.
+The primary keys. 
+
+
 
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -55,14 +66,16 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/List/GetCurrencyList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -70,40 +83,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 349,
-    "Value": "asperiores",
-    "Tooltip": "fuga",
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "Id": 560,
+    "Value": "qui",
+    "Tooltip": "sint",
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 846
+        "FieldRight": null,
+        "FieldType": "System.Int32",
+        "FieldLength": 559
       }
     }
   },
   {
-    "Id": 349,
-    "Value": "asperiores",
-    "Tooltip": "fuga",
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "Id": 560,
+    "Value": "qui",
+    "Tooltip": "sint",
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 846
+        "FieldRight": null,
+        "FieldType": "System.Int32",
+        "FieldLength": 559
       }
     }
   }

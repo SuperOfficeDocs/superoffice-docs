@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Associate/GetAssociateList
-id: v1AssociateAgent_GetAssociateList
+uid: v1AssociateAgent_GetAssociateList
 ---
 
 # POST Agents/Associate/GetAssociateList
@@ -11,6 +11,12 @@ POST /api/v1/Agents/Associate/GetAssociateList
 
 Gets an array of Associate objects.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Gets an array of Associate objects.
 ```http
 POST /api/v1/Agents/Associate/GetAssociateList?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,11 +42,15 @@ POST /api/v1/Agents/Associate/GetAssociateList?$select=name,department,category/
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: associateIds
+## Request Body: associateIds  
 
-The primary keys.
+The primary keys. 
+
+
 
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -51,7 +62,7 @@ Response body: array
 |----------------|------|--------------|
 | AssociateId | int32 | Primary key |
 | Name | string | Initials, also login name, possibly database user name |
-| PersonId | int32 | Owning person record  <br />Use MDO List name "person" to get list items. |
+| PersonId | int32 | Owning person record  <para>Use MDO List name "person" to get list items.</para> |
 | Rank | int32 | Rank order |
 | Tooltip | string | Tooltip or other description |
 | Type | string | User type - 1 = internal user, 2 = resource, 3 = external user, 4 = anonymous, 5 = system |
@@ -64,7 +75,7 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Associate/GetAssociateList
@@ -73,36 +84,32 @@ Accept: application/json; charset=utf-8
 Accept-Language: en
 ```
 
+## Sample response
+
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AssociateId": 757,
-    "Name": "Koch, Batz and Hammes",
-    "PersonId": 42,
-    "Rank": 57,
-    "Tooltip": "tenetur",
+    "AssociateId": 106,
+    "Name": "Gorczany, Yundt and Kihn",
+    "PersonId": 404,
+    "Rank": 951,
+    "Tooltip": "impedit",
     "Type": "AnonymousAssociate",
-    "GroupIdx": 695,
-    "FullName": "Miss Camryn Lynch",
-    "FormalName": "Strosin-Grady",
-    "Deleted": true,
-    "EjUserId": 988,
-    "UserName": "Swift, Mitchell and Heathcote",
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "GroupIdx": 101,
+    "FullName": "Chance Ullrich IV",
+    "FormalName": "Block LLC",
+    "Deleted": false,
+    "EjUserId": 224,
+    "UserName": "Kuvalis-Ortiz",
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": "envisioneer transparent networks"
-        },
+        "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 170
+        "FieldLength": 6
       }
     }
   }

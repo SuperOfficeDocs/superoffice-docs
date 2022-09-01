@@ -1,6 +1,6 @@
 ---
 title: PUT SaleStakeholder/{id}
-id: v1SaleStakeholder_PutSaleStakeholder
+uid: v1SaleStakeholder_PutSaleStakeholder
 ---
 
 # PUT SaleStakeholder/{id}
@@ -11,9 +11,15 @@ PUT /api/v1/SaleStakeholder/{id}
 
 Updates the existing SaleStakeholder
 
+
+
+
+
+
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | id | int32 | The SaleStakeholder id to update. **Required** |
+
 
 ## Query String Parameters
 
@@ -24,6 +30,7 @@ Updates the existing SaleStakeholder
 ```http
 PUT /api/v1/SaleStakeholder/{id}?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -39,9 +46,9 @@ PUT /api/v1/SaleStakeholder/{id}?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entity
+## Request Body: entity  
 
-The SaleStakeholder to be saved.
+The SaleStakeholder to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -65,16 +72,17 @@ The SaleStakeholder to be saved.
 | Rank | int32 | Rank in list of stakeholders |
 | Phone | string | Phone number |
 
-## Response: object
 
-SaleStakeholder entity with API _Links added.
+## Response: 
+
+SaleStakeholder updated.
 
 | Response | Description |
 |----------------|-------------|
 | 200 | SaleStakeholder updated. |
 | 400 | Bad request. Entity to save is not in request body. |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -101,7 +109,7 @@ Response body: object
 | FieldProperties | object |  |
 | _Links | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 PUT /api/v1/SaleStakeholder/{id}
@@ -111,69 +119,65 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "StakeholderRoleName": "Langosh Inc and Sons",
-  "Comment": "ut",
-  "StakeholderRoleId": 371,
-  "CountryId": 28,
-  "PersonId": 67,
-  "EmailDescription": "kyra@becker.biz",
-  "EmailId": 391,
-  "EmailAddress": "georgianna@hermandouglas.us",
-  "PhoneId": 713,
-  "ContactName": "Cartwright-Bergstrom",
-  "ContactId": 428,
-  "SaleId": 895,
-  "Mrmrs": "amet",
-  "Firstname": "Brielle",
-  "MiddleName": "Champlin Group",
-  "Lastname": "Paucek",
-  "SaleStakeholderId": 22,
-  "Rank": 207,
-  "Phone": "1-322-727-5826 x3021"
+  "StakeholderRoleName": "Volkman, Rath and Kihn",
+  "Comment": "praesentium",
+  "StakeholderRoleId": 48,
+  "CountryId": 988,
+  "PersonId": 329,
+  "EmailDescription": "lorenzo_cartwright@schillerhermiston.ca",
+  "EmailId": 444,
+  "EmailAddress": "gwen.hamill@bauch.ca",
+  "PhoneId": 875,
+  "ContactName": "Balistreri-Stracke",
+  "ContactId": 583,
+  "SaleId": 955,
+  "Mrmrs": "enim",
+  "Firstname": "Morgan",
+  "MiddleName": "Heidenreich-Langosh",
+  "Lastname": "Hintz",
+  "SaleStakeholderId": 277,
+  "Rank": 41,
+  "Phone": "268.169.0451"
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 SaleStakeholder updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "StakeholderRoleName": "Wilderman, Boehm and Mante",
-  "Comment": "iure",
-  "StakeholderRoleId": 728,
-  "CountryId": 6,
-  "PersonId": 871,
-  "EmailDescription": "anabel@dubuquewest.ca",
-  "EmailId": 157,
-  "EmailAddress": "evert_grant@schiller.info",
-  "PhoneId": 211,
-  "ContactName": "Hammes-Hand",
-  "ContactId": 403,
-  "SaleId": 560,
-  "Mrmrs": "et",
-  "Firstname": "Sedrick",
-  "MiddleName": "Kling, Pollich and McDermott",
-  "Lastname": "Howell",
-  "SaleStakeholderId": 673,
-  "Rank": 724,
-  "Phone": "(841)425-5205 x0708",
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "StakeholderRoleName": "Boyer, Veum and Barrows",
+  "Comment": "nesciunt",
+  "StakeholderRoleId": 464,
+  "CountryId": 329,
+  "PersonId": 227,
+  "EmailDescription": "saige@greenholtschaefer.com",
+  "EmailId": 90,
+  "EmailAddress": "herminia@renner.biz",
+  "PhoneId": 600,
+  "ContactName": "Konopelski, Ratke and Shields",
+  "ContactId": 805,
+  "SaleId": 366,
+  "Mrmrs": "reiciendis",
+  "Firstname": "Mike",
+  "MiddleName": "Frami-Farrell",
+  "Lastname": "Reinger",
+  "SaleStakeholderId": 918,
+  "Rank": 197,
+  "Phone": "(182)252-2905 x8134",
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
+      "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 407
+      "FieldLength": 455
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

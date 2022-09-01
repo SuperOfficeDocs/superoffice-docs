@@ -1,6 +1,6 @@
 ---
 title: POST Agents/List/SaveListItemEntity
-id: v1ListAgent_SaveListItemEntity
+uid: v1ListAgent_SaveListItemEntity
 ---
 
 # POST Agents/List/SaveListItemEntity
@@ -11,6 +11,12 @@ POST /api/v1/Agents/List/SaveListItemEntity
 
 Save the ListItemEntity.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Save the ListItemEntity.
 ```http
 POST /api/v1/Agents/List/SaveListItemEntity?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,26 +42,24 @@ POST /api/v1/Agents/List/SaveListItemEntity?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-ListItemEntity
+ListItemEntity 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| ListItemEntity |  | The list item entity contains generic list item information <br /> Carrier object for ListItemEntity. Services for the ListItemEntity Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IListAgent">List Agent</see>. |
+| ListItemEntity |  | The list item entity contains generic list item information <para /> Carrier object for ListItemEntity. Services for the ListItemEntity Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IListAgent">List Agent</see>. |
 
-## Response: object
 
-The list item entity contains generic list item information
+## Response: 
 
-Carrier object for ListItemEntity.
-Services for the ListItemEntity Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IListAgent">List Agent</see>.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -67,50 +72,39 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/List/SaveListItemEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ListItemEntity": {
-    "Id": 598,
-    "Name": "Ziemann-Collier",
-    "Tooltip": "quas",
-    "Deleted": false,
-    "UdListDefinitionId": 674,
-    "Rank": 290
-  }
+  "ListItemEntity": null
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 258,
-  "Name": "Senger-Jaskolski",
-  "Tooltip": "quo",
+  "Id": 141,
+  "Name": "Quitzon-Douglas",
+  "Tooltip": "distinctio",
   "Deleted": false,
-  "UdListDefinitionId": 217,
-  "Rank": 225,
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "UdListDefinitionId": 375,
+  "Rank": 423,
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
+      "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 10
+      "FieldLength": 316
     }
   }
 }

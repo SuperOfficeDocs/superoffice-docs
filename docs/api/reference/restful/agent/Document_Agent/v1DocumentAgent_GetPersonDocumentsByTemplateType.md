@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Document/GetPersonDocumentsByTemplateType
-id: v1DocumentAgent_GetPersonDocumentsByTemplateType
+uid: v1DocumentAgent_GetPersonDocumentsByTemplateType
 ---
 
 # POST Agents/Document/GetPersonDocumentsByTemplateType
@@ -11,7 +11,13 @@ POST /api/v1/Agents/Document/GetPersonDocumentsByTemplateType
 
 Method that returns a specified number of document appointments within a time range, filtered by document template type.
 
+
 The document appointments belong to the person specified.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +28,7 @@ The document appointments belong to the person specified.
 ```http
 POST /api/v1/Agents/Document/GetPersonDocumentsByTemplateType?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,9 +44,9 @@ POST /api/v1/Agents/Document/GetPersonDocumentsByTemplateType?$select=name,depar
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-PersonId, IncludeProjectDocuments, StartTime, EndTime, Count, DocumentTemplateId
+PersonId, IncludeProjectDocuments, StartTime, EndTime, Count, DocumentTemplateId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -50,7 +57,10 @@ PersonId, IncludeProjectDocuments, StartTime, EndTime, Count, DocumentTemplateId
 | Count | int32 |  |
 | DocumentTemplateId | int32 |  |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -78,27 +88,31 @@ Response body: array
 | ProjectName | string | Project name |
 | AssociateId | int32 | ID of associate whose diary the appointment is in, REQUIRED |
 | Snum | int32 | The sequence number allocated from refcount on used template when creating the document |
+| SaleId | int32 | Owning sale, if any (may be 0) |
+| SaleName | string | Heading of Owning sale, if any. (may be blank) |
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Document/GetPersonDocumentsByTemplateType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 997,
-  "IncludeProjectDocuments": false,
-  "StartTime": "2019-05-24T18:28:48.7249281+02:00",
-  "EndTime": "2007-12-08T18:28:48.7249281+01:00",
-  "Count": 602,
-  "DocumentTemplateId": 424
+  "PersonId": 136,
+  "IncludeProjectDocuments": true,
+  "StartTime": "2013-10-21T11:10:26.4834593+02:00",
+  "EndTime": "2011-02-10T11:10:26.4834593+01:00",
+  "Count": 44,
+  "DocumentTemplateId": 966
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -106,36 +120,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 565,
-    "Attention": "architecto",
-    "Header": "blanditiis",
-    "Name": "Rohan LLC",
-    "OurRef": "inventore",
-    "YourRef": "neque",
-    "Description": "Centralized assymetric architecture",
-    "DocumentTemplate": "nobis",
-    "IsPublished": true,
-    "PersonId": 150,
-    "PersonFullName": "Alisha Cummings",
-    "AssociateFullName": "Emie Steuber",
-    "ContactId": 978,
-    "ContactName": "Swaniawski Group",
-    "ProjectId": 1000,
-    "ProjectName": "Roberts, Kozey and Swift",
-    "AssociateId": 777,
-    "Snum": 123,
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "DocumentId": 432,
+    "Attention": "et",
+    "Header": "ipsa",
+    "Name": "Steuber, Davis and Turner",
+    "OurRef": "dolorem",
+    "YourRef": "ut",
+    "Description": "Multi-tiered cohesive projection",
+    "DocumentTemplate": "cumque",
+    "IsPublished": false,
+    "PersonId": 509,
+    "PersonFullName": "Dr. Jennie Stokes",
+    "AssociateFullName": "Kurtis Batz",
+    "ContactId": 426,
+    "ContactName": "Auer-Steuber",
+    "ProjectId": 813,
+    "ProjectName": "Flatley, Schmidt and Harris",
+    "AssociateId": 486,
+    "Snum": 771,
+    "SaleId": 315,
+    "SaleName": "Gorczany, Hammes and Feil",
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
+        "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 128
+        "FieldLength": 379
       }
     }
   }

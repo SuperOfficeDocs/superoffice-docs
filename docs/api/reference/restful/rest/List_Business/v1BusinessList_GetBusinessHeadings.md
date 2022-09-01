@@ -1,6 +1,6 @@
 ---
 title: GET List/Business/Headings
-id: v1BusinessList_GetBusinessHeadings
+uid: v1BusinessList_GetBusinessHeadings
 ---
 
 # GET List/Business/Headings
@@ -11,7 +11,14 @@ GET /api/v1/List/Business/Headings
 
 Gets headings for the Business list.
 
+
 Calls the List agent service GetGetHeadingsFromListDefinition.
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -26,7 +33,10 @@ Calls the List agent service GetGetHeadingsFromListDefinition.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -45,14 +55,16 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 GET /api/v1/List/Business/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -60,24 +72,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 266,
-    "Name": "Nader-Mayert",
-    "Tooltip": "dolore",
+    "HeadingId": 217,
+    "Name": "Champlin-Hartmann",
+    "Tooltip": "consequatur",
     "Deleted": false,
-    "Rank": 78,
-    "UdListDefinitionId": 363,
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "Rank": 103,
+    "UdListDefinitionId": 8,
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.Int32",
-        "FieldLength": 21
+        "FieldRight": null,
+        "FieldType": "System.String",
+        "FieldLength": 491
       }
     }
   }

@@ -8,7 +8,7 @@ keywords:
   - "archive provider"
   - "TicketMessage"
 so.generated: true
-so.date: 03.23.2021
+so.date: 08.26.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -24,13 +24,13 @@ Messages on support tickets. Messages are typically e-mail messages with attachm
 ## Supported Entities
 
 | Name | Description |
-| ---- | ----- |
+| ---- | ----------- |
 |"ticketmessage"|[Ticket Message]|
 
 ## Supported Columns
 
-| Name | Restriction | Description | OrderBy
-| ---- | ----- | ------- | ------ |
+| Name | Restriction | Description | OrderBy |
+| ---- | ----------- | ----------- | ------- |
 |getAllRows|bool|GetAll: Get all rows of archive - use with care, you may be fetching the whole database|  |
 |getNoRows|bool|GetNone: Do not get any rows from the archive|  |
 |searchTitle|string|Title| x |
@@ -157,6 +157,7 @@ Messages on support tickets. Messages are typically e-mail messages with attachm
 |ticket/person/personNumber|string|Request - Number: Displays the contact's number| x |
 |ticket/person/title|string|Request - Title: Displays the contact's job title| x |
 |ticket/person/personCountry|listAny|Request - Country: Country| x |
+|ticket/person/personCountryId|int|Request - Country ID: Country ID| x |
 |ticket/person/personNoMail|bool|Request - No Mailings: Displays the contact's No Mailings checkbox| x |
 |ticket/person/rank|int|Request - Rank: Displays a contact's current rank| x |
 |ticket/person/birthdate| *None* |Request - Birthdate: Displays the contact's date of birth|  |
@@ -170,15 +171,19 @@ Messages on support tickets. Messages are typically e-mail messages with attachm
 |ticket/person/kanaFirstName|string|Request - First name, kana: Contact's first name, in kana alphabet| x |
 |ticket/person/kanaLastName|string|Request - Last name, kana: Contact's last name, in kana alphabet| x |
 |ticket/person/personUpdatedBy|associate|Request - Updated by: The user who last updated the data| x |
+|ticket/person/personUpdatedByFullName|associate|Request - Updated by - Full name: The user who last updated the data| x |
 |ticket/person/personUpdatedDate|date|Request - Updated: The date/time the data was last updated in UTC.| x |
 |ticket/person/personRegisteredBy|associate|Request - Registered by: The user who registered the data| x |
+|ticket/person/personRegisteredByFullName|associate|Request - Registered by - Full name: The user who registered the data| x |
 |ticket/person/personRegisteredDate|date|Request - Registered date: The date/time the data was registered in UTC.| x |
 |ticket/person/portraitThumbnail| *None* |Request - Person image: Person image|  |
 |ticket/person/personActiveErpLinks|bool|Request - ERP connected: Is there an active ERP Sync?| x |
 |ticket/person/ticketPriority|listAny|Request - Service priority: Default service priority for this contact| x |
 |ticket/person/supportLanguage|listAny|Request - Preferred language: Preferred language used for reply templates and more| x |
 |ticket/person/supportAssociate|associate|Request - Our service contact: Default service contact for this contact| x |
+|ticket/person/supportAssociateFullName|associate|Request - Our service contact - Full name: Default service contact for this contact| x |
 |ticket/person/personAssociateId|associate|Request - Our contact: Displays our contact| x |
+|ticket/person/personAssociateFullName|associate|Request - Our contact - Full name: Displays our contact| x |
 |ticket/person/personCategory|listAny|Request - Category| x |
 |ticket/person/personBusiness|listAny|Request - Business| x |
 |ticket/person/personDeletedDate|datetime|Request - Deleted date: Deleted date|  |
@@ -246,7 +251,90 @@ Messages on support tickets. Messages are typically e-mail messages with attachm
 |ticket/person/personUdef/SuperOffice:9|string|Request - page1saleonly| x |
 |ticket/person/personUdef/SuperOffice:10|string|Request - page1marketingonly| x |
 |ticket/person/personUdef/SuperOffice:11|string|Request - page1adminonly| x |
-|ticket/person/isMailingRecipient|bool|Request - isMailingRecipient: isMailingRecipient| x |
+|ticket/person/personExtra/x\_person\_integer|int|Request - Extra Integer: Custom person integer| x |
+|ticket/person/personExtra/x\_person\_hidden\_integer|int|Request - Extra hidden integer: Custom integer field that is hidden| x |
+|ticket/person/personExtra/x\_person\_float|decimal|Request - Extra float: Custom float field| x |
+|ticket/person/personExtra/x\_person\_longtext|string|Request - Extra Long Text: Custom long text field on person, keep HTML tags. Simple input, not text area. Default value = 'Hello there'| x |
+|ticket/person/personExtra/x\_person\_date|date|Request - Extra date: Custom date field on person. Default value = 28.03.2019| x |
+|ticket/person/personExtra/x\_person\_datetime|datetime|Request - Extra DateTime: Custom person date and time field. No default| x |
+|ticket/person/personExtra/x\_person\_time| *None* |Request - Extra time: Custom time field on person. Current time as default| x |
+|ticket/person/personExtra/x\_person\_boolean|bool|Request - Extra Boolean: Custom boolean field on person. Default checked| x |
+|ticket/person/personExtra/x\_person\_timespan|timeSpan|Request - Extra timespan: Custom timespan on person. Minutes only in 15 units| x |
+|ticket/person/personExtra/x\_person\_shorttext|string|Request - Extra short text: Custom short text on person. With index. Do not keep HTML tags| x |
+|ticket/person/personExtra/x\_person\_shorttext\_list|listAny|Request - Extra short dropdown: Custom Short text dropdown field on person: black, white, transparent| x |
+|ticket/person/personExtra/x\_person\_user\_relation|associate|Request - Extra user relation: Custom person-user relation field| x |
+|ticket/person/personExtra/x\_person\_category\_relation|listAny|Request - Extra category relation: Custom person-category relation| x |
+|ticket/person/personExtra/x\_person\_priority\_relation|listAny|Request - Extra priority relation: Custom person-priority relation| x |
+|ticket/person/personExtra/x\_person\_request\_relation|stringorPK|Request - Extra request relation: Request relation on contact| x |
+|ticket/person/personExtra/x\_person\_appointment\_relation|stringorPK|Request - Extra appointment relation: Appointment relation on person| x |
+|ticket/person/personExtra/x\_person\_contact\_relation|stringorPK|Request - Extra company relation: Company relation on contact| x |
+|ticket/person/personExtra/y\_rental/id|int|Request - Rental - id: Displays the row's primary key (y\_rental)| x |
+|ticket/person/personExtra/y\_rental/x\_start|date|Request - Rental - Start rental| x |
+|ticket/person/personExtra/y\_rental/x\_end|date|Request - Rental - End| x |
+|ticket/person/personExtra/y\_rental/x\_amount|int|Request - Rental - Amount: Number to rent. Default = 1| x |
+|ticket/person/personExtra/y\_rental/x\_contact|stringorPK|Request - Rental - Renter: Company that rents equipment| x |
+|ticket/person/personExtra/y\_rental/y\_equipment/x\_name|string|Request - Rental - Equipment - Name: Equpment name custom field. Cannot be null., show in table| x |
+|ticket/person/personAssociate/firstName|string|Request - First name: Displays the contact's first name| x |
+|ticket/person/personAssociate/lastName|string|Request - Last name: Displays the contact's last name| x |
+|ticket/person/personAssociate/middleName|string|Request - Middle Name: Displays the contact's middle name.| x |
+|ticket/person/personAssociate/fullName|string|Request - Full name: Displays full name of user (first, middle, last - according to settings)| x |
+|ticket/person/personAssociate/contactId|int|Request - Company ID: Database ID of the company the user belongs to|  |
+|ticket/person/personAssociate/personId|int|Request - Contact ID: Database ID of the contact row|  |
+|ticket/person/personAssociate/mrMrs|string|Request - Mr/Ms: Displays whether the contact is addressed as Mr or Ms| x |
+|ticket/person/personAssociate/title|string|Request - Title: Displays whether the contact is addressed as Mr or Ms| x |
+|ticket/person/personAssociate/associateDbId|associate|Request - ID| x |
+|ticket/person/personAssociate/contactName|string|Request - Owning company: Name of the company the user belongs to| x |
+|ticket/person/personAssociate/contactDepartment|string|Request - Owning department: Name of the department at the company the user belongs to| x |
+|ticket/person/personAssociate/usergroup|userGroup|Request - Primary group: The user's primary user group| x |
+|ticket/person/personAssociate/contactFullName|string|Request - Owner: Name and department of the company the user belongs to| x |
+|ticket/person/personAssociate/contactCategory|listAny|Request - Category: Category| x |
+|ticket/person/personAssociate/role|listAny|Request - Role: Role| x |
+|ticket/person/personAssociate/assocName|associate|Request - User ID: User ID| x |
+|ticket/person/personAssociate/assocTooltip|string|Request - Description: Description|  |
+|ticket/person/personAssociate/assocType|listAny|Request - Type: Type of user: associate, external user, system user, anonymous account| x |
+|ticket/person/personAssociate/ejUserId|int|Request - Service user ID: The database ID of a Service user|  |
+|ticket/person/personAssociate/simultaneousEjUser|bool|Request - Simultaneous Service user: If this flag is set, then the user will only have access if the maximum number of simultaneous users is not exceeded|  |
+|ticket/person/personAssociate/ejDisplayName|string|Request - Nick name: User's nick name in Service| x |
+|ticket/person/personAssociate/ejStatus|int|Request - Service status: Status for Service user: Normal; Unavailable / holiday; Deleted; Read-only|  |
+|ticket/person/personAssociate/credentialType| *None* |Request - Auth. type: What type of credentials to use when this user logs in| x |
+|ticket/person/personAssociate/credentialDisplayValue| *None* |Request - Auth. value: Credential value (public, visible part) to be used when this user logs in| x |
+|ticket/person/personAssociate/isActive|bool|Request - Active: Is this user active, and should be able to log in?| x |
+|ticket/person/personAssociate/isActiveText|bool|Request - Active status: Is this user active, and should be able to log in?| x |
+|ticket/person/personAssociate/portraitThumbnail| *None* |Request - Person image: Person image|  |
+|ticket/person/personAssociate/otherGroups|userGroup|Request - Other groups: Other groups|  |
+|ticket/person/personAssociate/userName|string|Request - User name: User name| x |
+|ticket/person/personAssociate/personEmail|string|Request - E-mail| x |
+|ticket/person/correspondingAssociate/firstName|string|Request - First name: Displays the contact's first name| x |
+|ticket/person/correspondingAssociate/lastName|string|Request - Last name: Displays the contact's last name| x |
+|ticket/person/correspondingAssociate/middleName|string|Request - Middle Name: Displays the contact's middle name.| x |
+|ticket/person/correspondingAssociate/fullName|string|Request - Full name: Displays full name of user (first, middle, last - according to settings)| x |
+|ticket/person/correspondingAssociate/contactId|int|Request - Company ID: Database ID of the company the user belongs to|  |
+|ticket/person/correspondingAssociate/personId|int|Request - Contact ID: Database ID of the contact row|  |
+|ticket/person/correspondingAssociate/mrMrs|string|Request - Mr/Ms: Displays whether the contact is addressed as Mr or Ms| x |
+|ticket/person/correspondingAssociate/title|string|Request - Title: Displays whether the contact is addressed as Mr or Ms| x |
+|ticket/person/correspondingAssociate/associateDbId|associate|Request - ID| x |
+|ticket/person/correspondingAssociate/contactName|string|Request - Owning company: Name of the company the user belongs to| x |
+|ticket/person/correspondingAssociate/contactDepartment|string|Request - Owning department: Name of the department at the company the user belongs to| x |
+|ticket/person/correspondingAssociate/usergroup|userGroup|Request - Primary group: The user's primary user group| x |
+|ticket/person/correspondingAssociate/contactFullName|string|Request - Owner: Name and department of the company the user belongs to| x |
+|ticket/person/correspondingAssociate/contactCategory|listAny|Request - Category: Category| x |
+|ticket/person/correspondingAssociate/role|listAny|Request - Role: Role| x |
+|ticket/person/correspondingAssociate/assocName|associate|Request - User ID: User ID| x |
+|ticket/person/correspondingAssociate/assocTooltip|string|Request - Description: Description|  |
+|ticket/person/correspondingAssociate/assocType|listAny|Request - Type: Type of user: associate, external user, system user, anonymous account| x |
+|ticket/person/correspondingAssociate/ejUserId|int|Request - Service user ID: The database ID of a Service user|  |
+|ticket/person/correspondingAssociate/simultaneousEjUser|bool|Request - Simultaneous Service user: If this flag is set, then the user will only have access if the maximum number of simultaneous users is not exceeded|  |
+|ticket/person/correspondingAssociate/ejDisplayName|string|Request - Nick name: User's nick name in Service| x |
+|ticket/person/correspondingAssociate/ejStatus|int|Request - Service status: Status for Service user: Normal; Unavailable / holiday; Deleted; Read-only|  |
+|ticket/person/correspondingAssociate/credentialType| *None* |Request - Auth. type: What type of credentials to use when this user logs in| x |
+|ticket/person/correspondingAssociate/credentialDisplayValue| *None* |Request - Auth. value: Credential value (public, visible part) to be used when this user logs in| x |
+|ticket/person/correspondingAssociate/isActive|bool|Request - Active: Is this user active, and should be able to log in?| x |
+|ticket/person/correspondingAssociate/isActiveText|bool|Request - Active status: Is this user active, and should be able to log in?| x |
+|ticket/person/correspondingAssociate/portraitThumbnail| *None* |Request - Person image: Person image|  |
+|ticket/person/correspondingAssociate/otherGroups|userGroup|Request - Other groups: Other groups|  |
+|ticket/person/correspondingAssociate/userName|string|Request - User name: User name| x |
+|ticket/person/correspondingAssociate/personEmail|string|Request - E-mail| x |
+|ticket/person/isMailingRecipient|bool|Request - Is mailing recipient: isMailingRecipient| x |
 |ticket/person/hasStoreConsent|bool|Request - Consent - Sales and service: The purpose to store data about this contact is to sell to and/or provide services to this contact. This purpose is usually used when storing contacts who are defined as potential or existing customers.|  |
 |ticket/person/withdrawnStoreConsent|bool|Request - Consent is withdrawn - Sales and service: The purpose to store data about this contact is to sell to and/or provide services to this contact. This purpose is usually used when storing contacts who are defined as potential or existing customers.|  |
 |ticket/person/hasEmarketingConsent|bool|Request - Consent - E-marketing: The purpose is to gain the explicit consent to communicate electronically (bulk e-mail) on topics related to our products and services. This might include newsletters, invitations and product-related content. The subscription system is used to refine the individual marketing choices this contact makes.|  |
@@ -266,14 +354,17 @@ Messages on support tickets. Messages are typically e-mail messages with attachm
 |ticket/contact/category|listAny|Request - Category| x |
 |ticket/contact/business|listAny|Request - Business| x |
 |ticket/contact/country|listAny|Request - Country: This criterion corresponds to the Country field on the Company card.| x |
+|ticket/contact/countryId|int|Request - Country ID: Country ID| x |
 |ticket/contact/number|string|Request - Number| x |
 |ticket/contact/code|string|Request - Code| x |
 |ticket/contact/orgnr|string|Request - VAT No.| x |
 |ticket/contact/stop|bool|Request - Stop| x |
 |ticket/contact/contactNoMail|bool|Request - No mailings (company)| x |
 |ticket/contact/updatedBy|associate|Request - Updated by: The user who last updated the data| x |
+|ticket/contact/updatedByFullName|associate|Request - Updated by - Full name: The user who last updated the data| x |
 |ticket/contact/updatedDate|date|Request - Updated: The date/time the data was last updated in UTC.| x |
 |ticket/contact/registeredBy|associate|Request - Registered by: The user who registered the data| x |
+|ticket/contact/registeredByFullName|associate|Request - Registered by - Full name: The user who registered the data| x |
 |ticket/contact/registeredDate|date|Request - Registered date: The date/time the data was registered in UTC.| x |
 |ticket/contact/contactSource|listAny|Request - Source: Source (Company)| x |
 |ticket/contact/contactDeleted|bool|Request - Deleted: Deleted| x |
@@ -377,6 +468,22 @@ Messages on support tickets. Messages are typically e-mail messages with attachm
 |ticket/contact/contactUdef/SuperOffice:11|string|Request - page1adminonly| x |
 |ticket/contact/contactUdef/SuperOffice:12|listAny|Request - Udlist one: Static tooltip for udlist one| x |
 |ticket/contact/contactUdef/SuperOffice:13|listAny|Request - Udlist two: Static tooltip for udlist two| x |
+|ticket/contact/contactExtra/x\_contact\_integer|int|Request - Extra Integer: Custom integer field| x |
+|ticket/contact/contactExtra/x\_contact\_hidden\_integer|int|Request - Extra hidden integer: Custom integer field - hidden| x |
+|ticket/contact/contactExtra/x\_contact\_default\_integer|int|Request - Extra Default Integer: Custom integer field with default value 123.| x |
+|ticket/contact/contactExtra/x\_contact\_float|decimal|Request - Extra Float: Custom float field with 3 decimals| x |
+|ticket/contact/contactExtra/x\_contact\_longtext|string|Request - Extra LongText: Custom long text field. DO not keep HTML. 3 Line text area editor| x |
+|ticket/contact/contactExtra/x\_contact\_dropdown|listAny|Request - Extra Long Dropdown: Custom long text field with dropdown: Volvo, Saab, etc.| x |
+|ticket/contact/contactExtra/x\_contact\_date|date|Request - Extra date: Custom date field. User current as default.| x |
+|ticket/contact/contactExtra/x\_contact\_datetime|datetime|Request - Extra DateTime: Custom Date Time field. No default value. External| x |
+|ticket/contact/contactExtra/x\_contact\_time| *None* |Request - Extra time: Custom time field.| x |
+|ticket/contact/contactExtra/x\_contact\_boolean|bool|Request - Extra boolean: Custom boolean field.| x |
+|ticket/contact/contactExtra/x\_contact\_timespan|timeSpan|Request - Extra timespan: Custom timespan field. Hours and minutes in 10 units| x |
+|ticket/contact/contactExtra/x\_contact\_shorttext|string|Request - Extra short text: Custom short text field. Keep HTML tags.| x |
+|ticket/contact/contactExtra/x\_contact\_short\_dropdown|listAny|Request - Extra short dropdown: Custom short text with dropdown list. Red, Green or Blue or Purple. External.| x |
+|ticket/contact/contactExtra/x\_contact\_contact\_relation|stringorPK|Request - Extra Company: Custom company relation. Do not show one-to-many relations. Show function buttons| x |
+|ticket/contact/contactExtra/x\_contact\_request\_relation|stringorPK|Request - Extra Request relation: Request relation on company| x |
+|ticket/contact/contactExtra/x\_contact\_contact|stringorPK|Request - Extra contact relation: Contact relation on company| x |
 |ticket/contact/NumberOfActivities|int|Request - Number of activities|  |
 |ticket/contact/NumberOfActivitiesInPeriod|int|Request - Number of activities in last 90 days|  |
 |ticket/contact/NumberOfNotCompletedActivities|int|Request - Number of non-completed activities|  |
@@ -398,8 +505,8 @@ Messages on support tickets. Messages are typically e-mail messages with attachm
 |ticket/contact/LastTicket|date|Request - Date of last request|  |
 |ticket/contact/LastCompletedTicket|date|Request - Date of last completed request|  |
 |ticket/contact/LastDoByTicket|date|Request - Date of last non-completed request|  |
-|ticket/contact/SaintStatus1|saintStatus|Request - Neglected customer|  |
-|ticket/contact/SaintStatus2|saintStatus|Request - C-company|  |
+|ticket/contact/SaintStatus1|saintStatus|Request - Neglected customer: Denne kunden har det vært 0 salgsaktiviteter på i perioden.|  |
+|ticket/contact/SaintStatus2|saintStatus|Request - C-company: Kundens navn starter med bokstaven C|  |
 |ticket/contact/saintSaleStatus|listAny|Request - With status|  |
 |ticket/contact/saintAmountClass|listAny|Request - Amount class|  |
 |ticket/contact/saintActivityType|listAny|Request - SAINT type|  |
@@ -407,6 +514,21 @@ Messages on support tickets. Messages are typically e-mail messages with attachm
 |ticket/contact/saintIntention|listAny|Request - Intention|  |
 |ticket/contact/saintTicketStatus|listAny|Request - Status|  |
 |ticket/contact/saintTicketCategory|listAny|Request - Category|  |
+|ticket/extra/x\_ticket\_integer|int|Request - Extra integer: Custom ticket integer. Default 123. External. Show in properties| x |
+|ticket/extra/x\_ticket\_float|decimal|Request - Extra float: Custom float on Request. 2 decimal places| x |
+|ticket/extra/x\_ticket\_longtext|string|Request - Extra long text: Custom long text on Request. Keep HTML tags. 9 line text area. Show in props| x |
+|ticket/extra/x\_ticket\_date|date|Request - Extra date: Custom date field on Request. No default value| x |
+|ticket/extra/x\_ticket\_datetime|datetime|Request - Extra DateTime: Custom date+time on ticket. Default = 28.03.2019 2:24 pm. External. Show in properties. Display for new request| x |
+|ticket/extra/x\_ticket\_time| *None* |Request - Extra time: Custom time field on Request. Default = 13min Display for new.| x |
+|ticket/extra/x\_ticket\_boolean|bool|Request - Extra boolean: Custom boolean on Ticket.| x |
+|ticket/extra/x\_ticket\_timespan|timeSpan|Request - Extra timespan: Custom timespan field on Request. Default = 1 hr 25 minutes. Show in props| x |
+|ticket/extra/x\_ticket\_short\_text|string|Request - Extra short text: Custom short text field on Request. Do not keep HTML tags. Display on new request| x |
+|ticket/extra/x\_ticket\_shorttext\_list|listAny|Request - Extra Dropdown: Custom short text with list for Request Pink, Orange, Yellow, Polkadot| x |
+|ticket/extra/x\_ticket\_timestamp|datetime|Request - Extra timestamp: Custom date time field on ticket with default = current date + time. Field cannot change. Hide field| x |
+|ticket/extra/x\_ticket\_project\_relation|stringorPK|Request - Extra project: Custom project relation on Request| x |
+|ticket/extra/x\_ticket\_faq|stringorPK|Request - Extra FAQ Relation| x |
+|ticket/extra/x\_ticket\_category\_relation|listAny|Request - Extra category relation: Category relation on request| x |
+|ticket/extra/y\_equipment/x\_name|string|Request - Equipment - Name: Equpment name custom field. Cannot be null., show in table| x |
 |person/personId|int|Contact - DB ID: Displays the database ID of a contact| x |
 |person/firstName|string|Contact - First name: Displays the contact's first name| x |
 |person/lastName|string|Contact - Last name: Displays the contact's last name| x |
@@ -421,6 +543,7 @@ Messages on support tickets. Messages are typically e-mail messages with attachm
 |person/personNumber|string|Contact - Number: Displays the contact's number| x |
 |person/title|string|Contact - Title: Displays the contact's job title| x |
 |person/personCountry|listAny|Contact - Country: Country| x |
+|person/personCountryId|int|Contact - Country ID: Country ID| x |
 |person/personNoMail|bool|Contact - No Mailings: Displays the contact's No Mailings checkbox| x |
 |person/rank|int|Contact - Rank: Displays a contact's current rank| x |
 |person/birthdate| *None* |Contact - Birthdate: Displays the contact's date of birth|  |
@@ -434,30 +557,47 @@ Messages on support tickets. Messages are typically e-mail messages with attachm
 |person/kanaFirstName|string|Contact - First name, kana: Contact's first name, in kana alphabet| x |
 |person/kanaLastName|string|Contact - Last name, kana: Contact's last name, in kana alphabet| x |
 |person/personUpdatedBy|associate|Contact - Updated by: The user who last updated the data| x |
+|person/personUpdatedByFullName|associate|Contact - Updated by - Full name: The user who last updated the data| x |
 |person/personUpdatedDate|date|Contact - Updated: The date/time the data was last updated in UTC.| x |
 |person/personRegisteredBy|associate|Contact - Registered by: The user who registered the data| x |
+|person/personRegisteredByFullName|associate|Contact - Registered by - Full name: The user who registered the data| x |
 |person/personRegisteredDate|date|Contact - Registered date: The date/time the data was registered in UTC.| x |
 |person/portraitThumbnail| *None* |Contact - Person image: Person image|  |
 |person/personActiveErpLinks|bool|Contact - ERP connected: Is there an active ERP Sync?| x |
 |person/ticketPriority|listAny|Contact - Service priority: Default service priority for this contact| x |
 |person/supportLanguage|listAny|Contact - Preferred language: Preferred language used for reply templates and more| x |
 |person/supportAssociate|associate|Contact - Our service contact: Default service contact for this contact| x |
+|person/supportAssociateFullName|associate|Contact - Our service contact - Full name: Default service contact for this contact| x |
 |person/personAssociateId|associate|Contact - Our contact: Displays our contact| x |
+|person/personAssociateFullName|associate|Contact - Our contact - Full name: Displays our contact| x |
 |person/personCategory|listAny|Contact - Category| x |
 |person/personBusiness|listAny|Contact - Business| x |
 |person/personDeletedDate|datetime|Contact - Deleted date: Deleted date|  |
 |person/hasCompany|bool|Contact - Has company: The contact is associated with a company| x |
 |person/isProjectMember|bool|Contact - Is project member: This person is a project member| x |
 |person/isStakeholder|bool|Contact - Is stakeholder: This person is a sale stakeholder| x |
+|ticketMessageExtra/x\_message\_integer|int|Extra integer: Custom integer on message. Hidden. Default 123| x |
+|ticketMessageExtra/x\_message\_float|decimal|Extra float: Custom float on message. Hidden| x |
+|ticketMessageExtra/x\_message\_longtext|string|Extra long text: Custom long text on Message. Hidden, do not keep HTML| x |
+|ticketMessageExtra/x\_message\_date|date|Extra date: Custom date field on message. Hidden.| x |
+|ticketMessageExtra/x\_message\_datetime|datetime|Extra DateTime: Custom datetime on message. Hidden. Use current as default| x |
+|ticketMessageExtra/x\_message\_time| *None* |Extra Time: Custom time field on message. Hidden| x |
+|ticketMessageExtra/x\_message\_boolean|bool|Extra Boolean: Custom boolean field on message. Hidden| x |
+|ticketMessageExtra/x\_message\_timespan|timeSpan|Extra timespan: Custom timespan field on message. Hidden| x |
+|ticketMessageExtra/x\_message\_short\_text|string|Extra short text: Custom short text field. Hidden.| x |
+|ticketMessageExtra/x\_message\_sale\_relation|stringorPK|Extra sale relation: Custom sale relation field. Hidden| x |
 
 ## Sample
 
 ```http!
-GET /api/v1/archive/TicketMessage?$select=ticket/contact/restrictionAddress/zip,ticket/contact/NumberOfActivities,ticket/person/personUpdatedDate
+GET /api/v1/archive/TicketMessage?$select=ticket/status,ticket/person/personCountry,ticket/person/personSource,ticket/person/personAssociateId,ticket/person/personAddress/city
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv
 
 ```
 
-See also: <see cref="T:SuperOffice.CRM.Services.IArchiveAgent">IArchiveAgent</see>.
+
+
+See also: <see cref="T:SuperOffice.CRM.Services.IArchiveAgent">IArchiveAgent</see>.</p>
+

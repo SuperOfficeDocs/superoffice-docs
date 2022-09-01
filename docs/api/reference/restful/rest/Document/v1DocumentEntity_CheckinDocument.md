@@ -1,6 +1,6 @@
 ---
 title: PUT Document/{id}/Lock
-id: v1DocumentEntity_CheckinDocument
+uid: v1DocumentEntity_CheckinDocument
 ---
 
 # PUT Document/{id}/Lock
@@ -11,9 +11,15 @@ PUT /api/v1/Document/{documentId}/Lock
 
 Check in a currently checked-out document
 
+
+
+
+
+
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | documentId | int32 | SuperOffice document Id **Required** |
+
 
 ## Query String Parameters
 
@@ -25,9 +31,10 @@ Check in a currently checked-out document
 
 ```http
 PUT /api/v1/Document/{documentId}/Lock?allowedReturnTypes=Message
-PUT /api/v1/Document/{documentId}/Lock?versionDescription=Digitized exuding groupware
-PUT /api/v1/Document/{documentId}/Lock?versionExtraFields=vel,velit
+PUT /api/v1/Document/{documentId}/Lock?versionDescription=Pre-emptive user-facing infrastructure
+PUT /api/v1/Document/{documentId}/Lock?versionExtraFields=sed,suscipit
 ```
+
 
 ## Request Headers
 
@@ -42,13 +49,16 @@ PUT /api/v1/Document/{documentId}/Lock?versionExtraFields=vel,velit
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response: object
+
+## Response: 
+
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -59,25 +69,27 @@ Response body: object
 | Value | string |  |
 | AdditionalInfo | string |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 PUT /api/v1/Document/{documentId}/Lock
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ExternalReference": "distinctio",
-  "VersionId": "rerum",
+  "ExternalReference": "pariatur",
+  "VersionId": "magnam",
   "Success": false,
   "Type": "CustomGui",
-  "Value": "maiores",
-  "AdditionalInfo": "consequuntur"
+  "Value": "et",
+  "AdditionalInfo": "porro"
 }
 ```

@@ -7,7 +7,7 @@ keywords:
   - "mdo provider"
   - "ticketslevel"
 so.generated: true
-so.date: 03.19.2021
+so.date: 08.26.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -15,11 +15,15 @@ so.envir:
 ---
 
 # "ticketslevel" MDO List
-
 Ticket Security Level
+
+
 
 Implemented by the <see cref="T:SuperOffice.CRM.Lists.TicketSLevelProvider">TicketSLevelProvider</see> class.
 The name of the MDO list is 'ticketslevel'.
+
+
+
 
 ## Sample Request
 
@@ -32,7 +36,6 @@ Accept-Language: *
 ```
 
 ## Sample Code
-
 ```cs
 var listProvider = SuperOffice.CRM.Lists.SoListProviderFactory.Create("ticketslevel", forceFlatList: true);
 foreach (var item in listProvider.RootItems) {
@@ -45,9 +48,10 @@ foreach (var item in listProvider.RootItems) {
 
 |Id   | Name  |StyleHint|ExtraInfo |
 | --- | ----- | ------- | -------- |
-|0|Unknown|||
-|1|Internal|||
-|2|External|||
+|0|Unknown||Unknown|
+|1|Internal||Internal|
+|2|External||External|
+
 
 ## Related MDO Lists
 

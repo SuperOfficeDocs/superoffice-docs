@@ -1,6 +1,6 @@
 ---
 title: POST Agents/List/GetProjectTypeList
-id: v1ListAgent_GetProjectTypeList
+uid: v1ListAgent_GetProjectTypeList
 ---
 
 # POST Agents/List/GetProjectTypeList
@@ -11,6 +11,12 @@ POST /api/v1/Agents/List/GetProjectTypeList
 
 Gets an array of ProjectType objects.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Gets an array of ProjectType objects.
 ```http
 POST /api/v1/Agents/List/GetProjectTypeList?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,11 +42,15 @@ POST /api/v1/Agents/List/GetProjectTypeList?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: projectTypeIds
+## Request Body: projectTypeIds  
 
-The primary keys.
+The primary keys. 
+
+
 
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -55,14 +66,16 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/List/GetProjectTypeList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -70,40 +83,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 418,
-    "Value": "maiores",
-    "Tooltip": "voluptate",
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "Id": 193,
+    "Value": "non",
+    "Tooltip": "quia",
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
+        "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 470
+        "FieldLength": 493
       }
     }
   },
   {
-    "Id": 418,
-    "Value": "maiores",
-    "Tooltip": "voluptate",
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "Id": 193,
+    "Value": "non",
+    "Tooltip": "quia",
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
+        "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 470
+        "FieldLength": 493
       }
     }
   }

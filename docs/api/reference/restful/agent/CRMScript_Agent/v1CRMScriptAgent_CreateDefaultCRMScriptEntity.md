@@ -1,6 +1,6 @@
 ---
 title: POST Agents/CRMScript/CreateDefaultCRMScriptEntity
-id: v1CRMScriptAgent_CreateDefaultCRMScriptEntity
+uid: v1CRMScriptAgent_CreateDefaultCRMScriptEntity
 ---
 
 # POST Agents/CRMScript/CreateDefaultCRMScriptEntity
@@ -11,9 +11,17 @@ POST /api/v1/Agents/CRMScript/CreateDefaultCRMScriptEntity
 
 Set default values into a new CRMScriptEntity.
 
+
 NetServer calculates default values on the entity, which is required when creating/storing a new instance
 
-## Online Restricted: ## The CRMScript agent is not available in Online by default. Access must be requested specifically when app is registered
+
+## Online Restricted: ## The CRMScript agent is not available in Online by default. Access must be requested specifically when app is registered.
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -28,18 +36,16 @@ NetServer calculates default values on the entity, which is required when creati
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response: object
 
-CRM Scripts - stored in the ejScript table, including source code.
+## Response: 
 
-Carrier object for CRMScriptEntity.
-Services for the CRMScriptEntity Carrier is available from the <see cref="T:SuperOffice.CRM.Services.ICRMScriptAgent">CRMScript Agent</see>.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -57,43 +63,39 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/CRMScript/CreateDefaultCRMScriptEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjscriptId": 82,
-  "UniqueIdentifier": "qui",
-  "Name": "Dickinson-Reinger",
-  "Description": "Synchronised static service-desk",
-  "IncludeId": "doloremque",
-  "HierarchyId": 732,
-  "Source": "magni",
-  "Registered": "2006-04-29T18:28:48.626957+02:00",
-  "RegisteredAssociateId": 673,
-  "Updated": "2002-12-09T18:28:48.626957+01:00",
-  "UpdatedAssociateId": 848,
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "EjscriptId": 506,
+  "UniqueIdentifier": "ducimus",
+  "Name": "Considine, Beatty and Marks",
+  "Description": "Distributed interactive instruction set",
+  "IncludeId": "et",
+  "HierarchyId": 9,
+  "Source": "officiis",
+  "Registered": "2016-09-03T11:10:26.3764575+02:00",
+  "RegisteredAssociateId": 516,
+  "Updated": "2014-08-23T11:10:26.3764575+02:00",
+  "UpdatedAssociateId": 132,
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
-      "FieldType": "System.Int32",
-      "FieldLength": 83
+      "FieldRight": null,
+      "FieldType": "System.String",
+      "FieldLength": 414
     }
   }
 }

@@ -1,6 +1,6 @@
 ---
 title: POST Agents/List/SaveLegalBase
-id: v1ListAgent_SaveLegalBase
+uid: v1ListAgent_SaveLegalBase
 ---
 
 # POST Agents/List/SaveLegalBase
@@ -8,6 +8,14 @@ id: v1ListAgent_SaveLegalBase
 ```http
 POST /api/v1/Agents/List/SaveLegalBase
 ```
+
+
+
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -18,6 +26,7 @@ POST /api/v1/Agents/List/SaveLegalBase
 ```http
 POST /api/v1/Agents/List/SaveLegalBase?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -33,24 +42,24 @@ POST /api/v1/Agents/List/SaveLegalBase?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-LegalBase
+LegalBase 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | LegalBase |  | Carrier object for LegalBase. Services for the LegalBase Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IListAgent">List Agent</see>. |
 
-## Response: object
 
-Carrier object for LegalBase.
-Services for the LegalBase Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IListAgent">List Agent</see>.
+## Response: 
+
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -63,7 +72,7 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/List/SaveLegalBase
@@ -73,40 +82,29 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "LegalBase": {
-    "LegalBaseId": 470,
-    "Name": "Orn LLC",
-    "Tooltip": "voluptas",
-    "Rank": 960,
-    "Key": "mollitia",
-    "Deleted": true
-  }
+  "LegalBase": null
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "LegalBaseId": 17,
-  "Name": "Ratke-Ankunding",
-  "Tooltip": "sit",
-  "Rank": 794,
-  "Key": "tempora",
+  "LegalBaseId": 726,
+  "Name": "Durgan-Leffler",
+  "Tooltip": "delectus",
+  "Rank": 439,
+  "Key": "repudiandae",
   "Deleted": false,
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
+      "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 279
+      "FieldLength": 567
     }
   }
 }

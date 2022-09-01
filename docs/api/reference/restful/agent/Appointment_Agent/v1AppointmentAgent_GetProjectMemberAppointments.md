@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Appointment/GetProjectMemberAppointments
-id: v1AppointmentAgent_GetProjectMemberAppointments
+uid: v1AppointmentAgent_GetProjectMemberAppointments
 ---
 
 # POST Agents/Appointment/GetProjectMemberAppointments
@@ -11,7 +11,13 @@ POST /api/v1/Agents/Appointment/GetProjectMemberAppointments
 
 Method that returns a specified number of appointments within a time range.
 
+
 The appointments belong to the projects where the person specified is member.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +28,7 @@ The appointments belong to the projects where the person specified is member.
 ```http
 POST /api/v1/Agents/Appointment/GetProjectMemberAppointments?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,9 +44,9 @@ POST /api/v1/Agents/Appointment/GetProjectMemberAppointments?$select=name,depart
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-PersonId, StartTime, EndTime, Count
+PersonId, StartTime, EndTime, Count 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -48,7 +55,10 @@ PersonId, StartTime, EndTime, Count
 | EndTime | date-time |  |
 | Count | int32 |  |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -110,7 +120,7 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Appointment/GetProjectMemberAppointments
@@ -120,12 +130,14 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 301,
-  "StartTime": "1994-07-10T18:28:47.6838178+02:00",
-  "EndTime": "2018-09-19T18:28:47.6838178+02:00",
-  "Count": 547
+  "PersonId": 613,
+  "StartTime": "1995-04-29T11:10:25.39636+02:00",
+  "EndTime": "2009-01-21T11:10:25.39636+01:00",
+  "Count": 68
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -133,67 +145,61 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 219,
-    "StartDate": "2007-02-04T18:28:47.6898178+01:00",
-    "EndDate": "1997-11-30T18:28:47.6898178+01:00",
+    "AppointmentId": 441,
+    "StartDate": "2007-07-25T11:10:25.4055145+02:00",
+    "EndDate": "2001-08-26T11:10:25.4055145+02:00",
     "Type": "BookingForChecklist",
-    "Task": "nihil",
-    "AssociateFullName": "Dr. Wilmer Powlowski",
-    "ContactName": "Denesik-Haley",
-    "Description": "Innovative zero tolerance frame",
-    "PersonFullName": "Althea Skiles",
-    "PersonId": 944,
-    "ContactId": 273,
-    "ProjectId": 84,
-    "ProjectName": "Kohler, Koelpin and Romaguera",
-    "IsPublished": false,
+    "Task": "et",
+    "AssociateFullName": "Mr. Neil Tillman Kirlin Sr.",
+    "ContactName": "Fay Inc and Sons",
+    "Description": "Re-engineered background collaboration",
+    "PersonFullName": "Don Torey Schroeder MD",
+    "PersonId": 752,
+    "ContactId": 246,
+    "ProjectId": 814,
+    "ProjectName": "Gibson, Hartmann and Senger",
+    "IsPublished": true,
     "AssociateId": 175,
-    "ColorIndex": 373,
+    "ColorIndex": 997,
     "IsFree": true,
     "HasAlarm": false,
     "IsAlldayEvent": false,
     "Private": "PrivateGroup",
-    "PriorityId": 656,
-    "PriorityName": "Boyer, Wolff and Homenick",
+    "PriorityId": 46,
+    "PriorityName": "Parisian, Smitham and Terry",
     "TaskType": "Appointment",
-    "IsBookingMain": false,
-    "IsRecurrence": true,
+    "IsBookingMain": true,
+    "IsRecurrence": false,
     "IsBooking": false,
-    "ActiveDate": "2017-10-17T18:28:47.6908173+02:00",
+    "ActiveDate": "1995-06-22T11:10:25.4065638+02:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2005-05-23T18:28:47.6908173+02:00",
-    "RecurringEndDate": "2010-08-21T18:28:47.6908173+02:00",
-    "MotherId": 530,
-    "AssignedBy": 296,
-    "AssignedByFullName": "Emmanuel Dietrich",
-    "RejectReason": "engineer best-of-breed ROI",
-    "Location": "beatae",
-    "AlarmLeadTime": "fuga",
-    "SaleId": 978,
-    "SaleName": "McCullough, Bauch and Olson",
-    "AssociateName": "Treutel-Hodkiewicz",
-    "CreatedDate": "2019-11-24T18:28:47.6908173+01:00",
-    "CreatedBy": "saepe",
-    "CreatedByFullName": "Ernestine Waters",
-    "CreatedByAssociateId": 313,
+    "RecurringStartDate": "1995-09-28T11:10:25.4065638+02:00",
+    "RecurringEndDate": "2010-08-28T11:10:25.4065638+02:00",
+    "MotherId": 663,
+    "AssignedBy": 643,
+    "AssignedByFullName": "Ilene O'Keefe",
+    "RejectReason": "",
+    "Location": "nihil",
+    "AlarmLeadTime": "rerum",
+    "SaleId": 343,
+    "SaleName": "Corkery Inc and Sons",
+    "AssociateName": "Watsica Group",
+    "CreatedDate": "2004-08-10T11:10:25.4065638+02:00",
+    "CreatedBy": "omnis",
+    "CreatedByFullName": "Ms. Raven Maggio",
+    "CreatedByAssociateId": 752,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": "e-enable front-end web services"
-    },
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
+        "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 825
+        "FieldLength": 401
       }
     }
   }

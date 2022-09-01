@@ -1,6 +1,6 @@
 ---
 title: POST Agents/List/GetListEntityByName
-id: v1ListAgent_GetListEntityByName
+uid: v1ListAgent_GetListEntityByName
 ---
 
 # POST Agents/List/GetListEntityByName
@@ -11,6 +11,12 @@ POST /api/v1/Agents/List/GetListEntityByName
 
 Gets a ListEntity resolved by the provided name.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Gets a ListEntity resolved by the provided name.
 ```http
 POST /api/v1/Agents/List/GetListEntityByName?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,26 +42,24 @@ POST /api/v1/Agents/List/GetListEntityByName?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-Name
+Name 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | Name | string |  |
 
-## Response: object
 
-The list entity contains information about a specific list
+## Response: 
 
-Carrier object for ListEntity.
-Services for the ListEntity Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IListAgent">List Agent</see>.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -71,47 +76,43 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/List/GetListEntityByName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Torp Inc and Sons"
+  "Name": "Lindgren-Rowe"
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 270,
-  "Name": "Trantow Inc and Sons",
-  "Tooltip": "sequi",
+  "Id": 195,
+  "Name": "McDermott, Klocko and Kutch",
+  "Tooltip": "voluptatem",
   "Deleted": true,
-  "Rank": 70,
+  "Rank": 450,
   "IsCustomList": false,
   "IsMDOList": true,
-  "UseGroupsAndHeadings": true,
-  "ListType": "facilis",
+  "UseGroupsAndHeadings": false,
+  "ListType": "minus",
   "InUseByUserDefinedFields": true,
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
-      "FieldType": "System.String",
-      "FieldLength": 182
+      "FieldRight": null,
+      "FieldType": "System.Int32",
+      "FieldLength": 839
     }
   }
 }

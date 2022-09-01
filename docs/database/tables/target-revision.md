@@ -6,14 +6,14 @@ so.generated: true
 keywords:
   - "database"
   - "target_revision"
-so.date: 04.12.2022
+so.date: 08.26.2022
 so.topic: reference
 so.envir:
   - "onsite"
   - "online"
 ---
 
-# target\_revision Table (498)
+# target\_revision Table (499)
 
 One batch of changes made to targets
 
@@ -30,6 +30,7 @@ One batch of changes made to targets
 |updated|Last updated when|UtcDateTime| |
 |updated\_associate\_id|Last updated by whom|FK [associate](associate.md)| |
 |updatedCount|Number of updates made to this record|UShort| |
+
 
 ![target_revision table relationship diagram](./media/target_revision.png)
 
@@ -51,6 +52,7 @@ One batch of changes made to targets
 |[target\_change](target-change.md)  |A single field change. |
 |[target\_revision\_history](target-revision-history.md)  |Revision history info in case the original target group or assignment info was deleted |
 
+
 ## Replication Flags
 
 * None
@@ -58,3 +60,4 @@ One batch of changes made to targets
 ## Security Flags
 
 * No access control via user's Role.
+

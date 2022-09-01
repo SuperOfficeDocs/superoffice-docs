@@ -8,7 +8,7 @@ keywords:
   - "archive provider"
   - "UserPreferences"
 so.generated: true
-so.date: 03.23.2021
+so.date: 08.26.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -21,8 +21,8 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 
 User (and system) preference settings, at all levels
 
-The <see cref="T:SuperOffice.Data.SoPreference" /> class will return the **current** setting for a preference for the current principal.
-This archive provider is for administrative purposes, and returns **all** settings for the preference(s) selected.
+The <see cref="T:SuperOffice.Data.SoPreference" /> class will return the <b>current</b> setting for a preference for the current principal.
+This archive provider is for administrative purposes, and returns <b>all</b> settings for the preference(s) selected.
 <br />
 Preferences have multiple sources: the userpreference table (<see cref="T:SuperOffice.CRM.ArchiveLists.UserPreferenceTableProvider" />, and various
 Service settings that are mapped into preferences, retrieved by <see cref="T:SuperOffice.CRM.ArchiveLists.MappedPreferenceProvider" />.
@@ -30,7 +30,7 @@ Service settings that are mapped into preferences, retrieved by <see cref="T:Sup
 ## Supported Entities
 
 | Name | Description |
-| ---- | ----- |
+| ---- | ----------- |
 |"default"|[default]|
 |"system"|[system]|
 |"database"|Database|
@@ -39,8 +39,8 @@ Service settings that are mapped into preferences, retrieved by <see cref="T:Sup
 
 ## Supported Columns
 
-| Name | Restriction | Description | OrderBy
-| ---- | ----- | ------- | ------ |
+| Name | Restriction | Description | OrderBy |
+| ---- | ----------- | ----------- | ------- |
 |sectionKey|string|Section!Key|  |
 |getAllRows| *None* |GetAll: Get all rows of archive - use with care, you may be fetching the whole database|  |
 |getNoRows| *None* |GetNone: Do not get any rows from the archive|  |
@@ -59,11 +59,14 @@ Service settings that are mapped into preferences, retrieved by <see cref="T:Sup
 ## Sample
 
 ```http!
-GET /api/v1/archive/UserPreferences?$select=userpreferenceId,prefkey,deflevel
+GET /api/v1/archive/UserPreferences?$select=deflevel,maxlevelname
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv
 
 ```
 
-See also: <see cref="T:SuperOffice.CRM.Services.IArchiveAgent">IArchiveAgent</see>.
+
+
+See also: <see cref="T:SuperOffice.CRM.Services.IArchiveAgent">IArchiveAgent</see>.</p>
+

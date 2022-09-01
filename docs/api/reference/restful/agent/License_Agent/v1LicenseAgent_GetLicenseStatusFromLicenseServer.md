@@ -1,6 +1,6 @@
 ---
 title: POST Agents/License/GetLicenseStatusFromLicenseServer
-id: v1LicenseAgent_GetLicenseStatusFromLicenseServer
+uid: v1LicenseAgent_GetLicenseStatusFromLicenseServer
 ---
 
 # POST Agents/License/GetLicenseStatusFromLicenseServer
@@ -11,6 +11,12 @@ POST /api/v1/Agents/License/GetLicenseStatusFromLicenseServer
 
 Get License from the license server for a particular module owner.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Get License from the license server for a particular module owner.
 ```http
 POST /api/v1/Agents/License/GetLicenseStatusFromLicenseServer?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,21 +42,24 @@ POST /api/v1/Agents/License/GetLicenseStatusFromLicenseServer?$select=name,depar
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-OwnerName
+OwnerName 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | OwnerName | string |  |
 
-## Response: object
+
+## Response: 
+
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -57,19 +67,21 @@ Response body: object
 | Message | string |  |
 | Url | string |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/License/GetLicenseStatusFromLicenseServer
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "OwnerName": "Nader LLC"
+  "OwnerName": "Muller, Heaney and Stracke"
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -77,7 +89,7 @@ Content-Type: application/json; charset=utf-8
 
 {
   "LicenseStatus": "NewCompanyNameAvailable",
-  "Message": "quo",
+  "Message": "asperiores",
   "Url": "http://www.example.com/"
 }
 ```

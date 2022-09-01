@@ -1,6 +1,6 @@
 ---
 title: POST Agents/List/GetProjectTypeEntity
-id: v1ListAgent_GetProjectTypeEntity
+uid: v1ListAgent_GetProjectTypeEntity
 ---
 
 # POST Agents/List/GetProjectTypeEntity
@@ -11,6 +11,12 @@ POST /api/v1/Agents/List/GetProjectTypeEntity
 
 Gets a ProjectTypeEntity object.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -19,9 +25,10 @@ Gets a ProjectTypeEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetProjectTypeEntity?projectTypeEntityId=881
+POST /api/v1/Agents/List/GetProjectTypeEntity?projectTypeEntityId=161
 POST /api/v1/Agents/List/GetProjectTypeEntity?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -36,16 +43,16 @@ POST /api/v1/Agents/List/GetProjectTypeEntity?$select=name,department,category/i
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response: object
 
-Carrier object for ProjectTypeEntity.
-Services for the ProjectTypeEntity Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IListAgent">List Agent</see>.
+## Response: 
+
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -62,7 +69,7 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/List/GetProjectTypeEntity
@@ -71,65 +78,58 @@ Accept: application/json; charset=utf-8
 Accept-Language: sv
 ```
 
+## Sample response
+
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjTypeId": 666,
-  "Name": "Gusikowski-Bahringer",
-  "Tooltip": "perferendis",
-  "Rank": 513,
+  "ProjTypeId": 627,
+  "Name": "Hagenes Group",
+  "Tooltip": "dolorum",
+  "Rank": 916,
   "DurationUnit": "Century",
-  "ProjectDuration": 27,
+  "ProjectDuration": 438,
   "Deleted": true,
-  "HasGuide": true,
+  "HasGuide": false,
   "IsAutoAdvance": false,
   "Stages": [
     {
-      "Id": 673,
-      "Name": "Kertzmann Group",
-      "ToolTip": "Cumque iusto id rerum dicta voluptas.",
-      "Deleted": true,
+      "Id": 88,
+      "Name": "Hane, Tremblay and Goodwin",
+      "ToolTip": "Voluptas consectetur assumenda est vero officiis et.",
+      "Deleted": false,
       "Rank": 242,
-      "Type": "vel",
-      "ColorBlock": 267,
-      "IconHint": "doloremque",
-      "Selected": false,
-      "LastChanged": "2012-07-24T18:28:49.2831232+02:00",
+      "Type": "nesciunt",
+      "ColorBlock": 349,
+      "IconHint": "qui",
+      "Selected": true,
+      "LastChanged": "2020-09-29T11:10:27.1394226+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "qui",
-      "StyleHint": "voluptate",
+      "ExtraInfo": "ipsum",
+      "StyleHint": "totam",
       "Hidden": true,
-      "FullName": "Eldred Conroy",
-      "TableRight": {},
+      "FullName": "Brandi Schumm",
+      "TableRight": null,
       "FieldProperties": {
         "fieldName": {
-          "FieldRight": {
-            "Mask": "FULL",
-            "Reason": ""
-          },
+          "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 641
+          "FieldLength": 633
         }
       }
     }
   ],
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": "target bricks-and-clicks infrastructures"
-      },
+      "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 495
+      "FieldLength": 507
     }
   }
 }

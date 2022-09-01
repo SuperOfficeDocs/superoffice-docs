@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "StatusValue"
-so.date: 04.12.2022
+so.date: 08.26.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -35,6 +35,7 @@ Values for statuses
 |updated|Last updated when|UtcDateTime| |
 |updated\_associate\_id|Last updated by whom|FK [associate](associate.md)| |
 |updatedCount|Number of updates made to this record|UShort| |
+
 
 ![StatusValue table relationship diagram](./media/StatusValue.png)
 
@@ -68,6 +69,7 @@ Values for statuses
 |[project](project.md)  |Projects |
 |[StatusDef](statusdef.md)  |Status definitions. Name and description are in LocaleText for internationalization |
 
+
 ## Replication Flags
 
 * None
@@ -75,3 +77,4 @@ Values for statuses
 ## Security Flags
 
 * No access control via user's Role.
+

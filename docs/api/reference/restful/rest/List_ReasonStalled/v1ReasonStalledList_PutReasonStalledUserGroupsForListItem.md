@@ -1,6 +1,6 @@
 ---
 title: PUT List/ReasonStalled/Items/{id}/UserGroups
-id: v1ReasonStalledList_PutReasonStalledUserGroupsForListItem
+uid: v1ReasonStalledList_PutReasonStalledUserGroupsForListItem
 ---
 
 # PUT List/ReasonStalled/Items/{id}/UserGroups
@@ -11,11 +11,18 @@ PUT /api/v1/List/ReasonStalled/Items/{itemId}/UserGroups
 
 Saves user groups visible for the ReasonStalled list's item.
 
+
 Calls the List agent service SaveHeadingsForListItemFromListDefinition.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | itemId | int32 | The ID of the item to save. **Required** |
+
+
 
 ## Request Headers
 
@@ -31,9 +38,9 @@ Calls the List agent service SaveHeadingsForListItemFromListDefinition.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entities
+## Request Body: entities  
 
-The headings to be saved.
+The headings to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -53,7 +60,10 @@ The headings to be saved.
 | Hidden | bool | True if the ListItem is hidden |
 | FullName | string | The name of the ListItem in its context |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -81,7 +91,7 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 PUT /api/v1/List/ReasonStalled/Items/{itemId}/UserGroups
@@ -92,45 +102,47 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 814,
-    "Name": "Green, Rowe and Howell",
-    "ToolTip": "Quos voluptatem error aliquid doloribus.",
-    "Deleted": false,
-    "Rank": 723,
-    "Type": "aliquid",
-    "ColorBlock": 995,
-    "IconHint": "doloribus",
+    "Id": 28,
+    "Name": "Smith, Ratke and Cole",
+    "ToolTip": "Repellendus voluptatem aliquam.",
+    "Deleted": true,
+    "Rank": 582,
+    "Type": "consequuntur",
+    "ColorBlock": 133,
+    "IconHint": "consequatur",
     "Selected": true,
-    "LastChanged": "1996-12-25T18:25:52.1680187+01:00",
+    "LastChanged": "2002-06-02T11:10:54.5859361+02:00",
     "ChildItems": [
       {
-        "Id": 232,
-        "Name": "Jewess-Rippin",
-        "ToolTip": "Ut accusantium voluptatem excepturi magnam.",
-        "Deleted": true,
-        "Rank": 952,
-        "Type": "aut",
-        "ColorBlock": 611,
-        "IconHint": "eos",
+        "Id": 801,
+        "Name": "Moen LLC",
+        "ToolTip": "Molestias tenetur.",
+        "Deleted": false,
+        "Rank": 606,
+        "Type": "mollitia",
+        "ColorBlock": 757,
+        "IconHint": "veritatis",
         "Selected": true,
-        "LastChanged": "2021-09-06T18:25:52.1680187+02:00",
+        "LastChanged": "2000-06-12T11:10:54.5859361+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ex",
-        "StyleHint": "voluptatibus",
-        "Hidden": true,
-        "FullName": "Justice Walker"
+        "ExtraInfo": "ea",
+        "StyleHint": "laboriosam",
+        "Hidden": false,
+        "FullName": "Mr. Zoila Lockman"
       }
     ],
-    "ExtraInfo": "nihil",
+    "ExtraInfo": "perferendis",
     "StyleHint": "et",
-    "Hidden": true,
-    "FullName": "Golden Johns I"
+    "Hidden": false,
+    "FullName": "Isabella Corkery"
   }
 ]
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -138,65 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 904,
-    "Name": "Hirthe, Graham and Bernier",
-    "ToolTip": "Non aliquam eum non magni assumenda consequatur.",
+    "Id": 638,
+    "Name": "Jacobi-Hayes",
+    "ToolTip": "Necessitatibus culpa.",
     "Deleted": false,
-    "Rank": 929,
-    "Type": "aut",
-    "ColorBlock": 49,
-    "IconHint": "accusamus",
-    "Selected": false,
-    "LastChanged": "2010-02-01T18:25:52.1690195+01:00",
+    "Rank": 555,
+    "Type": "error",
+    "ColorBlock": 625,
+    "IconHint": "cum",
+    "Selected": true,
+    "LastChanged": "2006-10-22T11:10:54.5869354+02:00",
     "ChildItems": [
       {
-        "Id": 143,
-        "Name": "Robel, Pfannerstill and Schuppe",
-        "ToolTip": "Enim ipsa est perferendis vel et.",
-        "Deleted": false,
-        "Rank": 804,
-        "Type": "quia",
-        "ColorBlock": 860,
-        "IconHint": "animi",
-        "Selected": true,
-        "LastChanged": "2004-03-28T18:25:52.1690195+02:00",
+        "Id": 462,
+        "Name": "Tillman Inc and Sons",
+        "ToolTip": "Ut aut.",
+        "Deleted": true,
+        "Rank": 404,
+        "Type": "animi",
+        "ColorBlock": 81,
+        "IconHint": "aperiam",
+        "Selected": false,
+        "LastChanged": "2014-07-15T11:10:54.5869354+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "consequatur",
-        "StyleHint": "voluptatum",
+        "ExtraInfo": "ipsa",
+        "StyleHint": "minima",
         "Hidden": true,
-        "FullName": "Erna Hoeger",
-        "TableRight": {},
+        "FullName": "Winston Jacobson DDS",
+        "TableRight": null,
         "FieldProperties": {
           "fieldName": {
-            "FieldRight": {
-              "Mask": "FULL",
-              "Reason": ""
-            },
-            "FieldType": "System.String",
-            "FieldLength": 630
+            "FieldRight": null,
+            "FieldType": "System.Int32",
+            "FieldLength": 955
           }
         }
       }
     ],
-    "ExtraInfo": "est",
-    "StyleHint": "perspiciatis",
+    "ExtraInfo": "fugiat",
+    "StyleHint": "et",
     "Hidden": true,
-    "FullName": "Miss Tyrese Schaden",
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": "productize bricks-and-clicks infomediaries"
-    },
+    "FullName": "Nellie Crist",
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
+        "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 190
+        "FieldLength": 226
       }
     }
   }

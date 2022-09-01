@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Find/SaveRestrictionsAndGetCriteriaInformation
-id: v1FindAgent_SaveRestrictionsAndGetCriteriaInformation
+uid: v1FindAgent_SaveRestrictionsAndGetCriteriaInformation
 ---
 
 # POST Agents/Find/SaveRestrictionsAndGetCriteriaInformation
@@ -11,7 +11,13 @@ POST /api/v1/Agents/Find/SaveRestrictionsAndGetCriteriaInformation
 
 Save an array of restrictions for later use as search criteria (including as dynamic selection and Find).
 
+
 Then, return the same result as a call to GetCriteriaInformation would have done. The purpose is to encapsulate saving and updating of a GUI in one round trip.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +28,7 @@ Then, return the same result as a call to GetCriteriaInformation would have done
 ```http
 POST /api/v1/Agents/Find/SaveRestrictionsAndGetCriteriaInformation?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,9 +44,9 @@ POST /api/v1/Agents/Find/SaveRestrictionsAndGetCriteriaInformation?$select=name,
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-StorageType, ProviderName, StorageKey, Restrictions, StaticColumns
+StorageType, ProviderName, StorageKey, Restrictions, StaticColumns 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -49,18 +56,16 @@ StorageType, ProviderName, StorageKey, Restrictions, StaticColumns
 | Restrictions | array |  |
 | StaticColumns | array |  |
 
-## Response: object
 
-Carrier for criteria information. It contains all the search criteria - that is, ArchiveRestrictionInfo - objects, including a  column specification. In addition, it contains the same criteria expressed as an archive, with an array of ArchiveColumnInfo specifications and a set of ArchiveRow rows. The rows of the archive form a subset of the restriction array.
+## Response: 
 
-Carrier object for CriteriaInformation.
-Services for the CriteriaInformation Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IFindAgent">Find Agent</see>.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -71,48 +76,50 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Find/SaveRestrictionsAndGetCriteriaInformation
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "cum",
-  "ProviderName": "Bosco, Howe and Jacobi",
-  "StorageKey": "voluptas",
+  "StorageType": "officia",
+  "ProviderName": "Schmeler Group",
+  "StorageKey": "adipisci",
   "Restrictions": [
     {
-      "Name": "Muller LLC",
-      "Operator": "ex",
+      "Name": "O'Kon-Dare",
+      "Operator": "ipsum",
       "Values": [
-        "soluta",
-        "similique"
+        "quos",
+        "numquam"
       ],
       "DisplayValues": [
-        "magnam",
-        "reprehenderit"
+        "laudantium",
+        "laboriosam"
       ],
-      "ColumnInfo": {},
+      "ColumnInfo": null,
       "IsActive": false,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 472,
+      "InterParenthesis": 390,
       "InterOperator": "And",
-      "UniqueHash": 178
+      "UniqueHash": 292
     }
   ],
   "StaticColumns": [
-    "quam",
-    "et"
+    "voluptatum",
+    "qui"
   ]
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -121,102 +128,93 @@ Content-Type: application/json; charset=utf-8
 {
   "Restrictions": [
     {
-      "Name": "Kris LLC",
-      "Operator": "dolore",
+      "Name": "Kuphal Group",
+      "Operator": "quibusdam",
       "Values": [
-        "minima",
+        "non",
         "doloribus"
       ],
       "DisplayValues": [
-        "voluptas",
-        "est"
+        "sit",
+        "ut"
       ],
-      "ColumnInfo": {},
+      "ColumnInfo": null,
       "IsActive": false,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 990,
+      "InterParenthesis": 486,
       "InterOperator": "And",
-      "UniqueHash": 706
+      "UniqueHash": 553
     }
   ],
   "CriteriaArchiveColumns": [
     {
-      "DisplayName": "O'Hara Inc and Sons",
-      "DisplayTooltip": "aut",
-      "DisplayType": "voluptatibus",
-      "CanOrderBy": true,
-      "Name": "Conn-Marks",
-      "CanRestrictBy": true,
-      "RestrictionType": "numquam",
-      "RestrictionListName": "Donnelly Inc and Sons",
-      "IsVisible": false,
-      "ExtraInfo": "similique",
-      "Width": "maiores",
-      "IconHint": "doloremque",
-      "HeadingIconHint": "sunt"
+      "DisplayName": "Nienow-Beier",
+      "DisplayTooltip": "iure",
+      "DisplayType": "quae",
+      "CanOrderBy": false,
+      "Name": "Ebert, Armstrong and Bins",
+      "CanRestrictBy": false,
+      "RestrictionType": "rerum",
+      "RestrictionListName": "McKenzie, Parker and Towne",
+      "IsVisible": true,
+      "ExtraInfo": "blanditiis",
+      "Width": "id",
+      "IconHint": "sunt",
+      "HeadingIconHint": "fuga"
     }
   ],
   "CriteriaArchiveRows": [
     {
-      "EntityName": "Schuppe-Wintheiser",
-      "PrimaryKey": 733,
+      "EntityName": "Carroll LLC",
+      "PrimaryKey": 498,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "beatae",
-          "TooltipHint": "aut",
-          "LinkHint": "ut"
+          "DisplayValue": "nisi",
+          "TooltipHint": "occaecati",
+          "LinkHint": "rerum"
         }
       },
-      "LinkHint": "voluptates",
-      "StyleHint": "doloremque",
-      "TableRight": {},
+      "LinkHint": "totam",
+      "StyleHint": "corrupti",
+      "TableRight": null,
       "FieldProperties": {
         "fieldName": {
-          "FieldRight": {
-            "Mask": "FULL",
-            "Reason": ""
-          },
-          "FieldType": "System.String",
-          "FieldLength": 153
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 620
         }
       }
     }
   ],
   "RestrictionGroups": [
     {
-      "Name": "Borer, Schoen and Bogan",
-      "Description": "Secured context-sensitive help-desk",
-      "Rank": 847,
+      "Name": "Gibson-Bogisich",
+      "Description": "Centralized directional task-force",
+      "Rank": 65,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Borer, Schoen and Bogan",
-      "Description": "Secured context-sensitive help-desk",
-      "Rank": 847,
+      "Name": "Gibson-Bogisich",
+      "Description": "Centralized directional task-force",
+      "Rank": 65,
       "Restrictions": [
         {},
         {}
       ]
     }
   ],
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
+      "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 8
+      "FieldLength": 589
     }
   }
 }

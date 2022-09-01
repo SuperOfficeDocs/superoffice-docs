@@ -1,6 +1,6 @@
 ---
 title: POST Agents/List/GetInstalledLanguages
-id: v1ListAgent_GetInstalledLanguages
+uid: v1ListAgent_GetInstalledLanguages
 ---
 
 # POST Agents/List/GetInstalledLanguages
@@ -11,6 +11,12 @@ POST /api/v1/Agents/List/GetInstalledLanguages
 
 Returns the list of all languages installed in this database.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Returns the list of all languages installed in this database.
 ```http
 POST /api/v1/Agents/List/GetInstalledLanguages?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -34,7 +41,10 @@ POST /api/v1/Agents/List/GetInstalledLanguages?$select=name,department,category/
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -54,7 +64,7 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/List/GetInstalledLanguages
@@ -63,31 +73,27 @@ Accept: application/json; charset=utf-8
 Accept-Language: en
 ```
 
+## Sample response
+
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "LanguageInfoId": 551,
-    "LCID": 615,
-    "EnglishName": "Lubowitz, Bailey and Davis",
-    "NativeName": "White, Kohler and Stiedemann",
-    "ThreeLetterISOLanguageName": "Nitzsche-Hodkiewicz",
-    "TwoLetterISOLanguageName": "Anderson, Dickens and Quigley",
+    "LanguageInfoId": 807,
+    "LCID": 54,
+    "EnglishName": "Stehr Inc and Sons",
+    "NativeName": "Larson, Hackett and Kilback",
+    "ThreeLetterISOLanguageName": "Kemmer LLC",
+    "TwoLetterISOLanguageName": "Donnelly, Grady and Feeney",
     "IsBuiltIn": false,
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
+        "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 995
+        "FieldLength": 32
       }
     }
   }

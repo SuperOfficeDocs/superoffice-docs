@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "s_list"
-so.date: 04.12.2022
+so.date: 08.26.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -34,6 +34,7 @@ A list, dynamic or static
 |dbi\_last\_syncronized|Last external syncronization.|DateTime| |
 |dbi\_last\_modified|When the entry was last modified.|DateTime| |
 
+
 ![s_list table relationship diagram](./media/s_list.png)
 
 [!include[details](./includes/s-list.md)]
@@ -59,6 +60,7 @@ A list, dynamic or static
 |[s\_list\_shipment](s-list-shipment.md)  |A connector between shipment and list so that one shipment can have many lists, and one list can have many shipments |
 |[s\_washing\_list](s-washing-list.md)  |Unused table that is ment to be used for active washing in spm v2 |
 
+
 ## Replication Flags
 
 * None
@@ -66,3 +68,4 @@ A list, dynamic or static
 ## Security Flags
 
 * No access control via user's Role.
+

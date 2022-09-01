@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "reply_template"
-so.date: 04.12.2022
+so.date: 08.26.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -28,7 +28,8 @@ Templates for automatic and manual replies to emails/sms organized hierachically
 |owned\_by|The id of the user who owns this reply template.|FK [ejuser](ejuser.md)|&#x25CF;|
 |last\_changed|When the reply template was last changed.|DateTime|&#x25CF;|
 |access\_level|The access level (enum) for this reply template.|access_level|&#x25CF;|
-|flags|A bitmap for flags.not used for anything [snarum 29 aug 2001]|Int|&#x25CF;|
+|flags|Reply template type, for example &quot;new customer&quot; or &quot;new password&quot;. While called flags - this is not actually flags. Only one type can be used at a time.|Int|&#x25CF;|
+
 
 ![reply_template table relationship diagram](./media/reply_template.png)
 
@@ -56,6 +57,7 @@ Templates for automatic and manual replies to emails/sms organized hierachically
 |[reply\_template\_folder](reply-template-folder.md)  |This table contains entries for folders for reply templates. |
 |[ticket\_alert](ticket-alert.md)  |This table will contain ticket escalation levels. A ticket will be escalated along a &amp;apos;chain&amp;apos; of these levels. |
 
+
 ## Replication Flags
 
 * None
@@ -63,3 +65,4 @@ Templates for automatic and manual replies to emails/sms organized hierachically
 ## Security Flags
 
 * No access control via user's Role.
+

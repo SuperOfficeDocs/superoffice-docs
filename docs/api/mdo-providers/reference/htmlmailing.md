@@ -7,7 +7,7 @@ keywords:
   - "mdo provider"
   - "htmlmailing"
 so.generated: true
-so.date: 03.19.2021
+so.date: 08.26.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -15,11 +15,15 @@ so.envir:
 ---
 
 # "htmlmailing" MDO List
-
 MDO provider for the different types of Mailings
+
+
 
 Implemented by the <see cref="T:SuperOffice.CRM.Lists.HtmlMailingProvider">HtmlMailingProvider</see> class.
 The name of the MDO list is 'htmlmailing'.
+
+
+
 
 ## Sample Request
 
@@ -32,7 +36,6 @@ Accept-Language: *
 ```
 
 ## Sample Code
-
 ```cs
 var listProvider = SuperOffice.CRM.Lists.SoListProviderFactory.Create("htmlmailing", forceFlatList: true);
 foreach (var item in listProvider.RootItems) {
@@ -46,6 +49,7 @@ foreach (var item in listProvider.RootItems) {
 |Id   | Name  |StyleHint|ExtraInfo |
 | --- | ----- | ------- | -------- |
 | 2 | Example | | |
+
 
 ## Related MDO Lists
 

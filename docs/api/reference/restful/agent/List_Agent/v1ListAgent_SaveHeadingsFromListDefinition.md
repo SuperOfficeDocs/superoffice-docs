@@ -1,6 +1,6 @@
 ---
 title: POST Agents/List/SaveHeadingsFromListDefinition
-id: v1ListAgent_SaveHeadingsFromListDefinition
+uid: v1ListAgent_SaveHeadingsFromListDefinition
 ---
 
 # POST Agents/List/SaveHeadingsFromListDefinition
@@ -11,6 +11,12 @@ POST /api/v1/Agents/List/SaveHeadingsFromListDefinition
 
 Save headings for list resolved by the provided id.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Save headings for list resolved by the provided id.
 ```http
 POST /api/v1/Agents/List/SaveHeadingsFromListDefinition?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,16 +42,19 @@ POST /api/v1/Agents/List/SaveHeadingsFromListDefinition?$select=name,department,
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-Id, Entities
+Id, Entities 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | Id | int32 |  |
 | Entities | array |  |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -63,37 +73,39 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/List/SaveHeadingsFromListDefinition
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 756,
+  "Id": 225,
   "Entities": [
     {
-      "HeadingId": 367,
-      "Name": "Ebert LLC",
+      "HeadingId": 763,
+      "Name": "Jerde-Champlin",
       "Tooltip": "et",
       "Deleted": false,
-      "Rank": 493,
-      "UdListDefinitionId": 114
+      "Rank": 550,
+      "UdListDefinitionId": 241
     },
     {
-      "HeadingId": 367,
-      "Name": "Ebert LLC",
+      "HeadingId": 763,
+      "Name": "Jerde-Champlin",
       "Tooltip": "et",
       "Deleted": false,
-      "Rank": 493,
-      "UdListDefinitionId": 114
+      "Rank": 550,
+      "UdListDefinitionId": 241
     }
   ]
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -101,24 +113,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 485,
-    "Name": "Jacobs LLC",
-    "Tooltip": "deleniti",
+    "HeadingId": 700,
+    "Name": "Witting, Stamm and Hauck",
+    "Tooltip": "et",
     "Deleted": true,
-    "Rank": 545,
-    "UdListDefinitionId": 500,
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "Rank": 425,
+    "UdListDefinitionId": 486,
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.Int32",
-        "FieldLength": 787
+        "FieldRight": null,
+        "FieldType": "System.String",
+        "FieldLength": 168
       }
     }
   }

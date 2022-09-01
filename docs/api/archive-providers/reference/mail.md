@@ -8,7 +8,7 @@ keywords:
   - "archive provider"
   - "Mail"
 so.generated: true
-so.date: 03.23.2021
+so.date: 08.26.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -26,15 +26,15 @@ the string in either subject, sender, recipient or date are returned
 ## Supported Entities
 
 | Name | Description |
-| ---- | ----- |
+| ---- | ----------- |
 |"companies"|Companies|
 |"associates"|Associates|
 |"others"|Others|
 
 ## Supported Columns
 
-| Name | Restriction | Description | OrderBy
-| ---- | ----- | ------- | ------ |
+| Name | Restriction | Description | OrderBy |
+| ---- | ----------- | ----------- | ------- |
 |id| *None* |ID: ID of the e-mail|  |
 |status| *None* |Status| x |
 |attachment| *None* |Attachment: Indicates whether the e-mail has one or more attachments| x |
@@ -51,11 +51,14 @@ the string in either subject, sender, recipient or date are returned
 ## Sample
 
 ```http!
-GET /api/v1/archive/Mail?$select=attachment,to,size
+GET /api/v1/archive/Mail?$select=to,size
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv
 
 ```
 
-See also: <see cref="T:SuperOffice.CRM.Services.IArchiveAgent">IArchiveAgent</see>.
+
+
+See also: <see cref="T:SuperOffice.CRM.Services.IArchiveAgent">IArchiveAgent</see>.</p>
+

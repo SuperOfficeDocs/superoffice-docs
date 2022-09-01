@@ -1,6 +1,6 @@
 ---
 title: POST Agents/PhoneList/SearchWithPreferences
-id: v1PhoneListAgent_SearchWithPreferences
+uid: v1PhoneListAgent_SearchWithPreferences
 ---
 
 # POST Agents/PhoneList/SearchWithPreferences
@@ -11,7 +11,13 @@ POST /api/v1/Agents/PhoneList/SearchWithPreferences
 
 Searching the phone list.
 
+
 Search is based on the supplied preferences.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +28,7 @@ Search is based on the supplied preferences.
 ```http
 POST /api/v1/Agents/PhoneList/SearchWithPreferences?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,16 +44,19 @@ POST /api/v1/Agents/PhoneList/SearchWithPreferences?$select=name,department,cate
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-SearchString, Preferences
+SearchString, Preferences 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | SearchString | string |  |
-| Preferences |  | Search preferences for a phone list search <br /> Carrier object for PhoneListPreferences. Services for the PhoneListPreferences Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IPhoneListAgent">PhoneList Agent</see>. |
+| Preferences |  | Search preferences for a phone list search <para /> Carrier object for PhoneListPreferences. Services for the PhoneListPreferences Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IPhoneListAgent">PhoneList Agent</see>. |
+
 
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -69,29 +79,22 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/PhoneList/SearchWithPreferences
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "SearchString": "veritatis",
-  "Preferences": {
-    "SearchCompany": true,
-    "SearchFirstname": true,
-    "SearchLastname": false,
-    "SearchDepartment": false,
-    "SearchModeCompany": "BeginsWith",
-    "SearchModeDepartment": "BeginsWith",
-    "SearchModeFirstname": "BeginsWith",
-    "SearchModeLastname": "BeginsWith"
-  }
+  "SearchString": "corporis",
+  "Preferences": null
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -99,28 +102,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PersonDirectPhone": "380-542-6312",
-    "PersonCellPhone": "571.186.4075 x370",
-    "PersonPrivatePhone": "1-212-363-0350 x101",
-    "PersonFaxNumber": "1090176",
-    "PersonPagerNumber": "541902",
-    "PersonEmail": "efrain_doyle@kingkoelpin.co.uk",
-    "Id": 403,
-    "Name": "Hyatt, Rice and Kozey",
-    "Tooltip": "beatae",
-    "UniqueId": "quae",
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": "disintermediate collaborative content"
-    },
+    "PersonDirectPhone": "146-540-4781",
+    "PersonCellPhone": "(769)177-6668 x822",
+    "PersonPrivatePhone": "1-754-399-8512 x4511",
+    "PersonFaxNumber": "971644",
+    "PersonPagerNumber": "990446",
+    "PersonEmail": "eda@casper.info",
+    "Id": 426,
+    "Name": "Dickens-Okuneva",
+    "Tooltip": "ullam",
+    "UniqueId": "repellendus",
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
+        "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 306
+        "FieldLength": 372
       }
     }
   }

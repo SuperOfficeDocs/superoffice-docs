@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Selection/CreateTemporaryContactSelectionFromContactPersonIds
-id: v1SelectionAgent_CreateTemporaryContactSelectionFromContactPersonIds
+uid: v1SelectionAgent_CreateTemporaryContactSelectionFromContactPersonIds
 ---
 
 # POST Agents/Selection/CreateTemporaryContactSelectionFromContactPersonIds
@@ -11,6 +11,12 @@ POST /api/v1/Agents/Selection/CreateTemporaryContactSelectionFromContactPersonId
 
 Creates a temporary selection with members from a collection of ContactPerson id's.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Creates a temporary selection with members from a collection of ContactPerson id
 ```http
 POST /api/v1/Agents/Selection/CreateTemporaryContactSelectionFromContactPersonIds?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,24 +42,24 @@ POST /api/v1/Agents/Selection/CreateTemporaryContactSelectionFromContactPersonId
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-ContactPersonIds
+ContactPersonIds 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | ContactPersonIds | array |  |
 
-## Response: object
 
-Carrier object for SelectionEntity.
-Services for the SelectionEntity Carrier is available from the <see cref="T:SuperOffice.CRM.Services.ISelectionAgent">Selection Agent</see>.
+## Response: 
+
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -61,7 +68,7 @@ Response body: object
 | Associate |  | Owner of the selection |
 | CreatedBy |  | Who created the selection |
 | UpdatedBy |  | Who last modified the selection |
-| SelectionCategory |  | Selection category type (list item)  <br />Use MDO List name "searchCat" to get list items. |
+| SelectionCategory |  | Selection category type (list item)  <para>Use MDO List name "searchCat" to get list items.</para> |
 | GroupIdx | int32 | Original primary user group of associate |
 | IncludePerson | int32 | 0 = Include first person, 1 = Include all persons, 2 = Include no persons |
 | MemberCount | int32 | How many selectionmembers (for progress bar calculations) - estimate, -1 (or 4294967295) means we don't know |
@@ -100,7 +107,7 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Selection/CreateTemporaryContactSelectionFromContactPersonIds
@@ -112,243 +119,98 @@ Content-Type: application/json; charset=utf-8
 {
   "ContactPersonIds": [
     {
-      "PersonId": 792,
-      "ContactId": 994
+      "PersonId": 621,
+      "ContactId": 491
     },
     {
-      "PersonId": 792,
-      "ContactId": 994
+      "PersonId": 621,
+      "ContactId": 491
     }
   ]
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Networked high-level portal",
-  "Postit": "porro",
-  "Associate": {
-    "AssociateId": 379,
-    "Name": "D'Amore-Feeney",
-    "PersonId": 828,
-    "Rank": 406,
-    "Tooltip": "vitae",
-    "Type": "AnonymousAssociate",
-    "GroupIdx": 662,
-    "FullName": "Miss Charles West",
-    "FormalName": "Rippin-Wolf",
-    "Deleted": false,
-    "EjUserId": 413,
-    "UserName": "Wunsch-Terry",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 366
-      }
-    }
-  },
-  "CreatedBy": {
-    "AssociateId": 937,
-    "Name": "Treutel, Heathcote and Blick",
-    "PersonId": 367,
-    "Rank": 454,
-    "Tooltip": "quaerat",
-    "Type": "AnonymousAssociate",
-    "GroupIdx": 619,
-    "FullName": "Joanne Pfannerstill",
-    "FormalName": "Terry Group",
-    "Deleted": true,
-    "EjUserId": 213,
-    "UserName": "Howell, Gaylord and Koch",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 334
-      }
-    }
-  },
-  "UpdatedBy": {
-    "AssociateId": 206,
-    "Name": "Kuphal, Lehner and Metz",
-    "PersonId": 317,
-    "Rank": 463,
-    "Tooltip": "ipsam",
-    "Type": "AnonymousAssociate",
-    "GroupIdx": 165,
-    "FullName": "Monica Glover",
-    "FormalName": "Pfeffer-Greenfelder",
-    "Deleted": true,
-    "EjUserId": 96,
-    "UserName": "Reilly LLC",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": "unleash viral initiatives"
-        },
-        "FieldType": "System.String",
-        "FieldLength": 681
-      }
-    }
-  },
-  "SelectionCategory": {
-    "Id": 286,
-    "Value": "dolorem",
-    "Tooltip": "aperiam",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 649
-      }
-    }
-  },
-  "GroupIdx": 21,
-  "IncludePerson": 568,
-  "MemberCount": 45,
-  "Name": "Strosin Group",
-  "PostitTextId": 569,
-  "CreatedDate": "2008-02-12T18:28:50.2444426+01:00",
-  "SelectionId": 486,
-  "SoundEx": "quibusdam",
-  "Source": 569,
-  "TextId": 171,
-  "UpdatedDate": "2003-03-22T18:28:50.2444426+01:00",
-  "UpdatedCount": 427,
-  "Visibility": 425,
+  "Description": "Reduced background benchmark",
+  "Postit": "enim",
+  "Associate": null,
+  "CreatedBy": null,
+  "UpdatedBy": null,
+  "SelectionCategory": null,
+  "GroupIdx": 204,
+  "IncludePerson": 997,
+  "MemberCount": 442,
+  "Name": "Vandervort-Zieme",
+  "PostitTextId": 507,
+  "CreatedDate": "2005-06-15T11:10:27.9109766+02:00",
+  "SelectionId": 607,
+  "SoundEx": "libero",
+  "Source": 544,
+  "TextId": 826,
+  "UpdatedDate": "2008-06-27T11:10:27.9109766+02:00",
+  "UpdatedCount": 701,
+  "Visibility": 426,
   "SelectionType": "Combined",
-  "CompanyUnique": false,
-  "TargetTableNumber": 631,
-  "TargetTableName": "Ryan-Feest",
-  "Completed": true,
-  "LeftSelectionId": 486,
-  "RightSelectionId": 790,
+  "CompanyUnique": true,
+  "TargetTableNumber": 666,
+  "TargetTableName": "Leffler Group",
+  "Completed": false,
+  "LeftSelectionId": 431,
+  "RightSelectionId": 641,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Hauck Inc and Sons",
-  "ShadowProviderName": "Bailey, Rippin and Waters",
-  "ChartKey": "aut",
-  "LastLoaded": "2007-06-15T18:28:50.2454415+02:00",
-  "LastLoadedBy": 222,
-  "LastLoadedByAssociate": {
-    "AssociateId": 509,
-    "Name": "Jewess-Mayert",
-    "PersonId": 256,
-    "Rank": 879,
-    "Tooltip": "dolor",
-    "Type": "AnonymousAssociate",
-    "GroupIdx": 116,
-    "FullName": "Gregg Wisoky",
-    "FormalName": "Langosh-Ernser",
-    "Deleted": true,
-    "EjUserId": 874,
-    "UserName": "Johnston, Luettgen and Kautzer",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.Int32",
-        "FieldLength": 313
-      }
-    }
-  },
-  "LastMembershipChange": "2000-04-03T18:28:50.2454415+02:00",
-  "LastMembershipChangeBy": 451,
-  "LastMembershipChangeByAssociate": {
-    "AssociateId": 62,
-    "Name": "Ledner-McClure",
-    "PersonId": 899,
-    "Rank": 204,
-    "Tooltip": "magni",
-    "Type": "AnonymousAssociate",
-    "GroupIdx": 776,
-    "FullName": "Florence Kessler",
-    "FormalName": "Padberg Group",
-    "Deleted": false,
-    "EjUserId": 939,
-    "UserName": "Gleason LLC",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 318
-      }
-    }
-  },
-  "MainHeading": "distinctio",
-  "MemberTabHeading": "omnis",
-  "MailingsProviderName": "Heidenreich, Welch and Bogisich",
-  "DashboardTileDefinitionId": 253,
+  "MainProviderName": "Paucek Group",
+  "ShadowProviderName": "West LLC",
+  "ChartKey": "laudantium",
+  "LastLoaded": "2017-01-09T11:10:27.9119766+01:00",
+  "LastLoadedBy": 860,
+  "LastLoadedByAssociate": null,
+  "LastMembershipChange": "2005-12-29T11:10:27.9129771+01:00",
+  "LastMembershipChangeBy": 575,
+  "LastMembershipChangeByAssociate": null,
+  "MainHeading": "ut",
+  "MemberTabHeading": "magni",
+  "MailingsProviderName": "Volkman-Bergnaum",
+  "DashboardTileDefinitionId": 324,
   "VisibleFor": [
     {
-      "VisibleId": 119,
+      "VisibleId": 996,
       "Visibility": "All",
-      "DisplayValue": "eum",
-      "TableRight": {},
+      "DisplayValue": "tenetur",
+      "TableRight": null,
       "FieldProperties": {
         "fieldName": {
-          "FieldRight": {
-            "Mask": "FULL",
-            "Reason": ""
-          },
-          "FieldType": "System.Int32",
-          "FieldLength": 385
+          "FieldRight": null,
+          "FieldType": "System.String",
+          "FieldLength": 243
         }
       }
     },
     {
-      "VisibleId": 119,
+      "VisibleId": 996,
       "Visibility": "All",
-      "DisplayValue": "eum",
-      "TableRight": {},
+      "DisplayValue": "tenetur",
+      "TableRight": null,
       "FieldProperties": {
         "fieldName": {
-          "FieldRight": {
-            "Mask": "FULL",
-            "Reason": ""
-          },
-          "FieldType": "System.Int32",
-          "FieldLength": 385
+          "FieldRight": null,
+          "FieldType": "System.String",
+          "FieldLength": 243
         }
       }
     }
   ],
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
+      "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 253
+      "FieldLength": 937
     }
   }
 }

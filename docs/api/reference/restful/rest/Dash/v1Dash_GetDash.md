@@ -1,6 +1,6 @@
 ---
 title: GET Dash/{id}
-id: v1Dash_GetDash
+uid: v1Dash_GetDash
 ---
 
 # GET Dash/{id}
@@ -11,11 +11,17 @@ GET /api/v1/Dash/{id}
 
 Gets a Dash object.
 
+
 Calls the Dash agent service GetDash.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | id | int32 | The id of the Dash to return. **Required** |
+
 
 ## Query String Parameters
 
@@ -26,6 +32,7 @@ Calls the Dash agent service GetDash.
 ```http
 GET /api/v1/Dash/{id}?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -40,18 +47,17 @@ GET /api/v1/Dash/{id}?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response: object
 
-Dashboard configuration
+## Response: 
 
-Dash entity with API _Links added.
+Dash found.
 
 | Response | Description |
 |----------------|-------------|
 | 200 | Dash found. |
 | 404 | Not Found. |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -72,74 +78,53 @@ Response body: object
 | FieldProperties | object |  |
 | _Links | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 GET /api/v1/Dash/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 Dash found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 434,
-  "UniqueId": "vel",
-  "Name": "McKenzie Group",
-  "Description": "Persevering content-based throughput",
-  "AssociateId": 66,
-  "Columns": 903,
-  "Theme": {
-    "DashboardThemeId": 232,
-    "Name": "Krajcik, Bashirian and Heathcote",
-    "Config": "voluptatibus",
-    "Rank": 584,
-    "Client": "natus",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.Int32",
-        "FieldLength": 102
-      }
-    }
-  },
-  "VisibleForAll": 854,
+  "DashboardId": 95,
+  "UniqueId": "quam",
+  "Name": "Bailey, Hansen and Braun",
+  "Description": "Configurable exuding hardware",
+  "AssociateId": 418,
+  "Columns": 261,
+  "Theme": null,
+  "VisibleForAll": 873,
   "VisibleForAssociates": [
-    203,
-    126
+    527,
+    630
   ],
   "VisibleForGroups": [
-    448,
-    267
+    663,
+    21
   ],
-  "PinForAll": 134,
+  "PinForAll": 380,
   "PinForAssociates": [
-    999,
-    620
+    696,
+    199
   ],
   "PinForGroups": [
-    643,
-    45
+    921,
+    861
   ],
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
-      "FieldType": "System.Int32",
-      "FieldLength": 613
+      "FieldRight": null,
+      "FieldType": "System.String",
+      "FieldLength": 94
     }
   },
   "_Links": {

@@ -1,6 +1,6 @@
 ---
 title: GET List/ReasonSold/Items/{id}
-id: v1ReasonSoldList_GetReasonSold
+uid: v1ReasonSoldList_GetReasonSold
 ---
 
 # GET List/ReasonSold/Items/{id}
@@ -11,9 +11,16 @@ GET /api/v1/List/ReasonSold/Items/{id}
 
 Gets a ReasonSold  item by id.
 
+
+
+
+
+
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | id | int32 | The id of the ReasonSold to return. **Required** |
+
+
 
 ## Request Headers
 
@@ -28,19 +35,17 @@ Gets a ReasonSold  item by id.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response: object
 
-The list item entity contains generic list item information
+## Response: 
 
-Carrier object for ListItemEntity.
-Services for the ListItemEntity Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IListAgent">List Agent</see>.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 | 404 | Not Found. |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -53,38 +58,34 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 GET /api/v1/List/ReasonSold/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 371,
-  "Name": "Gerhold, Swaniawski and Rutherford",
-  "Tooltip": "eos",
+  "Id": 836,
+  "Name": "Effertz Inc and Sons",
+  "Tooltip": "tempore",
   "Deleted": false,
-  "UdListDefinitionId": 893,
-  "Rank": 88,
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "UdListDefinitionId": 752,
+  "Rank": 177,
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
+      "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 560
+      "FieldLength": 372
     }
   }
 }

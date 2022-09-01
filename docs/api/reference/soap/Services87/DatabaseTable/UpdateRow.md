@@ -12,11 +12,13 @@ Implemented by the <see cref="M:SuperOffice.Services87.IDatabaseTableAgent.Updat
 ## UpdateRow
 
 Update a row in a table
-<br />**Online Restricted:** The DatabaseTable agent is not available in Online by default. Access must be requested specifically when app is registered.
+<para /><b>Online Restricted:</b> The DatabaseTable agent is not available in Online by default. Access must be requested specifically when app is registered.
 
 * **tableName:** The name of the table to update; in the current release this must be an 'extratable'. Use the database name, on the form y\_aTable
 * **id:** The id of the row to update
 * **values:** A StringDictionary with the values to update. You do not need to specify all the values in the table. The omitted ones will remain unchanged
+
+
 
 [WSDL file for Services87/DatabaseTable](../Services87-DatabaseTable.md)
 
@@ -56,6 +58,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## UpdateRow Response
 
 ```xml
@@ -74,3 +77,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

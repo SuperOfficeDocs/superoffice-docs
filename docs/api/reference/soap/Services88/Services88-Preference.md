@@ -8,9 +8,10 @@ title: Services88.PreferenceAgent WSDL
 
 ```xml
 <?xml version="1.0" encoding="utf-8"?>
-<wsdl:definitions name="WcfPreferenceService" targetNamespace="http://www.superoffice.net/ws/crm/NetServer/Services88" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:tns="http://www.superoffice.net/ws/crm/NetServer/Services88" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<wsdl:definitions name="WcfPreferenceService" targetNamespace="http://www.superoffice.net/ws/crm/NetServer/Services88" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tns="http://www.superoffice.net/ws/crm/NetServer/Services88" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing">
   <wsdl:types>
     <xs:schema elementFormDefault="qualified" targetNamespace="http://www.superoffice.net/ws/crm/NetServer/Services88" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+      <xs:import namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
       <xs:import namespace="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
       <xs:element name="CreateDefaultPreference">
         <xs:complexType>
@@ -84,6 +85,22 @@ title: Services88.PreferenceAgent WSDL
               <xs:enumeration value="Delete" />
               <xs:enumeration value="Filtering" />
               <xs:enumeration value="RestrictedUpdate" />
+              <xs:enumeration value="Unused1" />
+              <xs:enumeration value="Uninitialized" />
+              <xs:enumeration value="R">
+                <xs:annotation>
+                  <xs:appinfo>
+                    <EnumerationValue xmlns="http://schemas.microsoft.com/2003/10/Serialization/">1</EnumerationValue>
+                  </xs:appinfo>
+                </xs:annotation>
+              </xs:enumeration>
+              <xs:enumeration value="F">
+                <xs:annotation>
+                  <xs:appinfo>
+                    <EnumerationValue xmlns="http://schemas.microsoft.com/2003/10/Serialization/">16</EnumerationValue>
+                  </xs:appinfo>
+                </xs:annotation>
+              </xs:enumeration>
             </xs:restriction>
           </xs:simpleType>
         </xs:list>
@@ -135,6 +152,13 @@ title: Services88.PreferenceAgent WSDL
               <xs:enumeration value="UIHintMandatory" />
               <xs:enumeration value="UIHintReadOnly" />
               <xs:enumeration value="UndefinedValue256" />
+              <xs:enumeration value="Nullable">
+                <xs:annotation>
+                  <xs:appinfo>
+                    <EnumerationValue xmlns="http://schemas.microsoft.com/2003/10/Serialization/">32</EnumerationValue>
+                  </xs:appinfo>
+                </xs:annotation>
+              </xs:enumeration>
             </xs:restriction>
           </xs:simpleType>
         </xs:list>
@@ -542,6 +566,33 @@ title: Services88.PreferenceAgent WSDL
           <xs:sequence />
         </xs:complexType>
       </xs:element>
+      <xs:element name="GetXsrfPaths">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="Hostname" nillable="true" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="GetXsrfPathsResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="Response" nillable="true" type="q2:ArrayOfstring" xmlns:q2="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="SetXsrfPaths">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="Hostname" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="Paths" nillable="true" type="q3:ArrayOfstring" xmlns:q3="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="SetXsrfPathsResponse">
+        <xs:complexType>
+          <xs:sequence />
+        </xs:complexType>
+      </xs:element>
       <xs:element name="GetPreferenceDescription">
         <xs:complexType>
           <xs:sequence>
@@ -698,7 +749,7 @@ title: Services88.PreferenceAgent WSDL
       <xs:element name="DeletePreferenceDescriptionLines">
         <xs:complexType>
           <xs:sequence>
-            <xs:element minOccurs="0" name="PrefDescLineIds" nillable="true" type="q2:ArrayOfint" xmlns:q2="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+            <xs:element minOccurs="0" name="PrefDescLineIds" nillable="true" type="q4:ArrayOfint" xmlns:q4="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
@@ -722,7 +773,7 @@ title: Services88.PreferenceAgent WSDL
       <xs:element name="DeletePrefDescLinesByPrefDescIds">
         <xs:complexType>
           <xs:sequence>
-            <xs:element minOccurs="0" name="PrefDescIds" nillable="true" type="q3:ArrayOfint" xmlns:q3="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+            <xs:element minOccurs="0" name="PrefDescIds" nillable="true" type="q5:ArrayOfint" xmlns:q5="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
@@ -875,6 +926,12 @@ title: Services88.PreferenceAgent WSDL
         </xs:sequence>
       </xs:complexType>
       <xs:element name="ArrayOfint" nillable="true" type="tns:ArrayOfint" />
+      <xs:complexType name="ArrayOfstring">
+        <xs:sequence>
+          <xs:element minOccurs="0" maxOccurs="unbounded" name="string" nillable="true" type="xs:string" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:element name="ArrayOfstring" nillable="true" type="tns:ArrayOfstring" />
     </xs:schema>
   </wsdl:types>
   <wsdl:message name="CreateDefaultPreferenceRequest">
@@ -1178,6 +1235,40 @@ title: Services88.PreferenceAgent WSDL
     <wsdl:part name="parameters" element="tns:UpdateNetServicesStatusResponse" />
   </wsdl:message>
   <wsdl:message name="UpdateNetServicesStatusResponse_Headers">
+    <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
+    <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
+    <wsdl:part name="Succeeded" element="tns:Succeeded" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="GetXsrfPathsRequest">
+    <wsdl:part name="parameters" element="tns:GetXsrfPaths" />
+  </wsdl:message>
+  <wsdl:message name="GetXsrfPathsRequest_Headers">
+    <wsdl:part name="ApplicationToken" element="tns:ApplicationToken" />
+    <wsdl:part name="Credentials" element="tns:Credentials" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="GetXsrfPathsResponse">
+    <wsdl:part name="parameters" element="tns:GetXsrfPathsResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetXsrfPathsResponse_Headers">
+    <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
+    <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
+    <wsdl:part name="Succeeded" element="tns:Succeeded" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="SetXsrfPathsRequest">
+    <wsdl:part name="parameters" element="tns:SetXsrfPaths" />
+  </wsdl:message>
+  <wsdl:message name="SetXsrfPathsRequest_Headers">
+    <wsdl:part name="ApplicationToken" element="tns:ApplicationToken" />
+    <wsdl:part name="Credentials" element="tns:Credentials" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="SetXsrfPathsResponse">
+    <wsdl:part name="parameters" element="tns:SetXsrfPathsResponse" />
+  </wsdl:message>
+  <wsdl:message name="SetXsrfPathsResponse_Headers">
     <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
     <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
     <wsdl:part name="Succeeded" element="tns:Succeeded" />
@@ -1636,6 +1727,20 @@ title: Services88.PreferenceAgent WSDL
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Preference/UpdateNetServicesStatus" name="UpdateNetServicesStatusRequest" message="tns:UpdateNetServicesStatusRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Preference/UpdateNetServicesStatusResponse" name="UpdateNetServicesStatusResponse" message="tns:UpdateNetServicesStatusResponse" />
     </wsdl:operation>
+    <wsdl:operation name="GetXsrfPaths">
+      <wsdl:documentation>
+        <summary>Returns paths that XSRF cookies should be set on</summary>
+      </wsdl:documentation>
+      <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Preference/GetXsrfPaths" name="GetXsrfPathsRequest" message="tns:GetXsrfPathsRequest" />
+      <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Preference/GetXsrfPathsResponse" name="GetXsrfPathsResponse" message="tns:GetXsrfPathsResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="SetXsrfPaths">
+      <wsdl:documentation>
+        <summary>Update the paths that need XSRF cookies</summary>
+      </wsdl:documentation>
+      <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Preference/SetXsrfPaths" name="SetXsrfPathsRequest" message="tns:SetXsrfPathsRequest" />
+      <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Preference/SetXsrfPathsResponse" name="SetXsrfPathsResponse" message="tns:SetXsrfPathsResponse" />
+    </wsdl:operation>
     <wsdl:operation name="GetPreferenceDescription">
       <wsdl:documentation>
         <summary>Gets a PreferenceDescription object..</summary>
@@ -2062,6 +2167,38 @@ title: Services88.PreferenceAgent WSDL
         <soap:body use="literal" />
       </wsdl:output>
     </wsdl:operation>
+    <wsdl:operation name="GetXsrfPaths">
+      <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/Preference/GetXsrfPaths" style="document" />
+      <wsdl:input name="GetXsrfPathsRequest">
+        <soap:header message="tns:GetXsrfPathsRequest_Headers" part="ApplicationToken" use="literal" />
+        <soap:header message="tns:GetXsrfPathsRequest_Headers" part="Credentials" use="literal" />
+        <soap:header message="tns:GetXsrfPathsRequest_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="GetXsrfPathsResponse">
+        <soap:header message="tns:GetXsrfPathsResponse_Headers" part="ExceptionInfo" use="literal" />
+        <soap:header message="tns:GetXsrfPathsResponse_Headers" part="ExtraInfo" use="literal" />
+        <soap:header message="tns:GetXsrfPathsResponse_Headers" part="Succeeded" use="literal" />
+        <soap:header message="tns:GetXsrfPathsResponse_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SetXsrfPaths">
+      <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/Preference/SetXsrfPaths" style="document" />
+      <wsdl:input name="SetXsrfPathsRequest">
+        <soap:header message="tns:SetXsrfPathsRequest_Headers" part="ApplicationToken" use="literal" />
+        <soap:header message="tns:SetXsrfPathsRequest_Headers" part="Credentials" use="literal" />
+        <soap:header message="tns:SetXsrfPathsRequest_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="SetXsrfPathsResponse">
+        <soap:header message="tns:SetXsrfPathsResponse_Headers" part="ExceptionInfo" use="literal" />
+        <soap:header message="tns:SetXsrfPathsResponse_Headers" part="ExtraInfo" use="literal" />
+        <soap:header message="tns:SetXsrfPathsResponse_Headers" part="Succeeded" use="literal" />
+        <soap:header message="tns:SetXsrfPathsResponse_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
     <wsdl:operation name="GetPreferenceDescription">
       <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/Preference/GetPreferenceDescription" style="document" />
       <wsdl:input name="GetPreferenceDescriptionRequest">
@@ -2374,3 +2511,4 @@ title: Services88.PreferenceAgent WSDL
   </wsdl:service>
 </wsdl:definitions>
 ```
+

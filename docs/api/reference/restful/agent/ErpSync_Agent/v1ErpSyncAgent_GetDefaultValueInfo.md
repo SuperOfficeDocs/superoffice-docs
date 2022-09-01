@@ -1,6 +1,6 @@
 ---
 title: POST Agents/ErpSync/GetDefaultValueInfo
-id: v1ErpSyncAgent_GetDefaultValueInfo
+uid: v1ErpSyncAgent_GetDefaultValueInfo
 ---
 
 # POST Agents/ErpSync/GetDefaultValueInfo
@@ -11,7 +11,15 @@ POST /api/v1/Agents/ErpSync/GetDefaultValueInfo
 
 Get information about default value for an ERP field
 
-## Online Restricted: ## The ErpSync agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for ERP integration apps
+
+
+
+## Online Restricted: ## The ErpSync agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for ERP integration apps.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +30,7 @@ Get information about default value for an ERP field
 ```http
 POST /api/v1/Agents/ErpSync/GetDefaultValueInfo?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,26 +46,24 @@ POST /api/v1/Agents/ErpSync/GetDefaultValueInfo?$select=name,department,category
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-ErpFieldId
+ErpFieldId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | ErpFieldId | int32 |  |
 
-## Response: object
 
-Contains default value information for one ERP field
+## Response: 
 
-Carrier object for ErpSyncDefaultValue.
-Services for the ErpSyncDefaultValue Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IErpSyncAgent">ErpSync Agent</see>.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -73,47 +80,43 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/ErpSync/GetDefaultValueInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpFieldId": 998
+  "ErpFieldId": 267
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpFieldId": 599,
-  "DefaultValue": "accusamus",
+  "ErpFieldId": 38,
+  "DefaultValue": "corrupti",
   "HasFirstSyncDefaultValue": false,
-  "FirstSyncDefaultValue": "libero",
+  "FirstSyncDefaultValue": "et",
   "PromptUser": false,
   "Mandatory": true,
-  "ErpFieldKey": "quas",
+  "ErpFieldKey": "est",
   "FieldType": "Checkbox",
-  "ListName": "Wisoky, Thiel and O'Reilly",
+  "ListName": "Jewess Group",
   "Access": "Mandatory",
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
-      "FieldType": "System.String",
-      "FieldLength": 4
+      "FieldRight": null,
+      "FieldType": "System.Int32",
+      "FieldLength": 600
     }
   }
 }

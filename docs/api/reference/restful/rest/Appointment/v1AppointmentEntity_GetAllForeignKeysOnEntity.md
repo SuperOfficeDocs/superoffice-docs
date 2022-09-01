@@ -1,6 +1,6 @@
 ---
 title: GET Appointment/{id}/ForeignKey
-id: v1AppointmentEntity_GetAllForeignKeysOnEntity
+uid: v1AppointmentEntity_GetAllForeignKeysOnEntity
 ---
 
 # GET Appointment/{id}/ForeignKey
@@ -11,9 +11,16 @@ GET /api/v1/Appointment/{id}/ForeignKey
 
 Foreign keys on the AppointmentEntity.
 
+
+
+
+
+
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | id | int32 | AppointmentEntity id/primary key. **Required** |
+
+
 
 ## Request Headers
 
@@ -28,7 +35,10 @@ Foreign keys on the AppointmentEntity.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
+
 ## Response: object
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -37,21 +47,24 @@ Foreign keys on the AppointmentEntity.
 
 Response body: object
 
-## Sample Request
+
+## Sample request
 
 ```http!
 GET /api/v1/Appointment/{id}/ForeignKey
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "1": "similique",
-  "2": "similique"
+  "1": "ipsam",
+  "2": "voluptatem"
 }
 ```

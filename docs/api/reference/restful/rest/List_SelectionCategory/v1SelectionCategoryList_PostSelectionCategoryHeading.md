@@ -1,6 +1,6 @@
 ---
 title: POST List/SelectionCategory/Headings
-id: v1SelectionCategoryList_PostSelectionCategoryHeading
+uid: v1SelectionCategoryList_PostSelectionCategoryHeading
 ---
 
 # POST List/SelectionCategory/Headings
@@ -11,7 +11,14 @@ POST /api/v1/List/SelectionCategory/Headings
 
 Saves a new heading for the SelectionCategory list.
 
+
 Calls the List agent service SaveHeadingFromListDefinition.
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -27,9 +34,9 @@ Calls the List agent service SaveHeadingFromListDefinition.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: newEntity
+## Request Body: newEntity  
 
-The heading to be added.
+The heading to be added. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -40,18 +47,16 @@ The heading to be added.
 | Rank | int32 | Rank order |
 | UdListDefinitionId | int32 | The id of the list which this heading belongs to |
 
-## Response: object
 
-The heading entity contains generic list item information
+## Response: 
 
-Carrier object for HeadingEntity.
-Services for the HeadingEntity Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IListAgent">List Agent</see>.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -64,48 +69,44 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/List/SelectionCategory/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 540,
-  "Name": "Kuhn, Beier and Harvey",
-  "Tooltip": "est",
+  "HeadingId": 490,
+  "Name": "Waelchi, McKenzie and Funk",
+  "Tooltip": "eaque",
   "Deleted": false,
-  "Rank": 879,
-  "UdListDefinitionId": 693
+  "Rank": 130,
+  "UdListDefinitionId": 506
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 7,
-  "Name": "Marquardt-Howe",
-  "Tooltip": "praesentium",
-  "Deleted": true,
-  "Rank": 108,
-  "UdListDefinitionId": 98,
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": "e-enable innovative interfaces"
-  },
+  "HeadingId": 738,
+  "Name": "Jacobson, Von and Harvey",
+  "Tooltip": "quia",
+  "Deleted": false,
+  "Rank": 181,
+  "UdListDefinitionId": 664,
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
+      "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 162
+      "FieldLength": 924
     }
   }
 }

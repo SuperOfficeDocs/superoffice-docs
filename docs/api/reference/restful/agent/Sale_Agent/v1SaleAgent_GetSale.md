@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Sale/GetSale
-id: v1SaleAgent_GetSale
+uid: v1SaleAgent_GetSale
 ---
 
 # POST Agents/Sale/GetSale
@@ -11,6 +11,12 @@ POST /api/v1/Agents/Sale/GetSale
 
 Gets a Sale object.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -19,9 +25,10 @@ Gets a Sale object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Sale/GetSale?saleId=100
+POST /api/v1/Agents/Sale/GetSale?saleId=819
 POST /api/v1/Agents/Sale/GetSale?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -36,16 +43,16 @@ POST /api/v1/Agents/Sale/GetSale?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response: object
 
-Carrier object for Sale.
-Services for the Sale Carrier is available from the <see cref="T:SuperOffice.CRM.Services.ISaleAgent">Sale Agent</see>.
+## Response: 
+
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -77,57 +84,53 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Sale/GetSale
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactName": "O'Connell, Willms and Barrows",
-  "SaleDate": "2009-04-14T18:28:50.1547813+02:00",
-  "SaleId": 812,
-  "Probability": 809,
-  "Title": "est",
-  "Amount": 492.038,
-  "Currency": "voluptatibus",
-  "ProjectName": "Gottlieb-Grant",
-  "AssociateFullName": "Cyrus Jenkins",
-  "Description": "User-centric human-resource customer loyalty",
+  "ContactName": "Swift LLC",
+  "SaleDate": "2009-10-04T11:10:27.8185276+02:00",
+  "SaleId": 543,
+  "Probability": 764,
+  "Title": "repellendus",
+  "Amount": 5268.254,
+  "Currency": "in",
+  "ProjectName": "Jerde-Becker",
+  "AssociateFullName": "Delpha Boehm",
+  "Description": "Polarised hybrid contingency",
   "Status": "Lost",
-  "WeightedAmount": 15544.64,
-  "ProjectId": 571,
-  "EarningPercent": 18741.32,
-  "Earning": 8706.252,
-  "ContactId": 134,
-  "AssociateId": 504,
-  "PersonId": 314,
-  "SaleTypeId": 456,
-  "SaleTypeName": "Krajcik Inc and Sons",
-  "PersonFullName": "Lucy Ruecker",
+  "WeightedAmount": 23812.131999999998,
+  "ProjectId": 780,
+  "EarningPercent": 4080.468,
+  "Earning": 3939.4379999999996,
+  "ContactId": 318,
+  "AssociateId": 703,
+  "PersonId": 524,
+  "SaleTypeId": 110,
+  "SaleTypeName": "Nienow Inc and Sons",
+  "PersonFullName": "Corine Lang",
   "Completed": "Completed",
-  "ActiveErpLinks": 299,
-  "NextDueDate": "2009-01-19T18:28:50.1547813+01:00",
-  "Number": "1585263",
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "ActiveErpLinks": 525,
+  "NextDueDate": "2021-03-01T11:10:27.8185276+01:00",
+  "Number": "976965",
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
+      "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 87
+      "FieldLength": 744
     }
   }
 }

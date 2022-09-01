@@ -1,6 +1,6 @@
 ---
 title: GET Contact/{id}/Simple
-id: v1ContactEntity_Simple
+uid: v1ContactEntity_Simple
 ---
 
 # GET Contact/{id}/Simple
@@ -11,11 +11,18 @@ GET /api/v1/Contact/{id}/Simple
 
 A simple Contact object.
 
+
 This is a simpler, smaller variation of the full ContactEntity. Calls the Contact agent service GetContact.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | id | int32 | The id of the Contact to return. **Required** |
+
+
 
 ## Request Headers
 
@@ -30,17 +37,17 @@ This is a simpler, smaller variation of the full ContactEntity. Calls the Contac
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response: object
 
-Carrier object for Contact.
-Services for the Contact Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IContactAgent">Contact Agent</see>.
+## Response: 
+
+ContactEntity found.
 
 | Response | Description |
 |----------------|-------------|
 | 200 | ContactEntity found. |
 | 404 | Not Found. |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -69,121 +76,50 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 GET /api/v1/Contact/{id}/Simple
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 ContactEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 631,
-  "Name": "O'Kon LLC",
-  "OrgNr": "871218",
+  "ContactId": 259,
+  "Name": "Kuhlman-Hermiston",
+  "OrgNr": "646405",
   "Department": "",
   "URL": "http://www.example.com/",
-  "City": "consequuntur",
-  "DirectPhone": "773.075.6430 x04646",
-  "AssociateId": 521,
-  "CountryId": 672,
-  "EmailAddress": "laurel.tremblay@murray.com",
-  "Kananame": "culpa",
-  "EmailAddressName": "jeanette_leuschke@jacobi.ca",
+  "City": "repellat",
+  "DirectPhone": "1-652-452-2584 x45784",
+  "AssociateId": 136,
+  "CountryId": 969,
+  "EmailAddress": "jany.shanahan@gutkowskilang.biz",
+  "Kananame": "nihil",
+  "EmailAddressName": "stuart_breitenberg@hageneskoss.uk",
   "URLName": "http://www.example.com/",
-  "AssociateFullName": "Marielle Fadel",
+  "AssociateFullName": "Dianna Powlowski",
   "BusinessName": "Information Technology",
   "CategoryName": "VIP Customer",
   "CountryName": "Sokovia",
-  "Address": {
-    "Wgs84Latitude": 5926.394,
-    "Wgs84Longitude": 30703.798,
-    "LocalizedAddress": [
-      [
-        {
-          "Name": "Pagac-Hermiston",
-          "Value": "qui",
-          "Tooltip": "rerum",
-          "Label": "molestias",
-          "ValueLength": 784,
-          "AddressType": "est",
-          "TableRight": {
-            "Mask": "Delete",
-            "Reason": ""
-          },
-          "FieldProperties": {
-            "fieldName": {
-              "FieldRight": {
-                "Mask": "FULL",
-                "Reason": ""
-              },
-              "FieldType": "System.Int32",
-              "FieldLength": 598
-            }
-          }
-        }
-      ],
-      [
-        {
-          "Name": "Davis Group",
-          "Value": "esse",
-          "Tooltip": "sint",
-          "Label": "a",
-          "ValueLength": 88,
-          "AddressType": "voluptas",
-          "TableRight": {
-            "Mask": "Delete",
-            "Reason": ""
-          },
-          "FieldProperties": {
-            "fieldName": {
-              "FieldRight": {
-                "Mask": "FULL",
-                "Reason": ""
-              },
-              "FieldType": "System.Int32",
-              "FieldLength": 955
-            }
-          }
-        }
-      ]
-    ],
-    "Street": {},
-    "Postal": {},
-    "Formatted": "fuga",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 557
-      }
-    }
-  },
-  "FormattedAddress": "eveniet",
-  "FullName": "Estelle Hartmann",
-  "IsOwnerContact": false,
-  "ActiveErpLinks": 371,
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "Address": null,
+  "FormattedAddress": "dolor",
+  "FullName": "Heather Mills",
+  "IsOwnerContact": true,
+  "ActiveErpLinks": 45,
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
+      "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 228
+      "FieldLength": 992
     }
   }
 }

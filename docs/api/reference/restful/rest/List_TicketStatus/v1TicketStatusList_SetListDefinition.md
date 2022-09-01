@@ -1,6 +1,6 @@
 ---
 title: PUT List/TicketStatus
-id: v1TicketStatusList_SetListDefinition
+uid: v1TicketStatusList_SetListDefinition
 ---
 
 # PUT List/TicketStatus
@@ -10,6 +10,13 @@ PUT /api/v1/List/TicketStatus
 ```
 
 Save the description of TicketStatusEntity list
+
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -25,12 +32,12 @@ Save the description of TicketStatusEntity list
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: listEntity
+## Request Body: listEntity  
 
 The list entity contains information about a specific list
-<br />
+<para />
 Carrier object for ListEntity.
-Services for the ListEntity Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IListAgent">List Agent</see>.
+Services for the ListEntity Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IListAgent">List Agent</see>. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -45,18 +52,16 @@ Services for the ListEntity Carrier is available from the <see cref="T:SuperOffi
 | ListType | string | The type of this list, often indicated by the database name, but not necessarily |
 | InUseByUserDefinedFields | bool | True if this in use by one or more udfields |
 
-## Response: object
 
-The list entity contains information about a specific list
+## Response: 
 
-Carrier object for ListEntity.
-Services for the ListEntity Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IListAgent">List Agent</see>.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -73,7 +78,7 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 PUT /api/v1/List/TicketStatus
@@ -83,46 +88,42 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 265,
-  "Name": "Weissnat Group",
-  "Tooltip": "reprehenderit",
-  "Deleted": true,
-  "Rank": 840,
+  "Id": 419,
+  "Name": "Haley Group",
+  "Tooltip": "esse",
+  "Deleted": false,
+  "Rank": 26,
   "IsCustomList": false,
-  "IsMDOList": true,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "omnis",
-  "InUseByUserDefinedFields": true
+  "ListType": "libero",
+  "InUseByUserDefinedFields": false
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 720,
-  "Name": "Adams, Kuvalis and Abshire",
-  "Tooltip": "ea",
+  "Id": 492,
+  "Name": "Hilpert Group",
+  "Tooltip": "saepe",
   "Deleted": false,
-  "Rank": 115,
-  "IsCustomList": false,
-  "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "repellat",
-  "InUseByUserDefinedFields": true,
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "Rank": 729,
+  "IsCustomList": true,
+  "IsMDOList": true,
+  "UseGroupsAndHeadings": true,
+  "ListType": "consequatur",
+  "InUseByUserDefinedFields": false,
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": "reinvent world-class paradigms"
-      },
+      "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 393
+      "FieldLength": 679
     }
   }
 }

@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Project/GetProjectEventEntity
-id: v1ProjectAgent_GetProjectEventEntity
+uid: v1ProjectAgent_GetProjectEventEntity
 ---
 
 # POST Agents/Project/GetProjectEventEntity
@@ -11,6 +11,12 @@ POST /api/v1/Agents/Project/GetProjectEventEntity
 
 Gets a ProjectEventEntity object.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -19,9 +25,10 @@ Gets a ProjectEventEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Project/GetProjectEventEntity?projectEventEntityId=980
+POST /api/v1/Agents/Project/GetProjectEventEntity?projectEventEntityId=680
 POST /api/v1/Agents/Project/GetProjectEventEntity?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -36,18 +43,16 @@ POST /api/v1/Agents/Project/GetProjectEventEntity?$select=name,department,catego
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response: object
 
-The ProjectEvent Service. The service implements all services working with the ProjectEvent object
+## Response: 
 
-Carrier object for ProjectEventEntity.
-Services for the ProjectEventEntity Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IProjectAgent">Project Agent</see>.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -84,7 +89,7 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Project/GetProjectEventEntity
@@ -93,159 +98,101 @@ Accept: application/json; charset=utf-8
 Accept-Language: sv
 ```
 
+## Sample response
+
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SignOffConfirmationText": "placeat",
-  "SignOffText": "saepe",
-  "SignOnConfirmationText": "rem",
-  "SignOnText": "reiciendis",
-  "EventDate": "2010-10-25T18:28:49.9041378+02:00",
-  "Enabled": true,
-  "CreatedDate": "2016-01-19T18:28:49.9041378+01:00",
+  "SignOffConfirmationText": "autem",
+  "SignOffText": "laboriosam",
+  "SignOnConfirmationText": "voluptatem",
+  "SignOnText": "voluptatibus",
+  "EventDate": "1997-08-12T11:10:27.6094522+02:00",
+  "Enabled": false,
+  "CreatedDate": "2016-12-05T11:10:27.6094522+01:00",
   "SignOff": false,
-  "SignOffTaskEnable": true,
-  "SignOffTaskId": 627,
-  "SignOffTriggersAssign": true,
-  "SignOn": true,
-  "SignOnTaskEnable": true,
-  "SignOnTaskId": 378,
+  "SignOffTaskEnable": false,
+  "SignOffTaskId": 29,
+  "SignOffTriggersAssign": false,
+  "SignOn": false,
+  "SignOnTaskEnable": false,
+  "SignOnTaskId": 677,
   "SignOnTriggersAssign": false,
-  "UpdatedDate": "2013-04-15T18:28:49.9041378+02:00",
-  "CreatedBy": {
-    "AssociateId": 376,
-    "Name": "Ernser-O'Connell",
-    "PersonId": 799,
-    "Rank": 706,
-    "Tooltip": "voluptatibus",
-    "Type": "AnonymousAssociate",
-    "GroupIdx": 340,
-    "FullName": "Susie Jenkins",
-    "FormalName": "Wiza, Kuvalis and Bechtelar",
-    "Deleted": false,
-    "EjUserId": 208,
-    "UserName": "Satterfield, Rosenbaum and Jacobi",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.Int32",
-        "FieldLength": 24
-      }
-    }
-  },
-  "UpdatedBy": {
-    "AssociateId": 462,
-    "Name": "Greenfelder Inc and Sons",
-    "PersonId": 648,
-    "Rank": 429,
-    "Tooltip": "maiores",
-    "Type": "AnonymousAssociate",
-    "GroupIdx": 529,
-    "FullName": "Austyn Stroman",
-    "FormalName": "Lind-Treutel",
-    "Deleted": true,
-    "EjUserId": 732,
-    "UserName": "Cummings LLC",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 889
-      }
-    }
-  },
-  "ProjectId": 172,
-  "Id": 828,
-  "PublishFrom": "2007-03-29T18:28:49.9051439+02:00",
+  "UpdatedDate": "2019-08-19T11:10:27.6094522+02:00",
+  "CreatedBy": null,
+  "UpdatedBy": null,
+  "ProjectId": 956,
+  "Id": 2,
+  "PublishFrom": "2017-03-02T11:10:27.6104532+01:00",
   "PublishType": "External",
-  "PublishTo": "1995-05-27T18:28:49.9051439+02:00",
+  "PublishTo": "1998-01-18T11:10:27.6104532+01:00",
   "VisibleForCategories": [
     {
-      "Id": 644,
-      "Name": "Mohr Group",
-      "ToolTip": "Omnis temporibus quia aut.",
-      "Deleted": true,
-      "Rank": 723,
-      "Type": "sequi",
+      "Id": 250,
+      "Name": "Purdy Group",
+      "ToolTip": "Distinctio minus ut voluptates voluptatem.",
+      "Deleted": false,
+      "Rank": 658,
+      "Type": "est",
       "ChildItems": [
         {},
         {}
       ],
       "IconHint": "natus",
-      "ColorBlock": 426,
-      "ExtraInfo": "neque",
-      "StyleHint": "eos",
-      "FullName": "Rosendo Carter",
-      "TableRight": {},
+      "ColorBlock": 283,
+      "ExtraInfo": "repellendus",
+      "StyleHint": "qui",
+      "FullName": "Hope Lubowitz DVM",
+      "TableRight": null,
       "FieldProperties": {
         "fieldName": {
-          "FieldRight": {
-            "Mask": "FULL",
-            "Reason": ""
-          },
-          "FieldType": "System.String",
-          "FieldLength": 403
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 95
         }
       }
     }
   ],
   "VisibleForPersonInterests": [
     {
-      "Id": 320,
-      "Name": "Kozey LLC",
-      "ToolTip": "Consequatur at.",
+      "Id": 876,
+      "Name": "Franecki-Hammes",
+      "ToolTip": "Ipsam eos rem animi sed deserunt est.",
       "Deleted": false,
-      "Rank": 271,
-      "Type": "amet",
+      "Rank": 649,
+      "Type": "expedita",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "dolor",
-      "ColorBlock": 110,
-      "ExtraInfo": "dolorum",
-      "StyleHint": "ducimus",
-      "FullName": "Jessy Spinka",
-      "TableRight": {},
+      "IconHint": "odio",
+      "ColorBlock": 241,
+      "ExtraInfo": "minima",
+      "StyleHint": "hic",
+      "FullName": "Mr. Leatha Tia Boyle Jr.",
+      "TableRight": null,
       "FieldProperties": {
         "fieldName": {
-          "FieldRight": {
-            "Mask": "FULL",
-            "Reason": ""
-          },
-          "FieldType": "System.String",
-          "FieldLength": 665
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 334
         }
       }
     }
   ],
-  "IsPublished": true,
+  "IsPublished": false,
   "IsVisibleForMembers": false,
   "IsVisibleForCategories": false,
   "IsVisibleForPersonInterests": false,
-  "ProjectEventId": 107,
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "ProjectEventId": 44,
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
+      "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 901
+      "FieldLength": 122
     }
   }
 }

@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "chat_message"
-so.date: 04.12.2022
+so.date: 08.26.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -32,6 +32,7 @@ This table contains messages in a chat session.
 |author|The author of the message.|String(255)|&#x25CF;|
 |created\_by|The user agent who wrote the message. -1 if customer|FK [ejuser](ejuser.md)|&#x25CF;|
 
+
 ![chat_message table relationship diagram](./media/chat_message.png)
 
 [!include[details](./includes/chat-message.md)]
@@ -50,6 +51,7 @@ This table contains messages in a chat session.
 |[chat\_session](chat-session.md)  |This table contains chat sessions. |
 |[ejuser](ejuser.md)  |This table contains entries for the users of the system. |
 
+
 ## Replication Flags
 
 * None
@@ -57,3 +59,4 @@ This table contains messages in a chat session.
 ## Security Flags
 
 * No access control via user's Role.
+

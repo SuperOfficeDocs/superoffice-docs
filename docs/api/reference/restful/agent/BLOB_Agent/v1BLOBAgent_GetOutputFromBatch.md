@@ -1,6 +1,6 @@
 ---
 title: POST Agents/BLOB/GetOutputFromBatch
-id: v1BLOBAgent_GetOutputFromBatch
+uid: v1BLOBAgent_GetOutputFromBatch
 ---
 
 # POST Agents/BLOB/GetOutputFromBatch
@@ -11,6 +11,12 @@ POST /api/v1/Agents/BLOB/GetOutputFromBatch
 
 Get the output of a batchtask as a stream
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Get the output of a batchtask as a stream
 ```http
 POST /api/v1/Agents/BLOB/GetOutputFromBatch?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,39 +42,45 @@ POST /api/v1/Agents/BLOB/GetOutputFromBatch?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-BatchTaskId
+BatchTaskId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | BatchTaskId | int32 |  |
 
-## Response
+
+## Response: byte
+
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: byte
 
-## Sample Request
+
+## Sample request
 
 ```http!
 POST /api/v1/Agents/BLOB/GetOutputFromBatch
 Authorization: Basic dGplMDpUamUw
-Accept: binary/octet-stream
-Accept-Language: fr,de,ru,zh
+Accept: application/json; charset=utf-8
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "BatchTaskId": 781
+  "BatchTaskId": 688
 }
 ```
 
+## Sample response
+
 ```http_
 HTTP/1.1 200 OK
-Content-Type: binary/octet-stream
+Content-Type: application/json; charset=utf-8
 
-GIF89....File contents as raw bytes...
+"GIF89....File contents as raw bytes..."
 ```

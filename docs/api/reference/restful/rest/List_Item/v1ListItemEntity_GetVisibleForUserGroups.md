@@ -1,6 +1,6 @@
 ---
 title: GET List/{id}/Items/{id}/UserGroups
-id: v1ListItemEntity_GetVisibleForUserGroups
+uid: v1ListItemEntity_GetVisibleForUserGroups
 ---
 
 # GET List/{id}/Items/{id}/UserGroups
@@ -11,10 +11,17 @@ GET /api/v1/List/{udListDefinitionId}/Items/{listItemId}/UserGroups
 
 List of User groups that this list item is visible for
 
+
+
+
+
+
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | udListDefinitionId | int32 | The id of the list. Negative numbers indicate TableNumber value instead of UDListDefId. e.g. -64 = category. **Required** |
 | listItemId | int32 | The id of the list item **Required** |
+
+
 
 ## Request Headers
 
@@ -29,7 +36,10 @@ List of User groups that this list item is visible for
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -57,7 +67,7 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 GET /api/v1/List/{udListDefinitionId}/Items/{listItemId}/UserGroups
@@ -66,71 +76,64 @@ Accept: application/json; charset=utf-8
 Accept-Language: en
 ```
 
+## Sample response
+
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 26,
-    "Name": "Kuhn LLC",
-    "ToolTip": "Ipsum et vel qui tempore.",
+    "Id": 781,
+    "Name": "Davis LLC",
+    "ToolTip": "Non quis.",
     "Deleted": true,
-    "Rank": 487,
-    "Type": "quae",
-    "ColorBlock": 324,
-    "IconHint": "quia",
-    "Selected": true,
-    "LastChanged": "2010-01-09T18:25:51.5772946+01:00",
+    "Rank": 54,
+    "Type": "porro",
+    "ColorBlock": 614,
+    "IconHint": "ut",
+    "Selected": false,
+    "LastChanged": "1996-10-29T11:10:53.8871839+01:00",
     "ChildItems": [
       {
-        "Id": 804,
-        "Name": "Hegmann Group",
-        "ToolTip": "Nobis ullam.",
+        "Id": 288,
+        "Name": "Wiegand, Beer and Stanton",
+        "ToolTip": "Hic iusto temporibus sunt sed rerum quia.",
         "Deleted": false,
-        "Rank": 341,
-        "Type": "mollitia",
-        "ColorBlock": 337,
-        "IconHint": "laborum",
-        "Selected": true,
-        "LastChanged": "1999-01-11T18:25:51.5772946+01:00",
+        "Rank": 646,
+        "Type": "sapiente",
+        "ColorBlock": 618,
+        "IconHint": "reprehenderit",
+        "Selected": false,
+        "LastChanged": "2010-11-11T11:10:53.8871839+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quia",
-        "StyleHint": "cupiditate",
+        "ExtraInfo": "recusandae",
+        "StyleHint": "repellendus",
         "Hidden": true,
-        "FullName": "Justina Schulist",
-        "TableRight": {},
+        "FullName": "Miss Name Renner III",
+        "TableRight": null,
         "FieldProperties": {
           "fieldName": {
-            "FieldRight": {
-              "Mask": "FULL",
-              "Reason": ""
-            },
-            "FieldType": "System.String",
-            "FieldLength": 34
+            "FieldRight": null,
+            "FieldType": "System.Int32",
+            "FieldLength": 108
           }
         }
       }
     ],
-    "ExtraInfo": "atque",
-    "StyleHint": "nostrum",
+    "ExtraInfo": "accusantium",
+    "StyleHint": "asperiores",
     "Hidden": true,
-    "FullName": "Leola Berge MD",
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "FullName": "Hope Mills",
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 464
+        "FieldRight": null,
+        "FieldType": "System.Int32",
+        "FieldLength": 237
       }
     }
   }

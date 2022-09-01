@@ -1,6 +1,6 @@
 ---
 title: POST Agents/List/AddHierarchyToPath
-id: v1ListAgent_AddHierarchyToPath
+uid: v1ListAgent_AddHierarchyToPath
 ---
 
 # POST Agents/List/AddHierarchyToPath
@@ -11,6 +11,12 @@ POST /api/v1/Agents/List/AddHierarchyToPath
 
 Add a hierarchy item to a path
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Add a hierarchy item to a path
 ```http
 POST /api/v1/Agents/List/AddHierarchyToPath?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,9 +42,9 @@ POST /api/v1/Agents/List/AddHierarchyToPath?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-Domain, Path, Name
+Domain, Path, Name 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -45,18 +52,16 @@ Domain, Path, Name
 | Path | string |  |
 | Name | string |  |
 
-## Response: object
 
-Folder structures
+## Response: 
 
-Carrier object for HierarchyEntity.
-Services for the HierarchyEntity Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IListAgent">List Agent</see>.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -73,76 +78,69 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/List/AddHierarchyToPath
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
   "Domain": "Dashboards",
-  "Path": "aut",
-  "Name": "Heidenreich-Jacobs"
+  "Path": "a",
+  "Name": "Hermiston-Greenholt"
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 833,
+  "HierarchyId": 553,
   "Domain": "Dashboards",
-  "Name": "Dooley Inc and Sons",
-  "Fullname": "repellat",
-  "ParentId": 323,
+  "Name": "Fisher Group",
+  "Fullname": "non",
+  "ParentId": 117,
   "Children": [
     {
-      "HierarchyId": 150,
+      "HierarchyId": 266,
       "Domain": "Dashboards",
-      "Name": "Weber-Reichert",
-      "Fullname": "quas",
-      "ParentId": 680,
+      "Name": "Ziemann-Hermann",
+      "Fullname": "non",
+      "ParentId": 216,
       "Children": [
         {},
         {}
       ],
-      "Registered": "2014-01-17T18:28:49.3401252+01:00",
-      "RegisteredAssociateId": 330,
-      "Updated": "2019-01-16T18:28:49.3401252+01:00",
-      "UpdatedAssociateId": 217,
-      "TableRight": {},
+      "Registered": "2004-09-13T11:10:27.2264248+02:00",
+      "RegisteredAssociateId": 746,
+      "Updated": "2016-06-15T11:10:27.2264248+02:00",
+      "UpdatedAssociateId": 905,
+      "TableRight": null,
       "FieldProperties": {
         "fieldName": {
-          "FieldRight": {
-            "Mask": "FULL",
-            "Reason": ""
-          },
-          "FieldType": "System.String",
-          "FieldLength": 294
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 264
         }
       }
     }
   ],
-  "Registered": "2020-12-01T18:28:49.3401252+01:00",
-  "RegisteredAssociateId": 137,
-  "Updated": "1995-10-03T18:28:49.3401252+02:00",
-  "UpdatedAssociateId": 836,
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "Registered": "2002-12-07T11:10:27.2264248+01:00",
+  "RegisteredAssociateId": 349,
+  "Updated": "2013-01-06T11:10:27.2264248+01:00",
+  "UpdatedAssociateId": 351,
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
-      "FieldType": "System.String",
-      "FieldLength": 643
+      "FieldRight": null,
+      "FieldType": "System.Int32",
+      "FieldLength": 400
     }
   }
 }

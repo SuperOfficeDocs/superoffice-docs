@@ -1,6 +1,6 @@
 ---
 title: GET DashTheme/{id}
-id: v1DashTheme_GetDashTheme
+uid: v1DashTheme_GetDashTheme
 ---
 
 # GET DashTheme/{id}
@@ -11,11 +11,17 @@ GET /api/v1/DashTheme/{id}
 
 Gets a DashTheme object.
 
+
 Calls the Dash agent service GetDashTheme.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | id | int32 | The id of the DashTheme to return. **Required** |
+
 
 ## Query String Parameters
 
@@ -26,6 +32,7 @@ Calls the Dash agent service GetDashTheme.
 ```http
 GET /api/v1/DashTheme/{id}?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -40,18 +47,17 @@ GET /api/v1/DashTheme/{id}?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response: object
 
-Dashboard theme configuration
+## Response: 
 
-DashTheme entity with API _Links added.
+DashTheme found.
 
 | Response | Description |
 |----------------|-------------|
 | 200 | DashTheme found. |
 | 404 | Not Found. |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -60,11 +66,12 @@ Response body: object
 | Config | string | The JSON clob-formatted config |
 | Rank | int32 | Rank order |
 | Client | string | Name of client(s) this theme is available to |
+| Style | string | Style value - for example 'light' or 'dark' |
 | TableRight |  |  |
 | FieldProperties | object |  |
 | _Links | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 GET /api/v1/DashTheme/{id}
@@ -73,33 +80,30 @@ Accept: application/json; charset=utf-8
 Accept-Language: en
 ```
 
+## Sample response
+
 ```http_
 HTTP/1.1 200 DashTheme found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardThemeId": 803,
-  "Name": "Effertz, Larson and Borer",
-  "Config": "aut",
-  "Rank": 384,
-  "Client": "totam",
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "DashboardThemeId": 757,
+  "Name": "Carter, Kuhlman and Feil",
+  "Config": "consectetur",
+  "Rank": 716,
+  "Client": "repellat",
+  "Style": "iusto",
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
-      "FieldType": "System.String",
-      "FieldLength": 293
+      "FieldRight": null,
+      "FieldType": "System.Int32",
+      "FieldLength": 853
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

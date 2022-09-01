@@ -1,6 +1,6 @@
 ---
 title: POST Agents/List/SetDocumentTemplateStream
-id: v1ListAgent_SetDocumentTemplateStream
+uid: v1ListAgent_SetDocumentTemplateStream
 ---
 
 # POST Agents/List/SetDocumentTemplateStream
@@ -11,7 +11,13 @@ POST /api/v1/Agents/List/SetDocumentTemplateStream
 
 Store a document template from its stream.
 
+
 Since there is a potential for a name conflict (the file name stored by the document entity earlier may prove to be invalid), the (possibly amended) document entity is returned. The client should not assume that any earlier, cached entity information is valid.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +28,7 @@ Since there is a potential for a name conflict (the file name stored by the docu
 ```http
 POST /api/v1/Agents/List/SetDocumentTemplateStream?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,29 +44,27 @@ POST /api/v1/Agents/List/SetDocumentTemplateStream?$select=name,department,categ
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-DocumentTemplateEntity, Stream, LanguageCode, PluginId
+DocumentTemplateEntity, Stream, LanguageCode, PluginId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| DocumentTemplateEntity |  | The template a document is based on is stored in the SO_arc\template folder on the server. This will return the name as displayed in the GUI, and not the physical document name, of the template the document object is based on. <br /> Carrier object for DocumentTemplateEntity. Services for the DocumentTemplateEntity Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IListAgent">List Agent</see>. |
+| DocumentTemplateEntity |  | The template a document is based on is stored in the SO_arc\template folder on the server. This will return the name as displayed in the GUI, and not the physical document name, of the template the document object is based on. <para /> Carrier object for DocumentTemplateEntity. Services for the DocumentTemplateEntity Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IListAgent">List Agent</see>. |
 | Stream | byte |  |
 | LanguageCode | string |  |
 | PluginId | int32 |  |
 
-## Response: object
 
-The template a document is based on is stored in the SO_arc\template folder on the server. This will return the name as displayed in the GUI, and not the physical document name, of the template the document object is based on.
+## Response: 
 
-Carrier object for DocumentTemplateEntity.
-Services for the DocumentTemplateEntity Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IListAgent">List Agent</see>.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -91,7 +96,7 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/List/SetDocumentTemplateStream
@@ -101,81 +106,51 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateEntity": {
-    "DocumentTemplateId": 443,
-    "Name": "Crooks-Bruen",
-    "Tooltip": "quidem",
-    "SaveInDb": 849,
-    "Filename": "ut",
-    "DefaultOref": "praesentium",
-    "RecordType": "Appointment",
-    "Deleted": false,
-    "Direction": "Incoming",
-    "AutoeventId": 985,
-    "IntentId": 334,
-    "IsDefaultPublished": true,
-    "Rank": 574,
-    "LoadTemplateFromPlugin": 102,
-    "MimeType": "necessitatibus",
-    "IsInUseInGuides": true,
-    "DocumentTypeKey": 368,
-    "QuoteDocType": "ConfirmationLines",
-    "PrivacyDocType": "None",
-    "EmailSubject": "roman_harris@tillman.info",
-    "IncludeSignature": false,
-    "ShowCurrents": false,
-    "SenderEmailMode": "UseDefaultSender",
-    "SenderEmailAddress": "carmelo.mccullough@kuvalis.biz",
-    "InvitationDocType": "Cancelled"
-  },
+  "DocumentTemplateEntity": null,
   "Stream": "GIF89....File contents as raw bytes...",
-  "LanguageCode": "voluptatibus",
-  "PluginId": 796
+  "LanguageCode": "quia",
+  "PluginId": 416
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 735,
-  "Name": "Towne-Flatley",
-  "Tooltip": "ullam",
-  "SaveInDb": 907,
-  "Filename": "voluptatem",
-  "DefaultOref": "quod",
+  "DocumentTemplateId": 977,
+  "Name": "Daniel LLC",
+  "Tooltip": "enim",
+  "SaveInDb": 215,
+  "Filename": "et",
+  "DefaultOref": "praesentium",
   "RecordType": "Appointment",
   "Deleted": false,
   "Direction": "Incoming",
-  "AutoeventId": 89,
-  "IntentId": 225,
+  "AutoeventId": 292,
+  "IntentId": 791,
   "IsDefaultPublished": true,
-  "Rank": 592,
-  "LoadTemplateFromPlugin": 167,
-  "MimeType": "in",
+  "Rank": 983,
+  "LoadTemplateFromPlugin": 696,
+  "MimeType": "id",
   "IsInUseInGuides": true,
-  "DocumentTypeKey": 52,
+  "DocumentTypeKey": 631,
   "QuoteDocType": "ConfirmationLines",
   "PrivacyDocType": "None",
-  "EmailSubject": "jaylin@fisherhirthe.biz",
-  "IncludeSignature": false,
+  "EmailSubject": "cortney@lehner.uk",
+  "IncludeSignature": true,
   "ShowCurrents": false,
   "SenderEmailMode": "UseDefaultSender",
-  "SenderEmailAddress": "joanne.emard@harberoberbrunner.uk",
+  "SenderEmailAddress": "kathleen@heller.uk",
   "InvitationDocType": "Cancelled",
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
+      "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 605
+      "FieldLength": 970
     }
   }
 }

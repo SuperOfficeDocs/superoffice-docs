@@ -1,6 +1,6 @@
 ---
 title: POST Agents/EMail/GetNewMail
-id: v1EMailAgent_GetNewMail
+uid: v1EMailAgent_GetNewMail
 ---
 
 # POST Agents/EMail/GetNewMail
@@ -11,7 +11,15 @@ POST /api/v1/Agents/EMail/GetNewMail
 
 Get new email in folder(s) for current associate
 
-## Online Restricted: ## The EMail agent is not available in Online by default. Access must be requested specifically when app is registered
+
+
+
+## Online Restricted: ## The EMail agent is not available in Online by default. Access must be requested specifically when app is registered.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +30,7 @@ Get new email in folder(s) for current associate
 ```http
 POST /api/v1/Agents/EMail/GetNewMail?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,15 +46,18 @@ POST /api/v1/Agents/EMail/GetNewMail?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-Folders
+Folders 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | Folders | array |  |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -68,22 +80,24 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/EMail/GetNewMail
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "Folders": [
-    728,
-    562
+    328,
+    136
   ]
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -91,98 +105,45 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ServerId": 999,
-    "MessageId": "reprehenderit",
-    "Subject": "adipisci",
-    "From": {
-      "ContactId": 121,
-      "ContactName": "Schowalter-Cassin",
-      "PersonId": 2,
-      "PersonName": "Barrows LLC",
-      "AssociateId": 719,
-      "Address": "autem",
-      "EmailId": 245,
-      "DuplicatePersonIds": [
-        557,
-        825
-      ],
-      "Name": "Metz Inc and Sons",
-      "TableRight": {},
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": {
-            "Mask": "FULL",
-            "Reason": ""
-          },
-          "FieldType": "System.Int32",
-          "FieldLength": 126
-        }
-      }
-    },
+    "ServerId": 907,
+    "MessageId": "itaque",
+    "Subject": "sunt",
+    "From": null,
     "To": [
       {
-        "ContactId": 810,
-        "ContactName": "White Group",
-        "PersonId": 412,
-        "PersonName": "Dickinson Inc and Sons",
-        "AssociateId": 262,
-        "Address": "blanditiis",
-        "EmailId": 411,
+        "ContactId": 62,
+        "ContactName": "Aufderhar-Kuhlman",
+        "PersonId": 77,
+        "PersonName": "Larson-Kling",
+        "AssociateId": 507,
+        "Address": "error",
+        "EmailId": 7,
         "DuplicatePersonIds": [
-          938,
-          791
+          459,
+          449
         ],
-        "Name": "Towne Inc and Sons",
-        "TableRight": {},
+        "Name": "Padberg, Rippin and Simonis",
+        "TableRight": null,
         "FieldProperties": {
           "fieldName": {
-            "FieldRight": {
-              "Mask": "FULL",
-              "Reason": ""
-            },
+            "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 701
+            "FieldLength": 882
           }
         }
       }
     ],
-    "Sent": "1997-01-28T18:28:48.9819509+01:00",
+    "Sent": "2009-10-07T11:10:26.8534226+02:00",
     "Priority": "High",
     "Flags": "Answered",
-    "Size": 218,
-    "EMailSOInfo": {
-      "DocumentId": 222,
-      "AppointmentId": 920,
-      "ProjectId": 419,
-      "SaleId": 814,
-      "Archived": false,
-      "ArchivedAt": "2015-11-30T18:28:48.9819509+01:00",
-      "ArchivedBy": 506,
-      "ArchivedDisplayName": "Bernhard, Hagenes and Hudson",
-      "TableRight": {},
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": {
-            "Mask": "FULL",
-            "Reason": ""
-          },
-          "FieldType": "System.String",
-          "FieldLength": 929
-        }
-      }
-    },
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "Size": 468,
+    "EMailSOInfo": null,
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
+        "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 835
+        "FieldLength": 740
       }
     }
   }

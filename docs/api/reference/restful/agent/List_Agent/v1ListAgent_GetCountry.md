@@ -1,6 +1,6 @@
 ---
 title: POST Agents/List/GetCountry
-id: v1ListAgent_GetCountry
+uid: v1ListAgent_GetCountry
 ---
 
 # POST Agents/List/GetCountry
@@ -11,6 +11,12 @@ POST /api/v1/Agents/List/GetCountry
 
 Gets a Country object.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -19,9 +25,10 @@ Gets a Country object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetCountry?countryId=378
+POST /api/v1/Agents/List/GetCountry?countryId=666
 POST /api/v1/Agents/List/GetCountry?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -36,16 +43,16 @@ POST /api/v1/Agents/List/GetCountry?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response: object
 
-Carrier object for Country.
-Services for the Country Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IListAgent">List Agent</see>.
+## Response: 
+
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -70,50 +77,46 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/List/GetCountry
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CountryId": 193,
-  "Name": "Cassin-Kertzmann",
-  "CurrencyId": 831,
-  "EnglishName": "Wolff Group",
+  "CountryId": 306,
+  "Name": "Ankunding Inc and Sons",
+  "CurrencyId": 997,
+  "EnglishName": "Osinski-Schiller",
   "TwoLetterISOCountry": "Sokovia",
   "ThreeLetterISOCountry": "Sokovia",
-  "ImageDescription": "Face to face human-resource standardization",
-  "OrgNrText": "712957",
-  "InterAreaPrefix": "aliquid",
-  "DialInPrefix": "voluptatibus",
-  "ZipPrefix": "iste",
-  "DomainName": "Ankunding LLC",
-  "AddressLayoutId": 648,
-  "DomesticAddressLayoutId": 844,
-  "ForeignAddressLayoutId": 265,
-  "Rank": 315,
-  "Tooltip": "nihil",
-  "Deleted": true,
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "ImageDescription": "Distributed web-enabled artificial intelligence",
+  "OrgNrText": "817830",
+  "InterAreaPrefix": "omnis",
+  "DialInPrefix": "blanditiis",
+  "ZipPrefix": "in",
+  "DomainName": "Gislason-Jakubowski",
+  "AddressLayoutId": 747,
+  "DomesticAddressLayoutId": 30,
+  "ForeignAddressLayoutId": 445,
+  "Rank": 943,
+  "Tooltip": "error",
+  "Deleted": false,
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
+      "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 929
+      "FieldLength": 663
     }
   }
 }

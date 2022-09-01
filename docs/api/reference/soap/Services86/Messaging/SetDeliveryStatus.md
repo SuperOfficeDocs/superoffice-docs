@@ -12,12 +12,14 @@ Implemented by the <see cref="M:SuperOffice.Services86.IMessagingAgent.SetDelive
 ## SetDeliveryStatus
 
 Set or change the delivery status on an outgoing messsage.
-<br />**Online Restricted:** The Messaging agent is not available in Online by default. Access must be requested specifically when app is registered.
+<para /><b>Online Restricted:</b> The Messaging agent is not available in Online by default. Access must be requested specifically when app is registered.
 
 * **plugin:** Name of plugin
 * **externalMessageId:** External message id known to plugin.
 * **status:** Delivery status
 * **statusDescription:** String describing delivery status.
+
+
 
 [WSDL file for Services86/Messaging](../Services86-Messaging.md)
 
@@ -54,6 +56,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## SetDeliveryStatus Response
 
 ```xml
@@ -73,3 +76,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

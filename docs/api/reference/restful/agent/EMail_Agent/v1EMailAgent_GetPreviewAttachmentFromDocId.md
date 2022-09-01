@@ -1,6 +1,6 @@
 ---
 title: POST Agents/EMail/GetPreviewAttachmentFromDocId
-id: v1EMailAgent_GetPreviewAttachmentFromDocId
+uid: v1EMailAgent_GetPreviewAttachmentFromDocId
 ---
 
 # POST Agents/EMail/GetPreviewAttachmentFromDocId
@@ -11,9 +11,16 @@ POST /api/v1/Agents/EMail/GetPreviewAttachmentFromDocId
 
 Retrieve an attachment from an e-mail stored in the document archive.
 
+
 The returned data is intended to be use for a preview.
 
-## Online Restricted: ## The EMail agent is not available in Online by default. Access must be requested specifically when app is registered
+
+## Online Restricted: ## The EMail agent is not available in Online by default. Access must be requested specifically when app is registered.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -24,6 +31,7 @@ The returned data is intended to be use for a preview.
 ```http
 POST /api/v1/Agents/EMail/GetPreviewAttachmentFromDocId?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -39,27 +47,25 @@ POST /api/v1/Agents/EMail/GetPreviewAttachmentFromDocId?$select=name,department,
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-DocId, AttachmentId
+DocId, AttachmentId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | DocId | int32 |  |
 | AttachmentId | string |  |
 
-## Response: object
 
-Information about an attachment
+## Response: 
 
-Carrier object for EMailAttachment.
-Services for the EMailAttachment Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IEMailAgent">EMail Agent</see>.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -74,7 +80,7 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/EMail/GetPreviewAttachmentFromDocId
@@ -84,36 +90,32 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocId": 72,
-  "AttachmentId": "non"
+  "DocId": 385,
+  "AttachmentId": "qui"
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Enhanced dynamic system engine",
-  "Filename": "vel",
-  "Size": 22,
-  "Type": "accusamus",
-  "Encoding": "autem",
-  "Id": "dolor",
-  "Disposition": "quis",
+  "Description": "Ergonomic dedicated productivity",
+  "Filename": "velit",
+  "Size": 301,
+  "Type": "rerum",
+  "Encoding": "et",
+  "Id": "quod",
+  "Disposition": "voluptatem",
   "Stream": "GIF89....File contents as raw bytes...",
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": "scale distributed infomediaries"
-  },
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
-      "FieldType": "System.String",
-      "FieldLength": 394
+      "FieldRight": null,
+      "FieldType": "System.Int32",
+      "FieldLength": 960
     }
   }
 }

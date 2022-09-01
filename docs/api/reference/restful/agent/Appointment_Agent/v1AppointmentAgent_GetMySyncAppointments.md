@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Appointment/GetMySyncAppointments
-id: v1AppointmentAgent_GetMySyncAppointments
+uid: v1AppointmentAgent_GetMySyncAppointments
 ---
 
 # POST Agents/Appointment/GetMySyncAppointments
@@ -11,7 +11,13 @@ POST /api/v1/Agents/Appointment/GetMySyncAppointments
 
 Method that returns a specified number of appointments within a time range.
 
+
 The appointments belong to the currently logged on user.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +28,7 @@ The appointments belong to the currently logged on user.
 ```http
 POST /api/v1/Agents/Appointment/GetMySyncAppointments?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,16 +44,19 @@ POST /api/v1/Agents/Appointment/GetMySyncAppointments?$select=name,department,ca
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-StartTime, EndTime
+StartTime, EndTime 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | StartTime | date-time |  |
 | EndTime | date-time |  |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -85,20 +95,22 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Appointment/GetMySyncAppointments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "StartTime": "2010-08-01T18:28:47.746844+02:00",
-  "EndTime": "2015-03-21T18:28:47.746844+01:00"
+  "StartTime": "2010-02-13T11:10:25.4725221+01:00",
+  "EndTime": "2002-04-23T11:10:25.4725221+02:00"
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -106,72 +118,72 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AlarmTime": "2015-03-02T18:28:47.7498176+01:00",
-    "AppointmentId": 968,
-    "AppointmentText": "aut",
+    "AlarmTime": "2010-10-14T11:10:25.475523+02:00",
+    "AppointmentId": 696,
+    "AppointmentText": "autem",
     "ContactDepartment": "",
-    "ContactFullName": "Anya Lebsack",
-    "ContactName": "Friesen-Olson",
-    "ContactId": 786,
-    "EndDate": "2014-10-10T18:28:47.7498176+02:00",
+    "ContactFullName": "Miss Mabel Wisoky",
+    "ContactName": "Wyman Inc and Sons",
+    "ContactId": 544,
+    "EndDate": "2020-11-10T11:10:25.475523+01:00",
     "HasAlarm": false,
-    "IsAllDay": true,
+    "IsAllDay": false,
     "IsAssignment": false,
     "IsBusy": true,
     "IsCompleted": false,
     "IsInvitation": false,
     "IsTentative": false,
-    "Location": "nihil",
+    "Location": "dolore",
     "Participants": [
       {
-        "PersonId": 338,
-        "PersonFirstName": "Becker-Turner",
-        "PersonMiddleName": "Robel-Wyman",
-        "PersonLastname": "Zemlak",
-        "PersonMrmrs": "explicabo",
-        "PersonTitle": "sapiente",
-        "PersonPosition": "facere",
-        "PersonAcademicTitle": "maiores",
-        "PersonFormalName": "Beahan-Rogahn",
-        "PersonFullName": "Gillian Von",
-        "ContactId": 38,
-        "ContactName": "Hand, Green and Hagenes",
+        "PersonId": 987,
+        "PersonFirstName": "Sauer, Friesen and Kihn",
+        "PersonMiddleName": "Friesen-Effertz",
+        "PersonLastname": "Hahn",
+        "PersonMrmrs": "dignissimos",
+        "PersonTitle": "enim",
+        "PersonPosition": "nihil",
+        "PersonAcademicTitle": "nesciunt",
+        "PersonFormalName": "Bauch-Stiedemann",
+        "PersonFullName": "Mr. Itzel Asa Schmidt III",
+        "ContactId": 134,
+        "ContactName": "Beer, Yundt and Nitzsche",
         "ContactDepartment": "",
         "ContactBusiness": "Information Technology",
         "ContactCountry": "Sokovia",
         "ContactCategory": "VIP Customer",
-        "ContactFullName": "Tobin Breitenberg",
+        "ContactFullName": "Duncan Streich",
         "EMail": [
-          "neque",
-          "et"
+          "cumque",
+          "molestias"
         ],
         "PhonePrivate": [
-          "072.244.7542",
-          "1-324-240-6234"
+          "1-318-244-4415 x110",
+          "1-859-754-0646"
         ],
         "PhoneFax": [
-          "(523)863-8570",
-          "1-385-732-8044"
+          "(733)486-4775 x598",
+          "(710)352-2748"
         ],
         "PhoneMobile": [
-          "886-755-5321",
-          "1-820-856-4584 x2284"
+          "863.940.6426 x2655",
+          "368.981.7182 x08553"
         ],
         "PhoneDirect": [
-          "(654)330-5424 x1773",
-          "378.583.7451 x58445"
+          "1-537-926-7180 x732",
+          "532.118.4898 x663"
         ],
         "PhoneContact": [
-          "728-788-7762 x6634",
-          "1-518-143-2438 x18271"
+          "1-416-885-5385 x7391",
+          "1-617-856-6695"
         ],
         "Messenger": [
-          "doloremque",
-          "saepe"
+          "iste",
+          "ut"
         ],
         "Voip": [
-          "occaecati",
-          "qui"
+          "quia",
+          "numquam"
         ],
         "ContactUrl": [
           "http://www.example.com/",
@@ -181,46 +193,37 @@ Content-Type: application/json; charset=utf-8
           "http://www.example.com/",
           "http://www.example.com/"
         ],
-        "StreetAddress": {},
-        "PostalAddress": {},
+        "StreetAddress": null,
+        "PostalAddress": null,
         "Country": "Sokovia",
-        "PersonAddress": {},
+        "PersonAddress": null,
         "PersonCountry": "Sokovia",
         "ParticipantStatus": "Assignment",
-        "TableRight": {},
+        "TableRight": null,
         "FieldProperties": {
           "fieldName": {
-            "FieldRight": {
-              "Mask": "FULL",
-              "Reason": ""
-            },
-            "FieldType": "System.Int32",
-            "FieldLength": 982
+            "FieldRight": null,
+            "FieldType": "System.String",
+            "FieldLength": 541
           }
         }
       }
     ],
-    "PersonFormalName": "Mohr-Beier",
-    "PersonFullName": "Berenice Fisher DVM",
-    "PersonId": 741,
-    "ProjectId": 582,
-    "ProjectName": "Breitenberg-Gerlach",
-    "SaleId": 589,
-    "SaleName": "Lindgren, Turcotte and Streich",
-    "StartDate": "1995-02-15T18:28:47.7508443+01:00",
-    "TaskName": "Abernathy-Lynch",
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "PersonFormalName": "McClure Inc and Sons",
+    "PersonFullName": "Rodger Schultz",
+    "PersonId": 643,
+    "ProjectId": 275,
+    "ProjectName": "O'Kon, Cremin and Sawayn",
+    "SaleId": 325,
+    "SaleName": "Von Group",
+    "StartDate": "2006-06-06T11:10:25.4775225+02:00",
+    "TaskName": "Roob LLC",
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.Int32",
-        "FieldLength": 401
+        "FieldRight": null,
+        "FieldType": "System.String",
+        "FieldLength": 27
       }
     }
   }

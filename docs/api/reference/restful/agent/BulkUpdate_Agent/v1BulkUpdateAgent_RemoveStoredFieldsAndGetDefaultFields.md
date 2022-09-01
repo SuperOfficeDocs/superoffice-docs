@@ -1,6 +1,6 @@
 ---
 title: POST Agents/BulkUpdate/RemoveStoredFieldsAndGetDefaultFields
-id: v1BulkUpdateAgent_RemoveStoredFieldsAndGetDefaultFields
+uid: v1BulkUpdateAgent_RemoveStoredFieldsAndGetDefaultFields
 ---
 
 # POST Agents/BulkUpdate/RemoveStoredFieldsAndGetDefaultFields
@@ -11,6 +11,12 @@ POST /api/v1/Agents/BulkUpdate/RemoveStoredFieldsAndGetDefaultFields
 
 Remove the stored settings of the bulk update for this table from this context, to get the default settings instead
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Remove the stored settings of the bulk update for this table from this context, 
 ```http
 POST /api/v1/Agents/BulkUpdate/RemoveStoredFieldsAndGetDefaultFields?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,16 +42,19 @@ POST /api/v1/Agents/BulkUpdate/RemoveStoredFieldsAndGetDefaultFields?$select=nam
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-TableName, Context
+TableName, Context 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | TableName | string |  |
 | Context | string |  |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -72,20 +82,22 @@ Response body: array
 | DisplayValues | array | The displayvalues to be set on this field on this bulkupdate, used to resolve when values array contains ids |
 | OperationInfos | array | Array of the available operations for this field |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/BulkUpdate/RemoveStoredFieldsAndGetDefaultFields
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Batz, Lemke and Muller",
-  "Context": "rerum"
+  "TableName": "King-Moen",
+  "Context": "quibusdam"
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -94,84 +106,75 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "CanSupportMultiUse": false,
-    "DefaultShowInGui": true,
+    "DefaultShowInGui": false,
     "DefaultShowInSelector": false,
     "IsActive": true,
-    "Key": "explicabo",
-    "ValueType": "culpa",
-    "Mandatory": false,
-    "EncodedDisplayName": "Labadie-Bernhard",
-    "EncodedDisplayDescription": "Re-contextualized interactive customer loyalty",
-    "IconHint": "iste",
+    "Key": "sed",
+    "ValueType": "maiores",
+    "Mandatory": true,
+    "EncodedDisplayName": "Howell, Schroeder and Blanda",
+    "EncodedDisplayDescription": "User-friendly full-range attitude",
+    "IconHint": "necessitatibus",
     "ControlInfos": [
       {
-        "Type": "rerum",
-        "Label": "animi",
-        "Dimension": 50,
-        "ListProviderName": "Kiehn, Gutkowski and Gorczany",
-        "ListProviderExtraInfo": "totam",
-        "ListProviderPrimaryKeyName": "Jewess, Abernathy and Ratke",
-        "ListLeadText": "velit",
-        "TableRight": {},
+        "Type": "atque",
+        "Label": "voluptatum",
+        "Dimension": 149,
+        "ListProviderName": "Turcotte Inc and Sons",
+        "ListProviderExtraInfo": "quae",
+        "ListProviderPrimaryKeyName": "Krajcik-Lemke",
+        "ListLeadText": "ut",
+        "TableRight": null,
         "FieldProperties": {
           "fieldName": {
-            "FieldRight": {
-              "Mask": "FULL",
-              "Reason": ""
-            },
-            "FieldType": "System.String",
-            "FieldLength": 432
+            "FieldRight": null,
+            "FieldType": "System.Int32",
+            "FieldLength": 124
           }
         }
       }
     ],
-    "EncodedDataCaption": "consequuntur",
-    "EncodedDataCaptionDescription": "Proactive full-range hub",
-    "CurrentOperationType": "perferendis",
+    "EncodedDataCaption": "voluptatum",
+    "EncodedDataCaptionDescription": "Front-line web-enabled analyzer",
+    "CurrentOperationType": "et",
     "Values": [
-      "quos",
-      "ut"
+      "eaque",
+      "qui"
     ],
     "DisplayValues": [
-      "vel",
-      "consequatur"
+      "totam",
+      "sit"
     ],
     "OperationInfos": [
       {
-        "Key": "et",
-        "EncodedDisplayName": "Mills-Jacobs",
+        "Key": "autem",
+        "EncodedDisplayName": "Kiehn-Hane",
         "EncodedLeadTexts": [
-          "illum",
-          "eos"
+          "fugit",
+          "dolorem"
         ],
-        "TableRight": {},
+        "TableRight": null,
         "FieldProperties": {
           "fieldName": {
-            "FieldRight": {
-              "Mask": "FULL",
-              "Reason": ""
-            },
+            "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 794
+            "FieldLength": 863
           }
         }
       },
       {
-        "Key": "et",
-        "EncodedDisplayName": "Mills-Jacobs",
+        "Key": "autem",
+        "EncodedDisplayName": "Kiehn-Hane",
         "EncodedLeadTexts": [
-          "illum",
-          "eos"
+          "fugit",
+          "dolorem"
         ],
-        "TableRight": {},
+        "TableRight": null,
         "FieldProperties": {
           "fieldName": {
-            "FieldRight": {
-              "Mask": "FULL",
-              "Reason": ""
-            },
+            "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 794
+            "FieldLength": 863
           }
         }
       }

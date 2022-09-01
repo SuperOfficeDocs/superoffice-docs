@@ -1,6 +1,6 @@
 ---
 title: POST Agents/List/GetListItemsForHeadingFromListName
-id: v1ListAgent_GetListItemsForHeadingFromListName
+uid: v1ListAgent_GetListItemsForHeadingFromListName
 ---
 
 # POST Agents/List/GetListItemsForHeadingFromListName
@@ -11,6 +11,12 @@ POST /api/v1/Agents/List/GetListItemsForHeadingFromListName
 
 List of list items that is selected if under this heading
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ List of list items that is selected if under this heading
 ```http
 POST /api/v1/Agents/List/GetListItemsForHeadingFromListName?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,16 +42,19 @@ POST /api/v1/Agents/List/GetListItemsForHeadingFromListName?$select=name,departm
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-UdListDefinitionName, HeadingId
+UdListDefinitionName, HeadingId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | UdListDefinitionName | string |  |
 | HeadingId | int32 |  |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -72,20 +82,22 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/List/GetListItemsForHeadingFromListName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionName": "Boyle Group",
-  "HeadingId": 896
+  "UdListDefinitionName": "Weimann Group",
+  "HeadingId": 240
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -93,65 +105,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 173,
-    "Name": "Bashirian, Schumm and Tromp",
-    "ToolTip": "Sunt enim.",
-    "Deleted": true,
-    "Rank": 318,
-    "Type": "placeat",
-    "ColorBlock": 517,
-    "IconHint": "est",
+    "Id": 234,
+    "Name": "Tillman-Upton",
+    "ToolTip": "Vero in quidem ex repellat nisi.",
+    "Deleted": false,
+    "Rank": 254,
+    "Type": "delectus",
+    "ColorBlock": 898,
+    "IconHint": "quod",
     "Selected": false,
-    "LastChanged": "2006-05-26T18:28:49.3281227+02:00",
+    "LastChanged": "2001-03-28T11:10:27.1864525+02:00",
     "ChildItems": [
       {
-        "Id": 4,
-        "Name": "Kemmer LLC",
-        "ToolTip": "Expedita sint cum qui magni quis.",
-        "Deleted": false,
-        "Rank": 772,
-        "Type": "veniam",
-        "ColorBlock": 900,
-        "IconHint": "ut",
+        "Id": 499,
+        "Name": "Sanford, Rosenbaum and Dickinson",
+        "ToolTip": "Facere cumque.",
+        "Deleted": true,
+        "Rank": 664,
+        "Type": "nostrum",
+        "ColorBlock": 543,
+        "IconHint": "eius",
         "Selected": false,
-        "LastChanged": "1994-09-26T18:28:49.3281227+02:00",
+        "LastChanged": "2017-04-19T11:10:27.1864525+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "laboriosam",
-        "StyleHint": "ab",
-        "Hidden": true,
-        "FullName": "Lucile Balistreri",
-        "TableRight": {},
+        "ExtraInfo": "ipsum",
+        "StyleHint": "totam",
+        "Hidden": false,
+        "FullName": "Eryn Zulauf V",
+        "TableRight": null,
         "FieldProperties": {
           "fieldName": {
-            "FieldRight": {
-              "Mask": "FULL",
-              "Reason": ""
-            },
-            "FieldType": "System.Int32",
-            "FieldLength": 693
+            "FieldRight": null,
+            "FieldType": "System.String",
+            "FieldLength": 863
           }
         }
       }
     ],
-    "ExtraInfo": "pariatur",
-    "StyleHint": "corporis",
-    "Hidden": true,
-    "FullName": "Ivy Daugherty",
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": "deploy rich channels"
-    },
+    "ExtraInfo": "itaque",
+    "StyleHint": "neque",
+    "Hidden": false,
+    "FullName": "Serenity Howe",
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.Int32",
-        "FieldLength": 334
+        "FieldRight": null,
+        "FieldType": "System.String",
+        "FieldLength": 838
       }
     }
   }

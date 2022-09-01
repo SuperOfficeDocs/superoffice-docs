@@ -8,7 +8,7 @@ keywords:
   - "archive provider"
   - "Numbers"
 so.generated: true
-so.date: 03.23.2021
+so.date: 08.26.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -22,23 +22,23 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 Archive provider for the list of userpreferences
 
 Blah...
-
+<para />
 blah....
-
+<para />
 ...
-
+<para />
 ........
 
 ## Supported Entities
 
 | Name | Description |
-| ---- | ----- |
+| ---- | ----------- |
 |"number"|[number]|
 
 ## Supported Columns
 
-| Name | Restriction | Description | OrderBy
-| ---- | ----- | ------- | ------ |
+| Name | Restriction | Description | OrderBy |
+| ---- | ----------- | ----------- | ------- |
 |getAllRows|bool|GetAll: Get all rows of archive - use with care, you may be fetching the whole database|  |
 |getNoRows|bool|GetNone: Do not get any rows from the archive|  |
 |RefCounts\_id|int|ID: Primary key of counter| x |
@@ -56,6 +56,7 @@ blah....
 |name|string|Counter: Counter name| x |
 |updated|date|Last used: Last update time| x |
 |nextnum|int|Next: Next number| x |
+|field|string|Field: Field Tooltip|  |
 |updated\_associate/firstName|string|By - First name: Displays the contact's first name| x |
 |updated\_associate/lastName|string|By - Last name: Displays the contact's last name| x |
 |updated\_associate/middleName|string|By - Middle Name: Displays the contact's middle name.| x |
@@ -90,11 +91,14 @@ blah....
 ## Sample
 
 ```http!
-GET /api/v1/archive/Numbers?$select=updated,updated_associate/mrMrs
+GET /api/v1/archive/Numbers?$select=nextnum,updated_associate/mrMrs
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv
 
 ```
 
-See also: <see cref="T:SuperOffice.CRM.Services.IArchiveAgent">IArchiveAgent</see>.
+
+
+See also: <see cref="T:SuperOffice.CRM.Services.IArchiveAgent">IArchiveAgent</see>.</p>
+

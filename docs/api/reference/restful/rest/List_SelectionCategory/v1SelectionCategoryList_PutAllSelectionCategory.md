@@ -1,6 +1,6 @@
 ---
 title: PUT List/SelectionCategory/Items
-id: v1SelectionCategoryList_PutAllSelectionCategory
+uid: v1SelectionCategoryList_PutAllSelectionCategory
 ---
 
 # PUT List/SelectionCategory/Items
@@ -10,6 +10,13 @@ PUT /api/v1/List/SelectionCategory/Items
 ```
 
 Update the SelectionCategory list
+
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -25,9 +32,9 @@ Update the SelectionCategory list
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: listItems
+## Request Body: listItems  
 
-All the updated SelectionCategory.
+All the updated SelectionCategory. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -38,7 +45,10 @@ All the updated SelectionCategory.
 | UdListDefinitionId | int32 | The id of the list which this list item belongs to |
 | Rank | int32 | The rank of the list item |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -57,34 +67,36 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 PUT /api/v1/List/SelectionCategory/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 166,
-    "Name": "Greenholt-Haag",
-    "Tooltip": "explicabo",
-    "Deleted": true,
-    "UdListDefinitionId": 111,
-    "Rank": 266
+    "Id": 848,
+    "Name": "Nolan-Satterfield",
+    "Tooltip": "omnis",
+    "Deleted": false,
+    "UdListDefinitionId": 4,
+    "Rank": 877
   },
   {
-    "Id": 166,
-    "Name": "Greenholt-Haag",
-    "Tooltip": "explicabo",
-    "Deleted": true,
-    "UdListDefinitionId": 111,
-    "Rank": 266
+    "Id": 848,
+    "Name": "Nolan-Satterfield",
+    "Tooltip": "omnis",
+    "Deleted": false,
+    "UdListDefinitionId": 4,
+    "Rank": 877
   }
 ]
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -92,24 +104,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 312,
-    "Name": "Harvey LLC",
-    "Tooltip": "voluptas",
+    "Id": 944,
+    "Name": "Gleichner-Lebsack",
+    "Tooltip": "nihil",
     "Deleted": false,
-    "UdListDefinitionId": 721,
-    "Rank": 941,
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "UdListDefinitionId": 117,
+    "Rank": 776,
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 107
+        "FieldRight": null,
+        "FieldType": "System.Int32",
+        "FieldLength": 805
       }
     }
   }

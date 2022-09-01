@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Preference/GetPreferenceDescription
-id: v1PreferenceAgent_GetPreferenceDescription
+uid: v1PreferenceAgent_GetPreferenceDescription
 ---
 
 # POST Agents/Preference/GetPreferenceDescription
@@ -11,6 +11,12 @@ POST /api/v1/Agents/Preference/GetPreferenceDescription
 
 Gets a PreferenceDescription object.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -19,9 +25,10 @@ Gets a PreferenceDescription object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Preference/GetPreferenceDescription?preferenceDescriptionId=694
+POST /api/v1/Agents/Preference/GetPreferenceDescription?preferenceDescriptionId=854
 POST /api/v1/Agents/Preference/GetPreferenceDescription?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -36,18 +43,16 @@ POST /api/v1/Agents/Preference/GetPreferenceDescription?$select=name,department,
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response: object
 
-Preference description, drives the Preference GUI. Maintenance client - controls all preferences in SuperOffice.
+## Response: 
 
-Carrier object for PreferenceDescription.
-Services for the PreferenceDescription Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IPreferenceAgent">Preference Agent</see>.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -72,7 +77,7 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Preference/GetPreferenceDescription
@@ -81,41 +86,37 @@ Accept: application/json; charset=utf-8
 Accept-Language: *
 ```
 
+## Sample response
+
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 610,
-  "Section": "quas",
-  "Key": "dolores",
-  "Name": "Gutkowski-Weimann",
+  "PrefDescId": 684,
+  "Section": "similique",
+  "Key": "numquam",
+  "Name": "Terry, Doyle and Reichel",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Profound transitional capacity",
-  "IsBuiltin": false,
-  "TableName": "Bailey, McGlynn and Emmerich",
-  "UserDefinedListId": 289,
-  "Rank": 149,
-  "SubGroup": "sit",
-  "MinLevel": 849,
-  "MaxValue": 640,
-  "MinValue": 474,
-  "RequiredLicense": "eligendi",
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "Description": "Secured motivating pricing structure",
+  "IsBuiltin": true,
+  "TableName": "Dicki-Ebert",
+  "UserDefinedListId": 129,
+  "Rank": 959,
+  "SubGroup": "fugiat",
+  "MinLevel": 196,
+  "MaxValue": 268,
+  "MinValue": 859,
+  "RequiredLicense": "non",
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
-      "FieldType": "System.String",
-      "FieldLength": 296
+      "FieldRight": null,
+      "FieldType": "System.Int32",
+      "FieldLength": 642
     }
   }
 }

@@ -1,6 +1,6 @@
 ---
 title: POST Agents/ErpSync/BreakActorLink
-id: v1ErpSyncAgent_BreakActorLink
+uid: v1ErpSyncAgent_BreakActorLink
 ---
 
 # POST Agents/ErpSync/BreakActorLink
@@ -11,7 +11,15 @@ POST /api/v1/Agents/ErpSync/BreakActorLink
 
 Remove the link between a CRM entity and an ERP entity
 
-## Online Restricted: ## The ErpSync agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for ERP integration apps
+
+
+
+## Online Restricted: ## The ErpSync agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for ERP integration apps.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +30,7 @@ Remove the link between a CRM entity and an ERP entity
 ```http
 POST /api/v1/Agents/ErpSync/BreakActorLink?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,9 +46,9 @@ POST /api/v1/Agents/ErpSync/BreakActorLink?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-ErpConnectionId, CrmRecordId, CrmActorType
+ErpConnectionId, CrmRecordId, CrmActorType 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -47,7 +56,10 @@ ErpConnectionId, CrmRecordId, CrmActorType
 | CrmRecordId | int32 |  |
 | CrmActorType | string |  |
 
+
 ## Response: bool
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -55,7 +67,8 @@ ErpConnectionId, CrmRecordId, CrmActorType
 
 Response body: bool
 
-## Sample Request
+
+## Sample request
 
 ```http!
 POST /api/v1/Agents/ErpSync/BreakActorLink
@@ -65,15 +78,17 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 930,
-  "CrmRecordId": 941,
+  "ErpConnectionId": 668,
+  "CrmRecordId": 435,
   "CrmActorType": "Contact"
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-true
+false
 ```

@@ -1,6 +1,6 @@
 ---
 title: POST Agents/DatabaseTable/Insert
-id: v1DatabaseTableAgent_Insert
+uid: v1DatabaseTableAgent_Insert
 ---
 
 # POST Agents/DatabaseTable/Insert
@@ -11,9 +11,13 @@ POST /api/v1/Agents/DatabaseTable/Insert
 
 Mass-insert rows, with or without primary keys specified.
 
+
 Works on physical tables with no special processing for udef etc.; traveltransactionlog and WebHooks are supported
 
-## Online Restricted: ## The DatabaseTable agent is not available in Online by default. Access must be requested specifically when app is registered
+
+
+
+
 
 ## Query String Parameters
 
@@ -24,6 +28,7 @@ Works on physical tables with no special processing for udef etc.; traveltransac
 ```http
 POST /api/v1/Agents/DatabaseTable/Insert?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -39,9 +44,9 @@ POST /api/v1/Agents/DatabaseTable/Insert?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-TableName, Columns, Data
+TableName, Columns, Data 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -49,18 +54,16 @@ TableName, Columns, Data
 | Columns | array |  |
 | Data | array |  |
 
-## Response: object
 
-Information about the results of a mass-update operation
+## Response: 
 
-Carrier object for MassOperationResult.
-Services for the MassOperationResult Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IDatabaseTableAgent">DatabaseTable Agent</see>.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -73,20 +76,20 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/DatabaseTable/Insert
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Murray-Hauck",
+  "TableName": "Kutch-Ledner",
   "Columns": [
-    "modi",
-    "sed"
+    "rerum",
+    "asperiores"
   ],
   "Data": [
     [
@@ -99,68 +102,58 @@ Content-Type: application/json; charset=utf-8
 }
 ```
 
+## Sample response
+
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Success": true,
-  "Message": "recusandae",
-  "Inserts": 969,
-  "Updates": 81,
-  "Deletes": 505,
+  "Success": false,
+  "Message": "provident",
+  "Inserts": 983,
+  "Updates": 506,
+  "Deletes": 148,
   "RowStatus": [
     {
-      "PrimaryKey": 127,
+      "PrimaryKey": 869,
       "Action": "ColumnsZeroed",
       "RowKeys": [
-        "odit",
-        "quas"
+        "est",
+        "inventore"
       ],
-      "TableRight": {},
+      "TableRight": null,
       "FieldProperties": {
         "fieldName": {
-          "FieldRight": {
-            "Mask": "FULL",
-            "Reason": ""
-          },
+          "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 627
+          "FieldLength": 723
         }
       }
     },
     {
-      "PrimaryKey": 127,
+      "PrimaryKey": 869,
       "Action": "ColumnsZeroed",
       "RowKeys": [
-        "odit",
-        "quas"
+        "est",
+        "inventore"
       ],
-      "TableRight": {},
+      "TableRight": null,
       "FieldProperties": {
         "fieldName": {
-          "FieldRight": {
-            "Mask": "FULL",
-            "Reason": ""
-          },
+          "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 627
+          "FieldLength": 723
         }
       }
     }
   ],
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": "facilitate web-enabled paradigms"
-  },
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
+      "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 187
+      "FieldLength": 351
     }
   }
 }

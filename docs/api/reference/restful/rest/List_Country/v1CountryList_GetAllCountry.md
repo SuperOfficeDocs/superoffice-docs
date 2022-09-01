@@ -1,6 +1,6 @@
 ---
 title: GET List/Country/Items
-id: v1CountryList_GetAllCountry
+uid: v1CountryList_GetAllCountry
 ---
 
 # GET List/Country/Items
@@ -11,7 +11,13 @@ GET /api/v1/List/Country/Items
 
 Gets a list of all Country list items.
 
+
 Calls the List agent service GetAllCountry.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -20,8 +26,9 @@ Calls the List agent service GetAllCountry.
 | includeDeleted | bool |   |
 
 ```http
-GET /api/v1/List/Country/Items?includeDeleted=False
+GET /api/v1/List/Country/Items?includeDeleted=True
 ```
+
 
 ## Request Headers
 
@@ -36,7 +43,10 @@ GET /api/v1/List/Country/Items?includeDeleted=False
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -67,7 +77,7 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 GET /api/v1/List/Country/Items
@@ -76,42 +86,38 @@ Accept: application/json; charset=utf-8
 Accept-Language: en
 ```
 
+## Sample response
+
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "CountryId": 720,
-    "Name": "Klocko-Jones",
-    "CurrencyId": 11,
-    "EnglishName": "Homenick, Fisher and Tremblay",
+    "CountryId": 397,
+    "Name": "Fisher, Effertz and Larson",
+    "CurrencyId": 200,
+    "EnglishName": "Kertzmann, Crist and Ernser",
     "TwoLetterISOCountry": "Sokovia",
     "ThreeLetterISOCountry": "Sokovia",
-    "ImageDescription": "Optimized tangible benchmark",
-    "OrgNrText": "1462266",
-    "InterAreaPrefix": "quae",
-    "DialInPrefix": "quia",
-    "ZipPrefix": "neque",
-    "DomainName": "Ruecker Inc and Sons",
-    "AddressLayoutId": 545,
-    "DomesticAddressLayoutId": 143,
-    "ForeignAddressLayoutId": 400,
-    "Rank": 421,
-    "Tooltip": "est",
-    "Deleted": true,
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "ImageDescription": "Adaptive reciprocal flexibility",
+    "OrgNrText": "1018546",
+    "InterAreaPrefix": "necessitatibus",
+    "DialInPrefix": "sunt",
+    "ZipPrefix": "doloribus",
+    "DomainName": "Crooks-Paucek",
+    "AddressLayoutId": 850,
+    "DomesticAddressLayoutId": 251,
+    "ForeignAddressLayoutId": 679,
+    "Rank": 657,
+    "Tooltip": "tempora",
+    "Deleted": false,
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
+        "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 823
+        "FieldLength": 984
       }
     }
   }

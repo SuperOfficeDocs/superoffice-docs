@@ -1,6 +1,6 @@
 ---
 title: GET User/{id}/ForeignKey
-id: v1User_GetAllForeignKeysOnEntity
+uid: v1User_GetAllForeignKeysOnEntity
 ---
 
 # GET User/{id}/ForeignKey
@@ -11,9 +11,16 @@ GET /api/v1/User/{id}/ForeignKey
 
 Foreign keys on the User.
 
+
+
+
+
+
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | id | int32 | User id/primary key. **Required** |
+
+
 
 ## Request Headers
 
@@ -28,7 +35,10 @@ Foreign keys on the User.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
+
 ## Response: object
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -37,7 +47,8 @@ Foreign keys on the User.
 
 Response body: object
 
-## Sample Request
+
+## Sample request
 
 ```http!
 GET /api/v1/User/{id}/ForeignKey
@@ -46,12 +57,14 @@ Accept: application/json; charset=utf-8
 Accept-Language: sv
 ```
 
+## Sample response
+
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "1": "maiores",
-  "2": "minus"
+  "1": "odit",
+  "2": "sapiente"
 }
 ```

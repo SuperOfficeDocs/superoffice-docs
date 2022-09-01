@@ -13,7 +13,9 @@ Implemented by the <see cref="M:SuperOffice.Services87.IPreferenceAgent.GetNetSe
 
 Returns URL to status service. e.g. 'https://help.superoffice.com/sodispatcher/v1/status' Returns NULL if status does not need to be checked yet.
 
+
 **Returns:** NULL or URL of the status service that returns an XML or JSON block.
+
 
 [WSDL file for Services87/Preference](../Services87-Preference.md)
 
@@ -46,6 +48,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## GetNetServicesStatusUrl Response
 
 ```xml
@@ -66,3 +69,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

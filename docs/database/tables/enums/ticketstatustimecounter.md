@@ -5,7 +5,7 @@ description: Lists the enum values for TicketStatusTimeCounter.
 so.generated: true
 keywords:
   - "database"
-so.date: 04.12.2022
+so.date: 08.26.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -14,7 +14,7 @@ so.envir:
 
 # TicketStatusTimeCounter Enum
 
-Which field in ticket we count time spent on (queue, internal, external)
+Which field in ticket we count time spent on (queue, internal, external) 
 
 | Name | Value | Description |
 |------|-------|-------------|

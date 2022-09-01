@@ -1,6 +1,6 @@
 ---
 title: GET List/SelectionCategory/Items/{id}/Headings
-id: v1SelectionCategoryList_GetSelectionCategoryHeadingsForListItem
+uid: v1SelectionCategoryList_GetSelectionCategoryHeadingsForListItem
 ---
 
 # GET List/SelectionCategory/Items/{id}/Headings
@@ -11,11 +11,17 @@ GET /api/v1/List/SelectionCategory/Items/{itemId}/Headings
 
 Gets headings for the SelectionCategory list's item.
 
+
 Calls the List agent service GetHeadings.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | itemId | int32 | The ID of the headings to be get. **Required** |
+
 
 ## Query String Parameters
 
@@ -24,8 +30,9 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/SelectionCategory/Items/{itemId}/Headings?showDeleted=True
+GET /api/v1/List/SelectionCategory/Items/{itemId}/Headings?showDeleted=False
 ```
+
 
 ## Request Headers
 
@@ -40,7 +47,10 @@ GET /api/v1/List/SelectionCategory/Items/{itemId}/Headings?showDeleted=True
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -68,14 +78,16 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 GET /api/v1/List/SelectionCategory/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -83,65 +95,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 625,
-    "Name": "Dooley, Sauer and Boyer",
-    "ToolTip": "Id nam.",
+    "Id": 260,
+    "Name": "Runolfsson, Treutel and Sipes",
+    "ToolTip": "Esse assumenda ut.",
     "Deleted": false,
-    "Rank": 587,
-    "Type": "accusamus",
-    "ColorBlock": 82,
-    "IconHint": "sapiente",
-    "Selected": true,
-    "LastChanged": "2008-03-21T18:25:52.2069864+01:00",
+    "Rank": 135,
+    "Type": "pariatur",
+    "ColorBlock": 347,
+    "IconHint": "dolorum",
+    "Selected": false,
+    "LastChanged": "2012-10-09T11:10:54.6289026+02:00",
     "ChildItems": [
       {
-        "Id": 863,
-        "Name": "Kunze Group",
-        "ToolTip": "In sapiente quis.",
-        "Deleted": false,
-        "Rank": 611,
-        "Type": "aut",
-        "ColorBlock": 497,
-        "IconHint": "qui",
+        "Id": 932,
+        "Name": "Carter LLC",
+        "ToolTip": "Et optio necessitatibus provident.",
+        "Deleted": true,
+        "Rank": 976,
+        "Type": "quod",
+        "ColorBlock": 500,
+        "IconHint": "explicabo",
         "Selected": true,
-        "LastChanged": "2002-04-10T18:25:52.2069864+02:00",
+        "LastChanged": "2022-01-26T11:10:54.6289026+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "magni",
+        "ExtraInfo": "rerum",
         "StyleHint": "qui",
-        "Hidden": true,
-        "FullName": "Marguerite Treutel",
-        "TableRight": {},
+        "Hidden": false,
+        "FullName": "Priscilla Grant",
+        "TableRight": null,
         "FieldProperties": {
           "fieldName": {
-            "FieldRight": {
-              "Mask": "FULL",
-              "Reason": ""
-            },
-            "FieldType": "System.String",
-            "FieldLength": 416
+            "FieldRight": null,
+            "FieldType": "System.Int32",
+            "FieldLength": 848
           }
         }
       }
     ],
-    "ExtraInfo": "architecto",
-    "StyleHint": "illo",
+    "ExtraInfo": "dolorem",
+    "StyleHint": "ut",
     "Hidden": false,
-    "FullName": "Maurice Muller",
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "FullName": "Margarita Bahringer",
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
+        "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 384
+        "FieldLength": 273
       }
     }
   }

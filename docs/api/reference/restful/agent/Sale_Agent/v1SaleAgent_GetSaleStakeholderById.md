@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Sale/GetSaleStakeholderById
-id: v1SaleAgent_GetSaleStakeholderById
+uid: v1SaleAgent_GetSaleStakeholderById
 ---
 
 # POST Agents/Sale/GetSaleStakeholderById
@@ -8,6 +8,14 @@ id: v1SaleAgent_GetSaleStakeholderById
 ```http
 POST /api/v1/Agents/Sale/GetSaleStakeholderById
 ```
+
+
+
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -18,6 +26,7 @@ POST /api/v1/Agents/Sale/GetSaleStakeholderById
 ```http
 POST /api/v1/Agents/Sale/GetSaleStakeholderById?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -33,15 +42,18 @@ POST /api/v1/Agents/Sale/GetSaleStakeholderById?$select=name,department,category
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-SaleStakeholderIds
+SaleStakeholderIds 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | SaleStakeholderIds | array |  |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -73,7 +85,7 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Sale/GetSaleStakeholderById
@@ -84,11 +96,13 @@ Content-Type: application/json; charset=utf-8
 
 {
   "SaleStakeholderIds": [
-    597,
-    965
+    170,
+    309
   ]
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -96,37 +110,31 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "StakeholderRoleName": "Champlin-Hilpert",
-    "Comment": "et",
-    "StakeholderRoleId": 590,
-    "CountryId": 390,
-    "PersonId": 945,
-    "EmailDescription": "nicola_blanda@lynch.info",
-    "EmailId": 856,
-    "EmailAddress": "ali@sporer.com",
-    "PhoneId": 451,
-    "ContactName": "Toy, Brekke and Konopelski",
-    "ContactId": 52,
-    "SaleId": 212,
-    "Mrmrs": "blanditiis",
-    "Firstname": "Dedrick",
-    "MiddleName": "Vandervort, Price and Kuhic",
-    "Lastname": "Monahan",
-    "SaleStakeholderId": 432,
-    "Rank": 839,
-    "Phone": "1-804-723-3572 x85460",
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "StakeholderRoleName": "Lebsack, Bashirian and Windler",
+    "Comment": "id",
+    "StakeholderRoleId": 263,
+    "CountryId": 180,
+    "PersonId": 512,
+    "EmailDescription": "corine@schmidt.com",
+    "EmailId": 699,
+    "EmailAddress": "destini@hackett.us",
+    "PhoneId": 180,
+    "ContactName": "Blick Group",
+    "ContactId": 479,
+    "SaleId": 984,
+    "Mrmrs": "et",
+    "Firstname": "Chelsey",
+    "MiddleName": "Konopelski Group",
+    "Lastname": "Gerlach",
+    "SaleStakeholderId": 62,
+    "Rank": 666,
+    "Phone": "(550)155-2648",
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 124
+        "FieldRight": null,
+        "FieldType": "System.Int32",
+        "FieldLength": 635
       }
     }
   }

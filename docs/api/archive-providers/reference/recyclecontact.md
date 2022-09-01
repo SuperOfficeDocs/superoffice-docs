@@ -8,7 +8,7 @@ keywords:
   - "archive provider"
   - "RecycleContact"
 so.generated: true
-so.date: 03.23.2021
+so.date: 08.26.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -22,14 +22,14 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 ## Supported Entities
 
 | Name | Description |
-| ---- | ----- |
+| ---- | ----------- |
 |"contact"|Company|
 |"forAllUsers"|View deleted companies for all users|
 
 ## Supported Columns
 
-| Name | Restriction | Description | OrderBy
-| ---- | ----- | ------- | ------ |
+| Name | Restriction | Description | OrderBy |
+| ---- | ----------- | ----------- | ------- |
 |getAllRows|bool|GetAll: Get all rows of archive - use with care, you may be fetching the whole database|  |
 |getNoRows|bool|GetNone: Do not get any rows from the archive|  |
 |contactId|int|Company ID: Database ID of company| x |
@@ -42,14 +42,17 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |category|listAny|Category| x |
 |business|listAny|Business| x |
 |country|listAny|Country: This criterion corresponds to the Country field on the Company card.| x |
+|countryId|int|Country ID: Country ID| x |
 |number|string|Number| x |
 |code|string|Code| x |
 |orgnr|string|VAT No.| x |
 |stop|bool|Stop| x |
 |contactNoMail|bool|No mailings (company| x |
 |updatedBy|associate|Updated by: The user who last updated the data| x |
+|updatedByFullName|associate|Updated by - Full name: The user who last updated the data| x |
 |updatedDate|date|Updated: The date/time the data was last updated in UTC.| x |
 |registeredBy|associate|Registered by: The user who registered the data| x |
+|registeredByFullName|associate|Registered by - Full name: The user who registered the data| x |
 |registeredDate|date|Registered date: The date/time the data was registered in UTC.| x |
 |contactSource|listAny|Source: Source (Company)| x |
 |contactDeleted|bool|Deleted: Deleted| x |
@@ -153,6 +156,22 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |contactUdef/SuperOffice:11|string|page1adminonly| x |
 |contactUdef/SuperOffice:12|listAny|Udlist one: Static tooltip for udlist one| x |
 |contactUdef/SuperOffice:13|listAny|Udlist two: Static tooltip for udlist two| x |
+|contactExtra/x\_contact\_integer|int|Extra Integer: Custom integer field| x |
+|contactExtra/x\_contact\_hidden\_integer|int|Extra hidden integer: Custom integer field - hidden| x |
+|contactExtra/x\_contact\_default\_integer|int|Extra Default Integer: Custom integer field with default value 123.| x |
+|contactExtra/x\_contact\_float|decimal|Extra Float: Custom float field with 3 decimals| x |
+|contactExtra/x\_contact\_longtext|string|Extra LongText: Custom long text field. DO not keep HTML. 3 Line text area editor| x |
+|contactExtra/x\_contact\_dropdown|listAny|Extra Long Dropdown: Custom long text field with dropdown: Volvo, Saab, etc.| x |
+|contactExtra/x\_contact\_date|date|Extra date: Custom date field. User current as default.| x |
+|contactExtra/x\_contact\_datetime|datetime|Extra DateTime: Custom Date Time field. No default value. External| x |
+|contactExtra/x\_contact\_time| *None* |Extra time: Custom time field.| x |
+|contactExtra/x\_contact\_boolean|bool|Extra boolean: Custom boolean field.| x |
+|contactExtra/x\_contact\_timespan|timeSpan|Extra timespan: Custom timespan field. Hours and minutes in 10 units| x |
+|contactExtra/x\_contact\_shorttext|string|Extra short text: Custom short text field. Keep HTML tags.| x |
+|contactExtra/x\_contact\_short\_dropdown|listAny|Extra short dropdown: Custom short text with dropdown list. Red, Green or Blue or Purple. External.| x |
+|contactExtra/x\_contact\_contact\_relation|stringorPK|Extra Company: Custom company relation. Do not show one-to-many relations. Show function buttons| x |
+|contactExtra/x\_contact\_request\_relation|stringorPK|Extra Request relation: Request relation on company| x |
+|contactExtra/x\_contact\_contact|stringorPK|Extra contact relation: Contact relation on company| x |
 |NumberOfActivities|int|Number of activities|  |
 |NumberOfActivitiesInPeriod|int|Number of activities in last 90 days|  |
 |NumberOfNotCompletedActivities|int|Number of non-completed activities|  |
@@ -174,8 +193,8 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |LastTicket|date|Date of last request|  |
 |LastCompletedTicket|date|Date of last completed request|  |
 |LastDoByTicket|date|Date of last non-completed request|  |
-|SaintStatus1|saintStatus|Neglected customer|  |
-|SaintStatus2|saintStatus|C-company|  |
+|SaintStatus1|saintStatus|Neglected customer: Denne kunden har det vært 0 salgsaktiviteter på i perioden.|  |
+|SaintStatus2|saintStatus|C-company: Kundens navn starter med bokstaven C|  |
 |saintSaleStatus|listAny|With status|  |
 |saintAmountClass|listAny|Amount class|  |
 |saintActivityType|listAny|SAINT type|  |
@@ -187,11 +206,14 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 ## Sample
 
 ```http!
-GET /api/v1/archive/RecycleContact?$select=hasInterests,restrictionAddress/line2,postAddress/formattedAddress
+GET /api/v1/archive/RecycleContact?$select=restrictionAddress/wgs84latitude,contactAssociate/personEmail,contactUdef/SuperOffice:6
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv
 
 ```
 
-See also: <see cref="T:SuperOffice.CRM.Services.IArchiveAgent">IArchiveAgent</see>.
+
+
+See also: <see cref="T:SuperOffice.CRM.Services.IArchiveAgent">IArchiveAgent</see>.</p>
+

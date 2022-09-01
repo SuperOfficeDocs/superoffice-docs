@@ -55,6 +55,7 @@ Download [WSDL file for Services88/Selection](../Services88-Selection.md) if you
 * [GetSelectionForFind](GetSelectionForFind.md)
 * [GetSelectionMembersArchiveRows](GetSelectionMembersArchiveRows.md)
 * [GetSelectionShadowMembersArchiveRows](GetSelectionShadowMembersArchiveRows.md)
+* [GetSelectionSummaries](GetSelectionSummaries.md)
 * [RemoveContactSelectionMembers](RemoveContactSelectionMembers.md)
 * [RemoveContactSelectionMembersFromIds](RemoveContactSelectionMembersFromIds.md)
 * [RemoveContactSelectionMembersFromSearch](RemoveContactSelectionMembersFromSearch.md)
@@ -69,3 +70,4 @@ Download [WSDL file for Services88/Selection](../Services88-Selection.md) if you
 * [SetDynamicSelectionCriteriaGroups](SetDynamicSelectionCriteriaGroups.md)
 * [StartMailMerge](StartMailMerge.md)
 * [UpdateTypicalSearch](UpdateTypicalSearch.md)
+

@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Quote/GetPriceList
-id: v1QuoteAgent_GetPriceList
+uid: v1QuoteAgent_GetPriceList
 ---
 
 # POST Agents/Quote/GetPriceList
@@ -11,6 +11,12 @@ POST /api/v1/Agents/Quote/GetPriceList
 
 Gets a PriceList object.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -19,9 +25,10 @@ Gets a PriceList object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Quote/GetPriceList?priceListId=267
+POST /api/v1/Agents/Quote/GetPriceList?priceListId=72
 POST /api/v1/Agents/Quote/GetPriceList?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -36,18 +43,16 @@ POST /api/v1/Agents/Quote/GetPriceList?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response: object
 
-A pricelist is basically a collection of products. It can be valid in a time period, and outright deactivated. All prices in the product list is in a specific currency. We have decieded not to separate prices and products, which means that we get a simpler data model, but some redundancy.
+## Response: 
 
-Carrier object for PriceList.
-Services for the PriceList Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IQuoteAgent">Quote Agent</see>.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -64,7 +69,7 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Quote/GetPriceList
@@ -73,33 +78,29 @@ Accept: application/json; charset=utf-8
 Accept-Language: sv
 ```
 
+## Sample response
+
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 491,
-  "ERPPriceListKey": "dolorem",
-  "QuoteConnectionId": 691,
-  "Name": "Bashirian, Dach and Auer",
-  "Description": "Mandatory demand-driven migration",
-  "Currency": "sit",
-  "CurrencyName": "Barrows, Bergnaum and VonRueden",
-  "ValidFrom": "2004-01-02T18:28:49.9811329+01:00",
-  "ValidTo": "1996-01-03T18:28:49.9811329+01:00",
+  "PriceListId": 708,
+  "ERPPriceListKey": "quo",
+  "QuoteConnectionId": 465,
+  "Name": "Gutmann, Sawayn and O'Hara",
+  "Description": "Streamlined optimizing internet solution",
+  "Currency": "aut",
+  "CurrencyName": "Stoltenberg Inc and Sons",
+  "ValidFrom": "2007-03-08T11:10:27.6805191+01:00",
+  "ValidTo": "2011-10-04T11:10:27.6805191+02:00",
   "IsActive": false,
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
+      "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 594
+      "FieldLength": 371
     }
   }
 }

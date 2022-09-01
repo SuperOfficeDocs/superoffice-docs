@@ -1,6 +1,6 @@
 ---
 title: POST Agents/EMail/GetAttachment
-id: v1EMailAgent_GetAttachment
+uid: v1EMailAgent_GetAttachment
 ---
 
 # POST Agents/EMail/GetAttachment
@@ -11,7 +11,15 @@ POST /api/v1/Agents/EMail/GetAttachment
 
 Retrieve an attachment from an e-mail
 
-## Online Restricted: ## The EMail agent is not available in Online by default. Access must be requested specifically when app is registered
+
+
+
+## Online Restricted: ## The EMail agent is not available in Online by default. Access must be requested specifically when app is registered.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +30,7 @@ Retrieve an attachment from an e-mail
 ```http
 POST /api/v1/Agents/EMail/GetAttachment?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,28 +46,26 @@ POST /api/v1/Agents/EMail/GetAttachment?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-ConnectionInfo, MessageServerId, AttachmentId
+ConnectionInfo, MessageServerId, AttachmentId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| ConnectionInfo |  | All information needed to connect to a mailserver <br /> Carrier object for EMailConnectionInfo. Services for the EMailConnectionInfo Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IEMailAgent">EMail Agent</see>. |
+| ConnectionInfo |  | All information needed to connect to a mailserver <para /> Carrier object for EMailConnectionInfo. Services for the EMailConnectionInfo Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IEMailAgent">EMail Agent</see>. |
 | MessageServerId | int32 |  |
 | AttachmentId | string |  |
 
-## Response: object
 
-Information about an attachment
+## Response: 
 
-Carrier object for EMailAttachment.
-Services for the EMailAttachment Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IEMailAgent">EMail Agent</see>.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -73,53 +80,43 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/EMail/GetAttachment
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConnectionInfo": {
-    "ServerName": "Rowe LLC",
-    "UserName": "Durgan LLC",
-    "Password": "dolores",
-    "Folder": "repellendus",
-    "UseSSL": false
-  },
-  "MessageServerId": 899,
-  "AttachmentId": "dolores"
+  "ConnectionInfo": null,
+  "MessageServerId": 173,
+  "AttachmentId": "culpa"
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Expanded zero tolerance orchestration",
-  "Filename": "in",
-  "Size": 221,
-  "Type": "et",
-  "Encoding": "aspernatur",
-  "Id": "est",
-  "Disposition": "aut",
+  "Description": "Open-architected user-facing challenge",
+  "Filename": "porro",
+  "Size": 287,
+  "Type": "cum",
+  "Encoding": "eaque",
+  "Id": "culpa",
+  "Disposition": "corrupti",
   "Stream": "GIF89....File contents as raw bytes...",
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
-      "FieldType": "System.String",
-      "FieldLength": 827
+      "FieldRight": null,
+      "FieldType": "System.Int32",
+      "FieldLength": 870
     }
   }
 }

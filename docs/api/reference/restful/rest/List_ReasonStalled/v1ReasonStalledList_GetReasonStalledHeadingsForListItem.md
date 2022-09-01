@@ -1,6 +1,6 @@
 ---
 title: GET List/ReasonStalled/Items/{id}/Headings
-id: v1ReasonStalledList_GetReasonStalledHeadingsForListItem
+uid: v1ReasonStalledList_GetReasonStalledHeadingsForListItem
 ---
 
 # GET List/ReasonStalled/Items/{id}/Headings
@@ -11,11 +11,17 @@ GET /api/v1/List/ReasonStalled/Items/{itemId}/Headings
 
 Gets headings for the ReasonStalled list's item.
 
+
 Calls the List agent service GetHeadings.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | itemId | int32 | The ID of the headings to be get. **Required** |
+
 
 ## Query String Parameters
 
@@ -26,6 +32,7 @@ Calls the List agent service GetHeadings.
 ```http
 GET /api/v1/List/ReasonStalled/Items/{itemId}/Headings?showDeleted=False
 ```
+
 
 ## Request Headers
 
@@ -40,7 +47,10 @@ GET /api/v1/List/ReasonStalled/Items/{itemId}/Headings?showDeleted=False
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -68,14 +78,16 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 GET /api/v1/List/ReasonStalled/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -83,65 +95,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 415,
-    "Name": "Moen, Swaniawski and Schumm",
-    "ToolTip": "Ut sed corporis consequatur quae cupiditate.",
-    "Deleted": false,
-    "Rank": 564,
-    "Type": "ea",
-    "ColorBlock": 5,
-    "IconHint": "ut",
+    "Id": 392,
+    "Name": "Hegmann-Kreiger",
+    "ToolTip": "Sit ut illum reprehenderit corporis.",
+    "Deleted": true,
+    "Rank": 650,
+    "Type": "ullam",
+    "ColorBlock": 924,
+    "IconHint": "quod",
     "Selected": true,
-    "LastChanged": "2009-09-19T18:25:52.1710192+02:00",
+    "LastChanged": "2020-06-04T11:10:54.5889395+02:00",
     "ChildItems": [
       {
-        "Id": 331,
-        "Name": "Adams, Carroll and Roob",
-        "ToolTip": "Ut eum cumque consequatur quia aut sunt.",
+        "Id": 664,
+        "Name": "Hoeger, Wilkinson and Grant",
+        "ToolTip": "Sint reprehenderit est aut natus eaque repellendus excepturi.",
         "Deleted": false,
-        "Rank": 1000,
-        "Type": "et",
-        "ColorBlock": 382,
-        "IconHint": "ut",
+        "Rank": 737,
+        "Type": "iure",
+        "ColorBlock": 248,
+        "IconHint": "vel",
         "Selected": false,
-        "LastChanged": "2010-08-23T18:25:52.1710192+02:00",
+        "LastChanged": "2020-06-10T11:10:54.5889395+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "velit",
-        "StyleHint": "adipisci",
-        "Hidden": false,
-        "FullName": "Raheem Konopelski",
-        "TableRight": {},
+        "ExtraInfo": "ab",
+        "StyleHint": "necessitatibus",
+        "Hidden": true,
+        "FullName": "Khalid Vandervort",
+        "TableRight": null,
         "FieldProperties": {
           "fieldName": {
-            "FieldRight": {
-              "Mask": "FULL",
-              "Reason": ""
-            },
+            "FieldRight": null,
             "FieldType": "System.String",
             "FieldLength": 594
           }
         }
       }
     ],
-    "ExtraInfo": "eaque",
-    "StyleHint": "facere",
-    "Hidden": true,
-    "FullName": "Estelle Quigley",
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "ExtraInfo": "cum",
+    "StyleHint": "et",
+    "Hidden": false,
+    "FullName": "Mr. Marcus Meghan Lebsack",
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 597
+        "FieldRight": null,
+        "FieldType": "System.Int32",
+        "FieldLength": 338
       }
     }
   }

@@ -1,6 +1,6 @@
 ---
 title: GET List/ProjectType/Items/{id}/Headings
-id: v1ProjectTypeList_GetProjectTypeHeadingsForListItem
+uid: v1ProjectTypeList_GetProjectTypeHeadingsForListItem
 ---
 
 # GET List/ProjectType/Items/{id}/Headings
@@ -11,11 +11,17 @@ GET /api/v1/List/ProjectType/Items/{itemId}/Headings
 
 Gets headings for the ProjectType list's item.
 
+
 Calls the List agent service GetHeadings.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | itemId | int32 | The ID of the headings to be get. **Required** |
+
 
 ## Query String Parameters
 
@@ -24,8 +30,9 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/ProjectType/Items/{itemId}/Headings?showDeleted=False
+GET /api/v1/List/ProjectType/Items/{itemId}/Headings?showDeleted=True
 ```
+
 
 ## Request Headers
 
@@ -40,7 +47,10 @@ GET /api/v1/List/ProjectType/Items/{itemId}/Headings?showDeleted=False
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -68,14 +78,16 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 GET /api/v1/List/ProjectType/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -83,65 +95,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 694,
-    "Name": "Bins-Stark",
-    "ToolTip": "Minima minus.",
+    "Id": 958,
+    "Name": "Dibbert-Flatley",
+    "ToolTip": "Non doloremque modi voluptatem eligendi in.",
     "Deleted": false,
-    "Rank": 653,
-    "Type": "incidunt",
-    "ColorBlock": 163,
-    "IconHint": "est",
+    "Rank": 830,
+    "Type": "ut",
+    "ColorBlock": 804,
+    "IconHint": "labore",
     "Selected": false,
-    "LastChanged": "2020-07-20T18:25:52.1070239+02:00",
+    "LastChanged": "2000-12-14T11:10:54.4909324+01:00",
     "ChildItems": [
       {
-        "Id": 951,
-        "Name": "Medhurst Inc and Sons",
-        "ToolTip": "Consequuntur et assumenda.",
+        "Id": 492,
+        "Name": "Koepp, Langosh and Becker",
+        "ToolTip": "Voluptatem atque commodi dolor et.",
         "Deleted": false,
-        "Rank": 981,
-        "Type": "et",
-        "ColorBlock": 791,
-        "IconHint": "dolor",
+        "Rank": 117,
+        "Type": "porro",
+        "ColorBlock": 806,
+        "IconHint": "dolorem",
         "Selected": true,
-        "LastChanged": "1998-04-16T18:25:52.1070239+02:00",
+        "LastChanged": "2017-03-04T11:10:54.4909324+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "tempore",
-        "StyleHint": "iste",
-        "Hidden": false,
-        "FullName": "Mathilde Rohan",
-        "TableRight": {},
+        "ExtraInfo": "et",
+        "StyleHint": "quibusdam",
+        "Hidden": true,
+        "FullName": "Zion Cassin",
+        "TableRight": null,
         "FieldProperties": {
           "fieldName": {
-            "FieldRight": {
-              "Mask": "FULL",
-              "Reason": ""
-            },
+            "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 192
+            "FieldLength": 916
           }
         }
       }
     ],
-    "ExtraInfo": "rerum",
-    "StyleHint": "et",
+    "ExtraInfo": "quis",
+    "StyleHint": "dolorem",
     "Hidden": false,
-    "FullName": "Mrs. Hector Daniel",
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "FullName": "Dr. Ulises Barney Casper",
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
+        "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 151
+        "FieldLength": 66
       }
     }
   }

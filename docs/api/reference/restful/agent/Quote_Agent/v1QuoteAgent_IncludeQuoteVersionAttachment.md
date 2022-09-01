@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Quote/IncludeQuoteVersionAttachment
-id: v1QuoteAgent_IncludeQuoteVersionAttachment
+uid: v1QuoteAgent_IncludeQuoteVersionAttachment
 ---
 
 # POST Agents/Quote/IncludeQuoteVersionAttachment
@@ -11,6 +11,12 @@ POST /api/v1/Agents/Quote/IncludeQuoteVersionAttachment
 
 Toggle the 'included' state of a quote version attachment; will throw exceptions if called on locked versions
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Toggle the 'included' state of a quote version attachment; will throw exceptions
 ```http
 POST /api/v1/Agents/Quote/IncludeQuoteVersionAttachment?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,9 +42,9 @@ POST /api/v1/Agents/Quote/IncludeQuoteVersionAttachment?$select=name,department,
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-QuoteVersionId, DocumentId, Include
+QuoteVersionId, DocumentId, Include 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -45,7 +52,10 @@ QuoteVersionId, DocumentId, Include
 | DocumentId | int32 |  |
 | Include | bool |  |
 
+
 ## Response: bool
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -53,7 +63,8 @@ QuoteVersionId, DocumentId, Include
 
 Response body: bool
 
-## Sample Request
+
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Quote/IncludeQuoteVersionAttachment
@@ -63,15 +74,17 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 750,
-  "DocumentId": 144,
-  "Include": true
+  "QuoteVersionId": 434,
+  "DocumentId": 542,
+  "Include": false
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-true
+false
 ```

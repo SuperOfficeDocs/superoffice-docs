@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Find/SaveRestrictionsWithContext2
-id: v1FindAgent_SaveRestrictionsWithContext2
+uid: v1FindAgent_SaveRestrictionsWithContext2
 ---
 
 # POST Agents/Find/SaveRestrictionsWithContext2
@@ -10,6 +10,12 @@ POST /api/v1/Agents/Find/SaveRestrictionsWithContext2
 ```
 
 Save an array of restrictions for later use as search criteria (including as dynamic selection and Find).
+
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -21,6 +27,7 @@ Save an array of restrictions for later use as search criteria (including as dyn
 POST /api/v1/Agents/Find/SaveRestrictionsWithContext2?$select=name,department,category/id
 ```
 
+
 ## Request Headers
 
 | Parameter Name | Description |
@@ -28,11 +35,12 @@ POST /api/v1/Agents/Find/SaveRestrictionsWithContext2?$select=name,department,ca
 | Authorization  | Supports 'Basic', 'SoTicket' and 'Bearer' schemes, depending on installation type. |
 | X-XSRF-TOKEN   | If not using Authorization header, you must provide XSRF value from cookie or hidden input field |
 | Content-Type | Content-type of the request body: `application/json`, `text/json`, `application/xml`, `text/xml`, `application/x-www-form-urlencoded`, `application/json-patch+json`, `application/merge-patch+json` |
+| Accept         | Content-type(s) you would like the response in:  |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-StorageType, ProviderName, StorageKey, Restrictions, Context
+StorageType, ProviderName, StorageKey, Restrictions, Context 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -42,8 +50,41 @@ StorageType, ProviderName, StorageKey, Restrictions, Context
 | Restrictions | string |  |
 | Context | string |  |
 
-## Response
+
+## Response: 
+
+No Content
 
 | Response | Description |
 |----------------|-------------|
 | 204 | No Content |
+
+Response body: 
+
+
+## Sample request
+
+```http!
+POST /api/v1/Agents/Find/SaveRestrictionsWithContext2
+Authorization: Basic dGplMDpUamUw
+Accept: application/json; charset=utf-8
+Accept-Language: en
+Content-Type: application/json; charset=utf-8
+
+{
+  "StorageType": "rerum",
+  "ProviderName": "Wiegand-Lesch",
+  "StorageKey": "accusantium",
+  "Restrictions": "molestiae",
+  "Context": "ab"
+}
+```
+
+## Sample response
+
+```http_
+HTTP/1.1 204 No Content
+Content-Type: application/json; charset=utf-8
+
+null
+```

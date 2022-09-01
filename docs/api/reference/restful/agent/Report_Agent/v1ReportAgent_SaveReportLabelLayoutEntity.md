@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Report/SaveReportLabelLayoutEntity
-id: v1ReportAgent_SaveReportLabelLayoutEntity
+uid: v1ReportAgent_SaveReportLabelLayoutEntity
 ---
 
 # POST Agents/Report/SaveReportLabelLayoutEntity
@@ -10,6 +10,13 @@ POST /api/v1/Agents/Report/SaveReportLabelLayoutEntity
 ```
 
 Updates the existing ReportLabelLayoutEntity or creates a new ReportLabelLayoutEntity if the id parameter is empty
+
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -25,9 +32,9 @@ Updates the existing ReportLabelLayoutEntity or creates a new ReportLabelLayoutE
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entity
+## Request Body: entity  
 
-The ReportLabelLayoutEntity to be saved.
+The ReportLabelLayoutEntity to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -44,16 +51,16 @@ The ReportLabelLayoutEntity to be saved.
 | CountColumns | int32 | Number og columns |
 | CountRows | int32 | Number of rows |
 
-## Response: object
 
-Carrier object for ReportLabelLayoutEntity.
-Services for the ReportLabelLayoutEntity Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IReportAgent">Report Agent</see>.
+## Response: 
+
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -72,60 +79,56 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Report/SaveReportLabelLayoutEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReportLabelLayoutId": 936,
-  "Name": "Effertz, Feest and Lehner",
-  "Description": "Enterprise-wide bifurcated forecast",
+  "ReportLabelLayoutId": 461,
+  "Name": "VonRueden-Mayert",
+  "Description": "Self-enabling regional standardization",
   "Orientation": "Landscape",
-  "PaperWidth": 777,
-  "PaperHeight": 572,
-  "LeftMargin": 633,
-  "RightMargin": 847,
-  "TopMargin": 149,
-  "BottomMargin": 396,
-  "CountColumns": 722,
-  "CountRows": 407
+  "PaperWidth": 310,
+  "PaperHeight": 848,
+  "LeftMargin": 268,
+  "RightMargin": 535,
+  "TopMargin": 920,
+  "BottomMargin": 599,
+  "CountColumns": 714,
+  "CountRows": 394
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReportLabelLayoutId": 748,
-  "Name": "O'Conner-Hoppe",
-  "Description": "Synergistic high-level archive",
+  "ReportLabelLayoutId": 72,
+  "Name": "Wisoky Group",
+  "Description": "Reduced 5th generation groupware",
   "Orientation": "Landscape",
-  "PaperWidth": 886,
-  "PaperHeight": 134,
-  "LeftMargin": 488,
-  "RightMargin": 883,
-  "TopMargin": 86,
-  "BottomMargin": 531,
-  "CountColumns": 655,
-  "CountRows": 553,
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "PaperWidth": 910,
+  "PaperHeight": 929,
+  "LeftMargin": 276,
+  "RightMargin": 110,
+  "TopMargin": 337,
+  "BottomMargin": 523,
+  "CountColumns": 709,
+  "CountRows": 360,
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
-      "FieldType": "System.Int32",
-      "FieldLength": 382
+      "FieldRight": null,
+      "FieldType": "System.String",
+      "FieldLength": 767
     }
   }
 }

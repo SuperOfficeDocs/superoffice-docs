@@ -17,6 +17,7 @@ Gets an array of ProjectEvent objects.
 
 **Returns:** Array of ProjectEvent objects
 
+
 [WSDL file for Services84/Project](../Services84-Project.md)
 
 Obtain a ticket from the [Services84/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -51,6 +52,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## GetProjectEventList Response
 
 ```xml
@@ -77,7 +79,7 @@ Application tokens must be specified if calling an Online installation. Applicat
      <Project:SignOffText xsi:type="xsd:string"></Project:SignOffText>
      <Project:SignOnConfirmationText xsi:type="xsd:string"></Project:SignOnConfirmationText>
      <Project:SignOnText xsi:type="xsd:string"></Project:SignOnText>
-     <Project:EventDate xsi:type="xsd:dateTime">2021-11-30T13:22:18Z</Project:EventDate>
+     <Project:EventDate xsi:type="xsd:dateTime">2022-08-26T08:51:33Z</Project:EventDate>
      <Project:Enabled xsi:type="xsd:boolean">false</Project:Enabled>
      <Project:SignOff xsi:type="xsd:boolean">false</Project:SignOff>
      <Project:SignOffTaskEnable xsi:type="xsd:boolean">false</Project:SignOffTaskEnable>
@@ -96,3 +98,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

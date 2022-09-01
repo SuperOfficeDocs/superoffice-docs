@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Appointment/UpdateAppointment
-id: v1AppointmentAgent_UpdateAppointment
+uid: v1AppointmentAgent_UpdateAppointment
 ---
 
 # POST Agents/Appointment/UpdateAppointment
@@ -11,6 +11,12 @@ POST /api/v1/Agents/Appointment/UpdateAppointment
 
 Updates an appointment record.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Updates an appointment record.
 ```http
 POST /api/v1/Agents/Appointment/UpdateAppointment?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,9 +42,9 @@ POST /api/v1/Agents/Appointment/UpdateAppointment?$select=name,department,catego
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-Id, StartTime, EndTime, Status, Type, AssociateId
+Id, StartTime, EndTime, Status, Type, AssociateId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -48,18 +55,16 @@ Id, StartTime, EndTime, Status, Type, AssociateId
 | Type | int32 |  |
 | AssociateId | int32 |  |
 
-## Response: object
 
-Simple read-only appointment data.
+## Response: 
 
-Carrier object for Appointment.
-Services for the Appointment Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IAppointmentAgent">Appointment Agent</see>.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -115,91 +120,87 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Appointment/UpdateAppointment
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 861,
-  "StartTime": "1999-09-03T18:28:47.7398442+02:00",
-  "EndTime": "1998-06-20T18:28:47.7398442+02:00",
-  "Status": 914,
-  "Type": 971,
-  "AssociateId": 939
+  "Id": 289,
+  "StartTime": "2018-09-24T11:10:25.4655223+02:00",
+  "EndTime": "2010-02-03T11:10:25.4655223+01:00",
+  "Status": 882,
+  "Type": 532,
+  "AssociateId": 770
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AppointmentId": 512,
-  "StartDate": "2012-09-17T18:28:47.7408411+02:00",
-  "EndDate": "1997-01-04T18:28:47.7408411+01:00",
+  "AppointmentId": 517,
+  "StartDate": "1997-03-03T11:10:25.4665224+01:00",
+  "EndDate": "2014-01-27T11:10:25.4665224+01:00",
   "Type": "BookingForChecklist",
-  "Task": "aut",
-  "AssociateFullName": "Anderson Senger",
-  "ContactName": "Rowe-Witting",
-  "Description": "Automated object-oriented database",
-  "PersonFullName": "Kristian Schowalter",
-  "PersonId": 631,
-  "ContactId": 782,
-  "ProjectId": 836,
-  "ProjectName": "Kreiger-Kuhlman",
+  "Task": "est",
+  "AssociateFullName": "Sabina Koelpin",
+  "ContactName": "Hudson, Dickinson and Kub",
+  "Description": "Profound methodical leverage",
+  "PersonFullName": "Aaliyah Hyatt II",
+  "PersonId": 945,
+  "ContactId": 960,
+  "ProjectId": 636,
+  "ProjectName": "Douglas-Kirlin",
   "IsPublished": false,
-  "AssociateId": 76,
-  "ColorIndex": 830,
-  "IsFree": true,
-  "HasAlarm": true,
+  "AssociateId": 448,
+  "ColorIndex": 453,
+  "IsFree": false,
+  "HasAlarm": false,
   "IsAlldayEvent": true,
   "Private": "PrivateGroup",
-  "PriorityId": 911,
-  "PriorityName": "DuBuque-Steuber",
+  "PriorityId": 904,
+  "PriorityName": "Bode-Ratke",
   "TaskType": "Appointment",
   "IsBookingMain": false,
-  "IsRecurrence": true,
+  "IsRecurrence": false,
   "IsBooking": false,
-  "ActiveDate": "2016-06-18T18:28:47.7408411+02:00",
+  "ActiveDate": "2021-11-11T11:10:25.4665224+01:00",
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
   "Completed": "Completed",
   "RecurringPattern": "Custom",
-  "RecurringStartDate": "2013-02-11T18:28:47.7408411+01:00",
-  "RecurringEndDate": "2017-07-28T18:28:47.7408411+02:00",
-  "MotherId": 801,
-  "AssignedBy": 621,
-  "AssignedByFullName": "Dashawn Wilkinson",
+  "RecurringStartDate": "2006-04-23T11:10:25.4665224+02:00",
+  "RecurringEndDate": "2014-11-26T11:10:25.4665224+01:00",
+  "MotherId": 144,
+  "AssignedBy": 235,
+  "AssignedByFullName": "Mrs. Noemie Guy Hoppe",
   "RejectReason": "",
-  "Location": "laboriosam",
-  "AlarmLeadTime": "vero",
-  "SaleId": 421,
-  "SaleName": "Ebert Group",
-  "AssociateName": "Roberts-King",
-  "CreatedDate": "2015-12-20T18:28:47.741845+01:00",
-  "CreatedBy": "occaecati",
-  "CreatedByFullName": "Santiago White",
-  "CreatedByAssociateId": 793,
+  "Location": "dolores",
+  "AlarmLeadTime": "odio",
+  "SaleId": 191,
+  "SaleName": "Gleichner LLC",
+  "AssociateName": "Predovic, Grady and Lueilwitz",
+  "CreatedDate": "1997-07-08T11:10:25.4665224+02:00",
+  "CreatedBy": "exercitationem",
+  "CreatedByFullName": "Guido Homenick",
+  "CreatedByAssociateId": 275,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
-      "FieldType": "System.String",
-      "FieldLength": 880
+      "FieldRight": null,
+      "FieldType": "System.Int32",
+      "FieldLength": 957
     }
   }
 }

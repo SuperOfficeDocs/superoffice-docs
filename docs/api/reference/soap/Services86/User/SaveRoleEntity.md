@@ -12,11 +12,12 @@ Implemented by the <see cref="M:SuperOffice.Services86.IUserAgent.SaveRoleEntity
 ## SaveRoleEntity
 
 Updates the existing RoleEntity or creates a new RoleEntity if the id parameter is 0.
-<br />**Online Restricted:** The User agent is not available in Online by default. User management is not allowed for partner apps.
+<para /><b>Online Restricted:</b> The User agent is not available in Online by default. User management is not allowed for partner apps.
 
 * **roleEntity:** The RoleEntity that is saved.
 
 **Returns:** New or updated RoleEntity
+
 
 [WSDL file for Services86/User](../Services86-User.md)
 
@@ -49,7 +50,7 @@ Application tokens must be specified if calling an Online installation. Applicat
      <User:RoleType xsi:type="User:RoleType">Employee</User:RoleType>
      <User:Deleted xsi:type="xsd:short">0</User:Deleted>
      <User:Rank xsi:type="xsd:short">0</User:Rank>
-     <User:Created xsi:type="xsd:dateTime">2021-11-30T13:23:06Z</User:Created>
+     <User:Created xsi:type="xsd:dateTime">2022-08-26T08:55:57Z</User:Created>
      <User:UseCategories xsi:type="xsd:short">0</User:UseCategories>
      <User:CreatedBy xsi:type="User:Associate">
       <User:AssociateId xsi:type="xsd:int">0</User:AssociateId>
@@ -65,7 +66,7 @@ Application tokens must be specified if calling an Online installation. Applicat
       <User:EjUserId xsi:type="xsd:int">0</User:EjUserId>
       <User:UserName xsi:type="xsd:string"></User:UserName>
      </User:CreatedBy>
-     <User:Updated xsi:type="xsd:dateTime">2021-11-30T13:23:06Z</User:Updated>
+     <User:Updated xsi:type="xsd:dateTime">2022-08-26T08:55:57Z</User:Updated>
      <User:UpdatedBy xsi:type="User:Associate">
       <User:AssociateId xsi:type="xsd:int">0</User:AssociateId>
       <User:Name xsi:type="xsd:string"></User:Name>
@@ -111,6 +112,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## SaveRoleEntity Response
 
 ```xml
@@ -132,7 +134,7 @@ Application tokens must be specified if calling an Online installation. Applicat
     <User:RoleType xsi:type="User:RoleType">Employee</User:RoleType>
     <User:Deleted xsi:type="xsd:short">0</User:Deleted>
     <User:Rank xsi:type="xsd:short">0</User:Rank>
-    <User:Created xsi:type="xsd:dateTime">2021-11-30T13:23:06Z</User:Created>
+    <User:Created xsi:type="xsd:dateTime">2022-08-26T08:55:57Z</User:Created>
     <User:UseCategories xsi:type="xsd:short">0</User:UseCategories>
     <User:CreatedBy xsi:type="User:Associate">
      <User:AssociateId xsi:type="xsd:int">0</User:AssociateId>
@@ -148,7 +150,7 @@ Application tokens must be specified if calling an Online installation. Applicat
      <User:EjUserId xsi:type="xsd:int">0</User:EjUserId>
      <User:UserName xsi:type="xsd:string"></User:UserName>
     </User:CreatedBy>
-    <User:Updated xsi:type="xsd:dateTime">2021-11-30T13:23:06Z</User:Updated>
+    <User:Updated xsi:type="xsd:dateTime">2022-08-26T08:55:57Z</User:Updated>
     <User:UpdatedBy xsi:type="User:Associate">
      <User:AssociateId xsi:type="xsd:int">0</User:AssociateId>
      <User:Name xsi:type="xsd:string"></User:Name>
@@ -192,3 +194,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

@@ -1,6 +1,6 @@
 ---
 title: GET User/{id}
-id: v1User_GetUser
+uid: v1User_GetUser
 ---
 
 # GET User/{id}
@@ -11,13 +11,20 @@ GET /api/v1/User/{id}
 
 Gets a User object.
 
+
 Calls the User agent service GetUser.
 
-## Online Restricted: ## The User agent is not available in Online by default. User management is not allowed for partner apps
+
+## Online Restricted: ## The User agent is not available in Online by default. User management is not allowed for partner apps.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | id | int32 | The id of the User to return. **Required** |
+
 
 ## Query String Parameters
 
@@ -28,8 +35,9 @@ Calls the User agent service GetUser.
 
 ```http
 GET /api/v1/User/{id}?$select=name,department,category/id
-GET /api/v1/User/{id}?fk=False
+GET /api/v1/User/{id}?fk=True
 ```
+
 
 ## Request Headers
 
@@ -44,18 +52,17 @@ GET /api/v1/User/{id}?fk=False
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response: object
 
-SuperOffice User, with login credentials and an associated person.
+## Response: 
 
-User entity with API _Links added.
+User found.
 
 | Response | Description |
 |----------------|-------------|
 | 200 | User found. |
 | 404 | Not Found. |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -65,9 +72,9 @@ Response body: object
 | Tooltip | string | Tooltip or other description |
 | LicenseOwners | array | The restricted and unrestricted module licenses grouped by license owner. These module licenses are either assigned or unassigned to this user |
 | Role |  | Users role for role-based security. Determines permissions and access rights for the user. |
-| UserGroup |  | The main user group that this user belongs to.  <br />Use MDO List name "usergroup" to get list items. |
-| OtherGroups | array | The other groups this user is a member of, apart from the main user group.  <br />Use MDO List name "usergroup" to get list items. |
-| Person |  | The person associated with this user. Detailed information about the user  <br />Use MDO List name "person_new" to get list items. |
+| UserGroup |  | The main user group that this user belongs to.  <para>Use MDO List name "usergroup" to get list items.</para> |
+| OtherGroups | array | The other groups this user is a member of, apart from the main user group.  <para>Use MDO List name "usergroup" to get list items.</para> |
+| Person |  | The person associated with this user. Detailed information about the user  <para>Use MDO List name "person_new" to get list items.</para> |
 | Deleted | bool | If true, the user is retired and should have no rights, not appear in lists, etc. |
 | Lastlogin | date-time | Last login date |
 | Lastlogout | date-time | Last logout date |
@@ -78,7 +85,7 @@ Response body: object
 | IsOnTravel | bool | True if the user is on travel. |
 | Credentials | array | List of credentials registered for this user. i.e. valid authentication methods. |
 | UserName | string | User name, a.k.a. Login name. This might be an e-mail address. |
-| TicketCategories | array | Request Ticket Categories assigned to the user.   <br />Use MDO List name "ejCategory" to get list items. |
+| TicketCategories | array | Request Ticket Categories assigned to the user.   <para>Use MDO List name "ejCategory" to get list items.</para> |
 | NickName | string | The unique nick name for this user. Used in Service as an alias, similar to Name/Initials. |
 | WaitingForApproval | bool | The user is waiting for an administrator to approve/grant her/him access. |
 | ExtraFields | object | Deprecated: Use {SuperOffice.CRM.Services.User.CustomFields} instead. Extra fields added to the carrier. This could be data from Plug-ins, the foreign key system, external applications, etc. |
@@ -88,28 +95,30 @@ Response body: object
 | FieldProperties | object |  |
 | _Links | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 GET /api/v1/User/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 User found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 919,
-  "Name": "Kihn Inc and Sons",
-  "Rank": 91,
+  "AssociateId": 227,
+  "Name": "Parisian-Gaylord",
+  "Rank": 281,
   "Tooltip": "et",
   "LicenseOwners": [
     {
-      "Name": "Bednar LLC",
-      "Description": "Open-architected bottom-line initiative",
+      "Name": "O'Kon, Lueilwitz and Wolff",
+      "Description": "Optimized reciprocal policy",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -118,21 +127,18 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "TableRight": {},
+      "TableRight": null,
       "FieldProperties": {
         "fieldName": {
-          "FieldRight": {
-            "Mask": "FULL",
-            "Reason": ""
-          },
-          "FieldType": "System.String",
-          "FieldLength": 749
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 904
         }
       }
     },
     {
-      "Name": "Bednar LLC",
-      "Description": "Open-architected bottom-line initiative",
+      "Name": "O'Kon, Lueilwitz and Wolff",
+      "Description": "Optimized reciprocal policy",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -141,247 +147,139 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "TableRight": {},
+      "TableRight": null,
       "FieldProperties": {
         "fieldName": {
-          "FieldRight": {
-            "Mask": "FULL",
-            "Reason": ""
-          },
-          "FieldType": "System.String",
-          "FieldLength": 749
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 904
         }
       }
     }
   ],
-  "Role": {
-    "Id": 735,
-    "Value": "aut",
-    "Tooltip": "rerum",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.Int32",
-        "FieldLength": 23
-      }
-    }
-  },
-  "UserGroup": {
-    "Value": "ex",
-    "Tooltip": "sequi",
-    "Id": 228,
-    "Rank": 460,
-    "Deleted": true,
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.Int32",
-        "FieldLength": 730
-      }
-    }
-  },
+  "Role": null,
+  "UserGroup": null,
   "OtherGroups": [
     {
-      "Value": "ut",
-      "Tooltip": "cumque",
-      "Id": 175,
-      "Rank": 69,
+      "Value": "voluptatem",
+      "Tooltip": "rerum",
+      "Id": 377,
+      "Rank": 162,
       "Deleted": true,
-      "TableRight": {},
+      "TableRight": null,
       "FieldProperties": {
         "fieldName": {
-          "FieldRight": {
-            "Mask": "FULL",
-            "Reason": ""
-          },
+          "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 406
+          "FieldLength": 631
         }
       }
     }
   ],
-  "Person": {
-    "Position": "numquam",
-    "PersonId": 825,
-    "Mrmrs": "eius",
-    "Firstname": "Glennie",
-    "Lastname": "Nienow",
-    "MiddleName": "Ratke, Morissette and Champlin",
-    "Title": "enim",
-    "Description": "Monitored optimal superstructure",
-    "Email": "angel@harvey.name",
-    "FullName": "Gerry Kutch",
-    "DirectPhone": "1-578-665-5812",
-    "FormalName": "Ferry, Ward and Langworth",
-    "CountryId": 48,
-    "ContactId": 780,
-    "ContactName": "Collier Inc and Sons",
-    "Retired": 729,
-    "Rank": 257,
-    "ActiveInterests": 439,
-    "ContactDepartment": "transform clicks-and-mortar convergence",
-    "ContactCountryId": 74,
-    "ContactOrgNr": "920256",
-    "FaxPhone": "(376)000-6734",
-    "MobilePhone": "1-445-378-7817 x3060",
-    "ContactPhone": "1-676-241-3880",
-    "AssociateName": "Sporer-Kling",
-    "AssociateId": 956,
-    "UsePersonAddress": true,
-    "ContactFax": "facere",
-    "Kanafname": "reiciendis",
-    "Kanalname": "voluptates",
-    "Post1": "possimus",
-    "Post2": "animi",
-    "Post3": "excepturi",
-    "EmailName": "haven@ryan.name",
-    "ContactFullName": "Rhoda Bruen",
-    "ActiveErpLinks": 139,
-    "TicketPriorityId": 917,
-    "SupportLanguageId": 622,
-    "SupportAssociateId": 115,
-    "CategoryName": "VIP Customer",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.Int32",
-        "FieldLength": 296
-      }
-    }
-  },
+  "Person": null,
   "Deleted": true,
-  "Lastlogin": "2011-12-14T18:25:51.4611177+01:00",
-  "Lastlogout": "1995-05-07T18:25:51.4611177+02:00",
-  "EjUserId": 123,
-  "RequestSignature": "animi",
+  "Lastlogin": "2017-05-30T11:10:53.8102074+02:00",
+  "Lastlogout": "2014-04-12T11:10:53.8102074+02:00",
+  "EjUserId": 982,
+  "RequestSignature": "labore",
   "Type": "AnonymousAssociate",
   "IsPersonRetired": false,
-  "IsOnTravel": true,
+  "IsOnTravel": false,
   "Credentials": [
     {
-      "Type": {},
-      "Value": "fugit",
-      "DisplayValue": "iste",
-      "TableRight": {},
+      "Type": null,
+      "Value": "ullam",
+      "DisplayValue": "deserunt",
+      "TableRight": null,
       "FieldProperties": {
         "fieldName": {
-          "FieldRight": {
-            "Mask": "FULL",
-            "Reason": ""
-          },
+          "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 121
+          "FieldLength": 334
         }
       }
     },
     {
-      "Type": {},
-      "Value": "fugit",
-      "DisplayValue": "iste",
-      "TableRight": {},
+      "Type": null,
+      "Value": "ullam",
+      "DisplayValue": "deserunt",
+      "TableRight": null,
       "FieldProperties": {
         "fieldName": {
-          "FieldRight": {
-            "Mask": "FULL",
-            "Reason": ""
-          },
+          "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 121
+          "FieldLength": 334
         }
       }
     }
   ],
-  "UserName": "Adams-Gusikowski",
+  "UserName": "Ullrich LLC",
   "TicketCategories": [
     {
-      "Id": 588,
-      "Name": "Lind, Marvin and Feeney",
-      "ToolTip": "Laborum voluptates.",
-      "Deleted": true,
-      "Rank": 607,
-      "Type": "accusantium",
+      "Id": 709,
+      "Name": "Feeney LLC",
+      "ToolTip": "Facilis vitae.",
+      "Deleted": false,
+      "Rank": 460,
+      "Type": "sequi",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "eveniet",
-      "ColorBlock": 545,
-      "ExtraInfo": "ut",
-      "StyleHint": "dolorem",
-      "FullName": "Jerad Connelly",
-      "TableRight": {},
+      "IconHint": "consequatur",
+      "ColorBlock": 319,
+      "ExtraInfo": "veritatis",
+      "StyleHint": "reiciendis",
+      "FullName": "Anissa Miller",
+      "TableRight": null,
       "FieldProperties": {
         "fieldName": {
-          "FieldRight": {
-            "Mask": "FULL",
-            "Reason": ""
-          },
+          "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 702
+          "FieldLength": 181
         }
       }
     }
   ],
-  "NickName": "Kuhn-Murazik",
-  "WaitingForApproval": true,
+  "NickName": "Carter, Prosacco and Heaney",
+  "WaitingForApproval": false,
   "ExtraFields": {
-    "ExtraFields1": "ab",
-    "ExtraFields2": "aut"
+    "ExtraFields1": "recusandae",
+    "ExtraFields2": "labore"
   },
   "CustomFields": {
-    "CustomFields1": "labore",
-    "CustomFields2": "qui"
+    "CustomFields1": "explicabo",
+    "CustomFields2": "mollitia"
   },
   "PostSaveCommands": [
     {
-      "Name": "King, Wyman and Hintz",
-      "DisplayName": "Rempel-Ullrich",
-      "Description": "Cloned motivating monitoring",
-      "ToolTip": "In beatae.",
+      "Name": "Quigley Inc and Sons",
+      "DisplayName": "Carroll Group",
+      "Description": "Adaptive next generation emulation",
+      "ToolTip": "Odio tempore quo et ipsum quia ducimus.",
       "Actions": "Implicit",
-      "ActionData": "dolorum",
-      "TableRight": {},
+      "ActionData": "aut",
+      "TableRight": null,
       "FieldProperties": {
         "fieldName": {
-          "FieldRight": {
-            "Mask": "FULL",
-            "Reason": ""
-          },
-          "FieldType": "System.Int32",
-          "FieldLength": 858
+          "FieldRight": null,
+          "FieldType": "System.String",
+          "FieldLength": 54
         }
       }
     }
   ],
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": "morph viral e-markets"
-      },
+      "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 461
+      "FieldLength": 110
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

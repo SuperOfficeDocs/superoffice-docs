@@ -1,6 +1,6 @@
 ---
 title: POST Agents/User/GetRoleEntity
-id: v1UserAgent_GetRoleEntity
+uid: v1UserAgent_GetRoleEntity
 ---
 
 # POST Agents/User/GetRoleEntity
@@ -11,7 +11,15 @@ POST /api/v1/Agents/User/GetRoleEntity
 
 Gets a RoleEntity object.
 
-## Online Restricted: ## The User agent is not available in Online by default. User management is not allowed for partner apps
+
+
+
+## Online Restricted: ## The User agent is not available in Online by default. User management is not allowed for partner apps.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -21,9 +29,10 @@ Gets a RoleEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/User/GetRoleEntity?roleEntityId=415
+POST /api/v1/Agents/User/GetRoleEntity?roleEntityId=860
 POST /api/v1/Agents/User/GetRoleEntity?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -38,16 +47,16 @@ POST /api/v1/Agents/User/GetRoleEntity?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response: object
 
-Carrier object for RoleEntity.
-Services for the RoleEntity Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IUserAgent">User Agent</see>.
+## Response: 
+
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -66,154 +75,40 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/User/GetRoleEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 89,
-  "Name": "Hand, Padberg and Bartoletti",
-  "Tooltip": "harum",
+  "RoleId": 775,
+  "Name": "Feil, Yost and Bayer",
+  "Tooltip": "atque",
   "RoleType": "Anonymous",
-  "Deleted": 522,
-  "Rank": 778,
-  "Created": "2015-06-28T18:28:50.5664469+02:00",
-  "UseCategories": 16,
-  "CreatedBy": {
-    "AssociateId": 681,
-    "Name": "Boyle LLC",
-    "PersonId": 843,
-    "Rank": 833,
-    "Tooltip": "libero",
-    "Type": "AnonymousAssociate",
-    "GroupIdx": 342,
-    "FullName": "Luther Waters",
-    "FormalName": "Hintz Inc and Sons",
-    "Deleted": true,
-    "EjUserId": 437,
-    "UserName": "Hane-Yost",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.Int32",
-        "FieldLength": 590
-      }
-    }
-  },
-  "Updated": "2018-03-02T18:28:50.5664469+01:00",
-  "UpdatedBy": {
-    "AssociateId": 884,
-    "Name": "Strosin-Hermiston",
-    "PersonId": 690,
-    "Rank": 638,
-    "Tooltip": "voluptatem",
-    "Type": "AnonymousAssociate",
-    "GroupIdx": 422,
-    "FullName": "Ivory Morissette PhD",
-    "FormalName": "Baumbach-Spencer",
-    "Deleted": false,
-    "EjUserId": 106,
-    "UserName": "Rodriguez, Swaniawski and Gleichner",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.Int32",
-        "FieldLength": 319
-      }
-    }
-  },
-  "DataRights": {
-    "ColumnsInfo": [
-      {},
-      {}
-    ],
-    "RowsInfo": [
-      {},
-      {}
-    ],
-    "Rights": [
-      [
-        {
-          "Value": "accusantium",
-          "Description": "Organic stable software",
-          "TableRight": {
-            "Mask": "Delete",
-            "Reason": ""
-          },
-          "FieldProperties": {
-            "fieldName": {
-              "FieldRight": {
-                "Mask": "FULL",
-                "Reason": ""
-              },
-              "FieldType": "System.String",
-              "FieldLength": 891
-            }
-          }
-        }
-      ],
-      [
-        {
-          "Value": "doloribus",
-          "Description": "Open-architected reciprocal approach",
-          "TableRight": {
-            "Mask": "Delete",
-            "Reason": ""
-          },
-          "FieldProperties": {
-            "fieldName": {
-              "FieldRight": {
-                "Mask": "FULL",
-                "Reason": ""
-              },
-              "FieldType": "System.String",
-              "FieldLength": 714
-            }
-          }
-        }
-      ]
-    ],
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 155
-      }
-    }
-  },
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "Deleted": 938,
+  "Rank": 71,
+  "Created": "2002-06-03T11:10:28.383207+02:00",
+  "UseCategories": 881,
+  "CreatedBy": null,
+  "Updated": "1999-05-22T11:10:28.383207+02:00",
+  "UpdatedBy": null,
+  "DataRights": null,
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": "disintermediate cross-media e-markets"
-      },
+      "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 227
+      "FieldLength": 884
     }
   }
 }

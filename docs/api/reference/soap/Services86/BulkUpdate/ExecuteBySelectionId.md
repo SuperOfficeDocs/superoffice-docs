@@ -21,6 +21,7 @@ Do the batchupdate on this selection
 
 **Returns:** Return batchtaskinfoid
 
+
 [WSDL file for Services86/BulkUpdate](../Services86-BulkUpdate.md)
 
 Obtain a ticket from the [Services86/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -99,6 +100,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## ExecuteBySelectionId Response
 
 ```xml
@@ -119,3 +121,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

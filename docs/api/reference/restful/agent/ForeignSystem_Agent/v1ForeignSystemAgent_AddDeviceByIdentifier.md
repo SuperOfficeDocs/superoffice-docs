@@ -1,6 +1,6 @@
 ---
 title: POST Agents/ForeignSystem/AddDeviceByIdentifier
-id: v1ForeignSystemAgent_AddDeviceByIdentifier
+uid: v1ForeignSystemAgent_AddDeviceByIdentifier
 ---
 
 # POST Agents/ForeignSystem/AddDeviceByIdentifier
@@ -11,6 +11,12 @@ POST /api/v1/Agents/ForeignSystem/AddDeviceByIdentifier
 
 Adds a new ForeignDevice with deviceName that belongs to the application with applicationName, with an optional device-specific identifier.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Adds a new ForeignDevice with deviceName that belongs to the application with ap
 ```http
 POST /api/v1/Agents/ForeignSystem/AddDeviceByIdentifier?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,9 +42,9 @@ POST /api/v1/Agents/ForeignSystem/AddDeviceByIdentifier?$select=name,department,
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-ApplicationName, DeviceName, DeviceIdentifier
+ApplicationName, DeviceName, DeviceIdentifier 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -45,18 +52,16 @@ ApplicationName, DeviceName, DeviceIdentifier
 | DeviceName | string |  |
 | DeviceIdentifier | string |  |
 
-## Response: object
 
-Saves a foreign device belonging to the ForeignDevice and application name specified.
+## Response: 
 
-Carrier object for ForeignDevice.
-Services for the ForeignDevice Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IForeignSystemAgent">ForeignSystem Agent</see>.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -72,48 +77,44 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/ForeignSystem/AddDeviceByIdentifier
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Hand, Schmidt and Treutel",
-  "DeviceName": "Goyette, Mitchell and Dietrich",
-  "DeviceIdentifier": "occaecati"
+  "ApplicationName": "Lebsack-Greenholt",
+  "DeviceName": "Sawayn Inc and Sons",
+  "DeviceIdentifier": "iste"
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignDeviceId": 891,
-  "Name": "Sporer, Barton and Rolfson",
-  "CreatedDate": "2013-09-20T18:28:49.2090869+02:00",
-  "UpdatedDate": "2015-08-30T18:28:49.2090869+02:00",
-  "AssociateFullName": "Kailyn Rice",
-  "CreatedBy": "minima",
-  "UpdatedBy": "laborum",
-  "DeviceIdentifier": "vel",
-  "ForeignAppId": 335,
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "ForeignDeviceId": 913,
+  "Name": "Bernhard-Kerluke",
+  "CreatedDate": "1996-07-07T11:10:27.0794526+02:00",
+  "UpdatedDate": "2013-09-01T11:10:27.0794526+02:00",
+  "AssociateFullName": "Deborah Heller",
+  "CreatedBy": "asperiores",
+  "UpdatedBy": "magni",
+  "DeviceIdentifier": "ut",
+  "ForeignAppId": 366,
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
+      "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 256
+      "FieldLength": 772
     }
   }
 }

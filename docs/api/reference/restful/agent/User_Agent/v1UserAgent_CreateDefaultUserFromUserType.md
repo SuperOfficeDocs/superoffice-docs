@@ -1,6 +1,6 @@
 ---
 title: POST Agents/User/CreateDefaultUserFromUserType
-id: v1UserAgent_CreateDefaultUserFromUserType
+uid: v1UserAgent_CreateDefaultUserFromUserType
 ---
 
 # POST Agents/User/CreateDefaultUserFromUserType
@@ -11,9 +11,16 @@ POST /api/v1/Agents/User/CreateDefaultUserFromUserType
 
 Create default User providing the user type.
 
+
 Only System and Anonymous users can be created without an exsisting person.  Use CreateDefaultUserFromUserTypeAndPersonId to create internal (i.e. Employee) or external users.
 
-## Online Restricted: ## The User agent is not available in Online by default. User management is not allowed for partner apps
+
+## Online Restricted: ## The User agent is not available in Online by default. User management is not allowed for partner apps.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -24,6 +31,7 @@ Only System and Anonymous users can be created without an exsisting person.  Use
 ```http
 POST /api/v1/Agents/User/CreateDefaultUserFromUserType?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -39,26 +47,24 @@ POST /api/v1/Agents/User/CreateDefaultUserFromUserType?$select=name,department,c
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-UserType
+UserType 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | UserType | string |  |
 
-## Response: object
 
-SuperOffice User, with login credentials and an associated person.
+## Response: 
 
-Carrier object for User.
-Services for the User Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IUserAgent">User Agent</see>.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -68,9 +74,9 @@ Response body: object
 | Tooltip | string | Tooltip or other description |
 | LicenseOwners | array | The restricted and unrestricted module licenses grouped by license owner. These module licenses are either assigned or unassigned to this user |
 | Role |  | Users role for role-based security. Determines permissions and access rights for the user. |
-| UserGroup |  | The main user group that this user belongs to.  <br />Use MDO List name "usergroup" to get list items. |
-| OtherGroups | array | The other groups this user is a member of, apart from the main user group.  <br />Use MDO List name "usergroup" to get list items. |
-| Person |  | The person associated with this user. Detailed information about the user  <br />Use MDO List name "person_new" to get list items. |
+| UserGroup |  | The main user group that this user belongs to.  <para>Use MDO List name "usergroup" to get list items.</para> |
+| OtherGroups | array | The other groups this user is a member of, apart from the main user group.  <para>Use MDO List name "usergroup" to get list items.</para> |
+| Person |  | The person associated with this user. Detailed information about the user  <para>Use MDO List name "person_new" to get list items.</para> |
 | Deleted | bool | If true, the user is retired and should have no rights, not appear in lists, etc. |
 | Lastlogin | date-time | Last login date |
 | Lastlogout | date-time | Last logout date |
@@ -81,7 +87,7 @@ Response body: object
 | IsOnTravel | bool | True if the user is on travel. |
 | Credentials | array | List of credentials registered for this user. i.e. valid authentication methods. |
 | UserName | string | User name, a.k.a. Login name. This might be an e-mail address. |
-| TicketCategories | array | Request Ticket Categories assigned to the user.   <br />Use MDO List name "ejCategory" to get list items. |
+| TicketCategories | array | Request Ticket Categories assigned to the user.   <para>Use MDO List name "ejCategory" to get list items.</para> |
 | NickName | string | The unique nick name for this user. Used in Service as an alias, similar to Name/Initials. |
 | WaitingForApproval | bool | The user is waiting for an administrator to approve/grant her/him access. |
 | ExtraFields | object | Deprecated: Use {SuperOffice.CRM.Services.User.CustomFields} instead. Extra fields added to the carrier. This could be data from Plug-ins, the foreign key system, external applications, etc. |
@@ -90,7 +96,7 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/User/CreateDefaultUserFromUserType
@@ -104,19 +110,21 @@ Content-Type: application/json; charset=utf-8
 }
 ```
 
+## Sample response
+
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 966,
-  "Name": "Will, Parker and Konopelski",
-  "Rank": 520,
-  "Tooltip": "omnis",
+  "AssociateId": 923,
+  "Name": "Quitzon-Vandervort",
+  "Rank": 130,
+  "Tooltip": "dolorum",
   "LicenseOwners": [
     {
-      "Name": "Jaskolski, Marvin and Mayert",
-      "Description": "Advanced incremental application",
+      "Name": "Lynch-Trantow",
+      "Description": "Progressive human-resource collaboration",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -125,21 +133,18 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "TableRight": {},
+      "TableRight": null,
       "FieldProperties": {
         "fieldName": {
-          "FieldRight": {
-            "Mask": "FULL",
-            "Reason": ""
-          },
-          "FieldType": "System.Int32",
-          "FieldLength": 426
+          "FieldRight": null,
+          "FieldType": "System.String",
+          "FieldLength": 433
         }
       }
     },
     {
-      "Name": "Jaskolski, Marvin and Mayert",
-      "Description": "Advanced incremental application",
+      "Name": "Lynch-Trantow",
+      "Description": "Progressive human-resource collaboration",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -148,242 +153,134 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "TableRight": {},
+      "TableRight": null,
       "FieldProperties": {
         "fieldName": {
-          "FieldRight": {
-            "Mask": "FULL",
-            "Reason": ""
-          },
-          "FieldType": "System.Int32",
-          "FieldLength": 426
+          "FieldRight": null,
+          "FieldType": "System.String",
+          "FieldLength": 433
         }
       }
     }
   ],
-  "Role": {
-    "Id": 989,
-    "Value": "corrupti",
-    "Tooltip": "mollitia",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 994
-      }
-    }
-  },
-  "UserGroup": {
-    "Value": "eius",
-    "Tooltip": "rerum",
-    "Id": 645,
-    "Rank": 781,
-    "Deleted": false,
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 725
-      }
-    }
-  },
+  "Role": null,
+  "UserGroup": null,
   "OtherGroups": [
     {
-      "Value": "nihil",
-      "Tooltip": "qui",
-      "Id": 23,
-      "Rank": 246,
+      "Value": "est",
+      "Tooltip": "illum",
+      "Id": 950,
+      "Rank": 813,
       "Deleted": false,
-      "TableRight": {},
+      "TableRight": null,
       "FieldProperties": {
         "fieldName": {
-          "FieldRight": {
-            "Mask": "FULL",
-            "Reason": ""
-          },
-          "FieldType": "System.String",
-          "FieldLength": 510
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 718
         }
       }
     }
   ],
-  "Person": {
-    "Position": "veritatis",
-    "PersonId": 49,
-    "Mrmrs": "eligendi",
-    "Firstname": "Jarvis",
-    "Lastname": "Weissnat",
-    "MiddleName": "Welch-Schaden",
-    "Title": "dolores",
-    "Description": "Secured impactful task-force",
-    "Email": "tre.ankunding@larsonschulist.biz",
-    "FullName": "Kelton Murazik",
-    "DirectPhone": "731.163.4135 x1005",
-    "FormalName": "Wunsch Group",
-    "CountryId": 860,
-    "ContactId": 292,
-    "ContactName": "Emmerich Inc and Sons",
-    "Retired": 314,
-    "Rank": 661,
-    "ActiveInterests": 272,
-    "ContactDepartment": "",
-    "ContactCountryId": 112,
-    "ContactOrgNr": "1251421",
-    "FaxPhone": "1-380-610-7517",
-    "MobilePhone": "1-343-618-8177",
-    "ContactPhone": "234.604.8724 x7012",
-    "AssociateName": "Haley LLC",
-    "AssociateId": 316,
-    "UsePersonAddress": true,
-    "ContactFax": "rerum",
-    "Kanafname": "sint",
-    "Kanalname": "perspiciatis",
-    "Post1": "et",
-    "Post2": "aut",
-    "Post3": "repellendus",
-    "EmailName": "kellen@mullerprosacco.com",
-    "ContactFullName": "Vince Hahn",
-    "ActiveErpLinks": 699,
-    "TicketPriorityId": 369,
-    "SupportLanguageId": 554,
-    "SupportAssociateId": 879,
-    "CategoryName": "VIP Customer",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.Int32",
-        "FieldLength": 472
-      }
-    }
-  },
+  "Person": null,
   "Deleted": true,
-  "Lastlogin": "2003-09-18T18:28:50.4764133+02:00",
-  "Lastlogout": "2007-08-22T18:28:50.4764133+02:00",
-  "EjUserId": 889,
-  "RequestSignature": "qui",
+  "Lastlogin": "2019-09-15T11:10:28.4392086+02:00",
+  "Lastlogout": "1998-10-23T11:10:28.4392086+02:00",
+  "EjUserId": 788,
+  "RequestSignature": "beatae",
   "Type": "AnonymousAssociate",
   "IsPersonRetired": false,
   "IsOnTravel": true,
   "Credentials": [
     {
-      "Type": {},
-      "Value": "neque",
-      "DisplayValue": "culpa",
-      "TableRight": {},
+      "Type": null,
+      "Value": "odit",
+      "DisplayValue": "laborum",
+      "TableRight": null,
       "FieldProperties": {
         "fieldName": {
-          "FieldRight": {
-            "Mask": "FULL",
-            "Reason": ""
-          },
+          "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 682
+          "FieldLength": 32
         }
       }
     },
     {
-      "Type": {},
-      "Value": "neque",
-      "DisplayValue": "culpa",
-      "TableRight": {},
+      "Type": null,
+      "Value": "odit",
+      "DisplayValue": "laborum",
+      "TableRight": null,
       "FieldProperties": {
         "fieldName": {
-          "FieldRight": {
-            "Mask": "FULL",
-            "Reason": ""
-          },
+          "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 682
+          "FieldLength": 32
         }
       }
     }
   ],
-  "UserName": "Kutch-Lindgren",
+  "UserName": "Harber LLC",
   "TicketCategories": [
     {
-      "Id": 659,
-      "Name": "Connelly Group",
-      "ToolTip": "Accusamus harum enim hic.",
-      "Deleted": true,
-      "Rank": 364,
-      "Type": "qui",
+      "Id": 972,
+      "Name": "Russel Inc and Sons",
+      "ToolTip": "Recusandae repudiandae modi quidem sit.",
+      "Deleted": false,
+      "Rank": 153,
+      "Type": "tenetur",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "doloribus",
-      "ColorBlock": 218,
-      "ExtraInfo": "eveniet",
-      "StyleHint": "aut",
-      "FullName": "Russ Funk",
-      "TableRight": {},
+      "IconHint": "dicta",
+      "ColorBlock": 735,
+      "ExtraInfo": "animi",
+      "StyleHint": "eum",
+      "FullName": "Kyleigh Predovic",
+      "TableRight": null,
       "FieldProperties": {
         "fieldName": {
-          "FieldRight": {
-            "Mask": "FULL",
-            "Reason": ""
-          },
-          "FieldType": "System.String",
-          "FieldLength": 734
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 617
         }
       }
     }
   ],
-  "NickName": "Huels, Kozey and Donnelly",
+  "NickName": "Berge, Lindgren and Mayer",
   "WaitingForApproval": true,
   "ExtraFields": {
-    "ExtraFields1": "laborum",
-    "ExtraFields2": "illum"
+    "ExtraFields1": "voluptas",
+    "ExtraFields2": "esse"
   },
   "CustomFields": {
-    "CustomFields1": "ut",
-    "CustomFields2": "omnis"
+    "CustomFields1": "quisquam",
+    "CustomFields2": "sit"
   },
   "PostSaveCommands": [
     {
-      "Name": "Streich, Schuster and Jaskolski",
-      "DisplayName": "Borer Inc and Sons",
-      "Description": "Customizable responsive pricing structure",
-      "ToolTip": "Dolor nam reprehenderit ipsa.",
+      "Name": "Schmitt-Bergstrom",
+      "DisplayName": "Hermiston-Wintheiser",
+      "Description": "Compatible bifurcated access",
+      "ToolTip": "Aut laborum.",
       "Actions": "Implicit",
-      "ActionData": "expedita",
-      "TableRight": {},
+      "ActionData": "neque",
+      "TableRight": null,
       "FieldProperties": {
         "fieldName": {
-          "FieldRight": {
-            "Mask": "FULL",
-            "Reason": ""
-          },
+          "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 725
+          "FieldLength": 946
         }
       }
     }
   ],
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
+      "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 208
+      "FieldLength": 411
     }
   }
 }

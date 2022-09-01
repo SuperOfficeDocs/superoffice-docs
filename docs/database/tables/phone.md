@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "phone"
-so.date: 04.12.2022
+so.date: 08.26.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -36,6 +36,7 @@ Contact and Person phonenumbers (+fax)
 |validTo|Valid to date for this record|DateTime|&#x25CF;|
 |searchPhoneNumber|Stripped phone number for searching, takes over for search_phone|String(239)|&#x25CF;|
 
+
 ![phone table relationship diagram](./media/phone.png)
 
 [!include[details](./includes/phone.md)]
@@ -57,6 +58,7 @@ Contact and Person phonenumbers (+fax)
 |[contact](contact.md)  |Companies and Organizations.   This table features a special record containing information about the contact that owns the database.   |
 |[person](person.md)  |Persons in a company or an organizations. All associates have a corresponding person record |
 
+
 ## Replication Flags
 
 * Area Management controlled table. Contents replicated to satellites and traveller databases.
@@ -66,3 +68,4 @@ Contact and Person phonenumbers (+fax)
 ## Security Flags
 
 * Sentry controls access to items in this table using user's Role and data rights matrix on the table's parent.
+

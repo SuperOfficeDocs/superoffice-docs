@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Project/CreateDefaultProjectEntity
-id: v1ProjectAgent_CreateDefaultProjectEntity
+uid: v1ProjectAgent_CreateDefaultProjectEntity
 ---
 
 # POST Agents/Project/CreateDefaultProjectEntity
@@ -11,7 +11,14 @@ POST /api/v1/Agents/Project/CreateDefaultProjectEntity
 
 Set default values into a new ProjectEntity.
 
+
 NetServer calculates default values on the entity, which is required when creating/storing a new instance
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -26,18 +33,16 @@ NetServer calculates default values on the entity, which is required when creati
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response: object
 
-The Project Service. The service implements all services working with the Project object
+## Response: 
 
-Carrier object for ProjectEntity.
-Services for the ProjectEntity Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IProjectAgent">Project Agent</see>.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -52,9 +57,9 @@ Response body: object
 | Postit | string | The actual text, max 2047 significant characters even though it is stored as a larger data type on some databases |
 | CreatedBy |  | The person that created the project |
 | UpdatedBy |  | The person that last updated the project |
-| Associate |  | The person that created the project  <br />Use MDO List name "associate" to get list items. |
-| ProjectStatus |  | Project status is a list defined by the database administrator. Different statuses of a project may be: “In planning”, “Started”, “Finished” and so on  <br />Use MDO List name "projectstatus" to get list items. |
-| ProjectType |  | Project type is a list defined by the database admin. for example: 'Large', 'Small', 'Party'...  <br />Use MDO List name "projecttype" to get list items. |
+| Associate |  | The person that created the project  <para>Use MDO List name "associate" to get list items.</para> |
+| ProjectStatus |  | Project status is a list defined by the database administrator. Different statuses of a project may be: “In planning”, “Started”, “Finished” and so on  <para>Use MDO List name "projectstatus" to get list items.</para> |
+| ProjectType |  | Project type is a list defined by the database admin. for example: 'Large', 'Small', 'Party'...  <para>Use MDO List name "projecttype" to get list items.</para> |
 | HasImage | bool | True if the project has an image. (This is the image that is displayed in the CRM client) |
 | ImageDescription | string | Description of the project image if it exists. (This is the image that is displayed in the CRM client) |
 | ActiveStatusMonitorId | int32 | Active status monitor identity with the lowest rank for project |
@@ -75,7 +80,7 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Project/CreateDefaultProjectEntity
@@ -84,252 +89,134 @@ Accept: application/json; charset=utf-8
 Accept-Language: en
 ```
 
+## Sample response
+
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 993,
-  "Name": "Kertzmann, White and Boehm",
-  "ProjectNumber": "836543",
+  "ProjectId": 213,
+  "Name": "Bahringer, Klein and Kovacek",
+  "ProjectNumber": "417768",
   "ProjectMembers": [
     {
-      "ProjectmemberId": 376,
-      "ContactId": 975,
-      "ProjectId": 136,
-      "ContactName": "Johnston, McKenzie and Kautzer",
+      "ProjectmemberId": 468,
+      "ContactId": 961,
+      "ProjectId": 919,
+      "ContactName": "Kerluke LLC",
       "ContactDepartment": "",
-      "ProjectName": "Walsh, Ziemann and Reichel",
-      "EmailId": 529,
-      "EmailAddress": "janet@trantow.biz",
-      "CountryId": 846,
-      "Firstname": "Emelia",
-      "MiddleName": "Schmitt-Bernier",
-      "Lastname": "Ankunding",
-      "PersonId": 643,
-      "Mrmrs": "voluptas",
-      "ProjectMemberTypeName": "Satterfield, Kozey and Sanford",
-      "Phone": "(667)572-1886",
-      "PhoneId": 891,
-      "ProjectMemberTypeId": 630,
-      "EmailAddressName": "pamela@leannonmaggio.ca",
-      "Comment": "reprehenderit",
-      "FullName": "Amiya Runolfsson",
-      "TableRight": {},
+      "ProjectName": "Zboncak, Mohr and Wintheiser",
+      "EmailId": 873,
+      "EmailAddress": "tianna.koelpin@mcdermott.co.uk",
+      "CountryId": 523,
+      "Firstname": "Michelle",
+      "MiddleName": "Haley, Yundt and Jaskolski",
+      "Lastname": "Kuhn",
+      "PersonId": 942,
+      "Mrmrs": "qui",
+      "ProjectMemberTypeName": "Wilderman-Luettgen",
+      "Phone": "441.741.2508 x0579",
+      "PhoneId": 572,
+      "ProjectMemberTypeId": 735,
+      "EmailAddressName": "caitlyn@schoen.uk",
+      "Comment": "eos",
+      "FullName": "Dr. Queen Cruickshank",
+      "TableRight": null,
       "FieldProperties": {
         "fieldName": {
-          "FieldRight": {
-            "Mask": "FULL",
-            "Reason": ""
-          },
+          "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 782
+          "FieldLength": 571
         }
       }
     }
   ],
   "Urls": [
     {
-      "Value": "officia",
-      "StrippedValue": "architecto",
-      "Description": "Monitored composite help-desk",
-      "TableRight": {},
+      "Value": "necessitatibus",
+      "StrippedValue": "et",
+      "Description": "Team-oriented executive secured line",
+      "TableRight": null,
       "FieldProperties": {
         "fieldName": {
-          "FieldRight": {
-            "Mask": "FULL",
-            "Reason": ""
-          },
+          "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 588
+          "FieldLength": 263
         }
       }
     },
     {
-      "Value": "officia",
-      "StrippedValue": "architecto",
-      "Description": "Monitored composite help-desk",
-      "TableRight": {},
+      "Value": "necessitatibus",
+      "StrippedValue": "et",
+      "Description": "Team-oriented executive secured line",
+      "TableRight": null,
       "FieldProperties": {
         "fieldName": {
-          "FieldRight": {
-            "Mask": "FULL",
-            "Reason": ""
-          },
+          "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 588
+          "FieldLength": 263
         }
       }
     }
   ],
-  "CreatedDate": "2019-01-29T18:28:49.8561071+01:00",
-  "UpdatedDate": "1996-07-29T18:28:49.8561071+02:00",
-  "Description": "Open-architected upward-trending functionalities",
-  "Postit": "repudiandae",
-  "CreatedBy": {
-    "AssociateId": 444,
-    "Name": "Steuber, Schinner and Hammes",
-    "PersonId": 434,
-    "Rank": 236,
-    "Tooltip": "iure",
-    "Type": "AnonymousAssociate",
-    "GroupIdx": 702,
-    "FullName": "Miss Laverna Cole",
-    "FormalName": "Bauch-Harber",
-    "Deleted": false,
-    "EjUserId": 680,
-    "UserName": "Jast-Rempel",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 979
-      }
-    }
-  },
-  "UpdatedBy": {
-    "AssociateId": 444,
-    "Name": "Swift, Predovic and Ondricka",
-    "PersonId": 913,
-    "Rank": 259,
-    "Tooltip": "vel",
-    "Type": "AnonymousAssociate",
-    "GroupIdx": 342,
-    "FullName": "Jordyn Smitham",
-    "FormalName": "Simonis, Sauer and Bins",
-    "Deleted": true,
-    "EjUserId": 941,
-    "UserName": "Wisozk, Jast and Kozey",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.Int32",
-        "FieldLength": 475
-      }
-    }
-  },
-  "Associate": {
-    "AssociateId": 33,
-    "Name": "Spencer LLC",
-    "PersonId": 421,
-    "Rank": 457,
-    "Tooltip": "earum",
-    "Type": "AnonymousAssociate",
-    "GroupIdx": 962,
-    "FullName": "Mr. Henderson Wolff",
-    "FormalName": "McGlynn Group",
-    "Deleted": true,
-    "EjUserId": 461,
-    "UserName": "Rippin, McClure and White",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 990
-      }
-    }
-  },
-  "ProjectStatus": {
-    "Id": 474,
-    "Value": "in",
-    "Tooltip": "magnam",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 698
-      }
-    }
-  },
-  "ProjectType": {
-    "Id": 87,
-    "Value": "pariatur",
-    "Tooltip": "quae",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 37
-      }
-    }
-  },
+  "CreatedDate": "2017-09-29T11:10:27.5624235+02:00",
+  "UpdatedDate": "1998-02-05T11:10:27.5624235+01:00",
+  "Description": "Focused 6th generation capability",
+  "Postit": "velit",
+  "CreatedBy": null,
+  "UpdatedBy": null,
+  "Associate": null,
+  "ProjectStatus": null,
+  "ProjectType": null,
   "HasImage": true,
-  "ImageDescription": "Open-architected 24/7 moderator",
-  "ActiveStatusMonitorId": 825,
+  "ImageDescription": "Robust 24 hour pricing structure",
+  "ActiveStatusMonitorId": 594,
   "Links": [
     {
-      "EntityName": "Lemke, Wilkinson and Harvey",
-      "Id": 737,
-      "Description": "Multi-channelled clear-thinking superstructure",
-      "ExtraInfo": "blanditiis",
-      "LinkId": 469,
-      "TableRight": {},
+      "EntityName": "Ratke Group",
+      "Id": 990,
+      "Description": "Mandatory user-facing capability",
+      "ExtraInfo": "facere",
+      "LinkId": 113,
+      "TableRight": null,
       "FieldProperties": {
         "fieldName": {
-          "FieldRight": {
-            "Mask": "FULL",
-            "Reason": ""
-          },
-          "FieldType": "System.Int32",
-          "FieldLength": 861
+          "FieldRight": null,
+          "FieldType": "System.String",
+          "FieldLength": 209
         }
       }
     }
   ],
-  "ActiveLinks": 789,
-  "Completed": true,
-  "NextMilestoneDate": "2004-05-26T18:28:49.8581371+02:00",
-  "NmdAppointmentId": 389,
-  "EndDate": "2004-10-25T18:28:49.8581371+02:00",
-  "ActiveErpLinks": 504,
+  "ActiveLinks": 385,
+  "Completed": false,
+  "NextMilestoneDate": "2021-09-15T11:10:27.563422+02:00",
+  "NmdAppointmentId": 586,
+  "EndDate": "2011-04-08T11:10:27.563422+02:00",
+  "ActiveErpLinks": 543,
   "UserDefinedFields": {
-    "SuperOffice:1": "Pauline Wolff",
-    "SuperOffice:2": "Alfreda Kihn"
+    "SuperOffice:1": "1184938338",
+    "SuperOffice:2": "Miss Jonathon Graham"
   },
   "ExtraFields": {
-    "ExtraFields1": "qui",
-    "ExtraFields2": "fuga"
+    "ExtraFields1": "laudantium",
+    "ExtraFields2": "molestias"
   },
   "CustomFields": {
-    "CustomFields1": "exercitationem",
-    "CustomFields2": "ab"
+    "CustomFields1": "ea",
+    "CustomFields2": "ut"
   },
-  "PublishEventDate": "2018-02-02T18:28:49.8581371+01:00",
-  "PublishTo": "2007-06-02T18:28:49.8581371+02:00",
-  "PublishFrom": "2016-10-21T18:28:49.8581371+02:00",
+  "PublishEventDate": "2014-11-23T11:10:27.563422+01:00",
+  "PublishTo": "2000-08-27T11:10:27.563422+02:00",
+  "PublishFrom": "2009-08-14T11:10:27.563422+02:00",
   "IsPublished": false,
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
-      "FieldType": "System.Int32",
-      "FieldLength": 962
+      "FieldRight": null,
+      "FieldType": "System.String",
+      "FieldLength": 883
     }
   }
 }

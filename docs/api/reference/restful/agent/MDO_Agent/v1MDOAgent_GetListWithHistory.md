@@ -1,6 +1,6 @@
 ---
 title: POST Agents/MDO/GetListWithHistory
-id: v1MDOAgent_GetListWithHistory
+uid: v1MDOAgent_GetListWithHistory
 ---
 
 # POST Agents/MDO/GetListWithHistory
@@ -11,6 +11,12 @@ POST /api/v1/Agents/MDO/GetListWithHistory
 
 Method to get a MDO list with own history list.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Method to get a MDO list with own history list.
 ```http
 POST /api/v1/Agents/MDO/GetListWithHistory?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,9 +42,9 @@ POST /api/v1/Agents/MDO/GetListWithHistory?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-Name, ForceFlatList, AdditionalInfo, HistoryItems, OnlyHistory
+Name, ForceFlatList, AdditionalInfo, HistoryItems, OnlyHistory 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -47,7 +54,10 @@ Name, ForceFlatList, AdditionalInfo, HistoryItems, OnlyHistory
 | HistoryItems | array |  |
 | OnlyHistory | bool |  |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -72,26 +82,28 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/MDO/GetListWithHistory
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Bosco, Torp and Halvorson",
-  "ForceFlatList": true,
-  "AdditionalInfo": "beatae",
+  "Name": "Kris Inc and Sons",
+  "ForceFlatList": false,
+  "AdditionalInfo": "voluptate",
   "HistoryItems": [
-    429,
-    819
+    124,
+    960
   ],
   "OnlyHistory": false
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -99,59 +111,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 240,
-    "Name": "Schamberger LLC",
-    "ToolTip": "Error esse aut aut.",
-    "Deleted": true,
-    "Rank": 380,
-    "Type": "error",
+    "Id": 433,
+    "Name": "Lowe, Bernhard and Champlin",
+    "ToolTip": "Doloribus illum molestias voluptatem est ipsam iusto et.",
+    "Deleted": false,
+    "Rank": 493,
+    "Type": "sit",
     "ChildItems": [
       {
-        "Id": 88,
-        "Name": "Waelchi Inc and Sons",
-        "ToolTip": "Doloremque et eligendi blanditiis illum.",
+        "Id": 341,
+        "Name": "Kessler-Pacocha",
+        "ToolTip": "Quibusdam temporibus tempore est.",
         "Deleted": false,
-        "Rank": 696,
-        "Type": "mollitia",
+        "Rank": 485,
+        "Type": "amet",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "minima",
-        "ColorBlock": 376,
-        "ExtraInfo": "vero",
-        "StyleHint": "rerum",
-        "FullName": "Mrs. Rory Rempel",
-        "TableRight": {},
+        "IconHint": "non",
+        "ColorBlock": 536,
+        "ExtraInfo": "minima",
+        "StyleHint": "et",
+        "FullName": "Effie Marvin",
+        "TableRight": null,
         "FieldProperties": {
           "fieldName": {
-            "FieldRight": {
-              "Mask": "FULL",
-              "Reason": ""
-            },
-            "FieldType": "System.Int32",
-            "FieldLength": 538
+            "FieldRight": null,
+            "FieldType": "System.String",
+            "FieldLength": 431
           }
         }
       }
     ],
-    "IconHint": "natus",
-    "ColorBlock": 583,
-    "ExtraInfo": "quaerat",
-    "StyleHint": "nisi",
-    "FullName": "Aubree Upton I",
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": "drive B2B solutions"
-    },
+    "IconHint": "quis",
+    "ColorBlock": 545,
+    "ExtraInfo": "est",
+    "StyleHint": "impedit",
+    "FullName": "Esther Steuber",
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 937
+        "FieldRight": null,
+        "FieldType": "System.Int32",
+        "FieldLength": 870
       }
     }
   }

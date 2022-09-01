@@ -1,6 +1,6 @@
 ---
 title: POST Agents/BLOB/GetBlobEntityOnCountry
-id: v1BLOBAgent_GetBlobEntityOnCountry
+uid: v1BLOBAgent_GetBlobEntityOnCountry
 ---
 
 # POST Agents/BLOB/GetBlobEntityOnCountry
@@ -11,6 +11,12 @@ POST /api/v1/Agents/BLOB/GetBlobEntityOnCountry
 
 Gets the blob entity that represents the country flag binary object.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Gets the blob entity that represents the country flag binary object.
 ```http
 POST /api/v1/Agents/BLOB/GetBlobEntityOnCountry?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,24 +42,24 @@ POST /api/v1/Agents/BLOB/GetBlobEntityOnCountry?$select=name,department,category
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-CountryId
+CountryId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | CountryId | int32 |  |
 
-## Response: object
 
-Carrier object for BlobEntity.
-Services for the BlobEntity Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IBLOBAgent">BLOB Agent</see>.
+## Response: 
+
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -72,7 +79,7 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/BLOB/GetBlobEntityOnCountry
@@ -82,88 +89,36 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "CountryId": 438
+  "CountryId": 334
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 539,
-  "BlobSize": 577,
-  "Description": "Profound fault-tolerant firmware",
-  "ExtraInfo": "voluptatem",
+  "BlobId": 106,
+  "BlobSize": 644,
+  "Description": "Upgradable empowering leverage",
+  "ExtraInfo": "aut",
   "IsEncrypted": true,
   "IsZipped": false,
-  "MimeType": "officiis",
-  "OriginalSize": 83,
-  "CreatedDate": "1997-08-27T18:28:48.1621236+02:00",
-  "UpdatedDate": "2005-03-20T18:28:48.1621236+01:00",
-  "CreatedBy": {
-    "AssociateId": 252,
-    "Name": "Harvey-Senger",
-    "PersonId": 729,
-    "Rank": 463,
-    "Tooltip": "et",
-    "Type": "AnonymousAssociate",
-    "GroupIdx": 272,
-    "FullName": "River Gerlach",
-    "FormalName": "Thiel, Ratke and Trantow",
-    "Deleted": true,
-    "EjUserId": 853,
-    "UserName": "Padberg LLC",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.Int32",
-        "FieldLength": 9
-      }
-    }
-  },
-  "UpdatedBy": {
-    "AssociateId": 225,
-    "Name": "Cartwright-Howell",
-    "PersonId": 335,
-    "Rank": 918,
-    "Tooltip": "et",
-    "Type": "AnonymousAssociate",
-    "GroupIdx": 884,
-    "FullName": "Jerry Spencer",
-    "FormalName": "Larkin Group",
-    "Deleted": true,
-    "EjUserId": 382,
-    "UserName": "Kuhlman-Reinger",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.Int32",
-        "FieldLength": 499
-      }
-    }
-  },
-  "ConceptualType": "incidunt",
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "MimeType": "totam",
+  "OriginalSize": 169,
+  "CreatedDate": "2017-06-10T11:10:26.0345529+02:00",
+  "UpdatedDate": "1999-02-23T11:10:26.0345529+01:00",
+  "CreatedBy": null,
+  "UpdatedBy": null,
+  "ConceptualType": "quos",
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
+      "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 426
+      "FieldLength": 358
     }
   }
 }

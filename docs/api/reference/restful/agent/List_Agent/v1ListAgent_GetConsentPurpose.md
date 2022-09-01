@@ -1,6 +1,6 @@
 ---
 title: POST Agents/List/GetConsentPurpose
-id: v1ListAgent_GetConsentPurpose
+uid: v1ListAgent_GetConsentPurpose
 ---
 
 # POST Agents/List/GetConsentPurpose
@@ -11,6 +11,12 @@ POST /api/v1/Agents/List/GetConsentPurpose
 
 Gets a ConsentPurpose object.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -19,9 +25,10 @@ Gets a ConsentPurpose object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetConsentPurpose?consentPurposeId=279
+POST /api/v1/Agents/List/GetConsentPurpose?consentPurposeId=9
 POST /api/v1/Agents/List/GetConsentPurpose?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -36,16 +43,16 @@ POST /api/v1/Agents/List/GetConsentPurpose?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response: object
 
-Carrier object for ConsentPurpose.
-Services for the ConsentPurpose Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IListAgent">List Agent</see>.
+## Response: 
+
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -65,7 +72,7 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/List/GetConsentPurpose
@@ -74,60 +81,32 @@ Accept: application/json; charset=utf-8
 Accept-Language: en
 ```
 
+## Sample response
+
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConsentPurposeId": 992,
-  "Name": "Mueller Inc and Sons",
-  "ConsentText": "eligendi",
-  "FormText": "rem",
-  "Key": "voluptates",
-  "Tooltip": "dolor",
-  "Active": 178,
-  "UpdatedDate": "2001-03-17T18:28:49.4190895+01:00",
-  "UpdatedBy": {
-    "AssociateId": 874,
-    "Name": "Dibbert, Tillman and Kutch",
-    "PersonId": 257,
-    "Rank": 581,
-    "Tooltip": "minima",
-    "Type": "AnonymousAssociate",
-    "GroupIdx": 518,
-    "FullName": "Kenton Leffler",
-    "FormalName": "Roob LLC",
-    "Deleted": true,
-    "EjUserId": 654,
-    "UserName": "Corkery Inc and Sons",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 522
-      }
-    }
-  },
+  "ConsentPurposeId": 916,
+  "Name": "Shanahan Group",
+  "ConsentText": "provident",
+  "FormText": "et",
+  "Key": "tempora",
+  "Tooltip": "ducimus",
+  "Active": 85,
+  "UpdatedDate": "1996-06-22T11:10:27.2734531+02:00",
+  "UpdatedBy": null,
   "Deleted": false,
-  "Rank": 106,
-  "PrivacyStatementDesc": "dolores",
+  "Rank": 496,
+  "PrivacyStatementDesc": "est",
   "PrivacyStatementUrl": "http://www.example.com/",
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
+      "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 807
+      "FieldLength": 473
     }
   }
 }

@@ -1,6 +1,6 @@
 ---
 title: POST Agents/EMail/CreateDefaultEMailSOInfo
-id: v1EMailAgent_CreateDefaultEMailSOInfo
+uid: v1EMailAgent_CreateDefaultEMailSOInfo
 ---
 
 # POST Agents/EMail/CreateDefaultEMailSOInfo
@@ -11,9 +11,17 @@ POST /api/v1/Agents/EMail/CreateDefaultEMailSOInfo
 
 Set default values into a new EMailSOInfo.
 
+
 NetServer calculates default values on the entity, which is required when creating/storing a new instance
 
-## Online Restricted: ## The EMail agent is not available in Online by default. Access must be requested specifically when app is registered
+
+## Online Restricted: ## The EMail agent is not available in Online by default. Access must be requested specifically when app is registered.
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -28,18 +36,16 @@ NetServer calculates default values on the entity, which is required when creati
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response: object
 
-Glue between SuperOffice data and an e-mail.
+## Response: 
 
-Carrier object for EMailSOInfo.
-Services for the EMailSOInfo Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IEMailAgent">EMail Agent</see>.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -54,40 +60,36 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/EMail/CreateDefaultEMailSOInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 194,
-  "AppointmentId": 106,
-  "ProjectId": 323,
-  "SaleId": 119,
-  "Archived": false,
-  "ArchivedAt": "2010-05-21T18:28:49.0889573+02:00",
-  "ArchivedBy": 671,
-  "ArchivedDisplayName": "Swaniawski LLC",
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "DocumentId": 957,
+  "AppointmentId": 848,
+  "ProjectId": 744,
+  "SaleId": 944,
+  "Archived": true,
+  "ArchivedAt": "2018-03-29T11:10:26.8994524+02:00",
+  "ArchivedBy": 237,
+  "ArchivedDisplayName": "Hammes LLC",
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
-      "FieldType": "System.String",
-      "FieldLength": 608
+      "FieldRight": null,
+      "FieldType": "System.Int32",
+      "FieldLength": 565
     }
   }
 }

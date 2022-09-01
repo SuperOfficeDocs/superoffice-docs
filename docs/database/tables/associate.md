@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "associate"
-so.date: 04.12.2022
+so.date: 08.26.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -47,6 +47,7 @@ Employees, resources and other users - except for External persons
 |userName|Associate user name|String(254)|&#x25CF;|
 |waiting\_for\_approval|0 = Approved (default). 1 = Associate/User must be approved by an administrator. User cannot log in while waiting, but can be assigned licenses. Used in Online.|Bool| |
 
+
 ![associate table relationship diagram](./media/associate.png)
 
 [!include[details](./includes/associate.md)]
@@ -65,8 +66,8 @@ Employees, resources and other users - except for External persons
 | Table|  Description |
 |------|-------------|
 |[address](address.md)  |Contact and Person addresses |
-|[AddressFormat](addressformat.md)  |Address formats for GUI and labels. |
-|[AmountClass](amountclass.md)  |Amount Class list for SuperOffice Sales Intelligence (Saint) - used to group sales by amounts, into bins (low --&gt; high) called amount classes.  |
+|[AddressFormat](addressformat.md)  |Address formats for GUI and labels. See more information: Addressformat on http://techdoc.superoffice.com |
+|[AmountClass](amountclass.md)  |Amount Class list for SuperOffice Sales Intelligence (Saint) - used to group sales by amounts, into bins (low --&gt; high) called amount classes. More information regarding SuperOffice Sales Intelligence on http://techdoc.superoffice.com  |
 |[AmountClassGroupLink](amountclassgrouplink.md)  |User group link table for AmountClass, for MDO item hiding |
 |[AmountClassHeadingLink](amountclassheadinglink.md)  |Heading link table for AmountClass, for MDO headers |
 |[appointment](appointment.md)  |Tasks, appointments, followups, phone calls; and documents (document_id != 0). An appointment always has a corresponding record in VisibleFor specifying who may see this.  |
@@ -98,6 +99,7 @@ Employees, resources and other users - except for External persons
 |[Comptr](comptr.md)  |Comptr list table. List of all possible competitors (sale). |
 |[ComptrGroupLink](comptrgrouplink.md)  |User group link table for Comptr, for MDO item hiding |
 |[ComptrHeadingLink](comptrheadinglink.md)  |Heading link table for Comptr, for MDO headers |
+|[ConfigurableScreenAppliesTo](configurablescreenappliesto.md)  |Mapping between recipes in scil and chosen type of data (appliesToKey) to differ layouts on |
 |[ConfigurableScreenDelta](configurablescreendelta.md)  |Parts of recipes in SCIL to insert or remove in given recipes |
 |[ConnectionConfigField](connectionconfigfield.md)  |Configuration data for Erp and Quote Connections |
 |[ConsentPerson](consentperson.md)  |Link table that defines who has which consents |
@@ -152,7 +154,7 @@ Employees, resources and other users - except for External persons
 |[ErpConnector](erpconnector.md)  |One ERP Connector, known by its URL |
 |[ErpExternalKey](erpexternalkey.md)  |The external (ERP-facing) key related to a synchronized record / connection |
 |[ErpField](erpfield.md)  |Store the metadata describing the fields that belong to an actor/connection combination, as described by the Erp Connector |
-|[ErpInternalKey](erpinternalkey.md)  |The internal (SuperOffice-facing) key related to a synchronized record |
+|[ErpInternalKey](erpinternalkey.md)  |The internal (superoffice-facing) key related to a synchronized record |
 |[ErpListItemMapping](erplistitemmapping.md)  |Defines a mapping of ERP to CRM fields, per connection and actor type |
 |[ErpSyncLog](erpsynclog.md)  |Record all field changes done by the Erp Sync |
 |[ExtApp](extapp.md)  |ExtApp list table. Applications startable from SuperOffice |
@@ -174,7 +176,7 @@ Employees, resources and other users - except for External persons
 |[ImportField](importfield.md)  |Import object types - see localetext for names |
 |[ImportObject](importobject.md)  |Import object types - see localetext for names. |
 |[ImportRelation](importrelation.md)  |Relations between import objects |
-|[Intent](intent.md)  |Intent list for SAINT.  |
+|[Intent](intent.md)  |Intent list for SAINT. More information regarding SuperOffice Sales Intelligence on http://techdoc.superoffice.com  |
 |[IntentGroupLink](intentgrouplink.md)  |User group link table for Intent, for MDO item hiding |
 |[IntentHeadingLink](intentheadinglink.md)  |Heading link table for Intent, for MDO headers |
 |[invitation](invitation.md)  |Invitations to events |
@@ -220,7 +222,7 @@ Employees, resources and other users - except for External persons
 |[PMembType](pmembtype.md)  |PMembType list table. List text of titles (member types) for project members. |
 |[PMembTypeGroupLink](pmembtypegrouplink.md)  |User group link table for PMembType, for MDO item hiding |
 |[PMembTypeHeadingLink](pmembtypeheadinglink.md)  |Heading link table for PMembType, for MDO headers |
-|[PrefDesc](prefdesc.md)  |Preference description, drives the Preference GUI. Maintenance client - controls all preferences in SuperOffice. May be used by third-party developers to add system preferences to be updated from SuperOffice Maintenance client, instead of ini-files.  |
+|[PrefDesc](prefdesc.md)  |Preference description, drives the Preference GUI. Maintenance client - controls all preferences in SuperOffice. You find an overview off all standard preference on http://techdoc.superoffice.com.  May be used by third-party developers to add system preferences to be updated from SuperOffice Maintenance client, instead of ini-files.  |
 |[PrefDescLine](prefdescline.md)  |Preference description - multiple choice line - drives the Preference GUI. May be used by third-party developers to add system preferences to be updated from SuperOffice Maintenance client, instead of ini-files. |
 |[preference](preference.md)  |Not quite obsolete preference table; historical info mostly. From 6.1 this table now holds an upgrade stamp. |
 |[PriceList](pricelist.md)  |List of prices, cached from an ERP system |
@@ -258,8 +260,14 @@ Employees, resources and other users - except for External persons
 |[quick\_reply](quick-reply.md)  |Personal quick reply text fragments |
 |[Quote](quote.md)  |Quote root level, at most one per Sale, always connected to one Sale |
 |[QuoteAlternative](quotealternative.md)  |Quote Version is made up of one or more Alternatives. One of 1..n possible alternatives in a Quote Version. The reason we have alternatives is that a quote can say to a customer, “we can solve you problem in two (or more) different ways, with different technology and sideeffects (and price)”. An Alternative may have discounts on the total amount. The Alternative tracks whether the user on the order level entered the Discount , Earning amount or the TotalPrice fields so that the discount and earning and total can be re-calculated correctly when Quote Lines are added or changed. |
+|[QuoteApprReason](quoteapprreason.md)  |Predefined reasons for quote approval |
+|[QuoteApprReasonGroupLink](quoteapprreasongrouplink.md)  |User group link table for QuoteApprReason, for MDO item hiding |
+|[QuoteApprReasonHeadingLink](quoteapprreasonheadinglink.md)  |Heading link table for QuoteApprReason, for MDO headers |
 |[QuoteConnection](quoteconnection.md)  |Primary key in the CRM database. Definition of a connection to an external system, for the Quote system. |
 |[QuoteConnectionAccess](quoteconnectionaccess.md)  |Access control for Quote Connections |
+|[QuoteDenyReason](quotedenyreason.md)  |Predefined reasons for quote denial |
+|[QuoteDenyReasonGroupLink](quotedenyreasongrouplink.md)  |User group link table for QuoteDenyReason, for MDO item hiding |
+|[QuoteDenyReasonHeadingLink](quotedenyreasonheadinglink.md)  |Heading link table for QuoteDenyReason, for MDO headers |
 |[QuoteLine](quoteline.md)  |One line in a QuoteAlternative. QuoteLines are mainly information copied from the Products provider. Products information is sometimes edited by the user before being included in the quote, so most information is duplicated from Product rather than referenced directly. |
 |[QuoteLineConfiguration](quotelineconfiguration.md)  |Configuration of quote lines - which fields are in use, rights, labels etc |
 |[QuoteVersion](quoteversion.md)  |There may be multiple Versions of a Quote, with one of them active |
@@ -286,7 +294,7 @@ Employees, resources and other users - except for External persons
 |[RelDefHeadingLink](reldefheadinglink.md)  |Heading link table for RelDef, for MDO headers |
 |[ReporterListDef](reporterlistdef.md)  |Reporter definitions |
 |[ResourceOverride](resourceoverride.md)  |Generic mechanism for overriding (or even defining new) text resources, in multiple languages |
-|[Role](role.md)  |User roles for role-based security, names and tooltips are in LocaleText. |
+|[Role](role.md)  |User roles for role-based security, names and tooltips are in LocaleText. For more information regarding role based security, see http://techdoc.superoffice.com |
 |[s\_link](s-link.md)  |Links in messages to measure success rate of a campaign. |
 |[s\_message](s-message.md)  |A message used in a shipment. Can be html and/or plain text |
 |[s\_messageblock](s-messageblock.md)  |Contains a block of a mailing message, that can be reused in a mailing |
@@ -354,6 +362,7 @@ Employees, resources and other users - except for External persons
 |[target\_assignment\_info](target-assignment-info.md)  |Linking associate, company or user group target and other information with target values |
 |[target\_assignment\_value](target-assignment-value.md)  |A set of values linked to assignment info and a period in a target group. |
 |[target\_change](target-change.md)  |A single field change. |
+|[target\_dimension](target-dimension.md)  |Defining target dimension |
 |[target\_group](target-group.md)  |Info about a set of (sales, project, selection...) targets |
 |[target\_period](target-period.md)  |A set of periods linked with target amounts for users/usergroups and the target groups/years. |
 |[target\_revision](target-revision.md)  |One batch of changes made to targets |
@@ -369,7 +378,7 @@ Employees, resources and other users - except for External persons
 |[ticket\_type](ticket-type.md)  |Contains ticket types, used to drive processing logic together with ticket relations |
 |[travelcurrent](travelcurrent.md)  |Information about this database and its place in the hierarchy |
 |[travelgenerateddatabase](travelgenerateddatabase.md)  |Information about all databases generated from this database |
-|[travelgeneratedtransaction](travelgeneratedtransaction.md)  |Record of all generated replication data files from this database (\*.dwn files from mother database to child, \*.up from child database to mother) |
+|[travelgeneratedtransaction](travelgeneratedtransaction.md)  |Record of all generated replication data files from this database (*.dwn files from mother database to child, *.up from child database to mother) |
 |[travelidmapping](travelidmapping.md)  |Mapping of primary keys between Travel databases and the mother database  All travel database transactions get a high id to be able to see that this entry came from a database outside the central database. When update files are read into the central database, they get a normal low id. This table remembers the high travel id to map it to the low central id as long as this travel user is travelling.  |
 |[traveller](traveller.md)  |Associates traveling out from this database |
 |[traveltransactionlog](traveltransactionlog.md)  |Log of all updates made to the database, that need to be replicated. |
@@ -387,7 +396,7 @@ Employees, resources and other users - except for External persons
 |[URL](url.md)  |Unified Resource Locators, URL to contacts, persons or projects. |
 |[UsageStats](usagestats.md)  |Usage statistics |
 |[UserGroup](usergroup.md)  |Secondary user groups |
-|[UserGroupLink](usergrouplink.md)  |Link table between associate and usergroup, specifies secondary group membership. From SIX an associate may belong to more than one usergroup. |
+|[UserGroupLink](usergrouplink.md)  |Link table between associate and usergroup, specifies secondary group membership. From SIX an associate may belong to more than one usergroup. Http://techdoc.superoffice.com has more information about how roles are implemented. |
 |[UserPreference](userpreference.md)  |Preference system. If deflevel is set to 5; the user may change the preferences |
 |[UserRoleLink](userrolelink.md)  |Link between user role and user |
 |[VisibleFor](visiblefor.md)  |Visible for rights, who may see this appointment/document, sale,  salehist or selection |
@@ -395,6 +404,7 @@ Employees, resources and other users - except for External persons
 |[Webhook](webhook.md)  |Webhook URL to call when events occur in the client or in NetServer. Also tracks call+error statistics. |
 |[Webhook\_usage](webhook-usage.md)  |Webhook usage statistics - tracks call+error statistics. Same primary key as the webhook. |
 |[WinPosSize](winpossize.md)  |Stores the position and size of each window, so they can be shown in the same place again |
+
 
 ## Replication Flags
 
@@ -406,3 +416,4 @@ Employees, resources and other users - except for External persons
 ## Security Flags
 
 * Sentry controls access to items in this table using user's Role and data rights matrix.
+

@@ -17,6 +17,7 @@ Gets all PreferenceDescription-items in the specified section
 
 **Returns:** All PreferenceDescriptions found.
 
+
 [WSDL file for Services84/Preference](../Services84-Preference.md)
 
 Obtain a ticket from the [Services84/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -48,6 +49,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+
 
 ## GetAllFromSection Response
 
@@ -84,3 +86,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

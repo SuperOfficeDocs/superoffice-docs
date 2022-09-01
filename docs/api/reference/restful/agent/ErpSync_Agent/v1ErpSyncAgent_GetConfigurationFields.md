@@ -1,6 +1,6 @@
 ---
 title: POST Agents/ErpSync/GetConfigurationFields
-id: v1ErpSyncAgent_GetConfigurationFields
+uid: v1ErpSyncAgent_GetConfigurationFields
 ---
 
 # POST Agents/ErpSync/GetConfigurationFields
@@ -11,7 +11,15 @@ POST /api/v1/Agents/ErpSync/GetConfigurationFields
 
 Returns all fields needed to connect to the given connector
 
-## Online Restricted: ## The ErpSync agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for ERP integration apps
+
+
+
+## Online Restricted: ## The ErpSync agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for ERP integration apps.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +30,7 @@ Returns all fields needed to connect to the given connector
 ```http
 POST /api/v1/Agents/ErpSync/GetConfigurationFields?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,15 +46,18 @@ POST /api/v1/Agents/ErpSync/GetConfigurationFields?$select=name,department,categ
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-ErpConnectorId
+ErpConnectorId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | ErpConnectorId | int32 |  |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -68,7 +80,7 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/ErpSync/GetConfigurationFields
@@ -78,9 +90,11 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectorId": 294
+  "ErpConnectorId": 612
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -88,28 +102,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "FieldKey": "cumque",
-    "Rank": 496,
-    "DisplayName": "Emmerich, Tromp and Wisozk",
-    "DisplayDescription": "Switchable radical definition",
+    "FieldKey": "ipsam",
+    "Rank": 570,
+    "DisplayName": "Ferry Group",
+    "DisplayDescription": "Re-engineered full-range knowledge base",
     "FieldType": "Checkbox",
-    "ListName": "Goodwin Inc and Sons",
-    "DefaultValue": "nisi",
-    "MaxLength": 735,
+    "ListName": "Auer, Runolfsdottir and Raynor",
+    "DefaultValue": "quia",
+    "MaxLength": 75,
     "Access": "Mandatory",
-    "ShowInSearch": true,
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "ShowInSearch": false,
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.Int32",
-        "FieldLength": 820
+        "FieldRight": null,
+        "FieldType": "System.String",
+        "FieldLength": 358
       }
     }
   }

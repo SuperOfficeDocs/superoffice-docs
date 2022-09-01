@@ -1,6 +1,6 @@
 ---
 title: GET List/DeliveryType/Items/{id}/UserGroups
-id: v1DeliveryTypeList_GetDeliveryTypeUserGroupsForListItem
+uid: v1DeliveryTypeList_GetDeliveryTypeUserGroupsForListItem
 ---
 
 # GET List/DeliveryType/Items/{id}/UserGroups
@@ -11,11 +11,18 @@ GET /api/v1/List/DeliveryType/Items/{itemId}/UserGroups
 
 Gets user groups visible for the DeliveryType list's item.
 
+
 Calls the List agent service GetHeadings.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | itemId | int32 | The ID of the item to get. **Required** |
+
+
 
 ## Request Headers
 
@@ -30,7 +37,10 @@ Calls the List agent service GetHeadings.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -58,7 +68,7 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 GET /api/v1/List/DeliveryType/Items/{itemId}/UserGroups
@@ -67,71 +77,64 @@ Accept: application/json; charset=utf-8
 Accept-Language: sv
 ```
 
+## Sample response
+
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 327,
-    "Name": "Bauch-O'Keefe",
-    "ToolTip": "A facere non iste.",
+    "Id": 242,
+    "Name": "Block-Johns",
+    "ToolTip": "Ratione tempora velit quia.",
     "Deleted": false,
-    "Rank": 797,
-    "Type": "non",
-    "ColorBlock": 471,
-    "IconHint": "accusamus",
+    "Rank": 692,
+    "Type": "fugit",
+    "ColorBlock": 49,
+    "IconHint": "vero",
     "Selected": false,
-    "LastChanged": "2011-08-18T18:25:51.8143352+02:00",
+    "LastChanged": "2016-04-27T11:10:54.2648972+02:00",
     "ChildItems": [
       {
-        "Id": 445,
-        "Name": "Halvorson, Abbott and Schaefer",
-        "ToolTip": "Et enim omnis enim quae blanditiis provident.",
+        "Id": 669,
+        "Name": "Rutherford-Spencer",
+        "ToolTip": "Omnis ut dolorem voluptas ut.",
         "Deleted": false,
-        "Rank": 9,
-        "Type": "incidunt",
-        "ColorBlock": 371,
-        "IconHint": "modi",
+        "Rank": 523,
+        "Type": "illum",
+        "ColorBlock": 101,
+        "IconHint": "animi",
         "Selected": true,
-        "LastChanged": "2005-11-07T18:25:51.8143352+01:00",
+        "LastChanged": "2015-01-08T11:10:54.2648972+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "nulla",
-        "StyleHint": "non",
-        "Hidden": true,
-        "FullName": "Kenya Watsica",
-        "TableRight": {},
+        "ExtraInfo": "nobis",
+        "StyleHint": "id",
+        "Hidden": false,
+        "FullName": "Miss Sigurd Mathew Price Sr.",
+        "TableRight": null,
         "FieldProperties": {
           "fieldName": {
-            "FieldRight": {
-              "Mask": "FULL",
-              "Reason": ""
-            },
-            "FieldType": "System.String",
-            "FieldLength": 531
+            "FieldRight": null,
+            "FieldType": "System.Int32",
+            "FieldLength": 93
           }
         }
       }
     ],
-    "ExtraInfo": "ipsum",
-    "StyleHint": "quia",
+    "ExtraInfo": "nisi",
+    "StyleHint": "ullam",
     "Hidden": false,
-    "FullName": "Alivia Brown Sr.",
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": "evolve strategic eyeballs"
-    },
+    "FullName": "Vincent Kshlerin",
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
+        "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 864
+        "FieldLength": 636
       }
     }
   }

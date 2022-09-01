@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "kb_category_log"
-so.date: 04.12.2022
+so.date: 08.26.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -25,6 +25,7 @@ Who and when, if somebody edits a knowledge base folder
 |kb\_category\_id|The id of the kb_category that triggered this action.|FK [kb_category](kb-category.md)| |
 |user\_id|The id of the user that created this comment.|FK [ejuser](ejuser.md)| |
 |log\_when|When the action occured.|DateTime|&#x25CF;|
+
 
 ![kb_category_log table relationship diagram](./media/kb_category_log.png)
 
@@ -45,6 +46,7 @@ Who and when, if somebody edits a knowledge base folder
 |[ejuser](ejuser.md)  |This table contains entries for the users of the system. |
 |[kb\_category](kb-category.md)  |Knowledge base folder hierarchy |
 
+
 ## Replication Flags
 
 * None
@@ -52,3 +54,4 @@ Who and when, if somebody edits a knowledge base folder
 ## Security Flags
 
 * No access control via user's Role.
+

@@ -1,6 +1,6 @@
 ---
 title: PUT Dash/{id}
-id: v1Dash_PutDash
+uid: v1Dash_PutDash
 ---
 
 # PUT Dash/{id}
@@ -11,9 +11,15 @@ PUT /api/v1/Dash/{id}
 
 Updates the existing Dash
 
+
+
+
+
+
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | id | int32 | The Dash id to update. **Required** |
+
 
 ## Query String Parameters
 
@@ -24,6 +30,7 @@ Updates the existing Dash
 ```http
 PUT /api/v1/Dash/{id}?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -39,9 +46,9 @@ PUT /api/v1/Dash/{id}?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entity
+## Request Body: entity  
 
-The Dash to be saved.
+The Dash to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -59,18 +66,17 @@ The Dash to be saved.
 | PinForAssociates | array | Array of references to the pinned associates |
 | PinForGroups | array | Array of references to the pinned groups |
 
-## Response: object
 
-Dashboard configuration
+## Response: 
 
-Dash entity with API _Links added.
+Dash updated.
 
 | Response | Description |
 |----------------|-------------|
 | 200 | Dash updated. |
 | 400 | Bad request. Entity to save is not in request body. |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -91,114 +97,87 @@ Response body: object
 | FieldProperties | object |  |
 | _Links | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 PUT /api/v1/Dash/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 950,
-  "UniqueId": "dolores",
-  "Name": "McClure Inc and Sons",
-  "Description": "Monitored global utilisation",
-  "AssociateId": 128,
-  "Columns": 823,
-  "Theme": {
-    "DashboardThemeId": 902,
-    "Name": "Wolff, Williamson and Walker",
-    "Config": "ut",
-    "Rank": 461,
-    "Client": "soluta"
-  },
-  "VisibleForAll": 933,
+  "DashboardId": 397,
+  "UniqueId": "non",
+  "Name": "Ferry, Keeling and Rohan",
+  "Description": "Right-sized demand-driven attitude",
+  "AssociateId": 23,
+  "Columns": 795,
+  "Theme": null,
+  "VisibleForAll": 369,
   "VisibleForAssociates": [
-    905,
-    614
+    117,
+    917
   ],
   "VisibleForGroups": [
-    328,
-    437
+    107,
+    52
   ],
-  "PinForAll": 915,
+  "PinForAll": 112,
   "PinForAssociates": [
-    65,
-    421
+    36,
+    148
   ],
   "PinForGroups": [
-    903,
-    461
+    489,
+    133
   ]
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 Dash updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 850,
-  "UniqueId": "aperiam",
-  "Name": "McDermott, Friesen and Runolfsson",
-  "Description": "Reduced directional knowledge user",
-  "AssociateId": 878,
-  "Columns": 7,
-  "Theme": {
-    "DashboardThemeId": 512,
-    "Name": "Nolan, Paucek and Raynor",
-    "Config": "rem",
-    "Rank": 397,
-    "Client": "qui",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.Int32",
-        "FieldLength": 976
-      }
-    }
-  },
-  "VisibleForAll": 735,
+  "DashboardId": 752,
+  "UniqueId": "nihil",
+  "Name": "Hilpert Inc and Sons",
+  "Description": "De-engineered assymetric infrastructure",
+  "AssociateId": 161,
+  "Columns": 958,
+  "Theme": null,
+  "VisibleForAll": 719,
   "VisibleForAssociates": [
-    832,
-    464
+    192,
+    808
   ],
   "VisibleForGroups": [
-    822,
-    384
+    398,
+    88
   ],
-  "PinForAll": 665,
+  "PinForAll": 223,
   "PinForAssociates": [
-    498,
-    824
+    921,
+    62
   ],
   "PinForGroups": [
-    638,
-    240
+    47,
+    978
   ],
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
-      "FieldType": "System.String",
-      "FieldLength": 646
+      "FieldRight": null,
+      "FieldType": "System.Int32",
+      "FieldLength": 738
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

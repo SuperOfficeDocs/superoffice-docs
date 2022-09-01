@@ -1,6 +1,6 @@
 ---
 title: GET List/Task/Headings
-id: v1TaskList_GetTaskListItemHeadings
+uid: v1TaskList_GetTaskListItemHeadings
 ---
 
 # GET List/Task/Headings
@@ -11,7 +11,14 @@ GET /api/v1/List/Task/Headings
 
 Gets headings for the TaskListItem list.
 
+
 Calls the Appointment agent service GetGetHeadingsFromListDefinition.
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -26,7 +33,10 @@ Calls the Appointment agent service GetGetHeadingsFromListDefinition.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -45,14 +55,16 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 GET /api/v1/List/Task/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -60,24 +72,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 380,
-    "Name": "Barrows LLC",
-    "Tooltip": "magnam",
+    "HeadingId": 841,
+    "Name": "Terry, Beatty and Berge",
+    "Tooltip": "nihil",
     "Deleted": true,
-    "Rank": 523,
-    "UdListDefinitionId": 897,
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "Rank": 421,
+    "UdListDefinitionId": 173,
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.Int32",
-        "FieldLength": 493
+        "FieldRight": null,
+        "FieldType": "System.String",
+        "FieldLength": 20
       }
     }
   }

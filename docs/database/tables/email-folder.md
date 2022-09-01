@@ -6,14 +6,14 @@ so.generated: true
 keywords:
   - "database"
   - "email_folder"
-so.date: 04.12.2022
+so.date: 08.26.2022
 so.topic: reference
 so.envir:
   - "onsite"
   - "online"
 ---
 
-# email\_folder Table (481)
+# email\_folder Table (482)
 
 Corresponds to an email folder on a mail server
 
@@ -32,6 +32,7 @@ Corresponds to an email folder on a mail server
 |updated\_associate\_id|Last updated by whom|FK [associate](associate.md)| |
 |updatedCount|Number of updates made to this record|UShort| |
 |folder\_separator|Character separating subfolders|String(255)|&#x25CF;|
+
 
 ![email_folder table relationship diagram](./media/email_folder.png)
 
@@ -53,6 +54,7 @@ Corresponds to an email folder on a mail server
 |[email\_folder](email-folder.md)  |Corresponds to an email folder on a mail server |
 |[email\_item](email-item.md)  |Email data |
 
+
 ## Replication Flags
 
 * None
@@ -60,3 +62,4 @@ Corresponds to an email folder on a mail server
 ## Security Flags
 
 * No access control via user's Role.
+

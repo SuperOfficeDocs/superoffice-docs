@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "udsalelarge"
-so.date: 04.12.2022
+so.date: 08.26.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -32,6 +32,7 @@ User-defined fields
 |string48|string value 48, not indexed|String(199)|&#x25CF;|
 |string49|string value 49, not indexed|String(199)|&#x25CF;|
 
+
 ![udsalelarge table relationship diagram](./media/udsalelarge.png)
 
 [!include[details](./includes/udsalelarge.md)]
@@ -53,6 +54,7 @@ User-defined fields
 |[sale](sale.md)  |Sales  For every Sale record edited through the SuperOffice GUI, a copy of the current version of the record will be saved in the SaleHist table. This also applies to editing done through the SaleModel COM interface, but not to editing done through the OLE DB Provider or other channels.   |
 |[SaleHist](salehist.md)  |Mirror image of the Sale table, providing a full transaction history. Every time you edit a sale, the current record of the sale is also saved here.  |
 
+
 ## Replication Flags
 
 * Area Management controlled table. Contents replicated to satellites and traveller databases.
@@ -62,3 +64,4 @@ User-defined fields
 ## Security Flags
 
 * Sentry controls access to items in this table using user's Role and data rights matrix on the table's parent.
+

@@ -6,14 +6,14 @@ so.generated: true
 keywords:
   - "database"
   - "email_attachment"
-so.date: 04.12.2022
+so.date: 08.26.2022
 so.topic: reference
 so.envir:
   - "onsite"
   - "online"
 ---
 
-# email\_attachment Table (484)
+# email\_attachment Table (485)
 
 Attachment info related to an email_item
 
@@ -30,6 +30,7 @@ Attachment info related to an email_item
 |type|Attachment type|String(255)|&#x25CF;|
 |encoding|The attachment encoding|String(255)|&#x25CF;|
 |size|Attachment file size|Int|&#x25CF;|
+
 
 ![email_attachment table relationship diagram](./media/email_attachment.png)
 
@@ -48,6 +49,7 @@ Attachment info related to an email_item
 |------|-------------|
 |[email\_item](email-item.md)  |Email data |
 
+
 ## Replication Flags
 
 * None
@@ -55,3 +57,4 @@ Attachment info related to an email_item
 ## Security Flags
 
 * No access control via user's Role.
+

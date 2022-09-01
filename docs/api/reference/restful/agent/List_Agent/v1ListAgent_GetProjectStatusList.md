@@ -1,6 +1,6 @@
 ---
 title: POST Agents/List/GetProjectStatusList
-id: v1ListAgent_GetProjectStatusList
+uid: v1ListAgent_GetProjectStatusList
 ---
 
 # POST Agents/List/GetProjectStatusList
@@ -11,6 +11,12 @@ POST /api/v1/Agents/List/GetProjectStatusList
 
 Gets an array of ProjectStatus objects.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Gets an array of ProjectStatus objects.
 ```http
 POST /api/v1/Agents/List/GetProjectStatusList?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,11 +42,15 @@ POST /api/v1/Agents/List/GetProjectStatusList?$select=name,department,category/i
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: projectStatusIds
+## Request Body: projectStatusIds  
 
-The primary keys.
+The primary keys. 
+
+
 
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -55,7 +66,7 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/List/GetProjectStatusList
@@ -64,46 +75,36 @@ Accept: application/json; charset=utf-8
 Accept-Language: en
 ```
 
+## Sample response
+
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 603,
-    "Value": "sit",
-    "Tooltip": "rem",
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "Id": 428,
+    "Value": "doloribus",
+    "Tooltip": "qui",
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": "morph viral ROI"
-        },
-        "FieldType": "System.Int32",
-        "FieldLength": 529
+        "FieldRight": null,
+        "FieldType": "System.String",
+        "FieldLength": 441
       }
     }
   },
   {
-    "Id": 603,
-    "Value": "sit",
-    "Tooltip": "rem",
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "Id": 428,
+    "Value": "doloribus",
+    "Tooltip": "qui",
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": "morph viral ROI"
-        },
-        "FieldType": "System.Int32",
-        "FieldLength": 529
+        "FieldRight": null,
+        "FieldType": "System.String",
+        "FieldLength": 441
       }
     }
   }

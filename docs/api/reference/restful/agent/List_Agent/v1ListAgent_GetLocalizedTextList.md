@@ -1,6 +1,6 @@
 ---
 title: POST Agents/List/GetLocalizedTextList
-id: v1ListAgent_GetLocalizedTextList
+uid: v1ListAgent_GetLocalizedTextList
 ---
 
 # POST Agents/List/GetLocalizedTextList
@@ -11,6 +11,12 @@ POST /api/v1/Agents/List/GetLocalizedTextList
 
 Gets an array of LocalizedText objects.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Gets an array of LocalizedText objects.
 ```http
 POST /api/v1/Agents/List/GetLocalizedTextList?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,11 +42,15 @@ POST /api/v1/Agents/List/GetLocalizedTextList?$select=name,department,category/i
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: localizedTextIds
+## Request Body: localizedTextIds  
 
-The primary keys.
+The primary keys. 
+
+
 
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -58,14 +69,16 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/List/GetLocalizedTextList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -73,24 +86,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "LanguageId": 625,
-    "ResourceId": 496,
-    "Text": "voluptatem",
+    "LanguageId": 694,
+    "ResourceId": 403,
+    "Text": "est",
     "Type": "Column",
-    "LocalizedTextId": 820,
+    "LocalizedTextId": 637,
     "IsBuiltIn": true,
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": "benchmark back-end architectures"
-        },
+        "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 932
+        "FieldLength": 739
       }
     }
   }

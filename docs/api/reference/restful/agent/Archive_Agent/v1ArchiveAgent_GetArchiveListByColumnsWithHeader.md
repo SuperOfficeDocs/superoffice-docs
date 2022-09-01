@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Archive/GetArchiveListByColumnsWithHeader
-id: v1ArchiveAgent_GetArchiveListByColumnsWithHeader
+uid: v1ArchiveAgent_GetArchiveListByColumnsWithHeader
 ---
 
 # POST Agents/Archive/GetArchiveListByColumnsWithHeader
@@ -11,17 +11,39 @@ POST /api/v1/Agents/Archive/GetArchiveListByColumnsWithHeader
 
 Get a page of results for an archive list, explicitly specifying the restrictions, orderby and chosen columns; as well as a name/value string formatted set of options.
 
-The return value includes a header that has various extra information, in addition to the actual rows.
+
+The return value includes a header that has various extra information, in addition to the actual rows. 
 Archive Restriction Info objects represent search terms.
 
+
 Column names and operator strings are defined elsewhere.
+
 
 Values should be encoded using the CultureDataFormatter, so 10 is "[I:10]".
 Default string encodings should be handled ok, but beware of non-invariant cultures leading to incorrect date and float parsing.
 
-```csharp
-var restriction1 = new ArchiveRestrictionInfo("category", "equals", "[I:10]");
+
+
+
+
+
 ```
+
+var restriction1 = new ArchiveRestrictionInfo("category", "equals", "[I:10]");
+
+```
+
+
+
+
+
+
+
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -32,6 +54,7 @@ var restriction1 = new ArchiveRestrictionInfo("category", "equals", "[I:10]");
 ```http
 POST /api/v1/Agents/Archive/GetArchiveListByColumnsWithHeader?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -47,9 +70,9 @@ POST /api/v1/Agents/Archive/GetArchiveListByColumnsWithHeader?$select=name,depar
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-ProviderName, Columns, SortOrder, Restriction, Entities, Page, PageSize, Options
+ProviderName, Columns, SortOrder, Restriction, Entities, Page, PageSize, Options 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -62,18 +85,16 @@ ProviderName, Columns, SortOrder, Restriction, Entities, Page, PageSize, Options
 | PageSize | int32 |  |
 | Options | string |  |
 
-## Response: object
 
-Header/Detail variant of archive result, with a Row Count plus the actual rows. Future extensions may include other header data on the same level as the RowCount
+## Response: 
 
-Carrier object for ArchiveListResult.
-Services for the ArchiveListResult Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IArchiveAgent">Archive Agent</see>.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -82,7 +103,7 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Archive/GetArchiveListByColumnsWithHeader
@@ -92,98 +113,91 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Kunze, Larkin and Moore",
+  "ProviderName": "Schowalter-Kerluke",
   "Columns": [
-    "tempora",
-    "officia"
+    "aut",
+    "et"
   ],
   "SortOrder": [
     {
-      "Name": "Pagac Inc and Sons",
+      "Name": "Ruecker, Reinger and Zboncak",
       "Direction": "ASC"
     },
     {
-      "Name": "Pagac Inc and Sons",
+      "Name": "Ruecker, Reinger and Zboncak",
       "Direction": "ASC"
     }
   ],
   "Restriction": [
     {
-      "Name": "Dare, Halvorson and Hayes",
-      "Operator": "soluta",
+      "Name": "Hermann Inc and Sons",
+      "Operator": "aut",
       "Values": [
-        "repellat",
-        "qui"
+        "recusandae",
+        "ab"
       ],
       "DisplayValues": [
-        "ullam",
-        "veniam"
+        "voluptatum",
+        "quis"
       ],
-      "ColumnInfo": {},
+      "ColumnInfo": null,
       "IsActive": false,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 187,
+      "InterParenthesis": 711,
       "InterOperator": "And",
-      "UniqueHash": 619
+      "UniqueHash": 262
     }
   ],
   "Entities": [
-    "et",
-    "hic"
+    "corporis",
+    "et"
   ],
-  "Page": 457,
-  "PageSize": 975,
-  "Options": "natus"
+  "Page": 935,
+  "PageSize": 875,
+  "Options": "ut"
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RowCount": 459,
+  "RowCount": 7,
   "Rows": [
     {
-      "EntityName": "Bernier LLC",
-      "PrimaryKey": 956,
+      "EntityName": "Koelpin-Raynor",
+      "PrimaryKey": 220,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "nisi",
-          "TooltipHint": "natus",
-          "LinkHint": "quisquam"
+          "DisplayValue": "ut",
+          "TooltipHint": "hic",
+          "LinkHint": "nihil"
         }
       },
-      "LinkHint": "quibusdam",
-      "StyleHint": "corrupti",
-      "TableRight": {},
+      "LinkHint": "dolores",
+      "StyleHint": "corporis",
+      "TableRight": null,
       "FieldProperties": {
         "fieldName": {
-          "FieldRight": {
-            "Mask": "FULL",
-            "Reason": ""
-          },
+          "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 120
+          "FieldLength": 59
         }
       }
     }
   ],
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": "evolve world-class e-tailers"
-      },
-      "FieldType": "System.String",
-      "FieldLength": 753
+      "FieldRight": null,
+      "FieldType": "System.Int32",
+      "FieldLength": 626
     }
   }
 }

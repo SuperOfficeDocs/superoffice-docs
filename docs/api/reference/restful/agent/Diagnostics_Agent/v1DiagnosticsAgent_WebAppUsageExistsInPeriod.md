@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Diagnostics/WebAppUsageExistsInPeriod
-id: v1DiagnosticsAgent_WebAppUsageExistsInPeriod
+uid: v1DiagnosticsAgent_WebAppUsageExistsInPeriod
 ---
 
 # POST Agents/Diagnostics/WebAppUsageExistsInPeriod
@@ -11,7 +11,13 @@ POST /api/v1/Agents/Diagnostics/WebAppUsageExistsInPeriod
 
 Returns true if viewState has been clicked at least once since FromDate, if asscoiateId &lt; 0 or FromDate is DateTime.
 
+
 MinValue no restriction given for those parameters
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +28,7 @@ MinValue no restriction given for those parameters
 ```http
 POST /api/v1/Agents/Diagnostics/WebAppUsageExistsInPeriod?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,9 +44,9 @@ POST /api/v1/Agents/Diagnostics/WebAppUsageExistsInPeriod?$select=name,departmen
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-AssociateId, ViewState, FromDate
+AssociateId, ViewState, FromDate 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -47,7 +54,10 @@ AssociateId, ViewState, FromDate
 | ViewState | string |  |
 | FromDate | date-time |  |
 
+
 ## Response: bool
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -55,25 +65,28 @@ AssociateId, ViewState, FromDate
 
 Response body: bool
 
-## Sample Request
+
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Diagnostics/WebAppUsageExistsInPeriod
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 331,
-  "ViewState": "temporibus",
-  "FromDate": "1998-01-05T18:28:48.7029564+01:00"
+  "AssociateId": 422,
+  "ViewState": "impedit",
+  "FromDate": "2019-01-11T11:10:26.454455+01:00"
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-true
+false
 ```

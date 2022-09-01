@@ -1,6 +1,6 @@
 ---
 title: GET Selection/{id}/CriteriaGroups
-id: v1SelectionEntity_GetDynamicSelectionCriteriaGroups
+uid: v1SelectionEntity_GetDynamicSelectionCriteriaGroups
 ---
 
 # GET Selection/{id}/CriteriaGroups
@@ -11,11 +11,18 @@ GET /api/v1/Selection/{selectionId}/CriteriaGroups
 
 Get the criteria for this dynamic selection.
 
+
 This call supports multiple criteria groups.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | selectionId | int32 | The id of the selection to add members **Required** |
+
+
 
 ## Request Headers
 
@@ -30,7 +37,10 @@ This call supports multiple criteria groups.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -45,14 +55,16 @@ Response body: array
 | Rank | int32 |  |
 | Restrictions | array |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 GET /api/v1/Selection/{selectionId}/CriteriaGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -60,58 +72,58 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Kuphal-Bartoletti",
-    "Description": "Exclusive exuding internet solution",
-    "Rank": 238,
+    "Name": "DuBuque-Rodriguez",
+    "Description": "Optimized static parallelism",
+    "Rank": 939,
     "Restrictions": [
       {
-        "Name": "Hoppe, Howell and Torp",
-        "Operator": "sed",
+        "Name": "Lang-Ziemann",
+        "Operator": "eos",
         "Values": [
-          "fugiat",
-          "eos"
+          "sint",
+          "voluptatem"
         ],
         "DisplayValues": [
-          "iure",
-          "porro"
+          "consequuntur",
+          "assumenda"
         ],
-        "ColumnInfo": {},
+        "ColumnInfo": null,
         "IsActive": false,
         "SubRestrictions": [
           {},
           {}
         ],
-        "InterParenthesis": 739,
+        "InterParenthesis": 829,
         "InterOperator": "And",
-        "UniqueHash": 184
+        "UniqueHash": 319
       }
     ]
   },
   {
-    "Name": "Kuphal-Bartoletti",
-    "Description": "Exclusive exuding internet solution",
-    "Rank": 238,
+    "Name": "DuBuque-Rodriguez",
+    "Description": "Optimized static parallelism",
+    "Rank": 939,
     "Restrictions": [
       {
-        "Name": "Hoppe, Howell and Torp",
-        "Operator": "sed",
+        "Name": "Lang-Ziemann",
+        "Operator": "eos",
         "Values": [
-          "fugiat",
-          "eos"
+          "sint",
+          "voluptatem"
         ],
         "DisplayValues": [
-          "iure",
-          "porro"
+          "consequuntur",
+          "assumenda"
         ],
-        "ColumnInfo": {},
+        "ColumnInfo": null,
         "IsActive": false,
         "SubRestrictions": [
           {},
           {}
         ],
-        "InterParenthesis": 739,
+        "InterParenthesis": 829,
         "InterOperator": "And",
-        "UniqueHash": 184
+        "UniqueHash": 319
       }
     ]
   }

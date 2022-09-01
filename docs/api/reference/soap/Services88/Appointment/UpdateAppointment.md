@@ -13,12 +13,14 @@ Implemented by the <see cref="M:SuperOffice.Services88.IAppointmentAgent.UpdateA
 
 Updates an appointment record.
 
-* **id:**
-* **startTime:**
-* **endTime:**
-* **status:**
-* **type:**
+* **id:** 
+* **startTime:** 
+* **endTime:** 
+* **status:** 
+* **type:** 
 * **associateId:** The appointment owner's id (associate id)
+
+
 
 [WSDL file for Services88/Appointment](../Services88-Appointment.md)
 
@@ -45,8 +47,8 @@ Application tokens must be specified if calling an Online installation. Applicat
  <SOAP-ENV:Body>
    <Appointment:UpdateAppointment>
     <Appointment:Id xsi:type="xsd:int">0</Appointment:Id>
-    <Appointment:StartTime xsi:type="xsd:dateTime">2021-11-30T13:23:31Z</Appointment:StartTime>
-    <Appointment:EndTime xsi:type="xsd:dateTime">2021-11-30T13:23:31Z</Appointment:EndTime>
+    <Appointment:StartTime xsi:type="xsd:dateTime">2022-08-26T08:58:20Z</Appointment:StartTime>
+    <Appointment:EndTime xsi:type="xsd:dateTime">2022-08-26T08:58:20Z</Appointment:EndTime>
     <Appointment:Status xsi:type="xsd:int">0</Appointment:Status>
     <Appointment:Type xsi:type="xsd:int">0</Appointment:Type>
     <Appointment:AssociateId xsi:type="xsd:int">0</Appointment:AssociateId>
@@ -56,6 +58,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+
 
 ## UpdateAppointment Response
 
@@ -73,8 +76,8 @@ Application tokens must be specified if calling an Online installation. Applicat
   <Appointment:UpdateAppointmentResponse>
    <Appointment:Response xsi:type="Appointment:Appointment">
     <Appointment:AppointmentId xsi:type="xsd:int">0</Appointment:AppointmentId>
-    <Appointment:StartDate xsi:type="xsd:dateTime">2021-11-30T13:23:31Z</Appointment:StartDate>
-    <Appointment:EndDate xsi:type="xsd:dateTime">2021-11-30T13:23:31Z</Appointment:EndDate>
+    <Appointment:StartDate xsi:type="xsd:dateTime">2022-08-26T08:58:20Z</Appointment:StartDate>
+    <Appointment:EndDate xsi:type="xsd:dateTime">2022-08-26T08:58:20Z</Appointment:EndDate>
     <Appointment:Type xsi:type="Appointment:AppointmentType">Unknown</Appointment:Type>
     <Appointment:Task xsi:type="xsd:string"></Appointment:Task>
     <Appointment:AssociateFullName xsi:type="xsd:string"></Appointment:AssociateFullName>
@@ -98,14 +101,14 @@ Application tokens must be specified if calling an Online installation. Applicat
     <Appointment:IsBookingMain xsi:type="xsd:boolean">false</Appointment:IsBookingMain>
     <Appointment:IsRecurrence xsi:type="xsd:boolean">false</Appointment:IsRecurrence>
     <Appointment:IsBooking xsi:type="xsd:boolean">false</Appointment:IsBooking>
-    <Appointment:ActiveDate xsi:type="xsd:dateTime">2021-11-30T13:23:31Z</Appointment:ActiveDate>
+    <Appointment:ActiveDate xsi:type="xsd:dateTime">2022-08-26T08:58:20Z</Appointment:ActiveDate>
     <Appointment:AssignmentStatus xsi:type="Appointment:AssignmentStatus">Unknown</Appointment:AssignmentStatus>
     <Appointment:InvitationStatus xsi:type="Appointment:InvitationStatus">Unknown</Appointment:InvitationStatus>
     <Appointment:BookingType xsi:type="Appointment:BookingType">Unknown</Appointment:BookingType>
     <Appointment:Completed xsi:type="Appointment:ActivityStatus">Unknown</Appointment:Completed>
     <Appointment:RecurringPattern xsi:type="Appointment:RecurrencePattern">Unknown</Appointment:RecurringPattern>
-    <Appointment:RecurringStartDate xsi:type="xsd:dateTime">2021-11-30T13:23:31Z</Appointment:RecurringStartDate>
-    <Appointment:RecurringEndDate xsi:type="xsd:dateTime">2021-11-30T13:23:31Z</Appointment:RecurringEndDate>
+    <Appointment:RecurringStartDate xsi:type="xsd:dateTime">2022-08-26T08:58:20Z</Appointment:RecurringStartDate>
+    <Appointment:RecurringEndDate xsi:type="xsd:dateTime">2022-08-26T08:58:20Z</Appointment:RecurringEndDate>
     <Appointment:MotherId xsi:type="xsd:int">0</Appointment:MotherId>
     <Appointment:AssignedBy xsi:type="xsd:int">0</Appointment:AssignedBy>
     <Appointment:AssignedByFullName xsi:type="xsd:string"></Appointment:AssignedByFullName>
@@ -115,7 +118,7 @@ Application tokens must be specified if calling an Online installation. Applicat
     <Appointment:SaleId xsi:type="xsd:int">0</Appointment:SaleId>
     <Appointment:SaleName xsi:type="xsd:string"></Appointment:SaleName>
     <Appointment:AssociateName xsi:type="xsd:string"></Appointment:AssociateName>
-    <Appointment:CreatedDate xsi:type="xsd:dateTime">2021-11-30T13:23:31Z</Appointment:CreatedDate>
+    <Appointment:CreatedDate xsi:type="xsd:dateTime">2022-08-26T08:58:20Z</Appointment:CreatedDate>
     <Appointment:CreatedBy xsi:type="xsd:string"></Appointment:CreatedBy>
     <Appointment:CreatedByFullName xsi:type="xsd:string"></Appointment:CreatedByFullName>
     <Appointment:CreatedByAssociateId xsi:type="xsd:int">0</Appointment:CreatedByAssociateId>
@@ -127,3 +130,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

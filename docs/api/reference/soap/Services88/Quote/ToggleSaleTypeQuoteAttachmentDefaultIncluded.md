@@ -17,6 +17,7 @@ Toggle the 'default included' state of a sale type quote attachment
 
 **Returns:** The new state
 
+
 [WSDL file for Services88/Quote](../Services88-Quote.md)
 
 Obtain a ticket from the [Services88/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -49,6 +50,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## ToggleSaleTypeQuoteAttachmentDefaultIncluded Response
 
 ```xml
@@ -69,3 +71,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

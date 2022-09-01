@@ -6,14 +6,14 @@ so.generated: true
 keywords:
   - "database"
   - "target_assignment_value"
-so.date: 04.12.2022
+so.date: 08.26.2022
 so.topic: reference
 so.envir:
   - "onsite"
   - "online"
 ---
 
-# target\_assignment\_value Table (496)
+# target\_assignment\_value Table (497)
 
 A set of values linked to assignment info and a period in a target group.
 
@@ -30,6 +30,7 @@ A set of values linked to assignment info and a period in a target group.
 |updated\_associate\_id|Last updated by whom|FK [associate](associate.md)| |
 |updatedCount|Number of updates made to this record|UShort| |
 |target\_value|Target value|Double|&#x25CF;|
+
 
 ![target_assignment_value table relationship diagram](./media/target_assignment_value.png)
 
@@ -49,6 +50,7 @@ A set of values linked to assignment info and a period in a target group.
 |[target\_assignment\_info](target-assignment-info.md)  |Linking associate, company or user group target and other information with target values |
 |[target\_period](target-period.md)  |A set of periods linked with target amounts for users/usergroups and the target groups/years. |
 
+
 ## Replication Flags
 
 * None
@@ -56,3 +58,4 @@ A set of values linked to assignment info and a period in a target group.
 ## Security Flags
 
 * Sentry controls access to items in this table using user's Role and data rights matrix.
+

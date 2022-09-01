@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Project/GetProjectEventsOnPerson
-id: v1ProjectAgent_GetProjectEventsOnPerson
+uid: v1ProjectAgent_GetProjectEventsOnPerson
 ---
 
 # POST Agents/Project/GetProjectEventsOnPerson
@@ -11,7 +11,13 @@ POST /api/v1/Agents/Project/GetProjectEventsOnPerson
 
 Gets all project events that belongs to the person specified.
 
+
 The list of events are filtered by the Audience Visibility restrictions set when the project event is created.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +28,7 @@ The list of events are filtered by the Audience Visibility restrictions set when
 ```http
 POST /api/v1/Agents/Project/GetProjectEventsOnPerson?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,15 +44,18 @@ POST /api/v1/Agents/Project/GetProjectEventsOnPerson?$select=name,department,cat
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-PersonId
+PersonId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | PersonId | int32 |  |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -80,19 +90,21 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Project/GetProjectEventsOnPerson
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 683
+  "PersonId": 498
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -100,40 +112,34 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AssociateFullName": "Ms. Isai Cormier",
-    "Description": "Synergized responsive open architecture",
-    "ProjectId": 84,
-    "EventName": "Nolan, Shields and Johns",
-    "AssociateId": 536,
+    "AssociateFullName": "Mr. Bertram Keshaun Schmeler DDS",
+    "Description": "Managed hybrid capacity",
+    "ProjectId": 569,
+    "EventName": "Ortiz-Carroll",
+    "AssociateId": 587,
     "IsSignedOn": true,
-    "SignOffConfirmationText": "odio",
-    "SignOffText": "velit",
-    "SignOnConfirmationText": "nihil",
-    "SignOnText": "mollitia",
-    "EventDate": "2010-06-22T18:28:49.778139+02:00",
-    "Enabled": true,
+    "SignOffConfirmationText": "voluptatibus",
+    "SignOffText": "non",
+    "SignOnConfirmationText": "a",
+    "SignOnText": "fugit",
+    "EventDate": "2016-06-24T11:10:27.6174525+02:00",
+    "Enabled": false,
     "SignOff": false,
     "SignOffTaskEnable": false,
-    "SignOnTaskEnable": true,
-    "SignOn": false,
-    "SignOffTaskId": 943,
-    "SignOnTaskId": 4,
+    "SignOnTaskEnable": false,
+    "SignOn": true,
+    "SignOffTaskId": 402,
+    "SignOnTaskId": 468,
     "SignOffTriggersAssign": false,
-    "SignOnTriggersAssign": true,
-    "SignOnPersonId": 40,
-    "SignOffPersonId": 913,
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "SignOnTriggersAssign": false,
+    "SignOnPersonId": 260,
+    "SignOffPersonId": 42,
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
+        "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 939
+        "FieldLength": 590
       }
     }
   }

@@ -1,6 +1,6 @@
 ---
 title: DEL DashTheme/{id}
-id: v1DashTheme_DeleteDashTheme
+uid: v1DashTheme_DeleteDashTheme
 ---
 
 # DEL DashTheme/{id}
@@ -11,11 +11,18 @@ DELETE /api/v1/DashTheme/{id}
 
 Deletes the DashTheme
 
+
 Calls the Dash agent service DeleteDashTheme.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | id | int32 | The DashTheme to be deleted. **Required** |
+
+
 
 ## Request Headers
 
@@ -23,10 +30,35 @@ Calls the Dash agent service DeleteDashTheme.
 |----------------|-------------|
 | Authorization  | Supports 'Basic', 'SoTicket' and 'Bearer' schemes, depending on installation type. |
 | X-XSRF-TOKEN   | If not using Authorization header, you must provide XSRF value from cookie or hidden input field |
+| Accept         | Content-type(s) you would like the response in:  |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response
+
+## Response: 
+
+DashTheme deleted.
 
 | Response | Description |
 |----------------|-------------|
 | 204 | DashTheme deleted. |
+
+Response body: 
+
+
+## Sample request
+
+```http!
+DELETE /api/v1/DashTheme/{id}
+Authorization: Basic dGplMDpUamUw
+Accept: application/json; charset=utf-8
+Accept-Language: sv
+```
+
+## Sample response
+
+```http_
+HTTP/1.1 204 DashTheme deleted.
+Content-Type: application/json; charset=utf-8
+
+null
+```

@@ -1,6 +1,6 @@
 ---
 title: GET List/ProductType/MDOItems
-id: v1ProductTypeList_GetMDOList
+uid: v1ProductTypeList_GetMDOList
 ---
 
 # GET List/ProductType/MDOItems
@@ -11,6 +11,12 @@ GET /api/v1/List/ProductType/MDOItems
 
 Get the MDO list items for "ProductType" - with headings and filtering by user group.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,8 +26,9 @@ Get the MDO list items for "ProductType" - with headings and filtering by user g
 
 ```http
 GET /api/v1/List/ProductType/MDOItems?flat=False
-GET /api/v1/List/ProductType/MDOItems?query=ut
+GET /api/v1/List/ProductType/MDOItems?query=necessitatibus
 ```
+
 
 ## Request Headers
 
@@ -36,7 +43,10 @@ GET /api/v1/List/ProductType/MDOItems?query=ut
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -61,7 +71,7 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 GET /api/v1/List/ProductType/MDOItems
@@ -70,65 +80,58 @@ Accept: application/json; charset=utf-8
 Accept-Language: en
 ```
 
+## Sample response
+
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 732,
-    "Name": "Murazik LLC",
-    "ToolTip": "Assumenda nobis aliquam sint.",
+    "Id": 953,
+    "Name": "Mills Inc and Sons",
+    "ToolTip": "Saepe dicta dolor qui.",
     "Deleted": false,
-    "Rank": 123,
-    "Type": "aspernatur",
+    "Rank": 992,
+    "Type": "molestiae",
     "ChildItems": [
       {
-        "Id": 139,
-        "Name": "Pouros-Abernathy",
-        "ToolTip": "Praesentium quibusdam facere sed cum a atque.",
-        "Deleted": false,
-        "Rank": 226,
-        "Type": "repellendus",
+        "Id": 118,
+        "Name": "Boehm Group",
+        "ToolTip": "Cupiditate autem omnis harum eos quia consequatur.",
+        "Deleted": true,
+        "Rank": 804,
+        "Type": "tenetur",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "harum",
-        "ColorBlock": 500,
-        "ExtraInfo": "quasi",
-        "StyleHint": "et",
-        "FullName": "Brenna Braun",
-        "TableRight": {},
+        "IconHint": "ad",
+        "ColorBlock": 634,
+        "ExtraInfo": "voluptatibus",
+        "StyleHint": "inventore",
+        "FullName": "Maximilian Lakin",
+        "TableRight": null,
         "FieldProperties": {
           "fieldName": {
-            "FieldRight": {
-              "Mask": "FULL",
-              "Reason": ""
-            },
-            "FieldType": "System.String",
-            "FieldLength": 563
+            "FieldRight": null,
+            "FieldType": "System.Int32",
+            "FieldLength": 854
           }
         }
       }
     ],
-    "IconHint": "et",
-    "ColorBlock": 914,
-    "ExtraInfo": "nihil",
-    "StyleHint": "exercitationem",
-    "FullName": "Eva D'Amore",
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": "reinvent distributed bandwidth"
-    },
+    "IconHint": "velit",
+    "ColorBlock": 134,
+    "ExtraInfo": "amet",
+    "StyleHint": "inventore",
+    "FullName": "Miss Jamaal Porter Rippin",
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 55
+        "FieldRight": null,
+        "FieldType": "System.Int32",
+        "FieldLength": 200
       }
     }
   }

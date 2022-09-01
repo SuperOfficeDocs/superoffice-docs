@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Dash/CreateDefaultDash
-id: v1DashAgent_CreateDefaultDash
+uid: v1DashAgent_CreateDefaultDash
 ---
 
 # POST Agents/Dash/CreateDefaultDash
@@ -11,7 +11,14 @@ POST /api/v1/Agents/Dash/CreateDefaultDash
 
 Set default values into a new Dash.
 
+
 NetServer calculates default values on the entity, which is required when creating/storing a new instance
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -26,18 +33,16 @@ NetServer calculates default values on the entity, which is required when creati
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response: object
 
-Dashboard configuration
+## Response: 
 
-Carrier object for Dash.
-Services for the Dash Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IDashAgent">Dash Agent</see>.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -57,7 +62,7 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Dash/CreateDefaultDash
@@ -66,65 +71,44 @@ Accept: application/json; charset=utf-8
 Accept-Language: en
 ```
 
+## Sample response
+
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 94,
-  "UniqueId": "voluptatem",
-  "Name": "Ratke Group",
-  "Description": "Compatible grid-enabled contingency",
-  "AssociateId": 646,
-  "Columns": 137,
-  "Theme": {
-    "DashboardThemeId": 442,
-    "Name": "Heidenreich Group",
-    "Config": "dolorum",
-    "Rank": 703,
-    "Client": "nostrum",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.Int32",
-        "FieldLength": 348
-      }
-    }
-  },
-  "VisibleForAll": 665,
+  "DashboardId": 615,
+  "UniqueId": "officiis",
+  "Name": "Johns, Borer and Hand",
+  "Description": "Cloned actuating application",
+  "AssociateId": 661,
+  "Columns": 285,
+  "Theme": null,
+  "VisibleForAll": 104,
   "VisibleForAssociates": [
-    869,
-    628
+    615,
+    761
   ],
   "VisibleForGroups": [
-    323,
-    942
+    969,
+    758
   ],
-  "PinForAll": 163,
+  "PinForAll": 227,
   "PinForAssociates": [
-    952,
-    529
+    231,
+    996
   ],
   "PinForGroups": [
-    846,
-    512
+    567,
+    310
   ],
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": "maximize distributed models"
-      },
+      "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 889
+      "FieldLength": 655
     }
   }
 }

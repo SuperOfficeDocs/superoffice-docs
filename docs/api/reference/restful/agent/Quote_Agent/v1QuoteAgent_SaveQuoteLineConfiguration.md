@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Quote/SaveQuoteLineConfiguration
-id: v1QuoteAgent_SaveQuoteLineConfiguration
+uid: v1QuoteAgent_SaveQuoteLineConfiguration
 ---
 
 # POST Agents/Quote/SaveQuoteLineConfiguration
@@ -11,7 +11,13 @@ POST /api/v1/Agents/Quote/SaveQuoteLineConfiguration
 
 Save a QuoteLineConfiguration object.
 
+
 It is not possible to add a new configuration.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +28,7 @@ It is not possible to add a new configuration.
 ```http
 POST /api/v1/Agents/Quote/SaveQuoteLineConfiguration?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,26 +44,24 @@ POST /api/v1/Agents/Quote/SaveQuoteLineConfiguration?$select=name,department,cat
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-QuoteLineConfiguration
+QuoteLineConfiguration 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| QuoteLineConfiguration |  | QuoteLineConfiguration contains information about which configuration fields that is visible in the GUI. Read only and mandatory fields are also specified. <br /> Carrier object for QuoteLineConfiguration. Services for the QuoteLineConfiguration Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IQuoteAgent">Quote Agent</see>. |
+| QuoteLineConfiguration |  | QuoteLineConfiguration contains information about which configuration fields that is visible in the GUI. Read only and mandatory fields are also specified. <para /> Carrier object for QuoteLineConfiguration. Services for the QuoteLineConfiguration Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IQuoteAgent">Quote Agent</see>. |
 
-## Response: object
 
-QuoteLineConfiguration contains information about which configuration fields that is visible in the GUI. Read only and mandatory fields are also specified.
+## Response: 
 
-Carrier object for QuoteLineConfiguration.
-Services for the QuoteLineConfiguration Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IQuoteAgent">Quote Agent</see>.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -72,56 +77,42 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Quote/SaveQuoteLineConfiguration
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLineConfiguration": {
-    "QuoteLineConfigurationId": 122,
-    "FieldName": "Swaniawski-Yundt",
-    "Label": "atque",
-    "Tooltip": "suscipit",
-    "Editable": false,
-    "InUse": true,
-    "Mandatory": false,
-    "Rank": 825,
-    "RestrictEdit": true
-  }
+  "QuoteLineConfiguration": null
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLineConfigurationId": 682,
-  "FieldName": "McGlynn Group",
-  "Label": "aspernatur",
-  "Tooltip": "ut",
-  "Editable": true,
-  "InUse": true,
+  "QuoteLineConfigurationId": 151,
+  "FieldName": "Jakubowski Group",
+  "Label": "quisquam",
+  "Tooltip": "modi",
+  "Editable": false,
+  "InUse": false,
   "Mandatory": false,
-  "Rank": 220,
-  "RestrictEdit": false,
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "Rank": 154,
+  "RestrictEdit": true,
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
-      "FieldType": "System.Int32",
-      "FieldLength": 527
+      "FieldRight": null,
+      "FieldType": "System.String",
+      "FieldLength": 199
     }
   }
 }

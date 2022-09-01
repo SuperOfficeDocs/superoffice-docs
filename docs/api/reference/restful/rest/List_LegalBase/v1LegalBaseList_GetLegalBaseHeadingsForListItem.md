@@ -1,6 +1,6 @@
 ---
 title: GET List/LegalBase/Items/{id}/Headings
-id: v1LegalBaseList_GetLegalBaseHeadingsForListItem
+uid: v1LegalBaseList_GetLegalBaseHeadingsForListItem
 ---
 
 # GET List/LegalBase/Items/{id}/Headings
@@ -11,11 +11,17 @@ GET /api/v1/List/LegalBase/Items/{itemId}/Headings
 
 Gets headings for the LegalBase list's item.
 
+
 Calls the List agent service GetHeadings.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | itemId | int32 | The ID of the headings to be get. **Required** |
+
 
 ## Query String Parameters
 
@@ -26,6 +32,7 @@ Calls the List agent service GetHeadings.
 ```http
 GET /api/v1/List/LegalBase/Items/{itemId}/Headings?showDeleted=False
 ```
+
 
 ## Request Headers
 
@@ -40,7 +47,10 @@ GET /api/v1/List/LegalBase/Items/{itemId}/Headings?showDeleted=False
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -68,14 +78,16 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 GET /api/v1/List/LegalBase/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -83,65 +95,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 411,
-    "Name": "Hamill LLC",
-    "ToolTip": "A labore aut cum.",
-    "Deleted": true,
-    "Rank": 622,
-    "Type": "ea",
-    "ColorBlock": 387,
-    "IconHint": "nihil",
+    "Id": 941,
+    "Name": "Pacocha Inc and Sons",
+    "ToolTip": "Eius quis corporis adipisci corrupti quibusdam.",
+    "Deleted": false,
+    "Rank": 708,
+    "Type": "id",
+    "ColorBlock": 449,
+    "IconHint": "nam",
     "Selected": false,
-    "LastChanged": "2004-10-12T18:25:51.8634869+02:00",
+    "LastChanged": "2007-06-25T11:10:54.3118664+02:00",
     "ChildItems": [
       {
-        "Id": 285,
-        "Name": "Luettgen-Jerde",
-        "ToolTip": "Laudantium itaque ut voluptatibus in nesciunt qui.",
-        "Deleted": true,
-        "Rank": 616,
-        "Type": "nulla",
-        "ColorBlock": 823,
-        "IconHint": "id",
+        "Id": 808,
+        "Name": "O'Hara-Williamson",
+        "ToolTip": "Minima aperiam nostrum soluta ad.",
+        "Deleted": false,
+        "Rank": 168,
+        "Type": "fuga",
+        "ColorBlock": 155,
+        "IconHint": "aut",
         "Selected": true,
-        "LastChanged": "2017-05-19T18:25:51.8785853+02:00",
+        "LastChanged": "2002-06-12T11:10:54.3118664+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "et",
-        "StyleHint": "rerum",
+        "ExtraInfo": "numquam",
+        "StyleHint": "maiores",
         "Hidden": false,
-        "FullName": "Mr. Heloise Roob",
-        "TableRight": {},
+        "FullName": "Jarrod Nels Heathcote DDS",
+        "TableRight": null,
         "FieldProperties": {
           "fieldName": {
-            "FieldRight": {
-              "Mask": "FULL",
-              "Reason": ""
-            },
-            "FieldType": "System.String",
-            "FieldLength": 240
+            "FieldRight": null,
+            "FieldType": "System.Int32",
+            "FieldLength": 40
           }
         }
       }
     ],
-    "ExtraInfo": "omnis",
-    "StyleHint": "asperiores",
-    "Hidden": true,
-    "FullName": "Marquise Weber",
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "ExtraInfo": "ratione",
+    "StyleHint": "qui",
+    "Hidden": false,
+    "FullName": "Brennon Heidenreich",
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
+        "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 7
+        "FieldLength": 442
       }
     }
   }

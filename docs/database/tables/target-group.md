@@ -6,14 +6,14 @@ so.generated: true
 keywords:
   - "database"
   - "target_group"
-so.date: 04.12.2022
+so.date: 08.26.2022
 so.topic: reference
 so.envir:
   - "onsite"
   - "online"
 ---
 
-# target\_group Table (493)
+# target\_group Table (494)
 
 Info about a set of (sales, project, selection...) targets
 
@@ -30,6 +30,8 @@ Info about a set of (sales, project, selection...) targets
 |updated|Last updated when|UtcDateTime| |
 |updated\_associate\_id|Last updated by whom|FK [associate](associate.md)| |
 |updatedCount|Number of updates made to this record|UShort| |
+|target\_dimension\_id|Dimension this target is in|FK [target_dimension](target-dimension.md)|&#x25CF;|
+
 
 ![target_group table relationship diagram](./media/target_group.png)
 
@@ -46,8 +48,10 @@ Info about a set of (sales, project, selection...) targets
 | Table|  Description |
 |------|-------------|
 |[associate](associate.md)  |Employees, resources and other users - except for External persons |
+|[target\_dimension](target-dimension.md)  |Defining target dimension |
 |[target\_period](target-period.md)  |A set of periods linked with target amounts for users/usergroups and the target groups/years. |
 |[target\_revision\_history](target-revision-history.md)  |Revision history info in case the original target group or assignment info was deleted |
+
 
 ## Replication Flags
 
@@ -56,3 +60,4 @@ Info about a set of (sales, project, selection...) targets
 ## Security Flags
 
 * Sentry controls access to items in this table using user's Role and data rights matrix.
+

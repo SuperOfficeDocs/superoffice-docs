@@ -1,6 +1,6 @@
 ---
 title: POST Agents/TimeZone/TimeOfLastTimeZoneUpdate
-id: v1TimeZoneAgent_TimeOfLastTimeZoneUpdate
+uid: v1TimeZoneAgent_TimeOfLastTimeZoneUpdate
 ---
 
 # POST Agents/TimeZone/TimeOfLastTimeZoneUpdate
@@ -11,6 +11,12 @@ POST /api/v1/Agents/TimeZone/TimeOfLastTimeZoneUpdate
 
 Get the time time zone data was last updated
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Get the time time zone data was last updated
 ```http
 POST /api/v1/Agents/TimeZone/TimeOfLastTimeZoneUpdate?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -34,7 +41,10 @@ POST /api/v1/Agents/TimeZone/TimeOfLastTimeZoneUpdate?$select=name,department,ca
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
+
 ## Response: date-time
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -42,18 +52,21 @@ POST /api/v1/Agents/TimeZone/TimeOfLastTimeZoneUpdate?$select=name,department,ca
 
 Response body: date-time
 
-## Sample Request
+
+## Sample request
 
 ```http!
 POST /api/v1/Agents/TimeZone/TimeOfLastTimeZoneUpdate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"1999-12-29T18:28:50.4034149+01:00"
+"2009-07-22T11:10:28.3272069+02:00"
 ```

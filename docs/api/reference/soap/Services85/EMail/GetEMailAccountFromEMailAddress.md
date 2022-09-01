@@ -17,6 +17,7 @@ Returns the email account corresponding to this email address (for the current a
 
 **Returns:** Found or empty email account
 
+
 [WSDL file for Services85/EMail](../Services85-EMail.md)
 
 Obtain a ticket from the [Services85/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -48,6 +49,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+
 
 ## GetEMailAccountFromEMailAddress Response
 
@@ -92,3 +94,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

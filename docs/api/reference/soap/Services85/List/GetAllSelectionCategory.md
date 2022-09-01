@@ -13,7 +13,9 @@ Implemented by the <see cref="M:SuperOffice.Services85.IListAgent.GetAllSelectio
 
 Gets an array of all SelectionCategory objects.
 
+
 **Returns:** Array of all SelectionCategory objects
+
 
 [WSDL file for Services85/List](../Services85-List.md)
 
@@ -46,6 +48,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## GetAllSelectionCategory Response
 
 ```xml
@@ -72,3 +75,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

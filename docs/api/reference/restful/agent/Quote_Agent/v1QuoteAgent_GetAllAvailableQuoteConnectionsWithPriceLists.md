@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Quote/GetAllAvailableQuoteConnectionsWithPriceLists
-id: v1QuoteAgent_GetAllAvailableQuoteConnectionsWithPriceLists
+uid: v1QuoteAgent_GetAllAvailableQuoteConnectionsWithPriceLists
 ---
 
 # POST Agents/Quote/GetAllAvailableQuoteConnectionsWithPriceLists
@@ -11,7 +11,13 @@ POST /api/v1/Agents/Quote/GetAllAvailableQuoteConnectionsWithPriceLists
 
 Get all available connections.
 
+
 Some installed connections may not be available to the user. Includes pricelists for the connection. This is a heavy call
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +28,7 @@ Some installed connections may not be available to the user. Includes pricelists
 ```http
 POST /api/v1/Agents/Quote/GetAllAvailableQuoteConnectionsWithPriceLists?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -36,7 +43,10 @@ POST /api/v1/Agents/Quote/GetAllAvailableQuoteConnectionsWithPriceLists?$select=
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -64,14 +74,16 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Quote/GetAllAvailableQuoteConnectionsWithPriceLists
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -79,80 +91,54 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "QuoteConnectionId": 798,
-    "ERPName": "Monahan, Stracke and Bergnaum",
-    "DisplayName": "Bins LLC",
-    "DisplayDescription": "Managed national flexibility",
-    "Rank": 720,
-    "ConnectorName": "Donnelly, Durgan and Jacobi",
-    "ErpConnectionId": 895,
-    "ExtraData": "quas",
-    "IsAvailable": true,
-    "InitializeResponse": {
-      "IsOk": false,
-      "UserExplanation": "reprehenderit",
-      "TechExplanation": "doloribus",
-      "ErrorCode": "possimus",
-      "Changes": {},
-      "TableRight": {},
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": {
-            "Mask": "FULL",
-            "Reason": ""
-          },
-          "FieldType": "System.String",
-          "FieldLength": 17
-        }
-      }
-    },
+    "QuoteConnectionId": 941,
+    "ERPName": "Brakus-Lesch",
+    "DisplayName": "Quitzon Inc and Sons",
+    "DisplayDescription": "Re-engineered executive database",
+    "Rank": 94,
+    "ConnectorName": "Cormier-Bayer",
+    "ErpConnectionId": 767,
+    "ExtraData": "ducimus",
+    "IsAvailable": false,
+    "InitializeResponse": null,
     "PriceLists": [
       {
-        "PriceListId": 938,
-        "ERPPriceListKey": "quia",
-        "QuoteConnectionId": 831,
-        "Name": "Roob LLC",
-        "Description": "Managed upward-trending Graphic Interface",
-        "Currency": "aut",
-        "CurrencyName": "Nikolaus, Welch and Bergnaum",
-        "ValidFrom": "2003-05-25T18:28:49.9361374+02:00",
-        "ValidTo": "2006-02-15T18:28:49.9361374+01:00",
+        "PriceListId": 576,
+        "ERPPriceListKey": "velit",
+        "QuoteConnectionId": 859,
+        "Name": "Breitenberg, DuBuque and Schaefer",
+        "Description": "Cloned dynamic matrices",
+        "Currency": "et",
+        "CurrencyName": "Nitzsche, Heidenreich and Donnelly",
+        "ValidFrom": "2018-09-23T11:10:27.7044917+02:00",
+        "ValidTo": "2019-07-16T11:10:27.7044917+02:00",
         "IsActive": false,
-        "TableRight": {},
+        "TableRight": null,
         "FieldProperties": {
           "fieldName": {
-            "FieldRight": {
-              "Mask": "FULL",
-              "Reason": ""
-            },
+            "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 647
+            "FieldLength": 571
           }
         }
       }
     ],
     "AllAccess": false,
-    "Deleted": true,
+    "Deleted": false,
     "UserGroupAccessIds": [
-      609,
-      672
+      717,
+      794
     ],
     "AssociateAccessIds": [
-      876,
-      410
+      387,
+      155
     ],
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 401
+        "FieldRight": null,
+        "FieldType": "System.Int32",
+        "FieldLength": 280
       }
     }
   }

@@ -1,6 +1,6 @@
 ---
 title: GET List/DocumentTemplate/Items/{id}/Url
-id: v1DocumentTemplateList_GetDocumentTemplateUrl
+uid: v1DocumentTemplateList_GetDocumentTemplateUrl
 ---
 
 # GET List/DocumentTemplate/Items/{id}/Url
@@ -11,9 +11,15 @@ GET /api/v1/List/DocumentTemplate/Items/{documentTemplateId}/Url
 
 Get a url to the document template
 
+
+
+
+
+
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | documentTemplateId | int32 | The id of the template **Required** |
+
 
 ## Query String Parameters
 
@@ -23,9 +29,10 @@ Get a url to the document template
 | languageCode | string |  The language code ('en-US', 'nb-NO', etc). Use empty string if not supported or used. |
 
 ```http
-GET /api/v1/List/DocumentTemplate/Items/{documentTemplateId}/Url?writableUrl=False
-GET /api/v1/List/DocumentTemplate/Items/{documentTemplateId}/Url?languageCode=aliquid
+GET /api/v1/List/DocumentTemplate/Items/{documentTemplateId}/Url?writableUrl=True
+GET /api/v1/List/DocumentTemplate/Items/{documentTemplateId}/Url?languageCode=facere
 ```
+
 
 ## Request Headers
 
@@ -40,7 +47,10 @@ GET /api/v1/List/DocumentTemplate/Items/{documentTemplateId}/Url?languageCode=al
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
+
 ## Response: string
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -48,14 +58,17 @@ GET /api/v1/List/DocumentTemplate/Items/{documentTemplateId}/Url?languageCode=al
 
 Response body: string
 
-## Sample Request
+
+## Sample request
 
 ```http!
 GET /api/v1/List/DocumentTemplate/Items/{documentTemplateId}/Url
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK

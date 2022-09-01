@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Dash/DuplicateDashboard
-id: v1DashAgent_DuplicateDashboard
+uid: v1DashAgent_DuplicateDashboard
 ---
 
 # POST Agents/Dash/DuplicateDashboard
@@ -11,6 +11,12 @@ POST /api/v1/Agents/Dash/DuplicateDashboard
 
 Duplicate for the dashboard and all the sub elements
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Duplicate for the dashboard and all the sub elements
 ```http
 POST /api/v1/Agents/Dash/DuplicateDashboard?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,27 +42,25 @@ POST /api/v1/Agents/Dash/DuplicateDashboard?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-DashboardId, Name
+DashboardId, Name 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | DashboardId | int32 |  |
 | Name | string |  |
 
-## Response: object
 
-Dashboard configuration
+## Response: 
 
-Carrier object for Dash.
-Services for the Dash Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IDashAgent">Dash Agent</see>.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -75,7 +80,7 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Dash/DuplicateDashboard
@@ -85,70 +90,49 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 641,
-  "Name": "Dietrich, Prohaska and Leuschke"
+  "DashboardId": 941,
+  "Name": "Johns, Donnelly and Bartell"
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 561,
-  "UniqueId": "doloremque",
-  "Name": "Oberbrunner, Koelpin and Yundt",
-  "Description": "Multi-lateral 3rd generation attitude",
-  "AssociateId": 102,
-  "Columns": 666,
-  "Theme": {
-    "DashboardThemeId": 506,
-    "Name": "Jewess-Metz",
-    "Config": "explicabo",
-    "Rank": 347,
-    "Client": "ab",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": "morph bricks-and-clicks platforms"
-        },
-        "FieldType": "System.Int32",
-        "FieldLength": 573
-      }
-    }
-  },
-  "VisibleForAll": 184,
+  "DashboardId": 305,
+  "UniqueId": "at",
+  "Name": "Von Inc and Sons",
+  "Description": "Open-architected object-oriented Graphical User Interface",
+  "AssociateId": 934,
+  "Columns": 374,
+  "Theme": null,
+  "VisibleForAll": 112,
   "VisibleForAssociates": [
-    279,
-    176
+    449,
+    241
   ],
   "VisibleForGroups": [
-    230,
-    924
+    233,
+    327
   ],
-  "PinForAll": 490,
+  "PinForAll": 856,
   "PinForAssociates": [
-    607,
-    694
+    624,
+    881
   ],
   "PinForGroups": [
-    862,
-    767
+    627,
+    889
   ],
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
-      "FieldType": "System.String",
-      "FieldLength": 294
+      "FieldRight": null,
+      "FieldType": "System.Int32",
+      "FieldLength": 297
     }
   }
 }

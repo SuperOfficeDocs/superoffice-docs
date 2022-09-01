@@ -1,6 +1,6 @@
 ---
 title: POST Agents/ForeignSystem/GetKeyValue
-id: v1ForeignSystemAgent_GetKeyValue
+uid: v1ForeignSystemAgent_GetKeyValue
 ---
 
 # POST Agents/ForeignSystem/GetKeyValue
@@ -11,7 +11,13 @@ POST /api/v1/Agents/ForeignSystem/GetKeyValue
 
 Gets the string value of a ForeignKey, that belongs to the specified device and application.
 
+
 The table name and record ID must also be specified.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +28,7 @@ The table name and record ID must also be specified.
 ```http
 POST /api/v1/Agents/ForeignSystem/GetKeyValue?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,9 +44,9 @@ POST /api/v1/Agents/ForeignSystem/GetKeyValue?$select=name,department,category/i
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-ApplicationName, DeviceName, KeyName, TableName, RecordId
+ApplicationName, DeviceName, KeyName, TableName, RecordId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -49,7 +56,10 @@ ApplicationName, DeviceName, KeyName, TableName, RecordId
 | TableName | string |  |
 | RecordId | int32 |  |
 
+
 ## Response: string
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -57,27 +67,30 @@ ApplicationName, DeviceName, KeyName, TableName, RecordId
 
 Response body: string
 
-## Sample Request
+
+## Sample request
 
 ```http!
 POST /api/v1/Agents/ForeignSystem/GetKeyValue
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Lang LLC",
-  "DeviceName": "Crist Group",
-  "KeyName": "Raynor, Thompson and White",
-  "TableName": "Leffler-Schimmel",
-  "RecordId": 579
+  "ApplicationName": "Jacobs LLC",
+  "DeviceName": "Mann, Sipes and Keeling",
+  "KeyName": "Stokes LLC",
+  "TableName": "Klein-Gislason",
+  "RecordId": 110
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"eius"
+"quam"
 ```

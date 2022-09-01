@@ -1,6 +1,6 @@
 ---
 title: GET List/Category/Items/{id}/UserGroups
-id: v1CategoryList_GetCategoryUserGroupsForListItem
+uid: v1CategoryList_GetCategoryUserGroupsForListItem
 ---
 
 # GET List/Category/Items/{id}/UserGroups
@@ -11,11 +11,18 @@ GET /api/v1/List/Category/Items/{itemId}/UserGroups
 
 Gets user groups visible for the Category list's item.
 
+
 Calls the List agent service GetHeadings.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | itemId | int32 | The ID of the item to get. **Required** |
+
+
 
 ## Request Headers
 
@@ -30,7 +37,10 @@ Calls the List agent service GetHeadings.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -58,14 +68,16 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 GET /api/v1/List/Category/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -73,65 +85,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 683,
-    "Name": "Eichmann-Grady",
-    "ToolTip": "Qui ut blanditiis eum molestias quia.",
+    "Id": 475,
+    "Name": "Mitchell Group",
+    "ToolTip": "Officia nostrum facere repudiandae facilis.",
     "Deleted": true,
-    "Rank": 375,
-    "Type": "est",
-    "ColorBlock": 742,
-    "IconHint": "incidunt",
+    "Rank": 160,
+    "Type": "cupiditate",
+    "ColorBlock": 502,
+    "IconHint": "ut",
     "Selected": false,
-    "LastChanged": "2007-06-07T18:25:51.6362948+02:00",
+    "LastChanged": "1995-12-15T11:10:53.9461855+01:00",
     "ChildItems": [
       {
-        "Id": 285,
-        "Name": "Hartmann-Reichert",
-        "ToolTip": "Ut possimus.",
+        "Id": 324,
+        "Name": "Collier, Bernier and Rutherford",
+        "ToolTip": "Qui cum sint ea consectetur necessitatibus aspernatur quidem.",
         "Deleted": true,
-        "Rank": 21,
-        "Type": "ex",
-        "ColorBlock": 252,
-        "IconHint": "nobis",
-        "Selected": false,
-        "LastChanged": "2012-06-14T18:25:51.6362948+02:00",
+        "Rank": 950,
+        "Type": "rem",
+        "ColorBlock": 350,
+        "IconHint": "est",
+        "Selected": true,
+        "LastChanged": "2008-11-20T11:10:53.9461855+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "totam",
-        "StyleHint": "et",
+        "ExtraInfo": "vel",
+        "StyleHint": "aliquid",
         "Hidden": false,
-        "FullName": "Miss Edgardo Pacocha",
-        "TableRight": {},
+        "FullName": "Thad Russel Jr.",
+        "TableRight": null,
         "FieldProperties": {
           "fieldName": {
-            "FieldRight": {
-              "Mask": "FULL",
-              "Reason": ""
-            },
-            "FieldType": "System.Int32",
-            "FieldLength": 730
+            "FieldRight": null,
+            "FieldType": "System.String",
+            "FieldLength": 638
           }
         }
       }
     ],
-    "ExtraInfo": "voluptate",
-    "StyleHint": "vel",
+    "ExtraInfo": "rerum",
+    "StyleHint": "excepturi",
     "Hidden": true,
-    "FullName": "Bradford Doyle",
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "FullName": "Mr. Cristina Nitzsche",
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
+        "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 437
+        "FieldLength": 192
       }
     }
   }

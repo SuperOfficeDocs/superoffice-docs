@@ -1,6 +1,6 @@
 ---
 title: POST Agents/PhoneList/GetPreferences
-id: v1PhoneListAgent_GetPreferences
+uid: v1PhoneListAgent_GetPreferences
 ---
 
 # POST Agents/PhoneList/GetPreferences
@@ -11,6 +11,12 @@ POST /api/v1/Agents/PhoneList/GetPreferences
 
 Getting Phone List Preferences from the CRM 5 user preferences
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Getting Phone List Preferences from the CRM 5 user preferences
 ```http
 POST /api/v1/Agents/PhoneList/GetPreferences?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -34,18 +41,16 @@ POST /api/v1/Agents/PhoneList/GetPreferences?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response: object
 
-Search preferences for a phone list search
+## Response: 
 
-Carrier object for PhoneListPreferences.
-Services for the PhoneListPreferences Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IPhoneListAgent">PhoneList Agent</see>.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -60,7 +65,7 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/PhoneList/GetPreferences
@@ -68,6 +73,8 @@ Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: en
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -82,18 +89,12 @@ Content-Type: application/json; charset=utf-8
   "SearchModeDepartment": "BeginsWith",
   "SearchModeFirstname": "BeginsWith",
   "SearchModeLastname": "BeginsWith",
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": "expedite viral markets"
-      },
-      "FieldType": "System.Int32",
-      "FieldLength": 605
+      "FieldRight": null,
+      "FieldType": "System.String",
+      "FieldLength": 543
     }
   }
 }

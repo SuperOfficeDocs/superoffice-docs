@@ -1,6 +1,6 @@
 ---
 title: DEL License/{moduleOwner}
-id: v1License_RemoveLicenseFromDB
+uid: v1License_RemoveLicenseFromDB
 ---
 
 # DEL License/{moduleOwner}
@@ -11,11 +11,18 @@ DELETE /api/v1/License/{moduleOwner}
 
 Remove the license from a particular module owner from the database.
 
+
 It is not permitted to remove licenses from SuperOffice
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | moduleOwner | string | Name of the module owner to remove license from. **Required** |
+
+
 
 ## Request Headers
 
@@ -26,16 +33,16 @@ It is not permitted to remove licenses from SuperOffice
 | Accept         | Content-type(s) you would like the response in: `application/json`, `text/json`, `application/xml`, `text/xml`, `application/json-patch+json`, `application/merge-patch+json` |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response: object
 
-Carrier object for LicenseResult.
-Services for the LicenseResult Carrier is available from the <see cref="T:SuperOffice.CRM.Services.ILicenseAgent">License Agent</see>.
+## Response: 
+
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -44,14 +51,16 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 DELETE /api/v1/License/{moduleOwner}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -60,18 +69,12 @@ Content-Type: application/json; charset=utf-8
 {
   "Succeeded": false,
   "Reason": "",
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
+      "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 334
+      "FieldLength": 858
     }
   }
 }

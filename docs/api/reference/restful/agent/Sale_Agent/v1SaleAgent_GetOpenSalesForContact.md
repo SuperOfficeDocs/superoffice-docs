@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Sale/GetOpenSalesForContact
-id: v1SaleAgent_GetOpenSalesForContact
+uid: v1SaleAgent_GetOpenSalesForContact
 ---
 
 # POST Agents/Sale/GetOpenSalesForContact
@@ -11,6 +11,12 @@ POST /api/v1/Agents/Sale/GetOpenSalesForContact
 
 Returns all open sales for the contact provided.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Returns all open sales for the contact provided.
 ```http
 POST /api/v1/Agents/Sale/GetOpenSalesForContact?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,15 +42,18 @@ POST /api/v1/Agents/Sale/GetOpenSalesForContact?$select=name,department,category
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-ContactId
+ContactId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | ContactId | int32 |  |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -81,19 +91,21 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Sale/GetOpenSalesForContact
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 577
+  "ContactId": 32
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -101,43 +113,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactName": "Herzog Group",
-    "SaleDate": "1995-01-12T18:28:50.1794449+01:00",
-    "SaleId": 117,
-    "Probability": 189,
-    "Title": "modi",
-    "Amount": 20029.394,
-    "Currency": "laudantium",
-    "ProjectName": "Runolfsson, Borer and Shields",
-    "AssociateFullName": "Dr. Shakira Schuppe",
-    "Description": "Adaptive upward-trending migration",
+    "ContactName": "Littel-Conn",
+    "SaleDate": "2017-07-28T11:10:27.856008+02:00",
+    "SaleId": 591,
+    "Probability": 940,
+    "Title": "voluptas",
+    "Amount": 19192.615999999998,
+    "Currency": "dolorem",
+    "ProjectName": "Lakin, Kub and Brown",
+    "AssociateFullName": "Trent Harris",
+    "Description": "Implemented user-facing parallelism",
     "Status": "Lost",
-    "WeightedAmount": 908.86,
-    "ProjectId": 362,
-    "EarningPercent": 29415.724,
-    "Earning": 178.638,
-    "ContactId": 962,
-    "AssociateId": 535,
-    "PersonId": 982,
-    "SaleTypeId": 582,
-    "SaleTypeName": "Hilll Group",
-    "PersonFullName": "Sadie Smith",
+    "WeightedAmount": 12109.776,
+    "ProjectId": 162,
+    "EarningPercent": 15848.637999999999,
+    "Earning": 9198.2899999999991,
+    "ContactId": 989,
+    "AssociateId": 999,
+    "PersonId": 664,
+    "SaleTypeId": 140,
+    "SaleTypeName": "Macejkovic LLC",
+    "PersonFullName": "Aurelio Koch",
     "Completed": "Completed",
-    "ActiveErpLinks": 235,
-    "NextDueDate": "2007-10-06T18:28:50.1804423+02:00",
-    "Number": "233319",
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": "enable extensible action-items"
-    },
+    "ActiveErpLinks": 628,
+    "NextDueDate": "2005-10-08T11:10:27.856008+02:00",
+    "Number": "1125727",
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.Int32",
-        "FieldLength": 482
+        "FieldRight": null,
+        "FieldType": "System.String",
+        "FieldLength": 894
       }
     }
   }

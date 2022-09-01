@@ -1,6 +1,6 @@
 ---
 title: GET List/DeliveryType/MDOItems
-id: v1DeliveryTypeList_GetMDOList
+uid: v1DeliveryTypeList_GetMDOList
 ---
 
 # GET List/DeliveryType/MDOItems
@@ -11,6 +11,12 @@ GET /api/v1/List/DeliveryType/MDOItems
 
 Get the MDO list items for "DeliveryType" - with headings and filtering by user group.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,8 +26,9 @@ Get the MDO list items for "DeliveryType" - with headings and filtering by user 
 
 ```http
 GET /api/v1/List/DeliveryType/MDOItems?flat=False
-GET /api/v1/List/DeliveryType/MDOItems?query=qui
+GET /api/v1/List/DeliveryType/MDOItems?query=quam
 ```
+
 
 ## Request Headers
 
@@ -36,7 +43,10 @@ GET /api/v1/List/DeliveryType/MDOItems?query=qui
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -61,14 +71,16 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 GET /api/v1/List/DeliveryType/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -76,59 +88,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 439,
-    "Name": "Brown Inc and Sons",
-    "ToolTip": "Consequatur atque voluptatem provident dolorum nobis.",
-    "Deleted": true,
-    "Rank": 490,
-    "Type": "iusto",
+    "Id": 98,
+    "Name": "Anderson, Thiel and Corkery",
+    "ToolTip": "Eum rem repellendus est.",
+    "Deleted": false,
+    "Rank": 904,
+    "Type": "sed",
     "ChildItems": [
       {
-        "Id": 563,
-        "Name": "Stamm-Jaskolski",
-        "ToolTip": "Alias ipsum maxime est at quod autem.",
-        "Deleted": true,
-        "Rank": 583,
-        "Type": "autem",
+        "Id": 332,
+        "Name": "Windler, Bradtke and Christiansen",
+        "ToolTip": "Magni labore delectus.",
+        "Deleted": false,
+        "Rank": 885,
+        "Type": "nemo",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "minus",
-        "ColorBlock": 120,
-        "ExtraInfo": "error",
-        "StyleHint": "dolorem",
-        "FullName": "Jan Carroll",
-        "TableRight": {},
+        "IconHint": "aliquid",
+        "ColorBlock": 751,
+        "ExtraInfo": "dolorem",
+        "StyleHint": "molestias",
+        "FullName": "Sylvia Durgan",
+        "TableRight": null,
         "FieldProperties": {
           "fieldName": {
-            "FieldRight": {
-              "Mask": "FULL",
-              "Reason": ""
-            },
+            "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 74
+            "FieldLength": 379
           }
         }
       }
     ],
-    "IconHint": "ad",
+    "IconHint": "praesentium",
     "ColorBlock": 419,
-    "ExtraInfo": "deleniti",
-    "StyleHint": "unde",
-    "FullName": "Eddie Wolf",
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "ExtraInfo": "dolores",
+    "StyleHint": "tenetur",
+    "FullName": "Chaya Waino Towne DDS",
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 992
+        "FieldRight": null,
+        "FieldType": "System.Int32",
+        "FieldLength": 916
       }
     }
   }

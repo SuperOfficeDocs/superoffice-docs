@@ -1,6 +1,6 @@
 ---
 title: POST Agents/EMail/RefreshFolderForAssociate
-id: v1EMailAgent_RefreshFolderForAssociate
+uid: v1EMailAgent_RefreshFolderForAssociate
 ---
 
 # POST Agents/EMail/RefreshFolderForAssociate
@@ -11,7 +11,15 @@ POST /api/v1/Agents/EMail/RefreshFolderForAssociate
 
 Get all emails in folder(s) from current associate
 
-## Online Restricted: ## The EMail agent is not available in Online by default. Access must be requested specifically when app is registered
+
+
+
+## Online Restricted: ## The EMail agent is not available in Online by default. Access must be requested specifically when app is registered.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +30,7 @@ Get all emails in folder(s) from current associate
 ```http
 POST /api/v1/Agents/EMail/RefreshFolderForAssociate?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,15 +46,18 @@ POST /api/v1/Agents/EMail/RefreshFolderForAssociate?$select=name,department,cate
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-Folders
+Folders 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | Folders | array |  |
 
+
 ## Response: string
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -53,26 +65,29 @@ Folders
 
 Response body: string
 
-## Sample Request
+
+## Sample request
 
 ```http!
 POST /api/v1/Agents/EMail/RefreshFolderForAssociate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "Folders": [
-    "quos",
-    "blanditiis"
+    "quidem",
+    "voluptatem"
   ]
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"eum"
+"molestiae"
 ```

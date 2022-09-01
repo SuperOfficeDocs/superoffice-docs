@@ -1,6 +1,6 @@
 ---
 title: PUT BatchTask/{Id}
-id: v1Batch_UpdateBatchTask
+uid: v1Batch_UpdateBatchTask
 ---
 
 # PUT BatchTask/{Id}
@@ -11,11 +11,18 @@ PUT /api/v1/BatchTask/{Id}
 
 Update information about a BatchTask.
 
+
 Only the following properties can be updated: State, Description, Response and Request.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | Id | string |  **Required** |
+
+
 
 ## Request Headers
 
@@ -31,9 +38,9 @@ Only the following properties can be updated: State, Description, Response and R
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: batchTaskInfo
+## Request Body: batchTaskInfo  
 
-The updated information to save.
+The updated information to save. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -59,18 +66,16 @@ The updated information to save.
 | ProgressPercent | int32 | Task progress, in percent of estimated total |
 | FileName | string | The filename related to the batchtask. |
 
-## Response: object
 
-BatchTaskInfo contains information about one batch task.
+## Response: 
 
-Carrier object for BatchTaskInfo.
-Services for the BatchTaskInfo Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IBatchAgent">Batch Agent</see>.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -98,7 +103,7 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 PUT /api/v1/BatchTask/{Id}
@@ -108,74 +113,70 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 122,
-  "Name": "Sauer-Russel",
-  "AssociateId": 907,
-  "DetailsTable": 35,
-  "DetailsRecord": 972,
+  "Id": 10,
+  "Name": "Johns LLC",
+  "AssociateId": 676,
+  "DetailsTable": 208,
+  "DetailsRecord": 519,
   "IsSystemTask": false,
   "IsInternalTask": false,
   "ParameterObject": {
-    "ParameterObject1": "magnam",
-    "ParameterObject2": "fugiat"
+    "ParameterObject1": "aut",
+    "ParameterObject2": "veniam"
   },
-  "LastStarted": "2009-11-16T18:25:51.328106+01:00",
-  "Created": "2001-05-28T18:25:51.328106+02:00",
-  "StartCount": 243,
-  "DatabaseSerialNumber": "1413032",
-  "Context": "tempora",
-  "Result": "molestiae",
+  "LastStarted": "2006-11-23T11:10:53.677217+01:00",
+  "Created": "2006-03-09T11:10:53.677217+01:00",
+  "StartCount": 160,
+  "DatabaseSerialNumber": "1416205",
+  "Context": "necessitatibus",
+  "Result": "laboriosam",
   "State": "All",
-  "Description": "Profit-focused contextually-based groupware",
-  "Response": "sint",
-  "Request": "sint",
-  "ProgressDescription": "Balanced interactive utilisation",
-  "ProgressPercent": 234,
-  "FileName": "Borer-Gerhold"
+  "Description": "Assimilated 6th generation open architecture",
+  "Response": "ex",
+  "Request": "omnis",
+  "ProgressDescription": "Horizontal intermediate help-desk",
+  "ProgressPercent": 422,
+  "FileName": "Gutkowski-Lesch"
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 387,
-  "Name": "Schinner-Runolfsson",
-  "AssociateId": 332,
-  "DetailsTable": 392,
-  "DetailsRecord": 385,
-  "IsSystemTask": false,
-  "IsInternalTask": true,
+  "Id": 417,
+  "Name": "Green, Lindgren and Crooks",
+  "AssociateId": 764,
+  "DetailsTable": 369,
+  "DetailsRecord": 490,
+  "IsSystemTask": true,
+  "IsInternalTask": false,
   "ParameterObject": {
-    "ParameterObject1": "occaecati",
-    "ParameterObject2": "enim"
+    "ParameterObject1": "non",
+    "ParameterObject2": "praesentium"
   },
-  "LastStarted": "1996-04-04T18:25:51.3291057+02:00",
-  "Created": "1995-11-03T18:25:51.3291057+01:00",
-  "StartCount": 254,
-  "DatabaseSerialNumber": "1165074",
-  "Context": "nemo",
-  "Result": "fuga",
+  "LastStarted": "2004-02-10T11:10:53.6781901+01:00",
+  "Created": "2008-06-03T11:10:53.6781901+02:00",
+  "StartCount": 851,
+  "DatabaseSerialNumber": "828560",
+  "Context": "placeat",
+  "Result": "sapiente",
   "State": "All",
-  "Description": "Integrated dedicated collaboration",
-  "Response": "neque",
-  "Request": "non",
-  "ProgressDescription": "Reverse-engineered systematic orchestration",
-  "ProgressPercent": 325,
-  "FileName": "Graham LLC",
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "Description": "Balanced interactive task-force",
+  "Response": "quae",
+  "Request": "velit",
+  "ProgressDescription": "Innovative needs-based success",
+  "ProgressPercent": 18,
+  "FileName": "Bernier Inc and Sons",
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
-      "FieldType": "System.String",
-      "FieldLength": 867
+      "FieldRight": null,
+      "FieldType": "System.Int32",
+      "FieldLength": 349
     }
   }
 }

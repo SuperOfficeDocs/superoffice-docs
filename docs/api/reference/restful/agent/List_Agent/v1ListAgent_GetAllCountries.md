@@ -1,6 +1,6 @@
 ---
 title: POST Agents/List/GetAllCountries
-id: v1ListAgent_GetAllCountries
+uid: v1ListAgent_GetAllCountries
 ---
 
 # POST Agents/List/GetAllCountries
@@ -11,6 +11,12 @@ POST /api/v1/Agents/List/GetAllCountries
 
 Returns all available countries a contact or person could belong to.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Returns all available countries a contact or person could belong to.
 ```http
 POST /api/v1/Agents/List/GetAllCountries?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,15 +42,18 @@ POST /api/v1/Agents/List/GetAllCountries?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-IncludeDeleted
+IncludeDeleted 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | IncludeDeleted | bool |  |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -74,19 +84,21 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/List/GetAllCountries
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "IncludeDeleted": false
+  "IncludeDeleted": true
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -94,36 +106,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "CountryId": 301,
-    "Name": "Okuneva-Conroy",
-    "CurrencyId": 720,
-    "EnglishName": "Wilkinson Inc and Sons",
+    "CountryId": 513,
+    "Name": "Feil LLC",
+    "CurrencyId": 879,
+    "EnglishName": "Shields LLC",
     "TwoLetterISOCountry": "Sokovia",
     "ThreeLetterISOCountry": "Sokovia",
-    "ImageDescription": "Expanded 24 hour support",
-    "OrgNrText": "929440",
-    "InterAreaPrefix": "eos",
-    "DialInPrefix": "et",
-    "ZipPrefix": "error",
-    "DomainName": "Lemke-Swift",
-    "AddressLayoutId": 908,
-    "DomesticAddressLayoutId": 148,
-    "ForeignAddressLayoutId": 944,
-    "Rank": 95,
-    "Tooltip": "dolorem",
-    "Deleted": true,
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "ImageDescription": "Programmable logistical methodology",
+    "OrgNrText": "1296818",
+    "InterAreaPrefix": "et",
+    "DialInPrefix": "qui",
+    "ZipPrefix": "ullam",
+    "DomainName": "Quitzon-Greenfelder",
+    "AddressLayoutId": 159,
+    "DomesticAddressLayoutId": 886,
+    "ForeignAddressLayoutId": 379,
+    "Rank": 200,
+    "Tooltip": "quo",
+    "Deleted": false,
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 703
+        "FieldRight": null,
+        "FieldType": "System.Int32",
+        "FieldLength": 631
       }
     }
   }

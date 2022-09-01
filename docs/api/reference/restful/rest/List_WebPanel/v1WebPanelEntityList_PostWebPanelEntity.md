@@ -1,6 +1,6 @@
 ---
 title: POST List/WebPanel/Items
-id: v1WebPanelEntityList_PostWebPanelEntity
+uid: v1WebPanelEntityList_PostWebPanelEntity
 ---
 
 # POST List/WebPanel/Items
@@ -11,7 +11,14 @@ POST /api/v1/List/WebPanel/Items
 
 Create a new WebPanelEntity list item
 
+
 Calls the List agent service SaveWebPanelEntity.
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -27,9 +34,9 @@ Calls the List agent service SaveWebPanelEntity.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: newEntity
+## Request Body: newEntity  
 
-The WebPanelEntity to be created.
+The WebPanelEntity to be created. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -53,19 +60,18 @@ The WebPanelEntity to be created.
 | Url | string | The url |
 | ProgId | string | String key that can be used to uniquely retrieve the panel; particularly useful for partners and others who do not wish to store database ID's |
 | Icon | int32 | The icon of the webpanel |
+| AlwaysReloadOnShow | bool | If set to true, the content will reload every time the panel is shown |
 
-## Response: object
 
-The web panel entity contains information on a web panel
+## Response: 
 
-Carrier object for WebPanelEntity.
-Services for the WebPanelEntity Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IListAgent">List Agent</see>.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -89,79 +95,78 @@ Response body: object
 | Url | string | The url |
 | ProgId | string | String key that can be used to uniquely retrieve the panel; particularly useful for partners and others who do not wish to store database ID's |
 | Icon | int32 | The icon of the webpanel |
+| AlwaysReloadOnShow | bool | If set to true, the content will reload every time the panel is shown |
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/List/WebPanel/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebPanelId": 57,
-  "Name": "Streich-Bode",
-  "Tooltip": "reprehenderit",
-  "Deleted": true,
-  "Rank": 644,
+  "WebPanelId": 106,
+  "Name": "Vandervort, Rowe and Daugherty",
+  "Tooltip": "quia",
+  "Deleted": false,
+  "Rank": 377,
   "UrlEncoding": "ANSI",
   "VisibleIn": "ActivityDialog",
-  "OnCentral": true,
+  "OnCentral": false,
   "OnSatellite": true,
   "OnTravel": true,
-  "OnSalesMarketingWeb": true,
-  "OnSalesMarketingPocket": true,
-  "ShowInMenuBar": true,
+  "OnSalesMarketingWeb": false,
+  "OnSalesMarketingPocket": false,
+  "ShowInMenuBar": false,
   "ShowInToolBar": true,
   "ShowInAddressBar": false,
-  "ShowInStatusBar": false,
-  "WindowName": "Hamill, Wilderman and Becker",
+  "ShowInStatusBar": true,
+  "WindowName": "Davis, Lowe and Wiegand",
   "Url": "http://www.example.com/",
-  "ProgId": "vel",
-  "Icon": 303
+  "ProgId": "ut",
+  "Icon": 562,
+  "AlwaysReloadOnShow": false
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebPanelId": 560,
-  "Name": "Lehner Group",
-  "Tooltip": "qui",
+  "WebPanelId": 162,
+  "Name": "Volkman LLC",
+  "Tooltip": "accusamus",
   "Deleted": true,
-  "Rank": 910,
+  "Rank": 865,
   "UrlEncoding": "ANSI",
   "VisibleIn": "ActivityDialog",
-  "OnCentral": false,
+  "OnCentral": true,
   "OnSatellite": false,
-  "OnTravel": true,
+  "OnTravel": false,
   "OnSalesMarketingWeb": true,
   "OnSalesMarketingPocket": false,
-  "ShowInMenuBar": false,
-  "ShowInToolBar": true,
-  "ShowInAddressBar": false,
-  "ShowInStatusBar": true,
-  "WindowName": "Jast, Hills and Prohaska",
+  "ShowInMenuBar": true,
+  "ShowInToolBar": false,
+  "ShowInAddressBar": true,
+  "ShowInStatusBar": false,
+  "WindowName": "Larson-D'Amore",
   "Url": "http://www.example.com/",
-  "ProgId": "aut",
-  "Icon": 982,
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "ProgId": "doloremque",
+  "Icon": 244,
+  "AlwaysReloadOnShow": false,
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
+      "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 546
+      "FieldLength": 422
     }
   }
 }

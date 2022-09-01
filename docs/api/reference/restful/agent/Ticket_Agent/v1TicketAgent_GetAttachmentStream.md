@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Ticket/GetAttachmentStream
-id: v1TicketAgent_GetAttachmentStream
+uid: v1TicketAgent_GetAttachmentStream
 ---
 
 # POST Agents/Ticket/GetAttachmentStream
@@ -11,6 +11,12 @@ POST /api/v1/Agents/Ticket/GetAttachmentStream
 
 Get the content of an attachment
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Get the content of an attachment
 ```http
 POST /api/v1/Agents/Ticket/GetAttachmentStream?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,39 +42,45 @@ POST /api/v1/Agents/Ticket/GetAttachmentStream?$select=name,department,category/
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-AttachmentId
+AttachmentId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | AttachmentId | int32 |  |
 
-## Response
+
+## Response: byte
+
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: byte
 
-## Sample Request
+
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Ticket/GetAttachmentStream
 Authorization: Basic dGplMDpUamUw
-Accept: binary/octet-stream
+Accept: application/json; charset=utf-8
 Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 697
+  "AttachmentId": 571
 }
 ```
 
+## Sample response
+
 ```http_
 HTTP/1.1 200 OK
-Content-Type: binary/octet-stream
+Content-Type: application/json; charset=utf-8
 
-GIF89....File contents as raw bytes...
+"GIF89....File contents as raw bytes..."
 ```

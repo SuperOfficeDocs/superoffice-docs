@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Sale/OfferAutoNextStageOnApppointmentCompleted
-id: v1SaleAgent_OfferAutoNextStageOnApppointmentCompleted
+uid: v1SaleAgent_OfferAutoNextStageOnApppointmentCompleted
 ---
 
 # POST Agents/Sale/OfferAutoNextStageOnApppointmentCompleted
@@ -8,6 +8,14 @@ id: v1SaleAgent_OfferAutoNextStageOnApppointmentCompleted
 ```http
 POST /api/v1/Agents/Sale/OfferAutoNextStageOnApppointmentCompleted
 ```
+
+
+
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -18,6 +26,7 @@ POST /api/v1/Agents/Sale/OfferAutoNextStageOnApppointmentCompleted
 ```http
 POST /api/v1/Agents/Sale/OfferAutoNextStageOnApppointmentCompleted?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -33,15 +42,18 @@ POST /api/v1/Agents/Sale/OfferAutoNextStageOnApppointmentCompleted?$select=name,
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-AppointmentId
+AppointmentId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | AppointmentId | int32 |  |
 
+
 ## Response: bool
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -49,19 +61,22 @@ AppointmentId
 
 Response body: bool
 
-## Sample Request
+
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Sale/OfferAutoNextStageOnApppointmentCompleted
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "AppointmentId": 178
+  "AppointmentId": 588
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK

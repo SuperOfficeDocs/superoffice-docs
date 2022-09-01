@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Document/GetContactDocumentsByTemplateTypes
-id: v1DocumentAgent_GetContactDocumentsByTemplateTypes
+uid: v1DocumentAgent_GetContactDocumentsByTemplateTypes
 ---
 
 # POST Agents/Document/GetContactDocumentsByTemplateTypes
@@ -11,7 +11,13 @@ POST /api/v1/Agents/Document/GetContactDocumentsByTemplateTypes
 
 Method that returns a specified number of document appointments within a time range, filtered by document template types.
 
+
 The document appointments belong to the contact specified.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +28,7 @@ The document appointments belong to the contact specified.
 ```http
 POST /api/v1/Agents/Document/GetContactDocumentsByTemplateTypes?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,9 +44,9 @@ POST /api/v1/Agents/Document/GetContactDocumentsByTemplateTypes?$select=name,dep
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-ContactId, StartTime, EndTime, Count, DocumentTemplateIds
+ContactId, StartTime, EndTime, Count, DocumentTemplateIds 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -49,7 +56,10 @@ ContactId, StartTime, EndTime, Count, DocumentTemplateIds
 | Count | int32 |  |
 | DocumentTemplateIds | array |  |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -77,10 +87,12 @@ Response body: array
 | ProjectName | string | Project name |
 | AssociateId | int32 | ID of associate whose diary the appointment is in, REQUIRED |
 | Snum | int32 | The sequence number allocated from refcount on used template when creating the document |
+| SaleId | int32 | Owning sale, if any (may be 0) |
+| SaleName | string | Heading of Owning sale, if any. (may be blank) |
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Document/GetContactDocumentsByTemplateTypes
@@ -90,16 +102,18 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 975,
-  "StartTime": "2011-01-10T18:28:48.7049563+01:00",
-  "EndTime": "1997-08-30T18:28:48.7049563+02:00",
-  "Count": 435,
+  "ContactId": 962,
+  "StartTime": "2001-01-27T11:10:26.4564525+01:00",
+  "EndTime": "2013-11-06T11:10:26.4564525+01:00",
+  "Count": 658,
   "DocumentTemplateIds": [
-    549,
-    129
+    842,
+    25
   ]
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -107,36 +121,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 395,
-    "Attention": "veniam",
-    "Header": "voluptatibus",
-    "Name": "Hansen-Langworth",
-    "OurRef": "sit",
-    "YourRef": "natus",
-    "Description": "Total clear-thinking knowledge user",
-    "DocumentTemplate": "eaque",
-    "IsPublished": true,
-    "PersonId": 288,
-    "PersonFullName": "Stevie Gislason",
-    "AssociateFullName": "Miss Lizzie Metz",
-    "ContactId": 59,
-    "ContactName": "Sauer-Bogan",
-    "ProjectId": 94,
-    "ProjectName": "Lockman-Wiegand",
-    "AssociateId": 449,
-    "Snum": 652,
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "DocumentId": 459,
+    "Attention": "neque",
+    "Header": "maiores",
+    "Name": "Smitham-Schamberger",
+    "OurRef": "aut",
+    "YourRef": "nulla",
+    "Description": "Re-contextualized radical function",
+    "DocumentTemplate": "non",
+    "IsPublished": false,
+    "PersonId": 116,
+    "PersonFullName": "Isaiah Heathcote Jr.",
+    "AssociateFullName": "Emely Ullrich",
+    "ContactId": 238,
+    "ContactName": "Hayes, Collier and Runolfsson",
+    "ProjectId": 553,
+    "ProjectName": "Macejkovic, Schaden and D'Amore",
+    "AssociateId": 585,
+    "Snum": 683,
+    "SaleId": 550,
+    "SaleName": "Hettinger Group",
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 69
+        "FieldRight": null,
+        "FieldType": "System.Int32",
+        "FieldLength": 186
       }
     }
   }

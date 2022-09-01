@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Quote/CreateConnectionFromConnectorName
-id: v1QuoteAgent_CreateConnectionFromConnectorName
+uid: v1QuoteAgent_CreateConnectionFromConnectorName
 ---
 
 # POST Agents/Quote/CreateConnectionFromConnectorName
@@ -11,6 +11,12 @@ POST /api/v1/Agents/Quote/CreateConnectionFromConnectorName
 
 Create a new connection.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Create a new connection.
 ```http
 POST /api/v1/Agents/Quote/CreateConnectionFromConnectorName?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,26 +42,24 @@ POST /api/v1/Agents/Quote/CreateConnectionFromConnectorName?$select=name,departm
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-ConnectorName
+ConnectorName 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | ConnectorName | string |  |
 
-## Response: object
 
-Information about a connection to the ERP system.
+## Response: 
 
-Carrier object for QuoteConnection.
-Services for the QuoteConnection Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IQuoteAgent">Quote Agent</see>.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -76,7 +81,7 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Quote/CreateConnectionFromConnectorName
@@ -86,89 +91,65 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConnectorName": "Lesch, Hilll and Veum"
+  "ConnectorName": "Jacobson, Collier and Howe"
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 776,
-  "ERPName": "Stokes-Smitham",
-  "DisplayName": "Koepp, Kuhic and Berge",
-  "DisplayDescription": "Re-contextualized leading edge paradigm",
-  "Rank": 663,
-  "ConnectorName": "Upton Group",
-  "ErpConnectionId": 773,
-  "ExtraData": "voluptas",
+  "QuoteConnectionId": 137,
+  "ERPName": "Feest, O'Reilly and Keebler",
+  "DisplayName": "Price-Boyer",
+  "DisplayDescription": "Decentralized client-driven adapter",
+  "Rank": 527,
+  "ConnectorName": "Ortiz-Upton",
+  "ErpConnectionId": 602,
+  "ExtraData": "nisi",
   "IsAvailable": true,
-  "InitializeResponse": {
-    "IsOk": false,
-    "UserExplanation": "quas",
-    "TechExplanation": "enim",
-    "ErrorCode": "magni",
-    "Changes": {},
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.Int32",
-        "FieldLength": 975
-      }
-    }
-  },
+  "InitializeResponse": null,
   "PriceLists": [
     {
-      "PriceListId": 906,
-      "ERPPriceListKey": "rerum",
-      "QuoteConnectionId": 755,
-      "Name": "Strosin, Schowalter and Murazik",
-      "Description": "Persevering incremental ability",
-      "Currency": "vitae",
-      "CurrencyName": "Spinka, Hintz and Boyle",
-      "ValidFrom": "2013-09-10T18:28:49.9371368+02:00",
-      "ValidTo": "2018-01-25T18:28:49.9371368+01:00",
+      "PriceListId": 275,
+      "ERPPriceListKey": "nam",
+      "QuoteConnectionId": 943,
+      "Name": "Pouros, Lehner and Leuschke",
+      "Description": "Switchable didactic toolset",
+      "Currency": "voluptatum",
+      "CurrencyName": "Howe-Sawayn",
+      "ValidFrom": "2019-05-29T11:10:27.7054917+02:00",
+      "ValidTo": "2013-03-24T11:10:27.7054917+01:00",
       "IsActive": false,
-      "TableRight": {},
+      "TableRight": null,
       "FieldProperties": {
         "fieldName": {
-          "FieldRight": {
-            "Mask": "FULL",
-            "Reason": ""
-          },
-          "FieldType": "System.String",
-          "FieldLength": 221
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 546
         }
       }
     }
   ],
-  "AllAccess": true,
-  "Deleted": true,
+  "AllAccess": false,
+  "Deleted": false,
   "UserGroupAccessIds": [
-    995,
-    550
+    621,
+    659
   ],
   "AssociateAccessIds": [
-    625,
-    694
+    315,
+    215
   ],
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
+      "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 403
+      "FieldLength": 246
     }
   }
 }

@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Appointment/GetSuggestedAppointment
-id: v1AppointmentAgent_GetSuggestedAppointment
+uid: v1AppointmentAgent_GetSuggestedAppointment
 ---
 
 # POST Agents/Appointment/GetSuggestedAppointment
@@ -11,6 +11,12 @@ POST /api/v1/Agents/Appointment/GetSuggestedAppointment
 
 Gets a SuggestedAppointment object.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -19,9 +25,10 @@ Gets a SuggestedAppointment object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Appointment/GetSuggestedAppointment?suggestedAppointmentId=488
+POST /api/v1/Agents/Appointment/GetSuggestedAppointment?suggestedAppointmentId=328
 POST /api/v1/Agents/Appointment/GetSuggestedAppointment?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -36,16 +43,16 @@ POST /api/v1/Agents/Appointment/GetSuggestedAppointment?$select=name,department,
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response: object
 
-Carrier object for SuggestedAppointment.
-Services for the SuggestedAppointment Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IAppointmentAgent">Appointment Agent</see>.
+## Response: 
+
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -66,7 +73,7 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Appointment/GetSuggestedAppointment
@@ -75,61 +82,33 @@ Accept: application/json; charset=utf-8
 Accept-Language: sv
 ```
 
+## Sample response
+
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AutoSuggest": 806,
-  "Deleted": 806,
-  "DaysFuture": 984,
-  "Tooltip": "illum",
-  "Text": "quibusdam",
-  "TaskId": 452,
-  "SuggestedAppointmentId": 216,
-  "SaleTypeStageLinkId": 603,
-  "RegisteredAssociateId": 626,
-  "Rank": 779,
-  "ProjectTypeStatusLinkId": 61,
-  "Name": "Friesen, Eichmann and Bashirian",
-  "Duration": 481,
-  "Associate": {
-    "AssociateId": 868,
-    "Name": "Hilll-Luettgen",
-    "PersonId": 292,
-    "Rank": 897,
-    "Tooltip": "rem",
-    "Type": "AnonymousAssociate",
-    "GroupIdx": 877,
-    "FullName": "Curt Kuhic",
-    "FormalName": "Botsford-Konopelski",
-    "Deleted": true,
-    "EjUserId": 984,
-    "UserName": "Abbott-Lueilwitz",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 209
-      }
-    }
-  },
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": "syndicate sexy methodologies"
-  },
+  "AutoSuggest": 412,
+  "Deleted": 669,
+  "DaysFuture": 826,
+  "Tooltip": "magni",
+  "Text": "accusamus",
+  "TaskId": 484,
+  "SuggestedAppointmentId": 360,
+  "SaleTypeStageLinkId": 966,
+  "RegisteredAssociateId": 399,
+  "Rank": 71,
+  "ProjectTypeStatusLinkId": 585,
+  "Name": "Donnelly, Lemke and Muller",
+  "Duration": 453,
+  "Associate": null,
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
+      "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 672
+      "FieldLength": 562
     }
   }
 }

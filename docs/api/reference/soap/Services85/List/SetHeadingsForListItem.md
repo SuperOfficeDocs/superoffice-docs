@@ -18,6 +18,8 @@ Set headings which this list item should be listed under
 * **headingIds:** The ids of the headings to set for this list item
 * **enable:** Set to true to enable, false to disable
 
+
+
 [WSDL file for Services85/List](../Services85-List.md)
 
 Obtain a ticket from the [Services85/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -55,6 +57,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## SetHeadingsForListItem Response
 
 ```xml
@@ -74,3 +77,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

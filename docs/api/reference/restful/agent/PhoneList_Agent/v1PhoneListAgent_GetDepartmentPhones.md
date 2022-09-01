@@ -1,6 +1,6 @@
 ---
 title: POST Agents/PhoneList/GetDepartmentPhones
-id: v1PhoneListAgent_GetDepartmentPhones
+uid: v1PhoneListAgent_GetDepartmentPhones
 ---
 
 # POST Agents/PhoneList/GetDepartmentPhones
@@ -11,7 +11,13 @@ POST /api/v1/Agents/PhoneList/GetDepartmentPhones
 
 Returns an array of phone list items with the in-parameter as restriction.
 
+
 The in-parameter must be a valid department id (UserGroupId).
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +28,7 @@ The in-parameter must be a valid department id (UserGroupId).
 ```http
 POST /api/v1/Agents/PhoneList/GetDepartmentPhones?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,15 +44,18 @@ POST /api/v1/Agents/PhoneList/GetDepartmentPhones?$select=name,department,catego
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-DepartmentId
+DepartmentId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | DepartmentId | int32 |  |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -68,19 +78,21 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/PhoneList/GetDepartmentPhones
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "DepartmentId": 86
+  "DepartmentId": 474
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -88,28 +100,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PersonDirectPhone": "345-451-1037 x342",
-    "PersonCellPhone": "1-348-603-1338 x147",
-    "PersonPrivatePhone": "(711)134-8227 x6103",
-    "PersonFaxNumber": "1901228",
-    "PersonPagerNumber": "1840216",
-    "PersonEmail": "rodrigo.marvin@gusikowskischaefer.com",
-    "Id": 304,
-    "Name": "Blanda Group",
-    "Tooltip": "aspernatur",
-    "UniqueId": "praesentium",
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "PersonDirectPhone": "382.730.4025 x57155",
+    "PersonCellPhone": "1-520-360-1258 x1233",
+    "PersonPrivatePhone": "1-084-555-8812",
+    "PersonFaxNumber": "416388",
+    "PersonPagerNumber": "1301498",
+    "PersonEmail": "justyn.conn@hayes.biz",
+    "Id": 756,
+    "Name": "Wisozk Group",
+    "Tooltip": "necessitatibus",
+    "UniqueId": "quam",
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
+        "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 823
+        "FieldLength": 41
       }
     }
   }

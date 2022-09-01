@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Document/GetPersonDocumentsByTemplateTypes
-id: v1DocumentAgent_GetPersonDocumentsByTemplateTypes
+uid: v1DocumentAgent_GetPersonDocumentsByTemplateTypes
 ---
 
 # POST Agents/Document/GetPersonDocumentsByTemplateTypes
@@ -11,7 +11,13 @@ POST /api/v1/Agents/Document/GetPersonDocumentsByTemplateTypes
 
 Method that returns a specified number of document appointments within a time range, filtered by document template types.
 
+
 The document appointments belong to the person specified.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +28,7 @@ The document appointments belong to the person specified.
 ```http
 POST /api/v1/Agents/Document/GetPersonDocumentsByTemplateTypes?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,9 +44,9 @@ POST /api/v1/Agents/Document/GetPersonDocumentsByTemplateTypes?$select=name,depa
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-PersonId, IncludeProjectDocuments, StartTime, EndTime, Count, DocumentTemplateIds
+PersonId, IncludeProjectDocuments, StartTime, EndTime, Count, DocumentTemplateIds 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -50,7 +57,10 @@ PersonId, IncludeProjectDocuments, StartTime, EndTime, Count, DocumentTemplateId
 | Count | int32 |  |
 | DocumentTemplateIds | array |  |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -78,10 +88,12 @@ Response body: array
 | ProjectName | string | Project name |
 | AssociateId | int32 | ID of associate whose diary the appointment is in, REQUIRED |
 | Snum | int32 | The sequence number allocated from refcount on used template when creating the document |
+| SaleId | int32 | Owning sale, if any (may be 0) |
+| SaleName | string | Heading of Owning sale, if any. (may be blank) |
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Document/GetPersonDocumentsByTemplateTypes
@@ -91,17 +103,19 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 542,
+  "PersonId": 844,
   "IncludeProjectDocuments": false,
-  "StartTime": "2015-09-05T18:28:48.7239276+02:00",
-  "EndTime": "2004-06-30T18:28:48.7239276+02:00",
-  "Count": 947,
+  "StartTime": "2004-03-07T11:10:26.4804524+01:00",
+  "EndTime": "2015-10-17T11:10:26.4804524+02:00",
+  "Count": 231,
   "DocumentTemplateIds": [
-    888,
-    849
+    979,
+    718
   ]
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -109,36 +123,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 107,
-    "Attention": "impedit",
-    "Header": "labore",
-    "Name": "Heaney Group",
-    "OurRef": "reiciendis",
-    "YourRef": "esse",
-    "Description": "Upgradable interactive methodology",
-    "DocumentTemplate": "est",
-    "IsPublished": true,
-    "PersonId": 389,
-    "PersonFullName": "Olga Kohler",
-    "AssociateFullName": "Naomie Fisher",
-    "ContactId": 433,
-    "ContactName": "Bechtelar, Jenkins and Jakubowski",
-    "ProjectId": 372,
-    "ProjectName": "Bernhard LLC",
-    "AssociateId": 203,
-    "Snum": 60,
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "DocumentId": 427,
+    "Attention": "dolores",
+    "Header": "sunt",
+    "Name": "Cole-Boehm",
+    "OurRef": "aut",
+    "YourRef": "expedita",
+    "Description": "Distributed national workforce",
+    "DocumentTemplate": "voluptatem",
+    "IsPublished": false,
+    "PersonId": 787,
+    "PersonFullName": "Myrna Mitchell",
+    "AssociateFullName": "Bud Durgan I",
+    "ContactId": 406,
+    "ContactName": "Terry-Marks",
+    "ProjectId": 119,
+    "ProjectName": "Cartwright, Adams and O'Keefe",
+    "AssociateId": 909,
+    "Snum": 550,
+    "SaleId": 730,
+    "SaleName": "Shields, Kutch and Jast",
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
+        "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 48
+        "FieldLength": 634
       }
     }
   }

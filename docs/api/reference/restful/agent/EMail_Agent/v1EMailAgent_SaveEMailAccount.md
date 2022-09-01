@@ -1,6 +1,6 @@
 ---
 title: POST Agents/EMail/SaveEMailAccount
-id: v1EMailAgent_SaveEMailAccount
+uid: v1EMailAgent_SaveEMailAccount
 ---
 
 # POST Agents/EMail/SaveEMailAccount
@@ -11,7 +11,16 @@ POST /api/v1/Agents/EMail/SaveEMailAccount
 
 Updates the existing EMailAccount or creates a new EMailAccount if the id parameter is empty
 
-## Online Restricted: ## The EMail agent is not available in Online by default. Access must be requested specifically when app is registered
+
+
+
+## Online Restricted: ## The EMail agent is not available in Online by default. Access must be requested specifically when app is registered.
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -27,9 +36,9 @@ Updates the existing EMailAccount or creates a new EMailAccount if the id parame
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entity
+## Request Body: entity  
 
-The EMailAccount to be saved.
+The EMailAccount to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -41,19 +50,19 @@ The EMailAccount to be saved.
 | AccountStatus | int32 | The account status (Disabled or...) Readonly field |
 | ErrorCount | int32 | Count of concurring errors of fetching email. Readonly field |
 | ErrorReason | string | Reason/Error message. Readonly field |
+| InboxFolder | string | Inbox folder name if available in the db |
+| SentFolder | string | Sent email folder name if available in the db |
 
-## Response: object
 
-Properties for an email account
+## Response: 
 
-Carrier object for EMailAccount.
-Services for the EMailAccount Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IEMailAgent">EMail Agent</see>.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -65,10 +74,12 @@ Response body: object
 | AccountStatus | int32 | The account status (Disabled or...) Readonly field |
 | ErrorCount | int32 | Count of concurring errors of fetching email. Readonly field |
 | ErrorReason | string | Reason/Error message. Readonly field |
+| InboxFolder | string | Inbox folder name if available in the db |
+| SentFolder | string | Sent email folder name if available in the db |
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/EMail/SaveEMailAccount
@@ -78,92 +89,42 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "EMailAccountId": 198,
-  "EMailAddress": "voluptas",
-  "AssociateId": 396,
-  "IncomingCredentials": {
-    "ServiceAuthId": 950,
-    "Server": "sit",
-    "Port": 562,
-    "AuthType": "minus",
-    "Username": "ut",
-    "Password": "qui"
-  },
-  "OutgoingCredentials": {
-    "ServiceAuthId": 833,
-    "Server": "tempora",
-    "Port": 762,
-    "AuthType": "voluptatem",
-    "Username": "vel",
-    "Password": "maxime"
-  },
-  "AccountStatus": 75,
-  "ErrorCount": 586,
-  "ErrorReason": ""
+  "EMailAccountId": 433,
+  "EMailAddress": "occaecati",
+  "AssociateId": 287,
+  "IncomingCredentials": null,
+  "OutgoingCredentials": null,
+  "AccountStatus": 720,
+  "ErrorCount": 890,
+  "ErrorReason": "",
+  "InboxFolder": "omnis",
+  "SentFolder": "voluptatem"
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EMailAccountId": 994,
-  "EMailAddress": "expedita",
-  "AssociateId": 37,
-  "IncomingCredentials": {
-    "ServiceAuthId": 434,
-    "Server": "ea",
-    "Port": 658,
-    "AuthType": "ducimus",
-    "Username": "excepturi",
-    "Password": "rerum",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 86
-      }
-    }
-  },
-  "OutgoingCredentials": {
-    "ServiceAuthId": 637,
-    "Server": "quia",
-    "Port": 587,
-    "AuthType": "doloribus",
-    "Username": "delectus",
-    "Password": "veritatis",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 315
-      }
-    }
-  },
-  "AccountStatus": 544,
-  "ErrorCount": 282,
+  "EMailAccountId": 272,
+  "EMailAddress": "quis",
+  "AssociateId": 463,
+  "IncomingCredentials": null,
+  "OutgoingCredentials": null,
+  "AccountStatus": 903,
+  "ErrorCount": 365,
   "ErrorReason": "",
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "InboxFolder": "qui",
+  "SentFolder": "illum",
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
+      "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 44
+      "FieldLength": 373
     }
   }
 }

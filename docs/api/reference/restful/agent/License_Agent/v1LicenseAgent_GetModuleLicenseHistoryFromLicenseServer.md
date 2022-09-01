@@ -1,6 +1,6 @@
 ---
 title: POST Agents/License/GetModuleLicenseHistoryFromLicenseServer
-id: v1LicenseAgent_GetModuleLicenseHistoryFromLicenseServer
+uid: v1LicenseAgent_GetModuleLicenseHistoryFromLicenseServer
 ---
 
 # POST Agents/License/GetModuleLicenseHistoryFromLicenseServer
@@ -11,6 +11,12 @@ POST /api/v1/Agents/License/GetModuleLicenseHistoryFromLicenseServer
 
 Get details about a license from the license server.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Get details about a license from the license server.
 ```http
 POST /api/v1/Agents/License/GetModuleLicenseHistoryFromLicenseServer?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,16 +42,19 @@ POST /api/v1/Agents/License/GetModuleLicenseHistoryFromLicenseServer?$select=nam
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-LicenseInfo, ModuleLicense
+LicenseInfo, ModuleLicense 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | LicenseInfo |  |  |
 | ModuleLicense |  |  |
 
+
 ## Response: string
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -52,43 +62,27 @@ LicenseInfo, ModuleLicense
 
 Response body: string
 
-## Sample Request
+
+## Sample request
 
 ```http!
 POST /api/v1/Agents/License/GetModuleLicenseHistoryFromLicenseServer
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "LicenseInfo": {
-    "Reason": "",
-    "CanBeActivated": true,
-    "New": {},
-    "Current": {},
-    "ExtendedModuleLicenses": [
-      {},
-      {}
-    ],
-    "AccumulatedNextCheckDate": "1999-01-24T18:28:49.2361225+01:00"
-  },
-  "ModuleLicense": {
-    "New": {},
-    "Current": {},
-    "NumberOfLicensesInUse": 961,
-    "NumberOfLicensesFree": 213,
-    "NumberOfLicensesAdded": 295,
-    "NumberOfLicensesNewTotal": 78,
-    "NumberOfLicensesNewFree": 609,
-    "NumberOfLicensesTotal": 284
-  }
+  "LicenseInfo": null,
+  "ModuleLicense": null
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"voluptatibus"
+"ut"
 ```

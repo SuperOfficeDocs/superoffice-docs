@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Quote/SaveQuoteAlternative
-id: v1QuoteAgent_SaveQuoteAlternative
+uid: v1QuoteAgent_SaveQuoteAlternative
 ---
 
 # POST Agents/Quote/SaveQuoteAlternative
@@ -10,6 +10,13 @@ POST /api/v1/Agents/Quote/SaveQuoteAlternative
 ```
 
 Updates the existing QuoteAlternative or creates a new QuoteAlternative if the id parameter is empty
+
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -25,9 +32,9 @@ Updates the existing QuoteAlternative or creates a new QuoteAlternative if the i
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entity
+## Request Body: entity  
 
-The QuoteAlternative to be saved.
+The QuoteAlternative to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -55,18 +62,16 @@ The QuoteAlternative to be saved.
 | ExtraField4 | string | Optional information added by Quote Connector; usable in the quote document merge process |
 | ExtraField5 | string | Optional information added by Quote Connector; usable in the quote document merge process |
 
-## Response: object
 
-Information about a connection to the ERP system.
+## Response: 
 
-Carrier object for QuoteAlternative.
-Services for the QuoteAlternative Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IQuoteAgent">Quote Agent</see>.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -96,82 +101,78 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Quote/SaveQuoteAlternative
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternativeId": 313,
-  "ERPQuoteAlternativeKey": "corrupti",
-  "QuoteVersionId": 88,
-  "Name": "Hoeger, Davis and Collins",
-  "Description": "Re-engineered composite extranet",
+  "QuoteAlternativeId": 113,
+  "ERPQuoteAlternativeKey": "perferendis",
+  "QuoteVersionId": 358,
+  "Name": "Hartmann-O'Reilly",
+  "Description": "Sharable encompassing knowledge user",
   "Status": "Error",
   "Reason": "",
-  "ERPDiscountPercent": 5600.458,
-  "ERPDiscountAmount": 31195.836,
-  "DiscountPercent": 1372.692,
-  "DiscountAmount": 25943.252,
+  "ERPDiscountPercent": 30051.926,
+  "ERPDiscountAmount": 2065.306,
+  "DiscountPercent": 26121.89,
+  "DiscountAmount": 19863.291999999998,
   "UserValueOverride": "DiscountAmount",
-  "VATInfo": "enim",
-  "VAT": 30271.306,
-  "EarningPercent": 26109.354,
-  "EarningAmount": 15215.57,
-  "SubTotal": 29111.726,
-  "TotalPrice": 22135.442,
-  "ExtraField1": "sed",
-  "ExtraField2": "et",
-  "ExtraField3": "in",
-  "ExtraField4": "quia",
-  "ExtraField5": "maiores"
+  "VATInfo": "esse",
+  "VAT": 28801.46,
+  "EarningPercent": 17133.577999999998,
+  "EarningAmount": 9828.224,
+  "SubTotal": 29168.138,
+  "TotalPrice": 18738.185999999998,
+  "ExtraField1": "qui",
+  "ExtraField2": "iure",
+  "ExtraField3": "qui",
+  "ExtraField4": "aliquid",
+  "ExtraField5": "blanditiis"
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternativeId": 250,
-  "ERPQuoteAlternativeKey": "amet",
-  "QuoteVersionId": 281,
-  "Name": "Hauck LLC",
-  "Description": "Multi-layered exuding archive",
+  "QuoteAlternativeId": 87,
+  "ERPQuoteAlternativeKey": "quas",
+  "QuoteVersionId": 630,
+  "Name": "Crooks, Cartwright and Murphy",
+  "Description": "Function-based 24 hour internet solution",
   "Status": "Error",
   "Reason": "",
-  "ERPDiscountPercent": 8656.108,
-  "ERPDiscountAmount": 26225.311999999998,
-  "DiscountPercent": 13169.068,
-  "DiscountAmount": 20913.182,
+  "ERPDiscountPercent": 17352.958,
+  "ERPDiscountAmount": 24971.712,
+  "DiscountPercent": 4791.8859999999995,
+  "DiscountAmount": 28115.113999999998,
   "UserValueOverride": "DiscountAmount",
-  "VATInfo": "voluptatem",
-  "VAT": 27391.16,
-  "EarningPercent": 2115.45,
-  "EarningAmount": 26322.466,
-  "SubTotal": 18224.21,
-  "TotalPrice": 25736.408,
-  "ExtraField1": "fugit",
-  "ExtraField2": "explicabo",
+  "VATInfo": "ea",
+  "VAT": 12332.289999999999,
+  "EarningPercent": 1968.152,
+  "EarningAmount": 23467.392,
+  "SubTotal": 15372.269999999999,
+  "TotalPrice": 21655.94,
+  "ExtraField1": "ipsa",
+  "ExtraField2": "ea",
   "ExtraField3": "aut",
-  "ExtraField4": "id",
-  "ExtraField5": "optio",
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "ExtraField4": "saepe",
+  "ExtraField5": "est",
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
+      "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 473
+      "FieldLength": 966
     }
   }
 }

@@ -1,6 +1,6 @@
 ---
 title: POST Agents/EMail/CreateInlineHtmlHeader
-id: v1EMailAgent_CreateInlineHtmlHeader
+uid: v1EMailAgent_CreateInlineHtmlHeader
 ---
 
 # POST Agents/EMail/CreateInlineHtmlHeader
@@ -11,7 +11,15 @@ POST /api/v1/Agents/EMail/CreateInlineHtmlHeader
 
 Create Outlook style HTML header to use in for instance reply entities and when printing
 
-## Online Restricted: ## The EMail agent is not available in Online by default. Access must be requested specifically when app is registered
+
+
+
+## Online Restricted: ## The EMail agent is not available in Online by default. Access must be requested specifically when app is registered.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +30,7 @@ Create Outlook style HTML header to use in for instance reply entities and when 
 ```http
 POST /api/v1/Agents/EMail/CreateInlineHtmlHeader?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,15 +46,18 @@ POST /api/v1/Agents/EMail/CreateInlineHtmlHeader?$select=name,department,categor
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-Email
+Email 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| Email |  | All information about an e-mail <br /> Carrier object for EMailEntity. Services for the EMailEntity Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IEMailAgent">EMail Agent</see>. |
+| Email |  | All information about an e-mail <para /> Carrier object for EMailEntity. Services for the EMailEntity Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IEMailAgent">EMail Agent</see>. |
+
 
 ## Response: string
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -53,65 +65,26 @@ Email
 
 Response body: string
 
-## Sample Request
+
+## Sample request
 
 ```http!
 POST /api/v1/Agents/EMail/CreateInlineHtmlHeader
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Email": {
-    "To": [
-      {},
-      {}
-    ],
-    "Cc": [
-      {},
-      {}
-    ],
-    "Bcc": [
-      {},
-      {}
-    ],
-    "Subject": "a",
-    "HTMLBody": "voluptas",
-    "From": {},
-    "Sent": "1996-09-15T18:28:49.0079283+02:00",
-    "Size": 343,
-    "Priority": "High",
-    "Flags": "Answered",
-    "MessageID": "ea",
-    "PlainBody": "quidem",
-    "IsSent": true,
-    "EMailSOInfo": {},
-    "ServerId": 349,
-    "Attachments": [
-      {},
-      {}
-    ],
-    "CustomHeaderList": [
-      {},
-      {}
-    ],
-    "FolderName": "Osinski Inc and Sons",
-    "EmailItemId": 229,
-    "AccountId": 844,
-    "ReceivedAt": "1995-11-28T18:28:49.0079283+01:00",
-    "InReplyTo": {},
-    "RepliedAt": "2007-12-19T18:28:49.0079283+01:00",
-    "HasCalendarData": true,
-    "CalMethod": "Add",
-    "CalReplyStatus": "Accepted"
-  }
+  "Email": null
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"eius"
+"similique"
 ```

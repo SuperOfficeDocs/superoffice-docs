@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Quote/CreateAndSaveQuoteVersion
-id: v1QuoteAgent_CreateAndSaveQuoteVersion
+uid: v1QuoteAgent_CreateAndSaveQuoteVersion
 ---
 
 # POST Agents/Quote/CreateAndSaveQuoteVersion
@@ -11,6 +11,12 @@ POST /api/v1/Agents/Quote/CreateAndSaveQuoteVersion
 
 Created a new QuoteVersion based on another QuoteVersion on the same Quote.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Created a new QuoteVersion based on another QuoteVersion on the same Quote.
 ```http
 POST /api/v1/Agents/Quote/CreateAndSaveQuoteVersion?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,26 +42,24 @@ POST /api/v1/Agents/Quote/CreateAndSaveQuoteVersion?$select=name,department,cate
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-QuoteVersionId
+QuoteVersionId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | QuoteVersionId | int32 |  |
 
-## Response: object
 
-Information about a version of the .
+## Response: 
 
-Carrier object for QuoteVersion.
-Services for the QuoteVersion Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IQuoteAgent">Quote Agent</see>.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -94,115 +99,112 @@ Response body: object
 | UpdatedAssociateId | int32 | Last updated by whom |
 | Registered | date-time | Registered when  in UTC. |
 | RegisteredAssociateId | int32 | Registered by whom |
+| RequestAssociateId | int32 | User to whom the request proposal should be delivered |
+| RequestComment | string | Comment for why quote should be approved |
 | QuoteAlternatives | array | The QuoteAlternatives for the QuoteVersion |
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Quote/CreateAndSaveQuoteVersion
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 527
+  "QuoteVersionId": 565
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 150,
-  "ERPQuoteVersionKey": "omnis",
-  "QuoteId": 400,
-  "Description": "Pre-emptive bandwidth-monitored concept",
-  "Number": "848257",
+  "QuoteVersionId": 176,
+  "ERPQuoteVersionKey": "quo",
+  "QuoteId": 808,
+  "Description": "Quality-focused composite software",
+  "Number": "1620795",
   "State": "Archived",
   "ArchivedState": "Archived",
   "Status": "Error",
   "Reason": "",
-  "LikelyQuoteAlternativeId": 180,
-  "SentDate": "2004-03-20T18:28:49.917137+01:00",
-  "FollowupId": 413,
-  "ExpirationDate": "2003-04-03T18:28:49.917137+02:00",
-  "DeliveryCountryId": 841,
+  "LikelyQuoteAlternativeId": 1001,
+  "SentDate": "2018-02-24T11:10:27.649461+01:00",
+  "FollowupId": 183,
+  "ExpirationDate": "2022-08-05T11:10:27.649461+02:00",
+  "DeliveryCountryId": 415,
   "HasOwnDeliveryAddress": false,
-  "InvoiceCountryId": 671,
+  "InvoiceCountryId": 710,
   "HasOwnInvoiceAddress": false,
-  "ERPPaymentTermsKey": "est",
-  "ERPPaymentTypeKey": "quidem",
-  "ERPDeliveryTermsKey": "repudiandae",
-  "ERPDeliveryTypeKey": "nam",
-  "Rank": 389,
-  "ApprovedBy": 93,
-  "ApprovedText": "tenetur",
-  "ApprovedRegisteredBy": 191,
-  "ApprovedRegisteredDate": "2012-10-19T18:28:49.917137+02:00",
-  "ExtraField1": "et",
-  "ExtraField2": "est",
-  "ExtraField3": "labore",
-  "ExtraField4": "adipisci",
-  "ExtraField5": "voluptas",
-  "LastRecalculated": "2009-04-25T18:28:49.917137+02:00",
-  "Updated": "2006-05-12T18:28:49.917137+02:00",
-  "UpdatedAssociateId": 690,
-  "Registered": "1995-10-27T18:28:49.917137+02:00",
-  "RegisteredAssociateId": 926,
+  "ERPPaymentTermsKey": "deserunt",
+  "ERPPaymentTypeKey": "a",
+  "ERPDeliveryTermsKey": "explicabo",
+  "ERPDeliveryTypeKey": "aut",
+  "Rank": 509,
+  "ApprovedBy": 529,
+  "ApprovedText": "voluptas",
+  "ApprovedRegisteredBy": 738,
+  "ApprovedRegisteredDate": "2020-07-04T11:10:27.649461+02:00",
+  "ExtraField1": "debitis",
+  "ExtraField2": "enim",
+  "ExtraField3": "aliquid",
+  "ExtraField4": "tenetur",
+  "ExtraField5": "nesciunt",
+  "LastRecalculated": "2013-01-25T11:10:27.649461+01:00",
+  "Updated": "2004-03-11T11:10:27.649461+01:00",
+  "UpdatedAssociateId": 252,
+  "Registered": "1998-05-24T11:10:27.649461+02:00",
+  "RegisteredAssociateId": 198,
+  "RequestAssociateId": 97,
+  "RequestComment": "eos",
   "QuoteAlternatives": [
     {
-      "QuoteAlternativeId": 257,
-      "ERPQuoteAlternativeKey": "molestiae",
-      "QuoteVersionId": 713,
-      "Name": "Olson-Homenick",
-      "Description": "Reduced radical attitude",
+      "QuoteAlternativeId": 897,
+      "ERPQuoteAlternativeKey": "ipsam",
+      "QuoteVersionId": 593,
+      "Name": "Kuhn, Barton and Wyman",
+      "Description": "Optional motivating time-frame",
       "Status": "Error",
       "Reason": "",
-      "ERPDiscountPercent": 26009.066,
-      "ERPDiscountAmount": 30239.966,
-      "DiscountPercent": 12855.668,
-      "DiscountAmount": 28729.378,
+      "ERPDiscountPercent": 21649.672,
+      "ERPDiscountAmount": 18941.896,
+      "DiscountPercent": 3375.3179999999998,
+      "DiscountAmount": 27209.388,
       "UserValueOverride": "DiscountAmount",
-      "VATInfo": "nulla",
-      "VAT": 6778.842,
-      "EarningPercent": 17052.094,
-      "EarningAmount": 15701.34,
-      "SubTotal": 2124.852,
-      "TotalPrice": 6086.228,
-      "ExtraField1": "magnam",
-      "ExtraField2": "ipsum",
-      "ExtraField3": "dolor",
-      "ExtraField4": "tempora",
-      "ExtraField5": "quod",
-      "TableRight": {},
+      "VATInfo": "animi",
+      "VAT": 1651.618,
+      "EarningPercent": 20258.176,
+      "EarningAmount": 81.484,
+      "SubTotal": 8095.1219999999994,
+      "TotalPrice": 5149.162,
+      "ExtraField1": "at",
+      "ExtraField2": "dolore",
+      "ExtraField3": "sunt",
+      "ExtraField4": "ratione",
+      "ExtraField5": "quia",
+      "TableRight": null,
       "FieldProperties": {
         "fieldName": {
-          "FieldRight": {
-            "Mask": "FULL",
-            "Reason": "reinvent 24/7 schemas"
-          },
-          "FieldType": "System.String",
-          "FieldLength": 49
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 786
         }
       }
     }
   ],
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
-      "FieldType": "System.Int32",
-      "FieldLength": 503
+      "FieldRight": null,
+      "FieldType": "System.String",
+      "FieldLength": 506
     }
   }
 }

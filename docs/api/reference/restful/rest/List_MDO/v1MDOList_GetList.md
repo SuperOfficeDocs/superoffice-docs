@@ -1,6 +1,6 @@
 ---
 title: GET MDOList/{listname}
-id: v1MDOList_GetList
+uid: v1MDOList_GetList
 ---
 
 # GET MDOList/{listname}
@@ -11,9 +11,15 @@ GET /api/v1/MDOList/{listname}
 
 Get the list items in a named list.
 
+
+
+
+
+
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | listname | string | "category", "business" etc **Required** |
+
 
 ## Query String Parameters
 
@@ -24,10 +30,11 @@ Get the list items in a named list.
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/MDOList/{listname}?flat=True
-GET /api/v1/MDOList/{listname}?additional=consequuntur
-GET /api/v1/MDOList/{listname}?query=autem
+GET /api/v1/MDOList/{listname}?flat=False
+GET /api/v1/MDOList/{listname}?additional=dignissimos
+GET /api/v1/MDOList/{listname}?query=et
 ```
+
 
 ## Request Headers
 
@@ -42,7 +49,10 @@ GET /api/v1/MDOList/{listname}?query=autem
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -67,7 +77,7 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 GET /api/v1/MDOList/{listname}
@@ -76,65 +86,58 @@ Accept: application/json; charset=utf-8
 Accept-Language: *
 ```
 
+## Sample response
+
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 686,
-    "Name": "Christiansen-Reinger",
-    "ToolTip": "Vitae optio consequuntur libero velit aliquid.",
+    "Id": 4,
+    "Name": "Simonis, Block and Harber",
+    "ToolTip": "Facere eos voluptas corrupti.",
     "Deleted": false,
-    "Rank": 576,
-    "Type": "voluptates",
+    "Rank": 329,
+    "Type": "laboriosam",
     "ChildItems": [
       {
-        "Id": 640,
-        "Name": "Dibbert, Kuhn and Corkery",
-        "ToolTip": "Amet possimus et voluptatem unde debitis vitae.",
-        "Deleted": true,
-        "Rank": 199,
-        "Type": "tempora",
+        "Id": 819,
+        "Name": "Hagenes-Williamson",
+        "ToolTip": "Rerum consequuntur nobis perspiciatis itaque.",
+        "Deleted": false,
+        "Rank": 979,
+        "Type": "qui",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "quod",
-        "ColorBlock": 397,
-        "ExtraInfo": "est",
-        "StyleHint": "consectetur",
-        "FullName": "Dr. Bell Fisher",
-        "TableRight": {},
+        "IconHint": "eos",
+        "ColorBlock": 366,
+        "ExtraInfo": "aut",
+        "StyleHint": "voluptas",
+        "FullName": "Colby Hermiston",
+        "TableRight": null,
         "FieldProperties": {
           "fieldName": {
-            "FieldRight": {
-              "Mask": "FULL",
-              "Reason": ""
-            },
+            "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 94
+            "FieldLength": 407
           }
         }
       }
     ],
-    "IconHint": "inventore",
-    "ColorBlock": 888,
-    "ExtraInfo": "voluptas",
-    "StyleHint": "et",
-    "FullName": "Jess Powlowski",
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "IconHint": "sunt",
+    "ColorBlock": 12,
+    "ExtraInfo": "id",
+    "StyleHint": "adipisci",
+    "FullName": "Mrs. Alden Era Hintz IV",
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 690
+        "FieldRight": null,
+        "FieldType": "System.Int32",
+        "FieldLength": 470
       }
     }
   }

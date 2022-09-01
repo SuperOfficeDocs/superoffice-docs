@@ -22,6 +22,7 @@ Generate all the documents required to send the Quote as an email to the prospec
 
 **Returns:** Carrier specifying the document id's of all the documents, as well as other results
 
+
 [WSDL file for Services87/Quote](../Services87-Quote.md)
 
 Obtain a ticket from the [Services87/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -59,6 +60,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## GenerateQuoteDocuments Response
 
 ```xml
@@ -90,3 +92,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

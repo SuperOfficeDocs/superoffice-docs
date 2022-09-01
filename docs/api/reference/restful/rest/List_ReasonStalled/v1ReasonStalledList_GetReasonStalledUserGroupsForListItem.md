@@ -1,6 +1,6 @@
 ---
 title: GET List/ReasonStalled/Items/{id}/UserGroups
-id: v1ReasonStalledList_GetReasonStalledUserGroupsForListItem
+uid: v1ReasonStalledList_GetReasonStalledUserGroupsForListItem
 ---
 
 # GET List/ReasonStalled/Items/{id}/UserGroups
@@ -11,11 +11,18 @@ GET /api/v1/List/ReasonStalled/Items/{itemId}/UserGroups
 
 Gets user groups visible for the ReasonStalled list's item.
 
+
 Calls the List agent service GetHeadings.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | itemId | int32 | The ID of the item to get. **Required** |
+
+
 
 ## Request Headers
 
@@ -30,7 +37,10 @@ Calls the List agent service GetHeadings.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -58,14 +68,16 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 GET /api/v1/List/ReasonStalled/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -73,65 +85,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 477,
-    "Name": "Rodriguez, Erdman and Kunze",
-    "ToolTip": "Veritatis rerum itaque.",
-    "Deleted": true,
-    "Rank": 464,
-    "Type": "enim",
-    "ColorBlock": 202,
-    "IconHint": "iusto",
+    "Id": 461,
+    "Name": "Reynolds, Hegmann and Weimann",
+    "ToolTip": "Ut reiciendis numquam aspernatur sapiente nihil.",
+    "Deleted": false,
+    "Rank": 299,
+    "Type": "rerum",
+    "ColorBlock": 627,
+    "IconHint": "aliquid",
     "Selected": true,
-    "LastChanged": "2008-01-03T18:25:52.1660195+01:00",
+    "LastChanged": "2006-09-29T11:10:54.584935+02:00",
     "ChildItems": [
       {
-        "Id": 353,
-        "Name": "Kris, Watsica and Ortiz",
-        "ToolTip": "Cumque iure.",
+        "Id": 470,
+        "Name": "Bode, Dickens and Lind",
+        "ToolTip": "Blanditiis enim.",
         "Deleted": false,
-        "Rank": 760,
-        "Type": "consequuntur",
-        "ColorBlock": 68,
-        "IconHint": "error",
+        "Rank": 864,
+        "Type": "et",
+        "ColorBlock": 934,
+        "IconHint": "quia",
         "Selected": false,
-        "LastChanged": "2006-05-04T18:25:52.1660195+02:00",
+        "LastChanged": "2009-09-23T11:10:54.5859361+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "fugit",
-        "StyleHint": "nesciunt",
+        "ExtraInfo": "magnam",
+        "StyleHint": "quidem",
         "Hidden": true,
-        "FullName": "Noble Johnson II",
-        "TableRight": {},
+        "FullName": "Mrs. Shayne Effertz V",
+        "TableRight": null,
         "FieldProperties": {
           "fieldName": {
-            "FieldRight": {
-              "Mask": "FULL",
-              "Reason": ""
-            },
+            "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 660
+            "FieldLength": 531
           }
         }
       }
     ],
     "ExtraInfo": "consequatur",
-    "StyleHint": "est",
-    "Hidden": true,
-    "FullName": "Miss Kara Bednar",
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "StyleHint": "quo",
+    "Hidden": false,
+    "FullName": "Albert Von",
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
+        "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 650
+        "FieldLength": 789
       }
     }
   }

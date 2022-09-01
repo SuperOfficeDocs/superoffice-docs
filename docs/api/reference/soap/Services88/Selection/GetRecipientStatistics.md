@@ -17,6 +17,7 @@ Returns a RecipientStatistics object with a count of addresses, emailaddresses a
 
 **Returns:** Returns a RecipientStatistics object.
 
+
 [WSDL file for Services88/Selection](../Services88-Selection.md)
 
 Obtain a ticket from the [Services88/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -49,6 +50,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## GetRecipientStatistics Response
 
 ```xml
@@ -76,3 +78,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

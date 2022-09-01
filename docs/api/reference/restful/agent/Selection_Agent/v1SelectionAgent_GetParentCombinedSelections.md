@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Selection/GetParentCombinedSelections
-id: v1SelectionAgent_GetParentCombinedSelections
+uid: v1SelectionAgent_GetParentCombinedSelections
 ---
 
 # POST Agents/Selection/GetParentCombinedSelections
@@ -11,6 +11,12 @@ POST /api/v1/Agents/Selection/GetParentCombinedSelections
 
 Get a list of all selection ids where the given selection is used to create a combined selection.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Get a list of all selection ids where the given selection is used to create a co
 ```http
 POST /api/v1/Agents/Selection/GetParentCombinedSelections?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,15 +42,18 @@ POST /api/v1/Agents/Selection/GetParentCombinedSelections?$select=name,departmen
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-SelectionId
+SelectionId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | SelectionId | int32 |  |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -51,26 +61,29 @@ SelectionId
 
 Response body: array
 
-## Sample Request
+
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Selection/GetParentCombinedSelections
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 921
+  "SelectionId": 916
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 [
-  767,
-  242
+  505,
+  734
 ]
 ```

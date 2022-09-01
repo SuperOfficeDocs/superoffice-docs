@@ -7,7 +7,7 @@ keywords:
   - "mdo provider"
   - "sentiment"
 so.generated: true
-so.date: 03.19.2021
+so.date: 08.26.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -16,8 +16,14 @@ so.envir:
 
 # "sentiment" MDO List
 
+
+
+
 Implemented by the <see cref="T:SuperOffice.CRM.Lists.SentimentScoreProvider">SentimentScoreProvider</see> class.
 The name of the MDO list is 'sentiment'.
+
+
+
 
 ## Sample Request
 
@@ -30,7 +36,6 @@ Accept-Language: *
 ```
 
 ## Sample Code
-
 ```cs
 var listProvider = SuperOffice.CRM.Lists.SoListProviderFactory.Create("sentiment", forceFlatList: true);
 foreach (var item in listProvider.RootItems) {
@@ -47,6 +52,7 @@ foreach (var item in listProvider.RootItems) {
 |2|Negative|||
 |3|Neutral|||
 |4|Unknown|||
+
 
 ## Related MDO Lists
 

@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Preference/GetTabOrders
-id: v1PreferenceAgent_GetTabOrders
+uid: v1PreferenceAgent_GetTabOrders
 ---
 
 # POST Agents/Preference/GetTabOrders
@@ -8,6 +8,14 @@ id: v1PreferenceAgent_GetTabOrders
 ```http
 POST /api/v1/Agents/Preference/GetTabOrders
 ```
+
+
+
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -18,6 +26,7 @@ POST /api/v1/Agents/Preference/GetTabOrders
 ```http
 POST /api/v1/Agents/Preference/GetTabOrders?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -32,7 +41,10 @@ POST /api/v1/Agents/Preference/GetTabOrders?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -49,14 +61,16 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Preference/GetTabOrders
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -64,42 +78,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TabOrderId": 972,
-    "TabName": "Hermann, Moore and Larson",
-    "Order": "esse",
-    "AssociateId": 791,
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "TabOrderId": 939,
+    "TabName": "Rutherford Inc and Sons",
+    "Order": "et",
+    "AssociateId": 964,
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 10
+        "FieldRight": null,
+        "FieldType": "System.Int32",
+        "FieldLength": 82
       }
     }
   },
   {
-    "TabOrderId": 972,
-    "TabName": "Hermann, Moore and Larson",
-    "Order": "esse",
-    "AssociateId": 791,
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "TabOrderId": 939,
+    "TabName": "Rutherford Inc and Sons",
+    "Order": "et",
+    "AssociateId": 964,
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 10
+        "FieldRight": null,
+        "FieldType": "System.Int32",
+        "FieldLength": 82
       }
     }
   }

@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Sale/GetProbabilityFromStage
-id: v1SaleAgent_GetProbabilityFromStage
+uid: v1SaleAgent_GetProbabilityFromStage
 ---
 
 # POST Agents/Sale/GetProbabilityFromStage
@@ -11,6 +11,12 @@ POST /api/v1/Agents/Sale/GetProbabilityFromStage
 
 Get the probability percentage for a given sale stage
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Get the probability percentage for a given sale stage
 ```http
 POST /api/v1/Agents/Sale/GetProbabilityFromStage?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,15 +42,18 @@ POST /api/v1/Agents/Sale/GetProbabilityFromStage?$select=name,department,categor
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-StageId
+StageId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | StageId | int32 |  |
 
+
 ## Response: int32
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -51,23 +61,26 @@ StageId
 
 Response body: int32
 
-## Sample Request
+
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Sale/GetProbabilityFromStage
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "StageId": 859
+  "StageId": 933
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-711
+811
 ```

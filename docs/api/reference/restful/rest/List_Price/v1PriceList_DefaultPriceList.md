@@ -1,6 +1,6 @@
 ---
 title: GET Pricelist/default
-id: v1PriceList_DefaultPriceList
+uid: v1PriceList_DefaultPriceList
 ---
 
 # GET Pricelist/default
@@ -11,7 +11,14 @@ GET /api/v1/Pricelist/default
 
 Set default values into a new PriceList.
 
+
 NetServer calculates default values on the entity, which is required when creating/storing a new instance Calls the Quote agent service CreateDefaultPriceList.
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -26,18 +33,16 @@ NetServer calculates default values on the entity, which is required when creati
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response: object
 
-A pricelist is basically a collection of products. It can be valid in a time period, and outright deactivated. All prices in the product list is in a specific currency. We have decieded not to separate prices and products, which means that we get a simpler data model, but some redundancy.
+## Response: 
 
-Carrier object for PriceList.
-Services for the PriceList Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IQuoteAgent">Quote Agent</see>.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -54,42 +59,38 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 GET /api/v1/Pricelist/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 960,
-  "ERPPriceListKey": "exercitationem",
-  "QuoteConnectionId": 13,
-  "Name": "Schmitt-Upton",
-  "Description": "Optional reciprocal project",
-  "Currency": "labore",
-  "CurrencyName": "Pagac-Hand",
-  "ValidFrom": "2012-05-12T18:25:51.9712482+02:00",
-  "ValidTo": "2008-01-20T18:25:51.9712482+01:00",
+  "PriceListId": 635,
+  "ERPPriceListKey": "commodi",
+  "QuoteConnectionId": 630,
+  "Name": "Kuphal, Parker and Bosco",
+  "Description": "Horizontal maximized portal",
+  "Currency": "omnis",
+  "CurrencyName": "Corwin-Rodriguez",
+  "ValidFrom": "2017-06-01T11:10:54.3849025+02:00",
+  "ValidTo": "2003-10-24T11:10:54.3849025+02:00",
   "IsActive": false,
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
-      "FieldType": "System.String",
-      "FieldLength": 592
+      "FieldRight": null,
+      "FieldType": "System.Int32",
+      "FieldLength": 664
     }
   }
 }

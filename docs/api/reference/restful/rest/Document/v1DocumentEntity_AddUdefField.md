@@ -1,6 +1,6 @@
 ---
 title: POST Document/UdefLayout
-id: v1DocumentEntity_AddUdefField
+uid: v1DocumentEntity_AddUdefField
 ---
 
 # POST Document/UdefLayout
@@ -11,6 +11,12 @@ POST /api/v1/Document/UdefLayout
 
 Add a new field to the current DocumentEntity user-defined field layout.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Add a new field to the current DocumentEntity user-defined field layout.
 ```http
 POST /api/v1/Document/UdefLayout?udefFieldType=Checkbox
 ```
+
 
 ## Request Headers
 
@@ -34,18 +41,16 @@ POST /api/v1/Document/UdefLayout?udefFieldType=Checkbox
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response: object
 
-Return information about the user defined fields. The information can be used to mirror the layout of the user-defined fields in the user interface.
+## Response: 
 
-Carrier object for UserDefinedFieldInfo.
-Services for the UserDefinedFieldInfo Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent">UserDefinedFieldInfo Agent</see>.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -86,7 +91,7 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Document/UdefLayout
@@ -95,57 +100,53 @@ Accept: application/json; charset=utf-8
 Accept-Language: en
 ```
 
+## Sample response
+
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 61,
-  "ColumnId": 240,
-  "FieldDefault": "qui",
-  "FieldHeight": 926,
-  "FieldLabel": "aut",
-  "FieldLeft": 823,
-  "FieldTop": 294,
+  "UDefFieldId": 481,
+  "ColumnId": 566,
+  "FieldDefault": "sapiente",
+  "FieldHeight": 316,
+  "FieldLabel": "excepturi",
+  "FieldLeft": 728,
+  "FieldTop": 589,
   "FieldType": "Checkbox",
-  "FieldWidth": 209,
-  "FormatMask": "aut",
+  "FieldWidth": 520,
+  "FormatMask": "molestias",
   "HideLabel": false,
   "IsIndexed": true,
-  "LabelHeight": 609,
-  "LabelLeft": 312,
-  "LabelTop": 135,
-  "LabelWidth": 676,
-  "LastVersionId": 427,
-  "ListTableId": 704,
-  "IsMandatory": true,
+  "LabelHeight": 757,
+  "LabelLeft": 547,
+  "LabelTop": 645,
+  "LabelWidth": 732,
+  "LastVersionId": 170,
+  "ListTableId": 599,
+  "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 248,
-  "ProgId": "quasi",
-  "IsReadOnly": false,
-  "ShortLabel": "magni",
-  "TabOrder": 237,
-  "TextLength": 853,
-  "Tooltip": "ex",
-  "UdefIdentity": 530,
-  "UDListDefinitionId": 41,
+  "Page1LineNo": 309,
+  "ProgId": "blanditiis",
+  "IsReadOnly": true,
+  "ShortLabel": "excepturi",
+  "TabOrder": 371,
+  "TextLength": 216,
+  "Tooltip": "quia",
+  "UdefIdentity": 216,
+  "UDListDefinitionId": 879,
   "Justification": "Center",
-  "Version": 745,
-  "TemplateVariableName": "Littel, Klein and Thiel",
-  "HasBeenPublished": true,
-  "MdoListName": "Rice, Olson and Fritsch",
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "Version": 821,
+  "TemplateVariableName": "Bahringer, Keeling and Considine",
+  "HasBeenPublished": false,
+  "MdoListName": "Prohaska, Gulgowski and Goyette",
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
+      "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 230
+      "FieldLength": 909
     }
   }
 }

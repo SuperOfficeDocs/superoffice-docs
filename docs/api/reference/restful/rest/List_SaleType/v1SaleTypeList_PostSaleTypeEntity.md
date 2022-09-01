@@ -1,6 +1,6 @@
 ---
 title: POST List/SaleType/Items
-id: v1SaleTypeList_PostSaleTypeEntity
+uid: v1SaleTypeList_PostSaleTypeEntity
 ---
 
 # POST List/SaleType/Items
@@ -11,7 +11,14 @@ POST /api/v1/List/SaleType/Items
 
 Create a new SaleTypeEntity list item
 
+
 Calls the List agent service SaveSaleTypeEntity.
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -27,9 +34,9 @@ Calls the List agent service SaveSaleTypeEntity.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: newEntity
+## Request Body: newEntity  
 
-The SaleTypeEntity to be created.
+The SaleTypeEntity to be created. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -54,18 +61,18 @@ The SaleTypeEntity to be created.
 | MinEarningPercent | int32 | The minimum earning in percent of total, if set, on quotes linked to sales of this type |
 | GroupQuoteLinesBy | int32 | Group quote lines by this field |
 | SortGroupLinesBy | int32 | Sort group lines by this field |
-| Stages | array | Stages, those associated with this SaleType are selected.  <br />Use MDO List name "salestage" to get list items. |
+| Stages | array | Stages, those associated with this SaleType are selected.  <para>Use MDO List name "salestage" to get list items.</para> |
 
-## Response: object
 
-Carrier object for SaleTypeEntity.
-Services for the SaleTypeEntity Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IListAgent">List Agent</see>.
+## Response: 
+
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -90,137 +97,130 @@ Response body: object
 | MinEarningPercent | int32 | The minimum earning in percent of total, if set, on quotes linked to sales of this type |
 | GroupQuoteLinesBy | int32 | Group quote lines by this field |
 | SortGroupLinesBy | int32 | Sort group lines by this field |
-| Stages | array | Stages, those associated with this SaleType are selected.  <br />Use MDO List name "salestage" to get list items. |
+| Stages | array | Stages, those associated with this SaleType are selected.  <para>Use MDO List name "salestage" to get list items.</para> |
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/List/SaleType/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 913,
-  "Name": "Bechtelar-Fritsch",
-  "Tooltip": "distinctio",
-  "Rank": 21,
+  "SaleTypeId": 606,
+  "Name": "Kohler-Senger",
+  "Tooltip": "facere",
+  "Rank": 928,
   "DurationUnit": "Century",
-  "SaleDuration": 362,
-  "SaleTypeCatId": 242,
+  "SaleDuration": 18,
+  "SaleTypeCatId": 37,
   "Deleted": false,
-  "HasGuide": true,
-  "HasStakeholders": true,
+  "HasGuide": false,
+  "HasStakeholders": false,
   "IsAutoAdvance": true,
-  "AllowQuoteAlternatives": true,
-  "DefaultQuoteValidity": 165,
-  "QuoteLinesTemplate": 420,
-  "ConfirmationLinesTemplate": 248,
+  "AllowQuoteAlternatives": false,
+  "DefaultQuoteValidity": 337,
+  "QuoteLinesTemplate": 347,
+  "ConfirmationLinesTemplate": 457,
   "MaxDiscountPercentSet": false,
   "MinEarningPercentSet": false,
-  "MaxDiscountPercent": 473,
-  "MinEarningPercent": 219,
-  "GroupQuoteLinesBy": 871,
-  "SortGroupLinesBy": 28,
+  "MaxDiscountPercent": 449,
+  "MinEarningPercent": 869,
+  "GroupQuoteLinesBy": 666,
+  "SortGroupLinesBy": 406,
   "Stages": [
     {
-      "Id": 708,
-      "Name": "Koepp Group",
-      "ToolTip": "Occaecati vitae consectetur earum quidem quas.",
-      "Deleted": true,
-      "Rank": 79,
-      "Type": "suscipit",
-      "ColorBlock": 84,
-      "IconHint": "asperiores",
+      "Id": 811,
+      "Name": "Stokes-Boyle",
+      "ToolTip": "Blanditiis ex qui sit.",
+      "Deleted": false,
+      "Rank": 479,
+      "Type": "et",
+      "ColorBlock": 113,
+      "IconHint": "et",
       "Selected": false,
-      "LastChanged": "1996-12-05T18:25:52.1800202+01:00",
+      "LastChanged": "2005-10-01T11:10:54.595935+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "quod",
-      "StyleHint": "quisquam",
+      "ExtraInfo": "iure",
+      "StyleHint": "et",
       "Hidden": false,
-      "FullName": "Betty Jerde"
+      "FullName": "Muhammad Marvin"
     }
   ]
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 995,
-  "Name": "Kemmer-Kuhlman",
-  "Tooltip": "sint",
-  "Rank": 470,
+  "SaleTypeId": 279,
+  "Name": "Gutkowski-Williamson",
+  "Tooltip": "quis",
+  "Rank": 164,
   "DurationUnit": "Century",
-  "SaleDuration": 561,
-  "SaleTypeCatId": 36,
-  "Deleted": false,
-  "HasGuide": false,
-  "HasStakeholders": false,
-  "IsAutoAdvance": false,
+  "SaleDuration": 462,
+  "SaleTypeCatId": 278,
+  "Deleted": true,
+  "HasGuide": true,
+  "HasStakeholders": true,
+  "IsAutoAdvance": true,
   "AllowQuoteAlternatives": false,
-  "DefaultQuoteValidity": 813,
-  "QuoteLinesTemplate": 205,
-  "ConfirmationLinesTemplate": 578,
-  "MaxDiscountPercentSet": false,
-  "MinEarningPercentSet": true,
-  "MaxDiscountPercent": 656,
-  "MinEarningPercent": 716,
-  "GroupQuoteLinesBy": 159,
-  "SortGroupLinesBy": 603,
+  "DefaultQuoteValidity": 382,
+  "QuoteLinesTemplate": 250,
+  "ConfirmationLinesTemplate": 648,
+  "MaxDiscountPercentSet": true,
+  "MinEarningPercentSet": false,
+  "MaxDiscountPercent": 329,
+  "MinEarningPercent": 583,
+  "GroupQuoteLinesBy": 828,
+  "SortGroupLinesBy": 298,
   "Stages": [
     {
-      "Id": 168,
-      "Name": "O'Connell, Ryan and Ratke",
-      "ToolTip": "Rerum reiciendis nostrum molestiae architecto consequatur.",
+      "Id": 938,
+      "Name": "Konopelski, Schinner and Halvorson",
+      "ToolTip": "Quas tempora sint perspiciatis.",
       "Deleted": true,
-      "Rank": 264,
-      "Type": "omnis",
-      "ColorBlock": 339,
-      "IconHint": "molestiae",
-      "Selected": false,
-      "LastChanged": "2020-07-05T18:25:52.1810197+02:00",
+      "Rank": 768,
+      "Type": "quo",
+      "ColorBlock": 263,
+      "IconHint": "vel",
+      "Selected": true,
+      "LastChanged": "2001-10-31T11:10:54.5969354+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "vel",
-      "StyleHint": "odio",
-      "Hidden": true,
-      "FullName": "Rodger Treutel",
-      "TableRight": {},
+      "ExtraInfo": "rerum",
+      "StyleHint": "rerum",
+      "Hidden": false,
+      "FullName": "Keara Denesik",
+      "TableRight": null,
       "FieldProperties": {
         "fieldName": {
-          "FieldRight": {
-            "Mask": "FULL",
-            "Reason": ""
-          },
+          "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 207
+          "FieldLength": 140
         }
       }
     }
   ],
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
-      "FieldType": "System.String",
-      "FieldLength": 109
+      "FieldRight": null,
+      "FieldType": "System.Int32",
+      "FieldLength": 839
     }
   }
 }

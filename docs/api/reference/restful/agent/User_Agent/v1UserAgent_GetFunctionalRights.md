@@ -1,6 +1,6 @@
 ---
 title: POST Agents/User/GetFunctionalRights
-id: v1UserAgent_GetFunctionalRights
+uid: v1UserAgent_GetFunctionalRights
 ---
 
 # POST Agents/User/GetFunctionalRights
@@ -11,9 +11,16 @@ POST /api/v1/Agents/User/GetFunctionalRights
 
 Get all functional rights for the given role.
 
+
 Functional rights not set on the role are not included. MDO List name = 'FunctionRights', extra='role=123'
 
-## Online Restricted: ## The User agent is not available in Online by default. User management is not allowed for partner apps
+
+## Online Restricted: ## The User agent is not available in Online by default. User management is not allowed for partner apps.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -24,6 +31,7 @@ Functional rights not set on the role are not included. MDO List name = 'Functio
 ```http
 POST /api/v1/Agents/User/GetFunctionalRights?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -39,15 +47,18 @@ POST /api/v1/Agents/User/GetFunctionalRights?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-RoleId
+RoleId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | RoleId | int32 |  |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -75,7 +86,7 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/User/GetFunctionalRights
@@ -85,9 +96,11 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 712
+  "RoleId": 822
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -95,65 +108,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 410,
-    "Name": "Franecki-Maggio",
-    "ToolTip": "Quam aut et facilis esse commodi qui.",
+    "Id": 999,
+    "Name": "Rutherford, Lemke and Waelchi",
+    "ToolTip": "Assumenda vel magni repudiandae.",
     "Deleted": false,
-    "Rank": 649,
-    "Type": "excepturi",
-    "ColorBlock": 985,
-    "IconHint": "vero",
+    "Rank": 128,
+    "Type": "dolore",
+    "ColorBlock": 729,
+    "IconHint": "quo",
     "Selected": false,
-    "LastChanged": "2015-11-28T18:28:50.5724118+01:00",
+    "LastChanged": "2008-03-16T11:10:28.389207+01:00",
     "ChildItems": [
       {
-        "Id": 409,
-        "Name": "Kunze, Huel and Murray",
-        "ToolTip": "Fuga et magnam.",
-        "Deleted": false,
-        "Rank": 939,
-        "Type": "consequatur",
-        "ColorBlock": 914,
-        "IconHint": "voluptate",
-        "Selected": true,
-        "LastChanged": "2006-09-25T18:28:50.5724118+02:00",
+        "Id": 396,
+        "Name": "Cruickshank Group",
+        "ToolTip": "Et molestiae ut.",
+        "Deleted": true,
+        "Rank": 75,
+        "Type": "blanditiis",
+        "ColorBlock": 117,
+        "IconHint": "aut",
+        "Selected": false,
+        "LastChanged": "2010-05-26T11:10:28.389207+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "tenetur",
-        "StyleHint": "dignissimos",
+        "ExtraInfo": "similique",
+        "StyleHint": "distinctio",
         "Hidden": false,
-        "FullName": "Dr. Heidi Breitenberg",
-        "TableRight": {},
+        "FullName": "Miss Denis Herzog",
+        "TableRight": null,
         "FieldProperties": {
           "fieldName": {
-            "FieldRight": {
-              "Mask": "FULL",
-              "Reason": ""
-            },
+            "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 40
+            "FieldLength": 924
           }
         }
       }
     ],
-    "ExtraInfo": "autem",
-    "StyleHint": "alias",
-    "Hidden": true,
-    "FullName": "Cecile Eichmann",
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "ExtraInfo": "ut",
+    "StyleHint": "recusandae",
+    "Hidden": false,
+    "FullName": "Dr. Jamil Roberts",
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
+        "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 429
+        "FieldLength": 630
       }
     }
   }

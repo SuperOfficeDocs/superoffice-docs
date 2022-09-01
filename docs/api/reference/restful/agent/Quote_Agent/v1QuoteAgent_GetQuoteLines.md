@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Quote/GetQuoteLines
-id: v1QuoteAgent_GetQuoteLines
+uid: v1QuoteAgent_GetQuoteLines
 ---
 
 # POST Agents/Quote/GetQuoteLines
@@ -11,6 +11,12 @@ POST /api/v1/Agents/Quote/GetQuoteLines
 
 Get all QuoteLines from an alternative
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Get all QuoteLines from an alternative
 ```http
 POST /api/v1/Agents/Quote/GetQuoteLines?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,15 +42,18 @@ POST /api/v1/Agents/Quote/GetQuoteLines?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-QuoteAlternativeId
+QuoteAlternativeId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | QuoteAlternativeId | int32 |  |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -105,19 +115,21 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Quote/GetQuoteLines
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternativeId": 959
+  "QuoteAlternativeId": 601
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -125,100 +137,88 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "QuoteLineId": 150,
-    "ERPQuoteLineKey": "dolor",
-    "QuoteAlternativeId": 726,
-    "ERPProductKey": "sed",
+    "QuoteLineId": 75,
+    "ERPQuoteLineKey": "commodi",
+    "QuoteAlternativeId": 980,
+    "ERPProductKey": "et",
     "Status": "Error",
-    "Reason": "cultivate customized supply-chains",
-    "Quantity": 18098.85,
-    "DeliveredQuantity": 3278.1639999999998,
-    "Rank": 158,
-    "Name": "Jerde, Zulauf and Okuneva",
-    "Description": "Self-enabling local migration",
-    "Code": "fuga",
-    "QuantityUnit": "id",
-    "PriceUnit": "voluptas",
-    "ItemNumber": "123998",
+    "Reason": "",
+    "Quantity": 22987.89,
+    "DeliveredQuantity": 1485.5159999999999,
+    "Rank": 749,
+    "Name": "Weissnat LLC",
+    "Description": "Phased multi-tasking methodology",
+    "Code": "reprehenderit",
+    "QuantityUnit": "eum",
+    "PriceUnit": "fuga",
+    "ItemNumber": "352851",
     "Url": "http://www.example.com/",
     "ProductCategoryKey": "VIP Customer",
-    "ProductFamilyKey": "consectetur",
-    "ProductTypeKey": "consequuntur",
-    "Supplier": "et",
-    "SupplierCode": "sunt",
-    "Thumbnail": "odio",
-    "VATInfo": "ut",
-    "VAT": 28506.863999999998,
-    "UnitCost": 30863.631999999998,
-    "UnitMinimumPrice": 23304.424,
-    "UnitListPrice": 4227.766,
+    "ProductFamilyKey": "provident",
+    "ProductTypeKey": "in",
+    "Supplier": "nesciunt",
+    "SupplierCode": "et",
+    "Thumbnail": "suscipit",
+    "VATInfo": "cum",
+    "VAT": 4262.24,
+    "UnitCost": 2898.95,
+    "UnitMinimumPrice": 14936.644,
+    "UnitListPrice": 16064.884,
     "ExtraInfo": [
       {
-        "Name": "Kerluke, Runolfsdottir and Pouros",
-        "Value": "dolore",
+        "Name": "Ward Group",
+        "Value": "hic",
         "Type": "Image",
-        "TableRight": {},
+        "TableRight": null,
         "FieldProperties": {
           "fieldName": {
-            "FieldRight": {
-              "Mask": "FULL",
-              "Reason": ""
-            },
-            "FieldType": "System.Int32",
-            "FieldLength": 939
+            "FieldRight": null,
+            "FieldType": "System.String",
+            "FieldLength": 804
           }
         }
       },
       {
-        "Name": "Kerluke, Runolfsdottir and Pouros",
-        "Value": "dolore",
+        "Name": "Ward Group",
+        "Value": "hic",
         "Type": "Image",
-        "TableRight": {},
+        "TableRight": null,
         "FieldProperties": {
           "fieldName": {
-            "FieldRight": {
-              "Mask": "FULL",
-              "Reason": ""
-            },
-            "FieldType": "System.Int32",
-            "FieldLength": 939
+            "FieldRight": null,
+            "FieldType": "System.String",
+            "FieldLength": 804
           }
         }
       }
     ],
-    "RawExtraInfo": "velit",
+    "RawExtraInfo": "sed",
     "IsSubscription": false,
-    "SubscriptionUnit": "aliquid",
-    "SubscriptionQuantity": 4462.816,
-    "SubscriptionStart": "2021-06-21T18:28:49.9691371+02:00",
-    "ERPDiscountPercent": 26620.196,
-    "ERPDiscountAmount": 21978.742,
-    "DiscountPercent": 11404.626,
-    "DiscountAmount": 14134.34,
+    "SubscriptionUnit": "corporis",
+    "SubscriptionQuantity": 1247.3319999999999,
+    "SubscriptionStart": "2009-06-22T11:10:27.7374948+02:00",
+    "ERPDiscountPercent": 26385.146,
+    "ERPDiscountAmount": 30020.586,
+    "DiscountPercent": 25570.306,
+    "DiscountAmount": 24050.316,
     "UserValueOverride": "DiscountAmount",
-    "EarningPercent": 11135.101999999999,
-    "EarningAmount": 30453.077999999998,
-    "SubTotal": 26388.28,
-    "TotalPrice": 18440.456,
-    "Rights": "nobis",
-    "Rule": "quisquam",
-    "ExtraField1": "aut",
-    "ExtraField2": "a",
-    "ExtraField3": "alias",
-    "ExtraField4": "aliquam",
-    "ExtraField5": "provident",
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "EarningPercent": 13692.446,
+    "EarningAmount": 6575.132,
+    "SubTotal": 28569.543999999998,
+    "TotalPrice": 27143.574,
+    "Rights": "asperiores",
+    "Rule": "quis",
+    "ExtraField1": "tenetur",
+    "ExtraField2": "aut",
+    "ExtraField3": "doloremque",
+    "ExtraField4": "tenetur",
+    "ExtraField5": "architecto",
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 374
+        "FieldRight": null,
+        "FieldType": "System.Int32",
+        "FieldLength": 704
       }
     }
   }

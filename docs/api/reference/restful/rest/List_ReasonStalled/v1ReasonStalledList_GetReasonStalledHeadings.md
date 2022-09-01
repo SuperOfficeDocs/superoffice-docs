@@ -1,6 +1,6 @@
 ---
 title: GET List/ReasonStalled/Headings
-id: v1ReasonStalledList_GetReasonStalledHeadings
+uid: v1ReasonStalledList_GetReasonStalledHeadings
 ---
 
 # GET List/ReasonStalled/Headings
@@ -11,7 +11,14 @@ GET /api/v1/List/ReasonStalled/Headings
 
 Gets headings for the ReasonStalled list.
 
+
 Calls the List agent service GetGetHeadingsFromListDefinition.
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -26,7 +33,10 @@ Calls the List agent service GetGetHeadingsFromListDefinition.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -45,14 +55,16 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 GET /api/v1/List/ReasonStalled/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -60,24 +72,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 607,
-    "Name": "Gerlach Inc and Sons",
-    "Tooltip": "commodi",
-    "Deleted": false,
-    "Rank": 126,
-    "UdListDefinitionId": 56,
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "HeadingId": 24,
+    "Name": "Turcotte LLC",
+    "Tooltip": "accusamus",
+    "Deleted": true,
+    "Rank": 885,
+    "UdListDefinitionId": 337,
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.Int32",
-        "FieldLength": 318
+        "FieldRight": null,
+        "FieldType": "System.String",
+        "FieldLength": 620
       }
     }
   }

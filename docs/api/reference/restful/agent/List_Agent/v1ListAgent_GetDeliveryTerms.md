@@ -1,6 +1,6 @@
 ---
 title: POST Agents/List/GetDeliveryTerms
-id: v1ListAgent_GetDeliveryTerms
+uid: v1ListAgent_GetDeliveryTerms
 ---
 
 # POST Agents/List/GetDeliveryTerms
@@ -11,6 +11,12 @@ POST /api/v1/Agents/List/GetDeliveryTerms
 
 Returns all DeliveryTerms in SuperOffice db.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Returns all DeliveryTerms in SuperOffice db.
 ```http
 POST /api/v1/Agents/List/GetDeliveryTerms?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -34,7 +41,10 @@ POST /api/v1/Agents/List/GetDeliveryTerms?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -50,14 +60,16 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/List/GetDeliveryTerms
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -65,40 +77,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 591,
-    "Value": "aut",
-    "Tooltip": "in",
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "Id": 981,
+    "Value": "amet",
+    "Tooltip": "nihil",
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
+        "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 139
+        "FieldLength": 5
       }
     }
   },
   {
-    "Id": 591,
-    "Value": "aut",
-    "Tooltip": "in",
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "Id": 981,
+    "Value": "amet",
+    "Tooltip": "nihil",
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
+        "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 139
+        "FieldLength": 5
       }
     }
   }

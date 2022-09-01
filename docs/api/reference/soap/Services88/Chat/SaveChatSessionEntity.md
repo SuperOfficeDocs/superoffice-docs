@@ -17,6 +17,7 @@ Updates the existing ChatSessionEntity or creates a new ChatSessionEntity if the
 
 **Returns:** New or updated ChatSessionEntity
 
+
 [WSDL file for Services88/Chat](../Services88-Chat.md)
 
 Obtain a ticket from the [Services88/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -110,11 +111,11 @@ Application tokens must be specified if calling an Online installation. Applicat
      <Chat:Status xsi:type="Chat:ChatSessionStatus">Invalid</Chat:Status>
      <Chat:FirstMessage xsi:type="xsd:string"></Chat:FirstMessage>
      <Chat:LastMessage xsi:type="xsd:string"></Chat:LastMessage>
-     <Chat:WhenRequested xsi:type="xsd:dateTime">2021-11-30T13:23:34Z</Chat:WhenRequested>
-     <Chat:WhenStarted xsi:type="xsd:dateTime">2021-11-30T13:23:34Z</Chat:WhenStarted>
-     <Chat:WhenEnded xsi:type="xsd:dateTime">2021-11-30T13:23:34Z</Chat:WhenEnded>
-     <Chat:WhenIdle xsi:type="xsd:dateTime">2021-11-30T13:23:34Z</Chat:WhenIdle>
-     <Chat:WhenFetched xsi:type="xsd:dateTime">2021-11-30T13:23:34Z</Chat:WhenFetched>
+     <Chat:WhenRequested xsi:type="xsd:dateTime">2022-08-26T08:58:37Z</Chat:WhenRequested>
+     <Chat:WhenStarted xsi:type="xsd:dateTime">2022-08-26T08:58:37Z</Chat:WhenStarted>
+     <Chat:WhenEnded xsi:type="xsd:dateTime">2022-08-26T08:58:37Z</Chat:WhenEnded>
+     <Chat:WhenIdle xsi:type="xsd:dateTime">2022-08-26T08:58:37Z</Chat:WhenIdle>
+     <Chat:WhenFetched xsi:type="xsd:dateTime">2022-08-26T08:58:37Z</Chat:WhenFetched>
      <Chat:SessionKey xsi:type="xsd:string"></Chat:SessionKey>
      <Chat:InitialQueuePos xsi:type="xsd:int">0</Chat:InitialQueuePos>
      <Chat:AlertLevel xsi:type="xsd:int">0</Chat:AlertLevel>
@@ -191,12 +192,12 @@ Application tokens must be specified if calling an Online installation. Applicat
       <Chat:AssociateId xsi:type="xsd:int">0</Chat:AssociateId>
       <Chat:AssociateFullName xsi:type="xsd:string"></Chat:AssociateFullName>
       <Chat:TypeId xsi:type="xsd:int">0</Chat:TypeId>
-      <Chat:Updated xsi:type="xsd:dateTime">2021-11-30T13:23:34Z</Chat:Updated>
+      <Chat:Updated xsi:type="xsd:dateTime">2022-08-26T08:58:37Z</Chat:Updated>
       <Chat:StatusId xsi:type="xsd:int">0</Chat:StatusId>
       <Chat:Status xsi:type="xsd:string"></Chat:Status>
       <Chat:TextId xsi:type="xsd:int">0</Chat:TextId>
-      <Chat:PublishTo xsi:type="xsd:dateTime">2021-11-30T13:23:34Z</Chat:PublishTo>
-      <Chat:PublishFrom xsi:type="xsd:dateTime">2021-11-30T13:23:34Z</Chat:PublishFrom>
+      <Chat:PublishTo xsi:type="xsd:dateTime">2022-08-26T08:58:37Z</Chat:PublishTo>
+      <Chat:PublishFrom xsi:type="xsd:dateTime">2022-08-26T08:58:37Z</Chat:PublishFrom>
       <Chat:IsPublished xsi:type="xsd:boolean">false</Chat:IsPublished>
       <Chat:URLName xsi:type="xsd:string"></Chat:URLName>
       <Chat:ProjectNumber xsi:type="xsd:string"></Chat:ProjectNumber>
@@ -204,7 +205,7 @@ Application tokens must be specified if calling an Online installation. Applicat
      </Chat:Project>
      <Chat:Sale xsi:type="Chat:Sale">
       <Chat:ContactName xsi:type="xsd:string"></Chat:ContactName>
-      <Chat:SaleDate xsi:type="xsd:dateTime">2021-11-30T13:23:34Z</Chat:SaleDate>
+      <Chat:SaleDate xsi:type="xsd:dateTime">2022-08-26T08:58:37Z</Chat:SaleDate>
       <Chat:SaleId xsi:type="xsd:int">0</Chat:SaleId>
       <Chat:Probability xsi:type="xsd:short">0</Chat:Probability>
       <Chat:Title xsi:type="xsd:string"></Chat:Title>
@@ -226,22 +227,22 @@ Application tokens must be specified if calling an Online installation. Applicat
       <Chat:PersonFullName xsi:type="xsd:string"></Chat:PersonFullName>
       <Chat:Completed xsi:type="Chat:ActivityStatus">Unknown</Chat:Completed>
       <Chat:ActiveErpLinks xsi:type="xsd:int">0</Chat:ActiveErpLinks>
-      <Chat:NextDueDate xsi:type="xsd:dateTime">2021-11-30T13:23:34Z</Chat:NextDueDate>
+      <Chat:NextDueDate xsi:type="xsd:dateTime">2022-08-26T08:58:37Z</Chat:NextDueDate>
       <Chat:Number xsi:type="xsd:string"></Chat:Number>
      </Chat:Sale>
      <Chat:Ticket xsi:type="Chat:Ticket">
       <Chat:TicketId xsi:type="xsd:int">0</Chat:TicketId>
       <Chat:Title xsi:type="xsd:string"></Chat:Title>
-      <Chat:CreatedAt xsi:type="xsd:dateTime">2021-11-30T13:23:34Z</Chat:CreatedAt>
-      <Chat:LastChanged xsi:type="xsd:dateTime">2021-11-30T13:23:34Z</Chat:LastChanged>
-      <Chat:ReadByOwner xsi:type="xsd:dateTime">2021-11-30T13:23:34Z</Chat:ReadByOwner>
-      <Chat:ReadByCustomer xsi:type="xsd:dateTime">2021-11-30T13:23:34Z</Chat:ReadByCustomer>
-      <Chat:FirstReadByUser xsi:type="xsd:dateTime">2021-11-30T13:23:34Z</Chat:FirstReadByUser>
-      <Chat:Activate xsi:type="xsd:dateTime">2021-11-30T13:23:34Z</Chat:Activate>
-      <Chat:ClosedAt xsi:type="xsd:dateTime">2021-11-30T13:23:34Z</Chat:ClosedAt>
-      <Chat:RepliedAt xsi:type="xsd:dateTime">2021-11-30T13:23:34Z</Chat:RepliedAt>
-      <Chat:AlertTimeout xsi:type="xsd:dateTime">2021-11-30T13:23:34Z</Chat:AlertTimeout>
-      <Chat:Deadline xsi:type="xsd:dateTime">2021-11-30T13:23:34Z</Chat:Deadline>
+      <Chat:CreatedAt xsi:type="xsd:dateTime">2022-08-26T08:58:37Z</Chat:CreatedAt>
+      <Chat:LastChanged xsi:type="xsd:dateTime">2022-08-26T08:58:37Z</Chat:LastChanged>
+      <Chat:ReadByOwner xsi:type="xsd:dateTime">2022-08-26T08:58:37Z</Chat:ReadByOwner>
+      <Chat:ReadByCustomer xsi:type="xsd:dateTime">2022-08-26T08:58:37Z</Chat:ReadByCustomer>
+      <Chat:FirstReadByUser xsi:type="xsd:dateTime">2022-08-26T08:58:37Z</Chat:FirstReadByUser>
+      <Chat:Activate xsi:type="xsd:dateTime">2022-08-26T08:58:37Z</Chat:Activate>
+      <Chat:ClosedAt xsi:type="xsd:dateTime">2022-08-26T08:58:37Z</Chat:ClosedAt>
+      <Chat:RepliedAt xsi:type="xsd:dateTime">2022-08-26T08:58:37Z</Chat:RepliedAt>
+      <Chat:AlertTimeout xsi:type="xsd:dateTime">2022-08-26T08:58:37Z</Chat:AlertTimeout>
+      <Chat:Deadline xsi:type="xsd:dateTime">2022-08-26T08:58:37Z</Chat:Deadline>
       <Chat:CreatedBy xsi:type="xsd:int">0</Chat:CreatedBy>
       <Chat:CreatedByName xsi:type="xsd:string"></Chat:CreatedByName>
       <Chat:Author xsi:type="xsd:string"></Chat:Author>
@@ -282,6 +283,9 @@ Application tokens must be specified if calling an Online installation. Applicat
       <Chat:ContactId xsi:type="xsd:int">0</Chat:ContactId>
       <Chat:ContactName xsi:type="xsd:string"></Chat:ContactName>
       <Chat:OwnedByAssociateId xsi:type="xsd:int">0</Chat:OwnedByAssociateId>
+      <Chat:Language xsi:type="xsd:string"></Chat:Language>
+      <Chat:Sentiment xsi:type="xsd:int">0</Chat:Sentiment>
+      <Chat:SentimentConfidence xsi:type="xsd:int">0</Chat:SentimentConfidence>
      </Chat:Ticket>
      <Chat:TransferTo xsi:type="Chat:Associate">
       <Chat:AssociateId xsi:type="xsd:int">0</Chat:AssociateId>
@@ -298,6 +302,7 @@ Application tokens must be specified if calling an Online installation. Applicat
       <Chat:UserName xsi:type="xsd:string"></Chat:UserName>
      </Chat:TransferTo>
      <Chat:ChatbotIsActive xsi:type="xsd:boolean">false</Chat:ChatbotIsActive>
+     <Chat:Rating xsi:type="xsd:int">0</Chat:Rating>
     </Chat:ChatSessionEntity>
    </Chat:SaveChatSessionEntity>
 
@@ -305,6 +310,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+
 
 ## SaveChatSessionEntity Response
 
@@ -389,11 +395,11 @@ Application tokens must be specified if calling an Online installation. Applicat
     <Chat:Status xsi:type="Chat:ChatSessionStatus">Invalid</Chat:Status>
     <Chat:FirstMessage xsi:type="xsd:string"></Chat:FirstMessage>
     <Chat:LastMessage xsi:type="xsd:string"></Chat:LastMessage>
-    <Chat:WhenRequested xsi:type="xsd:dateTime">2021-11-30T13:23:34Z</Chat:WhenRequested>
-    <Chat:WhenStarted xsi:type="xsd:dateTime">2021-11-30T13:23:34Z</Chat:WhenStarted>
-    <Chat:WhenEnded xsi:type="xsd:dateTime">2021-11-30T13:23:34Z</Chat:WhenEnded>
-    <Chat:WhenIdle xsi:type="xsd:dateTime">2021-11-30T13:23:34Z</Chat:WhenIdle>
-    <Chat:WhenFetched xsi:type="xsd:dateTime">2021-11-30T13:23:34Z</Chat:WhenFetched>
+    <Chat:WhenRequested xsi:type="xsd:dateTime">2022-08-26T08:58:37Z</Chat:WhenRequested>
+    <Chat:WhenStarted xsi:type="xsd:dateTime">2022-08-26T08:58:37Z</Chat:WhenStarted>
+    <Chat:WhenEnded xsi:type="xsd:dateTime">2022-08-26T08:58:37Z</Chat:WhenEnded>
+    <Chat:WhenIdle xsi:type="xsd:dateTime">2022-08-26T08:58:37Z</Chat:WhenIdle>
+    <Chat:WhenFetched xsi:type="xsd:dateTime">2022-08-26T08:58:37Z</Chat:WhenFetched>
     <Chat:SessionKey xsi:type="xsd:string"></Chat:SessionKey>
     <Chat:InitialQueuePos xsi:type="xsd:int">0</Chat:InitialQueuePos>
     <Chat:AlertLevel xsi:type="xsd:int">0</Chat:AlertLevel>
@@ -470,12 +476,12 @@ Application tokens must be specified if calling an Online installation. Applicat
      <Chat:AssociateId xsi:type="xsd:int">0</Chat:AssociateId>
      <Chat:AssociateFullName xsi:type="xsd:string"></Chat:AssociateFullName>
      <Chat:TypeId xsi:type="xsd:int">0</Chat:TypeId>
-     <Chat:Updated xsi:type="xsd:dateTime">2021-11-30T13:23:34Z</Chat:Updated>
+     <Chat:Updated xsi:type="xsd:dateTime">2022-08-26T08:58:37Z</Chat:Updated>
      <Chat:StatusId xsi:type="xsd:int">0</Chat:StatusId>
      <Chat:Status xsi:type="xsd:string"></Chat:Status>
      <Chat:TextId xsi:type="xsd:int">0</Chat:TextId>
-     <Chat:PublishTo xsi:type="xsd:dateTime">2021-11-30T13:23:34Z</Chat:PublishTo>
-     <Chat:PublishFrom xsi:type="xsd:dateTime">2021-11-30T13:23:34Z</Chat:PublishFrom>
+     <Chat:PublishTo xsi:type="xsd:dateTime">2022-08-26T08:58:37Z</Chat:PublishTo>
+     <Chat:PublishFrom xsi:type="xsd:dateTime">2022-08-26T08:58:37Z</Chat:PublishFrom>
      <Chat:IsPublished xsi:type="xsd:boolean">false</Chat:IsPublished>
      <Chat:URLName xsi:type="xsd:string"></Chat:URLName>
      <Chat:ProjectNumber xsi:type="xsd:string"></Chat:ProjectNumber>
@@ -483,7 +489,7 @@ Application tokens must be specified if calling an Online installation. Applicat
     </Chat:Project>
     <Chat:Sale xsi:type="Chat:Sale">
      <Chat:ContactName xsi:type="xsd:string"></Chat:ContactName>
-     <Chat:SaleDate xsi:type="xsd:dateTime">2021-11-30T13:23:34Z</Chat:SaleDate>
+     <Chat:SaleDate xsi:type="xsd:dateTime">2022-08-26T08:58:37Z</Chat:SaleDate>
      <Chat:SaleId xsi:type="xsd:int">0</Chat:SaleId>
      <Chat:Probability xsi:type="xsd:short">0</Chat:Probability>
      <Chat:Title xsi:type="xsd:string"></Chat:Title>
@@ -505,22 +511,22 @@ Application tokens must be specified if calling an Online installation. Applicat
      <Chat:PersonFullName xsi:type="xsd:string"></Chat:PersonFullName>
      <Chat:Completed xsi:type="Chat:ActivityStatus">Unknown</Chat:Completed>
      <Chat:ActiveErpLinks xsi:type="xsd:int">0</Chat:ActiveErpLinks>
-     <Chat:NextDueDate xsi:type="xsd:dateTime">2021-11-30T13:23:34Z</Chat:NextDueDate>
+     <Chat:NextDueDate xsi:type="xsd:dateTime">2022-08-26T08:58:37Z</Chat:NextDueDate>
      <Chat:Number xsi:type="xsd:string"></Chat:Number>
     </Chat:Sale>
     <Chat:Ticket xsi:type="Chat:Ticket">
      <Chat:TicketId xsi:type="xsd:int">0</Chat:TicketId>
      <Chat:Title xsi:type="xsd:string"></Chat:Title>
-     <Chat:CreatedAt xsi:type="xsd:dateTime">2021-11-30T13:23:34Z</Chat:CreatedAt>
-     <Chat:LastChanged xsi:type="xsd:dateTime">2021-11-30T13:23:34Z</Chat:LastChanged>
-     <Chat:ReadByOwner xsi:type="xsd:dateTime">2021-11-30T13:23:34Z</Chat:ReadByOwner>
-     <Chat:ReadByCustomer xsi:type="xsd:dateTime">2021-11-30T13:23:34Z</Chat:ReadByCustomer>
-     <Chat:FirstReadByUser xsi:type="xsd:dateTime">2021-11-30T13:23:34Z</Chat:FirstReadByUser>
-     <Chat:Activate xsi:type="xsd:dateTime">2021-11-30T13:23:34Z</Chat:Activate>
-     <Chat:ClosedAt xsi:type="xsd:dateTime">2021-11-30T13:23:34Z</Chat:ClosedAt>
-     <Chat:RepliedAt xsi:type="xsd:dateTime">2021-11-30T13:23:34Z</Chat:RepliedAt>
-     <Chat:AlertTimeout xsi:type="xsd:dateTime">2021-11-30T13:23:34Z</Chat:AlertTimeout>
-     <Chat:Deadline xsi:type="xsd:dateTime">2021-11-30T13:23:34Z</Chat:Deadline>
+     <Chat:CreatedAt xsi:type="xsd:dateTime">2022-08-26T08:58:37Z</Chat:CreatedAt>
+     <Chat:LastChanged xsi:type="xsd:dateTime">2022-08-26T08:58:37Z</Chat:LastChanged>
+     <Chat:ReadByOwner xsi:type="xsd:dateTime">2022-08-26T08:58:37Z</Chat:ReadByOwner>
+     <Chat:ReadByCustomer xsi:type="xsd:dateTime">2022-08-26T08:58:37Z</Chat:ReadByCustomer>
+     <Chat:FirstReadByUser xsi:type="xsd:dateTime">2022-08-26T08:58:37Z</Chat:FirstReadByUser>
+     <Chat:Activate xsi:type="xsd:dateTime">2022-08-26T08:58:37Z</Chat:Activate>
+     <Chat:ClosedAt xsi:type="xsd:dateTime">2022-08-26T08:58:37Z</Chat:ClosedAt>
+     <Chat:RepliedAt xsi:type="xsd:dateTime">2022-08-26T08:58:37Z</Chat:RepliedAt>
+     <Chat:AlertTimeout xsi:type="xsd:dateTime">2022-08-26T08:58:37Z</Chat:AlertTimeout>
+     <Chat:Deadline xsi:type="xsd:dateTime">2022-08-26T08:58:37Z</Chat:Deadline>
      <Chat:CreatedBy xsi:type="xsd:int">0</Chat:CreatedBy>
      <Chat:CreatedByName xsi:type="xsd:string"></Chat:CreatedByName>
      <Chat:Author xsi:type="xsd:string"></Chat:Author>
@@ -561,6 +567,9 @@ Application tokens must be specified if calling an Online installation. Applicat
      <Chat:ContactId xsi:type="xsd:int">0</Chat:ContactId>
      <Chat:ContactName xsi:type="xsd:string"></Chat:ContactName>
      <Chat:OwnedByAssociateId xsi:type="xsd:int">0</Chat:OwnedByAssociateId>
+     <Chat:Language xsi:type="xsd:string"></Chat:Language>
+     <Chat:Sentiment xsi:type="xsd:int">0</Chat:Sentiment>
+     <Chat:SentimentConfidence xsi:type="xsd:int">0</Chat:SentimentConfidence>
     </Chat:Ticket>
     <Chat:TransferTo xsi:type="Chat:Associate">
      <Chat:AssociateId xsi:type="xsd:int">0</Chat:AssociateId>
@@ -577,9 +586,11 @@ Application tokens must be specified if calling an Online installation. Applicat
      <Chat:UserName xsi:type="xsd:string"></Chat:UserName>
     </Chat:TransferTo>
     <Chat:ChatbotIsActive xsi:type="xsd:boolean">false</Chat:ChatbotIsActive>
+    <Chat:Rating xsi:type="xsd:int">0</Chat:Rating>
    </Chat:Response>
   </Chat:SaveChatSessionEntityResponse>
  </SOAP-ENV:Body>
 </SOAP-ENV:Envelope>
 
 ```
+

@@ -20,6 +20,7 @@ Get a specific langauge version of the reply template, and run this trough the p
 
 **Returns:** The parsed reply template
 
+
 [WSDL file for Services88/CustomerService](../Services88-CustomerService.md)
 
 Obtain a ticket from the [Services88/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -54,6 +55,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+
 
 ## GetParsedTemplate Response
 
@@ -90,3 +92,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

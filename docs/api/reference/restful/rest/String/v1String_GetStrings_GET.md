@@ -1,6 +1,6 @@
 ---
 title: GET String/{sr_id}
-id: v1String_GetStrings_GET
+uid: v1String_GetStrings_GET
 ---
 
 # GET String/{sr_id}
@@ -11,9 +11,15 @@ GET /api/v1/String/{sr_id}
 
 Gets the value of the string(s) with a given name in all known languages.
 
+
+
+
+
+
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | sr_id | string | The name of the string: SR_YES, SR_NO etc. You can specify multiple string ids separated by commas: "SR_YES,SR_NO" **Required** |
+
 
 ## Query String Parameters
 
@@ -23,9 +29,10 @@ Gets the value of the string(s) with a given name in all known languages.
 | ignoreOverrides | bool |  Ignore the user-provided overrides, and return the translation as defined by the system. |
 
 ```http
-GET /api/v1/String/{sr_id}?isoLangCode=numquam
+GET /api/v1/String/{sr_id}?isoLangCode=error
 GET /api/v1/String/{sr_id}?ignoreOverrides=False
 ```
+
 
 ## Request Headers
 
@@ -40,7 +47,10 @@ GET /api/v1/String/{sr_id}?ignoreOverrides=False
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
+
 ## Response: object
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -48,14 +58,17 @@ GET /api/v1/String/{sr_id}?ignoreOverrides=False
 
 Response body: object
 
-## Sample Request
+
+## Sample request
 
 ```http!
 GET /api/v1/String/{sr_id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK

@@ -1,6 +1,6 @@
 ---
 title: POST Hierarchy/{domain}/{path}
-id: v1HierarchyEntity_AddHierarchyToPath
+uid: v1HierarchyEntity_AddHierarchyToPath
 ---
 
 # POST Hierarchy/{domain}/{path}
@@ -11,10 +11,17 @@ POST /api/v1/Hierarchy/{domain}/{path}
 
 Add a hierarchy item to a path
 
+
+
+
+
+
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | domain | Enum: Unknown, ExtraTables, ScreenDefinitions, Scripts, Selections, ExternalDocuments, UserGroups, ExternalDocumentRelatedToSpmMessage, Dashboards | Type of items to get **Required** |
 | path | string | Hierarchy path to parent item **Required** |
+
+
 
 ## Request Headers
 
@@ -30,22 +37,21 @@ Add a hierarchy item to a path
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: name
+## Request Body: name  
 
-Name of node to add
+Name of node to add 
 
-## Response: object
 
-Folder structures
 
-Carrier object for HierarchyEntity.
-Services for the HierarchyEntity Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IListAgent">List Agent</see>.
+## Response: 
+
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -62,69 +68,62 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Hierarchy/{domain}/{path}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 63,
+  "HierarchyId": 693,
   "Domain": "Dashboards",
-  "Name": "Erdman, Watsica and Davis",
-  "Fullname": "sunt",
-  "ParentId": 10,
+  "Name": "Gottlieb LLC",
+  "Fullname": "eum",
+  "ParentId": 696,
   "Children": [
     {
-      "HierarchyId": 594,
+      "HierarchyId": 120,
       "Domain": "Dashboards",
-      "Name": "Lehner-Jast",
-      "Fullname": "sint",
-      "ParentId": 770,
+      "Name": "Gutkowski-Sanford",
+      "Fullname": "qui",
+      "ParentId": 624,
       "Children": [
         {},
         {}
       ],
-      "Registered": "2005-04-29T18:25:50.5865947+02:00",
-      "RegisteredAssociateId": 400,
-      "Updated": "1995-05-06T18:25:50.5865947+02:00",
-      "UpdatedAssociateId": 376,
-      "TableRight": {},
+      "Registered": "2020-09-18T11:10:52.9211791+02:00",
+      "RegisteredAssociateId": 204,
+      "Updated": "2017-09-11T11:10:52.9211791+02:00",
+      "UpdatedAssociateId": 839,
+      "TableRight": null,
       "FieldProperties": {
         "fieldName": {
-          "FieldRight": {
-            "Mask": "FULL",
-            "Reason": ""
-          },
+          "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 451
+          "FieldLength": 284
         }
       }
     }
   ],
-  "Registered": "2006-10-03T18:25:50.5865947+02:00",
-  "RegisteredAssociateId": 726,
-  "Updated": "2021-04-14T18:25:50.5865947+02:00",
-  "UpdatedAssociateId": 239,
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "Registered": "2009-07-05T11:10:52.9211791+02:00",
+  "RegisteredAssociateId": 493,
+  "Updated": "2019-09-03T11:10:52.9211791+02:00",
+  "UpdatedAssociateId": 535,
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
-      "FieldType": "System.String",
-      "FieldLength": 312
+      "FieldRight": null,
+      "FieldType": "System.Int32",
+      "FieldLength": 532
     }
   }
 }

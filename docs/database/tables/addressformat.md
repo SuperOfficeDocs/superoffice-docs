@@ -1,12 +1,12 @@
 ---
 uid: table-AddressFormat
 title: AddressFormat table
-description: Address formats for GUI and labels.
+description: Address formats for GUI and labels. See more information; Addressformat on http;//techdoc.superoffice.com
 so.generated: true
 keywords:
   - "database"
   - "AddressFormat"
-so.date: 04.12.2022
+so.date: 08.26.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -15,7 +15,7 @@ so.envir:
 
 # AddressFormat Table (57)
 
-Address formats for GUI and labels.
+Address formats for GUI and labels. See more information; Addressformat on http;//techdoc.superoffice.com
 
 ## Fields
 
@@ -84,6 +84,7 @@ Address formats for GUI and labels.
 |labelLayout2|Part two of format specification, concatenated with part one above|String(254)|&#x25CF;|
 |isBuiltIn|Is this row populated by SuperOffice?|Bool|&#x25CF;|
 
+
 ![AddressFormat table relationship diagram](./media/AddressFormat.png)
 
 [!include[details](./includes/addressformat.md)]
@@ -100,6 +101,7 @@ Address formats for GUI and labels.
 |------|-------------|
 |[associate](associate.md)  |Employees, resources and other users - except for External persons |
 
+
 ## Replication Flags
 
 * Replicate changes DOWN from central to satellites and travellers.
@@ -109,3 +111,4 @@ Address formats for GUI and labels.
 ## Security Flags
 
 * No access control via user's Role.
+

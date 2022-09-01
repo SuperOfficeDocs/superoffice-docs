@@ -1,6 +1,6 @@
 ---
 title: GET DashboardTile/default
-id: v1DashboardTile_DefaultDashboardTile
+uid: v1DashboardTile_DefaultDashboardTile
 ---
 
 # GET DashboardTile/default
@@ -11,7 +11,14 @@ GET /api/v1/DashboardTile/default
 
 Set default values into a new DashboardTile.
 
+
 NetServer calculates default values on the entity, which is required when creating/storing a new instance Calls the Dashboard agent service CreateDefaultDashboardTile.
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -26,18 +33,16 @@ NetServer calculates default values on the entity, which is required when creati
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response: object
 
-Dashboard Tile configuration
+## Response: 
 
-Carrier object for DashboardTile.
-Services for the DashboardTile Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IDashboardAgent">Dashboard Agent</see>.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -58,7 +63,7 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 GET /api/v1/DashboardTile/default
@@ -67,94 +72,81 @@ Accept: application/json; charset=utf-8
 Accept-Language: en
 ```
 
+## Sample response
+
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 635,
-  "Caption": "sequi",
-  "Description": "Integrated executive data-warehouse",
-  "ChartName": "Weimann Inc and Sons",
-  "ChartId": "ipsam",
+  "DashboardTileId": 875,
+  "Caption": "et",
+  "Description": "Multi-tiered impactful infrastructure",
+  "ChartName": "Stiedemann-Mills",
+  "ChartId": "omnis",
   "IsDefault": true,
-  "AssociateId": 60,
-  "GroupId": 106,
-  "SelectionId": 274,
-  "Config": "iure",
+  "AssociateId": 172,
+  "GroupId": 384,
+  "SelectionId": 514,
+  "Config": "harum",
   "Type": "Bignum",
   "EntityType": "Activity",
   "Options": [
     {
-      "Name": "Walker Group",
-      "Description": "Secured tertiary structure",
+      "Name": "Bogan, Hermann and Nolan",
+      "Description": "Grass-roots even-keeled circuit",
       "Type": "Boolean",
-      "ListName": "Zulauf, Schmeler and Marks",
+      "ListName": "Hoeger-Lockman",
       "ListItems": [
         {},
         {}
       ],
-      "Value": "illum",
-      "DefaultDataOption": true,
-      "TableRight": {},
+      "Value": "vero",
+      "DefaultDataOption": false,
+      "TableRight": null,
       "FieldProperties": {
         "fieldName": {
-          "FieldRight": {
-            "Mask": "FULL",
-            "Reason": ""
-          },
+          "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 992
+          "FieldLength": 809
         }
       }
     }
   ],
   "VisibleFor": [
     {
-      "VisibleId": 684,
+      "VisibleId": 122,
       "Visibility": "All",
-      "DisplayValue": "modi",
-      "TableRight": {},
+      "DisplayValue": "eos",
+      "TableRight": null,
       "FieldProperties": {
         "fieldName": {
-          "FieldRight": {
-            "Mask": "FULL",
-            "Reason": "optimize customized functionalities"
-          },
-          "FieldType": "System.Int32",
-          "FieldLength": 446
+          "FieldRight": null,
+          "FieldType": "System.String",
+          "FieldLength": 661
         }
       }
     },
     {
-      "VisibleId": 684,
+      "VisibleId": 122,
       "Visibility": "All",
-      "DisplayValue": "modi",
-      "TableRight": {},
+      "DisplayValue": "eos",
+      "TableRight": null,
       "FieldProperties": {
         "fieldName": {
-          "FieldRight": {
-            "Mask": "FULL",
-            "Reason": "optimize customized functionalities"
-          },
-          "FieldType": "System.Int32",
-          "FieldLength": 446
+          "FieldRight": null,
+          "FieldType": "System.String",
+          "FieldLength": 661
         }
       }
     }
   ],
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
-      "FieldType": "System.String",
-      "FieldLength": 637
+      "FieldRight": null,
+      "FieldType": "System.Int32",
+      "FieldLength": 687
     }
   }
 }

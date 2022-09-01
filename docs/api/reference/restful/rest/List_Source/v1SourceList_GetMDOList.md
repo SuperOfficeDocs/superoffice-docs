@@ -1,6 +1,6 @@
 ---
 title: GET List/Source/MDOItems
-id: v1SourceList_GetMDOList
+uid: v1SourceList_GetMDOList
 ---
 
 # GET List/Source/MDOItems
@@ -11,6 +11,12 @@ GET /api/v1/List/Source/MDOItems
 
 Get the MDO list items for "Source" - with headings and filtering by user group.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,8 +26,9 @@ Get the MDO list items for "Source" - with headings and filtering by user group.
 
 ```http
 GET /api/v1/List/Source/MDOItems?flat=True
-GET /api/v1/List/Source/MDOItems?query=nisi
+GET /api/v1/List/Source/MDOItems?query=expedita
 ```
+
 
 ## Request Headers
 
@@ -36,7 +43,10 @@ GET /api/v1/List/Source/MDOItems?query=nisi
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -61,14 +71,16 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 GET /api/v1/List/Source/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -76,59 +88,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 809,
-    "Name": "Dickinson, Schoen and Swift",
-    "ToolTip": "Sint numquam cum.",
-    "Deleted": false,
-    "Rank": 475,
-    "Type": "molestias",
+    "Id": 868,
+    "Name": "Schmidt Group",
+    "ToolTip": "Odio rerum minus doloribus explicabo.",
+    "Deleted": true,
+    "Rank": 692,
+    "Type": "inventore",
     "ChildItems": [
       {
-        "Id": 976,
-        "Name": "Reilly-Hansen",
-        "ToolTip": "Qui error cupiditate at sunt est aut.",
-        "Deleted": true,
-        "Rank": 228,
-        "Type": "provident",
+        "Id": 850,
+        "Name": "Jones, Brekke and Barrows",
+        "ToolTip": "Consequatur deleniti aut fugiat sed sit id.",
+        "Deleted": false,
+        "Rank": 54,
+        "Type": "voluptas",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "eos",
-        "ColorBlock": 238,
-        "ExtraInfo": "quis",
-        "StyleHint": "rem",
-        "FullName": "Terrence Emmerich",
-        "TableRight": {},
+        "IconHint": "non",
+        "ColorBlock": 837,
+        "ExtraInfo": "adipisci",
+        "StyleHint": "veniam",
+        "FullName": "Margie Ferry",
+        "TableRight": null,
         "FieldProperties": {
           "fieldName": {
-            "FieldRight": {
-              "Mask": "FULL",
-              "Reason": ""
-            },
-            "FieldType": "System.String",
-            "FieldLength": 275
+            "FieldRight": null,
+            "FieldType": "System.Int32",
+            "FieldLength": 390
           }
         }
       }
     ],
-    "IconHint": "quia",
-    "ColorBlock": 216,
-    "ExtraInfo": "et",
-    "StyleHint": "commodi",
-    "FullName": "Jameson Blick",
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "IconHint": "dignissimos",
+    "ColorBlock": 805,
+    "ExtraInfo": "consectetur",
+    "StyleHint": "et",
+    "FullName": "Delilah Leffler",
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 698
+        "FieldRight": null,
+        "FieldType": "System.Int32",
+        "FieldLength": 304
       }
     }
   }

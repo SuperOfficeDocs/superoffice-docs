@@ -8,7 +8,7 @@ keywords:
   - "archive provider"
   - "Relation"
 so.generated: true
-so.date: 03.23.2021
+so.date: 08.26.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -25,15 +25,15 @@ the up to eight basic sub-providers (CC, PC, PP and CP plus their reversed cousi
 ## Supported Entities
 
 | Name | Description |
-| ---- | ----- |
+| ---- | ----------- |
 |"relation"|[Relation]|
 |"retired"|Former employees|
 |"stop"|Companies flagged with Stop|
 
 ## Supported Columns
 
-| Name | Restriction | Description | OrderBy
-| ---- | ----- | ------- | ------ |
+| Name | Restriction | Description | OrderBy |
+| ---- | ----------- | ----------- | ------- |
 |getAllRows|bool|GetAll: Get all rows of archive - use with care, you may be fetching the whole database|  |
 |getNoRows|bool|GetNone: Do not get any rows from the archive|  |
 |relationName|string|Name: Name of relation, not taking into account the relation direction| x |
@@ -59,6 +59,7 @@ the up to eight basic sub-providers (CC, PC, PP and CP plus their reversed cousi
 |source/personNumber| *None* |Source - Number: Displays the contact's number|  |
 |source/title| *None* |Source - Title: Displays the contact's job title|  |
 |source/personCountry| *None* |Source - Country: Country|  |
+|source/personCountryId| *None* |Source - Country ID: Country ID|  |
 |source/personNoMail| *None* |Source - No Mailings: Displays the contact's No Mailings checkbox|  |
 |source/rank| *None* |Source - Rank: Displays a contact's current rank|  |
 |source/birthdate| *None* |Source - Birthdate: Displays the contact's date of birth|  |
@@ -72,15 +73,19 @@ the up to eight basic sub-providers (CC, PC, PP and CP plus their reversed cousi
 |source/kanaFirstName| *None* |Source - First name, kana: Contact's first name, in kana alphabet|  |
 |source/kanaLastName| *None* |Source - Last name, kana: Contact's last name, in kana alphabet|  |
 |source/personUpdatedBy| *None* |Source - Updated by: The user who last updated the data|  |
+|source/personUpdatedByFullName| *None* |Source - Updated by - Full name: The user who last updated the data|  |
 |source/personUpdatedDate| *None* |Source - Updated: The date/time the data was last updated in UTC.|  |
 |source/personRegisteredBy| *None* |Source - Registered by: The user who registered the data|  |
+|source/personRegisteredByFullName| *None* |Source - Registered by - Full name: The user who registered the data|  |
 |source/personRegisteredDate| *None* |Source - Registered date: The date/time the data was registered in UTC.|  |
 |source/portraitThumbnail| *None* |Source - Person image: Person image|  |
 |source/personActiveErpLinks| *None* |Source - ERP connected: Is there an active ERP Sync?|  |
 |source/ticketPriority| *None* |Source - Service priority: Default service priority for this contact|  |
 |source/supportLanguage| *None* |Source - Preferred language: Preferred language used for reply templates and more|  |
 |source/supportAssociate| *None* |Source - Our service contact: Default service contact for this contact|  |
+|source/supportAssociateFullName| *None* |Source - Our service contact - Full name: Default service contact for this contact|  |
 |source/personAssociateId| *None* |Source - Our contact: Displays our contact|  |
+|source/personAssociateFullName| *None* |Source - Our contact - Full name: Displays our contact|  |
 |source/personCategory| *None* |Source - Category|  |
 |source/personBusiness| *None* |Source - Business|  |
 |source/personDeletedDate| *None* |Source - Deleted date: Deleted date|  |
@@ -108,14 +113,17 @@ the up to eight basic sub-providers (CC, PC, PP and CP plus their reversed cousi
 |source/category|listAny|Source - Category| x |
 |source/business|listAny|Source - Business| x |
 |source/country|listAny|Source - Country: This criterion corresponds to the Country field on the Company card.| x |
+|source/countryId|int|Source - Country ID: Country ID| x |
 |source/number|string|Source - Number| x |
 |source/code|string|Source - Code| x |
 |source/orgnr|string|Source - VAT No.| x |
 |source/stop|bool|Source - Stop| x |
 |source/contactNoMail|bool|Source - No mailings (company)| x |
 |source/updatedBy|associate|Source - Updated by: The user who last updated the data| x |
+|source/updatedByFullName|associate|Source - Updated by - Full name: The user who last updated the data| x |
 |source/updatedDate|date|Source - Updated: The date/time the data was last updated in UTC.| x |
 |source/registeredBy|associate|Source - Registered by: The user who registered the data| x |
+|source/registeredByFullName|associate|Source - Registered by - Full name: The user who registered the data| x |
 |source/registeredDate|date|Source - Registered date: The date/time the data was registered in UTC.| x |
 |source/contactSource|listAny|Source - Source: Source (Company)| x |
 |source/contactDeleted|bool|Source - Deleted: Deleted| x |
@@ -134,14 +142,17 @@ the up to eight basic sub-providers (CC, PC, PP and CP plus their reversed cousi
 |target/category|listAny|Target - Category| x |
 |target/business|listAny|Target - Business| x |
 |target/country|listAny|Target - Country: This criterion corresponds to the Country field on the Company card.| x |
+|target/countryId|int|Target - Country ID: Country ID| x |
 |target/number|string|Target - Number| x |
 |target/code|string|Target - Code| x |
 |target/orgnr|string|Target - VAT No.| x |
 |target/stop|bool|Target - Stop| x |
 |target/contactNoMail|bool|Target - No mailings (company)| x |
 |target/updatedBy|associate|Target - Updated by: The user who last updated the data| x |
+|target/updatedByFullName|associate|Target - Updated by - Full name: The user who last updated the data| x |
 |target/updatedDate|date|Target - Updated: The date/time the data was last updated in UTC.| x |
 |target/registeredBy|associate|Target - Registered by: The user who registered the data| x |
+|target/registeredByFullName|associate|Target - Registered by - Full name: The user who registered the data| x |
 |target/registeredDate|date|Target - Registered date: The date/time the data was registered in UTC.| x |
 |target/contactSource|listAny|Target - Source: Source (Company)| x |
 |target/contactDeleted|bool|Target - Deleted: Deleted| x |
@@ -247,6 +258,22 @@ the up to eight basic sub-providers (CC, PC, PP and CP plus their reversed cousi
 |target/contactUdef/SuperOffice:11| *None* |Target - page1adminonly|  |
 |target/contactUdef/SuperOffice:12| *None* |Target - Udlist one: Static tooltip for udlist one|  |
 |target/contactUdef/SuperOffice:13| *None* |Target - Udlist two: Static tooltip for udlist two|  |
+|target/contactExtra/x\_contact\_integer| *None* |Target - Extra Integer: Custom integer field|  |
+|target/contactExtra/x\_contact\_hidden\_integer| *None* |Target - Extra hidden integer: Custom integer field - hidden|  |
+|target/contactExtra/x\_contact\_default\_integer| *None* |Target - Extra Default Integer: Custom integer field with default value 123.|  |
+|target/contactExtra/x\_contact\_float| *None* |Target - Extra Float: Custom float field with 3 decimals|  |
+|target/contactExtra/x\_contact\_longtext| *None* |Target - Extra LongText: Custom long text field. DO not keep HTML. 3 Line text area editor|  |
+|target/contactExtra/x\_contact\_dropdown| *None* |Target - Extra Long Dropdown: Custom long text field with dropdown: Volvo, Saab, etc.|  |
+|target/contactExtra/x\_contact\_date| *None* |Target - Extra date: Custom date field. User current as default.|  |
+|target/contactExtra/x\_contact\_datetime| *None* |Target - Extra DateTime: Custom Date Time field. No default value. External|  |
+|target/contactExtra/x\_contact\_time| *None* |Target - Extra time: Custom time field.|  |
+|target/contactExtra/x\_contact\_boolean| *None* |Target - Extra boolean: Custom boolean field.|  |
+|target/contactExtra/x\_contact\_timespan| *None* |Target - Extra timespan: Custom timespan field. Hours and minutes in 10 units|  |
+|target/contactExtra/x\_contact\_shorttext| *None* |Target - Extra short text: Custom short text field. Keep HTML tags.|  |
+|target/contactExtra/x\_contact\_short\_dropdown| *None* |Target - Extra short dropdown: Custom short text with dropdown list. Red, Green or Blue or Purple. External.|  |
+|target/contactExtra/x\_contact\_contact\_relation| *None* |Target - Extra Company: Custom company relation. Do not show one-to-many relations. Show function buttons|  |
+|target/contactExtra/x\_contact\_request\_relation| *None* |Target - Extra Request relation: Request relation on company|  |
+|target/contactExtra/x\_contact\_contact| *None* |Target - Extra contact relation: Contact relation on company|  |
 |target/NumberOfActivities| *None* |Target - Number of activities|  |
 |target/NumberOfActivitiesInPeriod| *None* |Target - Number of activities in last 90 days|  |
 |target/NumberOfNotCompletedActivities| *None* |Target - Number of non-completed activities|  |
@@ -268,8 +295,8 @@ the up to eight basic sub-providers (CC, PC, PP and CP plus their reversed cousi
 |target/LastTicket| *None* |Target - Date of last request|  |
 |target/LastCompletedTicket| *None* |Target - Date of last completed request|  |
 |target/LastDoByTicket| *None* |Target - Date of last non-completed request|  |
-|target/SaintStatus1| *None* |Target - Neglected customer|  |
-|target/SaintStatus2| *None* |Target - C-company|  |
+|target/SaintStatus1| *None* |Target - Neglected customer: Denne kunden har det vært 0 salgsaktiviteter på i perioden.|  |
+|target/SaintStatus2| *None* |Target - C-company: Kundens navn starter med bokstaven C|  |
 |target/saintSaleStatus| *None* |Target - With status|  |
 |target/saintAmountClass| *None* |Target - Amount class|  |
 |target/saintActivityType| *None* |Target - SAINT type|  |
@@ -319,6 +346,7 @@ the up to eight basic sub-providers (CC, PC, PP and CP plus their reversed cousi
 |target/personNumber| *None* |Target - Number: Displays the contact's number|  |
 |target/title| *None* |Target - Title: Displays the contact's job title|  |
 |target/personCountry| *None* |Target - Country: Country|  |
+|target/personCountryId| *None* |Target - Country ID: Country ID|  |
 |target/personNoMail| *None* |Target - No Mailings: Displays the contact's No Mailings checkbox|  |
 |target/rank| *None* |Target - Rank: Displays a contact's current rank|  |
 |target/birthdate| *None* |Target - Birthdate: Displays the contact's date of birth|  |
@@ -332,15 +360,19 @@ the up to eight basic sub-providers (CC, PC, PP and CP plus their reversed cousi
 |target/kanaFirstName| *None* |Target - First name, kana: Contact's first name, in kana alphabet|  |
 |target/kanaLastName| *None* |Target - Last name, kana: Contact's last name, in kana alphabet|  |
 |target/personUpdatedBy| *None* |Target - Updated by: The user who last updated the data|  |
+|target/personUpdatedByFullName| *None* |Target - Updated by - Full name: The user who last updated the data|  |
 |target/personUpdatedDate| *None* |Target - Updated: The date/time the data was last updated in UTC.|  |
 |target/personRegisteredBy| *None* |Target - Registered by: The user who registered the data|  |
+|target/personRegisteredByFullName| *None* |Target - Registered by - Full name: The user who registered the data|  |
 |target/personRegisteredDate| *None* |Target - Registered date: The date/time the data was registered in UTC.|  |
 |target/portraitThumbnail| *None* |Target - Person image: Person image|  |
 |target/personActiveErpLinks| *None* |Target - ERP connected: Is there an active ERP Sync?|  |
 |target/ticketPriority| *None* |Target - Service priority: Default service priority for this contact|  |
 |target/supportLanguage| *None* |Target - Preferred language: Preferred language used for reply templates and more|  |
 |target/supportAssociate| *None* |Target - Our service contact: Default service contact for this contact|  |
+|target/supportAssociateFullName| *None* |Target - Our service contact - Full name: Default service contact for this contact|  |
 |target/personAssociateId| *None* |Target - Our contact: Displays our contact|  |
+|target/personAssociateFullName| *None* |Target - Our contact - Full name: Displays our contact|  |
 |target/personCategory| *None* |Target - Category|  |
 |target/personBusiness| *None* |Target - Business|  |
 |target/personDeletedDate| *None* |Target - Deleted date: Deleted date|  |
@@ -452,6 +484,22 @@ the up to eight basic sub-providers (CC, PC, PP and CP plus their reversed cousi
 |source/contactUdef/SuperOffice:11| *None* |Source - page1adminonly|  |
 |source/contactUdef/SuperOffice:12| *None* |Source - Udlist one: Static tooltip for udlist one|  |
 |source/contactUdef/SuperOffice:13| *None* |Source - Udlist two: Static tooltip for udlist two|  |
+|source/contactExtra/x\_contact\_integer| *None* |Source - Extra Integer: Custom integer field|  |
+|source/contactExtra/x\_contact\_hidden\_integer| *None* |Source - Extra hidden integer: Custom integer field - hidden|  |
+|source/contactExtra/x\_contact\_default\_integer| *None* |Source - Extra Default Integer: Custom integer field with default value 123.|  |
+|source/contactExtra/x\_contact\_float| *None* |Source - Extra Float: Custom float field with 3 decimals|  |
+|source/contactExtra/x\_contact\_longtext| *None* |Source - Extra LongText: Custom long text field. DO not keep HTML. 3 Line text area editor|  |
+|source/contactExtra/x\_contact\_dropdown| *None* |Source - Extra Long Dropdown: Custom long text field with dropdown: Volvo, Saab, etc.|  |
+|source/contactExtra/x\_contact\_date| *None* |Source - Extra date: Custom date field. User current as default.|  |
+|source/contactExtra/x\_contact\_datetime| *None* |Source - Extra DateTime: Custom Date Time field. No default value. External|  |
+|source/contactExtra/x\_contact\_time| *None* |Source - Extra time: Custom time field.|  |
+|source/contactExtra/x\_contact\_boolean| *None* |Source - Extra boolean: Custom boolean field.|  |
+|source/contactExtra/x\_contact\_timespan| *None* |Source - Extra timespan: Custom timespan field. Hours and minutes in 10 units|  |
+|source/contactExtra/x\_contact\_shorttext| *None* |Source - Extra short text: Custom short text field. Keep HTML tags.|  |
+|source/contactExtra/x\_contact\_short\_dropdown| *None* |Source - Extra short dropdown: Custom short text with dropdown list. Red, Green or Blue or Purple. External.|  |
+|source/contactExtra/x\_contact\_contact\_relation| *None* |Source - Extra Company: Custom company relation. Do not show one-to-many relations. Show function buttons|  |
+|source/contactExtra/x\_contact\_request\_relation| *None* |Source - Extra Request relation: Request relation on company|  |
+|source/contactExtra/x\_contact\_contact| *None* |Source - Extra contact relation: Contact relation on company|  |
 |source/NumberOfActivities| *None* |Source - Number of activities|  |
 |source/NumberOfActivitiesInPeriod| *None* |Source - Number of activities in last 90 days|  |
 |source/NumberOfNotCompletedActivities| *None* |Source - Number of non-completed activities|  |
@@ -473,8 +521,8 @@ the up to eight basic sub-providers (CC, PC, PP and CP plus their reversed cousi
 |source/LastTicket| *None* |Source - Date of last request|  |
 |source/LastCompletedTicket| *None* |Source - Date of last completed request|  |
 |source/LastDoByTicket| *None* |Source - Date of last non-completed request|  |
-|source/SaintStatus1| *None* |Source - Neglected customer|  |
-|source/SaintStatus2| *None* |Source - C-company|  |
+|source/SaintStatus1| *None* |Source - Neglected customer: Denne kunden har det vært 0 salgsaktiviteter på i perioden.|  |
+|source/SaintStatus2| *None* |Source - C-company: Kundens navn starter med bokstaven C|  |
 |source/saintSaleStatus| *None* |Source - With status|  |
 |source/saintAmountClass| *None* |Source - Amount class|  |
 |source/saintActivityType| *None* |Source - SAINT type|  |
@@ -486,11 +534,14 @@ the up to eight basic sub-providers (CC, PC, PP and CP plus their reversed cousi
 ## Sample
 
 ```http!
-GET /api/v1/archive/Relation?$select=target/LastCompletedTicket,isActiveText,target/mrMrs
+GET /api/v1/archive/Relation?$select=relationName,source/personHasInterests,source/who,target/restrictionAddress/line2,target/mrMrs
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv
 
 ```
 
-See also: <see cref="T:SuperOffice.CRM.Services.IArchiveAgent">IArchiveAgent</see>.
+
+
+See also: <see cref="T:SuperOffice.CRM.Services.IArchiveAgent">IArchiveAgent</see>.</p>
+

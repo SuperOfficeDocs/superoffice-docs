@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Person/ChangePersonRank
-id: v1PersonAgent_ChangePersonRank
+uid: v1PersonAgent_ChangePersonRank
 ---
 
 # POST Agents/Person/ChangePersonRank
@@ -11,7 +11,13 @@ POST /api/v1/Agents/Person/ChangePersonRank
 
 Move one person up or down in the ranking in the Person Archive, if possible.
 
+
 &lt;para/&gt;The person record that has rank = 1 is the primary contact for a company, and is the one used in situations where no person has been explicitly chosen (such as in selections).&lt;para/&gt;This method corresponds to the move up/move down functions in the person archive in the contact panel.&lt;para/&gt;This method always affects two records.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +28,7 @@ Move one person up or down in the ranking in the Person Archive, if possible.
 ```http
 POST /api/v1/Agents/Person/ChangePersonRank?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,16 +44,19 @@ POST /api/v1/Agents/Person/ChangePersonRank?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-PersonId, MoveUp
+PersonId, MoveUp 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | PersonId | int32 |  |
 | MoveUp | bool |  |
 
+
 ## Response: int32
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -54,24 +64,27 @@ PersonId, MoveUp
 
 Response body: int32
 
-## Sample Request
+
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Person/ChangePersonRank
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 72,
+  "PersonId": 984,
   "MoveUp": true
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-414
+620
 ```

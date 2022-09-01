@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Quote/GetQuoteLine
-id: v1QuoteAgent_GetQuoteLine
+uid: v1QuoteAgent_GetQuoteLine
 ---
 
 # POST Agents/Quote/GetQuoteLine
@@ -11,6 +11,12 @@ POST /api/v1/Agents/Quote/GetQuoteLine
 
 Get QuoteLine from database
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Get QuoteLine from database
 ```http
 POST /api/v1/Agents/Quote/GetQuoteLine?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,26 +42,24 @@ POST /api/v1/Agents/Quote/GetQuoteLine?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-QuoteLineId
+QuoteLineId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | QuoteLineId | int32 |  |
 
-## Response: object
 
-Information about a connection to the ERP system.
+## Response: 
 
-Carrier object for QuoteLine.
-Services for the QuoteLine Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IQuoteAgent">Quote Agent</see>.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -110,119 +115,109 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Quote/GetQuoteLine
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLineId": 526
+  "QuoteLineId": 732
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLineId": 151,
-  "ERPQuoteLineKey": "sint",
-  "QuoteAlternativeId": 260,
-  "ERPProductKey": "velit",
+  "QuoteLineId": 764,
+  "ERPQuoteLineKey": "et",
+  "QuoteAlternativeId": 164,
+  "ERPProductKey": "quaerat",
   "Status": "Error",
-  "Reason": "",
-  "Quantity": 14723.532,
-  "DeliveredQuantity": 20101.476,
-  "Rank": 550,
-  "Name": "Grimes, Hagenes and Kilback",
-  "Description": "Versatile zero defect Graphic Interface",
-  "Code": "quod",
-  "QuantityUnit": "officia",
-  "PriceUnit": "delectus",
-  "ItemNumber": "518038",
+  "Reason": "evolve frictionless applications",
+  "Quantity": 206.844,
+  "DeliveredQuantity": 21734.29,
+  "Rank": 903,
+  "Name": "Schuppe Group",
+  "Description": "Reduced object-oriented instruction set",
+  "Code": "est",
+  "QuantityUnit": "mollitia",
+  "PriceUnit": "vel",
+  "ItemNumber": "358894",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "hic",
-  "ProductTypeKey": "fugit",
-  "Supplier": "iusto",
-  "SupplierCode": "tempore",
-  "Thumbnail": "et",
-  "VATInfo": "esse",
-  "VAT": 28861.005999999998,
-  "UnitCost": 17324.752,
-  "UnitMinimumPrice": 14996.189999999999,
-  "UnitListPrice": 28133.917999999998,
+  "ProductFamilyKey": "assumenda",
+  "ProductTypeKey": "quis",
+  "Supplier": "tempore",
+  "SupplierCode": "dolore",
+  "Thumbnail": "molestiae",
+  "VATInfo": "deleniti",
+  "VAT": 21405.219999999998,
+  "UnitCost": 16312.47,
+  "UnitMinimumPrice": 5826.106,
+  "UnitListPrice": 12119.178,
   "ExtraInfo": [
     {
-      "Name": "Hintz Group",
-      "Value": "aut",
+      "Name": "Zieme LLC",
+      "Value": "non",
       "Type": "Image",
-      "TableRight": {},
+      "TableRight": null,
       "FieldProperties": {
         "fieldName": {
-          "FieldRight": {
-            "Mask": "FULL",
-            "Reason": ""
-          },
-          "FieldType": "System.String",
-          "FieldLength": 420
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 784
         }
       }
     },
     {
-      "Name": "Hintz Group",
-      "Value": "aut",
+      "Name": "Zieme LLC",
+      "Value": "non",
       "Type": "Image",
-      "TableRight": {},
+      "TableRight": null,
       "FieldProperties": {
         "fieldName": {
-          "FieldRight": {
-            "Mask": "FULL",
-            "Reason": ""
-          },
-          "FieldType": "System.String",
-          "FieldLength": 420
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 784
         }
       }
     }
   ],
-  "RawExtraInfo": "eius",
+  "RawExtraInfo": "nisi",
   "IsSubscription": false,
-  "SubscriptionUnit": "libero",
-  "SubscriptionQuantity": 17262.072,
-  "SubscriptionStart": "2018-06-22T18:28:49.967135+02:00",
-  "ERPDiscountPercent": 19411.996,
-  "ERPDiscountAmount": 4917.246,
-  "DiscountPercent": 1215.992,
-  "DiscountAmount": 22107.236,
+  "SubscriptionUnit": "nobis",
+  "SubscriptionQuantity": 24310.438,
+  "SubscriptionStart": "2015-12-02T11:10:27.7354953+01:00",
+  "ERPDiscountPercent": 26585.721999999998,
+  "ERPDiscountAmount": 3644.842,
+  "DiscountPercent": 15243.776,
+  "DiscountAmount": 12661.359999999999,
   "UserValueOverride": "DiscountAmount",
-  "EarningPercent": 21188.974,
-  "EarningAmount": 3469.3379999999997,
-  "SubTotal": 14729.8,
-  "TotalPrice": 19615.706,
-  "Rights": "perspiciatis",
-  "Rule": "error",
-  "ExtraField1": "amet",
-  "ExtraField2": "odit",
-  "ExtraField3": "blanditiis",
-  "ExtraField4": "a",
-  "ExtraField5": "autem",
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "EarningPercent": 22944.014,
+  "EarningAmount": 15174.828,
+  "SubTotal": 29810.608,
+  "TotalPrice": 25419.874,
+  "Rights": "corporis",
+  "Rule": "et",
+  "ExtraField1": "laudantium",
+  "ExtraField2": "asperiores",
+  "ExtraField3": "mollitia",
+  "ExtraField4": "vitae",
+  "ExtraField5": "maiores",
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
-      "FieldType": "System.String",
-      "FieldLength": 92
+      "FieldRight": null,
+      "FieldType": "System.Int32",
+      "FieldLength": 815
     }
   }
 }

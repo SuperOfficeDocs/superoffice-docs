@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "s_link"
-so.date: 04.12.2022
+so.date: 08.26.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -62,6 +62,7 @@ Links in messages to measure success rate of a campaign.
 |updated\_associate\_id|Last updated by whom|FK [associate](associate.md)|&#x25CF;|
 |updatedCount|Number of updates made to this record|UShort|&#x25CF;|
 
+
 ![s_link table relationship diagram](./media/s_link.png)
 
 [!include[details](./includes/s-link.md)]
@@ -108,6 +109,7 @@ Links in messages to measure success rate of a campaign.
 |[Task](task.md)  |Task list table, activity types, like Phone, Meeting |
 |[ticket\_priority](ticket-priority.md)  |This table contains the ticket priorities. |
 
+
 ## Replication Flags
 
 * None
@@ -115,3 +117,4 @@ Links in messages to measure success rate of a campaign.
 ## Security Flags
 
 * No access control via user's Role.
+

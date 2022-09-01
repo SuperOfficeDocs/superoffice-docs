@@ -1,6 +1,6 @@
 ---
 title: GET ChatTopic/default
-id: v1ChatTopicEntity_DefaultChatTopicEntity
+uid: v1ChatTopicEntity_DefaultChatTopicEntity
 ---
 
 # GET ChatTopic/default
@@ -11,7 +11,14 @@ GET /api/v1/ChatTopic/default
 
 Set default values into a new ChatTopicEntity.
 
+
 NetServer calculates default values on the entity, which is required when creating/storing a new instance Calls the Chat agent service CreateDefaultChatTopicEntity.
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -26,18 +33,16 @@ NetServer calculates default values on the entity, which is required when creati
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response: object
 
-Chat topics define who is assigned, when the channel is open for business, and look of the chat widget.
+## Response: 
 
-Carrier object for ChatTopicEntity.
-Services for the ChatTopicEntity Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IChatAgent">Chat Agent</see>.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -70,171 +75,64 @@ Response body: object
 | UseQueueOfflineForm | bool | Use offline form capability from chat queue |
 | OfflineFormTimeLimit | int32 | The number of minutes in the queue before the offline form is available |
 | OfflineFormQueueLength | int32 | The number of customers in the queue before the offline form is available |
+| WidgetEnableRating | bool | Enable rating functionality in the chat widgte |
+| WidgetRatingText | string | The text to be displayed in the widget next to the rating stars |
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 GET /api/v1/ChatTopic/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatTopicId": 102,
-  "Name": "Willms, Zulauf and Gleason",
-  "Description": "Extended neutral monitoring",
-  "WelcomeMessage": "voluptates",
-  "Language": {
-    "Id": 940,
-    "Value": "quod",
-    "Tooltip": "debitis",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 197
-      }
-    }
-  },
-  "LastAccept": "2009-02-23T18:25:50.1576203+01:00",
-  "SecondsPrAccept": 13,
-  "AlertRecipient": "dolorum",
-  "AlertTemplate": {
-    "ReplyTemplateId": 883,
-    "Name": "Ledner, Mayert and Zemlak",
-    "Description": "Innovative user-facing knowledge base",
-    "FolderId": 769
-  },
-  "CollectConsent": true,
-  "BadgeHeader": "dicta",
+  "ChatTopicId": 849,
+  "Name": "Breitenberg Group",
+  "Description": "Streamlined disintermediate definition",
+  "WelcomeMessage": "repudiandae",
+  "Language": null,
+  "LastAccept": "2012-01-25T11:10:52.5661735+01:00",
+  "SecondsPrAccept": 966,
+  "AlertRecipient": "velit",
+  "AlertTemplate": null,
+  "CollectConsent": false,
+  "BadgeHeader": "consequatur",
   "CustomQueueTextEnabled": false,
-  "CustomQueueText": "non",
-  "WarnNewChatMinutes": 231,
-  "WarnManagerNewChatMinutes": 486,
+  "CustomQueueText": "repellendus",
+  "WarnNewChatMinutes": 540,
+  "WarnManagerNewChatMinutes": 798,
   "TicketEnabled": false,
-  "TicketCategory": {
-    "Id": 557,
-    "Value": "beatae",
-    "Tooltip": "vel",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.Int32",
-        "FieldLength": 308
-      }
-    }
-  },
-  "TicketPriority": {
-    "Id": 54,
-    "Value": "maiores",
-    "Tooltip": "quis",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.Int32",
-        "FieldLength": 63
-      }
-    }
-  },
-  "OpeningHoursEnabled": false,
-  "OpeningHours": {
-    "TzLocation": {},
-    "MonEnabled": false,
-    "MonStart": "minima",
-    "MonStop": "nisi",
-    "TueEnabled": true,
-    "TueStart": "impedit",
-    "TueStop": "vitae",
-    "WedEnabled": false,
-    "WedStart": "sunt",
-    "WedStop": "quo",
-    "ThuEnabled": true,
-    "ThuStart": "ut",
-    "ThuStop": "consequuntur",
-    "FriEnabled": false,
-    "FriStart": "qui",
-    "FriStop": "aut",
-    "SatEnabled": true,
-    "SatStart": "illo",
-    "SatStop": "occaecati",
-    "SunEnabled": true,
-    "SunStart": "accusamus",
-    "SunStop": "autem",
-    "UseLunchHours": false,
-    "LunchStart": "nemo",
-    "LunchStop": "eaque"
-  },
-  "Widget": {
-    "AutoFaqEnabled": true,
-    "AutoFaqCategory": {},
-    "PreFormEnabled": true,
-    "PreFormMessage": "dolor",
-    "RequiredFields": "Company",
-    "PostFormEnabled": true,
-    "PostFormHeader": "ad",
-    "PostFormMessage": "fugiat",
-    "PostTranscriptEnabled": true,
-    "LanguageIsoCode": "voluptate",
-    "Size": "Large",
-    "Theme": "Classic",
-    "Color": "aut",
-    "Font": "eius",
-    "LogoEnabled": false,
-    "LogoBlobId": 391,
-    "LogoName": "Willms Inc and Sons",
-    "ShowAgentPhoto": false,
-    "WelcomeTitle": "voluptatem",
-    "WelcomeMessage": "sint",
-    "OfflineHeader": "dolor",
-    "OfflineMessage": "et",
-    "OfflineFields": "Company",
-    "UseAgentFirstname": false
-  },
+  "TicketCategory": null,
+  "TicketPriority": null,
+  "OpeningHoursEnabled": true,
+  "OpeningHours": null,
+  "Widget": null,
   "BotEnabled": false,
-  "BotSettings": {
-    "BotName": "Lowe, Rath and Ratke",
-    "BotRegisterScriptId": 783,
-    "BotSessionCreatedScriptId": 510,
-    "BotSessionChangedScriptId": 924,
-    "BotMessageReceivedScriptId": 916
-  },
-  "OfflineCollectConsent": true,
-  "WarnChatMessageMinutes": 627,
-  "WarnManagerChatMessageMinutes": 711,
+  "BotSettings": null,
+  "OfflineCollectConsent": false,
+  "WarnChatMessageMinutes": 157,
+  "WarnManagerChatMessageMinutes": 782,
   "UseQueueOfflineForm": false,
-  "OfflineFormTimeLimit": 474,
-  "OfflineFormQueueLength": 465,
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "OfflineFormTimeLimit": 339,
+  "OfflineFormQueueLength": 422,
+  "WidgetEnableRating": false,
+  "WidgetRatingText": "vero",
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
-      "FieldType": "System.String",
-      "FieldLength": 93
+      "FieldRight": null,
+      "FieldType": "System.Int32",
+      "FieldLength": 413
     }
   }
 }

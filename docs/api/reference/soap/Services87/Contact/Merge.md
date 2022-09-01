@@ -18,6 +18,8 @@ Merge two contacts. The destination contact will remain.
 * **mergeIdenticalPersons:** Persons with identical names will be merged
 * **replaceEmptyFieldsOnDestination:** If true, empty fields on destination will be replaced by values from source.
 
+
+
 [WSDL file for Services87/Contact](../Services87-Contact.md)
 
 Obtain a ticket from the [Services87/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -53,6 +55,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## Merge Response
 
 ```xml
@@ -72,3 +75,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

@@ -7,7 +7,7 @@ keywords:
   - "mdo provider"
   - "appointment"
 so.generated: true
-so.date: 03.19.2021
+so.date: 08.26.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -15,6 +15,9 @@ so.envir:
 ---
 
 # "appointment" MDO List
+
+
+
 
 Implemented by the <see cref="T:SuperOffice.CRM.Lists.AppointmentListProvider">AppointmentListProvider</see> class.
 The name of the MDO list is 'appointment'.
@@ -24,6 +27,10 @@ The name of the MDO list is 'appointment'.
 | Description | Name | Example Value |
 |-----|-----|------|
 |Return all appointments instead of only mother appointments.| anyAppointment|1|
+
+
+
+
 
 ## Sample Request
 
@@ -36,7 +43,6 @@ Accept-Language: *
 ```
 
 ## Sample Code
-
 ```cs
 var listProvider = SuperOffice.CRM.Lists.SoListProviderFactory.Create("appointment", forceFlatList: true);
 foreach (var item in listProvider.RootItems) {
@@ -52,24 +58,25 @@ foreach (var item in listProvider.RootItems) {
 |58|AMøte inneABB|||
 |59|BTelefon utBBB|||
 |61|IMøte inneIBB|||
+|60|EMøte inneEBB|||
 |62|MMøte inneMBB|||
 |63|PPrivatPBB|||
 |64|QMøte inneQBB|||
 |65|TPrivatTBB|||
 |66|XPrivatXBB|||
 |67|ØPrivatØBB|||
+|68|ÜTilbudÜBB|||
 |69|ÄPrivatÄBB|||
 |70|2Tilbud2BB|||
 |71|6Tilbud6BB|||
 |73|&Telefon ut&BB|||
 |74|=Tilbud=BB|||
+|75|*Møte inne*BB|||
 |76|CTilbudCCC|||
 |77|FTelefon utFCC|||
 |78|GTilbudGCC|||
-|81|RTelefon utRCC|||
-|84|YMøte inneYCC|||
-|86|0Møte inne0CC|||
-|87|3Privat3CC|||
+|79|JTelefon utJCC|||
+
 
 ## Related MDO Lists
 

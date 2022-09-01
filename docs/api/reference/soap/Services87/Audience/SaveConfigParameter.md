@@ -18,6 +18,7 @@ Saves an Audience configuration parameter belonging to a Audience layout
 
 **Returns:** The new or updated configuration parameter
 
+
 [WSDL file for Services87/Audience](../Services87-Audience.md)
 
 Obtain a ticket from the [Services87/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -46,8 +47,8 @@ Application tokens must be specified if calling an Online installation. Applicat
      <Audience:AudienceLayoutId xsi:type="xsd:int">0</Audience:AudienceLayoutId>
      <Audience:Name xsi:type="xsd:string"></Audience:Name>
      <Audience:Value xsi:type="xsd:string"></Audience:Value>
-     <Audience:CreatedDate xsi:type="xsd:dateTime">2021-11-30T13:23:09Z</Audience:CreatedDate>
-     <Audience:UpdatedDate xsi:type="xsd:dateTime">2021-11-30T13:23:09Z</Audience:UpdatedDate>
+     <Audience:CreatedDate xsi:type="xsd:dateTime">2022-08-26T08:56:19Z</Audience:CreatedDate>
+     <Audience:UpdatedDate xsi:type="xsd:dateTime">2022-08-26T08:56:19Z</Audience:UpdatedDate>
      <Audience:CreatedBy xsi:type="xsd:string"></Audience:CreatedBy>
      <Audience:UpdatedBy xsi:type="xsd:string"></Audience:UpdatedBy>
     </Audience:ConfigParameter>
@@ -57,6 +58,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+
 
 ## SaveConfigParameter Response
 
@@ -75,8 +77,8 @@ Application tokens must be specified if calling an Online installation. Applicat
     <Audience:AudienceLayoutId xsi:type="xsd:int">0</Audience:AudienceLayoutId>
     <Audience:Name xsi:type="xsd:string"></Audience:Name>
     <Audience:Value xsi:type="xsd:string"></Audience:Value>
-    <Audience:CreatedDate xsi:type="xsd:dateTime">2021-11-30T13:23:09Z</Audience:CreatedDate>
-    <Audience:UpdatedDate xsi:type="xsd:dateTime">2021-11-30T13:23:09Z</Audience:UpdatedDate>
+    <Audience:CreatedDate xsi:type="xsd:dateTime">2022-08-26T08:56:19Z</Audience:CreatedDate>
+    <Audience:UpdatedDate xsi:type="xsd:dateTime">2022-08-26T08:56:19Z</Audience:UpdatedDate>
     <Audience:CreatedBy xsi:type="xsd:string"></Audience:CreatedBy>
     <Audience:UpdatedBy xsi:type="xsd:string"></Audience:UpdatedBy>
    </Audience:Response>
@@ -85,3 +87,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

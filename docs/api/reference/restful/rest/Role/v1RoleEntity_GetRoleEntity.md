@@ -1,6 +1,6 @@
 ---
 title: GET Role/{id}
-id: v1RoleEntity_GetRoleEntity
+uid: v1RoleEntity_GetRoleEntity
 ---
 
 # GET Role/{id}
@@ -11,13 +11,20 @@ GET /api/v1/Role/{id}
 
 Gets a RoleEntity object.
 
+
 Calls the User agent service GetRoleEntity.
 
-## Online Restricted: ## The User agent is not available in Online by default. User management is not allowed for partner apps
+
+## Online Restricted: ## The User agent is not available in Online by default. User management is not allowed for partner apps.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | id | int32 | The id of the RoleEntity to return. **Required** |
+
 
 ## Query String Parameters
 
@@ -28,6 +35,7 @@ Calls the User agent service GetRoleEntity.
 ```http
 GET /api/v1/Role/{id}?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -42,16 +50,17 @@ GET /api/v1/Role/{id}?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response: object
 
-RoleEntity entity with API _Links added.
+## Response: 
+
+RoleEntity found.
 
 | Response | Description |
 |----------------|-------------|
 | 200 | RoleEntity found. |
 | 404 | Not Found. |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -71,159 +80,45 @@ Response body: object
 | FieldProperties | object |  |
 | _Links | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 GET /api/v1/Role/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 RoleEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 308,
-  "Name": "Cronin LLC",
-  "Tooltip": "sunt",
+  "RoleId": 97,
+  "Name": "Cruickshank Group",
+  "Tooltip": "sit",
   "RoleType": "Anonymous",
-  "Deleted": 82,
-  "Rank": 27,
-  "Created": "1998-04-27T18:25:50.8668838+02:00",
-  "UseCategories": 67,
-  "CreatedBy": {
-    "AssociateId": 116,
-    "Name": "Turcotte, Beer and Pagac",
-    "PersonId": 472,
-    "Rank": 592,
-    "Tooltip": "a",
-    "Type": "AnonymousAssociate",
-    "GroupIdx": 42,
-    "FullName": "Ryder Bogisich",
-    "FormalName": "Roberts Inc and Sons",
-    "Deleted": false,
-    "EjUserId": 172,
-    "UserName": "Hettinger-Deckow",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": "harness back-end web services"
-        },
-        "FieldType": "System.String",
-        "FieldLength": 431
-      }
-    }
-  },
-  "Updated": "1997-06-03T18:25:50.8668838+02:00",
-  "UpdatedBy": {
-    "AssociateId": 652,
-    "Name": "Cummings-Kreiger",
-    "PersonId": 39,
-    "Rank": 666,
-    "Tooltip": "sint",
-    "Type": "AnonymousAssociate",
-    "GroupIdx": 905,
-    "FullName": "Estel McKenzie",
-    "FormalName": "Gislason-Grant",
-    "Deleted": true,
-    "EjUserId": 481,
-    "UserName": "Heidenreich-Hodkiewicz",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.Int32",
-        "FieldLength": 702
-      }
-    }
-  },
-  "DataRights": {
-    "ColumnsInfo": [
-      {},
-      {}
-    ],
-    "RowsInfo": [
-      {},
-      {}
-    ],
-    "Rights": [
-      [
-        {
-          "Value": "ex",
-          "Description": "Self-enabling non-volatile capability",
-          "TableRight": {
-            "Mask": "Delete",
-            "Reason": ""
-          },
-          "FieldProperties": {
-            "fieldName": {
-              "FieldRight": {
-                "Mask": "FULL",
-                "Reason": ""
-              },
-              "FieldType": "System.String",
-              "FieldLength": 644
-            }
-          }
-        }
-      ],
-      [
-        {
-          "Value": "vel",
-          "Description": "Balanced homogeneous superstructure",
-          "TableRight": {
-            "Mask": "Delete",
-            "Reason": ""
-          },
-          "FieldProperties": {
-            "fieldName": {
-              "FieldRight": {
-                "Mask": "FULL",
-                "Reason": ""
-              },
-              "FieldType": "System.Int32",
-              "FieldLength": 595
-            }
-          }
-        }
-      ]
-    ],
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.Int32",
-        "FieldLength": 231
-      }
-    }
-  },
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": "optimize sexy infrastructures"
-  },
+  "Deleted": 16,
+  "Rank": 501,
+  "Created": "2020-09-14T11:10:53.3441443+02:00",
+  "UseCategories": 499,
+  "CreatedBy": null,
+  "Updated": "2010-10-31T11:10:53.3451433+01:00",
+  "UpdatedBy": null,
+  "DataRights": null,
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
+      "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 107
+      "FieldLength": 889
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

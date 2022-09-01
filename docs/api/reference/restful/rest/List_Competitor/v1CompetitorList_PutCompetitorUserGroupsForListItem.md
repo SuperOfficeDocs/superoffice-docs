@@ -1,6 +1,6 @@
 ---
 title: PUT List/Competitor/Items/{id}/UserGroups
-id: v1CompetitorList_PutCompetitorUserGroupsForListItem
+uid: v1CompetitorList_PutCompetitorUserGroupsForListItem
 ---
 
 # PUT List/Competitor/Items/{id}/UserGroups
@@ -11,11 +11,18 @@ PUT /api/v1/List/Competitor/Items/{itemId}/UserGroups
 
 Saves user groups visible for the Competitor list's item.
 
+
 Calls the List agent service SaveHeadingsForListItemFromListDefinition.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | itemId | int32 | The ID of the item to save. **Required** |
+
+
 
 ## Request Headers
 
@@ -31,9 +38,9 @@ Calls the List agent service SaveHeadingsForListItemFromListDefinition.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entities
+## Request Body: entities  
 
-The headings to be saved.
+The headings to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -53,7 +60,10 @@ The headings to be saved.
 | Hidden | bool | True if the ListItem is hidden |
 | FullName | string | The name of the ListItem in its context |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -81,7 +91,7 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 PUT /api/v1/List/Competitor/Items/{itemId}/UserGroups
@@ -92,45 +102,47 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 56,
-    "Name": "Reilly-Cartwright",
-    "ToolTip": "Et explicabo tenetur neque harum fugiat est.",
+    "Id": 689,
+    "Name": "Crist, Marquardt and Conn",
+    "ToolTip": "Sunt numquam et.",
     "Deleted": true,
-    "Rank": 62,
-    "Type": "officia",
-    "ColorBlock": 487,
-    "IconHint": "quasi",
-    "Selected": true,
-    "LastChanged": "2002-05-06T18:25:51.6522947+02:00",
+    "Rank": 268,
+    "Type": "et",
+    "ColorBlock": 154,
+    "IconHint": "aut",
+    "Selected": false,
+    "LastChanged": "2012-09-24T11:10:53.9611851+02:00",
     "ChildItems": [
       {
-        "Id": 2,
-        "Name": "Mueller, Crist and Klein",
-        "ToolTip": "Quo fugit quae suscipit.",
+        "Id": 487,
+        "Name": "Lehner Inc and Sons",
+        "ToolTip": "Praesentium totam laboriosam ut.",
         "Deleted": true,
-        "Rank": 322,
-        "Type": "ab",
-        "ColorBlock": 402,
-        "IconHint": "corrupti",
+        "Rank": 658,
+        "Type": "ut",
+        "ColorBlock": 896,
+        "IconHint": "nobis",
         "Selected": false,
-        "LastChanged": "2021-03-07T18:25:51.6522947+01:00",
+        "LastChanged": "1999-12-17T11:10:53.9621856+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ut",
-        "StyleHint": "reprehenderit",
+        "ExtraInfo": "at",
+        "StyleHint": "doloribus",
         "Hidden": false,
-        "FullName": "Sydni Fay"
+        "FullName": "Dr. Mateo Brooklyn Casper"
       }
     ],
-    "ExtraInfo": "vero",
-    "StyleHint": "non",
-    "Hidden": false,
-    "FullName": "Lenny Becker"
+    "ExtraInfo": "et",
+    "StyleHint": "rerum",
+    "Hidden": true,
+    "FullName": "Jerod Farrell"
   }
 ]
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -138,65 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 367,
-    "Name": "Maggio Group",
-    "ToolTip": "At beatae incidunt et.",
+    "Id": 159,
+    "Name": "Hilll-Leuschke",
+    "ToolTip": "Quam quas dolore sed molestias eos.",
     "Deleted": true,
-    "Rank": 384,
-    "Type": "quos",
-    "ColorBlock": 603,
-    "IconHint": "recusandae",
-    "Selected": true,
-    "LastChanged": "2020-07-22T18:25:51.6532948+02:00",
+    "Rank": 820,
+    "Type": "commodi",
+    "ColorBlock": 32,
+    "IconHint": "perferendis",
+    "Selected": false,
+    "LastChanged": "2012-05-06T11:10:53.9631856+02:00",
     "ChildItems": [
       {
-        "Id": 770,
-        "Name": "Parisian-Rice",
-        "ToolTip": "Similique qui adipisci corrupti.",
-        "Deleted": true,
-        "Rank": 472,
-        "Type": "aut",
-        "ColorBlock": 201,
-        "IconHint": "nam",
-        "Selected": false,
-        "LastChanged": "2016-03-20T18:25:51.6532948+01:00",
+        "Id": 455,
+        "Name": "Blick-Larkin",
+        "ToolTip": "Explicabo officia.",
+        "Deleted": false,
+        "Rank": 440,
+        "Type": "molestiae",
+        "ColorBlock": 20,
+        "IconHint": "quos",
+        "Selected": true,
+        "LastChanged": "2014-10-24T11:10:53.9631856+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quis",
-        "StyleHint": "dolor",
+        "ExtraInfo": "expedita",
+        "StyleHint": "molestias",
         "Hidden": false,
-        "FullName": "Delmer Hoppe",
-        "TableRight": {},
+        "FullName": "Mrs. Baby Anne Ernser",
+        "TableRight": null,
         "FieldProperties": {
           "fieldName": {
-            "FieldRight": {
-              "Mask": "FULL",
-              "Reason": ""
-            },
-            "FieldType": "System.String",
-            "FieldLength": 356
+            "FieldRight": null,
+            "FieldType": "System.Int32",
+            "FieldLength": 210
           }
         }
       }
     ],
-    "ExtraInfo": "officia",
-    "StyleHint": "sint",
-    "Hidden": true,
-    "FullName": "Priscilla Murphy",
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "ExtraInfo": "aperiam",
+    "StyleHint": "reprehenderit",
+    "Hidden": false,
+    "FullName": "Miss Lucio Madisyn Marks Jr.",
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
+        "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 968
+        "FieldLength": 914
       }
     }
   }

@@ -1,6 +1,6 @@
 ---
 title: GET List/DocumentTemplate/Items
-id: v1DocumentTemplateList_GetAllDocumentTemplateEntity
+uid: v1DocumentTemplateList_GetAllDocumentTemplateEntity
 ---
 
 # GET List/DocumentTemplate/Items
@@ -11,7 +11,13 @@ GET /api/v1/List/DocumentTemplate/Items
 
 Gets a list of all DocumentTemplateEntity list items.
 
+
 Calls the List agent service GetAllDocumentTemplateEntity.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +28,7 @@ Calls the List agent service GetAllDocumentTemplateEntity.
 ```http
 GET /api/v1/List/DocumentTemplate/Items?includeDeleted=True
 ```
+
 
 ## Request Headers
 
@@ -36,7 +43,10 @@ GET /api/v1/List/DocumentTemplate/Items?includeDeleted=True
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -74,7 +84,7 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 GET /api/v1/List/DocumentTemplate/Items
@@ -83,49 +93,45 @@ Accept: application/json; charset=utf-8
 Accept-Language: en
 ```
 
+## Sample response
+
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentTemplateId": 194,
-    "Name": "Kulas Group",
-    "Tooltip": "et",
-    "SaveInDb": 690,
-    "Filename": "similique",
-    "DefaultOref": "quae",
+    "DocumentTemplateId": 561,
+    "Name": "Ward, Ondricka and Herman",
+    "Tooltip": "aliquam",
+    "SaveInDb": 754,
+    "Filename": "aut",
+    "DefaultOref": "sunt",
     "RecordType": "Appointment",
     "Deleted": true,
     "Direction": "Incoming",
-    "AutoeventId": 535,
-    "IntentId": 47,
+    "AutoeventId": 899,
+    "IntentId": 479,
     "IsDefaultPublished": false,
-    "Rank": 284,
-    "LoadTemplateFromPlugin": 256,
-    "MimeType": "sit",
-    "IsInUseInGuides": true,
-    "DocumentTypeKey": 777,
+    "Rank": 496,
+    "LoadTemplateFromPlugin": 95,
+    "MimeType": "qui",
+    "IsInUseInGuides": false,
+    "DocumentTypeKey": 589,
     "QuoteDocType": "ConfirmationLines",
     "PrivacyDocType": "None",
-    "EmailSubject": "dylan@rau.co.uk",
-    "IncludeSignature": false,
+    "EmailSubject": "caden@bartoletti.name",
+    "IncludeSignature": true,
     "ShowCurrents": false,
     "SenderEmailMode": "UseDefaultSender",
-    "SenderEmailAddress": "haven@lubowitzbeatty.com",
+    "SenderEmailAddress": "darren@hirthe.biz",
     "InvitationDocType": "Cancelled",
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": "deploy bleeding-edge paradigms"
-        },
-        "FieldType": "System.String",
-        "FieldLength": 309
+        "FieldRight": null,
+        "FieldType": "System.Int32",
+        "FieldLength": 232
       }
     }
   }

@@ -1,6 +1,6 @@
 ---
 title: POST DashboardTile
-id: v1DashboardTile_PostDashboardTile
+uid: v1DashboardTile_PostDashboardTile
 ---
 
 # POST DashboardTile
@@ -11,7 +11,13 @@ POST /api/v1/DashboardTile
 
 Creates a new DashboardTile
 
+
 Calls the Dashboard agent service SaveDashboardTile.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +28,7 @@ Calls the Dashboard agent service SaveDashboardTile.
 ```http
 POST /api/v1/DashboardTile?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,9 +44,9 @@ POST /api/v1/DashboardTile?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: newEntity
+## Request Body: newEntity  
 
-The DashboardTile to be saved.
+The DashboardTile to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -58,17 +65,16 @@ The DashboardTile to be saved.
 | Options | array | The tile options |
 | VisibleFor | array | The set of users or groups the record is visible for |
 
-## Response: object
 
-Dashboard Tile configuration
+## Response: 
 
-DashboardTile entity with API _Links added.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -90,145 +96,132 @@ Response body: object
 | FieldProperties | object |  |
 | _Links | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/DashboardTile
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 905,
-  "Caption": "repellat",
-  "Description": "Exclusive impactful open system",
-  "ChartName": "Blick-Connelly",
-  "ChartId": "est",
+  "DashboardTileId": 76,
+  "Caption": "alias",
+  "Description": "Virtual bifurcated secured line",
+  "ChartName": "Blanda-Spencer",
+  "ChartId": "dolores",
   "IsDefault": true,
-  "AssociateId": 212,
-  "GroupId": 850,
-  "SelectionId": 802,
-  "Config": "sit",
+  "AssociateId": 500,
+  "GroupId": 474,
+  "SelectionId": 945,
+  "Config": "sed",
   "Type": "Bignum",
   "EntityType": "Activity",
   "Options": [
     {
-      "Name": "Wilderman Group",
-      "Description": "Profit-focused object-oriented workforce",
+      "Name": "Wuckert-Lehner",
+      "Description": "Secured demand-driven encoding",
       "Type": "Boolean",
-      "ListName": "Hane-Sawayn",
+      "ListName": "Funk Inc and Sons",
       "ListItems": [
         {},
         {}
       ],
-      "Value": "enim",
+      "Value": "voluptatem",
       "DefaultDataOption": true
     }
   ],
   "VisibleFor": [
     {
-      "VisibleId": 309,
+      "VisibleId": 787,
       "Visibility": "All",
-      "DisplayValue": "blanditiis"
+      "DisplayValue": "qui"
     },
     {
-      "VisibleId": 309,
+      "VisibleId": 787,
       "Visibility": "All",
-      "DisplayValue": "blanditiis"
+      "DisplayValue": "qui"
     }
   ]
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 217,
-  "Caption": "non",
-  "Description": "Multi-layered mobile Graphic Interface",
-  "ChartName": "Stark-Willms",
-  "ChartId": "itaque",
-  "IsDefault": true,
-  "AssociateId": 51,
-  "GroupId": 938,
-  "SelectionId": 301,
-  "Config": "minus",
+  "DashboardTileId": 960,
+  "Caption": "vero",
+  "Description": "Customer-focused asynchronous definition",
+  "ChartName": "Labadie-Hettinger",
+  "ChartId": "doloribus",
+  "IsDefault": false,
+  "AssociateId": 450,
+  "GroupId": 615,
+  "SelectionId": 104,
+  "Config": "possimus",
   "Type": "Bignum",
   "EntityType": "Activity",
   "Options": [
     {
-      "Name": "Swift Inc and Sons",
-      "Description": "Diverse 24 hour moratorium",
+      "Name": "Jacobi Group",
+      "Description": "Digitized hybrid adapter",
       "Type": "Boolean",
-      "ListName": "Kub-Walsh",
+      "ListName": "Streich, O'Conner and Cartwright",
       "ListItems": [
         {},
         {}
       ],
-      "Value": "nihil",
-      "DefaultDataOption": false,
-      "TableRight": {},
+      "Value": "minima",
+      "DefaultDataOption": true,
+      "TableRight": null,
       "FieldProperties": {
         "fieldName": {
-          "FieldRight": {
-            "Mask": "FULL",
-            "Reason": ""
-          },
+          "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 90
+          "FieldLength": 721
         }
       }
     }
   ],
   "VisibleFor": [
     {
-      "VisibleId": 105,
+      "VisibleId": 581,
       "Visibility": "All",
-      "DisplayValue": "maxime",
-      "TableRight": {},
+      "DisplayValue": "minima",
+      "TableRight": null,
       "FieldProperties": {
         "fieldName": {
-          "FieldRight": {
-            "Mask": "FULL",
-            "Reason": ""
-          },
+          "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 528
+          "FieldLength": 275
         }
       }
     },
     {
-      "VisibleId": 105,
+      "VisibleId": 581,
       "Visibility": "All",
-      "DisplayValue": "maxime",
-      "TableRight": {},
+      "DisplayValue": "minima",
+      "TableRight": null,
       "FieldProperties": {
         "fieldName": {
-          "FieldRight": {
-            "Mask": "FULL",
-            "Reason": ""
-          },
+          "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 528
+          "FieldLength": 275
         }
       }
     }
   ],
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
+      "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 266
+      "FieldLength": 246
     }
   },
   "_Links": {

@@ -1,6 +1,6 @@
 ---
 title: POST Agents/ForeignSystem/SaveForeignDevice
-id: v1ForeignSystemAgent_SaveForeignDevice
+uid: v1ForeignSystemAgent_SaveForeignDevice
 ---
 
 # POST Agents/ForeignSystem/SaveForeignDevice
@@ -11,6 +11,12 @@ POST /api/v1/Agents/ForeignSystem/SaveForeignDevice
 
 Saves a foreign device for an foreign application
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Saves a foreign device for an foreign application
 ```http
 POST /api/v1/Agents/ForeignSystem/SaveForeignDevice?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,27 +42,25 @@ POST /api/v1/Agents/ForeignSystem/SaveForeignDevice?$select=name,department,cate
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-ForeignDevice, ApplicationName
+ForeignDevice, ApplicationName 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| ForeignDevice |  | Saves a foreign device belonging to the ForeignDevice and application name specified. <br /> Carrier object for ForeignDevice. Services for the ForeignDevice Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IForeignSystemAgent">ForeignSystem Agent</see>. |
+| ForeignDevice |  | Saves a foreign device belonging to the ForeignDevice and application name specified. <para /> Carrier object for ForeignDevice. Services for the ForeignDevice Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IForeignSystemAgent">ForeignSystem Agent</see>. |
 | ApplicationName | string |  |
 
-## Response: object
 
-Saves a foreign device belonging to the ForeignDevice and application name specified.
+## Response: 
 
-Carrier object for ForeignDevice.
-Services for the ForeignDevice Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IForeignSystemAgent">ForeignSystem Agent</see>.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -71,57 +76,43 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/ForeignSystem/SaveForeignDevice
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignDevice": {
-    "ForeignDeviceId": 22,
-    "Name": "Heller-Murphy",
-    "CreatedDate": "2006-11-22T18:28:49.2181179+01:00",
-    "UpdatedDate": "2019-07-07T18:28:49.2181179+02:00",
-    "AssociateFullName": "Derrick Reichert",
-    "CreatedBy": "quibusdam",
-    "UpdatedBy": "quos",
-    "DeviceIdentifier": "eaque",
-    "ForeignAppId": 486
-  },
-  "ApplicationName": "Donnelly, Mante and Jerde"
+  "ForeignDevice": null,
+  "ApplicationName": "Breitenberg-Turcotte"
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignDeviceId": 360,
-  "Name": "Labadie, Weissnat and Schumm",
-  "CreatedDate": "1994-09-16T18:28:49.2191175+02:00",
-  "UpdatedDate": "2012-06-21T18:28:49.2191175+02:00",
-  "AssociateFullName": "Moshe Schroeder",
-  "CreatedBy": "quae",
-  "UpdatedBy": "optio",
-  "DeviceIdentifier": "ut",
-  "ForeignAppId": 965,
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "ForeignDeviceId": 566,
+  "Name": "Schimmel-Simonis",
+  "CreatedDate": "2011-10-01T11:10:27.0904592+02:00",
+  "UpdatedDate": "2010-04-10T11:10:27.0904592+02:00",
+  "AssociateFullName": "Mr. Maxine Konopelski",
+  "CreatedBy": "sapiente",
+  "UpdatedBy": "dicta",
+  "DeviceIdentifier": "assumenda",
+  "ForeignAppId": 298,
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
-      "FieldType": "System.String",
-      "FieldLength": 100
+      "FieldRight": null,
+      "FieldType": "System.Int32",
+      "FieldLength": 194
     }
   }
 }

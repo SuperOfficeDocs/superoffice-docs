@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Project/GetProjectMembers
-id: v1ProjectAgent_GetProjectMembers
+uid: v1ProjectAgent_GetProjectMembers
 ---
 
 # POST Agents/Project/GetProjectMembers
@@ -11,6 +11,12 @@ POST /api/v1/Agents/Project/GetProjectMembers
 
 Returns an array of project members
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Returns an array of project members
 ```http
 POST /api/v1/Agents/Project/GetProjectMembers?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,15 +42,18 @@ POST /api/v1/Agents/Project/GetProjectMembers?$select=name,department,category/i
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-ProjectId
+ProjectId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | ProjectId | int32 |  |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -70,26 +80,28 @@ Response body: array
 | ProjectMemberTypeName | string | The projectmembers type name: 'secretary', 'member', etc. |
 | Phone | string | Phone number |
 | PhoneId | int32 | The phone id |
-| ProjectMemberTypeId | int32 | ProjectMember Type Id - from the ProjectMemberType list.  <br />Use MDO List name "PMembType" to get list items. |
+| ProjectMemberTypeId | int32 | ProjectMember Type Id - from the ProjectMemberType list.  <para>Use MDO List name "PMembType" to get list items.</para> |
 | EmailAddressName | string | The e-mail address description |
 | Comment | string | Comment text on the project membership |
 | FullName | string | The person's full name localized to the current culture/country.  (internal name used in clients for employees) |
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Project/GetProjectMembers
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 793
+  "ProjectId": 301
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -97,39 +109,33 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ProjectmemberId": 667,
-    "ContactId": 785,
-    "ProjectId": 348,
-    "ContactName": "Treutel Inc and Sons",
+    "ProjectmemberId": 799,
+    "ContactId": 522,
+    "ProjectId": 798,
+    "ContactName": "Batz, Dach and Becker",
     "ContactDepartment": "",
-    "ProjectName": "Stroman Group",
-    "EmailId": 419,
-    "EmailAddress": "joshuah@klocko.info",
-    "CountryId": 469,
-    "Firstname": "Hilbert",
-    "MiddleName": "Lueilwitz Inc and Sons",
-    "Lastname": "Stracke",
-    "PersonId": 141,
-    "Mrmrs": "iure",
-    "ProjectMemberTypeName": "Franecki, Jenkins and Schuster",
-    "Phone": "(307)624-7261 x844",
-    "PhoneId": 761,
-    "ProjectMemberTypeId": 302,
-    "EmailAddressName": "roma@bogisich.ca",
-    "Comment": "accusantium",
-    "FullName": "Lonie VonRueden",
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "ProjectName": "Konopelski-Volkman",
+    "EmailId": 59,
+    "EmailAddress": "annamae.cole@koelpin.info",
+    "CountryId": 251,
+    "Firstname": "Abbigail",
+    "MiddleName": "Kautzer-Hintz",
+    "Lastname": "Herzog",
+    "PersonId": 518,
+    "Mrmrs": "sapiente",
+    "ProjectMemberTypeName": "Eichmann, Quitzon and Ratke",
+    "Phone": "986-698-2536 x1446",
+    "PhoneId": 824,
+    "ProjectMemberTypeId": 828,
+    "EmailAddressName": "kurt@johnson.biz",
+    "Comment": "quam",
+    "FullName": "Prof. Kaci Goodwin",
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 593
+        "FieldRight": null,
+        "FieldType": "System.Int32",
+        "FieldLength": 178
       }
     }
   }

@@ -1,6 +1,6 @@
 ---
 title: GET List/Priority/Items/{id}/Headings
-id: v1PriorityList_GetPriorityHeadingsForListItem
+uid: v1PriorityList_GetPriorityHeadingsForListItem
 ---
 
 # GET List/Priority/Items/{id}/Headings
@@ -11,11 +11,17 @@ GET /api/v1/List/Priority/Items/{itemId}/Headings
 
 Gets headings for the Priority list's item.
 
+
 Calls the List agent service GetHeadings.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | itemId | int32 | The ID of the headings to be get. **Required** |
+
 
 ## Query String Parameters
 
@@ -26,6 +32,7 @@ Calls the List agent service GetHeadings.
 ```http
 GET /api/v1/List/Priority/Items/{itemId}/Headings?showDeleted=False
 ```
+
 
 ## Request Headers
 
@@ -40,7 +47,10 @@ GET /api/v1/List/Priority/Items/{itemId}/Headings?showDeleted=False
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -68,14 +78,16 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 GET /api/v1/List/Priority/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -84,64 +96,55 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "Id": 983,
-    "Name": "Abbott-Abshire",
-    "ToolTip": "Est optio.",
+    "Name": "Keeling-Lesch",
+    "ToolTip": "Molestiae dolor repellat aut.",
     "Deleted": true,
-    "Rank": 180,
-    "Type": "et",
-    "ColorBlock": 417,
-    "IconHint": "id",
-    "Selected": true,
-    "LastChanged": "1996-06-13T18:25:51.9862449+02:00",
+    "Rank": 989,
+    "Type": "dolorem",
+    "ColorBlock": 684,
+    "IconHint": "deserunt",
+    "Selected": false,
+    "LastChanged": "2013-01-09T11:10:54.4019021+01:00",
     "ChildItems": [
       {
-        "Id": 760,
-        "Name": "Barton, Dooley and Wilderman",
-        "ToolTip": "Consequatur repellat eum explicabo dolorem atque a.",
+        "Id": 534,
+        "Name": "Schowalter-Heaney",
+        "ToolTip": "Est quis voluptate et officiis quo doloremque nulla.",
         "Deleted": true,
-        "Rank": 430,
-        "Type": "in",
-        "ColorBlock": 578,
-        "IconHint": "tempora",
-        "Selected": false,
-        "LastChanged": "2001-07-07T18:25:51.9862449+02:00",
+        "Rank": 482,
+        "Type": "aut",
+        "ColorBlock": 656,
+        "IconHint": "natus",
+        "Selected": true,
+        "LastChanged": "2006-04-30T11:10:54.4019021+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "commodi",
-        "StyleHint": "doloribus",
+        "ExtraInfo": "hic",
+        "StyleHint": "in",
         "Hidden": false,
-        "FullName": "Dillon Greenfelder",
-        "TableRight": {},
+        "FullName": "Dr. Jaylin Barton IV",
+        "TableRight": null,
         "FieldProperties": {
           "fieldName": {
-            "FieldRight": {
-              "Mask": "FULL",
-              "Reason": ""
-            },
+            "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 610
+            "FieldLength": 682
           }
         }
       }
     ],
-    "ExtraInfo": "nesciunt",
-    "StyleHint": "debitis",
-    "Hidden": true,
-    "FullName": "Ms. Abelardo Daniel",
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "ExtraInfo": "molestiae",
+    "StyleHint": "eius",
+    "Hidden": false,
+    "FullName": "Gilberto Rosendo Dickens V",
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
+        "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 43
+        "FieldLength": 641
       }
     }
   }

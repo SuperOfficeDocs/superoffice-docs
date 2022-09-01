@@ -1,6 +1,6 @@
 ---
 title: POST Agents/UserDefinedFieldInfo/CreateUserDefinedFieldInfo
-id: v1UserDefinedFieldInfoAgent_CreateUserDefinedFieldInfo
+uid: v1UserDefinedFieldInfoAgent_CreateUserDefinedFieldInfo
 ---
 
 # POST Agents/UserDefinedFieldInfo/CreateUserDefinedFieldInfo
@@ -11,6 +11,12 @@ POST /api/v1/Agents/UserDefinedFieldInfo/CreateUserDefinedFieldInfo
 
 Create a UserDefinedFieldInfo based on a owner-entity id
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Create a UserDefinedFieldInfo based on a owner-entity id
 ```http
 POST /api/v1/Agents/UserDefinedFieldInfo/CreateUserDefinedFieldInfo?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,27 +42,25 @@ POST /api/v1/Agents/UserDefinedFieldInfo/CreateUserDefinedFieldInfo?$select=name
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-OwnerType, FieldType
+OwnerType, FieldType 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | OwnerType | string |  |
 | FieldType | string |  |
 
-## Response: object
 
-Return information about the user defined fields. The information can be used to mirror the layout of the user-defined fields in the user interface.
+## Response: 
 
-Carrier object for UserDefinedFieldInfo.
-Services for the UserDefinedFieldInfo Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent">UserDefinedFieldInfo Agent</see>.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -96,13 +101,13 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/UserDefinedFieldInfo/CreateUserDefinedFieldInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -111,57 +116,53 @@ Content-Type: application/json; charset=utf-8
 }
 ```
 
+## Sample response
+
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 33,
-  "ColumnId": 411,
-  "FieldDefault": "rem",
-  "FieldHeight": 8,
-  "FieldLabel": "autem",
-  "FieldLeft": 116,
+  "UDefFieldId": 857,
+  "ColumnId": 932,
+  "FieldDefault": "inventore",
+  "FieldHeight": 803,
+  "FieldLabel": "sunt",
+  "FieldLeft": 142,
   "FieldTop": 97,
   "FieldType": "Checkbox",
-  "FieldWidth": 850,
-  "FormatMask": "consectetur",
-  "HideLabel": true,
+  "FieldWidth": 687,
+  "FormatMask": "deleniti",
+  "HideLabel": false,
   "IsIndexed": false,
-  "LabelHeight": 284,
-  "LabelLeft": 895,
-  "LabelTop": 213,
-  "LabelWidth": 827,
-  "LastVersionId": 210,
-  "ListTableId": 981,
-  "IsMandatory": true,
+  "LabelHeight": 664,
+  "LabelLeft": 754,
+  "LabelTop": 781,
+  "LabelWidth": 556,
+  "LastVersionId": 440,
+  "ListTableId": 398,
+  "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 43,
-  "ProgId": "architecto",
+  "Page1LineNo": 383,
+  "ProgId": "molestiae",
   "IsReadOnly": false,
-  "ShortLabel": "in",
-  "TabOrder": 904,
-  "TextLength": 725,
-  "Tooltip": "et",
-  "UdefIdentity": 194,
-  "UDListDefinitionId": 267,
+  "ShortLabel": "ea",
+  "TabOrder": 357,
+  "TextLength": 218,
+  "Tooltip": "maxime",
+  "UdefIdentity": 824,
+  "UDListDefinitionId": 247,
   "Justification": "Center",
-  "Version": 198,
-  "TemplateVariableName": "O'Keefe LLC",
-  "HasBeenPublished": true,
-  "MdoListName": "Hauck, Pouros and Donnelly",
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "Version": 629,
+  "TemplateVariableName": "Bins-Pollich",
+  "HasBeenPublished": false,
+  "MdoListName": "Crona, Krajcik and Crist",
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
-      "FieldType": "System.Int32",
-      "FieldLength": 772
+      "FieldRight": null,
+      "FieldType": "System.String",
+      "FieldLength": 441
     }
   }
 }

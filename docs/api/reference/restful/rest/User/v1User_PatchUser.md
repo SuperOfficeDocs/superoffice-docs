@@ -1,6 +1,6 @@
 ---
 title: PATCH User/{id}
-id: v1User_PatchUser
+uid: v1User_PatchUser
 ---
 
 # PATCH User/{id}
@@ -11,9 +11,11 @@ PATCH /api/v1/User/{id}
 
 Update a User with changes, as described in a JSON Patch or a JSON Merge Patch document.
 
+
 See <a href="https://tools.ietf.org/html/rfc6902">RFC6902</a> and <a href="https://tools.ietf.org/html/rfc7386">RFC 7396</a>.
 
-## Online Restricted: ## The User agent is not available in Online by default. User management is not allowed for partner apps. Update the Department field to "foo" can be done either as a JSON PATCH
+
+## Online Restricted: ## The User agent is not available in Online by default. User management is not allowed for partner apps. Update the Department field to "foo" can be done either as a JSON PATCH:
 
 ```js
 
@@ -29,14 +31,23 @@ or as a JSON MERGE PATCH, which describes the change directly:
 
 ```
 
+
+
 JSON PATCH supports operations 'add', 'replace', 'remove' and 'test'.
 The path is case insensitive, and the leading slash is optional, so the paths "/department", "Department" and "department" are all equivalent.
 
+
+
 Calls the {SuperOffice.CRM.Services.IUserAgent} service SaveUser.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | id | int32 | The User  id to update. **Required** |
+
 
 ## Query String Parameters
 
@@ -47,6 +58,7 @@ Calls the {SuperOffice.CRM.Services.IUserAgent} service SaveUser.
 ```http
 PATCH /api/v1/User/{id}?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -62,9 +74,9 @@ PATCH /api/v1/User/{id}?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: changes string
+## Request Body: changes string 
 
-JSON-Patch array of operations+path+value, or a MERGE-PATCH object (which will be converted to a list of JSON-PATCH operations).
+JSON-Patch array of operations+path+value, or a MERGE-PATCH object (which will be converted to a list of JSON-PATCH operations). 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -72,11 +84,10 @@ JSON-Patch array of operations+path+value, or a MERGE-PATCH object (which will b
 | path | string | The property names to modify.  "/users/0/email", "/users/-", |
 | value | object | New/Replaced value - string or object. |
 
-## Response: object
 
-SuperOffice User, with login credentials and an associated person.
+## Response: 
 
-User entity with API _Links added.
+User  updated.
 
 | Response | Description |
 |----------------|-------------|
@@ -85,7 +96,7 @@ User entity with API _Links added.
 | 409 | Update blocked because a 'test' operation has detected a conflict with the entity value. |
 | 412 | Update aborted because User has changed since the requested If-Unmodified-Since timestamp. |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -95,9 +106,9 @@ Response body: object
 | Tooltip | string | Tooltip or other description |
 | LicenseOwners | array | The restricted and unrestricted module licenses grouped by license owner. These module licenses are either assigned or unassigned to this user |
 | Role |  | Users role for role-based security. Determines permissions and access rights for the user. |
-| UserGroup |  | The main user group that this user belongs to.  <br />Use MDO List name "usergroup" to get list items. |
-| OtherGroups | array | The other groups this user is a member of, apart from the main user group.  <br />Use MDO List name "usergroup" to get list items. |
-| Person |  | The person associated with this user. Detailed information about the user  <br />Use MDO List name "person_new" to get list items. |
+| UserGroup |  | The main user group that this user belongs to.  <para>Use MDO List name "usergroup" to get list items.</para> |
+| OtherGroups | array | The other groups this user is a member of, apart from the main user group.  <para>Use MDO List name "usergroup" to get list items.</para> |
+| Person |  | The person associated with this user. Detailed information about the user  <para>Use MDO List name "person_new" to get list items.</para> |
 | Deleted | bool | If true, the user is retired and should have no rights, not appear in lists, etc. |
 | Lastlogin | date-time | Last login date |
 | Lastlogout | date-time | Last logout date |
@@ -108,7 +119,7 @@ Response body: object
 | IsOnTravel | bool | True if the user is on travel. |
 | Credentials | array | List of credentials registered for this user. i.e. valid authentication methods. |
 | UserName | string | User name, a.k.a. Login name. This might be an e-mail address. |
-| TicketCategories | array | Request Ticket Categories assigned to the user.   <br />Use MDO List name "ejCategory" to get list items. |
+| TicketCategories | array | Request Ticket Categories assigned to the user.   <para>Use MDO List name "ejCategory" to get list items.</para> |
 | NickName | string | The unique nick name for this user. Used in Service as an alias, similar to Name/Initials. |
 | WaitingForApproval | bool | The user is waiting for an administrator to approve/grant her/him access. |
 | ExtraFields | object | Deprecated: Use {SuperOffice.CRM.Services.User.CustomFields} instead. Extra fields added to the carrier. This could be data from Plug-ins, the foreign key system, external applications, etc. |
@@ -118,7 +129,7 @@ Response body: object
 | FieldProperties | object |  |
 | _Links | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 PATCH /api/v1/User/{id}
@@ -130,58 +141,32 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "op": "add",
-    "path": "voluptatem",
-    "value": {
-      "value1": {
-        "PrimaryKey": 5080,
-        "EntityName": "person",
-        "personId": 5080,
-        "fullName": "Marian Conroy"
-      },
-      "value2": {
-        "PrimaryKey": 1426,
-        "EntityName": "sale",
-        "saleId": 1426,
-        "contactId": 7766,
-        "name": "Heaney-Orn"
-      }
-    }
+    "path": "ipsum",
+    "value": {}
   },
   {
     "op": "add",
-    "path": "voluptatem",
-    "value": {
-      "value1": {
-        "PrimaryKey": 5080,
-        "EntityName": "person",
-        "personId": 5080,
-        "fullName": "Marian Conroy"
-      },
-      "value2": {
-        "PrimaryKey": 1426,
-        "EntityName": "sale",
-        "saleId": 1426,
-        "contactId": 7766,
-        "name": "Heaney-Orn"
-      }
-    }
+    "path": "ipsum",
+    "value": {}
   }
 ]
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 User  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 605,
-  "Name": "Grimes, Renner and Jacobi",
-  "Rank": 334,
-  "Tooltip": "incidunt",
+  "AssociateId": 317,
+  "Name": "Reynolds, Ondricka and Jerde",
+  "Rank": 699,
+  "Tooltip": "rerum",
   "LicenseOwners": [
     {
-      "Name": "Haag-Mitchell",
-      "Description": "Up-sized client-server throughput",
+      "Name": "Brekke, Will and Bartoletti",
+      "Description": "Organic real-time support",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -190,21 +175,18 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "TableRight": {},
+      "TableRight": null,
       "FieldProperties": {
         "fieldName": {
-          "FieldRight": {
-            "Mask": "FULL",
-            "Reason": ""
-          },
+          "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 650
+          "FieldLength": 246
         }
       }
     },
     {
-      "Name": "Haag-Mitchell",
-      "Description": "Up-sized client-server throughput",
+      "Name": "Brekke, Will and Bartoletti",
+      "Description": "Organic real-time support",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -213,242 +195,134 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "TableRight": {},
+      "TableRight": null,
       "FieldProperties": {
         "fieldName": {
-          "FieldRight": {
-            "Mask": "FULL",
-            "Reason": ""
-          },
+          "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 650
+          "FieldLength": 246
         }
       }
     }
   ],
-  "Role": {
-    "Id": 146,
-    "Value": "fugiat",
-    "Tooltip": "illo",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.Int32",
-        "FieldLength": 824
-      }
-    }
-  },
-  "UserGroup": {
-    "Value": "unde",
-    "Tooltip": "enim",
-    "Id": 930,
-    "Rank": 217,
-    "Deleted": false,
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 14
-      }
-    }
-  },
+  "Role": null,
+  "UserGroup": null,
   "OtherGroups": [
     {
-      "Value": "quaerat",
-      "Tooltip": "tenetur",
-      "Id": 547,
-      "Rank": 115,
-      "Deleted": false,
-      "TableRight": {},
+      "Value": "dignissimos",
+      "Tooltip": "perferendis",
+      "Id": 143,
+      "Rank": 183,
+      "Deleted": true,
+      "TableRight": null,
       "FieldProperties": {
         "fieldName": {
-          "FieldRight": {
-            "Mask": "FULL",
-            "Reason": ""
-          },
-          "FieldType": "System.String",
-          "FieldLength": 476
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 158
         }
       }
     }
   ],
-  "Person": {
-    "Position": "deleniti",
-    "PersonId": 911,
-    "Mrmrs": "adipisci",
-    "Firstname": "Manuel",
-    "Lastname": "Bogan",
-    "MiddleName": "Beer, Reichel and Bogisich",
-    "Title": "earum",
-    "Description": "Public-key even-keeled workforce",
-    "Email": "meggie_daniel@conroy.us",
-    "FullName": "Imogene Thiel",
-    "DirectPhone": "825.216.4631 x07674",
-    "FormalName": "Dickens Group",
-    "CountryId": 5,
-    "ContactId": 271,
-    "ContactName": "Carroll Inc and Sons",
-    "Retired": 648,
-    "Rank": 383,
-    "ActiveInterests": 465,
-    "ContactDepartment": "",
-    "ContactCountryId": 899,
-    "ContactOrgNr": "615554",
-    "FaxPhone": "(671)770-7211 x55466",
-    "MobilePhone": "(360)113-5678 x086",
-    "ContactPhone": "567.220.5052 x337",
-    "AssociateName": "Muller LLC",
-    "AssociateId": 812,
-    "UsePersonAddress": false,
-    "ContactFax": "aut",
-    "Kanafname": "eius",
-    "Kanalname": "aliquid",
-    "Post1": "nemo",
-    "Post2": "laboriosam",
-    "Post3": "eveniet",
-    "EmailName": "sage@monahanmarks.name",
-    "ContactFullName": "Daisha Jaskolski",
-    "ActiveErpLinks": 649,
-    "TicketPriorityId": 920,
-    "SupportLanguageId": 386,
-    "SupportAssociateId": 37,
-    "CategoryName": "VIP Customer",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 618
-      }
-    }
-  },
+  "Person": null,
   "Deleted": false,
-  "Lastlogin": "2017-11-14T18:25:51.4781475+01:00",
-  "Lastlogout": "2013-08-06T18:25:51.4781475+02:00",
-  "EjUserId": 111,
-  "RequestSignature": "veniam",
+  "Lastlogin": "2015-04-21T11:10:53.8252153+02:00",
+  "Lastlogout": "2000-10-09T11:10:53.8252153+02:00",
+  "EjUserId": 4,
+  "RequestSignature": "recusandae",
   "Type": "AnonymousAssociate",
   "IsPersonRetired": false,
-  "IsOnTravel": true,
+  "IsOnTravel": false,
   "Credentials": [
     {
-      "Type": {},
-      "Value": "excepturi",
-      "DisplayValue": "delectus",
-      "TableRight": {},
+      "Type": null,
+      "Value": "qui",
+      "DisplayValue": "sit",
+      "TableRight": null,
       "FieldProperties": {
         "fieldName": {
-          "FieldRight": {
-            "Mask": "FULL",
-            "Reason": ""
-          },
-          "FieldType": "System.Int32",
-          "FieldLength": 748
+          "FieldRight": null,
+          "FieldType": "System.String",
+          "FieldLength": 662
         }
       }
     },
     {
-      "Type": {},
-      "Value": "excepturi",
-      "DisplayValue": "delectus",
-      "TableRight": {},
+      "Type": null,
+      "Value": "qui",
+      "DisplayValue": "sit",
+      "TableRight": null,
       "FieldProperties": {
         "fieldName": {
-          "FieldRight": {
-            "Mask": "FULL",
-            "Reason": ""
-          },
-          "FieldType": "System.Int32",
-          "FieldLength": 748
+          "FieldRight": null,
+          "FieldType": "System.String",
+          "FieldLength": 662
         }
       }
     }
   ],
-  "UserName": "Lind Group",
+  "UserName": "Legros, VonRueden and Jast",
   "TicketCategories": [
     {
-      "Id": 215,
-      "Name": "Rogahn-Schamberger",
-      "ToolTip": "Omnis doloribus inventore qui sit.",
-      "Deleted": true,
-      "Rank": 571,
-      "Type": "eligendi",
+      "Id": 64,
+      "Name": "Bergstrom LLC",
+      "ToolTip": "Modi culpa vitae.",
+      "Deleted": false,
+      "Rank": 338,
+      "Type": "eveniet",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "adipisci",
-      "ColorBlock": 713,
-      "ExtraInfo": "consequatur",
-      "StyleHint": "vero",
-      "FullName": "Chesley Crist",
-      "TableRight": {},
+      "IconHint": "non",
+      "ColorBlock": 575,
+      "ExtraInfo": "excepturi",
+      "StyleHint": "error",
+      "FullName": "Dr. Mylene Maggio MD",
+      "TableRight": null,
       "FieldProperties": {
         "fieldName": {
-          "FieldRight": {
-            "Mask": "FULL",
-            "Reason": ""
-          },
+          "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 730
+          "FieldLength": 717
         }
       }
     }
   ],
-  "NickName": "Hills, Grant and Purdy",
+  "NickName": "Mayer LLC",
   "WaitingForApproval": true,
   "ExtraFields": {
-    "ExtraFields1": "ea",
-    "ExtraFields2": "in"
+    "ExtraFields1": "qui",
+    "ExtraFields2": "quis"
   },
   "CustomFields": {
-    "CustomFields1": "occaecati",
-    "CustomFields2": "exercitationem"
+    "CustomFields1": "quibusdam",
+    "CustomFields2": "sunt"
   },
   "PostSaveCommands": [
     {
-      "Name": "Hyatt, Durgan and Murray",
-      "DisplayName": "Lehner, Goldner and Gerlach",
-      "Description": "Assimilated disintermediate time-frame",
-      "ToolTip": "Delectus sapiente qui.",
+      "Name": "Vandervort-Satterfield",
+      "DisplayName": "Nader-Wisoky",
+      "Description": "Re-contextualized directional pricing structure",
+      "ToolTip": "Nihil et nostrum recusandae quod sit consequuntur ipsam.",
       "Actions": "Implicit",
-      "ActionData": "sunt",
-      "TableRight": {},
+      "ActionData": "quod",
+      "TableRight": null,
       "FieldProperties": {
         "fieldName": {
-          "FieldRight": {
-            "Mask": "FULL",
-            "Reason": "incentivize viral web-readiness"
-          },
+          "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 387
+          "FieldLength": 75
         }
       }
     }
   ],
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": "empower world-class users"
-  },
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
+      "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 285
+      "FieldLength": 707
     }
   },
   "_Links": {

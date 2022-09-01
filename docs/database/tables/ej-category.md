@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "ej_category"
-so.date: 04.12.2022
+so.date: 08.26.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -35,6 +35,7 @@ This table contains categories, in which tickets are categorized. The categories
 |notification\_email|Comma separated list of addresses to notify when requests are redelegated to (unassigned) in this category.|String(2047)|&#x25CF;|
 |closing\_status|Default status for new tickets, if 0 then there is a fallback to a user-dependent value|FK [ticket_status](ticket-status.md)|&#x25CF;|
 |msg\_closing\_status|Default status for new messages, if 0 then there is a fallback to a user-dependent value|FK [ticket_status](ticket-status.md)|&#x25CF;|
+
 
 ![ej_category table relationship diagram](./media/ej_category.png)
 
@@ -69,6 +70,7 @@ This table contains categories, in which tickets are categorized. The categories
 |[ticket](ticket.md)  |This table contains the tickets (requests) of the system. Its purpose should be evident. |
 |[ticket\_status](ticket-status.md)  |This table user defined ticket status values. |
 
+
 ## Replication Flags
 
 * None
@@ -76,3 +78,4 @@ This table contains categories, in which tickets are categorized. The categories
 ## Security Flags
 
 * No access control via user's Role.
+

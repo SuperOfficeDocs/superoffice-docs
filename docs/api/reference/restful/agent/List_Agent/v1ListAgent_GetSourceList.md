@@ -1,6 +1,6 @@
 ---
 title: POST Agents/List/GetSourceList
-id: v1ListAgent_GetSourceList
+uid: v1ListAgent_GetSourceList
 ---
 
 # POST Agents/List/GetSourceList
@@ -11,6 +11,12 @@ POST /api/v1/Agents/List/GetSourceList
 
 Gets an array of Source objects.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Gets an array of Source objects.
 ```http
 POST /api/v1/Agents/List/GetSourceList?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,11 +42,15 @@ POST /api/v1/Agents/List/GetSourceList?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: sourceIds
+## Request Body: sourceIds  
 
-The primary keys.
+The primary keys. 
+
+
 
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -55,7 +66,7 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/List/GetSourceList
@@ -64,46 +75,36 @@ Accept: application/json; charset=utf-8
 Accept-Language: fr,de,ru,zh
 ```
 
+## Sample response
+
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 538,
-    "Value": "voluptate",
-    "Tooltip": "sed",
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "Id": 930,
+    "Value": "quo",
+    "Tooltip": "amet",
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
+        "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 972
+        "FieldLength": 4
       }
     }
   },
   {
-    "Id": 538,
-    "Value": "voluptate",
-    "Tooltip": "sed",
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "Id": 930,
+    "Value": "quo",
+    "Tooltip": "amet",
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
+        "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 972
+        "FieldLength": 4
       }
     }
   }

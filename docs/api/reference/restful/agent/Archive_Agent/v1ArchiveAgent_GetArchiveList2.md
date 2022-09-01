@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Archive/GetArchiveList2
-id: v1ArchiveAgent_GetArchiveList2
+uid: v1ArchiveAgent_GetArchiveList2
 ---
 
 # POST Agents/Archive/GetArchiveList2
@@ -11,77 +11,99 @@ POST /api/v1/Agents/Archive/GetArchiveList2
 
 Get a page of data for an archive using a restriction string.
 
-The columns returned will be those set as chosen columns, using either the SetChosenColumns service or the corresponding SelectableMDOList.SetSelected.
+
+The columns returned will be those set as chosen columns, using either the SetChosenColumns service or the corresponding SelectableMDOList.SetSelected. 
 
 Archive Restriction strings are OData or SQL-ish.
 They are parsed and converted into ArchiveRestrictions.
 
+
 For example:
 
-```http
+```
+
 "name begins 'Super'"
 "category = 3"
 "category in (2,3,4)"
 "xstop set"
 "registered after '2014.3.4'"
 "registered dateBetween ('2014.11.29', '2014.12.25')"
+
 ```
 
 Unary operators:
 
-```http
+```
 "updatedDate lastWeek", "assocId currentAssociate"
 ```
 
-## Brackets and or
 
+## Brackets and or
 AND and OR can be used to combine terms. AND has a higher priority than OR
 
-```http
+```
 "business = 2  AND name contains 'super'"
 ```
 
 Brackets can be used for grouping.
 
-```http
+```
 "(business = 2 or category = 3) and name contains 'super'"
 ```
+
 
 ## Aggregation operators
 
 The column names can encode grouping and summarizing.
 You add functions and modifiers to the column name to trigger aggregation.
 
+
 Example: group last names together, and inject a header row for each group.
 
-```http
-GroupBy(lastName):Header
 ```
 
-Example: count instances of middle names, and hide the individual rows,
+GroupBy(lastName):Header
+
+```
+
+Example: count instances of middle names, and hide the individual rows, 
 report just the totals for each group using a footer. Note how the modifiers stack.
 
-```http
+```
+
 Count(middleName):HideDetail:Footer
+
 ```
 
 Example: the aggregator functions can nest, so you can say
 
-```http
-GroupBy(DatePart(personUpdatedDate):YearMonth):Header
 ```
 
+GroupBy(DatePart(personUpdatedDate):YearMonth):Header
+
+```
 ## Strings
 
 Use the begins or contains operators to do string searches.
 You can also use the normal = operator to do string exact match checks.
 
+
+
 Use backslash to escape single quotes in strings
 (note that backslash needs to be doubled because c# also uses backslash escapes):
 
-```http
+
+```
 "department contains 'Bob\\'s'"
 ```
+
+
+
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -92,6 +114,7 @@ Use backslash to escape single quotes in strings
 ```http
 POST /api/v1/Agents/Archive/GetArchiveList2?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -107,9 +130,9 @@ POST /api/v1/Agents/Archive/GetArchiveList2?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-GuiName, ProviderName, SortOrder, Restriction, Entities, Page, PageSize
+GuiName, ProviderName, SortOrder, Restriction, Entities, Page, PageSize 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -121,7 +144,10 @@ GuiName, ProviderName, SortOrder, Restriction, Entities, Page, PageSize
 | Page | int32 |  |
 | PageSize | int32 |  |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -139,25 +165,27 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Archive/GetArchiveList2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "GuiName": "Batz Inc and Sons",
-  "ProviderName": "Jakubowski LLC",
-  "SortOrder": "sit",
-  "Restriction": "rerum",
-  "Entities": "harum",
-  "Page": 546,
-  "PageSize": 164
+  "GuiName": "Padberg Group",
+  "ProviderName": "Krajcik LLC",
+  "SortOrder": "eum",
+  "Restriction": "sed",
+  "Entities": "quos",
+  "Page": 562,
+  "PageSize": 495
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -165,29 +193,23 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EntityName": "Tillman, Frami and Schultz",
-    "PrimaryKey": 76,
+    "EntityName": "Schumm, Reichel and Schiller",
+    "PrimaryKey": 899,
     "ColumnData": {
       "fieldName": {
-        "DisplayValue": "dolore",
-        "TooltipHint": "odio",
-        "LinkHint": "vitae"
+        "DisplayValue": "quia",
+        "TooltipHint": "debitis",
+        "LinkHint": "expedita"
       }
     },
-    "LinkHint": "itaque",
-    "StyleHint": "quas",
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "LinkHint": "cum",
+    "StyleHint": "est",
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.Int32",
-        "FieldLength": 981
+        "FieldRight": null,
+        "FieldType": "System.String",
+        "FieldLength": 878
       }
     }
   }

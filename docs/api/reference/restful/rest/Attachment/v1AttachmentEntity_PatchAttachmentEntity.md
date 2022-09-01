@@ -1,6 +1,6 @@
 ---
 title: PATCH Attachment/{id}
-id: v1AttachmentEntity_PatchAttachmentEntity
+uid: v1AttachmentEntity_PatchAttachmentEntity
 ---
 
 # PATCH Attachment/{id}
@@ -10,6 +10,7 @@ PATCH /api/v1/Attachment/{id}
 ```
 
 Update a AttachmentEntity with changes, as described in a JSON Patch or a JSON Merge Patch document.
+
 
 See <a href="https://tools.ietf.org/html/rfc6902">RFC6902</a> and <a href="https://tools.ietf.org/html/rfc7386">RFC 7396</a>. Update the Department field to "foo" can be done either as a JSON PATCH:
 
@@ -27,14 +28,23 @@ or as a JSON MERGE PATCH, which describes the change directly:
 
 ```
 
+
+
 JSON PATCH supports operations 'add', 'replace', 'remove' and 'test'.
 The path is case insensitive, and the leading slash is optional, so the paths "/department", "Department" and "department" are all equivalent.
 
+
+
 Calls the {SuperOffice.CRM.Services.ITicketAgent} service SaveAttachmentEntity.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | id | int32 | The AttachmentEntity  id to update. **Required** |
+
 
 ## Query String Parameters
 
@@ -45,6 +55,7 @@ Calls the {SuperOffice.CRM.Services.ITicketAgent} service SaveAttachmentEntity.
 ```http
 PATCH /api/v1/Attachment/{id}?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -60,9 +71,9 @@ PATCH /api/v1/Attachment/{id}?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: changes string
+## Request Body: changes string 
 
-JSON-Patch array of operations+path+value, or a MERGE-PATCH object (which will be converted to a list of JSON-PATCH operations).
+JSON-Patch array of operations+path+value, or a MERGE-PATCH object (which will be converted to a list of JSON-PATCH operations). 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -70,11 +81,10 @@ JSON-Patch array of operations+path+value, or a MERGE-PATCH object (which will b
 | path | string | The property names to modify.  "/users/0/email", "/users/-", |
 | value | object | New/Replaced value - string or object. |
 
-## Response: object
 
-The Attachment carrier represent meta data for a Service attachment
+## Response: 
 
-AttachmentEntity entity with API _Links added.
+AttachmentEntity  updated.
 
 | Response | Description |
 |----------------|-------------|
@@ -83,7 +93,7 @@ AttachmentEntity entity with API _Links added.
 | 409 | Update blocked because a 'test' operation has detected a conflict with the entity value. |
 | 412 | Update aborted because AttachmentEntity has changed since the requested If-Unmodified-Since timestamp. |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -97,85 +107,53 @@ Response body: object
 | FieldProperties | object |  |
 | _Links | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 PATCH /api/v1/Attachment/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "non",
-    "value": {
-      "value1": {
-        "PrimaryKey": 342,
-        "EntityName": "person",
-        "personId": 342,
-        "fullName": "Leonardo Larkin"
-      },
-      "value2": {
-        "PrimaryKey": 9226,
-        "EntityName": "sale",
-        "saleId": 9226,
-        "contactId": 6781,
-        "name": "Tromp, Bogan and Spencer"
-      }
-    }
+    "path": "minima",
+    "value": {}
   },
   {
     "op": "add",
-    "path": "non",
-    "value": {
-      "value1": {
-        "PrimaryKey": 342,
-        "EntityName": "person",
-        "personId": 342,
-        "fullName": "Leonardo Larkin"
-      },
-      "value2": {
-        "PrimaryKey": 9226,
-        "EntityName": "sale",
-        "saleId": 9226,
-        "contactId": 6781,
-        "name": "Tromp, Bogan and Spencer"
-      }
-    }
+    "path": "minima",
+    "value": {}
   }
 ]
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 AttachmentEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 198,
-  "Name": "Grimes-White",
-  "ContentType": "vel",
-  "AttSize": 824,
+  "AttachmentId": 134,
+  "Name": "Lehner Group",
+  "ContentType": "explicabo",
+  "AttSize": 246,
   "InlineImage": false,
-  "ContentId": "optio",
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "ContentId": "veritatis",
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
-      "FieldType": "System.String",
-      "FieldLength": 122
+      "FieldRight": null,
+      "FieldType": "System.Int32",
+      "FieldLength": 749
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

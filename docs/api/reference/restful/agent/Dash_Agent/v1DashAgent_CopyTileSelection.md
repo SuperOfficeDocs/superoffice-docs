@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Dash/CopyTileSelection
-id: v1DashAgent_CopyTileSelection
+uid: v1DashAgent_CopyTileSelection
 ---
 
 # POST Agents/Dash/CopyTileSelection
@@ -11,6 +11,12 @@ POST /api/v1/Agents/Dash/CopyTileSelection
 
 Copy Tile Selection for the dashboard
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Copy Tile Selection for the dashboard
 ```http
 POST /api/v1/Agents/Dash/CopyTileSelection?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,15 +42,18 @@ POST /api/v1/Agents/Dash/CopyTileSelection?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-SelectionId
+SelectionId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | SelectionId | int32 |  |
 
+
 ## Response: int32
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -51,7 +61,8 @@ SelectionId
 
 Response body: int32
 
-## Sample Request
+
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Dash/CopyTileSelection
@@ -61,13 +72,15 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 555
+  "SelectionId": 255
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-946
+211
 ```

@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Audience/GetConfigParameterOnPerson
-id: v1AudienceAgent_GetConfigParameterOnPerson
+uid: v1AudienceAgent_GetConfigParameterOnPerson
 ---
 
 # POST Agents/Audience/GetConfigParameterOnPerson
@@ -11,6 +11,12 @@ POST /api/v1/Agents/Audience/GetConfigParameterOnPerson
 
 Gets an Audience configuration parameter with the specified configuration parameter name on the person specified
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Gets an Audience configuration parameter with the specified configuration parame
 ```http
 POST /api/v1/Agents/Audience/GetConfigParameterOnPerson?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,27 +42,25 @@ POST /api/v1/Agents/Audience/GetConfigParameterOnPerson?$select=name,department,
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-ParameterName, PersonId
+ParameterName, PersonId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | ParameterName | string |  |
 | PersonId | int32 |  |
 
-## Response: object
 
-An Audience configuration parameter, used for handling Audience application or Web part settings.
+## Response: 
 
-Carrier object for AudienceConfigParameter.
-Services for the AudienceConfigParameter Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IAudienceAgent">Audience Agent</see>.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -69,45 +74,41 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Audience/GetConfigParameterOnPerson
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ParameterName": "Altenwerth-Crona",
-  "PersonId": 776
+  "ParameterName": "Terry-Beahan",
+  "PersonId": 89
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AudienceLayoutId": 154,
-  "Name": "Gutmann-Rath",
-  "Value": "sit",
-  "CreatedDate": "1999-08-14T18:28:48.1305425+02:00",
-  "UpdatedDate": "2004-11-01T18:28:48.1305425+01:00",
-  "CreatedBy": "in",
-  "UpdatedBy": "dolorum",
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "AudienceLayoutId": 976,
+  "Name": "Konopelski, McKenzie and Haley",
+  "Value": "magni",
+  "CreatedDate": "2001-10-01T11:10:26.0055526+02:00",
+  "UpdatedDate": "2010-08-09T11:10:26.0055526+02:00",
+  "CreatedBy": "nisi",
+  "UpdatedBy": "sit",
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
-      "FieldType": "System.Int32",
-      "FieldLength": 509
+      "FieldRight": null,
+      "FieldType": "System.String",
+      "FieldLength": 997
     }
   }
 }

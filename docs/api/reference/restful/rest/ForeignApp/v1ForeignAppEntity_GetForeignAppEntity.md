@@ -1,6 +1,6 @@
 ---
 title: GET ForeignApp/{id}
-id: v1ForeignAppEntity_GetForeignAppEntity
+uid: v1ForeignAppEntity_GetForeignAppEntity
 ---
 
 # GET ForeignApp/{id}
@@ -11,11 +11,17 @@ GET /api/v1/ForeignApp/{id}
 
 Gets a ForeignAppEntity object.
 
+
 Calls the ForeignSystem agent service GetForeignAppEntity.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | id | int32 | The id of the ForeignAppEntity to return. **Required** |
+
 
 ## Query String Parameters
 
@@ -26,6 +32,7 @@ Calls the ForeignSystem agent service GetForeignAppEntity.
 ```http
 GET /api/v1/ForeignApp/{id}?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -40,9 +47,10 @@ GET /api/v1/ForeignApp/{id}?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response: object
 
-ForeignAppEntity entity with API _Links added.
+## Response: 
+
+ForeignAppEntity found.
 
 | Response | Description |
 |----------------|-------------|
@@ -50,7 +58,7 @@ ForeignAppEntity entity with API _Links added.
 | 304 | ForeignAppEntity has not changed since the requested If-Modified-Since date. |
 | 404 | Not Found. |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -65,111 +73,56 @@ Response body: object
 | FieldProperties | object |  |
 | _Links | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 GET /api/v1/ForeignApp/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 ForeignAppEntity found.
 Content-Type: application/json; charset=utf-8
-Last-Modified: Sun, 20 Dec 1998 18:25:50 G12T
+Last-Modified: Tue, 06 Jul 1999 11:10:52 G7T
 
 {
-  "ForeignAppId": 214,
-  "Name": "Torp-Quigley",
-  "CreatedDate": "2015-12-16T18:25:50.5595976+01:00",
-  "UpdatedDate": "1998-12-20T18:25:50.5595976+01:00",
-  "CreatedBy": {
-    "AssociateId": 586,
-    "Name": "Blick-Okuneva",
-    "PersonId": 641,
-    "Rank": 302,
-    "Tooltip": "sunt",
-    "Type": "AnonymousAssociate",
-    "GroupIdx": 485,
-    "FullName": "Aaron Leffler",
-    "FormalName": "O'Keefe-Quitzon",
-    "Deleted": true,
-    "EjUserId": 532,
-    "UserName": "Kassulke-Hyatt",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.Int32",
-        "FieldLength": 743
-      }
-    }
-  },
-  "UpdatedBy": {
-    "AssociateId": 350,
-    "Name": "Jenkins Inc and Sons",
-    "PersonId": 925,
-    "Rank": 418,
-    "Tooltip": "aspernatur",
-    "Type": "AnonymousAssociate",
-    "GroupIdx": 884,
-    "FullName": "Mckayla Hammes",
-    "FormalName": "Strosin, Waelchi and Kling",
-    "Deleted": true,
-    "EjUserId": 315,
-    "UserName": "Rutherford Group",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 145
-      }
-    }
-  },
+  "ForeignAppId": 737,
+  "Name": "Brown, Ziemann and Smith",
+  "CreatedDate": "1999-03-07T11:10:52.8911689+01:00",
+  "UpdatedDate": "1999-07-06T11:10:52.8911689+02:00",
+  "CreatedBy": null,
+  "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 357,
-      "Name": "Schamberger LLC",
-      "CreatedDate": "2020-12-12T18:25:50.5595976+01:00",
-      "UpdatedDate": "2020-12-27T18:25:50.5595976+01:00",
-      "AssociateFullName": "Dr. Eileen Emard",
-      "CreatedBy": "at",
-      "UpdatedBy": "et",
-      "DeviceIdentifier": "et",
-      "ForeignAppId": 45,
-      "TableRight": {},
+      "ForeignDeviceId": 512,
+      "Name": "Johnson-Hamill",
+      "CreatedDate": "2008-05-19T11:10:52.8911689+02:00",
+      "UpdatedDate": "2021-02-05T11:10:52.8911689+01:00",
+      "AssociateFullName": "Elvera Flatley I",
+      "CreatedBy": "id",
+      "UpdatedBy": "blanditiis",
+      "DeviceIdentifier": "ducimus",
+      "ForeignAppId": 393,
+      "TableRight": null,
       "FieldProperties": {
         "fieldName": {
-          "FieldRight": {
-            "Mask": "FULL",
-            "Reason": ""
-          },
+          "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 80
+          "FieldLength": 431
         }
       }
     }
   ],
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
+      "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 226
+      "FieldLength": 804
     }
   },
   "_Links": {

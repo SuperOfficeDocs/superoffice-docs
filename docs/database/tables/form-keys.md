@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "form_keys"
-so.date: 04.12.2022
+so.date: 08.26.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -24,6 +24,7 @@ Keys that makes sure a form is not posted twice
 |id|Primary key|PK| |
 |form\_key|A random key|String(40)| |
 |time\_of\_entry|When the key was generated|DateTime|&#x25CF;|
+
 
 ![form_keys table relationship diagram](./media/form_keys.png)
 
@@ -43,3 +44,4 @@ Keys that makes sure a form is not posted twice
 ## Security Flags
 
 * No access control via user's Role.
+

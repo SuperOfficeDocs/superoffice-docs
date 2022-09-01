@@ -1,6 +1,6 @@
 ---
 title: GET CRMScript/{id}/Validate
-id: v1CRMScriptEntity_ValidateScript
+uid: v1CRMScriptEntity_ValidateScript
 ---
 
 # GET CRMScript/{id}/Validate
@@ -11,13 +11,21 @@ GET /api/v1/CRMScript/{cRMScriptId}/Validate
 
 Validate a CRMScript.
 
+
 This will check that the syntax is correct
 
-## Online Restricted: ## The CRMScript agent is not available in Online by default. Access must be requested specifically when app is registered
+
+## Online Restricted: ## The CRMScript agent is not available in Online by default. Access must be requested specifically when app is registered.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | cRMScriptId | int32 | The id of the CRMScript to execute **Required** |
+
+
 
 ## Request Headers
 
@@ -32,18 +40,16 @@ This will check that the syntax is correct
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response: object
 
-Object for returning information when validating a CRMScript
+## Response: 
 
-Carrier object for CRMScriptResult.
-Services for the CRMScriptResult Carrier is available from the <see cref="T:SuperOffice.CRM.Services.ICRMScriptAgent">CRMScript Agent</see>.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -52,14 +58,16 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 GET /api/v1/CRMScript/{cRMScriptId}/Validate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -67,19 +75,13 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Valid": false,
-  "ErrorMessage": "ullam",
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "ErrorMessage": "qui",
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
+      "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 751
+      "FieldLength": 429
     }
   }
 }

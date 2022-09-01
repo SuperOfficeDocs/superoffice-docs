@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Import/SaveImport
-id: v1ImportAgent_SaveImport
+uid: v1ImportAgent_SaveImport
 ---
 
 # POST Agents/Import/SaveImport
@@ -11,6 +11,12 @@ POST /api/v1/Agents/Import/SaveImport
 
 Do the actual import
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Do the actual import
 ```http
 POST /api/v1/Agents/Import/SaveImport?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,9 +42,9 @@ POST /api/v1/Agents/Import/SaveImport?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-ImportLines, ColumnDefinition, CreateSelection, Culture, Context
+ImportLines, ColumnDefinition, CreateSelection, Culture, Context 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -47,7 +54,10 @@ ImportLines, ColumnDefinition, CreateSelection, Culture, Context
 | Culture | string |  |
 | Context | string |  |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -55,54 +65,57 @@ ImportLines, ColumnDefinition, CreateSelection, Culture, Context
 
 Response body: array
 
-## Sample Request
+
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Import/SaveImport
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "ImportLines": [
     {
       "Values": [
-        "molestiae",
-        "odio"
+        "sunt",
+        "magnam"
       ],
       "Selected": false,
       "Operation": "ContactAdded",
       "Type": "Contact",
-      "ExternalKey": "eius"
+      "ExternalKey": "quasi"
     },
     {
       "Values": [
-        "molestiae",
-        "odio"
+        "sunt",
+        "magnam"
       ],
       "Selected": false,
       "Operation": "ContactAdded",
       "Type": "Contact",
-      "ExternalKey": "eius"
+      "ExternalKey": "quasi"
     }
   ],
   "ColumnDefinition": [
-    "ab",
-    "veritatis"
+    "non",
+    "corporis"
   ],
-  "CreateSelection": true,
-  "Culture": "blanditiis",
-  "Context": "ut"
+  "CreateSelection": false,
+  "Culture": "fuga",
+  "Context": "quasi"
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 [
-  356,
-  72
+  939,
+  627
 ]
 ```

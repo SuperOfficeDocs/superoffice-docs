@@ -13,7 +13,9 @@ Implemented by the <see cref="M:SuperOffice.Services85.IMessagingAgent.CreateMes
 
 Create a new message and insert it in the message queue. (inbox)
 
-* **incomingMessage:**
+* **incomingMessage:** 
+
+
 
 [WSDL file for Services85/Messaging](../Services85-Messaging.md)
 
@@ -54,6 +56,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## CreateMessage Response
 
 ```xml
@@ -73,3 +76,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

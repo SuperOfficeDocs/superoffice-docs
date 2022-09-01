@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Configuration/SaveAndPublish
-id: v1ConfigurationAgent_SaveAndPublish
+uid: v1ConfigurationAgent_SaveAndPublish
 ---
 
 # POST Agents/Configuration/SaveAndPublish
@@ -11,6 +11,12 @@ POST /api/v1/Agents/Configuration/SaveAndPublish
 
 Save the incomming draft and publish
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Save the incomming draft and publish
 ```http
 POST /api/v1/Agents/Configuration/SaveAndPublish?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,21 +42,24 @@ POST /api/v1/Agents/Configuration/SaveAndPublish?$select=name,department,categor
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-ConfigurableScreenDelta
+ConfigurableScreenDelta 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | ConfigurableScreenDelta |  |  |
 
-## Response: object
+
+## Response: 
+
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -64,11 +74,12 @@ Response body: object
 | CreatedDate | date-time |  |
 | UpdatedBy |  | Carrier object for Associate. Services for the Associate Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IAssociateAgent">Associate Agent</see>. |
 | CreatedBy |  | Carrier object for Associate. Services for the Associate Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IAssociateAgent">Associate Agent</see>. |
-| UserGroupIds | array |  |
+| AppliesToIds | array |  |
+| AppliesToKey | string |  |
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Configuration/SaveAndPublish
@@ -78,106 +89,39 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConfigurableScreenDelta": {
-    "ConfigurableScreenDeltaId": 424,
-    "Name": "Vandervort, Schowalter and McDermott",
-    "Description": "Centralized full-range paradigm",
-    "DeltaJson": "exercitationem",
-    "DeltaType": "CustomFields",
-    "DeltaState": "Draft",
-    "RecipeId": "aspernatur",
-    "UpdatedDate": "2005-07-14T18:28:48.4166521+02:00",
-    "CreatedDate": "2002-02-08T18:28:48.4166521+01:00",
-    "UpdatedBy": {},
-    "CreatedBy": {},
-    "UserGroupIds": [
-      199,
-      379
-    ]
-  }
+  "ConfigurableScreenDelta": null
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConfigurableScreenDeltaId": 302,
-  "Name": "Jones, Nader and Simonis",
-  "Description": "Digitized dedicated data-warehouse",
-  "DeltaJson": "provident",
+  "ConfigurableScreenDeltaId": 434,
+  "Name": "Botsford Group",
+  "Description": "Reverse-engineered 24 hour Graphic Interface",
+  "DeltaJson": "sit",
   "DeltaType": "CustomFields",
   "DeltaState": "Draft",
-  "RecipeId": "reprehenderit",
-  "UpdatedDate": "2005-06-29T18:28:48.4176522+02:00",
-  "CreatedDate": "2015-12-14T18:28:48.4176522+01:00",
-  "UpdatedBy": {
-    "AssociateId": 129,
-    "Name": "Nicolas LLC",
-    "PersonId": 153,
-    "Rank": 848,
-    "Tooltip": "ut",
-    "Type": "AnonymousAssociate",
-    "GroupIdx": 390,
-    "FullName": "Dr. Clemmie Treutel",
-    "FormalName": "Klein-Rodriguez",
-    "Deleted": true,
-    "EjUserId": 819,
-    "UserName": "White-McGlynn",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 556
-      }
-    }
-  },
-  "CreatedBy": {
-    "AssociateId": 868,
-    "Name": "Walker-Buckridge",
-    "PersonId": 796,
-    "Rank": 380,
-    "Tooltip": "magnam",
-    "Type": "AnonymousAssociate",
-    "GroupIdx": 281,
-    "FullName": "Alfonso Mann",
-    "FormalName": "Lebsack-Klein",
-    "Deleted": false,
-    "EjUserId": 442,
-    "UserName": "Gleason Inc and Sons",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.Int32",
-        "FieldLength": 71
-      }
-    }
-  },
-  "UserGroupIds": [
-    693,
-    574
+  "RecipeId": "cum",
+  "UpdatedDate": "2021-11-15T11:10:26.2075244+01:00",
+  "CreatedDate": "2001-03-31T11:10:26.2075244+02:00",
+  "UpdatedBy": null,
+  "CreatedBy": null,
+  "AppliesToIds": [
+    274,
+    989
   ],
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "AppliesToKey": "magni",
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
+      "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 626
+      "FieldLength": 270
     }
   }
 }

@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Marketing/SaveFormSubmissionEntity
-id: v1MarketingAgent_SaveFormSubmissionEntity
+uid: v1MarketingAgent_SaveFormSubmissionEntity
 ---
 
 # POST Agents/Marketing/SaveFormSubmissionEntity
@@ -10,6 +10,13 @@ POST /api/v1/Agents/Marketing/SaveFormSubmissionEntity
 ```
 
 Updates the existing FormSubmissionEntity or creates a new FormSubmissionEntity if the id parameter is empty
+
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -25,9 +32,9 @@ Updates the existing FormSubmissionEntity or creates a new FormSubmissionEntity 
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entity
+## Request Body: entity  
 
-The FormSubmissionEntity to be saved.
+The FormSubmissionEntity to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -42,18 +49,16 @@ The FormSubmissionEntity to be saved.
 | Status | string | What is the status of this submission |
 | ProcessingLog | string | A log of what happened during processing |
 
-## Response: object
 
-Content of a Form submission
+## Response: 
 
-Carrier object for FormSubmissionEntity.
-Services for the FormSubmissionEntity Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IMarketingAgent">Marketing Agent</see>.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -70,7 +75,7 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Marketing/SaveFormSubmissionEntity
@@ -80,46 +85,42 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "FormSubmissionId": 339,
-  "FormId": 406,
-  "WhenSubmitted": "2021-03-15T18:28:49.4610917+01:00",
-  "ContactId": 565,
-  "PersonId": 515,
-  "EmailAddress": "curt_kassulke@ziemeroob.co.uk",
-  "ResponseShipmentAddrId": 801,
-  "Response": "laudantium",
+  "FormSubmissionId": 140,
+  "FormId": 197,
+  "WhenSubmitted": "1998-01-24T11:10:27.2864566+01:00",
+  "ContactId": 269,
+  "PersonId": 778,
+  "EmailAddress": "cathryn_stokes@pourosmccullough.com",
+  "ResponseShipmentAddrId": 443,
+  "Response": "iste",
   "Status": "EmailVerification",
-  "ProcessingLog": "est"
+  "ProcessingLog": "aut"
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "FormSubmissionId": 468,
-  "FormId": 373,
-  "WhenSubmitted": "2002-04-11T18:28:49.4620873+02:00",
-  "ContactId": 342,
-  "PersonId": 403,
-  "EmailAddress": "lavina_casper@aufderhar.us",
-  "ResponseShipmentAddrId": 987,
-  "Response": "ea",
+  "FormSubmissionId": 269,
+  "FormId": 492,
+  "WhenSubmitted": "2021-11-17T11:10:27.2874535+01:00",
+  "ContactId": 834,
+  "PersonId": 816,
+  "EmailAddress": "cesar_morissette@roberts.uk",
+  "ResponseShipmentAddrId": 292,
+  "Response": "voluptate",
   "Status": "EmailVerification",
-  "ProcessingLog": "totam",
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "ProcessingLog": "autem",
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
+      "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 403
+      "FieldLength": 439
     }
   }
 }

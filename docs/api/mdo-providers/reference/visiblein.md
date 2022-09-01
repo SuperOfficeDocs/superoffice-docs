@@ -7,7 +7,7 @@ keywords:
   - "mdo provider"
   - "visiblein"
 so.generated: true
-so.date: 03.19.2021
+so.date: 08.26.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -15,11 +15,15 @@ so.envir:
 ---
 
 # "visiblein" MDO List
-
 Visible in list for web panels.
+
+
 
 Implemented by the <see cref="T:SuperOffice.CRM.Lists.VisibleInProvider">VisibleInProvider</see> class.
 The name of the MDO list is 'visiblein'.
+
+
+
 
 ## Sample Request
 
@@ -32,7 +36,6 @@ Accept-Language: *
 ```
 
 ## Sample Code
-
 ```cs
 var listProvider = SuperOffice.CRM.Lists.SoListProviderFactory.Create("visiblein", forceFlatList: true);
 foreach (var item in listProvider.RootItems) {
@@ -48,24 +51,25 @@ foreach (var item in listProvider.RootItems) {
 |19|Side panel|||
 |23|Toolbar|||
 |2|Navigator button|||
-|5|Company card|||
-|10|Contact card|||
-|7|Project card|||
-|9|Sale card|||
-|46|Selection card|||
-|13|Web panel on SuperOffice button|||
-|6|Company screen section tab|||
-|67|Contact screen section tab|||
-|8|Project screen section tab|||
-|29|Sale screen section tab|||
-|11|Dialog for follow-ups|||
-|12|Document dialog|||
-|48|Quote dialog|||
-|52|Product dialog|||
-|24|Dialog for follow-ups|||
-|26|Document dialog|||
-|49|Quote dialog|||
-|25|Sale dialog|||
+|5|Panel - Company card|||
+|10|Panel - Contact card|||
+|7|Panel - Project card|||
+|9|Panel - Sale card|||
+|46|Panel - Selection card|||
+|13|Panel - Web panel on SuperOffice button|||
+|6|Panel - Company screen section tab|||
+|67|Panel - Contact screen section tab|||
+|8|Panel - Project screen section tab|||
+|29|Panel - Sale screen section tab|||
+|11|Dialog - Dialog for follow-ups|||
+|12|Dialog - Document dialog|||
+|48|Dialog - Quote dialog|||
+|52|Dialog - Product dialog|||
+|24|Task - Dialog for follow-ups|||
+|26|Task - Document dialog|||
+|49|Task - Quote dialog|||
+|25|Task - Sale dialog|||
+
 
 ## Related MDO Lists
 

@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "kb_category"
-so.date: 04.12.2022
+so.date: 08.26.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -35,6 +35,7 @@ Knowledge base folder hierarchy
 |dbi\_key|The primary key for the integrated entry in the external datasource.|String(255)| |
 |dbi\_last\_syncronized|Last external syncronization.|DateTime| |
 |dbi\_last\_modified|When the entry was last modified.|DateTime| |
+
 
 ![kb_category table relationship diagram](./media/kb_category.png)
 
@@ -67,6 +68,7 @@ Knowledge base folder hierarchy
 |[kb\_group](kb-group.md)  |This table contains FAQ groups. A group is a cluster of entries (potentially located anywhere in the FAQ hierarchy). A group is located in a certain category. |
 |[mail\_in\_filter](mail-in-filter.md)  |This table contains entries for the mailboxes the eJournal system is fetching mail from (POP3 or IMAP). |
 
+
 ## Replication Flags
 
 * None
@@ -74,3 +76,4 @@ Knowledge base folder hierarchy
 ## Security Flags
 
 * No access control via user's Role.
+

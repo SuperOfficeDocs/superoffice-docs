@@ -1,12 +1,12 @@
 ---
 uid: table-AmountClass
 title: AmountClass table
-description: Amount Class list for SuperOffice Sales Intelligence (Saint) - used to group sales by amounts, into bins (low --&gt; high) called amount classes. 
+description: Amount Class list for SuperOffice Sales Intelligence (Saint) - used to group sales by amounts, into bins (low --&gt; high) called amount classes. More information regarding SuperOffice Sales Intelligence on http;//techdoc.superoffice.com 
 so.generated: true
 keywords:
   - "database"
   - "AmountClass"
-so.date: 04.12.2022
+so.date: 08.26.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -16,7 +16,7 @@ so.envir:
 # AmountClass Table (225)
 
 AmountClass MDO list item table.
-Amount Class list for SuperOffice Sales Intelligence (Saint) - used to group sales by amounts, into bins (low --&gt; high) called amount classes.
+Amount Class list for SuperOffice Sales Intelligence (Saint) - used to group sales by amounts, into bins (low --&gt; high) called amount classes. More information regarding SuperOffice Sales Intelligence on http;//techdoc.superoffice.com 
 
 ## Fields
 
@@ -35,6 +35,7 @@ Amount Class list for SuperOffice Sales Intelligence (Saint) - used to group sal
 |updated|Last updated when|UtcDateTime| |
 |updated\_associate\_id|Last updated by whom|FK [associate](associate.md)| |
 |updatedCount|Number of updates made to this record|UShort| |
+
 
 ![AmountClass table relationship diagram](./media/AmountClass.png)
 
@@ -59,6 +60,7 @@ Amount Class list for SuperOffice Sales Intelligence (Saint) - used to group sal
 |[CounterValue](countervalue.md)  |Visible for rights |
 |[Currency](currency.md)  |Currency list table |
 
+
 ## Replication Flags
 
 * Replicate changes DOWN from central to satellites and travellers.
@@ -68,3 +70,4 @@ Amount Class list for SuperOffice Sales Intelligence (Saint) - used to group sal
 ## Security Flags
 
 * No access control via user's Role.
+

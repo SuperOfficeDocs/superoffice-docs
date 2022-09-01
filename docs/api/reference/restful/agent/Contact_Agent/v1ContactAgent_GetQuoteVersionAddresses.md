@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Contact/GetQuoteVersionAddresses
-id: v1ContactAgent_GetQuoteVersionAddresses
+uid: v1ContactAgent_GetQuoteVersionAddresses
 ---
 
 # POST Agents/Contact/GetQuoteVersionAddresses
@@ -11,7 +11,13 @@ POST /api/v1/Agents/Contact/GetQuoteVersionAddresses
 
 Get the associated billing and invoice quote version addresses.
 
+
 These addresses might be address on the contact, or a custom address.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +28,7 @@ These addresses might be address on the contact, or a custom address.
 ```http
 POST /api/v1/Agents/Contact/GetQuoteVersionAddresses?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,15 +44,18 @@ POST /api/v1/Agents/Contact/GetQuoteVersionAddresses?$select=name,department,cat
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-QuoteVersionId
+QuoteVersionId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | QuoteVersionId | int32 |  |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -64,19 +74,21 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Contact/GetQuoteVersionAddresses
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 371
+  "QuoteVersionId": 243
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -84,93 +96,55 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Wgs84Latitude": 1237.93,
-    "Wgs84Longitude": 16917.332,
+    "Wgs84Latitude": 1078.096,
+    "Wgs84Longitude": 1664.154,
     "LocalizedAddress": [
       [
         {
-          "Name": "Wyman Group",
-          "Value": "maiores",
-          "Tooltip": "error",
-          "Label": "possimus",
-          "ValueLength": 633,
-          "AddressType": "occaecati",
-          "TableRight": {
-            "Mask": "Delete",
-            "Reason": ""
-          },
+          "Name": "Corkery Inc and Sons",
+          "Value": "vel",
+          "Tooltip": "voluptatem",
+          "Label": "sint",
+          "ValueLength": 553,
+          "AddressType": "cum",
+          "TableRight": null,
           "FieldProperties": {
             "fieldName": {
-              "FieldRight": {
-                "Mask": "FULL",
-                "Reason": ""
-              },
+              "FieldRight": null,
               "FieldType": "System.Int32",
-              "FieldLength": 857
+              "FieldLength": 263
             }
           }
         }
       ],
       [
         {
-          "Name": "Mills LLC",
-          "Value": "in",
-          "Tooltip": "placeat",
-          "Label": "rerum",
-          "ValueLength": 192,
-          "AddressType": "cumque",
-          "TableRight": {
-            "Mask": "Delete",
-            "Reason": ""
-          },
+          "Name": "Buckridge-Grant",
+          "Value": "est",
+          "Tooltip": "architecto",
+          "Label": "quos",
+          "ValueLength": 699,
+          "AddressType": "beatae",
+          "TableRight": null,
           "FieldProperties": {
             "fieldName": {
-              "FieldRight": {
-                "Mask": "FULL",
-                "Reason": ""
-              },
-              "FieldType": "System.String",
-              "FieldLength": 415
+              "FieldRight": null,
+              "FieldType": "System.Int32",
+              "FieldLength": 911
             }
           }
         }
       ]
     ],
-    "Street": {
-      "AtypeIdx": "ContactPostalAddress",
-      "Address1": "omnis",
-      "Address2": "vel",
-      "Address3": "at",
-      "City": "facere",
-      "County": "velit",
-      "State": "iste",
-      "Zipcode": "et",
-      "Formatted": "sed"
-    },
-    "Postal": {
-      "AtypeIdx": "ContactPostalAddress",
-      "Address1": "rem",
-      "Address2": "quos",
-      "Address3": "architecto",
-      "City": "quis",
-      "County": "illo",
-      "State": "sint",
-      "Zipcode": "reiciendis",
-      "Formatted": "voluptas"
-    },
-    "Formatted": "consequatur",
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "Street": null,
+    "Postal": null,
+    "Formatted": "quo",
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 837
+        "FieldRight": null,
+        "FieldType": "System.Int32",
+        "FieldLength": 524
       }
     }
   }

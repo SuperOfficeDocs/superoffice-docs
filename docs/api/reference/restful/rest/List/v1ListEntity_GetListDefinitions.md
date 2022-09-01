@@ -1,6 +1,6 @@
 ---
 title: GET List
-id: v1ListEntity_GetListDefinitions
+uid: v1ListEntity_GetListDefinitions
 ---
 
 # GET List
@@ -11,6 +11,12 @@ GET /api/v1/List
 
 Get a list of the lists - built-in and user-defined.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Get a list of the lists - built-in and user-defined.
 ```http
 GET /api/v1/List?includeDeleted=False
 ```
+
 
 ## Request Headers
 
@@ -34,7 +41,10 @@ GET /api/v1/List?includeDeleted=False
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -57,14 +67,16 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 GET /api/v1/List
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -72,28 +84,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 569,
-    "Name": "Wisozk-Pfeffer",
-    "Tooltip": "architecto",
+    "Id": 877,
+    "Name": "Graham-Schneider",
+    "Tooltip": "veniam",
     "Deleted": false,
-    "Rank": 999,
-    "IsCustomList": false,
-    "IsMDOList": false,
+    "Rank": 802,
+    "IsCustomList": true,
+    "IsMDOList": true,
     "UseGroupsAndHeadings": false,
-    "ListType": "magnam",
+    "ListType": "et",
     "InUseByUserDefinedFields": true,
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 343
+        "FieldRight": null,
+        "FieldType": "System.Int32",
+        "FieldLength": 618
       }
     }
   }

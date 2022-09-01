@@ -1,6 +1,6 @@
 ---
 title: PATCH Hierarchy/{id}
-id: v1HierarchyEntity_PatchHierarchyEntity
+uid: v1HierarchyEntity_PatchHierarchyEntity
 ---
 
 # PATCH Hierarchy/{id}
@@ -10,6 +10,7 @@ PATCH /api/v1/Hierarchy/{id}
 ```
 
 Update a HierarchyEntity with changes, as described in a JSON Patch or a JSON Merge Patch document.
+
 
 See <a href="https://tools.ietf.org/html/rfc6902">RFC6902</a> and <a href="https://tools.ietf.org/html/rfc7386">RFC 7396</a>. Update the Department field to "foo" can be done either as a JSON PATCH:
 
@@ -27,14 +28,23 @@ or as a JSON MERGE PATCH, which describes the change directly:
 
 ```
 
+
+
 JSON PATCH supports operations 'add', 'replace', 'remove' and 'test'.
 The path is case insensitive, and the leading slash is optional, so the paths "/department", "Department" and "department" are all equivalent.
 
+
+
 Calls the {SuperOffice.CRM.Services.IListAgent} service SaveHierarchyEntity.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | id | int32 | The HierarchyEntity  id to update. **Required** |
+
 
 ## Query String Parameters
 
@@ -45,6 +55,7 @@ Calls the {SuperOffice.CRM.Services.IListAgent} service SaveHierarchyEntity.
 ```http
 PATCH /api/v1/Hierarchy/{id}?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -60,9 +71,9 @@ PATCH /api/v1/Hierarchy/{id}?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: changes string
+## Request Body: changes string 
 
-JSON-Patch array of operations+path+value, or a MERGE-PATCH object (which will be converted to a list of JSON-PATCH operations).
+JSON-Patch array of operations+path+value, or a MERGE-PATCH object (which will be converted to a list of JSON-PATCH operations). 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -70,11 +81,10 @@ JSON-Patch array of operations+path+value, or a MERGE-PATCH object (which will b
 | path | string | The property names to modify.  "/users/0/email", "/users/-", |
 | value | object | New/Replaced value - string or object. |
 
-## Response: object
 
-Folder structures
+## Response: 
 
-HierarchyEntity entity with API _Links added.
+HierarchyEntity  updated.
 
 | Response | Description |
 |----------------|-------------|
@@ -83,7 +93,7 @@ HierarchyEntity entity with API _Links added.
 | 409 | Update blocked because a 'test' operation has detected a conflict with the entity value. |
 | 412 | Update aborted because HierarchyEntity has changed since the requested If-Unmodified-Since timestamp. |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -101,109 +111,76 @@ Response body: object
 | FieldProperties | object |  |
 | _Links | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 PATCH /api/v1/Hierarchy/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "inventore",
-    "value": {
-      "value1": {
-        "PrimaryKey": 4498,
-        "EntityName": "person",
-        "personId": 4498,
-        "fullName": "Berenice Schuppe"
-      },
-      "value2": {
-        "PrimaryKey": 9491,
-        "EntityName": "person",
-        "personId": 9491,
-        "fullName": "Coleman Tremblay"
-      }
-    }
+    "path": "doloribus",
+    "value": {}
   },
   {
     "op": "add",
-    "path": "inventore",
-    "value": {
-      "value1": {
-        "PrimaryKey": 4498,
-        "EntityName": "person",
-        "personId": 4498,
-        "fullName": "Berenice Schuppe"
-      },
-      "value2": {
-        "PrimaryKey": 9491,
-        "EntityName": "person",
-        "personId": 9491,
-        "fullName": "Coleman Tremblay"
-      }
-    }
+    "path": "doloribus",
+    "value": {}
   }
 ]
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 HierarchyEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 974,
+  "HierarchyId": 126,
   "Domain": "Dashboards",
-  "Name": "Veum, Goldner and Kiehn",
-  "Fullname": "ad",
-  "ParentId": 909,
+  "Name": "Prosacco, Larkin and Bergnaum",
+  "Fullname": "qui",
+  "ParentId": 205,
   "Children": [
     {
-      "HierarchyId": 482,
+      "HierarchyId": 638,
       "Domain": "Dashboards",
-      "Name": "Gaylord, Wiegand and Kulas",
-      "Fullname": "nulla",
-      "ParentId": 397,
+      "Name": "Hartmann, Marvin and Connelly",
+      "Fullname": "iure",
+      "ParentId": 615,
       "Children": [
         {},
         {}
       ],
-      "Registered": "2008-01-13T18:25:50.5825943+01:00",
-      "RegisteredAssociateId": 437,
-      "Updated": "1999-12-10T18:25:50.5825943+01:00",
-      "UpdatedAssociateId": 113,
-      "TableRight": {},
+      "Registered": "1997-07-07T11:10:52.9161793+02:00",
+      "RegisteredAssociateId": 494,
+      "Updated": "1998-02-18T11:10:52.9161793+01:00",
+      "UpdatedAssociateId": 483,
+      "TableRight": null,
       "FieldProperties": {
         "fieldName": {
-          "FieldRight": {
-            "Mask": "FULL",
-            "Reason": ""
-          },
-          "FieldType": "System.Int32",
-          "FieldLength": 243
+          "FieldRight": null,
+          "FieldType": "System.String",
+          "FieldLength": 247
         }
       }
     }
   ],
-  "Registered": "2003-05-30T18:25:50.5825943+02:00",
-  "RegisteredAssociateId": 487,
-  "Updated": "2018-08-05T18:25:50.5825943+02:00",
-  "UpdatedAssociateId": 197,
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": "evolve killer web-readiness"
-  },
+  "Registered": "2002-04-26T11:10:52.9161793+02:00",
+  "RegisteredAssociateId": 506,
+  "Updated": "2009-07-28T11:10:52.9161793+02:00",
+  "UpdatedAssociateId": 470,
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
+      "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 340
+      "FieldLength": 790
     }
   },
   "_Links": {

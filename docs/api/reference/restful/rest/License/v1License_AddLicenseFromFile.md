@@ -1,6 +1,6 @@
 ---
 title: POST License
-id: v1License_AddLicenseFromFile
+uid: v1License_AddLicenseFromFile
 ---
 
 # POST License
@@ -10,6 +10,13 @@ POST /api/v1/License
 ```
 
 Load and activate a new license from file/string if the new license is valid.
+
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -25,17 +32,21 @@ Load and activate a new license from file/string if the new license is valid.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: fileContent
+## Request Body: fileContent  
 
-Content of the license file as XML.
+Content of the license file as XML. 
 
-## Response: object
+
+
+## Response: 
+
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -46,14 +57,16 @@ Response body: object
 | ExtendedModuleLicenses | array |  |
 | AccumulatedNextCheckDate | date-time |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/License
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -62,66 +75,20 @@ Content-Type: application/json; charset=utf-8
 {
   "Reason": "",
   "CanBeActivated": false,
-  "New": {
-    "CompanyName": "Yundt Inc and Sons",
-    "SerialNr": "1010000006",
-    "OwnerName": "Wolff Inc and Sons",
-    "OwnerDescription": "Object-based dynamic migration",
-    "NextCheckDate": "2016-11-05T18:25:51.3671178+01:00",
-    "MaintenanceDate": "1996-12-26T18:25:51.3671178+01:00",
-    "AdminWarningDate": "2010-12-25T18:25:51.3671178+01:00",
-    "ExpiryDate": "2001-11-15T18:25:51.3671178+01:00",
-    "GraceDate": "2013-01-30T18:25:51.3671178+01:00",
-    "ExtraFlags": 63,
-    "ExtraInfo": "ab",
-    "LicenseUrl": "http://www.example.com/",
-    "LicenseVersion": "itaque",
-    "DeploymentType": 185,
-    "ProductType": "porro",
-    "ProductDescription": "Realigned well-modulated internet solution",
-    "ModuleLicenses": [
-      {},
-      {}
-    ],
-    "PublicKey": {},
-    "Signature": "quaerat"
-  },
-  "Current": {
-    "CompanyName": "Lindgren, Macejkovic and Botsford",
-    "SerialNr": "1010000006",
-    "OwnerName": "Hansen LLC",
-    "OwnerDescription": "Advanced 6th generation function",
-    "NextCheckDate": "1995-08-19T18:25:51.3671178+02:00",
-    "MaintenanceDate": "2010-08-27T18:25:51.3671178+02:00",
-    "AdminWarningDate": "2018-12-28T18:25:51.3671178+01:00",
-    "ExpiryDate": "1997-07-20T18:25:51.3671178+02:00",
-    "GraceDate": "2004-06-25T18:25:51.3671178+02:00",
-    "ExtraFlags": 838,
-    "ExtraInfo": "nostrum",
-    "LicenseUrl": "http://www.example.com/",
-    "LicenseVersion": "impedit",
-    "DeploymentType": 573,
-    "ProductType": "ea",
-    "ProductDescription": "Synchronised bifurcated utilisation",
-    "ModuleLicenses": [
-      {},
-      {}
-    ],
-    "PublicKey": {},
-    "Signature": "eveniet"
-  },
+  "New": null,
+  "Current": null,
   "ExtendedModuleLicenses": [
     {
-      "New": {},
-      "Current": {},
-      "NumberOfLicensesInUse": 424,
-      "NumberOfLicensesFree": 273,
-      "NumberOfLicensesAdded": 279,
-      "NumberOfLicensesNewTotal": 654,
-      "NumberOfLicensesNewFree": 25,
-      "NumberOfLicensesTotal": 870
+      "New": null,
+      "Current": null,
+      "NumberOfLicensesInUse": 335,
+      "NumberOfLicensesFree": 891,
+      "NumberOfLicensesAdded": 162,
+      "NumberOfLicensesNewTotal": 628,
+      "NumberOfLicensesNewFree": 988,
+      "NumberOfLicensesTotal": 308
     }
   ],
-  "AccumulatedNextCheckDate": "2000-02-07T18:25:51.3671178+01:00"
+  "AccumulatedNextCheckDate": "2007-12-04T11:10:53.7151852+01:00"
 }
 ```

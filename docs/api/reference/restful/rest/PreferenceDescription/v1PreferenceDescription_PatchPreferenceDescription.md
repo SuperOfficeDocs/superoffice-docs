@@ -1,6 +1,6 @@
 ---
 title: PATCH PreferenceDescription/{id}
-id: v1PreferenceDescription_PatchPreferenceDescription
+uid: v1PreferenceDescription_PatchPreferenceDescription
 ---
 
 # PATCH PreferenceDescription/{id}
@@ -10,6 +10,7 @@ PATCH /api/v1/PreferenceDescription/{id}
 ```
 
 Update a PreferenceDescription with changes, as described in a JSON Patch or a JSON Merge Patch document.
+
 
 See <a href="https://tools.ietf.org/html/rfc6902">RFC6902</a> and <a href="https://tools.ietf.org/html/rfc7386">RFC 7396</a>. Update the Department field to "foo" can be done either as a JSON PATCH:
 
@@ -27,14 +28,23 @@ or as a JSON MERGE PATCH, which describes the change directly:
 
 ```
 
+
+
 JSON PATCH supports operations 'add', 'replace', 'remove' and 'test'.
 The path is case insensitive, and the leading slash is optional, so the paths "/department", "Department" and "department" are all equivalent.
 
+
+
 Calls the {SuperOffice.CRM.Services.IPreferenceAgent} service SavePreferenceDescription.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | id | int32 | The PreferenceDescription  id to update. **Required** |
+
 
 ## Query String Parameters
 
@@ -45,6 +55,7 @@ Calls the {SuperOffice.CRM.Services.IPreferenceAgent} service SavePreferenceDesc
 ```http
 PATCH /api/v1/PreferenceDescription/{id}?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -60,9 +71,9 @@ PATCH /api/v1/PreferenceDescription/{id}?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: changes string
+## Request Body: changes string 
 
-JSON-Patch array of operations+path+value, or a MERGE-PATCH object (which will be converted to a list of JSON-PATCH operations).
+JSON-Patch array of operations+path+value, or a MERGE-PATCH object (which will be converted to a list of JSON-PATCH operations). 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -70,11 +81,10 @@ JSON-Patch array of operations+path+value, or a MERGE-PATCH object (which will b
 | path | string | The property names to modify.  "/users/0/email", "/users/-", |
 | value | object | New/Replaced value - string or object. |
 
-## Response: object
 
-Preference description, drives the Preference GUI. Maintenance client - controls all preferences in SuperOffice.
+## Response: 
 
-PreferenceDescription entity with API _Links added.
+PreferenceDescription  updated.
 
 | Response | Description |
 |----------------|-------------|
@@ -83,7 +93,7 @@ PreferenceDescription entity with API _Links added.
 | 409 | Update blocked because a 'test' operation has detected a conflict with the entity value. |
 | 412 | Update aborted because PreferenceDescription has changed since the requested If-Unmodified-Since timestamp. |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -109,92 +119,60 @@ Response body: object
 | FieldProperties | object |  |
 | _Links | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 PATCH /api/v1/PreferenceDescription/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "quas",
-    "value": {
-      "value1": {
-        "PrimaryKey": 9438,
-        "EntityName": "sale",
-        "saleId": 9438,
-        "contactId": 6469,
-        "name": "Reichert Group"
-      },
-      "value2": {
-        "PrimaryKey": 2368,
-        "EntityName": "person",
-        "personId": 2368,
-        "fullName": "Chance Mitchell"
-      }
-    }
+    "path": "sit",
+    "value": {}
   },
   {
     "op": "add",
-    "path": "quas",
-    "value": {
-      "value1": {
-        "PrimaryKey": 9438,
-        "EntityName": "sale",
-        "saleId": 9438,
-        "contactId": 6469,
-        "name": "Reichert Group"
-      },
-      "value2": {
-        "PrimaryKey": 2368,
-        "EntityName": "person",
-        "personId": 2368,
-        "fullName": "Chance Mitchell"
-      }
-    }
+    "path": "sit",
+    "value": {}
   }
 ]
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 PreferenceDescription  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 668,
-  "Section": "ut",
-  "Key": "distinctio",
-  "Name": "Armstrong Group",
+  "PrefDescId": 15,
+  "Section": "ipsa",
+  "Key": "nulla",
+  "Name": "Wilderman LLC",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Assimilated fresh-thinking pricing structure",
-  "IsBuiltin": false,
-  "TableName": "Herman, O'Hara and Kertzmann",
-  "UserDefinedListId": 838,
-  "Rank": 752,
-  "SubGroup": "fugiat",
-  "MinLevel": 846,
-  "MaxValue": 279,
-  "MinValue": 961,
-  "RequiredLicense": "rerum",
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "Description": "Phased tangible collaboration",
+  "IsBuiltin": true,
+  "TableName": "Schmeler-Fadel",
+  "UserDefinedListId": 592,
+  "Rank": 648,
+  "SubGroup": "quisquam",
+  "MinLevel": 890,
+  "MaxValue": 19,
+  "MinValue": 17,
+  "RequiredLicense": "dignissimos",
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": "iterate strategic schemas"
-      },
-      "FieldType": "System.Int32",
-      "FieldLength": 743
+      "FieldRight": null,
+      "FieldType": "System.String",
+      "FieldLength": 241
     }
   },
   "_Links": {

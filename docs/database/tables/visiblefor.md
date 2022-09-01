@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "VisibleFor"
-so.date: 04.12.2022
+so.date: 08.26.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -38,6 +38,7 @@ Visible for rights, who may see this appointment/document, sale,  salehist or se
 |updated\_associate\_id|Last updated by whom|FK [associate](associate.md)| |
 |updatedCount|Number of updates made to this record|UShort| |
 
+
 ![VisibleFor table relationship diagram](./media/VisibleFor.png)
 
 [!include[details](./includes/visiblefor.md)]
@@ -65,6 +66,7 @@ Visible for rights, who may see this appointment/document, sale,  salehist or se
 |[selection](selection.md)  |Selections |
 |[UserGroup](usergroup.md)  |Secondary user groups |
 
+
 ## Replication Flags
 
 * Area Management controlled table. Contents replicated to satellites and traveller databases.
@@ -74,3 +76,4 @@ Visible for rights, who may see this appointment/document, sale,  salehist or se
 ## Security Flags
 
 * No access control via user's Role.
+

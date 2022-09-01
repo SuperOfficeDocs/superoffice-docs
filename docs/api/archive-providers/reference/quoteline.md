@@ -8,7 +8,7 @@ keywords:
   - "archive provider"
   - "QuoteLine"
 so.generated: true
-so.date: 03.23.2021
+so.date: 08.26.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -24,13 +24,13 @@ This is the archive Provider for the QuoteLine Archive.
 ## Supported Entities
 
 | Name | Description |
-| ---- | ----- |
+| ---- | ----------- |
 |"quoteLineIsIncluded"|Products|
 
 ## Supported Columns
 
-| Name | Restriction | Description | OrderBy
-| ---- | ----- | ------- | ------ |
+| Name | Restriction | Description | OrderBy |
+| ---- | ----------- | ----------- | ------- |
 |getAllRows|bool|GetAll: Get all rows of archive - use with care, you may be fetching the whole database|  |
 |getNoRows|bool|GetNone: Do not get any rows from the archive|  |
 |quoteLineId|int|Quote line ID: Database identity of the quote line| x |
@@ -63,8 +63,10 @@ This is the archive Provider for the QuoteLine Archive.
 |earningAmount|decimal|Earnings: Amount of Earnings (Total - Cost) on the line, after discount| x |
 |earningPercent|decimal|Earnings (%: Percentage Earnings on the line (Total - Cost / Total), after discount| x |
 |updatedBy|associate|Updated by: The user who last updated the data| x |
+|updatedByFullName|associate|Updated by - Full name: The user who last updated the data| x |
 |updatedDate|date|Updated: The date/time the data was last updated in UTC.| x |
 |registeredBy|associate|Registered by: The user who registered the data| x |
+|registeredByFullName|associate|Registered by - Full name: The user who registered the data| x |
 |registeredDate|date|Registered date: The date/time the data was registered in UTC.| x |
 |productCategoryKey|listExternal|Product category: The category the product is defined in|  |
 |productFamilyKey|listExternal|Product family: The family the product is defined in|  |
@@ -78,11 +80,14 @@ This is the archive Provider for the QuoteLine Archive.
 ## Sample
 
 ```http!
-GET /api/v1/archive/QuoteLine?$select=subscriptionQuantity,unitMinimumPrice
+GET /api/v1/archive/QuoteLine?$select=UnitListPriceSubscriptionQuantity,unitListPrice
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv
 
 ```
 
-See also: <see cref="T:SuperOffice.CRM.Services.IArchiveAgent">IArchiveAgent</see>.
+
+
+See also: <see cref="T:SuperOffice.CRM.Services.IArchiveAgent">IArchiveAgent</see>.</p>
+

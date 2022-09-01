@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Person/GetPersonsFromProject
-id: v1PersonAgent_GetPersonsFromProject
+uid: v1PersonAgent_GetPersonsFromProject
 ---
 
 # POST Agents/Person/GetPersonsFromProject
@@ -11,6 +11,12 @@ POST /api/v1/Agents/Person/GetPersonsFromProject
 
 Returns all the persons belonging to a project.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Returns all the persons belonging to a project.
 ```http
 POST /api/v1/Agents/Person/GetPersonsFromProject?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,15 +42,18 @@ POST /api/v1/Agents/Person/GetPersonsFromProject?$select=name,department,categor
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-ProjectId
+ProjectId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | ProjectId | int32 |  |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -96,19 +106,21 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Person/GetPersonsFromProject
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 366
+  "ProjectId": 56
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -116,58 +128,52 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Position": "aperiam",
-    "PersonId": 847,
-    "Mrmrs": "hic",
-    "Firstname": "Marianna",
-    "Lastname": "Satterfield",
-    "MiddleName": "Hauck, Hammes and Sporer",
-    "Title": "quibusdam",
-    "Description": "Enhanced executive project",
-    "Email": "adela@runte.info",
-    "FullName": "Ms. Brian Hammes",
-    "DirectPhone": "1-631-737-3757 x5058",
-    "FormalName": "Streich-Bartoletti",
-    "CountryId": 687,
-    "ContactId": 818,
-    "ContactName": "Hodkiewicz LLC",
-    "Retired": 80,
-    "Rank": 341,
-    "ActiveInterests": 486,
+    "Position": "id",
+    "PersonId": 228,
+    "Mrmrs": "et",
+    "Firstname": "Allene",
+    "Lastname": "Kemmer",
+    "MiddleName": "Kertzmann-Kuphal",
+    "Title": "quidem",
+    "Description": "Robust user-facing structure",
+    "Email": "mayra.waelchi@boyerjacobs.ca",
+    "FullName": "Miss Enrico Kelsi Koelpin DDS",
+    "DirectPhone": "911.358.1073",
+    "FormalName": "Gleason-Kling",
+    "CountryId": 832,
+    "ContactId": 493,
+    "ContactName": "Wolf, Littel and Reinger",
+    "Retired": 322,
+    "Rank": 721,
+    "ActiveInterests": 319,
     "ContactDepartment": "",
-    "ContactCountryId": 783,
-    "ContactOrgNr": "350579",
-    "FaxPhone": "173-018-1868 x74243",
-    "MobilePhone": "165.887.2231 x2637",
-    "ContactPhone": "(166)566-4645",
-    "AssociateName": "Walker Group",
-    "AssociateId": 195,
+    "ContactCountryId": 541,
+    "ContactOrgNr": "1190231",
+    "FaxPhone": "1-924-931-2418 x86456",
+    "MobilePhone": "1-012-672-5224 x3470",
+    "ContactPhone": "(360)765-4341 x365",
+    "AssociateName": "Okuneva, Jewess and Spinka",
+    "AssociateId": 138,
     "UsePersonAddress": false,
-    "ContactFax": "dolorum",
-    "Kanafname": "est",
-    "Kanalname": "aut",
-    "Post1": "modi",
-    "Post2": "voluptate",
-    "Post3": "aut",
-    "EmailName": "alberto_kassulke@wolffstracke.biz",
-    "ContactFullName": "Jedediah Schuppe",
-    "ActiveErpLinks": 656,
-    "TicketPriorityId": 122,
-    "SupportLanguageId": 697,
-    "SupportAssociateId": 991,
+    "ContactFax": "minima",
+    "Kanafname": "iure",
+    "Kanalname": "soluta",
+    "Post1": "odio",
+    "Post2": "id",
+    "Post3": "ex",
+    "EmailName": "cicero@denesikswift.ca",
+    "ContactFullName": "Ulises Keanu Schimmel PhD",
+    "ActiveErpLinks": 740,
+    "TicketPriorityId": 527,
+    "SupportLanguageId": 210,
+    "SupportAssociateId": 649,
     "CategoryName": "VIP Customer",
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
+        "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 53
+        "FieldLength": 748
       }
     }
   }

@@ -1,6 +1,6 @@
 ---
 title: PUT Product/{id}/ImageInfo
-id: v1Product_PutImageInfo
+uid: v1Product_PutImageInfo
 ---
 
 # PUT Product/{id}/ImageInfo
@@ -11,11 +11,18 @@ PUT /api/v1/Product/{productId}/ImageInfo
 
 Update the Blob that describes the given person's picture.
 
+
 The actual bitmap is accessible via /api/Services80/person/123/image.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | productId | int32 | Product id **Required** |
+
+
 
 ## Request Headers
 
@@ -31,9 +38,9 @@ The actual bitmap is accessible via /api/Services80/person/123/image.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: imageInfo
+## Request Body: imageInfo  
 
-New or Updated information about the product image.
+New or Updated information about the product image. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -51,16 +58,16 @@ New or Updated information about the product image.
 | UpdatedBy |  | The person that last updated the appointment. |
 | ConceptualType | string | The type, for instance PHOTO, PERSONPHOTO, or whatever, that is descriptive of what kind of image or data this is |
 
-## Response: object
 
-Carrier object for BlobEntity.
-Services for the BlobEntity Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IBLOBAgent">BLOB Agent</see>.
+## Response: 
+
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -80,7 +87,7 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 PUT /api/v1/Product/{productId}/ImageInfo
@@ -90,126 +97,48 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 267,
-  "BlobSize": 270,
-  "Description": "Business-focused systematic product",
-  "ExtraInfo": "recusandae",
+  "BlobId": 907,
+  "BlobSize": 659,
+  "Description": "Realigned analyzing throughput",
+  "ExtraInfo": "omnis",
   "IsEncrypted": false,
-  "IsZipped": false,
-  "MimeType": "quae",
-  "OriginalSize": 145,
-  "CreatedDate": "1997-10-07T18:25:51.4061181+02:00",
-  "UpdatedDate": "2015-05-24T18:25:51.4061181+02:00",
-  "CreatedBy": {
-    "AssociateId": 888,
-    "Name": "Oberbrunner Group",
-    "PersonId": 30,
-    "Rank": 835,
-    "Tooltip": "dignissimos",
-    "Type": "AnonymousAssociate",
-    "GroupIdx": 388,
-    "FullName": "Nicole Schultz",
-    "FormalName": "Eichmann-Krajcik",
-    "Deleted": false,
-    "EjUserId": 47,
-    "UserName": "Stroman, Lakin and Rippin"
-  },
-  "UpdatedBy": {
-    "AssociateId": 329,
-    "Name": "Monahan, Pacocha and Johnston",
-    "PersonId": 519,
-    "Rank": 597,
-    "Tooltip": "eaque",
-    "Type": "AnonymousAssociate",
-    "GroupIdx": 53,
-    "FullName": "Mara Botsford",
-    "FormalName": "Skiles, Hilll and Gorczany",
-    "Deleted": false,
-    "EjUserId": 822,
-    "UserName": "Parisian, Waelchi and Auer"
-  },
-  "ConceptualType": "officia"
+  "IsZipped": true,
+  "MimeType": "fugit",
+  "OriginalSize": 558,
+  "CreatedDate": "2020-12-07T11:10:53.7502133+01:00",
+  "UpdatedDate": "1999-12-11T11:10:53.7502133+01:00",
+  "CreatedBy": null,
+  "UpdatedBy": null,
+  "ConceptualType": "dolorum"
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 996,
-  "BlobSize": 265,
-  "Description": "Implemented multi-tasking parallelism",
-  "ExtraInfo": "porro",
-  "IsEncrypted": true,
-  "IsZipped": true,
-  "MimeType": "ad",
-  "OriginalSize": 356,
-  "CreatedDate": "1996-09-30T18:25:51.4091181+02:00",
-  "UpdatedDate": "2016-03-19T18:25:51.4091181+01:00",
-  "CreatedBy": {
-    "AssociateId": 538,
-    "Name": "Rath Group",
-    "PersonId": 318,
-    "Rank": 638,
-    "Tooltip": "aut",
-    "Type": "AnonymousAssociate",
-    "GroupIdx": 793,
-    "FullName": "Edyth Ferry",
-    "FormalName": "Rippin-Armstrong",
-    "Deleted": false,
-    "EjUserId": 651,
-    "UserName": "Roob LLC",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 959
-      }
-    }
-  },
-  "UpdatedBy": {
-    "AssociateId": 940,
-    "Name": "Will Inc and Sons",
-    "PersonId": 709,
-    "Rank": 450,
-    "Tooltip": "distinctio",
-    "Type": "AnonymousAssociate",
-    "GroupIdx": 998,
-    "FullName": "Leanne Hermann",
-    "FormalName": "Bradtke-Rice",
-    "Deleted": true,
-    "EjUserId": 792,
-    "UserName": "Predovic-Kemmer",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.Int32",
-        "FieldLength": 302
-      }
-    }
-  },
-  "ConceptualType": "et",
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": "maximize value-added e-services"
-  },
+  "BlobId": 965,
+  "BlobSize": 434,
+  "Description": "Function-based object-oriented middleware",
+  "ExtraInfo": "non",
+  "IsEncrypted": false,
+  "IsZipped": false,
+  "MimeType": "eveniet",
+  "OriginalSize": 323,
+  "CreatedDate": "1997-04-28T11:10:53.7522125+02:00",
+  "UpdatedDate": "2006-08-20T11:10:53.7522125+02:00",
+  "CreatedBy": null,
+  "UpdatedBy": null,
+  "ConceptualType": "pariatur",
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
+      "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 318
+      "FieldLength": 21
     }
   }
 }

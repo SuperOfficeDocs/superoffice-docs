@@ -1,6 +1,6 @@
 ---
 title: POST Agents/EMail/SaveEmailToTmpDocument
-id: v1EMailAgent_SaveEmailToTmpDocument
+uid: v1EMailAgent_SaveEmailToTmpDocument
 ---
 
 # POST Agents/EMail/SaveEmailToTmpDocument
@@ -11,7 +11,15 @@ POST /api/v1/Agents/EMail/SaveEmailToTmpDocument
 
 Save the Email as a tmp document ready to archive
 
-## Online Restricted: ## The EMail agent is not available in Online by default. Access must be requested specifically when app is registered
+
+
+
+## Online Restricted: ## The EMail agent is not available in Online by default. Access must be requested specifically when app is registered.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +30,7 @@ Save the Email as a tmp document ready to archive
 ```http
 POST /api/v1/Agents/EMail/SaveEmailToTmpDocument?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,17 +46,20 @@ POST /api/v1/Agents/EMail/SaveEmailToTmpDocument?$select=name,department,categor
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-Email, FolderId, StripAttachments
+Email, FolderId, StripAttachments 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| Email |  | All information about an e-mail <br /> Carrier object for EMailEntity. Services for the EMailEntity Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IEMailAgent">EMail Agent</see>. |
+| Email |  | All information about an e-mail <para /> Carrier object for EMailEntity. Services for the EMailEntity Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IEMailAgent">EMail Agent</see>. |
 | FolderId | int32 |  |
 | StripAttachments | bool |  |
 
+
 ## Response: string
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -55,67 +67,28 @@ Email, FolderId, StripAttachments
 
 Response body: string
 
-## Sample Request
+
+## Sample request
 
 ```http!
 POST /api/v1/Agents/EMail/SaveEmailToTmpDocument
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Email": {
-    "To": [
-      {},
-      {}
-    ],
-    "Cc": [
-      {},
-      {}
-    ],
-    "Bcc": [
-      {},
-      {}
-    ],
-    "Subject": "ullam",
-    "HTMLBody": "temporibus",
-    "From": {},
-    "Sent": "2000-06-05T18:28:48.990955+02:00",
-    "Size": 432,
-    "Priority": "High",
-    "Flags": "Answered",
-    "MessageID": "eaque",
-    "PlainBody": "adipisci",
-    "IsSent": false,
-    "EMailSOInfo": {},
-    "ServerId": 783,
-    "Attachments": [
-      {},
-      {}
-    ],
-    "CustomHeaderList": [
-      {},
-      {}
-    ],
-    "FolderName": "Harris, Torp and Mraz",
-    "EmailItemId": 246,
-    "AccountId": 750,
-    "ReceivedAt": "2020-04-27T18:28:48.990955+02:00",
-    "InReplyTo": {},
-    "RepliedAt": "2004-02-12T18:28:48.990955+01:00",
-    "HasCalendarData": true,
-    "CalMethod": "Add",
-    "CalReplyStatus": "Accepted"
-  },
-  "FolderId": 909,
-  "StripAttachments": true
+  "Email": null,
+  "FolderId": 993,
+  "StripAttachments": false
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"faustino@jacobson.name"
+"eunice@fay.biz"
 ```

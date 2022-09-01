@@ -13,7 +13,9 @@ Implemented by the <see cref="M:SuperOffice.Services87.IListAgent.GetPositions">
 
 Returns all the positions a person could have.
 
+
 **Returns:** An array of all available positions
+
 
 [WSDL file for Services87/List](../Services87-List.md)
 
@@ -46,6 +48,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## GetPositions Response
 
 ```xml
@@ -72,3 +75,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

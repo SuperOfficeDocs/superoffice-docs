@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Contact/GetContact
-id: v1ContactAgent_GetContact
+uid: v1ContactAgent_GetContact
 ---
 
 # POST Agents/Contact/GetContact
@@ -11,6 +11,12 @@ POST /api/v1/Agents/Contact/GetContact
 
 Gets a Contact object.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -19,9 +25,10 @@ Gets a Contact object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Contact/GetContact?contactId=947
+POST /api/v1/Agents/Contact/GetContact?contactId=790
 POST /api/v1/Agents/Contact/GetContact?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -36,16 +43,16 @@ POST /api/v1/Agents/Contact/GetContact?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response: object
 
-Carrier object for Contact.
-Services for the Contact Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IContactAgent">Contact Agent</see>.
+## Response: 
+
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -74,121 +81,50 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Contact/GetContact
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 451,
-  "Name": "O'Hara, Hirthe and Yundt",
-  "OrgNr": "1651432",
+  "ContactId": 507,
+  "Name": "Osinski, Friesen and Goodwin",
+  "OrgNr": "1311916",
   "Department": "",
   "URL": "http://www.example.com/",
-  "City": "ipsam",
-  "DirectPhone": "(330)274-1250 x0741",
-  "AssociateId": 33,
-  "CountryId": 342,
-  "EmailAddress": "johnson_runte@schuster.biz",
-  "Kananame": "reprehenderit",
-  "EmailAddressName": "taya_weber@ullrichwunsch.us",
+  "City": "pariatur",
+  "DirectPhone": "955.888.0433 x210",
+  "AssociateId": 745,
+  "CountryId": 888,
+  "EmailAddress": "osborne.thompson@bins.uk",
+  "Kananame": "officiis",
+  "EmailAddressName": "torey@gleasonwiza.com",
   "URLName": "http://www.example.com/",
-  "AssociateFullName": "Geovanny Harris",
+  "AssociateFullName": "Priscilla McClure",
   "BusinessName": "Information Technology",
   "CategoryName": "VIP Customer",
   "CountryName": "Sokovia",
-  "Address": {
-    "Wgs84Latitude": 17381.164,
-    "Wgs84Longitude": 29421.992,
-    "LocalizedAddress": [
-      [
-        {
-          "Name": "Ryan-Gislason",
-          "Value": "consequatur",
-          "Tooltip": "aspernatur",
-          "Label": "a",
-          "ValueLength": 522,
-          "AddressType": "excepturi",
-          "TableRight": {
-            "Mask": "Delete",
-            "Reason": ""
-          },
-          "FieldProperties": {
-            "fieldName": {
-              "FieldRight": {
-                "Mask": "FULL",
-                "Reason": ""
-              },
-              "FieldType": "System.Int32",
-              "FieldLength": 161
-            }
-          }
-        }
-      ],
-      [
-        {
-          "Name": "Pollich-Conroy",
-          "Value": "quia",
-          "Tooltip": "sequi",
-          "Label": "voluptatibus",
-          "ValueLength": 575,
-          "AddressType": "consequatur",
-          "TableRight": {
-            "Mask": "Delete",
-            "Reason": ""
-          },
-          "FieldProperties": {
-            "fieldName": {
-              "FieldRight": {
-                "Mask": "FULL",
-                "Reason": ""
-              },
-              "FieldType": "System.Int32",
-              "FieldLength": 25
-            }
-          }
-        }
-      ]
-    ],
-    "Street": {},
-    "Postal": {},
-    "Formatted": "beatae",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.Int32",
-        "FieldLength": 135
-      }
-    }
-  },
-  "FormattedAddress": "qui",
-  "FullName": "Helene Hyatt",
+  "Address": null,
+  "FormattedAddress": "aspernatur",
+  "FullName": "Cornelius Herman",
   "IsOwnerContact": true,
-  "ActiveErpLinks": 86,
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "ActiveErpLinks": 921,
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
-      "FieldType": "System.String",
-      "FieldLength": 798
+      "FieldRight": null,
+      "FieldType": "System.Int32",
+      "FieldLength": 956
     }
   }
 }

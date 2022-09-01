@@ -1,6 +1,6 @@
 ---
 title: POST Document/UdefLayout/{progidOrLabel}/ChangeTo/{fieldType}
-id: v1DocumentEntity_ChangeFieldType
+uid: v1DocumentEntity_ChangeFieldType
 ---
 
 # POST Document/UdefLayout/{progidOrLabel}/ChangeTo/{fieldType}
@@ -11,10 +11,16 @@ POST /api/v1/Document/UdefLayout/{progidOrLabel}/ChangeTo/{fieldType}
 
 Change a DocumentEntity user-defined field's type based on the prog-id or label.
 
+
+
+
+
+
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | progidOrLabel | string | The udef field id, case-sensitive prog-id, or field label. **Required** |
 | fieldType | Enum: Number, ShortText, LongText, Date, UnlimitedDate, Checkbox, List, Decimal | The new type of the user defined field. **Required** |
+
 
 ## Query String Parameters
 
@@ -25,6 +31,7 @@ Change a DocumentEntity user-defined field's type based on the prog-id or label.
 ```http
 POST /api/v1/Document/UdefLayout/{progidOrLabel}/ChangeTo/{fieldType}?isIndexed=True
 ```
+
 
 ## Request Headers
 
@@ -39,19 +46,17 @@ POST /api/v1/Document/UdefLayout/{progidOrLabel}/ChangeTo/{fieldType}?isIndexed=
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response: object
 
-Return information about the user defined fields. The information can be used to mirror the layout of the user-defined fields in the user interface.
+## Response: 
 
-Carrier object for UserDefinedFieldInfo.
-Services for the UserDefinedFieldInfo Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent">UserDefinedFieldInfo Agent</see>.
+DocumentEntity found.
 
 | Response | Description |
 |----------------|-------------|
 | 200 | DocumentEntity found. |
 | 404 | DocumentEntity not found. |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -92,7 +97,7 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Document/UdefLayout/{progidOrLabel}/ChangeTo/{fieldType}
@@ -101,57 +106,53 @@ Accept: application/json; charset=utf-8
 Accept-Language: en
 ```
 
+## Sample response
+
 ```http_
 HTTP/1.1 200 DocumentEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 954,
-  "ColumnId": 211,
-  "FieldDefault": "quia",
-  "FieldHeight": 163,
-  "FieldLabel": "odit",
-  "FieldLeft": 200,
-  "FieldTop": 986,
+  "UDefFieldId": 907,
+  "ColumnId": 541,
+  "FieldDefault": "quas",
+  "FieldHeight": 696,
+  "FieldLabel": "consectetur",
+  "FieldLeft": 263,
+  "FieldTop": 514,
   "FieldType": "Checkbox",
-  "FieldWidth": 501,
-  "FormatMask": "illum",
+  "FieldWidth": 868,
+  "FormatMask": "officiis",
   "HideLabel": false,
   "IsIndexed": false,
-  "LabelHeight": 882,
-  "LabelLeft": 189,
-  "LabelTop": 169,
-  "LabelWidth": 757,
-  "LastVersionId": 507,
-  "ListTableId": 535,
-  "IsMandatory": false,
+  "LabelHeight": 902,
+  "LabelLeft": 718,
+  "LabelTop": 659,
+  "LabelWidth": 559,
+  "LastVersionId": 203,
+  "ListTableId": 948,
+  "IsMandatory": true,
   "Type": "Appointment",
-  "Page1LineNo": 228,
-  "ProgId": "optio",
+  "Page1LineNo": 926,
+  "ProgId": "quas",
   "IsReadOnly": false,
-  "ShortLabel": "quisquam",
-  "TabOrder": 391,
-  "TextLength": 437,
-  "Tooltip": "tempore",
-  "UdefIdentity": 972,
-  "UDListDefinitionId": 874,
+  "ShortLabel": "vel",
+  "TabOrder": 985,
+  "TextLength": 709,
+  "Tooltip": "magni",
+  "UdefIdentity": 325,
+  "UDListDefinitionId": 872,
   "Justification": "Center",
-  "Version": 717,
-  "TemplateVariableName": "Lynch, Howe and Schaden",
+  "Version": 822,
+  "TemplateVariableName": "Gleason-Bradtke",
   "HasBeenPublished": true,
-  "MdoListName": "Schmeler LLC",
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "MdoListName": "Conroy Group",
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": "morph synergistic niches"
-      },
+      "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 140
+      "FieldLength": 311
     }
   }
 }

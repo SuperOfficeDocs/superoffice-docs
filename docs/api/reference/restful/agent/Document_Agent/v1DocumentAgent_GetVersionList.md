@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Document/GetVersionList
-id: v1DocumentAgent_GetVersionList
+uid: v1DocumentAgent_GetVersionList
 ---
 
 # POST Agents/Document/GetVersionList
@@ -11,6 +11,12 @@ POST /api/v1/Agents/Document/GetVersionList
 
 Get a list of existing, committed  versions for a given document
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Get a list of existing, committed  versions for a given document
 ```http
 POST /api/v1/Agents/Document/GetVersionList?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,15 +42,18 @@ POST /api/v1/Agents/Document/GetVersionList?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-DocumentId
+DocumentId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | DocumentId | int32 |  |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -63,19 +73,21 @@ Response body: array
 | DisplayText | string |  |
 | ExtraFields | array |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Document/GetVersionList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 166
+  "DocumentId": 61
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -83,17 +95,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ExternalReference": "consequatur",
-    "DocumentId": 786,
-    "VersionId": "est",
-    "CheckedInDate": "1995-03-23T18:28:48.7359571+01:00",
-    "CheckedInByName": "Aufderhar LLC",
-    "CheckedInByAssociateId": 188,
-    "Description": "Switchable 24 hour Graphic Interface",
-    "DisplayText": "sed",
+    "ExternalReference": "velit",
+    "DocumentId": 942,
+    "VersionId": "possimus",
+    "CheckedInDate": "2021-06-18T11:10:26.6044237+02:00",
+    "CheckedInByName": "Sporer, Stoltenberg and Krajcik",
+    "CheckedInByAssociateId": 59,
+    "Description": "Re-engineered composite adapter",
+    "DisplayText": "enim",
     "ExtraFields": [
       "omnis",
-      "dignissimos"
+      "qui"
     ]
   }
 ]

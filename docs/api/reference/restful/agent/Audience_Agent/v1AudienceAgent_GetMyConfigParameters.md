@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Audience/GetMyConfigParameters
-id: v1AudienceAgent_GetMyConfigParameters
+uid: v1AudienceAgent_GetMyConfigParameters
 ---
 
 # POST Agents/Audience/GetMyConfigParameters
@@ -11,6 +11,12 @@ POST /api/v1/Agents/Audience/GetMyConfigParameters
 
 Gets the Audience configuration parameters belonging to the currently logged on user.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Gets the Audience configuration parameters belonging to the currently logged on 
 ```http
 POST /api/v1/Agents/Audience/GetMyConfigParameters?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -34,7 +41,10 @@ POST /api/v1/Agents/Audience/GetMyConfigParameters?$select=name,department,categ
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -54,14 +64,16 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Audience/GetMyConfigParameters
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -69,25 +81,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AudienceLayoutId": 24,
-    "Name": "Kreiger, Abbott and Kuphal",
-    "Value": "voluptas",
-    "CreatedDate": "2002-05-29T18:28:48.1315431+02:00",
-    "UpdatedDate": "2018-08-25T18:28:48.1315431+02:00",
-    "CreatedBy": "hic",
-    "UpdatedBy": "quasi",
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "AudienceLayoutId": 502,
+    "Name": "Bruen, Gulgowski and Rice",
+    "Value": "rerum",
+    "CreatedDate": "2018-12-11T11:10:26.0065533+01:00",
+    "UpdatedDate": "2009-07-06T11:10:26.0065533+02:00",
+    "CreatedBy": "necessitatibus",
+    "UpdatedBy": "sunt",
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
+        "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 134
+        "FieldLength": 771
       }
     }
   }

@@ -1,6 +1,6 @@
 ---
 title: PUT Pricelist/{id}
-id: v1PriceList_PutPriceList
+uid: v1PriceList_PutPriceList
 ---
 
 # PUT Pricelist/{id}
@@ -11,9 +11,15 @@ PUT /api/v1/Pricelist/{id}
 
 Updates the existing PriceList
 
+
+
+
+
+
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | id | int32 | The PriceList id to update. **Required** |
+
 
 ## Query String Parameters
 
@@ -24,6 +30,7 @@ Updates the existing PriceList
 ```http
 PUT /api/v1/Pricelist/{id}?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -39,9 +46,9 @@ PUT /api/v1/Pricelist/{id}?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entity
+## Request Body: entity  
 
-The PriceList to be saved.
+The PriceList to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -56,18 +63,17 @@ The PriceList to be saved.
 | ValidTo | date-time | The date (inclusive) the pricelist ends to be valid. This can be DateTime.MaxValue to signal that it doesn't have a specific end date. |
 | IsActive | bool | Is the list active (as opposed to being worked on, suddenly canceled, etc. |
 
-## Response: object
 
-A pricelist is basically a collection of products. It can be valid in a time period, and outright deactivated. All prices in the product list is in a specific currency. We have decieded not to separate prices and products, which means that we get a simpler data model, but some redundancy.
+## Response: 
 
-PriceList entity with API _Links added.
+PriceList updated.
 
 | Response | Description |
 |----------------|-------------|
 | 200 | PriceList updated. |
 | 400 | Bad request. Entity to save is not in request body. |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -85,56 +91,52 @@ Response body: object
 | FieldProperties | object |  |
 | _Links | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 PUT /api/v1/Pricelist/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 271,
-  "ERPPriceListKey": "quasi",
-  "QuoteConnectionId": 957,
-  "Name": "Corwin, Hoppe and Powlowski",
-  "Description": "Distributed stable customer loyalty",
-  "Currency": "eos",
-  "CurrencyName": "Schowalter Group",
-  "ValidFrom": "2006-07-03T18:25:51.9732447+02:00",
-  "ValidTo": "2003-12-13T18:25:51.9732447+01:00",
+  "PriceListId": 518,
+  "ERPPriceListKey": "deleniti",
+  "QuoteConnectionId": 231,
+  "Name": "Runte-Mills",
+  "Description": "Innovative zero defect conglomeration",
+  "Currency": "nemo",
+  "CurrencyName": "Jacobi, Wisoky and Streich",
+  "ValidFrom": "2018-11-27T11:10:54.3869026+01:00",
+  "ValidTo": "1998-07-11T11:10:54.3869026+02:00",
   "IsActive": true
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 PriceList updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 44,
-  "ERPPriceListKey": "cumque",
-  "QuoteConnectionId": 736,
-  "Name": "Hackett, Langworth and Dickinson",
-  "Description": "Ergonomic impactful task-force",
-  "Currency": "vitae",
-  "CurrencyName": "Cremin LLC",
-  "ValidFrom": "2011-04-23T18:25:51.9732447+02:00",
-  "ValidTo": "1997-10-07T18:25:51.9732447+02:00",
+  "PriceListId": 521,
+  "ERPPriceListKey": "ut",
+  "QuoteConnectionId": 42,
+  "Name": "Nicolas-Will",
+  "Description": "Implemented analyzing conglomeration",
+  "Currency": "atque",
+  "CurrencyName": "Nikolaus Inc and Sons",
+  "ValidFrom": "2021-06-12T11:10:54.3869026+02:00",
+  "ValidTo": "2000-07-17T11:10:54.3869026+02:00",
   "IsActive": false,
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
-      "FieldType": "System.String",
-      "FieldLength": 329
+      "FieldRight": null,
+      "FieldType": "System.Int32",
+      "FieldLength": 831
     }
   },
   "_Links": {

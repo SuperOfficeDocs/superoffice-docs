@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Quote/GetQuote
-id: v1QuoteAgent_GetQuote
+uid: v1QuoteAgent_GetQuote
 ---
 
 # POST Agents/Quote/GetQuote
@@ -11,6 +11,12 @@ POST /api/v1/Agents/Quote/GetQuote
 
 Get a Quote
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Get a Quote
 ```http
 POST /api/v1/Agents/Quote/GetQuote?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,26 +42,24 @@ POST /api/v1/Agents/Quote/GetQuote?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-QuoteId
+QuoteId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | QuoteId | int32 |  |
 
-## Response: object
 
-Quote carrier with the active quote version and favorite alternative.
+## Response: 
 
-Carrier object for Quote.
-Services for the Quote Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IQuoteAgent">Quote Agent</see>.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -75,138 +80,47 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Quote/GetQuote
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteId": 776
+  "QuoteId": 109
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteId": 257,
-  "SaleId": 780,
-  "QuoteConnectionId": 880,
-  "ERPQuoteKey": "necessitatibus",
-  "ERPOrderKey": "unde",
-  "ActiveQuoteVersionId": 606,
-  "AcceptedQuoteAlternativeId": 918,
-  "UseValuesFromQuote": 961,
-  "DocumentId": 465,
-  "PoNumber": "1323535",
-  "OrderComment": "vitae",
-  "PreferredEmailCulture": "felix.mosciski@jacobson.biz",
-  "ActiveQuoteVersion": {
-    "QuoteVersionId": 831,
-    "ERPQuoteVersionKey": "voluptatem",
-    "QuoteId": 92,
-    "Description": "Re-engineered user-facing initiative",
-    "Number": "919181",
-    "State": "Archived",
-    "ArchivedState": "Archived",
-    "Status": "Error",
-    "Reason": "",
-    "LikelyQuoteAlternativeId": 104,
-    "SentDate": "1999-10-25T18:28:49.9911374+02:00",
-    "FollowupId": 359,
-    "ExpirationDate": "2000-07-05T18:28:49.9911374+02:00",
-    "DeliveryCountryId": 302,
-    "HasOwnDeliveryAddress": true,
-    "InvoiceCountryId": 564,
-    "HasOwnInvoiceAddress": false,
-    "ERPPaymentTermsKey": "ipsum",
-    "ERPPaymentTypeKey": "libero",
-    "ERPDeliveryTermsKey": "sint",
-    "ERPDeliveryTypeKey": "cumque",
-    "Rank": 639,
-    "ApprovedBy": 578,
-    "ApprovedText": "quo",
-    "ApprovedRegisteredBy": 181,
-    "ApprovedRegisteredDate": "2013-12-04T18:28:49.9911374+01:00",
-    "ExtraField1": "magni",
-    "ExtraField2": "officiis",
-    "ExtraField3": "laudantium",
-    "ExtraField4": "similique",
-    "ExtraField5": "delectus",
-    "LastRecalculated": "2006-03-20T18:28:49.9921373+01:00",
-    "Updated": "1995-11-24T18:28:49.9921373+01:00",
-    "UpdatedAssociateId": 251,
-    "Registered": "2008-04-24T18:28:49.9921373+02:00",
-    "RegisteredAssociateId": 263,
-    "QuoteAlternatives": [
-      {},
-      {}
-    ],
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": "expedite dynamic channels"
-        },
-        "FieldType": "System.Int32",
-        "FieldLength": 221
-      }
-    }
-  },
-  "FavoriteQuoteAlternative": {
-    "QuoteAlternativeId": 95,
-    "ERPQuoteAlternativeKey": "earum",
-    "QuoteVersionId": 420,
-    "Name": "Dietrich LLC",
-    "Description": "Synchronised 3rd generation neural-net",
-    "Status": "Error",
-    "Reason": "",
-    "ERPDiscountPercent": 9621.38,
-    "ERPDiscountAmount": 7051.5,
-    "DiscountPercent": 10116.552,
-    "DiscountAmount": 13410.386,
-    "UserValueOverride": "DiscountAmount",
-    "VATInfo": "earum",
-    "VAT": 6966.882,
-    "EarningPercent": 27203.12,
-    "EarningAmount": 30167.884,
-    "SubTotal": 2955.362,
-    "TotalPrice": 26378.878,
-    "ExtraField1": "placeat",
-    "ExtraField2": "officia",
-    "ExtraField3": "autem",
-    "ExtraField4": "doloribus",
-    "ExtraField5": "minima",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 565
-      }
-    }
-  },
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "QuoteId": 785,
+  "SaleId": 418,
+  "QuoteConnectionId": 863,
+  "ERPQuoteKey": "reprehenderit",
+  "ERPOrderKey": "perspiciatis",
+  "ActiveQuoteVersionId": 860,
+  "AcceptedQuoteAlternativeId": 377,
+  "UseValuesFromQuote": 777,
+  "DocumentId": 797,
+  "PoNumber": "1486387",
+  "OrderComment": "vero",
+  "PreferredEmailCulture": "bernard@faheyhansen.biz",
+  "ActiveQuoteVersion": null,
+  "FavoriteQuoteAlternative": null,
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
-      "FieldType": "System.String",
-      "FieldLength": 899
+      "FieldRight": null,
+      "FieldType": "System.Int32",
+      "FieldLength": 776
     }
   }
 }

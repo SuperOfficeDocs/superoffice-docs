@@ -1,6 +1,6 @@
 ---
 title: GET List/PaymentType/Headings
-id: v1PaymentTypeList_GetPaymentTypeHeadings
+uid: v1PaymentTypeList_GetPaymentTypeHeadings
 ---
 
 # GET List/PaymentType/Headings
@@ -11,7 +11,14 @@ GET /api/v1/List/PaymentType/Headings
 
 Gets headings for the PaymentType list.
 
+
 Calls the List agent service GetGetHeadingsFromListDefinition.
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -26,7 +33,10 @@ Calls the List agent service GetGetHeadingsFromListDefinition.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -45,14 +55,16 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 GET /api/v1/List/PaymentType/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -60,24 +72,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 644,
-    "Name": "Harvey-Rogahn",
-    "Tooltip": "totam",
+    "HeadingId": 166,
+    "Name": "Reichert Group",
+    "Tooltip": "occaecati",
     "Deleted": false,
-    "Rank": 14,
-    "UdListDefinitionId": 571,
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "Rank": 563,
+    "UdListDefinitionId": 307,
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
+        "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 933
+        "FieldLength": 148
       }
     }
   }

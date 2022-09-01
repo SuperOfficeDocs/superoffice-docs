@@ -1,6 +1,6 @@
 ---
 title: PUT List/ReasonStalled
-id: v1ReasonStalledList_SetListDefinition
+uid: v1ReasonStalledList_SetListDefinition
 ---
 
 # PUT List/ReasonStalled
@@ -10,6 +10,13 @@ PUT /api/v1/List/ReasonStalled
 ```
 
 Save the description of ReasonStalled list
+
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -25,12 +32,12 @@ Save the description of ReasonStalled list
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: listEntity
+## Request Body: listEntity  
 
 The list entity contains information about a specific list
-<br />
+<para />
 Carrier object for ListEntity.
-Services for the ListEntity Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IListAgent">List Agent</see>.
+Services for the ListEntity Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IListAgent">List Agent</see>. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -45,18 +52,16 @@ Services for the ListEntity Carrier is available from the <see cref="T:SuperOffi
 | ListType | string | The type of this list, often indicated by the database name, but not necessarily |
 | InUseByUserDefinedFields | bool | True if this in use by one or more udfields |
 
-## Response: object
 
-The list entity contains information about a specific list
+## Response: 
 
-Carrier object for ListEntity.
-Services for the ListEntity Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IListAgent">List Agent</see>.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -73,7 +78,7 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 PUT /api/v1/List/ReasonStalled
@@ -83,46 +88,42 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 239,
-  "Name": "Mueller, Murphy and Fritsch",
-  "Tooltip": "dicta",
+  "Id": 739,
+  "Name": "Auer-Gerlach",
+  "Tooltip": "quia",
   "Deleted": false,
-  "Rank": 781,
-  "IsCustomList": true,
-  "IsMDOList": true,
+  "Rank": 278,
+  "IsCustomList": false,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": true,
-  "ListType": "exercitationem",
+  "ListType": "nulla",
   "InUseByUserDefinedFields": false
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 64,
-  "Name": "Klein, Smitham and D'Amore",
-  "Tooltip": "qui",
+  "Id": 386,
+  "Name": "Sanford Inc and Sons",
+  "Tooltip": "earum",
   "Deleted": true,
-  "Rank": 46,
-  "IsCustomList": true,
-  "IsMDOList": true,
+  "Rank": 568,
+  "IsCustomList": false,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "id",
-  "InUseByUserDefinedFields": true,
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "ListType": "quis",
+  "InUseByUserDefinedFields": false,
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": "reintermediate efficient e-services"
-      },
+      "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 60
+      "FieldLength": 483
     }
   }
 }

@@ -1,6 +1,6 @@
 ---
 title: PUT List/DeliveryType/Items
-id: v1DeliveryTypeList_PutAllDeliveryType
+uid: v1DeliveryTypeList_PutAllDeliveryType
 ---
 
 # PUT List/DeliveryType/Items
@@ -10,6 +10,13 @@ PUT /api/v1/List/DeliveryType/Items
 ```
 
 Update the DeliveryType list
+
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -25,9 +32,9 @@ Update the DeliveryType list
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: listItems
+## Request Body: listItems  
 
-All the updated DeliveryType.
+All the updated DeliveryType. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -38,7 +45,10 @@ All the updated DeliveryType.
 | UdListDefinitionId | int32 | The id of the list which this list item belongs to |
 | Rank | int32 | The rank of the list item |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -57,7 +67,7 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 PUT /api/v1/List/DeliveryType/Items
@@ -68,23 +78,25 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 606,
-    "Name": "Haley-Wisoky",
-    "Tooltip": "sequi",
+    "Id": 635,
+    "Name": "Mosciski-Leffler",
+    "Tooltip": "quia",
     "Deleted": false,
-    "UdListDefinitionId": 433,
-    "Rank": 570
+    "UdListDefinitionId": 179,
+    "Rank": 968
   },
   {
-    "Id": 606,
-    "Name": "Haley-Wisoky",
-    "Tooltip": "sequi",
+    "Id": 635,
+    "Name": "Mosciski-Leffler",
+    "Tooltip": "quia",
     "Deleted": false,
-    "UdListDefinitionId": 433,
-    "Rank": 570
+    "UdListDefinitionId": 179,
+    "Rank": 968
   }
 ]
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -92,24 +104,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 194,
-    "Name": "Cronin, Sanford and Mills",
-    "Tooltip": "fuga",
-    "Deleted": false,
-    "UdListDefinitionId": 218,
-    "Rank": 773,
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": "brand cross-platform content"
-    },
+    "Id": 61,
+    "Name": "Welch-Hermann",
+    "Tooltip": "a",
+    "Deleted": true,
+    "UdListDefinitionId": 362,
+    "Rank": 639,
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
+        "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 903
+        "FieldLength": 743
       }
     }
   }

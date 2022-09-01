@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Project/UpdateProjectMember
-id: v1ProjectAgent_UpdateProjectMember
+uid: v1ProjectAgent_UpdateProjectMember
 ---
 
 # POST Agents/Project/UpdateProjectMember
@@ -11,6 +11,12 @@ POST /api/v1/Agents/Project/UpdateProjectMember
 
 Updates a ProjectMember row.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Updates a ProjectMember row.
 ```http
 POST /api/v1/Agents/Project/UpdateProjectMember?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,26 +42,24 @@ POST /api/v1/Agents/Project/UpdateProjectMember?$select=name,department,category
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-ProjectMember
+ProjectMember 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| ProjectMember |  | A person can be a member of multiple projects, with a different comment and member type in each project. <br /> Carrier object for ProjectMember. Services for the ProjectMember Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IProjectAgent">Project Agent</see>. |
+| ProjectMember |  | A person can be a member of multiple projects, with a different comment and member type in each project. <para /> Carrier object for ProjectMember. Services for the ProjectMember Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IProjectAgent">Project Agent</see>. |
 
-## Response: object
 
-A person can be a member of multiple projects, with a different comment and member type in each project.
+## Response: 
 
-Carrier object for ProjectMember.
-Services for the ProjectMember Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IProjectAgent">Project Agent</see>.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -75,87 +80,61 @@ Response body: object
 | ProjectMemberTypeName | string | The projectmembers type name: 'secretary', 'member', etc. |
 | Phone | string | Phone number |
 | PhoneId | int32 | The phone id |
-| ProjectMemberTypeId | int32 | ProjectMember Type Id - from the ProjectMemberType list.  <br />Use MDO List name "PMembType" to get list items. |
+| ProjectMemberTypeId | int32 | ProjectMember Type Id - from the ProjectMemberType list.  <para>Use MDO List name "PMembType" to get list items.</para> |
 | EmailAddressName | string | The e-mail address description |
 | Comment | string | Comment text on the project membership |
 | FullName | string | The person's full name localized to the current culture/country.  (internal name used in clients for employees) |
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Project/UpdateProjectMember
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectMember": {
-    "ProjectmemberId": 47,
-    "ContactId": 385,
-    "ProjectId": 30,
-    "ContactName": "O'Connell LLC",
-    "ContactDepartment": "scale customized channels",
-    "ProjectName": "Sipes, Nolan and Macejkovic",
-    "EmailId": 321,
-    "EmailAddress": "dewayne@christiansen.us",
-    "CountryId": 231,
-    "Firstname": "Syble",
-    "MiddleName": "Zboncak Group",
-    "Lastname": "Cassin",
-    "PersonId": 396,
-    "Mrmrs": "nostrum",
-    "ProjectMemberTypeName": "Parisian, Dicki and Hamill",
-    "Phone": "160-641-3633 x130",
-    "PhoneId": 602,
-    "ProjectMemberTypeId": 829,
-    "EmailAddressName": "jade@barrows.uk",
-    "Comment": "aliquam",
-    "FullName": "Domenica Rohan"
-  }
+  "ProjectMember": null
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectmemberId": 381,
-  "ContactId": 40,
-  "ProjectId": 456,
-  "ContactName": "Muller-Franecki",
+  "ProjectmemberId": 546,
+  "ContactId": 597,
+  "ProjectId": 103,
+  "ContactName": "Johnston-Weber",
   "ContactDepartment": "",
-  "ProjectName": "Heller LLC",
-  "EmailId": 854,
-  "EmailAddress": "judge@russel.us",
-  "CountryId": 343,
-  "Firstname": "Mathew",
-  "MiddleName": "Kirlin, Berge and Kiehn",
-  "Lastname": "Towne",
-  "PersonId": 93,
-  "Mrmrs": "facere",
-  "ProjectMemberTypeName": "Wisozk-Maggio",
-  "Phone": "1-567-273-0160 x5477",
-  "PhoneId": 731,
-  "ProjectMemberTypeId": 560,
-  "EmailAddressName": "claudie@haag.ca",
-  "Comment": "reiciendis",
-  "FullName": "Miss Kacie Dare",
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "ProjectName": "Lowe Inc and Sons",
+  "EmailId": 61,
+  "EmailAddress": "lee_turner@hackettcrona.co.uk",
+  "CountryId": 528,
+  "Firstname": "Ellen",
+  "MiddleName": "Jenkins Inc and Sons",
+  "Lastname": "Fay",
+  "PersonId": 456,
+  "Mrmrs": "aut",
+  "ProjectMemberTypeName": "Crist Group",
+  "Phone": "147.878.0323",
+  "PhoneId": 323,
+  "ProjectMemberTypeId": 933,
+  "EmailAddressName": "vanessa@sawaynraynor.name",
+  "Comment": "voluptates",
+  "FullName": "Anibal Auer",
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
-      "FieldType": "System.Int32",
-      "FieldLength": 590
+      "FieldRight": null,
+      "FieldType": "System.String",
+      "FieldLength": 904
     }
   }
 }

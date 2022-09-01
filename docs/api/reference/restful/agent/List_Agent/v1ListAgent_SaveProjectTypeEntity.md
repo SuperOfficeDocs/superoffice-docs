@@ -1,6 +1,6 @@
 ---
 title: POST Agents/List/SaveProjectTypeEntity
-id: v1ListAgent_SaveProjectTypeEntity
+uid: v1ListAgent_SaveProjectTypeEntity
 ---
 
 # POST Agents/List/SaveProjectTypeEntity
@@ -10,6 +10,13 @@ POST /api/v1/Agents/List/SaveProjectTypeEntity
 ```
 
 Updates the existing ProjectTypeEntity or creates a new ProjectTypeEntity if the id parameter is empty
+
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -25,9 +32,9 @@ Updates the existing ProjectTypeEntity or creates a new ProjectTypeEntity if the
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entity
+## Request Body: entity  
 
-The ProjectTypeEntity to be saved.
+The ProjectTypeEntity to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -42,16 +49,16 @@ The ProjectTypeEntity to be saved.
 | IsAutoAdvance | bool | Does the project status advance automatically, when the last guided activity in a status is completed? |
 | Stages | array | Stages (project statuses), those associated with this ProjType are selected. |
 
-## Response: object
 
-Carrier object for ProjectTypeEntity.
-Services for the ProjectTypeEntity Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IListAgent">List Agent</see>.
+## Response: 
+
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -68,7 +75,7 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/List/SaveProjectTypeEntity
@@ -78,99 +85,92 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjTypeId": 318,
-  "Name": "Stanton-Steuber",
-  "Tooltip": "dolor",
-  "Rank": 280,
+  "ProjTypeId": 34,
+  "Name": "McLaughlin-Rohan",
+  "Tooltip": "maiores",
+  "Rank": 435,
   "DurationUnit": "Century",
-  "ProjectDuration": 1000,
-  "Deleted": false,
+  "ProjectDuration": 73,
+  "Deleted": true,
   "HasGuide": false,
   "IsAutoAdvance": false,
   "Stages": [
     {
-      "Id": 54,
-      "Name": "Quitzon, Hettinger and Effertz",
-      "ToolTip": "Cum velit esse omnis.",
-      "Deleted": true,
-      "Rank": 257,
-      "Type": "nobis",
-      "ColorBlock": 749,
-      "IconHint": "aspernatur",
-      "Selected": true,
-      "LastChanged": "2020-04-01T18:28:49.4440902+02:00",
+      "Id": 373,
+      "Name": "Padberg, Emard and Jast",
+      "ToolTip": "Vitae quae voluptatem pariatur.",
+      "Deleted": false,
+      "Rank": 698,
+      "Type": "fugiat",
+      "ColorBlock": 357,
+      "IconHint": "iusto",
+      "Selected": false,
+      "LastChanged": "2016-10-02T11:10:27.251448+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "dolores",
-      "StyleHint": "nihil",
-      "Hidden": true,
-      "FullName": "Annalise Kerluke III"
+      "ExtraInfo": "animi",
+      "StyleHint": "consectetur",
+      "Hidden": false,
+      "FullName": "Juanita Elnora Boehm IV"
     }
   ]
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjTypeId": 36,
-  "Name": "Price-Beahan",
-  "Tooltip": "in",
-  "Rank": 832,
+  "ProjTypeId": 854,
+  "Name": "Nikolaus, Kirlin and Altenwerth",
+  "Tooltip": "consequatur",
+  "Rank": 991,
   "DurationUnit": "Century",
-  "ProjectDuration": 828,
+  "ProjectDuration": 467,
   "Deleted": true,
   "HasGuide": true,
-  "IsAutoAdvance": true,
+  "IsAutoAdvance": false,
   "Stages": [
     {
-      "Id": 913,
-      "Name": "Maggio, Harber and Runolfsson",
-      "ToolTip": "Est illo quae.",
-      "Deleted": true,
-      "Rank": 950,
+      "Id": 678,
+      "Name": "Wolf Group",
+      "ToolTip": "Culpa impedit.",
+      "Deleted": false,
+      "Rank": 920,
       "Type": "et",
-      "ColorBlock": 112,
-      "IconHint": "facere",
-      "Selected": true,
-      "LastChanged": "2010-12-20T18:28:49.4460892+01:00",
+      "ColorBlock": 430,
+      "IconHint": "repudiandae",
+      "Selected": false,
+      "LastChanged": "2004-04-08T11:10:27.2524511+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "unde",
-      "StyleHint": "et",
-      "Hidden": true,
-      "FullName": "Isabel Tremblay",
-      "TableRight": {},
+      "ExtraInfo": "earum",
+      "StyleHint": "ut",
+      "Hidden": false,
+      "FullName": "Eula Stehr",
+      "TableRight": null,
       "FieldProperties": {
         "fieldName": {
-          "FieldRight": {
-            "Mask": "FULL",
-            "Reason": ""
-          },
+          "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 54
+          "FieldLength": 398
         }
       }
     }
   ],
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
-      "FieldType": "System.Int32",
-      "FieldLength": 464
+      "FieldRight": null,
+      "FieldType": "System.String",
+      "FieldLength": 314
     }
   }
 }

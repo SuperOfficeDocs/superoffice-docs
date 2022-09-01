@@ -7,7 +7,7 @@ keywords:
   - "mdo provider"
   - "visibleintask"
 so.generated: true
-so.date: 03.19.2021
+so.date: 08.26.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -15,11 +15,15 @@ so.envir:
 ---
 
 # "visibleintask" MDO List
-
 Visible in list for tasks: places where task button can appear.
+
+
 
 Implemented by the <see cref="T:SuperOffice.CRM.Lists.VisibleInTaskProvider">VisibleInTaskProvider</see> class.
 The name of the MDO list is 'visibleintask'.
+
+
+
 
 ## Sample Request
 
@@ -32,7 +36,6 @@ Accept-Language: *
 ```
 
 ## Sample Code
-
 ```cs
 var listProvider = SuperOffice.CRM.Lists.SoListProviderFactory.Create("visibleintask", forceFlatList: true);
 foreach (var item in listProvider.RootItems) {
@@ -66,6 +69,7 @@ foreach (var item in listProvider.RootItems) {
 |43|Document selection (external)|||
 |53|Product selection (products)|||
 |54|Product selection (companies)|||
+
 
 ## Related MDO Lists
 

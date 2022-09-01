@@ -1,6 +1,6 @@
 ---
 title: POST Agents/List/GetFromListName
-id: v1ListAgent_GetFromListName
+uid: v1ListAgent_GetFromListName
 ---
 
 # POST Agents/List/GetFromListName
@@ -11,6 +11,12 @@ POST /api/v1/Agents/List/GetFromListName
 
 Get a list item for the specified list defintion
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Get a list item for the specified list defintion
 ```http
 POST /api/v1/Agents/List/GetFromListName?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,27 +42,25 @@ POST /api/v1/Agents/List/GetFromListName?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-Id, UdListDefinitionName
+Id, UdListDefinitionName 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | Id | int32 |  |
 | UdListDefinitionName | string |  |
 
-## Response: object
 
-The list item entity contains generic list item information
+## Response: 
 
-Carrier object for ListItemEntity.
-Services for the ListItemEntity Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IListAgent">List Agent</see>.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -68,7 +73,7 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/List/GetFromListName
@@ -78,34 +83,30 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 747,
-  "UdListDefinitionName": "Goyette Group"
+  "Id": 67,
+  "UdListDefinitionName": "Okuneva-Pfeffer"
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 936,
-  "Name": "Maggio Group",
-  "Tooltip": "accusamus",
-  "Deleted": true,
-  "UdListDefinitionId": 818,
-  "Rank": 827,
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "Id": 673,
+  "Name": "Cole LLC",
+  "Tooltip": "aut",
+  "Deleted": false,
+  "UdListDefinitionId": 741,
+  "Rank": 83,
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
+      "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 324
+      "FieldLength": 272
     }
   }
 }

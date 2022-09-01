@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Batch/StartBatchJob
-id: v1BatchAgent_StartBatchJob
+uid: v1BatchAgent_StartBatchJob
 ---
 
 # POST Agents/Batch/StartBatchJob
@@ -11,6 +11,12 @@ POST /api/v1/Agents/Batch/StartBatchJob
 
 Start a batch job based on BatchTaskInfo.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Start a batch job based on BatchTaskInfo.
 ```http
 POST /api/v1/Agents/Batch/StartBatchJob?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,15 +42,18 @@ POST /api/v1/Agents/Batch/StartBatchJob?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-BatchTaskInfo
+BatchTaskInfo 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| BatchTaskInfo |  | BatchTaskInfo contains information about one batch task. <br /> Carrier object for BatchTaskInfo. Services for the BatchTaskInfo Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IBatchAgent">Batch Agent</see>. |
+| BatchTaskInfo |  | BatchTaskInfo contains information about one batch task. <para /> Carrier object for BatchTaskInfo. Services for the BatchTaskInfo Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IBatchAgent">Batch Agent</see>. |
+
 
 ## Response: int32
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -51,48 +61,26 @@ BatchTaskInfo
 
 Response body: int32
 
-## Sample Request
+
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Batch/StartBatchJob
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "BatchTaskInfo": {
-    "Id": 624,
-    "Name": "Ankunding LLC",
-    "AssociateId": 368,
-    "DetailsTable": 454,
-    "DetailsRecord": 2,
-    "IsSystemTask": false,
-    "IsInternalTask": false,
-    "ParameterObject": {
-      "ParameterObject1": "omnis",
-      "ParameterObject2": "delectus"
-    },
-    "LastStarted": "2005-06-06T18:28:48.1425438+02:00",
-    "Created": "2019-08-26T18:28:48.1425438+02:00",
-    "StartCount": 445,
-    "DatabaseSerialNumber": "1116185",
-    "Context": "quo",
-    "Result": "cum",
-    "State": "All",
-    "Description": "Balanced upward-trending conglomeration",
-    "Response": "illum",
-    "Request": "ut",
-    "ProgressDescription": "Reduced attitude-oriented open architecture",
-    "ProgressPercent": 722,
-    "FileName": "Lemke, Miller and Upton"
-  }
+  "BatchTaskInfo": null
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-440
+47
 ```

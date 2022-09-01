@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Appointment/SaveTaskListItem
-id: v1AppointmentAgent_SaveTaskListItem
+uid: v1AppointmentAgent_SaveTaskListItem
 ---
 
 # POST Agents/Appointment/SaveTaskListItem
@@ -10,6 +10,13 @@ POST /api/v1/Agents/Appointment/SaveTaskListItem
 ```
 
 Updates the existing TaskListItem or creates a new TaskListItem if the id parameter is empty
+
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -25,9 +32,9 @@ Updates the existing TaskListItem or creates a new TaskListItem if the id parame
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entity
+## Request Body: entity  
 
-The TaskListItem to be saved.
+The TaskListItem to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -45,16 +52,16 @@ The TaskListItem to be saved.
 | ColorIndex | string | JAP |
 | DefaultVideomeetingStatus | string | Default video-meeting status for meetings created in SuperOffice CRM. |
 
-## Response: object
 
-Carrier object for TaskListItem.
-Services for the TaskListItem Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IAppointmentAgent">Appointment Agent</see>.
+## Response: 
+
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -74,62 +81,58 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Appointment/SaveTaskListItem
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TaskListItemId": 103,
-  "Value": "sint",
+  "TaskListItemId": 745,
+  "Value": "asperiores",
   "Direction": "Incoming",
   "Type": "Appointment",
-  "Tooltip": "iste",
+  "Tooltip": "aut",
   "Deleted": true,
-  "IntentId": 278,
-  "Rank": 58,
+  "IntentId": 690,
+  "Rank": 690,
   "IsDefaultAlldayEvent": true,
-  "IsDefaultFree": true,
+  "IsDefaultFree": false,
   "IsDefaultPublished": true,
   "ColorIndex": "BlueAlt1",
   "DefaultVideomeetingStatus": "NoChange"
 }
 ```
 
+## Sample response
+
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TaskListItemId": 424,
-  "Value": "quia",
+  "TaskListItemId": 44,
+  "Value": "quas",
   "Direction": "Incoming",
   "Type": "Appointment",
-  "Tooltip": "aperiam",
+  "Tooltip": "quis",
   "Deleted": false,
-  "IntentId": 211,
-  "Rank": 115,
-  "IsDefaultAlldayEvent": true,
-  "IsDefaultFree": true,
+  "IntentId": 551,
+  "Rank": 444,
+  "IsDefaultAlldayEvent": false,
+  "IsDefaultFree": false,
   "IsDefaultPublished": true,
   "ColorIndex": "BlueAlt1",
   "DefaultVideomeetingStatus": "NoChange",
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
+      "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 722
+      "FieldLength": 404
     }
   }
 }

@@ -1,6 +1,6 @@
 ---
 title: POST Agents/ErpSync/TryConnectActor
-id: v1ErpSyncAgent_TryConnectActor
+uid: v1ErpSyncAgent_TryConnectActor
 ---
 
 # POST Agents/ErpSync/TryConnectActor
@@ -11,7 +11,15 @@ POST /api/v1/Agents/ErpSync/TryConnectActor
 
 Create a link between Erp and Crm and set default values
 
-## Online Restricted: ## The ErpSync agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for ERP integration apps
+
+
+
+## Online Restricted: ## The ErpSync agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for ERP integration apps.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +30,7 @@ Create a link between Erp and Crm and set default values
 ```http
 POST /api/v1/Agents/ErpSync/TryConnectActor?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,9 +46,9 @@ POST /api/v1/Agents/ErpSync/TryConnectActor?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-ErpConnectionId, CrmRecordId, CrmActorType, ErpKey, ErpActorType, FieldValues
+ErpConnectionId, CrmRecordId, CrmActorType, ErpKey, ErpActorType, FieldValues 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -50,7 +59,10 @@ ErpConnectionId, CrmRecordId, CrmActorType, ErpKey, ErpActorType, FieldValues
 | ErpActorType | string |  |
 | FieldValues | array |  |
 
+
 ## Response: bool
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -58,35 +70,36 @@ ErpConnectionId, CrmRecordId, CrmActorType, ErpKey, ErpActorType, FieldValues
 
 Response body: bool
 
-## Sample Request
+
+## Sample request
 
 ```http!
 POST /api/v1/Agents/ErpSync/TryConnectActor
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 883,
-  "CrmRecordId": 34,
+  "ErpConnectionId": 868,
+  "CrmRecordId": 667,
   "CrmActorType": "Contact",
-  "ErpKey": "qui",
+  "ErpKey": "unde",
   "ErpActorType": "Customer",
   "FieldValues": [
     {
-      "DisplayName": "Hermann, Rowe and Haag",
-      "CrmFieldKey": "voluptatem",
-      "Value": "corrupti",
-      "DisplayValue": "ratione",
+      "DisplayName": "Franecki Group",
+      "CrmFieldKey": "aut",
+      "Value": "iusto",
+      "DisplayValue": "cum",
       "SyncToCrm": false,
       "SyncToErp": true
     },
     {
-      "DisplayName": "Hermann, Rowe and Haag",
-      "CrmFieldKey": "voluptatem",
-      "Value": "corrupti",
-      "DisplayValue": "ratione",
+      "DisplayName": "Franecki Group",
+      "CrmFieldKey": "aut",
+      "Value": "iusto",
+      "DisplayValue": "cum",
       "SyncToCrm": false,
       "SyncToErp": true
     }
@@ -94,9 +107,11 @@ Content-Type: application/json; charset=utf-8
 }
 ```
 
+## Sample response
+
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-true
+false
 ```

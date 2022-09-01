@@ -1,6 +1,6 @@
 ---
 title: POST Agents/CustomerService/GetProgramUrl
-id: v1CustomerServiceAgent_GetProgramUrl
+uid: v1CustomerServiceAgent_GetProgramUrl
 ---
 
 # POST Agents/CustomerService/GetProgramUrl
@@ -11,6 +11,12 @@ POST /api/v1/Agents/CustomerService/GetProgramUrl
 
 This method will convert a module name into a Service URL.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ This method will convert a module name into a Service URL.
 ```http
 POST /api/v1/Agents/CustomerService/GetProgramUrl?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,16 +42,19 @@ POST /api/v1/Agents/CustomerService/GetProgramUrl?$select=name,department,catego
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-ProgramName, External
+ProgramName, External 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | ProgramName | string |  |
 | External | bool |  |
 
+
 ## Response: string
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -52,20 +62,23 @@ ProgramName, External
 
 Response body: string
 
-## Sample Request
+
+## Sample request
 
 ```http!
 POST /api/v1/Agents/CustomerService/GetProgramUrl
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProgramName": "Wyman LLC",
+  "ProgramName": "Schultz LLC",
   "External": false
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK

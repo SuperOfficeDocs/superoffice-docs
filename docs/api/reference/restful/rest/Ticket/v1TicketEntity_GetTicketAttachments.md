@@ -1,6 +1,6 @@
 ---
 title: GET Ticket/{id}/Attachments
-id: v1TicketEntity_GetTicketAttachments
+uid: v1TicketEntity_GetTicketAttachments
 ---
 
 # GET Ticket/{id}/Attachments
@@ -11,9 +11,16 @@ GET /api/v1/Ticket/{ticketEntityId}/Attachments
 
 Get attachment infos for all attachments connected to messages in specified ticket
 
+
+
+
+
+
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | ticketEntityId | int32 | The id of the ticket to get attachment infos from **Required** |
+
+
 
 ## Request Headers
 
@@ -28,7 +35,10 @@ Get attachment infos for all attachments connected to messages in specified tick
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -47,14 +57,16 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 GET /api/v1/Ticket/{ticketEntityId}/Attachments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -62,24 +74,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AttachmentId": 920,
-    "Name": "Pollich Inc and Sons",
-    "ContentType": "repellat",
-    "AttSize": 8,
+    "AttachmentId": 836,
+    "Name": "Oberbrunner, Ruecker and Stokes",
+    "ContentType": "laboriosam",
+    "AttSize": 825,
     "InlineImage": true,
-    "ContentId": "minima",
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "ContentId": "ducimus",
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
+        "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 181
+        "FieldLength": 159
       }
     }
   }

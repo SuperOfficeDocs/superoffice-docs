@@ -1,6 +1,6 @@
 ---
 title: POST Agents/List/GetTicketCategoryList
-id: v1ListAgent_GetTicketCategoryList
+uid: v1ListAgent_GetTicketCategoryList
 ---
 
 # POST Agents/List/GetTicketCategoryList
@@ -11,6 +11,12 @@ POST /api/v1/Agents/List/GetTicketCategoryList
 
 Gets an array of TicketCategoryEntity objects.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Gets an array of TicketCategoryEntity objects.
 ```http
 POST /api/v1/Agents/List/GetTicketCategoryList?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,11 +42,15 @@ POST /api/v1/Agents/List/GetTicketCategoryList?$select=name,department,category/
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: ticketCategoryEntityIds
+## Request Body: ticketCategoryEntityIds  
 
-The primary keys.
+The primary keys. 
+
+
 
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -69,7 +80,7 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/List/GetTicketCategoryList
@@ -78,85 +89,43 @@ Accept: application/json; charset=utf-8
 Accept-Language: en
 ```
 
+## Sample response
+
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TicketCategoryId": 318,
-    "ParentId": 199,
-    "Name": "Lindgren, Johnston and Shanahan",
-    "Fullname": "aspernatur",
-    "CategoryMaster": 40,
+    "TicketCategoryId": 301,
+    "ParentId": 53,
+    "Name": "Howe Inc and Sons",
+    "Fullname": "quasi",
+    "CategoryMaster": 921,
     "Flags": "AcceptWhenReplying",
     "DelegateMethod": "Even",
-    "ExternalName": "Goyette LLC",
+    "ExternalName": "Bosco, Pouros and Davis",
     "ClosingStatus": "Active",
     "MsgClosingStatus": "Active",
-    "AssignmentLag": 798,
-    "ReplyTemplate": 580,
-    "NotificationEmail": "blanche@boyerlangworth.uk",
-    "DefaultTicketStatus": {
-      "TicketStatusId": 751,
-      "Name": "Kirlin Group",
-      "Status": "Active",
-      "TimeCounter": "Externally",
-      "NoEmailReopen": false,
-      "IsDefault": true,
-      "UsedInQueue": true,
-      "TableRight": {},
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": {
-            "Mask": "FULL",
-            "Reason": ""
-          },
-          "FieldType": "System.Int32",
-          "FieldLength": 190
-        }
-      }
-    },
-    "DefaultMessageStatus": {
-      "TicketStatusId": 949,
-      "Name": "Schamberger Inc and Sons",
-      "Status": "Active",
-      "TimeCounter": "Externally",
-      "NoEmailReopen": true,
-      "IsDefault": false,
-      "UsedInQueue": false,
-      "TableRight": {},
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": {
-            "Mask": "FULL",
-            "Reason": ""
-          },
-          "FieldType": "System.Int32",
-          "FieldLength": 42
-        }
-      }
-    },
+    "AssignmentLag": 632,
+    "ReplyTemplate": 766,
+    "NotificationEmail": "claude.hand@dooleyhoppe.name",
+    "DefaultTicketStatus": null,
+    "DefaultMessageStatus": null,
     "ExtraFields": {
-      "ExtraFields1": "molestiae",
-      "ExtraFields2": "porro"
+      "ExtraFields1": "doloribus",
+      "ExtraFields2": "inventore"
     },
     "CustomFields": {
-      "CustomFields1": "eius",
-      "CustomFields2": "laboriosam"
+      "CustomFields1": "assumenda",
+      "CustomFields2": "ut"
     },
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
+        "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 881
+        "FieldLength": 413
       }
     }
   }

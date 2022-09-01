@@ -17,6 +17,7 @@ Stop a batch job based on Id.
 
 **Returns:** Returns true if the job was stopped successfully.
 
+
 [WSDL file for Services87/Batch](../Services87-Batch.md)
 
 Obtain a ticket from the [Services87/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -49,6 +50,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## StopBatchJob Response
 
 ```xml
@@ -69,3 +71,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

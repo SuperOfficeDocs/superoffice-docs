@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "SuggestedDocument"
-so.date: 04.12.2022
+so.date: 08.26.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -37,6 +37,7 @@ Unique owner of a set of licensed modules
 |updated\_associate\_id|Last updated by whom|FK [associate](associate.md)| |
 |updatedCount|Number of updates made to this record|UShort| |
 
+
 ![SuggestedDocument table relationship diagram](./media/SuggestedDocument.png)
 
 [!include[details](./includes/suggesteddocument.md)]
@@ -60,6 +61,7 @@ Unique owner of a set of licensed modules
 |[ProjectTypeStatusLink](projecttypestatuslink.md)  |Many-many link table between project type and status, similar to sale type-stage link; and an anchor point for guide items |
 |[SaleTypeStageLink](saletypestagelink.md)  |Many-many link table between sale type and stage; and an anchor point for guide items |
 
+
 ## Replication Flags
 
 * Replicate changes DOWN from central to satellites and travellers.
@@ -69,3 +71,4 @@ Unique owner of a set of licensed modules
 ## Security Flags
 
 * No access control via user's Role.
+

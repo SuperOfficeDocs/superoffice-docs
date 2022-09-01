@@ -1,6 +1,6 @@
 ---
 title: GET Ticket/CustomField
-id: v1TicketEntity_GetCustomFieldInfoList
+uid: v1TicketEntity_GetCustomFieldInfoList
 ---
 
 # GET Ticket/CustomField
@@ -11,7 +11,14 @@ GET /api/v1/Ticket/CustomField
 
 Custom fields meta-data (published user defined + extra fields) on TicketEntity.
 
+
 Excludes standard fields.
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -26,7 +33,10 @@ Excludes standard fields.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -50,14 +60,16 @@ Response body: array
 | Rank | int32 | Tab order, ranking within the custom fields. |
 | TemplateVariableName | string | Template variable name: 'cs01', 'cl02' etc. Null for extra fields. |
 
-## Sample Request
+## Sample request
 
 ```http!
 GET /api/v1/Ticket/CustomField
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -66,18 +78,18 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "FieldType": "Attachment",
-    "FieldName": "Rutherford LLC",
-    "DisplayName": "Kris-Miller",
-    "Description": "Multi-lateral mission-critical benchmark",
-    "ShortLabel": "quia",
-    "HideLabel": false,
+    "FieldName": "Schmeler, Schneider and Runte",
+    "DisplayName": "Simonis Group",
+    "Description": "Configurable assymetric circuit",
+    "ShortLabel": "nesciunt",
+    "HideLabel": true,
     "HideField": true,
     "IsIndexed": false,
     "IsMandatory": false,
     "IsReadOnly": false,
-    "IsExternal": true,
-    "Rank": 846,
-    "TemplateVariableName": "Walsh-Stokes"
+    "IsExternal": false,
+    "Rank": 440,
+    "TemplateVariableName": "Christiansen, Herman and Schuppe"
   }
 ]
 ```

@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Replication/GetAreaList
-id: v1ReplicationAgent_GetAreaList
+uid: v1ReplicationAgent_GetAreaList
 ---
 
 # POST Agents/Replication/GetAreaList
@@ -11,7 +11,15 @@ POST /api/v1/Agents/Replication/GetAreaList
 
 Gets an array of Area objects.
 
-## Online Restricted: ## The Replication agent is not available in Online by default. Not available in Online. Only used on-site
+
+
+
+## Online Restricted: ## The Replication agent is not available in Online by default. Not available in Online. Only used on-site.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +30,7 @@ Gets an array of Area objects.
 ```http
 POST /api/v1/Agents/Replication/GetAreaList?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,11 +46,15 @@ POST /api/v1/Agents/Replication/GetAreaList?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: areaIds
+## Request Body: areaIds  
 
-The primary keys.
+The primary keys. 
+
+
 
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -60,7 +73,7 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Replication/GetAreaList
@@ -69,30 +82,26 @@ Accept: application/json; charset=utf-8
 Accept-Language: en
 ```
 
+## Sample response
+
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AreaId": 821,
-    "Name": "Wolff-Glover",
-    "MaxDataAge": 777,
-    "NumberOfUsers": 668,
-    "NumberOfLogins": 650,
-    "FreetextEnabeled": true,
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "AreaId": 898,
+    "Name": "Mosciski, Wisoky and Price",
+    "MaxDataAge": 63,
+    "NumberOfUsers": 202,
+    "NumberOfLogins": 520,
+    "FreetextEnabeled": false,
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
+        "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 113
+        "FieldLength": 666
       }
     }
   }

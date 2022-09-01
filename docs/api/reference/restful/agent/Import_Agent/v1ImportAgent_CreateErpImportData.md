@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Import/CreateErpImportData
-id: v1ImportAgent_CreateErpImportData
+uid: v1ImportAgent_CreateErpImportData
 ---
 
 # POST Agents/Import/CreateErpImportData
@@ -11,6 +11,12 @@ POST /api/v1/Agents/Import/CreateErpImportData
 
 Populates the ImportLines and columnDefs basedfrom erp system
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Populates the ImportLines and columnDefs basedfrom erp system
 ```http
 POST /api/v1/Agents/Import/CreateErpImportData?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,9 +42,9 @@ POST /api/v1/Agents/Import/CreateErpImportData?$select=name,department,category/
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-Restriction, Columns, ConnectionId, ErpActorType
+Restriction, Columns, ConnectionId, ErpActorType 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -46,18 +53,16 @@ Restriction, Columns, ConnectionId, ErpActorType
 | ConnectionId | int32 |  |
 | ErpActorType | string |  |
 
-## Response: object
 
-Used to import data into the system. Representing one entity that will be imported.
+## Response: 
 
-Carrier object for ImportErpData.
-Services for the ImportErpData Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IImportAgent">Import Agent</see>.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -66,7 +71,7 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Import/CreateErpImportData
@@ -78,35 +83,37 @@ Content-Type: application/json; charset=utf-8
 {
   "Restriction": [
     {
-      "Name": "VonRueden LLC",
-      "Operator": "hic",
+      "Name": "Hoeger Inc and Sons",
+      "Operator": "earum",
       "Values": [
-        "sed",
+        "ratione",
         "consequatur"
       ],
       "DisplayValues": [
-        "non",
-        "molestiae"
+        "sequi",
+        "enim"
       ],
-      "ColumnInfo": {},
+      "ColumnInfo": null,
       "IsActive": false,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 567,
+      "InterParenthesis": 200,
       "InterOperator": "And",
-      "UniqueHash": 191
+      "UniqueHash": 82
     }
   ],
   "Columns": [
-    "vel",
-    "ex"
+    "et",
+    "dolore"
   ],
-  "ConnectionId": 682,
+  "ConnectionId": 168,
   "ErpActorType": "Customer"
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -116,72 +123,57 @@ Content-Type: application/json; charset=utf-8
   "ImportLines": [
     {
       "Values": [
-        "quia",
-        "distinctio"
+        "et",
+        "quia"
       ],
-      "Selected": true,
+      "Selected": false,
       "Operation": "ContactAdded",
       "Type": "Contact",
-      "ExternalKey": "accusamus",
-      "TableRight": {},
+      "ExternalKey": "in",
+      "TableRight": null,
       "FieldProperties": {
         "fieldName": {
-          "FieldRight": {
-            "Mask": "FULL",
-            "Reason": ""
-          },
+          "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 264
+          "FieldLength": 7
         }
       }
     }
   ],
   "ColumnInfos": [
     {
-      "Name": "Hessel LLC",
-      "DisplayName": "Bradtke, Bahringer and Hackett",
-      "Locked": true,
-      "TableRight": {},
+      "Name": "Metz Group",
+      "DisplayName": "Toy, Rau and Hettinger",
+      "Locked": false,
+      "TableRight": null,
       "FieldProperties": {
         "fieldName": {
-          "FieldRight": {
-            "Mask": "FULL",
-            "Reason": ""
-          },
+          "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 871
+          "FieldLength": 203
         }
       }
     },
     {
-      "Name": "Hessel LLC",
-      "DisplayName": "Bradtke, Bahringer and Hackett",
-      "Locked": true,
-      "TableRight": {},
+      "Name": "Metz Group",
+      "DisplayName": "Toy, Rau and Hettinger",
+      "Locked": false,
+      "TableRight": null,
       "FieldProperties": {
         "fieldName": {
-          "FieldRight": {
-            "Mask": "FULL",
-            "Reason": ""
-          },
+          "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 871
+          "FieldLength": 203
         }
       }
     }
   ],
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": "incentivize visionary solutions"
-  },
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
-      "FieldType": "System.String",
-      "FieldLength": 709
+      "FieldRight": null,
+      "FieldType": "System.Int32",
+      "FieldLength": 468
     }
   }
 }

@@ -1,6 +1,6 @@
 ---
 title: GET List/{udListDefinitionName}/Items
-id: v1ListItemEntity_GetAllFromListName
+uid: v1ListItemEntity_GetAllFromListName
 ---
 
 # GET List/{udListDefinitionName}/Items
@@ -11,9 +11,15 @@ GET /api/v1/List/{udListDefinitionName}/Items
 
 Get all list items for the specified list defintion
 
+
+
+
+
+
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | udListDefinitionName | string | The name of the list definition, indicating which list to get the item from. **Required** |
+
 
 ## Query String Parameters
 
@@ -24,6 +30,7 @@ Get all list items for the specified list defintion
 ```http
 GET /api/v1/List/{udListDefinitionName}/Items?includeDeleted=True
 ```
+
 
 ## Request Headers
 
@@ -38,7 +45,10 @@ GET /api/v1/List/{udListDefinitionName}/Items?includeDeleted=True
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -57,14 +67,16 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 GET /api/v1/List/{udListDefinitionName}/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -72,24 +84,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 561,
-    "Name": "Hartmann Group",
-    "Tooltip": "est",
-    "Deleted": false,
-    "UdListDefinitionId": 690,
-    "Rank": 821,
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "Id": 205,
+    "Name": "Greenholt, Shields and Fahey",
+    "Tooltip": "error",
+    "Deleted": true,
+    "UdListDefinitionId": 748,
+    "Rank": 565,
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
+        "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 69
+        "FieldLength": 364
       }
     }
   }

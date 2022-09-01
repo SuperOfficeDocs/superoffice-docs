@@ -1,6 +1,6 @@
 ---
 title: GET List/Reason/MDOItems
-id: v1ReasonList_GetMDOList
+uid: v1ReasonList_GetMDOList
 ---
 
 # GET List/Reason/MDOItems
@@ -11,6 +11,12 @@ GET /api/v1/List/Reason/MDOItems
 
 Get the MDO list items for "Reason" - with headings and filtering by user group.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,8 +26,9 @@ Get the MDO list items for "Reason" - with headings and filtering by user group.
 
 ```http
 GET /api/v1/List/Reason/MDOItems?flat=False
-GET /api/v1/List/Reason/MDOItems?query=itaque
+GET /api/v1/List/Reason/MDOItems?query=possimus
 ```
+
 
 ## Request Headers
 
@@ -36,7 +43,10 @@ GET /api/v1/List/Reason/MDOItems?query=itaque
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -61,14 +71,16 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 GET /api/v1/List/Reason/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -76,59 +88,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 904,
-    "Name": "Nitzsche, Cremin and Gottlieb",
-    "ToolTip": "Iure veritatis eum deserunt eveniet.",
+    "Id": 840,
+    "Name": "Turcotte-Waelchi",
+    "ToolTip": "Modi temporibus voluptas commodi consequatur.",
     "Deleted": false,
-    "Rank": 276,
-    "Type": "numquam",
+    "Rank": 138,
+    "Type": "in",
     "ChildItems": [
       {
-        "Id": 56,
-        "Name": "Willms-Dibbert",
-        "ToolTip": "Consectetur quo quia qui nihil molestiae vel.",
+        "Id": 803,
+        "Name": "Kutch LLC",
+        "ToolTip": "Sunt occaecati in minus ut.",
         "Deleted": true,
-        "Rank": 227,
-        "Type": "aut",
+        "Rank": 140,
+        "Type": "saepe",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "quia",
-        "ColorBlock": 825,
-        "ExtraInfo": "eum",
-        "StyleHint": "unde",
-        "FullName": "Reilly Abshire IV",
-        "TableRight": {},
+        "IconHint": "molestias",
+        "ColorBlock": 278,
+        "ExtraInfo": "deserunt",
+        "StyleHint": "nostrum",
+        "FullName": "Johnathon Bria Dare DDS",
+        "TableRight": null,
         "FieldProperties": {
           "fieldName": {
-            "FieldRight": {
-              "Mask": "FULL",
-              "Reason": ""
-            },
+            "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 661
+            "FieldLength": 551
           }
         }
       }
     ],
-    "IconHint": "quia",
-    "ColorBlock": 217,
-    "ExtraInfo": "voluptatem",
-    "StyleHint": "illum",
-    "FullName": "Lavon Bergstrom",
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "IconHint": "voluptates",
+    "ColorBlock": 238,
+    "ExtraInfo": "aliquam",
+    "StyleHint": "ad",
+    "FullName": "Jordi Hudson",
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.Int32",
-        "FieldLength": 9
+        "FieldRight": null,
+        "FieldType": "System.String",
+        "FieldLength": 811
       }
     }
   }

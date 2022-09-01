@@ -42,6 +42,8 @@ Agent listing contains request and response examples, and WSDL files for **Servi
 
 * [Document](Document/index.md)
 
+* [DocumentMigration](DocumentMigration/index.md)
+
 * [EMail](EMail/index.md)
 
 * [ErpSync](ErpSync/index.md)
@@ -104,6 +106,8 @@ Agent listing contains request and response examples, and WSDL files for **Servi
 
 * [SoPrincipal](SoPrincipal/index.md)
 
+* [Targets](Targets/index.md)
+
 * [Ticket](Ticket/index.md)
 
 * [TimeZone](TimeZone/index.md)
@@ -117,3 +121,4 @@ Agent listing contains request and response examples, and WSDL files for **Servi
 * [ViewState](ViewState/index.md)
 
 * [Webhook](Webhook/index.md)
+

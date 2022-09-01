@@ -19,6 +19,8 @@ Deleting a booking
 * **smtpEMailConnectionInfo:** Login information for outgoing smtp email server. Will be null if no login information is relevant.
 * **imapEMailConnectionInfo:** Login information for imap server. Will be null if no login information is relevant.
 
+
+
 [WSDL file for Services87/Appointment](../Services87-Appointment.md)
 
 Obtain a ticket from the [Services87/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -67,6 +69,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## Delete Response
 
 ```xml
@@ -86,3 +89,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

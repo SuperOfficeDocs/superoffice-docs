@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Quote/GetAllAvailableQuoteConnections
-id: v1QuoteAgent_GetAllAvailableQuoteConnections
+uid: v1QuoteAgent_GetAllAvailableQuoteConnections
 ---
 
 # POST Agents/Quote/GetAllAvailableQuoteConnections
@@ -11,7 +11,13 @@ POST /api/v1/Agents/Quote/GetAllAvailableQuoteConnections
 
 Get all available connections.
 
+
 Some installed connections may not be available to the user. Use GetAllAvailableQuoteConnectionsWithPriceLists if you need the pricelists on the connections as well.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +28,7 @@ Some installed connections may not be available to the user. Use GetAllAvailable
 ```http
 POST /api/v1/Agents/Quote/GetAllAvailableQuoteConnections?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -36,7 +43,10 @@ POST /api/v1/Agents/Quote/GetAllAvailableQuoteConnections?$select=name,departmen
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -64,14 +74,16 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Quote/GetAllAvailableQuoteConnections
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -79,80 +91,54 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "QuoteConnectionId": 264,
-    "ERPName": "Hintz Group",
-    "DisplayName": "Gibson LLC",
-    "DisplayDescription": "User-centric next generation database",
-    "Rank": 589,
-    "ConnectorName": "Rempel-Jerde",
-    "ErpConnectionId": 154,
-    "ExtraData": "sint",
-    "IsAvailable": true,
-    "InitializeResponse": {
-      "IsOk": false,
-      "UserExplanation": "illum",
-      "TechExplanation": "ut",
-      "ErrorCode": "nam",
-      "Changes": {},
-      "TableRight": {},
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": {
-            "Mask": "FULL",
-            "Reason": ""
-          },
-          "FieldType": "System.String",
-          "FieldLength": 590
-        }
-      }
-    },
+    "QuoteConnectionId": 269,
+    "ERPName": "Botsford, Zieme and Abernathy",
+    "DisplayName": "Mayert-Dietrich",
+    "DisplayDescription": "Re-engineered intermediate alliance",
+    "Rank": 209,
+    "ConnectorName": "Funk Group",
+    "ErpConnectionId": 661,
+    "ExtraData": "voluptatem",
+    "IsAvailable": false,
+    "InitializeResponse": null,
     "PriceLists": [
       {
-        "PriceListId": 345,
-        "ERPPriceListKey": "a",
-        "QuoteConnectionId": 840,
-        "Name": "Skiles, Parisian and Gusikowski",
-        "Description": "Synchronised explicit internet solution",
-        "Currency": "eveniet",
-        "CurrencyName": "Mueller, Kohler and Hyatt",
-        "ValidFrom": "2020-10-24T18:28:50.0031374+02:00",
-        "ValidTo": "2000-08-17T18:28:50.0031374+02:00",
-        "IsActive": true,
-        "TableRight": {},
+        "PriceListId": 171,
+        "ERPPriceListKey": "voluptatem",
+        "QuoteConnectionId": 575,
+        "Name": "Hermann, Reynolds and Jacobson",
+        "Description": "Profit-focused maximized local area network",
+        "Currency": "dolore",
+        "CurrencyName": "Mueller-Blick",
+        "ValidFrom": "2021-07-10T11:10:27.7024917+02:00",
+        "ValidTo": "2009-10-07T11:10:27.7024917+02:00",
+        "IsActive": false,
+        "TableRight": null,
         "FieldProperties": {
           "fieldName": {
-            "FieldRight": {
-              "Mask": "FULL",
-              "Reason": ""
-            },
+            "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 327
+            "FieldLength": 960
           }
         }
       }
     ],
-    "AllAccess": false,
-    "Deleted": true,
+    "AllAccess": true,
+    "Deleted": false,
     "UserGroupAccessIds": [
-      199,
-      924
+      331,
+      118
     ],
     "AssociateAccessIds": [
-      609,
-      27
+      551,
+      516
     ],
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
+        "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 667
+        "FieldLength": 980
       }
     }
   }

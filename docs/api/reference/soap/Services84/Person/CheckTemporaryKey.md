@@ -17,6 +17,7 @@ Check a temporary key for validity, and in case it is valid, return its domain, 
 
 **Returns:** The info about the temporary key. Domain will be Unknown if key is not valid.
 
+
 [WSDL file for Services84/Person](../Services84-Person.md)
 
 Obtain a ticket from the [Services84/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -49,6 +50,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## CheckTemporaryKey Response
 
 ```xml
@@ -74,3 +76,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

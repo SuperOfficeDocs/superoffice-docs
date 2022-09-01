@@ -1,6 +1,6 @@
 ---
 title: GET List/DocumentTemplate/Items/{id}/UserGroups
-id: v1DocumentTemplateList_GetDocumentTemplateEntityUserGroupsForListItem
+uid: v1DocumentTemplateList_GetDocumentTemplateEntityUserGroupsForListItem
 ---
 
 # GET List/DocumentTemplate/Items/{id}/UserGroups
@@ -11,11 +11,18 @@ GET /api/v1/List/DocumentTemplate/Items/{itemId}/UserGroups
 
 Gets user groups visible for the DocumentTemplateEntity list's item.
 
+
 Calls the List agent service GetHeadings.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | itemId | int32 | The ID of the item to get. **Required** |
+
+
 
 ## Request Headers
 
@@ -30,7 +37,10 @@ Calls the List agent service GetHeadings.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -58,14 +68,16 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 GET /api/v1/List/DocumentTemplate/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -73,65 +85,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 633,
-    "Name": "Fahey-Macejkovic",
-    "ToolTip": "Error placeat perspiciatis rerum in expedita.",
+    "Id": 313,
+    "Name": "Frami, Morar and Treutel",
+    "ToolTip": "Beatae et et cupiditate.",
     "Deleted": true,
-    "Rank": 840,
-    "Type": "ea",
-    "ColorBlock": 493,
-    "IconHint": "repellendus",
+    "Rank": 619,
+    "Type": "possimus",
+    "ColorBlock": 506,
+    "IconHint": "eveniet",
     "Selected": false,
-    "LastChanged": "2007-09-11T18:25:51.8349596+02:00",
+    "LastChanged": "2019-06-18T11:10:54.286897+02:00",
     "ChildItems": [
       {
-        "Id": 357,
-        "Name": "Stiedemann Group",
-        "ToolTip": "Qui consequatur quia iste.",
+        "Id": 959,
+        "Name": "Sauer Group",
+        "ToolTip": "Et ratione alias dolorum esse porro tempore.",
         "Deleted": true,
-        "Rank": 321,
-        "Type": "et",
-        "ColorBlock": 629,
-        "IconHint": "voluptas",
-        "Selected": true,
-        "LastChanged": "2009-08-01T18:25:51.8349596+02:00",
+        "Rank": 260,
+        "Type": "quo",
+        "ColorBlock": 474,
+        "IconHint": "quos",
+        "Selected": false,
+        "LastChanged": "2011-01-24T11:10:54.286897+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "veniam",
-        "StyleHint": "molestiae",
+        "ExtraInfo": "qui",
+        "StyleHint": "fugit",
         "Hidden": false,
-        "FullName": "Brian Harvey",
-        "TableRight": {},
+        "FullName": "Kevon Kling IV",
+        "TableRight": null,
         "FieldProperties": {
           "fieldName": {
-            "FieldRight": {
-              "Mask": "FULL",
-              "Reason": ""
-            },
+            "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 507
+            "FieldLength": 810
           }
         }
       }
     ],
-    "ExtraInfo": "voluptates",
-    "StyleHint": "exercitationem",
+    "ExtraInfo": "magni",
+    "StyleHint": "cupiditate",
     "Hidden": false,
-    "FullName": "Mabel Lehner",
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "FullName": "Mr. Carrie Johnson",
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
+        "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 918
+        "FieldLength": 626
       }
     }
   }

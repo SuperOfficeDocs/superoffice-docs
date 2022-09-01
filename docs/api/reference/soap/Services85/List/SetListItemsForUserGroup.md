@@ -18,6 +18,8 @@ Update listItems that will be visible for this usergroup
 * **listItemIds:** The id of the list items.
 * **enable:** True to enable, false to disable
 
+
+
 [WSDL file for Services85/List](../Services85-List.md)
 
 Obtain a ticket from the [Services85/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -55,6 +57,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## SetListItemsForUserGroup Response
 
 ```xml
@@ -74,3 +77,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

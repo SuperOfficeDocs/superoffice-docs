@@ -1,6 +1,6 @@
 ---
 title: POST Project/UdefLayout
-id: v1ProjectEntity_AddUdefField
+uid: v1ProjectEntity_AddUdefField
 ---
 
 # POST Project/UdefLayout
@@ -11,6 +11,12 @@ POST /api/v1/Project/UdefLayout
 
 Add a new field to the current ProjectEntity user-defined field layout.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Add a new field to the current ProjectEntity user-defined field layout.
 ```http
 POST /api/v1/Project/UdefLayout?udefFieldType=Checkbox
 ```
+
 
 ## Request Headers
 
@@ -34,18 +41,16 @@ POST /api/v1/Project/UdefLayout?udefFieldType=Checkbox
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response: object
 
-Return information about the user defined fields. The information can be used to mirror the layout of the user-defined fields in the user interface.
+## Response: 
 
-Carrier object for UserDefinedFieldInfo.
-Services for the UserDefinedFieldInfo Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent">UserDefinedFieldInfo Agent</see>.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -86,66 +91,62 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Project/UdefLayout
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 186,
-  "ColumnId": 870,
-  "FieldDefault": "aspernatur",
-  "FieldHeight": 649,
-  "FieldLabel": "minus",
-  "FieldLeft": 624,
-  "FieldTop": 570,
+  "UDefFieldId": 980,
+  "ColumnId": 873,
+  "FieldDefault": "eos",
+  "FieldHeight": 857,
+  "FieldLabel": "voluptates",
+  "FieldLeft": 887,
+  "FieldTop": 654,
   "FieldType": "Checkbox",
-  "FieldWidth": 380,
-  "FormatMask": "sed",
+  "FieldWidth": 967,
+  "FormatMask": "aperiam",
   "HideLabel": false,
   "IsIndexed": true,
-  "LabelHeight": 656,
-  "LabelLeft": 561,
-  "LabelTop": 982,
-  "LabelWidth": 974,
-  "LastVersionId": 563,
-  "ListTableId": 455,
+  "LabelHeight": 79,
+  "LabelLeft": 655,
+  "LabelTop": 767,
+  "LabelWidth": 239,
+  "LastVersionId": 175,
+  "ListTableId": 877,
   "IsMandatory": true,
   "Type": "Appointment",
-  "Page1LineNo": 553,
-  "ProgId": "quasi",
+  "Page1LineNo": 38,
+  "ProgId": "quaerat",
   "IsReadOnly": false,
-  "ShortLabel": "sit",
-  "TabOrder": 590,
-  "TextLength": 843,
-  "Tooltip": "fugiat",
-  "UdefIdentity": 914,
-  "UDListDefinitionId": 722,
+  "ShortLabel": "nihil",
+  "TabOrder": 400,
+  "TextLength": 175,
+  "Tooltip": "quas",
+  "UdefIdentity": 237,
+  "UDListDefinitionId": 110,
   "Justification": "Center",
-  "Version": 342,
-  "TemplateVariableName": "Volkman-Towne",
-  "HasBeenPublished": false,
-  "MdoListName": "Reilly, Kertzmann and Wisoky",
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "Version": 826,
+  "TemplateVariableName": "Walsh, Herman and Metz",
+  "HasBeenPublished": true,
+  "MdoListName": "Durgan, Rodriguez and Little",
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
-      "FieldType": "System.Int32",
-      "FieldLength": 640
+      "FieldRight": null,
+      "FieldType": "System.String",
+      "FieldLength": 827
     }
   }
 }

@@ -1,6 +1,6 @@
 ---
 title: POST Agents/UserDefinedFieldInfo/GetPublishedUserDefinedFieldFromFieldLabel
-id: v1UserDefinedFieldInfoAgent_GetPublishedUserDefinedFieldFromFieldLabel
+uid: v1UserDefinedFieldInfoAgent_GetPublishedUserDefinedFieldFromFieldLabel
 ---
 
 # POST Agents/UserDefinedFieldInfo/GetPublishedUserDefinedFieldFromFieldLabel
@@ -11,7 +11,13 @@ POST /api/v1/Agents/UserDefinedFieldInfo/GetPublishedUserDefinedFieldFromFieldLa
 
 Return information about the given user defined field identified by the owner and the field label.
 
+
 Note that field labels are fuzzy. Leading and trailing spaces and punctuation are ignored.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +28,7 @@ Note that field labels are fuzzy. Leading and trailing spaces and punctuation ar
 ```http
 POST /api/v1/Agents/UserDefinedFieldInfo/GetPublishedUserDefinedFieldFromFieldLabel?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,27 +44,25 @@ POST /api/v1/Agents/UserDefinedFieldInfo/GetPublishedUserDefinedFieldFromFieldLa
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-FieldLabel, OwnerType
+FieldLabel, OwnerType 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | FieldLabel | string |  |
 | OwnerType | string |  |
 
-## Response: object
 
-Return information about the user defined fields. The information can be used to mirror the layout of the user-defined fields in the user interface.
+## Response: 
 
-Carrier object for UserDefinedFieldInfo.
-Services for the UserDefinedFieldInfo Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent">UserDefinedFieldInfo Agent</see>.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -98,72 +103,68 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/UserDefinedFieldInfo/GetPublishedUserDefinedFieldFromFieldLabel
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "FieldLabel": "mollitia",
+  "FieldLabel": "ea",
   "OwnerType": "Appointment"
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 822,
-  "ColumnId": 894,
-  "FieldDefault": "est",
+  "UDefFieldId": 127,
+  "ColumnId": 710,
+  "FieldDefault": "hic",
   "FieldHeight": 968,
-  "FieldLabel": "ea",
-  "FieldLeft": 397,
-  "FieldTop": 468,
+  "FieldLabel": "sit",
+  "FieldLeft": 603,
+  "FieldTop": 61,
   "FieldType": "Checkbox",
-  "FieldWidth": 794,
-  "FormatMask": "voluptate",
+  "FieldWidth": 416,
+  "FormatMask": "tempore",
   "HideLabel": true,
   "IsIndexed": false,
-  "LabelHeight": 754,
-  "LabelLeft": 2,
-  "LabelTop": 514,
-  "LabelWidth": 961,
-  "LastVersionId": 939,
-  "ListTableId": 449,
+  "LabelHeight": 567,
+  "LabelLeft": 877,
+  "LabelTop": 485,
+  "LabelWidth": 428,
+  "LastVersionId": 800,
+  "ListTableId": 863,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 641,
-  "ProgId": "omnis",
-  "IsReadOnly": false,
-  "ShortLabel": "reiciendis",
-  "TabOrder": 355,
-  "TextLength": 839,
-  "Tooltip": "et",
-  "UdefIdentity": 231,
-  "UDListDefinitionId": 766,
+  "Page1LineNo": 157,
+  "ProgId": "pariatur",
+  "IsReadOnly": true,
+  "ShortLabel": "nihil",
+  "TabOrder": 421,
+  "TextLength": 579,
+  "Tooltip": "amet",
+  "UdefIdentity": 903,
+  "UDListDefinitionId": 295,
   "Justification": "Center",
-  "Version": 39,
-  "TemplateVariableName": "Windler-D'Amore",
-  "HasBeenPublished": true,
-  "MdoListName": "D'Amore, Gutkowski and Cruickshank",
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "Version": 347,
+  "TemplateVariableName": "Pollich Inc and Sons",
+  "HasBeenPublished": false,
+  "MdoListName": "Feest Inc and Sons",
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
+      "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 960
+      "FieldLength": 922
     }
   }
 }

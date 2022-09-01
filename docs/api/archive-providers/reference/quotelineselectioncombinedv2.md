@@ -8,7 +8,7 @@ keywords:
   - "archive provider"
   - "QuoteLineSelectionCombinedV2"
 so.generated: true
-so.date: 03.23.2021
+so.date: 08.26.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -24,13 +24,13 @@ Implementation of the provider for the combined selection
 ## Supported Entities
 
 | Name | Description |
-| ---- | ----- |
+| ---- | ----------- |
 |"quoteLine"|[[Quoteline static]]|
 
 ## Supported Columns
 
-| Name | Restriction | Description | OrderBy
-| ---- | ----- | ------- | ------ |
+| Name | Restriction | Description | OrderBy |
+| ---- | ----------- | ----------- | ------- |
 |getAllRows|bool|GetAll: Get all rows of archive - use with care, you may be fetching the whole database|  |
 |getNoRows|bool|GetNone: Do not get any rows from the archive|  |
 |quoteLineId|int|Quote line ID: Database identity of the quote line| x |
@@ -63,8 +63,10 @@ Implementation of the provider for the combined selection
 |earningAmount|decimal|Earnings: Amount of Earnings (Total - Cost) on the line, after discount| x |
 |earningPercent|decimal|Earnings (%: Percentage Earnings on the line (Total - Cost / Total), after discount| x |
 |updatedBy|associate|Updated by: The user who last updated the data| x |
+|updatedByFullName|associate|Updated by - Full name: The user who last updated the data| x |
 |updatedDate|date|Updated: The date/time the data was last updated in UTC.| x |
 |registeredBy|associate|Registered by: The user who registered the data| x |
+|registeredByFullName|associate|Registered by - Full name: The user who registered the data| x |
 |registeredDate|date|Registered date: The date/time the data was registered in UTC.| x |
 |productCategoryKey|listExternal|Product category: The category the product is defined in|  |
 |productFamilyKey|listExternal|Product family: The family the product is defined in|  |
@@ -132,7 +134,7 @@ Implementation of the provider for the combined selection
 |alternative/version/quote/connectionId|int|DB-ID: Database ID| x |
 |alternative/version/quote/registeredDate|date|Registered at: Displays the date when the quote was registered.| x |
 |alternative/version/quote/sale/completed|bool|Sale - Completed: Displays a checkbox showing if an appointment is completed| x |
-|alternative/version/quote/sale/icon| *None* |Sale - Category: Displays the icon for an activity type| x |
+|alternative/version/quote/sale/icon|string|Sale - Category: Displays the icon for an activity type| x |
 |alternative/version/quote/sale/date|date|Sale - Date: Displays start date of a follow-up / sale date of a sale| x |
 |alternative/version/quote/sale/time| *None* |Sale - Time: Time|  |
 |alternative/version/quote/sale/type|listAny|Sale - Type: Displays the type of an activity| x |
@@ -146,8 +148,10 @@ Implementation of the provider for the combined selection
 |alternative/version/quote/sale/userGroup|userGroup|Sale - User group: The user group that owns the record| x |
 |alternative/version/quote/sale/who| *None* |Sale - Who: Contact and/or company|  |
 |alternative/version/quote/sale/updatedBy|associate|Sale - Updated by: The user who last updated the data| x |
+|alternative/version/quote/sale/updatedByFullName|associate|Sale - Updated by - Full name: The user who last updated the data| x |
 |alternative/version/quote/sale/updatedDate|date|Sale - Updated: The date/time the data was last updated in UTC.| x |
 |alternative/version/quote/sale/registeredBy|associate|Sale - Registered by: The user who registered the data| x |
+|alternative/version/quote/sale/registeredByFullName|associate|Sale - Registered by - Full name: The user who registered the data| x |
 |alternative/version/quote/sale/registeredDate|date|Sale - Registered date: The date/time the data was registered in UTC.| x |
 |alternative/version/quote/sale/currencyId|int|Sale - Currency ID: The currency list item ID| x |
 |alternative/version/quote/sale/currency|listAny|Sale - Currency: The currency of the sale| x |
@@ -155,7 +159,7 @@ Implementation of the provider for the combined selection
 |alternative/version/quote/sale/lossReason|listAny|Sale - Reason (lost): The reason for losing the sale| x |
 |alternative/version/quote/sale/source|listAny|Sale - Source: The source (lead) of the sale| x |
 |alternative/version/quote/sale/competitor|listAny|Sale - Competitor: The competitor who won the sale| x |
-|alternative/version/quote/sale/heading|stringorPK|Sale - Sale: Displays a descriptive text for the item| x |
+|alternative/version/quote/sale/heading|stringorPK|Sale - Sale: The name of the sale| x |
 |alternative/version/quote/sale/amount|decimal|Sale - Amount: The gross sales total| x |
 |alternative/version/quote/sale/amountWeighted|decimal|Sale - Weighted amount: Virtual field calculated from amount * probability percent.| x |
 |alternative/version/quote/sale/earning|decimal|Sale - Profit: Gross profit (gross sales total - cost) for the sale| x |
@@ -164,10 +168,12 @@ Implementation of the provider for the combined selection
 |alternative/version/quote/sale/originalStage|listAny|Sale - Stage: Displays the stage of the sale| x |
 |alternative/version/quote/sale/stage|listAny|Sale - Stage: Displays the stage of the sale| x |
 |alternative/version/quote/sale/saleStatus|listAny|Sale - Status: The status of the sale - open, lost or sold| x |
+|alternative/version/quote/sale/stageRank| *None* |Sale - Stage rank: Rank of the sale stage in the stage list| x |
 |alternative/version/quote/sale/saleType|listAny|Sale - Sale type: Sale type, from list| x |
 |alternative/version/quote/sale/nextDueDate|date|Sale - Next activity: Date for next activity for a sale, updated live from the sale's activities| x |
 |alternative/version/quote/sale/reopenDate|date|Sale - Reopen date: Displays the reopen date for the sale| x |
 |alternative/version/quote/sale/stalledComment|listAny|Sale - Reason (stalled): The reason the sale has been stalled| x |
+|alternative/version/quote/sale/saleTypeCategory|listAny|Sale - Sale type category: Sale type category| x |
 |alternative/version/quote/sale/soldReason|listAny|Sale - Reason (sold): Reason (sold)| x |
 |alternative/version/quote/sale/saleNumber|string|Sale - Number: Number| x |
 |alternative/version/quote/sale/hasStakeholders|bool|Sale - Has stakeholders: Does this sale have stakeholders enabled| x |
@@ -192,6 +198,7 @@ Implementation of the provider for the combined selection
 |alternative/version/quote/sale/person/personNumber|string|Sale - Number: Displays the contact's number| x |
 |alternative/version/quote/sale/person/title|string|Sale - Title: Displays the contact's job title| x |
 |alternative/version/quote/sale/person/personCountry|listAny|Sale - Country: Country| x |
+|alternative/version/quote/sale/person/personCountryId|int|Sale - Country ID: Country ID| x |
 |alternative/version/quote/sale/person/personNoMail|bool|Sale - No Mailings: Displays the contact's No Mailings checkbox| x |
 |alternative/version/quote/sale/person/rank|int|Sale - Rank: Displays a contact's current rank| x |
 |alternative/version/quote/sale/person/birthdate| *None* |Sale - Birthdate: Displays the contact's date of birth|  |
@@ -205,15 +212,19 @@ Implementation of the provider for the combined selection
 |alternative/version/quote/sale/person/kanaFirstName|string|Sale - First name, kana: Contact's first name, in kana alphabet| x |
 |alternative/version/quote/sale/person/kanaLastName|string|Sale - Last name, kana: Contact's last name, in kana alphabet| x |
 |alternative/version/quote/sale/person/personUpdatedBy|associate|Sale - Updated by: The user who last updated the data| x |
+|alternative/version/quote/sale/person/personUpdatedByFullName|associate|Sale - Updated by - Full name: The user who last updated the data| x |
 |alternative/version/quote/sale/person/personUpdatedDate|date|Sale - Updated: The date/time the data was last updated in UTC.| x |
 |alternative/version/quote/sale/person/personRegisteredBy|associate|Sale - Registered by: The user who registered the data| x |
+|alternative/version/quote/sale/person/personRegisteredByFullName|associate|Sale - Registered by - Full name: The user who registered the data| x |
 |alternative/version/quote/sale/person/personRegisteredDate|date|Sale - Registered date: The date/time the data was registered in UTC.| x |
 |alternative/version/quote/sale/person/portraitThumbnail| *None* |Sale - Person image: Person image|  |
 |alternative/version/quote/sale/person/personActiveErpLinks|bool|Sale - ERP connected: Is there an active ERP Sync?| x |
 |alternative/version/quote/sale/person/ticketPriority|listAny|Sale - Service priority: Default service priority for this contact| x |
 |alternative/version/quote/sale/person/supportLanguage|listAny|Sale - Preferred language: Preferred language used for reply templates and more| x |
 |alternative/version/quote/sale/person/supportAssociate|associate|Sale - Our service contact: Default service contact for this contact| x |
+|alternative/version/quote/sale/person/supportAssociateFullName|associate|Sale - Our service contact - Full name: Default service contact for this contact| x |
 |alternative/version/quote/sale/person/personAssociateId|associate|Sale - Our contact: Displays our contact| x |
+|alternative/version/quote/sale/person/personAssociateFullName|associate|Sale - Our contact - Full name: Displays our contact| x |
 |alternative/version/quote/sale/person/personCategory|listAny|Sale - Category| x |
 |alternative/version/quote/sale/person/personBusiness|listAny|Sale - Business| x |
 |alternative/version/quote/sale/person/personDeletedDate|datetime|Sale - Deleted date: Deleted date|  |
@@ -281,7 +292,90 @@ Implementation of the provider for the combined selection
 |alternative/version/quote/sale/person/personUdef/SuperOffice:9|string|Sale - page1saleonly| x |
 |alternative/version/quote/sale/person/personUdef/SuperOffice:10|string|Sale - page1marketingonly| x |
 |alternative/version/quote/sale/person/personUdef/SuperOffice:11|string|Sale - page1adminonly| x |
-|alternative/version/quote/sale/person/isMailingRecipient|bool|Sale - isMailingRecipient: isMailingRecipient| x |
+|alternative/version/quote/sale/person/personExtra/x\_person\_integer|int|Sale - Extra Integer: Custom person integer| x |
+|alternative/version/quote/sale/person/personExtra/x\_person\_hidden\_integer|int|Sale - Extra hidden integer: Custom integer field that is hidden| x |
+|alternative/version/quote/sale/person/personExtra/x\_person\_float|decimal|Sale - Extra float: Custom float field| x |
+|alternative/version/quote/sale/person/personExtra/x\_person\_longtext|string|Sale - Extra Long Text: Custom long text field on person, keep HTML tags. Simple input, not text area. Default value = 'Hello there'| x |
+|alternative/version/quote/sale/person/personExtra/x\_person\_date|date|Sale - Extra date: Custom date field on person. Default value = 28.03.2019| x |
+|alternative/version/quote/sale/person/personExtra/x\_person\_datetime|datetime|Sale - Extra DateTime: Custom person date and time field. No default| x |
+|alternative/version/quote/sale/person/personExtra/x\_person\_time| *None* |Sale - Extra time: Custom time field on person. Current time as default| x |
+|alternative/version/quote/sale/person/personExtra/x\_person\_boolean|bool|Sale - Extra Boolean: Custom boolean field on person. Default checked| x |
+|alternative/version/quote/sale/person/personExtra/x\_person\_timespan|timeSpan|Sale - Extra timespan: Custom timespan on person. Minutes only in 15 units| x |
+|alternative/version/quote/sale/person/personExtra/x\_person\_shorttext|string|Sale - Extra short text: Custom short text on person. With index. Do not keep HTML tags| x |
+|alternative/version/quote/sale/person/personExtra/x\_person\_shorttext\_list|listAny|Sale - Extra short dropdown: Custom Short text dropdown field on person: black, white, transparent| x |
+|alternative/version/quote/sale/person/personExtra/x\_person\_user\_relation|associate|Sale - Extra user relation: Custom person-user relation field| x |
+|alternative/version/quote/sale/person/personExtra/x\_person\_category\_relation|listAny|Sale - Extra category relation: Custom person-category relation| x |
+|alternative/version/quote/sale/person/personExtra/x\_person\_priority\_relation|listAny|Sale - Extra priority relation: Custom person-priority relation| x |
+|alternative/version/quote/sale/person/personExtra/x\_person\_request\_relation|stringorPK|Sale - Extra request relation: Request relation on contact| x |
+|alternative/version/quote/sale/person/personExtra/x\_person\_appointment\_relation|stringorPK|Sale - Extra appointment relation: Appointment relation on person| x |
+|alternative/version/quote/sale/person/personExtra/x\_person\_contact\_relation|stringorPK|Sale - Extra company relation: Company relation on contact| x |
+|alternative/version/quote/sale/person/personExtra/y\_rental/id|int|Sale - Rental - id: Displays the row's primary key (y\_rental)| x |
+|alternative/version/quote/sale/person/personExtra/y\_rental/x\_start|date|Sale - Rental - Start rental| x |
+|alternative/version/quote/sale/person/personExtra/y\_rental/x\_end|date|Sale - Rental - End| x |
+|alternative/version/quote/sale/person/personExtra/y\_rental/x\_amount|int|Sale - Rental - Amount: Number to rent. Default = 1| x |
+|alternative/version/quote/sale/person/personExtra/y\_rental/x\_contact|stringorPK|Sale - Rental - Renter: Company that rents equipment| x |
+|alternative/version/quote/sale/person/personExtra/y\_rental/y\_equipment/x\_name|string|Sale - Rental - Equipment - Name: Equpment name custom field. Cannot be null., show in table| x |
+|alternative/version/quote/sale/person/personAssociate/firstName|string|Sale - First name: Displays the contact's first name| x |
+|alternative/version/quote/sale/person/personAssociate/lastName|string|Sale - Last name: Displays the contact's last name| x |
+|alternative/version/quote/sale/person/personAssociate/middleName|string|Sale - Middle Name: Displays the contact's middle name.| x |
+|alternative/version/quote/sale/person/personAssociate/fullName|string|Sale - Full name: Displays full name of user (first, middle, last - according to settings)| x |
+|alternative/version/quote/sale/person/personAssociate/contactId|int|Sale - Company ID: Database ID of the company the user belongs to|  |
+|alternative/version/quote/sale/person/personAssociate/personId|int|Sale - Contact ID: Database ID of the contact row|  |
+|alternative/version/quote/sale/person/personAssociate/mrMrs|string|Sale - Mr/Ms: Displays whether the contact is addressed as Mr or Ms| x |
+|alternative/version/quote/sale/person/personAssociate/title|string|Sale - Title: Displays whether the contact is addressed as Mr or Ms| x |
+|alternative/version/quote/sale/person/personAssociate/associateDbId|associate|Sale - ID| x |
+|alternative/version/quote/sale/person/personAssociate/contactName|string|Sale - Owning company: Name of the company the user belongs to| x |
+|alternative/version/quote/sale/person/personAssociate/contactDepartment|string|Sale - Owning department: Name of the department at the company the user belongs to| x |
+|alternative/version/quote/sale/person/personAssociate/usergroup|userGroup|Sale - Primary group: The user's primary user group| x |
+|alternative/version/quote/sale/person/personAssociate/contactFullName|string|Sale - Owner: Name and department of the company the user belongs to| x |
+|alternative/version/quote/sale/person/personAssociate/contactCategory|listAny|Sale - Category: Category| x |
+|alternative/version/quote/sale/person/personAssociate/role|listAny|Sale - Role: Role| x |
+|alternative/version/quote/sale/person/personAssociate/assocName|associate|Sale - User ID: User ID| x |
+|alternative/version/quote/sale/person/personAssociate/assocTooltip|string|Sale - Description: Description|  |
+|alternative/version/quote/sale/person/personAssociate/assocType|listAny|Sale - Type: Type of user: associate, external user, system user, anonymous account| x |
+|alternative/version/quote/sale/person/personAssociate/ejUserId|int|Sale - Service user ID: The database ID of a Service user|  |
+|alternative/version/quote/sale/person/personAssociate/simultaneousEjUser|bool|Sale - Simultaneous Service user: If this flag is set, then the user will only have access if the maximum number of simultaneous users is not exceeded|  |
+|alternative/version/quote/sale/person/personAssociate/ejDisplayName|string|Sale - Nick name: User's nick name in Service| x |
+|alternative/version/quote/sale/person/personAssociate/ejStatus|int|Sale - Service status: Status for Service user: Normal; Unavailable / holiday; Deleted; Read-only|  |
+|alternative/version/quote/sale/person/personAssociate/credentialType| *None* |Sale - Auth. type: What type of credentials to use when this user logs in| x |
+|alternative/version/quote/sale/person/personAssociate/credentialDisplayValue| *None* |Sale - Auth. value: Credential value (public, visible part) to be used when this user logs in| x |
+|alternative/version/quote/sale/person/personAssociate/isActive|bool|Sale - Active: Is this user active, and should be able to log in?| x |
+|alternative/version/quote/sale/person/personAssociate/isActiveText|bool|Sale - Active status: Is this user active, and should be able to log in?| x |
+|alternative/version/quote/sale/person/personAssociate/portraitThumbnail| *None* |Sale - Person image: Person image|  |
+|alternative/version/quote/sale/person/personAssociate/otherGroups|userGroup|Sale - Other groups: Other groups|  |
+|alternative/version/quote/sale/person/personAssociate/userName|string|Sale - User name: User name| x |
+|alternative/version/quote/sale/person/personAssociate/personEmail|string|Sale - E-mail| x |
+|alternative/version/quote/sale/person/correspondingAssociate/firstName|string|Sale - First name: Displays the contact's first name| x |
+|alternative/version/quote/sale/person/correspondingAssociate/lastName|string|Sale - Last name: Displays the contact's last name| x |
+|alternative/version/quote/sale/person/correspondingAssociate/middleName|string|Sale - Middle Name: Displays the contact's middle name.| x |
+|alternative/version/quote/sale/person/correspondingAssociate/fullName|string|Sale - Full name: Displays full name of user (first, middle, last - according to settings)| x |
+|alternative/version/quote/sale/person/correspondingAssociate/contactId|int|Sale - Company ID: Database ID of the company the user belongs to|  |
+|alternative/version/quote/sale/person/correspondingAssociate/personId|int|Sale - Contact ID: Database ID of the contact row|  |
+|alternative/version/quote/sale/person/correspondingAssociate/mrMrs|string|Sale - Mr/Ms: Displays whether the contact is addressed as Mr or Ms| x |
+|alternative/version/quote/sale/person/correspondingAssociate/title|string|Sale - Title: Displays whether the contact is addressed as Mr or Ms| x |
+|alternative/version/quote/sale/person/correspondingAssociate/associateDbId|associate|Sale - ID| x |
+|alternative/version/quote/sale/person/correspondingAssociate/contactName|string|Sale - Owning company: Name of the company the user belongs to| x |
+|alternative/version/quote/sale/person/correspondingAssociate/contactDepartment|string|Sale - Owning department: Name of the department at the company the user belongs to| x |
+|alternative/version/quote/sale/person/correspondingAssociate/usergroup|userGroup|Sale - Primary group: The user's primary user group| x |
+|alternative/version/quote/sale/person/correspondingAssociate/contactFullName|string|Sale - Owner: Name and department of the company the user belongs to| x |
+|alternative/version/quote/sale/person/correspondingAssociate/contactCategory|listAny|Sale - Category: Category| x |
+|alternative/version/quote/sale/person/correspondingAssociate/role|listAny|Sale - Role: Role| x |
+|alternative/version/quote/sale/person/correspondingAssociate/assocName|associate|Sale - User ID: User ID| x |
+|alternative/version/quote/sale/person/correspondingAssociate/assocTooltip|string|Sale - Description: Description|  |
+|alternative/version/quote/sale/person/correspondingAssociate/assocType|listAny|Sale - Type: Type of user: associate, external user, system user, anonymous account| x |
+|alternative/version/quote/sale/person/correspondingAssociate/ejUserId|int|Sale - Service user ID: The database ID of a Service user|  |
+|alternative/version/quote/sale/person/correspondingAssociate/simultaneousEjUser|bool|Sale - Simultaneous Service user: If this flag is set, then the user will only have access if the maximum number of simultaneous users is not exceeded|  |
+|alternative/version/quote/sale/person/correspondingAssociate/ejDisplayName|string|Sale - Nick name: User's nick name in Service| x |
+|alternative/version/quote/sale/person/correspondingAssociate/ejStatus|int|Sale - Service status: Status for Service user: Normal; Unavailable / holiday; Deleted; Read-only|  |
+|alternative/version/quote/sale/person/correspondingAssociate/credentialType| *None* |Sale - Auth. type: What type of credentials to use when this user logs in| x |
+|alternative/version/quote/sale/person/correspondingAssociate/credentialDisplayValue| *None* |Sale - Auth. value: Credential value (public, visible part) to be used when this user logs in| x |
+|alternative/version/quote/sale/person/correspondingAssociate/isActive|bool|Sale - Active: Is this user active, and should be able to log in?| x |
+|alternative/version/quote/sale/person/correspondingAssociate/isActiveText|bool|Sale - Active status: Is this user active, and should be able to log in?| x |
+|alternative/version/quote/sale/person/correspondingAssociate/portraitThumbnail| *None* |Sale - Person image: Person image|  |
+|alternative/version/quote/sale/person/correspondingAssociate/otherGroups|userGroup|Sale - Other groups: Other groups|  |
+|alternative/version/quote/sale/person/correspondingAssociate/userName|string|Sale - User name: User name| x |
+|alternative/version/quote/sale/person/correspondingAssociate/personEmail|string|Sale - E-mail| x |
+|alternative/version/quote/sale/person/isMailingRecipient|bool|Sale - Is mailing recipient: isMailingRecipient| x |
 |alternative/version/quote/sale/person/hasStoreConsent|bool|Sale - Consent - Sales and service: The purpose to store data about this contact is to sell to and/or provide services to this contact. This purpose is usually used when storing contacts who are defined as potential or existing customers.|  |
 |alternative/version/quote/sale/person/withdrawnStoreConsent|bool|Sale - Consent is withdrawn - Sales and service: The purpose to store data about this contact is to sell to and/or provide services to this contact. This purpose is usually used when storing contacts who are defined as potential or existing customers.|  |
 |alternative/version/quote/sale/person/hasEmarketingConsent|bool|Sale - Consent - E-marketing: The purpose is to gain the explicit consent to communicate electronically (bulk e-mail) on topics related to our products and services. This might include newsletters, invitations and product-related content. The subscription system is used to refine the individual marketing choices this contact makes.|  |
@@ -301,14 +395,17 @@ Implementation of the provider for the combined selection
 |alternative/version/quote/sale/contact/category|listAny|Sale - Category| x |
 |alternative/version/quote/sale/contact/business|listAny|Sale - Business| x |
 |alternative/version/quote/sale/contact/country|listAny|Sale - Country: This criterion corresponds to the Country field on the Company card.| x |
+|alternative/version/quote/sale/contact/countryId|int|Sale - Country ID: Country ID| x |
 |alternative/version/quote/sale/contact/number|string|Sale - Number| x |
 |alternative/version/quote/sale/contact/code|string|Sale - Code| x |
 |alternative/version/quote/sale/contact/orgnr|string|Sale - VAT No.| x |
 |alternative/version/quote/sale/contact/stop|bool|Sale - Stop| x |
 |alternative/version/quote/sale/contact/contactNoMail|bool|Sale - No mailings (company)| x |
 |alternative/version/quote/sale/contact/updatedBy|associate|Sale - Updated by: The user who last updated the data| x |
+|alternative/version/quote/sale/contact/updatedByFullName|associate|Sale - Updated by - Full name: The user who last updated the data| x |
 |alternative/version/quote/sale/contact/updatedDate|date|Sale - Updated: The date/time the data was last updated in UTC.| x |
 |alternative/version/quote/sale/contact/registeredBy|associate|Sale - Registered by: The user who registered the data| x |
+|alternative/version/quote/sale/contact/registeredByFullName|associate|Sale - Registered by - Full name: The user who registered the data| x |
 |alternative/version/quote/sale/contact/registeredDate|date|Sale - Registered date: The date/time the data was registered in UTC.| x |
 |alternative/version/quote/sale/contact/contactSource|listAny|Sale - Source: Source (Company)| x |
 |alternative/version/quote/sale/contact/contactDeleted|bool|Sale - Deleted: Deleted| x |
@@ -412,6 +509,22 @@ Implementation of the provider for the combined selection
 |alternative/version/quote/sale/contact/contactUdef/SuperOffice:11|string|Sale - page1adminonly| x |
 |alternative/version/quote/sale/contact/contactUdef/SuperOffice:12|listAny|Sale - Udlist one: Static tooltip for udlist one| x |
 |alternative/version/quote/sale/contact/contactUdef/SuperOffice:13|listAny|Sale - Udlist two: Static tooltip for udlist two| x |
+|alternative/version/quote/sale/contact/contactExtra/x\_contact\_integer|int|Sale - Extra Integer: Custom integer field| x |
+|alternative/version/quote/sale/contact/contactExtra/x\_contact\_hidden\_integer|int|Sale - Extra hidden integer: Custom integer field - hidden| x |
+|alternative/version/quote/sale/contact/contactExtra/x\_contact\_default\_integer|int|Sale - Extra Default Integer: Custom integer field with default value 123.| x |
+|alternative/version/quote/sale/contact/contactExtra/x\_contact\_float|decimal|Sale - Extra Float: Custom float field with 3 decimals| x |
+|alternative/version/quote/sale/contact/contactExtra/x\_contact\_longtext|string|Sale - Extra LongText: Custom long text field. DO not keep HTML. 3 Line text area editor| x |
+|alternative/version/quote/sale/contact/contactExtra/x\_contact\_dropdown|listAny|Sale - Extra Long Dropdown: Custom long text field with dropdown: Volvo, Saab, etc.| x |
+|alternative/version/quote/sale/contact/contactExtra/x\_contact\_date|date|Sale - Extra date: Custom date field. User current as default.| x |
+|alternative/version/quote/sale/contact/contactExtra/x\_contact\_datetime|datetime|Sale - Extra DateTime: Custom Date Time field. No default value. External| x |
+|alternative/version/quote/sale/contact/contactExtra/x\_contact\_time| *None* |Sale - Extra time: Custom time field.| x |
+|alternative/version/quote/sale/contact/contactExtra/x\_contact\_boolean|bool|Sale - Extra boolean: Custom boolean field.| x |
+|alternative/version/quote/sale/contact/contactExtra/x\_contact\_timespan|timeSpan|Sale - Extra timespan: Custom timespan field. Hours and minutes in 10 units| x |
+|alternative/version/quote/sale/contact/contactExtra/x\_contact\_shorttext|string|Sale - Extra short text: Custom short text field. Keep HTML tags.| x |
+|alternative/version/quote/sale/contact/contactExtra/x\_contact\_short\_dropdown|listAny|Sale - Extra short dropdown: Custom short text with dropdown list. Red, Green or Blue or Purple. External.| x |
+|alternative/version/quote/sale/contact/contactExtra/x\_contact\_contact\_relation|stringorPK|Sale - Extra Company: Custom company relation. Do not show one-to-many relations. Show function buttons| x |
+|alternative/version/quote/sale/contact/contactExtra/x\_contact\_request\_relation|stringorPK|Sale - Extra Request relation: Request relation on company| x |
+|alternative/version/quote/sale/contact/contactExtra/x\_contact\_contact|stringorPK|Sale - Extra contact relation: Contact relation on company| x |
 |alternative/version/quote/sale/contact/NumberOfActivities|int|Sale - Number of activities|  |
 |alternative/version/quote/sale/contact/NumberOfActivitiesInPeriod|int|Sale - Number of activities in last 90 days|  |
 |alternative/version/quote/sale/contact/NumberOfNotCompletedActivities|int|Sale - Number of non-completed activities|  |
@@ -433,8 +546,8 @@ Implementation of the provider for the combined selection
 |alternative/version/quote/sale/contact/LastTicket|date|Sale - Date of last request|  |
 |alternative/version/quote/sale/contact/LastCompletedTicket|date|Sale - Date of last completed request|  |
 |alternative/version/quote/sale/contact/LastDoByTicket|date|Sale - Date of last non-completed request|  |
-|alternative/version/quote/sale/contact/SaintStatus1|saintStatus|Sale - Neglected customer|  |
-|alternative/version/quote/sale/contact/SaintStatus2|saintStatus|Sale - C-company|  |
+|alternative/version/quote/sale/contact/SaintStatus1|saintStatus|Sale - Neglected customer: Denne kunden har det vært 0 salgsaktiviteter på i perioden.|  |
+|alternative/version/quote/sale/contact/SaintStatus2|saintStatus|Sale - C-company: Kundens navn starter med bokstaven C|  |
 |alternative/version/quote/sale/contact/saintSaleStatus|listAny|Sale - With status|  |
 |alternative/version/quote/sale/contact/saintAmountClass|listAny|Sale - Amount class|  |
 |alternative/version/quote/sale/contact/saintActivityType|listAny|Sale - SAINT type|  |
@@ -486,14 +599,17 @@ Implementation of the provider for the combined selection
 |alternative/version/quote/sale/project/number|string|Sale - Project - Number: Displays the project's number| x |
 |alternative/version/quote/sale/project/type|listAny|Sale - Project - Project type: Displays the project's type| x |
 |alternative/version/quote/sale/project/status|listAny|Sale - Project - Status: Displays the project's status| x |
+|alternative/version/quote/sale/project/statusRank| *None* |Sale - Project - Status rank: Rank of the project status in the status list| x |
 |alternative/version/quote/sale/project/associateId|associate|Sale - Project - ID: Displays login ID of the associate who owns the project| x |
 |alternative/version/quote/sale/project/hasInfoText|bool|Sale - Project - Info: Displays an icon indicating if the project has a description text. The text itself will be displayed in a tooltip.| x |
 |alternative/version/quote/sale/project/icon| *None* |Sale - Project - Category: Displays the icon for an activity type| x |
 |alternative/version/quote/sale/project/text|string|Sale - Project - Text: Displays a descriptive text for the item| x |
 |alternative/version/quote/sale/project/description|string|Sale - Project - Description: Description| x |
 |alternative/version/quote/sale/project/updatedBy|associate|Sale - Project - Updated by: The user who last updated the data| x |
+|alternative/version/quote/sale/project/updatedByFullName|associate|Sale - Project - Updated by - Full name: The user who last updated the data| x |
 |alternative/version/quote/sale/project/updatedDate|date|Sale - Project - Updated: The date/time the data was last updated in UTC.| x |
 |alternative/version/quote/sale/project/registeredBy|associate|Sale - Project - Registered by: The user who registered the data| x |
+|alternative/version/quote/sale/project/registeredByFullName|associate|Sale - Project - Registered by - Full name: The user who registered the data| x |
 |alternative/version/quote/sale/project/registeredDate|date|Sale - Project - Registered date: The date/time the data was registered in UTC.| x |
 |alternative/version/quote/sale/project/hasGuide|bool|Sale - Project - Guided: Does this sale have a Sales Guide| x |
 |alternative/version/quote/sale/project/nextMilestone|date|Sale - Project - Next milestone: Date of next non-completed activity that is marked as a milestone| x |
@@ -564,7 +680,7 @@ Implementation of the provider for the combined selection
 |alternative/version/quote/sale/project/LastSale|date|Sale - Project - Date of last sale|  |
 |alternative/version/quote/sale/project/LastCompletedSale|date|Sale - Project - Date of last completed sale|  |
 |alternative/version/quote/sale/project/LastDoBySale|date|Sale - Project - Date of last non-completed sale|  |
-|alternative/version/quote/sale/project/SaintStatus3|saintStatus|Sale - Project - Not completed activites with intention sale|  |
+|alternative/version/quote/sale/project/SaintStatus3|saintStatus|Sale - Project - Not completed activites with intention sale: Number of not completed activities for intention sale > 0.|  |
 |alternative/version/quote/sale/project/saintSaleStatus|listAny|Sale - Project - With status|  |
 |alternative/version/quote/sale/project/saintAmountClass|listAny|Sale - Project - Amount class|  |
 |alternative/version/quote/sale/project/saintActivityType|listAny|Sale - Project - SAINT type|  |
@@ -609,11 +725,14 @@ Implementation of the provider for the combined selection
 ## Sample
 
 ```http!
-GET /api/v1/archive/QuoteLineSelectionCombinedV2?$select=alternative/version/quote/sale/earning,alternative/version/quote/sale/saleNumber,alternative/version/quote/sale/person/kanaLastName,alternative/version/quote/sale/person/personAddress/state,alternative/version/quote/sale/person/personUdef/SuperOffice:9
+GET /api/v1/archive/QuoteLineSelectionCombinedV2?$select=alternative/version/quote/sale/project/projectAssociate/contactFullName,alternative/version/quote/sale/project/projectAssociate/isActive,alternative/version/quote/sale/person/personAddress/city
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv
 
 ```
 
-See also: <see cref="T:SuperOffice.CRM.Services.IArchiveAgent">IArchiveAgent</see>.
+
+
+See also: <see cref="T:SuperOffice.CRM.Services.IArchiveAgent">IArchiveAgent</see>.</p>
+

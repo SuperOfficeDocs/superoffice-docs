@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Find/FindWithColumns
-id: v1FindAgent_FindWithColumns
+uid: v1FindAgent_FindWithColumns
 ---
 
 # POST Agents/Find/FindWithColumns
@@ -11,7 +11,13 @@ POST /api/v1/Agents/Find/FindWithColumns
 
 Execute a Find operation and return a page of results.
 
+
 The criteria for the Find are fetched from the restriction storage provider according to the given parameters.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +28,7 @@ The criteria for the Find are fetched from the restriction storage provider acco
 ```http
 POST /api/v1/Agents/Find/FindWithColumns?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,9 +44,9 @@ POST /api/v1/Agents/Find/FindWithColumns?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-StorageType, ProviderName, StorageKey, DesiredColumns, PageSize, PageNumber, OrderBy
+StorageType, ProviderName, StorageKey, DesiredColumns, PageSize, PageNumber, OrderBy 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -51,18 +58,16 @@ StorageType, ProviderName, StorageKey, DesiredColumns, PageSize, PageNumber, Ord
 | PageNumber | int32 |  |
 | OrderBy | array |  |
 
-## Response: object
 
-Result carrier for the Find operation. It contains a set of column specifications, and a set of row, where each row contains the columns. The row set is the result of carrying out some search operation.
+## Response: 
 
-Carrier object for FindResults.
-Services for the FindResults Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IFindAgent">Find Agent</see>.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -72,7 +77,7 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Find/FindWithColumns
@@ -82,27 +87,29 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "voluptates",
-  "ProviderName": "Powlowski-Collins",
-  "StorageKey": "error",
+  "StorageType": "repellat",
+  "ProviderName": "Hudson Inc and Sons",
+  "StorageKey": "quae",
   "DesiredColumns": [
-    "quod",
-    "alias"
+    "molestiae",
+    "sunt"
   ],
-  "PageSize": 299,
-  "PageNumber": 74,
+  "PageSize": 360,
+  "PageNumber": 835,
   "OrderBy": [
     {
-      "Name": "Hegmann-Bruen",
+      "Name": "Gleason, Hettinger and Hills",
       "Direction": "ASC"
     },
     {
-      "Name": "Hegmann-Bruen",
+      "Name": "Gleason, Hettinger and Hills",
       "Direction": "ASC"
     }
   ]
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -111,60 +118,51 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumns": [
     {
-      "DisplayName": "Ritchie Inc and Sons",
-      "DisplayTooltip": "vitae",
-      "DisplayType": "mollitia",
-      "CanOrderBy": false,
-      "Name": "Kshlerin-Parisian",
+      "DisplayName": "Olson Group",
+      "DisplayTooltip": "voluptas",
+      "DisplayType": "est",
+      "CanOrderBy": true,
+      "Name": "Konopelski Inc and Sons",
       "CanRestrictBy": true,
-      "RestrictionType": "aliquam",
-      "RestrictionListName": "Skiles, Abshire and Rodriguez",
+      "RestrictionType": "rerum",
+      "RestrictionListName": "Kunde-Walker",
       "IsVisible": false,
-      "ExtraInfo": "quibusdam",
-      "Width": "quia",
-      "IconHint": "et",
-      "HeadingIconHint": "dolor"
+      "ExtraInfo": "eum",
+      "Width": "ad",
+      "IconHint": "non",
+      "HeadingIconHint": "est"
     }
   ],
   "ArchiveRows": [
     {
-      "EntityName": "Abernathy-Gulgowski",
-      "PrimaryKey": 439,
+      "EntityName": "Kohler-Maggio",
+      "PrimaryKey": 973,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "aut",
-          "TooltipHint": "qui",
-          "LinkHint": "voluptas"
+          "DisplayValue": "nisi",
+          "TooltipHint": "repudiandae",
+          "LinkHint": "quidem"
         }
       },
-      "LinkHint": "voluptas",
-      "StyleHint": "assumenda",
-      "TableRight": {},
+      "LinkHint": "in",
+      "StyleHint": "dolorum",
+      "TableRight": null,
       "FieldProperties": {
         "fieldName": {
-          "FieldRight": {
-            "Mask": "FULL",
-            "Reason": "incubate holistic technologies"
-          },
+          "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 155
+          "FieldLength": 653
         }
       }
     }
   ],
-  "RowCount": 508,
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "RowCount": 996,
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
-      "FieldType": "System.String",
-      "FieldLength": 569
+      "FieldRight": null,
+      "FieldType": "System.Int32",
+      "FieldLength": 314
     }
   }
 }

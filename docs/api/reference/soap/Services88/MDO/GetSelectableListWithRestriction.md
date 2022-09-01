@@ -19,6 +19,7 @@ Method to get a Selectable MDO list with restrictions.
 
 **Returns:** Array of SelectableMDOListItem
 
+
 [WSDL file for Services88/MDO](../Services88-MDO.md)
 
 Obtain a ticket from the [Services88/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -53,6 +54,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## GetSelectableListWithRestriction Response
 
 ```xml
@@ -78,7 +80,7 @@ Application tokens must be specified if calling an Online installation. Applicat
      <MDO:ColorBlock xsi:type="xsd:int">0</MDO:ColorBlock>
      <MDO:IconHint xsi:type="xsd:string"></MDO:IconHint>
      <MDO:Selected xsi:type="xsd:boolean">false</MDO:Selected>
-     <MDO:LastChanged xsi:type="xsd:dateTime">2021-11-30T13:23:45Z</MDO:LastChanged>
+     <MDO:LastChanged xsi:type="xsd:dateTime">2022-08-26T08:59:55Z</MDO:LastChanged>
      <MDO:ChildItems xsi:type="MDO:ArrayOfSelectableMDOListItem">
       <MDO:SelectableMDOListItem xsi:type="MDO:SelectableMDOListItem">
        <MDO:Id xsi:type="xsd:int">0</MDO:Id>
@@ -90,7 +92,7 @@ Application tokens must be specified if calling an Online installation. Applicat
        <MDO:ColorBlock xsi:type="xsd:int">0</MDO:ColorBlock>
        <MDO:IconHint xsi:type="xsd:string"></MDO:IconHint>
        <MDO:Selected xsi:type="xsd:boolean">false</MDO:Selected>
-       <MDO:LastChanged xsi:type="xsd:dateTime">2021-11-30T13:23:45Z</MDO:LastChanged>
+       <MDO:LastChanged xsi:type="xsd:dateTime">2022-08-26T08:59:55Z</MDO:LastChanged>
        <MDO:ChildItems xsi:type="MDO:ArrayOfSelectableMDOListItem">
         <MDO:SelectableMDOListItem xsi:type="MDO:SelectableMDOListItem">
          <MDO:Id xsi:type="xsd:int">0</MDO:Id>
@@ -102,7 +104,7 @@ Application tokens must be specified if calling an Online installation. Applicat
          <MDO:ColorBlock xsi:type="xsd:int">0</MDO:ColorBlock>
          <MDO:IconHint xsi:type="xsd:string"></MDO:IconHint>
          <MDO:Selected xsi:type="xsd:boolean">false</MDO:Selected>
-         <MDO:LastChanged xsi:type="xsd:dateTime">2021-11-30T13:23:45Z</MDO:LastChanged>
+         <MDO:LastChanged xsi:type="xsd:dateTime">2022-08-26T08:59:55Z</MDO:LastChanged>
          <MDO:ChildItems xsi:type="MDO:ArrayOfSelectableMDOListItem">
           <MDO:SelectableMDOListItem xsi:nil="true"></MDO:SelectableMDOListItem>
          </MDO:ChildItems>
@@ -129,3 +131,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

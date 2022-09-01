@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Replication/GetArea
-id: v1ReplicationAgent_GetArea
+uid: v1ReplicationAgent_GetArea
 ---
 
 # POST Agents/Replication/GetArea
@@ -11,7 +11,15 @@ POST /api/v1/Agents/Replication/GetArea
 
 Gets a Area object.
 
-## Online Restricted: ## The Replication agent is not available in Online by default. Not available in Online. Only used on-site
+
+
+
+## Online Restricted: ## The Replication agent is not available in Online by default. Not available in Online. Only used on-site.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -21,9 +29,10 @@ Gets a Area object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Replication/GetArea?areaId=714
+POST /api/v1/Agents/Replication/GetArea?areaId=386
 POST /api/v1/Agents/Replication/GetArea?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -38,16 +47,16 @@ POST /api/v1/Agents/Replication/GetArea?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response: object
 
-Carrier object for Area.
-Services for the Area Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IReplicationAgent">Replication Agent</see>.
+## Response: 
+
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -60,38 +69,34 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Replication/GetArea
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AreaId": 861,
-  "Name": "Bahringer-Rodriguez",
-  "MaxDataAge": 736,
-  "NumberOfUsers": 888,
-  "NumberOfLogins": 335,
+  "AreaId": 76,
+  "Name": "Kshlerin, Nicolas and Wolf",
+  "MaxDataAge": 81,
+  "NumberOfUsers": 288,
+  "NumberOfLogins": 764,
   "FreetextEnabeled": false,
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
+      "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 663
+      "FieldLength": 261
     }
   }
 }

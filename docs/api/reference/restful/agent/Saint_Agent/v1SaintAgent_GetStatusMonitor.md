@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Saint/GetStatusMonitor
-id: v1SaintAgent_GetStatusMonitor
+uid: v1SaintAgent_GetStatusMonitor
 ---
 
 # POST Agents/Saint/GetStatusMonitor
@@ -11,6 +11,12 @@ POST /api/v1/Agents/Saint/GetStatusMonitor
 
 Get a single status monitor based on its identity
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Get a single status monitor based on its identity
 ```http
 POST /api/v1/Agents/Saint/GetStatusMonitor?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,26 +42,24 @@ POST /api/v1/Agents/Saint/GetStatusMonitor?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-Id
+Id 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | Id | int32 |  |
 
-## Response: object
 
-Definition of all properties for a status monitor
+## Response: 
 
-Carrier object for StatusMonitor.
-Services for the StatusMonitor Carrier is available from the <see cref="T:SuperOffice.CRM.Services.ISaintAgent">Saint Agent</see>.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -76,52 +81,48 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Saint/GetStatusMonitor
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 545
+  "Id": 404
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "OwnerTable": 447,
-  "Rank": 847,
-  "DefaultTask": 692,
-  "DefaultTaskText": "facilis",
-  "IsVisual": true,
-  "LastGenerated": "2012-02-07T18:28:50.0406989+01:00",
-  "Description": "User-centric zero tolerance help-desk",
-  "Name": "Jenkins, Denesik and Upton",
-  "StatusMonitorId": 896,
-  "PictureId": 868,
-  "NeedsUpdate": false,
-  "Deleted": false,
-  "NumMatches": 726,
-  "NumNeedUpdate": 653,
-  "GenerationStart": "1996-09-14T18:28:50.0406989+02:00",
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "OwnerTable": 639,
+  "Rank": 331,
+  "DefaultTask": 629,
+  "DefaultTaskText": "velit",
+  "IsVisual": false,
+  "LastGenerated": "1995-08-10T11:10:27.7744917+02:00",
+  "Description": "Managed scalable encryption",
+  "Name": "Thiel-Wolf",
+  "StatusMonitorId": 823,
+  "PictureId": 163,
+  "NeedsUpdate": true,
+  "Deleted": true,
+  "NumMatches": 516,
+  "NumNeedUpdate": 181,
+  "GenerationStart": "1996-02-02T11:10:27.7744917+01:00",
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
-      "FieldType": "System.Int32",
-      "FieldLength": 510
+      "FieldRight": null,
+      "FieldType": "System.String",
+      "FieldLength": 893
     }
   }
 }

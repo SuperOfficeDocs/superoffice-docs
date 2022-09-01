@@ -17,6 +17,7 @@ Detect columnid changes to the admin version (for determining publish warning)
 
 **Returns:** Returns true if columnid changes where found. i.e. if data needs to be moved during publishing.
 
+
 [WSDL file for Services86/UserDefinedFieldInfo](../Services86-UserDefinedFieldInfo.md)
 
 Obtain a ticket from the [Services86/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -49,6 +50,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## DetectColumnIdChanges Response
 
 ```xml
@@ -69,3 +71,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

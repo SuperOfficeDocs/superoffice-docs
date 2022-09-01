@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Batch/GetBatchTaskInfosByNameAndState
-id: v1BatchAgent_GetBatchTaskInfosByNameAndState
+uid: v1BatchAgent_GetBatchTaskInfosByNameAndState
 ---
 
 # POST Agents/Batch/GetBatchTaskInfosByNameAndState
@@ -11,6 +11,12 @@ POST /api/v1/Agents/Batch/GetBatchTaskInfosByNameAndState
 
 Gets an array of BatchTaskInfo with state defined by a BatchTaskState and the batchtask definition name.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Gets an array of BatchTaskInfo with state defined by a BatchTaskState and the ba
 ```http
 POST /api/v1/Agents/Batch/GetBatchTaskInfosByNameAndState?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,16 +42,19 @@ POST /api/v1/Agents/Batch/GetBatchTaskInfosByNameAndState?$select=name,departmen
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-Name, State
+Name, State 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | Name | string |  |
 | State | string |  |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -78,20 +88,22 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Batch/GetBatchTaskInfosByNameAndState
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Collier-DuBuque",
+  "Name": "Larkin, Keebler and Zboncak",
   "State": "All"
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -99,42 +111,36 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 206,
-    "Name": "Predovic LLC",
-    "AssociateId": 466,
-    "DetailsTable": 986,
-    "DetailsRecord": 120,
+    "Id": 690,
+    "Name": "Langosh, Donnelly and O'Connell",
+    "AssociateId": 427,
+    "DetailsTable": 737,
+    "DetailsRecord": 194,
     "IsSystemTask": false,
-    "IsInternalTask": true,
+    "IsInternalTask": false,
     "ParameterObject": {
-      "ParameterObject1": "voluptatem",
-      "ParameterObject2": "officiis"
+      "ParameterObject1": "quia",
+      "ParameterObject2": "aut"
     },
-    "LastStarted": "2014-02-12T18:28:48.1455429+01:00",
-    "Created": "2000-05-29T18:28:48.1455429+02:00",
-    "StartCount": 953,
-    "DatabaseSerialNumber": "1752171",
-    "Context": "dicta",
-    "Result": "aut",
+    "LastStarted": "2008-11-26T11:10:26.0205538+01:00",
+    "Created": "2009-02-12T11:10:26.0205538+01:00",
+    "StartCount": 313,
+    "DatabaseSerialNumber": "1191787",
+    "Context": "nihil",
+    "Result": "quia",
     "State": "All",
-    "Description": "Synergistic user-facing access",
-    "Response": "suscipit",
-    "Request": "reiciendis",
-    "ProgressDescription": "Reduced scalable hardware",
-    "ProgressPercent": 199,
-    "FileName": "Torphy-Stracke",
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "Description": "Persevering tangible website",
+    "Response": "ex",
+    "Request": "repellat",
+    "ProgressDescription": "Self-enabling interactive access",
+    "ProgressPercent": 437,
+    "FileName": "Gislason-Moore",
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
+        "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 306
+        "FieldLength": 121
       }
     }
   }

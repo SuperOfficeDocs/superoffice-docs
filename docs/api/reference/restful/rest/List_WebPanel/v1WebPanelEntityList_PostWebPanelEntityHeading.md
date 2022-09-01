@@ -1,6 +1,6 @@
 ---
 title: POST List/WebPanel/Headings
-id: v1WebPanelEntityList_PostWebPanelEntityHeading
+uid: v1WebPanelEntityList_PostWebPanelEntityHeading
 ---
 
 # POST List/WebPanel/Headings
@@ -11,7 +11,14 @@ POST /api/v1/List/WebPanel/Headings
 
 Saves a new heading for the WebPanelEntity list.
 
+
 Calls the List agent service SaveHeadingFromListDefinition.
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -27,9 +34,9 @@ Calls the List agent service SaveHeadingFromListDefinition.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: newEntity
+## Request Body: newEntity  
 
-The heading to be added.
+The heading to be added. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -40,18 +47,16 @@ The heading to be added.
 | Rank | int32 | Rank order |
 | UdListDefinitionId | int32 | The id of the list which this heading belongs to |
 
-## Response: object
 
-The heading entity contains generic list item information
+## Response: 
 
-Carrier object for HeadingEntity.
-Services for the HeadingEntity Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IListAgent">List Agent</see>.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -64,7 +69,7 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/List/WebPanel/Headings
@@ -74,38 +79,34 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 159,
-  "Name": "Huels LLC",
-  "Tooltip": "vitae",
+  "HeadingId": 186,
+  "Name": "Mayer LLC",
+  "Tooltip": "odio",
   "Deleted": false,
-  "Rank": 150,
-  "UdListDefinitionId": 285
+  "Rank": 573,
+  "UdListDefinitionId": 379
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 882,
-  "Name": "Jakubowski Inc and Sons",
-  "Tooltip": "corrupti",
-  "Deleted": true,
-  "Rank": 995,
-  "UdListDefinitionId": 921,
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "HeadingId": 222,
+  "Name": "Jast-Gleason",
+  "Tooltip": "sit",
+  "Deleted": false,
+  "Rank": 463,
+  "UdListDefinitionId": 581,
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
+      "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 926
+      "FieldLength": 865
     }
   }
 }

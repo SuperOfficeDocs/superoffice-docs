@@ -11,9 +11,13 @@ Implemented by the <see cref="M:SuperOffice.Services86.ISaleAgent.GetSummaryByAs
 
 ## GetSummaryByAssociate
 
-* **associateId:**
-* **fromDate:**
-* **toDate:**
+
+
+* **associateId:** 
+* **fromDate:** 
+* **toDate:** 
+
+
 
 [WSDL file for Services86/Sale](../Services86-Sale.md)
 
@@ -40,14 +44,15 @@ Application tokens must be specified if calling an Online installation. Applicat
  <SOAP-ENV:Body>
    <Sale:GetSummaryByAssociate>
     <Sale:AssociateId xsi:type="xsd:int">0</Sale:AssociateId>
-    <Sale:FromDate xsi:type="xsd:dateTime">2021-11-30T13:23:04Z</Sale:FromDate>
-    <Sale:ToDate xsi:type="xsd:dateTime">2021-11-30T13:23:04Z</Sale:ToDate>
+    <Sale:FromDate xsi:type="xsd:dateTime">2022-08-26T08:55:50Z</Sale:FromDate>
+    <Sale:ToDate xsi:type="xsd:dateTime">2022-08-26T08:55:50Z</Sale:ToDate>
    </Sale:GetSummaryByAssociate>
 
  </SOAP-ENV:Body>
 </SOAP-ENV:Envelope>
 
 ```
+
 
 ## GetSummaryByAssociate Response
 
@@ -98,3 +103,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

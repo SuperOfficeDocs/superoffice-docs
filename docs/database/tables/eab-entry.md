@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "eab_entry"
-so.date: 04.12.2022
+so.date: 08.26.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -32,6 +32,7 @@ This table contains eab (email address book) entries, i.e. an alias (&amp;apos;O
 |dbi\_last\_modified|When the entry was last modified.|DateTime| |
 |dbi\_delete|This field is used for determin which entry to delete during a synchronization|Short|&#x25CF;|
 
+
 ![eab_entry table relationship diagram](./media/eab_entry.png)
 
 [!include[details](./includes/eab-entry.md)]
@@ -55,6 +56,7 @@ This table contains eab (email address book) entries, i.e. an alias (&amp;apos;O
 |[dbi\_agent](dbi-agent.md)  |DBI agent settings |
 |[eab\_folder](eab-folder.md)  |This table contains eab (email address book) folders, used for containing email addresses. |
 
+
 ## Replication Flags
 
 * None
@@ -62,3 +64,4 @@ This table contains eab (email address book) entries, i.e. an alias (&amp;apos;O
 ## Security Flags
 
 * No access control via user's Role.
+

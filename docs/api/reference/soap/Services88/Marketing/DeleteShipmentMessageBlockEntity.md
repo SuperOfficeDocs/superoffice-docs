@@ -15,6 +15,8 @@ Deletes the ShipmentMessageBlockEntity
 
 * **shipmentMessageBlockEntityId:** The identity of the ShipmentMessageBlockEntity
 
+
+
 [WSDL file for Services88/Marketing](../Services88-Marketing.md)
 
 Obtain a ticket from the [Services88/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -46,6 +48,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## DeleteShipmentMessageBlockEntity Response
 
 ```xml
@@ -64,3 +67,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

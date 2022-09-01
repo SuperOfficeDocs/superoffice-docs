@@ -20,6 +20,7 @@ Creates a new selection based on selection members from an existing selection.
 
 **Returns:** Returns the newly created SelectionEntity.
 
+
 [WSDL file for Services88/Selection](../Services88-Selection.md)
 
 Obtain a ticket from the [Services88/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -54,6 +55,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+
 
 ## CreateSelectionFromSelection Response
 
@@ -124,12 +126,12 @@ Application tokens must be specified if calling an Online installation. Applicat
     <Selection:MemberCount xsi:type="xsd:unsignedInt">0</Selection:MemberCount>
     <Selection:Name xsi:type="xsd:string"></Selection:Name>
     <Selection:PostitTextId xsi:type="xsd:int">0</Selection:PostitTextId>
-    <Selection:CreatedDate xsi:type="xsd:dateTime">2021-11-30T13:23:52Z</Selection:CreatedDate>
+    <Selection:CreatedDate xsi:type="xsd:dateTime">2022-08-26T09:00:32Z</Selection:CreatedDate>
     <Selection:SelectionId xsi:type="xsd:int">0</Selection:SelectionId>
     <Selection:SoundEx xsi:type="xsd:string"></Selection:SoundEx>
     <Selection:Source xsi:type="xsd:short">0</Selection:Source>
     <Selection:TextId xsi:type="xsd:int">0</Selection:TextId>
-    <Selection:UpdatedDate xsi:type="xsd:dateTime">2021-11-30T13:23:52Z</Selection:UpdatedDate>
+    <Selection:UpdatedDate xsi:type="xsd:dateTime">2022-08-26T09:00:32Z</Selection:UpdatedDate>
     <Selection:UpdatedCount xsi:type="xsd:short">0</Selection:UpdatedCount>
     <Selection:Visibility xsi:type="xsd:short">0</Selection:Visibility>
     <Selection:SelectionType xsi:type="Selection:SelectionType">Static</Selection:SelectionType>
@@ -143,7 +145,7 @@ Application tokens must be specified if calling an Online installation. Applicat
     <Selection:MainProviderName xsi:type="xsd:string"></Selection:MainProviderName>
     <Selection:ShadowProviderName xsi:type="xsd:string"></Selection:ShadowProviderName>
     <Selection:ChartKey xsi:type="xsd:string"></Selection:ChartKey>
-    <Selection:LastLoaded xsi:type="xsd:dateTime">2021-11-30T13:23:52Z</Selection:LastLoaded>
+    <Selection:LastLoaded xsi:type="xsd:dateTime">2022-08-26T09:00:32Z</Selection:LastLoaded>
     <Selection:LastLoadedBy xsi:type="xsd:int">0</Selection:LastLoadedBy>
     <Selection:LastLoadedByAssociate xsi:type="Selection:Associate">
      <Selection:AssociateId xsi:type="xsd:int">0</Selection:AssociateId>
@@ -159,7 +161,7 @@ Application tokens must be specified if calling an Online installation. Applicat
      <Selection:EjUserId xsi:type="xsd:int">0</Selection:EjUserId>
      <Selection:UserName xsi:type="xsd:string"></Selection:UserName>
     </Selection:LastLoadedByAssociate>
-    <Selection:LastMembershipChange xsi:type="xsd:dateTime">2021-11-30T13:23:52Z</Selection:LastMembershipChange>
+    <Selection:LastMembershipChange xsi:type="xsd:dateTime">2022-08-26T09:00:32Z</Selection:LastMembershipChange>
     <Selection:LastMembershipChangeBy xsi:type="xsd:int">0</Selection:LastMembershipChangeBy>
     <Selection:LastMembershipChangeByAssociate xsi:type="Selection:Associate">
      <Selection:AssociateId xsi:type="xsd:int">0</Selection:AssociateId>
@@ -192,3 +194,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

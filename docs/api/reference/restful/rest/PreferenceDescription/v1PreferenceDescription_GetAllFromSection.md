@@ -1,6 +1,6 @@
 ---
 title: GET PreferenceDescription/{section}
-id: v1PreferenceDescription_GetAllFromSection
+uid: v1PreferenceDescription_GetAllFromSection
 ---
 
 # GET PreferenceDescription/{section}
@@ -11,9 +11,16 @@ GET /api/v1/PreferenceDescription/{section}
 
 Gets all PreferenceDescription-items in the specified section
 
+
+
+
+
+
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | section | string | The PreferenceDescription-section **Required** |
+
+
 
 ## Request Headers
 
@@ -28,7 +35,10 @@ Gets all PreferenceDescription-items in the specified section
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -59,14 +69,16 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 GET /api/v1/PreferenceDescription/{section}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -74,36 +86,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PrefDescId": 524,
-    "Section": "sed",
-    "Key": "officiis",
-    "Name": "Johnson-Thiel",
+    "PrefDescId": 160,
+    "Section": "labore",
+    "Key": "cumque",
+    "Name": "Wilderman-Kling",
     "ValueType": "Bool",
     "MaxLevel": "Database",
     "SysMaxLevel": "Database",
     "AccessFlags": "adminGUI",
-    "Description": "Diverse optimizing benchmark",
-    "IsBuiltin": true,
-    "TableName": "Will Inc and Sons",
-    "UserDefinedListId": 160,
-    "Rank": 964,
-    "SubGroup": "rerum",
-    "MinLevel": 546,
-    "MaxValue": 763,
-    "MinValue": 104,
-    "RequiredLicense": "quia",
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "Description": "Open-architected systematic superstructure",
+    "IsBuiltin": false,
+    "TableName": "Herman, Wolf and Borer",
+    "UserDefinedListId": 643,
+    "Rank": 740,
+    "SubGroup": "iure",
+    "MinLevel": 252,
+    "MaxValue": 591,
+    "MinValue": 200,
+    "RequiredLicense": "est",
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
+        "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 939
+        "FieldLength": 44
       }
     }
   }

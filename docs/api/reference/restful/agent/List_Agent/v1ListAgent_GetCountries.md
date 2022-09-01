@@ -1,6 +1,6 @@
 ---
 title: POST Agents/List/GetCountries
-id: v1ListAgent_GetCountries
+uid: v1ListAgent_GetCountries
 ---
 
 # POST Agents/List/GetCountries
@@ -11,6 +11,12 @@ POST /api/v1/Agents/List/GetCountries
 
 Returns all available countries a contact or person could belong to.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Returns all available countries a contact or person could belong to.
 ```http
 POST /api/v1/Agents/List/GetCountries?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -34,7 +41,10 @@ POST /api/v1/Agents/List/GetCountries?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -65,14 +75,16 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/List/GetCountries
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -80,36 +92,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "CountryId": 15,
-    "Name": "Graham, Feeney and Gleichner",
-    "CurrencyId": 220,
-    "EnglishName": "Krajcik-Thiel",
+    "CountryId": 881,
+    "Name": "Ruecker-Osinski",
+    "CurrencyId": 308,
+    "EnglishName": "Schoen-Rosenbaum",
     "TwoLetterISOCountry": "Sokovia",
     "ThreeLetterISOCountry": "Sokovia",
-    "ImageDescription": "Face to face intermediate solution",
-    "OrgNrText": "1346975",
-    "InterAreaPrefix": "quibusdam",
-    "DialInPrefix": "assumenda",
-    "ZipPrefix": "voluptatum",
-    "DomainName": "Mosciski Group",
-    "AddressLayoutId": 228,
-    "DomesticAddressLayoutId": 914,
-    "ForeignAddressLayoutId": 891,
-    "Rank": 154,
-    "Tooltip": "dolor",
-    "Deleted": true,
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "ImageDescription": "Proactive exuding migration",
+    "OrgNrText": "1687254",
+    "InterAreaPrefix": "autem",
+    "DialInPrefix": "error",
+    "ZipPrefix": "earum",
+    "DomainName": "Farrell-Bednar",
+    "AddressLayoutId": 561,
+    "DomesticAddressLayoutId": 109,
+    "ForeignAddressLayoutId": 699,
+    "Rank": 128,
+    "Tooltip": "qui",
+    "Deleted": false,
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.Int32",
-        "FieldLength": 569
+        "FieldRight": null,
+        "FieldType": "System.String",
+        "FieldLength": 78
       }
     }
   }

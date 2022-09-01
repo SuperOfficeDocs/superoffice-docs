@@ -1,6 +1,6 @@
 ---
 title: POST Agents/EMail/GetEMailSOInfo
-id: v1EMailAgent_GetEMailSOInfo
+uid: v1EMailAgent_GetEMailSOInfo
 ---
 
 # POST Agents/EMail/GetEMailSOInfo
@@ -11,7 +11,15 @@ POST /api/v1/Agents/EMail/GetEMailSOInfo
 
 Gets a EMailSOInfo object.
 
-## Online Restricted: ## The EMail agent is not available in Online by default. Access must be requested specifically when app is registered
+
+
+
+## Online Restricted: ## The EMail agent is not available in Online by default. Access must be requested specifically when app is registered.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -21,9 +29,10 @@ Gets a EMailSOInfo object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/EMail/GetEMailSOInfo?eMailSOInfoId=292
+POST /api/v1/Agents/EMail/GetEMailSOInfo?eMailSOInfoId=586
 POST /api/v1/Agents/EMail/GetEMailSOInfo?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -38,18 +47,16 @@ POST /api/v1/Agents/EMail/GetEMailSOInfo?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response: object
 
-Glue between SuperOffice data and an e-mail.
+## Response: 
 
-Carrier object for EMailSOInfo.
-Services for the EMailSOInfo Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IEMailAgent">EMail Agent</see>.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -64,40 +71,36 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/EMail/GetEMailSOInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 23,
-  "AppointmentId": 299,
-  "ProjectId": 387,
-  "SaleId": 142,
+  "DocumentId": 871,
+  "AppointmentId": 389,
+  "ProjectId": 657,
+  "SaleId": 635,
   "Archived": false,
-  "ArchivedAt": "2000-08-27T18:28:49.017956+02:00",
-  "ArchivedBy": 831,
-  "ArchivedDisplayName": "Corkery, Cartwright and Hettinger",
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "ArchivedAt": "1999-01-09T11:10:26.8864224+01:00",
+  "ArchivedBy": 425,
+  "ArchivedDisplayName": "White LLC",
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
+      "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 393
+      "FieldLength": 535
     }
   }
 }

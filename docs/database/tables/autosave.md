@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "autosave"
-so.date: 04.12.2022
+so.date: 08.26.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -27,6 +27,7 @@ Autosaved text clobs from ejscript and emarketeer messages
 |created\_at|When the autosave was saved.|DateTime|&#x25CF;|
 |data|The rawtext of the autosave.|Clob|&#x25CF;|
 
+
 ![autosave table relationship diagram](./media/autosave.png)
 
 [!include[details](./includes/autosave.md)]
@@ -45,3 +46,4 @@ Autosaved text clobs from ejscript and emarketeer messages
 ## Security Flags
 
 * No access control via user's Role.
+

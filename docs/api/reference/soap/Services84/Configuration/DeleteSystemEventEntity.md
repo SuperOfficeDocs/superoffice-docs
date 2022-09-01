@@ -15,6 +15,8 @@ Deletes the SystemEventEntity
 
 * **systemEventEntityId:** The identity of the SystemEventEntity
 
+
+
 [WSDL file for Services84/Configuration](../Services84-Configuration.md)
 
 Obtain a ticket from the [Services84/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -47,6 +49,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## DeleteSystemEventEntity Response
 
 ```xml
@@ -66,3 +69,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

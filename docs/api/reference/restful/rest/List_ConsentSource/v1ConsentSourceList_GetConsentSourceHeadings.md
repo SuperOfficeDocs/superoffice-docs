@@ -1,6 +1,6 @@
 ---
 title: GET List/ConsentSource/Headings
-id: v1ConsentSourceList_GetConsentSourceHeadings
+uid: v1ConsentSourceList_GetConsentSourceHeadings
 ---
 
 # GET List/ConsentSource/Headings
@@ -11,7 +11,14 @@ GET /api/v1/List/ConsentSource/Headings
 
 Gets headings for the ConsentSource list.
 
+
 Calls the List agent service GetGetHeadingsFromListDefinition.
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -26,7 +33,10 @@ Calls the List agent service GetGetHeadingsFromListDefinition.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -45,14 +55,16 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 GET /api/v1/List/ConsentSource/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -60,24 +72,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 157,
-    "Name": "Skiles-Berge",
-    "Tooltip": "quod",
+    "HeadingId": 138,
+    "Name": "Kessler-Hagenes",
+    "Tooltip": "suscipit",
     "Deleted": false,
-    "Rank": 180,
-    "UdListDefinitionId": 299,
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "Rank": 152,
+    "UdListDefinitionId": 566,
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 308
+        "FieldRight": null,
+        "FieldType": "System.Int32",
+        "FieldLength": 917
       }
     }
   }

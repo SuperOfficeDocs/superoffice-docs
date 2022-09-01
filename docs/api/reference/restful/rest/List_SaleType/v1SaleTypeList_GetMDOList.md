@@ -1,6 +1,6 @@
 ---
 title: GET List/SaleType/MDOItems
-id: v1SaleTypeList_GetMDOList
+uid: v1SaleTypeList_GetMDOList
 ---
 
 # GET List/SaleType/MDOItems
@@ -11,6 +11,12 @@ GET /api/v1/List/SaleType/MDOItems
 
 Get the MDO list items for "SaleType" - with headings and filtering by user group.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -19,9 +25,10 @@ Get the MDO list items for "SaleType" - with headings and filtering by user grou
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/SaleType/MDOItems?flat=True
-GET /api/v1/List/SaleType/MDOItems?query=qui
+GET /api/v1/List/SaleType/MDOItems?flat=False
+GET /api/v1/List/SaleType/MDOItems?query=dolore
 ```
+
 
 ## Request Headers
 
@@ -36,7 +43,10 @@ GET /api/v1/List/SaleType/MDOItems?query=qui
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -61,7 +71,7 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 GET /api/v1/List/SaleType/MDOItems
@@ -70,65 +80,58 @@ Accept: application/json; charset=utf-8
 Accept-Language: en
 ```
 
+## Sample response
+
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 260,
-    "Name": "Harris LLC",
-    "ToolTip": "Deserunt consequatur itaque qui.",
+    "Id": 1002,
+    "Name": "Sauer Inc and Sons",
+    "ToolTip": "Omnis ut labore accusantium tenetur et.",
     "Deleted": false,
-    "Rank": 310,
-    "Type": "vitae",
+    "Rank": 741,
+    "Type": "qui",
     "ChildItems": [
       {
-        "Id": 492,
-        "Name": "Upton LLC",
-        "ToolTip": "Praesentium iure esse quibusdam vitae.",
-        "Deleted": false,
-        "Rank": 171,
-        "Type": "totam",
+        "Id": 921,
+        "Name": "Cremin, Aufderhar and Jakubowski",
+        "ToolTip": "Accusantium voluptatem suscipit praesentium.",
+        "Deleted": true,
+        "Rank": 600,
+        "Type": "expedita",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "inventore",
-        "ColorBlock": 613,
-        "ExtraInfo": "sed",
-        "StyleHint": "incidunt",
-        "FullName": "London Lueilwitz",
-        "TableRight": {},
+        "IconHint": "ut",
+        "ColorBlock": 508,
+        "ExtraInfo": "nihil",
+        "StyleHint": "sequi",
+        "FullName": "Jeff Kuphal",
+        "TableRight": null,
         "FieldProperties": {
           "fieldName": {
-            "FieldRight": {
-              "Mask": "FULL",
-              "Reason": ""
-            },
+            "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 223
+            "FieldLength": 169
           }
         }
       }
     ],
-    "IconHint": "quidem",
-    "ColorBlock": 25,
-    "ExtraInfo": "sequi",
-    "StyleHint": "ipsum",
-    "FullName": "Craig Price",
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "IconHint": "ducimus",
+    "ColorBlock": 407,
+    "ExtraInfo": "id",
+    "StyleHint": "dolores",
+    "FullName": "Cora McDermott",
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.Int32",
-        "FieldLength": 991
+        "FieldRight": null,
+        "FieldType": "System.String",
+        "FieldLength": 793
       }
     }
   }

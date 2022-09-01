@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Configuration/SaveDiaryViewEntity
-id: v1ConfigurationAgent_SaveDiaryViewEntity
+uid: v1ConfigurationAgent_SaveDiaryViewEntity
 ---
 
 # POST Agents/Configuration/SaveDiaryViewEntity
@@ -10,6 +10,13 @@ POST /api/v1/Agents/Configuration/SaveDiaryViewEntity
 ```
 
 Updates the existing DiaryViewEntity or creates a new DiaryViewEntity if the id parameter is empty
+
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -25,9 +32,9 @@ Updates the existing DiaryViewEntity or creates a new DiaryViewEntity if the id 
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entity
+## Request Body: entity  
 
-The DiaryViewEntity to be saved.
+The DiaryViewEntity to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -40,13 +47,16 @@ The DiaryViewEntity to be saved.
 | AssociateList | array |  |
 | TzLocationId | int32 |  |
 
-## Response: object
+
+## Response: 
+
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -61,105 +71,98 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Configuration/SaveDiaryViewEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DiaryViewId": 645,
-  "Name": "Rowe-Gleichner",
-  "Tooltip": "voluptatum",
-  "VisibleColumns": 541,
-  "Rank": 518,
-  "AssocId": 412,
+  "DiaryViewId": 355,
+  "Name": "Schulist Group",
+  "Tooltip": "est",
+  "VisibleColumns": 558,
+  "Rank": 419,
+  "AssocId": 523,
   "AssociateList": [
     {
-      "Id": 662,
-      "Name": "Kuvalis, Gottlieb and Schmidt",
-      "ToolTip": "Aut vel.",
-      "Deleted": true,
-      "Rank": 641,
-      "Type": "dolore",
-      "ColorBlock": 624,
-      "IconHint": "eos",
+      "Id": 378,
+      "Name": "Crooks, Fritsch and Collier",
+      "ToolTip": "Maxime animi recusandae sed reiciendis.",
+      "Deleted": false,
+      "Rank": 121,
+      "Type": "cum",
+      "ColorBlock": 479,
+      "IconHint": "aliquid",
       "Selected": true,
-      "LastChanged": "2012-03-22T18:28:48.4046525+01:00",
+      "LastChanged": "2002-05-07T11:10:26.1955254+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "necessitatibus",
-      "StyleHint": "molestiae",
-      "Hidden": true,
-      "FullName": "Elvis Kris"
+      "ExtraInfo": "labore",
+      "StyleHint": "repudiandae",
+      "Hidden": false,
+      "FullName": "Prof. Jessie Andres Greenholt PhD"
     }
   ],
-  "TzLocationId": 302
+  "TzLocationId": 627
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DiaryViewId": 47,
-  "Name": "Pfeffer-Legros",
-  "Tooltip": "hic",
-  "VisibleColumns": 392,
-  "Rank": 280,
-  "AssocId": 281,
+  "DiaryViewId": 543,
+  "Name": "Rutherford, Lakin and Dare",
+  "Tooltip": "dolore",
+  "VisibleColumns": 527,
+  "Rank": 956,
+  "AssocId": 298,
   "AssociateList": [
     {
-      "Id": 229,
-      "Name": "Doyle Group",
-      "ToolTip": "Eum quo possimus omnis dolorem quo at.",
-      "Deleted": true,
-      "Rank": 736,
-      "Type": "deserunt",
-      "ColorBlock": 667,
-      "IconHint": "aliquam",
-      "Selected": true,
-      "LastChanged": "2004-05-28T18:28:48.4056525+02:00",
+      "Id": 995,
+      "Name": "Pacocha, Weissnat and Sanford",
+      "ToolTip": "Velit quisquam nisi sunt.",
+      "Deleted": false,
+      "Rank": 131,
+      "Type": "sunt",
+      "ColorBlock": 713,
+      "IconHint": "et",
+      "Selected": false,
+      "LastChanged": "2018-04-30T11:10:26.1965257+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "enim",
-      "StyleHint": "sed",
+      "ExtraInfo": "officia",
+      "StyleHint": "eum",
       "Hidden": true,
-      "FullName": "Miss Verda Gottlieb",
-      "TableRight": {},
+      "FullName": "Ms. Clifton Marilie Parker DDS",
+      "TableRight": null,
       "FieldProperties": {
         "fieldName": {
-          "FieldRight": {
-            "Mask": "FULL",
-            "Reason": ""
-          },
+          "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 222
+          "FieldLength": 165
         }
       }
     }
   ],
-  "TzLocationId": 288,
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "TzLocationId": 544,
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
-      "FieldType": "System.String",
-      "FieldLength": 488
+      "FieldRight": null,
+      "FieldType": "System.Int32",
+      "FieldLength": 299
     }
   }
 }

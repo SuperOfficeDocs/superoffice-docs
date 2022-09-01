@@ -1,6 +1,6 @@
 ---
 title: POST List/Business/Items
-id: v1BusinessList_PostBusiness
+uid: v1BusinessList_PostBusiness
 ---
 
 # POST List/Business/Items
@@ -10,6 +10,13 @@ POST /api/v1/List/Business/Items
 ```
 
 Add a new Business to the list.
+
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -25,9 +32,9 @@ Add a new Business to the list.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: newListItem
+## Request Body: newListItem  
 
-The Business to be added to the list.
+The Business to be added to the list. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -38,18 +45,16 @@ The Business to be added to the list.
 | UdListDefinitionId | int32 | The id of the list which this list item belongs to |
 | Rank | int32 | The rank of the list item |
 
-## Response: object
 
-The list item entity contains generic list item information
+## Response: 
 
-Carrier object for ListItemEntity.
-Services for the ListItemEntity Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IListAgent">List Agent</see>.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -62,48 +67,44 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/List/Business/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 201,
-  "Name": "McCullough-Wehner",
-  "Tooltip": "ratione",
-  "Deleted": true,
-  "UdListDefinitionId": 221,
-  "Rank": 704
+  "Id": 555,
+  "Name": "Luettgen LLC",
+  "Tooltip": "dolor",
+  "Deleted": false,
+  "UdListDefinitionId": 173,
+  "Rank": 316
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 989,
-  "Name": "McClure LLC",
-  "Tooltip": "reiciendis",
+  "Id": 506,
+  "Name": "Daniel, Stoltenberg and Ratke",
+  "Tooltip": "exercitationem",
   "Deleted": false,
-  "UdListDefinitionId": 42,
-  "Rank": 109,
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "UdListDefinitionId": 313,
+  "Rank": 916,
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
+      "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 170
+      "FieldLength": 970
     }
   }
 }

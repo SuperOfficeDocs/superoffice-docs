@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Marketing/GetPreviewMailing
-id: v1MarketingAgent_GetPreviewMailing
+uid: v1MarketingAgent_GetPreviewMailing
 ---
 
 # POST Agents/Marketing/GetPreviewMailing
@@ -11,6 +11,12 @@ POST /api/v1/Agents/Marketing/GetPreviewMailing
 
 Get a shipment message from its shipment address id
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Get a shipment message from its shipment address id
 ```http
 POST /api/v1/Agents/Marketing/GetPreviewMailing?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,26 +42,24 @@ POST /api/v1/Agents/Marketing/GetPreviewMailing?$select=name,department,category
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-ShipmentAddrId
+ShipmentAddrId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | ShipmentAddrId | int32 |  |
 
-## Response: object
 
-A shipment message with information about the recipient it was sent to.
+## Response: 
 
-Carrier object for PreviewMailing.
-Services for the PreviewMailing Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IMarketingAgent">Marketing Agent</see>.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -76,7 +81,7 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Marketing/GetPreviewMailing
@@ -86,42 +91,38 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentAddrId": 159
+  "ShipmentAddrId": 875
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SendingTime": "1994-09-17T18:28:49.4690875+02:00",
+  "SendingTime": "2003-09-23T11:10:27.294453+02:00",
   "Status": "Blocked",
-  "ShipmentId": 234,
-  "ShipmentDescription": "Seamless reciprocal forecast",
-  "FromAddress": "voluptas",
-  "ContactId": 440,
-  "ContactName": "Ritchie-Lynch",
-  "PersonId": 347,
-  "PersonFullName": "Adrain Donnelly",
-  "ShipmentType": "tempore",
-  "MessageId": 80,
-  "MessageSubject": "iure",
-  "DocumentMessageId": 599,
-  "Opened": "1998-03-18T18:28:49.4690875+01:00",
-  "LinkClicks": 744,
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": "scale collaborative technologies"
-  },
+  "ShipmentId": 1000,
+  "ShipmentDescription": "Operative transitional application",
+  "FromAddress": "voluptate",
+  "ContactId": 760,
+  "ContactName": "Jerde-Russel",
+  "PersonId": 789,
+  "PersonFullName": "Isaias Keebler",
+  "ShipmentType": "aliquid",
+  "MessageId": 720,
+  "MessageSubject": "quia",
+  "DocumentMessageId": 4,
+  "Opened": "2006-08-15T11:10:27.294453+02:00",
+  "LinkClicks": 597,
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": "embrace compelling systems"
-      },
-      "FieldType": "System.Int32",
-      "FieldLength": 23
+      "FieldRight": null,
+      "FieldType": "System.String",
+      "FieldLength": 940
     }
   }
 }

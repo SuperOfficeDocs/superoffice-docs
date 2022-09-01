@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Chat/IsWithinOpeningHours
-id: v1ChatAgent_IsWithinOpeningHours
+uid: v1ChatAgent_IsWithinOpeningHours
 ---
 
 # POST Agents/Chat/IsWithinOpeningHours
@@ -11,7 +11,13 @@ POST /api/v1/Agents/Chat/IsWithinOpeningHours
 
 Check if we are right now within the opening hours of the given topic.
 
+
 Will use timezones to calculate if configured.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +28,7 @@ Will use timezones to calculate if configured.
 ```http
 POST /api/v1/Agents/Chat/IsWithinOpeningHours?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,15 +44,18 @@ POST /api/v1/Agents/Chat/IsWithinOpeningHours?$select=name,department,category/i
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-ChatTopicId
+ChatTopicId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | ChatTopicId | int32 |  |
 
+
 ## Response: bool
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -53,7 +63,8 @@ ChatTopicId
 
 Response body: bool
 
-## Sample Request
+
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Chat/IsWithinOpeningHours
@@ -63,13 +74,15 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatTopicId": 28
+  "ChatTopicId": 188
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-false
+true
 ```

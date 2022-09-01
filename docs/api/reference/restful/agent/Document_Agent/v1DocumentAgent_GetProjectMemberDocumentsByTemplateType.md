@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Document/GetProjectMemberDocumentsByTemplateType
-id: v1DocumentAgent_GetProjectMemberDocumentsByTemplateType
+uid: v1DocumentAgent_GetProjectMemberDocumentsByTemplateType
 ---
 
 # POST Agents/Document/GetProjectMemberDocumentsByTemplateType
@@ -11,7 +11,13 @@ POST /api/v1/Agents/Document/GetProjectMemberDocumentsByTemplateType
 
 Method that returns a specified number of document appointments within a time range, filtered by document template type.
 
+
 The document appointments belong to the project member specified.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +28,7 @@ The document appointments belong to the project member specified.
 ```http
 POST /api/v1/Agents/Document/GetProjectMemberDocumentsByTemplateType?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,9 +44,9 @@ POST /api/v1/Agents/Document/GetProjectMemberDocumentsByTemplateType?$select=nam
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-PersonId, StartTime, EndTime, Count, DocumentTemplateId
+PersonId, StartTime, EndTime, Count, DocumentTemplateId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -49,7 +56,10 @@ PersonId, StartTime, EndTime, Count, DocumentTemplateId
 | Count | int32 |  |
 | DocumentTemplateId | int32 |  |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -77,26 +87,30 @@ Response body: array
 | ProjectName | string | Project name |
 | AssociateId | int32 | ID of associate whose diary the appointment is in, REQUIRED |
 | Snum | int32 | The sequence number allocated from refcount on used template when creating the document |
+| SaleId | int32 | Owning sale, if any (may be 0) |
+| SaleName | string | Heading of Owning sale, if any. (may be blank) |
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Document/GetProjectMemberDocumentsByTemplateType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 295,
-  "StartTime": "2018-05-23T18:28:48.7139517+02:00",
-  "EndTime": "2002-08-25T18:28:48.7139517+02:00",
-  "Count": 999,
-  "DocumentTemplateId": 852
+  "PersonId": 386,
+  "StartTime": "2008-01-22T11:10:26.468454+01:00",
+  "EndTime": "1996-06-10T11:10:26.468454+02:00",
+  "Count": 729,
+  "DocumentTemplateId": 148
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -104,36 +118,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 959,
-    "Attention": "saepe",
-    "Header": "quia",
-    "Name": "Ziemann, White and Funk",
-    "OurRef": "molestias",
-    "YourRef": "vitae",
-    "Description": "Advanced empowering moderator",
-    "DocumentTemplate": "cumque",
+    "DocumentId": 292,
+    "Attention": "magnam",
+    "Header": "quos",
+    "Name": "Krajcik Group",
+    "OurRef": "blanditiis",
+    "YourRef": "autem",
+    "Description": "Proactive context-sensitive website",
+    "DocumentTemplate": "officiis",
     "IsPublished": false,
-    "PersonId": 829,
-    "PersonFullName": "Dr. Greyson Herman",
-    "AssociateFullName": "Kali Hilpert PhD",
-    "ContactId": 327,
-    "ContactName": "Howell LLC",
-    "ProjectId": 356,
-    "ProjectName": "Botsford LLC",
-    "AssociateId": 104,
-    "Snum": 872,
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "PersonId": 434,
+    "PersonFullName": "Zelma Roob",
+    "AssociateFullName": "Adele Collier Jr.",
+    "ContactId": 401,
+    "ContactName": "Watsica, Upton and Goldner",
+    "ProjectId": 11,
+    "ProjectName": "Feil Group",
+    "AssociateId": 926,
+    "Snum": 252,
+    "SaleId": 321,
+    "SaleName": "Goyette, Lemke and Okuneva",
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
+        "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 125
+        "FieldLength": 343
       }
     }
   }

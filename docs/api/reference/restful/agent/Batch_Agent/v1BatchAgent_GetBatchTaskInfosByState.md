@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Batch/GetBatchTaskInfosByState
-id: v1BatchAgent_GetBatchTaskInfosByState
+uid: v1BatchAgent_GetBatchTaskInfosByState
 ---
 
 # POST Agents/Batch/GetBatchTaskInfosByState
@@ -11,6 +11,12 @@ POST /api/v1/Agents/Batch/GetBatchTaskInfosByState
 
 Gets an array of BatchTaskInfo with state defined by a BatchTaskState.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Gets an array of BatchTaskInfo with state defined by a BatchTaskState.
 ```http
 POST /api/v1/Agents/Batch/GetBatchTaskInfosByState?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,15 +42,18 @@ POST /api/v1/Agents/Batch/GetBatchTaskInfosByState?$select=name,department,categ
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-State
+State 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | State | string |  |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -77,13 +87,13 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Batch/GetBatchTaskInfosByState
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -91,48 +101,44 @@ Content-Type: application/json; charset=utf-8
 }
 ```
 
+## Sample response
+
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 706,
-    "Name": "Zemlak Group",
-    "AssociateId": 641,
-    "DetailsTable": 389,
-    "DetailsRecord": 998,
+    "Id": 274,
+    "Name": "Lindgren-Moen",
+    "AssociateId": 595,
+    "DetailsTable": 435,
+    "DetailsRecord": 988,
     "IsSystemTask": true,
     "IsInternalTask": false,
     "ParameterObject": {
-      "ParameterObject1": "enim",
-      "ParameterObject2": "praesentium"
+      "ParameterObject1": "rem",
+      "ParameterObject2": "eos"
     },
-    "LastStarted": "2006-04-24T18:28:48.1435473+02:00",
-    "Created": "2014-05-24T18:28:48.1435473+02:00",
-    "StartCount": 123,
-    "DatabaseSerialNumber": "1165181",
-    "Context": "quae",
-    "Result": "consequatur",
+    "LastStarted": "2000-06-23T11:10:26.0185529+02:00",
+    "Created": "2004-10-20T11:10:26.0185529+02:00",
+    "StartCount": 473,
+    "DatabaseSerialNumber": "1698706",
+    "Context": "eaque",
+    "Result": "officiis",
     "State": "All",
-    "Description": "Monitored executive secured line",
-    "Response": "ducimus",
-    "Request": "magnam",
-    "ProgressDescription": "Assimilated didactic installation",
-    "ProgressPercent": 378,
-    "FileName": "Cole Group",
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "Description": "Multi-lateral bifurcated projection",
+    "Response": "fugit",
+    "Request": "sapiente",
+    "ProgressDescription": "Triple-buffered 5th generation methodology",
+    "ProgressPercent": 343,
+    "FileName": "Stamm, Runte and Prohaska",
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 706
+        "FieldRight": null,
+        "FieldType": "System.Int32",
+        "FieldLength": 63
       }
     }
   }

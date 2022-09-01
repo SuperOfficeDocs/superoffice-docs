@@ -6,14 +6,14 @@ so.generated: true
 keywords:
   - "database"
   - "s_messageblock"
-so.date: 04.12.2022
+so.date: 08.26.2022
 so.topic: reference
 so.envir:
   - "onsite"
   - "online"
 ---
 
-# s\_messageblock Table (486)
+# s\_messageblock Table (487)
 
 Contains a block of a mailing message, that can be reused in a mailing
 
@@ -29,6 +29,7 @@ Contains a block of a mailing message, that can be reused in a mailing
 |updated|Last updated when|UtcDateTime| |
 |updated\_associate\_id|Last updated by whom|FK [associate](associate.md)| |
 |updatedCount|Number of updates made to this record|UShort| |
+
 
 ![s_messageblock table relationship diagram](./media/s_messageblock.png)
 
@@ -46,6 +47,7 @@ Contains a block of a mailing message, that can be reused in a mailing
 |------|-------------|
 |[associate](associate.md)  |Employees, resources and other users - except for External persons |
 
+
 ## Replication Flags
 
 * None
@@ -53,3 +55,4 @@ Contains a block of a mailing message, that can be reused in a mailing
 ## Security Flags
 
 * No access control via user's Role.
+

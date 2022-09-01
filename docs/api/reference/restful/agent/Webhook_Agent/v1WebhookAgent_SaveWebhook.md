@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Webhook/SaveWebhook
-id: v1WebhookAgent_SaveWebhook
+uid: v1WebhookAgent_SaveWebhook
 ---
 
 # POST Agents/Webhook/SaveWebhook
@@ -11,7 +11,16 @@ POST /api/v1/Agents/Webhook/SaveWebhook
 
 Updates the existing Webhook or creates a new Webhook if the id parameter is empty
 
-## Online Restricted: ## The Webhook agent is not available in Online by default. Access must be requested specifically when app is registered
+
+
+
+## Online Restricted: ## The Webhook agent is not available in Online by default. Access must be requested specifically when app is registered.
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -27,9 +36,9 @@ Updates the existing Webhook or creates a new Webhook if the id parameter is emp
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entity
+## Request Body: entity  
 
-The Webhook to be saved.
+The Webhook to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -47,18 +56,16 @@ The Webhook to be saved.
 | Updated | date-time | Last updated when  in UTC. |
 | UpdatedAssociate |  | The user that last updated the webhook. |
 
-## Response: object
 
-Webhook definitions. Webhooks broadcast events from NetServer to remote servers.
+## Response: 
 
-Carrier object for Webhook.
-Services for the Webhook Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IWebhookAgent">Webhook Agent</see>.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -76,7 +83,7 @@ Response body: object
 | Updated | date-time | Last updated when  in UTC. |
 | UpdatedAssociate |  | The user that last updated the webhook. |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Webhook/SaveWebhook
@@ -86,129 +93,57 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebhookId": 776,
-  "Name": "Runte-Larkin",
+  "WebhookId": 456,
+  "Name": "Bins LLC",
   "Events": [
-    "aut",
-    "vero"
+    "itaque",
+    "voluptates"
   ],
   "TargetUrl": "http://www.example.com/",
   "Secret": "facere",
   "State": "Active",
-  "Type": "quis",
+  "Type": "aliquid",
   "Headers": {
-    "Headers1": "totam",
-    "Headers2": "nulla"
+    "Headers1": "consequuntur",
+    "Headers2": "perferendis"
   },
   "Properties": {
     "fieldName": {}
   },
-  "Registered": "2014-06-25T18:28:50.6074146+02:00",
-  "RegisteredAssociate": {
-    "AssociateId": 393,
-    "Name": "Eichmann Group",
-    "PersonId": 881,
-    "Rank": 492,
-    "Tooltip": "architecto",
-    "Type": "AnonymousAssociate",
-    "GroupIdx": 171,
-    "FullName": "Audie Schultz",
-    "FormalName": "Price-Medhurst",
-    "Deleted": true,
-    "EjUserId": 562,
-    "UserName": "Bode, Greenholt and Conroy"
-  },
-  "Updated": "2003-06-20T18:28:50.6074146+02:00",
-  "UpdatedAssociate": {
-    "AssociateId": 315,
-    "Name": "Steuber, Schimmel and Leuschke",
-    "PersonId": 812,
-    "Rank": 386,
-    "Tooltip": "dolore",
-    "Type": "AnonymousAssociate",
-    "GroupIdx": 582,
-    "FullName": "Christa Kuhic",
-    "FormalName": "Kuhn, Gorczany and Nienow",
-    "Deleted": true,
-    "EjUserId": 935,
-    "UserName": "Lynch, Frami and Weimann"
-  }
+  "Registered": "1998-05-23T11:10:28.4772088+02:00",
+  "RegisteredAssociate": null,
+  "Updated": "2018-02-09T11:10:28.4782088+01:00",
+  "UpdatedAssociate": null
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebhookId": 309,
-  "Name": "Treutel, Murray and Terry",
+  "WebhookId": 790,
+  "Name": "Crist Group",
   "Events": [
-    "sint",
-    "mollitia"
+    "qui",
+    "et"
   ],
   "TargetUrl": "http://www.example.com/",
-  "Secret": "qui",
+  "Secret": "velit",
   "State": "Active",
-  "Type": "a",
+  "Type": "incidunt",
   "Headers": {
-    "Headers1": "natus",
-    "Headers2": "neque"
+    "Headers1": "atque",
+    "Headers2": "et"
   },
   "Properties": {
     "fieldName": {}
   },
-  "Registered": "1995-12-08T18:28:50.6094147+01:00",
-  "RegisteredAssociate": {
-    "AssociateId": 367,
-    "Name": "Nienow Inc and Sons",
-    "PersonId": 897,
-    "Rank": 870,
-    "Tooltip": "aspernatur",
-    "Type": "AnonymousAssociate",
-    "GroupIdx": 741,
-    "FullName": "Andy Weissnat",
-    "FormalName": "Sawayn-Okuneva",
-    "Deleted": false,
-    "EjUserId": 234,
-    "UserName": "Collins Inc and Sons",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.Int32",
-        "FieldLength": 69
-      }
-    }
-  },
-  "Updated": "2017-02-07T18:28:50.6094147+01:00",
-  "UpdatedAssociate": {
-    "AssociateId": 279,
-    "Name": "Muller Group",
-    "PersonId": 680,
-    "Rank": 902,
-    "Tooltip": "voluptate",
-    "Type": "AnonymousAssociate",
-    "GroupIdx": 255,
-    "FullName": "Kenneth Abernathy",
-    "FormalName": "Denesik, Ritchie and Bins",
-    "Deleted": true,
-    "EjUserId": 240,
-    "UserName": "Doyle Group",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.Int32",
-        "FieldLength": 329
-      }
-    }
-  }
+  "Registered": "2012-06-20T11:10:28.4802082+02:00",
+  "RegisteredAssociate": null,
+  "Updated": "1995-08-26T11:10:28.4802082+02:00",
+  "UpdatedAssociate": null
 }
 ```

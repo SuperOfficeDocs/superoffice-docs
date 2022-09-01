@@ -17,6 +17,7 @@ Toggle the completed status for an activity. Activity may be sale, document or a
 
 **Returns:** What the result after toggling was.
 
+
 [WSDL file for Services87/Appointment](../Services87-Appointment.md)
 
 Obtain a ticket from the [Services87/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -49,6 +50,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## ToggleActivity Response
 
 ```xml
@@ -69,3 +71,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

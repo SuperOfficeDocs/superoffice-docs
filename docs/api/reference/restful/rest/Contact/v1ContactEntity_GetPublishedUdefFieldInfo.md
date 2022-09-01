@@ -1,6 +1,6 @@
 ---
 title: GET Contact/UdefLayout/Published/{progidOrLabel}
-id: v1ContactEntity_GetPublishedUdefFieldInfo
+uid: v1ContactEntity_GetPublishedUdefFieldInfo
 ---
 
 # GET Contact/UdefLayout/Published/{progidOrLabel}
@@ -11,9 +11,16 @@ GET /api/v1/Contact/UdefLayout/Published/{progidOrLabel}
 
 Get a published ContactEntity user-defined field's details based on the prog-id or label.
 
+
+
+
+
+
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | progidOrLabel | string | The udef field id, case-sensitive prog-id, or field label. **Required** |
+
+
 
 ## Request Headers
 
@@ -28,19 +35,17 @@ Get a published ContactEntity user-defined field's details based on the prog-id 
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response: object
 
-Return information about the user defined fields. The information can be used to mirror the layout of the user-defined fields in the user interface.
+## Response: 
 
-Carrier object for UserDefinedFieldInfo.
-Services for the UserDefinedFieldInfo Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent">UserDefinedFieldInfo Agent</see>.
+ContactEntity found.
 
 | Response | Description |
 |----------------|-------------|
 | 200 | ContactEntity found. |
 | 404 | ContactEntity not found. |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -81,66 +86,62 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 GET /api/v1/Contact/UdefLayout/Published/{progidOrLabel}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 ContactEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 421,
-  "ColumnId": 827,
-  "FieldDefault": "magni",
-  "FieldHeight": 381,
-  "FieldLabel": "magni",
-  "FieldLeft": 541,
-  "FieldTop": 635,
+  "UDefFieldId": 789,
+  "ColumnId": 393,
+  "FieldDefault": "omnis",
+  "FieldHeight": 434,
+  "FieldLabel": "voluptates",
+  "FieldLeft": 379,
+  "FieldTop": 402,
   "FieldType": "Checkbox",
-  "FieldWidth": 848,
-  "FormatMask": "pariatur",
-  "HideLabel": false,
-  "IsIndexed": true,
-  "LabelHeight": 560,
-  "LabelLeft": 104,
-  "LabelTop": 731,
-  "LabelWidth": 803,
-  "LastVersionId": 572,
-  "ListTableId": 564,
-  "IsMandatory": false,
+  "FieldWidth": 842,
+  "FormatMask": "quia",
+  "HideLabel": true,
+  "IsIndexed": false,
+  "LabelHeight": 498,
+  "LabelLeft": 702,
+  "LabelTop": 10,
+  "LabelWidth": 416,
+  "LastVersionId": 384,
+  "ListTableId": 688,
+  "IsMandatory": true,
   "Type": "Appointment",
-  "Page1LineNo": 255,
-  "ProgId": "eligendi",
-  "IsReadOnly": true,
-  "ShortLabel": "quos",
-  "TabOrder": 530,
-  "TextLength": 17,
-  "Tooltip": "aut",
-  "UdefIdentity": 988,
-  "UDListDefinitionId": 621,
+  "Page1LineNo": 761,
+  "ProgId": "aut",
+  "IsReadOnly": false,
+  "ShortLabel": "sed",
+  "TabOrder": 910,
+  "TextLength": 277,
+  "Tooltip": "accusamus",
+  "UdefIdentity": 537,
+  "UDListDefinitionId": 660,
   "Justification": "Center",
-  "Version": 305,
-  "TemplateVariableName": "Howe Group",
-  "HasBeenPublished": true,
-  "MdoListName": "Vandervort-Bechtelar",
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "Version": 303,
+  "TemplateVariableName": "Kassulke-Gibson",
+  "HasBeenPublished": false,
+  "MdoListName": "Brown Group",
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": "streamline bricks-and-clicks e-services"
-      },
-      "FieldType": "System.String",
-      "FieldLength": 915
+      "FieldRight": null,
+      "FieldType": "System.Int32",
+      "FieldLength": 58
     }
   }
 }

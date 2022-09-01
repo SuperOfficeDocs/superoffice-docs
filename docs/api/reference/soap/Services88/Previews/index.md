@@ -16,3 +16,4 @@ Get preview strings from a hint
 Download [WSDL file for Services88/Previews](../Services88-Previews.md) if you need to generate your own proxy code.
 
 * [GetPreview](GetPreview.md)
+

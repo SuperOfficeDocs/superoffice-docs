@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Quote/GetConnectionsForAssociate
-id: v1QuoteAgent_GetConnectionsForAssociate
+uid: v1QuoteAgent_GetConnectionsForAssociate
 ---
 
 # POST Agents/Quote/GetConnectionsForAssociate
@@ -11,6 +11,12 @@ POST /api/v1/Agents/Quote/GetConnectionsForAssociate
 
 Returns all connections available for the specified user.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Returns all connections available for the specified user.
 ```http
 POST /api/v1/Agents/Quote/GetConnectionsForAssociate?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,15 +42,18 @@ POST /api/v1/Agents/Quote/GetConnectionsForAssociate?$select=name,department,cat
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-AssociateId
+AssociateId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | AssociateId | int32 |  |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -71,7 +81,7 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Quote/GetConnectionsForAssociate
@@ -81,9 +91,11 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 487
+  "AssociateId": 212
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -91,80 +103,54 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "QuoteConnectionId": 354,
-    "ERPName": "Rippin LLC",
-    "DisplayName": "McKenzie-Howe",
-    "DisplayDescription": "Innovative dedicated initiative",
-    "Rank": 857,
-    "ConnectorName": "Schroeder-Crooks",
-    "ErpConnectionId": 181,
-    "ExtraData": "velit",
+    "QuoteConnectionId": 992,
+    "ERPName": "Lowe, Runte and Howell",
+    "DisplayName": "Walker-Donnelly",
+    "DisplayDescription": "Profit-focused fresh-thinking throughput",
+    "Rank": 901,
+    "ConnectorName": "Jakubowski-Beier",
+    "ErpConnectionId": 632,
+    "ExtraData": "earum",
     "IsAvailable": false,
-    "InitializeResponse": {
-      "IsOk": false,
-      "UserExplanation": "sunt",
-      "TechExplanation": "consequatur",
-      "ErrorCode": "numquam",
-      "Changes": {},
-      "TableRight": {},
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": {
-            "Mask": "FULL",
-            "Reason": ""
-          },
-          "FieldType": "System.String",
-          "FieldLength": 707
-        }
-      }
-    },
+    "InitializeResponse": null,
     "PriceLists": [
       {
-        "PriceListId": 595,
-        "ERPPriceListKey": "veniam",
-        "QuoteConnectionId": 978,
-        "Name": "Eichmann, Larson and Will",
-        "Description": "Focused hybrid migration",
-        "Currency": "est",
-        "CurrencyName": "Ryan-Schmeler",
-        "ValidFrom": "2000-05-23T18:28:49.9421374+02:00",
-        "ValidTo": "1994-11-14T18:28:49.9421374+01:00",
+        "PriceListId": 20,
+        "ERPPriceListKey": "tenetur",
+        "QuoteConnectionId": 56,
+        "Name": "Kerluke, Parisian and Thiel",
+        "Description": "Adaptive dedicated success",
+        "Currency": "nihil",
+        "CurrencyName": "Hoppe, Dickens and Weber",
+        "ValidFrom": "1996-12-05T11:10:27.7094919+01:00",
+        "ValidTo": "2021-06-28T11:10:27.7094919+02:00",
         "IsActive": true,
-        "TableRight": {},
+        "TableRight": null,
         "FieldProperties": {
           "fieldName": {
-            "FieldRight": {
-              "Mask": "FULL",
-              "Reason": ""
-            },
+            "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 566
+            "FieldLength": 515
           }
         }
       }
     ],
-    "AllAccess": true,
+    "AllAccess": false,
     "Deleted": true,
     "UserGroupAccessIds": [
-      476,
-      399
+      210,
+      568
     ],
     "AssociateAccessIds": [
-      425,
-      236
+      708,
+      154
     ],
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 662
+        "FieldRight": null,
+        "FieldType": "System.Int32",
+        "FieldLength": 577
       }
     }
   }

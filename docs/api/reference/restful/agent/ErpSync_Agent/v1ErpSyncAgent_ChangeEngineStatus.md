@@ -1,6 +1,6 @@
 ---
 title: POST Agents/ErpSync/ChangeEngineStatus
-id: v1ErpSyncAgent_ChangeEngineStatus
+uid: v1ErpSyncAgent_ChangeEngineStatus
 ---
 
 # POST Agents/ErpSync/ChangeEngineStatus
@@ -11,7 +11,15 @@ POST /api/v1/Agents/ErpSync/ChangeEngineStatus
 
 Change the current running/stopped status of the Sync engine
 
-## Online Restricted: ## The ErpSync agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for ERP integration apps
+
+
+
+## Online Restricted: ## The ErpSync agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for ERP integration apps.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +30,7 @@ Change the current running/stopped status of the Sync engine
 ```http
 POST /api/v1/Agents/ErpSync/ChangeEngineStatus?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,26 +46,24 @@ POST /api/v1/Agents/ErpSync/ChangeEngineStatus?$select=name,department,category/
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-Run
+Run 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | Run | bool |  |
 
-## Response: object
 
-Status of the Sync engine
+## Response: 
 
-Carrier object for ErpSyncEngineStatus.
-Services for the ErpSyncEngineStatus Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IErpSyncAgent">ErpSync Agent</see>.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -66,13 +73,13 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/ErpSync/ChangeEngineStatus
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
@@ -80,26 +87,22 @@ Content-Type: application/json; charset=utf-8
 }
 ```
 
+## Sample response
+
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "IsRunning": false,
-  "StatusMessage": "ut",
-  "Interval": "sit",
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "IsRunning": true,
+  "StatusMessage": "qui",
+  "Interval": "repellendus",
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
+      "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 641
+      "FieldLength": 336
     }
   }
 }

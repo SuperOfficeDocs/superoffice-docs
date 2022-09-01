@@ -15,6 +15,8 @@ Start a mailmerge operation with specified settings.
 
 * **settings:** All settings needed to perform the mailmerge operation.
 
+
+
 [WSDL file for Services84/Selection](../Services84-Selection.md)
 
 Obtain a ticket from the [Services84/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -50,7 +52,7 @@ Application tokens must be specified if calling an Online installation. Applicat
      <Selection:TaskEntity xsi:type="Selection:MailMergeTask">
       <Selection:ProjectId xsi:type="xsd:int">0</Selection:ProjectId>
       <Selection:TypeId xsi:type="xsd:int">0</Selection:TypeId>
-      <Selection:StartDate xsi:type="xsd:dateTime">2021-11-30T13:22:21Z</Selection:StartDate>
+      <Selection:StartDate xsi:type="xsd:dateTime">2022-08-26T08:51:51Z</Selection:StartDate>
       <Selection:Duration xsi:type="xsd:int">0</Selection:Duration>
       <Selection:Description xsi:type="xsd:string"></Selection:Description>
       <Selection:PriorityId xsi:type="xsd:int">0</Selection:PriorityId>
@@ -85,6 +87,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## StartMailMerge Response
 
 ```xml
@@ -104,3 +107,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

@@ -6,14 +6,14 @@ so.generated: true
 keywords:
   - "database"
   - "TypicalSearch"
-so.date: 04.12.2022
+so.date: 08.26.2022
 so.topic: reference
 so.envir:
   - "onsite"
   - "online"
 ---
 
-# TypicalSearch Table (487)
+# TypicalSearch Table (488)
 
 Owner of a set of predefined selection criteria
 
@@ -35,6 +35,7 @@ Owner of a set of predefined selection criteria
 |updated\_associate\_id|Last updated by whom|FK [associate](associate.md)| |
 |updatedCount|Number of updates made to this record|UShort| |
 
+
 ![TypicalSearch table relationship diagram](./media/TypicalSearch.png)
 
 [!include[details](./includes/typicalsearch.md)]
@@ -52,6 +53,7 @@ Owner of a set of predefined selection criteria
 |------|-------------|
 |[associate](associate.md)  |Employees, resources and other users - except for External persons |
 
+
 ## Replication Flags
 
 * None
@@ -59,3 +61,4 @@ Owner of a set of predefined selection criteria
 ## Security Flags
 
 * No access control via user's Role.
+

@@ -8,11 +8,11 @@ title: Services88.SelectionAgent WSDL
 
 ```xml
 <?xml version="1.0" encoding="utf-8"?>
-<wsdl:definitions name="WcfSelectionService" targetNamespace="http://www.superoffice.net/ws/crm/NetServer/Services88" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:tns="http://www.superoffice.net/ws/crm/NetServer/Services88" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<wsdl:definitions name="WcfSelectionService" targetNamespace="http://www.superoffice.net/ws/crm/NetServer/Services88" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tns="http://www.superoffice.net/ws/crm/NetServer/Services88" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing">
   <wsdl:types>
     <xs:schema elementFormDefault="qualified" targetNamespace="http://www.superoffice.net/ws/crm/NetServer/Services88" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:ser="http://schemas.microsoft.com/2003/10/Serialization/">
-      <xs:import namespace="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
       <xs:import namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+      <xs:import namespace="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
       <xs:element name="CreateDefaultMailMergeSettings">
         <xs:complexType>
           <xs:sequence />
@@ -95,6 +95,22 @@ title: Services88.SelectionAgent WSDL
               <xs:enumeration value="Delete" />
               <xs:enumeration value="Filtering" />
               <xs:enumeration value="RestrictedUpdate" />
+              <xs:enumeration value="Unused1" />
+              <xs:enumeration value="Uninitialized" />
+              <xs:enumeration value="R">
+                <xs:annotation>
+                  <xs:appinfo>
+                    <EnumerationValue xmlns="http://schemas.microsoft.com/2003/10/Serialization/">1</EnumerationValue>
+                  </xs:appinfo>
+                </xs:annotation>
+              </xs:enumeration>
+              <xs:enumeration value="F">
+                <xs:annotation>
+                  <xs:appinfo>
+                    <EnumerationValue xmlns="http://schemas.microsoft.com/2003/10/Serialization/">16</EnumerationValue>
+                  </xs:appinfo>
+                </xs:annotation>
+              </xs:enumeration>
             </xs:restriction>
           </xs:simpleType>
         </xs:list>
@@ -146,6 +162,13 @@ title: Services88.SelectionAgent WSDL
               <xs:enumeration value="UIHintMandatory" />
               <xs:enumeration value="UIHintReadOnly" />
               <xs:enumeration value="UndefinedValue256" />
+              <xs:enumeration value="Nullable">
+                <xs:annotation>
+                  <xs:appinfo>
+                    <EnumerationValue xmlns="http://schemas.microsoft.com/2003/10/Serialization/">32</EnumerationValue>
+                  </xs:appinfo>
+                </xs:annotation>
+              </xs:enumeration>
             </xs:restriction>
           </xs:simpleType>
         </xs:list>
@@ -2137,35 +2160,65 @@ title: Services88.SelectionAgent WSDL
         </xs:complexContent>
       </xs:complexType>
       <xs:element name="SelectionForFind" nillable="true" type="q212:SelectionForFind" xmlns:q212="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+      <xs:element name="GetSelectionSummaries">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="SelectionIds" nillable="true" type="q213:ArrayOfint" xmlns:q213="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="GetSelectionSummariesResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="Response" nillable="true" type="q214:ArrayOfSelectionSummaryItem" xmlns:q214="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:complexType name="ArrayOfSelectionSummaryItem">
+        <xs:sequence>
+          <xs:element minOccurs="0" maxOccurs="unbounded" name="SelectionSummaryItem" nillable="true" type="q215:SelectionSummaryItem" xmlns:q215="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:element name="ArrayOfSelectionSummaryItem" nillable="true" type="q216:ArrayOfSelectionSummaryItem" xmlns:q216="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+      <xs:complexType name="SelectionSummaryItem">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="SelectionId" type="xs:int" />
+          <xs:element minOccurs="0" name="Name" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="TargetTable" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="Registered" type="xs:dateTime" />
+          <xs:element minOccurs="0" name="ProviderName" nillable="true" type="xs:string" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:element name="SelectionSummaryItem" nillable="true" type="q217:SelectionSummaryItem" xmlns:q217="http://www.superoffice.net/ws/crm/NetServer/Services88" />
       <xs:element name="UpdateTypicalSearch">
         <xs:complexType>
           <xs:sequence>
-            <xs:element minOccurs="0" name="Searches" nillable="true" type="q213:TypicalSearches" xmlns:q213="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+            <xs:element minOccurs="0" name="Searches" nillable="true" type="q218:TypicalSearches" xmlns:q218="http://www.superoffice.net/ws/crm/NetServer/Services88" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
       <xs:complexType name="TypicalSearches">
         <xs:complexContent mixed="false">
-          <xs:extension base="q214:Carrier" xmlns:q214="http://www.superoffice.net/ws/crm/NetServer/Services88">
+          <xs:extension base="q219:Carrier" xmlns:q219="http://www.superoffice.net/ws/crm/NetServer/Services88">
             <xs:sequence>
               <xs:element minOccurs="0" name="Source" nillable="true" type="xs:string" />
               <xs:element minOccurs="0" name="MasterVersion" type="xs:int" />
               <xs:element minOccurs="0" name="DeleteLeftovers" type="xs:boolean" />
-              <xs:element minOccurs="0" name="Searches" nillable="true" type="q214:ArrayOfTypicalSearch" />
+              <xs:element minOccurs="0" name="Searches" nillable="true" type="q219:ArrayOfTypicalSearch" />
             </xs:sequence>
           </xs:extension>
         </xs:complexContent>
       </xs:complexType>
-      <xs:element name="TypicalSearches" nillable="true" type="q215:TypicalSearches" xmlns:q215="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+      <xs:element name="TypicalSearches" nillable="true" type="q220:TypicalSearches" xmlns:q220="http://www.superoffice.net/ws/crm/NetServer/Services88" />
       <xs:complexType name="ArrayOfTypicalSearch">
         <xs:sequence>
-          <xs:element minOccurs="0" maxOccurs="unbounded" name="TypicalSearch" nillable="true" type="q216:TypicalSearch" xmlns:q216="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+          <xs:element minOccurs="0" maxOccurs="unbounded" name="TypicalSearch" nillable="true" type="q221:TypicalSearch" xmlns:q221="http://www.superoffice.net/ws/crm/NetServer/Services88" />
         </xs:sequence>
       </xs:complexType>
-      <xs:element name="ArrayOfTypicalSearch" nillable="true" type="q217:ArrayOfTypicalSearch" xmlns:q217="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+      <xs:element name="ArrayOfTypicalSearch" nillable="true" type="q222:ArrayOfTypicalSearch" xmlns:q222="http://www.superoffice.net/ws/crm/NetServer/Services88" />
       <xs:complexType name="TypicalSearch">
         <xs:complexContent mixed="false">
-          <xs:extension base="q218:Carrier" xmlns:q218="http://www.superoffice.net/ws/crm/NetServer/Services88">
+          <xs:extension base="q223:Carrier" xmlns:q223="http://www.superoffice.net/ws/crm/NetServer/Services88">
             <xs:sequence>
               <xs:element minOccurs="0" name="TypicalSearchId" type="xs:int" />
               <xs:element minOccurs="0" name="Title" nillable="true" type="xs:string" />
@@ -2175,12 +2228,12 @@ title: Services88.SelectionAgent WSDL
               <xs:element minOccurs="0" name="IncludePerson" type="xs:short" />
               <xs:element minOccurs="0" name="Source" nillable="true" type="xs:string" />
               <xs:element minOccurs="0" name="VersionNumber" type="xs:int" />
-              <xs:element minOccurs="0" name="RestrictionGroups" nillable="true" type="q218:ArrayOfArchiveRestrictionGroup" />
+              <xs:element minOccurs="0" name="RestrictionGroups" nillable="true" type="q223:ArrayOfArchiveRestrictionGroup" />
             </xs:sequence>
           </xs:extension>
         </xs:complexContent>
       </xs:complexType>
-      <xs:element name="TypicalSearch" nillable="true" type="q219:TypicalSearch" xmlns:q219="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+      <xs:element name="TypicalSearch" nillable="true" type="q224:TypicalSearch" xmlns:q224="http://www.superoffice.net/ws/crm/NetServer/Services88" />
       <xs:element name="UpdateTypicalSearchResponse">
         <xs:complexType>
           <xs:sequence>
@@ -3146,6 +3199,23 @@ title: Services88.SelectionAgent WSDL
     <wsdl:part name="Succeeded" element="tns:Succeeded" />
     <wsdl:part name="TimeZone" element="tns:TimeZone" />
   </wsdl:message>
+  <wsdl:message name="GetSelectionSummariesRequest">
+    <wsdl:part name="parameters" element="tns:GetSelectionSummaries" />
+  </wsdl:message>
+  <wsdl:message name="GetSelectionSummariesRequest_Headers">
+    <wsdl:part name="ApplicationToken" element="tns:ApplicationToken" />
+    <wsdl:part name="Credentials" element="tns:Credentials" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="GetSelectionSummariesResponse">
+    <wsdl:part name="parameters" element="tns:GetSelectionSummariesResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetSelectionSummariesResponse_Headers">
+    <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
+    <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
+    <wsdl:part name="Succeeded" element="tns:Succeeded" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
   <wsdl:message name="UpdateTypicalSearchRequest">
     <wsdl:part name="parameters" element="tns:UpdateTypicalSearch" />
   </wsdl:message>
@@ -3537,6 +3607,13 @@ title: Services88.SelectionAgent WSDL
       </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Selection/GetSelectionForFind" name="GetSelectionForFindRequest" message="tns:GetSelectionForFindRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Selection/GetSelectionForFindResponse" name="GetSelectionForFindResponse" message="tns:GetSelectionForFindResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="GetSelectionSummaries">
+      <wsdl:documentation>
+        <summary>Get an array of summaryitem for the given selections</summary>
+      </wsdl:documentation>
+      <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Selection/GetSelectionSummaries" name="GetSelectionSummariesRequest" message="tns:GetSelectionSummariesRequest" />
+      <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Selection/GetSelectionSummariesResponse" name="GetSelectionSummariesResponse" message="tns:GetSelectionSummariesResponse" />
     </wsdl:operation>
     <wsdl:operation name="UpdateTypicalSearch">
       <wsdl:documentation>
@@ -4396,6 +4473,22 @@ title: Services88.SelectionAgent WSDL
         <soap:body use="literal" />
       </wsdl:output>
     </wsdl:operation>
+    <wsdl:operation name="GetSelectionSummaries">
+      <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/Selection/GetSelectionSummaries" style="document" />
+      <wsdl:input name="GetSelectionSummariesRequest">
+        <soap:header message="tns:GetSelectionSummariesRequest_Headers" part="ApplicationToken" use="literal" />
+        <soap:header message="tns:GetSelectionSummariesRequest_Headers" part="Credentials" use="literal" />
+        <soap:header message="tns:GetSelectionSummariesRequest_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="GetSelectionSummariesResponse">
+        <soap:header message="tns:GetSelectionSummariesResponse_Headers" part="ExceptionInfo" use="literal" />
+        <soap:header message="tns:GetSelectionSummariesResponse_Headers" part="ExtraInfo" use="literal" />
+        <soap:header message="tns:GetSelectionSummariesResponse_Headers" part="Succeeded" use="literal" />
+        <soap:header message="tns:GetSelectionSummariesResponse_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
     <wsdl:operation name="UpdateTypicalSearch">
       <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/Selection/UpdateTypicalSearch" style="document" />
       <wsdl:input name="UpdateTypicalSearchRequest">
@@ -4420,3 +4513,4 @@ title: Services88.SelectionAgent WSDL
   </wsdl:service>
 </wsdl:definitions>
 ```
+

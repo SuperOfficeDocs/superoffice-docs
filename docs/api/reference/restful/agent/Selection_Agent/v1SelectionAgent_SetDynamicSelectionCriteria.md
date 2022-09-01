@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Selection/SetDynamicSelectionCriteria
-id: v1SelectionAgent_SetDynamicSelectionCriteria
+uid: v1SelectionAgent_SetDynamicSelectionCriteria
 ---
 
 # POST Agents/Selection/SetDynamicSelectionCriteria
@@ -11,7 +11,13 @@ POST /api/v1/Agents/Selection/SetDynamicSelectionCriteria
 
 Update the criteria for this dynamic selection.
 
+
 Replaces existing criteria with the new values.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +28,7 @@ Replaces existing criteria with the new values.
 ```http
 POST /api/v1/Agents/Selection/SetDynamicSelectionCriteria?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,16 +44,19 @@ POST /api/v1/Agents/Selection/SetDynamicSelectionCriteria?$select=name,departmen
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-SelectionId, Criteria
+SelectionId, Criteria 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | SelectionId | int32 |  |
 | Criteria | array |  |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -67,42 +77,44 @@ Response body: array
 | InterOperator | string |  |
 | UniqueHash | int32 |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Selection/SetDynamicSelectionCriteria
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 858,
+  "SelectionId": 60,
   "Criteria": [
     {
-      "Name": "Koepp Group",
-      "Operator": "ut",
+      "Name": "Abshire Group",
+      "Operator": "omnis",
       "Values": [
-        "similique",
-        "laudantium"
+        "molestias",
+        "sequi"
       ],
       "DisplayValues": [
-        "qui",
-        "numquam"
+        "quas",
+        "sapiente"
       ],
-      "ColumnInfo": {},
+      "ColumnInfo": null,
       "IsActive": false,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 324,
+      "InterParenthesis": 582,
       "InterOperator": "And",
-      "UniqueHash": 610
+      "UniqueHash": 321
     }
   ]
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -110,58 +122,44 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Greenholt Group",
-    "Operator": "iste",
+    "Name": "Wyman, Kerluke and Kuhic",
+    "Operator": "ducimus",
     "Values": [
-      "autem",
-      "consectetur"
+      "dicta",
+      "dolor"
     ],
     "DisplayValues": [
-      "minus",
-      "nam"
+      "expedita",
+      "officia"
     ],
-    "ColumnInfo": {
-      "DisplayName": "Rosenbaum, Legros and Ullrich",
-      "DisplayTooltip": "aut",
-      "DisplayType": "sit",
-      "CanOrderBy": false,
-      "Name": "Wuckert-Greenholt",
-      "CanRestrictBy": false,
-      "RestrictionType": "est",
-      "RestrictionListName": "Ankunding-Pfannerstill",
-      "IsVisible": false,
-      "ExtraInfo": "qui",
-      "Width": "impedit",
-      "IconHint": "error",
-      "HeadingIconHint": "possimus"
-    },
+    "ColumnInfo": null,
     "IsActive": true,
     "SubRestrictions": [
       {
-        "Name": "Wiza, Purdy and Bergnaum",
-        "Operator": "rerum",
+        "Name": "O'Reilly, Schmitt and Mann",
+        "Operator": "et",
         "Values": [
-          "et",
-          "perspiciatis"
+          "quasi",
+          "temporibus"
         ],
         "DisplayValues": [
-          "atque",
-          "dolores"
+          "sed",
+          "pariatur"
         ],
-        "ColumnInfo": {},
-        "IsActive": false,
+        "ColumnInfo": null,
+        "IsActive": true,
         "SubRestrictions": [
           {},
           {}
         ],
-        "InterParenthesis": 885,
+        "InterParenthesis": 842,
         "InterOperator": "And",
-        "UniqueHash": 127
+        "UniqueHash": 561
       }
     ],
-    "InterParenthesis": 692,
+    "InterParenthesis": 310,
     "InterOperator": "And",
-    "UniqueHash": 688
+    "UniqueHash": 37
   }
 ]
 ```

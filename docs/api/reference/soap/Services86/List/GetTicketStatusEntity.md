@@ -17,6 +17,7 @@ Gets a TicketStatusEntity object.
 
 **Returns:** TicketStatusEntity
 
+
 [WSDL file for Services86/List](../Services86-List.md)
 
 Obtain a ticket from the [Services86/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -49,6 +50,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## GetTicketStatusEntity Response
 
 ```xml
@@ -75,3 +77,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

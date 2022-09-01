@@ -1,6 +1,6 @@
 ---
 title: POST Agents/DatabaseTable/Delete
-id: v1DatabaseTableAgent_Delete
+uid: v1DatabaseTableAgent_Delete
 ---
 
 # POST Agents/DatabaseTable/Delete
@@ -11,7 +11,11 @@ POST /api/v1/Agents/DatabaseTable/Delete
 
 Delete rows, by primary key; traveltransactionlog and WebHooks are supported
 
-## Online Restricted: ## The DatabaseTable agent is not available in Online by default. Access must be requested specifically when app is registered
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +26,7 @@ Delete rows, by primary key; traveltransactionlog and WebHooks are supported
 ```http
 POST /api/v1/Agents/DatabaseTable/Delete?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,27 +42,25 @@ POST /api/v1/Agents/DatabaseTable/Delete?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-TableName, IDs
+TableName, IDs 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | TableName | string |  |
 | IDs | array |  |
 
-## Response: object
 
-Information about the results of a mass-update operation
+## Response: 
 
-Carrier object for MassOperationResult.
-Services for the MassOperationResult Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IDatabaseTableAgent">DatabaseTable Agent</see>.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -70,86 +73,76 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/DatabaseTable/Delete
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Price Group",
+  "TableName": "Balistreri-Collins",
   "IDs": [
-    410,
-    191
+    7,
+    702
   ]
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Success": false,
-  "Message": "eligendi",
-  "Inserts": 698,
-  "Updates": 229,
-  "Deletes": 704,
+  "Success": true,
+  "Message": "alias",
+  "Inserts": 529,
+  "Updates": 135,
+  "Deletes": 966,
   "RowStatus": [
     {
-      "PrimaryKey": 603,
+      "PrimaryKey": 7,
       "Action": "ColumnsZeroed",
       "RowKeys": [
-        "sequi",
-        "aut"
+        "culpa",
+        "dignissimos"
       ],
-      "TableRight": {},
+      "TableRight": null,
       "FieldProperties": {
         "fieldName": {
-          "FieldRight": {
-            "Mask": "FULL",
-            "Reason": ""
-          },
+          "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 757
+          "FieldLength": 679
         }
       }
     },
     {
-      "PrimaryKey": 603,
+      "PrimaryKey": 7,
       "Action": "ColumnsZeroed",
       "RowKeys": [
-        "sequi",
-        "aut"
+        "culpa",
+        "dignissimos"
       ],
-      "TableRight": {},
+      "TableRight": null,
       "FieldProperties": {
         "fieldName": {
-          "FieldRight": {
-            "Mask": "FULL",
-            "Reason": ""
-          },
+          "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 757
+          "FieldLength": 679
         }
       }
     }
   ],
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
-      "FieldType": "System.String",
-      "FieldLength": 869
+      "FieldRight": null,
+      "FieldType": "System.Int32",
+      "FieldLength": 33
     }
   }
 }

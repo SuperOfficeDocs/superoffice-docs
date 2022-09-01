@@ -1,6 +1,6 @@
 ---
 title: POST Agents/List/GetLocalizedTextsByLanguageId
-id: v1ListAgent_GetLocalizedTextsByLanguageId
+uid: v1ListAgent_GetLocalizedTextsByLanguageId
 ---
 
 # POST Agents/List/GetLocalizedTextsByLanguageId
@@ -11,6 +11,12 @@ POST /api/v1/Agents/List/GetLocalizedTextsByLanguageId
 
 Gets all localized text belonging to a specific language.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Gets all localized text belonging to a specific language.
 ```http
 POST /api/v1/Agents/List/GetLocalizedTextsByLanguageId?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,15 +42,18 @@ POST /api/v1/Agents/List/GetLocalizedTextsByLanguageId?$select=name,department,c
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-LanguageId
+LanguageId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | LanguageId | int32 |  |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -62,19 +72,21 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/List/GetLocalizedTextsByLanguageId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "LanguageId": 373
+  "LanguageId": 680
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -82,24 +94,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "LanguageId": 871,
-    "ResourceId": 614,
-    "Text": "qui",
+    "LanguageId": 103,
+    "ResourceId": 849,
+    "Text": "eveniet",
     "Type": "Column",
-    "LocalizedTextId": 840,
+    "LocalizedTextId": 145,
     "IsBuiltIn": true,
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
+        "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 81
+        "FieldLength": 959
       }
     }
   }

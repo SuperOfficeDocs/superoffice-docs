@@ -1,6 +1,6 @@
 ---
 title: GET Attachment/{id}
-id: v1AttachmentEntity_GetAttachmentEntity
+uid: v1AttachmentEntity_GetAttachmentEntity
 ---
 
 # GET Attachment/{id}
@@ -11,11 +11,17 @@ GET /api/v1/Attachment/{id}
 
 Gets a AttachmentEntity object.
 
+
 Calls the Ticket agent service GetAttachmentEntity.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | id | int32 | The id of the AttachmentEntity to return. **Required** |
+
 
 ## Query String Parameters
 
@@ -26,6 +32,7 @@ Calls the Ticket agent service GetAttachmentEntity.
 ```http
 GET /api/v1/Attachment/{id}?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -40,18 +47,17 @@ GET /api/v1/Attachment/{id}?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response: object
 
-The Attachment carrier represent meta data for a Service attachment
+## Response: 
 
-AttachmentEntity entity with API _Links added.
+AttachmentEntity found.
 
 | Response | Description |
 |----------------|-------------|
 | 200 | AttachmentEntity found. |
 | 404 | Not Found. |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -65,38 +71,34 @@ Response body: object
 | FieldProperties | object |  |
 | _Links | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 GET /api/v1/Attachment/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 AttachmentEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 158,
-  "Name": "Hammes LLC",
-  "ContentType": "hic",
-  "AttSize": 817,
+  "AttachmentId": 582,
+  "Name": "Langosh-Gusikowski",
+  "ContentType": "ea",
+  "AttSize": 619,
   "InlineImage": true,
-  "ContentId": "ut",
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "ContentId": "dicta",
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
-      "FieldType": "System.Int32",
-      "FieldLength": 150
+      "FieldRight": null,
+      "FieldType": "System.String",
+      "FieldLength": 206
     }
   },
   "_Links": {

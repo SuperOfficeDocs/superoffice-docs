@@ -1,6 +1,6 @@
 ---
 title: POST Agents/UserDefinedFieldInfo/GetUserDefinedFieldFromFieldLabel
-id: v1UserDefinedFieldInfoAgent_GetUserDefinedFieldFromFieldLabel
+uid: v1UserDefinedFieldInfoAgent_GetUserDefinedFieldFromFieldLabel
 ---
 
 # POST Agents/UserDefinedFieldInfo/GetUserDefinedFieldFromFieldLabel
@@ -11,7 +11,13 @@ POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedFieldFromFieldLabel
 
 Return information about the given user defined field identified by the owner and the field label.
 
+
 Note that field labels are fuzzy. Leading and trailing spaces and punctuation are ignored. Note this may be different than the currently published fields.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +28,7 @@ Note that field labels are fuzzy. Leading and trailing spaces and punctuation ar
 ```http
 POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedFieldFromFieldLabel?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,27 +44,25 @@ POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedFieldFromFieldLabel?$sele
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-FieldLabel, OwnerType
+FieldLabel, OwnerType 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | FieldLabel | string |  |
 | OwnerType | string |  |
 
-## Response: object
 
-Return information about the user defined fields. The information can be used to mirror the layout of the user-defined fields in the user interface.
+## Response: 
 
-Carrier object for UserDefinedFieldInfo.
-Services for the UserDefinedFieldInfo Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent">UserDefinedFieldInfo Agent</see>.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -98,72 +103,68 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedFieldFromFieldLabel
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "FieldLabel": "eum",
+  "FieldLabel": "non",
   "OwnerType": "Appointment"
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 922,
-  "ColumnId": 404,
-  "FieldDefault": "quia",
-  "FieldHeight": 134,
-  "FieldLabel": "consequatur",
-  "FieldLeft": 120,
-  "FieldTop": 228,
+  "UDefFieldId": 747,
+  "ColumnId": 480,
+  "FieldDefault": "inventore",
+  "FieldHeight": 696,
+  "FieldLabel": "porro",
+  "FieldLeft": 881,
+  "FieldTop": 180,
   "FieldType": "Checkbox",
-  "FieldWidth": 834,
-  "FormatMask": "cupiditate",
-  "HideLabel": true,
+  "FieldWidth": 676,
+  "FormatMask": "quos",
+  "HideLabel": false,
   "IsIndexed": false,
-  "LabelHeight": 391,
-  "LabelLeft": 613,
-  "LabelTop": 532,
-  "LabelWidth": 655,
-  "LastVersionId": 339,
-  "ListTableId": 767,
+  "LabelHeight": 60,
+  "LabelLeft": 869,
+  "LabelTop": 581,
+  "LabelWidth": 673,
+  "LastVersionId": 790,
+  "ListTableId": 186,
   "IsMandatory": true,
   "Type": "Appointment",
-  "Page1LineNo": 614,
-  "ProgId": "quam",
+  "Page1LineNo": 383,
+  "ProgId": "vero",
   "IsReadOnly": true,
-  "ShortLabel": "earum",
-  "TabOrder": 599,
-  "TextLength": 212,
-  "Tooltip": "enim",
-  "UdefIdentity": 82,
-  "UDListDefinitionId": 802,
+  "ShortLabel": "dolores",
+  "TabOrder": 234,
+  "TextLength": 520,
+  "Tooltip": "dolorum",
+  "UdefIdentity": 437,
+  "UDListDefinitionId": 890,
   "Justification": "Center",
-  "Version": 754,
-  "TemplateVariableName": "Shanahan-Beer",
+  "Version": 725,
+  "TemplateVariableName": "Hayes, Okuneva and Schimmel",
   "HasBeenPublished": false,
-  "MdoListName": "Feest-Bauch",
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "MdoListName": "Von Group",
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
-      "FieldType": "System.Int32",
-      "FieldLength": 177
+      "FieldRight": null,
+      "FieldType": "System.String",
+      "FieldLength": 606
     }
   }
 }

@@ -12,9 +12,11 @@ Implemented by the <see cref="M:SuperOffice.Services87.IErpSyncAgent.ChangeEngin
 ## ChangeEngineInterval
 
 Change the interval for each run of the Sync Engine
-<br />**Online Restricted:** The ErpSync agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for ERP integration apps.
+<para /><b>Online Restricted:</b> The ErpSync agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for ERP integration apps.
 
 * **interval:** The run interval for the engine
+
+
 
 [WSDL file for Services87/ErpSync](../Services87-ErpSync.md)
 
@@ -48,6 +50,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## ChangeEngineInterval Response
 
 ```xml
@@ -67,3 +70,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

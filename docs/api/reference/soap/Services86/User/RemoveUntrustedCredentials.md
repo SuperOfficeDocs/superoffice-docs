@@ -12,10 +12,12 @@ Implemented by the <see cref="M:SuperOffice.Services86.IUserAgent.RemoveUntruste
 ## RemoveUntrustedCredentials
 
 Remove a credentials entry for authenticated user.
-<br />**Online Restricted:** The User agent is not available in Online by default. User management is not allowed for partner apps.
+<para /><b>Online Restricted:</b> The User agent is not available in Online by default. User management is not allowed for partner apps.
 
 * **type:** Type of credential(Ex: "imap", "smtp")
 * **publicValue:** PublicValue field of credentials to remove.
+
+
 
 [WSDL file for Services86/User](../Services86-User.md)
 
@@ -50,6 +52,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## RemoveUntrustedCredentials Response
 
 ```xml
@@ -69,3 +72,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

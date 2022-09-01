@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Quote/SendQuoteVersion
-id: v1QuoteAgent_SendQuoteVersion
+uid: v1QuoteAgent_SendQuoteVersion
 ---
 
 # POST Agents/Quote/SendQuoteVersion
@@ -11,7 +11,13 @@ POST /api/v1/Agents/Quote/SendQuoteVersion
 
 Send the quote to the user's customer.
 
+
 More parameters to be added later...
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +28,7 @@ More parameters to be added later...
 ```http
 POST /api/v1/Agents/Quote/SendQuoteVersion?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,9 +44,9 @@ POST /api/v1/Agents/Quote/SendQuoteVersion?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-QuoteVersionId, ExpiryDate, FollowupDate, FollowupText, Culture
+QuoteVersionId, ExpiryDate, FollowupDate, FollowupText, Culture 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -49,18 +56,16 @@ QuoteVersionId, ExpiryDate, FollowupDate, FollowupText, Culture
 | FollowupText | string |  |
 | Culture | string |  |
 
-## Response: object
 
-PluginUrlResponse exists to be able to respond with more than just a true/false, but also an explanation. Such an explanation can be displayed on for instance a disabled “Place Order” button. In addition, an URL can be returned, which the GUI should navigate to/display if it is non-blank. The URL can be an SoProtocol or http(s)
+## Response: 
 
-Carrier object for PluginUrlResponse.
-Services for the PluginUrlResponse Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IQuoteAgent">Quote Agent</see>.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -73,23 +78,25 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Quote/SendQuoteVersion
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 344,
-  "ExpiryDate": "2011-01-17T18:28:49.9221376+01:00",
-  "FollowupDate": "2013-09-05T18:28:49.9221376+02:00",
-  "FollowupText": "eum",
-  "Culture": "illum"
+  "QuoteVersionId": 492,
+  "ExpiryDate": "1996-10-07T11:10:27.6544228+02:00",
+  "FollowupDate": "1996-05-06T11:10:27.6544228+02:00",
+  "FollowupText": "incidunt",
+  "Culture": "minima"
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -97,47 +104,17 @@ Content-Type: application/json; charset=utf-8
 
 {
   "IsOk": true,
-  "UserExplanation": "error",
-  "TechExplanation": "non",
-  "ErrorCode": "ducimus",
-  "Changes": {
-    "AddedRecords": [
-      {},
-      {}
-    ],
-    "UpdatedRecords": [
-      {},
-      {}
-    ],
-    "DeletedRecords": [
-      {},
-      {}
-    ],
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.Int32",
-        "FieldLength": 346
-      }
-    }
-  },
+  "UserExplanation": "odio",
+  "TechExplanation": "nisi",
+  "ErrorCode": "qui",
+  "Changes": null,
   "Url": "http://www.example.com/",
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
+      "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 357
+      "FieldLength": 541
     }
   }
 }

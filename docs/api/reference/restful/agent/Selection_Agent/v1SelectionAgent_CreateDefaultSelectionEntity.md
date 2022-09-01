@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Selection/CreateDefaultSelectionEntity
-id: v1SelectionAgent_CreateDefaultSelectionEntity
+uid: v1SelectionAgent_CreateDefaultSelectionEntity
 ---
 
 # POST Agents/Selection/CreateDefaultSelectionEntity
@@ -11,7 +11,14 @@ POST /api/v1/Agents/Selection/CreateDefaultSelectionEntity
 
 Set default values into a new SelectionEntity.
 
+
 NetServer calculates default values on the entity, which is required when creating/storing a new instance
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -26,16 +33,16 @@ NetServer calculates default values on the entity, which is required when creati
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response: object
 
-Carrier object for SelectionEntity.
-Services for the SelectionEntity Carrier is available from the <see cref="T:SuperOffice.CRM.Services.ISelectionAgent">Selection Agent</see>.
+## Response: 
+
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -44,7 +51,7 @@ Response body: object
 | Associate |  | Owner of the selection |
 | CreatedBy |  | Who created the selection |
 | UpdatedBy |  | Who last modified the selection |
-| SelectionCategory |  | Selection category type (list item)  <br />Use MDO List name "searchCat" to get list items. |
+| SelectionCategory |  | Selection category type (list item)  <para>Use MDO List name "searchCat" to get list items.</para> |
 | GroupIdx | int32 | Original primary user group of associate |
 | IncludePerson | int32 | 0 = Include first person, 1 = Include all persons, 2 = Include no persons |
 | MemberCount | int32 | How many selectionmembers (for progress bar calculations) - estimate, -1 (or 4294967295) means we don't know |
@@ -83,7 +90,7 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Selection/CreateDefaultSelectionEntity
@@ -92,232 +99,87 @@ Accept: application/json; charset=utf-8
 Accept-Language: en
 ```
 
+## Sample response
+
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Automated solution-oriented support",
-  "Postit": "animi",
-  "Associate": {
-    "AssociateId": 987,
-    "Name": "Waelchi, Schoen and Rodriguez",
-    "PersonId": 40,
-    "Rank": 994,
-    "Tooltip": "sunt",
-    "Type": "AnonymousAssociate",
-    "GroupIdx": 722,
-    "FullName": "Nona Marvin",
-    "FormalName": "Braun Inc and Sons",
-    "Deleted": false,
-    "EjUserId": 726,
-    "UserName": "Schamberger, Ankunding and Gibson",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.Int32",
-        "FieldLength": 573
-      }
-    }
-  },
-  "CreatedBy": {
-    "AssociateId": 122,
-    "Name": "Greenfelder-Heller",
-    "PersonId": 952,
-    "Rank": 668,
-    "Tooltip": "voluptas",
-    "Type": "AnonymousAssociate",
-    "GroupIdx": 69,
-    "FullName": "Camryn Bosco",
-    "FormalName": "Zemlak Group",
-    "Deleted": false,
-    "EjUserId": 804,
-    "UserName": "Herzog Inc and Sons",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 915
-      }
-    }
-  },
-  "UpdatedBy": {
-    "AssociateId": 185,
-    "Name": "Schowalter, Witting and Leuschke",
-    "PersonId": 275,
-    "Rank": 844,
-    "Tooltip": "totam",
-    "Type": "AnonymousAssociate",
-    "GroupIdx": 321,
-    "FullName": "Alena Russel",
-    "FormalName": "Beahan, Franecki and Von",
-    "Deleted": true,
-    "EjUserId": 702,
-    "UserName": "Murray, McClure and Schmeler",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 797
-      }
-    }
-  },
-  "SelectionCategory": {
-    "Id": 777,
-    "Value": "est",
-    "Tooltip": "ipsam",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 907
-      }
-    }
-  },
-  "GroupIdx": 358,
-  "IncludePerson": 868,
-  "MemberCount": 796,
-  "Name": "Lind-Muller",
-  "PostitTextId": 322,
-  "CreatedDate": "2003-06-16T18:28:50.2164295+02:00",
-  "SelectionId": 24,
-  "SoundEx": "doloremque",
-  "Source": 292,
-  "TextId": 313,
-  "UpdatedDate": "1998-02-15T18:28:50.2164295+01:00",
-  "UpdatedCount": 556,
-  "Visibility": 963,
+  "Description": "Integrated multi-state artificial intelligence",
+  "Postit": "debitis",
+  "Associate": null,
+  "CreatedBy": null,
+  "UpdatedBy": null,
+  "SelectionCategory": null,
+  "GroupIdx": 204,
+  "IncludePerson": 905,
+  "MemberCount": 68,
+  "Name": "Denesik, Bergnaum and Morar",
+  "PostitTextId": 720,
+  "CreatedDate": "1995-10-01T11:10:27.8809765+02:00",
+  "SelectionId": 539,
+  "SoundEx": "dignissimos",
+  "Source": 677,
+  "TextId": 809,
+  "UpdatedDate": "2016-10-22T11:10:27.8809765+02:00",
+  "UpdatedCount": 184,
+  "Visibility": 925,
   "SelectionType": "Combined",
   "CompanyUnique": true,
-  "TargetTableNumber": 553,
-  "TargetTableName": "Anderson Group",
-  "Completed": false,
-  "LeftSelectionId": 430,
-  "RightSelectionId": 49,
+  "TargetTableNumber": 538,
+  "TargetTableName": "Schmeler, Prohaska and Satterfield",
+  "Completed": true,
+  "LeftSelectionId": 300,
+  "RightSelectionId": 41,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Ernser Group",
-  "ShadowProviderName": "McLaughlin-Abshire",
-  "ChartKey": "qui",
-  "LastLoaded": "1997-06-19T18:28:50.2174131+02:00",
-  "LastLoadedBy": 52,
-  "LastLoadedByAssociate": {
-    "AssociateId": 243,
-    "Name": "Ernser Inc and Sons",
-    "PersonId": 262,
-    "Rank": 126,
-    "Tooltip": "voluptatem",
-    "Type": "AnonymousAssociate",
-    "GroupIdx": 507,
-    "FullName": "Kyleigh Botsford",
-    "FormalName": "Bashirian-Grant",
-    "Deleted": true,
-    "EjUserId": 830,
-    "UserName": "Mayert, Bahringer and Hickle",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 99
-      }
-    }
-  },
-  "LastMembershipChange": "2002-09-29T18:28:50.2174131+02:00",
-  "LastMembershipChangeBy": 540,
-  "LastMembershipChangeByAssociate": {
-    "AssociateId": 952,
-    "Name": "Hilll Inc and Sons",
-    "PersonId": 977,
-    "Rank": 505,
-    "Tooltip": "aut",
-    "Type": "AnonymousAssociate",
-    "GroupIdx": 546,
-    "FullName": "Sherwood Mitchell",
-    "FormalName": "Morar, Lind and Hills",
-    "Deleted": true,
-    "EjUserId": 130,
-    "UserName": "Kihn-Gutkowski",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": "enhance granular web-readiness"
-        },
-        "FieldType": "System.String",
-        "FieldLength": 700
-      }
-    }
-  },
-  "MainHeading": "qui",
-  "MemberTabHeading": "nihil",
-  "MailingsProviderName": "Douglas-Schaden",
-  "DashboardTileDefinitionId": 139,
+  "MainProviderName": "Shanahan-Krajcik",
+  "ShadowProviderName": "Ziemann, McGlynn and Rutherford",
+  "ChartKey": "rerum",
+  "LastLoaded": "2005-10-02T11:10:27.8819955+02:00",
+  "LastLoadedBy": 868,
+  "LastLoadedByAssociate": null,
+  "LastMembershipChange": "2002-07-16T11:10:27.8819955+02:00",
+  "LastMembershipChangeBy": 499,
+  "LastMembershipChangeByAssociate": null,
+  "MainHeading": "quia",
+  "MemberTabHeading": "molestias",
+  "MailingsProviderName": "Kertzmann-Greenholt",
+  "DashboardTileDefinitionId": 117,
   "VisibleFor": [
     {
-      "VisibleId": 295,
+      "VisibleId": 624,
       "Visibility": "All",
-      "DisplayValue": "nam",
-      "TableRight": {},
+      "DisplayValue": "quasi",
+      "TableRight": null,
       "FieldProperties": {
         "fieldName": {
-          "FieldRight": {
-            "Mask": "FULL",
-            "Reason": ""
-          },
-          "FieldType": "System.String",
-          "FieldLength": 962
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 310
         }
       }
     },
     {
-      "VisibleId": 295,
+      "VisibleId": 624,
       "Visibility": "All",
-      "DisplayValue": "nam",
-      "TableRight": {},
+      "DisplayValue": "quasi",
+      "TableRight": null,
       "FieldProperties": {
         "fieldName": {
-          "FieldRight": {
-            "Mask": "FULL",
-            "Reason": ""
-          },
-          "FieldType": "System.String",
-          "FieldLength": 962
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 310
         }
       }
     }
   ],
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
-      "FieldType": "System.String",
-      "FieldLength": 337
+      "FieldRight": null,
+      "FieldType": "System.Int32",
+      "FieldLength": 256
     }
   }
 }

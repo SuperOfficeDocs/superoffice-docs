@@ -1,6 +1,6 @@
 ---
 title: PUT Sale/UdefLayout
-id: v1SaleEntity_SaveUdefLayout
+uid: v1SaleEntity_SaveUdefLayout
 ---
 
 # PUT Sale/UdefLayout
@@ -10,6 +10,13 @@ PUT /api/v1/Sale/UdefLayout
 ```
 
 Save SaleEntity user-defined field layout.
+
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -25,7 +32,9 @@ Save SaleEntity user-defined field layout.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: fields
+## Request Body: fields  
+
+ 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -64,7 +73,10 @@ Save SaleEntity user-defined field layout.
 | HasBeenPublished | bool | Has the udef field been published? |
 | MdoListName | string | MDO list name used to populate this list. Derived from UDListDefinitionId and ListTableId. (Read-only) |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -111,54 +123,56 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 PUT /api/v1/Sale/UdefLayout
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 432,
-    "ColumnId": 323,
-    "FieldDefault": "velit",
-    "FieldHeight": 191,
-    "FieldLabel": "quod",
-    "FieldLeft": 478,
-    "FieldTop": 941,
+    "UDefFieldId": 813,
+    "ColumnId": 966,
+    "FieldDefault": "et",
+    "FieldHeight": 781,
+    "FieldLabel": "magnam",
+    "FieldLeft": 246,
+    "FieldTop": 48,
     "FieldType": "Checkbox",
-    "FieldWidth": 567,
-    "FormatMask": "eaque",
-    "HideLabel": true,
-    "IsIndexed": true,
-    "LabelHeight": 486,
-    "LabelLeft": 784,
-    "LabelTop": 159,
-    "LabelWidth": 152,
-    "LastVersionId": 118,
-    "ListTableId": 768,
-    "IsMandatory": true,
+    "FieldWidth": 915,
+    "FormatMask": "qui",
+    "HideLabel": false,
+    "IsIndexed": false,
+    "LabelHeight": 650,
+    "LabelLeft": 325,
+    "LabelTop": 164,
+    "LabelWidth": 873,
+    "LastVersionId": 769,
+    "ListTableId": 700,
+    "IsMandatory": false,
     "Type": "Appointment",
-    "Page1LineNo": 10,
-    "ProgId": "non",
-    "IsReadOnly": true,
-    "ShortLabel": "cumque",
-    "TabOrder": 417,
-    "TextLength": 365,
-    "Tooltip": "dignissimos",
-    "UdefIdentity": 708,
-    "UDListDefinitionId": 802,
+    "Page1LineNo": 731,
+    "ProgId": "accusamus",
+    "IsReadOnly": false,
+    "ShortLabel": "facere",
+    "TabOrder": 340,
+    "TextLength": 784,
+    "Tooltip": "magni",
+    "UdefIdentity": 38,
+    "UDListDefinitionId": 741,
     "Justification": "Center",
-    "Version": 174,
-    "TemplateVariableName": "Mayert-Flatley",
-    "HasBeenPublished": true,
-    "MdoListName": "Mraz, Nader and Lockman"
+    "Version": 409,
+    "TemplateVariableName": "Herzog, Bernhard and Feest",
+    "HasBeenPublished": false,
+    "MdoListName": "Renner-Kozey"
   }
 ]
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -166,52 +180,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 112,
-    "ColumnId": 99,
-    "FieldDefault": "corrupti",
-    "FieldHeight": 6,
-    "FieldLabel": "officiis",
-    "FieldLeft": 437,
-    "FieldTop": 955,
+    "UDefFieldId": 93,
+    "ColumnId": 491,
+    "FieldDefault": "eveniet",
+    "FieldHeight": 81,
+    "FieldLabel": "qui",
+    "FieldLeft": 235,
+    "FieldTop": 227,
     "FieldType": "Checkbox",
-    "FieldWidth": 741,
-    "FormatMask": "hic",
+    "FieldWidth": 650,
+    "FormatMask": "porro",
     "HideLabel": true,
-    "IsIndexed": true,
-    "LabelHeight": 562,
-    "LabelLeft": 345,
-    "LabelTop": 248,
-    "LabelWidth": 555,
-    "LastVersionId": 261,
-    "ListTableId": 23,
+    "IsIndexed": false,
+    "LabelHeight": 314,
+    "LabelLeft": 656,
+    "LabelTop": 290,
+    "LabelWidth": 458,
+    "LastVersionId": 405,
+    "ListTableId": 857,
     "IsMandatory": true,
     "Type": "Appointment",
-    "Page1LineNo": 494,
-    "ProgId": "amet",
-    "IsReadOnly": false,
-    "ShortLabel": "sed",
-    "TabOrder": 944,
-    "TextLength": 380,
-    "Tooltip": "quis",
-    "UdefIdentity": 396,
-    "UDListDefinitionId": 773,
+    "Page1LineNo": 150,
+    "ProgId": "dicta",
+    "IsReadOnly": true,
+    "ShortLabel": "vero",
+    "TabOrder": 865,
+    "TextLength": 533,
+    "Tooltip": "voluptas",
+    "UdefIdentity": 75,
+    "UDListDefinitionId": 101,
     "Justification": "Center",
-    "Version": 970,
-    "TemplateVariableName": "Mueller, Schroeder and Kuhlman",
-    "HasBeenPublished": true,
-    "MdoListName": "Powlowski-Haag",
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "Version": 916,
+    "TemplateVariableName": "Doyle LLC",
+    "HasBeenPublished": false,
+    "MdoListName": "Friesen-Baumbach",
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
+        "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 27
+        "FieldLength": 261
       }
     }
   }

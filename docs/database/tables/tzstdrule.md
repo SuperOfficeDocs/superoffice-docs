@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "TZStdRule"
-so.date: 04.12.2022
+so.date: 08.26.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -33,6 +33,7 @@ Time zone rule for standard time
 |updated\_associate\_id|Last updated by whom|FK [associate](associate.md)| |
 |updatedCount|Number of updates made to this record|UShort| |
 
+
 ![TZStdRule table relationship diagram](./media/TZStdRule.png)
 
 [!include[details](./includes/tzstdrule.md)]
@@ -51,6 +52,7 @@ Time zone rule for standard time
 |[associate](associate.md)  |Employees, resources and other users - except for External persons |
 |[TZLocation](tzlocation.md)  |Time zone location |
 
+
 ## Replication Flags
 
 * Replicate changes DOWN from central to satellites and travellers.
@@ -60,3 +62,4 @@ Time zone rule for standard time
 ## Security Flags
 
 * No access control via user's Role.
+

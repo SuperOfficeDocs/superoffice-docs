@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Relation/SaveContactRelation
-id: v1RelationAgent_SaveContactRelation
+uid: v1RelationAgent_SaveContactRelation
 ---
 
 # POST Agents/Relation/SaveContactRelation
@@ -11,6 +11,12 @@ POST /api/v1/Agents/Relation/SaveContactRelation
 
 Creates a new or updates an existing contact relation.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Creates a new or updates an existing contact relation.
 ```http
 POST /api/v1/Agents/Relation/SaveContactRelation?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,26 +42,24 @@ POST /api/v1/Agents/Relation/SaveContactRelation?$select=name,department,categor
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-ContactRelationEntity
+ContactRelationEntity 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| ContactRelationEntity |  | Relationship between a (contact/person) and another (contact/person), as described by the RelationDefinition. <br /> Carrier object for ContactRelationEntity. Services for the ContactRelationEntity Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IRelationAgent">Relation Agent</see>. |
+| ContactRelationEntity |  | Relationship between a (contact/person) and another (contact/person), as described by the RelationDefinition. <para /> Carrier object for ContactRelationEntity. Services for the ContactRelationEntity Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IRelationAgent">Relation Agent</see>. |
 
-## Response: object
 
-Relationship between a (contact/person) and another (contact/person), as described by the RelationDefinition.
+## Response: 
 
-Carrier object for ContactRelationEntity.
-Services for the ContactRelationEntity Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IRelationAgent">Relation Agent</see>.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -79,7 +84,7 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Relation/SaveContactRelation
@@ -89,112 +94,41 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactRelationEntity": {
-    "SourceContactId": 452,
-    "SourcePersonId": 71,
-    "DestinationContactId": 722,
-    "DestinationPersonId": 918,
-    "RelationId": 434,
-    "Comment": "corrupti",
-    "RelationDefinitionId": 909,
-    "Reversed": 368,
-    "UpdatedDate": "2021-02-15T18:28:50.0081396+01:00",
-    "CreatedDate": "2011-04-02T18:28:50.0081396+02:00",
-    "CreatedBy": {},
-    "UpdatedBy": {},
-    "SourceContactName": "Ledner-Hodkiewicz",
-    "SourcePersonName": "Kreiger LLC",
-    "DestinationContactName": "Hilpert, Smith and Legros",
-    "DestinationPersonName": "Zieme-Koepp",
-    "ActiveText": "modi",
-    "PassiveText": "ut"
-  }
+  "ContactRelationEntity": null
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceContactId": 926,
-  "SourcePersonId": 833,
-  "DestinationContactId": 116,
-  "DestinationPersonId": 457,
-  "RelationId": 486,
-  "Comment": "iure",
-  "RelationDefinitionId": 520,
-  "Reversed": 600,
-  "UpdatedDate": "2007-10-22T18:28:50.0091369+02:00",
-  "CreatedDate": "2016-11-22T18:28:50.0091369+01:00",
-  "CreatedBy": {
-    "AssociateId": 324,
-    "Name": "Parisian-Towne",
-    "PersonId": 735,
-    "Rank": 212,
-    "Tooltip": "veritatis",
-    "Type": "AnonymousAssociate",
-    "GroupIdx": 642,
-    "FullName": "Hunter Ebert",
-    "FormalName": "Friesen-Dicki",
-    "Deleted": false,
-    "EjUserId": 593,
-    "UserName": "Mohr, Runte and Walker",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.Int32",
-        "FieldLength": 84
-      }
-    }
-  },
-  "UpdatedBy": {
-    "AssociateId": 126,
-    "Name": "Goyette-Vandervort",
-    "PersonId": 670,
-    "Rank": 124,
-    "Tooltip": "ea",
-    "Type": "AnonymousAssociate",
-    "GroupIdx": 824,
-    "FullName": "Cecil Jaskolski",
-    "FormalName": "Kuhn Group",
-    "Deleted": true,
-    "EjUserId": 755,
-    "UserName": "Huel-Turner",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 865
-      }
-    }
-  },
-  "SourceContactName": "Rolfson, Ullrich and Jenkins",
-  "SourcePersonName": "Schamberger-Rempel",
-  "DestinationContactName": "O'Conner, Bogan and Heathcote",
-  "DestinationPersonName": "Ferry, Witting and Harris",
-  "ActiveText": "pariatur",
-  "PassiveText": "molestiae",
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "SourceContactId": 686,
+  "SourcePersonId": 465,
+  "DestinationContactId": 519,
+  "DestinationPersonId": 385,
+  "RelationId": 888,
+  "Comment": "aut",
+  "RelationDefinitionId": 18,
+  "Reversed": 445,
+  "UpdatedDate": "2000-12-16T11:10:27.7444945+01:00",
+  "CreatedDate": "1998-01-24T11:10:27.7444945+01:00",
+  "CreatedBy": null,
+  "UpdatedBy": null,
+  "SourceContactName": "DuBuque Inc and Sons",
+  "SourcePersonName": "Green, Dooley and Moen",
+  "DestinationContactName": "O'Reilly-Pfeffer",
+  "DestinationPersonName": "Anderson LLC",
+  "ActiveText": "rem",
+  "PassiveText": "adipisci",
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
+      "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 922
+      "FieldLength": 128
     }
   }
 }

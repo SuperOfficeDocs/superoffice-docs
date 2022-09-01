@@ -1,6 +1,6 @@
 ---
 title: PUT List/ConsentPurpose/Items/{id}/UserGroups
-id: v1ConsentPurposeList_PutConsentPurposeUserGroupsForListItem
+uid: v1ConsentPurposeList_PutConsentPurposeUserGroupsForListItem
 ---
 
 # PUT List/ConsentPurpose/Items/{id}/UserGroups
@@ -11,11 +11,18 @@ PUT /api/v1/List/ConsentPurpose/Items/{itemId}/UserGroups
 
 Saves user groups visible for the ConsentPurpose list's item.
 
+
 Calls the List agent service SaveHeadingsForListItemFromListDefinition.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | itemId | int32 | The ID of the item to save. **Required** |
+
+
 
 ## Request Headers
 
@@ -31,9 +38,9 @@ Calls the List agent service SaveHeadingsForListItemFromListDefinition.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entities
+## Request Body: entities  
 
-The headings to be saved.
+The headings to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -53,7 +60,10 @@ The headings to be saved.
 | Hidden | bool | True if the ListItem is hidden |
 | FullName | string | The name of the ListItem in its context |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -81,7 +91,7 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 PUT /api/v1/List/ConsentPurpose/Items/{itemId}/UserGroups
@@ -92,45 +102,47 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 849,
-    "Name": "Skiles LLC",
-    "ToolTip": "Possimus voluptate unde optio nihil ipsam velit.",
+    "Id": 973,
+    "Name": "Senger LLC",
+    "ToolTip": "Temporibus nesciunt et iste vitae blanditiis harum qui.",
     "Deleted": true,
-    "Rank": 779,
-    "Type": "accusantium",
-    "ColorBlock": 414,
-    "IconHint": "quis",
+    "Rank": 232,
+    "Type": "in",
+    "ColorBlock": 989,
+    "IconHint": "blanditiis",
     "Selected": false,
-    "LastChanged": "2011-01-14T18:25:51.6702945+01:00",
+    "LastChanged": "2017-07-07T11:10:53.9821825+02:00",
     "ChildItems": [
       {
-        "Id": 179,
-        "Name": "Jast, Dietrich and Schmitt",
-        "ToolTip": "Qui est ex impedit quia et.",
+        "Id": 776,
+        "Name": "Prohaska, Swaniawski and Lakin",
+        "ToolTip": "Nulla rerum ex odio quam fugiat nemo.",
         "Deleted": false,
-        "Rank": 713,
-        "Type": "voluptate",
-        "ColorBlock": 182,
-        "IconHint": "nobis",
-        "Selected": false,
-        "LastChanged": "1996-10-05T18:25:51.6702945+02:00",
+        "Rank": 824,
+        "Type": "est",
+        "ColorBlock": 143,
+        "IconHint": "quidem",
+        "Selected": true,
+        "LastChanged": "2016-09-01T11:10:53.9821825+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "aspernatur",
-        "StyleHint": "tempore",
-        "Hidden": false,
-        "FullName": "Abel Runte"
+        "ExtraInfo": "accusantium",
+        "StyleHint": "dolores",
+        "Hidden": true,
+        "FullName": "Reginald Emmerich"
       }
     ],
-    "ExtraInfo": "voluptatem",
-    "StyleHint": "cupiditate",
-    "Hidden": false,
-    "FullName": "Kody Johnston"
+    "ExtraInfo": "totam",
+    "StyleHint": "nisi",
+    "Hidden": true,
+    "FullName": "Rupert Arturo Hyatt I"
   }
 ]
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -138,65 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 468,
-    "Name": "Raynor, Bailey and Emmerich",
-    "ToolTip": "Quis incidunt itaque atque suscipit.",
-    "Deleted": true,
-    "Rank": 510,
-    "Type": "possimus",
-    "ColorBlock": 97,
-    "IconHint": "cumque",
+    "Id": 370,
+    "Name": "Collins LLC",
+    "ToolTip": "Debitis et.",
+    "Deleted": false,
+    "Rank": 333,
+    "Type": "ex",
+    "ColorBlock": 879,
+    "IconHint": "nemo",
     "Selected": false,
-    "LastChanged": "2007-06-03T18:25:51.6722943+02:00",
+    "LastChanged": "1996-02-06T11:10:53.9841821+01:00",
     "ChildItems": [
       {
-        "Id": 19,
-        "Name": "Medhurst, Upton and Schumm",
-        "ToolTip": "Aut veritatis.",
-        "Deleted": true,
-        "Rank": 831,
-        "Type": "vel",
-        "ColorBlock": 376,
-        "IconHint": "voluptatem",
+        "Id": 270,
+        "Name": "Marquardt, Johnston and Ullrich",
+        "ToolTip": "Quaerat accusamus ab maxime dolor consequatur.",
+        "Deleted": false,
+        "Rank": 433,
+        "Type": "adipisci",
+        "ColorBlock": 94,
+        "IconHint": "animi",
         "Selected": false,
-        "LastChanged": "2013-12-07T18:25:51.6722943+01:00",
+        "LastChanged": "2014-07-06T11:10:53.9841821+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "rem",
-        "StyleHint": "nihil",
+        "ExtraInfo": "deleniti",
+        "StyleHint": "doloribus",
         "Hidden": true,
-        "FullName": "Stella Reinger",
-        "TableRight": {},
+        "FullName": "Holden Stanton",
+        "TableRight": null,
         "FieldProperties": {
           "fieldName": {
-            "FieldRight": {
-              "Mask": "FULL",
-              "Reason": ""
-            },
+            "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 40
+            "FieldLength": 71
           }
         }
       }
     ],
-    "ExtraInfo": "dolores",
-    "StyleHint": "repudiandae",
+    "ExtraInfo": "quo",
+    "StyleHint": "aut",
     "Hidden": true,
-    "FullName": "Maryse Hayes",
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "FullName": "Amalia Schmidt",
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
+        "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 149
+        "FieldLength": 847
       }
     }
   }

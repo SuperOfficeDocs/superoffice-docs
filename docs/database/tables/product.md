@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "Product"
-so.date: 04.12.2022
+so.date: 08.26.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -38,7 +38,7 @@ One Product, member of one price list
 |ProductFamilyKey|Either a List id to an id from a connector provided list, or, if the connection doesn&apos;t support lists, a text with the actual product family.|String(254)|&#x25CF;|
 |ProductTypeKey|Either a List id to an id from a connector provided list, or, if the connection doesn’t support lists, a text with the actual product type.|String(254)|&#x25CF;|
 |VATInfo|A field for putting VATInfo you need to show in the final quoteDocument, like the VAT type that is used. Not used in any business logic in SuperOffice; available to document templates.|String(254)|&#x25CF;|
-|VAT|Tax/VAT if available from ERP system. THIS IS A PERCENTAGE. In the SuperOffice product register, this field is available in the product admin GUI.|Double|&#x25CF;|
+|VAT|Tax/VAT if available from ERP system. THIS IS A PERCENTAGE. In the Superoffice product register, this field is available in the product admin GUI.|Double|&#x25CF;|
 |UnitCost|The cost price. Might not be given, use Decimal.MinValue to signal this.|Double|&#x25CF;|
 |UnitMinimumPrice|The minimum price this salesman can offer to his customer. This might be cost price if there is no policy. Might not be given, use Decimal.MinValue to signal this.|Double|&#x25CF;|
 |UnitListPrice|(Basic Price, normal price, standard price.) This is the basic price from which the discount is computed from. The ListPrice will stay the same even when a larger amount is ordered.|Double|&#x25CF;|
@@ -59,6 +59,7 @@ One Product, member of one price list
 |updated\_associate\_id|Last updated by whom|FK [associate](associate.md)| |
 |updatedCount|Number of updates made to this record|UShort| |
 
+
 ![Product table relationship diagram](./media/Product.png)
 
 [!include[details](./includes/product.md)]
@@ -78,6 +79,7 @@ One Product, member of one price list
 |[associate](associate.md)  |Employees, resources and other users - except for External persons |
 |[PriceList](pricelist.md)  |List of prices, cached from an ERP system |
 
+
 ## Replication Flags
 
 * Replicate changes DOWN from central to satellites and travellers.
@@ -86,3 +88,4 @@ One Product, member of one price list
 ## Security Flags
 
 * No access control via user's Role.
+

@@ -7,7 +7,7 @@ keywords:
   - "mdo provider"
   - "consentpurpose"
 so.generated: true
-so.date: 03.19.2021
+so.date: 08.26.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -15,11 +15,15 @@ so.envir:
 ---
 
 # "consentpurpose" MDO List
-
 MDO list provider for ConsentPurpose
+
+
 
 Implemented by the <see cref="T:SuperOffice.CRM.Lists.ConsentPurposeProvider">ConsentPurposeProvider</see> class.
 The name of the MDO list is 'consentpurpose'.
+
+
+
 
 ## Sample Request
 
@@ -32,7 +36,6 @@ Accept-Language: *
 ```
 
 ## Sample Code
-
 ```cs
 var listProvider = SuperOffice.CRM.Lists.SoListProviderFactory.Create("consentpurpose", forceFlatList: true);
 foreach (var item in listProvider.RootItems) {
@@ -47,6 +50,7 @@ foreach (var item in listProvider.RootItems) {
 | --- | ----- | ------- | -------- |
 |1|Sales and service|||
 |2|E-marketing|||
+
 
 ## Related MDO Lists
 

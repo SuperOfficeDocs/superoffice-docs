@@ -13,7 +13,9 @@ Implemented by the <see cref="M:SuperOffice.Services86.IArchiveAgent.GetProvider
 
 Return list of all archive provider names
 
+
 **Returns:** Array of all archive provider names.
+
 
 [WSDL file for Services86/Archive](../Services86-Archive.md)
 
@@ -46,6 +48,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## GetProviderNames Response
 
 ```xml
@@ -68,3 +71,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

@@ -15,6 +15,8 @@ Deletes the report favorite.
 
 * **reportEntityId:** The id of the report favorite to delete.
 
+
+
 [WSDL file for Services88/Report](../Services88-Report.md)
 
 Obtain a ticket from the [Services88/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -47,6 +49,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## DeleteFavorite Response
 
 ```xml
@@ -66,3 +69,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

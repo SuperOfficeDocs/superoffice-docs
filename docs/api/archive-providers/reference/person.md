@@ -8,7 +8,7 @@ keywords:
   - "archive provider"
   - "Person"
 so.generated: true
-so.date: 03.23.2021
+so.date: 08.26.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -26,14 +26,14 @@ table data; this will also pull in contact udef and related fields.
 ## Supported Entities
 
 | Name | Description |
-| ---- | ----- |
+| ---- | ----------- |
 |"person"|Contacts|
 |"retiredPerson"|Former employees|
 
 ## Supported Columns
 
-| Name | Restriction | Description | OrderBy
-| ---- | ----- | ------- | ------ |
+| Name | Restriction | Description | OrderBy |
+| ---- | ----------- | ----------- | ------- |
 |getAllRows|bool|GetAll: Get all rows of archive - use with care, you may be fetching the whole database|  |
 |getNoRows|bool|GetNone: Do not get any rows from the archive|  |
 |personId|int|DB ID: Displays the database ID of a contact| x |
@@ -51,6 +51,7 @@ table data; this will also pull in contact udef and related fields.
 |personNumber|string|Number: Displays the contact's number| x |
 |title|string|Title: Displays the contact's job title| x |
 |personCountry|listAny|Country: Country| x |
+|personCountryId|int|Country ID: Country ID| x |
 |personNoMail|bool|No Mailings: Displays the contact's No Mailings checkbox| x |
 |rank|int|Rank: Displays a contact's current rank| x |
 |birthdate| *None* |Birthdate: Displays the contact's date of birth|  |
@@ -64,15 +65,19 @@ table data; this will also pull in contact udef and related fields.
 |kanaFirstName|string|First name, kana: Contact's first name, in kana alphabet| x |
 |kanaLastName|string|Last name, kana: Contact's last name, in kana alphabet| x |
 |personUpdatedBy|associate|Updated by: The user who last updated the data| x |
+|personUpdatedByFullName|associate|Updated by - Full name: The user who last updated the data| x |
 |personUpdatedDate|date|Updated: The date/time the data was last updated in UTC.| x |
 |personRegisteredBy|associate|Registered by: The user who registered the data| x |
+|personRegisteredByFullName|associate|Registered by - Full name: The user who registered the data| x |
 |personRegisteredDate|date|Registered date: The date/time the data was registered in UTC.| x |
 |portraitThumbnail| *None* |Person image: Person image|  |
 |personActiveErpLinks|bool|ERP connected: Is there an active ERP Sync?| x |
 |ticketPriority|listAny|Service priority: Default service priority for this contact| x |
 |supportLanguage|listAny|Preferred language: Preferred language used for reply templates and more| x |
 |supportAssociate|associate|Our service contact: Default service contact for this contact| x |
+|supportAssociateFullName|associate|Our service contact - Full name: Default service contact for this contact| x |
 |personAssociateId|associate|Our contact: Displays our contact| x |
+|personAssociateFullName|associate|Our contact - Full name: Displays our contact| x |
 |personCategory|listAny|Category| x |
 |personBusiness|listAny|Business| x |
 |personDeletedDate|datetime|Deleted date: Deleted date|  |
@@ -140,6 +145,133 @@ table data; this will also pull in contact udef and related fields.
 |personUdef/SuperOffice:9|string|page1saleonly| x |
 |personUdef/SuperOffice:10|string|page1marketingonly| x |
 |personUdef/SuperOffice:11|string|page1adminonly| x |
+|personExtra/x\_person\_integer|int|Extra Integer: Custom person integer| x |
+|personExtra/x\_person\_hidden\_integer|int|Extra hidden integer: Custom integer field that is hidden| x |
+|personExtra/x\_person\_float|decimal|Extra float: Custom float field| x |
+|personExtra/x\_person\_longtext|string|Extra Long Text: Custom long text field on person, keep HTML tags. Simple input, not text area. Default value = 'Hello there'| x |
+|personExtra/x\_person\_date|date|Extra date: Custom date field on person. Default value = 28.03.2019| x |
+|personExtra/x\_person\_datetime|datetime|Extra DateTime: Custom person date and time field. No default| x |
+|personExtra/x\_person\_time| *None* |Extra time: Custom time field on person. Current time as default| x |
+|personExtra/x\_person\_boolean|bool|Extra Boolean: Custom boolean field on person. Default checked| x |
+|personExtra/x\_person\_timespan|timeSpan|Extra timespan: Custom timespan on person. Minutes only in 15 units| x |
+|personExtra/x\_person\_shorttext|string|Extra short text: Custom short text on person. With index. Do not keep HTML tags| x |
+|personExtra/x\_person\_shorttext\_list|listAny|Extra short dropdown: Custom Short text dropdown field on person: black, white, transparent| x |
+|personExtra/x\_person\_user\_relation|associate|Extra user relation: Custom person-user relation field| x |
+|personExtra/x\_person\_category\_relation|listAny|Extra category relation: Custom person-category relation| x |
+|personExtra/x\_person\_priority\_relation|listAny|Extra priority relation: Custom person-priority relation| x |
+|personExtra/x\_person\_request\_relation|stringorPK|Extra request relation: Request relation on contact| x |
+|personExtra/x\_person\_appointment\_relation|stringorPK|Extra appointment relation: Appointment relation on person| x |
+|personExtra/x\_person\_contact\_relation|stringorPK|Extra company relation: Company relation on contact| x |
+|personExtra/y\_rental/id|int|Rental - id: Displays the row's primary key (y\_rental)| x |
+|personExtra/y\_rental/x\_start|date|Rental - Start rental| x |
+|personExtra/y\_rental/x\_end|date|Rental - End| x |
+|personExtra/y\_rental/x\_amount|int|Rental - Amount: Number to rent. Default = 1| x |
+|personExtra/y\_rental/x\_contact|stringorPK|Rental - Renter: Company that rents equipment| x |
+|personExtra/y\_rental/y\_equipment/x\_name|string|Rental - Equipment - Name: Equpment name custom field. Cannot be null., show in table| x |
+|personSourceRelation/personId|int|Source - DB ID: Displays the database ID of a contact| x |
+|personSourceRelation/firstName|string|Source - First name: Displays the contact's first name| x |
+|personSourceRelation/lastName|string|Source - Last name: Displays the contact's last name| x |
+|personSourceRelation/middleName|string|Source - Middle name: Displays the contact's middle name.| x |
+|personSourceRelation/fullName|stringorPK|Source - Contact: Displays the contact to which an item is linked| x |
+|personSourceRelation/contactId|int|Source - Company ID: Database ID of company| x |
+|personSourceRelation/hasInfoText|bool|Source - Has note: Displays an icon indicating if there is additional information available about the contact| x |
+|personSourceRelation/hasInterests|bool|Source - Has interests: Displays an Icon indicating if the contact has active interests| x |
+|personSourceRelation/personHasInterests|bool|Source - Has interests: Displays an Icon indicating if the contact has active interests| x |
+|personSourceRelation/mrMrs|string|Source - Mr/Ms: Displays whether the contact is addressed as Mr or Ms| x |
+|personSourceRelation/position|listAny|Source - Position| x |
+|personSourceRelation/personNumber|string|Source - Number: Displays the contact's number| x |
+|personSourceRelation/title|string|Source - Title: Displays the contact's job title| x |
+|personSourceRelation/personCountry|listAny|Source - Country: Country| x |
+|personSourceRelation/personCountryId|int|Source - Country ID: Country ID| x |
+|personSourceRelation/personNoMail|bool|Source - No Mailings: Displays the contact's No Mailings checkbox| x |
+|personSourceRelation/rank|int|Source - Rank: Displays a contact's current rank| x |
+|personSourceRelation/birthdate| *None* |Source - Birthdate: Displays the contact's date of birth|  |
+|personSourceRelation/associateType| *None* |Source - User type: Displays an icon indicating if a contact is an associate or external contact with log-in rights and currently online. This information is updated only once while the archive is loading.|  |
+|personSourceRelation/useAsMailingAddress|bool|Source - Use as postal address: Use as postal address| x |
+|personSourceRelation/personSource|listAny|Source - Source: Source (Contact)| x |
+|personSourceRelation/retired|bool|Source - Former employee: Indicates whether the contact has retired/left the company| x |
+|personSourceRelation/birthYear|int|Source - Birth year: Displays contact's birth year| x |
+|personSourceRelation/birthMonth|int|Source - Birth month: Displays contact's birth month| x |
+|personSourceRelation/birthDay|int|Source - Birth day: Displays contact's birth day (day of month)| x |
+|personSourceRelation/kanaFirstName|string|Source - First name, kana: Contact's first name, in kana alphabet| x |
+|personSourceRelation/kanaLastName|string|Source - Last name, kana: Contact's last name, in kana alphabet| x |
+|personSourceRelation/personUpdatedBy|associate|Source - Updated by: The user who last updated the data| x |
+|personSourceRelation/personUpdatedByFullName|associate|Source - Updated by - Full name: The user who last updated the data| x |
+|personSourceRelation/personUpdatedDate|date|Source - Updated: The date/time the data was last updated in UTC.| x |
+|personSourceRelation/personRegisteredBy|associate|Source - Registered by: The user who registered the data| x |
+|personSourceRelation/personRegisteredByFullName|associate|Source - Registered by - Full name: The user who registered the data| x |
+|personSourceRelation/personRegisteredDate|date|Source - Registered date: The date/time the data was registered in UTC.| x |
+|personSourceRelation/portraitThumbnail| *None* |Source - Person image: Person image|  |
+|personSourceRelation/personActiveErpLinks|bool|Source - ERP connected: Is there an active ERP Sync?| x |
+|personSourceRelation/ticketPriority|listAny|Source - Service priority: Default service priority for this contact| x |
+|personSourceRelation/supportLanguage|listAny|Source - Preferred language: Preferred language used for reply templates and more| x |
+|personSourceRelation/supportAssociate|associate|Source - Our service contact: Default service contact for this contact| x |
+|personSourceRelation/supportAssociateFullName|associate|Source - Our service contact - Full name: Default service contact for this contact| x |
+|personSourceRelation/personAssociateId|associate|Source - Our contact: Displays our contact| x |
+|personSourceRelation/personAssociateFullName|associate|Source - Our contact - Full name: Displays our contact| x |
+|personSourceRelation/personCategory|listAny|Source - Category| x |
+|personSourceRelation/personBusiness|listAny|Source - Business| x |
+|personSourceRelation/personDeletedDate|datetime|Source - Deleted date: Deleted date|  |
+|personSourceRelation/hasCompany|bool|Source - Has company: The contact is associated with a company| x |
+|personSourceRelation/isProjectMember|bool|Source - Is project member: This person is a project member| x |
+|personSourceRelation/isStakeholder|bool|Source - Is stakeholder: This person is a sale stakeholder| x |
+|personSourceRelation/restrictionContactId|int|Source - Company ID: Database ID of company to fetch relations for|  |
+|personSourceRelation/restrictionPersonId|int|Source - Company ID: Database ID of company to fetch relations for|  |
+|personSourceRelation/who| *None* |Source - Full name: Full name of company/contact| x |
+|personSourceRelation/personPersonRelation|listAny|Source - Contact-to-contact relation: Name of relation, not taking into account the relation direction| x |
+|personTargetRelation/personId|int|Target - DB ID: Displays the database ID of a contact| x |
+|personTargetRelation/firstName|string|Target - First name: Displays the contact's first name| x |
+|personTargetRelation/lastName|string|Target - Last name: Displays the contact's last name| x |
+|personTargetRelation/middleName|string|Target - Middle name: Displays the contact's middle name.| x |
+|personTargetRelation/fullName|stringorPK|Target - Contact: Displays the contact to which an item is linked| x |
+|personTargetRelation/contactId|int|Target - Company ID: Database ID of company| x |
+|personTargetRelation/hasInfoText|bool|Target - Has note: Displays an icon indicating if there is additional information available about the contact| x |
+|personTargetRelation/hasInterests|bool|Target - Has interests: Displays an Icon indicating if the contact has active interests| x |
+|personTargetRelation/personHasInterests|bool|Target - Has interests: Displays an Icon indicating if the contact has active interests| x |
+|personTargetRelation/mrMrs|string|Target - Mr/Ms: Displays whether the contact is addressed as Mr or Ms| x |
+|personTargetRelation/position|listAny|Target - Position| x |
+|personTargetRelation/personNumber|string|Target - Number: Displays the contact's number| x |
+|personTargetRelation/title|string|Target - Title: Displays the contact's job title| x |
+|personTargetRelation/personCountry|listAny|Target - Country: Country| x |
+|personTargetRelation/personCountryId|int|Target - Country ID: Country ID| x |
+|personTargetRelation/personNoMail|bool|Target - No Mailings: Displays the contact's No Mailings checkbox| x |
+|personTargetRelation/rank|int|Target - Rank: Displays a contact's current rank| x |
+|personTargetRelation/birthdate| *None* |Target - Birthdate: Displays the contact's date of birth|  |
+|personTargetRelation/associateType| *None* |Target - User type: Displays an icon indicating if a contact is an associate or external contact with log-in rights and currently online. This information is updated only once while the archive is loading.|  |
+|personTargetRelation/useAsMailingAddress|bool|Target - Use as postal address: Use as postal address| x |
+|personTargetRelation/personSource|listAny|Target - Source: Source (Contact)| x |
+|personTargetRelation/retired|bool|Target - Former employee: Indicates whether the contact has retired/left the company| x |
+|personTargetRelation/birthYear|int|Target - Birth year: Displays contact's birth year| x |
+|personTargetRelation/birthMonth|int|Target - Birth month: Displays contact's birth month| x |
+|personTargetRelation/birthDay|int|Target - Birth day: Displays contact's birth day (day of month)| x |
+|personTargetRelation/kanaFirstName|string|Target - First name, kana: Contact's first name, in kana alphabet| x |
+|personTargetRelation/kanaLastName|string|Target - Last name, kana: Contact's last name, in kana alphabet| x |
+|personTargetRelation/personUpdatedBy|associate|Target - Updated by: The user who last updated the data| x |
+|personTargetRelation/personUpdatedByFullName|associate|Target - Updated by - Full name: The user who last updated the data| x |
+|personTargetRelation/personUpdatedDate|date|Target - Updated: The date/time the data was last updated in UTC.| x |
+|personTargetRelation/personRegisteredBy|associate|Target - Registered by: The user who registered the data| x |
+|personTargetRelation/personRegisteredByFullName|associate|Target - Registered by - Full name: The user who registered the data| x |
+|personTargetRelation/personRegisteredDate|date|Target - Registered date: The date/time the data was registered in UTC.| x |
+|personTargetRelation/portraitThumbnail| *None* |Target - Person image: Person image|  |
+|personTargetRelation/personActiveErpLinks|bool|Target - ERP connected: Is there an active ERP Sync?| x |
+|personTargetRelation/ticketPriority|listAny|Target - Service priority: Default service priority for this contact| x |
+|personTargetRelation/supportLanguage|listAny|Target - Preferred language: Preferred language used for reply templates and more| x |
+|personTargetRelation/supportAssociate|associate|Target - Our service contact: Default service contact for this contact| x |
+|personTargetRelation/supportAssociateFullName|associate|Target - Our service contact - Full name: Default service contact for this contact| x |
+|personTargetRelation/personAssociateId|associate|Target - Our contact: Displays our contact| x |
+|personTargetRelation/personAssociateFullName|associate|Target - Our contact - Full name: Displays our contact| x |
+|personTargetRelation/personCategory|listAny|Target - Category| x |
+|personTargetRelation/personBusiness|listAny|Target - Business| x |
+|personTargetRelation/personDeletedDate|datetime|Target - Deleted date: Deleted date|  |
+|personTargetRelation/hasCompany|bool|Target - Has company: The contact is associated with a company| x |
+|personTargetRelation/isProjectMember|bool|Target - Is project member: This person is a project member| x |
+|personTargetRelation/isStakeholder|bool|Target - Is stakeholder: This person is a sale stakeholder| x |
+|personTargetRelation/restrictionContactId|int|Target - Company ID: Database ID of company to fetch relations for|  |
+|personTargetRelation/restrictionPersonId|int|Target - Company ID: Database ID of company to fetch relations for|  |
+|personTargetRelation/who| *None* |Target - Full name: Full name of company/contact| x |
+|personTargetRelation/personPersonRelation|listAny|Target - Contact-to-contact relation: Name of relation, not taking into account the relation direction| x |
+|personSourceRelation/personContactRelation|listAny|Source - Contact-to-company relation: Name of relation, not taking into account the relation direction| x |
+|personTargetRelation/contactPersonRelation|listAny|Target - Company-to-contact relation: Name of relation, not taking into account the relation direction| x |
 |personAssociate/firstName|string|First name: Displays the contact's first name| x |
 |personAssociate/lastName|string|Last name: Displays the contact's last name| x |
 |personAssociate/middleName|string|Middle Name : Displays the contact's middle name.| x |
@@ -170,6 +302,36 @@ table data; this will also pull in contact udef and related fields.
 |personAssociate/otherGroups|userGroup|Other groups: Other groups|  |
 |personAssociate/userName|string|User name: User name| x |
 |personAssociate/personEmail|string|E-mail| x |
+|correspondingAssociate/firstName|string|First name: Displays the contact's first name| x |
+|correspondingAssociate/lastName|string|Last name: Displays the contact's last name| x |
+|correspondingAssociate/middleName|string|Middle Name : Displays the contact's middle name.| x |
+|correspondingAssociate/fullName|string|Full name: Displays full name of user (first, middle, last - according to settings)| x |
+|correspondingAssociate/contactId|int|Company ID: Database ID of the company the user belongs to|  |
+|correspondingAssociate/personId|int|Contact ID: Database ID of the contact row|  |
+|correspondingAssociate/mrMrs|string|Mr/Ms: Displays whether the contact is addressed as Mr or Ms| x |
+|correspondingAssociate/title|string|Title: Displays whether the contact is addressed as Mr or Ms| x |
+|correspondingAssociate/associateDbId|associate|ID| x |
+|correspondingAssociate/contactName|string|Owning company: Name of the company the user belongs to| x |
+|correspondingAssociate/contactDepartment|string|Owning department: Name of the department at the company the user belongs to| x |
+|correspondingAssociate/usergroup|userGroup|Primary group: The user's primary user group| x |
+|correspondingAssociate/contactFullName|string|Owner: Name and department of the company the user belongs to| x |
+|correspondingAssociate/contactCategory|listAny|Category: Category| x |
+|correspondingAssociate/role|listAny|Role : Role| x |
+|correspondingAssociate/assocName|associate|User ID : User ID| x |
+|correspondingAssociate/assocTooltip|string|Description : Description|  |
+|correspondingAssociate/assocType|listAny|Type: Type of user: associate, external user, system user, anonymous account| x |
+|correspondingAssociate/ejUserId|int|Service user ID: The database ID of a Service user|  |
+|correspondingAssociate/simultaneousEjUser|bool|Simultaneous Service user: If this flag is set, then the user will only have access if the maximum number of simultaneous users is not exceeded|  |
+|correspondingAssociate/ejDisplayName|string|Nick name: User's nick name in Service| x |
+|correspondingAssociate/ejStatus|int|Service status: Status for Service user: Normal; Unavailable / holiday; Deleted; Read-only|  |
+|correspondingAssociate/credentialType| *None* |Auth. type: What type of credentials to use when this user logs in| x |
+|correspondingAssociate/credentialDisplayValue| *None* |Auth. value: Credential value (public, visible part) to be used when this user logs in| x |
+|correspondingAssociate/isActive|bool|Active: Is this user active, and should be able to log in?| x |
+|correspondingAssociate/isActiveText|bool|Active status: Is this user active, and should be able to log in?| x |
+|correspondingAssociate/portraitThumbnail| *None* |Person image: Person image|  |
+|correspondingAssociate/otherGroups|userGroup|Other groups: Other groups|  |
+|correspondingAssociate/userName|string|User name: User name| x |
+|correspondingAssociate/personEmail|string|E-mail| x |
 |personContact/contactId|int|Company ID: Database ID of company| x |
 |personContact/name|stringorPK|Company name| x |
 |personContact/department|string|Department| x |
@@ -180,14 +342,17 @@ table data; this will also pull in contact udef and related fields.
 |personContact/category|listAny|Category| x |
 |personContact/business|listAny|Business| x |
 |personContact/country|listAny|Country: This criterion corresponds to the Country field on the Company card.| x |
+|personContact/countryId|int|Country ID: Country ID| x |
 |personContact/number|string|Number| x |
 |personContact/code|string|Code| x |
 |personContact/orgnr|string|VAT No.| x |
 |personContact/stop|bool|Stop| x |
 |personContact/contactNoMail|bool|No mailings (company| x |
 |personContact/updatedBy|associate|Updated by: The user who last updated the data| x |
+|personContact/updatedByFullName|associate|Updated by - Full name: The user who last updated the data| x |
 |personContact/updatedDate|date|Updated: The date/time the data was last updated in UTC.| x |
 |personContact/registeredBy|associate|Registered by: The user who registered the data| x |
+|personContact/registeredByFullName|associate|Registered by - Full name: The user who registered the data| x |
 |personContact/registeredDate|date|Registered date: The date/time the data was registered in UTC.| x |
 |personContact/contactSource|listAny|Source: Source (Company)| x |
 |personContact/contactDeleted|bool|Deleted: Deleted| x |
@@ -271,7 +436,7 @@ table data; this will also pull in contact udef and related fields.
 |personContact/contactAssociate/otherGroups|userGroup|Other groups: Other groups|  |
 |personContact/contactAssociate/userName|string|User name: User name| x |
 |personContact/contactAssociate/personEmail|string|E-mail| x |
-|isMailingRecipient|bool|isMailingRecipient: isMailingRecipient| x |
+|isMailingRecipient|bool|Is mailing recipient: isMailingRecipient| x |
 |hasStoreConsent|bool|Consent - Sales and service: The purpose to store data about this contact is to sell to and/or provide services to this contact. This purpose is usually used when storing contacts who are defined as potential or existing customers.|  |
 |withdrawnStoreConsent|bool|Consent is withdrawn - Sales and service: The purpose to store data about this contact is to sell to and/or provide services to this contact. This purpose is usually used when storing contacts who are defined as potential or existing customers.|  |
 |hasEmarketingConsent|bool|Consent - E-marketing: The purpose is to gain the explicit consent to communicate electronically (bulk e-mail) on topics related to our products and services. This might include newsletters, invitations and product-related content. The subscription system is used to refine the individual marketing choices this contact makes.|  |
@@ -380,20 +545,38 @@ table data; this will also pull in contact udef and related fields.
 |request/ownedBy/otherGroups|userGroup|Owner - Other groups: Other groups|  |
 |request/ownedBy/userName|string|Owner - User name: User name| x |
 |request/ownedBy/personEmail|string|Owner - E-mail| x |
+|request/extra/x\_ticket\_integer|int|Extra integer: Custom ticket integer. Default 123. External. Show in properties| x |
+|request/extra/x\_ticket\_float|decimal|Extra float: Custom float on Request. 2 decimal places| x |
+|request/extra/x\_ticket\_longtext|string|Extra long text: Custom long text on Request. Keep HTML tags. 9 line text area. Show in props| x |
+|request/extra/x\_ticket\_date|date|Extra date: Custom date field on Request. No default value| x |
+|request/extra/x\_ticket\_datetime|datetime|Extra DateTime: Custom date+time on ticket. Default = 28.03.2019 2:24 pm. External. Show in properties. Display for new request| x |
+|request/extra/x\_ticket\_time| *None* |Extra time: Custom time field on Request. Default = 13min Display for new.| x |
+|request/extra/x\_ticket\_boolean|bool|Extra boolean: Custom boolean on Ticket.| x |
+|request/extra/x\_ticket\_timespan|timeSpan|Extra timespan: Custom timespan field on Request. Default = 1 hr 25 minutes. Show in props| x |
+|request/extra/x\_ticket\_short\_text|string|Extra short text: Custom short text field on Request. Do not keep HTML tags. Display on new request| x |
+|request/extra/x\_ticket\_shorttext\_list|listAny|Extra Dropdown: Custom short text with list for Request Pink, Orange, Yellow, Polkadot| x |
+|request/extra/x\_ticket\_timestamp|datetime|Extra timestamp: Custom date time field on ticket with default = current date + time. Field cannot change. Hide field| x |
+|request/extra/x\_ticket\_project\_relation|stringorPK|Extra project: Custom project relation on Request| x |
+|request/extra/x\_ticket\_faq|stringorPK|Extra FAQ Relation| x |
+|request/extra/x\_ticket\_category\_relation|listAny|Extra category relation: Category relation on request| x |
+|request/extra/y\_equipment/x\_name|string|Equipment - Name: Equpment name custom field. Cannot be null., show in table| x |
 |projectMembers/completed|bool|Completed: Displays a check mark indicating if the project has been completed.| x |
 |projectMembers/projectId|int|DB ID: Displays the database ID for a project row| x |
 |projectMembers/name|stringorPK|Project name: Displays the Project's name| x |
 |projectMembers/number|string|Number: Displays the project's number| x |
 |projectMembers/type|listAny|Project type: Displays the project's type| x |
 |projectMembers/status|listAny|Status: Displays the project's status| x |
+|projectMembers/statusRank| *None* |Status rank: Rank of the project status in the status list| x |
 |projectMembers/associateId|associate|ID: Displays login ID of the associate who owns the project| x |
 |projectMembers/hasInfoText|bool|Info: Displays an icon indicating if the project has a description text. The text itself will be displayed in a tooltip.| x |
 |projectMembers/icon| *None* |Category: Displays the icon for an activity type| x |
 |projectMembers/text|string|Text: Displays a descriptive text for the item| x |
 |projectMembers/description|string|Description : Description| x |
 |projectMembers/updatedBy|associate|Updated by: The user who last updated the data| x |
+|projectMembers/updatedByFullName|associate|Updated by - Full name: The user who last updated the data| x |
 |projectMembers/updatedDate|date|Updated: The date/time the data was last updated in UTC.| x |
 |projectMembers/registeredBy|associate|Registered by: The user who registered the data| x |
+|projectMembers/registeredByFullName|associate|Registered by - Full name: The user who registered the data| x |
 |projectMembers/registeredDate|date|Registered date: The date/time the data was registered in UTC.| x |
 |projectMembers/hasGuide|bool|Guided: Does this sale have a Sales Guide| x |
 |projectMembers/nextMilestone|date|Next milestone: Date of next non-completed activity that is marked as a milestone| x |
@@ -465,7 +648,7 @@ table data; this will also pull in contact udef and related fields.
 |projectMembers/LastSale|date|Date of last sale|  |
 |projectMembers/LastCompletedSale|date|Date of last completed sale|  |
 |projectMembers/LastDoBySale|date|Date of last non-completed sale|  |
-|projectMembers/SaintStatus3|saintStatus|Not completed activites with intention sale|  |
+|projectMembers/SaintStatus3|saintStatus|Not completed activites with intention sale: Number of not completed activities for intention sale > 0.|  |
 |projectMembers/saintSaleStatus|listAny|With status|  |
 |projectMembers/saintAmountClass|listAny|Amount class|  |
 |projectMembers/saintActivityType|listAny|SAINT type|  |
@@ -476,7 +659,7 @@ table data; this will also pull in contact udef and related fields.
 |projectMembers/project/textId|int|Text ID| x |
 |projectMembers/project/infoText|positiveString|Information: Displays the text entered in the description field| x |
 |personAppointment/completed|bool|Completed: Displays a checkbox showing if an appointment is completed| x |
-|personAppointment/icon| *None* |Category: Displays the icon for an activity type| x |
+|personAppointment/icon|string|Category: Displays the icon for an activity type| x |
 |personAppointment/date|date|Date: Displays start date of a follow-up / sale date of a sale| x |
 |personAppointment/time| *None* |Time: Time|  |
 |personAppointment/type|listAny|Type: Displays the type of an activity| x |
@@ -490,8 +673,10 @@ table data; this will also pull in contact udef and related fields.
 |personAppointment/userGroup|userGroup|User group : The user group that owns the record| x |
 |personAppointment/who| *None* |Who: Contact and/or company|  |
 |personAppointment/updatedBy|associate|Updated by: The user who last updated the data| x |
+|personAppointment/updatedByFullName|associate|Updated by - Full name: The user who last updated the data| x |
 |personAppointment/updatedDate|date|Updated: The date/time the data was last updated in UTC.| x |
 |personAppointment/registeredBy|associate|Registered by: The user who registered the data| x |
+|personAppointment/registeredByFullName|associate|Registered by - Full name: The user who registered the data| x |
 |personAppointment/registeredDate|date|Registered date: The date/time the data was registered in UTC.| x |
 |personAppointment/appointmentId|int|DB ID: Displays the database ID of a row| x |
 |personAppointment/endDate|date|End date: Displays the deadline for a follow-up/sale| x |
@@ -511,7 +696,7 @@ table data; this will also pull in contact udef and related fields.
 |personAppointment/completedDate|date|Completed date: Displays the actual date a follow-up/sale was marked as completed| x |
 |personAppointment/isMilestone|bool|Milestone: Shows whether or not the follow-ups in this row are milestones| x |
 |personAppointment/invitedPersonId|int|ID of invited person: appointment.invitedpersonid record - utility for rd| x |
-|personAppointment/recordTypeText| *None* |Activity type: The type of the activity (appointment, phone call, etc)| x |
+|personAppointment/recordTypeText|listAny|Activity type: The type of the activity (appointment, phone call, etc)| x |
 |personAppointment/joinVideomeetUrl| *None* |Video meeting URL: URL for joining the video meeting| x |
 |personAppointment/visibleFor|listAny|Visible for|  |
 |personAppointment/appointmentPublish/isPublished|bool|Published: Displays an icon indicating if the project or sale has been published| x |
@@ -562,11 +747,14 @@ table data; this will also pull in contact udef and related fields.
 ## Sample
 
 ```http!
-GET /api/v1/archive/Person?$select=personContact/postAddress/city,projectMembers/projectEvent/hasSignOn,personAppointment/appointmentPublish/publishedFrom,personAppointment/associate/contactName
+GET /api/v1/archive/Person?$select=personContact/streetAddress/addressId,request/ownedBy/contactName,projectMembers/projectAssociate/assocTooltip,projectMembers/LastDoBySale,personAppointment/associate/personId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv
 
 ```
 
-See also: <see cref="T:SuperOffice.CRM.Services.IArchiveAgent">IArchiveAgent</see>.
+
+
+See also: <see cref="T:SuperOffice.CRM.Services.IArchiveAgent">IArchiveAgent</see>.</p>
+

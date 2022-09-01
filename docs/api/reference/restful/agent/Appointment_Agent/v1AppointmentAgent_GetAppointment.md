@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Appointment/GetAppointment
-id: v1AppointmentAgent_GetAppointment
+uid: v1AppointmentAgent_GetAppointment
 ---
 
 # POST Agents/Appointment/GetAppointment
@@ -11,6 +11,12 @@ POST /api/v1/Agents/Appointment/GetAppointment
 
 Gets a Appointment object.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -19,9 +25,10 @@ Gets a Appointment object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Appointment/GetAppointment?appointmentId=155
+POST /api/v1/Agents/Appointment/GetAppointment?appointmentId=16
 POST /api/v1/Agents/Appointment/GetAppointment?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -36,18 +43,16 @@ POST /api/v1/Agents/Appointment/GetAppointment?$select=name,department,category/
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response: object
 
-Simple read-only appointment data.
+## Response: 
 
-Carrier object for Appointment.
-Services for the Appointment Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IAppointmentAgent">Appointment Agent</see>.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -103,7 +108,7 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Appointment/GetAppointment
@@ -112,72 +117,68 @@ Accept: application/json; charset=utf-8
 Accept-Language: en
 ```
 
+## Sample response
+
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AppointmentId": 117,
-  "StartDate": "2021-06-26T18:28:47.946845+02:00",
-  "EndDate": "2013-07-21T18:28:47.946845+02:00",
+  "AppointmentId": 262,
+  "StartDate": "2019-06-10T11:10:25.5435243+02:00",
+  "EndDate": "2008-04-06T11:10:25.5435243+02:00",
   "Type": "BookingForChecklist",
-  "Task": "ut",
-  "AssociateFullName": "Marguerite Hagenes",
-  "ContactName": "Gulgowski Group",
-  "Description": "Pre-emptive system-worthy task-force",
-  "PersonFullName": "Alessia Tremblay DVM",
-  "PersonId": 166,
-  "ContactId": 98,
-  "ProjectId": 838,
-  "ProjectName": "Koelpin Group",
+  "Task": "pariatur",
+  "AssociateFullName": "Miss Johathan Kuhlman",
+  "ContactName": "Nicolas LLC",
+  "Description": "Proactive non-volatile instruction set",
+  "PersonFullName": "Etha Greenholt",
+  "PersonId": 197,
+  "ContactId": 31,
+  "ProjectId": 126,
+  "ProjectName": "Brekke, Lind and Mertz",
   "IsPublished": false,
-  "AssociateId": 467,
-  "ColorIndex": 36,
-  "IsFree": true,
-  "HasAlarm": false,
-  "IsAlldayEvent": true,
+  "AssociateId": 628,
+  "ColorIndex": 269,
+  "IsFree": false,
+  "HasAlarm": true,
+  "IsAlldayEvent": false,
   "Private": "PrivateGroup",
-  "PriorityId": 22,
-  "PriorityName": "Mitchell Inc and Sons",
+  "PriorityId": 910,
+  "PriorityName": "Stehr, O'Reilly and Klein",
   "TaskType": "Appointment",
   "IsBookingMain": false,
   "IsRecurrence": false,
   "IsBooking": true,
-  "ActiveDate": "2007-08-03T18:28:47.9478442+02:00",
+  "ActiveDate": "1998-12-02T11:10:25.5445238+01:00",
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
   "Completed": "Completed",
   "RecurringPattern": "Custom",
-  "RecurringStartDate": "1994-10-13T18:28:47.9478442+02:00",
-  "RecurringEndDate": "2016-12-11T18:28:47.9478442+01:00",
-  "MotherId": 327,
-  "AssignedBy": 144,
-  "AssignedByFullName": "Donavon Gorczany",
-  "RejectReason": "orchestrate B2B infomediaries",
-  "Location": "velit",
-  "AlarmLeadTime": "assumenda",
-  "SaleId": 865,
-  "SaleName": "McGlynn Group",
-  "AssociateName": "Reinger, Koelpin and Goldner",
-  "CreatedDate": "2000-08-12T18:28:47.9478442+02:00",
-  "CreatedBy": "molestiae",
-  "CreatedByFullName": "Osbaldo Nitzsche",
-  "CreatedByAssociateId": 791,
+  "RecurringStartDate": "2008-05-13T11:10:25.5445238+02:00",
+  "RecurringEndDate": "2015-01-18T11:10:25.5445238+01:00",
+  "MotherId": 23,
+  "AssignedBy": 311,
+  "AssignedByFullName": "Katrina Kunde",
+  "RejectReason": "",
+  "Location": "ratione",
+  "AlarmLeadTime": "eos",
+  "SaleId": 138,
+  "SaleName": "Gottlieb Group",
+  "AssociateName": "Hudson Inc and Sons",
+  "CreatedDate": "2001-11-24T11:10:25.5445238+01:00",
+  "CreatedBy": "quia",
+  "CreatedByFullName": "Kaitlin Padberg",
+  "CreatedByAssociateId": 964,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
+      "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 711
+      "FieldLength": 254
     }
   }
 }

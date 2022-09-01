@@ -1,6 +1,6 @@
 ---
 title: PUT List/Rating/Items/{id}/Headings
-id: v1RatingList_PutSaleStageEntityHeadingsForListItem
+uid: v1RatingList_PutSaleStageEntityHeadingsForListItem
 ---
 
 # PUT List/Rating/Items/{id}/Headings
@@ -11,11 +11,18 @@ PUT /api/v1/List/Rating/Items/{itemId}/Headings
 
 Saves headings for the SaleStageEntity list's item.
 
+
 Calls the List agent service SaveHeadingsForListItemFromListDefinition.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | itemId | int32 | The ID of the headings to be saved. **Required** |
+
+
 
 ## Request Headers
 
@@ -31,9 +38,9 @@ Calls the List agent service SaveHeadingsForListItemFromListDefinition.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entities
+## Request Body: entities  
 
-The headings to be saved.
+The headings to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -53,7 +60,10 @@ The headings to be saved.
 | Hidden | bool | True if the ListItem is hidden |
 | FullName | string | The name of the ListItem in its context |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -81,7 +91,7 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 PUT /api/v1/List/Rating/Items/{itemId}/Headings
@@ -92,45 +102,47 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 529,
-    "Name": "Lynch Inc and Sons",
-    "ToolTip": "Sint sed sed.",
+    "Id": 911,
+    "Name": "Zboncak-Waters",
+    "ToolTip": "Deleniti et rerum.",
     "Deleted": true,
-    "Rank": 835,
-    "Type": "voluptas",
-    "ColorBlock": 928,
-    "IconHint": "velit",
-    "Selected": false,
-    "LastChanged": "2010-07-03T18:25:52.1220215+02:00",
+    "Rank": 200,
+    "Type": "velit",
+    "ColorBlock": 970,
+    "IconHint": "ullam",
+    "Selected": true,
+    "LastChanged": "2011-01-25T11:10:54.538932+01:00",
     "ChildItems": [
       {
-        "Id": 151,
-        "Name": "Dietrich Inc and Sons",
-        "ToolTip": "Et corrupti id excepturi minus aut ea.",
-        "Deleted": false,
-        "Rank": 140,
-        "Type": "est",
-        "ColorBlock": 492,
-        "IconHint": "debitis",
-        "Selected": true,
-        "LastChanged": "2015-03-25T18:25:52.1220215+01:00",
+        "Id": 743,
+        "Name": "Walker Inc and Sons",
+        "ToolTip": "Sint et qui qui iste nostrum sit aut.",
+        "Deleted": true,
+        "Rank": 893,
+        "Type": "voluptatem",
+        "ColorBlock": 440,
+        "IconHint": "at",
+        "Selected": false,
+        "LastChanged": "2015-09-27T11:10:54.538932+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ducimus",
-        "StyleHint": "mollitia",
-        "Hidden": false,
-        "FullName": "Lexi Murray"
+        "ExtraInfo": "placeat",
+        "StyleHint": "cumque",
+        "Hidden": true,
+        "FullName": "Mac Blick Sr."
       }
     ],
-    "ExtraInfo": "praesentium",
-    "StyleHint": "non",
-    "Hidden": false,
-    "FullName": "Dax Stoltenberg I"
+    "ExtraInfo": "quia",
+    "StyleHint": "sunt",
+    "Hidden": true,
+    "FullName": "Mr. Perry Rowe"
   }
 ]
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -138,65 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 185,
-    "Name": "Wiza-Kemmer",
-    "ToolTip": "Eum iusto molestiae aut.",
-    "Deleted": true,
-    "Rank": 159,
-    "Type": "eum",
-    "ColorBlock": 164,
-    "IconHint": "qui",
-    "Selected": true,
-    "LastChanged": "1998-04-11T18:25:52.1230202+02:00",
+    "Id": 46,
+    "Name": "VonRueden, Keebler and Bode",
+    "ToolTip": "Dolorem eaque.",
+    "Deleted": false,
+    "Rank": 39,
+    "Type": "quis",
+    "ColorBlock": 98,
+    "IconHint": "veritatis",
+    "Selected": false,
+    "LastChanged": "2017-09-05T11:10:54.5409296+02:00",
     "ChildItems": [
       {
-        "Id": 975,
-        "Name": "Wisoky LLC",
-        "ToolTip": "Quam officiis magni.",
-        "Deleted": true,
-        "Rank": 353,
-        "Type": "occaecati",
-        "ColorBlock": 783,
-        "IconHint": "quos",
-        "Selected": true,
-        "LastChanged": "2014-06-06T18:25:52.1240194+02:00",
+        "Id": 955,
+        "Name": "Carroll LLC",
+        "ToolTip": "Voluptatem ab non qui necessitatibus velit.",
+        "Deleted": false,
+        "Rank": 532,
+        "Type": "sint",
+        "ColorBlock": 488,
+        "IconHint": "et",
+        "Selected": false,
+        "LastChanged": "2015-10-21T11:10:54.5409296+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "rem",
-        "StyleHint": "minima",
+        "ExtraInfo": "expedita",
+        "StyleHint": "consequatur",
         "Hidden": true,
-        "FullName": "Dr. Kiarra Ernser",
-        "TableRight": {},
+        "FullName": "Torrey Trantow",
+        "TableRight": null,
         "FieldProperties": {
           "fieldName": {
-            "FieldRight": {
-              "Mask": "FULL",
-              "Reason": ""
-            },
+            "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 875
+            "FieldLength": 453
           }
         }
       }
     ],
-    "ExtraInfo": "in",
-    "StyleHint": "ut",
-    "Hidden": false,
-    "FullName": "Mrs. Leilani Heidenreich",
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "ExtraInfo": "maiores",
+    "StyleHint": "sed",
+    "Hidden": true,
+    "FullName": "Joseph Wiza I",
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.Int32",
-        "FieldLength": 52
+        "FieldRight": null,
+        "FieldType": "System.String",
+        "FieldLength": 911
       }
     }
   }

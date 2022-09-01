@@ -11,7 +11,11 @@ Implemented by the <see cref="M:SuperOffice.Services88.IDocumentAgent.GetMyPubli
 
 ## GetMyPublishedDocuments
 
+
+
+
 **Returns:** Array of documents
+
 
 [WSDL file for Services88/Document](../Services88-Document.md)
 
@@ -43,6 +47,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+
 
 ## GetMyPublishedDocuments Response
 
@@ -78,6 +83,8 @@ Application tokens must be specified if calling an Online installation. Applicat
      <Document:ProjectName xsi:type="xsd:string"></Document:ProjectName>
      <Document:AssociateId xsi:type="xsd:int">0</Document:AssociateId>
      <Document:Snum xsi:type="xsd:int">0</Document:Snum>
+     <Document:SaleId xsi:type="xsd:int">0</Document:SaleId>
+     <Document:SaleName xsi:type="xsd:string"></Document:SaleName>
     </Document:Document>
    </Document:Response>
   </Document:GetMyPublishedDocumentsResponse>
@@ -85,3 +92,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

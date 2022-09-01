@@ -1,6 +1,6 @@
 ---
 title: PUT Appointment/UdefLayout
-id: v1AppointmentEntity_SaveUdefLayout
+uid: v1AppointmentEntity_SaveUdefLayout
 ---
 
 # PUT Appointment/UdefLayout
@@ -10,6 +10,13 @@ PUT /api/v1/Appointment/UdefLayout
 ```
 
 Save AppointmentEntity user-defined field layout.
+
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -25,7 +32,9 @@ Save AppointmentEntity user-defined field layout.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: fields
+## Request Body: fields  
+
+ 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -64,7 +73,10 @@ Save AppointmentEntity user-defined field layout.
 | HasBeenPublished | bool | Has the udef field been published? |
 | MdoListName | string | MDO list name used to populate this list. Derived from UDListDefinitionId and ListTableId. (Read-only) |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -111,54 +123,56 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 PUT /api/v1/Appointment/UdefLayout
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 581,
-    "ColumnId": 189,
-    "FieldDefault": "totam",
-    "FieldHeight": 775,
-    "FieldLabel": "voluptas",
-    "FieldLeft": 763,
-    "FieldTop": 483,
+    "UDefFieldId": 415,
+    "ColumnId": 857,
+    "FieldDefault": "dolores",
+    "FieldHeight": 914,
+    "FieldLabel": "consequatur",
+    "FieldLeft": 833,
+    "FieldTop": 662,
     "FieldType": "Checkbox",
-    "FieldWidth": 217,
-    "FormatMask": "nihil",
-    "HideLabel": false,
+    "FieldWidth": 933,
+    "FormatMask": "eos",
+    "HideLabel": true,
     "IsIndexed": true,
-    "LabelHeight": 842,
-    "LabelLeft": 51,
-    "LabelTop": 420,
-    "LabelWidth": 611,
-    "LastVersionId": 680,
-    "ListTableId": 832,
-    "IsMandatory": false,
+    "LabelHeight": 986,
+    "LabelLeft": 317,
+    "LabelTop": 418,
+    "LabelWidth": 384,
+    "LastVersionId": 415,
+    "ListTableId": 21,
+    "IsMandatory": true,
     "Type": "Appointment",
-    "Page1LineNo": 726,
-    "ProgId": "et",
-    "IsReadOnly": false,
-    "ShortLabel": "corporis",
-    "TabOrder": 795,
-    "TextLength": 790,
-    "Tooltip": "debitis",
-    "UdefIdentity": 23,
-    "UDListDefinitionId": 988,
+    "Page1LineNo": 78,
+    "ProgId": "necessitatibus",
+    "IsReadOnly": true,
+    "ShortLabel": "est",
+    "TabOrder": 861,
+    "TextLength": 456,
+    "Tooltip": "tenetur",
+    "UdefIdentity": 138,
+    "UDListDefinitionId": 446,
     "Justification": "Center",
-    "Version": 735,
-    "TemplateVariableName": "Wyman-Yost",
+    "Version": 129,
+    "TemplateVariableName": "Greenfelder, Hudson and Mayer",
     "HasBeenPublished": false,
-    "MdoListName": "Lehner, Hoppe and O'Hara"
+    "MdoListName": "Boyle-Klein"
   }
 ]
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -166,52 +180,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 349,
-    "ColumnId": 845,
-    "FieldDefault": "magnam",
-    "FieldHeight": 147,
-    "FieldLabel": "repellat",
-    "FieldLeft": 639,
-    "FieldTop": 368,
+    "UDefFieldId": 525,
+    "ColumnId": 985,
+    "FieldDefault": "quia",
+    "FieldHeight": 443,
+    "FieldLabel": "aperiam",
+    "FieldLeft": 852,
+    "FieldTop": 589,
     "FieldType": "Checkbox",
-    "FieldWidth": 755,
-    "FormatMask": "exercitationem",
-    "HideLabel": false,
+    "FieldWidth": 491,
+    "FormatMask": "quo",
+    "HideLabel": true,
     "IsIndexed": true,
-    "LabelHeight": 161,
-    "LabelLeft": 602,
-    "LabelTop": 811,
-    "LabelWidth": 101,
-    "LastVersionId": 876,
-    "ListTableId": 672,
+    "LabelHeight": 302,
+    "LabelLeft": 604,
+    "LabelTop": 56,
+    "LabelWidth": 581,
+    "LastVersionId": 949,
+    "ListTableId": 908,
     "IsMandatory": false,
     "Type": "Appointment",
-    "Page1LineNo": 595,
-    "ProgId": "eos",
+    "Page1LineNo": 985,
+    "ProgId": "autem",
     "IsReadOnly": false,
-    "ShortLabel": "est",
-    "TabOrder": 47,
-    "TextLength": 613,
-    "Tooltip": "quam",
-    "UdefIdentity": 590,
-    "UDListDefinitionId": 678,
+    "ShortLabel": "commodi",
+    "TabOrder": 174,
+    "TextLength": 911,
+    "Tooltip": "modi",
+    "UdefIdentity": 910,
+    "UDListDefinitionId": 606,
     "Justification": "Center",
-    "Version": 631,
-    "TemplateVariableName": "Sawayn, Hegmann and Volkman",
+    "Version": 330,
+    "TemplateVariableName": "Johnson, Bednar and Wilkinson",
     "HasBeenPublished": false,
-    "MdoListName": "Paucek-Stamm",
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "MdoListName": "Bogisich, Kiehn and Schiller",
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.Int32",
-        "FieldLength": 462
+        "FieldRight": null,
+        "FieldType": "System.String",
+        "FieldLength": 351
       }
     }
   }

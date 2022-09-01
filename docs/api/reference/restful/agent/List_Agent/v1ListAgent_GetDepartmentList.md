@@ -1,6 +1,6 @@
 ---
 title: POST Agents/List/GetDepartmentList
-id: v1ListAgent_GetDepartmentList
+uid: v1ListAgent_GetDepartmentList
 ---
 
 # POST Agents/List/GetDepartmentList
@@ -11,6 +11,12 @@ POST /api/v1/Agents/List/GetDepartmentList
 
 Gets an array of Department objects.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Gets an array of Department objects.
 ```http
 POST /api/v1/Agents/List/GetDepartmentList?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,11 +42,15 @@ POST /api/v1/Agents/List/GetDepartmentList?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: departmentIds
+## Request Body: departmentIds  
 
-The primary keys.
+The primary keys. 
+
+
 
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -55,7 +66,7 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/List/GetDepartmentList
@@ -64,46 +75,36 @@ Accept: application/json; charset=utf-8
 Accept-Language: sv
 ```
 
+## Sample response
+
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 631,
-    "Value": "eligendi",
-    "Tooltip": "voluptas",
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "Id": 703,
+    "Value": "voluptatem",
+    "Tooltip": "rem",
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 240
+        "FieldRight": null,
+        "FieldType": "System.Int32",
+        "FieldLength": 594
       }
     }
   },
   {
-    "Id": 631,
-    "Value": "eligendi",
-    "Tooltip": "voluptas",
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "Id": 703,
+    "Value": "voluptatem",
+    "Tooltip": "rem",
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 240
+        "FieldRight": null,
+        "FieldType": "System.Int32",
+        "FieldLength": 594
       }
     }
   }

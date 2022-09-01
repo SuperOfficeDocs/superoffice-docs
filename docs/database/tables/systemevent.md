@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "SystemEvent"
-so.date: 04.12.2022
+so.date: 08.26.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -15,7 +15,7 @@ so.envir:
 
 # SystemEvent Table (153)
 
-System events, such as freetext rebuild, SAINT rebuild and such. Makes broadcasts to keep its siblings and clients updated.
+System events, such as freetext rebuild, SAINT rebuild and such. Makes broadcasts to keep its siblings and clients updated. 
 
 ## Fields
 
@@ -34,6 +34,7 @@ System events, such as freetext rebuild, SAINT rebuild and such. Makes broadcast
 |updated\_associate\_id|Last updated by whom|FK [associate](associate.md)| |
 |updatedCount|Number of updates made to this record|UShort| |
 
+
 ![SystemEvent table relationship diagram](./media/SystemEvent.png)
 
 [!include[details](./includes/systemevent.md)]
@@ -51,6 +52,7 @@ System events, such as freetext rebuild, SAINT rebuild and such. Makes broadcast
 |------|-------------|
 |[associate](associate.md)  |Employees, resources and other users - except for External persons |
 
+
 ## Replication Flags
 
 * None
@@ -58,3 +60,4 @@ System events, such as freetext rebuild, SAINT rebuild and such. Makes broadcast
 ## Security Flags
 
 * No access control via user's Role.
+

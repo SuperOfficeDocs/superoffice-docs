@@ -1,6 +1,6 @@
 ---
 title: GET Sale/{id}/ForeignKey
-id: v1SaleEntity_GetAllForeignKeysOnEntity
+uid: v1SaleEntity_GetAllForeignKeysOnEntity
 ---
 
 # GET Sale/{id}/ForeignKey
@@ -11,9 +11,16 @@ GET /api/v1/Sale/{id}/ForeignKey
 
 Foreign keys on the SaleEntity.
 
+
+
+
+
+
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | id | int32 | SaleEntity id/primary key. **Required** |
+
+
 
 ## Request Headers
 
@@ -28,7 +35,10 @@ Foreign keys on the SaleEntity.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
+
 ## Response: object
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -37,21 +47,24 @@ Foreign keys on the SaleEntity.
 
 Response body: object
 
-## Sample Request
+
+## Sample request
 
 ```http!
 GET /api/v1/Sale/{id}/ForeignKey
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "1": "quaerat",
-  "2": "deserunt"
+  "1": "placeat",
+  "2": "officiis"
 }
 ```

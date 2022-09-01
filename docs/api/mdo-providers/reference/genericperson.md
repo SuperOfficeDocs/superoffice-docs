@@ -7,7 +7,7 @@ keywords:
   - "mdo provider"
   - "genericperson"
 so.generated: true
-so.date: 03.19.2021
+so.date: 08.26.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -15,9 +15,10 @@ so.envir:
 ---
 
 # "genericperson" MDO List
-
 List of persons with mail. Supports Selection(any type), project and associate.
 Uses an inner provider <see cref="T:SuperOffice.CRM.Lists.PersonListGenericContactProjectProvider" />.
+
+
 
 Implemented by the <see cref="T:SuperOffice.CRM.Lists.GenericPersonListProvider">GenericPersonListProvider</see> class.
 The name of the MDO list is 'genericperson'.
@@ -32,6 +33,10 @@ The name of the MDO list is 'genericperson'.
 
 Separator: ;
 
+
+
+
+
 ## Sample Request
 
 ```http!
@@ -43,7 +48,6 @@ Accept-Language: *
 ```
 
 ## Sample Code
-
 ```cs
 var listProvider = SuperOffice.CRM.Lists.SoListProviderFactory.Create("genericperson", forceFlatList: true);
 foreach (var item in listProvider.RootItems) {
@@ -57,6 +61,7 @@ foreach (var item in listProvider.RootItems) {
 |Id   | Name  |StyleHint|ExtraInfo |
 | --- | ----- | ------- | -------- |
 | 2 | Example | | |
+
 
 ## Related MDO Lists
 

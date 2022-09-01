@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Sale/GetSalesFromContact
-id: v1SaleAgent_GetSalesFromContact
+uid: v1SaleAgent_GetSalesFromContact
 ---
 
 # POST Agents/Sale/GetSalesFromContact
@@ -11,6 +11,12 @@ POST /api/v1/Agents/Sale/GetSalesFromContact
 
 Returns all sales for the contact provided.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Returns all sales for the contact provided.
 ```http
 POST /api/v1/Agents/Sale/GetSalesFromContact?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,16 +42,19 @@ POST /api/v1/Agents/Sale/GetSalesFromContact?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-ContactId, OnlyOpenSales
+ContactId, OnlyOpenSales 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | ContactId | int32 |  |
 | OnlyOpenSales | bool |  |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -82,20 +92,22 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Sale/GetSalesFromContact
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 532,
-  "OnlyOpenSales": false
+  "ContactId": 885,
+  "OnlyOpenSales": true
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -103,43 +115,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactName": "Grant-Larson",
-    "SaleDate": "2003-04-04T18:28:50.1824417+02:00",
-    "SaleId": 250,
-    "Probability": 739,
-    "Title": "debitis",
-    "Amount": 18531.342,
-    "Currency": "et",
-    "ProjectName": "Cronin-Greenfelder",
-    "AssociateFullName": "Lacey Harber",
-    "Description": "Centralized asynchronous conglomeration",
+    "ContactName": "Haley, Schamberger and Miller",
+    "SaleDate": "2017-01-05T11:10:27.8570076+01:00",
+    "SaleId": 903,
+    "Probability": 24,
+    "Title": "asperiores",
+    "Amount": 10818.568,
+    "Currency": "ut",
+    "ProjectName": "Reinger-Mueller",
+    "AssociateFullName": "Shanny Luettgen",
+    "Description": "Persevering next generation challenge",
     "Status": "Lost",
-    "WeightedAmount": 18415.384,
-    "ProjectId": 970,
-    "EarningPercent": 1670.422,
-    "Earning": 8549.552,
-    "ContactId": 593,
-    "AssociateId": 962,
-    "PersonId": 123,
-    "SaleTypeId": 622,
-    "SaleTypeName": "Berge LLC",
-    "PersonFullName": "Bethel Connelly I",
+    "WeightedAmount": 19440.202,
+    "ProjectId": 923,
+    "EarningPercent": 21574.456,
+    "Earning": 22784.18,
+    "ContactId": 414,
+    "AssociateId": 46,
+    "PersonId": 324,
+    "SaleTypeId": 804,
+    "SaleTypeName": "Brekke-Bogisich",
+    "PersonFullName": "Briana Wilkinson",
     "Completed": "Completed",
-    "ActiveErpLinks": 821,
-    "NextDueDate": "2008-06-07T18:28:50.1824417+02:00",
-    "Number": "218495",
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "ActiveErpLinks": 479,
+    "NextDueDate": "2012-06-06T11:10:27.858011+02:00",
+    "Number": "953853",
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
+        "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 533
+        "FieldLength": 814
       }
     }
   }

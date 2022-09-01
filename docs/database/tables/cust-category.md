@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "cust_category"
-so.date: 04.12.2022
+so.date: 08.26.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -27,6 +27,7 @@ This table contains entries for categories exposed through a customer language.
 |category\_id|The reference to the associated category.|FK [ej_category](ej-category.md)|&#x25CF;|
 |parent\_id|The parent category for this cust_category. -1 if this is a toplevel cust_category.|FK [cust_category](cust-category.md)|&#x25CF;|
 |fullname|The fullname (compiled from parents&amp;apos; names) for this category. E.g. &amp;apos;norway/product A/support&amp;apos;.|String(255)|&#x25CF;|
+
 
 ![cust_category table relationship diagram](./media/cust_category.png)
 
@@ -49,6 +50,7 @@ This table contains entries for categories exposed through a customer language.
 |[cust\_lang](cust-lang.md)  |This table contains entries for customer languages. |
 |[ej\_category](ej-category.md)  |This table contains categories, in which tickets are categorized. The categories are organized in a hierarchial manner. |
 
+
 ## Replication Flags
 
 * None
@@ -56,3 +58,4 @@ This table contains entries for categories exposed through a customer language.
 ## Security Flags
 
 * No access control via user's Role.
+

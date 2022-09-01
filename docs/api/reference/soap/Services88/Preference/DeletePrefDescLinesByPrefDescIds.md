@@ -17,6 +17,7 @@ Delete the PrefDescLines associated with Preference Description Ids in the Super
 
 **Returns:** Nothing
 
+
 [WSDL file for Services88/Preference](../Services88-Preference.md)
 
 Obtain a ticket from the [Services88/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -51,6 +52,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## DeletePrefDescLinesByPrefDescIds Response
 
 ```xml
@@ -70,3 +72,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

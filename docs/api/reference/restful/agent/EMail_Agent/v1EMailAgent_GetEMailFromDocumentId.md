@@ -1,6 +1,6 @@
 ---
 title: POST Agents/EMail/GetEMailFromDocumentId
-id: v1EMailAgent_GetEMailFromDocumentId
+uid: v1EMailAgent_GetEMailFromDocumentId
 ---
 
 # POST Agents/EMail/GetEMailFromDocumentId
@@ -11,7 +11,15 @@ POST /api/v1/Agents/EMail/GetEMailFromDocumentId
 
 Get an e-mail based on an archived document
 
-## Online Restricted: ## The EMail agent is not available in Online by default. Access must be requested specifically when app is registered
+
+
+
+## Online Restricted: ## The EMail agent is not available in Online by default. Access must be requested specifically when app is registered.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +30,7 @@ Get an e-mail based on an archived document
 ```http
 POST /api/v1/Agents/EMail/GetEMailFromDocumentId?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,26 +46,24 @@ POST /api/v1/Agents/EMail/GetEMailFromDocumentId?$select=name,department,categor
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-DocumentId
+DocumentId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | DocumentId | int32 |  |
 
-## Response: object
 
-All information about an e-mail
+## Response: 
 
-Carrier object for EMailEntity.
-Services for the EMailEntity Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IEMailAgent">EMail Agent</see>.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -89,7 +96,7 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/EMail/GetEMailFromDocumentId
@@ -99,9 +106,11 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 729
+  "DocumentId": 446
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -110,248 +119,155 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 438,
-      "ContactName": "Dickens-Wunsch",
-      "PersonId": 201,
-      "PersonName": "Beatty, Larson and McDermott",
-      "AssociateId": 496,
-      "Address": "et",
-      "EmailId": 837,
+      "ContactId": 976,
+      "ContactName": "Predovic-Kohler",
+      "PersonId": 701,
+      "PersonName": "Little Inc and Sons",
+      "AssociateId": 302,
+      "Address": "quia",
+      "EmailId": 843,
       "DuplicatePersonIds": [
-        554,
-        132
+        647,
+        645
       ],
-      "Name": "Greenholt LLC",
-      "TableRight": {},
+      "Name": "McKenzie, Fadel and Marks",
+      "TableRight": null,
       "FieldProperties": {
         "fieldName": {
-          "FieldRight": {
-            "Mask": "FULL",
-            "Reason": ""
-          },
+          "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 722
+          "FieldLength": 924
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 367,
-      "ContactName": "Jacobs, Ebert and Fisher",
-      "PersonId": 824,
-      "PersonName": "Murazik, White and Kemmer",
-      "AssociateId": 522,
-      "Address": "est",
-      "EmailId": 705,
+      "ContactId": 622,
+      "ContactName": "Kessler Group",
+      "PersonId": 557,
+      "PersonName": "Larson, Effertz and Keeling",
+      "AssociateId": 355,
+      "Address": "quidem",
+      "EmailId": 158,
       "DuplicatePersonIds": [
-        481,
-        98
+        845,
+        236
       ],
-      "Name": "Gutkowski, Powlowski and Leannon",
-      "TableRight": {},
+      "Name": "Hansen-Schumm",
+      "TableRight": null,
       "FieldProperties": {
         "fieldName": {
-          "FieldRight": {
-            "Mask": "FULL",
-            "Reason": ""
-          },
-          "FieldType": "System.String",
-          "FieldLength": 471
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 291
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 877,
-      "ContactName": "Jast-Keebler",
-      "PersonId": 604,
-      "PersonName": "Cummerata, McLaughlin and Braun",
-      "AssociateId": 718,
-      "Address": "totam",
-      "EmailId": 581,
+      "ContactId": 129,
+      "ContactName": "Jakubowski-Crist",
+      "PersonId": 930,
+      "PersonName": "McLaughlin, Bartell and D'Amore",
+      "AssociateId": 935,
+      "Address": "molestiae",
+      "EmailId": 380,
       "DuplicatePersonIds": [
-        990,
-        707
+        372,
+        168
       ],
-      "Name": "Sporer Group",
-      "TableRight": {},
+      "Name": "Lueilwitz-Pacocha",
+      "TableRight": null,
       "FieldProperties": {
         "fieldName": {
-          "FieldRight": {
-            "Mask": "FULL",
-            "Reason": ""
-          },
-          "FieldType": "System.String",
-          "FieldLength": 873
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 970
         }
       }
     }
   ],
-  "Subject": "molestiae",
-  "HTMLBody": "velit",
-  "From": {
-    "ContactId": 693,
-    "ContactName": "Crona, Willms and Tremblay",
-    "PersonId": 539,
-    "PersonName": "Waters, Hartmann and Toy",
-    "AssociateId": 412,
-    "Address": "accusantium",
-    "EmailId": 81,
-    "DuplicatePersonIds": [
-      271,
-      931
-    ],
-    "Name": "Altenwerth, Leuschke and Anderson",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 469
-      }
-    }
-  },
-  "Sent": "2003-05-19T18:28:49.0219352+02:00",
-  "Size": 870,
+  "Subject": "ut",
+  "HTMLBody": "quidem",
+  "From": null,
+  "Sent": "2012-03-03T11:10:26.9404251+01:00",
+  "Size": 441,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "consequatur",
-  "PlainBody": "voluptatibus",
-  "IsSent": false,
-  "EMailSOInfo": {
-    "DocumentId": 407,
-    "AppointmentId": 179,
-    "ProjectId": 384,
-    "SaleId": 436,
-    "Archived": true,
-    "ArchivedAt": "1999-06-01T18:28:49.022929+02:00",
-    "ArchivedBy": 628,
-    "ArchivedDisplayName": "Oberbrunner-O'Hara",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 932
-      }
-    }
-  },
-  "ServerId": 469,
+  "MessageID": "voluptas",
+  "PlainBody": "et",
+  "IsSent": true,
+  "EMailSOInfo": null,
+  "ServerId": 891,
   "Attachments": [
     {
-      "Description": "Enhanced regional access",
-      "Filename": "necessitatibus",
-      "Size": 653,
-      "Type": "eos",
-      "Encoding": "est",
-      "Id": "accusantium",
-      "Disposition": "nihil",
+      "Description": "Phased next generation functionalities",
+      "Filename": "officia",
+      "Size": 243,
+      "Type": "optio",
+      "Encoding": "dolor",
+      "Id": "voluptatem",
+      "Disposition": "recusandae",
       "Stream": "GIF89....File contents as raw bytes...",
-      "TableRight": {},
+      "TableRight": null,
       "FieldProperties": {
         "fieldName": {
-          "FieldRight": {
-            "Mask": "FULL",
-            "Reason": ""
-          },
+          "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 429
+          "FieldLength": 106
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Mraz-Turcotte",
+      "Name": "Von Inc and Sons",
       "Values": [
-        "dolores",
-        "amet"
+        "ea",
+        "voluptatem"
       ],
-      "TableRight": {},
+      "TableRight": null,
       "FieldProperties": {
         "fieldName": {
-          "FieldRight": {
-            "Mask": "FULL",
-            "Reason": ""
-          },
+          "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 178
+          "FieldLength": 947
         }
       }
     },
     {
-      "Name": "Mraz-Turcotte",
+      "Name": "Von Inc and Sons",
       "Values": [
-        "dolores",
-        "amet"
+        "ea",
+        "voluptatem"
       ],
-      "TableRight": {},
+      "TableRight": null,
       "FieldProperties": {
         "fieldName": {
-          "FieldRight": {
-            "Mask": "FULL",
-            "Reason": ""
-          },
+          "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 178
+          "FieldLength": 947
         }
       }
     }
   ],
-  "FolderName": "O'Hara, Blanda and Wehner",
-  "EmailItemId": 817,
-  "AccountId": 41,
-  "ReceivedAt": "1995-09-10T18:28:49.0239284+02:00",
-  "InReplyTo": {
-    "ServerId": 993,
-    "MessageId": "explicabo",
-    "Subject": "est",
-    "From": {},
-    "To": [
-      {},
-      {}
-    ],
-    "Sent": "2013-03-29T18:28:49.0239284+01:00",
-    "Priority": "High",
-    "Flags": "Answered",
-    "Size": 861,
-    "EMailSOInfo": {},
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 465
-      }
-    }
-  },
-  "RepliedAt": "2013-02-02T18:28:49.0239284+01:00",
-  "HasCalendarData": true,
+  "FolderName": "Conroy Inc and Sons",
+  "EmailItemId": 819,
+  "AccountId": 524,
+  "ReceivedAt": "2001-05-26T11:10:26.9404251+02:00",
+  "InReplyTo": null,
+  "RepliedAt": "2014-08-03T11:10:26.9404251+02:00",
+  "HasCalendarData": false,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
-      "FieldType": "System.Int32",
-      "FieldLength": 631
+      "FieldRight": null,
+      "FieldType": "System.String",
+      "FieldLength": 894
     }
   }
 }

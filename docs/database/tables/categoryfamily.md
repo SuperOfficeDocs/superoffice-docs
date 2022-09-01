@@ -6,14 +6,14 @@ so.generated: true
 keywords:
   - "database"
   - "CategoryFamily"
-so.date: 04.12.2022
+so.date: 08.26.2022
 so.topic: reference
 so.envir:
   - "onsite"
   - "online"
 ---
 
-# CategoryFamily Table (468)
+# CategoryFamily Table (469)
 
 Grouping table so that multiple company categories can be grouped under one term; to simplify searching for things like &apos;all customers&apos;
 
@@ -31,6 +31,7 @@ Grouping table so that multiple company categories can be grouped under one term
 |updated|Last updated when|UtcDateTime| |
 |updated\_associate\_id|Last updated by whom|FK [associate](associate.md)| |
 |updatedCount|Number of updates made to this record|UShort| |
+
 
 ![CategoryFamily table relationship diagram](./media/CategoryFamily.png)
 
@@ -50,6 +51,7 @@ Grouping table so that multiple company categories can be grouped under one term
 |[associate](associate.md)  |Employees, resources and other users - except for External persons |
 |[Category](category.md)  |Category list table |
 
+
 ## Replication Flags
 
 * None
@@ -57,3 +59,4 @@ Grouping table so that multiple company categories can be grouped under one term
 ## Security Flags
 
 * No access control via user's Role.
+

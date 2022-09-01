@@ -1,6 +1,6 @@
 ---
 title: GET Person/UdefLayout/Published
-id: v1PersonEntity_GetPublishedUdefLayout
+uid: v1PersonEntity_GetPublishedUdefLayout
 ---
 
 # GET Person/UdefLayout/Published
@@ -10,6 +10,13 @@ GET /api/v1/Person/UdefLayout/Published
 ```
 
 Currently published PersonEntity user-defined field layout.
+
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -24,7 +31,10 @@ Currently published PersonEntity user-defined field layout.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -71,14 +81,16 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 GET /api/v1/Person/UdefLayout/Published
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -86,52 +98,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 369,
-    "ColumnId": 305,
-    "FieldDefault": "architecto",
-    "FieldHeight": 571,
-    "FieldLabel": "aut",
-    "FieldLeft": 724,
-    "FieldTop": 691,
+    "UDefFieldId": 931,
+    "ColumnId": 309,
+    "FieldDefault": "ut",
+    "FieldHeight": 428,
+    "FieldLabel": "et",
+    "FieldLeft": 32,
+    "FieldTop": 21,
     "FieldType": "Checkbox",
-    "FieldWidth": 398,
-    "FormatMask": "aperiam",
+    "FieldWidth": 651,
+    "FormatMask": "vero",
     "HideLabel": false,
     "IsIndexed": true,
-    "LabelHeight": 44,
-    "LabelLeft": 615,
-    "LabelTop": 945,
-    "LabelWidth": 999,
-    "LastVersionId": 102,
-    "ListTableId": 749,
-    "IsMandatory": true,
+    "LabelHeight": 939,
+    "LabelLeft": 552,
+    "LabelTop": 664,
+    "LabelWidth": 954,
+    "LastVersionId": 601,
+    "ListTableId": 256,
+    "IsMandatory": false,
     "Type": "Appointment",
-    "Page1LineNo": 984,
-    "ProgId": "optio",
+    "Page1LineNo": 952,
+    "ProgId": "ad",
     "IsReadOnly": false,
-    "ShortLabel": "quasi",
-    "TabOrder": 739,
-    "TextLength": 98,
-    "Tooltip": "odio",
-    "UdefIdentity": 889,
-    "UDListDefinitionId": 260,
+    "ShortLabel": "delectus",
+    "TabOrder": 747,
+    "TextLength": 789,
+    "Tooltip": "ducimus",
+    "UdefIdentity": 916,
+    "UDListDefinitionId": 979,
     "Justification": "Center",
-    "Version": 773,
-    "TemplateVariableName": "Witting LLC",
+    "Version": 586,
+    "TemplateVariableName": "Reichel LLC",
     "HasBeenPublished": false,
-    "MdoListName": "Schneider, Berge and Johns",
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "MdoListName": "Flatley-Mohr",
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
+        "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 592
+        "FieldLength": 275
       }
     }
   }

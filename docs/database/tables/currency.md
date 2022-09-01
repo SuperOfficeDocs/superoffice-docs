@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "Currency"
-so.date: 04.12.2022
+so.date: 08.26.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -34,7 +34,8 @@ Currency list table
 |updated|Last updated when|UtcDateTime| |
 |updated\_associate\_id|Last updated by whom|FK [associate](associate.md)| |
 |updatedCount|Number of updates made to this record|UShort| |
-|isoCode|ISO currency code, see <http://www.xe.com/iso4217.php> |String(9)|&#x25CF;|
+|isoCode|ISO currency code, see http://www.xe.com/iso4217.php|String(9)|&#x25CF;|
+
 
 ![Currency table relationship diagram](./media/Currency.png)
 
@@ -51,7 +52,7 @@ Currency list table
 
 | Table|  Description |
 |------|-------------|
-|[AmountClass](amountclass.md)  |Amount Class list for SuperOffice Sales Intelligence (Saint) - used to group sales by amounts, into bins (low --&gt; high) called amount classes.  |
+|[AmountClass](amountclass.md)  |Amount Class list for SuperOffice Sales Intelligence (Saint) - used to group sales by amounts, into bins (low --&gt; high) called amount classes. More information regarding SuperOffice Sales Intelligence on http://techdoc.superoffice.com  |
 |[associate](associate.md)  |Employees, resources and other users - except for External persons |
 |[country](country.md)  |Country information |
 |[CurrencyGroupLink](currencygrouplink.md)  |User group link table for Currency, for MDO item hiding |
@@ -60,6 +61,7 @@ Currency list table
 |[sale](sale.md)  |Sales  For every Sale record edited through the SuperOffice GUI, a copy of the current version of the record will be saved in the SaleHist table. This also applies to editing done through the SaleModel COM interface, but not to editing done through the OLE DB Provider or other channels.   |
 |[SaleHist](salehist.md)  |Mirror image of the Sale table, providing a full transaction history. Every time you edit a sale, the current record of the sale is also saved here.  |
 |[target\_assignment\_info](target-assignment-info.md)  |Linking associate, company or user group target and other information with target values |
+
 
 ## Replication Flags
 
@@ -70,3 +72,4 @@ Currency list table
 ## Security Flags
 
 * No access control via user's Role.
+

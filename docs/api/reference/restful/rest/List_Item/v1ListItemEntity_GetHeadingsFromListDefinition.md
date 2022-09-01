@@ -1,6 +1,6 @@
 ---
 title: GET List/{id}/Headings
-id: v1ListItemEntity_GetHeadingsFromListDefinition
+uid: v1ListItemEntity_GetHeadingsFromListDefinition
 ---
 
 # GET List/{id}/Headings
@@ -11,9 +11,16 @@ GET /api/v1/List/{id}/Headings
 
 Gets headings for list resolved by the provided id.
 
+
+
+
+
+
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | id | int32 | The id of the list to look up. **Required** |
+
+
 
 ## Request Headers
 
@@ -28,7 +35,10 @@ Gets headings for list resolved by the provided id.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -48,14 +58,16 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 GET /api/v1/List/{id}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -63,24 +75,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 964,
-    "Name": "Quigley LLC",
-    "Tooltip": "ipsum",
-    "Deleted": true,
-    "Rank": 252,
-    "UdListDefinitionId": 244,
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "HeadingId": 837,
+    "Name": "Mohr, Mann and Goldner",
+    "Tooltip": "hic",
+    "Deleted": false,
+    "Rank": 382,
+    "UdListDefinitionId": 997,
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.Int32",
-        "FieldLength": 698
+        "FieldRight": null,
+        "FieldType": "System.String",
+        "FieldLength": 30
       }
     }
   }

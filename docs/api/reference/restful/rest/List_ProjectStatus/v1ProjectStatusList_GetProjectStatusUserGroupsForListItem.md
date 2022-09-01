@@ -1,6 +1,6 @@
 ---
 title: GET List/ProjectStatus/Items/{id}/UserGroups
-id: v1ProjectStatusList_GetProjectStatusUserGroupsForListItem
+uid: v1ProjectStatusList_GetProjectStatusUserGroupsForListItem
 ---
 
 # GET List/ProjectStatus/Items/{id}/UserGroups
@@ -11,11 +11,18 @@ GET /api/v1/List/ProjectStatus/Items/{itemId}/UserGroups
 
 Gets user groups visible for the ProjectStatus list's item.
 
+
 Calls the List agent service GetHeadings.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | itemId | int32 | The ID of the item to get. **Required** |
+
+
 
 ## Request Headers
 
@@ -30,7 +37,10 @@ Calls the List agent service GetHeadings.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -58,14 +68,16 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 GET /api/v1/List/ProjectStatus/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -73,65 +85,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 981,
-    "Name": "Stiedemann-Hessel",
-    "ToolTip": "Vero eos ipsa ut illo.",
+    "Id": 484,
+    "Name": "Oberbrunner-Friesen",
+    "ToolTip": "Quam veritatis omnis voluptatum corrupti debitis officia.",
     "Deleted": false,
-    "Rank": 296,
-    "Type": "temporibus",
-    "ColorBlock": 762,
-    "IconHint": "vitae",
+    "Rank": 162,
+    "Type": "maiores",
+    "ColorBlock": 510,
+    "IconHint": "nisi",
     "Selected": true,
-    "LastChanged": "2009-02-08T18:25:52.0870216+01:00",
+    "LastChanged": "2020-10-15T11:10:54.4679337+02:00",
     "ChildItems": [
       {
-        "Id": 821,
-        "Name": "O'Hara Inc and Sons",
-        "ToolTip": "Sed perferendis vel ad perspiciatis fugiat.",
-        "Deleted": false,
-        "Rank": 805,
-        "Type": "ut",
-        "ColorBlock": 203,
-        "IconHint": "officia",
+        "Id": 691,
+        "Name": "Keeling, Bahringer and Nader",
+        "ToolTip": "In et ab qui.",
+        "Deleted": true,
+        "Rank": 467,
+        "Type": "ipsa",
+        "ColorBlock": 512,
+        "IconHint": "eum",
         "Selected": false,
-        "LastChanged": "2005-11-29T18:25:52.0870216+01:00",
+        "LastChanged": "2005-10-27T11:10:54.4679337+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "iste",
-        "StyleHint": "rerum",
+        "ExtraInfo": "voluptatem",
+        "StyleHint": "perspiciatis",
         "Hidden": true,
-        "FullName": "Mathew King",
-        "TableRight": {},
+        "FullName": "Earline Rippin",
+        "TableRight": null,
         "FieldProperties": {
           "fieldName": {
-            "FieldRight": {
-              "Mask": "FULL",
-              "Reason": "embrace wireless niches"
-            },
-            "FieldType": "System.String",
-            "FieldLength": 926
+            "FieldRight": null,
+            "FieldType": "System.Int32",
+            "FieldLength": 32
           }
         }
       }
     ],
-    "ExtraInfo": "voluptas",
-    "StyleHint": "ipsa",
-    "Hidden": true,
-    "FullName": "Alize Stoltenberg",
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "ExtraInfo": "fugiat",
+    "StyleHint": "dicta",
+    "Hidden": false,
+    "FullName": "Prof. Tate Witting II",
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 477
+        "FieldRight": null,
+        "FieldType": "System.Int32",
+        "FieldLength": 545
       }
     }
   }

@@ -13,9 +13,11 @@ Implemented by the <see cref="M:SuperOffice.Services88.IEMailAgent.CreateDefault
 
 Loading default values into a new EMailAccount.
 NetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance
-<br />**Online Restricted:** The EMail agent is not available in Online by default. Access must be requested specifically when app is registered.
+<para /><b>Online Restricted:</b> The EMail agent is not available in Online by default. Access must be requested specifically when app is registered.
+
 
 **Returns:** New EMailAccount with default values
+
 
 [WSDL file for Services88/EMail](../Services88-EMail.md)
 
@@ -47,6 +49,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+
 
 ## CreateDefaultEMailAccount Response
 
@@ -85,9 +88,12 @@ Application tokens must be specified if calling an Online installation. Applicat
     <EMail:AccountStatus xsi:type="xsd:short">0</EMail:AccountStatus>
     <EMail:ErrorCount xsi:type="xsd:int">0</EMail:ErrorCount>
     <EMail:ErrorReason xsi:type="xsd:string"></EMail:ErrorReason>
+    <EMail:InboxFolder xsi:type="xsd:string"></EMail:InboxFolder>
+    <EMail:SentFolder xsi:type="xsd:string"></EMail:SentFolder>
    </EMail:Response>
   </EMail:CreateDefaultEMailAccountResponse>
  </SOAP-ENV:Body>
 </SOAP-ENV:Envelope>
 
 ```
+

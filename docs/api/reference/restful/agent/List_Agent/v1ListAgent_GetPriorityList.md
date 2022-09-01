@@ -1,6 +1,6 @@
 ---
 title: POST Agents/List/GetPriorityList
-id: v1ListAgent_GetPriorityList
+uid: v1ListAgent_GetPriorityList
 ---
 
 # POST Agents/List/GetPriorityList
@@ -11,6 +11,12 @@ POST /api/v1/Agents/List/GetPriorityList
 
 Gets an array of Priority objects.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Gets an array of Priority objects.
 ```http
 POST /api/v1/Agents/List/GetPriorityList?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,11 +42,15 @@ POST /api/v1/Agents/List/GetPriorityList?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: priorityIds
+## Request Body: priorityIds  
 
-The primary keys.
+The primary keys. 
+
+
 
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -55,14 +66,16 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/List/GetPriorityList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -70,40 +83,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 87,
-    "Value": "qui",
-    "Tooltip": "est",
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "Id": 708,
+    "Value": "ut",
+    "Tooltip": "consequatur",
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
+        "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 962
+        "FieldLength": 756
       }
     }
   },
   {
-    "Id": 87,
-    "Value": "qui",
-    "Tooltip": "est",
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "Id": 708,
+    "Value": "ut",
+    "Tooltip": "consequatur",
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
+        "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 962
+        "FieldLength": 756
       }
     }
   }

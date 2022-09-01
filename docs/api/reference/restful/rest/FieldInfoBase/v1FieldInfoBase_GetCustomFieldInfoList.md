@@ -1,6 +1,6 @@
 ---
 title: GET Schema/{tableName}
-id: v1FieldInfoBase_GetCustomFieldInfoList
+uid: v1FieldInfoBase_GetCustomFieldInfoList
 ---
 
 # GET Schema/{tableName}
@@ -11,9 +11,15 @@ GET /api/v1/Schema/{tableName}
 
 Return information about all the custom fields (user-defined + extra) on a particular table
 
+
+
+
+
+
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | tableName | string | The name of table that owns the custom fields. e.g. 'contact', 'person', 'project' etc. **Required** |
+
 
 ## Query String Parameters
 
@@ -24,6 +30,7 @@ Return information about all the custom fields (user-defined + extra) on a parti
 ```http
 GET /api/v1/Schema/{tableName}?includeStandard=False
 ```
+
 
 ## Request Headers
 
@@ -38,7 +45,10 @@ GET /api/v1/Schema/{tableName}?includeStandard=False
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -62,14 +72,16 @@ Response body: array
 | Rank | int32 | Tab order, ranking within the custom fields. |
 | TemplateVariableName | string | Template variable name: 'cs01', 'cl02' etc. Null for extra fields. |
 
-## Sample Request
+## Sample request
 
 ```http!
 GET /api/v1/Schema/{tableName}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -78,18 +90,18 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "FieldType": "Attachment",
-    "FieldName": "Swaniawski Group",
-    "DisplayName": "Flatley-Marks",
-    "Description": "Adaptive multimedia migration",
-    "ShortLabel": "autem",
-    "HideLabel": false,
-    "HideField": true,
-    "IsIndexed": true,
-    "IsMandatory": true,
+    "FieldName": "Cummerata, Gerhold and Erdman",
+    "DisplayName": "Boyer Group",
+    "Description": "Extended national website",
+    "ShortLabel": "aut",
+    "HideLabel": true,
+    "HideField": false,
+    "IsIndexed": false,
+    "IsMandatory": false,
     "IsReadOnly": false,
-    "IsExternal": true,
-    "Rank": 949,
-    "TemplateVariableName": "Murazik-Hilll"
+    "IsExternal": false,
+    "Rank": 922,
+    "TemplateVariableName": "Runolfsson Group"
   }
 ]
 ```

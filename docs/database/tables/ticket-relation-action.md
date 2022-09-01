@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "ticket_relation_action"
-so.date: 04.12.2022
+so.date: 08.26.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -33,6 +33,7 @@ Contains ticket relation actions, used to drive processing logic together with t
 |updated\_associate\_id|Last updated by whom|FK [associate](associate.md)|&#x25CF;|
 |updatedCount|Number of updates made to this record|UShort|&#x25CF;|
 
+
 ![ticket_relation_action table relationship diagram](./media/ticket_relation_action.png)
 
 [!include[details](./includes/ticket-relation-action.md)]
@@ -51,6 +52,7 @@ Contains ticket relation actions, used to drive processing logic together with t
 |[ejscript](ejscript.md)  |ejscript |
 |[ticket\_relation\_type](ticket-relation-type.md)  |Contains ticket relation types, used to drive processing logic together with ticket relations |
 
+
 ## Replication Flags
 
 * None
@@ -58,3 +60,4 @@ Contains ticket relation actions, used to drive processing logic together with t
 ## Security Flags
 
 * No access control via user's Role.
+

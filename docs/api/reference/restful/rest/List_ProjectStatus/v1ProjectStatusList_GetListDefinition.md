@@ -1,6 +1,6 @@
 ---
 title: GET List/ProjectStatus
-id: v1ProjectStatusList_GetListDefinition
+uid: v1ProjectStatusList_GetListDefinition
 ---
 
 # GET List/ProjectStatus
@@ -10,6 +10,13 @@ GET /api/v1/List/ProjectStatus
 ```
 
 Gets description of ProjectStatus list
+
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -24,17 +31,16 @@ Gets description of ProjectStatus list
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response: object
 
-The list entity contains information about a specific list
+## Response: 
 
-ListEntity entity with API _Links added.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -52,42 +58,38 @@ Response body: object
 | FieldProperties | object |  |
 | _Links | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 GET /api/v1/List/ProjectStatus
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 135,
-  "Name": "Hane Group",
-  "Tooltip": "laudantium",
+  "Id": 399,
+  "Name": "Windler-Reinger",
+  "Tooltip": "eum",
   "Deleted": false,
-  "Rank": 790,
+  "Rank": 606,
   "IsCustomList": true,
-  "IsMDOList": true,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": true,
-  "ListType": "beatae",
-  "InUseByUserDefinedFields": true,
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "ListType": "molestiae",
+  "InUseByUserDefinedFields": false,
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": "architect extensible paradigms"
-      },
-      "FieldType": "System.Int32",
-      "FieldLength": 513
+      "FieldRight": null,
+      "FieldType": "System.String",
+      "FieldLength": 858
     }
   },
   "_Links": {

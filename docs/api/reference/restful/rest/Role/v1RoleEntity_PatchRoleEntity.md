@@ -1,6 +1,6 @@
 ---
 title: PATCH Role/{id}
-id: v1RoleEntity_PatchRoleEntity
+uid: v1RoleEntity_PatchRoleEntity
 ---
 
 # PATCH Role/{id}
@@ -11,9 +11,11 @@ PATCH /api/v1/Role/{id}
 
 Update a RoleEntity with changes, as described in a JSON Patch or a JSON Merge Patch document.
 
+
 See <a href="https://tools.ietf.org/html/rfc6902">RFC6902</a> and <a href="https://tools.ietf.org/html/rfc7386">RFC 7396</a>.
 
-## Online Restricted: ## The User agent is not available in Online by default. User management is not allowed for partner apps. Update the Department field to "foo" can be done either as a JSON PATCH
+
+## Online Restricted: ## The User agent is not available in Online by default. User management is not allowed for partner apps. Update the Department field to "foo" can be done either as a JSON PATCH:
 
 ```js
 
@@ -29,14 +31,23 @@ or as a JSON MERGE PATCH, which describes the change directly:
 
 ```
 
+
+
 JSON PATCH supports operations 'add', 'replace', 'remove' and 'test'.
 The path is case insensitive, and the leading slash is optional, so the paths "/department", "Department" and "department" are all equivalent.
 
+
+
 Calls the {SuperOffice.CRM.Services.IUserAgent} service SaveRoleEntity.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | id | int32 | The RoleEntity  id to update. **Required** |
+
 
 ## Query String Parameters
 
@@ -47,6 +58,7 @@ Calls the {SuperOffice.CRM.Services.IUserAgent} service SaveRoleEntity.
 ```http
 PATCH /api/v1/Role/{id}?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -62,9 +74,9 @@ PATCH /api/v1/Role/{id}?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: changes string
+## Request Body: changes string 
 
-JSON-Patch array of operations+path+value, or a MERGE-PATCH object (which will be converted to a list of JSON-PATCH operations).
+JSON-Patch array of operations+path+value, or a MERGE-PATCH object (which will be converted to a list of JSON-PATCH operations). 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -72,9 +84,10 @@ JSON-Patch array of operations+path+value, or a MERGE-PATCH object (which will b
 | path | string | The property names to modify.  "/users/0/email", "/users/-", |
 | value | object | New/Replaced value - string or object. |
 
-## Response: object
 
-RoleEntity entity with API _Links added.
+## Response: 
+
+RoleEntity  updated.
 
 | Response | Description |
 |----------------|-------------|
@@ -83,7 +96,7 @@ RoleEntity entity with API _Links added.
 | 409 | Update blocked because a 'test' operation has detected a conflict with the entity value. |
 | 412 | Update aborted because RoleEntity has changed since the requested If-Unmodified-Since timestamp. |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -103,196 +116,54 @@ Response body: object
 | FieldProperties | object |  |
 | _Links | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 PATCH /api/v1/Role/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "consequatur",
-    "value": {
-      "value1": {
-        "PrimaryKey": 3433,
-        "EntityName": "sale",
-        "saleId": 3433,
-        "contactId": 792,
-        "name": "Koelpin Group"
-      },
-      "value2": {
-        "PrimaryKey": 5119,
-        "EntityName": "person",
-        "personId": 5119,
-        "fullName": "Dr. Kavon King"
-      }
-    }
+    "path": "libero",
+    "value": {}
   },
   {
     "op": "add",
-    "path": "consequatur",
-    "value": {
-      "value1": {
-        "PrimaryKey": 3433,
-        "EntityName": "sale",
-        "saleId": 3433,
-        "contactId": 792,
-        "name": "Koelpin Group"
-      },
-      "value2": {
-        "PrimaryKey": 5119,
-        "EntityName": "person",
-        "personId": 5119,
-        "fullName": "Dr. Kavon King"
-      }
-    }
+    "path": "libero",
+    "value": {}
   }
 ]
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 RoleEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 384,
-  "Name": "Pfannerstill LLC",
-  "Tooltip": "libero",
+  "RoleId": 349,
+  "Name": "Spencer Inc and Sons",
+  "Tooltip": "tenetur",
   "RoleType": "Anonymous",
-  "Deleted": 687,
-  "Rank": 164,
-  "Created": "2003-04-06T18:25:50.8728837+02:00",
-  "UseCategories": 663,
-  "CreatedBy": {
-    "AssociateId": 436,
-    "Name": "Haag Group",
-    "PersonId": 684,
-    "Rank": 669,
-    "Tooltip": "cupiditate",
-    "Type": "AnonymousAssociate",
-    "GroupIdx": 886,
-    "FullName": "Mrs. Dianna Wisoky",
-    "FormalName": "Kuhn-Barton",
-    "Deleted": false,
-    "EjUserId": 680,
-    "UserName": "Funk, Wilkinson and Lesch",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 434
-      }
-    }
-  },
-  "Updated": "2013-06-30T18:25:50.8728837+02:00",
-  "UpdatedBy": {
-    "AssociateId": 921,
-    "Name": "Fritsch LLC",
-    "PersonId": 204,
-    "Rank": 441,
-    "Tooltip": "temporibus",
-    "Type": "AnonymousAssociate",
-    "GroupIdx": 339,
-    "FullName": "Eusebio Stiedemann",
-    "FormalName": "Sporer-Bauch",
-    "Deleted": true,
-    "EjUserId": 854,
-    "UserName": "Jewess-Herman",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.Int32",
-        "FieldLength": 485
-      }
-    }
-  },
-  "DataRights": {
-    "ColumnsInfo": [
-      {},
-      {}
-    ],
-    "RowsInfo": [
-      {},
-      {}
-    ],
-    "Rights": [
-      [
-        {
-          "Value": "voluptate",
-          "Description": "Multi-layered mobile time-frame",
-          "TableRight": {
-            "Mask": "Delete",
-            "Reason": ""
-          },
-          "FieldProperties": {
-            "fieldName": {
-              "FieldRight": {
-                "Mask": "FULL",
-                "Reason": ""
-              },
-              "FieldType": "System.String",
-              "FieldLength": 107
-            }
-          }
-        }
-      ],
-      [
-        {
-          "Value": "excepturi",
-          "Description": "Customer-focused solution-oriented extranet",
-          "TableRight": {
-            "Mask": "Delete",
-            "Reason": ""
-          },
-          "FieldProperties": {
-            "fieldName": {
-              "FieldRight": {
-                "Mask": "FULL",
-                "Reason": ""
-              },
-              "FieldType": "System.Int32",
-              "FieldLength": 942
-            }
-          }
-        }
-      ]
-    ],
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": "target value-added initiatives"
-        },
-        "FieldType": "System.Int32",
-        "FieldLength": 17
-      }
-    }
-  },
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "Deleted": 267,
+  "Rank": 516,
+  "Created": "2014-07-02T11:10:53.3541523+02:00",
+  "UseCategories": 107,
+  "CreatedBy": null,
+  "Updated": "1999-02-26T11:10:53.3551806+01:00",
+  "UpdatedBy": null,
+  "DataRights": null,
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
+      "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 322
+      "FieldLength": 188
     }
   },
   "_Links": {

@@ -1,6 +1,6 @@
 ---
 title: POST Agents/BLOB/SaveBlobEntity
-id: v1BLOBAgent_SaveBlobEntity
+uid: v1BLOBAgent_SaveBlobEntity
 ---
 
 # POST Agents/BLOB/SaveBlobEntity
@@ -10,6 +10,13 @@ POST /api/v1/Agents/BLOB/SaveBlobEntity
 ```
 
 Updates the existing BlobEntity or creates a new BlobEntity if the id parameter is empty
+
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -25,9 +32,9 @@ Updates the existing BlobEntity or creates a new BlobEntity if the id parameter 
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entity
+## Request Body: entity  
 
-The BlobEntity to be saved.
+The BlobEntity to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -45,16 +52,16 @@ The BlobEntity to be saved.
 | UpdatedBy |  | The person that last updated the appointment. |
 | ConceptualType | string | The type, for instance PHOTO, PERSONPHOTO, or whatever, that is descriptive of what kind of image or data this is |
 
-## Response: object
 
-Carrier object for BlobEntity.
-Services for the BlobEntity Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IBLOBAgent">BLOB Agent</see>.
+## Response: 
+
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -74,7 +81,7 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/BLOB/SaveBlobEntity
@@ -84,126 +91,48 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 619,
-  "BlobSize": 402,
-  "Description": "Enhanced homogeneous secured line",
-  "ExtraInfo": "ullam",
+  "BlobId": 894,
+  "BlobSize": 641,
+  "Description": "Secured reciprocal help-desk",
+  "ExtraInfo": "velit",
   "IsEncrypted": true,
   "IsZipped": false,
-  "MimeType": "repudiandae",
-  "OriginalSize": 387,
-  "CreatedDate": "2021-03-31T18:28:48.1515438+02:00",
-  "UpdatedDate": "2014-10-13T18:28:48.1515438+02:00",
-  "CreatedBy": {
-    "AssociateId": 724,
-    "Name": "Jewess, Ferry and Stehr",
-    "PersonId": 328,
-    "Rank": 923,
-    "Tooltip": "repellendus",
-    "Type": "AnonymousAssociate",
-    "GroupIdx": 114,
-    "FullName": "Ibrahim Terry",
-    "FormalName": "Treutel-Kuhlman",
-    "Deleted": false,
-    "EjUserId": 55,
-    "UserName": "Hermann, Beer and Lueilwitz"
-  },
-  "UpdatedBy": {
-    "AssociateId": 637,
-    "Name": "Sporer-Hessel",
-    "PersonId": 569,
-    "Rank": 698,
-    "Tooltip": "occaecati",
-    "Type": "AnonymousAssociate",
-    "GroupIdx": 910,
-    "FullName": "Laurie Hoppe",
-    "FormalName": "Beier LLC",
-    "Deleted": false,
-    "EjUserId": 236,
-    "UserName": "Morissette-Parisian"
-  },
-  "ConceptualType": "a"
+  "MimeType": "suscipit",
+  "OriginalSize": 41,
+  "CreatedDate": "2015-09-19T11:10:26.0245562+02:00",
+  "UpdatedDate": "2021-06-26T11:10:26.0245562+02:00",
+  "CreatedBy": null,
+  "UpdatedBy": null,
+  "ConceptualType": "omnis"
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 250,
-  "BlobSize": 481,
-  "Description": "Grass-roots transitional framework",
-  "ExtraInfo": "incidunt",
+  "BlobId": 486,
+  "BlobSize": 294,
+  "Description": "Team-oriented homogeneous frame",
+  "ExtraInfo": "ut",
   "IsEncrypted": true,
   "IsZipped": false,
-  "MimeType": "iure",
-  "OriginalSize": 221,
-  "CreatedDate": "2000-07-01T18:28:48.1535429+02:00",
-  "UpdatedDate": "2006-07-18T18:28:48.1535429+02:00",
-  "CreatedBy": {
-    "AssociateId": 313,
-    "Name": "Feest, Jacobson and Glover",
-    "PersonId": 222,
-    "Rank": 728,
-    "Tooltip": "recusandae",
-    "Type": "AnonymousAssociate",
-    "GroupIdx": 619,
-    "FullName": "Cassidy Pagac",
-    "FormalName": "Kessler, Koelpin and Leffler",
-    "Deleted": true,
-    "EjUserId": 530,
-    "UserName": "Lehner, Schiller and Rutherford",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.Int32",
-        "FieldLength": 974
-      }
-    }
-  },
-  "UpdatedBy": {
-    "AssociateId": 897,
-    "Name": "Smith-Fahey",
-    "PersonId": 727,
-    "Rank": 609,
-    "Tooltip": "tempora",
-    "Type": "AnonymousAssociate",
-    "GroupIdx": 297,
-    "FullName": "Darius Feil",
-    "FormalName": "Littel LLC",
-    "Deleted": true,
-    "EjUserId": 500,
-    "UserName": "Lubowitz, Grimes and Gleichner",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.Int32",
-        "FieldLength": 255
-      }
-    }
-  },
-  "ConceptualType": "omnis",
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "MimeType": "ad",
+  "OriginalSize": 57,
+  "CreatedDate": "2000-02-27T11:10:26.0265548+01:00",
+  "UpdatedDate": "2015-02-09T11:10:26.0265548+01:00",
+  "CreatedBy": null,
+  "UpdatedBy": null,
+  "ConceptualType": "ducimus",
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
+      "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 756
+      "FieldLength": 31
     }
   }
 }

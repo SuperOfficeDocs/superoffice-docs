@@ -1,6 +1,6 @@
 ---
 title: GET Appointment/UdefLayout/{progidOrLabel}
-id: v1AppointmentEntity_GetUdefFieldInfo
+uid: v1AppointmentEntity_GetUdefFieldInfo
 ---
 
 # GET Appointment/UdefLayout/{progidOrLabel}
@@ -11,9 +11,16 @@ GET /api/v1/Appointment/UdefLayout/{progidOrLabel}
 
 Get a AppointmentEntity user-defined field's details based on the prog-id or label.
 
+
+
+
+
+
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | progidOrLabel | string | The udef field id, case-sensitive prog-id, or field label. **Required** |
+
+
 
 ## Request Headers
 
@@ -28,19 +35,17 @@ Get a AppointmentEntity user-defined field's details based on the prog-id or lab
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response: object
 
-Return information about the user defined fields. The information can be used to mirror the layout of the user-defined fields in the user interface.
+## Response: 
 
-Carrier object for UserDefinedFieldInfo.
-Services for the UserDefinedFieldInfo Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent">UserDefinedFieldInfo Agent</see>.
+AppointmentEntity found.
 
 | Response | Description |
 |----------------|-------------|
 | 200 | AppointmentEntity found. |
 | 404 | AppointmentEntity not found. |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -81,66 +86,62 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 GET /api/v1/Appointment/UdefLayout/{progidOrLabel}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 AppointmentEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 110,
-  "ColumnId": 189,
-  "FieldDefault": "optio",
-  "FieldHeight": 989,
-  "FieldLabel": "est",
-  "FieldLeft": 727,
-  "FieldTop": 795,
+  "UDefFieldId": 143,
+  "ColumnId": 687,
+  "FieldDefault": "nihil",
+  "FieldHeight": 617,
+  "FieldLabel": "quos",
+  "FieldLeft": 622,
+  "FieldTop": 72,
   "FieldType": "Checkbox",
-  "FieldWidth": 218,
-  "FormatMask": "nihil",
-  "HideLabel": true,
+  "FieldWidth": 712,
+  "FormatMask": "iste",
+  "HideLabel": false,
   "IsIndexed": false,
-  "LabelHeight": 696,
-  "LabelLeft": 803,
-  "LabelTop": 962,
-  "LabelWidth": 310,
-  "LastVersionId": 428,
-  "ListTableId": 64,
+  "LabelHeight": 563,
+  "LabelLeft": 487,
+  "LabelTop": 778,
+  "LabelWidth": 438,
+  "LastVersionId": 619,
+  "ListTableId": 804,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 498,
-  "ProgId": "quibusdam",
-  "IsReadOnly": true,
-  "ShortLabel": "et",
-  "TabOrder": 521,
-  "TextLength": 438,
-  "Tooltip": "maxime",
-  "UdefIdentity": 81,
-  "UDListDefinitionId": 7,
+  "Page1LineNo": 582,
+  "ProgId": "voluptatem",
+  "IsReadOnly": false,
+  "ShortLabel": "necessitatibus",
+  "TabOrder": 856,
+  "TextLength": 548,
+  "Tooltip": "ut",
+  "UdefIdentity": 379,
+  "UDListDefinitionId": 774,
   "Justification": "Center",
-  "Version": 873,
-  "TemplateVariableName": "Bahringer-Renner",
-  "HasBeenPublished": false,
-  "MdoListName": "Rippin Inc and Sons",
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "Version": 931,
+  "TemplateVariableName": "D'Amore, Dietrich and Kub",
+  "HasBeenPublished": true,
+  "MdoListName": "Schroeder-Shields",
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": "facilitate clicks-and-mortar applications"
-      },
-      "FieldType": "System.String",
-      "FieldLength": 581
+      "FieldRight": null,
+      "FieldType": "System.Int32",
+      "FieldLength": 638
     }
   }
 }

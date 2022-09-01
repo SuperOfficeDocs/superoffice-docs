@@ -1,6 +1,6 @@
 ---
 title: PATCH Webhook/{id}
-id: v1Webhook_PatchWebhook
+uid: v1Webhook_PatchWebhook
 ---
 
 # PATCH Webhook/{id}
@@ -11,9 +11,11 @@ PATCH /api/v1/Webhook/{id}
 
 Update a Webhook with changes, as described in a JSON Patch or a JSON Merge Patch document.
 
+
 See <a href="https://tools.ietf.org/html/rfc6902">RFC6902</a> and <a href="https://tools.ietf.org/html/rfc7386">RFC 7396</a>.
 
-## Online Restricted: ## The Webhook agent is not available in Online by default. Access must be requested specifically when app is registered. Update the Department field to "foo" can be done either as a JSON PATCH
+
+## Online Restricted: ## The Webhook agent is not available in Online by default. Access must be requested specifically when app is registered. Update the Department field to "foo" can be done either as a JSON PATCH:
 
 ```js
 
@@ -29,14 +31,23 @@ or as a JSON MERGE PATCH, which describes the change directly:
 
 ```
 
+
+
 JSON PATCH supports operations 'add', 'replace', 'remove' and 'test'.
 The path is case insensitive, and the leading slash is optional, so the paths "/department", "Department" and "department" are all equivalent.
 
+
+
 Calls the {SuperOffice.CRM.Services.IWebhookAgent} service SaveWebhook.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | id | int32 | The Webhook  id to update. **Required** |
+
 
 ## Query String Parameters
 
@@ -47,6 +58,7 @@ Calls the {SuperOffice.CRM.Services.IWebhookAgent} service SaveWebhook.
 ```http
 PATCH /api/v1/Webhook/{id}?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -62,9 +74,9 @@ PATCH /api/v1/Webhook/{id}?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: changes string
+## Request Body: changes string 
 
-JSON-Patch array of operations+path+value, or a MERGE-PATCH object (which will be converted to a list of JSON-PATCH operations).
+JSON-Patch array of operations+path+value, or a MERGE-PATCH object (which will be converted to a list of JSON-PATCH operations). 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -72,11 +84,10 @@ JSON-Patch array of operations+path+value, or a MERGE-PATCH object (which will b
 | path | string | The property names to modify.  "/users/0/email", "/users/-", |
 | value | object | New/Replaced value - string or object. |
 
-## Response: object
 
-Webhook definitions. Webhooks broadcast events from NetServer to remote servers.
+## Response: 
 
-Webhook entity with API _Links added.
+Webhook  updated.
 
 | Response | Description |
 |----------------|-------------|
@@ -85,7 +96,7 @@ Webhook entity with API _Links added.
 | 409 | Update blocked because a 'test' operation has detected a conflict with the entity value. |
 | 412 | Update aborted because Webhook has changed since the requested If-Unmodified-Since timestamp. |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -104,7 +115,7 @@ Response body: object
 | UpdatedAssociate |  | The user that last updated the webhook. |
 | _Links | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 PATCH /api/v1/Webhook/{id}
@@ -116,119 +127,45 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "op": "add",
-    "path": "magni",
-    "value": {
-      "value1": {
-        "PrimaryKey": 5961,
-        "EntityName": "sale",
-        "saleId": 5961,
-        "contactId": 9088,
-        "name": "Grimes-Mueller"
-      },
-      "value2": {
-        "PrimaryKey": 86,
-        "EntityName": "person",
-        "personId": 86,
-        "fullName": "Connie Vandervort"
-      }
-    }
+    "path": "in",
+    "value": {}
   },
   {
     "op": "add",
-    "path": "magni",
-    "value": {
-      "value1": {
-        "PrimaryKey": 5961,
-        "EntityName": "sale",
-        "saleId": 5961,
-        "contactId": 9088,
-        "name": "Grimes-Mueller"
-      },
-      "value2": {
-        "PrimaryKey": 86,
-        "EntityName": "person",
-        "personId": 86,
-        "fullName": "Connie Vandervort"
-      }
-    }
+    "path": "in",
+    "value": {}
   }
 ]
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 Webhook  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebhookId": 555,
-  "Name": "Graham, Hodkiewicz and Boyle",
+  "WebhookId": 750,
+  "Name": "Lynch, Keeling and Wiza",
   "Events": [
-    "repellendus",
-    "magni"
+    "eum",
+    "minus"
   ],
   "TargetUrl": "http://www.example.com/",
-  "Secret": "nesciunt",
+  "Secret": "repellat",
   "State": "Active",
-  "Type": "cumque",
+  "Type": "voluptatem",
   "Headers": {
-    "Headers1": "excepturi",
-    "Headers2": "nulla"
+    "Headers1": "harum",
+    "Headers2": "ipsum"
   },
   "Properties": {
     "fieldName": {}
   },
-  "Registered": "1996-01-31T18:25:51.5682947+01:00",
-  "RegisteredAssociate": {
-    "AssociateId": 949,
-    "Name": "Gutmann, Nienow and Hilpert",
-    "PersonId": 123,
-    "Rank": 431,
-    "Tooltip": "fuga",
-    "Type": "AnonymousAssociate",
-    "GroupIdx": 721,
-    "FullName": "Colton Wyman",
-    "FormalName": "Farrell Inc and Sons",
-    "Deleted": false,
-    "EjUserId": 107,
-    "UserName": "Ryan, Dach and Conroy",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 73
-      }
-    }
-  },
-  "Updated": "2021-01-15T18:25:51.5682947+01:00",
-  "UpdatedAssociate": {
-    "AssociateId": 22,
-    "Name": "Carter, Schmeler and Predovic",
-    "PersonId": 701,
-    "Rank": 312,
-    "Tooltip": "dolore",
-    "Type": "AnonymousAssociate",
-    "GroupIdx": 916,
-    "FullName": "Marcelino Collier",
-    "FormalName": "Terry LLC",
-    "Deleted": true,
-    "EjUserId": 958,
-    "UserName": "Kunde LLC",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.Int32",
-        "FieldLength": 92
-      }
-    }
-  },
+  "Registered": "2019-06-12T11:10:53.8782173+02:00",
+  "RegisteredAssociate": null,
+  "Updated": "2010-03-18T11:10:53.8792135+01:00",
+  "UpdatedAssociate": null,
   "_Links": {
     "Self": "https://www.example.com/api/v1/project/321",
     "Archive": "https://www.example.com/api/v1/project"

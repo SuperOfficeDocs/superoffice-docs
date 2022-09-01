@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Appointment/GenerateLead
-id: v1AppointmentAgent_GenerateLead
+uid: v1AppointmentAgent_GenerateLead
 ---
 
 # POST Agents/Appointment/GenerateLead
@@ -11,7 +11,13 @@ POST /api/v1/Agents/Appointment/GenerateLead
 
 Adds a sales lead (task) to a contact in SuperOffice.
 
+
 If the contact or person is known, the sales lead is added to the current contact. If not, a new contact is created, with the associate with ownerIdForNewContact as responsible (Our Contact). A relation is created between the contact and the person submitting the lead. Based on wether the person the request is made for is found or not, the following happens: If the person is found, the person, person's contact and sales representative is returned. If neither the person nor the contact is found a new person and contact is created (if sufficient data is supplied), and the person, person's contact and sales representative is returned. If the contact and not the person is found a new person is created on this contact, and the contact, salesrep, and person is returned (if there was enough data to return the person). If more than one contact is found a list of contacts is returned.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +28,7 @@ If the contact or person is known, the sales lead is added to the current contac
 ```http
 POST /api/v1/Agents/Appointment/GenerateLead?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,9 +44,9 @@ POST /api/v1/Agents/Appointment/GenerateLead?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-AssociateIdForNewContact, LeadDescription, Relation, RelationId, LeadContact, LeadPersonFirstname, LeadPersonLastname, LeadPersonEmail, LeadPhoneNumber, CreatorsContact, CreatorsFirstname, CreatorsLastname
+AssociateIdForNewContact, LeadDescription, Relation, RelationId, LeadContact, LeadPersonFirstname, LeadPersonLastname, LeadPersonEmail, LeadPhoneNumber, CreatorsContact, CreatorsFirstname, CreatorsLastname 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -56,16 +63,16 @@ AssociateIdForNewContact, LeadDescription, Relation, RelationId, LeadContact, Le
 | CreatorsFirstname | string |  |
 | CreatorsLastname | string |  |
 
-## Response: object
 
-Carrier object for SalesActivity.
-Services for the SalesActivity Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IAppointmentAgent">Appointment Agent</see>.
+## Response: 
+
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -75,30 +82,32 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Appointment/GenerateLead
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateIdForNewContact": 190,
-  "LeadDescription": "Seamless real-time software",
-  "Relation": "vel",
-  "RelationId": 978,
-  "LeadContact": "dolor",
-  "LeadPersonFirstname": "Desmond",
-  "LeadPersonLastname": "Rippin",
-  "LeadPersonEmail": "liliane.corwin@white.info",
-  "LeadPhoneNumber": "786862",
-  "CreatorsContact": "aut",
-  "CreatorsFirstname": "Dangelo",
-  "CreatorsLastname": "Carroll"
+  "AssociateIdForNewContact": 738,
+  "LeadDescription": "Re-contextualized 6th generation alliance",
+  "Relation": "fuga",
+  "RelationId": 731,
+  "LeadContact": "praesentium",
+  "LeadPersonFirstname": "Tyrel",
+  "LeadPersonLastname": "Rowe",
+  "LeadPersonEmail": "randall@johns.uk",
+  "LeadPhoneNumber": "1516746",
+  "CreatorsContact": "modi",
+  "CreatorsFirstname": "Julie",
+  "CreatorsLastname": "Kertzmann"
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -107,159 +116,46 @@ Content-Type: application/json; charset=utf-8
 {
   "RequestedContacts": [
     {
-      "ContactId": 359,
-      "Name": "Murazik Inc and Sons",
-      "OrgNr": "632227",
+      "ContactId": 902,
+      "Name": "Hermiston Inc and Sons",
+      "OrgNr": "483249",
       "Department": "",
       "URL": "http://www.example.com/",
-      "City": "consectetur",
-      "DirectPhone": "(143)554-7380",
-      "AssociateId": 806,
-      "CountryId": 550,
-      "EmailAddress": "nash.koelpin@lemke.ca",
-      "Kananame": "ullam",
-      "EmailAddressName": "felicia_deckow@ohara.biz",
+      "City": "quod",
+      "DirectPhone": "792-531-6004 x0992",
+      "AssociateId": 522,
+      "CountryId": 940,
+      "EmailAddress": "herta@shanahan.uk",
+      "Kananame": "cum",
+      "EmailAddressName": "francesco@oberbrunner.info",
       "URLName": "http://www.example.com/",
-      "AssociateFullName": "Brady Rogahn",
+      "AssociateFullName": "Imelda Effertz",
       "BusinessName": "Information Technology",
       "CategoryName": "VIP Customer",
       "CountryName": "Sokovia",
-      "Address": {},
-      "FormattedAddress": "aliquid",
-      "FullName": "Maudie Steuber",
-      "IsOwnerContact": true,
-      "ActiveErpLinks": 544,
-      "TableRight": {},
+      "Address": null,
+      "FormattedAddress": "amet",
+      "FullName": "Ms. Janice Kaitlin Swift",
+      "IsOwnerContact": false,
+      "ActiveErpLinks": 278,
+      "TableRight": null,
       "FieldProperties": {
         "fieldName": {
-          "FieldRight": {
-            "Mask": "FULL",
-            "Reason": ""
-          },
-          "FieldType": "System.Int32",
-          "FieldLength": 823
+          "FieldRight": null,
+          "FieldType": "System.String",
+          "FieldLength": 828
         }
       }
     }
   ],
-  "RequestedPerson": {
-    "Position": "quod",
-    "PersonId": 887,
-    "Mrmrs": "facere",
-    "Firstname": "Garnet",
-    "Lastname": "Fay",
-    "MiddleName": "Mertz-Weimann",
-    "Title": "cum",
-    "Description": "Balanced tangible Graphical User Interface",
-    "Email": "chet_farrell@schoenjohnston.info",
-    "FullName": "Theresia Larkin",
-    "DirectPhone": "1-620-723-4737",
-    "FormalName": "Schulist, Harris and Kihn",
-    "CountryId": 339,
-    "ContactId": 530,
-    "ContactName": "Swift, Padberg and Toy",
-    "Retired": 809,
-    "Rank": 436,
-    "ActiveInterests": 610,
-    "ContactDepartment": "",
-    "ContactCountryId": 678,
-    "ContactOrgNr": "957692",
-    "FaxPhone": "388-020-4340",
-    "MobilePhone": "340-874-8884 x8802",
-    "ContactPhone": "425-613-1444 x8652",
-    "AssociateName": "Ward, Wunsch and Rau",
-    "AssociateId": 226,
-    "UsePersonAddress": true,
-    "ContactFax": "et",
-    "Kanafname": "dolor",
-    "Kanalname": "optio",
-    "Post1": "labore",
-    "Post2": "quos",
-    "Post3": "consequatur",
-    "EmailName": "leonard.hackett@stiedemann.com",
-    "ContactFullName": "Ms. Jules Stiedemann",
-    "ActiveErpLinks": 808,
-    "TicketPriorityId": 403,
-    "SupportLanguageId": 590,
-    "SupportAssociateId": 1000,
-    "CategoryName": "VIP Customer",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.Int32",
-        "FieldLength": 879
-      }
-    }
-  },
-  "SalesRep": {
-    "Position": "quaerat",
-    "PersonId": 740,
-    "Mrmrs": "eos",
-    "Firstname": "Rafaela",
-    "Lastname": "Kovacek",
-    "MiddleName": "Wintheiser-Witting",
-    "Title": "velit",
-    "Description": "De-engineered tertiary toolset",
-    "Email": "kristopher.cassin@zboncak.us",
-    "FullName": "Thurman Blanda",
-    "DirectPhone": "(320)578-7364",
-    "FormalName": "Beatty, Kilback and Rogahn",
-    "CountryId": 170,
-    "ContactId": 42,
-    "ContactName": "Bruen-Pouros",
-    "Retired": 916,
-    "Rank": 433,
-    "ActiveInterests": 768,
-    "ContactDepartment": "",
-    "ContactCountryId": 376,
-    "ContactOrgNr": "1224302",
-    "FaxPhone": "(684)786-1168 x35205",
-    "MobilePhone": "(020)320-2772",
-    "ContactPhone": "757.573.0132",
-    "AssociateName": "Wisoky-Haley",
-    "AssociateId": 272,
-    "UsePersonAddress": false,
-    "ContactFax": "architecto",
-    "Kanafname": "excepturi",
-    "Kanalname": "saepe",
-    "Post1": "est",
-    "Post2": "fugit",
-    "Post3": "explicabo",
-    "EmailName": "marianne_ohara@purdy.us",
-    "ContactFullName": "Stacey Harvey",
-    "ActiveErpLinks": 637,
-    "TicketPriorityId": 230,
-    "SupportLanguageId": 191,
-    "SupportAssociateId": 865,
-    "CategoryName": "VIP Customer",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.Int32",
-        "FieldLength": 296
-      }
-    }
-  },
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "RequestedPerson": null,
+  "SalesRep": null,
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
+      "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 717
+      "FieldLength": 669
     }
   }
 }

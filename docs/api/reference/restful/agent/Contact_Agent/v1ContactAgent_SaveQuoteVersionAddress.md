@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Contact/SaveQuoteVersionAddress
-id: v1ContactAgent_SaveQuoteVersionAddress
+uid: v1ContactAgent_SaveQuoteVersionAddress
 ---
 
 # POST Agents/Contact/SaveQuoteVersionAddress
@@ -11,6 +11,12 @@ POST /api/v1/Agents/Contact/SaveQuoteVersionAddress
 
 Save a custom quote version address.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Save a custom quote version address.
 ```http
 POST /api/v1/Agents/Contact/SaveQuoteVersionAddress?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,28 +42,27 @@ POST /api/v1/Agents/Contact/SaveQuoteVersionAddress?$select=name,department,cate
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-QuoteVersionId, Address, AddressType, CountryId
+QuoteVersionId, Address, AddressType, CountryId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | QuoteVersionId | int32 |  |
-| Address |  | Street and/or Postal address, in both formatted and structured forms. You only need to modify one of the two for the change to be registered. <br /> Carrier object for Address. |
+| Address |  | Street and/or Postal address, in both formatted and structured forms. You only need to modify one of the two for the change to be registered. <para /> Carrier object for Address. |
 | AddressType | string |  |
 | CountryId | int32 |  |
 
-## Response: object
 
-Street and/or Postal address, in both formatted and structured forms. You only need to modify one of the two for the change to be registered.
+## Response: 
 
-Carrier object for Address.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -69,7 +75,7 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Contact/SaveQuoteVersionAddress
@@ -79,161 +85,69 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 728,
-  "Address": {
-    "Wgs84Latitude": 21768.764,
-    "Wgs84Longitude": 15635.526,
-    "LocalizedAddress": [
-      [
-        {
-          "Name": "Nicolas-Stoltenberg",
-          "Value": "fuga",
-          "Tooltip": "rem",
-          "Label": "totam",
-          "ValueLength": 9,
-          "AddressType": "accusantium",
-          "TableRight": {
-            "Mask": "Delete",
-            "Reason": ""
-          },
-          "FieldProperties": {
-            "fieldName": {
-              "FieldRight": {
-                "Mask": "FULL",
-                "Reason": ""
-              },
-              "FieldType": "System.String",
-              "FieldLength": 619
-            }
-          }
-        }
-      ],
-      [
-        {
-          "Name": "Kessler, Keeling and Rolfson",
-          "Value": "qui",
-          "Tooltip": "et",
-          "Label": "est",
-          "ValueLength": 53,
-          "AddressType": "sunt",
-          "TableRight": {
-            "Mask": "Delete",
-            "Reason": ""
-          },
-          "FieldProperties": {
-            "fieldName": {
-              "FieldRight": {
-                "Mask": "FULL",
-                "Reason": "scale collaborative solutions"
-              },
-              "FieldType": "System.String",
-              "FieldLength": 156
-            }
-          }
-        }
-      ]
-    ],
-    "Street": {},
-    "Postal": {},
-    "Formatted": "nostrum"
-  },
+  "QuoteVersionId": 819,
+  "Address": null,
   "AddressType": "ContactPostalAddress",
-  "CountryId": 758
+  "CountryId": 449
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Wgs84Latitude": 13758.26,
-  "Wgs84Longitude": 18399.714,
+  "Wgs84Latitude": 28425.379999999997,
+  "Wgs84Longitude": 9502.288,
   "LocalizedAddress": [
     [
       {
-        "Name": "Kub, Kirlin and Rau",
-        "Value": "nulla",
-        "Tooltip": "rerum",
-        "Label": "doloribus",
-        "ValueLength": 74,
-        "AddressType": "distinctio",
-        "TableRight": {
-          "Mask": "Delete",
-          "Reason": ""
-        },
+        "Name": "Tremblay LLC",
+        "Value": "pariatur",
+        "Tooltip": "deleniti",
+        "Label": "est",
+        "ValueLength": 509,
+        "AddressType": "exercitationem",
+        "TableRight": null,
         "FieldProperties": {
           "fieldName": {
-            "FieldRight": {
-              "Mask": "FULL",
-              "Reason": "morph vertical solutions"
-            },
-            "FieldType": "System.Int32",
-            "FieldLength": 795
+            "FieldRight": null,
+            "FieldType": "System.String",
+            "FieldLength": 249
           }
         }
       }
     ],
     [
       {
-        "Name": "Zboncak Inc and Sons",
-        "Value": "velit",
-        "Tooltip": "fugiat",
-        "Label": "est",
-        "ValueLength": 51,
-        "AddressType": "fuga",
-        "TableRight": {
-          "Mask": "Delete",
-          "Reason": ""
-        },
+        "Name": "Cormier, Hackett and Langosh",
+        "Value": "eum",
+        "Tooltip": "dolores",
+        "Label": "iusto",
+        "ValueLength": 643,
+        "AddressType": "sit",
+        "TableRight": null,
         "FieldProperties": {
           "fieldName": {
-            "FieldRight": {
-              "Mask": "FULL",
-              "Reason": "streamline strategic eyeballs"
-            },
+            "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 861
+            "FieldLength": 277
           }
         }
       }
     ]
   ],
-  "Street": {
-    "AtypeIdx": "ContactPostalAddress",
-    "Address1": "fugiat",
-    "Address2": "quia",
-    "Address3": "corrupti",
-    "City": "aut",
-    "County": "nesciunt",
-    "State": "adipisci",
-    "Zipcode": "praesentium",
-    "Formatted": "aperiam"
-  },
-  "Postal": {
-    "AtypeIdx": "ContactPostalAddress",
-    "Address1": "illo",
-    "Address2": "eius",
-    "Address3": "officia",
-    "City": "rerum",
-    "County": "quam",
-    "State": "quia",
-    "Zipcode": "veritatis",
-    "Formatted": "recusandae"
-  },
-  "Formatted": "qui",
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "Street": null,
+  "Postal": null,
+  "Formatted": "voluptatibus",
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
+      "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 110
+      "FieldLength": 189
     }
   }
 }

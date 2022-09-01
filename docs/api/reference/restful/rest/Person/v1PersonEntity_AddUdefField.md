@@ -1,6 +1,6 @@
 ---
 title: POST Person/UdefLayout
-id: v1PersonEntity_AddUdefField
+uid: v1PersonEntity_AddUdefField
 ---
 
 # POST Person/UdefLayout
@@ -11,6 +11,12 @@ POST /api/v1/Person/UdefLayout
 
 Add a new field to the current PersonEntity user-defined field layout.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Add a new field to the current PersonEntity user-defined field layout.
 ```http
 POST /api/v1/Person/UdefLayout?udefFieldType=Checkbox
 ```
+
 
 ## Request Headers
 
@@ -34,18 +41,16 @@ POST /api/v1/Person/UdefLayout?udefFieldType=Checkbox
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response: object
 
-Return information about the user defined fields. The information can be used to mirror the layout of the user-defined fields in the user interface.
+## Response: 
 
-Carrier object for UserDefinedFieldInfo.
-Services for the UserDefinedFieldInfo Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent">UserDefinedFieldInfo Agent</see>.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -86,7 +91,7 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Person/UdefLayout
@@ -95,57 +100,53 @@ Accept: application/json; charset=utf-8
 Accept-Language: sv
 ```
 
+## Sample response
+
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 442,
-  "ColumnId": 602,
-  "FieldDefault": "non",
-  "FieldHeight": 997,
-  "FieldLabel": "incidunt",
-  "FieldLeft": 2,
-  "FieldTop": 222,
+  "UDefFieldId": 748,
+  "ColumnId": 296,
+  "FieldDefault": "omnis",
+  "FieldHeight": 387,
+  "FieldLabel": "nulla",
+  "FieldLeft": 425,
+  "FieldTop": 809,
   "FieldType": "Checkbox",
-  "FieldWidth": 169,
-  "FormatMask": "omnis",
+  "FieldWidth": 178,
+  "FormatMask": "sequi",
   "HideLabel": true,
-  "IsIndexed": false,
-  "LabelHeight": 380,
-  "LabelLeft": 265,
-  "LabelTop": 374,
-  "LabelWidth": 814,
-  "LastVersionId": 104,
-  "ListTableId": 956,
-  "IsMandatory": true,
+  "IsIndexed": true,
+  "LabelHeight": 912,
+  "LabelLeft": 130,
+  "LabelTop": 737,
+  "LabelWidth": 16,
+  "LastVersionId": 330,
+  "ListTableId": 473,
+  "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 127,
-  "ProgId": "iusto",
-  "IsReadOnly": true,
-  "ShortLabel": "assumenda",
-  "TabOrder": 130,
-  "TextLength": 371,
-  "Tooltip": "consequatur",
-  "UdefIdentity": 771,
-  "UDListDefinitionId": 946,
+  "Page1LineNo": 807,
+  "ProgId": "eligendi",
+  "IsReadOnly": false,
+  "ShortLabel": "soluta",
+  "TabOrder": 218,
+  "TextLength": 966,
+  "Tooltip": "perspiciatis",
+  "UdefIdentity": 328,
+  "UDListDefinitionId": 867,
   "Justification": "Center",
-  "Version": 19,
-  "TemplateVariableName": "Green-Ferry",
-  "HasBeenPublished": true,
-  "MdoListName": "McGlynn, Barrows and Gaylord",
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "Version": 245,
+  "TemplateVariableName": "Langworth-Mann",
+  "HasBeenPublished": false,
+  "MdoListName": "Schiller, Boehm and Rolfson",
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
-      "FieldType": "System.String",
-      "FieldLength": 79
+      "FieldRight": null,
+      "FieldType": "System.Int32",
+      "FieldLength": 564
     }
   }
 }

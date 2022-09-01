@@ -1,6 +1,6 @@
 ---
 title: POST Agents/ErpSync/SaveActorTypeMapping
-id: v1ErpSyncAgent_SaveActorTypeMapping
+uid: v1ErpSyncAgent_SaveActorTypeMapping
 ---
 
 # POST Agents/ErpSync/SaveActorTypeMapping
@@ -11,7 +11,15 @@ POST /api/v1/Agents/ErpSync/SaveActorTypeMapping
 
 Save mappings for a connection/actor
 
-## Online Restricted: ## The ErpSync agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for ERP integration apps
+
+
+
+## Online Restricted: ## The ErpSync agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for ERP integration apps.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +30,7 @@ Save mappings for a connection/actor
 ```http
 POST /api/v1/Agents/ErpSync/SaveActorTypeMapping?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,26 +46,24 @@ POST /api/v1/Agents/ErpSync/SaveActorTypeMapping?$select=name,department,categor
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-Mapping
+Mapping 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| Mapping |  | Mapping information for one Actor, contains array of field mappings (ERP &lt;-&gt; SuperOffice) <br /> Carrier object for ErpSyncActorTypeMapping. Services for the ErpSyncActorTypeMapping Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IErpSyncAgent">ErpSync Agent</see>. |
+| Mapping |  | Mapping information for one Actor, contains array of field mappings (ERP &lt;-&gt; SuperOffice) <para /> Carrier object for ErpSyncActorTypeMapping. Services for the ErpSyncActorTypeMapping Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IErpSyncAgent">ErpSync Agent</see>. |
 
-## Response: object
 
-Mapping information for one Actor, contains array of field mappings (ERP &lt;-&gt; SuperOffice)
+## Response: 
 
-Carrier object for ErpSyncActorTypeMapping.
-Services for the ErpSyncActorTypeMapping Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IErpSyncAgent">ErpSync Agent</see>.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -68,82 +75,66 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/ErpSync/SaveActorTypeMapping
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Mapping": {
-    "ErpConnectionId": 492,
-    "IsActive": true,
-    "FieldMappings": [
-      {},
-      {}
-    ],
-    "ActorTypeErp": "Customer",
-    "ActorTypeCrm": "Contact"
-  }
+  "Mapping": null
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 200,
-  "IsActive": false,
+  "ErpConnectionId": 968,
+  "IsActive": true,
   "FieldMappings": [
     {
-      "ErpFieldId": 892,
-      "CrmFieldKey": "reprehenderit",
-      "CrmDisplayName": "Gutmann LLC",
-      "CrmDisplayTooltip": "similique",
-      "ErpFieldKey": "ipsa",
+      "ErpFieldId": 705,
+      "CrmFieldKey": "molestias",
+      "CrmDisplayName": "Powlowski Inc and Sons",
+      "CrmDisplayTooltip": "velit",
+      "ErpFieldKey": "quaerat",
       "FieldType": "Checkbox",
-      "ErpDisplayName": "Dibbert, Steuber and Dibbert",
-      "ErpDisplayTooltip": "totam",
+      "ErpDisplayName": "Sanford, Bechtelar and Watsica",
+      "ErpDisplayTooltip": "sapiente",
       "SyncToCrm": true,
       "SyncToErp": false,
-      "ShowInGui": false,
-      "ShowInSearch": true,
-      "AlreadyMapped": true,
-      "MissingInERP": true,
-      "MissingInCRM": true,
+      "ShowInGui": true,
+      "ShowInSearch": false,
+      "AlreadyMapped": false,
+      "MissingInERP": false,
+      "MissingInCRM": false,
       "Access": "Mandatory",
-      "ListReference": "pariatur",
-      "TableRight": {},
+      "ListReference": "dolores",
+      "TableRight": null,
       "FieldProperties": {
         "fieldName": {
-          "FieldRight": {
-            "Mask": "FULL",
-            "Reason": ""
-          },
+          "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 183
+          "FieldLength": 943
         }
       }
     }
   ],
   "ActorTypeErp": "Customer",
   "ActorTypeCrm": "Contact",
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
+      "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 375
+      "FieldLength": 860
     }
   }
 }

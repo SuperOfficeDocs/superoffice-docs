@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Appointment/GetPersonAppointmentsByTasks
-id: v1AppointmentAgent_GetPersonAppointmentsByTasks
+uid: v1AppointmentAgent_GetPersonAppointmentsByTasks
 ---
 
 # POST Agents/Appointment/GetPersonAppointmentsByTasks
@@ -11,7 +11,13 @@ POST /api/v1/Agents/Appointment/GetPersonAppointmentsByTasks
 
 Method that returns a specified number of appointments from a list of appointment task types within a time range.
 
+
 The appointments belong to the person specified.  Task represents the different types of activities, like “Phone call”, “Meeting” and so on.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +28,7 @@ The appointments belong to the person specified.  Task represents the different 
 ```http
 POST /api/v1/Agents/Appointment/GetPersonAppointmentsByTasks?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,9 +44,9 @@ POST /api/v1/Agents/Appointment/GetPersonAppointmentsByTasks?$select=name,depart
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-PersonId, IncludeProjectAppointments, StartTime, EndTime, Count, TaskIds
+PersonId, IncludeProjectAppointments, StartTime, EndTime, Count, TaskIds 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -50,7 +57,10 @@ PersonId, IncludeProjectAppointments, StartTime, EndTime, Count, TaskIds
 | Count | int32 |  |
 | TaskIds | array |  |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -112,27 +122,29 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Appointment/GetPersonAppointmentsByTasks
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 747,
+  "PersonId": 392,
   "IncludeProjectAppointments": false,
-  "StartTime": "2002-11-30T18:28:47.6978174+01:00",
-  "EndTime": "2012-11-24T18:28:47.6978174+01:00",
-  "Count": 190,
+  "StartTime": "1999-03-07T11:10:25.4155237+01:00",
+  "EndTime": "2020-07-29T11:10:25.4155237+02:00",
+  "Count": 711,
   "TaskIds": [
-    101,
-    771
+    881,
+    123
   ]
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -140,67 +152,61 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 627,
-    "StartDate": "2000-10-28T18:28:47.6988176+02:00",
-    "EndDate": "2003-05-11T18:28:47.6988176+02:00",
+    "AppointmentId": 808,
+    "StartDate": "2013-01-12T11:10:25.4165639+01:00",
+    "EndDate": "2002-01-24T11:10:25.4165639+01:00",
     "Type": "BookingForChecklist",
-    "Task": "aut",
-    "AssociateFullName": "Heloise Carter",
-    "ContactName": "Schultz Group",
-    "Description": "Automated system-worthy policy",
-    "PersonFullName": "Ansel Cremin",
-    "PersonId": 339,
-    "ContactId": 982,
-    "ProjectId": 999,
-    "ProjectName": "Senger, Beer and Brown",
-    "IsPublished": true,
-    "AssociateId": 535,
-    "ColorIndex": 712,
+    "Task": "architecto",
+    "AssociateFullName": "Jalyn Pouros",
+    "ContactName": "Runolfsdottir-Corwin",
+    "Description": "Public-key encompassing function",
+    "PersonFullName": "Danika Ebert",
+    "PersonId": 398,
+    "ContactId": 70,
+    "ProjectId": 358,
+    "ProjectName": "Trantow Group",
+    "IsPublished": false,
+    "AssociateId": 162,
+    "ColorIndex": 572,
     "IsFree": true,
     "HasAlarm": true,
     "IsAlldayEvent": false,
     "Private": "PrivateGroup",
-    "PriorityId": 783,
-    "PriorityName": "Kuhic, Grant and Auer",
+    "PriorityId": 716,
+    "PriorityName": "Robel, Ullrich and Torp",
     "TaskType": "Appointment",
     "IsBookingMain": false,
-    "IsRecurrence": true,
-    "IsBooking": true,
-    "ActiveDate": "2008-10-23T18:28:47.6998171+02:00",
+    "IsRecurrence": false,
+    "IsBooking": false,
+    "ActiveDate": "2011-11-15T11:10:25.4175587+01:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2001-03-27T18:28:47.6998171+02:00",
-    "RecurringEndDate": "2018-10-06T18:28:47.6998171+02:00",
-    "MotherId": 757,
-    "AssignedBy": 103,
-    "AssignedByFullName": "Carmine Olson",
+    "RecurringStartDate": "2003-01-20T11:10:25.4175587+01:00",
+    "RecurringEndDate": "1996-02-01T11:10:25.4175587+01:00",
+    "MotherId": 322,
+    "AssignedBy": 519,
+    "AssignedByFullName": "Dr. Mallory Stiedemann Jr.",
     "RejectReason": "",
-    "Location": "rerum",
-    "AlarmLeadTime": "voluptatem",
-    "SaleId": 641,
-    "SaleName": "Cartwright-Farrell",
-    "AssociateName": "Kuhn-Spencer",
-    "CreatedDate": "2017-07-22T18:28:47.6998171+02:00",
-    "CreatedBy": "eum",
-    "CreatedByFullName": "Jo Fay",
-    "CreatedByAssociateId": 565,
+    "Location": "voluptas",
+    "AlarmLeadTime": "quae",
+    "SaleId": 151,
+    "SaleName": "Donnelly, Kuhic and Durgan",
+    "AssociateName": "Fisher, Eichmann and Rath",
+    "CreatedDate": "2006-12-30T11:10:25.4175587+01:00",
+    "CreatedBy": "voluptatem",
+    "CreatedByFullName": "Willis Baumbach",
+    "CreatedByAssociateId": 183,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 407
+        "FieldRight": null,
+        "FieldType": "System.Int32",
+        "FieldLength": 708
       }
     }
   }

@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "CreditedHeadingLink"
-so.date: 04.12.2022
+so.date: 08.26.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -30,6 +30,7 @@ Heading link table for Credited, for MDO headers
 |updated\_associate\_id|Last updated by whom|FK [associate](associate.md)| |
 |updatedCount|Number of updates made to this record|UShort| |
 
+
 ![CreditedHeadingLink table relationship diagram](./media/CreditedHeadingLink.png)
 
 [!include[details](./includes/creditedheadinglink.md)]
@@ -50,6 +51,7 @@ Heading link table for Credited, for MDO headers
 |[Credited](credited.md)  |Credited list table. List of who is to be credited for the sale. |
 |[Heading](heading.md)  |Heading items for all MDO lists, lists that are grouped and filtered. |
 
+
 ## Replication Flags
 
 * Replicate changes DOWN from central to satellites and travellers.
@@ -59,3 +61,4 @@ Heading link table for Credited, for MDO headers
 ## Security Flags
 
 * No access control via user's Role.
+

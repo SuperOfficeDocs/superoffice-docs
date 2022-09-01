@@ -8,11 +8,11 @@ title: Services88.ErpSyncAgent WSDL
 
 ```xml
 <?xml version="1.0" encoding="utf-8"?>
-<wsdl:definitions name="WcfErpSyncService" targetNamespace="http://www.superoffice.net/ws/crm/NetServer/Services88" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:tns="http://www.superoffice.net/ws/crm/NetServer/Services88" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<wsdl:definitions name="WcfErpSyncService" targetNamespace="http://www.superoffice.net/ws/crm/NetServer/Services88" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tns="http://www.superoffice.net/ws/crm/NetServer/Services88" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing">
   <wsdl:types>
     <xs:schema elementFormDefault="qualified" targetNamespace="http://www.superoffice.net/ws/crm/NetServer/Services88" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:ser="http://schemas.microsoft.com/2003/10/Serialization/">
-      <xs:import namespace="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
       <xs:import namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+      <xs:import namespace="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
       <xs:element name="CreateDefaultErpSyncConnectorEntity">
         <xs:complexType>
           <xs:sequence />
@@ -78,6 +78,22 @@ title: Services88.ErpSyncAgent WSDL
               <xs:enumeration value="Delete" />
               <xs:enumeration value="Filtering" />
               <xs:enumeration value="RestrictedUpdate" />
+              <xs:enumeration value="Unused1" />
+              <xs:enumeration value="Uninitialized" />
+              <xs:enumeration value="R">
+                <xs:annotation>
+                  <xs:appinfo>
+                    <EnumerationValue xmlns="http://schemas.microsoft.com/2003/10/Serialization/">1</EnumerationValue>
+                  </xs:appinfo>
+                </xs:annotation>
+              </xs:enumeration>
+              <xs:enumeration value="F">
+                <xs:annotation>
+                  <xs:appinfo>
+                    <EnumerationValue xmlns="http://schemas.microsoft.com/2003/10/Serialization/">16</EnumerationValue>
+                  </xs:appinfo>
+                </xs:annotation>
+              </xs:enumeration>
             </xs:restriction>
           </xs:simpleType>
         </xs:list>
@@ -129,6 +145,13 @@ title: Services88.ErpSyncAgent WSDL
               <xs:enumeration value="UIHintMandatory" />
               <xs:enumeration value="UIHintReadOnly" />
               <xs:enumeration value="UndefinedValue256" />
+              <xs:enumeration value="Nullable">
+                <xs:annotation>
+                  <xs:appinfo>
+                    <EnumerationValue xmlns="http://schemas.microsoft.com/2003/10/Serialization/">32</EnumerationValue>
+                  </xs:appinfo>
+                </xs:annotation>
+              </xs:enumeration>
             </xs:restriction>
           </xs:simpleType>
         </xs:list>
@@ -485,10 +508,56 @@ title: Services88.ErpSyncAgent WSDL
           </xs:sequence>
         </xs:complexType>
       </xs:element>
+      <xs:element name="GetAllConnectors">
+        <xs:complexType>
+          <xs:sequence />
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="GetAllConnectorsResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="Response" nillable="true" type="q52:ArrayOfListItem" xmlns:q52="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:complexType name="ArrayOfListItem">
+        <xs:sequence>
+          <xs:element minOccurs="0" maxOccurs="unbounded" name="ListItem" nillable="true" type="q53:ListItem" xmlns:q53="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:element name="ArrayOfListItem" nillable="true" type="q54:ArrayOfListItem" xmlns:q54="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+      <xs:complexType name="ListItem">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="Id" type="xs:int" />
+          <xs:element minOccurs="0" name="Name" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="ToolTip" nillable="true" type="xs:string" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:element name="ListItem" nillable="true" type="q55:ListItem" xmlns:q55="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+      <xs:element name="GetAllConnections">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="IncludeDeleted" type="xs:boolean" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="GetAllConnectionsResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="Response" nillable="true" type="q56:ArrayOfErpConnection" xmlns:q56="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:complexType name="ArrayOfErpConnection">
+        <xs:sequence>
+          <xs:element minOccurs="0" maxOccurs="unbounded" name="ErpConnection" nillable="true" type="q57:ErpConnection" xmlns:q57="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:element name="ArrayOfErpConnection" nillable="true" type="q58:ArrayOfErpConnection" xmlns:q58="http://www.superoffice.net/ws/crm/NetServer/Services88" />
       <xs:element name="GetConnectionsAndDisplayFields">
         <xs:complexType>
           <xs:sequence>
-            <xs:element minOccurs="0" name="CrmActorType" type="q52:CrmActorType" xmlns:q52="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+            <xs:element minOccurs="0" name="CrmActorType" type="q59:CrmActorType" xmlns:q59="http://www.superoffice.net/ws/crm/NetServer/Services88" />
             <xs:element minOccurs="0" name="EntityId" type="xs:int" />
           </xs:sequence>
         </xs:complexType>
@@ -507,56 +576,56 @@ title: Services88.ErpSyncAgent WSDL
           <xs:enumeration value="Sale" />
         </xs:restriction>
       </xs:simpleType>
-      <xs:element name="CrmActorType" nillable="true" type="q53:CrmActorType" xmlns:q53="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+      <xs:element name="CrmActorType" nillable="true" type="q60:CrmActorType" xmlns:q60="http://www.superoffice.net/ws/crm/NetServer/Services88" />
       <xs:element name="GetConnectionsAndDisplayFieldsResponse">
         <xs:complexType>
           <xs:sequence>
-            <xs:element minOccurs="0" name="Response" nillable="true" type="q54:ArrayOfErpConnectionData" xmlns:q54="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+            <xs:element minOccurs="0" name="Response" nillable="true" type="q61:ArrayOfErpConnectionData" xmlns:q61="http://www.superoffice.net/ws/crm/NetServer/Services88" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
       <xs:complexType name="ArrayOfErpConnectionData">
         <xs:sequence>
-          <xs:element minOccurs="0" maxOccurs="unbounded" name="ErpConnectionData" nillable="true" type="q55:ErpConnectionData" xmlns:q55="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+          <xs:element minOccurs="0" maxOccurs="unbounded" name="ErpConnectionData" nillable="true" type="q62:ErpConnectionData" xmlns:q62="http://www.superoffice.net/ws/crm/NetServer/Services88" />
         </xs:sequence>
       </xs:complexType>
-      <xs:element name="ArrayOfErpConnectionData" nillable="true" type="q56:ArrayOfErpConnectionData" xmlns:q56="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+      <xs:element name="ArrayOfErpConnectionData" nillable="true" type="q63:ArrayOfErpConnectionData" xmlns:q63="http://www.superoffice.net/ws/crm/NetServer/Services88" />
       <xs:complexType name="ErpConnectionData">
         <xs:complexContent mixed="false">
-          <xs:extension base="q57:Carrier" xmlns:q57="http://www.superoffice.net/ws/crm/NetServer/Services88">
+          <xs:extension base="q64:Carrier" xmlns:q64="http://www.superoffice.net/ws/crm/NetServer/Services88">
             <xs:sequence>
               <xs:element minOccurs="0" name="ErpConnectionId" type="xs:int" />
               <xs:element minOccurs="0" name="ConnectionName" nillable="true" type="xs:string" />
               <xs:element minOccurs="0" name="Connected" type="xs:boolean" />
-              <xs:element minOccurs="0" name="ErpFields" nillable="true" type="q57:ArrayOfFieldMetadata" />
-              <xs:element minOccurs="0" name="CrmActorType" type="q57:CrmActorType" />
-              <xs:element minOccurs="0" name="ErpActorType" type="q57:ErpActorType" />
-              <xs:element minOccurs="0" name="ErpActorTypes" nillable="true" type="q57:ArrayOfErpActorType" />
+              <xs:element minOccurs="0" name="ErpFields" nillable="true" type="q64:ArrayOfFieldMetadata" />
+              <xs:element minOccurs="0" name="CrmActorType" type="q64:CrmActorType" />
+              <xs:element minOccurs="0" name="ErpActorType" type="q64:ErpActorType" />
+              <xs:element minOccurs="0" name="ErpActorTypes" nillable="true" type="q64:ArrayOfErpActorType" />
             </xs:sequence>
           </xs:extension>
         </xs:complexContent>
       </xs:complexType>
-      <xs:element name="ErpConnectionData" nillable="true" type="q58:ErpConnectionData" xmlns:q58="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+      <xs:element name="ErpConnectionData" nillable="true" type="q65:ErpConnectionData" xmlns:q65="http://www.superoffice.net/ws/crm/NetServer/Services88" />
       <xs:complexType name="ArrayOfErpActorType">
         <xs:sequence>
-          <xs:element minOccurs="0" maxOccurs="unbounded" name="ErpActorType" type="q59:ErpActorType" xmlns:q59="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+          <xs:element minOccurs="0" maxOccurs="unbounded" name="ErpActorType" type="q66:ErpActorType" xmlns:q66="http://www.superoffice.net/ws/crm/NetServer/Services88" />
         </xs:sequence>
       </xs:complexType>
-      <xs:element name="ArrayOfErpActorType" nillable="true" type="q60:ArrayOfErpActorType" xmlns:q60="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+      <xs:element name="ArrayOfErpActorType" nillable="true" type="q67:ArrayOfErpActorType" xmlns:q67="http://www.superoffice.net/ws/crm/NetServer/Services88" />
       <xs:element name="GetErpFieldValues">
         <xs:complexType>
           <xs:sequence>
             <xs:element minOccurs="0" name="ErpConnectionId" type="xs:int" />
-            <xs:element minOccurs="0" name="CrmActorType" type="q61:CrmActorType" xmlns:q61="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+            <xs:element minOccurs="0" name="CrmActorType" type="q68:CrmActorType" xmlns:q68="http://www.superoffice.net/ws/crm/NetServer/Services88" />
             <xs:element minOccurs="0" name="EntityId" type="xs:int" />
-            <xs:element minOccurs="0" name="FieldKeys" nillable="true" type="q62:ArrayOfstring" xmlns:q62="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+            <xs:element minOccurs="0" name="FieldKeys" nillable="true" type="q69:ArrayOfstring" xmlns:q69="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
       <xs:element name="GetErpFieldValuesResponse">
         <xs:complexType>
           <xs:sequence>
-            <xs:element minOccurs="0" name="Response" nillable="true" type="q63:ArrayOfstring" xmlns:q63="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+            <xs:element minOccurs="0" name="Response" nillable="true" type="q70:ArrayOfstring" xmlns:q70="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
@@ -564,14 +633,14 @@ title: Services88.ErpSyncAgent WSDL
         <xs:complexType>
           <xs:sequence>
             <xs:element minOccurs="0" name="ErpConnectionId" type="xs:int" />
-            <xs:element minOccurs="0" name="ErpActorType" type="q64:ErpActorType" xmlns:q64="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+            <xs:element minOccurs="0" name="ErpActorType" type="q71:ErpActorType" xmlns:q71="http://www.superoffice.net/ws/crm/NetServer/Services88" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
       <xs:element name="GetFieldsForNewErpActorResponse">
         <xs:complexType>
           <xs:sequence>
-            <xs:element minOccurs="0" name="Response" nillable="true" type="q65:ArrayOfFieldMetadata" xmlns:q65="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+            <xs:element minOccurs="0" name="Response" nillable="true" type="q72:ArrayOfFieldMetadata" xmlns:q72="http://www.superoffice.net/ws/crm/NetServer/Services88" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
@@ -585,45 +654,45 @@ title: Services88.ErpSyncAgent WSDL
       <xs:element name="GetConnectionListMappingsResponse">
         <xs:complexType>
           <xs:sequence>
-            <xs:element minOccurs="0" name="Response" nillable="true" type="q66:ErpConnectionListMappingContainer" xmlns:q66="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+            <xs:element minOccurs="0" name="Response" nillable="true" type="q73:ErpConnectionListMappingContainer" xmlns:q73="http://www.superoffice.net/ws/crm/NetServer/Services88" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
       <xs:complexType name="ErpConnectionListMappingContainer">
         <xs:complexContent mixed="false">
-          <xs:extension base="q67:Carrier" xmlns:q67="http://www.superoffice.net/ws/crm/NetServer/Services88">
+          <xs:extension base="q74:Carrier" xmlns:q74="http://www.superoffice.net/ws/crm/NetServer/Services88">
             <xs:sequence>
-              <xs:element minOccurs="0" name="ErpListItemMappings" nillable="true" type="q67:ArrayOfErpConnectionListMapping" />
+              <xs:element minOccurs="0" name="ErpListItemMappings" nillable="true" type="q74:ArrayOfErpConnectionListMapping" />
               <xs:element minOccurs="0" name="ErpConnectionId" type="xs:int" />
               <xs:element minOccurs="0" name="ErpConnectionName" nillable="true" type="xs:string" />
             </xs:sequence>
           </xs:extension>
         </xs:complexContent>
       </xs:complexType>
-      <xs:element name="ErpConnectionListMappingContainer" nillable="true" type="q68:ErpConnectionListMappingContainer" xmlns:q68="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+      <xs:element name="ErpConnectionListMappingContainer" nillable="true" type="q75:ErpConnectionListMappingContainer" xmlns:q75="http://www.superoffice.net/ws/crm/NetServer/Services88" />
       <xs:complexType name="ArrayOfErpConnectionListMapping">
         <xs:sequence>
-          <xs:element minOccurs="0" maxOccurs="unbounded" name="ErpConnectionListMapping" nillable="true" type="q69:ErpConnectionListMapping" xmlns:q69="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+          <xs:element minOccurs="0" maxOccurs="unbounded" name="ErpConnectionListMapping" nillable="true" type="q76:ErpConnectionListMapping" xmlns:q76="http://www.superoffice.net/ws/crm/NetServer/Services88" />
         </xs:sequence>
       </xs:complexType>
-      <xs:element name="ArrayOfErpConnectionListMapping" nillable="true" type="q70:ArrayOfErpConnectionListMapping" xmlns:q70="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+      <xs:element name="ArrayOfErpConnectionListMapping" nillable="true" type="q77:ArrayOfErpConnectionListMapping" xmlns:q77="http://www.superoffice.net/ws/crm/NetServer/Services88" />
       <xs:complexType name="ErpConnectionListMapping">
         <xs:complexContent mixed="false">
-          <xs:extension base="q71:Carrier" xmlns:q71="http://www.superoffice.net/ws/crm/NetServer/Services88">
+          <xs:extension base="q78:Carrier" xmlns:q78="http://www.superoffice.net/ws/crm/NetServer/Services88">
             <xs:sequence>
-              <xs:element minOccurs="0" name="CrmList" nillable="true" type="q71:MDOListItem" />
+              <xs:element minOccurs="0" name="CrmList" nillable="true" type="q78:MDOListItem" />
               <xs:element minOccurs="0" name="ErpListName" nillable="true" type="xs:string" />
-              <xs:element minOccurs="0" name="ErpCrmListItemMappings" nillable="true" type="q71:ArrayOfErpCrmListItemMapping" />
+              <xs:element minOccurs="0" name="ErpCrmListItemMappings" nillable="true" type="q78:ArrayOfErpCrmListItemMapping" />
               <xs:element minOccurs="0" name="ErpActorTypeName" nillable="true" type="xs:string" />
               <xs:element minOccurs="0" name="ErpFieldId" type="xs:int" />
             </xs:sequence>
           </xs:extension>
         </xs:complexContent>
       </xs:complexType>
-      <xs:element name="ErpConnectionListMapping" nillable="true" type="q72:ErpConnectionListMapping" xmlns:q72="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+      <xs:element name="ErpConnectionListMapping" nillable="true" type="q79:ErpConnectionListMapping" xmlns:q79="http://www.superoffice.net/ws/crm/NetServer/Services88" />
       <xs:complexType name="MDOListItem">
         <xs:complexContent mixed="false">
-          <xs:extension base="q73:Carrier" xmlns:q73="http://www.superoffice.net/ws/crm/NetServer/Services88">
+          <xs:extension base="q80:Carrier" xmlns:q80="http://www.superoffice.net/ws/crm/NetServer/Services88">
             <xs:sequence>
               <xs:element minOccurs="0" name="Id" type="xs:int" />
               <xs:element minOccurs="0" name="Name" nillable="true" type="xs:string" />
@@ -631,7 +700,7 @@ title: Services88.ErpSyncAgent WSDL
               <xs:element minOccurs="0" name="Deleted" type="xs:boolean" />
               <xs:element minOccurs="0" name="Rank" type="xs:int" />
               <xs:element minOccurs="0" name="Type" nillable="true" type="xs:string" />
-              <xs:element minOccurs="0" name="ChildItems" nillable="true" type="q73:ArrayOfMDOListItem" />
+              <xs:element minOccurs="0" name="ChildItems" nillable="true" type="q80:ArrayOfMDOListItem" />
               <xs:element minOccurs="0" name="IconHint" nillable="true" type="xs:string" />
               <xs:element minOccurs="0" name="ColorBlock" type="xs:int" />
               <xs:element minOccurs="0" name="ExtraInfo" nillable="true" type="xs:string" />
@@ -641,42 +710,42 @@ title: Services88.ErpSyncAgent WSDL
           </xs:extension>
         </xs:complexContent>
       </xs:complexType>
-      <xs:element name="MDOListItem" nillable="true" type="q74:MDOListItem" xmlns:q74="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+      <xs:element name="MDOListItem" nillable="true" type="q81:MDOListItem" xmlns:q81="http://www.superoffice.net/ws/crm/NetServer/Services88" />
       <xs:complexType name="ArrayOfMDOListItem">
         <xs:sequence>
-          <xs:element minOccurs="0" maxOccurs="unbounded" name="MDOListItem" nillable="true" type="q75:MDOListItem" xmlns:q75="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+          <xs:element minOccurs="0" maxOccurs="unbounded" name="MDOListItem" nillable="true" type="q82:MDOListItem" xmlns:q82="http://www.superoffice.net/ws/crm/NetServer/Services88" />
         </xs:sequence>
       </xs:complexType>
-      <xs:element name="ArrayOfMDOListItem" nillable="true" type="q76:ArrayOfMDOListItem" xmlns:q76="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+      <xs:element name="ArrayOfMDOListItem" nillable="true" type="q83:ArrayOfMDOListItem" xmlns:q83="http://www.superoffice.net/ws/crm/NetServer/Services88" />
       <xs:complexType name="ArrayOfErpCrmListItemMapping">
         <xs:sequence>
-          <xs:element minOccurs="0" maxOccurs="unbounded" name="ErpCrmListItemMapping" nillable="true" type="q77:ErpCrmListItemMapping" xmlns:q77="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+          <xs:element minOccurs="0" maxOccurs="unbounded" name="ErpCrmListItemMapping" nillable="true" type="q84:ErpCrmListItemMapping" xmlns:q84="http://www.superoffice.net/ws/crm/NetServer/Services88" />
         </xs:sequence>
       </xs:complexType>
-      <xs:element name="ArrayOfErpCrmListItemMapping" nillable="true" type="q78:ArrayOfErpCrmListItemMapping" xmlns:q78="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+      <xs:element name="ArrayOfErpCrmListItemMapping" nillable="true" type="q85:ArrayOfErpCrmListItemMapping" xmlns:q85="http://www.superoffice.net/ws/crm/NetServer/Services88" />
       <xs:complexType name="ErpCrmListItemMapping">
         <xs:complexContent mixed="false">
-          <xs:extension base="q79:Carrier" xmlns:q79="http://www.superoffice.net/ws/crm/NetServer/Services88">
+          <xs:extension base="q86:Carrier" xmlns:q86="http://www.superoffice.net/ws/crm/NetServer/Services88">
             <xs:sequence>
               <xs:element minOccurs="0" name="ErpListItemId" nillable="true" type="xs:string" />
               <xs:element minOccurs="0" name="ErpListItemName" nillable="true" type="xs:string" />
-              <xs:element minOccurs="0" name="CrmListItem" nillable="true" type="q79:MDOListItem" />
+              <xs:element minOccurs="0" name="CrmListItem" nillable="true" type="q86:MDOListItem" />
             </xs:sequence>
           </xs:extension>
         </xs:complexContent>
       </xs:complexType>
-      <xs:element name="ErpCrmListItemMapping" nillable="true" type="q80:ErpCrmListItemMapping" xmlns:q80="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+      <xs:element name="ErpCrmListItemMapping" nillable="true" type="q87:ErpCrmListItemMapping" xmlns:q87="http://www.superoffice.net/ws/crm/NetServer/Services88" />
       <xs:element name="SaveConnectionListMappings">
         <xs:complexType>
           <xs:sequence>
-            <xs:element minOccurs="0" name="ListMapping" nillable="true" type="q81:ErpConnectionListMappingContainer" xmlns:q81="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+            <xs:element minOccurs="0" name="ListMapping" nillable="true" type="q88:ErpConnectionListMappingContainer" xmlns:q88="http://www.superoffice.net/ws/crm/NetServer/Services88" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
       <xs:element name="SaveConnectionListMappingsResponse">
         <xs:complexType>
           <xs:sequence>
-            <xs:element minOccurs="0" name="Response" nillable="true" type="q82:ErpConnectionListMappingContainer" xmlns:q82="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+            <xs:element minOccurs="0" name="Response" nillable="true" type="q89:ErpConnectionListMappingContainer" xmlns:q89="http://www.superoffice.net/ws/crm/NetServer/Services88" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
@@ -685,22 +754,22 @@ title: Services88.ErpSyncAgent WSDL
           <xs:sequence>
             <xs:element minOccurs="0" name="ErpConnectionId" type="xs:int" />
             <xs:element minOccurs="0" name="CrmRecordId" type="xs:int" />
-            <xs:element minOccurs="0" name="CrmActorType" type="q83:CrmActorType" xmlns:q83="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+            <xs:element minOccurs="0" name="CrmActorType" type="q90:CrmActorType" xmlns:q90="http://www.superoffice.net/ws/crm/NetServer/Services88" />
             <xs:element minOccurs="0" name="ErpKey" nillable="true" type="xs:string" />
-            <xs:element minOccurs="0" name="ErpActorType" type="q84:ErpActorType" xmlns:q84="http://www.superoffice.net/ws/crm/NetServer/Services88" />
-            <xs:element minOccurs="0" name="FieldValues" nillable="true" type="q85:ArrayOfErpSyncFieldValue" xmlns:q85="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+            <xs:element minOccurs="0" name="ErpActorType" type="q91:ErpActorType" xmlns:q91="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+            <xs:element minOccurs="0" name="FieldValues" nillable="true" type="q92:ArrayOfErpSyncFieldValue" xmlns:q92="http://www.superoffice.net/ws/crm/NetServer/Services88" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
       <xs:complexType name="ArrayOfErpSyncFieldValue">
         <xs:sequence>
-          <xs:element minOccurs="0" maxOccurs="unbounded" name="ErpSyncFieldValue" nillable="true" type="q86:ErpSyncFieldValue" xmlns:q86="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+          <xs:element minOccurs="0" maxOccurs="unbounded" name="ErpSyncFieldValue" nillable="true" type="q93:ErpSyncFieldValue" xmlns:q93="http://www.superoffice.net/ws/crm/NetServer/Services88" />
         </xs:sequence>
       </xs:complexType>
-      <xs:element name="ArrayOfErpSyncFieldValue" nillable="true" type="q87:ArrayOfErpSyncFieldValue" xmlns:q87="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+      <xs:element name="ArrayOfErpSyncFieldValue" nillable="true" type="q94:ArrayOfErpSyncFieldValue" xmlns:q94="http://www.superoffice.net/ws/crm/NetServer/Services88" />
       <xs:complexType name="ErpSyncFieldValue">
         <xs:complexContent mixed="false">
-          <xs:extension base="q88:Carrier" xmlns:q88="http://www.superoffice.net/ws/crm/NetServer/Services88">
+          <xs:extension base="q95:Carrier" xmlns:q95="http://www.superoffice.net/ws/crm/NetServer/Services88">
             <xs:sequence>
               <xs:element minOccurs="0" name="DisplayName" nillable="true" type="xs:string" />
               <xs:element minOccurs="0" name="CrmFieldKey" nillable="true" type="xs:string" />
@@ -712,7 +781,7 @@ title: Services88.ErpSyncAgent WSDL
           </xs:extension>
         </xs:complexContent>
       </xs:complexType>
-      <xs:element name="ErpSyncFieldValue" nillable="true" type="q89:ErpSyncFieldValue" xmlns:q89="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+      <xs:element name="ErpSyncFieldValue" nillable="true" type="q96:ErpSyncFieldValue" xmlns:q96="http://www.superoffice.net/ws/crm/NetServer/Services88" />
       <xs:element name="ConnectActorResponse">
         <xs:complexType>
           <xs:sequence />
@@ -723,10 +792,10 @@ title: Services88.ErpSyncAgent WSDL
           <xs:sequence>
             <xs:element minOccurs="0" name="ErpConnectionId" type="xs:int" />
             <xs:element minOccurs="0" name="CrmRecordId" type="xs:int" />
-            <xs:element minOccurs="0" name="CrmActorType" type="q90:CrmActorType" xmlns:q90="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+            <xs:element minOccurs="0" name="CrmActorType" type="q97:CrmActorType" xmlns:q97="http://www.superoffice.net/ws/crm/NetServer/Services88" />
             <xs:element minOccurs="0" name="ErpKey" nillable="true" type="xs:string" />
-            <xs:element minOccurs="0" name="ErpActorType" type="q91:ErpActorType" xmlns:q91="http://www.superoffice.net/ws/crm/NetServer/Services88" />
-            <xs:element minOccurs="0" name="FieldValues" nillable="true" type="q92:ArrayOfErpSyncFieldValue" xmlns:q92="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+            <xs:element minOccurs="0" name="ErpActorType" type="q98:ErpActorType" xmlns:q98="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+            <xs:element minOccurs="0" name="FieldValues" nillable="true" type="q99:ArrayOfErpSyncFieldValue" xmlns:q99="http://www.superoffice.net/ws/crm/NetServer/Services88" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
@@ -741,14 +810,14 @@ title: Services88.ErpSyncAgent WSDL
         <xs:complexType>
           <xs:sequence>
             <xs:element minOccurs="0" name="RecordId" type="xs:int" />
-            <xs:element minOccurs="0" name="ActorTypeCrm" type="q93:CrmActorType" xmlns:q93="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+            <xs:element minOccurs="0" name="ActorTypeCrm" type="q100:CrmActorType" xmlns:q100="http://www.superoffice.net/ws/crm/NetServer/Services88" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
       <xs:element name="GetFieldValuesFromCrmResponse">
         <xs:complexType>
           <xs:sequence>
-            <xs:element minOccurs="0" name="Response" nillable="true" type="q94:ArrayOfErpSyncFieldValue" xmlns:q94="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+            <xs:element minOccurs="0" name="Response" nillable="true" type="q101:ArrayOfErpSyncFieldValue" xmlns:q101="http://www.superoffice.net/ws/crm/NetServer/Services88" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
@@ -756,7 +825,7 @@ title: Services88.ErpSyncAgent WSDL
         <xs:complexType>
           <xs:sequence>
             <xs:element minOccurs="0" name="ErpConnectionId" type="xs:int" />
-            <xs:element minOccurs="0" name="ActorTypeErp" type="q95:ErpActorType" xmlns:q95="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+            <xs:element minOccurs="0" name="ActorTypeErp" type="q102:ErpActorType" xmlns:q102="http://www.superoffice.net/ws/crm/NetServer/Services88" />
             <xs:element minOccurs="0" name="ErpKey" nillable="true" type="xs:string" />
           </xs:sequence>
         </xs:complexType>
@@ -764,7 +833,7 @@ title: Services88.ErpSyncAgent WSDL
       <xs:element name="GetFieldValuesFromErpResponse">
         <xs:complexType>
           <xs:sequence>
-            <xs:element minOccurs="0" name="Response" nillable="true" type="q96:ArrayOfErpSyncFieldValue" xmlns:q96="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+            <xs:element minOccurs="0" name="Response" nillable="true" type="q103:ArrayOfErpSyncFieldValue" xmlns:q103="http://www.superoffice.net/ws/crm/NetServer/Services88" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
@@ -772,47 +841,47 @@ title: Services88.ErpSyncAgent WSDL
         <xs:complexType>
           <xs:sequence>
             <xs:element minOccurs="0" name="ErpConnectionId" type="xs:int" />
-            <xs:element minOccurs="0" name="ActorType" type="q97:ErpActorType" xmlns:q97="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+            <xs:element minOccurs="0" name="ActorType" type="q104:ErpActorType" xmlns:q104="http://www.superoffice.net/ws/crm/NetServer/Services88" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
       <xs:element name="GetActorTypeMappingResponse">
         <xs:complexType>
           <xs:sequence>
-            <xs:element minOccurs="0" name="Response" nillable="true" type="q98:ErpSyncActorTypeMapping" xmlns:q98="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+            <xs:element minOccurs="0" name="Response" nillable="true" type="q105:ErpSyncActorTypeMapping" xmlns:q105="http://www.superoffice.net/ws/crm/NetServer/Services88" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
       <xs:complexType name="ErpSyncActorTypeMapping">
         <xs:complexContent mixed="false">
-          <xs:extension base="q99:Carrier" xmlns:q99="http://www.superoffice.net/ws/crm/NetServer/Services88">
+          <xs:extension base="q106:Carrier" xmlns:q106="http://www.superoffice.net/ws/crm/NetServer/Services88">
             <xs:sequence>
               <xs:element minOccurs="0" name="ErpConnectionId" type="xs:int" />
               <xs:element minOccurs="0" name="IsActive" type="xs:boolean" />
-              <xs:element minOccurs="0" name="FieldMappings" nillable="true" type="q99:ArrayOfErpSyncFieldMapping" />
-              <xs:element minOccurs="0" name="ActorTypeErp" type="q99:ErpActorType" />
-              <xs:element minOccurs="0" name="ActorTypeCrm" type="q99:CrmActorType" />
+              <xs:element minOccurs="0" name="FieldMappings" nillable="true" type="q106:ArrayOfErpSyncFieldMapping" />
+              <xs:element minOccurs="0" name="ActorTypeErp" type="q106:ErpActorType" />
+              <xs:element minOccurs="0" name="ActorTypeCrm" type="q106:CrmActorType" />
             </xs:sequence>
           </xs:extension>
         </xs:complexContent>
       </xs:complexType>
-      <xs:element name="ErpSyncActorTypeMapping" nillable="true" type="q100:ErpSyncActorTypeMapping" xmlns:q100="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+      <xs:element name="ErpSyncActorTypeMapping" nillable="true" type="q107:ErpSyncActorTypeMapping" xmlns:q107="http://www.superoffice.net/ws/crm/NetServer/Services88" />
       <xs:complexType name="ArrayOfErpSyncFieldMapping">
         <xs:sequence>
-          <xs:element minOccurs="0" maxOccurs="unbounded" name="ErpSyncFieldMapping" nillable="true" type="q101:ErpSyncFieldMapping" xmlns:q101="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+          <xs:element minOccurs="0" maxOccurs="unbounded" name="ErpSyncFieldMapping" nillable="true" type="q108:ErpSyncFieldMapping" xmlns:q108="http://www.superoffice.net/ws/crm/NetServer/Services88" />
         </xs:sequence>
       </xs:complexType>
-      <xs:element name="ArrayOfErpSyncFieldMapping" nillable="true" type="q102:ArrayOfErpSyncFieldMapping" xmlns:q102="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+      <xs:element name="ArrayOfErpSyncFieldMapping" nillable="true" type="q109:ArrayOfErpSyncFieldMapping" xmlns:q109="http://www.superoffice.net/ws/crm/NetServer/Services88" />
       <xs:complexType name="ErpSyncFieldMapping">
         <xs:complexContent mixed="false">
-          <xs:extension base="q103:Carrier" xmlns:q103="http://www.superoffice.net/ws/crm/NetServer/Services88">
+          <xs:extension base="q110:Carrier" xmlns:q110="http://www.superoffice.net/ws/crm/NetServer/Services88">
             <xs:sequence>
               <xs:element minOccurs="0" name="ErpFieldId" type="xs:int" />
               <xs:element minOccurs="0" name="CrmFieldKey" nillable="true" type="xs:string" />
               <xs:element minOccurs="0" name="CrmDisplayName" nillable="true" type="xs:string" />
               <xs:element minOccurs="0" name="CrmDisplayTooltip" nillable="true" type="xs:string" />
               <xs:element minOccurs="0" name="ErpFieldKey" nillable="true" type="xs:string" />
-              <xs:element minOccurs="0" name="FieldType" type="q103:FieldMetadataType" />
+              <xs:element minOccurs="0" name="FieldType" type="q110:FieldMetadataType" />
               <xs:element minOccurs="0" name="ErpDisplayName" nillable="true" type="xs:string" />
               <xs:element minOccurs="0" name="ErpDisplayTooltip" nillable="true" type="xs:string" />
               <xs:element minOccurs="0" name="SyncToCrm" type="xs:boolean" />
@@ -822,21 +891,21 @@ title: Services88.ErpSyncAgent WSDL
               <xs:element minOccurs="0" name="AlreadyMapped" type="xs:boolean" />
               <xs:element minOccurs="0" name="MissingInERP" type="xs:boolean" />
               <xs:element minOccurs="0" name="MissingInCRM" type="xs:boolean" />
-              <xs:element minOccurs="0" name="Access" type="q103:FieldAccess" />
+              <xs:element minOccurs="0" name="Access" type="q110:FieldAccess" />
               <xs:element minOccurs="0" name="ListReference" nillable="true" type="xs:string" />
             </xs:sequence>
           </xs:extension>
         </xs:complexContent>
       </xs:complexType>
-      <xs:element name="ErpSyncFieldMapping" nillable="true" type="q104:ErpSyncFieldMapping" xmlns:q104="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+      <xs:element name="ErpSyncFieldMapping" nillable="true" type="q111:ErpSyncFieldMapping" xmlns:q111="http://www.superoffice.net/ws/crm/NetServer/Services88" />
       <xs:element name="CreateActorLink">
         <xs:complexType>
           <xs:sequence>
             <xs:element minOccurs="0" name="ErpConnectionId" type="xs:int" />
             <xs:element minOccurs="0" name="CrmRecordId" type="xs:int" />
-            <xs:element minOccurs="0" name="CrmActorType" type="q105:CrmActorType" xmlns:q105="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+            <xs:element minOccurs="0" name="CrmActorType" type="q112:CrmActorType" xmlns:q112="http://www.superoffice.net/ws/crm/NetServer/Services88" />
             <xs:element minOccurs="0" name="ErpKey" nillable="true" type="xs:string" />
-            <xs:element minOccurs="0" name="ErpActorType" type="q106:ErpActorType" xmlns:q106="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+            <xs:element minOccurs="0" name="ErpActorType" type="q113:ErpActorType" xmlns:q113="http://www.superoffice.net/ws/crm/NetServer/Services88" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
@@ -852,7 +921,7 @@ title: Services88.ErpSyncAgent WSDL
           <xs:sequence>
             <xs:element minOccurs="0" name="ErpConnectionId" type="xs:int" />
             <xs:element minOccurs="0" name="CrmRecordId" type="xs:int" />
-            <xs:element minOccurs="0" name="CrmActorType" type="q107:CrmActorType" xmlns:q107="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+            <xs:element minOccurs="0" name="CrmActorType" type="q114:CrmActorType" xmlns:q114="http://www.superoffice.net/ws/crm/NetServer/Services88" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
@@ -868,9 +937,9 @@ title: Services88.ErpSyncAgent WSDL
           <xs:sequence>
             <xs:element minOccurs="0" name="ConnectionId" type="xs:int" />
             <xs:element minOccurs="0" name="CrmEntityId" type="xs:int" />
-            <xs:element minOccurs="0" name="ErpActorType" type="q108:ErpActorType" xmlns:q108="http://www.superoffice.net/ws/crm/NetServer/Services88" />
-            <xs:element minOccurs="0" name="CrmActorType" type="q109:CrmActorType" xmlns:q109="http://www.superoffice.net/ws/crm/NetServer/Services88" />
-            <xs:element minOccurs="0" name="ErpFieldKeyValues" nillable="true" type="q110:StringDictionary" xmlns:q110="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+            <xs:element minOccurs="0" name="ErpActorType" type="q115:ErpActorType" xmlns:q115="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+            <xs:element minOccurs="0" name="CrmActorType" type="q116:CrmActorType" xmlns:q116="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+            <xs:element minOccurs="0" name="ErpFieldKeyValues" nillable="true" type="q117:StringDictionary" xmlns:q117="http://www.superoffice.net/ws/crm/NetServer/Services88" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
@@ -884,14 +953,14 @@ title: Services88.ErpSyncAgent WSDL
       <xs:element name="SaveActorTypeMapping">
         <xs:complexType>
           <xs:sequence>
-            <xs:element minOccurs="0" name="Mapping" nillable="true" type="q111:ErpSyncActorTypeMapping" xmlns:q111="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+            <xs:element minOccurs="0" name="Mapping" nillable="true" type="q118:ErpSyncActorTypeMapping" xmlns:q118="http://www.superoffice.net/ws/crm/NetServer/Services88" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
       <xs:element name="SaveActorTypeMappingResponse">
         <xs:complexType>
           <xs:sequence>
-            <xs:element minOccurs="0" name="Response" nillable="true" type="q112:ErpSyncActorTypeMapping" xmlns:q112="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+            <xs:element minOccurs="0" name="Response" nillable="true" type="q119:ErpSyncActorTypeMapping" xmlns:q119="http://www.superoffice.net/ws/crm/NetServer/Services88" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
@@ -926,14 +995,14 @@ title: Services88.ErpSyncAgent WSDL
         <xs:complexType>
           <xs:sequence>
             <xs:element minOccurs="0" name="ErpConnectionId" type="xs:int" />
-            <xs:element minOccurs="0" name="ErpActorType" type="q113:ErpActorType" xmlns:q113="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+            <xs:element minOccurs="0" name="ErpActorType" type="q120:ErpActorType" xmlns:q120="http://www.superoffice.net/ws/crm/NetServer/Services88" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
       <xs:element name="GetCrmActorTypeResponse">
         <xs:complexType>
           <xs:sequence>
-            <xs:element minOccurs="0" name="Response" type="q114:CrmActorType" xmlns:q114="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+            <xs:element minOccurs="0" name="Response" type="q121:CrmActorType" xmlns:q121="http://www.superoffice.net/ws/crm/NetServer/Services88" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
@@ -947,36 +1016,36 @@ title: Services88.ErpSyncAgent WSDL
       <xs:element name="GetErpSyncConnectionSummaryResponse">
         <xs:complexType>
           <xs:sequence>
-            <xs:element minOccurs="0" name="Response" nillable="true" type="q115:ErpSyncConnectionSummary" xmlns:q115="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+            <xs:element minOccurs="0" name="Response" nillable="true" type="q122:ErpSyncConnectionSummary" xmlns:q122="http://www.superoffice.net/ws/crm/NetServer/Services88" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
       <xs:complexType name="ErpSyncConnectionSummary">
         <xs:complexContent mixed="false">
-          <xs:extension base="q116:Carrier" xmlns:q116="http://www.superoffice.net/ws/crm/NetServer/Services88">
+          <xs:extension base="q123:Carrier" xmlns:q123="http://www.superoffice.net/ws/crm/NetServer/Services88">
             <xs:sequence>
               <xs:element minOccurs="0" name="DisplayName" nillable="true" type="xs:string" />
               <xs:element minOccurs="0" name="DisplayDescription" nillable="true" type="xs:string" />
               <xs:element minOccurs="0" name="Active" type="xs:boolean" />
               <xs:element minOccurs="0" name="Deleted" type="xs:boolean" />
               <xs:element minOccurs="0" name="LastSync" type="xs:dateTime" />
-              <xs:element minOccurs="0" name="Actors" nillable="true" type="q116:ArrayOfErpSyncActorSummary" />
+              <xs:element minOccurs="0" name="Actors" nillable="true" type="q123:ArrayOfErpSyncActorSummary" />
             </xs:sequence>
           </xs:extension>
         </xs:complexContent>
       </xs:complexType>
-      <xs:element name="ErpSyncConnectionSummary" nillable="true" type="q117:ErpSyncConnectionSummary" xmlns:q117="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+      <xs:element name="ErpSyncConnectionSummary" nillable="true" type="q124:ErpSyncConnectionSummary" xmlns:q124="http://www.superoffice.net/ws/crm/NetServer/Services88" />
       <xs:complexType name="ArrayOfErpSyncActorSummary">
         <xs:sequence>
-          <xs:element minOccurs="0" maxOccurs="unbounded" name="ErpSyncActorSummary" nillable="true" type="q118:ErpSyncActorSummary" xmlns:q118="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+          <xs:element minOccurs="0" maxOccurs="unbounded" name="ErpSyncActorSummary" nillable="true" type="q125:ErpSyncActorSummary" xmlns:q125="http://www.superoffice.net/ws/crm/NetServer/Services88" />
         </xs:sequence>
       </xs:complexType>
-      <xs:element name="ArrayOfErpSyncActorSummary" nillable="true" type="q119:ArrayOfErpSyncActorSummary" xmlns:q119="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+      <xs:element name="ArrayOfErpSyncActorSummary" nillable="true" type="q126:ArrayOfErpSyncActorSummary" xmlns:q126="http://www.superoffice.net/ws/crm/NetServer/Services88" />
       <xs:complexType name="ErpSyncActorSummary">
         <xs:complexContent mixed="false">
-          <xs:extension base="q120:Carrier" xmlns:q120="http://www.superoffice.net/ws/crm/NetServer/Services88">
+          <xs:extension base="q127:Carrier" xmlns:q127="http://www.superoffice.net/ws/crm/NetServer/Services88">
             <xs:sequence>
-              <xs:element minOccurs="0" name="ActorType" type="q120:ErpActorType" />
+              <xs:element minOccurs="0" name="ActorType" type="q127:ErpActorType" />
               <xs:element minOccurs="0" name="HasMappings" type="xs:boolean" />
               <xs:element minOccurs="0" name="Defaults" nillable="true" type="xs:string" />
               <xs:element minOccurs="0" name="Mappings" nillable="true" type="xs:string" />
@@ -984,7 +1053,7 @@ title: Services88.ErpSyncAgent WSDL
           </xs:extension>
         </xs:complexContent>
       </xs:complexType>
-      <xs:element name="ErpSyncActorSummary" nillable="true" type="q121:ErpSyncActorSummary" xmlns:q121="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+      <xs:element name="ErpSyncActorSummary" nillable="true" type="q128:ErpSyncActorSummary" xmlns:q128="http://www.superoffice.net/ws/crm/NetServer/Services88" />
       <xs:element name="GetErpSyncConnectorEntity">
         <xs:complexType>
           <xs:sequence>
@@ -995,7 +1064,7 @@ title: Services88.ErpSyncAgent WSDL
       <xs:element name="GetErpSyncConnectorEntityResponse">
         <xs:complexType>
           <xs:sequence>
-            <xs:element minOccurs="0" name="Response" nillable="true" type="q122:ErpSyncConnectorEntity" xmlns:q122="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+            <xs:element minOccurs="0" name="Response" nillable="true" type="q129:ErpSyncConnectorEntity" xmlns:q129="http://www.superoffice.net/ws/crm/NetServer/Services88" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
@@ -1009,7 +1078,7 @@ title: Services88.ErpSyncAgent WSDL
       <xs:element name="CanDeleteErpSyncConnectorEntityResponse">
         <xs:complexType>
           <xs:sequence>
-            <xs:element minOccurs="0" name="Response" type="q123:ErpSyncResponseCode" xmlns:q123="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+            <xs:element minOccurs="0" name="Response" type="q130:ErpSyncResponseCode" xmlns:q130="http://www.superoffice.net/ws/crm/NetServer/Services88" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
@@ -1020,7 +1089,7 @@ title: Services88.ErpSyncAgent WSDL
           <xs:enumeration value="ErrorNotFound" />
         </xs:restriction>
       </xs:simpleType>
-      <xs:element name="ErpSyncResponseCode" nillable="true" type="q124:ErpSyncResponseCode" xmlns:q124="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+      <xs:element name="ErpSyncResponseCode" nillable="true" type="q131:ErpSyncResponseCode" xmlns:q131="http://www.superoffice.net/ws/crm/NetServer/Services88" />
       <xs:element name="TestConnectorUrl">
         <xs:complexType>
           <xs:sequence>
@@ -1031,20 +1100,20 @@ title: Services88.ErpSyncAgent WSDL
       <xs:element name="TestConnectorUrlResponse">
         <xs:complexType>
           <xs:sequence>
-            <xs:element minOccurs="0" name="Response" type="q125:ErpSyncResponseCode" xmlns:q125="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+            <xs:element minOccurs="0" name="Response" type="q132:ErpSyncResponseCode" xmlns:q132="http://www.superoffice.net/ws/crm/NetServer/Services88" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
       <xs:element name="SaveDefaultValueInfo">
         <xs:complexType>
           <xs:sequence>
-            <xs:element minOccurs="0" name="ErpSyncDefaultValue" nillable="true" type="q126:ErpSyncDefaultValue" xmlns:q126="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+            <xs:element minOccurs="0" name="ErpSyncDefaultValue" nillable="true" type="q133:ErpSyncDefaultValue" xmlns:q133="http://www.superoffice.net/ws/crm/NetServer/Services88" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
       <xs:complexType name="ErpSyncDefaultValue">
         <xs:complexContent mixed="false">
-          <xs:extension base="q127:Carrier" xmlns:q127="http://www.superoffice.net/ws/crm/NetServer/Services88">
+          <xs:extension base="q134:Carrier" xmlns:q134="http://www.superoffice.net/ws/crm/NetServer/Services88">
             <xs:sequence>
               <xs:element minOccurs="0" name="ErpFieldId" type="xs:int" />
               <xs:element minOccurs="0" name="DefaultValue" nillable="true" type="xs:string" />
@@ -1053,18 +1122,18 @@ title: Services88.ErpSyncAgent WSDL
               <xs:element minOccurs="0" name="PromptUser" type="xs:boolean" />
               <xs:element minOccurs="0" name="Mandatory" type="xs:boolean" />
               <xs:element minOccurs="0" name="ErpFieldKey" nillable="true" type="xs:string" />
-              <xs:element minOccurs="0" name="FieldType" type="q127:FieldMetadataType" />
+              <xs:element minOccurs="0" name="FieldType" type="q134:FieldMetadataType" />
               <xs:element minOccurs="0" name="ListName" nillable="true" type="xs:string" />
-              <xs:element minOccurs="0" name="Access" type="q127:FieldAccess" />
+              <xs:element minOccurs="0" name="Access" type="q134:FieldAccess" />
             </xs:sequence>
           </xs:extension>
         </xs:complexContent>
       </xs:complexType>
-      <xs:element name="ErpSyncDefaultValue" nillable="true" type="q128:ErpSyncDefaultValue" xmlns:q128="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+      <xs:element name="ErpSyncDefaultValue" nillable="true" type="q135:ErpSyncDefaultValue" xmlns:q135="http://www.superoffice.net/ws/crm/NetServer/Services88" />
       <xs:element name="SaveDefaultValueInfoResponse">
         <xs:complexType>
           <xs:sequence>
-            <xs:element minOccurs="0" name="Response" nillable="true" type="q129:ErpSyncDefaultValue" xmlns:q129="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+            <xs:element minOccurs="0" name="Response" nillable="true" type="q136:ErpSyncDefaultValue" xmlns:q136="http://www.superoffice.net/ws/crm/NetServer/Services88" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
@@ -1078,7 +1147,7 @@ title: Services88.ErpSyncAgent WSDL
       <xs:element name="GetDefaultValueInfoResponse">
         <xs:complexType>
           <xs:sequence>
-            <xs:element minOccurs="0" name="Response" nillable="true" type="q130:ErpSyncDefaultValue" xmlns:q130="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+            <xs:element minOccurs="0" name="Response" nillable="true" type="q137:ErpSyncDefaultValue" xmlns:q137="http://www.superoffice.net/ws/crm/NetServer/Services88" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
@@ -1090,45 +1159,45 @@ title: Services88.ErpSyncAgent WSDL
       <xs:element name="SyncAllResponse">
         <xs:complexType>
           <xs:sequence>
-            <xs:element minOccurs="0" name="Response" nillable="true" type="q131:PluginResponse" xmlns:q131="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+            <xs:element minOccurs="0" name="Response" nillable="true" type="q138:PluginResponse" xmlns:q138="http://www.superoffice.net/ws/crm/NetServer/Services88" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
       <xs:complexType name="PluginResponse">
         <xs:complexContent mixed="false">
-          <xs:extension base="q132:Carrier" xmlns:q132="http://www.superoffice.net/ws/crm/NetServer/Services88">
+          <xs:extension base="q139:Carrier" xmlns:q139="http://www.superoffice.net/ws/crm/NetServer/Services88">
             <xs:sequence>
               <xs:element minOccurs="0" name="IsOk" type="xs:boolean" />
               <xs:element minOccurs="0" name="UserExplanation" nillable="true" type="xs:string" />
               <xs:element minOccurs="0" name="TechExplanation" nillable="true" type="xs:string" />
               <xs:element minOccurs="0" name="ErrorCode" nillable="true" type="xs:string" />
-              <xs:element minOccurs="0" name="Changes" nillable="true" type="q132:ChangedData" />
+              <xs:element minOccurs="0" name="Changes" nillable="true" type="q139:ChangedData" />
             </xs:sequence>
           </xs:extension>
         </xs:complexContent>
       </xs:complexType>
-      <xs:element name="PluginResponse" nillable="true" type="q133:PluginResponse" xmlns:q133="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+      <xs:element name="PluginResponse" nillable="true" type="q140:PluginResponse" xmlns:q140="http://www.superoffice.net/ws/crm/NetServer/Services88" />
       <xs:complexType name="ChangedData">
         <xs:complexContent mixed="false">
-          <xs:extension base="q134:Carrier" xmlns:q134="http://www.superoffice.net/ws/crm/NetServer/Services88">
+          <xs:extension base="q141:Carrier" xmlns:q141="http://www.superoffice.net/ws/crm/NetServer/Services88">
             <xs:sequence>
-              <xs:element minOccurs="0" name="AddedRecords" nillable="true" type="q134:ArrayOfChangedDataItem" />
-              <xs:element minOccurs="0" name="UpdatedRecords" nillable="true" type="q134:ArrayOfChangedDataItem" />
-              <xs:element minOccurs="0" name="DeletedRecords" nillable="true" type="q134:ArrayOfChangedDataItem" />
+              <xs:element minOccurs="0" name="AddedRecords" nillable="true" type="q141:ArrayOfChangedDataItem" />
+              <xs:element minOccurs="0" name="UpdatedRecords" nillable="true" type="q141:ArrayOfChangedDataItem" />
+              <xs:element minOccurs="0" name="DeletedRecords" nillable="true" type="q141:ArrayOfChangedDataItem" />
             </xs:sequence>
           </xs:extension>
         </xs:complexContent>
       </xs:complexType>
-      <xs:element name="ChangedData" nillable="true" type="q135:ChangedData" xmlns:q135="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+      <xs:element name="ChangedData" nillable="true" type="q142:ChangedData" xmlns:q142="http://www.superoffice.net/ws/crm/NetServer/Services88" />
       <xs:complexType name="ArrayOfChangedDataItem">
         <xs:sequence>
-          <xs:element minOccurs="0" maxOccurs="unbounded" name="ChangedDataItem" nillable="true" type="q136:ChangedDataItem" xmlns:q136="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+          <xs:element minOccurs="0" maxOccurs="unbounded" name="ChangedDataItem" nillable="true" type="q143:ChangedDataItem" xmlns:q143="http://www.superoffice.net/ws/crm/NetServer/Services88" />
         </xs:sequence>
       </xs:complexType>
-      <xs:element name="ArrayOfChangedDataItem" nillable="true" type="q137:ArrayOfChangedDataItem" xmlns:q137="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+      <xs:element name="ArrayOfChangedDataItem" nillable="true" type="q144:ArrayOfChangedDataItem" xmlns:q144="http://www.superoffice.net/ws/crm/NetServer/Services88" />
       <xs:complexType name="ChangedDataItem">
         <xs:complexContent mixed="false">
-          <xs:extension base="q138:Carrier" xmlns:q138="http://www.superoffice.net/ws/crm/NetServer/Services88">
+          <xs:extension base="q145:Carrier" xmlns:q145="http://www.superoffice.net/ws/crm/NetServer/Services88">
             <xs:sequence>
               <xs:element minOccurs="0" name="Tablename" nillable="true" type="xs:string" />
               <xs:element minOccurs="0" name="RecordId" type="xs:int" />
@@ -1136,7 +1205,7 @@ title: Services88.ErpSyncAgent WSDL
           </xs:extension>
         </xs:complexContent>
       </xs:complexType>
-      <xs:element name="ChangedDataItem" nillable="true" type="q139:ChangedDataItem" xmlns:q139="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+      <xs:element name="ChangedDataItem" nillable="true" type="q146:ChangedDataItem" xmlns:q146="http://www.superoffice.net/ws/crm/NetServer/Services88" />
       <xs:element name="ForceSyncAll">
         <xs:complexType>
           <xs:sequence />
@@ -1145,7 +1214,7 @@ title: Services88.ErpSyncAgent WSDL
       <xs:element name="ForceSyncAllResponse">
         <xs:complexType>
           <xs:sequence>
-            <xs:element minOccurs="0" name="Response" nillable="true" type="q140:PluginResponse" xmlns:q140="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+            <xs:element minOccurs="0" name="Response" nillable="true" type="q147:PluginResponse" xmlns:q147="http://www.superoffice.net/ws/crm/NetServer/Services88" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
@@ -1153,14 +1222,14 @@ title: Services88.ErpSyncAgent WSDL
         <xs:complexType>
           <xs:sequence>
             <xs:element minOccurs="0" name="ErpConnectionId" type="xs:int" />
-            <xs:element minOccurs="0" name="InternalKeyIds" nillable="true" type="q141:ArrayOfint" xmlns:q141="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+            <xs:element minOccurs="0" name="InternalKeyIds" nillable="true" type="q148:ArrayOfint" xmlns:q148="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
       <xs:element name="ForceResyncResponse">
         <xs:complexType>
           <xs:sequence>
-            <xs:element minOccurs="0" name="Response" nillable="true" type="q142:PluginResponse" xmlns:q142="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+            <xs:element minOccurs="0" name="Response" nillable="true" type="q149:PluginResponse" xmlns:q149="http://www.superoffice.net/ws/crm/NetServer/Services88" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
@@ -1168,14 +1237,14 @@ title: Services88.ErpSyncAgent WSDL
         <xs:complexType>
           <xs:sequence>
             <xs:element minOccurs="0" name="ErpConnectionId" type="xs:int" />
-            <xs:element minOccurs="0" name="InternalKeyIds" nillable="true" type="q143:ArrayOfint" xmlns:q143="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+            <xs:element minOccurs="0" name="InternalKeyIds" nillable="true" type="q150:ArrayOfint" xmlns:q150="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
       <xs:element name="ForceResyncNoBlankValuesResponse">
         <xs:complexType>
           <xs:sequence>
-            <xs:element minOccurs="0" name="Response" nillable="true" type="q144:PluginResponse" xmlns:q144="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+            <xs:element minOccurs="0" name="Response" nillable="true" type="q151:PluginResponse" xmlns:q151="http://www.superoffice.net/ws/crm/NetServer/Services88" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
@@ -1183,7 +1252,7 @@ title: Services88.ErpSyncAgent WSDL
         <xs:complexType>
           <xs:sequence>
             <xs:element minOccurs="0" name="ErpConnectionId" type="xs:int" />
-            <xs:element minOccurs="0" name="InternalKeyIds" nillable="true" type="q145:ArrayOfint" xmlns:q145="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+            <xs:element minOccurs="0" name="InternalKeyIds" nillable="true" type="q152:ArrayOfint" xmlns:q152="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
@@ -1196,15 +1265,15 @@ title: Services88.ErpSyncAgent WSDL
         <xs:complexType>
           <xs:sequence>
             <xs:element minOccurs="0" name="ErpConnectionId" type="xs:int" />
-            <xs:element minOccurs="0" name="ErpActorType" type="q146:ErpActorType" xmlns:q146="http://www.superoffice.net/ws/crm/NetServer/Services88" />
-            <xs:element minOccurs="0" name="ExternalKeys" nillable="true" type="q147:ArrayOfstring" xmlns:q147="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+            <xs:element minOccurs="0" name="ErpActorType" type="q153:ErpActorType" xmlns:q153="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+            <xs:element minOccurs="0" name="ExternalKeys" nillable="true" type="q154:ArrayOfstring" xmlns:q154="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
       <xs:element name="ForceResyncExternalResponse">
         <xs:complexType>
           <xs:sequence>
-            <xs:element minOccurs="0" name="Response" nillable="true" type="q148:PluginResponse" xmlns:q148="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+            <xs:element minOccurs="0" name="Response" nillable="true" type="q155:PluginResponse" xmlns:q155="http://www.superoffice.net/ws/crm/NetServer/Services88" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
@@ -1212,15 +1281,15 @@ title: Services88.ErpSyncAgent WSDL
         <xs:complexType>
           <xs:sequence>
             <xs:element minOccurs="0" name="ErpConnectionId" type="xs:int" />
-            <xs:element minOccurs="0" name="ErpActorType" type="q149:ErpActorType" xmlns:q149="http://www.superoffice.net/ws/crm/NetServer/Services88" />
-            <xs:element minOccurs="0" name="ExternalKeys" nillable="true" type="q150:ArrayOfstring" xmlns:q150="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+            <xs:element minOccurs="0" name="ErpActorType" type="q156:ErpActorType" xmlns:q156="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+            <xs:element minOccurs="0" name="ExternalKeys" nillable="true" type="q157:ArrayOfstring" xmlns:q157="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
       <xs:element name="ForceResyncExternalNoBlankValuesResponse">
         <xs:complexType>
           <xs:sequence>
-            <xs:element minOccurs="0" name="Response" nillable="true" type="q151:PluginResponse" xmlns:q151="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+            <xs:element minOccurs="0" name="Response" nillable="true" type="q158:PluginResponse" xmlns:q158="http://www.superoffice.net/ws/crm/NetServer/Services88" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
@@ -1232,13 +1301,13 @@ title: Services88.ErpSyncAgent WSDL
       <xs:element name="GetEngineStatusResponse">
         <xs:complexType>
           <xs:sequence>
-            <xs:element minOccurs="0" name="Response" nillable="true" type="q152:ErpSyncEngineStatus" xmlns:q152="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+            <xs:element minOccurs="0" name="Response" nillable="true" type="q159:ErpSyncEngineStatus" xmlns:q159="http://www.superoffice.net/ws/crm/NetServer/Services88" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
       <xs:complexType name="ErpSyncEngineStatus">
         <xs:complexContent mixed="false">
-          <xs:extension base="q153:Carrier" xmlns:q153="http://www.superoffice.net/ws/crm/NetServer/Services88">
+          <xs:extension base="q160:Carrier" xmlns:q160="http://www.superoffice.net/ws/crm/NetServer/Services88">
             <xs:sequence>
               <xs:element minOccurs="0" name="IsRunning" type="xs:boolean" />
               <xs:element minOccurs="0" name="StatusMessage" nillable="true" type="xs:string" />
@@ -1247,7 +1316,7 @@ title: Services88.ErpSyncAgent WSDL
           </xs:extension>
         </xs:complexContent>
       </xs:complexType>
-      <xs:element name="ErpSyncEngineStatus" nillable="true" type="q154:ErpSyncEngineStatus" xmlns:q154="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+      <xs:element name="ErpSyncEngineStatus" nillable="true" type="q161:ErpSyncEngineStatus" xmlns:q161="http://www.superoffice.net/ws/crm/NetServer/Services88" />
       <xs:element name="ChangeEngineStatus">
         <xs:complexType>
           <xs:sequence>
@@ -1258,7 +1327,7 @@ title: Services88.ErpSyncAgent WSDL
       <xs:element name="ChangeEngineStatusResponse">
         <xs:complexType>
           <xs:sequence>
-            <xs:element minOccurs="0" name="Response" nillable="true" type="q155:ErpSyncEngineStatus" xmlns:q155="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+            <xs:element minOccurs="0" name="Response" nillable="true" type="q162:ErpSyncEngineStatus" xmlns:q162="http://www.superoffice.net/ws/crm/NetServer/Services88" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
@@ -1564,6 +1633,40 @@ title: Services88.ErpSyncAgent WSDL
     <wsdl:part name="parameters" element="tns:SupportsAdvancedSearchResponse" />
   </wsdl:message>
   <wsdl:message name="SupportsAdvancedSearchResponse_Headers">
+    <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
+    <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
+    <wsdl:part name="Succeeded" element="tns:Succeeded" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="GetAllConnectorsRequest">
+    <wsdl:part name="parameters" element="tns:GetAllConnectors" />
+  </wsdl:message>
+  <wsdl:message name="GetAllConnectorsRequest_Headers">
+    <wsdl:part name="ApplicationToken" element="tns:ApplicationToken" />
+    <wsdl:part name="Credentials" element="tns:Credentials" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="GetAllConnectorsResponse">
+    <wsdl:part name="parameters" element="tns:GetAllConnectorsResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetAllConnectorsResponse_Headers">
+    <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
+    <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
+    <wsdl:part name="Succeeded" element="tns:Succeeded" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="GetAllConnectionsRequest">
+    <wsdl:part name="parameters" element="tns:GetAllConnections" />
+  </wsdl:message>
+  <wsdl:message name="GetAllConnectionsRequest_Headers">
+    <wsdl:part name="ApplicationToken" element="tns:ApplicationToken" />
+    <wsdl:part name="Credentials" element="tns:Credentials" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="GetAllConnectionsResponse">
+    <wsdl:part name="parameters" element="tns:GetAllConnectionsResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetAllConnectionsResponse_Headers">
     <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
     <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
     <wsdl:part name="Succeeded" element="tns:Succeeded" />
@@ -2232,6 +2335,20 @@ title: Services88.ErpSyncAgent WSDL
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/ErpSync/SupportsAdvancedSearch" name="SupportsAdvancedSearchRequest" message="tns:SupportsAdvancedSearchRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/ErpSync/SupportsAdvancedSearchResponse" name="SupportsAdvancedSearchResponse" message="tns:SupportsAdvancedSearchResponse" />
     </wsdl:operation>
+    <wsdl:operation name="GetAllConnectors">
+      <wsdl:documentation>
+        <summary>Returns all ERP Sync connectors. Uses the `ErpConnector` archive.</summary>
+      </wsdl:documentation>
+      <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/ErpSync/GetAllConnectors" name="GetAllConnectorsRequest" message="tns:GetAllConnectorsRequest" />
+      <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/ErpSync/GetAllConnectorsResponse" name="GetAllConnectorsResponse" message="tns:GetAllConnectorsResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="GetAllConnections">
+      <wsdl:documentation>
+        <summary>Returns all ERP Sync connections without config field data. Uses the `ErpConnection` archive.</summary>
+      </wsdl:documentation>
+      <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/ErpSync/GetAllConnections" name="GetAllConnectionsRequest" message="tns:GetAllConnectionsRequest" />
+      <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/ErpSync/GetAllConnectionsResponse" name="GetAllConnectionsResponse" message="tns:GetAllConnectionsResponse" />
+    </wsdl:operation>
     <wsdl:operation name="GetConnectionsAndDisplayFields">
       <wsdl:documentation>
         <summary>Get all connection statuses and fields for a given entity</summary>
@@ -2687,6 +2804,38 @@ title: Services88.ErpSyncAgent WSDL
         <soap:header message="tns:SupportsAdvancedSearchResponse_Headers" part="ExtraInfo" use="literal" />
         <soap:header message="tns:SupportsAdvancedSearchResponse_Headers" part="Succeeded" use="literal" />
         <soap:header message="tns:SupportsAdvancedSearchResponse_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetAllConnectors">
+      <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/ErpSync/GetAllConnectors" style="document" />
+      <wsdl:input name="GetAllConnectorsRequest">
+        <soap:header message="tns:GetAllConnectorsRequest_Headers" part="ApplicationToken" use="literal" />
+        <soap:header message="tns:GetAllConnectorsRequest_Headers" part="Credentials" use="literal" />
+        <soap:header message="tns:GetAllConnectorsRequest_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="GetAllConnectorsResponse">
+        <soap:header message="tns:GetAllConnectorsResponse_Headers" part="ExceptionInfo" use="literal" />
+        <soap:header message="tns:GetAllConnectorsResponse_Headers" part="ExtraInfo" use="literal" />
+        <soap:header message="tns:GetAllConnectorsResponse_Headers" part="Succeeded" use="literal" />
+        <soap:header message="tns:GetAllConnectorsResponse_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetAllConnections">
+      <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/ErpSync/GetAllConnections" style="document" />
+      <wsdl:input name="GetAllConnectionsRequest">
+        <soap:header message="tns:GetAllConnectionsRequest_Headers" part="ApplicationToken" use="literal" />
+        <soap:header message="tns:GetAllConnectionsRequest_Headers" part="Credentials" use="literal" />
+        <soap:header message="tns:GetAllConnectionsRequest_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="GetAllConnectionsResponse">
+        <soap:header message="tns:GetAllConnectionsResponse_Headers" part="ExceptionInfo" use="literal" />
+        <soap:header message="tns:GetAllConnectionsResponse_Headers" part="ExtraInfo" use="literal" />
+        <soap:header message="tns:GetAllConnectionsResponse_Headers" part="Succeeded" use="literal" />
+        <soap:header message="tns:GetAllConnectionsResponse_Headers" part="TimeZone" use="literal" />
         <soap:body use="literal" />
       </wsdl:output>
     </wsdl:operation>
@@ -3226,3 +3375,4 @@ title: Services88.ErpSyncAgent WSDL
   </wsdl:service>
 </wsdl:definitions>
 ```
+

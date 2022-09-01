@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Quote/SaveConnection
-id: v1QuoteAgent_SaveConnection
+uid: v1QuoteAgent_SaveConnection
 ---
 
 # POST Agents/Quote/SaveConnection
@@ -11,6 +11,12 @@ POST /api/v1/Agents/Quote/SaveConnection
 
 Saves a connection to the database.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Saves a connection to the database.
 ```http
 POST /api/v1/Agents/Quote/SaveConnection?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,26 +42,24 @@ POST /api/v1/Agents/Quote/SaveConnection?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-Connection
+Connection 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| Connection |  | Information about a connection to the ERP system. <br /> Carrier object for QuoteConnection. Services for the QuoteConnection Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IQuoteAgent">Quote Agent</see>. |
+| Connection |  | Information about a connection to the ERP system. <para /> Carrier object for QuoteConnection. Services for the QuoteConnection Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IQuoteAgent">Quote Agent</see>. |
 
-## Response: object
 
-Information about a connection to the ERP system.
+## Response: 
 
-Carrier object for QuoteConnection.
-Services for the QuoteConnection Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IQuoteAgent">Quote Agent</see>.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -76,124 +81,75 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Quote/SaveConnection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Connection": {
-    "QuoteConnectionId": 471,
-    "ERPName": "Mueller, Goyette and Sanford",
-    "DisplayName": "Schultz-Dickens",
-    "DisplayDescription": "Customer-focused modular time-frame",
-    "Rank": 571,
-    "ConnectorName": "Yost-Blanda",
-    "ErpConnectionId": 135,
-    "ExtraData": "quo",
-    "IsAvailable": true,
-    "InitializeResponse": {},
-    "PriceLists": [
-      {},
-      {}
-    ],
-    "AllAccess": true,
-    "Deleted": true,
-    "UserGroupAccessIds": [
-      351,
-      647
-    ],
-    "AssociateAccessIds": [
-      633,
-      724
-    ]
-  }
+  "Connection": null
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 768,
-  "ERPName": "Christiansen-Mraz",
-  "DisplayName": "Willms Inc and Sons",
-  "DisplayDescription": "Object-based solution-oriented analyzer",
-  "Rank": 812,
-  "ConnectorName": "Gislason Group",
-  "ErpConnectionId": 876,
-  "ExtraData": "dolores",
+  "QuoteConnectionId": 150,
+  "ERPName": "Grant, Bergnaum and Feil",
+  "DisplayName": "Champlin-Ritchie",
+  "DisplayDescription": "Multi-layered directional approach",
+  "Rank": 824,
+  "ConnectorName": "Lockman-Dach",
+  "ErpConnectionId": 524,
+  "ExtraData": "sed",
   "IsAvailable": false,
-  "InitializeResponse": {
-    "IsOk": false,
-    "UserExplanation": "neque",
-    "TechExplanation": "ullam",
-    "ErrorCode": "eligendi",
-    "Changes": {},
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.Int32",
-        "FieldLength": 759
-      }
-    }
-  },
+  "InitializeResponse": null,
   "PriceLists": [
     {
-      "PriceListId": 390,
-      "ERPPriceListKey": "quia",
-      "QuoteConnectionId": 804,
-      "Name": "Harris-Zulauf",
-      "Description": "Team-oriented directional interface",
-      "Currency": "quidem",
-      "CurrencyName": "Cassin-Yost",
-      "ValidFrom": "2004-04-13T18:28:49.9411372+02:00",
-      "ValidTo": "2002-08-19T18:28:49.9411372+02:00",
+      "PriceListId": 213,
+      "ERPPriceListKey": "est",
+      "QuoteConnectionId": 880,
+      "Name": "Gerlach-Durgan",
+      "Description": "Assimilated mobile moratorium",
+      "Currency": "quia",
+      "CurrencyName": "Doyle Inc and Sons",
+      "ValidFrom": "2002-05-02T11:10:27.7074917+02:00",
+      "ValidTo": "1999-09-20T11:10:27.7074917+02:00",
       "IsActive": false,
-      "TableRight": {},
+      "TableRight": null,
       "FieldProperties": {
         "fieldName": {
-          "FieldRight": {
-            "Mask": "FULL",
-            "Reason": ""
-          },
+          "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 677
+          "FieldLength": 866
         }
       }
     }
   ],
-  "AllAccess": false,
+  "AllAccess": true,
   "Deleted": true,
   "UserGroupAccessIds": [
-    573,
-    770
+    53,
+    170
   ],
   "AssociateAccessIds": [
-    605,
-    68
+    496,
+    747
   ],
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
-      "FieldType": "System.String",
-      "FieldLength": 753
+      "FieldRight": null,
+      "FieldType": "System.Int32",
+      "FieldLength": 745
     }
   }
 }

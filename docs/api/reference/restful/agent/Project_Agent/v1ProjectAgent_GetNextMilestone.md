@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Project/GetNextMilestone
-id: v1ProjectAgent_GetNextMilestone
+uid: v1ProjectAgent_GetNextMilestone
 ---
 
 # POST Agents/Project/GetNextMilestone
@@ -11,6 +11,12 @@ POST /api/v1/Agents/Project/GetNextMilestone
 
 Next upcoming milestone appointment
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Next upcoming milestone appointment
 ```http
 POST /api/v1/Agents/Project/GetNextMilestone?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,26 +42,24 @@ POST /api/v1/Agents/Project/GetNextMilestone?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-ProjectId
+ProjectId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | ProjectId | int32 |  |
 
-## Response: object
 
-Simple read-only appointment data.
+## Response: 
 
-Carrier object for Appointment.
-Services for the Appointment Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IAppointmentAgent">Appointment Agent</see>.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -110,86 +115,82 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Project/GetNextMilestone
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 995
+  "ProjectId": 507
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AppointmentId": 82,
-  "StartDate": "1995-08-24T18:28:49.8981371+02:00",
-  "EndDate": "2007-09-10T18:28:49.8981371+02:00",
+  "AppointmentId": 757,
+  "StartDate": "2003-07-03T11:10:27.6034529+02:00",
+  "EndDate": "2022-01-31T11:10:27.6034529+01:00",
   "Type": "BookingForChecklist",
-  "Task": "et",
-  "AssociateFullName": "Clyde Kihn",
-  "ContactName": "Jerde, Murray and Ratke",
-  "Description": "User-centric fault-tolerant system engine",
-  "PersonFullName": "Lyla Cummings",
-  "PersonId": 648,
-  "ContactId": 602,
-  "ProjectId": 49,
-  "ProjectName": "Gutmann, Fahey and Ondricka",
-  "IsPublished": false,
-  "AssociateId": 433,
-  "ColorIndex": 497,
+  "Task": "maxime",
+  "AssociateFullName": "Mr. Amari Beatty",
+  "ContactName": "Effertz, Von and Spencer",
+  "Description": "Front-line needs-based productivity",
+  "PersonFullName": "Margarete Schmeler",
+  "PersonId": 843,
+  "ContactId": 236,
+  "ProjectId": 647,
+  "ProjectName": "Leannon-Runolfsson",
+  "IsPublished": true,
+  "AssociateId": 123,
+  "ColorIndex": 272,
   "IsFree": true,
-  "HasAlarm": true,
-  "IsAlldayEvent": true,
+  "HasAlarm": false,
+  "IsAlldayEvent": false,
   "Private": "PrivateGroup",
-  "PriorityId": 983,
-  "PriorityName": "Roob, Fay and Stiedemann",
+  "PriorityId": 254,
+  "PriorityName": "Shanahan, Douglas and Larson",
   "TaskType": "Appointment",
   "IsBookingMain": false,
-  "IsRecurrence": true,
-  "IsBooking": false,
-  "ActiveDate": "1999-01-10T18:28:49.8991372+01:00",
+  "IsRecurrence": false,
+  "IsBooking": true,
+  "ActiveDate": "2012-07-25T11:10:27.6044712+02:00",
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
   "Completed": "Completed",
   "RecurringPattern": "Custom",
-  "RecurringStartDate": "2020-03-22T18:28:49.8991372+01:00",
-  "RecurringEndDate": "2016-11-12T18:28:49.8991372+01:00",
-  "MotherId": 907,
-  "AssignedBy": 862,
-  "AssignedByFullName": "Mrs. Alverta Bartoletti",
+  "RecurringStartDate": "2000-04-21T11:10:27.6044712+02:00",
+  "RecurringEndDate": "2020-05-11T11:10:27.6044712+02:00",
+  "MotherId": 681,
+  "AssignedBy": 831,
+  "AssignedByFullName": "Brandon Kuphal V",
   "RejectReason": "",
-  "Location": "reiciendis",
-  "AlarmLeadTime": "beatae",
-  "SaleId": 484,
-  "SaleName": "Heaney, Goyette and Beer",
-  "AssociateName": "Reynolds-Aufderhar",
-  "CreatedDate": "2004-08-18T18:28:49.8991372+02:00",
-  "CreatedBy": "temporibus",
-  "CreatedByFullName": "Makayla Kemmer",
-  "CreatedByAssociateId": 825,
+  "Location": "est",
+  "AlarmLeadTime": "libero",
+  "SaleId": 20,
+  "SaleName": "Kling, Wilderman and Gutmann",
+  "AssociateName": "Davis-Wunsch",
+  "CreatedDate": "2007-09-25T11:10:27.6044712+02:00",
+  "CreatedBy": "praesentium",
+  "CreatedByFullName": "Katrina Sanford",
+  "CreatedByAssociateId": 453,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
-      "FieldType": "System.Int32",
-      "FieldLength": 371
+      "FieldRight": null,
+      "FieldType": "System.String",
+      "FieldLength": 392
     }
   }
 }

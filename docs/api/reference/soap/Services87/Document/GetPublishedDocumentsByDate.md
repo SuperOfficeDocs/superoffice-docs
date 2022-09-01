@@ -21,6 +21,7 @@ Method that returns a specified number of published document appointments within
 
 **Returns:** Array of Appointments.
 
+
 [WSDL file for Services87/Document](../Services87-Document.md)
 
 Obtain a ticket from the [Services87/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -47,8 +48,8 @@ Application tokens must be specified if calling an Online installation. Applicat
    <Document:GetPublishedDocumentsByDate>
     <Document:PersonId xsi:type="xsd:int">0</Document:PersonId>
     <Document:IncludeProjectDocuments xsi:type="xsd:boolean">false</Document:IncludeProjectDocuments>
-    <Document:StartTime xsi:type="xsd:dateTime">2021-11-30T13:23:14Z</Document:StartTime>
-    <Document:EndTime xsi:type="xsd:dateTime">2021-11-30T13:23:14Z</Document:EndTime>
+    <Document:StartTime xsi:type="xsd:dateTime">2022-08-26T08:56:52Z</Document:StartTime>
+    <Document:EndTime xsi:type="xsd:dateTime">2022-08-26T08:56:52Z</Document:EndTime>
     <Document:Count xsi:type="xsd:int">0</Document:Count>
    </Document:GetPublishedDocumentsByDate>
 
@@ -56,6 +57,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+
 
 ## GetPublishedDocumentsByDate Response
 
@@ -98,3 +100,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

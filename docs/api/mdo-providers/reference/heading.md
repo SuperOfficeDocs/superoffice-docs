@@ -7,7 +7,7 @@ keywords:
   - "mdo provider"
   - "heading"
 so.generated: true
-so.date: 03.19.2021
+so.date: 08.26.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -15,10 +15,11 @@ so.envir:
 ---
 
 # "heading" MDO List
-
 List provider for the Heading table. While this table looks like an MDO table,
 it lacks the standardized grouplink and headinglink companion tables for good reason,
 since it is the heading table itself.
+
+
 
 Implemented by the <see cref="T:SuperOffice.CRM.Lists.HeadingListProvider">HeadingListProvider</see> class.
 The name of the MDO list is 'heading'.
@@ -34,6 +35,10 @@ The name of the MDO list is 'heading'.
 
 Separator: ;
 
+
+
+
+
 ## Sample Request
 
 ```http!
@@ -45,7 +50,6 @@ Accept-Language: *
 ```
 
 ## Sample Code
-
 ```cs
 var listProvider = SuperOffice.CRM.Lists.SoListProviderFactory.Create("heading", forceFlatList: true);
 foreach (var item in listProvider.RootItems) {
@@ -79,6 +83,7 @@ foreach (var item in listProvider.RootItems) {
 |16|Other|||
 |7|Sales|||
 |11|StateZero|||
+
 
 ## Related MDO Lists
 

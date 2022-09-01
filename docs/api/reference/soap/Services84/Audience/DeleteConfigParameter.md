@@ -16,6 +16,8 @@ Deletes an Audience configuration parameter belonging to a Audience layout
 * **layoutName:** Name of the Audience layout instance
 * **parameterName:** The name of the Audience configuration parameter
 
+
+
 [WSDL file for Services84/Audience](../Services84-Audience.md)
 
 Obtain a ticket from the [Services84/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -48,6 +50,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## DeleteConfigParameter Response
 
 ```xml
@@ -66,3 +69,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

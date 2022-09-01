@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "invoice_entry"
-so.date: 04.12.2022
+so.date: 08.26.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -32,6 +32,7 @@ This table contain all invoices, connected to a message
 |discount\_money|Discount for this invoice entry in money|Int| |
 |ie\_sum|The sum of the invoice entry|Int| |
 
+
 ![invoice_entry table relationship diagram](./media/invoice_entry.png)
 
 [!include[details](./includes/invoice-entry.md)]
@@ -52,6 +53,7 @@ This table contain all invoices, connected to a message
 |[ej\_message](ej-message.md)  |This table contains the messages listed under tickets. |
 |[invoice\_type](invoice-type.md)  |A invoiceable item category (a product or service) that provides default invoice line values |
 
+
 ## Replication Flags
 
 * None
@@ -59,3 +61,4 @@ This table contain all invoices, connected to a message
 ## Security Flags
 
 * No access control via user's Role.
+

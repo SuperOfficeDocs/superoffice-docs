@@ -1,6 +1,6 @@
 ---
 title: POST Agents/ErpSync/GetEngineStatus
-id: v1ErpSyncAgent_GetEngineStatus
+uid: v1ErpSyncAgent_GetEngineStatus
 ---
 
 # POST Agents/ErpSync/GetEngineStatus
@@ -11,7 +11,15 @@ POST /api/v1/Agents/ErpSync/GetEngineStatus
 
 Get the current status of the Sync engine
 
-## Online Restricted: ## The ErpSync agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for ERP integration apps
+
+
+
+## Online Restricted: ## The ErpSync agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for ERP integration apps.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +30,7 @@ Get the current status of the Sync engine
 ```http
 POST /api/v1/Agents/ErpSync/GetEngineStatus?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -36,18 +45,16 @@ POST /api/v1/Agents/ErpSync/GetEngineStatus?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response: object
 
-Status of the Sync engine
+## Response: 
 
-Carrier object for ErpSyncEngineStatus.
-Services for the ErpSyncEngineStatus Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IErpSyncAgent">ErpSync Agent</see>.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -57,35 +64,31 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/ErpSync/GetEngineStatus
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "IsRunning": true,
-  "StatusMessage": "deserunt",
-  "Interval": "maxime",
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "IsRunning": false,
+  "StatusMessage": "et",
+  "Interval": "odit",
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
-      "FieldType": "System.String",
-      "FieldLength": 289
+      "FieldRight": null,
+      "FieldType": "System.Int32",
+      "FieldLength": 201
     }
   }
 }

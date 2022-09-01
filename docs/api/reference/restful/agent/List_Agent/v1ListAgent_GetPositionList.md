@@ -1,6 +1,6 @@
 ---
 title: POST Agents/List/GetPositionList
-id: v1ListAgent_GetPositionList
+uid: v1ListAgent_GetPositionList
 ---
 
 # POST Agents/List/GetPositionList
@@ -11,6 +11,12 @@ POST /api/v1/Agents/List/GetPositionList
 
 Gets an array of Position objects.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Gets an array of Position objects.
 ```http
 POST /api/v1/Agents/List/GetPositionList?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,11 +42,15 @@ POST /api/v1/Agents/List/GetPositionList?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: positionIds
+## Request Body: positionIds  
 
-The primary keys.
+The primary keys. 
+
+
 
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -55,14 +66,16 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/List/GetPositionList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -70,40 +83,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 705,
-    "Value": "ut",
-    "Tooltip": "sed",
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "Id": 692,
+    "Value": "itaque",
+    "Tooltip": "ratione",
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 706
+        "FieldRight": null,
+        "FieldType": "System.Int32",
+        "FieldLength": 62
       }
     }
   },
   {
-    "Id": 705,
-    "Value": "ut",
-    "Tooltip": "sed",
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "Id": 692,
+    "Value": "itaque",
+    "Tooltip": "ratione",
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 706
+        "FieldRight": null,
+        "FieldType": "System.Int32",
+        "FieldLength": 62
       }
     }
   }

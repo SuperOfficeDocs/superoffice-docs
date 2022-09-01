@@ -1,6 +1,6 @@
 ---
 title: POST Agents/MDO/SetSelected
-id: v1MDOAgent_SetSelected
+uid: v1MDOAgent_SetSelected
 ---
 
 # POST Agents/MDO/SetSelected
@@ -11,6 +11,12 @@ POST /api/v1/Agents/MDO/SetSelected
 
 Saves the selected values as selected by their given list representation.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Saves the selected values as selected by their given list representation.
 ```http
 POST /api/v1/Agents/MDO/SetSelected?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,9 +42,9 @@ POST /api/v1/Agents/MDO/SetSelected?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-Name, AdditionalInfo, SelectableMDOList
+Name, AdditionalInfo, SelectableMDOList 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -45,7 +52,10 @@ Name, AdditionalInfo, SelectableMDOList
 | AdditionalInfo | string |  |
 | SelectableMDOList | array |  |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -73,7 +83,7 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/MDO/SetSelected
@@ -83,32 +93,34 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Walker, Beier and Koepp",
-  "AdditionalInfo": "qui",
+  "Name": "Conn, Wintheiser and Tromp",
+  "AdditionalInfo": "inventore",
   "SelectableMDOList": [
     {
-      "Id": 918,
-      "Name": "Lemke Inc and Sons",
-      "ToolTip": "Sunt consectetur repudiandae possimus ut et.",
+      "Id": 531,
+      "Name": "Beahan, Haley and O'Keefe",
+      "ToolTip": "Reiciendis eligendi soluta quia omnis quidem.",
       "Deleted": true,
-      "Rank": 44,
-      "Type": "iusto",
-      "ColorBlock": 352,
-      "IconHint": "incidunt",
+      "Rank": 676,
+      "Type": "quis",
+      "ColorBlock": 199,
+      "IconHint": "laudantium",
       "Selected": false,
-      "LastChanged": "2021-11-09T18:28:49.4870903+01:00",
+      "LastChanged": "2002-04-08T11:10:27.3164564+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "consequuntur",
-      "StyleHint": "repellendus",
+      "ExtraInfo": "sed",
+      "StyleHint": "laborum",
       "Hidden": false,
-      "FullName": "Shannon Konopelski"
+      "FullName": "Adelle Morissette"
     }
   ]
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -116,65 +128,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 192,
-    "Name": "Oberbrunner-Hand",
-    "ToolTip": "A sint est blanditiis in.",
-    "Deleted": false,
-    "Rank": 439,
-    "Type": "inventore",
-    "ColorBlock": 827,
-    "IconHint": "ea",
-    "Selected": true,
-    "LastChanged": "2001-05-15T18:28:49.4880902+02:00",
+    "Id": 243,
+    "Name": "Ebert Inc and Sons",
+    "ToolTip": "Illo provident.",
+    "Deleted": true,
+    "Rank": 437,
+    "Type": "voluptate",
+    "ColorBlock": 998,
+    "IconHint": "a",
+    "Selected": false,
+    "LastChanged": "2012-02-26T11:10:27.3174524+01:00",
     "ChildItems": [
       {
-        "Id": 199,
-        "Name": "Stanton-Waelchi",
-        "ToolTip": "Vel animi sit unde.",
-        "Deleted": false,
-        "Rank": 335,
-        "Type": "velit",
-        "ColorBlock": 560,
-        "IconHint": "culpa",
+        "Id": 145,
+        "Name": "Stark-Green",
+        "ToolTip": "Quasi voluptatem ratione aut quidem iusto esse.",
+        "Deleted": true,
+        "Rank": 537,
+        "Type": "rerum",
+        "ColorBlock": 50,
+        "IconHint": "id",
         "Selected": true,
-        "LastChanged": "1994-11-20T18:28:49.4880902+01:00",
+        "LastChanged": "2003-02-25T11:10:27.3184535+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quo",
-        "StyleHint": "eaque",
+        "ExtraInfo": "perspiciatis",
+        "StyleHint": "dolor",
         "Hidden": false,
-        "FullName": "Micaela Mills",
-        "TableRight": {},
+        "FullName": "Emmitt Barton DDS",
+        "TableRight": null,
         "FieldProperties": {
           "fieldName": {
-            "FieldRight": {
-              "Mask": "FULL",
-              "Reason": ""
-            },
-            "FieldType": "System.Int32",
-            "FieldLength": 344
+            "FieldRight": null,
+            "FieldType": "System.String",
+            "FieldLength": 799
           }
         }
       }
     ],
-    "ExtraInfo": "nulla",
-    "StyleHint": "et",
-    "Hidden": true,
-    "FullName": "Evangeline Mraz Sr.",
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "ExtraInfo": "quas",
+    "StyleHint": "aut",
+    "Hidden": false,
+    "FullName": "Dudley Kamryn Borer Jr.",
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 123
+        "FieldRight": null,
+        "FieldType": "System.Int32",
+        "FieldLength": 870
       }
     }
   }

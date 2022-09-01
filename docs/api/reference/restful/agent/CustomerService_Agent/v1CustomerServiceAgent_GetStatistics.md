@@ -1,6 +1,6 @@
 ---
 title: POST Agents/CustomerService/GetStatistics
-id: v1CustomerServiceAgent_GetStatistics
+uid: v1CustomerServiceAgent_GetStatistics
 ---
 
 # POST Agents/CustomerService/GetStatistics
@@ -11,6 +11,12 @@ POST /api/v1/Agents/CustomerService/GetStatistics
 
 Returns the calculated results for the required statistics for the Customer Service Status Page
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Returns the calculated results for the required statistics for the Customer Serv
 ```http
 POST /api/v1/Agents/CustomerService/GetStatistics?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,15 +42,18 @@ POST /api/v1/Agents/CustomerService/GetStatistics?$select=name,department,catego
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-Functions
+Functions 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | Functions | array |  |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -59,22 +69,24 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/CustomerService/GetStatistics
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "Functions": [
-    "totam",
-    "omnis"
+    "autem",
+    "tenetur"
   ]
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -82,106 +94,82 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Label": "sit",
+    "Label": "aut",
     "Values": [
       {
-        "Label": "odit",
-        "Value": 11012.876,
-        "Description": "Devolved fault-tolerant pricing structure",
-        "TableRight": {},
+        "Label": "doloremque",
+        "Value": 30800.951999999997,
+        "Description": "Universal static challenge",
+        "TableRight": null,
         "FieldProperties": {
           "fieldName": {
-            "FieldRight": {
-              "Mask": "FULL",
-              "Reason": ""
-            },
-            "FieldType": "System.String",
-            "FieldLength": 633
+            "FieldRight": null,
+            "FieldType": "System.Int32",
+            "FieldLength": 779
           }
         }
       },
       {
-        "Label": "odit",
-        "Value": 11012.876,
-        "Description": "Devolved fault-tolerant pricing structure",
-        "TableRight": {},
+        "Label": "doloremque",
+        "Value": 30800.951999999997,
+        "Description": "Universal static challenge",
+        "TableRight": null,
         "FieldProperties": {
           "fieldName": {
-            "FieldRight": {
-              "Mask": "FULL",
-              "Reason": ""
-            },
-            "FieldType": "System.String",
-            "FieldLength": 633
+            "FieldRight": null,
+            "FieldType": "System.Int32",
+            "FieldLength": 779
           }
         }
       }
     ],
-    "Description": "Mandatory client-server paradigm",
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "Description": "Open-source analyzing standardization",
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": "empower ubiquitous methodologies"
-        },
-        "FieldType": "System.Int32",
-        "FieldLength": 28
+        "FieldRight": null,
+        "FieldType": "System.String",
+        "FieldLength": 522
       }
     }
   },
   {
-    "Label": "sit",
+    "Label": "aut",
     "Values": [
       {
-        "Label": "odit",
-        "Value": 11012.876,
-        "Description": "Devolved fault-tolerant pricing structure",
-        "TableRight": {},
+        "Label": "doloremque",
+        "Value": 30800.951999999997,
+        "Description": "Universal static challenge",
+        "TableRight": null,
         "FieldProperties": {
           "fieldName": {
-            "FieldRight": {
-              "Mask": "FULL",
-              "Reason": ""
-            },
-            "FieldType": "System.String",
-            "FieldLength": 633
+            "FieldRight": null,
+            "FieldType": "System.Int32",
+            "FieldLength": 779
           }
         }
       },
       {
-        "Label": "odit",
-        "Value": 11012.876,
-        "Description": "Devolved fault-tolerant pricing structure",
-        "TableRight": {},
+        "Label": "doloremque",
+        "Value": 30800.951999999997,
+        "Description": "Universal static challenge",
+        "TableRight": null,
         "FieldProperties": {
           "fieldName": {
-            "FieldRight": {
-              "Mask": "FULL",
-              "Reason": ""
-            },
-            "FieldType": "System.String",
-            "FieldLength": 633
+            "FieldRight": null,
+            "FieldType": "System.Int32",
+            "FieldLength": 779
           }
         }
       }
     ],
-    "Description": "Mandatory client-server paradigm",
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "Description": "Open-source analyzing standardization",
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": "empower ubiquitous methodologies"
-        },
-        "FieldType": "System.Int32",
-        "FieldLength": 28
+        "FieldRight": null,
+        "FieldType": "System.String",
+        "FieldLength": 522
       }
     }
   }

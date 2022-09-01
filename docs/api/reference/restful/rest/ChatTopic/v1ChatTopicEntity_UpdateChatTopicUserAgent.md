@@ -1,6 +1,6 @@
 ---
 title: PUT ChatTopic/{id}/UserAgent/{username}
-id: v1ChatTopicEntity_UpdateChatTopicUserAgent
+uid: v1ChatTopicEntity_UpdateChatTopicUserAgent
 ---
 
 # PUT ChatTopic/{id}/UserAgent/{username}
@@ -11,10 +11,17 @@ PUT /api/v1/ChatTopic/{chatTopicId}/UserAgent/{username}
 
 Update a user's role in a chat topic
 
+
+
+
+
+
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | chatTopicId | int32 | Id of the chat topic **Required** |
 | username | string | Associate username or associate id to get. **Required** |
+
+
 
 ## Request Headers
 
@@ -30,9 +37,9 @@ Update a user's role in a chat topic
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: useragent
+## Request Body: useragent  
 
-User's updated role within the chat topic.
+User's updated role within the chat topic. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -43,18 +50,16 @@ User's updated role within the chat topic.
 | CanManage | bool | True if the user is a manager for this topic |
 | CanNotify | bool | True if the user should receive notifications for this topic |
 
-## Response: object
 
-User agents within a chat topic. Which users are assigned and what roles they have within the chat topic.
+## Response: 
 
-Carrier object for ChatTopicAgent.
-Services for the ChatTopicAgent Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IChatAgent">Chat Agent</see>.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -65,72 +70,37 @@ Response body: object
 | CanManage | bool | True if the user is a manager for this topic |
 | CanNotify | bool | True if the user should receive notifications for this topic |
 
-## Sample Request
+## Sample request
 
 ```http!
 PUT /api/v1/ChatTopic/{chatTopicId}/UserAgent/{username}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TopicId": 942,
-  "User": {
-    "AssociateId": 492,
-    "Name": "Mitchell, Toy and Monahan",
-    "PersonId": 771,
-    "Rank": 425,
-    "Tooltip": "tenetur",
-    "Type": "AnonymousAssociate",
-    "GroupIdx": 306,
-    "FullName": "Zoila Hodkiewicz",
-    "FormalName": "Lebsack, Lemke and Hyatt",
-    "Deleted": true,
-    "EjUserId": 603,
-    "UserName": "Littel Inc and Sons"
-  },
+  "TopicId": 453,
+  "User": null,
   "CanListen": true,
-  "CanRespond": false,
+  "CanRespond": true,
   "CanManage": true,
   "CanNotify": false
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TopicId": 30,
-  "User": {
-    "AssociateId": 824,
-    "Name": "Fahey Inc and Sons",
-    "PersonId": 413,
-    "Rank": 752,
-    "Tooltip": "est",
-    "Type": "AnonymousAssociate",
-    "GroupIdx": 558,
-    "FullName": "Tracy Bayer",
-    "FormalName": "Heaney Group",
-    "Deleted": false,
-    "EjUserId": 589,
-    "UserName": "Boyle Group",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 27
-      }
-    }
-  },
+  "TopicId": 359,
+  "User": null,
   "CanListen": true,
-  "CanRespond": false,
-  "CanManage": true,
+  "CanRespond": true,
+  "CanManage": false,
   "CanNotify": false
 }
 ```

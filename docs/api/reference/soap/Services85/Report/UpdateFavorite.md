@@ -17,6 +17,7 @@ Updates the favorite.
 
 **Returns:** The updated ReportEntity carrier.
 
+
 [WSDL file for Services85/Report](../Services85-Report.md)
 
 Obtain a ticket from the [Services85/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -58,6 +59,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## UpdateFavorite Response
 
 ```xml
@@ -87,3 +89,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

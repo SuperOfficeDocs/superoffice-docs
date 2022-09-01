@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Saint/GetSaintConfigurations
-id: v1SaintAgent_GetSaintConfigurations
+uid: v1SaintAgent_GetSaintConfigurations
 ---
 
 # POST Agents/Saint/GetSaintConfigurations
@@ -11,6 +11,12 @@ POST /api/v1/Agents/Saint/GetSaintConfigurations
 
 Returns the StatusMonitorPeriods entity.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Returns the StatusMonitorPeriods entity.
 ```http
 POST /api/v1/Agents/Saint/GetSaintConfigurations?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -34,7 +41,10 @@ POST /api/v1/Agents/Saint/GetSaintConfigurations?$select=name,department,categor
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -55,14 +65,16 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Saint/GetSaintConfigurations
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -70,26 +82,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "OwnerTable": 587,
+    "OwnerTable": 151,
     "Enabled": true,
-    "Period1": 651,
-    "Period2": 898,
-    "Period3": 978,
-    "GenerationStart": "2018-04-24T18:28:50.0396995+02:00",
-    "GenerationEnd": "2012-11-04T18:28:50.0396995+01:00",
-    "RowsGenerated": 150,
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "Period1": 918,
+    "Period2": 91,
+    "Period3": 809,
+    "GenerationStart": "1998-05-12T11:10:27.7734917+02:00",
+    "GenerationEnd": "2005-08-03T11:10:27.7734917+02:00",
+    "RowsGenerated": 790,
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.Int32",
-        "FieldLength": 905
+        "FieldRight": null,
+        "FieldType": "System.String",
+        "FieldLength": 480
       }
     }
   }

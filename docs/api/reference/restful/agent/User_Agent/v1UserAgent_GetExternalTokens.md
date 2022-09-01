@@ -1,6 +1,6 @@
 ---
 title: POST Agents/User/GetExternalTokens
-id: v1UserAgent_GetExternalTokens
+uid: v1UserAgent_GetExternalTokens
 ---
 
 # POST Agents/User/GetExternalTokens
@@ -11,7 +11,15 @@ POST /api/v1/Agents/User/GetExternalTokens
 
 Retrieve the tokens from the DB based on the given key
 
-## Online Restricted: ## The User agent is not available in Online by default. User management is not allowed for partner apps
+
+
+
+## Online Restricted: ## The User agent is not available in Online by default. User management is not allowed for partner apps.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +30,7 @@ Retrieve the tokens from the DB based on the given key
 ```http
 POST /api/v1/Agents/User/GetExternalTokens?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,26 +46,24 @@ POST /api/v1/Agents/User/GetExternalTokens?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-Key
+Key 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | Key | string |  |
 
-## Response: object
 
-Token information
+## Response: 
 
-Carrier object for TokenManagementInfo.
-Services for the TokenManagementInfo Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IUserAgent">User Agent</see>.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -66,40 +73,36 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/User/GetExternalTokens
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "quos"
+  "Key": "magnam"
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Provider": "nesciunt",
-  "AccessToken": "quidem",
-  "RefreshToken": "perferendis",
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "Provider": "unde",
+  "AccessToken": "nemo",
+  "RefreshToken": "veniam",
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
-      "FieldType": "System.Int32",
-      "FieldLength": 721
+      "FieldRight": null,
+      "FieldType": "System.String",
+      "FieldLength": 611
     }
   }
 }

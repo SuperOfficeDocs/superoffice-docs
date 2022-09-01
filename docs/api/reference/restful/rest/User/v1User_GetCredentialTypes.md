@@ -1,6 +1,6 @@
 ---
 title: GET User/CredentialTypes
-id: v1User_GetCredentialTypes
+uid: v1User_GetCredentialTypes
 ---
 
 # GET User/CredentialTypes
@@ -11,7 +11,16 @@ GET /api/v1/User/CredentialTypes
 
 Get available credential types that can be used for authentication
 
-## Online Restricted: ## The User agent is not available in Online by default. User management is not allowed for partner apps
+
+
+
+## Online Restricted: ## The User agent is not available in Online by default. User management is not allowed for partner apps.
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -26,7 +35,10 @@ Get available credential types that can be used for authentication
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -45,7 +57,7 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 GET /api/v1/User/CredentialTypes
@@ -54,30 +66,26 @@ Accept: application/json; charset=utf-8
 Accept-Language: en
 ```
 
+## Sample response
+
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DisplayType": "quia",
-    "Type": "et",
-    "Description": "Re-contextualized systemic secured line",
+    "DisplayType": "neque",
+    "Type": "soluta",
+    "Description": "Right-sized zero defect moratorium",
     "ValueControl": "Edit",
-    "CanCreatePerson": true,
+    "CanCreatePerson": false,
     "IsUserNameSupported": false,
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.Int32",
-        "FieldLength": 194
+        "FieldRight": null,
+        "FieldType": "System.String",
+        "FieldLength": 249
       }
     }
   }

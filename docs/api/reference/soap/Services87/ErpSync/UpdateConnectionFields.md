@@ -12,11 +12,12 @@ Implemented by the <see cref="M:SuperOffice.Services87.IErpSyncAgent.UpdateConne
 ## UpdateConnectionFields
 
 Gets all supported actor types, and all fields for each actor type, and save this state to the CRM database
-<br />**Online Restricted:** The ErpSync agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for ERP integration apps.
+<para /><b>Online Restricted:</b> The ErpSync agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for ERP integration apps.
 
 * **erpConnectionId:** The ERP connection ID
 
 **Returns:** Success or fail
+
 
 [WSDL file for Services87/ErpSync](../Services87-ErpSync.md)
 
@@ -50,6 +51,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## UpdateConnectionFields Response
 
 ```xml
@@ -70,3 +72,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

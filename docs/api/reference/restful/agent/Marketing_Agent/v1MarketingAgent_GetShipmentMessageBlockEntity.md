@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Marketing/GetShipmentMessageBlockEntity
-id: v1MarketingAgent_GetShipmentMessageBlockEntity
+uid: v1MarketingAgent_GetShipmentMessageBlockEntity
 ---
 
 # POST Agents/Marketing/GetShipmentMessageBlockEntity
@@ -11,6 +11,12 @@ POST /api/v1/Agents/Marketing/GetShipmentMessageBlockEntity
 
 Gets a ShipmentMessageBlockEntity object.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -19,9 +25,10 @@ Gets a ShipmentMessageBlockEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Marketing/GetShipmentMessageBlockEntity?shipmentMessageBlockEntityId=401
+POST /api/v1/Agents/Marketing/GetShipmentMessageBlockEntity?shipmentMessageBlockEntityId=626
 POST /api/v1/Agents/Marketing/GetShipmentMessageBlockEntity?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -36,18 +43,16 @@ POST /api/v1/Agents/Marketing/GetShipmentMessageBlockEntity?$select=name,departm
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response: object
 
-This entity contains information about design blocks that can be used in a shipment/mailing message
+## Response: 
 
-Carrier object for ShipmentMessageBlockEntity.
-Services for the ShipmentMessageBlockEntity Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IMarketingAgent">Marketing Agent</see>.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -62,7 +67,7 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Marketing/GetShipmentMessageBlockEntity
@@ -71,31 +76,27 @@ Accept: application/json; charset=utf-8
 Accept-Language: en
 ```
 
+## Sample response
+
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageBlockId": 91,
-  "AssociateId": 722,
-  "Block": "nihil",
-  "Registered": "2017-05-26T18:28:49.4710876+02:00",
-  "RegisteredAssociateId": 811,
-  "Updated": "2012-03-19T18:28:49.4710876+01:00",
-  "UpdatedAssociateId": 247,
-  "UpdatedCount": 948,
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "ShipmentMessageBlockId": 459,
+  "AssociateId": 181,
+  "Block": "id",
+  "Registered": "2015-04-14T11:10:27.2954549+02:00",
+  "RegisteredAssociateId": 927,
+  "Updated": "2014-09-13T11:10:27.2954549+02:00",
+  "UpdatedAssociateId": 296,
+  "UpdatedCount": 43,
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
-      "FieldType": "System.String",
-      "FieldLength": 88
+      "FieldRight": null,
+      "FieldType": "System.Int32",
+      "FieldLength": 748
     }
   }
 }

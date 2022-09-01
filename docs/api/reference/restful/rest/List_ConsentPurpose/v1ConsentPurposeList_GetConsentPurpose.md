@@ -1,6 +1,6 @@
 ---
 title: GET List/ConsentPurpose/Items/{id}
-id: v1ConsentPurposeList_GetConsentPurpose
+uid: v1ConsentPurposeList_GetConsentPurpose
 ---
 
 # GET List/ConsentPurpose/Items/{id}
@@ -11,11 +11,18 @@ GET /api/v1/List/ConsentPurpose/Items/{id}
 
 Gets a ConsentPurpose list item.
 
+
 Calls the List agent service GetConsentPurpose.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | id | int32 | The id of the ConsentPurpose to return. **Required** |
+
+
 
 ## Request Headers
 
@@ -30,17 +37,17 @@ Calls the List agent service GetConsentPurpose.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response: object
 
-Carrier object for ConsentPurpose.
-Services for the ConsentPurpose Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IListAgent">List Agent</see>.
+## Response: 
+
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 | 404 | Not Found. |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -60,7 +67,7 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 GET /api/v1/List/ConsentPurpose/Items/{id}
@@ -69,60 +76,32 @@ Accept: application/json; charset=utf-8
 Accept-Language: en
 ```
 
+## Sample response
+
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConsentPurposeId": 285,
-  "Name": "Fritsch Inc and Sons",
-  "ConsentText": "facilis",
-  "FormText": "minus",
-  "Key": "omnis",
-  "Tooltip": "libero",
-  "Active": 711,
-  "UpdatedDate": "2004-06-22T18:25:51.6642946+02:00",
-  "UpdatedBy": {
-    "AssociateId": 101,
-    "Name": "Dibbert, Sporer and Hand",
-    "PersonId": 16,
-    "Rank": 766,
-    "Tooltip": "quisquam",
-    "Type": "AnonymousAssociate",
-    "GroupIdx": 595,
-    "FullName": "Idell Feest",
-    "FormalName": "Rice LLC",
-    "Deleted": true,
-    "EjUserId": 816,
-    "UserName": "Lehner Inc and Sons",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 253
-      }
-    }
-  },
+  "ConsentPurposeId": 156,
+  "Name": "Grimes-Runolfsson",
+  "ConsentText": "nulla",
+  "FormText": "veritatis",
+  "Key": "ipsam",
+  "Tooltip": "ratione",
+  "Active": 569,
+  "UpdatedDate": "2008-05-21T11:10:53.9761824+02:00",
+  "UpdatedBy": null,
   "Deleted": true,
-  "Rank": 820,
-  "PrivacyStatementDesc": "omnis",
+  "Rank": 105,
+  "PrivacyStatementDesc": "optio",
   "PrivacyStatementUrl": "http://www.example.com/",
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
-      "FieldType": "System.String",
-      "FieldLength": 875
+      "FieldRight": null,
+      "FieldType": "System.Int32",
+      "FieldLength": 569
     }
   }
 }

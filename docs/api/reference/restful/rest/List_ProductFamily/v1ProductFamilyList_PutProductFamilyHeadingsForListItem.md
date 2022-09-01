@@ -1,6 +1,6 @@
 ---
 title: PUT List/ProductFamily/Items/{id}/Headings
-id: v1ProductFamilyList_PutProductFamilyHeadingsForListItem
+uid: v1ProductFamilyList_PutProductFamilyHeadingsForListItem
 ---
 
 # PUT List/ProductFamily/Items/{id}/Headings
@@ -11,11 +11,18 @@ PUT /api/v1/List/ProductFamily/Items/{itemId}/Headings
 
 Saves headings for the ProductFamily list's item.
 
+
 Calls the List agent service SaveHeadingsForListItemFromListDefinition.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | itemId | int32 | The ID of the headings to be saved. **Required** |
+
+
 
 ## Request Headers
 
@@ -31,9 +38,9 @@ Calls the List agent service SaveHeadingsForListItemFromListDefinition.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entities
+## Request Body: entities  
 
-The headings to be saved.
+The headings to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -53,7 +60,10 @@ The headings to be saved.
 | Hidden | bool | True if the ListItem is hidden |
 | FullName | string | The name of the ListItem in its context |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -81,56 +91,58 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 PUT /api/v1/List/ProductFamily/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 959,
-    "Name": "Schiller, Shields and Bayer",
-    "ToolTip": "Fugit nisi voluptas.",
-    "Deleted": false,
-    "Rank": 683,
-    "Type": "autem",
-    "ColorBlock": 366,
-    "IconHint": "consequatur",
-    "Selected": true,
-    "LastChanged": "2010-06-20T18:25:52.0172124+02:00",
+    "Id": 175,
+    "Name": "Morissette Inc and Sons",
+    "ToolTip": "Omnis pariatur ut nulla velit velit assumenda.",
+    "Deleted": true,
+    "Rank": 868,
+    "Type": "provident",
+    "ColorBlock": 531,
+    "IconHint": "provident",
+    "Selected": false,
+    "LastChanged": "2018-07-05T11:10:54.4409312+02:00",
     "ChildItems": [
       {
-        "Id": 956,
-        "Name": "Jakubowski, Mitchell and Green",
-        "ToolTip": "Est ipsam dolore non qui corrupti.",
-        "Deleted": false,
-        "Rank": 455,
-        "Type": "magnam",
-        "ColorBlock": 68,
-        "IconHint": "itaque",
-        "Selected": false,
-        "LastChanged": "2003-09-03T18:25:52.0182122+02:00",
+        "Id": 190,
+        "Name": "Howe, Gislason and Bechtelar",
+        "ToolTip": "Quis eos quidem dolorem.",
+        "Deleted": true,
+        "Rank": 140,
+        "Type": "officiis",
+        "ColorBlock": 416,
+        "IconHint": "excepturi",
+        "Selected": true,
+        "LastChanged": "2005-10-15T11:10:54.4409312+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "eum",
-        "StyleHint": "harum",
-        "Hidden": false,
-        "FullName": "Karianne Considine"
+        "ExtraInfo": "maiores",
+        "StyleHint": "doloribus",
+        "Hidden": true,
+        "FullName": "Carolina Weimann"
       }
     ],
-    "ExtraInfo": "ipsa",
-    "StyleHint": "rerum",
+    "ExtraInfo": "non",
+    "StyleHint": "ipsum",
     "Hidden": false,
-    "FullName": "Gregory Durgan"
+    "FullName": "Luigi Renner I"
   }
 ]
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -138,65 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 739,
-    "Name": "Stokes Inc and Sons",
-    "ToolTip": "Tenetur atque aut illum et.",
-    "Deleted": true,
-    "Rank": 547,
-    "Type": "fugit",
-    "ColorBlock": 471,
-    "IconHint": "voluptatem",
-    "Selected": true,
-    "LastChanged": "2005-09-12T18:25:52.0192128+02:00",
+    "Id": 551,
+    "Name": "Langworth Inc and Sons",
+    "ToolTip": "Dignissimos eveniet.",
+    "Deleted": false,
+    "Rank": 217,
+    "Type": "doloribus",
+    "ColorBlock": 913,
+    "IconHint": "explicabo",
+    "Selected": false,
+    "LastChanged": "2000-02-03T11:10:54.4419256+01:00",
     "ChildItems": [
       {
-        "Id": 302,
-        "Name": "Christiansen-Kemmer",
-        "ToolTip": "Quia voluptas ipsa corrupti.",
+        "Id": 836,
+        "Name": "Collier Group",
+        "ToolTip": "Commodi qui.",
         "Deleted": true,
-        "Rank": 373,
-        "Type": "eveniet",
-        "ColorBlock": 637,
-        "IconHint": "et",
+        "Rank": 955,
+        "Type": "voluptas",
+        "ColorBlock": 484,
+        "IconHint": "quos",
         "Selected": false,
-        "LastChanged": "2008-03-08T18:25:52.0202124+01:00",
+        "LastChanged": "2017-03-18T11:10:54.4419256+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quia",
-        "StyleHint": "modi",
-        "Hidden": true,
-        "FullName": "Lori O'Hara II",
-        "TableRight": {},
+        "ExtraInfo": "qui",
+        "StyleHint": "eius",
+        "Hidden": false,
+        "FullName": "Prof. Sallie Sallie Ferry IV",
+        "TableRight": null,
         "FieldProperties": {
           "fieldName": {
-            "FieldRight": {
-              "Mask": "FULL",
-              "Reason": ""
-            },
-            "FieldType": "System.String",
-            "FieldLength": 454
+            "FieldRight": null,
+            "FieldType": "System.Int32",
+            "FieldLength": 366
           }
         }
       }
     ],
-    "ExtraInfo": "praesentium",
-    "StyleHint": "saepe",
+    "ExtraInfo": "omnis",
+    "StyleHint": "repudiandae",
     "Hidden": false,
-    "FullName": "Rashad Kohler",
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "FullName": "Lavada Streich",
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
+        "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 447
+        "FieldLength": 55
       }
     }
   }

@@ -13,7 +13,9 @@ Implemented by the <see cref="M:SuperOffice.Services84.IPreferenceAgent.GetAll">
 
 Gets a list of all PreferenceDescriptions in the system.
 
+
 **Returns:** All PreferenceDescriptions in the system
+
 
 [WSDL file for Services84/Preference](../Services84-Preference.md)
 
@@ -45,6 +47,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+
 
 ## GetAll Response
 
@@ -81,3 +84,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

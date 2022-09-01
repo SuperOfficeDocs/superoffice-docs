@@ -1,6 +1,6 @@
 ---
 title: GET Contact/Duplicates/{name}
-id: v1ContactEntity_GetNameDepartmentDuplicates
+uid: v1ContactEntity_GetNameDepartmentDuplicates
 ---
 
 # GET Contact/Duplicates/{name}
@@ -11,9 +11,15 @@ GET /api/v1/Contact/Duplicates/{name}
 
 Get duplicates based on the contact name and department
 
+
+
+
+
+
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | name | string | Name used for lookup **Required** |
+
 
 ## Query String Parameters
 
@@ -22,8 +28,9 @@ Get duplicates based on the contact name and department
 | department | string |  Department used for lookup (if any) |
 
 ```http
-GET /api/v1/Contact/Duplicates/{name}?department=ducimus
+GET /api/v1/Contact/Duplicates/{name}?department=temporibus
 ```
+
 
 ## Request Headers
 
@@ -38,7 +45,10 @@ GET /api/v1/Contact/Duplicates/{name}?department=ducimus
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -56,14 +66,16 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 GET /api/v1/Contact/Duplicates/{name}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -71,23 +83,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "RuleName": "Kessler Group",
-    "SoPrimaryKey": 60,
-    "EntryName": "Marks, Russel and Ritchie",
-    "EntryIdentifier": "in",
-    "RuleDisplayName": "Armstrong Inc and Sons",
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "RuleName": "Bartell, Collier and Kling",
+    "SoPrimaryKey": 291,
+    "EntryName": "Klein, Mann and Mueller",
+    "EntryIdentifier": "doloremque",
+    "RuleDisplayName": "Satterfield Inc and Sons",
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 799
+        "FieldRight": null,
+        "FieldType": "System.Int32",
+        "FieldLength": 450
       }
     }
   }

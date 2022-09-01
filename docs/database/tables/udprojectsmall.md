@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "udprojectSmall"
-so.date: 04.12.2022
+so.date: 08.26.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -133,6 +133,7 @@ User-defined fields
 |double09|double value 9, not indexed|Double|&#x25CF;|
 |double10|double value 10, not indexed|Double|&#x25CF;|
 
+
 ![udprojectSmall table relationship diagram](./media/udprojectSmall.png)
 
 [!include[details](./includes/udprojectsmall.md)]
@@ -161,6 +162,7 @@ User-defined fields
 |------|-------------|
 |[project](project.md)  |Projects |
 
+
 ## Replication Flags
 
 * Area Management controlled table. Contents replicated to satellites and traveller databases.
@@ -170,3 +172,4 @@ User-defined fields
 ## Security Flags
 
 * Sentry controls access to items in this table using user's Role and data rights matrix on the table's parent.
+

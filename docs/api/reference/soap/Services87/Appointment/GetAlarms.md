@@ -11,9 +11,13 @@ Implemented by the <see cref="M:SuperOffice.Services87.IAppointmentAgent.GetAlar
 
 ## GetAlarms
 
-* **includeInvitations:**
-* **includeAllAppointments:**
-* **defaultAlarmLeadTimeInMinutes:**
+
+
+* **includeInvitations:** 
+* **includeAllAppointments:** 
+* **defaultAlarmLeadTimeInMinutes:** 
+
+
 
 [WSDL file for Services87/Appointment](../Services87-Appointment.md)
 
@@ -49,6 +53,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## GetAlarms Response
 
 ```xml
@@ -67,9 +72,9 @@ Application tokens must be specified if calling an Online installation. Applicat
     <Appointment:Alarms xsi:type="Appointment:ArrayOfAlarmData">
      <Appointment:AlarmData xsi:type="Appointment:AlarmData">
       <Appointment:AppointmentId xsi:type="xsd:int">0</Appointment:AppointmentId>
-      <Appointment:StartTime xsi:type="xsd:dateTime">2021-11-30T13:23:08Z</Appointment:StartTime>
-      <Appointment:EndDate xsi:type="xsd:dateTime">2021-11-30T13:23:08Z</Appointment:EndDate>
-      <Appointment:AlarmTime xsi:type="xsd:dateTime">2021-11-30T13:23:08Z</Appointment:AlarmTime>
+      <Appointment:StartTime xsi:type="xsd:dateTime">2022-08-26T08:56:14Z</Appointment:StartTime>
+      <Appointment:EndDate xsi:type="xsd:dateTime">2022-08-26T08:56:14Z</Appointment:EndDate>
+      <Appointment:AlarmTime xsi:type="xsd:dateTime">2022-08-26T08:56:14Z</Appointment:AlarmTime>
       <Appointment:PersonId xsi:type="xsd:int">0</Appointment:PersonId>
       <Appointment:PersonFullName xsi:type="xsd:string"></Appointment:PersonFullName>
       <Appointment:ContactName xsi:type="xsd:string"></Appointment:ContactName>
@@ -98,3 +103,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

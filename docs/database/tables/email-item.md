@@ -6,14 +6,14 @@ so.generated: true
 keywords:
   - "database"
   - "email_item"
-so.date: 04.12.2022
+so.date: 08.26.2022
 so.topic: reference
 so.envir:
   - "onsite"
   - "online"
 ---
 
-# email\_item Table (483)
+# email\_item Table (484)
 
 Email data
 
@@ -53,6 +53,7 @@ Email data
 |cc|Cc|String(4000)|&#x25CF;|
 |cal\_data|Calendar data|Clob|&#x25CF;|
 
+
 ![email_item table relationship diagram](./media/email_item.png)
 
 [!include[details](./includes/email-item.md)]
@@ -82,6 +83,7 @@ Email data
 |[person](person.md)  |Persons in a company or an organizations. All associates have a corresponding person record |
 |[sale](sale.md)  |Sales  For every Sale record edited through the SuperOffice GUI, a copy of the current version of the record will be saved in the SaleHist table. This also applies to editing done through the SaleModel COM interface, but not to editing done through the OLE DB Provider or other channels.   |
 
+
 ## Replication Flags
 
 * None
@@ -89,3 +91,4 @@ Email data
 ## Security Flags
 
 * No access control via user's Role.
+

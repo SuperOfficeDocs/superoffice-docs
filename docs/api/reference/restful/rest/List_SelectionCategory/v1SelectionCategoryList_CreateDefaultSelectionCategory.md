@@ -1,6 +1,6 @@
 ---
 title: GET List/SelectionCategory/Items/Default
-id: v1SelectionCategoryList_CreateDefaultSelectionCategory
+uid: v1SelectionCategoryList_CreateDefaultSelectionCategory
 ---
 
 # GET List/SelectionCategory/Items/Default
@@ -10,6 +10,13 @@ GET /api/v1/List/SelectionCategory/Items/Default
 ```
 
 Gets a default SelectionCategory list item.
+
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -24,18 +31,16 @@ Gets a default SelectionCategory list item.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response: object
 
-The list item entity contains generic list item information
+## Response: 
 
-Carrier object for ListItemEntity.
-Services for the ListItemEntity Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IListAgent">List Agent</see>.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -48,7 +53,7 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 GET /api/v1/List/SelectionCategory/Items/Default
@@ -57,29 +62,25 @@ Accept: application/json; charset=utf-8
 Accept-Language: en
 ```
 
+## Sample response
+
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 472,
-  "Name": "Kreiger Inc and Sons",
-  "Tooltip": "veritatis",
+  "Id": 93,
+  "Name": "Kozey Inc and Sons",
+  "Tooltip": "id",
   "Deleted": false,
-  "UdListDefinitionId": 247,
-  "Rank": 469,
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "UdListDefinitionId": 177,
+  "Rank": 410,
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
+      "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 661
+      "FieldLength": 513
     }
   }
 }

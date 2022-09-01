@@ -1,6 +1,6 @@
 ---
 title: POST Agents/ErpSync/CreateErpActorFromCrm
-id: v1ErpSyncAgent_CreateErpActorFromCrm
+uid: v1ErpSyncAgent_CreateErpActorFromCrm
 ---
 
 # POST Agents/ErpSync/CreateErpActorFromCrm
@@ -11,7 +11,15 @@ POST /api/v1/Agents/ErpSync/CreateErpActorFromCrm
 
 Create ErpActor from crm entity
 
-## Online Restricted: ## The ErpSync agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for ERP integration apps
+
+
+
+## Online Restricted: ## The ErpSync agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for ERP integration apps.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +30,7 @@ Create ErpActor from crm entity
 ```http
 POST /api/v1/Agents/ErpSync/CreateErpActorFromCrm?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,9 +46,9 @@ POST /api/v1/Agents/ErpSync/CreateErpActorFromCrm?$select=name,department,catego
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-ConnectionId, CrmEntityId, ErpActorType, CrmActorType, ErpFieldKeyValues
+ConnectionId, CrmEntityId, ErpActorType, CrmActorType, ErpFieldKeyValues 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -49,7 +58,10 @@ ConnectionId, CrmEntityId, ErpActorType, CrmActorType, ErpFieldKeyValues
 | CrmActorType | string |  |
 | ErpFieldKeyValues | object |  |
 
+
 ## Response: bool
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -57,26 +69,29 @@ ConnectionId, CrmEntityId, ErpActorType, CrmActorType, ErpFieldKeyValues
 
 Response body: bool
 
-## Sample Request
+
+## Sample request
 
 ```http!
 POST /api/v1/Agents/ErpSync/CreateErpActorFromCrm
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConnectionId": 883,
-  "CrmEntityId": 932,
+  "ConnectionId": 246,
+  "CrmEntityId": 287,
   "ErpActorType": "Customer",
   "CrmActorType": "Contact",
   "ErpFieldKeyValues": {
-    "ErpFieldKeyValues1": "animi",
-    "ErpFieldKeyValues2": "incidunt"
+    "ErpFieldKeyValues1": "est",
+    "ErpFieldKeyValues2": "iste"
   }
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK

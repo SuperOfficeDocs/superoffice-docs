@@ -1,6 +1,6 @@
 ---
 title: POST Agents/User/SaveCredential
-id: v1UserAgent_SaveCredential
+uid: v1UserAgent_SaveCredential
 ---
 
 # POST Agents/User/SaveCredential
@@ -11,7 +11,15 @@ POST /api/v1/Agents/User/SaveCredential
 
 Save (adds/replaces) current credential of the same type for the user.
 
-## Online Restricted: ## The User agent is not available in Online by default. User management is not allowed for partner apps
+
+
+
+## Online Restricted: ## The User agent is not available in Online by default. User management is not allowed for partner apps.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +30,7 @@ Save (adds/replaces) current credential of the same type for the user.
 ```http
 POST /api/v1/Agents/User/SaveCredential?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,16 +46,19 @@ POST /api/v1/Agents/User/SaveCredential?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-UserId, Credential
+UserId, Credential 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | UserId | int32 |  |
-| Credential |  | Credentials supported for authentication <br /> Carrier object for Credential. Services for the Credential Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IUserAgent">User Agent</see>. |
+| Credential |  | Credentials supported for authentication <para /> Carrier object for Credential. Services for the Credential Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IUserAgent">User Agent</see>. |
+
 
 ## Response: bool
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -54,7 +66,8 @@ UserId, Credential
 
 Response body: bool
 
-## Sample Request
+
+## Sample request
 
 ```http!
 POST /api/v1/Agents/User/SaveCredential
@@ -64,18 +77,16 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UserId": 278,
-  "Credential": {
-    "Type": {},
-    "Value": "fuga",
-    "DisplayValue": "aut"
-  }
+  "UserId": 456,
+  "Credential": null
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-true
+false
 ```

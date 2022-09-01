@@ -1,6 +1,6 @@
 ---
 title: PUT List/ProductCategory/Items/{id}/Headings
-id: v1ProductCategoryList_PutProductCategoryHeadingsForListItem
+uid: v1ProductCategoryList_PutProductCategoryHeadingsForListItem
 ---
 
 # PUT List/ProductCategory/Items/{id}/Headings
@@ -11,11 +11,18 @@ PUT /api/v1/List/ProductCategory/Items/{itemId}/Headings
 
 Saves headings for the ProductCategory list's item.
 
+
 Calls the List agent service SaveHeadingsForListItemFromListDefinition.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | itemId | int32 | The ID of the headings to be saved. **Required** |
+
+
 
 ## Request Headers
 
@@ -31,9 +38,9 @@ Calls the List agent service SaveHeadingsForListItemFromListDefinition.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entities
+## Request Body: entities  
 
-The headings to be saved.
+The headings to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -53,7 +60,10 @@ The headings to be saved.
 | Hidden | bool | True if the ListItem is hidden |
 | FullName | string | The name of the ListItem in its context |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -81,56 +91,58 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 PUT /api/v1/List/ProductCategory/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 964,
-    "Name": "Kiehn-Hauck",
-    "ToolTip": "Est aliquid expedita.",
+    "Id": 618,
+    "Name": "Kuhn-Feil",
+    "ToolTip": "Quam rem sed voluptatibus ex sed.",
     "Deleted": false,
-    "Rank": 403,
-    "Type": "debitis",
-    "ColorBlock": 148,
-    "IconHint": "amet",
-    "Selected": true,
-    "LastChanged": "2000-05-25T18:25:52.0022126+02:00",
+    "Rank": 142,
+    "Type": "dolor",
+    "ColorBlock": 288,
+    "IconHint": "reiciendis",
+    "Selected": false,
+    "LastChanged": "2013-06-28T11:10:54.4239294+02:00",
     "ChildItems": [
       {
-        "Id": 998,
-        "Name": "Romaguera, Ferry and Wolff",
-        "ToolTip": "Nihil quae harum dolore tempore aut.",
-        "Deleted": true,
-        "Rank": 331,
-        "Type": "ullam",
-        "ColorBlock": 93,
-        "IconHint": "harum",
+        "Id": 328,
+        "Name": "Rempel LLC",
+        "ToolTip": "Quia provident assumenda id.",
+        "Deleted": false,
+        "Rank": 720,
+        "Type": "est",
+        "ColorBlock": 227,
+        "IconHint": "quia",
         "Selected": true,
-        "LastChanged": "2002-02-09T18:25:52.0022126+01:00",
+        "LastChanged": "2011-05-21T11:10:54.4239294+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "facere",
-        "StyleHint": "animi",
+        "ExtraInfo": "magnam",
+        "StyleHint": "modi",
         "Hidden": false,
-        "FullName": "Keira Fay"
+        "FullName": "Dr. Bobbie Haag"
       }
     ],
-    "ExtraInfo": "aut",
-    "StyleHint": "quidem",
+    "ExtraInfo": "inventore",
+    "StyleHint": "voluptas",
     "Hidden": false,
-    "FullName": "Bernice Moore Jr."
+    "FullName": "Sister Nikolaus"
   }
 ]
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -138,65 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 336,
-    "Name": "Anderson, Schulist and Klein",
-    "ToolTip": "Et ipsum et incidunt rerum.",
-    "Deleted": true,
-    "Rank": 340,
-    "Type": "neque",
-    "ColorBlock": 233,
-    "IconHint": "laudantium",
+    "Id": 266,
+    "Name": "Champlin LLC",
+    "ToolTip": "Error fuga eos quasi provident.",
+    "Deleted": false,
+    "Rank": 465,
+    "Type": "sint",
+    "ColorBlock": 632,
+    "IconHint": "dolores",
     "Selected": false,
-    "LastChanged": "2019-03-21T18:25:52.0032124+01:00",
+    "LastChanged": "2004-11-17T11:10:54.4249314+01:00",
     "ChildItems": [
       {
-        "Id": 701,
-        "Name": "Reilly-Murphy",
-        "ToolTip": "Sed omnis a nisi at.",
+        "Id": 75,
+        "Name": "Langworth, Prohaska and Kautzer",
+        "ToolTip": "Voluptas quia repellat harum ea laboriosam officiis.",
         "Deleted": false,
-        "Rank": 67,
-        "Type": "enim",
-        "ColorBlock": 475,
-        "IconHint": "nesciunt",
-        "Selected": true,
-        "LastChanged": "1998-01-18T18:25:52.0042123+01:00",
+        "Rank": 699,
+        "Type": "quasi",
+        "ColorBlock": 72,
+        "IconHint": "quam",
+        "Selected": false,
+        "LastChanged": "2000-10-18T11:10:54.4249314+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "rerum",
-        "StyleHint": "eaque",
-        "Hidden": false,
-        "FullName": "Dennis Nolan",
-        "TableRight": {},
+        "ExtraInfo": "quasi",
+        "StyleHint": "et",
+        "Hidden": true,
+        "FullName": "Antwan Pfeffer",
+        "TableRight": null,
         "FieldProperties": {
           "fieldName": {
-            "FieldRight": {
-              "Mask": "FULL",
-              "Reason": ""
-            },
+            "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 391
+            "FieldLength": 120
           }
         }
       }
     ],
-    "ExtraInfo": "sit",
-    "StyleHint": "ut",
-    "Hidden": false,
-    "FullName": "Geovanni Gottlieb II",
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "ExtraInfo": "quos",
+    "StyleHint": "autem",
+    "Hidden": true,
+    "FullName": "Rocky Erling Koepp II",
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 823
+        "FieldRight": null,
+        "FieldType": "System.Int32",
+        "FieldLength": 809
       }
     }
   }

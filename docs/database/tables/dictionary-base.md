@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "dictionary_base"
-so.date: 04.12.2022
+so.date: 08.26.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -26,6 +26,7 @@ Language catalog for the ejournal dictionaries (automatic proof reading of messa
 |code|Language code name (no, en)|String(8)| |
 |flags|A bitmask of dictionary flags|Int| |
 
+
 ![dictionary_base table relationship diagram](./media/dictionary_base.png)
 
 [!include[details](./includes/dictionary-base.md)]
@@ -42,6 +43,7 @@ Language catalog for the ejournal dictionaries (automatic proof reading of messa
 |------|-------------|
 |[dictionary](dictionary.md)  |User added dictionary words |
 
+
 ## Replication Flags
 
 * None
@@ -49,3 +51,4 @@ Language catalog for the ejournal dictionaries (automatic proof reading of messa
 ## Security Flags
 
 * No access control via user's Role.
+

@@ -1,6 +1,6 @@
 ---
 title: GET Role/{roleType}/FunctionRight
-id: v1RoleEntity_GetAllFunctionalRights
+uid: v1RoleEntity_GetAllFunctionalRights
 ---
 
 # GET Role/{roleType}/FunctionRight
@@ -11,13 +11,21 @@ GET /api/v1/Role/{roleType}/FunctionRight
 
 Get a list of all functional rights for the given type of role.
 
-MDO List name = 'FunctionRights', extra='roleType=0'
 
-## Online Restricted: ## The User agent is not available in Online by default. User management is not allowed for partner apps
+MDO List name = 'FunctionRights', extra='roleType=0' 
+
+
+## Online Restricted: ## The User agent is not available in Online by default. User management is not allowed for partner apps.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | roleType | Enum: Employee, ExternalUser, Anonymous, System | Type of role (Employee/External/Anonymous/System) **Required** |
+
+
 
 ## Request Headers
 
@@ -32,7 +40,10 @@ MDO List name = 'FunctionRights', extra='roleType=0'
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -60,14 +71,16 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 GET /api/v1/Role/{roleType}/FunctionRight
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -75,65 +88,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 421,
-    "Name": "Crooks Inc and Sons",
-    "ToolTip": "Asperiores blanditiis cupiditate labore et.",
+    "Id": 985,
+    "Name": "Kovacek, Maggio and Reynolds",
+    "ToolTip": "Laudantium odit magni et fugiat minus esse.",
     "Deleted": false,
-    "Rank": 782,
-    "Type": "placeat",
-    "ColorBlock": 431,
-    "IconHint": "fugiat",
-    "Selected": true,
-    "LastChanged": "1997-06-08T18:25:50.8768836+02:00",
+    "Rank": 61,
+    "Type": "aut",
+    "ColorBlock": 76,
+    "IconHint": "rerum",
+    "Selected": false,
+    "LastChanged": "1996-02-11T11:10:53.3621455+01:00",
     "ChildItems": [
       {
-        "Id": 542,
-        "Name": "Brakus-Crona",
-        "ToolTip": "Rerum facilis possimus eum labore nisi quisquam.",
-        "Deleted": true,
-        "Rank": 617,
-        "Type": "ut",
-        "ColorBlock": 235,
-        "IconHint": "sunt",
-        "Selected": true,
-        "LastChanged": "2000-10-20T18:25:50.8768836+02:00",
+        "Id": 797,
+        "Name": "Kihn Inc and Sons",
+        "ToolTip": "Corporis veniam laudantium autem.",
+        "Deleted": false,
+        "Rank": 932,
+        "Type": "enim",
+        "ColorBlock": 495,
+        "IconHint": "vero",
+        "Selected": false,
+        "LastChanged": "2004-03-12T11:10:53.3621455+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "veniam",
-        "StyleHint": "alias",
+        "ExtraInfo": "assumenda",
+        "StyleHint": "dolorem",
         "Hidden": false,
-        "FullName": "Berry Runolfsdottir",
-        "TableRight": {},
+        "FullName": "Janick Cronin",
+        "TableRight": null,
         "FieldProperties": {
           "fieldName": {
-            "FieldRight": {
-              "Mask": "FULL",
-              "Reason": ""
-            },
-            "FieldType": "System.String",
-            "FieldLength": 298
+            "FieldRight": null,
+            "FieldType": "System.Int32",
+            "FieldLength": 344
           }
         }
       }
     ],
-    "ExtraInfo": "est",
-    "StyleHint": "voluptatem",
-    "Hidden": false,
-    "FullName": "Emmy Turner I",
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "ExtraInfo": "dignissimos",
+    "StyleHint": "rerum",
+    "Hidden": true,
+    "FullName": "Ms. Georgianna Glover II",
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.Int32",
-        "FieldLength": 166
+        "FieldRight": null,
+        "FieldType": "System.String",
+        "FieldLength": 967
       }
     }
   }

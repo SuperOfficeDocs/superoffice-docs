@@ -17,6 +17,7 @@ Create a new connection.
 
 **Returns:** The created connection
 
+
 [WSDL file for Services84/Quote](../Services84-Quote.md)
 
 Obtain a ticket from the [Services84/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -48,6 +49,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+
 
 ## CreateConnectionFromConnectorName Response
 
@@ -108,8 +110,8 @@ Application tokens must be specified if calling an Online installation. Applicat
       <Quote:Description xsi:type="xsd:string"></Quote:Description>
       <Quote:Currency xsi:type="xsd:string"></Quote:Currency>
       <Quote:CurrencyName xsi:type="xsd:string"></Quote:CurrencyName>
-      <Quote:ValidFrom xsi:type="xsd:dateTime">2021-11-30T13:22:19Z</Quote:ValidFrom>
-      <Quote:ValidTo xsi:type="xsd:dateTime">2021-11-30T13:22:19Z</Quote:ValidTo>
+      <Quote:ValidFrom xsi:type="xsd:dateTime">2022-08-26T08:51:39Z</Quote:ValidFrom>
+      <Quote:ValidTo xsi:type="xsd:dateTime">2022-08-26T08:51:39Z</Quote:ValidTo>
       <Quote:IsActive xsi:type="xsd:boolean">false</Quote:IsActive>
      </Quote:PriceList>
     </Quote:PriceLists>
@@ -127,3 +129,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

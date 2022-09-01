@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "travelidmapping"
-so.date: 04.12.2022
+so.date: 08.26.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -15,7 +15,7 @@ so.envir:
 
 # travelidmapping Table (43)
 
-Mapping of primary keys between Travel databases and the mother database  All travel database transactions get a high id to be able to see that this entry came from a database outside the central database. When update files are read into the central database, they get a normal low id. This table remembers the high travel id to map it to the low central id as long as this travel user is travelling.
+Mapping of primary keys between Travel databases and the mother database  All travel database transactions get a high id to be able to see that this entry came from a database outside the central database. When update files are read into the central database, they get a normal low id. This table remembers the high travel id to map it to the low central id as long as this travel user is travelling. 
 
 ## Fields
 
@@ -33,6 +33,7 @@ Mapping of primary keys between Travel databases and the mother database  All tr
 |updated|Last updated when|UtcDateTime| |
 |updated\_associate\_id|Last updated by whom|FK [associate](associate.md)| |
 |updatedCount|Number of updates made to this record|UShort| |
+
 
 ![travelidmapping table relationship diagram](./media/travelidmapping.png)
 
@@ -52,6 +53,7 @@ Mapping of primary keys between Travel databases and the mother database  All tr
 |------|-------------|
 |[associate](associate.md)  |Employees, resources and other users - except for External persons |
 
+
 ## Replication Flags
 
 * None
@@ -59,3 +61,4 @@ Mapping of primary keys between Travel databases and the mother database  All tr
 ## Security Flags
 
 * No access control via user's Role.
+

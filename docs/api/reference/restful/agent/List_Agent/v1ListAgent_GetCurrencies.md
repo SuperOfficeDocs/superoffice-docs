@@ -1,6 +1,6 @@
 ---
 title: POST Agents/List/GetCurrencies
-id: v1ListAgent_GetCurrencies
+uid: v1ListAgent_GetCurrencies
 ---
 
 # POST Agents/List/GetCurrencies
@@ -11,6 +11,12 @@ POST /api/v1/Agents/List/GetCurrencies
 
 Returns all currencies
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Returns all currencies
 ```http
 POST /api/v1/Agents/List/GetCurrencies?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -34,7 +41,10 @@ POST /api/v1/Agents/List/GetCurrencies?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -50,7 +60,7 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/List/GetCurrencies
@@ -59,46 +69,36 @@ Accept: application/json; charset=utf-8
 Accept-Language: en
 ```
 
+## Sample response
+
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 675,
-    "Value": "magnam",
-    "Tooltip": "dolor",
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "Id": 457,
+    "Value": "laborum",
+    "Tooltip": "dolorum",
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 680
+        "FieldRight": null,
+        "FieldType": "System.Int32",
+        "FieldLength": 189
       }
     }
   },
   {
-    "Id": 675,
-    "Value": "magnam",
-    "Tooltip": "dolor",
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "Id": 457,
+    "Value": "laborum",
+    "Tooltip": "dolorum",
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 680
+        "FieldRight": null,
+        "FieldType": "System.Int32",
+        "FieldLength": 189
       }
     }
   }

@@ -17,6 +17,7 @@ Take an incoming set of Restrictions (name + operator + any user-entered values)
 
 **Returns:** Restrictions in the same order as the incoming restrictions, with all values expanded.
 
+
 [WSDL file for Services88/Find](../Services88-Find.md)
 
 Obtain a ticket from the [Services88/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -123,6 +124,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+
 
 ## PopulateRestrictionValues Response
 
@@ -239,3 +241,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

@@ -1,6 +1,6 @@
 ---
 title: GET List/ReasonSold/Items/{id}/Headings
-id: v1ReasonSoldList_GetReasonSoldHeadingsForListItem
+uid: v1ReasonSoldList_GetReasonSoldHeadingsForListItem
 ---
 
 # GET List/ReasonSold/Items/{id}/Headings
@@ -11,11 +11,17 @@ GET /api/v1/List/ReasonSold/Items/{itemId}/Headings
 
 Gets headings for the ReasonSold list's item.
 
+
 Calls the List agent service GetHeadings.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | itemId | int32 | The ID of the headings to be get. **Required** |
+
 
 ## Query String Parameters
 
@@ -26,6 +32,7 @@ Calls the List agent service GetHeadings.
 ```http
 GET /api/v1/List/ReasonSold/Items/{itemId}/Headings?showDeleted=False
 ```
+
 
 ## Request Headers
 
@@ -40,7 +47,10 @@ GET /api/v1/List/ReasonSold/Items/{itemId}/Headings?showDeleted=False
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -68,14 +78,16 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 GET /api/v1/List/ReasonSold/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -83,65 +95,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 338,
-    "Name": "Harris-Runolfsdottir",
-    "ToolTip": "Qui sunt odit.",
+    "Id": 73,
+    "Name": "Cartwright Inc and Sons",
+    "ToolTip": "Et quis ipsum ipsa officiis autem totam.",
     "Deleted": true,
-    "Rank": 981,
-    "Type": "commodi",
-    "ColorBlock": 840,
-    "IconHint": "aut",
+    "Rank": 909,
+    "Type": "voluptatem",
+    "ColorBlock": 718,
+    "IconHint": "reprehenderit",
     "Selected": true,
-    "LastChanged": "2005-07-10T18:25:52.1530195+02:00",
+    "LastChanged": "2020-09-02T11:10:54.5719352+02:00",
     "ChildItems": [
       {
-        "Id": 916,
-        "Name": "Johnston, Feest and Hessel",
-        "ToolTip": "Tempora enim omnis aperiam molestiae quibusdam earum.",
-        "Deleted": true,
-        "Rank": 847,
-        "Type": "est",
-        "ColorBlock": 47,
-        "IconHint": "aliquam",
-        "Selected": false,
-        "LastChanged": "2005-04-24T18:25:52.1549849+02:00",
+        "Id": 277,
+        "Name": "Schinner LLC",
+        "ToolTip": "Nulla repellat quod qui ratione.",
+        "Deleted": false,
+        "Rank": 789,
+        "Type": "iste",
+        "ColorBlock": 3,
+        "IconHint": "nulla",
+        "Selected": true,
+        "LastChanged": "2017-10-01T11:10:54.5719352+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "maxime",
-        "StyleHint": "architecto",
-        "Hidden": true,
-        "FullName": "Austyn Ruecker",
-        "TableRight": {},
+        "ExtraInfo": "illo",
+        "StyleHint": "dolores",
+        "Hidden": false,
+        "FullName": "Maria Abernathy",
+        "TableRight": null,
         "FieldProperties": {
           "fieldName": {
-            "FieldRight": {
-              "Mask": "FULL",
-              "Reason": ""
-            },
+            "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 331
+            "FieldLength": 756
           }
         }
       }
     ],
-    "ExtraInfo": "laudantium",
-    "StyleHint": "quia",
+    "ExtraInfo": "veritatis",
+    "StyleHint": "incidunt",
     "Hidden": false,
-    "FullName": "Bennett Kirlin",
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "FullName": "Jerod Madelyn Frami DDS",
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.Int32",
-        "FieldLength": 792
+        "FieldRight": null,
+        "FieldType": "System.String",
+        "FieldLength": 555
       }
     }
   }

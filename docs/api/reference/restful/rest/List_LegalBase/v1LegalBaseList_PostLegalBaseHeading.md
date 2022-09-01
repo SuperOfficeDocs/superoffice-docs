@@ -1,6 +1,6 @@
 ---
 title: POST List/LegalBase/Headings
-id: v1LegalBaseList_PostLegalBaseHeading
+uid: v1LegalBaseList_PostLegalBaseHeading
 ---
 
 # POST List/LegalBase/Headings
@@ -11,7 +11,14 @@ POST /api/v1/List/LegalBase/Headings
 
 Saves a new heading for the LegalBase list.
 
+
 Calls the List agent service SaveHeadingFromListDefinition.
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -27,9 +34,9 @@ Calls the List agent service SaveHeadingFromListDefinition.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: newEntity
+## Request Body: newEntity  
 
-The heading to be added.
+The heading to be added. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -40,18 +47,16 @@ The heading to be added.
 | Rank | int32 | Rank order |
 | UdListDefinitionId | int32 | The id of the list which this heading belongs to |
 
-## Response: object
 
-The heading entity contains generic list item information
+## Response: 
 
-Carrier object for HeadingEntity.
-Services for the HeadingEntity Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IListAgent">List Agent</see>.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -64,7 +69,7 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/List/LegalBase/Headings
@@ -74,38 +79,34 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 175,
-  "Name": "Lehner Group",
-  "Tooltip": "molestiae",
+  "HeadingId": 229,
+  "Name": "Swaniawski-Littel",
+  "Tooltip": "nulla",
   "Deleted": false,
-  "Rank": 711,
-  "UdListDefinitionId": 717
+  "Rank": 248,
+  "UdListDefinitionId": 492
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 656,
-  "Name": "Wisozk Group",
-  "Tooltip": "tempore",
+  "HeadingId": 756,
+  "Name": "Hessel, Beier and Price",
+  "Tooltip": "ex",
   "Deleted": true,
-  "Rank": 296,
-  "UdListDefinitionId": 72,
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "Rank": 444,
+  "UdListDefinitionId": 306,
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
-      "FieldType": "System.Int32",
-      "FieldLength": 887
+      "FieldRight": null,
+      "FieldType": "System.String",
+      "FieldLength": 945
     }
   }
 }

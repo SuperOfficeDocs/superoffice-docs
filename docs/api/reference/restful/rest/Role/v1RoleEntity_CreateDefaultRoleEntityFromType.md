@@ -1,6 +1,6 @@
 ---
 title: GET Role/{type}/Default
-id: v1RoleEntity_CreateDefaultRoleEntityFromType
+uid: v1RoleEntity_CreateDefaultRoleEntityFromType
 ---
 
 # GET Role/{type}/Default
@@ -11,13 +11,21 @@ GET /api/v1/Role/{type}/Default
 
 Create a new role entity of the specified role type.
 
+
 The role type cannot be changed after the entity is created.
 
-## Online Restricted: ## The User agent is not available in Online by default. User management is not allowed for partner apps
+
+## Online Restricted: ## The User agent is not available in Online by default. User management is not allowed for partner apps.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | type | Enum: Employee, ExternalUser, Anonymous, System | Type of role (Employee/External/Anonymous/System) **Required** |
+
+
 
 ## Request Headers
 
@@ -32,16 +40,16 @@ The role type cannot be changed after the entity is created.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response: object
 
-Carrier object for RoleEntity.
-Services for the RoleEntity Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IUserAgent">User Agent</see>.
+## Response: 
+
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -60,7 +68,7 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 GET /api/v1/Role/{type}/Default
@@ -69,145 +77,31 @@ Accept: application/json; charset=utf-8
 Accept-Language: *
 ```
 
+## Sample response
+
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 925,
-  "Name": "King-Heller",
-  "Tooltip": "iste",
+  "RoleId": 528,
+  "Name": "Bednar-Donnelly",
+  "Tooltip": "tenetur",
   "RoleType": "Anonymous",
-  "Deleted": 99,
-  "Rank": 852,
-  "Created": "2007-05-16T18:25:50.8818867+02:00",
-  "UseCategories": 507,
-  "CreatedBy": {
-    "AssociateId": 559,
-    "Name": "Green-Medhurst",
-    "PersonId": 116,
-    "Rank": 195,
-    "Tooltip": "id",
-    "Type": "AnonymousAssociate",
-    "GroupIdx": 643,
-    "FullName": "Bertrand Gislason",
-    "FormalName": "Hyatt-Jacobson",
-    "Deleted": false,
-    "EjUserId": 482,
-    "UserName": "Armstrong-Gleason",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.Int32",
-        "FieldLength": 872
-      }
-    }
-  },
-  "Updated": "2005-02-07T18:25:50.8818867+01:00",
-  "UpdatedBy": {
-    "AssociateId": 293,
-    "Name": "Kuvalis, Kling and Kuvalis",
-    "PersonId": 410,
-    "Rank": 391,
-    "Tooltip": "ea",
-    "Type": "AnonymousAssociate",
-    "GroupIdx": 445,
-    "FullName": "Christa Muller",
-    "FormalName": "Yost-Lesch",
-    "Deleted": true,
-    "EjUserId": 293,
-    "UserName": "Denesik-West",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": "strategize extensible content"
-        },
-        "FieldType": "System.String",
-        "FieldLength": 240
-      }
-    }
-  },
-  "DataRights": {
-    "ColumnsInfo": [
-      {},
-      {}
-    ],
-    "RowsInfo": [
-      {},
-      {}
-    ],
-    "Rights": [
-      [
-        {
-          "Value": "perspiciatis",
-          "Description": "Customer-focused object-oriented installation",
-          "TableRight": {
-            "Mask": "Delete",
-            "Reason": ""
-          },
-          "FieldProperties": {
-            "fieldName": {
-              "FieldRight": {
-                "Mask": "FULL",
-                "Reason": ""
-              },
-              "FieldType": "System.Int32",
-              "FieldLength": 225
-            }
-          }
-        }
-      ],
-      [
-        {
-          "Value": "quia",
-          "Description": "Adaptive uniform time-frame",
-          "TableRight": {
-            "Mask": "Delete",
-            "Reason": ""
-          },
-          "FieldProperties": {
-            "fieldName": {
-              "FieldRight": {
-                "Mask": "FULL",
-                "Reason": ""
-              },
-              "FieldType": "System.Int32",
-              "FieldLength": 733
-            }
-          }
-        }
-      ]
-    ],
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.Int32",
-        "FieldLength": 431
-      }
-    }
-  },
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "Deleted": 211,
+  "Rank": 841,
+  "Created": "2004-10-05T11:10:53.3661791+02:00",
+  "UseCategories": 149,
+  "CreatedBy": null,
+  "Updated": "1996-12-15T11:10:53.3671851+01:00",
+  "UpdatedBy": null,
+  "DataRights": null,
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
+      "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 971
+      "FieldLength": 421
     }
   }
 }

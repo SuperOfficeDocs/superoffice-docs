@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Document/GetProjectDocumentsByTemplateType
-id: v1DocumentAgent_GetProjectDocumentsByTemplateType
+uid: v1DocumentAgent_GetProjectDocumentsByTemplateType
 ---
 
 # POST Agents/Document/GetProjectDocumentsByTemplateType
@@ -11,7 +11,13 @@ POST /api/v1/Agents/Document/GetProjectDocumentsByTemplateType
 
 Method that returns a specified number of document appointments within a time range, filtered by document template type.
 
+
 The document appointments belong to the project specified.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +28,7 @@ The document appointments belong to the project specified.
 ```http
 POST /api/v1/Agents/Document/GetProjectDocumentsByTemplateType?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,9 +44,9 @@ POST /api/v1/Agents/Document/GetProjectDocumentsByTemplateType?$select=name,depa
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-ProjectId, StartTime, EndTime, Count, DocumentTemplateId
+ProjectId, StartTime, EndTime, Count, DocumentTemplateId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -49,7 +56,10 @@ ProjectId, StartTime, EndTime, Count, DocumentTemplateId
 | Count | int32 |  |
 | DocumentTemplateId | int32 |  |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -77,26 +87,30 @@ Response body: array
 | ProjectName | string | Project name |
 | AssociateId | int32 | ID of associate whose diary the appointment is in, REQUIRED |
 | Snum | int32 | The sequence number allocated from refcount on used template when creating the document |
+| SaleId | int32 | Owning sale, if any (may be 0) |
+| SaleName | string | Heading of Owning sale, if any. (may be blank) |
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Document/GetProjectDocumentsByTemplateType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 860,
-  "StartTime": "1996-04-21T18:28:48.7199572+02:00",
-  "EndTime": "2004-12-30T18:28:48.7199572+01:00",
-  "Count": 804,
-  "DocumentTemplateId": 999
+  "ProjectId": 61,
+  "StartTime": "1995-10-31T11:10:26.4764524+01:00",
+  "EndTime": "2005-10-31T11:10:26.4764524+01:00",
+  "Count": 984,
+  "DocumentTemplateId": 280
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -104,36 +118,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 396,
-    "Attention": "porro",
-    "Header": "adipisci",
-    "Name": "Zulauf Group",
-    "OurRef": "voluptatem",
-    "YourRef": "explicabo",
-    "Description": "Future-proofed bottom-line projection",
-    "DocumentTemplate": "amet",
+    "DocumentId": 219,
+    "Attention": "voluptatem",
+    "Header": "rerum",
+    "Name": "Wolff, Green and Tillman",
+    "OurRef": "nihil",
+    "YourRef": "vitae",
+    "Description": "Seamless global matrices",
+    "DocumentTemplate": "quo",
     "IsPublished": false,
-    "PersonId": 835,
-    "PersonFullName": "Otilia Boyle",
-    "AssociateFullName": "Pierre Jacobson",
-    "ContactId": 726,
-    "ContactName": "Durgan-Hammes",
-    "ProjectId": 338,
-    "ProjectName": "Schmeler, Boyer and Altenwerth",
-    "AssociateId": 448,
-    "Snum": 95,
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "PersonId": 497,
+    "PersonFullName": "Keeley Morissette",
+    "AssociateFullName": "Paolo Lemke",
+    "ContactId": 439,
+    "ContactName": "Greenholt-Hilpert",
+    "ProjectId": 763,
+    "ProjectName": "Orn Inc and Sons",
+    "AssociateId": 844,
+    "Snum": 510,
+    "SaleId": 112,
+    "SaleName": "Hilll, Daugherty and Flatley",
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": "utilize proactive content"
-        },
+        "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 313
+        "FieldLength": 246
       }
     }
   }

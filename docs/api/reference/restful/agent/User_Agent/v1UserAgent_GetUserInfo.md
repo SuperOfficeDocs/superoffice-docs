@@ -1,6 +1,6 @@
 ---
 title: POST Agents/User/GetUserInfo
-id: v1UserAgent_GetUserInfo
+uid: v1UserAgent_GetUserInfo
 ---
 
 # POST Agents/User/GetUserInfo
@@ -11,7 +11,15 @@ POST /api/v1/Agents/User/GetUserInfo
 
 Gets a UserInfo object.
 
-## Online Restricted: ## The User agent is not available in Online by default. User management is not allowed for partner apps
+
+
+
+## Online Restricted: ## The User agent is not available in Online by default. User management is not allowed for partner apps.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -21,9 +29,10 @@ Gets a UserInfo object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/User/GetUserInfo?userInfoId=871
+POST /api/v1/Agents/User/GetUserInfo?userInfoId=662
 POST /api/v1/Agents/User/GetUserInfo?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -38,16 +47,16 @@ POST /api/v1/Agents/User/GetUserInfo?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response: object
 
-Carrier object for UserInfo.
-Services for the UserInfo Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IUserAgent">User Agent</see>.
+## Response: 
+
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -69,50 +78,46 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/User/GetUserInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Deleted": true,
-  "UserInfoId": 909,
-  "UserName": "Crooks Group",
-  "PersonId": 203,
-  "Rank": 333,
-  "Tooltip": "numquam",
-  "UserGroupId": 568,
-  "EjUserId": 161,
+  "Deleted": false,
+  "UserInfoId": 860,
+  "UserName": "Parker LLC",
+  "PersonId": 347,
+  "Rank": 711,
+  "Tooltip": "ut",
+  "UserGroupId": 305,
+  "EjUserId": 941,
   "UserType": "AnonymousAssociate",
   "GrantedLicenses": [
-    "consequatur",
-    "ut"
+    "itaque",
+    "aut"
   ],
   "CanLogon": true,
-  "RoleName": "Hammes, Towne and Schimmel",
-  "RoleTooltip": "quaerat",
-  "UserGroupName": "Harris-Harris",
-  "UserGroupTooltip": "omnis",
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "RoleName": "Daniel Group",
+  "RoleTooltip": "reprehenderit",
+  "UserGroupName": "Orn LLC",
+  "UserGroupTooltip": "hic",
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
+      "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 834
+      "FieldLength": 436
     }
   }
 }

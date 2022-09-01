@@ -18,6 +18,7 @@ Get the best language for this person on this template
 
 **Returns:** The solang code for best language, empty string if no best language found
 
+
 [WSDL file for Services88/Person](../Services88-Person.md)
 
 Obtain a ticket from the [Services88/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -51,6 +52,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## GetBestSoLanguageForTemplate Response
 
 ```xml
@@ -71,3 +73,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

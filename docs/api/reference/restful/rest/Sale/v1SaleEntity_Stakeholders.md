@@ -1,6 +1,6 @@
 ---
 title: GET Sale/{id}/Stakeholders
-id: v1SaleEntity_Stakeholders
+uid: v1SaleEntity_Stakeholders
 ---
 
 # GET Sale/{id}/Stakeholders
@@ -11,6 +11,7 @@ GET /api/v1/Sale/{id}/Stakeholders
 
 OData list of Stakeholders under a specific SaleEntity.
 
+
 Can be sorted and further filtered using OData conventions:
 
 * Sale/1234/Stakeholders?$select=col1,col2,abc/col3
@@ -19,19 +20,22 @@ Can be sorted and further filtered using OData conventions:
 * Sale/1234/Stakeholders?$top=1000
 * Sale/1234/Stakeholders?$mode=full
 
+
 OData returns XML or JSON carriers depending on the HTTP Accept header.
+
 
 Calls the Archive service using the "SaleStakeholder" archive provider.
 
-## Filter Operators
+
+## Filter Operators: ##
 
 ints: eq =, ne, le, lt, gt, ge, set, equals, greater, less, unequals, between
 
 strings: contains, is, notBegins, notContains, isNot
 
-associate: associateIsOneOf, associateIsNotOneOf,
+associate: associateIsOneOf, associateIsNotOneOf,  
 
-list ids: oneOf, NotOneOf,
+list ids: oneOf, NotOneOf, 
 
 dates: before, date, after, dateBetween, beforeToday
 
@@ -39,9 +43,15 @@ Unary ops: currentAssociate, beforeToday, today, afterToday, lastWeek, thisWeek,
 
 Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,n,period), previous(f,n,period), thisAndNext(f,n,period), thisAndPrevious(f,n,period), thisAndPreviousAndNext(f,period)
 
+
+
+
+
+
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | id | int32 | The entity id **Required** |
+
 
 ## Query String Parameters
 
@@ -64,16 +74,17 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 GET /api/v1/Sale/{id}/Stakeholders?$select=name,department,category/id
 GET /api/v1/Sale/{id}/Stakeholders?$filter=name begins 'S'
 GET /api/v1/Sale/{id}/Stakeholders?$orderBy=name asc
-GET /api/v1/Sale/{id}/Stakeholders?$entities=sunt
-GET /api/v1/Sale/{id}/Stakeholders?$top=637
-GET /api/v1/Sale/{id}/Stakeholders?$skip=888
+GET /api/v1/Sale/{id}/Stakeholders?$entities=nesciunt
+GET /api/v1/Sale/{id}/Stakeholders?$top=844
+GET /api/v1/Sale/{id}/Stakeholders?$skip=376
 GET /api/v1/Sale/{id}/Stakeholders?$mode=Full
 GET /api/v1/Sale/{id}/Stakeholders?$options=GrandTotal=true
-GET /api/v1/Sale/{id}/Stakeholders?$context=illo
+GET /api/v1/Sale/{id}/Stakeholders?$context=repellendus
 GET /api/v1/Sale/{id}/Stakeholders?$format=JSON
 GET /api/v1/Sale/{id}/Stakeholders?$jsonSafe=False
 GET /api/v1/Sale/{id}/Stakeholders?$output=Display
 ```
+
 
 ## Request Headers
 
@@ -88,16 +99,17 @@ GET /api/v1/Sale/{id}/Stakeholders?$output=Display
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response: object
 
-Easy to use archive results - just a flat list of values.
+## Response: 
+
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 | 404 | Not Found. |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -105,14 +117,16 @@ Response body: object
 | odata.nextLink | string |  |
 | value | array |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 GET /api/v1/Sale/{id}/Stakeholders
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -120,21 +134,19 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "unde",
+  "odata.nextLink": "reprehenderit",
   "value": [
     {
-      "PrimaryKey": 7897,
-      "EntityName": "sale",
-      "saleId": 7897,
-      "contactId": 7188,
-      "name": "Jast, Botsford and Boehm"
+      "PrimaryKey": 9646,
+      "EntityName": "person",
+      "personId": 9646,
+      "fullName": "Ethel Jacobi V"
     },
     {
-      "PrimaryKey": 9142,
-      "EntityName": "sale",
-      "saleId": 9142,
-      "contactId": 6362,
-      "name": "Upton Group"
+      "PrimaryKey": 6238,
+      "EntityName": "person",
+      "personId": 6238,
+      "fullName": "Rebekah Green"
     }
   ]
 }

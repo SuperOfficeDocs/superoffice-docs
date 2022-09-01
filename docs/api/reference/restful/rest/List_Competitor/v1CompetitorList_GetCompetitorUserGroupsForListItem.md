@@ -1,6 +1,6 @@
 ---
 title: GET List/Competitor/Items/{id}/UserGroups
-id: v1CompetitorList_GetCompetitorUserGroupsForListItem
+uid: v1CompetitorList_GetCompetitorUserGroupsForListItem
 ---
 
 # GET List/Competitor/Items/{id}/UserGroups
@@ -11,11 +11,18 @@ GET /api/v1/List/Competitor/Items/{itemId}/UserGroups
 
 Gets user groups visible for the Competitor list's item.
 
+
 Calls the List agent service GetHeadings.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | itemId | int32 | The ID of the item to get. **Required** |
+
+
 
 ## Request Headers
 
@@ -30,7 +37,10 @@ Calls the List agent service GetHeadings.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -58,14 +68,16 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 GET /api/v1/List/Competitor/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -73,65 +85,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 157,
-    "Name": "Cassin-Russel",
-    "ToolTip": "Qui est beatae corporis.",
-    "Deleted": true,
-    "Rank": 729,
-    "Type": "cumque",
-    "ColorBlock": 416,
-    "IconHint": "atque",
-    "Selected": true,
-    "LastChanged": "2015-06-27T18:25:51.6502947+02:00",
+    "Id": 837,
+    "Name": "Turner LLC",
+    "ToolTip": "Voluptatem enim.",
+    "Deleted": false,
+    "Rank": 324,
+    "Type": "culpa",
+    "ColorBlock": 228,
+    "IconHint": "iste",
+    "Selected": false,
+    "LastChanged": "2011-09-27T11:10:53.9601854+02:00",
     "ChildItems": [
       {
-        "Id": 753,
-        "Name": "Dietrich-Cole",
-        "ToolTip": "Sint optio dolorem quidem et explicabo dolores.",
+        "Id": 156,
+        "Name": "Herman LLC",
+        "ToolTip": "Sed architecto velit amet voluptatem earum quo illo.",
         "Deleted": false,
-        "Rank": 822,
-        "Type": "facilis",
-        "ColorBlock": 892,
-        "IconHint": "commodi",
-        "Selected": false,
-        "LastChanged": "2001-11-03T18:25:51.6512946+01:00",
+        "Rank": 701,
+        "Type": "quos",
+        "ColorBlock": 41,
+        "IconHint": "mollitia",
+        "Selected": true,
+        "LastChanged": "1998-11-26T11:10:53.9601854+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "natus",
-        "StyleHint": "et",
+        "ExtraInfo": "explicabo",
+        "StyleHint": "accusantium",
         "Hidden": true,
-        "FullName": "Julianne Braun DVM",
-        "TableRight": {},
+        "FullName": "Hester Joshua Rau Jr.",
+        "TableRight": null,
         "FieldProperties": {
           "fieldName": {
-            "FieldRight": {
-              "Mask": "FULL",
-              "Reason": ""
-            },
+            "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 529
+            "FieldLength": 568
           }
         }
       }
     ],
-    "ExtraInfo": "et",
-    "StyleHint": "voluptatem",
+    "ExtraInfo": "deserunt",
+    "StyleHint": "ut",
     "Hidden": false,
-    "FullName": "Arden Greenfelder DDS",
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "FullName": "Dr. Stan Americo Buckridge DVM",
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
+        "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 323
+        "FieldLength": 259
       }
     }
   }

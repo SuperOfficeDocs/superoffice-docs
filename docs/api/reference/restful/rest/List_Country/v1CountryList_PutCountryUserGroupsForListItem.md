@@ -1,6 +1,6 @@
 ---
 title: PUT List/Country/Items/{id}/UserGroups
-id: v1CountryList_PutCountryUserGroupsForListItem
+uid: v1CountryList_PutCountryUserGroupsForListItem
 ---
 
 # PUT List/Country/Items/{id}/UserGroups
@@ -11,11 +11,18 @@ PUT /api/v1/List/Country/Items/{itemId}/UserGroups
 
 Saves user groups visible for the Country list's item.
 
+
 Calls the List agent service SaveHeadingsForListItemFromListDefinition.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | itemId | int32 | The ID of the item to save. **Required** |
+
+
 
 ## Request Headers
 
@@ -31,9 +38,9 @@ Calls the List agent service SaveHeadingsForListItemFromListDefinition.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entities
+## Request Body: entities  
 
-The headings to be saved.
+The headings to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -53,7 +60,10 @@ The headings to be saved.
 | Hidden | bool | True if the ListItem is hidden |
 | FullName | string | The name of the ListItem in its context |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -81,7 +91,7 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 PUT /api/v1/List/Country/Items/{itemId}/UserGroups
@@ -92,45 +102,47 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 997,
-    "Name": "McDermott LLC",
-    "ToolTip": "Illo numquam laborum eum labore.",
-    "Deleted": false,
-    "Rank": 256,
-    "Type": "ratione",
-    "ColorBlock": 625,
-    "IconHint": "consequatur",
-    "Selected": true,
-    "LastChanged": "1996-02-14T18:25:51.7523272+01:00",
+    "Id": 928,
+    "Name": "Feest-Blick",
+    "ToolTip": "Itaque nihil a officiis deleniti.",
+    "Deleted": true,
+    "Rank": 675,
+    "Type": "alias",
+    "ColorBlock": 574,
+    "IconHint": "aperiam",
+    "Selected": false,
+    "LastChanged": "2011-06-07T11:10:54.0171856+02:00",
     "ChildItems": [
       {
-        "Id": 154,
-        "Name": "Rolfson-Hartmann",
-        "ToolTip": "Optio ullam.",
-        "Deleted": false,
-        "Rank": 749,
-        "Type": "occaecati",
-        "ColorBlock": 993,
-        "IconHint": "quis",
+        "Id": 472,
+        "Name": "Auer LLC",
+        "ToolTip": "Repudiandae et pariatur.",
+        "Deleted": true,
+        "Rank": 797,
+        "Type": "laudantium",
+        "ColorBlock": 757,
+        "IconHint": "ipsa",
         "Selected": false,
-        "LastChanged": "2020-04-20T18:25:51.7523272+02:00",
+        "LastChanged": "1998-10-04T11:10:54.0171856+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "in",
-        "StyleHint": "molestiae",
-        "Hidden": true,
-        "FullName": "Napoleon Welch"
+        "ExtraInfo": "consequatur",
+        "StyleHint": "facilis",
+        "Hidden": false,
+        "FullName": "Orpha Connelly II"
       }
     ],
-    "ExtraInfo": "rerum",
-    "StyleHint": "rerum",
+    "ExtraInfo": "ipsam",
+    "StyleHint": "ad",
     "Hidden": true,
-    "FullName": "Alverta Block"
+    "FullName": "Ms. Lea Wisoky III"
   }
 ]
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -138,65 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 870,
-    "Name": "Pollich LLC",
-    "ToolTip": "Ad ipsum.",
+    "Id": 305,
+    "Name": "Corwin, Cormier and Schowalter",
+    "ToolTip": "Aut nulla autem illo voluptatem et quasi sit.",
     "Deleted": false,
-    "Rank": 345,
-    "Type": "nulla",
-    "ColorBlock": 941,
-    "IconHint": "quia",
-    "Selected": true,
-    "LastChanged": "2008-09-09T18:25:51.7533261+02:00",
+    "Rank": 547,
+    "Type": "illo",
+    "ColorBlock": 525,
+    "IconHint": "rerum",
+    "Selected": false,
+    "LastChanged": "2005-06-24T11:10:54.0191851+02:00",
     "ChildItems": [
       {
-        "Id": 461,
-        "Name": "Harvey LLC",
-        "ToolTip": "Ea ab molestiae aut.",
-        "Deleted": true,
-        "Rank": 381,
-        "Type": "vel",
-        "ColorBlock": 68,
-        "IconHint": "maxime",
-        "Selected": false,
-        "LastChanged": "2013-03-18T18:25:51.7533261+01:00",
+        "Id": 854,
+        "Name": "Bashirian, Sauer and Wolf",
+        "ToolTip": "Voluptatem dolorem officiis nemo hic.",
+        "Deleted": false,
+        "Rank": 821,
+        "Type": "cupiditate",
+        "ColorBlock": 147,
+        "IconHint": "eius",
+        "Selected": true,
+        "LastChanged": "2007-02-21T11:10:54.0191851+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "eligendi",
-        "StyleHint": "enim",
-        "Hidden": true,
-        "FullName": "Cletus Stoltenberg",
-        "TableRight": {},
+        "ExtraInfo": "expedita",
+        "StyleHint": "vel",
+        "Hidden": false,
+        "FullName": "Ms. Carey Renner",
+        "TableRight": null,
         "FieldProperties": {
           "fieldName": {
-            "FieldRight": {
-              "Mask": "FULL",
-              "Reason": ""
-            },
-            "FieldType": "System.Int32",
-            "FieldLength": 604
+            "FieldRight": null,
+            "FieldType": "System.String",
+            "FieldLength": 365
           }
         }
       }
     ],
-    "ExtraInfo": "voluptatem",
-    "StyleHint": "quo",
+    "ExtraInfo": "ea",
+    "StyleHint": "quia",
     "Hidden": true,
-    "FullName": "Mollie Daugherty",
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "FullName": "Uriah Luettgen",
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.Int32",
-        "FieldLength": 786
+        "FieldRight": null,
+        "FieldType": "System.String",
+        "FieldLength": 411
       }
     }
   }

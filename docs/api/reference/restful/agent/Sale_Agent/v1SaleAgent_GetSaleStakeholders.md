@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Sale/GetSaleStakeholders
-id: v1SaleAgent_GetSaleStakeholders
+uid: v1SaleAgent_GetSaleStakeholders
 ---
 
 # POST Agents/Sale/GetSaleStakeholders
@@ -8,6 +8,14 @@ id: v1SaleAgent_GetSaleStakeholders
 ```http
 POST /api/v1/Agents/Sale/GetSaleStakeholders
 ```
+
+
+
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -18,6 +26,7 @@ POST /api/v1/Agents/Sale/GetSaleStakeholders
 ```http
 POST /api/v1/Agents/Sale/GetSaleStakeholders?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -33,15 +42,18 @@ POST /api/v1/Agents/Sale/GetSaleStakeholders?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-SaleId
+SaleId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | SaleId | int32 |  |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -73,19 +85,21 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Sale/GetSaleStakeholders
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleId": 919
+  "SaleId": 191
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -93,37 +107,31 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "StakeholderRoleName": "Nicolas, Nienow and Hand",
-    "Comment": "laborum",
-    "StakeholderRoleId": 828,
-    "CountryId": 104,
-    "PersonId": 918,
-    "EmailDescription": "isabelle_romaguera@boylehuels.name",
-    "EmailId": 852,
-    "EmailAddress": "marty_oberbrunner@hegmann.uk",
-    "PhoneId": 355,
-    "ContactName": "Langosh Group",
-    "ContactId": 861,
-    "SaleId": 146,
-    "Mrmrs": "et",
-    "Firstname": "Maxie",
-    "MiddleName": "Bashirian Group",
-    "Lastname": "Aufderhar",
-    "SaleStakeholderId": 995,
-    "Rank": 674,
-    "Phone": "(383)716-7461",
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "StakeholderRoleName": "Dicki-Skiles",
+    "Comment": "et",
+    "StakeholderRoleId": 994,
+    "CountryId": 849,
+    "PersonId": 239,
+    "EmailDescription": "ezekiel_moore@ornmitchell.info",
+    "EmailId": 269,
+    "EmailAddress": "coby.hettinger@hackett.name",
+    "PhoneId": 915,
+    "ContactName": "Hyatt LLC",
+    "ContactId": 635,
+    "SaleId": 106,
+    "Mrmrs": "occaecati",
+    "Firstname": "Mariam",
+    "MiddleName": "Bogisich-Abbott",
+    "Lastname": "Leannon",
+    "SaleStakeholderId": 137,
+    "Rank": 74,
+    "Phone": "678-635-6523 x51753",
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
+        "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 294
+        "FieldLength": 124
       }
     }
   }

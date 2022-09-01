@@ -19,6 +19,7 @@ Creates the report as favorite. The sourceId is the key to the report that the f
 
 **Returns:** The new favorite ReportEntity.
 
+
 [WSDL file for Services88/Report](../Services88-Report.md)
 
 Obtain a ticket from the [Services88/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -53,6 +54,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## CreateFavorite Response
 
 ```xml
@@ -82,3 +84,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

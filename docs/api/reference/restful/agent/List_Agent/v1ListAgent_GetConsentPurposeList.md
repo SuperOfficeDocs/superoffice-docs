@@ -1,6 +1,6 @@
 ---
 title: POST Agents/List/GetConsentPurposeList
-id: v1ListAgent_GetConsentPurposeList
+uid: v1ListAgent_GetConsentPurposeList
 ---
 
 # POST Agents/List/GetConsentPurposeList
@@ -11,6 +11,12 @@ POST /api/v1/Agents/List/GetConsentPurposeList
 
 Gets an array of ConsentPurpose objects.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Gets an array of ConsentPurpose objects.
 ```http
 POST /api/v1/Agents/List/GetConsentPurposeList?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,11 +42,15 @@ POST /api/v1/Agents/List/GetConsentPurposeList?$select=name,department,category/
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: consentPurposeIds
+## Request Body: consentPurposeIds  
 
-The primary keys.
+The primary keys. 
+
+
 
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -65,14 +76,16 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/List/GetConsentPurposeList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -80,55 +93,25 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ConsentPurposeId": 668,
-    "Name": "Emard Group",
-    "ConsentText": "rerum",
-    "FormText": "blanditiis",
-    "Key": "autem",
-    "Tooltip": "et",
-    "Active": 282,
-    "UpdatedDate": "2011-10-29T18:28:49.4220904+02:00",
-    "UpdatedBy": {
-      "AssociateId": 371,
-      "Name": "Dicki-Von",
-      "PersonId": 550,
-      "Rank": 399,
-      "Tooltip": "culpa",
-      "Type": "AnonymousAssociate",
-      "GroupIdx": 953,
-      "FullName": "Trinity Klocko",
-      "FormalName": "Carter, Schultz and Weimann",
-      "Deleted": false,
-      "EjUserId": 587,
-      "UserName": "Rutherford LLC",
-      "TableRight": {},
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": {
-            "Mask": "FULL",
-            "Reason": ""
-          },
-          "FieldType": "System.String",
-          "FieldLength": 219
-        }
-      }
-    },
+    "ConsentPurposeId": 793,
+    "Name": "Jerde, Wiegand and Hauck",
+    "ConsentText": "voluptas",
+    "FormText": "pariatur",
+    "Key": "dolorem",
+    "Tooltip": "cumque",
+    "Active": 460,
+    "UpdatedDate": "2006-07-30T11:10:27.277453+02:00",
+    "UpdatedBy": null,
     "Deleted": false,
-    "Rank": 36,
-    "PrivacyStatementDesc": "neque",
+    "Rank": 450,
+    "PrivacyStatementDesc": "ut",
     "PrivacyStatementUrl": "http://www.example.com/",
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": "engineer compelling models"
-    },
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 207
+        "FieldRight": null,
+        "FieldType": "System.Int32",
+        "FieldLength": 857
       }
     }
   }

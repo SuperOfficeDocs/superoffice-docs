@@ -1,6 +1,6 @@
 ---
 title: PUT Selection/{id}
-id: v1SelectionEntity_PutSelectionEntity
+uid: v1SelectionEntity_PutSelectionEntity
 ---
 
 # PUT Selection/{id}
@@ -11,9 +11,15 @@ PUT /api/v1/Selection/{id}
 
 Updates the existing SelectionEntity
 
+
+
+
+
+
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | id | int32 | The SelectionEntity id to update. **Required** |
+
 
 ## Query String Parameters
 
@@ -24,6 +30,7 @@ Updates the existing SelectionEntity
 ```http
 PUT /api/v1/Selection/{id}?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -39,9 +46,9 @@ PUT /api/v1/Selection/{id}?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entity
+## Request Body: entity  
 
-The SelectionEntity to be saved.
+The SelectionEntity to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -50,7 +57,7 @@ The SelectionEntity to be saved.
 | Associate |  | Owner of the selection |
 | CreatedBy |  | Who created the selection |
 | UpdatedBy |  | Who last modified the selection |
-| SelectionCategory |  | Selection category type (list item)  <br />Use MDO List name "searchCat" to get list items. |
+| SelectionCategory |  | Selection category type (list item)  <para>Use MDO List name "searchCat" to get list items.</para> |
 | GroupIdx | int32 | Original primary user group of associate |
 | IncludePerson | int32 | 0 = Include first person, 1 = Include all persons, 2 = Include no persons |
 | MemberCount | int32 | How many selectionmembers (for progress bar calculations) - estimate, -1 (or 4294967295) means we don't know |
@@ -87,9 +94,10 @@ The SelectionEntity to be saved.
 | DashboardTileDefinitionId | int32 | The associated tile definition |
 | VisibleFor | array | The set of users or groups the record is visible for |
 
-## Response: object
 
-SelectionEntity entity with API _Links added.
+## Response: 
+
+SelectionEntity updated.
 
 | Response | Description |
 |----------------|-------------|
@@ -97,7 +105,7 @@ SelectionEntity entity with API _Links added.
 | 412 | Update stopped because SelectionEntity has changed since the requested If-Unmodified-Since timestamp. |
 | 400 | Bad request. Entity to save is not in request body. |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -106,7 +114,7 @@ Response body: object
 | Associate |  | Owner of the selection |
 | CreatedBy |  | Who created the selection |
 | UpdatedBy |  | Who last modified the selection |
-| SelectionCategory |  | Selection category type (list item)  <br />Use MDO List name "searchCat" to get list items. |
+| SelectionCategory |  | Selection category type (list item)  <para>Use MDO List name "searchCat" to get list items.</para> |
 | GroupIdx | int32 | Original primary user group of associate |
 | IncludePerson | int32 | 0 = Include first person, 1 = Include all persons, 2 = Include no persons |
 | MemberCount | int32 | How many selectionmembers (for progress bar calculations) - estimate, -1 (or 4294967295) means we don't know |
@@ -146,371 +154,157 @@ Response body: object
 | FieldProperties | object |  |
 | _Links | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 PUT /api/v1/Selection/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Persistent solution-oriented circuit",
-  "Postit": "ipsum",
-  "Associate": {
-    "AssociateId": 899,
-    "Name": "Friesen, Parker and Welch",
-    "PersonId": 610,
-    "Rank": 462,
-    "Tooltip": "ratione",
-    "Type": "AnonymousAssociate",
-    "GroupIdx": 148,
-    "FullName": "Joan Schaden",
-    "FormalName": "Koss Group",
-    "Deleted": true,
-    "EjUserId": 929,
-    "UserName": "Weissnat-Bayer"
-  },
-  "CreatedBy": {
-    "AssociateId": 601,
-    "Name": "Dibbert-O'Connell",
-    "PersonId": 207,
-    "Rank": 763,
-    "Tooltip": "commodi",
-    "Type": "AnonymousAssociate",
-    "GroupIdx": 247,
-    "FullName": "Arvilla Bauch III",
-    "FormalName": "Kub-VonRueden",
-    "Deleted": true,
-    "EjUserId": 669,
-    "UserName": "Wiegand-Gutkowski"
-  },
-  "UpdatedBy": {
-    "AssociateId": 846,
-    "Name": "Nitzsche, Gerlach and Gulgowski",
-    "PersonId": 274,
-    "Rank": 627,
-    "Tooltip": "dolore",
-    "Type": "AnonymousAssociate",
-    "GroupIdx": 231,
-    "FullName": "Erika Mraz",
-    "FormalName": "Greenholt-Jacobs",
-    "Deleted": false,
-    "EjUserId": 734,
-    "UserName": "Zemlak, Turcotte and Cummings"
-  },
-  "SelectionCategory": {
-    "Id": 419,
-    "Value": "aut",
-    "Tooltip": "atque"
-  },
-  "GroupIdx": 458,
-  "IncludePerson": 455,
-  "MemberCount": 863,
-  "Name": "Boyer-Grimes",
-  "PostitTextId": 787,
-  "CreatedDate": "2010-06-21T18:25:51.0889452+02:00",
-  "SelectionId": 8,
-  "SoundEx": "laudantium",
-  "Source": 510,
-  "TextId": 740,
-  "UpdatedDate": "2002-09-22T18:25:51.0889452+02:00",
-  "UpdatedCount": 1001,
-  "Visibility": 540,
+  "Description": "Multi-layered tertiary product",
+  "Postit": "blanditiis",
+  "Associate": null,
+  "CreatedBy": null,
+  "UpdatedBy": null,
+  "SelectionCategory": null,
+  "GroupIdx": 541,
+  "IncludePerson": 311,
+  "MemberCount": 630,
+  "Name": "Kulas, Murray and Leffler",
+  "PostitTextId": 458,
+  "CreatedDate": "2006-02-18T11:10:53.5001828+01:00",
+  "SelectionId": 75,
+  "SoundEx": "voluptas",
+  "Source": 640,
+  "TextId": 962,
+  "UpdatedDate": "2018-06-24T11:10:53.5001828+02:00",
+  "UpdatedCount": 955,
+  "Visibility": 144,
   "SelectionType": "Combined",
   "CompanyUnique": true,
-  "TargetTableNumber": 111,
-  "TargetTableName": "Zboncak, Mueller and Bernier",
+  "TargetTableNumber": 334,
+  "TargetTableName": "Ritchie LLC",
   "Completed": false,
-  "LeftSelectionId": 698,
-  "RightSelectionId": 171,
+  "LeftSelectionId": 76,
+  "RightSelectionId": 69,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Miller, Fadel and Langworth",
-  "ShadowProviderName": "Harvey-Conroy",
-  "ChartKey": "autem",
-  "LastLoaded": "1998-08-25T18:25:51.0889452+02:00",
-  "LastLoadedBy": 718,
-  "LastLoadedByAssociate": {
-    "AssociateId": 757,
-    "Name": "Smith Inc and Sons",
-    "PersonId": 291,
-    "Rank": 459,
-    "Tooltip": "modi",
-    "Type": "AnonymousAssociate",
-    "GroupIdx": 293,
-    "FullName": "Loma Lynch",
-    "FormalName": "Predovic-Bahringer",
-    "Deleted": true,
-    "EjUserId": 835,
-    "UserName": "Trantow-Schumm"
-  },
-  "LastMembershipChange": "1996-07-12T18:25:51.0889452+02:00",
-  "LastMembershipChangeBy": 987,
-  "LastMembershipChangeByAssociate": {
-    "AssociateId": 844,
-    "Name": "Sauer, Kautzer and Wisozk",
-    "PersonId": 174,
-    "Rank": 598,
-    "Tooltip": "quia",
-    "Type": "AnonymousAssociate",
-    "GroupIdx": 142,
-    "FullName": "Arianna Blick",
-    "FormalName": "Hartmann, Moore and Reynolds",
-    "Deleted": true,
-    "EjUserId": 130,
-    "UserName": "Bauch Group"
-  },
-  "MainHeading": "sapiente",
-  "MemberTabHeading": "ipsam",
-  "MailingsProviderName": "Crona-Jast",
-  "DashboardTileDefinitionId": 958,
+  "MainProviderName": "Haag Inc and Sons",
+  "ShadowProviderName": "Glover Inc and Sons",
+  "ChartKey": "ipsum",
+  "LastLoaded": "2000-10-31T11:10:53.5001828+01:00",
+  "LastLoadedBy": 524,
+  "LastLoadedByAssociate": null,
+  "LastMembershipChange": "2017-06-25T11:10:53.5011855+02:00",
+  "LastMembershipChangeBy": 402,
+  "LastMembershipChangeByAssociate": null,
+  "MainHeading": "velit",
+  "MemberTabHeading": "fugit",
+  "MailingsProviderName": "Von, Emmerich and Sawayn",
+  "DashboardTileDefinitionId": 891,
   "VisibleFor": [
     {
-      "VisibleId": 901,
+      "VisibleId": 725,
       "Visibility": "All",
-      "DisplayValue": "asperiores"
+      "DisplayValue": "eum"
     },
     {
-      "VisibleId": 901,
+      "VisibleId": 725,
       "Visibility": "All",
-      "DisplayValue": "asperiores"
+      "DisplayValue": "eum"
     }
   ]
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 SelectionEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Pre-emptive leading edge Graphical User Interface",
-  "Postit": "ducimus",
-  "Associate": {
-    "AssociateId": 730,
-    "Name": "Gorczany LLC",
-    "PersonId": 65,
-    "Rank": 644,
-    "Tooltip": "ipsam",
-    "Type": "AnonymousAssociate",
-    "GroupIdx": 253,
-    "FullName": "Aidan Bogan",
-    "FormalName": "Kozey-Hirthe",
-    "Deleted": false,
-    "EjUserId": 830,
-    "UserName": "Harvey-Casper",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 915
-      }
-    }
-  },
-  "CreatedBy": {
-    "AssociateId": 735,
-    "Name": "Harvey LLC",
-    "PersonId": 50,
-    "Rank": 422,
-    "Tooltip": "necessitatibus",
-    "Type": "AnonymousAssociate",
-    "GroupIdx": 719,
-    "FullName": "Judah Brekke",
-    "FormalName": "Ankunding, Ritchie and Schroeder",
-    "Deleted": true,
-    "EjUserId": 476,
-    "UserName": "Hickle LLC",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.Int32",
-        "FieldLength": 949
-      }
-    }
-  },
-  "UpdatedBy": {
-    "AssociateId": 732,
-    "Name": "Schulist, Hane and Walker",
-    "PersonId": 534,
-    "Rank": 557,
-    "Tooltip": "sit",
-    "Type": "AnonymousAssociate",
-    "GroupIdx": 39,
-    "FullName": "Keith Sipes",
-    "FormalName": "Christiansen-Haag",
-    "Deleted": false,
-    "EjUserId": 152,
-    "UserName": "Mann, Stiedemann and Nicolas",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.Int32",
-        "FieldLength": 246
-      }
-    }
-  },
-  "SelectionCategory": {
-    "Id": 391,
-    "Value": "iure",
-    "Tooltip": "dicta",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": "visualize 24/7 markets"
-        },
-        "FieldType": "System.Int32",
-        "FieldLength": 796
-      }
-    }
-  },
-  "GroupIdx": 794,
-  "IncludePerson": 970,
-  "MemberCount": 444,
-  "Name": "Lubowitz-Prohaska",
-  "PostitTextId": 870,
-  "CreatedDate": "1996-04-13T18:25:51.0929468+02:00",
-  "SelectionId": 645,
-  "SoundEx": "ut",
-  "Source": 41,
-  "TextId": 682,
-  "UpdatedDate": "2019-03-10T18:25:51.0939532+01:00",
-  "UpdatedCount": 524,
-  "Visibility": 382,
+  "Description": "Mandatory holistic functionalities",
+  "Postit": "nihil",
+  "Associate": null,
+  "CreatedBy": null,
+  "UpdatedBy": null,
+  "SelectionCategory": null,
+  "GroupIdx": 860,
+  "IncludePerson": 231,
+  "MemberCount": 537,
+  "Name": "Parisian LLC",
+  "PostitTextId": 179,
+  "CreatedDate": "2012-03-26T11:10:53.5051463+02:00",
+  "SelectionId": 820,
+  "SoundEx": "autem",
+  "Source": 245,
+  "TextId": 866,
+  "UpdatedDate": "2006-04-26T11:10:53.5051463+02:00",
+  "UpdatedCount": 888,
+  "Visibility": 794,
   "SelectionType": "Combined",
   "CompanyUnique": true,
-  "TargetTableNumber": 219,
-  "TargetTableName": "Morar Inc and Sons",
+  "TargetTableNumber": 62,
+  "TargetTableName": "Veum-Dickens",
   "Completed": true,
-  "LeftSelectionId": 121,
-  "RightSelectionId": 945,
+  "LeftSelectionId": 365,
+  "RightSelectionId": 485,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Welch, Klocko and Conroy",
-  "ShadowProviderName": "Bednar Group",
-  "ChartKey": "ea",
-  "LastLoaded": "1997-09-06T18:25:51.0939532+02:00",
-  "LastLoadedBy": 127,
-  "LastLoadedByAssociate": {
-    "AssociateId": 220,
-    "Name": "Trantow LLC",
-    "PersonId": 375,
-    "Rank": 602,
-    "Tooltip": "enim",
-    "Type": "AnonymousAssociate",
-    "GroupIdx": 912,
-    "FullName": "Jaron Reichel",
-    "FormalName": "Boyle, Steuber and Kessler",
-    "Deleted": true,
-    "EjUserId": 506,
-    "UserName": "Hammes, Predovic and Pfannerstill",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.Int32",
-        "FieldLength": 503
-      }
-    }
-  },
-  "LastMembershipChange": "2000-02-18T18:25:51.0939532+01:00",
-  "LastMembershipChangeBy": 181,
-  "LastMembershipChangeByAssociate": {
-    "AssociateId": 188,
-    "Name": "Robel-Nienow",
-    "PersonId": 257,
-    "Rank": 656,
-    "Tooltip": "quia",
-    "Type": "AnonymousAssociate",
-    "GroupIdx": 242,
-    "FullName": "Mireya Schowalter",
-    "FormalName": "Will-Windler",
-    "Deleted": true,
-    "EjUserId": 741,
-    "UserName": "Becker Inc and Sons",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 83
-      }
-    }
-  },
-  "MainHeading": "occaecati",
-  "MemberTabHeading": "qui",
-  "MailingsProviderName": "Treutel-Boyle",
-  "DashboardTileDefinitionId": 649,
+  "MainProviderName": "Bernier LLC",
+  "ShadowProviderName": "Jacobi Inc and Sons",
+  "ChartKey": "alias",
+  "LastLoaded": "2019-07-25T11:10:53.5051463+02:00",
+  "LastLoadedBy": 488,
+  "LastLoadedByAssociate": null,
+  "LastMembershipChange": "2008-10-22T11:10:53.5061471+02:00",
+  "LastMembershipChangeBy": 261,
+  "LastMembershipChangeByAssociate": null,
+  "MainHeading": "et",
+  "MemberTabHeading": "ut",
+  "MailingsProviderName": "Walter, Breitenberg and Hartmann",
+  "DashboardTileDefinitionId": 901,
   "VisibleFor": [
     {
-      "VisibleId": 132,
+      "VisibleId": 216,
       "Visibility": "All",
-      "DisplayValue": "dolore",
-      "TableRight": {},
+      "DisplayValue": "qui",
+      "TableRight": null,
       "FieldProperties": {
         "fieldName": {
-          "FieldRight": {
-            "Mask": "FULL",
-            "Reason": ""
-          },
+          "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 46
+          "FieldLength": 622
         }
       }
     },
     {
-      "VisibleId": 132,
+      "VisibleId": 216,
       "Visibility": "All",
-      "DisplayValue": "dolore",
-      "TableRight": {},
+      "DisplayValue": "qui",
+      "TableRight": null,
       "FieldProperties": {
         "fieldName": {
-          "FieldRight": {
-            "Mask": "FULL",
-            "Reason": ""
-          },
+          "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 46
+          "FieldLength": 622
         }
       }
     }
   ],
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
-      "FieldType": "System.Int32",
-      "FieldLength": 514
+      "FieldRight": null,
+      "FieldType": "System.String",
+      "FieldLength": 750
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

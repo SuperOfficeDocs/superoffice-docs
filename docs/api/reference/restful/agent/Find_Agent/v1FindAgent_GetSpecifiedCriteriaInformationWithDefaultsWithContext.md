@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Find/GetSpecifiedCriteriaInformationWithDefaultsWithContext
-id: v1FindAgent_GetSpecifiedCriteriaInformationWithDefaultsWithContext
+uid: v1FindAgent_GetSpecifiedCriteriaInformationWithDefaultsWithContext
 ---
 
 # POST Agents/Find/GetSpecifiedCriteriaInformationWithDefaultsWithContext
@@ -11,7 +11,13 @@ POST /api/v1/Agents/Find/GetSpecifiedCriteriaInformationWithDefaultsWithContext
 
 Get criteria information from a set of saved criteria, for a specific set of columns.
 
+
 The result contains the restrictions in two forms: fully populated ArchiveRestrictionInfo objects, used to display details and for saving changes; and as a list suitable for an Archive control. ALL columns specified in the call will be present in the results; those that do not have corresponding criteria set will have empty values and the default (first) operator, with the IsActive flag set to false.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +28,7 @@ The result contains the restrictions in two forms: fully populated ArchiveRestri
 ```http
 POST /api/v1/Agents/Find/GetSpecifiedCriteriaInformationWithDefaultsWithContext?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,9 +44,9 @@ POST /api/v1/Agents/Find/GetSpecifiedCriteriaInformationWithDefaultsWithContext?
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-StorageType, ProviderName, StorageKey, DesiredColumnNames, StaticColumns, Context
+StorageType, ProviderName, StorageKey, DesiredColumnNames, StaticColumns, Context 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -50,18 +57,16 @@ StorageType, ProviderName, StorageKey, DesiredColumnNames, StaticColumns, Contex
 | StaticColumns | array |  |
 | Context | string |  |
 
-## Response: object
 
-Carrier for criteria information. It contains all the search criteria - that is, ArchiveRestrictionInfo - objects, including a  column specification. In addition, it contains the same criteria expressed as an archive, with an array of ArchiveColumnInfo specifications and a set of ArchiveRow rows. The rows of the archive form a subset of the restriction array.
+## Response: 
 
-Carrier object for CriteriaInformation.
-Services for the CriteriaInformation Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IFindAgent">Find Agent</see>.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -72,7 +77,7 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Find/GetSpecifiedCriteriaInformationWithDefaultsWithContext
@@ -82,20 +87,22 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "officiis",
-  "ProviderName": "Ernser LLC",
-  "StorageKey": "porro",
+  "StorageType": "est",
+  "ProviderName": "Rolfson-Willms",
+  "StorageKey": "doloremque",
   "DesiredColumnNames": [
-    "McKenzie LLC",
-    "O'Connell-Effertz"
+    "Torphy LLC",
+    "Turcotte LLC"
   ],
   "StaticColumns": [
-    "aperiam",
-    "nobis"
+    "dignissimos",
+    "omnis"
   ],
-  "Context": "adipisci"
+  "Context": "velit"
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -104,102 +111,93 @@ Content-Type: application/json; charset=utf-8
 {
   "Restrictions": [
     {
-      "Name": "Waelchi Group",
-      "Operator": "molestias",
+      "Name": "Volkman-Ziemann",
+      "Operator": "nemo",
       "Values": [
-        "repellendus",
-        "voluptates"
+        "id",
+        "pariatur"
       ],
       "DisplayValues": [
-        "consequatur",
-        "dignissimos"
+        "quia",
+        "ducimus"
       ],
-      "ColumnInfo": {},
-      "IsActive": true,
+      "ColumnInfo": null,
+      "IsActive": false,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 368,
+      "InterParenthesis": 629,
       "InterOperator": "And",
-      "UniqueHash": 885
+      "UniqueHash": 453
     }
   ],
   "CriteriaArchiveColumns": [
     {
-      "DisplayName": "Harvey-Connelly",
-      "DisplayTooltip": "vero",
-      "DisplayType": "et",
+      "DisplayName": "Hirthe LLC",
+      "DisplayTooltip": "dolorem",
+      "DisplayType": "consectetur",
       "CanOrderBy": true,
-      "Name": "Stanton-Schultz",
-      "CanRestrictBy": false,
-      "RestrictionType": "autem",
-      "RestrictionListName": "Effertz LLC",
-      "IsVisible": true,
-      "ExtraInfo": "voluptas",
-      "Width": "sit",
-      "IconHint": "ipsam",
-      "HeadingIconHint": "labore"
+      "Name": "Kovacek Inc and Sons",
+      "CanRestrictBy": true,
+      "RestrictionType": "illum",
+      "RestrictionListName": "Kreiger Group",
+      "IsVisible": false,
+      "ExtraInfo": "aut",
+      "Width": "molestiae",
+      "IconHint": "corrupti",
+      "HeadingIconHint": "illum"
     }
   ],
   "CriteriaArchiveRows": [
     {
-      "EntityName": "King, Kuhlman and Wisozk",
-      "PrimaryKey": 508,
+      "EntityName": "Pacocha-Bednar",
+      "PrimaryKey": 458,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "possimus",
-          "TooltipHint": "velit",
-          "LinkHint": "hic"
+          "DisplayValue": "consectetur",
+          "TooltipHint": "ut",
+          "LinkHint": "maiores"
         }
       },
-      "LinkHint": "quia",
-      "StyleHint": "officiis",
-      "TableRight": {},
+      "LinkHint": "recusandae",
+      "StyleHint": "modi",
+      "TableRight": null,
       "FieldProperties": {
         "fieldName": {
-          "FieldRight": {
-            "Mask": "FULL",
-            "Reason": ""
-          },
+          "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 973
+          "FieldLength": 574
         }
       }
     }
   ],
   "RestrictionGroups": [
     {
-      "Name": "Cassin-Ward",
-      "Description": "Robust asynchronous strategy",
-      "Rank": 115,
+      "Name": "Cummerata-Tromp",
+      "Description": "Persistent asynchronous utilisation",
+      "Rank": 998,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Cassin-Ward",
-      "Description": "Robust asynchronous strategy",
-      "Rank": 115,
+      "Name": "Cummerata-Tromp",
+      "Description": "Persistent asynchronous utilisation",
+      "Rank": 998,
       "Restrictions": [
         {},
         {}
       ]
     }
   ],
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
-      "FieldType": "System.Int32",
-      "FieldLength": 827
+      "FieldRight": null,
+      "FieldType": "System.String",
+      "FieldLength": 608
     }
   }
 }

@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Chat/AddChatTopicUserAgent
-id: v1ChatAgent_AddChatTopicUserAgent
+uid: v1ChatAgent_AddChatTopicUserAgent
 ---
 
 # POST Agents/Chat/AddChatTopicUserAgent
@@ -11,6 +11,12 @@ POST /api/v1/Agents/Chat/AddChatTopicUserAgent
 
 Add a user to a chat topic
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Add a user to a chat topic
 ```http
 POST /api/v1/Agents/Chat/AddChatTopicUserAgent?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,27 +42,25 @@ POST /api/v1/Agents/Chat/AddChatTopicUserAgent?$select=name,department,category/
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-ChatTopicId, Useragent
+ChatTopicId, Useragent 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | ChatTopicId | int32 |  |
-| Useragent |  | User agents within a chat topic. Which users are assigned and what roles they have within the chat topic. <br /> Carrier object for ChatTopicAgent. Services for the ChatTopicAgent Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IChatAgent">Chat Agent</see>. |
+| Useragent |  | User agents within a chat topic. Which users are assigned and what roles they have within the chat topic. <para /> Carrier object for ChatTopicAgent. Services for the ChatTopicAgent Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IChatAgent">Chat Agent</see>. |
 
-## Response: object
 
-User agents within a chat topic. Which users are assigned and what roles they have within the chat topic.
+## Response: 
 
-Carrier object for ChatTopicAgent.
-Services for the ChatTopicAgent Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IChatAgent">Chat Agent</see>.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -66,7 +71,7 @@ Response body: object
 | CanManage | bool | True if the user is a manager for this topic |
 | CanNotify | bool | True if the user should receive notifications for this topic |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Chat/AddChatTopicUserAgent
@@ -76,51 +81,22 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatTopicId": 624,
-  "Useragent": {
-    "TopicId": 358,
-    "User": {},
-    "CanListen": false,
-    "CanRespond": true,
-    "CanManage": false,
-    "CanNotify": true
-  }
+  "ChatTopicId": 33,
+  "Useragent": null
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TopicId": 669,
-  "User": {
-    "AssociateId": 348,
-    "Name": "Bashirian-Bogisich",
-    "PersonId": 715,
-    "Rank": 69,
-    "Tooltip": "qui",
-    "Type": "AnonymousAssociate",
-    "GroupIdx": 841,
-    "FullName": "Weldon Balistreri",
-    "FormalName": "Cronin LLC",
-    "Deleted": false,
-    "EjUserId": 694,
-    "UserName": "Harvey-Kihn",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.Int32",
-        "FieldLength": 733
-      }
-    }
-  },
-  "CanListen": false,
-  "CanRespond": true,
+  "TopicId": 561,
+  "User": null,
+  "CanListen": true,
+  "CanRespond": false,
   "CanManage": false,
   "CanNotify": false
 }

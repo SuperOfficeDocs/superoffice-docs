@@ -1,6 +1,6 @@
 ---
 title: POST Appointment/UdefLayout
-id: v1AppointmentEntity_AddUdefField
+uid: v1AppointmentEntity_AddUdefField
 ---
 
 # POST Appointment/UdefLayout
@@ -11,6 +11,12 @@ POST /api/v1/Appointment/UdefLayout
 
 Add a new field to the current AppointmentEntity user-defined field layout.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Add a new field to the current AppointmentEntity user-defined field layout.
 ```http
 POST /api/v1/Appointment/UdefLayout?udefFieldType=Checkbox
 ```
+
 
 ## Request Headers
 
@@ -34,18 +41,16 @@ POST /api/v1/Appointment/UdefLayout?udefFieldType=Checkbox
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response: object
 
-Return information about the user defined fields. The information can be used to mirror the layout of the user-defined fields in the user interface.
+## Response: 
 
-Carrier object for UserDefinedFieldInfo.
-Services for the UserDefinedFieldInfo Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent">UserDefinedFieldInfo Agent</see>.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -86,7 +91,7 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Appointment/UdefLayout
@@ -95,57 +100,53 @@ Accept: application/json; charset=utf-8
 Accept-Language: sv
 ```
 
+## Sample response
+
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 688,
-  "ColumnId": 681,
-  "FieldDefault": "neque",
-  "FieldHeight": 370,
-  "FieldLabel": "perspiciatis",
-  "FieldLeft": 170,
-  "FieldTop": 855,
+  "UDefFieldId": 879,
+  "ColumnId": 359,
+  "FieldDefault": "aut",
+  "FieldHeight": 663,
+  "FieldLabel": "quos",
+  "FieldLeft": 785,
+  "FieldTop": 539,
   "FieldType": "Checkbox",
-  "FieldWidth": 86,
+  "FieldWidth": 790,
   "FormatMask": "nesciunt",
-  "HideLabel": true,
-  "IsIndexed": false,
-  "LabelHeight": 143,
-  "LabelLeft": 825,
-  "LabelTop": 866,
-  "LabelWidth": 927,
-  "LastVersionId": 897,
-  "ListTableId": 368,
-  "IsMandatory": true,
+  "HideLabel": false,
+  "IsIndexed": true,
+  "LabelHeight": 35,
+  "LabelLeft": 371,
+  "LabelTop": 58,
+  "LabelWidth": 81,
+  "LastVersionId": 798,
+  "ListTableId": 658,
+  "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 248,
-  "ProgId": "animi",
+  "Page1LineNo": 406,
+  "ProgId": "ut",
   "IsReadOnly": false,
-  "ShortLabel": "voluptatem",
-  "TabOrder": 230,
-  "TextLength": 689,
-  "Tooltip": "non",
-  "UdefIdentity": 99,
-  "UDListDefinitionId": 824,
+  "ShortLabel": "dolores",
+  "TabOrder": 199,
+  "TextLength": 200,
+  "Tooltip": "quam",
+  "UdefIdentity": 146,
+  "UDListDefinitionId": 903,
   "Justification": "Center",
-  "Version": 557,
-  "TemplateVariableName": "Reilly-Schuppe",
+  "Version": 186,
+  "TemplateVariableName": "Heaney, King and Mitchell",
   "HasBeenPublished": true,
-  "MdoListName": "Daugherty LLC",
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "MdoListName": "Crist-Jacobi",
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
+      "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 832
+      "FieldLength": 56
     }
   }
 }

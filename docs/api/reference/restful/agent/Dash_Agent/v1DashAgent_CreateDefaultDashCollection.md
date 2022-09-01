@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Dash/CreateDefaultDashCollection
-id: v1DashAgent_CreateDefaultDashCollection
+uid: v1DashAgent_CreateDefaultDashCollection
 ---
 
 # POST Agents/Dash/CreateDefaultDashCollection
@@ -11,7 +11,14 @@ POST /api/v1/Agents/Dash/CreateDefaultDashCollection
 
 Set default values into a new DashCollection.
 
+
 NetServer calculates default values on the entity, which is required when creating/storing a new instance
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -26,18 +33,16 @@ NetServer calculates default values on the entity, which is required when creati
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response: object
 
-Collection of dashboards for an associate
+## Response: 
 
-Carrier object for DashCollection.
-Services for the DashCollection Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IDashAgent">Dash Agent</see>.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -47,14 +52,16 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Dash/CreateDefaultDashCollection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -63,136 +70,121 @@ Content-Type: application/json; charset=utf-8
 {
   "Pinned": [
     {
-      "DashboardId": 742,
-      "UniqueId": "totam",
-      "Name": "Mohr Inc and Sons",
-      "Description": "Pre-emptive background workforce",
-      "AssociateId": 85,
-      "Columns": 201,
-      "Theme": {},
-      "VisibleForAll": 411,
+      "DashboardId": 763,
+      "UniqueId": "eum",
+      "Name": "Schultz-Rice",
+      "Description": "Monitored reciprocal open system",
+      "AssociateId": 72,
+      "Columns": 509,
+      "Theme": null,
+      "VisibleForAll": 230,
       "VisibleForAssociates": [
-        492,
-        887
+        634,
+        515
       ],
       "VisibleForGroups": [
-        771,
-        840
+        573,
+        897
       ],
-      "PinForAll": 910,
+      "PinForAll": 534,
       "PinForAssociates": [
-        769,
-        806
+        392,
+        881
       ],
       "PinForGroups": [
-        679,
-        610
+        668,
+        509
       ],
-      "TableRight": {},
+      "TableRight": null,
       "FieldProperties": {
         "fieldName": {
-          "FieldRight": {
-            "Mask": "FULL",
-            "Reason": ""
-          },
-          "FieldType": "System.String",
-          "FieldLength": 653
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 243
         }
       }
     }
   ],
   "Favourites": [
     {
-      "DashboardId": 707,
-      "UniqueId": "dolor",
-      "Name": "Mohr Group",
-      "Description": "Upgradable disintermediate help-desk",
-      "AssociateId": 677,
-      "Columns": 462,
-      "Theme": {},
-      "VisibleForAll": 137,
+      "DashboardId": 584,
+      "UniqueId": "assumenda",
+      "Name": "Bogan, Wiegand and Roob",
+      "Description": "Fully-configurable foreground algorithm",
+      "AssociateId": 431,
+      "Columns": 615,
+      "Theme": null,
+      "VisibleForAll": 282,
       "VisibleForAssociates": [
-        364,
-        848
+        348,
+        321
       ],
       "VisibleForGroups": [
-        342,
-        509
+        471,
+        855
       ],
-      "PinForAll": 42,
+      "PinForAll": 656,
       "PinForAssociates": [
-        734,
-        81
+        61,
+        41
       ],
       "PinForGroups": [
-        727,
-        995
+        371,
+        288
       ],
-      "TableRight": {},
+      "TableRight": null,
       "FieldProperties": {
         "fieldName": {
-          "FieldRight": {
-            "Mask": "FULL",
-            "Reason": ""
-          },
-          "FieldType": "System.String",
-          "FieldLength": 359
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 980
         }
       }
     }
   ],
   "Other": [
     {
-      "DashboardId": 371,
-      "UniqueId": "tempore",
-      "Name": "Bahringer LLC",
-      "Description": "Enterprise-wide homogeneous local area network",
-      "AssociateId": 905,
-      "Columns": 200,
-      "Theme": {},
-      "VisibleForAll": 844,
+      "DashboardId": 620,
+      "UniqueId": "aliquid",
+      "Name": "Hermann, Smitham and Grimes",
+      "Description": "Implemented content-based open architecture",
+      "AssociateId": 449,
+      "Columns": 427,
+      "Theme": null,
+      "VisibleForAll": 451,
       "VisibleForAssociates": [
-        99,
-        389
+        265,
+        547
       ],
       "VisibleForGroups": [
-        385,
-        270
+        378,
+        367
       ],
-      "PinForAll": 107,
+      "PinForAll": 407,
       "PinForAssociates": [
-        54,
-        212
+        66,
+        391
       ],
       "PinForGroups": [
-        310,
-        705
+        85,
+        405
       ],
-      "TableRight": {},
+      "TableRight": null,
       "FieldProperties": {
         "fieldName": {
-          "FieldRight": {
-            "Mask": "FULL",
-            "Reason": ""
-          },
-          "FieldType": "System.Int32",
-          "FieldLength": 171
+          "FieldRight": null,
+          "FieldType": "System.String",
+          "FieldLength": 531
         }
       }
     }
   ],
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
-      "FieldType": "System.String",
-      "FieldLength": 334
+      "FieldRight": null,
+      "FieldType": "System.Int32",
+      "FieldLength": 236
     }
   }
 }

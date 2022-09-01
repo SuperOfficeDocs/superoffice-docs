@@ -13,7 +13,9 @@ Implemented by the <see cref="M:SuperOffice.Services84.IConfigurationAgent.GetWw
 
 Returns the URL used for the logo by the SM.web client. Uses urldispatch.aspx
 
+
 **Returns:** Link to urldispatch.aspx tagged with [SOSITEURL]
+
 
 [WSDL file for Services84/Configuration](../Services84-Configuration.md)
 
@@ -46,6 +48,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## GetWwwUrlForSMWeb Response
 
 ```xml
@@ -66,3 +69,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

@@ -7,7 +7,7 @@ keywords:
   - "mdo provider"
   - "ticketread"
 so.generated: true
-so.date: 03.19.2021
+so.date: 08.26.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -16,8 +16,14 @@ so.envir:
 
 # "ticketread" MDO List
 
+
+
+
 Implemented by the <see cref="T:SuperOffice.CRM.Lists.TicketReadStatusProvider">TicketReadStatusProvider</see> class.
 The name of the MDO list is 'ticketread'.
+
+
+
 
 ## Sample Request
 
@@ -30,7 +36,6 @@ Accept-Language: *
 ```
 
 ## Sample Code
-
 ```cs
 var listProvider = SuperOffice.CRM.Lists.SoListProviderFactory.Create("ticketread", forceFlatList: true);
 foreach (var item in listProvider.RootItems) {
@@ -47,6 +52,7 @@ foreach (var item in listProvider.RootItems) {
 |1|Read by owner|||
 |2|New information|||
 |3|Not read by owner|||
+
 
 ## Related MDO Lists
 

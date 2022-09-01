@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Preference/SavePreferenceDescription
-id: v1PreferenceAgent_SavePreferenceDescription
+uid: v1PreferenceAgent_SavePreferenceDescription
 ---
 
 # POST Agents/Preference/SavePreferenceDescription
@@ -10,6 +10,13 @@ POST /api/v1/Agents/Preference/SavePreferenceDescription
 ```
 
 Updates the existing PreferenceDescription or creates a new PreferenceDescription if the id parameter is empty
+
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -25,9 +32,9 @@ Updates the existing PreferenceDescription or creates a new PreferenceDescriptio
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entity
+## Request Body: entity  
 
-The PreferenceDescription to be saved.
+The PreferenceDescription to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -50,18 +57,16 @@ The PreferenceDescription to be saved.
 | MinValue | int32 | Min value (if type 1); list extra id (if type 5) |
 | RequiredLicense | string | Licenses the user/installation must have if this reference is to be shown. Comma-separated list of owner.module pairs |
 
-## Response: object
 
-Preference description, drives the Preference GUI. Maintenance client - controls all preferences in SuperOffice.
+## Response: 
 
-Carrier object for PreferenceDescription.
-Services for the PreferenceDescription Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IPreferenceAgent">Preference Agent</see>.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -86,72 +91,68 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Preference/SavePreferenceDescription
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 21,
-  "Section": "minus",
-  "Key": "asperiores",
-  "Name": "Padberg Inc and Sons",
+  "PrefDescId": 419,
+  "Section": "sint",
+  "Key": "autem",
+  "Name": "Bradtke-Buckridge",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Multi-tiered 4th generation local area network",
+  "Description": "Virtual executive alliance",
   "IsBuiltin": true,
-  "TableName": "Kutch, Torp and Herman",
-  "UserDefinedListId": 440,
-  "Rank": 330,
-  "SubGroup": "possimus",
-  "MinLevel": 213,
-  "MaxValue": 917,
-  "MinValue": 923,
-  "RequiredLicense": "soluta"
+  "TableName": "Franecki, Ullrich and Toy",
+  "UserDefinedListId": 650,
+  "Rank": 868,
+  "SubGroup": "nihil",
+  "MinLevel": 723,
+  "MaxValue": 184,
+  "MinValue": 258,
+  "RequiredLicense": "temporibus"
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 235,
-  "Section": "autem",
-  "Key": "et",
-  "Name": "Carroll Group",
+  "PrefDescId": 109,
+  "Section": "aut",
+  "Key": "quia",
+  "Name": "Crooks Group",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Enhanced empowering hub",
+  "Description": "Organized impactful open system",
   "IsBuiltin": false,
-  "TableName": "Kuhlman-Lesch",
-  "UserDefinedListId": 552,
-  "Rank": 811,
-  "SubGroup": "magni",
-  "MinLevel": 382,
-  "MaxValue": 212,
-  "MinValue": 104,
-  "RequiredLicense": "repellat",
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "TableName": "Eichmann LLC",
+  "UserDefinedListId": 31,
+  "Rank": 640,
+  "SubGroup": "quo",
+  "MinLevel": 113,
+  "MaxValue": 822,
+  "MinValue": 134,
+  "RequiredLicense": "aspernatur",
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
-      "FieldType": "System.Int32",
-      "FieldLength": 147
+      "FieldRight": null,
+      "FieldType": "System.String",
+      "FieldLength": 208
     }
   }
 }

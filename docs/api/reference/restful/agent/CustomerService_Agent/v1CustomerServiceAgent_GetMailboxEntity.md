@@ -1,6 +1,6 @@
 ---
 title: POST Agents/CustomerService/GetMailboxEntity
-id: v1CustomerServiceAgent_GetMailboxEntity
+uid: v1CustomerServiceAgent_GetMailboxEntity
 ---
 
 # POST Agents/CustomerService/GetMailboxEntity
@@ -11,6 +11,12 @@ POST /api/v1/Agents/CustomerService/GetMailboxEntity
 
 Gets a MailboxEntity object.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -19,9 +25,10 @@ Gets a MailboxEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/CustomerService/GetMailboxEntity?mailboxEntityId=728
+POST /api/v1/Agents/CustomerService/GetMailboxEntity?mailboxEntityId=712
 POST /api/v1/Agents/CustomerService/GetMailboxEntity?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -36,18 +43,16 @@ POST /api/v1/Agents/CustomerService/GetMailboxEntity?$select=name,department,cat
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response: object
 
-This entity represent a mailbox used for importing emails in Service
+## Response: 
 
-Carrier object for MailboxEntity.
-Services for the MailboxEntity Carrier is available from the <see cref="T:SuperOffice.CRM.Services.ICustomerServiceAgent">CustomerService Agent</see>.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -61,7 +66,7 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/CustomerService/GetMailboxEntity
@@ -70,30 +75,26 @@ Accept: application/json; charset=utf-8
 Accept-Language: *
 ```
 
+## Sample response
+
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "MailInFilterId": 385,
+  "MailInFilterId": 859,
   "ServerType": "Facebook",
-  "Address": "dolor",
-  "Username": "nam",
-  "Password": "voluptatum",
-  "Server": "quia",
-  "Port": 175,
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "Address": "rem",
+  "Username": "facere",
+  "Password": "omnis",
+  "Server": "voluptatem",
+  "Port": 37,
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
+      "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 260
+      "FieldLength": 360
     }
   }
 }

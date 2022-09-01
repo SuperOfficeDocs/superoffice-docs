@@ -1,6 +1,6 @@
 ---
 title: POST Pricelist
-id: v1PriceList_PostPriceList
+uid: v1PriceList_PostPriceList
 ---
 
 # POST Pricelist
@@ -11,7 +11,13 @@ POST /api/v1/Pricelist
 
 Creates a new PriceList
 
+
 Calls the Quote agent service SavePriceList.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +28,7 @@ Calls the Quote agent service SavePriceList.
 ```http
 POST /api/v1/Pricelist?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,9 +44,9 @@ POST /api/v1/Pricelist?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: newEntity
+## Request Body: newEntity  
 
-The PriceList to be saved.
+The PriceList to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -54,17 +61,16 @@ The PriceList to be saved.
 | ValidTo | date-time | The date (inclusive) the pricelist ends to be valid. This can be DateTime.MaxValue to signal that it doesn't have a specific end date. |
 | IsActive | bool | Is the list active (as opposed to being worked on, suddenly canceled, etc. |
 
-## Response: object
 
-A pricelist is basically a collection of products. It can be valid in a time period, and outright deactivated. All prices in the product list is in a specific currency. We have decieded not to separate prices and products, which means that we get a simpler data model, but some redundancy.
+## Response: 
 
-PriceList entity with API _Links added.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -82,56 +88,52 @@ Response body: object
 | FieldProperties | object |  |
 | _Links | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Pricelist
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 40,
-  "ERPPriceListKey": "molestiae",
-  "QuoteConnectionId": 919,
-  "Name": "Mitchell LLC",
-  "Description": "Cross-group transitional groupware",
-  "Currency": "enim",
-  "CurrencyName": "Lindgren-Ankunding",
-  "ValidFrom": "2011-11-19T18:25:51.9712482+01:00",
-  "ValidTo": "2020-07-16T18:25:51.9712482+02:00",
-  "IsActive": true
+  "PriceListId": 925,
+  "ERPPriceListKey": "blanditiis",
+  "QuoteConnectionId": 991,
+  "Name": "Nader Inc and Sons",
+  "Description": "Right-sized 6th generation attitude",
+  "Currency": "rerum",
+  "CurrencyName": "Blanda, O'Kon and Glover",
+  "ValidFrom": "2002-02-02T11:10:54.3859023+01:00",
+  "ValidTo": "1997-12-10T11:10:54.3859023+01:00",
+  "IsActive": false
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 951,
-  "ERPPriceListKey": "voluptatibus",
-  "QuoteConnectionId": 609,
-  "Name": "Mante LLC",
-  "Description": "Networked explicit initiative",
-  "Currency": "consequatur",
-  "CurrencyName": "Waelchi LLC",
-  "ValidFrom": "2020-08-26T18:25:51.972246+02:00",
-  "ValidTo": "2006-06-19T18:25:51.972246+02:00",
+  "PriceListId": 212,
+  "ERPPriceListKey": "voluptatem",
+  "QuoteConnectionId": 366,
+  "Name": "Corkery Group",
+  "Description": "Distributed 24/7 matrices",
+  "Currency": "quo",
+  "CurrencyName": "Will Group",
+  "ValidFrom": "2016-11-21T11:10:54.3859023+01:00",
+  "ValidTo": "2019-07-11T11:10:54.3859023+02:00",
   "IsActive": false,
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": "e-enable bricks-and-clicks technologies"
-      },
+      "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 89
+      "FieldLength": 250
     }
   },
   "_Links": {

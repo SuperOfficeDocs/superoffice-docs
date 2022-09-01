@@ -1,6 +1,6 @@
 ---
 title: GET Selection
-id: v1SelectionEntity_GetAll
+uid: v1SelectionEntity_GetAll
 ---
 
 # GET Selection
@@ -11,6 +11,7 @@ GET /api/v1/Selection
 
 OData list of all SelectionEntity.
 
+
 Can be sorted and further filtered using OData conventions:
 
 * Selection?$select=col1,col2,abc/col3
@@ -19,25 +20,34 @@ Can be sorted and further filtered using OData conventions:
 * Selection?$top=1000
 * Selection?$mode=full
 
+
 OData returns XML or JSON carriers depending on the Accept headers.
+
 
 Calls the Archive service using the "FindSelection" archive.
 
-## Filter Operators
+
+## Filter Operators: ##
 
 ints: eq =, ne, le, lt, gt, ge, set, equals, greater, less, unequals, between
 
 strings: contains, is, notBegins, notContains, isNot
 
-associate: associateIsOneOf, associateIsNotOneOf,
+associate: associateIsOneOf, associateIsNotOneOf,  
 
-list ids: oneOf, NotOneOf,
+list ids: oneOf, NotOneOf, 
 
 dates: before, date, after, dateBetween, beforeToday
 
 Unary ops: currentAssociate, beforeToday, today, afterToday, lastWeek, thisWeek, nextWeek, lastMonth, thisMonth, nextMonth, lastQuarter, thisQuarter, nextQuarter, thisHalf, thisYear
 
 Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,n,period), previous(f,n,period), thisAndNext(f,n,period), thisAndPrevious(f,n,period), thisAndPreviousAndNext(f,period)
+
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -60,16 +70,17 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 GET /api/v1/Selection?$select=name,department,category/id
 GET /api/v1/Selection?$filter=name begins 'S'
 GET /api/v1/Selection?$orderBy=name asc
-GET /api/v1/Selection?$entities=debitis
-GET /api/v1/Selection?$top=428
-GET /api/v1/Selection?$skip=882
+GET /api/v1/Selection?$entities=qui
+GET /api/v1/Selection?$top=575
+GET /api/v1/Selection?$skip=512
 GET /api/v1/Selection?$mode=Full
 GET /api/v1/Selection?$options=GrandTotal=true
-GET /api/v1/Selection?$context=iusto
+GET /api/v1/Selection?$context=natus
 GET /api/v1/Selection?$format=JSON
-GET /api/v1/Selection?$jsonSafe=False
+GET /api/v1/Selection?$jsonSafe=True
 GET /api/v1/Selection?$output=Display
 ```
+
 
 ## Request Headers
 
@@ -84,15 +95,16 @@ GET /api/v1/Selection?$output=Display
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response: object
 
-Easy to use archive results - just a flat list of values.
+## Response: 
+
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -100,14 +112,16 @@ Response body: object
 | odata.nextLink | string |  |
 | value | array |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 GET /api/v1/Selection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -115,21 +129,19 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "non",
+  "odata.nextLink": "aut",
   "value": [
     {
-      "PrimaryKey": 8603,
-      "EntityName": "sale",
-      "saleId": 8603,
-      "contactId": 8823,
-      "name": "Sauer, Bernhard and Koss"
+      "PrimaryKey": 405,
+      "EntityName": "person",
+      "personId": 405,
+      "fullName": "Miguel Kilback DVM"
     },
     {
-      "PrimaryKey": 5670,
-      "EntityName": "sale",
-      "saleId": 5670,
-      "contactId": 1543,
-      "name": "Bode-Pacocha"
+      "PrimaryKey": 8828,
+      "EntityName": "person",
+      "personId": 8828,
+      "fullName": "Mr. Rahsaan Skiles IV"
     }
   ]
 }

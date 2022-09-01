@@ -1,6 +1,6 @@
 ---
 title: GET List/UserGroup/Headings
-id: v1UserGroupList_GetUserGroupHeadings
+uid: v1UserGroupList_GetUserGroupHeadings
 ---
 
 # GET List/UserGroup/Headings
@@ -11,7 +11,14 @@ GET /api/v1/List/UserGroup/Headings
 
 Gets headings for the UserGroup list.
 
+
 Calls the User agent service GetGetHeadingsFromListDefinition.
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -26,7 +33,10 @@ Calls the User agent service GetGetHeadingsFromListDefinition.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -45,14 +55,16 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 GET /api/v1/List/UserGroup/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -60,24 +72,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 126,
-    "Name": "Jaskolski, Morissette and Schultz",
-    "Tooltip": "optio",
+    "HeadingId": 11,
+    "Name": "Denesik LLC",
+    "Tooltip": "dolorum",
     "Deleted": false,
-    "Rank": 335,
-    "UdListDefinitionId": 834,
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "Rank": 382,
+    "UdListDefinitionId": 753,
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
+        "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 609
+        "FieldLength": 35
       }
     }
   }

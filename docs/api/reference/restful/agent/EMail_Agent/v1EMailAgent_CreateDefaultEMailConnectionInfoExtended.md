@@ -1,6 +1,6 @@
 ---
 title: POST Agents/EMail/CreateDefaultEMailConnectionInfoExtended
-id: v1EMailAgent_CreateDefaultEMailConnectionInfoExtended
+uid: v1EMailAgent_CreateDefaultEMailConnectionInfoExtended
 ---
 
 # POST Agents/EMail/CreateDefaultEMailConnectionInfoExtended
@@ -11,9 +11,17 @@ POST /api/v1/Agents/EMail/CreateDefaultEMailConnectionInfoExtended
 
 Set default values into a new EMailConnectionInfoExtended.
 
+
 NetServer calculates default values on the entity, which is required when creating/storing a new instance
 
-## Online Restricted: ## The EMail agent is not available in Online by default. Access must be requested specifically when app is registered
+
+## Online Restricted: ## The EMail agent is not available in Online by default. Access must be requested specifically when app is registered.
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -28,16 +36,16 @@ NetServer calculates default values on the entity, which is required when creati
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response: object
 
-Carrier object for EMailConnectionInfoExtended.
-Services for the EMailConnectionInfoExtended Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IEMailAgent">EMail Agent</see>.
+## Response: 
+
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -51,39 +59,35 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/EMail/CreateDefaultEMailConnectionInfoExtended
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Port": 55,
-  "ServerName": "Schiller, Schowalter and Williamson",
-  "Protocol": "in",
-  "UserName": "Bergstrom Group",
-  "Password": "voluptatem",
-  "UseSSL": true,
-  "Folder": "quas",
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "Port": 683,
+  "ServerName": "Ratke, Wiza and Harber",
+  "Protocol": "voluptatem",
+  "UserName": "Green-Boehm",
+  "Password": "et",
+  "UseSSL": false,
+  "Folder": "nobis",
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
-      "FieldType": "System.String",
-      "FieldLength": 830
+      "FieldRight": null,
+      "FieldType": "System.Int32",
+      "FieldLength": 549
     }
   }
 }

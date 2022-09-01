@@ -1,6 +1,6 @@
 ---
 title: GET List/DocumentTemplate/Items/Default
-id: v1DocumentTemplateList_CreateDefaultDocumentTemplateEntity
+uid: v1DocumentTemplateList_CreateDefaultDocumentTemplateEntity
 ---
 
 # GET List/DocumentTemplate/Items/Default
@@ -10,6 +10,13 @@ GET /api/v1/List/DocumentTemplate/Items/Default
 ```
 
 Gets a default DocumentTemplateEntity list item.
+
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -24,18 +31,16 @@ Gets a default DocumentTemplateEntity list item.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response: object
 
-The template a document is based on is stored in the SO_arc\template folder on the server. This will return the name as displayed in the GUI, and not the physical document name, of the template the document object is based on.
+## Response: 
 
-Carrier object for DocumentTemplateEntity.
-Services for the DocumentTemplateEntity Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IListAgent">List Agent</see>.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -67,57 +72,53 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 GET /api/v1/List/DocumentTemplate/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 750,
-  "Name": "Leannon Inc and Sons",
-  "Tooltip": "sint",
-  "SaveInDb": 821,
-  "Filename": "dolorum",
-  "DefaultOref": "quas",
+  "DocumentTemplateId": 65,
+  "Name": "Hintz, McClure and Carroll",
+  "Tooltip": "placeat",
+  "SaveInDb": 392,
+  "Filename": "deleniti",
+  "DefaultOref": "nisi",
   "RecordType": "Appointment",
-  "Deleted": false,
+  "Deleted": true,
   "Direction": "Incoming",
-  "AutoeventId": 186,
-  "IntentId": 964,
+  "AutoeventId": 592,
+  "IntentId": 156,
   "IsDefaultPublished": true,
-  "Rank": 691,
-  "LoadTemplateFromPlugin": 969,
-  "MimeType": "qui",
+  "Rank": 874,
+  "LoadTemplateFromPlugin": 208,
+  "MimeType": "atque",
   "IsInUseInGuides": true,
-  "DocumentTypeKey": 508,
+  "DocumentTypeKey": 327,
   "QuoteDocType": "ConfirmationLines",
   "PrivacyDocType": "None",
-  "EmailSubject": "glenda@graham.com",
+  "EmailSubject": "amanda@schroeder.info",
   "IncludeSignature": true,
   "ShowCurrents": false,
   "SenderEmailMode": "UseDefaultSender",
-  "SenderEmailAddress": "clinton@feest.biz",
+  "SenderEmailAddress": "addie.rodriguez@schultzfisher.info",
   "InvitationDocType": "Cancelled",
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
-      "FieldType": "System.String",
-      "FieldLength": 586
+      "FieldRight": null,
+      "FieldType": "System.Int32",
+      "FieldLength": 144
     }
   }
 }

@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "ImportField"
-so.date: 04.12.2022
+so.date: 08.26.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -33,6 +33,7 @@ Import object types - see localetext for names
 |updatedCount|Number of updates made to this record|UShort| |
 |isBuiltin|1 = This row populated and maintained by SuperOffice|UShort|&#x25CF;|
 
+
 ![ImportField table relationship diagram](./media/ImportField.png)
 
 [!include[details](./includes/importfield.md)]
@@ -51,6 +52,7 @@ Import object types - see localetext for names
 |[associate](associate.md)  |Employees, resources and other users - except for External persons |
 |[ImportObject](importobject.md)  |Import object types - see localetext for names. |
 
+
 ## Replication Flags
 
 * Replicate changes DOWN from central to satellites and travellers.
@@ -60,3 +62,4 @@ Import object types - see localetext for names
 ## Security Flags
 
 * No access control via user's Role.
+

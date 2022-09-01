@@ -1,6 +1,6 @@
 ---
 title: GET List/Credited/Items/{id}/UserGroups
-id: v1CreditedList_GetCreditedUserGroupsForListItem
+uid: v1CreditedList_GetCreditedUserGroupsForListItem
 ---
 
 # GET List/Credited/Items/{id}/UserGroups
@@ -11,11 +11,18 @@ GET /api/v1/List/Credited/Items/{itemId}/UserGroups
 
 Gets user groups visible for the Credited list's item.
 
+
 Calls the List agent service GetHeadings.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | itemId | int32 | The ID of the item to get. **Required** |
+
+
 
 ## Request Headers
 
@@ -30,7 +37,10 @@ Calls the List agent service GetHeadings.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -58,14 +68,16 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 GET /api/v1/List/Credited/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -73,65 +85,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 6,
-    "Name": "Wisozk-Hartmann",
-    "ToolTip": "Quam facilis.",
+    "Id": 276,
+    "Name": "Waelchi LLC",
+    "ToolTip": "Consequuntur fugiat animi eum placeat voluptates rerum quia.",
     "Deleted": false,
-    "Rank": 281,
-    "Type": "nam",
-    "ColorBlock": 863,
-    "IconHint": "qui",
-    "Selected": false,
-    "LastChanged": "2019-07-22T18:25:51.7663254+02:00",
+    "Rank": 774,
+    "Type": "libero",
+    "ColorBlock": 279,
+    "IconHint": "molestiae",
+    "Selected": true,
+    "LastChanged": "1996-10-14T11:10:54.0342075+02:00",
     "ChildItems": [
       {
-        "Id": 563,
-        "Name": "Blick-VonRueden",
-        "ToolTip": "Dolorem aliquam.",
+        "Id": 45,
+        "Name": "Smitham-King",
+        "ToolTip": "Est nulla ab eveniet facilis ut natus accusamus.",
         "Deleted": true,
-        "Rank": 708,
-        "Type": "at",
-        "ColorBlock": 137,
-        "IconHint": "dolor",
+        "Rank": 202,
+        "Type": "nostrum",
+        "ColorBlock": 758,
+        "IconHint": "id",
         "Selected": true,
-        "LastChanged": "2020-12-07T18:25:51.7663254+01:00",
+        "LastChanged": "2018-04-13T11:10:54.0342075+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "qui",
-        "StyleHint": "at",
+        "ExtraInfo": "et",
+        "StyleHint": "tempora",
         "Hidden": false,
-        "FullName": "Carissa Cruickshank",
-        "TableRight": {},
+        "FullName": "Ms. Annalise Johnathon Jacobi",
+        "TableRight": null,
         "FieldProperties": {
           "fieldName": {
-            "FieldRight": {
-              "Mask": "FULL",
-              "Reason": ""
-            },
-            "FieldType": "System.String",
-            "FieldLength": 822
+            "FieldRight": null,
+            "FieldType": "System.Int32",
+            "FieldLength": 127
           }
         }
       }
     ],
-    "ExtraInfo": "rerum",
-    "StyleHint": "explicabo",
-    "Hidden": true,
-    "FullName": "Miss Tyrese Mitchell",
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": "generate best-of-breed systems"
-    },
+    "ExtraInfo": "atque",
+    "StyleHint": "debitis",
+    "Hidden": false,
+    "FullName": "Ken Abbott",
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 509
+        "FieldRight": null,
+        "FieldType": "System.Int32",
+        "FieldLength": 207
       }
     }
   }

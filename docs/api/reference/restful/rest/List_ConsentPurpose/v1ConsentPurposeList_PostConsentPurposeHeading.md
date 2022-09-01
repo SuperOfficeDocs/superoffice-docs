@@ -1,6 +1,6 @@
 ---
 title: POST List/ConsentPurpose/Headings
-id: v1ConsentPurposeList_PostConsentPurposeHeading
+uid: v1ConsentPurposeList_PostConsentPurposeHeading
 ---
 
 # POST List/ConsentPurpose/Headings
@@ -11,7 +11,14 @@ POST /api/v1/List/ConsentPurpose/Headings
 
 Saves a new heading for the ConsentPurpose list.
 
+
 Calls the List agent service SaveHeadingFromListDefinition.
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -27,9 +34,9 @@ Calls the List agent service SaveHeadingFromListDefinition.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: newEntity
+## Request Body: newEntity  
 
-The heading to be added.
+The heading to be added. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -40,18 +47,16 @@ The heading to be added.
 | Rank | int32 | Rank order |
 | UdListDefinitionId | int32 | The id of the list which this heading belongs to |
 
-## Response: object
 
-The heading entity contains generic list item information
+## Response: 
 
-Carrier object for HeadingEntity.
-Services for the HeadingEntity Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IListAgent">List Agent</see>.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -64,48 +69,44 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/List/ConsentPurpose/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 605,
-  "Name": "Hermiston-Ryan",
-  "Tooltip": "enim",
-  "Deleted": true,
-  "Rank": 809,
-  "UdListDefinitionId": 626
+  "HeadingId": 65,
+  "Name": "Pfeffer Inc and Sons",
+  "Tooltip": "quia",
+  "Deleted": false,
+  "Rank": 716,
+  "UdListDefinitionId": 671
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 784,
-  "Name": "Green, Bradtke and Hackett",
-  "Tooltip": "fuga",
-  "Deleted": false,
-  "Rank": 12,
-  "UdListDefinitionId": 628,
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "HeadingId": 668,
+  "Name": "Beahan Inc and Sons",
+  "Tooltip": "ducimus",
+  "Deleted": true,
+  "Rank": 15,
+  "UdListDefinitionId": 662,
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
+      "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 996
+      "FieldLength": 424
     }
   }
 }

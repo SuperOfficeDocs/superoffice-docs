@@ -1,6 +1,6 @@
 ---
 title: POST List/DeliveryType/Items
-id: v1DeliveryTypeList_PostDeliveryType
+uid: v1DeliveryTypeList_PostDeliveryType
 ---
 
 # POST List/DeliveryType/Items
@@ -10,6 +10,13 @@ POST /api/v1/List/DeliveryType/Items
 ```
 
 Add a new DeliveryType to the list.
+
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -25,9 +32,9 @@ Add a new DeliveryType to the list.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: newListItem
+## Request Body: newListItem  
 
-The DeliveryType to be added to the list.
+The DeliveryType to be added to the list. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -38,18 +45,16 @@ The DeliveryType to be added to the list.
 | UdListDefinitionId | int32 | The id of the list which this list item belongs to |
 | Rank | int32 | The rank of the list item |
 
-## Response: object
 
-The list item entity contains generic list item information
+## Response: 
 
-Carrier object for ListItemEntity.
-Services for the ListItemEntity Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IListAgent">List Agent</see>.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -62,48 +67,44 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/List/DeliveryType/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 780,
-  "Name": "Hauck Inc and Sons",
-  "Tooltip": "animi",
-  "Deleted": true,
-  "UdListDefinitionId": 840,
-  "Rank": 863
+  "Id": 828,
+  "Name": "Greenholt, Yundt and Okuneva",
+  "Tooltip": "laudantium",
+  "Deleted": false,
+  "UdListDefinitionId": 307,
+  "Rank": 291
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 505,
-  "Name": "Koch-Feil",
-  "Tooltip": "eos",
-  "Deleted": true,
-  "UdListDefinitionId": 592,
-  "Rank": 205,
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "Id": 515,
+  "Name": "Kunze, Trantow and Daugherty",
+  "Tooltip": "voluptatem",
+  "Deleted": false,
+  "UdListDefinitionId": 416,
+  "Rank": 241,
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
-      "FieldType": "System.String",
-      "FieldLength": 719
+      "FieldRight": null,
+      "FieldType": "System.Int32",
+      "FieldLength": 500
     }
   }
 }

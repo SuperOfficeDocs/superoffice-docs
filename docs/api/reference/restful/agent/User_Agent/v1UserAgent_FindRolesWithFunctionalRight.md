@@ -1,6 +1,6 @@
 ---
 title: POST Agents/User/FindRolesWithFunctionalRight
-id: v1UserAgent_FindRolesWithFunctionalRight
+uid: v1UserAgent_FindRolesWithFunctionalRight
 ---
 
 # POST Agents/User/FindRolesWithFunctionalRight
@@ -11,9 +11,16 @@ POST /api/v1/Agents/User/FindRolesWithFunctionalRight
 
 Find all roles with a given functional right.
 
-The roles matched must contain the specified functional right.
 
-## Online Restricted: ## The User agent is not available in Online by default. User management is not allowed for partner apps
+The roles matched must contain the specified functional right. 
+
+
+## Online Restricted: ## The User agent is not available in Online by default. User management is not allowed for partner apps.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -24,6 +31,7 @@ The roles matched must contain the specified functional right.
 ```http
 POST /api/v1/Agents/User/FindRolesWithFunctionalRight?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -39,15 +47,18 @@ POST /api/v1/Agents/User/FindRolesWithFunctionalRight?$select=name,department,ca
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-FunctionalRightName
+FunctionalRightName 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | FunctionalRightName | string |  |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -72,7 +83,7 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/User/FindRolesWithFunctionalRight
@@ -82,9 +93,11 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "FunctionalRightName": "Jast, Grimes and Howell"
+  "FunctionalRightName": "Weissnat-Stiedemann"
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -92,59 +105,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 416,
-    "Name": "Hodkiewicz-Jaskolski",
-    "ToolTip": "Nulla iste natus enim repellat vero.",
+    "Id": 73,
+    "Name": "Koch, Stiedemann and Champlin",
+    "ToolTip": "Incidunt sapiente ipsum magnam sunt.",
     "Deleted": true,
-    "Rank": 238,
-    "Type": "voluptas",
+    "Rank": 227,
+    "Type": "ratione",
     "ChildItems": [
       {
-        "Id": 829,
-        "Name": "Kiehn, Durgan and Emmerich",
-        "ToolTip": "At omnis.",
+        "Id": 477,
+        "Name": "McDermott, Gislason and Harris",
+        "ToolTip": "Saepe corrupti rerum fuga asperiores sed autem.",
         "Deleted": false,
-        "Rank": 25,
-        "Type": "laborum",
+        "Rank": 152,
+        "Type": "quibusdam",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "voluptatem",
-        "ColorBlock": 61,
-        "ExtraInfo": "iste",
-        "StyleHint": "fugiat",
-        "FullName": "Nolan Keebler",
-        "TableRight": {},
+        "IconHint": "rerum",
+        "ColorBlock": 456,
+        "ExtraInfo": "sed",
+        "StyleHint": "molestiae",
+        "FullName": "Miss Lorine Padberg",
+        "TableRight": null,
         "FieldProperties": {
           "fieldName": {
-            "FieldRight": {
-              "Mask": "FULL",
-              "Reason": ""
-            },
-            "FieldType": "System.String",
-            "FieldLength": 794
+            "FieldRight": null,
+            "FieldType": "System.Int32",
+            "FieldLength": 529
           }
         }
       }
     ],
-    "IconHint": "quis",
-    "ColorBlock": 832,
-    "ExtraInfo": "possimus",
-    "StyleHint": "atque",
-    "FullName": "Hollie Ullrich",
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "IconHint": "veniam",
+    "ColorBlock": 467,
+    "ExtraInfo": "ut",
+    "StyleHint": "possimus",
+    "FullName": "Mr. Marcus Micah Hyatt",
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 836
+        "FieldRight": null,
+        "FieldType": "System.Int32",
+        "FieldLength": 807
       }
     }
   }

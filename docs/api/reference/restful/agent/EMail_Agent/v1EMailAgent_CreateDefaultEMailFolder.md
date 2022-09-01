@@ -1,6 +1,6 @@
 ---
 title: POST Agents/EMail/CreateDefaultEMailFolder
-id: v1EMailAgent_CreateDefaultEMailFolder
+uid: v1EMailAgent_CreateDefaultEMailFolder
 ---
 
 # POST Agents/EMail/CreateDefaultEMailFolder
@@ -11,9 +11,17 @@ POST /api/v1/Agents/EMail/CreateDefaultEMailFolder
 
 Set default values into a new EMailFolder.
 
+
 NetServer calculates default values on the entity, which is required when creating/storing a new instance
 
-## Online Restricted: ## The EMail agent is not available in Online by default. Access must be requested specifically when app is registered
+
+## Online Restricted: ## The EMail agent is not available in Online by default. Access must be requested specifically when app is registered.
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -28,18 +36,16 @@ NetServer calculates default values on the entity, which is required when creati
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response: object
 
-Properties for a mail folder
+## Response: 
 
-Carrier object for EMailFolder.
-Services for the EMailFolder Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IEMailAgent">EMail Agent</see>.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -53,39 +59,35 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/EMail/CreateDefaultEMailFolder
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Considine, Collins and Hegmann",
-  "Delimiter": "est",
-  "Flags": "ad",
-  "TotalItems": 768,
-  "UnreadItems": 746,
+  "Name": "Becker, Kuvalis and Hane",
+  "Delimiter": "facere",
+  "Flags": "veniam",
+  "TotalItems": 342,
+  "UnreadItems": 274,
   "Subscribed": false,
-  "EmailFolderId": 602,
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "EmailFolderId": 163,
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
+      "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 84
+      "FieldLength": 507
     }
   }
 }

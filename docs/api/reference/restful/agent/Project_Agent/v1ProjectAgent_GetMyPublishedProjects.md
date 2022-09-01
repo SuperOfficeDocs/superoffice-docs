@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Project/GetMyPublishedProjects
-id: v1ProjectAgent_GetMyPublishedProjects
+uid: v1ProjectAgent_GetMyPublishedProjects
 ---
 
 # POST Agents/Project/GetMyPublishedProjects
@@ -11,6 +11,12 @@ POST /api/v1/Agents/Project/GetMyPublishedProjects
 
 Get published projects from the logged in user.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Get published projects from the logged in user.
 ```http
 POST /api/v1/Agents/Project/GetMyPublishedProjects?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -34,7 +41,10 @@ POST /api/v1/Agents/Project/GetMyPublishedProjects?$select=name,department,categ
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -65,7 +75,7 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Project/GetMyPublishedProjects
@@ -74,42 +84,38 @@ Accept: application/json; charset=utf-8
 Accept-Language: sv
 ```
 
+## Sample response
+
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ProjectId": 315,
-    "Name": "Halvorson, Funk and Cummerata",
-    "Description": "Synergized full-range infrastructure",
+    "ProjectId": 280,
+    "Name": "Rowe, Heaney and Ondricka",
+    "Description": "Team-oriented 24/7 open architecture",
     "URL": "http://www.example.com/",
-    "Type": "quo",
-    "AssociateId": 244,
-    "AssociateFullName": "Andrew Rohan",
-    "TypeId": 106,
-    "Updated": "2021-09-12T18:28:49.7851434+02:00",
-    "StatusId": 852,
-    "Status": "quia",
-    "TextId": 520,
-    "PublishTo": "2020-08-07T18:28:49.7851434+02:00",
-    "PublishFrom": "2006-06-25T18:28:49.7851434+02:00",
+    "Type": "omnis",
+    "AssociateId": 639,
+    "AssociateFullName": "Erin Hal Hills III",
+    "TypeId": 538,
+    "Updated": "2008-10-31T11:10:27.6244556+01:00",
+    "StatusId": 350,
+    "Status": "possimus",
+    "TextId": 572,
+    "PublishTo": "2020-11-30T11:10:27.6244556+01:00",
+    "PublishFrom": "2001-01-09T11:10:27.6244556+01:00",
     "IsPublished": false,
     "URLName": "http://www.example.com/",
-    "ProjectNumber": "750049",
-    "ActiveErpLinks": 465,
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "ProjectNumber": "1359188",
+    "ActiveErpLinks": 451,
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
+        "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 855
+        "FieldLength": 744
       }
     }
   }

@@ -12,11 +12,13 @@ Implemented by the <see cref="M:SuperOffice.Services87.IEMailAgent.MoveToFolder"
 ## MoveToFolder
 
 Moved specified items from current folder to targetFolder
-<br />**Online Restricted:** The EMail agent is not available in Online by default. Access must be requested specifically when app is registered.
+<para /><b>Online Restricted:</b> The EMail agent is not available in Online by default. Access must be requested specifically when app is registered.
 
 * **connectionInfo:** All information needed to connect to the mailserver
 * **messageServerIds:** The e-mails to handle
 * **targetFolder:** Name of folder to move items to
+
+
 
 [WSDL file for Services87/EMail](../Services87-EMail.md)
 
@@ -60,6 +62,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## MoveToFolder Response
 
 ```xml
@@ -79,3 +82,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

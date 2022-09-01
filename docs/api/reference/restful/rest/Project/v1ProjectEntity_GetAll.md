@@ -1,6 +1,6 @@
 ---
 title: GET Project
-id: v1ProjectEntity_GetAll
+uid: v1ProjectEntity_GetAll
 ---
 
 # GET Project
@@ -11,6 +11,7 @@ GET /api/v1/Project
 
 OData list of all ProjectEntity.
 
+
 Can be sorted and further filtered using OData conventions:
 
 * Project?$select=col1,col2,abc/col3
@@ -19,25 +20,34 @@ Can be sorted and further filtered using OData conventions:
 * Project?$top=1000
 * Project?$mode=full
 
+
 OData returns XML or JSON carriers depending on the Accept headers.
+
 
 Calls the Archive service using the "FindProject" archive.
 
-## Filter Operators
+
+## Filter Operators: ##
 
 ints: eq =, ne, le, lt, gt, ge, set, equals, greater, less, unequals, between
 
 strings: contains, is, notBegins, notContains, isNot
 
-associate: associateIsOneOf, associateIsNotOneOf,
+associate: associateIsOneOf, associateIsNotOneOf,  
 
-list ids: oneOf, NotOneOf,
+list ids: oneOf, NotOneOf, 
 
 dates: before, date, after, dateBetween, beforeToday
 
 Unary ops: currentAssociate, beforeToday, today, afterToday, lastWeek, thisWeek, nextWeek, lastMonth, thisMonth, nextMonth, lastQuarter, thisQuarter, nextQuarter, thisHalf, thisYear
 
 Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,n,period), previous(f,n,period), thisAndNext(f,n,period), thisAndPrevious(f,n,period), thisAndPreviousAndNext(f,period)
+
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -60,16 +70,17 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 GET /api/v1/Project?$select=name,department,category/id
 GET /api/v1/Project?$filter=name begins 'S'
 GET /api/v1/Project?$orderBy=name asc
-GET /api/v1/Project?$entities=fuga
-GET /api/v1/Project?$top=902
-GET /api/v1/Project?$skip=65
+GET /api/v1/Project?$entities=inventore
+GET /api/v1/Project?$top=758
+GET /api/v1/Project?$skip=561
 GET /api/v1/Project?$mode=Full
 GET /api/v1/Project?$options=GrandTotal=true
-GET /api/v1/Project?$context=dignissimos
+GET /api/v1/Project?$context=nihil
 GET /api/v1/Project?$format=JSON
-GET /api/v1/Project?$jsonSafe=True
+GET /api/v1/Project?$jsonSafe=False
 GET /api/v1/Project?$output=Display
 ```
+
 
 ## Request Headers
 
@@ -84,15 +95,16 @@ GET /api/v1/Project?$output=Display
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response: object
 
-Easy to use archive results - just a flat list of values.
+## Response: 
+
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -100,14 +112,16 @@ Response body: object
 | odata.nextLink | string |  |
 | value | array |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 GET /api/v1/Project
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -115,21 +129,19 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "exercitationem",
+  "odata.nextLink": "soluta",
   "value": [
     {
-      "PrimaryKey": 6649,
-      "EntityName": "sale",
-      "saleId": 6649,
-      "contactId": 5511,
-      "name": "Bode, Parisian and Cartwright"
+      "PrimaryKey": 1125,
+      "EntityName": "person",
+      "personId": 1125,
+      "fullName": "Mr. Zackery Weimann III"
     },
     {
-      "PrimaryKey": 6916,
-      "EntityName": "sale",
-      "saleId": 6916,
-      "contactId": 7794,
-      "name": "Mohr Group"
+      "PrimaryKey": 1881,
+      "EntityName": "person",
+      "personId": 1881,
+      "fullName": "Dr. Houston Amalia Stroman III"
     }
   ]
 }

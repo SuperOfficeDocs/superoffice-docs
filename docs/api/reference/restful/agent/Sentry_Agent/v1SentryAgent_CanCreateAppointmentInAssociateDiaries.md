@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Sentry/CanCreateAppointmentInAssociateDiaries
-id: v1SentryAgent_CanCreateAppointmentInAssociateDiaries
+uid: v1SentryAgent_CanCreateAppointmentInAssociateDiaries
 ---
 
 # POST Agents/Sentry/CanCreateAppointmentInAssociateDiaries
@@ -11,7 +11,13 @@ POST /api/v1/Agents/Sentry/CanCreateAppointmentInAssociateDiaries
 
 CanCreateAppointmentInAssociateDiaries will check if the current associate can create appointments in diaries belonging to the associates listed in associateIds.
 
+
 CanCreateAppointmentInAssociateDiaries will only check against associates that are diary owners. If none of the associates listed in the associateIds parameter is a diary owner, the method will return true.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +28,7 @@ CanCreateAppointmentInAssociateDiaries will only check against associates that a
 ```http
 POST /api/v1/Agents/Sentry/CanCreateAppointmentInAssociateDiaries?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,15 +44,18 @@ POST /api/v1/Agents/Sentry/CanCreateAppointmentInAssociateDiaries?$select=name,d
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-AssociateIds
+AssociateIds 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | AssociateIds | array |  |
 
+
 ## Response: bool
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -53,7 +63,8 @@ AssociateIds
 
 Response body: bool
 
-## Sample Request
+
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Sentry/CanCreateAppointmentInAssociateDiaries
@@ -64,11 +75,13 @@ Content-Type: application/json; charset=utf-8
 
 {
   "AssociateIds": [
-    231,
-    405
+    99,
+    734
   ]
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK

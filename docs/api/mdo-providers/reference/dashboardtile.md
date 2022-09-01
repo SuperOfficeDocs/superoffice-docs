@@ -7,7 +7,7 @@ keywords:
   - "mdo provider"
   - "dashboardtile"
 so.generated: true
-so.date: 03.19.2021
+so.date: 08.26.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -15,10 +15,11 @@ so.envir:
 ---
 
 # "dashboardtile" MDO List
-
 MDO list provider for Dashboard tiles
 If the DashboardTileEntityType parameter is given in the ExtraInfo, only this type will be shown in list, so no tree view in that case.
 Example: DashboardTileEntityType=Company
+
+
 
 Implemented by the <see cref="T:SuperOffice.CRM.Lists.DashboardTileListProvider">DashboardTileListProvider</see> class.
 The name of the MDO list is 'dashboardtile'.
@@ -31,6 +32,10 @@ The name of the MDO list is 'dashboardtile'.
 
 Separator: &
 
+
+
+
+
 ## Sample Request
 
 ```http!
@@ -42,7 +47,6 @@ Accept-Language: *
 ```
 
 ## Sample Code
-
 ```cs
 var listProvider = SuperOffice.CRM.Lists.SoListProviderFactory.Create("dashboardtile", forceFlatList: true);
 foreach (var item in listProvider.RootItems) {
@@ -55,7 +59,28 @@ foreach (var item in listProvider.RootItems) {
 
 |Id   | Name  |StyleHint|ExtraInfo |
 | --- | ----- | ------- | -------- |
-| 2 | Example | | |
+|1507|My companies by category|||
+|1514|My companies by category and country|||
+|1518|My companies by business|||
+|1544|My companies by category and business|||
+|1513|Active projects for my group, sorted by owner|||
+|1543|My active projects by type|||
+|1504|My Pipeline - weighted amount|||
+|1506|Last won sales|||
+|1508|Leads won by my group, sorted by source|||
+|1509|Top sales reps this month|||
+|1511|My pipeline - actual amount|||
+|1512|My closing rate|||
+|1515|My lost sales by reason|||
+|1517|Lost sales by my group, sorted by competitor |||
+|1521|Win/loss rate for my group, sorted by source|||
+|1522|Largest upcoming sales|||
+|1523|My forecast|||
+|1524|Group revenue this month|||
+|1526|Sales YTD compared to last year for my group|||
+|1527|My pipeline in numbers|||
+|1528|My sales in numbers|||
+
 
 ## Related MDO Lists
 

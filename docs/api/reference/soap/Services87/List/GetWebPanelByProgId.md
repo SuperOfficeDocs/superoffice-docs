@@ -17,6 +17,7 @@ Get a web panel using the ProgId key that was specified when it was created
 
 **Returns:** The Web panel information
 
+
 [WSDL file for Services87/List](../Services87-List.md)
 
 Obtain a ticket from the [Services87/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -48,6 +49,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+
 
 ## GetWebPanelByProgId Response
 
@@ -90,3 +92,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

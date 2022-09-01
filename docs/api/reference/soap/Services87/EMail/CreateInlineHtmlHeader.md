@@ -12,11 +12,12 @@ Implemented by the <see cref="M:SuperOffice.Services87.IEMailAgent.CreateInlineH
 ## CreateInlineHtmlHeader
 
 Create Outlook style HTML header to use in for instance reply entities and when printing
-<br />**Online Restricted:** The EMail agent is not available in Online by default. Access must be requested specifically when app is registered.
+<para /><b>Online Restricted:</b> The EMail agent is not available in Online by default. Access must be requested specifically when app is registered.
 
 * **email:** The e-mail to generate header based on
 
 **Returns:** The generated HTML header
+
 
 [WSDL file for Services87/EMail](../Services87-EMail.md)
 
@@ -103,7 +104,7 @@ Application tokens must be specified if calling an Online installation. Applicat
       </EMail:DuplicatePersonIds>
       <EMail:Name xsi:type="xsd:string"></EMail:Name>
      </EMail:From>
-     <EMail:Sent xsi:type="xsd:dateTime">2021-11-30T13:23:15Z</EMail:Sent>
+     <EMail:Sent xsi:type="xsd:dateTime">2022-08-26T08:56:58Z</EMail:Sent>
      <EMail:Size xsi:type="xsd:int">0</EMail:Size>
      <EMail:Priority xsi:type="EMail:EMailPriority">NoPriority</EMail:Priority>
      <EMail:Flags xsi:type="EMail:EMailFlags">Seen</EMail:Flags>
@@ -116,7 +117,7 @@ Application tokens must be specified if calling an Online installation. Applicat
       <EMail:ProjectId xsi:type="xsd:int">0</EMail:ProjectId>
       <EMail:SaleId xsi:type="xsd:int">0</EMail:SaleId>
       <EMail:Archived xsi:type="xsd:boolean">false</EMail:Archived>
-      <EMail:ArchivedAt xsi:type="xsd:dateTime">2021-11-30T13:23:15Z</EMail:ArchivedAt>
+      <EMail:ArchivedAt xsi:type="xsd:dateTime">2022-08-26T08:56:58Z</EMail:ArchivedAt>
       <EMail:ArchivedBy xsi:type="xsd:int">0</EMail:ArchivedBy>
       <EMail:ArchivedDisplayName xsi:type="xsd:string"></EMail:ArchivedDisplayName>
      </EMail:EMailSOInfo>
@@ -144,7 +145,7 @@ Application tokens must be specified if calling an Online installation. Applicat
      <EMail:FolderName xsi:type="xsd:string"></EMail:FolderName>
      <EMail:EmailItemId xsi:type="xsd:int">0</EMail:EmailItemId>
      <EMail:AccountId xsi:type="xsd:int">0</EMail:AccountId>
-     <EMail:ReceivedAt xsi:type="xsd:dateTime">2021-11-30T13:23:15Z</EMail:ReceivedAt>
+     <EMail:ReceivedAt xsi:type="xsd:dateTime">2022-08-26T08:56:58Z</EMail:ReceivedAt>
      <EMail:InReplyTo xsi:type="EMail:EMailEnvelope">
       <EMail:ServerId xsi:type="xsd:int">0</EMail:ServerId>
       <EMail:MessageId xsi:type="xsd:string"></EMail:MessageId>
@@ -177,7 +178,7 @@ Application tokens must be specified if calling an Online installation. Applicat
         <EMail:Name xsi:type="xsd:string"></EMail:Name>
        </EMail:EMailAddress>
       </EMail:To>
-      <EMail:Sent xsi:type="xsd:dateTime">2021-11-30T13:23:15Z</EMail:Sent>
+      <EMail:Sent xsi:type="xsd:dateTime">2022-08-26T08:56:58Z</EMail:Sent>
       <EMail:Priority xsi:type="EMail:EMailPriority">NoPriority</EMail:Priority>
       <EMail:Flags xsi:type="EMail:EMailFlags">Seen</EMail:Flags>
       <EMail:Size xsi:type="xsd:int">0</EMail:Size>
@@ -187,12 +188,12 @@ Application tokens must be specified if calling an Online installation. Applicat
        <EMail:ProjectId xsi:type="xsd:int">0</EMail:ProjectId>
        <EMail:SaleId xsi:type="xsd:int">0</EMail:SaleId>
        <EMail:Archived xsi:type="xsd:boolean">false</EMail:Archived>
-       <EMail:ArchivedAt xsi:type="xsd:dateTime">2021-11-30T13:23:15Z</EMail:ArchivedAt>
+       <EMail:ArchivedAt xsi:type="xsd:dateTime">2022-08-26T08:56:58Z</EMail:ArchivedAt>
        <EMail:ArchivedBy xsi:type="xsd:int">0</EMail:ArchivedBy>
        <EMail:ArchivedDisplayName xsi:type="xsd:string"></EMail:ArchivedDisplayName>
       </EMail:EMailSOInfo>
      </EMail:InReplyTo>
-     <EMail:RepliedAt xsi:type="xsd:dateTime">2021-11-30T13:23:15Z</EMail:RepliedAt>
+     <EMail:RepliedAt xsi:type="xsd:dateTime">2022-08-26T08:56:58Z</EMail:RepliedAt>
      <EMail:HasCalendarData xsi:type="xsd:boolean">false</EMail:HasCalendarData>
      <EMail:CalMethod xsi:type="EMail:CalMethod">Unknown</EMail:CalMethod>
      <EMail:CalReplyStatus xsi:type="EMail:CalReplyStatus">Unknown</EMail:CalReplyStatus>
@@ -203,6 +204,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+
 
 ## CreateInlineHtmlHeader Response
 
@@ -224,3 +226,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

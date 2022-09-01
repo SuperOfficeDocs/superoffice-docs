@@ -1,6 +1,6 @@
 ---
 title: GET List/Country/MDOItems
-id: v1CountryList_GetMDOList
+uid: v1CountryList_GetMDOList
 ---
 
 # GET List/Country/MDOItems
@@ -11,6 +11,12 @@ GET /api/v1/List/Country/MDOItems
 
 Get the MDO list items for "Country" - with headings and filtering by user group.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,8 +26,9 @@ Get the MDO list items for "Country" - with headings and filtering by user group
 
 ```http
 GET /api/v1/List/Country/MDOItems?flat=False
-GET /api/v1/List/Country/MDOItems?query=saepe
+GET /api/v1/List/Country/MDOItems?query=iste
 ```
+
 
 ## Request Headers
 
@@ -36,7 +43,10 @@ GET /api/v1/List/Country/MDOItems?query=saepe
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -61,14 +71,16 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 GET /api/v1/List/Country/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -76,59 +88,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 835,
-    "Name": "O'Reilly LLC",
-    "ToolTip": "Nihil magnam.",
-    "Deleted": false,
-    "Rank": 1000,
-    "Type": "earum",
+    "Id": 303,
+    "Name": "Murazik Group",
+    "ToolTip": "Aut facere in.",
+    "Deleted": true,
+    "Rank": 532,
+    "Type": "qui",
     "ChildItems": [
       {
-        "Id": 321,
-        "Name": "Durgan-Keeling",
-        "ToolTip": "Sed sint dolores quo et.",
-        "Deleted": false,
-        "Rank": 449,
-        "Type": "eligendi",
+        "Id": 854,
+        "Name": "Kessler, Runte and Rohan",
+        "ToolTip": "Autem ipsam.",
+        "Deleted": true,
+        "Rank": 196,
+        "Type": "magnam",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "cumque",
-        "ColorBlock": 215,
-        "ExtraInfo": "ea",
-        "StyleHint": "repellat",
-        "FullName": "Elvera Bins",
-        "TableRight": {},
+        "IconHint": "odit",
+        "ColorBlock": 21,
+        "ExtraInfo": "sequi",
+        "StyleHint": "nobis",
+        "FullName": "Dr. Kennith Blaze Shields V",
+        "TableRight": null,
         "FieldProperties": {
           "fieldName": {
-            "FieldRight": {
-              "Mask": "FULL",
-              "Reason": ""
-            },
+            "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 410
+            "FieldLength": 994
           }
         }
       }
     ],
-    "IconHint": "voluptatum",
-    "ColorBlock": 218,
-    "ExtraInfo": "provident",
-    "StyleHint": "dolor",
-    "FullName": "Miss Franco Bednar",
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "IconHint": "veritatis",
+    "ColorBlock": 445,
+    "ExtraInfo": "quis",
+    "StyleHint": "voluptates",
+    "FullName": "Mrs. Nya Simonis DVM",
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
+        "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 159
+        "FieldLength": 752
       }
     }
   }

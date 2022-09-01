@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "ReasonSold"
-so.date: 04.12.2022
+so.date: 08.26.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -33,6 +33,7 @@ Why was the sale marked as sold (why did we succeed)
 |updated\_associate\_id|Last updated by whom|FK [associate](associate.md)| |
 |updatedCount|Number of updates made to this record|UShort| |
 
+
 ![ReasonSold table relationship diagram](./media/ReasonSold.png)
 
 [!include[details](./includes/reasonsold.md)]
@@ -54,6 +55,7 @@ Why was the sale marked as sold (why did we succeed)
 |[sale](sale.md)  |Sales  For every Sale record edited through the SuperOffice GUI, a copy of the current version of the record will be saved in the SaleHist table. This also applies to editing done through the SaleModel COM interface, but not to editing done through the OLE DB Provider or other channels.   |
 |[SaleHist](salehist.md)  |Mirror image of the Sale table, providing a full transaction history. Every time you edit a sale, the current record of the sale is also saved here.  |
 
+
 ## Replication Flags
 
 * Replicate changes DOWN from central to satellites and travellers.
@@ -63,3 +65,4 @@ Why was the sale marked as sold (why did we succeed)
 ## Security Flags
 
 * No access control via user's Role.
+

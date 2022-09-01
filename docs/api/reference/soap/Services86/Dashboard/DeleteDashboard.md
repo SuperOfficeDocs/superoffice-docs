@@ -15,6 +15,8 @@ Deletes the Dashboard
 
 * **dashboardId:** The identity of the Dashboard
 
+
+
 [WSDL file for Services86/Dashboard](../Services86-Dashboard.md)
 
 Obtain a ticket from the [Services86/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -47,6 +49,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## DeleteDashboard Response
 
 ```xml
@@ -66,3 +69,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

@@ -18,6 +18,7 @@ Checks if the number is unique or required.  The setting is configured from admi
 
 **Returns:** True if the number satisifies the configured rules for uniqueness.
 
+
 [WSDL file for Services88/Contact](../Services88-Contact.md)
 
 Obtain a ticket from the [Services88/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -51,6 +52,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## IsNumberValid Response
 
 ```xml
@@ -71,3 +73,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

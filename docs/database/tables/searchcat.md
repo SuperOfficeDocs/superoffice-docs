@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "SearchCat"
-so.date: 04.12.2022
+so.date: 08.26.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -33,6 +33,7 @@ SearchCat list table
 |updated\_associate\_id|Last updated by whom|FK [associate](associate.md)| |
 |updatedCount|Number of updates made to this record|UShort| |
 
+
 ![SearchCat table relationship diagram](./media/SearchCat.png)
 
 [!include[details](./includes/searchcat.md)]
@@ -53,6 +54,7 @@ SearchCat list table
 |[SearchCatHeadingLink](searchcatheadinglink.md)  |Heading link table for SearchCat, for MDO headers |
 |[selection](selection.md)  |Selections |
 
+
 ## Replication Flags
 
 * Replicate changes DOWN from central to satellites and travellers.
@@ -62,3 +64,4 @@ SearchCat list table
 ## Security Flags
 
 * No access control via user's Role.
+

@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "help"
-so.date: 04.12.2022
+so.date: 08.26.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -32,6 +32,7 @@ This table contains the help pages.
 |screen\_id|The id of the screen, if this page is the description for a screen..|Int| |
 |body|The actual body for the helppage. HTML format.|Clob|&#x25CF;|
 
+
 ![help table relationship diagram](./media/help.png)
 
 [!include[details](./includes/help.md)]
@@ -52,6 +53,7 @@ This table contains the help pages.
 |------|-------------|
 |[help](help.md)  |This table contains the help pages. |
 
+
 ## Replication Flags
 
 * None
@@ -59,3 +61,4 @@ This table contains the help pages.
 ## Security Flags
 
 * No access control via user's Role.
+

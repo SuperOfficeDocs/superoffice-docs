@@ -1,6 +1,6 @@
 ---
 title: GET List/LegalBase/Items/{id}/UserGroups
-id: v1LegalBaseList_GetLegalBaseUserGroupsForListItem
+uid: v1LegalBaseList_GetLegalBaseUserGroupsForListItem
 ---
 
 # GET List/LegalBase/Items/{id}/UserGroups
@@ -11,11 +11,18 @@ GET /api/v1/List/LegalBase/Items/{itemId}/UserGroups
 
 Gets user groups visible for the LegalBase list's item.
 
+
 Calls the List agent service GetHeadings.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | itemId | int32 | The ID of the item to get. **Required** |
+
+
 
 ## Request Headers
 
@@ -30,7 +37,10 @@ Calls the List agent service GetHeadings.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -58,14 +68,16 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 GET /api/v1/List/LegalBase/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -73,65 +85,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 688,
-    "Name": "Crist, Grimes and Will",
-    "ToolTip": "Aspernatur a reprehenderit blanditiis et aliquam.",
-    "Deleted": false,
-    "Rank": 987,
-    "Type": "exercitationem",
-    "ColorBlock": 853,
-    "IconHint": "laborum",
-    "Selected": true,
-    "LastChanged": "1999-11-25T18:25:51.8524859+01:00",
+    "Id": 432,
+    "Name": "Hilll-Collier",
+    "ToolTip": "Dolorem cupiditate voluptate quidem eveniet ducimus.",
+    "Deleted": true,
+    "Rank": 524,
+    "Type": "consequatur",
+    "ColorBlock": 930,
+    "IconHint": "porro",
+    "Selected": false,
+    "LastChanged": "2004-11-13T11:10:54.3068692+01:00",
     "ChildItems": [
       {
-        "Id": 246,
-        "Name": "Gleason-Kohler",
-        "ToolTip": "Corrupti rerum aut quidem.",
+        "Id": 296,
+        "Name": "Witting Inc and Sons",
+        "ToolTip": "Omnis alias.",
         "Deleted": false,
-        "Rank": 945,
-        "Type": "omnis",
-        "ColorBlock": 642,
-        "IconHint": "sit",
+        "Rank": 557,
+        "Type": "maiores",
+        "ColorBlock": 217,
+        "IconHint": "modi",
         "Selected": false,
-        "LastChanged": "2020-08-23T18:25:51.8524859+02:00",
+        "LastChanged": "2010-02-09T11:10:54.3068692+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ipsa",
-        "StyleHint": "voluptatem",
+        "ExtraInfo": "corrupti",
+        "StyleHint": "maxime",
         "Hidden": false,
-        "FullName": "Treva McDermott",
-        "TableRight": {},
+        "FullName": "Julius Marks",
+        "TableRight": null,
         "FieldProperties": {
           "fieldName": {
-            "FieldRight": {
-              "Mask": "FULL",
-              "Reason": ""
-            },
-            "FieldType": "System.String",
-            "FieldLength": 175
+            "FieldRight": null,
+            "FieldType": "System.Int32",
+            "FieldLength": 685
           }
         }
       }
     ],
-    "ExtraInfo": "voluptatem",
-    "StyleHint": "consequatur",
+    "ExtraInfo": "in",
+    "StyleHint": "molestiae",
     "Hidden": true,
-    "FullName": "Sid Shields",
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "FullName": "Jan Luettgen",
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": "unleash out-of-the-box web services"
-        },
+        "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 190
+        "FieldLength": 975
       }
     }
   }

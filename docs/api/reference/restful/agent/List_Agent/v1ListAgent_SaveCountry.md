@@ -1,6 +1,6 @@
 ---
 title: POST Agents/List/SaveCountry
-id: v1ListAgent_SaveCountry
+uid: v1ListAgent_SaveCountry
 ---
 
 # POST Agents/List/SaveCountry
@@ -11,6 +11,12 @@ POST /api/v1/Agents/List/SaveCountry
 
 Saves a country
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Saves a country
 ```http
 POST /api/v1/Agents/List/SaveCountry?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,24 +42,24 @@ POST /api/v1/Agents/List/SaveCountry?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-Country
+Country 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | Country |  | Carrier object for Country. Services for the Country Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IListAgent">List Agent</see>. |
 
-## Response: object
 
-Carrier object for Country.
-Services for the Country Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IListAgent">List Agent</see>.
+## Response: 
+
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -77,74 +84,51 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/List/SaveCountry
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Country": {
-    "CountryId": 449,
-    "Name": "McKenzie-Brown",
-    "CurrencyId": 945,
-    "EnglishName": "Hettinger, Murphy and D'Amore",
-    "TwoLetterISOCountry": "Sokovia",
-    "ThreeLetterISOCountry": "Sokovia",
-    "ImageDescription": "Assimilated intermediate process improvement",
-    "OrgNrText": "552891",
-    "InterAreaPrefix": "et",
-    "DialInPrefix": "magni",
-    "ZipPrefix": "et",
-    "DomainName": "Wolf, Grady and Dare",
-    "AddressLayoutId": 517,
-    "DomesticAddressLayoutId": 368,
-    "ForeignAddressLayoutId": 554,
-    "Rank": 712,
-    "Tooltip": "eos",
-    "Deleted": true
-  }
+  "Country": null
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CountryId": 201,
-  "Name": "Hintz LLC",
-  "CurrencyId": 237,
-  "EnglishName": "Larkin LLC",
+  "CountryId": 304,
+  "Name": "Glover LLC",
+  "CurrencyId": 949,
+  "EnglishName": "Dickens-Okuneva",
   "TwoLetterISOCountry": "Sokovia",
   "ThreeLetterISOCountry": "Sokovia",
-  "ImageDescription": "Adaptive analyzing installation",
-  "OrgNrText": "934525",
-  "InterAreaPrefix": "vero",
-  "DialInPrefix": "nobis",
-  "ZipPrefix": "ut",
-  "DomainName": "Barrows, Christiansen and Bradtke",
-  "AddressLayoutId": 431,
-  "DomesticAddressLayoutId": 179,
-  "ForeignAddressLayoutId": 980,
-  "Rank": 284,
-  "Tooltip": "est",
+  "ImageDescription": "Enhanced needs-based projection",
+  "OrgNrText": "665738",
+  "InterAreaPrefix": "velit",
+  "DialInPrefix": "eius",
+  "ZipPrefix": "eos",
+  "DomainName": "Kihn, Cole and Romaguera",
+  "AddressLayoutId": 707,
+  "DomesticAddressLayoutId": 194,
+  "ForeignAddressLayoutId": 958,
+  "Rank": 477,
+  "Tooltip": "fugit",
   "Deleted": false,
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": "transform killer action-items"
-  },
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
+      "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 71
+      "FieldLength": 436
     }
   }
 }

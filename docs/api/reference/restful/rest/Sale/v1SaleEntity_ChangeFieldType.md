@@ -1,6 +1,6 @@
 ---
 title: POST Sale/UdefLayout/{progidOrLabel}/ChangeTo/{fieldType}
-id: v1SaleEntity_ChangeFieldType
+uid: v1SaleEntity_ChangeFieldType
 ---
 
 # POST Sale/UdefLayout/{progidOrLabel}/ChangeTo/{fieldType}
@@ -11,10 +11,16 @@ POST /api/v1/Sale/UdefLayout/{progidOrLabel}/ChangeTo/{fieldType}
 
 Change a SaleEntity user-defined field's type based on the prog-id or label.
 
+
+
+
+
+
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | progidOrLabel | string | The udef field id, case-sensitive prog-id, or field label. **Required** |
 | fieldType | Enum: Number, ShortText, LongText, Date, UnlimitedDate, Checkbox, List, Decimal | The new type of the user defined field. **Required** |
+
 
 ## Query String Parameters
 
@@ -25,6 +31,7 @@ Change a SaleEntity user-defined field's type based on the prog-id or label.
 ```http
 POST /api/v1/Sale/UdefLayout/{progidOrLabel}/ChangeTo/{fieldType}?isIndexed=True
 ```
+
 
 ## Request Headers
 
@@ -39,19 +46,17 @@ POST /api/v1/Sale/UdefLayout/{progidOrLabel}/ChangeTo/{fieldType}?isIndexed=True
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response: object
 
-Return information about the user defined fields. The information can be used to mirror the layout of the user-defined fields in the user interface.
+## Response: 
 
-Carrier object for UserDefinedFieldInfo.
-Services for the UserDefinedFieldInfo Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent">UserDefinedFieldInfo Agent</see>.
+SaleEntity found.
 
 | Response | Description |
 |----------------|-------------|
 | 200 | SaleEntity found. |
 | 404 | SaleEntity not found. |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -92,7 +97,7 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Sale/UdefLayout/{progidOrLabel}/ChangeTo/{fieldType}
@@ -101,57 +106,53 @@ Accept: application/json; charset=utf-8
 Accept-Language: en
 ```
 
+## Sample response
+
 ```http_
 HTTP/1.1 200 SaleEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 828,
-  "ColumnId": 582,
-  "FieldDefault": "pariatur",
-  "FieldHeight": 886,
-  "FieldLabel": "accusamus",
-  "FieldLeft": 640,
-  "FieldTop": 94,
+  "UDefFieldId": 954,
+  "ColumnId": 102,
+  "FieldDefault": "voluptas",
+  "FieldHeight": 860,
+  "FieldLabel": "facere",
+  "FieldLeft": 765,
+  "FieldTop": 735,
   "FieldType": "Checkbox",
-  "FieldWidth": 844,
-  "FormatMask": "quam",
-  "HideLabel": false,
-  "IsIndexed": false,
-  "LabelHeight": 204,
-  "LabelLeft": 909,
-  "LabelTop": 48,
-  "LabelWidth": 613,
-  "LastVersionId": 165,
-  "ListTableId": 513,
-  "IsMandatory": false,
+  "FieldWidth": 218,
+  "FormatMask": "repellat",
+  "HideLabel": true,
+  "IsIndexed": true,
+  "LabelHeight": 450,
+  "LabelLeft": 231,
+  "LabelTop": 418,
+  "LabelWidth": 638,
+  "LastVersionId": 533,
+  "ListTableId": 704,
+  "IsMandatory": true,
   "Type": "Appointment",
-  "Page1LineNo": 114,
-  "ProgId": "eligendi",
+  "Page1LineNo": 891,
+  "ProgId": "dolorem",
   "IsReadOnly": true,
-  "ShortLabel": "ut",
-  "TabOrder": 168,
-  "TextLength": 134,
-  "Tooltip": "perferendis",
-  "UdefIdentity": 922,
-  "UDListDefinitionId": 42,
+  "ShortLabel": "et",
+  "TabOrder": 878,
+  "TextLength": 797,
+  "Tooltip": "sed",
+  "UdefIdentity": 430,
+  "UDListDefinitionId": 575,
   "Justification": "Center",
-  "Version": 279,
-  "TemplateVariableName": "Hackett, Glover and Ankunding",
+  "Version": 239,
+  "TemplateVariableName": "Kuhic, Boehm and Willms",
   "HasBeenPublished": false,
-  "MdoListName": "Koch Group",
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "MdoListName": "Swift, Tillman and Johnson",
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
+      "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 557
+      "FieldLength": 318
     }
   }
 }

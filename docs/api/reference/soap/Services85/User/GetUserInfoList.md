@@ -17,6 +17,7 @@ Gets an array of UserInfo objects.
 
 **Returns:** Array of UserInfo objects
 
+
 [WSDL file for Services85/User](../Services85-User.md)
 
 Obtain a ticket from the [Services85/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -50,6 +51,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+
 
 ## GetUserInfoList Response
 
@@ -91,3 +93,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

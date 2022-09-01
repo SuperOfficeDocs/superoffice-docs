@@ -1,6 +1,6 @@
 ---
 title: POST Agents/List/GetHierarchyEntity
-id: v1ListAgent_GetHierarchyEntity
+uid: v1ListAgent_GetHierarchyEntity
 ---
 
 # POST Agents/List/GetHierarchyEntity
@@ -11,6 +11,12 @@ POST /api/v1/Agents/List/GetHierarchyEntity
 
 Gets a HierarchyEntity object.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -19,9 +25,10 @@ Gets a HierarchyEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetHierarchyEntity?hierarchyEntityId=468
+POST /api/v1/Agents/List/GetHierarchyEntity?hierarchyEntityId=374
 POST /api/v1/Agents/List/GetHierarchyEntity?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -36,18 +43,16 @@ POST /api/v1/Agents/List/GetHierarchyEntity?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response: object
 
-Folder structures
+## Response: 
 
-Carrier object for HierarchyEntity.
-Services for the HierarchyEntity Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IListAgent">List Agent</see>.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -64,7 +69,7 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/List/GetHierarchyEntity
@@ -73,60 +78,53 @@ Accept: application/json; charset=utf-8
 Accept-Language: en
 ```
 
+## Sample response
+
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 779,
+  "HierarchyId": 543,
   "Domain": "Dashboards",
-  "Name": "Sauer-Terry",
-  "Fullname": "nulla",
-  "ParentId": 901,
+  "Name": "Hayes, Strosin and Herman",
+  "Fullname": "pariatur",
+  "ParentId": 437,
   "Children": [
     {
-      "HierarchyId": 69,
+      "HierarchyId": 445,
       "Domain": "Dashboards",
-      "Name": "Kovacek LLC",
-      "Fullname": "dolores",
-      "ParentId": 730,
+      "Name": "Schimmel, Bins and Spencer",
+      "Fullname": "nam",
+      "ParentId": 546,
       "Children": [
         {},
         {}
       ],
-      "Registered": "2015-02-01T18:28:49.3381279+01:00",
-      "RegisteredAssociateId": 119,
-      "Updated": "2014-02-02T18:28:49.3381279+01:00",
-      "UpdatedAssociateId": 215,
-      "TableRight": {},
+      "Registered": "2001-03-25T11:10:27.2234525+02:00",
+      "RegisteredAssociateId": 997,
+      "Updated": "2011-09-17T11:10:27.2234525+02:00",
+      "UpdatedAssociateId": 715,
+      "TableRight": null,
       "FieldProperties": {
         "fieldName": {
-          "FieldRight": {
-            "Mask": "FULL",
-            "Reason": ""
-          },
+          "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 16
+          "FieldLength": 962
         }
       }
     }
   ],
-  "Registered": "2017-07-24T18:28:49.3381279+02:00",
-  "RegisteredAssociateId": 731,
-  "Updated": "2005-05-26T18:28:49.3381279+02:00",
-  "UpdatedAssociateId": 487,
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "Registered": "2020-05-20T11:10:27.2234525+02:00",
+  "RegisteredAssociateId": 936,
+  "Updated": "1999-12-11T11:10:27.2234525+01:00",
+  "UpdatedAssociateId": 356,
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
-      "FieldType": "System.String",
-      "FieldLength": 767
+      "FieldRight": null,
+      "FieldType": "System.Int32",
+      "FieldLength": 383
     }
   }
 }

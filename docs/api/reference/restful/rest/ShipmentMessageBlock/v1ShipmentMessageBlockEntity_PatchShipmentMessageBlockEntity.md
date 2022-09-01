@@ -1,6 +1,6 @@
 ---
 title: PATCH ShipmentMessageBlock/{id}
-id: v1ShipmentMessageBlockEntity_PatchShipmentMessageBlockEntity
+uid: v1ShipmentMessageBlockEntity_PatchShipmentMessageBlockEntity
 ---
 
 # PATCH ShipmentMessageBlock/{id}
@@ -10,6 +10,7 @@ PATCH /api/v1/ShipmentMessageBlock/{id}
 ```
 
 Update a ShipmentMessageBlockEntity with changes, as described in a JSON Patch or a JSON Merge Patch document.
+
 
 See <a href="https://tools.ietf.org/html/rfc6902">RFC6902</a> and <a href="https://tools.ietf.org/html/rfc7386">RFC 7396</a>. Update the Department field to "foo" can be done either as a JSON PATCH:
 
@@ -27,14 +28,23 @@ or as a JSON MERGE PATCH, which describes the change directly:
 
 ```
 
+
+
 JSON PATCH supports operations 'add', 'replace', 'remove' and 'test'.
 The path is case insensitive, and the leading slash is optional, so the paths "/department", "Department" and "department" are all equivalent.
 
+
+
 Calls the {SuperOffice.CRM.Services.IMarketingAgent} service SaveShipmentMessageBlockEntity.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | id | int32 | The ShipmentMessageBlockEntity  id to update. **Required** |
+
 
 ## Query String Parameters
 
@@ -45,6 +55,7 @@ Calls the {SuperOffice.CRM.Services.IMarketingAgent} service SaveShipmentMessage
 ```http
 PATCH /api/v1/ShipmentMessageBlock/{id}?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -60,9 +71,9 @@ PATCH /api/v1/ShipmentMessageBlock/{id}?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: changes string
+## Request Body: changes string 
 
-JSON-Patch array of operations+path+value, or a MERGE-PATCH object (which will be converted to a list of JSON-PATCH operations).
+JSON-Patch array of operations+path+value, or a MERGE-PATCH object (which will be converted to a list of JSON-PATCH operations). 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -70,11 +81,10 @@ JSON-Patch array of operations+path+value, or a MERGE-PATCH object (which will b
 | path | string | The property names to modify.  "/users/0/email", "/users/-", |
 | value | object | New/Replaced value - string or object. |
 
-## Response: object
 
-This entity contains information about design blocks that can be used in a shipment/mailing message
+## Response: 
 
-ShipmentMessageBlockEntity entity with API _Links added.
+ShipmentMessageBlockEntity  updated.
 
 | Response | Description |
 |----------------|-------------|
@@ -83,7 +93,7 @@ ShipmentMessageBlockEntity entity with API _Links added.
 | 409 | Update blocked because a 'test' operation has detected a conflict with the entity value. |
 | 412 | Update aborted because ShipmentMessageBlockEntity has changed since the requested If-Unmodified-Since timestamp. |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -99,82 +109,50 @@ Response body: object
 | FieldProperties | object |  |
 | _Links | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 PATCH /api/v1/ShipmentMessageBlock/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "nihil",
-    "value": {
-      "value1": {
-        "PrimaryKey": 9879,
-        "EntityName": "person",
-        "personId": 9879,
-        "fullName": "Ludie Franecki"
-      },
-      "value2": {
-        "PrimaryKey": 6697,
-        "EntityName": "sale",
-        "saleId": 6697,
-        "contactId": 4373,
-        "name": "Bashirian, Ratke and Lehner"
-      }
-    }
+    "path": "doloribus",
+    "value": {}
   },
   {
     "op": "add",
-    "path": "nihil",
-    "value": {
-      "value1": {
-        "PrimaryKey": 9879,
-        "EntityName": "person",
-        "personId": 9879,
-        "fullName": "Ludie Franecki"
-      },
-      "value2": {
-        "PrimaryKey": 6697,
-        "EntityName": "sale",
-        "saleId": 6697,
-        "contactId": 4373,
-        "name": "Bashirian, Ratke and Lehner"
-      }
-    }
+    "path": "doloribus",
+    "value": {}
   }
 ]
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 ShipmentMessageBlockEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageBlockId": 791,
-  "AssociateId": 517,
-  "Block": "atque",
-  "Registered": "2005-02-12T18:25:51.1099465+01:00",
-  "RegisteredAssociateId": 587,
-  "Updated": "2009-02-28T18:25:51.1099465+01:00",
-  "UpdatedAssociateId": 484,
-  "UpdatedCount": 377,
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "ShipmentMessageBlockId": 61,
+  "AssociateId": 667,
+  "Block": "itaque",
+  "Registered": "2007-03-17T11:10:53.522175+01:00",
+  "RegisteredAssociateId": 804,
+  "Updated": "1998-08-07T11:10:53.522175+02:00",
+  "UpdatedAssociateId": 574,
+  "UpdatedCount": 108,
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
-      "FieldType": "System.Int32",
-      "FieldLength": 82
+      "FieldRight": null,
+      "FieldType": "System.String",
+      "FieldLength": 87
     }
   },
   "_Links": {

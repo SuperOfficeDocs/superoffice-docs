@@ -18,6 +18,8 @@ Moves the rank of the erp field up or down
 * **erpConnectionId:** The id of the connection
 * **erpActorType:** The actor type for which we want to rank fields
 
+
+
 [WSDL file for Services84/ErpSync](../Services84-ErpSync.md)
 
 Obtain a ticket from the [Services84/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -53,6 +55,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## MoveErpFieldItem Response
 
 ```xml
@@ -72,3 +75,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

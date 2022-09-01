@@ -17,6 +17,7 @@ Updates the existing ForeignAppEntity or creates a new ForeignAppEntity if the i
 
 **Returns:** New or updated ForeignAppEntity
 
+
 [WSDL file for Services85/ForeignSystem](../Services85-ForeignSystem.md)
 
 Obtain a ticket from the [Services85/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -43,8 +44,8 @@ Application tokens must be specified if calling an Online installation. Applicat
     <ForeignSystem:ForeignAppEntity xsi:type="ForeignSystem:ForeignAppEntity">
      <ForeignSystem:ForeignAppId xsi:type="xsd:int">0</ForeignSystem:ForeignAppId>
      <ForeignSystem:Name xsi:type="xsd:string"></ForeignSystem:Name>
-     <ForeignSystem:CreatedDate xsi:type="xsd:dateTime">2021-11-30T13:22:32Z</ForeignSystem:CreatedDate>
-     <ForeignSystem:UpdatedDate xsi:type="xsd:dateTime">2021-11-30T13:22:32Z</ForeignSystem:UpdatedDate>
+     <ForeignSystem:CreatedDate xsi:type="xsd:dateTime">2022-08-26T08:52:58Z</ForeignSystem:CreatedDate>
+     <ForeignSystem:UpdatedDate xsi:type="xsd:dateTime">2022-08-26T08:52:58Z</ForeignSystem:UpdatedDate>
      <ForeignSystem:CreatedBy xsi:type="ForeignSystem:Associate">
       <ForeignSystem:AssociateId xsi:type="xsd:int">0</ForeignSystem:AssociateId>
       <ForeignSystem:Name xsi:type="xsd:string"></ForeignSystem:Name>
@@ -75,8 +76,8 @@ Application tokens must be specified if calling an Online installation. Applicat
       <ForeignSystem:ForeignDevice xsi:type="ForeignSystem:ForeignDevice">
        <ForeignSystem:ForeignDeviceId xsi:type="xsd:int">0</ForeignSystem:ForeignDeviceId>
        <ForeignSystem:Name xsi:type="xsd:string"></ForeignSystem:Name>
-       <ForeignSystem:CreatedDate xsi:type="xsd:dateTime">2021-11-30T13:22:32Z</ForeignSystem:CreatedDate>
-       <ForeignSystem:UpdatedDate xsi:type="xsd:dateTime">2021-11-30T13:22:32Z</ForeignSystem:UpdatedDate>
+       <ForeignSystem:CreatedDate xsi:type="xsd:dateTime">2022-08-26T08:52:58Z</ForeignSystem:CreatedDate>
+       <ForeignSystem:UpdatedDate xsi:type="xsd:dateTime">2022-08-26T08:52:58Z</ForeignSystem:UpdatedDate>
        <ForeignSystem:AssociateFullName xsi:type="xsd:string"></ForeignSystem:AssociateFullName>
        <ForeignSystem:CreatedBy xsi:type="xsd:string"></ForeignSystem:CreatedBy>
        <ForeignSystem:UpdatedBy xsi:type="xsd:string"></ForeignSystem:UpdatedBy>
@@ -91,6 +92,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+
 
 ## SaveForeignAppEntity Response
 
@@ -108,8 +110,8 @@ Application tokens must be specified if calling an Online installation. Applicat
    <ForeignSystem:Response xsi:type="ForeignSystem:ForeignAppEntity">
     <ForeignSystem:ForeignAppId xsi:type="xsd:int">0</ForeignSystem:ForeignAppId>
     <ForeignSystem:Name xsi:type="xsd:string"></ForeignSystem:Name>
-    <ForeignSystem:CreatedDate xsi:type="xsd:dateTime">2021-11-30T13:22:32Z</ForeignSystem:CreatedDate>
-    <ForeignSystem:UpdatedDate xsi:type="xsd:dateTime">2021-11-30T13:22:32Z</ForeignSystem:UpdatedDate>
+    <ForeignSystem:CreatedDate xsi:type="xsd:dateTime">2022-08-26T08:52:58Z</ForeignSystem:CreatedDate>
+    <ForeignSystem:UpdatedDate xsi:type="xsd:dateTime">2022-08-26T08:52:58Z</ForeignSystem:UpdatedDate>
     <ForeignSystem:CreatedBy xsi:type="ForeignSystem:Associate">
      <ForeignSystem:AssociateId xsi:type="xsd:int">0</ForeignSystem:AssociateId>
      <ForeignSystem:Name xsi:type="xsd:string"></ForeignSystem:Name>
@@ -140,8 +142,8 @@ Application tokens must be specified if calling an Online installation. Applicat
      <ForeignSystem:ForeignDevice xsi:type="ForeignSystem:ForeignDevice">
       <ForeignSystem:ForeignDeviceId xsi:type="xsd:int">0</ForeignSystem:ForeignDeviceId>
       <ForeignSystem:Name xsi:type="xsd:string"></ForeignSystem:Name>
-      <ForeignSystem:CreatedDate xsi:type="xsd:dateTime">2021-11-30T13:22:32Z</ForeignSystem:CreatedDate>
-      <ForeignSystem:UpdatedDate xsi:type="xsd:dateTime">2021-11-30T13:22:32Z</ForeignSystem:UpdatedDate>
+      <ForeignSystem:CreatedDate xsi:type="xsd:dateTime">2022-08-26T08:52:58Z</ForeignSystem:CreatedDate>
+      <ForeignSystem:UpdatedDate xsi:type="xsd:dateTime">2022-08-26T08:52:58Z</ForeignSystem:UpdatedDate>
       <ForeignSystem:AssociateFullName xsi:type="xsd:string"></ForeignSystem:AssociateFullName>
       <ForeignSystem:CreatedBy xsi:type="xsd:string"></ForeignSystem:CreatedBy>
       <ForeignSystem:UpdatedBy xsi:type="xsd:string"></ForeignSystem:UpdatedBy>
@@ -155,3 +157,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

@@ -1,6 +1,6 @@
 ---
 title: POST Agents/User/IsPasswordValid
-id: v1UserAgent_IsPasswordValid
+uid: v1UserAgent_IsPasswordValid
 ---
 
 # POST Agents/User/IsPasswordValid
@@ -9,9 +9,15 @@ id: v1UserAgent_IsPasswordValid
 POST /api/v1/Agents/User/IsPasswordValid
 ```
 
-<br />
+<para />
 
-## Online Restricted: ## The User agent is not available in Online by default. User management is not allowed for partner apps
+
+## Online Restricted: ## The User agent is not available in Online by default. User management is not allowed for partner apps.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +28,7 @@ POST /api/v1/Agents/User/IsPasswordValid
 ```http
 POST /api/v1/Agents/User/IsPasswordValid?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,9 +44,9 @@ POST /api/v1/Agents/User/IsPasswordValid?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-AssociateId, Type, PersonId, Password
+AssociateId, Type, PersonId, Password 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -48,7 +55,10 @@ AssociateId, Type, PersonId, Password
 | PersonId | int32 |  |
 | Password | string |  |
 
+
 ## Response: bool
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -56,22 +66,25 @@ AssociateId, Type, PersonId, Password
 
 Response body: bool
 
-## Sample Request
+
+## Sample request
 
 ```http!
 POST /api/v1/Agents/User/IsPasswordValid
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 864,
+  "AssociateId": 171,
   "Type": "AnonymousAssociate",
-  "PersonId": 339,
-  "Password": "eos"
+  "PersonId": 613,
+  "Password": "sapiente"
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK

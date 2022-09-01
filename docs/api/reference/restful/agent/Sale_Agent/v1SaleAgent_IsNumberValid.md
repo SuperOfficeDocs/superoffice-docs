@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Sale/IsNumberValid
-id: v1SaleAgent_IsNumberValid
+uid: v1SaleAgent_IsNumberValid
 ---
 
 # POST Agents/Sale/IsNumberValid
@@ -11,7 +11,13 @@ POST /api/v1/Agents/Sale/IsNumberValid
 
 Checks if the number is unique or required.
 
+
 The setting is configured from admin under system options.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +28,7 @@ The setting is configured from admin under system options.
 ```http
 POST /api/v1/Agents/Sale/IsNumberValid?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,16 +44,19 @@ POST /api/v1/Agents/Sale/IsNumberValid?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-ContactId, Number
+ContactId, Number 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | ContactId | int32 |  |
 | Number | string |  |
 
+
 ## Response: bool
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -54,20 +64,23 @@ ContactId, Number
 
 Response body: bool
 
-## Sample Request
+
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Sale/IsNumberValid
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 238,
-  "Number": "940230"
+  "ContactId": 25,
+  "Number": "1100699"
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK

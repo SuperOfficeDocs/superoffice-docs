@@ -1,6 +1,6 @@
 ---
 title: POST Agents/TimeZone/GetDefaultTimeZonePreference
-id: v1TimeZoneAgent_GetDefaultTimeZonePreference
+uid: v1TimeZoneAgent_GetDefaultTimeZonePreference
 ---
 
 # POST Agents/TimeZone/GetDefaultTimeZonePreference
@@ -11,6 +11,12 @@ POST /api/v1/Agents/TimeZone/GetDefaultTimeZonePreference
 
 Returns the id of the default timezone preference with deflevel system wide
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Returns the id of the default timezone preference with deflevel system wide
 ```http
 POST /api/v1/Agents/TimeZone/GetDefaultTimeZonePreference?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -34,7 +41,10 @@ POST /api/v1/Agents/TimeZone/GetDefaultTimeZonePreference?$select=name,departmen
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
+
 ## Response: int32
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -42,18 +52,21 @@ POST /api/v1/Agents/TimeZone/GetDefaultTimeZonePreference?$select=name,departmen
 
 Response body: int32
 
-## Sample Request
+
+## Sample request
 
 ```http!
 POST /api/v1/Agents/TimeZone/GetDefaultTimeZonePreference
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-800
+845
 ```

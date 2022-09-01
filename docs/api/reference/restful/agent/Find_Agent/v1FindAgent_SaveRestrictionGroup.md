@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Find/SaveRestrictionGroup
-id: v1FindAgent_SaveRestrictionGroup
+uid: v1FindAgent_SaveRestrictionGroup
 ---
 
 # POST Agents/Find/SaveRestrictionGroup
@@ -10,6 +10,12 @@ POST /api/v1/Agents/Find/SaveRestrictionGroup
 ```
 
 Save an array of restrictions as a restriction group for later use as search criteria (including as dynamic selection and Find).
+
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -21,6 +27,7 @@ Save an array of restrictions as a restriction group for later use as search cri
 POST /api/v1/Agents/Find/SaveRestrictionGroup?$select=name,department,category/id
 ```
 
+
 ## Request Headers
 
 | Parameter Name | Description |
@@ -28,11 +35,12 @@ POST /api/v1/Agents/Find/SaveRestrictionGroup?$select=name,department,category/i
 | Authorization  | Supports 'Basic', 'SoTicket' and 'Bearer' schemes, depending on installation type. |
 | X-XSRF-TOKEN   | If not using Authorization header, you must provide XSRF value from cookie or hidden input field |
 | Content-Type | Content-type of the request body: `application/json`, `text/json`, `application/xml`, `text/xml`, `application/x-www-form-urlencoded`, `application/json-patch+json`, `application/merge-patch+json` |
+| Accept         | Content-type(s) you would like the response in:  |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-StorageType, ProviderName, StorageKey, RestrictionGroup, Context
+StorageType, ProviderName, StorageKey, RestrictionGroup, Context 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -42,8 +50,41 @@ StorageType, ProviderName, StorageKey, RestrictionGroup, Context
 | RestrictionGroup |  |  |
 | Context | string |  |
 
-## Response
+
+## Response: 
+
+No Content
 
 | Response | Description |
 |----------------|-------------|
 | 204 | No Content |
+
+Response body: 
+
+
+## Sample request
+
+```http!
+POST /api/v1/Agents/Find/SaveRestrictionGroup
+Authorization: Basic dGplMDpUamUw
+Accept: application/json; charset=utf-8
+Accept-Language: *
+Content-Type: application/json; charset=utf-8
+
+{
+  "StorageType": "illum",
+  "ProviderName": "McDermott LLC",
+  "StorageKey": "quis",
+  "RestrictionGroup": null,
+  "Context": "quod"
+}
+```
+
+## Sample response
+
+```http_
+HTTP/1.1 204 No Content
+Content-Type: application/json; charset=utf-8
+
+null
+```

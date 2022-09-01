@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Configuration/GetObjectMapping
-id: v1ConfigurationAgent_GetObjectMapping
+uid: v1ConfigurationAgent_GetObjectMapping
 ---
 
 # POST Agents/Configuration/GetObjectMapping
@@ -11,7 +11,13 @@ POST /api/v1/Agents/Configuration/GetObjectMapping
 
 Get the object mappings, i.
 
+
 e., the what code objects should be instantiated to handle the entities of the client configuration.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +28,7 @@ e., the what code objects should be instantiated to handle the entities of the c
 ```http
 POST /api/v1/Agents/Configuration/GetObjectMapping?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,16 +44,19 @@ POST /api/v1/Agents/Configuration/GetObjectMapping?$select=name,department,categ
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-Application, Instance
+Application, Instance 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | Application | string |  |
 | Instance | string |  |
 
+
 ## Response: string
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -54,7 +64,8 @@ Application, Instance
 
 Response body: string
 
-## Sample Request
+
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Configuration/GetObjectMapping
@@ -64,14 +75,16 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Application": "velit",
-  "Instance": "atque"
+  "Application": "dolores",
+  "Instance": "cupiditate"
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"quae"
+"omnis"
 ```

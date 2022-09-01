@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Project/GetNextProjectStatus
-id: v1ProjectAgent_GetNextProjectStatus
+uid: v1ProjectAgent_GetNextProjectStatus
 ---
 
 # POST Agents/Project/GetNextProjectStatus
@@ -8,6 +8,14 @@ id: v1ProjectAgent_GetNextProjectStatus
 ```http
 POST /api/v1/Agents/Project/GetNextProjectStatus
 ```
+
+
+
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -18,6 +26,7 @@ POST /api/v1/Agents/Project/GetNextProjectStatus
 ```http
 POST /api/v1/Agents/Project/GetNextProjectStatus?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -33,15 +42,18 @@ POST /api/v1/Agents/Project/GetNextProjectStatus?$select=name,department,categor
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-ProjectId
+ProjectId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | ProjectId | int32 |  |
 
+
 ## Response: int32
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -49,7 +61,8 @@ ProjectId
 
 Response body: int32
 
-## Sample Request
+
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Project/GetNextProjectStatus
@@ -59,13 +72,15 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 344
+  "ProjectId": 221
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-937
+940
 ```

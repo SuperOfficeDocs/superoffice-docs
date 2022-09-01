@@ -21,6 +21,7 @@ Method that returns a specified number of document appointments within a time ra
 
 **Returns:** Array of Appointments.
 
+
 [WSDL file for Services88/Document](../Services88-Document.md)
 
 Obtain a ticket from the [Services88/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -46,8 +47,8 @@ Application tokens must be specified if calling an Online installation. Applicat
  <SOAP-ENV:Body>
    <Document:GetContactDocumentsByTemplateHeading>
     <Document:ContactId xsi:type="xsd:int">0</Document:ContactId>
-    <Document:StartTime xsi:type="xsd:dateTime">2021-11-30T13:23:38Z</Document:StartTime>
-    <Document:EndTime xsi:type="xsd:dateTime">2021-11-30T13:23:38Z</Document:EndTime>
+    <Document:StartTime xsi:type="xsd:dateTime">2022-08-26T08:59:14Z</Document:StartTime>
+    <Document:EndTime xsi:type="xsd:dateTime">2022-08-26T08:59:14Z</Document:EndTime>
     <Document:Count xsi:type="xsd:int">0</Document:Count>
     <Document:TemplateHeadingId xsi:type="xsd:int">0</Document:TemplateHeadingId>
    </Document:GetContactDocumentsByTemplateHeading>
@@ -56,6 +57,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+
 
 ## GetContactDocumentsByTemplateHeading Response
 
@@ -91,6 +93,8 @@ Application tokens must be specified if calling an Online installation. Applicat
      <Document:ProjectName xsi:type="xsd:string"></Document:ProjectName>
      <Document:AssociateId xsi:type="xsd:int">0</Document:AssociateId>
      <Document:Snum xsi:type="xsd:int">0</Document:Snum>
+     <Document:SaleId xsi:type="xsd:int">0</Document:SaleId>
+     <Document:SaleName xsi:type="xsd:string"></Document:SaleName>
     </Document:Document>
    </Document:Response>
   </Document:GetContactDocumentsByTemplateHeadingResponse>
@@ -98,3 +102,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

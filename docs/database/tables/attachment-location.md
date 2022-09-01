@@ -6,14 +6,14 @@ so.generated: true
 keywords:
   - "database"
   - "attachment_location"
-so.date: 04.12.2022
+so.date: 08.26.2022
 so.topic: reference
 so.envir:
   - "onsite"
   - "online"
 ---
 
-# attachment\_location Table (471)
+# attachment\_location Table (472)
 
 A location for storing attachments
 
@@ -28,6 +28,7 @@ A location for storing attachments
 |updated|Last updated when|UtcDateTime| |
 |updated\_associate\_id|Last updated by whom|FK [associate](associate.md)| |
 |updatedCount|Number of updates made to this record|UShort| |
+
 
 ![attachment_location table relationship diagram](./media/attachment_location.png)
 
@@ -46,6 +47,7 @@ A location for storing attachments
 |[associate](associate.md)  |Employees, resources and other users - except for External persons |
 |[attachment](attachment.md)  |This table contains metadata for attachments. The actual attachments are stored directly on disk, with filenames based on the the primary key for this table. |
 
+
 ## Replication Flags
 
 * None
@@ -53,3 +55,4 @@ A location for storing attachments
 ## Security Flags
 
 * No access control via user's Role.
+

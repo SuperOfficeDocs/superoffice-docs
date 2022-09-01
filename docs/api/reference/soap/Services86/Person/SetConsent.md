@@ -19,6 +19,8 @@ Set a specified type of consent on the person.
 * **legalBase:** The Key of the legal base for this consent. e.g. '61A', '61B', '61F'
 * **comment:** A comment regarding this consent. May be null or empty.
 
+
+
 [WSDL file for Services86/Person](../Services86-Person.md)
 
 Obtain a ticket from the [Services86/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -55,6 +57,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## SetConsent Response
 
 ```xml
@@ -74,3 +77,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

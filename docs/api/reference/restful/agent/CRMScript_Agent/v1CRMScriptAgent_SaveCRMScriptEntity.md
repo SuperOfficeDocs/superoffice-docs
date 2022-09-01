@@ -1,6 +1,6 @@
 ---
 title: POST Agents/CRMScript/SaveCRMScriptEntity
-id: v1CRMScriptAgent_SaveCRMScriptEntity
+uid: v1CRMScriptAgent_SaveCRMScriptEntity
 ---
 
 # POST Agents/CRMScript/SaveCRMScriptEntity
@@ -11,7 +11,16 @@ POST /api/v1/Agents/CRMScript/SaveCRMScriptEntity
 
 Updates the existing CRMScriptEntity or creates a new CRMScriptEntity if the id parameter is empty
 
-## Online Restricted: ## The CRMScript agent is not available in Online by default. Access must be requested specifically when app is registered
+
+
+
+## Online Restricted: ## The CRMScript agent is not available in Online by default. Access must be requested specifically when app is registered.
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -27,9 +36,9 @@ Updates the existing CRMScriptEntity or creates a new CRMScriptEntity if the id 
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entity
+## Request Body: entity  
 
-The CRMScriptEntity to be saved.
+The CRMScriptEntity to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -45,18 +54,16 @@ The CRMScriptEntity to be saved.
 | Updated | date-time | Last updated when  in UTC. |
 | UpdatedAssociateId | int32 | Last updated by whom |
 
-## Response: object
 
-CRM Scripts - stored in the ejScript table, including source code.
+## Response: 
 
-Carrier object for CRMScriptEntity.
-Services for the CRMScriptEntity Carrier is available from the <see cref="T:SuperOffice.CRM.Services.ICRMScriptAgent">CRMScript Agent</see>.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -74,58 +81,54 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/CRMScript/SaveCRMScriptEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjscriptId": 559,
-  "UniqueIdentifier": "architecto",
-  "Name": "Reichel-Wyman",
-  "Description": "Digitized regional task-force",
-  "IncludeId": "ut",
-  "HierarchyId": 690,
-  "Source": "dolores",
-  "Registered": "2015-10-28T18:28:48.6279277+01:00",
-  "RegisteredAssociateId": 234,
-  "Updated": "2005-06-16T18:28:48.6279277+02:00",
-  "UpdatedAssociateId": 951
+  "EjscriptId": 334,
+  "UniqueIdentifier": "et",
+  "Name": "Borer, Mayer and Feest",
+  "Description": "Fundamental leading edge collaboration",
+  "IncludeId": "itaque",
+  "HierarchyId": 35,
+  "Source": "ratione",
+  "Registered": "2019-09-01T11:10:26.3764575+02:00",
+  "RegisteredAssociateId": 323,
+  "Updated": "1996-08-09T11:10:26.3764575+02:00",
+  "UpdatedAssociateId": 354
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjscriptId": 792,
-  "UniqueIdentifier": "eveniet",
-  "Name": "Bogan, Lynch and Mueller",
-  "Description": "Integrated context-sensitive project",
-  "IncludeId": "amet",
-  "HierarchyId": 440,
-  "Source": "blanditiis",
-  "Registered": "2008-01-31T18:28:48.6279277+01:00",
-  "RegisteredAssociateId": 784,
-  "Updated": "2001-03-05T18:28:48.6279277+01:00",
-  "UpdatedAssociateId": 736,
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "EjscriptId": 875,
+  "UniqueIdentifier": "doloribus",
+  "Name": "Johnston, Satterfield and Lynch",
+  "Description": "Business-focused fresh-thinking parallelism",
+  "IncludeId": "voluptatem",
+  "HierarchyId": 295,
+  "Source": "sed",
+  "Registered": "2009-09-19T11:10:26.3774599+02:00",
+  "RegisteredAssociateId": 488,
+  "Updated": "2005-12-21T11:10:26.3774599+01:00",
+  "UpdatedAssociateId": 297,
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
+      "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 643
+      "FieldLength": 784
     }
   }
 }

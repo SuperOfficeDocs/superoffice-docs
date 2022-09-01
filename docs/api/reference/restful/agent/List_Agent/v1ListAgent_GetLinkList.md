@@ -1,6 +1,6 @@
 ---
 title: POST Agents/List/GetLinkList
-id: v1ListAgent_GetLinkList
+uid: v1ListAgent_GetLinkList
 ---
 
 # POST Agents/List/GetLinkList
@@ -11,6 +11,12 @@ POST /api/v1/Agents/List/GetLinkList
 
 Gets an array of Link objects.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Gets an array of Link objects.
 ```http
 POST /api/v1/Agents/List/GetLinkList?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,11 +42,15 @@ POST /api/v1/Agents/List/GetLinkList?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: linkIds
+## Request Body: linkIds  
 
-The primary keys.
+The primary keys. 
+
+
 
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -57,14 +68,16 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/List/GetLinkList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -72,23 +85,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EntityName": "Will LLC",
-    "Id": 890,
-    "Description": "Versatile object-oriented application",
-    "ExtraInfo": "voluptate",
-    "LinkId": 917,
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "EntityName": "Rohan, Cassin and Bartoletti",
+    "Id": 130,
+    "Description": "Stand-alone motivating service-desk",
+    "ExtraInfo": "ab",
+    "LinkId": 39,
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 956
+        "FieldRight": null,
+        "FieldType": "System.Int32",
+        "FieldLength": 376
       }
     }
   }

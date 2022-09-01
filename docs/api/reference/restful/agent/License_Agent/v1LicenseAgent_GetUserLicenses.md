@@ -1,6 +1,6 @@
 ---
 title: POST Agents/License/GetUserLicenses
-id: v1LicenseAgent_GetUserLicenses
+uid: v1LicenseAgent_GetUserLicenses
 ---
 
 # POST Agents/License/GetUserLicenses
@@ -11,6 +11,12 @@ POST /api/v1/Agents/License/GetUserLicenses
 
 Obtain information about associate module licenses
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Obtain information about associate module licenses
 ```http
 POST /api/v1/Agents/License/GetUserLicenses?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,15 +42,18 @@ POST /api/v1/Agents/License/GetUserLicenses?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-AssociateId
+AssociateId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | AssociateId | int32 |  |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -60,19 +70,21 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/License/GetUserLicenses
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 809
+  "AssociateId": 62
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -80,33 +92,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Huels-O'Conner",
-    "Description": "Seamless fresh-thinking structure",
+    "Name": "Abbott, Mosciski and Ritchie",
+    "Description": "Operative 6th generation utilisation",
     "RestrictedModuleLicenses": [
       {
-        "Unrestricted": false,
-        "Total": 413,
-        "Tooltip": "repudiandae",
+        "Unrestricted": true,
+        "Total": 989,
+        "Tooltip": "necessitatibus",
         "CanAssign": true,
-        "Free": 80,
-        "InUse": 382,
+        "Free": 120,
+        "InUse": 359,
         "IsHidden": true,
         "Assigned": false,
-        "ModuleLicenseId": 372,
-        "Name": "Johns LLC",
-        "Description": "Synergized real-time parallelism",
-        "PrerequisiteModuleName": "Leuschke-Kling",
-        "SortOrder": 678,
-        "ExtraFlags": 548,
-        "TableRight": {},
+        "ModuleLicenseId": 832,
+        "Name": "Reinger-Aufderhar",
+        "Description": "Distributed bottom-line paradigm",
+        "PrerequisiteModuleName": "Hodkiewicz-Krajcik",
+        "SortOrder": 296,
+        "ExtraFlags": 907,
+        "TableRight": null,
         "FieldProperties": {
           "fieldName": {
-            "FieldRight": {
-              "Mask": "FULL",
-              "Reason": ""
-            },
+            "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 644
+            "FieldLength": 341
           }
         }
       }
@@ -114,75 +123,63 @@ Content-Type: application/json; charset=utf-8
     "UnrestrictedModuleLicenses": [
       {
         "Unrestricted": false,
-        "Total": 851,
-        "Tooltip": "consequatur",
-        "CanAssign": true,
-        "Free": 54,
-        "InUse": 44,
-        "IsHidden": true,
-        "Assigned": true,
-        "ModuleLicenseId": 887,
-        "Name": "Cruickshank-Moore",
-        "Description": "Object-based global monitoring",
-        "PrerequisiteModuleName": "Ruecker, Rice and Wuckert",
-        "SortOrder": 232,
-        "ExtraFlags": 977,
-        "TableRight": {},
+        "Total": 419,
+        "Tooltip": "fugiat",
+        "CanAssign": false,
+        "Free": 986,
+        "InUse": 618,
+        "IsHidden": false,
+        "Assigned": false,
+        "ModuleLicenseId": 40,
+        "Name": "Harber Group",
+        "Description": "Reduced system-worthy analyzer",
+        "PrerequisiteModuleName": "Purdy Inc and Sons",
+        "SortOrder": 968,
+        "ExtraFlags": 748,
+        "TableRight": null,
         "FieldProperties": {
           "fieldName": {
-            "FieldRight": {
-              "Mask": "FULL",
-              "Reason": ""
-            },
-            "FieldType": "System.String",
-            "FieldLength": 823
+            "FieldRight": null,
+            "FieldType": "System.Int32",
+            "FieldLength": 80
           }
         }
       }
     ],
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 13
+        "FieldRight": null,
+        "FieldType": "System.Int32",
+        "FieldLength": 688
       }
     }
   },
   {
-    "Name": "Huels-O'Conner",
-    "Description": "Seamless fresh-thinking structure",
+    "Name": "Abbott, Mosciski and Ritchie",
+    "Description": "Operative 6th generation utilisation",
     "RestrictedModuleLicenses": [
       {
-        "Unrestricted": false,
-        "Total": 413,
-        "Tooltip": "repudiandae",
+        "Unrestricted": true,
+        "Total": 989,
+        "Tooltip": "necessitatibus",
         "CanAssign": true,
-        "Free": 80,
-        "InUse": 382,
+        "Free": 120,
+        "InUse": 359,
         "IsHidden": true,
         "Assigned": false,
-        "ModuleLicenseId": 372,
-        "Name": "Johns LLC",
-        "Description": "Synergized real-time parallelism",
-        "PrerequisiteModuleName": "Leuschke-Kling",
-        "SortOrder": 678,
-        "ExtraFlags": 548,
-        "TableRight": {},
+        "ModuleLicenseId": 832,
+        "Name": "Reinger-Aufderhar",
+        "Description": "Distributed bottom-line paradigm",
+        "PrerequisiteModuleName": "Hodkiewicz-Krajcik",
+        "SortOrder": 296,
+        "ExtraFlags": 907,
+        "TableRight": null,
         "FieldProperties": {
           "fieldName": {
-            "FieldRight": {
-              "Mask": "FULL",
-              "Reason": ""
-            },
+            "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 644
+            "FieldLength": 341
           }
         }
       }
@@ -190,44 +187,35 @@ Content-Type: application/json; charset=utf-8
     "UnrestrictedModuleLicenses": [
       {
         "Unrestricted": false,
-        "Total": 851,
-        "Tooltip": "consequatur",
-        "CanAssign": true,
-        "Free": 54,
-        "InUse": 44,
-        "IsHidden": true,
-        "Assigned": true,
-        "ModuleLicenseId": 887,
-        "Name": "Cruickshank-Moore",
-        "Description": "Object-based global monitoring",
-        "PrerequisiteModuleName": "Ruecker, Rice and Wuckert",
-        "SortOrder": 232,
-        "ExtraFlags": 977,
-        "TableRight": {},
+        "Total": 419,
+        "Tooltip": "fugiat",
+        "CanAssign": false,
+        "Free": 986,
+        "InUse": 618,
+        "IsHidden": false,
+        "Assigned": false,
+        "ModuleLicenseId": 40,
+        "Name": "Harber Group",
+        "Description": "Reduced system-worthy analyzer",
+        "PrerequisiteModuleName": "Purdy Inc and Sons",
+        "SortOrder": 968,
+        "ExtraFlags": 748,
+        "TableRight": null,
         "FieldProperties": {
           "fieldName": {
-            "FieldRight": {
-              "Mask": "FULL",
-              "Reason": ""
-            },
-            "FieldType": "System.String",
-            "FieldLength": 823
+            "FieldRight": null,
+            "FieldType": "System.Int32",
+            "FieldLength": 80
           }
         }
       }
     ],
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 13
+        "FieldRight": null,
+        "FieldType": "System.Int32",
+        "FieldLength": 688
       }
     }
   }

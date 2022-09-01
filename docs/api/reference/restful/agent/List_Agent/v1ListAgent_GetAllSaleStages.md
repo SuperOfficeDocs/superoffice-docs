@@ -1,6 +1,6 @@
 ---
 title: POST Agents/List/GetAllSaleStages
-id: v1ListAgent_GetAllSaleStages
+uid: v1ListAgent_GetAllSaleStages
 ---
 
 # POST Agents/List/GetAllSaleStages
@@ -11,6 +11,12 @@ POST /api/v1/Agents/List/GetAllSaleStages
 
 Returns all ratings
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Returns all ratings
 ```http
 POST /api/v1/Agents/List/GetAllSaleStages?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,15 +42,18 @@ POST /api/v1/Agents/List/GetAllSaleStages?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-IncludeDeleted
+IncludeDeleted 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | IncludeDeleted | bool |  |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -62,7 +72,7 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/List/GetAllSaleStages
@@ -72,9 +82,11 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "IncludeDeleted": true
+  "IncludeDeleted": false
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -82,24 +94,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "SaleStageId": 71,
-    "Value": "dicta",
-    "Tooltip": "eligendi",
-    "Probability": 771,
-    "Deleted": false,
-    "Rank": 534,
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": "generate 24/7 experiences"
-    },
+    "SaleStageId": 218,
+    "Value": "velit",
+    "Tooltip": "nesciunt",
+    "Probability": 357,
+    "Deleted": true,
+    "Rank": 861,
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 812
+        "FieldRight": null,
+        "FieldType": "System.Int32",
+        "FieldLength": 656
       }
     }
   }

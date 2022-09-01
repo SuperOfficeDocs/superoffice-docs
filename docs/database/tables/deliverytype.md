@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "DeliveryType"
-so.date: 04.12.2022
+so.date: 08.26.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -33,6 +33,7 @@ The list of Delivery types, in the internal product register
 |updated\_associate\_id|Last updated by whom|FK [associate](associate.md)| |
 |updatedCount|Number of updates made to this record|UShort| |
 
+
 ![DeliveryType table relationship diagram](./media/DeliveryType.png)
 
 [!include[details](./includes/deliverytype.md)]
@@ -52,6 +53,7 @@ The list of Delivery types, in the internal product register
 |[DeliveryTypeGroupLink](deliverytypegrouplink.md)  |User group link table for DeliveryType, for MDO item hiding |
 |[DeliveryTypeHeadingLink](deliverytypeheadinglink.md)  |Heading link table for DeliveryType, for MDO item headings |
 
+
 ## Replication Flags
 
 * Replicate changes DOWN from central to satellites and travellers.
@@ -61,3 +63,4 @@ The list of Delivery types, in the internal product register
 ## Security Flags
 
 * No access control via user's Role.
+

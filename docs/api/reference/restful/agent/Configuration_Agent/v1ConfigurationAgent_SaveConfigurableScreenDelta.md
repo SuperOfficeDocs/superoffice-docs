@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Configuration/SaveConfigurableScreenDelta
-id: v1ConfigurationAgent_SaveConfigurableScreenDelta
+uid: v1ConfigurationAgent_SaveConfigurableScreenDelta
 ---
 
 # POST Agents/Configuration/SaveConfigurableScreenDelta
@@ -10,6 +10,13 @@ POST /api/v1/Agents/Configuration/SaveConfigurableScreenDelta
 ```
 
 Updates the existing ConfigurableScreenDelta or creates a new ConfigurableScreenDelta if the id parameter is empty
+
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -25,9 +32,9 @@ Updates the existing ConfigurableScreenDelta or creates a new ConfigurableScreen
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entity
+## Request Body: entity  
 
-The ConfigurableScreenDelta to be saved.
+The ConfigurableScreenDelta to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -42,15 +49,19 @@ The ConfigurableScreenDelta to be saved.
 | CreatedDate | date-time |  |
 | UpdatedBy |  | Carrier object for Associate. Services for the Associate Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IAssociateAgent">Associate Agent</see>. |
 | CreatedBy |  | Carrier object for Associate. Services for the Associate Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IAssociateAgent">Associate Agent</see>. |
-| UserGroupIds | array |  |
+| AppliesToIds | array |  |
+| AppliesToKey | string |  |
 
-## Response: object
+
+## Response: 
+
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -65,11 +76,12 @@ Response body: object
 | CreatedDate | date-time |  |
 | UpdatedBy |  | Carrier object for Associate. Services for the Associate Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IAssociateAgent">Associate Agent</see>. |
 | CreatedBy |  | Carrier object for Associate. Services for the Associate Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IAssociateAgent">Associate Agent</see>. |
-| UserGroupIds | array |  |
+| AppliesToIds | array |  |
+| AppliesToKey | string |  |
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Configuration/SaveConfigurableScreenDelta
@@ -79,130 +91,54 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConfigurableScreenDeltaId": 576,
-  "Name": "Bergstrom-Funk",
-  "Description": "Profound hybrid algorithm",
-  "DeltaJson": "eum",
+  "ConfigurableScreenDeltaId": 113,
+  "Name": "Langworth-Doyle",
+  "Description": "Mandatory 3rd generation complexity",
+  "DeltaJson": "et",
   "DeltaType": "CustomFields",
   "DeltaState": "Draft",
-  "RecipeId": "quos",
-  "UpdatedDate": "2010-01-23T18:28:48.400623+01:00",
-  "CreatedDate": "2020-09-17T18:28:48.4016232+02:00",
-  "UpdatedBy": {
-    "AssociateId": 911,
-    "Name": "Gerlach, Lynch and Abernathy",
-    "PersonId": 105,
-    "Rank": 880,
-    "Tooltip": "qui",
-    "Type": "AnonymousAssociate",
-    "GroupIdx": 601,
-    "FullName": "Horace Reichel",
-    "FormalName": "Satterfield, Altenwerth and Wiegand",
-    "Deleted": true,
-    "EjUserId": 570,
-    "UserName": "Watsica-Frami"
-  },
-  "CreatedBy": {
-    "AssociateId": 62,
-    "Name": "Doyle, Stamm and Armstrong",
-    "PersonId": 380,
-    "Rank": 619,
-    "Tooltip": "minus",
-    "Type": "AnonymousAssociate",
-    "GroupIdx": 655,
-    "FullName": "Oliver Reynolds",
-    "FormalName": "Bode Group",
-    "Deleted": false,
-    "EjUserId": 561,
-    "UserName": "Cummings-Bechtelar"
-  },
-  "UserGroupIds": [
-    892,
-    598
-  ]
+  "RecipeId": "qui",
+  "UpdatedDate": "2014-07-10T11:10:26.1915255+02:00",
+  "CreatedDate": "2021-01-11T11:10:26.1915255+01:00",
+  "UpdatedBy": null,
+  "CreatedBy": null,
+  "AppliesToIds": [
+    662,
+    375
+  ],
+  "AppliesToKey": "id"
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConfigurableScreenDeltaId": 591,
-  "Name": "Bauch Group",
-  "Description": "Upgradable tertiary secured line",
-  "DeltaJson": "temporibus",
+  "ConfigurableScreenDeltaId": 956,
+  "Name": "Leffler, Bernhard and Bradtke",
+  "Description": "Business-focused 5th generation core",
+  "DeltaJson": "saepe",
   "DeltaType": "CustomFields",
   "DeltaState": "Draft",
-  "RecipeId": "praesentium",
-  "UpdatedDate": "2005-06-07T18:28:48.4026517+02:00",
-  "CreatedDate": "2020-09-14T18:28:48.4026517+02:00",
-  "UpdatedBy": {
-    "AssociateId": 828,
-    "Name": "Christiansen, Klocko and Heaney",
-    "PersonId": 322,
-    "Rank": 87,
-    "Tooltip": "excepturi",
-    "Type": "AnonymousAssociate",
-    "GroupIdx": 138,
-    "FullName": "Sienna Stark",
-    "FormalName": "Ferry Inc and Sons",
-    "Deleted": false,
-    "EjUserId": 500,
-    "UserName": "Heaney Group",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 368
-      }
-    }
-  },
-  "CreatedBy": {
-    "AssociateId": 74,
-    "Name": "Rutherford-Buckridge",
-    "PersonId": 245,
-    "Rank": 921,
-    "Tooltip": "magnam",
-    "Type": "AnonymousAssociate",
-    "GroupIdx": 640,
-    "FullName": "Leanna D'Amore",
-    "FormalName": "Kutch Group",
-    "Deleted": false,
-    "EjUserId": 111,
-    "UserName": "Grant, Weber and Bauch",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": "cultivate dynamic web services"
-        },
-        "FieldType": "System.Int32",
-        "FieldLength": 702
-      }
-    }
-  },
-  "UserGroupIds": [
-    879,
-    519
+  "RecipeId": "fugit",
+  "UpdatedDate": "2001-04-25T11:10:26.1935254+02:00",
+  "CreatedDate": "2014-11-04T11:10:26.1935254+01:00",
+  "UpdatedBy": null,
+  "CreatedBy": null,
+  "AppliesToIds": [
+    447,
+    845
   ],
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "AppliesToKey": "voluptatem",
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
-      "FieldType": "System.String",
-      "FieldLength": 496
+      "FieldRight": null,
+      "FieldType": "System.Int32",
+      "FieldLength": 181
     }
   }
 }

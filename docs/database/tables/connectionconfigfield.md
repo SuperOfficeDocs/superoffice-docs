@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "ConnectionConfigField"
-so.date: 04.12.2022
+so.date: 08.26.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -32,6 +32,7 @@ Configuration data for Erp and Quote Connections
 |updated\_associate\_id|Last updated by whom|FK [associate](associate.md)| |
 |updatedCount|Number of updates made to this record|UShort| |
 
+
 ![ConnectionConfigField table relationship diagram](./media/ConnectionConfigField.png)
 
 [!include[details](./includes/connectionconfigfield.md)]
@@ -52,6 +53,7 @@ Configuration data for Erp and Quote Connections
 |[ErpConnection](erpconnection.md)  |One connection to an ERP connector, specifying Client and other required information |
 |[QuoteConnection](quoteconnection.md)  |Primary key in the CRM database. Definition of a connection to an external system, for the Quote system. |
 
+
 ## Replication Flags
 
 * None
@@ -59,3 +61,4 @@ Configuration data for Erp and Quote Connections
 ## Security Flags
 
 * No access control via user's Role.
+

@@ -1,6 +1,6 @@
 ---
 title: POST Relation
-id: v1ContactRelationEntity_PostContactRelationEntity
+uid: v1ContactRelationEntity_PostContactRelationEntity
 ---
 
 # POST Relation
@@ -11,7 +11,13 @@ POST /api/v1/Relation
 
 Creates a new ContactRelationEntity
 
+
 Calls the Relation agent service SaveContactRelationEntity.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +28,7 @@ Calls the Relation agent service SaveContactRelationEntity.
 ```http
 POST /api/v1/Relation?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,9 +44,9 @@ POST /api/v1/Relation?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: newEntity
+## Request Body: newEntity  
 
-The ContactRelationEntity to be saved.
+The ContactRelationEntity to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -62,17 +69,16 @@ The ContactRelationEntity to be saved.
 | ActiveText | string | Active text for the relation. |
 | PassiveText | string | Passive text for the relation. |
 
-## Response: object
 
-Relationship between a (contact/person) and another (contact/person), as described by the RelationDefinition.
+## Response: 
 
-ContactRelationEntity entity with API _Links added.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -98,151 +104,73 @@ Response body: object
 | FieldProperties | object |  |
 | _Links | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Relation
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceContactId": 584,
-  "SourcePersonId": 47,
-  "DestinationContactId": 788,
-  "DestinationPersonId": 27,
-  "RelationId": 257,
-  "Comment": "reprehenderit",
-  "RelationDefinitionId": 42,
-  "Reversed": 485,
-  "UpdatedDate": "1998-08-25T18:25:50.3866301+02:00",
-  "CreatedDate": "2017-07-29T18:25:50.3866301+02:00",
-  "CreatedBy": {
-    "AssociateId": 989,
-    "Name": "Schiller, Hansen and Block",
-    "PersonId": 604,
-    "Rank": 177,
-    "Tooltip": "aut",
-    "Type": "AnonymousAssociate",
-    "GroupIdx": 288,
-    "FullName": "Wilma Williamson",
-    "FormalName": "Fadel, Krajcik and Daugherty",
-    "Deleted": true,
-    "EjUserId": 37,
-    "UserName": "Goldner Group"
-  },
-  "UpdatedBy": {
-    "AssociateId": 484,
-    "Name": "Purdy LLC",
-    "PersonId": 903,
-    "Rank": 688,
-    "Tooltip": "qui",
-    "Type": "AnonymousAssociate",
-    "GroupIdx": 338,
-    "FullName": "Vince Grady V",
-    "FormalName": "Zemlak LLC",
-    "Deleted": true,
-    "EjUserId": 988,
-    "UserName": "Collins-Grimes"
-  },
-  "SourceContactName": "Schmitt, Bernhard and Hayes",
-  "SourcePersonName": "Veum Group",
-  "DestinationContactName": "Schulist-Shields",
-  "DestinationPersonName": "Toy, Hackett and Bechtelar",
-  "ActiveText": "vitae",
-  "PassiveText": "consequatur"
+  "SourceContactId": 967,
+  "SourcePersonId": 146,
+  "DestinationContactId": 528,
+  "DestinationPersonId": 935,
+  "RelationId": 737,
+  "Comment": "modi",
+  "RelationDefinitionId": 394,
+  "Reversed": 943,
+  "UpdatedDate": "1999-03-05T11:10:52.7431789+01:00",
+  "CreatedDate": "1999-06-03T11:10:52.7431789+02:00",
+  "CreatedBy": null,
+  "UpdatedBy": null,
+  "SourceContactName": "Kiehn-Franecki",
+  "SourcePersonName": "McDermott, Bernhard and Johnston",
+  "DestinationContactName": "Rau, Hermiston and Tremblay",
+  "DestinationPersonName": "Harber-Stiedemann",
+  "ActiveText": "saepe",
+  "PassiveText": "non"
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceContactId": 786,
-  "SourcePersonId": 482,
-  "DestinationContactId": 472,
-  "DestinationPersonId": 15,
-  "RelationId": 402,
-  "Comment": "quia",
-  "RelationDefinitionId": 470,
-  "Reversed": 333,
-  "UpdatedDate": "1996-04-02T18:25:50.3886297+02:00",
-  "CreatedDate": "2018-11-22T18:25:50.3886297+01:00",
-  "CreatedBy": {
-    "AssociateId": 85,
-    "Name": "Halvorson, Monahan and Christiansen",
-    "PersonId": 201,
-    "Rank": 849,
-    "Tooltip": "dolore",
-    "Type": "AnonymousAssociate",
-    "GroupIdx": 622,
-    "FullName": "Cordia Kuhn Sr.",
-    "FormalName": "Hamill-Borer",
-    "Deleted": true,
-    "EjUserId": 90,
-    "UserName": "Block-Upton",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 912
-      }
-    }
-  },
-  "UpdatedBy": {
-    "AssociateId": 292,
-    "Name": "Bednar LLC",
-    "PersonId": 441,
-    "Rank": 111,
-    "Tooltip": "tempore",
-    "Type": "AnonymousAssociate",
-    "GroupIdx": 575,
-    "FullName": "Aisha Wolf",
-    "FormalName": "Lubowitz-Morissette",
-    "Deleted": false,
-    "EjUserId": 166,
-    "UserName": "Gibson LLC",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": "implement dynamic channels"
-        },
-        "FieldType": "System.String",
-        "FieldLength": 693
-      }
-    }
-  },
-  "SourceContactName": "West Group",
-  "SourcePersonName": "Kuhic, Green and Lueilwitz",
-  "DestinationContactName": "Dicki-Kovacek",
-  "DestinationPersonName": "Beahan LLC",
-  "ActiveText": "impedit",
-  "PassiveText": "quas",
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": "syndicate user-centric vortals"
-  },
+  "SourceContactId": 905,
+  "SourcePersonId": 847,
+  "DestinationContactId": 787,
+  "DestinationPersonId": 402,
+  "RelationId": 490,
+  "Comment": "reprehenderit",
+  "RelationDefinitionId": 960,
+  "Reversed": 103,
+  "UpdatedDate": "2020-03-14T11:10:52.7451852+01:00",
+  "CreatedDate": "2006-06-16T11:10:52.7451852+02:00",
+  "CreatedBy": null,
+  "UpdatedBy": null,
+  "SourceContactName": "Reilly, Grimes and Simonis",
+  "SourcePersonName": "Fahey Inc and Sons",
+  "DestinationContactName": "Schmeler LLC",
+  "DestinationPersonName": "Padberg Inc and Sons",
+  "ActiveText": "incidunt",
+  "PassiveText": "non",
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
+      "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 381
+      "FieldLength": 781
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

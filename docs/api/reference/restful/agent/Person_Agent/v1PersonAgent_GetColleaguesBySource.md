@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Person/GetColleaguesBySource
-id: v1PersonAgent_GetColleaguesBySource
+uid: v1PersonAgent_GetColleaguesBySource
 ---
 
 # POST Agents/Person/GetColleaguesBySource
@@ -11,7 +11,13 @@ POST /api/v1/Agents/Person/GetColleaguesBySource
 
 Gets the persons working in the same company as the logged on user.
 
+
 The list of person could be retrieved from the history list, the diary view list, or from all sources.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +28,7 @@ The list of person could be retrieved from the history list, the diary view list
 ```http
 POST /api/v1/Agents/Person/GetColleaguesBySource?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,16 +44,19 @@ POST /api/v1/Agents/Person/GetColleaguesBySource?$select=name,department,categor
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-SourceType, Count
+SourceType, Count 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | SourceType | string |  |
 | Count | int32 |  |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -99,7 +109,7 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Person/GetColleaguesBySource
@@ -110,9 +120,11 @@ Content-Type: application/json; charset=utf-8
 
 {
   "SourceType": "All",
-  "Count": 508
+  "Count": 593
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -120,58 +132,52 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Position": "rerum",
-    "PersonId": 728,
-    "Mrmrs": "repudiandae",
-    "Firstname": "Tillman",
-    "Lastname": "Gislason",
-    "MiddleName": "Considine Group",
-    "Title": "corporis",
-    "Description": "Monitored even-keeled productivity",
-    "Email": "hubert_gusikowski@gerholdgutkowski.info",
-    "FullName": "Mack Eichmann",
-    "DirectPhone": "465.736.4813",
-    "FormalName": "Davis-Lakin",
-    "CountryId": 95,
-    "ContactId": 281,
-    "ContactName": "Abshire, Klocko and Willms",
-    "Retired": 58,
-    "Rank": 509,
-    "ActiveInterests": 907,
-    "ContactDepartment": "",
-    "ContactCountryId": 753,
-    "ContactOrgNr": "921225",
-    "FaxPhone": "(670)116-6644",
-    "MobilePhone": "058.354.8474 x85716",
-    "ContactPhone": "554.774.5600",
-    "AssociateName": "Hessel LLC",
-    "AssociateId": 743,
-    "UsePersonAddress": true,
-    "ContactFax": "ratione",
-    "Kanafname": "nihil",
-    "Kanalname": "sunt",
-    "Post1": "ut",
-    "Post2": "vel",
-    "Post3": "vitae",
-    "EmailName": "percy.hammes@kiehn.com",
-    "ContactFullName": "Luigi Dach",
-    "ActiveErpLinks": 542,
-    "TicketPriorityId": 975,
-    "SupportLanguageId": 264,
-    "SupportAssociateId": 347,
+    "Position": "voluptatum",
+    "PersonId": 616,
+    "Mrmrs": "aspernatur",
+    "Firstname": "Billie",
+    "Lastname": "Legros",
+    "MiddleName": "D'Amore-Orn",
+    "Title": "exercitationem",
+    "Description": "Enhanced local matrix",
+    "Email": "ava@stehrgottlieb.us",
+    "FullName": "Francisca Cormier",
+    "DirectPhone": "(592)961-2294 x83274",
+    "FormalName": "Tremblay-Bahringer",
+    "CountryId": 910,
+    "ContactId": 934,
+    "ContactName": "Williamson, McGlynn and Fisher",
+    "Retired": 276,
+    "Rank": 179,
+    "ActiveInterests": 239,
+    "ContactDepartment": "cultivate magnetic ROI",
+    "ContactCountryId": 382,
+    "ContactOrgNr": "1265367",
+    "FaxPhone": "679-424-3385",
+    "MobilePhone": "064.431.2249",
+    "ContactPhone": "837-872-0580 x47043",
+    "AssociateName": "Morar Group",
+    "AssociateId": 407,
+    "UsePersonAddress": false,
+    "ContactFax": "autem",
+    "Kanafname": "eos",
+    "Kanalname": "voluptatum",
+    "Post1": "earum",
+    "Post2": "iure",
+    "Post3": "doloremque",
+    "EmailName": "savanah@douglasrosenbaum.name",
+    "ContactFullName": "Breanne Wilderman",
+    "ActiveErpLinks": 942,
+    "TicketPriorityId": 526,
+    "SupportLanguageId": 8,
+    "SupportAssociateId": 399,
     "CategoryName": "VIP Customer",
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.Int32",
-        "FieldLength": 192
+        "FieldRight": null,
+        "FieldType": "System.String",
+        "FieldLength": 217
       }
     }
   }

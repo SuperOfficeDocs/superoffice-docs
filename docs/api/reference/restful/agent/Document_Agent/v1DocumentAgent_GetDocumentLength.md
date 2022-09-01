@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Document/GetDocumentLength
-id: v1DocumentAgent_GetDocumentLength
+uid: v1DocumentAgent_GetDocumentLength
 ---
 
 # POST Agents/Document/GetDocumentLength
@@ -11,6 +11,12 @@ POST /api/v1/Agents/Document/GetDocumentLength
 
 Get length of the document content in bytes.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Get length of the document content in bytes.
 ```http
 POST /api/v1/Agents/Document/GetDocumentLength?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,16 +42,19 @@ POST /api/v1/Agents/Document/GetDocumentLength?$select=name,department,category/
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-DocumentId, VersionId
+DocumentId, VersionId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | DocumentId | int32 |  |
 | VersionId | string |  |
 
+
 ## Response: int64
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -52,7 +62,8 @@ DocumentId, VersionId
 
 Response body: int64
 
-## Sample Request
+
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Document/GetDocumentLength
@@ -62,10 +73,12 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 672,
-  "VersionId": "id"
+  "DocumentId": 797,
+  "VersionId": "inventore"
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK

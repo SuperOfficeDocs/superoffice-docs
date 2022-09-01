@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Find/GetSpecifiedCriteriaInformationWithDefaults
-id: v1FindAgent_GetSpecifiedCriteriaInformationWithDefaults
+uid: v1FindAgent_GetSpecifiedCriteriaInformationWithDefaults
 ---
 
 # POST Agents/Find/GetSpecifiedCriteriaInformationWithDefaults
@@ -11,7 +11,13 @@ POST /api/v1/Agents/Find/GetSpecifiedCriteriaInformationWithDefaults
 
 Get criteria information from a set of saved criteria, for a specific set of columns.
 
+
 The result contains the restrictions in two forms: fully populated ArchiveRestrictionInfo objects, used to display details and for saving changes; and as a list suitable for an Archive control. ALL columns specified in the call will be present in the results; those that do not have corresponding criteria set will have empty values and the default (first) operator, with the IsActive flag set to false.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +28,7 @@ The result contains the restrictions in two forms: fully populated ArchiveRestri
 ```http
 POST /api/v1/Agents/Find/GetSpecifiedCriteriaInformationWithDefaults?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,9 +44,9 @@ POST /api/v1/Agents/Find/GetSpecifiedCriteriaInformationWithDefaults?$select=nam
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-StorageType, ProviderName, StorageKey, DesiredColumnNames, StaticColumns
+StorageType, ProviderName, StorageKey, DesiredColumnNames, StaticColumns 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -49,18 +56,16 @@ StorageType, ProviderName, StorageKey, DesiredColumnNames, StaticColumns
 | DesiredColumnNames | array |  |
 | StaticColumns | array |  |
 
-## Response: object
 
-Carrier for criteria information. It contains all the search criteria - that is, ArchiveRestrictionInfo - objects, including a  column specification. In addition, it contains the same criteria expressed as an archive, with an array of ArchiveColumnInfo specifications and a set of ArchiveRow rows. The rows of the archive form a subset of the restriction array.
+## Response: 
 
-Carrier object for CriteriaInformation.
-Services for the CriteriaInformation Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IFindAgent">Find Agent</see>.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -71,29 +76,31 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Find/GetSpecifiedCriteriaInformationWithDefaults
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "ut",
-  "ProviderName": "Ernser, Kuphal and Torp",
-  "StorageKey": "consequuntur",
+  "StorageType": "voluptatem",
+  "ProviderName": "Harvey-Schinner",
+  "StorageKey": "aut",
   "DesiredColumnNames": [
-    "Lynch, Cummerata and Torp",
-    "Becker LLC"
+    "Grady LLC",
+    "Hand-Collins"
   ],
   "StaticColumns": [
-    "magni",
-    "debitis"
+    "dolor",
+    "modi"
   ]
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -102,102 +109,93 @@ Content-Type: application/json; charset=utf-8
 {
   "Restrictions": [
     {
-      "Name": "Schiller, Stark and Hettinger",
-      "Operator": "repellat",
+      "Name": "Swaniawski-Greenfelder",
+      "Operator": "reiciendis",
       "Values": [
-        "repellendus",
-        "in"
+        "hic",
+        "enim"
       ],
       "DisplayValues": [
-        "odit",
-        "accusantium"
+        "aliquid",
+        "rerum"
       ],
-      "ColumnInfo": {},
-      "IsActive": true,
+      "ColumnInfo": null,
+      "IsActive": false,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 887,
+      "InterParenthesis": 569,
       "InterOperator": "And",
-      "UniqueHash": 81
+      "UniqueHash": 125
     }
   ],
   "CriteriaArchiveColumns": [
     {
-      "DisplayName": "Rutherford, Kovacek and Lockman",
-      "DisplayTooltip": "mollitia",
-      "DisplayType": "minima",
-      "CanOrderBy": true,
-      "Name": "Bailey, Lemke and Bins",
-      "CanRestrictBy": true,
-      "RestrictionType": "possimus",
-      "RestrictionListName": "McLaughlin-Green",
-      "IsVisible": false,
-      "ExtraInfo": "deleniti",
-      "Width": "consectetur",
-      "IconHint": "et",
-      "HeadingIconHint": "et"
+      "DisplayName": "Bruen, Schuppe and Wyman",
+      "DisplayTooltip": "dolores",
+      "DisplayType": "possimus",
+      "CanOrderBy": false,
+      "Name": "Mraz-Pfeffer",
+      "CanRestrictBy": false,
+      "RestrictionType": "nisi",
+      "RestrictionListName": "Mills Group",
+      "IsVisible": true,
+      "ExtraInfo": "quibusdam",
+      "Width": "laudantium",
+      "IconHint": "molestiae",
+      "HeadingIconHint": "aut"
     }
   ],
   "CriteriaArchiveRows": [
     {
-      "EntityName": "Nolan Inc and Sons",
-      "PrimaryKey": 309,
+      "EntityName": "Stoltenberg, Welch and Kuhlman",
+      "PrimaryKey": 564,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "atque",
-          "TooltipHint": "rerum",
-          "LinkHint": "iusto"
+          "DisplayValue": "facere",
+          "TooltipHint": "consequatur",
+          "LinkHint": "ab"
         }
       },
-      "LinkHint": "aliquam",
-      "StyleHint": "dignissimos",
-      "TableRight": {},
+      "LinkHint": "autem",
+      "StyleHint": "inventore",
+      "TableRight": null,
       "FieldProperties": {
         "fieldName": {
-          "FieldRight": {
-            "Mask": "FULL",
-            "Reason": ""
-          },
-          "FieldType": "System.String",
-          "FieldLength": 615
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 567
         }
       }
     }
   ],
   "RestrictionGroups": [
     {
-      "Name": "Herzog Group",
-      "Description": "Pre-emptive exuding moratorium",
-      "Rank": 598,
+      "Name": "Welch Inc and Sons",
+      "Description": "Object-based intermediate array",
+      "Rank": 198,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Herzog Group",
-      "Description": "Pre-emptive exuding moratorium",
-      "Rank": 598,
+      "Name": "Welch Inc and Sons",
+      "Description": "Object-based intermediate array",
+      "Rank": 198,
       "Restrictions": [
         {},
         {}
       ]
     }
   ],
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
+      "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 604
+      "FieldLength": 666
     }
   }
 }

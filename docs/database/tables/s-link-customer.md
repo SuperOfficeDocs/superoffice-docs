@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "s_link_customer"
-so.date: 04.12.2022
+so.date: 08.26.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -29,6 +29,7 @@ A connection between a customer and a link. Registered customers are identified 
 |link\_type|If this is a link to a link or an image (gif/jpeg). See SpmLink::LinkType|Enum [ShipmentLinkType](enums/shipmentlinktype.md)|&#x25CF;|
 |page|Indicates the page number for this gif link|Int| |
 |http\_user\_agent|The HTTP_USER_AGENT reported when the customer opened this link|String(1024)|&#x25CF;|
+
 
 ![s_link_customer table relationship diagram](./media/s_link_customer.png)
 
@@ -53,6 +54,7 @@ A connection between a customer and a link. Registered customers are identified 
 |[s\_link](s-link.md)  |Links in messages to measure success rate of a campaign. |
 |[s\_shipment](s-shipment.md)  |Contains info about one shipment. The addresses are stored in s_shipment_addr |
 
+
 ## Replication Flags
 
 * None
@@ -60,3 +62,4 @@ A connection between a customer and a link. Registered customers are identified 
 ## Security Flags
 
 * No access control via user's Role.
+

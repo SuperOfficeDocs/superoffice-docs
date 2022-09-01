@@ -17,6 +17,7 @@ Sets the operator used when matching multiple words
 
 **Returns:** No return value
 
+
 [WSDL file for Services87/FreeText](../Services87-FreeText.md)
 
 Obtain a ticket from the [Services87/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -49,6 +50,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## SetMultiWordOperator Response
 
 ```xml
@@ -68,3 +70,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

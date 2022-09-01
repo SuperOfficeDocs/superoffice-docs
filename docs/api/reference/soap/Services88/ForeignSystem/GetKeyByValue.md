@@ -17,11 +17,10 @@ Get a foreignkey based on its name and value, that belongs to the specified devi
 * **deviceName:** The name of the foreign device.
 * **keyName:** The name of the foreign key.
 * **keyValue:** Foreignkey value
-* **tableName:** Table name, transformed to and from numeric table id by the service layer.
-
-  Use an empty string to indicate that your key is not bound to any specific table.
+* **tableName:** Table name, transformed to and from numeric table id by the service layer.&lt;p/&gt;Use an empty string to indicate that your key is not bound to any specific table.
 
 **Returns:** The ForeignKey.
+
 
 [WSDL file for Services88/ForeignSystem](../Services88-ForeignSystem.md)
 
@@ -58,6 +57,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## GetKeyByValue Response
 
 ```xml
@@ -75,8 +75,8 @@ Application tokens must be specified if calling an Online installation. Applicat
     <ForeignSystem:Key xsi:type="xsd:string"></ForeignSystem:Key>
     <ForeignSystem:Value xsi:type="xsd:string"></ForeignSystem:Value>
     <ForeignSystem:RecordId xsi:type="xsd:int">0</ForeignSystem:RecordId>
-    <ForeignSystem:CreatedDate xsi:type="xsd:dateTime">2021-11-30T13:23:41Z</ForeignSystem:CreatedDate>
-    <ForeignSystem:UpdatedDate xsi:type="xsd:dateTime">2021-11-30T13:23:41Z</ForeignSystem:UpdatedDate>
+    <ForeignSystem:CreatedDate xsi:type="xsd:dateTime">2022-08-26T08:59:37Z</ForeignSystem:CreatedDate>
+    <ForeignSystem:UpdatedDate xsi:type="xsd:dateTime">2022-08-26T08:59:37Z</ForeignSystem:UpdatedDate>
     <ForeignSystem:UpdatedBy xsi:type="xsd:string"></ForeignSystem:UpdatedBy>
     <ForeignSystem:CreatedBy xsi:type="xsd:string"></ForeignSystem:CreatedBy>
     <ForeignSystem:TableName xsi:type="xsd:string"></ForeignSystem:TableName>
@@ -86,3 +86,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

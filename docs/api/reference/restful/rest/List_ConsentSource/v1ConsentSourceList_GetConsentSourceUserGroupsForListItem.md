@@ -1,6 +1,6 @@
 ---
 title: GET List/ConsentSource/Items/{id}/UserGroups
-id: v1ConsentSourceList_GetConsentSourceUserGroupsForListItem
+uid: v1ConsentSourceList_GetConsentSourceUserGroupsForListItem
 ---
 
 # GET List/ConsentSource/Items/{id}/UserGroups
@@ -11,11 +11,18 @@ GET /api/v1/List/ConsentSource/Items/{itemId}/UserGroups
 
 Gets user groups visible for the ConsentSource list's item.
 
+
 Calls the List agent service GetHeadings.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | itemId | int32 | The ID of the item to get. **Required** |
+
+
 
 ## Request Headers
 
@@ -30,7 +37,10 @@ Calls the List agent service GetHeadings.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -58,14 +68,16 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 GET /api/v1/List/ConsentSource/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -73,65 +85,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 203,
-    "Name": "Anderson-Bailey",
-    "ToolTip": "Officiis quis deserunt ut.",
-    "Deleted": true,
-    "Rank": 444,
-    "Type": "ratione",
-    "ColorBlock": 454,
-    "IconHint": "doloribus",
-    "Selected": true,
-    "LastChanged": "1994-10-27T18:25:51.7323208+02:00",
+    "Id": 334,
+    "Name": "Kiehn Inc and Sons",
+    "ToolTip": "Sed ipsa corporis soluta.",
+    "Deleted": false,
+    "Rank": 616,
+    "Type": "aliquam",
+    "ColorBlock": 893,
+    "IconHint": "ipsa",
+    "Selected": false,
+    "LastChanged": "2000-06-26T11:10:53.9981826+02:00",
     "ChildItems": [
       {
-        "Id": 63,
-        "Name": "Kerluke-Christiansen",
-        "ToolTip": "Saepe dolor quis culpa sint neque dolor.",
-        "Deleted": true,
-        "Rank": 129,
-        "Type": "animi",
-        "ColorBlock": 562,
-        "IconHint": "quasi",
-        "Selected": false,
-        "LastChanged": "2020-05-13T18:25:51.7333204+02:00",
+        "Id": 199,
+        "Name": "Krajcik, Paucek and Kerluke",
+        "ToolTip": "Nisi rem rerum iste ut consequatur nisi.",
+        "Deleted": false,
+        "Rank": 410,
+        "Type": "rerum",
+        "ColorBlock": 860,
+        "IconHint": "et",
+        "Selected": true,
+        "LastChanged": "2015-01-14T11:10:53.9981826+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "temporibus",
-        "StyleHint": "et",
-        "Hidden": true,
-        "FullName": "Kristofer Dare Sr.",
-        "TableRight": {},
+        "ExtraInfo": "id",
+        "StyleHint": "qui",
+        "Hidden": false,
+        "FullName": "Miss Audra Armstrong",
+        "TableRight": null,
         "FieldProperties": {
           "fieldName": {
-            "FieldRight": {
-              "Mask": "FULL",
-              "Reason": ""
-            },
+            "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 134
+            "FieldLength": 141
           }
         }
       }
     ],
-    "ExtraInfo": "maiores",
-    "StyleHint": "quasi",
+    "ExtraInfo": "eum",
+    "StyleHint": "atque",
     "Hidden": false,
-    "FullName": "Dr. Angelica Greenfelder",
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "FullName": "Connor Farrell",
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.Int32",
-        "FieldLength": 335
+        "FieldRight": null,
+        "FieldType": "System.String",
+        "FieldLength": 831
       }
     }
   }

@@ -1,6 +1,6 @@
 ---
 title: GET Selection/{id}/Members
-id: v1SelectionEntity_GetSelectionMembersArchiveRows
+uid: v1SelectionEntity_GetSelectionMembersArchiveRows
 ---
 
 # GET Selection/{id}/Members
@@ -11,11 +11,17 @@ GET /api/v1/Selection/{selectionId}/Members
 
 Get the list of members in this selection.
 
+
 The type of members depends on the target table of the selection.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | selectionId | int32 | The selectionId we want selection members for. **Required** |
+
 
 ## Query String Parameters
 
@@ -31,6 +37,7 @@ GET /api/v1/Selection/{selectionId}/Members?$mode=FULL
 GET /api/v1/Selection/{selectionId}/Members?$format=JSON
 ```
 
+
 ## Request Headers
 
 | Parameter Name | Description |
@@ -44,15 +51,16 @@ GET /api/v1/Selection/{selectionId}/Members?$format=JSON
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response: object
 
-Easy to use archive results - just a flat list of values.
+## Response: 
+
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -60,14 +68,16 @@ Response body: object
 | odata.nextLink | string |  |
 | value | array |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 GET /api/v1/Selection/{selectionId}/Members
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -75,21 +85,19 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "quisquam",
+  "odata.nextLink": "consequuntur",
   "value": [
     {
-      "PrimaryKey": 9367,
-      "EntityName": "sale",
-      "saleId": 9367,
-      "contactId": 33,
-      "name": "Jacobs, Goodwin and Schroeder"
+      "PrimaryKey": 7114,
+      "EntityName": "person",
+      "personId": 7114,
+      "fullName": "Prof. Duane Anita Farrell"
     },
     {
-      "PrimaryKey": 5166,
-      "EntityName": "sale",
-      "saleId": 5166,
-      "contactId": 8928,
-      "name": "Rohan-Wisoky"
+      "PrimaryKey": 1745,
+      "EntityName": "person",
+      "personId": 1745,
+      "fullName": "Prof. Marlon Rice PhD"
     }
   ]
 }

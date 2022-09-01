@@ -5,7 +5,7 @@ description: Lists the enum values for LoginFlags.
 so.generated: true
 keywords:
   - "database"
-so.date: 04.12.2022
+so.date: 08.26.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -22,4 +22,4 @@ Bitmask of flags for a service login session
 
 ## Usage
 
-* [login](../login.md).flags - This table contains entries for the user sessions.
+* [login](../login.md).flags - This table contains entries for the user sessions. 

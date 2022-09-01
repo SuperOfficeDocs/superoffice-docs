@@ -1,6 +1,6 @@
 ---
 title: GET Hierarchy/default
-id: v1HierarchyEntity_DefaultHierarchyEntity
+uid: v1HierarchyEntity_DefaultHierarchyEntity
 ---
 
 # GET Hierarchy/default
@@ -11,7 +11,14 @@ GET /api/v1/Hierarchy/default
 
 Set default values into a new HierarchyEntity.
 
+
 NetServer calculates default values on the entity, which is required when creating/storing a new instance Calls the List agent service CreateDefaultHierarchyEntity.
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -26,18 +33,16 @@ NetServer calculates default values on the entity, which is required when creati
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response: object
 
-Folder structures
+## Response: 
 
-Carrier object for HierarchyEntity.
-Services for the HierarchyEntity Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IListAgent">List Agent</see>.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -54,69 +59,62 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 GET /api/v1/Hierarchy/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 360,
+  "HierarchyId": 92,
   "Domain": "Dashboards",
-  "Name": "Abernathy, Torp and Bashirian",
-  "Fullname": "reprehenderit",
-  "ParentId": 810,
+  "Name": "Oberbrunner-Nolan",
+  "Fullname": "sunt",
+  "ParentId": 371,
   "Children": [
     {
-      "HierarchyId": 981,
+      "HierarchyId": 959,
       "Domain": "Dashboards",
-      "Name": "Quitzon Group",
-      "Fullname": "veniam",
-      "ParentId": 643,
+      "Name": "Hintz LLC",
+      "Fullname": "ut",
+      "ParentId": 948,
       "Children": [
         {},
         {}
       ],
-      "Registered": "2007-09-10T18:25:50.5775969+02:00",
-      "RegisteredAssociateId": 906,
-      "Updated": "2020-01-31T18:25:50.5775969+01:00",
-      "UpdatedAssociateId": 538,
-      "TableRight": {},
+      "Registered": "2009-07-21T11:10:52.9131853+02:00",
+      "RegisteredAssociateId": 723,
+      "Updated": "2006-02-22T11:10:52.9131853+01:00",
+      "UpdatedAssociateId": 620,
+      "TableRight": null,
       "FieldProperties": {
         "fieldName": {
-          "FieldRight": {
-            "Mask": "FULL",
-            "Reason": ""
-          },
-          "FieldType": "System.String",
-          "FieldLength": 998
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 353
         }
       }
     }
   ],
-  "Registered": "2017-05-14T18:25:50.5775969+02:00",
-  "RegisteredAssociateId": 621,
-  "Updated": "2016-09-16T18:25:50.5775969+02:00",
-  "UpdatedAssociateId": 660,
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "Registered": "1998-10-21T11:10:52.9131853+02:00",
+  "RegisteredAssociateId": 15,
+  "Updated": "1997-10-12T11:10:52.9131853+02:00",
+  "UpdatedAssociateId": 614,
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
-      "FieldType": "System.String",
-      "FieldLength": 582
+      "FieldRight": null,
+      "FieldType": "System.Int32",
+      "FieldLength": 219
     }
   }
 }

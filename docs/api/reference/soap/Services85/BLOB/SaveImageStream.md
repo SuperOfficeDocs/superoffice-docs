@@ -19,6 +19,7 @@ Stores an image in the database without linking it to a project or a person. It 
 
 **Returns:** The blob id
 
+
 [WSDL file for Services85/BLOB](../Services85-BLOB.md)
 
 Obtain a ticket from the [Services85/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -52,6 +53,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## SaveImageStream Response
 
 ```xml
@@ -71,3 +73,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

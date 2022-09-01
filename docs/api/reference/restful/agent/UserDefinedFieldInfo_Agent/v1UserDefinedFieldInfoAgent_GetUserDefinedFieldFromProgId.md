@@ -1,6 +1,6 @@
 ---
 title: POST Agents/UserDefinedFieldInfo/GetUserDefinedFieldFromProgId
-id: v1UserDefinedFieldInfoAgent_GetUserDefinedFieldFromProgId
+uid: v1UserDefinedFieldInfoAgent_GetUserDefinedFieldFromProgId
 ---
 
 # POST Agents/UserDefinedFieldInfo/GetUserDefinedFieldFromProgId
@@ -11,7 +11,13 @@ POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedFieldFromProgId
 
 Return information about the given user defined field identified by the owner and the prog-id.
 
+
 The prog-id is used as the key in the entity carriers. Note this may be different than the currently published fields.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +28,7 @@ The prog-id is used as the key in the entity carriers. Note this may be differen
 ```http
 POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedFieldFromProgId?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,27 +44,25 @@ POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedFieldFromProgId?$select=n
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-ProgId, OwnerType
+ProgId, OwnerType 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | ProgId | string |  |
 | OwnerType | string |  |
 
-## Response: object
 
-Return information about the user defined fields. The information can be used to mirror the layout of the user-defined fields in the user interface.
+## Response: 
 
-Carrier object for UserDefinedFieldInfo.
-Services for the UserDefinedFieldInfo Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent">UserDefinedFieldInfo Agent</see>.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -98,72 +103,68 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedFieldFromProgId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProgId": "quisquam",
+  "ProgId": "ipsa",
   "OwnerType": "Appointment"
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 721,
-  "ColumnId": 378,
-  "FieldDefault": "recusandae",
-  "FieldHeight": 163,
-  "FieldLabel": "aut",
-  "FieldLeft": 10,
-  "FieldTop": 357,
+  "UDefFieldId": 962,
+  "ColumnId": 976,
+  "FieldDefault": "ut",
+  "FieldHeight": 532,
+  "FieldLabel": "minima",
+  "FieldLeft": 921,
+  "FieldTop": 741,
   "FieldType": "Checkbox",
-  "FieldWidth": 413,
-  "FormatMask": "itaque",
+  "FieldWidth": 60,
+  "FormatMask": "quis",
   "HideLabel": false,
-  "IsIndexed": false,
-  "LabelHeight": 689,
-  "LabelLeft": 258,
-  "LabelTop": 518,
-  "LabelWidth": 41,
-  "LastVersionId": 782,
-  "ListTableId": 537,
+  "IsIndexed": true,
+  "LabelHeight": 762,
+  "LabelLeft": 846,
+  "LabelTop": 425,
+  "LabelWidth": 275,
+  "LastVersionId": 681,
+  "ListTableId": 932,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 776,
-  "ProgId": "qui",
+  "Page1LineNo": 583,
+  "ProgId": "ea",
   "IsReadOnly": true,
-  "ShortLabel": "a",
-  "TabOrder": 478,
-  "TextLength": 151,
-  "Tooltip": "et",
-  "UdefIdentity": 59,
-  "UDListDefinitionId": 828,
+  "ShortLabel": "placeat",
+  "TabOrder": 270,
+  "TextLength": 134,
+  "Tooltip": "at",
+  "UdefIdentity": 822,
+  "UDListDefinitionId": 634,
   "Justification": "Center",
-  "Version": 276,
-  "TemplateVariableName": "Pouros, Prohaska and Morissette",
-  "HasBeenPublished": true,
-  "MdoListName": "Greenholt, Hessel and Cronin",
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "Version": 368,
+  "TemplateVariableName": "Williamson, Mills and McDermott",
+  "HasBeenPublished": false,
+  "MdoListName": "Gaylord-Stroman",
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
-      "FieldType": "System.String",
-      "FieldLength": 83
+      "FieldRight": null,
+      "FieldType": "System.Int32",
+      "FieldLength": 669
     }
   }
 }

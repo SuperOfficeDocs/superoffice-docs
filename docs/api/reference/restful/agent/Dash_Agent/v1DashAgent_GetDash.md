@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Dash/GetDash
-id: v1DashAgent_GetDash
+uid: v1DashAgent_GetDash
 ---
 
 # POST Agents/Dash/GetDash
@@ -11,6 +11,12 @@ POST /api/v1/Agents/Dash/GetDash
 
 Gets a Dash object.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -19,9 +25,10 @@ Gets a Dash object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Dash/GetDash?dashId=445
+POST /api/v1/Agents/Dash/GetDash?dashId=869
 POST /api/v1/Agents/Dash/GetDash?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -36,18 +43,16 @@ POST /api/v1/Agents/Dash/GetDash?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response: object
 
-Dashboard configuration
+## Response: 
 
-Carrier object for Dash.
-Services for the Dash Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IDashAgent">Dash Agent</see>.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -67,74 +72,53 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Dash/GetDash
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 892,
-  "UniqueId": "reiciendis",
-  "Name": "Mueller, Kautzer and Wilderman",
-  "Description": "User-friendly eco-centric productivity",
-  "AssociateId": 360,
-  "Columns": 110,
-  "Theme": {
-    "DashboardThemeId": 483,
-    "Name": "Volkman-Schneider",
-    "Config": "illo",
-    "Rank": 811,
-    "Client": "fuga",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 848
-      }
-    }
-  },
-  "VisibleForAll": 884,
+  "DashboardId": 891,
+  "UniqueId": "qui",
+  "Name": "Denesik Inc and Sons",
+  "Description": "Reactive fault-tolerant service-desk",
+  "AssociateId": 602,
+  "Columns": 74,
+  "Theme": null,
+  "VisibleForAll": 883,
   "VisibleForAssociates": [
-    396,
-    648
+    181,
+    230
   ],
   "VisibleForGroups": [
-    855,
-    574
+    144,
+    614
   ],
-  "PinForAll": 142,
+  "PinForAll": 694,
   "PinForAssociates": [
-    90,
-    50
+    387,
+    155
   ],
   "PinForGroups": [
-    305,
-    661
+    804,
+    75
   ],
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
-      "FieldType": "System.String",
-      "FieldLength": 130
+      "FieldRight": null,
+      "FieldType": "System.Int32",
+      "FieldLength": 128
     }
   }
 }

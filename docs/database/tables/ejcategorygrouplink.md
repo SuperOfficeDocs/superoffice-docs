@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "EjCategoryGroupLink"
-so.date: 04.12.2022
+so.date: 08.26.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -30,6 +30,7 @@ User group link table for EjCategory, for mass handling ej_category members
 |updated\_associate\_id|Last updated by whom|FK [associate](associate.md)| |
 |updatedCount|Number of updates made to this record|UShort| |
 
+
 ![EjCategoryGroupLink table relationship diagram](./media/EjCategoryGroupLink.png)
 
 [!include[details](./includes/ejcategorygrouplink.md)]
@@ -50,6 +51,7 @@ User group link table for EjCategory, for mass handling ej_category members
 |[ej\_category](ej-category.md)  |This table contains categories, in which tickets are categorized. The categories are organized in a hierarchial manner. |
 |[UserGroup](usergroup.md)  |Secondary user groups |
 
+
 ## Replication Flags
 
 * None
@@ -57,3 +59,4 @@ User group link table for EjCategory, for mass handling ej_category members
 ## Security Flags
 
 * No access control via user's Role.
+

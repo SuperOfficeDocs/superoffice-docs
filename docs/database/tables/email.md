@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "Email"
-so.date: 04.12.2022
+so.date: 08.26.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -45,6 +45,7 @@ Email addresses for contacts, projects and persons
 |lastBounceCode|If this email address has bounced and we have a bounce code, this field will contain the code for the last bounce|Int|&#x25CF;|
 |lastBounceReason|If this email address has bounced and we have a bounce reason, this field will contain the reason for the last bounce|String(4000)|&#x25CF;|
 
+
 ![Email table relationship diagram](./media/Email.png)
 
 [!include[details](./includes/email.md)]
@@ -76,6 +77,7 @@ Email addresses for contacts, projects and persons
 |[person](person.md)  |Persons in a company or an organizations. All associates have a corresponding person record |
 |[project](project.md)  |Projects |
 
+
 ## Replication Flags
 
 * Area Management controlled table. Contents replicated to satellites and traveller databases.
@@ -85,3 +87,4 @@ Email addresses for contacts, projects and persons
 ## Security Flags
 
 * Sentry controls access to items in this table using user's Role and data rights matrix on the table's parent.
+

@@ -1,6 +1,6 @@
 ---
 title: POST Agents/MDO/GetSelectableListWithRestriction
-id: v1MDOAgent_GetSelectableListWithRestriction
+uid: v1MDOAgent_GetSelectableListWithRestriction
 ---
 
 # POST Agents/MDO/GetSelectableListWithRestriction
@@ -11,6 +11,12 @@ POST /api/v1/Agents/MDO/GetSelectableListWithRestriction
 
 Method to get a Selectable MDO list with restrictions.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Method to get a Selectable MDO list with restrictions.
 ```http
 POST /api/v1/Agents/MDO/GetSelectableListWithRestriction?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,9 +42,9 @@ POST /api/v1/Agents/MDO/GetSelectableListWithRestriction?$select=name,department
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-Name, AdditionalInfo, SearchValue
+Name, AdditionalInfo, SearchValue 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -45,7 +52,10 @@ Name, AdditionalInfo, SearchValue
 | AdditionalInfo | string |  |
 | SearchValue | string |  |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -73,21 +83,23 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/MDO/GetSelectableListWithRestriction
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Adams LLC",
-  "AdditionalInfo": "veritatis",
-  "SearchValue": "iste"
+  "Name": "White-Padberg",
+  "AdditionalInfo": "ullam",
+  "SearchValue": "facere"
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -95,65 +107,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 501,
-    "Name": "Altenwerth Inc and Sons",
-    "ToolTip": "Possimus cumque.",
+    "Id": 625,
+    "Name": "Rutherford LLC",
+    "ToolTip": "Totam aspernatur aut assumenda explicabo officiis quasi eveniet.",
     "Deleted": true,
-    "Rank": 438,
-    "Type": "sed",
-    "ColorBlock": 808,
-    "IconHint": "minus",
+    "Rank": 911,
+    "Type": "quod",
+    "ColorBlock": 172,
+    "IconHint": "repellendus",
     "Selected": true,
-    "LastChanged": "2002-09-01T18:28:49.4830902+02:00",
+    "LastChanged": "2012-07-23T11:10:27.3114523+02:00",
     "ChildItems": [
       {
-        "Id": 750,
-        "Name": "Gorczany-Greenfelder",
-        "ToolTip": "Laudantium dolor minus dolore qui ex et.",
-        "Deleted": true,
-        "Rank": 714,
-        "Type": "aut",
-        "ColorBlock": 860,
-        "IconHint": "itaque",
+        "Id": 283,
+        "Name": "Lynch, Quigley and Runte",
+        "ToolTip": "Minus tempora enim et dolorum quo velit.",
+        "Deleted": false,
+        "Rank": 810,
+        "Type": "temporibus",
+        "ColorBlock": 1000,
+        "IconHint": "saepe",
         "Selected": true,
-        "LastChanged": "2010-11-29T18:28:49.4830902+01:00",
+        "LastChanged": "2021-09-25T11:10:27.3114523+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "aut",
-        "StyleHint": "et",
-        "Hidden": false,
-        "FullName": "Jaycee Hand",
-        "TableRight": {},
+        "ExtraInfo": "illum",
+        "StyleHint": "magni",
+        "Hidden": true,
+        "FullName": "Rosalee Auer",
+        "TableRight": null,
         "FieldProperties": {
           "fieldName": {
-            "FieldRight": {
-              "Mask": "FULL",
-              "Reason": ""
-            },
-            "FieldType": "System.Int32",
-            "FieldLength": 163
+            "FieldRight": null,
+            "FieldType": "System.String",
+            "FieldLength": 33
           }
         }
       }
     ],
-    "ExtraInfo": "necessitatibus",
-    "StyleHint": "vel",
+    "ExtraInfo": "dolore",
+    "StyleHint": "ea",
     "Hidden": false,
-    "FullName": "Mr. Abdiel Gorczany",
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "FullName": "Mafalda Tromp Sr.",
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 726
+        "FieldRight": null,
+        "FieldType": "System.Int32",
+        "FieldLength": 355
       }
     }
   }

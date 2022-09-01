@@ -17,6 +17,7 @@ Gets a Associate object.
 
 **Returns:** Associate
 
+
 [WSDL file for Services85/Associate](../Services85-Associate.md)
 
 Obtain a ticket from the [Services85/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -48,6 +49,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+
 
 ## GetAssociate Response
 
@@ -81,3 +83,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

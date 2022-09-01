@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Preference/CreateDefaultPreferenceDescription
-id: v1PreferenceAgent_CreateDefaultPreferenceDescription
+uid: v1PreferenceAgent_CreateDefaultPreferenceDescription
 ---
 
 # POST Agents/Preference/CreateDefaultPreferenceDescription
@@ -11,7 +11,14 @@ POST /api/v1/Agents/Preference/CreateDefaultPreferenceDescription
 
 Set default values into a new PreferenceDescription.
 
+
 NetServer calculates default values on the entity, which is required when creating/storing a new instance
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -26,18 +33,16 @@ NetServer calculates default values on the entity, which is required when creati
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response: object
 
-Preference description, drives the Preference GUI. Maintenance client - controls all preferences in SuperOffice.
+## Response: 
 
-Carrier object for PreferenceDescription.
-Services for the PreferenceDescription Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IPreferenceAgent">Preference Agent</see>.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -62,7 +67,7 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Preference/CreateDefaultPreferenceDescription
@@ -71,41 +76,37 @@ Accept: application/json; charset=utf-8
 Accept-Language: sv
 ```
 
+## Sample response
+
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 173,
-  "Section": "voluptatem",
-  "Key": "quaerat",
-  "Name": "Howe, Padberg and Turner",
+  "PrefDescId": 487,
+  "Section": "qui",
+  "Key": "perferendis",
+  "Name": "Wilkinson Group",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Realigned secondary portal",
-  "IsBuiltin": false,
-  "TableName": "Littel Group",
-  "UserDefinedListId": 46,
-  "Rank": 735,
-  "SubGroup": "rerum",
-  "MinLevel": 726,
-  "MaxValue": 49,
-  "MinValue": 873,
-  "RequiredLicense": "vero",
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "Description": "Multi-channelled interactive encoding",
+  "IsBuiltin": true,
+  "TableName": "Klein Group",
+  "UserDefinedListId": 325,
+  "Rank": 239,
+  "SubGroup": "nisi",
+  "MinLevel": 215,
+  "MaxValue": 665,
+  "MinValue": 759,
+  "RequiredLicense": "nisi",
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
-      "FieldType": "System.Int32",
-      "FieldLength": 975
+      "FieldRight": null,
+      "FieldType": "System.String",
+      "FieldLength": 976
     }
   }
 }

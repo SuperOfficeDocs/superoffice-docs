@@ -1,6 +1,6 @@
 ---
 title: GET Appointment/{id}/Participants
-id: v1AppointmentEntity_Participants
+uid: v1AppointmentEntity_Participants
 ---
 
 # GET Appointment/{id}/Participants
@@ -11,6 +11,7 @@ GET /api/v1/Appointment/{id}/Participants
 
 OData list of Participants under a specific AppointmentEntity.
 
+
 Can be sorted and further filtered using OData conventions:
 
 * Appointment/1234/Participants?$select=col1,col2,abc/col3
@@ -19,19 +20,22 @@ Can be sorted and further filtered using OData conventions:
 * Appointment/1234/Participants?$top=1000
 * Appointment/1234/Participants?$mode=full
 
+
 OData returns XML or JSON carriers depending on the HTTP Accept header.
+
 
 Calls the Archive service using the "Participants" archive provider.
 
-## Filter Operators
+
+## Filter Operators: ##
 
 ints: eq =, ne, le, lt, gt, ge, set, equals, greater, less, unequals, between
 
 strings: contains, is, notBegins, notContains, isNot
 
-associate: associateIsOneOf, associateIsNotOneOf,
+associate: associateIsOneOf, associateIsNotOneOf,  
 
-list ids: oneOf, NotOneOf,
+list ids: oneOf, NotOneOf, 
 
 dates: before, date, after, dateBetween, beforeToday
 
@@ -39,9 +43,15 @@ Unary ops: currentAssociate, beforeToday, today, afterToday, lastWeek, thisWeek,
 
 Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,n,period), previous(f,n,period), thisAndNext(f,n,period), thisAndPrevious(f,n,period), thisAndPreviousAndNext(f,period)
 
+
+
+
+
+
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | id | int32 | The entity id **Required** |
+
 
 ## Query String Parameters
 
@@ -64,16 +74,17 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 GET /api/v1/Appointment/{id}/Participants?$select=name,department,category/id
 GET /api/v1/Appointment/{id}/Participants?$filter=name begins 'S'
 GET /api/v1/Appointment/{id}/Participants?$orderBy=name asc
-GET /api/v1/Appointment/{id}/Participants?$entities=tempora
-GET /api/v1/Appointment/{id}/Participants?$top=755
-GET /api/v1/Appointment/{id}/Participants?$skip=923
+GET /api/v1/Appointment/{id}/Participants?$entities=adipisci
+GET /api/v1/Appointment/{id}/Participants?$top=712
+GET /api/v1/Appointment/{id}/Participants?$skip=883
 GET /api/v1/Appointment/{id}/Participants?$mode=Full
 GET /api/v1/Appointment/{id}/Participants?$options=GrandTotal=true
-GET /api/v1/Appointment/{id}/Participants?$context=ut
+GET /api/v1/Appointment/{id}/Participants?$context=odit
 GET /api/v1/Appointment/{id}/Participants?$format=JSON
 GET /api/v1/Appointment/{id}/Participants?$jsonSafe=True
 GET /api/v1/Appointment/{id}/Participants?$output=Display
 ```
+
 
 ## Request Headers
 
@@ -88,16 +99,17 @@ GET /api/v1/Appointment/{id}/Participants?$output=Display
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response: object
 
-Easy to use archive results - just a flat list of values.
+## Response: 
+
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 | 404 | Not Found. |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -105,14 +117,16 @@ Response body: object
 | odata.nextLink | string |  |
 | value | array |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 GET /api/v1/Appointment/{id}/Participants
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -120,21 +134,19 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "et",
+  "odata.nextLink": "harum",
   "value": [
     {
-      "PrimaryKey": 1699,
-      "EntityName": "sale",
-      "saleId": 1699,
-      "contactId": 6075,
-      "name": "Halvorson-Kohler"
+      "PrimaryKey": 2937,
+      "EntityName": "person",
+      "personId": 2937,
+      "fullName": "Ally Reichert"
     },
     {
-      "PrimaryKey": 9591,
-      "EntityName": "sale",
-      "saleId": 9591,
-      "contactId": 3221,
-      "name": "Mante Group"
+      "PrimaryKey": 3025,
+      "EntityName": "person",
+      "personId": 3025,
+      "fullName": "Ladarius Olson"
     }
   ]
 }

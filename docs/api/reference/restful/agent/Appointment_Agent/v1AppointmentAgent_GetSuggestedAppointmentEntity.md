@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Appointment/GetSuggestedAppointmentEntity
-id: v1AppointmentAgent_GetSuggestedAppointmentEntity
+uid: v1AppointmentAgent_GetSuggestedAppointmentEntity
 ---
 
 # POST Agents/Appointment/GetSuggestedAppointmentEntity
@@ -11,6 +11,12 @@ POST /api/v1/Agents/Appointment/GetSuggestedAppointmentEntity
 
 Gets a SuggestedAppointmentEntity object.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -19,9 +25,10 @@ Gets a SuggestedAppointmentEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Appointment/GetSuggestedAppointmentEntity?suggestedAppointmentEntityId=675
+POST /api/v1/Agents/Appointment/GetSuggestedAppointmentEntity?suggestedAppointmentEntityId=203
 POST /api/v1/Agents/Appointment/GetSuggestedAppointmentEntity?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -36,16 +43,16 @@ POST /api/v1/Agents/Appointment/GetSuggestedAppointmentEntity?$select=name,depar
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response: object
 
-Carrier object for SuggestedAppointmentEntity.
-Services for the SuggestedAppointmentEntity Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IAppointmentAgent">Appointment Agent</see>.
+## Response: 
+
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -66,100 +73,42 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Appointment/GetSuggestedAppointmentEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SuggestedAppointmentId": 662,
-  "Name": "Corkery, Veum and Cruickshank",
-  "Tooltip": "aut",
-  "Rank": 103,
-  "Deleted": true,
-  "DaysFuture": 468,
-  "Duration": "aut",
-  "AutoSuggest": false,
-  "IsMilestone": true,
+  "SuggestedAppointmentId": 97,
+  "Name": "Hackett Inc and Sons",
+  "Tooltip": "ipsum",
+  "Rank": 395,
+  "Deleted": false,
+  "DaysFuture": 312,
+  "Duration": "cumque",
+  "AutoSuggest": true,
+  "IsMilestone": false,
   "AssignToMember": false,
-  "Text": "amet",
-  "ProjectTypeStatusLink": {
-    "ProjectTypeStatusLinkId": 878,
-    "ProjTypeId": 231,
-    "ProjTypeName": "Dickens Inc and Sons",
-    "ProjTypeTooltip": "tenetur",
-    "ProjStatusId": 500,
-    "ProjStatusName": "Lehner, Emmerich and Marks",
-    "ProjStatusTooltip": "perferendis",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.Int32",
-        "FieldLength": 559
-      }
-    }
-  },
-  "SaleTypeStageLink": {
-    "SaleTypeStageLinkId": 207,
-    "SaleTypeId": 635,
-    "SaleTypeName": "Schowalter, Hahn and Kris",
-    "SaleTypeTooltip": "eos",
-    "ProbId": 687,
-    "ProbName": "Hahn, Gutkowski and Runolfsson",
-    "ProbTooltip": "nam",
-    "Probability": 318,
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.Int32",
-        "FieldLength": 933
-      }
-    }
-  },
-  "Type": {
-    "Id": 568,
-    "Value": "consectetur",
-    "Tooltip": "ea",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 932
-      }
-    }
-  },
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "Text": "quia",
+  "ProjectTypeStatusLink": null,
+  "SaleTypeStageLink": null,
+  "Type": null,
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
-      "FieldType": "System.String",
-      "FieldLength": 342
+      "FieldRight": null,
+      "FieldType": "System.Int32",
+      "FieldLength": 267
     }
   }
 }

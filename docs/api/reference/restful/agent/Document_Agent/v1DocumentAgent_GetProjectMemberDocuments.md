@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Document/GetProjectMemberDocuments
-id: v1DocumentAgent_GetProjectMemberDocuments
+uid: v1DocumentAgent_GetProjectMemberDocuments
 ---
 
 # POST Agents/Document/GetProjectMemberDocuments
@@ -11,7 +11,13 @@ POST /api/v1/Agents/Document/GetProjectMemberDocuments
 
 Method that returns a specified number of document appointments within a time range.
 
+
 The document appointments belong to the project member specified.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +28,7 @@ The document appointments belong to the project member specified.
 ```http
 POST /api/v1/Agents/Document/GetProjectMemberDocuments?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,9 +44,9 @@ POST /api/v1/Agents/Document/GetProjectMemberDocuments?$select=name,department,c
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-PersonId, StartTime, EndTime, Count
+PersonId, StartTime, EndTime, Count 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -48,7 +55,10 @@ PersonId, StartTime, EndTime, Count
 | EndTime | date-time |  |
 | Count | int32 |  |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -76,25 +86,29 @@ Response body: array
 | ProjectName | string | Project name |
 | AssociateId | int32 | ID of associate whose diary the appointment is in, REQUIRED |
 | Snum | int32 | The sequence number allocated from refcount on used template when creating the document |
+| SaleId | int32 | Owning sale, if any (may be 0) |
+| SaleName | string | Heading of Owning sale, if any. (may be blank) |
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Document/GetProjectMemberDocuments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 756,
-  "StartTime": "2020-08-22T18:28:48.7169575+02:00",
-  "EndTime": "2010-08-17T18:28:48.7169575+02:00",
-  "Count": 400
+  "PersonId": 742,
+  "StartTime": "2016-07-23T11:10:26.4724528+02:00",
+  "EndTime": "2015-09-09T11:10:26.4724528+02:00",
+  "Count": 245
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -102,36 +116,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 795,
-    "Attention": "ab",
-    "Header": "in",
-    "Name": "Zieme-Botsford",
-    "OurRef": "sunt",
-    "YourRef": "delectus",
-    "Description": "Synchronised logistical protocol",
-    "DocumentTemplate": "numquam",
-    "IsPublished": false,
-    "PersonId": 959,
-    "PersonFullName": "Jovan Christiansen",
-    "AssociateFullName": "Mable Konopelski",
-    "ContactId": 446,
-    "ContactName": "Reilly Group",
-    "ProjectId": 791,
-    "ProjectName": "Jones, Cormier and Hegmann",
-    "AssociateId": 698,
-    "Snum": 955,
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "DocumentId": 801,
+    "Attention": "rerum",
+    "Header": "alias",
+    "Name": "Gibson-Harvey",
+    "OurRef": "eos",
+    "YourRef": "animi",
+    "Description": "Multi-lateral context-sensitive task-force",
+    "DocumentTemplate": "veritatis",
+    "IsPublished": true,
+    "PersonId": 775,
+    "PersonFullName": "Jaleel Willms",
+    "AssociateFullName": "Mr. Emmanuel Nader",
+    "ContactId": 165,
+    "ContactName": "Welch LLC",
+    "ProjectId": 948,
+    "ProjectName": "Effertz Group",
+    "AssociateId": 12,
+    "Snum": 187,
+    "SaleId": 999,
+    "SaleName": "Thiel-Graham",
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
+        "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 538
+        "FieldLength": 158
       }
     }
   }

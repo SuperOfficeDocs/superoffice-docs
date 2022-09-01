@@ -1,6 +1,6 @@
 ---
 title: PUT List/ProductCategory/Items/{id}/UserGroups
-id: v1ProductCategoryList_PutProductCategoryUserGroupsForListItem
+uid: v1ProductCategoryList_PutProductCategoryUserGroupsForListItem
 ---
 
 # PUT List/ProductCategory/Items/{id}/UserGroups
@@ -11,11 +11,18 @@ PUT /api/v1/List/ProductCategory/Items/{itemId}/UserGroups
 
 Saves user groups visible for the ProductCategory list's item.
 
+
 Calls the List agent service SaveHeadingsForListItemFromListDefinition.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | itemId | int32 | The ID of the item to save. **Required** |
+
+
 
 ## Request Headers
 
@@ -31,9 +38,9 @@ Calls the List agent service SaveHeadingsForListItemFromListDefinition.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entities
+## Request Body: entities  
 
-The headings to be saved.
+The headings to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -53,7 +60,10 @@ The headings to be saved.
 | Hidden | bool | True if the ListItem is hidden |
 | FullName | string | The name of the ListItem in its context |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -81,56 +91,58 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 PUT /api/v1/List/ProductCategory/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 42,
-    "Name": "Beatty-Aufderhar",
-    "ToolTip": "Tempore assumenda facere.",
+    "Id": 800,
+    "Name": "Purdy-West",
+    "ToolTip": "Omnis reprehenderit laboriosam temporibus qui minus.",
     "Deleted": true,
-    "Rank": 844,
-    "Type": "cupiditate",
-    "ColorBlock": 321,
-    "IconHint": "fugit",
-    "Selected": true,
-    "LastChanged": "2003-08-16T18:25:51.9982128+02:00",
+    "Rank": 467,
+    "Type": "ad",
+    "ColorBlock": 501,
+    "IconHint": "optio",
+    "Selected": false,
+    "LastChanged": "1998-02-05T11:10:54.4189028+01:00",
     "ChildItems": [
       {
-        "Id": 25,
-        "Name": "Turcotte, Huels and Turcotte",
-        "ToolTip": "Animi nostrum velit nesciunt.",
-        "Deleted": true,
-        "Rank": 693,
-        "Type": "et",
-        "ColorBlock": 797,
-        "IconHint": "ratione",
-        "Selected": true,
-        "LastChanged": "2006-01-26T18:25:51.9982128+01:00",
+        "Id": 776,
+        "Name": "Dicki-Ruecker",
+        "ToolTip": "Aliquam ut debitis pariatur et illo quisquam.",
+        "Deleted": false,
+        "Rank": 797,
+        "Type": "ipsam",
+        "ColorBlock": 221,
+        "IconHint": "omnis",
+        "Selected": false,
+        "LastChanged": "2021-02-18T11:10:54.4189028+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "laborum",
-        "StyleHint": "corporis",
+        "ExtraInfo": "quia",
+        "StyleHint": "doloremque",
         "Hidden": true,
-        "FullName": "Alyce Ankunding"
+        "FullName": "Alba McLaughlin"
       }
     ],
-    "ExtraInfo": "minus",
-    "StyleHint": "quia",
+    "ExtraInfo": "autem",
+    "StyleHint": "explicabo",
     "Hidden": true,
-    "FullName": "Kennith Herman"
+    "FullName": "Dr. Lisette Sawayn DDS"
   }
 ]
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -138,65 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 640,
-    "Name": "Little Inc and Sons",
-    "ToolTip": "Quia quis mollitia ut id.",
+    "Id": 505,
+    "Name": "Wiegand-Powlowski",
+    "ToolTip": "Debitis sint porro amet in aut unde.",
     "Deleted": false,
-    "Rank": 318,
-    "Type": "quia",
-    "ColorBlock": 605,
-    "IconHint": "in",
+    "Rank": 265,
+    "Type": "inventore",
+    "ColorBlock": 68,
+    "IconHint": "ut",
     "Selected": false,
-    "LastChanged": "1996-08-18T18:25:51.9992125+02:00",
+    "LastChanged": "2008-06-11T11:10:54.42093+02:00",
     "ChildItems": [
       {
-        "Id": 959,
-        "Name": "Bode, Crist and Streich",
-        "ToolTip": "Nesciunt porro ab voluptatem eos aliquid.",
-        "Deleted": true,
-        "Rank": 738,
-        "Type": "porro",
-        "ColorBlock": 812,
-        "IconHint": "perspiciatis",
+        "Id": 259,
+        "Name": "Herman, Abbott and Konopelski",
+        "ToolTip": "Mollitia quo.",
+        "Deleted": false,
+        "Rank": 492,
+        "Type": "deserunt",
+        "ColorBlock": 24,
+        "IconHint": "sit",
         "Selected": false,
-        "LastChanged": "2012-09-12T18:25:51.9992125+02:00",
+        "LastChanged": "2006-07-04T11:10:54.42093+02:00",
         "ChildItems": [
           {},
           {}
         ],
         "ExtraInfo": "ut",
-        "StyleHint": "ea",
-        "Hidden": true,
-        "FullName": "Ken Williamson",
-        "TableRight": {},
+        "StyleHint": "porro",
+        "Hidden": false,
+        "FullName": "Mr. Raleigh Amari Brakus IV",
+        "TableRight": null,
         "FieldProperties": {
           "fieldName": {
-            "FieldRight": {
-              "Mask": "FULL",
-              "Reason": ""
-            },
-            "FieldType": "System.Int32",
-            "FieldLength": 323
+            "FieldRight": null,
+            "FieldType": "System.String",
+            "FieldLength": 135
           }
         }
       }
     ],
-    "ExtraInfo": "in",
-    "StyleHint": "iste",
-    "Hidden": false,
-    "FullName": "Dejon Kuphal",
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "ExtraInfo": "et",
+    "StyleHint": "deserunt",
+    "Hidden": true,
+    "FullName": "Dr. Erica Tromp",
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
+        "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 579
+        "FieldLength": 634
       }
     }
   }

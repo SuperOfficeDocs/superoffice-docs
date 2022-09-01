@@ -1,6 +1,6 @@
 ---
 title: POST Agents/CRMScript/ExecuteScriptAsEventByUniqueId
-id: v1CRMScriptAgent_ExecuteScriptAsEventByUniqueId
+uid: v1CRMScriptAgent_ExecuteScriptAsEventByUniqueId
 ---
 
 # POST Agents/CRMScript/ExecuteScriptAsEventByUniqueId
@@ -11,9 +11,16 @@ POST /api/v1/Agents/CRMScript/ExecuteScriptAsEventByUniqueId
 
 Execute a CRMScript with event data as input.
 
+
 Returns event data with output variable values.
 
-## Online Restricted: ## The CRMScript agent is not available in Online by default. Access must be requested specifically when app is registered
+
+## Online Restricted: ## The CRMScript agent is not available in Online by default. Access must be requested specifically when app is registered.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -24,6 +31,7 @@ Returns event data with output variable values.
 ```http
 POST /api/v1/Agents/CRMScript/ExecuteScriptAsEventByUniqueId?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -39,27 +47,25 @@ POST /api/v1/Agents/CRMScript/ExecuteScriptAsEventByUniqueId?$select=name,depart
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-CRMScriptUniqueId, EventData
+CRMScriptUniqueId, EventData 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | CRMScriptUniqueId | string |  |
-| EventData |  | EventData containing data related to event handlers <br /> Carrier object for EventData. Services for the EventData Carrier is available from the <see cref="T:SuperOffice.CRM.Services.ICustomerServiceAgent">CustomerService Agent</see>. |
+| EventData |  | EventData containing data related to event handlers <para /> Carrier object for EventData. Services for the EventData Carrier is available from the <see cref="T:SuperOffice.CRM.Services.ICustomerServiceAgent">CustomerService Agent</see>. |
 
-## Response: object
 
-EventData containing data related to event handlers
+## Response: 
 
-Carrier object for EventData.
-Services for the EventData Carrier is available from the <see cref="T:SuperOffice.CRM.Services.ICustomerServiceAgent">CustomerService Agent</see>.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -74,38 +80,22 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/CRMScript/ExecuteScriptAsEventByUniqueId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "CRMScriptUniqueId": "voluptatibus",
-  "EventData": {
-    "Type": "ChatAfterSaveNewMessage",
-    "InputValues": {
-      "InputValues1": "tenetur",
-      "InputValues2": "sit"
-    },
-    "BlockExecution": false,
-    "NavigateTo": "error",
-    "Message": "consequatur",
-    "OutputValues": {
-      "OutputValues1": "autem",
-      "OutputValues2": "rem"
-    },
-    "StateValues": {
-      "StateValues1": "ut",
-      "StateValues2": "voluptatum"
-    },
-    "Exception": "et"
-  }
+  "CRMScriptUniqueId": "ducimus",
+  "EventData": null
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -114,33 +104,27 @@ Content-Type: application/json; charset=utf-8
 {
   "Type": "ChatAfterSaveNewMessage",
   "InputValues": {
-    "InputValues1": "tempora",
-    "InputValues2": "quo"
+    "InputValues1": "reiciendis",
+    "InputValues2": "dicta"
   },
-  "BlockExecution": true,
-  "NavigateTo": "nisi",
-  "Message": "porro",
+  "BlockExecution": false,
+  "NavigateTo": "similique",
+  "Message": "accusantium",
   "OutputValues": {
-    "OutputValues1": "ea",
-    "OutputValues2": "at"
+    "OutputValues1": "totam",
+    "OutputValues2": "temporibus"
   },
   "StateValues": {
-    "StateValues1": "reprehenderit",
-    "StateValues2": "sunt"
+    "StateValues1": "magni",
+    "StateValues2": "aut"
   },
-  "Exception": "consectetur",
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": "monetize collaborative communities"
-  },
+  "Exception": "molestias",
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
+      "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 139
+      "FieldLength": 411
     }
   }
 }

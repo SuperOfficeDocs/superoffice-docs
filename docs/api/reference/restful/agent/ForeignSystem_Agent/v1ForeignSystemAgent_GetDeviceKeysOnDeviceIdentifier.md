@@ -1,6 +1,6 @@
 ---
 title: POST Agents/ForeignSystem/GetDeviceKeysOnDeviceIdentifier
-id: v1ForeignSystemAgent_GetDeviceKeysOnDeviceIdentifier
+uid: v1ForeignSystemAgent_GetDeviceKeysOnDeviceIdentifier
 ---
 
 # POST Agents/ForeignSystem/GetDeviceKeysOnDeviceIdentifier
@@ -11,6 +11,12 @@ POST /api/v1/Agents/ForeignSystem/GetDeviceKeysOnDeviceIdentifier
 
 Returns all ForeignKeys that belong to a device with a given deviceIdentifier.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Returns all ForeignKeys that belong to a device with a given deviceIdentifier.
 ```http
 POST /api/v1/Agents/ForeignSystem/GetDeviceKeysOnDeviceIdentifier?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,9 +42,9 @@ POST /api/v1/Agents/ForeignSystem/GetDeviceKeysOnDeviceIdentifier?$select=name,d
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-ApplicationName, DeviceName, DeviceIdentifier
+ApplicationName, DeviceName, DeviceIdentifier 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -45,7 +52,10 @@ ApplicationName, DeviceName, DeviceIdentifier
 | DeviceName | string |  |
 | DeviceIdentifier | string |  |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -66,7 +76,7 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/ForeignSystem/GetDeviceKeysOnDeviceIdentifier
@@ -76,11 +86,13 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Kling Group",
-  "DeviceName": "Armstrong, Rippin and Pollich",
-  "DeviceIdentifier": "debitis"
+  "ApplicationName": "Bergstrom, Ruecker and Padberg",
+  "DeviceName": "Hoeger, White and Schaden",
+  "DeviceIdentifier": "similique"
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -88,26 +100,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Key": "tenetur",
-    "Value": "repellat",
-    "RecordId": 522,
-    "CreatedDate": "2016-01-11T18:28:49.2230983+01:00",
-    "UpdatedDate": "2010-07-27T18:28:49.2230983+02:00",
-    "UpdatedBy": "ratione",
-    "CreatedBy": "id",
-    "TableName": "Larkin-Hammes",
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "Key": "ex",
+    "Value": "aliquam",
+    "RecordId": 860,
+    "CreatedDate": "2009-09-19T11:10:27.0924523+02:00",
+    "UpdatedDate": "2009-12-12T11:10:27.0924523+01:00",
+    "UpdatedBy": "optio",
+    "CreatedBy": "velit",
+    "TableName": "Kutch-Ferry",
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 57
+        "FieldRight": null,
+        "FieldType": "System.Int32",
+        "FieldLength": 581
       }
     }
   }

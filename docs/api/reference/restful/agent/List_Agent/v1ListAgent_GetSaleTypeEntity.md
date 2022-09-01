@@ -1,6 +1,6 @@
 ---
 title: POST Agents/List/GetSaleTypeEntity
-id: v1ListAgent_GetSaleTypeEntity
+uid: v1ListAgent_GetSaleTypeEntity
 ---
 
 # POST Agents/List/GetSaleTypeEntity
@@ -11,6 +11,12 @@ POST /api/v1/Agents/List/GetSaleTypeEntity
 
 Gets a SaleTypeEntity object.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -19,9 +25,10 @@ Gets a SaleTypeEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetSaleTypeEntity?saleTypeEntityId=904
+POST /api/v1/Agents/List/GetSaleTypeEntity?saleTypeEntityId=101
 POST /api/v1/Agents/List/GetSaleTypeEntity?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -36,16 +43,16 @@ POST /api/v1/Agents/List/GetSaleTypeEntity?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response: object
 
-Carrier object for SaleTypeEntity.
-Services for the SaleTypeEntity Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IListAgent">List Agent</see>.
+## Response: 
+
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -70,90 +77,83 @@ Response body: object
 | MinEarningPercent | int32 | The minimum earning in percent of total, if set, on quotes linked to sales of this type |
 | GroupQuoteLinesBy | int32 | Group quote lines by this field |
 | SortGroupLinesBy | int32 | Sort group lines by this field |
-| Stages | array | Stages, those associated with this SaleType are selected.  <br />Use MDO List name "salestage" to get list items. |
+| Stages | array | Stages, those associated with this SaleType are selected.  <para>Use MDO List name "salestage" to get list items.</para> |
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/List/GetSaleTypeEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 330,
-  "Name": "Luettgen LLC",
-  "Tooltip": "architecto",
-  "Rank": 717,
+  "SaleTypeId": 679,
+  "Name": "Farrell, Leannon and Walter",
+  "Tooltip": "vel",
+  "Rank": 170,
   "DurationUnit": "Century",
-  "SaleDuration": 594,
-  "SaleTypeCatId": 339,
-  "Deleted": false,
-  "HasGuide": true,
+  "SaleDuration": 572,
+  "SaleTypeCatId": 687,
+  "Deleted": true,
+  "HasGuide": false,
   "HasStakeholders": false,
   "IsAutoAdvance": false,
-  "AllowQuoteAlternatives": false,
-  "DefaultQuoteValidity": 716,
-  "QuoteLinesTemplate": 452,
-  "ConfirmationLinesTemplate": 557,
-  "MaxDiscountPercentSet": true,
-  "MinEarningPercentSet": false,
-  "MaxDiscountPercent": 924,
-  "MinEarningPercent": 705,
-  "GroupQuoteLinesBy": 286,
-  "SortGroupLinesBy": 961,
+  "AllowQuoteAlternatives": true,
+  "DefaultQuoteValidity": 651,
+  "QuoteLinesTemplate": 585,
+  "ConfirmationLinesTemplate": 677,
+  "MaxDiscountPercentSet": false,
+  "MinEarningPercentSet": true,
+  "MaxDiscountPercent": 232,
+  "MinEarningPercent": 805,
+  "GroupQuoteLinesBy": 330,
+  "SortGroupLinesBy": 107,
   "Stages": [
     {
-      "Id": 99,
-      "Name": "Treutel-Powlowski",
-      "ToolTip": "Voluptas quaerat.",
+      "Id": 290,
+      "Name": "Schaefer LLC",
+      "ToolTip": "Earum laborum ut quia dolores reprehenderit.",
       "Deleted": true,
-      "Rank": 647,
-      "Type": "eum",
-      "ColorBlock": 951,
-      "IconHint": "sit",
+      "Rank": 774,
+      "Type": "aperiam",
+      "ColorBlock": 969,
+      "IconHint": "porro",
       "Selected": true,
-      "LastChanged": "1997-12-24T18:28:49.2601251+01:00",
+      "LastChanged": "2019-06-06T11:10:27.149425+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "quis",
-      "StyleHint": "nisi",
+      "ExtraInfo": "eius",
+      "StyleHint": "quis",
       "Hidden": false,
-      "FullName": "Demario Kessler",
-      "TableRight": {},
+      "FullName": "Mercedes Ernser",
+      "TableRight": null,
       "FieldProperties": {
         "fieldName": {
-          "FieldRight": {
-            "Mask": "FULL",
-            "Reason": "iterate out-of-the-box functionalities"
-          },
+          "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 304
+          "FieldLength": 408
         }
       }
     }
   ],
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
+      "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 180
+      "FieldLength": 432
     }
   }
 }

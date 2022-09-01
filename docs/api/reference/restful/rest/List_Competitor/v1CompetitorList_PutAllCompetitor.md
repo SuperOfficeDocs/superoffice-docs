@@ -1,6 +1,6 @@
 ---
 title: PUT List/Competitor/Items
-id: v1CompetitorList_PutAllCompetitor
+uid: v1CompetitorList_PutAllCompetitor
 ---
 
 # PUT List/Competitor/Items
@@ -10,6 +10,13 @@ PUT /api/v1/List/Competitor/Items
 ```
 
 Update the Competitor list
+
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -25,9 +32,9 @@ Update the Competitor list
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: listItems
+## Request Body: listItems  
 
-All the updated Competitor.
+All the updated Competitor. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -38,7 +45,10 @@ All the updated Competitor.
 | UdListDefinitionId | int32 | The id of the list which this list item belongs to |
 | Rank | int32 | The rank of the list item |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -57,34 +67,36 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 PUT /api/v1/List/Competitor/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 715,
-    "Name": "Padberg, Ritchie and Bahringer",
-    "Tooltip": "reprehenderit",
+    "Id": 195,
+    "Name": "Powlowski-Hermann",
+    "Tooltip": "aut",
     "Deleted": true,
-    "UdListDefinitionId": 420,
-    "Rank": 880
+    "UdListDefinitionId": 534,
+    "Rank": 906
   },
   {
-    "Id": 715,
-    "Name": "Padberg, Ritchie and Bahringer",
-    "Tooltip": "reprehenderit",
+    "Id": 195,
+    "Name": "Powlowski-Hermann",
+    "Tooltip": "aut",
     "Deleted": true,
-    "UdListDefinitionId": 420,
-    "Rank": 880
+    "UdListDefinitionId": 534,
+    "Rank": 906
   }
 ]
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -92,24 +104,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 164,
-    "Name": "Funk, Vandervort and Murazik",
-    "Tooltip": "omnis",
-    "Deleted": false,
-    "UdListDefinitionId": 110,
-    "Rank": 837,
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "Id": 202,
+    "Name": "Towne, Boehm and Schinner",
+    "Tooltip": "nihil",
+    "Deleted": true,
+    "UdListDefinitionId": 419,
+    "Rank": 86,
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
+        "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 263
+        "FieldLength": 814
       }
     }
   }

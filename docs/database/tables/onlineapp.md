@@ -6,14 +6,14 @@ so.generated: true
 keywords:
   - "database"
   - "OnlineApp"
-so.date: 04.12.2022
+so.date: 08.26.2022
 so.topic: reference
 so.envir:
   - "onsite"
   - "online"
 ---
 
-# OnlineApp Table (488)
+# OnlineApp Table (489)
 
 Echo and track information about Online Apps and their usage
 
@@ -33,6 +33,7 @@ Echo and track information about Online Apps and their usage
 |updated\_associate\_id|Last updated by whom|FK [associate](associate.md)| |
 |updatedCount|Number of updates made to this record|UShort| |
 
+
 ![OnlineApp table relationship diagram](./media/OnlineApp.png)
 
 [!include[details](./includes/onlineapp.md)]
@@ -50,6 +51,7 @@ Echo and track information about Online Apps and their usage
 |------|-------------|
 |[associate](associate.md)  |Employees, resources and other users - except for External persons |
 
+
 ## Replication Flags
 
 * None
@@ -57,3 +59,4 @@ Echo and track information about Online Apps and their usage
 ## Security Flags
 
 * No access control via user's Role.
+

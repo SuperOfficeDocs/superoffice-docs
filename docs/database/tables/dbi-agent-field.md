@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "dbi_agent_field"
-so.date: 04.12.2022
+so.date: 08.26.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -25,6 +25,7 @@ DBI agent fields
 |agent\_id|The agent owning this field|FK [dbi_agent](dbi-agent.md)| |
 |field\_name|Field name|String(255)|&#x25CF;|
 
+
 ![dbi_agent_field table relationship diagram](./media/dbi_agent_field.png)
 
 [!include[details](./includes/dbi-agent-field.md)]
@@ -42,6 +43,7 @@ DBI agent fields
 |------|-------------|
 |[dbi\_agent](dbi-agent.md)  |DBI agent settings |
 
+
 ## Replication Flags
 
 * None
@@ -49,3 +51,4 @@ DBI agent fields
 ## Security Flags
 
 * No access control via user's Role.
+

@@ -1,6 +1,6 @@
 ---
 title: PUT List/Category/Items/{id}
-id: v1CategoryList_PutCategory
+uid: v1CategoryList_PutCategory
 ---
 
 # PUT List/Category/Items/{id}
@@ -11,9 +11,16 @@ PUT /api/v1/List/Category/Items/{id}
 
 Updates an existing Category list item.
 
+
+
+
+
+
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | id | int32 | The id of Category to be saved. **Required** |
+
+
 
 ## Request Headers
 
@@ -29,9 +36,9 @@ Updates an existing Category list item.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: listItem
+## Request Body: listItem  
 
-The details of Category list item to be saved.
+The details of Category list item to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -42,19 +49,17 @@ The details of Category list item to be saved.
 | UdListDefinitionId | int32 | The id of the list which this list item belongs to |
 | Rank | int32 | The rank of the list item |
 
-## Response: object
 
-The list item entity contains generic list item information
+## Response: 
 
-Carrier object for ListItemEntity.
-Services for the ListItemEntity Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IListAgent">List Agent</see>.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 | 400 | Bad request. Entity to save is not in request body. |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -67,48 +72,44 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 PUT /api/v1/List/Category/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 518,
-  "Name": "Abshire LLC",
-  "Tooltip": "autem",
+  "Id": 245,
+  "Name": "Sipes-Goyette",
+  "Tooltip": "quae",
   "Deleted": false,
-  "UdListDefinitionId": 318,
-  "Rank": 204
+  "UdListDefinitionId": 730,
+  "Rank": 207
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 953,
-  "Name": "Crona Group",
-  "Tooltip": "doloribus",
+  "Id": 955,
+  "Name": "Dickinson-Hintz",
+  "Tooltip": "magni",
   "Deleted": true,
-  "UdListDefinitionId": 819,
-  "Rank": 46,
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "UdListDefinitionId": 363,
+  "Rank": 64,
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
-      "FieldType": "System.String",
-      "FieldLength": 770
+      "FieldRight": null,
+      "FieldType": "System.Int32",
+      "FieldLength": 363
     }
   }
 }

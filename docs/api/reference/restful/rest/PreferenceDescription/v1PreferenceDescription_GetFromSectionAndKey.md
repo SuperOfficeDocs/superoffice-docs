@@ -1,6 +1,6 @@
 ---
 title: GET PreferenceDescription/{section}/{key}
-id: v1PreferenceDescription_GetFromSectionAndKey
+uid: v1PreferenceDescription_GetFromSectionAndKey
 ---
 
 # GET PreferenceDescription/{section}/{key}
@@ -11,10 +11,17 @@ GET /api/v1/PreferenceDescription/{section}/{key}
 
 Gets a PreferenceDescription based on the section and key
 
+
+
+
+
+
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | section | string | The PreferenceDescription-section **Required** |
 | key | string | The PreferenceDescription-key **Required** |
+
+
 
 ## Request Headers
 
@@ -29,18 +36,16 @@ Gets a PreferenceDescription based on the section and key
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response: object
 
-Preference description, drives the Preference GUI. Maintenance client - controls all preferences in SuperOffice.
+## Response: 
 
-Carrier object for PreferenceDescription.
-Services for the PreferenceDescription Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IPreferenceAgent">Preference Agent</see>.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -65,7 +70,7 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 GET /api/v1/PreferenceDescription/{section}/{key}
@@ -74,41 +79,37 @@ Accept: application/json; charset=utf-8
 Accept-Language: en
 ```
 
+## Sample response
+
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 153,
-  "Section": "nihil",
-  "Key": "cum",
-  "Name": "Stanton Group",
+  "PrefDescId": 587,
+  "Section": "omnis",
+  "Key": "minus",
+  "Name": "Kihn Group",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Synergized clear-thinking interface",
+  "Description": "Business-focused reciprocal paradigm",
   "IsBuiltin": false,
-  "TableName": "Ortiz-Quigley",
-  "UserDefinedListId": 631,
-  "Rank": 151,
-  "SubGroup": "numquam",
-  "MinLevel": 13,
-  "MaxValue": 397,
-  "MinValue": 423,
-  "RequiredLicense": "adipisci",
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "TableName": "Johns LLC",
+  "UserDefinedListId": 414,
+  "Rank": 137,
+  "SubGroup": "consequuntur",
+  "MinLevel": 502,
+  "MaxValue": 118,
+  "MinValue": 849,
+  "RequiredLicense": "sit",
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
-      "FieldType": "System.String",
-      "FieldLength": 384
+      "FieldRight": null,
+      "FieldType": "System.Int32",
+      "FieldLength": 195
     }
   }
 }

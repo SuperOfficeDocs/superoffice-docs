@@ -12,11 +12,12 @@ Implemented by the <see cref="M:SuperOffice.Services86.IUserAgent.SaveServiceAut
 ## SaveServiceAuth
 
 Updates the existing ServiceAuth or creates a new ServiceAuth if the id parameter is 0.
-<br />**Online Restricted:** The User agent is not available in Online by default. User management is not allowed for partner apps.
+<para /><b>Online Restricted:</b> The User agent is not available in Online by default. User management is not allowed for partner apps.
 
 * **serviceAuth:** The ServiceAuth that is saved.
 
 **Returns:** New or updated ServiceAuth
+
 
 [WSDL file for Services86/User](../Services86-User.md)
 
@@ -57,6 +58,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## SaveServiceAuth Response
 
 ```xml
@@ -84,3 +86,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

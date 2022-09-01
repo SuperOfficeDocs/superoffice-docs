@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Preference/GetPreferences
-id: v1PreferenceAgent_GetPreferences
+uid: v1PreferenceAgent_GetPreferences
 ---
 
 # POST Agents/Preference/GetPreferences
@@ -11,7 +11,13 @@ POST /api/v1/Agents/Preference/GetPreferences
 
 Get one or more preferences based on a set of specifications.
 
+
 &lt;br/&gt;The prefDisplayvalue and prefDisplaytooltip are blank (faster processing relative to GetPreferencesWithDisplayValues)
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +28,7 @@ Get one or more preferences based on a set of specifications.
 ```http
 POST /api/v1/Agents/Preference/GetPreferences?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,15 +44,18 @@ POST /api/v1/Agents/Preference/GetPreferences?$select=name,department,category/i
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-Specifications
+Specifications 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | Specifications | array |  |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -69,28 +79,30 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Preference/GetPreferences
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "Specifications": [
     {
-      "Section": "quis",
-      "Key": "sequi"
+      "Section": "quia",
+      "Key": "illo"
     },
     {
-      "Section": "quis",
-      "Key": "sequi"
+      "Section": "quia",
+      "Key": "illo"
     }
   ]
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -99,58 +111,22 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "Level": "Database",
-    "RawValue": "odio",
-    "Specification": {
-      "Section": "quam",
-      "Key": "exercitationem",
-      "TableRight": {},
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": {
-            "Mask": "FULL",
-            "Reason": ""
-          },
-          "FieldType": "System.Int32",
-          "FieldLength": 935
-        }
-      }
-    },
-    "DisplayValue": "sunt",
-    "DisplayTooltip": "distinctio",
+    "RawValue": "fuga",
+    "Specification": null,
+    "DisplayValue": "quis",
+    "DisplayTooltip": "et",
     "DisplayType": "Bool",
-    "TabOrder": {
-      "TabOrderId": 293,
-      "TabName": "Collier-Kovacek",
-      "Order": "sed",
-      "AssociateId": 238,
-      "TableRight": {},
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": {
-            "Mask": "FULL",
-            "Reason": "harness user-centric e-markets"
-          },
-          "FieldType": "System.String",
-          "FieldLength": 670
-        }
-      }
-    },
-    "TargetId": 387,
-    "PrefDescId": 413,
-    "TableName": "Howe-Watsica",
-    "UserPreferenceId": 58,
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "TabOrder": null,
+    "TargetId": 522,
+    "PrefDescId": 900,
+    "TableName": "Jones Inc and Sons",
+    "UserPreferenceId": 125,
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
+        "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 779
+        "FieldLength": 189
       }
     }
   }

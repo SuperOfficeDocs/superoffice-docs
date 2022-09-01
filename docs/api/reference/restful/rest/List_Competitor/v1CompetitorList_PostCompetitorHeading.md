@@ -1,6 +1,6 @@
 ---
 title: POST List/Competitor/Headings
-id: v1CompetitorList_PostCompetitorHeading
+uid: v1CompetitorList_PostCompetitorHeading
 ---
 
 # POST List/Competitor/Headings
@@ -11,7 +11,14 @@ POST /api/v1/List/Competitor/Headings
 
 Saves a new heading for the Competitor list.
 
+
 Calls the List agent service SaveHeadingFromListDefinition.
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -27,9 +34,9 @@ Calls the List agent service SaveHeadingFromListDefinition.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: newEntity
+## Request Body: newEntity  
 
-The heading to be added.
+The heading to be added. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -40,18 +47,16 @@ The heading to be added.
 | Rank | int32 | Rank order |
 | UdListDefinitionId | int32 | The id of the list which this heading belongs to |
 
-## Response: object
 
-The heading entity contains generic list item information
+## Response: 
 
-Carrier object for HeadingEntity.
-Services for the HeadingEntity Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IListAgent">List Agent</see>.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -64,48 +69,44 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/List/Competitor/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 352,
-  "Name": "Schuster, O'Keefe and Nitzsche",
-  "Tooltip": "est",
+  "HeadingId": 997,
+  "Name": "Toy LLC",
+  "Tooltip": "laboriosam",
   "Deleted": true,
-  "Rank": 202,
-  "UdListDefinitionId": 372
+  "Rank": 142,
+  "UdListDefinitionId": 886
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 702,
-  "Name": "Predovic-Will",
-  "Tooltip": "quo",
+  "HeadingId": 526,
+  "Name": "Nitzsche Group",
+  "Tooltip": "occaecati",
   "Deleted": true,
-  "Rank": 686,
-  "UdListDefinitionId": 548,
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "Rank": 85,
+  "UdListDefinitionId": 433,
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": "transition interactive ROI"
-      },
-      "FieldType": "System.String",
-      "FieldLength": 536
+      "FieldRight": null,
+      "FieldType": "System.Int32",
+      "FieldLength": 359
     }
   }
 }

@@ -1,6 +1,6 @@
 ---
 title: GET TriggerScript/{id}
-id: v1TriggerScriptEntity_GetTriggerScriptByUniqueId
+uid: v1TriggerScriptEntity_GetTriggerScriptByUniqueId
 ---
 
 # GET TriggerScript/{id}
@@ -11,11 +11,20 @@ GET /api/v1/TriggerScript/{triggerScriptUniqueId}
 
 Get a trigger CRMScript.
 
-## Online Restricted: ## The CRMScript agent is not available in Online by default. Access must be requested specifically when app is registered
+
+
+
+## Online Restricted: ## The CRMScript agent is not available in Online by default. Access must be requested specifically when app is registered.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | triggerScriptUniqueId | string | The unique id of the CRMScript to validate **Required** |
+
+
 
 ## Request Headers
 
@@ -30,18 +39,16 @@ Get a trigger CRMScript.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response: object
 
-CRM Trigger Script - The script runs when a given event fires.
+## Response: 
 
-Carrier object for TriggerScriptEntity.
-Services for the TriggerScriptEntity Carrier is available from the <see cref="T:SuperOffice.CRM.Services.ICRMScriptAgent">CRMScript Agent</see>.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -50,7 +57,7 @@ Response body: object
 | ScreenType | string | Event id that triggers script.  See EventHandlerType enum. |
 | Enabled | bool | Whether this screen chooser is enabled or not |
 | UniqueIdentifier | string | Global unique identifier, accross customers/tenants |
-| Source | string | The CRMScript code for this event handler |
+| Source | string | The CRMscript code for this event handler |
 | Registered | date-time | Registered when  in UTC. |
 | RegisteredAssociateId | int32 | Registered by whom |
 | Updated | date-time | Last updated when  in UTC. |
@@ -58,42 +65,38 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 GET /api/v1/TriggerScript/{triggerScriptUniqueId}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 997,
-  "Name": "Olson, Monahan and Borer",
+  "ScreenChooserId": 747,
+  "Name": "Upton, Reichert and Cartwright",
   "ScreenType": "ChatAfterSaveNewMessage",
-  "Enabled": true,
-  "UniqueIdentifier": "voluptatem",
-  "Source": "quis",
-  "Registered": "2001-02-27T18:25:51.3221056+01:00",
-  "RegisteredAssociateId": 533,
-  "Updated": "2019-02-20T18:25:51.3221056+01:00",
-  "UpdatedAssociateId": 1000,
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "Enabled": false,
+  "UniqueIdentifier": "magnam",
+  "Source": "occaecati",
+  "Registered": "1997-12-16T11:10:53.6692151+01:00",
+  "RegisteredAssociateId": 985,
+  "Updated": "2005-02-19T11:10:53.6692151+01:00",
+  "UpdatedAssociateId": 893,
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
+      "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 693
+      "FieldLength": 614
     }
   }
 }

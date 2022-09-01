@@ -1,6 +1,6 @@
 ---
 title: GET List/PaymentType/Items
-id: v1PaymentTypeList_GetAll
+uid: v1PaymentTypeList_GetAll
 ---
 
 # GET List/PaymentType/Items
@@ -11,6 +11,12 @@ GET /api/v1/List/PaymentType/Items
 
 Gets all the PaymentType items
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Gets all the PaymentType items
 ```http
 GET /api/v1/List/PaymentType/Items?includeDeleted=True
 ```
+
 
 ## Request Headers
 
@@ -34,7 +41,10 @@ GET /api/v1/List/PaymentType/Items?includeDeleted=True
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -53,7 +63,7 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 GET /api/v1/List/PaymentType/Items
@@ -62,30 +72,26 @@ Accept: application/json; charset=utf-8
 Accept-Language: en
 ```
 
+## Sample response
+
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 810,
-    "Name": "Murray, Durgan and Gulgowski",
-    "Tooltip": "rerum",
-    "Deleted": true,
-    "UdListDefinitionId": 423,
-    "Rank": 940,
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "Id": 211,
+    "Name": "Breitenberg LLC",
+    "Tooltip": "ut",
+    "Deleted": false,
+    "UdListDefinitionId": 357,
+    "Rank": 927,
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
+        "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 986
+        "FieldLength": 701
       }
     }
   }

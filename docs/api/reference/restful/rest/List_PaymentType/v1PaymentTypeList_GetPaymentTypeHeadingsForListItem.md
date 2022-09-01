@@ -1,6 +1,6 @@
 ---
 title: GET List/PaymentType/Items/{id}/Headings
-id: v1PaymentTypeList_GetPaymentTypeHeadingsForListItem
+uid: v1PaymentTypeList_GetPaymentTypeHeadingsForListItem
 ---
 
 # GET List/PaymentType/Items/{id}/Headings
@@ -11,11 +11,17 @@ GET /api/v1/List/PaymentType/Items/{itemId}/Headings
 
 Gets headings for the PaymentType list's item.
 
+
 Calls the List agent service GetHeadings.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | itemId | int32 | The ID of the headings to be get. **Required** |
+
 
 ## Query String Parameters
 
@@ -24,8 +30,9 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/PaymentType/Items/{itemId}/Headings?showDeleted=True
+GET /api/v1/List/PaymentType/Items/{itemId}/Headings?showDeleted=False
 ```
+
 
 ## Request Headers
 
@@ -40,7 +47,10 @@ GET /api/v1/List/PaymentType/Items/{itemId}/Headings?showDeleted=True
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -68,7 +78,7 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 GET /api/v1/List/PaymentType/Items/{itemId}/Headings
@@ -77,71 +87,64 @@ Accept: application/json; charset=utf-8
 Accept-Language: en
 ```
 
+## Sample response
+
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 615,
-    "Name": "Morissette-Lesch",
-    "ToolTip": "Sunt error aut doloremque.",
+    "Id": 817,
+    "Name": "Krajcik-Daugherty",
+    "ToolTip": "Molestias ipsum.",
     "Deleted": false,
-    "Rank": 327,
-    "Type": "et",
-    "ColorBlock": 883,
-    "IconHint": "accusantium",
+    "Rank": 943,
+    "Type": "reiciendis",
+    "ColorBlock": 343,
+    "IconHint": "et",
     "Selected": false,
-    "LastChanged": "2003-04-18T18:25:51.9462403+02:00",
+    "LastChanged": "2004-09-18T11:10:54.3608991+02:00",
     "ChildItems": [
       {
-        "Id": 393,
-        "Name": "Keeling, Runte and Sporer",
-        "ToolTip": "Perferendis ut.",
+        "Id": 657,
+        "Name": "Bosco Inc and Sons",
+        "ToolTip": "Quia totam est aut non molestias.",
         "Deleted": false,
-        "Rank": 913,
-        "Type": "eos",
-        "ColorBlock": 350,
-        "IconHint": "porro",
+        "Rank": 373,
+        "Type": "maxime",
+        "ColorBlock": 540,
+        "IconHint": "non",
         "Selected": false,
-        "LastChanged": "2021-08-23T18:25:51.9462403+02:00",
+        "LastChanged": "2010-10-31T11:10:54.3618993+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "excepturi",
-        "StyleHint": "explicabo",
+        "ExtraInfo": "doloribus",
+        "StyleHint": "eos",
         "Hidden": false,
-        "FullName": "Waino Howe",
-        "TableRight": {},
+        "FullName": "Janelle Okuneva",
+        "TableRight": null,
         "FieldProperties": {
           "fieldName": {
-            "FieldRight": {
-              "Mask": "FULL",
-              "Reason": ""
-            },
+            "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 988
+            "FieldLength": 69
           }
         }
       }
     ],
-    "ExtraInfo": "dolorum",
-    "StyleHint": "voluptatem",
+    "ExtraInfo": "sint",
+    "StyleHint": "cumque",
     "Hidden": true,
-    "FullName": "Leanne Shanahan",
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "FullName": "Elenor White",
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
+        "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 250
+        "FieldLength": 720
       }
     }
   }

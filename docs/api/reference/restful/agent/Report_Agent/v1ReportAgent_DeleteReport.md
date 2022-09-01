@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Report/DeleteReport
-id: v1ReportAgent_DeleteReport
+uid: v1ReportAgent_DeleteReport
 ---
 
 # POST Agents/Report/DeleteReport
@@ -11,6 +11,12 @@ POST /api/v1/Agents/Report/DeleteReport
 
 Delete the report with the given id
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Delete the report with the given id
 ```http
 POST /api/v1/Agents/Report/DeleteReport?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,15 +42,18 @@ POST /api/v1/Agents/Report/DeleteReport?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-ReportId
+ReportId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | ReportId | int32 |  |
 
+
 ## Response: bool
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -51,19 +61,22 @@ ReportId
 
 Response body: bool
 
-## Sample Request
+
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Report/DeleteReport
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReportId": 146
+  "ReportId": 712
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK

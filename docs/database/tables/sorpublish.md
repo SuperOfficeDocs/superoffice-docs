@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "SORPublish"
-so.date: 04.12.2022
+so.date: 08.26.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -39,6 +39,7 @@ SuperOffice reporter data
 |isBuiltIn|Is this row a Standard Report? (reset to 0 if report is edited)|UShort|&#x25CF;|
 |isEdited|Has this (standard) report been edited? This is nice to know during the next upgrade, to avoid trampling on customizations|Bool|&#x25CF;|
 
+
 ![SORPublish table relationship diagram](./media/SORPublish.png)
 
 [!include[details](./includes/sorpublish.md)]
@@ -64,6 +65,7 @@ SuperOffice reporter data
 |[SORPublishGroupLink](sorpublishgrouplink.md)  |Link table used for filtering reports by user group |
 |[SORTemplate](sortemplate.md)  |SuperOffice reporter data |
 
+
 ## Replication Flags
 
 * Replicate changes DOWN from central to satellites and travellers.
@@ -73,3 +75,4 @@ SuperOffice reporter data
 ## Security Flags
 
 * Sentry controls access to items in this table using user's Role and data rights matrix.
+

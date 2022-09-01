@@ -1,6 +1,6 @@
 ---
 title: GET PreferenceDescriptionLine/{id}
-id: v1PreferenceDescriptionLine_GetPreferenceDescriptionLine
+uid: v1PreferenceDescriptionLine_GetPreferenceDescriptionLine
 ---
 
 # GET PreferenceDescriptionLine/{id}
@@ -11,11 +11,17 @@ GET /api/v1/PreferenceDescriptionLine/{id}
 
 Gets a PreferenceDescriptionLine object.
 
+
 Calls the Preference agent service GetPreferenceDescriptionLine.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | id | int32 | The id of the PreferenceDescriptionLine to return. **Required** |
+
 
 ## Query String Parameters
 
@@ -26,6 +32,7 @@ Calls the Preference agent service GetPreferenceDescriptionLine.
 ```http
 GET /api/v1/PreferenceDescriptionLine/{id}?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -40,18 +47,17 @@ GET /api/v1/PreferenceDescriptionLine/{id}?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response: object
 
-Preference description line, contains information about a single item in a preference description list.
+## Response: 
 
-PreferenceDescriptionLine entity with API _Links added.
+PreferenceDescriptionLine found.
 
 | Response | Description |
 |----------------|-------------|
 | 200 | PreferenceDescriptionLine found. |
 | 404 | Not Found. |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -65,38 +71,34 @@ Response body: object
 | FieldProperties | object |  |
 | _Links | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 GET /api/v1/PreferenceDescriptionLine/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 PreferenceDescriptionLine found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescLineId": 130,
-  "PrefDescId": 477,
-  "PrefValue": "culpa",
-  "PrefShowValue": "nostrum",
-  "Description": "Multi-lateral grid-enabled artificial intelligence",
-  "IsBuiltin": false,
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "PrefDescLineId": 460,
+  "PrefDescId": 603,
+  "PrefValue": "cum",
+  "PrefShowValue": "facere",
+  "Description": "Robust multi-state parallelism",
+  "IsBuiltin": true,
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
+      "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 520
+      "FieldLength": 976
     }
   },
   "_Links": {

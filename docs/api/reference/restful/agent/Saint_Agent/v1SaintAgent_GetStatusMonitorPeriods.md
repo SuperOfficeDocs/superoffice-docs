@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Saint/GetStatusMonitorPeriods
-id: v1SaintAgent_GetStatusMonitorPeriods
+uid: v1SaintAgent_GetStatusMonitorPeriods
 ---
 
 # POST Agents/Saint/GetStatusMonitorPeriods
@@ -11,6 +11,12 @@ POST /api/v1/Agents/Saint/GetStatusMonitorPeriods
 
 Returns the StatusMonitorPeriods entity.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Returns the StatusMonitorPeriods entity.
 ```http
 POST /api/v1/Agents/Saint/GetStatusMonitorPeriods?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -34,18 +41,16 @@ POST /api/v1/Agents/Saint/GetStatusMonitorPeriods?$select=name,department,catego
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response: object
 
-Obsolete, use SaintConfiguration carrier and methods instead. Was:Definition of the three perionds for status monitors
+## Response: 
 
-Carrier object for StatusMonitorPeriods.
-Services for the StatusMonitorPeriods Carrier is available from the <see cref="T:SuperOffice.CRM.Services.ISaintAgent">Saint Agent</see>.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -55,35 +60,31 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Saint/GetStatusMonitorPeriods
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Period1": 243,
-  "Period2": 676,
-  "Period3": 27,
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "Period1": 660,
+  "Period2": 543,
+  "Period3": 445,
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
+      "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 739
+      "FieldLength": 51
     }
   }
 }

@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Archive/GetArchiveListByColumnsWithContext
-id: v1ArchiveAgent_GetArchiveListByColumnsWithContext
+uid: v1ArchiveAgent_GetArchiveListByColumnsWithContext
 ---
 
 # POST Agents/Archive/GetArchiveListByColumnsWithContext
@@ -11,16 +11,39 @@ POST /api/v1/Agents/Archive/GetArchiveListByColumnsWithContext
 
 Get a page of results for an archive list with context parameter, explicitly specifying the restrictions, orderby and chosen columns.
 
+
+
 Archive Restriction Info objects represent search terms.
 
+
 Column names and operator strings are defined elsewhere.
+
 
 Values should be encoded using the CultureDataFormatter, so 10 is "[I:10]".
 Default string encodings should be handled ok, but beware of non-invariant cultures leading to incorrect date and float parsing.
 
-```csharp
-var restriction1 = new ArchiveRestrictionInfo("category", "equals", "[I:10]");
+
+
+
+
+
 ```
+
+var restriction1 = new ArchiveRestrictionInfo("category", "equals", "[I:10]");
+
+```
+
+
+
+
+
+
+
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -31,6 +54,7 @@ var restriction1 = new ArchiveRestrictionInfo("category", "equals", "[I:10]");
 ```http
 POST /api/v1/Agents/Archive/GetArchiveListByColumnsWithContext?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -46,9 +70,9 @@ POST /api/v1/Agents/Archive/GetArchiveListByColumnsWithContext?$select=name,depa
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-ProviderName, Columns, SortOrder, Restriction, Entities, Page, PageSize, Context
+ProviderName, Columns, SortOrder, Restriction, Entities, Page, PageSize, Context 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -61,7 +85,10 @@ ProviderName, Columns, SortOrder, Restriction, Entities, Page, PageSize, Context
 | PageSize | int32 |  |
 | Context | string |  |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -79,63 +106,65 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Archive/GetArchiveListByColumnsWithContext
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Mosciski-Russel",
+  "ProviderName": "Smith-Hackett",
   "Columns": [
-    "reiciendis",
-    "modi"
+    "facilis",
+    "esse"
   ],
   "SortOrder": [
     {
-      "Name": "Sipes-Reichert",
+      "Name": "Wiegand Group",
       "Direction": "ASC"
     },
     {
-      "Name": "Sipes-Reichert",
+      "Name": "Wiegand Group",
       "Direction": "ASC"
     }
   ],
   "Restriction": [
     {
-      "Name": "Stiedemann-Walker",
-      "Operator": "vitae",
+      "Name": "Oberbrunner-Cole",
+      "Operator": "quasi",
       "Values": [
-        "iusto",
-        "enim"
+        "aut",
+        "id"
       ],
       "DisplayValues": [
-        "blanditiis",
-        "quo"
+        "exercitationem",
+        "dolorem"
       ],
-      "ColumnInfo": {},
+      "ColumnInfo": null,
       "IsActive": true,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 503,
+      "InterParenthesis": 768,
       "InterOperator": "And",
-      "UniqueHash": 860
+      "UniqueHash": 717
     }
   ],
   "Entities": [
-    "sed",
-    "nihil"
+    "at",
+    "molestiae"
   ],
-  "Page": 393,
-  "PageSize": 204,
-  "Context": "quisquam"
+  "Page": 180,
+  "PageSize": 763,
+  "Context": "atque"
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -143,29 +172,23 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EntityName": "Beier Inc and Sons",
-    "PrimaryKey": 478,
+    "EntityName": "Gaylord, Price and Shields",
+    "PrimaryKey": 830,
     "ColumnData": {
       "fieldName": {
-        "DisplayValue": "consequatur",
-        "TooltipHint": "quo",
-        "LinkHint": "quia"
+        "DisplayValue": "molestiae",
+        "TooltipHint": "sunt",
+        "LinkHint": "explicabo"
       }
     },
-    "LinkHint": "expedita",
-    "StyleHint": "qui",
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "LinkHint": "et",
+    "StyleHint": "sint",
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 808
+        "FieldRight": null,
+        "FieldType": "System.Int32",
+        "FieldLength": 185
       }
     }
   }

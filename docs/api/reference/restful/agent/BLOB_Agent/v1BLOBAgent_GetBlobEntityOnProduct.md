@@ -1,6 +1,6 @@
 ---
 title: POST Agents/BLOB/GetBlobEntityOnProduct
-id: v1BLOBAgent_GetBlobEntityOnProduct
+uid: v1BLOBAgent_GetBlobEntityOnProduct
 ---
 
 # POST Agents/BLOB/GetBlobEntityOnProduct
@@ -11,6 +11,12 @@ POST /api/v1/Agents/BLOB/GetBlobEntityOnProduct
 
 Gets the blob entity that represents the product image binary object.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Gets the blob entity that represents the product image binary object.
 ```http
 POST /api/v1/Agents/BLOB/GetBlobEntityOnProduct?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,24 +42,24 @@ POST /api/v1/Agents/BLOB/GetBlobEntityOnProduct?$select=name,department,category
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-ProductId
+ProductId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | ProductId | int32 |  |
 
-## Response: object
 
-Carrier object for BlobEntity.
-Services for the BlobEntity Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IBLOBAgent">BLOB Agent</see>.
+## Response: 
+
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -72,98 +79,46 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/BLOB/GetBlobEntityOnProduct
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 722
+  "ProductId": 107
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 196,
-  "BlobSize": 779,
-  "Description": "Advanced client-server project",
-  "ExtraInfo": "quaerat",
+  "BlobId": 672,
+  "BlobSize": 833,
+  "Description": "De-engineered holistic data-warehouse",
+  "ExtraInfo": "odit",
   "IsEncrypted": true,
   "IsZipped": false,
-  "MimeType": "repellendus",
-  "OriginalSize": 810,
-  "CreatedDate": "2006-08-23T18:28:48.1637412+02:00",
-  "UpdatedDate": "2003-04-15T18:28:48.1637412+02:00",
-  "CreatedBy": {
-    "AssociateId": 579,
-    "Name": "Rodriguez, Jerde and Hirthe",
-    "PersonId": 260,
-    "Rank": 924,
-    "Tooltip": "odio",
-    "Type": "AnonymousAssociate",
-    "GroupIdx": 783,
-    "FullName": "Izaiah Keebler",
-    "FormalName": "Price-Ritchie",
-    "Deleted": false,
-    "EjUserId": 159,
-    "UserName": "Frami-Klein",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.Int32",
-        "FieldLength": 98
-      }
-    }
-  },
-  "UpdatedBy": {
-    "AssociateId": 21,
-    "Name": "Jenkins-Cassin",
-    "PersonId": 708,
-    "Rank": 151,
-    "Tooltip": "voluptas",
-    "Type": "AnonymousAssociate",
-    "GroupIdx": 19,
-    "FullName": "George Smitham",
-    "FormalName": "Bednar Inc and Sons",
-    "Deleted": true,
-    "EjUserId": 229,
-    "UserName": "Anderson-Larkin",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": "generate plug-and-play solutions"
-        },
-        "FieldType": "System.String",
-        "FieldLength": 21
-      }
-    }
-  },
-  "ConceptualType": "quia",
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "MimeType": "deleniti",
+  "OriginalSize": 585,
+  "CreatedDate": "1999-07-08T11:10:26.0365527+02:00",
+  "UpdatedDate": "2021-10-13T11:10:26.0365527+02:00",
+  "CreatedBy": null,
+  "UpdatedBy": null,
+  "ConceptualType": "doloremque",
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
+      "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 391
+      "FieldLength": 718
     }
   }
 }

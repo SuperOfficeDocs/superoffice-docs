@@ -1,6 +1,6 @@
 ---
 title: PATCH Dashboard/{id}
-id: v1Dashboard_PatchDashboard
+uid: v1Dashboard_PatchDashboard
 ---
 
 # PATCH Dashboard/{id}
@@ -10,6 +10,7 @@ PATCH /api/v1/Dashboard/{id}
 ```
 
 Update a Dashboard with changes, as described in a JSON Patch or a JSON Merge Patch document.
+
 
 See <a href="https://tools.ietf.org/html/rfc6902">RFC6902</a> and <a href="https://tools.ietf.org/html/rfc7386">RFC 7396</a>. Update the Department field to "foo" can be done either as a JSON PATCH:
 
@@ -27,14 +28,23 @@ or as a JSON MERGE PATCH, which describes the change directly:
 
 ```
 
+
+
 JSON PATCH supports operations 'add', 'replace', 'remove' and 'test'.
 The path is case insensitive, and the leading slash is optional, so the paths "/department", "Department" and "department" are all equivalent.
 
+
+
 Calls the {SuperOffice.CRM.Services.IDashboardAgent} service SaveDashboard.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | id | int32 | The Dashboard  id to update. **Required** |
+
 
 ## Query String Parameters
 
@@ -45,6 +55,7 @@ Calls the {SuperOffice.CRM.Services.IDashboardAgent} service SaveDashboard.
 ```http
 PATCH /api/v1/Dashboard/{id}?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -60,9 +71,9 @@ PATCH /api/v1/Dashboard/{id}?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: changes string
+## Request Body: changes string 
 
-JSON-Patch array of operations+path+value, or a MERGE-PATCH object (which will be converted to a list of JSON-PATCH operations).
+JSON-Patch array of operations+path+value, or a MERGE-PATCH object (which will be converted to a list of JSON-PATCH operations). 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -70,11 +81,10 @@ JSON-Patch array of operations+path+value, or a MERGE-PATCH object (which will b
 | path | string | The property names to modify.  "/users/0/email", "/users/-", |
 | value | object | New/Replaced value - string or object. |
 
-## Response: object
 
-Dashboard configuration
+## Response: 
 
-Dashboard entity with API _Links added.
+Dashboard  updated.
 
 | Response | Description |
 |----------------|-------------|
@@ -83,7 +93,7 @@ Dashboard entity with API _Links added.
 | 409 | Update blocked because a 'test' operation has detected a conflict with the entity value. |
 | 412 | Update aborted because Dashboard has changed since the requested If-Unmodified-Since timestamp. |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -96,7 +106,7 @@ Response body: object
 | FieldProperties | object |  |
 | _Links | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 PATCH /api/v1/Dashboard/{id}
@@ -108,66 +118,40 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "op": "add",
-    "path": "officia",
-    "value": {
-      "value1": {
-        "PrimaryKey": 5686,
-        "EntityName": "sale",
-        "saleId": 5686,
-        "contactId": 4402,
-        "name": "Thompson, Hodkiewicz and Murphy"
-      },
-      "value2": {
-        "PrimaryKey": 1885,
-        "EntityName": "person",
-        "personId": 1885,
-        "fullName": "Candace Crist"
-      }
-    }
+    "path": "non",
+    "value": {}
   },
   {
     "op": "add",
-    "path": "officia",
-    "value": {
-      "value1": {
-        "PrimaryKey": 5686,
-        "EntityName": "sale",
-        "saleId": 5686,
-        "contactId": 4402,
-        "name": "Thompson, Hodkiewicz and Murphy"
-      },
-      "value2": {
-        "PrimaryKey": 1885,
-        "EntityName": "person",
-        "personId": 1885,
-        "fullName": "Candace Crist"
-      }
-    }
+    "path": "non",
+    "value": {}
   }
 ]
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 Dashboard  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 902,
-  "AssociateId": 530,
-  "Caption": "excepturi",
+  "DashboardId": 323,
+  "AssociateId": 70,
+  "Caption": "labore",
   "Layout": "Four",
   "Tiles": [
     {
-      "DashboardTileId": 332,
-      "Caption": "quis",
-      "Description": "Extended stable knowledge user",
-      "ChartName": "Johns LLC",
-      "ChartId": "dolores",
+      "DashboardTileId": 363,
+      "Caption": "voluptas",
+      "Description": "Face to face uniform capability",
+      "ChartName": "O'Reilly Inc and Sons",
+      "ChartId": "consectetur",
       "IsDefault": false,
-      "AssociateId": 777,
-      "GroupId": 478,
-      "SelectionId": 467,
-      "Config": "nihil",
+      "AssociateId": 123,
+      "GroupId": 281,
+      "SelectionId": 41,
+      "Config": "inventore",
       "Type": "Bignum",
       "EntityType": "Activity",
       "Options": [
@@ -178,36 +162,27 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "TableRight": {},
+      "TableRight": null,
       "FieldProperties": {
         "fieldName": {
-          "FieldRight": {
-            "Mask": "FULL",
-            "Reason": ""
-          },
+          "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 916
+          "FieldLength": 823
         }
       }
     }
   ],
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
+      "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 274
+      "FieldLength": 245
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

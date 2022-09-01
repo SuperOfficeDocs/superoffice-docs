@@ -1,6 +1,6 @@
 ---
 title: PATCH Selection/{id}
-id: v1SelectionEntity_PatchSelectionEntity
+uid: v1SelectionEntity_PatchSelectionEntity
 ---
 
 # PATCH Selection/{id}
@@ -10,6 +10,7 @@ PATCH /api/v1/Selection/{id}
 ```
 
 Update a SelectionEntity with changes, as described in a JSON Patch or a JSON Merge Patch document.
+
 
 See <a href="https://tools.ietf.org/html/rfc6902">RFC6902</a> and <a href="https://tools.ietf.org/html/rfc7386">RFC 7396</a>. Update the Department field to "foo" can be done either as a JSON PATCH:
 
@@ -27,14 +28,23 @@ or as a JSON MERGE PATCH, which describes the change directly:
 
 ```
 
+
+
 JSON PATCH supports operations 'add', 'replace', 'remove' and 'test'.
 The path is case insensitive, and the leading slash is optional, so the paths "/department", "Department" and "department" are all equivalent.
 
+
+
 Calls the {SuperOffice.CRM.Services.ISelectionAgent} service SaveSelectionEntity.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | id | int32 | The SelectionEntity  id to update. **Required** |
+
 
 ## Query String Parameters
 
@@ -45,6 +55,7 @@ Calls the {SuperOffice.CRM.Services.ISelectionAgent} service SaveSelectionEntity
 ```http
 PATCH /api/v1/Selection/{id}?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -60,9 +71,9 @@ PATCH /api/v1/Selection/{id}?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: changes string
+## Request Body: changes string 
 
-JSON-Patch array of operations+path+value, or a MERGE-PATCH object (which will be converted to a list of JSON-PATCH operations).
+JSON-Patch array of operations+path+value, or a MERGE-PATCH object (which will be converted to a list of JSON-PATCH operations). 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -70,9 +81,10 @@ JSON-Patch array of operations+path+value, or a MERGE-PATCH object (which will b
 | path | string | The property names to modify.  "/users/0/email", "/users/-", |
 | value | object | New/Replaced value - string or object. |
 
-## Response: object
 
-SelectionEntity entity with API _Links added.
+## Response: 
+
+SelectionEntity  updated.
 
 | Response | Description |
 |----------------|-------------|
@@ -81,7 +93,7 @@ SelectionEntity entity with API _Links added.
 | 409 | Update blocked because a 'test' operation has detected a conflict with the entity value. |
 | 412 | Update aborted because SelectionEntity has changed since the requested If-Unmodified-Since timestamp. |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -90,7 +102,7 @@ Response body: object
 | Associate |  | Owner of the selection |
 | CreatedBy |  | Who created the selection |
 | UpdatedBy |  | Who last modified the selection |
-| SelectionCategory |  | Selection category type (list item)  <br />Use MDO List name "searchCat" to get list items. |
+| SelectionCategory |  | Selection category type (list item)  <para>Use MDO List name "searchCat" to get list items.</para> |
 | GroupIdx | int32 | Original primary user group of associate |
 | IncludePerson | int32 | 0 = Include first person, 1 = Include all persons, 2 = Include no persons |
 | MemberCount | int32 | How many selectionmembers (for progress bar calculations) - estimate, -1 (or 4294967295) means we don't know |
@@ -130,283 +142,110 @@ Response body: object
 | FieldProperties | object |  |
 | _Links | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 PATCH /api/v1/Selection/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "dolor",
-    "value": {
-      "value1": {
-        "PrimaryKey": 7412,
-        "EntityName": "sale",
-        "saleId": 7412,
-        "contactId": 9784,
-        "name": "Murphy, Torphy and Lueilwitz"
-      },
-      "value2": {
-        "PrimaryKey": 4530,
-        "EntityName": "person",
-        "personId": 4530,
-        "fullName": "Madyson Davis Jr."
-      }
-    }
+    "path": "repellendus",
+    "value": {}
   },
   {
     "op": "add",
-    "path": "dolor",
-    "value": {
-      "value1": {
-        "PrimaryKey": 7412,
-        "EntityName": "sale",
-        "saleId": 7412,
-        "contactId": 9784,
-        "name": "Murphy, Torphy and Lueilwitz"
-      },
-      "value2": {
-        "PrimaryKey": 4530,
-        "EntityName": "person",
-        "personId": 4530,
-        "fullName": "Madyson Davis Jr."
-      }
-    }
+    "path": "repellendus",
+    "value": {}
   }
 ]
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 SelectionEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Compatible 3rd generation function",
-  "Postit": "magnam",
-  "Associate": {
-    "AssociateId": 11,
-    "Name": "Sauer Group",
-    "PersonId": 194,
-    "Rank": 332,
-    "Tooltip": "optio",
-    "Type": "AnonymousAssociate",
-    "GroupIdx": 692,
-    "FullName": "Hillary Rowe",
-    "FormalName": "Braun-Homenick",
-    "Deleted": true,
-    "EjUserId": 747,
-    "UserName": "Kihn Inc and Sons",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.Int32",
-        "FieldLength": 560
-      }
-    }
-  },
-  "CreatedBy": {
-    "AssociateId": 234,
-    "Name": "Jast LLC",
-    "PersonId": 653,
-    "Rank": 558,
-    "Tooltip": "et",
-    "Type": "AnonymousAssociate",
-    "GroupIdx": 153,
-    "FullName": "Eda Crooks",
-    "FormalName": "Bosco-Brekke",
-    "Deleted": false,
-    "EjUserId": 651,
-    "UserName": "Quigley, Dickens and O'Conner",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": "productize cross-media solutions"
-        },
-        "FieldType": "System.Int32",
-        "FieldLength": 764
-      }
-    }
-  },
-  "UpdatedBy": {
-    "AssociateId": 30,
-    "Name": "Beier-Kertzmann",
-    "PersonId": 197,
-    "Rank": 961,
-    "Tooltip": "earum",
-    "Type": "AnonymousAssociate",
-    "GroupIdx": 68,
-    "FullName": "Nannie Schmidt DVM",
-    "FormalName": "Johnson-Boyle",
-    "Deleted": true,
-    "EjUserId": 155,
-    "UserName": "Hauck, Kautzer and Walsh",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.Int32",
-        "FieldLength": 583
-      }
-    }
-  },
-  "SelectionCategory": {
-    "Id": 719,
-    "Value": "vel",
-    "Tooltip": "ad",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 719
-      }
-    }
-  },
-  "GroupIdx": 626,
-  "IncludePerson": 845,
-  "MemberCount": 967,
-  "Name": "Schneider-Dach",
-  "PostitTextId": 438,
-  "CreatedDate": "2005-12-14T18:25:51.098944+01:00",
-  "SelectionId": 689,
-  "SoundEx": "iure",
-  "Source": 674,
-  "TextId": 889,
-  "UpdatedDate": "2003-08-09T18:25:51.098944+02:00",
-  "UpdatedCount": 863,
-  "Visibility": 473,
+  "Description": "Decentralized user-facing superstructure",
+  "Postit": "facilis",
+  "Associate": null,
+  "CreatedBy": null,
+  "UpdatedBy": null,
+  "SelectionCategory": null,
+  "GroupIdx": 961,
+  "IncludePerson": 930,
+  "MemberCount": 376,
+  "Name": "Hudson-Raynor",
+  "PostitTextId": 777,
+  "CreatedDate": "2014-05-30T11:10:53.5101682+02:00",
+  "SelectionId": 734,
+  "SoundEx": "reiciendis",
+  "Source": 689,
+  "TextId": 569,
+  "UpdatedDate": "2020-03-01T11:10:53.5101682+01:00",
+  "UpdatedCount": 74,
+  "Visibility": 305,
   "SelectionType": "Combined",
-  "CompanyUnique": true,
-  "TargetTableNumber": 427,
-  "TargetTableName": "Labadie-Pacocha",
+  "CompanyUnique": false,
+  "TargetTableNumber": 870,
+  "TargetTableName": "Kiehn-O'Conner",
   "Completed": false,
-  "LeftSelectionId": 827,
-  "RightSelectionId": 380,
+  "LeftSelectionId": 712,
+  "RightSelectionId": 33,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Wolff-Cartwright",
-  "ShadowProviderName": "Welch, Watsica and Fadel",
-  "ChartKey": "quibusdam",
-  "LastLoaded": "2014-12-02T18:25:51.098944+01:00",
-  "LastLoadedBy": 270,
-  "LastLoadedByAssociate": {
-    "AssociateId": 523,
-    "Name": "Cummings Group",
-    "PersonId": 345,
-    "Rank": 700,
-    "Tooltip": "voluptatibus",
-    "Type": "AnonymousAssociate",
-    "GroupIdx": 831,
-    "FullName": "Jose Kozey",
-    "FormalName": "Heaney LLC",
-    "Deleted": true,
-    "EjUserId": 211,
-    "UserName": "Barton, Connelly and Funk",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.Int32",
-        "FieldLength": 463
-      }
-    }
-  },
-  "LastMembershipChange": "1999-03-08T18:25:51.098944+01:00",
-  "LastMembershipChangeBy": 23,
-  "LastMembershipChangeByAssociate": {
-    "AssociateId": 455,
-    "Name": "Cummings-Swaniawski",
-    "PersonId": 608,
-    "Rank": 204,
-    "Tooltip": "laboriosam",
-    "Type": "AnonymousAssociate",
-    "GroupIdx": 609,
-    "FullName": "Wellington Conroy PhD",
-    "FormalName": "Robel-Windler",
-    "Deleted": true,
-    "EjUserId": 647,
-    "UserName": "Mills, Kuhn and Bernhard",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.Int32",
-        "FieldLength": 131
-      }
-    }
-  },
-  "MainHeading": "aut",
-  "MemberTabHeading": "sed",
-  "MailingsProviderName": "Stroman, Nolan and Leffler",
-  "DashboardTileDefinitionId": 462,
+  "MainProviderName": "Brakus Inc and Sons",
+  "ShadowProviderName": "Rohan-Ankunding",
+  "ChartKey": "ut",
+  "LastLoaded": "2005-08-23T11:10:53.5101682+02:00",
+  "LastLoadedBy": 831,
+  "LastLoadedByAssociate": null,
+  "LastMembershipChange": "2007-05-30T11:10:53.5111789+02:00",
+  "LastMembershipChangeBy": 41,
+  "LastMembershipChangeByAssociate": null,
+  "MainHeading": "alias",
+  "MemberTabHeading": "ut",
+  "MailingsProviderName": "Mohr, Langosh and Schmidt",
+  "DashboardTileDefinitionId": 269,
   "VisibleFor": [
     {
-      "VisibleId": 663,
+      "VisibleId": 588,
       "Visibility": "All",
-      "DisplayValue": "enim",
-      "TableRight": {},
+      "DisplayValue": "consectetur",
+      "TableRight": null,
       "FieldProperties": {
         "fieldName": {
-          "FieldRight": {
-            "Mask": "FULL",
-            "Reason": ""
-          },
+          "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 548
+          "FieldLength": 105
         }
       }
     },
     {
-      "VisibleId": 663,
+      "VisibleId": 588,
       "Visibility": "All",
-      "DisplayValue": "enim",
-      "TableRight": {},
+      "DisplayValue": "consectetur",
+      "TableRight": null,
       "FieldProperties": {
         "fieldName": {
-          "FieldRight": {
-            "Mask": "FULL",
-            "Reason": ""
-          },
+          "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 548
+          "FieldLength": 105
         }
       }
     }
   ],
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
-      "FieldType": "System.String",
-      "FieldLength": 492
+      "FieldRight": null,
+      "FieldType": "System.Int32",
+      "FieldLength": 810
     }
   },
   "_Links": {

@@ -18,3 +18,4 @@ Download [WSDL file for Services86/Chat](../Services86-Chat.md) if you need to g
 * [GetChatPresence](GetChatPresence.md)
 * [IsWithinOpeningHours](IsWithinOpeningHours.md)
 * [SaveChatPresence](SaveChatPresence.md)
+

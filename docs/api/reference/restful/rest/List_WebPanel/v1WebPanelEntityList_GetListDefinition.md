@@ -1,6 +1,6 @@
 ---
 title: GET List/WebPanel
-id: v1WebPanelEntityList_GetListDefinition
+uid: v1WebPanelEntityList_GetListDefinition
 ---
 
 # GET List/WebPanel
@@ -10,6 +10,13 @@ GET /api/v1/List/WebPanel
 ```
 
 Gets description of WebPanelEntity list
+
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -24,17 +31,16 @@ Gets description of WebPanelEntity list
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response: object
 
-The list entity contains information about a specific list
+## Response: 
 
-ListEntity entity with API _Links added.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -52,42 +58,38 @@ Response body: object
 | FieldProperties | object |  |
 | _Links | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 GET /api/v1/List/WebPanel
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 216,
-  "Name": "Brakus-Rippin",
-  "Tooltip": "iusto",
+  "Id": 191,
+  "Name": "Kassulke, Hettinger and Champlin",
+  "Tooltip": "eum",
   "Deleted": false,
-  "Rank": 212,
-  "IsCustomList": true,
+  "Rank": 597,
+  "IsCustomList": false,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "iusto",
-  "InUseByUserDefinedFields": false,
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "UseGroupsAndHeadings": true,
+  "ListType": "culpa",
+  "InUseByUserDefinedFields": true,
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
-      "FieldType": "System.String",
-      "FieldLength": 179
+      "FieldRight": null,
+      "FieldType": "System.Int32",
+      "FieldLength": 204
     }
   },
   "_Links": {

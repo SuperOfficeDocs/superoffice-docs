@@ -1,6 +1,6 @@
 ---
 title: GET User/currentPrincipal
-id: v1User_GetCurrentPrincipal
+uid: v1User_GetCurrentPrincipal
 ---
 
 # GET User/currentPrincipal
@@ -11,7 +11,14 @@ GET /api/v1/User/currentPrincipal
 
 Gets the currently logged in user's information, even in Online.
 
+
 Does not call an agent - just returns the current session info.
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -26,13 +33,16 @@ Does not call an agent - just returns the current session info.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response: object
+
+## Response: 
+
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -64,14 +74,16 @@ Response body: object
 | DatabaseContextIdentifier | string |  |
 | UserName | string |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 GET /api/v1/User/currentPrincipal
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -79,79 +91,76 @@ Content-Type: application/json; charset=utf-8
 
 {
   "UserType": "AnonymousAssociate",
-  "Associate": "quo",
-  "AssociateId": 566,
-  "IsPerson": true,
-  "PersonId": 657,
-  "CountryId": 327,
-  "HomeCountryId": 47,
-  "ContactId": 328,
-  "GroupId": 923,
-  "BusinessId": 376,
-  "CategoryId": 581,
-  "ContactOwner": 909,
-  "RoleId": 698,
-  "RoleName": "Rempel LLC",
-  "RoleDescription": "Optional bottom-line knowledge user",
+  "Associate": "ipsam",
+  "AssociateId": 889,
+  "IsPerson": false,
+  "PersonId": 375,
+  "CountryId": 891,
+  "HomeCountryId": 514,
+  "ContactId": 507,
+  "GroupId": 754,
+  "BusinessId": 323,
+  "CategoryId": 541,
+  "ContactOwner": 953,
+  "RoleId": 665,
+  "RoleName": "Kiehn, Deckow and Hand",
+  "RoleDescription": "Devolved transitional system engine",
   "RoleType": "Anonymous",
   "Licenses": [
     {
-      "OwnerId": 652,
-      "OwnerName": "Ratke-Wisoky",
-      "OwnerDescription": "Horizontal fresh-thinking success",
-      "ModuleId": 359,
-      "Name": "Bosco, Predovic and Goodwin",
-      "Description": "Realigned web-enabled matrix",
-      "Version": "iusto",
+      "OwnerId": 715,
+      "OwnerName": "Halvorson Group",
+      "OwnerDescription": "Phased stable task-force",
+      "ModuleId": 722,
+      "Name": "Gusikowski-Koss",
+      "Description": "Integrated leading edge matrices",
+      "Version": "impedit",
       "LicenseType": "SatelliteLicense",
-      "ExtraFlags": 90,
-      "ExtraInfo": "quae",
-      "SortOrder": 735,
-      "LicenseNumber": 752,
+      "ExtraFlags": 759,
+      "ExtraInfo": "autem",
+      "SortOrder": 986,
+      "LicenseNumber": 402,
       "IsHidden": false,
-      "IsUnrestricted": false,
-      "ExpiryDate": "2001-02-22T18:25:51.5531211+01:00",
-      "TableRight": {},
+      "IsUnrestricted": true,
+      "ExpiryDate": "2008-07-29T11:10:53.8642128+02:00",
+      "TableRight": null,
       "FieldProperties": {
         "fieldName": {
-          "FieldRight": {
-            "Mask": "FULL",
-            "Reason": ""
-          },
+          "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 89
+          "FieldLength": 57
         }
       }
     }
   ],
-  "FullName": "Colten Miller",
-  "EMailAddress": "qui",
+  "FullName": "Gilberto Schmitt",
+  "EMailAddress": "ut",
   "FunctionRights": [
-    "repellat",
-    "perferendis"
+    "modi",
+    "amet"
   ],
-  "EjUserId": 246,
-  "EjAccessLevel": 441,
+  "EjUserId": 912,
+  "EjAccessLevel": 756,
   "EjUserStatus": "StatusDeleted",
   "ProvidedCredentials": [
     {
-      "Type": "eum",
-      "SearchName": "Gutkowski, Dicki and Roberts",
-      "DisplayName": "Gleichner-Dooley",
-      "CredentialId": 307
+      "Type": "hic",
+      "SearchName": "Thompson-Sipes",
+      "DisplayName": "Boehm, Orn and Bauch",
+      "CredentialId": 572
     },
     {
-      "Type": "eum",
-      "SearchName": "Gutkowski, Dicki and Roberts",
-      "DisplayName": "Gleichner-Dooley",
-      "CredentialId": 307
+      "Type": "hic",
+      "SearchName": "Thompson-Sipes",
+      "DisplayName": "Boehm, Orn and Bauch",
+      "CredentialId": 572
     }
   ],
   "SecondaryGroups": [
-    63,
-    252
+    483,
+    82
   ],
-  "DatabaseContextIdentifier": "sint",
-  "UserName": "Terry, Fritsch and Mitchell"
+  "DatabaseContextIdentifier": "delectus",
+  "UserName": "Kemmer-Kutch"
 }
 ```

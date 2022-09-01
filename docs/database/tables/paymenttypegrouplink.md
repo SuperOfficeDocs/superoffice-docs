@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "PaymentTypeGroupLink"
-so.date: 04.12.2022
+so.date: 08.26.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -30,6 +30,7 @@ User group link table for PaymentType, for MDO item hiding
 |updated\_associate\_id|Last updated by whom|FK [associate](associate.md)| |
 |updatedCount|Number of updates made to this record|UShort| |
 
+
 ![PaymentTypeGroupLink table relationship diagram](./media/PaymentTypeGroupLink.png)
 
 [!include[details](./includes/paymenttypegrouplink.md)]
@@ -50,6 +51,7 @@ User group link table for PaymentType, for MDO item hiding
 |[PaymentType](paymenttype.md)  |The list of payment types, in the internal product register |
 |[UserGroup](usergroup.md)  |Secondary user groups |
 
+
 ## Replication Flags
 
 * Replicate changes DOWN from central to satellites and travellers.
@@ -59,3 +61,4 @@ User group link table for PaymentType, for MDO item hiding
 ## Security Flags
 
 * No access control via user's Role.
+

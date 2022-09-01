@@ -14,7 +14,9 @@ Implemented by the <see cref="M:SuperOffice.Services88.IChatAgent.CreateDefaultC
 Loading default values into a new ChatTopicEntity.
 NetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance
 
+
 **Returns:** New ChatTopicEntity with default values
+
 
 [WSDL file for Services88/Chat](../Services88-Chat.md)
 
@@ -47,6 +49,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## CreateDefaultChatTopicEntity Response
 
 ```xml
@@ -71,7 +74,7 @@ Application tokens must be specified if calling an Online installation. Applicat
      <Chat:Value xsi:type="xsd:string"></Chat:Value>
      <Chat:Tooltip xsi:type="xsd:string"></Chat:Tooltip>
     </Chat:Language>
-    <Chat:LastAccept xsi:type="xsd:dateTime">2021-11-30T13:23:34Z</Chat:LastAccept>
+    <Chat:LastAccept xsi:type="xsd:dateTime">2022-08-26T08:58:37Z</Chat:LastAccept>
     <Chat:SecondsPrAccept xsi:type="xsd:int">0</Chat:SecondsPrAccept>
     <Chat:AlertRecipient xsi:type="xsd:string"></Chat:AlertRecipient>
     <Chat:AlertTemplate xsi:type="Chat:ReplyTemplate">
@@ -180,7 +183,16 @@ Application tokens must be specified if calling an Online installation. Applicat
      <Chat:Size xsi:type="Chat:ChatWidgetSize">Normal</Chat:Size>
      <Chat:Theme xsi:type="Chat:WidgetTheme">Classic</Chat:Theme>
      <Chat:Color xsi:type="xsd:string"></Chat:Color>
+     <Chat:BadgeColor xsi:type="xsd:string"></Chat:BadgeColor>
+     <Chat:BadgeTextColor xsi:type="xsd:string"></Chat:BadgeTextColor>
+     <Chat:CustMsgColor xsi:type="xsd:string"></Chat:CustMsgColor>
+     <Chat:CustMsgTextColor xsi:type="xsd:string"></Chat:CustMsgTextColor>
+     <Chat:AgentMsgColor xsi:type="xsd:string"></Chat:AgentMsgColor>
+     <Chat:AgentMsgTextColor xsi:type="xsd:string"></Chat:AgentMsgTextColor>
+     <Chat:ButtonColor xsi:type="xsd:string"></Chat:ButtonColor>
+     <Chat:ButtonTextColor xsi:type="xsd:string"></Chat:ButtonTextColor>
      <Chat:Font xsi:type="xsd:string"></Chat:Font>
+     <Chat:FontSize xsi:type="xsd:string"></Chat:FontSize>
      <Chat:LogoEnabled xsi:type="xsd:boolean">false</Chat:LogoEnabled>
      <Chat:LogoBlobId xsi:type="xsd:int">0</Chat:LogoBlobId>
      <Chat:LogoName xsi:type="xsd:string"></Chat:LogoName>
@@ -206,9 +218,12 @@ Application tokens must be specified if calling an Online installation. Applicat
     <Chat:UseQueueOfflineForm xsi:type="xsd:boolean">false</Chat:UseQueueOfflineForm>
     <Chat:OfflineFormTimeLimit xsi:type="xsd:int">0</Chat:OfflineFormTimeLimit>
     <Chat:OfflineFormQueueLength xsi:type="xsd:int">0</Chat:OfflineFormQueueLength>
+    <Chat:WidgetEnableRating xsi:type="xsd:boolean">false</Chat:WidgetEnableRating>
+    <Chat:WidgetRatingText xsi:type="xsd:string"></Chat:WidgetRatingText>
    </Chat:Response>
   </Chat:CreateDefaultChatTopicEntityResponse>
  </SOAP-ENV:Body>
 </SOAP-ENV:Envelope>
 
 ```
+

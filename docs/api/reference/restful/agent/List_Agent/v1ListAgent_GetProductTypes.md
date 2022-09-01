@@ -1,6 +1,6 @@
 ---
 title: POST Agents/List/GetProductTypes
-id: v1ListAgent_GetProductTypes
+uid: v1ListAgent_GetProductTypes
 ---
 
 # POST Agents/List/GetProductTypes
@@ -11,6 +11,12 @@ POST /api/v1/Agents/List/GetProductTypes
 
 Returns all ProductTypes in SuperOffice list.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Returns all ProductTypes in SuperOffice list.
 ```http
 POST /api/v1/Agents/List/GetProductTypes?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -34,7 +41,10 @@ POST /api/v1/Agents/List/GetProductTypes?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -50,14 +60,16 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/List/GetProductTypes
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -65,40 +77,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 635,
-    "Value": "qui",
-    "Tooltip": "cupiditate",
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": "unleash sticky schemas"
-    },
+    "Id": 581,
+    "Value": "eum",
+    "Tooltip": "qui",
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 280
+        "FieldRight": null,
+        "FieldType": "System.Int32",
+        "FieldLength": 695
       }
     }
   },
   {
-    "Id": 635,
-    "Value": "qui",
-    "Tooltip": "cupiditate",
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": "unleash sticky schemas"
-    },
+    "Id": 581,
+    "Value": "eum",
+    "Tooltip": "qui",
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 280
+        "FieldRight": null,
+        "FieldType": "System.Int32",
+        "FieldLength": 695
       }
     }
   }

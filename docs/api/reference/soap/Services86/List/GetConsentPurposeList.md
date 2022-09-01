@@ -17,6 +17,7 @@ Gets an array of ConsentPurpose objects.
 
 **Returns:** Array of ConsentPurpose objects
 
+
 [WSDL file for Services86/List](../Services86-List.md)
 
 Obtain a ticket from the [Services86/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -51,6 +52,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## GetConsentPurposeList Response
 
 ```xml
@@ -74,7 +76,7 @@ Application tokens must be specified if calling an Online installation. Applicat
      <List:Key xsi:type="xsd:string"></List:Key>
      <List:Tooltip xsi:type="xsd:string"></List:Tooltip>
      <List:Active xsi:type="xsd:short">0</List:Active>
-     <List:UpdatedDate xsi:type="xsd:dateTime">2021-11-30T13:22:56Z</List:UpdatedDate>
+     <List:UpdatedDate xsi:type="xsd:dateTime">2022-08-26T08:55:20Z</List:UpdatedDate>
      <List:UpdatedBy xsi:type="List:Associate">
       <List:AssociateId xsi:type="xsd:int">0</List:AssociateId>
       <List:Name xsi:type="xsd:string"></List:Name>
@@ -100,3 +102,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

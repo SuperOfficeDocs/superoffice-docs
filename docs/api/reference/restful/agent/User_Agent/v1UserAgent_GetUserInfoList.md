@@ -1,6 +1,6 @@
 ---
 title: POST Agents/User/GetUserInfoList
-id: v1UserAgent_GetUserInfoList
+uid: v1UserAgent_GetUserInfoList
 ---
 
 # POST Agents/User/GetUserInfoList
@@ -11,7 +11,15 @@ POST /api/v1/Agents/User/GetUserInfoList
 
 Gets an array of UserInfo objects.
 
-## Online Restricted: ## The User agent is not available in Online by default. User management is not allowed for partner apps
+
+
+
+## Online Restricted: ## The User agent is not available in Online by default. User management is not allowed for partner apps.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +30,7 @@ Gets an array of UserInfo objects.
 ```http
 POST /api/v1/Agents/User/GetUserInfoList?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,11 +46,15 @@ POST /api/v1/Agents/User/GetUserInfoList?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: userInfoIds
+## Request Body: userInfoIds  
 
-The primary keys.
+The primary keys. 
+
+
 
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -69,7 +82,7 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/User/GetUserInfoList
@@ -78,6 +91,8 @@ Accept: application/json; charset=utf-8
 Accept-Language: fr,de,ru,zh
 ```
 
+## Sample response
+
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
@@ -85,35 +100,29 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "Deleted": false,
-    "UserInfoId": 242,
-    "UserName": "Kessler LLC",
-    "PersonId": 775,
-    "Rank": 949,
-    "Tooltip": "optio",
-    "UserGroupId": 122,
-    "EjUserId": 851,
+    "UserInfoId": 408,
+    "UserName": "Paucek-Quigley",
+    "PersonId": 408,
+    "Rank": 815,
+    "Tooltip": "et",
+    "UserGroupId": 479,
+    "EjUserId": 28,
     "UserType": "AnonymousAssociate",
     "GrantedLicenses": [
-      "quam",
-      "tempora"
+      "natus",
+      "earum"
     ],
-    "CanLogon": false,
-    "RoleName": "Kerluke, Ebert and Lesch",
-    "RoleTooltip": "totam",
-    "UserGroupName": "Roberts Inc and Sons",
-    "UserGroupTooltip": "provident",
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "CanLogon": true,
+    "RoleName": "Botsford-Borer",
+    "RoleTooltip": "itaque",
+    "UserGroupName": "Harris-Fritsch",
+    "UserGroupTooltip": "tenetur",
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
+        "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 999
+        "FieldLength": 866
       }
     }
   }

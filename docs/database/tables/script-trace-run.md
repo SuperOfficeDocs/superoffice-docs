@@ -6,14 +6,14 @@ so.generated: true
 keywords:
   - "database"
   - "script_trace_run"
-so.date: 04.12.2022
+so.date: 08.26.2022
 so.topic: reference
 so.envir:
   - "onsite"
   - "online"
 ---
 
-# script\_trace\_run Table (470)
+# script\_trace\_run Table (471)
 
 Traces of executed scripts
 
@@ -33,6 +33,7 @@ Traces of executed scripts
 |associate\_id|Associate who the script was executed as|FK [associate](associate.md)|&#x25CF;|
 |status|The status of the script, or exception if it fails|String(2047)|&#x25CF;|
 
+
 ![script_trace_run table relationship diagram](./media/script_trace_run.png)
 
 [!include[details](./includes/script-trace-run.md)]
@@ -50,6 +51,7 @@ Traces of executed scripts
 |[associate](associate.md)  |Employees, resources and other users - except for External persons |
 |[script\_trace](script-trace.md)  |Scripts which should be traced |
 
+
 ## Replication Flags
 
 * None
@@ -57,3 +59,4 @@ Traces of executed scripts
 ## Security Flags
 
 * No access control via user's Role.
+

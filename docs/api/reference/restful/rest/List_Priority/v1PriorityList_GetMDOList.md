@@ -1,6 +1,6 @@
 ---
 title: GET List/Priority/MDOItems
-id: v1PriorityList_GetMDOList
+uid: v1PriorityList_GetMDOList
 ---
 
 # GET List/Priority/MDOItems
@@ -11,6 +11,12 @@ GET /api/v1/List/Priority/MDOItems
 
 Get the MDO list items for "Priority" - with headings and filtering by user group.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -19,9 +25,10 @@ Get the MDO list items for "Priority" - with headings and filtering by user grou
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/Priority/MDOItems?flat=True
-GET /api/v1/List/Priority/MDOItems?query=illum
+GET /api/v1/List/Priority/MDOItems?flat=False
+GET /api/v1/List/Priority/MDOItems?query=veniam
 ```
+
 
 ## Request Headers
 
@@ -36,7 +43,10 @@ GET /api/v1/List/Priority/MDOItems?query=illum
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -61,14 +71,16 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 GET /api/v1/List/Priority/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -76,59 +88,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 945,
-    "Name": "Macejkovic LLC",
-    "ToolTip": "Nihil magni sint omnis impedit.",
+    "Id": 81,
+    "Name": "Schulist LLC",
+    "ToolTip": "Asperiores sit quo atque.",
     "Deleted": true,
-    "Rank": 707,
-    "Type": "similique",
+    "Rank": 121,
+    "Type": "voluptatem",
     "ChildItems": [
       {
-        "Id": 325,
-        "Name": "Lebsack Inc and Sons",
-        "ToolTip": "Non omnis.",
+        "Id": 952,
+        "Name": "Stiedemann-Osinski",
+        "ToolTip": "Ex voluptatem asperiores et maiores molestiae.",
         "Deleted": false,
-        "Rank": 315,
-        "Type": "veniam",
+        "Rank": 817,
+        "Type": "sed",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "praesentium",
-        "ColorBlock": 695,
-        "ExtraInfo": "alias",
-        "StyleHint": "autem",
-        "FullName": "Jewell Hansen",
-        "TableRight": {},
+        "IconHint": "et",
+        "ColorBlock": 113,
+        "ExtraInfo": "sit",
+        "StyleHint": "adipisci",
+        "FullName": "Betty Mueller",
+        "TableRight": null,
         "FieldProperties": {
           "fieldName": {
-            "FieldRight": {
-              "Mask": "FULL",
-              "Reason": ""
-            },
-            "FieldType": "System.Int32",
-            "FieldLength": 235
+            "FieldRight": null,
+            "FieldType": "System.String",
+            "FieldLength": 596
           }
         }
       }
     ],
-    "IconHint": "quis",
-    "ColorBlock": 407,
-    "ExtraInfo": "dolorum",
-    "StyleHint": "non",
-    "FullName": "Zita Koelpin I",
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "IconHint": "dicta",
+    "ColorBlock": 873,
+    "ExtraInfo": "ad",
+    "StyleHint": "odio",
+    "FullName": "Mrs. Kianna Streich",
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
+        "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 143
+        "FieldLength": 619
       }
     }
   }

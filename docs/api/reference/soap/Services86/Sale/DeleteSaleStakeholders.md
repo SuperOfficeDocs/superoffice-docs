@@ -11,7 +11,11 @@ Implemented by the <see cref="M:SuperOffice.Services86.ISaleAgent.DeleteSaleStak
 
 ## DeleteSaleStakeholders
 
-* **saleStakeholderIds:**
+
+
+* **saleStakeholderIds:** 
+
+
 
 [WSDL file for Services86/Sale](../Services86-Sale.md)
 
@@ -47,6 +51,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## DeleteSaleStakeholders Response
 
 ```xml
@@ -66,3 +71,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

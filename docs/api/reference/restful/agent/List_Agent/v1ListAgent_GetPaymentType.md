@@ -1,6 +1,6 @@
 ---
 title: POST Agents/List/GetPaymentType
-id: v1ListAgent_GetPaymentType
+uid: v1ListAgent_GetPaymentType
 ---
 
 # POST Agents/List/GetPaymentType
@@ -11,6 +11,12 @@ POST /api/v1/Agents/List/GetPaymentType
 
 Gets a PaymentType object.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -19,9 +25,10 @@ Gets a PaymentType object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetPaymentType?paymentTypeId=878
+POST /api/v1/Agents/List/GetPaymentType?paymentTypeId=9
 POST /api/v1/Agents/List/GetPaymentType?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -36,18 +43,16 @@ POST /api/v1/Agents/List/GetPaymentType?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response: object
 
-The built-in payment types list. Used by the SuperOffice Quote Connector in quote versions.
+## Response: 
 
-Carrier object for PaymentType.
-Services for the PaymentType Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IListAgent">List Agent</see>.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -57,35 +62,31 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/List/GetPaymentType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 825,
-  "Value": "recusandae",
-  "Tooltip": "optio",
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "Id": 576,
+  "Value": "ex",
+  "Tooltip": "necessitatibus",
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
-      "FieldType": "System.String",
-      "FieldLength": 257
+      "FieldRight": null,
+      "FieldType": "System.Int32",
+      "FieldLength": 725
     }
   }
 }

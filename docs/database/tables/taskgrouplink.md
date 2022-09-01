@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "TaskGroupLink"
-so.date: 04.12.2022
+so.date: 08.26.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -30,6 +30,7 @@ User group link table for Task, for MDO item hiding
 |updated\_associate\_id|Last updated by whom|FK [associate](associate.md)| |
 |updatedCount|Number of updates made to this record|UShort| |
 
+
 ![TaskGroupLink table relationship diagram](./media/TaskGroupLink.png)
 
 [!include[details](./includes/taskgrouplink.md)]
@@ -50,6 +51,7 @@ User group link table for Task, for MDO item hiding
 |[Task](task.md)  |Task list table, activity types, like Phone, Meeting |
 |[UserGroup](usergroup.md)  |Secondary user groups |
 
+
 ## Replication Flags
 
 * Replicate changes DOWN from central to satellites and travellers.
@@ -59,3 +61,4 @@ User group link table for Task, for MDO item hiding
 ## Security Flags
 
 * No access control via user's Role.
+

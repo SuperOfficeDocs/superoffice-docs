@@ -12,12 +12,13 @@ Implemented by the <see cref="M:SuperOffice.Services86.IEMailAgent.HasNewMail">S
 ## HasNewMail
 
 Fast check for new mail in the database
-<br />**Online Restricted:** The EMail agent is not available in Online by default. Access must be requested specifically when app is registered.
+<para /><b>Online Restricted:</b> The EMail agent is not available in Online by default. Access must be requested specifically when app is registered.
 
 * **mailItemId:** The last known mailitemid
 * **folderId:** The folderId for the folder to check for new mail
 
 **Returns:** Has new mail if true
+
 
 [WSDL file for Services86/EMail](../Services86-EMail.md)
 
@@ -52,6 +53,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## HasNewMail Response
 
 ```xml
@@ -72,3 +74,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

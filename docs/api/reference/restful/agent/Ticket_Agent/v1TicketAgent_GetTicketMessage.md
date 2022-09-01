@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Ticket/GetTicketMessage
-id: v1TicketAgent_GetTicketMessage
+uid: v1TicketAgent_GetTicketMessage
 ---
 
 # POST Agents/Ticket/GetTicketMessage
@@ -11,6 +11,12 @@ POST /api/v1/Agents/Ticket/GetTicketMessage
 
 Gets a TicketMessage object.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -19,9 +25,10 @@ Gets a TicketMessage object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Ticket/GetTicketMessage?ticketMessageId=50
+POST /api/v1/Agents/Ticket/GetTicketMessage?ticketMessageId=299
 POST /api/v1/Agents/Ticket/GetTicketMessage?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -36,18 +43,16 @@ POST /api/v1/Agents/Ticket/GetTicketMessage?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response: object
 
-The TicketMessage carrier is used for representing a service ticket message
+## Response: 
 
-Carrier object for TicketMessage.
-Services for the TicketMessage Carrier is available from the <see cref="T:SuperOffice.CRM.Services.ITicketAgent">Ticket Agent</see>.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -64,79 +69,81 @@ Response body: object
 | NumAttachments | int32 | Number of attachments in the message |
 | EmailHeader | string | The email header is saved in this field as raw text |
 | MessageHeaders | array | Contains the message headers, like To, Cc, Bcc information, or custom headers |
+| Language | string | The language this message is in, based on some kind of analysis |
+| Sentiment | int32 | Sentiment index, 100 = completely happy; -100 = suicidally unhappy; 0 = no idea |
+| SentimentConfidence | int32 | Confidence of sentiment index, 0 = no idea, 100 = completely sure |
+| CreatedBy | int32 | The id of the user who posted the message. The value 1 (system user) for externally posted messages. |
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Ticket/GetTicketMessage
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketMessageId": 545,
-  "CreatedAt": "2018-03-14T18:28:50.3924156+01:00",
+  "TicketMessageId": 137,
+  "CreatedAt": "1997-10-19T11:10:28.3022072+02:00",
   "Slevel": "External",
   "Important": false,
-  "Author": "rerum",
-  "PersonId": 814,
-  "PersonFullName": "Loyce Legros",
-  "ContactId": 615,
-  "ContactName": "Schowalter Group",
+  "Author": "est",
+  "PersonId": 512,
+  "PersonFullName": "Dewitt Von",
+  "ContactId": 669,
+  "ContactName": "Kerluke LLC",
   "ContactDepartment": "",
-  "NumAttachments": 768,
-  "EmailHeader": "destiney@pacocha.ca",
+  "NumAttachments": 546,
+  "EmailHeader": "wilburn@oconnell.name",
   "MessageHeaders": [
     {
-      "Name": "Abshire, Cronin and Monahan",
-      "Value": "sit",
-      "TableRight": {},
+      "Name": "Veum, Maggio and Stiedemann",
+      "Value": "repudiandae",
+      "StdItem": "CustomerReadFAQ",
+      "StdItemCol": "Name",
+      "TableRight": null,
       "FieldProperties": {
         "fieldName": {
-          "FieldRight": {
-            "Mask": "FULL",
-            "Reason": ""
-          },
-          "FieldType": "System.String",
-          "FieldLength": 714
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 813
         }
       }
     },
     {
-      "Name": "Abshire, Cronin and Monahan",
-      "Value": "sit",
-      "TableRight": {},
+      "Name": "Veum, Maggio and Stiedemann",
+      "Value": "repudiandae",
+      "StdItem": "CustomerReadFAQ",
+      "StdItemCol": "Name",
+      "TableRight": null,
       "FieldProperties": {
         "fieldName": {
-          "FieldRight": {
-            "Mask": "FULL",
-            "Reason": ""
-          },
-          "FieldType": "System.String",
-          "FieldLength": 714
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 813
         }
       }
     }
   ],
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "Language": "modi",
+  "Sentiment": 688,
+  "SentimentConfidence": 737,
+  "CreatedBy": 753,
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
+      "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 674
+      "FieldLength": 383
     }
   }
 }

@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "s_list_customer"
-so.date: 04.12.2022
+so.date: 08.26.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -24,6 +24,7 @@ Elements in a customer list.
 |id|Primary key|PK| |
 |list\_id|Which list this element belongs to|FK [s_list](s-list.md)| |
 |customer\_id||FK [person](person.md)| |
+
 
 ![s_list_customer table relationship diagram](./media/s_list_customer.png)
 
@@ -44,6 +45,7 @@ Elements in a customer list.
 |[person](person.md)  |Persons in a company or an organizations. All associates have a corresponding person record |
 |[s\_list](s-list.md)  |A list, dynamic or static |
 
+
 ## Replication Flags
 
 * None
@@ -51,3 +53,4 @@ Elements in a customer list.
 ## Security Flags
 
 * No access control via user's Role.
+

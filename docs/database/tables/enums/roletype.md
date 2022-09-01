@@ -5,7 +5,7 @@ description: Lists the enum values for RoleType.
 so.generated: true
 keywords:
   - "database"
-so.date: 04.12.2022
+so.date: 08.26.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -25,4 +25,4 @@ so.envir:
 
 ## Usage
 
-* [Role](../role.md).roleType - User roles for role-based security, names and tooltips are in LocaleText.
+* [Role](../role.md).roleType - User roles for role-based security, names and tooltips are in LocaleText. For more information regarding role based security, see http://techdoc.superoffice.com

@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Document/CreateDefaultDocumentPreview
-id: v1DocumentAgent_CreateDefaultDocumentPreview
+uid: v1DocumentAgent_CreateDefaultDocumentPreview
 ---
 
 # POST Agents/Document/CreateDefaultDocumentPreview
@@ -11,7 +11,14 @@ POST /api/v1/Agents/Document/CreateDefaultDocumentPreview
 
 Set default values into a new DocumentPreview.
 
+
 NetServer calculates default values on the entity, which is required when creating/storing a new instance
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -26,18 +33,16 @@ NetServer calculates default values on the entity, which is required when creati
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response: object
 
-Document data intended for preview purposes
+## Response: 
 
-Carrier object for DocumentPreview.
-Services for the DocumentPreview Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IDocumentAgent">Document Agent</see>.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -48,7 +53,7 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Document/CreateDefaultDocumentPreview
@@ -57,27 +62,23 @@ Accept: application/json; charset=utf-8
 Accept-Language: *
 ```
 
+## Sample response
+
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Kunde-Jacobson",
-  "Type": "rerum",
-  "Size": 40,
+  "Name": "Gleason Group",
+  "Type": "culpa",
+  "Size": 38,
   "Stream": "GIF89....File contents as raw bytes...",
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
-      "FieldType": "System.String",
-      "FieldLength": 508
+      "FieldRight": null,
+      "FieldType": "System.Int32",
+      "FieldLength": 936
     }
   }
 }

@@ -12,13 +12,14 @@ Implemented by the <see cref="M:SuperOffice.Services87.IErpSyncAgent.BreakActorL
 ## BreakActorLink
 
 Remove the link between a CRM entity and an ERP entity
-<br />**Online Restricted:** The ErpSync agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for ERP integration apps.
+<para /><b>Online Restricted:</b> The ErpSync agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for ERP integration apps.
 
 * **erpConnectionId:** The ERP connection ID
 * **crmRecordId:** The ID of the CRM entity to connect to
 * **crmActorType:** Identifies the CRM actor type corresponding to this CRM entity
 
 **Returns:** True if success
+
 
 [WSDL file for Services87/ErpSync](../Services87-ErpSync.md)
 
@@ -54,6 +55,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## BreakActorLink Response
 
 ```xml
@@ -74,3 +76,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

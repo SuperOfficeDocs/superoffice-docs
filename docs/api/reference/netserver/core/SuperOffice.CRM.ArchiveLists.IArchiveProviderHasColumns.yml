@@ -76,7 +76,7 @@ items:
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.ArchiveLists
-  summary: "\nSet which columns should actually be returned, must be a subset of the <a href=\"GetAvailableColumns\">GetAvailableColumns</a> result\n"
+  summary: "\nSet which columns should actually be returned, must be a subset of the <a href=\"SuperOffice.CRM.ArchiveLists.IArchiveProviderHasColumns.yml#SuperOffice_CRM_ArchiveLists_IArchiveProviderHasColumns_GetAvailableColumns\">GetAvailableColumns</a> result\n"
   syntax:
     content: void SetDesiredColumns(params string[] columnIds)
     parameters:

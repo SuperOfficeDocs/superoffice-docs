@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Sale/GetSummaryByGroup
-id: v1SaleAgent_GetSummaryByGroup
+uid: v1SaleAgent_GetSummaryByGroup
 ---
 
 # POST Agents/Sale/GetSummaryByGroup
@@ -8,6 +8,14 @@ id: v1SaleAgent_GetSummaryByGroup
 ```http
 POST /api/v1/Agents/Sale/GetSummaryByGroup
 ```
+
+
+
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -18,6 +26,7 @@ POST /api/v1/Agents/Sale/GetSummaryByGroup
 ```http
 POST /api/v1/Agents/Sale/GetSummaryByGroup?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -33,9 +42,9 @@ POST /api/v1/Agents/Sale/GetSummaryByGroup?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-GroupId, FromDate, ToDate
+GroupId, FromDate, ToDate 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -43,16 +52,16 @@ GroupId, FromDate, ToDate
 | FromDate | date-time |  |
 | ToDate | date-time |  |
 
-## Response: object
 
-Carrier object for SaleSummary.
-Services for the SaleSummary Carrier is available from the <see cref="T:SuperOffice.CRM.Services.ISaleAgent">Sale Agent</see>.
+## Response: 
+
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -87,7 +96,7 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Sale/GetSummaryByGroup
@@ -97,57 +106,53 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "GroupId": 433,
-  "FromDate": "2003-01-04T18:28:50.05867+01:00",
-  "ToDate": "2018-07-11T18:28:50.05867+02:00"
+  "GroupId": 725,
+  "FromDate": "2012-07-01T11:10:27.8749768+02:00",
+  "ToDate": "2015-09-28T11:10:27.8749768+02:00"
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BaseCurrency": "aspernatur",
-  "OwnCurrency": "sed",
-  "SoldTotalBaseCurrency": 3660.5119999999997,
-  "Sold": 126,
-  "SoldTotalOwnCurrency": 21884.721999999998,
-  "Lost": 178,
-  "LostTotalBaseCurrency": 18180.334,
-  "LostTotalOwnCurrency": 12153.652,
-  "Open": 419,
-  "OpenTotalBaseCurrency": 23128.92,
-  "OpenTotalOwnCurrency": 13379.046,
-  "OpenWeightedBaseCurrency": 8088.8539999999994,
-  "OpenWeightedOwnCurrency": 429.358,
-  "PreviousOverdue": 336,
-  "PreviousOverdueTotalBaseCurrency": 26037.272,
-  "PreviousOverdueTotalOwnCurrency": 16506.778,
-  "PreviousOverdueWeightedBaseCurrency": 3325.174,
-  "PreviousOverdueWeightedOwnCurrency": 30139.678,
-  "CurrentOverdue": 672,
-  "CurrentOverdueTotalBaseCurrency": 18280.622,
-  "CurrentOverdueTotalOwnCurrency": 21555.652,
-  "CurrentOverdueWeightedBaseCurrency": 7436.982,
-  "CurrentOverdueWeightedOwnCurrency": 8399.119999999999,
-  "FutureOpen": 635,
-  "FutureOpenTotalBaseCurrency": 30678.726,
-  "FutureOpenTotalOwnCurrency": 9909.708,
-  "FutureOpenWeightedBaseCurrency": 26723.618,
-  "FutureOpenWeightedOwnCurrency": 23157.126,
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "BaseCurrency": "unde",
+  "OwnCurrency": "minus",
+  "SoldTotalBaseCurrency": 16889.126,
+  "Sold": 822,
+  "SoldTotalOwnCurrency": 15789.091999999999,
+  "Lost": 914,
+  "LostTotalBaseCurrency": 1905.472,
+  "LostTotalOwnCurrency": 30167.884,
+  "Open": 165,
+  "OpenTotalBaseCurrency": 1576.402,
+  "OpenTotalOwnCurrency": 319.668,
+  "OpenWeightedBaseCurrency": 25441.811999999998,
+  "OpenWeightedOwnCurrency": 11304.338,
+  "PreviousOverdue": 540,
+  "PreviousOverdueTotalBaseCurrency": 30011.183999999997,
+  "PreviousOverdueTotalOwnCurrency": 3829.748,
+  "PreviousOverdueWeightedBaseCurrency": 27695.158,
+  "PreviousOverdueWeightedOwnCurrency": 26864.647999999997,
+  "CurrentOverdue": 10,
+  "CurrentOverdueTotalBaseCurrency": 2422.582,
+  "CurrentOverdueTotalOwnCurrency": 908.86,
+  "CurrentOverdueWeightedBaseCurrency": 1275.538,
+  "CurrentOverdueWeightedOwnCurrency": 28152.721999999998,
+  "FutureOpen": 943,
+  "FutureOpenTotalBaseCurrency": 23063.106,
+  "FutureOpenTotalOwnCurrency": 29694.649999999998,
+  "FutureOpenWeightedBaseCurrency": 16046.08,
+  "FutureOpenWeightedOwnCurrency": 27801.714,
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
+      "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 188
+      "FieldLength": 466
     }
   }
 }

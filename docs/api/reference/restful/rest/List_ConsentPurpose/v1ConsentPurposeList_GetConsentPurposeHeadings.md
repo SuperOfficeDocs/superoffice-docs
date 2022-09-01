@@ -1,6 +1,6 @@
 ---
 title: GET List/ConsentPurpose/Headings
-id: v1ConsentPurposeList_GetConsentPurposeHeadings
+uid: v1ConsentPurposeList_GetConsentPurposeHeadings
 ---
 
 # GET List/ConsentPurpose/Headings
@@ -11,7 +11,14 @@ GET /api/v1/List/ConsentPurpose/Headings
 
 Gets headings for the ConsentPurpose list.
 
+
 Calls the List agent service GetGetHeadingsFromListDefinition.
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -26,7 +33,10 @@ Calls the List agent service GetGetHeadingsFromListDefinition.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -45,14 +55,16 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 GET /api/v1/List/ConsentPurpose/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -60,24 +72,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 194,
-    "Name": "Mohr Group",
-    "Tooltip": "non",
+    "HeadingId": 956,
+    "Name": "Rau-Roberts",
+    "Tooltip": "qui",
     "Deleted": false,
-    "Rank": 240,
-    "UdListDefinitionId": 316,
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "Rank": 327,
+    "UdListDefinitionId": 59,
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.Int32",
-        "FieldLength": 836
+        "FieldRight": null,
+        "FieldType": "System.String",
+        "FieldLength": 436
       }
     }
   }

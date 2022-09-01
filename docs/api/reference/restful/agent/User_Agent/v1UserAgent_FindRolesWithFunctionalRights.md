@@ -1,6 +1,6 @@
 ---
 title: POST Agents/User/FindRolesWithFunctionalRights
-id: v1UserAgent_FindRolesWithFunctionalRights
+uid: v1UserAgent_FindRolesWithFunctionalRights
 ---
 
 # POST Agents/User/FindRolesWithFunctionalRights
@@ -11,9 +11,16 @@ POST /api/v1/Agents/User/FindRolesWithFunctionalRights
 
 Find all roles with a given set of functional rights.
 
-The roles matched must contain one or more of the specified functional rights.
 
-## Online Restricted: ## The User agent is not available in Online by default. User management is not allowed for partner apps
+The roles matched must contain one or more of the specified functional rights. 
+
+
+## Online Restricted: ## The User agent is not available in Online by default. User management is not allowed for partner apps.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -24,6 +31,7 @@ The roles matched must contain one or more of the specified functional rights.
 ```http
 POST /api/v1/Agents/User/FindRolesWithFunctionalRights?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -39,15 +47,18 @@ POST /api/v1/Agents/User/FindRolesWithFunctionalRights?$select=name,department,c
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-FunctionalRightNames
+FunctionalRightNames 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | FunctionalRightNames | array |  |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -55,29 +66,32 @@ FunctionalRightNames
 
 Response body: array
 
-## Sample Request
+
+## Sample request
 
 ```http!
 POST /api/v1/Agents/User/FindRolesWithFunctionalRights
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "FunctionalRightNames": [
-    "Homenick-Abshire",
-    "Fritsch Inc and Sons"
+    "Howe-Barton",
+    "Corwin-Rau"
   ]
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 [
-  303,
-  635
+  399,
+  426
 ]
 ```

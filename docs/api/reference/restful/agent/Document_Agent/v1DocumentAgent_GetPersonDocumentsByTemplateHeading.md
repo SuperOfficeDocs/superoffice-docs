@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Document/GetPersonDocumentsByTemplateHeading
-id: v1DocumentAgent_GetPersonDocumentsByTemplateHeading
+uid: v1DocumentAgent_GetPersonDocumentsByTemplateHeading
 ---
 
 # POST Agents/Document/GetPersonDocumentsByTemplateHeading
@@ -11,7 +11,13 @@ POST /api/v1/Agents/Document/GetPersonDocumentsByTemplateHeading
 
 Method that returns a specified number of document appointments within a time range, filtered by document template heading.
 
+
 The document appointments belong to the person specified. The heading represents a grouping or filtering of document templates.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +28,7 @@ The document appointments belong to the person specified. The heading represents
 ```http
 POST /api/v1/Agents/Document/GetPersonDocumentsByTemplateHeading?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,9 +44,9 @@ POST /api/v1/Agents/Document/GetPersonDocumentsByTemplateHeading?$select=name,de
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-PersonId, IncludeProjectDocuments, StartTime, EndTime, Count, TemplateHeadingId
+PersonId, IncludeProjectDocuments, StartTime, EndTime, Count, TemplateHeadingId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -50,7 +57,10 @@ PersonId, IncludeProjectDocuments, StartTime, EndTime, Count, TemplateHeadingId
 | Count | int32 |  |
 | TemplateHeadingId | int32 |  |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -78,10 +88,12 @@ Response body: array
 | ProjectName | string | Project name |
 | AssociateId | int32 | ID of associate whose diary the appointment is in, REQUIRED |
 | Snum | int32 | The sequence number allocated from refcount on used template when creating the document |
+| SaleId | int32 | Owning sale, if any (may be 0) |
+| SaleName | string | Heading of Owning sale, if any. (may be blank) |
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Document/GetPersonDocumentsByTemplateHeading
@@ -91,14 +103,16 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 855,
-  "IncludeProjectDocuments": true,
-  "StartTime": "2004-05-03T18:28:48.7259572+02:00",
-  "EndTime": "2006-04-24T18:28:48.7259572+02:00",
-  "Count": 755,
-  "TemplateHeadingId": 204
+  "PersonId": 906,
+  "IncludeProjectDocuments": false,
+  "StartTime": "2017-10-26T11:10:26.4844609+02:00",
+  "EndTime": "1996-07-02T11:10:26.4844609+02:00",
+  "Count": 273,
+  "TemplateHeadingId": 343
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -106,36 +120,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 618,
-    "Attention": "sed",
-    "Header": "deserunt",
-    "Name": "Feest-Walsh",
-    "OurRef": "aut",
-    "YourRef": "saepe",
-    "Description": "Implemented empowering installation",
-    "DocumentTemplate": "dolores",
+    "DocumentId": 706,
+    "Attention": "enim",
+    "Header": "laboriosam",
+    "Name": "Block, Klocko and Terry",
+    "OurRef": "incidunt",
+    "YourRef": "totam",
+    "Description": "Intuitive human-resource process improvement",
+    "DocumentTemplate": "non",
     "IsPublished": true,
-    "PersonId": 700,
-    "PersonFullName": "Mr. Arnold Prohaska",
-    "AssociateFullName": "Amara Heathcote",
-    "ContactId": 258,
-    "ContactName": "Emard Group",
-    "ProjectId": 109,
-    "ProjectName": "Ward, Witting and Hegmann",
-    "AssociateId": 677,
-    "Snum": 438,
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "PersonId": 268,
+    "PersonFullName": "Dominic Huels",
+    "AssociateFullName": "Dr. Alberta Nader IV",
+    "ContactId": 439,
+    "ContactName": "Greenholt-Turcotte",
+    "ProjectId": 649,
+    "ProjectName": "Grady, Mayert and Wehner",
+    "AssociateId": 65,
+    "Snum": 326,
+    "SaleId": 243,
+    "SaleName": "Miller-Johnson",
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
+        "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 301
+        "FieldLength": 279
       }
     }
   }

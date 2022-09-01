@@ -20,6 +20,7 @@ Get a preference by name and owner id.
 
 **Returns:** The preference. Note that id = 0 and value = null if preference not found in the database at the requested pref-level.
 
+
 [WSDL file for Services88/Preference](../Services88-Preference.md)
 
 Obtain a ticket from the [Services88/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -54,6 +55,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+
 
 ## GetPreferenceByNameAndId Response
 
@@ -95,3 +97,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

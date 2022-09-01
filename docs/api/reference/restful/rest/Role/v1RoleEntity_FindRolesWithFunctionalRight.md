@@ -1,6 +1,6 @@
 ---
 title: GET Role/WithFunctionRight/{functionalRightName}
-id: v1RoleEntity_FindRolesWithFunctionalRight
+uid: v1RoleEntity_FindRolesWithFunctionalRight
 ---
 
 # GET Role/WithFunctionRight/{functionalRightName}
@@ -11,13 +11,21 @@ GET /api/v1/Role/WithFunctionRight/{functionalRightName}
 
 Find all roles with a given functional right.
 
-The roles matched must contain the specified functional right.
 
-## Online Restricted: ## The User agent is not available in Online by default. User management is not allowed for partner apps
+The roles matched must contain the specified functional right. 
+
+
+## Online Restricted: ## The User agent is not available in Online by default. User management is not allowed for partner apps.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | functionalRightName | string | Functional right name to search for **Required** |
+
+
 
 ## Request Headers
 
@@ -32,7 +40,10 @@ The roles matched must contain the specified functional right.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -57,7 +68,7 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 GET /api/v1/Role/WithFunctionRight/{functionalRightName}
@@ -66,65 +77,58 @@ Accept: application/json; charset=utf-8
 Accept-Language: en
 ```
 
+## Sample response
+
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 26,
-    "Name": "Stroman, Paucek and Bechtelar",
-    "ToolTip": "Perspiciatis consectetur cumque deserunt ratione natus.",
-    "Deleted": true,
-    "Rank": 713,
-    "Type": "in",
+    "Id": 578,
+    "Name": "Goyette, Bergnaum and Glover",
+    "ToolTip": "Quos et quos est numquam.",
+    "Deleted": false,
+    "Rank": 892,
+    "Type": "a",
     "ChildItems": [
       {
-        "Id": 652,
-        "Name": "Bartoletti LLC",
-        "ToolTip": "Cum itaque fugiat molestiae suscipit.",
-        "Deleted": true,
-        "Rank": 602,
-        "Type": "consequatur",
+        "Id": 909,
+        "Name": "Heidenreich LLC",
+        "ToolTip": "Velit accusantium accusantium qui.",
+        "Deleted": false,
+        "Rank": 425,
+        "Type": "suscipit",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "quia",
-        "ColorBlock": 259,
-        "ExtraInfo": "aliquam",
-        "StyleHint": "nulla",
-        "FullName": "Felipa Little",
-        "TableRight": {},
+        "IconHint": "sunt",
+        "ColorBlock": 501,
+        "ExtraInfo": "qui",
+        "StyleHint": "voluptas",
+        "FullName": "Jamey O'Keefe V",
+        "TableRight": null,
         "FieldProperties": {
           "fieldName": {
-            "FieldRight": {
-              "Mask": "FULL",
-              "Reason": "transition bricks-and-clicks metrics"
-            },
-            "FieldType": "System.Int32",
-            "FieldLength": 93
+            "FieldRight": null,
+            "FieldType": "System.String",
+            "FieldLength": 864
           }
         }
       }
     ],
-    "IconHint": "culpa",
-    "ColorBlock": 354,
-    "ExtraInfo": "perferendis",
-    "StyleHint": "iste",
-    "FullName": "Fae Swaniawski Jr.",
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "IconHint": "ipsum",
+    "ColorBlock": 712,
+    "ExtraInfo": "in",
+    "StyleHint": "enim",
+    "FullName": "Thurman Cummerata",
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 699
+        "FieldRight": null,
+        "FieldType": "System.Int32",
+        "FieldLength": 427
       }
     }
   }

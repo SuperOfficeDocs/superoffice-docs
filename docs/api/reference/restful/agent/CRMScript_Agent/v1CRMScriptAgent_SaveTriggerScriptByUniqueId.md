@@ -1,6 +1,6 @@
 ---
 title: POST Agents/CRMScript/SaveTriggerScriptByUniqueId
-id: v1CRMScriptAgent_SaveTriggerScriptByUniqueId
+uid: v1CRMScriptAgent_SaveTriggerScriptByUniqueId
 ---
 
 # POST Agents/CRMScript/SaveTriggerScriptByUniqueId
@@ -11,9 +11,16 @@ POST /api/v1/Agents/CRMScript/SaveTriggerScriptByUniqueId
 
 Validate a CRMScript.
 
+
 This will check that the syntax is correct
 
-## Online Restricted: ## The CRMScript agent is not available in Online by default. Access must be requested specifically when app is registered
+
+## Online Restricted: ## The CRMScript agent is not available in Online by default. Access must be requested specifically when app is registered.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -24,6 +31,7 @@ This will check that the syntax is correct
 ```http
 POST /api/v1/Agents/CRMScript/SaveTriggerScriptByUniqueId?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -39,27 +47,25 @@ POST /api/v1/Agents/CRMScript/SaveTriggerScriptByUniqueId?$select=name,departmen
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-TriggerScriptUniqueId, Entity
+TriggerScriptUniqueId, Entity 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | TriggerScriptUniqueId | string |  |
-| Entity |  | CRM Trigger Script - The script runs when a given event fires. <br /> Carrier object for TriggerScriptEntity. Services for the TriggerScriptEntity Carrier is available from the <see cref="T:SuperOffice.CRM.Services.ICRMScriptAgent">CRMScript Agent</see>. |
+| Entity |  | CRM Trigger Script - The script runs when a given event fires. <para /> Carrier object for TriggerScriptEntity. Services for the TriggerScriptEntity Carrier is available from the <see cref="T:SuperOffice.CRM.Services.ICRMScriptAgent">CRMScript Agent</see>. |
 
-## Response: object
 
-CRM Trigger Script - The script runs when a given event fires.
+## Response: 
 
-Carrier object for TriggerScriptEntity.
-Services for the TriggerScriptEntity Carrier is available from the <see cref="T:SuperOffice.CRM.Services.ICRMScriptAgent">CRMScript Agent</see>.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -68,7 +74,7 @@ Response body: object
 | ScreenType | string | Event id that triggers script.  See EventHandlerType enum. |
 | Enabled | bool | Whether this screen chooser is enabled or not |
 | UniqueIdentifier | string | Global unique identifier, accross customers/tenants |
-| Source | string | The CRMScript code for this event handler |
+| Source | string | The CRMscript code for this event handler |
 | Registered | date-time | Registered when  in UTC. |
 | RegisteredAssociateId | int32 | Registered by whom |
 | Updated | date-time | Last updated when  in UTC. |
@@ -76,7 +82,7 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/CRMScript/SaveTriggerScriptByUniqueId
@@ -86,49 +92,34 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "TriggerScriptUniqueId": "quis",
-  "Entity": {
-    "ScreenChooserId": 36,
-    "Name": "O'Kon, Murray and Kertzmann",
-    "ScreenType": "ChatAfterSaveNewMessage",
-    "Enabled": false,
-    "UniqueIdentifier": "aut",
-    "Source": "et",
-    "Registered": "2011-09-05T18:28:48.6419589+02:00",
-    "RegisteredAssociateId": 574,
-    "Updated": "2007-01-07T18:28:48.6419589+01:00",
-    "UpdatedAssociateId": 784
-  }
+  "TriggerScriptUniqueId": "itaque",
+  "Entity": null
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 654,
-  "Name": "Zemlak Inc and Sons",
+  "ScreenChooserId": 66,
+  "Name": "Nolan-Balistreri",
   "ScreenType": "ChatAfterSaveNewMessage",
   "Enabled": true,
-  "UniqueIdentifier": "ea",
-  "Source": "fugiat",
-  "Registered": "2011-05-15T18:28:48.6419589+02:00",
-  "RegisteredAssociateId": 915,
-  "Updated": "2004-02-10T18:28:48.6419589+01:00",
-  "UpdatedAssociateId": 839,
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "UniqueIdentifier": "inventore",
+  "Source": "in",
+  "Registered": "1999-12-13T11:10:26.3914252+01:00",
+  "RegisteredAssociateId": 226,
+  "Updated": "2013-04-13T11:10:26.3914252+02:00",
+  "UpdatedAssociateId": 67,
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
-      "FieldType": "System.String",
-      "FieldLength": 724
+      "FieldRight": null,
+      "FieldType": "System.Int32",
+      "FieldLength": 905
     }
   }
 }

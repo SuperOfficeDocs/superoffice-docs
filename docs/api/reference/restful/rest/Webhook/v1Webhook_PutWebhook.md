@@ -1,6 +1,6 @@
 ---
 title: PUT Webhook/{id}
-id: v1Webhook_PutWebhook
+uid: v1Webhook_PutWebhook
 ---
 
 # PUT Webhook/{id}
@@ -11,11 +11,19 @@ PUT /api/v1/Webhook/{id}
 
 Updates the existing Webhook
 
-## Online Restricted: ## The Webhook agent is not available in Online by default. Access must be requested specifically when app is registered
+
+
+
+## Online Restricted: ## The Webhook agent is not available in Online by default. Access must be requested specifically when app is registered.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | id | int32 | The Webhook id to update. **Required** |
+
 
 ## Query String Parameters
 
@@ -26,6 +34,7 @@ Updates the existing Webhook
 ```http
 PUT /api/v1/Webhook/{id}?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -41,9 +50,9 @@ PUT /api/v1/Webhook/{id}?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entity
+## Request Body: entity  
 
-The Webhook to be saved.
+The Webhook to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -61,18 +70,17 @@ The Webhook to be saved.
 | Updated | date-time | Last updated when  in UTC. |
 | UpdatedAssociate |  | The user that last updated the webhook. |
 
-## Response: object
 
-Webhook definitions. Webhooks broadcast events from NetServer to remote servers.
+## Response: 
 
-Webhook entity with API _Links added.
+Webhook updated.
 
 | Response | Description |
 |----------------|-------------|
 | 200 | Webhook updated. |
 | 400 | Bad request. Entity to save is not in request body. |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -91,140 +99,68 @@ Response body: object
 | UpdatedAssociate |  | The user that last updated the webhook. |
 | _Links | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 PUT /api/v1/Webhook/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebhookId": 31,
-  "Name": "Stehr-Bergnaum",
+  "WebhookId": 321,
+  "Name": "Mueller-Yost",
   "Events": [
-    "odit",
-    "dolor"
+    "est",
+    "impedit"
   ],
   "TargetUrl": "http://www.example.com/",
-  "Secret": "a",
+  "Secret": "quia",
   "State": "Active",
-  "Type": "fugiat",
+  "Type": "laborum",
   "Headers": {
-    "Headers1": "ipsam",
-    "Headers2": "nisi"
+    "Headers1": "nihil",
+    "Headers2": "molestiae"
   },
   "Properties": {
     "fieldName": {}
   },
-  "Registered": "2017-06-06T18:25:51.5641207+02:00",
-  "RegisteredAssociate": {
-    "AssociateId": 207,
-    "Name": "Pacocha, Lesch and Lind",
-    "PersonId": 434,
-    "Rank": 226,
-    "Tooltip": "fuga",
-    "Type": "AnonymousAssociate",
-    "GroupIdx": 598,
-    "FullName": "Laurine Heidenreich",
-    "FormalName": "Kihn Group",
-    "Deleted": false,
-    "EjUserId": 109,
-    "UserName": "Hand Group"
-  },
-  "Updated": "2014-05-10T18:25:51.5641207+02:00",
-  "UpdatedAssociate": {
-    "AssociateId": 516,
-    "Name": "Welch, Waelchi and Purdy",
-    "PersonId": 977,
-    "Rank": 865,
-    "Tooltip": "voluptas",
-    "Type": "AnonymousAssociate",
-    "GroupIdx": 892,
-    "FullName": "Kendrick Lemke",
-    "FormalName": "Bradtke-Johnson",
-    "Deleted": false,
-    "EjUserId": 858,
-    "UserName": "Runolfsson-Deckow"
-  }
+  "Registered": "2007-09-05T11:10:53.8741822+02:00",
+  "RegisteredAssociate": null,
+  "Updated": "2002-08-10T11:10:53.8751838+02:00",
+  "UpdatedAssociate": null
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 Webhook updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebhookId": 971,
-  "Name": "Yost LLC",
+  "WebhookId": 627,
+  "Name": "Bernhard-Goldner",
   "Events": [
-    "eos",
-    "deleniti"
+    "praesentium",
+    "consequatur"
   ],
   "TargetUrl": "http://www.example.com/",
-  "Secret": "omnis",
+  "Secret": "voluptas",
   "State": "Active",
-  "Type": "omnis",
+  "Type": "nesciunt",
   "Headers": {
-    "Headers1": "ut",
-    "Headers2": "molestiae"
+    "Headers1": "dignissimos",
+    "Headers2": "placeat"
   },
   "Properties": {
     "fieldName": {}
   },
-  "Registered": "1994-09-23T18:25:51.5667798+02:00",
-  "RegisteredAssociate": {
-    "AssociateId": 845,
-    "Name": "Walter Inc and Sons",
-    "PersonId": 954,
-    "Rank": 197,
-    "Tooltip": "magni",
-    "Type": "AnonymousAssociate",
-    "GroupIdx": 550,
-    "FullName": "Jeffery Beier",
-    "FormalName": "Koch, Fadel and Stamm",
-    "Deleted": true,
-    "EjUserId": 564,
-    "UserName": "Howell Inc and Sons",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.Int32",
-        "FieldLength": 825
-      }
-    }
-  },
-  "Updated": "2005-06-26T18:25:51.5667798+02:00",
-  "UpdatedAssociate": {
-    "AssociateId": 771,
-    "Name": "Klocko-Walsh",
-    "PersonId": 458,
-    "Rank": 89,
-    "Tooltip": "repellendus",
-    "Type": "AnonymousAssociate",
-    "GroupIdx": 569,
-    "FullName": "Demarco Schamberger",
-    "FormalName": "Corwin, Breitenberg and Yundt",
-    "Deleted": true,
-    "EjUserId": 787,
-    "UserName": "Huel, Conroy and Hane",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.Int32",
-        "FieldLength": 928
-      }
-    }
-  },
+  "Registered": "2017-11-15T11:10:53.8761826+01:00",
+  "RegisteredAssociate": null,
+  "Updated": "2008-06-19T11:10:53.8761826+02:00",
+  "UpdatedAssociate": null,
   "_Links": {
     "Self": "https://www.example.com/api/v1/contact/321",
     "Archive": "https://www.example.com/api/v1/contact"

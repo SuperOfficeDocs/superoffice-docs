@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Find/FindFromRestrictionsColumnsOrderBy
-id: v1FindAgent_FindFromRestrictionsColumnsOrderBy
+uid: v1FindAgent_FindFromRestrictionsColumnsOrderBy
 ---
 
 # POST Agents/Find/FindFromRestrictionsColumnsOrderBy
@@ -11,7 +11,13 @@ POST /api/v1/Agents/Find/FindFromRestrictionsColumnsOrderBy
 
 Execute a Find operation and return a page of results.
 
+
 &lt;para/&gt;The criteria for the Find are passed in directly, not fetched by a restriction storage provider. &lt;para/&gt;The desired columns of the result set are also passed in directly.&lt;para/&gt;The orderby information is also passed in directly.&lt;para/&gt;Use the GetCriteriaInformation, GetDefaultDesiredColumns and GetDefaultOrderBy service methods to let the system calculate these values, if you want to use or modify them.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +28,7 @@ Execute a Find operation and return a page of results.
 ```http
 POST /api/v1/Agents/Find/FindFromRestrictionsColumnsOrderBy?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,9 +44,9 @@ POST /api/v1/Agents/Find/FindFromRestrictionsColumnsOrderBy?$select=name,departm
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-Restrictions, ProviderName, DesiredColumns, OrderBy, PageSize, PageNumber
+Restrictions, ProviderName, DesiredColumns, OrderBy, PageSize, PageNumber 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -50,18 +57,16 @@ Restrictions, ProviderName, DesiredColumns, OrderBy, PageSize, PageNumber
 | PageSize | int32 |  |
 | PageNumber | int32 |  |
 
-## Response: object
 
-Result carrier for the Find operation. It contains a set of column specifications, and a set of row, where each row contains the columns. The row set is the result of carrying out some search operation.
+## Response: 
 
-Carrier object for FindResults.
-Services for the FindResults Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IFindAgent">Find Agent</see>.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -71,58 +76,60 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Find/FindFromRestrictionsColumnsOrderBy
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "Restrictions": [
     {
-      "Name": "Mraz, Herzog and Heller",
-      "Operator": "corrupti",
+      "Name": "Simonis Inc and Sons",
+      "Operator": "est",
       "Values": [
-        "et",
-        "quibusdam"
+        "sit",
+        "aut"
       ],
       "DisplayValues": [
-        "earum",
-        "quis"
+        "ut",
+        "natus"
       ],
-      "ColumnInfo": {},
-      "IsActive": true,
+      "ColumnInfo": null,
+      "IsActive": false,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 135,
+      "InterParenthesis": 967,
       "InterOperator": "And",
-      "UniqueHash": 49
+      "UniqueHash": 728
     }
   ],
-  "ProviderName": "Zemlak LLC",
+  "ProviderName": "Altenwerth Inc and Sons",
   "DesiredColumns": [
-    "fugit",
-    "cum"
+    "quis",
+    "dolores"
   ],
   "OrderBy": [
     {
-      "Name": "Boyer-Huel",
+      "Name": "Krajcik-Fisher",
       "Direction": "ASC"
     },
     {
-      "Name": "Boyer-Huel",
+      "Name": "Krajcik-Fisher",
       "Direction": "ASC"
     }
   ],
-  "PageSize": 967,
-  "PageNumber": 225
+  "PageSize": 542,
+  "PageNumber": 434
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -131,60 +138,51 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumns": [
     {
-      "DisplayName": "Lakin-O'Kon",
-      "DisplayTooltip": "rerum",
-      "DisplayType": "quae",
+      "DisplayName": "Brekke-Kerluke",
+      "DisplayTooltip": "est",
+      "DisplayType": "porro",
       "CanOrderBy": false,
-      "Name": "McKenzie, Dach and Armstrong",
+      "Name": "Braun-Hirthe",
       "CanRestrictBy": false,
-      "RestrictionType": "facere",
-      "RestrictionListName": "Weissnat-Predovic",
+      "RestrictionType": "est",
+      "RestrictionListName": "O'Hara-Wintheiser",
       "IsVisible": false,
-      "ExtraInfo": "id",
-      "Width": "et",
-      "IconHint": "sit",
-      "HeadingIconHint": "voluptatem"
+      "ExtraInfo": "occaecati",
+      "Width": "debitis",
+      "IconHint": "ut",
+      "HeadingIconHint": "cupiditate"
     }
   ],
   "ArchiveRows": [
     {
-      "EntityName": "Christiansen, Shanahan and Wolf",
-      "PrimaryKey": 799,
+      "EntityName": "Schamberger Group",
+      "PrimaryKey": 414,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "dolore",
-          "TooltipHint": "et",
-          "LinkHint": "debitis"
+          "DisplayValue": "ut",
+          "TooltipHint": "laudantium",
+          "LinkHint": "itaque"
         }
       },
-      "LinkHint": "veniam",
-      "StyleHint": "id",
-      "TableRight": {},
+      "LinkHint": "eos",
+      "StyleHint": "omnis",
+      "TableRight": null,
       "FieldProperties": {
         "fieldName": {
-          "FieldRight": {
-            "Mask": "FULL",
-            "Reason": ""
-          },
+          "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 12
+          "FieldLength": 457
         }
       }
     }
   ],
-  "RowCount": 442,
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "RowCount": 55,
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
-      "FieldType": "System.String",
-      "FieldLength": 988
+      "FieldRight": null,
+      "FieldType": "System.Int32",
+      "FieldLength": 366
     }
   }
 }

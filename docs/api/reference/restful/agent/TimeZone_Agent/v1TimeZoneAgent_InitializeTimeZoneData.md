@@ -1,6 +1,6 @@
 ---
 title: POST Agents/TimeZone/InitializeTimeZoneData
-id: v1TimeZoneAgent_InitializeTimeZoneData
+uid: v1TimeZoneAgent_InitializeTimeZoneData
 ---
 
 # POST Agents/TimeZone/InitializeTimeZoneData
@@ -11,6 +11,12 @@ POST /api/v1/Agents/TimeZone/InitializeTimeZoneData
 
 Initalizes the TimeZoneData
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Initalizes the TimeZoneData
 ```http
 POST /api/v1/Agents/TimeZone/InitializeTimeZoneData?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -34,7 +41,10 @@ POST /api/v1/Agents/TimeZone/InitializeTimeZoneData?$select=name,department,cate
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -52,14 +62,16 @@ Response body: array
 | TimeZoneSTDRules | object |  |
 | TimeZoneDSTRules | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/TimeZone/InitializeTimeZoneData
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -67,31 +79,31 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TZLocationID": 407,
-    "Name": "Streich Inc and Sons",
-    "TZLocationCode": "vero",
-    "TZLocationCities": "mollitia",
-    "IsoNumber": 608,
+    "TZLocationID": 757,
+    "Name": "Wisoky-Powlowski",
+    "TZLocationCode": "qui",
+    "TZLocationCities": "eaque",
+    "IsoNumber": 105,
     "TimeZoneSTDRules": {
       "fieldName": {
-        "StartDay": 868,
-        "StartMonth": 389,
-        "EndDay": 979,
-        "EndMonth": 40,
-        "TZOffset": 37,
-        "StartRulePattern": "sed",
-        "EndRulePattern": "dolorem"
+        "StartDay": 738,
+        "StartMonth": 562,
+        "EndDay": 628,
+        "EndMonth": 640,
+        "TZOffset": 749,
+        "StartRulePattern": "maxime",
+        "EndRulePattern": "cum"
       }
     },
     "TimeZoneDSTRules": {
       "fieldName": {
-        "StartDay": 657,
-        "StartMonth": 110,
-        "EndDay": 203,
-        "EndMonth": 51,
-        "TZOffset": 199,
-        "StartRulePattern": "dolores",
-        "EndRulePattern": "corporis"
+        "StartDay": 234,
+        "StartMonth": 665,
+        "EndDay": 841,
+        "EndMonth": 120,
+        "TZOffset": 625,
+        "StartRulePattern": "perferendis",
+        "EndRulePattern": "vel"
       }
     }
   }

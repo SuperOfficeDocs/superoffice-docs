@@ -1,6 +1,6 @@
 ---
 title: GET Project/CustomField
-id: v1ProjectEntity_GetCustomFieldInfoList
+uid: v1ProjectEntity_GetCustomFieldInfoList
 ---
 
 # GET Project/CustomField
@@ -11,7 +11,14 @@ GET /api/v1/Project/CustomField
 
 Custom fields meta-data (published user defined + extra fields) on ProjectEntity.
 
+
 Excludes standard fields.
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -26,7 +33,10 @@ Excludes standard fields.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -50,14 +60,16 @@ Response body: array
 | Rank | int32 | Tab order, ranking within the custom fields. |
 | TemplateVariableName | string | Template variable name: 'cs01', 'cl02' etc. Null for extra fields. |
 
-## Sample Request
+## Sample request
 
 ```http!
 GET /api/v1/Project/CustomField
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -66,18 +78,18 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "FieldType": "Attachment",
-    "FieldName": "Becker Inc and Sons",
-    "DisplayName": "Nitzsche Group",
-    "Description": "Cloned fresh-thinking website",
-    "ShortLabel": "in",
-    "HideLabel": false,
+    "FieldName": "Wiegand, Schmidt and Kirlin",
+    "DisplayName": "Kiehn LLC",
+    "Description": "Integrated empowering methodology",
+    "ShortLabel": "voluptatem",
+    "HideLabel": true,
     "HideField": false,
     "IsIndexed": false,
     "IsMandatory": true,
     "IsReadOnly": false,
     "IsExternal": true,
-    "Rank": 984,
-    "TemplateVariableName": "O'Reilly Group"
+    "Rank": 270,
+    "TemplateVariableName": "Kozey LLC"
   }
 ]
 ```

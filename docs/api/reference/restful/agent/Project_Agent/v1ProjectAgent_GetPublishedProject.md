@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Project/GetPublishedProject
-id: v1ProjectAgent_GetPublishedProject
+uid: v1ProjectAgent_GetPublishedProject
 ---
 
 # POST Agents/Project/GetPublishedProject
@@ -11,6 +11,12 @@ POST /api/v1/Agents/Project/GetPublishedProject
 
 Get published project by project id.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Get published project by project id.
 ```http
 POST /api/v1/Agents/Project/GetPublishedProject?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,24 +42,24 @@ POST /api/v1/Agents/Project/GetPublishedProject?$select=name,department,category
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-ProjectId
+ProjectId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | ProjectId | int32 |  |
 
-## Response: object
 
-Carrier object for Project.
-Services for the Project Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IProjectAgent">Project Agent</see>.
+## Response: 
+
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -77,7 +84,7 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Project/GetPublishedProject
@@ -87,45 +94,41 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 398
+  "ProjectId": 55
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 692,
-  "Name": "Bogan Inc and Sons",
-  "Description": "Down-sized discrete projection",
+  "ProjectId": 998,
+  "Name": "O'Reilly Inc and Sons",
+  "Description": "Programmable regional moderator",
   "URL": "http://www.example.com/",
-  "Type": "qui",
-  "AssociateId": 713,
-  "AssociateFullName": "Miss Pearline Lang",
-  "TypeId": 421,
-  "Updated": "2015-05-25T18:28:49.7841424+02:00",
-  "StatusId": 386,
-  "Status": "sit",
-  "TextId": 849,
-  "PublishTo": "1996-02-18T18:28:49.7841424+01:00",
-  "PublishFrom": "2000-05-15T18:28:49.7841424+02:00",
+  "Type": "nulla",
+  "AssociateId": 792,
+  "AssociateFullName": "Ms. Tavares Abshire",
+  "TypeId": 781,
+  "Updated": "2016-02-25T11:10:27.6224606+01:00",
+  "StatusId": 303,
+  "Status": "delectus",
+  "TextId": 144,
+  "PublishTo": "2019-12-18T11:10:27.6224606+01:00",
+  "PublishFrom": "1996-11-30T11:10:27.6224606+01:00",
   "IsPublished": false,
   "URLName": "http://www.example.com/",
-  "ProjectNumber": "1294079",
-  "ActiveErpLinks": 259,
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "ProjectNumber": "788831",
+  "ActiveErpLinks": 838,
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
-      "FieldType": "System.String",
-      "FieldLength": 56
+      "FieldRight": null,
+      "FieldType": "System.Int32",
+      "FieldLength": 905
     }
   }
 }

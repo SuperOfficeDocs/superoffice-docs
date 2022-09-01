@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "screen_definition_action"
-so.date: 04.12.2022
+so.date: 08.26.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -28,6 +28,7 @@ An action to perform for a certain button in an screen
 |ejscript\_body|The script to execute for this button/action|Clob|&#x25CF;|
 |do\_check|If set, then run check() before executing button (making sure values in form fields are ok)|Bool|&#x25CF;|
 
+
 ![screen_definition_action table relationship diagram](./media/screen_definition_action.png)
 
 [!include[details](./includes/screen-definition-action.md)]
@@ -47,6 +48,7 @@ An action to perform for a certain button in an screen
 |[ejscript](ejscript.md)  |ejscript |
 |[screen\_definition](screen-definition.md)  |A configurable screen |
 
+
 ## Replication Flags
 
 * None
@@ -54,3 +56,4 @@ An action to perform for a certain button in an screen
 ## Security Flags
 
 * No access control via user's Role.
+

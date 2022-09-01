@@ -1,6 +1,6 @@
 ---
 title: GET Selection/{id}/ShadowMembers
-id: v1SelectionEntity_GetSelectionShadowMembersArchiveRows
+uid: v1SelectionEntity_GetSelectionShadowMembersArchiveRows
 ---
 
 # GET Selection/{id}/ShadowMembers
@@ -11,11 +11,17 @@ GET /api/v1/Selection/{selectionId}/ShadowMembers
 
 Get the list of members in this selection's shadow (i.
 
+
 e. the list of contacts + persons referenced in the main selection).
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | selectionId | int32 | The selectionId we want selection members for. **Required** |
+
 
 ## Query String Parameters
 
@@ -31,6 +37,7 @@ GET /api/v1/Selection/{selectionId}/ShadowMembers?$mode=FULL
 GET /api/v1/Selection/{selectionId}/ShadowMembers?$format=JSON
 ```
 
+
 ## Request Headers
 
 | Parameter Name | Description |
@@ -44,15 +51,16 @@ GET /api/v1/Selection/{selectionId}/ShadowMembers?$format=JSON
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response: object
 
-Easy to use archive results - just a flat list of values.
+## Response: 
+
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -60,14 +68,16 @@ Response body: object
 | odata.nextLink | string |  |
 | value | array |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 GET /api/v1/Selection/{selectionId}/ShadowMembers
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -75,21 +85,19 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "et",
+  "odata.nextLink": "quo",
   "value": [
     {
-      "PrimaryKey": 9064,
-      "EntityName": "sale",
-      "saleId": 9064,
-      "contactId": 3294,
-      "name": "Klein-Hackett"
+      "PrimaryKey": 1449,
+      "EntityName": "person",
+      "personId": 1449,
+      "fullName": "Rozella Flatley"
     },
     {
-      "PrimaryKey": 7126,
-      "EntityName": "sale",
-      "saleId": 7126,
-      "contactId": 4554,
-      "name": "Cummings-Zemlak"
+      "PrimaryKey": 2355,
+      "EntityName": "person",
+      "personId": 2355,
+      "fullName": "Mrs. Harrison Williamson"
     }
   ]
 }

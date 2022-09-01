@@ -1,12 +1,12 @@
 ---
 uid: table-ziptocity
 title: ziptocity table
-description: Zip codes and city names. Zip codes used during address entry.
+description: Zip codes and city names. Zip codes used during address entry. You will find more information about addressformat on http;//techdoc.superoffice.com 
 so.generated: true
 keywords:
   - "database"
   - "ziptocity"
-so.date: 04.12.2022
+so.date: 08.26.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -15,7 +15,7 @@ so.envir:
 
 # ziptocity Table (16)
 
-Zip codes and city names. Zip codes used during address entry.
+Zip codes and city names. Zip codes used during address entry. You will find more information about addressformat on http;//techdoc.superoffice.com 
 
 ## Fields
 
@@ -26,6 +26,7 @@ Zip codes and city names. Zip codes used during address entry.
 |zipcode|Zipcode|String(11)| |
 |city|City field|String(79)| |
 |updatedCount|Number of updates made to this record|UShort| |
+
 
 ![ziptocity table relationship diagram](./media/ziptocity.png)
 
@@ -45,6 +46,7 @@ Zip codes and city names. Zip codes used during address entry.
 |------|-------------|
 |[country](country.md)  |Country information |
 
+
 ## Replication Flags
 
 * Replicate changes DOWN from central to satellites and travellers.
@@ -54,3 +56,4 @@ Zip codes and city names. Zip codes used during address entry.
 ## Security Flags
 
 * No access control via user's Role.
+

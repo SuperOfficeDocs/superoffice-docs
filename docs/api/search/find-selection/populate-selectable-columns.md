@@ -234,7 +234,7 @@ Whether getting columns or entities, the results an array of MDOListItem. The st
 
 <!-- Referenced links -->
 [1]: ../../archive-providers/reference/contactpersondynamicselectionv2.md
-[2]: ../../../reference/netserver/core/superoffice.crm.archivelists.archiveorderbyinfo.yml
+[2]: ../../reference/netserver/core/superoffice.crm.archivelists.archiveorderbyinfo.yml
 
 <!-- Referenced images -->
 [img1]: ../media/selection-search-criteria.png

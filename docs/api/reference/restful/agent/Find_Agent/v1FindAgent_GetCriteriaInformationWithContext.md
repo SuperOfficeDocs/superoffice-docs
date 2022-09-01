@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Find/GetCriteriaInformationWithContext
-id: v1FindAgent_GetCriteriaInformationWithContext
+uid: v1FindAgent_GetCriteriaInformationWithContext
 ---
 
 # POST Agents/Find/GetCriteriaInformationWithContext
@@ -11,7 +11,13 @@ POST /api/v1/Agents/Find/GetCriteriaInformationWithContext
 
 Get criteria information from a set of saved criteria.
 
+
 The result contains the restrictions in two forms: fully populated ArchiveRestrictionInfo objects, used to display details and for saving changes; and as a list suitable for an Archive control
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +28,7 @@ The result contains the restrictions in two forms: fully populated ArchiveRestri
 ```http
 POST /api/v1/Agents/Find/GetCriteriaInformationWithContext?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,9 +44,9 @@ POST /api/v1/Agents/Find/GetCriteriaInformationWithContext?$select=name,departme
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-StorageType, ProviderName, StorageKey, StaticColumns, Context
+StorageType, ProviderName, StorageKey, StaticColumns, Context 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -49,18 +56,16 @@ StorageType, ProviderName, StorageKey, StaticColumns, Context
 | StaticColumns | array |  |
 | Context | string |  |
 
-## Response: object
 
-Carrier for criteria information. It contains all the search criteria - that is, ArchiveRestrictionInfo - objects, including a  column specification. In addition, it contains the same criteria expressed as an archive, with an array of ArchiveColumnInfo specifications and a set of ArchiveRow rows. The rows of the archive form a subset of the restriction array.
+## Response: 
 
-Carrier object for CriteriaInformation.
-Services for the CriteriaInformation Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IFindAgent">Find Agent</see>.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -71,7 +76,7 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Find/GetCriteriaInformationWithContext
@@ -81,16 +86,18 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "explicabo",
-  "ProviderName": "Lindgren Group",
-  "StorageKey": "sed",
+  "StorageType": "quidem",
+  "ProviderName": "Ratke, Bednar and Halvorson",
+  "StorageKey": "praesentium",
   "StaticColumns": [
-    "itaque",
-    "praesentium"
+    "culpa",
+    "ipsa"
   ],
-  "Context": "quia"
+  "Context": "non"
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -99,102 +106,93 @@ Content-Type: application/json; charset=utf-8
 {
   "Restrictions": [
     {
-      "Name": "Larkin, Stamm and Murray",
-      "Operator": "eius",
+      "Name": "Padberg Inc and Sons",
+      "Operator": "possimus",
       "Values": [
-        "et",
-        "omnis"
+        "iusto",
+        "qui"
       ],
       "DisplayValues": [
-        "minima",
-        "voluptatem"
+        "impedit",
+        "consequuntur"
       ],
-      "ColumnInfo": {},
+      "ColumnInfo": null,
       "IsActive": true,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 316,
+      "InterParenthesis": 348,
       "InterOperator": "And",
-      "UniqueHash": 128
+      "UniqueHash": 939
     }
   ],
   "CriteriaArchiveColumns": [
     {
-      "DisplayName": "Turner, Braun and Kilback",
-      "DisplayTooltip": "ut",
-      "DisplayType": "nulla",
-      "CanOrderBy": false,
-      "Name": "Cassin, Kohler and Jerde",
-      "CanRestrictBy": true,
-      "RestrictionType": "laborum",
-      "RestrictionListName": "Kreiger, Klocko and Ondricka",
-      "IsVisible": true,
-      "ExtraInfo": "consequatur",
-      "Width": "et",
-      "IconHint": "rerum",
-      "HeadingIconHint": "aut"
+      "DisplayName": "Wyman Group",
+      "DisplayTooltip": "aut",
+      "DisplayType": "ut",
+      "CanOrderBy": true,
+      "Name": "Mayert Inc and Sons",
+      "CanRestrictBy": false,
+      "RestrictionType": "quidem",
+      "RestrictionListName": "Predovic, Veum and Leuschke",
+      "IsVisible": false,
+      "ExtraInfo": "incidunt",
+      "Width": "at",
+      "IconHint": "consectetur",
+      "HeadingIconHint": "et"
     }
   ],
   "CriteriaArchiveRows": [
     {
-      "EntityName": "Moen, Baumbach and Gutkowski",
-      "PrimaryKey": 493,
+      "EntityName": "Beatty-Jast",
+      "PrimaryKey": 908,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "nobis",
-          "TooltipHint": "consequatur",
-          "LinkHint": "et"
+          "DisplayValue": "reprehenderit",
+          "TooltipHint": "earum",
+          "LinkHint": "voluptates"
         }
       },
-      "LinkHint": "totam",
-      "StyleHint": "possimus",
-      "TableRight": {},
+      "LinkHint": "sit",
+      "StyleHint": "modi",
+      "TableRight": null,
       "FieldProperties": {
         "fieldName": {
-          "FieldRight": {
-            "Mask": "FULL",
-            "Reason": ""
-          },
+          "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 543
+          "FieldLength": 698
         }
       }
     }
   ],
   "RestrictionGroups": [
     {
-      "Name": "Johnson, Nienow and Lueilwitz",
-      "Description": "Synchronised leading edge alliance",
-      "Rank": 58,
+      "Name": "Beier, Adams and Morar",
+      "Description": "Streamlined assymetric paradigm",
+      "Rank": 15,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Johnson, Nienow and Lueilwitz",
-      "Description": "Synchronised leading edge alliance",
-      "Rank": 58,
+      "Name": "Beier, Adams and Morar",
+      "Description": "Streamlined assymetric paradigm",
+      "Rank": 15,
       "Restrictions": [
         {},
         {}
       ]
     }
   ],
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
+      "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 572
+      "FieldLength": 680
     }
   }
 }

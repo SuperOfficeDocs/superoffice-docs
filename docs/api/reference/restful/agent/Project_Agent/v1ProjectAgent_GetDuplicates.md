@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Project/GetDuplicates
-id: v1ProjectAgent_GetDuplicates
+uid: v1ProjectAgent_GetDuplicates
 ---
 
 # POST Agents/Project/GetDuplicates
@@ -11,6 +11,12 @@ POST /api/v1/Agents/Project/GetDuplicates
 
 Get duplicates(exact or similar in the database) based on the name
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Get duplicates(exact or similar in the database) based on the name
 ```http
 POST /api/v1/Agents/Project/GetDuplicates?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,15 +42,18 @@ POST /api/v1/Agents/Project/GetDuplicates?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-Name
+Name 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | Name | string |  |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -61,7 +71,7 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Project/GetDuplicates
@@ -71,9 +81,11 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Adams, Shields and Abbott"
+  "Name": "Abbott-Roberts"
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -81,23 +93,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "RuleName": "Kulas Inc and Sons",
-    "SoPrimaryKey": 957,
-    "EntryName": "Oberbrunner Group",
-    "EntryIdentifier": "qui",
-    "RuleDisplayName": "Willms Group",
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "RuleName": "VonRueden Group",
+    "SoPrimaryKey": 994,
+    "EntryName": "Pfannerstill, Koepp and Goodwin",
+    "EntryIdentifier": "at",
+    "RuleDisplayName": "Abshire Inc and Sons",
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
+        "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 920
+        "FieldLength": 721
       }
     }
   }

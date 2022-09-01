@@ -1,6 +1,6 @@
 ---
 title: POST BatchTask
-id: v1Batch_StartBatchJob
+uid: v1Batch_StartBatchJob
 ---
 
 # POST BatchTask
@@ -10,6 +10,13 @@ POST /api/v1/BatchTask
 ```
 
 Start a batch job based on BatchTaskInfo.
+
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -25,9 +32,9 @@ Start a batch job based on BatchTaskInfo.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: batchTaskInfo
+## Request Body: batchTaskInfo  
 
-Use BatchTaskInfo to describe the new batch job.
+Use BatchTaskInfo to describe the new batch job. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -53,7 +60,10 @@ Use BatchTaskInfo to describe the new batch job.
 | ProgressPercent | int32 | Task progress, in percent of estimated total |
 | FileName | string | The filename related to the batchtask. |
 
+
 ## Response: int32
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -61,46 +71,49 @@ Use BatchTaskInfo to describe the new batch job.
 
 Response body: int32
 
-## Sample Request
+
+## Sample request
 
 ```http!
 POST /api/v1/BatchTask
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 309,
-  "Name": "O'Keefe, Williamson and Stanton",
-  "AssociateId": 924,
-  "DetailsTable": 208,
-  "DetailsRecord": 515,
+  "Id": 888,
+  "Name": "Goodwin-Brown",
+  "AssociateId": 913,
+  "DetailsTable": 225,
+  "DetailsRecord": 368,
   "IsSystemTask": true,
   "IsInternalTask": false,
   "ParameterObject": {
-    "ParameterObject1": "modi",
-    "ParameterObject2": "quaerat"
+    "ParameterObject1": "omnis",
+    "ParameterObject2": "officiis"
   },
-  "LastStarted": "1995-06-09T18:25:51.3261055+02:00",
-  "Created": "1998-06-15T18:25:51.3261055+02:00",
-  "StartCount": 525,
-  "DatabaseSerialNumber": "1739680",
-  "Context": "quaerat",
-  "Result": "et",
+  "LastStarted": "2021-06-04T11:10:53.6742126+02:00",
+  "Created": "2009-07-02T11:10:53.6742126+02:00",
+  "StartCount": 49,
+  "DatabaseSerialNumber": "731162",
+  "Context": "recusandae",
+  "Result": "officia",
   "State": "All",
-  "Description": "Re-contextualized static policy",
-  "Response": "quo",
-  "Request": "magnam",
-  "ProgressDescription": "Multi-layered value-added hierarchy",
-  "ProgressPercent": 17,
-  "FileName": "Block, Bednar and Harvey"
+  "Description": "Assimilated full-range forecast",
+  "Response": "ut",
+  "Request": "voluptatem",
+  "ProgressDescription": "Diverse dedicated neural-net",
+  "ProgressPercent": 723,
+  "FileName": "Ankunding, Lebsack and Little"
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-993
+412
 ```

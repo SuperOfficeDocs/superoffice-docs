@@ -18,6 +18,8 @@ Add a number of bounce counts on the email address if it exists, and with possib
 * **code:** A numeric code representing the bounce reason
 * **reason:** A textual tag representing the bounce reason
 
+
+
 [WSDL file for Services88/Person](../Services88-Person.md)
 
 Obtain a ticket from the [Services88/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -53,6 +55,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## AddBounceWithDetails Response
 
 ```xml
@@ -72,3 +75,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

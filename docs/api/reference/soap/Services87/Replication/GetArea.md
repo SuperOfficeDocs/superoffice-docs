@@ -12,11 +12,12 @@ Implemented by the <see cref="M:SuperOffice.Services87.IReplicationAgent.GetArea
 ## GetArea
 
 Gets a Area object.
-<br />**Online Restricted:** The Replication agent is not available in Online by default. Not available in Online. Only used on-site.
+<para /><b>Online Restricted:</b> The Replication agent is not available in Online by default. Not available in Online. Only used on-site.
 
 * **areaId:** The identifier of the Area object
 
 **Returns:** Area
+
 
 [WSDL file for Services87/Replication](../Services87-Replication.md)
 
@@ -50,6 +51,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## GetArea Response
 
 ```xml
@@ -77,3 +79,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

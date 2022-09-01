@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Preference/GetFromSectionAndKey
-id: v1PreferenceAgent_GetFromSectionAndKey
+uid: v1PreferenceAgent_GetFromSectionAndKey
 ---
 
 # POST Agents/Preference/GetFromSectionAndKey
@@ -11,6 +11,12 @@ POST /api/v1/Agents/Preference/GetFromSectionAndKey
 
 Gets a PreferenceDescription based on the section and key
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Gets a PreferenceDescription based on the section and key
 ```http
 POST /api/v1/Agents/Preference/GetFromSectionAndKey?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,27 +42,25 @@ POST /api/v1/Agents/Preference/GetFromSectionAndKey?$select=name,department,cate
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-Section, Key
+Section, Key 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | Section | string |  |
 | Key | string |  |
 
-## Response: object
 
-Preference description, drives the Preference GUI. Maintenance client - controls all preferences in SuperOffice.
+## Response: 
 
-Carrier object for PreferenceDescription.
-Services for the PreferenceDescription Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IPreferenceAgent">Preference Agent</see>.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -80,56 +85,52 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Preference/GetFromSectionAndKey
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Section": "omnis",
-  "Key": "qui"
+  "Section": "sed",
+  "Key": "ullam"
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 12,
-  "Section": "quisquam",
-  "Key": "inventore",
-  "Name": "McDermott, Bahringer and Abernathy",
+  "PrefDescId": 71,
+  "Section": "provident",
+  "Key": "voluptatum",
+  "Name": "Rolfson, Towne and Pouros",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Upgradable even-keeled website",
+  "Description": "Virtual even-keeled alliance",
   "IsBuiltin": false,
-  "TableName": "Fay Group",
-  "UserDefinedListId": 289,
-  "Rank": 494,
-  "SubGroup": "quia",
-  "MinLevel": 955,
-  "MaxValue": 86,
-  "MinValue": 12,
-  "RequiredLicense": "facere",
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "TableName": "Langworth Group",
+  "UserDefinedListId": 719,
+  "Rank": 771,
+  "SubGroup": "tempora",
+  "MinLevel": 834,
+  "MaxValue": 780,
+  "MinValue": 812,
+  "RequiredLicense": "in",
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
-      "FieldType": "System.Int32",
-      "FieldLength": 187
+      "FieldRight": null,
+      "FieldType": "System.String",
+      "FieldLength": 821
     }
   }
 }

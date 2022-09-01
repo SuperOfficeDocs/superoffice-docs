@@ -11,10 +11,14 @@ Implemented by the <see cref="M:SuperOffice.Services84.IEMailAgent.RelayMessage"
 
 ## RelayMessage
 
-* **connectionInfoExtended:**
-* **rfc822:**
-* **from:**
-* **recipients:**
+
+
+* **connectionInfoExtended:** 
+* **rfc822:** 
+* **from:** 
+* **recipients:** 
+
+
 
 [WSDL file for Services84/EMail](../Services84-EMail.md)
 
@@ -61,6 +65,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## RelayMessage Response
 
 ```xml
@@ -80,3 +85,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

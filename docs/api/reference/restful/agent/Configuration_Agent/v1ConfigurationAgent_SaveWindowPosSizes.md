@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Configuration/SaveWindowPosSizes
-id: v1ConfigurationAgent_SaveWindowPosSizes
+uid: v1ConfigurationAgent_SaveWindowPosSizes
 ---
 
 # POST Agents/Configuration/SaveWindowPosSizes
@@ -11,6 +11,12 @@ POST /api/v1/Agents/Configuration/SaveWindowPosSizes
 
 Saves a set of window and dialog position and size settings.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Saves a set of window and dialog position and size settings.
 ```http
 POST /api/v1/Agents/Configuration/SaveWindowPosSizes?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,15 +42,18 @@ POST /api/v1/Agents/Configuration/SaveWindowPosSizes?$select=name,department,cat
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-WindowPosSizes
+WindowPosSizes 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | WindowPosSizes | array |  |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -67,33 +77,35 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Configuration/SaveWindowPosSizes
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "WindowPosSizes": [
     {
-      "OwnerWindow": "illo",
-      "PersonId": 285,
-      "AssociateId": 459,
-      "ExtraId": 695,
-      "ExtraInfo": "vel",
-      "Height": 829,
-      "LeftX": 401,
+      "OwnerWindow": "quis",
+      "PersonId": 496,
+      "AssociateId": 982,
+      "ExtraId": 937,
+      "ExtraInfo": "itaque",
+      "Height": 97,
+      "LeftX": 390,
       "State": "Maximized",
-      "UpperY": 868,
-      "Width": 793,
-      "WindowPosSizeId": 395
+      "UpperY": 5,
+      "Width": 509,
+      "WindowPosSizeId": 226
     }
   ]
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -101,29 +113,23 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "OwnerWindow": "placeat",
-    "PersonId": 40,
-    "AssociateId": 363,
-    "ExtraId": 470,
-    "ExtraInfo": "inventore",
-    "Height": 637,
-    "LeftX": 131,
+    "OwnerWindow": "quibusdam",
+    "PersonId": 840,
+    "AssociateId": 151,
+    "ExtraId": 379,
+    "ExtraInfo": "officiis",
+    "Height": 270,
+    "LeftX": 538,
     "State": "Maximized",
-    "UpperY": 809,
-    "Width": 422,
-    "WindowPosSizeId": 766,
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "UpperY": 85,
+    "Width": 574,
+    "WindowPosSizeId": 567,
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
+        "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 824
+        "FieldLength": 322
       }
     }
   }

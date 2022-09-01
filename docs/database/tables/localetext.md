@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "LocaleText"
-so.date: 04.12.2022
+so.date: 08.26.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -15,7 +15,7 @@ so.envir:
 
 # LocaleText Table (169)
 
-Multi-language text items. Used for user-defined field labels. Must be assigned correct name to match the language they start SuperOffice in.  This table should be viewed in conjunction with FieldLabel. If a row in FieldLable has active = 1 this table will need to contain at least one row with the same resourceId as the FieldLabel row. The language id can be either 0 or one of the Windows language ID&apos;s; SuperOffice will pick the correct language on startup according to the user settings. If a label cannot be found with the given language and also not with language 0, it will not be substituted.
+Multi-language text items. Used for user-defined field labels. Must be assigned correct name to match the language they start SuperOffice in.  This table should be viewed in conjunction with FieldLabel. If a row in FieldLable has active = 1 this table will need to contain at least one row with the same resourceId as the FieldLabel row. The language id can be either 0 or one of the Windows language ID&apos;s; SuperOffice will pick the correct language on startup according to the user settings. If a label cannot be found with the given language and also not with language 0, it will not be substituted. 
 
 ## Fields
 
@@ -32,6 +32,7 @@ Multi-language text items. Used for user-defined field labels. Must be assigned 
 |updated\_associate\_id|Last updated by whom|FK [associate](associate.md)| |
 |updatedCount|Number of updates made to this record|UShort| |
 |isBuiltin|1 = this row is populated and maintained by SuperOffice|UShort|&#x25CF;|
+
 
 ![LocaleText table relationship diagram](./media/LocaleText.png)
 
@@ -51,6 +52,7 @@ Multi-language text items. Used for user-defined field labels. Must be assigned 
 |------|-------------|
 |[associate](associate.md)  |Employees, resources and other users - except for External persons |
 
+
 ## Replication Flags
 
 * Replicate changes DOWN from central to satellites and travellers.
@@ -60,3 +62,4 @@ Multi-language text items. Used for user-defined field labels. Must be assigned 
 ## Security Flags
 
 * No access control via user's Role.
+

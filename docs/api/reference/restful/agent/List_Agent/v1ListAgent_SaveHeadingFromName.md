@@ -1,6 +1,6 @@
 ---
 title: POST Agents/List/SaveHeadingFromName
-id: v1ListAgent_SaveHeadingFromName
+uid: v1ListAgent_SaveHeadingFromName
 ---
 
 # POST Agents/List/SaveHeadingFromName
@@ -11,6 +11,12 @@ POST /api/v1/Agents/List/SaveHeadingFromName
 
 Save new heading for list resolved by the provided name.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Save new heading for list resolved by the provided name.
 ```http
 POST /api/v1/Agents/List/SaveHeadingFromName?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,27 +42,25 @@ POST /api/v1/Agents/List/SaveHeadingFromName?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-Name, Entity
+Name, Entity 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | Name | string |  |
-| Entity |  | The heading entity contains generic list item information <br /> Carrier object for HeadingEntity. Services for the HeadingEntity Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IListAgent">List Agent</see>. |
+| Entity |  | The heading entity contains generic list item information <para /> Carrier object for HeadingEntity. Services for the HeadingEntity Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IListAgent">List Agent</see>. |
 
-## Response: object
 
-The heading entity contains generic list item information
+## Response: 
 
-Carrier object for HeadingEntity.
-Services for the HeadingEntity Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IListAgent">List Agent</see>.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -68,51 +73,40 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/List/SaveHeadingFromName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Nitzsche Group",
-  "Entity": {
-    "HeadingId": 58,
-    "Name": "Aufderhar LLC",
-    "Tooltip": "itaque",
-    "Deleted": true,
-    "Rank": 24,
-    "UdListDefinitionId": 178
-  }
+  "Name": "Shields Inc and Sons",
+  "Entity": null
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 750,
-  "Name": "VonRueden LLC",
-  "Tooltip": "in",
+  "HeadingId": 580,
+  "Name": "O'Connell, Koss and Kunde",
+  "Tooltip": "excepturi",
   "Deleted": false,
-  "Rank": 200,
-  "UdListDefinitionId": 301,
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "Rank": 849,
+  "UdListDefinitionId": 405,
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
-      "FieldType": "System.Int32",
-      "FieldLength": 536
+      "FieldRight": null,
+      "FieldType": "System.String",
+      "FieldLength": 63
     }
   }
 }

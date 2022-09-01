@@ -1,6 +1,6 @@
 ---
 title: GET ProjectMember/{id}
-id: v1ProjectMember_GetProjectMember
+uid: v1ProjectMember_GetProjectMember
 ---
 
 # GET ProjectMember/{id}
@@ -11,11 +11,17 @@ GET /api/v1/ProjectMember/{id}
 
 Gets a ProjectMember object.
 
+
 Calls the Project agent service GetProjectMember.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | id | int32 | The id of the ProjectMember to return. **Required** |
+
 
 ## Query String Parameters
 
@@ -26,6 +32,7 @@ Calls the Project agent service GetProjectMember.
 ```http
 GET /api/v1/ProjectMember/{id}?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -40,18 +47,17 @@ GET /api/v1/ProjectMember/{id}?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response: object
 
-A person can be a member of multiple projects, with a different comment and member type in each project.
+## Response: 
 
-ProjectMember entity with API _Links added.
+ProjectMember found.
 
 | Response | Description |
 |----------------|-------------|
 | 200 | ProjectMember found. |
 | 404 | Not Found. |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -72,7 +78,7 @@ Response body: object
 | ProjectMemberTypeName | string | The projectmembers type name: 'secretary', 'member', etc. |
 | Phone | string | Phone number |
 | PhoneId | int32 | The phone id |
-| ProjectMemberTypeId | int32 | ProjectMember Type Id - from the ProjectMemberType list.  <br />Use MDO List name "PMembType" to get list items. |
+| ProjectMemberTypeId | int32 | ProjectMember Type Id - from the ProjectMemberType list.  <para>Use MDO List name "PMembType" to get list items.</para> |
 | EmailAddressName | string | The e-mail address description |
 | Comment | string | Comment text on the project membership |
 | FullName | string | The person's full name localized to the current culture/country.  (internal name used in clients for employees) |
@@ -80,53 +86,49 @@ Response body: object
 | FieldProperties | object |  |
 | _Links | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 GET /api/v1/ProjectMember/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 ProjectMember found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectmemberId": 541,
-  "ContactId": 227,
-  "ProjectId": 691,
-  "ContactName": "Lemke Group",
+  "ProjectmemberId": 625,
+  "ContactId": 400,
+  "ProjectId": 377,
+  "ContactName": "Haley, Adams and Schmitt",
   "ContactDepartment": "",
-  "ProjectName": "Beier Inc and Sons",
-  "EmailId": 85,
-  "EmailAddress": "flo@ferryswaniawski.us",
-  "CountryId": 662,
-  "Firstname": "Alex",
-  "MiddleName": "Rath Inc and Sons",
-  "Lastname": "Carter",
-  "PersonId": 512,
-  "Mrmrs": "in",
-  "ProjectMemberTypeName": "Beier Group",
-  "Phone": "227.137.8460",
-  "PhoneId": 396,
-  "ProjectMemberTypeId": 427,
-  "EmailAddressName": "rosendo@jast.com",
-  "Comment": "perferendis",
-  "FullName": "Jamie Kris",
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "ProjectName": "Barton Inc and Sons",
+  "EmailId": 784,
+  "EmailAddress": "jaleel.durgan@kub.com",
+  "CountryId": 705,
+  "Firstname": "Ricky",
+  "MiddleName": "Lynch-Dickinson",
+  "Lastname": "Barton",
+  "PersonId": 288,
+  "Mrmrs": "consectetur",
+  "ProjectMemberTypeName": "Batz, Parisian and Jaskolski",
+  "Phone": "244.941.0565 x580",
+  "PhoneId": 982,
+  "ProjectMemberTypeId": 396,
+  "EmailAddressName": "leilani.monahan@breitenberg.name",
+  "Comment": "quisquam",
+  "FullName": "Marisol Ziemann DVM",
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
-      "FieldType": "System.Int32",
-      "FieldLength": 134
+      "FieldRight": null,
+      "FieldType": "System.String",
+      "FieldLength": 999
     }
   },
   "_Links": {

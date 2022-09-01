@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Project/CreateDefaultProjectMember
-id: v1ProjectAgent_CreateDefaultProjectMember
+uid: v1ProjectAgent_CreateDefaultProjectMember
 ---
 
 # POST Agents/Project/CreateDefaultProjectMember
@@ -11,7 +11,14 @@ POST /api/v1/Agents/Project/CreateDefaultProjectMember
 
 Set default values into a new ProjectMember.
 
+
 NetServer calculates default values on the entity, which is required when creating/storing a new instance
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -26,18 +33,16 @@ NetServer calculates default values on the entity, which is required when creati
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response: object
 
-A person can be a member of multiple projects, with a different comment and member type in each project.
+## Response: 
 
-Carrier object for ProjectMember.
-Services for the ProjectMember Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IProjectAgent">Project Agent</see>.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -58,14 +63,14 @@ Response body: object
 | ProjectMemberTypeName | string | The projectmembers type name: 'secretary', 'member', etc. |
 | Phone | string | Phone number |
 | PhoneId | int32 | The phone id |
-| ProjectMemberTypeId | int32 | ProjectMember Type Id - from the ProjectMemberType list.  <br />Use MDO List name "PMembType" to get list items. |
+| ProjectMemberTypeId | int32 | ProjectMember Type Id - from the ProjectMemberType list.  <para>Use MDO List name "PMembType" to get list items.</para> |
 | EmailAddressName | string | The e-mail address description |
 | Comment | string | Comment text on the project membership |
 | FullName | string | The person's full name localized to the current culture/country.  (internal name used in clients for employees) |
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Project/CreateDefaultProjectMember
@@ -74,44 +79,40 @@ Accept: application/json; charset=utf-8
 Accept-Language: sv
 ```
 
+## Sample response
+
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectmemberId": 482,
-  "ContactId": 734,
-  "ProjectId": 211,
-  "ContactName": "Murazik, Hoeger and Wisozk",
+  "ProjectmemberId": 273,
+  "ContactId": 215,
+  "ProjectId": 539,
+  "ContactName": "Kling, Fahey and Hegmann",
   "ContactDepartment": "",
-  "ProjectName": "Welch, Smith and Blick",
-  "EmailId": 845,
-  "EmailAddress": "nina@goodwin.info",
-  "CountryId": 651,
-  "Firstname": "Jensen",
-  "MiddleName": "Kozey-Ernser",
-  "Lastname": "Halvorson",
-  "PersonId": 974,
-  "Mrmrs": "non",
-  "ProjectMemberTypeName": "King-Johns",
-  "Phone": "363.314.2428 x54167",
-  "PhoneId": 283,
-  "ProjectMemberTypeId": 833,
-  "EmailAddressName": "derek.kutch@willmssimonis.us",
-  "Comment": "qui",
-  "FullName": "Harvey Batz",
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "ProjectName": "Windler LLC",
+  "EmailId": 418,
+  "EmailAddress": "kiel@connelly.co.uk",
+  "CountryId": 395,
+  "Firstname": "Granville",
+  "MiddleName": "McDermott Inc and Sons",
+  "Lastname": "Block",
+  "PersonId": 457,
+  "Mrmrs": "nihil",
+  "ProjectMemberTypeName": "Bayer LLC",
+  "Phone": "1-363-968-5644",
+  "PhoneId": 429,
+  "ProjectMemberTypeId": 265,
+  "EmailAddressName": "gabriel.rowe@oreilly.info",
+  "Comment": "culpa",
+  "FullName": "Jamar Rath",
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
+      "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 155
+      "FieldLength": 942
     }
   }
 }

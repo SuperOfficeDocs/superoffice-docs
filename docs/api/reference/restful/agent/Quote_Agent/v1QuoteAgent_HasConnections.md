@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Quote/HasConnections
-id: v1QuoteAgent_HasConnections
+uid: v1QuoteAgent_HasConnections
 ---
 
 # POST Agents/Quote/HasConnections
@@ -11,6 +11,12 @@ POST /api/v1/Agents/Quote/HasConnections
 
 Whether or not the system has any connections available for this user.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Whether or not the system has any connections available for this user.
 ```http
 POST /api/v1/Agents/Quote/HasConnections?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -34,18 +41,16 @@ POST /api/v1/Agents/Quote/HasConnections?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response: object
 
-PluginResponse exists to be able to respond with more than just a true/false, but also an explanation. Such an explanation can be displayed on for instance a disabled “Place Order” button.
+## Response: 
 
-Carrier object for PluginResponse.
-Services for the PluginResponse Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IQuoteAgent">Quote Agent</see>.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -57,7 +62,7 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Quote/HasConnections
@@ -66,52 +71,24 @@ Accept: application/json; charset=utf-8
 Accept-Language: *
 ```
 
+## Sample response
+
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "IsOk": true,
-  "UserExplanation": "eveniet",
-  "TechExplanation": "est",
-  "ErrorCode": "labore",
-  "Changes": {
-    "AddedRecords": [
-      {},
-      {}
-    ],
-    "UpdatedRecords": [
-      {},
-      {}
-    ],
-    "DeletedRecords": [
-      {},
-      {}
-    ],
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.Int32",
-        "FieldLength": 506
-      }
-    }
-  },
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "IsOk": false,
+  "UserExplanation": "velit",
+  "TechExplanation": "ut",
+  "ErrorCode": "ut",
+  "Changes": null,
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
-      "FieldType": "System.String",
-      "FieldLength": 340
+      "FieldRight": null,
+      "FieldType": "System.Int32",
+      "FieldLength": 387
     }
   }
 }

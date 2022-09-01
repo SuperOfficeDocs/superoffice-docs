@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Quote/CreateQuoteAlternative
-id: v1QuoteAgent_CreateQuoteAlternative
+uid: v1QuoteAgent_CreateQuoteAlternative
 ---
 
 # POST Agents/Quote/CreateQuoteAlternative
@@ -11,6 +11,12 @@ POST /api/v1/Agents/Quote/CreateQuoteAlternative
 
 Create a new quote alternative on a version.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Create a new quote alternative on a version.
 ```http
 POST /api/v1/Agents/Quote/CreateQuoteAlternative?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,9 +42,9 @@ POST /api/v1/Agents/Quote/CreateQuoteAlternative?$select=name,department,categor
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-QuoteVersionId, QuoteAlternativeName, QuoteAlternativeDescription
+QuoteVersionId, QuoteAlternativeName, QuoteAlternativeDescription 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -45,18 +52,16 @@ QuoteVersionId, QuoteAlternativeName, QuoteAlternativeDescription
 | QuoteAlternativeName | string |  |
 | QuoteAlternativeDescription | string |  |
 
-## Response: object
 
-Information about a connection to the ERP system.
+## Response: 
 
-Carrier object for QuoteAlternative.
-Services for the QuoteAlternative Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IQuoteAgent">Quote Agent</see>.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -86,62 +91,58 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Quote/CreateQuoteAlternative
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 449,
-  "QuoteAlternativeName": "Shanahan, Dooley and Russel",
-  "QuoteAlternativeDescription": "Progressive coherent structure"
+  "QuoteVersionId": 223,
+  "QuoteAlternativeName": "Schoen Inc and Sons",
+  "QuoteAlternativeDescription": "Open-architected attitude-oriented instruction set"
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternativeId": 890,
-  "ERPQuoteAlternativeKey": "esse",
-  "QuoteVersionId": 886,
-  "Name": "Harber LLC",
-  "Description": "Diverse bifurcated support",
+  "QuoteAlternativeId": 748,
+  "ERPQuoteAlternativeKey": "laboriosam",
+  "QuoteVersionId": 726,
+  "Name": "Lakin-Connelly",
+  "Description": "Front-line directional paradigm",
   "Status": "Error",
   "Reason": "",
-  "ERPDiscountPercent": 23699.308,
-  "ERPDiscountAmount": 28754.45,
-  "DiscountPercent": 23313.826,
-  "DiscountAmount": 9674.658,
+  "ERPDiscountPercent": 21051.077999999998,
+  "ERPDiscountAmount": 13297.562,
+  "DiscountPercent": 10931.392,
+  "DiscountAmount": 2591.8179999999998,
   "UserValueOverride": "DiscountAmount",
-  "VATInfo": "velit",
-  "VAT": 29205.746,
-  "EarningPercent": 11385.822,
-  "EarningAmount": 25056.329999999998,
-  "SubTotal": 1178.384,
-  "TotalPrice": 12724.039999999999,
-  "ExtraField1": "vero",
-  "ExtraField2": "illo",
-  "ExtraField3": "in",
-  "ExtraField4": "rerum",
-  "ExtraField5": "omnis",
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "VATInfo": "hic",
+  "VAT": 18503.136,
+  "EarningPercent": 17168.052,
+  "EarningAmount": 21430.291999999998,
+  "SubTotal": 4218.364,
+  "TotalPrice": 8988.312,
+  "ExtraField1": "ratione",
+  "ExtraField2": "at",
+  "ExtraField3": "dolores",
+  "ExtraField4": "assumenda",
+  "ExtraField5": "doloribus",
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
+      "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 527
+      "FieldLength": 569
     }
   }
 }

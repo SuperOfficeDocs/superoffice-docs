@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Saint/SaveStatusMonitor
-id: v1SaintAgent_SaveStatusMonitor
+uid: v1SaintAgent_SaveStatusMonitor
 ---
 
 # POST Agents/Saint/SaveStatusMonitor
@@ -10,6 +10,13 @@ POST /api/v1/Agents/Saint/SaveStatusMonitor
 ```
 
 Updates the existing StatusMonitor or creates a new StatusMonitor if the id parameter is empty
+
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -25,9 +32,9 @@ Updates the existing StatusMonitor or creates a new StatusMonitor if the id para
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entity
+## Request Body: entity  
 
-The StatusMonitor to be saved.
+The StatusMonitor to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -47,18 +54,16 @@ The StatusMonitor to be saved.
 | NumNeedUpdate | int32 | Number of targets that had this status, but have their needsUpdate bit set due to some change |
 | GenerationStart | date-time | When was the last regeneration started |
 
-## Response: object
 
-Definition of all properties for a status monitor
+## Response: 
 
-Carrier object for StatusMonitor.
-Services for the StatusMonitor Carrier is available from the <see cref="T:SuperOffice.CRM.Services.ISaintAgent">Saint Agent</see>.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -80,7 +85,7 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Saint/SaveStatusMonitor
@@ -90,56 +95,52 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "OwnerTable": 469,
-  "Rank": 779,
-  "DefaultTask": 369,
-  "DefaultTaskText": "eius",
+  "OwnerTable": 606,
+  "Rank": 85,
+  "DefaultTask": 976,
+  "DefaultTaskText": "porro",
   "IsVisual": false,
-  "LastGenerated": "2011-05-15T18:28:50.0387083+02:00",
-  "Description": "Advanced multi-state methodology",
-  "Name": "Jacobs Group",
-  "StatusMonitorId": 960,
-  "PictureId": 191,
-  "NeedsUpdate": true,
+  "LastGenerated": "1996-08-16T11:10:27.7724919+02:00",
+  "Description": "Progressive local moderator",
+  "Name": "Reichert-Hackett",
+  "StatusMonitorId": 579,
+  "PictureId": 666,
+  "NeedsUpdate": false,
   "Deleted": false,
-  "NumMatches": 16,
-  "NumNeedUpdate": 351,
-  "GenerationStart": "2012-06-03T18:28:50.0387083+02:00"
+  "NumMatches": 999,
+  "NumNeedUpdate": 371,
+  "GenerationStart": "2010-10-16T11:10:27.7724919+02:00"
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "OwnerTable": 277,
-  "Rank": 314,
-  "DefaultTask": 138,
-  "DefaultTaskText": "eum",
-  "IsVisual": false,
-  "LastGenerated": "1997-12-18T18:28:50.0387083+01:00",
-  "Description": "Upgradable system-worthy adapter",
-  "Name": "Schamberger, Langosh and Hills",
-  "StatusMonitorId": 953,
-  "PictureId": 519,
-  "NeedsUpdate": false,
+  "OwnerTable": 44,
+  "Rank": 405,
+  "DefaultTask": 439,
+  "DefaultTaskText": "ipsum",
+  "IsVisual": true,
+  "LastGenerated": "2006-04-01T11:10:27.7724919+02:00",
+  "Description": "Polarised cohesive neural-net",
+  "Name": "Heathcote Group",
+  "StatusMonitorId": 75,
+  "PictureId": 13,
+  "NeedsUpdate": true,
   "Deleted": false,
-  "NumMatches": 120,
-  "NumNeedUpdate": 741,
-  "GenerationStart": "1997-08-16T18:28:50.0387083+02:00",
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "NumMatches": 711,
+  "NumNeedUpdate": 565,
+  "GenerationStart": "2013-07-29T11:10:27.7724919+02:00",
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
-      "FieldType": "System.String",
-      "FieldLength": 843
+      "FieldRight": null,
+      "FieldType": "System.Int32",
+      "FieldLength": 348
     }
   }
 }

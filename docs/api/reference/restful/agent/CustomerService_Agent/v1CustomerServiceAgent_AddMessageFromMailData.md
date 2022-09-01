@@ -1,6 +1,6 @@
 ---
 title: POST Agents/CustomerService/AddMessageFromMailData
-id: v1CustomerServiceAgent_AddMessageFromMailData
+uid: v1CustomerServiceAgent_AddMessageFromMailData
 ---
 
 # POST Agents/CustomerService/AddMessageFromMailData
@@ -11,7 +11,13 @@ POST /api/v1/Agents/CustomerService/AddMessageFromMailData
 
 This method will add a message to an existing request in the sam way as importMail would do it from an email.
 
+
 It accepts RFC822 formatted data
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +28,7 @@ It accepts RFC822 formatted data
 ```http
 POST /api/v1/Agents/CustomerService/AddMessageFromMailData?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,27 +44,25 @@ POST /api/v1/Agents/CustomerService/AddMessageFromMailData?$select=name,departme
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-TicketId, Data
+TicketId, Data 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | TicketId | int32 |  |
 | Data | string |  |
 
-## Response: object
 
-A small carrier that contains information about a ticket
+## Response: 
 
-Carrier object for TicketInfo.
-Services for the TicketInfo Carrier is available from the <see cref="T:SuperOffice.CRM.Services.ICustomerServiceAgent">CustomerService Agent</see>.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -72,46 +77,42 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/CustomerService/AddMessageFromMailData
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketId": 185,
-  "Data": "eligendi"
+  "TicketId": 307,
+  "Data": "dolorem"
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketId": 714,
-  "Title": "vel",
-  "OwnerName": "McGlynn-West",
+  "TicketId": 44,
+  "Title": "excepturi",
+  "OwnerName": "Goodwin Group",
   "CategoryName": "VIP Customer",
-  "PriorityName": "Champlin, Denesik and Dooley",
+  "PriorityName": "Rogahn Inc and Sons",
   "TicketUrl": "http://www.example.com/",
-  "PersonName": "Jacobi LLC",
-  "ContactName": "Deckow-Huels",
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "PersonName": "Bosco LLC",
+  "ContactName": "Bartell-Rutherford",
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
+      "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 351
+      "FieldLength": 261
     }
   }
 }

@@ -1,6 +1,6 @@
 ---
 title: POST Agents/ErpSync/ForceResyncExternalNoBlankValues
-id: v1ErpSyncAgent_ForceResyncExternalNoBlankValues
+uid: v1ErpSyncAgent_ForceResyncExternalNoBlankValues
 ---
 
 # POST Agents/ErpSync/ForceResyncExternalNoBlankValues
@@ -11,9 +11,16 @@ POST /api/v1/Agents/ErpSync/ForceResyncExternalNoBlankValues
 
 Force resync from CRM or given Erp connection to all other connections, using external keys, and tell the sync that you don't want blank values to overwrite non-blank values.
 
+
 Useful on import.
 
-## Online Restricted: ## The ErpSync agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for ERP integration apps
+
+## Online Restricted: ## The ErpSync agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for ERP integration apps.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -24,6 +31,7 @@ Useful on import.
 ```http
 POST /api/v1/Agents/ErpSync/ForceResyncExternalNoBlankValues?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -39,9 +47,9 @@ POST /api/v1/Agents/ErpSync/ForceResyncExternalNoBlankValues?$select=name,depart
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-ErpConnectionId, ErpActorType, ExternalKeys
+ErpConnectionId, ErpActorType, ExternalKeys 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -49,18 +57,16 @@ ErpConnectionId, ErpActorType, ExternalKeys
 | ErpActorType | string |  |
 | ExternalKeys | array |  |
 
-## Response: object
 
-PluginResponse exists to be able to respond with more than just a true/false, but also an explanation. Such an explanation can be displayed on for instance a disabled “Place Order” button.
+## Response: 
 
-Carrier object for PluginResponse.
-Services for the PluginResponse Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IQuoteAgent">Quote Agent</see>.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -72,24 +78,26 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/ErpSync/ForceResyncExternalNoBlankValues
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 863,
+  "ErpConnectionId": 712,
   "ErpActorType": "Customer",
   "ExternalKeys": [
-    "libero",
-    "nulla"
+    "dignissimos",
+    "cumque"
   ]
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -97,46 +105,16 @@ Content-Type: application/json; charset=utf-8
 
 {
   "IsOk": false,
-  "UserExplanation": "rem",
-  "TechExplanation": "voluptatibus",
-  "ErrorCode": "sapiente",
-  "Changes": {
-    "AddedRecords": [
-      {},
-      {}
-    ],
-    "UpdatedRecords": [
-      {},
-      {}
-    ],
-    "DeletedRecords": [
-      {},
-      {}
-    ],
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.Int32",
-        "FieldLength": 215
-      }
-    }
-  },
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "UserExplanation": "molestiae",
+  "TechExplanation": "molestiae",
+  "ErrorCode": "ex",
+  "Changes": null,
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
+      "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 425
+      "FieldLength": 9
     }
   }
 }

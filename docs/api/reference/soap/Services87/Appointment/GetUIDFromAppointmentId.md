@@ -13,10 +13,11 @@ Implemented by the <see cref="M:SuperOffice.Services87.IAppointmentAgent.GetUIDF
 
 Get the UID associated with the appointment id in the Invitation table.
 
-* **appointmentId:**
+* **appointmentId:** 
 * **useMotherId:** Uses motherId if no UID is found for appointmentId.
 
 **Returns:** The associated UID, or null if none exist.
+
 
 [WSDL file for Services87/Appointment](../Services87-Appointment.md)
 
@@ -51,6 +52,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## GetUIDFromAppointmentId Response
 
 ```xml
@@ -71,3 +73,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Diagnostics/GetCacheNames
-id: v1DiagnosticsAgent_GetCacheNames
+uid: v1DiagnosticsAgent_GetCacheNames
 ---
 
 # POST Agents/Diagnostics/GetCacheNames
@@ -11,6 +11,12 @@ POST /api/v1/Agents/Diagnostics/GetCacheNames
 
 Get the name of the caches that can be flushed
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Get the name of the caches that can be flushed
 ```http
 POST /api/v1/Agents/Diagnostics/GetCacheNames?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -34,7 +41,10 @@ POST /api/v1/Agents/Diagnostics/GetCacheNames?$select=name,department,category/i
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -42,21 +52,24 @@ POST /api/v1/Agents/Diagnostics/GetCacheNames?$select=name,department,category/i
 
 Response body: array
 
-## Sample Request
+
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Diagnostics/GetCacheNames
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 [
-  "vel",
-  "et"
+  "quod",
+  "ut"
 ]
 ```

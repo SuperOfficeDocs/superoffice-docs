@@ -1,6 +1,6 @@
 ---
 title: POST Contact/{id}/MergeTo/{id}
-id: v1ContactEntity_Merge
+uid: v1ContactEntity_Merge
 ---
 
 # POST Contact/{id}/MergeTo/{id}
@@ -11,12 +11,18 @@ POST /api/v1/Contact/{sourceContactId}/MergeTo/{destinationContactId}
 
 Merge two contacts.
 
+
 The destination contact will remain.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | sourceContactId | int32 | Source contact to merge from. This contact will disappear after the merge. **Required** |
 | destinationContactId | int32 | Destination contact to merge into **Required** |
+
 
 ## Query String Parameters
 
@@ -26,9 +32,10 @@ The destination contact will remain.
 | replaceEmptyFieldsOnDestination | bool |  If true, empty fields on destination will be replaced by values from source. |
 
 ```http
-POST /api/v1/Contact/{sourceContactId}/MergeTo/{destinationContactId}?mergeIdenticalPersons=True
+POST /api/v1/Contact/{sourceContactId}/MergeTo/{destinationContactId}?mergeIdenticalPersons=False
 POST /api/v1/Contact/{sourceContactId}/MergeTo/{destinationContactId}?replaceEmptyFieldsOnDestination=True
 ```
+
 
 ## Request Headers
 
@@ -36,10 +43,35 @@ POST /api/v1/Contact/{sourceContactId}/MergeTo/{destinationContactId}?replaceEmp
 |----------------|-------------|
 | Authorization  | Supports 'Basic', 'SoTicket' and 'Bearer' schemes, depending on installation type. |
 | X-XSRF-TOKEN   | If not using Authorization header, you must provide XSRF value from cookie or hidden input field |
+| Accept         | Content-type(s) you would like the response in:  |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response
+
+## Response: 
+
+No Content
 
 | Response | Description |
 |----------------|-------------|
 | 204 | No Content |
+
+Response body: 
+
+
+## Sample request
+
+```http!
+POST /api/v1/Contact/{sourceContactId}/MergeTo/{destinationContactId}
+Authorization: Basic dGplMDpUamUw
+Accept: application/json; charset=utf-8
+Accept-Language: fr,de,ru,zh
+```
+
+## Sample response
+
+```http_
+HTTP/1.1 204 No Content
+Content-Type: application/json; charset=utf-8
+
+null
+```

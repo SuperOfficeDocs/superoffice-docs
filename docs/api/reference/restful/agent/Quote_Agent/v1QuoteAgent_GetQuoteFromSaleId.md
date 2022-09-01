@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Quote/GetQuoteFromSaleId
-id: v1QuoteAgent_GetQuoteFromSaleId
+uid: v1QuoteAgent_GetQuoteFromSaleId
 ---
 
 # POST Agents/Quote/GetQuoteFromSaleId
@@ -11,6 +11,12 @@ POST /api/v1/Agents/Quote/GetQuoteFromSaleId
 
 Get a Quote for a sale
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Get a Quote for a sale
 ```http
 POST /api/v1/Agents/Quote/GetQuoteFromSaleId?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,26 +42,24 @@ POST /api/v1/Agents/Quote/GetQuoteFromSaleId?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-SaleId
+SaleId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | SaleId | int32 |  |
 
-## Response: object
 
-Quote carrier with the active quote version and favorite alternative.
+## Response: 
 
-Carrier object for Quote.
-Services for the Quote Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IQuoteAgent">Quote Agent</see>.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -75,138 +80,47 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Quote/GetQuoteFromSaleId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleId": 446
+  "SaleId": 630
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteId": 547,
-  "SaleId": 800,
-  "QuoteConnectionId": 501,
-  "ERPQuoteKey": "nisi",
-  "ERPOrderKey": "cumque",
-  "ActiveQuoteVersionId": 456,
-  "AcceptedQuoteAlternativeId": 108,
-  "UseValuesFromQuote": 482,
-  "DocumentId": 10,
-  "PoNumber": "668113",
-  "OrderComment": "nobis",
-  "PreferredEmailCulture": "rosanna@thompsonhackett.com",
-  "ActiveQuoteVersion": {
-    "QuoteVersionId": 336,
-    "ERPQuoteVersionKey": "in",
-    "QuoteId": 101,
-    "Description": "User-friendly leading edge forecast",
-    "Number": "933185",
-    "State": "Archived",
-    "ArchivedState": "Archived",
-    "Status": "Error",
-    "Reason": "",
-    "LikelyQuoteAlternativeId": 224,
-    "SentDate": "2009-02-08T18:28:49.9941378+01:00",
-    "FollowupId": 961,
-    "ExpirationDate": "2007-05-04T18:28:49.9941378+02:00",
-    "DeliveryCountryId": 487,
-    "HasOwnDeliveryAddress": true,
-    "InvoiceCountryId": 462,
-    "HasOwnInvoiceAddress": true,
-    "ERPPaymentTermsKey": "sunt",
-    "ERPPaymentTypeKey": "doloribus",
-    "ERPDeliveryTermsKey": "consequatur",
-    "ERPDeliveryTypeKey": "recusandae",
-    "Rank": 752,
-    "ApprovedBy": 324,
-    "ApprovedText": "molestiae",
-    "ApprovedRegisteredBy": 203,
-    "ApprovedRegisteredDate": "2016-02-13T18:28:49.9941378+01:00",
-    "ExtraField1": "molestiae",
-    "ExtraField2": "iure",
-    "ExtraField3": "aliquid",
-    "ExtraField4": "impedit",
-    "ExtraField5": "ab",
-    "LastRecalculated": "2004-09-04T18:28:49.9941378+02:00",
-    "Updated": "2009-12-24T18:28:49.9941378+01:00",
-    "UpdatedAssociateId": 187,
-    "Registered": "2015-11-26T18:28:49.9941378+01:00",
-    "RegisteredAssociateId": 234,
-    "QuoteAlternatives": [
-      {},
-      {}
-    ],
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 849
-      }
-    }
-  },
-  "FavoriteQuoteAlternative": {
-    "QuoteAlternativeId": 872,
-    "ERPQuoteAlternativeKey": "necessitatibus",
-    "QuoteVersionId": 730,
-    "Name": "Labadie Group",
-    "Description": "Fully-configurable methodical moderator",
-    "Status": "Error",
-    "Reason": "",
-    "ERPDiscountPercent": 30590.974,
-    "ERPDiscountAmount": 15748.35,
-    "DiscountPercent": 347.87399999999997,
-    "DiscountAmount": 20342.793999999998,
-    "UserValueOverride": "DiscountAmount",
-    "VATInfo": "aspernatur",
-    "VAT": 21355.076,
-    "EarningPercent": 3441.132,
-    "EarningAmount": 12288.413999999999,
-    "SubTotal": 7722.1759999999995,
-    "TotalPrice": 18995.174,
-    "ExtraField1": "ea",
-    "ExtraField2": "fuga",
-    "ExtraField3": "cumque",
-    "ExtraField4": "voluptas",
-    "ExtraField5": "beatae",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 197
-      }
-    }
-  },
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "QuoteId": 11,
+  "SaleId": 273,
+  "QuoteConnectionId": 587,
+  "ERPQuoteKey": "id",
+  "ERPOrderKey": "tempora",
+  "ActiveQuoteVersionId": 252,
+  "AcceptedQuoteAlternativeId": 393,
+  "UseValuesFromQuote": 631,
+  "DocumentId": 71,
+  "PoNumber": "780451",
+  "OrderComment": "nostrum",
+  "PreferredEmailCulture": "layla@dubuqueschulist.us",
+  "ActiveQuoteVersion": null,
+  "FavoriteQuoteAlternative": null,
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
-      "FieldType": "System.Int32",
-      "FieldLength": 66
+      "FieldRight": null,
+      "FieldType": "System.String",
+      "FieldLength": 611
     }
   }
 }

@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Appointment/GetPersonDiary
-id: v1AppointmentAgent_GetPersonDiary
+uid: v1AppointmentAgent_GetPersonDiary
 ---
 
 # POST Agents/Appointment/GetPersonDiary
@@ -11,7 +11,13 @@ POST /api/v1/Agents/Appointment/GetPersonDiary
 
 Method that returns a specified number of appointments within a time range.
 
+
 It only returns appointments that would be displayed in the user's diary. The appointments belong to the person specified. If the person not is a SuperOffice user (associate) or the logged on user is not allowed to view this persons appointments an exception is thrown.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +28,7 @@ It only returns appointments that would be displayed in the user's diary. The ap
 ```http
 POST /api/v1/Agents/Appointment/GetPersonDiary?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,9 +44,9 @@ POST /api/v1/Agents/Appointment/GetPersonDiary?$select=name,department,category/
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-PersonId, StartTime, EndTime, Count
+PersonId, StartTime, EndTime, Count 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -48,7 +55,10 @@ PersonId, StartTime, EndTime, Count
 | EndTime | date-time |  |
 | Count | int32 |  |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -110,22 +120,24 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Appointment/GetPersonDiary
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 759,
-  "StartTime": "1997-09-27T18:28:47.8918478+02:00",
-  "EndTime": "2016-12-14T18:28:47.8918478+01:00",
-  "Count": 921
+  "PersonId": 368,
+  "StartTime": "2022-08-25T11:10:25.9375534+02:00",
+  "EndTime": "2021-10-04T11:10:25.9375534+02:00",
+  "Count": 565
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -133,67 +145,61 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 235,
-    "StartDate": "2003-12-24T18:28:47.8928451+01:00",
-    "EndDate": "2000-03-24T18:28:47.8928451+01:00",
+    "AppointmentId": 250,
+    "StartDate": "2012-06-25T11:10:25.9385523+02:00",
+    "EndDate": "2019-12-11T11:10:25.9385523+01:00",
     "Type": "BookingForChecklist",
-    "Task": "enim",
-    "AssociateFullName": "Odessa Spinka",
-    "ContactName": "Auer LLC",
-    "Description": "Expanded discrete system engine",
-    "PersonFullName": "Jayson Rath",
-    "PersonId": 238,
-    "ContactId": 119,
-    "ProjectId": 696,
-    "ProjectName": "Powlowski-Langosh",
-    "IsPublished": true,
-    "AssociateId": 504,
-    "ColorIndex": 259,
+    "Task": "id",
+    "AssociateFullName": "Bradly Lynch",
+    "ContactName": "Trantow-Klocko",
+    "Description": "Upgradable executive budgetary management",
+    "PersonFullName": "Mr. Saul Hauck MD",
+    "PersonId": 48,
+    "ContactId": 205,
+    "ProjectId": 749,
+    "ProjectName": "Kulas LLC",
+    "IsPublished": false,
+    "AssociateId": 997,
+    "ColorIndex": 789,
     "IsFree": false,
-    "HasAlarm": true,
-    "IsAlldayEvent": true,
+    "HasAlarm": false,
+    "IsAlldayEvent": false,
     "Private": "PrivateGroup",
-    "PriorityId": 251,
-    "PriorityName": "Schamberger Group",
+    "PriorityId": 390,
+    "PriorityName": "Gutkowski Inc and Sons",
     "TaskType": "Appointment",
-    "IsBookingMain": true,
+    "IsBookingMain": false,
     "IsRecurrence": false,
-    "IsBooking": true,
-    "ActiveDate": "2015-07-22T18:28:47.8928451+02:00",
+    "IsBooking": false,
+    "ActiveDate": "2021-09-27T11:10:25.9395643+02:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "1998-11-12T18:28:47.8928451+01:00",
-    "RecurringEndDate": "2001-09-22T18:28:47.8928451+02:00",
-    "MotherId": 513,
-    "AssignedBy": 694,
-    "AssignedByFullName": "Palma Pouros",
+    "RecurringStartDate": "2000-12-11T11:10:25.9395643+01:00",
+    "RecurringEndDate": "2009-08-15T11:10:25.9395643+02:00",
+    "MotherId": 728,
+    "AssignedBy": 465,
+    "AssignedByFullName": "Abbigail Green DDS",
     "RejectReason": "",
-    "Location": "fuga",
-    "AlarmLeadTime": "a",
-    "SaleId": 280,
-    "SaleName": "Ratke-Anderson",
-    "AssociateName": "Macejkovic, McGlynn and Spinka",
-    "CreatedDate": "2000-11-09T18:28:47.8928451+01:00",
-    "CreatedBy": "voluptatum",
-    "CreatedByFullName": "Monica Raynor",
-    "CreatedByAssociateId": 881,
+    "Location": "dicta",
+    "AlarmLeadTime": "consequatur",
+    "SaleId": 947,
+    "SaleName": "Reinger-Gerlach",
+    "AssociateName": "Koepp-Rohan",
+    "CreatedDate": "2017-07-16T11:10:25.9395643+02:00",
+    "CreatedBy": "quam",
+    "CreatedByFullName": "Ms. Madison Maritza Bode III",
+    "CreatedByAssociateId": 728,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 969
+        "FieldRight": null,
+        "FieldType": "System.Int32",
+        "FieldLength": 855
       }
     }
   }

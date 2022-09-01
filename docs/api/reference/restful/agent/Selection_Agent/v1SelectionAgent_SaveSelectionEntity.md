@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Selection/SaveSelectionEntity
-id: v1SelectionAgent_SaveSelectionEntity
+uid: v1SelectionAgent_SaveSelectionEntity
 ---
 
 # POST Agents/Selection/SaveSelectionEntity
@@ -10,6 +10,13 @@ POST /api/v1/Agents/Selection/SaveSelectionEntity
 ```
 
 Updates the existing SelectionEntity or creates a new SelectionEntity if the id parameter is empty
+
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -25,9 +32,9 @@ Updates the existing SelectionEntity or creates a new SelectionEntity if the id 
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entity
+## Request Body: entity  
 
-The SelectionEntity to be saved.
+The SelectionEntity to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -36,7 +43,7 @@ The SelectionEntity to be saved.
 | Associate |  | Owner of the selection |
 | CreatedBy |  | Who created the selection |
 | UpdatedBy |  | Who last modified the selection |
-| SelectionCategory |  | Selection category type (list item)  <br />Use MDO List name "searchCat" to get list items. |
+| SelectionCategory |  | Selection category type (list item)  <para>Use MDO List name "searchCat" to get list items.</para> |
 | GroupIdx | int32 | Original primary user group of associate |
 | IncludePerson | int32 | 0 = Include first person, 1 = Include all persons, 2 = Include no persons |
 | MemberCount | int32 | How many selectionmembers (for progress bar calculations) - estimate, -1 (or 4294967295) means we don't know |
@@ -73,16 +80,16 @@ The SelectionEntity to be saved.
 | DashboardTileDefinitionId | int32 | The associated tile definition |
 | VisibleFor | array | The set of users or groups the record is visible for |
 
-## Response: object
 
-Carrier object for SelectionEntity.
-Services for the SelectionEntity Carrier is available from the <see cref="T:SuperOffice.CRM.Services.ISelectionAgent">Selection Agent</see>.
+## Response: 
+
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -91,7 +98,7 @@ Response body: object
 | Associate |  | Owner of the selection |
 | CreatedBy |  | Who created the selection |
 | UpdatedBy |  | Who last modified the selection |
-| SelectionCategory |  | Selection category type (list item)  <br />Use MDO List name "searchCat" to get list items. |
+| SelectionCategory |  | Selection category type (list item)  <para>Use MDO List name "searchCat" to get list items.</para> |
 | GroupIdx | int32 | Original primary user group of associate |
 | IncludePerson | int32 | 0 = Include first person, 1 = Include all persons, 2 = Include no persons |
 | MemberCount | int32 | How many selectionmembers (for progress bar calculations) - estimate, -1 (or 4294967295) means we don't know |
@@ -130,366 +137,152 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Selection/SaveSelectionEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Digitized well-modulated array",
-  "Postit": "est",
-  "Associate": {
-    "AssociateId": 240,
-    "Name": "Walker LLC",
-    "PersonId": 475,
-    "Rank": 847,
-    "Tooltip": "voluptate",
-    "Type": "AnonymousAssociate",
-    "GroupIdx": 706,
-    "FullName": "Ward Kuhlman",
-    "FormalName": "Jacobson, Blick and Schultz",
-    "Deleted": false,
-    "EjUserId": 928,
-    "UserName": "Weimann-Carter"
-  },
-  "CreatedBy": {
-    "AssociateId": 135,
-    "Name": "Hauck Group",
-    "PersonId": 124,
-    "Rank": 765,
-    "Tooltip": "quia",
-    "Type": "AnonymousAssociate",
-    "GroupIdx": 316,
-    "FullName": "Kaya Little",
-    "FormalName": "Hilpert, White and Carroll",
-    "Deleted": false,
-    "EjUserId": 535,
-    "UserName": "Larson, Gaylord and Lindgren"
-  },
-  "UpdatedBy": {
-    "AssociateId": 3,
-    "Name": "Waelchi, Legros and Gerhold",
-    "PersonId": 374,
-    "Rank": 433,
-    "Tooltip": "culpa",
-    "Type": "AnonymousAssociate",
-    "GroupIdx": 121,
-    "FullName": "Marilyne Hand DDS",
-    "FormalName": "Nienow, Farrell and Welch",
-    "Deleted": false,
-    "EjUserId": 150,
-    "UserName": "Wehner-Goyette"
-  },
-  "SelectionCategory": {
-    "Id": 543,
-    "Value": "et",
-    "Tooltip": "odit"
-  },
-  "GroupIdx": 979,
-  "IncludePerson": 986,
-  "MemberCount": 600,
-  "Name": "Price, Hauck and Stracke",
-  "PostitTextId": 203,
-  "CreatedDate": "2015-07-11T18:28:50.2194516+02:00",
-  "SelectionId": 924,
-  "SoundEx": "omnis",
-  "Source": 133,
-  "TextId": 963,
-  "UpdatedDate": "1998-10-08T18:28:50.2194516+02:00",
-  "UpdatedCount": 429,
-  "Visibility": 725,
+  "Description": "Focused background projection",
+  "Postit": "magnam",
+  "Associate": null,
+  "CreatedBy": null,
+  "UpdatedBy": null,
+  "SelectionCategory": null,
+  "GroupIdx": 639,
+  "IncludePerson": 140,
+  "MemberCount": 861,
+  "Name": "Reichert, Herzog and Bahringer",
+  "PostitTextId": 666,
+  "CreatedDate": "2015-06-24T11:10:27.8840077+02:00",
+  "SelectionId": 107,
+  "SoundEx": "impedit",
+  "Source": 886,
+  "TextId": 447,
+  "UpdatedDate": "2007-02-23T11:10:27.8840077+01:00",
+  "UpdatedCount": 939,
+  "Visibility": 654,
   "SelectionType": "Combined",
   "CompanyUnique": false,
-  "TargetTableNumber": 346,
-  "TargetTableName": "Trantow Group",
+  "TargetTableNumber": 370,
+  "TargetTableName": "Ritchie-Mayer",
   "Completed": false,
-  "LeftSelectionId": 748,
-  "RightSelectionId": 397,
+  "LeftSelectionId": 389,
+  "RightSelectionId": 626,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Nienow, Zboncak and Lubowitz",
-  "ShadowProviderName": "Anderson-Blanda",
-  "ChartKey": "est",
-  "LastLoaded": "2007-08-17T18:28:50.2194516+02:00",
-  "LastLoadedBy": 266,
-  "LastLoadedByAssociate": {
-    "AssociateId": 983,
-    "Name": "Upton, Leannon and Jakubowski",
-    "PersonId": 307,
-    "Rank": 112,
-    "Tooltip": "sit",
-    "Type": "AnonymousAssociate",
-    "GroupIdx": 94,
-    "FullName": "Rebeca Ankunding",
-    "FormalName": "Blanda Inc and Sons",
-    "Deleted": true,
-    "EjUserId": 259,
-    "UserName": "Christiansen Inc and Sons"
-  },
-  "LastMembershipChange": "2000-11-24T18:28:50.2194516+01:00",
-  "LastMembershipChangeBy": 966,
-  "LastMembershipChangeByAssociate": {
-    "AssociateId": 563,
-    "Name": "Hilll Inc and Sons",
-    "PersonId": 752,
-    "Rank": 57,
-    "Tooltip": "sed",
-    "Type": "AnonymousAssociate",
-    "GroupIdx": 460,
-    "FullName": "Lucie Kerluke",
-    "FormalName": "Kuhic-Johnson",
-    "Deleted": true,
-    "EjUserId": 1000,
-    "UserName": "Brakus-Schowalter"
-  },
-  "MainHeading": "ipsum",
-  "MemberTabHeading": "voluptatem",
-  "MailingsProviderName": "Berge, Larkin and Kohler",
-  "DashboardTileDefinitionId": 500,
+  "MainProviderName": "Medhurst LLC",
+  "ShadowProviderName": "Sporer-O'Reilly",
+  "ChartKey": "quidem",
+  "LastLoaded": "1998-10-14T11:10:27.8840077+02:00",
+  "LastLoadedBy": 279,
+  "LastLoadedByAssociate": null,
+  "LastMembershipChange": "2006-12-19T11:10:27.8850073+01:00",
+  "LastMembershipChangeBy": 100,
+  "LastMembershipChangeByAssociate": null,
+  "MainHeading": "aspernatur",
+  "MemberTabHeading": "aut",
+  "MailingsProviderName": "Doyle LLC",
+  "DashboardTileDefinitionId": 824,
   "VisibleFor": [
     {
-      "VisibleId": 136,
+      "VisibleId": 9,
       "Visibility": "All",
-      "DisplayValue": "rerum"
+      "DisplayValue": "quia"
     },
     {
-      "VisibleId": 136,
+      "VisibleId": 9,
       "Visibility": "All",
-      "DisplayValue": "rerum"
+      "DisplayValue": "quia"
     }
   ]
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Self-enabling zero tolerance solution",
-  "Postit": "non",
-  "Associate": {
-    "AssociateId": 974,
-    "Name": "Upton LLC",
-    "PersonId": 982,
-    "Rank": 346,
-    "Tooltip": "voluptatem",
-    "Type": "AnonymousAssociate",
-    "GroupIdx": 196,
-    "FullName": "Luna Swaniawski",
-    "FormalName": "Brakus-Kassulke",
-    "Deleted": true,
-    "EjUserId": 126,
-    "UserName": "Nienow LLC",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": "redefine granular niches"
-        },
-        "FieldType": "System.Int32",
-        "FieldLength": 904
-      }
-    }
-  },
-  "CreatedBy": {
-    "AssociateId": 890,
-    "Name": "Parker-Vandervort",
-    "PersonId": 154,
-    "Rank": 951,
-    "Tooltip": "magnam",
-    "Type": "AnonymousAssociate",
-    "GroupIdx": 514,
-    "FullName": "Mina Kreiger",
-    "FormalName": "Brekke-Schmitt",
-    "Deleted": false,
-    "EjUserId": 203,
-    "UserName": "Stracke, Marquardt and Carter",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 868
-      }
-    }
-  },
-  "UpdatedBy": {
-    "AssociateId": 622,
-    "Name": "Bogan-Wehner",
-    "PersonId": 68,
-    "Rank": 592,
-    "Tooltip": "amet",
-    "Type": "AnonymousAssociate",
-    "GroupIdx": 339,
-    "FullName": "Mervin Kulas",
-    "FormalName": "Ritchie, Stark and Borer",
-    "Deleted": false,
-    "EjUserId": 264,
-    "UserName": "Cronin-Collier",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.Int32",
-        "FieldLength": 120
-      }
-    }
-  },
-  "SelectionCategory": {
-    "Id": 447,
-    "Value": "voluptas",
-    "Tooltip": "voluptatem",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.Int32",
-        "FieldLength": 330
-      }
-    }
-  },
-  "GroupIdx": 304,
-  "IncludePerson": 166,
-  "MemberCount": 402,
-  "Name": "Glover-Ortiz",
-  "PostitTextId": 294,
-  "CreatedDate": "2016-08-27T18:28:50.2234466+02:00",
-  "SelectionId": 773,
-  "SoundEx": "earum",
-  "Source": 709,
-  "TextId": 24,
-  "UpdatedDate": "2018-07-11T18:28:50.2234466+02:00",
-  "UpdatedCount": 723,
-  "Visibility": 32,
+  "Description": "Profound didactic workforce",
+  "Postit": "ut",
+  "Associate": null,
+  "CreatedBy": null,
+  "UpdatedBy": null,
+  "SelectionCategory": null,
+  "GroupIdx": 620,
+  "IncludePerson": 167,
+  "MemberCount": 297,
+  "Name": "Schimmel LLC",
+  "PostitTextId": 765,
+  "CreatedDate": "2009-03-03T11:10:27.8880101+01:00",
+  "SelectionId": 80,
+  "SoundEx": "maxime",
+  "Source": 937,
+  "TextId": 37,
+  "UpdatedDate": "2022-02-22T11:10:27.8880101+01:00",
+  "UpdatedCount": 27,
+  "Visibility": 192,
   "SelectionType": "Combined",
   "CompanyUnique": false,
-  "TargetTableNumber": 60,
-  "TargetTableName": "Kub, Tromp and Satterfield",
+  "TargetTableNumber": 570,
+  "TargetTableName": "Bradtke LLC",
   "Completed": false,
-  "LeftSelectionId": 949,
-  "RightSelectionId": 146,
+  "LeftSelectionId": 369,
+  "RightSelectionId": 802,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Kulas, Dibbert and Price",
-  "ShadowProviderName": "Durgan-Medhurst",
-  "ChartKey": "est",
-  "LastLoaded": "2003-01-23T18:28:50.2244467+01:00",
-  "LastLoadedBy": 401,
-  "LastLoadedByAssociate": {
-    "AssociateId": 993,
-    "Name": "Streich, Welch and Quitzon",
-    "PersonId": 17,
-    "Rank": 377,
-    "Tooltip": "nihil",
-    "Type": "AnonymousAssociate",
-    "GroupIdx": 609,
-    "FullName": "Karley DuBuque",
-    "FormalName": "Mayer Group",
-    "Deleted": true,
-    "EjUserId": 388,
-    "UserName": "Kunze, Cassin and Bechtelar",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 593
-      }
-    }
-  },
-  "LastMembershipChange": "2006-12-17T18:28:50.2244467+01:00",
-  "LastMembershipChangeBy": 501,
-  "LastMembershipChangeByAssociate": {
-    "AssociateId": 429,
-    "Name": "Barton, Heaney and DuBuque",
-    "PersonId": 617,
-    "Rank": 195,
-    "Tooltip": "perspiciatis",
-    "Type": "AnonymousAssociate",
-    "GroupIdx": 765,
-    "FullName": "Kailey Reichert II",
-    "FormalName": "Roob LLC",
-    "Deleted": true,
-    "EjUserId": 138,
-    "UserName": "Rohan-Barton",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 867
-      }
-    }
-  },
-  "MainHeading": "et",
-  "MemberTabHeading": "consequuntur",
-  "MailingsProviderName": "Simonis-Veum",
-  "DashboardTileDefinitionId": 997,
+  "MainProviderName": "Keebler-Windler",
+  "ShadowProviderName": "Spinka, O'Hara and Lemke",
+  "ChartKey": "sit",
+  "LastLoaded": "2013-12-14T11:10:27.8890074+01:00",
+  "LastLoadedBy": 442,
+  "LastLoadedByAssociate": null,
+  "LastMembershipChange": "1996-02-28T11:10:27.8890074+01:00",
+  "LastMembershipChangeBy": 414,
+  "LastMembershipChangeByAssociate": null,
+  "MainHeading": "illum",
+  "MemberTabHeading": "inventore",
+  "MailingsProviderName": "Kovacek, Murazik and Mosciski",
+  "DashboardTileDefinitionId": 758,
   "VisibleFor": [
     {
-      "VisibleId": 623,
+      "VisibleId": 379,
       "Visibility": "All",
-      "DisplayValue": "laboriosam",
-      "TableRight": {},
+      "DisplayValue": "voluptatem",
+      "TableRight": null,
       "FieldProperties": {
         "fieldName": {
-          "FieldRight": {
-            "Mask": "FULL",
-            "Reason": ""
-          },
-          "FieldType": "System.String",
-          "FieldLength": 302
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 382
         }
       }
     },
     {
-      "VisibleId": 623,
+      "VisibleId": 379,
       "Visibility": "All",
-      "DisplayValue": "laboriosam",
-      "TableRight": {},
+      "DisplayValue": "voluptatem",
+      "TableRight": null,
       "FieldProperties": {
         "fieldName": {
-          "FieldRight": {
-            "Mask": "FULL",
-            "Reason": ""
-          },
-          "FieldType": "System.String",
-          "FieldLength": 302
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 382
         }
       }
     }
   ],
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
+      "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 740
+      "FieldLength": 698
     }
   }
 }

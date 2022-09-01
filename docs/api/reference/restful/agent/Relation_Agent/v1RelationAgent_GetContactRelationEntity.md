@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Relation/GetContactRelationEntity
-id: v1RelationAgent_GetContactRelationEntity
+uid: v1RelationAgent_GetContactRelationEntity
 ---
 
 # POST Agents/Relation/GetContactRelationEntity
@@ -11,6 +11,12 @@ POST /api/v1/Agents/Relation/GetContactRelationEntity
 
 Gets a ContactRelationEntity object.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -19,9 +25,10 @@ Gets a ContactRelationEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Relation/GetContactRelationEntity?contactRelationEntityId=473
+POST /api/v1/Agents/Relation/GetContactRelationEntity?contactRelationEntityId=557
 POST /api/v1/Agents/Relation/GetContactRelationEntity?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -36,18 +43,16 @@ POST /api/v1/Agents/Relation/GetContactRelationEntity?$select=name,department,ca
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response: object
 
-Relationship between a (contact/person) and another (contact/person), as described by the RelationDefinition.
+## Response: 
 
-Carrier object for ContactRelationEntity.
-Services for the ContactRelationEntity Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IRelationAgent">Relation Agent</see>.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -72,98 +77,46 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Relation/GetContactRelationEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceContactId": 38,
-  "SourcePersonId": 129,
-  "DestinationContactId": 268,
-  "DestinationPersonId": 210,
-  "RelationId": 804,
-  "Comment": "perspiciatis",
-  "RelationDefinitionId": 28,
-  "Reversed": 332,
-  "UpdatedDate": "2007-11-27T18:28:50.0071373+01:00",
-  "CreatedDate": "2016-12-27T18:28:50.0071373+01:00",
-  "CreatedBy": {
-    "AssociateId": 40,
-    "Name": "Blick-Keebler",
-    "PersonId": 114,
-    "Rank": 40,
-    "Tooltip": "est",
-    "Type": "AnonymousAssociate",
-    "GroupIdx": 776,
-    "FullName": "Ismael Torphy",
-    "FormalName": "Tillman-Corkery",
-    "Deleted": true,
-    "EjUserId": 705,
-    "UserName": "Baumbach Inc and Sons",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.Int32",
-        "FieldLength": 112
-      }
-    }
-  },
-  "UpdatedBy": {
-    "AssociateId": 810,
-    "Name": "Shanahan LLC",
-    "PersonId": 346,
-    "Rank": 713,
-    "Tooltip": "asperiores",
-    "Type": "AnonymousAssociate",
-    "GroupIdx": 941,
-    "FullName": "Jamel Bernier",
-    "FormalName": "Morissette, Jenkins and Swift",
-    "Deleted": true,
-    "EjUserId": 529,
-    "UserName": "Pagac LLC",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.Int32",
-        "FieldLength": 318
-      }
-    }
-  },
-  "SourceContactName": "Baumbach LLC",
-  "SourcePersonName": "Thiel, Green and Wisoky",
-  "DestinationContactName": "Gutmann Group",
-  "DestinationPersonName": "Fisher, Botsford and Berge",
-  "ActiveText": "blanditiis",
-  "PassiveText": "et",
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "SourceContactId": 10,
+  "SourcePersonId": 711,
+  "DestinationContactId": 727,
+  "DestinationPersonId": 618,
+  "RelationId": 967,
+  "Comment": "quis",
+  "RelationDefinitionId": 843,
+  "Reversed": 771,
+  "UpdatedDate": "2010-04-09T11:10:27.741495+02:00",
+  "CreatedDate": "1999-09-25T11:10:27.741495+02:00",
+  "CreatedBy": null,
+  "UpdatedBy": null,
+  "SourceContactName": "Toy, Becker and Schmidt",
+  "SourcePersonName": "Bartoletti-Jerde",
+  "DestinationContactName": "Kuhn-Upton",
+  "DestinationPersonName": "Feil, Will and Lowe",
+  "ActiveText": "voluptas",
+  "PassiveText": "nesciunt",
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
-      "FieldType": "System.String",
-      "FieldLength": 632
+      "FieldRight": null,
+      "FieldType": "System.Int32",
+      "FieldLength": 992
     }
   }
 }

@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Dash/SaveDash
-id: v1DashAgent_SaveDash
+uid: v1DashAgent_SaveDash
 ---
 
 # POST Agents/Dash/SaveDash
@@ -10,6 +10,13 @@ POST /api/v1/Agents/Dash/SaveDash
 ```
 
 Updates the existing Dash or creates a new Dash if the id parameter is empty
+
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -25,9 +32,9 @@ Updates the existing Dash or creates a new Dash if the id parameter is empty
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entity
+## Request Body: entity  
 
-The Dash to be saved.
+The Dash to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -45,18 +52,16 @@ The Dash to be saved.
 | PinForAssociates | array | Array of references to the pinned associates |
 | PinForGroups | array | Array of references to the pinned groups |
 
-## Response: object
 
-Dashboard configuration
+## Response: 
 
-Carrier object for Dash.
-Services for the Dash Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IDashAgent">Dash Agent</see>.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -76,109 +81,82 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Dash/SaveDash
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 495,
-  "UniqueId": "ipsa",
-  "Name": "Wisozk Inc and Sons",
-  "Description": "Phased stable methodology",
-  "AssociateId": 885,
-  "Columns": 702,
-  "Theme": {
-    "DashboardThemeId": 984,
-    "Name": "Kertzmann-VonRueden",
-    "Config": "pariatur",
-    "Rank": 188,
-    "Client": "et"
-  },
-  "VisibleForAll": 61,
+  "DashboardId": 885,
+  "UniqueId": "delectus",
+  "Name": "VonRueden LLC",
+  "Description": "Universal 6th generation strategy",
+  "AssociateId": 725,
+  "Columns": 599,
+  "Theme": null,
+  "VisibleForAll": 804,
   "VisibleForAssociates": [
-    695,
-    609
+    874,
+    678
   ],
   "VisibleForGroups": [
-    597,
-    720
+    876,
+    876
   ],
-  "PinForAll": 782,
+  "PinForAll": 919,
   "PinForAssociates": [
-    303,
-    813
+    834,
+    604
   ],
   "PinForGroups": [
-    521,
-    87
+    493,
+    719
   ]
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 251,
-  "UniqueId": "cum",
-  "Name": "Renner LLC",
-  "Description": "Versatile heuristic collaboration",
-  "AssociateId": 659,
-  "Columns": 65,
-  "Theme": {
-    "DashboardThemeId": 133,
-    "Name": "Halvorson, Parisian and O'Conner",
-    "Config": "recusandae",
-    "Rank": 830,
-    "Client": "quia",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.Int32",
-        "FieldLength": 547
-      }
-    }
-  },
-  "VisibleForAll": 17,
+  "DashboardId": 890,
+  "UniqueId": "omnis",
+  "Name": "Hansen, Bailey and Weber",
+  "Description": "Seamless zero administration toolset",
+  "AssociateId": 399,
+  "Columns": 455,
+  "Theme": null,
+  "VisibleForAll": 892,
   "VisibleForAssociates": [
-    819,
-    843
+    917,
+    822
   ],
   "VisibleForGroups": [
-    28,
-    349
+    640,
+    755
   ],
-  "PinForAll": 440,
+  "PinForAll": 794,
   "PinForAssociates": [
-    427,
-    360
+    862,
+    723
   ],
   "PinForGroups": [
-    860,
-    521
+    427,
+    801
   ],
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": "deploy e-business methodologies"
-      },
-      "FieldType": "System.Int32",
-      "FieldLength": 534
+      "FieldRight": null,
+      "FieldType": "System.String",
+      "FieldLength": 796
     }
   }
 }

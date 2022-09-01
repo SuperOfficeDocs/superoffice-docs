@@ -1,6 +1,6 @@
 ---
 title: PATCH ProjectMember/{id}
-id: v1ProjectMember_PatchProjectMember
+uid: v1ProjectMember_PatchProjectMember
 ---
 
 # PATCH ProjectMember/{id}
@@ -10,6 +10,7 @@ PATCH /api/v1/ProjectMember/{id}
 ```
 
 Update a ProjectMember with changes, as described in a JSON Patch or a JSON Merge Patch document.
+
 
 See <a href="https://tools.ietf.org/html/rfc6902">RFC6902</a> and <a href="https://tools.ietf.org/html/rfc7386">RFC 7396</a>. Update the Department field to "foo" can be done either as a JSON PATCH:
 
@@ -27,14 +28,23 @@ or as a JSON MERGE PATCH, which describes the change directly:
 
 ```
 
+
+
 JSON PATCH supports operations 'add', 'replace', 'remove' and 'test'.
 The path is case insensitive, and the leading slash is optional, so the paths "/department", "Department" and "department" are all equivalent.
 
+
+
 Calls the {SuperOffice.CRM.Services.IProjectAgent} service SaveProjectMember.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | id | int32 | The ProjectMember  id to update. **Required** |
+
 
 ## Query String Parameters
 
@@ -45,6 +55,7 @@ Calls the {SuperOffice.CRM.Services.IProjectAgent} service SaveProjectMember.
 ```http
 PATCH /api/v1/ProjectMember/{id}?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -60,9 +71,9 @@ PATCH /api/v1/ProjectMember/{id}?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: changes string
+## Request Body: changes string 
 
-JSON-Patch array of operations+path+value, or a MERGE-PATCH object (which will be converted to a list of JSON-PATCH operations).
+JSON-Patch array of operations+path+value, or a MERGE-PATCH object (which will be converted to a list of JSON-PATCH operations). 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -70,11 +81,10 @@ JSON-Patch array of operations+path+value, or a MERGE-PATCH object (which will b
 | path | string | The property names to modify.  "/users/0/email", "/users/-", |
 | value | object | New/Replaced value - string or object. |
 
-## Response: object
 
-A person can be a member of multiple projects, with a different comment and member type in each project.
+## Response: 
 
-ProjectMember entity with API _Links added.
+ProjectMember  updated.
 
 | Response | Description |
 |----------------|-------------|
@@ -83,7 +93,7 @@ ProjectMember entity with API _Links added.
 | 409 | Update blocked because a 'test' operation has detected a conflict with the entity value. |
 | 412 | Update aborted because ProjectMember has changed since the requested If-Unmodified-Since timestamp. |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -104,7 +114,7 @@ Response body: object
 | ProjectMemberTypeName | string | The projectmembers type name: 'secretary', 'member', etc. |
 | Phone | string | Phone number |
 | PhoneId | int32 | The phone id |
-| ProjectMemberTypeId | int32 | ProjectMember Type Id - from the ProjectMemberType list.  <br />Use MDO List name "PMembType" to get list items. |
+| ProjectMemberTypeId | int32 | ProjectMember Type Id - from the ProjectMemberType list.  <para>Use MDO List name "PMembType" to get list items.</para> |
 | EmailAddressName | string | The e-mail address description |
 | Comment | string | Comment text on the project membership |
 | FullName | string | The person's full name localized to the current culture/country.  (internal name used in clients for employees) |
@@ -112,100 +122,68 @@ Response body: object
 | FieldProperties | object |  |
 | _Links | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 PATCH /api/v1/ProjectMember/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "voluptatum",
-    "value": {
-      "value1": {
-        "PrimaryKey": 7623,
-        "EntityName": "sale",
-        "saleId": 7623,
-        "contactId": 1233,
-        "name": "Kuhn-Hegmann"
-      },
-      "value2": {
-        "PrimaryKey": 1302,
-        "EntityName": "person",
-        "personId": 1302,
-        "fullName": "Craig Bernhard"
-      }
-    }
+    "path": "qui",
+    "value": {}
   },
   {
     "op": "add",
-    "path": "voluptatum",
-    "value": {
-      "value1": {
-        "PrimaryKey": 7623,
-        "EntityName": "sale",
-        "saleId": 7623,
-        "contactId": 1233,
-        "name": "Kuhn-Hegmann"
-      },
-      "value2": {
-        "PrimaryKey": 1302,
-        "EntityName": "person",
-        "personId": 1302,
-        "fullName": "Craig Bernhard"
-      }
-    }
+    "path": "qui",
+    "value": {}
   }
 ]
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 ProjectMember  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectmemberId": 14,
-  "ContactId": 974,
-  "ProjectId": 234,
-  "ContactName": "Hirthe-Halvorson",
+  "ProjectmemberId": 865,
+  "ContactId": 700,
+  "ProjectId": 684,
+  "ContactName": "Aufderhar, Keebler and Nolan",
   "ContactDepartment": "",
-  "ProjectName": "Hyatt-Welch",
-  "EmailId": 988,
-  "EmailAddress": "laila.ullrich@keeblerconn.biz",
-  "CountryId": 827,
-  "Firstname": "Jerrod",
-  "MiddleName": "Wuckert LLC",
-  "Lastname": "Ziemann",
-  "PersonId": 582,
-  "Mrmrs": "quo",
-  "ProjectMemberTypeName": "Torp LLC",
-  "Phone": "(833)535-8387",
-  "PhoneId": 409,
-  "ProjectMemberTypeId": 847,
-  "EmailAddressName": "santa.wintheiser@heaney.us",
-  "Comment": "qui",
-  "FullName": "Zachary Raynor",
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "ProjectName": "Wunsch, Haley and Mills",
+  "EmailId": 597,
+  "EmailAddress": "belle@dach.co.uk",
+  "CountryId": 727,
+  "Firstname": "Ashtyn",
+  "MiddleName": "Shields, Mueller and Welch",
+  "Lastname": "Koepp",
+  "PersonId": 341,
+  "Mrmrs": "fugit",
+  "ProjectMemberTypeName": "Padberg, Jacobs and Will",
+  "Phone": "1-005-399-0242",
+  "PhoneId": 503,
+  "ProjectMemberTypeId": 414,
+  "EmailAddressName": "demetrius.connelly@rohanmacejkovic.com",
+  "Comment": "quo",
+  "FullName": "Kathryn Shields",
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
+      "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 514
+      "FieldLength": 412
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

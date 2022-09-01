@@ -1,6 +1,6 @@
 ---
 title: GET List/{udListDefinitionName}/Items/{id}/Headings
-id: v1ListItemEntity_GetHeadingsForListItemFromListName
+uid: v1ListItemEntity_GetHeadingsForListItemFromListName
 ---
 
 # GET List/{udListDefinitionName}/Items/{id}/Headings
@@ -11,10 +11,16 @@ GET /api/v1/List/{udListDefinitionName}/Items/{listItemId}/Headings
 
 Gets a selectable MDO list of the headings for this list item
 
+
+
+
+
+
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | udListDefinitionName | string | The name of the list definition, indicating which list to delete the items from. **Required** |
 | listItemId | int32 | The id of the list item **Required** |
+
 
 ## Query String Parameters
 
@@ -23,8 +29,9 @@ Gets a selectable MDO list of the headings for this list item
 | showDeleted | bool |  Set to true if you want deleted headings |
 
 ```http
-GET /api/v1/List/{udListDefinitionName}/Items/{listItemId}/Headings?showDeleted=False
+GET /api/v1/List/{udListDefinitionName}/Items/{listItemId}/Headings?showDeleted=True
 ```
+
 
 ## Request Headers
 
@@ -39,7 +46,10 @@ GET /api/v1/List/{udListDefinitionName}/Items/{listItemId}/Headings?showDeleted=
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -67,14 +77,16 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 GET /api/v1/List/{udListDefinitionName}/Items/{listItemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -82,65 +94,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 277,
-    "Name": "Fadel Inc and Sons",
-    "ToolTip": "Nisi et ex.",
-    "Deleted": false,
-    "Rank": 389,
-    "Type": "architecto",
-    "ColorBlock": 793,
-    "IconHint": "dolore",
+    "Id": 380,
+    "Name": "Hessel, Aufderhar and Lowe",
+    "ToolTip": "Optio eius.",
+    "Deleted": true,
+    "Rank": 564,
+    "Type": "et",
+    "ColorBlock": 256,
+    "IconHint": "id",
     "Selected": false,
-    "LastChanged": "2017-08-29T18:25:51.5912945+02:00",
+    "LastChanged": "2021-01-29T11:10:53.9002126+01:00",
     "ChildItems": [
       {
-        "Id": 659,
-        "Name": "Friesen LLC",
-        "ToolTip": "Libero et sint est eius nihil distinctio.",
+        "Id": 277,
+        "Name": "Bauch-O'Kon",
+        "ToolTip": "Hic debitis praesentium et.",
         "Deleted": true,
-        "Rank": 348,
-        "Type": "cum",
-        "ColorBlock": 843,
-        "IconHint": "ut",
-        "Selected": true,
-        "LastChanged": "1996-09-01T18:25:51.5912945+02:00",
+        "Rank": 550,
+        "Type": "optio",
+        "ColorBlock": 406,
+        "IconHint": "qui",
+        "Selected": false,
+        "LastChanged": "2003-11-02T11:10:53.9002126+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "voluptatibus",
-        "StyleHint": "quia",
-        "Hidden": true,
-        "FullName": "Alison Welch",
-        "TableRight": {},
+        "ExtraInfo": "rerum",
+        "StyleHint": "repudiandae",
+        "Hidden": false,
+        "FullName": "Ms. Yessenia Kuhlman V",
+        "TableRight": null,
         "FieldProperties": {
           "fieldName": {
-            "FieldRight": {
-              "Mask": "FULL",
-              "Reason": ""
-            },
-            "FieldType": "System.String",
-            "FieldLength": 974
+            "FieldRight": null,
+            "FieldType": "System.Int32",
+            "FieldLength": 268
           }
         }
       }
     ],
-    "ExtraInfo": "est",
-    "StyleHint": "quia",
-    "Hidden": false,
-    "FullName": "Iliana Marquardt",
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "ExtraInfo": "odit",
+    "StyleHint": "expedita",
+    "Hidden": true,
+    "FullName": "Adrien Satterfield",
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 161
+        "FieldRight": null,
+        "FieldType": "System.Int32",
+        "FieldLength": 331
       }
     }
   }

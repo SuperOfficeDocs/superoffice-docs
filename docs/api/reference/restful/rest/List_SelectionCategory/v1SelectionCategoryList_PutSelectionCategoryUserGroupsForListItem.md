@@ -1,6 +1,6 @@
 ---
 title: PUT List/SelectionCategory/Items/{id}/UserGroups
-id: v1SelectionCategoryList_PutSelectionCategoryUserGroupsForListItem
+uid: v1SelectionCategoryList_PutSelectionCategoryUserGroupsForListItem
 ---
 
 # PUT List/SelectionCategory/Items/{id}/UserGroups
@@ -11,11 +11,18 @@ PUT /api/v1/List/SelectionCategory/Items/{itemId}/UserGroups
 
 Saves user groups visible for the SelectionCategory list's item.
 
+
 Calls the List agent service SaveHeadingsForListItemFromListDefinition.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | itemId | int32 | The ID of the item to save. **Required** |
+
+
 
 ## Request Headers
 
@@ -31,9 +38,9 @@ Calls the List agent service SaveHeadingsForListItemFromListDefinition.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entities
+## Request Body: entities  
 
-The headings to be saved.
+The headings to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -53,7 +60,10 @@ The headings to be saved.
 | Hidden | bool | True if the ListItem is hidden |
 | FullName | string | The name of the ListItem in its context |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -81,56 +91,58 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 PUT /api/v1/List/SelectionCategory/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 672,
-    "Name": "Daniel, Schaden and Heller",
-    "ToolTip": "Cupiditate pariatur.",
-    "Deleted": true,
-    "Rank": 295,
-    "Type": "excepturi",
-    "ColorBlock": 120,
-    "IconHint": "corrupti",
+    "Id": 159,
+    "Name": "D'Amore, Ledner and Waters",
+    "ToolTip": "Fugit fugit.",
+    "Deleted": false,
+    "Rank": 212,
+    "Type": "non",
+    "ColorBlock": 150,
+    "IconHint": "nobis",
     "Selected": true,
-    "LastChanged": "2012-02-23T18:25:52.2039861+01:00",
+    "LastChanged": "1998-08-01T11:10:54.625904+02:00",
     "ChildItems": [
       {
-        "Id": 263,
-        "Name": "Gottlieb Group",
-        "ToolTip": "Consequatur quibusdam quaerat repellat ut est.",
-        "Deleted": false,
-        "Rank": 998,
-        "Type": "et",
-        "ColorBlock": 604,
-        "IconHint": "voluptatem",
-        "Selected": true,
-        "LastChanged": "2014-09-17T18:25:52.2039861+02:00",
+        "Id": 930,
+        "Name": "Schaefer-Jacobi",
+        "ToolTip": "Mollitia vel sit voluptatem quos qui aliquid.",
+        "Deleted": true,
+        "Rank": 34,
+        "Type": "in",
+        "ColorBlock": 930,
+        "IconHint": "occaecati",
+        "Selected": false,
+        "LastChanged": "2010-11-03T11:10:54.625904+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "culpa",
-        "StyleHint": "corrupti",
-        "Hidden": true,
-        "FullName": "Ada Schoen"
+        "ExtraInfo": "rerum",
+        "StyleHint": "culpa",
+        "Hidden": false,
+        "FullName": "Jammie Williamson"
       }
     ],
-    "ExtraInfo": "repellendus",
-    "StyleHint": "neque",
+    "ExtraInfo": "consectetur",
+    "StyleHint": "voluptatibus",
     "Hidden": false,
-    "FullName": "Krystel Nienow Jr."
+    "FullName": "Dr. Tyreek Macy Lubowitz"
   }
 ]
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -138,65 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 330,
-    "Name": "Thiel Group",
-    "ToolTip": "Alias blanditiis et dolor unde vero sit.",
+    "Id": 367,
+    "Name": "Gutkowski-Schamberger",
+    "ToolTip": "Ea consequuntur odio tempora porro.",
     "Deleted": false,
-    "Rank": 126,
-    "Type": "repellat",
-    "ColorBlock": 517,
-    "IconHint": "id",
+    "Rank": 872,
+    "Type": "amet",
+    "ColorBlock": 107,
+    "IconHint": "corporis",
     "Selected": true,
-    "LastChanged": "2011-11-03T18:25:52.2049859+01:00",
+    "LastChanged": "2019-02-18T11:10:54.6269029+01:00",
     "ChildItems": [
       {
-        "Id": 350,
-        "Name": "McClure LLC",
-        "ToolTip": "Sed dicta ullam modi officiis.",
-        "Deleted": false,
-        "Rank": 707,
-        "Type": "veniam",
-        "ColorBlock": 756,
-        "IconHint": "non",
-        "Selected": false,
-        "LastChanged": "2015-05-11T18:25:52.2049859+02:00",
+        "Id": 189,
+        "Name": "Hoeger Group",
+        "ToolTip": "Omnis quis placeat.",
+        "Deleted": true,
+        "Rank": 772,
+        "Type": "et",
+        "ColorBlock": 620,
+        "IconHint": "facere",
+        "Selected": true,
+        "LastChanged": "2011-12-24T11:10:54.6269029+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "enim",
-        "StyleHint": "odit",
-        "Hidden": false,
-        "FullName": "Joaquin Orn",
-        "TableRight": {},
+        "ExtraInfo": "quidem",
+        "StyleHint": "distinctio",
+        "Hidden": true,
+        "FullName": "Amaya Vern Eichmann Jr.",
+        "TableRight": null,
         "FieldProperties": {
           "fieldName": {
-            "FieldRight": {
-              "Mask": "FULL",
-              "Reason": ""
-            },
+            "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 775
+            "FieldLength": 131
           }
         }
       }
     ],
-    "ExtraInfo": "dolores",
-    "StyleHint": "voluptatibus",
+    "ExtraInfo": "ea",
+    "StyleHint": "et",
     "Hidden": true,
-    "FullName": "Clara Hyatt",
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "FullName": "Eladio Denesik",
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 197
+        "FieldRight": null,
+        "FieldType": "System.Int32",
+        "FieldLength": 186
       }
     }
   }

@@ -16,6 +16,8 @@ Copy selection members from selection into an existing selection.
 * **fromSelectionId:** The id of the selection to copy members from.
 * **toSelectionId:** The id of the selection to copy members to.
 
+
+
 [WSDL file for Services88/Selection](../Services88-Selection.md)
 
 Obtain a ticket from the [Services88/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -49,6 +51,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## CopySelectionMembers Response
 
 ```xml
@@ -68,3 +71,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

@@ -1,6 +1,6 @@
 ---
 title: PUT List/Credited/Items/{id}
-id: v1CreditedList_PutCredited
+uid: v1CreditedList_PutCredited
 ---
 
 # PUT List/Credited/Items/{id}
@@ -11,9 +11,16 @@ PUT /api/v1/List/Credited/Items/{id}
 
 Updates an existing Credited list item.
 
+
+
+
+
+
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | id | int32 | The id of Credited to be saved. **Required** |
+
+
 
 ## Request Headers
 
@@ -29,9 +36,9 @@ Updates an existing Credited list item.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: listItem
+## Request Body: listItem  
 
-The details of Credited list item to be saved.
+The details of Credited list item to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -42,19 +49,17 @@ The details of Credited list item to be saved.
 | UdListDefinitionId | int32 | The id of the list which this list item belongs to |
 | Rank | int32 | The rank of the list item |
 
-## Response: object
 
-The list item entity contains generic list item information
+## Response: 
 
-Carrier object for ListItemEntity.
-Services for the ListItemEntity Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IListAgent">List Agent</see>.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 | 400 | Bad request. Entity to save is not in request body. |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -67,7 +72,7 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 PUT /api/v1/List/Credited/Items/{id}
@@ -77,38 +82,34 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 789,
-  "Name": "Bins-Schoen",
-  "Tooltip": "temporibus",
+  "Id": 756,
+  "Name": "Harber, Feil and Kshlerin",
+  "Tooltip": "voluptatibus",
   "Deleted": true,
-  "UdListDefinitionId": 736,
-  "Rank": 876
+  "UdListDefinitionId": 576,
+  "Rank": 694
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 547,
-  "Name": "McGlynn LLC",
-  "Tooltip": "et",
+  "Id": 965,
+  "Name": "Wolff-Haley",
+  "Tooltip": "ad",
   "Deleted": false,
-  "UdListDefinitionId": 831,
-  "Rank": 449,
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "UdListDefinitionId": 174,
+  "Rank": 399,
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
-      "FieldType": "System.String",
-      "FieldLength": 659
+      "FieldRight": null,
+      "FieldType": "System.Int32",
+      "FieldLength": 831
     }
   }
 }

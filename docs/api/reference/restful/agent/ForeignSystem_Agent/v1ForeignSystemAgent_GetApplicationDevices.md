@@ -1,6 +1,6 @@
 ---
 title: POST Agents/ForeignSystem/GetApplicationDevices
-id: v1ForeignSystemAgent_GetApplicationDevices
+uid: v1ForeignSystemAgent_GetApplicationDevices
 ---
 
 # POST Agents/ForeignSystem/GetApplicationDevices
@@ -11,6 +11,12 @@ POST /api/v1/Agents/ForeignSystem/GetApplicationDevices
 
 Gets all devices that belong to a foreign application.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Gets all devices that belong to a foreign application.
 ```http
 POST /api/v1/Agents/ForeignSystem/GetApplicationDevices?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,15 +42,18 @@ POST /api/v1/Agents/ForeignSystem/GetApplicationDevices?$select=name,department,
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-ApplicationName
+ApplicationName 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | ApplicationName | string |  |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -65,19 +75,21 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/ForeignSystem/GetApplicationDevices
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Predovic-Bergstrom"
+  "ApplicationName": "Deckow LLC"
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -85,27 +97,21 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ForeignDeviceId": 493,
-    "Name": "Smith Group",
-    "CreatedDate": "2011-07-18T18:28:49.204123+02:00",
-    "UpdatedDate": "2010-10-08T18:28:49.204123+02:00",
-    "AssociateFullName": "Elias Fritsch",
-    "CreatedBy": "est",
-    "UpdatedBy": "dolorem",
-    "DeviceIdentifier": "eius",
-    "ForeignAppId": 467,
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "ForeignDeviceId": 746,
+    "Name": "Moen Inc and Sons",
+    "CreatedDate": "2004-10-02T11:10:27.0754524+02:00",
+    "UpdatedDate": "2002-04-21T11:10:27.0754524+02:00",
+    "AssociateFullName": "Dr. Favian Frieda Orn",
+    "CreatedBy": "eius",
+    "UpdatedBy": "eos",
+    "DeviceIdentifier": "dolore",
+    "ForeignAppId": 276,
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
+        "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 959
+        "FieldLength": 754
       }
     }
   }

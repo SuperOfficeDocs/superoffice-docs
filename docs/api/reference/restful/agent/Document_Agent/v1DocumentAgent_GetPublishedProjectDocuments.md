@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Document/GetPublishedProjectDocuments
-id: v1DocumentAgent_GetPublishedProjectDocuments
+uid: v1DocumentAgent_GetPublishedProjectDocuments
 ---
 
 # POST Agents/Document/GetPublishedProjectDocuments
@@ -11,6 +11,12 @@ POST /api/v1/Agents/Document/GetPublishedProjectDocuments
 
 Get published appointment documents by project id.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Get published appointment documents by project id.
 ```http
 POST /api/v1/Agents/Document/GetPublishedProjectDocuments?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,15 +42,18 @@ POST /api/v1/Agents/Document/GetPublishedProjectDocuments?$select=name,departmen
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-ProjectId
+ProjectId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | ProjectId | int32 |  |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -71,10 +81,12 @@ Response body: array
 | ProjectName | string | Project name |
 | AssociateId | int32 | ID of associate whose diary the appointment is in, REQUIRED |
 | Snum | int32 | The sequence number allocated from refcount on used template when creating the document |
+| SaleId | int32 | Owning sale, if any (may be 0) |
+| SaleName | string | Heading of Owning sale, if any. (may be blank) |
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Document/GetPublishedProjectDocuments
@@ -84,9 +96,11 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 199
+  "ProjectId": 466
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -94,36 +108,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 212,
-    "Attention": "dignissimos",
-    "Header": "dolorem",
-    "Name": "Ratke, Casper and Kozey",
-    "OurRef": "molestiae",
-    "YourRef": "et",
-    "Description": "Down-sized zero administration encryption",
-    "DocumentTemplate": "sint",
-    "IsPublished": false,
-    "PersonId": 357,
-    "PersonFullName": "Mr. Kennedi Dickinson",
-    "AssociateFullName": "Gladys Klocko",
-    "ContactId": 256,
-    "ContactName": "Kovacek-Hackett",
-    "ProjectId": 186,
-    "ProjectName": "Greenfelder-Gerlach",
-    "AssociateId": 343,
-    "Snum": 697,
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "DocumentId": 166,
+    "Attention": "exercitationem",
+    "Header": "iusto",
+    "Name": "Cassin-Will",
+    "OurRef": "id",
+    "YourRef": "itaque",
+    "Description": "Synergistic well-modulated help-desk",
+    "DocumentTemplate": "non",
+    "IsPublished": true,
+    "PersonId": 57,
+    "PersonFullName": "Miss Keyshawn Favian Homenick",
+    "AssociateFullName": "Doris Bergnaum",
+    "ContactId": 214,
+    "ContactName": "Robel, Nader and Barton",
+    "ProjectId": 542,
+    "ProjectName": "Rolfson LLC",
+    "AssociateId": 260,
+    "Snum": 910,
+    "SaleId": 890,
+    "SaleName": "Fisher, Leffler and Stiedemann",
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": "harness impactful infrastructures"
-        },
+        "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 989
+        "FieldLength": 677
       }
     }
   }

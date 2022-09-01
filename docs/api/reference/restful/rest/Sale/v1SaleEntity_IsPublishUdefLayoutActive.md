@@ -1,6 +1,6 @@
 ---
 title: GET Sale/UdefLayout/Publish
-id: v1SaleEntity_IsPublishUdefLayoutActive
+uid: v1SaleEntity_IsPublishUdefLayoutActive
 ---
 
 # GET Sale/UdefLayout/Publish
@@ -11,7 +11,14 @@ GET /api/v1/Sale/UdefLayout/Publish
 
 Is UDef Layout Publishing active?
 
+
 True if the SaleEntity user-defined field layout is being updated.
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -26,7 +33,10 @@ True if the SaleEntity user-defined field layout is being updated.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
+
 ## Response: bool
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -34,14 +44,17 @@ True if the SaleEntity user-defined field layout is being updated.
 
 Response body: bool
 
-## Sample Request
+
+## Sample request
 
 ```http!
 GET /api/v1/Sale/UdefLayout/Publish
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK

@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Configuration/GetAnyConfiguration
-id: v1ConfigurationAgent_GetAnyConfiguration
+uid: v1ConfigurationAgent_GetAnyConfiguration
 ---
 
 # POST Agents/Configuration/GetAnyConfiguration
@@ -11,7 +11,13 @@ POST /api/v1/Agents/Configuration/GetAnyConfiguration
 
 Get one defined configuration fragment, with full reference resolution and parsing applied.
 
+
 This is essentially the same service as the GetPageConfiguration, except that this service is not locked to objects of type Page.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +28,7 @@ This is essentially the same service as the GetPageConfiguration, except that th
 ```http
 POST /api/v1/Agents/Configuration/GetAnyConfiguration?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,9 +44,9 @@ POST /api/v1/Agents/Configuration/GetAnyConfiguration?$select=name,department,ca
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-Application, Instance, Item, Type
+Application, Instance, Item, Type 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -48,7 +55,10 @@ Application, Instance, Item, Type
 | Item | string |  |
 | Type | string |  |
 
+
 ## Response: string
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -56,7 +66,8 @@ Application, Instance, Item, Type
 
 Response body: string
 
-## Sample Request
+
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Configuration/GetAnyConfiguration
@@ -66,16 +77,18 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Application": "blanditiis",
-  "Instance": "consequuntur",
-  "Item": "et",
+  "Application": "consequuntur",
+  "Instance": "molestiae",
+  "Item": "ut",
   "Type": "ea"
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"omnis"
+"odit"
 ```

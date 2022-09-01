@@ -1,6 +1,6 @@
 ---
 title: POST Agents/BLOB/GetBlobEntityOnContact
-id: v1BLOBAgent_GetBlobEntityOnContact
+uid: v1BLOBAgent_GetBlobEntityOnContact
 ---
 
 # POST Agents/BLOB/GetBlobEntityOnContact
@@ -11,6 +11,12 @@ POST /api/v1/Agents/BLOB/GetBlobEntityOnContact
 
 Gets the blob entity that represents the contact image binary object.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Gets the blob entity that represents the contact image binary object.
 ```http
 POST /api/v1/Agents/BLOB/GetBlobEntityOnContact?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,24 +42,24 @@ POST /api/v1/Agents/BLOB/GetBlobEntityOnContact?$select=name,department,category
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-ContactId
+ContactId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | ContactId | int32 |  |
 
-## Response: object
 
-Carrier object for BlobEntity.
-Services for the BlobEntity Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IBLOBAgent">BLOB Agent</see>.
+## Response: 
+
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -72,98 +79,46 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/BLOB/GetBlobEntityOnContact
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 316
+  "ContactId": 232
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 335,
-  "BlobSize": 202,
-  "Description": "Innovative maximized software",
-  "ExtraInfo": "ipsum",
-  "IsEncrypted": false,
-  "IsZipped": false,
-  "MimeType": "est",
-  "OriginalSize": 115,
-  "CreatedDate": "2020-08-05T18:28:48.1485431+02:00",
-  "UpdatedDate": "2000-03-04T18:28:48.1485431+01:00",
-  "CreatedBy": {
-    "AssociateId": 194,
-    "Name": "Rau-Ebert",
-    "PersonId": 386,
-    "Rank": 627,
-    "Tooltip": "consequatur",
-    "Type": "AnonymousAssociate",
-    "GroupIdx": 677,
-    "FullName": "Vickie Ryan",
-    "FormalName": "Romaguera, Wiza and O'Hara",
-    "Deleted": true,
-    "EjUserId": 358,
-    "UserName": "Bartoletti LLC",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 911
-      }
-    }
-  },
-  "UpdatedBy": {
-    "AssociateId": 388,
-    "Name": "Roob LLC",
-    "PersonId": 897,
-    "Rank": 470,
-    "Tooltip": "laboriosam",
-    "Type": "AnonymousAssociate",
-    "GroupIdx": 673,
-    "FullName": "Lawrence Jones",
-    "FormalName": "Torp, Lebsack and Donnelly",
-    "Deleted": false,
-    "EjUserId": 676,
-    "UserName": "Howe, Greenfelder and Anderson",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 758
-      }
-    }
-  },
-  "ConceptualType": "omnis",
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "BlobId": 472,
+  "BlobSize": 548,
+  "Description": "Digitized content-based challenge",
+  "ExtraInfo": "accusamus",
+  "IsEncrypted": true,
+  "IsZipped": true,
+  "MimeType": "dicta",
+  "OriginalSize": 365,
+  "CreatedDate": "2007-08-24T11:10:26.0405561+02:00",
+  "UpdatedDate": "2003-11-01T11:10:26.0405561+01:00",
+  "CreatedBy": null,
+  "UpdatedBy": null,
+  "ConceptualType": "saepe",
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
+      "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 240
+      "FieldLength": 365
     }
   }
 }

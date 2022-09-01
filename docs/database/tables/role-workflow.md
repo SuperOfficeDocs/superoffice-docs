@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "role_workflow"
-so.date: 04.12.2022
+so.date: 08.26.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -27,6 +27,7 @@ Knowledge base workflow access rights associated with a role
 |workflow\_access|The access level.|Int|&#x25CF;|
 |crm\_role|Link to Role|FK [Role](role.md)|&#x25CF;|
 
+
 ![role_workflow table relationship diagram](./media/role_workflow.png)
 
 [!include[details](./includes/role-workflow.md)]
@@ -46,7 +47,8 @@ Knowledge base workflow access rights associated with a role
 |------|-------------|
 |[ej\_role](ej-role.md)  |Define access rights, memberships and other properties for role user members |
 |[kb\_workflow](kb-workflow.md)  |Knowledge base workflow steps |
-|[Role](role.md)  |User roles for role-based security, names and tooltips are in LocaleText.|
+|[Role](role.md)  |User roles for role-based security, names and tooltips are in LocaleText. For more information regarding role based security, see http://techdoc.superoffice.com |
+
 
 ## Replication Flags
 
@@ -55,3 +57,4 @@ Knowledge base workflow access rights associated with a role
 ## Security Flags
 
 * No access control via user's Role.
+

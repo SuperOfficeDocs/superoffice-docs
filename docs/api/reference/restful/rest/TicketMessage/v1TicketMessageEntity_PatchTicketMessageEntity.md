@@ -1,6 +1,6 @@
 ---
 title: PATCH TicketMessage/{id}
-id: v1TicketMessageEntity_PatchTicketMessageEntity
+uid: v1TicketMessageEntity_PatchTicketMessageEntity
 ---
 
 # PATCH TicketMessage/{id}
@@ -10,6 +10,7 @@ PATCH /api/v1/TicketMessage/{id}
 ```
 
 Update a TicketMessageEntity with changes, as described in a JSON Patch or a JSON Merge Patch document.
+
 
 See <a href="https://tools.ietf.org/html/rfc6902">RFC6902</a> and <a href="https://tools.ietf.org/html/rfc7386">RFC 7396</a>. Update the Department field to "foo" can be done either as a JSON PATCH:
 
@@ -27,14 +28,23 @@ or as a JSON MERGE PATCH, which describes the change directly:
 
 ```
 
+
+
 JSON PATCH supports operations 'add', 'replace', 'remove' and 'test'.
 The path is case insensitive, and the leading slash is optional, so the paths "/department", "Department" and "department" are all equivalent.
 
+
+
 Calls the {SuperOffice.CRM.Services.ITicketAgent} service SaveTicketMessageEntity.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | id | int32 | The TicketMessageEntity  id to update. **Required** |
+
 
 ## Query String Parameters
 
@@ -45,6 +55,7 @@ Calls the {SuperOffice.CRM.Services.ITicketAgent} service SaveTicketMessageEntit
 ```http
 PATCH /api/v1/TicketMessage/{id}?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -60,9 +71,9 @@ PATCH /api/v1/TicketMessage/{id}?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: changes string
+## Request Body: changes string 
 
-JSON-Patch array of operations+path+value, or a MERGE-PATCH object (which will be converted to a list of JSON-PATCH operations).
+JSON-Patch array of operations+path+value, or a MERGE-PATCH object (which will be converted to a list of JSON-PATCH operations). 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -70,11 +81,10 @@ JSON-Patch array of operations+path+value, or a MERGE-PATCH object (which will b
 | path | string | The property names to modify.  "/users/0/email", "/users/-", |
 | value | object | New/Replaced value - string or object. |
 
-## Response: object
 
-The ticket messages are e-mails, SMS or other messages attached to a ticket (aka request).
+## Response: 
 
-TicketMessageEntity entity with API _Links added.
+TicketMessageEntity  updated.
 
 | Response | Description |
 |----------------|-------------|
@@ -83,7 +93,7 @@ TicketMessageEntity entity with API _Links added.
 | 409 | Update blocked because a 'test' operation has detected a conflict with the entity value. |
 | 412 | Update aborted because TicketMessageEntity has changed since the requested If-Unmodified-Since timestamp. |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -102,284 +112,114 @@ Response body: object
 | DebugInfo | string | The debug info for the message. |
 | MailSorter | string | The name of the mail sorter used when the email was imported. Note: We must use name instead of id since the id&amp;apos;s change every time one changes the mail sorter. :-0 |
 | MessageCategory | string | Defines what kind of message this is. |
-| Person |  | If this is an incoming message, this will contain the person  <br />Use MDO List name "person_new" to get list items. |
+| Person |  | If this is an incoming message, this will contain the person  <para>Use MDO List name "person_new" to get list items.</para> |
 | SearchTitle | string | A copy of the title of the ticket, for search optimisation and simpler reporting. |
 | MessageHeaders | array | Contains the message headers, like To, Cc, Bcc information, or custom headers |
 | Important | bool | If this message is important or not. |
+| Language | string | The language this message is in, based on some kind of analysis |
+| Sentiment | int32 | Sentiment index, 100 = completely happy; -100 = suicidally unhappy; 0 = no idea |
+| SentimentConfidence | int32 | Confidence of sentiment index, 0 = no idea, 100 = completely sure |
 | ExtraFields | object | Deprecated: Use {SuperOffice.CRM.Services.TicketMessageEntity.CustomFields} instead. Extra fields added to the carrier. This could be data from Plug-ins, the foreign key system, external applications, etc. |
 | CustomFields | object | Udef + Extra fields added to the carrier. Extra fields as defined by changes to database schema + user-defined fields as defined by admin. Custom fields combines user defined fields and extra fields into one bucket.  The individual {SuperOffice.CRM.Services.TicketMessageEntity.ExtraFields} and <see cref="!:UserDefinedFields">UserDefinedFields</see> properties are deprecated in favor of this combined collection. |
 | TableRight |  |  |
 | FieldProperties | object |  |
 | _Links | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 PATCH /api/v1/TicketMessage/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "autem",
-    "value": {
-      "value1": {
-        "PrimaryKey": 5478,
-        "EntityName": "sale",
-        "saleId": 5478,
-        "contactId": 4075,
-        "name": "Hills, Gutkowski and Considine"
-      },
-      "value2": {
-        "PrimaryKey": 4356,
-        "EntityName": "sale",
-        "saleId": 4356,
-        "contactId": 5901,
-        "name": "Langosh, Dicki and Wunsch"
-      }
-    }
+    "path": "qui",
+    "value": {}
   },
   {
     "op": "add",
-    "path": "autem",
-    "value": {
-      "value1": {
-        "PrimaryKey": 5478,
-        "EntityName": "sale",
-        "saleId": 5478,
-        "contactId": 4075,
-        "name": "Hills, Gutkowski and Considine"
-      },
-      "value2": {
-        "PrimaryKey": 4356,
-        "EntityName": "sale",
-        "saleId": 4356,
-        "contactId": 5901,
-        "name": "Langosh, Dicki and Wunsch"
-      }
-    }
+    "path": "qui",
+    "value": {}
   }
 ]
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 TicketMessageEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 298,
-  "Ticket": {
-    "TicketId": 421,
-    "Title": "explicabo",
-    "CreatedAt": "2011-11-12T18:25:51.2669395+01:00",
-    "LastChanged": "2005-04-25T18:25:51.2669395+02:00",
-    "ReadByOwner": "1995-01-13T18:25:51.2669395+01:00",
-    "ReadByCustomer": "2002-05-29T18:25:51.2669395+02:00",
-    "FirstReadByUser": "2016-06-25T18:25:51.2669395+02:00",
-    "Activate": "2015-01-02T18:25:51.2669395+01:00",
-    "ClosedAt": "2015-03-07T18:25:51.2669395+01:00",
-    "RepliedAt": "2020-08-12T18:25:51.2669395+02:00",
-    "AlertTimeout": "2003-10-25T18:25:51.2669395+02:00",
-    "Deadline": "1996-12-01T18:25:51.2669395+01:00",
-    "CreatedBy": 209,
-    "CreatedByName": "Hills, Ferry and Stracke",
-    "Author": "ab",
-    "OwnedBy": 709,
-    "OwnedByName": "Rau LLC",
-    "Category": 101,
-    "CategoryName": "VIP Customer",
-    "CategoryFullname": "VIP Customer",
-    "Slevel": "External",
-    "Priority": 403,
-    "PriorityName": "Bradtke Inc and Sons",
-    "BaseStatus": "Active",
-    "TicketStatus": 490,
-    "TicketStatusDisplayValue": "nesciunt",
-    "Origin": "AutoGenerated",
-    "CustId": 491,
-    "PersonFirstname": "Salvador",
-    "PersonMiddleName": "Bernier Group",
-    "PersonLastname": "Parker",
-    "PersonFullname": "quibusdam",
-    "AlertLevel": 70,
-    "ConnectId": 24,
-    "ReadStatus": "Green",
-    "TimeToReply": 120,
-    "RealTimeToReply": 331,
-    "TimeToClose": 549,
-    "RealTimeToClose": 230,
-    "TimeSpentInternally": 128,
-    "TimeSpentExternally": 858,
-    "TimeSpentQueue": 210,
-    "RealTimeSpentInternally": 411,
-    "RealTimeSpentExternally": 591,
-    "RealTimeSpentQueue": 189,
-    "HasAttachment": false,
-    "NumReplies": 579,
-    "NumMessages": 269,
-    "FromAddress": "culpa",
-    "ContactId": 520,
-    "ContactName": "Cremin Inc and Sons",
-    "OwnedByAssociateId": 559,
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.Int32",
-        "FieldLength": 467
-      }
-    }
-  },
-  "CreatedAt": "2008-01-05T18:25:51.267911+01:00",
-  "CreatedBy": {
-    "AssociateId": 128,
-    "Name": "O'Keefe, Hickle and Wilderman",
-    "PersonId": 438,
-    "Rank": 650,
-    "Tooltip": "maiores",
-    "Type": "AnonymousAssociate",
-    "GroupIdx": 73,
-    "FullName": "Sarai Wiza",
-    "FormalName": "Goyette LLC",
-    "Deleted": false,
-    "EjUserId": 778,
-    "UserName": "Graham, Sporer and Abshire",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": "reintermediate turn-key schemas"
-        },
-        "FieldType": "System.Int32",
-        "FieldLength": 258
-      }
-    }
-  },
-  "Author": "dicta",
+  "EjMessageId": 904,
+  "Ticket": null,
+  "CreatedAt": "2018-01-06T11:10:53.6562131+01:00",
+  "CreatedBy": null,
+  "Author": "officia",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "et",
-  "TimeSpent": 554,
-  "Body": "quidem",
-  "HtmlBody": "eos",
-  "EmailHeader": "easter@labadieswaniawski.com",
-  "DebugInfo": "voluptatem",
-  "MailSorter": "laudantium",
+  "MessageId": "quia",
+  "TimeSpent": 235,
+  "Body": "unde",
+  "HtmlBody": "voluptatem",
+  "EmailHeader": "abner@gibson.name",
+  "DebugInfo": "ad",
+  "MailSorter": "quia",
   "MessageCategory": "Bounce",
-  "Person": {
-    "Position": "atque",
-    "PersonId": 222,
-    "Mrmrs": "repellendus",
-    "Firstname": "Floyd",
-    "Lastname": "Douglas",
-    "MiddleName": "Schiller Group",
-    "Title": "qui",
-    "Description": "Balanced zero defect knowledge base",
-    "Email": "watson@rempel.name",
-    "FullName": "Mr. Colton Macejkovic",
-    "DirectPhone": "723.451.7155",
-    "FormalName": "Raynor-Gorczany",
-    "CountryId": 194,
-    "ContactId": 845,
-    "ContactName": "Williamson-Anderson",
-    "Retired": 58,
-    "Rank": 556,
-    "ActiveInterests": 585,
-    "ContactDepartment": "",
-    "ContactCountryId": 311,
-    "ContactOrgNr": "285605",
-    "FaxPhone": "(412)330-6358",
-    "MobilePhone": "(217)873-8526 x44500",
-    "ContactPhone": "1-072-832-4568",
-    "AssociateName": "Farrell LLC",
-    "AssociateId": 1000,
-    "UsePersonAddress": false,
-    "ContactFax": "recusandae",
-    "Kanafname": "et",
-    "Kanalname": "numquam",
-    "Post1": "cumque",
-    "Post2": "nisi",
-    "Post3": "hic",
-    "EmailName": "adonis@okunevahilpert.us",
-    "ContactFullName": "Meredith Nikolaus",
-    "ActiveErpLinks": 306,
-    "TicketPriorityId": 928,
-    "SupportLanguageId": 524,
-    "SupportAssociateId": 72,
-    "CategoryName": "VIP Customer",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.Int32",
-        "FieldLength": 960
-      }
-    }
-  },
-  "SearchTitle": "id",
+  "Person": null,
+  "SearchTitle": "nesciunt",
   "MessageHeaders": [
     {
-      "Name": "Gaylord Group",
-      "Value": "similique",
-      "TableRight": {},
+      "Name": "Leuschke, Stiedemann and Aufderhar",
+      "Value": "doloribus",
+      "StdItem": "CustomerReadFAQ",
+      "StdItemCol": "Name",
+      "TableRight": null,
       "FieldProperties": {
         "fieldName": {
-          "FieldRight": {
-            "Mask": "FULL",
-            "Reason": ""
-          },
-          "FieldType": "System.Int32",
-          "FieldLength": 933
+          "FieldRight": null,
+          "FieldType": "System.String",
+          "FieldLength": 712
         }
       }
     },
     {
-      "Name": "Gaylord Group",
-      "Value": "similique",
-      "TableRight": {},
+      "Name": "Leuschke, Stiedemann and Aufderhar",
+      "Value": "doloribus",
+      "StdItem": "CustomerReadFAQ",
+      "StdItemCol": "Name",
+      "TableRight": null,
       "FieldProperties": {
         "fieldName": {
-          "FieldRight": {
-            "Mask": "FULL",
-            "Reason": ""
-          },
-          "FieldType": "System.Int32",
-          "FieldLength": 933
+          "FieldRight": null,
+          "FieldType": "System.String",
+          "FieldLength": 712
         }
       }
     }
   ],
-  "Important": true,
+  "Important": false,
+  "Language": "velit",
+  "Sentiment": 666,
+  "SentimentConfidence": 65,
   "ExtraFields": {
-    "ExtraFields1": "fugit",
-    "ExtraFields2": "sint"
+    "ExtraFields1": "totam",
+    "ExtraFields2": "a"
   },
   "CustomFields": {
-    "CustomFields1": "incidunt",
-    "CustomFields2": "quasi"
+    "CustomFields1": "non",
+    "CustomFields2": "et"
   },
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
+      "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 217
+      "FieldLength": 62
     }
   },
   "_Links": {

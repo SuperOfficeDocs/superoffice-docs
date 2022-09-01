@@ -1,6 +1,6 @@
 ---
 title: POST Agents/CustomerService/SessionIsValid
-id: v1CustomerServiceAgent_SessionIsValid
+uid: v1CustomerServiceAgent_SessionIsValid
 ---
 
 # POST Agents/CustomerService/SessionIsValid
@@ -11,6 +11,12 @@ POST /api/v1/Agents/CustomerService/SessionIsValid
 
 Check if a CS session is valid
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Check if a CS session is valid
 ```http
 POST /api/v1/Agents/CustomerService/SessionIsValid?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,15 +42,18 @@ POST /api/v1/Agents/CustomerService/SessionIsValid?$select=name,department,categ
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-CsSessionKey
+CsSessionKey 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | CsSessionKey | string |  |
 
+
 ## Response: bool
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -51,19 +61,22 @@ CsSessionKey
 
 Response body: bool
 
-## Sample Request
+
+## Sample request
 
 ```http!
 POST /api/v1/Agents/CustomerService/SessionIsValid
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "CsSessionKey": "ut"
+  "CsSessionKey": "sed"
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK

@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Selection/CreateSelectionFromSelection
-id: v1SelectionAgent_CreateSelectionFromSelection
+uid: v1SelectionAgent_CreateSelectionFromSelection
 ---
 
 # POST Agents/Selection/CreateSelectionFromSelection
@@ -11,6 +11,12 @@ POST /api/v1/Agents/Selection/CreateSelectionFromSelection
 
 Creates a new selection based on selection members from an existing selection.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Creates a new selection based on selection members from an existing selection.
 ```http
 POST /api/v1/Agents/Selection/CreateSelectionFromSelection?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,9 +42,9 @@ POST /api/v1/Agents/Selection/CreateSelectionFromSelection?$select=name,departme
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-SelectionId, Name, TargetSelectionType, CopyMembers
+SelectionId, Name, TargetSelectionType, CopyMembers 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -46,16 +53,16 @@ SelectionId, Name, TargetSelectionType, CopyMembers
 | TargetSelectionType | string |  |
 | CopyMembers | bool |  |
 
-## Response: object
 
-Carrier object for SelectionEntity.
-Services for the SelectionEntity Carrier is available from the <see cref="T:SuperOffice.CRM.Services.ISelectionAgent">Selection Agent</see>.
+## Response: 
+
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -64,7 +71,7 @@ Response body: object
 | Associate |  | Owner of the selection |
 | CreatedBy |  | Who created the selection |
 | UpdatedBy |  | Who last modified the selection |
-| SelectionCategory |  | Selection category type (list item)  <br />Use MDO List name "searchCat" to get list items. |
+| SelectionCategory |  | Selection category type (list item)  <para>Use MDO List name "searchCat" to get list items.</para> |
 | GroupIdx | int32 | Original primary user group of associate |
 | IncludePerson | int32 | 0 = Include first person, 1 = Include all persons, 2 = Include no persons |
 | MemberCount | int32 | How many selectionmembers (for progress bar calculations) - estimate, -1 (or 4294967295) means we don't know |
@@ -103,249 +110,104 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Selection/CreateSelectionFromSelection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 83,
-  "Name": "Altenwerth Inc and Sons",
+  "SelectionId": 605,
+  "Name": "Leuschke-Barton",
   "TargetSelectionType": "Combined",
-  "CopyMembers": true
+  "CopyMembers": false
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Ergonomic well-modulated adapter",
-  "Postit": "perferendis",
-  "Associate": {
-    "AssociateId": 96,
-    "Name": "Goyette-Prohaska",
-    "PersonId": 738,
-    "Rank": 579,
-    "Tooltip": "et",
-    "Type": "AnonymousAssociate",
-    "GroupIdx": 919,
-    "FullName": "Mrs. Jaylen Zieme",
-    "FormalName": "Wiegand LLC",
-    "Deleted": true,
-    "EjUserId": 642,
-    "UserName": "Haley-Lesch",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 469
-      }
-    }
-  },
-  "CreatedBy": {
-    "AssociateId": 858,
-    "Name": "Reynolds-Kerluke",
-    "PersonId": 31,
-    "Rank": 12,
-    "Tooltip": "dolor",
-    "Type": "AnonymousAssociate",
-    "GroupIdx": 966,
-    "FullName": "Santina Wolf",
-    "FormalName": "Smith Inc and Sons",
-    "Deleted": true,
-    "EjUserId": 271,
-    "UserName": "Bednar, Leffler and Bashirian",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 848
-      }
-    }
-  },
-  "UpdatedBy": {
-    "AssociateId": 382,
-    "Name": "Predovic LLC",
-    "PersonId": 52,
-    "Rank": 535,
-    "Tooltip": "enim",
-    "Type": "AnonymousAssociate",
-    "GroupIdx": 806,
-    "FullName": "Mrs. Shyanne Bartoletti",
-    "FormalName": "Gutmann-Daugherty",
-    "Deleted": true,
-    "EjUserId": 97,
-    "UserName": "Considine, Kuphal and Langworth",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.Int32",
-        "FieldLength": 974
-      }
-    }
-  },
-  "SelectionCategory": {
-    "Id": 882,
-    "Value": "illum",
-    "Tooltip": "eos",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 564
-      }
-    }
-  },
-  "GroupIdx": 482,
-  "IncludePerson": 261,
-  "MemberCount": 916,
-  "Name": "Braun Group",
-  "PostitTextId": 421,
-  "CreatedDate": "2021-01-14T18:28:50.1944476+01:00",
-  "SelectionId": 137,
-  "SoundEx": "vel",
-  "Source": 745,
-  "TextId": 602,
-  "UpdatedDate": "2015-10-09T18:28:50.1944476+02:00",
-  "UpdatedCount": 860,
-  "Visibility": 301,
+  "Description": "Sharable system-worthy task-force",
+  "Postit": "fugiat",
+  "Associate": null,
+  "CreatedBy": null,
+  "UpdatedBy": null,
+  "SelectionCategory": null,
+  "GroupIdx": 447,
+  "IncludePerson": 471,
+  "MemberCount": 387,
+  "Name": "Rice, Dietrich and Mitchell",
+  "PostitTextId": 488,
+  "CreatedDate": "2018-03-07T11:10:27.9440022+01:00",
+  "SelectionId": 975,
+  "SoundEx": "odit",
+  "Source": 6,
+  "TextId": 420,
+  "UpdatedDate": "1998-06-08T11:10:27.9440022+02:00",
+  "UpdatedCount": 566,
+  "Visibility": 381,
   "SelectionType": "Combined",
-  "CompanyUnique": false,
-  "TargetTableNumber": 705,
-  "TargetTableName": "Rice, McCullough and Boyle",
+  "CompanyUnique": true,
+  "TargetTableNumber": 704,
+  "TargetTableName": "Volkman LLC",
   "Completed": false,
-  "LeftSelectionId": 563,
-  "RightSelectionId": 885,
+  "LeftSelectionId": 952,
+  "RightSelectionId": 446,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Schmitt, DuBuque and McDermott",
-  "ShadowProviderName": "Jacobson, Toy and Senger",
-  "ChartKey": "neque",
-  "LastLoaded": "2000-09-03T18:28:50.1944476+02:00",
-  "LastLoadedBy": 592,
-  "LastLoadedByAssociate": {
-    "AssociateId": 439,
-    "Name": "Kshlerin Group",
-    "PersonId": 722,
-    "Rank": 790,
-    "Tooltip": "minima",
-    "Type": "AnonymousAssociate",
-    "GroupIdx": 962,
-    "FullName": "Arnoldo Runte",
-    "FormalName": "Rohan-Shields",
-    "Deleted": false,
-    "EjUserId": 162,
-    "UserName": "Rosenbaum Inc and Sons",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.Int32",
-        "FieldLength": 932
-      }
-    }
-  },
-  "LastMembershipChange": "2017-09-09T18:28:50.1944476+02:00",
-  "LastMembershipChangeBy": 677,
-  "LastMembershipChangeByAssociate": {
-    "AssociateId": 341,
-    "Name": "Jacobi, Wehner and Collins",
-    "PersonId": 4,
-    "Rank": 397,
-    "Tooltip": "quibusdam",
-    "Type": "AnonymousAssociate",
-    "GroupIdx": 604,
-    "FullName": "Aubrey Harris",
-    "FormalName": "Morar-Weimann",
-    "Deleted": true,
-    "EjUserId": 123,
-    "UserName": "Fahey, O'Hara and Bergnaum",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.Int32",
-        "FieldLength": 18
-      }
-    }
-  },
-  "MainHeading": "veritatis",
-  "MemberTabHeading": "aliquam",
-  "MailingsProviderName": "Mann Inc and Sons",
-  "DashboardTileDefinitionId": 891,
+  "MainProviderName": "Jakubowski Inc and Sons",
+  "ShadowProviderName": "Hagenes-Roberts",
+  "ChartKey": "nobis",
+  "LastLoaded": "2001-06-08T11:10:27.9440022+02:00",
+  "LastLoadedBy": 767,
+  "LastLoadedByAssociate": null,
+  "LastMembershipChange": "2010-11-18T11:10:27.9440022+01:00",
+  "LastMembershipChangeBy": 386,
+  "LastMembershipChangeByAssociate": null,
+  "MainHeading": "ipsa",
+  "MemberTabHeading": "nam",
+  "MailingsProviderName": "Kuphal LLC",
+  "DashboardTileDefinitionId": 215,
   "VisibleFor": [
     {
-      "VisibleId": 572,
+      "VisibleId": 584,
       "Visibility": "All",
-      "DisplayValue": "error",
-      "TableRight": {},
+      "DisplayValue": "maiores",
+      "TableRight": null,
       "FieldProperties": {
         "fieldName": {
-          "FieldRight": {
-            "Mask": "FULL",
-            "Reason": ""
-          },
+          "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 953
+          "FieldLength": 243
         }
       }
     },
     {
-      "VisibleId": 572,
+      "VisibleId": 584,
       "Visibility": "All",
-      "DisplayValue": "error",
-      "TableRight": {},
+      "DisplayValue": "maiores",
+      "TableRight": null,
       "FieldProperties": {
         "fieldName": {
-          "FieldRight": {
-            "Mask": "FULL",
-            "Reason": ""
-          },
+          "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 953
+          "FieldLength": 243
         }
       }
     }
   ],
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
+      "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 620
+      "FieldLength": 836
     }
   }
 }

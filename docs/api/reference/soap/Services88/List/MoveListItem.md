@@ -17,6 +17,8 @@ Move a list item up or down in the list based on rank
 * **listItemId:** Id of the list item
 * **direction:** -1 moves the item up one position, 1 moves the item down one position
 
+
+
 [WSDL file for Services88/List](../Services88-List.md)
 
 Obtain a ticket from the [Services88/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -51,6 +53,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## MoveListItem Response
 
 ```xml
@@ -70,3 +73,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

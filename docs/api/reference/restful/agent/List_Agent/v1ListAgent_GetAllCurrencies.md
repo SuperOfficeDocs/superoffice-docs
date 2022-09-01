@@ -1,6 +1,6 @@
 ---
 title: POST Agents/List/GetAllCurrencies
-id: v1ListAgent_GetAllCurrencies
+uid: v1ListAgent_GetAllCurrencies
 ---
 
 # POST Agents/List/GetAllCurrencies
@@ -11,6 +11,12 @@ POST /api/v1/Agents/List/GetAllCurrencies
 
 Returns all currencies
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Returns all currencies
 ```http
 POST /api/v1/Agents/List/GetAllCurrencies?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,15 +42,18 @@ POST /api/v1/Agents/List/GetAllCurrencies?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-IncludeDeleted
+IncludeDeleted 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | IncludeDeleted | bool |  |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -63,19 +73,21 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/List/GetAllCurrencies
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "IncludeDeleted": false
+  "IncludeDeleted": true
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -83,25 +95,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "CurrencyId": 468,
-    "Name": "Harris, Bruen and Nitzsche",
-    "Tooltip": "nisi",
-    "Rank": 664,
-    "Rate": 24109.862,
-    "Units": 21148.232,
-    "Deleted": false,
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": "transform extensible e-services"
-    },
+    "CurrencyId": 217,
+    "Name": "Stamm-Marvin",
+    "Tooltip": "enim",
+    "Rank": 528,
+    "Rate": 19944.775999999998,
+    "Units": 4306.116,
+    "Deleted": true,
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": "brand best-of-breed supply-chains"
-        },
-        "FieldType": "System.Int32",
-        "FieldLength": 108
+        "FieldRight": null,
+        "FieldType": "System.String",
+        "FieldLength": 881
       }
     }
   }

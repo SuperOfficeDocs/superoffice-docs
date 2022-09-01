@@ -1,6 +1,6 @@
 ---
 title: PUT List/ProductCategory/Headings
-id: v1ProductCategoryList_PutProductCategoryHeadings
+uid: v1ProductCategoryList_PutProductCategoryHeadings
 ---
 
 # PUT List/ProductCategory/Headings
@@ -11,7 +11,14 @@ PUT /api/v1/List/ProductCategory/Headings
 
 Saves headings for the ProductCategory list.
 
+
 Calls the List agent service SaveHeadingsFromListDefinition.
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -27,9 +34,9 @@ Calls the List agent service SaveHeadingsFromListDefinition.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entities
+## Request Body: entities  
 
-The headings to be saved.
+The headings to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -40,7 +47,10 @@ The headings to be saved.
 | Rank | int32 | Rank order |
 | UdListDefinitionId | int32 | The id of the list which this heading belongs to |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -59,34 +69,36 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 PUT /api/v1/List/ProductCategory/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 781,
-    "Name": "Hagenes Group",
-    "Tooltip": "praesentium",
+    "HeadingId": 585,
+    "Name": "Mohr-Monahan",
+    "Tooltip": "deleniti",
     "Deleted": false,
-    "Rank": 507,
-    "UdListDefinitionId": 793
+    "Rank": 597,
+    "UdListDefinitionId": 24
   },
   {
-    "HeadingId": 781,
-    "Name": "Hagenes Group",
-    "Tooltip": "praesentium",
+    "HeadingId": 585,
+    "Name": "Mohr-Monahan",
+    "Tooltip": "deleniti",
     "Deleted": false,
-    "Rank": 507,
-    "UdListDefinitionId": 793
+    "Rank": 597,
+    "UdListDefinitionId": 24
   }
 ]
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -94,24 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 399,
-    "Name": "Larkin, White and Kiehn",
-    "Tooltip": "culpa",
+    "HeadingId": 988,
+    "Name": "Larkin-Connelly",
+    "Tooltip": "libero",
     "Deleted": true,
-    "Rank": 72,
-    "UdListDefinitionId": 234,
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "Rank": 702,
+    "UdListDefinitionId": 529,
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
+        "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 505
+        "FieldLength": 910
       }
     }
   }

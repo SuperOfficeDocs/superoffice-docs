@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Audience/GetDefaultCountryFlag
-id: v1AudienceAgent_GetDefaultCountryFlag
+uid: v1AudienceAgent_GetDefaultCountryFlag
 ---
 
 # POST Agents/Audience/GetDefaultCountryFlag
@@ -11,7 +11,13 @@ POST /api/v1/Agents/Audience/GetDefaultCountryFlag
 
 Returns the default country flag image that is displayed in Audience when no person image is found.
 
+
 The image belongs to a specific Audience layout instance.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +28,7 @@ The image belongs to a specific Audience layout instance.
 ```http
 POST /api/v1/Agents/Audience/GetDefaultCountryFlag?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,39 +44,45 @@ POST /api/v1/Agents/Audience/GetDefaultCountryFlag?$select=name,department,categ
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-LayoutName
+LayoutName 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | LayoutName | string |  |
 
-## Response
+
+## Response: byte
+
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: byte
 
-## Sample Request
+
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Audience/GetDefaultCountryFlag
 Authorization: Basic dGplMDpUamUw
-Accept: binary/octet-stream
-Accept-Language: *
+Accept: application/json; charset=utf-8
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "LayoutName": "Douglas Group"
+  "LayoutName": "Pollich, Gaylord and Johnston"
 }
 ```
 
+## Sample response
+
 ```http_
 HTTP/1.1 200 OK
-Content-Type: binary/octet-stream
+Content-Type: application/json; charset=utf-8
 
-GIF89....File contents as raw bytes...
+"GIF89....File contents as raw bytes..."
 ```

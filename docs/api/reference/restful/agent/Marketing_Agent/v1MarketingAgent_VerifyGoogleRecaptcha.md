@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Marketing/VerifyGoogleRecaptcha
-id: v1MarketingAgent_VerifyGoogleRecaptcha
+uid: v1MarketingAgent_VerifyGoogleRecaptcha
 ---
 
 # POST Agents/Marketing/VerifyGoogleRecaptcha
@@ -11,7 +11,13 @@ POST /api/v1/Agents/Marketing/VerifyGoogleRecaptcha
 
 This method will try to verify a Google recaptcha token.
 
+
 The token is gained from the recaptcha frontend component
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +28,7 @@ The token is gained from the recaptcha frontend component
 ```http
 POST /api/v1/Agents/Marketing/VerifyGoogleRecaptcha?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,16 +44,19 @@ POST /api/v1/Agents/Marketing/VerifyGoogleRecaptcha?$select=name,department,cate
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-Token, OptionalSecretKey
+Token, OptionalSecretKey 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | Token | string |  |
 | OptionalSecretKey | string |  |
 
+
 ## Response: bool
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -54,7 +64,8 @@ Token, OptionalSecretKey
 
 Response body: bool
 
-## Sample Request
+
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Marketing/VerifyGoogleRecaptcha
@@ -64,14 +75,16 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Token": "quibusdam",
-  "OptionalSecretKey": "cumque"
+  "Token": "est",
+  "OptionalSecretKey": "harum"
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-true
+false
 ```

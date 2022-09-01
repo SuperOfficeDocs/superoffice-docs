@@ -21,6 +21,7 @@ Save an array of restrictions for later use as search criteria (including as dyn
 
 **Returns:** The result contains the restrictions in two forms: fully populated ArchiveRestrictionInfo objects, used to display details and for saving changes; and as a list suitable for an Archive control
 
+
 [WSDL file for Services88/Find](../Services88-Find.md)
 
 Obtain a ticket from the [Services88/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -133,6 +134,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+
 
 ## SaveRestrictionsAndGetCriteriaInformation Response
 
@@ -318,3 +320,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

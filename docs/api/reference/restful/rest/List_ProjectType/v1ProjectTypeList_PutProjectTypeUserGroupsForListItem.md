@@ -1,6 +1,6 @@
 ---
 title: PUT List/ProjectType/Items/{id}/UserGroups
-id: v1ProjectTypeList_PutProjectTypeUserGroupsForListItem
+uid: v1ProjectTypeList_PutProjectTypeUserGroupsForListItem
 ---
 
 # PUT List/ProjectType/Items/{id}/UserGroups
@@ -11,11 +11,18 @@ PUT /api/v1/List/ProjectType/Items/{itemId}/UserGroups
 
 Saves user groups visible for the ProjectType list's item.
 
+
 Calls the List agent service SaveHeadingsForListItemFromListDefinition.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | itemId | int32 | The ID of the item to save. **Required** |
+
+
 
 ## Request Headers
 
@@ -31,9 +38,9 @@ Calls the List agent service SaveHeadingsForListItemFromListDefinition.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entities
+## Request Body: entities  
 
-The headings to be saved.
+The headings to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -53,7 +60,10 @@ The headings to be saved.
 | Hidden | bool | True if the ListItem is hidden |
 | FullName | string | The name of the ListItem in its context |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -81,56 +91,58 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 PUT /api/v1/List/ProjectType/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 218,
-    "Name": "Crist-Stanton",
-    "ToolTip": "Totam nihil cumque consectetur repellat.",
-    "Deleted": true,
-    "Rank": 871,
-    "Type": "quasi",
-    "ColorBlock": 281,
-    "IconHint": "qui",
-    "Selected": true,
-    "LastChanged": "2012-08-21T18:25:52.1040218+02:00",
+    "Id": 279,
+    "Name": "McGlynn-Spinka",
+    "ToolTip": "Voluptatum eligendi.",
+    "Deleted": false,
+    "Rank": 384,
+    "Type": "nihil",
+    "ColorBlock": 215,
+    "IconHint": "eius",
+    "Selected": false,
+    "LastChanged": "2016-10-10T11:10:54.4869298+02:00",
     "ChildItems": [
       {
-        "Id": 948,
-        "Name": "Kuhn Group",
-        "ToolTip": "Autem esse sunt laudantium est nulla.",
+        "Id": 851,
+        "Name": "Skiles, Gislason and Considine",
+        "ToolTip": "Quia ea id possimus.",
         "Deleted": false,
-        "Rank": 450,
-        "Type": "veritatis",
-        "ColorBlock": 880,
-        "IconHint": "est",
-        "Selected": true,
-        "LastChanged": "2000-12-13T18:25:52.1040218+01:00",
+        "Rank": 356,
+        "Type": "ea",
+        "ColorBlock": 79,
+        "IconHint": "minima",
+        "Selected": false,
+        "LastChanged": "2004-12-16T11:10:54.4869298+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "dignissimos",
-        "StyleHint": "nesciunt",
-        "Hidden": true,
-        "FullName": "Cordie Ledner"
+        "ExtraInfo": "aut",
+        "StyleHint": "reprehenderit",
+        "Hidden": false,
+        "FullName": "Keaton Kemmer"
       }
     ],
-    "ExtraInfo": "sapiente",
-    "StyleHint": "iusto",
+    "ExtraInfo": "quos",
+    "StyleHint": "nulla",
     "Hidden": false,
-    "FullName": "Deondre Gerhold"
+    "FullName": "Dr. Beryl Gusikowski III"
   }
 ]
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -138,65 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 362,
-    "Name": "Lindgren Group",
-    "ToolTip": "Voluptatem beatae.",
+    "Id": 367,
+    "Name": "Harber-Zulauf",
+    "ToolTip": "Qui necessitatibus accusamus dolores dignissimos illum aspernatur.",
     "Deleted": false,
-    "Rank": 462,
-    "Type": "aliquid",
-    "ColorBlock": 24,
-    "IconHint": "earum",
+    "Rank": 254,
+    "Type": "omnis",
+    "ColorBlock": 315,
+    "IconHint": "possimus",
     "Selected": false,
-    "LastChanged": "2004-08-30T18:25:52.1060209+02:00",
+    "LastChanged": "2009-08-29T11:10:54.48993+02:00",
     "ChildItems": [
       {
-        "Id": 38,
-        "Name": "Towne-Paucek",
-        "ToolTip": "Placeat ad rerum rem maxime accusantium.",
+        "Id": 230,
+        "Name": "Gusikowski-Block",
+        "ToolTip": "Rem enim qui impedit tempore consectetur eum hic.",
         "Deleted": false,
-        "Rank": 876,
-        "Type": "nesciunt",
-        "ColorBlock": 897,
-        "IconHint": "commodi",
+        "Rank": 77,
+        "Type": "atque",
+        "ColorBlock": 542,
+        "IconHint": "repudiandae",
         "Selected": true,
-        "LastChanged": "2006-05-06T18:25:52.1060209+02:00",
+        "LastChanged": "2019-08-31T11:10:54.48993+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "esse",
-        "StyleHint": "qui",
+        "ExtraInfo": "nesciunt",
+        "StyleHint": "nemo",
         "Hidden": true,
-        "FullName": "Reynold Ankunding",
-        "TableRight": {},
+        "FullName": "Santiago Eliseo Kiehn PhD",
+        "TableRight": null,
         "FieldProperties": {
           "fieldName": {
-            "FieldRight": {
-              "Mask": "FULL",
-              "Reason": ""
-            },
+            "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 517
+            "FieldLength": 357
           }
         }
       }
     ],
-    "ExtraInfo": "nemo",
-    "StyleHint": "facere",
-    "Hidden": true,
-    "FullName": "Donato Monahan PhD",
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "ExtraInfo": "dolore",
+    "StyleHint": "laboriosam",
+    "Hidden": false,
+    "FullName": "Mr. Golda Altenwerth",
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
+        "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 653
+        "FieldLength": 667
       }
     }
   }

@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Chat/GetChatTranscript
-id: v1ChatAgent_GetChatTranscript
+uid: v1ChatAgent_GetChatTranscript
 ---
 
 # POST Agents/Chat/GetChatTranscript
@@ -11,6 +11,12 @@ POST /api/v1/Agents/Chat/GetChatTranscript
 
 Get the chat transcript, formatted as plain text or html
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Get the chat transcript, formatted as plain text or html
 ```http
 POST /api/v1/Agents/Chat/GetChatTranscript?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,16 +42,19 @@ POST /api/v1/Agents/Chat/GetChatTranscript?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-ChatSessionId, Html
+ChatSessionId, Html 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | ChatSessionId | int32 |  |
 | Html | bool |  |
 
+
 ## Response: string
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -52,24 +62,27 @@ ChatSessionId, Html
 
 Response body: string
 
-## Sample Request
+
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Chat/GetChatTranscript
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 965,
-  "Html": true
+  "ChatSessionId": 693,
+  "Html": false
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"impedit"
+"sint"
 ```

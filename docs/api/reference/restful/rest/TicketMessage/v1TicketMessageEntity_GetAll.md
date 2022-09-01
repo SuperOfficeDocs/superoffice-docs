@@ -1,6 +1,6 @@
 ---
 title: GET TicketMessage
-id: v1TicketMessageEntity_GetAll
+uid: v1TicketMessageEntity_GetAll
 ---
 
 # GET TicketMessage
@@ -11,6 +11,7 @@ GET /api/v1/TicketMessage
 
 OData list of all TicketMessageEntity.
 
+
 Can be sorted and further filtered using OData conventions:
 
 * TicketMessage?$select=col1,col2,abc/col3
@@ -19,25 +20,34 @@ Can be sorted and further filtered using OData conventions:
 * TicketMessage?$top=1000
 * TicketMessage?$mode=full
 
+
 OData returns XML or JSON carriers depending on the Accept headers.
+
 
 Calls the Archive service using the "TicketMessage" archive.
 
-## Filter Operators
+
+## Filter Operators: ##
 
 ints: eq =, ne, le, lt, gt, ge, set, equals, greater, less, unequals, between
 
 strings: contains, is, notBegins, notContains, isNot
 
-associate: associateIsOneOf, associateIsNotOneOf,
+associate: associateIsOneOf, associateIsNotOneOf,  
 
-list ids: oneOf, NotOneOf,
+list ids: oneOf, NotOneOf, 
 
 dates: before, date, after, dateBetween, beforeToday
 
 Unary ops: currentAssociate, beforeToday, today, afterToday, lastWeek, thisWeek, nextWeek, lastMonth, thisMonth, nextMonth, lastQuarter, thisQuarter, nextQuarter, thisHalf, thisYear
 
 Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,n,period), previous(f,n,period), thisAndNext(f,n,period), thisAndPrevious(f,n,period), thisAndPreviousAndNext(f,period)
+
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -60,16 +70,17 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 GET /api/v1/TicketMessage?$select=name,department,category/id
 GET /api/v1/TicketMessage?$filter=name begins 'S'
 GET /api/v1/TicketMessage?$orderBy=name asc
-GET /api/v1/TicketMessage?$entities=deserunt
-GET /api/v1/TicketMessage?$top=336
-GET /api/v1/TicketMessage?$skip=86
+GET /api/v1/TicketMessage?$entities=nemo
+GET /api/v1/TicketMessage?$top=269
+GET /api/v1/TicketMessage?$skip=65
 GET /api/v1/TicketMessage?$mode=Full
 GET /api/v1/TicketMessage?$options=GrandTotal=true
-GET /api/v1/TicketMessage?$context=est
+GET /api/v1/TicketMessage?$context=asperiores
 GET /api/v1/TicketMessage?$format=JSON
-GET /api/v1/TicketMessage?$jsonSafe=True
+GET /api/v1/TicketMessage?$jsonSafe=False
 GET /api/v1/TicketMessage?$output=Display
 ```
+
 
 ## Request Headers
 
@@ -84,15 +95,16 @@ GET /api/v1/TicketMessage?$output=Display
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response: object
 
-Easy to use archive results - just a flat list of values.
+## Response: 
+
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -100,7 +112,7 @@ Response body: object
 | odata.nextLink | string |  |
 | value | array |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 GET /api/v1/TicketMessage
@@ -109,27 +121,27 @@ Accept: application/json; charset=utf-8
 Accept-Language: en
 ```
 
+## Sample response
+
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "blanditiis",
+  "odata.nextLink": "sapiente",
   "value": [
     {
-      "PrimaryKey": 6977,
-      "EntityName": "sale",
-      "saleId": 6977,
-      "contactId": 1233,
-      "name": "Orn Group"
+      "PrimaryKey": 8742,
+      "EntityName": "person",
+      "personId": 8742,
+      "fullName": "Beau O'Kon"
     },
     {
-      "PrimaryKey": 4565,
-      "EntityName": "sale",
-      "saleId": 4565,
-      "contactId": 6080,
-      "name": "Klein Group"
+      "PrimaryKey": 4521,
+      "EntityName": "person",
+      "personId": 4521,
+      "fullName": "Dr. Aleen Charity Johns"
     }
   ]
 }

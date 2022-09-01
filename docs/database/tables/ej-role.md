@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "ej_role"
-so.date: 04.12.2022
+so.date: 08.26.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -29,6 +29,7 @@ Define access rights, memberships and other properties for role user members
 |access\_values|Access values for users using this role|Int|&#x25CF;|
 |use\_categories|Override user categories with role categories|Bool|&#x25CF;|
 
+
 ![ej_role table relationship diagram](./media/ej_role.png)
 
 [!include[details](./includes/ej-role.md)]
@@ -50,6 +51,7 @@ Define access rights, memberships and other properties for role user members
 |[role\_member](role-member.md)  |Users linked to a role. Deprecated. |
 |[role\_workflow](role-workflow.md)  |Knowledge base workflow access rights associated with a role |
 
+
 ## Replication Flags
 
 * None
@@ -57,3 +59,4 @@ Define access rights, memberships and other properties for role user members
 ## Security Flags
 
 * No access control via user's Role.
+

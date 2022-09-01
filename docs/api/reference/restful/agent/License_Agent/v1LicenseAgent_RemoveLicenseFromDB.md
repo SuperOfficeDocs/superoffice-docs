@@ -1,6 +1,6 @@
 ---
 title: POST Agents/License/RemoveLicenseFromDB
-id: v1LicenseAgent_RemoveLicenseFromDB
+uid: v1LicenseAgent_RemoveLicenseFromDB
 ---
 
 # POST Agents/License/RemoveLicenseFromDB
@@ -11,7 +11,13 @@ POST /api/v1/Agents/License/RemoveLicenseFromDB
 
 Remove the license from a particular module owner from the database.
 
+
 It is not permitted to remove licenses from SuperOffice
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +28,7 @@ It is not permitted to remove licenses from SuperOffice
 ```http
 POST /api/v1/Agents/License/RemoveLicenseFromDB?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,24 +44,24 @@ POST /api/v1/Agents/License/RemoveLicenseFromDB?$select=name,department,category
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-ModuleOwner
+ModuleOwner 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | ModuleOwner | string |  |
 
-## Response: object
 
-Carrier object for LicenseResult.
-Services for the LicenseResult Carrier is available from the <see cref="T:SuperOffice.CRM.Services.ILicenseAgent">License Agent</see>.
+## Response: 
+
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -63,7 +70,7 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/License/RemoveLicenseFromDB
@@ -73,9 +80,11 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ModuleOwner": "quam"
+  "ModuleOwner": "eveniet"
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -84,18 +93,12 @@ Content-Type: application/json; charset=utf-8
 {
   "Succeeded": true,
   "Reason": "",
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
+      "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 839
+      "FieldLength": 588
     }
   }
 }

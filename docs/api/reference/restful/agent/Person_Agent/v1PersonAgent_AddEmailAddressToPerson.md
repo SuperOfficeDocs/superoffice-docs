@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Person/AddEmailAddressToPerson
-id: v1PersonAgent_AddEmailAddressToPerson
+uid: v1PersonAgent_AddEmailAddressToPerson
 ---
 
 # POST Agents/Person/AddEmailAddressToPerson
@@ -10,6 +10,12 @@ POST /api/v1/Agents/Person/AddEmailAddressToPerson
 ```
 
 Sets the primary email address on person, possibly re-ranking email addresses accordingly.
+
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -21,6 +27,7 @@ Sets the primary email address on person, possibly re-ranking email addresses ac
 POST /api/v1/Agents/Person/AddEmailAddressToPerson?$select=name,department,category/id
 ```
 
+
 ## Request Headers
 
 | Parameter Name | Description |
@@ -28,11 +35,12 @@ POST /api/v1/Agents/Person/AddEmailAddressToPerson?$select=name,department,categ
 | Authorization  | Supports 'Basic', 'SoTicket' and 'Bearer' schemes, depending on installation type. |
 | X-XSRF-TOKEN   | If not using Authorization header, you must provide XSRF value from cookie or hidden input field |
 | Content-Type | Content-type of the request body: `application/json`, `text/json`, `application/xml`, `text/xml`, `application/x-www-form-urlencoded`, `application/json-patch+json`, `application/merge-patch+json` |
+| Accept         | Content-type(s) you would like the response in:  |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-PersonId, EmailAddress, SetAsPrimaryEmail
+PersonId, EmailAddress, SetAsPrimaryEmail 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -40,8 +48,39 @@ PersonId, EmailAddress, SetAsPrimaryEmail
 | EmailAddress | string |  |
 | SetAsPrimaryEmail | bool |  |
 
-## Response
+
+## Response: 
+
+No Content
 
 | Response | Description |
 |----------------|-------------|
 | 204 | No Content |
+
+Response body: 
+
+
+## Sample request
+
+```http!
+POST /api/v1/Agents/Person/AddEmailAddressToPerson
+Authorization: Basic dGplMDpUamUw
+Accept: application/json; charset=utf-8
+Accept-Language: *
+Content-Type: application/json; charset=utf-8
+
+{
+  "PersonId": 627,
+  "EmailAddress": "sigurd_bradtke@baumbachkuphal.name",
+  "SetAsPrimaryEmail": false
+}
+```
+
+## Sample response
+
+```http_
+HTTP/1.1 204 No Content
+Content-Type: application/json; charset=utf-8
+
+null
+```

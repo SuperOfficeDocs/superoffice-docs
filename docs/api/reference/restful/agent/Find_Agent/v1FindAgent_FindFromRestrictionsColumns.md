@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Find/FindFromRestrictionsColumns
-id: v1FindAgent_FindFromRestrictionsColumns
+uid: v1FindAgent_FindFromRestrictionsColumns
 ---
 
 # POST Agents/Find/FindFromRestrictionsColumns
@@ -11,17 +11,39 @@ POST /api/v1/Agents/Find/FindFromRestrictionsColumns
 
 Execute a Find operation and return a page of results.
 
-&lt;para/&gt;The criteria for the Find are passed in directly, not fetched by a restriction storage provider. &lt;para/&gt;The desired columns of the result set are also passed in directly.&lt;para/&gt;The orderby information is calculated by the system.&lt;para/&gt;Use the GetCriteriaInformation and GetDefaultDesiredColumns service methods to let the system calculate these values, if you want to use or modify them.
+
+&lt;para/&gt;The criteria for the Find are passed in directly, not fetched by a restriction storage provider. &lt;para/&gt;The desired columns of the result set are also passed in directly.&lt;para/&gt;The orderby information is calculated by the system.&lt;para/&gt;Use the GetCriteriaInformation and GetDefaultDesiredColumns service methods to let the system calculate these values, if you want to use or modify them. 
 Archive Restriction Info objects represent search terms.
 
+
 Column names and operator strings are defined elsewhere.
+
 
 Values should be encoded using the CultureDataFormatter, so 10 is "[I:10]".
 Default string encodings should be handled ok, but beware of non-invariant cultures leading to incorrect date and float parsing.
 
-```csharp
-var restriction1 = new ArchiveRestrictionInfo("category", "equals", "[I:10]");
+
+
+
+
+
 ```
+
+var restriction1 = new ArchiveRestrictionInfo("category", "equals", "[I:10]");
+
+```
+
+
+
+
+
+
+
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -32,6 +54,7 @@ var restriction1 = new ArchiveRestrictionInfo("category", "equals", "[I:10]");
 ```http
 POST /api/v1/Agents/Find/FindFromRestrictionsColumns?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -47,9 +70,9 @@ POST /api/v1/Agents/Find/FindFromRestrictionsColumns?$select=name,department,cat
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-Restrictions, ProviderName, DesiredColumns, PageSize, PageNumber
+Restrictions, ProviderName, DesiredColumns, PageSize, PageNumber 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -59,18 +82,16 @@ Restrictions, ProviderName, DesiredColumns, PageSize, PageNumber
 | PageSize | int32 |  |
 | PageNumber | int32 |  |
 
-## Response: object
 
-Result carrier for the Find operation. It contains a set of column specifications, and a set of row, where each row contains the columns. The row set is the result of carrying out some search operation.
+## Response: 
 
-Carrier object for FindResults.
-Services for the FindResults Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IFindAgent">Find Agent</see>.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -80,7 +101,7 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Find/FindFromRestrictionsColumns
@@ -92,36 +113,38 @@ Content-Type: application/json; charset=utf-8
 {
   "Restrictions": [
     {
-      "Name": "Davis-Purdy",
-      "Operator": "earum",
+      "Name": "Quitzon-Nikolaus",
+      "Operator": "placeat",
       "Values": [
-        "ut",
-        "veniam"
+        "unde",
+        "consequatur"
       ],
       "DisplayValues": [
-        "dolorum",
-        "quis"
+        "qui",
+        "architecto"
       ],
-      "ColumnInfo": {},
-      "IsActive": true,
+      "ColumnInfo": null,
+      "IsActive": false,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 180,
+      "InterParenthesis": 368,
       "InterOperator": "And",
-      "UniqueHash": 996
+      "UniqueHash": 932
     }
   ],
-  "ProviderName": "Halvorson-Kreiger",
+  "ProviderName": "Balistreri, Miller and Kris",
   "DesiredColumns": [
-    "ducimus",
-    "velit"
+    "quasi",
+    "saepe"
   ],
-  "PageSize": 581,
-  "PageNumber": 837
+  "PageSize": 928,
+  "PageNumber": 446
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -130,60 +153,51 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumns": [
     {
-      "DisplayName": "Schoen, Kris and Hyatt",
-      "DisplayTooltip": "quasi",
-      "DisplayType": "aut",
-      "CanOrderBy": false,
-      "Name": "Weber-Wiegand",
-      "CanRestrictBy": false,
-      "RestrictionType": "eaque",
-      "RestrictionListName": "Schaden, Rau and Stanton",
-      "IsVisible": true,
-      "ExtraInfo": "harum",
-      "Width": "voluptatem",
-      "IconHint": "numquam",
-      "HeadingIconHint": "magnam"
+      "DisplayName": "Gottlieb-Orn",
+      "DisplayTooltip": "delectus",
+      "DisplayType": "nihil",
+      "CanOrderBy": true,
+      "Name": "Gerhold, Davis and Goldner",
+      "CanRestrictBy": true,
+      "RestrictionType": "quaerat",
+      "RestrictionListName": "Rogahn, Block and D'Amore",
+      "IsVisible": false,
+      "ExtraInfo": "quia",
+      "Width": "id",
+      "IconHint": "quod",
+      "HeadingIconHint": "pariatur"
     }
   ],
   "ArchiveRows": [
     {
-      "EntityName": "Gibson, Padberg and Smith",
-      "PrimaryKey": 26,
+      "EntityName": "Glover-Cummings",
+      "PrimaryKey": 315,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "corporis",
-          "TooltipHint": "fuga",
-          "LinkHint": "fugiat"
+          "DisplayValue": "cum",
+          "TooltipHint": "et",
+          "LinkHint": "qui"
         }
       },
-      "LinkHint": "dolorem",
-      "StyleHint": "quasi",
-      "TableRight": {},
+      "LinkHint": "atque",
+      "StyleHint": "fuga",
+      "TableRight": null,
       "FieldProperties": {
         "fieldName": {
-          "FieldRight": {
-            "Mask": "FULL",
-            "Reason": ""
-          },
-          "FieldType": "System.Int32",
-          "FieldLength": 163
+          "FieldRight": null,
+          "FieldType": "System.String",
+          "FieldLength": 369
         }
       }
     }
   ],
-  "RowCount": 191,
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "RowCount": 158,
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
+      "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 760
+      "FieldLength": 991
     }
   }
 }

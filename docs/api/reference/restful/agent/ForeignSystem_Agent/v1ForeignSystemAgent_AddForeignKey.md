@@ -1,6 +1,6 @@
 ---
 title: POST Agents/ForeignSystem/AddForeignKey
-id: v1ForeignSystemAgent_AddForeignKey
+uid: v1ForeignSystemAgent_AddForeignKey
 ---
 
 # POST Agents/ForeignSystem/AddForeignKey
@@ -11,6 +11,12 @@ POST /api/v1/Agents/ForeignSystem/AddForeignKey
 
 Add a new key belonging to the ForeignApp and ForeignDevice specified.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Add a new key belonging to the ForeignApp and ForeignDevice specified.
 ```http
 POST /api/v1/Agents/ForeignSystem/AddForeignKey?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,9 +42,9 @@ POST /api/v1/Agents/ForeignSystem/AddForeignKey?$select=name,department,category
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-ForeignKey, ApplicationName, DeviceName, DeviceIdentifier
+ForeignKey, ApplicationName, DeviceName, DeviceIdentifier 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -46,16 +53,16 @@ ForeignKey, ApplicationName, DeviceName, DeviceIdentifier
 | DeviceName | string |  |
 | DeviceIdentifier | string |  |
 
-## Response: object
 
-Carrier object for ForeignKey.
-Services for the ForeignKey Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IForeignSystemAgent">ForeignSystem Agent</see>.
+## Response: 
+
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -70,7 +77,7 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/ForeignSystem/AddForeignKey
@@ -80,47 +87,34 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignKey": {
-    "Key": "accusamus",
-    "Value": "ipsa",
-    "RecordId": 721,
-    "CreatedDate": "2018-08-17T18:28:49.213087+02:00",
-    "UpdatedDate": "2009-05-05T18:28:49.213087+02:00",
-    "UpdatedBy": "et",
-    "CreatedBy": "et",
-    "TableName": "O'Hara-Kuhn"
-  },
-  "ApplicationName": "Hegmann, Marvin and Schamberger",
-  "DeviceName": "Fisher Group",
-  "DeviceIdentifier": "eveniet"
+  "ForeignKey": null,
+  "ApplicationName": "Oberbrunner, Blick and Larson",
+  "DeviceName": "Green LLC",
+  "DeviceIdentifier": "itaque"
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "eos",
-  "Value": "quas",
-  "RecordId": 640,
-  "CreatedDate": "2010-01-15T18:28:49.2141185+01:00",
-  "UpdatedDate": "2007-02-12T18:28:49.2141185+01:00",
-  "UpdatedBy": "ut",
-  "CreatedBy": "qui",
-  "TableName": "Torp Group",
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "Key": "officiis",
+  "Value": "aut",
+  "RecordId": 985,
+  "CreatedDate": "1997-05-02T11:10:27.084458+02:00",
+  "UpdatedDate": "2013-11-12T11:10:27.084458+01:00",
+  "UpdatedBy": "nihil",
+  "CreatedBy": "rem",
+  "TableName": "Labadie-Friesen",
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
+      "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 379
+      "FieldLength": 399
     }
   }
 }

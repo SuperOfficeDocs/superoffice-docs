@@ -8,16 +8,17 @@ title: Services88.PocketAgent WSDL
 
 ```xml
 <?xml version="1.0" encoding="utf-8"?>
-<wsdl:definitions name="WcfPocketService" targetNamespace="http://www.superoffice.net/ws/crm/NetServer/Services88" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:tns="http://www.superoffice.net/ws/crm/NetServer/Services88" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<wsdl:definitions name="WcfPocketService" targetNamespace="http://www.superoffice.net/ws/crm/NetServer/Services88" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tns="http://www.superoffice.net/ws/crm/NetServer/Services88" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing">
   <wsdl:types>
     <xs:schema elementFormDefault="qualified" targetNamespace="http://www.superoffice.net/ws/crm/NetServer/Services88" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:ser="http://schemas.microsoft.com/2003/10/Serialization/">
       <xs:import namespace="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
       <xs:import namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
-      <xs:element name="GetPocketStartupData">
+      <xs:element name="GetMyCallerIDs">
         <xs:complexType>
           <xs:sequence>
-            <xs:element minOccurs="0" name="Tables" nillable="true" type="q1:ArrayOfstring" xmlns:q1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
-            <xs:element minOccurs="0" name="CurrentClientTime" type="xs:dateTime" />
+            <xs:element minOccurs="0" name="LastHash" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="MinDate" type="xs:dateTime" />
+            <xs:element minOccurs="0" name="MaxDate" type="xs:dateTime" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
@@ -27,55 +28,161 @@ title: Services88.PocketAgent WSDL
           <xs:element minOccurs="0" name="Ticket" nillable="true" type="xs:string" />
         </xs:sequence>
       </xs:complexType>
-      <xs:element name="SoCredentials" nillable="true" type="q2:SoCredentials" xmlns:q2="http://www.superoffice.net/ws/crm/NetServer/Services88" />
-      <xs:element name="Credentials" nillable="true" type="q3:SoCredentials" xmlns:q3="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+      <xs:element name="SoCredentials" nillable="true" type="q1:SoCredentials" xmlns:q1="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+      <xs:element name="Credentials" nillable="true" type="q2:SoCredentials" xmlns:q2="http://www.superoffice.net/ws/crm/NetServer/Services88" />
       <xs:complexType name="SoTimeZone">
         <xs:sequence>
           <xs:element minOccurs="0" name="SoTimeZoneId" type="xs:int" />
           <xs:element minOccurs="0" name="SoTimeZoneLocationCode" nillable="true" type="xs:string" />
         </xs:sequence>
       </xs:complexType>
-      <xs:element name="SoTimeZone" nillable="true" type="q4:SoTimeZone" xmlns:q4="http://www.superoffice.net/ws/crm/NetServer/Services88" />
-      <xs:element name="TimeZone" nillable="true" type="q5:SoTimeZone" xmlns:q5="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+      <xs:element name="SoTimeZone" nillable="true" type="q3:SoTimeZone" xmlns:q3="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+      <xs:element name="TimeZone" nillable="true" type="q4:SoTimeZone" xmlns:q4="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+      <xs:element name="GetMyCallerIDsResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="Response" nillable="true" type="q5:CallerIDCollection" xmlns:q5="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:complexType name="CallerIDCollection">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="CallerIDHash" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="CallerIDs" nillable="true" type="q6:ArrayOfCallerID" xmlns:q6="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:element name="CallerIDCollection" nillable="true" type="q7:CallerIDCollection" xmlns:q7="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+      <xs:complexType name="ArrayOfCallerID">
+        <xs:sequence>
+          <xs:element minOccurs="0" maxOccurs="unbounded" name="CallerID" nillable="true" type="q8:CallerID" xmlns:q8="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:element name="ArrayOfCallerID" nillable="true" type="q9:ArrayOfCallerID" xmlns:q9="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+      <xs:complexType name="CallerID">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="PhoneNumber" type="xs:long" />
+          <xs:element minOccurs="0" name="DialInPrefix" type="xs:short" />
+          <xs:element minOccurs="0" name="PersonId" type="xs:int" />
+          <xs:element minOccurs="0" name="PersonName" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="Mrmrs" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="ContactId" type="xs:int" />
+          <xs:element minOccurs="0" name="ContactName" nillable="true" type="xs:string" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:element name="CallerID" nillable="true" type="q10:CallerID" xmlns:q10="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+      <xs:complexType name="SoExceptionInfo">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="Message" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="StackTrace" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="FriendlyText" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="ExceptionType" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="Source" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="InnerException" nillable="true" type="q11:SoExceptionInfo" xmlns:q11="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+          <xs:element minOccurs="0" name="Parameters" nillable="true" type="q12:SoExceptionInfoParameters" xmlns:q12="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:element name="SoExceptionInfo" nillable="true" type="q13:SoExceptionInfo" xmlns:q13="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+      <xs:complexType name="SoExceptionInfoParameters">
+        <xs:annotation>
+          <xs:appinfo>
+            <IsDictionary xmlns="http://schemas.microsoft.com/2003/10/Serialization/">true</IsDictionary>
+          </xs:appinfo>
+        </xs:annotation>
+        <xs:sequence>
+          <xs:element minOccurs="0" maxOccurs="unbounded" name="SoExceptionInfoParametersKeyValuePair">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="Key" nillable="true" type="xs:string" />
+                <xs:element name="Value" nillable="true" type="xs:string" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:sequence>
+      </xs:complexType>
+      <xs:element name="SoExceptionInfoParameters" nillable="true" type="q14:SoExceptionInfoParameters" xmlns:q14="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+      <xs:element name="ExceptionInfo" nillable="true" type="q15:SoExceptionInfo" xmlns:q15="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+      <xs:complexType name="SoExtraInfo">
+        <xs:annotation>
+          <xs:appinfo>
+            <IsDictionary xmlns="http://schemas.microsoft.com/2003/10/Serialization/">true</IsDictionary>
+          </xs:appinfo>
+        </xs:annotation>
+        <xs:sequence>
+          <xs:element minOccurs="0" maxOccurs="unbounded" name="ExtraInfoNameValuePair">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="Key" nillable="true" type="xs:string" />
+                <xs:element name="Value" nillable="true" type="xs:string" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:sequence>
+      </xs:complexType>
+      <xs:element name="SoExtraInfo" nillable="true" type="q16:SoExtraInfo" xmlns:q16="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+      <xs:element name="ExtraInfo" nillable="true" type="q17:SoExtraInfo" xmlns:q17="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+      <xs:element name="Succeeded" type="xs:boolean" />
+      <xs:element name="GetCallerIDsFromSelection">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="SelectionId" type="xs:int" />
+            <xs:element minOccurs="0" name="LastHash" nillable="true" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="GetCallerIDsFromSelectionResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="Response" nillable="true" type="q18:CallerIDCollection" xmlns:q18="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="GetPocketStartupData">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="Tables" nillable="true" type="q19:ArrayOfstring" xmlns:q19="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+            <xs:element minOccurs="0" name="CurrentClientTime" type="xs:dateTime" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
       <xs:element name="GetPocketStartupDataResponse">
         <xs:complexType>
           <xs:sequence>
-            <xs:element minOccurs="0" name="Response" nillable="true" type="q6:PocketStartupData" xmlns:q6="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+            <xs:element minOccurs="0" name="Response" nillable="true" type="q20:PocketStartupData" xmlns:q20="http://www.superoffice.net/ws/crm/NetServer/Services88" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
       <xs:complexType name="PocketStartupData">
         <xs:complexContent mixed="false">
-          <xs:extension base="q7:Carrier" xmlns:q7="http://www.superoffice.net/ws/crm/NetServer/Services88">
+          <xs:extension base="q21:Carrier" xmlns:q21="http://www.superoffice.net/ws/crm/NetServer/Services88">
             <xs:sequence>
-              <xs:element minOccurs="0" name="TableRights" nillable="true" type="q7:ArrayOfETableRight" />
-              <xs:element minOccurs="0" name="PhoneLocaleTimeZoneData" nillable="true" type="q7:TimeZoneData" />
-              <xs:element minOccurs="0" name="BaseLocaleTimeZoneData" nillable="true" type="q7:TimeZoneData" />
+              <xs:element minOccurs="0" name="TableRights" nillable="true" type="q21:ArrayOfETableRight" />
+              <xs:element minOccurs="0" name="PhoneLocaleTimeZoneData" nillable="true" type="q21:TimeZoneData" />
+              <xs:element minOccurs="0" name="BaseLocaleTimeZoneData" nillable="true" type="q21:TimeZoneData" />
               <xs:element minOccurs="0" name="OverdueSalesCount" type="xs:int" />
               <xs:element minOccurs="0" name="NotificationsCount" type="xs:int" />
-              <xs:element minOccurs="0" name="SystemWebPanels" nillable="true" type="q7:ArrayOfWebPanelEntity" />
-              <xs:element minOccurs="0" name="PocketPreferences" nillable="true" type="q7:ArrayOfPreference" />
+              <xs:element minOccurs="0" name="SystemWebPanels" nillable="true" type="q21:ArrayOfWebPanelEntity" />
+              <xs:element minOccurs="0" name="PocketPreferences" nillable="true" type="q21:ArrayOfPreference" />
               <xs:element minOccurs="0" name="IsPushNotificationEnabled" type="xs:boolean" />
               <xs:element minOccurs="0" name="CustomData" nillable="true" type="xs:string" />
             </xs:sequence>
           </xs:extension>
         </xs:complexContent>
       </xs:complexType>
-      <xs:element name="PocketStartupData" nillable="true" type="q8:PocketStartupData" xmlns:q8="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+      <xs:element name="PocketStartupData" nillable="true" type="q22:PocketStartupData" xmlns:q22="http://www.superoffice.net/ws/crm/NetServer/Services88" />
       <xs:complexType name="Carrier">
         <xs:sequence>
-          <xs:element minOccurs="0" name="TableRight" nillable="true" type="q9:TableRight" xmlns:q9="http://www.superoffice.net/ws/crm/NetServer/Services88" />
-          <xs:element minOccurs="0" name="FieldProperties" nillable="true" type="q10:FieldPropertyDictionary" xmlns:q10="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+          <xs:element minOccurs="0" name="TableRight" nillable="true" type="q23:TableRight" xmlns:q23="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+          <xs:element minOccurs="0" name="FieldProperties" nillable="true" type="q24:FieldPropertyDictionary" xmlns:q24="http://www.superoffice.net/ws/crm/NetServer/Services88" />
         </xs:sequence>
       </xs:complexType>
-      <xs:element name="Carrier" nillable="true" type="q11:Carrier" xmlns:q11="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+      <xs:element name="Carrier" nillable="true" type="q25:Carrier" xmlns:q25="http://www.superoffice.net/ws/crm/NetServer/Services88" />
       <xs:complexType name="TableRight">
         <xs:sequence>
-          <xs:element minOccurs="0" name="Mask" type="q12:ETableRight" xmlns:q12="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+          <xs:element minOccurs="0" name="Mask" type="q26:ETableRight" xmlns:q26="http://www.superoffice.net/ws/crm/NetServer/Services88" />
           <xs:element minOccurs="0" name="Reason" nillable="true" type="xs:string" />
         </xs:sequence>
       </xs:complexType>
-      <xs:element name="TableRight" nillable="true" type="q13:TableRight" xmlns:q13="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+      <xs:element name="TableRight" nillable="true" type="q27:TableRight" xmlns:q27="http://www.superoffice.net/ws/crm/NetServer/Services88" />
       <xs:simpleType name="ETableRight">
         <xs:list>
           <xs:simpleType>
@@ -86,11 +193,27 @@ title: Services88.PocketAgent WSDL
               <xs:enumeration value="Delete" />
               <xs:enumeration value="Filtering" />
               <xs:enumeration value="RestrictedUpdate" />
+              <xs:enumeration value="Unused1" />
+              <xs:enumeration value="Uninitialized" />
+              <xs:enumeration value="R">
+                <xs:annotation>
+                  <xs:appinfo>
+                    <EnumerationValue xmlns="http://schemas.microsoft.com/2003/10/Serialization/">1</EnumerationValue>
+                  </xs:appinfo>
+                </xs:annotation>
+              </xs:enumeration>
+              <xs:enumeration value="F">
+                <xs:annotation>
+                  <xs:appinfo>
+                    <EnumerationValue xmlns="http://schemas.microsoft.com/2003/10/Serialization/">16</EnumerationValue>
+                  </xs:appinfo>
+                </xs:annotation>
+              </xs:enumeration>
             </xs:restriction>
           </xs:simpleType>
         </xs:list>
       </xs:simpleType>
-      <xs:element name="ETableRight" nillable="true" type="q14:ETableRight" xmlns:q14="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+      <xs:element name="ETableRight" nillable="true" type="q28:ETableRight" xmlns:q28="http://www.superoffice.net/ws/crm/NetServer/Services88" />
       <xs:complexType name="FieldPropertyDictionary">
         <xs:annotation>
           <xs:appinfo>
@@ -102,28 +225,28 @@ title: Services88.PocketAgent WSDL
             <xs:complexType>
               <xs:sequence>
                 <xs:element name="Key" nillable="true" type="xs:string" />
-                <xs:element name="Value" nillable="true" type="q15:FieldProperty" xmlns:q15="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+                <xs:element name="Value" nillable="true" type="q29:FieldProperty" xmlns:q29="http://www.superoffice.net/ws/crm/NetServer/Services88" />
               </xs:sequence>
             </xs:complexType>
           </xs:element>
         </xs:sequence>
       </xs:complexType>
-      <xs:element name="FieldPropertyDictionary" nillable="true" type="q16:FieldPropertyDictionary" xmlns:q16="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+      <xs:element name="FieldPropertyDictionary" nillable="true" type="q30:FieldPropertyDictionary" xmlns:q30="http://www.superoffice.net/ws/crm/NetServer/Services88" />
       <xs:complexType name="FieldProperty">
         <xs:sequence>
-          <xs:element minOccurs="0" name="FieldRight" nillable="true" type="q17:FieldRight" xmlns:q17="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+          <xs:element minOccurs="0" name="FieldRight" nillable="true" type="q31:FieldRight" xmlns:q31="http://www.superoffice.net/ws/crm/NetServer/Services88" />
           <xs:element minOccurs="0" name="FieldType" nillable="true" type="xs:string" />
           <xs:element minOccurs="0" name="FieldLength" type="xs:int" />
         </xs:sequence>
       </xs:complexType>
-      <xs:element name="FieldProperty" nillable="true" type="q18:FieldProperty" xmlns:q18="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+      <xs:element name="FieldProperty" nillable="true" type="q32:FieldProperty" xmlns:q32="http://www.superoffice.net/ws/crm/NetServer/Services88" />
       <xs:complexType name="FieldRight">
         <xs:sequence>
-          <xs:element minOccurs="0" name="Mask" type="q19:EFieldRight" xmlns:q19="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+          <xs:element minOccurs="0" name="Mask" type="q33:EFieldRight" xmlns:q33="http://www.superoffice.net/ws/crm/NetServer/Services88" />
           <xs:element minOccurs="0" name="Reason" nillable="true" type="xs:string" />
         </xs:sequence>
       </xs:complexType>
-      <xs:element name="FieldRight" nillable="true" type="q20:FieldRight" xmlns:q20="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+      <xs:element name="FieldRight" nillable="true" type="q34:FieldRight" xmlns:q34="http://www.superoffice.net/ws/crm/NetServer/Services88" />
       <xs:simpleType name="EFieldRight">
         <xs:list>
           <xs:simpleType>
@@ -137,17 +260,24 @@ title: Services88.PocketAgent WSDL
               <xs:enumeration value="UIHintMandatory" />
               <xs:enumeration value="UIHintReadOnly" />
               <xs:enumeration value="UndefinedValue256" />
+              <xs:enumeration value="Nullable">
+                <xs:annotation>
+                  <xs:appinfo>
+                    <EnumerationValue xmlns="http://schemas.microsoft.com/2003/10/Serialization/">32</EnumerationValue>
+                  </xs:appinfo>
+                </xs:annotation>
+              </xs:enumeration>
             </xs:restriction>
           </xs:simpleType>
         </xs:list>
       </xs:simpleType>
-      <xs:element name="EFieldRight" nillable="true" type="q21:EFieldRight" xmlns:q21="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+      <xs:element name="EFieldRight" nillable="true" type="q35:EFieldRight" xmlns:q35="http://www.superoffice.net/ws/crm/NetServer/Services88" />
       <xs:complexType name="ArrayOfETableRight">
         <xs:sequence>
-          <xs:element minOccurs="0" maxOccurs="unbounded" name="ETableRight" type="q22:ETableRight" xmlns:q22="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+          <xs:element minOccurs="0" maxOccurs="unbounded" name="ETableRight" type="q36:ETableRight" xmlns:q36="http://www.superoffice.net/ws/crm/NetServer/Services88" />
         </xs:sequence>
       </xs:complexType>
-      <xs:element name="ArrayOfETableRight" nillable="true" type="q23:ArrayOfETableRight" xmlns:q23="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+      <xs:element name="ArrayOfETableRight" nillable="true" type="q37:ArrayOfETableRight" xmlns:q37="http://www.superoffice.net/ws/crm/NetServer/Services88" />
       <xs:complexType name="TimeZoneData">
         <xs:sequence>
           <xs:element minOccurs="0" name="TZLocationID" type="xs:int" />
@@ -155,11 +285,11 @@ title: Services88.PocketAgent WSDL
           <xs:element minOccurs="0" name="TZLocationCode" nillable="true" type="xs:string" />
           <xs:element minOccurs="0" name="TZLocationCities" nillable="true" type="xs:string" />
           <xs:element minOccurs="0" name="IsoNumber" type="xs:int" />
-          <xs:element minOccurs="0" name="TimeZoneSTDRules" nillable="true" type="q24:TimeZoneRuleDictionary" xmlns:q24="http://www.superoffice.net/ws/crm/NetServer/Services88" />
-          <xs:element minOccurs="0" name="TimeZoneDSTRules" nillable="true" type="q25:TimeZoneRuleDictionary" xmlns:q25="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+          <xs:element minOccurs="0" name="TimeZoneSTDRules" nillable="true" type="q38:TimeZoneRuleDictionary" xmlns:q38="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+          <xs:element minOccurs="0" name="TimeZoneDSTRules" nillable="true" type="q39:TimeZoneRuleDictionary" xmlns:q39="http://www.superoffice.net/ws/crm/NetServer/Services88" />
         </xs:sequence>
       </xs:complexType>
-      <xs:element name="TimeZoneData" nillable="true" type="q26:TimeZoneData" xmlns:q26="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+      <xs:element name="TimeZoneData" nillable="true" type="q40:TimeZoneData" xmlns:q40="http://www.superoffice.net/ws/crm/NetServer/Services88" />
       <xs:complexType name="TimeZoneRuleDictionary">
         <xs:annotation>
           <xs:appinfo>
@@ -171,13 +301,13 @@ title: Services88.PocketAgent WSDL
             <xs:complexType>
               <xs:sequence>
                 <xs:element name="Key" type="xs:dateTime" />
-                <xs:element name="Value" nillable="true" type="q27:TimeZoneRule" xmlns:q27="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+                <xs:element name="Value" nillable="true" type="q41:TimeZoneRule" xmlns:q41="http://www.superoffice.net/ws/crm/NetServer/Services88" />
               </xs:sequence>
             </xs:complexType>
           </xs:element>
         </xs:sequence>
       </xs:complexType>
-      <xs:element name="TimeZoneRuleDictionary" nillable="true" type="q28:TimeZoneRuleDictionary" xmlns:q28="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+      <xs:element name="TimeZoneRuleDictionary" nillable="true" type="q42:TimeZoneRuleDictionary" xmlns:q42="http://www.superoffice.net/ws/crm/NetServer/Services88" />
       <xs:complexType name="TimeZoneRule">
         <xs:sequence>
           <xs:element minOccurs="0" name="TZOffset" type="xs:int" />
@@ -189,24 +319,24 @@ title: Services88.PocketAgent WSDL
           <xs:element minOccurs="0" name="EndMonth" type="xs:int" />
         </xs:sequence>
       </xs:complexType>
-      <xs:element name="TimeZoneRule" nillable="true" type="q29:TimeZoneRule" xmlns:q29="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+      <xs:element name="TimeZoneRule" nillable="true" type="q43:TimeZoneRule" xmlns:q43="http://www.superoffice.net/ws/crm/NetServer/Services88" />
       <xs:complexType name="ArrayOfWebPanelEntity">
         <xs:sequence>
-          <xs:element minOccurs="0" maxOccurs="unbounded" name="WebPanelEntity" nillable="true" type="q30:WebPanelEntity" xmlns:q30="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+          <xs:element minOccurs="0" maxOccurs="unbounded" name="WebPanelEntity" nillable="true" type="q44:WebPanelEntity" xmlns:q44="http://www.superoffice.net/ws/crm/NetServer/Services88" />
         </xs:sequence>
       </xs:complexType>
-      <xs:element name="ArrayOfWebPanelEntity" nillable="true" type="q31:ArrayOfWebPanelEntity" xmlns:q31="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+      <xs:element name="ArrayOfWebPanelEntity" nillable="true" type="q45:ArrayOfWebPanelEntity" xmlns:q45="http://www.superoffice.net/ws/crm/NetServer/Services88" />
       <xs:complexType name="WebPanelEntity">
         <xs:complexContent mixed="false">
-          <xs:extension base="q32:Carrier" xmlns:q32="http://www.superoffice.net/ws/crm/NetServer/Services88">
+          <xs:extension base="q46:Carrier" xmlns:q46="http://www.superoffice.net/ws/crm/NetServer/Services88">
             <xs:sequence>
               <xs:element minOccurs="0" name="WebPanelId" type="xs:int" />
               <xs:element minOccurs="0" name="Name" nillable="true" type="xs:string" />
               <xs:element minOccurs="0" name="Tooltip" nillable="true" type="xs:string" />
               <xs:element minOccurs="0" name="Deleted" type="xs:boolean" />
               <xs:element minOccurs="0" name="Rank" type="xs:int" />
-              <xs:element minOccurs="0" name="UrlEncoding" type="q32:UrlEncoding" />
-              <xs:element minOccurs="0" name="VisibleIn" type="q32:Navigation" />
+              <xs:element minOccurs="0" name="UrlEncoding" type="q46:UrlEncoding" />
+              <xs:element minOccurs="0" name="VisibleIn" type="q46:Navigation" />
               <xs:element minOccurs="0" name="OnCentral" type="xs:boolean" />
               <xs:element minOccurs="0" name="OnSatellite" type="xs:boolean" />
               <xs:element minOccurs="0" name="OnTravel" type="xs:boolean" />
@@ -220,11 +350,12 @@ title: Services88.PocketAgent WSDL
               <xs:element minOccurs="0" name="Url" nillable="true" type="xs:string" />
               <xs:element minOccurs="0" name="ProgId" nillable="true" type="xs:string" />
               <xs:element minOccurs="0" name="Icon" type="xs:short" />
+              <xs:element minOccurs="0" name="AlwaysReloadOnShow" type="xs:boolean" />
             </xs:sequence>
           </xs:extension>
         </xs:complexContent>
       </xs:complexType>
-      <xs:element name="WebPanelEntity" nillable="true" type="q33:WebPanelEntity" xmlns:q33="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+      <xs:element name="WebPanelEntity" nillable="true" type="q47:WebPanelEntity" xmlns:q47="http://www.superoffice.net/ws/crm/NetServer/Services88" />
       <xs:simpleType name="UrlEncoding">
         <xs:restriction base="xs:string">
           <xs:enumeration value="Unknown" />
@@ -233,7 +364,7 @@ title: Services88.PocketAgent WSDL
           <xs:enumeration value="Unicode" />
         </xs:restriction>
       </xs:simpleType>
-      <xs:element name="UrlEncoding" nillable="true" type="q34:UrlEncoding" xmlns:q34="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+      <xs:element name="UrlEncoding" nillable="true" type="q48:UrlEncoding" xmlns:q48="http://www.superoffice.net/ws/crm/NetServer/Services88" />
       <xs:simpleType name="Navigation">
         <xs:annotation>
           <xs:appinfo>
@@ -314,24 +445,24 @@ title: Services88.PocketAgent WSDL
           <xs:enumeration value="ProjectCardTask" />
         </xs:restriction>
       </xs:simpleType>
-      <xs:element name="Navigation" nillable="true" type="q35:Navigation" xmlns:q35="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+      <xs:element name="Navigation" nillable="true" type="q49:Navigation" xmlns:q49="http://www.superoffice.net/ws/crm/NetServer/Services88" />
       <xs:complexType name="ArrayOfPreference">
         <xs:sequence>
-          <xs:element minOccurs="0" maxOccurs="unbounded" name="Preference" nillable="true" type="q36:Preference" xmlns:q36="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+          <xs:element minOccurs="0" maxOccurs="unbounded" name="Preference" nillable="true" type="q50:Preference" xmlns:q50="http://www.superoffice.net/ws/crm/NetServer/Services88" />
         </xs:sequence>
       </xs:complexType>
-      <xs:element name="ArrayOfPreference" nillable="true" type="q37:ArrayOfPreference" xmlns:q37="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+      <xs:element name="ArrayOfPreference" nillable="true" type="q51:ArrayOfPreference" xmlns:q51="http://www.superoffice.net/ws/crm/NetServer/Services88" />
       <xs:complexType name="Preference">
         <xs:complexContent mixed="false">
-          <xs:extension base="q38:Carrier" xmlns:q38="http://www.superoffice.net/ws/crm/NetServer/Services88">
+          <xs:extension base="q52:Carrier" xmlns:q52="http://www.superoffice.net/ws/crm/NetServer/Services88">
             <xs:sequence>
-              <xs:element minOccurs="0" name="Level" type="q38:PreferenceLevel" />
+              <xs:element minOccurs="0" name="Level" type="q52:PreferenceLevel" />
               <xs:element minOccurs="0" name="RawValue" nillable="true" type="xs:string" />
-              <xs:element minOccurs="0" name="Specification" nillable="true" type="q38:PreferenceSpec" />
+              <xs:element minOccurs="0" name="Specification" nillable="true" type="q52:PreferenceSpec" />
               <xs:element minOccurs="0" name="DisplayValue" nillable="true" type="xs:string" />
               <xs:element minOccurs="0" name="DisplayTooltip" nillable="true" type="xs:string" />
-              <xs:element minOccurs="0" name="DisplayType" type="q38:PrefDescValueType" />
-              <xs:element minOccurs="0" name="TabOrder" nillable="true" type="q38:TabOrder" />
+              <xs:element minOccurs="0" name="DisplayType" type="q52:PrefDescValueType" />
+              <xs:element minOccurs="0" name="TabOrder" nillable="true" type="q52:TabOrder" />
               <xs:element minOccurs="0" name="TargetId" type="xs:int" />
               <xs:element minOccurs="0" name="PrefDescId" type="xs:int" />
               <xs:element minOccurs="0" name="TableName" nillable="true" type="xs:string" />
@@ -340,7 +471,7 @@ title: Services88.PocketAgent WSDL
           </xs:extension>
         </xs:complexContent>
       </xs:complexType>
-      <xs:element name="Preference" nillable="true" type="q39:Preference" xmlns:q39="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+      <xs:element name="Preference" nillable="true" type="q53:Preference" xmlns:q53="http://www.superoffice.net/ws/crm/NetServer/Services88" />
       <xs:simpleType name="PreferenceLevel">
         <xs:annotation>
           <xs:appinfo>
@@ -357,10 +488,10 @@ title: Services88.PocketAgent WSDL
           <xs:enumeration value="PC" />
         </xs:restriction>
       </xs:simpleType>
-      <xs:element name="PreferenceLevel" nillable="true" type="q40:PreferenceLevel" xmlns:q40="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+      <xs:element name="PreferenceLevel" nillable="true" type="q54:PreferenceLevel" xmlns:q54="http://www.superoffice.net/ws/crm/NetServer/Services88" />
       <xs:complexType name="PreferenceSpec">
         <xs:complexContent mixed="false">
-          <xs:extension base="q41:Carrier" xmlns:q41="http://www.superoffice.net/ws/crm/NetServer/Services88">
+          <xs:extension base="q55:Carrier" xmlns:q55="http://www.superoffice.net/ws/crm/NetServer/Services88">
             <xs:sequence>
               <xs:element minOccurs="0" name="Section" nillable="true" type="xs:string" />
               <xs:element minOccurs="0" name="Key" nillable="true" type="xs:string" />
@@ -368,7 +499,7 @@ title: Services88.PocketAgent WSDL
           </xs:extension>
         </xs:complexContent>
       </xs:complexType>
-      <xs:element name="PreferenceSpec" nillable="true" type="q42:PreferenceSpec" xmlns:q42="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+      <xs:element name="PreferenceSpec" nillable="true" type="q56:PreferenceSpec" xmlns:q56="http://www.superoffice.net/ws/crm/NetServer/Services88" />
       <xs:simpleType name="PrefDescValueType">
         <xs:annotation>
           <xs:appinfo>
@@ -394,10 +525,10 @@ title: Services88.PocketAgent WSDL
           <xs:enumeration value="MultiLineText" />
         </xs:restriction>
       </xs:simpleType>
-      <xs:element name="PrefDescValueType" nillable="true" type="q43:PrefDescValueType" xmlns:q43="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+      <xs:element name="PrefDescValueType" nillable="true" type="q57:PrefDescValueType" xmlns:q57="http://www.superoffice.net/ws/crm/NetServer/Services88" />
       <xs:complexType name="TabOrder">
         <xs:complexContent mixed="false">
-          <xs:extension base="q44:Carrier" xmlns:q44="http://www.superoffice.net/ws/crm/NetServer/Services88">
+          <xs:extension base="q58:Carrier" xmlns:q58="http://www.superoffice.net/ws/crm/NetServer/Services88">
             <xs:sequence>
               <xs:element minOccurs="0" name="TabOrderId" type="xs:int" />
               <xs:element minOccurs="0" name="TabName" nillable="true" type="xs:string" />
@@ -407,62 +538,11 @@ title: Services88.PocketAgent WSDL
           </xs:extension>
         </xs:complexContent>
       </xs:complexType>
-      <xs:element name="TabOrder" nillable="true" type="q45:TabOrder" xmlns:q45="http://www.superoffice.net/ws/crm/NetServer/Services88" />
-      <xs:complexType name="SoExceptionInfo">
-        <xs:sequence>
-          <xs:element minOccurs="0" name="Message" nillable="true" type="xs:string" />
-          <xs:element minOccurs="0" name="StackTrace" nillable="true" type="xs:string" />
-          <xs:element minOccurs="0" name="FriendlyText" nillable="true" type="xs:string" />
-          <xs:element minOccurs="0" name="ExceptionType" nillable="true" type="xs:string" />
-          <xs:element minOccurs="0" name="Source" nillable="true" type="xs:string" />
-          <xs:element minOccurs="0" name="InnerException" nillable="true" type="q46:SoExceptionInfo" xmlns:q46="http://www.superoffice.net/ws/crm/NetServer/Services88" />
-          <xs:element minOccurs="0" name="Parameters" nillable="true" type="q47:SoExceptionInfoParameters" xmlns:q47="http://www.superoffice.net/ws/crm/NetServer/Services88" />
-        </xs:sequence>
-      </xs:complexType>
-      <xs:element name="SoExceptionInfo" nillable="true" type="q48:SoExceptionInfo" xmlns:q48="http://www.superoffice.net/ws/crm/NetServer/Services88" />
-      <xs:complexType name="SoExceptionInfoParameters">
-        <xs:annotation>
-          <xs:appinfo>
-            <IsDictionary xmlns="http://schemas.microsoft.com/2003/10/Serialization/">true</IsDictionary>
-          </xs:appinfo>
-        </xs:annotation>
-        <xs:sequence>
-          <xs:element minOccurs="0" maxOccurs="unbounded" name="SoExceptionInfoParametersKeyValuePair">
-            <xs:complexType>
-              <xs:sequence>
-                <xs:element name="Key" nillable="true" type="xs:string" />
-                <xs:element name="Value" nillable="true" type="xs:string" />
-              </xs:sequence>
-            </xs:complexType>
-          </xs:element>
-        </xs:sequence>
-      </xs:complexType>
-      <xs:element name="SoExceptionInfoParameters" nillable="true" type="q49:SoExceptionInfoParameters" xmlns:q49="http://www.superoffice.net/ws/crm/NetServer/Services88" />
-      <xs:element name="ExceptionInfo" nillable="true" type="q50:SoExceptionInfo" xmlns:q50="http://www.superoffice.net/ws/crm/NetServer/Services88" />
-      <xs:complexType name="SoExtraInfo">
-        <xs:annotation>
-          <xs:appinfo>
-            <IsDictionary xmlns="http://schemas.microsoft.com/2003/10/Serialization/">true</IsDictionary>
-          </xs:appinfo>
-        </xs:annotation>
-        <xs:sequence>
-          <xs:element minOccurs="0" maxOccurs="unbounded" name="ExtraInfoNameValuePair">
-            <xs:complexType>
-              <xs:sequence>
-                <xs:element name="Key" nillable="true" type="xs:string" />
-                <xs:element name="Value" nillable="true" type="xs:string" />
-              </xs:sequence>
-            </xs:complexType>
-          </xs:element>
-        </xs:sequence>
-      </xs:complexType>
-      <xs:element name="SoExtraInfo" nillable="true" type="q51:SoExtraInfo" xmlns:q51="http://www.superoffice.net/ws/crm/NetServer/Services88" />
-      <xs:element name="ExtraInfo" nillable="true" type="q52:SoExtraInfo" xmlns:q52="http://www.superoffice.net/ws/crm/NetServer/Services88" />
-      <xs:element name="Succeeded" type="xs:boolean" />
+      <xs:element name="TabOrder" nillable="true" type="q59:TabOrder" xmlns:q59="http://www.superoffice.net/ws/crm/NetServer/Services88" />
       <xs:element name="RegisterDeviceForPushNotification">
         <xs:complexType>
           <xs:sequence>
-            <xs:element minOccurs="0" name="DeviceInfo" nillable="true" type="q53:PocketDeviceInfo" xmlns:q53="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+            <xs:element minOccurs="0" name="DeviceInfo" nillable="true" type="q60:PocketDeviceInfo" xmlns:q60="http://www.superoffice.net/ws/crm/NetServer/Services88" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
@@ -473,12 +553,12 @@ title: Services88.PocketAgent WSDL
           <xs:element minOccurs="0" name="PocketVersion" nillable="true" type="xs:string" />
           <xs:element minOccurs="0" name="Language" nillable="true" type="xs:string" />
           <xs:element minOccurs="0" name="PNSHandle" nillable="true" type="xs:string" />
-          <xs:element minOccurs="0" name="Platform" type="q54:NotificationPlatform" xmlns:q54="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+          <xs:element minOccurs="0" name="Platform" type="q61:NotificationPlatform" xmlns:q61="http://www.superoffice.net/ws/crm/NetServer/Services88" />
           <xs:element minOccurs="0" name="OSVersion" nillable="true" type="xs:string" />
           <xs:element minOccurs="0" name="TimeZoneId" type="xs:int" />
         </xs:sequence>
       </xs:complexType>
-      <xs:element name="PocketDeviceInfo" nillable="true" type="q55:PocketDeviceInfo" xmlns:q55="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+      <xs:element name="PocketDeviceInfo" nillable="true" type="q62:PocketDeviceInfo" xmlns:q62="http://www.superoffice.net/ws/crm/NetServer/Services88" />
       <xs:simpleType name="NotificationPlatform">
         <xs:annotation>
           <xs:appinfo>
@@ -494,7 +574,7 @@ title: Services88.PocketAgent WSDL
           <xs:enumeration value="GoogleDeveloper" />
         </xs:restriction>
       </xs:simpleType>
-      <xs:element name="NotificationPlatform" nillable="true" type="q56:NotificationPlatform" xmlns:q56="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+      <xs:element name="NotificationPlatform" nillable="true" type="q63:NotificationPlatform" xmlns:q63="http://www.superoffice.net/ws/crm/NetServer/Services88" />
       <xs:element name="RegisterDeviceForPushNotificationResponse">
         <xs:complexType>
           <xs:sequence />
@@ -510,16 +590,16 @@ title: Services88.PocketAgent WSDL
       <xs:element name="GetRegisteredDevicesResponse">
         <xs:complexType>
           <xs:sequence>
-            <xs:element minOccurs="0" name="Response" nillable="true" type="q57:ArrayOfPocketDeviceInfo" xmlns:q57="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+            <xs:element minOccurs="0" name="Response" nillable="true" type="q64:ArrayOfPocketDeviceInfo" xmlns:q64="http://www.superoffice.net/ws/crm/NetServer/Services88" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
       <xs:complexType name="ArrayOfPocketDeviceInfo">
         <xs:sequence>
-          <xs:element minOccurs="0" maxOccurs="unbounded" name="PocketDeviceInfo" nillable="true" type="q58:PocketDeviceInfo" xmlns:q58="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+          <xs:element minOccurs="0" maxOccurs="unbounded" name="PocketDeviceInfo" nillable="true" type="q65:PocketDeviceInfo" xmlns:q65="http://www.superoffice.net/ws/crm/NetServer/Services88" />
         </xs:sequence>
       </xs:complexType>
-      <xs:element name="ArrayOfPocketDeviceInfo" nillable="true" type="q59:ArrayOfPocketDeviceInfo" xmlns:q59="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+      <xs:element name="ArrayOfPocketDeviceInfo" nillable="true" type="q66:ArrayOfPocketDeviceInfo" xmlns:q66="http://www.superoffice.net/ws/crm/NetServer/Services88" />
       <xs:element name="SetPushNotificationTagsForDevice">
         <xs:complexType>
           <xs:sequence>
@@ -563,8 +643,8 @@ title: Services88.PocketAgent WSDL
       <xs:element name="SendPushNotification">
         <xs:complexType>
           <xs:sequence>
-            <xs:element minOccurs="0" name="AssociateIds" nillable="true" type="q60:ArrayOfint" xmlns:q60="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
-            <xs:element minOccurs="0" name="Message" nillable="true" type="q61:PocketNotificationMessage" xmlns:q61="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+            <xs:element minOccurs="0" name="AssociateIds" nillable="true" type="q67:ArrayOfint" xmlns:q67="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+            <xs:element minOccurs="0" name="Message" nillable="true" type="q68:PocketNotificationMessage" xmlns:q68="http://www.superoffice.net/ws/crm/NetServer/Services88" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
@@ -574,15 +654,15 @@ title: Services88.PocketAgent WSDL
           <xs:element minOccurs="0" name="Message" nillable="true" type="xs:string" />
           <xs:element minOccurs="0" name="Url" nillable="true" type="xs:string" />
           <xs:element minOccurs="0" name="Silent" type="xs:boolean" />
-          <xs:element minOccurs="0" name="Type" type="q62:NotificationMessageType" xmlns:q62="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+          <xs:element minOccurs="0" name="Type" type="q69:NotificationMessageType" xmlns:q69="http://www.superoffice.net/ws/crm/NetServer/Services88" />
           <xs:element minOccurs="0" name="TimeToLive" type="xs:int" />
           <xs:element minOccurs="0" name="RecordId" type="xs:int" />
           <xs:element minOccurs="0" name="Date" type="xs:dateTime" />
           <xs:element minOccurs="0" name="Duration" type="ser:duration" />
-          <xs:element minOccurs="0" name="ExtraValues" nillable="true" type="q63:StringDictionary" xmlns:q63="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+          <xs:element minOccurs="0" name="ExtraValues" nillable="true" type="q70:StringDictionary" xmlns:q70="http://www.superoffice.net/ws/crm/NetServer/Services88" />
         </xs:sequence>
       </xs:complexType>
-      <xs:element name="PocketNotificationMessage" nillable="true" type="q64:PocketNotificationMessage" xmlns:q64="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+      <xs:element name="PocketNotificationMessage" nillable="true" type="q71:PocketNotificationMessage" xmlns:q71="http://www.superoffice.net/ws/crm/NetServer/Services88" />
       <xs:simpleType name="NotificationMessageType">
         <xs:restriction base="xs:string">
           <xs:enumeration value="Message" />
@@ -592,7 +672,7 @@ title: Services88.PocketAgent WSDL
           <xs:enumeration value="ShowWebPage" />
         </xs:restriction>
       </xs:simpleType>
-      <xs:element name="NotificationMessageType" nillable="true" type="q65:NotificationMessageType" xmlns:q65="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+      <xs:element name="NotificationMessageType" nillable="true" type="q72:NotificationMessageType" xmlns:q72="http://www.superoffice.net/ws/crm/NetServer/Services88" />
       <xs:complexType name="StringDictionary">
         <xs:annotation>
           <xs:appinfo>
@@ -610,7 +690,7 @@ title: Services88.PocketAgent WSDL
           </xs:element>
         </xs:sequence>
       </xs:complexType>
-      <xs:element name="StringDictionary" nillable="true" type="q66:StringDictionary" xmlns:q66="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+      <xs:element name="StringDictionary" nillable="true" type="q73:StringDictionary" xmlns:q73="http://www.superoffice.net/ws/crm/NetServer/Services88" />
       <xs:element name="SendPushNotificationResponse">
         <xs:complexType>
           <xs:sequence />
@@ -622,6 +702,73 @@ title: Services88.PocketAgent WSDL
         </xs:complexType>
       </xs:element>
       <xs:element name="RunAppointmentAlarmBrokerResponse">
+        <xs:complexType>
+          <xs:sequence />
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="NotifyUsers">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="NotificationEventType" type="q74:NotificationEventType" xmlns:q74="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+            <xs:element minOccurs="0" name="Id" type="xs:int" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:simpleType name="NotificationEventType">
+        <xs:restriction base="xs:string">
+          <xs:enumeration value="Unknown" />
+          <xs:enumeration value="NewTicket" />
+          <xs:enumeration value="AppointmentInvitation" />
+          <xs:enumeration value="AppointmentMoved" />
+          <xs:enumeration value="AppointmentCancelled" />
+          <xs:enumeration value="NewTicketMessage" />
+          <xs:enumeration value="TicketActivated" />
+          <xs:enumeration value="TicketEscalated" />
+          <xs:enumeration value="QuoteApprovalRequest" />
+          <xs:enumeration value="QuoteApprovalApproved" />
+          <xs:enumeration value="QuoteApprovalDenied" />
+        </xs:restriction>
+      </xs:simpleType>
+      <xs:element name="NotificationEventType" nillable="true" type="q75:NotificationEventType" xmlns:q75="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+      <xs:element name="NotifyUsersResponse">
+        <xs:complexType>
+          <xs:sequence />
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="NotificationHandled">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="NotificationEventType" type="q76:NotificationEventType" xmlns:q76="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+            <xs:element minOccurs="0" name="Id" type="xs:int" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="NotificationHandledResponse">
+        <xs:complexType>
+          <xs:sequence />
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="NotificationsHandled">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="NotificationEvents" nillable="true" type="q77:ArrayOfNotificationEvent" xmlns:q77="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:complexType name="ArrayOfNotificationEvent">
+        <xs:sequence>
+          <xs:element minOccurs="0" maxOccurs="unbounded" name="NotificationEvent" nillable="true" type="q78:NotificationEvent" xmlns:q78="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:element name="ArrayOfNotificationEvent" nillable="true" type="q79:ArrayOfNotificationEvent" xmlns:q79="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+      <xs:complexType name="NotificationEvent">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="Type" type="q80:NotificationEventType" xmlns:q80="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+          <xs:element minOccurs="0" name="Id" type="xs:int" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:element name="NotificationEvent" nillable="true" type="q81:NotificationEvent" xmlns:q81="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+      <xs:element name="NotificationsHandledResponse">
         <xs:complexType>
           <xs:sequence />
         </xs:complexType>
@@ -683,6 +830,40 @@ title: Services88.PocketAgent WSDL
       <xs:element name="ArrayOfint" nillable="true" type="tns:ArrayOfint" />
     </xs:schema>
   </wsdl:types>
+  <wsdl:message name="GetMyCallerIDsRequest">
+    <wsdl:part name="parameters" element="tns:GetMyCallerIDs" />
+  </wsdl:message>
+  <wsdl:message name="GetMyCallerIDsRequest_Headers">
+    <wsdl:part name="ApplicationToken" element="tns:ApplicationToken" />
+    <wsdl:part name="Credentials" element="tns:Credentials" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="GetMyCallerIDsResponse">
+    <wsdl:part name="parameters" element="tns:GetMyCallerIDsResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetMyCallerIDsResponse_Headers">
+    <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
+    <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
+    <wsdl:part name="Succeeded" element="tns:Succeeded" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="GetCallerIDsFromSelectionRequest">
+    <wsdl:part name="parameters" element="tns:GetCallerIDsFromSelection" />
+  </wsdl:message>
+  <wsdl:message name="GetCallerIDsFromSelectionRequest_Headers">
+    <wsdl:part name="ApplicationToken" element="tns:ApplicationToken" />
+    <wsdl:part name="Credentials" element="tns:Credentials" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="GetCallerIDsFromSelectionResponse">
+    <wsdl:part name="parameters" element="tns:GetCallerIDsFromSelectionResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetCallerIDsFromSelectionResponse_Headers">
+    <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
+    <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
+    <wsdl:part name="Succeeded" element="tns:Succeeded" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
   <wsdl:message name="GetPocketStartupDataRequest">
     <wsdl:part name="parameters" element="tns:GetPocketStartupData" />
   </wsdl:message>
@@ -819,10 +1000,75 @@ title: Services88.PocketAgent WSDL
     <wsdl:part name="Succeeded" element="tns:Succeeded" />
     <wsdl:part name="TimeZone" element="tns:TimeZone" />
   </wsdl:message>
+  <wsdl:message name="NotifyUsersRequest">
+    <wsdl:part name="parameters" element="tns:NotifyUsers" />
+  </wsdl:message>
+  <wsdl:message name="NotifyUsersRequest_Headers">
+    <wsdl:part name="ApplicationToken" element="tns:ApplicationToken" />
+    <wsdl:part name="Credentials" element="tns:Credentials" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="NotifyUsersResponse">
+    <wsdl:part name="parameters" element="tns:NotifyUsersResponse" />
+  </wsdl:message>
+  <wsdl:message name="NotifyUsersResponse_Headers">
+    <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
+    <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
+    <wsdl:part name="Succeeded" element="tns:Succeeded" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="NotificationHandledRequest">
+    <wsdl:part name="parameters" element="tns:NotificationHandled" />
+  </wsdl:message>
+  <wsdl:message name="NotificationHandledRequest_Headers">
+    <wsdl:part name="ApplicationToken" element="tns:ApplicationToken" />
+    <wsdl:part name="Credentials" element="tns:Credentials" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="NotificationHandledResponse">
+    <wsdl:part name="parameters" element="tns:NotificationHandledResponse" />
+  </wsdl:message>
+  <wsdl:message name="NotificationHandledResponse_Headers">
+    <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
+    <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
+    <wsdl:part name="Succeeded" element="tns:Succeeded" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="NotificationsHandledRequest">
+    <wsdl:part name="parameters" element="tns:NotificationsHandled" />
+  </wsdl:message>
+  <wsdl:message name="NotificationsHandledRequest_Headers">
+    <wsdl:part name="ApplicationToken" element="tns:ApplicationToken" />
+    <wsdl:part name="Credentials" element="tns:Credentials" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="NotificationsHandledResponse">
+    <wsdl:part name="parameters" element="tns:NotificationsHandledResponse" />
+  </wsdl:message>
+  <wsdl:message name="NotificationsHandledResponse_Headers">
+    <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
+    <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
+    <wsdl:part name="Succeeded" element="tns:Succeeded" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
   <wsdl:portType name="Pocket">
     <wsdl:documentation>
       <summary>Declaration of Wcf web services for Pocket</summary>
     </wsdl:documentation>
+    <wsdl:operation name="GetMyCallerIDs">
+      <wsdl:documentation>
+        <summary>Get caller ids that the current principal might be interested in (phone numbers of related persons in sales and appointments created/owned/touched by ourselves or colleagues in our primary group</summary>
+      </wsdl:documentation>
+      <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Pocket/GetMyCallerIDs" name="GetMyCallerIDsRequest" message="tns:GetMyCallerIDsRequest" />
+      <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Pocket/GetMyCallerIDsResponse" name="GetMyCallerIDsResponse" message="tns:GetMyCallerIDsResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="GetCallerIDsFromSelection">
+      <wsdl:documentation>
+        <summary>Get caller ids from a selection. Queries the shadow selection of persons and companies, so selections of any kind can be used</summary>
+      </wsdl:documentation>
+      <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Pocket/GetCallerIDsFromSelection" name="GetCallerIDsFromSelectionRequest" message="tns:GetCallerIDsFromSelectionRequest" />
+      <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Pocket/GetCallerIDsFromSelectionResponse" name="GetCallerIDsFromSelectionResponse" message="tns:GetCallerIDsFromSelectionResponse" />
+    </wsdl:operation>
     <wsdl:operation name="GetPocketStartupData">
       <wsdl:documentation>
         <summary>
@@ -880,9 +1126,62 @@ title: Services88.PocketAgent WSDL
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Pocket/RunAppointmentAlarmBroker" name="RunAppointmentAlarmBrokerRequest" message="tns:RunAppointmentAlarmBrokerRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Pocket/RunAppointmentAlarmBrokerResponse" name="RunAppointmentAlarmBrokerResponse" message="tns:RunAppointmentAlarmBrokerResponse" />
     </wsdl:operation>
+    <wsdl:operation name="NotifyUsers">
+      <wsdl:documentation>
+        <summary>Notify users about a new or changed entity</summary>
+      </wsdl:documentation>
+      <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Pocket/NotifyUsers" name="NotifyUsersRequest" message="tns:NotifyUsersRequest" />
+      <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Pocket/NotifyUsersResponse" name="NotifyUsersResponse" message="tns:NotifyUsersResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="NotificationHandled">
+      <wsdl:documentation>
+        <summary>Mark a notification as handled, so it can be cleaned up on other clients that have received the notification</summary>
+      </wsdl:documentation>
+      <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Pocket/NotificationHandled" name="NotificationHandledRequest" message="tns:NotificationHandledRequest" />
+      <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Pocket/NotificationHandledResponse" name="NotificationHandledResponse" message="tns:NotificationHandledResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="NotificationsHandled">
+      <wsdl:documentation>
+        <summary>Mark a set of notifications as handled, so they can be cleaned up on other clients that have received the notification</summary>
+      </wsdl:documentation>
+      <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Pocket/NotificationsHandled" name="NotificationsHandledRequest" message="tns:NotificationsHandledRequest" />
+      <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Pocket/NotificationsHandledResponse" name="NotificationsHandledResponse" message="tns:NotificationsHandledResponse" />
+    </wsdl:operation>
   </wsdl:portType>
   <wsdl:binding name="BasicHttpBinding_Pocket" type="tns:Pocket">
     <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="GetMyCallerIDs">
+      <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/Pocket/GetMyCallerIDs" style="document" />
+      <wsdl:input name="GetMyCallerIDsRequest">
+        <soap:header message="tns:GetMyCallerIDsRequest_Headers" part="ApplicationToken" use="literal" />
+        <soap:header message="tns:GetMyCallerIDsRequest_Headers" part="Credentials" use="literal" />
+        <soap:header message="tns:GetMyCallerIDsRequest_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="GetMyCallerIDsResponse">
+        <soap:header message="tns:GetMyCallerIDsResponse_Headers" part="ExceptionInfo" use="literal" />
+        <soap:header message="tns:GetMyCallerIDsResponse_Headers" part="ExtraInfo" use="literal" />
+        <soap:header message="tns:GetMyCallerIDsResponse_Headers" part="Succeeded" use="literal" />
+        <soap:header message="tns:GetMyCallerIDsResponse_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetCallerIDsFromSelection">
+      <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/Pocket/GetCallerIDsFromSelection" style="document" />
+      <wsdl:input name="GetCallerIDsFromSelectionRequest">
+        <soap:header message="tns:GetCallerIDsFromSelectionRequest_Headers" part="ApplicationToken" use="literal" />
+        <soap:header message="tns:GetCallerIDsFromSelectionRequest_Headers" part="Credentials" use="literal" />
+        <soap:header message="tns:GetCallerIDsFromSelectionRequest_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="GetCallerIDsFromSelectionResponse">
+        <soap:header message="tns:GetCallerIDsFromSelectionResponse_Headers" part="ExceptionInfo" use="literal" />
+        <soap:header message="tns:GetCallerIDsFromSelectionResponse_Headers" part="ExtraInfo" use="literal" />
+        <soap:header message="tns:GetCallerIDsFromSelectionResponse_Headers" part="Succeeded" use="literal" />
+        <soap:header message="tns:GetCallerIDsFromSelectionResponse_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
     <wsdl:operation name="GetPocketStartupData">
       <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/Pocket/GetPocketStartupData" style="document" />
       <wsdl:input name="GetPocketStartupDataRequest">
@@ -1011,6 +1310,54 @@ title: Services88.PocketAgent WSDL
         <soap:body use="literal" />
       </wsdl:output>
     </wsdl:operation>
+    <wsdl:operation name="NotifyUsers">
+      <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/Pocket/NotifyUsers" style="document" />
+      <wsdl:input name="NotifyUsersRequest">
+        <soap:header message="tns:NotifyUsersRequest_Headers" part="ApplicationToken" use="literal" />
+        <soap:header message="tns:NotifyUsersRequest_Headers" part="Credentials" use="literal" />
+        <soap:header message="tns:NotifyUsersRequest_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="NotifyUsersResponse">
+        <soap:header message="tns:NotifyUsersResponse_Headers" part="ExceptionInfo" use="literal" />
+        <soap:header message="tns:NotifyUsersResponse_Headers" part="ExtraInfo" use="literal" />
+        <soap:header message="tns:NotifyUsersResponse_Headers" part="Succeeded" use="literal" />
+        <soap:header message="tns:NotifyUsersResponse_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="NotificationHandled">
+      <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/Pocket/NotificationHandled" style="document" />
+      <wsdl:input name="NotificationHandledRequest">
+        <soap:header message="tns:NotificationHandledRequest_Headers" part="ApplicationToken" use="literal" />
+        <soap:header message="tns:NotificationHandledRequest_Headers" part="Credentials" use="literal" />
+        <soap:header message="tns:NotificationHandledRequest_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="NotificationHandledResponse">
+        <soap:header message="tns:NotificationHandledResponse_Headers" part="ExceptionInfo" use="literal" />
+        <soap:header message="tns:NotificationHandledResponse_Headers" part="ExtraInfo" use="literal" />
+        <soap:header message="tns:NotificationHandledResponse_Headers" part="Succeeded" use="literal" />
+        <soap:header message="tns:NotificationHandledResponse_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="NotificationsHandled">
+      <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/Pocket/NotificationsHandled" style="document" />
+      <wsdl:input name="NotificationsHandledRequest">
+        <soap:header message="tns:NotificationsHandledRequest_Headers" part="ApplicationToken" use="literal" />
+        <soap:header message="tns:NotificationsHandledRequest_Headers" part="Credentials" use="literal" />
+        <soap:header message="tns:NotificationsHandledRequest_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="NotificationsHandledResponse">
+        <soap:header message="tns:NotificationsHandledResponse_Headers" part="ExceptionInfo" use="literal" />
+        <soap:header message="tns:NotificationsHandledResponse_Headers" part="ExtraInfo" use="literal" />
+        <soap:header message="tns:NotificationsHandledResponse_Headers" part="Succeeded" use="literal" />
+        <soap:header message="tns:NotificationsHandledResponse_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
   </wsdl:binding>
   <wsdl:service name="WcfPocketService">
     <wsdl:port name="BasicHttpBinding_Pocket" binding="tns:BasicHttpBinding_Pocket">
@@ -1019,3 +1366,4 @@ title: Services88.PocketAgent WSDL
   </wsdl:service>
 </wsdl:definitions>
 ```
+

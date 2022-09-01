@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Ticket/CreateDefaultAttachmentEntity
-id: v1TicketAgent_CreateDefaultAttachmentEntity
+uid: v1TicketAgent_CreateDefaultAttachmentEntity
 ---
 
 # POST Agents/Ticket/CreateDefaultAttachmentEntity
@@ -11,7 +11,14 @@ POST /api/v1/Agents/Ticket/CreateDefaultAttachmentEntity
 
 Set default values into a new AttachmentEntity.
 
+
 NetServer calculates default values on the entity, which is required when creating/storing a new instance
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -26,18 +33,16 @@ NetServer calculates default values on the entity, which is required when creati
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response: object
 
-The Attachment carrier represent meta data for a Service attachment
+## Response: 
 
-Carrier object for AttachmentEntity.
-Services for the AttachmentEntity Carrier is available from the <see cref="T:SuperOffice.CRM.Services.ITicketAgent">Ticket Agent</see>.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -50,7 +55,7 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Ticket/CreateDefaultAttachmentEntity
@@ -59,29 +64,25 @@ Accept: application/json; charset=utf-8
 Accept-Language: en
 ```
 
+## Sample response
+
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 857,
-  "Name": "Kemmer-Tillman",
-  "ContentType": "tempora",
-  "AttSize": 972,
+  "AttachmentId": 349,
+  "Name": "DuBuque, Roob and Marquardt",
+  "ContentType": "esse",
+  "AttSize": 729,
   "InlineImage": true,
-  "ContentId": "dolores",
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "ContentId": "soluta",
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
+      "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 241
+      "FieldLength": 188
     }
   }
 }

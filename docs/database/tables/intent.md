@@ -1,12 +1,12 @@
 ---
 uid: table-Intent
 title: Intent table
-description: Intent list for SAINT. 
+description: Intent list for SAINT. More information regarding SuperOffice Sales Intelligence on http;//techdoc.superoffice.com 
 so.generated: true
 keywords:
   - "database"
   - "Intent"
-so.date: 04.12.2022
+so.date: 08.26.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -16,7 +16,7 @@ so.envir:
 # Intent Table (216)
 
 Intent MDO list item table.
-Intent list for SAINT.
+Intent list for SAINT. More information regarding SuperOffice Sales Intelligence on http;//techdoc.superoffice.com 
 
 ## Fields
 
@@ -32,6 +32,7 @@ Intent list for SAINT.
 |updated|Last updated when|UtcDateTime| |
 |updated\_associate\_id|Last updated by whom|FK [associate](associate.md)| |
 |updatedCount|Number of updates made to this record|UShort| |
+
 
 ![Intent table relationship diagram](./media/Intent.png)
 
@@ -55,6 +56,7 @@ Intent list for SAINT.
 |[IntentHeadingLink](intentheadinglink.md)  |Heading link table for Intent, for MDO headers |
 |[Task](task.md)  |Task list table, activity types, like Phone, Meeting |
 
+
 ## Replication Flags
 
 * Replicate changes DOWN from central to satellites and travellers.
@@ -64,3 +66,4 @@ Intent list for SAINT.
 ## Security Flags
 
 * No access control via user's Role.
+

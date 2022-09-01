@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Audience/GetDefaultPersonImage
-id: v1AudienceAgent_GetDefaultPersonImage
+uid: v1AudienceAgent_GetDefaultPersonImage
 ---
 
 # POST Agents/Audience/GetDefaultPersonImage
@@ -11,7 +11,13 @@ POST /api/v1/Agents/Audience/GetDefaultPersonImage
 
 Returns the default person (sales rep) image that is displayed in Audience when no person image is found.
 
+
 The image belongs to a specific Audience layout instance.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +28,7 @@ The image belongs to a specific Audience layout instance.
 ```http
 POST /api/v1/Agents/Audience/GetDefaultPersonImage?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,39 +44,45 @@ POST /api/v1/Agents/Audience/GetDefaultPersonImage?$select=name,department,categ
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-LayoutName
+LayoutName 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | LayoutName | string |  |
 
-## Response
+
+## Response: byte
+
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: byte
 
-## Sample Request
+
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Audience/GetDefaultPersonImage
 Authorization: Basic dGplMDpUamUw
-Accept: binary/octet-stream
-Accept-Language: en
+Accept: application/json; charset=utf-8
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "LayoutName": "Pagac, Olson and McGlynn"
+  "LayoutName": "Crooks-Halvorson"
 }
 ```
 
+## Sample response
+
 ```http_
 HTTP/1.1 200 OK
-Content-Type: binary/octet-stream
+Content-Type: application/json; charset=utf-8
 
-GIF89....File contents as raw bytes...
+"GIF89....File contents as raw bytes..."
 ```

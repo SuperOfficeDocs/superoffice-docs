@@ -7,7 +7,7 @@ keywords:
   - "mdo provider"
   - "emailfolder"
 so.generated: true
-so.date: 03.19.2021
+so.date: 08.26.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -15,8 +15,9 @@ so.envir:
 ---
 
 # "emailfolder" MDO List
-
 EmailFolderProvider gives you the folder hierarchy of a given mail account
+
+
 
 Implemented by the <see cref="T:SuperOffice.CRM.Lists.EmailFolderProvider">EmailFolderProvider</see> class.
 The name of the MDO list is 'emailfolder'.
@@ -30,6 +31,10 @@ The name of the MDO list is 'emailfolder'.
 
 Separator: &
 
+
+
+
+
 ## Sample Request
 
 ```http!
@@ -41,7 +46,6 @@ Accept-Language: *
 ```
 
 ## Sample Code
-
 ```cs
 var listProvider = SuperOffice.CRM.Lists.SoListProviderFactory.Create("emailfolder", forceFlatList: true);
 foreach (var item in listProvider.RootItems) {
@@ -55,6 +59,7 @@ foreach (var item in listProvider.RootItems) {
 |Id   | Name  |StyleHint|ExtraInfo |
 | --- | ----- | ------- | -------- |
 | 2 | Example | | |
+
 
 ## Related MDO Lists
 

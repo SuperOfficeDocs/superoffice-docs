@@ -1,6 +1,6 @@
 ---
 title: GET List/UserGroup/Items
-id: v1UserGroupList_GetAllUserGroup
+uid: v1UserGroupList_GetAllUserGroup
 ---
 
 # GET List/UserGroup/Items
@@ -11,7 +11,13 @@ GET /api/v1/List/UserGroup/Items
 
 Gets a list of all UserGroup list items.
 
+
 Calls the User agent service GetAllUserGroup.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +28,7 @@ Calls the User agent service GetAllUserGroup.
 ```http
 GET /api/v1/List/UserGroup/Items?includeDeleted=False
 ```
+
 
 ## Request Headers
 
@@ -36,7 +43,10 @@ GET /api/v1/List/UserGroup/Items?includeDeleted=False
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -54,14 +64,16 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 GET /api/v1/List/UserGroup/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -69,23 +81,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Value": "harum",
-    "Tooltip": "corrupti",
-    "Id": 867,
-    "Rank": 608,
-    "Deleted": true,
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": "empower customized e-services"
-    },
+    "Value": "aut",
+    "Tooltip": "beatae",
+    "Id": 541,
+    "Rank": 977,
+    "Deleted": false,
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
+        "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 333
+        "FieldLength": 864
       }
     }
   }

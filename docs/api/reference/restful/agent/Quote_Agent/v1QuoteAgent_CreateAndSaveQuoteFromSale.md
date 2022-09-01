@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Quote/CreateAndSaveQuoteFromSale
-id: v1QuoteAgent_CreateAndSaveQuoteFromSale
+uid: v1QuoteAgent_CreateAndSaveQuoteFromSale
 ---
 
 # POST Agents/Quote/CreateAndSaveQuoteFromSale
@@ -11,6 +11,12 @@ POST /api/v1/Agents/Quote/CreateAndSaveQuoteFromSale
 
 Creates a copy the active version with connected alternatives and quotelines from another sale.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Creates a copy the active version with connected alternatives and quotelines fro
 ```http
 POST /api/v1/Agents/Quote/CreateAndSaveQuoteFromSale?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,27 +42,25 @@ POST /api/v1/Agents/Quote/CreateAndSaveQuoteFromSale?$select=name,department,cat
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-CopyFromSaleId, CopyToSaleId
+CopyFromSaleId, CopyToSaleId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | CopyFromSaleId | int32 |  |
 | CopyToSaleId | int32 |  |
 
-## Response: object
 
-Quote methods
+## Response: 
 
-Carrier object for QuoteEntity.
-Services for the QuoteEntity Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IQuoteAgent">Quote Agent</see>.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -75,105 +80,100 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Quote/CreateAndSaveQuoteFromSale
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "CopyFromSaleId": 414,
-  "CopyToSaleId": 680
+  "CopyFromSaleId": 47,
+  "CopyToSaleId": 523
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteId": 800,
-  "SaleId": 861,
-  "QuoteConnectionId": 724,
-  "ERPQuoteKey": "illum",
-  "ERPOrderKey": "eligendi",
-  "ActiveQuoteVersionId": 441,
-  "AcceptedQuoteAlternativeId": 702,
-  "UseValuesFromQuote": 585,
-  "DocumentId": 323,
-  "PoNumber": "1180368",
-  "OrderComment": "officiis",
-  "PreferredEmailCulture": "cecilia@lindgrenmaggio.ca",
+  "QuoteId": 780,
+  "SaleId": 21,
+  "QuoteConnectionId": 881,
+  "ERPQuoteKey": "repellat",
+  "ERPOrderKey": "commodi",
+  "ActiveQuoteVersionId": 874,
+  "AcceptedQuoteAlternativeId": 900,
+  "UseValuesFromQuote": 293,
+  "DocumentId": 254,
+  "PoNumber": "329542",
+  "OrderComment": "fugiat",
+  "PreferredEmailCulture": "leora.jewess@gleasonkerluke.com",
   "QuoteVersions": [
     {
-      "QuoteVersionId": 68,
-      "ERPQuoteVersionKey": "inventore",
-      "QuoteId": 945,
-      "Description": "Total disintermediate benchmark",
-      "Number": "248934",
+      "QuoteVersionId": 861,
+      "ERPQuoteVersionKey": "deserunt",
+      "QuoteId": 297,
+      "Description": "Profound fresh-thinking success",
+      "Number": "1385868",
       "State": "Archived",
       "ArchivedState": "Archived",
       "Status": "Error",
       "Reason": "",
-      "LikelyQuoteAlternativeId": 993,
-      "SentDate": "2018-10-13T18:28:49.9551377+02:00",
-      "FollowupId": 336,
-      "ExpirationDate": "2016-04-03T18:28:49.9551377+02:00",
-      "DeliveryCountryId": 415,
-      "HasOwnDeliveryAddress": true,
-      "InvoiceCountryId": 139,
+      "LikelyQuoteAlternativeId": 844,
+      "SentDate": "2014-05-11T11:10:27.7234949+02:00",
+      "FollowupId": 684,
+      "ExpirationDate": "2020-02-19T11:10:27.7234949+01:00",
+      "DeliveryCountryId": 659,
+      "HasOwnDeliveryAddress": false,
+      "InvoiceCountryId": 335,
       "HasOwnInvoiceAddress": true,
-      "ERPPaymentTermsKey": "sint",
-      "ERPPaymentTypeKey": "et",
-      "ERPDeliveryTermsKey": "dolorum",
-      "ERPDeliveryTypeKey": "voluptatem",
-      "Rank": 85,
-      "ApprovedBy": 604,
-      "ApprovedText": "eius",
-      "ApprovedRegisteredBy": 57,
-      "ApprovedRegisteredDate": "2001-11-05T18:28:49.9551377+01:00",
-      "ExtraField1": "nam",
-      "ExtraField2": "molestiae",
-      "ExtraField3": "iste",
-      "ExtraField4": "qui",
-      "ExtraField5": "voluptatem",
-      "LastRecalculated": "2019-01-15T18:28:49.9551377+01:00",
-      "Updated": "2011-11-04T18:28:49.9551377+01:00",
-      "UpdatedAssociateId": 776,
-      "Registered": "2001-01-21T18:28:49.9551377+01:00",
-      "RegisteredAssociateId": 667,
+      "ERPPaymentTermsKey": "deleniti",
+      "ERPPaymentTypeKey": "fugit",
+      "ERPDeliveryTermsKey": "velit",
+      "ERPDeliveryTypeKey": "omnis",
+      "Rank": 707,
+      "ApprovedBy": 666,
+      "ApprovedText": "et",
+      "ApprovedRegisteredBy": 137,
+      "ApprovedRegisteredDate": "2000-02-11T11:10:27.7234949+01:00",
+      "ExtraField1": "vero",
+      "ExtraField2": "dolores",
+      "ExtraField3": "quia",
+      "ExtraField4": "recusandae",
+      "ExtraField5": "eos",
+      "LastRecalculated": "2011-10-15T11:10:27.7234949+02:00",
+      "Updated": "2004-10-28T11:10:27.7234949+02:00",
+      "UpdatedAssociateId": 14,
+      "Registered": "2002-06-04T11:10:27.7234949+02:00",
+      "RegisteredAssociateId": 886,
+      "RequestAssociateId": 568,
+      "RequestComment": "ut",
       "QuoteAlternatives": [
         {},
         {}
       ],
-      "TableRight": {},
+      "TableRight": null,
       "FieldProperties": {
         "fieldName": {
-          "FieldRight": {
-            "Mask": "FULL",
-            "Reason": ""
-          },
+          "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 427
+          "FieldLength": 636
         }
       }
     }
   ],
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
-      "FieldType": "System.Int32",
-      "FieldLength": 638
+      "FieldRight": null,
+      "FieldType": "System.String",
+      "FieldLength": 967
     }
   }
 }

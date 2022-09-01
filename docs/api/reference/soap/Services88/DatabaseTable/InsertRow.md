@@ -12,12 +12,12 @@ Implemented by the <see cref="M:SuperOffice.Services88.IDatabaseTableAgent.Inser
 ## InsertRow
 
 Insert a row into a table
-<br />**Online Restricted:** The DatabaseTable agent is not available in Online by default. Access must be requested specifically when app is registered.
 
 * **tableName:** The name of the table to insert into; in the current release this must be an 'extratable'. Use the database name, on the form y\_aTable
 * **values:** A StringDictionary with the values to insert. You do not need to specify all the values in the table. The omitted ones will get default values
 
 **Returns:** The id of the newly inserted row
+
 
 [WSDL file for Services88/DatabaseTable](../Services88-DatabaseTable.md)
 
@@ -57,6 +57,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## InsertRow Response
 
 ```xml
@@ -77,3 +78,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

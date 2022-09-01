@@ -1,6 +1,6 @@
 ---
 title: PUT List/Category/Items/{id}/UserGroups
-id: v1CategoryList_PutCategoryUserGroupsForListItem
+uid: v1CategoryList_PutCategoryUserGroupsForListItem
 ---
 
 # PUT List/Category/Items/{id}/UserGroups
@@ -11,11 +11,18 @@ PUT /api/v1/List/Category/Items/{itemId}/UserGroups
 
 Saves user groups visible for the Category list's item.
 
+
 Calls the List agent service SaveHeadingsForListItemFromListDefinition.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | itemId | int32 | The ID of the item to save. **Required** |
+
+
 
 ## Request Headers
 
@@ -31,9 +38,9 @@ Calls the List agent service SaveHeadingsForListItemFromListDefinition.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entities
+## Request Body: entities  
 
-The headings to be saved.
+The headings to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -53,7 +60,10 @@ The headings to be saved.
 | Hidden | bool | True if the ListItem is hidden |
 | FullName | string | The name of the ListItem in its context |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -81,7 +91,7 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 PUT /api/v1/List/Category/Items/{itemId}/UserGroups
@@ -92,45 +102,47 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 213,
-    "Name": "Wilkinson LLC",
-    "ToolTip": "Voluptas molestiae non qui ratione eos.",
-    "Deleted": false,
-    "Rank": 266,
-    "Type": "ab",
-    "ColorBlock": 50,
-    "IconHint": "sint",
+    "Id": 317,
+    "Name": "Franecki-Gerlach",
+    "ToolTip": "Et iure possimus iure vel a repellendus.",
+    "Deleted": true,
+    "Rank": 359,
+    "Type": "mollitia",
+    "ColorBlock": 421,
+    "IconHint": "quidem",
     "Selected": false,
-    "LastChanged": "2003-12-30T18:25:51.6372945+01:00",
+    "LastChanged": "1998-06-12T11:10:53.9461855+02:00",
     "ChildItems": [
       {
-        "Id": 647,
-        "Name": "Moen, Swaniawski and McClure",
-        "ToolTip": "Id qui.",
+        "Id": 859,
+        "Name": "Bayer LLC",
+        "ToolTip": "Nam voluptas atque reprehenderit et.",
         "Deleted": true,
-        "Rank": 196,
-        "Type": "ipsum",
-        "ColorBlock": 911,
-        "IconHint": "ducimus",
-        "Selected": true,
-        "LastChanged": "2002-03-25T18:25:51.6372945+01:00",
+        "Rank": 15,
+        "Type": "error",
+        "ColorBlock": 356,
+        "IconHint": "sunt",
+        "Selected": false,
+        "LastChanged": "2009-04-16T11:10:53.9461855+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "voluptas",
-        "StyleHint": "corporis",
-        "Hidden": true,
-        "FullName": "Miss Joshua Hayes"
+        "ExtraInfo": "voluptatibus",
+        "StyleHint": "possimus",
+        "Hidden": false,
+        "FullName": "Dr. Green Mohr MD"
       }
     ],
-    "ExtraInfo": "modi",
-    "StyleHint": "dignissimos",
-    "Hidden": true,
-    "FullName": "Caroline Donnelly"
+    "ExtraInfo": "repudiandae",
+    "StyleHint": "unde",
+    "Hidden": false,
+    "FullName": "Prof. Granville Shields"
   }
 ]
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -138,65 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 415,
-    "Name": "Parker, Corkery and Torphy",
-    "ToolTip": "Voluptas optio eum unde.",
+    "Id": 413,
+    "Name": "Anderson Group",
+    "ToolTip": "Doloremque qui qui.",
     "Deleted": false,
-    "Rank": 339,
-    "Type": "recusandae",
-    "ColorBlock": 304,
+    "Rank": 703,
+    "Type": "voluptas",
+    "ColorBlock": 518,
     "IconHint": "possimus",
-    "Selected": true,
-    "LastChanged": "2001-06-27T18:25:51.6382946+02:00",
+    "Selected": false,
+    "LastChanged": "1997-03-07T11:10:53.948185+01:00",
     "ChildItems": [
       {
-        "Id": 749,
-        "Name": "Quitzon, Hoeger and Waelchi",
-        "ToolTip": "Quia exercitationem illo et impedit deleniti sint.",
-        "Deleted": false,
-        "Rank": 96,
-        "Type": "placeat",
-        "ColorBlock": 147,
-        "IconHint": "est",
-        "Selected": true,
-        "LastChanged": "1996-11-20T18:25:51.6382946+01:00",
+        "Id": 274,
+        "Name": "Marvin-Hauck",
+        "ToolTip": "Neque sunt incidunt et aut.",
+        "Deleted": true,
+        "Rank": 311,
+        "Type": "in",
+        "ColorBlock": 991,
+        "IconHint": "amet",
+        "Selected": false,
+        "LastChanged": "2010-08-05T11:10:53.948185+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "et",
-        "StyleHint": "ducimus",
+        "ExtraInfo": "numquam",
+        "StyleHint": "autem",
         "Hidden": false,
-        "FullName": "Odell Feest I",
-        "TableRight": {},
+        "FullName": "Dr. Ivy Hessel",
+        "TableRight": null,
         "FieldProperties": {
           "fieldName": {
-            "FieldRight": {
-              "Mask": "FULL",
-              "Reason": ""
-            },
-            "FieldType": "System.String",
-            "FieldLength": 554
+            "FieldRight": null,
+            "FieldType": "System.Int32",
+            "FieldLength": 558
           }
         }
       }
     ],
-    "ExtraInfo": "nihil",
-    "StyleHint": "omnis",
-    "Hidden": true,
-    "FullName": "Carolanne Goldner",
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": "streamline synergistic e-commerce"
-    },
+    "ExtraInfo": "atque",
+    "StyleHint": "repudiandae",
+    "Hidden": false,
+    "FullName": "Lavonne Hodkiewicz",
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 382
+        "FieldRight": null,
+        "FieldType": "System.Int32",
+        "FieldLength": 680
       }
     }
   }

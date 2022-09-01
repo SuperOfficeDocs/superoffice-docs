@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "freetextindex"
-so.date: 04.12.2022
+so.date: 08.26.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -15,7 +15,7 @@ so.envir:
 
 # freetextindex Table (46)
 
-This is the index table for the free text search function. Each word in FreeTextWords can have multiple occurrences in this table. Each record in this table points to one occurrence of the word, and points to both the table in which the word occurs (which might be contact or text), and also a pointer to the owner table (which is one of contact, person, project, appointment or sale).
+This is the index table for the free text search function. Each word in FreeTextWords can have multiple occurrences in this table. Each record in this table points to one occurrence of the word, and points to both the table in which the word occurs (which might be contact or text), and also a pointer to the owner table (which is one of contact, person, project, appointment or sale). 
 
 ## Fields
 
@@ -29,6 +29,7 @@ This is the index table for the free text search function. Each word in FreeText
 |ownerrecord\_id|Logical source record. The contact, project, sale that the source belongs to.|RecordId| |
 |infile|Word found in file (0=word found in database)|UShort| |
 |contact\_id|Set for contacts and person records to allow cross-table free-text searches. 0 for non-contact, non-person|FK [contact](contact.md)| |
+
 
 ![freetextindex table relationship diagram](./media/freetextindex.png)
 
@@ -50,6 +51,7 @@ This is the index table for the free text search function. Each word in FreeText
 |[contact](contact.md)  |Companies and Organizations.   This table features a special record containing information about the contact that owns the database.   |
 |[freetextwords](freetextwords.md)  |This table contains the word list (automatically updated by the indexer) for the free-text search. Words are in UPPERCASE and truncated to 9 significant characters. Indexed words, dynamically updated by the freetext index |
 
+
 ## Replication Flags
 
 * Copy to satellite and travel prototypes.
@@ -57,3 +59,4 @@ This is the index table for the free text search function. Each word in FreeText
 ## Security Flags
 
 * No access control via user's Role.
+

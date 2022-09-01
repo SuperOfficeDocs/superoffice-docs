@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Quote/GetQuoteAlternative
-id: v1QuoteAgent_GetQuoteAlternative
+uid: v1QuoteAgent_GetQuoteAlternative
 ---
 
 # POST Agents/Quote/GetQuoteAlternative
@@ -11,6 +11,12 @@ POST /api/v1/Agents/Quote/GetQuoteAlternative
 
 Gets a QuoteAlternative object.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -19,9 +25,10 @@ Gets a QuoteAlternative object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Quote/GetQuoteAlternative?quoteAlternativeId=949
+POST /api/v1/Agents/Quote/GetQuoteAlternative?quoteAlternativeId=251
 POST /api/v1/Agents/Quote/GetQuoteAlternative?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -36,18 +43,16 @@ POST /api/v1/Agents/Quote/GetQuoteAlternative?$select=name,department,category/i
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response: object
 
-Information about a connection to the ERP system.
+## Response: 
 
-Carrier object for QuoteAlternative.
-Services for the QuoteAlternative Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IQuoteAgent">Quote Agent</see>.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -77,7 +82,7 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Quote/GetQuoteAlternative
@@ -86,46 +91,42 @@ Accept: application/json; charset=utf-8
 Accept-Language: en
 ```
 
+## Sample response
+
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternativeId": 340,
-  "ERPQuoteAlternativeKey": "cumque",
-  "QuoteVersionId": 647,
-  "Name": "Abernathy LLC",
-  "Description": "Sharable intermediate Graphical User Interface",
+  "QuoteAlternativeId": 538,
+  "ERPQuoteAlternativeKey": "quis",
+  "QuoteVersionId": 595,
+  "Name": "Mann Group",
+  "Description": "Fully-configurable bifurcated utilisation",
   "Status": "Error",
   "Reason": "",
-  "ERPDiscountPercent": 26190.838,
-  "ERPDiscountAmount": 23605.288,
-  "DiscountPercent": 23852.874,
-  "DiscountAmount": 31242.845999999998,
+  "ERPDiscountPercent": 10677.538,
+  "ERPDiscountAmount": 20872.44,
+  "DiscountPercent": 9709.132,
+  "DiscountAmount": 15143.488,
   "UserValueOverride": "DiscountAmount",
-  "VATInfo": "minus",
-  "VAT": 21364.478,
-  "EarningPercent": 2557.344,
-  "EarningAmount": 20916.316,
-  "SubTotal": 12573.608,
-  "TotalPrice": 29741.66,
-  "ExtraField1": "sapiente",
-  "ExtraField2": "quam",
-  "ExtraField3": "dolore",
-  "ExtraField4": "quam",
-  "ExtraField5": "culpa",
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "VATInfo": "rerum",
+  "VAT": 14758.006,
+  "EarningPercent": 13071.913999999999,
+  "EarningAmount": 10339.065999999999,
+  "SubTotal": 18286.89,
+  "TotalPrice": 31098.682,
+  "ExtraField1": "fuga",
+  "ExtraField2": "sed",
+  "ExtraField3": "laborum",
+  "ExtraField4": "ut",
+  "ExtraField5": "quam",
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
+      "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 911
+      "FieldLength": 232
     }
   }
 }

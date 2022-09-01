@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Find/GetCriteriaInformation
-id: v1FindAgent_GetCriteriaInformation
+uid: v1FindAgent_GetCriteriaInformation
 ---
 
 # POST Agents/Find/GetCriteriaInformation
@@ -11,7 +11,13 @@ POST /api/v1/Agents/Find/GetCriteriaInformation
 
 Get criteria information from a set of saved criteria.
 
+
 The result contains the restrictions in two forms: fully populated ArchiveRestrictionInfo objects, used to display details and for saving changes; and as a list suitable for an Archive control
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +28,7 @@ The result contains the restrictions in two forms: fully populated ArchiveRestri
 ```http
 POST /api/v1/Agents/Find/GetCriteriaInformation?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,9 +44,9 @@ POST /api/v1/Agents/Find/GetCriteriaInformation?$select=name,department,category
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-StorageType, ProviderName, StorageKey, StaticColumns
+StorageType, ProviderName, StorageKey, StaticColumns 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -48,18 +55,16 @@ StorageType, ProviderName, StorageKey, StaticColumns
 | StorageKey | string |  |
 | StaticColumns | array |  |
 
-## Response: object
 
-Carrier for criteria information. It contains all the search criteria - that is, ArchiveRestrictionInfo - objects, including a  column specification. In addition, it contains the same criteria expressed as an archive, with an array of ArchiveColumnInfo specifications and a set of ArchiveRow rows. The rows of the archive form a subset of the restriction array.
+## Response: 
 
-Carrier object for CriteriaInformation.
-Services for the CriteriaInformation Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IFindAgent">Find Agent</see>.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -70,25 +75,27 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Find/GetCriteriaInformation
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "enim",
-  "ProviderName": "Gibson-Swaniawski",
-  "StorageKey": "voluptatum",
+  "StorageType": "sed",
+  "ProviderName": "Marquardt Inc and Sons",
+  "StorageKey": "animi",
   "StaticColumns": [
-    "expedita",
-    "soluta"
+    "molestias",
+    "sit"
   ]
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -97,102 +104,93 @@ Content-Type: application/json; charset=utf-8
 {
   "Restrictions": [
     {
-      "Name": "Watsica-Renner",
-      "Operator": "qui",
+      "Name": "Turner LLC",
+      "Operator": "corporis",
       "Values": [
-        "incidunt",
-        "at"
+        "laboriosam",
+        "molestiae"
       ],
       "DisplayValues": [
-        "dicta",
-        "distinctio"
+        "reprehenderit",
+        "eum"
       ],
-      "ColumnInfo": {},
+      "ColumnInfo": null,
       "IsActive": false,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 343,
+      "InterParenthesis": 217,
       "InterOperator": "And",
-      "UniqueHash": 108
+      "UniqueHash": 815
     }
   ],
   "CriteriaArchiveColumns": [
     {
-      "DisplayName": "Bergnaum, D'Amore and McCullough",
-      "DisplayTooltip": "fugiat",
-      "DisplayType": "et",
+      "DisplayName": "Leuschke, Hessel and Kunde",
+      "DisplayTooltip": "culpa",
+      "DisplayType": "esse",
       "CanOrderBy": false,
-      "Name": "Ratke-Kulas",
-      "CanRestrictBy": true,
-      "RestrictionType": "et",
-      "RestrictionListName": "Ebert-Deckow",
-      "IsVisible": true,
-      "ExtraInfo": "rerum",
-      "Width": "suscipit",
-      "IconHint": "ut",
-      "HeadingIconHint": "distinctio"
+      "Name": "Schuster Group",
+      "CanRestrictBy": false,
+      "RestrictionType": "modi",
+      "RestrictionListName": "Reilly Group",
+      "IsVisible": false,
+      "ExtraInfo": "neque",
+      "Width": "voluptas",
+      "IconHint": "adipisci",
+      "HeadingIconHint": "laudantium"
     }
   ],
   "CriteriaArchiveRows": [
     {
-      "EntityName": "Stanton-Cole",
-      "PrimaryKey": 459,
+      "EntityName": "Cronin, Hermann and Wiegand",
+      "PrimaryKey": 923,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "iste",
-          "TooltipHint": "qui",
-          "LinkHint": "incidunt"
+          "DisplayValue": "aperiam",
+          "TooltipHint": "nisi",
+          "LinkHint": "vitae"
         }
       },
-      "LinkHint": "et",
-      "StyleHint": "qui",
-      "TableRight": {},
+      "LinkHint": "eligendi",
+      "StyleHint": "magnam",
+      "TableRight": null,
       "FieldProperties": {
         "fieldName": {
-          "FieldRight": {
-            "Mask": "FULL",
-            "Reason": ""
-          },
+          "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 519
+          "FieldLength": 417
         }
       }
     }
   ],
   "RestrictionGroups": [
     {
-      "Name": "Konopelski LLC",
-      "Description": "Face to face zero defect hierarchy",
-      "Rank": 540,
+      "Name": "Kilback, Marks and Parisian",
+      "Description": "Devolved tertiary artificial intelligence",
+      "Rank": 74,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Konopelski LLC",
-      "Description": "Face to face zero defect hierarchy",
-      "Rank": 540,
+      "Name": "Kilback, Marks and Parisian",
+      "Description": "Devolved tertiary artificial intelligence",
+      "Rank": 74,
       "Restrictions": [
         {},
         {}
       ]
     }
   ],
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
-      "FieldType": "System.String",
-      "FieldLength": 91
+      "FieldRight": null,
+      "FieldType": "System.Int32",
+      "FieldLength": 434
     }
   }
 }

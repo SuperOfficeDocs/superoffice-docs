@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Dash/AddNewTileToDashboard
-id: v1DashAgent_AddNewTileToDashboard
+uid: v1DashAgent_AddNewTileToDashboard
 ---
 
 # POST Agents/Dash/AddNewTileToDashboard
@@ -11,6 +11,12 @@ POST /api/v1/Agents/Dash/AddNewTileToDashboard
 
 Add a new tile to a dashboard with next rank
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Add a new tile to a dashboard with next rank
 ```http
 POST /api/v1/Agents/Dash/AddNewTileToDashboard?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,27 +42,25 @@ POST /api/v1/Agents/Dash/AddNewTileToDashboard?$select=name,department,category/
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-DashboardId, DashTileDefinition
+DashboardId, DashTileDefinition 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | DashboardId | int32 |  |
-| DashTileDefinition |  | Dashboard Tile definition <br /> Carrier object for DashTileDefinition. Services for the DashTileDefinition Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IDashAgent">Dash Agent</see>. |
+| DashTileDefinition |  | Dashboard Tile definition <para /> Carrier object for DashTileDefinition. Services for the DashTileDefinition Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IDashAgent">Dash Agent</see>. |
 
-## Response: object
 
-Dashboard Tile configuration
+## Response: 
 
-Carrier object for DashTile.
-Services for the DashTile Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IDashAgent">Dash Agent</see>.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -68,7 +73,7 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Dash/AddNewTileToDashboard
@@ -78,83 +83,30 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 403,
-  "DashTileDefinition": {
-    "DashboardTileDefinitionId": 787,
-    "Name": "Abernathy, Murray and Bayer",
-    "Description": "Managed zero tolerance service-desk",
-    "DefaultHeight": 285,
-    "DefaultWidth": 82,
-    "TileType": "Area",
-    "EntityType": "Appointment",
-    "EntityName": "Kub Group",
-    "SelectionId": 931,
-    "CurrencyMode": "Base",
-    "CurrencyCode": "necessitatibus",
-    "Measure": "Average",
-    "MeasureField": "nobis",
-    "SortBy": "autem",
-    "LayoutConfig": "ut",
-    "SecondarySelectionId": 192,
-    "MeasureByField": "et",
-    "ProviderName": "Berge-Streich"
-  }
+  "DashboardId": 191,
+  "DashTileDefinition": null
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 549,
-  "DashboardId": 294,
-  "Height": 737,
-  "Width": 958,
-  "Rank": 968,
-  "DashTileDefinition": {
-    "DashboardTileDefinitionId": 449,
-    "Name": "Lakin, Nienow and Wilderman",
-    "Description": "Synchronised tertiary time-frame",
-    "DefaultHeight": 69,
-    "DefaultWidth": 980,
-    "TileType": "Area",
-    "EntityType": "Appointment",
-    "EntityName": "Klocko Inc and Sons",
-    "SelectionId": 649,
-    "CurrencyMode": "Base",
-    "CurrencyCode": "quia",
-    "Measure": "Average",
-    "MeasureField": "et",
-    "SortBy": "omnis",
-    "LayoutConfig": "praesentium",
-    "SecondarySelectionId": 581,
-    "MeasureByField": "architecto",
-    "ProviderName": "Weissnat-Renner",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 336
-      }
-    }
-  },
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "DashboardTileId": 756,
+  "DashboardId": 245,
+  "Height": 848,
+  "Width": 380,
+  "Rank": 446,
+  "DashTileDefinition": null,
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
-      "FieldType": "System.String",
-      "FieldLength": 4
+      "FieldRight": null,
+      "FieldType": "System.Int32",
+      "FieldLength": 758
     }
   }
 }

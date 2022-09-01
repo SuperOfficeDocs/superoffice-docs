@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Appointment/CreateDefaultAppointmentEntity
-id: v1AppointmentAgent_CreateDefaultAppointmentEntity
+uid: v1AppointmentAgent_CreateDefaultAppointmentEntity
 ---
 
 # POST Agents/Appointment/CreateDefaultAppointmentEntity
@@ -11,7 +11,14 @@ POST /api/v1/Agents/Appointment/CreateDefaultAppointmentEntity
 
 Set default values into a new AppointmentEntity.
 
+
 NetServer calculates default values on the entity, which is required when creating/storing a new instance
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -26,20 +33,21 @@ NetServer calculates default values on the entity, which is required when creati
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response: object
 
-Partial AppointmentEntity class associating the generated AppointmentEntity with an interface.
+## Response: 
+
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| Associate |  | The owner of the appointment - the associate whose diary/checklist the appointment is in.  <br />Use MDO List name "associate" to get list items. |
-| Contact |  | The contact associated with the appointment. It may also be null if no contact is associated with the appointment.  <br />Use MDO List name "contact_new" to get list items. |
+| Associate |  | The owner of the appointment - the associate whose diary/checklist the appointment is in.  <para>Use MDO List name "associate" to get list items.</para> |
+| Contact |  | The contact associated with the appointment. It may also be null if no contact is associated with the appointment.  <para>Use MDO List name "contact_new" to get list items.</para> |
 | CreatedBy |  | The associate that first created the appointment. The property is read-only. |
 | UpdatedBy |  | The person that last updated the appointment. |
 | CreatedDate | date-time | Registered date  in UTC. |
@@ -48,11 +56,11 @@ Response body: object
 | StartDate | date-time | date + start time planned |
 | EndDate | date-time | Date + end time planned |
 | InvitedPerson |  | If the appointment is a booking, the invited persons may be your associates, but you are also able to invite contact persons from other companies to join your meeting. They do not receive an invitation, unless you send them one by email, but you can see in the appointment that persons other than your associates have been invited to a meeting. Each invited person will have an appointment slave record. |
-| Person |  | An appointment may also be connected to a person; this must be a contact person registered on the current company. This does not mean however that a person is required.  <br />Use MDO List name "person" to get list items. |
+| Person |  | An appointment may also be connected to a person; this must be a contact person registered on the current company. This does not mean however that a person is required.  <para>Use MDO List name "person" to get list items.</para> |
 | MotherId | int32 | ID of mother appointment; self if booking master, master ID if booking slave, 0 if normal appointment. However, if 0 and assoc_id != reg_id then this is an assigned appointment, indicated vt type = kBooking |
-| Priority |  | It's possible to give appointments different priorities. All the different priority types are saved in the priority table, and edited from the Admin. Client. An appointment does not require a priority.  <br />Use MDO List name "priority" to get list items. |
+| Priority |  | It's possible to give appointments different priorities. All the different priority types are saved in the priority table, and edited from the Admin. Client. An appointment does not require a priority.  <para>Use MDO List name "priority" to get list items.</para> |
 | Private | string | The confidentiality of appointments is shown as different types of “private” on the appointment. For an updated list of “private” types, see the database manual. |
-| Project |  | An appointment may also be connected to a project, so you see the appointment both on the company card, and on the project card. This does not mean however that a project is required.  <br />Use MDO List name "project" to get list items. |
+| Project |  | An appointment may also be connected to a project, so you see the appointment both on the company card, and on the project card. This does not mean however that a project is required.  <para>Use MDO List name "project" to get list items.</para> |
 | Type | string | The different types of appointment, if the appointment is supposed to be shown in the diary or checklist, or if it's a document. See the different types of appointments in the database manual. |
 | UpdatedDate | date-time | Updated date  in UTC. |
 | Completed | string | Appointment Completed state. This property is the part of the Status property that is the completed state. Could be three state if the three state user preference is set. |
@@ -67,7 +75,7 @@ Response body: object
 | LeadTime | string | Time blocked (minutes) BEFORE starttime |
 | Location | string | Location for appointment, defaulted from invited resource of type place and other rules, but you can write anything you want here |
 | RejectCounter | int32 | How many invitees have rejected this appointment |
-| RejectReason | string | Why was this booking or assignment rejected, the RejectReason list is a source of suggestions but you can write anything here  <br />Use MDO List name "rejectReason" to get list items. |
+| RejectReason | string | Why was this booking or assignment rejected, the RejectReason list is a source of suggestions but you can write anything here  <para>Use MDO List name "rejectReason" to get list items.</para> |
 | Recurrence |  | The appointment recurrence. |
 | Participants | array | List of id's of the participants to this appointment. |
 | AssignmentStatus | string | Status if this appointment is in the process of being assigned to someone else |
@@ -77,9 +85,9 @@ Response body: object
 | HasConflict | bool | Does the appointment overlap with another appointment in the user's diary? |
 | AssignedBy |  | Who assigned this appointment to this user? Whose diary did the appointment come from? |
 | MotherAssociate |  | The owner of the mother appointment - the associate whose diary/checklist the mother appointment is in.  The mother appointment is the one identified by the mother_id. If the mother_id is 0 or the same as this appointment_id, then the master associate will be the same as the 'ordinary' associate. |
-| Task |  | Task comprises the different types of activities, like “Phone call”, “Meeting” and so on.  <br />Use MDO List name "task" to get list items. |
+| Task |  | Task comprises the different types of activities, like “Phone call”, “Meeting” and so on.  <para>Use MDO List name "task" to get list items.</para> |
 | PreferredTZLocation | int32 | Appoinmtments preferred timezone location. |
-| Sale |  | An appointment may also be connected to a sale, so you see the appointment on the company card, on the project card and on the sale card. This does not mean however that a sale is required.  <br />Use MDO List name "sale" to get list items. |
+| Sale |  | An appointment may also be connected to a sale, so you see the appointment on the company card, on the project card and on the sale card. This does not mean however that a sale is required.  <para>Use MDO List name "sale" to get list items.</para> |
 | SuggestedAppointmentId | int32 | Suggested guide item that this appointment is an instance of (Note: NOT VALID for document-type appointments, they have their own link) |
 | IsMileStone | bool | Is this appointment a milestone? |
 | CautionWarning | string | Status field to indicate appointments that have some sort of problem |
@@ -96,7 +104,7 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Appointment/CreateDefaultAppointmentEntity
@@ -105,537 +113,143 @@ Accept: application/json; charset=utf-8
 Accept-Language: en
 ```
 
+## Sample response
+
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Associate": {
-    "AssociateId": 452,
-    "Name": "Jewess-Predovic",
-    "PersonId": 923,
-    "Rank": 33,
-    "Tooltip": "et",
-    "Type": "AnonymousAssociate",
-    "GroupIdx": 182,
-    "FullName": "Nick Effertz",
-    "FormalName": "Stracke, Dicki and Stanton",
-    "Deleted": false,
-    "EjUserId": 764,
-    "UserName": "Hodkiewicz, Schamberger and Mante",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.Int32",
-        "FieldLength": 650
-      }
-    }
-  },
-  "Contact": {
-    "ContactId": 787,
-    "Name": "Kessler, Heaney and Conroy",
-    "OrgNr": "1804205",
-    "Department": "",
-    "URL": "http://www.example.com/",
-    "City": "officia",
-    "DirectPhone": "744.012.1363 x734",
-    "AssociateId": 277,
-    "CountryId": 784,
-    "EmailAddress": "vesta@schadenthompson.co.uk",
-    "Kananame": "eum",
-    "EmailAddressName": "amelia_smith@schaeferhilpert.com",
-    "URLName": "http://www.example.com/",
-    "AssociateFullName": "Lea Gibson",
-    "BusinessName": "Information Technology",
-    "CategoryName": "VIP Customer",
-    "CountryName": "Sokovia",
-    "Address": {},
-    "FormattedAddress": "ut",
-    "FullName": "Frederique Okuneva",
-    "IsOwnerContact": true,
-    "ActiveErpLinks": 380,
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.Int32",
-        "FieldLength": 954
-      }
-    }
-  },
-  "CreatedBy": {
-    "AssociateId": 538,
-    "Name": "Bernhard, Herzog and Schmeler",
-    "PersonId": 881,
-    "Rank": 872,
-    "Tooltip": "impedit",
-    "Type": "AnonymousAssociate",
-    "GroupIdx": 364,
-    "FullName": "Ryleigh Willms III",
-    "FormalName": "Quigley-Murray",
-    "Deleted": true,
-    "EjUserId": 179,
-    "UserName": "Rice Inc and Sons",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 594
-      }
-    }
-  },
-  "UpdatedBy": {
-    "AssociateId": 3,
-    "Name": "Kuphal-Russel",
-    "PersonId": 715,
-    "Rank": 103,
-    "Tooltip": "sint",
-    "Type": "AnonymousAssociate",
-    "GroupIdx": 770,
-    "FullName": "Dr. Jeramy Hamill",
-    "FormalName": "Toy-Price",
-    "Deleted": true,
-    "EjUserId": 91,
-    "UserName": "Jakubowski-Greenfelder",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 476
-      }
-    }
-  },
-  "CreatedDate": "2019-01-16T18:28:47.9168441+01:00",
-  "AppointmentId": 833,
-  "Description": "Self-enabling next generation interface",
-  "StartDate": "1999-08-25T18:28:47.9168441+02:00",
-  "EndDate": "1994-12-08T18:28:47.9168441+01:00",
-  "InvitedPerson": {
-    "Position": "accusamus",
-    "PersonId": 843,
-    "Mrmrs": "autem",
-    "Firstname": "Lysanne",
-    "Lastname": "Baumbach",
-    "MiddleName": "Kihn LLC",
-    "Title": "et",
-    "Description": "Profit-focused scalable standardization",
-    "Email": "ronny_daugherty@hammesdibbert.biz",
-    "FullName": "Richmond Corwin",
-    "DirectPhone": "876-022-0144",
-    "FormalName": "Upton, Raynor and Bayer",
-    "CountryId": 336,
-    "ContactId": 960,
-    "ContactName": "Borer, Becker and Wuckert",
-    "Retired": 673,
-    "Rank": 248,
-    "ActiveInterests": 58,
-    "ContactDepartment": "",
-    "ContactCountryId": 175,
-    "ContactOrgNr": "699632",
-    "FaxPhone": "(010)353-0263 x4355",
-    "MobilePhone": "215-438-2856 x156",
-    "ContactPhone": "688-830-2322 x28022",
-    "AssociateName": "Ratke-Heaney",
-    "AssociateId": 75,
-    "UsePersonAddress": false,
-    "ContactFax": "et",
-    "Kanafname": "aut",
-    "Kanalname": "cum",
-    "Post1": "velit",
-    "Post2": "animi",
-    "Post3": "voluptas",
-    "EmailName": "jarred@kuvalis.us",
-    "ContactFullName": "Blaze Swift",
-    "ActiveErpLinks": 851,
-    "TicketPriorityId": 364,
-    "SupportLanguageId": 156,
-    "SupportAssociateId": 413,
-    "CategoryName": "VIP Customer",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 11
-      }
-    }
-  },
-  "Person": {
-    "Position": "eum",
-    "PersonId": 496,
-    "Mrmrs": "accusantium",
-    "Firstname": "Valentin",
-    "Lastname": "Hudson",
-    "MiddleName": "Wolff LLC",
-    "Title": "sunt",
-    "Description": "Upgradable next generation project",
-    "Email": "mayra@flatleyschmeler.co.uk",
-    "FullName": "Alvis McClure",
-    "DirectPhone": "1-881-646-7444 x5334",
-    "FormalName": "Buckridge LLC",
-    "CountryId": 442,
-    "ContactId": 634,
-    "ContactName": "Barrows Group",
-    "Retired": 145,
-    "Rank": 566,
-    "ActiveInterests": 691,
-    "ContactDepartment": "",
-    "ContactCountryId": 370,
-    "ContactOrgNr": "1621872",
-    "FaxPhone": "1-678-118-1248 x34411",
-    "MobilePhone": "1-211-647-3268",
-    "ContactPhone": "507-306-4673 x12082",
-    "AssociateName": "Quigley, Tromp and Kozey",
-    "AssociateId": 470,
-    "UsePersonAddress": false,
-    "ContactFax": "sunt",
-    "Kanafname": "et",
-    "Kanalname": "dolor",
-    "Post1": "voluptates",
-    "Post2": "deserunt",
-    "Post3": "voluptatem",
-    "EmailName": "lamont@mraz.us",
-    "ContactFullName": "Vance Huel",
-    "ActiveErpLinks": 304,
-    "TicketPriorityId": 683,
-    "SupportLanguageId": 132,
-    "SupportAssociateId": 796,
-    "CategoryName": "VIP Customer",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.Int32",
-        "FieldLength": 863
-      }
-    }
-  },
-  "MotherId": 708,
-  "Priority": {
-    "Id": 422,
-    "Value": "dolores",
-    "Tooltip": "non",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.Int32",
-        "FieldLength": 561
-      }
-    }
-  },
+  "Associate": null,
+  "Contact": null,
+  "CreatedBy": null,
+  "UpdatedBy": null,
+  "CreatedDate": "2015-12-19T11:10:25.5125223+01:00",
+  "AppointmentId": 763,
+  "Description": "Profit-focused radical help-desk",
+  "StartDate": "2014-08-08T11:10:25.5125223+02:00",
+  "EndDate": "2006-02-15T11:10:25.5125223+01:00",
+  "InvitedPerson": null,
+  "Person": null,
+  "MotherId": 855,
+  "Priority": null,
   "Private": "PrivateGroup",
-  "Project": {
-    "ProjectId": 137,
-    "Name": "Kub, Spencer and Parker",
-    "Description": "Devolved static extranet",
-    "URL": "http://www.example.com/",
-    "Type": "quis",
-    "AssociateId": 151,
-    "AssociateFullName": "Laurine Langworth",
-    "TypeId": 586,
-    "Updated": "2019-01-18T18:28:47.9188467+01:00",
-    "StatusId": 893,
-    "Status": "qui",
-    "TextId": 376,
-    "PublishTo": "2010-12-24T18:28:47.9188467+01:00",
-    "PublishFrom": "2019-05-05T18:28:47.9188467+02:00",
-    "IsPublished": true,
-    "URLName": "http://www.example.com/",
-    "ProjectNumber": "836446",
-    "ActiveErpLinks": 295,
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.Int32",
-        "FieldLength": 785
-      }
-    }
-  },
+  "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "2010-01-15T18:28:47.9188467+01:00",
+  "UpdatedDate": "2014-12-07T11:10:25.515522+01:00",
   "Completed": "Completed",
-  "ActiveLinks": 382,
+  "ActiveLinks": 676,
   "Links": [
     {
-      "EntityName": "Leffler, Schumm and Spencer",
-      "Id": 450,
-      "Description": "Polarised empowering implementation",
-      "ExtraInfo": "corrupti",
-      "LinkId": 558,
-      "TableRight": {},
+      "EntityName": "Volkman Inc and Sons",
+      "Id": 309,
+      "Description": "Quality-focused mobile adapter",
+      "ExtraInfo": "iure",
+      "LinkId": 674,
+      "TableRight": null,
       "FieldProperties": {
         "fieldName": {
-          "FieldRight": {
-            "Mask": "FULL",
-            "Reason": ""
-          },
-          "FieldType": "System.String",
-          "FieldLength": 249
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 787
         }
       }
     }
   ],
-  "AlarmLeadTime": "in",
+  "AlarmLeadTime": "veniam",
   "HasAlarm": true,
-  "ColorIndex": 675,
+  "ColorIndex": 377,
   "IsFree": true,
   "IsAlldayEvent": true,
-  "LagTime": "vel",
-  "LeadTime": "libero",
-  "Location": "occaecati",
-  "RejectCounter": 494,
+  "LagTime": "est",
+  "LeadTime": "ducimus",
+  "Location": "ut",
+  "RejectCounter": 100,
   "RejectReason": "",
-  "Recurrence": {
-    "RecurrenceId": 217,
-    "StartDate": "2016-10-30T18:28:47.9198447+01:00",
-    "EndDate": "2002-04-11T18:28:47.9198447+02:00",
-    "RecurrenceCounter": 955,
-    "RecurrenceEndType": "Counter",
-    "Pattern": "Custom",
-    "DayPattern": {},
-    "WeekPattern": {},
-    "MonthPattern": {},
-    "YearPattern": {},
-    "Dates": [
-      {},
-      {}
-    ],
-    "IsRecurrence": true
-  },
+  "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 289,
-      "PersonId": 52,
-      "ContactId": 811,
-      "EmailId": 834,
-      "SendEmail": true,
+      "AssociateId": 128,
+      "PersonId": 745,
+      "ContactId": 194,
+      "EmailId": 558,
+      "SendEmail": false,
       "InvitationStatus": "Accepted"
     },
     {
-      "AssociateId": 289,
-      "PersonId": 52,
-      "ContactId": 811,
-      "EmailId": 834,
-      "SendEmail": true,
+      "AssociateId": 128,
+      "PersonId": 745,
+      "ContactId": 194,
+      "EmailId": 558,
+      "SendEmail": false,
       "InvitationStatus": "Accepted"
     }
   ],
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "2010-12-19T18:28:47.9198447+01:00",
-  "HasConflict": false,
-  "AssignedBy": {
-    "AssociateId": 677,
-    "Name": "Goldner Inc and Sons",
-    "PersonId": 12,
-    "Rank": 761,
-    "Tooltip": "minima",
-    "Type": "AnonymousAssociate",
-    "GroupIdx": 716,
-    "FullName": "Cesar Beier",
-    "FormalName": "Skiles LLC",
-    "Deleted": true,
-    "EjUserId": 305,
-    "UserName": "Schuppe, Jacobs and Gottlieb",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 368
-      }
-    }
-  },
-  "MotherAssociate": {
-    "AssociateId": 842,
-    "Name": "Cruickshank Inc and Sons",
-    "PersonId": 255,
-    "Rank": 717,
-    "Tooltip": "quo",
-    "Type": "AnonymousAssociate",
-    "GroupIdx": 387,
-    "FullName": "Adalberto Daniel",
-    "FormalName": "Kihn, Weber and Walsh",
-    "Deleted": true,
-    "EjUserId": 294,
-    "UserName": "Rohan, Rice and Effertz",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.Int32",
-        "FieldLength": 268
-      }
-    }
-  },
-  "Task": {
-    "TaskListItemId": 581,
-    "Value": "qui",
-    "Direction": "Incoming",
-    "Type": "Appointment",
-    "Tooltip": "facilis",
-    "Deleted": false,
-    "IntentId": 371,
-    "Rank": 119,
-    "IsDefaultAlldayEvent": false,
-    "IsDefaultFree": true,
-    "IsDefaultPublished": true,
-    "ColorIndex": "BlueAlt1",
-    "DefaultVideomeetingStatus": "NoChange",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 76
-      }
-    }
-  },
-  "PreferredTZLocation": 131,
-  "Sale": {
-    "ContactName": "Hintz, Kohler and Herman",
-    "SaleDate": "1998-07-28T18:28:47.9208447+02:00",
-    "SaleId": 528,
-    "Probability": 648,
-    "Title": "odit",
-    "Amount": 29033.376,
-    "Currency": "non",
-    "ProjectName": "Kilback, Pfeffer and Kerluke",
-    "AssociateFullName": "Janick Ebert",
-    "Description": "Function-based intangible algorithm",
-    "Status": "Lost",
-    "WeightedAmount": 25607.914,
-    "ProjectId": 399,
-    "EarningPercent": 27569.798,
-    "Earning": 438.76,
-    "ContactId": 975,
-    "AssociateId": 404,
-    "PersonId": 487,
-    "SaleTypeId": 764,
-    "SaleTypeName": "Nikolaus-Champlin",
-    "PersonFullName": "Constantin Schowalter",
-    "Completed": "Completed",
-    "ActiveErpLinks": 64,
-    "NextDueDate": "1996-07-12T18:28:47.9208447+02:00",
-    "Number": "64918",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.Int32",
-        "FieldLength": 1001
-      }
-    }
-  },
-  "SuggestedAppointmentId": 465,
-  "IsMileStone": false,
+  "ActiveDate": "1998-02-28T11:10:25.515522+01:00",
+  "HasConflict": true,
+  "AssignedBy": null,
+  "MotherAssociate": null,
+  "Task": null,
+  "PreferredTZLocation": 950,
+  "Sale": null,
+  "SuggestedAppointmentId": 967,
+  "IsMileStone": true,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "quibusdam",
+  "CentralserviceVideomeetId": "dicta",
   "UserDefinedFields": {
     "SuperOffice:1": "False",
-    "SuperOffice:2": "1814002027"
+    "SuperOffice:2": "Gabriella Smith MD"
   },
   "ExtraFields": {
-    "ExtraFields1": "est",
-    "ExtraFields2": "aut"
+    "ExtraFields1": "sint",
+    "ExtraFields2": "et"
   },
   "CustomFields": {
-    "CustomFields1": "tempore",
-    "CustomFields2": "dolorum"
+    "CustomFields1": "totam",
+    "CustomFields2": "voluptatum"
   },
-  "PublishEventDate": "2017-05-26T18:28:47.9208447+02:00",
-  "PublishTo": "2016-04-21T18:28:47.9208447+02:00",
-  "PublishFrom": "1997-07-29T18:28:47.9208447+02:00",
-  "IsPublished": false,
+  "PublishEventDate": "2016-08-08T11:10:25.5175219+02:00",
+  "PublishTo": "2010-01-13T11:10:25.5175219+01:00",
+  "PublishFrom": "1997-06-16T11:10:25.5175219+02:00",
+  "IsPublished": true,
   "VisibleFor": [
     {
-      "VisibleId": 66,
+      "VisibleId": 321,
       "Visibility": "All",
-      "DisplayValue": "velit",
-      "TableRight": {},
+      "DisplayValue": "laborum",
+      "TableRight": null,
       "FieldProperties": {
         "fieldName": {
-          "FieldRight": {
-            "Mask": "FULL",
-            "Reason": ""
-          },
-          "FieldType": "System.Int32",
-          "FieldLength": 505
+          "FieldRight": null,
+          "FieldType": "System.String",
+          "FieldLength": 925
         }
       }
     },
     {
-      "VisibleId": 66,
+      "VisibleId": 321,
       "Visibility": "All",
-      "DisplayValue": "velit",
-      "TableRight": {},
+      "DisplayValue": "laborum",
+      "TableRight": null,
       "FieldProperties": {
         "fieldName": {
-          "FieldRight": {
-            "Mask": "FULL",
-            "Reason": ""
-          },
-          "FieldType": "System.Int32",
-          "FieldLength": 505
+          "FieldRight": null,
+          "FieldType": "System.String",
+          "FieldLength": 925
         }
       }
     }
   ],
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
+      "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 185
+      "FieldLength": 562
     }
   }
 }

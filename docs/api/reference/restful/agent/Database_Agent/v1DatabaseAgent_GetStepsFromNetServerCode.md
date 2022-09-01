@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Database/GetStepsFromNetServerCode
-id: v1DatabaseAgent_GetStepsFromNetServerCode
+uid: v1DatabaseAgent_GetStepsFromNetServerCode
 ---
 
 # POST Agents/Database/GetStepsFromNetServerCode
@@ -11,6 +11,12 @@ POST /api/v1/Agents/Database/GetStepsFromNetServerCode
 
 Get information about the dictionary steps that NetServer was generated for
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Get information about the dictionary steps that NetServer was generated for
 ```http
 POST /api/v1/Agents/Database/GetStepsFromNetServerCode?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -34,7 +41,10 @@ POST /api/v1/Agents/Database/GetStepsFromNetServerCode?$select=name,department,c
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -49,14 +59,16 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Database/GetStepsFromNetServerCode
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -64,38 +76,26 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Nader Inc and Sons",
-    "StepNumber": 326,
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "Name": "Lubowitz-Weimann",
+    "StepNumber": 222,
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
+        "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 399
+        "FieldLength": 216
       }
     }
   },
   {
-    "Name": "Nader Inc and Sons",
-    "StepNumber": 326,
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "Name": "Lubowitz-Weimann",
+    "StepNumber": 222,
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
+        "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 399
+        "FieldLength": 216
       }
     }
   }

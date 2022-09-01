@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "s_picture_folder"
-so.date: 04.12.2022
+so.date: 08.26.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -32,6 +32,7 @@ This table contains all picture folders
 |updated\_associate\_id|Last updated by whom|FK [associate](associate.md)|&#x25CF;|
 |updatedCount|Number of updates made to this record|UShort|&#x25CF;|
 
+
 ![s_picture_folder table relationship diagram](./media/s_picture_folder.png)
 
 [!include[details](./includes/s-picture-folder.md)]
@@ -51,6 +52,7 @@ This table contains all picture folders
 |[associate](associate.md)  |Employees, resources and other users - except for External persons |
 |[form](form.md)  |A form which can be published on a webpage and submitted by visitors |
 
+
 ## Replication Flags
 
 * None
@@ -58,3 +60,4 @@ This table contains all picture folders
 ## Security Flags
 
 * No access control via user's Role.
+

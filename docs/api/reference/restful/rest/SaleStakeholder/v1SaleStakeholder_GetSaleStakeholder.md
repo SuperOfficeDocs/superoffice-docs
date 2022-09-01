@@ -1,6 +1,6 @@
 ---
 title: GET SaleStakeholder/{id}
-id: v1SaleStakeholder_GetSaleStakeholder
+uid: v1SaleStakeholder_GetSaleStakeholder
 ---
 
 # GET SaleStakeholder/{id}
@@ -11,11 +11,17 @@ GET /api/v1/SaleStakeholder/{id}
 
 Gets a SaleStakeholder object.
 
+
 Calls the Sale agent service GetSaleStakeholder.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | id | int32 | The id of the SaleStakeholder to return. **Required** |
+
 
 ## Query String Parameters
 
@@ -26,6 +32,7 @@ Calls the Sale agent service GetSaleStakeholder.
 ```http
 GET /api/v1/SaleStakeholder/{id}?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -40,16 +47,17 @@ GET /api/v1/SaleStakeholder/{id}?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response: object
 
-SaleStakeholder entity with API _Links added.
+## Response: 
+
+SaleStakeholder found.
 
 | Response | Description |
 |----------------|-------------|
 | 200 | SaleStakeholder found. |
 | 404 | Not Found. |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -76,7 +84,7 @@ Response body: object
 | FieldProperties | object |  |
 | _Links | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 GET /api/v1/SaleStakeholder/{id}
@@ -85,42 +93,38 @@ Accept: application/json; charset=utf-8
 Accept-Language: en
 ```
 
+## Sample response
+
 ```http_
 HTTP/1.1 200 SaleStakeholder found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "StakeholderRoleName": "Cruickshank, Beier and Orn",
-  "Comment": "deserunt",
-  "StakeholderRoleId": 14,
-  "CountryId": 276,
-  "PersonId": 377,
-  "EmailDescription": "toney@gleichner.co.uk",
-  "EmailId": 780,
-  "EmailAddress": "jamel@westbarton.co.uk",
-  "PhoneId": 622,
-  "ContactName": "Stehr-Graham",
-  "ContactId": 442,
-  "SaleId": 41,
-  "Mrmrs": "quae",
-  "Firstname": "Sammie",
-  "MiddleName": "Parisian, Willms and Vandervort",
-  "Lastname": "Casper",
-  "SaleStakeholderId": 47,
-  "Rank": 722,
-  "Phone": "846-738-2135",
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "StakeholderRoleName": "Fadel LLC",
+  "Comment": "ut",
+  "StakeholderRoleId": 91,
+  "CountryId": 926,
+  "PersonId": 539,
+  "EmailDescription": "natalia_price@zemlakmoen.name",
+  "EmailId": 896,
+  "EmailAddress": "teresa_jenkins@sipes.uk",
+  "PhoneId": 830,
+  "ContactName": "Greenholt Group",
+  "ContactId": 132,
+  "SaleId": 86,
+  "Mrmrs": "earum",
+  "Firstname": "Floy",
+  "MiddleName": "Ward, Will and Schiller",
+  "Lastname": "Conroy",
+  "SaleStakeholderId": 777,
+  "Rank": 984,
+  "Phone": "1-995-989-7556 x187",
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
-      "FieldType": "System.String",
-      "FieldLength": 834
+      "FieldRight": null,
+      "FieldType": "System.Int32",
+      "FieldLength": 838
     }
   },
   "_Links": {

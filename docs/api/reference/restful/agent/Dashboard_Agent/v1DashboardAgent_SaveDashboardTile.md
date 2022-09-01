@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Dashboard/SaveDashboardTile
-id: v1DashboardAgent_SaveDashboardTile
+uid: v1DashboardAgent_SaveDashboardTile
 ---
 
 # POST Agents/Dashboard/SaveDashboardTile
@@ -10,6 +10,13 @@ POST /api/v1/Agents/Dashboard/SaveDashboardTile
 ```
 
 Updates the existing DashboardTile or creates a new DashboardTile if the id parameter is empty
+
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -25,9 +32,9 @@ Updates the existing DashboardTile or creates a new DashboardTile if the id para
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entity
+## Request Body: entity  
 
-The DashboardTile to be saved.
+The DashboardTile to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -46,18 +53,16 @@ The DashboardTile to be saved.
 | Options | array | The tile options |
 | VisibleFor | array | The set of users or groups the record is visible for |
 
-## Response: object
 
-Dashboard Tile configuration
+## Response: 
 
-Carrier object for DashboardTile.
-Services for the DashboardTile Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IDashboardAgent">Dashboard Agent</see>.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -78,145 +83,132 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Dashboard/SaveDashboardTile
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 390,
-  "Caption": "omnis",
-  "Description": "Multi-channelled assymetric productivity",
-  "ChartName": "Borer LLC",
-  "ChartId": "natus",
+  "DashboardTileId": 352,
+  "Caption": "enim",
+  "Description": "Exclusive multimedia hub",
+  "ChartName": "Williamson, Kunde and Ullrich",
+  "ChartId": "eos",
   "IsDefault": true,
-  "AssociateId": 805,
-  "GroupId": 247,
-  "SelectionId": 679,
-  "Config": "eos",
+  "AssociateId": 833,
+  "GroupId": 923,
+  "SelectionId": 868,
+  "Config": "accusamus",
   "Type": "Bignum",
   "EntityType": "Activity",
   "Options": [
     {
-      "Name": "Baumbach-Legros",
-      "Description": "Cloned system-worthy portal",
+      "Name": "Mante-Beahan",
+      "Description": "Mandatory exuding leverage",
       "Type": "Boolean",
-      "ListName": "Treutel LLC",
+      "ListName": "Macejkovic, Corwin and Fritsch",
       "ListItems": [
         {},
         {}
       ],
-      "Value": "architecto",
-      "DefaultDataOption": true
+      "Value": "id",
+      "DefaultDataOption": false
     }
   ],
   "VisibleFor": [
     {
-      "VisibleId": 907,
+      "VisibleId": 289,
       "Visibility": "All",
-      "DisplayValue": "debitis"
+      "DisplayValue": "blanditiis"
     },
     {
-      "VisibleId": 907,
+      "VisibleId": 289,
       "Visibility": "All",
-      "DisplayValue": "debitis"
+      "DisplayValue": "blanditiis"
     }
   ]
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 38,
-  "Caption": "autem",
-  "Description": "Diverse neutral application",
-  "ChartName": "Hane Group",
-  "ChartId": "quisquam",
-  "IsDefault": false,
-  "AssociateId": 836,
-  "GroupId": 427,
-  "SelectionId": 422,
-  "Config": "aliquid",
+  "DashboardTileId": 639,
+  "Caption": "quo",
+  "Description": "Distributed asynchronous system engine",
+  "ChartName": "Terry-Volkman",
+  "ChartId": "quis",
+  "IsDefault": true,
+  "AssociateId": 859,
+  "GroupId": 210,
+  "SelectionId": 88,
+  "Config": "quia",
   "Type": "Bignum",
   "EntityType": "Activity",
   "Options": [
     {
-      "Name": "Mosciski, Herman and Kuhlman",
-      "Description": "Realigned maximized portal",
+      "Name": "Bechtelar Group",
+      "Description": "Quality-focused zero tolerance groupware",
       "Type": "Boolean",
-      "ListName": "Gulgowski-Kris",
+      "ListName": "Medhurst-Abshire",
       "ListItems": [
         {},
         {}
       ],
-      "Value": "earum",
+      "Value": "quibusdam",
       "DefaultDataOption": false,
-      "TableRight": {},
+      "TableRight": null,
       "FieldProperties": {
         "fieldName": {
-          "FieldRight": {
-            "Mask": "FULL",
-            "Reason": ""
-          },
-          "FieldType": "System.String",
-          "FieldLength": 802
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 669
         }
       }
     }
   ],
   "VisibleFor": [
     {
-      "VisibleId": 597,
+      "VisibleId": 887,
       "Visibility": "All",
-      "DisplayValue": "in",
-      "TableRight": {},
+      "DisplayValue": "iste",
+      "TableRight": null,
       "FieldProperties": {
         "fieldName": {
-          "FieldRight": {
-            "Mask": "FULL",
-            "Reason": ""
-          },
-          "FieldType": "System.String",
-          "FieldLength": 427
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 888
         }
       }
     },
     {
-      "VisibleId": 597,
+      "VisibleId": 887,
       "Visibility": "All",
-      "DisplayValue": "in",
-      "TableRight": {},
+      "DisplayValue": "iste",
+      "TableRight": null,
       "FieldProperties": {
         "fieldName": {
-          "FieldRight": {
-            "Mask": "FULL",
-            "Reason": ""
-          },
-          "FieldType": "System.String",
-          "FieldLength": 427
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 888
         }
       }
     }
   ],
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": "engage user-centric markets"
-  },
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
+      "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 594
+      "FieldLength": 679
     }
   }
 }

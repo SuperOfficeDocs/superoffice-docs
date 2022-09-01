@@ -7,7 +7,7 @@ keywords:
   - "mdo provider"
   - "mailing"
 so.generated: true
-so.date: 03.19.2021
+so.date: 08.26.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -15,11 +15,15 @@ so.envir:
 ---
 
 # "mailing" MDO List
-
 All mailings - history ids
+
+
 
 Implemented by the <see cref="T:SuperOffice.CRM.Lists.MailingProvider">MailingProvider</see> class.
 The name of the MDO list is 'mailing'.
+
+
+
 
 ## Sample Request
 
@@ -32,7 +36,6 @@ Accept-Language: *
 ```
 
 ## Sample Code
-
 ```cs
 var listProvider = SuperOffice.CRM.Lists.SoListProviderFactory.Create("mailing", forceFlatList: true);
 foreach (var item in listProvider.RootItems) {
@@ -46,6 +49,7 @@ foreach (var item in listProvider.RootItems) {
 |Id   | Name  |StyleHint|ExtraInfo |
 | --- | ----- | ------- | -------- |
 | 2 | Example | | |
+
 
 ## Related MDO Lists
 

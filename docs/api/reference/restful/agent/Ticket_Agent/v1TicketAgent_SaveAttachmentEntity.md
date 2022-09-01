@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Ticket/SaveAttachmentEntity
-id: v1TicketAgent_SaveAttachmentEntity
+uid: v1TicketAgent_SaveAttachmentEntity
 ---
 
 # POST Agents/Ticket/SaveAttachmentEntity
@@ -10,6 +10,13 @@ POST /api/v1/Agents/Ticket/SaveAttachmentEntity
 ```
 
 Updates the existing AttachmentEntity or creates a new AttachmentEntity if the id parameter is empty
+
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -25,9 +32,9 @@ Updates the existing AttachmentEntity or creates a new AttachmentEntity if the i
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entity
+## Request Body: entity  
 
-The AttachmentEntity to be saved.
+The AttachmentEntity to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -38,18 +45,16 @@ The AttachmentEntity to be saved.
 | InlineImage | bool | True if this attachment is inlined in the html_body. |
 | ContentId | string | The content_id of this attachment, used for inline images |
 
-## Response: object
 
-The Attachment carrier represent meta data for a Service attachment
+## Response: 
 
-Carrier object for AttachmentEntity.
-Services for the AttachmentEntity Carrier is available from the <see cref="T:SuperOffice.CRM.Services.ITicketAgent">Ticket Agent</see>.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -62,48 +67,44 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Ticket/SaveAttachmentEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 45,
-  "Name": "Cartwright LLC",
-  "ContentType": "vel",
-  "AttSize": 72,
-  "InlineImage": true,
-  "ContentId": "delectus"
+  "AttachmentId": 611,
+  "Name": "Konopelski-Ledner",
+  "ContentType": "sed",
+  "AttSize": 293,
+  "InlineImage": false,
+  "ContentId": "sit"
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 356,
-  "Name": "Hilpert, O'Conner and Volkman",
-  "ContentType": "non",
-  "AttSize": 973,
-  "InlineImage": false,
-  "ContentId": "placeat",
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "AttachmentId": 112,
+  "Name": "Bernhard LLC",
+  "ContentType": "quibusdam",
+  "AttSize": 91,
+  "InlineImage": true,
+  "ContentId": "ea",
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
+      "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 18
+      "FieldLength": 396
     }
   }
 }

@@ -1,6 +1,6 @@
 ---
 title: PUT CRMScript/{id}
-id: v1CRMScriptEntity_PutCRMScriptEntity
+uid: v1CRMScriptEntity_PutCRMScriptEntity
 ---
 
 # PUT CRMScript/{id}
@@ -11,11 +11,19 @@ PUT /api/v1/CRMScript/{id}
 
 Updates the existing CRMScriptEntity
 
-## Online Restricted: ## The CRMScript agent is not available in Online by default. Access must be requested specifically when app is registered
+
+
+
+## Online Restricted: ## The CRMScript agent is not available in Online by default. Access must be requested specifically when app is registered.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | id | int32 | The CRMScriptEntity id to update. **Required** |
+
 
 ## Query String Parameters
 
@@ -26,6 +34,7 @@ Updates the existing CRMScriptEntity
 ```http
 PUT /api/v1/CRMScript/{id}?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -41,9 +50,9 @@ PUT /api/v1/CRMScript/{id}?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entity
+## Request Body: entity  
 
-The CRMScriptEntity to be saved.
+The CRMScriptEntity to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -59,18 +68,17 @@ The CRMScriptEntity to be saved.
 | Updated | date-time | Last updated when  in UTC. |
 | UpdatedAssociateId | int32 | Last updated by whom |
 
-## Response: object
 
-CRM Scripts - stored in the ejScript table, including source code.
+## Response: 
 
-CRMScriptEntity entity with API _Links added.
+CRMScriptEntity updated.
 
 | Response | Description |
 |----------------|-------------|
 | 200 | CRMScriptEntity updated. |
 | 400 | Bad request. Entity to save is not in request body. |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -89,7 +97,7 @@ Response body: object
 | FieldProperties | object |  |
 | _Links | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 PUT /api/v1/CRMScript/{id}
@@ -99,48 +107,44 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjscriptId": 925,
-  "UniqueIdentifier": "et",
-  "Name": "Hettinger Group",
-  "Description": "Integrated 3rd generation analyzer",
-  "IncludeId": "mollitia",
-  "HierarchyId": 940,
-  "Source": "quia",
-  "Registered": "2003-03-24T18:25:50.4016191+01:00",
-  "RegisteredAssociateId": 926,
-  "Updated": "2000-02-04T18:25:50.4016191+01:00",
-  "UpdatedAssociateId": 469
+  "EjscriptId": 297,
+  "UniqueIdentifier": "fugit",
+  "Name": "Hackett, Lemke and O'Connell",
+  "Description": "Profound web-enabled portal",
+  "IncludeId": "corrupti",
+  "HierarchyId": 275,
+  "Source": "aut",
+  "Registered": "2017-08-02T11:10:52.7591741+02:00",
+  "RegisteredAssociateId": 430,
+  "Updated": "2013-05-26T11:10:52.7591741+02:00",
+  "UpdatedAssociateId": 517
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 CRMScriptEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjscriptId": 960,
-  "UniqueIdentifier": "qui",
-  "Name": "Will Inc and Sons",
-  "Description": "Team-oriented interactive software",
-  "IncludeId": "magni",
-  "HierarchyId": 40,
-  "Source": "pariatur",
-  "Registered": "2021-09-28T18:25:50.4026194+02:00",
-  "RegisteredAssociateId": 310,
-  "Updated": "2015-10-21T18:25:50.4026194+02:00",
-  "UpdatedAssociateId": 715,
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "EjscriptId": 855,
+  "UniqueIdentifier": "maxime",
+  "Name": "Zemlak, Prohaska and Lakin",
+  "Description": "Inverse discrete synergy",
+  "IncludeId": "beatae",
+  "HierarchyId": 126,
+  "Source": "odio",
+  "Registered": "2000-08-20T11:10:52.7601739+02:00",
+  "RegisteredAssociateId": 844,
+  "Updated": "2014-05-01T11:10:52.7601739+02:00",
+  "UpdatedAssociateId": 602,
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
+      "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 85
+      "FieldLength": 529
     }
   },
   "_Links": {

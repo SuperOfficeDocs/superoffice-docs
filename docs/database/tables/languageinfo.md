@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "LanguageInfo"
-so.date: 04.12.2022
+so.date: 08.26.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -34,6 +34,7 @@ Information about languages, from ISO standards and related information
 |updatedCount|Number of updates made to this record|UShort| |
 |isBuiltIn|Has this row been inserted by SuperOffice priming data|UShort| |
 
+
 ![LanguageInfo table relationship diagram](./media/LanguageInfo.png)
 
 [!include[details](./includes/languageinfo.md)]
@@ -51,6 +52,7 @@ Information about languages, from ISO standards and related information
 |[associate](associate.md)  |Employees, resources and other users - except for External persons |
 |[LanguageInfoCountry](languageinfocountry.md)  |Many-many link between countries and languages, to give intelligent choices for language |
 
+
 ## Replication Flags
 
 * Replicate changes DOWN from central to satellites and travellers.
@@ -60,3 +62,4 @@ Information about languages, from ISO standards and related information
 ## Security Flags
 
 * No access control via user's Role.
+

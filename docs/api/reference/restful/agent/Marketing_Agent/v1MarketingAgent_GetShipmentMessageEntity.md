@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Marketing/GetShipmentMessageEntity
-id: v1MarketingAgent_GetShipmentMessageEntity
+uid: v1MarketingAgent_GetShipmentMessageEntity
 ---
 
 # POST Agents/Marketing/GetShipmentMessageEntity
@@ -11,6 +11,12 @@ POST /api/v1/Agents/Marketing/GetShipmentMessageEntity
 
 Gets a ShipmentMessageEntity object.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -19,9 +25,10 @@ Gets a ShipmentMessageEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Marketing/GetShipmentMessageEntity?shipmentMessageEntityId=914
+POST /api/v1/Agents/Marketing/GetShipmentMessageEntity?shipmentMessageEntityId=747
 POST /api/v1/Agents/Marketing/GetShipmentMessageEntity?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -36,18 +43,16 @@ POST /api/v1/Agents/Marketing/GetShipmentMessageEntity?$select=name,department,c
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response: object
 
-A shipment message, that contains the actual message being sent out in a mailing
+## Response: 
 
-Carrier object for ShipmentMessageEntity.
-Services for the ShipmentMessageEntity Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IMarketingAgent">Marketing Agent</see>.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -75,53 +80,49 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Marketing/GetShipmentMessageEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 24,
-  "PlainMessage": "necessitatibus",
-  "HtmlMessage": "id",
-  "SmsMessage": "nihil",
-  "Description": "Managed disintermediate policy",
-  "Subject": "accusantium",
-  "FolderId": 717,
-  "HeaderField": "enim",
-  "Design": "doloremque",
+  "ShipmentMessageId": 971,
+  "PlainMessage": "odit",
+  "HtmlMessage": "ut",
+  "SmsMessage": "dolorum",
+  "Description": "Mandatory attitude-oriented portal",
+  "Subject": "aliquam",
+  "FolderId": 459,
+  "HeaderField": "vel",
+  "Design": "inventore",
   "Designtype": "SOEditor",
   "Flags": "Document",
   "RegisterViews": true,
   "InlineImages": false,
-  "LongDescription": "Implemented cohesive open system",
-  "AccessKey": "odio",
-  "DocumentMessage": 496,
-  "Registered": "1998-06-28T18:28:49.4720874+02:00",
-  "RegisteredAssociateId": 694,
-  "Updated": "1999-08-21T18:28:49.4720874+02:00",
-  "UpdatedAssociateId": 985,
-  "UpdatedCount": 899,
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "LongDescription": "Total even-keeled project",
+  "AccessKey": "culpa",
+  "DocumentMessage": 696,
+  "Registered": "2006-03-21T11:10:27.2964529+01:00",
+  "RegisteredAssociateId": 240,
+  "Updated": "1998-09-12T11:10:27.2964529+02:00",
+  "UpdatedAssociateId": 519,
+  "UpdatedCount": 120,
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
+      "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 628
+      "FieldLength": 618
     }
   }
 }

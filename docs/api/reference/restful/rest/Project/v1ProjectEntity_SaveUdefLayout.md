@@ -1,6 +1,6 @@
 ---
 title: PUT Project/UdefLayout
-id: v1ProjectEntity_SaveUdefLayout
+uid: v1ProjectEntity_SaveUdefLayout
 ---
 
 # PUT Project/UdefLayout
@@ -10,6 +10,13 @@ PUT /api/v1/Project/UdefLayout
 ```
 
 Save ProjectEntity user-defined field layout.
+
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -25,7 +32,9 @@ Save ProjectEntity user-defined field layout.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: fields
+## Request Body: fields  
+
+ 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -64,7 +73,10 @@ Save ProjectEntity user-defined field layout.
 | HasBeenPublished | bool | Has the udef field been published? |
 | MdoListName | string | MDO list name used to populate this list. Derived from UDListDefinitionId and ListTableId. (Read-only) |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -111,7 +123,7 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 PUT /api/v1/Project/UdefLayout
@@ -122,43 +134,45 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 879,
-    "ColumnId": 699,
-    "FieldDefault": "eius",
-    "FieldHeight": 297,
-    "FieldLabel": "optio",
-    "FieldLeft": 770,
-    "FieldTop": 711,
+    "UDefFieldId": 99,
+    "ColumnId": 392,
+    "FieldDefault": "quis",
+    "FieldHeight": 923,
+    "FieldLabel": "ex",
+    "FieldLeft": 652,
+    "FieldTop": 746,
     "FieldType": "Checkbox",
-    "FieldWidth": 932,
-    "FormatMask": "sit",
+    "FieldWidth": 582,
+    "FormatMask": "dolores",
     "HideLabel": false,
     "IsIndexed": true,
-    "LabelHeight": 379,
-    "LabelLeft": 359,
-    "LabelTop": 264,
-    "LabelWidth": 217,
-    "LastVersionId": 821,
-    "ListTableId": 282,
+    "LabelHeight": 965,
+    "LabelLeft": 806,
+    "LabelTop": 722,
+    "LabelWidth": 940,
+    "LastVersionId": 214,
+    "ListTableId": 960,
     "IsMandatory": false,
     "Type": "Appointment",
-    "Page1LineNo": 703,
-    "ProgId": "facilis",
-    "IsReadOnly": true,
-    "ShortLabel": "iusto",
-    "TabOrder": 667,
-    "TextLength": 58,
-    "Tooltip": "corrupti",
-    "UdefIdentity": 853,
-    "UDListDefinitionId": 139,
+    "Page1LineNo": 648,
+    "ProgId": "voluptatem",
+    "IsReadOnly": false,
+    "ShortLabel": "atque",
+    "TabOrder": 680,
+    "TextLength": 232,
+    "Tooltip": "aliquam",
+    "UdefIdentity": 905,
+    "UDListDefinitionId": 977,
     "Justification": "Center",
-    "Version": 46,
-    "TemplateVariableName": "Gulgowski-Effertz",
-    "HasBeenPublished": true,
-    "MdoListName": "Bashirian, Denesik and Schaden"
+    "Version": 723,
+    "TemplateVariableName": "Fahey, Monahan and Morar",
+    "HasBeenPublished": false,
+    "MdoListName": "Kris LLC"
   }
 ]
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -166,52 +180,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 961,
-    "ColumnId": 419,
-    "FieldDefault": "temporibus",
-    "FieldHeight": 604,
-    "FieldLabel": "esse",
-    "FieldLeft": 656,
-    "FieldTop": 68,
+    "UDefFieldId": 848,
+    "ColumnId": 943,
+    "FieldDefault": "eius",
+    "FieldHeight": 495,
+    "FieldLabel": "libero",
+    "FieldLeft": 839,
+    "FieldTop": 716,
     "FieldType": "Checkbox",
-    "FieldWidth": 481,
-    "FormatMask": "ea",
-    "HideLabel": true,
-    "IsIndexed": true,
-    "LabelHeight": 16,
-    "LabelLeft": 857,
-    "LabelTop": 544,
-    "LabelWidth": 795,
-    "LastVersionId": 755,
-    "ListTableId": 998,
-    "IsMandatory": true,
+    "FieldWidth": 670,
+    "FormatMask": "non",
+    "HideLabel": false,
+    "IsIndexed": false,
+    "LabelHeight": 816,
+    "LabelLeft": 281,
+    "LabelTop": 177,
+    "LabelWidth": 95,
+    "LastVersionId": 420,
+    "ListTableId": 234,
+    "IsMandatory": false,
     "Type": "Appointment",
-    "Page1LineNo": 590,
+    "Page1LineNo": 105,
     "ProgId": "voluptas",
-    "IsReadOnly": true,
-    "ShortLabel": "facilis",
-    "TabOrder": 525,
-    "TextLength": 748,
-    "Tooltip": "ipsam",
-    "UdefIdentity": 651,
-    "UDListDefinitionId": 642,
+    "IsReadOnly": false,
+    "ShortLabel": "laboriosam",
+    "TabOrder": 499,
+    "TextLength": 990,
+    "Tooltip": "ratione",
+    "UdefIdentity": 589,
+    "UDListDefinitionId": 110,
     "Justification": "Center",
-    "Version": 921,
-    "TemplateVariableName": "Hahn-Terry",
-    "HasBeenPublished": true,
-    "MdoListName": "Wintheiser Inc and Sons",
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "Version": 168,
+    "TemplateVariableName": "Brekke-Maggio",
+    "HasBeenPublished": false,
+    "MdoListName": "Botsford-McGlynn",
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
+        "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 196
+        "FieldLength": 249
       }
     }
   }

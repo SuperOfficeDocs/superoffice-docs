@@ -1,6 +1,6 @@
 ---
 title: POST Agents/CRMScript/ValidateTriggerScript
-id: v1CRMScriptAgent_ValidateTriggerScript
+uid: v1CRMScriptAgent_ValidateTriggerScript
 ---
 
 # POST Agents/CRMScript/ValidateTriggerScript
@@ -11,9 +11,16 @@ POST /api/v1/Agents/CRMScript/ValidateTriggerScript
 
 Validate a Trigger CRMScript.
 
+
 This will check that the syntax is correct, but not execute the script.
 
-## Online Restricted: ## The CRMScript agent is not available in Online by default. Access must be requested specifically when app is registered
+
+## Online Restricted: ## The CRMScript agent is not available in Online by default. Access must be requested specifically when app is registered.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -24,6 +31,7 @@ This will check that the syntax is correct, but not execute the script.
 ```http
 POST /api/v1/Agents/CRMScript/ValidateTriggerScript?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -39,26 +47,24 @@ POST /api/v1/Agents/CRMScript/ValidateTriggerScript?$select=name,department,cate
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-TriggerScriptId
+TriggerScriptId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | TriggerScriptId | int32 |  |
 
-## Response: object
 
-Object for returning information when validating a CRMScript
+## Response: 
 
-Carrier object for CRMScriptResult.
-Services for the CRMScriptResult Carrier is available from the <see cref="T:SuperOffice.CRM.Services.ICRMScriptAgent">CRMScript Agent</see>.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -67,39 +73,35 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/CRMScript/ValidateTriggerScript
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TriggerScriptId": 568
+  "TriggerScriptId": 500
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Valid": true,
-  "ErrorMessage": "iusto",
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "Valid": false,
+  "ErrorMessage": "et",
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": "envisioneer end-to-end paradigms"
-      },
+      "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 60
+      "FieldLength": 879
     }
   }
 }

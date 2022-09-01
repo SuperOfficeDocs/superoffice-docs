@@ -18,6 +18,7 @@ Take an incoming set of minimally populated restrictions (name + operator is req
 
 **Returns:** Fully populated restrictions in the same order as the incoming restrictions.
 
+
 [WSDL file for Services87/Find](../Services87-Find.md)
 
 Obtain a ticket from the [Services87/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -123,6 +124,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+
 
 ## PopulateRestrictions Response
 
@@ -236,3 +238,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

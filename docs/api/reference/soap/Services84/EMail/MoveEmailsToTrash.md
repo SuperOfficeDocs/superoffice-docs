@@ -15,6 +15,8 @@ Delete specified mail items and move to the Trash folder
 
 * **ids:** The e-mails to handle
 
+
+
 [WSDL file for Services84/EMail](../Services84-EMail.md)
 
 Obtain a ticket from the [Services84/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -49,6 +51,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## MoveEmailsToTrash Response
 
 ```xml
@@ -68,3 +71,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

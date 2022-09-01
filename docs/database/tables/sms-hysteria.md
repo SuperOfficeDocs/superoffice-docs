@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "sms_hysteria"
-so.date: 04.12.2022
+so.date: 08.26.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -25,6 +25,7 @@ Avoid sending too many sms messages in a short time interval to one person
 |recipient\_address||String(255)|&#x25CF;|
 |created\_at||DateTime|&#x25CF;|
 
+
 ![sms_hysteria table relationship diagram](./media/sms_hysteria.png)
 
 [!include[details](./includes/sms-hysteria.md)]
@@ -42,3 +43,4 @@ Avoid sending too many sms messages in a short time interval to one person
 ## Security Flags
 
 * No access control via user's Role.
+

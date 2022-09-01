@@ -1,6 +1,6 @@
 ---
 title: POST Agents/EMail/FindContactOrPersonByEmailNameWithLimit
-id: v1EMailAgent_FindContactOrPersonByEmailNameWithLimit
+uid: v1EMailAgent_FindContactOrPersonByEmailNameWithLimit
 ---
 
 # POST Agents/EMail/FindContactOrPersonByEmailNameWithLimit
@@ -9,9 +9,15 @@ id: v1EMailAgent_FindContactOrPersonByEmailNameWithLimit
 POST /api/v1/Agents/EMail/FindContactOrPersonByEmailNameWithLimit
 ```
 
-<br />
+<para />
 
-## Online Restricted: ## The EMail agent is not available in Online by default. Access must be requested specifically when app is registered
+
+## Online Restricted: ## The EMail agent is not available in Online by default. Access must be requested specifically when app is registered.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +28,7 @@ POST /api/v1/Agents/EMail/FindContactOrPersonByEmailNameWithLimit
 ```http
 POST /api/v1/Agents/EMail/FindContactOrPersonByEmailNameWithLimit?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,9 +44,9 @@ POST /api/v1/Agents/EMail/FindContactOrPersonByEmailNameWithLimit?$select=name,d
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-Name, EmailAddress, NumberOfContacts, NumberOfPersons
+Name, EmailAddress, NumberOfContacts, NumberOfPersons 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -48,7 +55,10 @@ Name, EmailAddress, NumberOfContacts, NumberOfPersons
 | NumberOfContacts | int32 |  |
 | NumberOfPersons | int32 |  |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -69,7 +79,7 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/EMail/FindContactOrPersonByEmailNameWithLimit
@@ -79,12 +89,14 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Champlin, Conroy and Bailey",
-  "EmailAddress": "eliseo@okeefe.info",
-  "NumberOfContacts": 954,
-  "NumberOfPersons": 266
+  "Name": "Keebler Inc and Sons",
+  "EmailAddress": "winston@luettgenglover.biz",
+  "NumberOfContacts": 736,
+  "NumberOfPersons": 77
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -92,26 +104,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PersonId": 671,
-    "FullName": "Raphael Price",
-    "EmailAddress": "jennings@graham.com",
-    "ContactId": 430,
-    "ContactName": "Smith, Denesik and Thiel",
+    "PersonId": 115,
+    "FullName": "Mrs. Piper Quinton Eichmann",
+    "EmailAddress": "wilma@considine.name",
+    "ContactId": 759,
+    "ContactName": "Stracke-Keebler",
     "ContactDepartment": "",
     "ContactCategory": "VIP Customer",
-    "SortName": "Bradtke, McGlynn and Torp",
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "SortName": "Davis, Fahey and Champlin",
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": "architect bricks-and-clicks niches"
-        },
-        "FieldType": "System.String",
-        "FieldLength": 754
+        "FieldRight": null,
+        "FieldType": "System.Int32",
+        "FieldLength": 281
       }
     }
   }

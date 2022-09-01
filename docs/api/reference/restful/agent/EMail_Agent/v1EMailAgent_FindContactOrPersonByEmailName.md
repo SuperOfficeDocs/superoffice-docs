@@ -1,6 +1,6 @@
 ---
 title: POST Agents/EMail/FindContactOrPersonByEmailName
-id: v1EMailAgent_FindContactOrPersonByEmailName
+uid: v1EMailAgent_FindContactOrPersonByEmailName
 ---
 
 # POST Agents/EMail/FindContactOrPersonByEmailName
@@ -9,9 +9,15 @@ id: v1EMailAgent_FindContactOrPersonByEmailName
 POST /api/v1/Agents/EMail/FindContactOrPersonByEmailName
 ```
 
-<br />
+<para />
 
-## Online Restricted: ## The EMail agent is not available in Online by default. Access must be requested specifically when app is registered
+
+## Online Restricted: ## The EMail agent is not available in Online by default. Access must be requested specifically when app is registered.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +28,7 @@ POST /api/v1/Agents/EMail/FindContactOrPersonByEmailName
 ```http
 POST /api/v1/Agents/EMail/FindContactOrPersonByEmailName?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,16 +44,19 @@ POST /api/v1/Agents/EMail/FindContactOrPersonByEmailName?$select=name,department
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-Name, EmailAddress
+Name, EmailAddress 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | Name | string |  |
 | EmailAddress | string |  |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -67,20 +77,22 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/EMail/FindContactOrPersonByEmailName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Lehner-Pagac",
-  "EmailAddress": "romaine.strosin@toy.co.uk"
+  "Name": "Romaguera-Effertz",
+  "EmailAddress": "marisa_weber@casper.uk"
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -88,26 +100,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PersonId": 572,
-    "FullName": "Johnson Bayer",
-    "EmailAddress": "nona.oconner@gerlachbruen.name",
-    "ContactId": 498,
-    "ContactName": "Langworth LLC",
+    "PersonId": 625,
+    "FullName": "Anjali Zieme III",
+    "EmailAddress": "vidal@lebsack.biz",
+    "ContactId": 39,
+    "ContactName": "Grimes-Erdman",
     "ContactDepartment": "",
     "ContactCategory": "VIP Customer",
-    "SortName": "Barrows-Von",
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "SortName": "Emard Inc and Sons",
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
+        "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 638
+        "FieldLength": 144
       }
     }
   }

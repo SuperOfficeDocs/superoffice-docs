@@ -1,6 +1,6 @@
 ---
 title: GET Document/{id}/SanitizedContent
-id: v1DocumentEntity_GetSanitizedDocumentStream
+uid: v1DocumentEntity_GetSanitizedDocumentStream
 ---
 
 # GET Document/{id}/SanitizedContent
@@ -11,11 +11,18 @@ GET /api/v1/Document/{documentId}/SanitizedContent
 
 Get the document content as a stream.
 
+
 Retrieves a sanitized version if possible
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | documentId | int32 | SuperOffice document id **Required** |
+
+
 
 ## Request Headers
 
@@ -30,26 +37,32 @@ Retrieves a sanitized version if possible
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response
+
+## Response: byte
+
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: byte
 
-## Sample Request
+
+## Sample request
 
 ```http!
 GET /api/v1/Document/{documentId}/SanitizedContent
 Authorization: Basic dGplMDpUamUw
-Accept: binary/octet-stream
-Accept-Language: en
+Accept: application/json; charset=utf-8
+Accept-Language: *
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
-Content-Type: binary/octet-stream
+Content-Type: application/json; charset=utf-8
 
-GIF89....File contents as raw bytes...
+"GIF89....File contents as raw bytes..."
 ```

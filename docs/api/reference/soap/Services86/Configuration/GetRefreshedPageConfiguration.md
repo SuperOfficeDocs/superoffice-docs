@@ -19,6 +19,7 @@ Get the configuration for one whole web page, including all its panels etc.  tot
 
 **Returns:** XML containing the configuration for the given page, from the page down to the control level.
 
+
 [WSDL file for Services86/Configuration](../Services86-Configuration.md)
 
 Obtain a ticket from the [Services86/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -53,6 +54,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## GetRefreshedPageConfiguration Response
 
 ```xml
@@ -73,3 +75,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

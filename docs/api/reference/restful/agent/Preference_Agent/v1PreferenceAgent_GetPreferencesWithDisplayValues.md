@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Preference/GetPreferencesWithDisplayValues
-id: v1PreferenceAgent_GetPreferencesWithDisplayValues
+uid: v1PreferenceAgent_GetPreferencesWithDisplayValues
 ---
 
 # POST Agents/Preference/GetPreferencesWithDisplayValues
@@ -11,6 +11,12 @@ POST /api/v1/Agents/Preference/GetPreferencesWithDisplayValues
 
 Get one or more preferences based on a set of specifications&lt;br/&gt;The PrefDisplayValue and PrefDisplaytooltip are populated, at some additional processing cost.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Get one or more preferences based on a set of specifications&lt;br/&gt;The PrefD
 ```http
 POST /api/v1/Agents/Preference/GetPreferencesWithDisplayValues?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,15 +42,18 @@ POST /api/v1/Agents/Preference/GetPreferencesWithDisplayValues?$select=name,depa
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-Specifications
+Specifications 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | Specifications | array |  |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -67,7 +77,7 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Preference/GetPreferencesWithDisplayValues
@@ -79,16 +89,18 @@ Content-Type: application/json; charset=utf-8
 {
   "Specifications": [
     {
-      "Section": "laudantium",
-      "Key": "dicta"
+      "Section": "magnam",
+      "Key": "recusandae"
     },
     {
-      "Section": "laudantium",
-      "Key": "dicta"
+      "Section": "magnam",
+      "Key": "recusandae"
     }
   ]
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -97,58 +109,22 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "Level": "Database",
-    "RawValue": "illo",
-    "Specification": {
-      "Section": "ut",
-      "Key": "unde",
-      "TableRight": {},
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": {
-            "Mask": "FULL",
-            "Reason": ""
-          },
-          "FieldType": "System.Int32",
-          "FieldLength": 173
-        }
-      }
-    },
-    "DisplayValue": "pariatur",
-    "DisplayTooltip": "quibusdam",
+    "RawValue": "dignissimos",
+    "Specification": null,
+    "DisplayValue": "facere",
+    "DisplayTooltip": "est",
     "DisplayType": "Bool",
-    "TabOrder": {
-      "TabOrderId": 550,
-      "TabName": "Friesen, Abbott and Quigley",
-      "Order": "hic",
-      "AssociateId": 700,
-      "TableRight": {},
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": {
-            "Mask": "FULL",
-            "Reason": ""
-          },
-          "FieldType": "System.String",
-          "FieldLength": 134
-        }
-      }
-    },
-    "TargetId": 498,
-    "PrefDescId": 86,
-    "TableName": "Strosin, Stokes and Gerhold",
-    "UserPreferenceId": 487,
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "TabOrder": null,
+    "TargetId": 616,
+    "PrefDescId": 906,
+    "TableName": "Beahan Group",
+    "UserPreferenceId": 520,
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 155
+        "FieldRight": null,
+        "FieldType": "System.Int32",
+        "FieldLength": 284
       }
     }
   }

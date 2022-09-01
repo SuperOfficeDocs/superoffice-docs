@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Preference/GetTabOrder
-id: v1PreferenceAgent_GetTabOrder
+uid: v1PreferenceAgent_GetTabOrder
 ---
 
 # POST Agents/Preference/GetTabOrder
@@ -11,6 +11,12 @@ POST /api/v1/Agents/Preference/GetTabOrder
 
 Gets the tab order.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Gets the tab order.
 ```http
 POST /api/v1/Agents/Preference/GetTabOrder?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,24 +42,24 @@ POST /api/v1/Agents/Preference/GetTabOrder?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-TabName
+TabName 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | TabName | string |  |
 
-## Response: object
 
-Carrier object for TabOrder.
-Services for the TabOrder Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IPreferenceAgent">Preference Agent</see>.
+## Response: 
+
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -63,7 +70,7 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Preference/GetTabOrder
@@ -73,31 +80,27 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TabName": "Conroy-Hills"
+  "TabName": "Schulist, Gleichner and Vandervort"
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TabOrderId": 137,
-  "TabName": "Jacobi-Fritsch",
-  "Order": "voluptatem",
-  "AssociateId": 918,
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "TabOrderId": 444,
+  "TabName": "Moore Inc and Sons",
+  "Order": "et",
+  "AssociateId": 865,
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": "visualize efficient functionalities"
-      },
+      "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 228
+      "FieldLength": 180
     }
   }
 }

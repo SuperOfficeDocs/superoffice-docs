@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Pocket/GetPushNotificationTagsForDevice
-id: v1PocketAgent_GetPushNotificationTagsForDevice
+uid: v1PocketAgent_GetPushNotificationTagsForDevice
 ---
 
 # POST Agents/Pocket/GetPushNotificationTagsForDevice
@@ -11,6 +11,12 @@ POST /api/v1/Agents/Pocket/GetPushNotificationTagsForDevice
 
 Retrieve current tag value for a device
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Retrieve current tag value for a device
 ```http
 POST /api/v1/Agents/Pocket/GetPushNotificationTagsForDevice?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,15 +42,18 @@ POST /api/v1/Agents/Pocket/GetPushNotificationTagsForDevice?$select=name,departm
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-DeviceIdentifier
+DeviceIdentifier 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | DeviceIdentifier | string |  |
 
+
 ## Response: string
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -51,7 +61,8 @@ DeviceIdentifier
 
 Response body: string
 
-## Sample Request
+
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Pocket/GetPushNotificationTagsForDevice
@@ -61,13 +72,15 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "DeviceIdentifier": "qui"
+  "DeviceIdentifier": "et"
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"nobis"
+"aut"
 ```

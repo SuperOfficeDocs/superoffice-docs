@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Saint/GetStatusMonitors
-id: v1SaintAgent_GetStatusMonitors
+uid: v1SaintAgent_GetStatusMonitors
 ---
 
 # POST Agents/Saint/GetStatusMonitors
@@ -11,6 +11,12 @@ POST /api/v1/Agents/Saint/GetStatusMonitors
 
 Get all active status monitors for a specified target
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Get all active status monitors for a specified target
 ```http
 POST /api/v1/Agents/Saint/GetStatusMonitors?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,16 +42,19 @@ POST /api/v1/Agents/Saint/GetStatusMonitors?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-Id, Type
+Id, Type 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | Id | int32 |  |
 | Type | string |  |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -72,20 +82,22 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Saint/GetStatusMonitors
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 23,
-  "Type": "perferendis"
+  "Id": 76,
+  "Type": "quod"
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -93,33 +105,27 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "OwnerTable": 879,
-    "Rank": 19,
-    "DefaultTask": 328,
-    "DefaultTaskText": "cumque",
-    "IsVisual": true,
-    "LastGenerated": "1997-03-24T18:28:50.0406989+01:00",
-    "Description": "Focused directional productivity",
-    "Name": "Murray, Bauch and Barton",
-    "StatusMonitorId": 265,
-    "PictureId": 220,
-    "NeedsUpdate": true,
+    "OwnerTable": 332,
+    "Rank": 333,
+    "DefaultTask": 873,
+    "DefaultTaskText": "earum",
+    "IsVisual": false,
+    "LastGenerated": "2015-04-28T11:10:27.7734917+02:00",
+    "Description": "Quality-focused encompassing strategy",
+    "Name": "Goyette LLC",
+    "StatusMonitorId": 159,
+    "PictureId": 207,
+    "NeedsUpdate": false,
     "Deleted": false,
-    "NumMatches": 898,
-    "NumNeedUpdate": 951,
-    "GenerationStart": "1997-09-22T18:28:50.0406989+02:00",
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "NumMatches": 130,
+    "NumNeedUpdate": 789,
+    "GenerationStart": "2004-04-06T11:10:27.7734917+02:00",
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
+        "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 249
+        "FieldLength": 282
       }
     }
   }

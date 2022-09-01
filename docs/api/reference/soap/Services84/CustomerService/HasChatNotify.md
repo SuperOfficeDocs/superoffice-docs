@@ -13,7 +13,9 @@ Implemented by the <see cref="M:SuperOffice.Services84.ICustomerServiceAgent.Has
 
 Check if user has any chat notification
 
+
 **Returns:** True if the user has at least one notification setting on
+
 
 [WSDL file for Services84/CustomerService](../Services84-CustomerService.md)
 
@@ -46,6 +48,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## HasChatNotify Response
 
 ```xml
@@ -66,3 +69,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

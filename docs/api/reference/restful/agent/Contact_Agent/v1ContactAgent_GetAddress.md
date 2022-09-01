@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Contact/GetAddress
-id: v1ContactAgent_GetAddress
+uid: v1ContactAgent_GetAddress
 ---
 
 # POST Agents/Contact/GetAddress
@@ -11,6 +11,12 @@ POST /api/v1/Agents/Contact/GetAddress
 
 Gets the contact's localized address.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Gets the contact's localized address.
 ```http
 POST /api/v1/Agents/Contact/GetAddress?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,25 +42,24 @@ POST /api/v1/Agents/Contact/GetAddress?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-ContactId
+ContactId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | ContactId | int32 |  |
 
-## Response: object
 
-Street and/or Postal address, in both formatted and structured forms. You only need to modify one of the two for the change to be registered.
+## Response: 
 
-Carrier object for Address.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -66,112 +72,76 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Contact/GetAddress
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 188
+  "ContactId": 561
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Wgs84Latitude": 17970.356,
-  "Wgs84Longitude": 17763.512,
+  "Wgs84Latitude": 15425.547999999999,
+  "Wgs84Longitude": 539.048,
   "LocalizedAddress": [
     [
       {
-        "Name": "Abshire Group",
-        "Value": "perferendis",
-        "Tooltip": "aut",
-        "Label": "doloribus",
-        "ValueLength": 340,
-        "AddressType": "iste",
-        "TableRight": {
-          "Mask": "Delete",
-          "Reason": ""
-        },
+        "Name": "Denesik, Huel and Lemke",
+        "Value": "vitae",
+        "Tooltip": "a",
+        "Label": "facere",
+        "ValueLength": 459,
+        "AddressType": "incidunt",
+        "TableRight": null,
         "FieldProperties": {
           "fieldName": {
-            "FieldRight": {
-              "Mask": "FULL",
-              "Reason": ""
-            },
-            "FieldType": "System.Int32",
-            "FieldLength": 405
+            "FieldRight": null,
+            "FieldType": "System.String",
+            "FieldLength": 313
           }
         }
       }
     ],
     [
       {
-        "Name": "Huels Inc and Sons",
-        "Value": "et",
-        "Tooltip": "beatae",
-        "Label": "modi",
-        "ValueLength": 586,
-        "AddressType": "quia",
-        "TableRight": {
-          "Mask": "Delete",
-          "Reason": ""
-        },
+        "Name": "Spencer, Olson and Reilly",
+        "Value": "id",
+        "Tooltip": "eos",
+        "Label": "dolor",
+        "ValueLength": 744,
+        "AddressType": "ipsa",
+        "TableRight": null,
         "FieldProperties": {
           "fieldName": {
-            "FieldRight": {
-              "Mask": "FULL",
-              "Reason": ""
-            },
+            "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 460
+            "FieldLength": 837
           }
         }
       }
     ]
   ],
-  "Street": {
-    "AtypeIdx": "ContactPostalAddress",
-    "Address1": "consequatur",
-    "Address2": "magni",
-    "Address3": "blanditiis",
-    "City": "aliquam",
-    "County": "sed",
-    "State": "nihil",
-    "Zipcode": "tempore",
-    "Formatted": "laboriosam"
-  },
-  "Postal": {
-    "AtypeIdx": "ContactPostalAddress",
-    "Address1": "non",
-    "Address2": "qui",
-    "Address3": "officia",
-    "City": "sint",
-    "County": "repellendus",
-    "State": "cum",
-    "Zipcode": "dolorem",
-    "Formatted": "iusto"
-  },
-  "Formatted": "repudiandae",
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "Street": null,
+  "Postal": null,
+  "Formatted": "natus",
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
-      "FieldType": "System.String",
-      "FieldLength": 112
+      "FieldRight": null,
+      "FieldType": "System.Int32",
+      "FieldLength": 253
     }
   }
 }

@@ -1,6 +1,6 @@
 ---
 title: POST Agents/License/GetLicenseFromLicenseServer
-id: v1LicenseAgent_GetLicenseFromLicenseServer
+uid: v1LicenseAgent_GetLicenseFromLicenseServer
 ---
 
 # POST Agents/License/GetLicenseFromLicenseServer
@@ -8,6 +8,14 @@ id: v1LicenseAgent_GetLicenseFromLicenseServer
 ```http
 POST /api/v1/Agents/License/GetLicenseFromLicenseServer
 ```
+
+
+
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -18,6 +26,7 @@ POST /api/v1/Agents/License/GetLicenseFromLicenseServer
 ```http
 POST /api/v1/Agents/License/GetLicenseFromLicenseServer?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -33,21 +42,24 @@ POST /api/v1/Agents/License/GetLicenseFromLicenseServer?$select=name,department,
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-OwnerName
+OwnerName 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | OwnerName | string |  |
 
-## Response: object
+
+## Response: 
+
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -58,87 +70,43 @@ Response body: object
 | ExtendedModuleLicenses | array |  |
 | AccumulatedNextCheckDate | date-time |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/License/GetLicenseFromLicenseServer
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "OwnerName": "Rice Inc and Sons"
+  "OwnerName": "Schuppe, Nolan and Upton"
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Reason": "seize robust solutions",
-  "CanBeActivated": true,
-  "New": {
-    "CompanyName": "Gerhold Group",
-    "SerialNr": "1010000006",
-    "OwnerName": "Veum Inc and Sons",
-    "OwnerDescription": "Down-sized maximized extranet",
-    "NextCheckDate": "2010-07-21T18:28:49.2351232+02:00",
-    "MaintenanceDate": "2007-01-14T18:28:49.2351232+01:00",
-    "AdminWarningDate": "2015-10-19T18:28:49.2351232+02:00",
-    "ExpiryDate": "2017-04-12T18:28:49.2351232+02:00",
-    "GraceDate": "2021-04-09T18:28:49.2351232+02:00",
-    "ExtraFlags": 773,
-    "ExtraInfo": "debitis",
-    "LicenseUrl": "http://www.example.com/",
-    "LicenseVersion": "eum",
-    "DeploymentType": 139,
-    "ProductType": "molestias",
-    "ProductDescription": "Cross-group incremental customer loyalty",
-    "ModuleLicenses": [
-      {},
-      {}
-    ],
-    "PublicKey": {},
-    "Signature": "alias"
-  },
-  "Current": {
-    "CompanyName": "Keeling-Kreiger",
-    "SerialNr": "1010000006",
-    "OwnerName": "Harris-Ward",
-    "OwnerDescription": "Compatible full-range infrastructure",
-    "NextCheckDate": "2009-07-23T18:28:49.2351232+02:00",
-    "MaintenanceDate": "2021-05-16T18:28:49.2351232+02:00",
-    "AdminWarningDate": "1996-03-20T18:28:49.2351232+01:00",
-    "ExpiryDate": "2010-11-12T18:28:49.2351232+01:00",
-    "GraceDate": "1998-06-13T18:28:49.2351232+02:00",
-    "ExtraFlags": 79,
-    "ExtraInfo": "fuga",
-    "LicenseUrl": "http://www.example.com/",
-    "LicenseVersion": "architecto",
-    "DeploymentType": 237,
-    "ProductType": "quaerat",
-    "ProductDescription": "Switchable contextually-based portal",
-    "ModuleLicenses": [
-      {},
-      {}
-    ],
-    "PublicKey": {},
-    "Signature": "sequi"
-  },
+  "Reason": "",
+  "CanBeActivated": false,
+  "New": null,
+  "Current": null,
   "ExtendedModuleLicenses": [
     {
-      "New": {},
-      "Current": {},
-      "NumberOfLicensesInUse": 437,
-      "NumberOfLicensesFree": 646,
-      "NumberOfLicensesAdded": 144,
-      "NumberOfLicensesNewTotal": 243,
-      "NumberOfLicensesNewFree": 908,
-      "NumberOfLicensesTotal": 134
+      "New": null,
+      "Current": null,
+      "NumberOfLicensesInUse": 988,
+      "NumberOfLicensesFree": 252,
+      "NumberOfLicensesAdded": 64,
+      "NumberOfLicensesNewTotal": 377,
+      "NumberOfLicensesNewFree": 144,
+      "NumberOfLicensesTotal": 499
     }
   ],
-  "AccumulatedNextCheckDate": "2013-02-14T18:28:49.2361225+01:00"
+  "AccumulatedNextCheckDate": "2004-07-06T11:10:27.1044249+02:00"
 }
 ```

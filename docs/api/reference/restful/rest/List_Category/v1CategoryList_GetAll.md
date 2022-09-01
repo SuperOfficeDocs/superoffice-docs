@@ -1,6 +1,6 @@
 ---
 title: GET List/Category/Items
-id: v1CategoryList_GetAll
+uid: v1CategoryList_GetAll
 ---
 
 # GET List/Category/Items
@@ -11,6 +11,12 @@ GET /api/v1/List/Category/Items
 
 Gets all the Category items
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -18,8 +24,9 @@ Gets all the Category items
 | includeDeleted | bool |  Include deleted items in the result? |
 
 ```http
-GET /api/v1/List/Category/Items?includeDeleted=False
+GET /api/v1/List/Category/Items?includeDeleted=True
 ```
+
 
 ## Request Headers
 
@@ -34,7 +41,10 @@ GET /api/v1/List/Category/Items?includeDeleted=False
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -53,14 +63,16 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 GET /api/v1/List/Category/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -68,24 +80,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 837,
-    "Name": "O'Hara-Jenkins",
-    "Tooltip": "ipsa",
-    "Deleted": true,
-    "UdListDefinitionId": 195,
-    "Rank": 876,
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": "extend intuitive communities"
-    },
+    "Id": 530,
+    "Name": "O'Connell, Simonis and Dickens",
+    "Tooltip": "vitae",
+    "Deleted": false,
+    "UdListDefinitionId": 495,
+    "Rank": 546,
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": "iterate out-of-the-box content"
-        },
+        "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 249
+        "FieldLength": 922
       }
     }
   }

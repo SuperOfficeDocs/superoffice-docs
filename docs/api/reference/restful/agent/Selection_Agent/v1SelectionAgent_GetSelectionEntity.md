@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Selection/GetSelectionEntity
-id: v1SelectionAgent_GetSelectionEntity
+uid: v1SelectionAgent_GetSelectionEntity
 ---
 
 # POST Agents/Selection/GetSelectionEntity
@@ -11,6 +11,12 @@ POST /api/v1/Agents/Selection/GetSelectionEntity
 
 Gets a SelectionEntity object.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -19,9 +25,10 @@ Gets a SelectionEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Selection/GetSelectionEntity?selectionEntityId=256
+POST /api/v1/Agents/Selection/GetSelectionEntity?selectionEntityId=599
 POST /api/v1/Agents/Selection/GetSelectionEntity?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -36,16 +43,16 @@ POST /api/v1/Agents/Selection/GetSelectionEntity?$select=name,department,categor
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response: object
 
-Carrier object for SelectionEntity.
-Services for the SelectionEntity Carrier is available from the <see cref="T:SuperOffice.CRM.Services.ISelectionAgent">Selection Agent</see>.
+## Response: 
+
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -54,7 +61,7 @@ Response body: object
 | Associate |  | Owner of the selection |
 | CreatedBy |  | Who created the selection |
 | UpdatedBy |  | Who last modified the selection |
-| SelectionCategory |  | Selection category type (list item)  <br />Use MDO List name "searchCat" to get list items. |
+| SelectionCategory |  | Selection category type (list item)  <para>Use MDO List name "searchCat" to get list items.</para> |
 | GroupIdx | int32 | Original primary user group of associate |
 | IncludePerson | int32 | 0 = Include first person, 1 = Include all persons, 2 = Include no persons |
 | MemberCount | int32 | How many selectionmembers (for progress bar calculations) - estimate, -1 (or 4294967295) means we don't know |
@@ -93,241 +100,96 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Selection/GetSelectionEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Adaptive optimal installation",
-  "Postit": "eum",
-  "Associate": {
-    "AssociateId": 949,
-    "Name": "Pouros Inc and Sons",
-    "PersonId": 79,
-    "Rank": 146,
-    "Tooltip": "consequatur",
-    "Type": "AnonymousAssociate",
-    "GroupIdx": 239,
-    "FullName": "Rebeka Haley",
-    "FormalName": "Murphy-Strosin",
-    "Deleted": false,
-    "EjUserId": 796,
-    "UserName": "Mayer-Ebert",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.Int32",
-        "FieldLength": 61
-      }
-    }
-  },
-  "CreatedBy": {
-    "AssociateId": 717,
-    "Name": "Hodkiewicz-Fadel",
-    "PersonId": 689,
-    "Rank": 763,
-    "Tooltip": "iusto",
-    "Type": "AnonymousAssociate",
-    "GroupIdx": 612,
-    "FullName": "Ole Metz",
-    "FormalName": "Fisher Inc and Sons",
-    "Deleted": true,
-    "EjUserId": 311,
-    "UserName": "Schowalter LLC",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 550
-      }
-    }
-  },
-  "UpdatedBy": {
-    "AssociateId": 125,
-    "Name": "Anderson, Terry and D'Amore",
-    "PersonId": 907,
-    "Rank": 860,
-    "Tooltip": "adipisci",
-    "Type": "AnonymousAssociate",
-    "GroupIdx": 721,
-    "FullName": "Bruce Wisoky",
-    "FormalName": "Lowe-Hoppe",
-    "Deleted": true,
-    "EjUserId": 829,
-    "UserName": "Bradtke, Grady and Kshlerin",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 735
-      }
-    }
-  },
-  "SelectionCategory": {
-    "Id": 293,
-    "Value": "molestias",
-    "Tooltip": "vel",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 822
-      }
-    }
-  },
-  "GroupIdx": 228,
-  "IncludePerson": 558,
-  "MemberCount": 52,
-  "Name": "Volkman, Jacobson and Jacobs",
-  "PostitTextId": 949,
-  "CreatedDate": "2007-08-12T18:28:50.2284467+02:00",
-  "SelectionId": 502,
-  "SoundEx": "nisi",
-  "Source": 550,
-  "TextId": 260,
-  "UpdatedDate": "2017-05-18T18:28:50.2284467+02:00",
-  "UpdatedCount": 576,
-  "Visibility": 783,
+  "Description": "Multi-layered bifurcated archive",
+  "Postit": "corrupti",
+  "Associate": null,
+  "CreatedBy": null,
+  "UpdatedBy": null,
+  "SelectionCategory": null,
+  "GroupIdx": 27,
+  "IncludePerson": 764,
+  "MemberCount": 53,
+  "Name": "Mann Group",
+  "PostitTextId": 390,
+  "CreatedDate": "2016-06-25T11:10:27.8939795+02:00",
+  "SelectionId": 161,
+  "SoundEx": "et",
+  "Source": 953,
+  "TextId": 932,
+  "UpdatedDate": "1999-08-03T11:10:27.8939795+02:00",
+  "UpdatedCount": 922,
+  "Visibility": 78,
   "SelectionType": "Combined",
-  "CompanyUnique": true,
-  "TargetTableNumber": 840,
-  "TargetTableName": "Rosenbaum-Klocko",
-  "Completed": true,
-  "LeftSelectionId": 173,
-  "RightSelectionId": 568,
+  "CompanyUnique": false,
+  "TargetTableNumber": 638,
+  "TargetTableName": "Bednar, Jenkins and Rau",
+  "Completed": false,
+  "LeftSelectionId": 587,
+  "RightSelectionId": 132,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Haley, Turner and Daniel",
-  "ShadowProviderName": "Jacobs-O'Keefe",
-  "ChartKey": "eum",
-  "LastLoaded": "2020-09-30T18:28:50.2284467+02:00",
-  "LastLoadedBy": 124,
-  "LastLoadedByAssociate": {
-    "AssociateId": 946,
-    "Name": "Tillman, Lesch and Renner",
-    "PersonId": 920,
-    "Rank": 790,
-    "Tooltip": "maxime",
-    "Type": "AnonymousAssociate",
-    "GroupIdx": 346,
-    "FullName": "Alexis Kihn",
-    "FormalName": "Reilly LLC",
-    "Deleted": true,
-    "EjUserId": 100,
-    "UserName": "Lehner, Hegmann and Lowe",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 327
-      }
-    }
-  },
-  "LastMembershipChange": "2003-06-05T18:28:50.2294485+02:00",
-  "LastMembershipChangeBy": 942,
-  "LastMembershipChangeByAssociate": {
-    "AssociateId": 895,
-    "Name": "Harvey, Lehner and Okuneva",
-    "PersonId": 95,
-    "Rank": 754,
-    "Tooltip": "sint",
-    "Type": "AnonymousAssociate",
-    "GroupIdx": 541,
-    "FullName": "Oscar Senger",
-    "FormalName": "Heaney-Spencer",
-    "Deleted": false,
-    "EjUserId": 730,
-    "UserName": "Padberg Inc and Sons",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.Int32",
-        "FieldLength": 591
-      }
-    }
-  },
-  "MainHeading": "qui",
-  "MemberTabHeading": "et",
-  "MailingsProviderName": "Medhurst Inc and Sons",
-  "DashboardTileDefinitionId": 452,
+  "MainProviderName": "Rutherford, Price and Eichmann",
+  "ShadowProviderName": "Strosin LLC",
+  "ChartKey": "qui",
+  "LastLoaded": "2003-07-26T11:10:27.8939795+02:00",
+  "LastLoadedBy": 509,
+  "LastLoadedByAssociate": null,
+  "LastMembershipChange": "2005-01-13T11:10:27.8949799+01:00",
+  "LastMembershipChangeBy": 476,
+  "LastMembershipChangeByAssociate": null,
+  "MainHeading": "esse",
+  "MemberTabHeading": "qui",
+  "MailingsProviderName": "Abbott Group",
+  "DashboardTileDefinitionId": 815,
   "VisibleFor": [
     {
-      "VisibleId": 851,
+      "VisibleId": 326,
       "Visibility": "All",
-      "DisplayValue": "earum",
-      "TableRight": {},
+      "DisplayValue": "nihil",
+      "TableRight": null,
       "FieldProperties": {
         "fieldName": {
-          "FieldRight": {
-            "Mask": "FULL",
-            "Reason": ""
-          },
+          "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 772
+          "FieldLength": 327
         }
       }
     },
     {
-      "VisibleId": 851,
+      "VisibleId": 326,
       "Visibility": "All",
-      "DisplayValue": "earum",
-      "TableRight": {},
+      "DisplayValue": "nihil",
+      "TableRight": null,
       "FieldProperties": {
         "fieldName": {
-          "FieldRight": {
-            "Mask": "FULL",
-            "Reason": ""
-          },
+          "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 772
+          "FieldLength": 327
         }
       }
     }
   ],
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
+      "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 526
+      "FieldLength": 263
     }
   }
 }

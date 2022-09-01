@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "s_washing"
-so.date: 04.12.2022
+so.date: 08.26.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -27,6 +27,7 @@ Register of all bounced mail to enabel washing
 |shipments|How many times we have sent to this address|Int| |
 |type|Type of customer (internal/external)|type|&#x25CF;|
 
+
 ![s_washing table relationship diagram](./media/s_washing.png)
 
 [!include[details](./includes/s-washing.md)]
@@ -44,3 +45,4 @@ Register of all bounced mail to enabel washing
 ## Security Flags
 
 * No access control via user's Role.
+

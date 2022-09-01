@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Document/GetContactDocumentsByTemplateType
-id: v1DocumentAgent_GetContactDocumentsByTemplateType
+uid: v1DocumentAgent_GetContactDocumentsByTemplateType
 ---
 
 # POST Agents/Document/GetContactDocumentsByTemplateType
@@ -11,7 +11,13 @@ POST /api/v1/Agents/Document/GetContactDocumentsByTemplateType
 
 Method that returns a specified number of document appointments within a time range, filtered by document template type.
 
+
 The document appointments belong to the contact specified.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +28,7 @@ The document appointments belong to the contact specified.
 ```http
 POST /api/v1/Agents/Document/GetContactDocumentsByTemplateType?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,9 +44,9 @@ POST /api/v1/Agents/Document/GetContactDocumentsByTemplateType?$select=name,depa
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-ContactId, StartTime, EndTime, Count, DocumentTemplateId
+ContactId, StartTime, EndTime, Count, DocumentTemplateId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -49,7 +56,10 @@ ContactId, StartTime, EndTime, Count, DocumentTemplateId
 | Count | int32 |  |
 | DocumentTemplateId | int32 |  |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -77,26 +87,30 @@ Response body: array
 | ProjectName | string | Project name |
 | AssociateId | int32 | ID of associate whose diary the appointment is in, REQUIRED |
 | Snum | int32 | The sequence number allocated from refcount on used template when creating the document |
+| SaleId | int32 | Owning sale, if any (may be 0) |
+| SaleName | string | Heading of Owning sale, if any. (may be blank) |
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Document/GetContactDocumentsByTemplateType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 614,
-  "StartTime": "2015-06-10T18:28:48.7059585+02:00",
-  "EndTime": "2015-01-27T18:28:48.7059585+01:00",
-  "Count": 543,
-  "DocumentTemplateId": 755
+  "ContactId": 874,
+  "StartTime": "2010-08-17T11:10:26.4574535+02:00",
+  "EndTime": "2016-04-08T11:10:26.4574535+02:00",
+  "Count": 856,
+  "DocumentTemplateId": 374
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -104,36 +118,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 79,
-    "Attention": "voluptatem",
-    "Header": "a",
-    "Name": "Hartmann, Schinner and Zulauf",
-    "OurRef": "provident",
-    "YourRef": "modi",
-    "Description": "Face to face non-volatile database",
-    "DocumentTemplate": "dolorem",
-    "IsPublished": false,
-    "PersonId": 549,
-    "PersonFullName": "Mya Douglas",
-    "AssociateFullName": "Kameron Harris",
-    "ContactId": 681,
-    "ContactName": "Boyle-Leannon",
-    "ProjectId": 906,
-    "ProjectName": "Hilpert LLC",
-    "AssociateId": 824,
-    "Snum": 871,
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "DocumentId": 653,
+    "Attention": "veritatis",
+    "Header": "omnis",
+    "Name": "Gleason, Wehner and Monahan",
+    "OurRef": "facilis",
+    "YourRef": "qui",
+    "Description": "Face to face systemic implementation",
+    "DocumentTemplate": "sequi",
+    "IsPublished": true,
+    "PersonId": 351,
+    "PersonFullName": "Gordon Johns",
+    "AssociateFullName": "Dayne Block",
+    "ContactId": 884,
+    "ContactName": "Cormier LLC",
+    "ProjectId": 916,
+    "ProjectName": "Bruen LLC",
+    "AssociateId": 720,
+    "Snum": 499,
+    "SaleId": 81,
+    "SaleName": "Schiller LLC",
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
+        "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 858
+        "FieldLength": 343
       }
     }
   }

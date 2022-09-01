@@ -13,7 +13,9 @@ Implemented by the <see cref="M:SuperOffice.Services85.IListAgent.DeleteAppWebPa
 
 Permanentely delete all web panels owned by your app; works in Online only, for registered Apps that send a valid ApplicationToken; otherwise nothing happens
 
+
 **Returns:** This method has no return value
+
 
 [WSDL file for Services85/List](../Services85-List.md)
 
@@ -46,6 +48,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## DeleteAppWebPanels Response
 
 ```xml
@@ -65,3 +68,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

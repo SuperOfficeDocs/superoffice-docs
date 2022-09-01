@@ -1,6 +1,6 @@
 ---
 title: GET List/ReasonSold/Headings
-id: v1ReasonSoldList_GetReasonSoldHeadings
+uid: v1ReasonSoldList_GetReasonSoldHeadings
 ---
 
 # GET List/ReasonSold/Headings
@@ -11,7 +11,14 @@ GET /api/v1/List/ReasonSold/Headings
 
 Gets headings for the ReasonSold list.
 
+
 Calls the List agent service GetGetHeadingsFromListDefinition.
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -26,7 +33,10 @@ Calls the List agent service GetGetHeadingsFromListDefinition.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -45,14 +55,16 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 GET /api/v1/List/ReasonSold/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -60,24 +72,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 292,
-    "Name": "Luettgen-Konopelski",
-    "Tooltip": "quaerat",
+    "HeadingId": 454,
+    "Name": "Rolfson-Bergstrom",
+    "Tooltip": "consectetur",
     "Deleted": false,
-    "Rank": 964,
-    "UdListDefinitionId": 202,
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "Rank": 781,
+    "UdListDefinitionId": 894,
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
+        "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 433
+        "FieldLength": 370
       }
     }
   }

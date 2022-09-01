@@ -1,6 +1,6 @@
 ---
 title: GET List/Reason/Headings
-id: v1ReasonList_GetReasonHeadings
+uid: v1ReasonList_GetReasonHeadings
 ---
 
 # GET List/Reason/Headings
@@ -11,7 +11,14 @@ GET /api/v1/List/Reason/Headings
 
 Gets headings for the Reason list.
 
+
 Calls the List agent service GetGetHeadingsFromListDefinition.
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -26,7 +33,10 @@ Calls the List agent service GetGetHeadingsFromListDefinition.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -45,14 +55,16 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 GET /api/v1/List/Reason/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -60,24 +72,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 458,
-    "Name": "Bechtelar-Haley",
-    "Tooltip": "praesentium",
+    "HeadingId": 400,
+    "Name": "Monahan Inc and Sons",
+    "Tooltip": "accusamus",
     "Deleted": false,
-    "Rank": 213,
-    "UdListDefinitionId": 465,
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "Rank": 699,
+    "UdListDefinitionId": 947,
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
+        "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 722
+        "FieldLength": 907
       }
     }
   }

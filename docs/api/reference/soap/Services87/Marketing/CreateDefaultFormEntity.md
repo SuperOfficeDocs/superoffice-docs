@@ -14,7 +14,9 @@ Implemented by the <see cref="M:SuperOffice.Services87.IMarketingAgent.CreateDef
 Loading default values into a new FormEntity.
 NetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance
 
+
 **Returns:** New FormEntity with default values
+
 
 [WSDL file for Services87/Marketing](../Services87-Marketing.md)
 
@@ -46,6 +48,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## CreateDefaultFormEntity Response
 
 ```xml
@@ -69,16 +72,16 @@ Application tokens must be specified if calling an Online installation. Applicat
     <Marketing:ScriptId xsi:type="xsd:int">0</Marketing:ScriptId>
     <Marketing:ResponseShipmentId xsi:type="xsd:int">0</Marketing:ResponseShipmentId>
     <Marketing:Active xsi:type="xsd:boolean">false</Marketing:Active>
-    <Marketing:Expires xsi:type="xsd:dateTime">2021-11-30T13:23:21Z</Marketing:Expires>
+    <Marketing:Expires xsi:type="xsd:dateTime">2022-08-26T08:57:27Z</Marketing:Expires>
     <Marketing:MaxSubmits xsi:type="xsd:int">0</Marketing:MaxSubmits>
     <Marketing:Type xsi:type="Marketing:FormType">Normal</Marketing:Type>
     <Marketing:Recipe xsi:type="xsd:string"></Marketing:Recipe>
     <Marketing:GroupId xsi:type="xsd:int">0</Marketing:GroupId>
     <Marketing:NewTicket xsi:type="xsd:boolean">false</Marketing:NewTicket>
     <Marketing:RecaptchaMode xsi:type="Marketing:FormsRecaptchaMode">NotAvailable</Marketing:RecaptchaMode>
-    <Marketing:Registered xsi:type="xsd:dateTime">2021-11-30T13:23:21Z</Marketing:Registered>
+    <Marketing:Registered xsi:type="xsd:dateTime">2022-08-26T08:57:27Z</Marketing:Registered>
     <Marketing:RegisteredAssociateId xsi:type="xsd:int">0</Marketing:RegisteredAssociateId>
-    <Marketing:Updated xsi:type="xsd:dateTime">2021-11-30T13:23:21Z</Marketing:Updated>
+    <Marketing:Updated xsi:type="xsd:dateTime">2022-08-26T08:57:27Z</Marketing:Updated>
     <Marketing:UpdatedAssociateId xsi:type="xsd:int">0</Marketing:UpdatedAssociateId>
     <Marketing:UpdatedCount xsi:type="xsd:short">0</Marketing:UpdatedCount>
     <Marketing:FolderName xsi:type="xsd:string"></Marketing:FolderName>
@@ -88,3 +91,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

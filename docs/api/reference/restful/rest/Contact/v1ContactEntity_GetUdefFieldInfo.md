@@ -1,6 +1,6 @@
 ---
 title: GET Contact/UdefLayout/{progidOrLabel}
-id: v1ContactEntity_GetUdefFieldInfo
+uid: v1ContactEntity_GetUdefFieldInfo
 ---
 
 # GET Contact/UdefLayout/{progidOrLabel}
@@ -11,9 +11,16 @@ GET /api/v1/Contact/UdefLayout/{progidOrLabel}
 
 Get a ContactEntity user-defined field's details based on the prog-id or label.
 
+
+
+
+
+
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | progidOrLabel | string | The udef field id, case-sensitive prog-id, or field label. **Required** |
+
+
 
 ## Request Headers
 
@@ -28,19 +35,17 @@ Get a ContactEntity user-defined field's details based on the prog-id or label.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response: object
 
-Return information about the user defined fields. The information can be used to mirror the layout of the user-defined fields in the user interface.
+## Response: 
 
-Carrier object for UserDefinedFieldInfo.
-Services for the UserDefinedFieldInfo Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent">UserDefinedFieldInfo Agent</see>.
+ContactEntity found.
 
 | Response | Description |
 |----------------|-------------|
 | 200 | ContactEntity found. |
 | 404 | ContactEntity not found. |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -81,7 +86,7 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 GET /api/v1/Contact/UdefLayout/{progidOrLabel}
@@ -90,57 +95,53 @@ Accept: application/json; charset=utf-8
 Accept-Language: sv
 ```
 
+## Sample response
+
 ```http_
 HTTP/1.1 200 ContactEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 742,
-  "ColumnId": 807,
-  "FieldDefault": "ut",
-  "FieldHeight": 919,
-  "FieldLabel": "vero",
-  "FieldLeft": 327,
-  "FieldTop": 431,
+  "UDefFieldId": 358,
+  "ColumnId": 301,
+  "FieldDefault": "qui",
+  "FieldHeight": 441,
+  "FieldLabel": "dolorem",
+  "FieldLeft": 66,
+  "FieldTop": 82,
   "FieldType": "Checkbox",
-  "FieldWidth": 381,
-  "FormatMask": "doloribus",
+  "FieldWidth": 84,
+  "FormatMask": "aliquam",
   "HideLabel": false,
-  "IsIndexed": true,
-  "LabelHeight": 871,
-  "LabelLeft": 642,
-  "LabelTop": 677,
-  "LabelWidth": 183,
-  "LastVersionId": 632,
-  "ListTableId": 24,
+  "IsIndexed": false,
+  "LabelHeight": 740,
+  "LabelLeft": 814,
+  "LabelTop": 241,
+  "LabelWidth": 783,
+  "LastVersionId": 553,
+  "ListTableId": 226,
   "IsMandatory": true,
   "Type": "Appointment",
-  "Page1LineNo": 432,
-  "ProgId": "non",
+  "Page1LineNo": 696,
+  "ProgId": "facere",
   "IsReadOnly": false,
-  "ShortLabel": "quaerat",
-  "TabOrder": 463,
-  "TextLength": 137,
-  "Tooltip": "ut",
-  "UdefIdentity": 553,
-  "UDListDefinitionId": 158,
+  "ShortLabel": "commodi",
+  "TabOrder": 769,
+  "TextLength": 426,
+  "Tooltip": "unde",
+  "UdefIdentity": 110,
+  "UDListDefinitionId": 223,
   "Justification": "Center",
-  "Version": 790,
-  "TemplateVariableName": "Stokes, Bosco and Dickinson",
+  "Version": 663,
+  "TemplateVariableName": "Sauer LLC",
   "HasBeenPublished": true,
-  "MdoListName": "Pfeffer-Lehner",
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "MdoListName": "Durgan, Tremblay and DuBuque",
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
-      "FieldType": "System.String",
-      "FieldLength": 612
+      "FieldRight": null,
+      "FieldType": "System.Int32",
+      "FieldLength": 406
     }
   }
 }

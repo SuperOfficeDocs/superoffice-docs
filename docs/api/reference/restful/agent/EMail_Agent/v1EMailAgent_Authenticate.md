@@ -1,6 +1,6 @@
 ---
 title: POST Agents/EMail/Authenticate
-id: v1EMailAgent_Authenticate
+uid: v1EMailAgent_Authenticate
 ---
 
 # POST Agents/EMail/Authenticate
@@ -9,9 +9,15 @@ id: v1EMailAgent_Authenticate
 POST /api/v1/Agents/EMail/Authenticate
 ```
 
-<br />
+<para />
 
-## Online Restricted: ## The EMail agent is not available in Online by default. Access must be requested specifically when app is registered
+
+## Online Restricted: ## The EMail agent is not available in Online by default. Access must be requested specifically when app is registered.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +28,7 @@ POST /api/v1/Agents/EMail/Authenticate
 ```http
 POST /api/v1/Agents/EMail/Authenticate?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,15 +44,18 @@ POST /api/v1/Agents/EMail/Authenticate?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-ConnectionInfoExtended
+ConnectionInfoExtended 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | ConnectionInfoExtended |  | Carrier object for EMailConnectionInfoExtended. Services for the EMailConnectionInfoExtended Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IEMailAgent">EMail Agent</see>. |
 
+
 ## Response: bool
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -53,31 +63,26 @@ ConnectionInfoExtended
 
 Response body: bool
 
-## Sample Request
+
+## Sample request
 
 ```http!
 POST /api/v1/Agents/EMail/Authenticate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConnectionInfoExtended": {
-    "Port": 54,
-    "ServerName": "Walter, Corkery and Grady",
-    "Protocol": "incidunt",
-    "UserName": "Buckridge, Purdy and Erdman",
-    "Password": "in",
-    "UseSSL": false,
-    "Folder": "aut"
-  }
+  "ConnectionInfoExtended": null
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-true
+false
 ```

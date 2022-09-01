@@ -1,6 +1,6 @@
 ---
 title: PUT Person/UdefLayout
-id: v1PersonEntity_SaveUdefLayout
+uid: v1PersonEntity_SaveUdefLayout
 ---
 
 # PUT Person/UdefLayout
@@ -10,6 +10,13 @@ PUT /api/v1/Person/UdefLayout
 ```
 
 Save PersonEntity user-defined field layout.
+
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -25,7 +32,9 @@ Save PersonEntity user-defined field layout.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: fields
+## Request Body: fields  
+
+ 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -64,7 +73,10 @@ Save PersonEntity user-defined field layout.
 | HasBeenPublished | bool | Has the udef field been published? |
 | MdoListName | string | MDO list name used to populate this list. Derived from UDListDefinitionId and ListTableId. (Read-only) |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -111,54 +123,56 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 PUT /api/v1/Person/UdefLayout
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 792,
-    "ColumnId": 98,
-    "FieldDefault": "ad",
-    "FieldHeight": 339,
-    "FieldLabel": "voluptatibus",
-    "FieldLeft": 675,
-    "FieldTop": 654,
+    "UDefFieldId": 999,
+    "ColumnId": 784,
+    "FieldDefault": "necessitatibus",
+    "FieldHeight": 683,
+    "FieldLabel": "corporis",
+    "FieldLeft": 213,
+    "FieldTop": 525,
     "FieldType": "Checkbox",
-    "FieldWidth": 164,
-    "FormatMask": "harum",
+    "FieldWidth": 230,
+    "FormatMask": "libero",
     "HideLabel": true,
     "IsIndexed": true,
-    "LabelHeight": 854,
-    "LabelLeft": 810,
-    "LabelTop": 688,
-    "LabelWidth": 867,
-    "LastVersionId": 201,
-    "ListTableId": 579,
+    "LabelHeight": 385,
+    "LabelLeft": 415,
+    "LabelTop": 467,
+    "LabelWidth": 762,
+    "LastVersionId": 774,
+    "ListTableId": 41,
     "IsMandatory": false,
     "Type": "Appointment",
-    "Page1LineNo": 263,
-    "ProgId": "laborum",
+    "Page1LineNo": 826,
+    "ProgId": "voluptatem",
     "IsReadOnly": false,
-    "ShortLabel": "sint",
-    "TabOrder": 558,
-    "TextLength": 778,
-    "Tooltip": "doloribus",
-    "UdefIdentity": 985,
-    "UDListDefinitionId": 318,
+    "ShortLabel": "quia",
+    "TabOrder": 178,
+    "TextLength": 470,
+    "Tooltip": "architecto",
+    "UdefIdentity": 127,
+    "UDListDefinitionId": 811,
     "Justification": "Center",
-    "Version": 499,
-    "TemplateVariableName": "Tillman Inc and Sons",
+    "Version": 76,
+    "TemplateVariableName": "Brekke LLC",
     "HasBeenPublished": false,
-    "MdoListName": "Gorczany, Turcotte and Adams"
+    "MdoListName": "Denesik-Bayer"
   }
 ]
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -166,52 +180,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 603,
-    "ColumnId": 164,
-    "FieldDefault": "reiciendis",
-    "FieldHeight": 41,
-    "FieldLabel": "occaecati",
-    "FieldLeft": 174,
-    "FieldTop": 578,
+    "UDefFieldId": 125,
+    "ColumnId": 450,
+    "FieldDefault": "consequuntur",
+    "FieldHeight": 584,
+    "FieldLabel": "id",
+    "FieldLeft": 362,
+    "FieldTop": 936,
     "FieldType": "Checkbox",
-    "FieldWidth": 821,
-    "FormatMask": "cupiditate",
-    "HideLabel": true,
+    "FieldWidth": 55,
+    "FormatMask": "asperiores",
+    "HideLabel": false,
     "IsIndexed": true,
-    "LabelHeight": 513,
-    "LabelLeft": 782,
-    "LabelTop": 511,
-    "LabelWidth": 692,
-    "LastVersionId": 281,
-    "ListTableId": 643,
+    "LabelHeight": 161,
+    "LabelLeft": 86,
+    "LabelTop": 638,
+    "LabelWidth": 402,
+    "LastVersionId": 335,
+    "ListTableId": 656,
     "IsMandatory": false,
     "Type": "Appointment",
-    "Page1LineNo": 90,
-    "ProgId": "fugiat",
-    "IsReadOnly": false,
-    "ShortLabel": "occaecati",
-    "TabOrder": 644,
-    "TextLength": 623,
-    "Tooltip": "facilis",
-    "UdefIdentity": 774,
-    "UDListDefinitionId": 655,
+    "Page1LineNo": 310,
+    "ProgId": "asperiores",
+    "IsReadOnly": true,
+    "ShortLabel": "expedita",
+    "TabOrder": 642,
+    "TextLength": 864,
+    "Tooltip": "sit",
+    "UdefIdentity": 179,
+    "UDListDefinitionId": 278,
     "Justification": "Center",
-    "Version": 319,
-    "TemplateVariableName": "Emard Group",
+    "Version": 16,
+    "TemplateVariableName": "Stracke Inc and Sons",
     "HasBeenPublished": false,
-    "MdoListName": "Wolff, Abbott and Dickens",
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "MdoListName": "Hills Inc and Sons",
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
+        "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 89
+        "FieldLength": 313
       }
     }
   }

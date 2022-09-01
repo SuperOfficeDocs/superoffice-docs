@@ -17,6 +17,7 @@ Gets a Contact object.
 
 **Returns:** Contact
 
+
 [WSDL file for Services84/Contact](../Services84-Contact.md)
 
 Obtain a ticket from the [Services84/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -48,6 +49,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+
 
 ## GetContact Response
 
@@ -107,3 +109,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

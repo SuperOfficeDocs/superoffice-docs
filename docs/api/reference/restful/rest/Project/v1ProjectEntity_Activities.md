@@ -1,6 +1,6 @@
 ---
 title: GET Project/{id}/Activities
-id: v1ProjectEntity_Activities
+uid: v1ProjectEntity_Activities
 ---
 
 # GET Project/{id}/Activities
@@ -11,6 +11,7 @@ GET /api/v1/Project/{id}/Activities
 
 OData list of Activities under a specific ProjectEntity.
 
+
 Can be sorted and further filtered using OData conventions:
 
 * Project/1234/Activities?$select=col1,col2,abc/col3
@@ -19,19 +20,22 @@ Can be sorted and further filtered using OData conventions:
 * Project/1234/Activities?$top=1000
 * Project/1234/Activities?$mode=full
 
+
 OData returns XML or JSON carriers depending on the HTTP Accept header.
+
 
 Calls the Archive service using the "ProjectActivity" archive provider.
 
-## Filter Operators
+
+## Filter Operators: ##
 
 ints: eq =, ne, le, lt, gt, ge, set, equals, greater, less, unequals, between
 
 strings: contains, is, notBegins, notContains, isNot
 
-associate: associateIsOneOf, associateIsNotOneOf,
+associate: associateIsOneOf, associateIsNotOneOf,  
 
-list ids: oneOf, NotOneOf,
+list ids: oneOf, NotOneOf, 
 
 dates: before, date, after, dateBetween, beforeToday
 
@@ -39,9 +43,15 @@ Unary ops: currentAssociate, beforeToday, today, afterToday, lastWeek, thisWeek,
 
 Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,n,period), previous(f,n,period), thisAndNext(f,n,period), thisAndPrevious(f,n,period), thisAndPreviousAndNext(f,period)
 
+
+
+
+
+
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | id | int32 | The entity id **Required** |
+
 
 ## Query String Parameters
 
@@ -64,16 +74,17 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 GET /api/v1/Project/{id}/Activities?$select=name,department,category/id
 GET /api/v1/Project/{id}/Activities?$filter=name begins 'S'
 GET /api/v1/Project/{id}/Activities?$orderBy=name asc
-GET /api/v1/Project/{id}/Activities?$entities=tempore
-GET /api/v1/Project/{id}/Activities?$top=456
-GET /api/v1/Project/{id}/Activities?$skip=437
+GET /api/v1/Project/{id}/Activities?$entities=magnam
+GET /api/v1/Project/{id}/Activities?$top=91
+GET /api/v1/Project/{id}/Activities?$skip=314
 GET /api/v1/Project/{id}/Activities?$mode=Full
 GET /api/v1/Project/{id}/Activities?$options=GrandTotal=true
-GET /api/v1/Project/{id}/Activities?$context=deleniti
+GET /api/v1/Project/{id}/Activities?$context=aut
 GET /api/v1/Project/{id}/Activities?$format=JSON
 GET /api/v1/Project/{id}/Activities?$jsonSafe=False
 GET /api/v1/Project/{id}/Activities?$output=Display
 ```
+
 
 ## Request Headers
 
@@ -88,16 +99,17 @@ GET /api/v1/Project/{id}/Activities?$output=Display
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response: object
 
-Easy to use archive results - just a flat list of values.
+## Response: 
+
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 | 404 | Not Found. |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -105,14 +117,16 @@ Response body: object
 | odata.nextLink | string |  |
 | value | array |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 GET /api/v1/Project/{id}/Activities
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -120,21 +134,19 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "voluptas",
+  "odata.nextLink": "ea",
   "value": [
     {
-      "PrimaryKey": 9913,
-      "EntityName": "sale",
-      "saleId": 9913,
-      "contactId": 4445,
-      "name": "Durgan Inc and Sons"
+      "PrimaryKey": 8932,
+      "EntityName": "person",
+      "personId": 8932,
+      "fullName": "Andreane Brown"
     },
     {
-      "PrimaryKey": 9086,
-      "EntityName": "sale",
-      "saleId": 9086,
-      "contactId": 2260,
-      "name": "Strosin-Runolfsdottir"
+      "PrimaryKey": 9783,
+      "EntityName": "person",
+      "personId": 9783,
+      "fullName": "Prof. Lucius Clementina Hane"
     }
   ]
 }

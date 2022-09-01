@@ -14,7 +14,9 @@ Implemented by the <see cref="M:SuperOffice.Services88.IDashAgent.CreateDefaultD
 Loading default values into a new DashCollection.
 NetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance
 
+
 **Returns:** New DashCollection with default values
+
 
 [WSDL file for Services88/Dash](../Services88-Dash.md)
 
@@ -46,6 +48,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+
 
 ## CreateDefaultDashCollection Response
 
@@ -164,3 +167,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

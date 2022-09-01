@@ -1,6 +1,6 @@
 ---
 title: GET List/ProductType/Items/{id}/UserGroups
-id: v1ProductTypeList_GetProductTypeUserGroupsForListItem
+uid: v1ProductTypeList_GetProductTypeUserGroupsForListItem
 ---
 
 # GET List/ProductType/Items/{id}/UserGroups
@@ -11,11 +11,18 @@ GET /api/v1/List/ProductType/Items/{itemId}/UserGroups
 
 Gets user groups visible for the ProductType list's item.
 
+
 Calls the List agent service GetHeadings.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | itemId | int32 | The ID of the item to get. **Required** |
+
+
 
 ## Request Headers
 
@@ -30,7 +37,10 @@ Calls the List agent service GetHeadings.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -58,14 +68,16 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 GET /api/v1/List/ProductType/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -73,65 +85,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 147,
-    "Name": "Langworth LLC",
-    "ToolTip": "Ut consequatur autem itaque quam libero.",
-    "Deleted": true,
-    "Rank": 590,
-    "Type": "quod",
-    "ColorBlock": 434,
-    "IconHint": "necessitatibus",
-    "Selected": true,
-    "LastChanged": "2017-01-08T18:25:52.0292124+01:00",
+    "Id": 725,
+    "Name": "O'Kon-Lowe",
+    "ToolTip": "Eos sed non voluptates sequi voluptatem.",
+    "Deleted": false,
+    "Rank": 946,
+    "Type": "voluptas",
+    "ColorBlock": 559,
+    "IconHint": "quis",
+    "Selected": false,
+    "LastChanged": "2019-10-08T11:10:54.4519022+02:00",
     "ChildItems": [
       {
-        "Id": 564,
-        "Name": "Grady-Torp",
-        "ToolTip": "Deleniti eos doloremque consequatur voluptas.",
+        "Id": 203,
+        "Name": "Volkman-Rowe",
+        "ToolTip": "Officiis eos.",
         "Deleted": false,
-        "Rank": 399,
-        "Type": "eligendi",
-        "ColorBlock": 841,
-        "IconHint": "libero",
+        "Rank": 191,
+        "Type": "recusandae",
+        "ColorBlock": 258,
+        "IconHint": "et",
         "Selected": false,
-        "LastChanged": "1997-12-06T18:25:52.0292124+01:00",
+        "LastChanged": "1995-08-25T11:10:54.4519022+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "sed",
-        "StyleHint": "tempore",
+        "ExtraInfo": "accusantium",
+        "StyleHint": "fugiat",
         "Hidden": true,
-        "FullName": "Ari Hermann",
-        "TableRight": {},
+        "FullName": "Mr. Kristy Katheryn Tremblay DVM",
+        "TableRight": null,
         "FieldProperties": {
           "fieldName": {
-            "FieldRight": {
-              "Mask": "FULL",
-              "Reason": ""
-            },
+            "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 556
+            "FieldLength": 134
           }
         }
       }
     ],
-    "ExtraInfo": "labore",
-    "StyleHint": "maiores",
-    "Hidden": true,
-    "FullName": "Lolita Stiedemann",
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": "redefine dynamic partnerships"
-    },
+    "ExtraInfo": "quaerat",
+    "StyleHint": "nisi",
+    "Hidden": false,
+    "FullName": "Mr. Jacques Hahn",
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.Int32",
-        "FieldLength": 897
+        "FieldRight": null,
+        "FieldType": "System.String",
+        "FieldLength": 487
       }
     }
   }

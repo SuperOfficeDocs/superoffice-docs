@@ -12,11 +12,12 @@ Implemented by the <see cref="M:SuperOffice.Services86.IUserAgent.GetUserInfoLis
 ## GetUserInfoList
 
 Gets an array of UserInfo objects.
-<br />**Online Restricted:** The User agent is not available in Online by default. User management is not allowed for partner apps.
+<para /><b>Online Restricted:</b> The User agent is not available in Online by default. User management is not allowed for partner apps.
 
 * **userInfoIds:** The identifiers of the UserInfo object
 
 **Returns:** Array of UserInfo objects
+
 
 [WSDL file for Services86/User](../Services86-User.md)
 
@@ -51,6 +52,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+
 
 ## GetUserInfoList Response
 
@@ -92,3 +94,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

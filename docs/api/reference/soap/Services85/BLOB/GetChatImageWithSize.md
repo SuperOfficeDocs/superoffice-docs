@@ -11,6 +11,10 @@ Implemented by the <see cref="M:SuperOffice.Services85.IBLOBAgent.GetChatImageWi
 
 ## GetChatImageWithSize
 
+
+
+
+
 [WSDL file for Services85/BLOB](../Services85-BLOB.md)
 
 Obtain a ticket from the [Services85/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -44,6 +48,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## GetChatImageWithSize Response
 
 ```xml
@@ -63,3 +68,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

@@ -12,11 +12,12 @@ Implemented by the <see cref="M:SuperOffice.Services88.IEMailAgent.GetEMailAccou
 ## GetEMailAccountFromEMailAddress
 
 Returns the email account corresponding to this email address (for the current associate).
-<br />**Online Restricted:** The EMail agent is not available in Online by default. Access must be requested specifically when app is registered.
+<para /><b>Online Restricted:</b> The EMail agent is not available in Online by default. Access must be requested specifically when app is registered.
 
 * **fromAddress:** The address associated with this email account
 
 **Returns:** Found or empty email account
+
 
 [WSDL file for Services88/EMail](../Services88-EMail.md)
 
@@ -49,6 +50,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+
 
 ## GetEMailAccountFromEMailAddress Response
 
@@ -87,9 +89,12 @@ Application tokens must be specified if calling an Online installation. Applicat
     <EMail:AccountStatus xsi:type="xsd:short">0</EMail:AccountStatus>
     <EMail:ErrorCount xsi:type="xsd:int">0</EMail:ErrorCount>
     <EMail:ErrorReason xsi:type="xsd:string"></EMail:ErrorReason>
+    <EMail:InboxFolder xsi:type="xsd:string"></EMail:InboxFolder>
+    <EMail:SentFolder xsi:type="xsd:string"></EMail:SentFolder>
    </EMail:Response>
   </EMail:GetEMailAccountFromEMailAddressResponse>
  </SOAP-ENV:Body>
 </SOAP-ENV:Envelope>
 
 ```
+

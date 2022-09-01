@@ -17,6 +17,7 @@ Get all documents that are linked to the sale. I.e. the documents that are liste
 
 **Returns:** Array of documents
 
+
 [WSDL file for Services86/Document](../Services86-Document.md)
 
 Obtain a ticket from the [Services86/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -48,6 +49,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+
 
 ## GetSaleDocuments Response
 
@@ -89,3 +91,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

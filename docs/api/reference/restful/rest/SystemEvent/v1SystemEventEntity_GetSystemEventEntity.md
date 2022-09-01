@@ -1,6 +1,6 @@
 ---
 title: GET SystemEvent/{id}
-id: v1SystemEventEntity_GetSystemEventEntity
+uid: v1SystemEventEntity_GetSystemEventEntity
 ---
 
 # GET SystemEvent/{id}
@@ -11,11 +11,17 @@ GET /api/v1/SystemEvent/{id}
 
 Gets a SystemEventEntity object.
 
+
 Calls the Configuration agent service GetSystemEventEntity.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | id | int32 | The id of the SystemEventEntity to return. **Required** |
+
 
 ## Query String Parameters
 
@@ -26,6 +32,7 @@ Calls the Configuration agent service GetSystemEventEntity.
 ```http
 GET /api/v1/SystemEvent/{id}?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -40,18 +47,17 @@ GET /api/v1/SystemEvent/{id}?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response: object
 
-Entity for system events
+## Response: 
 
-SystemEventEntity entity with API _Links added.
+SystemEventEntity found.
 
 | Response | Description |
 |----------------|-------------|
 | 200 | SystemEventEntity found. |
 | 404 | Not Found. |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -69,7 +75,7 @@ Response body: object
 | FieldProperties | object |  |
 | _Links | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 GET /api/v1/SystemEvent/{id}
@@ -78,62 +84,34 @@ Accept: application/json; charset=utf-8
 Accept-Language: en
 ```
 
+## Sample response
+
 ```http_
 HTTP/1.1 200 SystemEventEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "SystemEventId": 342,
+  "SystemEventId": 579,
   "Scope": "Database",
-  "Eta": "2002-10-23T18:25:51.1209366+02:00",
-  "Eventkey": "qui",
-  "Eventmess": "maiores",
-  "ExtraInfo": 428,
-  "Owner": 279,
-  "UpdatedCount": 960,
-  "Registered": "2015-05-20T18:25:51.1209366+02:00",
-  "ActivatedBy": {
-    "AssociateId": 504,
-    "Name": "Hodkiewicz-Kassulke",
-    "PersonId": 706,
-    "Rank": 134,
-    "Tooltip": "laborum",
-    "Type": "AnonymousAssociate",
-    "GroupIdx": 694,
-    "FullName": "Lenna Zboncak",
-    "FormalName": "Davis, Hansen and Ziemann",
-    "Deleted": true,
-    "EjUserId": 667,
-    "UserName": "Durgan, Runolfsson and Stamm",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 703
-      }
-    }
-  },
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "Eta": "2002-10-15T11:10:53.5311741+02:00",
+  "Eventkey": "commodi",
+  "Eventmess": "nesciunt",
+  "ExtraInfo": 563,
+  "Owner": 686,
+  "UpdatedCount": 299,
+  "Registered": "2008-06-15T11:10:53.5311741+02:00",
+  "ActivatedBy": null,
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
-      "FieldType": "System.String",
-      "FieldLength": 48
+      "FieldRight": null,
+      "FieldType": "System.Int32",
+      "FieldLength": 923
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

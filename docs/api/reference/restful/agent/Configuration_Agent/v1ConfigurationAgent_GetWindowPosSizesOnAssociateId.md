@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Configuration/GetWindowPosSizesOnAssociateId
-id: v1ConfigurationAgent_GetWindowPosSizesOnAssociateId
+uid: v1ConfigurationAgent_GetWindowPosSizesOnAssociateId
 ---
 
 # POST Agents/Configuration/GetWindowPosSizesOnAssociateId
@@ -11,6 +11,12 @@ POST /api/v1/Agents/Configuration/GetWindowPosSizesOnAssociateId
 
 Gets the window and dialog position and size settings belonging to the specified associate
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Gets the window and dialog position and size settings belonging to the specified
 ```http
 POST /api/v1/Agents/Configuration/GetWindowPosSizesOnAssociateId?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,15 +42,18 @@ POST /api/v1/Agents/Configuration/GetWindowPosSizesOnAssociateId?$select=name,de
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-AssociateId
+AssociateId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | AssociateId | int32 |  |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -67,19 +77,21 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Configuration/GetWindowPosSizesOnAssociateId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 71
+  "AssociateId": 233
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -87,29 +99,23 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "OwnerWindow": "in",
-    "PersonId": 755,
-    "AssociateId": 218,
-    "ExtraId": 946,
-    "ExtraInfo": "quia",
-    "Height": 248,
-    "LeftX": 633,
+    "OwnerWindow": "adipisci",
+    "PersonId": 689,
+    "AssociateId": 280,
+    "ExtraId": 59,
+    "ExtraInfo": "asperiores",
+    "Height": 538,
+    "LeftX": 323,
     "State": "Maximized",
-    "UpperY": 333,
-    "Width": 324,
-    "WindowPosSizeId": 351,
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "UpperY": 227,
+    "Width": 515,
+    "WindowPosSizeId": 314,
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 651
+        "FieldRight": null,
+        "FieldType": "System.Int32",
+        "FieldLength": 408
       }
     }
   }

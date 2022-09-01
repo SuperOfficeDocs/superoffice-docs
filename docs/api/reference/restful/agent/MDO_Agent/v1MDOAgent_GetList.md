@@ -1,6 +1,6 @@
 ---
 title: POST Agents/MDO/GetList
-id: v1MDOAgent_GetList
+uid: v1MDOAgent_GetList
 ---
 
 # POST Agents/MDO/GetList
@@ -11,6 +11,12 @@ POST /api/v1/Agents/MDO/GetList
 
 Method to get a MDO list.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Method to get a MDO list.
 ```http
 POST /api/v1/Agents/MDO/GetList?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,9 +42,9 @@ POST /api/v1/Agents/MDO/GetList?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-Name, ForceFlatList, AdditionalInfo, OnlyHistory
+Name, ForceFlatList, AdditionalInfo, OnlyHistory 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -46,7 +53,10 @@ Name, ForceFlatList, AdditionalInfo, OnlyHistory
 | AdditionalInfo | string |  |
 | OnlyHistory | bool |  |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -71,22 +81,24 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/MDO/GetList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Homenick-O'Kon",
+  "Name": "Weber Inc and Sons",
   "ForceFlatList": false,
-  "AdditionalInfo": "omnis",
-  "OnlyHistory": true
+  "AdditionalInfo": "voluptas",
+  "OnlyHistory": false
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -94,59 +106,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 431,
-    "Name": "Huels Group",
-    "ToolTip": "Vero porro.",
-    "Deleted": true,
-    "Rank": 619,
-    "Type": "in",
+    "Id": 940,
+    "Name": "Jacobi-Metz",
+    "ToolTip": "Non tenetur ducimus optio non et.",
+    "Deleted": false,
+    "Rank": 198,
+    "Type": "rerum",
     "ChildItems": [
       {
-        "Id": 945,
-        "Name": "Zulauf-Cormier",
-        "ToolTip": "Similique ut adipisci.",
+        "Id": 925,
+        "Name": "Bosco-Willms",
+        "ToolTip": "Enim aut.",
         "Deleted": false,
-        "Rank": 398,
-        "Type": "maiores",
+        "Rank": 201,
+        "Type": "quia",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "quos",
-        "ColorBlock": 85,
-        "ExtraInfo": "ut",
-        "StyleHint": "assumenda",
-        "FullName": "Brandon Crona",
-        "TableRight": {},
+        "IconHint": "doloremque",
+        "ColorBlock": 191,
+        "ExtraInfo": "quia",
+        "StyleHint": "culpa",
+        "FullName": "Travis Feest",
+        "TableRight": null,
         "FieldProperties": {
           "fieldName": {
-            "FieldRight": {
-              "Mask": "FULL",
-              "Reason": ""
-            },
+            "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 950
+            "FieldLength": 764
           }
         }
       }
     ],
     "IconHint": "molestiae",
-    "ColorBlock": 31,
-    "ExtraInfo": "hic",
-    "StyleHint": "impedit",
-    "FullName": "Cora Simonis",
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "ColorBlock": 218,
+    "ExtraInfo": "tempora",
+    "StyleHint": "ad",
+    "FullName": "Arturo Nikolaus",
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
+        "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 132
+        "FieldLength": 870
       }
     }
   }

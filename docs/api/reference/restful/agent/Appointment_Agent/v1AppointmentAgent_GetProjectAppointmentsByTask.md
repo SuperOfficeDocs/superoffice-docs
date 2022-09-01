@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Appointment/GetProjectAppointmentsByTask
-id: v1AppointmentAgent_GetProjectAppointmentsByTask
+uid: v1AppointmentAgent_GetProjectAppointmentsByTask
 ---
 
 # POST Agents/Appointment/GetProjectAppointmentsByTask
@@ -11,7 +11,13 @@ POST /api/v1/Agents/Appointment/GetProjectAppointmentsByTask
 
 Method that returns a specified number of appointments of a specific appointment task type within a time range.
 
+
 The appointments belong to the project specified.  Task represents the different types of activities, like “Phone call”, “Meeting” and so on.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +28,7 @@ The appointments belong to the project specified.  Task represents the different
 ```http
 POST /api/v1/Agents/Appointment/GetProjectAppointmentsByTask?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,9 +44,9 @@ POST /api/v1/Agents/Appointment/GetProjectAppointmentsByTask?$select=name,depart
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-ProjectId, StartTime, EndTime, Count, TaskId
+ProjectId, StartTime, EndTime, Count, TaskId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -49,7 +56,10 @@ ProjectId, StartTime, EndTime, Count, TaskId
 | Count | int32 |  |
 | TaskId | int32 |  |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -111,23 +121,25 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Appointment/GetProjectAppointmentsByTask
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 219,
-  "StartTime": "2004-11-21T18:28:47.7028446+01:00",
-  "EndTime": "2015-11-04T18:28:47.7028446+01:00",
-  "Count": 823,
-  "TaskId": 841
+  "ProjectId": 140,
+  "StartTime": "2009-05-04T11:10:25.4205617+02:00",
+  "EndTime": "1995-10-27T11:10:25.4205617+02:00",
+  "Count": 160,
+  "TaskId": 199
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -135,67 +147,61 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 925,
-    "StartDate": "2006-02-04T18:28:47.7038442+01:00",
-    "EndDate": "2007-05-10T18:28:47.7038442+02:00",
+    "AppointmentId": 487,
+    "StartDate": "2011-04-06T11:10:25.4215579+02:00",
+    "EndDate": "1995-05-10T11:10:25.4215579+02:00",
     "Type": "BookingForChecklist",
-    "Task": "id",
-    "AssociateFullName": "Wendy Beatty",
-    "ContactName": "Langworth, Hauck and Lang",
-    "Description": "Devolved homogeneous open system",
-    "PersonFullName": "Sigrid Graham",
-    "PersonId": 492,
-    "ContactId": 223,
-    "ProjectId": 933,
-    "ProjectName": "Cronin LLC",
-    "IsPublished": true,
-    "AssociateId": 657,
-    "ColorIndex": 713,
+    "Task": "aut",
+    "AssociateFullName": "Ms. Lucienne Jordi Halvorson",
+    "ContactName": "Rice, Effertz and Welch",
+    "Description": "Exclusive neutral standardization",
+    "PersonFullName": "Mrs. Nick Deborah Moore",
+    "PersonId": 919,
+    "ContactId": 838,
+    "ProjectId": 299,
+    "ProjectName": "Turcotte Group",
+    "IsPublished": false,
+    "AssociateId": 779,
+    "ColorIndex": 226,
     "IsFree": false,
     "HasAlarm": false,
-    "IsAlldayEvent": true,
+    "IsAlldayEvent": false,
     "Private": "PrivateGroup",
-    "PriorityId": 474,
-    "PriorityName": "Wilderman, Parker and Johnston",
+    "PriorityId": 528,
+    "PriorityName": "Pollich, Morissette and Braun",
     "TaskType": "Appointment",
     "IsBookingMain": true,
-    "IsRecurrence": false,
+    "IsRecurrence": true,
     "IsBooking": false,
-    "ActiveDate": "2007-05-12T18:28:47.7048442+02:00",
+    "ActiveDate": "1995-04-28T11:10:25.4225612+02:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "1996-11-01T18:28:47.7048442+01:00",
-    "RecurringEndDate": "2019-07-27T18:28:47.7048442+02:00",
-    "MotherId": 10,
-    "AssignedBy": 39,
-    "AssignedByFullName": "Miss Ines Rau",
+    "RecurringStartDate": "2012-08-12T11:10:25.4225612+02:00",
+    "RecurringEndDate": "2020-04-18T11:10:25.4225612+02:00",
+    "MotherId": 713,
+    "AssignedBy": 934,
+    "AssignedByFullName": "Krista Schiller",
     "RejectReason": "",
-    "Location": "quis",
-    "AlarmLeadTime": "qui",
-    "SaleId": 951,
-    "SaleName": "Anderson, Dickens and Mante",
-    "AssociateName": "Stroman Group",
-    "CreatedDate": "2015-10-08T18:28:47.7048442+02:00",
-    "CreatedBy": "ad",
-    "CreatedByFullName": "Jameson Ryan",
-    "CreatedByAssociateId": 918,
+    "Location": "consequatur",
+    "AlarmLeadTime": "sequi",
+    "SaleId": 521,
+    "SaleName": "Morissette-Krajcik",
+    "AssociateName": "Beer, Kessler and Brown",
+    "CreatedDate": "1997-12-01T11:10:25.4225612+01:00",
+    "CreatedBy": "vel",
+    "CreatedByFullName": "Rocio Miller",
+    "CreatedByAssociateId": 110,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 741
+        "FieldRight": null,
+        "FieldType": "System.Int32",
+        "FieldLength": 307
       }
     }
   }

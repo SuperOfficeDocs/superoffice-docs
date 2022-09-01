@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Quote/UpdateQuoteVersionPrices
-id: v1QuoteAgent_UpdateQuoteVersionPrices
+uid: v1QuoteAgent_UpdateQuoteVersionPrices
 ---
 
 # POST Agents/Quote/UpdateQuoteVersionPrices
@@ -11,6 +11,12 @@ POST /api/v1/Agents/Quote/UpdateQuoteVersionPrices
 
 Update price on the all the quotelines for each alternative in the current quote version
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Update price on the all the quotelines for each alternative in the current quote
 ```http
 POST /api/v1/Agents/Quote/UpdateQuoteVersionPrices?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,26 +42,24 @@ POST /api/v1/Agents/Quote/UpdateQuoteVersionPrices?$select=name,department,categ
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-QuoteVersionId
+QuoteVersionId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | QuoteVersionId | int32 |  |
 
-## Response: object
 
-The QuoteVersionValidated is returned after a call to ValidateQuoteAlternative. It contains flags indicating changes to quote, quoteversion/quotealternative and quotelines.
+## Response: 
 
-Carrier object for QuoteVersionValidated.
-Services for the QuoteVersionValidated Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IQuoteAgent">Quote Agent</see>.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -69,193 +74,68 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Quote/UpdateQuoteVersionPrices
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 273
+  "QuoteVersionId": 822
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "IsOk": false,
-  "UserExplanation": "vel",
-  "TechExplanation": "at",
-  "ErrorCode": "et",
-  "ChangedSale": {
-    "ContactName": "Herzog-Gibson",
-    "SaleDate": "2005-11-02T18:28:49.9301388+01:00",
-    "SaleId": 63,
-    "Probability": 940,
-    "Title": "qui",
-    "Amount": 14272.235999999999,
-    "Currency": "maxime",
-    "ProjectName": "Nicolas, Grimes and Blick",
-    "AssociateFullName": "Dejah Padberg",
-    "Description": "Focused intangible customer loyalty",
-    "Status": "Lost",
-    "WeightedAmount": 11097.493999999999,
-    "ProjectId": 562,
-    "EarningPercent": 23542.608,
-    "Earning": 20032.528,
-    "ContactId": 340,
-    "AssociateId": 611,
-    "PersonId": 385,
-    "SaleTypeId": 442,
-    "SaleTypeName": "Quigley, Kohler and White",
-    "PersonFullName": "Kristina Goyette",
-    "Completed": "Completed",
-    "ActiveErpLinks": 402,
-    "NextDueDate": "2015-08-13T18:28:49.9301388+02:00",
-    "Number": "491188",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 542
-      }
-    }
-  },
-  "ChangedQuote": {
-    "QuoteId": 374,
-    "SaleId": 426,
-    "QuoteConnectionId": 924,
-    "ERPQuoteKey": "dolores",
-    "ERPOrderKey": "error",
-    "ActiveQuoteVersionId": 961,
-    "AcceptedQuoteAlternativeId": 194,
-    "UseValuesFromQuote": 973,
-    "DocumentId": 7,
-    "PoNumber": "1536776",
-    "OrderComment": "animi",
-    "PreferredEmailCulture": "cole.breitenberg@gottlieb.us",
-    "ActiveQuoteVersion": {},
-    "FavoriteQuoteAlternative": {},
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 276
-      }
-    }
-  },
-  "ChangedQuoteVersion": {
-    "QuoteVersionId": 65,
-    "ERPQuoteVersionKey": "consequatur",
-    "QuoteId": 491,
-    "Description": "Profound next generation concept",
-    "Number": "1180845",
-    "State": "Archived",
-    "ArchivedState": "Archived",
-    "Status": "Error",
-    "Reason": "",
-    "LikelyQuoteAlternativeId": 146,
-    "SentDate": "2007-12-18T18:28:49.9311086+01:00",
-    "FollowupId": 758,
-    "ExpirationDate": "2021-02-09T18:28:49.9311086+01:00",
-    "DeliveryCountryId": 578,
-    "HasOwnDeliveryAddress": false,
-    "InvoiceCountryId": 614,
-    "HasOwnInvoiceAddress": false,
-    "ERPPaymentTermsKey": "sunt",
-    "ERPPaymentTypeKey": "amet",
-    "ERPDeliveryTermsKey": "vel",
-    "ERPDeliveryTypeKey": "nobis",
-    "Rank": 131,
-    "ApprovedBy": 429,
-    "ApprovedText": "laboriosam",
-    "ApprovedRegisteredBy": 600,
-    "ApprovedRegisteredDate": "2008-03-22T18:28:49.9311086+01:00",
-    "ExtraField1": "sit",
-    "ExtraField2": "ut",
-    "ExtraField3": "fuga",
-    "ExtraField4": "nobis",
-    "ExtraField5": "ut",
-    "LastRecalculated": "2002-06-30T18:28:49.9311086+02:00",
-    "Updated": "2018-12-28T18:28:49.9311086+01:00",
-    "UpdatedAssociateId": 895,
-    "Registered": "2000-10-18T18:28:49.9311086+02:00",
-    "RegisteredAssociateId": 932,
-    "QuoteAlternatives": [
-      {},
-      {}
-    ],
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 186
-      }
-    }
-  },
+  "IsOk": true,
+  "UserExplanation": "omnis",
+  "TechExplanation": "alias",
+  "ErrorCode": "sed",
+  "ChangedSale": null,
+  "ChangedQuote": null,
+  "ChangedQuoteVersion": null,
   "ChangedQuoteAlternatives": [
     {
       "QuoteLinesHasChanged": true,
-      "ChangedQuoteAlternative": {},
-      "Changes": {},
-      "TableRight": {},
+      "ChangedQuoteAlternative": null,
+      "Changes": null,
+      "TableRight": null,
       "FieldProperties": {
         "fieldName": {
-          "FieldRight": {
-            "Mask": "FULL",
-            "Reason": ""
-          },
-          "FieldType": "System.String",
-          "FieldLength": 302
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 151
         }
       }
     },
     {
       "QuoteLinesHasChanged": true,
-      "ChangedQuoteAlternative": {},
-      "Changes": {},
-      "TableRight": {},
+      "ChangedQuoteAlternative": null,
+      "Changes": null,
+      "TableRight": null,
       "FieldProperties": {
         "fieldName": {
-          "FieldRight": {
-            "Mask": "FULL",
-            "Reason": ""
-          },
-          "FieldType": "System.String",
-          "FieldLength": 302
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 151
         }
       }
     }
   ],
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
+      "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 261
+      "FieldLength": 809
     }
   }
 }

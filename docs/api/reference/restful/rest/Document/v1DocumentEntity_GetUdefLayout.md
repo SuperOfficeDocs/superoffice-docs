@@ -1,6 +1,6 @@
 ---
 title: GET Document/UdefLayout
-id: v1DocumentEntity_GetUdefLayout
+uid: v1DocumentEntity_GetUdefLayout
 ---
 
 # GET Document/UdefLayout
@@ -11,7 +11,14 @@ GET /api/v1/Document/UdefLayout
 
 Current DocumentEntity user-defined field layout.
 
+
 May be different from the published version.
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -26,7 +33,10 @@ May be different from the published version.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -73,14 +83,16 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 GET /api/v1/Document/UdefLayout
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -88,52 +100,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 219,
-    "ColumnId": 147,
-    "FieldDefault": "dignissimos",
-    "FieldHeight": 885,
-    "FieldLabel": "dolor",
-    "FieldLeft": 784,
-    "FieldTop": 868,
+    "UDefFieldId": 871,
+    "ColumnId": 566,
+    "FieldDefault": "molestiae",
+    "FieldHeight": 251,
+    "FieldLabel": "accusamus",
+    "FieldLeft": 150,
+    "FieldTop": 824,
     "FieldType": "Checkbox",
-    "FieldWidth": 872,
-    "FormatMask": "consequatur",
-    "HideLabel": true,
+    "FieldWidth": 255,
+    "FormatMask": "qui",
+    "HideLabel": false,
     "IsIndexed": true,
-    "LabelHeight": 261,
-    "LabelLeft": 169,
-    "LabelTop": 775,
-    "LabelWidth": 675,
-    "LastVersionId": 151,
-    "ListTableId": 820,
-    "IsMandatory": true,
+    "LabelHeight": 644,
+    "LabelLeft": 644,
+    "LabelTop": 839,
+    "LabelWidth": 537,
+    "LastVersionId": 167,
+    "ListTableId": 446,
+    "IsMandatory": false,
     "Type": "Appointment",
-    "Page1LineNo": 547,
-    "ProgId": "provident",
+    "Page1LineNo": 905,
+    "ProgId": "eos",
     "IsReadOnly": true,
-    "ShortLabel": "architecto",
-    "TabOrder": 573,
-    "TextLength": 614,
-    "Tooltip": "numquam",
-    "UdefIdentity": 730,
-    "UDListDefinitionId": 841,
+    "ShortLabel": "et",
+    "TabOrder": 190,
+    "TextLength": 919,
+    "Tooltip": "suscipit",
+    "UdefIdentity": 465,
+    "UDListDefinitionId": 232,
     "Justification": "Center",
-    "Version": 465,
-    "TemplateVariableName": "Pacocha LLC",
+    "Version": 714,
+    "TemplateVariableName": "Boyle, Beahan and Eichmann",
     "HasBeenPublished": false,
-    "MdoListName": "Konopelski LLC",
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "MdoListName": "Roob-Torp",
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
+        "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 341
+        "FieldLength": 540
       }
     }
   }

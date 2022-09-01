@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "LicenseSatlLink"
-so.date: 04.12.2022
+so.date: 08.26.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -35,6 +35,7 @@ Link between License and Satellite, for per-database licenses
 |updated\_associate\_id|Last updated by whom|FK [associate](associate.md)| |
 |updatedCount|Number of updates made to this record|UShort| |
 
+
 ![LicenseSatlLink table relationship diagram](./media/LicenseSatlLink.png)
 
 [!include[details](./includes/licensesatllink.md)]
@@ -54,6 +55,7 @@ Link between License and Satellite, for per-database licenses
 |[ModuleLicense](modulelicense.md)  |Module licenses, belonging to one single owner |
 |[satellite](satellite.md)  |Definition of Satellites |
 
+
 ## Replication Flags
 
 * Replicate changes DOWN from central to satellites and travellers.
@@ -62,3 +64,4 @@ Link between License and Satellite, for per-database licenses
 ## Security Flags
 
 * Sentry controls access to items in this table using user's Role and data rights matrix on the table's parent.
+

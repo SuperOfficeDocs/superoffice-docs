@@ -1,6 +1,6 @@
 ---
 title: POST Project/UdefLayout/Publish
-id: v1ProjectEntity_PublishUdefLayout
+uid: v1ProjectEntity_PublishUdefLayout
 ---
 
 # POST Project/UdefLayout/Publish
@@ -11,7 +11,14 @@ POST /api/v1/Project/UdefLayout/Publish
 
 Publish the ProjectEntity user-defined field layout.
 
+
 This will trigger movement of field data etc.
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -26,7 +33,10 @@ This will trigger movement of field data etc.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
+
 ## Response: int32
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -34,18 +44,21 @@ This will trigger movement of field data etc.
 
 Response body: int32
 
-## Sample Request
+
+## Sample request
 
 ```http!
 POST /api/v1/Project/UdefLayout/Publish
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-582
+508
 ```

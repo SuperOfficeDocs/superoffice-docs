@@ -1,6 +1,6 @@
 ---
 title: POST Agents/User/SaveUserGroup
-id: v1UserAgent_SaveUserGroup
+uid: v1UserAgent_SaveUserGroup
 ---
 
 # POST Agents/User/SaveUserGroup
@@ -11,9 +11,16 @@ POST /api/v1/Agents/User/SaveUserGroup
 
 Save a user group.
 
+
 Set UserGroup.Deleted to mark a user group as deleted and invisible in the user interface.
 
-## Online Restricted: ## The User agent is not available in Online by default. User management is not allowed for partner apps
+
+## Online Restricted: ## The User agent is not available in Online by default. User management is not allowed for partner apps.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -24,6 +31,7 @@ Set UserGroup.Deleted to mark a user group as deleted and invisible in the user 
 ```http
 POST /api/v1/Agents/User/SaveUserGroup?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -39,26 +47,24 @@ POST /api/v1/Agents/User/SaveUserGroup?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-UserGroup
+UserGroup 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| UserGroup |  | The main user group that this user belongs to <br /> Carrier object for UserGroup. Services for the UserGroup Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IUserAgent">User Agent</see>. |
+| UserGroup |  | The main user group that this user belongs to <para /> Carrier object for UserGroup. Services for the UserGroup Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IUserAgent">User Agent</see>. |
 
-## Response: object
 
-The main user group that this user belongs to
+## Response: 
 
-Carrier object for UserGroup.
-Services for the UserGroup Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IUserAgent">User Agent</see>.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -70,48 +76,38 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/User/SaveUserGroup
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "UserGroup": {
-    "Value": "sit",
-    "Tooltip": "quis",
-    "Id": 288,
-    "Rank": 393,
-    "Deleted": true
-  }
+  "UserGroup": null
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Value": "voluptas",
-  "Tooltip": "voluptate",
-  "Id": 713,
-  "Rank": 655,
-  "Deleted": true,
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": "productize impactful eyeballs"
-  },
+  "Value": "consequatur",
+  "Tooltip": "saepe",
+  "Id": 916,
+  "Rank": 789,
+  "Deleted": false,
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": "e-enable web-enabled methodologies"
-      },
-      "FieldType": "System.String",
-      "FieldLength": 676
+      "FieldRight": null,
+      "FieldType": "System.Int32",
+      "FieldLength": 90
     }
   }
 }

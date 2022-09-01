@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Configuration/SaveSystemEventEntity
-id: v1ConfigurationAgent_SaveSystemEventEntity
+uid: v1ConfigurationAgent_SaveSystemEventEntity
 ---
 
 # POST Agents/Configuration/SaveSystemEventEntity
@@ -10,6 +10,13 @@ POST /api/v1/Agents/Configuration/SaveSystemEventEntity
 ```
 
 Updates the existing SystemEventEntity or creates a new SystemEventEntity if the id parameter is empty
+
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -25,9 +32,9 @@ Updates the existing SystemEventEntity or creates a new SystemEventEntity if the
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entity
+## Request Body: entity  
 
-The SystemEventEntity to be saved.
+The SystemEventEntity to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -42,18 +49,16 @@ The SystemEventEntity to be saved.
 | Registered | date-time | Registered when  in UTC. |
 | ActivatedBy |  | The associate that first created the SystemEvent. |
 
-## Response: object
 
-Entity for system events
+## Response: 
 
-Carrier object for SystemEventEntity.
-Services for the SystemEventEntity Carrier is available from the <see cref="!:IConfigurationAgent">Configuration Agent</see>.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -70,7 +75,7 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Configuration/SaveSystemEventEntity
@@ -80,83 +85,42 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SystemEventId": 100,
+  "SystemEventId": 976,
   "Scope": "Database",
-  "Eta": "1995-06-30T18:28:48.4076532+02:00",
-  "Eventkey": "non",
-  "Eventmess": "dolores",
-  "ExtraInfo": 652,
-  "Owner": 278,
-  "UpdatedCount": 72,
-  "Registered": "2007-12-15T18:28:48.4076532+01:00",
-  "ActivatedBy": {
-    "AssociateId": 386,
-    "Name": "Kuhic, Wilderman and Botsford",
-    "PersonId": 621,
-    "Rank": 699,
-    "Tooltip": "magni",
-    "Type": "AnonymousAssociate",
-    "GroupIdx": 866,
-    "FullName": "Mrs. Arturo Dicki",
-    "FormalName": "Paucek-Gorczany",
-    "Deleted": true,
-    "EjUserId": 720,
-    "UserName": "Walsh, Hane and Okuneva"
-  }
+  "Eta": "2005-01-15T11:10:26.1985254+01:00",
+  "Eventkey": "aspernatur",
+  "Eventmess": "eaque",
+  "ExtraInfo": 841,
+  "Owner": 413,
+  "UpdatedCount": 334,
+  "Registered": "2008-05-09T11:10:26.1985254+02:00",
+  "ActivatedBy": null
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SystemEventId": 143,
+  "SystemEventId": 444,
   "Scope": "Database",
-  "Eta": "1998-12-12T18:28:48.4096243+01:00",
-  "Eventkey": "consectetur",
-  "Eventmess": "amet",
-  "ExtraInfo": 358,
-  "Owner": 683,
-  "UpdatedCount": 247,
-  "Registered": "2010-04-10T18:28:48.4096243+02:00",
-  "ActivatedBy": {
-    "AssociateId": 304,
-    "Name": "Erdman-Sipes",
-    "PersonId": 509,
-    "Rank": 364,
-    "Tooltip": "ipsa",
-    "Type": "AnonymousAssociate",
-    "GroupIdx": 436,
-    "FullName": "Phyllis Runolfsson",
-    "FormalName": "Dooley LLC",
-    "Deleted": false,
-    "EjUserId": 148,
-    "UserName": "Shanahan LLC",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.Int32",
-        "FieldLength": 252
-      }
-    }
-  },
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "Eta": "2020-09-27T11:10:26.1995253+02:00",
+  "Eventkey": "quibusdam",
+  "Eventmess": "et",
+  "ExtraInfo": 406,
+  "Owner": 1000,
+  "UpdatedCount": 131,
+  "Registered": "2021-07-17T11:10:26.1995253+02:00",
+  "ActivatedBy": null,
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
-      "FieldType": "System.Int32",
-      "FieldLength": 375
+      "FieldRight": null,
+      "FieldType": "System.String",
+      "FieldLength": 422
     }
   }
 }

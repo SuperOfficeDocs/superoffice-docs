@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "screen_definition_element"
-so.date: 04.12.2022
+so.date: 08.26.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -31,6 +31,7 @@ An element in a configurable screen
 |base\_table|Name of the table used as a base for element profile configuration|String(255)|&#x25CF;|
 |hide|If TRUE the element will be hidden from the user|Bool| |
 
+
 ![screen_definition_element table relationship diagram](./media/screen_definition_element.png)
 
 [!include[details](./includes/screen-definition-element.md)]
@@ -49,6 +50,7 @@ An element in a configurable screen
 |[element\_profile](element-profile.md)  |The new (4.0) profile table. Contains profile for a single Html-element. Connected through element_profile_link |
 |[screen\_definition](screen-definition.md)  |A configurable screen |
 
+
 ## Replication Flags
 
 * None
@@ -56,3 +58,4 @@ An element in a configurable screen
 ## Security Flags
 
 * No access control via user's Role.
+

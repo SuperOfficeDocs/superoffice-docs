@@ -15,6 +15,8 @@ Change the status of one or more Sales to Sold. Note that this does not mark the
 
 * **saleIds:** Array of sale ids to be marked as lost. All the normal write access rules apply.
 
+
+
 [WSDL file for Services87/Sale](../Services87-Sale.md)
 
 Obtain a ticket from the [Services87/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -49,6 +51,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## SetAsSold Response
 
 ```xml
@@ -68,3 +71,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

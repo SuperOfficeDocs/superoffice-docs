@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "sequence"
-so.date: 04.12.2022
+so.date: 08.26.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -25,6 +25,7 @@ next_id to be used for each table
 |next\_id|Next id to be used for table|Id|&#x25CF;|
 |TableName|The name of the table this row concerns|String(255)|&#x25CF;|
 |TableNumber|The table number for this table, constant over the table&apos;s lifetime (but possibly different from one database to another|Int|&#x25CF;|
+
 
 ![sequence table relationship diagram](./media/sequence.png)
 
@@ -45,3 +46,4 @@ next_id to be used for each table
 ## Security Flags
 
 * No access control via user's Role.
+

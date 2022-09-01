@@ -1,6 +1,6 @@
 ---
 title: PUT List/{udListDefinitionName}/Items/{id}/Headings
-id: v1ListItemEntity_SaveHeadingsForListItemFromListName
+uid: v1ListItemEntity_SaveHeadingsForListItemFromListName
 ---
 
 # PUT List/{udListDefinitionName}/Items/{id}/Headings
@@ -11,10 +11,17 @@ PUT /api/v1/List/{udListDefinitionName}/Items/{listItemId}/Headings
 
 Saves the headings for the list item.
 
+
+
+
+
+
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | udListDefinitionName | string | The name of the list definition, indicating which list to update. **Required** |
 | listItemId | int32 | The identity of the list item **Required** |
+
+
 
 ## Request Headers
 
@@ -30,9 +37,9 @@ Saves the headings for the list item.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: headings
+## Request Body: headings  
 
-The headings to save.
+The headings to save. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -52,7 +59,10 @@ The headings to save.
 | Hidden | bool | True if the ListItem is hidden |
 | FullName | string | The name of the ListItem in its context |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -80,56 +90,58 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 PUT /api/v1/List/{udListDefinitionName}/Items/{listItemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 43,
-    "Name": "Hyatt Group",
-    "ToolTip": "Ad quaerat ut et.",
-    "Deleted": true,
-    "Rank": 319,
-    "Type": "commodi",
-    "ColorBlock": 703,
-    "IconHint": "ut",
+    "Id": 384,
+    "Name": "Adams, Sauer and Purdy",
+    "ToolTip": "Voluptatem consequuntur ut id ut quia voluptatibus.",
+    "Deleted": false,
+    "Rank": 678,
+    "Type": "quis",
+    "ColorBlock": 18,
+    "IconHint": "expedita",
     "Selected": false,
-    "LastChanged": "2015-07-16T18:25:51.5912945+02:00",
+    "LastChanged": "2007-10-25T11:10:53.9012174+02:00",
     "ChildItems": [
       {
-        "Id": 192,
-        "Name": "Wiegand, Rippin and Green",
-        "ToolTip": "Accusantium earum non vero error.",
+        "Id": 380,
+        "Name": "Mann-Krajcik",
+        "ToolTip": "Repudiandae quia harum est.",
         "Deleted": false,
-        "Rank": 860,
-        "Type": "deleniti",
-        "ColorBlock": 323,
-        "IconHint": "sapiente",
-        "Selected": false,
-        "LastChanged": "1997-02-13T18:25:51.5912945+01:00",
+        "Rank": 993,
+        "Type": "laudantium",
+        "ColorBlock": 736,
+        "IconHint": "incidunt",
+        "Selected": true,
+        "LastChanged": "2013-12-20T11:10:53.9012174+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "labore",
-        "StyleHint": "ut",
-        "Hidden": true,
-        "FullName": "Russ Kub"
+        "ExtraInfo": "quis",
+        "StyleHint": "sed",
+        "Hidden": false,
+        "FullName": "Dr. Demetrius Alphonso Orn"
       }
     ],
-    "ExtraInfo": "quod",
-    "StyleHint": "eum",
-    "Hidden": false,
-    "FullName": "Millie Abshire"
+    "ExtraInfo": "cum",
+    "StyleHint": "explicabo",
+    "Hidden": true,
+    "FullName": "Hank Kassulke"
   }
 ]
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -137,65 +149,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 770,
-    "Name": "Hansen, Koch and Osinski",
-    "ToolTip": "Nesciunt reiciendis.",
-    "Deleted": true,
-    "Rank": 900,
-    "Type": "qui",
-    "ColorBlock": 586,
-    "IconHint": "necessitatibus",
+    "Id": 433,
+    "Name": "Leannon Inc and Sons",
+    "ToolTip": "Autem architecto ut sed sapiente quam nesciunt.",
+    "Deleted": false,
+    "Rank": 989,
+    "Type": "voluptas",
+    "ColorBlock": 756,
+    "IconHint": "voluptatem",
     "Selected": false,
-    "LastChanged": "2007-03-20T18:25:51.5932943+01:00",
+    "LastChanged": "2012-09-12T11:10:53.903186+02:00",
     "ChildItems": [
       {
-        "Id": 451,
-        "Name": "Tillman-Schaefer",
-        "ToolTip": "Deserunt id provident quibusdam.",
-        "Deleted": true,
-        "Rank": 486,
-        "Type": "similique",
-        "ColorBlock": 267,
-        "IconHint": "illum",
-        "Selected": false,
-        "LastChanged": "2016-08-20T18:25:51.5942944+02:00",
+        "Id": 55,
+        "Name": "Rath Inc and Sons",
+        "ToolTip": "Eum modi deserunt nostrum eos facilis sit.",
+        "Deleted": false,
+        "Rank": 926,
+        "Type": "id",
+        "ColorBlock": 847,
+        "IconHint": "reprehenderit",
+        "Selected": true,
+        "LastChanged": "2018-05-15T11:10:53.903186+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "voluptatibus",
-        "StyleHint": "ex",
-        "Hidden": true,
-        "FullName": "Hailee Crona",
-        "TableRight": {},
+        "ExtraInfo": "inventore",
+        "StyleHint": "harum",
+        "Hidden": false,
+        "FullName": "Alden Kohler",
+        "TableRight": null,
         "FieldProperties": {
           "fieldName": {
-            "FieldRight": {
-              "Mask": "FULL",
-              "Reason": ""
-            },
+            "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 926
+            "FieldLength": 891
           }
         }
       }
     ],
-    "ExtraInfo": "doloremque",
-    "StyleHint": "blanditiis",
-    "Hidden": false,
-    "FullName": "Dino Pollich",
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "ExtraInfo": "quae",
+    "StyleHint": "rem",
+    "Hidden": true,
+    "FullName": "Prof. Javon Gwendolyn Langworth Sr.",
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 68
+        "FieldRight": null,
+        "FieldType": "System.Int32",
+        "FieldLength": 501
       }
     }
   }

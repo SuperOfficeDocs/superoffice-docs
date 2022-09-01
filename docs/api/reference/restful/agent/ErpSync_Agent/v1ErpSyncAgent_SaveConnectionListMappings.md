@@ -1,6 +1,6 @@
 ---
 title: POST Agents/ErpSync/SaveConnectionListMappings
-id: v1ErpSyncAgent_SaveConnectionListMappings
+uid: v1ErpSyncAgent_SaveConnectionListMappings
 ---
 
 # POST Agents/ErpSync/SaveConnectionListMappings
@@ -11,7 +11,15 @@ POST /api/v1/Agents/ErpSync/SaveConnectionListMappings
 
 Saves a connection to the database.
 
-## Online Restricted: ## The ErpSync agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for ERP integration apps
+
+
+
+## Online Restricted: ## The ErpSync agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for ERP integration apps.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +30,7 @@ Saves a connection to the database.
 ```http
 POST /api/v1/Agents/ErpSync/SaveConnectionListMappings?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,26 +46,24 @@ POST /api/v1/Agents/ErpSync/SaveConnectionListMappings?$select=name,department,c
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-ListMapping
+ListMapping 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| ListMapping |  | Information about all list connections for a connection between CRM and the ERP system. <br /> Carrier object for ErpConnectionListMappingContainer. Services for the ErpConnectionListMappingContainer Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IErpSyncAgent">ErpSync Agent</see>. |
+| ListMapping |  | Information about all list connections for a connection between CRM and the ERP system. <para /> Carrier object for ErpConnectionListMappingContainer. Services for the ErpConnectionListMappingContainer Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IErpSyncAgent">ErpSync Agent</see>. |
 
-## Response: object
 
-Information about all list connections for a connection between CRM and the ERP system.
+## Response: 
 
-Carrier object for ErpConnectionListMappingContainer.
-Services for the ErpConnectionListMappingContainer Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IErpSyncAgent">ErpSync Agent</see>.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -66,26 +73,21 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/ErpSync/SaveConnectionListMappings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ListMapping": {
-    "ErpListItemMappings": [
-      {},
-      {}
-    ],
-    "ErpConnectionId": 945,
-    "ErpConnectionName": "Johnston-Rogahn"
-  }
+  "ListMapping": null
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -94,41 +96,32 @@ Content-Type: application/json; charset=utf-8
 {
   "ErpListItemMappings": [
     {
-      "CrmList": {},
-      "ErpListName": "McClure, Gislason and Koelpin",
+      "CrmList": null,
+      "ErpListName": "Auer, Sporer and Zieme",
       "ErpCrmListItemMappings": [
         {},
         {}
       ],
-      "ErpActorTypeName": "Gislason-Toy",
-      "ErpFieldId": 531,
-      "TableRight": {},
+      "ErpActorTypeName": "Dooley-Littel",
+      "ErpFieldId": 322,
+      "TableRight": null,
       "FieldProperties": {
         "fieldName": {
-          "FieldRight": {
-            "Mask": "FULL",
-            "Reason": ""
-          },
+          "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 880
+          "FieldLength": 24
         }
       }
     }
   ],
-  "ErpConnectionId": 807,
-  "ErpConnectionName": "Hansen-Gutkowski",
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "ErpConnectionId": 67,
+  "ErpConnectionName": "Corkery-Beer",
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
+      "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 14
+      "FieldLength": 495
     }
   }
 }

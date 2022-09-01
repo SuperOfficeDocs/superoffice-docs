@@ -1,6 +1,6 @@
 ---
 title: POST Agents/ForeignSystem/GetForeignAppEntity
-id: v1ForeignSystemAgent_GetForeignAppEntity
+uid: v1ForeignSystemAgent_GetForeignAppEntity
 ---
 
 # POST Agents/ForeignSystem/GetForeignAppEntity
@@ -11,6 +11,12 @@ POST /api/v1/Agents/ForeignSystem/GetForeignAppEntity
 
 Gets a ForeignAppEntity object.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -19,9 +25,10 @@ Gets a ForeignAppEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/ForeignSystem/GetForeignAppEntity?foreignAppEntityId=41
+POST /api/v1/Agents/ForeignSystem/GetForeignAppEntity?foreignAppEntityId=773
 POST /api/v1/Agents/ForeignSystem/GetForeignAppEntity?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -36,16 +43,16 @@ POST /api/v1/Agents/ForeignSystem/GetForeignAppEntity?$select=name,department,ca
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response: object
 
-Carrier object for ForeignAppEntity.
-Services for the ForeignAppEntity Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IForeignSystemAgent">ForeignSystem Agent</see>.
+## Response: 
+
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -59,7 +66,7 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/ForeignSystem/GetForeignAppEntity
@@ -68,101 +75,46 @@ Accept: application/json; charset=utf-8
 Accept-Language: *
 ```
 
+## Sample response
+
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 854,
-  "Name": "Fay Inc and Sons",
-  "CreatedDate": "2016-04-19T18:28:49.2001231+02:00",
-  "UpdatedDate": "2018-03-02T18:28:49.2001231+01:00",
-  "CreatedBy": {
-    "AssociateId": 259,
-    "Name": "Balistreri, Heidenreich and Pagac",
-    "PersonId": 123,
-    "Rank": 161,
-    "Tooltip": "deserunt",
-    "Type": "AnonymousAssociate",
-    "GroupIdx": 888,
-    "FullName": "Mattie Frami",
-    "FormalName": "Hermann Group",
-    "Deleted": false,
-    "EjUserId": 556,
-    "UserName": "Hammes Group",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.Int32",
-        "FieldLength": 39
-      }
-    }
-  },
-  "UpdatedBy": {
-    "AssociateId": 562,
-    "Name": "Zieme-Homenick",
-    "PersonId": 357,
-    "Rank": 40,
-    "Tooltip": "architecto",
-    "Type": "AnonymousAssociate",
-    "GroupIdx": 885,
-    "FullName": "Mr. Ada Williamson",
-    "FormalName": "O'Connell, Cartwright and Corwin",
-    "Deleted": true,
-    "EjUserId": 221,
-    "UserName": "Volkman Group",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": "synthesize integrated channels"
-        },
-        "FieldType": "System.String",
-        "FieldLength": 402
-      }
-    }
-  },
+  "ForeignAppId": 325,
+  "Name": "Paucek-Stamm",
+  "CreatedDate": "2002-04-18T11:10:27.0724253+02:00",
+  "UpdatedDate": "2012-01-06T11:10:27.0724253+01:00",
+  "CreatedBy": null,
+  "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 442,
-      "Name": "Greenholt, Nikolaus and Lynch",
-      "CreatedDate": "2003-11-02T18:28:49.2011234+01:00",
-      "UpdatedDate": "2008-03-22T18:28:49.2011234+01:00",
-      "AssociateFullName": "Shane Stamm V",
-      "CreatedBy": "quia",
-      "UpdatedBy": "ut",
-      "DeviceIdentifier": "nihil",
-      "ForeignAppId": 597,
-      "TableRight": {},
+      "ForeignDeviceId": 159,
+      "Name": "Bailey Group",
+      "CreatedDate": "2022-02-09T11:10:27.0724253+01:00",
+      "UpdatedDate": "2019-12-08T11:10:27.0724253+01:00",
+      "AssociateFullName": "Mr. Jerome Claud Tromp",
+      "CreatedBy": "voluptas",
+      "UpdatedBy": "qui",
+      "DeviceIdentifier": "aspernatur",
+      "ForeignAppId": 416,
+      "TableRight": null,
       "FieldProperties": {
         "fieldName": {
-          "FieldRight": {
-            "Mask": "FULL",
-            "Reason": ""
-          },
-          "FieldType": "System.String",
-          "FieldLength": 78
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 415
         }
       }
     }
   ],
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
-      "FieldType": "System.String",
-      "FieldLength": 501
+      "FieldRight": null,
+      "FieldType": "System.Int32",
+      "FieldLength": 739
     }
   }
 }

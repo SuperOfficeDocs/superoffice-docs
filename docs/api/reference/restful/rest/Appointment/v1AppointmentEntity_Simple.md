@@ -1,6 +1,6 @@
 ---
 title: GET Appointment/{id}/Simple
-id: v1AppointmentEntity_Simple
+uid: v1AppointmentEntity_Simple
 ---
 
 # GET Appointment/{id}/Simple
@@ -11,11 +11,18 @@ GET /api/v1/Appointment/{id}/Simple
 
 A simple Appointment object.
 
+
 This is a simpler, smaller variation of the full AppointmentEntity. Calls the Appointment agent service GetAppointment.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | id | int32 | The id of the Appointment to return. **Required** |
+
+
 
 ## Request Headers
 
@@ -30,19 +37,17 @@ This is a simpler, smaller variation of the full AppointmentEntity. Calls the Ap
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response: object
 
-Simple read-only appointment data.
+## Response: 
 
-Carrier object for Appointment.
-Services for the Appointment Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IAppointmentAgent">Appointment Agent</see>.
+AppointmentEntity found.
 
 | Response | Description |
 |----------------|-------------|
 | 200 | AppointmentEntity found. |
 | 404 | Not Found. |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -98,81 +103,77 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 GET /api/v1/Appointment/{id}/Simple
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 AppointmentEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "AppointmentId": 827,
-  "StartDate": "2006-03-01T18:25:49.9745689+01:00",
-  "EndDate": "2021-09-23T18:25:49.9745689+02:00",
+  "AppointmentId": 941,
+  "StartDate": "2022-03-03T11:10:52.4081797+01:00",
+  "EndDate": "2012-08-22T11:10:52.4081797+02:00",
   "Type": "BookingForChecklist",
-  "Task": "qui",
-  "AssociateFullName": "Alfred Osinski",
-  "ContactName": "Kihn-Botsford",
-  "Description": "Universal demand-driven model",
-  "PersonFullName": "Domenica Hills",
-  "PersonId": 675,
-  "ContactId": 597,
-  "ProjectId": 629,
-  "ProjectName": "Lowe Inc and Sons",
+  "Task": "dolorum",
+  "AssociateFullName": "Ms. Annetta Erich Effertz DDS",
+  "ContactName": "Kuhlman-Murazik",
+  "Description": "Innovative solution-oriented groupware",
+  "PersonFullName": "Keon Rath",
+  "PersonId": 386,
+  "ContactId": 724,
+  "ProjectId": 661,
+  "ProjectName": "Considine Inc and Sons",
   "IsPublished": false,
-  "AssociateId": 226,
-  "ColorIndex": 617,
+  "AssociateId": 233,
+  "ColorIndex": 753,
   "IsFree": true,
-  "HasAlarm": true,
-  "IsAlldayEvent": false,
+  "HasAlarm": false,
+  "IsAlldayEvent": true,
   "Private": "PrivateGroup",
-  "PriorityId": 79,
-  "PriorityName": "Brown Inc and Sons",
+  "PriorityId": 597,
+  "PriorityName": "Sporer, O'Hara and Conn",
   "TaskType": "Appointment",
   "IsBookingMain": false,
-  "IsRecurrence": false,
+  "IsRecurrence": true,
   "IsBooking": false,
-  "ActiveDate": "2013-04-04T18:25:49.9755633+02:00",
+  "ActiveDate": "2022-05-09T11:10:52.4081797+02:00",
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
   "Completed": "Completed",
   "RecurringPattern": "Custom",
-  "RecurringStartDate": "2013-02-22T18:25:49.9755633+01:00",
-  "RecurringEndDate": "1994-12-20T18:25:49.9755633+01:00",
-  "MotherId": 650,
-  "AssignedBy": 922,
-  "AssignedByFullName": "Mr. Lynn Bednar",
-  "RejectReason": "",
-  "Location": "rerum",
-  "AlarmLeadTime": "tenetur",
-  "SaleId": 307,
-  "SaleName": "Leffler-Hilpert",
-  "AssociateName": "Champlin-Douglas",
-  "CreatedDate": "2011-10-22T18:25:49.9755633+02:00",
-  "CreatedBy": "et",
-  "CreatedByFullName": "Lorena Mraz",
-  "CreatedByAssociateId": 402,
+  "RecurringStartDate": "2011-06-11T11:10:52.4081797+02:00",
+  "RecurringEndDate": "2007-05-04T11:10:52.4081797+02:00",
+  "MotherId": 289,
+  "AssignedBy": 283,
+  "AssignedByFullName": "Brooks Macejkovic",
+  "RejectReason": "disintermediate next-generation networks",
+  "Location": "quo",
+  "AlarmLeadTime": "eaque",
+  "SaleId": 849,
+  "SaleName": "Dooley, Jaskolski and Anderson",
+  "AssociateName": "Haag-Yundt",
+  "CreatedDate": "2004-01-14T11:10:52.4081797+01:00",
+  "CreatedBy": "corporis",
+  "CreatedByFullName": "Prof. Eduardo Darby Leffler DDS",
+  "CreatedByAssociateId": 121,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
-      "FieldType": "System.Int32",
-      "FieldLength": 123
+      "FieldRight": null,
+      "FieldType": "System.String",
+      "FieldLength": 322
     }
   }
 }

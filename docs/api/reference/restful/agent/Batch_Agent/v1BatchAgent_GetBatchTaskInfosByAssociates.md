@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Batch/GetBatchTaskInfosByAssociates
-id: v1BatchAgent_GetBatchTaskInfosByAssociates
+uid: v1BatchAgent_GetBatchTaskInfosByAssociates
 ---
 
 # POST Agents/Batch/GetBatchTaskInfosByAssociates
@@ -11,6 +11,12 @@ POST /api/v1/Agents/Batch/GetBatchTaskInfosByAssociates
 
 Get an array of BatchTaskInfo for the provided associate id's.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Get an array of BatchTaskInfo for the provided associate id's.
 ```http
 POST /api/v1/Agents/Batch/GetBatchTaskInfosByAssociates?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,15 +42,18 @@ POST /api/v1/Agents/Batch/GetBatchTaskInfosByAssociates?$select=name,department,
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-AssociateIds
+AssociateIds 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | AssociateIds | array |  |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -77,22 +87,24 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Batch/GetBatchTaskInfosByAssociates
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
   "AssociateIds": [
-    536,
-    264
+    227,
+    552
   ]
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -100,42 +112,36 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 433,
-    "Name": "Spencer Inc and Sons",
-    "AssociateId": 658,
-    "DetailsTable": 325,
-    "DetailsRecord": 494,
-    "IsSystemTask": false,
+    "Id": 147,
+    "Name": "Schinner, Rolfson and Abshire",
+    "AssociateId": 206,
+    "DetailsTable": 334,
+    "DetailsRecord": 206,
+    "IsSystemTask": true,
     "IsInternalTask": true,
     "ParameterObject": {
-      "ParameterObject1": "cumque",
-      "ParameterObject2": "est"
+      "ParameterObject1": "aut",
+      "ParameterObject2": "consequatur"
     },
-    "LastStarted": "2002-08-13T18:28:48.1415425+02:00",
-    "Created": "1997-10-02T18:28:48.1415425+02:00",
-    "StartCount": 782,
-    "DatabaseSerialNumber": "714503",
-    "Context": "qui",
-    "Result": "totam",
+    "LastStarted": "1998-11-01T11:10:26.0175541+01:00",
+    "Created": "2001-06-19T11:10:26.0175541+02:00",
+    "StartCount": 425,
+    "DatabaseSerialNumber": "848902",
+    "Context": "voluptas",
+    "Result": "nisi",
     "State": "All",
-    "Description": "Reverse-engineered mobile forecast",
-    "Response": "necessitatibus",
-    "Request": "rerum",
-    "ProgressDescription": "Visionary didactic implementation",
-    "ProgressPercent": 766,
-    "FileName": "Howell-Windler",
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "Description": "Up-sized attitude-oriented hierarchy",
+    "Response": "labore",
+    "Request": "itaque",
+    "ProgressDescription": "Team-oriented user-facing knowledge base",
+    "ProgressPercent": 288,
+    "FileName": "McDermott Inc and Sons",
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 747
+        "FieldRight": null,
+        "FieldType": "System.Int32",
+        "FieldLength": 211
       }
     }
   }

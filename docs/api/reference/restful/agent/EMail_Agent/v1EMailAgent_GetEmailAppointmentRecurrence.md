@@ -1,6 +1,6 @@
 ---
 title: POST Agents/EMail/GetEmailAppointmentRecurrence
-id: v1EMailAgent_GetEmailAppointmentRecurrence
+uid: v1EMailAgent_GetEmailAppointmentRecurrence
 ---
 
 # POST Agents/EMail/GetEmailAppointmentRecurrence
@@ -11,7 +11,15 @@ POST /api/v1/Agents/EMail/GetEmailAppointmentRecurrence
 
 Get recurrence data contained in the email iCal attachment
 
-## Online Restricted: ## The EMail agent is not available in Online by default. Access must be requested specifically when app is registered
+
+
+
+## Online Restricted: ## The EMail agent is not available in Online by default. Access must be requested specifically when app is registered.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +30,7 @@ Get recurrence data contained in the email iCal attachment
 ```http
 POST /api/v1/Agents/EMail/GetEmailAppointmentRecurrence?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,21 +46,24 @@ POST /api/v1/Agents/EMail/GetEmailAppointmentRecurrence?$select=name,department,
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-MailItemId
+MailItemId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | MailItemId | int32 |  |
 
-## Response: object
+
+## Response: 
+
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -68,7 +80,7 @@ Response body: object
 | Dates | array |  |
 | IsRecurrence | bool |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/EMail/GetEmailAppointmentRecurrence
@@ -78,59 +90,43 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "MailItemId": 466
+  "MailItemId": 275
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RecurrenceId": 879,
-  "StartDate": "1999-07-02T18:28:49.0139564+02:00",
-  "EndDate": "2018-03-12T18:28:49.0139564+01:00",
-  "RecurrenceCounter": 539,
+  "RecurrenceId": 127,
+  "StartDate": "2022-03-07T11:10:26.8824219+01:00",
+  "EndDate": "2019-03-27T11:10:26.8824219+01:00",
+  "RecurrenceCounter": 875,
   "RecurrenceEndType": "Counter",
   "Pattern": "Custom",
-  "DayPattern": {
-    "Pattern": "EveryCyclicDay",
-    "Cycle": 846
-  },
-  "WeekPattern": {
-    "Weekdays": "Friday",
-    "Cycle": 225
-  },
-  "MonthPattern": {
-    "Pattern": "DayOfMonth",
-    "Cycle": 917,
-    "Day": 952,
-    "Weekday": "Friday",
-    "WeekOfMonth": "First"
-  },
-  "YearPattern": {
-    "Pattern": "DayOfMonth",
-    "Cycle": 128,
-    "Day": 311,
-    "Weekday": "Friday",
-    "WeekOfMonth": "First"
-  },
+  "DayPattern": null,
+  "WeekPattern": null,
+  "MonthPattern": null,
+  "YearPattern": null,
   "Dates": [
     {
-      "Date": "2003-04-10T18:28:49.0139564+02:00",
-      "IsConflict": true,
-      "Description": "Operative composite help-desk",
-      "DescriptionStyleHint": "Phased demand-driven frame",
-      "Tooltip": "saepe"
+      "Date": "2004-10-09T11:10:26.8824219+02:00",
+      "IsConflict": false,
+      "Description": "Versatile fresh-thinking hub",
+      "DescriptionStyleHint": "Enhanced actuating architecture",
+      "Tooltip": "quasi"
     },
     {
-      "Date": "2003-04-10T18:28:49.0139564+02:00",
-      "IsConflict": true,
-      "Description": "Operative composite help-desk",
-      "DescriptionStyleHint": "Phased demand-driven frame",
-      "Tooltip": "saepe"
+      "Date": "2004-10-09T11:10:26.8824219+02:00",
+      "IsConflict": false,
+      "Description": "Versatile fresh-thinking hub",
+      "DescriptionStyleHint": "Enhanced actuating architecture",
+      "Tooltip": "quasi"
     }
   ],
-  "IsRecurrence": false
+  "IsRecurrence": true
 }
 ```

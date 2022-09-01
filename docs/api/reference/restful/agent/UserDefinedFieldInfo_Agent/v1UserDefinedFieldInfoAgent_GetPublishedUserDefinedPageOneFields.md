@@ -1,6 +1,6 @@
 ---
 title: POST Agents/UserDefinedFieldInfo/GetPublishedUserDefinedPageOneFields
-id: v1UserDefinedFieldInfoAgent_GetPublishedUserDefinedPageOneFields
+uid: v1UserDefinedFieldInfoAgent_GetPublishedUserDefinedPageOneFields
 ---
 
 # POST Agents/UserDefinedFieldInfo/GetPublishedUserDefinedPageOneFields
@@ -11,6 +11,12 @@ POST /api/v1/Agents/UserDefinedFieldInfo/GetPublishedUserDefinedPageOneFields
 
 Get a list of page one fields for given Udef type and current user group
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Get a list of page one fields for given Udef type and current user group
 ```http
 POST /api/v1/Agents/UserDefinedFieldInfo/GetPublishedUserDefinedPageOneFields?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,16 +42,19 @@ POST /api/v1/Agents/UserDefinedFieldInfo/GetPublishedUserDefinedPageOneFields?$s
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-OwnerType, UserGroupId
+OwnerType, UserGroupId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | OwnerType | string |  |
 | UserGroupId | int32 |  |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -91,20 +101,22 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/UserDefinedFieldInfo/GetPublishedUserDefinedPageOneFields
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "OwnerType": "Appointment",
-  "UserGroupId": 940
+  "UserGroupId": 334
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -112,52 +124,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 514,
-    "ColumnId": 214,
-    "FieldDefault": "aut",
-    "FieldHeight": 781,
-    "FieldLabel": "laudantium",
-    "FieldLeft": 521,
-    "FieldTop": 428,
+    "UDefFieldId": 605,
+    "ColumnId": 222,
+    "FieldDefault": "ab",
+    "FieldHeight": 686,
+    "FieldLabel": "perspiciatis",
+    "FieldLeft": 320,
+    "FieldTop": 806,
     "FieldType": "Checkbox",
-    "FieldWidth": 526,
-    "FormatMask": "ut",
-    "HideLabel": true,
-    "IsIndexed": true,
-    "LabelHeight": 348,
-    "LabelLeft": 709,
-    "LabelTop": 302,
-    "LabelWidth": 537,
-    "LastVersionId": 970,
-    "ListTableId": 261,
+    "FieldWidth": 884,
+    "FormatMask": "voluptatum",
+    "HideLabel": false,
+    "IsIndexed": false,
+    "LabelHeight": 579,
+    "LabelLeft": 627,
+    "LabelTop": 910,
+    "LabelWidth": 645,
+    "LastVersionId": 437,
+    "ListTableId": 170,
     "IsMandatory": true,
     "Type": "Appointment",
-    "Page1LineNo": 574,
-    "ProgId": "possimus",
+    "Page1LineNo": 405,
+    "ProgId": "voluptatem",
     "IsReadOnly": false,
-    "ShortLabel": "sit",
-    "TabOrder": 304,
-    "TextLength": 559,
-    "Tooltip": "sit",
-    "UdefIdentity": 203,
-    "UDListDefinitionId": 99,
+    "ShortLabel": "debitis",
+    "TabOrder": 130,
+    "TextLength": 720,
+    "Tooltip": "voluptates",
+    "UdefIdentity": 921,
+    "UDListDefinitionId": 267,
     "Justification": "Center",
-    "Version": 362,
-    "TemplateVariableName": "Lesch-Littel",
-    "HasBeenPublished": true,
-    "MdoListName": "Flatley Group",
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "Version": 566,
+    "TemplateVariableName": "Heller-Ratke",
+    "HasBeenPublished": false,
+    "MdoListName": "Nitzsche-Paucek",
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": "engineer transparent schemas"
-        },
+        "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 541
+        "FieldLength": 266
       }
     }
   }

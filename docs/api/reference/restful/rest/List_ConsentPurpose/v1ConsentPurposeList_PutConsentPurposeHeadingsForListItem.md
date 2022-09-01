@@ -1,6 +1,6 @@
 ---
 title: PUT List/ConsentPurpose/Items/{id}/Headings
-id: v1ConsentPurposeList_PutConsentPurposeHeadingsForListItem
+uid: v1ConsentPurposeList_PutConsentPurposeHeadingsForListItem
 ---
 
 # PUT List/ConsentPurpose/Items/{id}/Headings
@@ -11,11 +11,18 @@ PUT /api/v1/List/ConsentPurpose/Items/{itemId}/Headings
 
 Saves headings for the ConsentPurpose list's item.
 
+
 Calls the List agent service SaveHeadingsForListItemFromListDefinition.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | itemId | int32 | The ID of the headings to be saved. **Required** |
+
+
 
 ## Request Headers
 
@@ -31,9 +38,9 @@ Calls the List agent service SaveHeadingsForListItemFromListDefinition.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entities
+## Request Body: entities  
 
-The headings to be saved.
+The headings to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -53,7 +60,10 @@ The headings to be saved.
 | Hidden | bool | True if the ListItem is hidden |
 | FullName | string | The name of the ListItem in its context |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -81,7 +91,7 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 PUT /api/v1/List/ConsentPurpose/Items/{itemId}/Headings
@@ -92,45 +102,47 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 368,
-    "Name": "Kerluke, Murazik and Greenfelder",
-    "ToolTip": "Excepturi totam enim qui.",
-    "Deleted": true,
-    "Rank": 667,
-    "Type": "consequuntur",
-    "ColorBlock": 271,
-    "IconHint": "suscipit",
-    "Selected": false,
-    "LastChanged": "1995-07-27T18:25:51.6752934+02:00",
+    "Id": 150,
+    "Name": "Wehner Group",
+    "ToolTip": "Ad cum corrupti dolorem.",
+    "Deleted": false,
+    "Rank": 781,
+    "Type": "et",
+    "ColorBlock": 426,
+    "IconHint": "error",
+    "Selected": true,
+    "LastChanged": "2014-04-09T11:10:53.9871823+02:00",
     "ChildItems": [
       {
-        "Id": 410,
-        "Name": "Kassulke LLC",
-        "ToolTip": "Sunt earum aspernatur.",
-        "Deleted": true,
-        "Rank": 123,
-        "Type": "minus",
-        "ColorBlock": 317,
-        "IconHint": "amet",
-        "Selected": true,
-        "LastChanged": "2008-02-28T18:25:51.6763332+01:00",
+        "Id": 133,
+        "Name": "Hand-Willms",
+        "ToolTip": "Eveniet perspiciatis sed aut quia praesentium et.",
+        "Deleted": false,
+        "Rank": 532,
+        "Type": "laborum",
+        "ColorBlock": 80,
+        "IconHint": "dicta",
+        "Selected": false,
+        "LastChanged": "2014-09-15T11:10:53.9871823+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "pariatur",
+        "ExtraInfo": "minus",
         "StyleHint": "qui",
         "Hidden": true,
-        "FullName": "Mose Predovic"
+        "FullName": "Gabriella Purdy"
       }
     ],
-    "ExtraInfo": "totam",
-    "StyleHint": "voluptatem",
+    "ExtraInfo": "qui",
+    "StyleHint": "mollitia",
     "Hidden": false,
-    "FullName": "Rosanna Gerlach V"
+    "FullName": "Luther Dooley"
   }
 ]
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -138,65 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 216,
-    "Name": "Torp, Wiza and Oberbrunner",
-    "ToolTip": "Ipsum reiciendis omnis et labore in sunt.",
-    "Deleted": true,
-    "Rank": 845,
-    "Type": "expedita",
-    "ColorBlock": 413,
-    "IconHint": "et",
+    "Id": 592,
+    "Name": "Hayes-Greenfelder",
+    "ToolTip": "Et repellendus et sit iste rem.",
+    "Deleted": false,
+    "Rank": 889,
+    "Type": "itaque",
+    "ColorBlock": 536,
+    "IconHint": "error",
     "Selected": false,
-    "LastChanged": "2004-09-17T18:25:51.6932913+02:00",
+    "LastChanged": "2022-08-16T11:10:53.9881824+02:00",
     "ChildItems": [
       {
-        "Id": 618,
-        "Name": "Stoltenberg LLC",
-        "ToolTip": "Ea dolor totam.",
+        "Id": 219,
+        "Name": "Hand-Ziemann",
+        "ToolTip": "At ea fuga.",
         "Deleted": false,
-        "Rank": 937,
-        "Type": "asperiores",
-        "ColorBlock": 783,
-        "IconHint": "tenetur",
-        "Selected": true,
-        "LastChanged": "2014-04-19T18:25:51.6932913+02:00",
+        "Rank": 507,
+        "Type": "sed",
+        "ColorBlock": 681,
+        "IconHint": "amet",
+        "Selected": false,
+        "LastChanged": "1996-07-15T11:10:53.9891821+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "amet",
-        "StyleHint": "excepturi",
+        "ExtraInfo": "vel",
+        "StyleHint": "ducimus",
         "Hidden": false,
-        "FullName": "Dr. Lane Hirthe",
-        "TableRight": {},
+        "FullName": "Ms. Antone Myra Bernhard DDS",
+        "TableRight": null,
         "FieldProperties": {
           "fieldName": {
-            "FieldRight": {
-              "Mask": "FULL",
-              "Reason": ""
-            },
+            "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 741
+            "FieldLength": 539
           }
         }
       }
     ],
-    "ExtraInfo": "dolorem",
-    "StyleHint": "officia",
-    "Hidden": true,
-    "FullName": "Bertram DuBuque",
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "ExtraInfo": "corrupti",
+    "StyleHint": "quas",
+    "Hidden": false,
+    "FullName": "Cristopher Wilkinson",
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
+        "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 304
+        "FieldLength": 598
       }
     }
   }

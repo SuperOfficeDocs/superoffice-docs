@@ -1,6 +1,6 @@
 ---
 title: PUT List/MrMrs/Items/{id}/UserGroups
-id: v1MrMrsList_PutMrMrsUserGroupsForListItem
+uid: v1MrMrsList_PutMrMrsUserGroupsForListItem
 ---
 
 # PUT List/MrMrs/Items/{id}/UserGroups
@@ -11,11 +11,18 @@ PUT /api/v1/List/MrMrs/Items/{itemId}/UserGroups
 
 Saves user groups visible for the MrMrs list's item.
 
+
 Calls the List agent service SaveHeadingsForListItemFromListDefinition.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | itemId | int32 | The ID of the item to save. **Required** |
+
+
 
 ## Request Headers
 
@@ -31,9 +38,9 @@ Calls the List agent service SaveHeadingsForListItemFromListDefinition.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entities
+## Request Body: entities  
 
-The headings to be saved.
+The headings to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -53,7 +60,10 @@ The headings to be saved.
 | Hidden | bool | True if the ListItem is hidden |
 | FullName | string | The name of the ListItem in its context |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -81,7 +91,7 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 PUT /api/v1/List/MrMrs/Items/{itemId}/UserGroups
@@ -92,45 +102,47 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 380,
-    "Name": "Wyman Inc and Sons",
-    "ToolTip": "Nulla tempore.",
+    "Id": 885,
+    "Name": "Klocko-Ward",
+    "ToolTip": "Vero non labore.",
     "Deleted": false,
-    "Rank": 266,
-    "Type": "harum",
-    "ColorBlock": 126,
-    "IconHint": "et",
-    "Selected": false,
-    "LastChanged": "2000-12-11T18:25:51.9112531+01:00",
+    "Rank": 943,
+    "Type": "neque",
+    "ColorBlock": 555,
+    "IconHint": "quis",
+    "Selected": true,
+    "LastChanged": "1998-05-26T11:10:54.3268695+02:00",
     "ChildItems": [
       {
-        "Id": 404,
-        "Name": "Thompson-Morar",
-        "ToolTip": "Cupiditate iusto aspernatur expedita.",
-        "Deleted": false,
-        "Rank": 363,
-        "Type": "sapiente",
-        "ColorBlock": 272,
-        "IconHint": "quos",
-        "Selected": true,
-        "LastChanged": "1994-08-24T18:25:51.9112531+02:00",
+        "Id": 967,
+        "Name": "Brown, Schowalter and Harris",
+        "ToolTip": "Perspiciatis veritatis libero.",
+        "Deleted": true,
+        "Rank": 447,
+        "Type": "delectus",
+        "ColorBlock": 632,
+        "IconHint": "sed",
+        "Selected": false,
+        "LastChanged": "1999-12-20T11:10:54.3268695+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ut",
-        "StyleHint": "esse",
-        "Hidden": false,
-        "FullName": "Maye Sporer"
+        "ExtraInfo": "voluptatem",
+        "StyleHint": "et",
+        "Hidden": true,
+        "FullName": "Reba Pollich"
       }
     ],
-    "ExtraInfo": "doloremque",
-    "StyleHint": "est",
+    "ExtraInfo": "deleniti",
+    "StyleHint": "nesciunt",
     "Hidden": true,
-    "FullName": "Lavinia Kihn"
+    "FullName": "Kaylee Bogisich"
   }
 ]
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -138,65 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 288,
-    "Name": "Schmidt, Kautzer and Miller",
-    "ToolTip": "Aperiam qui dolor corporis.",
+    "Id": 223,
+    "Name": "Yost-Goldner",
+    "ToolTip": "Sapiente sit maiores repellat.",
     "Deleted": true,
-    "Rank": 349,
-    "Type": "totam",
-    "ColorBlock": 299,
-    "IconHint": "est",
-    "Selected": false,
-    "LastChanged": "2008-07-25T18:25:51.9122476+02:00",
+    "Rank": 90,
+    "Type": "perferendis",
+    "ColorBlock": 191,
+    "IconHint": "dicta",
+    "Selected": true,
+    "LastChanged": "2004-11-04T11:10:54.3288693+01:00",
     "ChildItems": [
       {
-        "Id": 743,
-        "Name": "Wiza, Little and Ratke",
-        "ToolTip": "Quas quaerat quasi.",
+        "Id": 401,
+        "Name": "Leffler-VonRueden",
+        "ToolTip": "Quo ipsa id.",
         "Deleted": false,
-        "Rank": 633,
-        "Type": "atque",
-        "ColorBlock": 731,
-        "IconHint": "magnam",
-        "Selected": true,
-        "LastChanged": "1995-06-09T18:25:51.9122476+02:00",
+        "Rank": 90,
+        "Type": "explicabo",
+        "ColorBlock": 952,
+        "IconHint": "doloremque",
+        "Selected": false,
+        "LastChanged": "2009-04-20T11:10:54.3288693+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "eos",
-        "StyleHint": "architecto",
+        "ExtraInfo": "vel",
+        "StyleHint": "pariatur",
         "Hidden": false,
-        "FullName": "Dr. Amy Wyman",
-        "TableRight": {},
+        "FullName": "Miss Marshall Peggie Johnson",
+        "TableRight": null,
         "FieldProperties": {
           "fieldName": {
-            "FieldRight": {
-              "Mask": "FULL",
-              "Reason": ""
-            },
-            "FieldType": "System.String",
-            "FieldLength": 799
+            "FieldRight": null,
+            "FieldType": "System.Int32",
+            "FieldLength": 872
           }
         }
       }
     ],
-    "ExtraInfo": "dolor",
-    "StyleHint": "exercitationem",
+    "ExtraInfo": "dolorum",
+    "StyleHint": "omnis",
     "Hidden": false,
-    "FullName": "Carey Bogan",
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": "orchestrate compelling convergence"
-    },
+    "FullName": "Hattie Auer",
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
+        "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 619
+        "FieldLength": 783
       }
     }
   }

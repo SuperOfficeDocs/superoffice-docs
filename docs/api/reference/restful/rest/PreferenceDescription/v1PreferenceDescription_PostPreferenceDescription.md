@@ -1,6 +1,6 @@
 ---
 title: POST PreferenceDescription
-id: v1PreferenceDescription_PostPreferenceDescription
+uid: v1PreferenceDescription_PostPreferenceDescription
 ---
 
 # POST PreferenceDescription
@@ -11,7 +11,13 @@ POST /api/v1/PreferenceDescription
 
 Creates a new PreferenceDescription
 
+
 Calls the Preference agent service SavePreferenceDescription.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +28,7 @@ Calls the Preference agent service SavePreferenceDescription.
 ```http
 POST /api/v1/PreferenceDescription?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,9 +44,9 @@ POST /api/v1/PreferenceDescription?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: newEntity
+## Request Body: newEntity  
 
-The PreferenceDescription to be saved.
+The PreferenceDescription to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -62,17 +69,16 @@ The PreferenceDescription to be saved.
 | MinValue | int32 | Min value (if type 1); list extra id (if type 5) |
 | RequiredLicense | string | Licenses the user/installation must have if this reference is to be shown. Comma-separated list of owner.module pairs |
 
-## Response: object
 
-Preference description, drives the Preference GUI. Maintenance client - controls all preferences in SuperOffice.
+## Response: 
 
-PreferenceDescription entity with API _Links added.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -98,7 +104,7 @@ Response body: object
 | FieldProperties | object |  |
 | _Links | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/PreferenceDescription
@@ -108,62 +114,58 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 586,
-  "Section": "aut",
-  "Key": "vero",
-  "Name": "Koch-Hoeger",
+  "PrefDescId": 626,
+  "Section": "sit",
+  "Key": "id",
+  "Name": "Quitzon-Bosco",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Automated discrete flexibility",
+  "Description": "Programmable national internet solution",
   "IsBuiltin": true,
-  "TableName": "Altenwerth LLC",
-  "UserDefinedListId": 541,
-  "Rank": 495,
-  "SubGroup": "perspiciatis",
-  "MinLevel": 855,
-  "MaxValue": 991,
-  "MinValue": 697,
-  "RequiredLicense": "aliquam"
+  "TableName": "Metz Group",
+  "UserDefinedListId": 490,
+  "Rank": 29,
+  "SubGroup": "occaecati",
+  "MinLevel": 476,
+  "MaxValue": 370,
+  "MinValue": 193,
+  "RequiredLicense": "excepturi"
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 654,
-  "Section": "quidem",
-  "Key": "natus",
-  "Name": "Ruecker, Kilback and Weimann",
+  "PrefDescId": 574,
+  "Section": "dolores",
+  "Key": "esse",
+  "Name": "Daugherty, Dicki and Schuster",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Assimilated tertiary utilisation",
-  "IsBuiltin": false,
-  "TableName": "Dooley, Thiel and Hermann",
-  "UserDefinedListId": 747,
-  "Rank": 508,
-  "SubGroup": "aut",
-  "MinLevel": 839,
-  "MaxValue": 11,
-  "MinValue": 554,
-  "RequiredLicense": "consectetur",
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "Description": "Reactive coherent definition",
+  "IsBuiltin": true,
+  "TableName": "Abbott, Roberts and Wehner",
+  "UserDefinedListId": 18,
+  "Rank": 40,
+  "SubGroup": "dolor",
+  "MinLevel": 1001,
+  "MaxValue": 263,
+  "MinValue": 177,
+  "RequiredLicense": "quibusdam",
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
-      "FieldType": "System.Int32",
-      "FieldLength": 863
+      "FieldRight": null,
+      "FieldType": "System.String",
+      "FieldLength": 818
     }
   },
   "_Links": {

@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "SourceHeadingLink"
-so.date: 04.12.2022
+so.date: 08.26.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -30,6 +30,7 @@ Heading link table for Source, for MDO headers
 |updated\_associate\_id|Last updated by whom|FK [associate](associate.md)| |
 |updatedCount|Number of updates made to this record|UShort| |
 
+
 ![SourceHeadingLink table relationship diagram](./media/SourceHeadingLink.png)
 
 [!include[details](./includes/sourceheadinglink.md)]
@@ -50,6 +51,7 @@ Heading link table for Source, for MDO headers
 |[Heading](heading.md)  |Heading items for all MDO lists, lists that are grouped and filtered. |
 |[Source](source.md)  |Source list table. Source for sale (list) |
 
+
 ## Replication Flags
 
 * Replicate changes DOWN from central to satellites and travellers.
@@ -59,3 +61,4 @@ Heading link table for Source, for MDO headers
 ## Security Flags
 
 * No access control via user's Role.
+

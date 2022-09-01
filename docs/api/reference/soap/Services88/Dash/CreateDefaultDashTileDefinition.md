@@ -14,7 +14,9 @@ Implemented by the <see cref="M:SuperOffice.Services88.IDashAgent.CreateDefaultD
 Loading default values into a new DashTileDefinition.
 NetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance
 
+
 **Returns:** New DashTileDefinition with default values
+
 
 [WSDL file for Services88/Dash](../Services88-Dash.md)
 
@@ -46,6 +48,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+
 
 ## CreateDefaultDashTileDefinition Response
 
@@ -79,6 +82,7 @@ Application tokens must be specified if calling an Online installation. Applicat
     <Dash:LayoutConfig xsi:type="xsd:string"></Dash:LayoutConfig>
     <Dash:SecondarySelectionId xsi:type="xsd:int">0</Dash:SecondarySelectionId>
     <Dash:MeasureByField xsi:type="xsd:string"></Dash:MeasureByField>
+    <Dash:Usage xsi:type="Dash:DashTileUsage">Dashboard</Dash:Usage>
     <Dash:ProviderName xsi:type="xsd:string"></Dash:ProviderName>
    </Dash:Response>
   </Dash:CreateDefaultDashTileDefinitionResponse>
@@ -86,3 +90,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

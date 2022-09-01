@@ -7,7 +7,7 @@ keywords:
   - "mdo provider"
   - "credited"
 so.generated: true
-so.date: 03.19.2021
+so.date: 08.26.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -15,11 +15,15 @@ so.envir:
 ---
 
 # "credited" MDO List
-
 GenericMDOProvider reads MDO lists with default settings
+
+
 
 Implemented by the <see cref="T:SuperOffice.CRM.Lists.GenericMDOProvider">GenericMDOProvider</see> class.
 The name of the MDO list is 'credited'.
+
+
+
 
 ## Sample Request
 
@@ -32,7 +36,6 @@ Accept-Language: *
 ```
 
 ## Sample Code
-
 ```cs
 var listProvider = SuperOffice.CRM.Lists.SoListProviderFactory.Create("credited", forceFlatList: true);
 foreach (var item in listProvider.RootItems) {
@@ -48,6 +51,7 @@ foreach (var item in listProvider.RootItems) {
 |1|Prosjekt salg|||
 |3|Selger|||
 |2|Tjeneste avdeling|||
+
 
 ## Related MDO Lists
 

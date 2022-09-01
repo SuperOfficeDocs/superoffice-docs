@@ -1,6 +1,6 @@
 ---
 title: PUT List/Country/Headings
-id: v1CountryList_PutCountryHeadings
+uid: v1CountryList_PutCountryHeadings
 ---
 
 # PUT List/Country/Headings
@@ -11,7 +11,14 @@ PUT /api/v1/List/Country/Headings
 
 Saves headings for the Country list.
 
+
 Calls the List agent service SaveHeadingsFromListDefinition.
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -27,9 +34,9 @@ Calls the List agent service SaveHeadingsFromListDefinition.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entities
+## Request Body: entities  
 
-The headings to be saved.
+The headings to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -40,7 +47,10 @@ The headings to be saved.
 | Rank | int32 | Rank order |
 | UdListDefinitionId | int32 | The id of the list which this heading belongs to |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -59,34 +69,36 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 PUT /api/v1/List/Country/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 553,
-    "Name": "Senger-Sanford",
-    "Tooltip": "nulla",
+    "HeadingId": 394,
+    "Name": "Treutel, Kemmer and Lueilwitz",
+    "Tooltip": "soluta",
     "Deleted": false,
-    "Rank": 687,
-    "UdListDefinitionId": 670
+    "Rank": 902,
+    "UdListDefinitionId": 426
   },
   {
-    "HeadingId": 553,
-    "Name": "Senger-Sanford",
-    "Tooltip": "nulla",
+    "HeadingId": 394,
+    "Name": "Treutel, Kemmer and Lueilwitz",
+    "Tooltip": "soluta",
     "Deleted": false,
-    "Rank": 687,
-    "UdListDefinitionId": 670
+    "Rank": 902,
+    "UdListDefinitionId": 426
   }
 ]
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -94,24 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 29,
-    "Name": "Nader, Smith and Crist",
-    "Tooltip": "cum",
+    "HeadingId": 906,
+    "Name": "Nader, Schmeler and Mills",
+    "Tooltip": "harum",
     "Deleted": false,
-    "Rank": 769,
-    "UdListDefinitionId": 408,
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "Rank": 908,
+    "UdListDefinitionId": 867,
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
+        "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 1000
+        "FieldLength": 651
       }
     }
   }

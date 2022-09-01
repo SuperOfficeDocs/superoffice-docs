@@ -1,6 +1,6 @@
 ---
 title: GET List/MrMrs/Items/{id}/Headings
-id: v1MrMrsList_GetMrMrsHeadingsForListItem
+uid: v1MrMrsList_GetMrMrsHeadingsForListItem
 ---
 
 # GET List/MrMrs/Items/{id}/Headings
@@ -11,11 +11,17 @@ GET /api/v1/List/MrMrs/Items/{itemId}/Headings
 
 Gets headings for the MrMrs list's item.
 
+
 Calls the List agent service GetHeadings.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | itemId | int32 | The ID of the headings to be get. **Required** |
+
 
 ## Query String Parameters
 
@@ -26,6 +32,7 @@ Calls the List agent service GetHeadings.
 ```http
 GET /api/v1/List/MrMrs/Items/{itemId}/Headings?showDeleted=False
 ```
+
 
 ## Request Headers
 
@@ -40,7 +47,10 @@ GET /api/v1/List/MrMrs/Items/{itemId}/Headings?showDeleted=False
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -68,7 +78,7 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 GET /api/v1/List/MrMrs/Items/{itemId}/Headings
@@ -77,71 +87,64 @@ Accept: application/json; charset=utf-8
 Accept-Language: en
 ```
 
+## Sample response
+
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 487,
-    "Name": "Quigley, Lehner and Lindgren",
-    "ToolTip": "Praesentium est quibusdam.",
-    "Deleted": false,
-    "Rank": 528,
-    "Type": "et",
-    "ColorBlock": 458,
-    "IconHint": "consequatur",
-    "Selected": true,
-    "LastChanged": "2008-08-21T18:25:51.914245+02:00",
+    "Id": 923,
+    "Name": "Boyle Group",
+    "ToolTip": "Laborum temporibus tempore temporibus aut et.",
+    "Deleted": true,
+    "Rank": 352,
+    "Type": "consectetur",
+    "ColorBlock": 67,
+    "IconHint": "et",
+    "Selected": false,
+    "LastChanged": "2016-05-29T11:10:54.3308698+02:00",
     "ChildItems": [
       {
-        "Id": 712,
-        "Name": "Watsica Group",
-        "ToolTip": "Fuga rem aperiam.",
+        "Id": 130,
+        "Name": "Heathcote LLC",
+        "ToolTip": "Deleniti dicta voluptatum.",
         "Deleted": true,
-        "Rank": 977,
-        "Type": "quia",
-        "ColorBlock": 75,
-        "IconHint": "esse",
-        "Selected": false,
-        "LastChanged": "1996-02-29T18:25:51.914245+01:00",
+        "Rank": 276,
+        "Type": "dolores",
+        "ColorBlock": 350,
+        "IconHint": "aut",
+        "Selected": true,
+        "LastChanged": "1998-03-24T11:10:54.3308698+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "eligendi",
-        "StyleHint": "dicta",
-        "Hidden": true,
-        "FullName": "Elton Kerluke",
-        "TableRight": {},
+        "ExtraInfo": "nisi",
+        "StyleHint": "eius",
+        "Hidden": false,
+        "FullName": "Thelma Kertzmann",
+        "TableRight": null,
         "FieldProperties": {
           "fieldName": {
-            "FieldRight": {
-              "Mask": "FULL",
-              "Reason": ""
-            },
-            "FieldType": "System.String",
-            "FieldLength": 102
+            "FieldRight": null,
+            "FieldType": "System.Int32",
+            "FieldLength": 776
           }
         }
       }
     ],
-    "ExtraInfo": "dolorem",
-    "StyleHint": "quia",
-    "Hidden": true,
-    "FullName": "Pattie Schamberger",
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "ExtraInfo": "in",
+    "StyleHint": "deserunt",
+    "Hidden": false,
+    "FullName": "Bobbie Homenick",
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
+        "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 887
+        "FieldLength": 990
       }
     }
   }

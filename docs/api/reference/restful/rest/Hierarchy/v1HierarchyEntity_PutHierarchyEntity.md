@@ -1,6 +1,6 @@
 ---
 title: PUT Hierarchy/{id}
-id: v1HierarchyEntity_PutHierarchyEntity
+uid: v1HierarchyEntity_PutHierarchyEntity
 ---
 
 # PUT Hierarchy/{id}
@@ -11,9 +11,15 @@ PUT /api/v1/Hierarchy/{id}
 
 Updates the existing HierarchyEntity
 
+
+
+
+
+
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | id | int32 | The HierarchyEntity id to update. **Required** |
+
 
 ## Query String Parameters
 
@@ -24,6 +30,7 @@ Updates the existing HierarchyEntity
 ```http
 PUT /api/v1/Hierarchy/{id}?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -39,9 +46,9 @@ PUT /api/v1/Hierarchy/{id}?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entity
+## Request Body: entity  
 
-The HierarchyEntity to be saved.
+The HierarchyEntity to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -56,18 +63,17 @@ The HierarchyEntity to be saved.
 | Updated | date-time | Last updated when  in UTC. |
 | UpdatedAssociateId | int32 | Last updated by whom |
 
-## Response: object
 
-Folder structures
+## Response: 
 
-HierarchyEntity entity with API _Links added.
+HierarchyEntity updated.
 
 | Response | Description |
 |----------------|-------------|
 | 200 | HierarchyEntity updated. |
 | 400 | Bad request. Entity to save is not in request body. |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -85,99 +91,92 @@ Response body: object
 | FieldProperties | object |  |
 | _Links | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 PUT /api/v1/Hierarchy/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 287,
+  "HierarchyId": 512,
   "Domain": "Dashboards",
-  "Name": "Mayer-Cummings",
-  "Fullname": "dolor",
-  "ParentId": 676,
+  "Name": "Reichert Group",
+  "Fullname": "est",
+  "ParentId": 154,
   "Children": [
     {
-      "HierarchyId": 314,
+      "HierarchyId": 674,
       "Domain": "Dashboards",
-      "Name": "Beahan-Kuphal",
-      "Fullname": "rerum",
-      "ParentId": 282,
+      "Name": "Lesch LLC",
+      "Fullname": "ipsa",
+      "ParentId": 123,
       "Children": [
         {},
         {}
       ],
-      "Registered": "2001-11-27T18:25:50.5805945+01:00",
-      "RegisteredAssociateId": 390,
-      "Updated": "2012-02-09T18:25:50.5805945+01:00",
-      "UpdatedAssociateId": 186
+      "Registered": "2020-04-17T11:10:52.915179+02:00",
+      "RegisteredAssociateId": 846,
+      "Updated": "2006-05-11T11:10:52.915179+02:00",
+      "UpdatedAssociateId": 112
     }
   ],
-  "Registered": "2002-05-27T18:25:50.5805945+02:00",
-  "RegisteredAssociateId": 827,
-  "Updated": "2014-01-16T18:25:50.5805945+01:00",
-  "UpdatedAssociateId": 34
+  "Registered": "2015-09-21T11:10:52.915179+02:00",
+  "RegisteredAssociateId": 477,
+  "Updated": "1996-05-11T11:10:52.915179+02:00",
+  "UpdatedAssociateId": 186
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 HierarchyEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 626,
+  "HierarchyId": 852,
   "Domain": "Dashboards",
-  "Name": "Hills-Walsh",
-  "Fullname": "ipsa",
-  "ParentId": 694,
+  "Name": "Collins-Wolff",
+  "Fullname": "quis",
+  "ParentId": 566,
   "Children": [
     {
-      "HierarchyId": 770,
+      "HierarchyId": 795,
       "Domain": "Dashboards",
-      "Name": "Purdy LLC",
-      "Fullname": "vel",
-      "ParentId": 473,
+      "Name": "Spencer Group",
+      "Fullname": "est",
+      "ParentId": 389,
       "Children": [
         {},
         {}
       ],
-      "Registered": "2001-05-04T18:25:50.5815944+02:00",
-      "RegisteredAssociateId": 909,
-      "Updated": "2017-08-16T18:25:50.5815944+02:00",
-      "UpdatedAssociateId": 275,
-      "TableRight": {},
+      "Registered": "2004-04-11T11:10:52.915179+02:00",
+      "RegisteredAssociateId": 603,
+      "Updated": "2004-07-30T11:10:52.915179+02:00",
+      "UpdatedAssociateId": 905,
+      "TableRight": null,
       "FieldProperties": {
         "fieldName": {
-          "FieldRight": {
-            "Mask": "FULL",
-            "Reason": ""
-          },
+          "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 820
+          "FieldLength": 205
         }
       }
     }
   ],
-  "Registered": "1997-03-19T18:25:50.5815944+01:00",
-  "RegisteredAssociateId": 4,
-  "Updated": "1998-08-27T18:25:50.5815944+02:00",
-  "UpdatedAssociateId": 75,
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "Registered": "2021-04-22T11:10:52.915179+02:00",
+  "RegisteredAssociateId": 889,
+  "Updated": "2014-01-30T11:10:52.915179+01:00",
+  "UpdatedAssociateId": 566,
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
+      "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 828
+      "FieldLength": 56
     }
   },
   "_Links": {

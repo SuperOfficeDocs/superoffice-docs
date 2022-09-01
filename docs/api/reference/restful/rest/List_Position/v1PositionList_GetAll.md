@@ -1,6 +1,6 @@
 ---
 title: GET List/Position/Items
-id: v1PositionList_GetAll
+uid: v1PositionList_GetAll
 ---
 
 # GET List/Position/Items
@@ -11,6 +11,12 @@ GET /api/v1/List/Position/Items
 
 Gets all the Position items
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Gets all the Position items
 ```http
 GET /api/v1/List/Position/Items?includeDeleted=False
 ```
+
 
 ## Request Headers
 
@@ -34,7 +41,10 @@ GET /api/v1/List/Position/Items?includeDeleted=False
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -53,14 +63,16 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 GET /api/v1/List/Position/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -68,24 +80,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 157,
-    "Name": "Orn-Marquardt",
-    "Tooltip": "illo",
-    "Deleted": false,
-    "UdListDefinitionId": 844,
-    "Rank": 923,
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "Id": 747,
+    "Name": "O'Reilly-Lehner",
+    "Tooltip": "rerum",
+    "Deleted": true,
+    "UdListDefinitionId": 111,
+    "Rank": 742,
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 247
+        "FieldRight": null,
+        "FieldType": "System.Int32",
+        "FieldLength": 991
       }
     }
   }

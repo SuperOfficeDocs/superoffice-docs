@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Audience/GetConfigParametersByLayoutName
-id: v1AudienceAgent_GetConfigParametersByLayoutName
+uid: v1AudienceAgent_GetConfigParametersByLayoutName
 ---
 
 # POST Agents/Audience/GetConfigParametersByLayoutName
@@ -11,6 +11,12 @@ POST /api/v1/Agents/Audience/GetConfigParametersByLayoutName
 
 Gets the Audience configuration parameters belonging to a given Audience layout.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Gets the Audience configuration parameters belonging to a given Audience layout.
 ```http
 POST /api/v1/Agents/Audience/GetConfigParametersByLayoutName?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,15 +42,18 @@ POST /api/v1/Agents/Audience/GetConfigParametersByLayoutName?$select=name,depart
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-LayoutName
+LayoutName 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | LayoutName | string |  |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -63,19 +73,21 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Audience/GetConfigParametersByLayoutName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "LayoutName": "Sipes Inc and Sons"
+  "LayoutName": "Huel, Schaden and Romaguera"
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -83,25 +95,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AudienceLayoutId": 69,
-    "Name": "Donnelly Inc and Sons",
-    "Value": "facilis",
-    "CreatedDate": "2003-06-25T18:28:48.1315431+02:00",
-    "UpdatedDate": "2003-10-02T18:28:48.1315431+02:00",
-    "CreatedBy": "ut",
-    "UpdatedBy": "aliquam",
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "AudienceLayoutId": 77,
+    "Name": "Simonis Group",
+    "Value": "dicta",
+    "CreatedDate": "2013-02-10T11:10:26.0065533+01:00",
+    "UpdatedDate": "2014-10-20T11:10:26.0065533+02:00",
+    "CreatedBy": "error",
+    "UpdatedBy": "eius",
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
+        "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 280
+        "FieldLength": 624
       }
     }
   }

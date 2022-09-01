@@ -13,7 +13,9 @@ Implemented by the <see cref="M:SuperOffice.Services87.IDocumentAgent.GetPluginL
 
 Get a list of installed document plugins
 
+
 **Returns:** Dictionary mapping plugin id=plugin name
+
 
 [WSDL file for Services87/Document](../Services87-Document.md)
 
@@ -46,6 +48,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## GetPluginList Response
 
 ```xml
@@ -71,3 +74,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Ticket/GetTicketAttachments
-id: v1TicketAgent_GetTicketAttachments
+uid: v1TicketAgent_GetTicketAttachments
 ---
 
 # POST Agents/Ticket/GetTicketAttachments
@@ -11,6 +11,12 @@ POST /api/v1/Agents/Ticket/GetTicketAttachments
 
 Get attachment infos for all attachments connected to messages in specified ticket
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Get attachment infos for all attachments connected to messages in specified tick
 ```http
 POST /api/v1/Agents/Ticket/GetTicketAttachments?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,15 +42,18 @@ POST /api/v1/Agents/Ticket/GetTicketAttachments?$select=name,department,category
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-TicketEntityId
+TicketEntityId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | TicketEntityId | int32 |  |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -62,7 +72,7 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Ticket/GetTicketAttachments
@@ -72,9 +82,11 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketEntityId": 150
+  "TicketEntityId": 942
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -82,24 +94,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AttachmentId": 495,
-    "Name": "Hahn Group",
-    "ContentType": "cum",
-    "AttSize": 673,
-    "InlineImage": false,
-    "ContentId": "blanditiis",
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "AttachmentId": 755,
+    "Name": "Mante Group",
+    "ContentType": "vitae",
+    "AttSize": 5,
+    "InlineImage": true,
+    "ContentId": "eos",
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": "incubate extensible technologies"
-        },
-        "FieldType": "System.String",
-        "FieldLength": 442
+        "FieldRight": null,
+        "FieldType": "System.Int32",
+        "FieldLength": 435
       }
     }
   }

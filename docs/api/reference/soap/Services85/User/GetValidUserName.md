@@ -11,10 +11,14 @@ Implemented by the <see cref="M:SuperOffice.Services85.IUserAgent.GetValidUserNa
 
 ## GetValidUserName
 
-* **associateId:**
-* **type:**
-* **personId:**
-* **userName:**
+
+
+* **associateId:** 
+* **type:** 
+* **personId:** 
+* **userName:** 
+
+
 
 [WSDL file for Services85/User](../Services85-User.md)
 
@@ -51,6 +55,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## GetValidUserName Response
 
 ```xml
@@ -71,3 +76,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

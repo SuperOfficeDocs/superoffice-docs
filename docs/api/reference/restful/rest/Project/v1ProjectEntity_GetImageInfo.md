@@ -1,6 +1,6 @@
 ---
 title: GET Project/{id}/Imageinfo
-id: v1ProjectEntity_GetImageInfo
+uid: v1ProjectEntity_GetImageInfo
 ---
 
 # GET Project/{id}/Imageinfo
@@ -11,11 +11,18 @@ GET /api/v1/Project/{projectId}/Imageinfo
 
 Get the Blob that describes the given project's picture.
 
+
 The actual bitmap is accessible via /api/Services80/project/123/image/content.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | projectId | int32 | Project id **Required** |
+
+
 
 ## Request Headers
 
@@ -30,16 +37,16 @@ The actual bitmap is accessible via /api/Services80/project/123/image/content.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response: object
 
-Carrier object for BlobEntity.
-Services for the BlobEntity Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IBLOBAgent">BLOB Agent</see>.
+## Response: 
+
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -59,94 +66,42 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 GET /api/v1/Project/{projectId}/Imageinfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Mon, 02 Aug 2021 18:25:50 G8T
+Last-Modified: Fri, 27 Sep 2002 11:10:53 G9T
 
 {
-  "BlobId": 349,
-  "BlobSize": 674,
-  "Description": "Re-contextualized coherent middleware",
-  "ExtraInfo": "est",
-  "IsEncrypted": true,
-  "IsZipped": true,
-  "MimeType": "similique",
-  "OriginalSize": 111,
-  "CreatedDate": "2010-09-12T18:25:50.8518852+02:00",
-  "UpdatedDate": "2021-08-02T18:25:50.8518852+02:00",
-  "CreatedBy": {
-    "AssociateId": 54,
-    "Name": "Jast-Paucek",
-    "PersonId": 467,
-    "Rank": 12,
-    "Tooltip": "animi",
-    "Type": "AnonymousAssociate",
-    "GroupIdx": 907,
-    "FullName": "Maria Schiller",
-    "FormalName": "Mills-Block",
-    "Deleted": false,
-    "EjUserId": 961,
-    "UserName": "Vandervort-Bradtke",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.Int32",
-        "FieldLength": 553
-      }
-    }
-  },
-  "UpdatedBy": {
-    "AssociateId": 799,
-    "Name": "Crist, Considine and Koepp",
-    "PersonId": 459,
-    "Rank": 371,
-    "Tooltip": "repudiandae",
-    "Type": "AnonymousAssociate",
-    "GroupIdx": 480,
-    "FullName": "Alvena Rath IV",
-    "FormalName": "Rogahn Inc and Sons",
-    "Deleted": false,
-    "EjUserId": 849,
-    "UserName": "Schowalter, Johnson and Okuneva",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 614
-      }
-    }
-  },
-  "ConceptualType": "voluptates",
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "BlobId": 633,
+  "BlobSize": 839,
+  "Description": "Total heuristic success",
+  "ExtraInfo": "illo",
+  "IsEncrypted": false,
+  "IsZipped": false,
+  "MimeType": "tempore",
+  "OriginalSize": 348,
+  "CreatedDate": "2021-06-10T11:10:53.3291739+02:00",
+  "UpdatedDate": "2002-09-27T11:10:53.3291739+02:00",
+  "CreatedBy": null,
+  "UpdatedBy": null,
+  "ConceptualType": "excepturi",
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": "whiteboard one-to-one convergence"
-      },
+      "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 78
+      "FieldLength": 688
     }
   }
 }

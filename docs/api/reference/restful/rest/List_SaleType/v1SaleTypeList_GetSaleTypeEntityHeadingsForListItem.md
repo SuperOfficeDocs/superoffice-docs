@@ -1,6 +1,6 @@
 ---
 title: GET List/SaleType/Items/{id}/Headings
-id: v1SaleTypeList_GetSaleTypeEntityHeadingsForListItem
+uid: v1SaleTypeList_GetSaleTypeEntityHeadingsForListItem
 ---
 
 # GET List/SaleType/Items/{id}/Headings
@@ -11,11 +11,17 @@ GET /api/v1/List/SaleType/Items/{itemId}/Headings
 
 Gets headings for the SaleTypeEntity list's item.
 
+
 Calls the List agent service GetHeadings.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | itemId | int32 | The ID of the headings to be get. **Required** |
+
 
 ## Query String Parameters
 
@@ -26,6 +32,7 @@ Calls the List agent service GetHeadings.
 ```http
 GET /api/v1/List/SaleType/Items/{itemId}/Headings?showDeleted=False
 ```
+
 
 ## Request Headers
 
@@ -40,7 +47,10 @@ GET /api/v1/List/SaleType/Items/{itemId}/Headings?showDeleted=False
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -68,14 +78,16 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 GET /api/v1/List/SaleType/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -83,65 +95,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 261,
-    "Name": "Steuber-Nader",
-    "ToolTip": "Quaerat natus perferendis consectetur et.",
-    "Deleted": true,
-    "Rank": 298,
-    "Type": "accusantium",
-    "ColorBlock": 203,
-    "IconHint": "quis",
+    "Id": 292,
+    "Name": "Cummings, Wolf and Effertz",
+    "ToolTip": "Voluptatum voluptate blanditiis recusandae rem nisi reiciendis.",
+    "Deleted": false,
+    "Rank": 698,
+    "Type": "aperiam",
+    "ColorBlock": 176,
+    "IconHint": "rem",
     "Selected": true,
-    "LastChanged": "2021-07-23T18:25:52.1919863+02:00",
+    "LastChanged": "2011-08-22T11:10:54.6099025+02:00",
     "ChildItems": [
       {
-        "Id": 907,
-        "Name": "Leffler, Robel and Hegmann",
-        "ToolTip": "Minus autem et aliquam consectetur.",
+        "Id": 60,
+        "Name": "Raynor, White and Cronin",
+        "ToolTip": "Ea blanditiis enim.",
         "Deleted": false,
-        "Rank": 698,
-        "Type": "in",
-        "ColorBlock": 889,
-        "IconHint": "ab",
-        "Selected": true,
-        "LastChanged": "2010-05-03T18:25:52.1919863+02:00",
+        "Rank": 773,
+        "Type": "culpa",
+        "ColorBlock": 623,
+        "IconHint": "voluptatem",
+        "Selected": false,
+        "LastChanged": "2014-09-25T11:10:54.6099025+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "asperiores",
-        "StyleHint": "rerum",
-        "Hidden": true,
-        "FullName": "Dr. Anderson Johns",
-        "TableRight": {},
+        "ExtraInfo": "ut",
+        "StyleHint": "et",
+        "Hidden": false,
+        "FullName": "Miss Aida Upton",
+        "TableRight": null,
         "FieldProperties": {
           "fieldName": {
-            "FieldRight": {
-              "Mask": "FULL",
-              "Reason": ""
-            },
+            "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 48
+            "FieldLength": 100
           }
         }
       }
     ],
-    "ExtraInfo": "quaerat",
-    "StyleHint": "minus",
+    "ExtraInfo": "architecto",
+    "StyleHint": "reiciendis",
     "Hidden": false,
-    "FullName": "Brennon Terry",
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "FullName": "Miss Myrtis Kuphal DVM",
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 463
+        "FieldRight": null,
+        "FieldType": "System.Int32",
+        "FieldLength": 90
       }
     }
   }

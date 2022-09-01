@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Relation/CreateDefaultContactRelationEntity
-id: v1RelationAgent_CreateDefaultContactRelationEntity
+uid: v1RelationAgent_CreateDefaultContactRelationEntity
 ---
 
 # POST Agents/Relation/CreateDefaultContactRelationEntity
@@ -11,7 +11,14 @@ POST /api/v1/Agents/Relation/CreateDefaultContactRelationEntity
 
 Set default values into a new ContactRelationEntity.
 
+
 NetServer calculates default values on the entity, which is required when creating/storing a new instance
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -26,18 +33,16 @@ NetServer calculates default values on the entity, which is required when creati
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response: object
 
-Relationship between a (contact/person) and another (contact/person), as described by the RelationDefinition.
+## Response: 
 
-Carrier object for ContactRelationEntity.
-Services for the ContactRelationEntity Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IRelationAgent">Relation Agent</see>.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -62,98 +67,46 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Relation/CreateDefaultContactRelationEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceContactId": 669,
-  "SourcePersonId": 841,
-  "DestinationContactId": 817,
-  "DestinationPersonId": 127,
-  "RelationId": 254,
-  "Comment": "eligendi",
-  "RelationDefinitionId": 578,
-  "Reversed": 195,
-  "UpdatedDate": "2005-08-31T18:28:50.0051372+02:00",
-  "CreatedDate": "1994-10-31T18:28:50.0051372+01:00",
-  "CreatedBy": {
-    "AssociateId": 151,
-    "Name": "Kautzer-Spinka",
-    "PersonId": 125,
-    "Rank": 850,
-    "Tooltip": "sunt",
-    "Type": "AnonymousAssociate",
-    "GroupIdx": 257,
-    "FullName": "Ferne Reynolds Sr.",
-    "FormalName": "Crist-Lehner",
-    "Deleted": false,
-    "EjUserId": 439,
-    "UserName": "Lang Group",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": "benchmark transparent partnerships"
-        },
-        "FieldType": "System.Int32",
-        "FieldLength": 245
-      }
-    }
-  },
-  "UpdatedBy": {
-    "AssociateId": 62,
-    "Name": "Stokes Inc and Sons",
-    "PersonId": 94,
-    "Rank": 882,
-    "Tooltip": "magni",
-    "Type": "AnonymousAssociate",
-    "GroupIdx": 945,
-    "FullName": "Cooper Schmeler",
-    "FormalName": "Ferry LLC",
-    "Deleted": true,
-    "EjUserId": 83,
-    "UserName": "Stanton, Schamberger and Crooks",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.Int32",
-        "FieldLength": 479
-      }
-    }
-  },
-  "SourceContactName": "McCullough-Hansen",
-  "SourcePersonName": "Gutkowski Group",
-  "DestinationContactName": "Harber-Dach",
-  "DestinationPersonName": "Hodkiewicz, Gutkowski and Nitzsche",
-  "ActiveText": "qui",
-  "PassiveText": "doloribus",
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "SourceContactId": 216,
+  "SourcePersonId": 408,
+  "DestinationContactId": 302,
+  "DestinationPersonId": 439,
+  "RelationId": 424,
+  "Comment": "rerum",
+  "RelationDefinitionId": 574,
+  "Reversed": 30,
+  "UpdatedDate": "2007-11-05T11:10:27.7404947+01:00",
+  "CreatedDate": "2010-09-12T11:10:27.7404947+02:00",
+  "CreatedBy": null,
+  "UpdatedBy": null,
+  "SourceContactName": "Rutherford, Langosh and Casper",
+  "SourcePersonName": "Nienow Group",
+  "DestinationContactName": "Hansen-Pacocha",
+  "DestinationPersonName": "Pfannerstill, Schmidt and Kub",
+  "ActiveText": "officia",
+  "PassiveText": "qui",
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
-      "FieldType": "System.Int32",
-      "FieldLength": 770
+      "FieldRight": null,
+      "FieldType": "System.String",
+      "FieldLength": 93
     }
   }
 }

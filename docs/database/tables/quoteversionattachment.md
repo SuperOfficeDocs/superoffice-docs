@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "QuoteVersionAttachment"
-so.date: 04.12.2022
+so.date: 08.26.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -31,6 +31,7 @@ Actual attachments to a quote
 |updated\_associate\_id|Last updated by whom|FK [associate](associate.md)| |
 |updatedCount|Number of updates made to this record|UShort| |
 
+
 ![QuoteVersionAttachment table relationship diagram](./media/QuoteVersionAttachment.png)
 
 [!include[details](./includes/quoteversionattachment.md)]
@@ -50,6 +51,7 @@ Actual attachments to a quote
 |[document](document.md)  |Documents, this table is an extension of the Appointment table.  There is always a corresponding appointment record; the relation between appointment and document is navigable in both directions. A document-type appointment record always has a corresponding document record and a record in VisibleFor specifying who may see this.   |
 |[QuoteVersion](quoteversion.md)  |There may be multiple Versions of a Quote, with one of them active |
 
+
 ## Replication Flags
 
 * Area Management controlled table. Contents replicated to satellites and traveller databases.
@@ -58,3 +60,4 @@ Actual attachments to a quote
 ## Security Flags
 
 * No access control via user's Role.
+

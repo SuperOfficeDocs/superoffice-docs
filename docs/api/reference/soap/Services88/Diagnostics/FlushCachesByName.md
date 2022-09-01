@@ -13,9 +13,10 @@ Implemented by the <see cref="M:SuperOffice.Services88.IDiagnosticsAgent.FlushCa
 
 Flushes all NetServer caches named
 
-* **cacheNames:** Name of the cahcnes to flush
+* **cacheNames:** Name of the cachnes to flush
 
 **Returns:** This method has no return value
+
 
 [WSDL file for Services88/Diagnostics](../Services88-Diagnostics.md)
 
@@ -51,6 +52,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## FlushCachesByName Response
 
 ```xml
@@ -70,3 +72,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

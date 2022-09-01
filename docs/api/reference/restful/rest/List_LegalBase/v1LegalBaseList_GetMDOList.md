@@ -1,6 +1,6 @@
 ---
 title: GET List/LegalBase/MDOItems
-id: v1LegalBaseList_GetMDOList
+uid: v1LegalBaseList_GetMDOList
 ---
 
 # GET List/LegalBase/MDOItems
@@ -11,6 +11,12 @@ GET /api/v1/List/LegalBase/MDOItems
 
 Get the MDO list items for "LegalBase" - with headings and filtering by user group.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,8 +26,9 @@ Get the MDO list items for "LegalBase" - with headings and filtering by user gro
 
 ```http
 GET /api/v1/List/LegalBase/MDOItems?flat=False
-GET /api/v1/List/LegalBase/MDOItems?query=qui
+GET /api/v1/List/LegalBase/MDOItems?query=voluptatibus
 ```
+
 
 ## Request Headers
 
@@ -36,7 +43,10 @@ GET /api/v1/List/LegalBase/MDOItems?query=qui
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -61,7 +71,7 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 GET /api/v1/List/LegalBase/MDOItems
@@ -70,65 +80,58 @@ Accept: application/json; charset=utf-8
 Accept-Language: en
 ```
 
+## Sample response
+
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 381,
-    "Name": "Lynch-Rice",
-    "ToolTip": "Quasi ratione reprehenderit excepturi ut facilis rerum.",
+    "Id": 950,
+    "Name": "Schaefer, Satterfield and Hayes",
+    "ToolTip": "Odio consequatur cupiditate voluptatem.",
     "Deleted": false,
-    "Rank": 250,
-    "Type": "veritatis",
+    "Rank": 611,
+    "Type": "ea",
     "ChildItems": [
       {
-        "Id": 907,
-        "Name": "Kshlerin-Jewess",
-        "ToolTip": "Cumque voluptates cumque possimus.",
-        "Deleted": false,
-        "Rank": 871,
-        "Type": "dolorem",
+        "Id": 817,
+        "Name": "Legros, Metz and Runte",
+        "ToolTip": "Officiis qui.",
+        "Deleted": true,
+        "Rank": 941,
+        "Type": "ut",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "hic",
-        "ColorBlock": 823,
-        "ExtraInfo": "ipsa",
-        "StyleHint": "accusantium",
-        "FullName": "Jailyn Rippin",
-        "TableRight": {},
+        "IconHint": "blanditiis",
+        "ColorBlock": 322,
+        "ExtraInfo": "ipsum",
+        "StyleHint": "consequuntur",
+        "FullName": "Genoveva Johnson",
+        "TableRight": null,
         "FieldProperties": {
           "fieldName": {
-            "FieldRight": {
-              "Mask": "FULL",
-              "Reason": ""
-            },
-            "FieldType": "System.String",
-            "FieldLength": 958
+            "FieldRight": null,
+            "FieldType": "System.Int32",
+            "FieldLength": 358
           }
         }
       }
     ],
-    "IconHint": "sint",
-    "ColorBlock": 348,
-    "ExtraInfo": "similique",
-    "StyleHint": "fugit",
-    "FullName": "Sadie Upton",
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "IconHint": "harum",
+    "ColorBlock": 880,
+    "ExtraInfo": "accusantium",
+    "StyleHint": "quod",
+    "FullName": "Miss Zella Raven Buckridge",
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 982
+        "FieldRight": null,
+        "FieldType": "System.Int32",
+        "FieldLength": 254
       }
     }
   }

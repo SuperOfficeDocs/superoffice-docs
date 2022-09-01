@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "UDefField"
-so.date: 04.12.2022
+so.date: 08.26.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -58,6 +58,7 @@ Definition table for user-defined fields; one row in this table corresponds to o
 |formatMask|Formatting mask, can be whatever the controls understand (currently nothing :-))|String(254)|&#x25CF;|
 |shortLabel|Short name to be used in Archive headings and on page 1. If blank, the fieldLabel will be used everywhere.|String(254)|&#x25CF;|
 
+
 ![UDefField table relationship diagram](./media/UDefField.png)
 
 [!include[details](./includes/udeffield.md)]
@@ -79,6 +80,7 @@ Definition table for user-defined fields; one row in this table corresponds to o
 |[UDefFieldGL](udeffieldgl.md)  |User group link table for UDefField, for MDO item hiding |
 |[UDListDefinition](udlistdefinition.md)  |List table that contains the list of user-defined lists, as well as system-defined lists. The list items are stored in the UDList table.  |
 
+
 ## Replication Flags
 
 * Replicate changes DOWN from central to satellites and travellers.
@@ -87,3 +89,4 @@ Definition table for user-defined fields; one row in this table corresponds to o
 ## Security Flags
 
 * Sentry controls access to items in this table using user's Role and data rights matrix.
+

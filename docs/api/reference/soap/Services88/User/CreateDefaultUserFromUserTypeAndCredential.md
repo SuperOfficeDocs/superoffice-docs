@@ -12,13 +12,15 @@ Implemented by the <see cref="M:SuperOffice.Services88.IUserAgent.CreateDefaultU
 ## CreateDefaultUserFromUserTypeAndCredential
 
 Creates a PersonEntity with default values based on the contactId and credentials.
-<br />**Online Restricted:** The User agent is not available in Online by default. User management is not allowed for partner apps.
+<para /><b>Online Restricted:</b> The User agent is not available in Online by default. User management is not allowed for partner apps.
 
 * **userType:** Type of associate for the user
 * **contactId:** Contact id of the person
 * **credentialType:** Type of credentials, corresponding to name of plugin and type in the credentials table.
 * **credentialValue:** This is the actuall value of the credentials.  This will typically be the password or teh users SID in active directory
 * **credentialDisplayValue:** The value displayed to the user. this will typically be the users login name in active directory.
+
+
 
 [WSDL file for Services88/User](../Services88-User.md)
 
@@ -55,6 +57,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+
 
 ## CreateDefaultUserFromUserTypeAndCredential Response
 
@@ -181,8 +184,8 @@ Application tokens must be specified if calling an Online installation. Applicat
      <User:CategoryName xsi:type="xsd:string"></User:CategoryName>
     </User:Person>
     <User:Deleted xsi:type="xsd:boolean">false</User:Deleted>
-    <User:Lastlogin xsi:type="xsd:dateTime">2021-11-30T13:23:54Z</User:Lastlogin>
-    <User:Lastlogout xsi:type="xsd:dateTime">2021-11-30T13:23:54Z</User:Lastlogout>
+    <User:Lastlogin xsi:type="xsd:dateTime">2022-08-26T09:00:49Z</User:Lastlogin>
+    <User:Lastlogout xsi:type="xsd:dateTime">2022-08-26T09:00:49Z</User:Lastlogout>
     <User:EjUserId xsi:type="xsd:int">0</User:EjUserId>
     <User:RequestSignature xsi:type="xsd:string"></User:RequestSignature>
     <User:Type xsi:type="User:UserType">Unknown</User:Type>
@@ -279,3 +282,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

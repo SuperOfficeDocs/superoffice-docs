@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Find/GetDefaultOrderByFromDesiredColumns
-id: v1FindAgent_GetDefaultOrderByFromDesiredColumns
+uid: v1FindAgent_GetDefaultOrderByFromDesiredColumns
 ---
 
 # POST Agents/Find/GetDefaultOrderByFromDesiredColumns
@@ -11,7 +11,13 @@ POST /api/v1/Agents/Find/GetDefaultOrderByFromDesiredColumns
 
 Calculate the default orderby columns for a given provider and a set of desired columns.
 
+
 This is the same algorithm that is used by the Find service method.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +28,7 @@ This is the same algorithm that is used by the Find service method.
 ```http
 POST /api/v1/Agents/Find/GetDefaultOrderByFromDesiredColumns?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,16 +44,19 @@ POST /api/v1/Agents/Find/GetDefaultOrderByFromDesiredColumns?$select=name,depart
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-ProviderName, DesiredColumns
+ProviderName, DesiredColumns 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | ProviderName | string |  |
 | DesiredColumns | array |  |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -59,7 +69,7 @@ Response body: array
 | Name | string |  |
 | Direction | string |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Find/GetDefaultOrderByFromDesiredColumns
@@ -69,13 +79,15 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Treutel Group",
+  "ProviderName": "O'Reilly-Stroman",
   "DesiredColumns": [
-    "iusto",
-    "distinctio"
+    "id",
+    "corrupti"
   ]
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -83,11 +95,11 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Price-Kulas",
+    "Name": "Leuschke-Robel",
     "Direction": "ASC"
   },
   {
-    "Name": "Price-Kulas",
+    "Name": "Leuschke-Robel",
     "Direction": "ASC"
   }
 ]

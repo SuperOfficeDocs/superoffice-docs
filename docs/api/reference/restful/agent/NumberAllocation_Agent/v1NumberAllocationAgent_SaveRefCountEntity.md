@@ -1,6 +1,6 @@
 ---
 title: POST Agents/NumberAllocation/SaveRefCountEntity
-id: v1NumberAllocationAgent_SaveRefCountEntity
+uid: v1NumberAllocationAgent_SaveRefCountEntity
 ---
 
 # POST Agents/NumberAllocation/SaveRefCountEntity
@@ -10,6 +10,13 @@ POST /api/v1/Agents/NumberAllocation/SaveRefCountEntity
 ```
 
 Updates the existing RefCountEntity or creates a new RefCountEntity if the id parameter is empty
+
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -25,9 +32,9 @@ Updates the existing RefCountEntity or creates a new RefCountEntity if the id pa
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entity
+## Request Body: entity  
 
-The RefCountEntity to be saved.
+The RefCountEntity to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -43,18 +50,16 @@ The RefCountEntity to be saved.
 | ReadOnly | bool | Target field is read only in GUI |
 | AllowBlank | bool | Allow blank  as a valid value |
 
-## Response: object
 
-A refcount entity for a number allocation
+## Response: 
 
-Carrier object for RefCountEntity.
-Services for the RefCountEntity Carrier is available from the <see cref="T:SuperOffice.CRM.Services.INumberAllocationAgent">NumberAllocation Agent</see>.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -72,105 +77,98 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/NumberAllocation/SaveRefCountEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "RefCountsId": 97,
-  "Field": "inventore",
-  "RecordId": 655,
+  "RefCountsId": 573,
+  "Field": "a",
+  "RecordId": 41,
   "SuggestedRecords": [
     {
-      "Id": 659,
-      "Name": "Weimann LLC",
-      "ToolTip": "Dignissimos nesciunt saepe nihil repellat voluptatibus.",
+      "Id": 36,
+      "Name": "Haley, Zieme and Davis",
+      "ToolTip": "Earum rerum nulla minima.",
       "Deleted": false,
-      "Rank": 102,
-      "Type": "optio",
+      "Rank": 460,
+      "Type": "aut",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "unde",
-      "ColorBlock": 771,
-      "ExtraInfo": "ea",
-      "StyleHint": "ullam",
-      "FullName": "Franco Larkin V"
+      "IconHint": "et",
+      "ColorBlock": 226,
+      "ExtraInfo": "unde",
+      "StyleHint": "deserunt",
+      "FullName": "Velma Fisher"
     }
   ],
-  "CurrentValue": 200,
-  "TravelPrefix": 628,
-  "SatPrefix": 181,
-  "Allocate": false,
-  "Unique": true,
-  "ReadOnly": true,
-  "AllowBlank": true
+  "CurrentValue": 890,
+  "TravelPrefix": 1001,
+  "SatPrefix": 805,
+  "Allocate": true,
+  "Unique": false,
+  "ReadOnly": false,
+  "AllowBlank": false
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RefCountsId": 874,
-  "Field": "tempora",
-  "RecordId": 572,
+  "RefCountsId": 862,
+  "Field": "asperiores",
+  "RecordId": 304,
   "SuggestedRecords": [
     {
-      "Id": 731,
-      "Name": "Gaylord Group",
-      "ToolTip": "Quos fugit dolores ut.",
+      "Id": 918,
+      "Name": "Zulauf-Effertz",
+      "ToolTip": "Et voluptate enim hic repellendus eius.",
       "Deleted": false,
-      "Rank": 238,
-      "Type": "quia",
+      "Rank": 210,
+      "Type": "alias",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "ullam",
-      "ColorBlock": 625,
-      "ExtraInfo": "at",
-      "StyleHint": "quia",
-      "FullName": "Julia Lowe",
-      "TableRight": {},
+      "IconHint": "nostrum",
+      "ColorBlock": 292,
+      "ExtraInfo": "qui",
+      "StyleHint": "consequatur",
+      "FullName": "Nathen Griffin West IV",
+      "TableRight": null,
       "FieldProperties": {
         "fieldName": {
-          "FieldRight": {
-            "Mask": "FULL",
-            "Reason": ""
-          },
-          "FieldType": "System.Int32",
-          "FieldLength": 589
+          "FieldRight": null,
+          "FieldType": "System.String",
+          "FieldLength": 765
         }
       }
     }
   ],
-  "CurrentValue": 767,
-  "TravelPrefix": 406,
-  "SatPrefix": 701,
+  "CurrentValue": 485,
+  "TravelPrefix": 811,
+  "SatPrefix": 589,
   "Allocate": false,
-  "Unique": true,
+  "Unique": false,
   "ReadOnly": false,
-  "AllowBlank": false,
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "AllowBlank": true,
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
+      "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 930
+      "FieldLength": 500
     }
   }
 }

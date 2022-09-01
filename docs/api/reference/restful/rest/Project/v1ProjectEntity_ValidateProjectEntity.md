@@ -1,6 +1,6 @@
 ---
 title: POST Project/Validate
-id: v1ProjectEntity_ValidateProjectEntity
+uid: v1ProjectEntity_ValidateProjectEntity
 ---
 
 # POST Project/Validate
@@ -10,6 +10,13 @@ POST /api/v1/Project/Validate
 ```
 
 Check that entity is ready for saving, return error messages by field.
+
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -25,9 +32,9 @@ Check that entity is ready for saving, return error messages by field.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: projectEntity
+## Request Body: projectEntity  
 
-Entity to be checked for errors.
+Entity to be checked for errors. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -42,9 +49,9 @@ Entity to be checked for errors.
 | Postit | string | The actual text, max 2047 significant characters even though it is stored as a larger data type on some databases |
 | CreatedBy |  | The person that created the project |
 | UpdatedBy |  | The person that last updated the project |
-| Associate |  | The person that created the project  <br />Use MDO List name "associate" to get list items. |
-| ProjectStatus |  | Project status is a list defined by the database administrator. Different statuses of a project may be: “In planning”, “Started”, “Finished” and so on  <br />Use MDO List name "projectstatus" to get list items. |
-| ProjectType |  | Project type is a list defined by the database admin. for example: 'Large', 'Small', 'Party'...  <br />Use MDO List name "projecttype" to get list items. |
+| Associate |  | The person that created the project  <para>Use MDO List name "associate" to get list items.</para> |
+| ProjectStatus |  | Project status is a list defined by the database administrator. Different statuses of a project may be: “In planning”, “Started”, “Finished” and so on  <para>Use MDO List name "projectstatus" to get list items.</para> |
+| ProjectType |  | Project type is a list defined by the database admin. for example: 'Large', 'Small', 'Party'...  <para>Use MDO List name "projecttype" to get list items.</para> |
 | HasImage | bool | True if the project has an image. (This is the image that is displayed in the CRM client) |
 | ImageDescription | string | Description of the project image if it exists. (This is the image that is displayed in the CRM client) |
 | ActiveStatusMonitorId | int32 | Active status monitor identity with the lowest rank for project |
@@ -63,7 +70,10 @@ Entity to be checked for errors.
 | PublishFrom | date-time | Publication valid from (inclusive) |
 | IsPublished | bool | Publication is published |
 
+
 ## Response: object
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -71,162 +81,118 @@ Entity to be checked for errors.
 
 Response body: object
 
-## Sample Request
+
+## Sample request
 
 ```http!
 POST /api/v1/Project/Validate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 785,
-  "Name": "Langosh LLC",
-  "ProjectNumber": "1029397",
+  "ProjectId": 777,
+  "Name": "Abshire, Heathcote and Marquardt",
+  "ProjectNumber": "1471109",
   "ProjectMembers": [
     {
-      "ProjectmemberId": 646,
-      "ContactId": 785,
-      "ProjectId": 529,
-      "ContactName": "Torphy, Effertz and Stroman",
-      "ContactDepartment": "morph clicks-and-mortar relationships",
-      "ProjectName": "Fadel-Kling",
-      "EmailId": 91,
-      "EmailAddress": "isabel.wuckert@heller.uk",
-      "CountryId": 976,
-      "Firstname": "Marquis",
-      "MiddleName": "Durgan Inc and Sons",
-      "Lastname": "O'Keefe",
-      "PersonId": 468,
-      "Mrmrs": "quasi",
-      "ProjectMemberTypeName": "Zemlak Group",
-      "Phone": "1-521-566-2742 x28106",
-      "PhoneId": 203,
-      "ProjectMemberTypeId": 549,
-      "EmailAddressName": "raul_hegmann@funkpredovic.co.uk",
-      "Comment": "ducimus",
-      "FullName": "Wallace Koelpin"
+      "ProjectmemberId": 445,
+      "ContactId": 857,
+      "ProjectId": 153,
+      "ContactName": "Hansen Group",
+      "ContactDepartment": "",
+      "ProjectName": "Hane Group",
+      "EmailId": 375,
+      "EmailAddress": "monica@labadiehauck.ca",
+      "CountryId": 813,
+      "Firstname": "Joany",
+      "MiddleName": "Shields, Von and Fay",
+      "Lastname": "Reichert",
+      "PersonId": 491,
+      "Mrmrs": "praesentium",
+      "ProjectMemberTypeName": "Brown LLC",
+      "Phone": "286-205-8010",
+      "PhoneId": 713,
+      "ProjectMemberTypeId": 776,
+      "EmailAddressName": "jennings_green@feil.biz",
+      "Comment": "quia",
+      "FullName": "Prof. Vernon Toy"
     }
   ],
   "Urls": [
     {
-      "Value": "incidunt",
-      "StrippedValue": "nesciunt",
-      "Description": "Cross-group composite benchmark"
+      "Value": "soluta",
+      "StrippedValue": "molestiae",
+      "Description": "Business-focused multi-state neural-net"
     },
     {
-      "Value": "incidunt",
-      "StrippedValue": "nesciunt",
-      "Description": "Cross-group composite benchmark"
+      "Value": "soluta",
+      "StrippedValue": "molestiae",
+      "Description": "Business-focused multi-state neural-net"
     }
   ],
-  "CreatedDate": "2012-10-28T18:25:50.8388853+01:00",
-  "UpdatedDate": "2007-07-07T18:25:50.8388853+02:00",
-  "Description": "Progressive human-resource local area network",
-  "Postit": "qui",
-  "CreatedBy": {
-    "AssociateId": 939,
-    "Name": "Bailey LLC",
-    "PersonId": 698,
-    "Rank": 832,
-    "Tooltip": "impedit",
-    "Type": "AnonymousAssociate",
-    "GroupIdx": 88,
-    "FullName": "Amira Wolf",
-    "FormalName": "Nitzsche-Bashirian",
-    "Deleted": true,
-    "EjUserId": 454,
-    "UserName": "Bechtelar, Treutel and Bahringer"
-  },
-  "UpdatedBy": {
-    "AssociateId": 531,
-    "Name": "Wilderman, Lueilwitz and Bernhard",
-    "PersonId": 218,
-    "Rank": 69,
-    "Tooltip": "esse",
-    "Type": "AnonymousAssociate",
-    "GroupIdx": 96,
-    "FullName": "Noah Schimmel",
-    "FormalName": "Stokes, Braun and Connelly",
-    "Deleted": false,
-    "EjUserId": 630,
-    "UserName": "Hoeger LLC"
-  },
-  "Associate": {
-    "AssociateId": 60,
-    "Name": "O'Connell Group",
-    "PersonId": 489,
-    "Rank": 441,
-    "Tooltip": "nobis",
-    "Type": "AnonymousAssociate",
-    "GroupIdx": 553,
-    "FullName": "Marion Bayer",
-    "FormalName": "Conroy-Ruecker",
-    "Deleted": true,
-    "EjUserId": 643,
-    "UserName": "Orn Group"
-  },
-  "ProjectStatus": {
-    "Id": 961,
-    "Value": "est",
-    "Tooltip": "ex"
-  },
-  "ProjectType": {
-    "Id": 374,
-    "Value": "placeat",
-    "Tooltip": "enim"
-  },
+  "CreatedDate": "2006-11-19T11:10:53.3171456+01:00",
+  "UpdatedDate": "2008-04-06T11:10:53.3171456+02:00",
+  "Description": "Up-sized zero tolerance data-warehouse",
+  "Postit": "quidem",
+  "CreatedBy": null,
+  "UpdatedBy": null,
+  "Associate": null,
+  "ProjectStatus": null,
+  "ProjectType": null,
   "HasImage": false,
-  "ImageDescription": "Customizable foreground success",
-  "ActiveStatusMonitorId": 318,
+  "ImageDescription": "Monitored attitude-oriented circuit",
+  "ActiveStatusMonitorId": 338,
   "Links": [
     {
-      "EntityName": "Leffler-McClure",
-      "Id": 707,
-      "Description": "Innovative assymetric open architecture",
-      "ExtraInfo": "voluptas",
-      "LinkId": 115
+      "EntityName": "Pouros, Dickinson and Lubowitz",
+      "Id": 115,
+      "Description": "Stand-alone systematic artificial intelligence",
+      "ExtraInfo": "similique",
+      "LinkId": 387
     },
     {
-      "EntityName": "Leffler-McClure",
-      "Id": 707,
-      "Description": "Innovative assymetric open architecture",
-      "ExtraInfo": "voluptas",
-      "LinkId": 115
+      "EntityName": "Pouros, Dickinson and Lubowitz",
+      "Id": 115,
+      "Description": "Stand-alone systematic artificial intelligence",
+      "ExtraInfo": "similique",
+      "LinkId": 387
     }
   ],
-  "ActiveLinks": 639,
+  "ActiveLinks": 245,
   "Completed": true,
-  "NextMilestoneDate": "1995-07-15T18:25:50.8418851+02:00",
-  "NmdAppointmentId": 380,
-  "EndDate": "2004-06-23T18:25:50.8418851+02:00",
-  "ActiveErpLinks": 988,
+  "NextMilestoneDate": "2001-05-23T11:10:53.3181438+02:00",
+  "NmdAppointmentId": 627,
+  "EndDate": "2019-02-07T11:10:53.3181438+01:00",
+  "ActiveErpLinks": 280,
   "UserDefinedFields": {
-    "SuperOffice:1": "Aylin Bergstrom",
-    "SuperOffice:2": "Annabell Pfannerstill DVM"
+    "SuperOffice:1": "1254974940",
+    "SuperOffice:2": "Mrs. Katrine Jasmin Hickle Sr."
   },
   "ExtraFields": {
-    "ExtraFields1": "veniam",
-    "ExtraFields2": "provident"
+    "ExtraFields1": "sunt",
+    "ExtraFields2": "voluptas"
   },
   "CustomFields": {
-    "CustomFields1": "maxime",
-    "CustomFields2": "nisi"
+    "CustomFields1": "quod",
+    "CustomFields2": "veniam"
   },
-  "PublishEventDate": "2000-08-10T18:25:50.8418851+02:00",
-  "PublishTo": "2020-03-16T18:25:50.8418851+01:00",
-  "PublishFrom": "2012-12-02T18:25:50.8418851+01:00",
+  "PublishEventDate": "2017-02-11T11:10:53.3181438+01:00",
+  "PublishTo": "1998-05-17T11:10:53.3181438+02:00",
+  "PublishFrom": "1998-10-29T11:10:53.3181438+01:00",
   "IsPublished": true
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "1": "porro",
-  "2": "eum"
+  "1": "libero",
+  "2": "velit"
 }
 ```

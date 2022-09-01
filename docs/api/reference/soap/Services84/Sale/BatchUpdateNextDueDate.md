@@ -13,6 +13,9 @@ Implemented by the <see cref="M:SuperOffice.Services84.ISaleAgent.BatchUpdateNex
 
 Re-calculate all the next due dates
 
+
+
+
 [WSDL file for Services84/Sale](../Services84-Sale.md)
 
 Obtain a ticket from the [Services84/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -44,6 +47,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## BatchUpdateNextDueDate Response
 
 ```xml
@@ -63,3 +67,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

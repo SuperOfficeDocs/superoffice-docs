@@ -1,6 +1,6 @@
 ---
 title: POST Agents/AI/GetTrainingStatus
-id: v1AIAgent_GetTrainingStatus
+uid: v1AIAgent_GetTrainingStatus
 ---
 
 # POST Agents/AI/GetTrainingStatus
@@ -11,6 +11,12 @@ POST /api/v1/Agents/AI/GetTrainingStatus
 
 Calling the HugoAI endpoint to fetch the current training status.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Calling the HugoAI endpoint to fetch the current training status.
 ```http
 POST /api/v1/Agents/AI/GetTrainingStatus?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -34,18 +41,16 @@ POST /api/v1/Agents/AI/GetTrainingStatus?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response: object
 
-Carrier to describe the current categorization training status for a tenant in HugoAI
+## Response: 
 
-Carrier object for CategorizationStatusResponse.
-Services for the CategorizationStatusResponse Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IAIAgent">AI Agent</see>.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -56,7 +61,7 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/AI/GetTrainingStatus
@@ -65,57 +70,23 @@ Accept: application/json; charset=utf-8
 Accept-Language: en
 ```
 
+## Sample response
+
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContextIdentifier": "error",
-  "Status": "ea",
-  "CurrentModel": {
-    "ModelBuiltDateTime": "2011-02-25T18:28:47.671818+01:00",
-    "Accuracy": 10806.032,
-    "TicketCountForTraining": 166,
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 975
-      }
-    }
-  },
-  "PreviousModel": {
-    "ModelBuiltDateTime": "2004-10-24T18:28:47.6728179+02:00",
-    "Accuracy": 4563.104,
-    "TicketCountForTraining": 765,
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.Int32",
-        "FieldLength": 457
-      }
-    }
-  },
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "ContextIdentifier": "doloribus",
+  "Status": "qui",
+  "CurrentModel": null,
+  "PreviousModel": null,
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
-      "FieldType": "System.Int32",
-      "FieldLength": 802
+      "FieldRight": null,
+      "FieldType": "System.String",
+      "FieldLength": 317
     }
   }
 }

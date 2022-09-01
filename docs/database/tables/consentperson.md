@@ -6,14 +6,14 @@ so.generated: true
 keywords:
   - "database"
   - "ConsentPerson"
-so.date: 04.12.2022
+so.date: 08.26.2022
 so.topic: reference
 so.envir:
   - "onsite"
   - "online"
 ---
 
-# ConsentPerson Table (467)
+# ConsentPerson Table (468)
 
 Link table that defines who has which consents
 
@@ -32,6 +32,7 @@ Link table that defines who has which consents
 |updated|Last updated when|UtcDateTime| |
 |updated\_associate\_id|Last updated by whom|FK [associate](associate.md)| |
 |updatedCount|Number of updates made to this record|UShort| |
+
 
 ![ConsentPerson table relationship diagram](./media/ConsentPerson.png)
 
@@ -56,6 +57,7 @@ Link table that defines who has which consents
 |[LegalBase](legalbase.md)  |Legal base for GDPR (Article 6) |
 |[person](person.md)  |Persons in a company or an organizations. All associates have a corresponding person record |
 
+
 ## Replication Flags
 
 * Area Management controlled table. Contents replicated to satellites and traveller databases.
@@ -65,3 +67,4 @@ Link table that defines who has which consents
 ## Security Flags
 
 * No access control via user's Role.
+

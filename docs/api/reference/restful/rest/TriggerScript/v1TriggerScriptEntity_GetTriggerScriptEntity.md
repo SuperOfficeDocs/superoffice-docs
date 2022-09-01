@@ -1,6 +1,6 @@
 ---
 title: GET TriggerScript/{id}
-id: v1TriggerScriptEntity_GetTriggerScriptEntity
+uid: v1TriggerScriptEntity_GetTriggerScriptEntity
 ---
 
 # GET TriggerScript/{id}
@@ -11,13 +11,20 @@ GET /api/v1/TriggerScript/{id}
 
 Gets a TriggerScriptEntity object.
 
+
 Calls the CRMScript agent service GetTriggerScriptEntity.
 
-## Online Restricted: ## The CRMScript agent is not available in Online by default. Access must be requested specifically when app is registered
+
+## Online Restricted: ## The CRMScript agent is not available in Online by default. Access must be requested specifically when app is registered.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | id | int32 | The id of the TriggerScriptEntity to return. **Required** |
+
 
 ## Query String Parameters
 
@@ -28,6 +35,7 @@ Calls the CRMScript agent service GetTriggerScriptEntity.
 ```http
 GET /api/v1/TriggerScript/{id}?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -42,18 +50,17 @@ GET /api/v1/TriggerScript/{id}?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response: object
 
-CRM Trigger Script - The script runs when a given event fires.
+## Response: 
 
-TriggerScriptEntity entity with API _Links added.
+TriggerScriptEntity found.
 
 | Response | Description |
 |----------------|-------------|
 | 200 | TriggerScriptEntity found. |
 | 404 | Not Found. |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -62,7 +69,7 @@ Response body: object
 | ScreenType | string | Event id that triggers script.  See EventHandlerType enum. |
 | Enabled | bool | Whether this screen chooser is enabled or not |
 | UniqueIdentifier | string | Global unique identifier, accross customers/tenants |
-| Source | string | The CRMScript code for this event handler |
+| Source | string | The CRMscript code for this event handler |
 | Registered | date-time | Registered when  in UTC. |
 | RegisteredAssociateId | int32 | Registered by whom |
 | Updated | date-time | Last updated when  in UTC. |
@@ -71,42 +78,38 @@ Response body: object
 | FieldProperties | object |  |
 | _Links | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 GET /api/v1/TriggerScript/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 TriggerScriptEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 232,
-  "Name": "O'Hara Group",
+  "ScreenChooserId": 151,
+  "Name": "Johnston-Abernathy",
   "ScreenType": "ChatAfterSaveNewMessage",
-  "Enabled": false,
-  "UniqueIdentifier": "nam",
-  "Source": "ex",
-  "Registered": "2009-08-24T18:25:51.3171054+02:00",
-  "RegisteredAssociateId": 871,
-  "Updated": "1994-12-23T18:25:51.3171054+01:00",
-  "UpdatedAssociateId": 334,
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "Enabled": true,
+  "UniqueIdentifier": "totam",
+  "Source": "corrupti",
+  "Registered": "1998-11-05T11:10:53.6652124+01:00",
+  "RegisteredAssociateId": 632,
+  "Updated": "2020-09-16T11:10:53.6652124+02:00",
+  "UpdatedAssociateId": 884,
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
+      "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 780
+      "FieldLength": 798
     }
   },
   "_Links": {

@@ -1,6 +1,6 @@
 ---
 title: GET List/Priority/Items/{id}/UserGroups
-id: v1PriorityList_GetPriorityUserGroupsForListItem
+uid: v1PriorityList_GetPriorityUserGroupsForListItem
 ---
 
 # GET List/Priority/Items/{id}/UserGroups
@@ -11,11 +11,18 @@ GET /api/v1/List/Priority/Items/{itemId}/UserGroups
 
 Gets user groups visible for the Priority list's item.
 
+
 Calls the List agent service GetHeadings.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | itemId | int32 | The ID of the item to get. **Required** |
+
+
 
 ## Request Headers
 
@@ -30,7 +37,10 @@ Calls the List agent service GetHeadings.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -58,7 +68,7 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 GET /api/v1/List/Priority/Items/{itemId}/UserGroups
@@ -67,71 +77,64 @@ Accept: application/json; charset=utf-8
 Accept-Language: fr,de,ru,zh
 ```
 
+## Sample response
+
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 12,
-    "Name": "Daugherty, Mayert and Blick",
-    "ToolTip": "Molestiae beatae.",
+    "Id": 598,
+    "Name": "Larson Inc and Sons",
+    "ToolTip": "Aut est explicabo.",
     "Deleted": true,
-    "Rank": 40,
-    "Type": "consequatur",
-    "ColorBlock": 924,
-    "IconHint": "velit",
-    "Selected": true,
-    "LastChanged": "2017-02-23T18:25:51.9822472+01:00",
+    "Rank": 329,
+    "Type": "sapiente",
+    "ColorBlock": 193,
+    "IconHint": "tempore",
+    "Selected": false,
+    "LastChanged": "2006-10-28T11:10:54.3979014+02:00",
     "ChildItems": [
       {
-        "Id": 82,
-        "Name": "Trantow, Gorczany and Ward",
-        "ToolTip": "Rerum ut quis nihil odio et.",
-        "Deleted": false,
-        "Rank": 692,
-        "Type": "dolorem",
-        "ColorBlock": 711,
-        "IconHint": "quis",
+        "Id": 578,
+        "Name": "Hessel-Hauck",
+        "ToolTip": "Necessitatibus voluptas cum aut quia est.",
+        "Deleted": true,
+        "Rank": 431,
+        "Type": "dolor",
+        "ColorBlock": 670,
+        "IconHint": "mollitia",
         "Selected": true,
-        "LastChanged": "2017-09-07T18:25:51.9822472+02:00",
+        "LastChanged": "2021-11-08T11:10:54.3979014+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "modi",
-        "StyleHint": "voluptas",
-        "Hidden": true,
-        "FullName": "Vernice Wolf",
-        "TableRight": {},
+        "ExtraInfo": "animi",
+        "StyleHint": "esse",
+        "Hidden": false,
+        "FullName": "Lupe Hansen",
+        "TableRight": null,
         "FieldProperties": {
           "fieldName": {
-            "FieldRight": {
-              "Mask": "FULL",
-              "Reason": ""
-            },
+            "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 796
+            "FieldLength": 247
           }
         }
       }
     ],
-    "ExtraInfo": "et",
-    "StyleHint": "itaque",
+    "ExtraInfo": "fugit",
+    "StyleHint": "sunt",
     "Hidden": true,
-    "FullName": "Mr. Elaina Heaney",
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "FullName": "Christop Goldner",
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 349
+        "FieldRight": null,
+        "FieldType": "System.Int32",
+        "FieldLength": 137
       }
     }
   }

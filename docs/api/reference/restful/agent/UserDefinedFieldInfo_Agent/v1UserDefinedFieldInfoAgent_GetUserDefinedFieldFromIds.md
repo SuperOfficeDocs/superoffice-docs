@@ -1,6 +1,6 @@
 ---
 title: POST Agents/UserDefinedFieldInfo/GetUserDefinedFieldFromIds
-id: v1UserDefinedFieldInfoAgent_GetUserDefinedFieldFromIds
+uid: v1UserDefinedFieldInfoAgent_GetUserDefinedFieldFromIds
 ---
 
 # POST Agents/UserDefinedFieldInfo/GetUserDefinedFieldFromIds
@@ -11,6 +11,12 @@ POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedFieldFromIds
 
 Return an given array of user defined field identified by the ids.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Return an given array of user defined field identified by the ids.
 ```http
 POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedFieldFromIds?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,15 +42,18 @@ POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedFieldFromIds?$select=name
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-Ids
+Ids 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | Ids | array |  |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -90,22 +100,24 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedFieldFromIds
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
   "Ids": [
-    124,
-    35
+    988,
+    760
   ]
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -113,52 +125,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 100,
-    "ColumnId": 724,
-    "FieldDefault": "libero",
-    "FieldHeight": 993,
-    "FieldLabel": "impedit",
-    "FieldLeft": 351,
-    "FieldTop": 993,
+    "UDefFieldId": 615,
+    "ColumnId": 14,
+    "FieldDefault": "cumque",
+    "FieldHeight": 549,
+    "FieldLabel": "rerum",
+    "FieldLeft": 67,
+    "FieldTop": 293,
     "FieldType": "Checkbox",
-    "FieldWidth": 564,
-    "FormatMask": "et",
+    "FieldWidth": 381,
+    "FormatMask": "nemo",
     "HideLabel": true,
     "IsIndexed": false,
-    "LabelHeight": 983,
-    "LabelLeft": 822,
-    "LabelTop": 560,
-    "LabelWidth": 447,
-    "LastVersionId": 969,
-    "ListTableId": 462,
+    "LabelHeight": 806,
+    "LabelLeft": 376,
+    "LabelTop": 786,
+    "LabelWidth": 277,
+    "LastVersionId": 998,
+    "ListTableId": 22,
     "IsMandatory": true,
     "Type": "Appointment",
-    "Page1LineNo": 75,
-    "ProgId": "laboriosam",
+    "Page1LineNo": 404,
+    "ProgId": "delectus",
     "IsReadOnly": true,
-    "ShortLabel": "odio",
-    "TabOrder": 603,
-    "TextLength": 347,
-    "Tooltip": "et",
-    "UdefIdentity": 148,
-    "UDListDefinitionId": 771,
+    "ShortLabel": "modi",
+    "TabOrder": 523,
+    "TextLength": 518,
+    "Tooltip": "aliquid",
+    "UdefIdentity": 722,
+    "UDListDefinitionId": 715,
     "Justification": "Center",
-    "Version": 357,
-    "TemplateVariableName": "Pacocha-Kutch",
+    "Version": 505,
+    "TemplateVariableName": "Ankunding-Waters",
     "HasBeenPublished": true,
-    "MdoListName": "Bradtke-Breitenberg",
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "MdoListName": "Fahey-Tillman",
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
+        "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 341
+        "FieldLength": 623
       }
     }
   }

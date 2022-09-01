@@ -1,6 +1,6 @@
 ---
 title: POST ForeignApp/{appName}
-id: v1ForeignAppEntity_PostForeignApp
+uid: v1ForeignAppEntity_PostForeignApp
 ---
 
 # POST ForeignApp/{appName}
@@ -11,11 +11,18 @@ POST /api/v1/ForeignApp/{appName}
 
 Creates a new ForeignApp
 
+
 Calls the ForeignSystem agent service SaveForeignAppEntity.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | appName | string | The ForeignApp to be saved. **Required** |
+
+
 
 ## Request Headers
 
@@ -30,16 +37,16 @@ Calls the ForeignSystem agent service SaveForeignAppEntity.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response: object
 
-Carrier object for ForeignAppEntity.
-Services for the ForeignAppEntity Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IForeignSystemAgent">ForeignSystem Agent</see>.
+## Response: 
+
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -53,7 +60,7 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/ForeignApp/{appName}
@@ -62,101 +69,46 @@ Accept: application/json; charset=utf-8
 Accept-Language: en
 ```
 
+## Sample response
+
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 52,
-  "Name": "Schmidt-Oberbrunner",
-  "CreatedDate": "2002-09-12T18:25:50.5495972+02:00",
-  "UpdatedDate": "2020-02-03T18:25:50.5495972+01:00",
-  "CreatedBy": {
-    "AssociateId": 209,
-    "Name": "Koss-Olson",
-    "PersonId": 87,
-    "Rank": 429,
-    "Tooltip": "laborum",
-    "Type": "AnonymousAssociate",
-    "GroupIdx": 428,
-    "FullName": "Madge Renner",
-    "FormalName": "Stokes, Abernathy and Cartwright",
-    "Deleted": false,
-    "EjUserId": 133,
-    "UserName": "O'Connell, Bins and Pouros",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 995
-      }
-    }
-  },
-  "UpdatedBy": {
-    "AssociateId": 131,
-    "Name": "Wintheiser, Nader and Goyette",
-    "PersonId": 6,
-    "Rank": 874,
-    "Tooltip": "repellat",
-    "Type": "AnonymousAssociate",
-    "GroupIdx": 230,
-    "FullName": "Jett Nader",
-    "FormalName": "Fay, Ratke and Ruecker",
-    "Deleted": false,
-    "EjUserId": 195,
-    "UserName": "Fahey, Beahan and Green",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 420
-      }
-    }
-  },
+  "ForeignAppId": 690,
+  "Name": "Torphy, Thompson and Bednar",
+  "CreatedDate": "1999-06-10T11:10:52.8801753+02:00",
+  "UpdatedDate": "2021-07-06T11:10:52.8801753+02:00",
+  "CreatedBy": null,
+  "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 137,
-      "Name": "Toy, Cassin and Gusikowski",
-      "CreatedDate": "2009-12-31T18:25:50.550597+01:00",
-      "UpdatedDate": "2012-06-17T18:25:50.550597+02:00",
-      "AssociateFullName": "Cedrick Schiller",
-      "CreatedBy": "et",
-      "UpdatedBy": "et",
-      "DeviceIdentifier": "sequi",
-      "ForeignAppId": 895,
-      "TableRight": {},
+      "ForeignDeviceId": 317,
+      "Name": "Oberbrunner-Stracke",
+      "CreatedDate": "2005-07-15T11:10:52.881174+02:00",
+      "UpdatedDate": "2013-08-26T11:10:52.881174+02:00",
+      "AssociateFullName": "Sienna Watsica",
+      "CreatedBy": "saepe",
+      "UpdatedBy": "consectetur",
+      "DeviceIdentifier": "atque",
+      "ForeignAppId": 737,
+      "TableRight": null,
       "FieldProperties": {
         "fieldName": {
-          "FieldRight": {
-            "Mask": "FULL",
-            "Reason": ""
-          },
+          "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 940
+          "FieldLength": 275
         }
       }
     }
   ],
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
+      "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 169
+      "FieldLength": 973
     }
   }
 }

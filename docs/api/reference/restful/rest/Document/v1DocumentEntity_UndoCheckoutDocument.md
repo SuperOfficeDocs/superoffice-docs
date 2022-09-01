@@ -1,6 +1,6 @@
 ---
 title: DEL Document/{id}/Lock
-id: v1DocumentEntity_UndoCheckoutDocument
+uid: v1DocumentEntity_UndoCheckoutDocument
 ---
 
 # DEL Document/{id}/Lock
@@ -11,9 +11,15 @@ DELETE /api/v1/Document/{documentId}/Lock
 
 Undo (abandon) a checkout
 
+
+
+
+
+
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | documentId | int32 | SuperOffice document ID **Required** |
+
 
 ## Query String Parameters
 
@@ -25,6 +31,7 @@ Undo (abandon) a checkout
 DELETE /api/v1/Document/{documentId}/Lock?allowedReturnTypes=Message
 ```
 
+
 ## Request Headers
 
 | Parameter Name | Description |
@@ -34,13 +41,16 @@ DELETE /api/v1/Document/{documentId}/Lock?allowedReturnTypes=Message
 | Accept         | Content-type(s) you would like the response in: `application/json`, `text/json`, `application/xml`, `text/xml`, `application/json-patch+json`, `application/merge-patch+json` |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response: object
+
+## Response: 
+
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -51,25 +61,27 @@ Response body: object
 | Value | string |  |
 | AdditionalInfo | string |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 DELETE /api/v1/Document/{documentId}/Lock
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ExternalReference": "rerum",
-  "VersionId": "id",
+  "ExternalReference": "molestiae",
+  "VersionId": "sunt",
   "Success": false,
   "Type": "CustomGui",
-  "Value": "quia",
-  "AdditionalInfo": "nobis"
+  "Value": "quo",
+  "AdditionalInfo": "fugiat"
 }
 ```

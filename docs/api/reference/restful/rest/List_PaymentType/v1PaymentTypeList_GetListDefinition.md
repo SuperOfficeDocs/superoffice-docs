@@ -1,6 +1,6 @@
 ---
 title: GET List/PaymentType
-id: v1PaymentTypeList_GetListDefinition
+uid: v1PaymentTypeList_GetListDefinition
 ---
 
 # GET List/PaymentType
@@ -10,6 +10,13 @@ GET /api/v1/List/PaymentType
 ```
 
 Gets description of PaymentType list
+
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -24,17 +31,16 @@ Gets description of PaymentType list
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response: object
 
-The list entity contains information about a specific list
+## Response: 
 
-ListEntity entity with API _Links added.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -52,42 +58,38 @@ Response body: object
 | FieldProperties | object |  |
 | _Links | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 GET /api/v1/List/PaymentType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 611,
-  "Name": "Jacobi-O'Connell",
-  "Tooltip": "est",
+  "Id": 521,
+  "Name": "Macejkovic-Kohler",
+  "Tooltip": "perspiciatis",
   "Deleted": false,
-  "Rank": 173,
-  "IsCustomList": true,
-  "IsMDOList": true,
-  "UseGroupsAndHeadings": false,
-  "ListType": "odit",
+  "Rank": 723,
+  "IsCustomList": false,
+  "IsMDOList": false,
+  "UseGroupsAndHeadings": true,
+  "ListType": "a",
   "InUseByUserDefinedFields": false,
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
-      "FieldType": "System.Int32",
-      "FieldLength": 925
+      "FieldRight": null,
+      "FieldType": "System.String",
+      "FieldLength": 454
     }
   },
   "_Links": {

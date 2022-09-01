@@ -1,6 +1,6 @@
 ---
 title: GET List/WebPanel/Items/{id}
-id: v1WebPanelEntityList_GetWebPanelEntity
+uid: v1WebPanelEntityList_GetWebPanelEntity
 ---
 
 # GET List/WebPanel/Items/{id}
@@ -11,11 +11,18 @@ GET /api/v1/List/WebPanel/Items/{id}
 
 Gets a WebPanelEntity list item.
 
+
 Calls the List agent service GetWebPanelEntity.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | id | int32 | The id of the WebPanelEntity to return. **Required** |
+
+
 
 ## Request Headers
 
@@ -30,19 +37,17 @@ Calls the List agent service GetWebPanelEntity.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response: object
 
-The web panel entity contains information on a web panel
+## Response: 
 
-Carrier object for WebPanelEntity.
-Services for the WebPanelEntity Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IListAgent">List Agent</see>.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 | 404 | Not Found. |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -66,55 +71,53 @@ Response body: object
 | Url | string | The url |
 | ProgId | string | String key that can be used to uniquely retrieve the panel; particularly useful for partners and others who do not wish to store database ID's |
 | Icon | int32 | The icon of the webpanel |
+| AlwaysReloadOnShow | bool | If set to true, the content will reload every time the panel is shown |
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 GET /api/v1/List/WebPanel/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebPanelId": 716,
-  "Name": "Bogan LLC",
-  "Tooltip": "non",
-  "Deleted": true,
-  "Rank": 277,
+  "WebPanelId": 594,
+  "Name": "Schuppe, Casper and Spinka",
+  "Tooltip": "omnis",
+  "Deleted": false,
+  "Rank": 429,
   "UrlEncoding": "ANSI",
   "VisibleIn": "ActivityDialog",
-  "OnCentral": true,
-  "OnSatellite": true,
-  "OnTravel": false,
+  "OnCentral": false,
+  "OnSatellite": false,
+  "OnTravel": true,
   "OnSalesMarketingWeb": false,
-  "OnSalesMarketingPocket": true,
-  "ShowInMenuBar": false,
+  "OnSalesMarketingPocket": false,
+  "ShowInMenuBar": true,
   "ShowInToolBar": true,
-  "ShowInAddressBar": true,
-  "ShowInStatusBar": false,
-  "WindowName": "Abshire, Little and Lesch",
+  "ShowInAddressBar": false,
+  "ShowInStatusBar": true,
+  "WindowName": "Satterfield Inc and Sons",
   "Url": "http://www.example.com/",
-  "ProgId": "velit",
-  "Icon": 973,
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "ProgId": "et",
+  "Icon": 73,
+  "AlwaysReloadOnShow": false,
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
-      "FieldType": "System.String",
-      "FieldLength": 115
+      "FieldRight": null,
+      "FieldType": "System.Int32",
+      "FieldLength": 501
     }
   }
 }

@@ -1,6 +1,6 @@
 ---
 title: POST ShipmentMessage
-id: v1ShipmentMessageEntity_PostShipmentMessageEntity
+uid: v1ShipmentMessageEntity_PostShipmentMessageEntity
 ---
 
 # POST ShipmentMessage
@@ -11,7 +11,13 @@ POST /api/v1/ShipmentMessage
 
 Creates a new ShipmentMessageEntity
 
+
 Calls the Marketing agent service SaveShipmentMessageEntity.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +28,7 @@ Calls the Marketing agent service SaveShipmentMessageEntity.
 ```http
 POST /api/v1/ShipmentMessage?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,9 +44,9 @@ POST /api/v1/ShipmentMessage?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: newEntity
+## Request Body: newEntity  
 
-The ShipmentMessageEntity to be saved.
+The ShipmentMessageEntity to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -65,17 +72,16 @@ The ShipmentMessageEntity to be saved.
 | UpdatedAssociateId | int32 | Last updated by whom |
 | UpdatedCount | int32 | Number of updates made to this record |
 
-## Response: object
 
-A shipment message, that contains the actual message being sent out in a mailing
+## Response: 
 
-ShipmentMessageEntity entity with API _Links added.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -104,7 +110,7 @@ Response body: object
 | FieldProperties | object |  |
 | _Links | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/ShipmentMessage
@@ -114,73 +120,69 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 438,
-  "PlainMessage": "ut",
-  "HtmlMessage": "placeat",
-  "SmsMessage": "esse",
-  "Description": "Cross-group dynamic ability",
-  "Subject": "eos",
-  "FolderId": 238,
-  "HeaderField": "magni",
-  "Design": "magni",
+  "ShipmentMessageId": 646,
+  "PlainMessage": "tempore",
+  "HtmlMessage": "aliquam",
+  "SmsMessage": "expedita",
+  "Description": "Managed incremental flexibility",
+  "Subject": "fugiat",
+  "FolderId": 212,
+  "HeaderField": "et",
+  "Design": "reprehenderit",
   "Designtype": "SOEditor",
   "Flags": "Document",
   "RegisterViews": false,
-  "InlineImages": true,
-  "LongDescription": "Fully-configurable incremental analyzer",
-  "AccessKey": "quaerat",
-  "DocumentMessage": 599,
-  "Registered": "2021-06-12T18:25:51.1109444+02:00",
-  "RegisteredAssociateId": 300,
-  "Updated": "2018-01-04T18:25:51.1109444+01:00",
-  "UpdatedAssociateId": 173,
-  "UpdatedCount": 695
+  "InlineImages": false,
+  "LongDescription": "Configurable 4th generation flexibility",
+  "AccessKey": "tempora",
+  "DocumentMessage": 839,
+  "Registered": "2001-04-12T11:10:53.5231801+02:00",
+  "RegisteredAssociateId": 263,
+  "Updated": "1996-07-05T11:10:53.5231801+02:00",
+  "UpdatedAssociateId": 662,
+  "UpdatedCount": 164
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 299,
-  "PlainMessage": "quibusdam",
-  "HtmlMessage": "magnam",
-  "SmsMessage": "corporis",
-  "Description": "Decentralized fresh-thinking policy",
-  "Subject": "est",
-  "FolderId": 260,
-  "HeaderField": "suscipit",
-  "Design": "aut",
+  "ShipmentMessageId": 414,
+  "PlainMessage": "nostrum",
+  "HtmlMessage": "occaecati",
+  "SmsMessage": "eum",
+  "Description": "Optimized 5th generation encryption",
+  "Subject": "officiis",
+  "FolderId": 16,
+  "HeaderField": "voluptatibus",
+  "Design": "animi",
   "Designtype": "SOEditor",
   "Flags": "Document",
-  "RegisterViews": true,
-  "InlineImages": true,
-  "LongDescription": "Focused uniform knowledge user",
-  "AccessKey": "necessitatibus",
-  "DocumentMessage": 738,
-  "Registered": "2019-02-05T18:25:51.1119114+01:00",
-  "RegisteredAssociateId": 617,
-  "Updated": "2015-01-08T18:25:51.1119114+01:00",
-  "UpdatedAssociateId": 502,
-  "UpdatedCount": 965,
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "RegisterViews": false,
+  "InlineImages": false,
+  "LongDescription": "Organic object-oriented project",
+  "AccessKey": "exercitationem",
+  "DocumentMessage": 716,
+  "Registered": "1998-04-28T11:10:53.5241794+02:00",
+  "RegisteredAssociateId": 12,
+  "Updated": "2017-04-10T11:10:53.5241794+02:00",
+  "UpdatedAssociateId": 84,
+  "UpdatedCount": 331,
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
+      "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 877
+      "FieldLength": 51
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

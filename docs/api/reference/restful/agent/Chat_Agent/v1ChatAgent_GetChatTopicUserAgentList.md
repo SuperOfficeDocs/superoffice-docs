@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Chat/GetChatTopicUserAgentList
-id: v1ChatAgent_GetChatTopicUserAgentList
+uid: v1ChatAgent_GetChatTopicUserAgentList
 ---
 
 # POST Agents/Chat/GetChatTopicUserAgentList
@@ -11,6 +11,12 @@ POST /api/v1/Agents/Chat/GetChatTopicUserAgentList
 
 Get list of users assigned to a chat topic
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Get list of users assigned to a chat topic
 ```http
 POST /api/v1/Agents/Chat/GetChatTopicUserAgentList?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,15 +42,18 @@ POST /api/v1/Agents/Chat/GetChatTopicUserAgentList?$select=name,department,categ
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-ChatTopicId
+ChatTopicId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | ChatTopicId | int32 |  |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -60,19 +70,21 @@ Response body: array
 | CanManage | bool | True if the user is a manager for this topic |
 | CanNotify | bool | True if the user should receive notifications for this topic |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Chat/GetChatTopicUserAgentList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatTopicId": 790
+  "ChatTopicId": 330
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -80,66 +92,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TopicId": 46,
-    "User": {
-      "AssociateId": 618,
-      "Name": "McCullough, Gibson and Terry",
-      "PersonId": 982,
-      "Rank": 721,
-      "Tooltip": "fugit",
-      "Type": "AnonymousAssociate",
-      "GroupIdx": 823,
-      "FullName": "Noelia Moore",
-      "FormalName": "Kreiger, Fahey and Rosenbaum",
-      "Deleted": false,
-      "EjUserId": 568,
-      "UserName": "Jerde Inc and Sons",
-      "TableRight": {},
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": {
-            "Mask": "FULL",
-            "Reason": ""
-          },
-          "FieldType": "System.String",
-          "FieldLength": 95
-        }
-      }
-    },
-    "CanListen": true,
-    "CanRespond": true,
+    "TopicId": 792,
+    "User": null,
+    "CanListen": false,
+    "CanRespond": false,
     "CanManage": false,
     "CanNotify": false
   },
   {
-    "TopicId": 46,
-    "User": {
-      "AssociateId": 618,
-      "Name": "McCullough, Gibson and Terry",
-      "PersonId": 982,
-      "Rank": 721,
-      "Tooltip": "fugit",
-      "Type": "AnonymousAssociate",
-      "GroupIdx": 823,
-      "FullName": "Noelia Moore",
-      "FormalName": "Kreiger, Fahey and Rosenbaum",
-      "Deleted": false,
-      "EjUserId": 568,
-      "UserName": "Jerde Inc and Sons",
-      "TableRight": {},
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": {
-            "Mask": "FULL",
-            "Reason": ""
-          },
-          "FieldType": "System.String",
-          "FieldLength": 95
-        }
-      }
-    },
-    "CanListen": true,
-    "CanRespond": true,
+    "TopicId": 792,
+    "User": null,
+    "CanListen": false,
+    "CanRespond": false,
     "CanManage": false,
     "CanNotify": false
   }

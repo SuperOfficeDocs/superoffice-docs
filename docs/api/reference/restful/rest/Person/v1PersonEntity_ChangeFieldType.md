@@ -1,6 +1,6 @@
 ---
 title: POST Person/UdefLayout/{progidOrLabel}/ChangeTo/{fieldType}
-id: v1PersonEntity_ChangeFieldType
+uid: v1PersonEntity_ChangeFieldType
 ---
 
 # POST Person/UdefLayout/{progidOrLabel}/ChangeTo/{fieldType}
@@ -11,10 +11,16 @@ POST /api/v1/Person/UdefLayout/{progidOrLabel}/ChangeTo/{fieldType}
 
 Change a PersonEntity user-defined field's type based on the prog-id or label.
 
+
+
+
+
+
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | progidOrLabel | string | The udef field id, case-sensitive prog-id, or field label. **Required** |
 | fieldType | Enum: Number, ShortText, LongText, Date, UnlimitedDate, Checkbox, List, Decimal | The new type of the user defined field. **Required** |
+
 
 ## Query String Parameters
 
@@ -25,6 +31,7 @@ Change a PersonEntity user-defined field's type based on the prog-id or label.
 ```http
 POST /api/v1/Person/UdefLayout/{progidOrLabel}/ChangeTo/{fieldType}?isIndexed=True
 ```
+
 
 ## Request Headers
 
@@ -39,19 +46,17 @@ POST /api/v1/Person/UdefLayout/{progidOrLabel}/ChangeTo/{fieldType}?isIndexed=Tr
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response: object
 
-Return information about the user defined fields. The information can be used to mirror the layout of the user-defined fields in the user interface.
+## Response: 
 
-Carrier object for UserDefinedFieldInfo.
-Services for the UserDefinedFieldInfo Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent">UserDefinedFieldInfo Agent</see>.
+PersonEntity found.
 
 | Response | Description |
 |----------------|-------------|
 | 200 | PersonEntity found. |
 | 404 | PersonEntity not found. |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -92,66 +97,62 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Person/UdefLayout/{progidOrLabel}/ChangeTo/{fieldType}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 PersonEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 404,
-  "ColumnId": 333,
-  "FieldDefault": "quia",
-  "FieldHeight": 743,
-  "FieldLabel": "veritatis",
-  "FieldLeft": 308,
-  "FieldTop": 134,
+  "UDefFieldId": 83,
+  "ColumnId": 275,
+  "FieldDefault": "maxime",
+  "FieldHeight": 461,
+  "FieldLabel": "occaecati",
+  "FieldLeft": 357,
+  "FieldTop": 639,
   "FieldType": "Checkbox",
-  "FieldWidth": 102,
-  "FormatMask": "suscipit",
+  "FieldWidth": 345,
+  "FormatMask": "corporis",
   "HideLabel": false,
   "IsIndexed": false,
-  "LabelHeight": 795,
-  "LabelLeft": 337,
-  "LabelTop": 969,
-  "LabelWidth": 988,
+  "LabelHeight": 266,
+  "LabelLeft": 689,
+  "LabelTop": 656,
+  "LabelWidth": 911,
   "LastVersionId": 656,
-  "ListTableId": 978,
-  "IsMandatory": true,
+  "ListTableId": 68,
+  "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 990,
-  "ProgId": "sunt",
+  "Page1LineNo": 618,
+  "ProgId": "dolores",
   "IsReadOnly": true,
-  "ShortLabel": "quia",
-  "TabOrder": 976,
-  "TextLength": 26,
-  "Tooltip": "exercitationem",
-  "UdefIdentity": 50,
-  "UDListDefinitionId": 393,
+  "ShortLabel": "aut",
+  "TabOrder": 716,
+  "TextLength": 933,
+  "Tooltip": "consequatur",
+  "UdefIdentity": 353,
+  "UDListDefinitionId": 461,
   "Justification": "Center",
-  "Version": 651,
-  "TemplateVariableName": "Adams Inc and Sons",
+  "Version": 849,
+  "TemplateVariableName": "Hickle Inc and Sons",
   "HasBeenPublished": false,
-  "MdoListName": "Kuhn-Price",
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "MdoListName": "Pagac, Beatty and Walter",
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
-      "FieldType": "System.Int32",
-      "FieldLength": 484
+      "FieldRight": null,
+      "FieldType": "System.String",
+      "FieldLength": 230
     }
   }
 }

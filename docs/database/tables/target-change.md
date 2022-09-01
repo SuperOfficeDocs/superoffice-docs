@@ -6,14 +6,14 @@ so.generated: true
 keywords:
   - "database"
   - "target_change"
-so.date: 04.12.2022
+so.date: 08.26.2022
 so.topic: reference
 so.envir:
   - "onsite"
   - "online"
 ---
 
-# target\_change Table (499)
+# target\_change Table (500)
 
 A single field change.
 
@@ -31,6 +31,7 @@ A single field change.
 |updatedCount|Number of updates made to this record|UShort| |
 |value\_change\_from|Previous value|Double|&#x25CF;|
 |value\_change\_to|New value|Double|&#x25CF;|
+
 
 ![target_change table relationship diagram](./media/target_change.png)
 
@@ -50,6 +51,7 @@ A single field change.
 |[associate](associate.md)  |Employees, resources and other users - except for External persons |
 |[target\_revision](target-revision.md)  |One batch of changes made to targets |
 
+
 ## Replication Flags
 
 * None
@@ -57,3 +59,4 @@ A single field change.
 ## Security Flags
 
 * No access control via user's Role.
+

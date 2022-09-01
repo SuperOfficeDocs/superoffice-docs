@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Appointment/GetAlarms
-id: v1AppointmentAgent_GetAlarms
+uid: v1AppointmentAgent_GetAlarms
 ---
 
 # POST Agents/Appointment/GetAlarms
@@ -8,6 +8,14 @@ id: v1AppointmentAgent_GetAlarms
 ```http
 POST /api/v1/Agents/Appointment/GetAlarms
 ```
+
+
+
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -18,6 +26,7 @@ POST /api/v1/Agents/Appointment/GetAlarms
 ```http
 POST /api/v1/Agents/Appointment/GetAlarms?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -33,9 +42,9 @@ POST /api/v1/Agents/Appointment/GetAlarms?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-IncludeInvitations, IncludeAllAppointments, DefaultAlarmLeadTimeInMinutes
+IncludeInvitations, IncludeAllAppointments, DefaultAlarmLeadTimeInMinutes 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -43,16 +52,16 @@ IncludeInvitations, IncludeAllAppointments, DefaultAlarmLeadTimeInMinutes
 | IncludeAllAppointments | bool |  |
 | DefaultAlarmLeadTimeInMinutes | int32 |  |
 
-## Response: object
 
-Carrier object for MultiAlarmData.
-Services for the MultiAlarmData Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IAppointmentAgent">Appointment Agent</see>.
+## Response: 
+
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -62,7 +71,7 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Appointment/GetAlarms
@@ -73,10 +82,12 @@ Content-Type: application/json; charset=utf-8
 
 {
   "IncludeInvitations": false,
-  "IncludeAllAppointments": true,
-  "DefaultAlarmLeadTimeInMinutes": 617
+  "IncludeAllAppointments": false,
+  "DefaultAlarmLeadTimeInMinutes": 727
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -85,56 +96,47 @@ Content-Type: application/json; charset=utf-8
 {
   "Alarms": [
     {
-      "AppointmentId": 328,
-      "StartTime": "2004-10-27T18:28:47.7538442+02:00",
-      "EndDate": "2010-11-20T18:28:47.7538442+01:00",
-      "AlarmTime": "2001-07-11T18:28:47.7538442+02:00",
-      "PersonId": 34,
-      "PersonFullName": "Lori Funk PhD",
-      "ContactName": "Howe Inc and Sons",
-      "ProjectId": 291,
-      "ProjectName": "Kuhn Group",
-      "AppointmentText": "eum",
-      "SaleId": 342,
-      "SaleName": "Hills, Goldner and Kemmer",
-      "Location": "voluptatibus",
+      "AppointmentId": 877,
+      "StartTime": "2020-05-16T11:10:25.4795222+02:00",
+      "EndDate": "2009-10-13T11:10:25.4795222+02:00",
+      "AlarmTime": "2011-07-13T11:10:25.4795222+02:00",
+      "PersonId": 291,
+      "PersonFullName": "Trycia Von",
+      "ContactName": "Marquardt Inc and Sons",
+      "ProjectId": 981,
+      "ProjectName": "Hermann Inc and Sons",
+      "AppointmentText": "perferendis",
+      "SaleId": 790,
+      "SaleName": "Koss, O'Kon and Leannon",
+      "Location": "aut",
       "AppointmentType": "BookingForChecklist",
-      "ContactId": 128,
+      "ContactId": 815,
       "AssignmentStatus": "Assigning",
       "InvitationStatus": "Accepted",
       "BookingType": "None",
-      "FormalName": "Christiansen Inc and Sons",
-      "TaskName": "Kuphal, Emmerich and Lindgren",
+      "FormalName": "Kling-Leuschke",
+      "TaskName": "Kirlin Inc and Sons",
       "ContactDepartment": "",
-      "ContactFullName": "Joyce Toy",
+      "ContactFullName": "Ms. Ricardo Dach IV",
       "JoinVideomeetUrl": "http://www.example.com/",
-      "TableRight": {},
+      "TableRight": null,
       "FieldProperties": {
         "fieldName": {
-          "FieldRight": {
-            "Mask": "FULL",
-            "Reason": "deliver seamless deliverables"
-          },
-          "FieldType": "System.Int32",
-          "FieldLength": 41
+          "FieldRight": null,
+          "FieldType": "System.String",
+          "FieldLength": 158
         }
       }
     }
   ],
-  "PollingInterval": 19,
-  "SilentAfter": 348,
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "PollingInterval": 321,
+  "SilentAfter": 296,
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
-      "FieldType": "System.String",
-      "FieldLength": 54
+      "FieldRight": null,
+      "FieldType": "System.Int32",
+      "FieldLength": 632
     }
   }
 }

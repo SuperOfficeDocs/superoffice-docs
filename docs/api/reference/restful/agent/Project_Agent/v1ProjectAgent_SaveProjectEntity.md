@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Project/SaveProjectEntity
-id: v1ProjectAgent_SaveProjectEntity
+uid: v1ProjectAgent_SaveProjectEntity
 ---
 
 # POST Agents/Project/SaveProjectEntity
@@ -10,6 +10,13 @@ POST /api/v1/Agents/Project/SaveProjectEntity
 ```
 
 Updates the existing ProjectEntity or creates a new ProjectEntity if the id parameter is empty
+
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -25,9 +32,9 @@ Updates the existing ProjectEntity or creates a new ProjectEntity if the id para
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entity
+## Request Body: entity  
 
-The ProjectEntity to be saved.
+The ProjectEntity to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -42,9 +49,9 @@ The ProjectEntity to be saved.
 | Postit | string | The actual text, max 2047 significant characters even though it is stored as a larger data type on some databases |
 | CreatedBy |  | The person that created the project |
 | UpdatedBy |  | The person that last updated the project |
-| Associate |  | The person that created the project  <br />Use MDO List name "associate" to get list items. |
-| ProjectStatus |  | Project status is a list defined by the database administrator. Different statuses of a project may be: “In planning”, “Started”, “Finished” and so on  <br />Use MDO List name "projectstatus" to get list items. |
-| ProjectType |  | Project type is a list defined by the database admin. for example: 'Large', 'Small', 'Party'...  <br />Use MDO List name "projecttype" to get list items. |
+| Associate |  | The person that created the project  <para>Use MDO List name "associate" to get list items.</para> |
+| ProjectStatus |  | Project status is a list defined by the database administrator. Different statuses of a project may be: “In planning”, “Started”, “Finished” and so on  <para>Use MDO List name "projectstatus" to get list items.</para> |
+| ProjectType |  | Project type is a list defined by the database admin. for example: 'Large', 'Small', 'Party'...  <para>Use MDO List name "projecttype" to get list items.</para> |
 | HasImage | bool | True if the project has an image. (This is the image that is displayed in the CRM client) |
 | ImageDescription | string | Description of the project image if it exists. (This is the image that is displayed in the CRM client) |
 | ActiveStatusMonitorId | int32 | Active status monitor identity with the lowest rank for project |
@@ -63,18 +70,16 @@ The ProjectEntity to be saved.
 | PublishFrom | date-time | Publication valid from (inclusive) |
 | IsPublished | bool | Publication is published |
 
-## Response: object
 
-The Project Service. The service implements all services working with the Project object
+## Response: 
 
-Carrier object for ProjectEntity.
-Services for the ProjectEntity Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IProjectAgent">Project Agent</see>.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -89,9 +94,9 @@ Response body: object
 | Postit | string | The actual text, max 2047 significant characters even though it is stored as a larger data type on some databases |
 | CreatedBy |  | The person that created the project |
 | UpdatedBy |  | The person that last updated the project |
-| Associate |  | The person that created the project  <br />Use MDO List name "associate" to get list items. |
-| ProjectStatus |  | Project status is a list defined by the database administrator. Different statuses of a project may be: “In planning”, “Started”, “Finished” and so on  <br />Use MDO List name "projectstatus" to get list items. |
-| ProjectType |  | Project type is a list defined by the database admin. for example: 'Large', 'Small', 'Party'...  <br />Use MDO List name "projecttype" to get list items. |
+| Associate |  | The person that created the project  <para>Use MDO List name "associate" to get list items.</para> |
+| ProjectStatus |  | Project status is a list defined by the database administrator. Different statuses of a project may be: “In planning”, “Started”, “Finished” and so on  <para>Use MDO List name "projectstatus" to get list items.</para> |
+| ProjectType |  | Project type is a list defined by the database admin. for example: 'Large', 'Small', 'Party'...  <para>Use MDO List name "projecttype" to get list items.</para> |
 | HasImage | bool | True if the project has an image. (This is the image that is displayed in the CRM client) |
 | ImageDescription | string | Description of the project image if it exists. (This is the image that is displayed in the CRM client) |
 | ActiveStatusMonitorId | int32 | Active status monitor identity with the lowest rank for project |
@@ -112,7 +117,7 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Project/SaveProjectEntity
@@ -122,392 +127,227 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 250,
-  "Name": "Terry, Mueller and Balistreri",
-  "ProjectNumber": "351267",
+  "ProjectId": 4,
+  "Name": "Lueilwitz, Hoppe and Schimmel",
+  "ProjectNumber": "1927960",
   "ProjectMembers": [
     {
-      "ProjectmemberId": 323,
-      "ContactId": 558,
-      "ProjectId": 548,
-      "ContactName": "Dibbert, Batz and Zemlak",
+      "ProjectmemberId": 986,
+      "ContactId": 260,
+      "ProjectId": 576,
+      "ContactName": "Kub, Christiansen and Wisoky",
       "ContactDepartment": "",
-      "ProjectName": "Kuhlman LLC",
-      "EmailId": 984,
-      "EmailAddress": "eldridge@wisokymclaughlin.com",
-      "CountryId": 97,
-      "Firstname": "Emil",
-      "MiddleName": "Schuster Group",
-      "Lastname": "Bergnaum",
-      "PersonId": 771,
-      "Mrmrs": "dolorem",
-      "ProjectMemberTypeName": "Gibson-Mante",
-      "Phone": "725.267.2841",
-      "PhoneId": 571,
-      "ProjectMemberTypeId": 382,
-      "EmailAddressName": "darian@rau.info",
-      "Comment": "quis",
-      "FullName": "Tomasa Abshire"
+      "ProjectName": "Jewess, Orn and Beatty",
+      "EmailId": 156,
+      "EmailAddress": "edwin.gutmann@parisian.biz",
+      "CountryId": 337,
+      "Firstname": "Josue",
+      "MiddleName": "Kessler, Parker and Bogan",
+      "Lastname": "Leffler",
+      "PersonId": 73,
+      "Mrmrs": "autem",
+      "ProjectMemberTypeName": "Windler, Brekke and Sawayn",
+      "Phone": "1-338-585-4915 x8901",
+      "PhoneId": 169,
+      "ProjectMemberTypeId": 264,
+      "EmailAddressName": "aurore@jast.biz",
+      "Comment": "libero",
+      "FullName": "Ms. Doyle Prohaska"
     }
   ],
   "Urls": [
     {
-      "Value": "et",
-      "StrippedValue": "atque",
-      "Description": "Visionary bi-directional strategy"
+      "Value": "ullam",
+      "StrippedValue": "eius",
+      "Description": "Devolved impactful database"
     },
     {
-      "Value": "et",
-      "StrippedValue": "atque",
-      "Description": "Visionary bi-directional strategy"
+      "Value": "ullam",
+      "StrippedValue": "eius",
+      "Description": "Devolved impactful database"
     }
   ],
-  "CreatedDate": "2012-09-03T18:28:49.8601393+02:00",
-  "UpdatedDate": "1996-12-02T18:28:49.8601393+01:00",
-  "Description": "Monitored bi-directional open system",
-  "Postit": "saepe",
-  "CreatedBy": {
-    "AssociateId": 51,
-    "Name": "Buckridge, Gusikowski and Grimes",
-    "PersonId": 606,
-    "Rank": 125,
-    "Tooltip": "dignissimos",
-    "Type": "AnonymousAssociate",
-    "GroupIdx": 834,
-    "FullName": "Eve Kuphal",
-    "FormalName": "Klein, Goyette and Wolff",
-    "Deleted": false,
-    "EjUserId": 244,
-    "UserName": "Rodriguez-Yundt"
-  },
-  "UpdatedBy": {
-    "AssociateId": 370,
-    "Name": "Schuster LLC",
-    "PersonId": 857,
-    "Rank": 659,
-    "Tooltip": "delectus",
-    "Type": "AnonymousAssociate",
-    "GroupIdx": 494,
-    "FullName": "Lexi Abbott",
-    "FormalName": "Yost, Block and Hane",
-    "Deleted": false,
-    "EjUserId": 598,
-    "UserName": "Beahan LLC"
-  },
-  "Associate": {
-    "AssociateId": 448,
-    "Name": "Hilll, Kemmer and Klocko",
-    "PersonId": 161,
-    "Rank": 162,
-    "Tooltip": "quos",
-    "Type": "AnonymousAssociate",
-    "GroupIdx": 305,
-    "FullName": "Ned Zieme",
-    "FormalName": "Yost-Gleichner",
-    "Deleted": false,
-    "EjUserId": 505,
-    "UserName": "Gutkowski, Beatty and Leannon"
-  },
-  "ProjectStatus": {
-    "Id": 887,
-    "Value": "omnis",
-    "Tooltip": "eveniet"
-  },
-  "ProjectType": {
-    "Id": 540,
-    "Value": "ut",
-    "Tooltip": "earum"
-  },
+  "CreatedDate": "2002-12-11T11:10:27.565453+01:00",
+  "UpdatedDate": "2005-08-16T11:10:27.565453+02:00",
+  "Description": "Function-based eco-centric initiative",
+  "Postit": "unde",
+  "CreatedBy": null,
+  "UpdatedBy": null,
+  "Associate": null,
+  "ProjectStatus": null,
+  "ProjectType": null,
   "HasImage": false,
-  "ImageDescription": "Synchronised 4th generation database",
-  "ActiveStatusMonitorId": 421,
+  "ImageDescription": "Optimized local local area network",
+  "ActiveStatusMonitorId": 273,
   "Links": [
     {
-      "EntityName": "Satterfield Group",
-      "Id": 695,
-      "Description": "Adaptive human-resource extranet",
-      "ExtraInfo": "rerum",
-      "LinkId": 991
+      "EntityName": "Bogisich-Stanton",
+      "Id": 199,
+      "Description": "Intuitive didactic concept",
+      "ExtraInfo": "voluptatem",
+      "LinkId": 446
     },
     {
-      "EntityName": "Satterfield Group",
-      "Id": 695,
-      "Description": "Adaptive human-resource extranet",
-      "ExtraInfo": "rerum",
-      "LinkId": 991
+      "EntityName": "Bogisich-Stanton",
+      "Id": 199,
+      "Description": "Intuitive didactic concept",
+      "ExtraInfo": "voluptatem",
+      "LinkId": 446
     }
   ],
-  "ActiveLinks": 606,
+  "ActiveLinks": 363,
   "Completed": true,
-  "NextMilestoneDate": "2005-02-13T18:28:49.8621093+01:00",
-  "NmdAppointmentId": 824,
-  "EndDate": "2006-10-04T18:28:49.8621093+02:00",
-  "ActiveErpLinks": 311,
+  "NextMilestoneDate": "2014-07-23T11:10:27.5674548+02:00",
+  "NmdAppointmentId": 77,
+  "EndDate": "2001-10-23T11:10:27.5674548+02:00",
+  "ActiveErpLinks": 833,
   "UserDefinedFields": {
-    "SuperOffice:1": "850844058",
-    "SuperOffice:2": "True"
+    "SuperOffice:1": "False",
+    "SuperOffice:2": "False"
   },
   "ExtraFields": {
-    "ExtraFields1": "et",
-    "ExtraFields2": "exercitationem"
+    "ExtraFields1": "hic",
+    "ExtraFields2": "corporis"
   },
   "CustomFields": {
-    "CustomFields1": "commodi",
-    "CustomFields2": "eum"
+    "CustomFields1": "modi",
+    "CustomFields2": "adipisci"
   },
-  "PublishEventDate": "2021-02-14T18:28:49.8621093+01:00",
-  "PublishTo": "2018-01-14T18:28:49.8621093+01:00",
-  "PublishFrom": "2009-11-11T18:28:49.8621093+01:00",
+  "PublishEventDate": "2019-10-22T11:10:27.5674548+02:00",
+  "PublishTo": "2000-10-24T11:10:27.5674548+02:00",
+  "PublishFrom": "2000-09-04T11:10:27.5674548+02:00",
   "IsPublished": false
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 343,
-  "Name": "Altenwerth, Mohr and Tremblay",
-  "ProjectNumber": "781769",
+  "ProjectId": 576,
+  "Name": "Blick-Hettinger",
+  "ProjectNumber": "647939",
   "ProjectMembers": [
     {
-      "ProjectmemberId": 368,
-      "ContactId": 342,
-      "ProjectId": 595,
-      "ContactName": "Zemlak LLC",
+      "ProjectmemberId": 374,
+      "ContactId": 528,
+      "ProjectId": 497,
+      "ContactName": "Collier Group",
       "ContactDepartment": "",
-      "ProjectName": "Upton, Smitham and Harris",
-      "EmailId": 376,
-      "EmailAddress": "haylie_leuschke@connmarks.us",
-      "CountryId": 533,
-      "Firstname": "Ryley",
-      "MiddleName": "Bins-Walter",
-      "Lastname": "Thompson",
-      "PersonId": 512,
-      "Mrmrs": "est",
-      "ProjectMemberTypeName": "Lehner-Dickens",
-      "Phone": "413-866-8321",
-      "PhoneId": 875,
-      "ProjectMemberTypeId": 527,
-      "EmailAddressName": "ernie_predovic@jacobskoss.us",
-      "Comment": "deserunt",
-      "FullName": "Tressie Larson",
-      "TableRight": {},
+      "ProjectName": "Olson-Gulgowski",
+      "EmailId": 506,
+      "EmailAddress": "frank_wolf@orn.uk",
+      "CountryId": 244,
+      "Firstname": "Shyann",
+      "MiddleName": "Abshire, Larson and Runolfsson",
+      "Lastname": "Spencer",
+      "PersonId": 376,
+      "Mrmrs": "non",
+      "ProjectMemberTypeName": "Grant, Bahringer and Bednar",
+      "Phone": "(826)603-7375 x076",
+      "PhoneId": 677,
+      "ProjectMemberTypeId": 195,
+      "EmailAddressName": "pansy_gutmann@blanda.co.uk",
+      "Comment": "hic",
+      "FullName": "Stacey Marks",
+      "TableRight": null,
       "FieldProperties": {
         "fieldName": {
-          "FieldRight": {
-            "Mask": "FULL",
-            "Reason": "iterate mission-critical portals"
-          },
+          "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 306
+          "FieldLength": 792
         }
       }
     }
   ],
   "Urls": [
     {
-      "Value": "quia",
-      "StrippedValue": "veniam",
-      "Description": "Ergonomic logistical software",
-      "TableRight": {},
+      "Value": "vel",
+      "StrippedValue": "in",
+      "Description": "Enterprise-wide exuding circuit",
+      "TableRight": null,
       "FieldProperties": {
         "fieldName": {
-          "FieldRight": {
-            "Mask": "FULL",
-            "Reason": ""
-          },
-          "FieldType": "System.String",
-          "FieldLength": 296
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 973
         }
       }
     },
     {
-      "Value": "quia",
-      "StrippedValue": "veniam",
-      "Description": "Ergonomic logistical software",
-      "TableRight": {},
+      "Value": "vel",
+      "StrippedValue": "in",
+      "Description": "Enterprise-wide exuding circuit",
+      "TableRight": null,
       "FieldProperties": {
         "fieldName": {
-          "FieldRight": {
-            "Mask": "FULL",
-            "Reason": ""
-          },
-          "FieldType": "System.String",
-          "FieldLength": 296
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 973
         }
       }
     }
   ],
-  "CreatedDate": "2003-01-01T18:28:49.8661371+01:00",
-  "UpdatedDate": "2007-05-27T18:28:49.8661371+02:00",
-  "Description": "Optimized attitude-oriented knowledge user",
-  "Postit": "quia",
-  "CreatedBy": {
-    "AssociateId": 163,
-    "Name": "Berge Group",
-    "PersonId": 889,
-    "Rank": 937,
-    "Tooltip": "blanditiis",
-    "Type": "AnonymousAssociate",
-    "GroupIdx": 579,
-    "FullName": "Antonia Fisher",
-    "FormalName": "Ortiz, Mante and Homenick",
-    "Deleted": false,
-    "EjUserId": 188,
-    "UserName": "Kilback-Strosin",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 402
-      }
-    }
-  },
-  "UpdatedBy": {
-    "AssociateId": 300,
-    "Name": "Jaskolski, Witting and Bode",
-    "PersonId": 562,
-    "Rank": 56,
-    "Tooltip": "quia",
-    "Type": "AnonymousAssociate",
-    "GroupIdx": 244,
-    "FullName": "Edison Durgan",
-    "FormalName": "Schimmel-Collins",
-    "Deleted": true,
-    "EjUserId": 774,
-    "UserName": "Osinski-Kassulke",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.Int32",
-        "FieldLength": 460
-      }
-    }
-  },
-  "Associate": {
-    "AssociateId": 366,
-    "Name": "Pacocha-Green",
-    "PersonId": 445,
-    "Rank": 991,
-    "Tooltip": "corrupti",
-    "Type": "AnonymousAssociate",
-    "GroupIdx": 814,
-    "FullName": "Ms. Jerome Bergstrom",
-    "FormalName": "Daniel LLC",
-    "Deleted": true,
-    "EjUserId": 329,
-    "UserName": "Hessel Group",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 301
-      }
-    }
-  },
-  "ProjectStatus": {
-    "Id": 301,
-    "Value": "qui",
-    "Tooltip": "quibusdam",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 198
-      }
-    }
-  },
-  "ProjectType": {
-    "Id": 588,
-    "Value": "sint",
-    "Tooltip": "magnam",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 844
-      }
-    }
-  },
+  "CreatedDate": "2015-12-20T11:10:27.5714526+01:00",
+  "UpdatedDate": "1995-08-09T11:10:27.5714526+02:00",
+  "Description": "Multi-layered upward-trending pricing structure",
+  "Postit": "natus",
+  "CreatedBy": null,
+  "UpdatedBy": null,
+  "Associate": null,
+  "ProjectStatus": null,
+  "ProjectType": null,
   "HasImage": false,
-  "ImageDescription": "Programmable real-time orchestration",
-  "ActiveStatusMonitorId": 508,
+  "ImageDescription": "Organic leading edge superstructure",
+  "ActiveStatusMonitorId": 908,
   "Links": [
     {
-      "EntityName": "Runolfsson-Sporer",
-      "Id": 634,
-      "Description": "Business-focused asynchronous functionalities",
-      "ExtraInfo": "sit",
-      "LinkId": 556,
-      "TableRight": {},
+      "EntityName": "Huels LLC",
+      "Id": 17,
+      "Description": "User-friendly cohesive capability",
+      "ExtraInfo": "et",
+      "LinkId": 170,
+      "TableRight": null,
       "FieldProperties": {
         "fieldName": {
-          "FieldRight": {
-            "Mask": "FULL",
-            "Reason": ""
-          },
+          "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 761
+          "FieldLength": 545
         }
       }
     }
   ],
-  "ActiveLinks": 768,
+  "ActiveLinks": 639,
   "Completed": true,
-  "NextMilestoneDate": "2005-06-21T18:28:49.8701112+02:00",
-  "NmdAppointmentId": 665,
-  "EndDate": "1998-01-06T18:28:49.8701112+01:00",
-  "ActiveErpLinks": 872,
+  "NextMilestoneDate": "2008-08-14T11:10:27.5744521+02:00",
+  "NmdAppointmentId": 376,
+  "EndDate": "2021-07-31T11:10:27.5744521+02:00",
+  "ActiveErpLinks": 188,
   "UserDefinedFields": {
-    "SuperOffice:1": "1673332476",
-    "SuperOffice:2": "Dr. Kelly Jaskolski"
+    "SuperOffice:1": "Mr. Mabelle Treutel MD",
+    "SuperOffice:2": "Cortez Braun"
   },
   "ExtraFields": {
-    "ExtraFields1": "voluptates",
-    "ExtraFields2": "provident"
+    "ExtraFields1": "magnam",
+    "ExtraFields2": "blanditiis"
   },
   "CustomFields": {
-    "CustomFields1": "cumque",
-    "CustomFields2": "aut"
+    "CustomFields1": "quis",
+    "CustomFields2": "consequuntur"
   },
-  "PublishEventDate": "1995-11-20T18:28:49.8701112+01:00",
-  "PublishTo": "1999-07-29T18:28:49.8701112+02:00",
-  "PublishFrom": "2001-07-14T18:28:49.8701112+02:00",
+  "PublishEventDate": "2006-01-21T11:10:27.5744521+01:00",
+  "PublishTo": "2020-02-12T11:10:27.5744521+01:00",
+  "PublishFrom": "2007-05-30T11:10:27.5744521+02:00",
   "IsPublished": false,
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
-      "FieldType": "System.String",
-      "FieldLength": 564
+      "FieldRight": null,
+      "FieldType": "System.Int32",
+      "FieldLength": 211
     }
   }
 }

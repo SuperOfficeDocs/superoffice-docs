@@ -1,6 +1,6 @@
 ---
 title: PUT Selection/{id}/Criteria
-id: v1SelectionEntity_SetDynamicSelectionCriteria3
+uid: v1SelectionEntity_SetDynamicSelectionCriteria3
 ---
 
 # PUT Selection/{id}/Criteria
@@ -11,11 +11,17 @@ PUT /api/v1/Selection/{selectionId}/Criteria
 
 Update the criteria for this dynamic selection.
 
+
 Use criteria as either restriction objects or OData string format. Criteria are parsed from the OData filter form: ''name startswith 'foo' and category in (1,2,3)''
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | selectionId | int32 | The id of the selection to add members **Required** |
+
 
 ## Query String Parameters
 
@@ -26,6 +32,7 @@ Use criteria as either restriction objects or OData string format. Criteria are 
 ```http
 PUT /api/v1/Selection/{selectionId}/Criteria?$filter=name begins 'S'
 ```
+
 
 ## Request Headers
 
@@ -41,9 +48,9 @@ PUT /api/v1/Selection/{selectionId}/Criteria?$filter=name begins 'S'
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: criteria
+## Request Body: criteria  
 
-Criteria defining the selection result. Pass NULL if using the filter string instead.
+Criteria defining the selection result. Pass NULL if using the filter string instead. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -58,7 +65,10 @@ Criteria defining the selection result. Pass NULL if using the filter string ins
 | InterOperator | string |  |
 | UniqueHash | int32 |  |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -79,72 +89,60 @@ Response body: array
 | InterOperator | string |  |
 | UniqueHash | int32 |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 PUT /api/v1/Selection/{selectionId}/Criteria
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Schamberger LLC",
-    "Operator": "vero",
+    "Name": "Deckow-Grant",
+    "Operator": "nemo",
     "Values": [
-      "repudiandae",
-      "suscipit"
+      "distinctio",
+      "expedita"
     ],
     "DisplayValues": [
-      "eum",
-      "ut"
+      "sed",
+      "ducimus"
     ],
-    "ColumnInfo": {
-      "DisplayName": "Funk-Stoltenberg",
-      "DisplayTooltip": "numquam",
-      "DisplayType": "pariatur",
-      "CanOrderBy": true,
-      "Name": "Lebsack-Mitchell",
-      "CanRestrictBy": false,
-      "RestrictionType": "porro",
-      "RestrictionListName": "VonRueden LLC",
-      "IsVisible": true,
-      "ExtraInfo": "et",
-      "Width": "quidem",
-      "IconHint": "modi",
-      "HeadingIconHint": "aut"
-    },
-    "IsActive": false,
+    "ColumnInfo": null,
+    "IsActive": true,
     "SubRestrictions": [
       {
-        "Name": "Schmeler, Stehr and Ebert",
-        "Operator": "exercitationem",
+        "Name": "Spencer-Nader",
+        "Operator": "veniam",
         "Values": [
-          "ratione",
-          "provident"
+          "omnis",
+          "iusto"
         ],
         "DisplayValues": [
-          "illum",
-          "dolore"
+          "est",
+          "eum"
         ],
-        "ColumnInfo": {},
+        "ColumnInfo": null,
         "IsActive": false,
         "SubRestrictions": [
           {},
           {}
         ],
-        "InterParenthesis": 781,
+        "InterParenthesis": 907,
         "InterOperator": "And",
-        "UniqueHash": 966
+        "UniqueHash": 485
       }
     ],
-    "InterParenthesis": 746,
+    "InterParenthesis": 256,
     "InterOperator": "And",
-    "UniqueHash": 155
+    "UniqueHash": 633
   }
 ]
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -152,58 +150,44 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Mueller-Jacobson",
-    "Operator": "nulla",
+    "Name": "Goyette-Turner",
+    "Operator": "id",
     "Values": [
-      "excepturi",
-      "dicta"
+      "voluptas",
+      "cupiditate"
     ],
     "DisplayValues": [
-      "exercitationem",
-      "id"
+      "saepe",
+      "dignissimos"
     ],
-    "ColumnInfo": {
-      "DisplayName": "Runolfsdottir-Swift",
-      "DisplayTooltip": "magni",
-      "DisplayType": "in",
-      "CanOrderBy": false,
-      "Name": "Hirthe LLC",
-      "CanRestrictBy": false,
-      "RestrictionType": "dolor",
-      "RestrictionListName": "Windler LLC",
-      "IsVisible": false,
-      "ExtraInfo": "quae",
-      "Width": "excepturi",
-      "IconHint": "corporis",
-      "HeadingIconHint": "reprehenderit"
-    },
-    "IsActive": true,
+    "ColumnInfo": null,
+    "IsActive": false,
     "SubRestrictions": [
       {
-        "Name": "Kemmer, Beatty and Yundt",
-        "Operator": "amet",
+        "Name": "Fritsch-Metz",
+        "Operator": "excepturi",
         "Values": [
-          "quia",
-          "sapiente"
+          "qui",
+          "vero"
         ],
         "DisplayValues": [
-          "blanditiis",
-          "perspiciatis"
+          "minima",
+          "velit"
         ],
-        "ColumnInfo": {},
-        "IsActive": true,
+        "ColumnInfo": null,
+        "IsActive": false,
         "SubRestrictions": [
           {},
           {}
         ],
-        "InterParenthesis": 259,
+        "InterParenthesis": 804,
         "InterOperator": "And",
-        "UniqueHash": 774
+        "UniqueHash": 386
       }
     ],
-    "InterParenthesis": 36,
+    "InterParenthesis": 273,
     "InterOperator": "And",
-    "UniqueHash": 708
+    "UniqueHash": 547
   }
 ]
 ```

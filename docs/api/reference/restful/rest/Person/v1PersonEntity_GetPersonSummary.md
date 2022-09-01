@@ -1,6 +1,6 @@
 ---
 title: GET Person/{id}/Summary
-id: v1PersonEntity_GetPersonSummary
+uid: v1PersonEntity_GetPersonSummary
 ---
 
 # GET Person/{id}/Summary
@@ -11,9 +11,15 @@ GET /api/v1/Person/{personId}/Summary
 
 Get summary of person and recent activity.
 
+
+
+
+
+
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | personId | int32 | The person id to summarize. **Required** |
+
 
 ## Query String Parameters
 
@@ -22,8 +28,9 @@ Get summary of person and recent activity.
 | limit | int32 |  Max number of items to include in summary lists. |
 
 ```http
-GET /api/v1/Person/{personId}/Summary?limit=472
+GET /api/v1/Person/{personId}/Summary?limit=16
 ```
+
 
 ## Request Headers
 
@@ -38,18 +45,16 @@ GET /api/v1/Person/{personId}/Summary?limit=472
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response: object
 
-Summary of person, with recent activities, chats, and requests included.
+## Response: 
 
-Carrier object for PersonSummary.
-Services for the PersonSummary Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IPersonAgent">Person Agent</see>.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -60,146 +65,98 @@ Response body: object
 | Sales | array | Recent sales on person |
 | Chats | array | Recent chats with person |
 
-## Sample Request
+## Sample request
 
 ```http!
 GET /api/v1/Person/{personId}/Summary
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Person": {
-    "Position": "labore",
-    "PersonId": 650,
-    "Mrmrs": "repellendus",
-    "Firstname": "Syble",
-    "Lastname": "Hagenes",
-    "MiddleName": "Wuckert, Bergstrom and Abernathy",
-    "Title": "sunt",
-    "Description": "Reverse-engineered foreground moratorium",
-    "Email": "alena.turner@zieme.co.uk",
-    "FullName": "Miss Shad Rogahn",
-    "DirectPhone": "1-223-156-4022 x685",
-    "FormalName": "Morar, Murphy and Willms",
-    "CountryId": 497,
-    "ContactId": 476,
-    "ContactName": "Hammes-Heidenreich",
-    "Retired": 253,
-    "Rank": 104,
-    "ActiveInterests": 945,
-    "ContactDepartment": "",
-    "ContactCountryId": 171,
-    "ContactOrgNr": "781710",
-    "FaxPhone": "(005)367-5600",
-    "MobilePhone": "(547)685-2431 x23118",
-    "ContactPhone": "212.433.2163 x10782",
-    "AssociateName": "Keeling-Renner",
-    "AssociateId": 680,
-    "UsePersonAddress": false,
-    "ContactFax": "ea",
-    "Kanafname": "minus",
-    "Kanalname": "qui",
-    "Post1": "rerum",
-    "Post2": "fuga",
-    "Post3": "amet",
-    "EmailName": "rozella.kshlerin@kunze.com",
-    "ContactFullName": "Wallace Nienow",
-    "ActiveErpLinks": 346,
-    "TicketPriorityId": 190,
-    "SupportLanguageId": 670,
-    "SupportAssociateId": 420,
-    "CategoryName": "VIP Customer",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 433
-      }
-    }
-  },
+  "Person": null,
   "Tickets": [
     {
-      "TicketId": 509,
-      "TicketStatus": 76,
+      "TicketId": 439,
+      "TicketStatus": 646,
       "Title": "et",
-      "Registered": "2015-04-15T18:25:50.7315958+02:00"
+      "Registered": "2013-05-03T11:10:53.0311791+02:00",
+      "IconHint": "et"
     },
     {
-      "TicketId": 509,
-      "TicketStatus": 76,
+      "TicketId": 439,
+      "TicketStatus": 646,
       "Title": "et",
-      "Registered": "2015-04-15T18:25:50.7315958+02:00"
+      "Registered": "2013-05-03T11:10:53.0311791+02:00",
+      "IconHint": "et"
     }
   ],
   "Followups": [
     {
-      "AppointmentId": 534,
-      "DocumentId": 621,
-      "Date": "2004-07-09T18:25:50.7315958+02:00",
-      "Description": "Enterprise-wide disintermediate forecast",
+      "AppointmentId": 708,
+      "DocumentId": 641,
+      "Date": "2021-09-19T11:10:53.0311791+02:00",
+      "Description": "Universal client-server methodology",
       "Completed": "Completed",
-      "Registered": "1995-11-07T18:25:50.7315958+01:00"
+      "Registered": "2006-05-30T11:10:53.0311791+02:00"
     },
     {
-      "AppointmentId": 534,
-      "DocumentId": 621,
-      "Date": "2004-07-09T18:25:50.7315958+02:00",
-      "Description": "Enterprise-wide disintermediate forecast",
+      "AppointmentId": 708,
+      "DocumentId": 641,
+      "Date": "2021-09-19T11:10:53.0311791+02:00",
+      "Description": "Universal client-server methodology",
       "Completed": "Completed",
-      "Registered": "1995-11-07T18:25:50.7315958+01:00"
+      "Registered": "2006-05-30T11:10:53.0311791+02:00"
     }
   ],
   "Documents": [
     {
-      "AppointmentId": 38,
-      "DocumentId": 301,
-      "Date": "1996-07-13T18:25:50.7315958+02:00",
-      "Description": "Proactive responsive portal",
+      "AppointmentId": 623,
+      "DocumentId": 447,
+      "Date": "2005-07-24T11:10:53.0311791+02:00",
+      "Description": "Streamlined analyzing infrastructure",
       "Completed": "Completed",
-      "Registered": "2015-05-11T18:25:50.7315958+02:00"
+      "Registered": "2022-03-25T11:10:53.0311791+01:00"
     },
     {
-      "AppointmentId": 38,
-      "DocumentId": 301,
-      "Date": "1996-07-13T18:25:50.7315958+02:00",
-      "Description": "Proactive responsive portal",
+      "AppointmentId": 623,
+      "DocumentId": 447,
+      "Date": "2005-07-24T11:10:53.0311791+02:00",
+      "Description": "Streamlined analyzing infrastructure",
       "Completed": "Completed",
-      "Registered": "2015-05-11T18:25:50.7315958+02:00"
+      "Registered": "2022-03-25T11:10:53.0311791+01:00"
     }
   ],
   "Sales": [
     {
-      "SaleId": 462,
-      "SaleDate": "2004-10-06T18:25:50.7315958+02:00",
-      "Probability": 853,
-      "Heading": "ipsam",
-      "Amount": 12203.796,
-      "Currency": "veritatis",
-      "AmountInBaseCurrency": 24106.728,
+      "SaleId": 203,
+      "SaleDate": "2000-12-27T11:10:53.0311791+01:00",
+      "Probability": 712,
+      "Heading": "iure",
+      "Amount": 28190.329999999998,
+      "Currency": "illo",
+      "AmountInBaseCurrency": 24166.273999999998,
       "Status": "Lost",
       "Completed": "Completed",
-      "Registered": "2004-01-03T18:25:50.7315958+01:00"
+      "Registered": "2009-08-28T11:10:53.0321791+02:00"
     }
   ],
   "Chats": [
     {
-      "ChatSessionId": 971,
-      "Name": "Parker, Hartmann and Kunze",
-      "CompanyName": "Durgan Group",
-      "FirstMessage": "voluptatibus",
-      "LastMessage": "quaerat",
-      "WhenRequested": "1998-02-14T18:25:50.7315958+01:00",
-      "WhenEnded": "2003-02-08T18:25:50.7315958+01:00"
+      "ChatSessionId": 577,
+      "Name": "Kiehn, Roob and Littel",
+      "CompanyName": "Weimann Inc and Sons",
+      "FirstMessage": "quia",
+      "LastMessage": "consequuntur",
+      "WhenRequested": "1998-02-05T11:10:53.0321791+01:00",
+      "WhenEnded": "2008-04-09T11:10:53.0321791+02:00"
     }
   ]
 }

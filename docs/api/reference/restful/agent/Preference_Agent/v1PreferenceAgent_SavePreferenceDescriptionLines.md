@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Preference/SavePreferenceDescriptionLines
-id: v1PreferenceAgent_SavePreferenceDescriptionLines
+uid: v1PreferenceAgent_SavePreferenceDescriptionLines
 ---
 
 # POST Agents/Preference/SavePreferenceDescriptionLines
@@ -11,6 +11,12 @@ POST /api/v1/Agents/Preference/SavePreferenceDescriptionLines
 
 Saves the PreferenceDescriptionLine array in the SuperOffice database
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Saves the PreferenceDescriptionLine array in the SuperOffice database
 ```http
 POST /api/v1/Agents/Preference/SavePreferenceDescriptionLines?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,15 +42,18 @@ POST /api/v1/Agents/Preference/SavePreferenceDescriptionLines?$select=name,depar
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-PreferenceDescriptionLines
+PreferenceDescriptionLines 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | PreferenceDescriptionLines | array |  |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -62,36 +72,38 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Preference/SavePreferenceDescriptionLines
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "PreferenceDescriptionLines": [
     {
-      "PrefDescLineId": 392,
-      "PrefDescId": 709,
-      "PrefValue": "accusamus",
-      "PrefShowValue": "voluptatem",
-      "Description": "Open-source optimizing ability",
+      "PrefDescLineId": 424,
+      "PrefDescId": 949,
+      "PrefValue": "delectus",
+      "PrefShowValue": "quia",
+      "Description": "Distributed neutral portal",
       "IsBuiltin": false
     },
     {
-      "PrefDescLineId": 392,
-      "PrefDescId": 709,
-      "PrefValue": "accusamus",
-      "PrefShowValue": "voluptatem",
-      "Description": "Open-source optimizing ability",
+      "PrefDescLineId": 424,
+      "PrefDescId": 949,
+      "PrefValue": "delectus",
+      "PrefShowValue": "quia",
+      "Description": "Distributed neutral portal",
       "IsBuiltin": false
     }
   ]
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -99,24 +111,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PrefDescLineId": 264,
-    "PrefDescId": 392,
-    "PrefValue": "ipsum",
-    "PrefShowValue": "atque",
-    "Description": "Polarised maximized initiative",
-    "IsBuiltin": true,
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "PrefDescLineId": 270,
+    "PrefDescId": 385,
+    "PrefValue": "numquam",
+    "PrefShowValue": "corporis",
+    "Description": "Open-architected fault-tolerant database",
+    "IsBuiltin": false,
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 566
+        "FieldRight": null,
+        "FieldType": "System.Int32",
+        "FieldLength": 344
       }
     }
   }

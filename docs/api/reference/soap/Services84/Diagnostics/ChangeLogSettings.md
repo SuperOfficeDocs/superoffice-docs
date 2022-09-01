@@ -22,6 +22,8 @@ Change NetServer log settings.
 * **logToFile:** Log to file
 * **logToTrace:** Log to trace
 
+
+
 [WSDL file for Services84/Diagnostics](../Services84-Diagnostics.md)
 
 Obtain a ticket from the [Services84/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -61,6 +63,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## ChangeLogSettings Response
 
 ```xml
@@ -80,3 +83,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

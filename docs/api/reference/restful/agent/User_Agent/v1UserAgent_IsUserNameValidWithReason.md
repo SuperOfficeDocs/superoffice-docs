@@ -1,6 +1,6 @@
 ---
 title: POST Agents/User/IsUserNameValidWithReason
-id: v1UserAgent_IsUserNameValidWithReason
+uid: v1UserAgent_IsUserNameValidWithReason
 ---
 
 # POST Agents/User/IsUserNameValidWithReason
@@ -9,9 +9,15 @@ id: v1UserAgent_IsUserNameValidWithReason
 POST /api/v1/Agents/User/IsUserNameValidWithReason
 ```
 
-<br />
+<para />
 
-## Online Restricted: ## The User agent is not available in Online by default. User management is not allowed for partner apps
+
+## Online Restricted: ## The User agent is not available in Online by default. User management is not allowed for partner apps.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +28,7 @@ POST /api/v1/Agents/User/IsUserNameValidWithReason
 ```http
 POST /api/v1/Agents/User/IsUserNameValidWithReason?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,9 +44,9 @@ POST /api/v1/Agents/User/IsUserNameValidWithReason?$select=name,department,categ
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-AssociateId, Type, PersonId, UserName
+AssociateId, Type, PersonId, UserName 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -48,16 +55,16 @@ AssociateId, Type, PersonId, UserName
 | PersonId | int32 |  |
 | UserName | string |  |
 
-## Response: object
 
-Carrier object for UserValidationResult.
-Services for the UserValidationResult Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IUserAgent">User Agent</see>.
+## Response: 
+
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -66,22 +73,24 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/User/IsUserNameValidWithReason
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 270,
+  "AssociateId": 372,
   "Type": "AnonymousAssociate",
-  "PersonId": 913,
-  "UserName": "Larson Inc and Sons"
+  "PersonId": 64,
+  "UserName": "Pacocha Inc and Sons"
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -89,19 +98,13 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Reason": "",
-  "Result": true,
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "Result": false,
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
+      "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 286
+      "FieldLength": 754
     }
   }
 }

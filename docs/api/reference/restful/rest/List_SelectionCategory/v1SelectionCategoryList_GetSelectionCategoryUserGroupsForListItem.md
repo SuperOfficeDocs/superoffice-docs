@@ -1,6 +1,6 @@
 ---
 title: GET List/SelectionCategory/Items/{id}/UserGroups
-id: v1SelectionCategoryList_GetSelectionCategoryUserGroupsForListItem
+uid: v1SelectionCategoryList_GetSelectionCategoryUserGroupsForListItem
 ---
 
 # GET List/SelectionCategory/Items/{id}/UserGroups
@@ -11,11 +11,18 @@ GET /api/v1/List/SelectionCategory/Items/{itemId}/UserGroups
 
 Gets user groups visible for the SelectionCategory list's item.
 
+
 Calls the List agent service GetHeadings.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | itemId | int32 | The ID of the item to get. **Required** |
+
+
 
 ## Request Headers
 
@@ -30,7 +37,10 @@ Calls the List agent service GetHeadings.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -58,14 +68,16 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 GET /api/v1/List/SelectionCategory/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -73,65 +85,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 448,
-    "Name": "Macejkovic, Gutkowski and Braun",
-    "ToolTip": "Ipsa veritatis.",
+    "Id": 992,
+    "Name": "Johnson, Bruen and Mayert",
+    "ToolTip": "Harum enim ad.",
     "Deleted": false,
-    "Rank": 491,
-    "Type": "quia",
-    "ColorBlock": 384,
-    "IconHint": "magnam",
-    "Selected": true,
-    "LastChanged": "1999-05-18T18:25:52.2029862+02:00",
+    "Rank": 731,
+    "Type": "iusto",
+    "ColorBlock": 513,
+    "IconHint": "omnis",
+    "Selected": false,
+    "LastChanged": "2008-06-07T11:10:54.6239028+02:00",
     "ChildItems": [
       {
-        "Id": 462,
-        "Name": "Boyer, Crist and Jerde",
-        "ToolTip": "Dignissimos et corrupti qui adipisci esse nostrum.",
-        "Deleted": false,
-        "Rank": 878,
-        "Type": "quia",
-        "ColorBlock": 291,
-        "IconHint": "sunt",
-        "Selected": true,
-        "LastChanged": "2005-02-17T18:25:52.2029862+01:00",
+        "Id": 904,
+        "Name": "Pfeffer, Mosciski and Murphy",
+        "ToolTip": "Atque sed quia.",
+        "Deleted": true,
+        "Rank": 731,
+        "Type": "molestiae",
+        "ColorBlock": 126,
+        "IconHint": "beatae",
+        "Selected": false,
+        "LastChanged": "2012-05-13T11:10:54.6239028+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "et",
-        "StyleHint": "et",
+        "ExtraInfo": "deleniti",
+        "StyleHint": "quo",
         "Hidden": false,
-        "FullName": "Casey Kemmer",
-        "TableRight": {},
+        "FullName": "Lilian Huel",
+        "TableRight": null,
         "FieldProperties": {
           "fieldName": {
-            "FieldRight": {
-              "Mask": "FULL",
-              "Reason": ""
-            },
-            "FieldType": "System.Int32",
-            "FieldLength": 14
+            "FieldRight": null,
+            "FieldType": "System.String",
+            "FieldLength": 674
           }
         }
       }
     ],
-    "ExtraInfo": "aspernatur",
-    "StyleHint": "voluptate",
+    "ExtraInfo": "fugit",
+    "StyleHint": "totam",
     "Hidden": true,
-    "FullName": "Blaze O'Conner",
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "FullName": "Icie Daugherty",
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
+        "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 498
+        "FieldLength": 233
       }
     }
   }

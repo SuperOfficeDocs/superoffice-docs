@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "SaleType"
-so.date: 04.12.2022
+so.date: 08.26.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -49,6 +49,7 @@ Type of sale - large solution, incremental, whatever fits the organization
 |documentGroupingFields|Comma-separated names of grouping fields for quote lines, when generating the documents|String(59)|&#x25CF;|
 |archiveGroupingFields|Comma-separated names of grouping fields for quote lines, in the quote lines archive|String(59)|&#x25CF;|
 
+
 ![SaleType table relationship diagram](./media/SaleType.png)
 
 [!include[details](./includes/saletype.md)]
@@ -73,6 +74,8 @@ Type of sale - large solution, incremental, whatever fits the organization
 |[SaleTypeHeadingLink](saletypeheadinglink.md)  |Heading link table for SaleType, for MDO headers |
 |[SaleTypeQuoteAttachment](saletypequoteattachment.md)  |Default attachments to quotes linked to sales of this type |
 |[SaleTypeStageLink](saletypestagelink.md)  |Many-many link table between sale type and stage; and an anchor point for guide items |
+|[target\_dimension](target-dimension.md)  |Defining target dimension |
+
 
 ## Replication Flags
 
@@ -83,3 +86,4 @@ Type of sale - large solution, incremental, whatever fits the organization
 ## Security Flags
 
 * No access control via user's Role.
+

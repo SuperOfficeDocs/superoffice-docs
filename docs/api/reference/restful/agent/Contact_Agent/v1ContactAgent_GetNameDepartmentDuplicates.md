@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Contact/GetNameDepartmentDuplicates
-id: v1ContactAgent_GetNameDepartmentDuplicates
+uid: v1ContactAgent_GetNameDepartmentDuplicates
 ---
 
 # POST Agents/Contact/GetNameDepartmentDuplicates
@@ -11,6 +11,12 @@ POST /api/v1/Agents/Contact/GetNameDepartmentDuplicates
 
 Get duplicates based on the contact name and department
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Get duplicates based on the contact name and department
 ```http
 POST /api/v1/Agents/Contact/GetNameDepartmentDuplicates?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,16 +42,19 @@ POST /api/v1/Agents/Contact/GetNameDepartmentDuplicates?$select=name,department,
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-Name, Department
+Name, Department 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | Name | string |  |
 | Department | string |  |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -62,20 +72,22 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Contact/GetNameDepartmentDuplicates
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Krajcik LLC",
-  "Department": "reinvent end-to-end niches"
+  "Name": "Collins-Champlin",
+  "Department": ""
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -83,23 +95,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "RuleName": "Streich LLC",
-    "SoPrimaryKey": 894,
-    "EntryName": "Moen Inc and Sons",
-    "EntryIdentifier": "ut",
-    "RuleDisplayName": "Walker, Roob and Kozey",
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "RuleName": "Yost, Steuber and Kub",
+    "SoPrimaryKey": 695,
+    "EntryName": "Torphy Group",
+    "EntryIdentifier": "eligendi",
+    "RuleDisplayName": "Barrows, Balistreri and Halvorson",
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": "iterate enterprise supply-chains"
-        },
+        "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 306
+        "FieldLength": 398
       }
     }
   }

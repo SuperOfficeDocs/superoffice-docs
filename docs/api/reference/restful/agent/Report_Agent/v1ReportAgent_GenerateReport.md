@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Report/GenerateReport
-id: v1ReportAgent_GenerateReport
+uid: v1ReportAgent_GenerateReport
 ---
 
 # POST Agents/Report/GenerateReport
@@ -11,6 +11,12 @@ POST /api/v1/Agents/Report/GenerateReport
 
 Generates the report in PDF format
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Generates the report in PDF format
 ```http
 POST /api/v1/Agents/Report/GenerateReport?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,9 +42,9 @@ POST /api/v1/Agents/Report/GenerateReport?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-ReportId, LabelLayoutId, Filename, Language, FileType, Restrictions
+ReportId, LabelLayoutId, Filename, Language, FileType, Restrictions 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -48,7 +55,10 @@ ReportId, LabelLayoutId, Filename, Language, FileType, Restrictions
 | FileType | string |  |
 | Restrictions | array |  |
 
+
 ## Response: string
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -56,50 +66,53 @@ ReportId, LabelLayoutId, Filename, Language, FileType, Restrictions
 
 Response body: string
 
-## Sample Request
+
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Report/GenerateReport
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReportId": 421,
-  "LabelLayoutId": 760,
-  "Filename": "molestiae",
-  "Language": "aliquid",
-  "FileType": "et",
+  "ReportId": 886,
+  "LabelLayoutId": 327,
+  "Filename": "et",
+  "Language": "omnis",
+  "FileType": "velit",
   "Restrictions": [
     {
-      "Name": "Renner LLC",
-      "Operator": "quae",
+      "Name": "Hilpert Inc and Sons",
+      "Operator": "cumque",
       "Values": [
-        "dolor",
-        "eum"
+        "culpa",
+        "libero"
       ],
       "DisplayValues": [
-        "ut",
-        "voluptatem"
+        "maiores",
+        "rerum"
       ],
-      "ColumnInfo": {},
-      "IsActive": false,
+      "ColumnInfo": null,
+      "IsActive": true,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 457,
+      "InterParenthesis": 537,
       "InterOperator": "And",
-      "UniqueHash": 688
+      "UniqueHash": 828
     }
   ]
 }
 ```
 
+## Sample response
+
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"ut"
+"sequi"
 ```

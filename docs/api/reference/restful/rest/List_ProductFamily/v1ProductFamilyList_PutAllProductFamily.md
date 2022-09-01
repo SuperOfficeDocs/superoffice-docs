@@ -1,6 +1,6 @@
 ---
 title: PUT List/ProductFamily/Items
-id: v1ProductFamilyList_PutAllProductFamily
+uid: v1ProductFamilyList_PutAllProductFamily
 ---
 
 # PUT List/ProductFamily/Items
@@ -10,6 +10,13 @@ PUT /api/v1/List/ProductFamily/Items
 ```
 
 Update the ProductFamily list
+
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -25,9 +32,9 @@ Update the ProductFamily list
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: listItems
+## Request Body: listItems  
 
-All the updated ProductFamily.
+All the updated ProductFamily. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -38,7 +45,10 @@ All the updated ProductFamily.
 | UdListDefinitionId | int32 | The id of the list which this list item belongs to |
 | Rank | int32 | The rank of the list item |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -57,34 +67,36 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 PUT /api/v1/List/ProductFamily/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 619,
-    "Name": "Wilkinson Group",
-    "Tooltip": "sit",
+    "Id": 945,
+    "Name": "Dickinson, Bahringer and Koch",
+    "Tooltip": "quas",
     "Deleted": false,
-    "UdListDefinitionId": 327,
-    "Rank": 842
+    "UdListDefinitionId": 291,
+    "Rank": 935
   },
   {
-    "Id": 619,
-    "Name": "Wilkinson Group",
-    "Tooltip": "sit",
+    "Id": 945,
+    "Name": "Dickinson, Bahringer and Koch",
+    "Tooltip": "quas",
     "Deleted": false,
-    "UdListDefinitionId": 327,
-    "Rank": 842
+    "UdListDefinitionId": 291,
+    "Rank": 935
   }
 ]
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -92,24 +104,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 118,
-    "Name": "Johnson-Botsford",
-    "Tooltip": "quibusdam",
-    "Deleted": false,
-    "UdListDefinitionId": 324,
-    "Rank": 900,
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "Id": 215,
+    "Name": "Blanda Inc and Sons",
+    "Tooltip": "et",
+    "Deleted": true,
+    "UdListDefinitionId": 402,
+    "Rank": 331,
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
+        "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 139
+        "FieldLength": 492
       }
     }
   }

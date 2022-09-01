@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Project/SaveProjectMember
-id: v1ProjectAgent_SaveProjectMember
+uid: v1ProjectAgent_SaveProjectMember
 ---
 
 # POST Agents/Project/SaveProjectMember
@@ -10,6 +10,13 @@ POST /api/v1/Agents/Project/SaveProjectMember
 ```
 
 Updates the existing ProjectMember or creates a new ProjectMember if the id parameter is empty
+
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -25,9 +32,9 @@ Updates the existing ProjectMember or creates a new ProjectMember if the id para
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entity
+## Request Body: entity  
 
-The ProjectMember to be saved.
+The ProjectMember to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -48,23 +55,21 @@ The ProjectMember to be saved.
 | ProjectMemberTypeName | string | The projectmembers type name: 'secretary', 'member', etc. |
 | Phone | string | Phone number |
 | PhoneId | int32 | The phone id |
-| ProjectMemberTypeId | int32 | ProjectMember Type Id - from the ProjectMemberType list.  <br />Use MDO List name "PMembType" to get list items. |
+| ProjectMemberTypeId | int32 | ProjectMember Type Id - from the ProjectMemberType list.  <para>Use MDO List name "PMembType" to get list items.</para> |
 | EmailAddressName | string | The e-mail address description |
 | Comment | string | Comment text on the project membership |
 | FullName | string | The person's full name localized to the current culture/country.  (internal name used in clients for employees) |
 
-## Response: object
 
-A person can be a member of multiple projects, with a different comment and member type in each project.
+## Response: 
 
-Carrier object for ProjectMember.
-Services for the ProjectMember Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IProjectAgent">Project Agent</see>.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -85,85 +90,81 @@ Response body: object
 | ProjectMemberTypeName | string | The projectmembers type name: 'secretary', 'member', etc. |
 | Phone | string | Phone number |
 | PhoneId | int32 | The phone id |
-| ProjectMemberTypeId | int32 | ProjectMember Type Id - from the ProjectMemberType list.  <br />Use MDO List name "PMembType" to get list items. |
+| ProjectMemberTypeId | int32 | ProjectMember Type Id - from the ProjectMemberType list.  <para>Use MDO List name "PMembType" to get list items.</para> |
 | EmailAddressName | string | The e-mail address description |
 | Comment | string | Comment text on the project membership |
 | FullName | string | The person's full name localized to the current culture/country.  (internal name used in clients for employees) |
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Project/SaveProjectMember
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectmemberId": 913,
-  "ContactId": 416,
-  "ProjectId": 187,
-  "ContactName": "Hauck, Greenholt and Huel",
+  "ProjectmemberId": 616,
+  "ContactId": 119,
+  "ProjectId": 803,
+  "ContactName": "Shanahan, Weber and Hayes",
   "ContactDepartment": "",
-  "ProjectName": "Zemlak Inc and Sons",
-  "EmailId": 649,
-  "EmailAddress": "marlen@sauer.us",
-  "CountryId": 458,
-  "Firstname": "Ubaldo",
-  "MiddleName": "Miller, Bogan and Considine",
-  "Lastname": "Walker",
-  "PersonId": 595,
-  "Mrmrs": "numquam",
-  "ProjectMemberTypeName": "Haley Group",
-  "Phone": "1-063-344-6103",
-  "PhoneId": 804,
-  "ProjectMemberTypeId": 266,
-  "EmailAddressName": "tressa_renner@bayer.uk",
-  "Comment": "nihil",
-  "FullName": "Ernestine Baumbach"
+  "ProjectName": "Hessel, Lemke and Jaskolski",
+  "EmailId": 88,
+  "EmailAddress": "evan_ward@ferry.co.uk",
+  "CountryId": 516,
+  "Firstname": "Domenic",
+  "MiddleName": "Dibbert, Koelpin and Jerde",
+  "Lastname": "Kshlerin",
+  "PersonId": 525,
+  "Mrmrs": "illo",
+  "ProjectMemberTypeName": "Barrows, Mitchell and Waelchi",
+  "Phone": "(880)615-7866",
+  "PhoneId": 768,
+  "ProjectMemberTypeId": 716,
+  "EmailAddressName": "mariah.buckridge@gutmann.uk",
+  "Comment": "aliquam",
+  "FullName": "Ms. Tierra Schamberger"
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectmemberId": 801,
-  "ContactId": 341,
-  "ProjectId": 78,
-  "ContactName": "Medhurst Group",
+  "ProjectmemberId": 82,
+  "ContactId": 355,
+  "ProjectId": 4,
+  "ContactName": "Gerhold Group",
   "ContactDepartment": "",
-  "ProjectName": "Gibson-Wintheiser",
-  "EmailId": 272,
-  "EmailAddress": "laura_paucek@ward.info",
-  "CountryId": 48,
-  "Firstname": "Montana",
-  "MiddleName": "D'Amore-Lind",
-  "Lastname": "Mayert",
-  "PersonId": 570,
-  "Mrmrs": "ipsam",
-  "ProjectMemberTypeName": "Abbott Group",
-  "Phone": "848.016.7318 x777",
-  "PhoneId": 917,
-  "ProjectMemberTypeId": 948,
-  "EmailAddressName": "sabina@torphy.us",
-  "Comment": "rerum",
-  "FullName": "Micheal Armstrong",
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "ProjectName": "Kunde, Feil and Stanton",
+  "EmailId": 190,
+  "EmailAddress": "herta@klocko.ca",
+  "CountryId": 960,
+  "Firstname": "Luigi",
+  "MiddleName": "Welch-Lind",
+  "Lastname": "Grady",
+  "PersonId": 166,
+  "Mrmrs": "ratione",
+  "ProjectMemberTypeName": "Gerlach, Yundt and DuBuque",
+  "Phone": "077-923-3712 x992",
+  "PhoneId": 827,
+  "ProjectMemberTypeId": 623,
+  "EmailAddressName": "chet@huels.us",
+  "Comment": "dolor",
+  "FullName": "Loma Crystal Maggio I",
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": "productize real-time infrastructures"
-      },
+      "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 453
+      "FieldLength": 159
     }
   }
 }

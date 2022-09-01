@@ -1,6 +1,6 @@
 ---
 title: POST Agents/List/GetAllSaleTypeEntities
-id: v1ListAgent_GetAllSaleTypeEntities
+uid: v1ListAgent_GetAllSaleTypeEntities
 ---
 
 # POST Agents/List/GetAllSaleTypeEntities
@@ -11,6 +11,12 @@ POST /api/v1/Agents/List/GetAllSaleTypeEntities
 
 Returns all sale types as entities with stakeholders, guide and quote properties
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Returns all sale types as entities with stakeholders, guide and quote properties
 ```http
 POST /api/v1/Agents/List/GetAllSaleTypeEntities?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,15 +42,18 @@ POST /api/v1/Agents/List/GetAllSaleTypeEntities?$select=name,department,category
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-IncludeDeleted
+IncludeDeleted 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | IncludeDeleted | bool |  |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -74,23 +84,25 @@ Response body: array
 | MinEarningPercent | int32 | The minimum earning in percent of total, if set, on quotes linked to sales of this type |
 | GroupQuoteLinesBy | int32 | Group quote lines by this field |
 | SortGroupLinesBy | int32 | Sort group lines by this field |
-| Stages | array | Stages, those associated with this SaleType are selected.  <br />Use MDO List name "salestage" to get list items. |
+| Stages | array | Stages, those associated with this SaleType are selected.  <para>Use MDO List name "salestage" to get list items.</para> |
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/List/GetAllSaleTypeEntities
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "IncludeDeleted": true
+  "IncludeDeleted": false
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -98,72 +110,63 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "SaleTypeId": 683,
-    "Name": "Wolf-Hickle",
-    "Tooltip": "qui",
-    "Rank": 490,
+    "SaleTypeId": 40,
+    "Name": "Wolf, Schaefer and Hegmann",
+    "Tooltip": "atque",
+    "Rank": 225,
     "DurationUnit": "Century",
-    "SaleDuration": 367,
-    "SaleTypeCatId": 929,
+    "SaleDuration": 732,
+    "SaleTypeCatId": 340,
     "Deleted": false,
-    "HasGuide": false,
+    "HasGuide": true,
     "HasStakeholders": true,
     "IsAutoAdvance": false,
-    "AllowQuoteAlternatives": true,
-    "DefaultQuoteValidity": 989,
-    "QuoteLinesTemplate": 155,
-    "ConfirmationLinesTemplate": 568,
-    "MaxDiscountPercentSet": true,
-    "MinEarningPercentSet": true,
-    "MaxDiscountPercent": 324,
-    "MinEarningPercent": 51,
-    "GroupQuoteLinesBy": 676,
-    "SortGroupLinesBy": 452,
+    "AllowQuoteAlternatives": false,
+    "DefaultQuoteValidity": 396,
+    "QuoteLinesTemplate": 257,
+    "ConfirmationLinesTemplate": 764,
+    "MaxDiscountPercentSet": false,
+    "MinEarningPercentSet": false,
+    "MaxDiscountPercent": 966,
+    "MinEarningPercent": 192,
+    "GroupQuoteLinesBy": 460,
+    "SortGroupLinesBy": 222,
     "Stages": [
       {
-        "Id": 782,
-        "Name": "Simonis, Homenick and Feeney",
-        "ToolTip": "Vero aut et delectus adipisci commodi praesentium.",
-        "Deleted": false,
-        "Rank": 43,
-        "Type": "aut",
-        "ColorBlock": 199,
-        "IconHint": "dolor",
+        "Id": 155,
+        "Name": "Champlin, Hyatt and Steuber",
+        "ToolTip": "Debitis accusantium in reiciendis asperiores soluta laboriosam nam.",
+        "Deleted": true,
+        "Rank": 48,
+        "Type": "non",
+        "ColorBlock": 832,
+        "IconHint": "assumenda",
         "Selected": true,
-        "LastChanged": "2011-06-26T18:28:49.2621308+02:00",
+        "LastChanged": "1996-10-05T11:10:27.1504524+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "voluptates",
-        "StyleHint": "molestiae",
+        "ExtraInfo": "enim",
+        "StyleHint": "a",
         "Hidden": true,
-        "FullName": "Demarco O'Hara",
-        "TableRight": {},
+        "FullName": "Mrs. Ken Stamm",
+        "TableRight": null,
         "FieldProperties": {
           "fieldName": {
-            "FieldRight": {
-              "Mask": "FULL",
-              "Reason": ""
-            },
+            "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 525
+            "FieldLength": 71
           }
         }
       }
     ],
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": "synergize web-enabled markets"
-        },
-        "FieldType": "System.String",
-        "FieldLength": 719
+        "FieldRight": null,
+        "FieldType": "System.Int32",
+        "FieldLength": 192
       }
     }
   }

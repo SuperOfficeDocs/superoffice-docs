@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Configuration/GetMyWindowPosSizes
-id: v1ConfigurationAgent_GetMyWindowPosSizes
+uid: v1ConfigurationAgent_GetMyWindowPosSizes
 ---
 
 # POST Agents/Configuration/GetMyWindowPosSizes
@@ -11,6 +11,12 @@ POST /api/v1/Agents/Configuration/GetMyWindowPosSizes
 
 Gets the window and dialog position and size settings belonging to the currently logged on user
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Gets the window and dialog position and size settings belonging to the currently
 ```http
 POST /api/v1/Agents/Configuration/GetMyWindowPosSizes?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -34,7 +41,10 @@ POST /api/v1/Agents/Configuration/GetMyWindowPosSizes?$select=name,department,ca
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -58,14 +68,16 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Configuration/GetMyWindowPosSizes
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -73,29 +85,23 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "OwnerWindow": "voluptas",
-    "PersonId": 12,
-    "AssociateId": 185,
-    "ExtraId": 127,
-    "ExtraInfo": "libero",
-    "Height": 355,
-    "LeftX": 910,
+    "OwnerWindow": "iure",
+    "PersonId": 949,
+    "AssociateId": 851,
+    "ExtraId": 177,
+    "ExtraInfo": "maiores",
+    "Height": 618,
+    "LeftX": 452,
     "State": "Maximized",
-    "UpperY": 666,
-    "Width": 436,
-    "WindowPosSizeId": 974,
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "UpperY": 144,
+    "Width": 594,
+    "WindowPosSizeId": 989,
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 381
+        "FieldRight": null,
+        "FieldType": "System.Int32",
+        "FieldLength": 802
       }
     }
   }

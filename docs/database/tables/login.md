@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "login"
-so.date: 04.12.2022
+so.date: 08.26.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -15,7 +15,7 @@ so.envir:
 
 # login Table (297)
 
-This table contains entries for the user sessions.
+This table contains entries for the user sessions. 
 
 ## Fields
 
@@ -33,8 +33,9 @@ This table contains entries for the user sessions.
 |error\_message|Stores the last error message recorded on this session|String(255)|&#x25CF;|
 |authentication\_type|The authentication type (enum) for this session.|authentication_type|&#x25CF;|
 |active\_menu|The currently active (open) left-menu for this session.|Int|&#x25CF;|
-|ns\_secret|NetServer login secret.|String(255)|&#x25CF;|
+|ns\_secret|Netserver login secret.|String(255)|&#x25CF;|
 |flags|Bitmask of flags for a service login session|Enum [LoginFlags](enums/loginflags.md)|&#x25CF;|
+
 
 ![login table relationship diagram](./media/login.png)
 
@@ -59,6 +60,7 @@ This table contains entries for the user sessions.
 |[invoice\_sum](invoice-sum.md)  |This table is used temporarily when listing invoice statistics. It is used because we need to sort balances from both customers and companies. |
 |[session\_object](session-object.md)  |Generic session object, accessible from ejscript etc, typically xml or name=value syntax, may be stored over several rows if big |
 
+
 ## Replication Flags
 
 * None
@@ -66,3 +68,4 @@ This table contains entries for the user sessions.
 ## Security Flags
 
 * No access control via user's Role.
+

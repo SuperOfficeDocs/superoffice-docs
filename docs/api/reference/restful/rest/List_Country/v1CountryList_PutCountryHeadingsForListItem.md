@@ -1,6 +1,6 @@
 ---
 title: PUT List/Country/Items/{id}/Headings
-id: v1CountryList_PutCountryHeadingsForListItem
+uid: v1CountryList_PutCountryHeadingsForListItem
 ---
 
 # PUT List/Country/Items/{id}/Headings
@@ -11,11 +11,18 @@ PUT /api/v1/List/Country/Items/{itemId}/Headings
 
 Saves headings for the Country list's item.
 
+
 Calls the List agent service SaveHeadingsForListItemFromListDefinition.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | itemId | int32 | The ID of the headings to be saved. **Required** |
+
+
 
 ## Request Headers
 
@@ -31,9 +38,9 @@ Calls the List agent service SaveHeadingsForListItemFromListDefinition.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entities
+## Request Body: entities  
 
-The headings to be saved.
+The headings to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -53,7 +60,10 @@ The headings to be saved.
 | Hidden | bool | True if the ListItem is hidden |
 | FullName | string | The name of the ListItem in its context |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -81,56 +91,58 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 PUT /api/v1/List/Country/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 980,
-    "Name": "Mertz-Borer",
-    "ToolTip": "Praesentium aliquid.",
+    "Id": 301,
+    "Name": "Douglas Inc and Sons",
+    "ToolTip": "Cupiditate provident tenetur id.",
     "Deleted": true,
-    "Rank": 65,
-    "Type": "sint",
-    "ColorBlock": 83,
-    "IconHint": "qui",
+    "Rank": 202,
+    "Type": "eaque",
+    "ColorBlock": 468,
+    "IconHint": "adipisci",
     "Selected": true,
-    "LastChanged": "2021-03-31T18:25:51.7563301+02:00",
+    "LastChanged": "2007-08-14T11:10:54.0221855+02:00",
     "ChildItems": [
       {
-        "Id": 80,
-        "Name": "Jacobs-O'Connell",
-        "ToolTip": "Eius et dicta velit facere aut at.",
+        "Id": 526,
+        "Name": "Kuhic, Johnson and Crist",
+        "ToolTip": "Sapiente asperiores porro totam nostrum.",
         "Deleted": false,
-        "Rank": 104,
-        "Type": "non",
-        "ColorBlock": 61,
-        "IconHint": "quod",
-        "Selected": true,
-        "LastChanged": "2021-04-03T18:25:51.7563301+02:00",
+        "Rank": 98,
+        "Type": "quo",
+        "ColorBlock": 799,
+        "IconHint": "maiores",
+        "Selected": false,
+        "LastChanged": "2007-11-03T11:10:54.0221855+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "optio",
-        "StyleHint": "enim",
+        "ExtraInfo": "voluptas",
+        "StyleHint": "voluptatem",
         "Hidden": false,
-        "FullName": "Dr. Audreanne Walker"
+        "FullName": "Elsie McClure"
       }
     ],
-    "ExtraInfo": "voluptatum",
-    "StyleHint": "maiores",
-    "Hidden": false,
-    "FullName": "Kailee Thiel IV"
+    "ExtraInfo": "mollitia",
+    "StyleHint": "omnis",
+    "Hidden": true,
+    "FullName": "Miss Cayla Sherwood Schimmel"
   }
 ]
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -138,65 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 879,
-    "Name": "Spencer-Stamm",
-    "ToolTip": "Aperiam corrupti.",
-    "Deleted": false,
-    "Rank": 528,
-    "Type": "cupiditate",
-    "ColorBlock": 738,
-    "IconHint": "consequatur",
+    "Id": 572,
+    "Name": "Heathcote LLC",
+    "ToolTip": "Perspiciatis veniam rerum a fugit.",
+    "Deleted": true,
+    "Rank": 712,
+    "Type": "quia",
+    "ColorBlock": 297,
+    "IconHint": "in",
     "Selected": true,
-    "LastChanged": "2005-11-11T18:25:51.757334+01:00",
+    "LastChanged": "2003-12-25T11:10:54.0241851+01:00",
     "ChildItems": [
       {
-        "Id": 233,
-        "Name": "Bradtke Group",
-        "ToolTip": "Natus modi rerum.",
-        "Deleted": false,
-        "Rank": 433,
-        "Type": "repellat",
-        "ColorBlock": 252,
-        "IconHint": "error",
-        "Selected": true,
-        "LastChanged": "2006-09-02T18:25:51.757334+02:00",
+        "Id": 391,
+        "Name": "Hirthe-Kuhlman",
+        "ToolTip": "Dicta fugiat temporibus aut molestiae.",
+        "Deleted": true,
+        "Rank": 721,
+        "Type": "ducimus",
+        "ColorBlock": 383,
+        "IconHint": "mollitia",
+        "Selected": false,
+        "LastChanged": "1998-12-12T11:10:54.0241851+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "nihil",
-        "StyleHint": "veritatis",
+        "ExtraInfo": "corporis",
+        "StyleHint": "consequuntur",
         "Hidden": false,
-        "FullName": "Murray Kunze",
-        "TableRight": {},
+        "FullName": "Elena Sanford Sr.",
+        "TableRight": null,
         "FieldProperties": {
           "fieldName": {
-            "FieldRight": {
-              "Mask": "FULL",
-              "Reason": ""
-            },
+            "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 20
+            "FieldLength": 151
           }
         }
       }
     ],
-    "ExtraInfo": "iure",
-    "StyleHint": "nemo",
+    "ExtraInfo": "quidem",
+    "StyleHint": "nihil",
     "Hidden": false,
-    "FullName": "Chad Ledner",
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "FullName": "Armand Schmeler",
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
+        "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 329
+        "FieldLength": 284
       }
     }
   }

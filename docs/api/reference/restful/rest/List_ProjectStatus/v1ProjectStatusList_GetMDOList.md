@@ -1,6 +1,6 @@
 ---
 title: GET List/ProjectStatus/MDOItems
-id: v1ProjectStatusList_GetMDOList
+uid: v1ProjectStatusList_GetMDOList
 ---
 
 # GET List/ProjectStatus/MDOItems
@@ -11,6 +11,12 @@ GET /api/v1/List/ProjectStatus/MDOItems
 
 Get the MDO list items for "ProjStatus" - with headings and filtering by user group.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,8 +26,9 @@ Get the MDO list items for "ProjStatus" - with headings and filtering by user gr
 
 ```http
 GET /api/v1/List/ProjectStatus/MDOItems?flat=True
-GET /api/v1/List/ProjectStatus/MDOItems?query=consectetur
+GET /api/v1/List/ProjectStatus/MDOItems?query=doloremque
 ```
+
 
 ## Request Headers
 
@@ -36,7 +43,10 @@ GET /api/v1/List/ProjectStatus/MDOItems?query=consectetur
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -61,14 +71,16 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 GET /api/v1/List/ProjectStatus/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -76,59 +88,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 118,
-    "Name": "Ullrich, Bruen and Harris",
-    "ToolTip": "Nihil dolores nostrum vel expedita.",
-    "Deleted": false,
-    "Rank": 203,
-    "Type": "porro",
+    "Id": 116,
+    "Name": "Schuppe, Rolfson and Thompson",
+    "ToolTip": "Ut voluptates unde esse.",
+    "Deleted": true,
+    "Rank": 883,
+    "Type": "tempora",
     "ChildItems": [
       {
-        "Id": 634,
-        "Name": "Mraz-Fahey",
-        "ToolTip": "Occaecati omnis et.",
-        "Deleted": false,
-        "Rank": 264,
-        "Type": "asperiores",
+        "Id": 349,
+        "Name": "Turner-Hintz",
+        "ToolTip": "Earum nisi tenetur quo consequatur.",
+        "Deleted": true,
+        "Rank": 629,
+        "Type": "minus",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "totam",
-        "ColorBlock": 947,
-        "ExtraInfo": "et",
-        "StyleHint": "reprehenderit",
-        "FullName": "Shad Schinner",
-        "TableRight": {},
+        "IconHint": "veniam",
+        "ColorBlock": 622,
+        "ExtraInfo": "laboriosam",
+        "StyleHint": "voluptas",
+        "FullName": "Prof. Elmo Ally McClure",
+        "TableRight": null,
         "FieldProperties": {
           "fieldName": {
-            "FieldRight": {
-              "Mask": "FULL",
-              "Reason": ""
-            },
-            "FieldType": "System.Int32",
-            "FieldLength": 985
+            "FieldRight": null,
+            "FieldType": "System.String",
+            "FieldLength": 369
           }
         }
       }
     ],
-    "IconHint": "eligendi",
-    "ColorBlock": 539,
-    "ExtraInfo": "ea",
-    "StyleHint": "et",
-    "FullName": "America Hartmann",
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "IconHint": "doloremque",
+    "ColorBlock": 130,
+    "ExtraInfo": "laboriosam",
+    "StyleHint": "veritatis",
+    "FullName": "Dr. Virginie Koepp DVM",
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 694
+        "FieldRight": null,
+        "FieldType": "System.Int32",
+        "FieldLength": 928
       }
     }
   }

@@ -1,6 +1,6 @@
 ---
 title: POST Agents/List/GetAllTicketPriorities
-id: v1ListAgent_GetAllTicketPriorities
+uid: v1ListAgent_GetAllTicketPriorities
 ---
 
 # POST Agents/List/GetAllTicketPriorities
@@ -11,6 +11,12 @@ POST /api/v1/Agents/List/GetAllTicketPriorities
 
 Returns all available ticket priorities.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Returns all available ticket priorities.
 ```http
 POST /api/v1/Agents/List/GetAllTicketPriorities?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,15 +42,18 @@ POST /api/v1/Agents/List/GetAllTicketPriorities?$select=name,department,category
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-IncludeDeleted
+IncludeDeleted 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | IncludeDeleted | bool |  |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -79,18 +89,18 @@ Response body: array
 | SatStop | date-time | The work hour stop for Saturdays. Note that only the time part of the DateTime is used |
 | SunStart | date-time | The work hour start for Sundays. Note that only the time part of the DateTime is used |
 | SunStop | date-time | The work hour stop for Sundays. Note that only the time part of the DateTime is used |
-| NonDates | array | Dates which the escalation time should not be running. Note that only the day of the year (day and month) is used. So the year and time part is not used even if this is a DateTime |
+| NonDates | array | Dates which the escalation time should not be running. Note that only the day of the year (day and month) is used. So the year and time part is not used even if this is a DateTime. Exception - it IS possible to include a year here, for dates that should not repeat every year |
 | EscalationLevels | array | Escalation levels bound to the parent priority |
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/List/GetAllTicketPriorities
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
@@ -98,85 +108,78 @@ Content-Type: application/json; charset=utf-8
 }
 ```
 
+## Sample response
+
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TicketPriorityId": 661,
-    "Name": "Welch Group",
+    "TicketPriorityId": 393,
+    "Name": "Kihn LLC",
     "Status": "Deleted",
     "Flags": "AlertSchedule",
-    "SortOrder": 372,
+    "SortOrder": 793,
     "TicketRead": "Continue",
     "ChangedOwner": "Continue",
     "TicketNewinfo": "Continue",
     "TicketClosed": "Continue",
     "TicketChangedPriority": "Continue",
     "TicketNew": "Continue",
-    "Deadline": 956,
-    "MonStart": "2009-03-25T18:28:49.2491228+01:00",
-    "MonStop": "2005-10-15T18:28:49.2491228+02:00",
-    "TueStart": "2020-03-05T18:28:49.2491228+01:00",
-    "TueStop": "2005-09-03T18:28:49.2491228+02:00",
-    "WedStart": "2017-08-31T18:28:49.2491228+02:00",
-    "WedStop": "1997-01-13T18:28:49.2491228+01:00",
-    "ThuStart": "1996-06-08T18:28:49.2491228+02:00",
-    "ThuStop": "2002-05-11T18:28:49.2491228+02:00",
-    "FriStart": "2019-01-29T18:28:49.2491228+01:00",
-    "FriStop": "2013-05-18T18:28:49.2491228+02:00",
-    "SatStart": "2015-09-06T18:28:49.2491228+02:00",
-    "SatStop": "2005-11-03T18:28:49.2491228+01:00",
-    "SunStart": "1996-07-05T18:28:49.2491228+02:00",
-    "SunStop": "2001-12-29T18:28:49.2491228+01:00",
+    "Deadline": 485,
+    "MonStart": "2005-04-07T11:10:27.1254532+02:00",
+    "MonStop": "2015-05-16T11:10:27.1254532+02:00",
+    "TueStart": "2003-07-08T11:10:27.1254532+02:00",
+    "TueStop": "2018-03-15T11:10:27.1254532+01:00",
+    "WedStart": "1995-12-26T11:10:27.1254532+01:00",
+    "WedStop": "2006-12-03T11:10:27.1254532+01:00",
+    "ThuStart": "2003-12-16T11:10:27.1254532+01:00",
+    "ThuStop": "2019-02-28T11:10:27.1254532+01:00",
+    "FriStart": "2018-03-07T11:10:27.1254532+01:00",
+    "FriStop": "1995-10-26T11:10:27.1254532+02:00",
+    "SatStart": "2010-10-29T11:10:27.1254532+02:00",
+    "SatStop": "2003-10-23T11:10:27.1254532+02:00",
+    "SunStart": "2016-10-10T11:10:27.1254532+02:00",
+    "SunStop": "2011-07-25T11:10:27.1254532+02:00",
     "NonDates": [
-      "soluta",
-      "labore"
+      "ducimus",
+      "est"
     ],
     "EscalationLevels": [
       {
-        "TicketAlertId": 651,
-        "AlertLevel": 82,
-        "AlertTimeout": 669,
-        "Action": 896,
-        "DelegateTo": 196,
-        "ScriptId": 771,
-        "EmailTo": "monroe@schoenlesch.ca",
-        "SmsTo": "molestiae",
-        "ReplyTemplateIdCustomer": 35,
-        "ReplyTemplateIdUser": 70,
-        "ReplyTemplateIdCatmast": 45,
-        "ReplyTemplateIdEmail": 598,
-        "RtiCustomerSms": 366,
-        "ReplyTemplateIdUserSms": 667,
-        "ReplyTemplateIdCatmastSms": 157,
-        "ReplyTemplateIdSms": 419,
-        "TableRight": {},
+        "TicketAlertId": 78,
+        "AlertLevel": 22,
+        "AlertTimeout": 836,
+        "Action": 130,
+        "DelegateTo": 2,
+        "ScriptId": 355,
+        "EmailTo": "helena.treutel@jacobson.co.uk",
+        "SmsTo": "ut",
+        "ReplyTemplateIdCustomer": 825,
+        "ReplyTemplateIdUser": 762,
+        "ReplyTemplateIdCatmast": 681,
+        "ReplyTemplateIdEmail": 355,
+        "RtiCustomerSms": 547,
+        "ReplyTemplateIdUserSms": 416,
+        "ReplyTemplateIdCatmastSms": 485,
+        "ReplyTemplateIdSms": 33,
+        "TableRight": null,
         "FieldProperties": {
           "fieldName": {
-            "FieldRight": {
-              "Mask": "FULL",
-              "Reason": ""
-            },
-            "FieldType": "System.Int32",
-            "FieldLength": 634
+            "FieldRight": null,
+            "FieldType": "System.String",
+            "FieldLength": 880
           }
         }
       }
     ],
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
+        "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 589
+        "FieldLength": 615
       }
     }
   }

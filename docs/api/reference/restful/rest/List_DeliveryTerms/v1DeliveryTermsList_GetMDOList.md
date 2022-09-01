@@ -1,6 +1,6 @@
 ---
 title: GET List/DeliveryTerm/MDOItems
-id: v1DeliveryTermsList_GetMDOList
+uid: v1DeliveryTermsList_GetMDOList
 ---
 
 # GET List/DeliveryTerm/MDOItems
@@ -11,6 +11,12 @@ GET /api/v1/List/DeliveryTerm/MDOItems
 
 Get the MDO list items for "DeliveryTerms" - with headings and filtering by user group.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,8 +26,9 @@ Get the MDO list items for "DeliveryTerms" - with headings and filtering by user
 
 ```http
 GET /api/v1/List/DeliveryTerm/MDOItems?flat=False
-GET /api/v1/List/DeliveryTerm/MDOItems?query=minus
+GET /api/v1/List/DeliveryTerm/MDOItems?query=omnis
 ```
+
 
 ## Request Headers
 
@@ -36,7 +43,10 @@ GET /api/v1/List/DeliveryTerm/MDOItems?query=minus
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -61,14 +71,16 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 GET /api/v1/List/DeliveryTerm/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -76,59 +88,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 741,
-    "Name": "Shields LLC",
-    "ToolTip": "Corporis et sunt alias illum.",
+    "Id": 786,
+    "Name": "Lind LLC",
+    "ToolTip": "Minima vel eum fugit.",
     "Deleted": false,
-    "Rank": 732,
-    "Type": "nisi",
+    "Rank": 777,
+    "Type": "autem",
     "ChildItems": [
       {
-        "Id": 931,
-        "Name": "Mraz Inc and Sons",
-        "ToolTip": "Nihil nostrum rerum aut ut.",
-        "Deleted": false,
-        "Rank": 715,
-        "Type": "ipsa",
+        "Id": 538,
+        "Name": "Keebler LLC",
+        "ToolTip": "Odio distinctio sunt nam tempore optio debitis.",
+        "Deleted": true,
+        "Rank": 582,
+        "Type": "pariatur",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "ipsam",
-        "ColorBlock": 329,
-        "ExtraInfo": "enim",
-        "StyleHint": "et",
-        "FullName": "Trisha Marquardt",
-        "TableRight": {},
+        "IconHint": "sed",
+        "ColorBlock": 436,
+        "ExtraInfo": "inventore",
+        "StyleHint": "ullam",
+        "FullName": "Miracle Petra Waelchi V",
+        "TableRight": null,
         "FieldProperties": {
           "fieldName": {
-            "FieldRight": {
-              "Mask": "FULL",
-              "Reason": ""
-            },
-            "FieldType": "System.Int32",
-            "FieldLength": 241
+            "FieldRight": null,
+            "FieldType": "System.String",
+            "FieldLength": 435
           }
         }
       }
     ],
-    "IconHint": "ea",
-    "ColorBlock": 484,
-    "ExtraInfo": "eos",
-    "StyleHint": "quaerat",
-    "FullName": "Fiona Ortiz",
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "IconHint": "est",
+    "ColorBlock": 506,
+    "ExtraInfo": "quia",
+    "StyleHint": "vitae",
+    "FullName": "Berenice Weissnat",
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
+        "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 563
+        "FieldLength": 614
       }
     }
   }

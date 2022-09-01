@@ -17,6 +17,7 @@ Gets a ExtAppEntity object.
 
 **Returns:** ExtAppEntity
 
+
 [WSDL file for Services84/List](../Services84-List.md)
 
 Obtain a ticket from the [Services84/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -48,6 +49,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+
 
 ## GetExtAppEntity Response
 
@@ -92,3 +94,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

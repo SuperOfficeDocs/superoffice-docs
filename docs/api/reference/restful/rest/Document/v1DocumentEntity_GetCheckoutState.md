@@ -1,6 +1,6 @@
 ---
 title: GET Document/{id}/Lock
-id: v1DocumentEntity_GetCheckoutState
+uid: v1DocumentEntity_GetCheckoutState
 ---
 
 # GET Document/{id}/Lock
@@ -11,9 +11,16 @@ GET /api/v1/Document/{documentId}/Lock
 
 Get the current checkout state for a document, relative to the user perforing the call.
 
+
+
+
+
+
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | documentId | int32 | SuperOffice document ID **Required** |
+
+
 
 ## Request Headers
 
@@ -28,13 +35,16 @@ Get the current checkout state for a document, relative to the user perforing th
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response: object
+
+## Response: 
+
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -42,7 +52,7 @@ Response body: object
 | AssociateId | int32 |  |
 | Name | string |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 GET /api/v1/Document/{documentId}/Lock
@@ -51,13 +61,15 @@ Accept: application/json; charset=utf-8
 Accept-Language: fr,de,ru,zh
 ```
 
+## Sample response
+
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
   "State": "CheckedOutOther",
-  "AssociateId": 463,
-  "Name": "McCullough Inc and Sons"
+  "AssociateId": 41,
+  "Name": "Gaylord-Dare"
 }
 ```

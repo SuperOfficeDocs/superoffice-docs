@@ -16,6 +16,8 @@ Stores the default person (sales rep) image that is displayed in Audience when n
 * **layoutName:** Name of the Audience layout instance
 * **image:** The default project/event image to be stored for this Audience layout instance (System.Drawing.Image)
 
+
+
 [WSDL file for Services85/Audience](../Services85-Audience.md)
 
 Obtain a ticket from the [Services85/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -48,6 +50,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## SetDefaultPersonImage Response
 
 ```xml
@@ -66,3 +69,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

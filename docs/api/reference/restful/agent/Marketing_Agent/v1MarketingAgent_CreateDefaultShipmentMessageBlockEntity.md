@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Marketing/CreateDefaultShipmentMessageBlockEntity
-id: v1MarketingAgent_CreateDefaultShipmentMessageBlockEntity
+uid: v1MarketingAgent_CreateDefaultShipmentMessageBlockEntity
 ---
 
 # POST Agents/Marketing/CreateDefaultShipmentMessageBlockEntity
@@ -11,7 +11,14 @@ POST /api/v1/Agents/Marketing/CreateDefaultShipmentMessageBlockEntity
 
 Set default values into a new ShipmentMessageBlockEntity.
 
+
 NetServer calculates default values on the entity, which is required when creating/storing a new instance
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -26,18 +33,16 @@ NetServer calculates default values on the entity, which is required when creati
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response: object
 
-This entity contains information about design blocks that can be used in a shipment/mailing message
+## Response: 
 
-Carrier object for ShipmentMessageBlockEntity.
-Services for the ShipmentMessageBlockEntity Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IMarketingAgent">Marketing Agent</see>.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -52,40 +57,36 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Marketing/CreateDefaultShipmentMessageBlockEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageBlockId": 85,
-  "AssociateId": 790,
-  "Block": "nesciunt",
-  "Registered": "2012-05-31T18:28:49.4650876+02:00",
-  "RegisteredAssociateId": 958,
-  "Updated": "1994-08-15T18:28:49.4650876+02:00",
-  "UpdatedAssociateId": 833,
-  "UpdatedCount": 87,
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "ShipmentMessageBlockId": 920,
+  "AssociateId": 13,
+  "Block": "ut",
+  "Registered": "1999-11-15T11:10:27.2874535+01:00",
+  "RegisteredAssociateId": 248,
+  "Updated": "1996-02-13T11:10:27.2874535+01:00",
+  "UpdatedAssociateId": 573,
+  "UpdatedCount": 175,
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
+      "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 637
+      "FieldLength": 977
     }
   }
 }

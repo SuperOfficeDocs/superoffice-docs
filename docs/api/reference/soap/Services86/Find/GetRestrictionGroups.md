@@ -20,6 +20,7 @@ Return all the restriction groups.
 
 **Returns:** The restriction groups.
 
+
 [WSDL file for Services86/Find](../Services86-Find.md)
 
 Obtain a ticket from the [Services86/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -54,6 +55,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+
 
 ## GetRestrictionGroups Response
 
@@ -144,3 +146,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

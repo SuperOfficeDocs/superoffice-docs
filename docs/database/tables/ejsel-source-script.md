@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "ejsel_source_script"
-so.date: 04.12.2022
+so.date: 08.26.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -23,6 +23,7 @@ This table stores a selection script source
 |------|-------------|------|:----:|
 |id|Primary key|PK| |
 |body|The script body|Clob|&#x25CF;|
+
 
 ![ejsel_source_script table relationship diagram](./media/ejsel_source_script.png)
 
@@ -41,3 +42,4 @@ This table stores a selection script source
 ## Security Flags
 
 * No access control via user's Role.
+

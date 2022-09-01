@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Quote/SaveQuoteVersion
-id: v1QuoteAgent_SaveQuoteVersion
+uid: v1QuoteAgent_SaveQuoteVersion
 ---
 
 # POST Agents/Quote/SaveQuoteVersion
@@ -11,6 +11,12 @@ POST /api/v1/Agents/Quote/SaveQuoteVersion
 
 Saves a quote version
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Saves a quote version
 ```http
 POST /api/v1/Agents/Quote/SaveQuoteVersion?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,26 +42,24 @@ POST /api/v1/Agents/Quote/SaveQuoteVersion?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-QuoteVersion
+QuoteVersion 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| QuoteVersion |  | Information about a version of the . <br /> Carrier object for QuoteVersion. Services for the QuoteVersion Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IQuoteAgent">Quote Agent</see>. |
+| QuoteVersion |  | Information about a version of the . <para /> Carrier object for QuoteVersion. Services for the QuoteVersion Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IQuoteAgent">Quote Agent</see>. |
 
-## Response: object
 
-Information about a version of the .
+## Response: 
 
-Carrier object for QuoteVersion.
-Services for the QuoteVersion Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IQuoteAgent">Quote Agent</see>.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -94,156 +99,112 @@ Response body: object
 | UpdatedAssociateId | int32 | Last updated by whom |
 | Registered | date-time | Registered when  in UTC. |
 | RegisteredAssociateId | int32 | Registered by whom |
+| RequestAssociateId | int32 | User to whom the request proposal should be delivered |
+| RequestComment | string | Comment for why quote should be approved |
 | QuoteAlternatives | array | The QuoteAlternatives for the QuoteVersion |
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Quote/SaveQuoteVersion
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersion": {
-    "QuoteVersionId": 561,
-    "ERPQuoteVersionKey": "dolor",
-    "QuoteId": 243,
-    "Description": "Secured even-keeled encryption",
-    "Number": "1101971",
-    "State": "Archived",
-    "ArchivedState": "Archived",
-    "Status": "Error",
-    "Reason": "",
-    "LikelyQuoteAlternativeId": 601,
-    "SentDate": "2018-11-14T18:28:49.9221376+01:00",
-    "FollowupId": 941,
-    "ExpirationDate": "2000-07-25T18:28:49.9221376+02:00",
-    "DeliveryCountryId": 220,
-    "HasOwnDeliveryAddress": true,
-    "InvoiceCountryId": 525,
-    "HasOwnInvoiceAddress": true,
-    "ERPPaymentTermsKey": "eius",
-    "ERPPaymentTypeKey": "harum",
-    "ERPDeliveryTermsKey": "qui",
-    "ERPDeliveryTypeKey": "neque",
-    "Rank": 477,
-    "ApprovedBy": 526,
-    "ApprovedText": "ad",
-    "ApprovedRegisteredBy": 628,
-    "ApprovedRegisteredDate": "2014-04-03T18:28:49.9221376+02:00",
-    "ExtraField1": "minima",
-    "ExtraField2": "atque",
-    "ExtraField3": "ut",
-    "ExtraField4": "aliquid",
-    "ExtraField5": "ipsum",
-    "LastRecalculated": "2019-01-29T18:28:49.9221376+01:00",
-    "Updated": "1995-03-13T18:28:49.9221376+01:00",
-    "UpdatedAssociateId": 663,
-    "Registered": "2015-06-30T18:28:49.9221376+02:00",
-    "RegisteredAssociateId": 536,
-    "QuoteAlternatives": [
-      {},
-      {}
-    ]
-  }
+  "QuoteVersion": null
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 630,
-  "ERPQuoteVersionKey": "officia",
-  "QuoteId": 216,
-  "Description": "Compatible bifurcated portal",
-  "Number": "742649",
+  "QuoteVersionId": 536,
+  "ERPQuoteVersionKey": "est",
+  "QuoteId": 590,
+  "Description": "Synergistic client-server paradigm",
+  "Number": "1401070",
   "State": "Archived",
   "ArchivedState": "Archived",
   "Status": "Error",
   "Reason": "",
-  "LikelyQuoteAlternativeId": 825,
-  "SentDate": "2011-09-17T18:28:49.9231374+02:00",
-  "FollowupId": 174,
-  "ExpirationDate": "2013-09-09T18:28:49.9231374+02:00",
-  "DeliveryCountryId": 360,
-  "HasOwnDeliveryAddress": true,
-  "InvoiceCountryId": 127,
+  "LikelyQuoteAlternativeId": 339,
+  "SentDate": "2018-12-16T11:10:27.6564245+01:00",
+  "FollowupId": 603,
+  "ExpirationDate": "2017-04-28T11:10:27.6564245+02:00",
+  "DeliveryCountryId": 742,
+  "HasOwnDeliveryAddress": false,
+  "InvoiceCountryId": 368,
   "HasOwnInvoiceAddress": true,
-  "ERPPaymentTermsKey": "et",
-  "ERPPaymentTypeKey": "ad",
-  "ERPDeliveryTermsKey": "harum",
-  "ERPDeliveryTypeKey": "neque",
-  "Rank": 257,
-  "ApprovedBy": 484,
-  "ApprovedText": "delectus",
-  "ApprovedRegisteredBy": 948,
-  "ApprovedRegisteredDate": "2018-05-30T18:28:49.9231374+02:00",
-  "ExtraField1": "et",
-  "ExtraField2": "a",
-  "ExtraField3": "ea",
-  "ExtraField4": "dolorem",
-  "ExtraField5": "provident",
-  "LastRecalculated": "2015-10-06T18:28:49.9231374+02:00",
-  "Updated": "1994-07-26T18:28:49.9231374+02:00",
-  "UpdatedAssociateId": 602,
-  "Registered": "2011-05-26T18:28:49.9231374+02:00",
-  "RegisteredAssociateId": 798,
+  "ERPPaymentTermsKey": "dolore",
+  "ERPPaymentTypeKey": "praesentium",
+  "ERPDeliveryTermsKey": "delectus",
+  "ERPDeliveryTypeKey": "consequatur",
+  "Rank": 212,
+  "ApprovedBy": 530,
+  "ApprovedText": "velit",
+  "ApprovedRegisteredBy": 809,
+  "ApprovedRegisteredDate": "1998-06-12T11:10:27.6574451+02:00",
+  "ExtraField1": "soluta",
+  "ExtraField2": "perspiciatis",
+  "ExtraField3": "quis",
+  "ExtraField4": "fuga",
+  "ExtraField5": "sint",
+  "LastRecalculated": "2000-03-31T11:10:27.6574451+02:00",
+  "Updated": "2018-04-30T11:10:27.6574451+02:00",
+  "UpdatedAssociateId": 346,
+  "Registered": "2015-06-11T11:10:27.6574451+02:00",
+  "RegisteredAssociateId": 987,
+  "RequestAssociateId": 309,
+  "RequestComment": "voluptatem",
   "QuoteAlternatives": [
     {
-      "QuoteAlternativeId": 663,
-      "ERPQuoteAlternativeKey": "autem",
-      "QuoteVersionId": 330,
-      "Name": "Schneider-Kunde",
-      "Description": "Synergistic user-facing hierarchy",
+      "QuoteAlternativeId": 852,
+      "ERPQuoteAlternativeKey": "odit",
+      "QuoteVersionId": 873,
+      "Name": "Murazik, Rowe and Price",
+      "Description": "Ameliorated 4th generation core",
       "Status": "Error",
       "Reason": "",
-      "ERPDiscountPercent": 30058.194,
-      "ERPDiscountAmount": 11489.243999999999,
-      "DiscountPercent": 921.396,
-      "DiscountAmount": 20371.0,
+      "ERPDiscountPercent": 3798.408,
+      "ERPDiscountAmount": 9060.394,
+      "DiscountPercent": 27024.482,
+      "DiscountAmount": 16234.119999999999,
       "UserValueOverride": "DiscountAmount",
-      "VATInfo": "optio",
-      "VAT": 25037.525999999998,
-      "EarningPercent": 29105.458,
-      "EarningAmount": 28193.464,
-      "SubTotal": 12504.66,
-      "TotalPrice": 14635.779999999999,
-      "ExtraField1": "reprehenderit",
-      "ExtraField2": "qui",
-      "ExtraField3": "ab",
-      "ExtraField4": "aperiam",
-      "ExtraField5": "commodi",
-      "TableRight": {},
+      "VATInfo": "nemo",
+      "VAT": 17155.516,
+      "EarningPercent": 3904.964,
+      "EarningAmount": 10749.619999999999,
+      "SubTotal": 30982.724,
+      "TotalPrice": 23436.052,
+      "ExtraField1": "et",
+      "ExtraField2": "corporis",
+      "ExtraField3": "et",
+      "ExtraField4": "unde",
+      "ExtraField5": "reprehenderit",
+      "TableRight": null,
       "FieldProperties": {
         "fieldName": {
-          "FieldRight": {
-            "Mask": "FULL",
-            "Reason": ""
-          },
+          "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 639
+          "FieldLength": 696
         }
       }
     }
   ],
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
+      "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 519
+      "FieldLength": 986
     }
   }
 }

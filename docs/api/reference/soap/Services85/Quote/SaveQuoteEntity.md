@@ -17,6 +17,7 @@ Saves a QuoteEntity. Versions and alternatives will not be saved by this call.
 
 **Returns:** The saved Quote
 
+
 [WSDL file for Services85/Quote](../Services85-Quote.md)
 
 Obtain a ticket from the [Services85/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -66,9 +67,9 @@ Application tokens must be specified if calling an Online installation. Applicat
        <Quote:Status xsi:type="Quote:QuoteStatus">Ok</Quote:Status>
        <Quote:Reason xsi:type="xsd:string"></Quote:Reason>
        <Quote:LikelyQuoteAlternativeId xsi:type="xsd:int">0</Quote:LikelyQuoteAlternativeId>
-       <Quote:SentDate xsi:type="xsd:dateTime">2021-11-30T13:22:39Z</Quote:SentDate>
+       <Quote:SentDate xsi:type="xsd:dateTime">2022-08-26T08:53:38Z</Quote:SentDate>
        <Quote:FollowupId xsi:type="xsd:int">0</Quote:FollowupId>
-       <Quote:ExpirationDate xsi:type="xsd:dateTime">2021-11-30T13:22:39Z</Quote:ExpirationDate>
+       <Quote:ExpirationDate xsi:type="xsd:dateTime">2022-08-26T08:53:38Z</Quote:ExpirationDate>
        <Quote:DeliveryCountryId xsi:type="xsd:int">0</Quote:DeliveryCountryId>
        <Quote:HasOwnDeliveryAddress xsi:type="xsd:boolean">false</Quote:HasOwnDeliveryAddress>
        <Quote:InvoiceCountryId xsi:type="xsd:int">0</Quote:InvoiceCountryId>
@@ -81,16 +82,16 @@ Application tokens must be specified if calling an Online installation. Applicat
        <Quote:ApprovedBy xsi:type="xsd:int">0</Quote:ApprovedBy>
        <Quote:ApprovedText xsi:type="xsd:string"></Quote:ApprovedText>
        <Quote:ApprovedRegisteredBy xsi:type="xsd:int">0</Quote:ApprovedRegisteredBy>
-       <Quote:ApprovedRegisteredDate xsi:type="xsd:dateTime">2021-11-30T13:22:39Z</Quote:ApprovedRegisteredDate>
+       <Quote:ApprovedRegisteredDate xsi:type="xsd:dateTime">2022-08-26T08:53:38Z</Quote:ApprovedRegisteredDate>
        <Quote:ExtraField1 xsi:type="xsd:string"></Quote:ExtraField1>
        <Quote:ExtraField2 xsi:type="xsd:string"></Quote:ExtraField2>
        <Quote:ExtraField3 xsi:type="xsd:string"></Quote:ExtraField3>
        <Quote:ExtraField4 xsi:type="xsd:string"></Quote:ExtraField4>
        <Quote:ExtraField5 xsi:type="xsd:string"></Quote:ExtraField5>
-       <Quote:LastRecalculated xsi:type="xsd:dateTime">2021-11-30T13:22:39Z</Quote:LastRecalculated>
-       <Quote:Updated xsi:type="xsd:dateTime">2021-11-30T13:22:39Z</Quote:Updated>
+       <Quote:LastRecalculated xsi:type="xsd:dateTime">2022-08-26T08:53:38Z</Quote:LastRecalculated>
+       <Quote:Updated xsi:type="xsd:dateTime">2022-08-26T08:53:38Z</Quote:Updated>
        <Quote:UpdatedAssociateId xsi:type="xsd:int">0</Quote:UpdatedAssociateId>
-       <Quote:Registered xsi:type="xsd:dateTime">2021-11-30T13:22:39Z</Quote:Registered>
+       <Quote:Registered xsi:type="xsd:dateTime">2022-08-26T08:53:38Z</Quote:Registered>
        <Quote:RegisteredAssociateId xsi:type="xsd:int">0</Quote:RegisteredAssociateId>
        <Quote:QuoteAlternatives xsi:type="Quote:ArrayOfQuoteAlternative">
         <Quote:QuoteAlternative xsi:type="Quote:QuoteAlternative">
@@ -128,6 +129,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+
 
 ## SaveQuoteEntity Response
 
@@ -168,9 +170,9 @@ Application tokens must be specified if calling an Online installation. Applicat
       <Quote:Status xsi:type="Quote:QuoteStatus">Ok</Quote:Status>
       <Quote:Reason xsi:type="xsd:string"></Quote:Reason>
       <Quote:LikelyQuoteAlternativeId xsi:type="xsd:int">0</Quote:LikelyQuoteAlternativeId>
-      <Quote:SentDate xsi:type="xsd:dateTime">2021-11-30T13:22:39Z</Quote:SentDate>
+      <Quote:SentDate xsi:type="xsd:dateTime">2022-08-26T08:53:38Z</Quote:SentDate>
       <Quote:FollowupId xsi:type="xsd:int">0</Quote:FollowupId>
-      <Quote:ExpirationDate xsi:type="xsd:dateTime">2021-11-30T13:22:39Z</Quote:ExpirationDate>
+      <Quote:ExpirationDate xsi:type="xsd:dateTime">2022-08-26T08:53:38Z</Quote:ExpirationDate>
       <Quote:DeliveryCountryId xsi:type="xsd:int">0</Quote:DeliveryCountryId>
       <Quote:HasOwnDeliveryAddress xsi:type="xsd:boolean">false</Quote:HasOwnDeliveryAddress>
       <Quote:InvoiceCountryId xsi:type="xsd:int">0</Quote:InvoiceCountryId>
@@ -183,16 +185,16 @@ Application tokens must be specified if calling an Online installation. Applicat
       <Quote:ApprovedBy xsi:type="xsd:int">0</Quote:ApprovedBy>
       <Quote:ApprovedText xsi:type="xsd:string"></Quote:ApprovedText>
       <Quote:ApprovedRegisteredBy xsi:type="xsd:int">0</Quote:ApprovedRegisteredBy>
-      <Quote:ApprovedRegisteredDate xsi:type="xsd:dateTime">2021-11-30T13:22:39Z</Quote:ApprovedRegisteredDate>
+      <Quote:ApprovedRegisteredDate xsi:type="xsd:dateTime">2022-08-26T08:53:38Z</Quote:ApprovedRegisteredDate>
       <Quote:ExtraField1 xsi:type="xsd:string"></Quote:ExtraField1>
       <Quote:ExtraField2 xsi:type="xsd:string"></Quote:ExtraField2>
       <Quote:ExtraField3 xsi:type="xsd:string"></Quote:ExtraField3>
       <Quote:ExtraField4 xsi:type="xsd:string"></Quote:ExtraField4>
       <Quote:ExtraField5 xsi:type="xsd:string"></Quote:ExtraField5>
-      <Quote:LastRecalculated xsi:type="xsd:dateTime">2021-11-30T13:22:39Z</Quote:LastRecalculated>
-      <Quote:Updated xsi:type="xsd:dateTime">2021-11-30T13:22:39Z</Quote:Updated>
+      <Quote:LastRecalculated xsi:type="xsd:dateTime">2022-08-26T08:53:38Z</Quote:LastRecalculated>
+      <Quote:Updated xsi:type="xsd:dateTime">2022-08-26T08:53:38Z</Quote:Updated>
       <Quote:UpdatedAssociateId xsi:type="xsd:int">0</Quote:UpdatedAssociateId>
-      <Quote:Registered xsi:type="xsd:dateTime">2021-11-30T13:22:39Z</Quote:Registered>
+      <Quote:Registered xsi:type="xsd:dateTime">2022-08-26T08:53:38Z</Quote:Registered>
       <Quote:RegisteredAssociateId xsi:type="xsd:int">0</Quote:RegisteredAssociateId>
       <Quote:QuoteAlternatives xsi:type="Quote:ArrayOfQuoteAlternative">
        <Quote:QuoteAlternative xsi:type="Quote:QuoteAlternative">
@@ -229,3 +231,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

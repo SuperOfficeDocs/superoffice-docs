@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Dashboard/CreateNewFromTemplate
-id: v1DashboardAgent_CreateNewFromTemplate
+uid: v1DashboardAgent_CreateNewFromTemplate
 ---
 
 # POST Agents/Dashboard/CreateNewFromTemplate
@@ -11,6 +11,12 @@ POST /api/v1/Agents/Dashboard/CreateNewFromTemplate
 
 Create new tile from another tile used as template
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Create new tile from another tile used as template
 ```http
 POST /api/v1/Agents/Dashboard/CreateNewFromTemplate?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,9 +42,9 @@ POST /api/v1/Agents/Dashboard/CreateNewFromTemplate?$select=name,department,cate
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-DashboardTileId, Caption, Description, SelectionId, VisibleFor
+DashboardTileId, Caption, Description, SelectionId, VisibleFor 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -47,18 +54,16 @@ DashboardTileId, Caption, Description, SelectionId, VisibleFor
 | SelectionId | int32 |  |
 | VisibleFor | array |  |
 
-## Response: object
 
-Dashboard Tile configuration
+## Response: 
 
-Carrier object for DashboardTile.
-Services for the DashboardTile Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IDashboardAgent">Dashboard Agent</see>.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -79,123 +84,110 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Dashboard/CreateNewFromTemplate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 612,
-  "Caption": "consequatur",
-  "Description": "Exclusive scalable product",
-  "SelectionId": 94,
+  "DashboardTileId": 932,
+  "Caption": "blanditiis",
+  "Description": "Balanced optimizing groupware",
+  "SelectionId": 42,
   "VisibleFor": [
     {
-      "VisibleId": 276,
+      "VisibleId": 29,
       "Visibility": "All",
-      "DisplayValue": "commodi"
+      "DisplayValue": "corporis"
     },
     {
-      "VisibleId": 276,
+      "VisibleId": 29,
       "Visibility": "All",
-      "DisplayValue": "commodi"
+      "DisplayValue": "corporis"
     }
   ]
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 645,
-  "Caption": "saepe",
-  "Description": "Profit-focused 5th generation system engine",
-  "ChartName": "Jerde-Bahringer",
-  "ChartId": "quae",
+  "DashboardTileId": 189,
+  "Caption": "numquam",
+  "Description": "Switchable secondary info-mediaries",
+  "ChartName": "Rippin, Nicolas and Bins",
+  "ChartId": "eum",
   "IsDefault": true,
-  "AssociateId": 768,
-  "GroupId": 157,
-  "SelectionId": 692,
-  "Config": "est",
+  "AssociateId": 643,
+  "GroupId": 923,
+  "SelectionId": 305,
+  "Config": "sint",
   "Type": "Bignum",
   "EntityType": "Activity",
   "Options": [
     {
-      "Name": "Turcotte Group",
-      "Description": "Polarised asynchronous installation",
+      "Name": "Parker LLC",
+      "Description": "Streamlined solution-oriented algorithm",
       "Type": "Boolean",
-      "ListName": "Conroy, Gerlach and Sanford",
+      "ListName": "Daniel Group",
       "ListItems": [
         {},
         {}
       ],
-      "Value": "voluptas",
-      "DefaultDataOption": true,
-      "TableRight": {},
+      "Value": "sunt",
+      "DefaultDataOption": false,
+      "TableRight": null,
       "FieldProperties": {
         "fieldName": {
-          "FieldRight": {
-            "Mask": "FULL",
-            "Reason": ""
-          },
-          "FieldType": "System.String",
-          "FieldLength": 10
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 526
         }
       }
     }
   ],
   "VisibleFor": [
     {
-      "VisibleId": 95,
+      "VisibleId": 587,
       "Visibility": "All",
-      "DisplayValue": "non",
-      "TableRight": {},
+      "DisplayValue": "est",
+      "TableRight": null,
       "FieldProperties": {
         "fieldName": {
-          "FieldRight": {
-            "Mask": "FULL",
-            "Reason": ""
-          },
-          "FieldType": "System.String",
-          "FieldLength": 696
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 658
         }
       }
     },
     {
-      "VisibleId": 95,
+      "VisibleId": 587,
       "Visibility": "All",
-      "DisplayValue": "non",
-      "TableRight": {},
+      "DisplayValue": "est",
+      "TableRight": null,
       "FieldProperties": {
         "fieldName": {
-          "FieldRight": {
-            "Mask": "FULL",
-            "Reason": ""
-          },
-          "FieldType": "System.String",
-          "FieldLength": 696
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 658
         }
       }
     }
   ],
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
-      "FieldType": "System.Int32",
-      "FieldLength": 186
+      "FieldRight": null,
+      "FieldType": "System.String",
+      "FieldLength": 287
     }
   }
 }
