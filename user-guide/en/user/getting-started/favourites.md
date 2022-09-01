@@ -38,7 +38,7 @@ You can access your favourites from the following places in the application:
 > If you hold the mouse pointer over a record in the favourites list, a tooltip is displayed containing additional data about the record.
 
 <!-- Referenced links -->
-[1]: ../reports/favourite-reports.md
+[1]: ../../reports/favorites/index.md
 
 <!-- Referenced images -->
 [img1]: ../../../media/icons/navmenu-favourites.png

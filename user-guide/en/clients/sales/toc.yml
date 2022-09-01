@@ -31,3 +31,12 @@ items:
       href: contact-projects.md
     - name: Relations
       href: contact-relations.md
+- name: Reports screen
+  href: reports-screen.md
+  items:
+  - name: Report list
+    href: report-list.md
+  - name: Criteria list
+    href: criteria-list.md
+  - name: Report archive
+    href: report-archive.md

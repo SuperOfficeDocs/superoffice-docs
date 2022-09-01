@@ -1,0 +1,55 @@
+items:
+- name: Overview
+  href: index.md
+- name: Working with reports
+  href: working-with-reports.md
+  items:
+  - name: Showing report properties
+    href: showing-report-properties.md
+  - name: Create a report
+    href: create.md
+  - name: Running reports
+    href: run.md
+  - name: Viewing reports
+    href: view.md
+  - name: Printing reports
+    href: print.md
+  - name: Saving reports as files
+    href: save.md
+  - name: Opening reports in the report archive
+    href: open-from-archive.md
+  - name: Using the Filter function Reports
+    href: using-filter-function-reports.md
+  - name: Deleting reports from the report archive
+    href: delete-from-archive.md
+- name: Standard reports
+  href: standard-reports.md
+- name: Favourite reports
+  href: favorites/index.md
+  items:
+  - name: Adding a report to favorites
+    href: favorites/add.md
+  - name: Editing favourite reports
+    href: favorites/edit.md
+  - name: Deleting favourite reports
+    href: favorites/delete.md
+- name: Search criteria reports
+  href: search-criteria-reports.md
+  items:
+  - name: Adding search criteria to reports
+    href: adding-search-criteria-to-reports.md
+  - name: Editing search criteria in reports
+    href: editing-search-criteria-in-reports.md
+- name: Labels
+  href: labels/index.md
+  items:
+  - name: Add label formats
+    href: labels/add-format.md
+  - name: Edit label formats
+    href: labels/edit-format.md
+  - name: Remove label formats
+    href: labels/remove-format.md
+  - name: Print labels
+    href: labels/print-labels.md
+- name: Cross tables
+  href: cross-tables.md
