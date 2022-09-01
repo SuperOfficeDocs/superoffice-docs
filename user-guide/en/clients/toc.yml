@@ -3,5 +3,7 @@ items:
   href: index.md
 - name: Sales
   href: sales/toc.yml
+- name: Settings and maintenance
+  href: admin/index.md
 - name: Service
   href: service/index.md

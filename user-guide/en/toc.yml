@@ -9,6 +9,8 @@ items:
     href: chat/toc.yml
   - name: Dashboard
     href: dashboard/toc.yml
+  - name: Email
+    href: email/toc.yml
   - name: Sale
     items:
     - name: SAINT

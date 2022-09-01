@@ -3,8 +3,6 @@ items:
   href: getting-started/toc.yml
 - name: Diary
   href: diary/toc.yml
-- name: Email
-  href: email/toc.yml
 - name: Mailing
   href: marketing/toc.yml
 - name: Project

@@ -51,7 +51,7 @@ The navigator contains the following buttons:
 [5]: ../sale/index.md
 [6]: ../project/index.md
 [7]: ../selections/index.md
-[8]: ../email/inbox/index.md
+[8]: ../../email/inbox/index.md
 [9]: ../../chat/index.md
 [10]: ../reports/index.md
 [11]: ../marketing/mailing-workflow.md

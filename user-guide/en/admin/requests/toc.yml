@@ -24,33 +24,6 @@ items:
     href: status/create.md
   - name: Delete request status
     href: status/delete.md
-- name: listFilters
-  href: email/index.md
-  items:
-  - name: Mailboxes
-    href: email/mailboxes.md
-    items:
-    - name: Create mailboxes
-      href: email/create-mailbox.md
-    - name: Delete mailboxes
-      href: email/delete-mailbox.md
-    - name: Create Facebook applications
-      href: email/create-facebook-application.md
-    - name: Create SMS mailbox
-      href: email/create-sms-mailbox.md
-  - name: Email filters
-    href: email/email-filters.md
-    items:
-    - name: Create email filter
-      href: email/create-email-filter.md
-    - name: Delete email filter
-      href: email/delete-email-filter.md
-  - name: Inbox for email tab
-    href: email/tab-inbox-for-email.md
-  - name: Outbox for email tab
-    href: email/tab-outbox-for-email.md
-  - name: Blocked email tab
-    href: email/tab-blocked-email.md
 - name: System templates
   href: system-templates.md
 - name: SOAP

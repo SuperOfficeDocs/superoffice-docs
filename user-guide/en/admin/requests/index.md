@@ -24,7 +24,7 @@ In this screen you can find various functions related to requests in SuperOffice
 [1]: category/index.md
 [2]: priority/index.md
 [3]: status/index.md
-[4]: email/mailboxes.md
+[4]: ../../email/service/mailboxes/index.md
 [5]: system-templates.md
 [6]: soap-config.md
 

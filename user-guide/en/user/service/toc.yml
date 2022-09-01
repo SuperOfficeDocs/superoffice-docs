@@ -68,36 +68,6 @@ items:
     href: admin/listcustlangs.selectlanguage.md
   - name: Admin listCustLangs workWithExternaCategories
     href: admin/listcustlangs.workwithexternacategories.md
-  - name: Admin listFilters
-    href: admin/listfilters.md
-  - name: Admin listFilters listFilters
-    href: admin/listFilters.listfilters.md
-  - name: Admin listFilters listFilters deleteMailbox
-    href: admin/listfilters.listfilters.deletemailbox.md
-  - name: Admin listFilters listFilters editFacebookApplication
-    href: admin/listfilters.listfilters.editfacebookapplication.md
-  - name: Admin listFilters listFilters editSMSmailbox
-    href: admin/listfilters.listfilters.editsmsmailbox.md
-  - name: Admin listFilters listFilters newFilter
-    href: admin/admin.listfilters.listfilters.newfilter.md
-  - name: Admin listFilters listFilters newFilter
-    href: admin/listfilters.listfilters.newfilter.md
-  - name: Admin listFilters listMSFilter
-    href: admin/listfilters.listmsfilter.md
-  - name: Admin listFilters listMSFilter deleteMSFilter
-    href: admin/listfilters.listmsfilter.deletemsfilter.md
-  - name: Admin listFilters listMSFilter newMSFilter
-    href: admin/listfilters.listmsfilter.newmsfilter.md
-  - name: Admin listFilters viewBlocked
-    href: admin/listfilters.viewblocked.md
-  - name: Admin listFilters viewInbox
-    href: admin/listfilters.viewinbox.md
-  - name: Admin listFilters viewOutbox
-    href: admin/listfilters.viewoutbox.md
-  - name: Admin listFilters viewSMS
-    href: admin/listfilters.viewsms.md
-  - name: Admin listFilters viewSMS inbox
-    href: admin/listfilters.viewsms.inbox.md
   - name: Admin listInvoiceTypes
     href: admin/listinvoicetypes.md
   - name: Admin listInvoiceTypes deleteInvoiceType

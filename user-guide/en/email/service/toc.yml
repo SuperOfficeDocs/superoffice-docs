@@ -1,0 +1,28 @@
+items:
+- name: Overview
+  href: index.md
+  items:
+  - name: Mailboxes
+    href: mailboxes/index.md
+    items:
+    - name: Create mailboxes
+      href: mailboxes/create-mailbox.md
+    - name: Delete mailboxes
+      href: mailboxes/delete-mailbox.md
+    - name: Create Facebook applications
+      href: mailboxes/create-facebook-application.md
+    - name: Create SMS mailbox
+      href: mailboxes/create-sms-mailbox.md
+  - name: Email filters
+    href: email-filters/index.md
+    items:
+    - name: Create email filter
+      href: email-filters/create-email-filter.md
+    - name: Delete email filter
+      href: email-filters/delete-email-filter.md
+  - name: Inbox for email
+    href: tab-inbox-for-email.md
+  - name: Outbox for email
+    href: tab-outbox-for-email.md
+  - name: Blocked email
+    href: tab-blocked-email.md
