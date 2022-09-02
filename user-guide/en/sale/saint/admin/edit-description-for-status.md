@@ -25,6 +25,6 @@ To change the description of an existing status:
 4. Edit the text in the **Description** tab.
 
 <!-- Referenced links -->
-[1]: ../saint/create-new-status-web.md
+[1]: create-new-status-web.md
 
 <!-- Referenced images -->

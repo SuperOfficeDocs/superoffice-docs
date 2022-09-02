@@ -11,6 +11,8 @@ language: en
 
 # Edit a sales guide
 
+[!include[Must be admin](../../includes/req-admin.md)]
+
 To edit an existing sales guide:
 
 1. Click the **Workflow** button in the Navigator (![icon][img1]).
@@ -25,7 +27,7 @@ The changes are saved automatically.
 <!-- Referenced links -->
 [1]: create-new-sales-guide.md#add-a-follow-up-for-a-stage
 [2]: create-new-sales-guide.md#add-a-document-for-a-stage
-[3]: adding-items-to-sale-stage-list.md
+[3]: ../admin/adding-items-to-sale-stage-list.md
 
 <!-- Referenced images -->
 [img1]: ../../../media/icons/admin/knapp-arbeidsflyt-liten.bmp

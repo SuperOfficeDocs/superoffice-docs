@@ -23,29 +23,29 @@ No, you do not need to have an image for a status. If you just want to create re
 
 The image you choose should represent pictorially the status it stands for. The status image for a project that has been inactive for a long time might, for example, be a spider's web.
 
-[!include[File type and size](../includes/image-type-and-size.md)]
+[!include[File type and size](../../../admin/includes/image-type-and-size.md)]
 
 The images are used as watermarks for the company card, contact card or project card in SuperOffice CRM. The transparency is 40%, so that the image does not obscure the text. You should nonetheless use images with relatively light colours.
 
 ## To select an image for the status
 
-<!-- markdownlint-disable-file MD029 -->
 [!include[Open SAINT](includes/open-saint-select-tab.md)]
-3. Select the required status in the status list on the left of the screen.
 
-4. Check **Visualise** (on the right side of the screen) to display the status image for companies, contacts or projects that fulfil the status criteria for this status. If **Visualise** is unchecked, status images will not be displayed in SuperOffice CRM for this status. This may be relevant if you only want to use a status to [search in SuperOffice CRM](#using-statuses-for-search).
+1. Select the required status in the status list on the left of the screen.
 
-5. Click the **Change image** button.
+1. Check **Visualise** (on the right side of the screen) to display the status image for companies, contacts or projects that fulfil the status criteria for this status. If **Visualise** is unchecked, status images will not be displayed in SuperOffice CRM for this status. This may be relevant if you only want to use a status to [search in SuperOffice CRM](#using-statuses-for-search).
 
-6. Select image. Do one of the following:
+1. Click the **Change image** button.
+
+1. Select image. Do one of the following:
 
     * Click one of the images shown under **Images** (images are only displayed here if they have been added to the database). The image is displayed in the field on the right.
 
     * Click **Add**, click **Upload** file, browse to the image you require and click **Open**. Enter a description of the image. Click **Save**.
 
-7. Click **OK** to close the dialog.
+1. Click **OK** to close the dialog.
 
-8. The image is added to the database and displayed in the field on the right.
+1. The image is added to the database and displayed in the field on the right.
 
 ## Using statuses for search
 
@@ -67,4 +67,3 @@ If you only want to use statuses for searching, you can uncheck **Visualise**, s
 [4]: manage-status-monitors.md
 
 <!-- Referenced images -->
-[img1]: ../../../media/icons/admin/question.bmp

@@ -17,7 +17,7 @@ Using the **Status monitors/SAINT** tab, you can create statuses for companies, 
 
 <details><summary>Click here to see some examples of statuses.</summary>
 
-[!include[Examples](../../includes/status-examples.md)]
+[!include[Examples](../../../includes/status-examples.md)]
 </details>
 
 ## Status images
@@ -35,7 +35,7 @@ When the user opens the status dialog in SuperOffice CRM, he or she is also invi
 
 ## Searches and selections
 
-Statuses and counters can be used in searches and to create dynamic selections. For example, you can search for companies, contacts or projects that fulfil a status or a counter. [!include[Define counter](../includes/def-counter.md)]
+Statuses and counters can be used in searches and to create dynamic selections. For example, you can search for companies, contacts or projects that fulfil a status or a counter. [!include[Define counter](../../includes/def-counter.md)]
 
 ## Periods
 

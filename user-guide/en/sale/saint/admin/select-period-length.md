@@ -19,13 +19,13 @@ You can specify the period (duration in days) for the following counters:
 * Number of completed/non-completed sales in period
 * Number of completed/non-completed requests during period (if you are using SuperOffice Service)
 
-[!include[Define counter](../includes/def-counter.md)]
+[!include[Define counter](../../includes/def-counter.md)]
 
 You can specify up to three different periods, so that you can choose between shorter or longer periods for the various SAINT criteria. For example: If you set **Period 1** to 30 days and **Period 2** to 90 days, you will for example be able to choose between the SAINT criteria "Number of sales last 30 days" AND "Number of sales last 90 days".
 
 For more about counters, see **Counter fields** under [Use search criteria][1].
 
-[!include[To do this](../../includes/to-do-this.md)]
+[!include[To do this](../../../includes/to-do-this.md)]
 
 1. Open the **SAINT** screen.
 
@@ -39,7 +39,7 @@ For more about counters, see **Counter fields** under [Use search criteria][1].
 > If you have set a period to 30 days, for example, the period will always be 30 days from the last time the counters were regenerated. You should therefore regenerate the counters frequently (preferably each night), so that the counters are as up-to-date as possible. See [Manage status monitors][2].
 
 <!-- Referenced links -->
-[1]: ../options/using-search-criteria.md
+[1]: ../../../admin/options/using-search-criteria.md
 [2]: manage-status-monitors.md
 
 <!-- Referenced images -->

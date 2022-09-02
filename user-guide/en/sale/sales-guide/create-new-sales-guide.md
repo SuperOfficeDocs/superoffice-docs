@@ -11,6 +11,8 @@ language: en
 
 # Create a new sales guide
 
+[!include[Must be admin](../../includes/req-admin.md)]
+
 This procedure shows you how to create a sales guide from scratch.
 
 Before you can create the sales guide itself, you need to define
@@ -113,7 +115,7 @@ Agenda for first meeting:
     > [!TIP]
     > The user can change the above information as required.
 
-10. [!include[Click Save](../includes/save-changes.md)]
+10. [!include[Click Save](../../admin/includes/save-changes.md)]
 
 11. Repeat this procedure to add more follow-ups in this or other stages.
 
@@ -145,15 +147,15 @@ Agenda for first meeting:
 
 7. Enter any reference in the **Our ref.** field. Here you might enter a [template variable][1] for sales number, sales title or another field relating to the sale.
 
-8. [!include[Click Save](../includes/save-changes.md)]
+8. [!include[Click Save](../../admin/includes/save-changes.md)]
 
 9. Repeat this procedure to add more documents in this or other stages.
 
 <!-- Referenced links -->
 [1]: ../../user/diary/template-variables.md#variables-for-sales
-[2]: adding-items-to-sale-stage-list.md
-[3]: sale-type-stages-quote.md
-[4]: ../lists/document-template.md
+[2]: ../admin/adding-items-to-sale-stage-list.md
+[3]: ../admin/sale-type-stages-quote.md
+[4]: ../../admin/lists/document-template.md
 
 <!-- Referenced images -->
 [img1]: ../../../media/icons/admin/knapp-arbeidsflyt-liten.bmp

@@ -10,8 +10,6 @@ items:
   href: users/toc.yml
 - name: Role
   href: role/toc.yml
-- name: Status monitor (SAINT)
-  href: saint/toc.yml
 - name: ai
   href: ai/toc.yml
 - name: Lists
@@ -20,8 +18,6 @@ items:
   href: quote-sync/toc.yml
 - name: Workflow
   href: workflow.md
-- name: Sale
-  href: sale/toc.yml
 - name: Project
   href: project/toc.yml
 - name: Screen designer

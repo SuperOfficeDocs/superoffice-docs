@@ -15,14 +15,17 @@ language: en
 
 You can specify a default follow-up type and descriptive text to be displayed in SuperOffice CRM when the user clicks **Create follow-up** in the status dialog.
 
-[!include[To do this](../../includes/to-do-this.md)]
+[!include[To do this](../../../includes/to-do-this.md)]
 
-<!-- markdownlint-disable-file MD029 -->
 [!include[Open SAINT](includes/open-saint-select-tab.md)]
-3. Select the required status in the status list on the left of the screen.
-4. Click the **Create follow-up** tab.
-5. Click the arrow button (![icon][img1] ) to the right of the **Type** field, and select a follow-up.
-6. Enter the required description in the text field underneath.
+
+1. Select the required status in the status list on the left of the screen.
+
+1. Click the **Create follow-up** tab.
+
+1. Click the arrow button (![icon][img1] ) to the right of the **Type** field, and select a follow-up.
+
+1. Enter the required description in the text field underneath.
     <details><summary>Click here for an example</summary>
     [!include[Example](includes/example-status-description.md)]
     </details>
@@ -39,4 +42,4 @@ You can specify a default follow-up type and descriptive text to be displayed in
 [3]: manage-status-monitors.md
 
 <!-- Referenced images -->
-[img1]: ../../../media/icons/admin/pil-ned.bmp
+[img1]: ../../../../media/icons/admin/pil-ned.bmp

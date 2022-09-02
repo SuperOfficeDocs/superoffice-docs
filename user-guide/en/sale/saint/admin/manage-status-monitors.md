@@ -13,7 +13,7 @@ language: en
 
 [!include[Requirement](../includes/note-saint-req.md)]
 
-The sections below contain information about how to enable and disable status monitors and how to regenerate statuses and counters. [!include[Define counter](../includes/def-counter.md)] See also **Counter fields** in [Use search criteria][1]).
+The sections below contain information about how to enable and disable status monitors and how to regenerate statuses and counters. [!include[Define counter](../../includes/def-counter.md)] See also **Counter fields** in [Use search criteria][1]).
 
 ## General information about updating and regenerating statuses and counters
 
@@ -41,13 +41,13 @@ You must then regenerate these statuses by clicking one of these buttons:
 ![icon][img2] **Regenerate all counters**: Click here to regenerate all counters.
 
 <!-- Referenced links -->
-[1]: ../options/using-search-criteria.md
+[1]: ../../../admin/options/using-search-criteria.md
 [2]: select-status-criteria.md
 
 <!-- Referenced images -->
-[img1]: ../../../media/icons/admin/status-inaktiv.bmp
-[img2]: ../../../media/icons/pil-hoeyre.bmp
-[img3]: ../../../media/icons/admin/saint-counter-company-dis.bmp
-[img4]: ../../../media/icons/admin/saint-counter-project-dis.bmp
-[img5]: ../../../media/icons/admin/saint-counter-sale-disabled.bmp
-[img6]: ../../../media/icons/admin/roedt-kryss.bmp
+[img1]: ../../../../media/icons/admin/status-inaktiv.bmp
+[img2]: ../../../../media/icons/pil-hoeyre.bmp
+[img3]: ../../../../media/icons/admin/saint-counter-company-dis.bmp
+[img4]: ../../../../media/icons/admin/saint-counter-project-dis.bmp
+[img5]: ../../../../media/icons/admin/saint-counter-sale-disabled.bmp
+[img6]: ../../../../media/icons/admin/roedt-kryss.bmp

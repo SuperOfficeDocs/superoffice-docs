@@ -11,7 +11,9 @@ language: en
 
 # Add items to the Sale - Amount class list
 
-[!include[Requirement](../includes/note-saint-req-2.md)]
+[!include[Must be admin](../../includes/req-admin.md)]
+
+[!include[Requirement](../saint/includes/note-saint-req-2.md)]
 
 When you add an item to the **Sale - Amount class** list, the **Edit List Item** dialog is not the same as described under [Add items][1].
 
@@ -20,7 +22,7 @@ When you add an item to the **Sale - Amount class** list, the **Edit List Item**
 1. Enter the required name of the item in the **Name** field.
 
     > [!NOTE]
-    > [!include[Mandatory](../includes/note-mandatory-field.md)]
+    > [!include[Mandatory](../../admin/includes/note-mandatory-field.md)]
 
 2. In the **Amount from** and **Amount to** fields, you can specify the range that will put the sale in this category. The amount must be entered in the currency your organisation uses.
 
@@ -31,9 +33,9 @@ When you add an item to the **Sale - Amount class** list, the **Edit List Item**
 
 4. Optionally, type in a description of the amount class in the **Description** field.
 
-5. [!include[Save or cancel](../includes/save-or-cancel.md)]
+5. [!include[Save or cancel](../../admin/includes/save-or-cancel.md)]
 
 <!-- Referenced links -->
-[1]: ../lists/adding-items.md
+[1]: ../../admin/lists/adding-items.md
 
 <!-- Referenced images -->

@@ -17,7 +17,7 @@ If you have purchased a licence for SAINT ("SAles INTelligence"), you can specif
 
 <details><summary>Click here to see some examples of statuses.</summary>
 
-[!include[Examples](../includes/status-examples.md)]
+[!include[Examples](../../includes/status-examples.md)]
 </details>
 
 The way to create statuses is described in detail in the SuperOffice Settings and maintenance help.

@@ -89,8 +89,8 @@ Here you can add translated versions of the document template. [!include[To do t
 
 <!-- Referenced links -->
 [2]: ../../user/diary/template-variables.md
-[3]: replace-existing-template.md
-[4]: ../saint/index.md
+[1]: replace-existing-template.md
+[4]: ../../sale/saint/index.md
 
 <!-- Referenced images -->
 [img1]: ../../../media/icons/admin/pil-ned.bmp

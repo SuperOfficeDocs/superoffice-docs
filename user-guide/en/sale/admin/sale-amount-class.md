@@ -11,7 +11,9 @@ language: en
 
 # Sale - Amount class
 
-[!include[Requirement](../includes/note-saint-req-2.md)]
+[!include[Must be admin](../../includes/req-admin.md)]
+
+[!include[Requirement](../saint/includes/note-saint-req-2.md)]
 
 An amount class for a sale can be used to categorise sales into different classes, e.g. small, medium, large and very large. You specify the amount range for the different amount classes in the currency your organisation uses (and additional currencies if required). Amount classes can be used to search for substantial lost sales during a period.
 

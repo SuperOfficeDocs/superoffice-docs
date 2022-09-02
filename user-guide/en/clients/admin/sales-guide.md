@@ -22,8 +22,8 @@ In the **Sales guide** tab in the **Workflow** screen in Settings and maintenanc
 * [Deactivate a sales guide][3]
 
 <!-- Referenced links -->
-[1]: create-new-sales-guide.md
-[2]: edit-sales-guide.md
-[3]: deactivate-sales-guide.md
+[1]: ../../sale/sales-guide/create-new-sales-guide.md
+[2]: ../../sale/sales-guide/edit-sales-guide.md
+[3]: ../../sale/sales-guide/deactivate-sales-guide.md
 
 <!-- Referenced images -->

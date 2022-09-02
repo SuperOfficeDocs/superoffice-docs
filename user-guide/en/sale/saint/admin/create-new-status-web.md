@@ -64,19 +64,18 @@ If a company, contact or project has several active statuses, the lower priority
 * [Manage status monitors][4]
 
 <!-- Referenced links -->
-[1]: ../../user/diary/template-variables.md
+[1]: ../../../user/diary/template-variables.md
 [2]: edit-description-for-status.md
 [3]: select-image-for-status.md
 [4]: manage-status-monitors.md
 [5]: select-default-follow-up-type-for-status.md
 [6]: select-status-criteria.md
 [7]: select-period-length.md
-[8]: ../../user/translate-fields.md
+[8]: ../../../user/translate-fields.md
 
 <!-- Referenced images -->
-[img1]: ../../../media/icons/translate.png
-[img2]: ../../../media/icons/admin/question.bmp
-[img3]: ../../../media/icons/admin/visualiser.bmp
-[img4]: ../../../media/icons/admin/roedt-kryss.bmp
-[img5]: ../../../media/icons/admin/pil-flyttopp.bmp
-[img6]: ../../../media/icons/admin/pil-flyttned.bmp
+[img2]: ../../../../media/icons/admin/question.bmp
+[img3]: ../../../../media/icons/admin/visualiser.bmp
+[img4]: ../../../../media/icons/admin/roedt-kryss.bmp
+[img5]: ../../../../media/icons/admin/pil-flyttopp.bmp
+[img6]: ../../../../media/icons/admin/pil-flyttned.bmp
