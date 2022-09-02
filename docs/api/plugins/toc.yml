@@ -6,6 +6,75 @@ items:
     href: document/soarc-document-plugin.md
   - name: Quote Connector
     href: quote-connectors/index.md
+    items:
+    - name: Administration
+      items:
+      - name: Setting up
+        href: quote-connectors/set-up.md
+      - name: Edit quote connection
+        href: quote-connectors/edit-connection.md
+      - name: Error system
+        href: quote-connectors/error-system.md
+    - name: In use
+      href: quote-connectors/api/index.md
+      items:
+      - name: Starting up
+        href: quote-connectors/start-client.md
+      - name: Capabilities
+        href: quote-connectors/capability-names.md
+      - name: Create quote
+        href: quote-connectors/create-quote.md
+      - name: Add Products
+        href: quote-connectors/adding-products.md
+      - name: Find product
+        href: quote-connectors/find-product.md
+      - name: Calculate prices
+        href: quote-connectors/calc-price.md
+      - name: Discounts
+        href: quote-connectors/discounts.md
+      - name: Save quote
+        href: quote-connectors/save-quote.md
+      - name: Send quote
+        href: quote-connectors/send-quote.md
+      - name: Approve quote
+        href: quote-connectors/appove-quote.md
+      - name: Place order
+        href: quote-connectors/place-order.md
+      - name: Quote Addresses
+        href: quote-connectors/addresses.md
+    - name: API
+      items:
+      - name: Online SOAP API
+        href: quote-connectors/online-quote-connectors/index.md
+      - name: .net on-site API
+        href: quote-connectors/api/index.md
+        items:
+        - name: IQuoteConnector
+          href: quote-connectors/api/iquoteconnector.md
+        - name: IQuoteConnector2
+          href: quote-connectors/api/iquoteconnector2.md
+        - name: IProductRegisterCache
+          href: quote-connectors/api/iproductregistercache.md
+        - name: Reason fields
+          href: quote-connectors/api/reason-fields.md
+        - name: Rights field
+          href: quote-connectors/api/rights-field.md
+        - name: IArchiveProvider
+          href: quote-connectors/api/iarchiveprovider.md
+        - name: QuoteConnectorBase
+          href: quote-connectors/api/quoteconnectorbase.md
+        - name: QuoteConnectorExtender
+          href: quote-connectors/api/quoteconnectorextender.md        
+    - name: Implementation guide
+      href: quote-connectors/implementation-guide.md
+    - name: Scenarios
+      href: quote-connectors/scenarios/index.md
+      items:
+      - name: Add product
+        href: quote-connectors/scenarios/add-product.md
+      - name: Customer specific product codes
+        href: quote-connectors/scenarios/customer-specific-product-codes.md
+
   - name: ERP Connector
     href: erp-connectors/index.md
     items:
