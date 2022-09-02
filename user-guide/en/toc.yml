@@ -5,6 +5,13 @@ items:
     href: company/toc.yml
   - name: Contact
     href: person/toc.yml
+  - name: Sale
+    href: sale/toc.yml
+    items:
+    - name: Quote
+      href: quote/toc.yml
+    - name: SAINT
+      href: saint/toc.yml
   - name: Chat
     href: chat/toc.yml
   - name: Dashboard
@@ -13,10 +20,6 @@ items:
     href: email/toc.yml
   - name: Reports
     href: reports/toc.yml
-  - name: Sale
-    items:
-    - name: SAINT
-      href: saint/toc.yml
   - name: User
     href: user/toc.yml
   - name: Admin

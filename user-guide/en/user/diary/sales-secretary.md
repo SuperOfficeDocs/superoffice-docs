@@ -26,11 +26,11 @@ The **Sales** section tab in the diary functions as a kind of "sales secretary" 
 
 ## Related topics
 
-* [The Sales section tab][19]
+* [The Sales section tab][1]
 
 <!-- Referenced links -->
 [1]: sale-card.md
-[2]: ../sale/status-of-sale-sold-and-lost.md
+[2]: ../../sale/stages.md
 
 <!-- Referenced images -->
 [img1]: ../../../media/icons/globalmenu-personalsettings-small.png

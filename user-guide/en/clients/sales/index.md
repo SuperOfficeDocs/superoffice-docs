@@ -16,7 +16,7 @@ so.lang: en
 * [Section tabs in the Contact screen][2]
 
 <!-- Referenced links -->
-[1]: section-tabs-in-company-screen.md
-[2]: section-tabs-in-contact-screen.md
+[1]: company/section-tabs-in-company-screen.md
+[2]: contact/section-tabs-in-contact-screen.md
 
 <!-- Referenced images -->

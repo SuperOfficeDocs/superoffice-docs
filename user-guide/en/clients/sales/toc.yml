@@ -2,41 +2,55 @@ items:
 - name: Company screen
   items:
   - name: Section tabs in the Company screen
-    href: section-tabs-in-company-screen.md
+    href: company/section-tabs-in-company-screen.md
     items:
     - name: Contacts
-      href: company-contacts.md
+      href: company/company-contacts.md
     - name: Relations
-      href: company-relations.md
+      href: company/company-relations.md
     - name: Activities
-      href: company-activities.md
+      href: company/company-activities.md
     - name: Projects
-      href: company-projects.md
+      href: company/company-projects.md
     - name: Sales
-      href: company-sales.md
+      href: company/company-sales.md
     - name: Requests
-      href: company-requests.md
+      href: company/company-requests.md
 - name: Contact screen
   items:
   - name: Section tabs in the Contact screen
-    href: section-tabs-in-contact-screen.md
+    href: contact/section-tabs-in-contact-screen.md
     items:
     - name: Activities
-      href: contact-activities.md
+      href: contact/contact-activities.md
     - name: Sales
-      href: contact-sales.md
+      href: contact/contact-sales.md
     - name: Requests
-      href: contact-requests.md
+      href: contact/contact-requests.md
     - name: Projects
-      href: contact-projects.md
+      href: contact/contact-projects.md
     - name: Relations
-      href: contact-relations.md
+      href: contact/contact-relations.md
+- name: Sale
+  items:
+  - name: Section tabs in the Sale screen
+    href: sale/sale-screen-section-tabs.md
+  - name: Activities sale
+    href: sale/activities-sale.md
+  - name: Salesguide detailcard
+    href: sale/salesguide-detailcard.md
+  - name: Quote detailcard
+    href: sale/quote-detailcard.md
+  - name: Quote
+    items:
+    - name: Quote dlg edit quote
+      href: sale/quote-dlg-edit-quote.md
 - name: Reports screen
-  href: reports-screen.md
+  href: reports/reports-screen.md
   items:
   - name: Report list
-    href: report-list.md
+    href: reports/report-list.md
   - name: Criteria list
-    href: criteria-list.md
+    href: reports/criteria-list.md
   - name: Report archive
-    href: report-archive.md
+    href: reports/report-archive.md

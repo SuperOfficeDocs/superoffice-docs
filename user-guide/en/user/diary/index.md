@@ -72,17 +72,17 @@ Each type of activity will be dealt with in separate topics and chapters, as fol
 [3]: phone-call.md
 [4]: write.md
 [5]: compose-email-web.md
-[6]:  activities-list.md
+[6]: activities-list.md
 [7]: tabs-in-diary-screen.md
 [8]: add-activities.md
 [9]: deleting-activities.md
 [10]: marking-activities-as-completed-not-completed.md
 [11]: dialling-contacts.md
 [12]: ../../chat/index.md
-[13]: ../../clients/sales/company-activities.md
-[14]: ../../clients/sales/contact-activities.md
+[13]: ../../clients/sales/company/company-activities.md
+[14]: ../../clients/sales/contact/contact-activities.md
 [15]: ../project/activities-project.md
-[16]: ../sale/activities-sale.md
+[16]: ../../clients/sales/sale/activities-sale.md
 [17]: ../getting-started/use-filters-in-section-tabs.md
 
 <!-- Referenced images -->

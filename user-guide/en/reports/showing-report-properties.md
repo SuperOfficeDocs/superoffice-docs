@@ -32,7 +32,7 @@ To view the properties of individual reports in the **Reports** screen:
 <!-- Referenced links -->
 [1]: standard-reports.md#types
 [2]: search-criteria-reports.md
-[3]: ../clients/sales/criteria-list.md
+[3]: ../clients/sales/reports/criteria-list.md
 [4]: index.md#report-types
 [5]: favorites/index.md
 

@@ -22,7 +22,7 @@ The following data is displayed:
     > [!TIP]
     > If you want to know what this next follow-up is, double-click the sale to open the **Sale** screen. The follow-up can be viewed in the **Activities** section tab of the sale.
 
-* the current stage of the sale (see [Enter information in the Sale tab][3])
+* the current stage of the sale
 
 * the sale amount
 
@@ -43,8 +43,7 @@ The **Sales** section tab functions as a kind of "sales secretary" to help you k
 <!-- Referenced links -->
 [1]: activities-list.md
 [2]: sales-secretary.md
-[3]: ../sale/createsale-sale-tab.md
-[4]: ../sale/status-of-sale-sold-and-lost.md
+[4]: ../../sale/stages.md
 
 <!-- Referenced images -->
 [img1]: ../../../media/icons/salg-solgt-detaljkort.bmp
