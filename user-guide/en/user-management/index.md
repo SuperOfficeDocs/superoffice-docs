@@ -42,6 +42,6 @@ In the **Users** screen you can add and edit different types of users:
 [1]: other-users.md
 [2]: our-companies.md
 [3]: associates.md
-[4]: ../role/edit-rights-for-anonymous-users.md
+[4]: ../admin/role/edit-rights-for-anonymous-users.md
 
 <!-- Referenced images -->

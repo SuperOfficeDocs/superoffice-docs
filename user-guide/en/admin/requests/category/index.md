@@ -29,7 +29,7 @@ Selecting **Requests** in the navigator and then the **Categories** tab, takes y
 [1]: new-category.md
 [2]: delete-category.md
 [3]: ../../lists/index.md
-[4]: ../../users/user-groups.md
+[4]: ../../../user-management/user-groups.md
 [5]: ../../../user/service/request/get-next-request-in-queue.md
 
 <!-- Referenced images -->

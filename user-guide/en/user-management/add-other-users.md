@@ -12,7 +12,7 @@ so.envir: onsite
 
 # Add other users
 
-[!include[Requirement](../includes/note-users-that-req-es.md)]
+[!include[Requirement](includes/note-users-that-req-es.md)]
 
 To add anonymous users or system users:
 

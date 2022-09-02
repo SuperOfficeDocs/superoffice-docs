@@ -61,10 +61,10 @@ To create a role for associates in the company or for external users:
 
 ## What would you like to do now?
 
-* [Add users][2]
+* [Add users][3]
 
 <!-- Referenced links -->
-[2]: ../users/adding-users.md
+[3]: ../../user-management/adding-users.md
 
 <!-- Referenced images -->
 [img4]: ../../../media/icons/admin/pil-ned.bmp

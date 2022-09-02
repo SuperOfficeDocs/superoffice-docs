@@ -33,7 +33,7 @@ If these two criteria are satisfied, you can delete companies as follows:
 > You cannot delete the company if it is registered as a database owner. If you select a database owner, the **Delete** button is disabled.
 
 <!-- Referenced links -->
-[1]: ../users/deleting-users.md
+[1]: ../../user-management/deleting-users.md
 
 <!-- Referenced images -->
 [img1]: ../../../media/icons/admin/knapp-systemvalg-liten.bmp

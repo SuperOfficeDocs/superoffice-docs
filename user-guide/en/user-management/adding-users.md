@@ -69,6 +69,6 @@ In the lower part of the user card, you can activate or deactivate the login rig
 <!-- Referenced links -->
 [1]: import-users-web.md
 [2]: visibility.md
-[3]: ../role/index.md
+[3]: ../admin/role/index.md
 
 <!-- Referenced images -->

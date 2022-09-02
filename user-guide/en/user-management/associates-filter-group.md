@@ -63,8 +63,8 @@ You can group the list of users by role, user plan, primary group etc. In additi
 * [Adjust views][1]
 
 <!-- Referenced links -->
-[1]: ../getting-started/adjusting-views.md
+[1]: ../admin/getting-started/adjusting-views.md
 
 <!-- Referenced images -->
-[img1]: ../../../media/icons/admin/btn-settings.png
-[img2]: ../../../media/icons/admin/btn-columnfilter.png
+[img1]: ../../media/icons/admin/btn-settings.png
+[img2]: ../../media/icons/admin/btn-columnfilter.png

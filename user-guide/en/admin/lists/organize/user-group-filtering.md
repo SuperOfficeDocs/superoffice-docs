@@ -66,7 +66,7 @@ You can also specify available items for a user group:
 
 <!-- Referenced links -->
 [1]: headings.md
-[2]: ../../users/index.md
+[2]: ../../../user-management/index.md
 
 <!-- Referenced images -->
 [img3]: ../../../../media/icons/admin/velg-alle.bmp

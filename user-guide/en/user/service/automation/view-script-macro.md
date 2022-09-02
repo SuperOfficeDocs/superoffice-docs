@@ -35,9 +35,8 @@ This screen has following options:
 
 <!-- Referenced images -->
 [img1]: ../../../../media/icons/arrow-left.png
-[img2]: ../../../../media/icons/globalmenu-settings-small.png
 [img3]: ../../../../media/icons/edit.png
 [img4]: ../../../../media/icons/btn-script-trace.png
 [img5]: ../../../../media/icons/btn-executescript.png
-[img6]: ../../../../media/icons/btn-debug.png
+[img6]: ../../../../../common/icons/bug.png
 [img7]: ../../../../media/icons/globalmenu-settings-small.png

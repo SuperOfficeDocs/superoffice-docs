@@ -26,6 +26,6 @@ You need to belong to the **User level 0** role or another role that gives you l
 
 <!-- Referenced links -->
 [1]: https://help.superoffice.com/SODispatcher/v1/agreement-addendum?langiso=%5Blani%5D&amp;nsVer=%5Bver#%5D
-[2]: ../users/index.md
+[2]: ../../user-management/index.md
 
 <!-- Referenced images -->

@@ -12,7 +12,7 @@ so.envir: onsite
 
 # Edit other users
 
-[!include[Requirement](../includes/note-users-that-req-es.md)]
+[!include[Requirement](includes/note-users-that-req-es.md)]
 
 To edit existing users in the **Other users** tab:
 

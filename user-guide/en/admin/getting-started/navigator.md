@@ -40,7 +40,7 @@ The Navigator on the far left of the main screen contains the following buttons:
 [1]: ../../user/service/automation/index.md
 [2]: ../../chat/index.md
 [5]: ../../license/index.md
-[6]: ../users/index.md
+[6]: ../../user-management/index.md
 [7]: ../role/index.md
 [8]: ../../person/gdpr/index.md
 [9]: ../../sale/saint/index.md

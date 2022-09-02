@@ -4,8 +4,6 @@ items:
 - name: Getting started
   href: getting-started/toc.yml
   topicHref: getting-started/index.md
-- name: Users
-  href: users/toc.yml
 - name: Role
   href: role/toc.yml
 - name: Lists

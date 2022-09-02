@@ -12,7 +12,7 @@ so.envir: onsite
 
 # Delete other users
 
-[!include[Requirement](../includes/note-users-that-req-es.md)]
+[!include[Requirement](includes/note-users-that-req-es.md)]
 
 To delete anonymous users or system users:
 

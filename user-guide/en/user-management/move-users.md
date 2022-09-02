@@ -27,7 +27,7 @@ To move a user:
 
 1. Select **Move to** and choose the company you want to move the contact to.
 
-[!include[Select action](../../includes/select-action-on-activity.md)]
+[!include[Select action](../includes/select-action-on-activity.md)]
 
 <!-- markdownlint-disable-next-line MD046 -->
     [!include[Preview results](../../includes/note-preview-results.md)]

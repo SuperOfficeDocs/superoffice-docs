@@ -14,7 +14,7 @@ so.client: web
 
 To add a company in the **Our companies** tab, it must first be registered as a company in SuperOffice CRM. Do this in SuperOffice CRM. To add a company in the **Our companies** tab, search for it first.
 
-[!include[To do this](../../includes/to-do-this.md)]
+[!include[To do this](../includes/to-do-this.md)]
 
 1. Open the Users screen.
 
@@ -46,7 +46,7 @@ To add a company in the **Our companies** tab, it must first be registered as a 
     * Last Name: Enter the whole or part of the last name of a contact at the company.
     * Telephone: Enter the whole or part of a phone number for the company.
     * E-mail: Enter the whole or part of an e-mail address for the company.
-    * Match also :Here you can specify further search criteria. [!include[See search criteria](../includes/see-search-admin.md)]
+    * Match also :Here you can specify further search criteria. [!include[See search criteria](../admin/includes/see-search-admin.md)]
     </details>
 
 3. When you have specified the required criteria, click the **Find** button.
@@ -67,4 +67,3 @@ To add a company in the **Our companies** tab, it must first be registered as a 
 [2]: deleting-companies-in-our-companies-tab.md
 
 <!-- Referenced images -->
-[img1]: ../../../media/icons/admin/question.bmp

@@ -73,7 +73,7 @@ To create a new category:
 
 <!-- Referenced links -->
 [1]: ../../preferences/index.md
-[2]: ../../users/user-groups.md
+[2]: ../../../user-management/user-groups.md
 [3]: ../../../user/service/request/get-next-request-in-queue.md
 
 <!-- Referenced images -->

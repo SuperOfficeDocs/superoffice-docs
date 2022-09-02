@@ -33,6 +33,6 @@ The company list consists of the following columns:
 <!-- Referenced links -->
 [1]: adding-companies-in-our-companies-tab.md
 [2]: deleting-companies-in-our-companies-tab.md
-[4]: ../users/index.md
+[3]: index.md
 
 <!-- Referenced images -->
