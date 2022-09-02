@@ -38,4 +38,4 @@ Personal profiles apply to a single user. You configure personal profiles by cli
 
 <!-- Referenced images -->
 [img1]: ../../../../media/icons/service/btn-editelementprofile.png
-[img2]: ../../../../media/icons/btn-dropdown.png
+[img2]: ../../../../../common/icons/dropdown-arrow.png

@@ -26,6 +26,6 @@ You can also click ![icon][img2] **Trace script** to start [tracing a script][1]
 [1]: Tracing.md
 
 <!-- Referenced images -->
-[img1]: ../../../../media/icons/btn-debug.png
+[img1]: ../../../../../common/icons/bug.png
 [img2]: ../../../../media/icons/btn-script-trace-small.png
 [img3]: ../../../../media/icons/globalmenu-settings-small.png

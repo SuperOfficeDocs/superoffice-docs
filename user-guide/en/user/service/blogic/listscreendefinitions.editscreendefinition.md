@@ -33,4 +33,4 @@ Here you can edit the properties of a screen. You can create a script to precalc
 [1]: ../request/autosave.md
 
 <!-- Referenced images -->
-[img1]: ../../../../media/icons/btn-dropdown.png
+[img1]: ../../../../../common/icons/dropdown-arrow.png

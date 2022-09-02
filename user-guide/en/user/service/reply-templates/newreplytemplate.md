@@ -82,5 +82,5 @@ To create a new reply template:
 [7]: viewreplytemplate.md#copy-reply-templates
 
 <!-- Referenced images -->
-[img1]: ../../../../media/icons/btn-delete.png
+[img1]: ../../../../../common/icons/delete-red.png
 [img2]: ../../../../media/icons/globalmenu-settings-small.png

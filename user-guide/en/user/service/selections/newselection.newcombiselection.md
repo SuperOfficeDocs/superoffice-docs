@@ -74,5 +74,5 @@ A combined selection is a combination of two or more existing selections. Here y
 [3]: editSelection2.md
 
 <!-- Referenced images -->
-[img1]: ../../../../media/icons/btn-dropdown.png
-[img2]: ../../../../media/icons/btn-delete.png
+[img1]: ../../../../../common/icons/dropdown-arrow.png
+[img2]: ../../../../../common/icons/delete-red.png

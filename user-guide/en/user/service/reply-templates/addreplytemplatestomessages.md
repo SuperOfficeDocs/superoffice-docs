@@ -28,5 +28,5 @@ When you respond to an customer enquiry, you can save time by using a reply temp
 [2]: newlangversion.md
 
 <!-- Referenced images -->
-[img1]: ../../../../media/icons/btn-dropdown.png
+[img1]: ../../../../../common/icons/dropdown-arrow.png
 [img2]: ../../../../media/icons/service/btn-preview.png

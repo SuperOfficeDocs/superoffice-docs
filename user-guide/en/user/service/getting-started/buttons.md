@@ -35,7 +35,7 @@ The global buttons appear throughout the SuperOffice Service interface:
 <!-- Referenced images -->
 [img1]: ../../../../media/icons/btn-menu.png
 [img2]: ../../../../media/icons/btn-add.png
-[img3]: ../../../../media/icons/btn-dropdown.png
+[img3]: ../../../../../common/icons/dropdown-arrow.png
 [img4]: ../../../../media/icons/favorite-inactive.png
 [img5]: ../../../../media/icons/service/search.png
 [img6]: ../../../../media/icons/service/btn-editelementprofile.png

@@ -62,5 +62,5 @@ But you first need to register a company. [!include[To do this](../../../include
 
 <!-- Referenced images -->
 [img1]: ../../../../media/icons/btn-add.png
-[img2]: ../../../../media/icons/btn-delete.png
+[img2]: ../../../../../common/icons/delete-red.png
 [img3]: ../../../../media/icons/service/btn-active-user.png

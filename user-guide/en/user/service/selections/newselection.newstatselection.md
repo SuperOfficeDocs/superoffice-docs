@@ -64,5 +64,5 @@ A static selection contains only those records you have added to it manually, un
 
 <!-- Referenced images -->
 [img1]: ../../../../media/icons/btn-add.png
-[img2]: ../../../../media/icons/btn-delete.png
+[img2]: ../../../../../common/icons/delete-red.png
 [img3]: ../../../../media/icons/btn-menu.png

@@ -14,4 +14,4 @@
 [1]: ../service/selections/editselectionfolder.md
 
 <!-- Referenced images -->
-[img1]: ../../../media/icons/btn-dropdown.png
+[img1]: ../../../../common/icons/dropdown-arrow.png

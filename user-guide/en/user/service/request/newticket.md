@@ -128,7 +128,7 @@ This tab contains any extra fields defined for requests. These will vary from co
 [img1]: ../../../../media/icons/btn-add.png
 [img2]: ../../../../media/icons/service/msg-toolbar.png
 [img3]: ../../../../media/icons/service/msg-attachment.png
-[img4]: ../../../../media/icons/btn-dropdown.png
+[img4]: ../../../../../common/icons/dropdown-arrow.png
 [img5]: ../../../../media/icons/service/Stop.png
 [img6]: ../../../../media/icons/service/Play.png
 [img7]: ../../../../media/icons/service/btn-calendar.jpg

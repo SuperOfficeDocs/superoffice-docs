@@ -81,12 +81,12 @@ Click the delete icon ( ![icon][img1] ) to the right of the required column. The
 <!-- Referenced links -->
 
 <!-- Referenced images -->
-[img1]: ../../../../media/icons/btn-delete.png
+[img1]: ../../../../../common/icons/delete-red.png
 [img2]: ../../../../media/icons/edit.png
 [img3]: ../../../../media/icons/service/btn-editelementprofile.png
 [img4]: ../../../../media/icons/service/calculator.png
 [img5]: ../../../../media/icons/service/field.png
-[img6]: ../../../../media/icons/btn-dropdown.png
+[img6]: ../../../../../common/icons/dropdown-arrow.png
 [img7]: ../../../../media/icons/service/up.png
 [img8]: ../../../../media/icons/service/btn-RankUp.png
 [img9]: ../../../../media/icons/service/calculator.png

@@ -84,9 +84,9 @@ You can edit the information about the existing columns, for example the name an
 [2]: editSelection2.md
 
 <!-- Referenced images -->
-[img1]: ../../../../media/icons/btn-delete.png
+[img1]: ../../../../../common/icons/delete-red.png
 [img2]: ../../../../media/icons/edit.png
-[img3]: ../../../../media/icons/btn-dropdown.png
+[img3]: ../../../../../common/icons/dropdown-arrow.png
 [img4]: ../../../../media/icons/service/up.png
 [img5]: ../../../../media/icons/service/btn-RankUp.png
 [img6]: ../../../../media/icons/service/btn-RankUp.png

@@ -62,4 +62,4 @@ To view the favourites list, do one of the following:
 [img3]: ../../../../media/icons/navmenu-favourites.png
 [img4]: ../../../../media/icons/navigator-favorites-small.png
 [img5]: ../../../../media/icons/btn-menu.png
-[img6]: ../../../../media/icons/btn-dropdown.png
+[img6]: ../../../../../common/icons/dropdown-arrow.png

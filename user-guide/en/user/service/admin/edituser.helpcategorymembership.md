@@ -31,5 +31,5 @@ You remove a category from the list by clicking the delete icon ( ![icon][img1] 
 [1]: editUser.helpUserInfo.md
 
 <!-- Referenced images -->
-[img1]: ../../../../media/icons/btn-delete.png
+[img1]: ../../../../../common/icons/delete-red.png
 [img2]: ../../../../media/icons/globalmenu-personalsettings-small.png

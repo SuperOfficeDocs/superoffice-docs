@@ -17,7 +17,7 @@ This screen is used to edit the properties of a new or existing script/macro fol
 
 To create a new folder:
 
-1. Click ![icon][img1]**New folder** at the top of the screen.
+1. Click ![icon][img1] **New folder** at the top of the screen.
 2. In the **Folder** field, select a parent folder in the list.
 3. Enter a descriptive name for the folder in the **Name** field.
 4. Click **OK**. The new folder is created.
@@ -43,4 +43,4 @@ When you delete a folder, all its contents (selections, FAQ entries, reply templ
 <!-- Referenced links -->
 
 <!-- Referenced images -->
-[img1]: ../../../../media/icons/add-folder.png
+[img1]: ../../../../../common/icons/folder.png

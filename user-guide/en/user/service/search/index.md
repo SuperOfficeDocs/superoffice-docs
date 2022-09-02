@@ -134,9 +134,9 @@ To return to the ordinary view, click the **Simple view** button at the top of t
 <!-- Referenced images -->
 [img1]: ../../../../media/icons/refresh.png
 [img2]: ../../../../media/icons/btn-menu.png
-[img3]: ../../../../media/icons/btn-dropdown.png
+[img3]: ../../../../../common/icons/dropdown-arrow.png
 [img4]: ../../../../media/icons/btn-add.png
-[img5]: ../../../../media/icons/btn-delete.png
+[img5]: ../../../../../common/icons/delete-red.png
 [img6]: ../../../../media/icons/service/search.png
 [img7]: ../../../../media/icons/service/inputText.png
 [img8]: ../../../../media/icons/service/btn-editelementprofile.png
