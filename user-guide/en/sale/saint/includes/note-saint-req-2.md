@@ -3,4 +3,4 @@
 > The **Sale - Amount class** list is part of the status monitor (SAINT) function, which requires a separate license. See [Licenses][1].
 
 <!-- Referenced links -->
-[1]: ../../../admin/licenses/index.md
+[1]: ../../../license/index.md

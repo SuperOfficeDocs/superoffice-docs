@@ -11,7 +11,7 @@ language: en
 
 # Import from Outlook
 
-[!include[Back up database before import](../includes/caution-backup-before-import.md)]
+[!include[Back up database before import](includes/caution-backup-before-import.md)]
 
 To import your Outlook companies into the SuperOffice database:
 
@@ -52,4 +52,4 @@ To import your Outlook companies into the SuperOffice database:
 <!-- Referenced links -->
 
 <!-- Referenced images -->
-[img2]: ../../../media/icons/admin/import-outlook-small.bmp
+[img2]: ../../media/icons/admin/import-outlook-small.bmp

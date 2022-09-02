@@ -1,4 +1,4 @@
-<!-- Licence - User licences 1 and 2-->
+<!-- markdownlint-disable-file MD041 -->
 * **Standard CRM User**: access to Standard CRM.
 * **Marketing User**: access  to the Marketing module (SuperOffice Marketing), in addition to Standard CRM.
 * **Sales User**: access to the Sale module, in addition to Standard CRM.

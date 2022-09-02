@@ -24,6 +24,6 @@ Save time and reduce manual work by automating various business processes, witho
 <!-- Referenced links -->
 [1]: text-analysis.md
 [2]: categorization.md
-[3]: ../../ chat/admin/channel-create.md#chatbot
+[3]: ../chat/admin/channel-create.md#chatbot
 
 <!-- Referenced images -->

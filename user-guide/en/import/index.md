@@ -13,7 +13,7 @@ language: en
 
 Using the Windows client? See [Windows Client settings][7].
 
-[!include[Back up database before import](../includes/caution-backup-before-import.md)]
+[!include[Back up database before import](includes/caution-backup-before-import.md)]
 
 In the **Import** screen, you can import companies, contacts and products into SuperOffice. You can import both new companies/contacts and existing companies/contacts with updated data.
 
@@ -55,6 +55,6 @@ If you are missing a lot of information about customers and contacts in SuperOff
 [4]: import-from-erp.md
 [5]: import-products-from-excel.md
 [6]: configure-import-settings.md
-[7]: ../win-client/import/index.md
+[7]: ../admin/win-client/import/index.md
 
 <!-- Referenced images -->

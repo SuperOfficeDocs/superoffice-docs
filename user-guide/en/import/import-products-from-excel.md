@@ -11,7 +11,7 @@ language: en
 
 # Import products from Excel
 
-[!include[Back up database before import](../includes/caution-backup-before-import.md)]
+[!include[Back up database before import](includes/caution-backup-before-import.md)]
 
 If you have an Excel spreadsheet with a list of products, you can easily import them into SuperOffice.
 
@@ -48,7 +48,7 @@ As the Excel spreadsheet may contain anything from just a few to a large number 
 > [!NOTE]
 > The spreadsheet must at minimum contain the columns you select for duplicate check in the procedure below (name, code or name+code).
 
-[!include[To do this](../../includes/to-do-this.md)]
+[!include[To do this](../includes/to-do-this.md)]
 
 1. Find the column containing the name of the products, click the **(No Selection)** column title and select **Product: Name**.
 
@@ -82,7 +82,7 @@ When the import is complete, a list of the imported products will be displayed. 
 <!-- Referenced links -->
 
 <!-- Referenced images -->
-[img1]: ../../../media/icons/admin/import-excel-small.bmp
-[img2]: ../../../media/icons/admin/import-warning.png
-[img3]: ../../../media/icons/admin/import-preview-icon-product-new.bmp
-[img4]: ../../../media/icons/admin/import-preview-icon-product-changed.bmp
+[img1]: ../../media/icons/admin/import-excel-small.bmp
+[img2]: ../../media/icons/admin/import-warning.png
+[img3]: ../../media/icons/admin/import-preview-icon-product-new.bmp
+[img4]: ../../media/icons/admin/import-preview-icon-product-changed.bmp

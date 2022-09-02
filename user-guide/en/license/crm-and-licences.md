@@ -46,7 +46,7 @@ There are also so-called site licences. A "site" in SuperOffice terms correspond
 
 Finally, there are user licences for SuperOffice CRM for Windows, which are purchased for a specific number of users. This applies amongst others to the following products:
 
-[!include[List of user licences for SuperOffice CRM for Windows](../includes/licences-win-users.md)]
+[!include[List of user licences for SuperOffice CRM for Windows](includes/licences-win-users.md)]
 
 > [!NOTE]
 > You assign user licences (CAL / Client Access Licence) to users from the **Associates** tab in the **Users** screen.
@@ -57,6 +57,6 @@ Finally, there are user licences for SuperOffice CRM for Windows, which are purc
 
 <!-- Referenced links -->
 [1]: editing-licence-information-web.md
-[2]: ../../sale/saint/index.md
+[2]: ../sale/saint/index.md
 
 <!-- Referenced images -->

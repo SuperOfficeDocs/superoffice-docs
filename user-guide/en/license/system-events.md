@@ -56,7 +56,7 @@ Under **System notifications** you will find the following columns:
 | Finished | Shows when the event is expected to finish.
 | Type | Shows whether the event applies to the whole system. |
 
-[!include[Terminate events](../includes/note-terminate-event.md)]
+[!include[Terminate events](includes/note-terminate-event.md)]
 
 ## What would you like to do now?
 

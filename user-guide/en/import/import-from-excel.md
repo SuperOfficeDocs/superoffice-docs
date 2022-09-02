@@ -11,7 +11,7 @@ language: en
 
 # Import from Excel
 
-[!include[Back up database before import](../includes/caution-backup-before-import.md)]
+[!include[Back up database before import](includes/caution-backup-before-import.md)]
 
 If you have an Excel spreadsheet with a list of your companies/contacts and associated data, you can easily import them into SuperOffice. The spreadsheet may for example contain:
 
@@ -50,7 +50,7 @@ As the Excel spreadsheet may contain anything from just a few to a large number 
 > [!NOTE]
 > If the Excel spreadsheet had a title row at the top, this will also be displayed in the list. You can remove this when you preview the data in the next step.
 
-[!include[To do this](../../includes/to-do-this.md)]
+[!include[To do this](../includes/to-do-this.md)]
 
 1. Find the column containing the name of the companies, click the **(No Selection)** column title and select **Company: Name**.
 
@@ -83,4 +83,4 @@ You must link all the required SuperOffice fields to their respective columns in
 <!-- Referenced links -->
 
 <!-- Referenced images -->
-[img2]: ../../../media/icons/admin/import-excel-small.bmp
+[img2]: ../../media/icons/admin/import-excel-small.bmp

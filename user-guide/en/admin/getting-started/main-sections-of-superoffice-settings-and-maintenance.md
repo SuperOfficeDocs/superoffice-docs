@@ -42,22 +42,22 @@ To access SOLoader, advanced import, replication, Travel and scripting, see [The
 
 <!-- Referenced links -->
 [1]: ../../user/service/automation/index.md
-[2]: ../../ chat/index.md
+[2]: ../../chat/index.md
 [3]: ../customer-center.md
 [4]: ../system-design.md
-[5]: ../licenses/index.md
+[5]: ../../license/index.md
 [6]: ../users/index.md
 [7]: ../role/index.md
-[8]: ../privacy/index.md
-[9]: ../saint/index.md
-[10]: ../ai/index.md
+[8]: ../../person/gdpr/index.md
+[9]: ../../sale/saint/index.md
+[10]: ../../ai/index.md
 [11]: ../lists/index.md
 [12]: ../quote-sync/index.md
 [13]: ../workflow.md
 [14]: ../screen-designer/index.md
 [15]: ../preferences/index.md
 [16]: ../options/index.md
-[17]: ../import/index.md
+[17]: ../../import/index.md
 [18]: ../fields/index.md
 [19]: ../requests/index.md
 [20]: ../win-client/main-sections-of-maintenance-client.md

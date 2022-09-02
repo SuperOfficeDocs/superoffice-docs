@@ -11,7 +11,7 @@ language: en
 
 # Configure import settings
 
-[!include[Back up database before import](../includes/caution-backup-before-import.md)]
+[!include[Back up database before import](includes/caution-backup-before-import.md)]
 
 In the **Import settings** dialog, you can customise the import to include precisely the what you want. To ensure that the quality of the imported data is as good as possible, it is important to specify the correct import settings.
 
@@ -64,7 +64,7 @@ A duplicate occurs if you have the same record in the import file and in the dat
 
 Under **Company**, and **Contact**, and **Product** in the **Import settings** dialog, specify how duplicates are to be managed.
 
-[!include[To do this](../../includes/to-do-this.md)]
+[!include[To do this](../includes/to-do-this.md)]
 
 1. Click the **Duplicate match** list box and select the field(s) that are to be used to identify duplicate companies or contacts.
 
@@ -161,6 +161,6 @@ The import source may, for example, contain product categories that are not regi
 * **Ignore - set to blank**: No new values will be added to SuperOffice.
 
 <!-- Referenced links -->
-[1]: ../../person/gdpr/index.md
+[1]: ../person/gdpr/index.md
 
 <!-- Referenced images -->

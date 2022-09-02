@@ -12,7 +12,7 @@ so.envir: onsite
 
 # Add system events
 
-You can initiate some system events from **System notifications** list in the **Status** tab (see [System events][1]). [!include[To do this](../../includes/to-do-this.md)]
+You can initiate some system events from **System notifications** list in the **Status** tab (see [System events][1]). [!include[To do this](../includes/to-do-this.md)]
 
 1. Open the **Licences** screen.
 
@@ -24,7 +24,7 @@ You can initiate some system events from **System notifications** list in the **
 
 5. Specify the date and time when you expect the event to finish in the **Finished** fields.
 
-    [!include[Terminate events](../includes/note-terminate-event.md)]
+    [!include[Terminate events](includes/note-terminate-event.md)]
 
 6. Enter more detailed information about the event in the **Description** field.
 
