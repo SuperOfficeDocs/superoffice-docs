@@ -20,7 +20,7 @@ When you have performed a backup of the database file, found the right data file
 
 To import a data file into the SuperOffice database:
 
-1. [!include[How to open import](../../includes/open-import.md)]
+1. [!include[How to open import](includes/open-import.md)]
 
 [!include[Import description](includes/step-import-description.md)]
 

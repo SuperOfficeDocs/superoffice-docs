@@ -15,7 +15,7 @@ so.envir: onsite
 
 To edit import descriptions:
 
-1. [!include[How to open import](../../includes/open-import.md)]
+1. [!include[How to open import](includes/open-import.md)]
 
 1. Click ![icon][img1] next to the **Import description file** field and select an import description file in the dialog which opens.
 
@@ -34,4 +34,4 @@ To edit import descriptions:
 [1]: creating-import-descriptions.md
 
 <!-- Referenced images -->
-[img1]: ../../../../media/icons/admin/soek.bmp
+[img1]: ../../../media/icons/admin/soek.bmp

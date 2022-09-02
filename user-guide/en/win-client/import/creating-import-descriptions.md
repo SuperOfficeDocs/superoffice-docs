@@ -18,7 +18,7 @@ so.envir: onsite
 
 To create an import description:
 
-1. [!include[How to open import](../../includes/open-import.md)]
+1. [!include[How to open import](includes/open-import.md)]
 
 2. Click the **New** button at the top right of the screen. The **Import** screen is cleared.
 

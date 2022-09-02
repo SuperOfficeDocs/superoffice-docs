@@ -55,6 +55,6 @@ If you are missing a lot of information about customers and contacts in SuperOff
 [4]: import-from-erp.md
 [5]: import-products-from-excel.md
 [6]: configure-import-settings.md
-[7]: ../admin/win-client/import/index.md
+[7]: ../win-client/import/index.md
 
 <!-- Referenced images -->

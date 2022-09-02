@@ -7,4 +7,4 @@
     > The import description and import file must contain the same number of columns. You cannot insert any file at will into the **Import file** field.
 
 <!-- Referenced images -->
-[img1]: ../../../../../media/icons/admin/soek.bmp
+[img1]: ../../../../media/icons/admin/soek.bmp

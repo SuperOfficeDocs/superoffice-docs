@@ -15,7 +15,7 @@ so.envir: onsite
 
 To reset one or all of the defined rules for duplicate handling:
 
-1. [!include[How to open import](../../includes/open-import.md)]
+1. [!include[How to open import](includes/open-import.md)]
 
 2. Click ![icon][img1] next to the **Import description file** field and select an import description file in the dialog which opens. An import file and previously selected settings are inserted automatically.
     Or:

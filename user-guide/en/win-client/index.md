@@ -18,6 +18,6 @@ Windows Client settings is the Windows-based administration client for SuperOffi
 The majority of the administration features are available in [Settings and maintenance][1].
 
 <!-- Referenced links -->
-[1]: ../getting-started/index.md
+[1]: ../admin/getting-started/index.md
 
 <!-- Referenced images -->

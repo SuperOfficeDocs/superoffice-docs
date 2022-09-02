@@ -15,7 +15,7 @@ so.envir: onsite
 
 To delete a field mapping:
 
-1. [!include[How to open import](../../includes/open-import.md)]
+1. [!include[How to open import](includes/open-import.md)]
 
 [!include[Import description](includes/step-import-description.md)]
 

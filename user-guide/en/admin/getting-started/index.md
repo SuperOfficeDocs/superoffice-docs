@@ -20,6 +20,6 @@ Settings and maintenance is the web-based administration client for SuperOffice 
 Certain features like replication, Travel, Satellite, import and scripting are only available from the Windows-based administration client ([Windows Client settings][1]).
 
 <!-- Referenced links -->
-[1]: ../win-client/index.md
+[1]: ../../win-client/index.md
 
 <!-- Referenced images -->

@@ -23,4 +23,4 @@ To read more about the features/modules available in the web-based maintenance c
 <!-- Referenced links -->
 [1]: status-screen.md
 [2]: import/index.md
-[3]: ../getting-started/main-sections-of-superoffice-settings-and-maintenance.md
+[3]: ../admin/getting-started/main-sections-of-superoffice-settings-and-maintenance.md

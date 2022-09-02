@@ -29,5 +29,5 @@ The Navigator on the far left of the main screen contains the following buttons:
 [2]: import/index.md
 
 <!-- Referenced images -->
-[img1]: ../../../media/icons/admin/knapp-status.bmp
-[img2]: ../../../media/icons/admin/knapp-import.bmp
+[img1]: ../../media/icons/admin/knapp-status.bmp
+[img2]: ../../media/icons/admin/knapp-import.bmp

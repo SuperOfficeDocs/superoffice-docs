@@ -25,6 +25,8 @@ items:
     href: admin/toc.yml
   - name: Licenses
     href: license/toc.yml
+  - name: win-client
+    href: win-client/toc.yml
   - name: License agreement
     href: License-agreement.md
   - name: Copyright information

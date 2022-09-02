@@ -15,7 +15,7 @@ so.envir: onsite
 
 You always need to specify rules for handling duplicates during importing. You do this as follows:
 
-1. [!include[How to open import](../../includes/open-import.md)]
+1. [!include[How to open import](includes/open-import.md)]
 
 2. Click ![icon][img1] next to the **Import description file** field and select an import description file in the dialog which opens. An import file and previously selected settings are inserted automatically.
     Or:
@@ -53,8 +53,7 @@ You always need to specify rules for handling duplicates during importing. You d
 
 <!-- Referenced links -->
 [1]: field-mapping.md
-[2]: import-descriptions.md
 [3]: resetting-rules-for-duplicate-handling.md
 
 <!-- Referenced images -->
-[img1]: ../../../../media/icons/admin/soek.bmp
+[img1]: ../../../media/icons/admin/soek.bmp

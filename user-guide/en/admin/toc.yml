@@ -32,9 +32,6 @@ items:
   href: system-design.md
 - name: App Store
   href: app-store.md
-- name: win-client
-  href: win-client/toc.yml
-  topicHref: win-client/index.md
 # Unedited files and entries below this point, sorted alphabetically
 - name: Orphaned content
   items:
