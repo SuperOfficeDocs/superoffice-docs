@@ -16,6 +16,8 @@ items:
     href: stakeholders/create-stakeholders.md
   - name: Edit stakeholders
     href: stakeholders/edit-stakeholders.md
+  - name: Sales role (Stakeholders)
+    href: stakeholders/sales-role-stakeholders.md
 - name: Sales guide
   href: sales-guide/index.md
   items:
@@ -23,5 +25,26 @@ items:
     href: sales-guide/working-with-sales-guide.md
   - name: Example
     href: sales-guide/example-salesguide.md
+  - name: Create new sales guide
+    href: sales-guide/create-new-sales-guide.md
+  - name: Edit sales guide
+    href: sales-guide/edit-sales-guide.md
+  - name: Deactivate sales guide
+    href: sales-guide/deactivate-sales-guide.md
 - name: Sales targets
   href: sales-targets.md
+- name: For administrators
+  items:
+  - name: Adding items to the Sale Stage list
+    href: admin/adding-items-to-sale-stage-list.md
+  - name: Adding items to the Sale Sales type (for stages) list
+    href: admin/sale-type-stages-quote.md
+  - name: Sale Amount class
+    href: admin/sale-amount-class.md
+    items:
+    - name: Adding items to the Sale Amount class list
+      href: admin/adding-items-to-sale-amount-class-list.md
+- name: Quote
+  href: quote/toc.yml
+- name: SAINT
+  href: saint/toc.yml

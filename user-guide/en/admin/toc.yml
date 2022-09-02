@@ -4,24 +4,16 @@ items:
 - name: Getting started
   href: getting-started/toc.yml
   topicHref: getting-started/index.md
-- name: Licenses
-  href: licenses/toc.yml
 - name: Users
   href: users/toc.yml
 - name: Role
   href: role/toc.yml
-- name: Status monitor (SAINT)
-  href: saint/toc.yml
-- name: ai
-  href: ai/toc.yml
 - name: Lists
   href: lists/toc.yml
 - name: Quote sync
   href: quote-sync/toc.yml
 - name: Workflow
   href: workflow.md
-- name: Sale
-  href: sale/toc.yml
 - name: Project
   href: project/toc.yml
 - name: Screen designer
@@ -30,8 +22,6 @@ items:
   href: preferences/toc.yml
 - name: Options
   href: options/toc.yml
-- name: Import web
-  href: import/toc.yml
 - name: Fields web
   href: fields/toc.yml
 - name: Requests

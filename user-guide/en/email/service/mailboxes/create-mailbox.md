@@ -83,9 +83,9 @@ You can create a mailbox to use for importing email into SuperOffice Service. Be
 
 <!-- Referenced links -->
 [1]: delete-mailbox.md
-[2]: ../../../admin/ai/text-analysis.md
-[3]: ../../../admin/ai/categorization.md
-[4]: ../../../admin/ai/index.md
+[2]: ../../../ai/text-analysis.md
+[3]: ../../../ai/categorization.md
+[4]: ../../../ai/index.md
 
 <!-- Referenced images -->
 [img1]: ../../../../media/icons/btn-add.png

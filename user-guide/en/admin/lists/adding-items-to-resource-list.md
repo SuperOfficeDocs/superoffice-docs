@@ -32,6 +32,5 @@ When you add an item to the **General - Resource** list, the **Edit List Item** 
 5. [!include[Save or cancel](../includes/save-or-cancel.md)]
 
 <!-- Referenced links -->
-[1]: adding-items.md
 
 <!-- Referenced images -->

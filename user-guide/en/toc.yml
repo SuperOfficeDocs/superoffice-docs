@@ -7,11 +7,8 @@ items:
     href: person/toc.yml
   - name: Sale
     href: sale/toc.yml
-    items:
-    - name: Quote
-      href: quote/toc.yml
-    - name: SAINT
-      href: saint/toc.yml
+  - name: AI
+    href: ai/toc.yml
   - name: Chat
     href: chat/toc.yml
   - name: Dashboard
@@ -20,10 +17,14 @@ items:
     href: email/toc.yml
   - name: Reports
     href: reports/toc.yml
+  - name: Import web
+    href: import/toc.yml
   - name: User
     href: user/toc.yml
   - name: Admin
     href: admin/toc.yml
+  - name: Licenses
+    href: license/toc.yml
   - name: License agreement
     href: License-agreement.md
   - name: Copyright information

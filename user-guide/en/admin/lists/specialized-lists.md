@@ -45,9 +45,9 @@ It is generally very easy to add, edit and delete lists and items. Some lists, h
 [11]: ../../person/gdpr/index.md#source
 [12]: ../project/project-status.md
 [13]: ../project/project-type.md
-[14]: ../sale/sale-amount-class.md
-[15]: ../sale/sale-stage.md
-[16]: ../sale/sales-role-stakeholders.md
-[17]: ../sale/sales-type-for-stages.md
+[14]: ../../sale/admin/sale-amount-class.md
+[15]: ../../clients/admin/sale-stage.md
+[16]: ../../sale/stakeholders/sales-role-stakeholders.md
+[17]: ../../clients/admin/sales-type-for-stages.md
 
 <!-- Referenced images -->

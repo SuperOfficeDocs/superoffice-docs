@@ -55,6 +55,6 @@ You must check the **Active** column to activate the connection, so that the **E
 [3]: sync-configure-default-values.md
 [4]: sync-rank-fields-shown-in-erp-tab.md
 [5]: sync-set-sync-priority.md
-[6]: ../../import/import-from-erp.md
+[6]: ../../../import/import-from-erp.md
 
 <!-- Referenced images -->

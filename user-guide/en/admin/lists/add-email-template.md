@@ -88,9 +88,9 @@ Here you can add translated versions of the document template. [!include[To do t
 <!-- Referenced links -->
 [1]: ../../user/translate-fields.md
 [2]: ../../user/diary/template-variables.md
-[3]: ../sale/sale-type-stages-quote.md
+[3]: ../../sale/admin/sale-type-stages-quote.md
 [4]: ../../person/gdpr/privacy-source-add.md
-[5]: ../saint/index.md
+[5]: ../../sale/saint/index.md
 
 <!-- Referenced images -->
 [img1]: ../../../media/icons/translate.png

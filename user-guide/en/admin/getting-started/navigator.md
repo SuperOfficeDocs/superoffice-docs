@@ -31,32 +31,32 @@ The Navigator on the far left of the main screen contains the following buttons:
 | [![icon][img14]][17] | **Import**: opens the **Import** screen, where you can import data into the SuperOffice database. |
 | [![icon][img15]][18] | **Fields**: opens the **Fields** screen, where you define user-defined fields for SuperOffice CRM. |
 | [![icon][img16]][1] | **CRMScript**: opens the screen with various functions for scripting and automation, such as macros, event handlers and scheduled tasks. |
-| ![icon][img17] | **Requests**: here you can find various settings for requests in SuperOffice Service. |
+| [![icon][img17]][19] | **Requests**: here you can find various settings for requests in SuperOffice Service. |
 | ![icon][img18] | **Customer centre**: here you can configure the customer centre. You can edit the content and layout of the customer centre and edit the default content. |
 | ![icon][img19] | **System design**: here you can find various advanced settings for SuperOffice Service. |
 | [![icon][img20]][21] | **App Store**: Click here to open the SuperOffice App Store, where you can explore standard apps, modules and integrations that can expand SuperOffice CRM Online. |
 
 <!-- Referenced links -->
 [1]: ../../user/service/automation/index.md
-[2]: ../../ chat/index.md
-[5]: ../licenses/index.md
+[2]: ../../chat/index.md
+[5]: ../../license/index.md
 [6]: ../users/index.md
 [7]: ../role/index.md
-[8]: ../privacy/index.md
-[9]: ../saint/index.md
-[10]: ../ai/index.md
+[8]: ../../person/gdpr/index.md
+[9]: ../../sale/saint/index.md
+[10]: ../../ai/index.md
 [11]: ../lists/index.md
 [12]: ../quote-sync/index.md
 [13]: ../workflow.md
 [14]: ../screen-designer/index.md
 [15]: ../preferences/index.md
 [16]: ../options/index.md
-[17]: ../import/index.md
+[17]: ../../import/index.md
 [18]: ../fields/index.md
 [19]: ../requests/index.md
 [21]: https://online.superoffice.com/appstore
 [22]: ../preferences/video-meetings/index.md
-[23]:  ../preferences/document-library.md
+[23]: ../preferences/document-library.md
 
 <!-- Referenced images -->
 [img1]: ../../../media/icons/chat-btn.png
