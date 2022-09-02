@@ -30,6 +30,11 @@
           "**/*.pptx",
           "**/*.app"
         ]
+      },
+      {
+        "src":"common/icons/",
+        "dest":"help",
+        "files": "**/*.png"
       }
     ],
     "xref": [
