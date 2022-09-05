@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Audience/SaveConfigParameter
-id: v1AudienceAgent_SaveConfigParameter
+uid: v1AudienceAgent_SaveConfigParameter
 ---
 
 # POST Agents/Audience/SaveConfigParameter
@@ -11,6 +11,12 @@ POST /api/v1/Agents/Audience/SaveConfigParameter
 
 Saves an Audience configuration parameter belonging to a Audience layout
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Saves an Audience configuration parameter belonging to a Audience layout
 ```http
 POST /api/v1/Agents/Audience/SaveConfigParameter?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,27 +42,25 @@ POST /api/v1/Agents/Audience/SaveConfigParameter?$select=name,department,categor
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-LayoutName, ConfigParameter
+LayoutName, ConfigParameter 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | LayoutName | string |  |
-| ConfigParameter |  | An Audience configuration parameter, used for handling Audience application or Web part settings. <br /> Carrier object for AudienceConfigParameter. Services for the AudienceConfigParameter Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IAudienceAgent">Audience Agent</see>. |
+| ConfigParameter |  | An Audience configuration parameter, used for handling Audience application or Web part settings. <para /> Carrier object for AudienceConfigParameter. Services for the AudienceConfigParameter Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IAudienceAgent">Audience Agent</see>. |
 
-## Response: object
 
-An Audience configuration parameter, used for handling Audience application or Web part settings.
+## Response: 
 
-Carrier object for AudienceConfigParameter.
-Services for the AudienceConfigParameter Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IAudienceAgent">Audience Agent</see>.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -69,7 +74,7 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Audience/SaveConfigParameter
@@ -79,43 +84,31 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "LayoutName": "Kuvalis-Weissnat",
-  "ConfigParameter": {
-    "AudienceLayoutId": 983,
-    "Name": "Kshlerin LLC",
-    "Value": "est",
-    "CreatedDate": "2017-01-02T18:28:48.1285431+01:00",
-    "UpdatedDate": "2015-06-01T18:28:48.1285431+02:00",
-    "CreatedBy": "explicabo",
-    "UpdatedBy": "omnis"
-  }
+  "LayoutName": "Kreiger Inc and Sons",
+  "ConfigParameter": null
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AudienceLayoutId": 365,
-  "Name": "Davis, Hoeger and Sawayn",
-  "Value": "numquam",
-  "CreatedDate": "2002-01-26T18:28:48.1285431+01:00",
-  "UpdatedDate": "2001-01-21T18:28:48.1285431+01:00",
-  "CreatedBy": "voluptatem",
-  "UpdatedBy": "ut",
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "AudienceLayoutId": 367,
+  "Name": "Ullrich, Nader and Treutel",
+  "Value": "voluptatem",
+  "CreatedDate": "2004-06-13T11:10:26.0035505+02:00",
+  "UpdatedDate": "2003-10-30T11:10:26.0035505+01:00",
+  "CreatedBy": "corporis",
+  "UpdatedBy": "consequatur",
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
-      "FieldType": "System.String",
-      "FieldLength": 49
+      "FieldRight": null,
+      "FieldType": "System.Int32",
+      "FieldLength": 206
     }
   }
 }

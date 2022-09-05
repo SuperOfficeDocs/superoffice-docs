@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "RefCountRange"
-so.date: 04.12.2022
+so.date: 08.26.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -33,6 +33,7 @@ Number allocation system, for keeping track of ranges of numbers loaned out to t
 |updatedCount|Number of updates made to this record|UShort| |
 |highestInUse|The highest number (within the range) that is currently in use. This used to be the infamous preference!|UInt| |
 
+
 ![RefCountRange table relationship diagram](./media/RefCountRange.png)
 
 [!include[details](./includes/refcountrange.md)]
@@ -52,6 +53,7 @@ Number allocation system, for keeping track of ranges of numbers loaned out to t
 |[associate](associate.md)  |Employees, resources and other users - except for External persons |
 |[RefCounts](refcounts.md)  |Number counter for all tables that generate numbers, e.g. templates, contacts...   This table is used for the number allocation system and should not be confused with sequence, used for allocating internal ID&apos;s. This table is replicated during generation of satellites and during local update for travellers, using special logic. By default it contains rows for the SuperOffice standard counters, including one row for each DocTemplate record.  It is permissible to add new rows to this table, and such records are maintainable through the Maintenance client.  Changing the contents of the standard records is not recommended.  |
 
+
 ## Replication Flags
 
 * None
@@ -59,3 +61,4 @@ Number allocation system, for keeping track of ranges of numbers loaned out to t
 ## Security Flags
 
 * No access control via user's Role.
+

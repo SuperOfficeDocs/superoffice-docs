@@ -7,7 +7,7 @@ keywords:
   - "mdo provider"
   - "quotetemplate"
 so.generated: true
-so.date: 03.19.2021
+so.date: 08.26.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -15,9 +15,10 @@ so.envir:
 ---
 
 # "quotetemplate" MDO List
-
 This is a variant of the DocTmpl list - document templates - restricted to those that are of some quote document type.
 Use AdditionalInfo 'DocTmplQuoteType=&lt;a valid DocTmplQuoteType enum string value&gt;' to specify which one it should be
+
+
 
 Implemented by the <see cref="T:SuperOffice.CRM.Lists.QuoteTemplateProvider">QuoteTemplateProvider</see> class.
 The name of the MDO list is 'quotetemplate'.
@@ -27,6 +28,10 @@ The name of the MDO list is 'quotetemplate'.
 | Description | Name | Example Value |
 |-----|-----|------|
 |DocTmplQuoteType enum value| DocTmplQuoteType|MainDocument|
+
+
+
+
 
 ## Sample Request
 
@@ -39,7 +44,6 @@ Accept-Language: *
 ```
 
 ## Sample Code
-
 ```cs
 var listProvider = SuperOffice.CRM.Lists.SoListProviderFactory.Create("quotetemplate", forceFlatList: true);
 foreach (var item in listProvider.RootItems) {
@@ -57,6 +61,7 @@ foreach (var item in listProvider.RootItems) {
 |16|Quote - detailed|||
 |17|Quote e-mail|||
 |15|Quote|||
+
 
 ## Related MDO Lists
 

@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "ModuleLicense"
-so.date: 04.12.2022
+so.date: 08.26.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -44,6 +44,7 @@ Module licenses, belonging to one single owner
 |hidden|If true, then this module should not appear in GUI and is not assignable by users|Bool|&#x25CF;|
 |prerequisiteModule|If set, specifies a module license needed before this license can be granted|String(239)|&#x25CF;|
 
+
 ![ModuleLicense table relationship diagram](./media/ModuleLicense.png)
 
 [!include[details](./includes/modulelicense.md)]
@@ -64,6 +65,7 @@ Module licenses, belonging to one single owner
 |[LicenseSatlLink](licensesatllink.md)  |Link between License and Satellite, for per-database licenses |
 |[ModuleOwner](moduleowner.md)  |Unique owner of a set of licensed modules |
 
+
 ## Replication Flags
 
 * Replicate changes DOWN from central to satellites and travellers.
@@ -72,3 +74,4 @@ Module licenses, belonging to one single owner
 ## Security Flags
 
 * No access control via user's Role.
+

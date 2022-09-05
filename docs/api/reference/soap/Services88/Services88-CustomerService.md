@@ -8,11 +8,11 @@ title: Services88.CustomerServiceAgent WSDL
 
 ```xml
 <?xml version="1.0" encoding="utf-8"?>
-<wsdl:definitions name="WcfCustomerServiceService" targetNamespace="http://www.superoffice.net/ws/crm/NetServer/Services88" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:tns="http://www.superoffice.net/ws/crm/NetServer/Services88" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<wsdl:definitions name="WcfCustomerServiceService" targetNamespace="http://www.superoffice.net/ws/crm/NetServer/Services88" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tns="http://www.superoffice.net/ws/crm/NetServer/Services88" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing">
   <wsdl:types>
     <xs:schema elementFormDefault="qualified" targetNamespace="http://www.superoffice.net/ws/crm/NetServer/Services88" xmlns:xs="http://www.w3.org/2001/XMLSchema">
-      <xs:import namespace="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
       <xs:import namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+      <xs:import namespace="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
       <xs:element name="CreateDefaultCustomerCenterConfig">
         <xs:complexType>
           <xs:sequence />
@@ -82,6 +82,22 @@ title: Services88.CustomerServiceAgent WSDL
               <xs:enumeration value="Delete" />
               <xs:enumeration value="Filtering" />
               <xs:enumeration value="RestrictedUpdate" />
+              <xs:enumeration value="Unused1" />
+              <xs:enumeration value="Uninitialized" />
+              <xs:enumeration value="R">
+                <xs:annotation>
+                  <xs:appinfo>
+                    <EnumerationValue xmlns="http://schemas.microsoft.com/2003/10/Serialization/">1</EnumerationValue>
+                  </xs:appinfo>
+                </xs:annotation>
+              </xs:enumeration>
+              <xs:enumeration value="F">
+                <xs:annotation>
+                  <xs:appinfo>
+                    <EnumerationValue xmlns="http://schemas.microsoft.com/2003/10/Serialization/">16</EnumerationValue>
+                  </xs:appinfo>
+                </xs:annotation>
+              </xs:enumeration>
             </xs:restriction>
           </xs:simpleType>
         </xs:list>
@@ -133,6 +149,13 @@ title: Services88.CustomerServiceAgent WSDL
               <xs:enumeration value="UIHintMandatory" />
               <xs:enumeration value="UIHintReadOnly" />
               <xs:enumeration value="UndefinedValue256" />
+              <xs:enumeration value="Nullable">
+                <xs:annotation>
+                  <xs:appinfo>
+                    <EnumerationValue xmlns="http://schemas.microsoft.com/2003/10/Serialization/">32</EnumerationValue>
+                  </xs:appinfo>
+                </xs:annotation>
+              </xs:enumeration>
             </xs:restriction>
           </xs:simpleType>
         </xs:list>
@@ -1006,6 +1029,20 @@ title: Services88.CustomerServiceAgent WSDL
               </xs:appinfo>
             </xs:annotation>
           </xs:enumeration>
+          <xs:enumeration value="SalesBeforeSaveApproveQuote">
+            <xs:annotation>
+              <xs:appinfo>
+                <EnumerationValue xmlns="http://schemas.microsoft.com/2003/10/Serialization/">1014</EnumerationValue>
+              </xs:appinfo>
+            </xs:annotation>
+          </xs:enumeration>
+          <xs:enumeration value="SalesBeforeSaveRejectQuote">
+            <xs:annotation>
+              <xs:appinfo>
+                <EnumerationValue xmlns="http://schemas.microsoft.com/2003/10/Serialization/">1015</EnumerationValue>
+              </xs:appinfo>
+            </xs:annotation>
+          </xs:enumeration>
           <xs:enumeration value="SalesAfterSaveAppointment">
             <xs:annotation>
               <xs:appinfo>
@@ -1094,6 +1131,20 @@ title: Services88.CustomerServiceAgent WSDL
             <xs:annotation>
               <xs:appinfo>
                 <EnumerationValue xmlns="http://schemas.microsoft.com/2003/10/Serialization/">1113</EnumerationValue>
+              </xs:appinfo>
+            </xs:annotation>
+          </xs:enumeration>
+          <xs:enumeration value="SalesAfterSaveApproveQuote">
+            <xs:annotation>
+              <xs:appinfo>
+                <EnumerationValue xmlns="http://schemas.microsoft.com/2003/10/Serialization/">1114</EnumerationValue>
+              </xs:appinfo>
+            </xs:annotation>
+          </xs:enumeration>
+          <xs:enumeration value="SalesAfterSaveRejectQuote">
+            <xs:annotation>
+              <xs:appinfo>
+                <EnumerationValue xmlns="http://schemas.microsoft.com/2003/10/Serialization/">1115</EnumerationValue>
               </xs:appinfo>
             </xs:annotation>
           </xs:enumeration>
@@ -1370,6 +1421,90 @@ title: Services88.CustomerServiceAgent WSDL
           </xs:sequence>
         </xs:complexType>
       </xs:element>
+      <xs:element name="GetPreviewFaqEntry">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="KbEntryId" type="xs:int" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="GetPreviewFaqEntryResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="Response" nillable="true" type="tns:PreviewFaqEntry" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:complexType name="PreviewFaqEntry">
+        <xs:complexContent mixed="false">
+          <xs:extension base="tns:Carrier">
+            <xs:sequence>
+              <xs:element minOccurs="0" name="Title" nillable="true" type="xs:string" />
+              <xs:element minOccurs="0" name="RegisteredByFullName" nillable="true" type="xs:string" />
+              <xs:element minOccurs="0" name="Updated" type="xs:dateTime" />
+              <xs:element minOccurs="0" name="Question" nillable="true" type="xs:string" />
+              <xs:element minOccurs="0" name="Answer" nillable="true" type="xs:string" />
+            </xs:sequence>
+          </xs:extension>
+        </xs:complexContent>
+      </xs:complexType>
+      <xs:element name="PreviewFaqEntry" nillable="true" type="tns:PreviewFaqEntry" />
+      <xs:element name="GetPreviewQuickReply">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="QuickReplyId" type="xs:int" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="GetPreviewQuickReplyResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="Response" nillable="true" type="tns:PreviewQuickReply" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:complexType name="PreviewQuickReply">
+        <xs:complexContent mixed="false">
+          <xs:extension base="tns:Carrier">
+            <xs:sequence>
+              <xs:element minOccurs="0" name="Name" nillable="true" type="xs:string" />
+              <xs:element minOccurs="0" name="UpdatedByFullName" nillable="true" type="xs:string" />
+              <xs:element minOccurs="0" name="Updated" type="xs:dateTime" />
+              <xs:element minOccurs="0" name="HtmlBody" nillable="true" type="xs:string" />
+            </xs:sequence>
+          </xs:extension>
+        </xs:complexContent>
+      </xs:complexType>
+      <xs:element name="PreviewQuickReply" nillable="true" type="tns:PreviewQuickReply" />
+      <xs:element name="GetPreviewReplyTemplate">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="ReplyTemplateId" type="xs:int" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="GetPreviewReplyTemplateResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="Response" nillable="true" type="tns:PreviewReplyTemplate" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:complexType name="PreviewReplyTemplate">
+        <xs:complexContent mixed="false">
+          <xs:extension base="tns:Carrier">
+            <xs:sequence>
+              <xs:element minOccurs="0" name="Name" nillable="true" type="xs:string" />
+              <xs:element minOccurs="0" name="Description" nillable="true" type="xs:string" />
+              <xs:element minOccurs="0" name="OwnedByFullName" nillable="true" type="xs:string" />
+              <xs:element minOccurs="0" name="Updated" type="xs:dateTime" />
+              <xs:element minOccurs="0" name="Body" nillable="true" type="xs:string" />
+              <xs:element minOccurs="0" name="IsHtml" type="xs:boolean" />
+            </xs:sequence>
+          </xs:extension>
+        </xs:complexContent>
+      </xs:complexType>
+      <xs:element name="PreviewReplyTemplate" nillable="true" type="tns:PreviewReplyTemplate" />
       <xs:element name="GetParsedTemplate">
         <xs:complexType>
           <xs:sequence>
@@ -1600,6 +1735,62 @@ title: Services88.CustomerServiceAgent WSDL
         </xs:complexContent>
       </xs:complexType>
       <xs:element name="StatisticsDataValue" nillable="true" type="tns:StatisticsDataValue" />
+      <xs:element name="GetSystemTemplateSettings">
+        <xs:complexType>
+          <xs:sequence />
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="GetSystemTemplateSettingsResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="Response" nillable="true" type="tns:SystemTemplateSettings" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:complexType name="SystemTemplateSettings">
+        <xs:complexContent mixed="false">
+          <xs:extension base="tns:Carrier">
+            <xs:sequence>
+              <xs:element minOccurs="0" name="CustomerNewCustomerTemplateId" type="xs:int" />
+              <xs:element minOccurs="0" name="CustomerCustomerReplyTemplateId" type="xs:int" />
+              <xs:element minOccurs="0" name="CustomerPasswordTemplateId" type="xs:int" />
+              <xs:element minOccurs="0" name="CustomerConfirmEmailTemplateId" type="xs:int" />
+              <xs:element minOccurs="0" name="CustomerChatLogTemplateId" type="xs:int" />
+              <xs:element minOccurs="0" name="NewLinkTemplateId" type="xs:int" />
+              <xs:element minOccurs="0" name="HotlistNewMessageTemplateId" type="xs:int" />
+              <xs:element minOccurs="0" name="HotlistTicketActivatedTemplateId" type="xs:int" />
+              <xs:element minOccurs="0" name="UserTicketAlarmTemplateId" type="xs:int" />
+              <xs:element minOccurs="0" name="HotlistTicketTakenOverTemplateId" type="xs:int" />
+              <xs:element minOccurs="0" name="UserActiveTicketsTemplateId" type="xs:int" />
+              <xs:element minOccurs="0" name="UserNewMessageTemplateId" type="xs:int" />
+              <xs:element minOccurs="0" name="UserTicketActivatedTemplateId" type="xs:int" />
+              <xs:element minOccurs="0" name="UserNewTicketTemplateId" type="xs:int" />
+              <xs:element minOccurs="0" name="PublishKbQuestionTemplateId" type="xs:int" />
+              <xs:element minOccurs="0" name="PublishKbAnswerTemplateId" type="xs:int" />
+              <xs:element minOccurs="0" name="UserTicketTakenOverTemplateId" type="xs:int" />
+              <xs:element minOccurs="0" name="PrintTicketTemplateId" type="xs:int" />
+              <xs:element minOccurs="0" name="WeekStatTemplateId" type="xs:int" />
+              <xs:element minOccurs="0" name="TicketAlarmHotlistTemplateId" type="xs:int" />
+              <xs:element minOccurs="0" name="EmailAddresses" nillable="true" type="xs:string" />
+            </xs:sequence>
+          </xs:extension>
+        </xs:complexContent>
+      </xs:complexType>
+      <xs:element name="SystemTemplateSettings" nillable="true" type="tns:SystemTemplateSettings" />
+      <xs:element name="SaveSystemTemplateSettings">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="SystemTemplateSettings" nillable="true" type="tns:SystemTemplateSettings" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="SaveSystemTemplateSettingsResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="Response" nillable="true" type="tns:SystemTemplateSettings" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
       <xs:element name="CreateTicketFromMailData">
         <xs:complexType>
           <xs:sequence>
@@ -2161,6 +2352,57 @@ title: Services88.CustomerServiceAgent WSDL
     <wsdl:part name="Succeeded" element="tns:Succeeded" />
     <wsdl:part name="TimeZone" element="tns:TimeZone" />
   </wsdl:message>
+  <wsdl:message name="GetPreviewFaqEntryRequest">
+    <wsdl:part name="parameters" element="tns:GetPreviewFaqEntry" />
+  </wsdl:message>
+  <wsdl:message name="GetPreviewFaqEntryRequest_Headers">
+    <wsdl:part name="ApplicationToken" element="tns:ApplicationToken" />
+    <wsdl:part name="Credentials" element="tns:Credentials" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="GetPreviewFaqEntryResponse">
+    <wsdl:part name="parameters" element="tns:GetPreviewFaqEntryResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetPreviewFaqEntryResponse_Headers">
+    <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
+    <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
+    <wsdl:part name="Succeeded" element="tns:Succeeded" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="GetPreviewQuickReplyRequest">
+    <wsdl:part name="parameters" element="tns:GetPreviewQuickReply" />
+  </wsdl:message>
+  <wsdl:message name="GetPreviewQuickReplyRequest_Headers">
+    <wsdl:part name="ApplicationToken" element="tns:ApplicationToken" />
+    <wsdl:part name="Credentials" element="tns:Credentials" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="GetPreviewQuickReplyResponse">
+    <wsdl:part name="parameters" element="tns:GetPreviewQuickReplyResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetPreviewQuickReplyResponse_Headers">
+    <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
+    <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
+    <wsdl:part name="Succeeded" element="tns:Succeeded" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="GetPreviewReplyTemplateRequest">
+    <wsdl:part name="parameters" element="tns:GetPreviewReplyTemplate" />
+  </wsdl:message>
+  <wsdl:message name="GetPreviewReplyTemplateRequest_Headers">
+    <wsdl:part name="ApplicationToken" element="tns:ApplicationToken" />
+    <wsdl:part name="Credentials" element="tns:Credentials" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="GetPreviewReplyTemplateResponse">
+    <wsdl:part name="parameters" element="tns:GetPreviewReplyTemplateResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetPreviewReplyTemplateResponse_Headers">
+    <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
+    <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
+    <wsdl:part name="Succeeded" element="tns:Succeeded" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
   <wsdl:message name="GetParsedTemplateRequest">
     <wsdl:part name="parameters" element="tns:GetParsedTemplate" />
   </wsdl:message>
@@ -2224,6 +2466,40 @@ title: Services88.CustomerServiceAgent WSDL
     <wsdl:part name="parameters" element="tns:GetStatisticsResponse" />
   </wsdl:message>
   <wsdl:message name="GetStatisticsResponse_Headers">
+    <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
+    <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
+    <wsdl:part name="Succeeded" element="tns:Succeeded" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="GetSystemTemplateSettingsRequest">
+    <wsdl:part name="parameters" element="tns:GetSystemTemplateSettings" />
+  </wsdl:message>
+  <wsdl:message name="GetSystemTemplateSettingsRequest_Headers">
+    <wsdl:part name="ApplicationToken" element="tns:ApplicationToken" />
+    <wsdl:part name="Credentials" element="tns:Credentials" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="GetSystemTemplateSettingsResponse">
+    <wsdl:part name="parameters" element="tns:GetSystemTemplateSettingsResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetSystemTemplateSettingsResponse_Headers">
+    <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
+    <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
+    <wsdl:part name="Succeeded" element="tns:Succeeded" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="SaveSystemTemplateSettingsRequest">
+    <wsdl:part name="parameters" element="tns:SaveSystemTemplateSettings" />
+  </wsdl:message>
+  <wsdl:message name="SaveSystemTemplateSettingsRequest_Headers">
+    <wsdl:part name="ApplicationToken" element="tns:ApplicationToken" />
+    <wsdl:part name="Credentials" element="tns:Credentials" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="SaveSystemTemplateSettingsResponse">
+    <wsdl:part name="parameters" element="tns:SaveSystemTemplateSettingsResponse" />
+  </wsdl:message>
+  <wsdl:message name="SaveSystemTemplateSettingsResponse_Headers">
     <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
     <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
     <wsdl:part name="Succeeded" element="tns:Succeeded" />
@@ -2466,6 +2742,27 @@ title: Services88.CustomerServiceAgent WSDL
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/CustomerService/GetMailboxEntity" name="GetMailboxEntityRequest" message="tns:GetMailboxEntityRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/CustomerService/GetMailboxEntityResponse" name="GetMailboxEntityResponse" message="tns:GetMailboxEntityResponse" />
     </wsdl:operation>
+    <wsdl:operation name="GetPreviewFaqEntry">
+      <wsdl:documentation>
+        <summary>Get a faq entry from its faq entry id</summary>
+      </wsdl:documentation>
+      <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/CustomerService/GetPreviewFaqEntry" name="GetPreviewFaqEntryRequest" message="tns:GetPreviewFaqEntryRequest" />
+      <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/CustomerService/GetPreviewFaqEntryResponse" name="GetPreviewFaqEntryResponse" message="tns:GetPreviewFaqEntryResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="GetPreviewQuickReply">
+      <wsdl:documentation>
+        <summary>Get a quick reply from its quick reply id</summary>
+      </wsdl:documentation>
+      <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/CustomerService/GetPreviewQuickReply" name="GetPreviewQuickReplyRequest" message="tns:GetPreviewQuickReplyRequest" />
+      <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/CustomerService/GetPreviewQuickReplyResponse" name="GetPreviewQuickReplyResponse" message="tns:GetPreviewQuickReplyResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="GetPreviewReplyTemplate">
+      <wsdl:documentation>
+        <summary>Get a reply template from its reply template id</summary>
+      </wsdl:documentation>
+      <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/CustomerService/GetPreviewReplyTemplate" name="GetPreviewReplyTemplateRequest" message="tns:GetPreviewReplyTemplateRequest" />
+      <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/CustomerService/GetPreviewReplyTemplateResponse" name="GetPreviewReplyTemplateResponse" message="tns:GetPreviewReplyTemplateResponse" />
+    </wsdl:operation>
     <wsdl:operation name="GetParsedTemplate">
       <wsdl:documentation>
         <summary>Get a specific langauge version of the reply template, and run this trough the parser</summary>
@@ -2493,6 +2790,20 @@ title: Services88.CustomerServiceAgent WSDL
       </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/CustomerService/GetStatistics" name="GetStatisticsRequest" message="tns:GetStatisticsRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/CustomerService/GetStatisticsResponse" name="GetStatisticsResponse" message="tns:GetStatisticsResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="GetSystemTemplateSettings">
+      <wsdl:documentation>
+        <summary>Returns system template settings</summary>
+      </wsdl:documentation>
+      <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/CustomerService/GetSystemTemplateSettings" name="GetSystemTemplateSettingsRequest" message="tns:GetSystemTemplateSettingsRequest" />
+      <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/CustomerService/GetSystemTemplateSettingsResponse" name="GetSystemTemplateSettingsResponse" message="tns:GetSystemTemplateSettingsResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="SaveSystemTemplateSettings">
+      <wsdl:documentation>
+        <summary>Saves and validates updated system templates. Throws exception if validation fails</summary>
+      </wsdl:documentation>
+      <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/CustomerService/SaveSystemTemplateSettings" name="SaveSystemTemplateSettingsRequest" message="tns:SaveSystemTemplateSettingsRequest" />
+      <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/CustomerService/SaveSystemTemplateSettingsResponse" name="SaveSystemTemplateSettingsResponse" message="tns:SaveSystemTemplateSettingsResponse" />
     </wsdl:operation>
     <wsdl:operation name="CreateTicketFromMailData">
       <wsdl:documentation>
@@ -2934,6 +3245,54 @@ title: Services88.CustomerServiceAgent WSDL
         <soap:body use="literal" />
       </wsdl:output>
     </wsdl:operation>
+    <wsdl:operation name="GetPreviewFaqEntry">
+      <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/CustomerService/GetPreviewFaqEntry" style="document" />
+      <wsdl:input name="GetPreviewFaqEntryRequest">
+        <soap:header message="tns:GetPreviewFaqEntryRequest_Headers" part="ApplicationToken" use="literal" />
+        <soap:header message="tns:GetPreviewFaqEntryRequest_Headers" part="Credentials" use="literal" />
+        <soap:header message="tns:GetPreviewFaqEntryRequest_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="GetPreviewFaqEntryResponse">
+        <soap:header message="tns:GetPreviewFaqEntryResponse_Headers" part="ExceptionInfo" use="literal" />
+        <soap:header message="tns:GetPreviewFaqEntryResponse_Headers" part="ExtraInfo" use="literal" />
+        <soap:header message="tns:GetPreviewFaqEntryResponse_Headers" part="Succeeded" use="literal" />
+        <soap:header message="tns:GetPreviewFaqEntryResponse_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetPreviewQuickReply">
+      <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/CustomerService/GetPreviewQuickReply" style="document" />
+      <wsdl:input name="GetPreviewQuickReplyRequest">
+        <soap:header message="tns:GetPreviewQuickReplyRequest_Headers" part="ApplicationToken" use="literal" />
+        <soap:header message="tns:GetPreviewQuickReplyRequest_Headers" part="Credentials" use="literal" />
+        <soap:header message="tns:GetPreviewQuickReplyRequest_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="GetPreviewQuickReplyResponse">
+        <soap:header message="tns:GetPreviewQuickReplyResponse_Headers" part="ExceptionInfo" use="literal" />
+        <soap:header message="tns:GetPreviewQuickReplyResponse_Headers" part="ExtraInfo" use="literal" />
+        <soap:header message="tns:GetPreviewQuickReplyResponse_Headers" part="Succeeded" use="literal" />
+        <soap:header message="tns:GetPreviewQuickReplyResponse_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetPreviewReplyTemplate">
+      <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/CustomerService/GetPreviewReplyTemplate" style="document" />
+      <wsdl:input name="GetPreviewReplyTemplateRequest">
+        <soap:header message="tns:GetPreviewReplyTemplateRequest_Headers" part="ApplicationToken" use="literal" />
+        <soap:header message="tns:GetPreviewReplyTemplateRequest_Headers" part="Credentials" use="literal" />
+        <soap:header message="tns:GetPreviewReplyTemplateRequest_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="GetPreviewReplyTemplateResponse">
+        <soap:header message="tns:GetPreviewReplyTemplateResponse_Headers" part="ExceptionInfo" use="literal" />
+        <soap:header message="tns:GetPreviewReplyTemplateResponse_Headers" part="ExtraInfo" use="literal" />
+        <soap:header message="tns:GetPreviewReplyTemplateResponse_Headers" part="Succeeded" use="literal" />
+        <soap:header message="tns:GetPreviewReplyTemplateResponse_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
     <wsdl:operation name="GetParsedTemplate">
       <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/CustomerService/GetParsedTemplate" style="document" />
       <wsdl:input name="GetParsedTemplateRequest">
@@ -2998,6 +3357,38 @@ title: Services88.CustomerServiceAgent WSDL
         <soap:body use="literal" />
       </wsdl:output>
     </wsdl:operation>
+    <wsdl:operation name="GetSystemTemplateSettings">
+      <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/CustomerService/GetSystemTemplateSettings" style="document" />
+      <wsdl:input name="GetSystemTemplateSettingsRequest">
+        <soap:header message="tns:GetSystemTemplateSettingsRequest_Headers" part="ApplicationToken" use="literal" />
+        <soap:header message="tns:GetSystemTemplateSettingsRequest_Headers" part="Credentials" use="literal" />
+        <soap:header message="tns:GetSystemTemplateSettingsRequest_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="GetSystemTemplateSettingsResponse">
+        <soap:header message="tns:GetSystemTemplateSettingsResponse_Headers" part="ExceptionInfo" use="literal" />
+        <soap:header message="tns:GetSystemTemplateSettingsResponse_Headers" part="ExtraInfo" use="literal" />
+        <soap:header message="tns:GetSystemTemplateSettingsResponse_Headers" part="Succeeded" use="literal" />
+        <soap:header message="tns:GetSystemTemplateSettingsResponse_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SaveSystemTemplateSettings">
+      <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/CustomerService/SaveSystemTemplateSettings" style="document" />
+      <wsdl:input name="SaveSystemTemplateSettingsRequest">
+        <soap:header message="tns:SaveSystemTemplateSettingsRequest_Headers" part="ApplicationToken" use="literal" />
+        <soap:header message="tns:SaveSystemTemplateSettingsRequest_Headers" part="Credentials" use="literal" />
+        <soap:header message="tns:SaveSystemTemplateSettingsRequest_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="SaveSystemTemplateSettingsResponse">
+        <soap:header message="tns:SaveSystemTemplateSettingsResponse_Headers" part="ExceptionInfo" use="literal" />
+        <soap:header message="tns:SaveSystemTemplateSettingsResponse_Headers" part="ExtraInfo" use="literal" />
+        <soap:header message="tns:SaveSystemTemplateSettingsResponse_Headers" part="Succeeded" use="literal" />
+        <soap:header message="tns:SaveSystemTemplateSettingsResponse_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
     <wsdl:operation name="CreateTicketFromMailData">
       <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/CustomerService/CreateTicketFromMailData" style="document" />
       <wsdl:input name="CreateTicketFromMailDataRequest">
@@ -3054,3 +3445,4 @@ title: Services88.CustomerServiceAgent WSDL
   </wsdl:service>
 </wsdl:definitions>
 ```
+

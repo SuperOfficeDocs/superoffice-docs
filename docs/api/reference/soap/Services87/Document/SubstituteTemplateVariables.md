@@ -13,9 +13,7 @@ Implemented by the <see cref="M:SuperOffice.Services87.IDocumentAgent.Substitute
 
 Parse the source string, and replace any template variable tags with their values, based on the ID's given in the other parameters.
 
-* **source:** Source string to parse for template variables. Such variables must have delimiters corresponding to the standard for the given generator encoding.
-
-  Non-text source data (such as the binary content of a .doc file) should be passed in as Base64.
+* **source:** Source string to parse for template variables. Such variables must have delimiters corresponding to the standard for the given generator encoding.&lt;p/&gt;Non-text source data (such as the binary content of a .doc file) should be passed in as Base64.
 * **generatorEncoding:** Encoding of source string. Non-text formats such as MsWord or Excel should be Base64 encoded in the source string.
 * **contactId:** Identifier for a contact
 * **personId:** Identifier for a person
@@ -27,6 +25,7 @@ Parse the source string, and replace any template variable tags with their value
 * **cultureName:** Name of culture to be used for culture-sensitive data, such as dates or multi-language texts. Use a blank string to accept whatever current culture is set on the server (possibly not a good choice in multinational organizations with a single server).
 
 **Returns:** Source string with templates substituted, using the same encoding as for the source (binary data will be returned in Base64).
+
 
 [WSDL file for Services87/Document](../Services87-Document.md)
 
@@ -69,6 +68,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## SubstituteTemplateVariables Response
 
 ```xml
@@ -89,3 +89,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

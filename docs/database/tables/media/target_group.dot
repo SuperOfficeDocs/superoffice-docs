@@ -4,10 +4,12 @@ edge [fontname = "Helvetica" fontsize = "9"]
 
 target_group[fillcolor = "cadetblue1"]
 associate[fillcolor = "azure1"]
+target_dimension[fillcolor = "azure1"]
 target_period[fillcolor = "azure1"]
 target_revision_history[fillcolor = "azure1"]
 target_group -> associate [headlabel = "registered_associate_id"]
 target_group -> associate [label = "updated_associate_id"]
+target_group -> target_dimension [headlabel = "target_dimension_id"]
 target_period -> target_group [label = "target_group_id"]
 target_revision_history -> target_group [label = "target_group_id"]
 }

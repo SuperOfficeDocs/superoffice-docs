@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Document/SavePrivacyReport
-id: v1DocumentAgent_SavePrivacyReport
+uid: v1DocumentAgent_SavePrivacyReport
 ---
 
 # POST Agents/Document/SavePrivacyReport
@@ -11,6 +11,12 @@ POST /api/v1/Agents/Document/SavePrivacyReport
 
 Generates a Pdf from HTML and makes a document
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Generates a Pdf from HTML and makes a document
 ```http
 POST /api/v1/Agents/Document/SavePrivacyReport?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,9 +42,9 @@ POST /api/v1/Agents/Document/SavePrivacyReport?$select=name,department,category/
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-HtmlReport, Title, PersonId
+HtmlReport, Title, PersonId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -45,7 +52,10 @@ HtmlReport, Title, PersonId
 | Title | string |  |
 | PersonId | int32 |  |
 
+
 ## Response: int32
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -53,25 +63,28 @@ HtmlReport, Title, PersonId
 
 Response body: int32
 
-## Sample Request
+
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Document/SavePrivacyReport
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "HtmlReport": "consequuntur",
-  "Title": "occaecati",
-  "PersonId": 118
+  "HtmlReport": "cupiditate",
+  "Title": "nihil",
+  "PersonId": 608
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-22
+459
 ```

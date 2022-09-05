@@ -20,6 +20,7 @@ Returns all sales within a time period. The sales array can be limited by amount
 
 **Returns:** Array of sales.
 
+
 [WSDL file for Services84/Sale](../Services84-Sale.md)
 
 Obtain a ticket from the [Services84/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -44,8 +45,8 @@ Application tokens must be specified if calling an Online installation. Applicat
   </Sale:Credentials>
  <SOAP-ENV:Body>
    <Sale:GetSalesByDate>
-    <Sale:FromDate xsi:type="xsd:dateTime">2021-11-30T13:22:21Z</Sale:FromDate>
-    <Sale:ToDate xsi:type="xsd:dateTime">2021-11-30T13:22:21Z</Sale:ToDate>
+    <Sale:FromDate xsi:type="xsd:dateTime">2022-08-26T08:51:45Z</Sale:FromDate>
+    <Sale:ToDate xsi:type="xsd:dateTime">2022-08-26T08:51:45Z</Sale:ToDate>
     <Sale:AmountLimit xsi:type="xsd:int">0</Sale:AmountLimit>
     <Sale:Status xsi:type="Sale:SaleStatus">Unknown</Sale:Status>
    </Sale:GetSalesByDate>
@@ -54,6 +55,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+
 
 ## GetSalesByDate Response
 
@@ -72,7 +74,7 @@ Application tokens must be specified if calling an Online installation. Applicat
    <Sale:Response xsi:type="Sale:ArrayOfSale">
     <Sale:Sale xsi:type="Sale:Sale">
      <Sale:ContactName xsi:type="xsd:string"></Sale:ContactName>
-     <Sale:SaleDate xsi:type="xsd:dateTime">2021-11-30T13:22:21Z</Sale:SaleDate>
+     <Sale:SaleDate xsi:type="xsd:dateTime">2022-08-26T08:51:45Z</Sale:SaleDate>
      <Sale:SaleId xsi:type="xsd:int">0</Sale:SaleId>
      <Sale:Probability xsi:type="xsd:short">0</Sale:Probability>
      <Sale:Title xsi:type="xsd:string"></Sale:Title>
@@ -94,7 +96,7 @@ Application tokens must be specified if calling an Online installation. Applicat
      <Sale:PersonFullName xsi:type="xsd:string"></Sale:PersonFullName>
      <Sale:Completed xsi:type="Sale:ActivityStatus">Unknown</Sale:Completed>
      <Sale:ActiveErpLinks xsi:type="xsd:int">0</Sale:ActiveErpLinks>
-     <Sale:NextDueDate xsi:type="xsd:dateTime">2021-11-30T13:22:21Z</Sale:NextDueDate>
+     <Sale:NextDueDate xsi:type="xsd:dateTime">2022-08-26T08:51:45Z</Sale:NextDueDate>
     </Sale:Sale>
    </Sale:Response>
   </Sale:GetSalesByDateResponse>
@@ -102,3 +104,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

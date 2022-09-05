@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "ext_datasource"
-so.date: 04.12.2022
+so.date: 08.26.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -44,6 +44,7 @@ This table contains external datasources, used for databaseintegration of custom
 |sql\_init|The SQL init used for configure the server before fetching external data.|Clob|&#x25CF;|
 |unix\_socket|Unix socket used with Mysql connections on Linux|String(255)|&#x25CF;|
 
+
 ![ext_datasource table relationship diagram](./media/ext_datasource.png)
 
 [!include[details](./includes/ext-datasource.md)]
@@ -60,6 +61,7 @@ This table contains external datasources, used for databaseintegration of custom
 |------|-------------|
 |[ext\_table](ext-table.md)  |This table contains entries used for mapping an external table to an internal table (customer or cust_company) for database integration. |
 
+
 ## Replication Flags
 
 * None
@@ -67,3 +69,4 @@ This table contains external datasources, used for databaseintegration of custom
 ## Security Flags
 
 * No access control via user's Role.
+

@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Configuration/GetCRMUrl
-id: v1ConfigurationAgent_GetCRMUrl
+uid: v1ConfigurationAgent_GetCRMUrl
 ---
 
 # POST Agents/Configuration/GetCRMUrl
@@ -11,6 +11,12 @@ POST /api/v1/Agents/Configuration/GetCRMUrl
 
 Returns a valid url based in the soprotocol provided
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Returns a valid url based in the soprotocol provided
 ```http
 POST /api/v1/Agents/Configuration/GetCRMUrl?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,9 +42,9 @@ POST /api/v1/Agents/Configuration/GetCRMUrl?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-SoProtocol, Currents, Frameless
+SoProtocol, Currents, Frameless 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -45,7 +52,10 @@ SoProtocol, Currents, Frameless
 | Currents | string |  |
 | Frameless | bool |  |
 
+
 ## Response: string
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -53,21 +63,24 @@ SoProtocol, Currents, Frameless
 
 Response body: string
 
-## Sample Request
+
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Configuration/GetCRMUrl
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SoProtocol": "natus",
-  "Currents": "nulla",
-  "Frameless": true
+  "SoProtocol": "et",
+  "Currents": "ex",
+  "Frameless": false
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK

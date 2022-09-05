@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Appointment/GetAppointmentRecords
-id: v1AppointmentAgent_GetAppointmentRecords
+uid: v1AppointmentAgent_GetAppointmentRecords
 ---
 
 # POST Agents/Appointment/GetAppointmentRecords
@@ -11,7 +11,13 @@ POST /api/v1/Agents/Appointment/GetAppointmentRecords
 
 Get all records involved in a booking and/or recurring appointments.
 
+
 MotherId can be zero for repeating appointments or bookings, and recurrenceRuleId can be zero for bookings that are not repeating.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +28,7 @@ MotherId can be zero for repeating appointments or bookings, and recurrenceRuleI
 ```http
 POST /api/v1/Agents/Appointment/GetAppointmentRecords?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,16 +44,19 @@ POST /api/v1/Agents/Appointment/GetAppointmentRecords?$select=name,department,ca
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-MotherId, RecurrenceRuleId
+MotherId, RecurrenceRuleId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | MotherId | int32 |  |
 | RecurrenceRuleId | int32 |  |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -108,20 +118,22 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Appointment/GetAppointmentRecords
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "MotherId": 615,
-  "RecurrenceRuleId": 639
+  "MotherId": 372,
+  "RecurrenceRuleId": 128
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -129,67 +141,61 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 29,
-    "StartDate": "1994-12-16T18:28:47.7458446+01:00",
-    "EndDate": "2007-09-26T18:28:47.7458446+02:00",
+    "AppointmentId": 258,
+    "StartDate": "2021-05-29T11:10:25.4715222+02:00",
+    "EndDate": "2019-12-17T11:10:25.4715222+01:00",
     "Type": "BookingForChecklist",
-    "Task": "quod",
-    "AssociateFullName": "Rocky Abbott",
-    "ContactName": "Donnelly Group",
-    "Description": "Ameliorated content-based system engine",
-    "PersonFullName": "Michale Hayes",
-    "PersonId": 70,
-    "ContactId": 980,
-    "ProjectId": 470,
-    "ProjectName": "Bernier Inc and Sons",
-    "IsPublished": false,
-    "AssociateId": 14,
-    "ColorIndex": 277,
+    "Task": "placeat",
+    "AssociateFullName": "Mrs. Gwen Cleta Farrell I",
+    "ContactName": "Lubowitz-Boyer",
+    "Description": "Ergonomic transitional approach",
+    "PersonFullName": "Victoria White",
+    "PersonId": 32,
+    "ContactId": 348,
+    "ProjectId": 26,
+    "ProjectName": "Schinner-Wolff",
+    "IsPublished": true,
+    "AssociateId": 174,
+    "ColorIndex": 874,
     "IsFree": false,
-    "HasAlarm": false,
+    "HasAlarm": true,
     "IsAlldayEvent": false,
     "Private": "PrivateGroup",
-    "PriorityId": 463,
-    "PriorityName": "Lehner, Lockman and Paucek",
+    "PriorityId": 673,
+    "PriorityName": "Greenholt-Schuster",
     "TaskType": "Appointment",
     "IsBookingMain": false,
     "IsRecurrence": false,
     "IsBooking": false,
-    "ActiveDate": "2010-05-14T18:28:47.7458446+02:00",
+    "ActiveDate": "2003-07-19T11:10:25.4715222+02:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "1998-10-06T18:28:47.7458446+02:00",
-    "RecurringEndDate": "1998-04-17T18:28:47.7458446+02:00",
-    "MotherId": 638,
-    "AssignedBy": 174,
-    "AssignedByFullName": "Ms. Nadia Littel",
+    "RecurringStartDate": "2000-08-23T11:10:25.4715222+02:00",
+    "RecurringEndDate": "1998-03-22T11:10:25.4715222+01:00",
+    "MotherId": 91,
+    "AssignedBy": 628,
+    "AssignedByFullName": "Miss Dee Keara Harris DVM",
     "RejectReason": "",
-    "Location": "repudiandae",
-    "AlarmLeadTime": "tenetur",
-    "SaleId": 594,
-    "SaleName": "Block-Willms",
-    "AssociateName": "Harvey Group",
-    "CreatedDate": "2014-04-22T18:28:47.7458446+02:00",
-    "CreatedBy": "optio",
-    "CreatedByFullName": "Sincere Wehner MD",
-    "CreatedByAssociateId": 371,
+    "Location": "eos",
+    "AlarmLeadTime": "quis",
+    "SaleId": 930,
+    "SaleName": "Bruen-Blanda",
+    "AssociateName": "Becker, Runolfsson and Bartoletti",
+    "CreatedDate": "2012-12-05T11:10:25.4725221+01:00",
+    "CreatedBy": "ut",
+    "CreatedByFullName": "Gwen Jackie Langosh DVM",
+    "CreatedByAssociateId": 872,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 169
+        "FieldRight": null,
+        "FieldType": "System.Int32",
+        "FieldLength": 286
       }
     }
   }

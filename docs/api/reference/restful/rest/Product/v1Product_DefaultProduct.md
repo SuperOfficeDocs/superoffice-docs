@@ -1,6 +1,6 @@
 ---
 title: GET Product/default
-id: v1Product_DefaultProduct
+uid: v1Product_DefaultProduct
 ---
 
 # GET Product/default
@@ -11,7 +11,14 @@ GET /api/v1/Product/default
 
 Set default values into a new Product.
 
+
 NetServer calculates default values on the entity, which is required when creating/storing a new instance Calls the Quote agent service CreateDefaultProduct.
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -26,18 +33,16 @@ NetServer calculates default values on the entity, which is required when creati
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response: object
 
-Information about a Product from the ERP system. This may be fetched from SuperOffice Product table through the SO Connector
+## Response: 
 
-Carrier object for Product.
-Services for the Product Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IQuoteAgent">Quote Agent</see>.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -57,7 +62,7 @@ Response body: object
 | ProductCategoryKey | string | Either a List id to an id from a connector provided list, or, if the connection doesn’t support lists, a text with the actual product category. |
 | ProductFamilyKey | string | Either a List id to an id from a connector provided list, or, if the connection doesn't support lists, a text with the actual product family. |
 | ProductTypeKey | string | Either a List id to an id from a connector provided list, or, if the connection doesn’t support lists, a text with the actual product type. |
-| VAT | double | Tax/VAT if available from ERP system. THIS IS A PERCENTAGE. In the SuperOffice product register, this field is available in the product admin GUI. |
+| VAT | double | Tax/VAT if available from ERP system. THIS IS A PERCENTAGE. In the Superoffice product register, this field is available in the product admin GUI. |
 | VATInfo | string | A field for putting VATInfo you need to show in the final quoteDocument, like the VAT type that is used. Not used in any business logic in SuperOffice; available to document templates. |
 | UnitCost | double | The cost price. Might not be given, use Decimal.MinValue to signal this. |
 | UnitMinimumPrice | double | The minimum price this salesman can offer to his customer. This might be cost price if there is no policy. Might not be given, use Decimal.MinValue to signal this. |
@@ -78,99 +83,89 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 GET /api/v1/Product/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 536,
-  "ERPProductKey": "unde",
-  "ERPPriceListKey": "commodi",
-  "Name": "Kassulke Group",
-  "Description": "Profit-focused zero administration definition",
-  "Code": "voluptates",
-  "PriceUnit": "saepe",
-  "QuantityUnit": "error",
+  "ProductId": 953,
+  "ERPProductKey": "quod",
+  "ERPPriceListKey": "et",
+  "Name": "Heller-Zulauf",
+  "Description": "Vision-oriented optimizing flexibility",
+  "Code": "corporis",
+  "PriceUnit": "cumque",
+  "QuantityUnit": "ratione",
   "IsSubscription": false,
-  "SubscriptionUnit": "molestiae",
-  "DefaultSubscriptionQuantity": 8759.5299999999988,
-  "ItemNumber": "1143106",
+  "SubscriptionUnit": "voluptate",
+  "DefaultSubscriptionQuantity": 25510.76,
+  "ItemNumber": "1322230",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "omnis",
-  "ProductTypeKey": "cupiditate",
-  "VAT": 12996.698,
-  "VATInfo": "doloremque",
-  "UnitCost": 9941.0479999999989,
-  "UnitMinimumPrice": 4099.272,
-  "UnitListPrice": 7117.3139999999994,
-  "InAssortment": true,
-  "Supplier": "sint",
-  "SupplierCode": "possimus",
-  "Rights": "reprehenderit",
-  "Rule": "voluptatem",
+  "ProductFamilyKey": "ea",
+  "ProductTypeKey": "molestias",
+  "VAT": 30221.162,
+  "VATInfo": "qui",
+  "UnitCost": 11204.05,
+  "UnitMinimumPrice": 184.906,
+  "UnitListPrice": 23226.074,
+  "InAssortment": false,
+  "Supplier": "dolore",
+  "SupplierCode": "ipsum",
+  "Rights": "consequatur",
+  "Rule": "tempora",
   "ExtraInfo": [
     {
-      "Name": "Reilly LLC",
-      "Value": "omnis",
+      "Name": "Terry, Casper and Boyle",
+      "Value": "et",
       "Type": "Image",
-      "TableRight": {},
+      "TableRight": null,
       "FieldProperties": {
         "fieldName": {
-          "FieldRight": {
-            "Mask": "FULL",
-            "Reason": "expedite visionary bandwidth"
-          },
+          "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 171
+          "FieldLength": 880
         }
       }
     },
     {
-      "Name": "Reilly LLC",
-      "Value": "omnis",
+      "Name": "Terry, Casper and Boyle",
+      "Value": "et",
       "Type": "Image",
-      "TableRight": {},
+      "TableRight": null,
       "FieldProperties": {
         "fieldName": {
-          "FieldRight": {
-            "Mask": "FULL",
-            "Reason": "expedite visionary bandwidth"
-          },
+          "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 171
+          "FieldLength": 880
         }
       }
     }
   ],
-  "RawExtraInfo": "quasi",
-  "ExtraField1": "omnis",
-  "ExtraField2": "nihil",
-  "ExtraField3": "doloremque",
-  "ExtraField4": "expedita",
-  "ExtraField5": "pariatur",
-  "InStock": 15475.692,
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "RawExtraInfo": "consequuntur",
+  "ExtraField1": "qui",
+  "ExtraField2": "earum",
+  "ExtraField3": "enim",
+  "ExtraField4": "itaque",
+  "ExtraField5": "et",
+  "InStock": 3177.8759999999997,
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
-      "FieldType": "System.String",
-      "FieldLength": 867
+      "FieldRight": null,
+      "FieldType": "System.Int32",
+      "FieldLength": 27
     }
   }
 }

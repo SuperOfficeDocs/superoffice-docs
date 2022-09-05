@@ -1,6 +1,6 @@
 ---
 title: GET List/DocumentTemplate/Items/{id}/Extension
-id: v1DocumentTemplateList_GetDocumentTemplateExtension
+uid: v1DocumentTemplateList_GetDocumentTemplateExtension
 ---
 
 # GET List/DocumentTemplate/Items/{id}/Extension
@@ -11,9 +11,16 @@ GET /api/v1/List/DocumentTemplate/Items/{documentTemplateId}/Extension
 
 Get the file extension for the document template
 
+
+
+
+
+
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | documentTemplateId | int32 | The primary key of the document template **Required** |
+
+
 
 ## Request Headers
 
@@ -28,7 +35,10 @@ Get the file extension for the document template
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
+
 ## Response: string
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -36,18 +46,21 @@ Get the file extension for the document template
 
 Response body: string
 
-## Sample Request
+
+## Sample request
 
 ```http!
 GET /api/v1/List/DocumentTemplate/Items/{documentTemplateId}/Extension
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"odit"
+"incidunt"
 ```

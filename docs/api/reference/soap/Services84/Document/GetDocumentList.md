@@ -17,6 +17,7 @@ Gets an array of Document objects.
 
 **Returns:** Array of Document objects
 
+
 [WSDL file for Services84/Document](../Services84-Document.md)
 
 Obtain a ticket from the [Services84/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -50,6 +51,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+
 
 ## GetDocumentList Response
 
@@ -91,3 +93,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

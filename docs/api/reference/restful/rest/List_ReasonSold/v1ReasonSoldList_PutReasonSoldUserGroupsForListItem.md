@@ -1,6 +1,6 @@
 ---
 title: PUT List/ReasonSold/Items/{id}/UserGroups
-id: v1ReasonSoldList_PutReasonSoldUserGroupsForListItem
+uid: v1ReasonSoldList_PutReasonSoldUserGroupsForListItem
 ---
 
 # PUT List/ReasonSold/Items/{id}/UserGroups
@@ -11,11 +11,18 @@ PUT /api/v1/List/ReasonSold/Items/{itemId}/UserGroups
 
 Saves user groups visible for the ReasonSold list's item.
 
+
 Calls the List agent service SaveHeadingsForListItemFromListDefinition.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | itemId | int32 | The ID of the item to save. **Required** |
+
+
 
 ## Request Headers
 
@@ -31,9 +38,9 @@ Calls the List agent service SaveHeadingsForListItemFromListDefinition.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entities
+## Request Body: entities  
 
-The headings to be saved.
+The headings to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -53,7 +60,10 @@ The headings to be saved.
 | Hidden | bool | True if the ListItem is hidden |
 | FullName | string | The name of the ListItem in its context |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -81,56 +91,58 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 PUT /api/v1/List/ReasonSold/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 333,
-    "Name": "Schowalter, Schuster and Deckow",
-    "ToolTip": "Dolor fugit ipsam ea necessitatibus quia est.",
-    "Deleted": true,
-    "Rank": 536,
-    "Type": "dolorem",
-    "ColorBlock": 588,
-    "IconHint": "aut",
+    "Id": 747,
+    "Name": "Kreiger, Goyette and Zboncak",
+    "ToolTip": "Accusamus illum totam enim quia vero ad.",
+    "Deleted": false,
+    "Rank": 591,
+    "Type": "hic",
+    "ColorBlock": 565,
+    "IconHint": "dolores",
     "Selected": false,
-    "LastChanged": "2004-02-28T18:25:52.1510217+01:00",
+    "LastChanged": "2018-09-22T11:10:54.5689365+02:00",
     "ChildItems": [
       {
-        "Id": 181,
-        "Name": "Kassulke LLC",
-        "ToolTip": "Magnam dolorem.",
-        "Deleted": true,
-        "Rank": 136,
-        "Type": "ut",
-        "ColorBlock": 719,
-        "IconHint": "aperiam",
+        "Id": 269,
+        "Name": "Hintz-Pfannerstill",
+        "ToolTip": "Vitae omnis eum.",
+        "Deleted": false,
+        "Rank": 343,
+        "Type": "sed",
+        "ColorBlock": 771,
+        "IconHint": "possimus",
         "Selected": true,
-        "LastChanged": "2021-01-25T18:25:52.1510217+01:00",
+        "LastChanged": "2022-04-28T11:10:54.5689365+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "molestiae",
-        "StyleHint": "aliquam",
+        "ExtraInfo": "distinctio",
+        "StyleHint": "omnis",
         "Hidden": false,
-        "FullName": "Thea Prohaska"
+        "FullName": "America Treutel"
       }
     ],
-    "ExtraInfo": "cupiditate",
-    "StyleHint": "libero",
+    "ExtraInfo": "accusantium",
+    "StyleHint": "dolorem",
     "Hidden": true,
-    "FullName": "Erna Bernhard"
+    "FullName": "Mr. Nedra Kuhn"
   }
 ]
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -138,65 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 236,
-    "Name": "Stehr-Bode",
-    "ToolTip": "Culpa soluta optio dicta quidem.",
+    "Id": 552,
+    "Name": "Kling Group",
+    "ToolTip": "Autem et voluptatibus dignissimos sunt similique consequatur et.",
     "Deleted": false,
-    "Rank": 209,
-    "Type": "est",
-    "ColorBlock": 286,
-    "IconHint": "blanditiis",
+    "Rank": 651,
+    "Type": "omnis",
+    "ColorBlock": 52,
+    "IconHint": "provident",
     "Selected": true,
-    "LastChanged": "1997-09-22T18:25:52.1520191+02:00",
+    "LastChanged": "2009-02-21T11:10:54.5699354+01:00",
     "ChildItems": [
       {
-        "Id": 131,
-        "Name": "Nitzsche Group",
-        "ToolTip": "Consequatur sed mollitia autem illum deleniti.",
+        "Id": 79,
+        "Name": "Buckridge, Legros and Bins",
+        "ToolTip": "Ut impedit aliquid repellendus voluptas.",
         "Deleted": false,
-        "Rank": 965,
-        "Type": "veniam",
-        "ColorBlock": 426,
-        "IconHint": "repudiandae",
-        "Selected": true,
-        "LastChanged": "2016-01-16T18:25:52.1520191+01:00",
+        "Rank": 570,
+        "Type": "dolorem",
+        "ColorBlock": 490,
+        "IconHint": "laboriosam",
+        "Selected": false,
+        "LastChanged": "2011-03-19T11:10:54.570935+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ab",
-        "StyleHint": "delectus",
+        "ExtraInfo": "numquam",
+        "StyleHint": "molestias",
         "Hidden": true,
-        "FullName": "Cecilia Wisozk",
-        "TableRight": {},
+        "FullName": "Dr. Hassie Myrl VonRueden",
+        "TableRight": null,
         "FieldProperties": {
           "fieldName": {
-            "FieldRight": {
-              "Mask": "FULL",
-              "Reason": ""
-            },
+            "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 479
+            "FieldLength": 80
           }
         }
       }
     ],
-    "ExtraInfo": "temporibus",
-    "StyleHint": "aut",
-    "Hidden": false,
-    "FullName": "Chadrick Goldner",
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "ExtraInfo": "quibusdam",
+    "StyleHint": "quasi",
+    "Hidden": true,
+    "FullName": "Sallie Sporer",
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 116
+        "FieldRight": null,
+        "FieldType": "System.Int32",
+        "FieldLength": 625
       }
     }
   }

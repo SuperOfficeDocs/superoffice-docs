@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Dashboard/SetTile
-id: v1DashboardAgent_SetTile
+uid: v1DashboardAgent_SetTile
 ---
 
 # POST Agents/Dashboard/SetTile
@@ -11,6 +11,12 @@ POST /api/v1/Agents/Dashboard/SetTile
 
 Sets tile in the given dashboard position
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Sets tile in the given dashboard position
 ```http
 POST /api/v1/Agents/Dashboard/SetTile?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,9 +42,9 @@ POST /api/v1/Agents/Dashboard/SetTile?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-DashboardId, TileId, Position
+DashboardId, TileId, Position 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -45,18 +52,16 @@ DashboardId, TileId, Position
 | TileId | int32 |  |
 | Position | int32 |  |
 
-## Response: object
 
-Dashboard configuration
+## Response: 
 
-Carrier object for Dashboard.
-Services for the Dashboard Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IDashboardAgent">Dashboard Agent</see>.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -68,43 +73,45 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Dashboard/SetTile
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 575,
-  "TileId": 531,
-  "Position": 756
+  "DashboardId": 53,
+  "TileId": 968,
+  "Position": 489
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 547,
-  "AssociateId": 912,
-  "Caption": "quae",
+  "DashboardId": 186,
+  "AssociateId": 71,
+  "Caption": "eaque",
   "Layout": "Four",
   "Tiles": [
     {
-      "DashboardTileId": 889,
-      "Caption": "ut",
-      "Description": "Innovative next generation superstructure",
-      "ChartName": "Walter LLC",
-      "ChartId": "aut",
+      "DashboardTileId": 141,
+      "Caption": "illum",
+      "Description": "Enterprise-wide uniform implementation",
+      "ChartName": "Schuppe Inc and Sons",
+      "ChartId": "iste",
       "IsDefault": false,
-      "AssociateId": 684,
-      "GroupId": 378,
-      "SelectionId": 860,
-      "Config": "voluptatem",
+      "AssociateId": 573,
+      "GroupId": 222,
+      "SelectionId": 808,
+      "Config": "ad",
       "Type": "Bignum",
       "EntityType": "Activity",
       "Options": [
@@ -115,31 +122,22 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "TableRight": {},
+      "TableRight": null,
       "FieldProperties": {
         "fieldName": {
-          "FieldRight": {
-            "Mask": "FULL",
-            "Reason": ""
-          },
+          "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 205
+          "FieldLength": 2
         }
       }
     }
   ],
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": "envisioneer mission-critical bandwidth"
-      },
+      "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 625
+      "FieldLength": 838
     }
   }
 }

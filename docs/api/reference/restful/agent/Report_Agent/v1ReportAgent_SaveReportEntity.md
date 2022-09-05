@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Report/SaveReportEntity
-id: v1ReportAgent_SaveReportEntity
+uid: v1ReportAgent_SaveReportEntity
 ---
 
 # POST Agents/Report/SaveReportEntity
@@ -10,6 +10,13 @@ POST /api/v1/Agents/Report/SaveReportEntity
 ```
 
 Updates the existing ReportEntity or creates a new ReportEntity if the id parameter is empty
+
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -25,9 +32,9 @@ Updates the existing ReportEntity or creates a new ReportEntity if the id parame
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entity
+## Request Body: entity  
 
-The ReportEntity to be saved.
+The ReportEntity to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -40,16 +47,16 @@ The ReportEntity to be saved.
 | TemplateId | int32 | The id of report template. |
 | Published | bool | Is the report published? |
 
-## Response: object
 
-Carrier object for ReportEntity.
-Services for the ReportEntity Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IReportAgent">Report Agent</see>.
+## Response: 
+
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -64,52 +71,48 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Report/SaveReportEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReportId": 550,
+  "ReportId": 693,
   "ReportCategory": "All",
-  "Description": "Distributed client-driven ability",
+  "Description": "User-centric systemic attitude",
   "ReportLayout": "CalendarMonth",
-  "Name": "Donnelly, Beahan and Cremin",
-  "AssociateId": 596,
-  "TemplateId": 76,
+  "Name": "Keeling, Mante and Bartell",
+  "AssociateId": 817,
+  "TemplateId": 596,
   "Published": true
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReportId": 788,
+  "ReportId": 739,
   "ReportCategory": "All",
-  "Description": "Expanded coherent capacity",
+  "Description": "Self-enabling dynamic function",
   "ReportLayout": "CalendarMonth",
-  "Name": "Tremblay Inc and Sons",
-  "AssociateId": 603,
-  "TemplateId": 622,
+  "Name": "Stiedemann-Weber",
+  "AssociateId": 298,
+  "TemplateId": 793,
   "Published": false,
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
-      "FieldType": "System.Int32",
-      "FieldLength": 180
+      "FieldRight": null,
+      "FieldType": "System.String",
+      "FieldLength": 677
     }
   }
 }

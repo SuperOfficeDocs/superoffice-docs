@@ -1,6 +1,6 @@
 ---
 title: GET Person/UdefLayout/{progidOrLabel}
-id: v1PersonEntity_GetUdefFieldInfo
+uid: v1PersonEntity_GetUdefFieldInfo
 ---
 
 # GET Person/UdefLayout/{progidOrLabel}
@@ -11,9 +11,16 @@ GET /api/v1/Person/UdefLayout/{progidOrLabel}
 
 Get a PersonEntity user-defined field's details based on the prog-id or label.
 
+
+
+
+
+
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | progidOrLabel | string | The udef field id, case-sensitive prog-id, or field label. **Required** |
+
+
 
 ## Request Headers
 
@@ -28,19 +35,17 @@ Get a PersonEntity user-defined field's details based on the prog-id or label.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response: object
 
-Return information about the user defined fields. The information can be used to mirror the layout of the user-defined fields in the user interface.
+## Response: 
 
-Carrier object for UserDefinedFieldInfo.
-Services for the UserDefinedFieldInfo Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent">UserDefinedFieldInfo Agent</see>.
+PersonEntity found.
 
 | Response | Description |
 |----------------|-------------|
 | 200 | PersonEntity found. |
 | 404 | PersonEntity not found. |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -81,66 +86,62 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 GET /api/v1/Person/UdefLayout/{progidOrLabel}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 PersonEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 857,
-  "ColumnId": 971,
-  "FieldDefault": "debitis",
-  "FieldHeight": 559,
-  "FieldLabel": "minus",
-  "FieldLeft": 87,
-  "FieldTop": 24,
+  "UDefFieldId": 222,
+  "ColumnId": 988,
+  "FieldDefault": "praesentium",
+  "FieldHeight": 694,
+  "FieldLabel": "voluptatibus",
+  "FieldLeft": 207,
+  "FieldTop": 424,
   "FieldType": "Checkbox",
-  "FieldWidth": 444,
+  "FieldWidth": 191,
   "FormatMask": "aut",
-  "HideLabel": true,
-  "IsIndexed": true,
-  "LabelHeight": 145,
-  "LabelLeft": 952,
-  "LabelTop": 352,
-  "LabelWidth": 77,
-  "LastVersionId": 797,
-  "ListTableId": 61,
-  "IsMandatory": false,
+  "HideLabel": false,
+  "IsIndexed": false,
+  "LabelHeight": 57,
+  "LabelLeft": 979,
+  "LabelTop": 407,
+  "LabelWidth": 424,
+  "LastVersionId": 200,
+  "ListTableId": 897,
+  "IsMandatory": true,
   "Type": "Appointment",
-  "Page1LineNo": 147,
-  "ProgId": "est",
-  "IsReadOnly": true,
-  "ShortLabel": "quos",
-  "TabOrder": 158,
-  "TextLength": 897,
-  "Tooltip": "iusto",
-  "UdefIdentity": 35,
-  "UDListDefinitionId": 413,
+  "Page1LineNo": 918,
+  "ProgId": "officia",
+  "IsReadOnly": false,
+  "ShortLabel": "earum",
+  "TabOrder": 813,
+  "TextLength": 453,
+  "Tooltip": "perspiciatis",
+  "UdefIdentity": 567,
+  "UDListDefinitionId": 523,
   "Justification": "Center",
-  "Version": 816,
-  "TemplateVariableName": "Nikolaus LLC",
+  "Version": 521,
+  "TemplateVariableName": "Feil Inc and Sons",
   "HasBeenPublished": false,
-  "MdoListName": "Bins Inc and Sons",
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "MdoListName": "Greenfelder Inc and Sons",
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
-      "FieldType": "System.String",
-      "FieldLength": 1001
+      "FieldRight": null,
+      "FieldType": "System.Int32",
+      "FieldLength": 293
     }
   }
 }

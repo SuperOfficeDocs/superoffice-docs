@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "ms_substitute"
-so.date: 04.12.2022
+so.date: 08.26.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -28,6 +28,7 @@ Regexp for extracting info from emails when they enter they system
 |subst\_type|Enum indicating the target domain for this regexp (customer connection, parser, etc).|subst_type|&#x25CF;|
 |flags|Bitmap for flags for this entry.|Int|&#x25CF;|
 
+
 ![ms_substitute table relationship diagram](./media/ms_substitute.png)
 
 [!include[details](./includes/ms-substitute.md)]
@@ -45,6 +46,7 @@ Regexp for extracting info from emails when they enter they system
 |------|-------------|
 |[ms\_filter](ms-filter.md)  |This table contains email filters. These are the filters allowing you to do advanced parsing of incomming emails. |
 
+
 ## Replication Flags
 
 * None
@@ -52,3 +54,4 @@ Regexp for extracting info from emails when they enter they system
 ## Security Flags
 
 * No access control via user's Role.
+

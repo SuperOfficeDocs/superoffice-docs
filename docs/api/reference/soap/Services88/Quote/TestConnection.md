@@ -18,6 +18,7 @@ Used by the Admin clients. Testing if the connection data is sufficient to get a
 
 **Returns:** How the test went
 
+
 [WSDL file for Services88/Quote](../Services88-Quote.md)
 
 Obtain a ticket from the [Services88/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -55,6 +56,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+
 
 ## TestConnection Response
 
@@ -101,3 +103,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

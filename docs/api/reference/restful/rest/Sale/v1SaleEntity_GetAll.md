@@ -1,6 +1,6 @@
 ---
 title: GET Sale
-id: v1SaleEntity_GetAll
+uid: v1SaleEntity_GetAll
 ---
 
 # GET Sale
@@ -11,6 +11,7 @@ GET /api/v1/Sale
 
 OData list of all SaleEntity.
 
+
 Can be sorted and further filtered using OData conventions:
 
 * Sale?$select=col1,col2,abc/col3
@@ -19,25 +20,34 @@ Can be sorted and further filtered using OData conventions:
 * Sale?$top=1000
 * Sale?$mode=full
 
+
 OData returns XML or JSON carriers depending on the Accept headers.
+
 
 Calls the Archive service using the "FindSale" archive.
 
-## Filter Operators
+
+## Filter Operators: ##
 
 ints: eq =, ne, le, lt, gt, ge, set, equals, greater, less, unequals, between
 
 strings: contains, is, notBegins, notContains, isNot
 
-associate: associateIsOneOf, associateIsNotOneOf,
+associate: associateIsOneOf, associateIsNotOneOf,  
 
-list ids: oneOf, NotOneOf,
+list ids: oneOf, NotOneOf, 
 
 dates: before, date, after, dateBetween, beforeToday
 
 Unary ops: currentAssociate, beforeToday, today, afterToday, lastWeek, thisWeek, nextWeek, lastMonth, thisMonth, nextMonth, lastQuarter, thisQuarter, nextQuarter, thisHalf, thisYear
 
 Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,n,period), previous(f,n,period), thisAndNext(f,n,period), thisAndPrevious(f,n,period), thisAndPreviousAndNext(f,period)
+
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -60,16 +70,17 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 GET /api/v1/Sale?$select=name,department,category/id
 GET /api/v1/Sale?$filter=name begins 'S'
 GET /api/v1/Sale?$orderBy=name asc
-GET /api/v1/Sale?$entities=aliquam
-GET /api/v1/Sale?$top=963
-GET /api/v1/Sale?$skip=545
+GET /api/v1/Sale?$entities=assumenda
+GET /api/v1/Sale?$top=477
+GET /api/v1/Sale?$skip=795
 GET /api/v1/Sale?$mode=Full
 GET /api/v1/Sale?$options=GrandTotal=true
-GET /api/v1/Sale?$context=possimus
+GET /api/v1/Sale?$context=porro
 GET /api/v1/Sale?$format=JSON
 GET /api/v1/Sale?$jsonSafe=True
 GET /api/v1/Sale?$output=Display
 ```
+
 
 ## Request Headers
 
@@ -84,15 +95,16 @@ GET /api/v1/Sale?$output=Display
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response: object
 
-Easy to use archive results - just a flat list of values.
+## Response: 
+
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -100,14 +112,16 @@ Response body: object
 | odata.nextLink | string |  |
 | value | array |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 GET /api/v1/Sale
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -118,18 +132,16 @@ Content-Type: application/json; charset=utf-8
   "odata.nextLink": "nam",
   "value": [
     {
-      "PrimaryKey": 537,
-      "EntityName": "sale",
-      "saleId": 537,
-      "contactId": 5975,
-      "name": "Kunde, Ebert and Larkin"
+      "PrimaryKey": 2638,
+      "EntityName": "person",
+      "personId": 2638,
+      "fullName": "Ayden Kautzer"
     },
     {
-      "PrimaryKey": 4275,
-      "EntityName": "sale",
-      "saleId": 4275,
-      "contactId": 4444,
-      "name": "Ledner, Hauck and Kuhic"
+      "PrimaryKey": 9051,
+      "EntityName": "person",
+      "personId": 9051,
+      "fullName": "Morris Bernier"
     }
   ]
 }

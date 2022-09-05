@@ -1,6 +1,6 @@
 ---
 title: POST Agents/EMail/GetEMailAddresses
-id: v1EMailAgent_GetEMailAddresses
+uid: v1EMailAgent_GetEMailAddresses
 ---
 
 # POST Agents/EMail/GetEMailAddresses
@@ -11,7 +11,15 @@ POST /api/v1/Agents/EMail/GetEMailAddresses
 
 Get information about one or more email addresses, identified by IDs
 
-## Online Restricted: ## The EMail agent is not available in Online by default. Access must be requested specifically when app is registered
+
+
+
+## Online Restricted: ## The EMail agent is not available in Online by default. Access must be requested specifically when app is registered.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +30,7 @@ Get information about one or more email addresses, identified by IDs
 ```http
 POST /api/v1/Agents/EMail/GetEMailAddresses?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,15 +46,18 @@ POST /api/v1/Agents/EMail/GetEMailAddresses?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-EmailIds
+EmailIds 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | EmailIds | array |  |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -67,22 +79,24 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/EMail/GetEMailAddresses
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "EmailIds": [
-    672,
-    222
+    721,
+    29
   ]
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -90,30 +104,24 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactId": 77,
-    "ContactName": "Borer-Adams",
-    "PersonId": 739,
-    "PersonName": "King-Tremblay",
-    "AssociateId": 181,
-    "Address": "vel",
-    "EmailId": 363,
+    "ContactId": 523,
+    "ContactName": "Jaskolski-Dibbert",
+    "PersonId": 95,
+    "PersonName": "Boyle LLC",
+    "AssociateId": 721,
+    "Address": "eius",
+    "EmailId": 889,
     "DuplicatePersonIds": [
-      178,
-      569
+      427,
+      228
     ],
-    "Name": "Gutkowski Group",
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "Name": "Spencer-Pouros",
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 137
+        "FieldRight": null,
+        "FieldType": "System.Int32",
+        "FieldLength": 758
       }
     }
   }

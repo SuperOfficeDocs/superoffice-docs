@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Project/GetProjectEntity
-id: v1ProjectAgent_GetProjectEntity
+uid: v1ProjectAgent_GetProjectEntity
 ---
 
 # POST Agents/Project/GetProjectEntity
@@ -11,6 +11,12 @@ POST /api/v1/Agents/Project/GetProjectEntity
 
 Gets a ProjectEntity object.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -19,9 +25,10 @@ Gets a ProjectEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Project/GetProjectEntity?projectEntityId=307
+POST /api/v1/Agents/Project/GetProjectEntity?projectEntityId=662
 POST /api/v1/Agents/Project/GetProjectEntity?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -36,18 +43,16 @@ POST /api/v1/Agents/Project/GetProjectEntity?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response: object
 
-The Project Service. The service implements all services working with the Project object
+## Response: 
 
-Carrier object for ProjectEntity.
-Services for the ProjectEntity Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IProjectAgent">Project Agent</see>.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -62,9 +67,9 @@ Response body: object
 | Postit | string | The actual text, max 2047 significant characters even though it is stored as a larger data type on some databases |
 | CreatedBy |  | The person that created the project |
 | UpdatedBy |  | The person that last updated the project |
-| Associate |  | The person that created the project  <br />Use MDO List name "associate" to get list items. |
-| ProjectStatus |  | Project status is a list defined by the database administrator. Different statuses of a project may be: “In planning”, “Started”, “Finished” and so on  <br />Use MDO List name "projectstatus" to get list items. |
-| ProjectType |  | Project type is a list defined by the database admin. for example: 'Large', 'Small', 'Party'...  <br />Use MDO List name "projecttype" to get list items. |
+| Associate |  | The person that created the project  <para>Use MDO List name "associate" to get list items.</para> |
+| ProjectStatus |  | Project status is a list defined by the database administrator. Different statuses of a project may be: “In planning”, “Started”, “Finished” and so on  <para>Use MDO List name "projectstatus" to get list items.</para> |
+| ProjectType |  | Project type is a list defined by the database admin. for example: 'Large', 'Small', 'Party'...  <para>Use MDO List name "projecttype" to get list items.</para> |
 | HasImage | bool | True if the project has an image. (This is the image that is displayed in the CRM client) |
 | ImageDescription | string | Description of the project image if it exists. (This is the image that is displayed in the CRM client) |
 | ActiveStatusMonitorId | int32 | Active status monitor identity with the lowest rank for project |
@@ -85,7 +90,7 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Project/GetProjectEntity
@@ -94,252 +99,134 @@ Accept: application/json; charset=utf-8
 Accept-Language: *
 ```
 
+## Sample response
+
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 409,
-  "Name": "Mayert Group",
-  "ProjectNumber": "1169396",
+  "ProjectId": 198,
+  "Name": "Anderson-Swift",
+  "ProjectNumber": "1226938",
   "ProjectMembers": [
     {
-      "ProjectmemberId": 577,
-      "ContactId": 504,
-      "ProjectId": 459,
-      "ContactName": "Brekke Group",
+      "ProjectmemberId": 989,
+      "ContactId": 499,
+      "ProjectId": 583,
+      "ContactName": "Roberts-Schulist",
       "ContactDepartment": "",
-      "ProjectName": "Hagenes, Cole and Sawayn",
-      "EmailId": 248,
-      "EmailAddress": "darrick@towneconsidine.ca",
-      "CountryId": 788,
-      "Firstname": "Fritz",
-      "MiddleName": "Buckridge-Sipes",
-      "Lastname": "Hammes",
-      "PersonId": 794,
-      "Mrmrs": "recusandae",
-      "ProjectMemberTypeName": "Keeling Inc and Sons",
-      "Phone": "678.238.6626 x16831",
-      "PhoneId": 388,
-      "ProjectMemberTypeId": 398,
-      "EmailAddressName": "josefa_balistreri@ward.uk",
-      "Comment": "dolores",
-      "FullName": "Otho Volkman",
-      "TableRight": {},
+      "ProjectName": "Durgan-Mills",
+      "EmailId": 306,
+      "EmailAddress": "max@hodkiewicz.info",
+      "CountryId": 507,
+      "Firstname": "Mackenzie",
+      "MiddleName": "Waelchi Group",
+      "Lastname": "Gusikowski",
+      "PersonId": 23,
+      "Mrmrs": "aut",
+      "ProjectMemberTypeName": "Runte-Wiza",
+      "Phone": "929-838-7651",
+      "PhoneId": 260,
+      "ProjectMemberTypeId": 44,
+      "EmailAddressName": "devante.ebert@ondrickaherman.name",
+      "Comment": "vitae",
+      "FullName": "Lera Steuber",
+      "TableRight": null,
       "FieldProperties": {
         "fieldName": {
-          "FieldRight": {
-            "Mask": "FULL",
-            "Reason": ""
-          },
-          "FieldType": "System.String",
-          "FieldLength": 140
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 334
         }
       }
     }
   ],
   "Urls": [
     {
-      "Value": "quam",
-      "StrippedValue": "non",
-      "Description": "Enhanced zero administration Graphical User Interface",
-      "TableRight": {},
+      "Value": "occaecati",
+      "StrippedValue": "quidem",
+      "Description": "Implemented human-resource neural-net",
+      "TableRight": null,
       "FieldProperties": {
         "fieldName": {
-          "FieldRight": {
-            "Mask": "FULL",
-            "Reason": ""
-          },
-          "FieldType": "System.String",
-          "FieldLength": 363
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 437
         }
       }
     },
     {
-      "Value": "quam",
-      "StrippedValue": "non",
-      "Description": "Enhanced zero administration Graphical User Interface",
-      "TableRight": {},
+      "Value": "occaecati",
+      "StrippedValue": "quidem",
+      "Description": "Implemented human-resource neural-net",
+      "TableRight": null,
       "FieldProperties": {
         "fieldName": {
-          "FieldRight": {
-            "Mask": "FULL",
-            "Reason": ""
-          },
-          "FieldType": "System.String",
-          "FieldLength": 363
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 437
         }
       }
     }
   ],
-  "CreatedDate": "2010-09-13T18:28:49.8921371+02:00",
-  "UpdatedDate": "1998-01-22T18:28:49.8921371+01:00",
-  "Description": "Virtual local task-force",
-  "Postit": "sequi",
-  "CreatedBy": {
-    "AssociateId": 918,
-    "Name": "Wintheiser-Nitzsche",
-    "PersonId": 897,
-    "Rank": 547,
-    "Tooltip": "est",
-    "Type": "AnonymousAssociate",
-    "GroupIdx": 245,
-    "FullName": "Geoffrey Friesen",
-    "FormalName": "Reilly, Senger and Friesen",
-    "Deleted": false,
-    "EjUserId": 100,
-    "UserName": "Pollich-Lindgren",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 270
-      }
-    }
-  },
-  "UpdatedBy": {
-    "AssociateId": 990,
-    "Name": "Schmidt Inc and Sons",
-    "PersonId": 914,
-    "Rank": 844,
-    "Tooltip": "corporis",
-    "Type": "AnonymousAssociate",
-    "GroupIdx": 586,
-    "FullName": "Jacynthe Ledner DDS",
-    "FormalName": "Lesch Inc and Sons",
-    "Deleted": true,
-    "EjUserId": 849,
-    "UserName": "Jast LLC",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 774
-      }
-    }
-  },
-  "Associate": {
-    "AssociateId": 844,
-    "Name": "Koelpin LLC",
-    "PersonId": 884,
-    "Rank": 748,
-    "Tooltip": "et",
-    "Type": "AnonymousAssociate",
-    "GroupIdx": 794,
-    "FullName": "Lia Harber",
-    "FormalName": "Abernathy Group",
-    "Deleted": true,
-    "EjUserId": 141,
-    "UserName": "Schiller-Goldner",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.Int32",
-        "FieldLength": 353
-      }
-    }
-  },
-  "ProjectStatus": {
-    "Id": 342,
-    "Value": "odio",
-    "Tooltip": "reprehenderit",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.Int32",
-        "FieldLength": 141
-      }
-    }
-  },
-  "ProjectType": {
-    "Id": 2,
-    "Value": "quo",
-    "Tooltip": "cumque",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 186
-      }
-    }
-  },
+  "CreatedDate": "1996-11-09T11:10:27.5964523+01:00",
+  "UpdatedDate": "2007-06-29T11:10:27.5964523+02:00",
+  "Description": "Seamless bandwidth-monitored artificial intelligence",
+  "Postit": "quo",
+  "CreatedBy": null,
+  "UpdatedBy": null,
+  "Associate": null,
+  "ProjectStatus": null,
+  "ProjectType": null,
   "HasImage": true,
-  "ImageDescription": "Profit-focused logistical software",
-  "ActiveStatusMonitorId": 730,
+  "ImageDescription": "Proactive fresh-thinking portal",
+  "ActiveStatusMonitorId": 224,
   "Links": [
     {
-      "EntityName": "Koepp Inc and Sons",
-      "Id": 547,
-      "Description": "Integrated upward-trending initiative",
-      "ExtraInfo": "eligendi",
-      "LinkId": 311,
-      "TableRight": {},
+      "EntityName": "Yost, Feil and Cassin",
+      "Id": 652,
+      "Description": "Assimilated leading edge complexity",
+      "ExtraInfo": "delectus",
+      "LinkId": 525,
+      "TableRight": null,
       "FieldProperties": {
         "fieldName": {
-          "FieldRight": {
-            "Mask": "FULL",
-            "Reason": ""
-          },
+          "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 655
+          "FieldLength": 262
         }
       }
     }
   ],
-  "ActiveLinks": 772,
+  "ActiveLinks": 607,
   "Completed": true,
-  "NextMilestoneDate": "2010-03-23T18:28:49.8931413+01:00",
-  "NmdAppointmentId": 137,
-  "EndDate": "2017-01-25T18:28:49.8931413+01:00",
-  "ActiveErpLinks": 193,
+  "NextMilestoneDate": "2000-09-09T11:10:27.5984598+02:00",
+  "NmdAppointmentId": 13,
+  "EndDate": "2001-10-10T11:10:27.5984598+02:00",
+  "ActiveErpLinks": 824,
   "UserDefinedFields": {
-    "SuperOffice:1": "Mr. Humberto Fadel",
-    "SuperOffice:2": "803397738"
+    "SuperOffice:1": "Arvilla Ayana Yost II",
+    "SuperOffice:2": "68375311"
   },
   "ExtraFields": {
-    "ExtraFields1": "dicta",
-    "ExtraFields2": "omnis"
+    "ExtraFields1": "nam",
+    "ExtraFields2": "et"
   },
   "CustomFields": {
-    "CustomFields1": "facilis",
-    "CustomFields2": "reprehenderit"
+    "CustomFields1": "consequatur",
+    "CustomFields2": "architecto"
   },
-  "PublishEventDate": "2019-07-07T18:28:49.8931413+02:00",
-  "PublishTo": "1999-06-03T18:28:49.8931413+02:00",
-  "PublishFrom": "2012-03-04T18:28:49.8931413+01:00",
+  "PublishEventDate": "2019-08-16T11:10:27.5984598+02:00",
+  "PublishTo": "2021-03-10T11:10:27.5984598+01:00",
+  "PublishFrom": "2022-05-06T11:10:27.5984598+02:00",
   "IsPublished": false,
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
+      "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 161
+      "FieldLength": 291
     }
   }
 }

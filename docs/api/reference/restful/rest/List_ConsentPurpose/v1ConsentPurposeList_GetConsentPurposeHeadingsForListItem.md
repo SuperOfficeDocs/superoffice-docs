@@ -1,6 +1,6 @@
 ---
 title: GET List/ConsentPurpose/Items/{id}/Headings
-id: v1ConsentPurposeList_GetConsentPurposeHeadingsForListItem
+uid: v1ConsentPurposeList_GetConsentPurposeHeadingsForListItem
 ---
 
 # GET List/ConsentPurpose/Items/{id}/Headings
@@ -11,11 +11,17 @@ GET /api/v1/List/ConsentPurpose/Items/{itemId}/Headings
 
 Gets headings for the ConsentPurpose list's item.
 
+
 Calls the List agent service GetHeadings.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | itemId | int32 | The ID of the headings to be get. **Required** |
+
 
 ## Query String Parameters
 
@@ -26,6 +32,7 @@ Calls the List agent service GetHeadings.
 ```http
 GET /api/v1/List/ConsentPurpose/Items/{itemId}/Headings?showDeleted=False
 ```
+
 
 ## Request Headers
 
@@ -40,7 +47,10 @@ GET /api/v1/List/ConsentPurpose/Items/{itemId}/Headings?showDeleted=False
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -68,14 +78,16 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 GET /api/v1/List/ConsentPurpose/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -83,65 +95,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 242,
-    "Name": "Crona-Walter",
-    "ToolTip": "Repudiandae repellat quibusdam molestiae debitis.",
-    "Deleted": false,
-    "Rank": 795,
-    "Type": "voluptas",
-    "ColorBlock": 850,
-    "IconHint": "ut",
-    "Selected": true,
-    "LastChanged": "1999-01-03T18:25:51.6742949+01:00",
+    "Id": 382,
+    "Name": "Emmerich, White and O'Reilly",
+    "ToolTip": "Quos enim nobis molestias quo alias praesentium maiores.",
+    "Deleted": true,
+    "Rank": 355,
+    "Type": "cumque",
+    "ColorBlock": 251,
+    "IconHint": "unde",
+    "Selected": false,
+    "LastChanged": "2014-02-14T11:10:53.9861826+01:00",
     "ChildItems": [
       {
-        "Id": 284,
-        "Name": "Cartwright-Gorczany",
-        "ToolTip": "Ut unde libero vel repudiandae voluptas.",
+        "Id": 507,
+        "Name": "Brekke-Schmitt",
+        "ToolTip": "Sit rerum enim omnis consequatur est eum.",
         "Deleted": true,
-        "Rank": 400,
-        "Type": "sint",
-        "ColorBlock": 407,
-        "IconHint": "ea",
+        "Rank": 363,
+        "Type": "ut",
+        "ColorBlock": 368,
+        "IconHint": "tenetur",
         "Selected": true,
-        "LastChanged": "1994-11-22T18:25:51.6742949+01:00",
+        "LastChanged": "2001-02-03T11:10:53.9861826+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "perferendis",
-        "StyleHint": "ut",
-        "Hidden": false,
-        "FullName": "Hans Gottlieb",
-        "TableRight": {},
+        "ExtraInfo": "ut",
+        "StyleHint": "quia",
+        "Hidden": true,
+        "FullName": "Miss Walter Paucek",
+        "TableRight": null,
         "FieldProperties": {
           "fieldName": {
-            "FieldRight": {
-              "Mask": "FULL",
-              "Reason": ""
-            },
-            "FieldType": "System.Int32",
-            "FieldLength": 880
+            "FieldRight": null,
+            "FieldType": "System.String",
+            "FieldLength": 779
           }
         }
       }
     ],
-    "ExtraInfo": "voluptatem",
-    "StyleHint": "occaecati",
-    "Hidden": true,
-    "FullName": "Jake Howell DVM",
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "ExtraInfo": "beatae",
+    "StyleHint": "odit",
+    "Hidden": false,
+    "FullName": "Mrs. Enola Opal Larkin",
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
+        "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 106
+        "FieldLength": 307
       }
     }
   }

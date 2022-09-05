@@ -1,6 +1,6 @@
 ---
 title: POST Agents/ErpSync/ForceResync
-id: v1ErpSyncAgent_ForceResync
+uid: v1ErpSyncAgent_ForceResync
 ---
 
 # POST Agents/ErpSync/ForceResync
@@ -11,7 +11,15 @@ POST /api/v1/Agents/ErpSync/ForceResync
 
 Force resync from CRM or given Erp connection to all other connections
 
-## Online Restricted: ## The ErpSync agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for ERP integration apps
+
+
+
+## Online Restricted: ## The ErpSync agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for ERP integration apps.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +30,7 @@ Force resync from CRM or given Erp connection to all other connections
 ```http
 POST /api/v1/Agents/ErpSync/ForceResync?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,27 +46,25 @@ POST /api/v1/Agents/ErpSync/ForceResync?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-ErpConnectionId, InternalKeyIds
+ErpConnectionId, InternalKeyIds 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | ErpConnectionId | int32 |  |
 | InternalKeyIds | array |  |
 
-## Response: object
 
-PluginResponse exists to be able to respond with more than just a true/false, but also an explanation. Such an explanation can be displayed on for instance a disabled “Place Order” button.
+## Response: 
 
-Carrier object for PluginResponse.
-Services for the PluginResponse Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IQuoteAgent">Quote Agent</see>.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -69,23 +76,25 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/ErpSync/ForceResync
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 726,
+  "ErpConnectionId": 352,
   "InternalKeyIds": [
-    566,
-    265
+    325,
+    891
   ]
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -93,46 +102,16 @@ Content-Type: application/json; charset=utf-8
 
 {
   "IsOk": false,
-  "UserExplanation": "non",
-  "TechExplanation": "quisquam",
-  "ErrorCode": "qui",
-  "Changes": {
-    "AddedRecords": [
-      {},
-      {}
-    ],
-    "UpdatedRecords": [
-      {},
-      {}
-    ],
-    "DeletedRecords": [
-      {},
-      {}
-    ],
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 621
-      }
-    }
-  },
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": "productize global systems"
-  },
+  "UserExplanation": "consequatur",
+  "TechExplanation": "enim",
+  "ErrorCode": "ipsum",
+  "Changes": null,
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
+      "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 374
+      "FieldLength": 781
     }
   }
 }

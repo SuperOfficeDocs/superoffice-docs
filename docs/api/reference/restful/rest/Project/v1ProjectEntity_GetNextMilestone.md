@@ -1,6 +1,6 @@
 ---
 title: GET Project/{id}/NextMilestone
-id: v1ProjectEntity_GetNextMilestone
+uid: v1ProjectEntity_GetNextMilestone
 ---
 
 # GET Project/{id}/NextMilestone
@@ -11,9 +11,16 @@ GET /api/v1/Project/{projectId}/NextMilestone
 
 Next upcoming milestone appointment
 
+
+
+
+
+
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | projectId | int32 | Project id - primary key **Required** |
+
+
 
 ## Request Headers
 
@@ -28,18 +35,16 @@ Next upcoming milestone appointment
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response: object
 
-Simple read-only appointment data.
+## Response: 
 
-Carrier object for Appointment.
-Services for the Appointment Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IAppointmentAgent">Appointment Agent</see>.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -95,81 +100,77 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 GET /api/v1/Project/{projectId}/NextMilestone
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AppointmentId": 256,
-  "StartDate": "2007-04-28T18:25:50.8358854+02:00",
-  "EndDate": "2016-05-12T18:25:50.8358854+02:00",
+  "AppointmentId": 742,
+  "StartDate": "1997-10-27T11:10:53.3131745+01:00",
+  "EndDate": "2021-01-05T11:10:53.3131745+01:00",
   "Type": "BookingForChecklist",
-  "Task": "sint",
-  "AssociateFullName": "Viviane Volkman",
-  "ContactName": "Lind-Schmeler",
-  "Description": "Public-key national middleware",
-  "PersonFullName": "Sandy Hammes",
-  "PersonId": 474,
-  "ContactId": 417,
-  "ProjectId": 179,
-  "ProjectName": "Stoltenberg, Lindgren and Barrows",
-  "IsPublished": false,
-  "AssociateId": 835,
-  "ColorIndex": 897,
+  "Task": "molestias",
+  "AssociateFullName": "Friedrich Jenkins",
+  "ContactName": "Dietrich, Auer and Lockman",
+  "Description": "Multi-lateral 24/7 project",
+  "PersonFullName": "Melyna Stark",
+  "PersonId": 973,
+  "ContactId": 309,
+  "ProjectId": 445,
+  "ProjectName": "Brekke Inc and Sons",
+  "IsPublished": true,
+  "AssociateId": 527,
+  "ColorIndex": 10,
   "IsFree": true,
   "HasAlarm": false,
-  "IsAlldayEvent": true,
+  "IsAlldayEvent": false,
   "Private": "PrivateGroup",
-  "PriorityId": 86,
-  "PriorityName": "Labadie-Luettgen",
+  "PriorityId": 694,
+  "PriorityName": "Price-Balistreri",
   "TaskType": "Appointment",
-  "IsBookingMain": true,
-  "IsRecurrence": false,
+  "IsBookingMain": false,
+  "IsRecurrence": true,
   "IsBooking": false,
-  "ActiveDate": "2006-10-27T18:25:50.8368852+02:00",
+  "ActiveDate": "2022-04-09T11:10:53.3141741+02:00",
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
   "Completed": "Completed",
   "RecurringPattern": "Custom",
-  "RecurringStartDate": "1998-07-24T18:25:50.8368852+02:00",
-  "RecurringEndDate": "2005-01-02T18:25:50.8368852+01:00",
-  "MotherId": 382,
-  "AssignedBy": 844,
-  "AssignedByFullName": "Brennan Gibson",
+  "RecurringStartDate": "2003-10-19T11:10:53.3141741+02:00",
+  "RecurringEndDate": "2011-04-11T11:10:53.3141741+02:00",
+  "MotherId": 596,
+  "AssignedBy": 897,
+  "AssignedByFullName": "Citlalli Mosciski",
   "RejectReason": "",
-  "Location": "error",
-  "AlarmLeadTime": "distinctio",
-  "SaleId": 388,
-  "SaleName": "Parker-Little",
-  "AssociateName": "Cummings-Cronin",
-  "CreatedDate": "2004-07-08T18:25:50.8368852+02:00",
-  "CreatedBy": "dolores",
-  "CreatedByFullName": "Annamae Stoltenberg V",
-  "CreatedByAssociateId": 784,
+  "Location": "sapiente",
+  "AlarmLeadTime": "consequuntur",
+  "SaleId": 57,
+  "SaleName": "Lakin-Cremin",
+  "AssociateName": "Hirthe, Tremblay and McGlynn",
+  "CreatedDate": "2002-02-27T11:10:53.3141741+01:00",
+  "CreatedBy": "quibusdam",
+  "CreatedByFullName": "Mrs. Guiseppe Bergstrom",
+  "CreatedByAssociateId": 113,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
+      "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 228
+      "FieldLength": 435
     }
   }
 }

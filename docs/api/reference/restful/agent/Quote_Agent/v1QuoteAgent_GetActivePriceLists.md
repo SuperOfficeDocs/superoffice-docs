@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Quote/GetActivePriceLists
-id: v1QuoteAgent_GetActivePriceLists
+uid: v1QuoteAgent_GetActivePriceLists
 ---
 
 # POST Agents/Quote/GetActivePriceLists
@@ -11,7 +11,13 @@ POST /api/v1/Agents/Quote/GetActivePriceLists
 
 Gets the available active PriceLists in a specific currency.
 
+
 Will return empty array if there is no PriceList with the stated currency available.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +28,7 @@ Will return empty array if there is no PriceList with the stated currency availa
 ```http
 POST /api/v1/Agents/Quote/GetActivePriceLists?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,16 +44,19 @@ POST /api/v1/Agents/Quote/GetActivePriceLists?$select=name,department,category/i
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-QuoteConnectionId, Currency
+QuoteConnectionId, Currency 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | QuoteConnectionId | int32 |  |
 | Currency | string |  |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -69,20 +79,22 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Quote/GetActivePriceLists
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 845,
-  "Currency": "consequatur"
+  "QuoteConnectionId": 353,
+  "Currency": "voluptas"
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -90,28 +102,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PriceListId": 724,
-    "ERPPriceListKey": "non",
-    "QuoteConnectionId": 821,
-    "Name": "Beatty, Schultz and Ward",
-    "Description": "Enhanced full-range challenge",
-    "Currency": "aut",
-    "CurrencyName": "Harvey Inc and Sons",
-    "ValidFrom": "2018-09-09T18:28:49.9431371+02:00",
-    "ValidTo": "2020-05-06T18:28:49.9431371+02:00",
+    "PriceListId": 922,
+    "ERPPriceListKey": "dignissimos",
+    "QuoteConnectionId": 680,
+    "Name": "Franecki-Marks",
+    "Description": "Object-based methodical monitoring",
+    "Currency": "repellendus",
+    "CurrencyName": "Romaguera, Casper and Lockman",
+    "ValidFrom": "2011-02-14T11:10:27.7104916+01:00",
+    "ValidTo": "2022-07-03T11:10:27.7104916+02:00",
     "IsActive": false,
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 497
+        "FieldRight": null,
+        "FieldType": "System.Int32",
+        "FieldLength": 784
       }
     }
   }

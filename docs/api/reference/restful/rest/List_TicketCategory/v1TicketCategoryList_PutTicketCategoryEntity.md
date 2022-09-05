@@ -1,6 +1,6 @@
 ---
 title: PUT List/TicketCategory/Items/{id}
-id: v1TicketCategoryList_PutTicketCategoryEntity
+uid: v1TicketCategoryList_PutTicketCategoryEntity
 ---
 
 # PUT List/TicketCategory/Items/{id}
@@ -11,11 +11,18 @@ PUT /api/v1/List/TicketCategory/Items/{id}
 
 Updates the existing TicketCategoryEntity
 
+
 Calls the List agent service SaveTicketCategoryEntity.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | id | int32 | The id of TicketCategoryEntity to be saved. **Required** |
+
+
 
 ## Request Headers
 
@@ -31,9 +38,9 @@ Calls the List agent service SaveTicketCategoryEntity.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entity
+## Request Body: entity  
 
-The details of TicketCategoryEntity to be saved.
+The details of TicketCategoryEntity to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -55,19 +62,17 @@ The details of TicketCategoryEntity to be saved.
 | ExtraFields | object | Deprecated: Use {SuperOffice.CRM.Services.TicketCategoryEntity.CustomFields} instead. Extra fields added to the carrier. This could be data from Plug-ins, the foreign key system, external applications, etc. |
 | CustomFields | object | Udef + Extra fields added to the carrier. Extra fields as defined by changes to database schema + user-defined fields as defined by admin. Custom fields combines user defined fields and extra fields into one bucket.  The individual {SuperOffice.CRM.Services.TicketCategoryEntity.ExtraFields} and <see cref="!:UserDefinedFields">UserDefinedFields</see> properties are deprecated in favor of this combined collection. |
 
-## Response: object
 
-This entity describes the meta data for a ticket category, and provides special operations on it.
+## Response: 
 
-Carrier object for TicketCategoryEntity.
-Services for the TicketCategoryEntity Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IListAgent">List Agent</see>.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 | 400 | Bad request. Entity to save is not in request body. |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -91,136 +96,78 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 PUT /api/v1/List/TicketCategory/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketCategoryId": 613,
-  "ParentId": 522,
-  "Name": "Kovacek, Wilkinson and Anderson",
-  "Fullname": "eligendi",
-  "CategoryMaster": 502,
+  "TicketCategoryId": 755,
+  "ParentId": 575,
+  "Name": "Ritchie-Konopelski",
+  "Fullname": "rerum",
+  "CategoryMaster": 877,
   "Flags": "AcceptWhenReplying",
   "DelegateMethod": "Even",
-  "ExternalName": "Hegmann-Zboncak",
+  "ExternalName": "Cummerata, Schmidt and Waelchi",
   "ClosingStatus": "Active",
   "MsgClosingStatus": "Active",
-  "AssignmentLag": 753,
-  "ReplyTemplate": 633,
-  "NotificationEmail": "delmer_jacobson@bernhard.com",
-  "DefaultTicketStatus": {
-    "TicketStatusId": 131,
-    "Name": "Kris-McDermott",
-    "Status": "Active",
-    "TimeCounter": "Externally",
-    "NoEmailReopen": false,
-    "IsDefault": false,
-    "UsedInQueue": false
-  },
-  "DefaultMessageStatus": {
-    "TicketStatusId": 789,
-    "Name": "Thiel Inc and Sons",
-    "Status": "Active",
-    "TimeCounter": "Externally",
-    "NoEmailReopen": true,
-    "IsDefault": true,
-    "UsedInQueue": true
-  },
+  "AssignmentLag": 478,
+  "ReplyTemplate": 508,
+  "NotificationEmail": "reginald@bayer.us",
+  "DefaultTicketStatus": null,
+  "DefaultMessageStatus": null,
   "ExtraFields": {
-    "ExtraFields1": "aut",
-    "ExtraFields2": "recusandae"
+    "ExtraFields1": "facilis",
+    "ExtraFields2": "nihil"
   },
   "CustomFields": {
-    "CustomFields1": "id",
-    "CustomFields2": "consequatur"
+    "CustomFields1": "iure",
+    "CustomFields2": "est"
   }
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketCategoryId": 872,
-  "ParentId": 116,
-  "Name": "Harris Inc and Sons",
-  "Fullname": "est",
-  "CategoryMaster": 764,
+  "TicketCategoryId": 715,
+  "ParentId": 674,
+  "Name": "Runte Inc and Sons",
+  "Fullname": "dolor",
+  "CategoryMaster": 335,
   "Flags": "AcceptWhenReplying",
   "DelegateMethod": "Even",
-  "ExternalName": "Bauch Inc and Sons",
+  "ExternalName": "Smith-Abernathy",
   "ClosingStatus": "Active",
   "MsgClosingStatus": "Active",
-  "AssignmentLag": 14,
-  "ReplyTemplate": 798,
-  "NotificationEmail": "earlene_pollich@kemmerschneider.biz",
-  "DefaultTicketStatus": {
-    "TicketStatusId": 505,
-    "Name": "Waelchi Inc and Sons",
-    "Status": "Active",
-    "TimeCounter": "Externally",
-    "NoEmailReopen": false,
-    "IsDefault": false,
-    "UsedInQueue": true,
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 363
-      }
-    }
-  },
-  "DefaultMessageStatus": {
-    "TicketStatusId": 121,
-    "Name": "Kautzer Group",
-    "Status": "Active",
-    "TimeCounter": "Externally",
-    "NoEmailReopen": true,
-    "IsDefault": false,
-    "UsedInQueue": false,
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 486
-      }
-    }
-  },
+  "AssignmentLag": 488,
+  "ReplyTemplate": 466,
+  "NotificationEmail": "tessie@reichertschmidt.uk",
+  "DefaultTicketStatus": null,
+  "DefaultMessageStatus": null,
   "ExtraFields": {
-    "ExtraFields1": "vitae",
-    "ExtraFields2": "similique"
+    "ExtraFields1": "cupiditate",
+    "ExtraFields2": "quidem"
   },
   "CustomFields": {
-    "CustomFields1": "cum",
-    "CustomFields2": "animi"
+    "CustomFields1": "omnis",
+    "CustomFields2": "dolor"
   },
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
+      "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 324
+      "FieldLength": 288
     }
   }
 }

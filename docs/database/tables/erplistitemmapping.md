@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "ErpListItemMapping"
-so.date: 04.12.2022
+so.date: 08.26.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -31,6 +31,7 @@ Defines a mapping of ERP to CRM fields, per connection and actor type
 |updated\_associate\_id|Last updated by whom|FK [associate](associate.md)| |
 |updatedCount|Number of updates made to this record|UShort| |
 
+
 ![ErpListItemMapping table relationship diagram](./media/ErpListItemMapping.png)
 
 [!include[details](./includes/erplistitemmapping.md)]
@@ -49,6 +50,7 @@ Defines a mapping of ERP to CRM fields, per connection and actor type
 |[associate](associate.md)  |Employees, resources and other users - except for External persons |
 |[ErpField](erpfield.md)  |Store the metadata describing the fields that belong to an actor/connection combination, as described by the Erp Connector |
 
+
 ## Replication Flags
 
 * None
@@ -56,3 +58,4 @@ Defines a mapping of ERP to CRM fields, per connection and actor type
 ## Security Flags
 
 * No access control via user's Role.
+

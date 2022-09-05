@@ -17,6 +17,8 @@ Move a person to a specified contact. You must specify the date after which acti
 * **destinationContactId:** The identifier for the contact which the person will be moved to
 * **moveAfterDate:** Move activites after this date. Activities before this date are left alone.
 
+
+
 [WSDL file for Services86/Person](../Services86-Person.md)
 
 Obtain a ticket from the [Services86/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -43,13 +45,14 @@ Application tokens must be specified if calling an Online installation. Applicat
    <Person:Move>
     <Person:PersonId xsi:type="xsd:int">0</Person:PersonId>
     <Person:DestinationContactId xsi:type="xsd:int">0</Person:DestinationContactId>
-    <Person:MoveAfterDate xsi:type="xsd:dateTime">2021-11-30T13:22:59Z</Person:MoveAfterDate>
+    <Person:MoveAfterDate xsi:type="xsd:dateTime">2022-08-26T08:55:27Z</Person:MoveAfterDate>
    </Person:Move>
 
  </SOAP-ENV:Body>
 </SOAP-ENV:Envelope>
 
 ```
+
 
 ## Move Response
 
@@ -70,3 +73,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

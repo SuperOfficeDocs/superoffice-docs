@@ -8,10 +8,11 @@ title: Services88.DiagnosticsAgent WSDL
 
 ```xml
 <?xml version="1.0" encoding="utf-8"?>
-<wsdl:definitions name="WcfDiagnosticsService" targetNamespace="http://www.superoffice.net/ws/crm/NetServer/Services88" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:tns="http://www.superoffice.net/ws/crm/NetServer/Services88" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<wsdl:definitions name="WcfDiagnosticsService" targetNamespace="http://www.superoffice.net/ws/crm/NetServer/Services88" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tns="http://www.superoffice.net/ws/crm/NetServer/Services88" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing">
   <wsdl:types>
     <xs:schema elementFormDefault="qualified" targetNamespace="http://www.superoffice.net/ws/crm/NetServer/Services88" xmlns:xs="http://www.w3.org/2001/XMLSchema">
       <xs:import namespace="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+      <xs:import namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
       <xs:element name="FlushCaches">
         <xs:complexType>
           <xs:sequence />
@@ -111,6 +112,20 @@ title: Services88.DiagnosticsAgent WSDL
       <xs:element name="FlushCachesByNameResponse">
         <xs:complexType>
           <xs:sequence />
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="GetCacheState">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="CacheNames" nillable="true" type="q3:ArrayOfstring" xmlns:q3="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="GetCacheStateResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="Response" nillable="true" type="xs:string" />
+          </xs:sequence>
         </xs:complexType>
       </xs:element>
       <xs:element name="LogViewState">
@@ -259,6 +274,22 @@ title: Services88.DiagnosticsAgent WSDL
               <xs:enumeration value="Delete" />
               <xs:enumeration value="Filtering" />
               <xs:enumeration value="RestrictedUpdate" />
+              <xs:enumeration value="Unused1" />
+              <xs:enumeration value="Uninitialized" />
+              <xs:enumeration value="R">
+                <xs:annotation>
+                  <xs:appinfo>
+                    <EnumerationValue xmlns="http://schemas.microsoft.com/2003/10/Serialization/">1</EnumerationValue>
+                  </xs:appinfo>
+                </xs:annotation>
+              </xs:enumeration>
+              <xs:enumeration value="F">
+                <xs:annotation>
+                  <xs:appinfo>
+                    <EnumerationValue xmlns="http://schemas.microsoft.com/2003/10/Serialization/">16</EnumerationValue>
+                  </xs:appinfo>
+                </xs:annotation>
+              </xs:enumeration>
             </xs:restriction>
           </xs:simpleType>
         </xs:list>
@@ -310,6 +341,13 @@ title: Services88.DiagnosticsAgent WSDL
               <xs:enumeration value="UIHintMandatory" />
               <xs:enumeration value="UIHintReadOnly" />
               <xs:enumeration value="UndefinedValue256" />
+              <xs:enumeration value="Nullable">
+                <xs:annotation>
+                  <xs:appinfo>
+                    <EnumerationValue xmlns="http://schemas.microsoft.com/2003/10/Serialization/">32</EnumerationValue>
+                  </xs:appinfo>
+                </xs:annotation>
+              </xs:enumeration>
             </xs:restriction>
           </xs:simpleType>
         </xs:list>
@@ -449,6 +487,23 @@ title: Services88.DiagnosticsAgent WSDL
     <wsdl:part name="parameters" element="tns:FlushCachesByNameResponse" />
   </wsdl:message>
   <wsdl:message name="FlushCachesByNameResponse_Headers">
+    <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
+    <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
+    <wsdl:part name="Succeeded" element="tns:Succeeded" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="GetCacheStateRequest">
+    <wsdl:part name="parameters" element="tns:GetCacheState" />
+  </wsdl:message>
+  <wsdl:message name="GetCacheStateRequest_Headers">
+    <wsdl:part name="ApplicationToken" element="tns:ApplicationToken" />
+    <wsdl:part name="Credentials" element="tns:Credentials" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="GetCacheStateResponse">
+    <wsdl:part name="parameters" element="tns:GetCacheStateResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetCacheStateResponse_Headers">
     <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
     <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
     <wsdl:part name="Succeeded" element="tns:Succeeded" />
@@ -666,6 +721,13 @@ title: Services88.DiagnosticsAgent WSDL
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Diagnostics/FlushCachesByName" name="FlushCachesByNameRequest" message="tns:FlushCachesByNameRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Diagnostics/FlushCachesByNameResponse" name="FlushCachesByNameResponse" message="tns:FlushCachesByNameResponse" />
     </wsdl:operation>
+    <wsdl:operation name="GetCacheState">
+      <wsdl:documentation>
+        <summary>Get the current generation value of the named caches. State is opaque.</summary>
+      </wsdl:documentation>
+      <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Diagnostics/GetCacheState" name="GetCacheStateRequest" message="tns:GetCacheStateRequest" />
+      <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Diagnostics/GetCacheStateResponse" name="GetCacheStateResponse" message="tns:GetCacheStateResponse" />
+    </wsdl:operation>
     <wsdl:operation name="LogViewState">
       <wsdl:documentation>
         <summary>Log a change in view state. The granularity of the logging depends on the current configuration. This call returns asynchronously, leaving the server to finish processing later on.</summary>
@@ -791,6 +853,22 @@ title: Services88.DiagnosticsAgent WSDL
         <soap:header message="tns:FlushCachesByNameResponse_Headers" part="ExtraInfo" use="literal" />
         <soap:header message="tns:FlushCachesByNameResponse_Headers" part="Succeeded" use="literal" />
         <soap:header message="tns:FlushCachesByNameResponse_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetCacheState">
+      <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/Diagnostics/GetCacheState" style="document" />
+      <wsdl:input name="GetCacheStateRequest">
+        <soap:header message="tns:GetCacheStateRequest_Headers" part="ApplicationToken" use="literal" />
+        <soap:header message="tns:GetCacheStateRequest_Headers" part="Credentials" use="literal" />
+        <soap:header message="tns:GetCacheStateRequest_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="GetCacheStateResponse">
+        <soap:header message="tns:GetCacheStateResponse_Headers" part="ExceptionInfo" use="literal" />
+        <soap:header message="tns:GetCacheStateResponse_Headers" part="ExtraInfo" use="literal" />
+        <soap:header message="tns:GetCacheStateResponse_Headers" part="Succeeded" use="literal" />
+        <soap:header message="tns:GetCacheStateResponse_Headers" part="TimeZone" use="literal" />
         <soap:body use="literal" />
       </wsdl:output>
     </wsdl:operation>
@@ -978,3 +1056,4 @@ title: Services88.DiagnosticsAgent WSDL
   </wsdl:service>
 </wsdl:definitions>
 ```
+

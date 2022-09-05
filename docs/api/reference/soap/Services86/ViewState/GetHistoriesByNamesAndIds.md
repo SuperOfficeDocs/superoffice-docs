@@ -17,6 +17,7 @@ Returns history data for the named entities and the given ids - which may not di
 
 **Returns:** On history item for each history name/id pair specified, in exactly the same order as specified.&lt;para/&gt;If a specified item cannot be found in the database, its Id will be 0 and its name will be blank in the return array.
 
+
 [WSDL file for Services86/ViewState](../Services86-ViewState.md)
 
 Obtain a ticket from the [Services86/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -55,6 +56,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## GetHistoriesByNamesAndIds Response
 
 ```xml
@@ -85,3 +87,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

@@ -17,6 +17,7 @@ Wipe and regenerate the freetext index by scanning the database (freetext search
 
 **Returns:** Information about the batch task, if batch execution was requested. Otherwise null
 
+
 [WSDL file for Services86/FreeText](../Services86-FreeText.md)
 
 Obtain a ticket from the [Services86/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -49,6 +50,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## RegenerateIndex Response
 
 ```xml
@@ -77,8 +79,8 @@ Application tokens must be specified if calling an Online installation. Applicat
       <FreeText:Value xsi:type="xsd:string"></FreeText:Value>
      </FreeText:StringKeyValuePair>
     </FreeText:ParameterObject>
-    <FreeText:LastStarted xsi:type="xsd:dateTime">2021-11-30T13:22:55Z</FreeText:LastStarted>
-    <FreeText:Created xsi:type="xsd:dateTime">2021-11-30T13:22:55Z</FreeText:Created>
+    <FreeText:LastStarted xsi:type="xsd:dateTime">2022-08-26T08:55:09Z</FreeText:LastStarted>
+    <FreeText:Created xsi:type="xsd:dateTime">2022-08-26T08:55:09Z</FreeText:Created>
     <FreeText:StartCount xsi:type="xsd:int">0</FreeText:StartCount>
     <FreeText:DatabaseSerialNumber xsi:type="xsd:string"></FreeText:DatabaseSerialNumber>
     <FreeText:Context xsi:type="xsd:string"></FreeText:Context>
@@ -95,3 +97,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

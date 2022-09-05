@@ -1,6 +1,6 @@
 ---
 title: POST List/DeliveryTerm/Items
-id: v1DeliveryTermsList_PostDeliveryTerm
+uid: v1DeliveryTermsList_PostDeliveryTerm
 ---
 
 # POST List/DeliveryTerm/Items
@@ -10,6 +10,13 @@ POST /api/v1/List/DeliveryTerm/Items
 ```
 
 Add a new DeliveryTerm to the list.
+
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -25,9 +32,9 @@ Add a new DeliveryTerm to the list.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: newListItem
+## Request Body: newListItem  
 
-The DeliveryTerm to be added to the list.
+The DeliveryTerm to be added to the list. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -38,18 +45,16 @@ The DeliveryTerm to be added to the list.
 | UdListDefinitionId | int32 | The id of the list which this list item belongs to |
 | Rank | int32 | The rank of the list item |
 
-## Response: object
 
-The list item entity contains generic list item information
+## Response: 
 
-Carrier object for ListItemEntity.
-Services for the ListItemEntity Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IListAgent">List Agent</see>.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -62,7 +67,7 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/List/DeliveryTerm/Items
@@ -72,38 +77,34 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 755,
-  "Name": "Thiel Group",
-  "Tooltip": "officia",
+  "Id": 985,
+  "Name": "Rice, Sipes and Homenick",
+  "Tooltip": "atque",
   "Deleted": true,
-  "UdListDefinitionId": 841,
-  "Rank": 665
+  "UdListDefinitionId": 125,
+  "Rank": 493
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 893,
-  "Name": "Gusikowski, Goyette and Stroman",
-  "Tooltip": "laudantium",
-  "Deleted": true,
-  "UdListDefinitionId": 542,
-  "Rank": 574,
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "Id": 199,
+  "Name": "Corkery, Leffler and Rosenbaum",
+  "Tooltip": "quis",
+  "Deleted": false,
+  "UdListDefinitionId": 360,
+  "Rank": 758,
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
-      "FieldType": "System.Int32",
-      "FieldLength": 329
+      "FieldRight": null,
+      "FieldType": "System.String",
+      "FieldLength": 779
     }
   }
 }

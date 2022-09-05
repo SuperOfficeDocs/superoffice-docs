@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Quote/GetAllQuoteLineConfigurations
-id: v1QuoteAgent_GetAllQuoteLineConfigurations
+uid: v1QuoteAgent_GetAllQuoteLineConfigurations
 ---
 
 # POST Agents/Quote/GetAllQuoteLineConfigurations
@@ -11,6 +11,12 @@ POST /api/v1/Agents/Quote/GetAllQuoteLineConfigurations
 
 Returns all the configuration fields
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Returns all the configuration fields
 ```http
 POST /api/v1/Agents/Quote/GetAllQuoteLineConfigurations?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -34,7 +41,10 @@ POST /api/v1/Agents/Quote/GetAllQuoteLineConfigurations?$select=name,department,
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -56,14 +66,16 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Quote/GetAllQuoteLineConfigurations
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -71,27 +83,21 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "QuoteLineConfigurationId": 817,
-    "FieldName": "Schmidt Group",
-    "Label": "nam",
-    "Tooltip": "ut",
-    "Editable": true,
+    "QuoteLineConfigurationId": 599,
+    "FieldName": "Johns Inc and Sons",
+    "Label": "soluta",
+    "Tooltip": "ipsum",
+    "Editable": false,
     "InUse": true,
-    "Mandatory": true,
-    "Rank": 597,
-    "RestrictEdit": true,
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "Mandatory": false,
+    "Rank": 248,
+    "RestrictEdit": false,
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
+        "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 678
+        "FieldLength": 461
       }
     }
   }

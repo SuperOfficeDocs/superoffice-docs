@@ -1,6 +1,6 @@
 ---
 title: POST Agents/FreeText/GetStatus
-id: v1FreeTextAgent_GetStatus
+uid: v1FreeTextAgent_GetStatus
 ---
 
 # POST Agents/FreeText/GetStatus
@@ -11,6 +11,12 @@ POST /api/v1/Agents/FreeText/GetStatus
 
 Returns status for the freetext search words
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Returns status for the freetext search words
 ```http
 POST /api/v1/Agents/FreeText/GetStatus?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -34,18 +41,16 @@ POST /api/v1/Agents/FreeText/GetStatus?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response: object
 
-Used to manage freetext search.
+## Response: 
 
-Carrier object for FreeText.
-Services for the FreeText Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IFreeTextAgent">FreeText Agent</see>.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -59,14 +64,16 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/FreeText/GetStatus
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -76,22 +83,16 @@ Content-Type: application/json; charset=utf-8
   "FreeTextEnabled": false,
   "SingleWordOperator": "Contains",
   "MultiWordOperator": "Contains",
-  "CountWords": 83,
-  "Occurrences": 520,
-  "LastGenerated": "2000-01-05T18:28:49.2250903+01:00",
-  "AutoEnableTravelAreas": true,
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "CountWords": 770,
+  "Occurrences": 2,
+  "LastGenerated": "2015-08-09T11:10:27.0944547+02:00",
+  "AutoEnableTravelAreas": false,
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
+      "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 110
+      "FieldLength": 864
     }
   }
 }

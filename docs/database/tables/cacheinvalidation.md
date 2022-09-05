@@ -6,14 +6,14 @@ so.generated: true
 keywords:
   - "database"
   - "CacheInvalidation"
-so.date: 04.12.2022
+so.date: 08.26.2022
 so.topic: reference
 so.envir:
   - "onsite"
   - "online"
 ---
 
-# CacheInvalidation Table (503)
+# CacheInvalidation Table (505)
 
 Names and generation numbers for distributed invalidation of caches
 
@@ -26,6 +26,7 @@ Names and generation numbers for distributed invalidation of caches
 |Generation|The &apos;generation number&apos;, starts at 1 and goes up for every registered change|Int|&#x25CF;|
 |LastChange|The UTC datetime of the last change; for information only|UtcDateTime|&#x25CF;|
 |LastChangeMachine|The name of the machine where the last change occurred|String(255)|&#x25CF;|
+
 
 ![CacheInvalidation table relationship diagram](./media/CacheInvalidation.png)
 
@@ -45,3 +46,4 @@ Names and generation numbers for distributed invalidation of caches
 ## Security Flags
 
 * No access control via user's Role.
+

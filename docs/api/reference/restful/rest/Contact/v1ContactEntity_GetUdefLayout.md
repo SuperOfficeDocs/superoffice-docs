@@ -1,6 +1,6 @@
 ---
 title: GET Contact/UdefLayout
-id: v1ContactEntity_GetUdefLayout
+uid: v1ContactEntity_GetUdefLayout
 ---
 
 # GET Contact/UdefLayout
@@ -11,7 +11,14 @@ GET /api/v1/Contact/UdefLayout
 
 Current ContactEntity user-defined field layout.
 
+
 May be different from the published version.
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -26,7 +33,10 @@ May be different from the published version.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -73,14 +83,16 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 GET /api/v1/Contact/UdefLayout
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -88,52 +100,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 498,
-    "ColumnId": 612,
-    "FieldDefault": "quis",
-    "FieldHeight": 192,
-    "FieldLabel": "voluptas",
-    "FieldLeft": 664,
-    "FieldTop": 894,
+    "UDefFieldId": 698,
+    "ColumnId": 301,
+    "FieldDefault": "illum",
+    "FieldHeight": 195,
+    "FieldLabel": "animi",
+    "FieldLeft": 397,
+    "FieldTop": 719,
     "FieldType": "Checkbox",
-    "FieldWidth": 143,
-    "FormatMask": "recusandae",
-    "HideLabel": true,
+    "FieldWidth": 572,
+    "FormatMask": "cumque",
+    "HideLabel": false,
     "IsIndexed": false,
-    "LabelHeight": 307,
-    "LabelLeft": 656,
-    "LabelTop": 652,
-    "LabelWidth": 518,
-    "LastVersionId": 134,
-    "ListTableId": 121,
-    "IsMandatory": true,
+    "LabelHeight": 593,
+    "LabelLeft": 683,
+    "LabelTop": 545,
+    "LabelWidth": 73,
+    "LastVersionId": 339,
+    "ListTableId": 966,
+    "IsMandatory": false,
     "Type": "Appointment",
-    "Page1LineNo": 748,
-    "ProgId": "quia",
-    "IsReadOnly": true,
-    "ShortLabel": "nobis",
-    "TabOrder": 824,
-    "TextLength": 787,
-    "Tooltip": "et",
-    "UdefIdentity": 361,
-    "UDListDefinitionId": 438,
+    "Page1LineNo": 668,
+    "ProgId": "nesciunt",
+    "IsReadOnly": false,
+    "ShortLabel": "odio",
+    "TabOrder": 670,
+    "TextLength": 919,
+    "Tooltip": "velit",
+    "UdefIdentity": 648,
+    "UDListDefinitionId": 918,
     "Justification": "Center",
-    "Version": 978,
-    "TemplateVariableName": "Hegmann, Blick and Koelpin",
-    "HasBeenPublished": true,
-    "MdoListName": "Cartwright-Koss",
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": "utilize innovative web-readiness"
-    },
+    "Version": 483,
+    "TemplateVariableName": "Brekke, Schamberger and Klocko",
+    "HasBeenPublished": false,
+    "MdoListName": "Brakus, Simonis and Cassin",
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 702
+        "FieldRight": null,
+        "FieldType": "System.Int32",
+        "FieldLength": 902
       }
     }
   }

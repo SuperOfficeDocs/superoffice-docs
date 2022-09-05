@@ -1,6 +1,6 @@
 ---
 title: POST Agents/ForeignSystem/GetKeyByValueAndIdentifier
-id: v1ForeignSystemAgent_GetKeyByValueAndIdentifier
+uid: v1ForeignSystemAgent_GetKeyByValueAndIdentifier
 ---
 
 # POST Agents/ForeignSystem/GetKeyByValueAndIdentifier
@@ -11,6 +11,12 @@ POST /api/v1/Agents/ForeignSystem/GetKeyByValueAndIdentifier
 
 Get a foreignkey based on its name and value, that belongs to the specified deviceId, device, and application.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Get a foreignkey based on its name and value, that belongs to the specified devi
 ```http
 POST /api/v1/Agents/ForeignSystem/GetKeyByValueAndIdentifier?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,9 +42,9 @@ POST /api/v1/Agents/ForeignSystem/GetKeyByValueAndIdentifier?$select=name,depart
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-ApplicationName, DeviceName, DeviceIdentifier, KeyName, KeyValue, TableName
+ApplicationName, DeviceName, DeviceIdentifier, KeyName, KeyValue, TableName 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -48,16 +55,16 @@ ApplicationName, DeviceName, DeviceIdentifier, KeyName, KeyValue, TableName
 | KeyValue | string |  |
 | TableName | string |  |
 
-## Response: object
 
-Carrier object for ForeignKey.
-Services for the ForeignKey Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IForeignSystemAgent">ForeignSystem Agent</see>.
+## Response: 
+
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -72,50 +79,46 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/ForeignSystem/GetKeyByValueAndIdentifier
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Wisoky-O'Conner",
-  "DeviceName": "Volkman, Leannon and Mitchell",
-  "DeviceIdentifier": "quasi",
-  "KeyName": "Prohaska, Stracke and Herman",
-  "KeyValue": "suscipit",
-  "TableName": "Hansen, Haley and Legros"
+  "ApplicationName": "Green LLC",
+  "DeviceName": "Marvin Group",
+  "DeviceIdentifier": "a",
+  "KeyName": "Buckridge-Huels",
+  "KeyValue": "fugiat",
+  "TableName": "Kreiger, Baumbach and Kassulke"
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "sunt",
-  "Value": "ut",
-  "RecordId": 657,
-  "CreatedDate": "1999-02-28T18:28:49.2171189+01:00",
-  "UpdatedDate": "2015-02-12T18:28:49.2171189+01:00",
-  "UpdatedBy": "facilis",
-  "CreatedBy": "labore",
-  "TableName": "Smitham, Rempel and Osinski",
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "Key": "et",
+  "Value": "fuga",
+  "RecordId": 939,
+  "CreatedDate": "1999-03-20T11:10:27.0874246+01:00",
+  "UpdatedDate": "2009-03-30T11:10:27.0874246+02:00",
+  "UpdatedBy": "veritatis",
+  "CreatedBy": "voluptatem",
+  "TableName": "Sipes-Purdy",
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
+      "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 259
+      "FieldLength": 724
     }
   }
 }

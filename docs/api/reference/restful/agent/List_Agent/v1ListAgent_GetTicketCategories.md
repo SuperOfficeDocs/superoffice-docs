@@ -1,6 +1,6 @@
 ---
 title: POST Agents/List/GetTicketCategories
-id: v1ListAgent_GetTicketCategories
+uid: v1ListAgent_GetTicketCategories
 ---
 
 # POST Agents/List/GetTicketCategories
@@ -8,6 +8,14 @@ id: v1ListAgent_GetTicketCategories
 ```http
 POST /api/v1/Agents/List/GetTicketCategories
 ```
+
+
+
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -18,6 +26,7 @@ POST /api/v1/Agents/List/GetTicketCategories
 ```http
 POST /api/v1/Agents/List/GetTicketCategories?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -32,7 +41,10 @@ POST /api/v1/Agents/List/GetTicketCategories?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -62,14 +74,16 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/List/GetTicketCategories
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -77,79 +91,35 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TicketCategoryId": 477,
-    "ParentId": 357,
-    "Name": "Auer LLC",
-    "Fullname": "fuga",
-    "CategoryMaster": 492,
+    "TicketCategoryId": 3,
+    "ParentId": 858,
+    "Name": "Feest, Gleichner and Kautzer",
+    "Fullname": "aut",
+    "CategoryMaster": 618,
     "Flags": "AcceptWhenReplying",
     "DelegateMethod": "Even",
-    "ExternalName": "Williamson Group",
+    "ExternalName": "Hoppe, Sawayn and Klocko",
     "ClosingStatus": "Active",
     "MsgClosingStatus": "Active",
-    "AssignmentLag": 600,
-    "ReplyTemplate": 793,
-    "NotificationEmail": "dave@olsonjenkins.uk",
-    "DefaultTicketStatus": {
-      "TicketStatusId": 899,
-      "Name": "Lubowitz, Renner and Bode",
-      "Status": "Active",
-      "TimeCounter": "Externally",
-      "NoEmailReopen": false,
-      "IsDefault": true,
-      "UsedInQueue": false,
-      "TableRight": {},
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": {
-            "Mask": "FULL",
-            "Reason": ""
-          },
-          "FieldType": "System.Int32",
-          "FieldLength": 41
-        }
-      }
-    },
-    "DefaultMessageStatus": {
-      "TicketStatusId": 116,
-      "Name": "Barton, Kohler and Harber",
-      "Status": "Active",
-      "TimeCounter": "Externally",
-      "NoEmailReopen": true,
-      "IsDefault": true,
-      "UsedInQueue": false,
-      "TableRight": {},
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": {
-            "Mask": "FULL",
-            "Reason": ""
-          },
-          "FieldType": "System.Int32",
-          "FieldLength": 596
-        }
-      }
-    },
+    "AssignmentLag": 261,
+    "ReplyTemplate": 609,
+    "NotificationEmail": "tia_green@brekke.us",
+    "DefaultTicketStatus": null,
+    "DefaultMessageStatus": null,
     "ExtraFields": {
-      "ExtraFields1": "sed",
-      "ExtraFields2": "placeat"
+      "ExtraFields1": "animi",
+      "ExtraFields2": "nihil"
     },
     "CustomFields": {
-      "CustomFields1": "tenetur",
-      "CustomFields2": "aut"
+      "CustomFields1": "nihil",
+      "CustomFields2": "earum"
     },
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": "deliver killer web services"
-    },
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
+        "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 868
+        "FieldLength": 139
       }
     }
   }

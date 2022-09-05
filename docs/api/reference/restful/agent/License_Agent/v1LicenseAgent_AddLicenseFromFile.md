@@ -1,6 +1,6 @@
 ---
 title: POST Agents/License/AddLicenseFromFile
-id: v1LicenseAgent_AddLicenseFromFile
+uid: v1LicenseAgent_AddLicenseFromFile
 ---
 
 # POST Agents/License/AddLicenseFromFile
@@ -11,6 +11,12 @@ POST /api/v1/Agents/License/AddLicenseFromFile
 
 Load and activate a new license from file/string if the new license is valid.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Load and activate a new license from file/string if the new license is valid.
 ```http
 POST /api/v1/Agents/License/AddLicenseFromFile?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,21 +42,24 @@ POST /api/v1/Agents/License/AddLicenseFromFile?$select=name,department,category/
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-FileContent
+FileContent 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | FileContent | string |  |
 
-## Response: object
+
+## Response: 
+
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -60,19 +70,21 @@ Response body: object
 | ExtendedModuleLicenses | array |  |
 | AccumulatedNextCheckDate | date-time |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/License/AddLicenseFromFile
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "FileContent": "et"
+  "FileContent": "amet"
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -81,66 +93,20 @@ Content-Type: application/json; charset=utf-8
 {
   "Reason": "",
   "CanBeActivated": false,
-  "New": {
-    "CompanyName": "Lynch-Hartmann",
-    "SerialNr": "1010000006",
-    "OwnerName": "Auer Group",
-    "OwnerDescription": "Function-based hybrid functionalities",
-    "NextCheckDate": "2005-09-20T18:28:49.2461256+02:00",
-    "MaintenanceDate": "2015-11-15T18:28:49.2461256+01:00",
-    "AdminWarningDate": "1996-09-23T18:28:49.2461256+02:00",
-    "ExpiryDate": "2012-08-02T18:28:49.2461256+02:00",
-    "GraceDate": "2000-05-26T18:28:49.2461256+02:00",
-    "ExtraFlags": 578,
-    "ExtraInfo": "et",
-    "LicenseUrl": "http://www.example.com/",
-    "LicenseVersion": "quia",
-    "DeploymentType": 880,
-    "ProductType": "molestias",
-    "ProductDescription": "Synchronised attitude-oriented open system",
-    "ModuleLicenses": [
-      {},
-      {}
-    ],
-    "PublicKey": {},
-    "Signature": "maiores"
-  },
-  "Current": {
-    "CompanyName": "Farrell Inc and Sons",
-    "SerialNr": "1010000006",
-    "OwnerName": "Schmitt, Halvorson and Dietrich",
-    "OwnerDescription": "Inverse zero administration leverage",
-    "NextCheckDate": "1995-12-08T18:28:49.2461256+01:00",
-    "MaintenanceDate": "2003-10-07T18:28:49.2461256+02:00",
-    "AdminWarningDate": "2016-10-10T18:28:49.2461256+02:00",
-    "ExpiryDate": "2019-11-06T18:28:49.2461256+01:00",
-    "GraceDate": "2004-04-08T18:28:49.2461256+02:00",
-    "ExtraFlags": 969,
-    "ExtraInfo": "odit",
-    "LicenseUrl": "http://www.example.com/",
-    "LicenseVersion": "ut",
-    "DeploymentType": 984,
-    "ProductType": "quidem",
-    "ProductDescription": "Extended scalable flexibility",
-    "ModuleLicenses": [
-      {},
-      {}
-    ],
-    "PublicKey": {},
-    "Signature": "porro"
-  },
+  "New": null,
+  "Current": null,
   "ExtendedModuleLicenses": [
     {
-      "New": {},
-      "Current": {},
-      "NumberOfLicensesInUse": 888,
-      "NumberOfLicensesFree": 707,
-      "NumberOfLicensesAdded": 228,
-      "NumberOfLicensesNewTotal": 625,
-      "NumberOfLicensesNewFree": 893,
-      "NumberOfLicensesTotal": 749
+      "New": null,
+      "Current": null,
+      "NumberOfLicensesInUse": 30,
+      "NumberOfLicensesFree": 680,
+      "NumberOfLicensesAdded": 919,
+      "NumberOfLicensesNewTotal": 772,
+      "NumberOfLicensesNewFree": 229,
+      "NumberOfLicensesTotal": 608
     }
   ],
-  "AccumulatedNextCheckDate": "2017-10-12T18:28:49.2461256+02:00"
+  "AccumulatedNextCheckDate": "2014-06-19T11:10:27.1164582+02:00"
 }
 ```

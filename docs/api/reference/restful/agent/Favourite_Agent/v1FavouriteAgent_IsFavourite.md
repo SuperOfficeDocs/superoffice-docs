@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Favourite/IsFavourite
-id: v1FavouriteAgent_IsFavourite
+uid: v1FavouriteAgent_IsFavourite
 ---
 
 # POST Agents/Favourite/IsFavourite
@@ -11,6 +11,12 @@ POST /api/v1/Agents/Favourite/IsFavourite
 
 Checks if a record in a table is a favourite for an associate
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Checks if a record in a table is a favourite for an associate
 ```http
 POST /api/v1/Agents/Favourite/IsFavourite?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,9 +42,9 @@ POST /api/v1/Agents/Favourite/IsFavourite?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-TableName, RecordId, AssociateId
+TableName, RecordId, AssociateId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -45,7 +52,10 @@ TableName, RecordId, AssociateId
 | RecordId | int32 |  |
 | AssociateId | int32 |  |
 
+
 ## Response: bool
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -53,21 +63,24 @@ TableName, RecordId, AssociateId
 
 Response body: bool
 
-## Sample Request
+
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Favourite/IsFavourite
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Stehr, Frami and Cummerata",
-  "RecordId": 581,
-  "AssociateId": 558
+  "TableName": "Gottlieb, Hermiston and Bechtelar",
+  "RecordId": 825,
+  "AssociateId": 154
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK

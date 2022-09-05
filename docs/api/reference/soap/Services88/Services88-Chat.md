@@ -8,7 +8,7 @@ title: Services88.ChatAgent WSDL
 
 ```xml
 <?xml version="1.0" encoding="utf-8"?>
-<wsdl:definitions name="WcfChatService" targetNamespace="http://www.superoffice.net/ws/crm/NetServer/Services88" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:tns="http://www.superoffice.net/ws/crm/NetServer/Services88" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<wsdl:definitions name="WcfChatService" targetNamespace="http://www.superoffice.net/ws/crm/NetServer/Services88" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tns="http://www.superoffice.net/ws/crm/NetServer/Services88" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing">
   <wsdl:types>
     <xs:schema elementFormDefault="qualified" targetNamespace="http://www.superoffice.net/ws/crm/NetServer/Services88" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:ser="http://schemas.microsoft.com/2003/10/Serialization/">
       <xs:import namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
@@ -75,6 +75,7 @@ title: Services88.ChatAgent WSDL
               <xs:element minOccurs="0" name="Ticket" nillable="true" type="q6:Ticket" />
               <xs:element minOccurs="0" name="TransferTo" nillable="true" type="q6:Associate" />
               <xs:element minOccurs="0" name="ChatbotIsActive" type="xs:boolean" />
+              <xs:element minOccurs="0" name="Rating" type="xs:int" />
             </xs:sequence>
           </xs:extension>
         </xs:complexContent>
@@ -104,6 +105,22 @@ title: Services88.ChatAgent WSDL
               <xs:enumeration value="Delete" />
               <xs:enumeration value="Filtering" />
               <xs:enumeration value="RestrictedUpdate" />
+              <xs:enumeration value="Unused1" />
+              <xs:enumeration value="Uninitialized" />
+              <xs:enumeration value="R">
+                <xs:annotation>
+                  <xs:appinfo>
+                    <EnumerationValue xmlns="http://schemas.microsoft.com/2003/10/Serialization/">1</EnumerationValue>
+                  </xs:appinfo>
+                </xs:annotation>
+              </xs:enumeration>
+              <xs:enumeration value="F">
+                <xs:annotation>
+                  <xs:appinfo>
+                    <EnumerationValue xmlns="http://schemas.microsoft.com/2003/10/Serialization/">16</EnumerationValue>
+                  </xs:appinfo>
+                </xs:annotation>
+              </xs:enumeration>
             </xs:restriction>
           </xs:simpleType>
         </xs:list>
@@ -155,6 +172,13 @@ title: Services88.ChatAgent WSDL
               <xs:enumeration value="UIHintMandatory" />
               <xs:enumeration value="UIHintReadOnly" />
               <xs:enumeration value="UndefinedValue256" />
+              <xs:enumeration value="Nullable">
+                <xs:annotation>
+                  <xs:appinfo>
+                    <EnumerationValue xmlns="http://schemas.microsoft.com/2003/10/Serialization/">32</EnumerationValue>
+                  </xs:appinfo>
+                </xs:annotation>
+              </xs:enumeration>
             </xs:restriction>
           </xs:simpleType>
         </xs:list>
@@ -547,6 +571,9 @@ title: Services88.ChatAgent WSDL
               <xs:element minOccurs="0" name="ContactId" type="xs:int" />
               <xs:element minOccurs="0" name="ContactName" nillable="true" type="xs:string" />
               <xs:element minOccurs="0" name="OwnedByAssociateId" type="xs:int" />
+              <xs:element minOccurs="0" name="Language" nillable="true" type="xs:string" />
+              <xs:element minOccurs="0" name="Sentiment" type="xs:int" />
+              <xs:element minOccurs="0" name="SentimentConfidence" type="xs:int" />
             </xs:sequence>
           </xs:extension>
         </xs:complexContent>
@@ -578,6 +605,62 @@ title: Services88.ChatAgent WSDL
           <xs:enumeration value="Postponed" />
           <xs:enumeration value="Deleted" />
           <xs:enumeration value="Merged" />
+          <xs:enumeration value="PostponedSpecific">
+            <xs:annotation>
+              <xs:appinfo>
+                <EnumerationValue xmlns="http://schemas.microsoft.com/2003/10/Serialization/">1001</EnumerationValue>
+              </xs:appinfo>
+            </xs:annotation>
+          </xs:enumeration>
+          <xs:enumeration value="Postponed1Hour">
+            <xs:annotation>
+              <xs:appinfo>
+                <EnumerationValue xmlns="http://schemas.microsoft.com/2003/10/Serialization/">1002</EnumerationValue>
+              </xs:appinfo>
+            </xs:annotation>
+          </xs:enumeration>
+          <xs:enumeration value="Postponed2Hours">
+            <xs:annotation>
+              <xs:appinfo>
+                <EnumerationValue xmlns="http://schemas.microsoft.com/2003/10/Serialization/">1003</EnumerationValue>
+              </xs:appinfo>
+            </xs:annotation>
+          </xs:enumeration>
+          <xs:enumeration value="Postponed3Hours">
+            <xs:annotation>
+              <xs:appinfo>
+                <EnumerationValue xmlns="http://schemas.microsoft.com/2003/10/Serialization/">1004</EnumerationValue>
+              </xs:appinfo>
+            </xs:annotation>
+          </xs:enumeration>
+          <xs:enumeration value="Postponed4Hours">
+            <xs:annotation>
+              <xs:appinfo>
+                <EnumerationValue xmlns="http://schemas.microsoft.com/2003/10/Serialization/">1005</EnumerationValue>
+              </xs:appinfo>
+            </xs:annotation>
+          </xs:enumeration>
+          <xs:enumeration value="PostponedDay">
+            <xs:annotation>
+              <xs:appinfo>
+                <EnumerationValue xmlns="http://schemas.microsoft.com/2003/10/Serialization/">1006</EnumerationValue>
+              </xs:appinfo>
+            </xs:annotation>
+          </xs:enumeration>
+          <xs:enumeration value="PostponedWeek">
+            <xs:annotation>
+              <xs:appinfo>
+                <EnumerationValue xmlns="http://schemas.microsoft.com/2003/10/Serialization/">1007</EnumerationValue>
+              </xs:appinfo>
+            </xs:annotation>
+          </xs:enumeration>
+          <xs:enumeration value="PostponedMonth">
+            <xs:annotation>
+              <xs:appinfo>
+                <EnumerationValue xmlns="http://schemas.microsoft.com/2003/10/Serialization/">1008</EnumerationValue>
+              </xs:appinfo>
+            </xs:annotation>
+          </xs:enumeration>
         </xs:restriction>
       </xs:simpleType>
       <xs:element name="TicketBaseStatus" nillable="true" type="q50:TicketBaseStatus" xmlns:q50="http://www.superoffice.net/ws/crm/NetServer/Services88" />
@@ -763,6 +846,8 @@ title: Services88.ChatAgent WSDL
               <xs:element minOccurs="0" name="UseQueueOfflineForm" type="xs:boolean" />
               <xs:element minOccurs="0" name="OfflineFormTimeLimit" type="xs:int" />
               <xs:element minOccurs="0" name="OfflineFormQueueLength" type="xs:int" />
+              <xs:element minOccurs="0" name="WidgetEnableRating" type="xs:boolean" />
+              <xs:element minOccurs="0" name="WidgetRatingText" nillable="true" type="xs:string" />
             </xs:sequence>
           </xs:extension>
         </xs:complexContent>
@@ -900,7 +985,16 @@ title: Services88.ChatAgent WSDL
           <xs:element minOccurs="0" name="Size" type="q85:ChatWidgetSize" xmlns:q85="http://www.superoffice.net/ws/crm/NetServer/Services88" />
           <xs:element minOccurs="0" name="Theme" type="q86:WidgetTheme" xmlns:q86="http://www.superoffice.net/ws/crm/NetServer/Services88" />
           <xs:element minOccurs="0" name="Color" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="BadgeColor" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="BadgeTextColor" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="CustMsgColor" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="CustMsgTextColor" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="AgentMsgColor" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="AgentMsgTextColor" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="ButtonColor" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="ButtonTextColor" nillable="true" type="xs:string" />
           <xs:element minOccurs="0" name="Font" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="FontSize" nillable="true" type="xs:string" />
           <xs:element minOccurs="0" name="LogoEnabled" type="xs:boolean" />
           <xs:element minOccurs="0" name="LogoBlobId" type="xs:int" />
           <xs:element minOccurs="0" name="LogoName" nillable="true" type="xs:string" />
@@ -2844,3 +2938,4 @@ title: Services88.ChatAgent WSDL
   </wsdl:service>
 </wsdl:definitions>
 ```
+

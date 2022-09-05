@@ -1,6 +1,6 @@
 ---
 title: GET Person/{id}/Image
-id: v1PersonEntity_GetImage
+uid: v1PersonEntity_GetImage
 ---
 
 # GET Person/{id}/Image
@@ -11,12 +11,18 @@ GET /api/v1/Person/{personId}/Image
 
 The person's picture.
 
-The image is returned as stored. If width/height or format is specified, then the image is
+
+The image is returned as stored. If width/height or format is specified, then the image is 
 scaled and converted to the requested type.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | personId | int32 | Person id **Required** |
+
 
 ## Query String Parameters
 
@@ -28,11 +34,12 @@ scaled and converted to the requested type.
 | ifBlank | Enum: Default, ClearPixel, SrNoPhoto, SrNoPhotoWithBorder, Null, GenericFileIcon |  What to return if there is no picture (default = Null = 404 Error) (Default, ClearPixel, SrNoPhoto, SrNoPhotoWithBorder) |
 
 ```http
-GET /api/v1/Person/{personId}/Image?w=987
-GET /api/v1/Person/{personId}/Image?h=131
-GET /api/v1/Person/{personId}/Image?type=id
+GET /api/v1/Person/{personId}/Image?w=947
+GET /api/v1/Person/{personId}/Image?h=419
+GET /api/v1/Person/{personId}/Image?type=sint
 GET /api/v1/Person/{personId}/Image?ifBlank=ClearPixel
 ```
+
 
 ## Request Headers
 
@@ -47,7 +54,10 @@ GET /api/v1/Person/{personId}/Image?ifBlank=ClearPixel
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
+
 ## Response: byte
+
+An image
 
 | Response | Description |
 |----------------|-------------|
@@ -56,7 +66,8 @@ GET /api/v1/Person/{personId}/Image?ifBlank=ClearPixel
 
 Response body: byte
 
-## Sample Request
+
+## Sample request
 
 ```http!
 GET /api/v1/Person/{personId}/Image
@@ -64,6 +75,8 @@ Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: en
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 An image

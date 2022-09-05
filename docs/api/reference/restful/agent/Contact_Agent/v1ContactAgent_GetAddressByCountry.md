@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Contact/GetAddressByCountry
-id: v1ContactAgent_GetAddressByCountry
+uid: v1ContactAgent_GetAddressByCountry
 ---
 
 # POST Agents/Contact/GetAddressByCountry
@@ -11,6 +11,12 @@ POST /api/v1/Agents/Contact/GetAddressByCountry
 
 Gets the contact's localized address.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Gets the contact's localized address.
 ```http
 POST /api/v1/Agents/Contact/GetAddressByCountry?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,26 +42,25 @@ POST /api/v1/Agents/Contact/GetAddressByCountry?$select=name,department,category
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-ContactId, CountryId
+ContactId, CountryId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | ContactId | int32 |  |
 | CountryId | int32 |  |
 
-## Response: object
 
-Street and/or Postal address, in both formatted and structured forms. You only need to modify one of the two for the change to be registered.
+## Response: 
 
-Carrier object for Address.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -67,113 +73,77 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Contact/GetAddressByCountry
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 749,
-  "CountryId": 24
+  "ContactId": 201,
+  "CountryId": 310
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Wgs84Latitude": 3845.4179999999997,
-  "Wgs84Longitude": 12893.276,
+  "Wgs84Latitude": 24476.54,
+  "Wgs84Longitude": 30725.736,
   "LocalizedAddress": [
     [
       {
-        "Name": "Gleason-Herzog",
-        "Value": "facere",
-        "Tooltip": "velit",
-        "Label": "aut",
-        "ValueLength": 185,
-        "AddressType": "deleniti",
-        "TableRight": {
-          "Mask": "Delete",
-          "Reason": ""
-        },
+        "Name": "Beier Inc and Sons",
+        "Value": "enim",
+        "Tooltip": "est",
+        "Label": "quis",
+        "ValueLength": 982,
+        "AddressType": "voluptatem",
+        "TableRight": null,
         "FieldProperties": {
           "fieldName": {
-            "FieldRight": {
-              "Mask": "FULL",
-              "Reason": ""
-            },
-            "FieldType": "System.String",
-            "FieldLength": 695
+            "FieldRight": null,
+            "FieldType": "System.Int32",
+            "FieldLength": 67
           }
         }
       }
     ],
     [
       {
-        "Name": "Harris Group",
-        "Value": "iure",
-        "Tooltip": "quo",
-        "Label": "ab",
-        "ValueLength": 764,
-        "AddressType": "vero",
-        "TableRight": {
-          "Mask": "Delete",
-          "Reason": ""
-        },
+        "Name": "Borer, White and Purdy",
+        "Value": "inventore",
+        "Tooltip": "consequatur",
+        "Label": "sequi",
+        "ValueLength": 917,
+        "AddressType": "fuga",
+        "TableRight": null,
         "FieldProperties": {
           "fieldName": {
-            "FieldRight": {
-              "Mask": "FULL",
-              "Reason": ""
-            },
+            "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 392
+            "FieldLength": 480
           }
         }
       }
     ]
   ],
-  "Street": {
-    "AtypeIdx": "ContactPostalAddress",
-    "Address1": "nostrum",
-    "Address2": "odit",
-    "Address3": "voluptatem",
-    "City": "in",
-    "County": "nihil",
-    "State": "et",
-    "Zipcode": "minima",
-    "Formatted": "qui"
-  },
-  "Postal": {
-    "AtypeIdx": "ContactPostalAddress",
-    "Address1": "et",
-    "Address2": "doloremque",
-    "Address3": "amet",
-    "City": "iusto",
-    "County": "et",
-    "State": "sint",
-    "Zipcode": "repellendus",
-    "Formatted": "consectetur"
-  },
-  "Formatted": "odio",
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "Street": null,
+  "Postal": null,
+  "Formatted": "pariatur",
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
-      "FieldType": "System.String",
-      "FieldLength": 315
+      "FieldRight": null,
+      "FieldType": "System.Int32",
+      "FieldLength": 14
     }
   }
 }

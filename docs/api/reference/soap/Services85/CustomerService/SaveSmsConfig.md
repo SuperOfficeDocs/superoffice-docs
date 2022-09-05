@@ -17,6 +17,7 @@ Updates the existing SmsConfig or creates a new SmsConfig if the id parameter is
 
 **Returns:** New or updated SmsConfig
 
+
 [WSDL file for Services85/CustomerService](../Services85-CustomerService.md)
 
 Obtain a ticket from the [Services85/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -59,6 +60,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## SaveSmsConfig Response
 
 ```xml
@@ -89,3 +91,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

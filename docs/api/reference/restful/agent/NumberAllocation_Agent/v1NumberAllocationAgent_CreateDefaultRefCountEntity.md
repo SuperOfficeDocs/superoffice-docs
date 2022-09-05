@@ -1,6 +1,6 @@
 ---
 title: POST Agents/NumberAllocation/CreateDefaultRefCountEntity
-id: v1NumberAllocationAgent_CreateDefaultRefCountEntity
+uid: v1NumberAllocationAgent_CreateDefaultRefCountEntity
 ---
 
 # POST Agents/NumberAllocation/CreateDefaultRefCountEntity
@@ -11,7 +11,14 @@ POST /api/v1/Agents/NumberAllocation/CreateDefaultRefCountEntity
 
 Set default values into a new RefCountEntity.
 
+
 NetServer calculates default values on the entity, which is required when creating/storing a new instance
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -26,18 +33,16 @@ NetServer calculates default values on the entity, which is required when creati
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response: object
 
-A refcount entity for a number allocation
+## Response: 
 
-Carrier object for RefCountEntity.
-Services for the RefCountEntity Carrier is available from the <see cref="T:SuperOffice.CRM.Services.INumberAllocationAgent">NumberAllocation Agent</see>.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -55,72 +60,65 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/NumberAllocation/CreateDefaultRefCountEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RefCountsId": 575,
-  "Field": "sapiente",
-  "RecordId": 380,
+  "RefCountsId": 47,
+  "Field": "laborum",
+  "RecordId": 139,
   "SuggestedRecords": [
     {
-      "Id": 655,
-      "Name": "Eichmann Inc and Sons",
-      "ToolTip": "Sunt voluptas ipsam asperiores veniam ea mollitia.",
+      "Id": 22,
+      "Name": "Little, Durgan and Wintheiser",
+      "ToolTip": "Voluptatem et minima et eaque.",
       "Deleted": false,
-      "Rank": 863,
-      "Type": "fugit",
+      "Rank": 683,
+      "Type": "numquam",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "et",
-      "ColorBlock": 136,
-      "ExtraInfo": "eius",
-      "StyleHint": "optio",
-      "FullName": "Agustin Fritsch IV",
-      "TableRight": {},
+      "IconHint": "magni",
+      "ColorBlock": 926,
+      "ExtraInfo": "a",
+      "StyleHint": "voluptate",
+      "FullName": "Guillermo Hamill DVM",
+      "TableRight": null,
       "FieldProperties": {
         "fieldName": {
-          "FieldRight": {
-            "Mask": "FULL",
-            "Reason": ""
-          },
+          "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 736
+          "FieldLength": 593
         }
       }
     }
   ],
-  "CurrentValue": 593,
-  "TravelPrefix": 811,
-  "SatPrefix": 403,
+  "CurrentValue": 419,
+  "TravelPrefix": 186,
+  "SatPrefix": 424,
   "Allocate": false,
   "Unique": false,
   "ReadOnly": false,
-  "AllowBlank": true,
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "AllowBlank": false,
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
+      "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 996
+      "FieldLength": 861
     }
   }
 }

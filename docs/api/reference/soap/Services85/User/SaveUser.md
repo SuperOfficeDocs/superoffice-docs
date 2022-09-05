@@ -17,6 +17,7 @@ Updates the existing User or creates a new User if the id parameter is 0.
 
 **Returns:** New or updated User
 
+
 [WSDL file for Services85/User](../Services85-User.md)
 
 Obtain a ticket from the [Services85/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -147,8 +148,8 @@ Application tokens must be specified if calling an Online installation. Applicat
       <User:SupportAssociateId xsi:type="xsd:int">0</User:SupportAssociateId>
      </User:Person>
      <User:Deleted xsi:type="xsd:boolean">false</User:Deleted>
-     <User:Lastlogin xsi:type="xsd:dateTime">2021-11-30T13:22:43Z</User:Lastlogin>
-     <User:Lastlogout xsi:type="xsd:dateTime">2021-11-30T13:22:43Z</User:Lastlogout>
+     <User:Lastlogin xsi:type="xsd:dateTime">2022-08-26T08:53:51Z</User:Lastlogin>
+     <User:Lastlogout xsi:type="xsd:dateTime">2022-08-26T08:53:51Z</User:Lastlogout>
      <User:EjUserId xsi:type="xsd:int">0</User:EjUserId>
      <User:Type xsi:type="User:UserType">Unknown</User:Type>
      <User:IsPersonRetired xsi:type="xsd:boolean">false</User:IsPersonRetired>
@@ -183,6 +184,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+
 
 ## SaveUser Response
 
@@ -304,8 +306,8 @@ Application tokens must be specified if calling an Online installation. Applicat
      <User:SupportAssociateId xsi:type="xsd:int">0</User:SupportAssociateId>
     </User:Person>
     <User:Deleted xsi:type="xsd:boolean">false</User:Deleted>
-    <User:Lastlogin xsi:type="xsd:dateTime">2021-11-30T13:22:43Z</User:Lastlogin>
-    <User:Lastlogout xsi:type="xsd:dateTime">2021-11-30T13:22:43Z</User:Lastlogout>
+    <User:Lastlogin xsi:type="xsd:dateTime">2022-08-26T08:53:51Z</User:Lastlogin>
+    <User:Lastlogout xsi:type="xsd:dateTime">2022-08-26T08:53:51Z</User:Lastlogout>
     <User:EjUserId xsi:type="xsd:int">0</User:EjUserId>
     <User:Type xsi:type="User:UserType">Unknown</User:Type>
     <User:IsPersonRetired xsi:type="xsd:boolean">false</User:IsPersonRetired>
@@ -339,3 +341,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

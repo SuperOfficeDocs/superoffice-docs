@@ -18,6 +18,7 @@ Get plugin-dependent properties for the document. A number of standard propertie
 
 **Returns:** Dictionary of name=value pairs, corresponding to the requested properties.
 
+
 [WSDL file for Services86/Document](../Services86-Document.md)
 
 Obtain a ticket from the [Services86/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -53,6 +54,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## GetDocumentProperties Response
 
 ```xml
@@ -78,3 +80,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

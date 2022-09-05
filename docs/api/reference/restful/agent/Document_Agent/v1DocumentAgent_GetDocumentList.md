@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Document/GetDocumentList
-id: v1DocumentAgent_GetDocumentList
+uid: v1DocumentAgent_GetDocumentList
 ---
 
 # POST Agents/Document/GetDocumentList
@@ -11,6 +11,12 @@ POST /api/v1/Agents/Document/GetDocumentList
 
 Gets an array of Document objects.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Gets an array of Document objects.
 ```http
 POST /api/v1/Agents/Document/GetDocumentList?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,11 +42,15 @@ POST /api/v1/Agents/Document/GetDocumentList?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: documentIds
+## Request Body: documentIds  
 
-The primary keys.
+The primary keys. 
+
+
 
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -67,17 +78,21 @@ Response body: array
 | ProjectName | string | Project name |
 | AssociateId | int32 | ID of associate whose diary the appointment is in, REQUIRED |
 | Snum | int32 | The sequence number allocated from refcount on used template when creating the document |
+| SaleId | int32 | Owning sale, if any (may be 0) |
+| SaleName | string | Heading of Owning sale, if any. (may be blank) |
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Document/GetDocumentList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -85,36 +100,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 131,
-    "Attention": "amet",
-    "Header": "et",
-    "Name": "Mann, Jewess and Kautzer",
-    "OurRef": "quisquam",
-    "YourRef": "laborum",
-    "Description": "Visionary upward-trending groupware",
-    "DocumentTemplate": "accusantium",
+    "DocumentId": 363,
+    "Attention": "vel",
+    "Header": "consequuntur",
+    "Name": "Nicolas, Kiehn and Raynor",
+    "OurRef": "quaerat",
+    "YourRef": "perspiciatis",
+    "Description": "Optimized even-keeled core",
+    "DocumentTemplate": "molestiae",
     "IsPublished": false,
-    "PersonId": 774,
-    "PersonFullName": "Jason Oberbrunner",
-    "AssociateFullName": "Vicky Sawayn",
-    "ContactId": 239,
-    "ContactName": "Mayert Inc and Sons",
-    "ProjectId": 575,
-    "ProjectName": "Streich, Watsica and Gislason",
-    "AssociateId": 791,
-    "Snum": 256,
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "PersonId": 273,
+    "PersonFullName": "Dr. Pinkie Goodwin",
+    "AssociateFullName": "Miss Luz Rupert Waelchi PhD",
+    "ContactId": 425,
+    "ContactName": "Balistreri Inc and Sons",
+    "ProjectId": 646,
+    "ProjectName": "Treutel-Kautzer",
+    "AssociateId": 334,
+    "Snum": 12,
+    "SaleId": 737,
+    "SaleName": "Klein Inc and Sons",
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
+        "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 126
+        "FieldLength": 427
       }
     }
   }

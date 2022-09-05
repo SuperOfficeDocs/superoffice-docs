@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "relations"
-so.date: 04.12.2022
+so.date: 08.26.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -40,6 +40,7 @@ Instance of a relation, in principle between any two records, as long as they ar
 |updatedCount|Number of updates made to this record|UShort| |
 |associateId|Owner of this relation record|FK [associate](associate.md)| |
 
+
 ![relations table relationship diagram](./media/relations.png)
 
 [!include[details](./includes/relations.md)]
@@ -66,6 +67,7 @@ Instance of a relation, in principle between any two records, as long as they ar
 |[relationdefinition](relationdefinition.md)  |Definition of a relation. This table defines the relations that can exist in the database. Each relation has an active text and a passive text. The table RelationTarget specifies which pairs of tables this relation can connect.  Use of the active and passive texts is dependent on which direction the relation is viewed in, e.g., active text = &quot;Owns&quot; and passive text = &quot;Is owned by&quot;. |
 |[UserGroup](usergroup.md)  |Secondary user groups |
 
+
 ## Replication Flags
 
 * Area Management controlled table. Contents replicated to satellites and traveller databases.
@@ -75,3 +77,4 @@ Instance of a relation, in principle between any two records, as long as they ar
 ## Security Flags
 
 * Sentry controls access to items in this table using user's Role and data rights matrix.
+

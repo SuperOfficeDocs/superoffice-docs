@@ -12,11 +12,12 @@ Implemented by the <see cref="M:SuperOffice.Services87.IErpSyncAgent.CanDeleteEr
 ## CanDeleteErpSyncConnectorEntity
 
 Can we delete the connector?
-<br />**Online Restricted:** The ErpSync agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for ERP integration apps.
+<para /><b>Online Restricted:</b> The ErpSync agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for ERP integration apps.
 
 * **erpSyncConnectorId:** The ID of the ErpSync connector to check if can be deleted
 
 **Returns:** Enum response says ok or what is wrong
+
 
 [WSDL file for Services87/ErpSync](../Services87-ErpSync.md)
 
@@ -50,6 +51,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## CanDeleteErpSyncConnectorEntity Response
 
 ```xml
@@ -70,3 +72,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

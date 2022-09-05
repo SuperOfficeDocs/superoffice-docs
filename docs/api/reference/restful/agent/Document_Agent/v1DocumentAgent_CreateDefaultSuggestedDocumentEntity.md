@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Document/CreateDefaultSuggestedDocumentEntity
-id: v1DocumentAgent_CreateDefaultSuggestedDocumentEntity
+uid: v1DocumentAgent_CreateDefaultSuggestedDocumentEntity
 ---
 
 # POST Agents/Document/CreateDefaultSuggestedDocumentEntity
@@ -11,7 +11,14 @@ POST /api/v1/Agents/Document/CreateDefaultSuggestedDocumentEntity
 
 Set default values into a new SuggestedDocumentEntity.
 
+
 NetServer calculates default values on the entity, which is required when creating/storing a new instance
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -26,16 +33,16 @@ NetServer calculates default values on the entity, which is required when creati
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response: object
 
-Carrier object for SuggestedDocumentEntity.
-Services for the SuggestedDocumentEntity Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IDocumentAgent">Document Agent</see>.
+## Response: 
+
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -53,105 +60,39 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Document/CreateDefaultSuggestedDocumentEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SuggestedDocumentId": 170,
-  "Name": "Ratke, Ebert and Toy",
-  "Tooltip": "eius",
-  "Rank": 534,
-  "DoctmplId": 833,
-  "Header": "aut",
-  "OurRef": "rerum",
-  "Deleted": false,
-  "DocTmpl": {
-    "DocumentTemplateId": 439,
-    "Name": "McGlynn Group",
-    "Tooltip": "dicta",
-    "SaveInDb": 536,
-    "Filename": "neque",
-    "DefaultOref": "assumenda",
-    "RecordType": "Appointment",
-    "Deleted": 644,
-    "Direction": "Incoming",
-    "AutoeventId": 423,
-    "QuoteDocType": "ConfirmationLines",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 911
-      }
-    }
-  },
-  "ProjectTypeStatusLink": {
-    "ProjectTypeStatusLinkId": 207,
-    "ProjTypeId": 670,
-    "ProjTypeName": "Boehm-VonRueden",
-    "ProjTypeTooltip": "pariatur",
-    "ProjStatusId": 640,
-    "ProjStatusName": "Anderson-McClure",
-    "ProjStatusTooltip": "odio",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 991
-      }
-    }
-  },
-  "SaleTypeStageLink": {
-    "SaleTypeStageLinkId": 7,
-    "SaleTypeId": 28,
-    "SaleTypeName": "Collier, Murazik and Predovic",
-    "SaleTypeTooltip": "odio",
-    "ProbId": 598,
-    "ProbName": "Cormier Inc and Sons",
-    "ProbTooltip": "provident",
-    "Probability": 482,
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 771
-      }
-    }
-  },
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "SuggestedDocumentId": 909,
+  "Name": "Kuhn LLC",
+  "Tooltip": "nihil",
+  "Rank": 725,
+  "DoctmplId": 814,
+  "Header": "delectus",
+  "OurRef": "debitis",
+  "Deleted": true,
+  "DocTmpl": null,
+  "ProjectTypeStatusLink": null,
+  "SaleTypeStageLink": null,
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
-      "FieldType": "System.Int32",
-      "FieldLength": 898
+      "FieldRight": null,
+      "FieldType": "System.String",
+      "FieldLength": 80
     }
   }
 }

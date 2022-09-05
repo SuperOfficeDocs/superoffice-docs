@@ -1,6 +1,6 @@
 ---
 title: PATCH Pricelist/{id}
-id: v1PriceList_PatchPriceList
+uid: v1PriceList_PatchPriceList
 ---
 
 # PATCH Pricelist/{id}
@@ -10,6 +10,7 @@ PATCH /api/v1/Pricelist/{id}
 ```
 
 Update a PriceList with changes, as described in a JSON Patch or a JSON Merge Patch document.
+
 
 See <a href="https://tools.ietf.org/html/rfc6902">RFC6902</a> and <a href="https://tools.ietf.org/html/rfc7386">RFC 7396</a>. Update the Department field to "foo" can be done either as a JSON PATCH:
 
@@ -27,14 +28,23 @@ or as a JSON MERGE PATCH, which describes the change directly:
 
 ```
 
+
+
 JSON PATCH supports operations 'add', 'replace', 'remove' and 'test'.
 The path is case insensitive, and the leading slash is optional, so the paths "/department", "Department" and "department" are all equivalent.
 
+
+
 Calls the {SuperOffice.CRM.Services.IQuoteAgent} service SavePriceList.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | id | int32 | The PriceList  id to update. **Required** |
+
 
 ## Query String Parameters
 
@@ -45,6 +55,7 @@ Calls the {SuperOffice.CRM.Services.IQuoteAgent} service SavePriceList.
 ```http
 PATCH /api/v1/Pricelist/{id}?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -60,9 +71,9 @@ PATCH /api/v1/Pricelist/{id}?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: changes string
+## Request Body: changes string 
 
-JSON-Patch array of operations+path+value, or a MERGE-PATCH object (which will be converted to a list of JSON-PATCH operations).
+JSON-Patch array of operations+path+value, or a MERGE-PATCH object (which will be converted to a list of JSON-PATCH operations). 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -70,11 +81,10 @@ JSON-Patch array of operations+path+value, or a MERGE-PATCH object (which will b
 | path | string | The property names to modify.  "/users/0/email", "/users/-", |
 | value | object | New/Replaced value - string or object. |
 
-## Response: object
 
-A pricelist is basically a collection of products. It can be valid in a time period, and outright deactivated. All prices in the product list is in a specific currency. We have decieded not to separate prices and products, which means that we get a simpler data model, but some redundancy.
+## Response: 
 
-PriceList entity with API _Links added.
+PriceList  updated.
 
 | Response | Description |
 |----------------|-------------|
@@ -83,7 +93,7 @@ PriceList entity with API _Links added.
 | 409 | Update blocked because a 'test' operation has detected a conflict with the entity value. |
 | 412 | Update aborted because PriceList has changed since the requested If-Unmodified-Since timestamp. |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -101,89 +111,57 @@ Response body: object
 | FieldProperties | object |  |
 | _Links | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 PATCH /api/v1/Pricelist/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "repellendus",
-    "value": {
-      "value1": {
-        "PrimaryKey": 5249,
-        "EntityName": "sale",
-        "saleId": 5249,
-        "contactId": 7724,
-        "name": "Lang-Hamill"
-      },
-      "value2": {
-        "PrimaryKey": 6984,
-        "EntityName": "person",
-        "personId": 6984,
-        "fullName": "Mrs. Mattie Balistreri"
-      }
-    }
+    "path": "aperiam",
+    "value": {}
   },
   {
     "op": "add",
-    "path": "repellendus",
-    "value": {
-      "value1": {
-        "PrimaryKey": 5249,
-        "EntityName": "sale",
-        "saleId": 5249,
-        "contactId": 7724,
-        "name": "Lang-Hamill"
-      },
-      "value2": {
-        "PrimaryKey": 6984,
-        "EntityName": "person",
-        "personId": 6984,
-        "fullName": "Mrs. Mattie Balistreri"
-      }
-    }
+    "path": "aperiam",
+    "value": {}
   }
 ]
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 PriceList  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 834,
-  "ERPPriceListKey": "quis",
-  "QuoteConnectionId": 512,
-  "Name": "Homenick Inc and Sons",
-  "Description": "Optimized bottom-line instruction set",
-  "Currency": "sit",
-  "CurrencyName": "Waters LLC",
-  "ValidFrom": "2008-08-29T18:25:51.9742419+02:00",
-  "ValidTo": "1999-09-15T18:25:51.9742419+02:00",
+  "PriceListId": 177,
+  "ERPPriceListKey": "illo",
+  "QuoteConnectionId": 951,
+  "Name": "Welch-Upton",
+  "Description": "Switchable bi-directional application",
+  "Currency": "optio",
+  "CurrencyName": "Lubowitz, Vandervort and Kuhic",
+  "ValidFrom": "2016-03-17T11:10:54.3879022+01:00",
+  "ValidTo": "2013-11-06T11:10:54.3879022+01:00",
   "IsActive": true,
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
+      "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 610
+      "FieldLength": 144
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

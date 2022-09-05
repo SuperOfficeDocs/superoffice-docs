@@ -13,7 +13,9 @@ Implemented by the <see cref="M:SuperOffice.Services84.ISentryAgent.GetFunctionR
 
 Get a string array of all functions rights for the role of the current associate.
 
+
 **Returns:** String array.
+
 
 [WSDL file for Services84/Sentry](../Services84-Sentry.md)
 
@@ -46,6 +48,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## GetFunctionRights Response
 
 ```xml
@@ -68,3 +71,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Contact/GetMyActiveContacts
-id: v1ContactAgent_GetMyActiveContacts
+uid: v1ContactAgent_GetMyActiveContacts
 ---
 
 # POST Agents/Contact/GetMyActiveContacts
@@ -11,7 +11,13 @@ POST /api/v1/Agents/Contact/GetMyActiveContacts
 
 Returns the contacts where there has been activity since activityStartTime.
 
+
 If activityStartTime is larger than the current date, all contacts with activity since last log-out are returned. The result set can be filtered by category and action type.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +28,7 @@ If activityStartTime is larger than the current date, all contacts with activity
 ```http
 POST /api/v1/Agents/Contact/GetMyActiveContacts?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,9 +44,9 @@ POST /api/v1/Agents/Contact/GetMyActiveContacts?$select=name,department,category
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-ActivityStartTime, ContactCategories, ActionType
+ActivityStartTime, ContactCategories, ActionType 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -47,7 +54,10 @@ ActivityStartTime, ContactCategories, ActionType
 | ContactCategories | array |  |
 | ActionType | string |  |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -74,7 +84,7 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Contact/GetMyActiveContacts
@@ -84,14 +94,16 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ActivityStartTime": "2017-12-25T18:28:48.4636259+01:00",
+  "ActivityStartTime": "1997-06-30T11:10:26.2555528+02:00",
   "ContactCategories": [
-    453,
-    485
+    868,
+    374
   ],
   "ActionType": "ActivityCompleted"
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -99,32 +111,26 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactId": 95,
+    "ContactId": 483,
     "Department": "",
-    "OrgNr": "574948",
-    "Name": "Will Group",
+    "OrgNr": "1098168",
+    "Name": "Volkman-Gerhold",
     "URL": "http://www.example.com/",
-    "AssociateFullName": "Keanu Parisian",
+    "AssociateFullName": "Cecilia Hermiston III",
     "Action": "ActivityCompleted",
-    "ActionTime": "1999-02-27T18:28:48.4646263+01:00",
+    "ActionTime": "2011-06-08T11:10:26.2565473+02:00",
     "Category": "VIP Customer",
-    "ActivityPersonName": "Streich Group",
-    "ActionId": 961,
-    "PersonId": 212,
-    "ActivityPersonId": 656,
-    "AssociateId": 711,
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "ActivityPersonName": "Bayer LLC",
+    "ActionId": 976,
+    "PersonId": 792,
+    "ActivityPersonId": 845,
+    "AssociateId": 341,
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.Int32",
-        "FieldLength": 524
+        "FieldRight": null,
+        "FieldType": "System.String",
+        "FieldLength": 467
       }
     }
   }

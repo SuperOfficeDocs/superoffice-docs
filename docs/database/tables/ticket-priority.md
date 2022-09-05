@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "ticket_priority"
-so.date: 04.12.2022
+so.date: 08.26.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -49,6 +49,7 @@ This table contains the ticket priorities.
 |ticket\_changed\_priority|This field indicates what to do with the escalation chain when the request is changed into this priority|Enum [TicketPriorityEscalateEvent](enums/ticketpriorityescalateevent.md)|&#x25CF;|
 |ticket\_new|This field indicates what to do with the escalation chain when a new request is registered|Enum [TicketPriorityEscalateEvent](enums/ticketpriorityescalateevent.md)| |
 
+
 ![ticket_priority table relationship diagram](./media/ticket_priority.png)
 
 [!include[details](./includes/ticket-priority.md)]
@@ -72,6 +73,7 @@ This table contains the ticket priorities.
 |[ticket](ticket.md)  |This table contains the tickets (requests) of the system. Its purpose should be evident. |
 |[ticket\_alert](ticket-alert.md)  |This table will contain ticket escalation levels. A ticket will be escalated along a &amp;apos;chain&amp;apos; of these levels. |
 
+
 ## Replication Flags
 
 * None
@@ -79,3 +81,4 @@ This table contains the ticket priorities.
 ## Security Flags
 
 * No access control via user's Role.
+

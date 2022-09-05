@@ -1,6 +1,6 @@
 ---
 title: GET Document/UdefLayout/Published/{progidOrLabel}
-id: v1DocumentEntity_GetPublishedUdefFieldInfo
+uid: v1DocumentEntity_GetPublishedUdefFieldInfo
 ---
 
 # GET Document/UdefLayout/Published/{progidOrLabel}
@@ -11,9 +11,16 @@ GET /api/v1/Document/UdefLayout/Published/{progidOrLabel}
 
 Get a published DocumentEntity user-defined field's details based on the prog-id or label.
 
+
+
+
+
+
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | progidOrLabel | string | The udef field id, case-sensitive prog-id, or field label. **Required** |
+
+
 
 ## Request Headers
 
@@ -28,19 +35,17 @@ Get a published DocumentEntity user-defined field's details based on the prog-id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response: object
 
-Return information about the user defined fields. The information can be used to mirror the layout of the user-defined fields in the user interface.
+## Response: 
 
-Carrier object for UserDefinedFieldInfo.
-Services for the UserDefinedFieldInfo Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent">UserDefinedFieldInfo Agent</see>.
+DocumentEntity found.
 
 | Response | Description |
 |----------------|-------------|
 | 200 | DocumentEntity found. |
 | 404 | DocumentEntity not found. |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -81,66 +86,62 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 GET /api/v1/Document/UdefLayout/Published/{progidOrLabel}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 DocumentEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 798,
-  "ColumnId": 874,
-  "FieldDefault": "rerum",
-  "FieldHeight": 495,
-  "FieldLabel": "aperiam",
-  "FieldLeft": 123,
-  "FieldTop": 171,
+  "UDefFieldId": 337,
+  "ColumnId": 687,
+  "FieldDefault": "saepe",
+  "FieldHeight": 299,
+  "FieldLabel": "placeat",
+  "FieldLeft": 401,
+  "FieldTop": 40,
   "FieldType": "Checkbox",
-  "FieldWidth": 475,
-  "FormatMask": "molestiae",
+  "FieldWidth": 974,
+  "FormatMask": "sequi",
   "HideLabel": true,
   "IsIndexed": false,
-  "LabelHeight": 849,
-  "LabelLeft": 27,
-  "LabelTop": 985,
-  "LabelWidth": 591,
-  "LastVersionId": 256,
-  "ListTableId": 878,
-  "IsMandatory": false,
+  "LabelHeight": 485,
+  "LabelLeft": 259,
+  "LabelTop": 564,
+  "LabelWidth": 374,
+  "LastVersionId": 372,
+  "ListTableId": 628,
+  "IsMandatory": true,
   "Type": "Appointment",
-  "Page1LineNo": 673,
-  "ProgId": "sed",
+  "Page1LineNo": 64,
+  "ProgId": "voluptatem",
   "IsReadOnly": false,
-  "ShortLabel": "quidem",
-  "TabOrder": 750,
-  "TextLength": 592,
-  "Tooltip": "ut",
-  "UdefIdentity": 198,
-  "UDListDefinitionId": 236,
+  "ShortLabel": "eum",
+  "TabOrder": 325,
+  "TextLength": 762,
+  "Tooltip": "aperiam",
+  "UdefIdentity": 244,
+  "UDListDefinitionId": 790,
   "Justification": "Center",
-  "Version": 116,
-  "TemplateVariableName": "Fadel, Connelly and Swift",
+  "Version": 241,
+  "TemplateVariableName": "Parisian-Legros",
   "HasBeenPublished": true,
-  "MdoListName": "Welch, Marquardt and Senger",
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "MdoListName": "West Group",
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
-      "FieldType": "System.String",
-      "FieldLength": 679
+      "FieldRight": null,
+      "FieldType": "System.Int32",
+      "FieldLength": 834
     }
   }
 }

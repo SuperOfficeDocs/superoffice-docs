@@ -1,6 +1,6 @@
 ---
 title: GET Archive/{archiveProviderName}
-id: v1Archive_GetArchive_GET
+uid: v1Archive_GetArchive_GET
 ---
 
 # GET Archive/{archiveProviderName}
@@ -11,25 +11,18 @@ GET /api/v1/Archive/{archiveProviderName}
 
 Returns archive providers in OData format.
 
+
 Supports JSON and ATOM+XML results based on Accept headers. Supports OData query parameters:
-
-* $select=col1,col2,abc/col3
-* $filter=col1 eq 'foo' and startswith(col2, 'baz')
-* $orderby=col1,abc/col3
-* $top=1000
-* $options=GrandTotal=true
-* $context=foo
-* $format=json
-
-## Filter Operators
+<ul><li>$select=col1,col2,abc/col3</li><li>$filter=col1 eq 'foo' and startswith(col2, 'baz')</li><li>$orderby=col1,abc/col3</li><li>$top=1000</li><li>$options=GrandTotal=true</li><li>$context=foo</li><li>$format=json</li></ul>
+## Filter Operators: ##
 
 ints: eq =, ne, le, lt, gt, ge, set, equals, greater, less, unequals, between
 
 strings: contains, is, notBegins, notContains, isNot
 
-associate: associateIsOneOf, associateIsNotOneOf,
+associate: associateIsOneOf, associateIsNotOneOf,  
 
-list ids: oneOf, NotOneOf,
+list ids: oneOf, NotOneOf, 
 
 dates: before, date, after, dateBetween, beforeToday
 
@@ -37,14 +30,14 @@ Unary ops: currentAssociate, beforeToday, today, afterToday, lastWeek, thisWeek,
 
 Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,n,period), previous(f,n,period), thisAndNext(f,n,period), thisAndPrevious(f,n,period), thisAndPreviousAndNext(f,period)
 
-OData returns XML or JSON carriers depending on the Accept headers. $format can also be used to
-control the response format via the URL.
+
+OData returns XML or JSON carriers depending on the Accept headers. $format can also be used to 
+control the response format via the URL. 
 
 ## Aggregation operators
 
 The column names can encode grouping and summarizing.
 You add functions and modifiers to the column name to trigger aggregation.
-
 * GroupBy(col)
 * Sum(col)
 * Avg(col)
@@ -53,14 +46,15 @@ You add functions and modifiers to the column name to trigger aggregation.
 * CountAll(col)
 * DatePart(col)
 
-You add modifiers to the end of the column name to trigger aggregation.
 
+
+You add modifiers to the end of the column name to trigger aggregation.
 * :Header
 * :Footer
 * :HideDetail
 
-DatePart specific modifiers
 
+DatePart specific modifiers
 * :Year
 * :Quarter
 * :Month
@@ -73,28 +67,36 @@ DatePart specific modifiers
 * :YearWeekno
 * :YearQuarter
 
+
 Example: group last names together, and inject a header row for each group.
 
-```http
-GroupBy(lastName):Header
 ```
 
-Example: count instances of middle names, and hide the individual rows,
+GroupBy(lastName):Header
+
+```
+
+Example: count instances of middle names, and hide the individual rows, 
 report just the totals for each group using a footer. Note how the modifiers stack.
 
-```http
+```
+
 Count(middleName):HideDetail:Footer
+
 ```
 
 Example: the aggregator functions can nest, so you can say
 
-```http
+```
+
 GroupBy(DatePart(personUpdatedDate):YearMonth):Header
+
 ```
 
 Some simple queries can be used to filter and simplify the result list:
 
-```http
+```
+
 GET api/archives/$metadata
 GET api/archives/findContact
 GET api/archives/findContact?$top=20
@@ -102,11 +104,18 @@ GET api/archives/findContact?$select=nameDepartment,fullname
 GET api/archives/findContact?$filter=name begins 'foo'
 GET api/archives/findContact?$filter=thisAndPrevious(registered, 2, 'weeks')
 GET api/archives/findContact?$select=nameDepartment,fullname&amp;$filter=name begins 'foo'
+
 ```
+
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | archiveProviderName | string | Archive Provider name: FindContact, Person, Product, etc. Call with blank name to get a list of names. **Required** |
+
 
 ## Query String Parameters
 
@@ -131,18 +140,19 @@ GET api/archives/findContact?$select=nameDepartment,fullname&amp;$filter=name be
 GET /api/v1/Archive/{archiveProviderName}?$select=name,department,category/id
 GET /api/v1/Archive/{archiveProviderName}?$filter=name begins 'S'
 GET /api/v1/Archive/{archiveProviderName}?$orderBy=name asc
-GET /api/v1/Archive/{archiveProviderName}?$entities=voluptatem
-GET /api/v1/Archive/{archiveProviderName}?$top=953
-GET /api/v1/Archive/{archiveProviderName}?$skip=607
+GET /api/v1/Archive/{archiveProviderName}?$entities=dolore
+GET /api/v1/Archive/{archiveProviderName}?$top=169
+GET /api/v1/Archive/{archiveProviderName}?$skip=376
 GET /api/v1/Archive/{archiveProviderName}?$mode=Full
 GET /api/v1/Archive/{archiveProviderName}?$options=GrandTotal=true
-GET /api/v1/Archive/{archiveProviderName}?$context=distinctio
+GET /api/v1/Archive/{archiveProviderName}?$context=animi
 GET /api/v1/Archive/{archiveProviderName}?$format=JSON
-GET /api/v1/Archive/{archiveProviderName}?$metadata=dicta
+GET /api/v1/Archive/{archiveProviderName}?$metadata=aut
 GET /api/v1/Archive/{archiveProviderName}?$inlineCount=AllPages
 GET /api/v1/Archive/{archiveProviderName}?$jsonSafe=True
 GET /api/v1/Archive/{archiveProviderName}?$output=Display
 ```
+
 
 ## Request Headers
 
@@ -157,15 +167,16 @@ GET /api/v1/Archive/{archiveProviderName}?$output=Display
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response: object
 
-Easy to use archive results - just a flat list of values.
+## Response: 
+
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -173,14 +184,16 @@ Response body: object
 | odata.nextLink | string |  |
 | value | array |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 GET /api/v1/Archive/{archiveProviderName}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -188,21 +201,19 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "consequatur",
+  "odata.nextLink": "ipsa",
   "value": [
     {
-      "PrimaryKey": 3690,
-      "EntityName": "sale",
-      "saleId": 3690,
-      "contactId": 2505,
-      "name": "Kiehn-McKenzie"
+      "PrimaryKey": 4960,
+      "EntityName": "person",
+      "personId": 4960,
+      "fullName": "Mrs. Amely Amaya Koch"
     },
     {
-      "PrimaryKey": 5381,
-      "EntityName": "sale",
-      "saleId": 5381,
-      "contactId": 364,
-      "name": "Mayert Group"
+      "PrimaryKey": 7125,
+      "EntityName": "person",
+      "personId": 7125,
+      "fullName": "Jonathan Mann"
     }
   ]
 }

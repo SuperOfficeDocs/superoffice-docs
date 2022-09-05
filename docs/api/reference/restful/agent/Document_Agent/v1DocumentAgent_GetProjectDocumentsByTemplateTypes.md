@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Document/GetProjectDocumentsByTemplateTypes
-id: v1DocumentAgent_GetProjectDocumentsByTemplateTypes
+uid: v1DocumentAgent_GetProjectDocumentsByTemplateTypes
 ---
 
 # POST Agents/Document/GetProjectDocumentsByTemplateTypes
@@ -11,7 +11,13 @@ POST /api/v1/Agents/Document/GetProjectDocumentsByTemplateTypes
 
 Method that returns a specified number of document appointments within a time range, filtered by document template types.
 
+
 The document appointments belong to the project specified.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +28,7 @@ The document appointments belong to the project specified.
 ```http
 POST /api/v1/Agents/Document/GetProjectDocumentsByTemplateTypes?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,9 +44,9 @@ POST /api/v1/Agents/Document/GetProjectDocumentsByTemplateTypes?$select=name,dep
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-ProjectId, StartTime, EndTime, Count, DocumentTemplateIds
+ProjectId, StartTime, EndTime, Count, DocumentTemplateIds 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -49,7 +56,10 @@ ProjectId, StartTime, EndTime, Count, DocumentTemplateIds
 | Count | int32 |  |
 | DocumentTemplateIds | array |  |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -77,29 +87,33 @@ Response body: array
 | ProjectName | string | Project name |
 | AssociateId | int32 | ID of associate whose diary the appointment is in, REQUIRED |
 | Snum | int32 | The sequence number allocated from refcount on used template when creating the document |
+| SaleId | int32 | Owning sale, if any (may be 0) |
+| SaleName | string | Heading of Owning sale, if any. (may be blank) |
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Document/GetProjectDocumentsByTemplateTypes
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 72,
-  "StartTime": "1996-02-29T18:28:48.7179566+01:00",
-  "EndTime": "2008-02-16T18:28:48.7179566+01:00",
-  "Count": 716,
+  "ProjectId": 195,
+  "StartTime": "2002-10-23T11:10:26.4734528+02:00",
+  "EndTime": "2000-05-11T11:10:26.4734528+02:00",
+  "Count": 905,
   "DocumentTemplateIds": [
-    11,
-    263
+    183,
+    677
   ]
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -107,36 +121,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 222,
-    "Attention": "ut",
-    "Header": "autem",
-    "Name": "Kub-Rice",
-    "OurRef": "eveniet",
-    "YourRef": "autem",
-    "Description": "Operative cohesive benchmark",
-    "DocumentTemplate": "qui",
+    "DocumentId": 982,
+    "Attention": "consequatur",
+    "Header": "officiis",
+    "Name": "Feest Group",
+    "OurRef": "aspernatur",
+    "YourRef": "non",
+    "Description": "Distributed secondary hub",
+    "DocumentTemplate": "rerum",
     "IsPublished": false,
-    "PersonId": 693,
-    "PersonFullName": "Burdette Friesen",
-    "AssociateFullName": "Josianne Collier",
-    "ContactId": 936,
-    "ContactName": "Veum, Feest and Schulist",
-    "ProjectId": 61,
-    "ProjectName": "Stehr, Block and Hettinger",
-    "AssociateId": 388,
-    "Snum": 103,
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "PersonId": 365,
+    "PersonFullName": "Brandyn Kreiger",
+    "AssociateFullName": "Mrs. Hoyt Levi Keebler V",
+    "ContactId": 23,
+    "ContactName": "Feest-Tromp",
+    "ProjectId": 177,
+    "ProjectName": "VonRueden, Spencer and O'Reilly",
+    "AssociateId": 18,
+    "Snum": 92,
+    "SaleId": 399,
+    "SaleName": "Fadel Group",
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
+        "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 382
+        "FieldLength": 143
       }
     }
   }

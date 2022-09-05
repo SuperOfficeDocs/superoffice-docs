@@ -1,6 +1,6 @@
 ---
 title: GET List/Competitor
-id: v1CompetitorList_GetListDefinition
+uid: v1CompetitorList_GetListDefinition
 ---
 
 # GET List/Competitor
@@ -10,6 +10,13 @@ GET /api/v1/List/Competitor
 ```
 
 Gets description of Competitor list
+
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -24,17 +31,16 @@ Gets description of Competitor list
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response: object
 
-The list entity contains information about a specific list
+## Response: 
 
-ListEntity entity with API _Links added.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -52,42 +58,38 @@ Response body: object
 | FieldProperties | object |  |
 | _Links | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 GET /api/v1/List/Competitor
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 183,
-  "Name": "Mueller-Muller",
-  "Tooltip": "consequatur",
-  "Deleted": true,
-  "Rank": 960,
+  "Id": 310,
+  "Name": "Frami-Sipes",
+  "Tooltip": "cupiditate",
+  "Deleted": false,
+  "Rank": 1001,
   "IsCustomList": false,
   "IsMDOList": true,
-  "UseGroupsAndHeadings": true,
-  "ListType": "laudantium",
-  "InUseByUserDefinedFields": true,
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "UseGroupsAndHeadings": false,
+  "ListType": "corporis",
+  "InUseByUserDefinedFields": false,
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
+      "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 736
+      "FieldLength": 156
     }
   },
   "_Links": {

@@ -18,6 +18,7 @@ Return the application configuration. This is a list of pages, with information 
 
 **Returns:** XML structure containing the application configuration
 
+
 [WSDL file for Services85/Configuration](../Services85-Configuration.md)
 
 Obtain a ticket from the [Services85/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -51,6 +52,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## GetApplicationConfiguration Response
 
 ```xml
@@ -71,3 +73,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

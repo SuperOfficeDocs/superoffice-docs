@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Contact/Copy
-id: v1ContactAgent_Copy
+uid: v1ContactAgent_Copy
 ---
 
 # POST Agents/Contact/Copy
@@ -11,7 +11,13 @@ POST /api/v1/Agents/Contact/Copy
 
 Copy a contact.
 
+
 Activities and related data will be ignored
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +28,7 @@ Activities and related data will be ignored
 ```http
 POST /api/v1/Agents/Contact/Copy?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,9 +44,9 @@ POST /api/v1/Agents/Contact/Copy?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-SourceContactId, DestinationContactName, DestinationContactDepartment, CopyPersons
+SourceContactId, DestinationContactName, DestinationContactDepartment, CopyPersons 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -48,7 +55,10 @@ SourceContactId, DestinationContactName, DestinationContactDepartment, CopyPerso
 | DestinationContactDepartment | string |  |
 | CopyPersons | bool |  |
 
+
 ## Response: int32
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -56,7 +66,8 @@ SourceContactId, DestinationContactName, DestinationContactDepartment, CopyPerso
 
 Response body: int32
 
-## Sample Request
+
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Contact/Copy
@@ -66,16 +77,18 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceContactId": 771,
-  "DestinationContactName": "Gaylord, Johnston and Hilpert",
+  "SourceContactId": 201,
+  "DestinationContactName": "Becker, Emmerich and Abernathy",
   "DestinationContactDepartment": "",
   "CopyPersons": false
 }
 ```
 
+## Sample response
+
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-857
+23
 ```

@@ -1,6 +1,6 @@
 ---
 title: GET SystemEvent
-id: v1SystemEventEntity_GetAll
+uid: v1SystemEventEntity_GetAll
 ---
 
 # GET SystemEvent
@@ -11,6 +11,7 @@ GET /api/v1/SystemEvent
 
 OData list of all SystemEventEntity.
 
+
 Can be sorted and further filtered using OData conventions:
 
 * SystemEvent?$select=col1,col2,abc/col3
@@ -19,25 +20,34 @@ Can be sorted and further filtered using OData conventions:
 * SystemEvent?$top=1000
 * SystemEvent?$mode=full
 
+
 OData returns XML or JSON carriers depending on the Accept headers.
+
 
 Calls the Archive service using the "SystemEvents" archive.
 
-## Filter Operators
+
+## Filter Operators: ##
 
 ints: eq =, ne, le, lt, gt, ge, set, equals, greater, less, unequals, between
 
 strings: contains, is, notBegins, notContains, isNot
 
-associate: associateIsOneOf, associateIsNotOneOf,
+associate: associateIsOneOf, associateIsNotOneOf,  
 
-list ids: oneOf, NotOneOf,
+list ids: oneOf, NotOneOf, 
 
 dates: before, date, after, dateBetween, beforeToday
 
 Unary ops: currentAssociate, beforeToday, today, afterToday, lastWeek, thisWeek, nextWeek, lastMonth, thisMonth, nextMonth, lastQuarter, thisQuarter, nextQuarter, thisHalf, thisYear
 
 Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,n,period), previous(f,n,period), thisAndNext(f,n,period), thisAndPrevious(f,n,period), thisAndPreviousAndNext(f,period)
+
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -60,16 +70,17 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 GET /api/v1/SystemEvent?$select=name,department,category/id
 GET /api/v1/SystemEvent?$filter=name begins 'S'
 GET /api/v1/SystemEvent?$orderBy=name asc
-GET /api/v1/SystemEvent?$entities=sit
-GET /api/v1/SystemEvent?$top=372
-GET /api/v1/SystemEvent?$skip=415
+GET /api/v1/SystemEvent?$entities=praesentium
+GET /api/v1/SystemEvent?$top=116
+GET /api/v1/SystemEvent?$skip=155
 GET /api/v1/SystemEvent?$mode=Full
 GET /api/v1/SystemEvent?$options=GrandTotal=true
-GET /api/v1/SystemEvent?$context=aut
+GET /api/v1/SystemEvent?$context=tenetur
 GET /api/v1/SystemEvent?$format=JSON
-GET /api/v1/SystemEvent?$jsonSafe=True
+GET /api/v1/SystemEvent?$jsonSafe=False
 GET /api/v1/SystemEvent?$output=Display
 ```
+
 
 ## Request Headers
 
@@ -84,15 +95,16 @@ GET /api/v1/SystemEvent?$output=Display
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response: object
 
-Easy to use archive results - just a flat list of values.
+## Response: 
+
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -100,14 +112,16 @@ Response body: object
 | odata.nextLink | string |  |
 | value | array |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 GET /api/v1/SystemEvent
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -115,21 +129,19 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "mollitia",
+  "odata.nextLink": "ipsam",
   "value": [
     {
-      "PrimaryKey": 1282,
-      "EntityName": "sale",
-      "saleId": 1282,
-      "contactId": 8115,
-      "name": "Dooley, Pacocha and Schiller"
+      "PrimaryKey": 6403,
+      "EntityName": "person",
+      "personId": 6403,
+      "fullName": "Mrs. Leone Stefanie Greenfelder DDS"
     },
     {
-      "PrimaryKey": 6752,
-      "EntityName": "sale",
-      "saleId": 6752,
-      "contactId": 9159,
-      "name": "Rolfson-Reinger"
+      "PrimaryKey": 7086,
+      "EntityName": "person",
+      "personId": 7086,
+      "fullName": "Alda McDermott"
     }
   ]
 }

@@ -1,6 +1,6 @@
 ---
 title: GET Selection/{id}/Criteria
-id: v1SelectionEntity_GetDynamicSelectionCriteria
+uid: v1SelectionEntity_GetDynamicSelectionCriteria
 ---
 
 # GET Selection/{id}/Criteria
@@ -11,9 +11,16 @@ GET /api/v1/Selection/{selectionId}/Criteria
 
 Get the criteria for this dynamic selection.
 
+
+
+
+
+
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | selectionId | int32 | The id of the selection to add members **Required** |
+
+
 
 ## Request Headers
 
@@ -28,7 +35,10 @@ Get the criteria for this dynamic selection.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -49,14 +59,16 @@ Response body: array
 | InterOperator | string |  |
 | UniqueHash | int32 |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 GET /api/v1/Selection/{selectionId}/Criteria
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -64,58 +76,44 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Beahan, Hirthe and Doyle",
-    "Operator": "cumque",
+    "Name": "Ullrich-Bernhard",
+    "Operator": "beatae",
     "Values": [
-      "libero",
-      "omnis"
+      "quam",
+      "aliquam"
     ],
     "DisplayValues": [
-      "iusto",
-      "facere"
+      "hic",
+      "sequi"
     ],
-    "ColumnInfo": {
-      "DisplayName": "Rowe Inc and Sons",
-      "DisplayTooltip": "veniam",
-      "DisplayType": "iure",
-      "CanOrderBy": true,
-      "Name": "Jewess-D'Amore",
-      "CanRestrictBy": false,
-      "RestrictionType": "velit",
-      "RestrictionListName": "Lindgren-Durgan",
-      "IsVisible": false,
-      "ExtraInfo": "atque",
-      "Width": "enim",
-      "IconHint": "molestiae",
-      "HeadingIconHint": "porro"
-    },
+    "ColumnInfo": null,
     "IsActive": false,
     "SubRestrictions": [
       {
-        "Name": "Zboncak, Schamberger and Turner",
-        "Operator": "officia",
+        "Name": "Schowalter, Cremin and Olson",
+        "Operator": "recusandae",
         "Values": [
-          "quisquam",
-          "sit"
+          "impedit",
+          "officia"
         ],
         "DisplayValues": [
-          "et",
-          "voluptas"
+          "quia",
+          "qui"
         ],
-        "ColumnInfo": {},
-        "IsActive": false,
+        "ColumnInfo": null,
+        "IsActive": true,
         "SubRestrictions": [
           {},
           {}
         ],
-        "InterParenthesis": 395,
+        "InterParenthesis": 792,
         "InterOperator": "And",
-        "UniqueHash": 32
+        "UniqueHash": 849
       }
     ],
-    "InterParenthesis": 170,
+    "InterParenthesis": 575,
     "InterOperator": "And",
-    "UniqueHash": 139
+    "UniqueHash": 675
   }
 ]
 ```

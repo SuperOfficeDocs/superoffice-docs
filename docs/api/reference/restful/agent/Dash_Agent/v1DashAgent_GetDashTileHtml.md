@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Dash/GetDashTileHtml
-id: v1DashAgent_GetDashTileHtml
+uid: v1DashAgent_GetDashTileHtml
 ---
 
 # POST Agents/Dash/GetDashTileHtml
@@ -11,6 +11,12 @@ POST /api/v1/Agents/Dash/GetDashTileHtml
 
 Get HTML for a dashboard tile definition with TileType = HTML
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Get HTML for a dashboard tile definition with TileType = HTML
 ```http
 POST /api/v1/Agents/Dash/GetDashTileHtml?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,27 +42,25 @@ POST /api/v1/Agents/Dash/GetDashTileHtml?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-DashboardTileDefinitionId, LanguageCode
+DashboardTileDefinitionId, LanguageCode 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | DashboardTileDefinitionId | int32 |  |
 | LanguageCode | string |  |
 
-## Response: object
 
-HTML data for dash tiles with TileType = HTML
+## Response: 
 
-Carrier object for DashTileHtml.
-Services for the DashTileHtml Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IDashAgent">Dash Agent</see>.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -64,7 +69,7 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Dash/GetDashTileHtml
@@ -74,30 +79,26 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileDefinitionId": 627,
-  "LanguageCode": "omnis"
+  "DashboardTileDefinitionId": 489,
+  "LanguageCode": "dolorem"
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "LanguageCode": "cum",
-  "Html": "veniam",
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "LanguageCode": "voluptas",
+  "Html": "sint",
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
+      "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 574
+      "FieldLength": 136
     }
   }
 }

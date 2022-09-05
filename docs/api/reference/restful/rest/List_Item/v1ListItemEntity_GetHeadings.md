@@ -1,6 +1,6 @@
 ---
 title: GET List/{id}/Items/{id}/Headings
-id: v1ListItemEntity_GetHeadings
+uid: v1ListItemEntity_GetHeadings
 ---
 
 # GET List/{id}/Items/{id}/Headings
@@ -11,10 +11,16 @@ GET /api/v1/List/{udListDefinitionId}/Items/{listItemId}/Headings
 
 Gets a selectable MDO list of the headings for this list item
 
+
+
+
+
+
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | udListDefinitionId | int32 | The id of the list. Negative numbers indicate TableNumber value instead of UDListDefId. e.g. -64 = category. **Required** |
 | listItemId | int32 | The id of the list item **Required** |
+
 
 ## Query String Parameters
 
@@ -23,8 +29,9 @@ Gets a selectable MDO list of the headings for this list item
 | showDeleted | bool |  Set to true if you want deleted headings |
 
 ```http
-GET /api/v1/List/{udListDefinitionId}/Items/{listItemId}/Headings?showDeleted=True
+GET /api/v1/List/{udListDefinitionId}/Items/{listItemId}/Headings?showDeleted=False
 ```
+
 
 ## Request Headers
 
@@ -39,7 +46,10 @@ GET /api/v1/List/{udListDefinitionId}/Items/{listItemId}/Headings?showDeleted=Tr
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -67,14 +77,16 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 GET /api/v1/List/{udListDefinitionId}/Items/{listItemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -82,65 +94,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 548,
-    "Name": "Ortiz Inc and Sons",
-    "ToolTip": "Architecto officia totam ipsam cumque.",
+    "Id": 898,
+    "Name": "Orn, Mante and Medhurst",
+    "ToolTip": "Sequi porro id rem est qui.",
     "Deleted": false,
-    "Rank": 417,
-    "Type": "cum",
-    "ColorBlock": 888,
-    "IconHint": "aut",
+    "Rank": 2,
+    "Type": "voluptas",
+    "ColorBlock": 713,
+    "IconHint": "tempora",
     "Selected": false,
-    "LastChanged": "2020-01-13T18:25:51.5862943+01:00",
+    "LastChanged": "1995-06-11T11:10:53.8962156+02:00",
     "ChildItems": [
       {
-        "Id": 766,
-        "Name": "Ryan, Kuhlman and Friesen",
-        "ToolTip": "Dolorem laudantium et dolores inventore.",
-        "Deleted": true,
-        "Rank": 122,
-        "Type": "enim",
-        "ColorBlock": 387,
-        "IconHint": "est",
-        "Selected": true,
-        "LastChanged": "2018-07-22T18:25:51.5862943+02:00",
+        "Id": 518,
+        "Name": "O'Connell-Pfannerstill",
+        "ToolTip": "Eos mollitia ea molestias quasi eos illo architecto.",
+        "Deleted": false,
+        "Rank": 713,
+        "Type": "voluptates",
+        "ColorBlock": 252,
+        "IconHint": "rerum",
+        "Selected": false,
+        "LastChanged": "2016-08-25T11:10:53.8962156+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "rem",
-        "StyleHint": "necessitatibus",
-        "Hidden": false,
-        "FullName": "Miss Barbara Doyle",
-        "TableRight": {},
+        "ExtraInfo": "esse",
+        "StyleHint": "sunt",
+        "Hidden": true,
+        "FullName": "Mrs. Blair Lubowitz",
+        "TableRight": null,
         "FieldProperties": {
           "fieldName": {
-            "FieldRight": {
-              "Mask": "FULL",
-              "Reason": ""
-            },
-            "FieldType": "System.Int32",
-            "FieldLength": 975
+            "FieldRight": null,
+            "FieldType": "System.String",
+            "FieldLength": 354
           }
         }
       }
     ],
-    "ExtraInfo": "tempora",
-    "StyleHint": "assumenda",
+    "ExtraInfo": "eligendi",
+    "StyleHint": "hic",
     "Hidden": false,
-    "FullName": "Leanne Kreiger",
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "FullName": "Zachery Stoltenberg",
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
+        "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 835
+        "FieldLength": 995
       }
     }
   }

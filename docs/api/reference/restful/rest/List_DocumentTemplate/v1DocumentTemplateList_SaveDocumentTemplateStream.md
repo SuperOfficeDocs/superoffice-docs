@@ -1,6 +1,6 @@
 ---
 title: PUT List/DocumentTemplate/Items/{id}/Content/{languageCode}
-id: v1DocumentTemplateList_SaveDocumentTemplateStream
+uid: v1DocumentTemplateList_SaveDocumentTemplateStream
 ---
 
 # PUT List/DocumentTemplate/Items/{id}/Content/{languageCode}
@@ -11,10 +11,16 @@ PUT /api/v1/List/DocumentTemplate/Items/{documentTemplateId}/Content/{languageCo
 
 Writes content in stream to document template file
 
+
+
+
+
+
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | documentTemplateId | int32 | Identifier for document template **Required** |
 | languageCode | string | Language variation of template to update. (ISO code: "en-US" or "nb-NO" etc). Used to select a template of the appropriate language. Can be overridden in SO ARC by user preference "PreferDocLang". **Required** |
+
 
 ## Query String Parameters
 
@@ -23,8 +29,9 @@ Writes content in stream to document template file
 | pluginId | int32 |  Plugin to use for storing document content. 0 = SOARC. Use -1 to use the plugin specified in the template. |
 
 ```http
-PUT /api/v1/List/DocumentTemplate/Items/{documentTemplateId}/Content/{languageCode}?pluginId=748
+PUT /api/v1/List/DocumentTemplate/Items/{documentTemplateId}/Content/{languageCode}?pluginId=676
 ```
+
 
 ## Request Headers
 
@@ -40,17 +47,21 @@ PUT /api/v1/List/DocumentTemplate/Items/{documentTemplateId}/Content/{languageCo
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: content
+## Request Body: content  
 
-Stream containing content to be saved to document template file
+Stream containing content to be saved to document template file 
 
-## Response: object
+
+
+## Response: 
+
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -60,24 +71,26 @@ Response body: object
 | MimeType | string |  |
 | PluginId | int32 |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 PUT /api/v1/List/DocumentTemplate/Items/{documentTemplateId}/Content/{languageCode}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "DuBuque, Harber and Braun",
-  "Description": "Adaptive value-added instruction set",
-  "ExternalReference": "ad",
-  "MimeType": "quaerat",
-  "PluginId": 788
+  "Name": "Smitham-Bahringer",
+  "Description": "Cloned mission-critical middleware",
+  "ExternalReference": "accusantium",
+  "MimeType": "porro",
+  "PluginId": 452
 }
 ```

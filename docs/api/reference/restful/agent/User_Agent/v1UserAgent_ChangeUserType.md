@@ -1,6 +1,6 @@
 ---
 title: POST Agents/User/ChangeUserType
-id: v1UserAgent_ChangeUserType
+uid: v1UserAgent_ChangeUserType
 ---
 
 # POST Agents/User/ChangeUserType
@@ -11,7 +11,15 @@ POST /api/v1/Agents/User/ChangeUserType
 
 Get a user from the user name.
 
-## Online Restricted: ## The User agent is not available in Online by default. User management is not allowed for partner apps
+
+
+
+## Online Restricted: ## The User agent is not available in Online by default. User management is not allowed for partner apps.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +30,7 @@ Get a user from the user name.
 ```http
 POST /api/v1/Agents/User/ChangeUserType?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,27 +46,25 @@ POST /api/v1/Agents/User/ChangeUserType?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-User, UserType
+User, UserType 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| User |  | SuperOffice User, with login credentials and an associated person. <br /> Carrier object for User. Services for the User Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IUserAgent">User Agent</see>. |
+| User |  | SuperOffice User, with login credentials and an associated person. <para /> Carrier object for User. Services for the User Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IUserAgent">User Agent</see>. |
 | UserType | string |  |
 
-## Response: object
 
-SuperOffice User, with login credentials and an associated person.
+## Response: 
 
-Carrier object for User.
-Services for the User Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IUserAgent">User Agent</see>.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -67,9 +74,9 @@ Response body: object
 | Tooltip | string | Tooltip or other description |
 | LicenseOwners | array | The restricted and unrestricted module licenses grouped by license owner. These module licenses are either assigned or unassigned to this user |
 | Role |  | Users role for role-based security. Determines permissions and access rights for the user. |
-| UserGroup |  | The main user group that this user belongs to.  <br />Use MDO List name "usergroup" to get list items. |
-| OtherGroups | array | The other groups this user is a member of, apart from the main user group.  <br />Use MDO List name "usergroup" to get list items. |
-| Person |  | The person associated with this user. Detailed information about the user  <br />Use MDO List name "person_new" to get list items. |
+| UserGroup |  | The main user group that this user belongs to.  <para>Use MDO List name "usergroup" to get list items.</para> |
+| OtherGroups | array | The other groups this user is a member of, apart from the main user group.  <para>Use MDO List name "usergroup" to get list items.</para> |
+| Person |  | The person associated with this user. Detailed information about the user  <para>Use MDO List name "person_new" to get list items.</para> |
 | Deleted | bool | If true, the user is retired and should have no rights, not appear in lists, etc. |
 | Lastlogin | date-time | Last login date |
 | Lastlogout | date-time | Last logout date |
@@ -80,7 +87,7 @@ Response body: object
 | IsOnTravel | bool | True if the user is on travel. |
 | Credentials | array | List of credentials registered for this user. i.e. valid authentication methods. |
 | UserName | string | User name, a.k.a. Login name. This might be an e-mail address. |
-| TicketCategories | array | Request Ticket Categories assigned to the user.   <br />Use MDO List name "ejCategory" to get list items. |
+| TicketCategories | array | Request Ticket Categories assigned to the user.   <para>Use MDO List name "ejCategory" to get list items.</para> |
 | NickName | string | The unique nick name for this user. Used in Service as an alias, similar to Name/Initials. |
 | WaitingForApproval | bool | The user is waiting for an administrator to approve/grant her/him access. |
 | ExtraFields | object | Deprecated: Use {SuperOffice.CRM.Services.User.CustomFields} instead. Extra fields added to the carrier. This could be data from Plug-ins, the foreign key system, external applications, etc. |
@@ -89,81 +96,36 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/User/ChangeUserType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "User": {
-    "AssociateId": 588,
-    "Name": "Bergnaum Inc and Sons",
-    "Rank": 279,
-    "Tooltip": "fugit",
-    "LicenseOwners": [
-      {},
-      {}
-    ],
-    "Role": {},
-    "UserGroup": {},
-    "OtherGroups": [
-      {},
-      {}
-    ],
-    "Person": {},
-    "Deleted": true,
-    "Lastlogin": "2016-06-02T18:28:50.4054145+02:00",
-    "Lastlogout": "2008-05-01T18:28:50.4054145+02:00",
-    "EjUserId": 22,
-    "RequestSignature": "tempore",
-    "Type": "AnonymousAssociate",
-    "IsPersonRetired": false,
-    "IsOnTravel": true,
-    "Credentials": [
-      {},
-      {}
-    ],
-    "UserName": "Senger-Raynor",
-    "TicketCategories": [
-      {},
-      {}
-    ],
-    "NickName": "Gerlach Inc and Sons",
-    "WaitingForApproval": false,
-    "ExtraFields": {
-      "ExtraFields1": "ex",
-      "ExtraFields2": "mollitia"
-    },
-    "CustomFields": {
-      "CustomFields1": "aliquam",
-      "CustomFields2": "autem"
-    },
-    "PostSaveCommands": [
-      {},
-      {}
-    ]
-  },
+  "User": null,
   "UserType": "AnonymousAssociate"
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 740,
-  "Name": "Leffler Group",
-  "Rank": 595,
-  "Tooltip": "dolor",
+  "AssociateId": 62,
+  "Name": "Murphy, Beier and Leuschke",
+  "Rank": 631,
+  "Tooltip": "rem",
   "LicenseOwners": [
     {
-      "Name": "Flatley, Witting and Sipes",
-      "Description": "Cloned multi-state website",
+      "Name": "Daugherty-Predovic",
+      "Description": "Enhanced multi-tasking project",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -172,21 +134,18 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "TableRight": {},
+      "TableRight": null,
       "FieldProperties": {
         "fieldName": {
-          "FieldRight": {
-            "Mask": "FULL",
-            "Reason": ""
-          },
-          "FieldType": "System.String",
-          "FieldLength": 282
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 571
         }
       }
     },
     {
-      "Name": "Flatley, Witting and Sipes",
-      "Description": "Cloned multi-state website",
+      "Name": "Daugherty-Predovic",
+      "Description": "Enhanced multi-tasking project",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -195,242 +154,134 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "TableRight": {},
+      "TableRight": null,
       "FieldProperties": {
         "fieldName": {
-          "FieldRight": {
-            "Mask": "FULL",
-            "Reason": ""
-          },
-          "FieldType": "System.String",
-          "FieldLength": 282
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 571
         }
       }
     }
   ],
-  "Role": {
-    "Id": 720,
-    "Value": "placeat",
-    "Tooltip": "in",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 765
-      }
-    }
-  },
-  "UserGroup": {
-    "Value": "ut",
-    "Tooltip": "veritatis",
-    "Id": 9,
-    "Rank": 948,
-    "Deleted": false,
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.Int32",
-        "FieldLength": 130
-      }
-    }
-  },
+  "Role": null,
+  "UserGroup": null,
   "OtherGroups": [
     {
-      "Value": "dicta",
-      "Tooltip": "consequatur",
-      "Id": 100,
-      "Rank": 347,
+      "Value": "quis",
+      "Tooltip": "nisi",
+      "Id": 324,
+      "Rank": 154,
       "Deleted": false,
-      "TableRight": {},
+      "TableRight": null,
       "FieldProperties": {
         "fieldName": {
-          "FieldRight": {
-            "Mask": "FULL",
-            "Reason": ""
-          },
+          "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 351
+          "FieldLength": 627
         }
       }
     }
   ],
-  "Person": {
-    "Position": "et",
-    "PersonId": 201,
-    "Mrmrs": "ratione",
-    "Firstname": "Lorna",
-    "Lastname": "Sawayn",
-    "MiddleName": "Schneider, Mueller and Schoen",
-    "Title": "ut",
-    "Description": "Horizontal intangible support",
-    "Email": "bryon.bernhard@halvorsonschiller.us",
-    "FullName": "Vivian Hoeger",
-    "DirectPhone": "(060)058-0870 x78172",
-    "FormalName": "Ernser-Romaguera",
-    "CountryId": 585,
-    "ContactId": 6,
-    "ContactName": "Kerluke-Corwin",
-    "Retired": 151,
-    "Rank": 605,
-    "ActiveInterests": 125,
-    "ContactDepartment": "",
-    "ContactCountryId": 208,
-    "ContactOrgNr": "959225",
-    "FaxPhone": "1-128-705-6683",
-    "MobilePhone": "063-185-0207 x3325",
-    "ContactPhone": "744.078.8656 x182",
-    "AssociateName": "Labadie, Zieme and Moore",
-    "AssociateId": 660,
-    "UsePersonAddress": false,
-    "ContactFax": "qui",
-    "Kanafname": "dignissimos",
-    "Kanalname": "sit",
-    "Post1": "est",
-    "Post2": "nihil",
-    "Post3": "aut",
-    "EmailName": "destiny.rodriguez@hackett.ca",
-    "ContactFullName": "Brandt Yundt",
-    "ActiveErpLinks": 726,
-    "TicketPriorityId": 483,
-    "SupportLanguageId": 723,
-    "SupportAssociateId": 666,
-    "CategoryName": "VIP Customer",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 882
-      }
-    }
-  },
+  "Person": null,
   "Deleted": false,
-  "Lastlogin": "2002-04-07T18:28:50.411412+02:00",
-  "Lastlogout": "2012-05-20T18:28:50.411412+02:00",
-  "EjUserId": 221,
-  "RequestSignature": "inventore",
+  "Lastlogin": "2005-11-11T11:10:28.3362067+01:00",
+  "Lastlogout": "2013-09-04T11:10:28.3362067+02:00",
+  "EjUserId": 132,
+  "RequestSignature": "velit",
   "Type": "AnonymousAssociate",
   "IsPersonRetired": true,
   "IsOnTravel": false,
   "Credentials": [
     {
-      "Type": {},
-      "Value": "quia",
-      "DisplayValue": "laboriosam",
-      "TableRight": {},
+      "Type": null,
+      "Value": "accusantium",
+      "DisplayValue": "aut",
+      "TableRight": null,
       "FieldProperties": {
         "fieldName": {
-          "FieldRight": {
-            "Mask": "FULL",
-            "Reason": ""
-          },
-          "FieldType": "System.String",
-          "FieldLength": 730
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 305
         }
       }
     },
     {
-      "Type": {},
-      "Value": "quia",
-      "DisplayValue": "laboriosam",
-      "TableRight": {},
+      "Type": null,
+      "Value": "accusantium",
+      "DisplayValue": "aut",
+      "TableRight": null,
       "FieldProperties": {
         "fieldName": {
-          "FieldRight": {
-            "Mask": "FULL",
-            "Reason": ""
-          },
-          "FieldType": "System.String",
-          "FieldLength": 730
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 305
         }
       }
     }
   ],
-  "UserName": "Corwin, Grady and Pfeffer",
+  "UserName": "Emmerich-Nikolaus",
   "TicketCategories": [
     {
-      "Id": 741,
-      "Name": "Emmerich Inc and Sons",
-      "ToolTip": "Vitae sapiente rem sint.",
+      "Id": 342,
+      "Name": "Abbott, Rice and Romaguera",
+      "ToolTip": "Tenetur est porro fugit vel harum qui consectetur.",
       "Deleted": true,
-      "Rank": 335,
-      "Type": "perspiciatis",
+      "Rank": 421,
+      "Type": "et",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "neque",
-      "ColorBlock": 293,
-      "ExtraInfo": "voluptatem",
-      "StyleHint": "dolor",
-      "FullName": "Dr. Tessie Lockman",
-      "TableRight": {},
+      "IconHint": "mollitia",
+      "ColorBlock": 962,
+      "ExtraInfo": "qui",
+      "StyleHint": "possimus",
+      "FullName": "Mekhi Murazik MD",
+      "TableRight": null,
       "FieldProperties": {
         "fieldName": {
-          "FieldRight": {
-            "Mask": "FULL",
-            "Reason": ""
-          },
+          "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 686
+          "FieldLength": 861
         }
       }
     }
   ],
-  "NickName": "Weber Group",
-  "WaitingForApproval": true,
+  "NickName": "Crona, Dach and Eichmann",
+  "WaitingForApproval": false,
   "ExtraFields": {
-    "ExtraFields1": "consectetur",
-    "ExtraFields2": "mollitia"
+    "ExtraFields1": "voluptas",
+    "ExtraFields2": "architecto"
   },
   "CustomFields": {
-    "CustomFields1": "hic",
-    "CustomFields2": "reiciendis"
+    "CustomFields1": "atque",
+    "CustomFields2": "minima"
   },
   "PostSaveCommands": [
     {
-      "Name": "Sawayn LLC",
-      "DisplayName": "Spencer LLC",
-      "Description": "Secured responsive migration",
-      "ToolTip": "Est sint laudantium.",
+      "Name": "Zieme, Mueller and Bahringer",
+      "DisplayName": "Marvin, Greenholt and Walter",
+      "Description": "Focused human-resource process improvement",
+      "ToolTip": "Sit error nesciunt maxime.",
       "Actions": "Implicit",
-      "ActionData": "dolor",
-      "TableRight": {},
+      "ActionData": "et",
+      "TableRight": null,
       "FieldProperties": {
         "fieldName": {
-          "FieldRight": {
-            "Mask": "FULL",
-            "Reason": ""
-          },
+          "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 763
+          "FieldLength": 373
         }
       }
     }
   ],
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
+      "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 95
+      "FieldLength": 501
     }
   }
 }

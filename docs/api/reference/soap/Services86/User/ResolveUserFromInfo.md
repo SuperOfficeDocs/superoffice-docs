@@ -12,7 +12,7 @@ Implemented by the <see cref="M:SuperOffice.Services86.IUserAgent.ResolveUserFro
 ## ResolveUserFromInfo
 
 Get a user from the provided information. If the user or associated person does not exist, it will be created on demand.
-<br />**Online Restricted:** The User agent is not available in Online by default. User management is not allowed for partner apps.
+<para /><b>Online Restricted:</b> The User agent is not available in Online by default. User management is not allowed for partner apps.
 
 * **contactId:** The contact Id of the contact which the person belongs to. Cannot be 0.
 * **personName:** The full name of the person to be resolved. Optional.
@@ -22,6 +22,7 @@ Get a user from the provided information. If the user or associated person does 
 * **credential:** The credentials to be used for the user. Required.
 
 **Returns:** The results of the resolve-operation.
+
 
 [WSDL file for Services86/User](../Services86-User.md)
 
@@ -74,6 +75,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+
 
 ## ResolveUserFromInfo Response
 
@@ -196,8 +198,8 @@ Application tokens must be specified if calling an Online installation. Applicat
       <User:SupportAssociateId xsi:type="xsd:int">0</User:SupportAssociateId>
      </User:Person>
      <User:Deleted xsi:type="xsd:boolean">false</User:Deleted>
-     <User:Lastlogin xsi:type="xsd:dateTime">2021-11-30T13:23:06Z</User:Lastlogin>
-     <User:Lastlogout xsi:type="xsd:dateTime">2021-11-30T13:23:06Z</User:Lastlogout>
+     <User:Lastlogin xsi:type="xsd:dateTime">2022-08-26T08:56:02Z</User:Lastlogin>
+     <User:Lastlogout xsi:type="xsd:dateTime">2022-08-26T08:56:02Z</User:Lastlogout>
      <User:EjUserId xsi:type="xsd:int">0</User:EjUserId>
      <User:Type xsi:type="User:UserType">Unknown</User:Type>
      <User:IsPersonRetired xsi:type="xsd:boolean">false</User:IsPersonRetired>
@@ -235,3 +237,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

@@ -1,6 +1,6 @@
 ---
 title: GET Sale/UdefLayout
-id: v1SaleEntity_GetUdefLayout
+uid: v1SaleEntity_GetUdefLayout
 ---
 
 # GET Sale/UdefLayout
@@ -11,7 +11,14 @@ GET /api/v1/Sale/UdefLayout
 
 Current SaleEntity user-defined field layout.
 
+
 May be different from the published version.
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -26,7 +33,10 @@ May be different from the published version.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -73,14 +83,16 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 GET /api/v1/Sale/UdefLayout
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -88,52 +100,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 349,
-    "ColumnId": 387,
-    "FieldDefault": "est",
-    "FieldHeight": 929,
-    "FieldLabel": "quod",
-    "FieldLeft": 844,
-    "FieldTop": 638,
+    "UDefFieldId": 434,
+    "ColumnId": 233,
+    "FieldDefault": "expedita",
+    "FieldHeight": 360,
+    "FieldLabel": "saepe",
+    "FieldLeft": 385,
+    "FieldTop": 900,
     "FieldType": "Checkbox",
-    "FieldWidth": 245,
-    "FormatMask": "totam",
+    "FieldWidth": 762,
+    "FormatMask": "minima",
     "HideLabel": false,
-    "IsIndexed": false,
-    "LabelHeight": 476,
-    "LabelLeft": 981,
-    "LabelTop": 129,
-    "LabelWidth": 905,
-    "LastVersionId": 234,
-    "ListTableId": 124,
-    "IsMandatory": true,
+    "IsIndexed": true,
+    "LabelHeight": 519,
+    "LabelLeft": 355,
+    "LabelTop": 517,
+    "LabelWidth": 699,
+    "LastVersionId": 693,
+    "ListTableId": 652,
+    "IsMandatory": false,
     "Type": "Appointment",
-    "Page1LineNo": 557,
-    "ProgId": "qui",
+    "Page1LineNo": 359,
+    "ProgId": "molestiae",
     "IsReadOnly": true,
-    "ShortLabel": "ad",
-    "TabOrder": 505,
-    "TextLength": 463,
-    "Tooltip": "fugit",
-    "UdefIdentity": 985,
-    "UDListDefinitionId": 838,
+    "ShortLabel": "quas",
+    "TabOrder": 664,
+    "TextLength": 937,
+    "Tooltip": "odit",
+    "UdefIdentity": 757,
+    "UDListDefinitionId": 193,
     "Justification": "Center",
-    "Version": 326,
-    "TemplateVariableName": "Hessel, Lynch and Lemke",
-    "HasBeenPublished": true,
-    "MdoListName": "Gislason, Bradtke and Schowalter",
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "Version": 251,
+    "TemplateVariableName": "Dickinson Group",
+    "HasBeenPublished": false,
+    "MdoListName": "Schmidt Inc and Sons",
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.Int32",
-        "FieldLength": 756
+        "FieldRight": null,
+        "FieldType": "System.String",
+        "FieldLength": 771
       }
     }
   }

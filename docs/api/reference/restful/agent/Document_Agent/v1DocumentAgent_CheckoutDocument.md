@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Document/CheckoutDocument
-id: v1DocumentAgent_CheckoutDocument
+uid: v1DocumentAgent_CheckoutDocument
 ---
 
 # POST Agents/Document/CheckoutDocument
@@ -11,6 +11,12 @@ POST /api/v1/Agents/Document/CheckoutDocument
 
 Check out a document for editing by the current user.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Check out a document for editing by the current user.
 ```http
 POST /api/v1/Agents/Document/CheckoutDocument?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,22 +42,25 @@ POST /api/v1/Agents/Document/CheckoutDocument?$select=name,department,category/i
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-DocumentId, AllowedReturnTypes
+DocumentId, AllowedReturnTypes 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | DocumentId | int32 |  |
 | AllowedReturnTypes | array |  |
 
-## Response: object
+
+## Response: 
+
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -61,34 +71,36 @@ Response body: object
 | Value | string |  |
 | AdditionalInfo | string |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Document/CheckoutDocument
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 229,
+  "DocumentId": 623,
   "AllowedReturnTypes": [
-    "ut",
-    "maxime"
+    "corporis",
+    "eveniet"
   ]
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ExternalReference": "accusantium",
-  "VersionId": "pariatur",
-  "Success": true,
+  "ExternalReference": "quasi",
+  "VersionId": "quae",
+  "Success": false,
   "Type": "CustomGui",
-  "Value": "porro",
-  "AdditionalInfo": "iure"
+  "Value": "possimus",
+  "AdditionalInfo": "cumque"
 }
 ```

@@ -17,6 +17,7 @@ Gets a FormEntity object.
 
 **Returns:** FormEntity
 
+
 [WSDL file for Services88/Marketing](../Services88-Marketing.md)
 
 Obtain a ticket from the [Services88/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -48,6 +49,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## GetFormEntity Response
 
 ```xml
@@ -71,16 +73,16 @@ Application tokens must be specified if calling an Online installation. Applicat
     <Marketing:ScriptId xsi:type="xsd:int">0</Marketing:ScriptId>
     <Marketing:ResponseShipmentId xsi:type="xsd:int">0</Marketing:ResponseShipmentId>
     <Marketing:Active xsi:type="xsd:boolean">false</Marketing:Active>
-    <Marketing:Expires xsi:type="xsd:dateTime">2021-11-30T13:23:45Z</Marketing:Expires>
+    <Marketing:Expires xsi:type="xsd:dateTime">2022-08-26T08:59:50Z</Marketing:Expires>
     <Marketing:MaxSubmits xsi:type="xsd:int">0</Marketing:MaxSubmits>
     <Marketing:Type xsi:type="Marketing:FormType">Normal</Marketing:Type>
     <Marketing:Recipe xsi:type="xsd:string"></Marketing:Recipe>
     <Marketing:GroupId xsi:type="xsd:int">0</Marketing:GroupId>
     <Marketing:NewTicket xsi:type="xsd:boolean">false</Marketing:NewTicket>
     <Marketing:RecaptchaMode xsi:type="Marketing:FormsRecaptchaMode">NotAvailable</Marketing:RecaptchaMode>
-    <Marketing:Registered xsi:type="xsd:dateTime">2021-11-30T13:23:45Z</Marketing:Registered>
+    <Marketing:Registered xsi:type="xsd:dateTime">2022-08-26T08:59:50Z</Marketing:Registered>
     <Marketing:RegisteredAssociateId xsi:type="xsd:int">0</Marketing:RegisteredAssociateId>
-    <Marketing:Updated xsi:type="xsd:dateTime">2021-11-30T13:23:45Z</Marketing:Updated>
+    <Marketing:Updated xsi:type="xsd:dateTime">2022-08-26T08:59:50Z</Marketing:Updated>
     <Marketing:UpdatedAssociateId xsi:type="xsd:int">0</Marketing:UpdatedAssociateId>
     <Marketing:UpdatedCount xsi:type="xsd:short">0</Marketing:UpdatedCount>
     <Marketing:FolderName xsi:type="xsd:string"></Marketing:FolderName>
@@ -90,3 +92,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

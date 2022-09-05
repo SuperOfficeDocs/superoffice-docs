@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Preference/GetNetServicesStatusUrl
-id: v1PreferenceAgent_GetNetServicesStatusUrl
+uid: v1PreferenceAgent_GetNetServicesStatusUrl
 ---
 
 # POST Agents/Preference/GetNetServicesStatusUrl
@@ -11,7 +11,13 @@ POST /api/v1/Agents/Preference/GetNetServicesStatusUrl
 
 Returns URL to status service.
 
+
 e.g. 'https://help.superoffice.com/sodispatcher/v1/status' Returns NULL if status does not need to be checked yet.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +28,7 @@ e.g. 'https://help.superoffice.com/sodispatcher/v1/status' Returns NULL if statu
 ```http
 POST /api/v1/Agents/Preference/GetNetServicesStatusUrl?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -36,7 +43,10 @@ POST /api/v1/Agents/Preference/GetNetServicesStatusUrl?$select=name,department,c
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
+
 ## Response: string
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -44,14 +54,17 @@ POST /api/v1/Agents/Preference/GetNetServicesStatusUrl?$select=name,department,c
 
 Response body: string
 
-## Sample Request
+
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Preference/GetNetServicesStatusUrl
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK

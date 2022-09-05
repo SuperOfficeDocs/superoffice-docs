@@ -1,6 +1,6 @@
 ---
 title: POST Agents/ErpSync/GetConnectionsAndDisplayFields
-id: v1ErpSyncAgent_GetConnectionsAndDisplayFields
+uid: v1ErpSyncAgent_GetConnectionsAndDisplayFields
 ---
 
 # POST Agents/ErpSync/GetConnectionsAndDisplayFields
@@ -11,7 +11,15 @@ POST /api/v1/Agents/ErpSync/GetConnectionsAndDisplayFields
 
 Get all connection statuses and fields for a given entity
 
-## Online Restricted: ## The ErpSync agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for ERP integration apps
+
+
+
+## Online Restricted: ## The ErpSync agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for ERP integration apps.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +30,7 @@ Get all connection statuses and fields for a given entity
 ```http
 POST /api/v1/Agents/ErpSync/GetConnectionsAndDisplayFields?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,16 +46,19 @@ POST /api/v1/Agents/ErpSync/GetConnectionsAndDisplayFields?$select=name,departme
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-CrmActorType, EntityId
+CrmActorType, EntityId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | CrmActorType | string |  |
 | EntityId | int32 |  |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -66,20 +78,22 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/ErpSync/GetConnectionsAndDisplayFields
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "CrmActorType": "Contact",
-  "EntityId": 832
+  "EntityId": 433
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -87,30 +101,27 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ErpConnectionId": 40,
-    "ConnectionName": "Lubowitz-Littel",
+    "ErpConnectionId": 693,
+    "ConnectionName": "Hayes Inc and Sons",
     "Connected": true,
     "ErpFields": [
       {
-        "FieldKey": "dicta",
-        "Rank": 172,
-        "DisplayName": "Krajcik LLC",
-        "DisplayDescription": "Reactive bottom-line groupware",
+        "FieldKey": "fuga",
+        "Rank": 276,
+        "DisplayName": "Vandervort Group",
+        "DisplayDescription": "Integrated non-volatile data-warehouse",
         "FieldType": "Checkbox",
-        "ListName": "Kuhn, Flatley and Kuhic",
-        "DefaultValue": "nemo",
-        "MaxLength": 707,
+        "ListName": "Denesik, Brakus and Langosh",
+        "DefaultValue": "rem",
+        "MaxLength": 153,
         "Access": "Mandatory",
-        "ShowInSearch": true,
-        "TableRight": {},
+        "ShowInSearch": false,
+        "TableRight": null,
         "FieldProperties": {
           "fieldName": {
-            "FieldRight": {
-              "Mask": "FULL",
-              "Reason": ""
-            },
-            "FieldType": "System.String",
-            "FieldLength": 662
+            "FieldRight": null,
+            "FieldType": "System.Int32",
+            "FieldLength": 875
           }
         }
       }
@@ -118,21 +129,15 @@ Content-Type: application/json; charset=utf-8
     "CrmActorType": "Contact",
     "ErpActorType": "Customer",
     "ErpActorTypes": [
-      "est",
-      "at"
+      "illo",
+      "debitis"
     ],
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.Int32",
-        "FieldLength": 855
+        "FieldRight": null,
+        "FieldType": "System.String",
+        "FieldLength": 194
       }
     }
   }

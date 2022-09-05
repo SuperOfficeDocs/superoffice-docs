@@ -1,6 +1,6 @@
 ---
 title: PUT List/PaymentType/Items/{id}/UserGroups
-id: v1PaymentTypeList_PutPaymentTypeUserGroupsForListItem
+uid: v1PaymentTypeList_PutPaymentTypeUserGroupsForListItem
 ---
 
 # PUT List/PaymentType/Items/{id}/UserGroups
@@ -11,11 +11,18 @@ PUT /api/v1/List/PaymentType/Items/{itemId}/UserGroups
 
 Saves user groups visible for the PaymentType list's item.
 
+
 Calls the List agent service SaveHeadingsForListItemFromListDefinition.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | itemId | int32 | The ID of the item to save. **Required** |
+
+
 
 ## Request Headers
 
@@ -31,9 +38,9 @@ Calls the List agent service SaveHeadingsForListItemFromListDefinition.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entities
+## Request Body: entities  
 
-The headings to be saved.
+The headings to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -53,7 +60,10 @@ The headings to be saved.
 | Hidden | bool | True if the ListItem is hidden |
 | FullName | string | The name of the ListItem in its context |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -81,56 +91,58 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 PUT /api/v1/List/PaymentType/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 130,
-    "Name": "O'Kon-Brekke",
-    "ToolTip": "Accusamus odit repudiandae reprehenderit minima alias illo.",
-    "Deleted": true,
-    "Rank": 139,
-    "Type": "fugit",
-    "ColorBlock": 495,
-    "IconHint": "maiores",
-    "Selected": false,
-    "LastChanged": "2011-10-22T18:25:51.9422413+02:00",
+    "Id": 300,
+    "Name": "Graham, Tromp and Bosco",
+    "ToolTip": "Libero recusandae repudiandae esse et nobis est tenetur.",
+    "Deleted": false,
+    "Rank": 299,
+    "Type": "non",
+    "ColorBlock": 164,
+    "IconHint": "eum",
+    "Selected": true,
+    "LastChanged": "2003-03-26T11:10:54.3578993+01:00",
     "ChildItems": [
       {
-        "Id": 525,
-        "Name": "Crist-Ebert",
-        "ToolTip": "Cum accusantium nihil voluptatem repellendus omnis.",
+        "Id": 562,
+        "Name": "Beier-Collier",
+        "ToolTip": "Facere voluptas dolores tenetur voluptas tempore.",
         "Deleted": false,
-        "Rank": 49,
-        "Type": "facilis",
-        "ColorBlock": 273,
-        "IconHint": "iste",
+        "Rank": 570,
+        "Type": "itaque",
+        "ColorBlock": 942,
+        "IconHint": "qui",
         "Selected": true,
-        "LastChanged": "2009-11-28T18:25:51.9432418+01:00",
+        "LastChanged": "2013-05-08T11:10:54.3578993+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "molestias",
-        "StyleHint": "quo",
-        "Hidden": true,
-        "FullName": "Vita Conroy"
+        "ExtraInfo": "iusto",
+        "StyleHint": "fugit",
+        "Hidden": false,
+        "FullName": "Mrs. Trent Laverne Shanahan"
       }
     ],
-    "ExtraInfo": "quae",
-    "StyleHint": "rerum",
-    "Hidden": true,
-    "FullName": "Leila Strosin"
+    "ExtraInfo": "cumque",
+    "StyleHint": "ut",
+    "Hidden": false,
+    "FullName": "Ms. Kasandra Homenick V"
   }
 ]
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -138,65 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 426,
-    "Name": "Kulas, Tromp and Towne",
-    "ToolTip": "Similique recusandae aut eos ut est.",
-    "Deleted": false,
-    "Rank": 70,
-    "Type": "nihil",
-    "ColorBlock": 906,
-    "IconHint": "repellendus",
-    "Selected": false,
-    "LastChanged": "2005-10-23T18:25:51.9442101+02:00",
+    "Id": 33,
+    "Name": "Mayer Group",
+    "ToolTip": "Omnis sint.",
+    "Deleted": true,
+    "Rank": 594,
+    "Type": "tempora",
+    "ColorBlock": 349,
+    "IconHint": "temporibus",
+    "Selected": true,
+    "LastChanged": "2010-08-18T11:10:54.3598993+02:00",
     "ChildItems": [
       {
-        "Id": 627,
-        "Name": "Okuneva-Cronin",
-        "ToolTip": "Magni aliquid animi commodi et voluptatem.",
-        "Deleted": true,
-        "Rank": 285,
-        "Type": "molestiae",
-        "ColorBlock": 748,
-        "IconHint": "est",
-        "Selected": false,
-        "LastChanged": "2007-05-21T18:25:51.9452091+02:00",
+        "Id": 191,
+        "Name": "Paucek, West and Treutel",
+        "ToolTip": "Fugiat ipsum doloremque.",
+        "Deleted": false,
+        "Rank": 461,
+        "Type": "optio",
+        "ColorBlock": 755,
+        "IconHint": "nesciunt",
+        "Selected": true,
+        "LastChanged": "2003-03-29T11:10:54.3598993+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "maiores",
-        "StyleHint": "qui",
+        "ExtraInfo": "laudantium",
+        "StyleHint": "at",
         "Hidden": false,
-        "FullName": "Annamae Bergnaum",
-        "TableRight": {},
+        "FullName": "Crawford Barrows",
+        "TableRight": null,
         "FieldProperties": {
           "fieldName": {
-            "FieldRight": {
-              "Mask": "FULL",
-              "Reason": ""
-            },
-            "FieldType": "System.String",
-            "FieldLength": 3
+            "FieldRight": null,
+            "FieldType": "System.Int32",
+            "FieldLength": 811
           }
         }
       }
     ],
-    "ExtraInfo": "atque",
+    "ExtraInfo": "et",
     "StyleHint": "quam",
     "Hidden": false,
-    "FullName": "Carlos Morar",
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "FullName": "Ari Pollich",
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
+        "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 553
+        "FieldLength": 703
       }
     }
   }

@@ -1,6 +1,6 @@
 ---
 title: GET MDOList
-id: v1MDOList_GetListOfLists
+uid: v1MDOList_GetListOfLists
 ---
 
 # GET MDOList
@@ -10,6 +10,13 @@ GET /api/v1/MDOList
 ```
 
 Return array of list names.
+
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -24,7 +31,10 @@ Return array of list names.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -32,21 +42,24 @@ Return array of list names.
 
 Response body: array
 
-## Sample Request
+
+## Sample request
 
 ```http!
 GET /api/v1/MDOList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 [
-  "ipsam",
-  "reprehenderit"
+  "quia",
+  "voluptatibus"
 ]
 ```

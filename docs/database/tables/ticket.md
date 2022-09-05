@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "ticket"
-so.date: 04.12.2022
+so.date: 08.26.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -82,6 +82,7 @@ This table contains the tickets (requests) of the system. Its purpose should be 
 |suggestedCategory\_id|Suggestion for categorization, based on the text of the message (AI)|FK [ej_category](ej-category.md)| |
 |origHumanCategory\_id|Will contain the category id selected by the user, when having the choice of using the suggested category or manually selecting a category|FK [ej_category](ej-category.md)| |
 
+
 ![ticket table relationship diagram](./media/ticket.png)
 
 [!include[details](./includes/ticket.md)]
@@ -141,6 +142,7 @@ This table contains the tickets (requests) of the system. Its purpose should be 
 |[ticket\_status\_history](ticket-status-history.md)  |This table contains the history of a tickets statuses. Each time a ticket changes status a copy of the previous status of the record will be saved  |
 |[ticket\_type](ticket-type.md)  |Contains ticket types, used to drive processing logic together with ticket relations |
 
+
 ## Replication Flags
 
 * None
@@ -148,3 +150,4 @@ This table contains the tickets (requests) of the system. Its purpose should be 
 ## Security Flags
 
 * Sentry controls access to items in this table using user's Role and data rights matrix.
+

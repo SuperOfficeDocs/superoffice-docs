@@ -1,6 +1,6 @@
 ---
 title: GET List/ProductFamily/MDOItems
-id: v1ProductFamilyList_GetMDOList
+uid: v1ProductFamilyList_GetMDOList
 ---
 
 # GET List/ProductFamily/MDOItems
@@ -11,6 +11,12 @@ GET /api/v1/List/ProductFamily/MDOItems
 
 Get the MDO list items for "ProductFamily" - with headings and filtering by user group.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -19,9 +25,10 @@ Get the MDO list items for "ProductFamily" - with headings and filtering by user
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/ProductFamily/MDOItems?flat=True
-GET /api/v1/List/ProductFamily/MDOItems?query=ratione
+GET /api/v1/List/ProductFamily/MDOItems?flat=False
+GET /api/v1/List/ProductFamily/MDOItems?query=itaque
 ```
+
 
 ## Request Headers
 
@@ -36,7 +43,10 @@ GET /api/v1/List/ProductFamily/MDOItems?query=ratione
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -61,7 +71,7 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 GET /api/v1/List/ProductFamily/MDOItems
@@ -70,65 +80,58 @@ Accept: application/json; charset=utf-8
 Accept-Language: en
 ```
 
+## Sample response
+
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 170,
-    "Name": "Effertz Group",
-    "ToolTip": "Iusto ipsum accusamus laudantium ut rem ut.",
-    "Deleted": true,
-    "Rank": 670,
-    "Type": "dignissimos",
+    "Id": 262,
+    "Name": "Kovacek, Spinka and Marks",
+    "ToolTip": "Vero voluptates accusantium mollitia incidunt.",
+    "Deleted": false,
+    "Rank": 465,
+    "Type": "voluptatem",
     "ChildItems": [
       {
-        "Id": 734,
-        "Name": "Mann, Morar and Wolf",
-        "ToolTip": "Sunt dolore repudiandae.",
+        "Id": 173,
+        "Name": "Bahringer-Mitchell",
+        "ToolTip": "Voluptate et.",
         "Deleted": false,
-        "Rank": 246,
+        "Rank": 885,
         "Type": "aut",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "non",
-        "ColorBlock": 507,
-        "ExtraInfo": "est",
-        "StyleHint": "voluptatem",
-        "FullName": "Miss Vincent Brown",
-        "TableRight": {},
+        "IconHint": "sint",
+        "ColorBlock": 567,
+        "ExtraInfo": "odio",
+        "StyleHint": "repudiandae",
+        "FullName": "Amy Albina Powlowski II",
+        "TableRight": null,
         "FieldProperties": {
           "fieldName": {
-            "FieldRight": {
-              "Mask": "FULL",
-              "Reason": "incentivize killer communities"
-            },
-            "FieldType": "System.String",
-            "FieldLength": 334
+            "FieldRight": null,
+            "FieldType": "System.Int32",
+            "FieldLength": 310
           }
         }
       }
     ],
-    "IconHint": "porro",
-    "ColorBlock": 515,
-    "ExtraInfo": "et",
-    "StyleHint": "ullam",
-    "FullName": "Sabina Blick",
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "IconHint": "eum",
+    "ColorBlock": 654,
+    "ExtraInfo": "beatae",
+    "StyleHint": "sapiente",
+    "FullName": "Dorothea Beahan",
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
+        "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 896
+        "FieldLength": 513
       }
     }
   }

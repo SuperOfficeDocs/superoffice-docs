@@ -1,6 +1,6 @@
 ---
 title: POST Agents/List/GetLegalBases
-id: v1ListAgent_GetLegalBases
+uid: v1ListAgent_GetLegalBases
 ---
 
 # POST Agents/List/GetLegalBases
@@ -11,6 +11,12 @@ POST /api/v1/Agents/List/GetLegalBases
 
 Returns all defined bases.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Returns all defined bases.
 ```http
 POST /api/v1/Agents/List/GetLegalBases?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -34,7 +41,10 @@ POST /api/v1/Agents/List/GetLegalBases?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -53,14 +63,16 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/List/GetLegalBases
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -68,24 +80,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "LegalBaseId": 856,
-    "Name": "Beahan, Jacobson and Fisher",
-    "Tooltip": "illo",
-    "Rank": 892,
-    "Key": "aut",
-    "Deleted": true,
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "LegalBaseId": 285,
+    "Name": "Durgan Inc and Sons",
+    "Tooltip": "ullam",
+    "Rank": 873,
+    "Key": "modi",
+    "Deleted": false,
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": "seize intuitive portals"
-        },
-        "FieldType": "System.String",
-        "FieldLength": 367
+        "FieldRight": null,
+        "FieldType": "System.Int32",
+        "FieldLength": 579
       }
     }
   }

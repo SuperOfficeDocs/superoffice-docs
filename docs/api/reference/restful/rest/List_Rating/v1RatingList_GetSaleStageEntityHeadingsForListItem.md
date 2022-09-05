@@ -1,6 +1,6 @@
 ---
 title: GET List/Rating/Items/{id}/Headings
-id: v1RatingList_GetSaleStageEntityHeadingsForListItem
+uid: v1RatingList_GetSaleStageEntityHeadingsForListItem
 ---
 
 # GET List/Rating/Items/{id}/Headings
@@ -11,11 +11,17 @@ GET /api/v1/List/Rating/Items/{itemId}/Headings
 
 Gets headings for the SaleStageEntity list's item.
 
+
 Calls the List agent service GetHeadings.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | itemId | int32 | The ID of the headings to be get. **Required** |
+
 
 ## Query String Parameters
 
@@ -24,8 +30,9 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/Rating/Items/{itemId}/Headings?showDeleted=True
+GET /api/v1/List/Rating/Items/{itemId}/Headings?showDeleted=False
 ```
+
 
 ## Request Headers
 
@@ -40,7 +47,10 @@ GET /api/v1/List/Rating/Items/{itemId}/Headings?showDeleted=True
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -68,14 +78,16 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 GET /api/v1/List/Rating/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -83,65 +95,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 34,
-    "Name": "Carter, Spencer and Nikolaus",
-    "ToolTip": "Quidem provident et dolore voluptatem dolorum eveniet.",
-    "Deleted": false,
-    "Rank": 693,
-    "Type": "est",
-    "ColorBlock": 514,
-    "IconHint": "et",
+    "Id": 600,
+    "Name": "Bechtelar, Hayes and Hickle",
+    "ToolTip": "Quae mollitia qui cupiditate libero et.",
+    "Deleted": true,
+    "Rank": 581,
+    "Type": "rem",
+    "ColorBlock": 666,
+    "IconHint": "autem",
     "Selected": false,
-    "LastChanged": "2005-06-27T18:25:52.1210217+02:00",
+    "LastChanged": "2019-10-04T11:10:54.5379298+02:00",
     "ChildItems": [
       {
-        "Id": 816,
-        "Name": "Graham Inc and Sons",
-        "ToolTip": "Vel atque occaecati quis consequatur.",
+        "Id": 262,
+        "Name": "Zemlak-Cummerata",
+        "ToolTip": "Consectetur corporis beatae quia repellendus.",
         "Deleted": true,
-        "Rank": 514,
-        "Type": "exercitationem",
-        "ColorBlock": 793,
-        "IconHint": "tenetur",
-        "Selected": true,
-        "LastChanged": "2012-10-11T18:25:52.1220215+02:00",
+        "Rank": 333,
+        "Type": "porro",
+        "ColorBlock": 533,
+        "IconHint": "voluptas",
+        "Selected": false,
+        "LastChanged": "2004-12-12T11:10:54.538932+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "qui",
-        "StyleHint": "rerum",
-        "Hidden": true,
-        "FullName": "Ottilie Torphy",
-        "TableRight": {},
+        "ExtraInfo": "repellendus",
+        "StyleHint": "voluptatem",
+        "Hidden": false,
+        "FullName": "Gennaro Bayer V",
+        "TableRight": null,
         "FieldProperties": {
           "fieldName": {
-            "FieldRight": {
-              "Mask": "FULL",
-              "Reason": "repurpose 24/365 platforms"
-            },
-            "FieldType": "System.Int32",
-            "FieldLength": 435
+            "FieldRight": null,
+            "FieldType": "System.String",
+            "FieldLength": 931
           }
         }
       }
     ],
-    "ExtraInfo": "rerum",
-    "StyleHint": "totam",
-    "Hidden": true,
-    "FullName": "Amara Howell",
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "ExtraInfo": "nisi",
+    "StyleHint": "illo",
+    "Hidden": false,
+    "FullName": "Miss Aiyana Theodora Spencer V",
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
+        "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 399
+        "FieldLength": 628
       }
     }
   }

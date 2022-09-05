@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Sale/CreateDefaultSaleSummary
-id: v1SaleAgent_CreateDefaultSaleSummary
+uid: v1SaleAgent_CreateDefaultSaleSummary
 ---
 
 # POST Agents/Sale/CreateDefaultSaleSummary
@@ -11,7 +11,14 @@ POST /api/v1/Agents/Sale/CreateDefaultSaleSummary
 
 Set default values into a new SaleSummary.
 
+
 NetServer calculates default values on the entity, which is required when creating/storing a new instance
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -26,16 +33,16 @@ NetServer calculates default values on the entity, which is required when creati
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response: object
 
-Carrier object for SaleSummary.
-Services for the SaleSummary Carrier is available from the <see cref="T:SuperOffice.CRM.Services.ISaleAgent">Sale Agent</see>.
+## Response: 
+
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -70,60 +77,56 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Sale/CreateDefaultSaleSummary
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BaseCurrency": "qui",
-  "OwnCurrency": "et",
-  "SoldTotalBaseCurrency": 24413.86,
-  "Sold": 692,
-  "SoldTotalOwnCurrency": 7089.108,
-  "Lost": 760,
-  "LostTotalBaseCurrency": 9894.038,
-  "LostTotalOwnCurrency": 30772.746,
-  "Open": 789,
-  "OpenTotalBaseCurrency": 316.534,
-  "OpenTotalOwnCurrency": 27503.984,
-  "OpenWeightedBaseCurrency": 26808.236,
-  "OpenWeightedOwnCurrency": 9480.35,
-  "PreviousOverdue": 256,
-  "PreviousOverdueTotalBaseCurrency": 8997.714,
-  "PreviousOverdueTotalOwnCurrency": 29738.525999999998,
-  "PreviousOverdueWeightedBaseCurrency": 23830.935999999998,
-  "PreviousOverdueWeightedOwnCurrency": 278.926,
-  "CurrentOverdue": 322,
-  "CurrentOverdueTotalBaseCurrency": 18054.974,
-  "CurrentOverdueTotalOwnCurrency": 15121.55,
-  "CurrentOverdueWeightedBaseCurrency": 19684.654,
-  "CurrentOverdueWeightedOwnCurrency": 993.478,
-  "FutureOpen": 322,
-  "FutureOpenTotalBaseCurrency": 12235.136,
-  "FutureOpenTotalOwnCurrency": 21477.302,
-  "FutureOpenWeightedBaseCurrency": 12291.547999999999,
-  "FutureOpenWeightedOwnCurrency": 19484.077999999998,
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "BaseCurrency": "tempore",
+  "OwnCurrency": "distinctio",
+  "SoldTotalBaseCurrency": 4826.36,
+  "Sold": 711,
+  "SoldTotalOwnCurrency": 14497.884,
+  "Lost": 988,
+  "LostTotalBaseCurrency": 4854.566,
+  "LostTotalOwnCurrency": 23492.464,
+  "Open": 549,
+  "OpenTotalBaseCurrency": 17932.748,
+  "OpenTotalOwnCurrency": 20195.496,
+  "OpenWeightedBaseCurrency": 949.602,
+  "OpenWeightedOwnCurrency": 15394.207999999999,
+  "PreviousOverdue": 240,
+  "PreviousOverdueTotalBaseCurrency": 8552.686,
+  "PreviousOverdueTotalOwnCurrency": 18333.899999999998,
+  "PreviousOverdueWeightedBaseCurrency": 5478.232,
+  "PreviousOverdueWeightedOwnCurrency": 9245.3,
+  "CurrentOverdue": 707,
+  "CurrentOverdueTotalBaseCurrency": 24974.845999999998,
+  "CurrentOverdueTotalOwnCurrency": 20684.399999999998,
+  "CurrentOverdueWeightedBaseCurrency": 12153.652,
+  "CurrentOverdueWeightedOwnCurrency": 12159.92,
+  "FutureOpen": 646,
+  "FutureOpenTotalBaseCurrency": 21947.402,
+  "FutureOpenTotalOwnCurrency": 23085.043999999998,
+  "FutureOpenWeightedBaseCurrency": 15723.278,
+  "FutureOpenWeightedOwnCurrency": 2247.078,
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
-      "FieldType": "System.String",
-      "FieldLength": 374
+      "FieldRight": null,
+      "FieldType": "System.Int32",
+      "FieldLength": 464
     }
   }
 }

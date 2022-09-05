@@ -16,6 +16,8 @@ Sort the list items in a given list alphabetically
 * **udListDefinitionId:** Id of the list you want to sort. Negative numbers indicate TableNumber value instead of UDListDefId. e.g. -64 = category.
 * **cultureName:** Sort list in this language
 
+
+
 [WSDL file for Services86/List](../Services86-List.md)
 
 Obtain a ticket from the [Services86/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -49,6 +51,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## SortListItems Response
 
 ```xml
@@ -68,3 +71,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

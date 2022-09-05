@@ -1,6 +1,6 @@
 ---
 title: PUT List/TicketStatus/Items/{id}
-id: v1TicketStatusList_PutTicketStatusEntity
+uid: v1TicketStatusList_PutTicketStatusEntity
 ---
 
 # PUT List/TicketStatus/Items/{id}
@@ -11,11 +11,18 @@ PUT /api/v1/List/TicketStatus/Items/{id}
 
 Updates the existing TicketStatusEntity
 
+
 Calls the List agent service SaveTicketStatusEntity.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | id | int32 | The id of TicketStatusEntity to be saved. **Required** |
+
+
 
 ## Request Headers
 
@@ -31,9 +38,9 @@ Calls the List agent service SaveTicketStatusEntity.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entity
+## Request Body: entity  
 
-The details of TicketStatusEntity to be saved.
+The details of TicketStatusEntity to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -45,19 +52,17 @@ The details of TicketStatusEntity to be saved.
 | IsDefault | bool | Indicates if status is default one as there might be more than one status with same internal status |
 | UsedInQueue | bool | If set, status is used in GetNext calculations |
 
-## Response: object
 
-Entity for a ticket status. This entity describes the meta data for a ticket status, and provides special operations on it.
+## Response: 
 
-Carrier object for TicketStatusEntity.
-Services for the TicketStatusEntity Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IListAgent">List Agent</see>.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 | 400 | Bad request. Entity to save is not in request body. |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -71,50 +76,46 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 PUT /api/v1/List/TicketStatus/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketStatusId": 952,
-  "Name": "Pfeffer LLC",
+  "TicketStatusId": 380,
+  "Name": "Dickens-Mueller",
   "Status": "Active",
   "TimeCounter": "Externally",
-  "NoEmailReopen": true,
+  "NoEmailReopen": false,
   "IsDefault": true,
   "UsedInQueue": false
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketStatusId": 404,
-  "Name": "O'Keefe Group",
+  "TicketStatusId": 664,
+  "Name": "Kassulke-Langosh",
   "Status": "Active",
   "TimeCounter": "Externally",
   "NoEmailReopen": false,
-  "IsDefault": true,
-  "UsedInQueue": true,
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "IsDefault": false,
+  "UsedInQueue": false,
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
-      "FieldType": "System.String",
-      "FieldLength": 505
+      "FieldRight": null,
+      "FieldType": "System.Int32",
+      "FieldLength": 41
     }
   }
 }

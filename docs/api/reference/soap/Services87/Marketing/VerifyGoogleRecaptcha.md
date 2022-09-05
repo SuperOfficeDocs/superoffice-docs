@@ -18,6 +18,7 @@ This method will try to verify a Google recaptcha token. The token is gained fro
 
 **Returns:** Returns true if the recaptcha token verified successfully
 
+
 [WSDL file for Services87/Marketing](../Services87-Marketing.md)
 
 Obtain a ticket from the [Services87/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -50,6 +51,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## VerifyGoogleRecaptcha Response
 
 ```xml
@@ -69,3 +71,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

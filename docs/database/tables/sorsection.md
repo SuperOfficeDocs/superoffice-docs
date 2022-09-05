@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "SORSection"
-so.date: 04.12.2022
+so.date: 08.26.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -32,6 +32,7 @@ SuperOffice reporter data
 |updated\_associate\_id|Last updated by whom|FK [associate](associate.md)| |
 |updatedCount|Number of updates made to this record|UShort| |
 
+
 ![SORSection table relationship diagram](./media/SORSection.png)
 
 [!include[details](./includes/sorsection.md)]
@@ -52,6 +53,7 @@ SuperOffice reporter data
 |[SORField](sorfield.md)  |SuperOffice reporter data |
 |[SORTemplate](sortemplate.md)  |SuperOffice reporter data |
 
+
 ## Replication Flags
 
 * Replicate changes DOWN from central to satellites and travellers.
@@ -61,3 +63,4 @@ SuperOffice reporter data
 ## Security Flags
 
 * No access control via user's Role.
+

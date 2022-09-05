@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "Business"
-so.date: 04.12.2022
+so.date: 08.26.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -33,6 +33,7 @@ Business list table
 |updated\_associate\_id|Last updated by whom|FK [associate](associate.md)| |
 |updatedCount|Number of updates made to this record|UShort| |
 
+
 ![Business table relationship diagram](./media/Business.png)
 
 [!include[details](./includes/business.md)]
@@ -54,6 +55,7 @@ Business list table
 |[contact](contact.md)  |Companies and Organizations.   This table features a special record containing information about the contact that owns the database.   |
 |[person](person.md)  |Persons in a company or an organizations. All associates have a corresponding person record |
 
+
 ## Replication Flags
 
 * Replicate changes DOWN from central to satellites and travellers.
@@ -63,3 +65,4 @@ Business list table
 ## Security Flags
 
 * No access control via user's Role.
+

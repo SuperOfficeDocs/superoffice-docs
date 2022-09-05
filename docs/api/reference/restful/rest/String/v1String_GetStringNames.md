@@ -1,6 +1,6 @@
 ---
 title: GET String
-id: v1String_GetStringNames
+uid: v1String_GetStringNames
 ---
 
 # GET String
@@ -11,7 +11,13 @@ GET /api/v1/String
 
 Gets all the string names containing a search string.
 
+
 Search the strings using Q parameter.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -21,9 +27,10 @@ Search the strings using Q parameter.
 | isoLangCode | string |  ISO Language code. ("nb-no", "en-gb" etc) Defaults to English if nothing specified in the Accept-Language header. |
 
 ```http
-GET /api/v1/String?q=blanditiis
-GET /api/v1/String?isoLangCode=reiciendis
+GET /api/v1/String?q=eaque
+GET /api/v1/String?isoLangCode=dolorem
 ```
+
 
 ## Request Headers
 
@@ -38,7 +45,10 @@ GET /api/v1/String?isoLangCode=reiciendis
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -46,21 +56,24 @@ GET /api/v1/String?isoLangCode=reiciendis
 
 Response body: array
 
-## Sample Request
+
+## Sample request
 
 ```http!
 GET /api/v1/String
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 [
-  "et",
-  "molestiae"
+  "facilis",
+  "architecto"
 ]
 ```

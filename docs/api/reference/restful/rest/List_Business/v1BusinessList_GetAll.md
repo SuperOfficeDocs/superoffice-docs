@@ -1,6 +1,6 @@
 ---
 title: GET List/Business/Items
-id: v1BusinessList_GetAll
+uid: v1BusinessList_GetAll
 ---
 
 # GET List/Business/Items
@@ -11,6 +11,12 @@ GET /api/v1/List/Business/Items
 
 Gets all the Business items
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Gets all the Business items
 ```http
 GET /api/v1/List/Business/Items?includeDeleted=True
 ```
+
 
 ## Request Headers
 
@@ -34,7 +41,10 @@ GET /api/v1/List/Business/Items?includeDeleted=True
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -53,14 +63,16 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 GET /api/v1/List/Business/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -68,24 +80,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 269,
-    "Name": "Considine-Spencer",
-    "Tooltip": "doloremque",
-    "Deleted": true,
-    "UdListDefinitionId": 847,
-    "Rank": 217,
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "Id": 391,
+    "Name": "Cole, Wuckert and Buckridge",
+    "Tooltip": "molestiae",
+    "Deleted": false,
+    "UdListDefinitionId": 700,
+    "Rank": 667,
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
+        "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 594
+        "FieldLength": 43
       }
     }
   }

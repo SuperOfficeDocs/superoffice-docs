@@ -1,6 +1,6 @@
 ---
 title: GET List/LegalBase/Items/{id}
-id: v1LegalBaseList_GetLegalBase
+uid: v1LegalBaseList_GetLegalBase
 ---
 
 # GET List/LegalBase/Items/{id}
@@ -11,11 +11,18 @@ GET /api/v1/List/LegalBase/Items/{id}
 
 Gets a LegalBase list item.
 
+
 Calls the List agent service GetLegalBase.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | id | int32 | The id of the LegalBase to return. **Required** |
+
+
 
 ## Request Headers
 
@@ -30,17 +37,17 @@ Calls the List agent service GetLegalBase.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response: object
 
-Carrier object for LegalBase.
-Services for the LegalBase Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IListAgent">List Agent</see>.
+## Response: 
+
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 | 404 | Not Found. |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -53,38 +60,34 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 GET /api/v1/List/LegalBase/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "LegalBaseId": 539,
-  "Name": "Mohr-Mertz",
-  "Tooltip": "in",
-  "Rank": 672,
-  "Key": "dolores",
+  "LegalBaseId": 937,
+  "Name": "Quitzon, Farrell and Muller",
+  "Tooltip": "eos",
+  "Rank": 12,
+  "Key": "totam",
   "Deleted": true,
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
+      "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 789
+      "FieldLength": 559
     }
   }
 }

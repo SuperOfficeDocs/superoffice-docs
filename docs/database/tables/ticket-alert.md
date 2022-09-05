@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "ticket_alert"
-so.date: 04.12.2022
+so.date: 08.26.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -39,6 +39,7 @@ This table will contain ticket escalation levels. A ticket will be escalated alo
 |reply\_template\_id\_catmast\_sms|Reference to the reply template used in this alert, for sms to category master|FK [reply_template](reply-template.md)|&#x25CF;|
 |reply\_template\_id\_sms|Reference to the reply template used in this alert, for sms to custom address|FK [reply_template](reply-template.md)|&#x25CF;|
 
+
 ![ticket_alert table relationship diagram](./media/ticket_alert.png)
 
 [!include[details](./includes/ticket-alert.md)]
@@ -70,6 +71,7 @@ This table will contain ticket escalation levels. A ticket will be escalated alo
 |[reply\_template](reply-template.md)  |Templates for automatic and manual replies to emails/sms organized hierachically |
 |[ticket\_priority](ticket-priority.md)  |This table contains the ticket priorities. |
 
+
 ## Replication Flags
 
 * None
@@ -77,3 +79,4 @@ This table will contain ticket escalation levels. A ticket will be escalated alo
 ## Security Flags
 
 * No access control via user's Role.
+

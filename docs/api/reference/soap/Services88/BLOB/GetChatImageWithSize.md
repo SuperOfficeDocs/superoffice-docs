@@ -19,6 +19,7 @@ Returns the chat image that is displayed in chat with a specified maximum size.
 
 **Returns:** The image as a System.Drawing.Image. (If the the image is returned over webservices, the stream is returned as a jpeg/base64 encoded string.)
 
+
 [WSDL file for Services88/BLOB](../Services88-BLOB.md)
 
 Obtain a ticket from the [Services88/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -52,6 +53,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## GetChatImageWithSize Response
 
 ```xml
@@ -71,3 +73,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

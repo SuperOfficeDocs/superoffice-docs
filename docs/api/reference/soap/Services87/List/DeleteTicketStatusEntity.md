@@ -15,6 +15,8 @@ Deletes the TicketStatusEntity
 
 * **ticketStatusEntityId:** The identity of the TicketStatusEntity
 
+
+
 [WSDL file for Services87/List](../Services87-List.md)
 
 Obtain a ticket from the [Services87/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -47,6 +49,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## DeleteTicketStatusEntity Response
 
 ```xml
@@ -66,3 +69,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

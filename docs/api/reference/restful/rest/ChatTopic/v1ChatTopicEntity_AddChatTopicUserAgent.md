@@ -1,6 +1,6 @@
 ---
 title: POST ChatTopic/{id}/UserAgent
-id: v1ChatTopicEntity_AddChatTopicUserAgent
+uid: v1ChatTopicEntity_AddChatTopicUserAgent
 ---
 
 # POST ChatTopic/{id}/UserAgent
@@ -11,9 +11,16 @@ POST /api/v1/ChatTopic/{chatTopicId}/UserAgent
 
 Add a user to a chat topic
 
+
+
+
+
+
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | chatTopicId | int32 | Id of the chat topic **Required** |
+
+
 
 ## Request Headers
 
@@ -29,9 +36,9 @@ Add a user to a chat topic
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: useragent
+## Request Body: useragent  
 
-User's role within the chat topic to add to topic.
+User's role within the chat topic to add to topic. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -42,18 +49,16 @@ User's role within the chat topic to add to topic.
 | CanManage | bool | True if the user is a manager for this topic |
 | CanNotify | bool | True if the user should receive notifications for this topic |
 
-## Response: object
 
-User agents within a chat topic. Which users are assigned and what roles they have within the chat topic.
+## Response: 
 
-Carrier object for ChatTopicAgent.
-Services for the ChatTopicAgent Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IChatAgent">Chat Agent</see>.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -64,72 +69,37 @@ Response body: object
 | CanManage | bool | True if the user is a manager for this topic |
 | CanNotify | bool | True if the user should receive notifications for this topic |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/ChatTopic/{chatTopicId}/UserAgent
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TopicId": 886,
-  "User": {
-    "AssociateId": 721,
-    "Name": "Murray, McCullough and Johnson",
-    "PersonId": 483,
-    "Rank": 274,
-    "Tooltip": "nobis",
-    "Type": "AnonymousAssociate",
-    "GroupIdx": 875,
-    "FullName": "Alexandrea Jacobi",
-    "FormalName": "Zboncak Inc and Sons",
-    "Deleted": true,
-    "EjUserId": 587,
-    "UserName": "Welch-Crooks"
-  },
-  "CanListen": true,
-  "CanRespond": true,
+  "TopicId": 831,
+  "User": null,
+  "CanListen": false,
+  "CanRespond": false,
   "CanManage": false,
   "CanNotify": true
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TopicId": 884,
-  "User": {
-    "AssociateId": 230,
-    "Name": "Hartmann, Von and Okuneva",
-    "PersonId": 898,
-    "Rank": 124,
-    "Tooltip": "id",
-    "Type": "AnonymousAssociate",
-    "GroupIdx": 755,
-    "FullName": "Breana Turcotte",
-    "FormalName": "Rogahn Group",
-    "Deleted": false,
-    "EjUserId": 50,
-    "UserName": "Stanton Group",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.Int32",
-        "FieldLength": 148
-      }
-    }
-  },
-  "CanListen": true,
+  "TopicId": 33,
+  "User": null,
+  "CanListen": false,
   "CanRespond": false,
-  "CanManage": true,
+  "CanManage": false,
   "CanNotify": false
 }
 ```

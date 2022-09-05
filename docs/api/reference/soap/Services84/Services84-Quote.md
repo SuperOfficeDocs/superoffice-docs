@@ -8,16 +8,14 @@ title: Services84.QuoteAgent WSDL
 
 ```xml
 <?xml version="1.0" encoding="utf-8"?>
-<wsdl:definitions name="WcfQuoteService" targetNamespace="http://www.superoffice.net/ws/crm/NetServer/Services84" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:tns="http://www.superoffice.net/ws/crm/NetServer/Services84" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<wsdl:definitions name="WcfQuoteService" targetNamespace="http://www.superoffice.net/ws/crm/NetServer/Services84" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tns="http://www.superoffice.net/ws/crm/NetServer/Services84" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing">
   <wsdl:types>
     <xs:schema elementFormDefault="qualified" targetNamespace="http://www.superoffice.net/ws/crm/NetServer/Services84" xmlns:xs="http://www.w3.org/2001/XMLSchema">
       <xs:import namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
       <xs:import namespace="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
-      <xs:element name="UpdateQuoteVersionPrices">
+      <xs:element name="CreateDefaultPriceList">
         <xs:complexType>
-          <xs:sequence>
-            <xs:element minOccurs="0" name="QuoteVersionId" type="xs:int" />
-          </xs:sequence>
+          <xs:sequence />
         </xs:complexType>
       </xs:element>
       <xs:element name="ApplicationToken" nillable="true" type="xs:string" />
@@ -36,30 +34,32 @@ title: Services84.QuoteAgent WSDL
       </xs:complexType>
       <xs:element name="SoTimeZone" nillable="true" type="tns:SoTimeZone" />
       <xs:element name="TimeZone" nillable="true" type="tns:SoTimeZone" />
-      <xs:element name="UpdateQuoteVersionPricesResponse">
+      <xs:element name="CreateDefaultPriceListResponse">
         <xs:complexType>
           <xs:sequence>
-            <xs:element minOccurs="0" name="Response" nillable="true" type="tns:QuoteVersionValidated" />
+            <xs:element minOccurs="0" name="Response" nillable="true" type="tns:PriceList" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
-      <xs:complexType name="QuoteVersionValidated">
+      <xs:complexType name="PriceList">
         <xs:complexContent mixed="false">
           <xs:extension base="tns:Carrier">
             <xs:sequence>
-              <xs:element minOccurs="0" name="IsOk" type="xs:boolean" />
-              <xs:element minOccurs="0" name="UserExplanation" nillable="true" type="xs:string" />
-              <xs:element minOccurs="0" name="TechExplanation" nillable="true" type="xs:string" />
-              <xs:element minOccurs="0" name="ErrorCode" nillable="true" type="xs:string" />
-              <xs:element minOccurs="0" name="ChangedSale" nillable="true" type="tns:Sale" />
-              <xs:element minOccurs="0" name="ChangedQuote" nillable="true" type="tns:Quote" />
-              <xs:element minOccurs="0" name="ChangedQuoteVersion" nillable="true" type="tns:QuoteVersion" />
-              <xs:element minOccurs="0" name="ChangedQuoteAlternatives" nillable="true" type="tns:ArrayOfQuoteAlternativeRecalculated" />
+              <xs:element minOccurs="0" name="PriceListId" type="xs:int" />
+              <xs:element minOccurs="0" name="ERPPriceListKey" nillable="true" type="xs:string" />
+              <xs:element minOccurs="0" name="QuoteConnectionId" type="xs:int" />
+              <xs:element minOccurs="0" name="Name" nillable="true" type="xs:string" />
+              <xs:element minOccurs="0" name="Description" nillable="true" type="xs:string" />
+              <xs:element minOccurs="0" name="Currency" nillable="true" type="xs:string" />
+              <xs:element minOccurs="0" name="CurrencyName" nillable="true" type="xs:string" />
+              <xs:element minOccurs="0" name="ValidFrom" type="xs:dateTime" />
+              <xs:element minOccurs="0" name="ValidTo" type="xs:dateTime" />
+              <xs:element minOccurs="0" name="IsActive" type="xs:boolean" />
             </xs:sequence>
           </xs:extension>
         </xs:complexContent>
       </xs:complexType>
-      <xs:element name="QuoteVersionValidated" nillable="true" type="tns:QuoteVersionValidated" />
+      <xs:element name="PriceList" nillable="true" type="tns:PriceList" />
       <xs:complexType name="Carrier">
         <xs:sequence>
           <xs:element minOccurs="0" name="TableRight" nillable="true" type="tns:TableRight" />
@@ -140,274 +140,6 @@ title: Services84.QuoteAgent WSDL
         </xs:list>
       </xs:simpleType>
       <xs:element name="EFieldRight" nillable="true" type="tns:EFieldRight" />
-      <xs:complexType name="Sale">
-        <xs:complexContent mixed="false">
-          <xs:extension base="tns:Carrier">
-            <xs:sequence>
-              <xs:element minOccurs="0" name="ContactName" nillable="true" type="xs:string" />
-              <xs:element minOccurs="0" name="SaleDate" type="xs:dateTime" />
-              <xs:element minOccurs="0" name="SaleId" type="xs:int" />
-              <xs:element minOccurs="0" name="Probability" type="xs:short" />
-              <xs:element minOccurs="0" name="Title" nillable="true" type="xs:string" />
-              <xs:element minOccurs="0" name="Amount" type="xs:double" />
-              <xs:element minOccurs="0" name="Currency" nillable="true" type="xs:string" />
-              <xs:element minOccurs="0" name="ProjectName" nillable="true" type="xs:string" />
-              <xs:element minOccurs="0" name="AssociateFullName" nillable="true" type="xs:string" />
-              <xs:element minOccurs="0" name="Description" nillable="true" type="xs:string" />
-              <xs:element minOccurs="0" name="Status" type="tns:SaleStatus" />
-              <xs:element minOccurs="0" name="WeightedAmount" type="xs:double" />
-              <xs:element minOccurs="0" name="ProjectId" type="xs:int" />
-              <xs:element minOccurs="0" name="EarningPercent" type="xs:double" />
-              <xs:element minOccurs="0" name="Earning" type="xs:double" />
-              <xs:element minOccurs="0" name="ContactId" type="xs:int" />
-              <xs:element minOccurs="0" name="AssociateId" type="xs:int" />
-              <xs:element minOccurs="0" name="PersonId" type="xs:int" />
-              <xs:element minOccurs="0" name="SaleTypeId" type="xs:int" />
-              <xs:element minOccurs="0" name="SaleTypeName" nillable="true" type="xs:string" />
-              <xs:element minOccurs="0" name="PersonFullName" nillable="true" type="xs:string" />
-              <xs:element minOccurs="0" name="Completed" type="tns:ActivityStatus" />
-              <xs:element minOccurs="0" name="ActiveErpLinks" type="xs:int" />
-              <xs:element minOccurs="0" name="NextDueDate" type="xs:dateTime" />
-            </xs:sequence>
-          </xs:extension>
-        </xs:complexContent>
-      </xs:complexType>
-      <xs:element name="Sale" nillable="true" type="tns:Sale" />
-      <xs:simpleType name="SaleStatus">
-        <xs:annotation>
-          <xs:appinfo>
-            <ActualType Name="short" Namespace="http://www.w3.org/2001/XMLSchema" xmlns="http://schemas.microsoft.com/2003/10/Serialization/" />
-          </xs:appinfo>
-        </xs:annotation>
-        <xs:restriction base="xs:string">
-          <xs:enumeration value="Unknown" />
-          <xs:enumeration value="Open" />
-          <xs:enumeration value="Sold" />
-          <xs:enumeration value="Lost" />
-          <xs:enumeration value="Stalled" />
-          <xs:enumeration value="SaintAll">
-            <xs:annotation>
-              <xs:appinfo>
-                <EnumerationValue xmlns="http://schemas.microsoft.com/2003/10/Serialization/">1000</EnumerationValue>
-              </xs:appinfo>
-            </xs:annotation>
-          </xs:enumeration>
-        </xs:restriction>
-      </xs:simpleType>
-      <xs:element name="SaleStatus" nillable="true" type="tns:SaleStatus" />
-      <xs:simpleType name="ActivityStatus">
-        <xs:restriction base="xs:string">
-          <xs:enumeration value="Unknown" />
-          <xs:enumeration value="NotStarted" />
-          <xs:enumeration value="Started" />
-          <xs:enumeration value="Completed" />
-        </xs:restriction>
-      </xs:simpleType>
-      <xs:element name="ActivityStatus" nillable="true" type="tns:ActivityStatus" />
-      <xs:complexType name="Quote">
-        <xs:complexContent mixed="false">
-          <xs:extension base="tns:Carrier">
-            <xs:sequence>
-              <xs:element minOccurs="0" name="QuoteId" type="xs:int" />
-              <xs:element minOccurs="0" name="SaleId" type="xs:int" />
-              <xs:element minOccurs="0" name="QuoteConnectionId" type="xs:int" />
-              <xs:element minOccurs="0" name="ERPQuoteKey" nillable="true" type="xs:string" />
-              <xs:element minOccurs="0" name="ERPOrderKey" nillable="true" type="xs:string" />
-              <xs:element minOccurs="0" name="ActiveQuoteVersionId" type="xs:int" />
-              <xs:element minOccurs="0" name="AcceptedQuoteAlternativeId" type="xs:int" />
-              <xs:element minOccurs="0" name="UseValuesFromQuote" type="xs:short" />
-              <xs:element minOccurs="0" name="DocumentId" type="xs:int" />
-              <xs:element minOccurs="0" name="PoNumber" nillable="true" type="xs:string" />
-              <xs:element minOccurs="0" name="OrderComment" nillable="true" type="xs:string" />
-              <xs:element minOccurs="0" name="PreferredEmailCulture" nillable="true" type="xs:string" />
-              <xs:element minOccurs="0" name="ActiveQuoteVersion" nillable="true" type="tns:QuoteVersion" />
-              <xs:element minOccurs="0" name="FavoriteQuoteAlternative" nillable="true" type="tns:QuoteAlternative" />
-            </xs:sequence>
-          </xs:extension>
-        </xs:complexContent>
-      </xs:complexType>
-      <xs:element name="Quote" nillable="true" type="tns:Quote" />
-      <xs:complexType name="QuoteVersion">
-        <xs:complexContent mixed="false">
-          <xs:extension base="tns:Carrier">
-            <xs:sequence>
-              <xs:element minOccurs="0" name="QuoteVersionId" type="xs:int" />
-              <xs:element minOccurs="0" name="ERPQuoteVersionKey" nillable="true" type="xs:string" />
-              <xs:element minOccurs="0" name="QuoteId" type="xs:int" />
-              <xs:element minOccurs="0" name="Description" nillable="true" type="xs:string" />
-              <xs:element minOccurs="0" name="Number" nillable="true" type="xs:string" />
-              <xs:element minOccurs="0" name="State" type="tns:QuoteVersionState" />
-              <xs:element minOccurs="0" name="ArchivedState" type="tns:QuoteVersionState" />
-              <xs:element minOccurs="0" name="Status" type="tns:QuoteStatus" />
-              <xs:element minOccurs="0" name="Reason" nillable="true" type="xs:string" />
-              <xs:element minOccurs="0" name="LikelyQuoteAlternativeId" type="xs:int" />
-              <xs:element minOccurs="0" name="SentDate" type="xs:dateTime" />
-              <xs:element minOccurs="0" name="FollowupId" type="xs:int" />
-              <xs:element minOccurs="0" name="ExpirationDate" type="xs:dateTime" />
-              <xs:element minOccurs="0" name="DeliveryCountryId" type="xs:int" />
-              <xs:element minOccurs="0" name="HasOwnDeliveryAddress" type="xs:boolean" />
-              <xs:element minOccurs="0" name="InvoiceCountryId" type="xs:int" />
-              <xs:element minOccurs="0" name="HasOwnInvoiceAddress" type="xs:boolean" />
-              <xs:element minOccurs="0" name="ERPPaymentTermsKey" nillable="true" type="xs:string" />
-              <xs:element minOccurs="0" name="ERPPaymentTypeKey" nillable="true" type="xs:string" />
-              <xs:element minOccurs="0" name="ERPDeliveryTermsKey" nillable="true" type="xs:string" />
-              <xs:element minOccurs="0" name="ERPDeliveryTypeKey" nillable="true" type="xs:string" />
-              <xs:element minOccurs="0" name="Rank" type="xs:int" />
-              <xs:element minOccurs="0" name="ApprovedBy" type="xs:int" />
-              <xs:element minOccurs="0" name="ApprovedText" nillable="true" type="xs:string" />
-              <xs:element minOccurs="0" name="ApprovedRegisteredBy" type="xs:int" />
-              <xs:element minOccurs="0" name="ApprovedRegisteredDate" type="xs:dateTime" />
-              <xs:element minOccurs="0" name="ExtraField1" nillable="true" type="xs:string" />
-              <xs:element minOccurs="0" name="ExtraField2" nillable="true" type="xs:string" />
-              <xs:element minOccurs="0" name="ExtraField3" nillable="true" type="xs:string" />
-              <xs:element minOccurs="0" name="ExtraField4" nillable="true" type="xs:string" />
-              <xs:element minOccurs="0" name="ExtraField5" nillable="true" type="xs:string" />
-              <xs:element minOccurs="0" name="LastRecalculated" type="xs:dateTime" />
-              <xs:element minOccurs="0" name="Updated" type="xs:dateTime" />
-              <xs:element minOccurs="0" name="UpdatedAssociateId" type="xs:int" />
-              <xs:element minOccurs="0" name="Registered" type="xs:dateTime" />
-              <xs:element minOccurs="0" name="RegisteredAssociateId" type="xs:int" />
-              <xs:element minOccurs="0" name="QuoteAlternatives" nillable="true" type="tns:ArrayOfQuoteAlternative" />
-            </xs:sequence>
-          </xs:extension>
-        </xs:complexContent>
-      </xs:complexType>
-      <xs:element name="QuoteVersion" nillable="true" type="tns:QuoteVersion" />
-      <xs:simpleType name="QuoteVersionState">
-        <xs:annotation>
-          <xs:appinfo>
-            <ActualType Name="short" Namespace="http://www.w3.org/2001/XMLSchema" xmlns="http://schemas.microsoft.com/2003/10/Serialization/" />
-          </xs:appinfo>
-        </xs:annotation>
-        <xs:restriction base="xs:string">
-          <xs:enumeration value="Unknown" />
-          <xs:enumeration value="Draft" />
-          <xs:enumeration value="DraftNotCalculated" />
-          <xs:enumeration value="DraftNeedsApproval" />
-          <xs:enumeration value="DraftApproved" />
-          <xs:enumeration value="DraftNotApproved" />
-          <xs:enumeration value="Sent" />
-          <xs:enumeration value="Archived" />
-          <xs:enumeration value="Lost" />
-          <xs:enumeration value="Sold" />
-        </xs:restriction>
-      </xs:simpleType>
-      <xs:element name="QuoteVersionState" nillable="true" type="tns:QuoteVersionState" />
-      <xs:simpleType name="QuoteStatus">
-        <xs:annotation>
-          <xs:appinfo>
-            <ActualType Name="short" Namespace="http://www.w3.org/2001/XMLSchema" xmlns="http://schemas.microsoft.com/2003/10/Serialization/" />
-          </xs:appinfo>
-        </xs:annotation>
-        <xs:restriction base="xs:string">
-          <xs:enumeration value="Ok" />
-          <xs:enumeration value="OkWithInfo" />
-          <xs:enumeration value="Warning" />
-          <xs:enumeration value="Error" />
-        </xs:restriction>
-      </xs:simpleType>
-      <xs:element name="QuoteStatus" nillable="true" type="tns:QuoteStatus" />
-      <xs:complexType name="ArrayOfQuoteAlternative">
-        <xs:sequence>
-          <xs:element minOccurs="0" maxOccurs="unbounded" name="QuoteAlternative" nillable="true" type="tns:QuoteAlternative" />
-        </xs:sequence>
-      </xs:complexType>
-      <xs:element name="ArrayOfQuoteAlternative" nillable="true" type="tns:ArrayOfQuoteAlternative" />
-      <xs:complexType name="QuoteAlternative">
-        <xs:complexContent mixed="false">
-          <xs:extension base="tns:Carrier">
-            <xs:sequence>
-              <xs:element minOccurs="0" name="QuoteAlternativeId" type="xs:int" />
-              <xs:element minOccurs="0" name="ERPQuoteAlternativeKey" nillable="true" type="xs:string" />
-              <xs:element minOccurs="0" name="QuoteVersionId" type="xs:int" />
-              <xs:element minOccurs="0" name="Name" nillable="true" type="xs:string" />
-              <xs:element minOccurs="0" name="Description" nillable="true" type="xs:string" />
-              <xs:element minOccurs="0" name="Status" type="tns:QuoteStatus" />
-              <xs:element minOccurs="0" name="Reason" nillable="true" type="xs:string" />
-              <xs:element minOccurs="0" name="ERPDiscountPercent" type="xs:double" />
-              <xs:element minOccurs="0" name="ERPDiscountAmount" type="xs:double" />
-              <xs:element minOccurs="0" name="DiscountPercent" type="xs:double" />
-              <xs:element minOccurs="0" name="DiscountAmount" type="xs:double" />
-              <xs:element minOccurs="0" name="UserValueOverride" type="tns:ValueOverride" />
-              <xs:element minOccurs="0" name="VATInfo" nillable="true" type="xs:string" />
-              <xs:element minOccurs="0" name="VAT" type="xs:double" />
-              <xs:element minOccurs="0" name="EarningPercent" type="xs:double" />
-              <xs:element minOccurs="0" name="EarningAmount" type="xs:double" />
-              <xs:element minOccurs="0" name="SubTotal" type="xs:double" />
-              <xs:element minOccurs="0" name="TotalPrice" type="xs:double" />
-              <xs:element minOccurs="0" name="ExtraField1" nillable="true" type="xs:string" />
-              <xs:element minOccurs="0" name="ExtraField2" nillable="true" type="xs:string" />
-              <xs:element minOccurs="0" name="ExtraField3" nillable="true" type="xs:string" />
-              <xs:element minOccurs="0" name="ExtraField4" nillable="true" type="xs:string" />
-              <xs:element minOccurs="0" name="ExtraField5" nillable="true" type="xs:string" />
-            </xs:sequence>
-          </xs:extension>
-        </xs:complexContent>
-      </xs:complexType>
-      <xs:element name="QuoteAlternative" nillable="true" type="tns:QuoteAlternative" />
-      <xs:simpleType name="ValueOverride">
-        <xs:annotation>
-          <xs:appinfo>
-            <ActualType Name="short" Namespace="http://www.w3.org/2001/XMLSchema" xmlns="http://schemas.microsoft.com/2003/10/Serialization/" />
-          </xs:appinfo>
-        </xs:annotation>
-        <xs:restriction base="xs:string">
-          <xs:enumeration value="None" />
-          <xs:enumeration value="Total" />
-          <xs:enumeration value="DiscountPercent" />
-          <xs:enumeration value="DiscountAmount" />
-          <xs:enumeration value="EarningPercent" />
-          <xs:enumeration value="EarningAmount" />
-        </xs:restriction>
-      </xs:simpleType>
-      <xs:element name="ValueOverride" nillable="true" type="tns:ValueOverride" />
-      <xs:complexType name="ArrayOfQuoteAlternativeRecalculated">
-        <xs:sequence>
-          <xs:element minOccurs="0" maxOccurs="unbounded" name="QuoteAlternativeRecalculated" nillable="true" type="tns:QuoteAlternativeRecalculated" />
-        </xs:sequence>
-      </xs:complexType>
-      <xs:element name="ArrayOfQuoteAlternativeRecalculated" nillable="true" type="tns:ArrayOfQuoteAlternativeRecalculated" />
-      <xs:complexType name="QuoteAlternativeRecalculated">
-        <xs:complexContent mixed="false">
-          <xs:extension base="tns:Carrier">
-            <xs:sequence>
-              <xs:element minOccurs="0" name="QuoteLinesHasChanged" type="xs:boolean" />
-              <xs:element minOccurs="0" name="ChangedQuoteAlternative" nillable="true" type="tns:QuoteAlternative" />
-              <xs:element minOccurs="0" name="Changes" nillable="true" type="tns:ChangedData" />
-            </xs:sequence>
-          </xs:extension>
-        </xs:complexContent>
-      </xs:complexType>
-      <xs:element name="QuoteAlternativeRecalculated" nillable="true" type="tns:QuoteAlternativeRecalculated" />
-      <xs:complexType name="ChangedData">
-        <xs:complexContent mixed="false">
-          <xs:extension base="tns:Carrier">
-            <xs:sequence>
-              <xs:element minOccurs="0" name="AddedRecords" nillable="true" type="tns:ArrayOfChangedDataItem" />
-              <xs:element minOccurs="0" name="UpdatedRecords" nillable="true" type="tns:ArrayOfChangedDataItem" />
-              <xs:element minOccurs="0" name="DeletedRecords" nillable="true" type="tns:ArrayOfChangedDataItem" />
-            </xs:sequence>
-          </xs:extension>
-        </xs:complexContent>
-      </xs:complexType>
-      <xs:element name="ChangedData" nillable="true" type="tns:ChangedData" />
-      <xs:complexType name="ArrayOfChangedDataItem">
-        <xs:sequence>
-          <xs:element minOccurs="0" maxOccurs="unbounded" name="ChangedDataItem" nillable="true" type="tns:ChangedDataItem" />
-        </xs:sequence>
-      </xs:complexType>
-      <xs:element name="ArrayOfChangedDataItem" nillable="true" type="tns:ArrayOfChangedDataItem" />
-      <xs:complexType name="ChangedDataItem">
-        <xs:complexContent mixed="false">
-          <xs:extension base="tns:Carrier">
-            <xs:sequence>
-              <xs:element minOccurs="0" name="Tablename" nillable="true" type="xs:string" />
-              <xs:element minOccurs="0" name="RecordId" type="xs:int" />
-            </xs:sequence>
-          </xs:extension>
-        </xs:complexContent>
-      </xs:complexType>
-      <xs:element name="ChangedDataItem" nillable="true" type="tns:ChangedDataItem" />
       <xs:complexType name="SoExceptionInfo">
         <xs:sequence>
           <xs:element minOccurs="0" name="Message" nillable="true" type="xs:string" />
@@ -459,296 +191,6 @@ title: Services84.QuoteAgent WSDL
       <xs:element name="SoExtraInfo" nillable="true" type="tns:SoExtraInfo" />
       <xs:element name="ExtraInfo" nillable="true" type="tns:SoExtraInfo" />
       <xs:element name="Succeeded" type="xs:boolean" />
-      <xs:element name="SaveQuoteVersionNumber">
-        <xs:complexType>
-          <xs:sequence>
-            <xs:element minOccurs="0" name="QuoteVersionId" type="xs:int" />
-            <xs:element minOccurs="0" name="Number" nillable="true" type="xs:string" />
-          </xs:sequence>
-        </xs:complexType>
-      </xs:element>
-      <xs:element name="SaveQuoteVersionNumberResponse">
-        <xs:complexType>
-          <xs:sequence>
-            <xs:element minOccurs="0" name="Response" type="xs:boolean" />
-          </xs:sequence>
-        </xs:complexType>
-      </xs:element>
-      <xs:element name="GetQuoteVersionWorkflowImageState">
-        <xs:complexType>
-          <xs:sequence>
-            <xs:element minOccurs="0" name="QuoteVersionId" type="xs:int" />
-          </xs:sequence>
-        </xs:complexType>
-      </xs:element>
-      <xs:element name="GetQuoteVersionWorkflowImageStateResponse">
-        <xs:complexType>
-          <xs:sequence>
-            <xs:element minOccurs="0" name="Response" nillable="true" type="tns:QuoteVersionButtonState" />
-          </xs:sequence>
-        </xs:complexType>
-      </xs:element>
-      <xs:complexType name="QuoteVersionButtonState">
-        <xs:complexContent mixed="false">
-          <xs:extension base="tns:Carrier">
-            <xs:sequence>
-              <xs:element minOccurs="0" name="Action" type="tns:QuoteVersionButtonAction" />
-              <xs:element minOccurs="0" name="ImageHint" nillable="true" type="xs:string" />
-              <xs:element minOccurs="0" name="DisplayText" nillable="true" type="xs:string" />
-              <xs:element minOccurs="0" name="TooltipText" nillable="true" type="xs:string" />
-              <xs:element minOccurs="0" name="Enabled" type="xs:boolean" />
-            </xs:sequence>
-          </xs:extension>
-        </xs:complexContent>
-      </xs:complexType>
-      <xs:element name="QuoteVersionButtonState" nillable="true" type="tns:QuoteVersionButtonState" />
-      <xs:simpleType name="QuoteVersionButtonAction">
-        <xs:restriction base="xs:string">
-          <xs:enumeration value="None" />
-          <xs:enumeration value="ValidateVersion" />
-          <xs:enumeration value="Edit" />
-          <xs:enumeration value="Send" />
-          <xs:enumeration value="Approve" />
-          <xs:enumeration value="Reject" />
-          <xs:enumeration value="ValidateVersionAndSendIfPossible">
-            <xs:annotation>
-              <xs:appinfo>
-                <EnumerationValue xmlns="http://schemas.microsoft.com/2003/10/Serialization/">7</EnumerationValue>
-              </xs:appinfo>
-            </xs:annotation>
-          </xs:enumeration>
-          <xs:enumeration value="ValidateVersionAndPlaceOrderIfPossible">
-            <xs:annotation>
-              <xs:appinfo>
-                <EnumerationValue xmlns="http://schemas.microsoft.com/2003/10/Serialization/">8</EnumerationValue>
-              </xs:appinfo>
-            </xs:annotation>
-          </xs:enumeration>
-          <xs:enumeration value="CloneVersion">
-            <xs:annotation>
-              <xs:appinfo>
-                <EnumerationValue xmlns="http://schemas.microsoft.com/2003/10/Serialization/">9</EnumerationValue>
-              </xs:appinfo>
-            </xs:annotation>
-          </xs:enumeration>
-          <xs:enumeration value="SendConfirmation">
-            <xs:annotation>
-              <xs:appinfo>
-                <EnumerationValue xmlns="http://schemas.microsoft.com/2003/10/Serialization/">10</EnumerationValue>
-              </xs:appinfo>
-            </xs:annotation>
-          </xs:enumeration>
-          <xs:enumeration value="GetOrderState">
-            <xs:annotation>
-              <xs:appinfo>
-                <EnumerationValue xmlns="http://schemas.microsoft.com/2003/10/Serialization/">11</EnumerationValue>
-              </xs:appinfo>
-            </xs:annotation>
-          </xs:enumeration>
-          <xs:enumeration value="UpdatePrices">
-            <xs:annotation>
-              <xs:appinfo>
-                <EnumerationValue xmlns="http://schemas.microsoft.com/2003/10/Serialization/">12</EnumerationValue>
-              </xs:appinfo>
-            </xs:annotation>
-          </xs:enumeration>
-        </xs:restriction>
-      </xs:simpleType>
-      <xs:element name="QuoteVersionButtonAction" nillable="true" type="tns:QuoteVersionButtonAction" />
-      <xs:element name="GetQuoteVersionWorkflowButtonStates">
-        <xs:complexType>
-          <xs:sequence>
-            <xs:element minOccurs="0" name="QuoteVersionId" type="xs:int" />
-            <xs:element minOccurs="0" name="QuoteAlternativeId" type="xs:int" />
-          </xs:sequence>
-        </xs:complexType>
-      </xs:element>
-      <xs:element name="GetQuoteVersionWorkflowButtonStatesResponse">
-        <xs:complexType>
-          <xs:sequence>
-            <xs:element minOccurs="0" name="Response" nillable="true" type="tns:QuoteVersionWorkflowState" />
-          </xs:sequence>
-        </xs:complexType>
-      </xs:element>
-      <xs:complexType name="QuoteVersionWorkflowState">
-        <xs:complexContent mixed="false">
-          <xs:extension base="tns:Carrier">
-            <xs:sequence>
-              <xs:element minOccurs="0" name="ActionButtons" nillable="true" type="tns:ArrayOfQuoteVersionButtonState" />
-              <xs:element minOccurs="0" name="StateImage" nillable="true" type="tns:QuoteVersionButtonState" />
-              <xs:element minOccurs="0" name="UpdatePricesButton" nillable="true" type="tns:QuoteVersionButtonState" />
-              <xs:element minOccurs="0" name="Status" nillable="true" type="tns:QuoteVersionStatusInformation" />
-            </xs:sequence>
-          </xs:extension>
-        </xs:complexContent>
-      </xs:complexType>
-      <xs:element name="QuoteVersionWorkflowState" nillable="true" type="tns:QuoteVersionWorkflowState" />
-      <xs:complexType name="ArrayOfQuoteVersionButtonState">
-        <xs:sequence>
-          <xs:element minOccurs="0" maxOccurs="unbounded" name="QuoteVersionButtonState" nillable="true" type="tns:QuoteVersionButtonState" />
-        </xs:sequence>
-      </xs:complexType>
-      <xs:element name="ArrayOfQuoteVersionButtonState" nillable="true" type="tns:ArrayOfQuoteVersionButtonState" />
-      <xs:complexType name="QuoteVersionStatusInformation">
-        <xs:complexContent mixed="false">
-          <xs:extension base="tns:Carrier">
-            <xs:sequence>
-              <xs:element minOccurs="0" name="Status" type="tns:QuoteStatus" />
-              <xs:element minOccurs="0" name="IconHint" nillable="true" type="xs:string" />
-              <xs:element minOccurs="0" name="DisplayMessage" nillable="true" type="xs:string" />
-              <xs:element minOccurs="0" name="DisplayTooltip" nillable="true" type="xs:string" />
-            </xs:sequence>
-          </xs:extension>
-        </xs:complexContent>
-      </xs:complexType>
-      <xs:element name="QuoteVersionStatusInformation" nillable="true" type="tns:QuoteVersionStatusInformation" />
-      <xs:element name="GetQuoteVersionWorkflowStatusInfo">
-        <xs:complexType>
-          <xs:sequence>
-            <xs:element minOccurs="0" name="QuoteVersionId" type="xs:int" />
-          </xs:sequence>
-        </xs:complexType>
-      </xs:element>
-      <xs:element name="GetQuoteVersionWorkflowStatusInfoResponse">
-        <xs:complexType>
-          <xs:sequence>
-            <xs:element minOccurs="0" name="Response" nillable="true" type="tns:QuoteVersionStatusInformation" />
-          </xs:sequence>
-        </xs:complexType>
-      </xs:element>
-      <xs:element name="CreateOrUpdateQuoteVersionAttachments">
-        <xs:complexType>
-          <xs:sequence>
-            <xs:element minOccurs="0" name="QuoteVersionId" type="xs:int" />
-          </xs:sequence>
-        </xs:complexType>
-      </xs:element>
-      <xs:element name="CreateOrUpdateQuoteVersionAttachmentsResponse">
-        <xs:complexType>
-          <xs:sequence>
-            <xs:element minOccurs="0" name="Response" nillable="true" type="tns:ArrayOfQuoteVersionAttachment" />
-          </xs:sequence>
-        </xs:complexType>
-      </xs:element>
-      <xs:complexType name="ArrayOfQuoteVersionAttachment">
-        <xs:sequence>
-          <xs:element minOccurs="0" maxOccurs="unbounded" name="QuoteVersionAttachment" nillable="true" type="tns:QuoteVersionAttachment" />
-        </xs:sequence>
-      </xs:complexType>
-      <xs:element name="ArrayOfQuoteVersionAttachment" nillable="true" type="tns:ArrayOfQuoteVersionAttachment" />
-      <xs:complexType name="QuoteVersionAttachment">
-        <xs:complexContent mixed="false">
-          <xs:extension base="tns:Carrier">
-            <xs:sequence>
-              <xs:element minOccurs="0" name="DocumentId" type="xs:int" />
-              <xs:element minOccurs="0" name="Included" type="xs:boolean" />
-            </xs:sequence>
-          </xs:extension>
-        </xs:complexContent>
-      </xs:complexType>
-      <xs:element name="QuoteVersionAttachment" nillable="true" type="tns:QuoteVersionAttachment" />
-      <xs:element name="IncludeQuoteVersionAttachment">
-        <xs:complexType>
-          <xs:sequence>
-            <xs:element minOccurs="0" name="QuoteVersionId" type="xs:int" />
-            <xs:element minOccurs="0" name="DocumentId" type="xs:int" />
-            <xs:element minOccurs="0" name="Include" type="xs:boolean" />
-          </xs:sequence>
-        </xs:complexType>
-      </xs:element>
-      <xs:element name="IncludeQuoteVersionAttachmentResponse">
-        <xs:complexType>
-          <xs:sequence>
-            <xs:element minOccurs="0" name="Response" type="xs:boolean" />
-          </xs:sequence>
-        </xs:complexType>
-      </xs:element>
-      <xs:element name="ToggleSaleTypeQuoteAttachmentDefaultIncluded">
-        <xs:complexType>
-          <xs:sequence>
-            <xs:element minOccurs="0" name="SaleTypeQuoteAttachmentId" type="xs:int" />
-          </xs:sequence>
-        </xs:complexType>
-      </xs:element>
-      <xs:element name="ToggleSaleTypeQuoteAttachmentDefaultIncludedResponse">
-        <xs:complexType>
-          <xs:sequence>
-            <xs:element minOccurs="0" name="Response" type="xs:boolean" />
-          </xs:sequence>
-        </xs:complexType>
-      </xs:element>
-      <xs:element name="AddSaleTypeQuoteAttachment">
-        <xs:complexType>
-          <xs:sequence>
-            <xs:element minOccurs="0" name="SaleTypeId" type="xs:int" />
-            <xs:element minOccurs="0" name="DocumentId" type="xs:int" />
-          </xs:sequence>
-        </xs:complexType>
-      </xs:element>
-      <xs:element name="AddSaleTypeQuoteAttachmentResponse">
-        <xs:complexType>
-          <xs:sequence>
-            <xs:element minOccurs="0" name="Response" type="xs:int" />
-          </xs:sequence>
-        </xs:complexType>
-      </xs:element>
-      <xs:element name="DeleteSaleTypeQuoteAttachment">
-        <xs:complexType>
-          <xs:sequence>
-            <xs:element minOccurs="0" name="SaleTypeQuoteAttachmentId" type="xs:int" />
-          </xs:sequence>
-        </xs:complexType>
-      </xs:element>
-      <xs:element name="DeleteSaleTypeQuoteAttachmentResponse">
-        <xs:complexType>
-          <xs:sequence />
-        </xs:complexType>
-      </xs:element>
-      <xs:element name="ToggleQuoteVersionAttachmentIncluded">
-        <xs:complexType>
-          <xs:sequence>
-            <xs:element minOccurs="0" name="QuoteVersionAttachmentId" type="xs:int" />
-          </xs:sequence>
-        </xs:complexType>
-      </xs:element>
-      <xs:element name="ToggleQuoteVersionAttachmentIncludedResponse">
-        <xs:complexType>
-          <xs:sequence>
-            <xs:element minOccurs="0" name="Response" type="xs:boolean" />
-          </xs:sequence>
-        </xs:complexType>
-      </xs:element>
-      <xs:element name="CreateDefaultPriceList">
-        <xs:complexType>
-          <xs:sequence />
-        </xs:complexType>
-      </xs:element>
-      <xs:element name="CreateDefaultPriceListResponse">
-        <xs:complexType>
-          <xs:sequence>
-            <xs:element minOccurs="0" name="Response" nillable="true" type="tns:PriceList" />
-          </xs:sequence>
-        </xs:complexType>
-      </xs:element>
-      <xs:complexType name="PriceList">
-        <xs:complexContent mixed="false">
-          <xs:extension base="tns:Carrier">
-            <xs:sequence>
-              <xs:element minOccurs="0" name="PriceListId" type="xs:int" />
-              <xs:element minOccurs="0" name="ERPPriceListKey" nillable="true" type="xs:string" />
-              <xs:element minOccurs="0" name="QuoteConnectionId" type="xs:int" />
-              <xs:element minOccurs="0" name="Name" nillable="true" type="xs:string" />
-              <xs:element minOccurs="0" name="Description" nillable="true" type="xs:string" />
-              <xs:element minOccurs="0" name="Currency" nillable="true" type="xs:string" />
-              <xs:element minOccurs="0" name="CurrencyName" nillable="true" type="xs:string" />
-              <xs:element minOccurs="0" name="ValidFrom" type="xs:dateTime" />
-              <xs:element minOccurs="0" name="ValidTo" type="xs:dateTime" />
-              <xs:element minOccurs="0" name="IsActive" type="xs:boolean" />
-            </xs:sequence>
-          </xs:extension>
-        </xs:complexContent>
-      </xs:complexType>
-      <xs:element name="PriceList" nillable="true" type="tns:PriceList" />
       <xs:element name="SavePriceList">
         <xs:complexType>
           <xs:sequence>
@@ -894,6 +336,68 @@ title: Services84.QuoteAgent WSDL
           </xs:sequence>
         </xs:complexType>
       </xs:element>
+      <xs:complexType name="QuoteAlternative">
+        <xs:complexContent mixed="false">
+          <xs:extension base="tns:Carrier">
+            <xs:sequence>
+              <xs:element minOccurs="0" name="QuoteAlternativeId" type="xs:int" />
+              <xs:element minOccurs="0" name="ERPQuoteAlternativeKey" nillable="true" type="xs:string" />
+              <xs:element minOccurs="0" name="QuoteVersionId" type="xs:int" />
+              <xs:element minOccurs="0" name="Name" nillable="true" type="xs:string" />
+              <xs:element minOccurs="0" name="Description" nillable="true" type="xs:string" />
+              <xs:element minOccurs="0" name="Status" type="tns:QuoteStatus" />
+              <xs:element minOccurs="0" name="Reason" nillable="true" type="xs:string" />
+              <xs:element minOccurs="0" name="ERPDiscountPercent" type="xs:double" />
+              <xs:element minOccurs="0" name="ERPDiscountAmount" type="xs:double" />
+              <xs:element minOccurs="0" name="DiscountPercent" type="xs:double" />
+              <xs:element minOccurs="0" name="DiscountAmount" type="xs:double" />
+              <xs:element minOccurs="0" name="UserValueOverride" type="tns:ValueOverride" />
+              <xs:element minOccurs="0" name="VATInfo" nillable="true" type="xs:string" />
+              <xs:element minOccurs="0" name="VAT" type="xs:double" />
+              <xs:element minOccurs="0" name="EarningPercent" type="xs:double" />
+              <xs:element minOccurs="0" name="EarningAmount" type="xs:double" />
+              <xs:element minOccurs="0" name="SubTotal" type="xs:double" />
+              <xs:element minOccurs="0" name="TotalPrice" type="xs:double" />
+              <xs:element minOccurs="0" name="ExtraField1" nillable="true" type="xs:string" />
+              <xs:element minOccurs="0" name="ExtraField2" nillable="true" type="xs:string" />
+              <xs:element minOccurs="0" name="ExtraField3" nillable="true" type="xs:string" />
+              <xs:element minOccurs="0" name="ExtraField4" nillable="true" type="xs:string" />
+              <xs:element minOccurs="0" name="ExtraField5" nillable="true" type="xs:string" />
+            </xs:sequence>
+          </xs:extension>
+        </xs:complexContent>
+      </xs:complexType>
+      <xs:element name="QuoteAlternative" nillable="true" type="tns:QuoteAlternative" />
+      <xs:simpleType name="QuoteStatus">
+        <xs:annotation>
+          <xs:appinfo>
+            <ActualType Name="short" Namespace="http://www.w3.org/2001/XMLSchema" xmlns="http://schemas.microsoft.com/2003/10/Serialization/" />
+          </xs:appinfo>
+        </xs:annotation>
+        <xs:restriction base="xs:string">
+          <xs:enumeration value="Ok" />
+          <xs:enumeration value="OkWithInfo" />
+          <xs:enumeration value="Warning" />
+          <xs:enumeration value="Error" />
+        </xs:restriction>
+      </xs:simpleType>
+      <xs:element name="QuoteStatus" nillable="true" type="tns:QuoteStatus" />
+      <xs:simpleType name="ValueOverride">
+        <xs:annotation>
+          <xs:appinfo>
+            <ActualType Name="short" Namespace="http://www.w3.org/2001/XMLSchema" xmlns="http://schemas.microsoft.com/2003/10/Serialization/" />
+          </xs:appinfo>
+        </xs:annotation>
+        <xs:restriction base="xs:string">
+          <xs:enumeration value="None" />
+          <xs:enumeration value="Total" />
+          <xs:enumeration value="DiscountPercent" />
+          <xs:enumeration value="DiscountAmount" />
+          <xs:enumeration value="EarningPercent" />
+          <xs:enumeration value="EarningAmount" />
+        </xs:restriction>
+      </xs:simpleType>
+      <xs:element name="ValueOverride" nillable="true" type="tns:ValueOverride" />
       <xs:element name="SaveQuoteAlternative">
         <xs:complexType>
           <xs:sequence>
@@ -1044,6 +548,35 @@ title: Services84.QuoteAgent WSDL
         </xs:complexContent>
       </xs:complexType>
       <xs:element name="PluginResponse" nillable="true" type="tns:PluginResponse" />
+      <xs:complexType name="ChangedData">
+        <xs:complexContent mixed="false">
+          <xs:extension base="tns:Carrier">
+            <xs:sequence>
+              <xs:element minOccurs="0" name="AddedRecords" nillable="true" type="tns:ArrayOfChangedDataItem" />
+              <xs:element minOccurs="0" name="UpdatedRecords" nillable="true" type="tns:ArrayOfChangedDataItem" />
+              <xs:element minOccurs="0" name="DeletedRecords" nillable="true" type="tns:ArrayOfChangedDataItem" />
+            </xs:sequence>
+          </xs:extension>
+        </xs:complexContent>
+      </xs:complexType>
+      <xs:element name="ChangedData" nillable="true" type="tns:ChangedData" />
+      <xs:complexType name="ArrayOfChangedDataItem">
+        <xs:sequence>
+          <xs:element minOccurs="0" maxOccurs="unbounded" name="ChangedDataItem" nillable="true" type="tns:ChangedDataItem" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:element name="ArrayOfChangedDataItem" nillable="true" type="tns:ArrayOfChangedDataItem" />
+      <xs:complexType name="ChangedDataItem">
+        <xs:complexContent mixed="false">
+          <xs:extension base="tns:Carrier">
+            <xs:sequence>
+              <xs:element minOccurs="0" name="Tablename" nillable="true" type="xs:string" />
+              <xs:element minOccurs="0" name="RecordId" type="xs:int" />
+            </xs:sequence>
+          </xs:extension>
+        </xs:complexContent>
+      </xs:complexType>
+      <xs:element name="ChangedDataItem" nillable="true" type="tns:ChangedDataItem" />
       <xs:element name="GetPriceList">
         <xs:complexType>
           <xs:sequence>
@@ -1175,6 +708,101 @@ title: Services84.QuoteAgent WSDL
           </xs:sequence>
         </xs:complexType>
       </xs:element>
+      <xs:complexType name="Quote">
+        <xs:complexContent mixed="false">
+          <xs:extension base="tns:Carrier">
+            <xs:sequence>
+              <xs:element minOccurs="0" name="QuoteId" type="xs:int" />
+              <xs:element minOccurs="0" name="SaleId" type="xs:int" />
+              <xs:element minOccurs="0" name="QuoteConnectionId" type="xs:int" />
+              <xs:element minOccurs="0" name="ERPQuoteKey" nillable="true" type="xs:string" />
+              <xs:element minOccurs="0" name="ERPOrderKey" nillable="true" type="xs:string" />
+              <xs:element minOccurs="0" name="ActiveQuoteVersionId" type="xs:int" />
+              <xs:element minOccurs="0" name="AcceptedQuoteAlternativeId" type="xs:int" />
+              <xs:element minOccurs="0" name="UseValuesFromQuote" type="xs:short" />
+              <xs:element minOccurs="0" name="DocumentId" type="xs:int" />
+              <xs:element minOccurs="0" name="PoNumber" nillable="true" type="xs:string" />
+              <xs:element minOccurs="0" name="OrderComment" nillable="true" type="xs:string" />
+              <xs:element minOccurs="0" name="PreferredEmailCulture" nillable="true" type="xs:string" />
+              <xs:element minOccurs="0" name="ActiveQuoteVersion" nillable="true" type="tns:QuoteVersion" />
+              <xs:element minOccurs="0" name="FavoriteQuoteAlternative" nillable="true" type="tns:QuoteAlternative" />
+            </xs:sequence>
+          </xs:extension>
+        </xs:complexContent>
+      </xs:complexType>
+      <xs:element name="Quote" nillable="true" type="tns:Quote" />
+      <xs:complexType name="QuoteVersion">
+        <xs:complexContent mixed="false">
+          <xs:extension base="tns:Carrier">
+            <xs:sequence>
+              <xs:element minOccurs="0" name="QuoteVersionId" type="xs:int" />
+              <xs:element minOccurs="0" name="ERPQuoteVersionKey" nillable="true" type="xs:string" />
+              <xs:element minOccurs="0" name="QuoteId" type="xs:int" />
+              <xs:element minOccurs="0" name="Description" nillable="true" type="xs:string" />
+              <xs:element minOccurs="0" name="Number" nillable="true" type="xs:string" />
+              <xs:element minOccurs="0" name="State" type="tns:QuoteVersionState" />
+              <xs:element minOccurs="0" name="ArchivedState" type="tns:QuoteVersionState" />
+              <xs:element minOccurs="0" name="Status" type="tns:QuoteStatus" />
+              <xs:element minOccurs="0" name="Reason" nillable="true" type="xs:string" />
+              <xs:element minOccurs="0" name="LikelyQuoteAlternativeId" type="xs:int" />
+              <xs:element minOccurs="0" name="SentDate" type="xs:dateTime" />
+              <xs:element minOccurs="0" name="FollowupId" type="xs:int" />
+              <xs:element minOccurs="0" name="ExpirationDate" type="xs:dateTime" />
+              <xs:element minOccurs="0" name="DeliveryCountryId" type="xs:int" />
+              <xs:element minOccurs="0" name="HasOwnDeliveryAddress" type="xs:boolean" />
+              <xs:element minOccurs="0" name="InvoiceCountryId" type="xs:int" />
+              <xs:element minOccurs="0" name="HasOwnInvoiceAddress" type="xs:boolean" />
+              <xs:element minOccurs="0" name="ERPPaymentTermsKey" nillable="true" type="xs:string" />
+              <xs:element minOccurs="0" name="ERPPaymentTypeKey" nillable="true" type="xs:string" />
+              <xs:element minOccurs="0" name="ERPDeliveryTermsKey" nillable="true" type="xs:string" />
+              <xs:element minOccurs="0" name="ERPDeliveryTypeKey" nillable="true" type="xs:string" />
+              <xs:element minOccurs="0" name="Rank" type="xs:int" />
+              <xs:element minOccurs="0" name="ApprovedBy" type="xs:int" />
+              <xs:element minOccurs="0" name="ApprovedText" nillable="true" type="xs:string" />
+              <xs:element minOccurs="0" name="ApprovedRegisteredBy" type="xs:int" />
+              <xs:element minOccurs="0" name="ApprovedRegisteredDate" type="xs:dateTime" />
+              <xs:element minOccurs="0" name="ExtraField1" nillable="true" type="xs:string" />
+              <xs:element minOccurs="0" name="ExtraField2" nillable="true" type="xs:string" />
+              <xs:element minOccurs="0" name="ExtraField3" nillable="true" type="xs:string" />
+              <xs:element minOccurs="0" name="ExtraField4" nillable="true" type="xs:string" />
+              <xs:element minOccurs="0" name="ExtraField5" nillable="true" type="xs:string" />
+              <xs:element minOccurs="0" name="LastRecalculated" type="xs:dateTime" />
+              <xs:element minOccurs="0" name="Updated" type="xs:dateTime" />
+              <xs:element minOccurs="0" name="UpdatedAssociateId" type="xs:int" />
+              <xs:element minOccurs="0" name="Registered" type="xs:dateTime" />
+              <xs:element minOccurs="0" name="RegisteredAssociateId" type="xs:int" />
+              <xs:element minOccurs="0" name="QuoteAlternatives" nillable="true" type="tns:ArrayOfQuoteAlternative" />
+            </xs:sequence>
+          </xs:extension>
+        </xs:complexContent>
+      </xs:complexType>
+      <xs:element name="QuoteVersion" nillable="true" type="tns:QuoteVersion" />
+      <xs:simpleType name="QuoteVersionState">
+        <xs:annotation>
+          <xs:appinfo>
+            <ActualType Name="short" Namespace="http://www.w3.org/2001/XMLSchema" xmlns="http://schemas.microsoft.com/2003/10/Serialization/" />
+          </xs:appinfo>
+        </xs:annotation>
+        <xs:restriction base="xs:string">
+          <xs:enumeration value="Unknown" />
+          <xs:enumeration value="Draft" />
+          <xs:enumeration value="DraftNotCalculated" />
+          <xs:enumeration value="DraftNeedsApproval" />
+          <xs:enumeration value="DraftApproved" />
+          <xs:enumeration value="DraftNotApproved" />
+          <xs:enumeration value="Sent" />
+          <xs:enumeration value="Archived" />
+          <xs:enumeration value="Lost" />
+          <xs:enumeration value="Sold" />
+        </xs:restriction>
+      </xs:simpleType>
+      <xs:element name="QuoteVersionState" nillable="true" type="tns:QuoteVersionState" />
+      <xs:complexType name="ArrayOfQuoteAlternative">
+        <xs:sequence>
+          <xs:element minOccurs="0" maxOccurs="unbounded" name="QuoteAlternative" nillable="true" type="tns:QuoteAlternative" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:element name="ArrayOfQuoteAlternative" nillable="true" type="tns:ArrayOfQuoteAlternative" />
       <xs:element name="SaveQuoteResponse">
         <xs:complexType>
           <xs:sequence>
@@ -1398,6 +1026,18 @@ title: Services84.QuoteAgent WSDL
           </xs:sequence>
         </xs:complexType>
       </xs:element>
+      <xs:complexType name="QuoteAlternativeRecalculated">
+        <xs:complexContent mixed="false">
+          <xs:extension base="tns:Carrier">
+            <xs:sequence>
+              <xs:element minOccurs="0" name="QuoteLinesHasChanged" type="xs:boolean" />
+              <xs:element minOccurs="0" name="ChangedQuoteAlternative" nillable="true" type="tns:QuoteAlternative" />
+              <xs:element minOccurs="0" name="Changes" nillable="true" type="tns:ChangedData" />
+            </xs:sequence>
+          </xs:extension>
+        </xs:complexContent>
+      </xs:complexType>
+      <xs:element name="QuoteAlternativeRecalculated" nillable="true" type="tns:QuoteAlternativeRecalculated" />
       <xs:element name="GetQuoteAlternatives">
         <xs:complexType>
           <xs:sequence>
@@ -2147,6 +1787,59 @@ title: Services84.QuoteAgent WSDL
           </xs:sequence>
         </xs:complexType>
       </xs:element>
+      <xs:simpleType name="QuoteVersionButtonAction">
+        <xs:restriction base="xs:string">
+          <xs:enumeration value="None" />
+          <xs:enumeration value="ValidateVersion" />
+          <xs:enumeration value="Edit" />
+          <xs:enumeration value="Send" />
+          <xs:enumeration value="Approve" />
+          <xs:enumeration value="Reject" />
+          <xs:enumeration value="ValidateVersionAndSendIfPossible">
+            <xs:annotation>
+              <xs:appinfo>
+                <EnumerationValue xmlns="http://schemas.microsoft.com/2003/10/Serialization/">7</EnumerationValue>
+              </xs:appinfo>
+            </xs:annotation>
+          </xs:enumeration>
+          <xs:enumeration value="ValidateVersionAndPlaceOrderIfPossible">
+            <xs:annotation>
+              <xs:appinfo>
+                <EnumerationValue xmlns="http://schemas.microsoft.com/2003/10/Serialization/">8</EnumerationValue>
+              </xs:appinfo>
+            </xs:annotation>
+          </xs:enumeration>
+          <xs:enumeration value="CloneVersion">
+            <xs:annotation>
+              <xs:appinfo>
+                <EnumerationValue xmlns="http://schemas.microsoft.com/2003/10/Serialization/">9</EnumerationValue>
+              </xs:appinfo>
+            </xs:annotation>
+          </xs:enumeration>
+          <xs:enumeration value="SendConfirmation">
+            <xs:annotation>
+              <xs:appinfo>
+                <EnumerationValue xmlns="http://schemas.microsoft.com/2003/10/Serialization/">10</EnumerationValue>
+              </xs:appinfo>
+            </xs:annotation>
+          </xs:enumeration>
+          <xs:enumeration value="GetOrderState">
+            <xs:annotation>
+              <xs:appinfo>
+                <EnumerationValue xmlns="http://schemas.microsoft.com/2003/10/Serialization/">11</EnumerationValue>
+              </xs:appinfo>
+            </xs:annotation>
+          </xs:enumeration>
+          <xs:enumeration value="UpdatePrices">
+            <xs:annotation>
+              <xs:appinfo>
+                <EnumerationValue xmlns="http://schemas.microsoft.com/2003/10/Serialization/">12</EnumerationValue>
+              </xs:appinfo>
+            </xs:annotation>
+          </xs:enumeration>
+        </xs:restriction>
+      </xs:simpleType>
+      <xs:element name="QuoteVersionButtonAction" nillable="true" type="tns:QuoteVersionButtonAction" />
       <xs:element name="ValidateQuoteVersionResponse">
         <xs:complexType>
           <xs:sequence>
@@ -2154,6 +1847,93 @@ title: Services84.QuoteAgent WSDL
           </xs:sequence>
         </xs:complexType>
       </xs:element>
+      <xs:complexType name="QuoteVersionValidated">
+        <xs:complexContent mixed="false">
+          <xs:extension base="tns:Carrier">
+            <xs:sequence>
+              <xs:element minOccurs="0" name="IsOk" type="xs:boolean" />
+              <xs:element minOccurs="0" name="UserExplanation" nillable="true" type="xs:string" />
+              <xs:element minOccurs="0" name="TechExplanation" nillable="true" type="xs:string" />
+              <xs:element minOccurs="0" name="ErrorCode" nillable="true" type="xs:string" />
+              <xs:element minOccurs="0" name="ChangedSale" nillable="true" type="tns:Sale" />
+              <xs:element minOccurs="0" name="ChangedQuote" nillable="true" type="tns:Quote" />
+              <xs:element minOccurs="0" name="ChangedQuoteVersion" nillable="true" type="tns:QuoteVersion" />
+              <xs:element minOccurs="0" name="ChangedQuoteAlternatives" nillable="true" type="tns:ArrayOfQuoteAlternativeRecalculated" />
+            </xs:sequence>
+          </xs:extension>
+        </xs:complexContent>
+      </xs:complexType>
+      <xs:element name="QuoteVersionValidated" nillable="true" type="tns:QuoteVersionValidated" />
+      <xs:complexType name="Sale">
+        <xs:complexContent mixed="false">
+          <xs:extension base="tns:Carrier">
+            <xs:sequence>
+              <xs:element minOccurs="0" name="ContactName" nillable="true" type="xs:string" />
+              <xs:element minOccurs="0" name="SaleDate" type="xs:dateTime" />
+              <xs:element minOccurs="0" name="SaleId" type="xs:int" />
+              <xs:element minOccurs="0" name="Probability" type="xs:short" />
+              <xs:element minOccurs="0" name="Title" nillable="true" type="xs:string" />
+              <xs:element minOccurs="0" name="Amount" type="xs:double" />
+              <xs:element minOccurs="0" name="Currency" nillable="true" type="xs:string" />
+              <xs:element minOccurs="0" name="ProjectName" nillable="true" type="xs:string" />
+              <xs:element minOccurs="0" name="AssociateFullName" nillable="true" type="xs:string" />
+              <xs:element minOccurs="0" name="Description" nillable="true" type="xs:string" />
+              <xs:element minOccurs="0" name="Status" type="tns:SaleStatus" />
+              <xs:element minOccurs="0" name="WeightedAmount" type="xs:double" />
+              <xs:element minOccurs="0" name="ProjectId" type="xs:int" />
+              <xs:element minOccurs="0" name="EarningPercent" type="xs:double" />
+              <xs:element minOccurs="0" name="Earning" type="xs:double" />
+              <xs:element minOccurs="0" name="ContactId" type="xs:int" />
+              <xs:element minOccurs="0" name="AssociateId" type="xs:int" />
+              <xs:element minOccurs="0" name="PersonId" type="xs:int" />
+              <xs:element minOccurs="0" name="SaleTypeId" type="xs:int" />
+              <xs:element minOccurs="0" name="SaleTypeName" nillable="true" type="xs:string" />
+              <xs:element minOccurs="0" name="PersonFullName" nillable="true" type="xs:string" />
+              <xs:element minOccurs="0" name="Completed" type="tns:ActivityStatus" />
+              <xs:element minOccurs="0" name="ActiveErpLinks" type="xs:int" />
+              <xs:element minOccurs="0" name="NextDueDate" type="xs:dateTime" />
+            </xs:sequence>
+          </xs:extension>
+        </xs:complexContent>
+      </xs:complexType>
+      <xs:element name="Sale" nillable="true" type="tns:Sale" />
+      <xs:simpleType name="SaleStatus">
+        <xs:annotation>
+          <xs:appinfo>
+            <ActualType Name="short" Namespace="http://www.w3.org/2001/XMLSchema" xmlns="http://schemas.microsoft.com/2003/10/Serialization/" />
+          </xs:appinfo>
+        </xs:annotation>
+        <xs:restriction base="xs:string">
+          <xs:enumeration value="Unknown" />
+          <xs:enumeration value="Open" />
+          <xs:enumeration value="Sold" />
+          <xs:enumeration value="Lost" />
+          <xs:enumeration value="Stalled" />
+          <xs:enumeration value="SaintAll">
+            <xs:annotation>
+              <xs:appinfo>
+                <EnumerationValue xmlns="http://schemas.microsoft.com/2003/10/Serialization/">1000</EnumerationValue>
+              </xs:appinfo>
+            </xs:annotation>
+          </xs:enumeration>
+        </xs:restriction>
+      </xs:simpleType>
+      <xs:element name="SaleStatus" nillable="true" type="tns:SaleStatus" />
+      <xs:simpleType name="ActivityStatus">
+        <xs:restriction base="xs:string">
+          <xs:enumeration value="Unknown" />
+          <xs:enumeration value="NotStarted" />
+          <xs:enumeration value="Started" />
+          <xs:enumeration value="Completed" />
+        </xs:restriction>
+      </xs:simpleType>
+      <xs:element name="ActivityStatus" nillable="true" type="tns:ActivityStatus" />
+      <xs:complexType name="ArrayOfQuoteAlternativeRecalculated">
+        <xs:sequence>
+          <xs:element minOccurs="0" maxOccurs="unbounded" name="QuoteAlternativeRecalculated" nillable="true" type="tns:QuoteAlternativeRecalculated" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:element name="ArrayOfQuoteAlternativeRecalculated" nillable="true" type="tns:ArrayOfQuoteAlternativeRecalculated" />
       <xs:element name="CreateAndSaveQuoteVersion">
         <xs:complexType>
           <xs:sequence>
@@ -2339,6 +2119,226 @@ title: Services84.QuoteAgent WSDL
           </xs:sequence>
         </xs:complexType>
       </xs:element>
+      <xs:complexType name="QuoteVersionWorkflowState">
+        <xs:complexContent mixed="false">
+          <xs:extension base="tns:Carrier">
+            <xs:sequence>
+              <xs:element minOccurs="0" name="ActionButtons" nillable="true" type="tns:ArrayOfQuoteVersionButtonState" />
+              <xs:element minOccurs="0" name="StateImage" nillable="true" type="tns:QuoteVersionButtonState" />
+              <xs:element minOccurs="0" name="UpdatePricesButton" nillable="true" type="tns:QuoteVersionButtonState" />
+              <xs:element minOccurs="0" name="Status" nillable="true" type="tns:QuoteVersionStatusInformation" />
+            </xs:sequence>
+          </xs:extension>
+        </xs:complexContent>
+      </xs:complexType>
+      <xs:element name="QuoteVersionWorkflowState" nillable="true" type="tns:QuoteVersionWorkflowState" />
+      <xs:complexType name="ArrayOfQuoteVersionButtonState">
+        <xs:sequence>
+          <xs:element minOccurs="0" maxOccurs="unbounded" name="QuoteVersionButtonState" nillable="true" type="tns:QuoteVersionButtonState" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:element name="ArrayOfQuoteVersionButtonState" nillable="true" type="tns:ArrayOfQuoteVersionButtonState" />
+      <xs:complexType name="QuoteVersionButtonState">
+        <xs:complexContent mixed="false">
+          <xs:extension base="tns:Carrier">
+            <xs:sequence>
+              <xs:element minOccurs="0" name="Action" type="tns:QuoteVersionButtonAction" />
+              <xs:element minOccurs="0" name="ImageHint" nillable="true" type="xs:string" />
+              <xs:element minOccurs="0" name="DisplayText" nillable="true" type="xs:string" />
+              <xs:element minOccurs="0" name="TooltipText" nillable="true" type="xs:string" />
+              <xs:element minOccurs="0" name="Enabled" type="xs:boolean" />
+            </xs:sequence>
+          </xs:extension>
+        </xs:complexContent>
+      </xs:complexType>
+      <xs:element name="QuoteVersionButtonState" nillable="true" type="tns:QuoteVersionButtonState" />
+      <xs:complexType name="QuoteVersionStatusInformation">
+        <xs:complexContent mixed="false">
+          <xs:extension base="tns:Carrier">
+            <xs:sequence>
+              <xs:element minOccurs="0" name="Status" type="tns:QuoteStatus" />
+              <xs:element minOccurs="0" name="IconHint" nillable="true" type="xs:string" />
+              <xs:element minOccurs="0" name="DisplayMessage" nillable="true" type="xs:string" />
+              <xs:element minOccurs="0" name="DisplayTooltip" nillable="true" type="xs:string" />
+            </xs:sequence>
+          </xs:extension>
+        </xs:complexContent>
+      </xs:complexType>
+      <xs:element name="QuoteVersionStatusInformation" nillable="true" type="tns:QuoteVersionStatusInformation" />
+      <xs:element name="UpdateQuoteVersionPrices">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="QuoteVersionId" type="xs:int" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="UpdateQuoteVersionPricesResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="Response" nillable="true" type="tns:QuoteVersionValidated" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="SaveQuoteVersionNumber">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="QuoteVersionId" type="xs:int" />
+            <xs:element minOccurs="0" name="Number" nillable="true" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="SaveQuoteVersionNumberResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="Response" type="xs:boolean" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="GetQuoteVersionWorkflowImageState">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="QuoteVersionId" type="xs:int" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="GetQuoteVersionWorkflowImageStateResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="Response" nillable="true" type="tns:QuoteVersionButtonState" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="GetQuoteVersionWorkflowButtonStates">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="QuoteVersionId" type="xs:int" />
+            <xs:element minOccurs="0" name="QuoteAlternativeId" type="xs:int" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="GetQuoteVersionWorkflowButtonStatesResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="Response" nillable="true" type="tns:QuoteVersionWorkflowState" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="GetQuoteVersionWorkflowStatusInfo">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="QuoteVersionId" type="xs:int" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="GetQuoteVersionWorkflowStatusInfoResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="Response" nillable="true" type="tns:QuoteVersionStatusInformation" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="CreateOrUpdateQuoteVersionAttachments">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="QuoteVersionId" type="xs:int" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="CreateOrUpdateQuoteVersionAttachmentsResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="Response" nillable="true" type="tns:ArrayOfQuoteVersionAttachment" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:complexType name="ArrayOfQuoteVersionAttachment">
+        <xs:sequence>
+          <xs:element minOccurs="0" maxOccurs="unbounded" name="QuoteVersionAttachment" nillable="true" type="tns:QuoteVersionAttachment" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:element name="ArrayOfQuoteVersionAttachment" nillable="true" type="tns:ArrayOfQuoteVersionAttachment" />
+      <xs:complexType name="QuoteVersionAttachment">
+        <xs:complexContent mixed="false">
+          <xs:extension base="tns:Carrier">
+            <xs:sequence>
+              <xs:element minOccurs="0" name="DocumentId" type="xs:int" />
+              <xs:element minOccurs="0" name="Included" type="xs:boolean" />
+            </xs:sequence>
+          </xs:extension>
+        </xs:complexContent>
+      </xs:complexType>
+      <xs:element name="QuoteVersionAttachment" nillable="true" type="tns:QuoteVersionAttachment" />
+      <xs:element name="IncludeQuoteVersionAttachment">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="QuoteVersionId" type="xs:int" />
+            <xs:element minOccurs="0" name="DocumentId" type="xs:int" />
+            <xs:element minOccurs="0" name="Include" type="xs:boolean" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="IncludeQuoteVersionAttachmentResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="Response" type="xs:boolean" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="ToggleSaleTypeQuoteAttachmentDefaultIncluded">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="SaleTypeQuoteAttachmentId" type="xs:int" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="ToggleSaleTypeQuoteAttachmentDefaultIncludedResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="Response" type="xs:boolean" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="AddSaleTypeQuoteAttachment">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="SaleTypeId" type="xs:int" />
+            <xs:element minOccurs="0" name="DocumentId" type="xs:int" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="AddSaleTypeQuoteAttachmentResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="Response" type="xs:int" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="DeleteSaleTypeQuoteAttachment">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="SaleTypeQuoteAttachmentId" type="xs:int" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="DeleteSaleTypeQuoteAttachmentResponse">
+        <xs:complexType>
+          <xs:sequence />
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="ToggleQuoteVersionAttachmentIncluded">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="QuoteVersionAttachmentId" type="xs:int" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="ToggleQuoteVersionAttachmentIncludedResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="Response" type="xs:boolean" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
     </xs:schema>
     <xs:schema attributeFormDefault="qualified" elementFormDefault="qualified" targetNamespace="http://schemas.microsoft.com/2003/10/Serialization/" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:tns="http://schemas.microsoft.com/2003/10/Serialization/">
       <xs:element name="anyType" nillable="true" type="xs:anyType" />
@@ -2396,193 +2396,6 @@ title: Services84.QuoteAgent WSDL
       <xs:element name="ArrayOfstring" nillable="true" type="tns:ArrayOfstring" />
     </xs:schema>
   </wsdl:types>
-  <wsdl:message name="UpdateQuoteVersionPricesRequest">
-    <wsdl:part name="parameters" element="tns:UpdateQuoteVersionPrices" />
-  </wsdl:message>
-  <wsdl:message name="UpdateQuoteVersionPricesRequest_Headers">
-    <wsdl:part name="ApplicationToken" element="tns:ApplicationToken" />
-    <wsdl:part name="Credentials" element="tns:Credentials" />
-    <wsdl:part name="TimeZone" element="tns:TimeZone" />
-  </wsdl:message>
-  <wsdl:message name="UpdateQuoteVersionPricesResponse">
-    <wsdl:part name="parameters" element="tns:UpdateQuoteVersionPricesResponse" />
-  </wsdl:message>
-  <wsdl:message name="UpdateQuoteVersionPricesResponse_Headers">
-    <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
-    <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
-    <wsdl:part name="Succeeded" element="tns:Succeeded" />
-    <wsdl:part name="TimeZone" element="tns:TimeZone" />
-  </wsdl:message>
-  <wsdl:message name="SaveQuoteVersionNumberRequest">
-    <wsdl:part name="parameters" element="tns:SaveQuoteVersionNumber" />
-  </wsdl:message>
-  <wsdl:message name="SaveQuoteVersionNumberRequest_Headers">
-    <wsdl:part name="ApplicationToken" element="tns:ApplicationToken" />
-    <wsdl:part name="Credentials" element="tns:Credentials" />
-    <wsdl:part name="TimeZone" element="tns:TimeZone" />
-  </wsdl:message>
-  <wsdl:message name="SaveQuoteVersionNumberResponse">
-    <wsdl:part name="parameters" element="tns:SaveQuoteVersionNumberResponse" />
-  </wsdl:message>
-  <wsdl:message name="SaveQuoteVersionNumberResponse_Headers">
-    <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
-    <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
-    <wsdl:part name="Succeeded" element="tns:Succeeded" />
-    <wsdl:part name="TimeZone" element="tns:TimeZone" />
-  </wsdl:message>
-  <wsdl:message name="GetQuoteVersionWorkflowImageStateRequest">
-    <wsdl:part name="parameters" element="tns:GetQuoteVersionWorkflowImageState" />
-  </wsdl:message>
-  <wsdl:message name="GetQuoteVersionWorkflowImageStateRequest_Headers">
-    <wsdl:part name="ApplicationToken" element="tns:ApplicationToken" />
-    <wsdl:part name="Credentials" element="tns:Credentials" />
-    <wsdl:part name="TimeZone" element="tns:TimeZone" />
-  </wsdl:message>
-  <wsdl:message name="GetQuoteVersionWorkflowImageStateResponse">
-    <wsdl:part name="parameters" element="tns:GetQuoteVersionWorkflowImageStateResponse" />
-  </wsdl:message>
-  <wsdl:message name="GetQuoteVersionWorkflowImageStateResponse_Headers">
-    <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
-    <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
-    <wsdl:part name="Succeeded" element="tns:Succeeded" />
-    <wsdl:part name="TimeZone" element="tns:TimeZone" />
-  </wsdl:message>
-  <wsdl:message name="GetQuoteVersionWorkflowButtonStatesRequest">
-    <wsdl:part name="parameters" element="tns:GetQuoteVersionWorkflowButtonStates" />
-  </wsdl:message>
-  <wsdl:message name="GetQuoteVersionWorkflowButtonStatesRequest_Headers">
-    <wsdl:part name="ApplicationToken" element="tns:ApplicationToken" />
-    <wsdl:part name="Credentials" element="tns:Credentials" />
-    <wsdl:part name="TimeZone" element="tns:TimeZone" />
-  </wsdl:message>
-  <wsdl:message name="GetQuoteVersionWorkflowButtonStatesResponse">
-    <wsdl:part name="parameters" element="tns:GetQuoteVersionWorkflowButtonStatesResponse" />
-  </wsdl:message>
-  <wsdl:message name="GetQuoteVersionWorkflowButtonStatesResponse_Headers">
-    <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
-    <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
-    <wsdl:part name="Succeeded" element="tns:Succeeded" />
-    <wsdl:part name="TimeZone" element="tns:TimeZone" />
-  </wsdl:message>
-  <wsdl:message name="GetQuoteVersionWorkflowStatusInfoRequest">
-    <wsdl:part name="parameters" element="tns:GetQuoteVersionWorkflowStatusInfo" />
-  </wsdl:message>
-  <wsdl:message name="GetQuoteVersionWorkflowStatusInfoRequest_Headers">
-    <wsdl:part name="ApplicationToken" element="tns:ApplicationToken" />
-    <wsdl:part name="Credentials" element="tns:Credentials" />
-    <wsdl:part name="TimeZone" element="tns:TimeZone" />
-  </wsdl:message>
-  <wsdl:message name="GetQuoteVersionWorkflowStatusInfoResponse">
-    <wsdl:part name="parameters" element="tns:GetQuoteVersionWorkflowStatusInfoResponse" />
-  </wsdl:message>
-  <wsdl:message name="GetQuoteVersionWorkflowStatusInfoResponse_Headers">
-    <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
-    <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
-    <wsdl:part name="Succeeded" element="tns:Succeeded" />
-    <wsdl:part name="TimeZone" element="tns:TimeZone" />
-  </wsdl:message>
-  <wsdl:message name="CreateOrUpdateQuoteVersionAttachmentsRequest">
-    <wsdl:part name="parameters" element="tns:CreateOrUpdateQuoteVersionAttachments" />
-  </wsdl:message>
-  <wsdl:message name="CreateOrUpdateQuoteVersionAttachmentsRequest_Headers">
-    <wsdl:part name="ApplicationToken" element="tns:ApplicationToken" />
-    <wsdl:part name="Credentials" element="tns:Credentials" />
-    <wsdl:part name="TimeZone" element="tns:TimeZone" />
-  </wsdl:message>
-  <wsdl:message name="CreateOrUpdateQuoteVersionAttachmentsResponse">
-    <wsdl:part name="parameters" element="tns:CreateOrUpdateQuoteVersionAttachmentsResponse" />
-  </wsdl:message>
-  <wsdl:message name="CreateOrUpdateQuoteVersionAttachmentsResponse_Headers">
-    <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
-    <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
-    <wsdl:part name="Succeeded" element="tns:Succeeded" />
-    <wsdl:part name="TimeZone" element="tns:TimeZone" />
-  </wsdl:message>
-  <wsdl:message name="IncludeQuoteVersionAttachmentRequest">
-    <wsdl:part name="parameters" element="tns:IncludeQuoteVersionAttachment" />
-  </wsdl:message>
-  <wsdl:message name="IncludeQuoteVersionAttachmentRequest_Headers">
-    <wsdl:part name="ApplicationToken" element="tns:ApplicationToken" />
-    <wsdl:part name="Credentials" element="tns:Credentials" />
-    <wsdl:part name="TimeZone" element="tns:TimeZone" />
-  </wsdl:message>
-  <wsdl:message name="IncludeQuoteVersionAttachmentResponse">
-    <wsdl:part name="parameters" element="tns:IncludeQuoteVersionAttachmentResponse" />
-  </wsdl:message>
-  <wsdl:message name="IncludeQuoteVersionAttachmentResponse_Headers">
-    <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
-    <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
-    <wsdl:part name="Succeeded" element="tns:Succeeded" />
-    <wsdl:part name="TimeZone" element="tns:TimeZone" />
-  </wsdl:message>
-  <wsdl:message name="ToggleSaleTypeQuoteAttachmentDefaultIncludedRequest">
-    <wsdl:part name="parameters" element="tns:ToggleSaleTypeQuoteAttachmentDefaultIncluded" />
-  </wsdl:message>
-  <wsdl:message name="ToggleSaleTypeQuoteAttachmentDefaultIncludedRequest_Headers">
-    <wsdl:part name="ApplicationToken" element="tns:ApplicationToken" />
-    <wsdl:part name="Credentials" element="tns:Credentials" />
-    <wsdl:part name="TimeZone" element="tns:TimeZone" />
-  </wsdl:message>
-  <wsdl:message name="ToggleSaleTypeQuoteAttachmentDefaultIncludedResponse">
-    <wsdl:part name="parameters" element="tns:ToggleSaleTypeQuoteAttachmentDefaultIncludedResponse" />
-  </wsdl:message>
-  <wsdl:message name="ToggleSaleTypeQuoteAttachmentDefaultIncludedResponse_Headers">
-    <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
-    <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
-    <wsdl:part name="Succeeded" element="tns:Succeeded" />
-    <wsdl:part name="TimeZone" element="tns:TimeZone" />
-  </wsdl:message>
-  <wsdl:message name="AddSaleTypeQuoteAttachmentRequest">
-    <wsdl:part name="parameters" element="tns:AddSaleTypeQuoteAttachment" />
-  </wsdl:message>
-  <wsdl:message name="AddSaleTypeQuoteAttachmentRequest_Headers">
-    <wsdl:part name="ApplicationToken" element="tns:ApplicationToken" />
-    <wsdl:part name="Credentials" element="tns:Credentials" />
-    <wsdl:part name="TimeZone" element="tns:TimeZone" />
-  </wsdl:message>
-  <wsdl:message name="AddSaleTypeQuoteAttachmentResponse">
-    <wsdl:part name="parameters" element="tns:AddSaleTypeQuoteAttachmentResponse" />
-  </wsdl:message>
-  <wsdl:message name="AddSaleTypeQuoteAttachmentResponse_Headers">
-    <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
-    <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
-    <wsdl:part name="Succeeded" element="tns:Succeeded" />
-    <wsdl:part name="TimeZone" element="tns:TimeZone" />
-  </wsdl:message>
-  <wsdl:message name="DeleteSaleTypeQuoteAttachmentRequest">
-    <wsdl:part name="parameters" element="tns:DeleteSaleTypeQuoteAttachment" />
-  </wsdl:message>
-  <wsdl:message name="DeleteSaleTypeQuoteAttachmentRequest_Headers">
-    <wsdl:part name="ApplicationToken" element="tns:ApplicationToken" />
-    <wsdl:part name="Credentials" element="tns:Credentials" />
-    <wsdl:part name="TimeZone" element="tns:TimeZone" />
-  </wsdl:message>
-  <wsdl:message name="DeleteSaleTypeQuoteAttachmentResponse">
-    <wsdl:part name="parameters" element="tns:DeleteSaleTypeQuoteAttachmentResponse" />
-  </wsdl:message>
-  <wsdl:message name="DeleteSaleTypeQuoteAttachmentResponse_Headers">
-    <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
-    <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
-    <wsdl:part name="Succeeded" element="tns:Succeeded" />
-    <wsdl:part name="TimeZone" element="tns:TimeZone" />
-  </wsdl:message>
-  <wsdl:message name="ToggleQuoteVersionAttachmentIncludedRequest">
-    <wsdl:part name="parameters" element="tns:ToggleQuoteVersionAttachmentIncluded" />
-  </wsdl:message>
-  <wsdl:message name="ToggleQuoteVersionAttachmentIncludedRequest_Headers">
-    <wsdl:part name="ApplicationToken" element="tns:ApplicationToken" />
-    <wsdl:part name="Credentials" element="tns:Credentials" />
-    <wsdl:part name="TimeZone" element="tns:TimeZone" />
-  </wsdl:message>
-  <wsdl:message name="ToggleQuoteVersionAttachmentIncludedResponse">
-    <wsdl:part name="parameters" element="tns:ToggleQuoteVersionAttachmentIncludedResponse" />
-  </wsdl:message>
-  <wsdl:message name="ToggleQuoteVersionAttachmentIncludedResponse_Headers">
-    <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
-    <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
-    <wsdl:part name="Succeeded" element="tns:Succeeded" />
-    <wsdl:part name="TimeZone" element="tns:TimeZone" />
-  </wsdl:message>
   <wsdl:message name="CreateDefaultPriceListRequest">
     <wsdl:part name="parameters" element="tns:CreateDefaultPriceList" />
   </wsdl:message>
@@ -4028,87 +3841,197 @@ title: Services84.QuoteAgent WSDL
     <wsdl:part name="Succeeded" element="tns:Succeeded" />
     <wsdl:part name="TimeZone" element="tns:TimeZone" />
   </wsdl:message>
+  <wsdl:message name="UpdateQuoteVersionPricesRequest">
+    <wsdl:part name="parameters" element="tns:UpdateQuoteVersionPrices" />
+  </wsdl:message>
+  <wsdl:message name="UpdateQuoteVersionPricesRequest_Headers">
+    <wsdl:part name="ApplicationToken" element="tns:ApplicationToken" />
+    <wsdl:part name="Credentials" element="tns:Credentials" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="UpdateQuoteVersionPricesResponse">
+    <wsdl:part name="parameters" element="tns:UpdateQuoteVersionPricesResponse" />
+  </wsdl:message>
+  <wsdl:message name="UpdateQuoteVersionPricesResponse_Headers">
+    <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
+    <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
+    <wsdl:part name="Succeeded" element="tns:Succeeded" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="SaveQuoteVersionNumberRequest">
+    <wsdl:part name="parameters" element="tns:SaveQuoteVersionNumber" />
+  </wsdl:message>
+  <wsdl:message name="SaveQuoteVersionNumberRequest_Headers">
+    <wsdl:part name="ApplicationToken" element="tns:ApplicationToken" />
+    <wsdl:part name="Credentials" element="tns:Credentials" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="SaveQuoteVersionNumberResponse">
+    <wsdl:part name="parameters" element="tns:SaveQuoteVersionNumberResponse" />
+  </wsdl:message>
+  <wsdl:message name="SaveQuoteVersionNumberResponse_Headers">
+    <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
+    <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
+    <wsdl:part name="Succeeded" element="tns:Succeeded" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="GetQuoteVersionWorkflowImageStateRequest">
+    <wsdl:part name="parameters" element="tns:GetQuoteVersionWorkflowImageState" />
+  </wsdl:message>
+  <wsdl:message name="GetQuoteVersionWorkflowImageStateRequest_Headers">
+    <wsdl:part name="ApplicationToken" element="tns:ApplicationToken" />
+    <wsdl:part name="Credentials" element="tns:Credentials" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="GetQuoteVersionWorkflowImageStateResponse">
+    <wsdl:part name="parameters" element="tns:GetQuoteVersionWorkflowImageStateResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetQuoteVersionWorkflowImageStateResponse_Headers">
+    <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
+    <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
+    <wsdl:part name="Succeeded" element="tns:Succeeded" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="GetQuoteVersionWorkflowButtonStatesRequest">
+    <wsdl:part name="parameters" element="tns:GetQuoteVersionWorkflowButtonStates" />
+  </wsdl:message>
+  <wsdl:message name="GetQuoteVersionWorkflowButtonStatesRequest_Headers">
+    <wsdl:part name="ApplicationToken" element="tns:ApplicationToken" />
+    <wsdl:part name="Credentials" element="tns:Credentials" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="GetQuoteVersionWorkflowButtonStatesResponse">
+    <wsdl:part name="parameters" element="tns:GetQuoteVersionWorkflowButtonStatesResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetQuoteVersionWorkflowButtonStatesResponse_Headers">
+    <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
+    <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
+    <wsdl:part name="Succeeded" element="tns:Succeeded" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="GetQuoteVersionWorkflowStatusInfoRequest">
+    <wsdl:part name="parameters" element="tns:GetQuoteVersionWorkflowStatusInfo" />
+  </wsdl:message>
+  <wsdl:message name="GetQuoteVersionWorkflowStatusInfoRequest_Headers">
+    <wsdl:part name="ApplicationToken" element="tns:ApplicationToken" />
+    <wsdl:part name="Credentials" element="tns:Credentials" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="GetQuoteVersionWorkflowStatusInfoResponse">
+    <wsdl:part name="parameters" element="tns:GetQuoteVersionWorkflowStatusInfoResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetQuoteVersionWorkflowStatusInfoResponse_Headers">
+    <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
+    <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
+    <wsdl:part name="Succeeded" element="tns:Succeeded" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="CreateOrUpdateQuoteVersionAttachmentsRequest">
+    <wsdl:part name="parameters" element="tns:CreateOrUpdateQuoteVersionAttachments" />
+  </wsdl:message>
+  <wsdl:message name="CreateOrUpdateQuoteVersionAttachmentsRequest_Headers">
+    <wsdl:part name="ApplicationToken" element="tns:ApplicationToken" />
+    <wsdl:part name="Credentials" element="tns:Credentials" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="CreateOrUpdateQuoteVersionAttachmentsResponse">
+    <wsdl:part name="parameters" element="tns:CreateOrUpdateQuoteVersionAttachmentsResponse" />
+  </wsdl:message>
+  <wsdl:message name="CreateOrUpdateQuoteVersionAttachmentsResponse_Headers">
+    <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
+    <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
+    <wsdl:part name="Succeeded" element="tns:Succeeded" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="IncludeQuoteVersionAttachmentRequest">
+    <wsdl:part name="parameters" element="tns:IncludeQuoteVersionAttachment" />
+  </wsdl:message>
+  <wsdl:message name="IncludeQuoteVersionAttachmentRequest_Headers">
+    <wsdl:part name="ApplicationToken" element="tns:ApplicationToken" />
+    <wsdl:part name="Credentials" element="tns:Credentials" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="IncludeQuoteVersionAttachmentResponse">
+    <wsdl:part name="parameters" element="tns:IncludeQuoteVersionAttachmentResponse" />
+  </wsdl:message>
+  <wsdl:message name="IncludeQuoteVersionAttachmentResponse_Headers">
+    <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
+    <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
+    <wsdl:part name="Succeeded" element="tns:Succeeded" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="ToggleSaleTypeQuoteAttachmentDefaultIncludedRequest">
+    <wsdl:part name="parameters" element="tns:ToggleSaleTypeQuoteAttachmentDefaultIncluded" />
+  </wsdl:message>
+  <wsdl:message name="ToggleSaleTypeQuoteAttachmentDefaultIncludedRequest_Headers">
+    <wsdl:part name="ApplicationToken" element="tns:ApplicationToken" />
+    <wsdl:part name="Credentials" element="tns:Credentials" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="ToggleSaleTypeQuoteAttachmentDefaultIncludedResponse">
+    <wsdl:part name="parameters" element="tns:ToggleSaleTypeQuoteAttachmentDefaultIncludedResponse" />
+  </wsdl:message>
+  <wsdl:message name="ToggleSaleTypeQuoteAttachmentDefaultIncludedResponse_Headers">
+    <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
+    <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
+    <wsdl:part name="Succeeded" element="tns:Succeeded" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="AddSaleTypeQuoteAttachmentRequest">
+    <wsdl:part name="parameters" element="tns:AddSaleTypeQuoteAttachment" />
+  </wsdl:message>
+  <wsdl:message name="AddSaleTypeQuoteAttachmentRequest_Headers">
+    <wsdl:part name="ApplicationToken" element="tns:ApplicationToken" />
+    <wsdl:part name="Credentials" element="tns:Credentials" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="AddSaleTypeQuoteAttachmentResponse">
+    <wsdl:part name="parameters" element="tns:AddSaleTypeQuoteAttachmentResponse" />
+  </wsdl:message>
+  <wsdl:message name="AddSaleTypeQuoteAttachmentResponse_Headers">
+    <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
+    <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
+    <wsdl:part name="Succeeded" element="tns:Succeeded" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="DeleteSaleTypeQuoteAttachmentRequest">
+    <wsdl:part name="parameters" element="tns:DeleteSaleTypeQuoteAttachment" />
+  </wsdl:message>
+  <wsdl:message name="DeleteSaleTypeQuoteAttachmentRequest_Headers">
+    <wsdl:part name="ApplicationToken" element="tns:ApplicationToken" />
+    <wsdl:part name="Credentials" element="tns:Credentials" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="DeleteSaleTypeQuoteAttachmentResponse">
+    <wsdl:part name="parameters" element="tns:DeleteSaleTypeQuoteAttachmentResponse" />
+  </wsdl:message>
+  <wsdl:message name="DeleteSaleTypeQuoteAttachmentResponse_Headers">
+    <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
+    <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
+    <wsdl:part name="Succeeded" element="tns:Succeeded" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="ToggleQuoteVersionAttachmentIncludedRequest">
+    <wsdl:part name="parameters" element="tns:ToggleQuoteVersionAttachmentIncluded" />
+  </wsdl:message>
+  <wsdl:message name="ToggleQuoteVersionAttachmentIncludedRequest_Headers">
+    <wsdl:part name="ApplicationToken" element="tns:ApplicationToken" />
+    <wsdl:part name="Credentials" element="tns:Credentials" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="ToggleQuoteVersionAttachmentIncludedResponse">
+    <wsdl:part name="parameters" element="tns:ToggleQuoteVersionAttachmentIncludedResponse" />
+  </wsdl:message>
+  <wsdl:message name="ToggleQuoteVersionAttachmentIncludedResponse_Headers">
+    <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
+    <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
+    <wsdl:part name="Succeeded" element="tns:Succeeded" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
   <wsdl:portType name="Quote">
     <wsdl:documentation>
       <summary>Declaration of Wcf web services for Quote</summary>
     </wsdl:documentation>
-    <wsdl:operation name="UpdateQuoteVersionPrices">
-      <wsdl:documentation>
-        <summary>Update price on the all the quotelines for each alternative in the current quote version</summary>
-      </wsdl:documentation>
-      <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/Quote/UpdateQuoteVersionPrices" name="UpdateQuoteVersionPricesRequest" message="tns:UpdateQuoteVersionPricesRequest" />
-      <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/Quote/UpdateQuoteVersionPricesResponse" name="UpdateQuoteVersionPricesResponse" message="tns:UpdateQuoteVersionPricesResponse" />
-    </wsdl:operation>
-    <wsdl:operation name="SaveQuoteVersionNumber">
-      <wsdl:documentation>
-        <summary>Save the quote version number if it is valid</summary>
-      </wsdl:documentation>
-      <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/Quote/SaveQuoteVersionNumber" name="SaveQuoteVersionNumberRequest" message="tns:SaveQuoteVersionNumberRequest" />
-      <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/Quote/SaveQuoteVersionNumberResponse" name="SaveQuoteVersionNumberResponse" message="tns:SaveQuoteVersionNumberResponse" />
-    </wsdl:operation>
-    <wsdl:operation name="GetQuoteVersionWorkflowImageState">
-      <wsdl:documentation>
-        <summary>Get state icon and name for the Quote version dialog header.</summary>
-      </wsdl:documentation>
-      <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/Quote/GetQuoteVersionWorkflowImageState" name="GetQuoteVersionWorkflowImageStateRequest" message="tns:GetQuoteVersionWorkflowImageStateRequest" />
-      <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/Quote/GetQuoteVersionWorkflowImageStateResponse" name="GetQuoteVersionWorkflowImageStateResponse" message="tns:GetQuoteVersionWorkflowImageStateResponse" />
-    </wsdl:operation>
-    <wsdl:operation name="GetQuoteVersionWorkflowButtonStates">
-      <wsdl:documentation>
-        <summary>Get all button states for the Quote version dialog.</summary>
-      </wsdl:documentation>
-      <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/Quote/GetQuoteVersionWorkflowButtonStates" name="GetQuoteVersionWorkflowButtonStatesRequest" message="tns:GetQuoteVersionWorkflowButtonStatesRequest" />
-      <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/Quote/GetQuoteVersionWorkflowButtonStatesResponse" name="GetQuoteVersionWorkflowButtonStatesResponse" message="tns:GetQuoteVersionWorkflowButtonStatesResponse" />
-    </wsdl:operation>
-    <wsdl:operation name="GetQuoteVersionWorkflowStatusInfo">
-      <wsdl:documentation>
-        <summary>Get status info for the Quote version dialog header. Collects most important warnings/errors from across all quotelines/alternatives in this quote version.</summary>
-      </wsdl:documentation>
-      <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/Quote/GetQuoteVersionWorkflowStatusInfo" name="GetQuoteVersionWorkflowStatusInfoRequest" message="tns:GetQuoteVersionWorkflowStatusInfoRequest" />
-      <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/Quote/GetQuoteVersionWorkflowStatusInfoResponse" name="GetQuoteVersionWorkflowStatusInfoResponse" message="tns:GetQuoteVersionWorkflowStatusInfoResponse" />
-    </wsdl:operation>
-    <wsdl:operation name="CreateOrUpdateQuoteVersionAttachments">
-      <wsdl:documentation>
-        <summary>Look at the Quote version, related sale and sale type, and ensure that the correct QuoteVersionAttachment records exist. This method may create or delete records</summary>
-      </wsdl:documentation>
-      <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/Quote/CreateOrUpdateQuoteVersionAttachments" name="CreateOrUpdateQuoteVersionAttachmentsRequest" message="tns:CreateOrUpdateQuoteVersionAttachmentsRequest" />
-      <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/Quote/CreateOrUpdateQuoteVersionAttachmentsResponse" name="CreateOrUpdateQuoteVersionAttachmentsResponse" message="tns:CreateOrUpdateQuoteVersionAttachmentsResponse" />
-    </wsdl:operation>
-    <wsdl:operation name="IncludeQuoteVersionAttachment">
-      <wsdl:documentation>
-        <summary>Toggle the 'included' state of a quote version attachment; will throw exceptions if called on locked versions</summary>
-      </wsdl:documentation>
-      <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/Quote/IncludeQuoteVersionAttachment" name="IncludeQuoteVersionAttachmentRequest" message="tns:IncludeQuoteVersionAttachmentRequest" />
-      <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/Quote/IncludeQuoteVersionAttachmentResponse" name="IncludeQuoteVersionAttachmentResponse" message="tns:IncludeQuoteVersionAttachmentResponse" />
-    </wsdl:operation>
-    <wsdl:operation name="ToggleSaleTypeQuoteAttachmentDefaultIncluded">
-      <wsdl:documentation>
-        <summary>Toggle the 'default included' state of a sale type quote attachment</summary>
-      </wsdl:documentation>
-      <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/Quote/ToggleSaleTypeQuoteAttachmentDefaultIncluded" name="ToggleSaleTypeQuoteAttachmentDefaultIncludedRequest" message="tns:ToggleSaleTypeQuoteAttachmentDefaultIncludedRequest" />
-      <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/Quote/ToggleSaleTypeQuoteAttachmentDefaultIncludedResponse" name="ToggleSaleTypeQuoteAttachmentDefaultIncludedResponse" message="tns:ToggleSaleTypeQuoteAttachmentDefaultIncludedResponse" />
-    </wsdl:operation>
-    <wsdl:operation name="AddSaleTypeQuoteAttachment">
-      <wsdl:documentation>
-        <summary>Adds a new quote attachment document to a sale type</summary>
-      </wsdl:documentation>
-      <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/Quote/AddSaleTypeQuoteAttachment" name="AddSaleTypeQuoteAttachmentRequest" message="tns:AddSaleTypeQuoteAttachmentRequest" />
-      <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/Quote/AddSaleTypeQuoteAttachmentResponse" name="AddSaleTypeQuoteAttachmentResponse" message="tns:AddSaleTypeQuoteAttachmentResponse" />
-    </wsdl:operation>
-    <wsdl:operation name="DeleteSaleTypeQuoteAttachment">
-      <wsdl:documentation>
-        <summary>Deletes the sale type quote attachment with the given id</summary>
-      </wsdl:documentation>
-      <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/Quote/DeleteSaleTypeQuoteAttachment" name="DeleteSaleTypeQuoteAttachmentRequest" message="tns:DeleteSaleTypeQuoteAttachmentRequest" />
-      <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/Quote/DeleteSaleTypeQuoteAttachmentResponse" name="DeleteSaleTypeQuoteAttachmentResponse" message="tns:DeleteSaleTypeQuoteAttachmentResponse" />
-    </wsdl:operation>
-    <wsdl:operation name="ToggleQuoteVersionAttachmentIncluded">
-      <wsdl:documentation>
-        <summary>Toggle the 'included' state of a quote version attachment</summary>
-      </wsdl:documentation>
-      <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/Quote/ToggleQuoteVersionAttachmentIncluded" name="ToggleQuoteVersionAttachmentIncludedRequest" message="tns:ToggleQuoteVersionAttachmentIncludedRequest" />
-      <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/Quote/ToggleQuoteVersionAttachmentIncludedResponse" name="ToggleQuoteVersionAttachmentIncludedResponse" message="tns:ToggleQuoteVersionAttachmentIncludedResponse" />
-    </wsdl:operation>
     <wsdl:operation name="CreateDefaultPriceList">
       <wsdl:documentation>
         <summary>Loading default values into a new PriceList.  NetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance.</summary>
@@ -4704,185 +4627,86 @@ title: Services84.QuoteAgent WSDL
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/Quote/GetQuoteVersionWorkflowState" name="GetQuoteVersionWorkflowStateRequest" message="tns:GetQuoteVersionWorkflowStateRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/Quote/GetQuoteVersionWorkflowStateResponse" name="GetQuoteVersionWorkflowStateResponse" message="tns:GetQuoteVersionWorkflowStateResponse" />
     </wsdl:operation>
+    <wsdl:operation name="UpdateQuoteVersionPrices">
+      <wsdl:documentation>
+        <summary>Update price on the all the quotelines for each alternative in the current quote version</summary>
+      </wsdl:documentation>
+      <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/Quote/UpdateQuoteVersionPrices" name="UpdateQuoteVersionPricesRequest" message="tns:UpdateQuoteVersionPricesRequest" />
+      <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/Quote/UpdateQuoteVersionPricesResponse" name="UpdateQuoteVersionPricesResponse" message="tns:UpdateQuoteVersionPricesResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="SaveQuoteVersionNumber">
+      <wsdl:documentation>
+        <summary>Save the quote version number if it is valid</summary>
+      </wsdl:documentation>
+      <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/Quote/SaveQuoteVersionNumber" name="SaveQuoteVersionNumberRequest" message="tns:SaveQuoteVersionNumberRequest" />
+      <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/Quote/SaveQuoteVersionNumberResponse" name="SaveQuoteVersionNumberResponse" message="tns:SaveQuoteVersionNumberResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="GetQuoteVersionWorkflowImageState">
+      <wsdl:documentation>
+        <summary>Get state icon and name for the Quote version dialog header.</summary>
+      </wsdl:documentation>
+      <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/Quote/GetQuoteVersionWorkflowImageState" name="GetQuoteVersionWorkflowImageStateRequest" message="tns:GetQuoteVersionWorkflowImageStateRequest" />
+      <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/Quote/GetQuoteVersionWorkflowImageStateResponse" name="GetQuoteVersionWorkflowImageStateResponse" message="tns:GetQuoteVersionWorkflowImageStateResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="GetQuoteVersionWorkflowButtonStates">
+      <wsdl:documentation>
+        <summary>Get all button states for the Quote version dialog.</summary>
+      </wsdl:documentation>
+      <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/Quote/GetQuoteVersionWorkflowButtonStates" name="GetQuoteVersionWorkflowButtonStatesRequest" message="tns:GetQuoteVersionWorkflowButtonStatesRequest" />
+      <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/Quote/GetQuoteVersionWorkflowButtonStatesResponse" name="GetQuoteVersionWorkflowButtonStatesResponse" message="tns:GetQuoteVersionWorkflowButtonStatesResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="GetQuoteVersionWorkflowStatusInfo">
+      <wsdl:documentation>
+        <summary>Get status info for the Quote version dialog header. Collects most important warnings/errors from across all quotelines/alternatives in this quote version.</summary>
+      </wsdl:documentation>
+      <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/Quote/GetQuoteVersionWorkflowStatusInfo" name="GetQuoteVersionWorkflowStatusInfoRequest" message="tns:GetQuoteVersionWorkflowStatusInfoRequest" />
+      <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/Quote/GetQuoteVersionWorkflowStatusInfoResponse" name="GetQuoteVersionWorkflowStatusInfoResponse" message="tns:GetQuoteVersionWorkflowStatusInfoResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="CreateOrUpdateQuoteVersionAttachments">
+      <wsdl:documentation>
+        <summary>Look at the Quote version, related sale and sale type, and ensure that the correct QuoteVersionAttachment records exist. This method may create or delete records</summary>
+      </wsdl:documentation>
+      <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/Quote/CreateOrUpdateQuoteVersionAttachments" name="CreateOrUpdateQuoteVersionAttachmentsRequest" message="tns:CreateOrUpdateQuoteVersionAttachmentsRequest" />
+      <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/Quote/CreateOrUpdateQuoteVersionAttachmentsResponse" name="CreateOrUpdateQuoteVersionAttachmentsResponse" message="tns:CreateOrUpdateQuoteVersionAttachmentsResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="IncludeQuoteVersionAttachment">
+      <wsdl:documentation>
+        <summary>Toggle the 'included' state of a quote version attachment; will throw exceptions if called on locked versions</summary>
+      </wsdl:documentation>
+      <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/Quote/IncludeQuoteVersionAttachment" name="IncludeQuoteVersionAttachmentRequest" message="tns:IncludeQuoteVersionAttachmentRequest" />
+      <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/Quote/IncludeQuoteVersionAttachmentResponse" name="IncludeQuoteVersionAttachmentResponse" message="tns:IncludeQuoteVersionAttachmentResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="ToggleSaleTypeQuoteAttachmentDefaultIncluded">
+      <wsdl:documentation>
+        <summary>Toggle the 'default included' state of a sale type quote attachment</summary>
+      </wsdl:documentation>
+      <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/Quote/ToggleSaleTypeQuoteAttachmentDefaultIncluded" name="ToggleSaleTypeQuoteAttachmentDefaultIncludedRequest" message="tns:ToggleSaleTypeQuoteAttachmentDefaultIncludedRequest" />
+      <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/Quote/ToggleSaleTypeQuoteAttachmentDefaultIncludedResponse" name="ToggleSaleTypeQuoteAttachmentDefaultIncludedResponse" message="tns:ToggleSaleTypeQuoteAttachmentDefaultIncludedResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="AddSaleTypeQuoteAttachment">
+      <wsdl:documentation>
+        <summary>Adds a new quote attachment document to a sale type</summary>
+      </wsdl:documentation>
+      <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/Quote/AddSaleTypeQuoteAttachment" name="AddSaleTypeQuoteAttachmentRequest" message="tns:AddSaleTypeQuoteAttachmentRequest" />
+      <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/Quote/AddSaleTypeQuoteAttachmentResponse" name="AddSaleTypeQuoteAttachmentResponse" message="tns:AddSaleTypeQuoteAttachmentResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="DeleteSaleTypeQuoteAttachment">
+      <wsdl:documentation>
+        <summary>Deletes the sale type quote attachment with the given id</summary>
+      </wsdl:documentation>
+      <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/Quote/DeleteSaleTypeQuoteAttachment" name="DeleteSaleTypeQuoteAttachmentRequest" message="tns:DeleteSaleTypeQuoteAttachmentRequest" />
+      <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/Quote/DeleteSaleTypeQuoteAttachmentResponse" name="DeleteSaleTypeQuoteAttachmentResponse" message="tns:DeleteSaleTypeQuoteAttachmentResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="ToggleQuoteVersionAttachmentIncluded">
+      <wsdl:documentation>
+        <summary>Toggle the 'included' state of a quote version attachment</summary>
+      </wsdl:documentation>
+      <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/Quote/ToggleQuoteVersionAttachmentIncluded" name="ToggleQuoteVersionAttachmentIncludedRequest" message="tns:ToggleQuoteVersionAttachmentIncludedRequest" />
+      <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services84/Quote/ToggleQuoteVersionAttachmentIncludedResponse" name="ToggleQuoteVersionAttachmentIncludedResponse" message="tns:ToggleQuoteVersionAttachmentIncludedResponse" />
+    </wsdl:operation>
   </wsdl:portType>
   <wsdl:binding name="BasicHttpBinding_Quote" type="tns:Quote">
     <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
-    <wsdl:operation name="UpdateQuoteVersionPrices">
-      <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services84/Quote/UpdateQuoteVersionPrices" style="document" />
-      <wsdl:input name="UpdateQuoteVersionPricesRequest">
-        <soap:header message="tns:UpdateQuoteVersionPricesRequest_Headers" part="ApplicationToken" use="literal" />
-        <soap:header message="tns:UpdateQuoteVersionPricesRequest_Headers" part="Credentials" use="literal" />
-        <soap:header message="tns:UpdateQuoteVersionPricesRequest_Headers" part="TimeZone" use="literal" />
-        <soap:body use="literal" />
-      </wsdl:input>
-      <wsdl:output name="UpdateQuoteVersionPricesResponse">
-        <soap:header message="tns:UpdateQuoteVersionPricesResponse_Headers" part="ExceptionInfo" use="literal" />
-        <soap:header message="tns:UpdateQuoteVersionPricesResponse_Headers" part="ExtraInfo" use="literal" />
-        <soap:header message="tns:UpdateQuoteVersionPricesResponse_Headers" part="Succeeded" use="literal" />
-        <soap:header message="tns:UpdateQuoteVersionPricesResponse_Headers" part="TimeZone" use="literal" />
-        <soap:body use="literal" />
-      </wsdl:output>
-    </wsdl:operation>
-    <wsdl:operation name="SaveQuoteVersionNumber">
-      <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services84/Quote/SaveQuoteVersionNumber" style="document" />
-      <wsdl:input name="SaveQuoteVersionNumberRequest">
-        <soap:header message="tns:SaveQuoteVersionNumberRequest_Headers" part="ApplicationToken" use="literal" />
-        <soap:header message="tns:SaveQuoteVersionNumberRequest_Headers" part="Credentials" use="literal" />
-        <soap:header message="tns:SaveQuoteVersionNumberRequest_Headers" part="TimeZone" use="literal" />
-        <soap:body use="literal" />
-      </wsdl:input>
-      <wsdl:output name="SaveQuoteVersionNumberResponse">
-        <soap:header message="tns:SaveQuoteVersionNumberResponse_Headers" part="ExceptionInfo" use="literal" />
-        <soap:header message="tns:SaveQuoteVersionNumberResponse_Headers" part="ExtraInfo" use="literal" />
-        <soap:header message="tns:SaveQuoteVersionNumberResponse_Headers" part="Succeeded" use="literal" />
-        <soap:header message="tns:SaveQuoteVersionNumberResponse_Headers" part="TimeZone" use="literal" />
-        <soap:body use="literal" />
-      </wsdl:output>
-    </wsdl:operation>
-    <wsdl:operation name="GetQuoteVersionWorkflowImageState">
-      <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services84/Quote/GetQuoteVersionWorkflowImageState" style="document" />
-      <wsdl:input name="GetQuoteVersionWorkflowImageStateRequest">
-        <soap:header message="tns:GetQuoteVersionWorkflowImageStateRequest_Headers" part="ApplicationToken" use="literal" />
-        <soap:header message="tns:GetQuoteVersionWorkflowImageStateRequest_Headers" part="Credentials" use="literal" />
-        <soap:header message="tns:GetQuoteVersionWorkflowImageStateRequest_Headers" part="TimeZone" use="literal" />
-        <soap:body use="literal" />
-      </wsdl:input>
-      <wsdl:output name="GetQuoteVersionWorkflowImageStateResponse">
-        <soap:header message="tns:GetQuoteVersionWorkflowImageStateResponse_Headers" part="ExceptionInfo" use="literal" />
-        <soap:header message="tns:GetQuoteVersionWorkflowImageStateResponse_Headers" part="ExtraInfo" use="literal" />
-        <soap:header message="tns:GetQuoteVersionWorkflowImageStateResponse_Headers" part="Succeeded" use="literal" />
-        <soap:header message="tns:GetQuoteVersionWorkflowImageStateResponse_Headers" part="TimeZone" use="literal" />
-        <soap:body use="literal" />
-      </wsdl:output>
-    </wsdl:operation>
-    <wsdl:operation name="GetQuoteVersionWorkflowButtonStates">
-      <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services84/Quote/GetQuoteVersionWorkflowButtonStates" style="document" />
-      <wsdl:input name="GetQuoteVersionWorkflowButtonStatesRequest">
-        <soap:header message="tns:GetQuoteVersionWorkflowButtonStatesRequest_Headers" part="ApplicationToken" use="literal" />
-        <soap:header message="tns:GetQuoteVersionWorkflowButtonStatesRequest_Headers" part="Credentials" use="literal" />
-        <soap:header message="tns:GetQuoteVersionWorkflowButtonStatesRequest_Headers" part="TimeZone" use="literal" />
-        <soap:body use="literal" />
-      </wsdl:input>
-      <wsdl:output name="GetQuoteVersionWorkflowButtonStatesResponse">
-        <soap:header message="tns:GetQuoteVersionWorkflowButtonStatesResponse_Headers" part="ExceptionInfo" use="literal" />
-        <soap:header message="tns:GetQuoteVersionWorkflowButtonStatesResponse_Headers" part="ExtraInfo" use="literal" />
-        <soap:header message="tns:GetQuoteVersionWorkflowButtonStatesResponse_Headers" part="Succeeded" use="literal" />
-        <soap:header message="tns:GetQuoteVersionWorkflowButtonStatesResponse_Headers" part="TimeZone" use="literal" />
-        <soap:body use="literal" />
-      </wsdl:output>
-    </wsdl:operation>
-    <wsdl:operation name="GetQuoteVersionWorkflowStatusInfo">
-      <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services84/Quote/GetQuoteVersionWorkflowStatusInfo" style="document" />
-      <wsdl:input name="GetQuoteVersionWorkflowStatusInfoRequest">
-        <soap:header message="tns:GetQuoteVersionWorkflowStatusInfoRequest_Headers" part="ApplicationToken" use="literal" />
-        <soap:header message="tns:GetQuoteVersionWorkflowStatusInfoRequest_Headers" part="Credentials" use="literal" />
-        <soap:header message="tns:GetQuoteVersionWorkflowStatusInfoRequest_Headers" part="TimeZone" use="literal" />
-        <soap:body use="literal" />
-      </wsdl:input>
-      <wsdl:output name="GetQuoteVersionWorkflowStatusInfoResponse">
-        <soap:header message="tns:GetQuoteVersionWorkflowStatusInfoResponse_Headers" part="ExceptionInfo" use="literal" />
-        <soap:header message="tns:GetQuoteVersionWorkflowStatusInfoResponse_Headers" part="ExtraInfo" use="literal" />
-        <soap:header message="tns:GetQuoteVersionWorkflowStatusInfoResponse_Headers" part="Succeeded" use="literal" />
-        <soap:header message="tns:GetQuoteVersionWorkflowStatusInfoResponse_Headers" part="TimeZone" use="literal" />
-        <soap:body use="literal" />
-      </wsdl:output>
-    </wsdl:operation>
-    <wsdl:operation name="CreateOrUpdateQuoteVersionAttachments">
-      <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services84/Quote/CreateOrUpdateQuoteVersionAttachments" style="document" />
-      <wsdl:input name="CreateOrUpdateQuoteVersionAttachmentsRequest">
-        <soap:header message="tns:CreateOrUpdateQuoteVersionAttachmentsRequest_Headers" part="ApplicationToken" use="literal" />
-        <soap:header message="tns:CreateOrUpdateQuoteVersionAttachmentsRequest_Headers" part="Credentials" use="literal" />
-        <soap:header message="tns:CreateOrUpdateQuoteVersionAttachmentsRequest_Headers" part="TimeZone" use="literal" />
-        <soap:body use="literal" />
-      </wsdl:input>
-      <wsdl:output name="CreateOrUpdateQuoteVersionAttachmentsResponse">
-        <soap:header message="tns:CreateOrUpdateQuoteVersionAttachmentsResponse_Headers" part="ExceptionInfo" use="literal" />
-        <soap:header message="tns:CreateOrUpdateQuoteVersionAttachmentsResponse_Headers" part="ExtraInfo" use="literal" />
-        <soap:header message="tns:CreateOrUpdateQuoteVersionAttachmentsResponse_Headers" part="Succeeded" use="literal" />
-        <soap:header message="tns:CreateOrUpdateQuoteVersionAttachmentsResponse_Headers" part="TimeZone" use="literal" />
-        <soap:body use="literal" />
-      </wsdl:output>
-    </wsdl:operation>
-    <wsdl:operation name="IncludeQuoteVersionAttachment">
-      <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services84/Quote/IncludeQuoteVersionAttachment" style="document" />
-      <wsdl:input name="IncludeQuoteVersionAttachmentRequest">
-        <soap:header message="tns:IncludeQuoteVersionAttachmentRequest_Headers" part="ApplicationToken" use="literal" />
-        <soap:header message="tns:IncludeQuoteVersionAttachmentRequest_Headers" part="Credentials" use="literal" />
-        <soap:header message="tns:IncludeQuoteVersionAttachmentRequest_Headers" part="TimeZone" use="literal" />
-        <soap:body use="literal" />
-      </wsdl:input>
-      <wsdl:output name="IncludeQuoteVersionAttachmentResponse">
-        <soap:header message="tns:IncludeQuoteVersionAttachmentResponse_Headers" part="ExceptionInfo" use="literal" />
-        <soap:header message="tns:IncludeQuoteVersionAttachmentResponse_Headers" part="ExtraInfo" use="literal" />
-        <soap:header message="tns:IncludeQuoteVersionAttachmentResponse_Headers" part="Succeeded" use="literal" />
-        <soap:header message="tns:IncludeQuoteVersionAttachmentResponse_Headers" part="TimeZone" use="literal" />
-        <soap:body use="literal" />
-      </wsdl:output>
-    </wsdl:operation>
-    <wsdl:operation name="ToggleSaleTypeQuoteAttachmentDefaultIncluded">
-      <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services84/Quote/ToggleSaleTypeQuoteAttachmentDefaultIncluded" style="document" />
-      <wsdl:input name="ToggleSaleTypeQuoteAttachmentDefaultIncludedRequest">
-        <soap:header message="tns:ToggleSaleTypeQuoteAttachmentDefaultIncludedRequest_Headers" part="ApplicationToken" use="literal" />
-        <soap:header message="tns:ToggleSaleTypeQuoteAttachmentDefaultIncludedRequest_Headers" part="Credentials" use="literal" />
-        <soap:header message="tns:ToggleSaleTypeQuoteAttachmentDefaultIncludedRequest_Headers" part="TimeZone" use="literal" />
-        <soap:body use="literal" />
-      </wsdl:input>
-      <wsdl:output name="ToggleSaleTypeQuoteAttachmentDefaultIncludedResponse">
-        <soap:header message="tns:ToggleSaleTypeQuoteAttachmentDefaultIncludedResponse_Headers" part="ExceptionInfo" use="literal" />
-        <soap:header message="tns:ToggleSaleTypeQuoteAttachmentDefaultIncludedResponse_Headers" part="ExtraInfo" use="literal" />
-        <soap:header message="tns:ToggleSaleTypeQuoteAttachmentDefaultIncludedResponse_Headers" part="Succeeded" use="literal" />
-        <soap:header message="tns:ToggleSaleTypeQuoteAttachmentDefaultIncludedResponse_Headers" part="TimeZone" use="literal" />
-        <soap:body use="literal" />
-      </wsdl:output>
-    </wsdl:operation>
-    <wsdl:operation name="AddSaleTypeQuoteAttachment">
-      <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services84/Quote/AddSaleTypeQuoteAttachment" style="document" />
-      <wsdl:input name="AddSaleTypeQuoteAttachmentRequest">
-        <soap:header message="tns:AddSaleTypeQuoteAttachmentRequest_Headers" part="ApplicationToken" use="literal" />
-        <soap:header message="tns:AddSaleTypeQuoteAttachmentRequest_Headers" part="Credentials" use="literal" />
-        <soap:header message="tns:AddSaleTypeQuoteAttachmentRequest_Headers" part="TimeZone" use="literal" />
-        <soap:body use="literal" />
-      </wsdl:input>
-      <wsdl:output name="AddSaleTypeQuoteAttachmentResponse">
-        <soap:header message="tns:AddSaleTypeQuoteAttachmentResponse_Headers" part="ExceptionInfo" use="literal" />
-        <soap:header message="tns:AddSaleTypeQuoteAttachmentResponse_Headers" part="ExtraInfo" use="literal" />
-        <soap:header message="tns:AddSaleTypeQuoteAttachmentResponse_Headers" part="Succeeded" use="literal" />
-        <soap:header message="tns:AddSaleTypeQuoteAttachmentResponse_Headers" part="TimeZone" use="literal" />
-        <soap:body use="literal" />
-      </wsdl:output>
-    </wsdl:operation>
-    <wsdl:operation name="DeleteSaleTypeQuoteAttachment">
-      <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services84/Quote/DeleteSaleTypeQuoteAttachment" style="document" />
-      <wsdl:input name="DeleteSaleTypeQuoteAttachmentRequest">
-        <soap:header message="tns:DeleteSaleTypeQuoteAttachmentRequest_Headers" part="ApplicationToken" use="literal" />
-        <soap:header message="tns:DeleteSaleTypeQuoteAttachmentRequest_Headers" part="Credentials" use="literal" />
-        <soap:header message="tns:DeleteSaleTypeQuoteAttachmentRequest_Headers" part="TimeZone" use="literal" />
-        <soap:body use="literal" />
-      </wsdl:input>
-      <wsdl:output name="DeleteSaleTypeQuoteAttachmentResponse">
-        <soap:header message="tns:DeleteSaleTypeQuoteAttachmentResponse_Headers" part="ExceptionInfo" use="literal" />
-        <soap:header message="tns:DeleteSaleTypeQuoteAttachmentResponse_Headers" part="ExtraInfo" use="literal" />
-        <soap:header message="tns:DeleteSaleTypeQuoteAttachmentResponse_Headers" part="Succeeded" use="literal" />
-        <soap:header message="tns:DeleteSaleTypeQuoteAttachmentResponse_Headers" part="TimeZone" use="literal" />
-        <soap:body use="literal" />
-      </wsdl:output>
-    </wsdl:operation>
-    <wsdl:operation name="ToggleQuoteVersionAttachmentIncluded">
-      <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services84/Quote/ToggleQuoteVersionAttachmentIncluded" style="document" />
-      <wsdl:input name="ToggleQuoteVersionAttachmentIncludedRequest">
-        <soap:header message="tns:ToggleQuoteVersionAttachmentIncludedRequest_Headers" part="ApplicationToken" use="literal" />
-        <soap:header message="tns:ToggleQuoteVersionAttachmentIncludedRequest_Headers" part="Credentials" use="literal" />
-        <soap:header message="tns:ToggleQuoteVersionAttachmentIncludedRequest_Headers" part="TimeZone" use="literal" />
-        <soap:body use="literal" />
-      </wsdl:input>
-      <wsdl:output name="ToggleQuoteVersionAttachmentIncludedResponse">
-        <soap:header message="tns:ToggleQuoteVersionAttachmentIncludedResponse_Headers" part="ExceptionInfo" use="literal" />
-        <soap:header message="tns:ToggleQuoteVersionAttachmentIncludedResponse_Headers" part="ExtraInfo" use="literal" />
-        <soap:header message="tns:ToggleQuoteVersionAttachmentIncludedResponse_Headers" part="Succeeded" use="literal" />
-        <soap:header message="tns:ToggleQuoteVersionAttachmentIncludedResponse_Headers" part="TimeZone" use="literal" />
-        <soap:body use="literal" />
-      </wsdl:output>
-    </wsdl:operation>
     <wsdl:operation name="CreateDefaultPriceList">
       <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services84/Quote/CreateDefaultPriceList" style="document" />
       <wsdl:input name="CreateDefaultPriceListRequest">
@@ -6243,6 +6067,182 @@ title: Services84.QuoteAgent WSDL
         <soap:body use="literal" />
       </wsdl:output>
     </wsdl:operation>
+    <wsdl:operation name="UpdateQuoteVersionPrices">
+      <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services84/Quote/UpdateQuoteVersionPrices" style="document" />
+      <wsdl:input name="UpdateQuoteVersionPricesRequest">
+        <soap:header message="tns:UpdateQuoteVersionPricesRequest_Headers" part="ApplicationToken" use="literal" />
+        <soap:header message="tns:UpdateQuoteVersionPricesRequest_Headers" part="Credentials" use="literal" />
+        <soap:header message="tns:UpdateQuoteVersionPricesRequest_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="UpdateQuoteVersionPricesResponse">
+        <soap:header message="tns:UpdateQuoteVersionPricesResponse_Headers" part="ExceptionInfo" use="literal" />
+        <soap:header message="tns:UpdateQuoteVersionPricesResponse_Headers" part="ExtraInfo" use="literal" />
+        <soap:header message="tns:UpdateQuoteVersionPricesResponse_Headers" part="Succeeded" use="literal" />
+        <soap:header message="tns:UpdateQuoteVersionPricesResponse_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SaveQuoteVersionNumber">
+      <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services84/Quote/SaveQuoteVersionNumber" style="document" />
+      <wsdl:input name="SaveQuoteVersionNumberRequest">
+        <soap:header message="tns:SaveQuoteVersionNumberRequest_Headers" part="ApplicationToken" use="literal" />
+        <soap:header message="tns:SaveQuoteVersionNumberRequest_Headers" part="Credentials" use="literal" />
+        <soap:header message="tns:SaveQuoteVersionNumberRequest_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="SaveQuoteVersionNumberResponse">
+        <soap:header message="tns:SaveQuoteVersionNumberResponse_Headers" part="ExceptionInfo" use="literal" />
+        <soap:header message="tns:SaveQuoteVersionNumberResponse_Headers" part="ExtraInfo" use="literal" />
+        <soap:header message="tns:SaveQuoteVersionNumberResponse_Headers" part="Succeeded" use="literal" />
+        <soap:header message="tns:SaveQuoteVersionNumberResponse_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetQuoteVersionWorkflowImageState">
+      <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services84/Quote/GetQuoteVersionWorkflowImageState" style="document" />
+      <wsdl:input name="GetQuoteVersionWorkflowImageStateRequest">
+        <soap:header message="tns:GetQuoteVersionWorkflowImageStateRequest_Headers" part="ApplicationToken" use="literal" />
+        <soap:header message="tns:GetQuoteVersionWorkflowImageStateRequest_Headers" part="Credentials" use="literal" />
+        <soap:header message="tns:GetQuoteVersionWorkflowImageStateRequest_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="GetQuoteVersionWorkflowImageStateResponse">
+        <soap:header message="tns:GetQuoteVersionWorkflowImageStateResponse_Headers" part="ExceptionInfo" use="literal" />
+        <soap:header message="tns:GetQuoteVersionWorkflowImageStateResponse_Headers" part="ExtraInfo" use="literal" />
+        <soap:header message="tns:GetQuoteVersionWorkflowImageStateResponse_Headers" part="Succeeded" use="literal" />
+        <soap:header message="tns:GetQuoteVersionWorkflowImageStateResponse_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetQuoteVersionWorkflowButtonStates">
+      <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services84/Quote/GetQuoteVersionWorkflowButtonStates" style="document" />
+      <wsdl:input name="GetQuoteVersionWorkflowButtonStatesRequest">
+        <soap:header message="tns:GetQuoteVersionWorkflowButtonStatesRequest_Headers" part="ApplicationToken" use="literal" />
+        <soap:header message="tns:GetQuoteVersionWorkflowButtonStatesRequest_Headers" part="Credentials" use="literal" />
+        <soap:header message="tns:GetQuoteVersionWorkflowButtonStatesRequest_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="GetQuoteVersionWorkflowButtonStatesResponse">
+        <soap:header message="tns:GetQuoteVersionWorkflowButtonStatesResponse_Headers" part="ExceptionInfo" use="literal" />
+        <soap:header message="tns:GetQuoteVersionWorkflowButtonStatesResponse_Headers" part="ExtraInfo" use="literal" />
+        <soap:header message="tns:GetQuoteVersionWorkflowButtonStatesResponse_Headers" part="Succeeded" use="literal" />
+        <soap:header message="tns:GetQuoteVersionWorkflowButtonStatesResponse_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetQuoteVersionWorkflowStatusInfo">
+      <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services84/Quote/GetQuoteVersionWorkflowStatusInfo" style="document" />
+      <wsdl:input name="GetQuoteVersionWorkflowStatusInfoRequest">
+        <soap:header message="tns:GetQuoteVersionWorkflowStatusInfoRequest_Headers" part="ApplicationToken" use="literal" />
+        <soap:header message="tns:GetQuoteVersionWorkflowStatusInfoRequest_Headers" part="Credentials" use="literal" />
+        <soap:header message="tns:GetQuoteVersionWorkflowStatusInfoRequest_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="GetQuoteVersionWorkflowStatusInfoResponse">
+        <soap:header message="tns:GetQuoteVersionWorkflowStatusInfoResponse_Headers" part="ExceptionInfo" use="literal" />
+        <soap:header message="tns:GetQuoteVersionWorkflowStatusInfoResponse_Headers" part="ExtraInfo" use="literal" />
+        <soap:header message="tns:GetQuoteVersionWorkflowStatusInfoResponse_Headers" part="Succeeded" use="literal" />
+        <soap:header message="tns:GetQuoteVersionWorkflowStatusInfoResponse_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CreateOrUpdateQuoteVersionAttachments">
+      <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services84/Quote/CreateOrUpdateQuoteVersionAttachments" style="document" />
+      <wsdl:input name="CreateOrUpdateQuoteVersionAttachmentsRequest">
+        <soap:header message="tns:CreateOrUpdateQuoteVersionAttachmentsRequest_Headers" part="ApplicationToken" use="literal" />
+        <soap:header message="tns:CreateOrUpdateQuoteVersionAttachmentsRequest_Headers" part="Credentials" use="literal" />
+        <soap:header message="tns:CreateOrUpdateQuoteVersionAttachmentsRequest_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="CreateOrUpdateQuoteVersionAttachmentsResponse">
+        <soap:header message="tns:CreateOrUpdateQuoteVersionAttachmentsResponse_Headers" part="ExceptionInfo" use="literal" />
+        <soap:header message="tns:CreateOrUpdateQuoteVersionAttachmentsResponse_Headers" part="ExtraInfo" use="literal" />
+        <soap:header message="tns:CreateOrUpdateQuoteVersionAttachmentsResponse_Headers" part="Succeeded" use="literal" />
+        <soap:header message="tns:CreateOrUpdateQuoteVersionAttachmentsResponse_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="IncludeQuoteVersionAttachment">
+      <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services84/Quote/IncludeQuoteVersionAttachment" style="document" />
+      <wsdl:input name="IncludeQuoteVersionAttachmentRequest">
+        <soap:header message="tns:IncludeQuoteVersionAttachmentRequest_Headers" part="ApplicationToken" use="literal" />
+        <soap:header message="tns:IncludeQuoteVersionAttachmentRequest_Headers" part="Credentials" use="literal" />
+        <soap:header message="tns:IncludeQuoteVersionAttachmentRequest_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="IncludeQuoteVersionAttachmentResponse">
+        <soap:header message="tns:IncludeQuoteVersionAttachmentResponse_Headers" part="ExceptionInfo" use="literal" />
+        <soap:header message="tns:IncludeQuoteVersionAttachmentResponse_Headers" part="ExtraInfo" use="literal" />
+        <soap:header message="tns:IncludeQuoteVersionAttachmentResponse_Headers" part="Succeeded" use="literal" />
+        <soap:header message="tns:IncludeQuoteVersionAttachmentResponse_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ToggleSaleTypeQuoteAttachmentDefaultIncluded">
+      <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services84/Quote/ToggleSaleTypeQuoteAttachmentDefaultIncluded" style="document" />
+      <wsdl:input name="ToggleSaleTypeQuoteAttachmentDefaultIncludedRequest">
+        <soap:header message="tns:ToggleSaleTypeQuoteAttachmentDefaultIncludedRequest_Headers" part="ApplicationToken" use="literal" />
+        <soap:header message="tns:ToggleSaleTypeQuoteAttachmentDefaultIncludedRequest_Headers" part="Credentials" use="literal" />
+        <soap:header message="tns:ToggleSaleTypeQuoteAttachmentDefaultIncludedRequest_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="ToggleSaleTypeQuoteAttachmentDefaultIncludedResponse">
+        <soap:header message="tns:ToggleSaleTypeQuoteAttachmentDefaultIncludedResponse_Headers" part="ExceptionInfo" use="literal" />
+        <soap:header message="tns:ToggleSaleTypeQuoteAttachmentDefaultIncludedResponse_Headers" part="ExtraInfo" use="literal" />
+        <soap:header message="tns:ToggleSaleTypeQuoteAttachmentDefaultIncludedResponse_Headers" part="Succeeded" use="literal" />
+        <soap:header message="tns:ToggleSaleTypeQuoteAttachmentDefaultIncludedResponse_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AddSaleTypeQuoteAttachment">
+      <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services84/Quote/AddSaleTypeQuoteAttachment" style="document" />
+      <wsdl:input name="AddSaleTypeQuoteAttachmentRequest">
+        <soap:header message="tns:AddSaleTypeQuoteAttachmentRequest_Headers" part="ApplicationToken" use="literal" />
+        <soap:header message="tns:AddSaleTypeQuoteAttachmentRequest_Headers" part="Credentials" use="literal" />
+        <soap:header message="tns:AddSaleTypeQuoteAttachmentRequest_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="AddSaleTypeQuoteAttachmentResponse">
+        <soap:header message="tns:AddSaleTypeQuoteAttachmentResponse_Headers" part="ExceptionInfo" use="literal" />
+        <soap:header message="tns:AddSaleTypeQuoteAttachmentResponse_Headers" part="ExtraInfo" use="literal" />
+        <soap:header message="tns:AddSaleTypeQuoteAttachmentResponse_Headers" part="Succeeded" use="literal" />
+        <soap:header message="tns:AddSaleTypeQuoteAttachmentResponse_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DeleteSaleTypeQuoteAttachment">
+      <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services84/Quote/DeleteSaleTypeQuoteAttachment" style="document" />
+      <wsdl:input name="DeleteSaleTypeQuoteAttachmentRequest">
+        <soap:header message="tns:DeleteSaleTypeQuoteAttachmentRequest_Headers" part="ApplicationToken" use="literal" />
+        <soap:header message="tns:DeleteSaleTypeQuoteAttachmentRequest_Headers" part="Credentials" use="literal" />
+        <soap:header message="tns:DeleteSaleTypeQuoteAttachmentRequest_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="DeleteSaleTypeQuoteAttachmentResponse">
+        <soap:header message="tns:DeleteSaleTypeQuoteAttachmentResponse_Headers" part="ExceptionInfo" use="literal" />
+        <soap:header message="tns:DeleteSaleTypeQuoteAttachmentResponse_Headers" part="ExtraInfo" use="literal" />
+        <soap:header message="tns:DeleteSaleTypeQuoteAttachmentResponse_Headers" part="Succeeded" use="literal" />
+        <soap:header message="tns:DeleteSaleTypeQuoteAttachmentResponse_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ToggleQuoteVersionAttachmentIncluded">
+      <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services84/Quote/ToggleQuoteVersionAttachmentIncluded" style="document" />
+      <wsdl:input name="ToggleQuoteVersionAttachmentIncludedRequest">
+        <soap:header message="tns:ToggleQuoteVersionAttachmentIncludedRequest_Headers" part="ApplicationToken" use="literal" />
+        <soap:header message="tns:ToggleQuoteVersionAttachmentIncludedRequest_Headers" part="Credentials" use="literal" />
+        <soap:header message="tns:ToggleQuoteVersionAttachmentIncludedRequest_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="ToggleQuoteVersionAttachmentIncludedResponse">
+        <soap:header message="tns:ToggleQuoteVersionAttachmentIncludedResponse_Headers" part="ExceptionInfo" use="literal" />
+        <soap:header message="tns:ToggleQuoteVersionAttachmentIncludedResponse_Headers" part="ExtraInfo" use="literal" />
+        <soap:header message="tns:ToggleQuoteVersionAttachmentIncludedResponse_Headers" part="Succeeded" use="literal" />
+        <soap:header message="tns:ToggleQuoteVersionAttachmentIncludedResponse_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
   </wsdl:binding>
   <wsdl:service name="WcfQuoteService">
     <wsdl:port name="BasicHttpBinding_Quote" binding="tns:BasicHttpBinding_Quote">
@@ -6251,3 +6251,4 @@ title: Services84.QuoteAgent WSDL
   </wsdl:service>
 </wsdl:definitions>
 ```
+

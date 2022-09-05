@@ -1,6 +1,6 @@
 ---
 title: POST ForeignApp/{applicationName}/{deviceName}/{deviceIdentifier}/Key
-id: v1ForeignAppEntity_AddForeignKey
+uid: v1ForeignAppEntity_AddForeignKey
 ---
 
 # POST ForeignApp/{applicationName}/{deviceName}/{deviceIdentifier}/Key
@@ -11,11 +11,18 @@ POST /api/v1/ForeignApp/{applicationName}/{deviceName}/{deviceIdentifier}/Key
 
 Add a new key belonging to the ForeignApp and ForeignDevice specified.
 
+
+
+
+
+
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | applicationName | string | The name of the foreign application. **Required** |
 | deviceName | string | The name of the foreign device. **Required** |
 | deviceIdentifier | string | The device identifier. Optional if device identifier is not used. **Required** |
+
+
 
 ## Request Headers
 
@@ -31,9 +38,9 @@ Add a new key belonging to the ForeignApp and ForeignDevice specified.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: foreignKey
+## Request Body: foreignKey  
 
-Foreign key to save
+Foreign key to save 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -46,16 +53,16 @@ Foreign key to save
 | CreatedBy | string | Name of the person that created the foreign key |
 | TableName | string | Table name, transformed to and from numeric table id by the service layer |
 
-## Response: object
 
-Carrier object for ForeignKey.
-Services for the ForeignKey Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IForeignSystemAgent">ForeignSystem Agent</see>.
+## Response: 
+
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -70,52 +77,48 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/ForeignApp/{applicationName}/{deviceName}/{deviceIdentifier}/Key
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "atque",
-  "Value": "earum",
-  "RecordId": 274,
-  "CreatedDate": "1997-12-25T18:25:50.5755972+01:00",
-  "UpdatedDate": "2020-10-16T18:25:50.5755972+02:00",
-  "UpdatedBy": "explicabo",
-  "CreatedBy": "ullam",
-  "TableName": "Schoen-O'Conner"
+  "Key": "ut",
+  "Value": "vel",
+  "RecordId": 370,
+  "CreatedDate": "2016-05-17T11:10:52.909174+02:00",
+  "UpdatedDate": "2015-09-18T11:10:52.909174+02:00",
+  "UpdatedBy": "quas",
+  "CreatedBy": "facilis",
+  "TableName": "Gaylord-Gaylord"
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "ut",
-  "Value": "omnis",
-  "RecordId": 375,
-  "CreatedDate": "2005-07-14T18:25:50.5755972+02:00",
-  "UpdatedDate": "2009-08-07T18:25:50.5755972+02:00",
-  "UpdatedBy": "eveniet",
-  "CreatedBy": "quas",
-  "TableName": "Reichel-Powlowski",
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "Key": "omnis",
+  "Value": "aut",
+  "RecordId": 520,
+  "CreatedDate": "2016-05-04T11:10:52.910174+02:00",
+  "UpdatedDate": "2011-07-13T11:10:52.910174+02:00",
+  "UpdatedBy": "non",
+  "CreatedBy": "nulla",
+  "TableName": "Kautzer, Ledner and Feeney",
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
+      "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 816
+      "FieldLength": 738
     }
   }
 }

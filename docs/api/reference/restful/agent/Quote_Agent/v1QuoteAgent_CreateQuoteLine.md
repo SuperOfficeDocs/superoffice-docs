@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Quote/CreateQuoteLine
-id: v1QuoteAgent_CreateQuoteLine
+uid: v1QuoteAgent_CreateQuoteLine
 ---
 
 # POST Agents/Quote/CreateQuoteLine
@@ -11,6 +11,12 @@ POST /api/v1/Agents/Quote/CreateQuoteLine
 
 Create a quoteline based on a product key.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Create a quoteline based on a product key.
 ```http
 POST /api/v1/Agents/Quote/CreateQuoteLine?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,27 +42,25 @@ POST /api/v1/Agents/Quote/CreateQuoteLine?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-QuoteAlternativeId, ERPProductKey
+QuoteAlternativeId, ERPProductKey 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | QuoteAlternativeId | int32 |  |
 | ERPProductKey | string |  |
 
-## Response: object
 
-Information about a connection to the ERP system.
+## Response: 
 
-Carrier object for QuoteLine.
-Services for the QuoteLine Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IQuoteAgent">Quote Agent</see>.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -111,7 +116,7 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Quote/CreateQuoteLine
@@ -121,110 +126,100 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternativeId": 470,
-  "ERPProductKey": "in"
+  "QuoteAlternativeId": 850,
+  "ERPProductKey": "asperiores"
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLineId": 356,
-  "ERPQuoteLineKey": "officia",
-  "QuoteAlternativeId": 351,
-  "ERPProductKey": "quod",
+  "QuoteLineId": 591,
+  "ERPQuoteLineKey": "qui",
+  "QuoteAlternativeId": 965,
+  "ERPProductKey": "dolores",
   "Status": "Error",
   "Reason": "",
-  "Quantity": 23470.525999999998,
-  "DeliveredQuantity": 30832.291999999998,
-  "Rank": 745,
-  "Name": "Lindgren, Jacobi and Turner",
-  "Description": "User-centric reciprocal contingency",
-  "Code": "qui",
-  "QuantityUnit": "minus",
-  "PriceUnit": "id",
-  "ItemNumber": "1488261",
+  "Quantity": 6565.73,
+  "DeliveredQuantity": 20474.422,
+  "Rank": 123,
+  "Name": "Parisian, O'Hara and Schulist",
+  "Description": "Quality-focused fresh-thinking Graphic Interface",
+  "Code": "fugiat",
+  "QuantityUnit": "et",
+  "PriceUnit": "hic",
+  "ItemNumber": "273412",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "iure",
-  "ProductTypeKey": "enim",
-  "Supplier": "quia",
-  "SupplierCode": "aliquam",
-  "Thumbnail": "est",
-  "VATInfo": "recusandae",
-  "VAT": 18794.597999999998,
-  "UnitCost": 1165.848,
-  "UnitMinimumPrice": 17387.432,
-  "UnitListPrice": 1400.898,
+  "ProductFamilyKey": "consectetur",
+  "ProductTypeKey": "deleniti",
+  "Supplier": "sit",
+  "SupplierCode": "perferendis",
+  "Thumbnail": "culpa",
+  "VATInfo": "praesentium",
+  "VAT": 18854.144,
+  "UnitCost": 29976.71,
+  "UnitMinimumPrice": 20906.914,
+  "UnitListPrice": 23166.528,
   "ExtraInfo": [
     {
-      "Name": "Armstrong, Leannon and Simonis",
-      "Value": "velit",
+      "Name": "Kuhic-Bernier",
+      "Value": "voluptas",
       "Type": "Image",
-      "TableRight": {},
+      "TableRight": null,
       "FieldProperties": {
         "fieldName": {
-          "FieldRight": {
-            "Mask": "FULL",
-            "Reason": ""
-          },
-          "FieldType": "System.String",
-          "FieldLength": 670
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 929
         }
       }
     },
     {
-      "Name": "Armstrong, Leannon and Simonis",
-      "Value": "velit",
+      "Name": "Kuhic-Bernier",
+      "Value": "voluptas",
       "Type": "Image",
-      "TableRight": {},
+      "TableRight": null,
       "FieldProperties": {
         "fieldName": {
-          "FieldRight": {
-            "Mask": "FULL",
-            "Reason": ""
-          },
-          "FieldType": "System.String",
-          "FieldLength": 670
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 929
         }
       }
     }
   ],
-  "RawExtraInfo": "aut",
-  "IsSubscription": false,
-  "SubscriptionUnit": "voluptatibus",
-  "SubscriptionQuantity": 20358.464,
-  "SubscriptionStart": "1997-11-13T18:28:49.9581393+01:00",
-  "ERPDiscountPercent": 26425.888,
-  "ERPDiscountAmount": 30171.018,
-  "DiscountPercent": 13783.332,
-  "DiscountAmount": 14967.984,
+  "RawExtraInfo": "et",
+  "IsSubscription": true,
+  "SubscriptionUnit": "quas",
+  "SubscriptionQuantity": 197.442,
+  "SubscriptionStart": "1997-04-28T11:10:27.7254949+02:00",
+  "ERPDiscountPercent": 9633.916,
+  "ERPDiscountAmount": 21756.228,
+  "DiscountPercent": 15572.846,
+  "DiscountAmount": 29161.87,
   "UserValueOverride": "DiscountAmount",
-  "EarningPercent": 13106.387999999999,
-  "EarningAmount": 14930.376,
-  "SubTotal": 9116.806,
-  "TotalPrice": 13761.394,
-  "Rights": "quasi",
-  "Rule": "fuga",
-  "ExtraField1": "officia",
-  "ExtraField2": "et",
-  "ExtraField3": "vitae",
-  "ExtraField4": "rerum",
-  "ExtraField5": "quis",
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "EarningPercent": 19587.5,
+  "EarningAmount": 6083.094,
+  "SubTotal": 300.864,
+  "TotalPrice": 15767.153999999999,
+  "Rights": "atque",
+  "Rule": "illo",
+  "ExtraField1": "nemo",
+  "ExtraField2": "suscipit",
+  "ExtraField3": "perspiciatis",
+  "ExtraField4": "porro",
+  "ExtraField5": "aut",
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
-      "FieldType": "System.Int32",
-      "FieldLength": 246
+      "FieldRight": null,
+      "FieldType": "System.String",
+      "FieldLength": 222
     }
   }
 }

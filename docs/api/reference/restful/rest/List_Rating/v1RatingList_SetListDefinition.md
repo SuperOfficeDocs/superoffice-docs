@@ -1,6 +1,6 @@
 ---
 title: PUT List/Rating
-id: v1RatingList_SetListDefinition
+uid: v1RatingList_SetListDefinition
 ---
 
 # PUT List/Rating
@@ -10,6 +10,13 @@ PUT /api/v1/List/Rating
 ```
 
 Save the description of Rating list
+
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -25,12 +32,12 @@ Save the description of Rating list
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: listEntity
+## Request Body: listEntity  
 
 The list entity contains information about a specific list
-<br />
+<para />
 Carrier object for ListEntity.
-Services for the ListEntity Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IListAgent">List Agent</see>.
+Services for the ListEntity Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IListAgent">List Agent</see>. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -45,18 +52,16 @@ Services for the ListEntity Carrier is available from the <see cref="T:SuperOffi
 | ListType | string | The type of this list, often indicated by the database name, but not necessarily |
 | InUseByUserDefinedFields | bool | True if this in use by one or more udfields |
 
-## Response: object
 
-The list entity contains information about a specific list
+## Response: 
 
-Carrier object for ListEntity.
-Services for the ListEntity Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IListAgent">List Agent</see>.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -73,56 +78,52 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 PUT /api/v1/List/Rating
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 519,
-  "Name": "Hayes-Swaniawski",
-  "Tooltip": "corporis",
-  "Deleted": true,
-  "Rank": 970,
+  "Id": 700,
+  "Name": "Bartoletti, Walker and Reilly",
+  "Tooltip": "dolores",
+  "Deleted": false,
+  "Rank": 506,
   "IsCustomList": false,
   "IsMDOList": true,
-  "UseGroupsAndHeadings": false,
-  "ListType": "natus",
-  "InUseByUserDefinedFields": true
+  "UseGroupsAndHeadings": true,
+  "ListType": "deserunt",
+  "InUseByUserDefinedFields": false
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 509,
-  "Name": "Lesch, Brakus and Hoppe",
-  "Tooltip": "aut",
-  "Deleted": true,
-  "Rank": 847,
+  "Id": 540,
+  "Name": "Treutel Inc and Sons",
+  "Tooltip": "voluptates",
+  "Deleted": false,
+  "Rank": 923,
   "IsCustomList": false,
-  "IsMDOList": true,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "perspiciatis",
+  "ListType": "expedita",
   "InUseByUserDefinedFields": false,
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
+      "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 271
+      "FieldLength": 506
     }
   }
 }

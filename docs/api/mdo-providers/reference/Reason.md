@@ -7,7 +7,7 @@ keywords:
   - "mdo provider"
   - "reason"
 so.generated: true
-so.date: 03.19.2021
+so.date: 08.26.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -15,11 +15,15 @@ so.envir:
 ---
 
 # "reason" MDO List
-
 GenericMDOProvider reads MDO lists with default settings
+
+
 
 Implemented by the <see cref="T:SuperOffice.CRM.Lists.GenericMDOProvider">GenericMDOProvider</see> class.
 The name of the MDO list is 'reason'.
+
+
+
 
 ## Sample Request
 
@@ -32,7 +36,6 @@ Accept-Language: *
 ```
 
 ## Sample Code
-
 ```cs
 var listProvider = SuperOffice.CRM.Lists.SoListProviderFactory.Create("reason", forceFlatList: true);
 foreach (var item in listProvider.RootItems) {
@@ -52,6 +55,7 @@ foreach (var item in listProvider.RootItems) {
 |1|Pris|||
 |2|Produkt|||
 |3|Service nivå|||
+
 
 ## Related MDO Lists
 

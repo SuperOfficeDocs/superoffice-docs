@@ -12,12 +12,13 @@ Implemented by the <see cref="M:SuperOffice.Services87.IEMailAgent.GetAttachment
 ## GetAttachmentFromId
 
 Retrieve an attachment from an e-mail
-<br />**Online Restricted:** The EMail agent is not available in Online by default. Access must be requested specifically when app is registered.
+<para /><b>Online Restricted:</b> The EMail agent is not available in Online by default. Access must be requested specifically when app is registered.
 
 * **mailItemId:** Unique ID for the e-mail to retrieve the attachment from
 * **attachmentId:** Id of the attachment in the e-mail
 
 **Returns:** The attachment
+
 
 [WSDL file for Services87/EMail](../Services87-EMail.md)
 
@@ -52,6 +53,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## GetAttachmentFromId Response
 
 ```xml
@@ -81,3 +83,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

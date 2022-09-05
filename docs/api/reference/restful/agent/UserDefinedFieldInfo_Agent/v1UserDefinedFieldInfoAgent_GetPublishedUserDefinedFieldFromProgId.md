@@ -1,6 +1,6 @@
 ---
 title: POST Agents/UserDefinedFieldInfo/GetPublishedUserDefinedFieldFromProgId
-id: v1UserDefinedFieldInfoAgent_GetPublishedUserDefinedFieldFromProgId
+uid: v1UserDefinedFieldInfoAgent_GetPublishedUserDefinedFieldFromProgId
 ---
 
 # POST Agents/UserDefinedFieldInfo/GetPublishedUserDefinedFieldFromProgId
@@ -11,7 +11,13 @@ POST /api/v1/Agents/UserDefinedFieldInfo/GetPublishedUserDefinedFieldFromProgId
 
 Return information about the given user defined field identified by the owner and the prog-id.
 
+
 The prog-id is used as the key in the entity carriers.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +28,7 @@ The prog-id is used as the key in the entity carriers.
 ```http
 POST /api/v1/Agents/UserDefinedFieldInfo/GetPublishedUserDefinedFieldFromProgId?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,27 +44,25 @@ POST /api/v1/Agents/UserDefinedFieldInfo/GetPublishedUserDefinedFieldFromProgId?
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-ProgId, OwnerType
+ProgId, OwnerType 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | ProgId | string |  |
 | OwnerType | string |  |
 
-## Response: object
 
-Return information about the user defined fields. The information can be used to mirror the layout of the user-defined fields in the user interface.
+## Response: 
 
-Carrier object for UserDefinedFieldInfo.
-Services for the UserDefinedFieldInfo Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent">UserDefinedFieldInfo Agent</see>.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -98,72 +103,68 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/UserDefinedFieldInfo/GetPublishedUserDefinedFieldFromProgId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProgId": "et",
+  "ProgId": "quas",
   "OwnerType": "Appointment"
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 460,
-  "ColumnId": 260,
-  "FieldDefault": "suscipit",
-  "FieldHeight": 462,
-  "FieldLabel": "rem",
-  "FieldLeft": 821,
-  "FieldTop": 773,
+  "UDefFieldId": 224,
+  "ColumnId": 500,
+  "FieldDefault": "est",
+  "FieldHeight": 262,
+  "FieldLabel": "aut",
+  "FieldLeft": 355,
+  "FieldTop": 548,
   "FieldType": "Checkbox",
-  "FieldWidth": 397,
-  "FormatMask": "quod",
-  "HideLabel": true,
+  "FieldWidth": 865,
+  "FormatMask": "et",
+  "HideLabel": false,
   "IsIndexed": false,
-  "LabelHeight": 275,
-  "LabelLeft": 368,
-  "LabelTop": 405,
-  "LabelWidth": 430,
-  "LastVersionId": 961,
-  "ListTableId": 372,
-  "IsMandatory": true,
+  "LabelHeight": 417,
+  "LabelLeft": 685,
+  "LabelTop": 92,
+  "LabelWidth": 907,
+  "LastVersionId": 635,
+  "ListTableId": 433,
+  "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 799,
-  "ProgId": "omnis",
+  "Page1LineNo": 950,
+  "ProgId": "aspernatur",
   "IsReadOnly": false,
-  "ShortLabel": "quas",
-  "TabOrder": 512,
-  "TextLength": 213,
-  "Tooltip": "ut",
-  "UdefIdentity": 80,
-  "UDListDefinitionId": 276,
+  "ShortLabel": "et",
+  "TabOrder": 265,
+  "TextLength": 637,
+  "Tooltip": "optio",
+  "UdefIdentity": 16,
+  "UDListDefinitionId": 129,
   "Justification": "Center",
-  "Version": 737,
-  "TemplateVariableName": "Armstrong, Berge and Glover",
+  "Version": 555,
+  "TemplateVariableName": "Parker-Bosco",
   "HasBeenPublished": true,
-  "MdoListName": "Hudson-Considine",
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "MdoListName": "Shanahan, Frami and Gaylord",
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
-      "FieldType": "System.String",
-      "FieldLength": 127
+      "FieldRight": null,
+      "FieldType": "System.Int32",
+      "FieldLength": 143
     }
   }
 }

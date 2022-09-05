@@ -1,6 +1,6 @@
 ---
 title: GET License/{ownerName}
-id: v1License_GetLicenseFromDB
+uid: v1License_GetLicenseFromDB
 ---
 
 # GET License/{ownerName}
@@ -11,9 +11,16 @@ GET /api/v1/License/{ownerName}
 
 Get license, with usage, as it is stored in the database for one particular module owner.
 
+
+
+
+
+
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | ownerName | string | Name of the module owner. **Required** |
+
+
 
 ## Request Headers
 
@@ -28,13 +35,16 @@ Get license, with usage, as it is stored in the database for one particular modu
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response: object
+
+## Response: 
+
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -45,7 +55,7 @@ Response body: object
 | ExtendedModuleLicenses | array |  |
 | AccumulatedNextCheckDate | date-time |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 GET /api/v1/License/{ownerName}
@@ -54,73 +64,29 @@ Accept: application/json; charset=utf-8
 Accept-Language: en
 ```
 
+## Sample response
+
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
   "Reason": "",
-  "CanBeActivated": false,
-  "New": {
-    "CompanyName": "King Inc and Sons",
-    "SerialNr": "1010000006",
-    "OwnerName": "Runolfsson LLC",
-    "OwnerDescription": "Organized content-based throughput",
-    "NextCheckDate": "2005-10-15T18:25:51.368118+02:00",
-    "MaintenanceDate": "2021-06-29T18:25:51.368118+02:00",
-    "AdminWarningDate": "2005-08-04T18:25:51.368118+02:00",
-    "ExpiryDate": "2019-06-26T18:25:51.368118+02:00",
-    "GraceDate": "2020-07-17T18:25:51.368118+02:00",
-    "ExtraFlags": 47,
-    "ExtraInfo": "alias",
-    "LicenseUrl": "http://www.example.com/",
-    "LicenseVersion": "inventore",
-    "DeploymentType": 438,
-    "ProductType": "voluptate",
-    "ProductDescription": "User-friendly tertiary standardization",
-    "ModuleLicenses": [
-      {},
-      {}
-    ],
-    "PublicKey": {},
-    "Signature": "omnis"
-  },
-  "Current": {
-    "CompanyName": "Kozey Group",
-    "SerialNr": "1010000006",
-    "OwnerName": "Lockman, Auer and Altenwerth",
-    "OwnerDescription": "Mandatory directional help-desk",
-    "NextCheckDate": "2019-12-07T18:25:51.3691181+01:00",
-    "MaintenanceDate": "2021-08-21T18:25:51.3691181+02:00",
-    "AdminWarningDate": "2001-02-15T18:25:51.3691181+01:00",
-    "ExpiryDate": "2019-09-23T18:25:51.3691181+02:00",
-    "GraceDate": "2011-05-20T18:25:51.3691181+02:00",
-    "ExtraFlags": 419,
-    "ExtraInfo": "id",
-    "LicenseUrl": "http://www.example.com/",
-    "LicenseVersion": "non",
-    "DeploymentType": 666,
-    "ProductType": "repudiandae",
-    "ProductDescription": "Robust reciprocal internet solution",
-    "ModuleLicenses": [
-      {},
-      {}
-    ],
-    "PublicKey": {},
-    "Signature": "ad"
-  },
+  "CanBeActivated": true,
+  "New": null,
+  "Current": null,
   "ExtendedModuleLicenses": [
     {
-      "New": {},
-      "Current": {},
-      "NumberOfLicensesInUse": 706,
-      "NumberOfLicensesFree": 502,
-      "NumberOfLicensesAdded": 271,
-      "NumberOfLicensesNewTotal": 371,
-      "NumberOfLicensesNewFree": 902,
-      "NumberOfLicensesTotal": 873
+      "New": null,
+      "Current": null,
+      "NumberOfLicensesInUse": 320,
+      "NumberOfLicensesFree": 665,
+      "NumberOfLicensesAdded": 236,
+      "NumberOfLicensesNewTotal": 614,
+      "NumberOfLicensesNewFree": 744,
+      "NumberOfLicensesTotal": 921
     }
   ],
-  "AccumulatedNextCheckDate": "2015-01-30T18:25:51.3691181+01:00"
+  "AccumulatedNextCheckDate": "2009-11-17T11:10:53.7161855+01:00"
 }
 ```

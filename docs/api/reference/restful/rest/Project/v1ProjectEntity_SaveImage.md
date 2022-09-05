@@ -1,6 +1,6 @@
 ---
 title: PUT Project/{id}/Image
-id: v1ProjectEntity_SaveImage
+uid: v1ProjectEntity_SaveImage
 ---
 
 # PUT Project/{id}/Image
@@ -11,11 +11,18 @@ PUT /api/v1/Project/{projectId}/Image
 
 Save an image to a project.
 
+
 Updating the image will update the ImageInfo automatically.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | projectId | int32 | Project id **Required** |
+
+
 
 ## Request Headers
 
@@ -31,11 +38,15 @@ Updating the image will update the ImageInfo automatically.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: image binary
+## Request Body: image binary 
 
-Bitmap (GIF, TIFF, PNG or JPG format)
+Bitmap (GIF, TIFF, PNG or JPG format) 
+
+
 
 ## Response: int32
+
+The blob id for the image
 
 | Response | Description |
 |----------------|-------------|
@@ -44,18 +55,21 @@ Bitmap (GIF, TIFF, PNG or JPG format)
 
 Response body: int32
 
-## Sample Request
+
+## Sample request
 
 ```http!
 PUT /api/v1/Project/{projectId}/Image
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 The blob id for the image
 Content-Type: application/json; charset=utf-8
 
-85
+167
 ```

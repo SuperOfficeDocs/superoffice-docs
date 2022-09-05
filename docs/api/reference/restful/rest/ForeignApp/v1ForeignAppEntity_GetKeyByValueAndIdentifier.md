@@ -1,6 +1,6 @@
 ---
 title: GET ForeignApp/{applicationName}/{deviceName}/{deviceIdentifier}/Key/{keyName}/{tableName}
-id: v1ForeignAppEntity_GetKeyByValueAndIdentifier
+uid: v1ForeignAppEntity_GetKeyByValueAndIdentifier
 ---
 
 # GET ForeignApp/{applicationName}/{deviceName}/{deviceIdentifier}/Key/{keyName}/{tableName}
@@ -11,13 +11,19 @@ GET /api/v1/ForeignApp/{applicationName}/{deviceName}/{deviceIdentifier}/Key/{ke
 
 Get a foreignkey based on its name and value, that belongs to the specified deviceId, device, and application.
 
+
+
+
+
+
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | applicationName | string | The name of the foreign application. **Required** |
 | deviceName | string | The name of the foreign device. **Required** |
 | deviceIdentifier | string | The device identifier. Optional if device identifier is not used. **Required** |
 | keyName | string | The name of the foreign key. **Required** |
-| tableName | string | Table name, transformed to and from numeric table id by the service layer.<br />Use an empty string to indicate that your key is not bound to any specific table. **Required** |
+| tableName | string | Table name, transformed to and from numeric table id by the service layer.&lt;p/&gt;Use an empty string to indicate that your key is not bound to any specific table. **Required** |
+
 
 ## Query String Parameters
 
@@ -26,8 +32,9 @@ Get a foreignkey based on its name and value, that belongs to the specified devi
 | Value | string | **Required** Foreignkey value |
 
 ```http
-GET /api/v1/ForeignApp/{applicationName}/{deviceName}/{deviceIdentifier}/Key/{keyName}/{tableName}?Value=non
+GET /api/v1/ForeignApp/{applicationName}/{deviceName}/{deviceIdentifier}/Key/{keyName}/{tableName}?Value=dolorum
 ```
+
 
 ## Request Headers
 
@@ -42,16 +49,16 @@ GET /api/v1/ForeignApp/{applicationName}/{deviceName}/{deviceIdentifier}/Key/{ke
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response: object
 
-Carrier object for ForeignKey.
-Services for the ForeignKey Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IForeignSystemAgent">ForeignSystem Agent</see>.
+## Response: 
+
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -66,41 +73,37 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 GET /api/v1/ForeignApp/{applicationName}/{deviceName}/{deviceIdentifier}/Key/{keyName}/{tableName}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Tue, 04 Nov 2008 18:25:50 G11T
+Last-Modified: Tue, 16 Oct 2018 11:10:52 G10T
 
 {
-  "Key": "cum",
-  "Value": "repudiandae",
-  "RecordId": 644,
-  "CreatedDate": "1994-12-09T18:25:50.5775969+01:00",
-  "UpdatedDate": "2008-11-04T18:25:50.5775969+01:00",
-  "UpdatedBy": "atque",
-  "CreatedBy": "id",
-  "TableName": "Wehner-Rempel",
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": "drive robust infrastructures"
-  },
+  "Key": "rerum",
+  "Value": "quia",
+  "RecordId": 735,
+  "CreatedDate": "1998-06-23T11:10:52.9111741+02:00",
+  "UpdatedDate": "2018-10-16T11:10:52.9111741+02:00",
+  "UpdatedBy": "provident",
+  "CreatedBy": "eligendi",
+  "TableName": "Bergnaum-Bogisich",
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
-      "FieldType": "System.Int32",
-      "FieldLength": 804
+      "FieldRight": null,
+      "FieldType": "System.String",
+      "FieldLength": 391
     }
   }
 }

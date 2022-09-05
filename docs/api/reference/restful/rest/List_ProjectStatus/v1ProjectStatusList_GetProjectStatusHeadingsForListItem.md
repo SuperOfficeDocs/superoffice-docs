@@ -1,6 +1,6 @@
 ---
 title: GET List/ProjectStatus/Items/{id}/Headings
-id: v1ProjectStatusList_GetProjectStatusHeadingsForListItem
+uid: v1ProjectStatusList_GetProjectStatusHeadingsForListItem
 ---
 
 # GET List/ProjectStatus/Items/{id}/Headings
@@ -11,11 +11,17 @@ GET /api/v1/List/ProjectStatus/Items/{itemId}/Headings
 
 Gets headings for the ProjectStatus list's item.
 
+
 Calls the List agent service GetHeadings.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | itemId | int32 | The ID of the headings to be get. **Required** |
+
 
 ## Query String Parameters
 
@@ -26,6 +32,7 @@ Calls the List agent service GetHeadings.
 ```http
 GET /api/v1/List/ProjectStatus/Items/{itemId}/Headings?showDeleted=False
 ```
+
 
 ## Request Headers
 
@@ -40,7 +47,10 @@ GET /api/v1/List/ProjectStatus/Items/{itemId}/Headings?showDeleted=False
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -68,14 +78,16 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 GET /api/v1/List/ProjectStatus/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -83,65 +95,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 741,
-    "Name": "Kirlin, Lynch and Miller",
-    "ToolTip": "Quam qui.",
-    "Deleted": true,
-    "Rank": 38,
-    "Type": "odio",
-    "ColorBlock": 214,
-    "IconHint": "facere",
+    "Id": 840,
+    "Name": "Dare-Ward",
+    "ToolTip": "Aperiam laudantium aperiam blanditiis error.",
+    "Deleted": false,
+    "Rank": 95,
+    "Type": "ipsa",
+    "ColorBlock": 5,
+    "IconHint": "dolores",
     "Selected": false,
-    "LastChanged": "1999-08-09T18:25:52.0930209+02:00",
+    "LastChanged": "2019-02-11T11:10:54.4729297+01:00",
     "ChildItems": [
       {
-        "Id": 976,
-        "Name": "Lockman LLC",
-        "ToolTip": "Qui deserunt.",
+        "Id": 636,
+        "Name": "Buckridge LLC",
+        "ToolTip": "Laudantium voluptatem quia.",
         "Deleted": true,
-        "Rank": 963,
-        "Type": "nesciunt",
-        "ColorBlock": 694,
-        "IconHint": "quo",
+        "Rank": 797,
+        "Type": "illum",
+        "ColorBlock": 82,
+        "IconHint": "laborum",
         "Selected": false,
-        "LastChanged": "2021-03-23T18:25:52.0930209+01:00",
+        "LastChanged": "1996-05-28T11:10:54.4729297+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "laboriosam",
-        "StyleHint": "minima",
+        "ExtraInfo": "ad",
+        "StyleHint": "illo",
         "Hidden": false,
-        "FullName": "Jaydon Anderson V",
-        "TableRight": {},
+        "FullName": "Darrel Pacocha",
+        "TableRight": null,
         "FieldProperties": {
           "fieldName": {
-            "FieldRight": {
-              "Mask": "FULL",
-              "Reason": "mesh open-source e-markets"
-            },
-            "FieldType": "System.String",
-            "FieldLength": 600
+            "FieldRight": null,
+            "FieldType": "System.Int32",
+            "FieldLength": 329
           }
         }
       }
     ],
-    "ExtraInfo": "tenetur",
-    "StyleHint": "maiores",
+    "ExtraInfo": "accusantium",
+    "StyleHint": "est",
     "Hidden": false,
-    "FullName": "Lamar Ferry",
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "FullName": "Danny Koss V",
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
+        "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 453
+        "FieldLength": 460
       }
     }
   }

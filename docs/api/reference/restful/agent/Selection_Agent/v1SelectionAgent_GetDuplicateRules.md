@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Selection/GetDuplicateRules
-id: v1SelectionAgent_GetDuplicateRules
+uid: v1SelectionAgent_GetDuplicateRules
 ---
 
 # POST Agents/Selection/GetDuplicateRules
@@ -11,6 +11,12 @@ POST /api/v1/Agents/Selection/GetDuplicateRules
 
 Retrieve all available duplicate rules for selection
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Retrieve all available duplicate rules for selection
 ```http
 POST /api/v1/Agents/Selection/GetDuplicateRules?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -34,7 +41,10 @@ POST /api/v1/Agents/Selection/GetDuplicateRules?$select=name,department,category
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -51,14 +61,16 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Selection/GetDuplicateRules
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -66,42 +78,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Tillman-Collier",
-    "DisplayName": "Murray, Walter and Kreiger",
-    "DisplayTooltip": "a",
-    "IsActive": true,
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "Name": "Hand, Ritchie and Cormier",
+    "DisplayName": "Satterfield Inc and Sons",
+    "DisplayTooltip": "quam",
+    "IsActive": false,
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": "engage e-business e-markets"
-        },
-        "FieldType": "System.String",
-        "FieldLength": 203
+        "FieldRight": null,
+        "FieldType": "System.Int32",
+        "FieldLength": 384
       }
     }
   },
   {
-    "Name": "Tillman-Collier",
-    "DisplayName": "Murray, Walter and Kreiger",
-    "DisplayTooltip": "a",
-    "IsActive": true,
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "Name": "Hand, Ritchie and Cormier",
+    "DisplayName": "Satterfield Inc and Sons",
+    "DisplayTooltip": "quam",
+    "IsActive": false,
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": "engage e-business e-markets"
-        },
-        "FieldType": "System.String",
-        "FieldLength": 203
+        "FieldRight": null,
+        "FieldType": "System.Int32",
+        "FieldLength": 384
       }
     }
   }

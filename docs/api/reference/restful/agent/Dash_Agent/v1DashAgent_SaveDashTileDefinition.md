@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Dash/SaveDashTileDefinition
-id: v1DashAgent_SaveDashTileDefinition
+uid: v1DashAgent_SaveDashTileDefinition
 ---
 
 # POST Agents/Dash/SaveDashTileDefinition
@@ -10,6 +10,13 @@ POST /api/v1/Agents/Dash/SaveDashTileDefinition
 ```
 
 Updates the existing DashTileDefinition or creates a new DashTileDefinition if the id parameter is empty
+
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -25,9 +32,9 @@ Updates the existing DashTileDefinition or creates a new DashTileDefinition if t
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entity
+## Request Body: entity  
 
-The DashTileDefinition to be saved.
+The DashTileDefinition to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -48,20 +55,19 @@ The DashTileDefinition to be saved.
 | LayoutConfig | string | The JSON formatted layout config |
 | SecondarySelectionId | int32 | Selection holding the replaced or changed criterias (period comparisons etc) |
 | MeasureByField | string | Field to group by |
+| Usage | string | Where this tile can be used |
 | ProviderName | string | Name of provider to use with this entity type - read only property |
 
-## Response: object
 
-Dashboard Tile definition
+## Response: 
 
-Carrier object for DashTileDefinition.
-Services for the DashTileDefinition Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IDashAgent">Dash Agent</see>.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -82,11 +88,12 @@ Response body: object
 | LayoutConfig | string | The JSON formatted layout config |
 | SecondarySelectionId | int32 | Selection holding the replaced or changed criterias (period comparisons etc) |
 | MeasureByField | string | Field to group by |
+| Usage | string | Where this tile can be used |
 | ProviderName | string | Name of provider to use with this entity type - read only property |
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Dash/SaveDashTileDefinition
@@ -96,62 +103,60 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileDefinitionId": 4,
-  "Name": "Considine LLC",
-  "Description": "Horizontal upward-trending flexibility",
-  "DefaultHeight": 97,
-  "DefaultWidth": 630,
+  "DashboardTileDefinitionId": 194,
+  "Name": "Brown-Schmidt",
+  "Description": "Managed systematic solution",
+  "DefaultHeight": 591,
+  "DefaultWidth": 13,
   "TileType": "Area",
   "EntityType": "Appointment",
-  "EntityName": "Turner-Trantow",
-  "SelectionId": 937,
+  "EntityName": "Hartmann Inc and Sons",
+  "SelectionId": 275,
   "CurrencyMode": "Base",
-  "CurrencyCode": "qui",
+  "CurrencyCode": "ut",
   "Measure": "Average",
-  "MeasureField": "non",
-  "SortBy": "qui",
-  "LayoutConfig": "molestiae",
-  "SecondarySelectionId": 770,
-  "MeasureByField": "iure",
-  "ProviderName": "McGlynn, Prohaska and Nader"
+  "MeasureField": "autem",
+  "SortBy": "officia",
+  "LayoutConfig": "numquam",
+  "SecondarySelectionId": 725,
+  "MeasureByField": "atque",
+  "Usage": "Dashboard",
+  "ProviderName": "Bruen LLC"
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileDefinitionId": 753,
-  "Name": "Toy LLC",
-  "Description": "Inverse bottom-line methodology",
-  "DefaultHeight": 150,
-  "DefaultWidth": 129,
+  "DashboardTileDefinitionId": 742,
+  "Name": "Prohaska, Grimes and Grimes",
+  "Description": "Expanded empowering leverage",
+  "DefaultHeight": 205,
+  "DefaultWidth": 209,
   "TileType": "Area",
   "EntityType": "Appointment",
-  "EntityName": "Senger, Harber and Beer",
-  "SelectionId": 337,
+  "EntityName": "Koepp Group",
+  "SelectionId": 572,
   "CurrencyMode": "Base",
-  "CurrencyCode": "ducimus",
+  "CurrencyCode": "aut",
   "Measure": "Average",
-  "MeasureField": "similique",
-  "SortBy": "voluptas",
-  "LayoutConfig": "optio",
-  "SecondarySelectionId": 604,
-  "MeasureByField": "sed",
-  "ProviderName": "Skiles-Emmerich",
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "MeasureField": "et",
+  "SortBy": "et",
+  "LayoutConfig": "voluptatem",
+  "SecondarySelectionId": 341,
+  "MeasureByField": "harum",
+  "Usage": "Dashboard",
+  "ProviderName": "Wolf Group",
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
+      "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 778
+      "FieldLength": 245
     }
   }
 }

@@ -1,6 +1,6 @@
 ---
 title: POST Agents/AI/Translate
-id: v1AIAgent_Translate
+uid: v1AIAgent_Translate
 ---
 
 # POST Agents/AI/Translate
@@ -11,7 +11,13 @@ POST /api/v1/Agents/AI/Translate
 
 Translate a text from one language to another.
 
+
 Language of the text is automatically detected.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +28,7 @@ Language of the text is automatically detected.
 ```http
 POST /api/v1/Agents/AI/Translate?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,16 +44,19 @@ POST /api/v1/Agents/AI/Translate?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-Text, TargetLanguage
+Text, TargetLanguage 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | Text | string |  |
 | TargetLanguage | string |  |
 
+
 ## Response: string
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -54,24 +64,27 @@ Text, TargetLanguage
 
 Response body: string
 
-## Sample Request
+
+## Sample request
 
 ```http!
 POST /api/v1/Agents/AI/Translate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Text": "similique",
-  "TargetLanguage": "asperiores"
+  "Text": "fuga",
+  "TargetLanguage": "corrupti"
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"vero"
+"nihil"
 ```

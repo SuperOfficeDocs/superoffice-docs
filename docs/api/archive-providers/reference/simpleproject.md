@@ -8,7 +8,7 @@ keywords:
   - "archive provider"
   - "SimpleProject"
 so.generated: true
-so.date: 03.23.2021
+so.date: 08.26.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -22,13 +22,13 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 ## Supported Entities
 
 | Name | Description |
-| ---- | ----- |
+| ---- | ----------- |
 |"project"|Project|
 
 ## Supported Columns
 
-| Name | Restriction | Description | OrderBy
-| ---- | ----- | ------- | ------ |
+| Name | Restriction | Description | OrderBy |
+| ---- | ----------- | ----------- | ------- |
 |getAllRows|bool|GetAll: Get all rows of archive - use with care, you may be fetching the whole database|  |
 |getNoRows|bool|GetNone: Do not get any rows from the archive|  |
 |completed|bool|Completed: Displays a check mark indicating if the project has been completed.| x |
@@ -37,14 +37,17 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |number|string|Number: Displays the project's number| x |
 |type|listAny|Project type: Displays the project's type| x |
 |status|listAny|Status: Displays the project's status| x |
+|statusRank| *None* |Status rank: Rank of the project status in the status list| x |
 |associateId|associate|ID: Displays login ID of the associate who owns the project| x |
 |hasInfoText|bool|Info: Displays an icon indicating if the project has a description text. The text itself will be displayed in a tooltip.| x |
 |icon| *None* |Category: Displays the icon for an activity type| x |
 |text|string|Text: Displays a descriptive text for the item| x |
 |description|string|Description : Description| x |
 |updatedBy|associate|Updated by: The user who last updated the data| x |
+|updatedByFullName|associate|Updated by - Full name: The user who last updated the data| x |
 |updatedDate|date|Updated: The date/time the data was last updated in UTC.| x |
 |registeredBy|associate|Registered by: The user who registered the data| x |
+|registeredByFullName|associate|Registered by - Full name: The user who registered the data| x |
 |registeredDate|date|Registered date: The date/time the data was registered in UTC.| x |
 |hasGuide|bool|Guided: Does this sale have a Sales Guide| x |
 |nextMilestone|date|Next milestone: Date of next non-completed activity that is marked as a milestone| x |
@@ -101,17 +104,42 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |projectUdef/SuperOffice:8|decimal|projectdecimal| x |
 |projectUdef/SuperOffice:9|int|page1saleandmarketing| x |
 |projectUdef/SuperOffice:10|int|page1saleandadmin| x |
+|NumberOfActivities|int|Number of activities|  |
+|NumberOfActivitiesInPeriod|int|Number of activities in last 90 days|  |
+|NumberOfNotCompletedActivities|int|Number of non-completed activities|  |
+|NumberOfNotCompletedActivitiesInPeriod|int|Number of non-completed activities in last 90 days|  |
+|LastActivity|date|Date of last activity|  |
+|LastCompletedActivity|date|Date of last completed activity|  |
+|LastDoByActivity|date|Date of last non-completed activity|  |
+|NumberOfSales|int|Number of sales|  |
+|NumberOfSalesInPeriod|int|Number of sales in last 90 days|  |
+|NumberOfNotCompletedSales|int|Number of non-completed sales|  |
+|NumberOfNotCompletedSalesInPeriod|int|Number of non-completed sales in last 90 days|  |
+|LastSale|date|Date of last sale|  |
+|LastCompletedSale|date|Date of last completed sale|  |
+|LastDoBySale|date|Date of last non-completed sale|  |
+|SaintStatus3|saintStatus|Not completed activites with intention sale: Number of not completed activities for intention sale > 0.|  |
+|saintSaleStatus|listAny|With status|  |
+|saintAmountClass|listAny|Amount class|  |
+|saintActivityType|listAny|SAINT type|  |
+|saintDirection|listAny|Direction|  |
+|saintIntention|listAny|Intention|  |
+|saintTicketStatus|listAny|Status|  |
+|saintTicketCategory|listAny|Category|  |
 |project/textId|int|Text ID| x |
 |project/infoText|positiveString|Information: Displays the text entered in the description field| x |
 
 ## Sample
 
 ```http!
-GET /api/v1/archive/SimpleProject?$select=project/textId,projectPublish/publishedTo,projectAssociate/personId
+GET /api/v1/archive/SimpleProject?$select=projectUrl/URLAddress,projectAssociate/role
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv
 
 ```
 
-See also: <see cref="T:SuperOffice.CRM.Services.IArchiveAgent">IArchiveAgent</see>.
+
+
+See also: <see cref="T:SuperOffice.CRM.Services.IArchiveAgent">IArchiveAgent</see>.</p>
+

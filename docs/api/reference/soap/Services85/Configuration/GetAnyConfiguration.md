@@ -20,6 +20,7 @@ Get one defined configuration fragment, with full reference resolution and parsi
 
 **Returns:** Fully resolved and parsed configuration XML, as string.
 
+
 [WSDL file for Services85/Configuration](../Services85-Configuration.md)
 
 Obtain a ticket from the [Services85/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -55,6 +56,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## GetAnyConfiguration Response
 
 ```xml
@@ -75,3 +77,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

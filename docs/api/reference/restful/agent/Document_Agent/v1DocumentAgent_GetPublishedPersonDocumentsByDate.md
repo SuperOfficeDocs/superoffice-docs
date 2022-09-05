@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Document/GetPublishedPersonDocumentsByDate
-id: v1DocumentAgent_GetPublishedPersonDocumentsByDate
+uid: v1DocumentAgent_GetPublishedPersonDocumentsByDate
 ---
 
 # POST Agents/Document/GetPublishedPersonDocumentsByDate
@@ -11,7 +11,13 @@ POST /api/v1/Agents/Document/GetPublishedPersonDocumentsByDate
 
 Method that returns a specified number of published document appointments within a time range.
 
+
 The document appointments belong to the person specified or the document is in a project the person belongs to.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +28,7 @@ The document appointments belong to the person specified or the document is in a
 ```http
 POST /api/v1/Agents/Document/GetPublishedPersonDocumentsByDate?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,9 +44,9 @@ POST /api/v1/Agents/Document/GetPublishedPersonDocumentsByDate?$select=name,depa
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-PersonId, IncludeProjectDocuments, StartTime, EndTime, Count
+PersonId, IncludeProjectDocuments, StartTime, EndTime, Count 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -49,7 +56,10 @@ PersonId, IncludeProjectDocuments, StartTime, EndTime, Count
 | EndTime | date-time |  |
 | Count | int32 |  |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -77,26 +87,30 @@ Response body: array
 | ProjectName | string | Project name |
 | AssociateId | int32 | ID of associate whose diary the appointment is in, REQUIRED |
 | Snum | int32 | The sequence number allocated from refcount on used template when creating the document |
+| SaleId | int32 | Owning sale, if any (may be 0) |
+| SaleName | string | Heading of Owning sale, if any. (may be blank) |
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Document/GetPublishedPersonDocumentsByDate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 494,
-  "IncludeProjectDocuments": true,
-  "StartTime": "2000-11-19T18:28:48.7099509+01:00",
-  "EndTime": "1999-08-13T18:28:48.7099509+02:00",
-  "Count": 3
+  "PersonId": 452,
+  "IncludeProjectDocuments": false,
+  "StartTime": "2002-10-19T11:10:26.4624579+02:00",
+  "EndTime": "2006-05-08T11:10:26.4624579+02:00",
+  "Count": 441
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -104,36 +118,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 676,
-    "Attention": "excepturi",
-    "Header": "sint",
-    "Name": "Koss Inc and Sons",
-    "OurRef": "voluptatem",
-    "YourRef": "eius",
-    "Description": "Versatile foreground contingency",
-    "DocumentTemplate": "corporis",
+    "DocumentId": 135,
+    "Attention": "quia",
+    "Header": "molestiae",
+    "Name": "Thompson LLC",
+    "OurRef": "perferendis",
+    "YourRef": "omnis",
+    "Description": "Focused regional conglomeration",
+    "DocumentTemplate": "sit",
     "IsPublished": true,
-    "PersonId": 222,
-    "PersonFullName": "Ms. Myrtis Waters",
-    "AssociateFullName": "Mikayla Schmidt",
-    "ContactId": 680,
-    "ContactName": "Kemmer LLC",
-    "ProjectId": 682,
-    "ProjectName": "Blick-Bruen",
-    "AssociateId": 763,
-    "Snum": 517,
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "PersonId": 180,
+    "PersonFullName": "Elwyn Gerhold",
+    "AssociateFullName": "Carmela Bednar",
+    "ContactId": 675,
+    "ContactName": "Cole Inc and Sons",
+    "ProjectId": 773,
+    "ProjectName": "Boyer LLC",
+    "AssociateId": 933,
+    "Snum": 24,
+    "SaleId": 614,
+    "SaleName": "Runolfsdottir, Fadel and Carroll",
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
+        "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 214
+        "FieldLength": 655
       }
     }
   }

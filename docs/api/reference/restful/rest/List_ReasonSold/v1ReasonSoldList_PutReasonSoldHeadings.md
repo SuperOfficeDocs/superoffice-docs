@@ -1,6 +1,6 @@
 ---
 title: PUT List/ReasonSold/Headings
-id: v1ReasonSoldList_PutReasonSoldHeadings
+uid: v1ReasonSoldList_PutReasonSoldHeadings
 ---
 
 # PUT List/ReasonSold/Headings
@@ -11,7 +11,14 @@ PUT /api/v1/List/ReasonSold/Headings
 
 Saves headings for the ReasonSold list.
 
+
 Calls the List agent service SaveHeadingsFromListDefinition.
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -27,9 +34,9 @@ Calls the List agent service SaveHeadingsFromListDefinition.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entities
+## Request Body: entities  
 
-The headings to be saved.
+The headings to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -40,7 +47,10 @@ The headings to be saved.
 | Rank | int32 | Rank order |
 | UdListDefinitionId | int32 | The id of the list which this heading belongs to |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -59,7 +69,7 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 PUT /api/v1/List/ReasonSold/Headings
@@ -70,23 +80,25 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 949,
-    "Name": "Thiel-Crona",
-    "Tooltip": "voluptatem",
-    "Deleted": false,
-    "Rank": 313,
-    "UdListDefinitionId": 345
+    "HeadingId": 620,
+    "Name": "Balistreri LLC",
+    "Tooltip": "molestiae",
+    "Deleted": true,
+    "Rank": 959,
+    "UdListDefinitionId": 408
   },
   {
-    "HeadingId": 949,
-    "Name": "Thiel-Crona",
-    "Tooltip": "voluptatem",
-    "Deleted": false,
-    "Rank": 313,
-    "UdListDefinitionId": 345
+    "HeadingId": 620,
+    "Name": "Balistreri LLC",
+    "Tooltip": "molestiae",
+    "Deleted": true,
+    "Rank": 959,
+    "UdListDefinitionId": 408
   }
 ]
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -94,24 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 123,
-    "Name": "Mraz Inc and Sons",
-    "Tooltip": "delectus",
-    "Deleted": true,
-    "Rank": 444,
-    "UdListDefinitionId": 32,
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "HeadingId": 664,
+    "Name": "Aufderhar, Beatty and Crona",
+    "Tooltip": "et",
+    "Deleted": false,
+    "Rank": 789,
+    "UdListDefinitionId": 40,
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 419
+        "FieldRight": null,
+        "FieldType": "System.Int32",
+        "FieldLength": 916
       }
     }
   }

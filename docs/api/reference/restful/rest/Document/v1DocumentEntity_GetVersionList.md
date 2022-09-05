@@ -1,6 +1,6 @@
 ---
 title: GET Document/{id}/Version
-id: v1DocumentEntity_GetVersionList
+uid: v1DocumentEntity_GetVersionList
 ---
 
 # GET Document/{id}/Version
@@ -11,9 +11,16 @@ GET /api/v1/Document/{documentId}/Version
 
 Get a list of existing, committed  versions for a given document
 
+
+
+
+
+
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | documentId | int32 | SuperOffice document Id **Required** |
+
+
 
 ## Request Headers
 
@@ -28,7 +35,10 @@ Get a list of existing, committed  versions for a given document
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -48,14 +58,16 @@ Response body: array
 | DisplayText | string |  |
 | ExtraFields | array |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 GET /api/v1/Document/{documentId}/Version
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -63,17 +75,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ExternalReference": "illum",
-    "DocumentId": 55,
-    "VersionId": "sapiente",
-    "CheckedInDate": "2012-05-29T18:25:50.5276242+02:00",
-    "CheckedInByName": "Reinger-Sauer",
-    "CheckedInByAssociateId": 858,
-    "Description": "Seamless disintermediate strategy",
-    "DisplayText": "aut",
+    "ExternalReference": "sint",
+    "DocumentId": 410,
+    "VersionId": "excepturi",
+    "CheckedInDate": "1999-02-04T11:10:52.8611743+01:00",
+    "CheckedInByName": "Schumm-Daugherty",
+    "CheckedInByAssociateId": 873,
+    "Description": "Exclusive web-enabled extranet",
+    "DisplayText": "temporibus",
     "ExtraFields": [
-      "inventore",
-      "a"
+      "rerum",
+      "ut"
     ]
   }
 ]

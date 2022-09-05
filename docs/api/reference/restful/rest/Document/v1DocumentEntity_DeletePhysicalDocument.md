@@ -1,6 +1,6 @@
 ---
 title: DEL Document/{id}/Content
-id: v1DocumentEntity_DeletePhysicalDocument
+uid: v1DocumentEntity_DeletePhysicalDocument
 ---
 
 # DEL Document/{id}/Content
@@ -11,9 +11,15 @@ DELETE /api/v1/Document/{documentId}/Content
 
 Delete the document contents
 
+
+
+
+
+
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | documentId | int32 | document primary key **Required** |
+
 
 ## Query String Parameters
 
@@ -25,6 +31,7 @@ Delete the document contents
 DELETE /api/v1/Document/{documentId}/Content?allowedReturnType=Message
 ```
 
+
 ## Request Headers
 
 | Parameter Name | Description |
@@ -34,13 +41,16 @@ DELETE /api/v1/Document/{documentId}/Content?allowedReturnType=Message
 | Accept         | Content-type(s) you would like the response in: `application/json`, `text/json`, `application/xml`, `text/xml`, `application/json-patch+json`, `application/merge-patch+json` |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response: object
+
+## Response: 
+
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -51,25 +61,27 @@ Response body: object
 | Value | string |  |
 | AdditionalInfo | string |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 DELETE /api/v1/Document/{documentId}/Content
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ExternalReference": "et",
-  "VersionId": "dicta",
-  "Success": true,
+  "ExternalReference": "perspiciatis",
+  "VersionId": "illum",
+  "Success": false,
   "Type": "CustomGui",
-  "Value": "perspiciatis",
-  "AdditionalInfo": "soluta"
+  "Value": "recusandae",
+  "AdditionalInfo": "quasi"
 }
 ```

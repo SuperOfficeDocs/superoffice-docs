@@ -1,6 +1,6 @@
 ---
 title: POST Agents/EMail/GetUnsanitizedEMailFromDocumentAttachmentId
-id: v1EMailAgent_GetUnsanitizedEMailFromDocumentAttachmentId
+uid: v1EMailAgent_GetUnsanitizedEMailFromDocumentAttachmentId
 ---
 
 # POST Agents/EMail/GetUnsanitizedEMailFromDocumentAttachmentId
@@ -11,9 +11,16 @@ POST /api/v1/Agents/EMail/GetUnsanitizedEMailFromDocumentAttachmentId
 
 Get an e-mail based on an email in the archive system and attachment id.
 
+
 The returned value is not sanitized.
 
-## Online Restricted: ## The EMail agent is not available in Online by default. Access must be requested specifically when app is registered
+
+## Online Restricted: ## The EMail agent is not available in Online by default. Access must be requested specifically when app is registered.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -24,6 +31,7 @@ The returned value is not sanitized.
 ```http
 POST /api/v1/Agents/EMail/GetUnsanitizedEMailFromDocumentAttachmentId?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -39,9 +47,9 @@ POST /api/v1/Agents/EMail/GetUnsanitizedEMailFromDocumentAttachmentId?$select=na
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-DocId, AttachmentIds, IncludeAttachments
+DocId, AttachmentIds, IncludeAttachments 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -49,18 +57,16 @@ DocId, AttachmentIds, IncludeAttachments
 | AttachmentIds | array |  |
 | IncludeAttachments | bool |  |
 
-## Response: object
 
-All information about an e-mail
+## Response: 
 
-Carrier object for EMailEntity.
-Services for the EMailEntity Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IEMailAgent">EMail Agent</see>.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -93,24 +99,26 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/EMail/GetUnsanitizedEMailFromDocumentAttachmentId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocId": 388,
+  "DocId": 449,
   "AttachmentIds": [
-    "ipsam",
+    "voluptatibus",
     "aperiam"
   ],
-  "IncludeAttachments": true
+  "IncludeAttachments": false
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -119,248 +127,155 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 889,
-      "ContactName": "Shanahan-Dietrich",
-      "PersonId": 94,
-      "PersonName": "Hirthe-Bashirian",
-      "AssociateId": 432,
-      "Address": "repellendus",
-      "EmailId": 506,
+      "ContactId": 761,
+      "ContactName": "Terry-Emard",
+      "PersonId": 412,
+      "PersonName": "Fay Group",
+      "AssociateId": 968,
+      "Address": "architecto",
+      "EmailId": 114,
       "DuplicatePersonIds": [
-        303,
-        624
+        621,
+        200
       ],
-      "Name": "Gibson-Borer",
-      "TableRight": {},
+      "Name": "Halvorson, Ward and Sipes",
+      "TableRight": null,
       "FieldProperties": {
         "fieldName": {
-          "FieldRight": {
-            "Mask": "FULL",
-            "Reason": ""
-          },
-          "FieldType": "System.Int32",
-          "FieldLength": 805
+          "FieldRight": null,
+          "FieldType": "System.String",
+          "FieldLength": 829
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 370,
-      "ContactName": "Rohan-Jenkins",
-      "PersonId": 95,
-      "PersonName": "Koepp Group",
-      "AssociateId": 90,
-      "Address": "saepe",
-      "EmailId": 965,
+      "ContactId": 579,
+      "ContactName": "Emmerich-Osinski",
+      "PersonId": 597,
+      "PersonName": "Gislason-Herzog",
+      "AssociateId": 710,
+      "Address": "similique",
+      "EmailId": 580,
       "DuplicatePersonIds": [
-        958,
-        803
+        581,
+        708
       ],
-      "Name": "Gerhold, Bailey and Kassulke",
-      "TableRight": {},
+      "Name": "Wunsch, Brown and Rosenbaum",
+      "TableRight": null,
       "FieldProperties": {
         "fieldName": {
-          "FieldRight": {
-            "Mask": "FULL",
-            "Reason": "target e-business communities"
-          },
-          "FieldType": "System.String",
-          "FieldLength": 69
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 389
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 214,
-      "ContactName": "Reynolds Group",
-      "PersonId": 811,
-      "PersonName": "Maggio-Roberts",
-      "AssociateId": 732,
-      "Address": "omnis",
-      "EmailId": 79,
+      "ContactId": 342,
+      "ContactName": "Hartmann LLC",
+      "PersonId": 198,
+      "PersonName": "Roob, Langosh and Pollich",
+      "AssociateId": 897,
+      "Address": "consequatur",
+      "EmailId": 453,
       "DuplicatePersonIds": [
-        785,
-        1001
+        611,
+        883
       ],
-      "Name": "Vandervort Inc and Sons",
-      "TableRight": {},
+      "Name": "Douglas LLC",
+      "TableRight": null,
       "FieldProperties": {
         "fieldName": {
-          "FieldRight": {
-            "Mask": "FULL",
-            "Reason": ""
-          },
+          "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 542
+          "FieldLength": 841
         }
       }
     }
   ],
-  "Subject": "qui",
-  "HTMLBody": "alias",
-  "From": {
-    "ContactId": 67,
-    "ContactName": "Homenick Inc and Sons",
-    "PersonId": 306,
-    "PersonName": "Jacobi Inc and Sons",
-    "AssociateId": 346,
-    "Address": "doloribus",
-    "EmailId": 733,
-    "DuplicatePersonIds": [
-      966,
-      280
-    ],
-    "Name": "Harber, Emmerich and Fadel",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.Int32",
-        "FieldLength": 243
-      }
-    }
-  },
-  "Sent": "2010-03-19T18:28:49.039962+01:00",
-  "Size": 256,
+  "Subject": "neque",
+  "HTMLBody": "nemo",
+  "From": null,
+  "Sent": "2020-08-02T11:10:26.9594556+02:00",
+  "Size": 14,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "possimus",
-  "PlainBody": "non",
+  "MessageID": "occaecati",
+  "PlainBody": "consequatur",
   "IsSent": false,
-  "EMailSOInfo": {
-    "DocumentId": 503,
-    "AppointmentId": 13,
-    "ProjectId": 781,
-    "SaleId": 746,
-    "Archived": true,
-    "ArchivedAt": "2016-11-25T18:28:49.039962+01:00",
-    "ArchivedBy": 575,
-    "ArchivedDisplayName": "Hartmann-Hettinger",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.Int32",
-        "FieldLength": 305
-      }
-    }
-  },
-  "ServerId": 180,
+  "EMailSOInfo": null,
+  "ServerId": 478,
   "Attachments": [
     {
-      "Description": "Function-based actuating productivity",
-      "Filename": "voluptatem",
-      "Size": 121,
-      "Type": "quibusdam",
-      "Encoding": "qui",
-      "Id": "consequuntur",
-      "Disposition": "explicabo",
+      "Description": "Balanced explicit paradigm",
+      "Filename": "vero",
+      "Size": 914,
+      "Type": "quam",
+      "Encoding": "molestiae",
+      "Id": "voluptas",
+      "Disposition": "non",
       "Stream": "GIF89....File contents as raw bytes...",
-      "TableRight": {},
+      "TableRight": null,
       "FieldProperties": {
         "fieldName": {
-          "FieldRight": {
-            "Mask": "FULL",
-            "Reason": ""
-          },
-          "FieldType": "System.String",
-          "FieldLength": 819
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 410
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Kuhic Group",
+      "Name": "Daugherty, Harvey and Olson",
       "Values": [
-        "provident",
-        "ratione"
+        "sed",
+        "voluptas"
       ],
-      "TableRight": {},
+      "TableRight": null,
       "FieldProperties": {
         "fieldName": {
-          "FieldRight": {
-            "Mask": "FULL",
-            "Reason": ""
-          },
-          "FieldType": "System.String",
-          "FieldLength": 563
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 190
         }
       }
     },
     {
-      "Name": "Kuhic Group",
+      "Name": "Daugherty, Harvey and Olson",
       "Values": [
-        "provident",
-        "ratione"
+        "sed",
+        "voluptas"
       ],
-      "TableRight": {},
+      "TableRight": null,
       "FieldProperties": {
         "fieldName": {
-          "FieldRight": {
-            "Mask": "FULL",
-            "Reason": ""
-          },
-          "FieldType": "System.String",
-          "FieldLength": 563
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 190
         }
       }
     }
   ],
-  "FolderName": "Schmitt Inc and Sons",
-  "EmailItemId": 953,
-  "AccountId": 57,
-  "ReceivedAt": "1997-09-27T18:28:49.039962+02:00",
-  "InReplyTo": {
-    "ServerId": 780,
-    "MessageId": "explicabo",
-    "Subject": "placeat",
-    "From": {},
-    "To": [
-      {},
-      {}
-    ],
-    "Sent": "1995-07-14T18:28:49.039962+02:00",
-    "Priority": "High",
-    "Flags": "Answered",
-    "Size": 923,
-    "EMailSOInfo": {},
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 331
-      }
-    }
-  },
-  "RepliedAt": "1994-10-19T18:28:49.039962+02:00",
+  "FolderName": "Berge, Morar and Hodkiewicz",
+  "EmailItemId": 987,
+  "AccountId": 691,
+  "ReceivedAt": "2008-10-12T11:10:26.9594556+02:00",
+  "InReplyTo": null,
+  "RepliedAt": "2016-11-04T11:10:26.9594556+01:00",
   "HasCalendarData": false,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": "synthesize dot-com technologies"
-      },
-      "FieldType": "System.String",
-      "FieldLength": 322
+      "FieldRight": null,
+      "FieldType": "System.Int32",
+      "FieldLength": 852
     }
   }
 }

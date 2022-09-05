@@ -1,6 +1,6 @@
 ---
 title: POST Agents/List/GetHeadingsFromName
-id: v1ListAgent_GetHeadingsFromName
+uid: v1ListAgent_GetHeadingsFromName
 ---
 
 # POST Agents/List/GetHeadingsFromName
@@ -11,6 +11,12 @@ POST /api/v1/Agents/List/GetHeadingsFromName
 
 Gets headings for list resolved by the provided name.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Gets headings for list resolved by the provided name.
 ```http
 POST /api/v1/Agents/List/GetHeadingsFromName?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,15 +42,18 @@ POST /api/v1/Agents/List/GetHeadingsFromName?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-Name
+Name 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | Name | string |  |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -62,7 +72,7 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/List/GetHeadingsFromName
@@ -72,9 +82,11 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Nader Group"
+  "Name": "Boehm-Johnston"
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -82,24 +94,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 635,
-    "Name": "Corwin, Glover and Hills",
-    "Tooltip": "molestiae",
+    "HeadingId": 148,
+    "Name": "Auer, Marvin and Ward",
+    "Tooltip": "aliquam",
     "Deleted": true,
-    "Rank": 156,
-    "UdListDefinitionId": 56,
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "Rank": 448,
+    "UdListDefinitionId": 521,
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 774
+        "FieldRight": null,
+        "FieldType": "System.Int32",
+        "FieldLength": 291
       }
     }
   }

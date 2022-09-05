@@ -1,6 +1,6 @@
 ---
 title: GET List/Currency/Items
-id: v1CurrencyList_GetAllCurrencyEntity
+uid: v1CurrencyList_GetAllCurrencyEntity
 ---
 
 # GET List/Currency/Items
@@ -11,7 +11,13 @@ GET /api/v1/List/Currency/Items
 
 Gets a list of all CurrencyEntity list items.
 
+
 Calls the List agent service GetAllCurrencyEntity.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -20,8 +26,9 @@ Calls the List agent service GetAllCurrencyEntity.
 | includeDeleted | bool |   |
 
 ```http
-GET /api/v1/List/Currency/Items?includeDeleted=True
+GET /api/v1/List/Currency/Items?includeDeleted=False
 ```
+
 
 ## Request Headers
 
@@ -36,7 +43,10 @@ GET /api/v1/List/Currency/Items?includeDeleted=True
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -56,7 +66,7 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 GET /api/v1/List/Currency/Items
@@ -65,31 +75,27 @@ Accept: application/json; charset=utf-8
 Accept-Language: en
 ```
 
+## Sample response
+
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "CurrencyId": 591,
-    "Name": "Will, Kessler and Hyatt",
-    "Tooltip": "quaerat",
-    "Rank": 890,
-    "Rate": 22677.624,
-    "Units": 29152.468,
-    "Deleted": true,
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "CurrencyId": 171,
+    "Name": "Hansen, Hauck and Sanford",
+    "Tooltip": "rerum",
+    "Rank": 81,
+    "Rate": 21019.737999999998,
+    "Units": 7615.62,
+    "Deleted": false,
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": "grow visionary channels"
-        },
-        "FieldType": "System.String",
-        "FieldLength": 179
+        "FieldRight": null,
+        "FieldType": "System.Int32",
+        "FieldLength": 556
       }
     }
   }

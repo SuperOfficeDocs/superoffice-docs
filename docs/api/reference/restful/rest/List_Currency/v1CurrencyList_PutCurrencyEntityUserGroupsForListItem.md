@@ -1,6 +1,6 @@
 ---
 title: PUT List/Currency/Items/{id}/UserGroups
-id: v1CurrencyList_PutCurrencyEntityUserGroupsForListItem
+uid: v1CurrencyList_PutCurrencyEntityUserGroupsForListItem
 ---
 
 # PUT List/Currency/Items/{id}/UserGroups
@@ -11,11 +11,18 @@ PUT /api/v1/List/Currency/Items/{itemId}/UserGroups
 
 Saves user groups visible for the CurrencyEntity list's item.
 
+
 Calls the List agent service SaveHeadingsForListItemFromListDefinition.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | itemId | int32 | The ID of the item to save. **Required** |
+
+
 
 ## Request Headers
 
@@ -31,9 +38,9 @@ Calls the List agent service SaveHeadingsForListItemFromListDefinition.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entities
+## Request Body: entities  
 
-The headings to be saved.
+The headings to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -53,7 +60,10 @@ The headings to be saved.
 | Hidden | bool | True if the ListItem is hidden |
 | FullName | string | The name of the ListItem in its context |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -81,7 +91,7 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 PUT /api/v1/List/Currency/Items/{itemId}/UserGroups
@@ -92,45 +102,47 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 412,
-    "Name": "Fahey, McKenzie and Schmeler",
-    "ToolTip": "Error facere quae quia suscipit veritatis.",
-    "Deleted": true,
-    "Rank": 342,
-    "Type": "quis",
-    "ColorBlock": 701,
-    "IconHint": "voluptas",
+    "Id": 467,
+    "Name": "Kirlin-Kirlin",
+    "ToolTip": "Dicta et expedita maiores explicabo.",
+    "Deleted": false,
+    "Rank": 294,
+    "Type": "quam",
+    "ColorBlock": 555,
+    "IconHint": "maiores",
     "Selected": true,
-    "LastChanged": "2004-04-18T18:25:51.782332+02:00",
+    "LastChanged": "2021-12-23T11:10:54.2338955+01:00",
     "ChildItems": [
       {
-        "Id": 796,
-        "Name": "Johns, Marvin and Jacobson",
-        "ToolTip": "Aliquam vel temporibus qui velit.",
+        "Id": 110,
+        "Name": "Kshlerin, Schoen and Krajcik",
+        "ToolTip": "Voluptatem quo.",
         "Deleted": false,
-        "Rank": 592,
-        "Type": "sed",
-        "ColorBlock": 523,
-        "IconHint": "aut",
-        "Selected": true,
-        "LastChanged": "2016-10-26T18:25:51.782332+02:00",
+        "Rank": 810,
+        "Type": "tempora",
+        "ColorBlock": 345,
+        "IconHint": "nulla",
+        "Selected": false,
+        "LastChanged": "2012-12-31T11:10:54.2338955+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "molestias",
-        "StyleHint": "velit",
+        "ExtraInfo": "odit",
+        "StyleHint": "cupiditate",
         "Hidden": false,
-        "FullName": "Rosalinda Effertz"
+        "FullName": "Prof. Ken Upton Sr."
       }
     ],
-    "ExtraInfo": "eos",
-    "StyleHint": "voluptatum",
+    "ExtraInfo": "amet",
+    "StyleHint": "inventore",
     "Hidden": true,
-    "FullName": "Lew Auer"
+    "FullName": "Zora Wisoky"
   }
 ]
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -138,65 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 608,
-    "Name": "Jerde, Johnson and Gibson",
-    "ToolTip": "Voluptates dolores ea.",
-    "Deleted": true,
-    "Rank": 590,
-    "Type": "nobis",
-    "ColorBlock": 32,
-    "IconHint": "nesciunt",
+    "Id": 28,
+    "Name": "Corwin, Wilderman and Pfeffer",
+    "ToolTip": "Repellendus ad illo qui expedita.",
+    "Deleted": false,
+    "Rank": 32,
+    "Type": "distinctio",
+    "ColorBlock": 923,
+    "IconHint": "qui",
     "Selected": false,
-    "LastChanged": "2002-09-20T18:25:51.7852933+02:00",
+    "LastChanged": "2009-09-04T11:10:54.2348961+02:00",
     "ChildItems": [
       {
-        "Id": 967,
-        "Name": "Dooley Inc and Sons",
-        "ToolTip": "Quia delectus.",
-        "Deleted": true,
-        "Rank": 390,
-        "Type": "consequuntur",
-        "ColorBlock": 166,
+        "Id": 496,
+        "Name": "McGlynn-Mitchell",
+        "ToolTip": "Et autem sunt voluptatem asperiores autem sequi.",
+        "Deleted": false,
+        "Rank": 633,
+        "Type": "impedit",
+        "ColorBlock": 98,
         "IconHint": "et",
         "Selected": false,
-        "LastChanged": "2000-07-05T18:25:51.7852933+02:00",
+        "LastChanged": "2022-07-08T11:10:54.2358965+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quo",
-        "StyleHint": "hic",
+        "ExtraInfo": "ipsam",
+        "StyleHint": "dolores",
         "Hidden": true,
-        "FullName": "Savannah Bartoletti",
-        "TableRight": {},
+        "FullName": "Aniya Runolfsson",
+        "TableRight": null,
         "FieldProperties": {
           "fieldName": {
-            "FieldRight": {
-              "Mask": "FULL",
-              "Reason": ""
-            },
-            "FieldType": "System.Int32",
-            "FieldLength": 380
+            "FieldRight": null,
+            "FieldType": "System.String",
+            "FieldLength": 752
           }
         }
       }
     ],
-    "ExtraInfo": "ullam",
-    "StyleHint": "et",
+    "ExtraInfo": "sint",
+    "StyleHint": "qui",
     "Hidden": true,
-    "FullName": "Graham Abbott",
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "FullName": "Pietro Quitzon",
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
+        "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 101
+        "FieldLength": 994
       }
     }
   }

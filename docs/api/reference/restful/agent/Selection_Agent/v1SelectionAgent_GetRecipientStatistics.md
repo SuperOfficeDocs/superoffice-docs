@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Selection/GetRecipientStatistics
-id: v1SelectionAgent_GetRecipientStatistics
+uid: v1SelectionAgent_GetRecipientStatistics
 ---
 
 # POST Agents/Selection/GetRecipientStatistics
@@ -11,6 +11,12 @@ POST /api/v1/Agents/Selection/GetRecipientStatistics
 
 Returns a RecipientStatistics object with a count of addresses, emailaddresses and emailaddresses.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Returns a RecipientStatistics object with a count of addresses, emailaddresses a
 ```http
 POST /api/v1/Agents/Selection/GetRecipientStatistics?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,25 +42,24 @@ POST /api/v1/Agents/Selection/GetRecipientStatistics?$select=name,department,cat
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-SelectionId
+SelectionId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | SelectionId | int32 |  |
 
-## Response: object
 
-Class representing a RecipientStatistics carrier used for counting attributes on selection members.
+## Response: 
 
-Carrier object for RecipientStatistics.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -66,43 +72,39 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Selection/GetRecipientStatistics
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 253
+  "SelectionId": 579
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Total": 888,
-  "ValidPostalAddresses": 737,
-  "ValidEmailAddresses": 546,
-  "ValidFaxNumbers": 680,
-  "NoAddresses": 810,
-  "NoFaxOrEmails": 252,
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "Total": 748,
+  "ValidPostalAddresses": 819,
+  "ValidEmailAddresses": 505,
+  "ValidFaxNumbers": 171,
+  "NoAddresses": 122,
+  "NoFaxOrEmails": 939,
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
-      "FieldType": "System.String",
-      "FieldLength": 908
+      "FieldRight": null,
+      "FieldType": "System.Int32",
+      "FieldLength": 528
     }
   }
 }

@@ -18,6 +18,7 @@ Get list of users that can be assigned to chat topics. Users with Chat-CALs from
 
 **Returns:** List of user agents that can be assigned to chat topics, possibly grouped by usergroup.
 
+
 [WSDL file for Services88/Chat](../Services88-Chat.md)
 
 Obtain a ticket from the [Services88/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -50,6 +51,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+
 
 ## GetUserAgentList Response
 
@@ -118,3 +120,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

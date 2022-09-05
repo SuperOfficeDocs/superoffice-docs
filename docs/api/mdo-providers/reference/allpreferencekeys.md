@@ -7,7 +7,7 @@ keywords:
   - "mdo provider"
   - "allpreferencekeys"
 so.generated: true
-so.date: 03.19.2021
+so.date: 08.26.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -15,7 +15,6 @@ so.envir:
 ---
 
 # "allpreferencekeys" MDO List
-
 MDO Provider that retrieves all preference keys
 
 All preferences that are not sections are returned, grouped alphabetically.
@@ -24,6 +23,9 @@ Preferences that have list of values are bolded.
 
 Implemented by the <see cref="T:SuperOffice.CRM.Lists.AllPreferenceKeysProvider">AllPreferenceKeysProvider</see> class.
 The name of the MDO list is 'allpreferencekeys'.
+
+
+
 
 ## Sample Request
 
@@ -36,7 +38,6 @@ Accept-Language: *
 ```
 
 ## Sample Code
-
 ```cs
 var listProvider = SuperOffice.CRM.Lists.SoListProviderFactory.Create("allpreferencekeys", forceFlatList: true);
 foreach (var item in listProvider.RootItems) {
@@ -49,27 +50,28 @@ foreach (var item in listProvider.RootItems) {
 
 |Id   | Name  |StyleHint|ExtraInfo |
 | --- | ----- | ------- | -------- |
-|5533|AcademicTitle (Functions)|||
-|5934|ActiveSound (Visual)|bold||
-|5588|AddressSeparator (Mail)|bold||
-|5498|AllDayEndTime (DiaryView)|bold||
-|5499|AllDayStartTime (DiaryView)|bold||
-|5589|ArchiveAppointments (Mail)|||
-|5590|ArchiveDocuments (Mail)|||
-|5591|ArchiveForwards (Mail)|||
-|5534|ArchivePageSize (Functions)|||
-|5592|ArchiveReplies (Mail)|||
-|5593|ArchiveSentMsg (Mail)|bold||
-|5594|ArchiveSentMsgFromMailClient (Mail)|||
-|5595|ArchiveToAssocs (Mail)|||
-|5535|AskToEditOrRead (Functions)|||
-|5596|AttachiCal (Mail)|||
-|5836|autoCreatePerson (serviceSettings)|||
-|5536|AutoLoadLimitInArchive (Functions)|||
-|5793|AutoLogoutTime (PocketTasks)|||
-|5799|autoQuoteLastmessage (request)|||
-|5500|AutoRefreshTime (DiaryView)|||
-|5537|BackgroundDocumentCheckTimer (Functions)|||
+|1000094|Use academic title||[SR_PD_Functions_NAME]|
+|1000493|Enable sounds|bold|[SR_PD_Visual_NAME]|
+|1000148|Address separator|bold|[SR_PD_Mail_NAME]|
+|1000059|All-day end time|bold|[SR_PD_DiaryView_NAME]|
+|1000060|All-day start time|bold|[SR_PD_DiaryView_NAME]|
+|1000149|Archive sent appointments||[SR_PD_Mail_NAME]|
+|1000150|Archive sent documents||[SR_PD_Mail_NAME]|
+|1000151|Archive forwarded e-mail||[SR_PD_Mail_NAME]|
+|1000095|Archive page size||[SR_PD_Functions_NAME]|
+|1000152|Archive replies||[SR_PD_Mail_NAME]|
+|1000153|Archive all e-mail|bold|[SR_PD_Mail_NAME]|
+|1000154|Auto-archive e-mails sent from e-mail client.||[SR_PD_Mail_NAME]|
+|1000155|Archive e-mail to associates||[SR_PD_Mail_NAME]|
+|1000096|Ask to edit or read||[SR_PD_Functions_NAME]|
+|1000156|Use iCalendar attachment||[SR_PD_Mail_NAME]|
+|1000363|Automatically close tab when adding a message to request||[SR_PD_request_NAME]|
+|1000396|Automatically create contact for new inbound request||[SR_PD_serviceSettings_NAME]|
+|1000097|Limit for auto-loading||[SR_PD_Functions_NAME]|
+|1000356|Autologout time||[SR_PD_PocketTasks_NAME]|
+|1000365|Automatically quote the last message||[SR_PD_request_NAME]|
+|1000061|Diary autorefresh interval||[SR_PD_DiaryView_NAME]|
+
 
 ## Related MDO Lists
 

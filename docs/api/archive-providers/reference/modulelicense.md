@@ -8,7 +8,7 @@ keywords:
   - "archive provider"
   - "ModuleLicense"
 so.generated: true
-so.date: 03.23.2021
+so.date: 08.26.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -27,15 +27,15 @@ security items.
 ## Supported Entities
 
 | Name | Description |
-| ---- | ----- |
+| ---- | ----------- |
 |"systemLicense"|[systemLicense]|
 |"siteLicense"|[siteLicense]|
 |"userLicense"|[userLicense]|
 
 ## Supported Columns
 
-| Name | Restriction | Description | OrderBy
-| ---- | ----- | ------- | ------ |
+| Name | Restriction | Description | OrderBy |
+| ---- | ----------- | ----------- | ------- |
 |getAllRows|bool|GetAll: Get all rows of archive - use with care, you may be fetching the whole database|  |
 |getNoRows|bool|GetNone: Do not get any rows from the archive|  |
 |moduleLicenseId|int|id| x |
@@ -51,11 +51,14 @@ security items.
 ## Sample
 
 ```http!
-GET /api/v1/archive/ModuleLicense?$select=moduleName,licenseType
+GET /api/v1/archive/ModuleLicense?$select=moduleDesc,moduleName,licenseType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv
 
 ```
 
-See also: <see cref="T:SuperOffice.CRM.Services.IArchiveAgent">IArchiveAgent</see>.
+
+
+See also: <see cref="T:SuperOffice.CRM.Services.IArchiveAgent">IArchiveAgent</see>.</p>
+

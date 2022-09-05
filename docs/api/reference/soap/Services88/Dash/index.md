@@ -24,6 +24,8 @@ Download [WSDL file for Services88/Dash](../Services88-Dash.md) if you need to g
 * [CreateDefaultDashTheme](CreateDefaultDashTheme.md)
 * [CreateDefaultDashTile](CreateDefaultDashTile.md)
 * [CreateDefaultDashTileDefinition](CreateDefaultDashTileDefinition.md)
+* [CreateDefaultPreviewDash](CreateDefaultPreviewDash.md)
+* [CreateDefaultPreviewDashTile](CreateDefaultPreviewDashTile.md)
 * [CreateDefaultTileDefinitionForEntity](CreateDefaultTileDefinitionForEntity.md)
 * [CreateDefaultTileForEntity](CreateDefaultTileForEntity.md)
 * [DeleteDash](DeleteDash.md)
@@ -41,6 +43,7 @@ Download [WSDL file for Services88/Dash](../Services88-Dash.md) if you need to g
 * [GetDashTileHtml](GetDashTileHtml.md)
 * [GetDashTileHtmlList](GetDashTileHtmlList.md)
 * [GetDashTiles](GetDashTiles.md)
+* [GetPreviewDash](GetPreviewDash.md)
 * [GetSecondaryTempTileSelection](GetSecondaryTempTileSelection.md)
 * [GetTempTileSelection](GetTempTileSelection.md)
 * [SaveDash](SaveDash.md)
@@ -49,3 +52,4 @@ Download [WSDL file for Services88/Dash](../Services88-Dash.md) if you need to g
 * [SaveDashTileDefinition](SaveDashTileDefinition.md)
 * [SaveDashTileHtmlList](SaveDashTileHtmlList.md)
 * [SaveDashTiles](SaveDashTiles.md)
+

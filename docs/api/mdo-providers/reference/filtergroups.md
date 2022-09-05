@@ -7,7 +7,7 @@ keywords:
   - "mdo provider"
   - "filtergroups"
 so.generated: true
-so.date: 03.19.2021
+so.date: 08.26.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -15,11 +15,15 @@ so.envir:
 ---
 
 # "filtergroups" MDO List
-
 User groups, filtered according to the usergroups selected in the filter dialog.
+
+
 
 Implemented by the <see cref="T:SuperOffice.CRM.Lists.FilterUserGroupProvider">FilterUserGroupProvider</see> class.
 The name of the MDO list is 'filtergroups'.
+
+
+
 
 ## Sample Request
 
@@ -32,7 +36,6 @@ Accept-Language: *
 ```
 
 ## Sample Code
-
 ```cs
 var listProvider = SuperOffice.CRM.Lists.SoListProviderFactory.Create("filtergroups", forceFlatList: true);
 foreach (var item in listProvider.RootItems) {
@@ -52,6 +55,7 @@ foreach (var item in listProvider.RootItems) {
 |1|Administrasjon|||
 |6|Testgruppe1|||
 |7|Testgruppe2|||
+
 
 ## Related MDO Lists
 

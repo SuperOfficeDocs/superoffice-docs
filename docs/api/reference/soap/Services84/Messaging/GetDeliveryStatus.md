@@ -15,6 +15,8 @@ Get delivery status
 
 * **messagingIds:** Array of messaging ids.
 
+
+
 [WSDL file for Services84/Messaging](../Services84-Messaging.md)
 
 Obtain a ticket from the [Services84/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -49,6 +51,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## GetDeliveryStatus Response
 
 ```xml
@@ -75,3 +78,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

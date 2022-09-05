@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Selection/GetSelectionMembersArchiveRows
-id: v1SelectionAgent_GetSelectionMembersArchiveRows
+uid: v1SelectionAgent_GetSelectionMembersArchiveRows
 ---
 
 # POST Agents/Selection/GetSelectionMembersArchiveRows
@@ -11,7 +11,13 @@ POST /api/v1/Agents/Selection/GetSelectionMembersArchiveRows
 
 Get the list of members in this selection.
 
+
 The type of members depends on the target table of the selection.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +28,7 @@ The type of members depends on the target table of the selection.
 ```http
 POST /api/v1/Agents/Selection/GetSelectionMembersArchiveRows?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,16 +44,19 @@ POST /api/v1/Agents/Selection/GetSelectionMembersArchiveRows?$select=name,depart
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-SelectionId, Select
+SelectionId, Select 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | SelectionId | int32 |  |
 | Select | string |  |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -64,20 +74,22 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Selection/GetSelectionMembersArchiveRows
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 60,
-  "Select": "laborum"
+  "SelectionId": 179,
+  "Select": "ad"
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -85,29 +97,23 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EntityName": "Kunze-Romaguera",
-    "PrimaryKey": 205,
+    "EntityName": "Fisher-Kovacek",
+    "PrimaryKey": 406,
     "ColumnData": {
       "fieldName": {
-        "DisplayValue": "similique",
-        "TooltipHint": "expedita",
-        "LinkHint": "eos"
+        "DisplayValue": "at",
+        "TooltipHint": "necessitatibus",
+        "LinkHint": "nihil"
       }
     },
-    "LinkHint": "non",
-    "StyleHint": "ipsum",
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "LinkHint": "dolor",
+    "StyleHint": "incidunt",
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 725
+        "FieldRight": null,
+        "FieldType": "System.Int32",
+        "FieldLength": 611
       }
     }
   }

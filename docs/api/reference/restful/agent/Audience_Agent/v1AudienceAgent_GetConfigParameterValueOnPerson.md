@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Audience/GetConfigParameterValueOnPerson
-id: v1AudienceAgent_GetConfigParameterValueOnPerson
+uid: v1AudienceAgent_GetConfigParameterValueOnPerson
 ---
 
 # POST Agents/Audience/GetConfigParameterValueOnPerson
@@ -11,6 +11,12 @@ POST /api/v1/Agents/Audience/GetConfigParameterValueOnPerson
 
 Gets the string value of an Audience configuration parameter with the specified configuration parameter name on the person specified
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Gets the string value of an Audience configuration parameter with the specified 
 ```http
 POST /api/v1/Agents/Audience/GetConfigParameterValueOnPerson?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,16 +42,19 @@ POST /api/v1/Agents/Audience/GetConfigParameterValueOnPerson?$select=name,depart
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-ParameterName, PersonId
+ParameterName, PersonId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | ParameterName | string |  |
 | PersonId | int32 |  |
 
+
 ## Response: string
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -52,24 +62,27 @@ ParameterName, PersonId
 
 Response body: string
 
-## Sample Request
+
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Audience/GetConfigParameterValueOnPerson
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ParameterName": "Kohler, Bradtke and Kutch",
-  "PersonId": 507
+  "ParameterName": "Maggio Inc and Sons",
+  "PersonId": 18
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"natus"
+"fuga"
 ```

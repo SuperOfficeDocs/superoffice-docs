@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Person/CreateTemporaryKey
-id: v1PersonAgent_CreateTemporaryKey
+uid: v1PersonAgent_CreateTemporaryKey
 ---
 
 # POST Agents/Person/CreateTemporaryKey
@@ -11,7 +11,13 @@ POST /api/v1/Agents/Person/CreateTemporaryKey
 
 Create a temporary key in the database from the given parameters and return the key string.
 
+
 Used for temporary keys for accessing customer centric functionality, such as UpdateSubscriptions.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +28,7 @@ Used for temporary keys for accessing customer centric functionality, such as Up
 ```http
 POST /api/v1/Agents/Person/CreateTemporaryKey?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,9 +44,9 @@ POST /api/v1/Agents/Person/CreateTemporaryKey?$select=name,department,category/i
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-Domain, TargetId, PersonId, Expires
+Domain, TargetId, PersonId, Expires 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -48,7 +55,10 @@ Domain, TargetId, PersonId, Expires
 | PersonId | int32 |  |
 | Expires | date-time |  |
 
+
 ## Response: string
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -56,26 +66,29 @@ Domain, TargetId, PersonId, Expires
 
 Response body: string
 
-## Sample Request
+
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Person/CreateTemporaryKey
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "Domain": "ChangePasswordCustomerCenter",
-  "TargetId": 960,
-  "PersonId": 741,
-  "Expires": "1999-03-09T18:28:49.7411375+01:00"
+  "TargetId": 98,
+  "PersonId": 798,
+  "Expires": "2005-09-18T11:10:27.4874598+02:00"
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"odio"
+"culpa"
 ```

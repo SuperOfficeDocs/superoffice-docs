@@ -1,6 +1,6 @@
 ---
 title: POST Agents/ForeignSystem/GetKey
-id: v1ForeignSystemAgent_GetKey
+uid: v1ForeignSystemAgent_GetKey
 ---
 
 # POST Agents/ForeignSystem/GetKey
@@ -11,7 +11,13 @@ POST /api/v1/Agents/ForeignSystem/GetKey
 
 Returning a foreign key by its key name, that belongs to the specified device and application.
 
+
 A table name and record ID can also be specified.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +28,7 @@ A table name and record ID can also be specified.
 ```http
 POST /api/v1/Agents/ForeignSystem/GetKey?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,9 +44,9 @@ POST /api/v1/Agents/ForeignSystem/GetKey?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-ApplicationName, DeviceName, KeyName, TableName, RecordId
+ApplicationName, DeviceName, KeyName, TableName, RecordId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -49,16 +56,16 @@ ApplicationName, DeviceName, KeyName, TableName, RecordId
 | TableName | string |  |
 | RecordId | int32 |  |
 
-## Response: object
 
-Carrier object for ForeignKey.
-Services for the ForeignKey Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IForeignSystemAgent">ForeignSystem Agent</see>.
+## Response: 
+
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -73,7 +80,7 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/ForeignSystem/GetKey
@@ -83,39 +90,35 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Grady-Hermiston",
-  "DeviceName": "Grady Group",
-  "KeyName": "Nicolas-Klocko",
-  "TableName": "Carter Inc and Sons",
-  "RecordId": 881
+  "ApplicationName": "Fadel-O'Connell",
+  "DeviceName": "Schulist Group",
+  "KeyName": "Romaguera Inc and Sons",
+  "TableName": "Blanda, Davis and Nolan",
+  "RecordId": 3
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "earum",
-  "Value": "ipsum",
-  "RecordId": 92,
-  "CreatedDate": "2012-12-26T18:28:49.212088+01:00",
-  "UpdatedDate": "2016-10-19T18:28:49.212088+02:00",
-  "UpdatedBy": "quia",
-  "CreatedBy": "tempora",
-  "TableName": "Casper LLC",
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "Key": "repudiandae",
+  "Value": "temporibus",
+  "RecordId": 805,
+  "CreatedDate": "1996-03-01T11:10:27.0814535+01:00",
+  "UpdatedDate": "2011-08-23T11:10:27.0814535+02:00",
+  "UpdatedBy": "sit",
+  "CreatedBy": "facere",
+  "TableName": "White, Pouros and Senger",
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
+      "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 373
+      "FieldLength": 773
     }
   }
 }

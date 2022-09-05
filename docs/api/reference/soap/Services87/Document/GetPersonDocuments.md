@@ -17,6 +17,7 @@ Get all documents that are linked to the person. I.e. the documents that are lis
 
 **Returns:** Array of documents
 
+
 [WSDL file for Services87/Document](../Services87-Document.md)
 
 Obtain a ticket from the [Services87/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -48,6 +49,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+
 
 ## GetPersonDocuments Response
 
@@ -90,3 +92,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

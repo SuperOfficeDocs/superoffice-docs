@@ -1,6 +1,6 @@
 ---
 title: GET List/DocumentTemplate/MDOItems
-id: v1DocumentTemplateList_GetMDOList
+uid: v1DocumentTemplateList_GetMDOList
 ---
 
 # GET List/DocumentTemplate/MDOItems
@@ -11,6 +11,12 @@ GET /api/v1/List/DocumentTemplate/MDOItems
 
 Get the MDO list items for "DocTmpl" - with headings and filtering by user group.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -19,9 +25,10 @@ Get the MDO list items for "DocTmpl" - with headings and filtering by user group
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/DocumentTemplate/MDOItems?flat=True
-GET /api/v1/List/DocumentTemplate/MDOItems?query=numquam
+GET /api/v1/List/DocumentTemplate/MDOItems?flat=False
+GET /api/v1/List/DocumentTemplate/MDOItems?query=iure
 ```
+
 
 ## Request Headers
 
@@ -36,7 +43,10 @@ GET /api/v1/List/DocumentTemplate/MDOItems?query=numquam
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -61,14 +71,16 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 GET /api/v1/List/DocumentTemplate/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -76,59 +88,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 221,
-    "Name": "Mohr Group",
-    "ToolTip": "Aut vitae voluptatibus.",
+    "Id": 834,
+    "Name": "Ullrich-Block",
+    "ToolTip": "Veniam doloremque impedit enim sint.",
     "Deleted": false,
-    "Rank": 640,
-    "Type": "suscipit",
+    "Rank": 390,
+    "Type": "assumenda",
     "ChildItems": [
       {
-        "Id": 709,
-        "Name": "O'Kon-Cormier",
-        "ToolTip": "Quisquam ipsum qui reiciendis amet.",
+        "Id": 78,
+        "Name": "Larson Group",
+        "ToolTip": "Quaerat quas quam.",
         "Deleted": false,
-        "Rank": 98,
-        "Type": "quo",
+        "Rank": 470,
+        "Type": "ea",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "eos",
-        "ColorBlock": 244,
-        "ExtraInfo": "minus",
-        "StyleHint": "iste",
-        "FullName": "Ivy Sawayn",
-        "TableRight": {},
+        "IconHint": "iusto",
+        "ColorBlock": 396,
+        "ExtraInfo": "vel",
+        "StyleHint": "dignissimos",
+        "FullName": "Eliane Medhurst",
+        "TableRight": null,
         "FieldProperties": {
           "fieldName": {
-            "FieldRight": {
-              "Mask": "FULL",
-              "Reason": ""
-            },
+            "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 371
+            "FieldLength": 910
           }
         }
       }
     ],
-    "IconHint": "rerum",
-    "ColorBlock": 411,
-    "ExtraInfo": "repellat",
-    "StyleHint": "voluptatem",
-    "FullName": "Wilbert Kautzer",
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "IconHint": "doloribus",
+    "ColorBlock": 993,
+    "ExtraInfo": "rem",
+    "StyleHint": "ducimus",
+    "FullName": "Ms. Kyla Hailee Legros",
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 35
+        "FieldRight": null,
+        "FieldType": "System.Int32",
+        "FieldLength": 891
       }
     }
   }

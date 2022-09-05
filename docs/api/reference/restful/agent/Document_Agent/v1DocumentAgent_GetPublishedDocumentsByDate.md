@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Document/GetPublishedDocumentsByDate
-id: v1DocumentAgent_GetPublishedDocumentsByDate
+uid: v1DocumentAgent_GetPublishedDocumentsByDate
 ---
 
 # POST Agents/Document/GetPublishedDocumentsByDate
@@ -11,7 +11,13 @@ POST /api/v1/Agents/Document/GetPublishedDocumentsByDate
 
 Method that returns a specified number of published document appointments within a time range.
 
+
 The document appointments is visible to the person specified or the document is in a project the person belongs to.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +28,7 @@ The document appointments is visible to the person specified or the document is 
 ```http
 POST /api/v1/Agents/Document/GetPublishedDocumentsByDate?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,9 +44,9 @@ POST /api/v1/Agents/Document/GetPublishedDocumentsByDate?$select=name,department
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-PersonId, IncludeProjectDocuments, StartTime, EndTime, Count
+PersonId, IncludeProjectDocuments, StartTime, EndTime, Count 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -49,7 +56,10 @@ PersonId, IncludeProjectDocuments, StartTime, EndTime, Count
 | EndTime | date-time |  |
 | Count | int32 |  |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -77,26 +87,30 @@ Response body: array
 | ProjectName | string | Project name |
 | AssociateId | int32 | ID of associate whose diary the appointment is in, REQUIRED |
 | Snum | int32 | The sequence number allocated from refcount on used template when creating the document |
+| SaleId | int32 | Owning sale, if any (may be 0) |
+| SaleName | string | Heading of Owning sale, if any. (may be blank) |
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Document/GetPublishedDocumentsByDate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 297,
+  "PersonId": 803,
   "IncludeProjectDocuments": false,
-  "StartTime": "2006-11-13T18:28:48.7029564+01:00",
-  "EndTime": "2002-09-01T18:28:48.7029564+02:00",
-  "Count": 827
+  "StartTime": "2004-06-22T11:10:26.454455+02:00",
+  "EndTime": "2014-12-18T11:10:26.454455+01:00",
+  "Count": 765
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -104,36 +118,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 694,
-    "Attention": "est",
-    "Header": "perferendis",
-    "Name": "Reynolds Inc and Sons",
-    "OurRef": "deserunt",
-    "YourRef": "ipsum",
-    "Description": "Adaptive 24/7 leverage",
-    "DocumentTemplate": "incidunt",
+    "DocumentId": 650,
+    "Attention": "cum",
+    "Header": "enim",
+    "Name": "Crooks, Swift and Towne",
+    "OurRef": "error",
+    "YourRef": "qui",
+    "Description": "Automated asynchronous forecast",
+    "DocumentTemplate": "et",
     "IsPublished": false,
-    "PersonId": 578,
-    "PersonFullName": "Keagan Veum",
-    "AssociateFullName": "Melvin O'Connell",
-    "ContactId": 774,
-    "ContactName": "McCullough Group",
-    "ProjectId": 661,
-    "ProjectName": "Dibbert Inc and Sons",
-    "AssociateId": 774,
-    "Snum": 175,
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "PersonId": 70,
+    "PersonFullName": "Ulises Bruen",
+    "AssociateFullName": "Miss Saige Lois Bashirian Sr.",
+    "ContactId": 765,
+    "ContactName": "Leffler-Kunze",
+    "ProjectId": 463,
+    "ProjectName": "Bartoletti-Hegmann",
+    "AssociateId": 340,
+    "Snum": 69,
+    "SaleId": 973,
+    "SaleName": "Donnelly-Reilly",
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
+        "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 479
+        "FieldLength": 97
       }
     }
   }

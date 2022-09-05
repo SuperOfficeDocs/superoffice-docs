@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "attachment"
-so.date: 04.12.2022
+so.date: 08.26.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -32,6 +32,7 @@ This table contains metadata for attachments. The actual attachments are stored 
 |dbi\_last\_syncronized|Last external syncronization.|DateTime| |
 |dbi\_last\_modified|When the entry was last modified.|DateTime| |
 |attachment\_location\_id|The id of the attachment_location this attachment is stored in|FK [attachment_location](attachment-location.md)|&#x25CF;|
+
 
 ![attachment table relationship diagram](./media/attachment.png)
 
@@ -64,6 +65,7 @@ This table contains metadata for attachments. The actual attachments are stored 
 |[s\_picture\_entry](s-picture-entry.md)  |This table describes each picture in the database |
 |[ticket\_attachment](ticket-attachment.md)  |This table connects an attachment to a message. It references the entry in the attachment table, and the message. |
 
+
 ## Replication Flags
 
 * None
@@ -71,3 +73,4 @@ This table contains metadata for attachments. The actual attachments are stored 
 ## Security Flags
 
 * No access control via user's Role.
+

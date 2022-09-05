@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "ejpackage"
-so.date: 04.12.2022
+so.date: 08.26.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -32,6 +32,7 @@ This table stores packages on the system.
 |install\_script|Installation script|Clob|&#x25CF;|
 |locked|Locked package - components should not be modified by users|Bool| |
 
+
 ![ejpackage table relationship diagram](./media/ejpackage.png)
 
 [!include[details](./includes/ejpackage.md)]
@@ -52,6 +53,7 @@ This table stores packages on the system.
 |[ejpackage\_item](ejpackage-item.md)  |This table stores info on installed packages in the system |
 |[ejuser](ejuser.md)  |This table contains entries for the users of the system. |
 
+
 ## Replication Flags
 
 * None
@@ -59,3 +61,4 @@ This table stores packages on the system.
 ## Security Flags
 
 * No access control via user's Role.
+

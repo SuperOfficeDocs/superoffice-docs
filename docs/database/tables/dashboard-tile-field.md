@@ -6,14 +6,14 @@ so.generated: true
 keywords:
   - "database"
   - "dashboard_tile_field"
-so.date: 04.12.2022
+so.date: 08.26.2022
 so.topic: reference
 so.envir:
   - "onsite"
   - "online"
 ---
 
-# dashboard\_tile\_field Table (477)
+# dashboard\_tile\_field Table (478)
 
 Describes the contents of a tile field
 
@@ -29,6 +29,7 @@ Describes the contents of a tile field
 |updated|Last updated when|UtcDateTime| |
 |updated\_associate\_id|Last updated by whom|FK [associate](associate.md)| |
 |updatedCount|Number of updates made to this record|UShort| |
+
 
 ![dashboard_tile_field table relationship diagram](./media/dashboard_tile_field.png)
 
@@ -48,6 +49,7 @@ Describes the contents of a tile field
 |[associate](associate.md)  |Employees, resources and other users - except for External persons |
 |[dashboard\_tile\_definition](dashboard-tile-definition.md)  |Describes the contents of a tile |
 
+
 ## Replication Flags
 
 * None
@@ -55,3 +57,4 @@ Describes the contents of a tile field
 ## Security Flags
 
 * No access control via user's Role.
+

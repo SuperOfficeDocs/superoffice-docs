@@ -18,6 +18,7 @@ Get all or some of the messages in a chat session
 
 **Returns:** Array of chat messages in the session
 
+
 [WSDL file for Services88/Chat](../Services88-Chat.md)
 
 Obtain a ticket from the [Services88/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -51,6 +52,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## GetChatMessages Response
 
 ```xml
@@ -75,7 +77,7 @@ Application tokens must be specified if calling an Online installation. Applicat
      <Chat:ReadByCustomer xsi:type="xsd:short">0</Chat:ReadByCustomer>
      <Chat:SpecialType xsi:type="Chat:ChatMessageSpecialType">None</Chat:SpecialType>
      <Chat:SpecialParam xsi:type="xsd:string"></Chat:SpecialParam>
-     <Chat:WhenPosted xsi:type="xsd:dateTime">2021-11-30T13:23:34Z</Chat:WhenPosted>
+     <Chat:WhenPosted xsi:type="xsd:dateTime">2022-08-26T08:58:42Z</Chat:WhenPosted>
     </Chat:ChatMessage>
    </Chat:Response>
   </Chat:GetChatMessagesResponse>
@@ -83,3 +85,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

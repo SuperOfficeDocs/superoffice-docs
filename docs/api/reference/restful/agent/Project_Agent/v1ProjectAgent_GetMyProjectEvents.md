@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Project/GetMyProjectEvents
-id: v1ProjectAgent_GetMyProjectEvents
+uid: v1ProjectAgent_GetMyProjectEvents
 ---
 
 # POST Agents/Project/GetMyProjectEvents
@@ -11,7 +11,13 @@ POST /api/v1/Agents/Project/GetMyProjectEvents
 
 Gets all project events that belongs to the currently logged on user.
 
+
 The list of events are filtered by the Audience Visibility restrictions set when the project event is created.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +28,7 @@ The list of events are filtered by the Audience Visibility restrictions set when
 ```http
 POST /api/v1/Agents/Project/GetMyProjectEvents?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -36,7 +43,10 @@ POST /api/v1/Agents/Project/GetMyProjectEvents?$select=name,department,category/
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -71,14 +81,16 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Project/GetMyProjectEvents
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -86,40 +98,34 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AssociateFullName": "Haskell Crooks",
-    "Description": "Sharable modular conglomeration",
-    "ProjectId": 302,
-    "EventName": "Kihn Inc and Sons",
-    "AssociateId": 160,
+    "AssociateFullName": "Stephanie Ryan",
+    "Description": "Synergistic asynchronous approach",
+    "ProjectId": 728,
+    "EventName": "Prohaska LLC",
+    "AssociateId": 846,
     "IsSignedOn": true,
-    "SignOffConfirmationText": "soluta",
-    "SignOffText": "placeat",
-    "SignOnConfirmationText": "numquam",
-    "SignOnText": "perferendis",
-    "EventDate": "2006-06-16T18:28:49.777144+02:00",
+    "SignOffConfirmationText": "incidunt",
+    "SignOffText": "quibusdam",
+    "SignOnConfirmationText": "recusandae",
+    "SignOnText": "voluptatem",
+    "EventDate": "2021-10-05T11:10:27.6164521+02:00",
     "Enabled": true,
-    "SignOff": true,
+    "SignOff": false,
     "SignOffTaskEnable": false,
-    "SignOnTaskEnable": false,
-    "SignOn": true,
-    "SignOffTaskId": 568,
-    "SignOnTaskId": 102,
-    "SignOffTriggersAssign": false,
+    "SignOnTaskEnable": true,
+    "SignOn": false,
+    "SignOffTaskId": 781,
+    "SignOnTaskId": 994,
+    "SignOffTriggersAssign": true,
     "SignOnTriggersAssign": true,
-    "SignOnPersonId": 560,
-    "SignOffPersonId": 965,
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "SignOnPersonId": 649,
+    "SignOffPersonId": 395,
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
+        "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 122
+        "FieldLength": 566
       }
     }
   }

@@ -1,6 +1,6 @@
 ---
 title: POST Agents/List/GetTicketPriorityList
-id: v1ListAgent_GetTicketPriorityList
+uid: v1ListAgent_GetTicketPriorityList
 ---
 
 # POST Agents/List/GetTicketPriorityList
@@ -11,6 +11,12 @@ POST /api/v1/Agents/List/GetTicketPriorityList
 
 Gets an array of TicketPriority objects.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Gets an array of TicketPriority objects.
 ```http
 POST /api/v1/Agents/List/GetTicketPriorityList?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,11 +42,15 @@ POST /api/v1/Agents/List/GetTicketPriorityList?$select=name,department,category/
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: ticketPriorityIds
+## Request Body: ticketPriorityIds  
 
-The primary keys.
+The primary keys. 
+
+
 
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -55,14 +66,16 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/List/GetTicketPriorityList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -70,40 +83,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 963,
-    "Value": "sit",
-    "Tooltip": "temporibus",
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "Id": 137,
+    "Value": "autem",
+    "Tooltip": "dolores",
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.Int32",
-        "FieldLength": 81
+        "FieldRight": null,
+        "FieldType": "System.String",
+        "FieldLength": 82
       }
     }
   },
   {
-    "Id": 963,
-    "Value": "sit",
-    "Tooltip": "temporibus",
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "Id": 137,
+    "Value": "autem",
+    "Tooltip": "dolores",
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.Int32",
-        "FieldLength": 81
+        "FieldRight": null,
+        "FieldType": "System.String",
+        "FieldLength": 82
       }
     }
   }

@@ -7,7 +7,7 @@ keywords:
   - "mdo provider"
   - "ejcategory"
 so.generated: true
-so.date: 03.19.2021
+so.date: 08.26.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -15,8 +15,9 @@ so.envir:
 ---
 
 # "ejcategory" MDO List
-
 EjCategoryProvider creates a flat or tree list based on the table: EJ_CATEGORY
+
+
 
 Implemented by the <see cref="T:SuperOffice.CRM.Lists.EjCategoryProvider">EjCategoryProvider</see> class.
 The name of the MDO list is 'ejcategory'.
@@ -26,9 +27,16 @@ The name of the MDO list is 'ejcategory'.
 | Description | Name | Example Value |
 |-----|-----|------|
 |Use hierarchy| hierarchy|true|
-|Return short names instead of full path| shortNames|false|
+|Return only categories owned by requester| onlyOwnCategories|False|
+|Return short names instead of full path| shortNames|False|
+|Return short text (FullName) as a tooltip| shortTooltip|False|
+|Include admin UI info: resolve Category master name and icons| includeAdministrativeInfo|True|
 
 Separator: &
+
+
+
+
 
 ## Sample Request
 
@@ -41,7 +49,6 @@ Accept-Language: *
 ```
 
 ## Sample Code
-
 ```cs
 var listProvider = SuperOffice.CRM.Lists.SoListProviderFactory.Create("ejcategory", forceFlatList: true);
 foreach (var item in listProvider.RootItems) {
@@ -54,7 +61,20 @@ foreach (var item in listProvider.RootItems) {
 
 |Id   | Name  |StyleHint|ExtraInfo |
 | --- | ----- | ------- | -------- |
-| 2 | Example | | |
+|2|Administration||parentId=0|
+|4|Administration/Accounting||parentId=2|
+|7|Administration/Accounting/Fraud||parentId=4|
+|9|Administration/Accounting/Fraud/Serious||parentId=7|
+|10|Administration/Accounting/Fraud/Silly||parentId=7|
+|8|Administration/Accounting/Overdue||parentId=4|
+|11|Administration/Accounting/Overdue/Long||parentId=8|
+|13|Administration/Catering||parentId=2|
+|12|Administration/IT||parentId=2|
+|3|Sale||parentId=0|
+|1|Support||parentId=0|
+|6|Support/On-line||parentId=1|
+|5|Support/Out-call||parentId=1|
+
 
 ## Related MDO Lists
 

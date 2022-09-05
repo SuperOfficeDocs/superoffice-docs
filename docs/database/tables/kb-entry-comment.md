@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "kb_entry_comment"
-so.date: 04.12.2022
+so.date: 08.26.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -33,6 +33,7 @@ Comments to entries in the knowledge base, typically made by customers
 |dbi\_last\_syncronized|Last external syncronization.|DateTime| |
 |dbi\_last\_modified|When the entry was last modified.|DateTime| |
 
+
 ![kb_entry_comment table relationship diagram](./media/kb_entry_comment.png)
 
 [!include[details](./includes/kb-entry-comment.md)]
@@ -57,6 +58,7 @@ Comments to entries in the knowledge base, typically made by customers
 |[kb\_entry](kb-entry.md)  |This table contains FAQ entries. |
 |[person](person.md)  |Persons in a company or an organizations. All associates have a corresponding person record |
 
+
 ## Replication Flags
 
 * None
@@ -64,3 +66,4 @@ Comments to entries in the knowledge base, typically made by customers
 ## Security Flags
 
 * No access control via user's Role.
+

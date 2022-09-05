@@ -17,6 +17,7 @@ Gets a SaleTypeEntity object.
 
 **Returns:** SaleTypeEntity
 
+
 [WSDL file for Services84/List](../Services84-List.md)
 
 Obtain a ticket from the [Services84/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -48,6 +49,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+
 
 ## GetSaleTypeEntity Response
 
@@ -96,7 +98,7 @@ Application tokens must be specified if calling an Online installation. Applicat
       <List:ColorBlock xsi:type="xsd:int">0</List:ColorBlock>
       <List:IconHint xsi:type="xsd:string"></List:IconHint>
       <List:Selected xsi:type="xsd:boolean">false</List:Selected>
-      <List:LastChanged xsi:type="xsd:dateTime">2021-11-30T13:22:13Z</List:LastChanged>
+      <List:LastChanged xsi:type="xsd:dateTime">2022-08-26T08:51:15Z</List:LastChanged>
       <List:ChildItems xsi:type="List:ArrayOfSelectableMDOListItem">
        <List:SelectableMDOListItem xsi:type="List:SelectableMDOListItem">
         <List:Id xsi:type="xsd:int">0</List:Id>
@@ -108,7 +110,7 @@ Application tokens must be specified if calling an Online installation. Applicat
         <List:ColorBlock xsi:type="xsd:int">0</List:ColorBlock>
         <List:IconHint xsi:type="xsd:string"></List:IconHint>
         <List:Selected xsi:type="xsd:boolean">false</List:Selected>
-        <List:LastChanged xsi:type="xsd:dateTime">2021-11-30T13:22:13Z</List:LastChanged>
+        <List:LastChanged xsi:type="xsd:dateTime">2022-08-26T08:51:15Z</List:LastChanged>
         <List:ChildItems xsi:type="List:ArrayOfSelectableMDOListItem">
          <List:SelectableMDOListItem xsi:type="List:SelectableMDOListItem">
           <List:Id xsi:nil="true"></List:Id>
@@ -146,3 +148,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

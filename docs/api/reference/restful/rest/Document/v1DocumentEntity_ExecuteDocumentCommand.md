@@ -1,6 +1,6 @@
 ---
 title: POST Document/{id}/Command/{command}
-id: v1DocumentEntity_ExecuteDocumentCommand
+uid: v1DocumentEntity_ExecuteDocumentCommand
 ---
 
 # POST Document/{id}/Command/{command}
@@ -11,10 +11,16 @@ POST /api/v1/Document/{documentId}/Command/{command}
 
 Execute a custom command on a particular document, optionally a particular version
 
+
+
+
+
+
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | documentId | int32 | SuperOffice document ID **Required** |
 | command | string | Command name, generally matching one of those returned from the GetDocumentCommands service. However, it is legal for document plugins to support commands that are not declared through GetDocumentCommands, for instance if a custom GUI needs to access plugin functionality. **Required** |
+
 
 ## Query String Parameters
 
@@ -25,10 +31,11 @@ Execute a custom command on a particular document, optionally a particular versi
 | additionalData | array |  Any additional data that the document command needs. This parameter can be used as a tunnel between a custom-programmed GUI and its plugin.&lt;br/&gt;It is suggested that the format is name=value, with one such pair per array item. |
 
 ```http
-POST /api/v1/Document/{documentId}/Command/{command}?versionId=quod
+POST /api/v1/Document/{documentId}/Command/{command}?versionId=consequatur
 POST /api/v1/Document/{documentId}/Command/{command}?allowedReturnTypes=Message
 POST /api/v1/Document/{documentId}/Command/{command}?additionalData=Lorax
 ```
+
 
 ## Request Headers
 
@@ -43,13 +50,16 @@ POST /api/v1/Document/{documentId}/Command/{command}?additionalData=Lorax
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response: object
+
+## Response: 
+
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -60,25 +70,27 @@ Response body: object
 | Value | string |  |
 | AdditionalInfo | string |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Document/{documentId}/Command/{command}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ExternalReference": "ut",
-  "VersionId": "repudiandae",
+  "ExternalReference": "non",
+  "VersionId": "veniam",
   "Success": true,
   "Type": "CustomGui",
-  "Value": "molestias",
-  "AdditionalInfo": "corporis"
+  "Value": "quia",
+  "AdditionalInfo": "esse"
 }
 ```

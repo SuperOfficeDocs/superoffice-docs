@@ -8,7 +8,7 @@ keywords:
   - "archive provider"
   - "AllUsers"
 so.generated: true
-so.date: 03.23.2021
+so.date: 08.26.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -25,42 +25,42 @@ the actual functionality of the provider.
 ## Supported Entities
 
 | Name | Description |
-| ---- | ----- |
+| ---- | ----------- |
 |"all"|All|
 |"superoffice_system-user-cal"|[System user]|
 |"superoffice_admin-system-user"|[System user administrator]|
 |"superoffice_admin-extern-user"|[External user administrator]|
 |"superoffice_visible-for"|[Confidential activities]|
 |"superoffice_reporter-studio-user"|[Reporter Studio]|
-|"superoffice_outlook-synchronizer"|[Outlook Synchronizer]|
 |"superoffice_admin-anonymous-user"|[Anonymous user admin]|
 |"superoffice_publish"|[Publish to external]|
-|"superoffice_superlicense-complete"|[Complete CRM User]|
 |"superoffice_superlicense-no-selection"|[(No Selection)]|
-|"superoffice_superlicense-sales-pro"|[Sales User]|
-|"superoffice_superlicense-marketing-pro"|[Marketing User]|
+|"superoffice_ten-sales"|[SalesPREM]|
+|"superoffice_ten-service"|[ServicePREM]|
+|"superoffice_ten-marketing"|[Marketing]|
+|"superoffice_ten-salesservicemarketing"|[SalesPREM-ServicePREM-Marketing]|
 |"expired"|Expired|
 
 ## Supported Columns
 
-| Name | Restriction | Description | OrderBy
-| ---- | ----- | ------- | ------ |
+| Name | Restriction | Description | OrderBy |
+| ---- | ----------- | ----------- | ------- |
 |getAllRows|bool|GetAll: Get all rows of archive - use with care, you may be fetching the whole database|  |
 |getNoRows|bool|GetNone: Do not get any rows from the archive|  |
 |userplan| *None* |User plan: User plan (licence)|  |
 |canLogin|bool|Can log in: Can log in|  |
-|superoffice_system-user-cal| *None* |System user: Allows log in to NetServer|  |
-|superoffice_admin-system-user| *None* |System user administrator: Allows user to admin system user in SOADMIN user panel.|  |
-|superoffice_admin-extern-user| *None* |External user administrator: Allows user to admin external user in CRM client|  |
-|superoffice_visible-for| *None* |Confidential activities: Enables the visible-for dropdown in the CRM client|  |
-|superoffice_reporter-studio-user| *None* |Reporter Studio: Allows user to log in to Reporter Studio.|  |
-|superoffice_outlook-synchronizer| *None* |Outlook Synchronizer: Enables Outlook client sync (??)|  |
-|superoffice_admin-anonymous-user| *None* |Anonymous user admin: Allows user to admin anonymous user in SOADMIN user panel.|  |
-|superoffice_publish| *None* |Publish to external: Enables Publish checkbox in CRM client. Requires Extern-user|  |
-|superoffice_superlicense-complete| *None* |Complete CRM User: User Plan: Can edit Companies, Diary, Project, Selections, Sales, Reports and use Customer Service|  |
-|superoffice_superlicense-no-selection| *None* |(No Selection): User Plan: License Not in Use.|  |
-|superoffice_superlicense-sales-pro| *None* |Sales User: User Plan: Can edit Companies, Diary, Project, Combi Selections, Sales, Reports|  |
-|superoffice_superlicense-marketing-pro| *None* |Marketing User: User Plan: Can edit Companies, Diary, Project, Combi Selections, Reports, eMarketing|  |
+|superoffice\_system-user-cal| *None* |System user: Allows log in to NetServer|  |
+|superoffice\_admin-system-user| *None* |System user administrator: Allows user to admin system user in SOADMIN user panel.|  |
+|superoffice\_admin-extern-user| *None* |External user administrator: Allows user to admin external user in CRM client|  |
+|superoffice\_visible-for| *None* |Confidential activities: Enables the visible-for dropdown in the CRM client|  |
+|superoffice\_reporter-studio-user| *None* |Reporter Studio: Allows user to log in to Reporter Studio.|  |
+|superoffice\_admin-anonymous-user| *None* |Anonymous user admin: Allows user to admin anonymous user in SOADMIN user panel.|  |
+|superoffice\_publish| *None* |Publish to external: Enables Publish checkbox in CRM client. Requires Extern-user|  |
+|superoffice\_superlicense-no-selection| *None* |(No Selection): User Plan: License Not in Use.|  |
+|superoffice\_ten-sales| *None* |SalesPREM: User Plan: Can edit Companies, Diary, Sales, Selections, Reports|  |
+|superoffice\_ten-service| *None* |ServicePREM: User Plan: Can edit Requests|  |
+|superoffice\_ten-marketing| *None* |Marketing: User Plan: Can send Mailings, Combined Selections|  |
+|superoffice\_ten-salesservicemarketing| *None* |SalesPREM-ServicePREM-Marketing: User Plan: Can edit sales, requests, mailings.|  |
 |firstName|string|First name: Displays the contact's first name| x |
 |lastName|string|Last name: Displays the contact's last name| x |
 |middleName|string|Middle Name : Displays the contact's middle name.| x |
@@ -95,11 +95,14 @@ the actual functionality of the provider.
 ## Sample
 
 ```http!
-GET /api/v1/archive/AllUsers?$select=superoffice_admin-anonymous-user,superoffice_superlicense-marketing-pro,title
+GET /api/v1/archive/AllUsers?$select=superoffice_ten-salesservicemarketing,title
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv
 
 ```
 
-See also: <see cref="T:SuperOffice.CRM.Services.IArchiveAgent">IArchiveAgent</see>.
+
+
+See also: <see cref="T:SuperOffice.CRM.Services.IArchiveAgent">IArchiveAgent</see>.</p>
+

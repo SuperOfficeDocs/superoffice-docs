@@ -1,6 +1,6 @@
 ---
 title: POST Agents/List/GetCountryList
-id: v1ListAgent_GetCountryList
+uid: v1ListAgent_GetCountryList
 ---
 
 # POST Agents/List/GetCountryList
@@ -11,6 +11,12 @@ POST /api/v1/Agents/List/GetCountryList
 
 Gets an array of Country objects.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Gets an array of Country objects.
 ```http
 POST /api/v1/Agents/List/GetCountryList?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,11 +42,15 @@ POST /api/v1/Agents/List/GetCountryList?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: countryIds
+## Request Body: countryIds  
 
-The primary keys.
+The primary keys. 
+
+
 
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -70,14 +81,16 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/List/GetCountryList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -85,36 +98,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "CountryId": 67,
-    "Name": "Harvey-Barrows",
-    "CurrencyId": 696,
-    "EnglishName": "Medhurst-Kirlin",
+    "CountryId": 69,
+    "Name": "Rice, Lehner and Hickle",
+    "CurrencyId": 752,
+    "EnglishName": "Pfannerstill-Senger",
     "TwoLetterISOCountry": "Sokovia",
     "ThreeLetterISOCountry": "Sokovia",
-    "ImageDescription": "Compatible dedicated budgetary management",
-    "OrgNrText": "571506",
-    "InterAreaPrefix": "nam",
-    "DialInPrefix": "fugit",
-    "ZipPrefix": "sequi",
-    "DomainName": "O'Conner, Jacobi and Kutch",
-    "AddressLayoutId": 509,
-    "DomesticAddressLayoutId": 671,
-    "ForeignAddressLayoutId": 420,
-    "Rank": 378,
-    "Tooltip": "voluptatem",
-    "Deleted": false,
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "ImageDescription": "Advanced bandwidth-monitored framework",
+    "OrgNrText": "896308",
+    "InterAreaPrefix": "repellat",
+    "DialInPrefix": "praesentium",
+    "ZipPrefix": "voluptas",
+    "DomainName": "Waelchi-Berge",
+    "AddressLayoutId": 323,
+    "DomesticAddressLayoutId": 370,
+    "ForeignAddressLayoutId": 730,
+    "Rank": 675,
+    "Tooltip": "harum",
+    "Deleted": true,
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 441
+        "FieldRight": null,
+        "FieldType": "System.Int32",
+        "FieldLength": 36
       }
     }
   }

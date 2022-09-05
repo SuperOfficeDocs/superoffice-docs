@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Project/GetDuplicateRules
-id: v1ProjectAgent_GetDuplicateRules
+uid: v1ProjectAgent_GetDuplicateRules
 ---
 
 # POST Agents/Project/GetDuplicateRules
@@ -11,6 +11,12 @@ POST /api/v1/Agents/Project/GetDuplicateRules
 
 Retrieve all available duplicate rules for project
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Retrieve all available duplicate rules for project
 ```http
 POST /api/v1/Agents/Project/GetDuplicateRules?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -34,7 +41,10 @@ POST /api/v1/Agents/Project/GetDuplicateRules?$select=name,department,category/i
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -51,14 +61,16 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Project/GetDuplicateRules
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -66,42 +78,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Champlin-Marquardt",
-    "DisplayName": "Jones, Haley and Harris",
-    "DisplayTooltip": "eius",
+    "Name": "Wehner-Streich",
+    "DisplayName": "Lehner-Gutkowski",
+    "DisplayTooltip": "et",
     "IsActive": true,
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
+        "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 752
+        "FieldLength": 423
       }
     }
   },
   {
-    "Name": "Champlin-Marquardt",
-    "DisplayName": "Jones, Haley and Harris",
-    "DisplayTooltip": "eius",
+    "Name": "Wehner-Streich",
+    "DisplayName": "Lehner-Gutkowski",
+    "DisplayTooltip": "et",
     "IsActive": true,
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
+        "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 752
+        "FieldLength": 423
       }
     }
   }

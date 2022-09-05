@@ -1,6 +1,6 @@
 ---
 title: POST Agents/List/GetLanguageInfoList
-id: v1ListAgent_GetLanguageInfoList
+uid: v1ListAgent_GetLanguageInfoList
 ---
 
 # POST Agents/List/GetLanguageInfoList
@@ -11,6 +11,12 @@ POST /api/v1/Agents/List/GetLanguageInfoList
 
 Gets an array of LanguageInfo objects.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Gets an array of LanguageInfo objects.
 ```http
 POST /api/v1/Agents/List/GetLanguageInfoList?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,11 +42,15 @@ POST /api/v1/Agents/List/GetLanguageInfoList?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: languageInfoIds
+## Request Body: languageInfoIds  
 
-The primary keys.
+The primary keys. 
+
+
 
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -59,14 +70,16 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/List/GetLanguageInfoList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -74,25 +87,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "LanguageInfoId": 799,
-    "LCID": 566,
-    "EnglishName": "McKenzie, Beer and Vandervort",
-    "NativeName": "Altenwerth Group",
-    "ThreeLetterISOLanguageName": "Reichel, Schowalter and Rutherford",
-    "TwoLetterISOLanguageName": "Stracke Inc and Sons",
+    "LanguageInfoId": 53,
+    "LCID": 168,
+    "EnglishName": "Rolfson-Feeney",
+    "NativeName": "Zboncak LLC",
+    "ThreeLetterISOLanguageName": "Champlin Inc and Sons",
+    "TwoLetterISOLanguageName": "Pagac-Howe",
     "IsBuiltIn": false,
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 99
+        "FieldRight": null,
+        "FieldType": "System.Int32",
+        "FieldLength": 312
       }
     }
   }

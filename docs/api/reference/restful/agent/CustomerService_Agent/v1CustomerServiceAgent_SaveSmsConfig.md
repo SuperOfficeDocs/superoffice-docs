@@ -1,6 +1,6 @@
 ---
 title: POST Agents/CustomerService/SaveSmsConfig
-id: v1CustomerServiceAgent_SaveSmsConfig
+uid: v1CustomerServiceAgent_SaveSmsConfig
 ---
 
 # POST Agents/CustomerService/SaveSmsConfig
@@ -10,6 +10,13 @@ POST /api/v1/Agents/CustomerService/SaveSmsConfig
 ```
 
 Updates the existing SmsConfig or creates a new SmsConfig if the id parameter is empty
+
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -25,9 +32,9 @@ Updates the existing SmsConfig or creates a new SmsConfig if the id parameter is
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entity
+## Request Body: entity  
 
-The SmsConfig to be saved.
+The SmsConfig to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -36,18 +43,16 @@ The SmsConfig to be saved.
 | NsPluginSender | string | The sender of the SMS messages. This text will appear on the recipient's mobile phone. |
 | NsPluginConfig | object | Configuration settings provided by the SMS provider. Typically contains newline-delimited settings such as username and password. |
 
-## Response: object
 
-Sms settings for Customer Service sms providers.
+## Response: 
 
-Carrier object for SmsConfig.
-Services for the SmsConfig Carrier is available from the <see cref="T:SuperOffice.CRM.Services.ICustomerServiceAgent">CustomerService Agent</see>.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -58,25 +63,27 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/CustomerService/SaveSmsConfig
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "DefaultSmsCountry": "Sokovia",
-  "NetServerSmsProvider": "quia",
-  "NsPluginSender": "magnam",
+  "NetServerSmsProvider": "earum",
+  "NsPluginSender": "vel",
   "NsPluginConfig": {
-    "NsPluginConfig1": "molestiae",
-    "NsPluginConfig2": "aut"
+    "NsPluginConfig1": "velit",
+    "NsPluginConfig2": "et"
   }
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -84,24 +91,18 @@ Content-Type: application/json; charset=utf-8
 
 {
   "DefaultSmsCountry": "Sokovia",
-  "NetServerSmsProvider": "eaque",
-  "NsPluginSender": "quos",
+  "NetServerSmsProvider": "temporibus",
+  "NsPluginSender": "earum",
   "NsPluginConfig": {
-    "NsPluginConfig1": "quia",
-    "NsPluginConfig2": "voluptatem"
+    "NsPluginConfig1": "fugit",
+    "NsPluginConfig2": "et"
   },
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
+      "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 668
+      "FieldLength": 834
     }
   }
 }

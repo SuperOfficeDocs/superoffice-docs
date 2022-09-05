@@ -1,6 +1,6 @@
 ---
 title: POST Agents/EMail/GetEMailEnvelopes
-id: v1EMailAgent_GetEMailEnvelopes
+uid: v1EMailAgent_GetEMailEnvelopes
 ---
 
 # POST Agents/EMail/GetEMailEnvelopes
@@ -11,7 +11,15 @@ POST /api/v1/Agents/EMail/GetEMailEnvelopes
 
 Retrieve a set of e-mail envelopes
 
-## Online Restricted: ## The EMail agent is not available in Online by default. Access must be requested specifically when app is registered
+
+
+
+## Online Restricted: ## The EMail agent is not available in Online by default. Access must be requested specifically when app is registered.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +30,7 @@ Retrieve a set of e-mail envelopes
 ```http
 POST /api/v1/Agents/EMail/GetEMailEnvelopes?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,16 +46,19 @@ POST /api/v1/Agents/EMail/GetEMailEnvelopes?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-ConnectionInfo, MessageServerIds
+ConnectionInfo, MessageServerIds 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| ConnectionInfo |  | All information needed to connect to a mailserver <br /> Carrier object for EMailConnectionInfo. Services for the EMailConnectionInfo Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IEMailAgent">EMail Agent</see>. |
+| ConnectionInfo |  | All information needed to connect to a mailserver <para /> Carrier object for EMailConnectionInfo. Services for the EMailConnectionInfo Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IEMailAgent">EMail Agent</see>. |
 | MessageServerIds | array |  |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -69,29 +81,25 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/EMail/GetEMailEnvelopes
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConnectionInfo": {
-    "ServerName": "Feil-Langworth",
-    "UserName": "Hintz Inc and Sons",
-    "Password": "numquam",
-    "Folder": "libero",
-    "UseSSL": true
-  },
+  "ConnectionInfo": null,
   "MessageServerIds": [
-    612,
-    267
+    915,
+    246
   ]
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -99,98 +107,45 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ServerId": 367,
-    "MessageId": "in",
-    "Subject": "in",
-    "From": {
-      "ContactId": 903,
-      "ContactName": "D'Amore Group",
-      "PersonId": 474,
-      "PersonName": "Breitenberg-Stoltenberg",
-      "AssociateId": 117,
-      "Address": "alias",
-      "EmailId": 138,
-      "DuplicatePersonIds": [
-        416,
-        128
-      ],
-      "Name": "Powlowski Inc and Sons",
-      "TableRight": {},
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": {
-            "Mask": "FULL",
-            "Reason": ""
-          },
-          "FieldType": "System.Int32",
-          "FieldLength": 614
-        }
-      }
-    },
+    "ServerId": 291,
+    "MessageId": "nihil",
+    "Subject": "quos",
+    "From": null,
     "To": [
       {
-        "ContactId": 445,
-        "ContactName": "Schoen-Dicki",
-        "PersonId": 635,
-        "PersonName": "Wyman-Nikolaus",
-        "AssociateId": 401,
-        "Address": "voluptatem",
-        "EmailId": 414,
+        "ContactId": 500,
+        "ContactName": "Hackett Group",
+        "PersonId": 204,
+        "PersonName": "Glover-Torphy",
+        "AssociateId": 226,
+        "Address": "quo",
+        "EmailId": 372,
         "DuplicatePersonIds": [
-          959,
-          887
+          540,
+          116
         ],
-        "Name": "Beer-Hilpert",
-        "TableRight": {},
+        "Name": "Monahan-Miller",
+        "TableRight": null,
         "FieldProperties": {
           "fieldName": {
-            "FieldRight": {
-              "Mask": "FULL",
-              "Reason": ""
-            },
-            "FieldType": "System.Int32",
-            "FieldLength": 927
+            "FieldRight": null,
+            "FieldType": "System.String",
+            "FieldLength": 189
           }
         }
       }
     ],
-    "Sent": "1995-01-18T18:28:49.0419648+01:00",
+    "Sent": "2021-09-28T11:10:26.9614527+02:00",
     "Priority": "High",
     "Flags": "Answered",
-    "Size": 713,
-    "EMailSOInfo": {
-      "DocumentId": 236,
-      "AppointmentId": 703,
-      "ProjectId": 128,
-      "SaleId": 858,
-      "Archived": true,
-      "ArchivedAt": "2009-07-05T18:28:49.0419648+02:00",
-      "ArchivedBy": 79,
-      "ArchivedDisplayName": "Wintheiser-Kling",
-      "TableRight": {},
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": {
-            "Mask": "FULL",
-            "Reason": ""
-          },
-          "FieldType": "System.String",
-          "FieldLength": 840
-        }
-      }
-    },
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": "architect synergistic models"
-    },
+    "Size": 583,
+    "EMailSOInfo": null,
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
+        "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 242
+        "FieldLength": 551
       }
     }
   }

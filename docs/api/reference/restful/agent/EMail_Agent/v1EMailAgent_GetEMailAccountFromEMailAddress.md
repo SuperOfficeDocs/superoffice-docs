@@ -1,6 +1,6 @@
 ---
 title: POST Agents/EMail/GetEMailAccountFromEMailAddress
-id: v1EMailAgent_GetEMailAccountFromEMailAddress
+uid: v1EMailAgent_GetEMailAccountFromEMailAddress
 ---
 
 # POST Agents/EMail/GetEMailAccountFromEMailAddress
@@ -11,7 +11,15 @@ POST /api/v1/Agents/EMail/GetEMailAccountFromEMailAddress
 
 Returns the email account corresponding to this email address (for the current associate).
 
-## Online Restricted: ## The EMail agent is not available in Online by default. Access must be requested specifically when app is registered
+
+
+
+## Online Restricted: ## The EMail agent is not available in Online by default. Access must be requested specifically when app is registered.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +30,7 @@ Returns the email account corresponding to this email address (for the current a
 ```http
 POST /api/v1/Agents/EMail/GetEMailAccountFromEMailAddress?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,26 +46,24 @@ POST /api/v1/Agents/EMail/GetEMailAccountFromEMailAddress?$select=name,departmen
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-FromAddress
+FromAddress 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | FromAddress | string |  |
 
-## Response: object
 
-Properties for an email account
+## Response: 
 
-Carrier object for EMailAccount.
-Services for the EMailAccount Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IEMailAgent">EMail Agent</see>.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -68,84 +75,48 @@ Response body: object
 | AccountStatus | int32 | The account status (Disabled or...) Readonly field |
 | ErrorCount | int32 | Count of concurring errors of fetching email. Readonly field |
 | ErrorReason | string | Reason/Error message. Readonly field |
+| InboxFolder | string | Inbox folder name if available in the db |
+| SentFolder | string | Sent email folder name if available in the db |
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/EMail/GetEMailAccountFromEMailAddress
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "FromAddress": "minus"
+  "FromAddress": "accusantium"
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EMailAccountId": 252,
-  "EMailAddress": "cupiditate",
-  "AssociateId": 387,
-  "IncomingCredentials": {
-    "ServiceAuthId": 961,
-    "Server": "quia",
-    "Port": 200,
-    "AuthType": "iste",
-    "Username": "ipsa",
-    "Password": "labore",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.Int32",
-        "FieldLength": 171
-      }
-    }
-  },
-  "OutgoingCredentials": {
-    "ServiceAuthId": 851,
-    "Server": "quisquam",
-    "Port": 373,
-    "AuthType": "quidem",
-    "Username": "fugit",
-    "Password": "ad",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 293
-      }
-    }
-  },
-  "AccountStatus": 700,
-  "ErrorCount": 894,
+  "EMailAccountId": 629,
+  "EMailAddress": "nesciunt",
+  "AssociateId": 609,
+  "IncomingCredentials": null,
+  "OutgoingCredentials": null,
+  "AccountStatus": 596,
+  "ErrorCount": 883,
   "ErrorReason": "",
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "InboxFolder": "voluptates",
+  "SentFolder": "voluptatem",
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
+      "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 994
+      "FieldLength": 914
     }
   }
 }

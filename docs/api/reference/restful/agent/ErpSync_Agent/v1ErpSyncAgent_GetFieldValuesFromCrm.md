@@ -1,6 +1,6 @@
 ---
 title: POST Agents/ErpSync/GetFieldValuesFromCrm
-id: v1ErpSyncAgent_GetFieldValuesFromCrm
+uid: v1ErpSyncAgent_GetFieldValuesFromCrm
 ---
 
 # POST Agents/ErpSync/GetFieldValuesFromCrm
@@ -11,7 +11,15 @@ POST /api/v1/Agents/ErpSync/GetFieldValuesFromCrm
 
 Get Crm Field values
 
-## Online Restricted: ## The ErpSync agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for ERP integration apps
+
+
+
+## Online Restricted: ## The ErpSync agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for ERP integration apps.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +30,7 @@ Get Crm Field values
 ```http
 POST /api/v1/Agents/ErpSync/GetFieldValuesFromCrm?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,16 +46,19 @@ POST /api/v1/Agents/ErpSync/GetFieldValuesFromCrm?$select=name,department,catego
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-RecordId, ActorTypeCrm
+RecordId, ActorTypeCrm 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | RecordId | int32 |  |
 | ActorTypeCrm | string |  |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -65,20 +77,22 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/ErpSync/GetFieldValuesFromCrm
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "RecordId": 656,
+  "RecordId": 345,
   "ActorTypeCrm": "Contact"
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -86,24 +100,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DisplayName": "Lueilwitz, Friesen and Lindgren",
-    "CrmFieldKey": "non",
-    "Value": "adipisci",
-    "DisplayValue": "delectus",
+    "DisplayName": "Padberg-Daugherty",
+    "CrmFieldKey": "neque",
+    "Value": "odio",
+    "DisplayValue": "fugit",
     "SyncToCrm": true,
     "SyncToErp": false,
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 779
+        "FieldRight": null,
+        "FieldType": "System.Int32",
+        "FieldLength": 919
       }
     }
   }

@@ -1,6 +1,6 @@
 ---
 title: POST Pricelist/{id}/CopyTo/{newName}
-id: v1PriceList_CopySuperOfficePriceList
+uid: v1PriceList_CopySuperOfficePriceList
 ---
 
 # POST Pricelist/{id}/CopyTo/{newName}
@@ -11,10 +11,16 @@ POST /api/v1/Pricelist/{originalPriceListId}/CopyTo/{newName}
 
 Create a copy of a PriceList in the SuperOffice database
 
+
+
+
+
+
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | originalPriceListId | int32 | Id of the PriceList to be copied **Required** |
 | newName | string | Name of the copied PriceList **Required** |
+
 
 ## Query String Parameters
 
@@ -26,11 +32,12 @@ Create a copy of a PriceList in the SuperOffice database
 | convertCurrency | bool |  If true, product prices will be recalculated to the new currency. If false, product prices will be set to zero. |
 
 ```http
-POST /api/v1/Pricelist/{originalPriceListId}/CopyTo/{newName}?validFrom=07/27/2003 18:25:53
-POST /api/v1/Pricelist/{originalPriceListId}/CopyTo/{newName}?validTo=08/25/2019 18:25:53
-POST /api/v1/Pricelist/{originalPriceListId}/CopyTo/{newName}?newCurrencyId=417
+POST /api/v1/Pricelist/{originalPriceListId}/CopyTo/{newName}?validFrom=03/28/2004 11:10:55
+POST /api/v1/Pricelist/{originalPriceListId}/CopyTo/{newName}?validTo=05/24/2003 11:10:55
+POST /api/v1/Pricelist/{originalPriceListId}/CopyTo/{newName}?newCurrencyId=580
 POST /api/v1/Pricelist/{originalPriceListId}/CopyTo/{newName}?convertCurrency=False
 ```
+
 
 ## Request Headers
 
@@ -45,18 +52,16 @@ POST /api/v1/Pricelist/{originalPriceListId}/CopyTo/{newName}?convertCurrency=Fa
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response: object
 
-A pricelist is basically a collection of products. It can be valid in a time period, and outright deactivated. All prices in the product list is in a specific currency. We have decieded not to separate prices and products, which means that we get a simpler data model, but some redundancy.
+## Response: 
 
-Carrier object for PriceList.
-Services for the PriceList Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IQuoteAgent">Quote Agent</see>.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -73,42 +78,38 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Pricelist/{originalPriceListId}/CopyTo/{newName}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 575,
-  "ERPPriceListKey": "aut",
-  "QuoteConnectionId": 498,
-  "Name": "Torphy-Grimes",
-  "Description": "Managed local matrix",
-  "Currency": "qui",
-  "CurrencyName": "Tremblay-Krajcik",
-  "ValidFrom": "2007-01-01T18:25:51.9762459+01:00",
-  "ValidTo": "2014-05-26T18:25:51.9762459+02:00",
+  "PriceListId": 887,
+  "ERPPriceListKey": "vero",
+  "QuoteConnectionId": 700,
+  "Name": "Lakin-Hills",
+  "Description": "Realigned contextually-based collaboration",
+  "Currency": "aspernatur",
+  "CurrencyName": "Von Inc and Sons",
+  "ValidFrom": "2011-07-16T11:10:54.3909023+02:00",
+  "ValidTo": "1999-03-24T11:10:54.3909023+01:00",
   "IsActive": true,
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
-      "FieldType": "System.String",
-      "FieldLength": 533
+      "FieldRight": null,
+      "FieldType": "System.Int32",
+      "FieldLength": 98
     }
   }
 }

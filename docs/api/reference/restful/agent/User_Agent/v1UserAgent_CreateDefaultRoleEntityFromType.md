@@ -1,6 +1,6 @@
 ---
 title: POST Agents/User/CreateDefaultRoleEntityFromType
-id: v1UserAgent_CreateDefaultRoleEntityFromType
+uid: v1UserAgent_CreateDefaultRoleEntityFromType
 ---
 
 # POST Agents/User/CreateDefaultRoleEntityFromType
@@ -11,9 +11,16 @@ POST /api/v1/Agents/User/CreateDefaultRoleEntityFromType
 
 Create a new role entity of the specified role type.
 
+
 The role type cannot be changed after the entity is created.
 
-## Online Restricted: ## The User agent is not available in Online by default. User management is not allowed for partner apps
+
+## Online Restricted: ## The User agent is not available in Online by default. User management is not allowed for partner apps.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -24,6 +31,7 @@ The role type cannot be changed after the entity is created.
 ```http
 POST /api/v1/Agents/User/CreateDefaultRoleEntityFromType?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -39,24 +47,24 @@ POST /api/v1/Agents/User/CreateDefaultRoleEntityFromType?$select=name,department
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-Type
+Type 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | Type | string |  |
 
-## Response: object
 
-Carrier object for RoleEntity.
-Services for the RoleEntity Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IUserAgent">User Agent</see>.
+## Response: 
+
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -75,7 +83,7 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/User/CreateDefaultRoleEntityFromType
@@ -89,145 +97,31 @@ Content-Type: application/json; charset=utf-8
 }
 ```
 
+## Sample response
+
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 171,
-  "Name": "Aufderhar, Metz and Marvin",
-  "Tooltip": "consequatur",
+  "RoleId": 744,
+  "Name": "Pfeffer Group",
+  "Tooltip": "architecto",
   "RoleType": "Anonymous",
-  "Deleted": 67,
-  "Rank": 551,
-  "Created": "1996-05-28T18:28:50.5754435+02:00",
-  "UseCategories": 360,
-  "CreatedBy": {
-    "AssociateId": 347,
-    "Name": "Metz-Dickinson",
-    "PersonId": 734,
-    "Rank": 561,
-    "Tooltip": "voluptatum",
-    "Type": "AnonymousAssociate",
-    "GroupIdx": 20,
-    "FullName": "Kasandra Bins",
-    "FormalName": "Parker Inc and Sons",
-    "Deleted": false,
-    "EjUserId": 40,
-    "UserName": "Heathcote-Schiller",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.Int32",
-        "FieldLength": 692
-      }
-    }
-  },
-  "Updated": "2006-09-07T18:28:50.5754435+02:00",
-  "UpdatedBy": {
-    "AssociateId": 707,
-    "Name": "Leffler, Christiansen and Effertz",
-    "PersonId": 771,
-    "Rank": 619,
-    "Tooltip": "et",
-    "Type": "AnonymousAssociate",
-    "GroupIdx": 606,
-    "FullName": "Darian Abernathy",
-    "FormalName": "Kertzmann-Schmeler",
-    "Deleted": true,
-    "EjUserId": 958,
-    "UserName": "Ledner-Mann",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.Int32",
-        "FieldLength": 29
-      }
-    }
-  },
-  "DataRights": {
-    "ColumnsInfo": [
-      {},
-      {}
-    ],
-    "RowsInfo": [
-      {},
-      {}
-    ],
-    "Rights": [
-      [
-        {
-          "Value": "qui",
-          "Description": "Organic bifurcated local area network",
-          "TableRight": {
-            "Mask": "Delete",
-            "Reason": ""
-          },
-          "FieldProperties": {
-            "fieldName": {
-              "FieldRight": {
-                "Mask": "FULL",
-                "Reason": ""
-              },
-              "FieldType": "System.Int32",
-              "FieldLength": 947
-            }
-          }
-        }
-      ],
-      [
-        {
-          "Value": "consequatur",
-          "Description": "Assimilated upward-trending protocol",
-          "TableRight": {
-            "Mask": "Delete",
-            "Reason": "syndicate plug-and-play schemas"
-          },
-          "FieldProperties": {
-            "fieldName": {
-              "FieldRight": {
-                "Mask": "FULL",
-                "Reason": ""
-              },
-              "FieldType": "System.Int32",
-              "FieldLength": 407
-            }
-          }
-        }
-      ]
-    ],
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.Int32",
-        "FieldLength": 31
-      }
-    }
-  },
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "Deleted": 657,
+  "Rank": 913,
+  "Created": "2003-07-08T11:10:28.392207+02:00",
+  "UseCategories": 299,
+  "CreatedBy": null,
+  "Updated": "2008-09-24T11:10:28.392207+02:00",
+  "UpdatedBy": null,
+  "DataRights": null,
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
+      "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 707
+      "FieldLength": 145
     }
   }
 }

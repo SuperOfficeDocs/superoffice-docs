@@ -1,6 +1,6 @@
 ---
 title: POST Contact/UdefLayout
-id: v1ContactEntity_AddUdefField
+uid: v1ContactEntity_AddUdefField
 ---
 
 # POST Contact/UdefLayout
@@ -11,6 +11,12 @@ POST /api/v1/Contact/UdefLayout
 
 Add a new field to the current ContactEntity user-defined field layout.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Add a new field to the current ContactEntity user-defined field layout.
 ```http
 POST /api/v1/Contact/UdefLayout?udefFieldType=Checkbox
 ```
+
 
 ## Request Headers
 
@@ -34,18 +41,16 @@ POST /api/v1/Contact/UdefLayout?udefFieldType=Checkbox
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response: object
 
-Return information about the user defined fields. The information can be used to mirror the layout of the user-defined fields in the user interface.
+## Response: 
 
-Carrier object for UserDefinedFieldInfo.
-Services for the UserDefinedFieldInfo Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent">UserDefinedFieldInfo Agent</see>.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -86,66 +91,62 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Contact/UdefLayout
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 159,
-  "ColumnId": 579,
-  "FieldDefault": "praesentium",
-  "FieldHeight": 191,
-  "FieldLabel": "sunt",
-  "FieldLeft": 725,
-  "FieldTop": 929,
+  "UDefFieldId": 870,
+  "ColumnId": 800,
+  "FieldDefault": "est",
+  "FieldHeight": 800,
+  "FieldLabel": "assumenda",
+  "FieldLeft": 628,
+  "FieldTop": 36,
   "FieldType": "Checkbox",
-  "FieldWidth": 399,
-  "FormatMask": "quidem",
-  "HideLabel": true,
+  "FieldWidth": 762,
+  "FormatMask": "a",
+  "HideLabel": false,
   "IsIndexed": false,
-  "LabelHeight": 388,
-  "LabelLeft": 773,
-  "LabelTop": 802,
-  "LabelWidth": 753,
-  "LastVersionId": 557,
-  "ListTableId": 149,
+  "LabelHeight": 370,
+  "LabelLeft": 848,
+  "LabelTop": 441,
+  "LabelWidth": 199,
+  "LastVersionId": 247,
+  "ListTableId": 103,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 734,
-  "ProgId": "tempora",
-  "IsReadOnly": true,
+  "Page1LineNo": 575,
+  "ProgId": "et",
+  "IsReadOnly": false,
   "ShortLabel": "aut",
-  "TabOrder": 31,
-  "TextLength": 628,
-  "Tooltip": "possimus",
-  "UdefIdentity": 429,
-  "UDListDefinitionId": 472,
+  "TabOrder": 790,
+  "TextLength": 543,
+  "Tooltip": "ut",
+  "UdefIdentity": 534,
+  "UDListDefinitionId": 715,
   "Justification": "Center",
-  "Version": 865,
-  "TemplateVariableName": "Batz-Konopelski",
+  "Version": 943,
+  "TemplateVariableName": "Bode Group",
   "HasBeenPublished": false,
-  "MdoListName": "West Inc and Sons",
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "MdoListName": "Gleason-Howe",
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
-      "FieldType": "System.Int32",
-      "FieldLength": 226
+      "FieldRight": null,
+      "FieldType": "System.String",
+      "FieldLength": 779
     }
   }
 }

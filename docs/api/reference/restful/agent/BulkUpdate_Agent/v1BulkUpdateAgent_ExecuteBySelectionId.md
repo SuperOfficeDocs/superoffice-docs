@@ -1,6 +1,6 @@
 ---
 title: POST Agents/BulkUpdate/ExecuteBySelectionId
-id: v1BulkUpdateAgent_ExecuteBySelectionId
+uid: v1BulkUpdateAgent_ExecuteBySelectionId
 ---
 
 # POST Agents/BulkUpdate/ExecuteBySelectionId
@@ -11,6 +11,12 @@ POST /api/v1/Agents/BulkUpdate/ExecuteBySelectionId
 
 Do the batchupdate on this selection
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Do the batchupdate on this selection
 ```http
 POST /api/v1/Agents/BulkUpdate/ExecuteBySelectionId?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,9 +42,9 @@ POST /api/v1/Agents/BulkUpdate/ExecuteBySelectionId?$select=name,department,cate
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-FieldValueInfos, TableName, Context, SelectionId, IsShadow
+FieldValueInfos, TableName, Context, SelectionId, IsShadow 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -47,7 +54,10 @@ FieldValueInfos, TableName, Context, SelectionId, IsShadow
 | SelectionId | int32 |  |
 | IsShadow | bool |  |
 
+
 ## Response: int32
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -55,7 +65,8 @@ FieldValueInfos, TableName, Context, SelectionId, IsShadow
 
 Response body: int32
 
-## Sample Request
+
+## Sample request
 
 ```http!
 POST /api/v1/Agents/BulkUpdate/ExecuteBySelectionId
@@ -67,30 +78,30 @@ Content-Type: application/json; charset=utf-8
 {
   "FieldValueInfos": [
     {
-      "CanSupportMultiUse": true,
-      "DefaultShowInGui": true,
-      "DefaultShowInSelector": false,
+      "CanSupportMultiUse": false,
+      "DefaultShowInGui": false,
+      "DefaultShowInSelector": true,
       "IsActive": false,
-      "Key": "enim",
-      "ValueType": "sint",
-      "Mandatory": true,
-      "EncodedDisplayName": "Hamill, Mayer and Heathcote",
-      "EncodedDisplayDescription": "Inverse solution-oriented product",
-      "IconHint": "quo",
+      "Key": "corporis",
+      "ValueType": "aspernatur",
+      "Mandatory": false,
+      "EncodedDisplayName": "Vandervort LLC",
+      "EncodedDisplayDescription": "Total intangible moratorium",
+      "IconHint": "ipsam",
       "ControlInfos": [
         {},
         {}
       ],
-      "EncodedDataCaption": "in",
-      "EncodedDataCaptionDescription": "Innovative zero tolerance matrices",
-      "CurrentOperationType": "cum",
+      "EncodedDataCaption": "quae",
+      "EncodedDataCaptionDescription": "Inverse responsive archive",
+      "CurrentOperationType": "in",
       "Values": [
-        "amet",
-        "sint"
+        "est",
+        "aut"
       ],
       "DisplayValues": [
-        "magni",
-        "voluptas"
+        "ut",
+        "porro"
       ],
       "OperationInfos": [
         {},
@@ -98,16 +109,18 @@ Content-Type: application/json; charset=utf-8
       ]
     }
   ],
-  "TableName": "Bogisich, Hamill and Lesch",
-  "Context": "quo",
-  "SelectionId": 606,
+  "TableName": "O'Hara Inc and Sons",
+  "Context": "et",
+  "SelectionId": 445,
   "IsShadow": false
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-288
+766
 ```

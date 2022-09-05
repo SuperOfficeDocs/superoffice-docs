@@ -1,6 +1,6 @@
 ---
 title: POST List/{id}/Items
-id: v1ListItemEntity_AddFromListDefinition
+uid: v1ListItemEntity_AddFromListDefinition
 ---
 
 # POST List/{id}/Items
@@ -11,9 +11,16 @@ POST /api/v1/List/{udListDefinitionId}/Items
 
 Save a new list item for the specified list defintion
 
+
+
+
+
+
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | udListDefinitionId | int32 | The name of the list definition, indicating which list to save the item to. **Required** |
+
+
 
 ## Request Headers
 
@@ -29,9 +36,9 @@ Save a new list item for the specified list defintion
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: item
+## Request Body: item  
 
-The item to save
+The item to save 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -42,18 +49,16 @@ The item to save
 | UdListDefinitionId | int32 | The id of the list which this list item belongs to |
 | Rank | int32 | The rank of the list item |
 
-## Response: object
 
-The list item entity contains generic list item information
+## Response: 
 
-Carrier object for ListItemEntity.
-Services for the ListItemEntity Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IListAgent">List Agent</see>.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -66,48 +71,44 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/List/{udListDefinitionId}/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 892,
-  "Name": "Rempel-McGlynn",
-  "Tooltip": "qui",
-  "Deleted": false,
-  "UdListDefinitionId": 863,
-  "Rank": 839
+  "Id": 573,
+  "Name": "Abbott Group",
+  "Tooltip": "autem",
+  "Deleted": true,
+  "UdListDefinitionId": 708,
+  "Rank": 755
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 493,
-  "Name": "Hilpert, Gottlieb and Gutkowski",
-  "Tooltip": "doloribus",
+  "Id": 39,
+  "Name": "Beahan-Pfeffer",
+  "Tooltip": "fugiat",
   "Deleted": false,
-  "UdListDefinitionId": 515,
-  "Rank": 779,
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "UdListDefinitionId": 870,
+  "Rank": 574,
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
+      "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 427
+      "FieldLength": 186
     }
   }
 }

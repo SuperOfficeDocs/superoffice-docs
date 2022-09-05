@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Selection/GetDuplicates
-id: v1SelectionAgent_GetDuplicates
+uid: v1SelectionAgent_GetDuplicates
 ---
 
 # POST Agents/Selection/GetDuplicates
@@ -11,6 +11,12 @@ POST /api/v1/Agents/Selection/GetDuplicates
 
 Get duplicates(exact or similar in the database) based on the name
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Get duplicates(exact or similar in the database) based on the name
 ```http
 POST /api/v1/Agents/Selection/GetDuplicates?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,15 +42,18 @@ POST /api/v1/Agents/Selection/GetDuplicates?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-Name
+Name 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | Name | string |  |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -61,7 +71,7 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Selection/GetDuplicates
@@ -71,9 +81,11 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Barrows Inc and Sons"
+  "Name": "Hoppe Inc and Sons"
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -81,23 +93,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "RuleName": "Hodkiewicz Group",
-    "SoPrimaryKey": 743,
-    "EntryName": "Dibbert Inc and Sons",
-    "EntryIdentifier": "ullam",
-    "RuleDisplayName": "Reinger-Smith",
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "RuleName": "Crist Inc and Sons",
+    "SoPrimaryKey": 902,
+    "EntryName": "Connelly Inc and Sons",
+    "EntryIdentifier": "asperiores",
+    "RuleDisplayName": "Larson LLC",
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": "recontextualize integrated content"
-        },
+        "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 917
+        "FieldLength": 129
       }
     }
   }

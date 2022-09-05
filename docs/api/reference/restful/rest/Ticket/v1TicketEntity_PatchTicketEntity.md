@@ -1,6 +1,6 @@
 ---
 title: PATCH Ticket/{id}
-id: v1TicketEntity_PatchTicketEntity
+uid: v1TicketEntity_PatchTicketEntity
 ---
 
 # PATCH Ticket/{id}
@@ -10,6 +10,7 @@ PATCH /api/v1/Ticket/{id}
 ```
 
 Update a TicketEntity with changes, as described in a JSON Patch or a JSON Merge Patch document.
+
 
 See <a href="https://tools.ietf.org/html/rfc6902">RFC6902</a> and <a href="https://tools.ietf.org/html/rfc7386">RFC 7396</a>. Update the Department field to "foo" can be done either as a JSON PATCH:
 
@@ -27,14 +28,23 @@ or as a JSON MERGE PATCH, which describes the change directly:
 
 ```
 
+
+
 JSON PATCH supports operations 'add', 'replace', 'remove' and 'test'.
 The path is case insensitive, and the leading slash is optional, so the paths "/department", "Department" and "department" are all equivalent.
 
+
+
 Calls the {SuperOffice.CRM.Services.ITicketAgent} service SaveTicketEntity.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | id | int32 | The TicketEntity  id to update. **Required** |
+
 
 ## Query String Parameters
 
@@ -45,6 +55,7 @@ Calls the {SuperOffice.CRM.Services.ITicketAgent} service SaveTicketEntity.
 ```http
 PATCH /api/v1/Ticket/{id}?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -60,9 +71,9 @@ PATCH /api/v1/Ticket/{id}?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: changes string
+## Request Body: changes string 
 
-JSON-Patch array of operations+path+value, or a MERGE-PATCH object (which will be converted to a list of JSON-PATCH operations).
+JSON-Patch array of operations+path+value, or a MERGE-PATCH object (which will be converted to a list of JSON-PATCH operations). 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -70,11 +81,10 @@ JSON-Patch array of operations+path+value, or a MERGE-PATCH object (which will b
 | path | string | The property names to modify.  "/users/0/email", "/users/-", |
 | value | object | New/Replaced value - string or object. |
 
-## Response: object
 
-The ticket entity is used for representing a service ticket
+## Response: 
 
-TicketEntity entity with API _Links added.
+TicketEntity  updated.
 
 | Response | Description |
 |----------------|-------------|
@@ -83,7 +93,7 @@ TicketEntity entity with API _Links added.
 | 409 | Update blocked because a 'test' operation has detected a conflict with the entity value. |
 | 412 | Update aborted because TicketEntity has changed since the requested If-Unmodified-Since timestamp. |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -101,15 +111,15 @@ Response body: object
 | Deadline | date-time | Deadline for ticket. |
 | CreatedBy |  | The associate who created this ticket |
 | Author | string | A string representing the author of the ticket (same as author of first message). |
-| OwnedBy |  | The associate who owns this ticket. Setting the id to 0 will make the ticket unassigned. Setting the id to 2147483647 (MaxInt) will make it automatically assigned according to the ticket category assignment rules.  <br />Use MDO List name "associate" to get list items. |
-| Category |  | The ticket category entity which this ticket is connected to  <br />Use MDO List name "ejcategory" to get list items. |
+| OwnedBy |  | The associate who owns this ticket. Setting the id to 0 will make the ticket unassigned. Setting the id to 2147483647 (MaxInt) will make it automatically assigned according to the ticket category assignment rules.  <para>Use MDO List name "associate" to get list items.</para> |
+| Category |  | The ticket category entity which this ticket is connected to  <para>Use MDO List name "ejcategory" to get list items.</para> |
 | Slevel | string | The securitylevel of the ticket. |
-| Priority |  | The ticket priority entity which this ticket is connected to  <br />Use MDO List name "ticketpriority" to get list items. |
-| BaseStatus | string | The status of the ticket. I.e. active/closed/postponed/deleted  <br />Use MDO List name "ticketstatus" to get list items. |
-| Status |  | The ticket status entity which this ticket is connected to  <br />Use MDO List name "ticketstatus" to get list items. |
+| Priority |  | The ticket priority entity which this ticket is connected to  <para>Use MDO List name "ticketpriority" to get list items.</para> |
+| BaseStatus | string | The status of the ticket. I.e. active/closed/postponed/deleted  <para>Use MDO List name "ticketstatus" to get list items.</para> |
+| Status |  | The ticket status entity which this ticket is connected to  <para>Use MDO List name "ticketstatus" to get list items.</para> |
 | Origin | string | What is the origin of this ticket |
-| Person |  | The primary person that this ticket is connected to  <br />Use MDO List name "person_new" to get list items. |
-| SecondaryPersons | array | The secondary persons this ticket is connected to  <br />Use MDO List name "person_new" to get list items. |
+| Person |  | The primary person that this ticket is connected to  <para>Use MDO List name "person_new" to get list items.</para> |
+| SecondaryPersons | array | The secondary persons this ticket is connected to  <para>Use MDO List name "person_new" to get list items.</para> |
 | AlertLevel | int32 | The alert level for the ticket. Matches the level value of the ticket_alert table. |
 | ConnectId | int32 | If a ticket is connected to another ticket, this field is set to the id of the &amp;apos;master&amp;apos; ticket. |
 | ReadStatus | string | Whether the owner has read the ticket or not (red, yellow, green). |
@@ -129,13 +139,20 @@ Response body: object
 | FromAddress | string | The from-address used when this ticket got created, e.g. by email |
 | Messages | array | TicketMessageId,CreatedAt,SLevel and Important for all the messages connected to this ticket. For message body see the TicketMessageEntity or the TicketMessage archive. |
 | Tags | array | An array containing the tags assigned to this request |
+| Language | string | The language of the first external message |
+| Sentiment | int32 | The sentiment index of the last external message |
+| SentimentConfidence | int32 | The sentiment confidence of the last external message |
+| SuggestedCategoryId | int32 | Suggestion for categorization, based on the text of the message (AI) |
+| SuggestedCategoryName | string | Suggested category from AI |
+| OrigHumanCategoryId | int32 | Will contain the category id selected by the user, when having the choice of using the suggested category or manually selecting a category |
+| IconHint | string | Icon representing ticket's state |
 | ExtraFields | object | Deprecated: Use {SuperOffice.CRM.Services.TicketEntity.CustomFields} instead. Extra fields added to the carrier. This could be data from Plug-ins, the foreign key system, external applications, etc. |
 | CustomFields | object | Udef + Extra fields added to the carrier. Extra fields as defined by changes to database schema + user-defined fields as defined by admin. Custom fields combines user defined fields and extra fields into one bucket.  The individual {SuperOffice.CRM.Services.TicketEntity.ExtraFields} and <see cref="!:UserDefinedFields">UserDefinedFields</see> properties are deprecated in favor of this combined collection. |
 | TableRight |  |  |
 | FieldProperties | object |  |
 | _Links | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 PATCH /api/v1/Ticket/{id}
@@ -147,427 +164,196 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "op": "add",
-    "path": "et",
-    "value": {
-      "value1": {
-        "PrimaryKey": 6301,
-        "EntityName": "person",
-        "personId": 6301,
-        "fullName": "Abel Morissette"
-      },
-      "value2": {
-        "PrimaryKey": 9837,
-        "EntityName": "person",
-        "personId": 9837,
-        "fullName": "Haley Gibson"
-      }
-    }
+    "path": "voluptate",
+    "value": {}
   },
   {
     "op": "add",
-    "path": "et",
-    "value": {
-      "value1": {
-        "PrimaryKey": 6301,
-        "EntityName": "person",
-        "personId": 6301,
-        "fullName": "Abel Morissette"
-      },
-      "value2": {
-        "PrimaryKey": 9837,
-        "EntityName": "person",
-        "personId": 9837,
-        "fullName": "Haley Gibson"
-      }
-    }
+    "path": "voluptate",
+    "value": {}
   }
 ]
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 TicketEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketId": 900,
-  "Title": "suscipit",
-  "CreatedAt": "2009-12-14T18:25:51.2209411+01:00",
-  "LastChanged": "2012-09-07T18:25:51.2209411+02:00",
-  "ReadByOwner": "2013-05-31T18:25:51.2209411+02:00",
-  "ReadByCustomer": "2019-05-21T18:25:51.2209411+02:00",
-  "FirstReadByUser": "2003-05-07T18:25:51.2209411+02:00",
-  "Activate": "2000-12-24T18:25:51.2209411+01:00",
-  "ClosedAt": "2012-09-27T18:25:51.2209411+02:00",
-  "RepliedAt": "2010-04-09T18:25:51.2209411+02:00",
-  "AlertTimeout": "2012-11-04T18:25:51.2209411+01:00",
-  "Deadline": "2000-01-24T18:25:51.2209411+01:00",
-  "CreatedBy": {
-    "AssociateId": 884,
-    "Name": "Schmitt LLC",
-    "PersonId": 893,
-    "Rank": 269,
-    "Tooltip": "ea",
-    "Type": "AnonymousAssociate",
-    "GroupIdx": 93,
-    "FullName": "Marcos Beatty",
-    "FormalName": "Veum-Jacobs",
-    "Deleted": false,
-    "EjUserId": 542,
-    "UserName": "Brown LLC",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 198
-      }
-    }
-  },
-  "Author": "est",
-  "OwnedBy": {
-    "AssociateId": 819,
-    "Name": "Hagenes Inc and Sons",
-    "PersonId": 445,
-    "Rank": 768,
-    "Tooltip": "ipsam",
-    "Type": "AnonymousAssociate",
-    "GroupIdx": 486,
-    "FullName": "Stan Turcotte",
-    "FormalName": "Ryan Inc and Sons",
-    "Deleted": false,
-    "EjUserId": 66,
-    "UserName": "Grant, Okuneva and Daugherty",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 267
-      }
-    }
-  },
-  "Category": {
-    "TicketCategoryId": 222,
-    "ParentId": 431,
-    "Name": "Keebler Group",
-    "Fullname": "ut",
-    "CategoryMaster": 494,
-    "Flags": "AcceptWhenReplying",
-    "DelegateMethod": "Even",
-    "ExternalName": "Zboncak-Shields",
-    "ClosingStatus": "Active",
-    "MsgClosingStatus": "Active",
-    "AssignmentLag": 336,
-    "ReplyTemplate": 76,
-    "NotificationEmail": "josefina_gerhold@medhurst.info",
-    "DefaultTicketStatus": {},
-    "DefaultMessageStatus": {},
-    "ExtraFields": {
-      "ExtraFields1": "quidem",
-      "ExtraFields2": "rerum"
-    },
-    "CustomFields": {
-      "CustomFields1": "deleniti",
-      "CustomFields2": "dolor"
-    },
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.Int32",
-        "FieldLength": 409
-      }
-    }
-  },
+  "TicketId": 492,
+  "Title": "aliquid",
+  "CreatedAt": "2000-04-18T11:10:53.6052146+02:00",
+  "LastChanged": "2020-07-10T11:10:53.6052146+02:00",
+  "ReadByOwner": "2015-05-16T11:10:53.6052146+02:00",
+  "ReadByCustomer": "2018-01-23T11:10:53.6052146+01:00",
+  "FirstReadByUser": "2019-04-02T11:10:53.6052146+02:00",
+  "Activate": "2015-03-03T11:10:53.6052146+01:00",
+  "ClosedAt": "2010-11-19T11:10:53.6052146+01:00",
+  "RepliedAt": "2018-09-17T11:10:53.6052146+02:00",
+  "AlertTimeout": "2011-10-04T11:10:53.6052146+02:00",
+  "Deadline": "2010-03-07T11:10:53.6052146+01:00",
+  "CreatedBy": null,
+  "Author": "dignissimos",
+  "OwnedBy": null,
+  "Category": null,
   "Slevel": "External",
-  "Priority": {
-    "TicketPriorityId": 259,
-    "Name": "Jast, Davis and Leuschke",
-    "Status": "Deleted",
-    "Flags": "AlertSchedule",
-    "SortOrder": 238,
-    "TicketRead": "Continue",
-    "ChangedOwner": "Continue",
-    "TicketNewinfo": "Continue",
-    "TicketClosed": "Continue",
-    "TicketChangedPriority": "Continue",
-    "TicketNew": "Continue",
-    "Deadline": 154,
-    "MonStart": "2021-09-15T18:25:51.22194+02:00",
-    "MonStop": "2011-10-29T18:25:51.22194+02:00",
-    "TueStart": "1998-12-31T18:25:51.22194+01:00",
-    "TueStop": "2013-08-14T18:25:51.22194+02:00",
-    "WedStart": "2009-01-07T18:25:51.22194+01:00",
-    "WedStop": "2019-02-09T18:25:51.22194+01:00",
-    "ThuStart": "2001-12-12T18:25:51.22194+01:00",
-    "ThuStop": "2012-10-10T18:25:51.22194+02:00",
-    "FriStart": "2011-08-02T18:25:51.22194+02:00",
-    "FriStop": "2009-11-19T18:25:51.22194+01:00",
-    "SatStart": "2011-04-09T18:25:51.22194+02:00",
-    "SatStop": "2019-06-07T18:25:51.22194+02:00",
-    "SunStart": "2003-03-01T18:25:51.22194+01:00",
-    "SunStop": "2004-02-16T18:25:51.22194+01:00",
-    "NonDates": [
-      "expedita",
-      "libero"
-    ],
-    "EscalationLevels": [
-      {},
-      {}
-    ],
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 850
-      }
-    }
-  },
+  "Priority": null,
   "BaseStatus": "Active",
-  "Status": {
-    "TicketStatusId": 56,
-    "Name": "Aufderhar-McClure",
-    "Status": "Active",
-    "TimeCounter": "Externally",
-    "NoEmailReopen": false,
-    "IsDefault": false,
-    "UsedInQueue": true,
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": "leverage e-business systems"
-        },
-        "FieldType": "System.String",
-        "FieldLength": 939
-      }
-    }
-  },
+  "Status": null,
   "Origin": "AutoGenerated",
-  "Person": {
-    "Position": "mollitia",
-    "PersonId": 34,
-    "Mrmrs": "voluptatem",
-    "Firstname": "Filiberto",
-    "Lastname": "Gaylord",
-    "MiddleName": "Kutch-Kulas",
-    "Title": "iusto",
-    "Description": "Adaptive 6th generation help-desk",
-    "Email": "mauricio@wintheiser.com",
-    "FullName": "Kylee Turner",
-    "DirectPhone": "(844)101-6861 x78886",
-    "FormalName": "Bernhard, Zboncak and Mante",
-    "CountryId": 99,
-    "ContactId": 489,
-    "ContactName": "Ratke Inc and Sons",
-    "Retired": 484,
-    "Rank": 866,
-    "ActiveInterests": 966,
-    "ContactDepartment": "",
-    "ContactCountryId": 943,
-    "ContactOrgNr": "1118669",
-    "FaxPhone": "723-602-4061 x223",
-    "MobilePhone": "786.407.0737 x7461",
-    "ContactPhone": "283-330-5407",
-    "AssociateName": "Kuvalis, Larson and Howell",
-    "AssociateId": 376,
-    "UsePersonAddress": false,
-    "ContactFax": "tempore",
-    "Kanafname": "maiores",
-    "Kanalname": "et",
-    "Post1": "minima",
-    "Post2": "molestiae",
-    "Post3": "nulla",
-    "EmailName": "sylvan_muller@smithamkoepp.com",
-    "ContactFullName": "Vena Witting",
-    "ActiveErpLinks": 675,
-    "TicketPriorityId": 227,
-    "SupportLanguageId": 435,
-    "SupportAssociateId": 648,
-    "CategoryName": "VIP Customer",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.Int32",
-        "FieldLength": 500
-      }
-    }
-  },
+  "Person": null,
   "SecondaryPersons": [
     {
-      "Position": "aperiam",
-      "PersonId": 6,
-      "Mrmrs": "autem",
-      "Firstname": "William",
-      "Lastname": "Crona",
-      "MiddleName": "Kertzmann LLC",
-      "Title": "voluptatum",
-      "Description": "User-centric actuating projection",
-      "Email": "breanna.carter@parisian.com",
-      "FullName": "Hubert Price",
-      "DirectPhone": "641-684-8575",
-      "FormalName": "Stehr-Nolan",
-      "CountryId": 185,
-      "ContactId": 613,
-      "ContactName": "Murray Group",
-      "Retired": 479,
-      "Rank": 33,
-      "ActiveInterests": 615,
+      "Position": "quia",
+      "PersonId": 654,
+      "Mrmrs": "sed",
+      "Firstname": "Mozell",
+      "Lastname": "Mertz",
+      "MiddleName": "Boehm Group",
+      "Title": "voluptas",
+      "Description": "Cloned non-volatile hierarchy",
+      "Email": "tristin@zemlak.uk",
+      "FullName": "Prof. Jonas Forest Bartell",
+      "DirectPhone": "(168)343-9459 x359",
+      "FormalName": "Howe LLC",
+      "CountryId": 589,
+      "ContactId": 1001,
+      "ContactName": "Baumbach Inc and Sons",
+      "Retired": 635,
+      "Rank": 743,
+      "ActiveInterests": 400,
       "ContactDepartment": "",
-      "ContactCountryId": 518,
-      "ContactOrgNr": "925805",
-      "FaxPhone": "174-718-0836",
-      "MobilePhone": "(618)048-2534",
-      "ContactPhone": "085.886.3305 x36311",
-      "AssociateName": "Koch, Kuhn and Rowe",
-      "AssociateId": 706,
+      "ContactCountryId": 524,
+      "ContactOrgNr": "1687794",
+      "FaxPhone": "873.789.7060",
+      "MobilePhone": "143.554.7961 x08634",
+      "ContactPhone": "1-600-173-6378",
+      "AssociateName": "Donnelly, Senger and McKenzie",
+      "AssociateId": 326,
       "UsePersonAddress": false,
-      "ContactFax": "quod",
-      "Kanafname": "qui",
-      "Kanalname": "voluptatem",
-      "Post1": "nihil",
-      "Post2": "accusamus",
-      "Post3": "facere",
-      "EmailName": "nels@franeckidoyle.co.uk",
-      "ContactFullName": "Johnathan Beatty",
-      "ActiveErpLinks": 650,
-      "TicketPriorityId": 648,
-      "SupportLanguageId": 409,
-      "SupportAssociateId": 444,
+      "ContactFax": "occaecati",
+      "Kanafname": "quia",
+      "Kanalname": "ut",
+      "Post1": "consequatur",
+      "Post2": "eos",
+      "Post3": "qui",
+      "EmailName": "cornelius_nitzsche@gleichnergorczany.name",
+      "ContactFullName": "Katrina Gleichner",
+      "ActiveErpLinks": 209,
+      "TicketPriorityId": 108,
+      "SupportLanguageId": 362,
+      "SupportAssociateId": 386,
       "CategoryName": "VIP Customer",
-      "TableRight": {},
+      "TableRight": null,
       "FieldProperties": {
         "fieldName": {
-          "FieldRight": {
-            "Mask": "FULL",
-            "Reason": ""
-          },
+          "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 14
+          "FieldLength": 142
         }
       }
     }
   ],
-  "AlertLevel": 830,
-  "ConnectId": 155,
+  "AlertLevel": 694,
+  "ConnectId": 161,
   "ReadStatus": "Green",
-  "TimeToReply": 772,
-  "RealTimeToReply": 195,
-  "TimeToClose": 138,
-  "RealTimeToClose": 161,
-  "TimeSpentInternally": 714,
-  "TimeSpentExternally": 235,
-  "TimeSpentQueue": 418,
-  "RealTimeSpentInternally": 649,
-  "RealTimeSpentExternally": 263,
-  "RealTimeSpentQueue": 924,
-  "HasAttachment": false,
-  "NumReplies": 771,
-  "NumMessages": 333,
+  "TimeToReply": 78,
+  "RealTimeToReply": 679,
+  "TimeToClose": 525,
+  "RealTimeToClose": 225,
+  "TimeSpentInternally": 832,
+  "TimeSpentExternally": 910,
+  "TimeSpentQueue": 381,
+  "RealTimeSpentInternally": 276,
+  "RealTimeSpentExternally": 758,
+  "RealTimeSpentQueue": 382,
+  "HasAttachment": true,
+  "NumReplies": 640,
+  "NumMessages": 822,
   "FromAddress": "voluptatem",
   "Messages": [
     {
-      "TicketMessageId": 364,
-      "CreatedAt": "2007-05-16T18:25:51.2249405+02:00",
+      "TicketMessageId": 993,
+      "CreatedAt": "2002-06-24T11:10:53.6102126+02:00",
       "Slevel": "External",
       "Important": true,
-      "Author": "suscipit",
-      "PersonId": 196,
-      "PersonFullName": "Ed Bosco",
-      "ContactId": 459,
-      "ContactName": "Williamson Inc and Sons",
+      "Author": "alias",
+      "PersonId": 932,
+      "PersonFullName": "Hazle Gerlach",
+      "ContactId": 46,
+      "ContactName": "Gerlach Group",
       "ContactDepartment": "",
-      "NumAttachments": 411,
-      "EmailHeader": "micheal@wunschanderson.ca",
+      "NumAttachments": 528,
+      "EmailHeader": "carmelo.reichel@stiedemann.ca",
       "MessageHeaders": [
         {},
         {}
       ],
-      "TableRight": {},
+      "Language": "fuga",
+      "Sentiment": 341,
+      "SentimentConfidence": 688,
+      "CreatedBy": 663,
+      "TableRight": null,
       "FieldProperties": {
         "fieldName": {
-          "FieldRight": {
-            "Mask": "FULL",
-            "Reason": ""
-          },
+          "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 616
+          "FieldLength": 483
         }
       }
     }
   ],
   "Tags": [
     {
-      "Id": 779,
-      "Name": "Champlin Group",
-      "ToolTip": "Beatae corrupti et sed autem ad similique.",
-      "TableRight": {},
+      "Id": 469,
+      "Name": "Ritchie-Ferry",
+      "ToolTip": "Eum quidem consequuntur voluptatibus aspernatur in harum magni.",
+      "TableRight": null,
       "FieldProperties": {
         "fieldName": {
-          "FieldRight": {
-            "Mask": "FULL",
-            "Reason": ""
-          },
-          "FieldType": "System.String",
-          "FieldLength": 457
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 250
         }
       }
     },
     {
-      "Id": 779,
-      "Name": "Champlin Group",
-      "ToolTip": "Beatae corrupti et sed autem ad similique.",
-      "TableRight": {},
+      "Id": 469,
+      "Name": "Ritchie-Ferry",
+      "ToolTip": "Eum quidem consequuntur voluptatibus aspernatur in harum magni.",
+      "TableRight": null,
       "FieldProperties": {
         "fieldName": {
-          "FieldRight": {
-            "Mask": "FULL",
-            "Reason": ""
-          },
-          "FieldType": "System.String",
-          "FieldLength": 457
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 250
         }
       }
     }
   ],
+  "Language": "accusantium",
+  "Sentiment": 73,
+  "SentimentConfidence": 805,
+  "SuggestedCategoryId": 684,
+  "SuggestedCategoryName": "VIP Customer",
+  "OrigHumanCategoryId": 262,
+  "IconHint": "sapiente",
   "ExtraFields": {
-    "ExtraFields1": "et",
-    "ExtraFields2": "rerum"
+    "ExtraFields1": "mollitia",
+    "ExtraFields2": "omnis"
   },
   "CustomFields": {
-    "CustomFields1": "cupiditate",
-    "CustomFields2": "excepturi"
+    "CustomFields1": "in",
+    "CustomFields2": "rerum"
   },
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
+      "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 751
+      "FieldLength": 472
     }
   },
   "_Links": {

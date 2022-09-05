@@ -1,6 +1,6 @@
 ---
 title: GET Project/{id}/IsNumberValid/{number}
-id: v1ProjectEntity_IsNumberValid
+uid: v1ProjectEntity_IsNumberValid
 ---
 
 # GET Project/{id}/IsNumberValid/{number}
@@ -11,12 +11,19 @@ GET /api/v1/Project/{contactId}/IsNumberValid/{number}
 
 Checks if the number is unique or required.
 
+
 The setting is configured from admin under system options.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | contactId | int32 | The Project id **Required** |
 | number | string | The number to check for uniqueness and validity **Required** |
+
+
 
 ## Request Headers
 
@@ -31,7 +38,10 @@ The setting is configured from admin under system options.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
+
 ## Response: bool
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -39,18 +49,21 @@ The setting is configured from admin under system options.
 
 Response body: bool
 
-## Sample Request
+
+## Sample request
 
 ```http!
 GET /api/v1/Project/{contactId}/IsNumberValid/{number}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-false
+true
 ```

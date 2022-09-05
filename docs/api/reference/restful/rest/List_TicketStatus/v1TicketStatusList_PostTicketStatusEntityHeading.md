@@ -1,6 +1,6 @@
 ---
 title: POST List/TicketStatus/Headings
-id: v1TicketStatusList_PostTicketStatusEntityHeading
+uid: v1TicketStatusList_PostTicketStatusEntityHeading
 ---
 
 # POST List/TicketStatus/Headings
@@ -11,7 +11,14 @@ POST /api/v1/List/TicketStatus/Headings
 
 Saves a new heading for the TicketStatusEntity list.
 
+
 Calls the List agent service SaveHeadingFromListDefinition.
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -27,9 +34,9 @@ Calls the List agent service SaveHeadingFromListDefinition.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: newEntity
+## Request Body: newEntity  
 
-The heading to be added.
+The heading to be added. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -40,18 +47,16 @@ The heading to be added.
 | Rank | int32 | Rank order |
 | UdListDefinitionId | int32 | The id of the list which this heading belongs to |
 
-## Response: object
 
-The heading entity contains generic list item information
+## Response: 
 
-Carrier object for HeadingEntity.
-Services for the HeadingEntity Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IListAgent">List Agent</see>.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -64,48 +69,44 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/List/TicketStatus/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 169,
-  "Name": "Greenfelder, Ernser and Fay",
-  "Tooltip": "ducimus",
+  "HeadingId": 650,
+  "Name": "Jewess, Rolfson and Auer",
+  "Tooltip": "officia",
   "Deleted": false,
-  "Rank": 356,
-  "UdListDefinitionId": 444
+  "Rank": 561,
+  "UdListDefinitionId": 811
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 647,
-  "Name": "Schneider-Turner",
-  "Tooltip": "nihil",
-  "Deleted": false,
-  "Rank": 160,
-  "UdListDefinitionId": 82,
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "HeadingId": 621,
+  "Name": "Corkery-McKenzie",
+  "Tooltip": "alias",
+  "Deleted": true,
+  "Rank": 934,
+  "UdListDefinitionId": 716,
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
+      "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 433
+      "FieldLength": 150
     }
   }
 }

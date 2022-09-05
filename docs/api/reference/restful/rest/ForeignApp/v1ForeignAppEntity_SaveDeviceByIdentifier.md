@@ -1,6 +1,6 @@
 ---
 title: PUT ForeignApp/{applicationName}/{deviceName}/{deviceIdentifier}
-id: v1ForeignAppEntity_SaveDeviceByIdentifier
+uid: v1ForeignAppEntity_SaveDeviceByIdentifier
 ---
 
 # PUT ForeignApp/{applicationName}/{deviceName}/{deviceIdentifier}
@@ -11,11 +11,18 @@ PUT /api/v1/ForeignApp/{applicationName}/{deviceName}/{deviceIdentifier}
 
 Updates a ForeignDevice with deviceName that belongs to the application with applicationName.
 
+
+
+
+
+
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | applicationName | string | The name of the foreign application. **Required** |
 | deviceName | string | The name of the foreign device. **Required** |
 | deviceIdentifier | string | Unique id of device (Palm pilot device ID, version number, etc) **Required** |
+
+
 
 ## Request Headers
 
@@ -31,9 +38,9 @@ Updates a ForeignDevice with deviceName that belongs to the application with app
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: foreignDevice
+## Request Body: foreignDevice  
 
-Foreign device to save. Can be null if adding new device.
+Foreign device to save. Can be null if adding new device. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -47,18 +54,16 @@ Foreign device to save. Can be null if adding new device.
 | DeviceIdentifier | string | Optional unique id of device (Palm pilot device ID, etc) |
 | ForeignAppId | int32 | Reference to foregin application (device type) |
 
-## Response: object
 
-Saves a foreign device belonging to the ForeignDevice and application name specified.
+## Response: 
 
-Carrier object for ForeignDevice.
-Services for the ForeignDevice Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IForeignSystemAgent">ForeignSystem Agent</see>.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -74,7 +79,7 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 PUT /api/v1/ForeignApp/{applicationName}/{deviceName}/{deviceIdentifier}
@@ -84,44 +89,40 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignDeviceId": 13,
-  "Name": "Wunsch, Ferry and Hirthe",
-  "CreatedDate": "2019-02-17T18:25:50.5705973+01:00",
-  "UpdatedDate": "1997-09-15T18:25:50.5705973+02:00",
-  "AssociateFullName": "Taya Schmidt",
-  "CreatedBy": "corrupti",
-  "UpdatedBy": "provident",
-  "DeviceIdentifier": "ex",
-  "ForeignAppId": 348
+  "ForeignDeviceId": 648,
+  "Name": "Kiehn-Kling",
+  "CreatedDate": "2019-08-02T11:10:52.9031791+02:00",
+  "UpdatedDate": "2002-05-14T11:10:52.9031791+02:00",
+  "AssociateFullName": "Marge Abbott",
+  "CreatedBy": "iste",
+  "UpdatedBy": "dolorum",
+  "DeviceIdentifier": "quae",
+  "ForeignAppId": 234
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignDeviceId": 866,
-  "Name": "Gislason-Shanahan",
-  "CreatedDate": "1998-04-10T18:25:50.5715971+02:00",
-  "UpdatedDate": "2020-10-03T18:25:50.5715971+02:00",
-  "AssociateFullName": "Milford Kris PhD",
-  "CreatedBy": "ut",
-  "UpdatedBy": "deleniti",
-  "DeviceIdentifier": "omnis",
-  "ForeignAppId": 967,
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": "benchmark clicks-and-mortar schemas"
-  },
+  "ForeignDeviceId": 5,
+  "Name": "Zieme Group",
+  "CreatedDate": "1999-10-27T11:10:52.9041796+02:00",
+  "UpdatedDate": "2012-04-10T11:10:52.9041796+02:00",
+  "AssociateFullName": "Roosevelt Windler IV",
+  "CreatedBy": "voluptatem",
+  "UpdatedBy": "sit",
+  "DeviceIdentifier": "voluptatem",
+  "ForeignAppId": 770,
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
+      "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 374
+      "FieldLength": 636
     }
   }
 }

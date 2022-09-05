@@ -1,6 +1,6 @@
 ---
 title: GET ChatTopic/UserAgents
-id: v1ChatTopicEntity_GetUserAgentList
+uid: v1ChatTopicEntity_GetUserAgentList
 ---
 
 # GET ChatTopic/UserAgents
@@ -11,7 +11,13 @@ GET /api/v1/ChatTopic/UserAgents
 
 Get list of users that can be assigned to chat topics.
 
+
 Users with Chat-CALs from the MDO list 'chatuser'
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -21,9 +27,10 @@ Users with Chat-CALs from the MDO list 'chatuser'
 | onlyPresent | bool |  Only show users who are present |
 
 ```http
-GET /api/v1/ChatTopic/UserAgents?flat=True
-GET /api/v1/ChatTopic/UserAgents?onlyPresent=True
+GET /api/v1/ChatTopic/UserAgents?flat=False
+GET /api/v1/ChatTopic/UserAgents?onlyPresent=False
 ```
+
 
 ## Request Headers
 
@@ -38,7 +45,10 @@ GET /api/v1/ChatTopic/UserAgents?onlyPresent=True
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -63,14 +73,16 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 GET /api/v1/ChatTopic/UserAgents
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -78,59 +90,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 277,
-    "Name": "Johns LLC",
-    "ToolTip": "Velit hic veritatis eos quia est.",
-    "Deleted": true,
-    "Rank": 340,
-    "Type": "natus",
+    "Id": 714,
+    "Name": "Yundt, Kassulke and Bahringer",
+    "ToolTip": "Dolor veritatis quod dolores qui.",
+    "Deleted": false,
+    "Rank": 951,
+    "Type": "qui",
     "ChildItems": [
       {
-        "Id": 674,
-        "Name": "Casper LLC",
-        "ToolTip": "Ut eligendi minima.",
+        "Id": 758,
+        "Name": "Goldner LLC",
+        "ToolTip": "Voluptas ipsum.",
         "Deleted": true,
-        "Rank": 982,
-        "Type": "neque",
+        "Rank": 814,
+        "Type": "natus",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "nam",
-        "ColorBlock": 176,
-        "ExtraInfo": "laboriosam",
-        "StyleHint": "ab",
-        "FullName": "Rahul Schimmel I",
-        "TableRight": {},
+        "IconHint": "fugiat",
+        "ColorBlock": 946,
+        "ExtraInfo": "dolore",
+        "StyleHint": "quia",
+        "FullName": "Orland Willms",
+        "TableRight": null,
         "FieldProperties": {
           "fieldName": {
-            "FieldRight": {
-              "Mask": "FULL",
-              "Reason": ""
-            },
+            "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 255
+            "FieldLength": 531
           }
         }
       }
     ],
-    "IconHint": "alias",
-    "ColorBlock": 365,
-    "ExtraInfo": "corporis",
-    "StyleHint": "voluptatem",
-    "FullName": "Eduardo Dare",
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "IconHint": "dolorem",
+    "ColorBlock": 544,
+    "ExtraInfo": "doloribus",
+    "StyleHint": "sed",
+    "FullName": "Tia Dare",
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
+        "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 375
+        "FieldLength": 723
       }
     }
   }

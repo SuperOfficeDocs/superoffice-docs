@@ -7,7 +7,7 @@ keywords:
   - "mdo provider"
   - "documentgroup"
 so.generated: true
-so.date: 03.19.2021
+so.date: 08.26.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -15,11 +15,15 @@ so.envir:
 ---
 
 # "documentgroup" MDO List
-
 Document types: TaskType.Document, Email, Fax, Merge draft, Merge Final.
+
+
 
 Implemented by the <see cref="T:SuperOffice.CRM.Lists.DocumentGroupProvider">DocumentGroupProvider</see> class.
 The name of the MDO list is 'documentgroup'.
+
+
+
 
 ## Sample Request
 
@@ -32,7 +36,6 @@ Accept-Language: *
 ```
 
 ## Sample Code
-
 ```cs
 var listProvider = SuperOffice.CRM.Lists.SoListProviderFactory.Create("documentgroup", forceFlatList: true);
 foreach (var item in listProvider.RootItems) {
@@ -50,6 +53,7 @@ foreach (var item in listProvider.RootItems) {
 |4|SR_REPORTER_FAX|||
 |7|SR_REPORTER_MAIL_MERGE_DRAFT|||
 |8|SR_REPORTER_MAIL_MERGE_DOCUMENT |||
+
 
 ## Related MDO Lists
 

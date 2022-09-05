@@ -8,7 +8,7 @@ keywords:
   - "archive provider"
   - "ConsentPurpose"
 so.generated: true
-so.date: 03.23.2021
+so.date: 08.26.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -25,14 +25,14 @@ and for GDPR relations to person, if you join and restrict on person
 ## Supported Entities
 
 | Name | Description |
-| ---- | ----- |
+| ---- | ----------- |
 |"consentPurpose"|Consent purpose|
 |"deletedConsentPurpose"|Deleted|
 
 ## Supported Columns
 
-| Name | Restriction | Description | OrderBy
-| ---- | ----- | ------- | ------ |
+| Name | Restriction | Description | OrderBy |
+| ---- | ----------- | ----------- | ------- |
 |getAllRows|bool|GetAll: Get all rows of archive - use with care, you may be fetching the whole database|  |
 |getNoRows|bool|GetNone: Do not get any rows from the archive|  |
 |consentPurposeId|int|Consent purpose ID: Consent purpose ID| x |
@@ -68,6 +68,7 @@ and for GDPR relations to person, if you join and restrict on person
 |consentPerson/person/personNumber|string|Contact - Number: Displays the contact's number| x |
 |consentPerson/person/title|string|Contact - Title: Displays the contact's job title| x |
 |consentPerson/person/personCountry|listAny|Contact - Country: Country| x |
+|consentPerson/person/personCountryId|int|Contact - Country ID: Country ID| x |
 |consentPerson/person/personNoMail|bool|Contact - No Mailings: Displays the contact's No Mailings checkbox| x |
 |consentPerson/person/rank|int|Contact - Rank: Displays a contact's current rank| x |
 |consentPerson/person/birthdate| *None* |Contact - Birthdate: Displays the contact's date of birth|  |
@@ -81,15 +82,19 @@ and for GDPR relations to person, if you join and restrict on person
 |consentPerson/person/kanaFirstName|string|Contact - First name, kana: Contact's first name, in kana alphabet| x |
 |consentPerson/person/kanaLastName|string|Contact - Last name, kana: Contact's last name, in kana alphabet| x |
 |consentPerson/person/personUpdatedBy|associate|Contact - Updated by: The user who last updated the data| x |
+|consentPerson/person/personUpdatedByFullName|associate|Contact - Updated by - Full name: The user who last updated the data| x |
 |consentPerson/person/personUpdatedDate|date|Contact - Updated: The date/time the data was last updated in UTC.| x |
 |consentPerson/person/personRegisteredBy|associate|Contact - Registered by: The user who registered the data| x |
+|consentPerson/person/personRegisteredByFullName|associate|Contact - Registered by - Full name: The user who registered the data| x |
 |consentPerson/person/personRegisteredDate|date|Contact - Registered date: The date/time the data was registered in UTC.| x |
 |consentPerson/person/portraitThumbnail| *None* |Contact - Person image: Person image|  |
 |consentPerson/person/personActiveErpLinks|bool|Contact - ERP connected: Is there an active ERP Sync?| x |
 |consentPerson/person/ticketPriority|listAny|Contact - Service priority: Default service priority for this contact| x |
 |consentPerson/person/supportLanguage|listAny|Contact - Preferred language: Preferred language used for reply templates and more| x |
 |consentPerson/person/supportAssociate|associate|Contact - Our service contact: Default service contact for this contact| x |
+|consentPerson/person/supportAssociateFullName|associate|Contact - Our service contact - Full name: Default service contact for this contact| x |
 |consentPerson/person/personAssociateId|associate|Contact - Our contact: Displays our contact| x |
+|consentPerson/person/personAssociateFullName|associate|Contact - Our contact - Full name: Displays our contact| x |
 |consentPerson/person/personCategory|listAny|Contact - Category| x |
 |consentPerson/person/personBusiness|listAny|Contact - Business| x |
 |consentPerson/person/personDeletedDate|datetime|Contact - Deleted date: Deleted date|  |
@@ -142,6 +147,29 @@ and for GDPR relations to person, if you join and restrict on person
 |consentPerson/person/personUdef/SuperOffice:9|string|Contact - page1saleonly| x |
 |consentPerson/person/personUdef/SuperOffice:10|string|Contact - page1marketingonly| x |
 |consentPerson/person/personUdef/SuperOffice:11|string|Contact - page1adminonly| x |
+|consentPerson/person/personExtra/x\_person\_integer|int|Contact - Extra Integer: Custom person integer| x |
+|consentPerson/person/personExtra/x\_person\_hidden\_integer|int|Contact - Extra hidden integer: Custom integer field that is hidden| x |
+|consentPerson/person/personExtra/x\_person\_float|decimal|Contact - Extra float: Custom float field| x |
+|consentPerson/person/personExtra/x\_person\_longtext|string|Contact - Extra Long Text: Custom long text field on person, keep HTML tags. Simple input, not text area. Default value = 'Hello there'| x |
+|consentPerson/person/personExtra/x\_person\_date|date|Contact - Extra date: Custom date field on person. Default value = 28.03.2019| x |
+|consentPerson/person/personExtra/x\_person\_datetime|datetime|Contact - Extra DateTime: Custom person date and time field. No default| x |
+|consentPerson/person/personExtra/x\_person\_time| *None* |Contact - Extra time: Custom time field on person. Current time as default| x |
+|consentPerson/person/personExtra/x\_person\_boolean|bool|Contact - Extra Boolean: Custom boolean field on person. Default checked| x |
+|consentPerson/person/personExtra/x\_person\_timespan|timeSpan|Contact - Extra timespan: Custom timespan on person. Minutes only in 15 units| x |
+|consentPerson/person/personExtra/x\_person\_shorttext|string|Contact - Extra short text: Custom short text on person. With index. Do not keep HTML tags| x |
+|consentPerson/person/personExtra/x\_person\_shorttext\_list|listAny|Contact - Extra short dropdown: Custom Short text dropdown field on person: black, white, transparent| x |
+|consentPerson/person/personExtra/x\_person\_user\_relation|associate|Contact - Extra user relation: Custom person-user relation field| x |
+|consentPerson/person/personExtra/x\_person\_category\_relation|listAny|Contact - Extra category relation: Custom person-category relation| x |
+|consentPerson/person/personExtra/x\_person\_priority\_relation|listAny|Contact - Extra priority relation: Custom person-priority relation| x |
+|consentPerson/person/personExtra/x\_person\_request\_relation|stringorPK|Contact - Extra request relation: Request relation on contact| x |
+|consentPerson/person/personExtra/x\_person\_appointment\_relation|stringorPK|Contact - Extra appointment relation: Appointment relation on person| x |
+|consentPerson/person/personExtra/x\_person\_contact\_relation|stringorPK|Contact - Extra company relation: Company relation on contact| x |
+|consentPerson/person/personExtra/y\_rental/id|int|Contact - Rental - id: Displays the row's primary key (y\_rental)| x |
+|consentPerson/person/personExtra/y\_rental/x\_start|date|Contact - Rental - Start rental| x |
+|consentPerson/person/personExtra/y\_rental/x\_end|date|Contact - Rental - End| x |
+|consentPerson/person/personExtra/y\_rental/x\_amount|int|Contact - Rental - Amount: Number to rent. Default = 1| x |
+|consentPerson/person/personExtra/y\_rental/x\_contact|stringorPK|Contact - Rental - Renter: Company that rents equipment| x |
+|consentPerson/person/personExtra/y\_rental/y\_equipment/x\_name|string|Contact - Rental - Equipment - Name: Equpment name custom field. Cannot be null., show in table| x |
 |consentPerson/consentPurpose/consentPurposeId|int|Consent purpose - Consent purpose ID: Consent purpose ID| x |
 |consentPerson/consentPurpose/active|bool|Consent purpose - Active: | x |
 |consentPerson/consentPurpose/key|string|Consent purpose - Purpose ID: | x |
@@ -156,11 +184,14 @@ and for GDPR relations to person, if you join and restrict on person
 ## Sample
 
 ```http!
-GET /api/v1/archive/ConsentPurpose?$select=tooltip,consentPerson/person/rank,consentPerson/person/retired,consentPerson/person/hasCompany,consentPerson/person/email/emailBounceCount
+GET /api/v1/archive/ConsentPurpose?$select=consentPerson/person/personUdef/SuperOffice:11,consentPerson/person/personUpdatedByFullName,consentPerson/person/personPrivate/formattedNumber
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv
 
 ```
 
-See also: <see cref="T:SuperOffice.CRM.Services.IArchiveAgent">IArchiveAgent</see>.
+
+
+See also: <see cref="T:SuperOffice.CRM.Services.IArchiveAgent">IArchiveAgent</see>.</p>
+

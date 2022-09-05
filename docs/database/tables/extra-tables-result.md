@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "extra_tables_result"
-so.date: 04.12.2022
+so.date: 08.26.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -26,6 +26,7 @@ Result set of executed search in ejournal extra tables
 |extra\_table|The id of the extra table.|FK [extra_tables](extra-tables.md)| |
 |num\_entries|The number of results.|Int|&#x25CF;|
 |active\_page|The current active page.|Int|&#x25CF;|
+
 
 ![extra_tables_result table relationship diagram](./media/extra_tables_result.png)
 
@@ -47,6 +48,7 @@ Result set of executed search in ejournal extra tables
 |[extra\_tables\_entry](extra-tables-entry.md)  |Hits/entries in result set of executed search in ejournal extra tables |
 |[login](login.md)  |This table contains entries for the user sessions.  |
 
+
 ## Replication Flags
 
 * None
@@ -54,3 +56,4 @@ Result set of executed search in ejournal extra tables
 ## Security Flags
 
 * No access control via user's Role.
+

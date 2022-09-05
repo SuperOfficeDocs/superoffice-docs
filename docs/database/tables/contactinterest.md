@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "contactinterest"
-so.date: 04.12.2022
+so.date: 08.26.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -33,6 +33,7 @@ Link-table between contact and interests in ContInt
 |updated\_associate\_id|Last updated by whom|FK [associate](associate.md)| |
 |updatedCount|Number of updates made to this record|UShort| |
 
+
 ![contactinterest table relationship diagram](./media/contactinterest.png)
 
 [!include[details](./includes/contactinterest.md)]
@@ -56,6 +57,7 @@ Link-table between contact and interests in ContInt
 |[contact](contact.md)  |Companies and Organizations.   This table features a special record containing information about the contact that owns the database.   |
 |[ContInt](contint.md)  |ContInt list table. List-text of all valid contact interest types. |
 
+
 ## Replication Flags
 
 * Area Management controlled table. Contents replicated to satellites and traveller databases.
@@ -65,3 +67,4 @@ Link-table between contact and interests in ContInt
 ## Security Flags
 
 * Sentry controls access to items in this table using user's Role and data rights matrix on the table's parent.
+

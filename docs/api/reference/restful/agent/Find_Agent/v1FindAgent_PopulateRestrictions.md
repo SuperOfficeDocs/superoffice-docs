@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Find/PopulateRestrictions
-id: v1FindAgent_PopulateRestrictions
+uid: v1FindAgent_PopulateRestrictions
 ---
 
 # POST Agents/Find/PopulateRestrictions
@@ -11,7 +11,13 @@ POST /api/v1/Agents/Find/PopulateRestrictions
 
 Take an incoming set of minimally populated restrictions (name + operator is required), and populate all the other parts of the ArchiveRestrictionInfo structure.
 
+
 This includes column information, display values (including list value lookup), and calculated/default values where the value hints specify read-only (R).
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +28,7 @@ This includes column information, display values (including list value lookup), 
 ```http
 POST /api/v1/Agents/Find/PopulateRestrictions?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,16 +44,19 @@ POST /api/v1/Agents/Find/PopulateRestrictions?$select=name,department,category/i
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-ProviderName, Restrictions
+ProviderName, Restrictions 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | ProviderName | string |  |
 | Restrictions | array |  |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -67,7 +77,7 @@ Response body: array
 | InterOperator | string |  |
 | UniqueHash | int32 |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Find/PopulateRestrictions
@@ -77,32 +87,34 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Fay, Runolfsson and Durgan",
+  "ProviderName": "O'Reilly LLC",
   "Restrictions": [
     {
-      "Name": "Volkman-Ferry",
-      "Operator": "voluptatibus",
+      "Name": "Hamill-Wunsch",
+      "Operator": "a",
       "Values": [
-        "iusto",
-        "a"
+        "ea",
+        "voluptates"
       ],
       "DisplayValues": [
-        "voluptas",
-        "quaerat"
+        "deleniti",
+        "ratione"
       ],
-      "ColumnInfo": {},
+      "ColumnInfo": null,
       "IsActive": false,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 251,
+      "InterParenthesis": 450,
       "InterOperator": "And",
-      "UniqueHash": 616
+      "UniqueHash": 628
     }
   ]
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -110,58 +122,44 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Schmidt LLC",
-    "Operator": "adipisci",
+    "Name": "Rutherford, Ward and Smith",
+    "Operator": "quos",
     "Values": [
-      "sit",
-      "iusto"
+      "ullam",
+      "voluptate"
     ],
     "DisplayValues": [
-      "voluptas",
-      "in"
+      "et",
+      "numquam"
     ],
-    "ColumnInfo": {
-      "DisplayName": "Weissnat LLC",
-      "DisplayTooltip": "dignissimos",
-      "DisplayType": "voluptatem",
-      "CanOrderBy": false,
-      "Name": "Lockman-Littel",
-      "CanRestrictBy": false,
-      "RestrictionType": "eos",
-      "RestrictionListName": "Kuphal-Halvorson",
-      "IsVisible": true,
-      "ExtraInfo": "dicta",
-      "Width": "autem",
-      "IconHint": "error",
-      "HeadingIconHint": "iusto"
-    },
-    "IsActive": true,
+    "ColumnInfo": null,
+    "IsActive": false,
     "SubRestrictions": [
       {
-        "Name": "Hammes Inc and Sons",
-        "Operator": "quo",
+        "Name": "Jaskolski, Gerhold and Roob",
+        "Operator": "facere",
         "Values": [
-          "libero",
-          "iure"
+          "nam",
+          "sit"
         ],
         "DisplayValues": [
-          "quia",
-          "blanditiis"
+          "corporis",
+          "vel"
         ],
-        "ColumnInfo": {},
+        "ColumnInfo": null,
         "IsActive": false,
         "SubRestrictions": [
           {},
           {}
         ],
-        "InterParenthesis": 581,
+        "InterParenthesis": 744,
         "InterOperator": "And",
-        "UniqueHash": 252
+        "UniqueHash": 952
       }
     ],
-    "InterParenthesis": 53,
+    "InterParenthesis": 57,
     "InterOperator": "And",
-    "UniqueHash": 657
+    "UniqueHash": 902
   }
 ]
 ```

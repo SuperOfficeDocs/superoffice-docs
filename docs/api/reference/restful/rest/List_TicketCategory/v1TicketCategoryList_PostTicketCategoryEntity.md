@@ -1,6 +1,6 @@
 ---
 title: POST List/TicketCategory/Items
-id: v1TicketCategoryList_PostTicketCategoryEntity
+uid: v1TicketCategoryList_PostTicketCategoryEntity
 ---
 
 # POST List/TicketCategory/Items
@@ -11,7 +11,14 @@ POST /api/v1/List/TicketCategory/Items
 
 Create a new TicketCategoryEntity list item
 
+
 Calls the List agent service SaveTicketCategoryEntity.
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -27,9 +34,9 @@ Calls the List agent service SaveTicketCategoryEntity.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: newEntity
+## Request Body: newEntity  
 
-The TicketCategoryEntity to be created.
+The TicketCategoryEntity to be created. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -51,18 +58,16 @@ The TicketCategoryEntity to be created.
 | ExtraFields | object | Deprecated: Use {SuperOffice.CRM.Services.TicketCategoryEntity.CustomFields} instead. Extra fields added to the carrier. This could be data from Plug-ins, the foreign key system, external applications, etc. |
 | CustomFields | object | Udef + Extra fields added to the carrier. Extra fields as defined by changes to database schema + user-defined fields as defined by admin. Custom fields combines user defined fields and extra fields into one bucket.  The individual {SuperOffice.CRM.Services.TicketCategoryEntity.ExtraFields} and <see cref="!:UserDefinedFields">UserDefinedFields</see> properties are deprecated in favor of this combined collection. |
 
-## Response: object
 
-This entity describes the meta data for a ticket category, and provides special operations on it.
+## Response: 
 
-Carrier object for TicketCategoryEntity.
-Services for the TicketCategoryEntity Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IListAgent">List Agent</see>.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -86,136 +91,78 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/List/TicketCategory/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketCategoryId": 298,
-  "ParentId": 263,
-  "Name": "Adams, Wisozk and Lubowitz",
-  "Fullname": "dolores",
-  "CategoryMaster": 966,
+  "TicketCategoryId": 448,
+  "ParentId": 670,
+  "Name": "Rolfson-Anderson",
+  "Fullname": "quia",
+  "CategoryMaster": 114,
   "Flags": "AcceptWhenReplying",
   "DelegateMethod": "Even",
-  "ExternalName": "Senger-Sawayn",
+  "ExternalName": "Lemke-Hermiston",
   "ClosingStatus": "Active",
   "MsgClosingStatus": "Active",
-  "AssignmentLag": 909,
-  "ReplyTemplate": 591,
-  "NotificationEmail": "tess@kris.uk",
-  "DefaultTicketStatus": {
-    "TicketStatusId": 580,
-    "Name": "McLaughlin, Rolfson and Hand",
-    "Status": "Active",
-    "TimeCounter": "Externally",
-    "NoEmailReopen": true,
-    "IsDefault": false,
-    "UsedInQueue": true
-  },
-  "DefaultMessageStatus": {
-    "TicketStatusId": 566,
-    "Name": "Brown, Nienow and Beatty",
-    "Status": "Active",
-    "TimeCounter": "Externally",
-    "NoEmailReopen": false,
-    "IsDefault": true,
-    "UsedInQueue": true
-  },
+  "AssignmentLag": 583,
+  "ReplyTemplate": 93,
+  "NotificationEmail": "leopoldo.howell@beahanruecker.com",
+  "DefaultTicketStatus": null,
+  "DefaultMessageStatus": null,
   "ExtraFields": {
-    "ExtraFields1": "expedita",
-    "ExtraFields2": "quaerat"
+    "ExtraFields1": "doloremque",
+    "ExtraFields2": "ab"
   },
   "CustomFields": {
-    "CustomFields1": "soluta",
-    "CustomFields2": "nisi"
+    "CustomFields1": "libero",
+    "CustomFields2": "vero"
   }
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketCategoryId": 628,
-  "ParentId": 739,
-  "Name": "Kohler, Dach and Bartoletti",
-  "Fullname": "est",
-  "CategoryMaster": 478,
+  "TicketCategoryId": 152,
+  "ParentId": 476,
+  "Name": "Bogan-Miller",
+  "Fullname": "blanditiis",
+  "CategoryMaster": 352,
   "Flags": "AcceptWhenReplying",
   "DelegateMethod": "Even",
-  "ExternalName": "Quitzon Inc and Sons",
+  "ExternalName": "Dach, Reinger and Leuschke",
   "ClosingStatus": "Active",
   "MsgClosingStatus": "Active",
-  "AssignmentLag": 295,
-  "ReplyTemplate": 120,
-  "NotificationEmail": "kelsi.smith@wintheiser.us",
-  "DefaultTicketStatus": {
-    "TicketStatusId": 704,
-    "Name": "Reilly-Lang",
-    "Status": "Active",
-    "TimeCounter": "Externally",
-    "NoEmailReopen": true,
-    "IsDefault": true,
-    "UsedInQueue": false,
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.Int32",
-        "FieldLength": 838
-      }
-    }
-  },
-  "DefaultMessageStatus": {
-    "TicketStatusId": 965,
-    "Name": "Tromp Group",
-    "Status": "Active",
-    "TimeCounter": "Externally",
-    "NoEmailReopen": true,
-    "IsDefault": true,
-    "UsedInQueue": true,
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 394
-      }
-    }
-  },
+  "AssignmentLag": 139,
+  "ReplyTemplate": 310,
+  "NotificationEmail": "emmet@metz.co.uk",
+  "DefaultTicketStatus": null,
+  "DefaultMessageStatus": null,
   "ExtraFields": {
-    "ExtraFields1": "beatae",
-    "ExtraFields2": "debitis"
+    "ExtraFields1": "praesentium",
+    "ExtraFields2": "autem"
   },
   "CustomFields": {
-    "CustomFields1": "exercitationem",
-    "CustomFields2": "libero"
+    "CustomFields1": "et",
+    "CustomFields2": "qui"
   },
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
+      "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 417
+      "FieldLength": 28
     }
   }
 }

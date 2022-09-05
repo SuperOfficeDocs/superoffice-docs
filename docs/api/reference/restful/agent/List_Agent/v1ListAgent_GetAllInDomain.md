@@ -1,6 +1,6 @@
 ---
 title: POST Agents/List/GetAllInDomain
-id: v1ListAgent_GetAllInDomain
+uid: v1ListAgent_GetAllInDomain
 ---
 
 # POST Agents/List/GetAllInDomain
@@ -11,6 +11,12 @@ POST /api/v1/Agents/List/GetAllInDomain
 
 Get all items in a domain
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Get all items in a domain
 ```http
 POST /api/v1/Agents/List/GetAllInDomain?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,16 +42,19 @@ POST /api/v1/Agents/List/GetAllInDomain?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-Domain, Children
+Domain, Children 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | Domain | string |  |
 | Children | bool |  |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -67,13 +77,13 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/List/GetAllInDomain
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -82,61 +92,54 @@ Content-Type: application/json; charset=utf-8
 }
 ```
 
+## Sample response
+
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HierarchyId": 599,
+    "HierarchyId": 545,
     "Domain": "Dashboards",
-    "Name": "Bins Group",
-    "Fullname": "saepe",
-    "ParentId": 942,
+    "Name": "Schaefer-O'Hara",
+    "Fullname": "commodi",
+    "ParentId": 228,
     "Children": [
       {
-        "HierarchyId": 323,
+        "HierarchyId": 406,
         "Domain": "Dashboards",
-        "Name": "Botsford Inc and Sons",
-        "Fullname": "nobis",
-        "ParentId": 931,
+        "Name": "Davis, Kub and Runte",
+        "Fullname": "asperiores",
+        "ParentId": 862,
         "Children": [
           {},
           {}
         ],
-        "Registered": "2016-10-19T18:28:49.3381279+02:00",
-        "RegisteredAssociateId": 961,
-        "Updated": "2012-01-25T18:28:49.3381279+01:00",
-        "UpdatedAssociateId": 523,
-        "TableRight": {},
+        "Registered": "2020-09-15T11:10:27.2244546+02:00",
+        "RegisteredAssociateId": 57,
+        "Updated": "2020-11-14T11:10:27.2244546+01:00",
+        "UpdatedAssociateId": 118,
+        "TableRight": null,
         "FieldProperties": {
           "fieldName": {
-            "FieldRight": {
-              "Mask": "FULL",
-              "Reason": ""
-            },
+            "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 757
+            "FieldLength": 803
           }
         }
       }
     ],
-    "Registered": "2002-09-01T18:28:49.3381279+02:00",
-    "RegisteredAssociateId": 65,
-    "Updated": "2001-07-22T18:28:49.3381279+02:00",
-    "UpdatedAssociateId": 810,
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "Registered": "2012-08-29T11:10:27.2244546+02:00",
+    "RegisteredAssociateId": 574,
+    "Updated": "1996-10-22T11:10:27.2244546+02:00",
+    "UpdatedAssociateId": 795,
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.Int32",
-        "FieldLength": 842
+        "FieldRight": null,
+        "FieldType": "System.String",
+        "FieldLength": 140
       }
     }
   }

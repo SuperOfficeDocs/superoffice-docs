@@ -1,6 +1,6 @@
 ---
 title: POST Agents/User/GetUntrustedCredentials
-id: v1UserAgent_GetUntrustedCredentials
+uid: v1UserAgent_GetUntrustedCredentials
 ---
 
 # POST Agents/User/GetUntrustedCredentials
@@ -11,7 +11,15 @@ POST /api/v1/Agents/User/GetUntrustedCredentials
 
 Get a set of credentials of a specified type for authenticated user.
 
-## Online Restricted: ## The User agent is not available in Online by default. User management is not allowed for partner apps
+
+
+
+## Online Restricted: ## The User agent is not available in Online by default. User management is not allowed for partner apps.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +30,7 @@ Get a set of credentials of a specified type for authenticated user.
 ```http
 POST /api/v1/Agents/User/GetUntrustedCredentials?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,15 +46,18 @@ POST /api/v1/Agents/User/GetUntrustedCredentials?$select=name,department,categor
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-Type
+Type 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | Type | string |  |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -64,7 +76,7 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/User/GetUntrustedCredentials
@@ -74,9 +86,11 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Type": "optio"
+  "Type": "itaque"
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -84,24 +98,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ValidFrom": "2006-11-29T18:28:50.4524119+01:00",
-    "ValidTo": "2011-08-08T18:28:50.4524119+02:00",
-    "Comment": "eaque",
-    "SecretValue": "quaerat",
-    "PublicValue": "libero",
-    "IsActive": true,
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "ValidFrom": "1997-10-02T11:10:28.4172069+02:00",
+    "ValidTo": "2017-09-16T11:10:28.4172069+02:00",
+    "Comment": "et",
+    "SecretValue": "ducimus",
+    "PublicValue": "cumque",
+    "IsActive": false,
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
+        "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 37
+        "FieldLength": 592
       }
     }
   }

@@ -1,6 +1,6 @@
 ---
 title: PUT Relation/{id}
-id: v1ContactRelationEntity_PutContactRelationEntity
+uid: v1ContactRelationEntity_PutContactRelationEntity
 ---
 
 # PUT Relation/{id}
@@ -11,9 +11,15 @@ PUT /api/v1/Relation/{id}
 
 Updates the existing ContactRelationEntity
 
+
+
+
+
+
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | id | int32 | The ContactRelationEntity id to update. **Required** |
+
 
 ## Query String Parameters
 
@@ -24,6 +30,7 @@ Updates the existing ContactRelationEntity
 ```http
 PUT /api/v1/Relation/{id}?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -39,9 +46,9 @@ PUT /api/v1/Relation/{id}?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entity
+## Request Body: entity  
 
-The ContactRelationEntity to be saved.
+The ContactRelationEntity to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -64,11 +71,10 @@ The ContactRelationEntity to be saved.
 | ActiveText | string | Active text for the relation. |
 | PassiveText | string | Passive text for the relation. |
 
-## Response: object
 
-Relationship between a (contact/person) and another (contact/person), as described by the RelationDefinition.
+## Response: 
 
-ContactRelationEntity entity with API _Links added.
+ContactRelationEntity updated.
 
 | Response | Description |
 |----------------|-------------|
@@ -76,7 +82,7 @@ ContactRelationEntity entity with API _Links added.
 | 412 | Update stopped because ContactRelationEntity has changed since the requested If-Unmodified-Since timestamp. |
 | 400 | Bad request. Entity to save is not in request body. |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -102,146 +108,68 @@ Response body: object
 | FieldProperties | object |  |
 | _Links | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 PUT /api/v1/Relation/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceContactId": 871,
-  "SourcePersonId": 111,
-  "DestinationContactId": 120,
-  "DestinationPersonId": 829,
-  "RelationId": 572,
-  "Comment": "molestiae",
-  "RelationDefinitionId": 735,
-  "Reversed": 244,
-  "UpdatedDate": "2007-06-06T18:25:50.3916228+02:00",
-  "CreatedDate": "2002-03-30T18:25:50.3916228+01:00",
-  "CreatedBy": {
-    "AssociateId": 488,
-    "Name": "Purdy-Howe",
-    "PersonId": 466,
-    "Rank": 669,
-    "Tooltip": "qui",
-    "Type": "AnonymousAssociate",
-    "GroupIdx": 192,
-    "FullName": "Kara Lowe",
-    "FormalName": "Schulist, Mueller and Pagac",
-    "Deleted": false,
-    "EjUserId": 48,
-    "UserName": "Gutkowski-Kris"
-  },
-  "UpdatedBy": {
-    "AssociateId": 507,
-    "Name": "Stehr LLC",
-    "PersonId": 407,
-    "Rank": 968,
-    "Tooltip": "nulla",
-    "Type": "AnonymousAssociate",
-    "GroupIdx": 33,
-    "FullName": "Mr. Ottis O'Kon",
-    "FormalName": "Cronin, Barton and Stracke",
-    "Deleted": false,
-    "EjUserId": 603,
-    "UserName": "Collins-Hoeger"
-  },
-  "SourceContactName": "Mann-Adams",
-  "SourcePersonName": "Cummings, Rohan and Buckridge",
-  "DestinationContactName": "Baumbach LLC",
-  "DestinationPersonName": "Wisoky LLC",
-  "ActiveText": "aut",
-  "PassiveText": "est"
+  "SourceContactId": 290,
+  "SourcePersonId": 611,
+  "DestinationContactId": 422,
+  "DestinationPersonId": 748,
+  "RelationId": 319,
+  "Comment": "in",
+  "RelationDefinitionId": 753,
+  "Reversed": 913,
+  "UpdatedDate": "2002-05-07T11:10:52.7511454+02:00",
+  "CreatedDate": "2012-12-05T11:10:52.7511454+01:00",
+  "CreatedBy": null,
+  "UpdatedBy": null,
+  "SourceContactName": "Lynch LLC",
+  "SourcePersonName": "Brown, Kozey and Lueilwitz",
+  "DestinationContactName": "Koch-Pfeffer",
+  "DestinationPersonName": "Rutherford, Fadel and Haag",
+  "ActiveText": "tempora",
+  "PassiveText": "sunt"
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 ContactRelationEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceContactId": 566,
-  "SourcePersonId": 458,
-  "DestinationContactId": 717,
-  "DestinationPersonId": 136,
-  "RelationId": 409,
-  "Comment": "consequatur",
-  "RelationDefinitionId": 437,
-  "Reversed": 715,
-  "UpdatedDate": "2008-02-13T18:25:50.3935942+01:00",
-  "CreatedDate": "1998-05-01T18:25:50.3935942+02:00",
-  "CreatedBy": {
-    "AssociateId": 274,
-    "Name": "Bartell, Gleichner and Kertzmann",
-    "PersonId": 906,
-    "Rank": 627,
-    "Tooltip": "expedita",
-    "Type": "AnonymousAssociate",
-    "GroupIdx": 853,
-    "FullName": "Johanna Hintz",
-    "FormalName": "Larson-Labadie",
-    "Deleted": false,
-    "EjUserId": 86,
-    "UserName": "Zboncak, Hudson and Leffler",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 477
-      }
-    }
-  },
-  "UpdatedBy": {
-    "AssociateId": 224,
-    "Name": "Kilback-Hoppe",
-    "PersonId": 940,
-    "Rank": 503,
-    "Tooltip": "qui",
-    "Type": "AnonymousAssociate",
-    "GroupIdx": 346,
-    "FullName": "Elias Nolan",
-    "FormalName": "Keebler-Gottlieb",
-    "Deleted": true,
-    "EjUserId": 715,
-    "UserName": "DuBuque, Rowe and Towne",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 631
-      }
-    }
-  },
-  "SourceContactName": "Strosin-Thompson",
-  "SourcePersonName": "Hodkiewicz-Wiegand",
-  "DestinationContactName": "Kautzer, Jacobson and Eichmann",
-  "DestinationPersonName": "Johns Group",
-  "ActiveText": "fuga",
-  "PassiveText": "velit",
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "SourceContactId": 274,
+  "SourcePersonId": 226,
+  "DestinationContactId": 390,
+  "DestinationPersonId": 831,
+  "RelationId": 962,
+  "Comment": "impedit",
+  "RelationDefinitionId": 838,
+  "Reversed": 576,
+  "UpdatedDate": "2003-09-21T11:10:52.7521444+02:00",
+  "CreatedDate": "2020-02-12T11:10:52.7521444+01:00",
+  "CreatedBy": null,
+  "UpdatedBy": null,
+  "SourceContactName": "Wiegand, Schiller and Conroy",
+  "SourcePersonName": "Altenwerth, Schmeler and Pacocha",
+  "DestinationContactName": "Krajcik LLC",
+  "DestinationPersonName": "Breitenberg-Pfeffer",
+  "ActiveText": "rem",
+  "PassiveText": "labore",
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
+      "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 560
+      "FieldLength": 102
     }
   },
   "_Links": {

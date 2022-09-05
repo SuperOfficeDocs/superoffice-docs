@@ -1,6 +1,6 @@
 ---
 title: POST Agents/User/GetUserGroup
-id: v1UserAgent_GetUserGroup
+uid: v1UserAgent_GetUserGroup
 ---
 
 # POST Agents/User/GetUserGroup
@@ -11,7 +11,15 @@ POST /api/v1/Agents/User/GetUserGroup
 
 Gets a UserGroup object.
 
-## Online Restricted: ## The User agent is not available in Online by default. User management is not allowed for partner apps
+
+
+
+## Online Restricted: ## The User agent is not available in Online by default. User management is not allowed for partner apps.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -21,9 +29,10 @@ Gets a UserGroup object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/User/GetUserGroup?userGroupId=497
+POST /api/v1/Agents/User/GetUserGroup?userGroupId=587
 POST /api/v1/Agents/User/GetUserGroup?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -38,18 +47,16 @@ POST /api/v1/Agents/User/GetUserGroup?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response: object
 
-The main user group that this user belongs to
+## Response: 
 
-Carrier object for UserGroup.
-Services for the UserGroup Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IUserAgent">User Agent</see>.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -61,37 +68,33 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/User/GetUserGroup
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Value": "sed",
-  "Tooltip": "sapiente",
-  "Id": 62,
-  "Rank": 77,
-  "Deleted": true,
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "Value": "rerum",
+  "Tooltip": "consequatur",
+  "Id": 622,
+  "Rank": 662,
+  "Deleted": false,
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
+      "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 942
+      "FieldLength": 310
     }
   }
 }

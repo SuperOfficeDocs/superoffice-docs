@@ -1,6 +1,6 @@
 ---
 title: PUT List/ConsentSource/Items/{id}/UserGroups
-id: v1ConsentSourceList_PutConsentSourceUserGroupsForListItem
+uid: v1ConsentSourceList_PutConsentSourceUserGroupsForListItem
 ---
 
 # PUT List/ConsentSource/Items/{id}/UserGroups
@@ -11,11 +11,18 @@ PUT /api/v1/List/ConsentSource/Items/{itemId}/UserGroups
 
 Saves user groups visible for the ConsentSource list's item.
 
+
 Calls the List agent service SaveHeadingsForListItemFromListDefinition.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | itemId | int32 | The ID of the item to save. **Required** |
+
+
 
 ## Request Headers
 
@@ -31,9 +38,9 @@ Calls the List agent service SaveHeadingsForListItemFromListDefinition.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entities
+## Request Body: entities  
 
-The headings to be saved.
+The headings to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -53,7 +60,10 @@ The headings to be saved.
 | Hidden | bool | True if the ListItem is hidden |
 | FullName | string | The name of the ListItem in its context |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -81,56 +91,58 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 PUT /api/v1/List/ConsentSource/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 545,
-    "Name": "Marquardt, Walker and Reichert",
-    "ToolTip": "Officiis in fugit veritatis quisquam omnis mollitia.",
-    "Deleted": true,
-    "Rank": 458,
-    "Type": "delectus",
-    "ColorBlock": 620,
-    "IconHint": "nam",
-    "Selected": true,
-    "LastChanged": "2016-09-06T18:25:51.7333204+02:00",
+    "Id": 174,
+    "Name": "Becker-Jones",
+    "ToolTip": "Odit sapiente et in totam repellendus.",
+    "Deleted": false,
+    "Rank": 525,
+    "Type": "sed",
+    "ColorBlock": 33,
+    "IconHint": "dolorum",
+    "Selected": false,
+    "LastChanged": "2000-11-08T11:10:53.9991824+01:00",
     "ChildItems": [
       {
-        "Id": 490,
-        "Name": "Wilderman Group",
-        "ToolTip": "Saepe sit eveniet culpa velit qui dolore.",
+        "Id": 557,
+        "Name": "Murazik LLC",
+        "ToolTip": "Dolor ipsum perspiciatis ut laudantium laboriosam non.",
         "Deleted": false,
-        "Rank": 235,
-        "Type": "ad",
-        "ColorBlock": 442,
-        "IconHint": "officia",
+        "Rank": 523,
+        "Type": "dolor",
+        "ColorBlock": 457,
+        "IconHint": "ab",
         "Selected": true,
-        "LastChanged": "2013-10-15T18:25:51.7333204+02:00",
+        "LastChanged": "1999-06-17T11:10:53.9991824+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "reiciendis",
-        "StyleHint": "dolore",
+        "ExtraInfo": "est",
+        "StyleHint": "tenetur",
         "Hidden": false,
-        "FullName": "Mallory Klocko"
+        "FullName": "Caleigh Sipes"
       }
     ],
-    "ExtraInfo": "eum",
-    "StyleHint": "amet",
-    "Hidden": true,
-    "FullName": "Elwyn Witting"
+    "ExtraInfo": "alias",
+    "StyleHint": "placeat",
+    "Hidden": false,
+    "FullName": "Elody Doyle"
   }
 ]
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -138,65 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 395,
-    "Name": "Howell, Lind and Parker",
-    "ToolTip": "Similique illum tenetur dolorem.",
-    "Deleted": true,
-    "Rank": 773,
-    "Type": "dignissimos",
-    "ColorBlock": 236,
-    "IconHint": "voluptatem",
-    "Selected": true,
-    "LastChanged": "2005-08-16T18:25:51.7353178+02:00",
+    "Id": 153,
+    "Name": "Gislason-Tillman",
+    "ToolTip": "Rerum iusto harum aut et sapiente in.",
+    "Deleted": false,
+    "Rank": 57,
+    "Type": "earum",
+    "ColorBlock": 769,
+    "IconHint": "qui",
+    "Selected": false,
+    "LastChanged": "1999-04-03T11:10:54.0001825+02:00",
     "ChildItems": [
       {
-        "Id": 617,
-        "Name": "Turner, Eichmann and Ward",
-        "ToolTip": "Consequatur nobis mollitia exercitationem facere.",
+        "Id": 819,
+        "Name": "Schaden Inc and Sons",
+        "ToolTip": "Culpa aut consequuntur sit fugit ea tenetur.",
         "Deleted": true,
-        "Rank": 648,
-        "Type": "ad",
-        "ColorBlock": 222,
-        "IconHint": "vel",
-        "Selected": true,
-        "LastChanged": "2016-04-28T18:25:51.7353178+02:00",
+        "Rank": 274,
+        "Type": "sequi",
+        "ColorBlock": 191,
+        "IconHint": "culpa",
+        "Selected": false,
+        "LastChanged": "2015-04-16T11:10:54.0001825+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "aut",
-        "StyleHint": "ut",
-        "Hidden": true,
-        "FullName": "Floyd Hammes IV",
-        "TableRight": {},
+        "ExtraInfo": "consequuntur",
+        "StyleHint": "saepe",
+        "Hidden": false,
+        "FullName": "Ms. Antwan Lilliana Leuschke",
+        "TableRight": null,
         "FieldProperties": {
           "fieldName": {
-            "FieldRight": {
-              "Mask": "FULL",
-              "Reason": "scale open-source initiatives"
-            },
-            "FieldType": "System.String",
-            "FieldLength": 380
+            "FieldRight": null,
+            "FieldType": "System.Int32",
+            "FieldLength": 236
           }
         }
       }
     ],
-    "ExtraInfo": "est",
-    "StyleHint": "aperiam",
+    "ExtraInfo": "sed",
+    "StyleHint": "nostrum",
     "Hidden": true,
-    "FullName": "Walter Larson",
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "FullName": "Ms. Golda Watsica III",
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": "empower one-to-one users"
-        },
-        "FieldType": "System.Int32",
-        "FieldLength": 876
+        "FieldRight": null,
+        "FieldType": "System.String",
+        "FieldLength": 867
       }
     }
   }

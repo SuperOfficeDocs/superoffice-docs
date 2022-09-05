@@ -14,7 +14,9 @@ Implemented by the <see cref="M:SuperOffice.Services88.ITicketAgent.CreateDefaul
 Loading default values into a new AttachmentEntity.
 NetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance
 
+
 **Returns:** New AttachmentEntity with default values
+
 
 [WSDL file for Services88/Ticket](../Services88-Ticket.md)
 
@@ -47,6 +49,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## CreateDefaultAttachmentEntity Response
 
 ```xml
@@ -74,3 +77,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

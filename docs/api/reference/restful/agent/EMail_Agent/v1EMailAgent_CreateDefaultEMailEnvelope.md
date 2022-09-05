@@ -1,6 +1,6 @@
 ---
 title: POST Agents/EMail/CreateDefaultEMailEnvelope
-id: v1EMailAgent_CreateDefaultEMailEnvelope
+uid: v1EMailAgent_CreateDefaultEMailEnvelope
 ---
 
 # POST Agents/EMail/CreateDefaultEMailEnvelope
@@ -11,9 +11,17 @@ POST /api/v1/Agents/EMail/CreateDefaultEMailEnvelope
 
 Set default values into a new EMailEnvelope.
 
+
 NetServer calculates default values on the entity, which is required when creating/storing a new instance
 
-## Online Restricted: ## The EMail agent is not available in Online by default. Access must be requested specifically when app is registered
+
+## Online Restricted: ## The EMail agent is not available in Online by default. Access must be requested specifically when app is registered.
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -28,18 +36,16 @@ NetServer calculates default values on the entity, which is required when creati
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response: object
 
-Limited information about one e-mail.
+## Response: 
 
-Carrier object for EMailEnvelope.
-Services for the EMailEnvelope Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IEMailAgent">EMail Agent</see>.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -56,112 +62,61 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/EMail/CreateDefaultEMailEnvelope
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ServerId": 732,
-  "MessageId": "officiis",
-  "Subject": "ut",
-  "From": {
-    "ContactId": 641,
-    "ContactName": "Price-Ebert",
-    "PersonId": 579,
-    "PersonName": "Schultz, Beatty and Lesch",
-    "AssociateId": 177,
-    "Address": "cupiditate",
-    "EmailId": 805,
-    "DuplicatePersonIds": [
-      67,
-      368
-    ],
-    "Name": "Konopelski-Jacobson",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.Int32",
-        "FieldLength": 622
-      }
-    }
-  },
+  "ServerId": 133,
+  "MessageId": "non",
+  "Subject": "dolorem",
+  "From": null,
   "To": [
     {
-      "ContactId": 553,
-      "ContactName": "Zemlak Inc and Sons",
-      "PersonId": 10,
-      "PersonName": "Towne Inc and Sons",
-      "AssociateId": 426,
-      "Address": "quaerat",
-      "EmailId": 891,
+      "ContactId": 703,
+      "ContactName": "Connelly Group",
+      "PersonId": 407,
+      "PersonName": "Dickinson Inc and Sons",
+      "AssociateId": 32,
+      "Address": "esse",
+      "EmailId": 153,
       "DuplicatePersonIds": [
-        165,
-        10
+        191,
+        480
       ],
-      "Name": "Green, Hagenes and Mann",
-      "TableRight": {},
+      "Name": "Harber, Schimmel and Durgan",
+      "TableRight": null,
       "FieldProperties": {
         "fieldName": {
-          "FieldRight": {
-            "Mask": "FULL",
-            "Reason": ""
-          },
+          "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 493
+          "FieldLength": 431
         }
       }
     }
   ],
-  "Sent": "2002-02-16T18:28:49.087957+01:00",
+  "Sent": "1996-06-22T11:10:26.8984534+02:00",
   "Priority": "High",
   "Flags": "Answered",
-  "Size": 739,
-  "EMailSOInfo": {
-    "DocumentId": 936,
-    "AppointmentId": 860,
-    "ProjectId": 262,
-    "SaleId": 957,
-    "Archived": true,
-    "ArchivedAt": "2008-09-08T18:28:49.087957+02:00",
-    "ArchivedBy": 155,
-    "ArchivedDisplayName": "Swaniawski LLC",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 610
-      }
-    }
-  },
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "Size": 705,
+  "EMailSOInfo": null,
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": "incentivize ubiquitous e-business"
-      },
+      "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 541
+      "FieldLength": 211
     }
   }
 }

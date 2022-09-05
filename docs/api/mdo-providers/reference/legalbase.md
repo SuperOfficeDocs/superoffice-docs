@@ -7,7 +7,7 @@ keywords:
   - "mdo provider"
   - "legalbase"
 so.generated: true
-so.date: 03.19.2021
+so.date: 08.26.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -15,11 +15,15 @@ so.envir:
 ---
 
 # "legalbase" MDO List
-
 MDO list provider for Legal base
+
+
 
 Implemented by the <see cref="T:SuperOffice.CRM.Lists.LegalBaseListProvider">LegalBaseListProvider</see> class.
 The name of the MDO list is 'legalbase'.
+
+
+
 
 ## Sample Request
 
@@ -32,7 +36,6 @@ Accept-Language: *
 ```
 
 ## Sample Code
-
 ```cs
 var listProvider = SuperOffice.CRM.Lists.SoListProviderFactory.Create("legalbase", forceFlatList: true);
 foreach (var item in listProvider.RootItems) {
@@ -52,6 +55,7 @@ foreach (var item in listProvider.RootItems) {
 |5|Public interest|||
 |6|Legitimate interest|||
 |7|Withdrawn|||
+
 
 ## Related MDO Lists
 

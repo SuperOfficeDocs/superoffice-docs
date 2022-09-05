@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Appointment/UpdateAppointmentFromIcsResponse
-id: v1AppointmentAgent_UpdateAppointmentFromIcsResponse
+uid: v1AppointmentAgent_UpdateAppointmentFromIcsResponse
 ---
 
 # POST Agents/Appointment/UpdateAppointmentFromIcsResponse
@@ -11,6 +11,12 @@ POST /api/v1/Agents/Appointment/UpdateAppointmentFromIcsResponse
 
 Update the attendance to an appointment based on incoming ICS RSVPs.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Update the attendance to an appointment based on incoming ICS RSVPs.
 ```http
 POST /api/v1/Agents/Appointment/UpdateAppointmentFromIcsResponse?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,16 +42,19 @@ POST /api/v1/Agents/Appointment/UpdateAppointmentFromIcsResponse?$select=name,de
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-EmailAddress, IcsData
+EmailAddress, IcsData 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | EmailAddress | string |  |
 | IcsData | byte |  |
 
+
 ## Response: bool
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -52,20 +62,23 @@ EmailAddress, IcsData
 
 Response body: bool
 
-## Sample Request
+
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Appointment/UpdateAppointmentFromIcsResponse
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "EmailAddress": "pauline@gutmann.com",
+  "EmailAddress": "orin.gutmann@schoenbednar.biz",
   "IcsData": "GIF89....File contents as raw bytes..."
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK

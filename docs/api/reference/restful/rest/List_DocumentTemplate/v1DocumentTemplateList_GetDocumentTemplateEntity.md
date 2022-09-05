@@ -1,6 +1,6 @@
 ---
 title: GET List/DocumentTemplate/Items/{id}
-id: v1DocumentTemplateList_GetDocumentTemplateEntity
+uid: v1DocumentTemplateList_GetDocumentTemplateEntity
 ---
 
 # GET List/DocumentTemplate/Items/{id}
@@ -11,11 +11,18 @@ GET /api/v1/List/DocumentTemplate/Items/{id}
 
 Gets a DocumentTemplateEntity list item.
 
+
 Calls the List agent service GetDocumentTemplateEntity.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | id | int32 | The id of the DocumentTemplate to return. **Required** |
+
+
 
 ## Request Headers
 
@@ -30,19 +37,17 @@ Calls the List agent service GetDocumentTemplateEntity.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response: object
 
-The template a document is based on is stored in the SO_arc\template folder on the server. This will return the name as displayed in the GUI, and not the physical document name, of the template the document object is based on.
+## Response: 
 
-Carrier object for DocumentTemplateEntity.
-Services for the DocumentTemplateEntity Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IListAgent">List Agent</see>.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 | 404 | Not Found. |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -74,7 +79,7 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 GET /api/v1/List/DocumentTemplate/Items/{id}
@@ -83,48 +88,44 @@ Accept: application/json; charset=utf-8
 Accept-Language: en
 ```
 
+## Sample response
+
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 172,
-  "Name": "Kessler-Abernathy",
-  "Tooltip": "deleniti",
-  "SaveInDb": 848,
-  "Filename": "eligendi",
-  "DefaultOref": "sint",
+  "DocumentTemplateId": 55,
+  "Name": "Jewess-Weber",
+  "Tooltip": "et",
+  "SaveInDb": 835,
+  "Filename": "soluta",
+  "DefaultOref": "est",
   "RecordType": "Appointment",
   "Deleted": true,
   "Direction": "Incoming",
-  "AutoeventId": 702,
-  "IntentId": 536,
-  "IsDefaultPublished": true,
-  "Rank": 652,
-  "LoadTemplateFromPlugin": 137,
-  "MimeType": "sunt",
+  "AutoeventId": 368,
+  "IntentId": 839,
+  "IsDefaultPublished": false,
+  "Rank": 710,
+  "LoadTemplateFromPlugin": 948,
+  "MimeType": "quis",
   "IsInUseInGuides": false,
-  "DocumentTypeKey": 113,
+  "DocumentTypeKey": 853,
   "QuoteDocType": "ConfirmationLines",
   "PrivacyDocType": "None",
-  "EmailSubject": "fleta_renner@beahan.biz",
-  "IncludeSignature": true,
-  "ShowCurrents": false,
+  "EmailSubject": "jovanny@heidenreichdaugherty.biz",
+  "IncludeSignature": false,
+  "ShowCurrents": true,
   "SenderEmailMode": "UseDefaultSender",
-  "SenderEmailAddress": "jordi_howe@hane.name",
+  "SenderEmailAddress": "roma@batzmarquardt.biz",
   "InvitationDocType": "Cancelled",
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
-      "FieldType": "System.String",
-      "FieldLength": 728
+      "FieldRight": null,
+      "FieldType": "System.Int32",
+      "FieldLength": 683
     }
   }
 }

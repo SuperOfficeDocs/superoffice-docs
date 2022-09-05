@@ -18,6 +18,7 @@ Saves a complete preference object. Preference administrator rights are required
 
 **Returns:** Returns the saved preference
 
+
 [WSDL file for Services86/Preference](../Services86-Preference.md)
 
 Obtain a ticket from the [Services86/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -71,6 +72,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## SavePreferenceEntity Response
 
 ```xml
@@ -111,3 +113,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

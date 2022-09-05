@@ -1,6 +1,6 @@
 ---
 title: PUT DashTileDefinition/{id}
-id: v1DashTileDefinition_PutDashTileDefinition
+uid: v1DashTileDefinition_PutDashTileDefinition
 ---
 
 # PUT DashTileDefinition/{id}
@@ -11,9 +11,15 @@ PUT /api/v1/DashTileDefinition/{id}
 
 Updates the existing DashTileDefinition
 
+
+
+
+
+
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | id | int32 | The DashTileDefinition id to update. **Required** |
+
 
 ## Query String Parameters
 
@@ -24,6 +30,7 @@ Updates the existing DashTileDefinition
 ```http
 PUT /api/v1/DashTileDefinition/{id}?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -39,9 +46,9 @@ PUT /api/v1/DashTileDefinition/{id}?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entity
+## Request Body: entity  
 
-The DashTileDefinition to be saved.
+The DashTileDefinition to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -62,20 +69,20 @@ The DashTileDefinition to be saved.
 | LayoutConfig | string | The JSON formatted layout config |
 | SecondarySelectionId | int32 | Selection holding the replaced or changed criterias (period comparisons etc) |
 | MeasureByField | string | Field to group by |
+| Usage | string | Where this tile can be used |
 | ProviderName | string | Name of provider to use with this entity type - read only property |
 
-## Response: object
 
-Dashboard Tile definition
+## Response: 
 
-DashTileDefinition entity with API _Links added.
+DashTileDefinition updated.
 
 | Response | Description |
 |----------------|-------------|
 | 200 | DashTileDefinition updated. |
 | 400 | Bad request. Entity to save is not in request body. |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -96,77 +103,76 @@ Response body: object
 | LayoutConfig | string | The JSON formatted layout config |
 | SecondarySelectionId | int32 | Selection holding the replaced or changed criterias (period comparisons etc) |
 | MeasureByField | string | Field to group by |
+| Usage | string | Where this tile can be used |
 | ProviderName | string | Name of provider to use with this entity type - read only property |
 | TableRight |  |  |
 | FieldProperties | object |  |
 | _Links | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 PUT /api/v1/DashTileDefinition/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileDefinitionId": 165,
-  "Name": "Schowalter-Greenfelder",
-  "Description": "Visionary web-enabled standardization",
-  "DefaultHeight": 958,
-  "DefaultWidth": 399,
+  "DashboardTileDefinitionId": 136,
+  "Name": "Mayer LLC",
+  "Description": "Cloned actuating monitoring",
+  "DefaultHeight": 347,
+  "DefaultWidth": 64,
   "TileType": "Area",
   "EntityType": "Appointment",
-  "EntityName": "Lubowitz LLC",
-  "SelectionId": 152,
+  "EntityName": "Mayer, Wiegand and Schamberger",
+  "SelectionId": 333,
   "CurrencyMode": "Base",
-  "CurrencyCode": "cumque",
+  "CurrencyCode": "odit",
   "Measure": "Average",
-  "MeasureField": "et",
-  "SortBy": "eius",
-  "LayoutConfig": "commodi",
-  "SecondarySelectionId": 243,
-  "MeasureByField": "dolorem",
-  "ProviderName": "Herman, Lind and Lockman"
+  "MeasureField": "aperiam",
+  "SortBy": "quo",
+  "LayoutConfig": "doloremque",
+  "SecondarySelectionId": 748,
+  "MeasureByField": "sequi",
+  "Usage": "Dashboard",
+  "ProviderName": "Robel, Bauch and Harber"
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 DashTileDefinition updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileDefinitionId": 541,
-  "Name": "Breitenberg-Davis",
-  "Description": "Vision-oriented stable adapter",
-  "DefaultHeight": 274,
-  "DefaultWidth": 788,
+  "DashboardTileDefinitionId": 186,
+  "Name": "Schamberger LLC",
+  "Description": "Networked needs-based methodology",
+  "DefaultHeight": 821,
+  "DefaultWidth": 54,
   "TileType": "Area",
   "EntityType": "Appointment",
-  "EntityName": "Tromp LLC",
-  "SelectionId": 225,
+  "EntityName": "Goodwin, Nicolas and Towne",
+  "SelectionId": 562,
   "CurrencyMode": "Base",
-  "CurrencyCode": "rerum",
+  "CurrencyCode": "et",
   "Measure": "Average",
-  "MeasureField": "iusto",
-  "SortBy": "omnis",
-  "LayoutConfig": "quo",
-  "SecondarySelectionId": 53,
-  "MeasureByField": "omnis",
-  "ProviderName": "Smitham, Nicolas and Braun",
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": "deploy next-generation niches"
-  },
+  "MeasureField": "quas",
+  "SortBy": "neque",
+  "LayoutConfig": "soluta",
+  "SecondarySelectionId": 554,
+  "MeasureByField": "aperiam",
+  "Usage": "Dashboard",
+  "ProviderName": "Cremin, Konopelski and Von",
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
+      "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 904
+      "FieldLength": 342
     }
   },
   "_Links": {

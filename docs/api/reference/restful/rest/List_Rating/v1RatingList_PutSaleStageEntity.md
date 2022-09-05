@@ -1,6 +1,6 @@
 ---
 title: PUT List/Rating/Items/{id}
-id: v1RatingList_PutSaleStageEntity
+uid: v1RatingList_PutSaleStageEntity
 ---
 
 # PUT List/Rating/Items/{id}
@@ -11,11 +11,18 @@ PUT /api/v1/List/Rating/Items/{id}
 
 Updates the existing SaleStageEntity
 
+
 Calls the List agent service SaveSaleStageEntity.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | id | int32 | The id of SaleStageEntity to be saved. **Required** |
+
+
 
 ## Request Headers
 
@@ -31,9 +38,9 @@ Calls the List agent service SaveSaleStageEntity.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entity
+## Request Body: entity  
 
-The details of SaleStageEntity to be saved.
+The details of SaleStageEntity to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -44,19 +51,17 @@ The details of SaleStageEntity to be saved.
 | Deleted | bool | If true, the Sale stage is deleted |
 | Rank | int32 | Rank order |
 
-## Response: object
 
-This entity represents a sale stage with a default percentage rating.
+## Response: 
 
-Carrier object for SaleStageEntity.
-Services for the SaleStageEntity Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IListAgent">List Agent</see>.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 | 400 | Bad request. Entity to save is not in request body. |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -69,48 +74,44 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 PUT /api/v1/List/Rating/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleStageId": 283,
-  "Value": "aspernatur",
-  "Tooltip": "voluptate",
-  "Probability": 86,
+  "SaleStageId": 165,
+  "Value": "dignissimos",
+  "Tooltip": "quia",
+  "Probability": 297,
   "Deleted": false,
-  "Rank": 339
+  "Rank": 918
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleStageId": 98,
-  "Value": "quaerat",
-  "Tooltip": "dignissimos",
-  "Probability": 707,
+  "SaleStageId": 365,
+  "Value": "doloribus",
+  "Tooltip": "exercitationem",
+  "Probability": 287,
   "Deleted": false,
-  "Rank": 190,
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "Rank": 111,
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
+      "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 120
+      "FieldLength": 630
     }
   }
 }

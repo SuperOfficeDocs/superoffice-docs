@@ -1,6 +1,6 @@
 ---
 title: POST Agents/License/AssignThirdPartyLicenses
-id: v1LicenseAgent_AssignThirdPartyLicenses
+uid: v1LicenseAgent_AssignThirdPartyLicenses
 ---
 
 # POST Agents/License/AssignThirdPartyLicenses
@@ -11,6 +11,12 @@ POST /api/v1/Agents/License/AssignThirdPartyLicenses
 
 Assign third party licenses
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Assign third party licenses
 ```http
 POST /api/v1/Agents/License/AssignThirdPartyLicenses?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,9 +42,9 @@ POST /api/v1/Agents/License/AssignThirdPartyLicenses?$select=name,department,cat
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-AssociateId, ModuleOwner, ModuleLicenseNames
+AssociateId, ModuleOwner, ModuleLicenseNames 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -45,7 +52,10 @@ AssociateId, ModuleOwner, ModuleLicenseNames
 | ModuleOwner | string |  |
 | ModuleLicenseNames | array |  |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -72,24 +82,26 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/License/AssignThirdPartyLicenses
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 946,
-  "ModuleOwner": "libero",
+  "AssociateId": 496,
+  "ModuleOwner": "aperiam",
   "ModuleLicenseNames": [
-    "Hartmann, Rodriguez and Hermiston",
-    "Lockman-Thiel"
+    "Koss LLC",
+    "Ullrich, Becker and Donnelly"
   ]
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -98,31 +110,25 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "Unrestricted": false,
-    "Total": 160,
-    "Tooltip": "ut",
+    "Total": 741,
+    "Tooltip": "totam",
     "CanAssign": true,
-    "Free": 795,
-    "InUse": 32,
+    "Free": 558,
+    "InUse": 919,
     "IsHidden": false,
     "Assigned": false,
-    "ModuleLicenseId": 463,
-    "Name": "Boyer, Greenholt and Heller",
-    "Description": "Multi-tiered mobile solution",
-    "PrerequisiteModuleName": "Schulist-Gusikowski",
-    "SortOrder": 362,
-    "ExtraFlags": 662,
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "ModuleLicenseId": 269,
+    "Name": "Hickle Group",
+    "Description": "Multi-tiered hybrid superstructure",
+    "PrerequisiteModuleName": "Trantow LLC",
+    "SortOrder": 914,
+    "ExtraFlags": 871,
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 24
+        "FieldRight": null,
+        "FieldType": "System.Int32",
+        "FieldLength": 38
       }
     }
   }

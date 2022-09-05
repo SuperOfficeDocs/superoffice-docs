@@ -5,7 +5,7 @@ description: Lists the enum values for ChatMessageSpecialType.
 so.generated: true
 keywords:
   - "database"
-so.date: 04.12.2022
+so.date: 08.26.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -15,6 +15,7 @@ so.envir:
 # ChatMessageSpecialType Enum
 
 Enum indicating if it is a special message, such as an URL redirection, etc.
+
 
 ## Usage
 

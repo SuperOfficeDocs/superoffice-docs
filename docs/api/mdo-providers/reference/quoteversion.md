@@ -7,7 +7,7 @@ keywords:
   - "mdo provider"
   - "quoteversion"
 so.generated: true
-so.date: 03.19.2021
+so.date: 08.26.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -15,8 +15,9 @@ so.envir:
 ---
 
 # "quoteversion" MDO List
-
 Quote version selector for one Quote. Send QuoteId=&lt;id&gt; in ExtraInfo to specify quote id
+
+
 
 Implemented by the <see cref="T:SuperOffice.CRM.Lists.QuoteVersionProvider">QuoteVersionProvider</see> class.
 The name of the MDO list is 'quoteversion'.
@@ -26,6 +27,10 @@ The name of the MDO list is 'quoteversion'.
 | Description | Name | Example Value |
 |-----|-----|------|
 |Required: Quote primary key| QuoteId|1234|
+
+
+
+
 
 ## Sample Request
 
@@ -38,7 +43,6 @@ Accept-Language: *
 ```
 
 ## Sample Code
-
 ```cs
 var listProvider = SuperOffice.CRM.Lists.SoListProviderFactory.Create("quoteversion", forceFlatList: true);
 foreach (var item in listProvider.RootItems) {
@@ -52,6 +56,7 @@ foreach (var item in listProvider.RootItems) {
 |Id   | Name  |StyleHint|ExtraInfo |
 | --- | ----- | ------- | -------- |
 | 2 | Example | | |
+
 
 ## Related MDO Lists
 

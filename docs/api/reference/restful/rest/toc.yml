@@ -1610,6 +1610,88 @@ items:
     href: List_ProjectType/v1ProjectTypeList_PutProjectTypeHeadingsForListItem.md
   - name: PUT List/ProjectType/Items/{id}/UserGroups
     href: List_ProjectType/v1ProjectTypeList_PutProjectTypeUserGroupsForListItem.md
+- name: List_QuoteApproveReason
+  href: List_QuoteApproveReason/index.md
+  items:
+  - name: DEL List/QuoteApproveReason/Headings
+    href: List_QuoteApproveReason/v1QuoteApproveReasonList_DeleteQuoteApproveReasonHeadings.md
+  - name: DEL List/QuoteApproveReason/Items
+    href: List_QuoteApproveReason/v1QuoteApproveReasonList_DeleteAllQuoteApproveReason.md
+  - name: DEL List/QuoteApproveReason/Items/{id}
+    href: List_QuoteApproveReason/v1QuoteApproveReasonList_DeleteQuoteApproveReason.md
+  - name: GET List/QuoteApproveReason
+    href: List_QuoteApproveReason/v1QuoteApproveReasonList_GetListDefinition.md
+  - name: GET List/QuoteApproveReason/Headings
+    href: List_QuoteApproveReason/v1QuoteApproveReasonList_GetQuoteApproveReasonHeadings.md
+  - name: GET List/QuoteApproveReason/Items
+    href: List_QuoteApproveReason/v1QuoteApproveReasonList_GetAll.md
+  - name: GET List/QuoteApproveReason/Items/{id}
+    href: List_QuoteApproveReason/v1QuoteApproveReasonList_GetQuoteApproveReason.md
+  - name: GET List/QuoteApproveReason/Items/{id}/Headings
+    href: List_QuoteApproveReason/v1QuoteApproveReasonList_GetQuoteApproveReasonHeadingsForListItem.md
+  - name: GET List/QuoteApproveReason/Items/{id}/UserGroups
+    href: List_QuoteApproveReason/v1QuoteApproveReasonList_GetQuoteApproveReasonUserGroupsForListItem.md
+  - name: GET List/QuoteApproveReason/Items/Default
+    href: List_QuoteApproveReason/v1QuoteApproveReasonList_CreateDefaultQuoteApproveReason.md
+  - name: GET List/QuoteApproveReason/MDOItems
+    href: List_QuoteApproveReason/v1QuoteApproveReasonList_GetMDOList.md
+  - name: POST List/QuoteApproveReason/Headings
+    href: List_QuoteApproveReason/v1QuoteApproveReasonList_PostQuoteApproveReasonHeading.md
+  - name: POST List/QuoteApproveReason/Items
+    href: List_QuoteApproveReason/v1QuoteApproveReasonList_PostQuoteApproveReason.md
+  - name: PUT List/QuoteApproveReason
+    href: List_QuoteApproveReason/v1QuoteApproveReasonList_SetListDefinition.md
+  - name: PUT List/QuoteApproveReason/Headings
+    href: List_QuoteApproveReason/v1QuoteApproveReasonList_PutQuoteApproveReasonHeadings.md
+  - name: PUT List/QuoteApproveReason/Items
+    href: List_QuoteApproveReason/v1QuoteApproveReasonList_PutAllQuoteApproveReason.md
+  - name: PUT List/QuoteApproveReason/Items/{id}
+    href: List_QuoteApproveReason/v1QuoteApproveReasonList_PutQuoteApproveReason.md
+  - name: PUT List/QuoteApproveReason/Items/{id}/Headings
+    href: List_QuoteApproveReason/v1QuoteApproveReasonList_PutQuoteApproveReasonHeadingsForListItem.md
+  - name: PUT List/QuoteApproveReason/Items/{id}/UserGroups
+    href: List_QuoteApproveReason/v1QuoteApproveReasonList_PutQuoteApproveReasonUserGroupsForListItem.md
+- name: List_QuoteDenyReason
+  href: List_QuoteDenyReason/index.md
+  items:
+  - name: DEL List/QuoteDenyReason/Headings
+    href: List_QuoteDenyReason/v1QuoteDenyReasonList_DeleteQuoteDenyReasonHeadings.md
+  - name: DEL List/QuoteDenyReason/Items
+    href: List_QuoteDenyReason/v1QuoteDenyReasonList_DeleteAllQuoteDenyReason.md
+  - name: DEL List/QuoteDenyReason/Items/{id}
+    href: List_QuoteDenyReason/v1QuoteDenyReasonList_DeleteQuoteDenyReason.md
+  - name: GET List/QuoteDenyReason
+    href: List_QuoteDenyReason/v1QuoteDenyReasonList_GetListDefinition.md
+  - name: GET List/QuoteDenyReason/Headings
+    href: List_QuoteDenyReason/v1QuoteDenyReasonList_GetQuoteDenyReasonHeadings.md
+  - name: GET List/QuoteDenyReason/Items
+    href: List_QuoteDenyReason/v1QuoteDenyReasonList_GetAll.md
+  - name: GET List/QuoteDenyReason/Items/{id}
+    href: List_QuoteDenyReason/v1QuoteDenyReasonList_GetQuoteDenyReason.md
+  - name: GET List/QuoteDenyReason/Items/{id}/Headings
+    href: List_QuoteDenyReason/v1QuoteDenyReasonList_GetQuoteDenyReasonHeadingsForListItem.md
+  - name: GET List/QuoteDenyReason/Items/{id}/UserGroups
+    href: List_QuoteDenyReason/v1QuoteDenyReasonList_GetQuoteDenyReasonUserGroupsForListItem.md
+  - name: GET List/QuoteDenyReason/Items/Default
+    href: List_QuoteDenyReason/v1QuoteDenyReasonList_CreateDefaultQuoteDenyReason.md
+  - name: GET List/QuoteDenyReason/MDOItems
+    href: List_QuoteDenyReason/v1QuoteDenyReasonList_GetMDOList.md
+  - name: POST List/QuoteDenyReason/Headings
+    href: List_QuoteDenyReason/v1QuoteDenyReasonList_PostQuoteDenyReasonHeading.md
+  - name: POST List/QuoteDenyReason/Items
+    href: List_QuoteDenyReason/v1QuoteDenyReasonList_PostQuoteDenyReason.md
+  - name: PUT List/QuoteDenyReason
+    href: List_QuoteDenyReason/v1QuoteDenyReasonList_SetListDefinition.md
+  - name: PUT List/QuoteDenyReason/Headings
+    href: List_QuoteDenyReason/v1QuoteDenyReasonList_PutQuoteDenyReasonHeadings.md
+  - name: PUT List/QuoteDenyReason/Items
+    href: List_QuoteDenyReason/v1QuoteDenyReasonList_PutAllQuoteDenyReason.md
+  - name: PUT List/QuoteDenyReason/Items/{id}
+    href: List_QuoteDenyReason/v1QuoteDenyReasonList_PutQuoteDenyReason.md
+  - name: PUT List/QuoteDenyReason/Items/{id}/Headings
+    href: List_QuoteDenyReason/v1QuoteDenyReasonList_PutQuoteDenyReasonHeadingsForListItem.md
+  - name: PUT List/QuoteDenyReason/Items/{id}/UserGroups
+    href: List_QuoteDenyReason/v1QuoteDenyReasonList_PutQuoteDenyReasonUserGroupsForListItem.md
 - name: List_Rating
   href: List_Rating/index.md
   items:
@@ -2627,13 +2709,13 @@ items:
   - name: PATCH Ticket/{id}
     href: Ticket/v1TicketEntity_PatchTicketEntity.md
   - name: POST Ticket
-    href: Ticket/v1TicketEntity_PostTicketEntity.md
+    href: Ticket/v1TicketEntity_HttpPostSaveTicketEntityWithNotify.md
   - name: POST Ticket/{id}/NotifyNewMessage
     href: Ticket/v1TicketEntity_NotifyNewTicketMessage.md
   - name: POST Ticket/{id}/NotifyNewTicket
     href: Ticket/v1TicketEntity_NotifyNewTicket.md
   - name: PUT Ticket/{id}
-    href: Ticket/v1TicketEntity_PutTicketEntity.md
+    href: Ticket/v1TicketEntity_HttpPutSaveTicketEntityWithNotify.md
 - name: TicketMessage
   href: TicketMessage/index.md
   items:
@@ -2642,9 +2724,11 @@ items:
   - name: GET TicketMessage
     href: TicketMessage/v1TicketMessageEntity_GetAll.md
   - name: GET TicketMessage/{id}
-    href: TicketMessage/v1TicketMessageEntity_GetTicketMessageEntity.md
+    href: TicketMessage/v1TicketMessageEntity_HttpGetGetTicketMessageWithEmbeddedData.md
   - name: GET TicketMessage/{id}/Attachment
     href: TicketMessage/v1TicketMessageEntity_GetAttachmentInfo.md
+  - name: GET TicketMessage/{id}/Attachment/Noninline
+    href: TicketMessage/v1TicketMessageEntity_GetAttachmentInfoNonInline.md
   - name: GET TicketMessage/{id}/ForeignKey
     href: TicketMessage/v1TicketMessageEntity_GetAllForeignKeysOnEntity.md
   - name: GET TicketMessage/CustomField
@@ -2656,13 +2740,15 @@ items:
   - name: PATCH TicketMessage/{id}
     href: TicketMessage/v1TicketMessageEntity_PatchTicketMessageEntity.md
   - name: POST TicketMessage
-    href: TicketMessage/v1TicketMessageEntity_PostTicketMessageEntity.md
+    href: TicketMessage/v1TicketMessageEntity_HttpPostSaveTicketMessageEntityWithNotify.md
   - name: POST TicketMessage/{id}/Attachment
     href: TicketMessage/v1TicketMessageEntity_AddAttachments.md
   - name: POST TicketMessage/{id}/Send
     href: TicketMessage/v1TicketMessageEntity_SendTicketMessage.md
+  - name: POST TicketMessage/{id}/SendSms
+    href: TicketMessage/v1TicketMessageEntity_SendTicketMessageSms.md
   - name: PUT TicketMessage/{id}
-    href: TicketMessage/v1TicketMessageEntity_PutTicketMessageEntity.md
+    href: TicketMessage/v1TicketMessageEntity_HttpPutSaveTicketMessageEntityWithNotify.md
 - name: TimeZone
   href: TimeZone/index.md
   items:

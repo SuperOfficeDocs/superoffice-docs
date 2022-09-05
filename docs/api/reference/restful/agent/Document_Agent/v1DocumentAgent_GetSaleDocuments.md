@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Document/GetSaleDocuments
-id: v1DocumentAgent_GetSaleDocuments
+uid: v1DocumentAgent_GetSaleDocuments
 ---
 
 # POST Agents/Document/GetSaleDocuments
@@ -11,7 +11,13 @@ POST /api/v1/Agents/Document/GetSaleDocuments
 
 Get all documents that are linked to the sale.
 
+
 I.e. the documents that are listed in the sale dialog.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +28,7 @@ I.e. the documents that are listed in the sale dialog.
 ```http
 POST /api/v1/Agents/Document/GetSaleDocuments?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,15 +44,18 @@ POST /api/v1/Agents/Document/GetSaleDocuments?$select=name,department,category/i
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-SaleId
+SaleId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | SaleId | int32 |  |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -73,22 +83,26 @@ Response body: array
 | ProjectName | string | Project name |
 | AssociateId | int32 | ID of associate whose diary the appointment is in, REQUIRED |
 | Snum | int32 | The sequence number allocated from refcount on used template when creating the document |
+| SaleId | int32 | Owning sale, if any (may be 0) |
+| SaleName | string | Heading of Owning sale, if any. (may be blank) |
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Document/GetSaleDocuments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleId": 536
+  "SaleId": 448
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -96,36 +110,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 978,
-    "Attention": "maxime",
-    "Header": "temporibus",
-    "Name": "Renner-Welch",
-    "OurRef": "earum",
-    "YourRef": "expedita",
-    "Description": "Enhanced 6th generation application",
-    "DocumentTemplate": "similique",
+    "DocumentId": 714,
+    "Attention": "assumenda",
+    "Header": "blanditiis",
+    "Name": "Gorczany, Ritchie and Marquardt",
+    "OurRef": "placeat",
+    "YourRef": "quia",
+    "Description": "Fully-configurable zero administration definition",
+    "DocumentTemplate": "ipsam",
     "IsPublished": false,
-    "PersonId": 148,
-    "PersonFullName": "Chasity Durgan",
-    "AssociateFullName": "Bernardo Boyle",
-    "ContactId": 551,
-    "ContactName": "Collier, Spinka and Block",
-    "ProjectId": 180,
-    "ProjectName": "Batz LLC",
-    "AssociateId": 942,
-    "Snum": 652,
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "PersonId": 417,
+    "PersonFullName": "Mrs. Jon Spencer Sr.",
+    "AssociateFullName": "Tania Farrell",
+    "ContactId": 725,
+    "ContactName": "Torp, Jewess and Walsh",
+    "ProjectId": 310,
+    "ProjectName": "Moen, Zieme and Hayes",
+    "AssociateId": 26,
+    "Snum": 902,
+    "SaleId": 293,
+    "SaleName": "Will-Nolan",
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 685
+        "FieldRight": null,
+        "FieldType": "System.Int32",
+        "FieldLength": 986
       }
     }
   }

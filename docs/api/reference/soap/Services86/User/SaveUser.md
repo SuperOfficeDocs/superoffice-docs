@@ -12,11 +12,12 @@ Implemented by the <see cref="M:SuperOffice.Services86.IUserAgent.SaveUser">Supe
 ## SaveUser
 
 Updates the existing User or creates a new User if the id parameter is 0.
-<br />**Online Restricted:** The User agent is not available in Online by default. User management is not allowed for partner apps.
+<para /><b>Online Restricted:</b> The User agent is not available in Online by default. User management is not allowed for partner apps.
 
 * **user:** The User that is saved.
 
 **Returns:** New or updated User
+
 
 [WSDL file for Services86/User](../Services86-User.md)
 
@@ -148,8 +149,8 @@ Application tokens must be specified if calling an Online installation. Applicat
       <User:SupportAssociateId xsi:type="xsd:int">0</User:SupportAssociateId>
      </User:Person>
      <User:Deleted xsi:type="xsd:boolean">false</User:Deleted>
-     <User:Lastlogin xsi:type="xsd:dateTime">2021-11-30T13:23:06Z</User:Lastlogin>
-     <User:Lastlogout xsi:type="xsd:dateTime">2021-11-30T13:23:06Z</User:Lastlogout>
+     <User:Lastlogin xsi:type="xsd:dateTime">2022-08-26T08:55:57Z</User:Lastlogin>
+     <User:Lastlogout xsi:type="xsd:dateTime">2022-08-26T08:55:57Z</User:Lastlogout>
      <User:EjUserId xsi:type="xsd:int">0</User:EjUserId>
      <User:Type xsi:type="User:UserType">Unknown</User:Type>
      <User:IsPersonRetired xsi:type="xsd:boolean">false</User:IsPersonRetired>
@@ -186,6 +187,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+
 
 ## SaveUser Response
 
@@ -307,8 +309,8 @@ Application tokens must be specified if calling an Online installation. Applicat
      <User:SupportAssociateId xsi:type="xsd:int">0</User:SupportAssociateId>
     </User:Person>
     <User:Deleted xsi:type="xsd:boolean">false</User:Deleted>
-    <User:Lastlogin xsi:type="xsd:dateTime">2021-11-30T13:23:06Z</User:Lastlogin>
-    <User:Lastlogout xsi:type="xsd:dateTime">2021-11-30T13:23:06Z</User:Lastlogout>
+    <User:Lastlogin xsi:type="xsd:dateTime">2022-08-26T08:55:57Z</User:Lastlogin>
+    <User:Lastlogout xsi:type="xsd:dateTime">2022-08-26T08:55:57Z</User:Lastlogout>
     <User:EjUserId xsi:type="xsd:int">0</User:EjUserId>
     <User:Type xsi:type="User:UserType">Unknown</User:Type>
     <User:IsPersonRetired xsi:type="xsd:boolean">false</User:IsPersonRetired>
@@ -344,3 +346,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

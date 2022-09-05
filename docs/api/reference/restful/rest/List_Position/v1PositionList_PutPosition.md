@@ -1,6 +1,6 @@
 ---
 title: PUT List/Position/Items/{id}
-id: v1PositionList_PutPosition
+uid: v1PositionList_PutPosition
 ---
 
 # PUT List/Position/Items/{id}
@@ -11,9 +11,16 @@ PUT /api/v1/List/Position/Items/{id}
 
 Updates an existing Position list item.
 
+
+
+
+
+
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | id | int32 | The id of Position to be saved. **Required** |
+
+
 
 ## Request Headers
 
@@ -29,9 +36,9 @@ Updates an existing Position list item.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: listItem
+## Request Body: listItem  
 
-The details of Position list item to be saved.
+The details of Position list item to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -42,19 +49,17 @@ The details of Position list item to be saved.
 | UdListDefinitionId | int32 | The id of the list which this list item belongs to |
 | Rank | int32 | The rank of the list item |
 
-## Response: object
 
-The list item entity contains generic list item information
+## Response: 
 
-Carrier object for ListItemEntity.
-Services for the ListItemEntity Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IListAgent">List Agent</see>.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 | 400 | Bad request. Entity to save is not in request body. |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -67,48 +72,44 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 PUT /api/v1/List/Position/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 229,
-  "Name": "McGlynn-Ernser",
-  "Tooltip": "sed",
-  "Deleted": false,
-  "UdListDefinitionId": 867,
-  "Rank": 712
+  "Id": 743,
+  "Name": "Schroeder-Will",
+  "Tooltip": "id",
+  "Deleted": true,
+  "UdListDefinitionId": 513,
+  "Rank": 82
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 631,
-  "Name": "Considine, Kulas and Cummings",
-  "Tooltip": "unde",
-  "Deleted": true,
-  "UdListDefinitionId": 668,
-  "Rank": 66,
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "Id": 644,
+  "Name": "Satterfield-Stehr",
+  "Tooltip": "quia",
+  "Deleted": false,
+  "UdListDefinitionId": 635,
+  "Rank": 802,
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": "benchmark strategic eyeballs"
-      },
-      "FieldType": "System.Int32",
-      "FieldLength": 915
+      "FieldRight": null,
+      "FieldType": "System.String",
+      "FieldLength": 96
     }
   }
 }

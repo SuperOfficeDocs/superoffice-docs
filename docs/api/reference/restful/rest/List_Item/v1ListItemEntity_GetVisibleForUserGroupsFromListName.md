@@ -1,6 +1,6 @@
 ---
 title: GET List/{udListDefinitionName}/Items/{id}/UserGroups
-id: v1ListItemEntity_GetVisibleForUserGroupsFromListName
+uid: v1ListItemEntity_GetVisibleForUserGroupsFromListName
 ---
 
 # GET List/{udListDefinitionName}/Items/{id}/UserGroups
@@ -11,10 +11,17 @@ GET /api/v1/List/{udListDefinitionName}/Items/{listItemId}/UserGroups
 
 List of User groups that this list item is visible for
 
+
+
+
+
+
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | udListDefinitionName | string | The name of the list definition. **Required** |
 | listItemId | int32 | The id of the list item **Required** |
+
+
 
 ## Request Headers
 
@@ -29,7 +36,10 @@ List of User groups that this list item is visible for
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -57,14 +67,16 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 GET /api/v1/List/{udListDefinitionName}/Items/{listItemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -72,65 +84,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 425,
-    "Name": "Sporer Group",
-    "ToolTip": "Dolores dolore.",
+    "Id": 146,
+    "Name": "Legros-Abshire",
+    "ToolTip": "Nisi est adipisci recusandae.",
     "Deleted": true,
-    "Rank": 177,
-    "Type": "a",
-    "ColorBlock": 988,
-    "IconHint": "magnam",
+    "Rank": 575,
+    "Type": "numquam",
+    "ColorBlock": 300,
+    "IconHint": "similique",
     "Selected": false,
-    "LastChanged": "1998-11-23T18:25:51.5812945+01:00",
+    "LastChanged": "2000-05-13T11:10:53.8912156+02:00",
     "ChildItems": [
       {
-        "Id": 510,
-        "Name": "Lebsack, Orn and D'Amore",
-        "ToolTip": "Eveniet laboriosam veniam.",
-        "Deleted": true,
-        "Rank": 14,
-        "Type": "provident",
-        "ColorBlock": 512,
-        "IconHint": "occaecati",
-        "Selected": true,
-        "LastChanged": "2011-05-05T18:25:51.5812945+02:00",
+        "Id": 179,
+        "Name": "Christiansen, Vandervort and Klocko",
+        "ToolTip": "Voluptas qui a aperiam.",
+        "Deleted": false,
+        "Rank": 322,
+        "Type": "fugit",
+        "ColorBlock": 981,
+        "IconHint": "sit",
+        "Selected": false,
+        "LastChanged": "2008-06-20T11:10:53.8912156+02:00",
         "ChildItems": [
           {},
           {}
         ],
         "ExtraInfo": "similique",
-        "StyleHint": "debitis",
+        "StyleHint": "laboriosam",
         "Hidden": false,
-        "FullName": "Dr. Martin Braun",
-        "TableRight": {},
+        "FullName": "Mrs. Ari Florida Koss",
+        "TableRight": null,
         "FieldProperties": {
           "fieldName": {
-            "FieldRight": {
-              "Mask": "FULL",
-              "Reason": ""
-            },
-            "FieldType": "System.Int32",
-            "FieldLength": 28
+            "FieldRight": null,
+            "FieldType": "System.String",
+            "FieldLength": 646
           }
         }
       }
     ],
-    "ExtraInfo": "molestiae",
-    "StyleHint": "sequi",
-    "Hidden": false,
-    "FullName": "Otho Lind",
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "ExtraInfo": "necessitatibus",
+    "StyleHint": "eius",
+    "Hidden": true,
+    "FullName": "Ms. Erwin Towne",
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
+        "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 124
+        "FieldLength": 455
       }
     }
   }

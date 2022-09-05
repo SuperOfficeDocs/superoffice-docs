@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Sale/GetSaleList
-id: v1SaleAgent_GetSaleList
+uid: v1SaleAgent_GetSaleList
 ---
 
 # POST Agents/Sale/GetSaleList
@@ -11,6 +11,12 @@ POST /api/v1/Agents/Sale/GetSaleList
 
 Gets an array of Sale objects.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Gets an array of Sale objects.
 ```http
 POST /api/v1/Agents/Sale/GetSaleList?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,11 +42,15 @@ POST /api/v1/Agents/Sale/GetSaleList?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: saleIds
+## Request Body: saleIds  
 
-The primary keys.
+The primary keys. 
+
+
 
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -77,14 +88,16 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Sale/GetSaleList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -92,43 +105,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactName": "Johns Group",
-    "SaleDate": "2011-02-10T18:28:50.1724114+01:00",
-    "SaleId": 25,
-    "Probability": 835,
-    "Title": "sequi",
-    "Amount": 13037.439999999999,
-    "Currency": "ut",
-    "ProjectName": "Kunze, Schuster and Wilderman",
-    "AssociateFullName": "Bernita Rowe DVM",
-    "Description": "Diverse actuating groupware",
+    "ContactName": "Kutch Inc and Sons",
+    "SaleDate": "2017-04-18T11:10:27.8469784+02:00",
+    "SaleId": 66,
+    "Probability": 233,
+    "Title": "provident",
+    "Amount": 19929.106,
+    "Currency": "eligendi",
+    "ProjectName": "Beer-Reilly",
+    "AssociateFullName": "Dr. Linda Tobin Wehner V",
+    "Description": "Right-sized secondary leverage",
     "Status": "Lost",
-    "WeightedAmount": 6518.7199999999993,
-    "ProjectId": 975,
-    "EarningPercent": 15651.196,
-    "Earning": 9245.3,
-    "ContactId": 21,
-    "AssociateId": 158,
-    "PersonId": 655,
-    "SaleTypeId": 134,
-    "SaleTypeName": "Haag Group",
-    "PersonFullName": "Hyman Cronin PhD",
+    "WeightedAmount": 4384.4659999999994,
+    "ProjectId": 991,
+    "EarningPercent": 2798.662,
+    "Earning": 25545.234,
+    "ContactId": 185,
+    "AssociateId": 448,
+    "PersonId": 238,
+    "SaleTypeId": 507,
+    "SaleTypeName": "Bernier-Osinski",
+    "PersonFullName": "Kimberly Senger II",
     "Completed": "Completed",
-    "ActiveErpLinks": 667,
-    "NextDueDate": "1996-04-01T18:28:50.1734121+02:00",
-    "Number": "953481",
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "ActiveErpLinks": 974,
+    "NextDueDate": "1995-09-01T11:10:27.8499785+02:00",
+    "Number": "1453161",
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
+        "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 863
+        "FieldLength": 864
       }
     }
   }

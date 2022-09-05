@@ -8,9 +8,10 @@ title: Services88.AIAgent WSDL
 
 ```xml
 <?xml version="1.0" encoding="utf-8"?>
-<wsdl:definitions name="WcfAIService" targetNamespace="http://www.superoffice.net/ws/crm/NetServer/Services88" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:tns="http://www.superoffice.net/ws/crm/NetServer/Services88" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<wsdl:definitions name="WcfAIService" targetNamespace="http://www.superoffice.net/ws/crm/NetServer/Services88" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tns="http://www.superoffice.net/ws/crm/NetServer/Services88" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing">
   <wsdl:types>
     <xs:schema elementFormDefault="qualified" targetNamespace="http://www.superoffice.net/ws/crm/NetServer/Services88" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+      <xs:import namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
       <xs:element name="GetTrainingStatus">
         <xs:complexType>
           <xs:sequence />
@@ -76,6 +77,22 @@ title: Services88.AIAgent WSDL
               <xs:enumeration value="Delete" />
               <xs:enumeration value="Filtering" />
               <xs:enumeration value="RestrictedUpdate" />
+              <xs:enumeration value="Unused1" />
+              <xs:enumeration value="Uninitialized" />
+              <xs:enumeration value="R">
+                <xs:annotation>
+                  <xs:appinfo>
+                    <EnumerationValue xmlns="http://schemas.microsoft.com/2003/10/Serialization/">1</EnumerationValue>
+                  </xs:appinfo>
+                </xs:annotation>
+              </xs:enumeration>
+              <xs:enumeration value="F">
+                <xs:annotation>
+                  <xs:appinfo>
+                    <EnumerationValue xmlns="http://schemas.microsoft.com/2003/10/Serialization/">16</EnumerationValue>
+                  </xs:appinfo>
+                </xs:annotation>
+              </xs:enumeration>
             </xs:restriction>
           </xs:simpleType>
         </xs:list>
@@ -127,6 +144,13 @@ title: Services88.AIAgent WSDL
               <xs:enumeration value="UIHintMandatory" />
               <xs:enumeration value="UIHintReadOnly" />
               <xs:enumeration value="UndefinedValue256" />
+              <xs:enumeration value="Nullable">
+                <xs:annotation>
+                  <xs:appinfo>
+                    <EnumerationValue xmlns="http://schemas.microsoft.com/2003/10/Serialization/">32</EnumerationValue>
+                  </xs:appinfo>
+                </xs:annotation>
+              </xs:enumeration>
             </xs:restriction>
           </xs:simpleType>
         </xs:list>
@@ -279,6 +303,22 @@ title: Services88.AIAgent WSDL
           </xs:sequence>
         </xs:complexType>
       </xs:element>
+      <xs:element name="TranslateEntity">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="EntityName" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="EntityId" type="xs:int" />
+            <xs:element minOccurs="0" name="TargetLanguage" nillable="true" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="TranslateEntityResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="Response" nillable="true" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
     </xs:schema>
     <xs:schema attributeFormDefault="qualified" elementFormDefault="qualified" targetNamespace="http://schemas.microsoft.com/2003/10/Serialization/" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:tns="http://schemas.microsoft.com/2003/10/Serialization/">
       <xs:element name="anyType" nillable="true" type="xs:anyType" />
@@ -424,6 +464,23 @@ title: Services88.AIAgent WSDL
     <wsdl:part name="Succeeded" element="tns:Succeeded" />
     <wsdl:part name="TimeZone" element="tns:TimeZone" />
   </wsdl:message>
+  <wsdl:message name="TranslateEntityRequest">
+    <wsdl:part name="parameters" element="tns:TranslateEntity" />
+  </wsdl:message>
+  <wsdl:message name="TranslateEntityRequest_Headers">
+    <wsdl:part name="ApplicationToken" element="tns:ApplicationToken" />
+    <wsdl:part name="Credentials" element="tns:Credentials" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="TranslateEntityResponse">
+    <wsdl:part name="parameters" element="tns:TranslateEntityResponse" />
+  </wsdl:message>
+  <wsdl:message name="TranslateEntityResponse_Headers">
+    <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
+    <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
+    <wsdl:part name="Succeeded" element="tns:Succeeded" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
   <wsdl:portType name="AI">
     <wsdl:documentation>
       <summary>Declaration of Wcf web services for AI</summary>
@@ -469,6 +526,13 @@ title: Services88.AIAgent WSDL
       </wsdl:documentation>
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/AI/Translate" name="TranslateRequest" message="tns:TranslateRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/AI/TranslateResponse" name="TranslateResponse" message="tns:TranslateResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="TranslateEntity">
+      <wsdl:documentation>
+        <summary>Retrieve, format and translate text for an entity to a specified language</summary>
+      </wsdl:documentation>
+      <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/AI/TranslateEntity" name="TranslateEntityRequest" message="tns:TranslateEntityRequest" />
+      <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/AI/TranslateEntityResponse" name="TranslateEntityResponse" message="tns:TranslateEntityResponse" />
     </wsdl:operation>
   </wsdl:portType>
   <wsdl:binding name="BasicHttpBinding_AI" type="tns:AI">
@@ -569,6 +633,22 @@ title: Services88.AIAgent WSDL
         <soap:body use="literal" />
       </wsdl:output>
     </wsdl:operation>
+    <wsdl:operation name="TranslateEntity">
+      <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/AI/TranslateEntity" style="document" />
+      <wsdl:input name="TranslateEntityRequest">
+        <soap:header message="tns:TranslateEntityRequest_Headers" part="ApplicationToken" use="literal" />
+        <soap:header message="tns:TranslateEntityRequest_Headers" part="Credentials" use="literal" />
+        <soap:header message="tns:TranslateEntityRequest_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="TranslateEntityResponse">
+        <soap:header message="tns:TranslateEntityResponse_Headers" part="ExceptionInfo" use="literal" />
+        <soap:header message="tns:TranslateEntityResponse_Headers" part="ExtraInfo" use="literal" />
+        <soap:header message="tns:TranslateEntityResponse_Headers" part="Succeeded" use="literal" />
+        <soap:header message="tns:TranslateEntityResponse_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
   </wsdl:binding>
   <wsdl:service name="WcfAIService">
     <wsdl:port name="BasicHttpBinding_AI" binding="tns:BasicHttpBinding_AI">
@@ -577,3 +657,4 @@ title: Services88.AIAgent WSDL
   </wsdl:service>
 </wsdl:definitions>
 ```
+

@@ -11,8 +11,12 @@ Implemented by the <see cref="M:SuperOffice.Services86.IBLOBAgent.ChangePersonIm
 
 ## ChangePersonImage
 
+
+
 * **personId:** The person the image is linked to
 * **blobId:** The Binary object id. If the Binary object id is 0, any image link is removed from the person.
+
+
 
 [WSDL file for Services86/BLOB](../Services86-BLOB.md)
 
@@ -46,6 +50,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## ChangePersonImage Response
 
 ```xml
@@ -64,3 +69,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

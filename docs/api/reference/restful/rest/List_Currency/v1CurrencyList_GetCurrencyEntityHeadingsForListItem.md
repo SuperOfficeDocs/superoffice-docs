@@ -1,6 +1,6 @@
 ---
 title: GET List/Currency/Items/{id}/Headings
-id: v1CurrencyList_GetCurrencyEntityHeadingsForListItem
+uid: v1CurrencyList_GetCurrencyEntityHeadingsForListItem
 ---
 
 # GET List/Currency/Items/{id}/Headings
@@ -11,11 +11,17 @@ GET /api/v1/List/Currency/Items/{itemId}/Headings
 
 Gets headings for the CurrencyEntity list's item.
 
+
 Calls the List agent service GetHeadings.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | itemId | int32 | The ID of the headings to be get. **Required** |
+
 
 ## Query String Parameters
 
@@ -24,8 +30,9 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/Currency/Items/{itemId}/Headings?showDeleted=True
+GET /api/v1/List/Currency/Items/{itemId}/Headings?showDeleted=False
 ```
+
 
 ## Request Headers
 
@@ -40,7 +47,10 @@ GET /api/v1/List/Currency/Items/{itemId}/Headings?showDeleted=True
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -68,7 +78,7 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 GET /api/v1/List/Currency/Items/{itemId}/Headings
@@ -77,71 +87,64 @@ Accept: application/json; charset=utf-8
 Accept-Language: sv
 ```
 
+## Sample response
+
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 708,
-    "Name": "Runolfsdottir-Armstrong",
-    "ToolTip": "Ipsum et omnis eos.",
+    "Id": 392,
+    "Name": "Conn, Hansen and Vandervort",
+    "ToolTip": "Explicabo et consectetur minima quia voluptatem.",
     "Deleted": false,
-    "Rank": 537,
-    "Type": "quia",
-    "ColorBlock": 270,
-    "IconHint": "quia",
+    "Rank": 530,
+    "Type": "aut",
+    "ColorBlock": 915,
+    "IconHint": "facilis",
     "Selected": false,
-    "LastChanged": "2013-05-05T18:25:51.7872932+02:00",
+    "LastChanged": "2021-04-20T11:10:54.2368955+02:00",
     "ChildItems": [
       {
-        "Id": 853,
-        "Name": "Raynor Group",
-        "ToolTip": "Sed vel tenetur id.",
-        "Deleted": true,
-        "Rank": 767,
-        "Type": "quas",
-        "ColorBlock": 240,
-        "IconHint": "molestias",
+        "Id": 614,
+        "Name": "Wiegand LLC",
+        "ToolTip": "Amet nihil aut vel et consequatur ut.",
+        "Deleted": false,
+        "Rank": 539,
+        "Type": "numquam",
+        "ColorBlock": 357,
+        "IconHint": "autem",
         "Selected": true,
-        "LastChanged": "2011-11-11T18:25:51.7872932+01:00",
+        "LastChanged": "2016-09-12T11:10:54.2368955+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "pariatur",
-        "StyleHint": "quidem",
-        "Hidden": true,
-        "FullName": "Delores Boehm",
-        "TableRight": {},
+        "ExtraInfo": "accusantium",
+        "StyleHint": "quisquam",
+        "Hidden": false,
+        "FullName": "Heber Dibbert",
+        "TableRight": null,
         "FieldProperties": {
           "fieldName": {
-            "FieldRight": {
-              "Mask": "FULL",
-              "Reason": ""
-            },
-            "FieldType": "System.String",
-            "FieldLength": 45
+            "FieldRight": null,
+            "FieldType": "System.Int32",
+            "FieldLength": 889
           }
         }
       }
     ],
-    "ExtraInfo": "reiciendis",
-    "StyleHint": "non",
+    "ExtraInfo": "harum",
+    "StyleHint": "unde",
     "Hidden": false,
-    "FullName": "Heidi Barrows I",
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "FullName": "Jennifer Friesen",
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.Int32",
-        "FieldLength": 12
+        "FieldRight": null,
+        "FieldType": "System.String",
+        "FieldLength": 854
       }
     }
   }

@@ -1,6 +1,6 @@
 ---
 title: GET SaleStakeholder/default
-id: v1SaleStakeholder_DefaultSaleStakeholder
+uid: v1SaleStakeholder_DefaultSaleStakeholder
 ---
 
 # GET SaleStakeholder/default
@@ -11,7 +11,14 @@ GET /api/v1/SaleStakeholder/default
 
 Set default values into a new SaleStakeholder.
 
+
 NetServer calculates default values on the entity, which is required when creating/storing a new instance Calls the Sale agent service CreateDefaultSaleStakeholder.
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -26,16 +33,16 @@ NetServer calculates default values on the entity, which is required when creati
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response: object
 
-Carrier object for SaleStakeholder.
-Services for the SaleStakeholder Carrier is available from the <see cref="T:SuperOffice.CRM.Services.ISaleAgent">Sale Agent</see>.
+## Response: 
+
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -61,51 +68,47 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 GET /api/v1/SaleStakeholder/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "StakeholderRoleName": "Hodkiewicz-Padberg",
-  "Comment": "sed",
-  "StakeholderRoleId": 133,
-  "CountryId": 855,
-  "PersonId": 954,
-  "EmailDescription": "laurianne.bayer@gusikowski.biz",
-  "EmailId": 914,
-  "EmailAddress": "may_sawayn@wiegandkunze.co.uk",
-  "PhoneId": 406,
-  "ContactName": "Gaylord, Gusikowski and Grady",
-  "ContactId": 168,
-  "SaleId": 105,
-  "Mrmrs": "recusandae",
-  "Firstname": "Virginia",
-  "MiddleName": "Doyle-Schmidt",
-  "Lastname": "Walsh",
-  "SaleStakeholderId": 649,
-  "Rank": 956,
-  "Phone": "(315)304-8488",
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "StakeholderRoleName": "Trantow-Swaniawski",
+  "Comment": "aut",
+  "StakeholderRoleId": 725,
+  "CountryId": 691,
+  "PersonId": 68,
+  "EmailDescription": "harvey@prohaskaferry.ca",
+  "EmailId": 110,
+  "EmailAddress": "tianna@lehner.ca",
+  "PhoneId": 487,
+  "ContactName": "Ebert LLC",
+  "ContactId": 752,
+  "SaleId": 465,
+  "Mrmrs": "sunt",
+  "Firstname": "Ashleigh",
+  "MiddleName": "Goldner Group",
+  "Lastname": "Von",
+  "SaleStakeholderId": 826,
+  "Rank": 220,
+  "Phone": "(572)119-3796 x0090",
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
-      "FieldType": "System.String",
-      "FieldLength": 636
+      "FieldRight": null,
+      "FieldType": "System.Int32",
+      "FieldLength": 165
     }
   }
 }

@@ -1,6 +1,6 @@
 ---
 title: POST Agents/MDO/GetSelectableList
-id: v1MDOAgent_GetSelectableList
+uid: v1MDOAgent_GetSelectableList
 ---
 
 # POST Agents/MDO/GetSelectableList
@@ -11,6 +11,12 @@ POST /api/v1/Agents/MDO/GetSelectableList
 
 Method to get a Selectable MDO list.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Method to get a Selectable MDO list.
 ```http
 POST /api/v1/Agents/MDO/GetSelectableList?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,9 +42,9 @@ POST /api/v1/Agents/MDO/GetSelectableList?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-Name, ForceFlatList, AdditionalInfo, OnlyHistory
+Name, ForceFlatList, AdditionalInfo, OnlyHistory 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -46,7 +53,10 @@ Name, ForceFlatList, AdditionalInfo, OnlyHistory
 | AdditionalInfo | string |  |
 | OnlyHistory | bool |  |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -74,22 +84,24 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/MDO/GetSelectableList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Price Group",
-  "ForceFlatList": false,
-  "AdditionalInfo": "atque",
-  "OnlyHistory": true
+  "Name": "Feil, Dickens and Kihn",
+  "ForceFlatList": true,
+  "AdditionalInfo": "saepe",
+  "OnlyHistory": false
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -97,65 +109,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 311,
-    "Name": "Schowalter-Torp",
-    "ToolTip": "Cumque est earum deleniti aperiam cumque fugit.",
+    "Id": 348,
+    "Name": "Will Inc and Sons",
+    "ToolTip": "Aperiam quibusdam.",
     "Deleted": true,
-    "Rank": 600,
-    "Type": "alias",
-    "ColorBlock": 364,
-    "IconHint": "in",
-    "Selected": true,
-    "LastChanged": "2016-04-05T18:28:49.4870903+02:00",
+    "Rank": 720,
+    "Type": "molestiae",
+    "ColorBlock": 883,
+    "IconHint": "est",
+    "Selected": false,
+    "LastChanged": "1998-04-17T11:10:27.3154529+02:00",
     "ChildItems": [
       {
-        "Id": 736,
-        "Name": "Wisozk Inc and Sons",
-        "ToolTip": "Ipsum ut inventore impedit a.",
-        "Deleted": false,
-        "Rank": 449,
-        "Type": "tempore",
-        "ColorBlock": 421,
-        "IconHint": "natus",
-        "Selected": false,
-        "LastChanged": "2003-11-04T18:28:49.4870903+01:00",
+        "Id": 545,
+        "Name": "Mueller, Wehner and Rippin",
+        "ToolTip": "Et minus esse similique officiis accusantium.",
+        "Deleted": true,
+        "Rank": 241,
+        "Type": "hic",
+        "ColorBlock": 903,
+        "IconHint": "maiores",
+        "Selected": true,
+        "LastChanged": "1997-05-15T11:10:27.3164564+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "libero",
-        "StyleHint": "sed",
+        "ExtraInfo": "natus",
+        "StyleHint": "quia",
         "Hidden": false,
-        "FullName": "Mariana Jerde II",
-        "TableRight": {},
+        "FullName": "Amaya Jones",
+        "TableRight": null,
         "FieldProperties": {
           "fieldName": {
-            "FieldRight": {
-              "Mask": "FULL",
-              "Reason": ""
-            },
-            "FieldType": "System.String",
-            "FieldLength": 303
+            "FieldRight": null,
+            "FieldType": "System.Int32",
+            "FieldLength": 932
           }
         }
       }
     ],
-    "ExtraInfo": "aut",
-    "StyleHint": "amet",
+    "ExtraInfo": "perspiciatis",
+    "StyleHint": "ut",
     "Hidden": false,
-    "FullName": "Fae Lehner",
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "FullName": "Ulices Bogan",
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 667
+        "FieldRight": null,
+        "FieldType": "System.Int32",
+        "FieldLength": 576
       }
     }
   }

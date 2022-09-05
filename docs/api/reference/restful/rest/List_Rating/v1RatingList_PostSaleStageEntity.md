@@ -1,6 +1,6 @@
 ---
 title: POST List/Rating/Items
-id: v1RatingList_PostSaleStageEntity
+uid: v1RatingList_PostSaleStageEntity
 ---
 
 # POST List/Rating/Items
@@ -11,7 +11,14 @@ POST /api/v1/List/Rating/Items
 
 Create a new SaleStageEntity list item
 
+
 Calls the List agent service SaveSaleStageEntity.
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -27,9 +34,9 @@ Calls the List agent service SaveSaleStageEntity.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: newEntity
+## Request Body: newEntity  
 
-The SaleStageEntity to be created.
+The SaleStageEntity to be created. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -40,18 +47,16 @@ The SaleStageEntity to be created.
 | Deleted | bool | If true, the Sale stage is deleted |
 | Rank | int32 | Rank order |
 
-## Response: object
 
-This entity represents a sale stage with a default percentage rating.
+## Response: 
 
-Carrier object for SaleStageEntity.
-Services for the SaleStageEntity Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IListAgent">List Agent</see>.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -64,48 +69,44 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/List/Rating/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleStageId": 671,
-  "Value": "debitis",
-  "Tooltip": "dolores",
-  "Probability": 136,
+  "SaleStageId": 462,
+  "Value": "et",
+  "Tooltip": "fuga",
+  "Probability": 22,
   "Deleted": false,
-  "Rank": 798
+  "Rank": 289
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleStageId": 702,
-  "Value": "rerum",
-  "Tooltip": "at",
-  "Probability": 173,
+  "SaleStageId": 16,
+  "Value": "ex",
+  "Tooltip": "non",
+  "Probability": 731,
   "Deleted": false,
-  "Rank": 334,
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "Rank": 30,
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
-      "FieldType": "System.String",
-      "FieldLength": 370
+      "FieldRight": null,
+      "FieldType": "System.Int32",
+      "FieldLength": 791
     }
   }
 }

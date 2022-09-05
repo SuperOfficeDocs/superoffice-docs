@@ -1,6 +1,6 @@
 ---
 title: DEL License/{moduleOwner}/{id}
-id: v1License_UnassignThirdPartyLicenses
+uid: v1License_UnassignThirdPartyLicenses
 ---
 
 # DEL License/{moduleOwner}/{id}
@@ -11,10 +11,17 @@ DELETE /api/v1/License/{moduleOwner}/{associateId}
 
 Unassign (remove) third party licenses
 
+
+
+
+
+
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | associateId | int32 | User to unassign third party licenses for **Required** |
 | moduleOwner | string | Name of the module owner to unassign license for **Required** |
+
+
 
 ## Request Headers
 
@@ -26,11 +33,15 @@ Unassign (remove) third party licenses
 | Accept         | Content-type(s) you would like the response in: `application/json`, `text/json`, `application/xml`, `text/xml`, `application/json-patch+json`, `application/merge-patch+json` |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: moduleLicenseNames
+## Request Body: moduleLicenseNames  
 
-Name of module licenses to unassign (remove)
+Name of module licenses to unassign (remove) 
+
+
 
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -57,14 +68,16 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 DELETE /api/v1/License/{moduleOwner}/{associateId}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -72,32 +85,26 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Unrestricted": true,
-    "Total": 366,
-    "Tooltip": "ex",
+    "Unrestricted": false,
+    "Total": 551,
+    "Tooltip": "velit",
     "CanAssign": false,
-    "Free": 293,
-    "InUse": 738,
-    "IsHidden": true,
+    "Free": 326,
+    "InUse": 838,
+    "IsHidden": false,
     "Assigned": false,
-    "ModuleLicenseId": 526,
-    "Name": "Kuhn, Gerhold and Ullrich",
-    "Description": "Multi-channelled leading edge internet solution",
-    "PrerequisiteModuleName": "Kutch, Heathcote and Hackett",
-    "SortOrder": 119,
-    "ExtraFlags": 963,
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "ModuleLicenseId": 533,
+    "Name": "Collier Group",
+    "Description": "Implemented impactful contingency",
+    "PrerequisiteModuleName": "Bergnaum Inc and Sons",
+    "SortOrder": 459,
+    "ExtraFlags": 516,
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 113
+        "FieldRight": null,
+        "FieldType": "System.Int32",
+        "FieldLength": 949
       }
     }
   }

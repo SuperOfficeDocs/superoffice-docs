@@ -1,6 +1,6 @@
 ---
 title: GET List/Rating
-id: v1RatingList_GetListDefinition
+uid: v1RatingList_GetListDefinition
 ---
 
 # GET List/Rating
@@ -10,6 +10,13 @@ GET /api/v1/List/Rating
 ```
 
 Gets description of Rating list
+
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -24,17 +31,16 @@ Gets description of Rating list
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response: object
 
-The list entity contains information about a specific list
+## Response: 
 
-ListEntity entity with API _Links added.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -52,47 +58,43 @@ Response body: object
 | FieldProperties | object |  |
 | _Links | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 GET /api/v1/List/Rating
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 532,
-  "Name": "Lemke Group",
-  "Tooltip": "corrupti",
-  "Deleted": true,
-  "Rank": 986,
-  "IsCustomList": true,
-  "IsMDOList": false,
+  "Id": 787,
+  "Name": "Orn LLC",
+  "Tooltip": "est",
+  "Deleted": false,
+  "Rank": 445,
+  "IsCustomList": false,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": true,
-  "ListType": "eligendi",
+  "ListType": "quia",
   "InUseByUserDefinedFields": false,
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
-      "FieldType": "System.Int32",
-      "FieldLength": 40
+      "FieldRight": null,
+      "FieldType": "System.String",
+      "FieldLength": 332
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

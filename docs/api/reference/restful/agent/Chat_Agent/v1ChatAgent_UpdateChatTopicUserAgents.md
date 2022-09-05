@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Chat/UpdateChatTopicUserAgents
-id: v1ChatAgent_UpdateChatTopicUserAgents
+uid: v1ChatAgent_UpdateChatTopicUserAgents
 ---
 
 # POST Agents/Chat/UpdateChatTopicUserAgents
@@ -11,6 +11,12 @@ POST /api/v1/Agents/Chat/UpdateChatTopicUserAgents
 
 Update users roles in a chat topic
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Update users roles in a chat topic
 ```http
 POST /api/v1/Agents/Chat/UpdateChatTopicUserAgents?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,16 +42,19 @@ POST /api/v1/Agents/Chat/UpdateChatTopicUserAgents?$select=name,department,categ
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-ChatTopicId, Useragents
+ChatTopicId, Useragents 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | ChatTopicId | int32 |  |
 | Useragents | array |  |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -61,31 +71,31 @@ Response body: array
 | CanManage | bool | True if the user is a manager for this topic |
 | CanNotify | bool | True if the user should receive notifications for this topic |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Chat/UpdateChatTopicUserAgents
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatTopicId": 177,
+  "ChatTopicId": 159,
   "Useragents": [
     {
-      "TopicId": 486,
-      "User": {},
+      "TopicId": 89,
+      "User": null,
       "CanListen": false,
-      "CanRespond": false,
+      "CanRespond": true,
       "CanManage": false,
       "CanNotify": true
     },
     {
-      "TopicId": 486,
-      "User": {},
+      "TopicId": 89,
+      "User": null,
       "CanListen": false,
-      "CanRespond": false,
+      "CanRespond": true,
       "CanManage": false,
       "CanNotify": true
     }
@@ -93,74 +103,28 @@ Content-Type: application/json; charset=utf-8
 }
 ```
 
+## Sample response
+
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TopicId": 718,
-    "User": {
-      "AssociateId": 477,
-      "Name": "Upton-Davis",
-      "PersonId": 845,
-      "Rank": 125,
-      "Tooltip": "placeat",
-      "Type": "AnonymousAssociate",
-      "GroupIdx": 53,
-      "FullName": "Mrs. Cheyenne Schaefer",
-      "FormalName": "Pagac-Turcotte",
-      "Deleted": false,
-      "EjUserId": 643,
-      "UserName": "Walter LLC",
-      "TableRight": {},
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": {
-            "Mask": "FULL",
-            "Reason": ""
-          },
-          "FieldType": "System.String",
-          "FieldLength": 422
-        }
-      }
-    },
+    "TopicId": 168,
+    "User": null,
     "CanListen": false,
     "CanRespond": false,
-    "CanManage": true,
-    "CanNotify": true
+    "CanManage": false,
+    "CanNotify": false
   },
   {
-    "TopicId": 718,
-    "User": {
-      "AssociateId": 477,
-      "Name": "Upton-Davis",
-      "PersonId": 845,
-      "Rank": 125,
-      "Tooltip": "placeat",
-      "Type": "AnonymousAssociate",
-      "GroupIdx": 53,
-      "FullName": "Mrs. Cheyenne Schaefer",
-      "FormalName": "Pagac-Turcotte",
-      "Deleted": false,
-      "EjUserId": 643,
-      "UserName": "Walter LLC",
-      "TableRight": {},
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": {
-            "Mask": "FULL",
-            "Reason": ""
-          },
-          "FieldType": "System.String",
-          "FieldLength": 422
-        }
-      }
-    },
+    "TopicId": 168,
+    "User": null,
     "CanListen": false,
     "CanRespond": false,
-    "CanManage": true,
-    "CanNotify": true
+    "CanManage": false,
+    "CanNotify": false
   }
 ]
 ```

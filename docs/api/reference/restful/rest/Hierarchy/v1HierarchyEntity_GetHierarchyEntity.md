@@ -1,6 +1,6 @@
 ---
 title: GET Hierarchy/{id}
-id: v1HierarchyEntity_GetHierarchyEntity
+uid: v1HierarchyEntity_GetHierarchyEntity
 ---
 
 # GET Hierarchy/{id}
@@ -11,11 +11,17 @@ GET /api/v1/Hierarchy/{id}
 
 Gets a HierarchyEntity object.
 
+
 Calls the List agent service GetHierarchyEntity.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | id | int32 | The id of the HierarchyEntity to return. **Required** |
+
 
 ## Query String Parameters
 
@@ -26,6 +32,7 @@ Calls the List agent service GetHierarchyEntity.
 ```http
 GET /api/v1/Hierarchy/{id}?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -40,18 +47,17 @@ GET /api/v1/Hierarchy/{id}?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response: object
 
-Folder structures
+## Response: 
 
-HierarchyEntity entity with API _Links added.
+HierarchyEntity found.
 
 | Response | Description |
 |----------------|-------------|
 | 200 | HierarchyEntity found. |
 | 404 | Not Found. |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -69,7 +75,7 @@ Response body: object
 | FieldProperties | object |  |
 | _Links | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 GET /api/v1/Hierarchy/{id}
@@ -78,60 +84,53 @@ Accept: application/json; charset=utf-8
 Accept-Language: *
 ```
 
+## Sample response
+
 ```http_
 HTTP/1.1 200 HierarchyEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 799,
+  "HierarchyId": 429,
   "Domain": "Dashboards",
-  "Name": "Kuhic Group",
-  "Fullname": "quos",
-  "ParentId": 719,
+  "Name": "Volkman, Harris and Ward",
+  "Fullname": "illo",
+  "ParentId": 432,
   "Children": [
     {
-      "HierarchyId": 682,
+      "HierarchyId": 967,
       "Domain": "Dashboards",
-      "Name": "Veum, Waelchi and Johnson",
-      "Fullname": "sed",
-      "ParentId": 551,
+      "Name": "Predovic, Bernier and Walker",
+      "Fullname": "est",
+      "ParentId": 926,
       "Children": [
         {},
         {}
       ],
-      "Registered": "2010-01-03T18:25:50.5805945+01:00",
-      "RegisteredAssociateId": 555,
-      "Updated": "2007-05-18T18:25:50.5805945+02:00",
-      "UpdatedAssociateId": 179,
-      "TableRight": {},
+      "Registered": "2016-11-17T11:10:52.915179+01:00",
+      "RegisteredAssociateId": 967,
+      "Updated": "2017-11-07T11:10:52.915179+01:00",
+      "UpdatedAssociateId": 617,
+      "TableRight": null,
       "FieldProperties": {
         "fieldName": {
-          "FieldRight": {
-            "Mask": "FULL",
-            "Reason": "exploit innovative bandwidth"
-          },
+          "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 668
+          "FieldLength": 315
         }
       }
     }
   ],
-  "Registered": "2010-02-08T18:25:50.5805945+01:00",
-  "RegisteredAssociateId": 650,
-  "Updated": "2019-02-05T18:25:50.5805945+01:00",
-  "UpdatedAssociateId": 995,
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "Registered": "1997-10-10T11:10:52.915179+02:00",
+  "RegisteredAssociateId": 321,
+  "Updated": "2015-03-31T11:10:52.915179+02:00",
+  "UpdatedAssociateId": 622,
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
+      "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 954
+      "FieldLength": 137
     }
   },
   "_Links": {

@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "ProjStatus"
-so.date: 04.12.2022
+so.date: 08.26.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -33,6 +33,7 @@ ProjStatus list table. Project status
 |updated\_associate\_id|Last updated by whom|FK [associate](associate.md)| |
 |updatedCount|Number of updates made to this record|UShort| |
 
+
 ![ProjStatus table relationship diagram](./media/ProjStatus.png)
 
 [!include[details](./includes/projstatus.md)]
@@ -54,6 +55,7 @@ ProjStatus list table. Project status
 |[ProjStatusGroupLink](projstatusgrouplink.md)  |User group link table for ProjStatus, for MDO item hiding |
 |[ProjStatusHeadingLink](projstatusheadinglink.md)  |Heading link table for ProjStatus, for MDO headers |
 
+
 ## Replication Flags
 
 * Replicate changes DOWN from central to satellites and travellers.
@@ -63,3 +65,4 @@ ProjStatus list table. Project status
 ## Security Flags
 
 * No access control via user's Role.
+

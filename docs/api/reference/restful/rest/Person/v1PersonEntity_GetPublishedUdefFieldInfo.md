@@ -1,6 +1,6 @@
 ---
 title: GET Person/UdefLayout/Published/{progidOrLabel}
-id: v1PersonEntity_GetPublishedUdefFieldInfo
+uid: v1PersonEntity_GetPublishedUdefFieldInfo
 ---
 
 # GET Person/UdefLayout/Published/{progidOrLabel}
@@ -11,9 +11,16 @@ GET /api/v1/Person/UdefLayout/Published/{progidOrLabel}
 
 Get a published PersonEntity user-defined field's details based on the prog-id or label.
 
+
+
+
+
+
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | progidOrLabel | string | The udef field id, case-sensitive prog-id, or field label. **Required** |
+
+
 
 ## Request Headers
 
@@ -28,19 +35,17 @@ Get a published PersonEntity user-defined field's details based on the prog-id o
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response: object
 
-Return information about the user defined fields. The information can be used to mirror the layout of the user-defined fields in the user interface.
+## Response: 
 
-Carrier object for UserDefinedFieldInfo.
-Services for the UserDefinedFieldInfo Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent">UserDefinedFieldInfo Agent</see>.
+PersonEntity found.
 
 | Response | Description |
 |----------------|-------------|
 | 200 | PersonEntity found. |
 | 404 | PersonEntity not found. |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -81,66 +86,62 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 GET /api/v1/Person/UdefLayout/Published/{progidOrLabel}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 PersonEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 281,
-  "ColumnId": 341,
-  "FieldDefault": "inventore",
-  "FieldHeight": 916,
-  "FieldLabel": "ipsa",
-  "FieldLeft": 799,
-  "FieldTop": 359,
+  "UDefFieldId": 789,
+  "ColumnId": 54,
+  "FieldDefault": "autem",
+  "FieldHeight": 543,
+  "FieldLabel": "sint",
+  "FieldLeft": 925,
+  "FieldTop": 961,
   "FieldType": "Checkbox",
-  "FieldWidth": 736,
-  "FormatMask": "ut",
+  "FieldWidth": 754,
+  "FormatMask": "beatae",
   "HideLabel": false,
-  "IsIndexed": true,
-  "LabelHeight": 517,
-  "LabelLeft": 987,
-  "LabelTop": 143,
-  "LabelWidth": 324,
-  "LastVersionId": 832,
-  "ListTableId": 347,
-  "IsMandatory": true,
+  "IsIndexed": false,
+  "LabelHeight": 681,
+  "LabelLeft": 642,
+  "LabelTop": 121,
+  "LabelWidth": 925,
+  "LastVersionId": 613,
+  "ListTableId": 295,
+  "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 401,
-  "ProgId": "error",
-  "IsReadOnly": true,
-  "ShortLabel": "eius",
-  "TabOrder": 932,
-  "TextLength": 991,
-  "Tooltip": "est",
-  "UdefIdentity": 596,
-  "UDListDefinitionId": 253,
+  "Page1LineNo": 90,
+  "ProgId": "provident",
+  "IsReadOnly": false,
+  "ShortLabel": "culpa",
+  "TabOrder": 456,
+  "TextLength": 808,
+  "Tooltip": "ipsum",
+  "UdefIdentity": 157,
+  "UDListDefinitionId": 442,
   "Justification": "Center",
-  "Version": 389,
-  "TemplateVariableName": "Ernser, Bruen and Jenkins",
-  "HasBeenPublished": true,
-  "MdoListName": "Hamill-Welch",
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "Version": 493,
+  "TemplateVariableName": "Swift Inc and Sons",
+  "HasBeenPublished": false,
+  "MdoListName": "Langosh, Bogisich and Kuvalis",
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
+      "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 723
+      "FieldLength": 888
     }
   }
 }

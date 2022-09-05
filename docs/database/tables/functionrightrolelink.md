@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "FunctionRightRoleLink"
-so.date: 04.12.2022
+so.date: 08.26.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -31,6 +31,7 @@ Functional right definition
 |updated\_associate\_id|Last updated by whom|FK [associate](associate.md)| |
 |updatedCount|Number of updates made to this record|UShort| |
 
+
 ![FunctionRightRoleLink table relationship diagram](./media/FunctionRightRoleLink.png)
 
 [!include[details](./includes/functionrightrolelink.md)]
@@ -50,7 +51,8 @@ Functional right definition
 |------|-------------|
 |[associate](associate.md)  |Employees, resources and other users - except for External persons |
 |[FunctionRight](functionright.md)  |Functional right definition |
-|[Role](role.md)  |User roles for role-based security, names and tooltips are in LocaleText. |
+|[Role](role.md)  |User roles for role-based security, names and tooltips are in LocaleText. For more information regarding role based security, see http://techdoc.superoffice.com |
+
 
 ## Replication Flags
 
@@ -61,3 +63,4 @@ Functional right definition
 ## Security Flags
 
 * No access control via user's Role.
+

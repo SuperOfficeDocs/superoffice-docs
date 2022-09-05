@@ -16,6 +16,8 @@ Stores the product image that is displayed in the CRM application. The image is 
 * **productId:** The project id of the product the image belongs to.
 * **image:** The image that is stored on the product (System.Drawing.Image), scaled down to no more than 1000x1000
 
+
+
 [WSDL file for Services87/BLOB](../Services87-BLOB.md)
 
 Obtain a ticket from the [Services87/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -48,6 +50,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## SetProductImage Response
 
 ```xml
@@ -66,3 +69,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

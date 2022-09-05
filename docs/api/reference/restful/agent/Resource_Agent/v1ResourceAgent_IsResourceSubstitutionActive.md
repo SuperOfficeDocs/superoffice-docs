@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Resource/IsResourceSubstitutionActive
-id: v1ResourceAgent_IsResourceSubstitutionActive
+uid: v1ResourceAgent_IsResourceSubstitutionActive
 ---
 
 # POST Agents/Resource/IsResourceSubstitutionActive
@@ -11,6 +11,12 @@ POST /api/v1/Agents/Resource/IsResourceSubstitutionActive
 
 Determine if resource substitution/override is active, globally or for a subset of resources/cultures
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Determine if resource substitution/override is active, globally or for a subset 
 ```http
 POST /api/v1/Agents/Resource/IsResourceSubstitutionActive?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,16 +42,19 @@ POST /api/v1/Agents/Resource/IsResourceSubstitutionActive?$select=name,departmen
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-ResourceNames, Culture
+ResourceNames, Culture 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | ResourceNames | array |  |
 | Culture | string |  |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -61,7 +71,7 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Resource/IsResourceSubstitutionActive
@@ -72,12 +82,14 @@ Content-Type: application/json; charset=utf-8
 
 {
   "ResourceNames": [
-    "Rippin, Rutherford and Greenfelder",
-    "Powlowski LLC"
+    "Fadel, Kuvalis and Fahey",
+    "Brakus, Considine and Kshlerin"
   ],
-  "Culture": "esse"
+  "Culture": "saepe"
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -85,42 +97,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ResourceName": "Jast-Deckow",
-    "ResourceValue": "maiores",
-    "Culture": "quo",
+    "ResourceName": "Schiller, Jenkins and Hintz",
+    "ResourceValue": "quia",
+    "Culture": "sunt",
     "IsActive": true,
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 488
+        "FieldRight": null,
+        "FieldType": "System.Int32",
+        "FieldLength": 887
       }
     }
   },
   {
-    "ResourceName": "Jast-Deckow",
-    "ResourceValue": "maiores",
-    "Culture": "quo",
+    "ResourceName": "Schiller, Jenkins and Hintz",
+    "ResourceValue": "quia",
+    "Culture": "sunt",
     "IsActive": true,
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 488
+        "FieldRight": null,
+        "FieldType": "System.Int32",
+        "FieldLength": 887
       }
     }
   }

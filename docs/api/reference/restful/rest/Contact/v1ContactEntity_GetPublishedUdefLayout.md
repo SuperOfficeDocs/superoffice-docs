@@ -1,6 +1,6 @@
 ---
 title: GET Contact/UdefLayout/Published
-id: v1ContactEntity_GetPublishedUdefLayout
+uid: v1ContactEntity_GetPublishedUdefLayout
 ---
 
 # GET Contact/UdefLayout/Published
@@ -10,6 +10,13 @@ GET /api/v1/Contact/UdefLayout/Published
 ```
 
 Currently published ContactEntity user-defined field layout.
+
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -24,7 +31,10 @@ Currently published ContactEntity user-defined field layout.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -71,7 +81,7 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 GET /api/v1/Contact/UdefLayout/Published
@@ -80,58 +90,54 @@ Accept: application/json; charset=utf-8
 Accept-Language: en
 ```
 
+## Sample response
+
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 457,
-    "ColumnId": 525,
-    "FieldDefault": "doloribus",
-    "FieldHeight": 702,
-    "FieldLabel": "corporis",
-    "FieldLeft": 1000,
-    "FieldTop": 600,
+    "UDefFieldId": 318,
+    "ColumnId": 51,
+    "FieldDefault": "voluptatem",
+    "FieldHeight": 373,
+    "FieldLabel": "ea",
+    "FieldLeft": 855,
+    "FieldTop": 213,
     "FieldType": "Checkbox",
-    "FieldWidth": 457,
-    "FormatMask": "perferendis",
-    "HideLabel": true,
-    "IsIndexed": true,
-    "LabelHeight": 717,
-    "LabelLeft": 694,
-    "LabelTop": 727,
-    "LabelWidth": 477,
-    "LastVersionId": 83,
-    "ListTableId": 495,
-    "IsMandatory": true,
+    "FieldWidth": 193,
+    "FormatMask": "reiciendis",
+    "HideLabel": false,
+    "IsIndexed": false,
+    "LabelHeight": 260,
+    "LabelLeft": 474,
+    "LabelTop": 103,
+    "LabelWidth": 778,
+    "LastVersionId": 147,
+    "ListTableId": 917,
+    "IsMandatory": false,
     "Type": "Appointment",
-    "Page1LineNo": 758,
-    "ProgId": "esse",
+    "Page1LineNo": 964,
+    "ProgId": "exercitationem",
     "IsReadOnly": true,
-    "ShortLabel": "ut",
-    "TabOrder": 529,
-    "TextLength": 505,
-    "Tooltip": "cum",
-    "UdefIdentity": 54,
-    "UDListDefinitionId": 818,
+    "ShortLabel": "rerum",
+    "TabOrder": 520,
+    "TextLength": 217,
+    "Tooltip": "maiores",
+    "UdefIdentity": 861,
+    "UDListDefinitionId": 174,
     "Justification": "Center",
-    "Version": 76,
-    "TemplateVariableName": "Dibbert-Bailey",
-    "HasBeenPublished": true,
-    "MdoListName": "Luettgen, Buckridge and Parker",
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": "revolutionize seamless e-services"
-    },
+    "Version": 387,
+    "TemplateVariableName": "Green Group",
+    "HasBeenPublished": false,
+    "MdoListName": "Hagenes, Fisher and Koch",
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 303
+        "FieldRight": null,
+        "FieldType": "System.Int32",
+        "FieldLength": 544
       }
     }
   }

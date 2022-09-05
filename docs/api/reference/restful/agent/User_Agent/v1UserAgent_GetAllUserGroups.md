@@ -1,6 +1,6 @@
 ---
 title: POST Agents/User/GetAllUserGroups
-id: v1UserAgent_GetAllUserGroups
+uid: v1UserAgent_GetAllUserGroups
 ---
 
 # POST Agents/User/GetAllUserGroups
@@ -11,7 +11,15 @@ POST /api/v1/Agents/User/GetAllUserGroups
 
 Get all user groups
 
-## Online Restricted: ## The User agent is not available in Online by default. User management is not allowed for partner apps
+
+
+
+## Online Restricted: ## The User agent is not available in Online by default. User management is not allowed for partner apps.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +30,7 @@ Get all user groups
 ```http
 POST /api/v1/Agents/User/GetAllUserGroups?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,15 +46,18 @@ POST /api/v1/Agents/User/GetAllUserGroups?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-IncludeDeleted
+IncludeDeleted 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | IncludeDeleted | bool |  |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -63,19 +75,21 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/User/GetAllUserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "IncludeDeleted": true
+  "IncludeDeleted": false
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -83,23 +97,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Value": "at",
-    "Tooltip": "omnis",
-    "Id": 501,
-    "Rank": 662,
+    "Value": "est",
+    "Tooltip": "possimus",
+    "Id": 580,
+    "Rank": 673,
     "Deleted": false,
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 278
+        "FieldRight": null,
+        "FieldType": "System.Int32",
+        "FieldLength": 224
       }
     }
   }

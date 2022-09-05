@@ -1,6 +1,6 @@
 ---
 title: GET Selection/DuplicateRules
-id: v1SelectionEntity_GetDuplicateRules
+uid: v1SelectionEntity_GetDuplicateRules
 ---
 
 # GET Selection/DuplicateRules
@@ -10,6 +10,13 @@ GET /api/v1/Selection/DuplicateRules
 ```
 
 Retrieve all available duplicate rules for selection
+
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -24,7 +31,10 @@ Retrieve all available duplicate rules for selection
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -41,14 +51,16 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 GET /api/v1/Selection/DuplicateRules
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -56,42 +68,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Cummerata-Metz",
-    "DisplayName": "Leannon LLC",
-    "DisplayTooltip": "quia",
-    "IsActive": false,
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "Name": "Williamson Group",
+    "DisplayName": "Johnson-Wolf",
+    "DisplayTooltip": "facere",
+    "IsActive": true,
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
+        "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 750
+        "FieldLength": 144
       }
     }
   },
   {
-    "Name": "Cummerata-Metz",
-    "DisplayName": "Leannon LLC",
-    "DisplayTooltip": "quia",
-    "IsActive": false,
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "Name": "Williamson Group",
+    "DisplayName": "Johnson-Wolf",
+    "DisplayTooltip": "facere",
+    "IsActive": true,
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
+        "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 750
+        "FieldLength": 144
       }
     }
   }

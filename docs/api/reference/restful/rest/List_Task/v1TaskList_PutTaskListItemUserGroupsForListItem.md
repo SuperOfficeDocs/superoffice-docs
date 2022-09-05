@@ -1,6 +1,6 @@
 ---
 title: PUT List/Task/Items/{id}/UserGroups
-id: v1TaskList_PutTaskListItemUserGroupsForListItem
+uid: v1TaskList_PutTaskListItemUserGroupsForListItem
 ---
 
 # PUT List/Task/Items/{id}/UserGroups
@@ -11,11 +11,18 @@ PUT /api/v1/List/Task/Items/{itemId}/UserGroups
 
 Saves user groups visible for the TaskListItem list's item.
 
+
 Calls the List agent service SaveHeadingsForListItemFromListDefinition.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | itemId | int32 | The ID of the item to save. **Required** |
+
+
 
 ## Request Headers
 
@@ -31,9 +38,9 @@ Calls the List agent service SaveHeadingsForListItemFromListDefinition.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entities
+## Request Body: entities  
 
-The headings to be saved.
+The headings to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -53,7 +60,10 @@ The headings to be saved.
 | Hidden | bool | True if the ListItem is hidden |
 | FullName | string | The name of the ListItem in its context |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -81,7 +91,7 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 PUT /api/v1/List/Task/Items/{itemId}/UserGroups
@@ -92,45 +102,47 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 703,
-    "Name": "Cole, Kerluke and Stokes",
-    "ToolTip": "Repellendus quos ut voluptatem quo placeat.",
+    "Id": 515,
+    "Name": "Durgan-Gleichner",
+    "ToolTip": "Id enim quisquam quibusdam sunt et inventore.",
     "Deleted": false,
-    "Rank": 672,
-    "Type": "rerum",
-    "ColorBlock": 644,
-    "IconHint": "ea",
-    "Selected": false,
-    "LastChanged": "1995-04-20T18:25:52.282637+02:00",
+    "Rank": 387,
+    "Type": "sunt",
+    "ColorBlock": 311,
+    "IconHint": "soluta",
+    "Selected": true,
+    "LastChanged": "2000-11-29T11:10:54.6619306+01:00",
     "ChildItems": [
       {
-        "Id": 214,
-        "Name": "Hilpert-Leannon",
-        "ToolTip": "Temporibus voluptate qui vel.",
+        "Id": 380,
+        "Name": "Brekke-Swift",
+        "ToolTip": "Quaerat omnis mollitia est.",
         "Deleted": false,
-        "Rank": 541,
-        "Type": "natus",
-        "ColorBlock": 802,
-        "IconHint": "accusamus",
+        "Rank": 528,
+        "Type": "corporis",
+        "ColorBlock": 552,
+        "IconHint": "sint",
         "Selected": true,
-        "LastChanged": "2009-05-25T18:25:52.282637+02:00",
+        "LastChanged": "2017-01-05T11:10:54.6619306+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ea",
-        "StyleHint": "animi",
+        "ExtraInfo": "aut",
+        "StyleHint": "velit",
         "Hidden": true,
-        "FullName": "Salvador Rempel"
+        "FullName": "Bernie Medhurst PhD"
       }
     ],
-    "ExtraInfo": "deserunt",
-    "StyleHint": "quibusdam",
-    "Hidden": true,
-    "FullName": "Ms. Talon Kuhic"
+    "ExtraInfo": "et",
+    "StyleHint": "consequuntur",
+    "Hidden": false,
+    "FullName": "Ms. Dessie Jettie Jenkins"
   }
 ]
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -138,65 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 909,
-    "Name": "Kihn-Aufderhar",
-    "ToolTip": "Ipsa eveniet illo voluptatem veritatis.",
-    "Deleted": true,
-    "Rank": 426,
-    "Type": "quis",
-    "ColorBlock": 395,
-    "IconHint": "eligendi",
-    "Selected": false,
-    "LastChanged": "2010-09-01T18:25:52.2836371+02:00",
+    "Id": 722,
+    "Name": "Corkery, Fadel and Wolf",
+    "ToolTip": "Est adipisci consequatur voluptatibus.",
+    "Deleted": false,
+    "Rank": 601,
+    "Type": "non",
+    "ColorBlock": 822,
+    "IconHint": "itaque",
+    "Selected": true,
+    "LastChanged": "2022-01-15T11:10:54.6629323+01:00",
     "ChildItems": [
       {
-        "Id": 435,
-        "Name": "Beahan, Streich and Bartell",
-        "ToolTip": "Quam omnis.",
-        "Deleted": true,
-        "Rank": 724,
-        "Type": "eius",
-        "ColorBlock": 734,
-        "IconHint": "quae",
+        "Id": 873,
+        "Name": "Nolan Group",
+        "ToolTip": "Beatae ipsam atque sit possimus quis a minima.",
+        "Deleted": false,
+        "Rank": 42,
+        "Type": "doloremque",
+        "ColorBlock": 340,
+        "IconHint": "commodi",
         "Selected": true,
-        "LastChanged": "2002-08-27T18:25:52.2836371+02:00",
+        "LastChanged": "2000-04-04T11:10:54.6639295+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "est",
-        "StyleHint": "velit",
+        "ExtraInfo": "explicabo",
+        "StyleHint": "voluptatem",
         "Hidden": false,
-        "FullName": "Nathanael Dicki",
-        "TableRight": {},
+        "FullName": "Mr. America Jacobi DDS",
+        "TableRight": null,
         "FieldProperties": {
           "fieldName": {
-            "FieldRight": {
-              "Mask": "FULL",
-              "Reason": ""
-            },
+            "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 707
+            "FieldLength": 794
           }
         }
       }
     ],
-    "ExtraInfo": "itaque",
-    "StyleHint": "sint",
-    "Hidden": true,
-    "FullName": "Reinhold Stokes V",
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "ExtraInfo": "ut",
+    "StyleHint": "alias",
+    "Hidden": false,
+    "FullName": "Ms. Alexandrea Sauer",
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
+        "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 333
+        "FieldLength": 179
       }
     }
   }

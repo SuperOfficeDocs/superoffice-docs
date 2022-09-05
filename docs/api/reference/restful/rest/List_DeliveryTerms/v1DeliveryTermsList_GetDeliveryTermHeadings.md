@@ -1,6 +1,6 @@
 ---
 title: GET List/DeliveryTerm/Headings
-id: v1DeliveryTermsList_GetDeliveryTermHeadings
+uid: v1DeliveryTermsList_GetDeliveryTermHeadings
 ---
 
 # GET List/DeliveryTerm/Headings
@@ -11,7 +11,14 @@ GET /api/v1/List/DeliveryTerm/Headings
 
 Gets headings for the DeliveryTerm list.
 
+
 Calls the List agent service GetGetHeadingsFromListDefinition.
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -26,7 +33,10 @@ Calls the List agent service GetGetHeadingsFromListDefinition.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -45,14 +55,16 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 GET /api/v1/List/DeliveryTerm/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -60,24 +72,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 940,
-    "Name": "Reinger, Moore and Berge",
-    "Tooltip": "debitis",
-    "Deleted": true,
-    "Rank": 919,
-    "UdListDefinitionId": 710,
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "HeadingId": 250,
+    "Name": "Willms, Bauch and Hudson",
+    "Tooltip": "aperiam",
+    "Deleted": false,
+    "Rank": 519,
+    "UdListDefinitionId": 227,
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 494
+        "FieldRight": null,
+        "FieldType": "System.Int32",
+        "FieldLength": 438
       }
     }
   }

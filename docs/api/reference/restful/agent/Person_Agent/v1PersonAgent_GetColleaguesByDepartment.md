@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Person/GetColleaguesByDepartment
-id: v1PersonAgent_GetColleaguesByDepartment
+uid: v1PersonAgent_GetColleaguesByDepartment
 ---
 
 # POST Agents/Person/GetColleaguesByDepartment
@@ -11,7 +11,13 @@ POST /api/v1/Agents/Person/GetColleaguesByDepartment
 
 Gets the persons working in a specific department in the same company as the logged on user.
 
+
 Departments can be retrieved with the PhoneList.DepartmentList service.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +28,7 @@ Departments can be retrieved with the PhoneList.DepartmentList service.
 ```http
 POST /api/v1/Agents/Person/GetColleaguesByDepartment?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,15 +44,18 @@ POST /api/v1/Agents/Person/GetColleaguesByDepartment?$select=name,department,cat
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-DepartmentId
+DepartmentId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | DepartmentId | int32 |  |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -98,19 +108,21 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Person/GetColleaguesByDepartment
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "DepartmentId": 305
+  "DepartmentId": 523
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -118,58 +130,52 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Position": "molestiae",
-    "PersonId": 143,
-    "Mrmrs": "repellat",
-    "Firstname": "Marshall",
-    "Lastname": "Runolfsdottir",
-    "MiddleName": "Trantow Inc and Sons",
-    "Title": "pariatur",
-    "Description": "Mandatory bandwidth-monitored internet solution",
-    "Email": "adela@muellerokeefe.name",
-    "FullName": "Bethel Bailey MD",
-    "DirectPhone": "318-542-5383",
-    "FormalName": "Kuhlman LLC",
-    "CountryId": 795,
-    "ContactId": 185,
-    "ContactName": "Hudson LLC",
-    "Retired": 457,
-    "Rank": 635,
-    "ActiveInterests": 853,
-    "ContactDepartment": "optimize world-class schemas",
-    "ContactCountryId": 286,
-    "ContactOrgNr": "1305989",
-    "FaxPhone": "021-672-5124 x1101",
-    "MobilePhone": "1-840-745-7650",
-    "ContactPhone": "202.728.5771",
-    "AssociateName": "Rempel Group",
-    "AssociateId": 487,
-    "UsePersonAddress": false,
-    "ContactFax": "sequi",
-    "Kanafname": "magnam",
+    "Position": "repellat",
+    "PersonId": 129,
+    "Mrmrs": "neque",
+    "Firstname": "Izabella",
+    "Lastname": "Windler",
+    "MiddleName": "Russel, DuBuque and Mosciski",
+    "Title": "modi",
+    "Description": "Visionary client-server customer loyalty",
+    "Email": "antonietta@blick.uk",
+    "FullName": "Anderson Lehner",
+    "DirectPhone": "(918)059-5759 x03989",
+    "FormalName": "Hauck Group",
+    "CountryId": 533,
+    "ContactId": 281,
+    "ContactName": "Gaylord-Fadel",
+    "Retired": 556,
+    "Rank": 316,
+    "ActiveInterests": 50,
+    "ContactDepartment": "",
+    "ContactCountryId": 227,
+    "ContactOrgNr": "993679",
+    "FaxPhone": "(852)818-6723",
+    "MobilePhone": "540-232-0985",
+    "ContactPhone": "1-715-707-3423",
+    "AssociateName": "McCullough-McClure",
+    "AssociateId": 990,
+    "UsePersonAddress": true,
+    "ContactFax": "quisquam",
+    "Kanafname": "repudiandae",
     "Kanalname": "qui",
-    "Post1": "aut",
-    "Post2": "minima",
-    "Post3": "quos",
-    "EmailName": "werner.mills@rodriguezkemmer.co.uk",
-    "ContactFullName": "Stanley Hodkiewicz",
-    "ActiveErpLinks": 255,
-    "TicketPriorityId": 230,
-    "SupportLanguageId": 543,
-    "SupportAssociateId": 239,
+    "Post1": "saepe",
+    "Post2": "eum",
+    "Post3": "quia",
+    "EmailName": "jocelyn.grady@swaniawski.info",
+    "ContactFullName": "Kenna Koch",
+    "ActiveErpLinks": 106,
+    "TicketPriorityId": 192,
+    "SupportLanguageId": 216,
+    "SupportAssociateId": 92,
     "CategoryName": "VIP Customer",
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
+        "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 345
+        "FieldLength": 404
       }
     }
   }

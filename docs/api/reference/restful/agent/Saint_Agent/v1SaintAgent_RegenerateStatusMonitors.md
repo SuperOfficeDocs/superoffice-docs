@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Saint/RegenerateStatusMonitors
-id: v1SaintAgent_RegenerateStatusMonitors
+uid: v1SaintAgent_RegenerateStatusMonitors
 ---
 
 # POST Agents/Saint/RegenerateStatusMonitors
@@ -11,6 +11,12 @@ POST /api/v1/Agents/Saint/RegenerateStatusMonitors
 
 Regenerate status monitors
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Regenerate status monitors
 ```http
 POST /api/v1/Agents/Saint/RegenerateStatusMonitors?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,26 +42,24 @@ POST /api/v1/Agents/Saint/RegenerateStatusMonitors?$select=name,department,categ
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-RunAsBatch
+RunAsBatch 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | RunAsBatch | bool |  |
 
-## Response: object
 
-BatchTaskInfo contains information about one batch task.
+## Response: 
 
-Carrier object for BatchTaskInfo.
-Services for the BatchTaskInfo Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IBatchAgent">Batch Agent</see>.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -82,7 +87,7 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Saint/RegenerateStatusMonitors
@@ -96,47 +101,43 @@ Content-Type: application/json; charset=utf-8
 }
 ```
 
+## Sample response
+
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 909,
-  "Name": "McGlynn LLC",
-  "AssociateId": 811,
-  "DetailsTable": 632,
-  "DetailsRecord": 679,
+  "Id": 159,
+  "Name": "Schneider-Ledner",
+  "AssociateId": 41,
+  "DetailsTable": 862,
+  "DetailsRecord": 694,
   "IsSystemTask": false,
-  "IsInternalTask": true,
+  "IsInternalTask": false,
   "ParameterObject": {
-    "ParameterObject1": "delectus",
-    "ParameterObject2": "voluptatum"
+    "ParameterObject1": "aspernatur",
+    "ParameterObject2": "vel"
   },
-  "LastStarted": "2017-02-27T18:28:50.0416989+01:00",
-  "Created": "2009-04-27T18:28:50.0416989+02:00",
-  "StartCount": 339,
-  "DatabaseSerialNumber": "1113351",
-  "Context": "et",
-  "Result": "hic",
+  "LastStarted": "2012-09-18T11:10:27.7744917+02:00",
+  "Created": "2020-10-23T11:10:27.7744917+02:00",
+  "StartCount": 142,
+  "DatabaseSerialNumber": "351659",
+  "Context": "consectetur",
+  "Result": "velit",
   "State": "All",
-  "Description": "User-centric solution-oriented migration",
-  "Response": "id",
-  "Request": "eum",
-  "ProgressDescription": "Seamless transitional firmware",
-  "ProgressPercent": 836,
-  "FileName": "Durgan, Miller and Leffler",
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "Description": "Monitored asynchronous product",
+  "Response": "fugiat",
+  "Request": "quas",
+  "ProgressDescription": "User-friendly human-resource instruction set",
+  "ProgressPercent": 585,
+  "FileName": "Lubowitz LLC",
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
+      "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 51
+      "FieldLength": 533
     }
   }
 }

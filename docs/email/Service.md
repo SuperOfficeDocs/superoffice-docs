@@ -56,9 +56,7 @@ This can be changed either by a SQL statement (requires access to SQL database)
 
 * Onsite customers who use SuperOffice G9 9.2 R10 or newer
 * Unique/separate serial number for each site/DB to use OAuth/AccessGateway
-  * Only the first site that tries to register with a given serial number will register successfully
-  * Alternatively for those who does not use separate serial number:
-    * use app passwords instead of oauth2 in the second (...or third, or all) sites
+  * Only the first site that tries to register with a given serial number will register successfully. Contact support to change site/DB.
 * Microsoft 365 (Microsoft® Exchange Online)
 * MX Record pointing to the Microsoft® Exchange Online server
 
@@ -128,7 +126,7 @@ You do not have to delete and create a new mailbox just to change authentication
 4. Click OK. The mailbox is updated.
 
 > [!NOTE]
-> Up to version 10.1.4, If we dont recognize the UPN, or lost the ID of existing mailbox, it will redirect back to Mailbox properties and does not behave correctly. Make sure your MX Record is pointing to the Microsoft® Exchange Online server.
+> Up to version 10.1.4: If we don't recognize the UPN you will be redirected to mailbox properties. Click Cancel -> redirect back to mailboxes tab. Fix and verify the UPN. Make sure your MX Record is pointing to the Microsoft® Exchange Online server. Try again.
 
 #### What is UPN (User Principal Name)?
 

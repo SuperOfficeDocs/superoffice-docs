@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Sale/GetSaleStakeholderList
-id: v1SaleAgent_GetSaleStakeholderList
+uid: v1SaleAgent_GetSaleStakeholderList
 ---
 
 # POST Agents/Sale/GetSaleStakeholderList
@@ -11,6 +11,12 @@ POST /api/v1/Agents/Sale/GetSaleStakeholderList
 
 Gets an array of SaleStakeholder objects.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Gets an array of SaleStakeholder objects.
 ```http
 POST /api/v1/Agents/Sale/GetSaleStakeholderList?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,11 +42,15 @@ POST /api/v1/Agents/Sale/GetSaleStakeholderList?$select=name,department,category
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: saleStakeholderIds
+## Request Body: saleStakeholderIds  
 
-The primary keys.
+The primary keys. 
+
+
 
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -71,14 +82,16 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Sale/GetSaleStakeholderList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -86,37 +99,31 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "StakeholderRoleName": "Nikolaus LLC",
-    "Comment": "magnam",
-    "StakeholderRoleId": 360,
-    "CountryId": 905,
-    "PersonId": 103,
-    "EmailDescription": "karlee@joneswisoky.name",
-    "EmailId": 732,
-    "EmailAddress": "rodrigo_kunde@sauer.ca",
-    "PhoneId": 624,
-    "ContactName": "Kessler LLC",
-    "ContactId": 512,
-    "SaleId": 699,
-    "Mrmrs": "soluta",
-    "Firstname": "Katrina",
-    "MiddleName": "Kiehn LLC",
-    "Lastname": "Strosin",
-    "SaleStakeholderId": 345,
-    "Rank": 363,
-    "Phone": "368.554.0482 x6542",
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "StakeholderRoleName": "Johns LLC",
+    "Comment": "labore",
+    "StakeholderRoleId": 676,
+    "CountryId": 507,
+    "PersonId": 547,
+    "EmailDescription": "catharine_medhurst@rippin.co.uk",
+    "EmailId": 714,
+    "EmailAddress": "dayana@ledner.name",
+    "PhoneId": 66,
+    "ContactName": "Wuckert Inc and Sons",
+    "ContactId": 325,
+    "SaleId": 255,
+    "Mrmrs": "modi",
+    "Firstname": "Carroll",
+    "MiddleName": "Howe LLC",
+    "Lastname": "McKenzie",
+    "SaleStakeholderId": 543,
+    "Rank": 120,
+    "Phone": "077-619-2557 x78234",
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 952
+        "FieldRight": null,
+        "FieldType": "System.Int32",
+        "FieldLength": 845
       }
     }
   }

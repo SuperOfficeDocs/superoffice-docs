@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Person/GetPhones
-id: v1PersonAgent_GetPhones
+uid: v1PersonAgent_GetPhones
 ---
 
 # POST Agents/Person/GetPhones
@@ -11,6 +11,12 @@ POST /api/v1/Agents/Person/GetPhones
 
 Returning all phones that belong to a person, ordered by the phone type.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Returning all phones that belong to a person, ordered by the phone type.
 ```http
 POST /api/v1/Agents/Person/GetPhones?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,15 +42,18 @@ POST /api/v1/Agents/Person/GetPhones?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-PersonId
+PersonId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | PersonId | int32 |  |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -59,19 +69,21 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Person/GetPhones
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 523
+  "PersonId": 818
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -79,40 +91,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Value": "illum",
-    "StrippedValue": "esse",
-    "Description": "Right-sized 6th generation leverage",
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": "reintermediate granular schemas"
-    },
+    "Value": "explicabo",
+    "StrippedValue": "architecto",
+    "Description": "Multi-channelled 24/7 architecture",
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
+        "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 183
+        "FieldLength": 989
       }
     }
   },
   {
-    "Value": "illum",
-    "StrippedValue": "esse",
-    "Description": "Right-sized 6th generation leverage",
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": "reintermediate granular schemas"
-    },
+    "Value": "explicabo",
+    "StrippedValue": "architecto",
+    "Description": "Multi-channelled 24/7 architecture",
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
+        "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 183
+        "FieldLength": 989
       }
     }
   }

@@ -13,7 +13,9 @@ Implemented by the <see cref="M:SuperOffice.Services85.IViewStateAgent.GetHistor
 
 Returns all history items that belong to the currently logged in user
 
+
 **Returns:** Array of History items
+
 
 [WSDL file for Services85/ViewState](../Services85-ViewState.md)
 
@@ -46,6 +48,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## GetHistories Response
 
 ```xml
@@ -76,3 +79,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

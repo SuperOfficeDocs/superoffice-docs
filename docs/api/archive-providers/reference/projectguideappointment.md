@@ -8,7 +8,7 @@ keywords:
   - "archive provider"
   - "ProjectGuideAppointment"
 so.generated: true
-so.date: 03.23.2021
+so.date: 08.26.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -27,7 +27,7 @@ to drive the sentry calculations, as well as the specialization with the correct
 ## Supported Entities
 
 | Name | Description |
-| ---- | ----- |
+| ---- | ----------- |
 |"suggestedAppointment"|Follow-ups|
 |"onlyInstance"|Created only|
 |"appointment"|Follow-ups|
@@ -35,8 +35,8 @@ to drive the sentry calculations, as well as the specialization with the correct
 
 ## Supported Columns
 
-| Name | Restriction | Description | OrderBy
-| ---- | ----- | ------- | ------ |
+| Name | Restriction | Description | OrderBy |
+| ---- | ----------- | ----------- | ------- |
 |getAllRows|bool|GetAll: Get all rows of archive - use with care, you may be fetching the whole database|  |
 |getNoRows|bool|GetNone: Do not get any rows from the archive|  |
 |projectId|int|Project ID: Database ID of project record| x |
@@ -57,7 +57,7 @@ to drive the sentry calculations, as well as the specialization with the correct
 |deleted|bool|Deleted: Has this suggestion been deleted by the administrator?| x |
 |isMilestone|bool|Milestone: Shows whether or not the follow-ups in this row are milestones| x |
 |appointmentInstance/completed|bool|Completed: Displays a checkbox showing if an appointment is completed| x |
-|appointmentInstance/icon| *None* |Category: Displays the icon for an activity type| x |
+|appointmentInstance/icon|string|Category: Displays the icon for an activity type| x |
 |appointmentInstance/date|date|Date: Displays start date of a follow-up / sale date of a sale| x |
 |appointmentInstance/time| *None* |Time: Time|  |
 |appointmentInstance/type|listAny|Type: Displays the type of an activity| x |
@@ -71,8 +71,10 @@ to drive the sentry calculations, as well as the specialization with the correct
 |appointmentInstance/userGroup|userGroup|User group : The user group that owns the record| x |
 |appointmentInstance/who| *None* |Who: Contact and/or company|  |
 |appointmentInstance/updatedBy|associate|Updated by: The user who last updated the data| x |
+|appointmentInstance/updatedByFullName|associate|Updated by - Full name: The user who last updated the data| x |
 |appointmentInstance/updatedDate|date|Updated: The date/time the data was last updated in UTC.| x |
 |appointmentInstance/registeredBy|associate|Registered by: The user who registered the data| x |
+|appointmentInstance/registeredByFullName|associate|Registered by - Full name: The user who registered the data| x |
 |appointmentInstance/registeredDate|date|Registered date: The date/time the data was registered in UTC.| x |
 |appointmentInstance/appointmentId|int|DB ID: Displays the database ID of a row| x |
 |appointmentInstance/endDate|date|End date: Displays the deadline for a follow-up/sale| x |
@@ -92,7 +94,7 @@ to drive the sentry calculations, as well as the specialization with the correct
 |appointmentInstance/completedDate|date|Completed date: Displays the actual date a follow-up/sale was marked as completed| x |
 |appointmentInstance/isMilestone|bool|Milestone: Shows whether or not the follow-ups in this row are milestones| x |
 |appointmentInstance/invitedPersonId|int|ID of invited person: appointment.invitedpersonid record - utility for rd| x |
-|appointmentInstance/recordTypeText| *None* |Activity type: The type of the activity (appointment, phone call, etc)| x |
+|appointmentInstance/recordTypeText|listAny|Activity type: The type of the activity (appointment, phone call, etc)| x |
 |appointmentInstance/joinVideomeetUrl| *None* |Video meeting URL: URL for joining the video meeting| x |
 |appointmentInstance/visibleFor|listAny|Visible for|  |
 |appointmentInstance/appointmentPublish/isPublished|bool|Published: Displays an icon indicating if the project or sale has been published| x |
@@ -109,14 +111,17 @@ to drive the sentry calculations, as well as the specialization with the correct
 |appointmentInstance/contact/category|listAny|Category| x |
 |appointmentInstance/contact/business|listAny|Business| x |
 |appointmentInstance/contact/country|listAny|Country: This criterion corresponds to the Country field on the Company card.| x |
+|appointmentInstance/contact/countryId|int|Country ID: Country ID| x |
 |appointmentInstance/contact/number|string|Number| x |
 |appointmentInstance/contact/code|string|Code| x |
 |appointmentInstance/contact/orgnr|string|VAT No.| x |
 |appointmentInstance/contact/stop|bool|Stop| x |
 |appointmentInstance/contact/contactNoMail|bool|No mailings (company| x |
 |appointmentInstance/contact/updatedBy|associate|Updated by: The user who last updated the data| x |
+|appointmentInstance/contact/updatedByFullName|associate|Updated by - Full name: The user who last updated the data| x |
 |appointmentInstance/contact/updatedDate|date|Updated: The date/time the data was last updated in UTC.| x |
 |appointmentInstance/contact/registeredBy|associate|Registered by: The user who registered the data| x |
+|appointmentInstance/contact/registeredByFullName|associate|Registered by - Full name: The user who registered the data| x |
 |appointmentInstance/contact/registeredDate|date|Registered date: The date/time the data was registered in UTC.| x |
 |appointmentInstance/contact/contactSource|listAny|Source: Source (Company)| x |
 |appointmentInstance/contact/contactDeleted|bool|Deleted: Deleted| x |
@@ -220,6 +225,22 @@ to drive the sentry calculations, as well as the specialization with the correct
 |appointmentInstance/contact/contactUdef/SuperOffice:11|string|page1adminonly| x |
 |appointmentInstance/contact/contactUdef/SuperOffice:12|listAny|Udlist one: Static tooltip for udlist one| x |
 |appointmentInstance/contact/contactUdef/SuperOffice:13|listAny|Udlist two: Static tooltip for udlist two| x |
+|appointmentInstance/contact/contactExtra/x\_contact\_integer|int|Extra Integer: Custom integer field| x |
+|appointmentInstance/contact/contactExtra/x\_contact\_hidden\_integer|int|Extra hidden integer: Custom integer field - hidden| x |
+|appointmentInstance/contact/contactExtra/x\_contact\_default\_integer|int|Extra Default Integer: Custom integer field with default value 123.| x |
+|appointmentInstance/contact/contactExtra/x\_contact\_float|decimal|Extra Float: Custom float field with 3 decimals| x |
+|appointmentInstance/contact/contactExtra/x\_contact\_longtext|string|Extra LongText: Custom long text field. DO not keep HTML. 3 Line text area editor| x |
+|appointmentInstance/contact/contactExtra/x\_contact\_dropdown|listAny|Extra Long Dropdown: Custom long text field with dropdown: Volvo, Saab, etc.| x |
+|appointmentInstance/contact/contactExtra/x\_contact\_date|date|Extra date: Custom date field. User current as default.| x |
+|appointmentInstance/contact/contactExtra/x\_contact\_datetime|datetime|Extra DateTime: Custom Date Time field. No default value. External| x |
+|appointmentInstance/contact/contactExtra/x\_contact\_time| *None* |Extra time: Custom time field.| x |
+|appointmentInstance/contact/contactExtra/x\_contact\_boolean|bool|Extra boolean: Custom boolean field.| x |
+|appointmentInstance/contact/contactExtra/x\_contact\_timespan|timeSpan|Extra timespan: Custom timespan field. Hours and minutes in 10 units| x |
+|appointmentInstance/contact/contactExtra/x\_contact\_shorttext|string|Extra short text: Custom short text field. Keep HTML tags.| x |
+|appointmentInstance/contact/contactExtra/x\_contact\_short\_dropdown|listAny|Extra short dropdown: Custom short text with dropdown list. Red, Green or Blue or Purple. External.| x |
+|appointmentInstance/contact/contactExtra/x\_contact\_contact\_relation|stringorPK|Extra Company: Custom company relation. Do not show one-to-many relations. Show function buttons| x |
+|appointmentInstance/contact/contactExtra/x\_contact\_request\_relation|stringorPK|Extra Request relation: Request relation on company| x |
+|appointmentInstance/contact/contactExtra/x\_contact\_contact|stringorPK|Extra contact relation: Contact relation on company| x |
 |appointmentInstance/contact/NumberOfActivities|int|Number of activities|  |
 |appointmentInstance/contact/NumberOfActivitiesInPeriod|int|Number of activities in last 90 days|  |
 |appointmentInstance/contact/NumberOfNotCompletedActivities|int|Number of non-completed activities|  |
@@ -241,8 +262,8 @@ to drive the sentry calculations, as well as the specialization with the correct
 |appointmentInstance/contact/LastTicket|date|Date of last request|  |
 |appointmentInstance/contact/LastCompletedTicket|date|Date of last completed request|  |
 |appointmentInstance/contact/LastDoByTicket|date|Date of last non-completed request|  |
-|appointmentInstance/contact/SaintStatus1|saintStatus|Neglected customer|  |
-|appointmentInstance/contact/SaintStatus2|saintStatus|C-company|  |
+|appointmentInstance/contact/SaintStatus1|saintStatus|Neglected customer: Denne kunden har det vært 0 salgsaktiviteter på i perioden.|  |
+|appointmentInstance/contact/SaintStatus2|saintStatus|C-company: Kundens navn starter med bokstaven C|  |
 |appointmentInstance/contact/saintSaleStatus|listAny|With status|  |
 |appointmentInstance/contact/saintAmountClass|listAny|Amount class|  |
 |appointmentInstance/contact/saintActivityType|listAny|SAINT type|  |
@@ -264,6 +285,7 @@ to drive the sentry calculations, as well as the specialization with the correct
 |appointmentInstance/person/personNumber|string|Number: Displays the contact's number| x |
 |appointmentInstance/person/title|string|Title: Displays the contact's job title| x |
 |appointmentInstance/person/personCountry|listAny|Country: Country| x |
+|appointmentInstance/person/personCountryId|int|Country ID: Country ID| x |
 |appointmentInstance/person/personNoMail|bool|No Mailings: Displays the contact's No Mailings checkbox| x |
 |appointmentInstance/person/rank|int|Rank: Displays a contact's current rank| x |
 |appointmentInstance/person/birthdate| *None* |Birthdate: Displays the contact's date of birth|  |
@@ -277,15 +299,19 @@ to drive the sentry calculations, as well as the specialization with the correct
 |appointmentInstance/person/kanaFirstName|string|First name, kana: Contact's first name, in kana alphabet| x |
 |appointmentInstance/person/kanaLastName|string|Last name, kana: Contact's last name, in kana alphabet| x |
 |appointmentInstance/person/personUpdatedBy|associate|Updated by: The user who last updated the data| x |
+|appointmentInstance/person/personUpdatedByFullName|associate|Updated by - Full name: The user who last updated the data| x |
 |appointmentInstance/person/personUpdatedDate|date|Updated: The date/time the data was last updated in UTC.| x |
 |appointmentInstance/person/personRegisteredBy|associate|Registered by: The user who registered the data| x |
+|appointmentInstance/person/personRegisteredByFullName|associate|Registered by - Full name: The user who registered the data| x |
 |appointmentInstance/person/personRegisteredDate|date|Registered date: The date/time the data was registered in UTC.| x |
 |appointmentInstance/person/portraitThumbnail| *None* |Person image: Person image|  |
 |appointmentInstance/person/personActiveErpLinks|bool|ERP connected: Is there an active ERP Sync?| x |
 |appointmentInstance/person/ticketPriority|listAny|Service priority: Default service priority for this contact| x |
 |appointmentInstance/person/supportLanguage|listAny|Preferred language: Preferred language used for reply templates and more| x |
 |appointmentInstance/person/supportAssociate|associate|Our service contact: Default service contact for this contact| x |
+|appointmentInstance/person/supportAssociateFullName|associate|Our service contact - Full name: Default service contact for this contact| x |
 |appointmentInstance/person/personAssociateId|associate|Our contact: Displays our contact| x |
+|appointmentInstance/person/personAssociateFullName|associate|Our contact - Full name: Displays our contact| x |
 |appointmentInstance/person/personCategory|listAny|Category| x |
 |appointmentInstance/person/personBusiness|listAny|Business| x |
 |appointmentInstance/person/personDeletedDate|datetime|Deleted date: Deleted date|  |
@@ -353,7 +379,90 @@ to drive the sentry calculations, as well as the specialization with the correct
 |appointmentInstance/person/personUdef/SuperOffice:9|string|page1saleonly| x |
 |appointmentInstance/person/personUdef/SuperOffice:10|string|page1marketingonly| x |
 |appointmentInstance/person/personUdef/SuperOffice:11|string|page1adminonly| x |
-|appointmentInstance/person/isMailingRecipient|bool|isMailingRecipient: isMailingRecipient| x |
+|appointmentInstance/person/personExtra/x\_person\_integer|int|Extra Integer: Custom person integer| x |
+|appointmentInstance/person/personExtra/x\_person\_hidden\_integer|int|Extra hidden integer: Custom integer field that is hidden| x |
+|appointmentInstance/person/personExtra/x\_person\_float|decimal|Extra float: Custom float field| x |
+|appointmentInstance/person/personExtra/x\_person\_longtext|string|Extra Long Text: Custom long text field on person, keep HTML tags. Simple input, not text area. Default value = 'Hello there'| x |
+|appointmentInstance/person/personExtra/x\_person\_date|date|Extra date: Custom date field on person. Default value = 28.03.2019| x |
+|appointmentInstance/person/personExtra/x\_person\_datetime|datetime|Extra DateTime: Custom person date and time field. No default| x |
+|appointmentInstance/person/personExtra/x\_person\_time| *None* |Extra time: Custom time field on person. Current time as default| x |
+|appointmentInstance/person/personExtra/x\_person\_boolean|bool|Extra Boolean: Custom boolean field on person. Default checked| x |
+|appointmentInstance/person/personExtra/x\_person\_timespan|timeSpan|Extra timespan: Custom timespan on person. Minutes only in 15 units| x |
+|appointmentInstance/person/personExtra/x\_person\_shorttext|string|Extra short text: Custom short text on person. With index. Do not keep HTML tags| x |
+|appointmentInstance/person/personExtra/x\_person\_shorttext\_list|listAny|Extra short dropdown: Custom Short text dropdown field on person: black, white, transparent| x |
+|appointmentInstance/person/personExtra/x\_person\_user\_relation|associate|Extra user relation: Custom person-user relation field| x |
+|appointmentInstance/person/personExtra/x\_person\_category\_relation|listAny|Extra category relation: Custom person-category relation| x |
+|appointmentInstance/person/personExtra/x\_person\_priority\_relation|listAny|Extra priority relation: Custom person-priority relation| x |
+|appointmentInstance/person/personExtra/x\_person\_request\_relation|stringorPK|Extra request relation: Request relation on contact| x |
+|appointmentInstance/person/personExtra/x\_person\_appointment\_relation|stringorPK|Extra appointment relation: Appointment relation on person| x |
+|appointmentInstance/person/personExtra/x\_person\_contact\_relation|stringorPK|Extra company relation: Company relation on contact| x |
+|appointmentInstance/person/personExtra/y\_rental/id|int|Rental - id: Displays the row's primary key (y\_rental)| x |
+|appointmentInstance/person/personExtra/y\_rental/x\_start|date|Rental - Start rental| x |
+|appointmentInstance/person/personExtra/y\_rental/x\_end|date|Rental - End| x |
+|appointmentInstance/person/personExtra/y\_rental/x\_amount|int|Rental - Amount: Number to rent. Default = 1| x |
+|appointmentInstance/person/personExtra/y\_rental/x\_contact|stringorPK|Rental - Renter: Company that rents equipment| x |
+|appointmentInstance/person/personExtra/y\_rental/y\_equipment/x\_name|string|Rental - Equipment - Name: Equpment name custom field. Cannot be null., show in table| x |
+|appointmentInstance/person/personAssociate/firstName|string|First name: Displays the contact's first name| x |
+|appointmentInstance/person/personAssociate/lastName|string|Last name: Displays the contact's last name| x |
+|appointmentInstance/person/personAssociate/middleName|string|Middle Name : Displays the contact's middle name.| x |
+|appointmentInstance/person/personAssociate/fullName|string|Full name: Displays full name of user (first, middle, last - according to settings)| x |
+|appointmentInstance/person/personAssociate/contactId|int|Company ID: Database ID of the company the user belongs to|  |
+|appointmentInstance/person/personAssociate/personId|int|Contact ID: Database ID of the contact row|  |
+|appointmentInstance/person/personAssociate/mrMrs|string|Mr/Ms: Displays whether the contact is addressed as Mr or Ms| x |
+|appointmentInstance/person/personAssociate/title|string|Title: Displays whether the contact is addressed as Mr or Ms| x |
+|appointmentInstance/person/personAssociate/associateDbId|associate|ID| x |
+|appointmentInstance/person/personAssociate/contactName|string|Owning company: Name of the company the user belongs to| x |
+|appointmentInstance/person/personAssociate/contactDepartment|string|Owning department: Name of the department at the company the user belongs to| x |
+|appointmentInstance/person/personAssociate/usergroup|userGroup|Primary group: The user's primary user group| x |
+|appointmentInstance/person/personAssociate/contactFullName|string|Owner: Name and department of the company the user belongs to| x |
+|appointmentInstance/person/personAssociate/contactCategory|listAny|Category: Category| x |
+|appointmentInstance/person/personAssociate/role|listAny|Role : Role| x |
+|appointmentInstance/person/personAssociate/assocName|associate|User ID : User ID| x |
+|appointmentInstance/person/personAssociate/assocTooltip|string|Description : Description|  |
+|appointmentInstance/person/personAssociate/assocType|listAny|Type: Type of user: associate, external user, system user, anonymous account| x |
+|appointmentInstance/person/personAssociate/ejUserId|int|Service user ID: The database ID of a Service user|  |
+|appointmentInstance/person/personAssociate/simultaneousEjUser|bool|Simultaneous Service user: If this flag is set, then the user will only have access if the maximum number of simultaneous users is not exceeded|  |
+|appointmentInstance/person/personAssociate/ejDisplayName|string|Nick name: User's nick name in Service| x |
+|appointmentInstance/person/personAssociate/ejStatus|int|Service status: Status for Service user: Normal; Unavailable / holiday; Deleted; Read-only|  |
+|appointmentInstance/person/personAssociate/credentialType| *None* |Auth. type: What type of credentials to use when this user logs in| x |
+|appointmentInstance/person/personAssociate/credentialDisplayValue| *None* |Auth. value: Credential value (public, visible part) to be used when this user logs in| x |
+|appointmentInstance/person/personAssociate/isActive|bool|Active: Is this user active, and should be able to log in?| x |
+|appointmentInstance/person/personAssociate/isActiveText|bool|Active status: Is this user active, and should be able to log in?| x |
+|appointmentInstance/person/personAssociate/portraitThumbnail| *None* |Person image: Person image|  |
+|appointmentInstance/person/personAssociate/otherGroups|userGroup|Other groups: Other groups|  |
+|appointmentInstance/person/personAssociate/userName|string|User name: User name| x |
+|appointmentInstance/person/personAssociate/personEmail|string|E-mail| x |
+|appointmentInstance/person/correspondingAssociate/firstName|string|First name: Displays the contact's first name| x |
+|appointmentInstance/person/correspondingAssociate/lastName|string|Last name: Displays the contact's last name| x |
+|appointmentInstance/person/correspondingAssociate/middleName|string|Middle Name : Displays the contact's middle name.| x |
+|appointmentInstance/person/correspondingAssociate/fullName|string|Full name: Displays full name of user (first, middle, last - according to settings)| x |
+|appointmentInstance/person/correspondingAssociate/contactId|int|Company ID: Database ID of the company the user belongs to|  |
+|appointmentInstance/person/correspondingAssociate/personId|int|Contact ID: Database ID of the contact row|  |
+|appointmentInstance/person/correspondingAssociate/mrMrs|string|Mr/Ms: Displays whether the contact is addressed as Mr or Ms| x |
+|appointmentInstance/person/correspondingAssociate/title|string|Title: Displays whether the contact is addressed as Mr or Ms| x |
+|appointmentInstance/person/correspondingAssociate/associateDbId|associate|ID| x |
+|appointmentInstance/person/correspondingAssociate/contactName|string|Owning company: Name of the company the user belongs to| x |
+|appointmentInstance/person/correspondingAssociate/contactDepartment|string|Owning department: Name of the department at the company the user belongs to| x |
+|appointmentInstance/person/correspondingAssociate/usergroup|userGroup|Primary group: The user's primary user group| x |
+|appointmentInstance/person/correspondingAssociate/contactFullName|string|Owner: Name and department of the company the user belongs to| x |
+|appointmentInstance/person/correspondingAssociate/contactCategory|listAny|Category: Category| x |
+|appointmentInstance/person/correspondingAssociate/role|listAny|Role : Role| x |
+|appointmentInstance/person/correspondingAssociate/assocName|associate|User ID : User ID| x |
+|appointmentInstance/person/correspondingAssociate/assocTooltip|string|Description : Description|  |
+|appointmentInstance/person/correspondingAssociate/assocType|listAny|Type: Type of user: associate, external user, system user, anonymous account| x |
+|appointmentInstance/person/correspondingAssociate/ejUserId|int|Service user ID: The database ID of a Service user|  |
+|appointmentInstance/person/correspondingAssociate/simultaneousEjUser|bool|Simultaneous Service user: If this flag is set, then the user will only have access if the maximum number of simultaneous users is not exceeded|  |
+|appointmentInstance/person/correspondingAssociate/ejDisplayName|string|Nick name: User's nick name in Service| x |
+|appointmentInstance/person/correspondingAssociate/ejStatus|int|Service status: Status for Service user: Normal; Unavailable / holiday; Deleted; Read-only|  |
+|appointmentInstance/person/correspondingAssociate/credentialType| *None* |Auth. type: What type of credentials to use when this user logs in| x |
+|appointmentInstance/person/correspondingAssociate/credentialDisplayValue| *None* |Auth. value: Credential value (public, visible part) to be used when this user logs in| x |
+|appointmentInstance/person/correspondingAssociate/isActive|bool|Active: Is this user active, and should be able to log in?| x |
+|appointmentInstance/person/correspondingAssociate/isActiveText|bool|Active status: Is this user active, and should be able to log in?| x |
+|appointmentInstance/person/correspondingAssociate/portraitThumbnail| *None* |Person image: Person image|  |
+|appointmentInstance/person/correspondingAssociate/otherGroups|userGroup|Other groups: Other groups|  |
+|appointmentInstance/person/correspondingAssociate/userName|string|User name: User name| x |
+|appointmentInstance/person/correspondingAssociate/personEmail|string|E-mail| x |
+|appointmentInstance/person/isMailingRecipient|bool|Is mailing recipient: isMailingRecipient| x |
 |appointmentInstance/person/hasStoreConsent|bool|Consent - Sales and service: The purpose to store data about this contact is to sell to and/or provide services to this contact. This purpose is usually used when storing contacts who are defined as potential or existing customers.|  |
 |appointmentInstance/person/withdrawnStoreConsent|bool|Consent is withdrawn - Sales and service: The purpose to store data about this contact is to sell to and/or provide services to this contact. This purpose is usually used when storing contacts who are defined as potential or existing customers.|  |
 |appointmentInstance/person/hasEmarketingConsent|bool|Consent - E-marketing: The purpose is to gain the explicit consent to communicate electronically (bulk e-mail) on topics related to our products and services. This might include newsletters, invitations and product-related content. The subscription system is used to refine the individual marketing choices this contact makes.|  |
@@ -377,14 +486,17 @@ to drive the sentry calculations, as well as the specialization with the correct
 |appointmentInstance/project/number|string|Number: Displays the project's number| x |
 |appointmentInstance/project/type|listAny|Project type: Displays the project's type| x |
 |appointmentInstance/project/status|listAny|Status: Displays the project's status| x |
+|appointmentInstance/project/statusRank| *None* |Status rank: Rank of the project status in the status list| x |
 |appointmentInstance/project/associateId|associate|ID: Displays login ID of the associate who owns the project| x |
 |appointmentInstance/project/hasInfoText|bool|Info: Displays an icon indicating if the project has a description text. The text itself will be displayed in a tooltip.| x |
 |appointmentInstance/project/icon| *None* |Category: Displays the icon for an activity type| x |
 |appointmentInstance/project/text|string|Text: Displays a descriptive text for the item| x |
 |appointmentInstance/project/description|string|Description : Description| x |
 |appointmentInstance/project/updatedBy|associate|Updated by: The user who last updated the data| x |
+|appointmentInstance/project/updatedByFullName|associate|Updated by - Full name: The user who last updated the data| x |
 |appointmentInstance/project/updatedDate|date|Updated: The date/time the data was last updated in UTC.| x |
 |appointmentInstance/project/registeredBy|associate|Registered by: The user who registered the data| x |
+|appointmentInstance/project/registeredByFullName|associate|Registered by - Full name: The user who registered the data| x |
 |appointmentInstance/project/registeredDate|date|Registered date: The date/time the data was registered in UTC.| x |
 |appointmentInstance/project/hasGuide|bool|Guided: Does this sale have a Sales Guide| x |
 |appointmentInstance/project/nextMilestone|date|Next milestone: Date of next non-completed activity that is marked as a milestone| x |
@@ -455,7 +567,7 @@ to drive the sentry calculations, as well as the specialization with the correct
 |appointmentInstance/project/LastSale|date|Date of last sale|  |
 |appointmentInstance/project/LastCompletedSale|date|Date of last completed sale|  |
 |appointmentInstance/project/LastDoBySale|date|Date of last non-completed sale|  |
-|appointmentInstance/project/SaintStatus3|saintStatus|Not completed activites with intention sale|  |
+|appointmentInstance/project/SaintStatus3|saintStatus|Not completed activites with intention sale: Number of not completed activities for intention sale > 0.|  |
 |appointmentInstance/project/saintSaleStatus|listAny|With status|  |
 |appointmentInstance/project/saintAmountClass|listAny|Amount class|  |
 |appointmentInstance/project/saintActivityType|listAny|SAINT type|  |
@@ -466,7 +578,7 @@ to drive the sentry calculations, as well as the specialization with the correct
 |appointmentInstance/project/project/textId|int|Text ID| x |
 |appointmentInstance/project/project/infoText|positiveString|Information: Displays the text entered in the description field| x |
 |appointmentInstance/sale/completed|bool|Completed: Displays a checkbox showing if an appointment is completed| x |
-|appointmentInstance/sale/icon| *None* |Category: Displays the icon for an activity type| x |
+|appointmentInstance/sale/icon|string|Category: Displays the icon for an activity type| x |
 |appointmentInstance/sale/date|date|Date: Displays start date of a follow-up / sale date of a sale| x |
 |appointmentInstance/sale/time| *None* |Time: Time|  |
 |appointmentInstance/sale/type|listAny|Type: Displays the type of an activity| x |
@@ -480,8 +592,10 @@ to drive the sentry calculations, as well as the specialization with the correct
 |appointmentInstance/sale/userGroup|userGroup|User group : The user group that owns the record| x |
 |appointmentInstance/sale/who| *None* |Who: Contact and/or company|  |
 |appointmentInstance/sale/updatedBy|associate|Updated by: The user who last updated the data| x |
+|appointmentInstance/sale/updatedByFullName|associate|Updated by - Full name: The user who last updated the data| x |
 |appointmentInstance/sale/updatedDate|date|Updated: The date/time the data was last updated in UTC.| x |
 |appointmentInstance/sale/registeredBy|associate|Registered by: The user who registered the data| x |
+|appointmentInstance/sale/registeredByFullName|associate|Registered by - Full name: The user who registered the data| x |
 |appointmentInstance/sale/registeredDate|date|Registered date: The date/time the data was registered in UTC.| x |
 |appointmentInstance/sale/currencyId|int|Currency ID: The currency list item ID| x |
 |appointmentInstance/sale/currency|listAny|Currency: The currency of the sale| x |
@@ -489,7 +603,7 @@ to drive the sentry calculations, as well as the specialization with the correct
 |appointmentInstance/sale/lossReason|listAny|Reason (lost: The reason for losing the sale| x |
 |appointmentInstance/sale/source|listAny|Source: The source (lead) of the sale| x |
 |appointmentInstance/sale/competitor|listAny|Competitor: The competitor who won the sale| x |
-|appointmentInstance/sale/heading|stringorPK|Sale: Displays a descriptive text for the item| x |
+|appointmentInstance/sale/heading|stringorPK|Sale: The name of the sale| x |
 |appointmentInstance/sale/amount|decimal|Amount: The gross sales total| x |
 |appointmentInstance/sale/amountWeighted|decimal|Weighted amount: Virtual field calculated from amount * probability percent.| x |
 |appointmentInstance/sale/earning|decimal|Profit: Gross profit (gross sales total - cost) for the sale| x |
@@ -498,10 +612,12 @@ to drive the sentry calculations, as well as the specialization with the correct
 |appointmentInstance/sale/originalStage|listAny|Stage: Displays the stage of the sale| x |
 |appointmentInstance/sale/stage|listAny|Stage: Displays the stage of the sale| x |
 |appointmentInstance/sale/saleStatus|listAny|Status: The status of the sale - open, lost or sold| x |
+|appointmentInstance/sale/stageRank| *None* |Stage rank: Rank of the sale stage in the stage list| x |
 |appointmentInstance/sale/saleType|listAny|Sale type: Sale type, from list| x |
 |appointmentInstance/sale/nextDueDate|date|Next activity: Date for next activity for a sale, updated live from the sale's activities| x |
 |appointmentInstance/sale/reopenDate|date|Reopen date: Displays the reopen date for the sale| x |
 |appointmentInstance/sale/stalledComment|listAny|Reason (stalled: The reason the sale has been stalled| x |
+|appointmentInstance/sale/saleTypeCategory|listAny|Sale type category: Sale type category| x |
 |appointmentInstance/sale/soldReason|listAny|Reason (sold: Reason (sold)| x |
 |appointmentInstance/sale/saleNumber|string|Number: Number| x |
 |appointmentInstance/sale/hasStakeholders|bool|Has stakeholders: Does this sale have stakeholders enabled| x |
@@ -590,11 +706,14 @@ to drive the sentry calculations, as well as the specialization with the correct
 ## Sample
 
 ```http!
-GET /api/v1/archive/ProjectGuideAppointment?$select=appointmentInstance/icon,appointmentInstance/contact/NumberOfTickets,appointmentInstance/person/personPrivate/description
+GET /api/v1/archive/ProjectGuideAppointment?$select=milestone,appointmentInstance/contact/contactExtra/x_contact_default_integer,appointmentInstance/person/personExtra/y_rental/y_equipment/x_name,appointmentInstance/project/projectAssociate/fullName,appointmentInstance/project/projectAssociate/contactFullName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv
 
 ```
 
-See also: <see cref="T:SuperOffice.CRM.Services.IArchiveAgent">IArchiveAgent</see>.
+
+
+See also: <see cref="T:SuperOffice.CRM.Services.IArchiveAgent">IArchiveAgent</see>.</p>
+

@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Person/CheckTemporaryKey
-id: v1PersonAgent_CheckTemporaryKey
+uid: v1PersonAgent_CheckTemporaryKey
 ---
 
 # POST Agents/Person/CheckTemporaryKey
@@ -11,6 +11,12 @@ POST /api/v1/Agents/Person/CheckTemporaryKey
 
 Check a temporary key for validity, and in case it is valid, return its domain, targetId and personId
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Check a temporary key for validity, and in case it is valid, return its domain, 
 ```http
 POST /api/v1/Agents/Person/CheckTemporaryKey?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,26 +42,24 @@ POST /api/v1/Agents/Person/CheckTemporaryKey?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-TemporaryKey
+TemporaryKey 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | TemporaryKey | string |  |
 
-## Response: object
 
-The fields returned when checking a temporary key
+## Response: 
 
-Carrier object for TemporaryKeyInfo.
-Services for the TemporaryKeyInfo Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IPersonAgent">Person Agent</see>.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -65,7 +70,7 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Person/CheckTemporaryKey
@@ -75,9 +80,11 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TemporaryKey": "enim"
+  "TemporaryKey": "adipisci"
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -85,21 +92,15 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Domain": "ChangePasswordCustomerCenter",
-  "TargetId": 743,
-  "PersonId": 896,
+  "TargetId": 885,
+  "PersonId": 391,
   "IsExpired": true,
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
-      "FieldType": "System.String",
-      "FieldLength": 759
+      "FieldRight": null,
+      "FieldType": "System.Int32",
+      "FieldLength": 869
     }
   }
 }

@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Appointment/GetContactAppointmentsByType
-id: v1AppointmentAgent_GetContactAppointmentsByType
+uid: v1AppointmentAgent_GetContactAppointmentsByType
 ---
 
 # POST Agents/Appointment/GetContactAppointmentsByType
@@ -11,7 +11,13 @@ POST /api/v1/Agents/Appointment/GetContactAppointmentsByType
 
 Method that returns a specified number of appointments of a specific appointment type within a time range.
 
+
 The appointments belong to the contact specified. If the logged on user is not allowed to view this contacts appointments an exception is thrown.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +28,7 @@ The appointments belong to the contact specified. If the logged on user is not a
 ```http
 POST /api/v1/Agents/Appointment/GetContactAppointmentsByType?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,9 +44,9 @@ POST /api/v1/Agents/Appointment/GetContactAppointmentsByType?$select=name,depart
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-ContactId, StartTime, EndTime, Count, AppointmentType
+ContactId, StartTime, EndTime, Count, AppointmentType 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -49,7 +56,10 @@ ContactId, StartTime, EndTime, Count, AppointmentType
 | Count | int32 |  |
 | AppointmentType | string |  |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -111,7 +121,7 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Appointment/GetContactAppointmentsByType
@@ -121,13 +131,15 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 44,
-  "StartTime": "2014-07-08T18:28:47.9048442+02:00",
-  "EndTime": "2009-01-24T18:28:47.9048442+01:00",
-  "Count": 374,
+  "ContactId": 97,
+  "StartTime": "2018-07-31T11:10:25.9535222+02:00",
+  "EndTime": "1999-04-22T11:10:25.9535222+02:00",
+  "Count": 590,
   "AppointmentType": "BookingForChecklist"
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -135,67 +147,61 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 958,
-    "StartDate": "2005-04-24T18:28:47.9068605+02:00",
-    "EndDate": "2019-04-02T18:28:47.9068605+02:00",
+    "AppointmentId": 383,
+    "StartDate": "2002-12-04T11:10:25.9555223+01:00",
+    "EndDate": "2009-04-28T11:10:25.9555223+02:00",
     "Type": "BookingForChecklist",
-    "Task": "dolorem",
-    "AssociateFullName": "Selena Becker",
-    "ContactName": "Kutch-Bruen",
-    "Description": "Horizontal heuristic utilisation",
-    "PersonFullName": "Blaze Rogahn",
-    "PersonId": 193,
-    "ContactId": 477,
-    "ProjectId": 3,
-    "ProjectName": "Thompson-Steuber",
+    "Task": "delectus",
+    "AssociateFullName": "Miss Anastacio Johnston",
+    "ContactName": "Murphy, Kub and Kertzmann",
+    "Description": "Universal stable capability",
+    "PersonFullName": "Kaleigh Boyer",
+    "PersonId": 175,
+    "ContactId": 823,
+    "ProjectId": 490,
+    "ProjectName": "O'Connell LLC",
     "IsPublished": false,
-    "AssociateId": 430,
-    "ColorIndex": 984,
+    "AssociateId": 728,
+    "ColorIndex": 254,
     "IsFree": false,
-    "HasAlarm": true,
+    "HasAlarm": false,
     "IsAlldayEvent": false,
     "Private": "PrivateGroup",
-    "PriorityId": 880,
-    "PriorityName": "Smith, McClure and Monahan",
+    "PriorityId": 58,
+    "PriorityName": "Schultz-McClure",
     "TaskType": "Appointment",
     "IsBookingMain": true,
     "IsRecurrence": false,
     "IsBooking": false,
-    "ActiveDate": "2009-07-12T18:28:47.9068605+02:00",
+    "ActiveDate": "2000-09-28T11:10:25.9555223+02:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "1994-10-23T18:28:47.9068605+02:00",
-    "RecurringEndDate": "2016-04-21T18:28:47.9068605+02:00",
-    "MotherId": 913,
-    "AssignedBy": 683,
-    "AssignedByFullName": "Rickie Orn",
+    "RecurringStartDate": "2001-08-19T11:10:25.9555223+02:00",
+    "RecurringEndDate": "2021-05-13T11:10:25.9555223+02:00",
+    "MotherId": 898,
+    "AssignedBy": 22,
+    "AssignedByFullName": "Ms. Trystan Wiza Sr.",
     "RejectReason": "",
-    "Location": "dolores",
-    "AlarmLeadTime": "labore",
-    "SaleId": 778,
-    "SaleName": "Spinka, Rosenbaum and Smith",
-    "AssociateName": "Hirthe-Mueller",
-    "CreatedDate": "2013-11-07T18:28:47.9068605+01:00",
-    "CreatedBy": "et",
-    "CreatedByFullName": "Maye Sporer",
-    "CreatedByAssociateId": 777,
+    "Location": "recusandae",
+    "AlarmLeadTime": "iusto",
+    "SaleId": 370,
+    "SaleName": "Barton Inc and Sons",
+    "AssociateName": "Johnson Inc and Sons",
+    "CreatedDate": "2021-10-16T11:10:25.9555223+02:00",
+    "CreatedBy": "quisquam",
+    "CreatedByFullName": "Mrs. Yasmin Ernser IV",
+    "CreatedByAssociateId": 745,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
+        "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 332
+        "FieldLength": 148
       }
     }
   }

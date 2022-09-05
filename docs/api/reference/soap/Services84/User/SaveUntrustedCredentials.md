@@ -16,6 +16,8 @@ Save credentials for authenticated user.
 * **type:** Type of credential(Ex: "imap", "smtp")
 * **credentials:** Credentials to save.
 
+
+
 [WSDL file for Services84/User](../Services84-User.md)
 
 Obtain a ticket from the [Services84/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -42,8 +44,8 @@ Application tokens must be specified if calling an Online installation. Applicat
    <User:SaveUntrustedCredentials>
     <User:Type xsi:type="xsd:string"></User:Type>
     <User:Credentials xsi:type="User:UntrustedCredentials">
-     <User:ValidFrom xsi:type="xsd:dateTime">2021-11-30T13:22:23Z</User:ValidFrom>
-     <User:ValidTo xsi:type="xsd:dateTime">2021-11-30T13:22:23Z</User:ValidTo>
+     <User:ValidFrom xsi:type="xsd:dateTime">2022-08-26T08:51:57Z</User:ValidFrom>
+     <User:ValidTo xsi:type="xsd:dateTime">2022-08-26T08:51:57Z</User:ValidTo>
      <User:Comment xsi:type="xsd:string"></User:Comment>
      <User:SecretValue xsi:type="xsd:string"></User:SecretValue>
      <User:PublicValue xsi:type="xsd:string"></User:PublicValue>
@@ -55,6 +57,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+
 
 ## SaveUntrustedCredentials Response
 
@@ -75,3 +78,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

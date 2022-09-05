@@ -1,6 +1,6 @@
 ---
 title: PUT List/LegalBase/Items/{id}/Headings
-id: v1LegalBaseList_PutLegalBaseHeadingsForListItem
+uid: v1LegalBaseList_PutLegalBaseHeadingsForListItem
 ---
 
 # PUT List/LegalBase/Items/{id}/Headings
@@ -11,11 +11,18 @@ PUT /api/v1/List/LegalBase/Items/{itemId}/Headings
 
 Saves headings for the LegalBase list's item.
 
+
 Calls the List agent service SaveHeadingsForListItemFromListDefinition.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | itemId | int32 | The ID of the headings to be saved. **Required** |
+
+
 
 ## Request Headers
 
@@ -31,9 +38,9 @@ Calls the List agent service SaveHeadingsForListItemFromListDefinition.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entities
+## Request Body: entities  
 
-The headings to be saved.
+The headings to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -53,7 +60,10 @@ The headings to be saved.
 | Hidden | bool | True if the ListItem is hidden |
 | FullName | string | The name of the ListItem in its context |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -81,7 +91,7 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 PUT /api/v1/List/LegalBase/Items/{itemId}/Headings
@@ -92,45 +102,47 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 424,
-    "Name": "Maggio-Shanahan",
-    "ToolTip": "Esse praesentium qui nostrum et non.",
-    "Deleted": true,
-    "Rank": 393,
-    "Type": "fugit",
-    "ColorBlock": 229,
-    "IconHint": "laudantium",
+    "Id": 90,
+    "Name": "McLaughlin, Kunde and Yost",
+    "ToolTip": "Qui vitae pariatur.",
+    "Deleted": false,
+    "Rank": 467,
+    "Type": "est",
+    "ColorBlock": 456,
+    "IconHint": "nostrum",
     "Selected": false,
-    "LastChanged": "2000-06-30T18:25:51.879509+02:00",
+    "LastChanged": "2003-06-12T11:10:54.3128659+02:00",
     "ChildItems": [
       {
-        "Id": 510,
-        "Name": "Friesen Group",
-        "ToolTip": "Placeat nam incidunt.",
-        "Deleted": false,
-        "Rank": 402,
-        "Type": "doloremque",
-        "ColorBlock": 896,
-        "IconHint": "voluptas",
-        "Selected": false,
-        "LastChanged": "2016-08-18T18:25:51.879509+02:00",
+        "Id": 676,
+        "Name": "Walsh, Parisian and Kirlin",
+        "ToolTip": "Non deleniti et est sit et.",
+        "Deleted": true,
+        "Rank": 62,
+        "Type": "et",
+        "ColorBlock": 146,
+        "IconHint": "suscipit",
+        "Selected": true,
+        "LastChanged": "2020-09-21T11:10:54.3128659+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "debitis",
-        "StyleHint": "omnis",
-        "Hidden": false,
-        "FullName": "Phoebe Koepp"
+        "ExtraInfo": "reiciendis",
+        "StyleHint": "aut",
+        "Hidden": true,
+        "FullName": "Liam West"
       }
     ],
-    "ExtraInfo": "totam",
-    "StyleHint": "illum",
+    "ExtraInfo": "ut",
+    "StyleHint": "voluptas",
     "Hidden": false,
-    "FullName": "Fausto Torp"
+    "FullName": "Dr. Silas Jarred Witting"
   }
 ]
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -138,65 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 482,
-    "Name": "Herman LLC",
-    "ToolTip": "Odio iste culpa vitae dolor nulla.",
+    "Id": 991,
+    "Name": "Lemke-Cummings",
+    "ToolTip": "Ut tempora.",
     "Deleted": true,
-    "Rank": 330,
-    "Type": "molestias",
-    "ColorBlock": 397,
-    "IconHint": "qui",
+    "Rank": 241,
+    "Type": "beatae",
+    "ColorBlock": 541,
+    "IconHint": "voluptas",
     "Selected": false,
-    "LastChanged": "2000-02-09T18:25:51.8964853+01:00",
+    "LastChanged": "2019-07-17T11:10:54.3148663+02:00",
     "ChildItems": [
       {
-        "Id": 273,
-        "Name": "Smith Group",
-        "ToolTip": "Inventore eaque quo vitae.",
-        "Deleted": true,
-        "Rank": 20,
-        "Type": "qui",
-        "ColorBlock": 780,
-        "IconHint": "nobis",
+        "Id": 832,
+        "Name": "Marvin Group",
+        "ToolTip": "Voluptatum doloribus aut dolorum totam ea.",
+        "Deleted": false,
+        "Rank": 468,
+        "Type": "accusantium",
+        "ColorBlock": 554,
+        "IconHint": "aut",
         "Selected": false,
-        "LastChanged": "2013-11-06T18:25:51.8964853+01:00",
+        "LastChanged": "1999-09-13T11:10:54.3148663+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "excepturi",
-        "StyleHint": "magni",
-        "Hidden": true,
-        "FullName": "Jonathan Schiller",
-        "TableRight": {},
+        "ExtraInfo": "nesciunt",
+        "StyleHint": "qui",
+        "Hidden": false,
+        "FullName": "Corene Mills",
+        "TableRight": null,
         "FieldProperties": {
           "fieldName": {
-            "FieldRight": {
-              "Mask": "FULL",
-              "Reason": ""
-            },
+            "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 981
+            "FieldLength": 371
           }
         }
       }
     ],
-    "ExtraInfo": "facilis",
-    "StyleHint": "voluptatem",
+    "ExtraInfo": "omnis",
+    "StyleHint": "officiis",
     "Hidden": false,
-    "FullName": "Helene Mann",
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "FullName": "Dock Dibbert",
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.Int32",
-        "FieldLength": 861
+        "FieldRight": null,
+        "FieldType": "System.String",
+        "FieldLength": 336
       }
     }
   }

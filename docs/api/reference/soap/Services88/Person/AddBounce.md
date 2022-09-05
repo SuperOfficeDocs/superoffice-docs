@@ -15,6 +15,8 @@ Add a bounce count on the email address if it exists
 
 * **emailAddress:** The email address which we want to add a bounce count to
 
+
+
 [WSDL file for Services88/Person](../Services88-Person.md)
 
 Obtain a ticket from the [Services88/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -47,6 +49,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## AddBounce Response
 
 ```xml
@@ -66,3 +69,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

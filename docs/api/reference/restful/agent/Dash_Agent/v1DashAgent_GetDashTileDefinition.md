@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Dash/GetDashTileDefinition
-id: v1DashAgent_GetDashTileDefinition
+uid: v1DashAgent_GetDashTileDefinition
 ---
 
 # POST Agents/Dash/GetDashTileDefinition
@@ -11,6 +11,12 @@ POST /api/v1/Agents/Dash/GetDashTileDefinition
 
 Gets a DashTileDefinition object.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -19,9 +25,10 @@ Gets a DashTileDefinition object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Dash/GetDashTileDefinition?dashTileDefinitionId=908
+POST /api/v1/Agents/Dash/GetDashTileDefinition?dashTileDefinitionId=480
 POST /api/v1/Agents/Dash/GetDashTileDefinition?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -36,18 +43,16 @@ POST /api/v1/Agents/Dash/GetDashTileDefinition?$select=name,department,category/
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response: object
 
-Dashboard Tile definition
+## Response: 
 
-Carrier object for DashTileDefinition.
-Services for the DashTileDefinition Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IDashAgent">Dash Agent</see>.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -68,54 +73,52 @@ Response body: object
 | LayoutConfig | string | The JSON formatted layout config |
 | SecondarySelectionId | int32 | Selection holding the replaced or changed criterias (period comparisons etc) |
 | MeasureByField | string | Field to group by |
+| Usage | string | Where this tile can be used |
 | ProviderName | string | Name of provider to use with this entity type - read only property |
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Dash/GetDashTileDefinition
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileDefinitionId": 888,
-  "Name": "Gutmann LLC",
-  "Description": "Virtual even-keeled paradigm",
-  "DefaultHeight": 742,
-  "DefaultWidth": 795,
+  "DashboardTileDefinitionId": 878,
+  "Name": "Parisian, Cartwright and Ernser",
+  "Description": "Reduced 6th generation website",
+  "DefaultHeight": 221,
+  "DefaultWidth": 896,
   "TileType": "Area",
   "EntityType": "Appointment",
-  "EntityName": "Powlowski, Frami and Vandervort",
-  "SelectionId": 378,
+  "EntityName": "Fritsch, Bartell and Schmidt",
+  "SelectionId": 754,
   "CurrencyMode": "Base",
-  "CurrencyCode": "enim",
+  "CurrencyCode": "iste",
   "Measure": "Average",
-  "MeasureField": "quam",
-  "SortBy": "aliquam",
-  "LayoutConfig": "aut",
-  "SecondarySelectionId": 933,
-  "MeasureByField": "esse",
-  "ProviderName": "Mayert-Stanton",
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "MeasureField": "est",
+  "SortBy": "non",
+  "LayoutConfig": "molestiae",
+  "SecondarySelectionId": 79,
+  "MeasureByField": "ea",
+  "Usage": "Dashboard",
+  "ProviderName": "Mann LLC",
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
+      "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 738
+      "FieldLength": 912
     }
   }
 }

@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Appointment/GetContactAppointmentsByTask
-id: v1AppointmentAgent_GetContactAppointmentsByTask
+uid: v1AppointmentAgent_GetContactAppointmentsByTask
 ---
 
 # POST Agents/Appointment/GetContactAppointmentsByTask
@@ -11,7 +11,13 @@ POST /api/v1/Agents/Appointment/GetContactAppointmentsByTask
 
 Method that returns a specified number of appointments of a specific appointment task type within a time range.
 
+
 The appointments belong to the contact specified. Task represents the different types of activities, like “Phone call”, “Meeting” and so on.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +28,7 @@ The appointments belong to the contact specified. Task represents the different 
 ```http
 POST /api/v1/Agents/Appointment/GetContactAppointmentsByTask?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,9 +44,9 @@ POST /api/v1/Agents/Appointment/GetContactAppointmentsByTask?$select=name,depart
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-ContactId, StartTime, EndTime, Count, TaskId
+ContactId, StartTime, EndTime, Count, TaskId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -49,7 +56,10 @@ ContactId, StartTime, EndTime, Count, TaskId
 | Count | int32 |  |
 | TaskId | int32 |  |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -111,23 +121,25 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Appointment/GetContactAppointmentsByTask
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 751,
-  "StartTime": "2019-05-20T18:28:47.7168479+02:00",
-  "EndTime": "2015-05-12T18:28:47.7168479+02:00",
-  "Count": 578,
-  "TaskId": 119
+  "ContactId": 723,
+  "StartTime": "2011-07-16T11:10:25.4355221+02:00",
+  "EndTime": "2001-12-08T11:10:25.4355221+01:00",
+  "Count": 114,
+  "TaskId": 399
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -135,67 +147,61 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 211,
-    "StartDate": "2007-06-13T18:28:47.7178165+02:00",
-    "EndDate": "2016-04-11T18:28:47.7178165+02:00",
+    "AppointmentId": 328,
+    "StartDate": "2019-01-21T11:10:25.4365224+01:00",
+    "EndDate": "2003-05-19T11:10:25.4365224+02:00",
     "Type": "BookingForChecklist",
-    "Task": "in",
-    "AssociateFullName": "Gregoria Larkin",
-    "ContactName": "Heidenreich, Feest and Kessler",
-    "Description": "Innovative neutral access",
-    "PersonFullName": "Dr. Lauryn Murphy",
-    "PersonId": 121,
-    "ContactId": 800,
-    "ProjectId": 692,
-    "ProjectName": "Wintheiser Group",
-    "IsPublished": true,
-    "AssociateId": 919,
-    "ColorIndex": 396,
-    "IsFree": true,
-    "HasAlarm": true,
-    "IsAlldayEvent": true,
+    "Task": "aliquid",
+    "AssociateFullName": "Miss Hudson Adolf Heaney III",
+    "ContactName": "Abshire LLC",
+    "Description": "Balanced 4th generation approach",
+    "PersonFullName": "Prof. Alec Cummerata",
+    "PersonId": 570,
+    "ContactId": 474,
+    "ProjectId": 887,
+    "ProjectName": "Murazik, Stiedemann and Green",
+    "IsPublished": false,
+    "AssociateId": 903,
+    "ColorIndex": 994,
+    "IsFree": false,
+    "HasAlarm": false,
+    "IsAlldayEvent": false,
     "Private": "PrivateGroup",
-    "PriorityId": 535,
-    "PriorityName": "Conroy LLC",
+    "PriorityId": 262,
+    "PriorityName": "Schimmel LLC",
     "TaskType": "Appointment",
-    "IsBookingMain": false,
-    "IsRecurrence": true,
-    "IsBooking": false,
-    "ActiveDate": "2018-01-10T18:28:47.7188144+01:00",
+    "IsBookingMain": true,
+    "IsRecurrence": false,
+    "IsBooking": true,
+    "ActiveDate": "2012-04-05T11:10:25.4375222+02:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2011-10-22T18:28:47.7188144+02:00",
-    "RecurringEndDate": "2016-02-16T18:28:47.7188144+01:00",
-    "MotherId": 627,
-    "AssignedBy": 663,
-    "AssignedByFullName": "Henderson Schuster DVM",
+    "RecurringStartDate": "2003-06-19T11:10:25.4375222+02:00",
+    "RecurringEndDate": "1999-06-13T11:10:25.4375222+02:00",
+    "MotherId": 475,
+    "AssignedBy": 662,
+    "AssignedByFullName": "Jerod Roberts",
     "RejectReason": "",
-    "Location": "dolores",
-    "AlarmLeadTime": "rerum",
-    "SaleId": 985,
-    "SaleName": "Abshire, Howe and Kuhlman",
-    "AssociateName": "Macejkovic, Vandervort and Hane",
-    "CreatedDate": "2006-07-24T18:28:47.7188144+02:00",
-    "CreatedBy": "inventore",
-    "CreatedByFullName": "Hilda Thiel",
-    "CreatedByAssociateId": 980,
+    "Location": "odio",
+    "AlarmLeadTime": "vel",
+    "SaleId": 728,
+    "SaleName": "Cormier, Bartell and Bogisich",
+    "AssociateName": "Prosacco Group",
+    "CreatedDate": "2008-07-17T11:10:25.4375222+02:00",
+    "CreatedBy": "sit",
+    "CreatedByFullName": "Mr. D'angelo Jane Anderson",
+    "CreatedByAssociateId": 921,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.Int32",
-        "FieldLength": 708
+        "FieldRight": null,
+        "FieldType": "System.String",
+        "FieldLength": 477
       }
     }
   }

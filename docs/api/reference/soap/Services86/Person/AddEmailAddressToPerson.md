@@ -17,6 +17,8 @@ Sets the primary email address on person, possibly re-ranking email addresses ac
 * **emailAddress:** The email address to set as primary email address
 * **setAsPrimaryEmail:** True if the address shall be primary email address (have rank == 1)
 
+
+
 [WSDL file for Services86/Person](../Services86-Person.md)
 
 Obtain a ticket from the [Services86/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -51,6 +53,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## AddEmailAddressToPerson Response
 
 ```xml
@@ -70,3 +73,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

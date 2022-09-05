@@ -1,6 +1,6 @@
 ---
 title: POST Agents/List/SaveListEntityByName
-id: v1ListAgent_SaveListEntityByName
+uid: v1ListAgent_SaveListEntityByName
 ---
 
 # POST Agents/List/SaveListEntityByName
@@ -11,6 +11,12 @@ POST /api/v1/Agents/List/SaveListEntityByName
 
 Save a ListEntity resolved by the provided name.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Save a ListEntity resolved by the provided name.
 ```http
 POST /api/v1/Agents/List/SaveListEntityByName?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,27 +42,25 @@ POST /api/v1/Agents/List/SaveListEntityByName?$select=name,department,category/i
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-Name, ListEntity
+Name, ListEntity 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | Name | string |  |
-| ListEntity |  | The list entity contains information about a specific list <br /> Carrier object for ListEntity. Services for the ListEntity Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IListAgent">List Agent</see>. |
+| ListEntity |  | The list entity contains information about a specific list <para /> Carrier object for ListEntity. Services for the ListEntity Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IListAgent">List Agent</see>. |
 
-## Response: object
 
-The list entity contains information about a specific list
+## Response: 
 
-Carrier object for ListEntity.
-Services for the ListEntity Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IListAgent">List Agent</see>.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -72,7 +77,7 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/List/SaveListEntityByName
@@ -82,49 +87,34 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Dach, Olson and Bartell",
-  "ListEntity": {
-    "Id": 566,
-    "Name": "McDermott-Hintz",
-    "Tooltip": "nostrum",
-    "Deleted": false,
-    "Rank": 917,
-    "IsCustomList": false,
-    "IsMDOList": true,
-    "UseGroupsAndHeadings": true,
-    "ListType": "consequatur",
-    "InUseByUserDefinedFields": true
-  }
+  "Name": "Upton-Pouros",
+  "ListEntity": null
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 366,
-  "Name": "Hartmann, Harvey and Heller",
-  "Tooltip": "voluptatibus",
+  "Id": 269,
+  "Name": "Wiegand LLC",
+  "Tooltip": "qui",
   "Deleted": true,
-  "Rank": 213,
+  "Rank": 481,
   "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": true,
-  "ListType": "accusantium",
+  "ListType": "sint",
   "InUseByUserDefinedFields": false,
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
+      "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 243
+      "FieldLength": 254
     }
   }
 }

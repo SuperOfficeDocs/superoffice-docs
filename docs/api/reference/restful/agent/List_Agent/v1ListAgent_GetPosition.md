@@ -1,6 +1,6 @@
 ---
 title: POST Agents/List/GetPosition
-id: v1ListAgent_GetPosition
+uid: v1ListAgent_GetPosition
 ---
 
 # POST Agents/List/GetPosition
@@ -11,6 +11,12 @@ POST /api/v1/Agents/List/GetPosition
 
 Gets a Position object.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -19,9 +25,10 @@ Gets a Position object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetPosition?positionId=285
+POST /api/v1/Agents/List/GetPosition?positionId=676
 POST /api/v1/Agents/List/GetPosition?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -36,16 +43,16 @@ POST /api/v1/Agents/List/GetPosition?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response: object
 
-Carrier object for Position.
-Services for the Position Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IListAgent">List Agent</see>.
+## Response: 
+
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -55,35 +62,31 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/List/GetPosition
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 654,
-  "Value": "ullam",
-  "Tooltip": "temporibus",
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "Id": 914,
+  "Value": "eligendi",
+  "Tooltip": "nostrum",
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
-      "FieldType": "System.Int32",
-      "FieldLength": 183
+      "FieldRight": null,
+      "FieldType": "System.String",
+      "FieldLength": 603
     }
   }
 }

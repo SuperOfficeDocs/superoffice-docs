@@ -17,6 +17,7 @@ Delete the stop words with these ids
 
 **Returns:** This method has no return value
 
+
 [WSDL file for Services84/FreeText](../Services84-FreeText.md)
 
 Obtain a ticket from the [Services84/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -51,6 +52,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## DeleteStopWordsById Response
 
 ```xml
@@ -70,3 +72,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

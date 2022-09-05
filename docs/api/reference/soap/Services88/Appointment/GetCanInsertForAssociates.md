@@ -17,6 +17,7 @@ Check if current associate can create appointments in the diary of other associa
 
 **Returns:** Returns an array of bool corresponding to the associate array input parameter.
 
+
 [WSDL file for Services88/Appointment](../Services88-Appointment.md)
 
 Obtain a ticket from the [Services88/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -51,6 +52,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## GetCanInsertForAssociates Response
 
 ```xml
@@ -73,3 +75,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

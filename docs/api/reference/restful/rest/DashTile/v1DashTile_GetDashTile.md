@@ -1,6 +1,6 @@
 ---
 title: GET DashTile/{id}
-id: v1DashTile_GetDashTile
+uid: v1DashTile_GetDashTile
 ---
 
 # GET DashTile/{id}
@@ -11,11 +11,17 @@ GET /api/v1/DashTile/{id}
 
 Gets a DashTile object.
 
+
 Calls the Dash agent service GetDashTile.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | id | int32 | The id of the DashTile to return. **Required** |
+
 
 ## Query String Parameters
 
@@ -26,6 +32,7 @@ Calls the Dash agent service GetDashTile.
 ```http
 GET /api/v1/DashTile/{id}?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -40,18 +47,17 @@ GET /api/v1/DashTile/{id}?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response: object
 
-Dashboard Tile configuration
+## Response: 
 
-DashTile entity with API _Links added.
+DashTile found.
 
 | Response | Description |
 |----------------|-------------|
 | 200 | DashTile found. |
 | 404 | Not Found. |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -65,7 +71,7 @@ Response body: object
 | FieldProperties | object |  |
 | _Links | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 GET /api/v1/DashTile/{id}
@@ -74,59 +80,25 @@ Accept: application/json; charset=utf-8
 Accept-Language: en
 ```
 
+## Sample response
+
 ```http_
 HTTP/1.1 200 DashTile found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 166,
-  "DashboardId": 451,
-  "Height": 940,
-  "Width": 732,
-  "Rank": 727,
-  "DashTileDefinition": {
-    "DashboardTileDefinitionId": 84,
-    "Name": "McLaughlin Group",
-    "Description": "User-centric tangible algorithm",
-    "DefaultHeight": 79,
-    "DefaultWidth": 226,
-    "TileType": "Area",
-    "EntityType": "Appointment",
-    "EntityName": "Krajcik-Gaylord",
-    "SelectionId": 858,
-    "CurrencyMode": "Base",
-    "CurrencyCode": "animi",
-    "Measure": "Average",
-    "MeasureField": "numquam",
-    "SortBy": "doloremque",
-    "LayoutConfig": "est",
-    "SecondarySelectionId": 530,
-    "MeasureByField": "magni",
-    "ProviderName": "Rice, Reinger and Lynch",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 878
-      }
-    }
-  },
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": "revolutionize user-centric communities"
-  },
+  "DashboardTileId": 199,
+  "DashboardId": 721,
+  "Height": 334,
+  "Width": 967,
+  "Rank": 290,
+  "DashTileDefinition": null,
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
-      "FieldType": "System.Int32",
-      "FieldLength": 998
+      "FieldRight": null,
+      "FieldType": "System.String",
+      "FieldLength": 535
     }
   },
   "_Links": {

@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Contact/GetContactList
-id: v1ContactAgent_GetContactList
+uid: v1ContactAgent_GetContactList
 ---
 
 # POST Agents/Contact/GetContactList
@@ -11,6 +11,12 @@ POST /api/v1/Agents/Contact/GetContactList
 
 Gets an array of Contact objects.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Gets an array of Contact objects.
 ```http
 POST /api/v1/Agents/Contact/GetContactList?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,11 +42,15 @@ POST /api/v1/Agents/Contact/GetContactList?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: contactIds
+## Request Body: contactIds  
 
-The primary keys.
+The primary keys. 
+
+
 
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -74,7 +85,7 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Contact/GetContactList
@@ -83,113 +94,42 @@ Accept: application/json; charset=utf-8
 Accept-Language: en
 ```
 
+## Sample response
+
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactId": 8,
-    "Name": "Fritsch-Franecki",
-    "OrgNr": "363661",
+    "ContactId": 158,
+    "Name": "Dietrich Group",
+    "OrgNr": "1427079",
     "Department": "",
     "URL": "http://www.example.com/",
-    "City": "modi",
-    "DirectPhone": "041.478.7681 x300",
-    "AssociateId": 167,
-    "CountryId": 254,
-    "EmailAddress": "oda_heidenreich@hamill.uk",
-    "Kananame": "repellendus",
-    "EmailAddressName": "branson@brakusmueller.info",
+    "City": "optio",
+    "DirectPhone": "(449)238-3235 x67734",
+    "AssociateId": 674,
+    "CountryId": 549,
+    "EmailAddress": "mortimer@monahanryan.us",
+    "Kananame": "voluptatibus",
+    "EmailAddressName": "ashley@adams.biz",
     "URLName": "http://www.example.com/",
-    "AssociateFullName": "Curt Olson",
+    "AssociateFullName": "Mr. Charles Alvera Kihn II",
     "BusinessName": "Information Technology",
     "CategoryName": "VIP Customer",
     "CountryName": "Sokovia",
-    "Address": {
-      "Wgs84Latitude": 24432.664,
-      "Wgs84Longitude": 8264.358,
-      "LocalizedAddress": [
-        [
-          {
-            "Name": "Kertzmann, Upton and Crist",
-            "Value": "pariatur",
-            "Tooltip": "eos",
-            "Label": "asperiores",
-            "ValueLength": 464,
-            "AddressType": "asperiores",
-            "TableRight": {
-              "Mask": "Delete",
-              "Reason": ""
-            },
-            "FieldProperties": {
-              "fieldName": {
-                "FieldRight": {
-                  "Mask": "FULL",
-                  "Reason": ""
-                },
-                "FieldType": "System.Int32",
-                "FieldLength": 233
-              }
-            }
-          }
-        ],
-        [
-          {
-            "Name": "Altenwerth, McCullough and O'Reilly",
-            "Value": "qui",
-            "Tooltip": "et",
-            "Label": "nostrum",
-            "ValueLength": 925,
-            "AddressType": "quis",
-            "TableRight": {
-              "Mask": "Delete",
-              "Reason": ""
-            },
-            "FieldProperties": {
-              "fieldName": {
-                "FieldRight": {
-                  "Mask": "FULL",
-                  "Reason": ""
-                },
-                "FieldType": "System.Int32",
-                "FieldLength": 196
-              }
-            }
-          }
-        ]
-      ],
-      "Street": {},
-      "Postal": {},
-      "Formatted": "rem",
-      "TableRight": {},
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": {
-            "Mask": "FULL",
-            "Reason": ""
-          },
-          "FieldType": "System.Int32",
-          "FieldLength": 790
-        }
-      }
-    },
-    "FormattedAddress": "ipsa",
-    "FullName": "Nina Gulgowski",
+    "Address": null,
+    "FormattedAddress": "eveniet",
+    "FullName": "Prof. Caleb Sincere O'Keefe",
     "IsOwnerContact": true,
-    "ActiveErpLinks": 662,
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "ActiveErpLinks": 434,
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
+        "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 776
+        "FieldLength": 461
       }
     }
   }

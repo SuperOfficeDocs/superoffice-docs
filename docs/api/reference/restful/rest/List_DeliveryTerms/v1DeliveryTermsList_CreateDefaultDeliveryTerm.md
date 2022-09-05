@@ -1,6 +1,6 @@
 ---
 title: GET List/DeliveryTerm/Items/Default
-id: v1DeliveryTermsList_CreateDefaultDeliveryTerm
+uid: v1DeliveryTermsList_CreateDefaultDeliveryTerm
 ---
 
 # GET List/DeliveryTerm/Items/Default
@@ -10,6 +10,13 @@ GET /api/v1/List/DeliveryTerm/Items/Default
 ```
 
 Gets a default DeliveryTerm list item.
+
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -24,18 +31,16 @@ Gets a default DeliveryTerm list item.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response: object
 
-The list item entity contains generic list item information
+## Response: 
 
-Carrier object for ListItemEntity.
-Services for the ListItemEntity Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IListAgent">List Agent</see>.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -48,38 +53,34 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 GET /api/v1/List/DeliveryTerm/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 37,
-  "Name": "Gaylord Group",
-  "Tooltip": "odit",
+  "Id": 238,
+  "Name": "Effertz Inc and Sons",
+  "Tooltip": "distinctio",
   "Deleted": false,
-  "UdListDefinitionId": 797,
-  "Rank": 656,
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "UdListDefinitionId": 439,
+  "Rank": 255,
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
-      "FieldType": "System.Int32",
-      "FieldLength": 251
+      "FieldRight": null,
+      "FieldType": "System.String",
+      "FieldLength": 883
     }
   }
 }

@@ -17,6 +17,7 @@ Gets a SystemEventEntity object.
 
 **Returns:** SystemEventEntity
 
+
 [WSDL file for Services87/Configuration](../Services87-Configuration.md)
 
 Obtain a ticket from the [Services87/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -49,6 +50,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## GetSystemEventEntity Response
 
 ```xml
@@ -66,13 +68,13 @@ Application tokens must be specified if calling an Online installation. Applicat
    <Configuration:Response xsi:type="Configuration:SystemEventEntity">
     <Configuration:SystemEventId xsi:type="xsd:int">0</Configuration:SystemEventId>
     <Configuration:Scope xsi:type="Configuration:SystemEventScope">Undefined</Configuration:Scope>
-    <Configuration:Eta xsi:type="xsd:dateTime">2021-11-30T13:23:11Z</Configuration:Eta>
+    <Configuration:Eta xsi:type="xsd:dateTime">2022-08-26T08:56:35Z</Configuration:Eta>
     <Configuration:Eventkey xsi:type="xsd:string"></Configuration:Eventkey>
     <Configuration:Eventmess xsi:type="xsd:string"></Configuration:Eventmess>
     <Configuration:ExtraInfo xsi:type="xsd:int">0</Configuration:ExtraInfo>
     <Configuration:Owner xsi:type="xsd:int">0</Configuration:Owner>
     <Configuration:UpdatedCount xsi:type="xsd:short">0</Configuration:UpdatedCount>
-    <Configuration:Registered xsi:type="xsd:dateTime">2021-11-30T13:23:11Z</Configuration:Registered>
+    <Configuration:Registered xsi:type="xsd:dateTime">2022-08-26T08:56:35Z</Configuration:Registered>
     <Configuration:ActivatedBy xsi:type="Configuration:Associate">
      <Configuration:AssociateId xsi:type="xsd:int">0</Configuration:AssociateId>
      <Configuration:Name xsi:type="xsd:string"></Configuration:Name>
@@ -93,3 +95,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

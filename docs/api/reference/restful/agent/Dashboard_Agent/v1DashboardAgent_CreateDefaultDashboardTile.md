@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Dashboard/CreateDefaultDashboardTile
-id: v1DashboardAgent_CreateDefaultDashboardTile
+uid: v1DashboardAgent_CreateDefaultDashboardTile
 ---
 
 # POST Agents/Dashboard/CreateDefaultDashboardTile
@@ -11,7 +11,14 @@ POST /api/v1/Agents/Dashboard/CreateDefaultDashboardTile
 
 Set default values into a new DashboardTile.
 
+
 NetServer calculates default values on the entity, which is required when creating/storing a new instance
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -26,18 +33,16 @@ NetServer calculates default values on the entity, which is required when creati
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response: object
 
-Dashboard Tile configuration
+## Response: 
 
-Carrier object for DashboardTile.
-Services for the DashboardTile Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IDashboardAgent">Dashboard Agent</see>.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -58,7 +63,7 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Dashboard/CreateDefaultDashboardTile
@@ -67,94 +72,81 @@ Accept: application/json; charset=utf-8
 Accept-Language: en
 ```
 
+## Sample response
+
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 1000,
-  "Caption": "eos",
-  "Description": "User-centric 24/7 standardization",
-  "ChartName": "Ratke-Medhurst",
-  "ChartId": "molestiae",
+  "DashboardTileId": 515,
+  "Caption": "quasi",
+  "Description": "Realigned cohesive portal",
+  "ChartName": "Turner-Reinger",
+  "ChartId": "molestias",
   "IsDefault": false,
-  "AssociateId": 286,
-  "GroupId": 310,
-  "SelectionId": 241,
-  "Config": "aut",
+  "AssociateId": 971,
+  "GroupId": 112,
+  "SelectionId": 557,
+  "Config": "sed",
   "Type": "Bignum",
   "EntityType": "Activity",
   "Options": [
     {
-      "Name": "Klocko Inc and Sons",
-      "Description": "Integrated national strategy",
+      "Name": "Kerluke, Kling and Beatty",
+      "Description": "Proactive non-volatile ability",
       "Type": "Boolean",
-      "ListName": "Hermiston, D'Amore and Kautzer",
+      "ListName": "Jewess Group",
       "ListItems": [
         {},
         {}
       ],
-      "Value": "modi",
-      "DefaultDataOption": true,
-      "TableRight": {},
+      "Value": "assumenda",
+      "DefaultDataOption": false,
+      "TableRight": null,
       "FieldProperties": {
         "fieldName": {
-          "FieldRight": {
-            "Mask": "FULL",
-            "Reason": ""
-          },
-          "FieldType": "System.String",
-          "FieldLength": 240
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 529
         }
       }
     }
   ],
   "VisibleFor": [
     {
-      "VisibleId": 127,
+      "VisibleId": 420,
       "Visibility": "All",
-      "DisplayValue": "a",
-      "TableRight": {},
+      "DisplayValue": "aut",
+      "TableRight": null,
       "FieldProperties": {
         "fieldName": {
-          "FieldRight": {
-            "Mask": "FULL",
-            "Reason": "syndicate plug-and-play infomediaries"
-          },
+          "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 830
+          "FieldLength": 300
         }
       }
     },
     {
-      "VisibleId": 127,
+      "VisibleId": 420,
       "Visibility": "All",
-      "DisplayValue": "a",
-      "TableRight": {},
+      "DisplayValue": "aut",
+      "TableRight": null,
       "FieldProperties": {
         "fieldName": {
-          "FieldRight": {
-            "Mask": "FULL",
-            "Reason": "syndicate plug-and-play infomediaries"
-          },
+          "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 830
+          "FieldLength": 300
         }
       }
     }
   ],
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
-      "FieldType": "System.Int32",
-      "FieldLength": 709
+      "FieldRight": null,
+      "FieldType": "System.String",
+      "FieldLength": 123
     }
   }
 }

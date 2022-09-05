@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "ticket_customers"
-so.date: 04.12.2022
+so.date: 08.26.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -24,6 +24,7 @@ This table allows several customers to be connected to several tickets (many-to-
 |id|The primary key (auto-incremented)|PK| |
 |ticket\_id|Reference to a ticket|FK [ticket](ticket.md)| |
 |customer\_id|Reference to a customer|FK [person](person.md)| |
+
 
 ![ticket_customers table relationship diagram](./media/ticket_customers.png)
 
@@ -45,6 +46,7 @@ This table allows several customers to be connected to several tickets (many-to-
 |[person](person.md)  |Persons in a company or an organizations. All associates have a corresponding person record |
 |[ticket](ticket.md)  |This table contains the tickets (requests) of the system. Its purpose should be evident. |
 
+
 ## Replication Flags
 
 * None
@@ -52,3 +54,4 @@ This table allows several customers to be connected to several tickets (many-to-
 ## Security Flags
 
 * No access control via user's Role.
+

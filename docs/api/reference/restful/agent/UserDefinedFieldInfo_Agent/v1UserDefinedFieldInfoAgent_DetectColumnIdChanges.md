@@ -1,6 +1,6 @@
 ---
 title: POST Agents/UserDefinedFieldInfo/DetectColumnIdChanges
-id: v1UserDefinedFieldInfoAgent_DetectColumnIdChanges
+uid: v1UserDefinedFieldInfoAgent_DetectColumnIdChanges
 ---
 
 # POST Agents/UserDefinedFieldInfo/DetectColumnIdChanges
@@ -11,6 +11,12 @@ POST /api/v1/Agents/UserDefinedFieldInfo/DetectColumnIdChanges
 
 Detect columnid changes to the admin version (for determining publish warning)
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Detect columnid changes to the admin version (for determining publish warning)
 ```http
 POST /api/v1/Agents/UserDefinedFieldInfo/DetectColumnIdChanges?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,15 +42,18 @@ POST /api/v1/Agents/UserDefinedFieldInfo/DetectColumnIdChanges?$select=name,depa
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-OwnerType
+OwnerType 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | OwnerType | string |  |
 
+
 ## Response: bool
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -51,19 +61,22 @@ OwnerType
 
 Response body: bool
 
-## Sample Request
+
+## Sample request
 
 ```http!
 POST /api/v1/Agents/UserDefinedFieldInfo/DetectColumnIdChanges
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "OwnerType": "Appointment"
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK

@@ -12,9 +12,11 @@ Implemented by the <see cref="M:SuperOffice.Services86.IErpSyncAgent.SyncAll">Su
 ## SyncAll
 
 Sync all active connections
-<br />**Online Restricted:** The ErpSync agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for ERP integration apps.
+<para /><b>Online Restricted:</b> The ErpSync agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for ERP integration apps.
+
 
 **Returns:** The response
+
 
 [WSDL file for Services86/ErpSync](../Services86-ErpSync.md)
 
@@ -46,6 +48,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+
 
 ## SyncAll Response
 
@@ -92,3 +95,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

@@ -13,7 +13,9 @@ Implemented by the <see cref="M:SuperOffice.Services87.IPersonAgent.GetColleague
 
 Gets the persons working in the same company as the logged on user.
 
+
 **Returns:** Colleagues.
+
 
 [WSDL file for Services87/Person](../Services87-Person.md)
 
@@ -45,6 +47,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+
 
 ## GetColleagues Response
 
@@ -109,3 +112,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

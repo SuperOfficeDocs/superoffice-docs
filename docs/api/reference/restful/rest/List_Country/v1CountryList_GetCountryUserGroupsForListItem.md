@@ -1,6 +1,6 @@
 ---
 title: GET List/Country/Items/{id}/UserGroups
-id: v1CountryList_GetCountryUserGroupsForListItem
+uid: v1CountryList_GetCountryUserGroupsForListItem
 ---
 
 # GET List/Country/Items/{id}/UserGroups
@@ -11,11 +11,18 @@ GET /api/v1/List/Country/Items/{itemId}/UserGroups
 
 Gets user groups visible for the Country list's item.
 
+
 Calls the List agent service GetHeadings.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | itemId | int32 | The ID of the item to get. **Required** |
+
+
 
 ## Request Headers
 
@@ -30,7 +37,10 @@ Calls the List agent service GetHeadings.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -58,14 +68,16 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 GET /api/v1/List/Country/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -73,65 +85,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 261,
-    "Name": "Monahan-Hodkiewicz",
-    "ToolTip": "Eius eius.",
+    "Id": 601,
+    "Name": "Gerlach-Emmerich",
+    "ToolTip": "Rerum et quae.",
     "Deleted": false,
-    "Rank": 675,
-    "Type": "recusandae",
-    "ColorBlock": 847,
-    "IconHint": "quas",
-    "Selected": false,
-    "LastChanged": "2000-01-19T18:25:51.7513289+01:00",
+    "Rank": 722,
+    "Type": "quas",
+    "ColorBlock": 153,
+    "IconHint": "praesentium",
+    "Selected": true,
+    "LastChanged": "2022-01-06T11:10:54.0161855+01:00",
     "ChildItems": [
       {
-        "Id": 363,
-        "Name": "Nader Inc and Sons",
-        "ToolTip": "Porro laboriosam neque.",
-        "Deleted": true,
-        "Rank": 281,
-        "Type": "temporibus",
-        "ColorBlock": 528,
-        "IconHint": "aliquam",
-        "Selected": false,
-        "LastChanged": "2014-04-27T18:25:51.7513289+02:00",
+        "Id": 550,
+        "Name": "Kessler Group",
+        "ToolTip": "Tempora quia sed molestiae non.",
+        "Deleted": false,
+        "Rank": 357,
+        "Type": "eum",
+        "ColorBlock": 167,
+        "IconHint": "quia",
+        "Selected": true,
+        "LastChanged": "2011-06-02T11:10:54.0161855+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "nostrum",
-        "StyleHint": "delectus",
+        "ExtraInfo": "quibusdam",
+        "StyleHint": "mollitia",
         "Hidden": true,
-        "FullName": "General Windler",
-        "TableRight": {},
+        "FullName": "Bernadine Tremayne Boyle DDS",
+        "TableRight": null,
         "FieldProperties": {
           "fieldName": {
-            "FieldRight": {
-              "Mask": "FULL",
-              "Reason": "orchestrate impactful methodologies"
-            },
-            "FieldType": "System.Int32",
-            "FieldLength": 58
+            "FieldRight": null,
+            "FieldType": "System.String",
+            "FieldLength": 570
           }
         }
       }
     ],
-    "ExtraInfo": "est",
-    "StyleHint": "labore",
+    "ExtraInfo": "adipisci",
+    "StyleHint": "debitis",
     "Hidden": false,
-    "FullName": "Elyssa Lind",
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "FullName": "Alford Herman",
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
+        "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 432
+        "FieldLength": 550
       }
     }
   }

@@ -1,6 +1,6 @@
 ---
 title: POST Agents/List/GetExtAppEntity
-id: v1ListAgent_GetExtAppEntity
+uid: v1ListAgent_GetExtAppEntity
 ---
 
 # POST Agents/List/GetExtAppEntity
@@ -11,6 +11,12 @@ POST /api/v1/Agents/List/GetExtAppEntity
 
 Gets a ExtAppEntity object.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -19,9 +25,10 @@ Gets a ExtAppEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetExtAppEntity?extAppEntityId=410
+POST /api/v1/Agents/List/GetExtAppEntity?extAppEntityId=801
 POST /api/v1/Agents/List/GetExtAppEntity?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -36,18 +43,16 @@ POST /api/v1/Agents/List/GetExtAppEntity?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response: object
 
-The ext app entity contains information on an external application
+## Response: 
 
-Carrier object for ExtAppEntity.
-Services for the ExtAppEntity Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IListAgent">List Agent</see>.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -76,54 +81,50 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/List/GetExtAppEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ExtAppId": 175,
-  "Name": "Bartell-Legros",
-  "Tooltip": "sunt",
+  "ExtAppId": 598,
+  "Name": "Ullrich, Fritsch and McGlynn",
+  "Tooltip": "quibusdam",
   "Deleted": true,
-  "Rank": 128,
-  "Filename": "nam",
-  "Parameters": "ducimus",
-  "Workdir": "molestias",
+  "Rank": 212,
+  "Filename": "veritatis",
+  "Parameters": "ut",
+  "Workdir": "voluptas",
   "ShowState": "AddressBar",
   "VisibleIn": "ActivityDialog",
-  "OnCentral": true,
-  "OnSatellite": true,
-  "OnTravel": false,
-  "OnSalesMarketingPocket": true,
-  "ShowInMenuBar": false,
+  "OnCentral": false,
+  "OnSatellite": false,
+  "OnTravel": true,
+  "OnSalesMarketingPocket": false,
+  "ShowInMenuBar": true,
   "ShowInToolBar": false,
-  "ShowInAddressBar": true,
-  "ShowInStatusBar": true,
-  "Icon": 553,
+  "ShowInAddressBar": false,
+  "ShowInStatusBar": false,
+  "Icon": 292,
   "WaitToFinish": true,
   "ExecuteOnEvent": "LocalUpdate",
-  "Path": "ab",
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "Path": "perspiciatis",
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
+      "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 890
+      "FieldLength": 26
     }
   }
 }

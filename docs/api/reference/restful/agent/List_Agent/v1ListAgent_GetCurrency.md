@@ -1,6 +1,6 @@
 ---
 title: POST Agents/List/GetCurrency
-id: v1ListAgent_GetCurrency
+uid: v1ListAgent_GetCurrency
 ---
 
 # POST Agents/List/GetCurrency
@@ -11,6 +11,12 @@ POST /api/v1/Agents/List/GetCurrency
 
 Gets a Currency object.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -19,9 +25,10 @@ Gets a Currency object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetCurrency?currencyId=287
+POST /api/v1/Agents/List/GetCurrency?currencyId=800
 POST /api/v1/Agents/List/GetCurrency?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -36,16 +43,16 @@ POST /api/v1/Agents/List/GetCurrency?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response: object
 
-Carrier object for Currency.
-Services for the Currency Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IListAgent">List Agent</see>.
+## Response: 
+
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -55,35 +62,31 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/List/GetCurrency
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 717,
-  "Value": "corporis",
-  "Tooltip": "ut",
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": "incentivize granular e-tailers"
-  },
+  "Id": 997,
+  "Value": "quod",
+  "Tooltip": "praesentium",
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
-      "FieldType": "System.String",
-      "FieldLength": 282
+      "FieldRight": null,
+      "FieldType": "System.Int32",
+      "FieldLength": 921
     }
   }
 }

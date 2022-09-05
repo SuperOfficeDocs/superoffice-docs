@@ -1,6 +1,6 @@
 ---
 title: POST Agents/List/GetDeliveryType
-id: v1ListAgent_GetDeliveryType
+uid: v1ListAgent_GetDeliveryType
 ---
 
 # POST Agents/List/GetDeliveryType
@@ -11,6 +11,12 @@ POST /api/v1/Agents/List/GetDeliveryType
 
 Gets a DeliveryType object.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -19,9 +25,10 @@ Gets a DeliveryType object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetDeliveryType?deliveryTypeId=856
+POST /api/v1/Agents/List/GetDeliveryType?deliveryTypeId=434
 POST /api/v1/Agents/List/GetDeliveryType?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -36,18 +43,16 @@ POST /api/v1/Agents/List/GetDeliveryType?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response: object
 
-The built-in delivery types list. Used by the SuperOffice Quote Connector in quote versions.
+## Response: 
 
-Carrier object for DeliveryType.
-Services for the DeliveryType Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IListAgent">List Agent</see>.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -57,35 +62,31 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/List/GetDeliveryType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 508,
-  "Value": "ullam",
-  "Tooltip": "numquam",
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "Id": 146,
+  "Value": "debitis",
+  "Tooltip": "necessitatibus",
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
+      "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 797
+      "FieldLength": 19
     }
   }
 }

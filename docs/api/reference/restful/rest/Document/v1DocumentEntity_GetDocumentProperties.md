@@ -1,6 +1,6 @@
 ---
 title: GET Document/{id}/Property
-id: v1DocumentEntity_GetDocumentProperties
+uid: v1DocumentEntity_GetDocumentProperties
 ---
 
 # GET Document/{id}/Property
@@ -11,11 +11,17 @@ GET /api/v1/Document/{documentId}/Property
 
 Get plugin-dependent properties for the document.
 
+
 A number of standard properties that should be supported by all plugins are defined in SuperOffice.CRM.Documents.Constants.Properties.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | documentId | int32 | SuperOffice document ID **Required** |
+
 
 ## Query String Parameters
 
@@ -26,6 +32,7 @@ A number of standard properties that should be supported by all plugins are defi
 ```http
 GET /api/v1/Document/{documentId}/Property?requestedProperties=Path
 ```
+
 
 ## Request Headers
 
@@ -40,7 +47,10 @@ GET /api/v1/Document/{documentId}/Property?requestedProperties=Path
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
+
 ## Response: object
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -48,21 +58,24 @@ GET /api/v1/Document/{documentId}/Property?requestedProperties=Path
 
 Response body: object
 
-## Sample Request
+
+## Sample request
 
 ```http!
 GET /api/v1/Document/{documentId}/Property
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "1": "nostrum",
-  "2": "ea"
+  "1": "vel",
+  "2": "itaque"
 }
 ```

@@ -7,7 +7,7 @@ keywords:
   - "mdo provider"
   - "country"
 so.generated: true
-so.date: 03.19.2021
+so.date: 08.26.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -15,8 +15,10 @@ so.envir:
 ---
 
 # "country" MDO List
-
 The name of the MDO list is 'country'.
+
+
+
 
 ## Sample Request
 
@@ -29,7 +31,6 @@ Accept-Language: *
 ```
 
 ## Sample Code
-
 ```cs
 var listProvider = SuperOffice.CRM.Lists.SoListProviderFactory.Create("country", forceFlatList: true);
 foreach (var item in listProvider.RootItems) {
@@ -63,6 +64,7 @@ foreach (var item in listProvider.RootItems) {
 |50|Bangladesh|||
 |52|Barbados|||
 |112|Belarus|||
+
 
 ## Related MDO Lists
 

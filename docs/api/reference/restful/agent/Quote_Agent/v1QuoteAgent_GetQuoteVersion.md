@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Quote/GetQuoteVersion
-id: v1QuoteAgent_GetQuoteVersion
+uid: v1QuoteAgent_GetQuoteVersion
 ---
 
 # POST Agents/Quote/GetQuoteVersion
@@ -11,6 +11,12 @@ POST /api/v1/Agents/Quote/GetQuoteVersion
 
 Get a QuoteVersion
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Get a QuoteVersion
 ```http
 POST /api/v1/Agents/Quote/GetQuoteVersion?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,26 +42,24 @@ POST /api/v1/Agents/Quote/GetQuoteVersion?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-QuoteVersionId
+QuoteVersionId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | QuoteVersionId | int32 |  |
 
-## Response: object
 
-Information about a version of the .
+## Response: 
 
-Carrier object for QuoteVersion.
-Services for the QuoteVersion Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IQuoteAgent">Quote Agent</see>.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -94,115 +99,112 @@ Response body: object
 | UpdatedAssociateId | int32 | Last updated by whom |
 | Registered | date-time | Registered when  in UTC. |
 | RegisteredAssociateId | int32 | Registered by whom |
+| RequestAssociateId | int32 | User to whom the request proposal should be delivered |
+| RequestComment | string | Comment for why quote should be approved |
 | QuoteAlternatives | array | The QuoteAlternatives for the QuoteVersion |
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Quote/GetQuoteVersion
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 231
+  "QuoteVersionId": 312
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 768,
-  "ERPQuoteVersionKey": "nihil",
-  "QuoteId": 687,
-  "Description": "Optimized actuating extranet",
-  "Number": "1721474",
+  "QuoteVersionId": 527,
+  "ERPQuoteVersionKey": "aut",
+  "QuoteId": 863,
+  "Description": "Devolved explicit customer loyalty",
+  "Number": "1650484",
   "State": "Archived",
   "ArchivedState": "Archived",
   "Status": "Error",
-  "Reason": "",
-  "LikelyQuoteAlternativeId": 146,
-  "SentDate": "2003-02-13T18:28:49.918138+01:00",
-  "FollowupId": 944,
-  "ExpirationDate": "2004-02-12T18:28:49.918138+01:00",
-  "DeliveryCountryId": 376,
+  "Reason": "mesh rich schemas",
+  "LikelyQuoteAlternativeId": 493,
+  "SentDate": "1995-12-26T11:10:27.6514572+01:00",
+  "FollowupId": 360,
+  "ExpirationDate": "1998-03-24T11:10:27.6514572+01:00",
+  "DeliveryCountryId": 662,
   "HasOwnDeliveryAddress": false,
-  "InvoiceCountryId": 846,
+  "InvoiceCountryId": 635,
   "HasOwnInvoiceAddress": false,
-  "ERPPaymentTermsKey": "nesciunt",
-  "ERPPaymentTypeKey": "error",
-  "ERPDeliveryTermsKey": "dignissimos",
-  "ERPDeliveryTypeKey": "quidem",
-  "Rank": 780,
-  "ApprovedBy": 824,
-  "ApprovedText": "sunt",
-  "ApprovedRegisteredBy": 878,
-  "ApprovedRegisteredDate": "2021-05-24T18:28:49.918138+02:00",
-  "ExtraField1": "placeat",
-  "ExtraField2": "non",
-  "ExtraField3": "eos",
-  "ExtraField4": "laborum",
-  "ExtraField5": "quas",
-  "LastRecalculated": "2005-09-10T18:28:49.9191377+02:00",
-  "Updated": "2005-11-02T18:28:49.9191377+01:00",
-  "UpdatedAssociateId": 310,
-  "Registered": "2004-02-10T18:28:49.9191377+01:00",
-  "RegisteredAssociateId": 725,
+  "ERPPaymentTermsKey": "in",
+  "ERPPaymentTypeKey": "praesentium",
+  "ERPDeliveryTermsKey": "commodi",
+  "ERPDeliveryTypeKey": "eligendi",
+  "Rank": 569,
+  "ApprovedBy": 227,
+  "ApprovedText": "numquam",
+  "ApprovedRegisteredBy": 504,
+  "ApprovedRegisteredDate": "1998-05-12T11:10:27.6514572+02:00",
+  "ExtraField1": "reprehenderit",
+  "ExtraField2": "fugit",
+  "ExtraField3": "enim",
+  "ExtraField4": "qui",
+  "ExtraField5": "labore",
+  "LastRecalculated": "2018-02-06T11:10:27.6514572+01:00",
+  "Updated": "2004-05-27T11:10:27.6514572+02:00",
+  "UpdatedAssociateId": 962,
+  "Registered": "2008-02-16T11:10:27.6514572+01:00",
+  "RegisteredAssociateId": 476,
+  "RequestAssociateId": 283,
+  "RequestComment": "qui",
   "QuoteAlternatives": [
     {
-      "QuoteAlternativeId": 686,
-      "ERPQuoteAlternativeKey": "maxime",
-      "QuoteVersionId": 190,
-      "Name": "Lemke, Franecki and Goyette",
-      "Description": "Cross-platform incremental migration",
+      "QuoteAlternativeId": 651,
+      "ERPQuoteAlternativeKey": "numquam",
+      "QuoteVersionId": 96,
+      "Name": "Green-Rosenbaum",
+      "Description": "Public-key didactic workforce",
       "Status": "Error",
       "Reason": "",
-      "ERPDiscountPercent": 29572.424,
-      "ERPDiscountAmount": 22100.968,
-      "DiscountPercent": 30835.426,
-      "DiscountAmount": 8035.576,
+      "ERPDiscountPercent": 9198.2899999999991,
+      "ERPDiscountAmount": 22640.016,
+      "DiscountPercent": 24730.394,
+      "DiscountAmount": 31067.342,
       "UserValueOverride": "DiscountAmount",
-      "VATInfo": "commodi",
-      "VAT": 6126.9699999999993,
-      "EarningPercent": 6841.522,
-      "EarningAmount": 5077.08,
-      "SubTotal": 2877.0119999999997,
-      "TotalPrice": 30788.415999999997,
-      "ExtraField1": "dolorum",
-      "ExtraField2": "et",
-      "ExtraField3": "iusto",
-      "ExtraField4": "reprehenderit",
-      "ExtraField5": "explicabo",
-      "TableRight": {},
+      "VATInfo": "voluptatem",
+      "VAT": 5518.974,
+      "EarningPercent": 9354.99,
+      "EarningAmount": 17738.44,
+      "SubTotal": 12100.374,
+      "TotalPrice": 2062.172,
+      "ExtraField1": "inventore",
+      "ExtraField2": "earum",
+      "ExtraField3": "cumque",
+      "ExtraField4": "dicta",
+      "ExtraField5": "saepe",
+      "TableRight": null,
       "FieldProperties": {
         "fieldName": {
-          "FieldRight": {
-            "Mask": "FULL",
-            "Reason": ""
-          },
-          "FieldType": "System.String",
-          "FieldLength": 956
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 94
         }
       }
     }
   ],
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
-      "FieldType": "System.String",
-      "FieldLength": 873
+      "FieldRight": null,
+      "FieldType": "System.Int32",
+      "FieldLength": 78
     }
   }
 }

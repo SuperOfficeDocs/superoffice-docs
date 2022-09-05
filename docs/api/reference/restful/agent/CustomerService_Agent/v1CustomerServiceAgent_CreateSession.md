@@ -1,6 +1,6 @@
 ---
 title: POST Agents/CustomerService/CreateSession
-id: v1CustomerServiceAgent_CreateSession
+uid: v1CustomerServiceAgent_CreateSession
 ---
 
 # POST Agents/CustomerService/CreateSession
@@ -11,6 +11,12 @@ POST /api/v1/Agents/CustomerService/CreateSession
 
 Creates a login session for a CS user
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Creates a login session for a CS user
 ```http
 POST /api/v1/Agents/CustomerService/CreateSession?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,24 +42,24 @@ POST /api/v1/Agents/CustomerService/CreateSession?$select=name,department,catego
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-RemoteIp
+RemoteIp 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | RemoteIp | string |  |
 
-## Response: object
 
-Carrier object for CsSessionKey.
-Services for the CsSessionKey Carrier is available from the <see cref="T:SuperOffice.CRM.Services.ICustomerServiceAgent">CustomerService Agent</see>.
+## Response: 
+
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -62,7 +69,7 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/CustomerService/CreateSession
@@ -72,30 +79,26 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "RemoteIp": "doloribus"
+  "RemoteIp": "et"
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "blanditiis",
-  "LoginId": 422,
-  "UserId": 351,
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "Key": "voluptatem",
+  "LoginId": 57,
+  "UserId": 60,
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
+      "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 545
+      "FieldLength": 813
     }
   }
 }

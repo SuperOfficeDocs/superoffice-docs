@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "ResourceOverride"
-so.date: 04.12.2022
+so.date: 08.26.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -32,6 +32,7 @@ Generic mechanism for overriding (or even defining new) text resources, in multi
 |updated\_associate\_id|Last updated by whom|FK [associate](associate.md)|&#x25CF;|
 |updatedCount|Number of updates made to this record|UShort|&#x25CF;|
 
+
 ![ResourceOverride table relationship diagram](./media/ResourceOverride.png)
 
 [!include[details](./includes/resourceoverride.md)]
@@ -49,6 +50,7 @@ Generic mechanism for overriding (or even defining new) text resources, in multi
 |------|-------------|
 |[associate](associate.md)  |Employees, resources and other users - except for External persons |
 
+
 ## Replication Flags
 
 * Replicate changes DOWN from central to satellites and travellers.
@@ -58,3 +60,4 @@ Generic mechanism for overriding (or even defining new) text resources, in multi
 ## Security Flags
 
 * No access control via user's Role.
+

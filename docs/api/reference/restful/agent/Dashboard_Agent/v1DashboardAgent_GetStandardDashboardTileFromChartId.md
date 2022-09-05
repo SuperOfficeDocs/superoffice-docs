@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Dashboard/GetStandardDashboardTileFromChartId
-id: v1DashboardAgent_GetStandardDashboardTileFromChartId
+uid: v1DashboardAgent_GetStandardDashboardTileFromChartId
 ---
 
 # POST Agents/Dashboard/GetStandardDashboardTileFromChartId
@@ -11,6 +11,12 @@ POST /api/v1/Agents/Dashboard/GetStandardDashboardTileFromChartId
 
 Gets the standard tile (not personal tile) corresponding to the given chart id
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Gets the standard tile (not personal tile) corresponding to the given chart id
 ```http
 POST /api/v1/Agents/Dashboard/GetStandardDashboardTileFromChartId?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,26 +42,24 @@ POST /api/v1/Agents/Dashboard/GetStandardDashboardTileFromChartId?$select=name,d
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-ChartId
+ChartId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | ChartId | string |  |
 
-## Response: object
 
-Dashboard Tile configuration
+## Response: 
 
-Carrier object for DashboardTile.
-Services for the DashboardTile Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IDashboardAgent">Dashboard Agent</see>.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -75,108 +80,95 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Dashboard/GetStandardDashboardTileFromChartId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChartId": "voluptatibus"
+  "ChartId": "perferendis"
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 318,
-  "Caption": "maiores",
-  "Description": "Monitored clear-thinking firmware",
-  "ChartName": "Mertz, Rath and Raynor",
-  "ChartId": "sequi",
+  "DashboardTileId": 856,
+  "Caption": "et",
+  "Description": "Re-engineered grid-enabled time-frame",
+  "ChartName": "Langosh-Mayer",
+  "ChartId": "architecto",
   "IsDefault": true,
-  "AssociateId": 81,
-  "GroupId": 934,
-  "SelectionId": 743,
-  "Config": "sunt",
+  "AssociateId": 788,
+  "GroupId": 617,
+  "SelectionId": 568,
+  "Config": "tenetur",
   "Type": "Bignum",
   "EntityType": "Activity",
   "Options": [
     {
-      "Name": "Dibbert, Olson and Robel",
-      "Description": "Object-based modular attitude",
+      "Name": "Thiel-Lowe",
+      "Description": "Secured client-driven frame",
       "Type": "Boolean",
-      "ListName": "Rolfson-Spinka",
+      "ListName": "Haley Group",
       "ListItems": [
         {},
         {}
       ],
-      "Value": "mollitia",
-      "DefaultDataOption": false,
-      "TableRight": {},
+      "Value": "nemo",
+      "DefaultDataOption": true,
+      "TableRight": null,
       "FieldProperties": {
         "fieldName": {
-          "FieldRight": {
-            "Mask": "FULL",
-            "Reason": ""
-          },
+          "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 857
+          "FieldLength": 69
         }
       }
     }
   ],
   "VisibleFor": [
     {
-      "VisibleId": 453,
+      "VisibleId": 17,
       "Visibility": "All",
-      "DisplayValue": "expedita",
-      "TableRight": {},
+      "DisplayValue": "asperiores",
+      "TableRight": null,
       "FieldProperties": {
         "fieldName": {
-          "FieldRight": {
-            "Mask": "FULL",
-            "Reason": ""
-          },
+          "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 879
+          "FieldLength": 889
         }
       }
     },
     {
-      "VisibleId": 453,
+      "VisibleId": 17,
       "Visibility": "All",
-      "DisplayValue": "expedita",
-      "TableRight": {},
+      "DisplayValue": "asperiores",
+      "TableRight": null,
       "FieldProperties": {
         "fieldName": {
-          "FieldRight": {
-            "Mask": "FULL",
-            "Reason": ""
-          },
+          "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 879
+          "FieldLength": 889
         }
       }
     }
   ],
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
-      "FieldType": "System.Int32",
-      "FieldLength": 262
+      "FieldRight": null,
+      "FieldType": "System.String",
+      "FieldLength": 726
     }
   }
 }

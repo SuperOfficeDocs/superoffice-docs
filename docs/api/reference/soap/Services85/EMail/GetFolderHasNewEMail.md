@@ -17,6 +17,7 @@ Check if folder has received new items since previous access.
 
 **Returns:** True if new mail is available.
 
+
 [WSDL file for Services85/EMail](../Services85-EMail.md)
 
 Obtain a ticket from the [Services85/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -55,6 +56,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## GetFolderHasNewEMail Response
 
 ```xml
@@ -75,3 +77,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

@@ -1,6 +1,6 @@
 ---
 title: GET List/PaymentType/Items/{id}/UserGroups
-id: v1PaymentTypeList_GetPaymentTypeUserGroupsForListItem
+uid: v1PaymentTypeList_GetPaymentTypeUserGroupsForListItem
 ---
 
 # GET List/PaymentType/Items/{id}/UserGroups
@@ -11,11 +11,18 @@ GET /api/v1/List/PaymentType/Items/{itemId}/UserGroups
 
 Gets user groups visible for the PaymentType list's item.
 
+
 Calls the List agent service GetHeadings.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | itemId | int32 | The ID of the item to get. **Required** |
+
+
 
 ## Request Headers
 
@@ -30,7 +37,10 @@ Calls the List agent service GetHeadings.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -58,14 +68,16 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 GET /api/v1/List/PaymentType/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -73,65 +85,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 234,
-    "Name": "Muller-Hessel",
-    "ToolTip": "Maiores natus.",
-    "Deleted": false,
-    "Rank": 799,
-    "Type": "rerum",
-    "ColorBlock": 441,
-    "IconHint": "eum",
+    "Id": 421,
+    "Name": "Bogisich LLC",
+    "ToolTip": "Et animi autem eos quasi architecto.",
+    "Deleted": true,
+    "Rank": 429,
+    "Type": "impedit",
+    "ColorBlock": 169,
+    "IconHint": "velit",
     "Selected": false,
-    "LastChanged": "2019-07-22T18:25:51.9402443+02:00",
+    "LastChanged": "2017-12-13T11:10:54.3568995+01:00",
     "ChildItems": [
       {
-        "Id": 51,
-        "Name": "Little-Brakus",
-        "ToolTip": "Ut ipsa dicta.",
-        "Deleted": true,
-        "Rank": 201,
-        "Type": "voluptas",
-        "ColorBlock": 428,
-        "IconHint": "asperiores",
+        "Id": 678,
+        "Name": "Satterfield LLC",
+        "ToolTip": "Aliquid ut quos rem.",
+        "Deleted": false,
+        "Rank": 693,
+        "Type": "voluptatem",
+        "ColorBlock": 813,
+        "IconHint": "ullam",
         "Selected": false,
-        "LastChanged": "2009-03-04T18:25:51.9412397+01:00",
+        "LastChanged": "2013-02-10T11:10:54.3568995+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quisquam",
-        "StyleHint": "eligendi",
+        "ExtraInfo": "minus",
+        "StyleHint": "est",
         "Hidden": false,
-        "FullName": "Jermaine Smitham",
-        "TableRight": {},
+        "FullName": "Mikayla Marks PhD",
+        "TableRight": null,
         "FieldProperties": {
           "fieldName": {
-            "FieldRight": {
-              "Mask": "FULL",
-              "Reason": ""
-            },
-            "FieldType": "System.String",
-            "FieldLength": 594
+            "FieldRight": null,
+            "FieldType": "System.Int32",
+            "FieldLength": 69
           }
         }
       }
     ],
-    "ExtraInfo": "numquam",
-    "StyleHint": "in",
+    "ExtraInfo": "blanditiis",
+    "StyleHint": "aut",
     "Hidden": false,
-    "FullName": "Rodrigo Hammes",
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": "visualize granular relationships"
-    },
+    "FullName": "Mr. Laurine Imelda Miller",
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 794
+        "FieldRight": null,
+        "FieldType": "System.Int32",
+        "FieldLength": 191
       }
     }
   }

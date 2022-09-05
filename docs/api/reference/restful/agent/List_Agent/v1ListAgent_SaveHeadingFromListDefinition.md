@@ -1,6 +1,6 @@
 ---
 title: POST Agents/List/SaveHeadingFromListDefinition
-id: v1ListAgent_SaveHeadingFromListDefinition
+uid: v1ListAgent_SaveHeadingFromListDefinition
 ---
 
 # POST Agents/List/SaveHeadingFromListDefinition
@@ -11,6 +11,12 @@ POST /api/v1/Agents/List/SaveHeadingFromListDefinition
 
 Save new heading for list resolved by the provided id.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Save new heading for list resolved by the provided id.
 ```http
 POST /api/v1/Agents/List/SaveHeadingFromListDefinition?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,27 +42,25 @@ POST /api/v1/Agents/List/SaveHeadingFromListDefinition?$select=name,department,c
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-Id, Entity
+Id, Entity 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | Id | int32 |  |
-| Entity |  | The heading entity contains generic list item information <br /> Carrier object for HeadingEntity. Services for the HeadingEntity Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IListAgent">List Agent</see>. |
+| Entity |  | The heading entity contains generic list item information <para /> Carrier object for HeadingEntity. Services for the HeadingEntity Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IListAgent">List Agent</see>. |
 
-## Response: object
 
-The heading entity contains generic list item information
+## Response: 
 
-Carrier object for HeadingEntity.
-Services for the HeadingEntity Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IListAgent">List Agent</see>.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -68,51 +73,40 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/List/SaveHeadingFromListDefinition
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 466,
-  "Entity": {
-    "HeadingId": 73,
-    "Name": "Gutkowski Inc and Sons",
-    "Tooltip": "autem",
-    "Deleted": true,
-    "Rank": 510,
-    "UdListDefinitionId": 744
-  }
+  "Id": 93,
+  "Entity": null
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 540,
-  "Name": "Schuster Inc and Sons",
-  "Tooltip": "et",
-  "Deleted": false,
-  "Rank": 59,
-  "UdListDefinitionId": 442,
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "HeadingId": 450,
+  "Name": "Ritchie Group",
+  "Tooltip": "repellendus",
+  "Deleted": true,
+  "Rank": 668,
+  "UdListDefinitionId": 404,
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
-      "FieldType": "System.Int32",
-      "FieldLength": 131
+      "FieldRight": null,
+      "FieldType": "System.String",
+      "FieldLength": 672
     }
   }
 }

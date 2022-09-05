@@ -15,6 +15,8 @@ Remove the license from a particular module owner from the database.  It is not 
 
 * **moduleOwner:** Name of the module owner to remove license from.
 
+
+
 [WSDL file for Services87/License](../Services87-License.md)
 
 Obtain a ticket from the [Services87/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -48,6 +50,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## RemoveLicenseFromDB Response
 
 ```xml
@@ -72,3 +75,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

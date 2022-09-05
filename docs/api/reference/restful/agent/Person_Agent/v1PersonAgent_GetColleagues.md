@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Person/GetColleagues
-id: v1PersonAgent_GetColleagues
+uid: v1PersonAgent_GetColleagues
 ---
 
 # POST Agents/Person/GetColleagues
@@ -11,6 +11,12 @@ POST /api/v1/Agents/Person/GetColleagues
 
 Gets the persons working in the same company as the logged on user.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Gets the persons working in the same company as the logged on user.
 ```http
 POST /api/v1/Agents/Person/GetColleagues?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -34,7 +41,10 @@ POST /api/v1/Agents/Person/GetColleagues?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -87,7 +97,7 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Person/GetColleagues
@@ -96,64 +106,60 @@ Accept: application/json; charset=utf-8
 Accept-Language: en
 ```
 
+## Sample response
+
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Position": "illo",
-    "PersonId": 332,
-    "Mrmrs": "sit",
-    "Firstname": "Karley",
-    "Lastname": "McLaughlin",
-    "MiddleName": "O'Connell Group",
-    "Title": "officiis",
-    "Description": "Customizable systematic protocol",
-    "Email": "anahi_mccullough@quigley.co.uk",
-    "FullName": "Lora Stehr PhD",
-    "DirectPhone": "1-015-152-1025",
-    "FormalName": "Rau-Stokes",
-    "CountryId": 461,
-    "ContactId": 161,
-    "ContactName": "Corkery-Muller",
-    "Retired": 710,
-    "Rank": 945,
-    "ActiveInterests": 504,
-    "ContactDepartment": "iterate distributed action-items",
-    "ContactCountryId": 182,
-    "ContactOrgNr": "1136502",
-    "FaxPhone": "162.621.4372 x76733",
-    "MobilePhone": "1-732-840-0187",
-    "ContactPhone": "1-286-446-0171 x05261",
-    "AssociateName": "Hudson Group",
-    "AssociateId": 234,
+    "Position": "consequatur",
+    "PersonId": 378,
+    "Mrmrs": "corporis",
+    "Firstname": "Marlene",
+    "Lastname": "Farrell",
+    "MiddleName": "Doyle-Schneider",
+    "Title": "doloremque",
+    "Description": "Exclusive multi-tasking data-warehouse",
+    "Email": "clinton@dubuqueboyle.biz",
+    "FullName": "Prof. Minnie Conn",
+    "DirectPhone": "508-290-5072",
+    "FormalName": "Waters-Simonis",
+    "CountryId": 112,
+    "ContactId": 505,
+    "ContactName": "Schaden, Luettgen and Kihn",
+    "Retired": 89,
+    "Rank": 240,
+    "ActiveInterests": 980,
+    "ContactDepartment": "",
+    "ContactCountryId": 558,
+    "ContactOrgNr": "829048",
+    "FaxPhone": "(799)638-0389 x65105",
+    "MobilePhone": "532-885-4548",
+    "ContactPhone": "732.923.4681 x34794",
+    "AssociateName": "Reinger Inc and Sons",
+    "AssociateId": 197,
     "UsePersonAddress": false,
-    "ContactFax": "laudantium",
-    "Kanafname": "quos",
-    "Kanalname": "rem",
-    "Post1": "rem",
-    "Post2": "id",
-    "Post3": "placeat",
-    "EmailName": "elinore@huels.info",
-    "ContactFullName": "Winnifred Rodriguez",
-    "ActiveErpLinks": 228,
-    "TicketPriorityId": 570,
-    "SupportLanguageId": 223,
-    "SupportAssociateId": 826,
+    "ContactFax": "officiis",
+    "Kanafname": "ducimus",
+    "Kanalname": "expedita",
+    "Post1": "assumenda",
+    "Post2": "enim",
+    "Post3": "voluptatibus",
+    "EmailName": "idell_thompson@nienowschinner.info",
+    "ContactFullName": "Amber Hansen",
+    "ActiveErpLinks": 70,
+    "TicketPriorityId": 186,
+    "SupportLanguageId": 412,
+    "SupportAssociateId": 784,
     "CategoryName": "VIP Customer",
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
+        "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 618
+        "FieldLength": 394
       }
     }
   }

@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Appointment/GetTaskListItems
-id: v1AppointmentAgent_GetTaskListItems
+uid: v1AppointmentAgent_GetTaskListItems
 ---
 
 # POST Agents/Appointment/GetTaskListItems
@@ -11,6 +11,12 @@ POST /api/v1/Agents/Appointment/GetTaskListItems
 
 Gets all takslist items
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Gets all takslist items
 ```http
 POST /api/v1/Agents/Appointment/GetTaskListItems?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,15 +42,18 @@ POST /api/v1/Agents/Appointment/GetTaskListItems?$select=name,department,categor
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-IncludeDeleted
+IncludeDeleted 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | IncludeDeleted | bool |  |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -69,19 +79,21 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Appointment/GetTaskListItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "IncludeDeleted": true
+  "IncludeDeleted": false
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -89,31 +101,25 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TaskListItemId": 759,
-    "Value": "magnam",
+    "TaskListItemId": 756,
+    "Value": "ut",
     "Direction": "Incoming",
     "Type": "Appointment",
-    "Tooltip": "placeat",
+    "Tooltip": "necessitatibus",
     "Deleted": true,
-    "IntentId": 896,
-    "Rank": 661,
-    "IsDefaultAlldayEvent": true,
-    "IsDefaultFree": true,
-    "IsDefaultPublished": true,
+    "IntentId": 571,
+    "Rank": 181,
+    "IsDefaultAlldayEvent": false,
+    "IsDefaultFree": false,
+    "IsDefaultPublished": false,
     "ColorIndex": "BlueAlt1",
     "DefaultVideomeetingStatus": "NoChange",
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 95
+        "FieldRight": null,
+        "FieldType": "System.Int32",
+        "FieldLength": 267
       }
     }
   }

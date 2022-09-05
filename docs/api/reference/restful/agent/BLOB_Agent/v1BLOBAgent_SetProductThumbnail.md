@@ -1,6 +1,6 @@
 ---
 title: POST Agents/BLOB/SetProductThumbnail
-id: v1BLOBAgent_SetProductThumbnail
+uid: v1BLOBAgent_SetProductThumbnail
 ---
 
 # POST Agents/BLOB/SetProductThumbnail
@@ -11,7 +11,13 @@ POST /api/v1/Agents/BLOB/SetProductThumbnail
 
 Stores the product thumbnail that is displayed in the CRM application.
 
+
 The image is scaled down to max 200x200 pixels.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -23,6 +29,7 @@ The image is scaled down to max 200x200 pixels.
 POST /api/v1/Agents/BLOB/SetProductThumbnail?$select=name,department,category/id
 ```
 
+
 ## Request Headers
 
 | Parameter Name | Description |
@@ -30,19 +37,50 @@ POST /api/v1/Agents/BLOB/SetProductThumbnail?$select=name,department,category/id
 | Authorization  | Supports 'Basic', 'SoTicket' and 'Bearer' schemes, depending on installation type. |
 | X-XSRF-TOKEN   | If not using Authorization header, you must provide XSRF value from cookie or hidden input field |
 | Content-Type | Content-type of the request body: `application/json`, `text/json`, `application/xml`, `text/xml`, `application/x-www-form-urlencoded`, `application/json-patch+json`, `application/merge-patch+json` |
+| Accept         | Content-type(s) you would like the response in:  |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-ProductId, Image
+ProductId, Image 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | ProductId | int32 |  |
 | Image | byte |  |
 
-## Response
+
+## Response: 
+
+No Content
 
 | Response | Description |
 |----------------|-------------|
 | 204 | No Content |
+
+Response body: 
+
+
+## Sample request
+
+```http!
+POST /api/v1/Agents/BLOB/SetProductThumbnail
+Authorization: Basic dGplMDpUamUw
+Accept: application/json; charset=utf-8
+Accept-Language: en
+Content-Type: application/json; charset=utf-8
+
+{
+  "ProductId": 949,
+  "Image": "GIF89....File contents as raw bytes..."
+}
+```
+
+## Sample response
+
+```http_
+HTTP/1.1 204 No Content
+Content-Type: application/json; charset=utf-8
+
+null
+```

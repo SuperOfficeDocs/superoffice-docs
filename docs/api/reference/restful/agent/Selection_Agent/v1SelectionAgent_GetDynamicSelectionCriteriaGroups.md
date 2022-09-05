@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Selection/GetDynamicSelectionCriteriaGroups
-id: v1SelectionAgent_GetDynamicSelectionCriteriaGroups
+uid: v1SelectionAgent_GetDynamicSelectionCriteriaGroups
 ---
 
 # POST Agents/Selection/GetDynamicSelectionCriteriaGroups
@@ -11,7 +11,13 @@ POST /api/v1/Agents/Selection/GetDynamicSelectionCriteriaGroups
 
 Get the criteria for this dynamic selection.
 
+
 This call supports multiple criteria groups.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +28,7 @@ This call supports multiple criteria groups.
 ```http
 POST /api/v1/Agents/Selection/GetDynamicSelectionCriteriaGroups?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,15 +44,18 @@ POST /api/v1/Agents/Selection/GetDynamicSelectionCriteriaGroups?$select=name,dep
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-SelectionId
+SelectionId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | SelectionId | int32 |  |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -60,7 +70,7 @@ Response body: array
 | Rank | int32 |  |
 | Restrictions | array |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Selection/GetDynamicSelectionCriteriaGroups
@@ -70,9 +80,11 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 501
+  "SelectionId": 532
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -80,58 +92,58 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Koepp Inc and Sons",
-    "Description": "Organic heuristic flexibility",
-    "Rank": 221,
+    "Name": "Mitchell, Monahan and Brown",
+    "Description": "Cross-platform scalable ability",
+    "Rank": 69,
     "Restrictions": [
       {
-        "Name": "Spinka Group",
-        "Operator": "debitis",
+        "Name": "Kemmer Group",
+        "Operator": "perspiciatis",
         "Values": [
-          "non",
-          "est"
+          "maiores",
+          "delectus"
         ],
         "DisplayValues": [
-          "autem",
-          "dolor"
+          "ab",
+          "magnam"
         ],
-        "ColumnInfo": {},
-        "IsActive": false,
+        "ColumnInfo": null,
+        "IsActive": true,
         "SubRestrictions": [
           {},
           {}
         ],
-        "InterParenthesis": 985,
+        "InterParenthesis": 690,
         "InterOperator": "And",
-        "UniqueHash": 656
+        "UniqueHash": 609
       }
     ]
   },
   {
-    "Name": "Koepp Inc and Sons",
-    "Description": "Organic heuristic flexibility",
-    "Rank": 221,
+    "Name": "Mitchell, Monahan and Brown",
+    "Description": "Cross-platform scalable ability",
+    "Rank": 69,
     "Restrictions": [
       {
-        "Name": "Spinka Group",
-        "Operator": "debitis",
+        "Name": "Kemmer Group",
+        "Operator": "perspiciatis",
         "Values": [
-          "non",
-          "est"
+          "maiores",
+          "delectus"
         ],
         "DisplayValues": [
-          "autem",
-          "dolor"
+          "ab",
+          "magnam"
         ],
-        "ColumnInfo": {},
-        "IsActive": false,
+        "ColumnInfo": null,
+        "IsActive": true,
         "SubRestrictions": [
           {},
           {}
         ],
-        "InterParenthesis": 985,
+        "InterParenthesis": 690,
         "InterOperator": "And",
-        "UniqueHash": 656
+        "UniqueHash": 609
       }
     ]
   }

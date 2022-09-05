@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Marketing/GetFormSubmissionEntity
-id: v1MarketingAgent_GetFormSubmissionEntity
+uid: v1MarketingAgent_GetFormSubmissionEntity
 ---
 
 # POST Agents/Marketing/GetFormSubmissionEntity
@@ -11,6 +11,12 @@ POST /api/v1/Agents/Marketing/GetFormSubmissionEntity
 
 Gets a FormSubmissionEntity object.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -19,9 +25,10 @@ Gets a FormSubmissionEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Marketing/GetFormSubmissionEntity?formSubmissionEntityId=662
+POST /api/v1/Agents/Marketing/GetFormSubmissionEntity?formSubmissionEntityId=793
 POST /api/v1/Agents/Marketing/GetFormSubmissionEntity?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -36,18 +43,16 @@ POST /api/v1/Agents/Marketing/GetFormSubmissionEntity?$select=name,department,ca
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response: object
 
-Content of a Form submission
+## Response: 
 
-Carrier object for FormSubmissionEntity.
-Services for the FormSubmissionEntity Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IMarketingAgent">Marketing Agent</see>.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -64,42 +69,38 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Marketing/GetFormSubmissionEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "FormSubmissionId": 101,
-  "FormId": 625,
-  "WhenSubmitted": "2006-03-03T18:28:49.4680875+01:00",
-  "ContactId": 952,
-  "PersonId": 410,
-  "EmailAddress": "bruce@huelbosco.uk",
-  "ResponseShipmentAddrId": 345,
-  "Response": "tempora",
+  "FormSubmissionId": 791,
+  "FormId": 688,
+  "WhenSubmitted": "1999-01-16T11:10:27.2934539+01:00",
+  "ContactId": 726,
+  "PersonId": 674,
+  "EmailAddress": "eva_wunsch@ziemann.com",
+  "ResponseShipmentAddrId": 154,
+  "Response": "molestiae",
   "Status": "EmailVerification",
-  "ProcessingLog": "saepe",
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "ProcessingLog": "ipsam",
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
-      "FieldType": "System.String",
-      "FieldLength": 975
+      "FieldRight": null,
+      "FieldType": "System.Int32",
+      "FieldLength": 567
     }
   }
 }

@@ -13,7 +13,9 @@ Implemented by the <see cref="M:SuperOffice.Services87.ICustomerServiceAgent.Che
 
 Checks whether the core html templates are customized
 
+
 **Returns:** True if the templates are customized
+
 
 [WSDL file for Services87/CustomerService](../Services87-CustomerService.md)
 
@@ -46,6 +48,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## CheckIfCustomizedTemplates Response
 
 ```xml
@@ -66,3 +69,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

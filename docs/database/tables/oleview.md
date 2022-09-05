@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "OLEView"
-so.date: 04.12.2022
+so.date: 08.26.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -31,6 +31,7 @@ Control data table for the OLE DB Provider
 |updated\_associate\_id|Last updated by whom|FK [associate](associate.md)| |
 |updatedCount|Number of updates made to this record|UShort| |
 
+
 ![OLEView table relationship diagram](./media/OLEView.png)
 
 [!include[details](./includes/oleview.md)]
@@ -51,6 +52,7 @@ Control data table for the OLE DB Provider
 |[OLESubject](olesubject.md)  |Control data table for the OLE DB Provider |
 |[ReporterListDef](reporterlistdef.md)  |Reporter definitions |
 
+
 ## Replication Flags
 
 * Replicate changes DOWN from central to satellites and travellers.
@@ -60,3 +62,4 @@ Control data table for the OLE DB Provider
 ## Security Flags
 
 * No access control via user's Role.
+

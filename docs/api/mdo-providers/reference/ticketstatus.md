@@ -7,7 +7,7 @@ keywords:
   - "mdo provider"
   - "ticketstatus"
 so.generated: true
-so.date: 03.19.2021
+so.date: 08.26.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -15,11 +15,15 @@ so.envir:
 ---
 
 # "ticketstatus" MDO List
-
 Ticket status values: Open, Closed, Inactive, Deleted, Connected
+
+
 
 Implemented by the <see cref="T:SuperOffice.CRM.Lists.TicketStatusProvider">TicketStatusProvider</see> class.
 The name of the MDO list is 'ticketstatus'.
+
+
+
 
 ## Sample Request
 
@@ -32,7 +36,6 @@ Accept-Language: *
 ```
 
 ## Sample Code
-
 ```cs
 var listProvider = SuperOffice.CRM.Lists.SoListProviderFactory.Create("ticketstatus", forceFlatList: true);
 foreach (var item in listProvider.RootItems) {
@@ -45,11 +48,12 @@ foreach (var item in listProvider.RootItems) {
 
 |Id   | Name  |StyleHint|ExtraInfo |
 | --- | ----- | ------- | -------- |
-|1|Open|||
-|2|Closed|||
-|3|Postponed|||
-|4|Deleted|||
-|5|Merged|||
+|1|Open||Active|
+|2|Closed||Closed|
+|3|Postponed||Postponed|
+|4|Deleted||Deleted|
+|5|Merged||Merged|
+
 
 ## Related MDO Lists
 

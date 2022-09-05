@@ -15,6 +15,8 @@ Deletes the Webhook
 
 * **webhookId:** The identity of the Webhook
 
+
+
 [WSDL file for Services85/Webhook](../Services85-Webhook.md)
 
 Obtain a ticket from the [Services85/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -47,6 +49,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## DeleteWebhook Response
 
 ```xml
@@ -66,3 +69,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

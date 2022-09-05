@@ -6,14 +6,14 @@ so.generated: true
 keywords:
   - "database"
   - "invitation"
-so.date: 04.12.2022
+so.date: 08.26.2022
 so.topic: reference
 so.envir:
   - "onsite"
   - "online"
 ---
 
-# invitation Table (485)
+# invitation Table (486)
 
 Invitations to events
 
@@ -36,6 +36,7 @@ Invitations to events
 |recurring\_end\_date|The end date for a recurring event|DateTime|&#x25CF;|
 |recurring\_start\_date|The start date for a recurring event|DateTime|&#x25CF;|
 
+
 ![invitation table relationship diagram](./media/invitation.png)
 
 [!include[details](./includes/invitation.md)]
@@ -55,6 +56,7 @@ Invitations to events
 |[appointment](appointment.md)  |Tasks, appointments, followups, phone calls; and documents (document_id != 0). An appointment always has a corresponding record in VisibleFor specifying who may see this.  |
 |[associate](associate.md)  |Employees, resources and other users - except for External persons |
 
+
 ## Replication Flags
 
 * None
@@ -62,3 +64,4 @@ Invitations to events
 ## Security Flags
 
 * No access control via user's Role.
+

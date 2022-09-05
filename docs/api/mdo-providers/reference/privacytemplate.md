@@ -7,7 +7,7 @@ keywords:
   - "mdo provider"
   - "privacytemplate"
 so.generated: true
-so.date: 03.19.2021
+so.date: 08.26.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -15,8 +15,9 @@ so.envir:
 ---
 
 # "privacytemplate" MDO List
-
 This is a variant of the DocTmpl list - document templates - restricted to those that are of some privacy document type.
+
+
 
 Implemented by the <see cref="T:SuperOffice.CRM.Lists.PrivacyTemplateProvider">PrivacyTemplateProvider</see> class.
 The name of the MDO list is 'privacytemplate'.
@@ -26,6 +27,10 @@ The name of the MDO list is 'privacytemplate'.
 | Description | Name | Example Value |
 |-----|-----|------|
 |DocTmplPrivacyType enum value| DocTmplPrivacyType|MainDocument|
+
+
+
+
 
 ## Sample Request
 
@@ -38,7 +43,6 @@ Accept-Language: *
 ```
 
 ## Sample Code
-
 ```cs
 var listProvider = SuperOffice.CRM.Lists.SoListProviderFactory.Create("privacytemplate", forceFlatList: true);
 foreach (var item in listProvider.RootItems) {
@@ -52,6 +56,7 @@ foreach (var item in listProvider.RootItems) {
 |Id   | Name  |StyleHint|ExtraInfo |
 | --- | ----- | ------- | -------- |
 |20|Confirmation - Contact added|||
+
 
 ## Related MDO Lists
 

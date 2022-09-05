@@ -1,0 +1,13 @@
+digraph QuoteDenyReason  {
+node [shape = box style="rounded, filled" fontname = "Helvetica" fontsize = "12" ]
+edge [fontname = "Helvetica" fontsize = "9"]
+
+QuoteDenyReason[fillcolor = "cadetblue1"]
+associate[fillcolor = "azure1"]
+QuoteDenyReasonGroupLink[fillcolor = "azure1"]
+QuoteDenyReasonHeadingLink[fillcolor = "azure1"]
+QuoteDenyReason -> associate [headlabel = "registered_associate_id"]
+QuoteDenyReason -> associate [label = "updated_associate_id"]
+QuoteDenyReasonGroupLink -> QuoteDenyReason [label = "quotedenyreason_id"]
+QuoteDenyReasonHeadingLink -> QuoteDenyReason [label = "quotedenyreason_id"]
+}

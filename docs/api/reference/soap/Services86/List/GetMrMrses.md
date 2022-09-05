@@ -13,7 +13,9 @@ Implemented by the <see cref="M:SuperOffice.Services86.IListAgent.GetMrMrses">Su
 
 Returns all Items from the MrMrs table sorted by their value.
 
+
 **Returns:** All items from the MrMrs table sorted by their value
+
 
 [WSDL file for Services86/List](../Services86-List.md)
 
@@ -46,6 +48,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## GetMrMrses Response
 
 ```xml
@@ -72,3 +75,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Quote/RecalculateQuoteAlternative
-id: v1QuoteAgent_RecalculateQuoteAlternative
+uid: v1QuoteAgent_RecalculateQuoteAlternative
 ---
 
 # POST Agents/Quote/RecalculateQuoteAlternative
@@ -11,7 +11,13 @@ POST /api/v1/Agents/Quote/RecalculateQuoteAlternative
 
 When the user changes one or more values in a quoteline or a quoteAlternative, the connector gets to change the QuoteLines and the alternative, for instance calculate VAT.
 
+
 RecalculateQuoteAlternative shall be called when the user changes any of the following fields: Quantity, DiscountAmount, DiscountPercent, listprice (if allowed). RecalculateQuoteAlternative will calculate the TotalPrice and the VAT (if possible) for the lines and the alternative.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +28,7 @@ RecalculateQuoteAlternative shall be called when the user changes any of the fol
 ```http
 POST /api/v1/Agents/Quote/RecalculateQuoteAlternative?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,26 +44,24 @@ POST /api/v1/Agents/Quote/RecalculateQuoteAlternative?$select=name,department,ca
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-QuoteAlternative
+QuoteAlternative 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | QuoteAlternative | int32 |  |
 
-## Response: object
 
-The QuoteAlternativeRecalculated is returned after a call to RecalculateQuoteAlternative. It contains flags indicating changes to quote alternative and quote lines.
+## Response: 
 
-Carrier object for QuoteAlternativeRecalculated.
-Services for the QuoteAlternativeRecalculated Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IQuoteAgent">Quote Agent</see>.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -66,99 +71,36 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Quote/RecalculateQuoteAlternative
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternative": 834
+  "QuoteAlternative": 806
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLinesHasChanged": true,
-  "ChangedQuoteAlternative": {
-    "QuoteAlternativeId": 950,
-    "ERPQuoteAlternativeKey": "autem",
-    "QuoteVersionId": 228,
-    "Name": "Towne-Ryan",
-    "Description": "Synergized radical strategy",
-    "Status": "Error",
-    "Reason": "",
-    "ERPDiscountPercent": 11263.596,
-    "ERPDiscountAmount": 7436.982,
-    "DiscountPercent": 28184.061999999998,
-    "DiscountAmount": 5490.768,
-    "UserValueOverride": "DiscountAmount",
-    "VATInfo": "magni",
-    "VAT": 31170.764,
-    "EarningPercent": 14936.644,
-    "EarningAmount": 27331.613999999998,
-    "SubTotal": 26996.275999999998,
-    "TotalPrice": 28403.442,
-    "ExtraField1": "voluptas",
-    "ExtraField2": "iure",
-    "ExtraField3": "corporis",
-    "ExtraField4": "et",
-    "ExtraField5": "sint",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.Int32",
-        "FieldLength": 917
-      }
-    }
-  },
-  "Changes": {
-    "AddedRecords": [
-      {},
-      {}
-    ],
-    "UpdatedRecords": [
-      {},
-      {}
-    ],
-    "DeletedRecords": [
-      {},
-      {}
-    ],
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.Int32",
-        "FieldLength": 949
-      }
-    }
-  },
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "QuoteLinesHasChanged": false,
+  "ChangedQuoteAlternative": null,
+  "Changes": null,
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
+      "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 123
+      "FieldLength": 63
     }
   }
 }

@@ -1,6 +1,6 @@
 ---
 title: PUT Preference/{section}/{key}
-id: v1Preference_SetPrefValue
+uid: v1Preference_SetPrefValue
 ---
 
 # PUT Preference/{section}/{key}
@@ -11,12 +11,19 @@ PUT /api/v1/Preference/{section}/{key}
 
 Sets the preference value for specific section + key.
 
+
 Calls the Preference agent service SetPreference or SetPreferenceEntity.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | section | string | The name of the preference section. **Required** |
 | key | string | The name of the preference key. **Required** |
+
+
 
 ## Request Headers
 
@@ -25,11 +32,12 @@ Calls the Preference agent service SetPreference or SetPreferenceEntity.
 | Authorization  | Supports 'Basic', 'SoTicket' and 'Bearer' schemes, depending on installation type. |
 | X-XSRF-TOKEN   | If not using Authorization header, you must provide XSRF value from cookie or hidden input field |
 | Content-Type | Content-type of the request body: `application/json`, `text/json`, `application/xml`, `text/xml`, `application/x-www-form-urlencoded`, `application/json-patch+json`, `application/merge-patch+json` |
+| Accept         | Content-type(s) you would like the response in:  |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: pref
+## Request Body: pref  
 
-The preference definition
+The preference definition 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -45,8 +53,47 @@ The preference definition
 | TableName | string | For DisplayType=PrefDescValueType.ListTableRef, TableName will contain the name of the table which the value reference to. |
 | UserPreferenceId | int32 | The id of the user preference |
 
-## Response
+
+## Response: 
+
+No Content
 
 | Response | Description |
 |----------------|-------------|
 | 204 | No Content |
+
+Response body: 
+
+
+## Sample request
+
+```http!
+PUT /api/v1/Preference/{section}/{key}
+Authorization: Basic dGplMDpUamUw
+Accept: application/json; charset=utf-8
+Accept-Language: en
+Content-Type: application/json; charset=utf-8
+
+{
+  "Level": "Database",
+  "RawValue": "quasi",
+  "Specification": null,
+  "DisplayValue": "error",
+  "DisplayTooltip": "eum",
+  "DisplayType": "Bool",
+  "TabOrder": null,
+  "TargetId": 297,
+  "PrefDescId": 315,
+  "TableName": "Armstrong LLC",
+  "UserPreferenceId": 49
+}
+```
+
+## Sample response
+
+```http_
+HTTP/1.1 204 No Content
+Content-Type: application/json; charset=utf-8
+
+null
+```

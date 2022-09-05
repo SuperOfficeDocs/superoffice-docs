@@ -1,6 +1,6 @@
 ---
 title: GET User/current
-id: v1User_GetCurrentUser
+uid: v1User_GetCurrentUser
 ---
 
 # GET User/current
@@ -11,7 +11,14 @@ GET /api/v1/User/current
 
 Gets the currently logged in user's information: username, personal name, credentials, licenses.
 
+
 Blocked in Online for safety. Calls the User agent service GetUser.
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -26,18 +33,16 @@ Blocked in Online for safety. Calls the User agent service GetUser.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response: object
 
-SuperOffice User, with login credentials and an associated person.
+## Response: 
 
-Carrier object for User.
-Services for the User Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IUserAgent">User Agent</see>.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -47,9 +52,9 @@ Response body: object
 | Tooltip | string | Tooltip or other description |
 | LicenseOwners | array | The restricted and unrestricted module licenses grouped by license owner. These module licenses are either assigned or unassigned to this user |
 | Role |  | Users role for role-based security. Determines permissions and access rights for the user. |
-| UserGroup |  | The main user group that this user belongs to.  <br />Use MDO List name "usergroup" to get list items. |
-| OtherGroups | array | The other groups this user is a member of, apart from the main user group.  <br />Use MDO List name "usergroup" to get list items. |
-| Person |  | The person associated with this user. Detailed information about the user  <br />Use MDO List name "person_new" to get list items. |
+| UserGroup |  | The main user group that this user belongs to.  <para>Use MDO List name "usergroup" to get list items.</para> |
+| OtherGroups | array | The other groups this user is a member of, apart from the main user group.  <para>Use MDO List name "usergroup" to get list items.</para> |
+| Person |  | The person associated with this user. Detailed information about the user  <para>Use MDO List name "person_new" to get list items.</para> |
 | Deleted | bool | If true, the user is retired and should have no rights, not appear in lists, etc. |
 | Lastlogin | date-time | Last login date |
 | Lastlogout | date-time | Last logout date |
@@ -60,7 +65,7 @@ Response body: object
 | IsOnTravel | bool | True if the user is on travel. |
 | Credentials | array | List of credentials registered for this user. i.e. valid authentication methods. |
 | UserName | string | User name, a.k.a. Login name. This might be an e-mail address. |
-| TicketCategories | array | Request Ticket Categories assigned to the user.   <br />Use MDO List name "ejCategory" to get list items. |
+| TicketCategories | array | Request Ticket Categories assigned to the user.   <para>Use MDO List name "ejCategory" to get list items.</para> |
 | NickName | string | The unique nick name for this user. Used in Service as an alias, similar to Name/Initials. |
 | WaitingForApproval | bool | The user is waiting for an administrator to approve/grant her/him access. |
 | ExtraFields | object | Deprecated: Use {SuperOffice.CRM.Services.User.CustomFields} instead. Extra fields added to the carrier. This could be data from Plug-ins, the foreign key system, external applications, etc. |
@@ -69,28 +74,30 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 GET /api/v1/User/current
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 50,
-  "Name": "Howe-Ullrich",
-  "Rank": 162,
-  "Tooltip": "placeat",
+  "AssociateId": 293,
+  "Name": "Lockman LLC",
+  "Rank": 673,
+  "Tooltip": "minima",
   "LicenseOwners": [
     {
-      "Name": "Jerde-Abbott",
-      "Description": "Fundamental non-volatile internet solution",
+      "Name": "Christiansen-Thiel",
+      "Description": "User-friendly content-based process improvement",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -99,21 +106,18 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "TableRight": {},
+      "TableRight": null,
       "FieldProperties": {
         "fieldName": {
-          "FieldRight": {
-            "Mask": "FULL",
-            "Reason": ""
-          },
+          "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 498
+          "FieldLength": 381
         }
       }
     },
     {
-      "Name": "Jerde-Abbott",
-      "Description": "Fundamental non-volatile internet solution",
+      "Name": "Christiansen-Thiel",
+      "Description": "User-friendly content-based process improvement",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -122,242 +126,134 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "TableRight": {},
+      "TableRight": null,
       "FieldProperties": {
         "fieldName": {
-          "FieldRight": {
-            "Mask": "FULL",
-            "Reason": ""
-          },
+          "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 498
+          "FieldLength": 381
         }
       }
     }
   ],
-  "Role": {
-    "Id": 610,
-    "Value": "eius",
-    "Tooltip": "iure",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.Int32",
-        "FieldLength": 328
-      }
-    }
-  },
-  "UserGroup": {
-    "Value": "quaerat",
-    "Tooltip": "rem",
-    "Id": 593,
-    "Rank": 416,
-    "Deleted": false,
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.Int32",
-        "FieldLength": 172
-      }
-    }
-  },
+  "Role": null,
+  "UserGroup": null,
   "OtherGroups": [
     {
-      "Value": "maxime",
-      "Tooltip": "ducimus",
-      "Id": 496,
-      "Rank": 84,
-      "Deleted": false,
-      "TableRight": {},
+      "Value": "et",
+      "Tooltip": "magni",
+      "Id": 733,
+      "Rank": 185,
+      "Deleted": true,
+      "TableRight": null,
       "FieldProperties": {
         "fieldName": {
-          "FieldRight": {
-            "Mask": "FULL",
-            "Reason": "embrace ubiquitous web-readiness"
-          },
+          "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 178
+          "FieldLength": 628
         }
       }
     }
   ],
-  "Person": {
-    "Position": "facilis",
-    "PersonId": 737,
-    "Mrmrs": "distinctio",
-    "Firstname": "Lloyd",
-    "Lastname": "Stracke",
-    "MiddleName": "Skiles, Smith and Kuhn",
-    "Title": "earum",
-    "Description": "Inverse upward-trending capability",
-    "Email": "loy@wilderman.info",
-    "FullName": "Omer Toy",
-    "DirectPhone": "1-218-162-0276",
-    "FormalName": "Bechtelar, Goyette and Muller",
-    "CountryId": 309,
-    "ContactId": 479,
-    "ContactName": "Roob, Wilkinson and Bins",
-    "Retired": 142,
-    "Rank": 218,
-    "ActiveInterests": 442,
-    "ContactDepartment": "",
-    "ContactCountryId": 623,
-    "ContactOrgNr": "1009651",
-    "FaxPhone": "(881)803-3675 x02255",
-    "MobilePhone": "233.556.8677",
-    "ContactPhone": "068.544.2375",
-    "AssociateName": "Wilkinson, Ward and Goodwin",
-    "AssociateId": 606,
-    "UsePersonAddress": false,
-    "ContactFax": "tempore",
-    "Kanafname": "possimus",
-    "Kanalname": "est",
-    "Post1": "est",
-    "Post2": "repudiandae",
-    "Post3": "ut",
-    "EmailName": "viva@conroygottlieb.com",
-    "ContactFullName": "Willis Toy",
-    "ActiveErpLinks": 40,
-    "TicketPriorityId": 600,
-    "SupportLanguageId": 772,
-    "SupportAssociateId": 91,
-    "CategoryName": "VIP Customer",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 459
-      }
-    }
-  },
-  "Deleted": true,
-  "Lastlogin": "2010-03-29T18:25:51.5511229+02:00",
-  "Lastlogout": "2011-05-08T18:25:51.5511229+02:00",
-  "EjUserId": 41,
-  "RequestSignature": "tempore",
+  "Person": null,
+  "Deleted": false,
+  "Lastlogin": "2012-11-12T11:10:53.8612155+01:00",
+  "Lastlogout": "2004-03-05T11:10:53.8612155+01:00",
+  "EjUserId": 470,
+  "RequestSignature": "enim",
   "Type": "AnonymousAssociate",
   "IsPersonRetired": true,
-  "IsOnTravel": true,
+  "IsOnTravel": false,
   "Credentials": [
     {
-      "Type": {},
-      "Value": "blanditiis",
-      "DisplayValue": "magnam",
-      "TableRight": {},
+      "Type": null,
+      "Value": "non",
+      "DisplayValue": "et",
+      "TableRight": null,
       "FieldProperties": {
         "fieldName": {
-          "FieldRight": {
-            "Mask": "FULL",
-            "Reason": ""
-          },
+          "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 991
+          "FieldLength": 45
         }
       }
     },
     {
-      "Type": {},
-      "Value": "blanditiis",
-      "DisplayValue": "magnam",
-      "TableRight": {},
+      "Type": null,
+      "Value": "non",
+      "DisplayValue": "et",
+      "TableRight": null,
       "FieldProperties": {
         "fieldName": {
-          "FieldRight": {
-            "Mask": "FULL",
-            "Reason": ""
-          },
+          "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 991
+          "FieldLength": 45
         }
       }
     }
   ],
-  "UserName": "Veum Inc and Sons",
+  "UserName": "Grady-Hauck",
   "TicketCategories": [
     {
-      "Id": 727,
-      "Name": "Roberts, Yost and Mueller",
-      "ToolTip": "Et architecto et libero velit debitis.",
+      "Id": 647,
+      "Name": "Schulist Group",
+      "ToolTip": "Voluptatem quis nemo consectetur itaque temporibus voluptates.",
       "Deleted": false,
-      "Rank": 232,
-      "Type": "corrupti",
+      "Rank": 713,
+      "Type": "nam",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "adipisci",
-      "ColorBlock": 77,
-      "ExtraInfo": "ea",
-      "StyleHint": "eius",
-      "FullName": "Roberta Lowe",
-      "TableRight": {},
+      "IconHint": "qui",
+      "ColorBlock": 74,
+      "ExtraInfo": "nesciunt",
+      "StyleHint": "ipsa",
+      "FullName": "Mrs. Kim Cicero Ortiz",
+      "TableRight": null,
       "FieldProperties": {
         "fieldName": {
-          "FieldRight": {
-            "Mask": "FULL",
-            "Reason": ""
-          },
+          "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 359
+          "FieldLength": 788
         }
       }
     }
   ],
-  "NickName": "Christiansen Group",
+  "NickName": "Kulas, Crooks and Stamm",
   "WaitingForApproval": true,
   "ExtraFields": {
-    "ExtraFields1": "vel",
-    "ExtraFields2": "in"
+    "ExtraFields1": "est",
+    "ExtraFields2": "dicta"
   },
   "CustomFields": {
-    "CustomFields1": "ea",
-    "CustomFields2": "voluptatibus"
+    "CustomFields1": "aperiam",
+    "CustomFields2": "nemo"
   },
   "PostSaveCommands": [
     {
-      "Name": "Huel LLC",
-      "DisplayName": "Osinski-Bahringer",
-      "Description": "Re-contextualized assymetric paradigm",
-      "ToolTip": "Sunt et quo impedit praesentium incidunt.",
+      "Name": "Runte-Bruen",
+      "DisplayName": "Mraz LLC",
+      "Description": "Decentralized foreground orchestration",
+      "ToolTip": "Sapiente et id repellat tempora ea praesentium.",
       "Actions": "Implicit",
-      "ActionData": "fugit",
-      "TableRight": {},
+      "ActionData": "impedit",
+      "TableRight": null,
       "FieldProperties": {
         "fieldName": {
-          "FieldRight": {
-            "Mask": "FULL",
-            "Reason": ""
-          },
+          "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 569
+          "FieldLength": 510
         }
       }
     }
   ],
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
-      "FieldType": "System.String",
-      "FieldLength": 808
+      "FieldRight": null,
+      "FieldType": "System.Int32",
+      "FieldLength": 664
     }
   }
 }

@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Appointment/GetMyDiary
-id: v1AppointmentAgent_GetMyDiary
+uid: v1AppointmentAgent_GetMyDiary
 ---
 
 # POST Agents/Appointment/GetMyDiary
@@ -11,7 +11,13 @@ POST /api/v1/Agents/Appointment/GetMyDiary
 
 Method that returns a specified number of appointments within a time range.
 
+
 It only returns appointments that would be displayed in the user's diary. The appointments belong to the currently logged on user.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +28,7 @@ It only returns appointments that would be displayed in the user's diary. The ap
 ```http
 POST /api/v1/Agents/Appointment/GetMyDiary?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,9 +44,9 @@ POST /api/v1/Agents/Appointment/GetMyDiary?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-StartTime, EndTime, Count
+StartTime, EndTime, Count 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -47,7 +54,10 @@ StartTime, EndTime, Count
 | EndTime | date-time |  |
 | Count | int32 |  |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -109,21 +119,23 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Appointment/GetMyDiary
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "StartTime": "2013-01-18T18:28:47.8868444+01:00",
-  "EndTime": "1999-11-04T18:28:47.8868444+01:00",
-  "Count": 363
+  "StartTime": "2014-10-02T11:10:25.7445526+02:00",
+  "EndTime": "1995-11-16T11:10:25.7445526+01:00",
+  "Count": 56
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -131,67 +143,61 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 363,
-    "StartDate": "1995-01-12T18:28:47.8878456+01:00",
-    "EndDate": "2014-03-25T18:28:47.8878456+01:00",
+    "AppointmentId": 923,
+    "StartDate": "2002-11-10T11:10:25.7455531+01:00",
+    "EndDate": "2000-02-12T11:10:25.7455531+01:00",
     "Type": "BookingForChecklist",
-    "Task": "nemo",
-    "AssociateFullName": "Demarcus Mills",
-    "ContactName": "Wiegand Inc and Sons",
-    "Description": "Extended discrete moderator",
-    "PersonFullName": "Edmund Armstrong",
-    "PersonId": 551,
-    "ContactId": 803,
-    "ProjectId": 906,
-    "ProjectName": "Klein-Gottlieb",
+    "Task": "dolore",
+    "AssociateFullName": "Maggie Romaguera",
+    "ContactName": "Sporer, Mante and Schulist",
+    "Description": "Focused 4th generation contingency",
+    "PersonFullName": "Miss Kole Cyril Hills PhD",
+    "PersonId": 143,
+    "ContactId": 447,
+    "ProjectId": 936,
+    "ProjectName": "Prohaska, Jacobi and Mertz",
     "IsPublished": false,
-    "AssociateId": 335,
-    "ColorIndex": 345,
+    "AssociateId": 148,
+    "ColorIndex": 408,
     "IsFree": false,
-    "HasAlarm": false,
+    "HasAlarm": true,
     "IsAlldayEvent": false,
     "Private": "PrivateGroup",
-    "PriorityId": 625,
-    "PriorityName": "Johnston Inc and Sons",
+    "PriorityId": 874,
+    "PriorityName": "Gottlieb, Friesen and Smitham",
     "TaskType": "Appointment",
     "IsBookingMain": false,
     "IsRecurrence": false,
-    "IsBooking": false,
-    "ActiveDate": "2008-05-02T18:28:47.8888452+02:00",
+    "IsBooking": true,
+    "ActiveDate": "2011-06-27T11:10:25.7465528+02:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "1996-01-08T18:28:47.8888452+01:00",
-    "RecurringEndDate": "2001-07-15T18:28:47.8888452+02:00",
-    "MotherId": 251,
-    "AssignedBy": 491,
-    "AssignedByFullName": "Bernard Murray",
-    "RejectReason": "generate proactive networks",
-    "Location": "alias",
-    "AlarmLeadTime": "quaerat",
-    "SaleId": 967,
-    "SaleName": "Luettgen Group",
-    "AssociateName": "Hane Inc and Sons",
-    "CreatedDate": "1998-09-11T18:28:47.8888452+02:00",
-    "CreatedBy": "corrupti",
-    "CreatedByFullName": "Mrs. Dallas Becker",
-    "CreatedByAssociateId": 790,
+    "RecurringStartDate": "2016-06-16T11:10:25.7465528+02:00",
+    "RecurringEndDate": "2022-02-26T11:10:25.7465528+01:00",
+    "MotherId": 879,
+    "AssignedBy": 880,
+    "AssignedByFullName": "Carleton Koelpin",
+    "RejectReason": "",
+    "Location": "sequi",
+    "AlarmLeadTime": "exercitationem",
+    "SaleId": 458,
+    "SaleName": "Hodkiewicz, Hartmann and Goyette",
+    "AssociateName": "Towne-Heidenreich",
+    "CreatedDate": "2009-10-13T11:10:25.7465528+02:00",
+    "CreatedBy": "sed",
+    "CreatedByFullName": "Mrs. Clara Kiana Kiehn III",
+    "CreatedByAssociateId": 775,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
+        "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 96
+        "FieldLength": 293
       }
     }
   }

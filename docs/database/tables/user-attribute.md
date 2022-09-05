@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "user_attribute"
-so.date: 04.12.2022
+so.date: 08.26.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -26,6 +26,7 @@ This table is used for storing various attributes for users.
 |att\_key|An identifying string key for the entry|String(255)| |
 |att\_value|The value of the attribute.|Clob|&#x25CF;|
 
+
 ![user_attribute table relationship diagram](./media/user_attribute.png)
 
 [!include[details](./includes/user-attribute.md)]
@@ -44,6 +45,7 @@ This table is used for storing various attributes for users.
 |------|-------------|
 |[ejuser](ejuser.md)  |This table contains entries for the users of the system. |
 
+
 ## Replication Flags
 
 * None
@@ -51,3 +53,4 @@ This table is used for storing various attributes for users.
 ## Security Flags
 
 * No access control via user's Role.
+

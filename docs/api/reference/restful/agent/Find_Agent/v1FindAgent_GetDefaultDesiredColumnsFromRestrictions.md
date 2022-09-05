@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Find/GetDefaultDesiredColumnsFromRestrictions
-id: v1FindAgent_GetDefaultDesiredColumnsFromRestrictions
+uid: v1FindAgent_GetDefaultDesiredColumnsFromRestrictions
 ---
 
 # POST Agents/Find/GetDefaultDesiredColumnsFromRestrictions
@@ -11,7 +11,13 @@ POST /api/v1/Agents/Find/GetDefaultDesiredColumnsFromRestrictions
 
 Calculate the default desired columns, i.
 
+
 e., the result columns for a given search. The search is defined by a provider name and a set of restrictions. This is the algorithm that is used by the Find service method.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +28,7 @@ e., the result columns for a given search. The search is defined by a provider n
 ```http
 POST /api/v1/Agents/Find/GetDefaultDesiredColumnsFromRestrictions?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,16 +44,19 @@ POST /api/v1/Agents/Find/GetDefaultDesiredColumnsFromRestrictions?$select=name,d
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-ProviderName, Restrictions
+ProviderName, Restrictions 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | ProviderName | string |  |
 | Restrictions | array |  |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -70,42 +80,44 @@ Response body: array
 | IconHint | string |  |
 | HeadingIconHint | string |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Find/GetDefaultDesiredColumnsFromRestrictions
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Hintz-Sawayn",
+  "ProviderName": "Lindgren, Connelly and Kirlin",
   "Restrictions": [
     {
-      "Name": "Lesch Inc and Sons",
-      "Operator": "et",
+      "Name": "Osinski-Ritchie",
+      "Operator": "aut",
       "Values": [
-        "et",
-        "officia"
+        "sit",
+        "soluta"
       ],
       "DisplayValues": [
-        "sequi",
-        "quis"
+        "repellat",
+        "voluptatum"
       ],
-      "ColumnInfo": {},
-      "IsActive": true,
+      "ColumnInfo": null,
+      "IsActive": false,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 270,
+      "InterParenthesis": 36,
       "InterOperator": "And",
-      "UniqueHash": 114
+      "UniqueHash": 334
     }
   ]
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -113,19 +125,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DisplayName": "Quigley-Waters",
-    "DisplayTooltip": "non",
-    "DisplayType": "voluptas",
-    "CanOrderBy": true,
-    "Name": "Mueller Inc and Sons",
-    "CanRestrictBy": false,
-    "RestrictionType": "doloremque",
-    "RestrictionListName": "Haag-Sanford",
-    "IsVisible": true,
-    "ExtraInfo": "consectetur",
-    "Width": "commodi",
-    "IconHint": "debitis",
-    "HeadingIconHint": "facere"
+    "DisplayName": "Gottlieb-Wilkinson",
+    "DisplayTooltip": "sit",
+    "DisplayType": "rerum",
+    "CanOrderBy": false,
+    "Name": "Ritchie Inc and Sons",
+    "CanRestrictBy": true,
+    "RestrictionType": "praesentium",
+    "RestrictionListName": "Johnson Inc and Sons",
+    "IsVisible": false,
+    "ExtraInfo": "laboriosam",
+    "Width": "velit",
+    "IconHint": "non",
+    "HeadingIconHint": "culpa"
   }
 ]
 ```

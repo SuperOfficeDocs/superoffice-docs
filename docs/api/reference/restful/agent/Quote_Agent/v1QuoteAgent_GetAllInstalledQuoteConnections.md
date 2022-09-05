@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Quote/GetAllInstalledQuoteConnections
-id: v1QuoteAgent_GetAllInstalledQuoteConnections
+uid: v1QuoteAgent_GetAllInstalledQuoteConnections
 ---
 
 # POST Agents/Quote/GetAllInstalledQuoteConnections
@@ -11,7 +11,13 @@ POST /api/v1/Agents/Quote/GetAllInstalledQuoteConnections
 
 Get all installed connections.
 
+
 Some installed connections may not be available to the user.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +28,7 @@ Some installed connections may not be available to the user.
 ```http
 POST /api/v1/Agents/Quote/GetAllInstalledQuoteConnections?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -36,7 +43,10 @@ POST /api/v1/Agents/Quote/GetAllInstalledQuoteConnections?$select=name,departmen
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -64,7 +74,7 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Quote/GetAllInstalledQuoteConnections
@@ -73,86 +83,62 @@ Accept: application/json; charset=utf-8
 Accept-Language: en
 ```
 
+## Sample response
+
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "QuoteConnectionId": 491,
-    "ERPName": "Fritsch Inc and Sons",
-    "DisplayName": "Pollich-Ankunding",
-    "DisplayDescription": "Profit-focused methodical pricing structure",
-    "Rank": 604,
-    "ConnectorName": "Stanton-Marks",
-    "ErpConnectionId": 433,
-    "ExtraData": "ipsam",
+    "QuoteConnectionId": 89,
+    "ERPName": "Terry-Ankunding",
+    "DisplayName": "Lueilwitz, Hilpert and Bergstrom",
+    "DisplayDescription": "Balanced disintermediate model",
+    "Rank": 914,
+    "ConnectorName": "Roob, Weissnat and Kuphal",
+    "ErpConnectionId": 843,
+    "ExtraData": "vero",
     "IsAvailable": false,
-    "InitializeResponse": {
-      "IsOk": true,
-      "UserExplanation": "quia",
-      "TechExplanation": "dicta",
-      "ErrorCode": "et",
-      "Changes": {},
-      "TableRight": {},
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": {
-            "Mask": "FULL",
-            "Reason": ""
-          },
-          "FieldType": "System.Int32",
-          "FieldLength": 599
-        }
-      }
-    },
+    "InitializeResponse": null,
     "PriceLists": [
       {
-        "PriceListId": 680,
-        "ERPPriceListKey": "aspernatur",
-        "QuoteConnectionId": 249,
-        "Name": "Russel-Harvey",
-        "Description": "Decentralized mission-critical knowledge user",
-        "Currency": "tenetur",
-        "CurrencyName": "McLaughlin, Hansen and Crooks",
-        "ValidFrom": "2020-02-20T18:28:50.0021369+01:00",
-        "ValidTo": "2010-05-03T18:28:50.0021369+02:00",
+        "PriceListId": 200,
+        "ERPPriceListKey": "natus",
+        "QuoteConnectionId": 784,
+        "Name": "Boehm, Champlin and Mueller",
+        "Description": "Universal homogeneous ability",
+        "Currency": "rerum",
+        "CurrencyName": "Lynch-Bahringer",
+        "ValidFrom": "2002-08-26T11:10:27.7014917+02:00",
+        "ValidTo": "2015-06-26T11:10:27.7014917+02:00",
         "IsActive": false,
-        "TableRight": {},
+        "TableRight": null,
         "FieldProperties": {
           "fieldName": {
-            "FieldRight": {
-              "Mask": "FULL",
-              "Reason": "mesh open-source content"
-            },
+            "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 337
+            "FieldLength": 182
           }
         }
       }
     ],
     "AllAccess": true,
-    "Deleted": true,
+    "Deleted": false,
     "UserGroupAccessIds": [
-      175,
-      100
+      613,
+      193
     ],
     "AssociateAccessIds": [
-      449,
-      874
+      913,
+      598
     ],
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 327
+        "FieldRight": null,
+        "FieldType": "System.Int32",
+        "FieldLength": 698
       }
     }
   }

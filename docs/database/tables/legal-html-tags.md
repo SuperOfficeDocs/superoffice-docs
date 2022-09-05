@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "legal_html_tags"
-so.date: 04.12.2022
+so.date: 08.26.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -23,6 +23,7 @@ This table is used as a list of all legal HTML tags. HTML tags not in this list 
 |------|-------------|------|:----:|
 |id|Primary key|PK| |
 |html\_tag|The legal HTML tag |String(255)| |
+
 
 ![legal_html_tags table relationship diagram](./media/legal_html_tags.png)
 
@@ -41,3 +42,4 @@ This table is used as a list of all legal HTML tags. HTML tags not in this list 
 ## Security Flags
 
 * No access control via user's Role.
+

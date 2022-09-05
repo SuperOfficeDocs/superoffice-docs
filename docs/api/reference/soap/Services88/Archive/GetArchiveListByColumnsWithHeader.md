@@ -24,6 +24,7 @@ Get a page of results for an archive list, explicitly specifying the restriction
 
 **Returns:** Header with optional row count, plus array of archive list items, where each item represents one row of data (row level data + the requested columns)
 
+
 [WSDL file for Services88/Archive](../Services88-Archive.md)
 
 Obtain a ticket from the [Services88/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -147,6 +148,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## GetArchiveListByColumnsWithHeader Response
 
 ```xml
@@ -187,3 +189,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

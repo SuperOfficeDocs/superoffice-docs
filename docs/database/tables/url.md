@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "URL"
-so.date: 04.12.2022
+so.date: 08.26.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -37,6 +37,7 @@ Unified Resource Locators, URL to contacts, persons or projects.
 |updated\_associate\_id|Last updated by whom|FK [associate](associate.md)| |
 |updatedCount|Number of updates made to this record|UShort| |
 
+
 ![URL table relationship diagram](./media/URL.png)
 
 [!include[details](./includes/url.md)]
@@ -63,6 +64,7 @@ Unified Resource Locators, URL to contacts, persons or projects.
 |[person](person.md)  |Persons in a company or an organizations. All associates have a corresponding person record |
 |[project](project.md)  |Projects |
 
+
 ## Replication Flags
 
 * Area Management controlled table. Contents replicated to satellites and traveller databases.
@@ -72,3 +74,4 @@ Unified Resource Locators, URL to contacts, persons or projects.
 ## Security Flags
 
 * Sentry controls access to items in this table using user's Role and data rights matrix on the table's parent.
+

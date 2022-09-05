@@ -1,6 +1,6 @@
 ---
 title: POST Agents/EMail/GetUnsanitizedPreviewAttachmentFromDocId
-id: v1EMailAgent_GetUnsanitizedPreviewAttachmentFromDocId
+uid: v1EMailAgent_GetUnsanitizedPreviewAttachmentFromDocId
 ---
 
 # POST Agents/EMail/GetUnsanitizedPreviewAttachmentFromDocId
@@ -11,9 +11,16 @@ POST /api/v1/Agents/EMail/GetUnsanitizedPreviewAttachmentFromDocId
 
 Retrieve an attachment from an e-mail stored in the document archive.
 
+
 The returned data is intended to be use for a preview. The returned data is not sanitized.
 
-## Online Restricted: ## The EMail agent is not available in Online by default. Access must be requested specifically when app is registered
+
+## Online Restricted: ## The EMail agent is not available in Online by default. Access must be requested specifically when app is registered.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -24,6 +31,7 @@ The returned data is intended to be use for a preview. The returned data is not 
 ```http
 POST /api/v1/Agents/EMail/GetUnsanitizedPreviewAttachmentFromDocId?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -39,27 +47,25 @@ POST /api/v1/Agents/EMail/GetUnsanitizedPreviewAttachmentFromDocId?$select=name,
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-DocId, AttachmentId
+DocId, AttachmentId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | DocId | int32 |  |
 | AttachmentId | string |  |
 
-## Response: object
 
-Information about an attachment
+## Response: 
 
-Carrier object for EMailAttachment.
-Services for the EMailAttachment Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IEMailAgent">EMail Agent</see>.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -74,7 +80,7 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/EMail/GetUnsanitizedPreviewAttachmentFromDocId
@@ -84,36 +90,32 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocId": 144,
-  "AttachmentId": "maiores"
+  "DocId": 524,
+  "AttachmentId": "et"
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Profound incremental website",
-  "Filename": "quos",
-  "Size": 569,
-  "Type": "quod",
-  "Encoding": "minima",
-  "Id": "temporibus",
-  "Disposition": "dolorem",
+  "Description": "Networked real-time hardware",
+  "Filename": "nesciunt",
+  "Size": 800,
+  "Type": "est",
+  "Encoding": "explicabo",
+  "Id": "ut",
+  "Disposition": "cum",
   "Stream": "GIF89....File contents as raw bytes...",
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
+      "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 930
+      "FieldLength": 874
     }
   }
 }

@@ -6,14 +6,14 @@ so.generated: true
 keywords:
   - "database"
   - "target_period"
-so.date: 04.12.2022
+so.date: 08.26.2022
 so.topic: reference
 so.envir:
   - "onsite"
   - "online"
 ---
 
-# target\_period Table (494)
+# target\_period Table (495)
 
 A set of periods linked with target amounts for users/usergroups and the target groups/years.
 
@@ -29,6 +29,7 @@ A set of periods linked with target amounts for users/usergroups and the target 
 |updated|Last updated when|UtcDateTime| |
 |updated\_associate\_id|Last updated by whom|FK [associate](associate.md)| |
 |updatedCount|Number of updates made to this record|UShort| |
+
 
 ![target_period table relationship diagram](./media/target_period.png)
 
@@ -48,6 +49,7 @@ A set of periods linked with target amounts for users/usergroups and the target 
 |[target\_assignment\_value](target-assignment-value.md)  |A set of values linked to assignment info and a period in a target group. |
 |[target\_group](target-group.md)  |Info about a set of (sales, project, selection...) targets |
 
+
 ## Replication Flags
 
 * None
@@ -55,3 +57,4 @@ A set of periods linked with target amounts for users/usergroups and the target 
 ## Security Flags
 
 * Sentry controls access to items in this table using user's Role and data rights matrix.
+

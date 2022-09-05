@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Appointment/GetProjectAppointmentsByType
-id: v1AppointmentAgent_GetProjectAppointmentsByType
+uid: v1AppointmentAgent_GetProjectAppointmentsByType
 ---
 
 # POST Agents/Appointment/GetProjectAppointmentsByType
@@ -11,7 +11,13 @@ POST /api/v1/Agents/Appointment/GetProjectAppointmentsByType
 
 Method that returns a specified number of appointments of a specific appointment type within a time range.
 
+
 The appointments belong to the project specified.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +28,7 @@ The appointments belong to the project specified.
 ```http
 POST /api/v1/Agents/Appointment/GetProjectAppointmentsByType?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,9 +44,9 @@ POST /api/v1/Agents/Appointment/GetProjectAppointmentsByType?$select=name,depart
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-ProjectId, StartTime, EndTime, Count, AppointmentType
+ProjectId, StartTime, EndTime, Count, AppointmentType 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -49,7 +56,10 @@ ProjectId, StartTime, EndTime, Count, AppointmentType
 | Count | int32 |  |
 | AppointmentType | string |  |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -111,7 +121,7 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Appointment/GetProjectAppointmentsByType
@@ -121,13 +131,15 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 204,
-  "StartTime": "1996-03-23T18:28:47.9008442+01:00",
-  "EndTime": "2003-05-07T18:28:47.9008442+02:00",
-  "Count": 38,
+  "ProjectId": 423,
+  "StartTime": "2021-04-29T11:10:25.9475567+02:00",
+  "EndTime": "2001-01-26T11:10:25.9475567+01:00",
+  "Count": 740,
   "AppointmentType": "BookingForChecklist"
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -135,67 +147,61 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 438,
-    "StartDate": "2010-02-04T18:28:47.9018455+01:00",
-    "EndDate": "2016-11-14T18:28:47.9018455+01:00",
+    "AppointmentId": 541,
+    "StartDate": "2000-10-09T11:10:25.9495232+02:00",
+    "EndDate": "2011-02-16T11:10:25.9495232+01:00",
     "Type": "BookingForChecklist",
-    "Task": "non",
-    "AssociateFullName": "Grant Feeney",
-    "ContactName": "Hermann, Medhurst and Ferry",
-    "Description": "Sharable object-oriented groupware",
-    "PersonFullName": "Eleanora Murray",
-    "PersonId": 174,
-    "ContactId": 142,
-    "ProjectId": 628,
-    "ProjectName": "Jenkins, Gutmann and Mills",
+    "Task": "similique",
+    "AssociateFullName": "Ms. Roosevelt Murl Langosh V",
+    "ContactName": "Walter Inc and Sons",
+    "Description": "Upgradable maximized standardization",
+    "PersonFullName": "Miss Lelah Thompson V",
+    "PersonId": 48,
+    "ContactId": 868,
+    "ProjectId": 898,
+    "ProjectName": "Feest, Sipes and Altenwerth",
     "IsPublished": false,
-    "AssociateId": 541,
-    "ColorIndex": 943,
-    "IsFree": false,
+    "AssociateId": 987,
+    "ColorIndex": 349,
+    "IsFree": true,
     "HasAlarm": false,
-    "IsAlldayEvent": true,
+    "IsAlldayEvent": false,
     "Private": "PrivateGroup",
-    "PriorityId": 246,
-    "PriorityName": "Ferry, Quitzon and Cummings",
+    "PriorityId": 820,
+    "PriorityName": "Buckridge-Kemmer",
     "TaskType": "Appointment",
-    "IsBookingMain": true,
-    "IsRecurrence": true,
-    "IsBooking": true,
-    "ActiveDate": "1995-12-20T18:28:47.9018455+01:00",
+    "IsBookingMain": false,
+    "IsRecurrence": false,
+    "IsBooking": false,
+    "ActiveDate": "2010-06-04T11:10:25.9505231+02:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "1997-06-18T18:28:47.9018455+02:00",
-    "RecurringEndDate": "1996-01-27T18:28:47.9018455+01:00",
-    "MotherId": 574,
-    "AssignedBy": 163,
-    "AssignedByFullName": "Elmo Kris",
+    "RecurringStartDate": "2015-04-02T11:10:25.9505231+02:00",
+    "RecurringEndDate": "2013-11-10T11:10:25.9505231+01:00",
+    "MotherId": 679,
+    "AssignedBy": 95,
+    "AssignedByFullName": "Veda Heller I",
     "RejectReason": "",
-    "Location": "est",
-    "AlarmLeadTime": "sint",
-    "SaleId": 962,
-    "SaleName": "Kling Group",
-    "AssociateName": "Windler Inc and Sons",
-    "CreatedDate": "1994-09-02T18:28:47.902844+02:00",
-    "CreatedBy": "corrupti",
-    "CreatedByFullName": "Linwood Schmeler",
-    "CreatedByAssociateId": 450,
+    "Location": "occaecati",
+    "AlarmLeadTime": "reprehenderit",
+    "SaleId": 921,
+    "SaleName": "Tillman LLC",
+    "AssociateName": "Haley, Mayert and Herman",
+    "CreatedDate": "1999-01-09T11:10:25.9505231+01:00",
+    "CreatedBy": "est",
+    "CreatedByFullName": "Nannie Haley",
+    "CreatedByAssociateId": 125,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": "integrate cross-platform web services"
-        },
-        "FieldType": "System.String",
-        "FieldLength": 1000
+        "FieldRight": null,
+        "FieldType": "System.Int32",
+        "FieldLength": 340
       }
     }
   }

@@ -1,6 +1,6 @@
 ---
 title: POST Agents/User/CreateDefaultRoleEntity
-id: v1UserAgent_CreateDefaultRoleEntity
+uid: v1UserAgent_CreateDefaultRoleEntity
 ---
 
 # POST Agents/User/CreateDefaultRoleEntity
@@ -11,9 +11,17 @@ POST /api/v1/Agents/User/CreateDefaultRoleEntity
 
 Set default values into a new RoleEntity.
 
+
 NetServer calculates default values on the entity, which is required when creating/storing a new instance
 
-## Online Restricted: ## The User agent is not available in Online by default. User management is not allowed for partner apps
+
+## Online Restricted: ## The User agent is not available in Online by default. User management is not allowed for partner apps.
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -28,16 +36,16 @@ NetServer calculates default values on the entity, which is required when creati
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response: object
 
-Carrier object for RoleEntity.
-Services for the RoleEntity Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IUserAgent">User Agent</see>.
+## Response: 
+
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -56,154 +64,40 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/User/CreateDefaultRoleEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 14,
-  "Name": "Effertz, Roberts and Lynch",
-  "Tooltip": "in",
+  "RoleId": 199,
+  "Name": "Dibbert Inc and Sons",
+  "Tooltip": "nihil",
   "RoleType": "Anonymous",
-  "Deleted": 177,
-  "Rank": 810,
-  "Created": "2017-06-22T18:28:50.4854401+02:00",
-  "UseCategories": 211,
-  "CreatedBy": {
-    "AssociateId": 367,
-    "Name": "Oberbrunner Inc and Sons",
-    "PersonId": 670,
-    "Rank": 528,
-    "Tooltip": "soluta",
-    "Type": "AnonymousAssociate",
-    "GroupIdx": 879,
-    "FullName": "Lea Bartell",
-    "FormalName": "DuBuque-Mosciski",
-    "Deleted": true,
-    "EjUserId": 440,
-    "UserName": "Purdy-Wiegand",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.Int32",
-        "FieldLength": 944
-      }
-    }
-  },
-  "Updated": "2014-12-14T18:28:50.4854401+01:00",
-  "UpdatedBy": {
-    "AssociateId": 1001,
-    "Name": "Lehner-Prosacco",
-    "PersonId": 224,
-    "Rank": 466,
-    "Tooltip": "porro",
-    "Type": "AnonymousAssociate",
-    "GroupIdx": 898,
-    "FullName": "Odell Weissnat DVM",
-    "FormalName": "O'Keefe-Trantow",
-    "Deleted": true,
-    "EjUserId": 375,
-    "UserName": "Ratke-Crona",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 738
-      }
-    }
-  },
-  "DataRights": {
-    "ColumnsInfo": [
-      {},
-      {}
-    ],
-    "RowsInfo": [
-      {},
-      {}
-    ],
-    "Rights": [
-      [
-        {
-          "Value": "blanditiis",
-          "Description": "Exclusive static utilisation",
-          "TableRight": {
-            "Mask": "Delete",
-            "Reason": "synergize back-end web services"
-          },
-          "FieldProperties": {
-            "fieldName": {
-              "FieldRight": {
-                "Mask": "FULL",
-                "Reason": ""
-              },
-              "FieldType": "System.String",
-              "FieldLength": 21
-            }
-          }
-        }
-      ],
-      [
-        {
-          "Value": "enim",
-          "Description": "Operative dynamic Graphical User Interface",
-          "TableRight": {
-            "Mask": "Delete",
-            "Reason": ""
-          },
-          "FieldProperties": {
-            "fieldName": {
-              "FieldRight": {
-                "Mask": "FULL",
-                "Reason": "empower extensible web-readiness"
-              },
-              "FieldType": "System.Int32",
-              "FieldLength": 332
-            }
-          }
-        }
-      ]
-    ],
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 754
-      }
-    }
-  },
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "Deleted": 296,
+  "Rank": 356,
+  "Created": "2015-05-22T11:10:28.3542072+02:00",
+  "UseCategories": 269,
+  "CreatedBy": null,
+  "Updated": "1996-03-19T11:10:28.3542072+01:00",
+  "UpdatedBy": null,
+  "DataRights": null,
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
+      "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 21
+      "FieldLength": 226
     }
   }
 }

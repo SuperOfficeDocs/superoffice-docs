@@ -13,7 +13,9 @@ Implemented by the <see cref="M:SuperOffice.Services88.IDashAgent.GetDashCollect
 
 Gets a collection of dashboards for the current associate
 
+
 **Returns:** Dashboard collection
+
 
 [WSDL file for Services88/Dash](../Services88-Dash.md)
 
@@ -45,6 +47,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+
 
 ## GetDashCollection Response
 
@@ -163,3 +166,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

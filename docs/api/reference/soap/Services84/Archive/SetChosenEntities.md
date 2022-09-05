@@ -17,6 +17,8 @@ Set the currently chosen entities for the given gui name/provider name combinati
 * **providerName:** Name of archive provider, must match one of the plugins known to the ArchiveProviderFactory.
 * **entities:** Array of entity names
 
+
+
 [WSDL file for Services84/Archive](../Services84-Archive.md)
 
 Obtain a ticket from the [Services84/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -53,6 +55,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## SetChosenEntities Response
 
 ```xml
@@ -72,3 +75,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

@@ -6,14 +6,14 @@ so.generated: true
 keywords:
   - "database"
   - "PushNotificationService"
-so.date: 04.12.2022
+so.date: 08.26.2022
 so.topic: reference
 so.envir:
   - "onsite"
   - "online"
 ---
 
-# PushNotificationService Table (489)
+# PushNotificationService Table (490)
 
 Used for storing handles to user devices that should receive push notifications
 
@@ -41,6 +41,7 @@ Used for storing handles to user devices that should receive push notifications
 |OSVersion|The operating system version this device is using|String(256)|&#x25CF;|
 |TimeZoneId|The timezone to show for dates in messages|Int|&#x25CF;|
 
+
 ![PushNotificationService table relationship diagram](./media/PushNotificationService.png)
 
 [!include[details](./includes/pushnotificationservice.md)]
@@ -57,6 +58,7 @@ Used for storing handles to user devices that should receive push notifications
 |------|-------------|
 |[associate](associate.md)  |Employees, resources and other users - except for External persons |
 
+
 ## Replication Flags
 
 * None
@@ -64,3 +66,4 @@ Used for storing handles to user devices that should receive push notifications
 ## Security Flags
 
 * No access control via user's Role.
+

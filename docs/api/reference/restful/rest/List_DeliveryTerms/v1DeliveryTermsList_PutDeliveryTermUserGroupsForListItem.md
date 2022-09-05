@@ -1,6 +1,6 @@
 ---
 title: PUT List/DeliveryTerm/Items/{id}/UserGroups
-id: v1DeliveryTermsList_PutDeliveryTermUserGroupsForListItem
+uid: v1DeliveryTermsList_PutDeliveryTermUserGroupsForListItem
 ---
 
 # PUT List/DeliveryTerm/Items/{id}/UserGroups
@@ -11,11 +11,18 @@ PUT /api/v1/List/DeliveryTerm/Items/{itemId}/UserGroups
 
 Saves user groups visible for the DeliveryTerm list's item.
 
+
 Calls the List agent service SaveHeadingsForListItemFromListDefinition.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | itemId | int32 | The ID of the item to save. **Required** |
+
+
 
 ## Request Headers
 
@@ -31,9 +38,9 @@ Calls the List agent service SaveHeadingsForListItemFromListDefinition.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entities
+## Request Body: entities  
 
-The headings to be saved.
+The headings to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -53,7 +60,10 @@ The headings to be saved.
 | Hidden | bool | True if the ListItem is hidden |
 | FullName | string | The name of the ListItem in its context |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -81,56 +91,58 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 PUT /api/v1/List/DeliveryTerm/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 740,
-    "Name": "Labadie Inc and Sons",
-    "ToolTip": "Iusto distinctio.",
-    "Deleted": false,
-    "Rank": 995,
-    "Type": "exercitationem",
-    "ColorBlock": 249,
-    "IconHint": "et",
-    "Selected": false,
-    "LastChanged": "2015-11-20T18:25:51.800328+01:00",
+    "Id": 302,
+    "Name": "Torp, Hand and Waelchi",
+    "ToolTip": "Ipsa at.",
+    "Deleted": true,
+    "Rank": 878,
+    "Type": "quibusdam",
+    "ColorBlock": 878,
+    "IconHint": "est",
+    "Selected": true,
+    "LastChanged": "2000-02-25T11:10:54.2498932+01:00",
     "ChildItems": [
       {
-        "Id": 185,
-        "Name": "Dibbert-Hessel",
-        "ToolTip": "Sequi ad repellendus aut aspernatur.",
+        "Id": 964,
+        "Name": "Skiles, Stoltenberg and Morar",
+        "ToolTip": "A assumenda deleniti.",
         "Deleted": false,
-        "Rank": 514,
-        "Type": "magni",
-        "ColorBlock": 257,
-        "IconHint": "voluptatem",
-        "Selected": true,
-        "LastChanged": "1996-06-06T18:25:51.800328+02:00",
+        "Rank": 175,
+        "Type": "tempora",
+        "ColorBlock": 840,
+        "IconHint": "quas",
+        "Selected": false,
+        "LastChanged": "2003-10-11T11:10:54.2498932+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "aliquid",
-        "StyleHint": "ut",
-        "Hidden": false,
-        "FullName": "Howard Beatty"
+        "ExtraInfo": "quas",
+        "StyleHint": "sapiente",
+        "Hidden": true,
+        "FullName": "Prof. Mittie Deckow Sr."
       }
     ],
-    "ExtraInfo": "qui",
-    "StyleHint": "doloremque",
+    "ExtraInfo": "aut",
+    "StyleHint": "omnis",
     "Hidden": false,
-    "FullName": "Isabelle Heller DVM"
+    "FullName": "Halie Reichert"
   }
 ]
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -138,65 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 511,
-    "Name": "Emard LLC",
-    "ToolTip": "Molestias officia vero ut.",
-    "Deleted": true,
-    "Rank": 517,
-    "Type": "laborum",
-    "ColorBlock": 723,
-    "IconHint": "architecto",
-    "Selected": false,
-    "LastChanged": "2008-03-18T18:25:51.8023264+01:00",
+    "Id": 851,
+    "Name": "Bernhard-Ritchie",
+    "ToolTip": "Incidunt et eos illo tempora.",
+    "Deleted": false,
+    "Rank": 119,
+    "Type": "inventore",
+    "ColorBlock": 106,
+    "IconHint": "est",
+    "Selected": true,
+    "LastChanged": "2010-04-17T11:10:54.2508911+02:00",
     "ChildItems": [
       {
-        "Id": 373,
-        "Name": "Bernhard Group",
-        "ToolTip": "Qui nobis debitis cupiditate.",
-        "Deleted": false,
-        "Rank": 352,
-        "Type": "occaecati",
-        "ColorBlock": 485,
-        "IconHint": "voluptatem",
-        "Selected": false,
-        "LastChanged": "2019-01-23T18:25:51.8023264+01:00",
+        "Id": 197,
+        "Name": "Corkery, Sauer and Johnson",
+        "ToolTip": "Voluptates nihil dicta debitis totam.",
+        "Deleted": true,
+        "Rank": 10,
+        "Type": "est",
+        "ColorBlock": 146,
+        "IconHint": "exercitationem",
+        "Selected": true,
+        "LastChanged": "2018-06-18T11:10:54.2508911+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "accusantium",
-        "StyleHint": "consectetur",
-        "Hidden": true,
-        "FullName": "Eveline Zboncak",
-        "TableRight": {},
+        "ExtraInfo": "minus",
+        "StyleHint": "enim",
+        "Hidden": false,
+        "FullName": "Joyce O'Conner",
+        "TableRight": null,
         "FieldProperties": {
           "fieldName": {
-            "FieldRight": {
-              "Mask": "FULL",
-              "Reason": ""
-            },
+            "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 580
+            "FieldLength": 808
           }
         }
       }
     ],
-    "ExtraInfo": "natus",
-    "StyleHint": "possimus",
+    "ExtraInfo": "sint",
+    "StyleHint": "velit",
     "Hidden": false,
-    "FullName": "Melvin Nolan",
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "FullName": "Onie Gutkowski",
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
+        "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 725
+        "FieldLength": 377
       }
     }
   }

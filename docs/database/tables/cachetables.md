@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "CacheTables"
-so.date: 04.12.2022
+so.date: 08.26.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -15,7 +15,7 @@ so.envir:
 
 # CacheTables Table (148)
 
-Specifies which tables should be cached to local files (or otherwise), generally these are the lists and other low-frequency-of-change tables. Contains the ID of any tables cached in SOCache. The files are binary and called &lt;tablename&gt;.bin.  &lt;Shift&gt;+&lt;F5&gt; throws all cache files.
+Specifies which tables should be cached to local files (or otherwise), generally these are the lists and other low-frequency-of-change tables. Contains the ID of any tables cached in SOCache. The files are binary and called &lt;tablename&gt;.bin.  &lt;Shift&gt;+&lt;F5&gt; throws all cache files. 
 
 ## Fields
 
@@ -26,6 +26,7 @@ Specifies which tables should be cached to local files (or otherwise), generally
 |subKeyId|Field ID of subkey field|FieldId| |
 |subKeyValue|Value of given subkey|Id| |
 |checkSum|Checksum after last update of that table|Int| |
+
 
 ![CacheTables table relationship diagram](./media/CacheTables.png)
 
@@ -45,3 +46,4 @@ Specifies which tables should be cached to local files (or otherwise), generally
 ## Security Flags
 
 * No access control via user's Role.
+

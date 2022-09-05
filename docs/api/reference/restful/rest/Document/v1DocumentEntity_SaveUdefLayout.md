@@ -1,6 +1,6 @@
 ---
 title: PUT Document/UdefLayout
-id: v1DocumentEntity_SaveUdefLayout
+uid: v1DocumentEntity_SaveUdefLayout
 ---
 
 # PUT Document/UdefLayout
@@ -10,6 +10,13 @@ PUT /api/v1/Document/UdefLayout
 ```
 
 Save DocumentEntity user-defined field layout.
+
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -25,7 +32,9 @@ Save DocumentEntity user-defined field layout.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: fields
+## Request Body: fields  
+
+ 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -64,7 +73,10 @@ Save DocumentEntity user-defined field layout.
 | HasBeenPublished | bool | Has the udef field been published? |
 | MdoListName | string | MDO list name used to populate this list. Derived from UDListDefinitionId and ListTableId. (Read-only) |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -111,54 +123,56 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 PUT /api/v1/Document/UdefLayout
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 275,
-    "ColumnId": 166,
-    "FieldDefault": "quibusdam",
-    "FieldHeight": 86,
-    "FieldLabel": "hic",
-    "FieldLeft": 698,
-    "FieldTop": 991,
+    "UDefFieldId": 678,
+    "ColumnId": 458,
+    "FieldDefault": "illo",
+    "FieldHeight": 88,
+    "FieldLabel": "earum",
+    "FieldLeft": 326,
+    "FieldTop": 961,
     "FieldType": "Checkbox",
-    "FieldWidth": 386,
-    "FormatMask": "impedit",
-    "HideLabel": true,
+    "FieldWidth": 502,
+    "FormatMask": "vel",
+    "HideLabel": false,
     "IsIndexed": false,
-    "LabelHeight": 410,
-    "LabelLeft": 90,
-    "LabelTop": 641,
-    "LabelWidth": 460,
-    "LastVersionId": 125,
-    "ListTableId": 798,
-    "IsMandatory": true,
+    "LabelHeight": 561,
+    "LabelLeft": 317,
+    "LabelTop": 202,
+    "LabelWidth": 608,
+    "LastVersionId": 287,
+    "ListTableId": 213,
+    "IsMandatory": false,
     "Type": "Appointment",
-    "Page1LineNo": 335,
-    "ProgId": "illum",
+    "Page1LineNo": 867,
+    "ProgId": "perspiciatis",
     "IsReadOnly": false,
-    "ShortLabel": "rerum",
-    "TabOrder": 94,
-    "TextLength": 876,
-    "Tooltip": "blanditiis",
-    "UdefIdentity": 737,
-    "UDListDefinitionId": 300,
+    "ShortLabel": "magnam",
+    "TabOrder": 565,
+    "TextLength": 955,
+    "Tooltip": "molestiae",
+    "UdefIdentity": 843,
+    "UDListDefinitionId": 753,
     "Justification": "Center",
-    "Version": 826,
-    "TemplateVariableName": "Nolan-Stokes",
-    "HasBeenPublished": true,
-    "MdoListName": "Bayer, Hand and Wilkinson"
+    "Version": 874,
+    "TemplateVariableName": "Prosacco-Will",
+    "HasBeenPublished": false,
+    "MdoListName": "Casper LLC"
   }
 ]
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -166,52 +180,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 10,
-    "ColumnId": 957,
-    "FieldDefault": "pariatur",
-    "FieldHeight": 124,
-    "FieldLabel": "voluptatem",
-    "FieldLeft": 180,
-    "FieldTop": 678,
+    "UDefFieldId": 246,
+    "ColumnId": 290,
+    "FieldDefault": "consequatur",
+    "FieldHeight": 258,
+    "FieldLabel": "tenetur",
+    "FieldLeft": 253,
+    "FieldTop": 804,
     "FieldType": "Checkbox",
-    "FieldWidth": 605,
-    "FormatMask": "qui",
-    "HideLabel": true,
+    "FieldWidth": 708,
+    "FormatMask": "amet",
+    "HideLabel": false,
     "IsIndexed": false,
-    "LabelHeight": 55,
-    "LabelLeft": 292,
-    "LabelTop": 927,
-    "LabelWidth": 171,
-    "LastVersionId": 742,
-    "ListTableId": 621,
+    "LabelHeight": 597,
+    "LabelLeft": 93,
+    "LabelTop": 926,
+    "LabelWidth": 841,
+    "LastVersionId": 48,
+    "ListTableId": 846,
     "IsMandatory": true,
     "Type": "Appointment",
-    "Page1LineNo": 80,
-    "ProgId": "laudantium",
+    "Page1LineNo": 694,
+    "ProgId": "quos",
     "IsReadOnly": true,
-    "ShortLabel": "quo",
-    "TabOrder": 731,
-    "TextLength": 66,
-    "Tooltip": "et",
-    "UdefIdentity": 955,
-    "UDListDefinitionId": 4,
+    "ShortLabel": "beatae",
+    "TabOrder": 337,
+    "TextLength": 806,
+    "Tooltip": "nobis",
+    "UdefIdentity": 753,
+    "UDListDefinitionId": 727,
     "Justification": "Center",
-    "Version": 940,
-    "TemplateVariableName": "Gaylord, Conroy and DuBuque",
+    "Version": 607,
+    "TemplateVariableName": "Rempel-Heaney",
     "HasBeenPublished": true,
-    "MdoListName": "Wintheiser-Emard",
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "MdoListName": "Hilpert, Baumbach and Jast",
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
+        "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 93
+        "FieldLength": 667
       }
     }
   }

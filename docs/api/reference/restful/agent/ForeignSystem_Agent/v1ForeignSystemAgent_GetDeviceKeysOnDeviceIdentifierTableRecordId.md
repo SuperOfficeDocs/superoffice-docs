@@ -1,6 +1,6 @@
 ---
 title: POST Agents/ForeignSystem/GetDeviceKeysOnDeviceIdentifierTableRecordId
-id: v1ForeignSystemAgent_GetDeviceKeysOnDeviceIdentifierTableRecordId
+uid: v1ForeignSystemAgent_GetDeviceKeysOnDeviceIdentifierTableRecordId
 ---
 
 # POST Agents/ForeignSystem/GetDeviceKeysOnDeviceIdentifierTableRecordId
@@ -11,6 +11,12 @@ POST /api/v1/Agents/ForeignSystem/GetDeviceKeysOnDeviceIdentifierTableRecordId
 
 Returns all ForeignKeys that belong to a device with a given deviceIdentifier and table name, as well as record id.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Returns all ForeignKeys that belong to a device with a given deviceIdentifier an
 ```http
 POST /api/v1/Agents/ForeignSystem/GetDeviceKeysOnDeviceIdentifierTableRecordId?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,9 +42,9 @@ POST /api/v1/Agents/ForeignSystem/GetDeviceKeysOnDeviceIdentifierTableRecordId?$
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-ApplicationName, DeviceName, DeviceIdentifier, TableName, RecordId
+ApplicationName, DeviceName, DeviceIdentifier, TableName, RecordId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -47,7 +54,10 @@ ApplicationName, DeviceName, DeviceIdentifier, TableName, RecordId
 | TableName | string |  |
 | RecordId | int32 |  |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -68,23 +78,25 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/ForeignSystem/GetDeviceKeysOnDeviceIdentifierTableRecordId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Klocko-McLaughlin",
-  "DeviceName": "Considine LLC",
-  "DeviceIdentifier": "sit",
-  "TableName": "Funk Group",
-  "RecordId": 635
+  "ApplicationName": "Braun-Kuphal",
+  "DeviceName": "Eichmann, Schroeder and Huels",
+  "DeviceIdentifier": "vel",
+  "TableName": "Keebler LLC",
+  "RecordId": 482
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -92,26 +104,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Key": "sed",
-    "Value": "a",
-    "RecordId": 481,
-    "CreatedDate": "1994-11-13T18:28:49.2240933+01:00",
-    "UpdatedDate": "2016-01-18T18:28:49.2240933+01:00",
-    "UpdatedBy": "magni",
-    "CreatedBy": "id",
-    "TableName": "Bergstrom Group",
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "Key": "pariatur",
+    "Value": "corporis",
+    "RecordId": 550,
+    "CreatedDate": "2003-08-15T11:10:27.0934525+02:00",
+    "UpdatedDate": "2008-06-30T11:10:27.0934525+02:00",
+    "UpdatedBy": "qui",
+    "CreatedBy": "et",
+    "TableName": "Ritchie Group",
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 153
+        "FieldRight": null,
+        "FieldType": "System.Int32",
+        "FieldLength": 35
       }
     }
   }

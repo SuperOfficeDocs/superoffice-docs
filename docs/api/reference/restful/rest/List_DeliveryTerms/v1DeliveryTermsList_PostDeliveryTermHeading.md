@@ -1,6 +1,6 @@
 ---
 title: POST List/DeliveryTerm/Headings
-id: v1DeliveryTermsList_PostDeliveryTermHeading
+uid: v1DeliveryTermsList_PostDeliveryTermHeading
 ---
 
 # POST List/DeliveryTerm/Headings
@@ -11,7 +11,14 @@ POST /api/v1/List/DeliveryTerm/Headings
 
 Saves a new heading for the DeliveryTerm list.
 
+
 Calls the List agent service SaveHeadingFromListDefinition.
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -27,9 +34,9 @@ Calls the List agent service SaveHeadingFromListDefinition.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: newEntity
+## Request Body: newEntity  
 
-The heading to be added.
+The heading to be added. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -40,18 +47,16 @@ The heading to be added.
 | Rank | int32 | Rank order |
 | UdListDefinitionId | int32 | The id of the list which this heading belongs to |
 
-## Response: object
 
-The heading entity contains generic list item information
+## Response: 
 
-Carrier object for HeadingEntity.
-Services for the HeadingEntity Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IListAgent">List Agent</see>.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -64,48 +69,44 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/List/DeliveryTerm/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 750,
-  "Name": "Parker-Purdy",
-  "Tooltip": "rerum",
+  "HeadingId": 294,
+  "Name": "Stehr-Hessel",
+  "Tooltip": "magnam",
   "Deleted": false,
-  "Rank": 639,
-  "UdListDefinitionId": 533
+  "Rank": 266,
+  "UdListDefinitionId": 646
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 126,
-  "Name": "Wyman-Wolf",
-  "Tooltip": "repellendus",
-  "Deleted": true,
-  "Rank": 74,
-  "UdListDefinitionId": 841,
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": "drive rich metrics"
-  },
+  "HeadingId": 346,
+  "Name": "Buckridge, Emard and Raynor",
+  "Tooltip": "corrupti",
+  "Deleted": false,
+  "Rank": 484,
+  "UdListDefinitionId": 431,
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
+      "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 963
+      "FieldLength": 45
     }
   }
 }

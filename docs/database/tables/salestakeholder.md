@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "SaleStakeholder"
-so.date: 04.12.2022
+so.date: 08.26.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -34,6 +34,7 @@ Stakeholders in the sale, very similar to project members
 |updated\_associate\_id|Last updated by whom|FK [associate](associate.md)| |
 |updatedCount|Number of updates made to this record|UShort| |
 
+
 ![SaleStakeholder table relationship diagram](./media/SaleStakeholder.png)
 
 [!include[details](./includes/salestakeholder.md)]
@@ -56,6 +57,7 @@ Stakeholders in the sale, very similar to project members
 |[sale](sale.md)  |Sales  For every Sale record edited through the SuperOffice GUI, a copy of the current version of the record will be saved in the SaleHist table. This also applies to editing done through the SaleModel COM interface, but not to editing done through the OLE DB Provider or other channels.   |
 |[StakeholderRole](stakeholderrole.md)  |Role a stakeholder has in a sale |
 
+
 ## Replication Flags
 
 * Area Management controlled table. Contents replicated to satellites and traveller databases.
@@ -66,3 +68,4 @@ Stakeholders in the sale, very similar to project members
 ## Security Flags
 
 * Sentry controls access to items in this table using user's Role and data rights matrix on the table's parent.
+

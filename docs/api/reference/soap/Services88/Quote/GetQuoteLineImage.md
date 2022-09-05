@@ -18,6 +18,7 @@ Gets an image connected to a quoteline, either from the ERPProvider or from the 
 
 **Returns:** The image. Returns null if no image available.
 
+
 [WSDL file for Services88/Quote](../Services88-Quote.md)
 
 Obtain a ticket from the [Services88/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -51,6 +52,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## GetQuoteLineImage Response
 
 ```xml
@@ -71,3 +73,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

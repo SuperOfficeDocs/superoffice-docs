@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Contact/ValidateContactEntity
-id: v1ContactAgent_ValidateContactEntity
+uid: v1ContactAgent_ValidateContactEntity
 ---
 
 # POST Agents/Contact/ValidateContactEntity
@@ -11,6 +11,12 @@ POST /api/v1/Agents/Contact/ValidateContactEntity
 
 Check that entity is ready for saving, return error messages by field.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Check that entity is ready for saving, return error messages by field.
 ```http
 POST /api/v1/Agents/Contact/ValidateContactEntity?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,15 +42,18 @@ POST /api/v1/Agents/Contact/ValidateContactEntity?$select=name,department,catego
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-ContactEntity
+ContactEntity 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| ContactEntity |  | The Contact Service. The service implements all services working with the Contact object <br /> Carrier object for ContactEntity. Services for the ContactEntity Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IContactAgent">Contact Agent</see>. |
+| ContactEntity |  | The Contact Service. The service implements all services working with the Contact object <para /> Carrier object for ContactEntity. Services for the ContactEntity Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IContactAgent">Contact Agent</see>. |
+
 
 ## Response: object
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -51,7 +61,8 @@ ContactEntity
 
 Response body: object
 
-## Sample Request
+
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Contact/ValidateContactEntity
@@ -61,94 +72,18 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactEntity": {
-    "ContactId": 482,
-    "Name": "Bartoletti-Dibbert",
-    "Department": "",
-    "OrgNr": "983480",
-    "Number1": "431924",
-    "Number2": "1763896",
-    "UpdatedDate": "2012-11-12T18:28:48.6169524+01:00",
-    "CreatedDate": "2014-03-20T18:28:48.6169524+01:00",
-    "Emails": [
-      {},
-      {}
-    ],
-    "Interests": [
-      {},
-      {}
-    ],
-    "Urls": [
-      {},
-      {}
-    ],
-    "Phones": [
-      {},
-      {}
-    ],
-    "Faxes": [
-      {},
-      {}
-    ],
-    "Description": "Persevering 6th generation firmware",
-    "UpdatedBy": {},
-    "CreatedBy": {},
-    "Associate": {},
-    "Business": {},
-    "Category": {},
-    "Country": {},
-    "Persons": [
-      {},
-      {}
-    ],
-    "NoMailing": true,
-    "Kananame": "voluptatibus",
-    "Xstop": false,
-    "ActiveInterests": 948,
-    "GroupId": 309,
-    "ActiveStatusMonitorId": 801,
-    "SupportAssociate": {},
-    "TicketPriority": {},
-    "CustomerLanguage": {},
-    "Deleted": 193,
-    "DbiAgentId": 370,
-    "DbiLastSyncronized": "2016-11-06T18:28:48.6169524+01:00",
-    "DbiKey": "beatae",
-    "DbiLastModified": "2002-08-07T18:28:48.6169524+02:00",
-    "SupportPerson": {},
-    "Address": {},
-    "Source": 433,
-    "ActiveErpLinks": 467,
-    "BounceEmails": [
-      "nelda.klocko@heller.info",
-      "gus@grimes.info"
-    ],
-    "Domains": [
-      "enim",
-      "eius"
-    ],
-    "UserDefinedFields": {
-      "SuperOffice:1": "335276439",
-      "SuperOffice:2": "Naomi Spencer PhD"
-    },
-    "ExtraFields": {
-      "ExtraFields1": "quibusdam",
-      "ExtraFields2": "et"
-    },
-    "CustomFields": {
-      "CustomFields1": "ea",
-      "CustomFields2": "culpa"
-    }
-  }
+  "ContactEntity": null
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "1": "vero",
-  "2": "dolor"
+  "1": "eum",
+  "2": "itaque"
 }
 ```

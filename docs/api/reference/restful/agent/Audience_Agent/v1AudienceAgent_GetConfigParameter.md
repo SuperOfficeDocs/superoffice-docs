@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Audience/GetConfigParameter
-id: v1AudienceAgent_GetConfigParameter
+uid: v1AudienceAgent_GetConfigParameter
 ---
 
 # POST Agents/Audience/GetConfigParameter
@@ -11,6 +11,12 @@ POST /api/v1/Agents/Audience/GetConfigParameter
 
 Gets an Audience configuration parameter belonging to a given Audience layout with the specified configuration parameter name
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Gets an Audience configuration parameter belonging to a given Audience layout wi
 ```http
 POST /api/v1/Agents/Audience/GetConfigParameter?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,27 +42,25 @@ POST /api/v1/Agents/Audience/GetConfigParameter?$select=name,department,category
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-LayoutName, ParameterName
+LayoutName, ParameterName 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | LayoutName | string |  |
 | ParameterName | string |  |
 
-## Response: object
 
-An Audience configuration parameter, used for handling Audience application or Web part settings.
+## Response: 
 
-Carrier object for AudienceConfigParameter.
-Services for the AudienceConfigParameter Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IAudienceAgent">Audience Agent</see>.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -69,7 +74,7 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Audience/GetConfigParameter
@@ -79,35 +84,31 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "LayoutName": "Farrell, Huels and Moen",
-  "ParameterName": "Larson Group"
+  "LayoutName": "Kertzmann, Leannon and Parker",
+  "ParameterName": "Gislason-Stamm"
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AudienceLayoutId": 188,
-  "Name": "Kub-Mosciski",
-  "Value": "ad",
-  "CreatedDate": "1994-10-24T18:28:48.1295425+02:00",
-  "UpdatedDate": "2004-09-04T18:28:48.1295425+02:00",
-  "CreatedBy": "enim",
-  "UpdatedBy": "cumque",
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": "e-enable transparent infrastructures"
-  },
+  "AudienceLayoutId": 793,
+  "Name": "Mosciski Group",
+  "Value": "ut",
+  "CreatedDate": "2021-12-12T11:10:26.0045531+01:00",
+  "UpdatedDate": "2002-02-28T11:10:26.0045531+01:00",
+  "CreatedBy": "ea",
+  "UpdatedBy": "occaecati",
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
-      "FieldType": "System.String",
-      "FieldLength": 966
+      "FieldRight": null,
+      "FieldType": "System.Int32",
+      "FieldLength": 638
     }
   }
 }

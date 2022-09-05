@@ -14,7 +14,9 @@ Implemented by the <see cref="M:SuperOffice.Services87.IProjectAgent.CreateDefau
 Loading default values into a new ProjectEventEntity.
 NetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance
 
+
 **Returns:** New ProjectEventEntity with default values
+
 
 [WSDL file for Services87/Project](../Services87-Project.md)
 
@@ -47,6 +49,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## CreateDefaultProjectEventEntity Response
 
 ```xml
@@ -66,9 +69,9 @@ Application tokens must be specified if calling an Online installation. Applicat
     <Project:SignOffText xsi:type="xsd:string"></Project:SignOffText>
     <Project:SignOnConfirmationText xsi:type="xsd:string"></Project:SignOnConfirmationText>
     <Project:SignOnText xsi:type="xsd:string"></Project:SignOnText>
-    <Project:EventDate xsi:type="xsd:dateTime">2021-11-30T13:23:23Z</Project:EventDate>
+    <Project:EventDate xsi:type="xsd:dateTime">2022-08-26T08:57:39Z</Project:EventDate>
     <Project:Enabled xsi:type="xsd:boolean">false</Project:Enabled>
-    <Project:CreatedDate xsi:type="xsd:dateTime">2021-11-30T13:23:23Z</Project:CreatedDate>
+    <Project:CreatedDate xsi:type="xsd:dateTime">2022-08-26T08:57:39Z</Project:CreatedDate>
     <Project:SignOff xsi:type="xsd:boolean">false</Project:SignOff>
     <Project:SignOffTaskEnable xsi:type="xsd:boolean">false</Project:SignOffTaskEnable>
     <Project:SignOffTaskId xsi:type="xsd:int">0</Project:SignOffTaskId>
@@ -77,7 +80,7 @@ Application tokens must be specified if calling an Online installation. Applicat
     <Project:SignOnTaskEnable xsi:type="xsd:boolean">false</Project:SignOnTaskEnable>
     <Project:SignOnTaskId xsi:type="xsd:int">0</Project:SignOnTaskId>
     <Project:SignOnTriggersAssign xsi:type="xsd:boolean">false</Project:SignOnTriggersAssign>
-    <Project:UpdatedDate xsi:type="xsd:dateTime">2021-11-30T13:23:23Z</Project:UpdatedDate>
+    <Project:UpdatedDate xsi:type="xsd:dateTime">2022-08-26T08:57:39Z</Project:UpdatedDate>
     <Project:CreatedBy xsi:type="Project:Associate">
      <Project:AssociateId xsi:type="xsd:int">0</Project:AssociateId>
      <Project:Name xsi:type="xsd:string"></Project:Name>
@@ -108,9 +111,9 @@ Application tokens must be specified if calling an Online installation. Applicat
     </Project:UpdatedBy>
     <Project:ProjectId xsi:type="xsd:int">0</Project:ProjectId>
     <Project:Id xsi:type="xsd:int">0</Project:Id>
-    <Project:PublishFrom xsi:type="xsd:dateTime">2021-11-30T13:23:23Z</Project:PublishFrom>
+    <Project:PublishFrom xsi:type="xsd:dateTime">2022-08-26T08:57:39Z</Project:PublishFrom>
     <Project:PublishType xsi:type="Project:PublishType">Undefined</Project:PublishType>
-    <Project:PublishTo xsi:type="xsd:dateTime">2021-11-30T13:23:23Z</Project:PublishTo>
+    <Project:PublishTo xsi:type="xsd:dateTime">2022-08-26T08:57:39Z</Project:PublishTo>
     <Project:VisibleForCategories xsi:type="Project:ArrayOfMDOListItem">
      <Project:MDOListItem xsi:type="Project:MDOListItem">
       <Project:Id xsi:type="xsd:int">0</Project:Id>
@@ -214,3 +217,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

@@ -12,11 +12,12 @@ Implemented by the <see cref="M:SuperOffice.Services87.IUserAgent.CreateDefaultU
 ## CreateDefaultUserFromUserType
 
 Create default User providing the user type.  Only System and Anonymous users can be created without an exsisting person.  Use CreateDefaultUserFromUserTypeAndPersonId to create internal (i.e. Employee) or external users.
-<br />**Online Restricted:** The User agent is not available in Online by default. User management is not allowed for partner apps.
+<para /><b>Online Restricted:</b> The User agent is not available in Online by default. User management is not allowed for partner apps.
 
 * **userType:** Type of associate for the user.  This can only be System or Anonymous. Use CreateDefaultUserFromUserTypeAndPersonId to create internal (i.e. Employee) or external users.
 
 **Returns:** New user object with defalt values set.
+
 
 [WSDL file for Services87/User](../Services87-User.md)
 
@@ -49,6 +50,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+
 
 ## CreateDefaultUserFromUserType Response
 
@@ -173,8 +175,8 @@ Application tokens must be specified if calling an Online installation. Applicat
      <User:CategoryName xsi:type="xsd:string"></User:CategoryName>
     </User:Person>
     <User:Deleted xsi:type="xsd:boolean">false</User:Deleted>
-    <User:Lastlogin xsi:type="xsd:dateTime">2021-11-30T13:23:29Z</User:Lastlogin>
-    <User:Lastlogout xsi:type="xsd:dateTime">2021-11-30T13:23:29Z</User:Lastlogout>
+    <User:Lastlogin xsi:type="xsd:dateTime">2022-08-26T08:58:08Z</User:Lastlogin>
+    <User:Lastlogout xsi:type="xsd:dateTime">2022-08-26T08:58:08Z</User:Lastlogout>
     <User:EjUserId xsi:type="xsd:int">0</User:EjUserId>
     <User:RequestSignature xsi:type="xsd:string"></User:RequestSignature>
     <User:Type xsi:type="User:UserType">Unknown</User:Type>
@@ -271,3 +273,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

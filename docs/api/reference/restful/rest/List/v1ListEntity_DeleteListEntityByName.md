@@ -1,6 +1,6 @@
 ---
 title: DEL List/{name}
-id: v1ListEntity_DeleteListEntityByName
+uid: v1ListEntity_DeleteListEntityByName
 ---
 
 # DEL List/{name}
@@ -11,9 +11,16 @@ DELETE /api/v1/List/{name}
 
 Delete a ListEntity resolved by the provided name.
 
+
+
+
+
+
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | name | string | The name of the list to delete. **Required** |
+
+
 
 ## Request Headers
 
@@ -21,10 +28,35 @@ Delete a ListEntity resolved by the provided name.
 |----------------|-------------|
 | Authorization  | Supports 'Basic', 'SoTicket' and 'Bearer' schemes, depending on installation type. |
 | X-XSRF-TOKEN   | If not using Authorization header, you must provide XSRF value from cookie or hidden input field |
+| Accept         | Content-type(s) you would like the response in:  |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response
+
+## Response: 
+
+No Content
 
 | Response | Description |
 |----------------|-------------|
 | 204 | No Content |
+
+Response body: 
+
+
+## Sample request
+
+```http!
+DELETE /api/v1/List/{name}
+Authorization: Basic dGplMDpUamUw
+Accept: application/json; charset=utf-8
+Accept-Language: en
+```
+
+## Sample response
+
+```http_
+HTTP/1.1 204 No Content
+Content-Type: application/json; charset=utf-8
+
+null
+```

@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Selection/CreateTemporarySelectionFromIds
-id: v1SelectionAgent_CreateTemporarySelectionFromIds
+uid: v1SelectionAgent_CreateTemporarySelectionFromIds
 ---
 
 # POST Agents/Selection/CreateTemporarySelectionFromIds
@@ -11,6 +11,12 @@ POST /api/v1/Agents/Selection/CreateTemporarySelectionFromIds
 
 Creates a temporary selection with members from a collection of entity id's.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Creates a temporary selection with members from a collection of entity id's.
 ```http
 POST /api/v1/Agents/Selection/CreateTemporarySelectionFromIds?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,25 +42,25 @@ POST /api/v1/Agents/Selection/CreateTemporarySelectionFromIds?$select=name,depar
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-Ids, TargetTableNumber
+Ids, TargetTableNumber 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | Ids | array |  |
 | TargetTableNumber | int32 |  |
 
-## Response: object
 
-Carrier object for SelectionEntity.
-Services for the SelectionEntity Carrier is available from the <see cref="T:SuperOffice.CRM.Services.ISelectionAgent">Selection Agent</see>.
+## Response: 
+
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -62,7 +69,7 @@ Response body: object
 | Associate |  | Owner of the selection |
 | CreatedBy |  | Who created the selection |
 | UpdatedBy |  | Who last modified the selection |
-| SelectionCategory |  | Selection category type (list item)  <br />Use MDO List name "searchCat" to get list items. |
+| SelectionCategory |  | Selection category type (list item)  <para>Use MDO List name "searchCat" to get list items.</para> |
 | GroupIdx | int32 | Original primary user group of associate |
 | IncludePerson | int32 | 0 = Include first person, 1 = Include all persons, 2 = Include no persons |
 | MemberCount | int32 | How many selectionmembers (for progress bar calculations) - estimate, -1 (or 4294967295) means we don't know |
@@ -101,250 +108,105 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Selection/CreateTemporarySelectionFromIds
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "Ids": [
-    611,
-    421
+    349,
+    296
   ],
-  "TargetTableNumber": 476
+  "TargetTableNumber": 591
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Cross-platform fault-tolerant application",
-  "Postit": "qui",
-  "Associate": {
-    "AssociateId": 801,
-    "Name": "Shields-Skiles",
-    "PersonId": 76,
-    "Rank": 757,
-    "Tooltip": "sunt",
-    "Type": "AnonymousAssociate",
-    "GroupIdx": 644,
-    "FullName": "Krystina Welch",
-    "FormalName": "Wehner Inc and Sons",
-    "Deleted": false,
-    "EjUserId": 634,
-    "UserName": "Schaden, Powlowski and Jacobs",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 815
-      }
-    }
-  },
-  "CreatedBy": {
-    "AssociateId": 260,
-    "Name": "Fahey Group",
-    "PersonId": 115,
-    "Rank": 686,
-    "Tooltip": "eaque",
-    "Type": "AnonymousAssociate",
-    "GroupIdx": 632,
-    "FullName": "Miss Maxine Muller",
-    "FormalName": "Donnelly LLC",
-    "Deleted": true,
-    "EjUserId": 198,
-    "UserName": "Schiller LLC",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.Int32",
-        "FieldLength": 761
-      }
-    }
-  },
-  "UpdatedBy": {
-    "AssociateId": 198,
-    "Name": "Price LLC",
-    "PersonId": 930,
-    "Rank": 599,
-    "Tooltip": "voluptatem",
-    "Type": "AnonymousAssociate",
-    "GroupIdx": 32,
-    "FullName": "Anahi Leffler",
-    "FormalName": "Glover Group",
-    "Deleted": false,
-    "EjUserId": 308,
-    "UserName": "Wehner Group",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.Int32",
-        "FieldLength": 955
-      }
-    }
-  },
-  "SelectionCategory": {
-    "Id": 295,
-    "Value": "minus",
-    "Tooltip": "temporibus",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.Int32",
-        "FieldLength": 356
-      }
-    }
-  },
-  "GroupIdx": 490,
-  "IncludePerson": 84,
-  "MemberCount": 339,
-  "Name": "Prohaska, Kunde and Prosacco",
-  "PostitTextId": 440,
-  "CreatedDate": "2018-05-18T18:28:50.1894421+02:00",
-  "SelectionId": 208,
-  "SoundEx": "reprehenderit",
-  "Source": 646,
-  "TextId": 196,
-  "UpdatedDate": "2001-01-25T18:28:50.1894421+01:00",
-  "UpdatedCount": 885,
-  "Visibility": 647,
+  "Description": "Optional bifurcated algorithm",
+  "Postit": "non",
+  "Associate": null,
+  "CreatedBy": null,
+  "UpdatedBy": null,
+  "SelectionCategory": null,
+  "GroupIdx": 314,
+  "IncludePerson": 106,
+  "MemberCount": 1001,
+  "Name": "Labadie, Senger and Oberbrunner",
+  "PostitTextId": 371,
+  "CreatedDate": "2001-05-20T11:10:27.9389795+02:00",
+  "SelectionId": 993,
+  "SoundEx": "eos",
+  "Source": 187,
+  "TextId": 209,
+  "UpdatedDate": "2001-05-23T11:10:27.9389795+02:00",
+  "UpdatedCount": 115,
+  "Visibility": 84,
   "SelectionType": "Combined",
-  "CompanyUnique": true,
-  "TargetTableNumber": 483,
-  "TargetTableName": "Wilkinson, Parisian and Douglas",
+  "CompanyUnique": false,
+  "TargetTableNumber": 23,
+  "TargetTableName": "Jones-Lynch",
   "Completed": true,
-  "LeftSelectionId": 637,
-  "RightSelectionId": 566,
+  "LeftSelectionId": 2,
+  "RightSelectionId": 305,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Purdy LLC",
-  "ShadowProviderName": "Maggio-Daniel",
-  "ChartKey": "amet",
-  "LastLoaded": "2006-04-11T18:28:50.1894421+02:00",
-  "LastLoadedBy": 977,
-  "LastLoadedByAssociate": {
-    "AssociateId": 606,
-    "Name": "Feeney-Kuhn",
-    "PersonId": 114,
-    "Rank": 344,
-    "Tooltip": "natus",
-    "Type": "AnonymousAssociate",
-    "GroupIdx": 840,
-    "FullName": "Brionna Considine",
-    "FormalName": "Konopelski Inc and Sons",
-    "Deleted": false,
-    "EjUserId": 535,
-    "UserName": "Collins-Jacobs",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.Int32",
-        "FieldLength": 200
-      }
-    }
-  },
-  "LastMembershipChange": "2010-05-05T18:28:50.1894421+02:00",
-  "LastMembershipChangeBy": 646,
-  "LastMembershipChangeByAssociate": {
-    "AssociateId": 300,
-    "Name": "Konopelski, Parisian and Marquardt",
-    "PersonId": 315,
-    "Rank": 672,
-    "Tooltip": "impedit",
-    "Type": "AnonymousAssociate",
-    "GroupIdx": 336,
-    "FullName": "Eulalia Lueilwitz",
-    "FormalName": "Yost, Reinger and Hessel",
-    "Deleted": true,
-    "EjUserId": 564,
-    "UserName": "Bogan-Lubowitz",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 436
-      }
-    }
-  },
-  "MainHeading": "sed",
-  "MemberTabHeading": "eos",
-  "MailingsProviderName": "Pollich Group",
-  "DashboardTileDefinitionId": 349,
+  "MainProviderName": "Langosh-West",
+  "ShadowProviderName": "Becker Inc and Sons",
+  "ChartKey": "nostrum",
+  "LastLoaded": "2016-03-23T11:10:27.9389795+01:00",
+  "LastLoadedBy": 258,
+  "LastLoadedByAssociate": null,
+  "LastMembershipChange": "2020-02-14T11:10:27.9389795+01:00",
+  "LastMembershipChangeBy": 831,
+  "LastMembershipChangeByAssociate": null,
+  "MainHeading": "quod",
+  "MemberTabHeading": "optio",
+  "MailingsProviderName": "Connelly, Nienow and Larkin",
+  "DashboardTileDefinitionId": 907,
   "VisibleFor": [
     {
-      "VisibleId": 736,
+      "VisibleId": 76,
       "Visibility": "All",
-      "DisplayValue": "in",
-      "TableRight": {},
+      "DisplayValue": "enim",
+      "TableRight": null,
       "FieldProperties": {
         "fieldName": {
-          "FieldRight": {
-            "Mask": "FULL",
-            "Reason": ""
-          },
-          "FieldType": "System.Int32",
-          "FieldLength": 763
+          "FieldRight": null,
+          "FieldType": "System.String",
+          "FieldLength": 656
         }
       }
     },
     {
-      "VisibleId": 736,
+      "VisibleId": 76,
       "Visibility": "All",
-      "DisplayValue": "in",
-      "TableRight": {},
+      "DisplayValue": "enim",
+      "TableRight": null,
       "FieldProperties": {
         "fieldName": {
-          "FieldRight": {
-            "Mask": "FULL",
-            "Reason": ""
-          },
-          "FieldType": "System.Int32",
-          "FieldLength": 763
+          "FieldRight": null,
+          "FieldType": "System.String",
+          "FieldLength": 656
         }
       }
     }
   ],
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
-      "FieldType": "System.String",
-      "FieldLength": 522
+      "FieldRight": null,
+      "FieldType": "System.Int32",
+      "FieldLength": 958
     }
   }
 }

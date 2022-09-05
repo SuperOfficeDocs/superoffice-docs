@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Configuration/GetConfigurableScreenDelta
-id: v1ConfigurationAgent_GetConfigurableScreenDelta
+uid: v1ConfigurationAgent_GetConfigurableScreenDelta
 ---
 
 # POST Agents/Configuration/GetConfigurableScreenDelta
@@ -11,6 +11,12 @@ POST /api/v1/Agents/Configuration/GetConfigurableScreenDelta
 
 Gets a ConfigurableScreenDelta object.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -19,9 +25,10 @@ Gets a ConfigurableScreenDelta object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Configuration/GetConfigurableScreenDelta?configurableScreenDeltaId=406
+POST /api/v1/Agents/Configuration/GetConfigurableScreenDelta?configurableScreenDeltaId=797
 POST /api/v1/Agents/Configuration/GetConfigurableScreenDelta?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -36,13 +43,16 @@ POST /api/v1/Agents/Configuration/GetConfigurableScreenDelta?$select=name,depart
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response: object
+
+## Response: 
+
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -57,99 +67,49 @@ Response body: object
 | CreatedDate | date-time |  |
 | UpdatedBy |  | Carrier object for Associate. Services for the Associate Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IAssociateAgent">Associate Agent</see>. |
 | CreatedBy |  | Carrier object for Associate. Services for the Associate Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IAssociateAgent">Associate Agent</see>. |
-| UserGroupIds | array |  |
+| AppliesToIds | array |  |
+| AppliesToKey | string |  |
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Configuration/GetConfigurableScreenDelta
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConfigurableScreenDeltaId": 657,
-  "Name": "Hoppe-Gutmann",
-  "Description": "Proactive holistic extranet",
-  "DeltaJson": "sed",
+  "ConfigurableScreenDeltaId": 970,
+  "Name": "Metz-O'Kon",
+  "Description": "Sharable 6th generation portal",
+  "DeltaJson": "vitae",
   "DeltaType": "CustomFields",
   "DeltaState": "Draft",
   "RecipeId": "qui",
-  "UpdatedDate": "2014-03-02T18:28:48.4116241+01:00",
-  "CreatedDate": "2019-12-22T18:28:48.4116241+01:00",
-  "UpdatedBy": {
-    "AssociateId": 954,
-    "Name": "Nitzsche LLC",
-    "PersonId": 189,
-    "Rank": 829,
-    "Tooltip": "natus",
-    "Type": "AnonymousAssociate",
-    "GroupIdx": 725,
-    "FullName": "Donna Wisoky",
-    "FormalName": "Skiles, Harber and Pagac",
-    "Deleted": false,
-    "EjUserId": 957,
-    "UserName": "Berge LLC",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": "engage enterprise metrics"
-        },
-        "FieldType": "System.Int32",
-        "FieldLength": 650
-      }
-    }
-  },
-  "CreatedBy": {
-    "AssociateId": 628,
-    "Name": "Wunsch LLC",
-    "PersonId": 156,
-    "Rank": 177,
-    "Tooltip": "consectetur",
-    "Type": "AnonymousAssociate",
-    "GroupIdx": 977,
-    "FullName": "Laney Blanda",
-    "FormalName": "McClure, White and Doyle",
-    "Deleted": true,
-    "EjUserId": 649,
-    "UserName": "Mante, Oberbrunner and Orn",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.Int32",
-        "FieldLength": 521
-      }
-    }
-  },
-  "UserGroupIds": [
-    123,
-    546
+  "UpdatedDate": "2001-10-27T11:10:26.2015557+02:00",
+  "CreatedDate": "2005-11-27T11:10:26.2015557+01:00",
+  "UpdatedBy": null,
+  "CreatedBy": null,
+  "AppliesToIds": [
+    439,
+    928
   ],
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "AppliesToKey": "hic",
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
+      "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 13
+      "FieldLength": 552
     }
   }
 }

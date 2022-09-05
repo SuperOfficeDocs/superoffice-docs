@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Dash/CreateDefaultTileForEntity
-id: v1DashAgent_CreateDefaultTileForEntity
+uid: v1DashAgent_CreateDefaultTileForEntity
 ---
 
 # POST Agents/Dash/CreateDefaultTileForEntity
@@ -11,6 +11,12 @@ POST /api/v1/Agents/Dash/CreateDefaultTileForEntity
 
 Set Measure to CountAll and MeasureField to primary key field
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Set Measure to CountAll and MeasureField to primary key field
 ```http
 POST /api/v1/Agents/Dash/CreateDefaultTileForEntity?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,26 +42,24 @@ POST /api/v1/Agents/Dash/CreateDefaultTileForEntity?$select=name,department,cate
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-EntityName
+EntityName 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | EntityName | string |  |
 
-## Response: object
 
-Dashboard Tile configuration
+## Response: 
 
-Carrier object for DashTile.
-Services for the DashTile Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IDashAgent">Dash Agent</see>.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -67,73 +72,39 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Dash/CreateDefaultTileForEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "EntityName": "Kirlin LLC"
+  "EntityName": "Reichel Inc and Sons"
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 417,
-  "DashboardId": 863,
-  "Height": 435,
-  "Width": 404,
-  "Rank": 68,
-  "DashTileDefinition": {
-    "DashboardTileDefinitionId": 489,
-    "Name": "Hermiston LLC",
-    "Description": "Enterprise-wide bi-directional conglomeration",
-    "DefaultHeight": 230,
-    "DefaultWidth": 140,
-    "TileType": "Area",
-    "EntityType": "Appointment",
-    "EntityName": "Ledner Inc and Sons",
-    "SelectionId": 617,
-    "CurrencyMode": "Base",
-    "CurrencyCode": "doloremque",
-    "Measure": "Average",
-    "MeasureField": "voluptas",
-    "SortBy": "voluptate",
-    "LayoutConfig": "explicabo",
-    "SecondarySelectionId": 973,
-    "MeasureByField": "vero",
-    "ProviderName": "McDermott-Kessler",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.Int32",
-        "FieldLength": 135
-      }
-    }
-  },
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "DashboardTileId": 47,
+  "DashboardId": 313,
+  "Height": 473,
+  "Width": 344,
+  "Rank": 598,
+  "DashTileDefinition": null,
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
-      "FieldType": "System.String",
-      "FieldLength": 651
+      "FieldRight": null,
+      "FieldType": "System.Int32",
+      "FieldLength": 19
     }
   }
 }

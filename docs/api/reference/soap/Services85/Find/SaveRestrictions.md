@@ -20,6 +20,7 @@ Save an array of restrictions for later use as search criteria (including as dyn
 
 **Returns:** This service call just saves the restrictions. See SaveRestrictionsAndGetCriteriaInformation if you would like the restrictions returned as criteria immediately, in one roundtrip
 
+
 [WSDL file for Services85/Find](../Services85-Find.md)
 
 Obtain a ticket from the [Services85/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -128,6 +129,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## SaveRestrictions Response
 
 ```xml
@@ -147,3 +149,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

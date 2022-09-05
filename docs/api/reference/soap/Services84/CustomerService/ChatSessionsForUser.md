@@ -13,7 +13,9 @@ Implemented by the <see cref="M:SuperOffice.Services84.ICustomerServiceAgent.Cha
 
 Get all chat sessions which this user is a member of. Members means that you have at least one of: Can Respond, Notifications, Listen or Manager
 
+
 **Returns:** Array of chat sessions
+
 
 [WSDL file for Services84/CustomerService](../Services84-CustomerService.md)
 
@@ -46,6 +48,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## ChatSessionsForUser Response
 
 ```xml
@@ -70,3 +73,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

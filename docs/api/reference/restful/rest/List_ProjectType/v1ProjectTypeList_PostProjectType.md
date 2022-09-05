@@ -1,6 +1,6 @@
 ---
 title: POST List/ProjectType/Items
-id: v1ProjectTypeList_PostProjectType
+uid: v1ProjectTypeList_PostProjectType
 ---
 
 # POST List/ProjectType/Items
@@ -10,6 +10,13 @@ POST /api/v1/List/ProjectType/Items
 ```
 
 Add a new ProjectType to the list.
+
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -25,9 +32,9 @@ Add a new ProjectType to the list.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: newListItem
+## Request Body: newListItem  
 
-The ProjectType to be added to the list.
+The ProjectType to be added to the list. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -38,18 +45,16 @@ The ProjectType to be added to the list.
 | UdListDefinitionId | int32 | The id of the list which this list item belongs to |
 | Rank | int32 | The rank of the list item |
 
-## Response: object
 
-The list item entity contains generic list item information
+## Response: 
 
-Carrier object for ListItemEntity.
-Services for the ListItemEntity Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IListAgent">List Agent</see>.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -62,7 +67,7 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/List/ProjectType/Items
@@ -72,38 +77,34 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 465,
-  "Name": "Rolfson-Bednar",
-  "Tooltip": "aspernatur",
+  "Id": 317,
+  "Name": "Jast, Gutkowski and Pfeffer",
+  "Tooltip": "et",
   "Deleted": true,
-  "UdListDefinitionId": 88,
-  "Rank": 676
+  "UdListDefinitionId": 651,
+  "Rank": 367
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 752,
-  "Name": "Lind-Bahringer",
-  "Tooltip": "dolorem",
+  "Id": 748,
+  "Name": "Hand-Crona",
+  "Tooltip": "at",
   "Deleted": false,
-  "UdListDefinitionId": 388,
-  "Rank": 635,
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "UdListDefinitionId": 827,
+  "Rank": 680,
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
-      "FieldType": "System.Int32",
-      "FieldLength": 507
+      "FieldRight": null,
+      "FieldType": "System.String",
+      "FieldLength": 311
     }
   }
 }

@@ -1,6 +1,6 @@
 ---
 title: POST Agents/List/UpdateHierarchyFromPath
-id: v1ListAgent_UpdateHierarchyFromPath
+uid: v1ListAgent_UpdateHierarchyFromPath
 ---
 
 # POST Agents/List/UpdateHierarchyFromPath
@@ -11,6 +11,12 @@ POST /api/v1/Agents/List/UpdateHierarchyFromPath
 
 Update a hierarchy item from a path
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Update a hierarchy item from a path
 ```http
 POST /api/v1/Agents/List/UpdateHierarchyFromPath?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,28 +42,26 @@ POST /api/v1/Agents/List/UpdateHierarchyFromPath?$select=name,department,categor
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-Domain, Path, Entity
+Domain, Path, Entity 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | Domain | string |  |
 | Path | string |  |
-| Entity |  | Folder structures <br /> Carrier object for HierarchyEntity. Services for the HierarchyEntity Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IListAgent">List Agent</see>. |
+| Entity |  | Folder structures <para /> Carrier object for HierarchyEntity. Services for the HierarchyEntity Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IListAgent">List Agent</see>. |
 
-## Response: object
 
-Folder structures
+## Response: 
 
-Carrier object for HierarchyEntity.
-Services for the HierarchyEntity Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IListAgent">List Agent</see>.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -73,90 +78,69 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/List/UpdateHierarchyFromPath
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "Domain": "Dashboards",
-  "Path": "voluptas",
-  "Entity": {
-    "HierarchyId": 864,
-    "Domain": "Dashboards",
-    "Name": "Will Group",
-    "Fullname": "suscipit",
-    "ParentId": 509,
-    "Children": [
-      {},
-      {}
-    ],
-    "Registered": "2001-09-29T18:28:49.3411223+02:00",
-    "RegisteredAssociateId": 994,
-    "Updated": "2013-11-17T18:28:49.3411223+01:00",
-    "UpdatedAssociateId": 347
-  }
+  "Path": "ad",
+  "Entity": null
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 588,
+  "HierarchyId": 51,
   "Domain": "Dashboards",
-  "Name": "Conn-Bruen",
-  "Fullname": "qui",
-  "ParentId": 848,
+  "Name": "Muller, Ondricka and Barrows",
+  "Fullname": "in",
+  "ParentId": 909,
   "Children": [
     {
-      "HierarchyId": 699,
+      "HierarchyId": 573,
       "Domain": "Dashboards",
-      "Name": "Schiller-Krajcik",
-      "Fullname": "autem",
-      "ParentId": 410,
+      "Name": "Friesen, Lakin and Williamson",
+      "Fullname": "consectetur",
+      "ParentId": 491,
       "Children": [
         {},
         {}
       ],
-      "Registered": "2006-12-08T18:28:49.3411223+01:00",
-      "RegisteredAssociateId": 913,
-      "Updated": "1995-09-05T18:28:49.3411223+02:00",
-      "UpdatedAssociateId": 882,
-      "TableRight": {},
+      "Registered": "2002-03-30T11:10:27.2274367+01:00",
+      "RegisteredAssociateId": 59,
+      "Updated": "2007-09-14T11:10:27.2274367+02:00",
+      "UpdatedAssociateId": 680,
+      "TableRight": null,
       "FieldProperties": {
         "fieldName": {
-          "FieldRight": {
-            "Mask": "FULL",
-            "Reason": ""
-          },
+          "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 951
+          "FieldLength": 889
         }
       }
     }
   ],
-  "Registered": "2012-05-18T18:28:49.3411223+02:00",
-  "RegisteredAssociateId": 978,
-  "Updated": "2012-01-06T18:28:49.3411223+01:00",
-  "UpdatedAssociateId": 290,
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "Registered": "1996-07-14T11:10:27.2274367+02:00",
+  "RegisteredAssociateId": 646,
+  "Updated": "1996-02-05T11:10:27.2274367+01:00",
+  "UpdatedAssociateId": 952,
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
-      "FieldType": "System.String",
-      "FieldLength": 816
+      "FieldRight": null,
+      "FieldType": "System.Int32",
+      "FieldLength": 197
     }
   }
 }

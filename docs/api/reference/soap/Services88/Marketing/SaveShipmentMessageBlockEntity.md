@@ -17,6 +17,7 @@ Updates the existing ShipmentMessageBlockEntity or creates a new ShipmentMessage
 
 **Returns:** New or updated ShipmentMessageBlockEntity
 
+
 [WSDL file for Services88/Marketing](../Services88-Marketing.md)
 
 Obtain a ticket from the [Services88/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -44,9 +45,9 @@ Application tokens must be specified if calling an Online installation. Applicat
      <Marketing:ShipmentMessageBlockId xsi:type="xsd:int">0</Marketing:ShipmentMessageBlockId>
      <Marketing:AssociateId xsi:type="xsd:int">0</Marketing:AssociateId>
      <Marketing:Block xsi:type="xsd:string"></Marketing:Block>
-     <Marketing:Registered xsi:type="xsd:dateTime">2021-11-30T13:23:45Z</Marketing:Registered>
+     <Marketing:Registered xsi:type="xsd:dateTime">2022-08-26T08:59:50Z</Marketing:Registered>
      <Marketing:RegisteredAssociateId xsi:type="xsd:int">0</Marketing:RegisteredAssociateId>
-     <Marketing:Updated xsi:type="xsd:dateTime">2021-11-30T13:23:45Z</Marketing:Updated>
+     <Marketing:Updated xsi:type="xsd:dateTime">2022-08-26T08:59:50Z</Marketing:Updated>
      <Marketing:UpdatedAssociateId xsi:type="xsd:int">0</Marketing:UpdatedAssociateId>
      <Marketing:UpdatedCount xsi:type="xsd:short">0</Marketing:UpdatedCount>
     </Marketing:ShipmentMessageBlockEntity>
@@ -56,6 +57,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+
 
 ## SaveShipmentMessageBlockEntity Response
 
@@ -74,9 +76,9 @@ Application tokens must be specified if calling an Online installation. Applicat
     <Marketing:ShipmentMessageBlockId xsi:type="xsd:int">0</Marketing:ShipmentMessageBlockId>
     <Marketing:AssociateId xsi:type="xsd:int">0</Marketing:AssociateId>
     <Marketing:Block xsi:type="xsd:string"></Marketing:Block>
-    <Marketing:Registered xsi:type="xsd:dateTime">2021-11-30T13:23:45Z</Marketing:Registered>
+    <Marketing:Registered xsi:type="xsd:dateTime">2022-08-26T08:59:50Z</Marketing:Registered>
     <Marketing:RegisteredAssociateId xsi:type="xsd:int">0</Marketing:RegisteredAssociateId>
-    <Marketing:Updated xsi:type="xsd:dateTime">2021-11-30T13:23:45Z</Marketing:Updated>
+    <Marketing:Updated xsi:type="xsd:dateTime">2022-08-26T08:59:50Z</Marketing:Updated>
     <Marketing:UpdatedAssociateId xsi:type="xsd:int">0</Marketing:UpdatedAssociateId>
     <Marketing:UpdatedCount xsi:type="xsd:short">0</Marketing:UpdatedCount>
    </Marketing:Response>
@@ -85,3 +87,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

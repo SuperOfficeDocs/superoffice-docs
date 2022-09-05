@@ -1,6 +1,6 @@
 ---
 title: POST Agents/UserDefinedFieldInfo/DetectUnpublishedChanges
-id: v1UserDefinedFieldInfoAgent_DetectUnpublishedChanges
+uid: v1UserDefinedFieldInfoAgent_DetectUnpublishedChanges
 ---
 
 # POST Agents/UserDefinedFieldInfo/DetectUnpublishedChanges
@@ -11,6 +11,12 @@ POST /api/v1/Agents/UserDefinedFieldInfo/DetectUnpublishedChanges
 
 Detect changes to the admin version (unpublished)
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Detect changes to the admin version (unpublished)
 ```http
 POST /api/v1/Agents/UserDefinedFieldInfo/DetectUnpublishedChanges?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,15 +42,18 @@ POST /api/v1/Agents/UserDefinedFieldInfo/DetectUnpublishedChanges?$select=name,d
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-OwnerType
+OwnerType 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | OwnerType | string |  |
 
+
 ## Response: bool
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -51,19 +61,22 @@ OwnerType
 
 Response body: bool
 
-## Sample Request
+
+## Sample request
 
 ```http!
 POST /api/v1/Agents/UserDefinedFieldInfo/DetectUnpublishedChanges
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "OwnerType": "Appointment"
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK

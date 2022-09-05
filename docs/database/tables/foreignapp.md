@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "foreignapp"
-so.date: 04.12.2022
+so.date: 08.26.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -29,6 +29,7 @@ Top level of Foreign Key system
 |updated\_associate\_id|Last updated by whom|FK [associate](associate.md)| |
 |updatedCount|Number of updates made to this record|UShort| |
 
+
 ![foreignapp table relationship diagram](./media/foreignapp.png)
 
 [!include[details](./includes/foreignapp.md)]
@@ -46,6 +47,7 @@ Top level of Foreign Key system
 |[associate](associate.md)  |Employees, resources and other users - except for External persons |
 |[foreigndevice](foreigndevice.md)  |Middle level of Foreign Key system |
 
+
 ## Replication Flags
 
 * Replicate changes DOWN from central to satellites and travellers.
@@ -55,3 +57,4 @@ Top level of Foreign Key system
 ## Security Flags
 
 * No access control via user's Role.
+

@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Quote/GetQuoteVersionWorkflowStatusInfo
-id: v1QuoteAgent_GetQuoteVersionWorkflowStatusInfo
+uid: v1QuoteAgent_GetQuoteVersionWorkflowStatusInfo
 ---
 
 # POST Agents/Quote/GetQuoteVersionWorkflowStatusInfo
@@ -11,7 +11,13 @@ POST /api/v1/Agents/Quote/GetQuoteVersionWorkflowStatusInfo
 
 Get status info for the Quote version dialog header.
 
+
 Collects most important warnings/errors from across all quotelines/alternatives in this quote version.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +28,7 @@ Collects most important warnings/errors from across all quotelines/alternatives 
 ```http
 POST /api/v1/Agents/Quote/GetQuoteVersionWorkflowStatusInfo?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,26 +44,24 @@ POST /api/v1/Agents/Quote/GetQuoteVersionWorkflowStatusInfo?$select=name,departm
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-QuoteVersionId
+QuoteVersionId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | QuoteVersionId | int32 |  |
 
-## Response: object
 
-Information about possible button actions for the quote version dialog.
+## Response: 
 
-Carrier object for QuoteVersionStatusInformation.
-Services for the QuoteVersionStatusInformation Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IQuoteAgent">Quote Agent</see>.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -67,7 +72,7 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Quote/GetQuoteVersionWorkflowStatusInfo
@@ -77,9 +82,11 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 72
+  "QuoteVersionId": 342
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -87,21 +94,15 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Status": "Error",
-  "IconHint": "quos",
-  "DisplayMessage": "doloribus",
-  "DisplayTooltip": "enim",
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "IconHint": "vitae",
+  "DisplayMessage": "corporis",
+  "DisplayTooltip": "ducimus",
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
-      "FieldType": "System.String",
-      "FieldLength": 731
+      "FieldRight": null,
+      "FieldType": "System.Int32",
+      "FieldLength": 495
     }
   }
 }

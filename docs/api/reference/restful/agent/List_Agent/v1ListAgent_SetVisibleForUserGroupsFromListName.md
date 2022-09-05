@@ -1,6 +1,6 @@
 ---
 title: POST Agents/List/SetVisibleForUserGroupsFromListName
-id: v1ListAgent_SetVisibleForUserGroupsFromListName
+uid: v1ListAgent_SetVisibleForUserGroupsFromListName
 ---
 
 # POST Agents/List/SetVisibleForUserGroupsFromListName
@@ -11,6 +11,12 @@ POST /api/v1/Agents/List/SetVisibleForUserGroupsFromListName
 
 Update User groups that this list item is visible for
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Update User groups that this list item is visible for
 ```http
 POST /api/v1/Agents/List/SetVisibleForUserGroupsFromListName?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,9 +42,9 @@ POST /api/v1/Agents/List/SetVisibleForUserGroupsFromListName?$select=name,depart
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-UdListDefinitionName, ListItemId, UserGroups
+UdListDefinitionName, ListItemId, UserGroups 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -45,7 +52,10 @@ UdListDefinitionName, ListItemId, UserGroups
 | ListItemId | int32 |  |
 | UserGroups | array |  |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -73,42 +83,44 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/List/SetVisibleForUserGroupsFromListName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionName": "Jacobs-Rohan",
-  "ListItemId": 414,
+  "UdListDefinitionName": "Emmerich-Monahan",
+  "ListItemId": 596,
   "UserGroups": [
     {
-      "Id": 278,
-      "Name": "Cartwright Group",
-      "ToolTip": "Vero quisquam aliquid veritatis ut.",
+      "Id": 757,
+      "Name": "Murray, Johns and Schuppe",
+      "ToolTip": "Eos animi magni iusto.",
       "Deleted": false,
-      "Rank": 560,
-      "Type": "porro",
-      "ColorBlock": 199,
-      "IconHint": "quia",
-      "Selected": true,
-      "LastChanged": "2003-05-26T18:28:49.3101182+02:00",
+      "Rank": 777,
+      "Type": "quia",
+      "ColorBlock": 461,
+      "IconHint": "maxime",
+      "Selected": false,
+      "LastChanged": "2003-03-22T11:10:27.1684477+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "soluta",
-      "StyleHint": "nihil",
-      "Hidden": true,
-      "FullName": "Darby Monahan"
+      "ExtraInfo": "voluptatibus",
+      "StyleHint": "voluptatibus",
+      "Hidden": false,
+      "FullName": "Amani Haag"
     }
   ]
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -116,65 +128,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 595,
-    "Name": "Metz-Terry",
-    "ToolTip": "Aliquid voluptate.",
-    "Deleted": false,
-    "Rank": 799,
-    "Type": "earum",
-    "ColorBlock": 555,
-    "IconHint": "omnis",
+    "Id": 473,
+    "Name": "Weissnat-Reichel",
+    "ToolTip": "Nostrum quidem excepturi minima.",
+    "Deleted": true,
+    "Rank": 985,
+    "Type": "voluptatum",
+    "ColorBlock": 802,
+    "IconHint": "voluptates",
     "Selected": true,
-    "LastChanged": "2008-04-25T18:28:49.3131223+02:00",
+    "LastChanged": "2012-09-27T11:10:27.1694468+02:00",
     "ChildItems": [
       {
-        "Id": 82,
-        "Name": "Walter-Labadie",
-        "ToolTip": "Dicta rem qui aliquam.",
+        "Id": 427,
+        "Name": "Cormier Inc and Sons",
+        "ToolTip": "Officiis modi impedit.",
         "Deleted": false,
-        "Rank": 912,
-        "Type": "non",
-        "ColorBlock": 969,
-        "IconHint": "minus",
+        "Rank": 209,
+        "Type": "consectetur",
+        "ColorBlock": 608,
+        "IconHint": "sequi",
         "Selected": false,
-        "LastChanged": "2006-11-02T18:28:49.3131223+01:00",
+        "LastChanged": "1995-05-02T11:10:27.1694468+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "deleniti",
-        "StyleHint": "architecto",
+        "ExtraInfo": "aut",
+        "StyleHint": "eaque",
         "Hidden": false,
-        "FullName": "Mrs. Laurianne Bailey",
-        "TableRight": {},
+        "FullName": "Louisa Kuhic",
+        "TableRight": null,
         "FieldProperties": {
           "fieldName": {
-            "FieldRight": {
-              "Mask": "FULL",
-              "Reason": ""
-            },
-            "FieldType": "System.Int32",
-            "FieldLength": 812
+            "FieldRight": null,
+            "FieldType": "System.String",
+            "FieldLength": 480
           }
         }
       }
     ],
-    "ExtraInfo": "iure",
-    "StyleHint": "est",
+    "ExtraInfo": "dolor",
+    "StyleHint": "laboriosam",
     "Hidden": true,
-    "FullName": "Nestor Muller",
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "FullName": "Ms. Kasandra Gracie Simonis",
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.Int32",
-        "FieldLength": 441
+        "FieldRight": null,
+        "FieldType": "System.String",
+        "FieldLength": 189
       }
     }
   }

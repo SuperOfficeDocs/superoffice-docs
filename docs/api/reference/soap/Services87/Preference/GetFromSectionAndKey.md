@@ -18,6 +18,7 @@ Gets a PreferenceDescription based on the section and key
 
 **Returns:** A PreferenceDescription or null
 
+
 [WSDL file for Services87/Preference](../Services87-Preference.md)
 
 Obtain a ticket from the [Services87/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -50,6 +51,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+
 
 ## GetFromSectionAndKey Response
 
@@ -90,3 +92,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

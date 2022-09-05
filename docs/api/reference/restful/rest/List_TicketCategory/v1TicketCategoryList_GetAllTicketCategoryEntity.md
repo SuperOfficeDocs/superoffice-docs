@@ -1,6 +1,6 @@
 ---
 title: GET List/TicketCategory/Items
-id: v1TicketCategoryList_GetAllTicketCategoryEntity
+uid: v1TicketCategoryList_GetAllTicketCategoryEntity
 ---
 
 # GET List/TicketCategory/Items
@@ -11,7 +11,14 @@ GET /api/v1/List/TicketCategory/Items
 
 Gets a list of all TicketCategoryEntity list items.
 
+
 Calls the List agent service GetAllTicketCategoryEntity.
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -26,7 +33,10 @@ Calls the List agent service GetAllTicketCategoryEntity.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -56,7 +66,7 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 GET /api/v1/List/TicketCategory/Items
@@ -65,85 +75,43 @@ Accept: application/json; charset=utf-8
 Accept-Language: sv
 ```
 
+## Sample response
+
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TicketCategoryId": 857,
-    "ParentId": 255,
-    "Name": "Satterfield Group",
-    "Fullname": "est",
-    "CategoryMaster": 640,
+    "TicketCategoryId": 271,
+    "ParentId": 977,
+    "Name": "Wintheiser Inc and Sons",
+    "Fullname": "accusamus",
+    "CategoryMaster": 87,
     "Flags": "AcceptWhenReplying",
     "DelegateMethod": "Even",
-    "ExternalName": "Hessel-Jakubowski",
+    "ExternalName": "Bergnaum LLC",
     "ClosingStatus": "Active",
     "MsgClosingStatus": "Active",
-    "AssignmentLag": 889,
-    "ReplyTemplate": 945,
-    "NotificationEmail": "marilie.stamm@baumbach.co.uk",
-    "DefaultTicketStatus": {
-      "TicketStatusId": 575,
-      "Name": "Nolan-Schamberger",
-      "Status": "Active",
-      "TimeCounter": "Externally",
-      "NoEmailReopen": false,
-      "IsDefault": true,
-      "UsedInQueue": true,
-      "TableRight": {},
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": {
-            "Mask": "FULL",
-            "Reason": ""
-          },
-          "FieldType": "System.String",
-          "FieldLength": 185
-        }
-      }
-    },
-    "DefaultMessageStatus": {
-      "TicketStatusId": 875,
-      "Name": "Nader, Mills and Walker",
-      "Status": "Active",
-      "TimeCounter": "Externally",
-      "NoEmailReopen": false,
-      "IsDefault": false,
-      "UsedInQueue": false,
-      "TableRight": {},
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": {
-            "Mask": "FULL",
-            "Reason": "transition turn-key synergies"
-          },
-          "FieldType": "System.String",
-          "FieldLength": 194
-        }
-      }
-    },
+    "AssignmentLag": 868,
+    "ReplyTemplate": 294,
+    "NotificationEmail": "tressa@strosinwindler.uk",
+    "DefaultTicketStatus": null,
+    "DefaultMessageStatus": null,
     "ExtraFields": {
-      "ExtraFields1": "non",
-      "ExtraFields2": "possimus"
+      "ExtraFields1": "et",
+      "ExtraFields2": "aut"
     },
     "CustomFields": {
-      "CustomFields1": "ut",
-      "CustomFields2": "pariatur"
+      "CustomFields1": "ab",
+      "CustomFields2": "consequuntur"
     },
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
+        "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 164
+        "FieldLength": 381
       }
     }
   }

@@ -1,6 +1,6 @@
 ---
 title: POST Agents/List/GetAllFromListDefinition
-id: v1ListAgent_GetAllFromListDefinition
+uid: v1ListAgent_GetAllFromListDefinition
 ---
 
 # POST Agents/List/GetAllFromListDefinition
@@ -11,6 +11,12 @@ POST /api/v1/Agents/List/GetAllFromListDefinition
 
 Get all list items for the specified list defintion
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Get all list items for the specified list defintion
 ```http
 POST /api/v1/Agents/List/GetAllFromListDefinition?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,16 +42,19 @@ POST /api/v1/Agents/List/GetAllFromListDefinition?$select=name,department,catego
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-UdListDefinitionId, IncludeDeleted
+UdListDefinitionId, IncludeDeleted 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | UdListDefinitionId | int32 |  |
 | IncludeDeleted | bool |  |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -63,7 +73,7 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/List/GetAllFromListDefinition
@@ -73,10 +83,12 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 266,
-  "IncludeDeleted": false
+  "UdListDefinitionId": 881,
+  "IncludeDeleted": true
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -84,24 +96,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 113,
-    "Name": "Larkin-Hodkiewicz",
-    "Tooltip": "ex",
+    "Id": 601,
+    "Name": "Krajcik Group",
+    "Tooltip": "qui",
     "Deleted": false,
-    "UdListDefinitionId": 760,
-    "Rank": 125,
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "UdListDefinitionId": 120,
+    "Rank": 408,
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
+        "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 537
+        "FieldLength": 787
       }
     }
   }

@@ -17,6 +17,7 @@ Gets a ListEntity resolved by the provided name.
 
 **Returns:** A ListEntity or null.
 
+
 [WSDL file for Services87/List](../Services87-List.md)
 
 Obtain a ticket from the [Services87/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -49,6 +50,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## GetListEntityByName Response
 
 ```xml
@@ -80,3 +82,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

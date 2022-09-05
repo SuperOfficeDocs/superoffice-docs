@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Appointment/GetProjectMemberAppointmentsByTasks
-id: v1AppointmentAgent_GetProjectMemberAppointmentsByTasks
+uid: v1AppointmentAgent_GetProjectMemberAppointmentsByTasks
 ---
 
 # POST Agents/Appointment/GetProjectMemberAppointmentsByTasks
@@ -11,7 +11,13 @@ POST /api/v1/Agents/Appointment/GetProjectMemberAppointmentsByTasks
 
 Method that returns a specified number of appointments matching a set of appointment task types within a time range.
 
+
 The appointments belong to the projects where the person specified is member. Task represents the different types of activities, like “Phone call”, “Meeting” and so on.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +28,7 @@ The appointments belong to the projects where the person specified is member. Ta
 ```http
 POST /api/v1/Agents/Appointment/GetProjectMemberAppointmentsByTasks?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,9 +44,9 @@ POST /api/v1/Agents/Appointment/GetProjectMemberAppointmentsByTasks?$select=name
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-PersonId, StartTime, EndTime, Count, TaskIds
+PersonId, StartTime, EndTime, Count, TaskIds 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -49,7 +56,10 @@ PersonId, StartTime, EndTime, Count, TaskIds
 | Count | int32 |  |
 | TaskIds | array |  |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -111,26 +121,28 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Appointment/GetProjectMemberAppointmentsByTasks
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 803,
-  "StartTime": "1997-04-08T18:28:47.7118442+02:00",
-  "EndTime": "2014-05-21T18:28:47.7118442+02:00",
-  "Count": 304,
+  "PersonId": 285,
+  "StartTime": "2020-09-07T11:10:25.4305217+02:00",
+  "EndTime": "1996-03-02T11:10:25.4305217+01:00",
+  "Count": 992,
   "TaskIds": [
-    526,
-    537
+    292,
+    641
   ]
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -138,67 +150,61 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 554,
-    "StartDate": "2021-02-02T18:28:47.7138525+01:00",
-    "EndDate": "2003-06-26T18:28:47.7138525+02:00",
+    "AppointmentId": 900,
+    "StartDate": "2009-10-22T11:10:25.4325224+02:00",
+    "EndDate": "2006-10-01T11:10:25.4325224+02:00",
     "Type": "BookingForChecklist",
-    "Task": "beatae",
-    "AssociateFullName": "Bernardo Yost",
-    "ContactName": "Langosh LLC",
-    "Description": "Adaptive secondary protocol",
-    "PersonFullName": "Danielle Jewess",
-    "PersonId": 131,
-    "ContactId": 289,
-    "ProjectId": 261,
-    "ProjectName": "Predovic, Heaney and Nitzsche",
-    "IsPublished": true,
-    "AssociateId": 871,
-    "ColorIndex": 570,
-    "IsFree": true,
-    "HasAlarm": true,
+    "Task": "et",
+    "AssociateFullName": "Deshawn Kiehn",
+    "ContactName": "Swaniawski-Rohan",
+    "Description": "User-centric bottom-line encryption",
+    "PersonFullName": "Cordelia Pfeffer",
+    "PersonId": 88,
+    "ContactId": 960,
+    "ProjectId": 350,
+    "ProjectName": "Herzog Group",
+    "IsPublished": false,
+    "AssociateId": 863,
+    "ColorIndex": 479,
+    "IsFree": false,
+    "HasAlarm": false,
     "IsAlldayEvent": false,
     "Private": "PrivateGroup",
-    "PriorityId": 545,
-    "PriorityName": "Williamson, Bernier and Jast",
+    "PriorityId": 446,
+    "PriorityName": "Gislason Inc and Sons",
     "TaskType": "Appointment",
-    "IsBookingMain": true,
-    "IsRecurrence": true,
-    "IsBooking": true,
-    "ActiveDate": "2006-02-05T18:28:47.7138525+01:00",
+    "IsBookingMain": false,
+    "IsRecurrence": false,
+    "IsBooking": false,
+    "ActiveDate": "2013-10-19T11:10:25.4325224+02:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2015-05-13T18:28:47.7138525+02:00",
-    "RecurringEndDate": "2002-05-29T18:28:47.7138525+02:00",
-    "MotherId": 785,
-    "AssignedBy": 386,
-    "AssignedByFullName": "Rae Walter",
+    "RecurringStartDate": "2002-06-27T11:10:25.4335222+02:00",
+    "RecurringEndDate": "2004-06-24T11:10:25.4335222+02:00",
+    "MotherId": 26,
+    "AssignedBy": 886,
+    "AssignedByFullName": "Christina Prohaska",
     "RejectReason": "",
-    "Location": "sit",
-    "AlarmLeadTime": "ut",
-    "SaleId": 903,
-    "SaleName": "Terry Inc and Sons",
-    "AssociateName": "Metz-Koelpin",
-    "CreatedDate": "1996-01-07T18:28:47.7138525+01:00",
-    "CreatedBy": "vero",
-    "CreatedByFullName": "Justine Schowalter",
-    "CreatedByAssociateId": 223,
+    "Location": "voluptatem",
+    "AlarmLeadTime": "est",
+    "SaleId": 202,
+    "SaleName": "Purdy, Hintz and Brakus",
+    "AssociateName": "Schuppe Inc and Sons",
+    "CreatedDate": "2019-10-15T11:10:25.4335222+02:00",
+    "CreatedBy": "repellendus",
+    "CreatedByFullName": "Alec Hegmann",
+    "CreatedByAssociateId": 389,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
+        "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 630
+        "FieldLength": 381
       }
     }
   }

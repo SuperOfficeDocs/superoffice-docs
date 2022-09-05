@@ -1,6 +1,6 @@
 ---
 title: POST Agents/PhoneList/GetFavoritesPhones
-id: v1PhoneListAgent_GetFavoritesPhones
+uid: v1PhoneListAgent_GetFavoritesPhones
 ---
 
 # POST Agents/PhoneList/GetFavoritesPhones
@@ -11,6 +11,12 @@ POST /api/v1/Agents/PhoneList/GetFavoritesPhones
 
 Returns an array of phone list items with the Contacts in the users favorites dropdown list.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Returns an array of phone list items with the Contacts in the users favorites dr
 ```http
 POST /api/v1/Agents/PhoneList/GetFavoritesPhones?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -34,7 +41,10 @@ POST /api/v1/Agents/PhoneList/GetFavoritesPhones?$select=name,department,categor
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -57,7 +67,7 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/PhoneList/GetFavoritesPhones
@@ -66,34 +76,30 @@ Accept: application/json; charset=utf-8
 Accept-Language: sv
 ```
 
+## Sample response
+
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PersonDirectPhone": "345.247.3046 x223",
-    "PersonCellPhone": "(733)754-7000 x74448",
-    "PersonPrivatePhone": "186-243-0547 x2330",
-    "PersonFaxNumber": "798996",
-    "PersonPagerNumber": "1070301",
-    "PersonEmail": "carey.turcotte@crona.us",
-    "Id": 424,
-    "Name": "Kerluke-Zulauf",
-    "Tooltip": "accusamus",
-    "UniqueId": "necessitatibus",
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "PersonDirectPhone": "789-945-3789 x1669",
+    "PersonCellPhone": "399-244-5981",
+    "PersonPrivatePhone": "(816)062-0103",
+    "PersonFaxNumber": "291318",
+    "PersonPagerNumber": "1072454",
+    "PersonEmail": "lonie@ondrickastroman.us",
+    "Id": 478,
+    "Name": "Cremin, Schmidt and VonRueden",
+    "Tooltip": "dolor",
+    "UniqueId": "expedita",
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": "synergize bleeding-edge e-tailers"
-        },
-        "FieldType": "System.String",
-        "FieldLength": 290
+        "FieldRight": null,
+        "FieldType": "System.Int32",
+        "FieldLength": 555
       }
     }
   }

@@ -1,6 +1,6 @@
 ---
 title: POST Agents/User/RegisterWithAccessGateway
-id: v1UserAgent_RegisterWithAccessGateway
+uid: v1UserAgent_RegisterWithAccessGateway
 ---
 
 # POST Agents/User/RegisterWithAccessGateway
@@ -11,7 +11,15 @@ POST /api/v1/Agents/User/RegisterWithAccessGateway
 
 Registers with access gateway if not already done, otherwise will attempt to update
 
-## Online Restricted: ## The User agent is not available in Online by default. User management is not allowed for partner apps
+
+
+
+## Online Restricted: ## The User agent is not available in Online by default. User management is not allowed for partner apps.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +30,7 @@ Registers with access gateway if not already done, otherwise will attempt to upd
 ```http
 POST /api/v1/Agents/User/RegisterWithAccessGateway?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,26 +46,24 @@ POST /api/v1/Agents/User/RegisterWithAccessGateway?$select=name,department,categ
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-RedirectUri
+RedirectUri 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | RedirectUri | string |  |
 
-## Response: object
 
-Access gateway related data and operations
+## Response: 
 
-Carrier object for AccessGatewayInfo.
-Services for the AccessGatewayInfo Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IUserAgent">User Agent</see>.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -65,7 +72,7 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/User/RegisterWithAccessGateway
@@ -75,29 +82,25 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "RedirectUri": "quam"
+  "RedirectUri": "quia"
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ClientId": "reiciendis",
-  "RedirectUri": "debitis",
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "ClientId": "sed",
+  "RedirectUri": "quia",
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": "harness dynamic experiences"
-      },
+      "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 290
+      "FieldLength": 562
     }
   }
 }

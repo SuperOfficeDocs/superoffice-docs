@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Contact/GetContactSummary
-id: v1ContactAgent_GetContactSummary
+uid: v1ContactAgent_GetContactSummary
 ---
 
 # POST Agents/Contact/GetContactSummary
@@ -11,6 +11,12 @@ POST /api/v1/Agents/Contact/GetContactSummary
 
 Get summary of contact and its recent activity.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Get summary of contact and its recent activity.
 ```http
 POST /api/v1/Agents/Contact/GetContactSummary?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,27 +42,25 @@ POST /api/v1/Agents/Contact/GetContactSummary?$select=name,department,category/i
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-ContactId, Limit
+ContactId, Limit 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | ContactId | int32 |  |
 | Limit | int32 |  |
 
-## Response: object
 
-Summary of contact with recent activities, chats, and requests included.
+## Response: 
 
-Carrier object for ContactSummary.
-Services for the ContactSummary Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IContactAgent">Contact Agent</see>.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -66,134 +71,104 @@ Response body: object
 | Sales | array | Recent sales on contact |
 | Chats | array | Recent chats with contact |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Contact/GetContactSummary
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 764,
-  "Limit": 624
+  "ContactId": 763,
+  "Limit": 818
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Contact": {
-    "ContactId": 128,
-    "Name": "Hirthe, Bayer and Harvey",
-    "OrgNr": "1576650",
-    "Department": "",
-    "URL": "http://www.example.com/",
-    "City": "numquam",
-    "DirectPhone": "543-358-3340 x6634",
-    "AssociateId": 136,
-    "CountryId": 593,
-    "EmailAddress": "denis@paucek.co.uk",
-    "Kananame": "laboriosam",
-    "EmailAddressName": "elaina@kirlin.co.uk",
-    "URLName": "http://www.example.com/",
-    "AssociateFullName": "Rosa Walsh",
-    "BusinessName": "Information Technology",
-    "CategoryName": "VIP Customer",
-    "CountryName": "Sokovia",
-    "Address": {},
-    "FormattedAddress": "ipsa",
-    "FullName": "Deangelo Bauch V",
-    "IsOwnerContact": false,
-    "ActiveErpLinks": 509,
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": "strategize one-to-one web-readiness"
-        },
-        "FieldType": "System.String",
-        "FieldLength": 203
-      }
-    }
-  },
+  "Contact": null,
   "Tickets": [
     {
-      "TicketId": 287,
-      "TicketStatus": 677,
-      "Title": "in",
-      "Registered": "2007-06-15T18:28:48.6159294+02:00"
+      "TicketId": 319,
+      "TicketStatus": 883,
+      "Title": "sunt",
+      "Registered": "2015-08-20T11:10:26.3644582+02:00",
+      "IconHint": "ab"
     },
     {
-      "TicketId": 287,
-      "TicketStatus": 677,
-      "Title": "in",
-      "Registered": "2007-06-15T18:28:48.6159294+02:00"
+      "TicketId": 319,
+      "TicketStatus": 883,
+      "Title": "sunt",
+      "Registered": "2015-08-20T11:10:26.3644582+02:00",
+      "IconHint": "ab"
     }
   ],
   "Followups": [
     {
-      "AppointmentId": 596,
-      "DocumentId": 705,
-      "Date": "2011-06-06T18:28:48.6159294+02:00",
-      "Description": "Enhanced attitude-oriented leverage",
+      "AppointmentId": 748,
+      "DocumentId": 147,
+      "Date": "1996-08-09T11:10:26.3644582+02:00",
+      "Description": "Proactive cohesive definition",
       "Completed": "Completed",
-      "Registered": "2014-08-19T18:28:48.6159294+02:00"
+      "Registered": "2016-06-04T11:10:26.3644582+02:00"
     },
     {
-      "AppointmentId": 596,
-      "DocumentId": 705,
-      "Date": "2011-06-06T18:28:48.6159294+02:00",
-      "Description": "Enhanced attitude-oriented leverage",
+      "AppointmentId": 748,
+      "DocumentId": 147,
+      "Date": "1996-08-09T11:10:26.3644582+02:00",
+      "Description": "Proactive cohesive definition",
       "Completed": "Completed",
-      "Registered": "2014-08-19T18:28:48.6159294+02:00"
+      "Registered": "2016-06-04T11:10:26.3644582+02:00"
     }
   ],
   "Documents": [
     {
-      "AppointmentId": 968,
-      "DocumentId": 498,
-      "Date": "1996-04-09T18:28:48.6159294+02:00",
-      "Description": "Ergonomic systemic groupware",
+      "AppointmentId": 127,
+      "DocumentId": 414,
+      "Date": "2020-05-08T11:10:26.3644582+02:00",
+      "Description": "Compatible responsive projection",
       "Completed": "Completed",
-      "Registered": "2019-05-21T18:28:48.6159294+02:00"
+      "Registered": "1996-05-05T11:10:26.3644582+02:00"
     },
     {
-      "AppointmentId": 968,
-      "DocumentId": 498,
-      "Date": "1996-04-09T18:28:48.6159294+02:00",
-      "Description": "Ergonomic systemic groupware",
+      "AppointmentId": 127,
+      "DocumentId": 414,
+      "Date": "2020-05-08T11:10:26.3644582+02:00",
+      "Description": "Compatible responsive projection",
       "Completed": "Completed",
-      "Registered": "2019-05-21T18:28:48.6159294+02:00"
+      "Registered": "1996-05-05T11:10:26.3644582+02:00"
     }
   ],
   "Sales": [
     {
-      "SaleId": 416,
-      "SaleDate": "2000-06-24T18:28:48.6159294+02:00",
-      "Probability": 212,
-      "Heading": "itaque",
-      "Amount": 16807.642,
-      "Currency": "earum",
-      "AmountInBaseCurrency": 24288.5,
+      "SaleId": 468,
+      "SaleDate": "2017-11-18T11:10:26.3644582+01:00",
+      "Probability": 564,
+      "Heading": "a",
+      "Amount": 28936.221999999998,
+      "Currency": "ut",
+      "AmountInBaseCurrency": 21521.178,
       "Status": "Lost",
       "Completed": "Completed",
-      "Registered": "2001-12-20T18:28:48.6159294+01:00"
+      "Registered": "1998-09-23T11:10:26.3644582+02:00"
     }
   ],
   "Chats": [
     {
-      "ChatSessionId": 960,
-      "Name": "Gutmann LLC",
-      "CompanyName": "Haley Inc and Sons",
-      "FirstMessage": "distinctio",
-      "LastMessage": "eos",
-      "WhenRequested": "2009-03-30T18:28:48.6159294+02:00",
-      "WhenEnded": "1995-08-21T18:28:48.6159294+02:00"
+      "ChatSessionId": 743,
+      "Name": "Thiel Inc and Sons",
+      "CompanyName": "Weber Inc and Sons",
+      "FirstMessage": "laborum",
+      "LastMessage": "voluptas",
+      "WhenRequested": "2015-11-15T11:10:26.3644582+01:00",
+      "WhenEnded": "2018-11-09T11:10:26.3644582+01:00"
     }
   ]
 }

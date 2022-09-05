@@ -17,6 +17,7 @@ Obtain information about satellite module licenses
 
 **Returns:** Satellite module licenses grouped by owners.
 
+
 [WSDL file for Services85/License](../Services85-License.md)
 
 Obtain a ticket from the [Services85/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -49,6 +50,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+
 
 ## GetSatelliteLicenses Response
 
@@ -108,3 +110,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

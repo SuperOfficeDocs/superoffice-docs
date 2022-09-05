@@ -1,6 +1,6 @@
 ---
 title: GET License/User/{id}
-id: v1License_GetUserLicenses
+uid: v1License_GetUserLicenses
 ---
 
 # GET License/User/{id}
@@ -11,9 +11,16 @@ GET /api/v1/License/User/{associateId}
 
 Obtain information about associate module licenses
 
+
+
+
+
+
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | associateId | int32 | Associate id to check for associate module licenses **Required** |
+
+
 
 ## Request Headers
 
@@ -28,7 +35,10 @@ Obtain information about associate module licenses
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -45,7 +55,7 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 GET /api/v1/License/User/{associateId}
@@ -54,39 +64,38 @@ Accept: application/json; charset=utf-8
 Accept-Language: en
 ```
 
+## Sample response
+
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Predovic-Legros",
-    "Description": "Public-key radical array",
+    "Name": "Sawayn-Johns",
+    "Description": "Organized incremental complexity",
     "RestrictedModuleLicenses": [
       {
         "Unrestricted": true,
-        "Total": 442,
-        "Tooltip": "et",
+        "Total": 663,
+        "Tooltip": "omnis",
         "CanAssign": false,
-        "Free": 829,
-        "InUse": 882,
-        "IsHidden": true,
-        "Assigned": true,
-        "ModuleLicenseId": 636,
-        "Name": "Bayer, Pagac and Considine",
-        "Description": "Integrated hybrid Graphic Interface",
-        "PrerequisiteModuleName": "Padberg-Kozey",
-        "SortOrder": 28,
-        "ExtraFlags": 878,
-        "TableRight": {},
+        "Free": 12,
+        "InUse": 288,
+        "IsHidden": false,
+        "Assigned": false,
+        "ModuleLicenseId": 915,
+        "Name": "Buckridge LLC",
+        "Description": "Vision-oriented regional local area network",
+        "PrerequisiteModuleName": "Waelchi LLC",
+        "SortOrder": 789,
+        "ExtraFlags": 1001,
+        "TableRight": null,
         "FieldProperties": {
           "fieldName": {
-            "FieldRight": {
-              "Mask": "FULL",
-              "Reason": ""
-            },
-            "FieldType": "System.String",
-            "FieldLength": 951
+            "FieldRight": null,
+            "FieldType": "System.Int32",
+            "FieldLength": 853
           }
         }
       }
@@ -94,75 +103,63 @@ Content-Type: application/json; charset=utf-8
     "UnrestrictedModuleLicenses": [
       {
         "Unrestricted": false,
-        "Total": 806,
-        "Tooltip": "quo",
-        "CanAssign": false,
-        "Free": 464,
-        "InUse": 363,
-        "IsHidden": false,
-        "Assigned": false,
-        "ModuleLicenseId": 279,
-        "Name": "Ritchie, Heller and White",
-        "Description": "Versatile bi-directional service-desk",
-        "PrerequisiteModuleName": "Hermiston LLC",
-        "SortOrder": 868,
-        "ExtraFlags": 761,
-        "TableRight": {},
+        "Total": 299,
+        "Tooltip": "sunt",
+        "CanAssign": true,
+        "Free": 958,
+        "InUse": 793,
+        "IsHidden": true,
+        "Assigned": true,
+        "ModuleLicenseId": 996,
+        "Name": "Mills, Kris and Grady",
+        "Description": "Quality-focused empowering paradigm",
+        "PrerequisiteModuleName": "Ledner-Hartmann",
+        "SortOrder": 255,
+        "ExtraFlags": 982,
+        "TableRight": null,
         "FieldProperties": {
           "fieldName": {
-            "FieldRight": {
-              "Mask": "FULL",
-              "Reason": ""
-            },
+            "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 154
+            "FieldLength": 73
           }
         }
       }
     ],
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.Int32",
-        "FieldLength": 247
+        "FieldRight": null,
+        "FieldType": "System.String",
+        "FieldLength": 664
       }
     }
   },
   {
-    "Name": "Predovic-Legros",
-    "Description": "Public-key radical array",
+    "Name": "Sawayn-Johns",
+    "Description": "Organized incremental complexity",
     "RestrictedModuleLicenses": [
       {
         "Unrestricted": true,
-        "Total": 442,
-        "Tooltip": "et",
+        "Total": 663,
+        "Tooltip": "omnis",
         "CanAssign": false,
-        "Free": 829,
-        "InUse": 882,
-        "IsHidden": true,
-        "Assigned": true,
-        "ModuleLicenseId": 636,
-        "Name": "Bayer, Pagac and Considine",
-        "Description": "Integrated hybrid Graphic Interface",
-        "PrerequisiteModuleName": "Padberg-Kozey",
-        "SortOrder": 28,
-        "ExtraFlags": 878,
-        "TableRight": {},
+        "Free": 12,
+        "InUse": 288,
+        "IsHidden": false,
+        "Assigned": false,
+        "ModuleLicenseId": 915,
+        "Name": "Buckridge LLC",
+        "Description": "Vision-oriented regional local area network",
+        "PrerequisiteModuleName": "Waelchi LLC",
+        "SortOrder": 789,
+        "ExtraFlags": 1001,
+        "TableRight": null,
         "FieldProperties": {
           "fieldName": {
-            "FieldRight": {
-              "Mask": "FULL",
-              "Reason": ""
-            },
-            "FieldType": "System.String",
-            "FieldLength": 951
+            "FieldRight": null,
+            "FieldType": "System.Int32",
+            "FieldLength": 853
           }
         }
       }
@@ -170,44 +167,35 @@ Content-Type: application/json; charset=utf-8
     "UnrestrictedModuleLicenses": [
       {
         "Unrestricted": false,
-        "Total": 806,
-        "Tooltip": "quo",
-        "CanAssign": false,
-        "Free": 464,
-        "InUse": 363,
-        "IsHidden": false,
-        "Assigned": false,
-        "ModuleLicenseId": 279,
-        "Name": "Ritchie, Heller and White",
-        "Description": "Versatile bi-directional service-desk",
-        "PrerequisiteModuleName": "Hermiston LLC",
-        "SortOrder": 868,
-        "ExtraFlags": 761,
-        "TableRight": {},
+        "Total": 299,
+        "Tooltip": "sunt",
+        "CanAssign": true,
+        "Free": 958,
+        "InUse": 793,
+        "IsHidden": true,
+        "Assigned": true,
+        "ModuleLicenseId": 996,
+        "Name": "Mills, Kris and Grady",
+        "Description": "Quality-focused empowering paradigm",
+        "PrerequisiteModuleName": "Ledner-Hartmann",
+        "SortOrder": 255,
+        "ExtraFlags": 982,
+        "TableRight": null,
         "FieldProperties": {
           "fieldName": {
-            "FieldRight": {
-              "Mask": "FULL",
-              "Reason": ""
-            },
+            "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 154
+            "FieldLength": 73
           }
         }
       }
     ],
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.Int32",
-        "FieldLength": 247
+        "FieldRight": null,
+        "FieldType": "System.String",
+        "FieldLength": 664
       }
     }
   }

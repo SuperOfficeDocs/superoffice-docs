@@ -1,6 +1,6 @@
 ---
 title: GET Hierarchy/{domain}
-id: v1HierarchyEntity_GetAllInDomain
+uid: v1HierarchyEntity_GetAllInDomain
 ---
 
 # GET Hierarchy/{domain}
@@ -11,9 +11,15 @@ GET /api/v1/Hierarchy/{domain}
 
 Get all items in a domain
 
+
+
+
+
+
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | domain | Enum: Unknown, ExtraTables, ScreenDefinitions, Scripts, Selections, ExternalDocuments, UserGroups, ExternalDocumentRelatedToSpmMessage, Dashboards | Type of items to get (scripts, extra tables, etc) **Required** |
+
 
 ## Query String Parameters
 
@@ -22,8 +28,9 @@ Get all items in a domain
 | children | bool |  Include sub-items? |
 
 ```http
-GET /api/v1/Hierarchy/{domain}?children=True
+GET /api/v1/Hierarchy/{domain}?children=False
 ```
+
 
 ## Request Headers
 
@@ -38,7 +45,10 @@ GET /api/v1/Hierarchy/{domain}?children=True
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -61,14 +71,16 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 GET /api/v1/Hierarchy/{domain}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -76,55 +88,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HierarchyId": 740,
+    "HierarchyId": 722,
     "Domain": "Dashboards",
-    "Name": "Roob Group",
-    "Fullname": "dicta",
-    "ParentId": 233,
+    "Name": "Funk Inc and Sons",
+    "Fullname": "et",
+    "ParentId": 182,
     "Children": [
       {
-        "HierarchyId": 821,
+        "HierarchyId": 720,
         "Domain": "Dashboards",
-        "Name": "Cruickshank LLC",
-        "Fullname": "reprehenderit",
-        "ParentId": 309,
+        "Name": "Langworth, Beatty and Rau",
+        "Fullname": "nihil",
+        "ParentId": 493,
         "Children": [
           {},
           {}
         ],
-        "Registered": "2014-07-22T18:25:50.5835944+02:00",
-        "RegisteredAssociateId": 680,
-        "Updated": "2014-04-27T18:25:50.5835944+02:00",
-        "UpdatedAssociateId": 481,
-        "TableRight": {},
+        "Registered": "2003-05-31T11:10:52.9171798+02:00",
+        "RegisteredAssociateId": 378,
+        "Updated": "2017-05-25T11:10:52.9171798+02:00",
+        "UpdatedAssociateId": 583,
+        "TableRight": null,
         "FieldProperties": {
           "fieldName": {
-            "FieldRight": {
-              "Mask": "FULL",
-              "Reason": ""
-            },
+            "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 165
+            "FieldLength": 531
           }
         }
       }
     ],
-    "Registered": "1994-09-16T18:25:50.5835944+02:00",
-    "RegisteredAssociateId": 265,
-    "Updated": "2012-11-08T18:25:50.5835944+01:00",
-    "UpdatedAssociateId": 399,
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "Registered": "2013-09-24T11:10:52.9171798+02:00",
+    "RegisteredAssociateId": 398,
+    "Updated": "2019-03-31T11:10:52.9171798+02:00",
+    "UpdatedAssociateId": 642,
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
+        "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 890
+        "FieldLength": 261
       }
     }
   }

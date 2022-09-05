@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "role_category"
-so.date: 04.12.2022
+so.date: 08.26.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -26,6 +26,7 @@ Category membership associated with a role
 |category|The id of the category.|FK [ej_category](ej-category.md)| |
 |crm\_role|Link to Role|FK [Role](role.md)|&#x25CF;|
 
+
 ![role_category table relationship diagram](./media/role_category.png)
 
 [!include[details](./includes/role-category.md)]
@@ -44,7 +45,9 @@ Category membership associated with a role
 | Table|  Description |
 |------|-------------|
 |[ej\_category](ej-category.md)  |This table contains categories, in which tickets are categorized. The categories are organized in a hierarchial manner. |
-|[ej\_role](ej-role.md)  |Define access rights, memberships and other properties for role use |
+|[ej\_role](ej-role.md)  |Define access rights, memberships and other properties for role user members |
+|[Role](role.md)  |User roles for role-based security, names and tooltips are in LocaleText. For more information regarding role based security, see http://techdoc.superoffice.com |
+
 
 ## Replication Flags
 
@@ -53,3 +56,4 @@ Category membership associated with a role
 ## Security Flags
 
 * No access control via user's Role.
+

@@ -1,6 +1,6 @@
 ---
 title: POST Agents/BulkUpdate/GetStoredFields
-id: v1BulkUpdateAgent_GetStoredFields
+uid: v1BulkUpdateAgent_GetStoredFields
 ---
 
 # POST Agents/BulkUpdate/GetStoredFields
@@ -11,6 +11,12 @@ POST /api/v1/Agents/BulkUpdate/GetStoredFields
 
 Get all stored fields for a given tablename/entity and context
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Get all stored fields for a given tablename/entity and context
 ```http
 POST /api/v1/Agents/BulkUpdate/GetStoredFields?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,16 +42,19 @@ POST /api/v1/Agents/BulkUpdate/GetStoredFields?$select=name,department,category/
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-Tablename, Context
+Tablename, Context 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | Tablename | string |  |
 | Context | string |  |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -72,20 +82,22 @@ Response body: array
 | DisplayValues | array | The displayvalues to be set on this field on this bulkupdate, used to resolve when values array contains ids |
 | OperationInfos | array | Array of the available operations for this field |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/BulkUpdate/GetStoredFields
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "Tablename": "project",
-  "Context": "qui"
+  "Context": "distinctio"
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -94,84 +106,75 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "CanSupportMultiUse": false,
-    "DefaultShowInGui": false,
+    "DefaultShowInGui": true,
     "DefaultShowInSelector": false,
     "IsActive": false,
-    "Key": "voluptas",
-    "ValueType": "explicabo",
+    "Key": "omnis",
+    "ValueType": "incidunt",
     "Mandatory": true,
-    "EncodedDisplayName": "Turner, Ortiz and Harris",
-    "EncodedDisplayDescription": "Inverse fault-tolerant middleware",
-    "IconHint": "necessitatibus",
+    "EncodedDisplayName": "Kshlerin, Streich and Lesch",
+    "EncodedDisplayDescription": "Team-oriented composite groupware",
+    "IconHint": "blanditiis",
     "ControlInfos": [
       {
-        "Type": "molestiae",
-        "Label": "fugiat",
-        "Dimension": 375,
-        "ListProviderName": "Erdman, Nolan and Wisozk",
-        "ListProviderExtraInfo": "dolorem",
-        "ListProviderPrimaryKeyName": "Kuhic, White and Kling",
-        "ListLeadText": "reprehenderit",
-        "TableRight": {},
+        "Type": "repudiandae",
+        "Label": "ut",
+        "Dimension": 777,
+        "ListProviderName": "Hermann Group",
+        "ListProviderExtraInfo": "at",
+        "ListProviderPrimaryKeyName": "Klein-Frami",
+        "ListLeadText": "quaerat",
+        "TableRight": null,
         "FieldProperties": {
           "fieldName": {
-            "FieldRight": {
-              "Mask": "FULL",
-              "Reason": "drive real-time channels"
-            },
+            "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 420
+            "FieldLength": 860
           }
         }
       }
     ],
-    "EncodedDataCaption": "repudiandae",
-    "EncodedDataCaptionDescription": "Synergized object-oriented parallelism",
-    "CurrentOperationType": "laboriosam",
+    "EncodedDataCaption": "dolorum",
+    "EncodedDataCaptionDescription": "Quality-focused web-enabled capacity",
+    "CurrentOperationType": "natus",
     "Values": [
-      "totam",
-      "quia"
+      "ut",
+      "dicta"
     ],
     "DisplayValues": [
-      "sit",
-      "ipsam"
+      "suscipit",
+      "excepturi"
     ],
     "OperationInfos": [
       {
-        "Key": "omnis",
-        "EncodedDisplayName": "Swaniawski, Heller and Gleichner",
+        "Key": "voluptatum",
+        "EncodedDisplayName": "Altenwerth-Doyle",
         "EncodedLeadTexts": [
-          "quia",
-          "non"
+          "illo",
+          "voluptates"
         ],
-        "TableRight": {},
+        "TableRight": null,
         "FieldProperties": {
           "fieldName": {
-            "FieldRight": {
-              "Mask": "FULL",
-              "Reason": ""
-            },
+            "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 528
+            "FieldLength": 215
           }
         }
       },
       {
-        "Key": "omnis",
-        "EncodedDisplayName": "Swaniawski, Heller and Gleichner",
+        "Key": "voluptatum",
+        "EncodedDisplayName": "Altenwerth-Doyle",
         "EncodedLeadTexts": [
-          "quia",
-          "non"
+          "illo",
+          "voluptates"
         ],
-        "TableRight": {},
+        "TableRight": null,
         "FieldProperties": {
           "fieldName": {
-            "FieldRight": {
-              "Mask": "FULL",
-              "Reason": ""
-            },
+            "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 528
+            "FieldLength": 215
           }
         }
       }

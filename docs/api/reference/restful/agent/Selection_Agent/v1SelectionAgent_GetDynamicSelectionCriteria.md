@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Selection/GetDynamicSelectionCriteria
-id: v1SelectionAgent_GetDynamicSelectionCriteria
+uid: v1SelectionAgent_GetDynamicSelectionCriteria
 ---
 
 # POST Agents/Selection/GetDynamicSelectionCriteria
@@ -11,6 +11,12 @@ POST /api/v1/Agents/Selection/GetDynamicSelectionCriteria
 
 Get the criteria for this dynamic selection.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Get the criteria for this dynamic selection.
 ```http
 POST /api/v1/Agents/Selection/GetDynamicSelectionCriteria?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,15 +42,18 @@ POST /api/v1/Agents/Selection/GetDynamicSelectionCriteria?$select=name,departmen
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-SelectionId
+SelectionId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | SelectionId | int32 |  |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -64,19 +74,21 @@ Response body: array
 | InterOperator | string |  |
 | UniqueHash | int32 |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Selection/GetDynamicSelectionCriteria
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 523
+  "SelectionId": 494
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -84,58 +96,44 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Swift, Schiller and Yundt",
-    "Operator": "animi",
+    "Name": "Balistreri-Stark",
+    "Operator": "amet",
     "Values": [
-      "voluptatem",
-      "est"
+      "occaecati",
+      "et"
     ],
     "DisplayValues": [
-      "et",
-      "quidem"
+      "error",
+      "vitae"
     ],
-    "ColumnInfo": {
-      "DisplayName": "Pfannerstill-Romaguera",
-      "DisplayTooltip": "ad",
-      "DisplayType": "et",
-      "CanOrderBy": true,
-      "Name": "Anderson-Schimmel",
-      "CanRestrictBy": false,
-      "RestrictionType": "earum",
-      "RestrictionListName": "Doyle Group",
-      "IsVisible": false,
-      "ExtraInfo": "ipsam",
-      "Width": "et",
-      "IconHint": "harum",
-      "HeadingIconHint": "praesentium"
-    },
+    "ColumnInfo": null,
     "IsActive": false,
     "SubRestrictions": [
       {
-        "Name": "VonRueden Group",
-        "Operator": "nam",
+        "Name": "Yost-Weimann",
+        "Operator": "ea",
         "Values": [
-          "blanditiis",
-          "deserunt"
+          "deleniti",
+          "explicabo"
         ],
         "DisplayValues": [
-          "totam",
-          "dolorem"
+          "iusto",
+          "minus"
         ],
-        "ColumnInfo": {},
-        "IsActive": false,
+        "ColumnInfo": null,
+        "IsActive": true,
         "SubRestrictions": [
           {},
           {}
         ],
-        "InterParenthesis": 487,
+        "InterParenthesis": 364,
         "InterOperator": "And",
-        "UniqueHash": 783
+        "UniqueHash": 834
       }
     ],
-    "InterParenthesis": 196,
+    "InterParenthesis": 380,
     "InterOperator": "And",
-    "UniqueHash": 806
+    "UniqueHash": 443
   }
 ]
 ```

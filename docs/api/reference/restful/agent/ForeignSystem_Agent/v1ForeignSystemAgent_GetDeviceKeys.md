@@ -1,6 +1,6 @@
 ---
 title: POST Agents/ForeignSystem/GetDeviceKeys
-id: v1ForeignSystemAgent_GetDeviceKeys
+uid: v1ForeignSystemAgent_GetDeviceKeys
 ---
 
 # POST Agents/ForeignSystem/GetDeviceKeys
@@ -11,6 +11,12 @@ POST /api/v1/Agents/ForeignSystem/GetDeviceKeys
 
 Returns all ForeignKeys that belong to a device.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Returns all ForeignKeys that belong to a device.
 ```http
 POST /api/v1/Agents/ForeignSystem/GetDeviceKeys?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,16 +42,19 @@ POST /api/v1/Agents/ForeignSystem/GetDeviceKeys?$select=name,department,category
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-ApplicationName, DeviceName
+ApplicationName, DeviceName 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | ApplicationName | string |  |
 | DeviceName | string |  |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -65,20 +75,22 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/ForeignSystem/GetDeviceKeys
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Schulist, Wilkinson and Ferry",
-  "DeviceName": "Schaden, Heller and Williamson"
+  "ApplicationName": "Huel Group",
+  "DeviceName": "Parker-Prosacco"
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -86,26 +98,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Key": "rerum",
-    "Value": "enim",
-    "RecordId": 898,
-    "CreatedDate": "1998-02-08T18:28:49.2211171+01:00",
-    "UpdatedDate": "2001-07-25T18:28:49.2211171+02:00",
-    "UpdatedBy": "et",
-    "CreatedBy": "consequuntur",
-    "TableName": "Purdy Group",
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "Key": "nulla",
+    "Value": "deleniti",
+    "RecordId": 488,
+    "CreatedDate": "2004-05-29T11:10:27.091459+02:00",
+    "UpdatedDate": "2011-09-20T11:10:27.091459+02:00",
+    "UpdatedBy": "assumenda",
+    "CreatedBy": "neque",
+    "TableName": "Baumbach LLC",
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 658
+        "FieldRight": null,
+        "FieldType": "System.Int32",
+        "FieldLength": 796
       }
     }
   }

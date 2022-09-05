@@ -6,14 +6,14 @@ so.generated: true
 keywords:
   - "database"
   - "dashboard_tile"
-so.date: 04.12.2022
+so.date: 08.26.2022
 so.topic: reference
 so.envir:
   - "onsite"
   - "online"
 ---
 
-# dashboard\_tile Table (476)
+# dashboard\_tile Table (477)
 
 Represents one tile in the dashboard
 
@@ -32,6 +32,7 @@ Represents one tile in the dashboard
 |updated\_associate\_id|Last updated by whom|FK [associate](associate.md)| |
 |updatedCount|Number of updates made to this record|UShort| |
 |rank|Rank order|UShort|&#x25CF;|
+
 
 ![dashboard_tile table relationship diagram](./media/dashboard_tile.png)
 
@@ -52,6 +53,7 @@ Represents one tile in the dashboard
 |[dashboard](dashboard.md)  |Describes a dashboard |
 |[dashboard\_tile\_definition](dashboard-tile-definition.md)  |Describes the contents of a tile |
 
+
 ## Replication Flags
 
 * None
@@ -59,3 +61,4 @@ Represents one tile in the dashboard
 ## Security Flags
 
 * Sentry controls access to items in this table using user's Role and data rights matrix on the table's parent.
+

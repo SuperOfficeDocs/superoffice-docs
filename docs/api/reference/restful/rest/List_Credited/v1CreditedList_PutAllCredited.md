@@ -1,6 +1,6 @@
 ---
 title: PUT List/Credited/Items
-id: v1CreditedList_PutAllCredited
+uid: v1CreditedList_PutAllCredited
 ---
 
 # PUT List/Credited/Items
@@ -10,6 +10,13 @@ PUT /api/v1/List/Credited/Items
 ```
 
 Update the Credited list
+
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -25,9 +32,9 @@ Update the Credited list
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: listItems
+## Request Body: listItems  
 
-All the updated Credited.
+All the updated Credited. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -38,7 +45,10 @@ All the updated Credited.
 | UdListDefinitionId | int32 | The id of the list which this list item belongs to |
 | Rank | int32 | The rank of the list item |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -57,34 +67,36 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 PUT /api/v1/List/Credited/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 836,
-    "Name": "Hackett-Kris",
-    "Tooltip": "laudantium",
+    "Id": 343,
+    "Name": "Treutel-Hahn",
+    "Tooltip": "eos",
     "Deleted": false,
-    "UdListDefinitionId": 986,
-    "Rank": 717
+    "UdListDefinitionId": 719,
+    "Rank": 125
   },
   {
-    "Id": 836,
-    "Name": "Hackett-Kris",
-    "Tooltip": "laudantium",
+    "Id": 343,
+    "Name": "Treutel-Hahn",
+    "Tooltip": "eos",
     "Deleted": false,
-    "UdListDefinitionId": 986,
-    "Rank": 717
+    "UdListDefinitionId": 719,
+    "Rank": 125
   }
 ]
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -92,24 +104,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 957,
-    "Name": "Gottlieb Group",
-    "Tooltip": "et",
-    "Deleted": true,
-    "UdListDefinitionId": 815,
-    "Rank": 316,
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "Id": 35,
+    "Name": "Homenick, Murphy and Schroeder",
+    "Tooltip": "aut",
+    "Deleted": false,
+    "UdListDefinitionId": 882,
+    "Rank": 559,
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
+        "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 798
+        "FieldLength": 814
       }
     }
   }

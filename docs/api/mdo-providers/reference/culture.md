@@ -7,7 +7,7 @@ keywords:
   - "mdo provider"
   - "culture"
 so.generated: true
-so.date: 03.19.2021
+so.date: 08.26.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -16,8 +16,14 @@ so.envir:
 
 # "culture" MDO List
 
+
+
+
 Implemented by the <see cref="T:SuperOffice.CRM.Lists.CultureProvider">CultureProvider</see> class.
 The name of the MDO list is 'culture'.
+
+
+
 
 ## Sample Request
 
@@ -30,7 +36,6 @@ Accept-Language: *
 ```
 
 ## Sample Code
-
 ```cs
 var listProvider = SuperOffice.CRM.Lists.SoListProviderFactory.Create("culture", forceFlatList: true);
 foreach (var item in listProvider.RootItems) {
@@ -51,14 +56,19 @@ foreach (var item in listProvider.RootItems) {
 |1035|Finnish ||fi|
 |1036|French ||fr|
 |1031|German ||de|
+|2055|German (Switzerland)||de-ch|
 |1040|Italian ||it|
 |1041|Japanese ||ja|
+|1042|Korean ||ko|
 |1044|Norwegian, Bokmål ||no|
 |1045|Polish ||pl|
+|1046|Portuguese (Brazil)||pt-br|
 |1049|Russian ||ru|
 |1034|Spanish ||es|
 |1053|Swedish ||sv|
 |1058|Ukrainian ||uk|
+|1066|Vietnamese ||vi|
+
 
 ## Related MDO Lists
 

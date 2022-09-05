@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Appointment/GetProjectMemberAppointmentsByTask
-id: v1AppointmentAgent_GetProjectMemberAppointmentsByTask
+uid: v1AppointmentAgent_GetProjectMemberAppointmentsByTask
 ---
 
 # POST Agents/Appointment/GetProjectMemberAppointmentsByTask
@@ -11,7 +11,13 @@ POST /api/v1/Agents/Appointment/GetProjectMemberAppointmentsByTask
 
 Method that returns a specified number of appointments of a specific appointment task type within a time range.
 
+
 The appointments belong to the projects where the person specified is member. Task represents the different types of activities, like “Phone call”, “Meeting” and so on.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +28,7 @@ The appointments belong to the projects where the person specified is member. Ta
 ```http
 POST /api/v1/Agents/Appointment/GetProjectMemberAppointmentsByTask?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,9 +44,9 @@ POST /api/v1/Agents/Appointment/GetProjectMemberAppointmentsByTask?$select=name,
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-PersonId, StartTime, EndTime, Count, TaskId
+PersonId, StartTime, EndTime, Count, TaskId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -49,7 +56,10 @@ PersonId, StartTime, EndTime, Count, TaskId
 | Count | int32 |  |
 | TaskId | int32 |  |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -111,7 +121,7 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Appointment/GetProjectMemberAppointmentsByTask
@@ -121,13 +131,15 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 317,
-  "StartTime": "2016-04-05T18:28:47.7098445+02:00",
-  "EndTime": "2015-08-01T18:28:47.7098445+02:00",
-  "Count": 355,
-  "TaskId": 903
+  "PersonId": 693,
+  "StartTime": "1999-03-12T11:10:25.428522+01:00",
+  "EndTime": "1996-06-07T11:10:25.428522+02:00",
+  "Count": 889,
+  "TaskId": 655
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -135,67 +147,61 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 153,
-    "StartDate": "2017-05-29T18:28:47.7108452+02:00",
-    "EndDate": "2005-02-24T18:28:47.7108452+01:00",
+    "AppointmentId": 705,
+    "StartDate": "2016-09-30T11:10:25.4295226+02:00",
+    "EndDate": "2009-03-14T11:10:25.4295226+01:00",
     "Type": "BookingForChecklist",
-    "Task": "architecto",
-    "AssociateFullName": "Dr. Betsy Jacobi",
-    "ContactName": "Haley Group",
-    "Description": "Open-source transitional extranet",
-    "PersonFullName": "Antonietta Boyle",
-    "PersonId": 475,
-    "ContactId": 772,
-    "ProjectId": 565,
-    "ProjectName": "Herman, Little and Boehm",
-    "IsPublished": true,
-    "AssociateId": 755,
-    "ColorIndex": 807,
-    "IsFree": true,
-    "HasAlarm": true,
+    "Task": "quia",
+    "AssociateFullName": "Sedrick Dooley",
+    "ContactName": "Kuhic, Farrell and Morar",
+    "Description": "Upgradable optimizing intranet",
+    "PersonFullName": "Dawson Rau",
+    "PersonId": 104,
+    "ContactId": 908,
+    "ProjectId": 313,
+    "ProjectName": "Bins-Trantow",
+    "IsPublished": false,
+    "AssociateId": 630,
+    "ColorIndex": 70,
+    "IsFree": false,
+    "HasAlarm": false,
     "IsAlldayEvent": true,
     "Private": "PrivateGroup",
-    "PriorityId": 627,
-    "PriorityName": "Weber Inc and Sons",
+    "PriorityId": 125,
+    "PriorityName": "Wehner, Boyer and Rice",
     "TaskType": "Appointment",
     "IsBookingMain": false,
     "IsRecurrence": false,
     "IsBooking": false,
-    "ActiveDate": "2005-11-05T18:28:47.7118442+01:00",
+    "ActiveDate": "2000-01-15T11:10:25.4305217+01:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "1998-03-20T18:28:47.7118442+01:00",
-    "RecurringEndDate": "1995-11-02T18:28:47.7118442+01:00",
-    "MotherId": 907,
-    "AssignedBy": 25,
-    "AssignedByFullName": "Lavern Heathcote",
+    "RecurringStartDate": "2021-04-10T11:10:25.4305217+02:00",
+    "RecurringEndDate": "2002-11-04T11:10:25.4305217+01:00",
+    "MotherId": 885,
+    "AssignedBy": 490,
+    "AssignedByFullName": "Antoinette Abernathy",
     "RejectReason": "",
-    "Location": "laudantium",
-    "AlarmLeadTime": "porro",
-    "SaleId": 570,
-    "SaleName": "Grimes, Batz and Schumm",
-    "AssociateName": "Berge LLC",
-    "CreatedDate": "2018-06-07T18:28:47.7118442+02:00",
-    "CreatedBy": "aut",
-    "CreatedByFullName": "Antonietta Jerde Sr.",
-    "CreatedByAssociateId": 601,
+    "Location": "debitis",
+    "AlarmLeadTime": "esse",
+    "SaleId": 216,
+    "SaleName": "Schamberger Group",
+    "AssociateName": "Feeney-Lehner",
+    "CreatedDate": "1998-10-12T11:10:25.4305217+02:00",
+    "CreatedBy": "omnis",
+    "CreatedByFullName": "Soledad Treutel",
+    "CreatedByAssociateId": 650,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 531
+        "FieldRight": null,
+        "FieldType": "System.Int32",
+        "FieldLength": 649
       }
     }
   }

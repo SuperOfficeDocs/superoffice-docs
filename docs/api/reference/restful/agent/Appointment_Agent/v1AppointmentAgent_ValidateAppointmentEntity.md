@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Appointment/ValidateAppointmentEntity
-id: v1AppointmentAgent_ValidateAppointmentEntity
+uid: v1AppointmentAgent_ValidateAppointmentEntity
 ---
 
 # POST Agents/Appointment/ValidateAppointmentEntity
@@ -11,6 +11,12 @@ POST /api/v1/Agents/Appointment/ValidateAppointmentEntity
 
 Check that entity is ready for saving.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Check that entity is ready for saving.
 ```http
 POST /api/v1/Agents/Appointment/ValidateAppointmentEntity?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,15 +42,18 @@ POST /api/v1/Agents/Appointment/ValidateAppointmentEntity?$select=name,departmen
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-AppointmentEntity
+AppointmentEntity 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | AppointmentEntity |  | Partial AppointmentEntity class associating the generated AppointmentEntity with an interface. |
 
+
 ## Response: object
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -51,7 +61,8 @@ AppointmentEntity
 
 Response body: object
 
-## Sample Request
+
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Appointment/ValidateAppointmentEntity
@@ -61,90 +72,18 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AppointmentEntity": {
-    "Associate": {},
-    "Contact": {},
-    "CreatedBy": {},
-    "UpdatedBy": {},
-    "CreatedDate": "1996-04-15T18:28:47.8778476+02:00",
-    "AppointmentId": 347,
-    "Description": "Adaptive content-based hub",
-    "StartDate": "2002-07-24T18:28:47.8778476+02:00",
-    "EndDate": "1998-10-03T18:28:47.8778476+02:00",
-    "InvitedPerson": {},
-    "Person": {},
-    "MotherId": 656,
-    "Priority": {},
-    "Private": "PrivateGroup",
-    "Project": {},
-    "Type": "BookingForChecklist",
-    "UpdatedDate": "2014-02-20T18:28:47.8778476+01:00",
-    "Completed": "Completed",
-    "ActiveLinks": 359,
-    "Links": [
-      {},
-      {}
-    ],
-    "AlarmLeadTime": "reprehenderit",
-    "HasAlarm": false,
-    "ColorIndex": 97,
-    "IsFree": false,
-    "IsAlldayEvent": false,
-    "LagTime": "voluptas",
-    "LeadTime": "eveniet",
-    "Location": "reprehenderit",
-    "RejectCounter": 789,
-    "RejectReason": "",
-    "Recurrence": {},
-    "Participants": [
-      {},
-      {}
-    ],
-    "AssignmentStatus": "Assigning",
-    "InvitationStatus": "Accepted",
-    "BookingType": "None",
-    "ActiveDate": "2016-03-16T18:28:47.8778476+01:00",
-    "HasConflict": false,
-    "AssignedBy": {},
-    "MotherAssociate": {},
-    "Task": {},
-    "PreferredTZLocation": 785,
-    "Sale": {},
-    "SuggestedAppointmentId": 310,
-    "IsMileStone": true,
-    "CautionWarning": "ExternalParticipantsDateTimeMismatch",
-    "JoinVideomeetUrl": "http://www.example.com/",
-    "CentralserviceVideomeetId": "aut",
-    "UserDefinedFields": {
-      "SuperOffice:1": "Loma Kub",
-      "SuperOffice:2": "1899041809"
-    },
-    "ExtraFields": {
-      "ExtraFields1": "quia",
-      "ExtraFields2": "in"
-    },
-    "CustomFields": {
-      "CustomFields1": "non",
-      "CustomFields2": "rerum"
-    },
-    "PublishEventDate": "1997-02-21T18:28:47.8778476+01:00",
-    "PublishTo": "2003-02-21T18:28:47.8778476+01:00",
-    "PublishFrom": "2003-03-14T18:28:47.8778476+01:00",
-    "IsPublished": true,
-    "VisibleFor": [
-      {},
-      {}
-    ]
-  }
+  "AppointmentEntity": null
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "1": "ea",
-  "2": "adipisci"
+  "1": "ratione",
+  "2": "ipsam"
 }
 ```

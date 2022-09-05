@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Person/GetConsentInfos
-id: v1PersonAgent_GetConsentInfos
+uid: v1PersonAgent_GetConsentInfos
 ---
 
 # POST Agents/Person/GetConsentInfos
@@ -11,7 +11,13 @@ POST /api/v1/Agents/Person/GetConsentInfos
 
 Get all consent information for a given person.
 
+
 May include withdrawn consents (check
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +28,7 @@ May include withdrawn consents (check
 ```http
 POST /api/v1/Agents/Person/GetConsentInfos?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,15 +44,18 @@ POST /api/v1/Agents/Person/GetConsentInfos?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-PersonId
+PersonId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | PersonId | int32 |  |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -73,19 +83,21 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Person/GetConsentInfos
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 614
+  "PersonId": 342
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -93,33 +105,27 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ConsentPersonId": 226,
-    "Comment": "ea",
-    "Registered": "2009-10-07T18:28:49.7341372+02:00",
-    "RegisteredAssociateId": 270,
-    "Updated": "2006-05-30T18:28:49.7341372+02:00",
-    "UpdatedAssociateId": 654,
-    "LegalBaseId": 750,
-    "LegalBaseKey": "voluptatem",
-    "LegalBaseName": "Stehr-Johns",
-    "ConsentPurposeId": 172,
-    "ConsentPurposeKey": "veniam",
-    "ConsentPurposeName": "Sanford LLC",
-    "ConsentSourceId": 8,
-    "ConsentSourceKey": "et",
-    "ConsentSourceName": "Nitzsche-Becker",
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "ConsentPersonId": 128,
+    "Comment": "a",
+    "Registered": "2016-02-17T11:10:27.4824584+01:00",
+    "RegisteredAssociateId": 147,
+    "Updated": "2006-09-23T11:10:27.4824584+02:00",
+    "UpdatedAssociateId": 197,
+    "LegalBaseId": 729,
+    "LegalBaseKey": "sit",
+    "LegalBaseName": "Bogisich-Schuppe",
+    "ConsentPurposeId": 52,
+    "ConsentPurposeKey": "molestiae",
+    "ConsentPurposeName": "Hudson, Stiedemann and Halvorson",
+    "ConsentSourceId": 195,
+    "ConsentSourceKey": "quos",
+    "ConsentSourceName": "Deckow-Kemmer",
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 959
+        "FieldRight": null,
+        "FieldType": "System.Int32",
+        "FieldLength": 479
       }
     }
   }

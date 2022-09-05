@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Webhook/GetWebhook
-id: v1WebhookAgent_GetWebhook
+uid: v1WebhookAgent_GetWebhook
 ---
 
 # POST Agents/Webhook/GetWebhook
@@ -11,7 +11,15 @@ POST /api/v1/Agents/Webhook/GetWebhook
 
 Gets a Webhook object.
 
-## Online Restricted: ## The Webhook agent is not available in Online by default. Access must be requested specifically when app is registered
+
+
+
+## Online Restricted: ## The Webhook agent is not available in Online by default. Access must be requested specifically when app is registered.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -21,9 +29,10 @@ Gets a Webhook object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Webhook/GetWebhook?webhookId=935
+POST /api/v1/Agents/Webhook/GetWebhook?webhookId=858
 POST /api/v1/Agents/Webhook/GetWebhook?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -38,18 +47,16 @@ POST /api/v1/Agents/Webhook/GetWebhook?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response: object
 
-Webhook definitions. Webhooks broadcast events from NetServer to remote servers.
+## Response: 
 
-Carrier object for Webhook.
-Services for the Webhook Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IWebhookAgent">Webhook Agent</see>.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -67,88 +74,42 @@ Response body: object
 | Updated | date-time | Last updated when  in UTC. |
 | UpdatedAssociate |  | The user that last updated the webhook. |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Webhook/GetWebhook
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebhookId": 583,
-  "Name": "Robel, West and Connelly",
+  "WebhookId": 831,
+  "Name": "Gulgowski, Gusikowski and Lesch",
   "Events": [
-    "consectetur",
-    "dolorem"
+    "officia",
+    "voluptatem"
   ],
   "TargetUrl": "http://www.example.com/",
-  "Secret": "harum",
+  "Secret": "et",
   "State": "Active",
-  "Type": "tempora",
+  "Type": "ipsa",
   "Headers": {
-    "Headers1": "labore",
-    "Headers2": "earum"
+    "Headers1": "quibusdam",
+    "Headers2": "possimus"
   },
   "Properties": {
     "fieldName": {}
   },
-  "Registered": "2014-09-01T18:28:50.6114149+02:00",
-  "RegisteredAssociate": {
-    "AssociateId": 370,
-    "Name": "Corkery-Thompson",
-    "PersonId": 414,
-    "Rank": 536,
-    "Tooltip": "dolorem",
-    "Type": "AnonymousAssociate",
-    "GroupIdx": 444,
-    "FullName": "Asa Abshire",
-    "FormalName": "Cummerata, Blanda and Mertz",
-    "Deleted": true,
-    "EjUserId": 153,
-    "UserName": "Paucek, Bradtke and McDermott",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.Int32",
-        "FieldLength": 446
-      }
-    }
-  },
-  "Updated": "2020-09-20T18:28:50.6114149+02:00",
-  "UpdatedAssociate": {
-    "AssociateId": 513,
-    "Name": "Stark LLC",
-    "PersonId": 752,
-    "Rank": 100,
-    "Tooltip": "cupiditate",
-    "Type": "AnonymousAssociate",
-    "GroupIdx": 835,
-    "FullName": "Hans Deckow",
-    "FormalName": "Bergstrom-Braun",
-    "Deleted": false,
-    "EjUserId": 139,
-    "UserName": "Lakin-Abshire",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 102
-      }
-    }
-  }
+  "Registered": "2004-10-26T11:10:28.4822109+02:00",
+  "RegisteredAssociate": null,
+  "Updated": "1997-04-22T11:10:28.4842096+02:00",
+  "UpdatedAssociate": null
 }
 ```

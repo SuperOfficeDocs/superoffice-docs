@@ -1,6 +1,6 @@
 ---
 title: GET Person/{id}/Consent
-id: v1PersonEntity_GetConsentInfos
+uid: v1PersonEntity_GetConsentInfos
 ---
 
 # GET Person/{id}/Consent
@@ -11,11 +11,18 @@ GET /api/v1/Person/{personId}/Consent
 
 Get all consent information for a given person.
 
+
 May include withdrawn consents (check
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | personId | int32 | The person id to get consents for **Required** |
+
+
 
 ## Request Headers
 
@@ -30,7 +37,10 @@ May include withdrawn consents (check
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -58,7 +68,7 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 GET /api/v1/Person/{personId}/Consent
@@ -67,39 +77,35 @@ Accept: application/json; charset=utf-8
 Accept-Language: *
 ```
 
+## Sample response
+
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ConsentPersonId": 960,
-    "Comment": "praesentium",
-    "Registered": "2002-12-23T18:25:50.7265965+01:00",
-    "RegisteredAssociateId": 780,
-    "Updated": "1996-11-11T18:25:50.7265965+01:00",
-    "UpdatedAssociateId": 967,
-    "LegalBaseId": 369,
-    "LegalBaseKey": "dignissimos",
-    "LegalBaseName": "Lehner Inc and Sons",
-    "ConsentPurposeId": 394,
-    "ConsentPurposeKey": "consequatur",
-    "ConsentPurposeName": "Runolfsdottir-Johns",
-    "ConsentSourceId": 897,
-    "ConsentSourceKey": "ab",
-    "ConsentSourceName": "Medhurst LLC",
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": "scale leading-edge methodologies"
-    },
+    "ConsentPersonId": 430,
+    "Comment": "laudantium",
+    "Registered": "1998-03-25T11:10:53.0271456+01:00",
+    "RegisteredAssociateId": 944,
+    "Updated": "2020-09-24T11:10:53.0271456+02:00",
+    "UpdatedAssociateId": 960,
+    "LegalBaseId": 10,
+    "LegalBaseKey": "vel",
+    "LegalBaseName": "Welch-Sauer",
+    "ConsentPurposeId": 562,
+    "ConsentPurposeKey": "sunt",
+    "ConsentPurposeName": "O'Keefe-Casper",
+    "ConsentSourceId": 417,
+    "ConsentSourceKey": "quo",
+    "ConsentSourceName": "Brekke-Bahringer",
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 435
+        "FieldRight": null,
+        "FieldType": "System.Int32",
+        "FieldLength": 814
       }
     }
   }

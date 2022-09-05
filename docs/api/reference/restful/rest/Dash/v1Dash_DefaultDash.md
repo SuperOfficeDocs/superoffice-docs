@@ -1,6 +1,6 @@
 ---
 title: GET Dash/default
-id: v1Dash_DefaultDash
+uid: v1Dash_DefaultDash
 ---
 
 # GET Dash/default
@@ -11,7 +11,14 @@ GET /api/v1/Dash/default
 
 Set default values into a new Dash.
 
+
 NetServer calculates default values on the entity, which is required when creating/storing a new instance Calls the Dash agent service CreateDefaultDash.
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -26,18 +33,16 @@ NetServer calculates default values on the entity, which is required when creati
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response: object
 
-Dashboard configuration
+## Response: 
 
-Carrier object for Dash.
-Services for the Dash Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IDashAgent">Dash Agent</see>.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -57,7 +62,7 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 GET /api/v1/Dash/default
@@ -66,65 +71,44 @@ Accept: application/json; charset=utf-8
 Accept-Language: en
 ```
 
+## Sample response
+
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 726,
-  "UniqueId": "ut",
-  "Name": "Gleason LLC",
-  "Description": "Re-engineered analyzing project",
-  "AssociateId": 361,
-  "Columns": 846,
-  "Theme": {
-    "DashboardThemeId": 868,
-    "Name": "Orn-Morar",
-    "Config": "quo",
-    "Rank": 874,
-    "Client": "voluptatem",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 756
-      }
-    }
-  },
-  "VisibleForAll": 410,
+  "DashboardId": 598,
+  "UniqueId": "veniam",
+  "Name": "Mohr-Lebsack",
+  "Description": "Automated intermediate groupware",
+  "AssociateId": 804,
+  "Columns": 387,
+  "Theme": null,
+  "VisibleForAll": 556,
   "VisibleForAssociates": [
-    992,
-    120
+    765,
+    494
   ],
   "VisibleForGroups": [
-    273,
-    936
+    473,
+    173
   ],
-  "PinForAll": 729,
+  "PinForAll": 97,
   "PinForAssociates": [
-    417,
-    20
+    287,
+    995
   ],
   "PinForGroups": [
-    103,
-    122
+    112,
+    781
   ],
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
+      "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 871
+      "FieldLength": 202
     }
   }
 }

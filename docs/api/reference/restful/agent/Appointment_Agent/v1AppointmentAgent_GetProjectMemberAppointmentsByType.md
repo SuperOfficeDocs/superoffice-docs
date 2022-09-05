@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Appointment/GetProjectMemberAppointmentsByType
-id: v1AppointmentAgent_GetProjectMemberAppointmentsByType
+uid: v1AppointmentAgent_GetProjectMemberAppointmentsByType
 ---
 
 # POST Agents/Appointment/GetProjectMemberAppointmentsByType
@@ -11,7 +11,13 @@ POST /api/v1/Agents/Appointment/GetProjectMemberAppointmentsByType
 
 Method that returns a specified number of appointments of a specific appointment type within a time range.
 
+
 The appointments belong to the projects where the person specified is member.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +28,7 @@ The appointments belong to the projects where the person specified is member.
 ```http
 POST /api/v1/Agents/Appointment/GetProjectMemberAppointmentsByType?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,9 +44,9 @@ POST /api/v1/Agents/Appointment/GetProjectMemberAppointmentsByType?$select=name,
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-PersonId, StartTime, EndTime, Count, AppointmentType
+PersonId, StartTime, EndTime, Count, AppointmentType 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -49,7 +56,10 @@ PersonId, StartTime, EndTime, Count, AppointmentType
 | Count | int32 |  |
 | AppointmentType | string |  |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -111,23 +121,25 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Appointment/GetProjectMemberAppointmentsByType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 460,
-  "StartTime": "2003-03-21T18:28:47.6918175+01:00",
-  "EndTime": "2014-01-02T18:28:47.6918175+01:00",
-  "Count": 571,
+  "PersonId": 801,
+  "StartTime": "2016-06-19T11:10:25.4075556+02:00",
+  "EndTime": "2006-06-02T11:10:25.4075556+02:00",
+  "Count": 93,
   "AppointmentType": "BookingForChecklist"
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -135,67 +147,61 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 610,
-    "StartDate": "2010-09-01T18:28:47.6928174+02:00",
-    "EndDate": "1999-07-02T18:28:47.6928174+02:00",
+    "AppointmentId": 178,
+    "StartDate": "2007-09-27T11:10:25.4085259+02:00",
+    "EndDate": "2015-05-23T11:10:25.4085259+02:00",
     "Type": "BookingForChecklist",
-    "Task": "omnis",
-    "AssociateFullName": "Romaine Herman",
-    "ContactName": "DuBuque Group",
-    "Description": "Cross-group explicit implementation",
-    "PersonFullName": "Mayra Leffler",
-    "PersonId": 242,
-    "ContactId": 423,
-    "ProjectId": 172,
-    "ProjectName": "Barton, Wisozk and Stokes",
-    "IsPublished": true,
-    "AssociateId": 333,
-    "ColorIndex": 242,
-    "IsFree": false,
-    "HasAlarm": false,
-    "IsAlldayEvent": true,
+    "Task": "consequatur",
+    "AssociateFullName": "Ms. Kyra Jayson Thompson",
+    "ContactName": "Oberbrunner-Lind",
+    "Description": "Persistent uniform infrastructure",
+    "PersonFullName": "Celestino Treutel",
+    "PersonId": 88,
+    "ContactId": 798,
+    "ProjectId": 362,
+    "ProjectName": "Schaefer, Murphy and Hyatt",
+    "IsPublished": false,
+    "AssociateId": 782,
+    "ColorIndex": 487,
+    "IsFree": true,
+    "HasAlarm": true,
+    "IsAlldayEvent": false,
     "Private": "PrivateGroup",
-    "PriorityId": 25,
-    "PriorityName": "Cummerata, Stoltenberg and Goodwin",
+    "PriorityId": 614,
+    "PriorityName": "Keeling, Hane and Langosh",
     "TaskType": "Appointment",
     "IsBookingMain": false,
     "IsRecurrence": false,
-    "IsBooking": true,
-    "ActiveDate": "1994-09-30T18:28:47.6928174+02:00",
+    "IsBooking": false,
+    "ActiveDate": "2020-10-20T11:10:25.4095529+02:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2013-12-05T18:28:47.6928174+01:00",
-    "RecurringEndDate": "1995-02-02T18:28:47.6928174+01:00",
-    "MotherId": 725,
-    "AssignedBy": 33,
-    "AssignedByFullName": "Donny Turcotte",
+    "RecurringStartDate": "2016-03-15T11:10:25.4095529+01:00",
+    "RecurringEndDate": "2004-02-06T11:10:25.4095529+01:00",
+    "MotherId": 333,
+    "AssignedBy": 466,
+    "AssignedByFullName": "Whitney Sawayn DDS",
     "RejectReason": "",
-    "Location": "autem",
-    "AlarmLeadTime": "temporibus",
-    "SaleId": 731,
-    "SaleName": "Breitenberg Inc and Sons",
-    "AssociateName": "Towne-Friesen",
-    "CreatedDate": "2001-08-27T18:28:47.6928174+02:00",
-    "CreatedBy": "sed",
-    "CreatedByFullName": "Jerrold Christiansen",
-    "CreatedByAssociateId": 908,
+    "Location": "est",
+    "AlarmLeadTime": "enim",
+    "SaleId": 100,
+    "SaleName": "Frami-Stiedemann",
+    "AssociateName": "Jacobi, Schowalter and Osinski",
+    "CreatedDate": "2019-04-27T11:10:25.4095529+02:00",
+    "CreatedBy": "non",
+    "CreatedByFullName": "Montana Armstrong",
+    "CreatedByAssociateId": 307,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.Int32",
-        "FieldLength": 323
+        "FieldRight": null,
+        "FieldType": "System.String",
+        "FieldLength": 13
       }
     }
   }

@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "AssociateHeadingLink"
-so.date: 04.12.2022
+so.date: 08.26.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -15,7 +15,7 @@ so.envir:
 
 # AssociateHeadingLink Table (4)
 
-Heading link table for associate for display only. Supportive table, used for grouping and filtering on lists.
+Heading link table for associate for display only. Supportive table, used for grouping and filtering on lists. 
 
 ## Fields
 
@@ -29,6 +29,7 @@ Heading link table for associate for display only. Supportive table, used for gr
 |updated|Last updated when|UtcDateTime| |
 |updated\_associate\_id|Last updated by whom|FK [associate](associate.md)| |
 |updatedCount|Number of updates made to this record|UShort| |
+
 
 ![AssociateHeadingLink table relationship diagram](./media/AssociateHeadingLink.png)
 
@@ -49,6 +50,7 @@ Heading link table for associate for display only. Supportive table, used for gr
 |[associate](associate.md)  |Employees, resources and other users - except for External persons |
 |[Heading](heading.md)  |Heading items for all MDO lists, lists that are grouped and filtered. |
 
+
 ## Replication Flags
 
 * Replicate changes DOWN from central to satellites and travellers.
@@ -58,3 +60,4 @@ Heading link table for associate for display only. Supportive table, used for gr
 ## Security Flags
 
 * No access control via user's Role.
+

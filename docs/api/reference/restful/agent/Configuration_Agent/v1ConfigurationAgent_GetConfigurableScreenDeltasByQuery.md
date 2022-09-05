@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Configuration/GetConfigurableScreenDeltasByQuery
-id: v1ConfigurationAgent_GetConfigurableScreenDeltasByQuery
+uid: v1ConfigurationAgent_GetConfigurableScreenDeltasByQuery
 ---
 
 # POST Agents/Configuration/GetConfigurableScreenDeltasByQuery
@@ -11,6 +11,12 @@ POST /api/v1/Agents/Configuration/GetConfigurableScreenDeltasByQuery
 
 This method will return a configurablescreen delta matching the properties received from the incomming query
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ This method will return a configurablescreen delta matching the properties recei
 ```http
 POST /api/v1/Agents/Configuration/GetConfigurableScreenDeltasByQuery?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,15 +42,18 @@ POST /api/v1/Agents/Configuration/GetConfigurableScreenDeltasByQuery?$select=nam
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-DeltaQuery
+DeltaQuery 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | DeltaQuery |  |  |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -64,37 +74,26 @@ Response body: array
 | CreatedDate | date-time |  |
 | UpdatedBy |  | Carrier object for Associate. Services for the Associate Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IAssociateAgent">Associate Agent</see>. |
 | CreatedBy |  | Carrier object for Associate. Services for the Associate Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IAssociateAgent">Associate Agent</see>. |
-| UserGroupIds | array |  |
+| AppliesToIds | array |  |
+| AppliesToKey | string |  |
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Configuration/GetConfigurableScreenDeltasByQuery
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DeltaQuery": {
-    "RecipeId": "eaque",
-    "DeltaStates": [
-      "sequi",
-      "deserunt"
-    ],
-    "DeltaTypes": [
-      "ullam",
-      "blanditiis"
-    ],
-    "UserGroupIds": [
-      3,
-      328
-    ]
-  }
+  "DeltaQuery": null
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -102,81 +101,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ConfigurableScreenDeltaId": 636,
-    "Name": "Medhurst Inc and Sons",
-    "Description": "Synchronised mission-critical encoding",
-    "DeltaJson": "iste",
+    "ConfigurableScreenDeltaId": 940,
+    "Name": "Effertz-Pouros",
+    "Description": "Polarised secondary methodology",
+    "DeltaJson": "architecto",
     "DeltaType": "CustomFields",
     "DeltaState": "Draft",
-    "RecipeId": "quae",
-    "UpdatedDate": "1997-06-02T18:28:48.4156236+02:00",
-    "CreatedDate": "1996-09-01T18:28:48.4156236+02:00",
-    "UpdatedBy": {
-      "AssociateId": 345,
-      "Name": "Friesen Group",
-      "PersonId": 143,
-      "Rank": 652,
-      "Tooltip": "qui",
-      "Type": "AnonymousAssociate",
-      "GroupIdx": 17,
-      "FullName": "Dr. Antone Buckridge",
-      "FormalName": "Dietrich, Borer and Hills",
-      "Deleted": false,
-      "EjUserId": 797,
-      "UserName": "Pouros Inc and Sons",
-      "TableRight": {},
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": {
-            "Mask": "FULL",
-            "Reason": ""
-          },
-          "FieldType": "System.Int32",
-          "FieldLength": 819
-        }
-      }
-    },
-    "CreatedBy": {
-      "AssociateId": 515,
-      "Name": "Ratke-DuBuque",
-      "PersonId": 497,
-      "Rank": 822,
-      "Tooltip": "in",
-      "Type": "AnonymousAssociate",
-      "GroupIdx": 903,
-      "FullName": "Rylee Rogahn",
-      "FormalName": "Prohaska, Wisozk and Collier",
-      "Deleted": false,
-      "EjUserId": 712,
-      "UserName": "Jakubowski LLC",
-      "TableRight": {},
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": {
-            "Mask": "FULL",
-            "Reason": ""
-          },
-          "FieldType": "System.String",
-          "FieldLength": 507
-        }
-      }
-    },
-    "UserGroupIds": [
-      100,
-      623
+    "RecipeId": "at",
+    "UpdatedDate": "1996-12-08T11:10:26.2055525+01:00",
+    "CreatedDate": "2007-08-13T11:10:26.2055525+02:00",
+    "UpdatedBy": null,
+    "CreatedBy": null,
+    "AppliesToIds": [
+      372,
+      99
     ],
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "AppliesToKey": "laudantium",
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 835
+        "FieldRight": null,
+        "FieldType": "System.Int32",
+        "FieldLength": 114
       }
     }
   }

@@ -1,6 +1,6 @@
 ---
 title: GET List/PaymentType/Items/{id}
-id: v1PaymentTypeList_GetPaymentType
+uid: v1PaymentTypeList_GetPaymentType
 ---
 
 # GET List/PaymentType/Items/{id}
@@ -11,9 +11,16 @@ GET /api/v1/List/PaymentType/Items/{id}
 
 Gets a PaymentType  item by id.
 
+
+
+
+
+
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | id | int32 | The id of the PaymentType to return. **Required** |
+
+
 
 ## Request Headers
 
@@ -28,19 +35,17 @@ Gets a PaymentType  item by id.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response: object
 
-The list item entity contains generic list item information
+## Response: 
 
-Carrier object for ListItemEntity.
-Services for the ListItemEntity Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IListAgent">List Agent</see>.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 | 404 | Not Found. |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -53,38 +58,34 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 GET /api/v1/List/PaymentType/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 777,
-  "Name": "Lesch-Monahan",
-  "Tooltip": "numquam",
-  "Deleted": true,
-  "UdListDefinitionId": 736,
-  "Rank": 749,
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "Id": 137,
+  "Name": "Schaefer-Brekke",
+  "Tooltip": "et",
+  "Deleted": false,
+  "UdListDefinitionId": 460,
+  "Rank": 580,
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
+      "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 840
+      "FieldLength": 825
     }
   }
 }

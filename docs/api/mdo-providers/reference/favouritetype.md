@@ -7,7 +7,7 @@ keywords:
   - "mdo provider"
   - "favouritetype"
 so.generated: true
-so.date: 03.19.2021
+so.date: 08.26.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -15,11 +15,15 @@ so.envir:
 ---
 
 # "favouritetype" MDO List
-
 MDO list provider for Favourite types
+
+
 
 Implemented by the <see cref="T:SuperOffice.CRM.Lists.FavouriteTypeListProvider">FavouriteTypeListProvider</see> class.
 The name of the MDO list is 'favouritetype'.
+
+
+
 
 ## Sample Request
 
@@ -32,7 +36,6 @@ Accept-Language: *
 ```
 
 ## Sample Code
-
 ```cs
 var listProvider = SuperOffice.CRM.Lists.SoListProviderFactory.Create("favouritetype", forceFlatList: true);
 foreach (var item in listProvider.RootItems) {
@@ -51,6 +54,7 @@ foreach (var item in listProvider.RootItems) {
 |4|Selections only|||
 |5|Activities only|||
 |9|Sales only|||
+
 
 ## Related MDO Lists
 

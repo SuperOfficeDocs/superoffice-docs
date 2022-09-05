@@ -1,6 +1,6 @@
 ---
 title: GET List/Category/MDOItems
-id: v1CategoryList_GetMDOList
+uid: v1CategoryList_GetMDOList
 ---
 
 # GET List/Category/MDOItems
@@ -11,6 +11,12 @@ GET /api/v1/List/Category/MDOItems
 
 Get the MDO list items for "Category" - with headings and filtering by user group.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,8 +26,9 @@ Get the MDO list items for "Category" - with headings and filtering by user grou
 
 ```http
 GET /api/v1/List/Category/MDOItems?flat=False
-GET /api/v1/List/Category/MDOItems?query=facere
+GET /api/v1/List/Category/MDOItems?query=sed
 ```
+
 
 ## Request Headers
 
@@ -36,7 +43,10 @@ GET /api/v1/List/Category/MDOItems?query=facere
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -61,7 +71,7 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 GET /api/v1/List/Category/MDOItems
@@ -70,65 +80,58 @@ Accept: application/json; charset=utf-8
 Accept-Language: *
 ```
 
+## Sample response
+
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 941,
-    "Name": "Jenkins-Vandervort",
-    "ToolTip": "Possimus autem consequuntur odit.",
-    "Deleted": true,
-    "Rank": 606,
-    "Type": "inventore",
+    "Id": 382,
+    "Name": "Feil, Treutel and Farrell",
+    "ToolTip": "Iste quia voluptatem et officiis possimus vero.",
+    "Deleted": false,
+    "Rank": 986,
+    "Type": "voluptatum",
     "ChildItems": [
       {
-        "Id": 78,
-        "Name": "Harvey, Moore and White",
-        "ToolTip": "Sint autem voluptas rerum similique.",
-        "Deleted": false,
-        "Rank": 290,
-        "Type": "libero",
+        "Id": 702,
+        "Name": "Wiza, Hermann and Douglas",
+        "ToolTip": "Molestiae nihil.",
+        "Deleted": true,
+        "Rank": 384,
+        "Type": "rerum",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "illum",
-        "ColorBlock": 370,
-        "ExtraInfo": "quas",
-        "StyleHint": "quos",
-        "FullName": "Ida Douglas",
-        "TableRight": {},
+        "IconHint": "voluptatibus",
+        "ColorBlock": 989,
+        "ExtraInfo": "voluptatibus",
+        "StyleHint": "eaque",
+        "FullName": "Toni Hahn",
+        "TableRight": null,
         "FieldProperties": {
           "fieldName": {
-            "FieldRight": {
-              "Mask": "FULL",
-              "Reason": ""
-            },
-            "FieldType": "System.String",
-            "FieldLength": 225
+            "FieldRight": null,
+            "FieldType": "System.Int32",
+            "FieldLength": 18
           }
         }
       }
     ],
-    "IconHint": "maxime",
-    "ColorBlock": 263,
-    "ExtraInfo": "hic",
-    "StyleHint": "corrupti",
-    "FullName": "Horace Rodriguez",
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "IconHint": "tenetur",
+    "ColorBlock": 117,
+    "ExtraInfo": "dolore",
+    "StyleHint": "hic",
+    "FullName": "Torrance Wisozk",
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 844
+        "FieldRight": null,
+        "FieldType": "System.Int32",
+        "FieldLength": 995
       }
     }
   }

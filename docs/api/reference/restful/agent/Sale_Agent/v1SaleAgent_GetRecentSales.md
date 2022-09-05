@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Sale/GetRecentSales
-id: v1SaleAgent_GetRecentSales
+uid: v1SaleAgent_GetRecentSales
 ---
 
 # POST Agents/Sale/GetRecentSales
@@ -11,7 +11,13 @@ POST /api/v1/Agents/Sale/GetRecentSales
 
 Returns the latest sales (that are sold) limited by their amount.
 
+
 The result is sorted descending with the latest first. If the amount is -1, the amount restriction is omitted.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +28,7 @@ The result is sorted descending with the latest first. If the amount is -1, the 
 ```http
 POST /api/v1/Agents/Sale/GetRecentSales?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,16 +44,19 @@ POST /api/v1/Agents/Sale/GetRecentSales?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-AmountLimit, Count
+AmountLimit, Count 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | AmountLimit | int32 |  |
 | Count | int32 |  |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -84,20 +94,22 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Sale/GetRecentSales
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AmountLimit": 419,
-  "Count": 56
+  "AmountLimit": 515,
+  "Count": 893
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -105,43 +117,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactName": "Thiel, Reynolds and Harvey",
-    "SaleDate": "1999-12-13T18:28:50.1764418+01:00",
-    "SaleId": 294,
-    "Probability": 746,
-    "Title": "consequatur",
-    "Amount": 26632.732,
-    "Currency": "possimus",
-    "ProjectName": "Langworth Group",
-    "AssociateFullName": "Lavada Koch I",
-    "Description": "Organic clear-thinking algorithm",
+    "ContactName": "Lockman Group",
+    "SaleDate": "2018-10-23T11:10:27.852008+02:00",
+    "SaleId": 54,
+    "Probability": 790,
+    "Title": "voluptatem",
+    "Amount": 10248.18,
+    "Currency": "nihil",
+    "ProjectName": "Terry-Sawayn",
+    "AssociateFullName": "Garnett Roob",
+    "Description": "Persevering solution-oriented complexity",
     "Status": "Lost",
-    "WeightedAmount": 9821.956,
-    "ProjectId": 477,
-    "EarningPercent": 29023.974,
-    "Earning": 25322.719999999998,
-    "ContactId": 513,
-    "AssociateId": 138,
-    "PersonId": 652,
-    "SaleTypeId": 475,
-    "SaleTypeName": "Nicolas LLC",
-    "PersonFullName": "Doug Walker",
+    "WeightedAmount": 19741.066,
+    "ProjectId": 105,
+    "EarningPercent": 19274.1,
+    "Earning": 4183.8899999999994,
+    "ContactId": 279,
+    "AssociateId": 895,
+    "PersonId": 216,
+    "SaleTypeId": 553,
+    "SaleTypeName": "Hermiston Inc and Sons",
+    "PersonFullName": "Dr. Sid Dietrich",
     "Completed": "Completed",
-    "ActiveErpLinks": 376,
-    "NextDueDate": "2001-05-15T18:28:50.1764418+02:00",
-    "Number": "1415641",
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "ActiveErpLinks": 227,
+    "NextDueDate": "2015-10-06T11:10:27.852008+02:00",
+    "Number": "689546",
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 189
+        "FieldRight": null,
+        "FieldType": "System.Int32",
+        "FieldLength": 784
       }
     }
   }

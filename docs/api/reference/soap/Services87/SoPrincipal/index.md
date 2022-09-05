@@ -10,6 +10,8 @@ SOAP request and response examples, and WSDL files for **Remote/Services87/SoPri
 
 Handled by the <see cref="T:SuperOffice.Services87.ISoPrincipalAgent">SuperOffice.Services87.ISoPrincipalAgent</see> interface.
 
+
+
 Download [WSDL file for Services87/SoPrincipal](../Services87-SoPrincipal.md) if you need to generate your own proxy code.
 
 * [AuthenticateGeneric](AuthenticateGeneric.md)
@@ -17,3 +19,4 @@ Download [WSDL file for Services87/SoPrincipal](../Services87-SoPrincipal.md) if
 * [AuthenticateUsernamePassword](AuthenticateUsernamePassword.md)
 * [AuthenticateWithAccessToken](AuthenticateWithAccessToken.md)
 * [GetSystemInfo](GetSystemInfo.md)
+

@@ -6,14 +6,14 @@ so.generated: true
 keywords:
   - "database"
   - "form_submission"
-so.date: 04.12.2022
+so.date: 08.26.2022
 so.topic: reference
 so.envir:
   - "onsite"
   - "online"
 ---
 
-# form\_submission Table (479)
+# form\_submission Table (480)
 
 A form submission
 
@@ -31,6 +31,7 @@ A form submission
 |response|The JSON-formatted response from this form|Clob|&#x25CF;|
 |status|What is the status of this submission|Enum [FormSubmissionStatus](enums/formsubmissionstatus.md)| |
 |processing\_log|A log of what happened during processing|String(4000)|&#x25CF;|
+
 
 ![form_submission table relationship diagram](./media/form_submission.png)
 
@@ -56,6 +57,7 @@ A form submission
 |[s\_shipment\_addr](s-shipment-addr.md)  |Addresses that are ready to be sent in a shipment. |
 |[ticket](ticket.md)  |This table contains the tickets (requests) of the system. Its purpose should be evident. |
 
+
 ## Replication Flags
 
 * None
@@ -63,3 +65,4 @@ A form submission
 ## Security Flags
 
 * No access control via user's Role.
+

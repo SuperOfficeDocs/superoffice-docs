@@ -14,7 +14,9 @@ Implemented by the <see cref="M:SuperOffice.Services88.IDocumentAgent.CreateDefa
 Loading default values into a new DocumentPreview.
 NetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance
 
+
 **Returns:** New DocumentPreview with default values
+
 
 [WSDL file for Services88/Document](../Services88-Document.md)
 
@@ -47,6 +49,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## CreateDefaultDocumentPreview Response
 
 ```xml
@@ -72,3 +75,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

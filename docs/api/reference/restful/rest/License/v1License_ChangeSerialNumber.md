@@ -1,6 +1,6 @@
 ---
 title: POST License/ChangeSerialNumber
-id: v1License_ChangeSerialNumber
+uid: v1License_ChangeSerialNumber
 ---
 
 # POST License/ChangeSerialNumber
@@ -11,7 +11,13 @@ POST /api/v1/License/ChangeSerialNumber
 
 Change the new serial number for the installation.
 
+
 Requests a new license from SuperLicense, checks if change is authorized.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -21,9 +27,10 @@ Requests a new license from SuperLicense, checks if change is authorized.
 | newSerialNumber | string | **Required** New serial number to change to. |
 
 ```http
-POST /api/v1/License/ChangeSerialNumber?newCompanyName=Farrell, Torp and Wiza
-POST /api/v1/License/ChangeSerialNumber?newSerialNumber=362146
+POST /api/v1/License/ChangeSerialNumber?newCompanyName=Beer, Howe and Feest
+POST /api/v1/License/ChangeSerialNumber?newSerialNumber=1277826
 ```
+
 
 ## Request Headers
 
@@ -38,16 +45,16 @@ POST /api/v1/License/ChangeSerialNumber?newSerialNumber=362146
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response: object
 
-Carrier object for LicenseResult.
-Services for the LicenseResult Carrier is available from the <see cref="T:SuperOffice.CRM.Services.ILicenseAgent">License Agent</see>.
+## Response: 
+
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -56,7 +63,7 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/License/ChangeSerialNumber
@@ -65,6 +72,8 @@ Accept: application/json; charset=utf-8
 Accept-Language: en
 ```
 
+## Sample response
+
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
@@ -72,18 +81,12 @@ Content-Type: application/json; charset=utf-8
 {
   "Succeeded": false,
   "Reason": "",
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
+      "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 564
+      "FieldLength": 949
     }
   }
 }

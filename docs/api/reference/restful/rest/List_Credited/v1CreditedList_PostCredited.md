@@ -1,6 +1,6 @@
 ---
 title: POST List/Credited/Items
-id: v1CreditedList_PostCredited
+uid: v1CreditedList_PostCredited
 ---
 
 # POST List/Credited/Items
@@ -10,6 +10,13 @@ POST /api/v1/List/Credited/Items
 ```
 
 Add a new Credited to the list.
+
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -25,9 +32,9 @@ Add a new Credited to the list.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: newListItem
+## Request Body: newListItem  
 
-The Credited to be added to the list.
+The Credited to be added to the list. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -38,18 +45,16 @@ The Credited to be added to the list.
 | UdListDefinitionId | int32 | The id of the list which this list item belongs to |
 | Rank | int32 | The rank of the list item |
 
-## Response: object
 
-The list item entity contains generic list item information
+## Response: 
 
-Carrier object for ListItemEntity.
-Services for the ListItemEntity Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IListAgent">List Agent</see>.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -62,48 +67,44 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/List/Credited/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 757,
-  "Name": "Mayer Inc and Sons",
-  "Tooltip": "reprehenderit",
-  "Deleted": true,
-  "UdListDefinitionId": 708,
-  "Rank": 793
+  "Id": 644,
+  "Name": "Nikolaus, Morissette and Mohr",
+  "Tooltip": "dolorem",
+  "Deleted": false,
+  "UdListDefinitionId": 370,
+  "Rank": 852
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 796,
-  "Name": "Hyatt, Champlin and Wilkinson",
-  "Tooltip": "et",
-  "Deleted": true,
-  "UdListDefinitionId": 788,
-  "Rank": 867,
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "Id": 218,
+  "Name": "Lesch LLC",
+  "Tooltip": "perspiciatis",
+  "Deleted": false,
+  "UdListDefinitionId": 366,
+  "Rank": 783,
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
-      "FieldType": "System.String",
-      "FieldLength": 456
+      "FieldRight": null,
+      "FieldType": "System.Int32",
+      "FieldLength": 631
     }
   }
 }

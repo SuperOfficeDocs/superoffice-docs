@@ -1,6 +1,6 @@
 ---
 title: POST Agents/CRMScript/ValidateScriptByUniqueId
-id: v1CRMScriptAgent_ValidateScriptByUniqueId
+uid: v1CRMScriptAgent_ValidateScriptByUniqueId
 ---
 
 # POST Agents/CRMScript/ValidateScriptByUniqueId
@@ -11,9 +11,16 @@ POST /api/v1/Agents/CRMScript/ValidateScriptByUniqueId
 
 Validate a CRMScript.
 
+
 This will check that the syntax is correct
 
-## Online Restricted: ## The CRMScript agent is not available in Online by default. Access must be requested specifically when app is registered
+
+## Online Restricted: ## The CRMScript agent is not available in Online by default. Access must be requested specifically when app is registered.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -24,6 +31,7 @@ This will check that the syntax is correct
 ```http
 POST /api/v1/Agents/CRMScript/ValidateScriptByUniqueId?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -39,26 +47,24 @@ POST /api/v1/Agents/CRMScript/ValidateScriptByUniqueId?$select=name,department,c
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-CRMScriptUniqueId
+CRMScriptUniqueId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | CRMScriptUniqueId | string |  |
 
-## Response: object
 
-Object for returning information when validating a CRMScript
+## Response: 
 
-Carrier object for CRMScriptResult.
-Services for the CRMScriptResult Carrier is available from the <see cref="T:SuperOffice.CRM.Services.ICRMScriptAgent">CRMScript Agent</see>.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -67,19 +73,21 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/CRMScript/ValidateScriptByUniqueId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "CRMScriptUniqueId": "deleniti"
+  "CRMScriptUniqueId": "rerum"
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -87,19 +95,13 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Valid": false,
-  "ErrorMessage": "id",
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "ErrorMessage": "et",
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": "seize cutting-edge deliverables"
-      },
-      "FieldType": "System.String",
-      "FieldLength": 475
+      "FieldRight": null,
+      "FieldType": "System.Int32",
+      "FieldLength": 287
     }
   }
 }

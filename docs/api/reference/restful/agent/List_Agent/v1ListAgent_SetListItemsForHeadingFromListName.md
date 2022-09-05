@@ -1,6 +1,6 @@
 ---
 title: POST Agents/List/SetListItemsForHeadingFromListName
-id: v1ListAgent_SetListItemsForHeadingFromListName
+uid: v1ListAgent_SetListItemsForHeadingFromListName
 ---
 
 # POST Agents/List/SetListItemsForHeadingFromListName
@@ -10,6 +10,12 @@ POST /api/v1/Agents/List/SetListItemsForHeadingFromListName
 ```
 
 Update listItems under this heading
+
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -21,6 +27,7 @@ Update listItems under this heading
 POST /api/v1/Agents/List/SetListItemsForHeadingFromListName?$select=name,department,category/id
 ```
 
+
 ## Request Headers
 
 | Parameter Name | Description |
@@ -28,11 +35,12 @@ POST /api/v1/Agents/List/SetListItemsForHeadingFromListName?$select=name,departm
 | Authorization  | Supports 'Basic', 'SoTicket' and 'Bearer' schemes, depending on installation type. |
 | X-XSRF-TOKEN   | If not using Authorization header, you must provide XSRF value from cookie or hidden input field |
 | Content-Type | Content-type of the request body: `application/json`, `text/json`, `application/xml`, `text/xml`, `application/x-www-form-urlencoded`, `application/json-patch+json`, `application/merge-patch+json` |
+| Accept         | Content-type(s) you would like the response in:  |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-UdListDefinitionName, HeadingId, ListItemIds, Enable
+UdListDefinitionName, HeadingId, ListItemIds, Enable 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -41,8 +49,43 @@ UdListDefinitionName, HeadingId, ListItemIds, Enable
 | ListItemIds | array |  |
 | Enable | bool |  |
 
-## Response
+
+## Response: 
+
+No Content
 
 | Response | Description |
 |----------------|-------------|
 | 204 | No Content |
+
+Response body: 
+
+
+## Sample request
+
+```http!
+POST /api/v1/Agents/List/SetListItemsForHeadingFromListName
+Authorization: Basic dGplMDpUamUw
+Accept: application/json; charset=utf-8
+Accept-Language: sv
+Content-Type: application/json; charset=utf-8
+
+{
+  "UdListDefinitionName": "Abshire LLC",
+  "HeadingId": 801,
+  "ListItemIds": [
+    786,
+    582
+  ],
+  "Enable": true
+}
+```
+
+## Sample response
+
+```http_
+HTTP/1.1 204 No Content
+Content-Type: application/json; charset=utf-8
+
+null
+```

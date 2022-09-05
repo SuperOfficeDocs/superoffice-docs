@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Project/GetProjectEventList
-id: v1ProjectAgent_GetProjectEventList
+uid: v1ProjectAgent_GetProjectEventList
 ---
 
 # POST Agents/Project/GetProjectEventList
@@ -11,6 +11,12 @@ POST /api/v1/Agents/Project/GetProjectEventList
 
 Gets an array of ProjectEvent objects.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Gets an array of ProjectEvent objects.
 ```http
 POST /api/v1/Agents/Project/GetProjectEventList?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,11 +42,15 @@ POST /api/v1/Agents/Project/GetProjectEventList?$select=name,department,category
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: projectEventIds
+## Request Body: projectEventIds  
 
-The primary keys.
+The primary keys. 
+
+
 
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -74,14 +85,16 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Project/GetProjectEventList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -89,40 +102,34 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AssociateFullName": "Suzanne Beer",
-    "Description": "Managed heuristic migration",
-    "ProjectId": 384,
-    "EventName": "Hauck-Treutel",
-    "AssociateId": 31,
+    "AssociateFullName": "Mr. Kaitlyn Hammes PhD",
+    "Description": "Grass-roots reciprocal support",
+    "ProjectId": 73,
+    "EventName": "Kohler, Heidenreich and Moen",
+    "AssociateId": 925,
     "IsSignedOn": true,
-    "SignOffConfirmationText": "voluptatem",
-    "SignOffText": "quia",
-    "SignOnConfirmationText": "possimus",
-    "SignOnText": "modi",
-    "EventDate": "2014-12-05T18:28:49.7761391+01:00",
+    "SignOffConfirmationText": "eos",
+    "SignOffText": "quo",
+    "SignOnConfirmationText": "omnis",
+    "SignOnText": "molestiae",
+    "EventDate": "2007-01-16T11:10:27.6154549+01:00",
     "Enabled": false,
     "SignOff": true,
-    "SignOffTaskEnable": false,
+    "SignOffTaskEnable": true,
     "SignOnTaskEnable": false,
     "SignOn": false,
-    "SignOffTaskId": 695,
-    "SignOnTaskId": 70,
+    "SignOffTaskId": 897,
+    "SignOnTaskId": 214,
     "SignOffTriggersAssign": false,
     "SignOnTriggersAssign": true,
-    "SignOnPersonId": 438,
-    "SignOffPersonId": 892,
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "SignOnPersonId": 528,
+    "SignOffPersonId": 430,
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
+        "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 692
+        "FieldLength": 148
       }
     }
   }

@@ -1,6 +1,6 @@
 ---
 title: GET List/Position/Items/{id}/Headings
-id: v1PositionList_GetPositionHeadingsForListItem
+uid: v1PositionList_GetPositionHeadingsForListItem
 ---
 
 # GET List/Position/Items/{id}/Headings
@@ -11,11 +11,17 @@ GET /api/v1/List/Position/Items/{itemId}/Headings
 
 Gets headings for the Position list's item.
 
+
 Calls the List agent service GetHeadings.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | itemId | int32 | The ID of the headings to be get. **Required** |
+
 
 ## Query String Parameters
 
@@ -24,8 +30,9 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/Position/Items/{itemId}/Headings?showDeleted=True
+GET /api/v1/List/Position/Items/{itemId}/Headings?showDeleted=False
 ```
+
 
 ## Request Headers
 
@@ -40,7 +47,10 @@ GET /api/v1/List/Position/Items/{itemId}/Headings?showDeleted=True
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -68,14 +78,16 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 GET /api/v1/List/Position/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -83,65 +95,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 230,
-    "Name": "Runolfsdottir-Romaguera",
-    "ToolTip": "Quia minima accusantium atque sunt possimus.",
+    "Id": 99,
+    "Name": "Fritsch-Pfannerstill",
+    "ToolTip": "Nobis neque voluptatem.",
     "Deleted": true,
-    "Rank": 543,
-    "Type": "dolore",
-    "ColorBlock": 56,
-    "IconHint": "molestiae",
-    "Selected": true,
-    "LastChanged": "1998-08-12T18:25:51.9642454+02:00",
+    "Rank": 87,
+    "Type": "et",
+    "ColorBlock": 86,
+    "IconHint": "id",
+    "Selected": false,
+    "LastChanged": "2017-09-18T11:10:54.3779017+02:00",
     "ChildItems": [
       {
-        "Id": 552,
-        "Name": "Franecki Inc and Sons",
-        "ToolTip": "Qui fuga adipisci temporibus doloribus.",
+        "Id": 635,
+        "Name": "Will Inc and Sons",
+        "ToolTip": "Alias minus.",
         "Deleted": false,
-        "Rank": 84,
-        "Type": "ipsa",
-        "ColorBlock": 727,
-        "IconHint": "vel",
-        "Selected": true,
-        "LastChanged": "2002-02-18T18:25:51.9642454+01:00",
+        "Rank": 612,
+        "Type": "vel",
+        "ColorBlock": 420,
+        "IconHint": "porro",
+        "Selected": false,
+        "LastChanged": "2001-09-14T11:10:54.3779017+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "architecto",
-        "StyleHint": "possimus",
-        "Hidden": true,
-        "FullName": "Mrs. Letha Breitenberg",
-        "TableRight": {},
+        "ExtraInfo": "illum",
+        "StyleHint": "aspernatur",
+        "Hidden": false,
+        "FullName": "Mrs. Name Edythe Thiel Sr.",
+        "TableRight": null,
         "FieldProperties": {
           "fieldName": {
-            "FieldRight": {
-              "Mask": "FULL",
-              "Reason": ""
-            },
-            "FieldType": "System.Int32",
-            "FieldLength": 73
+            "FieldRight": null,
+            "FieldType": "System.String",
+            "FieldLength": 180
           }
         }
       }
     ],
-    "ExtraInfo": "autem",
-    "StyleHint": "tempora",
-    "Hidden": true,
-    "FullName": "Cesar Jast",
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": "enhance dot-com systems"
-    },
+    "ExtraInfo": "eaque",
+    "StyleHint": "quia",
+    "Hidden": false,
+    "FullName": "Nestor Pollich",
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 374
+        "FieldRight": null,
+        "FieldType": "System.Int32",
+        "FieldLength": 44
       }
     }
   }

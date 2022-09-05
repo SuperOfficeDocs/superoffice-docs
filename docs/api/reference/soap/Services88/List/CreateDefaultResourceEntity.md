@@ -14,7 +14,9 @@ Implemented by the <see cref="M:SuperOffice.Services88.IListAgent.CreateDefaultR
 Loading default values into a new ResourceEntity.
 NetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance
 
+
 **Returns:** New ResourceEntity with default values
+
 
 [WSDL file for Services88/List](../Services88-List.md)
 
@@ -47,6 +49,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## CreateDefaultResourceEntity Response
 
 ```xml
@@ -75,3 +78,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

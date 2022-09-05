@@ -17,6 +17,7 @@ Remove harmful HTML tags and attributes from an email
 
 **Returns:** The sanitized email contents
 
+
 [WSDL file for Services88/Ticket](../Services88-Ticket.md)
 
 Obtain a ticket from the [Services88/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -51,6 +52,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## SanitizeMailContents Response
 
 ```xml
@@ -73,3 +75,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

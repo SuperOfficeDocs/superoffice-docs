@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "selection"
-so.date: 04.12.2022
+so.date: 08.26.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -53,6 +53,7 @@ Selections
 |lastMembershipChange|The date/time the membership the selection last changed. Dynamic: change of criteria; Static: add/remove members; Combined: change of algorithm|DateTime|&#x25CF;|
 |lastMembershipChangeBy|Who last changed the membership|FK [associate](associate.md)|&#x25CF;|
 
+
 ![selection table relationship diagram](./media/selection.png)
 
 [!include[details](./includes/selection.md)]
@@ -84,6 +85,7 @@ Selections
 |[UserGroup](usergroup.md)  |Secondary user groups |
 |[VisibleFor](visiblefor.md)  |Visible for rights, who may see this appointment/document, sale,  salehist or selection |
 
+
 ## Replication Flags
 
 * None
@@ -92,3 +94,4 @@ Selections
 
 * Sentry controls access to items in this table using user's Role and data rights matrix.
 * Visibility controlled via matching [VisibleFor](VisibleFor.md) row.
+

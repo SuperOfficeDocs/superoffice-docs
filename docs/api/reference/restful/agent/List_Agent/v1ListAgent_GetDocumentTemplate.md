@@ -1,6 +1,6 @@
 ---
 title: POST Agents/List/GetDocumentTemplate
-id: v1ListAgent_GetDocumentTemplate
+uid: v1ListAgent_GetDocumentTemplate
 ---
 
 # POST Agents/List/GetDocumentTemplate
@@ -11,6 +11,12 @@ POST /api/v1/Agents/List/GetDocumentTemplate
 
 Gets a DocumentTemplate object.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -19,9 +25,10 @@ Gets a DocumentTemplate object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetDocumentTemplate?documentTemplateId=487
+POST /api/v1/Agents/List/GetDocumentTemplate?documentTemplateId=751
 POST /api/v1/Agents/List/GetDocumentTemplate?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -36,18 +43,16 @@ POST /api/v1/Agents/List/GetDocumentTemplate?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response: object
 
-The template a document is based on is stored in the SO_arc\template folder on the server. This will return the name as displayed in the GUI, and not the physical document name, of the template the document object is based on.
+## Response: 
 
-Carrier object for DocumentTemplate.
-Services for the DocumentTemplate Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IListAgent">List Agent</see>.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -65,43 +70,39 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/List/GetDocumentTemplate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 669,
-  "Name": "Ledner Inc and Sons",
-  "Tooltip": "suscipit",
-  "SaveInDb": 85,
-  "Filename": "ea",
-  "DefaultOref": "aliquid",
+  "DocumentTemplateId": 895,
+  "Name": "DuBuque, Buckridge and Metz",
+  "Tooltip": "dolor",
+  "SaveInDb": 333,
+  "Filename": "necessitatibus",
+  "DefaultOref": "voluptates",
   "RecordType": "Appointment",
-  "Deleted": 144,
+  "Deleted": 353,
   "Direction": "Incoming",
-  "AutoeventId": 806,
+  "AutoeventId": 518,
   "QuoteDocType": "ConfirmationLines",
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
+      "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 997
+      "FieldLength": 32
     }
   }
 }

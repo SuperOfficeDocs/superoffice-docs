@@ -11,7 +11,11 @@ Implemented by the <see cref="M:SuperOffice.Services84.IEMailAgent.GetEmailMessa
 
 ## GetEmailMessageIds
 
-* **connectionInfoExtended:**
+
+
+* **connectionInfoExtended:** 
+
+
 
 [WSDL file for Services84/EMail](../Services84-EMail.md)
 
@@ -53,6 +57,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## GetEmailMessageIds Response
 
 ```xml
@@ -75,3 +80,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Audience/GetAudienceLayoutEntity
-id: v1AudienceAgent_GetAudienceLayoutEntity
+uid: v1AudienceAgent_GetAudienceLayoutEntity
 ---
 
 # POST Agents/Audience/GetAudienceLayoutEntity
@@ -11,6 +11,12 @@ POST /api/v1/Agents/Audience/GetAudienceLayoutEntity
 
 Gets a AudienceLayoutEntity object.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -19,9 +25,10 @@ Gets a AudienceLayoutEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Audience/GetAudienceLayoutEntity?audienceLayoutEntityId=47
+POST /api/v1/Agents/Audience/GetAudienceLayoutEntity?audienceLayoutEntityId=991
 POST /api/v1/Agents/Audience/GetAudienceLayoutEntity?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -36,18 +43,16 @@ POST /api/v1/Agents/Audience/GetAudienceLayoutEntity?$select=name,department,cat
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response: object
 
-Audience layout. Each instance of Audience has at least one layout. The layout is connected to the instance by it's instance name or is linked to the currently logged on user. The web part layout and the Audience configuration parameters belongs to an Audience layout
+## Response: 
 
-Carrier object for AudienceLayoutEntity.
-Services for the AudienceLayoutEntity Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IAudienceAgent">Audience Agent</see>.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -61,87 +66,35 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Audience/GetAudienceLayoutEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AudienceLayoutId": 37,
-  "InstanceLayout": "eveniet",
-  "InstanceName": "Kuhic Inc and Sons",
-  "CreatedDate": "2000-08-11T18:28:48.1335463+02:00",
-  "UpdatedDate": "2012-02-21T18:28:48.1335463+01:00",
-  "CreatedBy": {
-    "AssociateId": 378,
-    "Name": "O'Reilly LLC",
-    "PersonId": 731,
-    "Rank": 916,
-    "Tooltip": "consequatur",
-    "Type": "AnonymousAssociate",
-    "GroupIdx": 785,
-    "FullName": "Lucy Fahey",
-    "FormalName": "Collier-Bechtelar",
-    "Deleted": true,
-    "EjUserId": 290,
-    "UserName": "Gutkowski, Haag and Sawayn",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.Int32",
-        "FieldLength": 935
-      }
-    }
-  },
-  "UpdatedBy": {
-    "AssociateId": 534,
-    "Name": "Vandervort-Skiles",
-    "PersonId": 836,
-    "Rank": 728,
-    "Tooltip": "exercitationem",
-    "Type": "AnonymousAssociate",
-    "GroupIdx": 183,
-    "FullName": "Loy Wunsch",
-    "FormalName": "DuBuque, Wisoky and Kuvalis",
-    "Deleted": false,
-    "EjUserId": 900,
-    "UserName": "Kerluke-McCullough",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 200
-      }
-    }
-  },
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "AudienceLayoutId": 498,
+  "InstanceLayout": "modi",
+  "InstanceName": "Champlin, Baumbach and Spencer",
+  "CreatedDate": "1998-05-26T11:10:26.008553+02:00",
+  "UpdatedDate": "2013-01-07T11:10:26.008553+01:00",
+  "CreatedBy": null,
+  "UpdatedBy": null,
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
-      "FieldType": "System.Int32",
-      "FieldLength": 672
+      "FieldRight": null,
+      "FieldType": "System.String",
+      "FieldLength": 900
     }
   }
 }

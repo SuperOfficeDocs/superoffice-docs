@@ -1,6 +1,6 @@
 ---
 title: POST Agents/List/GetHeadingsForListItemFromListName
-id: v1ListAgent_GetHeadingsForListItemFromListName
+uid: v1ListAgent_GetHeadingsForListItemFromListName
 ---
 
 # POST Agents/List/GetHeadingsForListItemFromListName
@@ -11,6 +11,12 @@ POST /api/v1/Agents/List/GetHeadingsForListItemFromListName
 
 Gets a selectable MDO list of the headings for this list item
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Gets a selectable MDO list of the headings for this list item
 ```http
 POST /api/v1/Agents/List/GetHeadingsForListItemFromListName?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,9 +42,9 @@ POST /api/v1/Agents/List/GetHeadingsForListItemFromListName?$select=name,departm
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-UdListDefinitionName, ListItemId, ShowDeleted
+UdListDefinitionName, ListItemId, ShowDeleted 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -45,7 +52,10 @@ UdListDefinitionName, ListItemId, ShowDeleted
 | ListItemId | int32 |  |
 | ShowDeleted | bool |  |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -73,21 +83,23 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/List/GetHeadingsForListItemFromListName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionName": "Miller, Keeling and Moen",
-  "ListItemId": 792,
+  "UdListDefinitionName": "Spinka-Vandervort",
+  "ListItemId": 793,
   "ShowDeleted": false
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -95,65 +107,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 519,
-    "Name": "Barton Inc and Sons",
-    "ToolTip": "Voluptas voluptatem est veniam sunt.",
-    "Deleted": true,
-    "Rank": 208,
-    "Type": "tempore",
-    "ColorBlock": 254,
-    "IconHint": "delectus",
-    "Selected": true,
-    "LastChanged": "1995-11-27T18:28:49.3200887+01:00",
+    "Id": 727,
+    "Name": "Schmidt, Huels and Reinger",
+    "ToolTip": "Enim quos omnis quia dicta earum et.",
+    "Deleted": false,
+    "Rank": 877,
+    "Type": "velit",
+    "ColorBlock": 593,
+    "IconHint": "ea",
+    "Selected": false,
+    "LastChanged": "2011-08-21T11:10:27.177453+02:00",
     "ChildItems": [
       {
-        "Id": 60,
-        "Name": "Jerde Group",
-        "ToolTip": "Harum aut.",
-        "Deleted": false,
-        "Rank": 69,
-        "Type": "non",
-        "ColorBlock": 642,
-        "IconHint": "non",
+        "Id": 621,
+        "Name": "Daugherty Inc and Sons",
+        "ToolTip": "Et nemo voluptas sint rerum quo perferendis explicabo.",
+        "Deleted": true,
+        "Rank": 437,
+        "Type": "eos",
+        "ColorBlock": 971,
+        "IconHint": "illo",
         "Selected": false,
-        "LastChanged": "2015-01-09T18:28:49.3211192+01:00",
+        "LastChanged": "2020-10-13T11:10:27.177453+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "corporis",
-        "StyleHint": "occaecati",
+        "ExtraInfo": "autem",
+        "StyleHint": "voluptas",
         "Hidden": true,
-        "FullName": "Mr. Rosamond Reinger",
-        "TableRight": {},
+        "FullName": "Prof. Jordon Gregory Lehner",
+        "TableRight": null,
         "FieldProperties": {
           "fieldName": {
-            "FieldRight": {
-              "Mask": "FULL",
-              "Reason": ""
-            },
+            "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 378
+            "FieldLength": 47
           }
         }
       }
     ],
-    "ExtraInfo": "debitis",
-    "StyleHint": "vel",
-    "Hidden": false,
-    "FullName": "Erika Braun",
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "ExtraInfo": "voluptatem",
+    "StyleHint": "quae",
+    "Hidden": true,
+    "FullName": "Hadley Predovic",
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 253
+        "FieldRight": null,
+        "FieldType": "System.Int32",
+        "FieldLength": 201
       }
     }
   }

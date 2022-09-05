@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Chat/CreateChatSessionForTopic
-id: v1ChatAgent_CreateChatSessionForTopic
+uid: v1ChatAgent_CreateChatSessionForTopic
 ---
 
 # POST Agents/Chat/CreateChatSessionForTopic
@@ -11,6 +11,12 @@ POST /api/v1/Agents/Chat/CreateChatSessionForTopic
 
 Create a new session on a chat topic
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Create a new session on a chat topic
 ```http
 POST /api/v1/Agents/Chat/CreateChatSessionForTopic?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,26 +42,24 @@ POST /api/v1/Agents/Chat/CreateChatSessionForTopic?$select=name,department,categ
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-ChatTopicId
+ChatTopicId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | ChatTopicId | int32 |  |
 
-## Response: object
 
-Chat sessions belong to a chat topic, and contain messages to/from users
+## Response: 
 
-Carrier object for ChatSessionEntity.
-Services for the ChatSessionEntity Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IChatAgent">Chat Agent</see>.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -88,335 +93,68 @@ Response body: object
 | Ticket |  | Ticket the session is connected to - could be empty if we don't know exactly. |
 | TransferTo |  | User agent that has a pending transfer of the chat session |
 | ChatbotIsActive | bool | Indicates that a chatbot is active on the session. This will cause bot triggers to fire. Set to 0 when bot hands off to user. |
+| Rating | int32 | Rating of this chat conversation given by the customer |
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Chat/CreateChatSessionForTopic
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatTopicId": 310
+  "ChatTopicId": 81
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 911,
-  "TopicId": 795,
-  "User": {
-    "AssociateId": 357,
-    "Name": "Gislason-Legros",
-    "PersonId": 475,
-    "Rank": 364,
-    "Tooltip": "accusantium",
-    "Type": "AnonymousAssociate",
-    "GroupIdx": 805,
-    "FullName": "Jovan Cartwright",
-    "FormalName": "Leffler, Larkin and Ondricka",
-    "Deleted": true,
-    "EjUserId": 324,
-    "UserName": "Koch-Littel",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 157
-      }
-    }
-  },
-  "Person": {
-    "Position": "nam",
-    "PersonId": 376,
-    "Mrmrs": "iusto",
-    "Firstname": "Keaton",
-    "Lastname": "Kulas",
-    "MiddleName": "Watsica, Morissette and Douglas",
-    "Title": "qui",
-    "Description": "Visionary multimedia synergy",
-    "Email": "carleton.jones@konopelski.name",
-    "FullName": "Mr. Kayli Harris",
-    "DirectPhone": "385-268-5038 x03782",
-    "FormalName": "Wintheiser-Hartmann",
-    "CountryId": 710,
-    "ContactId": 544,
-    "ContactName": "Abbott, Ernser and Legros",
-    "Retired": 266,
-    "Rank": 177,
-    "ActiveInterests": 985,
-    "ContactDepartment": "",
-    "ContactCountryId": 606,
-    "ContactOrgNr": "952174",
-    "FaxPhone": "1-312-247-2626 x71346",
-    "MobilePhone": "020.677.0360 x0485",
-    "ContactPhone": "(830)856-0110 x820",
-    "AssociateName": "Bruen Inc and Sons",
-    "AssociateId": 729,
-    "UsePersonAddress": true,
-    "ContactFax": "quae",
-    "Kanafname": "consequatur",
-    "Kanalname": "sunt",
-    "Post1": "inventore",
-    "Post2": "corrupti",
-    "Post3": "assumenda",
-    "EmailName": "percy_glover@parker.co.uk",
-    "ContactFullName": "Dr. Angie Veum",
-    "ActiveErpLinks": 632,
-    "TicketPriorityId": 869,
-    "SupportLanguageId": 517,
-    "SupportAssociateId": 57,
-    "CategoryName": "VIP Customer",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 328
-      }
-    }
-  },
-  "CustomerAlias": "quisquam",
-  "CustomerHost": "sed",
-  "CustomerName": "McGlynn-Zieme",
-  "CustomerEmail": "leonard@mertz.us",
-  "CustomerPhone": "563.370.4112",
-  "CustomerConsented": true,
-  "CustomerCompanyName": "Ernser Inc and Sons",
+  "ChatSessionId": 266,
+  "TopicId": 985,
+  "User": null,
+  "Person": null,
+  "CustomerAlias": "totam",
+  "CustomerHost": "voluptas",
+  "CustomerName": "Olson Group",
+  "CustomerEmail": "roberto_bruen@funk.biz",
+  "CustomerPhone": "741.627.1142 x4575",
+  "CustomerConsented": false,
+  "CustomerCompanyName": "Walter, Mosciski and O'Kon",
   "Status": "Closed",
-  "FirstMessage": "at",
-  "LastMessage": "dignissimos",
-  "WhenRequested": "2003-03-05T18:28:48.3896525+01:00",
-  "WhenStarted": "2019-11-17T18:28:48.3896525+01:00",
-  "WhenEnded": "2018-09-23T18:28:48.3896525+02:00",
-  "WhenIdle": "2017-10-04T18:28:48.3896525+02:00",
-  "WhenFetched": "2014-09-18T18:28:48.3896525+02:00",
-  "SessionKey": "enim",
-  "InitialQueuePos": 344,
-  "AlertLevel": 406,
-  "Rank": 292,
+  "FirstMessage": "harum",
+  "LastMessage": "et",
+  "WhenRequested": "2013-10-04T11:10:26.1865273+02:00",
+  "WhenStarted": "1997-11-13T11:10:26.1865273+01:00",
+  "WhenEnded": "2017-03-31T11:10:26.1865273+02:00",
+  "WhenIdle": "2000-12-28T11:10:26.1865273+01:00",
+  "WhenFetched": "2010-10-14T11:10:26.1865273+02:00",
+  "SessionKey": "deleniti",
+  "InitialQueuePos": 239,
+  "AlertLevel": 713,
+  "Rank": 351,
   "Flags": "CustomerIsTyping",
-  "Contact": {
-    "ContactId": 269,
-    "Name": "Gulgowski-Parker",
-    "OrgNr": "1224370",
-    "Department": "",
-    "URL": "http://www.example.com/",
-    "City": "dicta",
-    "DirectPhone": "553-713-6150",
-    "AssociateId": 747,
-    "CountryId": 305,
-    "EmailAddress": "luz.kuhlman@breitenbergharris.ca",
-    "Kananame": "beatae",
-    "EmailAddressName": "percival.vandervort@leuschke.name",
-    "URLName": "http://www.example.com/",
-    "AssociateFullName": "Gudrun Farrell",
-    "BusinessName": "Information Technology",
-    "CategoryName": "VIP Customer",
-    "CountryName": "Sokovia",
-    "Address": {},
-    "FormattedAddress": "laudantium",
-    "FullName": "Emanuel Collins",
-    "IsOwnerContact": false,
-    "ActiveErpLinks": 539,
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.Int32",
-        "FieldLength": 583
-      }
-    }
-  },
-  "Project": {
-    "ProjectId": 966,
-    "Name": "O'Conner-Marks",
-    "Description": "Managed object-oriented open architecture",
-    "URL": "http://www.example.com/",
-    "Type": "in",
-    "AssociateId": 450,
-    "AssociateFullName": "Pansy Nicolas",
-    "TypeId": 826,
-    "Updated": "2015-12-29T18:28:48.3906539+01:00",
-    "StatusId": 468,
-    "Status": "non",
-    "TextId": 922,
-    "PublishTo": "2016-03-02T18:28:48.3906539+01:00",
-    "PublishFrom": "2019-03-06T18:28:48.3906539+01:00",
-    "IsPublished": false,
-    "URLName": "http://www.example.com/",
-    "ProjectNumber": "1223191",
-    "ActiveErpLinks": 647,
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 615
-      }
-    }
-  },
-  "Sale": {
-    "ContactName": "Marquardt, Goyette and Nikolaus",
-    "SaleDate": "2016-01-28T18:28:48.3906539+01:00",
-    "SaleId": 50,
-    "Probability": 292,
-    "Title": "ut",
-    "Amount": 25009.32,
-    "Currency": "non",
-    "ProjectName": "Shanahan, Sauer and Murray",
-    "AssociateFullName": "Alyson Kuhlman",
-    "Description": "Up-sized dedicated encryption",
-    "Status": "Lost",
-    "WeightedAmount": 27472.644,
-    "ProjectId": 972,
-    "EarningPercent": 15118.416,
-    "Earning": 2033.966,
-    "ContactId": 926,
-    "AssociateId": 125,
-    "PersonId": 927,
-    "SaleTypeId": 616,
-    "SaleTypeName": "Reichel-Gerhold",
-    "PersonFullName": "Selena DuBuque",
-    "Completed": "Completed",
-    "ActiveErpLinks": 426,
-    "NextDueDate": "2000-09-02T18:28:48.3916525+02:00",
-    "Number": "1132166",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": "productize rich e-services"
-        },
-        "FieldType": "System.Int32",
-        "FieldLength": 916
-      }
-    }
-  },
-  "Ticket": {
-    "TicketId": 897,
-    "Title": "possimus",
-    "CreatedAt": "2000-05-17T18:28:48.3916525+02:00",
-    "LastChanged": "2020-07-23T18:28:48.3916525+02:00",
-    "ReadByOwner": "2011-12-25T18:28:48.3916525+01:00",
-    "ReadByCustomer": "2003-07-06T18:28:48.3916525+02:00",
-    "FirstReadByUser": "2013-07-07T18:28:48.3916525+02:00",
-    "Activate": "2010-11-02T18:28:48.3916525+01:00",
-    "ClosedAt": "2003-07-20T18:28:48.3916525+02:00",
-    "RepliedAt": "2001-11-26T18:28:48.3916525+01:00",
-    "AlertTimeout": "1994-12-19T18:28:48.3916525+01:00",
-    "Deadline": "2011-11-18T18:28:48.3916525+01:00",
-    "CreatedBy": 138,
-    "CreatedByName": "Denesik LLC",
-    "Author": "excepturi",
-    "OwnedBy": 225,
-    "OwnedByName": "Jones, Lehner and Mueller",
-    "Category": 716,
-    "CategoryName": "VIP Customer",
-    "CategoryFullname": "VIP Customer",
-    "Slevel": "External",
-    "Priority": 46,
-    "PriorityName": "Collins Group",
-    "BaseStatus": "Active",
-    "TicketStatus": 157,
-    "TicketStatusDisplayValue": "aut",
-    "Origin": "AutoGenerated",
-    "CustId": 959,
-    "PersonFirstname": "Russell",
-    "PersonMiddleName": "Osinski-Treutel",
-    "PersonLastname": "Waters",
-    "PersonFullname": "et",
-    "AlertLevel": 477,
-    "ConnectId": 695,
-    "ReadStatus": "Green",
-    "TimeToReply": 561,
-    "RealTimeToReply": 72,
-    "TimeToClose": 225,
-    "RealTimeToClose": 949,
-    "TimeSpentInternally": 445,
-    "TimeSpentExternally": 511,
-    "TimeSpentQueue": 816,
-    "RealTimeSpentInternally": 852,
-    "RealTimeSpentExternally": 11,
-    "RealTimeSpentQueue": 472,
-    "HasAttachment": true,
-    "NumReplies": 136,
-    "NumMessages": 73,
-    "FromAddress": "voluptatem",
-    "ContactId": 637,
-    "ContactName": "Kshlerin Group",
-    "OwnedByAssociateId": 577,
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 87
-      }
-    }
-  },
-  "TransferTo": {
-    "AssociateId": 329,
-    "Name": "Schumm, Morar and Greenfelder",
-    "PersonId": 336,
-    "Rank": 625,
-    "Tooltip": "non",
-    "Type": "AnonymousAssociate",
-    "GroupIdx": 438,
-    "FullName": "Ransom Dibbert",
-    "FormalName": "Koelpin-Hayes",
-    "Deleted": true,
-    "EjUserId": 2,
-    "UserName": "Leannon, Reichert and McLaughlin",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.Int32",
-        "FieldLength": 400
-      }
-    }
-  },
+  "Contact": null,
+  "Project": null,
+  "Sale": null,
+  "Ticket": null,
+  "TransferTo": null,
   "ChatbotIsActive": true,
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": "extend sticky initiatives"
-  },
+  "Rating": 232,
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
-      "FieldType": "System.String",
-      "FieldLength": 693
+      "FieldRight": null,
+      "FieldType": "System.Int32",
+      "FieldLength": 766
     }
   }
 }

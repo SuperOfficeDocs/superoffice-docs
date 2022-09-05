@@ -14,7 +14,9 @@ Implemented by the <see cref="M:SuperOffice.Services88.IChatAgent.CreateDefaultC
 Loading default values into a new ChatTopicAgent.
 NetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance
 
+
 **Returns:** New ChatTopicAgent with default values
+
 
 [WSDL file for Services88/Chat](../Services88-Chat.md)
 
@@ -46,6 +48,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+
 
 ## CreateDefaultChatTopicAgent Response
 
@@ -87,3 +90,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

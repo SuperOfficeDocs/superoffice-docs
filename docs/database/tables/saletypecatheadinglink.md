@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "SaleTypeCatHeadingLink"
-so.date: 04.12.2022
+so.date: 08.26.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -30,6 +30,7 @@ Heading link table for SaleTypeCat, for MDO headers
 |updated\_associate\_id|Last updated by whom|FK [associate](associate.md)| |
 |updatedCount|Number of updates made to this record|UShort| |
 
+
 ![SaleTypeCatHeadingLink table relationship diagram](./media/SaleTypeCatHeadingLink.png)
 
 [!include[details](./includes/saletypecatheadinglink.md)]
@@ -50,6 +51,7 @@ Heading link table for SaleTypeCat, for MDO headers
 |[Heading](heading.md)  |Heading items for all MDO lists, lists that are grouped and filtered. |
 |[SaleTypeCat](saletypecat.md)  |Category for sale type |
 
+
 ## Replication Flags
 
 * Replicate changes DOWN from central to satellites and travellers.
@@ -59,3 +61,4 @@ Heading link table for SaleTypeCat, for MDO headers
 ## Security Flags
 
 * No access control via user's Role.
+

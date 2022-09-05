@@ -12,7 +12,7 @@ Implemented by the <see cref="M:SuperOffice.Services88.IEMailAgent.GetUnsanitize
 ## GetUnsanitizedPreviewAttachmentFromId
 
 Retrieve an attachment from an e-mail. The returned data is intended to be use for a preview. The returned data is not sanitized.
-<br />**Online Restricted:** The EMail agent is not available in Online by default. Access must be requested specifically when app is registered.
+<para /><b>Online Restricted:</b> The EMail agent is not available in Online by default. Access must be requested specifically when app is registered.
 
 * **mailItemId:** Unique ID for the e-mail to retrieve the attachment from
 * **attachmentId:** Id of the attachment in the e-mail
@@ -20,6 +20,7 @@ Retrieve an attachment from an e-mail. The returned data is intended to be use f
 * **attachmentFilename:** Filename of the attachment. Must be set if attachmentId contains a chain.
 
 **Returns:** The attachment
+
 
 [WSDL file for Services88/EMail](../Services88-EMail.md)
 
@@ -56,6 +57,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## GetUnsanitizedPreviewAttachmentFromId Response
 
 ```xml
@@ -85,3 +87,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

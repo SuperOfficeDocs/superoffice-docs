@@ -18,6 +18,7 @@ Return information about the given user defined field identified by the owner an
 
 **Returns:** Returns the user-defined field info carrier, or null if no matching field is found.
 
+
 [WSDL file for Services88/UserDefinedFieldInfo](../Services88-UserDefinedFieldInfo.md)
 
 Obtain a ticket from the [Services88/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -50,6 +51,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+
 
 ## GetPublishedUserDefinedFieldFromFieldLabel Response
 
@@ -106,3 +108,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

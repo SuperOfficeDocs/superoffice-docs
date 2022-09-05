@@ -8,7 +8,7 @@ keywords:
   - "archive provider"
   - "SaleHistory"
 so.generated: true
-so.date: 03.23.2021
+so.date: 08.26.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -24,17 +24,17 @@ Sale histories. Contains all changes to the sale records over time.
 ## Supported Entities
 
 | Name | Description |
-| ---- | ----- |
+| ---- | ----------- |
 |"sale"|Sale|
 
 ## Supported Columns
 
-| Name | Restriction | Description | OrderBy
-| ---- | ----- | ------- | ------ |
+| Name | Restriction | Description | OrderBy |
+| ---- | ----------- | ----------- | ------- |
 |getAllRows|bool|GetAll: Get all rows of archive - use with care, you may be fetching the whole database|  |
 |getNoRows|bool|GetNone: Do not get any rows from the archive|  |
 |completed|bool|Completed: Displays a checkbox showing if an appointment is completed| x |
-|icon| *None* |Category: Displays the icon for an activity type| x |
+|icon|string|Category: Displays the icon for an activity type| x |
 |date|date|Date: Displays start date of a follow-up / sale date of a sale| x |
 |time| *None* |Time: Time|  |
 |type|listAny|Type: Displays the type of an activity| x |
@@ -48,8 +48,10 @@ Sale histories. Contains all changes to the sale records over time.
 |userGroup|userGroup|User group : The user group that owns the record| x |
 |who| *None* |Who: Contact and/or company|  |
 |updatedBy|associate|Updated by: The user who last updated the data| x |
+|updatedByFullName|associate|Updated by - Full name: The user who last updated the data| x |
 |updatedDate|date|Updated: The date/time the data was last updated in UTC.| x |
 |registeredBy|associate|Registered by: The user who registered the data| x |
+|registeredByFullName|associate|Registered by - Full name: The user who registered the data| x |
 |registeredDate|date|Registered date: The date/time the data was registered in UTC.| x |
 |currencyId|int|Currency ID: The currency list item ID| x |
 |currency|listAny|Currency: The currency of the sale| x |
@@ -116,6 +118,7 @@ Sale histories. Contains all changes to the sale records over time.
 |person/personNumber|string|Number: Displays the contact's number| x |
 |person/title|string|Title: Displays the contact's job title| x |
 |person/personCountry|listAny|Country: Country| x |
+|person/personCountryId|int|Country ID: Country ID| x |
 |person/personNoMail|bool|No Mailings: Displays the contact's No Mailings checkbox| x |
 |person/rank|int|Rank: Displays a contact's current rank| x |
 |person/birthdate| *None* |Birthdate: Displays the contact's date of birth|  |
@@ -129,15 +132,19 @@ Sale histories. Contains all changes to the sale records over time.
 |person/kanaFirstName|string|First name, kana: Contact's first name, in kana alphabet| x |
 |person/kanaLastName|string|Last name, kana: Contact's last name, in kana alphabet| x |
 |person/personUpdatedBy|associate|Updated by: The user who last updated the data| x |
+|person/personUpdatedByFullName|associate|Updated by - Full name: The user who last updated the data| x |
 |person/personUpdatedDate|date|Updated: The date/time the data was last updated in UTC.| x |
 |person/personRegisteredBy|associate|Registered by: The user who registered the data| x |
+|person/personRegisteredByFullName|associate|Registered by - Full name: The user who registered the data| x |
 |person/personRegisteredDate|date|Registered date: The date/time the data was registered in UTC.| x |
 |person/portraitThumbnail| *None* |Person image: Person image|  |
 |person/personActiveErpLinks|bool|ERP connected: Is there an active ERP Sync?| x |
 |person/ticketPriority|listAny|Service priority: Default service priority for this contact| x |
 |person/supportLanguage|listAny|Preferred language: Preferred language used for reply templates and more| x |
 |person/supportAssociate|associate|Our service contact: Default service contact for this contact| x |
+|person/supportAssociateFullName|associate|Our service contact - Full name: Default service contact for this contact| x |
 |person/personAssociateId|associate|Our contact: Displays our contact| x |
+|person/personAssociateFullName|associate|Our contact - Full name: Displays our contact| x |
 |person/personCategory|listAny|Category| x |
 |person/personBusiness|listAny|Business| x |
 |person/personDeletedDate|datetime|Deleted date: Deleted date|  |
@@ -154,14 +161,17 @@ Sale histories. Contains all changes to the sale records over time.
 |contact/category|listAny|Category| x |
 |contact/business|listAny|Business| x |
 |contact/country|listAny|Country: This criterion corresponds to the Country field on the Company card.| x |
+|contact/countryId|int|Country ID: Country ID| x |
 |contact/number|string|Number| x |
 |contact/code|string|Code| x |
 |contact/orgnr|string|VAT No.| x |
 |contact/stop|bool|Stop| x |
 |contact/contactNoMail|bool|No mailings (company| x |
 |contact/updatedBy|associate|Updated by: The user who last updated the data| x |
+|contact/updatedByFullName|associate|Updated by - Full name: The user who last updated the data| x |
 |contact/updatedDate|date|Updated: The date/time the data was last updated in UTC.| x |
 |contact/registeredBy|associate|Registered by: The user who registered the data| x |
+|contact/registeredByFullName|associate|Registered by - Full name: The user who registered the data| x |
 |contact/registeredDate|date|Registered date: The date/time the data was registered in UTC.| x |
 |contact/contactSource|listAny|Source: Source (Company)| x |
 |contact/contactDeleted|bool|Deleted: Deleted| x |
@@ -174,14 +184,17 @@ Sale histories. Contains all changes to the sale records over time.
 |project/number|string|Number: Displays the project's number| x |
 |project/type|listAny|Project type: Displays the project's type| x |
 |project/status|listAny|Status: Displays the project's status| x |
+|project/statusRank| *None* |Status rank: Rank of the project status in the status list| x |
 |project/associateId|associate|ID: Displays login ID of the associate who owns the project| x |
 |project/hasInfoText|bool|Info: Displays an icon indicating if the project has a description text. The text itself will be displayed in a tooltip.| x |
 |project/icon| *None* |Category: Displays the icon for an activity type| x |
 |project/text|string|Text: Displays a descriptive text for the item| x |
 |project/description|string|Description : Description| x |
 |project/updatedBy|associate|Updated by: The user who last updated the data| x |
+|project/updatedByFullName|associate|Updated by - Full name: The user who last updated the data| x |
 |project/updatedDate|date|Updated: The date/time the data was last updated in UTC.| x |
 |project/registeredBy|associate|Registered by: The user who registered the data| x |
+|project/registeredByFullName|associate|Registered by - Full name: The user who registered the data| x |
 |project/registeredDate|date|Registered date: The date/time the data was registered in UTC.| x |
 |project/hasGuide|bool|Guided: Does this sale have a Sales Guide| x |
 |project/nextMilestone|date|Next milestone: Date of next non-completed activity that is marked as a milestone| x |
@@ -194,11 +207,14 @@ Sale histories. Contains all changes to the sale records over time.
 ## Sample
 
 ```http!
-GET /api/v1/archive/SaleHistory?$select=associate/contactFullName,person/personHasInterests
+GET /api/v1/archive/SaleHistory?$select=updatedByFullName,associate/role,person/personCountry
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv
 
 ```
 
-See also: <see cref="T:SuperOffice.CRM.Services.IArchiveAgent">IArchiveAgent</see>.
+
+
+See also: <see cref="T:SuperOffice.CRM.Services.IArchiveAgent">IArchiveAgent</see>.</p>
+

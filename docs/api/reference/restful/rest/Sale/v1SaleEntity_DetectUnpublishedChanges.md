@@ -1,6 +1,6 @@
 ---
 title: GET Sale/UdefLayout/Changed
-id: v1SaleEntity_DetectUnpublishedChanges
+uid: v1SaleEntity_DetectUnpublishedChanges
 ---
 
 # GET Sale/UdefLayout/Changed
@@ -11,7 +11,13 @@ GET /api/v1/Sale/UdefLayout/Changed
 
 Is the UDef Layout changed? This may or may not involve moving data (which takes longer).
 
+
 True if the SaleEntity user-defined field layout has been changed.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -20,8 +26,9 @@ True if the SaleEntity user-defined field layout has been changed.
 | columnChangesOnly | bool |  True: Check if we need to move data.  Default/False: Check if layout has changed. |
 
 ```http
-GET /api/v1/Sale/UdefLayout/Changed?columnChangesOnly=True
+GET /api/v1/Sale/UdefLayout/Changed?columnChangesOnly=False
 ```
+
 
 ## Request Headers
 
@@ -36,7 +43,10 @@ GET /api/v1/Sale/UdefLayout/Changed?columnChangesOnly=True
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
+
 ## Response: bool
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -44,7 +54,8 @@ GET /api/v1/Sale/UdefLayout/Changed?columnChangesOnly=True
 
 Response body: bool
 
-## Sample Request
+
+## Sample request
 
 ```http!
 GET /api/v1/Sale/UdefLayout/Changed
@@ -53,9 +64,11 @@ Accept: application/json; charset=utf-8
 Accept-Language: *
 ```
 
+## Sample response
+
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-true
+false
 ```

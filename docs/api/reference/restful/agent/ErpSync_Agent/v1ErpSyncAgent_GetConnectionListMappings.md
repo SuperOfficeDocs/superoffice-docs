@@ -1,6 +1,6 @@
 ---
 title: POST Agents/ErpSync/GetConnectionListMappings
-id: v1ErpSyncAgent_GetConnectionListMappings
+uid: v1ErpSyncAgent_GetConnectionListMappings
 ---
 
 # POST Agents/ErpSync/GetConnectionListMappings
@@ -11,7 +11,15 @@ POST /api/v1/Agents/ErpSync/GetConnectionListMappings
 
 Returns the listmappings for the specified connection.
 
-## Online Restricted: ## The ErpSync agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for ERP integration apps
+
+
+
+## Online Restricted: ## The ErpSync agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for ERP integration apps.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +30,7 @@ Returns the listmappings for the specified connection.
 ```http
 POST /api/v1/Agents/ErpSync/GetConnectionListMappings?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,26 +46,24 @@ POST /api/v1/Agents/ErpSync/GetConnectionListMappings?$select=name,department,ca
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-ErpConnectionId
+ErpConnectionId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | ErpConnectionId | int32 |  |
 
-## Response: object
 
-Information about all list connections for a connection between CRM and the ERP system.
+## Response: 
 
-Carrier object for ErpConnectionListMappingContainer.
-Services for the ErpConnectionListMappingContainer Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IErpSyncAgent">ErpSync Agent</see>.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -66,19 +73,21 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/ErpSync/GetConnectionListMappings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 977
+  "ErpConnectionId": 349
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -87,41 +96,32 @@ Content-Type: application/json; charset=utf-8
 {
   "ErpListItemMappings": [
     {
-      "CrmList": {},
-      "ErpListName": "Howell Group",
+      "CrmList": null,
+      "ErpListName": "Miller Group",
       "ErpCrmListItemMappings": [
         {},
         {}
       ],
-      "ErpActorTypeName": "Murazik Inc and Sons",
-      "ErpFieldId": 748,
-      "TableRight": {},
+      "ErpActorTypeName": "Stehr-Friesen",
+      "ErpFieldId": 104,
+      "TableRight": null,
       "FieldProperties": {
         "fieldName": {
-          "FieldRight": {
-            "Mask": "FULL",
-            "Reason": ""
-          },
+          "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 770
+          "FieldLength": 59
         }
       }
     }
   ],
-  "ErpConnectionId": 431,
-  "ErpConnectionName": "Blanda-Kautzer",
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "ErpConnectionId": 521,
+  "ErpConnectionName": "Mante Group",
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
-      "FieldType": "System.String",
-      "FieldLength": 128
+      "FieldRight": null,
+      "FieldType": "System.Int32",
+      "FieldLength": 838
     }
   }
 }

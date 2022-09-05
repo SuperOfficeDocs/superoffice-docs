@@ -16,6 +16,8 @@ Find users matching the partial name.
 * **type:** Type of credentials, corresponding to name of plugin and type in the credentials table.
 * **searchString:** Partly name of the user group
 
+
+
 [WSDL file for Services85/User](../Services85-User.md)
 
 Obtain a ticket from the [Services85/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -48,6 +50,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+
 
 ## FindCredentialUsers Response
 
@@ -83,3 +86,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

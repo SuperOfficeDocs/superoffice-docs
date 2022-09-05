@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "doc_document"
-so.date: 04.12.2022
+so.date: 08.26.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -34,6 +34,7 @@ This table contains documents.
 |description|A descriptive text for the document|Clob|&#x25CF;|
 |id\_string|A field for an id_string which may be used to access the document|String(255)| |
 
+
 ![doc_document table relationship diagram](./media/doc_document.png)
 
 [!include[details](./includes/doc-document.md)]
@@ -57,6 +58,7 @@ This table contains documents.
 |[doc\_folder](doc-folder.md)  |A document folder. |
 |[ejuser](ejuser.md)  |This table contains entries for the users of the system. |
 
+
 ## Replication Flags
 
 * None
@@ -64,3 +66,4 @@ This table contains documents.
 ## Security Flags
 
 * No access control via user's Role.
+

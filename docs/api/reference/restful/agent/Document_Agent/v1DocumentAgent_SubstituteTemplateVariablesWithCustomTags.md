@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Document/SubstituteTemplateVariablesWithCustomTags
-id: v1DocumentAgent_SubstituteTemplateVariablesWithCustomTags
+uid: v1DocumentAgent_SubstituteTemplateVariablesWithCustomTags
 ---
 
 # POST Agents/Document/SubstituteTemplateVariablesWithCustomTags
@@ -11,7 +11,13 @@ POST /api/v1/Agents/Document/SubstituteTemplateVariablesWithCustomTags
 
 Parse the source string, and replace any template variable tags with their values, based on the ID's given in the other parameters.
 
-This method also takes a pair of arrays specifying custom tags and their values; these tags will be available during substitution in addition to all the existing tags. Custom values will override values otherwise set.
+
+&lt;p/&gt;This method also takes a pair of arrays specifying custom tags and their values; these tags will be available during substitution in addition to all the existing tags. Custom values will override values otherwise set.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +28,7 @@ This method also takes a pair of arrays specifying custom tags and their values;
 ```http
 POST /api/v1/Agents/Document/SubstituteTemplateVariablesWithCustomTags?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,9 +44,9 @@ POST /api/v1/Agents/Document/SubstituteTemplateVariablesWithCustomTags?$select=n
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-Source, GeneratorEncoding, CustomTags, CustomValues, ContactId, PersonId, AppointmentId, DocumentId, SaleId, SelectionId, ProjectId, CultureName
+Source, GeneratorEncoding, CustomTags, CustomValues, ContactId, PersonId, AppointmentId, DocumentId, SaleId, SelectionId, ProjectId, CultureName 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -56,7 +63,10 @@ Source, GeneratorEncoding, CustomTags, CustomValues, ContactId, PersonId, Appoin
 | ProjectId | int32 |  |
 | CultureName | string |  |
 
+
 ## Response: string
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -64,7 +74,8 @@ Source, GeneratorEncoding, CustomTags, CustomValues, ContactId, PersonId, Appoin
 
 Response body: string
 
-## Sample Request
+
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Document/SubstituteTemplateVariablesWithCustomTags
@@ -74,30 +85,32 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Source": "aspernatur",
+  "Source": "placeat",
   "GeneratorEncoding": "Html",
   "CustomTags": [
-    "magnam",
-    "aut"
+    "maiores",
+    "eveniet"
   ],
   "CustomValues": [
-    "possimus",
-    "doloribus"
+    "nemo",
+    "laborum"
   ],
-  "ContactId": 130,
-  "PersonId": 335,
-  "AppointmentId": 504,
-  "DocumentId": 236,
-  "SaleId": 647,
-  "SelectionId": 291,
-  "ProjectId": 63,
-  "CultureName": "en"
+  "ContactId": 758,
+  "PersonId": 966,
+  "AppointmentId": 549,
+  "DocumentId": 237,
+  "SaleId": 319,
+  "SelectionId": 227,
+  "ProjectId": 47,
+  "CultureName": "sv"
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"doloremque"
+"commodi"
 ```

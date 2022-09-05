@@ -1,6 +1,6 @@
 ---
 title: POST List/Priority/Items
-id: v1PriorityList_PostPriority
+uid: v1PriorityList_PostPriority
 ---
 
 # POST List/Priority/Items
@@ -10,6 +10,13 @@ POST /api/v1/List/Priority/Items
 ```
 
 Add a new Priority to the list.
+
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -25,9 +32,9 @@ Add a new Priority to the list.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: newListItem
+## Request Body: newListItem  
 
-The Priority to be added to the list.
+The Priority to be added to the list. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -38,18 +45,16 @@ The Priority to be added to the list.
 | UdListDefinitionId | int32 | The id of the list which this list item belongs to |
 | Rank | int32 | The rank of the list item |
 
-## Response: object
 
-The list item entity contains generic list item information
+## Response: 
 
-Carrier object for ListItemEntity.
-Services for the ListItemEntity Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IListAgent">List Agent</see>.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -62,7 +67,7 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/List/Priority/Items
@@ -72,38 +77,34 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 722,
-  "Name": "Kiehn-Gleichner",
-  "Tooltip": "suscipit",
-  "Deleted": true,
-  "UdListDefinitionId": 628,
-  "Rank": 14
+  "Id": 262,
+  "Name": "Kshlerin, Beier and Kuvalis",
+  "Tooltip": "quam",
+  "Deleted": false,
+  "UdListDefinitionId": 496,
+  "Rank": 512
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 629,
-  "Name": "Ratke, Beatty and Schaden",
-  "Tooltip": "sit",
-  "Deleted": true,
-  "UdListDefinitionId": 632,
-  "Rank": 882,
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": "implement best-of-breed bandwidth"
-  },
+  "Id": 317,
+  "Name": "Lueilwitz-Ward",
+  "Tooltip": "distinctio",
+  "Deleted": false,
+  "UdListDefinitionId": 577,
+  "Rank": 73,
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
-      "FieldType": "System.String",
-      "FieldLength": 255
+      "FieldRight": null,
+      "FieldType": "System.Int32",
+      "FieldLength": 400
     }
   }
 }

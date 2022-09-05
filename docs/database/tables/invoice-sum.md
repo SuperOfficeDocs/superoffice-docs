@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "invoice_sum"
-so.date: 04.12.2022
+so.date: 08.26.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -27,6 +27,7 @@ This table is used temporarily when listing invoice statistics. It is used becau
 |customer\_id|The reference of the customer entry this entry is connected to. NULL or -1 if not connected.|FK [person](person.md)| |
 |company\_id|The reference of the company entry this entry is connected to. NULL or -1 if not connected.|FK [contact](contact.md)| |
 |balance|The balance for the given customer or company.|Int|&#x25CF;|
+
 
 ![invoice_sum table relationship diagram](./media/invoice_sum.png)
 
@@ -49,6 +50,7 @@ This table is used temporarily when listing invoice statistics. It is used becau
 |[login](login.md)  |This table contains entries for the user sessions.  |
 |[person](person.md)  |Persons in a company or an organizations. All associates have a corresponding person record |
 
+
 ## Replication Flags
 
 * None
@@ -56,3 +58,4 @@ This table is used temporarily when listing invoice statistics. It is used becau
 ## Security Flags
 
 * No access control via user's Role.
+

@@ -13,7 +13,9 @@ Implemented by the <see cref="M:SuperOffice.Services86.IListAgent.GetOurCurrency
 
 Gets the Our currency object if currency is enabled
 
+
 **Returns:** Our currency
+
 
 [WSDL file for Services86/List](../Services86-List.md)
 
@@ -46,6 +48,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## GetOurCurrency Response
 
 ```xml
@@ -70,3 +73,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Selection/CreateContactSelectionFromSelection
-id: v1SelectionAgent_CreateContactSelectionFromSelection
+uid: v1SelectionAgent_CreateContactSelectionFromSelection
 ---
 
 # POST Agents/Selection/CreateContactSelectionFromSelection
@@ -11,6 +11,12 @@ POST /api/v1/Agents/Selection/CreateContactSelectionFromSelection
 
 Creates a new selection based on selection members from an existing selection.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Creates a new selection based on selection members from an existing selection.
 ```http
 POST /api/v1/Agents/Selection/CreateContactSelectionFromSelection?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,9 +42,9 @@ POST /api/v1/Agents/Selection/CreateContactSelectionFromSelection?$select=name,d
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-SelectionId, Name, TargetSelectionType, CopyMembers
+SelectionId, Name, TargetSelectionType, CopyMembers 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -46,16 +53,16 @@ SelectionId, Name, TargetSelectionType, CopyMembers
 | TargetSelectionType | string |  |
 | CopyMembers | bool |  |
 
-## Response: object
 
-Carrier object for SelectionEntity.
-Services for the SelectionEntity Carrier is available from the <see cref="T:SuperOffice.CRM.Services.ISelectionAgent">Selection Agent</see>.
+## Response: 
+
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -64,7 +71,7 @@ Response body: object
 | Associate |  | Owner of the selection |
 | CreatedBy |  | Who created the selection |
 | UpdatedBy |  | Who last modified the selection |
-| SelectionCategory |  | Selection category type (list item)  <br />Use MDO List name "searchCat" to get list items. |
+| SelectionCategory |  | Selection category type (list item)  <para>Use MDO List name "searchCat" to get list items.</para> |
 | GroupIdx | int32 | Original primary user group of associate |
 | IncludePerson | int32 | 0 = Include first person, 1 = Include all persons, 2 = Include no persons |
 | MemberCount | int32 | How many selectionmembers (for progress bar calculations) - estimate, -1 (or 4294967295) means we don't know |
@@ -103,249 +110,104 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Selection/CreateContactSelectionFromSelection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 187,
-  "Name": "Kling, Zieme and Bayer",
+  "SelectionId": 570,
+  "Name": "Crona, Davis and Mante",
   "TargetSelectionType": "Combined",
-  "CopyMembers": true
+  "CopyMembers": false
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Extended dedicated algorithm",
-  "Postit": "nesciunt",
-  "Associate": {
-    "AssociateId": 576,
-    "Name": "Kris-O'Hara",
-    "PersonId": 762,
-    "Rank": 356,
-    "Tooltip": "vero",
-    "Type": "AnonymousAssociate",
-    "GroupIdx": 173,
-    "FullName": "Janae Reichel",
-    "FormalName": "Kilback-Kuhlman",
-    "Deleted": true,
-    "EjUserId": 220,
-    "UserName": "Zemlak, Grimes and Hartmann",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 318
-      }
-    }
-  },
-  "CreatedBy": {
-    "AssociateId": 819,
-    "Name": "Mills Group",
-    "PersonId": 587,
-    "Rank": 275,
-    "Tooltip": "aut",
-    "Type": "AnonymousAssociate",
-    "GroupIdx": 148,
-    "FullName": "Daron Hahn",
-    "FormalName": "King Group",
-    "Deleted": false,
-    "EjUserId": 84,
-    "UserName": "Zieme-Rau",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.Int32",
-        "FieldLength": 924
-      }
-    }
-  },
-  "UpdatedBy": {
-    "AssociateId": 34,
-    "Name": "Hauck Group",
-    "PersonId": 242,
-    "Rank": 532,
-    "Tooltip": "aut",
-    "Type": "AnonymousAssociate",
-    "GroupIdx": 538,
-    "FullName": "Deondre Eichmann",
-    "FormalName": "Kunze-Lockman",
-    "Deleted": false,
-    "EjUserId": 512,
-    "UserName": "Sipes Inc and Sons",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 300
-      }
-    }
-  },
-  "SelectionCategory": {
-    "Id": 416,
-    "Value": "nobis",
-    "Tooltip": "animi",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 55
-      }
-    }
-  },
-  "GroupIdx": 554,
-  "IncludePerson": 113,
-  "MemberCount": 581,
-  "Name": "Runte LLC",
-  "PostitTextId": 448,
-  "CreatedDate": "2014-10-13T18:28:50.2404117+02:00",
-  "SelectionId": 871,
-  "SoundEx": "in",
-  "Source": 746,
-  "TextId": 706,
-  "UpdatedDate": "2008-04-26T18:28:50.2404117+02:00",
-  "UpdatedCount": 87,
-  "Visibility": 450,
+  "Description": "Ameliorated human-resource budgetary management",
+  "Postit": "est",
+  "Associate": null,
+  "CreatedBy": null,
+  "UpdatedBy": null,
+  "SelectionCategory": null,
+  "GroupIdx": 312,
+  "IncludePerson": 97,
+  "MemberCount": 370,
+  "Name": "Bins, Price and Quitzon",
+  "PostitTextId": 412,
+  "CreatedDate": "2013-03-28T11:10:27.9059799+01:00",
+  "SelectionId": 451,
+  "SoundEx": "sit",
+  "Source": 807,
+  "TextId": 55,
+  "UpdatedDate": "2015-05-24T11:10:27.9059799+02:00",
+  "UpdatedCount": 61,
+  "Visibility": 470,
   "SelectionType": "Combined",
-  "CompanyUnique": false,
-  "TargetTableNumber": 516,
-  "TargetTableName": "Schmidt Inc and Sons",
+  "CompanyUnique": true,
+  "TargetTableNumber": 87,
+  "TargetTableName": "Bode-Zieme",
   "Completed": false,
-  "LeftSelectionId": 799,
-  "RightSelectionId": 564,
+  "LeftSelectionId": 45,
+  "RightSelectionId": 913,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Ledner-Green",
-  "ShadowProviderName": "Wolf, Kunze and Reynolds",
-  "ChartKey": "aperiam",
-  "LastLoaded": "2011-04-04T18:28:50.2404117+02:00",
-  "LastLoadedBy": 971,
-  "LastLoadedByAssociate": {
-    "AssociateId": 376,
-    "Name": "Paucek, Hoppe and Stoltenberg",
-    "PersonId": 37,
-    "Rank": 793,
-    "Tooltip": "iste",
-    "Type": "AnonymousAssociate",
-    "GroupIdx": 416,
-    "FullName": "Darrick Kunze",
-    "FormalName": "Stokes, Glover and Fritsch",
-    "Deleted": true,
-    "EjUserId": 513,
-    "UserName": "Pagac, Weissnat and Zieme",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.Int32",
-        "FieldLength": 797
-      }
-    }
-  },
-  "LastMembershipChange": "2019-09-26T18:28:50.2404117+02:00",
-  "LastMembershipChangeBy": 13,
-  "LastMembershipChangeByAssociate": {
-    "AssociateId": 544,
-    "Name": "Predovic-Krajcik",
-    "PersonId": 727,
-    "Rank": 5,
-    "Tooltip": "et",
-    "Type": "AnonymousAssociate",
-    "GroupIdx": 94,
-    "FullName": "Rigoberto Adams",
-    "FormalName": "DuBuque Group",
-    "Deleted": true,
-    "EjUserId": 347,
-    "UserName": "Nienow LLC",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 189
-      }
-    }
-  },
-  "MainHeading": "et",
-  "MemberTabHeading": "laudantium",
-  "MailingsProviderName": "Altenwerth, Ziemann and Torp",
-  "DashboardTileDefinitionId": 544,
+  "MainProviderName": "Jakubowski LLC",
+  "ShadowProviderName": "Feeney LLC",
+  "ChartKey": "officiis",
+  "LastLoaded": "2006-04-27T11:10:27.9059799+02:00",
+  "LastLoadedBy": 914,
+  "LastLoadedByAssociate": null,
+  "LastMembershipChange": "2008-03-21T11:10:27.9069798+01:00",
+  "LastMembershipChangeBy": 296,
+  "LastMembershipChangeByAssociate": null,
+  "MainHeading": "quas",
+  "MemberTabHeading": "mollitia",
+  "MailingsProviderName": "Franecki LLC",
+  "DashboardTileDefinitionId": 241,
   "VisibleFor": [
     {
-      "VisibleId": 169,
+      "VisibleId": 421,
       "Visibility": "All",
-      "DisplayValue": "possimus",
-      "TableRight": {},
+      "DisplayValue": "nesciunt",
+      "TableRight": null,
       "FieldProperties": {
         "fieldName": {
-          "FieldRight": {
-            "Mask": "FULL",
-            "Reason": ""
-          },
+          "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 408
+          "FieldLength": 137
         }
       }
     },
     {
-      "VisibleId": 169,
+      "VisibleId": 421,
       "Visibility": "All",
-      "DisplayValue": "possimus",
-      "TableRight": {},
+      "DisplayValue": "nesciunt",
+      "TableRight": null,
       "FieldProperties": {
         "fieldName": {
-          "FieldRight": {
-            "Mask": "FULL",
-            "Reason": ""
-          },
+          "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 408
+          "FieldLength": 137
         }
       }
     }
   ],
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
+      "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 828
+      "FieldLength": 128
     }
   }
 }

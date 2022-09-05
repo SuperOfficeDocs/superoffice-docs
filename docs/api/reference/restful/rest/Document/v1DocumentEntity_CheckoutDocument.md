@@ -1,6 +1,6 @@
 ---
 title: POST Document/{id}/Lock
-id: v1DocumentEntity_CheckoutDocument
+uid: v1DocumentEntity_CheckoutDocument
 ---
 
 # POST Document/{id}/Lock
@@ -11,9 +11,15 @@ POST /api/v1/Document/{documentId}/Lock
 
 Check out a document for editing by the current user.
 
+
+
+
+
+
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | documentId | int32 | SuperOffice document ID **Required** |
+
 
 ## Query String Parameters
 
@@ -24,6 +30,7 @@ Check out a document for editing by the current user.
 ```http
 POST /api/v1/Document/{documentId}/Lock?allowedReturnTypes=Message
 ```
+
 
 ## Request Headers
 
@@ -38,13 +45,16 @@ POST /api/v1/Document/{documentId}/Lock?allowedReturnTypes=Message
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response: object
+
+## Response: 
+
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -55,7 +65,7 @@ Response body: object
 | Value | string |  |
 | AdditionalInfo | string |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Document/{documentId}/Lock
@@ -64,16 +74,18 @@ Accept: application/json; charset=utf-8
 Accept-Language: en
 ```
 
+## Sample response
+
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ExternalReference": "in",
-  "VersionId": "incidunt",
-  "Success": false,
+  "ExternalReference": "ea",
+  "VersionId": "necessitatibus",
+  "Success": true,
   "Type": "CustomGui",
-  "Value": "excepturi",
-  "AdditionalInfo": "molestias"
+  "Value": "animi",
+  "AdditionalInfo": "quia"
 }
 ```

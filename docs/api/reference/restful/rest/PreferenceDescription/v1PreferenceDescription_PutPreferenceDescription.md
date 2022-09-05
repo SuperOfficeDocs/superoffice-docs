@@ -1,6 +1,6 @@
 ---
 title: PUT PreferenceDescription/{id}
-id: v1PreferenceDescription_PutPreferenceDescription
+uid: v1PreferenceDescription_PutPreferenceDescription
 ---
 
 # PUT PreferenceDescription/{id}
@@ -11,9 +11,15 @@ PUT /api/v1/PreferenceDescription/{id}
 
 Updates the existing PreferenceDescription
 
+
+
+
+
+
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | id | int32 | The PreferenceDescription id to update. **Required** |
+
 
 ## Query String Parameters
 
@@ -24,6 +30,7 @@ Updates the existing PreferenceDescription
 ```http
 PUT /api/v1/PreferenceDescription/{id}?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -39,9 +46,9 @@ PUT /api/v1/PreferenceDescription/{id}?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entity
+## Request Body: entity  
 
-The PreferenceDescription to be saved.
+The PreferenceDescription to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -64,18 +71,17 @@ The PreferenceDescription to be saved.
 | MinValue | int32 | Min value (if type 1); list extra id (if type 5) |
 | RequiredLicense | string | Licenses the user/installation must have if this reference is to be shown. Comma-separated list of owner.module pairs |
 
-## Response: object
 
-Preference description, drives the Preference GUI. Maintenance client - controls all preferences in SuperOffice.
+## Response: 
 
-PreferenceDescription entity with API _Links added.
+PreferenceDescription updated.
 
 | Response | Description |
 |----------------|-------------|
 | 200 | PreferenceDescription updated. |
 | 400 | Bad request. Entity to save is not in request body. |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -101,72 +107,68 @@ Response body: object
 | FieldProperties | object |  |
 | _Links | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 PUT /api/v1/PreferenceDescription/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 626,
-  "Section": "ut",
-  "Key": "repellat",
-  "Name": "Kemmer-Harris",
+  "PrefDescId": 684,
+  "Section": "eos",
+  "Key": "iusto",
+  "Name": "Boyer-Roberts",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Devolved intermediate hardware",
-  "IsBuiltin": false,
-  "TableName": "Borer-Hilll",
-  "UserDefinedListId": 127,
-  "Rank": 972,
-  "SubGroup": "autem",
-  "MinLevel": 961,
-  "MaxValue": 749,
-  "MinValue": 210,
-  "RequiredLicense": "odit"
+  "Description": "Public-key fresh-thinking emulation",
+  "IsBuiltin": true,
+  "TableName": "Pacocha, Crooks and Parker",
+  "UserDefinedListId": 310,
+  "Rank": 314,
+  "SubGroup": "est",
+  "MinLevel": 34,
+  "MaxValue": 593,
+  "MinValue": 925,
+  "RequiredLicense": "amet"
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 PreferenceDescription updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 430,
-  "Section": "ad",
-  "Key": "dolores",
-  "Name": "Howe Group",
+  "PrefDescId": 312,
+  "Section": "itaque",
+  "Key": "et",
+  "Name": "Wunsch-Metz",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Switchable context-sensitive application",
-  "IsBuiltin": true,
-  "TableName": "Koelpin LLC",
-  "UserDefinedListId": 969,
-  "Rank": 799,
-  "SubGroup": "vel",
-  "MinLevel": 478,
-  "MaxValue": 29,
-  "MinValue": 166,
-  "RequiredLicense": "velit",
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": "brand impactful experiences"
-  },
+  "Description": "Robust disintermediate capability",
+  "IsBuiltin": false,
+  "TableName": "Bechtelar-Kunde",
+  "UserDefinedListId": 826,
+  "Rank": 91,
+  "SubGroup": "quia",
+  "MinLevel": 206,
+  "MaxValue": 554,
+  "MinValue": 901,
+  "RequiredLicense": "ad",
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": "enable back-end communities"
-      },
+      "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 285
+      "FieldLength": 450
     }
   },
   "_Links": {

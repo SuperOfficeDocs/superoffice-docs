@@ -1,6 +1,6 @@
 ---
 title: POST Agents/MDO/GetSimpleList
-id: v1MDOAgent_GetSimpleList
+uid: v1MDOAgent_GetSimpleList
 ---
 
 # POST Agents/MDO/GetSimpleList
@@ -11,6 +11,12 @@ POST /api/v1/Agents/MDO/GetSimpleList
 
 Method returns a simple flat MDO List.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Method returns a simple flat MDO List.
 ```http
 POST /api/v1/Agents/MDO/GetSimpleList?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,15 +42,18 @@ POST /api/v1/Agents/MDO/GetSimpleList?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-Name
+Name 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | Name | string |  |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -68,19 +78,21 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/MDO/GetSimpleList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Kuhlman-Herman"
+  "Name": "Thiel, Skiles and Hilll"
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -88,59 +100,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 822,
-    "Name": "Pfannerstill Inc and Sons",
-    "ToolTip": "Ut tempora in.",
+    "Id": 243,
+    "Name": "Jacobi-Towne",
+    "ToolTip": "Rerum sunt numquam officiis ipsum quam eum iste.",
     "Deleted": true,
-    "Rank": 1001,
-    "Type": "consequatur",
+    "Rank": 640,
+    "Type": "ut",
     "ChildItems": [
       {
-        "Id": 537,
-        "Name": "Hintz Inc and Sons",
-        "ToolTip": "Eveniet sint autem excepturi et minus.",
+        "Id": 674,
+        "Name": "Jenkins-Ziemann",
+        "ToolTip": "Voluptates est cupiditate.",
         "Deleted": false,
-        "Rank": 780,
-        "Type": "sit",
+        "Rank": 509,
+        "Type": "a",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "modi",
-        "ColorBlock": 783,
-        "ExtraInfo": "et",
-        "StyleHint": "voluptatem",
-        "FullName": "Oren Christiansen II",
-        "TableRight": {},
+        "IconHint": "qui",
+        "ColorBlock": 792,
+        "ExtraInfo": "iusto",
+        "StyleHint": "sapiente",
+        "FullName": "Jewell Schuster",
+        "TableRight": null,
         "FieldProperties": {
           "fieldName": {
-            "FieldRight": {
-              "Mask": "FULL",
-              "Reason": ""
-            },
-            "FieldType": "System.String",
-            "FieldLength": 787
+            "FieldRight": null,
+            "FieldType": "System.Int32",
+            "FieldLength": 163
           }
         }
       }
     ],
-    "IconHint": "provident",
-    "ColorBlock": 883,
-    "ExtraInfo": "et",
-    "StyleHint": "dolorum",
-    "FullName": "Cleora Mayer",
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": "morph compelling architectures"
-    },
+    "IconHint": "non",
+    "ColorBlock": 892,
+    "ExtraInfo": "qui",
+    "StyleHint": "ut",
+    "FullName": "Alexandrea Adams",
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
+        "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 359
+        "FieldLength": 686
       }
     }
   }

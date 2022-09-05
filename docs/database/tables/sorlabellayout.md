@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "SORLabelLayout"
-so.date: 04.12.2022
+so.date: 08.26.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -41,6 +41,7 @@ SuperOffice reporter data
 |updatedCount|Number of updates made to this record|UShort| |
 |description|Description|String(2047)| |
 
+
 ![SORLabelLayout table relationship diagram](./media/SORLabelLayout.png)
 
 [!include[details](./includes/sorlabellayout.md)]
@@ -59,6 +60,7 @@ SuperOffice reporter data
 |[associate](associate.md)  |Employees, resources and other users - except for External persons |
 |[SORPublish](sorpublish.md)  |SuperOffice reporter data |
 
+
 ## Replication Flags
 
 * Replicate changes DOWN from central to satellites and travellers.
@@ -68,3 +70,4 @@ SuperOffice reporter data
 ## Security Flags
 
 * No access control via user's Role.
+

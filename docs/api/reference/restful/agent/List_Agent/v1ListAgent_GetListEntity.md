@@ -1,6 +1,6 @@
 ---
 title: POST Agents/List/GetListEntity
-id: v1ListAgent_GetListEntity
+uid: v1ListAgent_GetListEntity
 ---
 
 # POST Agents/List/GetListEntity
@@ -11,6 +11,12 @@ POST /api/v1/Agents/List/GetListEntity
 
 Gets a ListEntity object.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -19,9 +25,10 @@ Gets a ListEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetListEntity?listEntityId=291
+POST /api/v1/Agents/List/GetListEntity?listEntityId=536
 POST /api/v1/Agents/List/GetListEntity?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -36,18 +43,16 @@ POST /api/v1/Agents/List/GetListEntity?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response: object
 
-The list entity contains information about a specific list
+## Response: 
 
-Carrier object for ListEntity.
-Services for the ListEntity Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IListAgent">List Agent</see>.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -64,42 +69,38 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/List/GetListEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 965,
-  "Name": "Upton, Hyatt and Bradtke",
-  "Tooltip": "voluptatem",
+  "Id": 943,
+  "Name": "Schimmel, Kohler and Ziemann",
+  "Tooltip": "quisquam",
   "Deleted": false,
-  "Rank": 307,
+  "Rank": 98,
   "IsCustomList": false,
-  "IsMDOList": true,
-  "UseGroupsAndHeadings": true,
-  "ListType": "voluptatem",
-  "InUseByUserDefinedFields": true,
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "IsMDOList": false,
+  "UseGroupsAndHeadings": false,
+  "ListType": "maiores",
+  "InUseByUserDefinedFields": false,
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
-      "FieldType": "System.Int32",
-      "FieldLength": 710
+      "FieldRight": null,
+      "FieldType": "System.String",
+      "FieldLength": 649
     }
   }
 }

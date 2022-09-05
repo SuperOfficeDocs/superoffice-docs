@@ -1,6 +1,6 @@
 ---
 title: GET RelationDefinition/default
-id: v1RelationDefinitionEntity_DefaultRelationDefinitionEntity
+uid: v1RelationDefinitionEntity_DefaultRelationDefinitionEntity
 ---
 
 # GET RelationDefinition/default
@@ -11,7 +11,14 @@ GET /api/v1/RelationDefinition/default
 
 Set default values into a new RelationDefinitionEntity.
 
+
 NetServer calculates default values on the entity, which is required when creating/storing a new instance Calls the List agent service CreateDefaultRelationDefinitionEntity.
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -26,18 +33,16 @@ NetServer calculates default values on the entity, which is required when creati
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response: object
 
-A relation definition entity with source and destination tables
+## Response: 
 
-Carrier object for RelationDefinitionEntity.
-Services for the RelationDefinitionEntity Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IListAgent">List Agent</see>.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -52,40 +57,36 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 GET /api/v1/RelationDefinition/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReldefId": 615,
-  "Name": "Smith-Predovic",
-  "Tooltip": "rerum",
-  "PassiveText": "laboriosam",
-  "Deleted": true,
-  "Rank": 187,
+  "ReldefId": 681,
+  "Name": "Trantow-Mertz",
+  "Tooltip": "repellat",
+  "PassiveText": "nobis",
+  "Deleted": false,
+  "Rank": 919,
   "Source": "Both",
   "Destination": "Both",
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": "mesh B2C solutions"
-      },
-      "FieldType": "System.String",
-      "FieldLength": 667
+      "FieldRight": null,
+      "FieldType": "System.Int32",
+      "FieldLength": 812
     }
   }
 }

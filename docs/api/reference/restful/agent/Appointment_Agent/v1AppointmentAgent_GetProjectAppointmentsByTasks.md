@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Appointment/GetProjectAppointmentsByTasks
-id: v1AppointmentAgent_GetProjectAppointmentsByTasks
+uid: v1AppointmentAgent_GetProjectAppointmentsByTasks
 ---
 
 # POST Agents/Appointment/GetProjectAppointmentsByTasks
@@ -11,7 +11,13 @@ POST /api/v1/Agents/Appointment/GetProjectAppointmentsByTasks
 
 Method that returns a specified number of appointments matching the list of appointment task types within a time range.
 
+
 The appointments belong to the project specified.  Task represents the different types of activities, like “Phone call”, “Meeting” and so on.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +28,7 @@ The appointments belong to the project specified.  Task represents the different
 ```http
 POST /api/v1/Agents/Appointment/GetProjectAppointmentsByTasks?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,9 +44,9 @@ POST /api/v1/Agents/Appointment/GetProjectAppointmentsByTasks?$select=name,depar
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-ProjectId, StartTime, EndTime, Count, TaskIds
+ProjectId, StartTime, EndTime, Count, TaskIds 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -49,7 +56,10 @@ ProjectId, StartTime, EndTime, Count, TaskIds
 | Count | int32 |  |
 | TaskIds | array |  |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -111,7 +121,7 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Appointment/GetProjectAppointmentsByTasks
@@ -121,16 +131,18 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 627,
-  "StartTime": "1995-10-02T18:28:47.7058446+02:00",
-  "EndTime": "1999-05-27T18:28:47.7058446+02:00",
-  "Count": 165,
+  "ProjectId": 858,
+  "StartTime": "2001-08-04T11:10:25.4235441+02:00",
+  "EndTime": "1995-12-09T11:10:25.4235441+01:00",
+  "Count": 830,
   "TaskIds": [
-    529,
-    30
+    586,
+    10
   ]
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -138,67 +150,61 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 956,
-    "StartDate": "1998-12-27T18:28:47.7068457+01:00",
-    "EndDate": "2001-02-22T18:28:47.7068457+01:00",
+    "AppointmentId": 993,
+    "StartDate": "2000-02-11T11:10:25.4245226+01:00",
+    "EndDate": "2016-06-30T11:10:25.4245226+02:00",
     "Type": "BookingForChecklist",
-    "Task": "laboriosam",
-    "AssociateFullName": "Noah Wiza",
-    "ContactName": "Stiedemann-Emmerich",
-    "Description": "Synchronised tangible orchestration",
-    "PersonFullName": "Sean Beatty",
-    "PersonId": 106,
-    "ContactId": 474,
-    "ProjectId": 622,
-    "ProjectName": "Quigley-King",
+    "Task": "ratione",
+    "AssociateFullName": "Alexandria Doyle",
+    "ContactName": "Cummings Group",
+    "Description": "Multi-tiered logistical synergy",
+    "PersonFullName": "Brock Macejkovic",
+    "PersonId": 472,
+    "ContactId": 554,
+    "ProjectId": 603,
+    "ProjectName": "Prohaska LLC",
     "IsPublished": false,
-    "AssociateId": 861,
-    "ColorIndex": 232,
-    "IsFree": true,
-    "HasAlarm": true,
+    "AssociateId": 111,
+    "ColorIndex": 76,
+    "IsFree": false,
+    "HasAlarm": false,
     "IsAlldayEvent": true,
     "Private": "PrivateGroup",
-    "PriorityId": 392,
-    "PriorityName": "Dickinson LLC",
+    "PriorityId": 481,
+    "PriorityName": "Greenholt Group",
     "TaskType": "Appointment",
-    "IsBookingMain": true,
-    "IsRecurrence": true,
+    "IsBookingMain": false,
+    "IsRecurrence": false,
     "IsBooking": false,
-    "ActiveDate": "2012-11-25T18:28:47.7068457+01:00",
+    "ActiveDate": "1999-12-10T11:10:25.4255222+01:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2006-05-04T18:28:47.7068457+02:00",
-    "RecurringEndDate": "1998-01-23T18:28:47.7068457+01:00",
-    "MotherId": 387,
-    "AssignedBy": 149,
-    "AssignedByFullName": "Cruz Conn",
+    "RecurringStartDate": "2019-04-14T11:10:25.4255222+02:00",
+    "RecurringEndDate": "2001-12-19T11:10:25.4255222+01:00",
+    "MotherId": 47,
+    "AssignedBy": 858,
+    "AssignedByFullName": "Miss Tyshawn Hirthe Jr.",
     "RejectReason": "",
-    "Location": "ut",
-    "AlarmLeadTime": "magni",
-    "SaleId": 310,
-    "SaleName": "Gulgowski, Brekke and Macejkovic",
-    "AssociateName": "Nitzsche-Abshire",
-    "CreatedDate": "2009-02-16T18:28:47.7078449+01:00",
-    "CreatedBy": "nam",
-    "CreatedByFullName": "Arnold Jaskolski",
-    "CreatedByAssociateId": 662,
+    "Location": "velit",
+    "AlarmLeadTime": "vel",
+    "SaleId": 886,
+    "SaleName": "Rempel, Farrell and Lind",
+    "AssociateName": "Wunsch-Kunze",
+    "CreatedDate": "1997-10-25T11:10:25.4255222+02:00",
+    "CreatedBy": "doloribus",
+    "CreatedByFullName": "Mr. Leonard Hayes Sr.",
+    "CreatedByAssociateId": 219,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 149
+        "FieldRight": null,
+        "FieldType": "System.Int32",
+        "FieldLength": 860
       }
     }
   }

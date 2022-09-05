@@ -16,6 +16,9 @@ Send a push notification to one or more associates
 * **associateIds:** The associates to send the push notification message to
 * **message:** The message to send
 
+**Returns:** This method has no return value
+
+
 [WSDL file for Services88/Pocket](../Services88-Pocket.md)
 
 Obtain a ticket from the [Services88/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -51,7 +54,7 @@ Application tokens must be specified if calling an Online installation. Applicat
      <Pocket:Type xsi:type="Pocket:NotificationMessageType">Message</Pocket:Type>
      <Pocket:TimeToLive xsi:type="xsd:int">0</Pocket:TimeToLive>
      <Pocket:RecordId xsi:type="xsd:int">0</Pocket:RecordId>
-     <Pocket:Date xsi:type="xsd:dateTime">2021-11-30T13:23:47Z</Pocket:Date>
+     <Pocket:Date xsi:type="xsd:dateTime">2022-08-26T09:00:02Z</Pocket:Date>
      <Pocket:Duration xsi:type="NetServerServices881:duration"></Pocket:Duration>
      <Pocket:ExtraValues xsi:type="Pocket:StringDictionary">
       <Pocket:StringKeyValuePair>
@@ -66,6 +69,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+
 
 ## SendPushNotification Response
 
@@ -86,3 +90,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

@@ -1,6 +1,6 @@
 ---
 title: GET License/{ownerName}/{moduleName}
-id: v1License_GetModuleLicenseFromDB
+uid: v1License_GetModuleLicenseFromDB
 ---
 
 # GET License/{ownerName}/{moduleName}
@@ -11,10 +11,17 @@ GET /api/v1/License/{ownerName}/{moduleName}
 
 Get license information for one particular license module.
 
+
+
+
+
+
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | ownerName | string | Name of the module owner. **Required** |
 | moduleName | string | Name of the license module. **Required** |
+
+
 
 ## Request Headers
 
@@ -29,13 +36,16 @@ Get license information for one particular license module.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response: object
+
+## Response: 
+
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -55,34 +65,36 @@ Response body: object
 | PrerequisiteModuleName | string |  |
 | Signature | string |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 GET /api/v1/License/{ownerName}/{moduleName}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "OwnerName": "Hilpert, O'Hara and Prosacco",
-  "ModuleName": "Orn, Spinka and Dickinson",
-  "ModuleDescription": "Function-based cohesive access",
-  "ModuleTooltip": "ullam",
-  "ModuleVersion": "cum",
+  "OwnerName": "Grant-Kub",
+  "ModuleName": "Ondricka, Terry and Balistreri",
+  "ModuleDescription": "Implemented cohesive frame",
+  "ModuleTooltip": "vitae",
+  "ModuleVersion": "assumenda",
   "LicenseType": "SatelliteLicense",
   "Unrestricted": true,
   "AllowedUserType": "AnonymousAssociate",
-  "NumberOfLicenses": 246,
-  "ExtraFlags": 467,
-  "ExtraInfo": "quas",
-  "SortOrder": 328,
-  "IsHidden": true,
-  "PrerequisiteModuleName": "Paucek-Bashirian",
-  "Signature": "cumque"
+  "NumberOfLicenses": 458,
+  "ExtraFlags": 752,
+  "ExtraInfo": "similique",
+  "SortOrder": 742,
+  "IsHidden": false,
+  "PrerequisiteModuleName": "Ziemann-Johnson",
+  "Signature": "repellendus"
 }
 ```

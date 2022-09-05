@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Person/GetOwnerOnPersonId
-id: v1PersonAgent_GetOwnerOnPersonId
+uid: v1PersonAgent_GetOwnerOnPersonId
 ---
 
 # POST Agents/Person/GetOwnerOnPersonId
@@ -11,6 +11,12 @@ POST /api/v1/Agents/Person/GetOwnerOnPersonId
 
 Get the owner of the person by id.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Get the owner of the person by id.
 ```http
 POST /api/v1/Agents/Person/GetOwnerOnPersonId?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,24 +42,24 @@ POST /api/v1/Agents/Person/GetOwnerOnPersonId?$select=name,department,category/i
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-PersonId
+PersonId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | PersonId | int32 |  |
 
-## Response: object
 
-Carrier object for Person.
-Services for the Person Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IPersonAgent">Person Agent</see>.
+## Response: 
+
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -99,77 +106,73 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Person/GetOwnerOnPersonId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 863
+  "PersonId": 15
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Position": "cum",
-  "PersonId": 95,
-  "Mrmrs": "voluptatem",
-  "Firstname": "Coleman",
-  "Lastname": "Weimann",
-  "MiddleName": "Borer Inc and Sons",
-  "Title": "expedita",
-  "Description": "Intuitive non-volatile website",
-  "Email": "ferne@gorczany.info",
-  "FullName": "Wyatt Dibbert",
-  "DirectPhone": "683.616.8884",
-  "FormalName": "Walter, Roob and Brown",
-  "CountryId": 703,
-  "ContactId": 406,
-  "ContactName": "Kihn-Kovacek",
-  "Retired": 118,
-  "Rank": 605,
-  "ActiveInterests": 649,
+  "Position": "qui",
+  "PersonId": 319,
+  "Mrmrs": "fuga",
+  "Firstname": "Dylan",
+  "Lastname": "Raynor",
+  "MiddleName": "Hane LLC",
+  "Title": "explicabo",
+  "Description": "Fundamental tertiary moderator",
+  "Email": "daren.funk@leffler.uk",
+  "FullName": "Prof. Isaiah Harold Windler DDS",
+  "DirectPhone": "1-130-906-0601 x53547",
+  "FormalName": "Pollich LLC",
+  "CountryId": 366,
+  "ContactId": 481,
+  "ContactName": "Cassin, Dicki and Gottlieb",
+  "Retired": 767,
+  "Rank": 364,
+  "ActiveInterests": 674,
   "ContactDepartment": "",
-  "ContactCountryId": 555,
-  "ContactOrgNr": "789458",
-  "FaxPhone": "454-005-6486",
-  "MobilePhone": "066-374-4311 x181",
-  "ContactPhone": "1-407-047-4564",
-  "AssociateName": "Huels-Hirthe",
-  "AssociateId": 827,
+  "ContactCountryId": 946,
+  "ContactOrgNr": "721673",
+  "FaxPhone": "099-727-5281 x83320",
+  "MobilePhone": "(145)699-5781",
+  "ContactPhone": "(926)788-4681 x09361",
+  "AssociateName": "Tromp Inc and Sons",
+  "AssociateId": 318,
   "UsePersonAddress": true,
-  "ContactFax": "id",
-  "Kanafname": "distinctio",
-  "Kanalname": "et",
-  "Post1": "autem",
-  "Post2": "at",
-  "Post3": "aperiam",
-  "EmailName": "ibrahim_hagenes@hayeswilkinson.ca",
-  "ContactFullName": "Velva Koelpin",
-  "ActiveErpLinks": 517,
-  "TicketPriorityId": 959,
-  "SupportLanguageId": 936,
-  "SupportAssociateId": 427,
+  "ContactFax": "debitis",
+  "Kanafname": "et",
+  "Kanalname": "amet",
+  "Post1": "corrupti",
+  "Post2": "aperiam",
+  "Post3": "est",
+  "EmailName": "jessika@kunde.ca",
+  "ContactFullName": "Mrs. Dorian Stark",
+  "ActiveErpLinks": 840,
+  "TicketPriorityId": 926,
+  "SupportLanguageId": 53,
+  "SupportAssociateId": 633,
   "CategoryName": "VIP Customer",
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
+      "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 697
+      "FieldLength": 462
     }
   }
 }

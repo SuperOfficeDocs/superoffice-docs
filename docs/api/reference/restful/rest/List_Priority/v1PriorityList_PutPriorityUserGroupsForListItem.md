@@ -1,6 +1,6 @@
 ---
 title: PUT List/Priority/Items/{id}/UserGroups
-id: v1PriorityList_PutPriorityUserGroupsForListItem
+uid: v1PriorityList_PutPriorityUserGroupsForListItem
 ---
 
 # PUT List/Priority/Items/{id}/UserGroups
@@ -11,11 +11,18 @@ PUT /api/v1/List/Priority/Items/{itemId}/UserGroups
 
 Saves user groups visible for the Priority list's item.
 
+
 Calls the List agent service SaveHeadingsForListItemFromListDefinition.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | itemId | int32 | The ID of the item to save. **Required** |
+
+
 
 ## Request Headers
 
@@ -31,9 +38,9 @@ Calls the List agent service SaveHeadingsForListItemFromListDefinition.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entities
+## Request Body: entities  
 
-The headings to be saved.
+The headings to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -53,7 +60,10 @@ The headings to be saved.
 | Hidden | bool | True if the ListItem is hidden |
 | FullName | string | The name of the ListItem in its context |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -81,7 +91,7 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 PUT /api/v1/List/Priority/Items/{itemId}/UserGroups
@@ -92,45 +102,47 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 979,
-    "Name": "Eichmann Group",
-    "ToolTip": "Earum sit magni excepturi fuga sint placeat.",
-    "Deleted": false,
-    "Rank": 931,
-    "Type": "quis",
-    "ColorBlock": 808,
-    "IconHint": "fugit",
+    "Id": 27,
+    "Name": "Fritsch-Beatty",
+    "ToolTip": "Fuga dolores repellat aliquam.",
+    "Deleted": true,
+    "Rank": 221,
+    "Type": "tenetur",
+    "ColorBlock": 161,
+    "IconHint": "ullam",
     "Selected": true,
-    "LastChanged": "2009-08-25T18:25:51.9832519+02:00",
+    "LastChanged": "2020-07-29T11:10:54.3989027+02:00",
     "ChildItems": [
       {
-        "Id": 35,
-        "Name": "Hammes Group",
-        "ToolTip": "Sunt vel et.",
-        "Deleted": false,
-        "Rank": 282,
-        "Type": "atque",
-        "ColorBlock": 625,
-        "IconHint": "est",
+        "Id": 988,
+        "Name": "Watsica LLC",
+        "ToolTip": "Autem et eaque quo excepturi tempore.",
+        "Deleted": true,
+        "Rank": 262,
+        "Type": "vero",
+        "ColorBlock": 914,
+        "IconHint": "dolorem",
         "Selected": false,
-        "LastChanged": "2020-04-12T18:25:51.9832519+02:00",
+        "LastChanged": "2016-12-08T11:10:54.3989027+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "at",
-        "StyleHint": "fugit",
-        "Hidden": false,
-        "FullName": "Savion Harber"
+        "ExtraInfo": "occaecati",
+        "StyleHint": "odio",
+        "Hidden": true,
+        "FullName": "Blanche Gibson"
       }
     ],
-    "ExtraInfo": "commodi",
-    "StyleHint": "suscipit",
+    "ExtraInfo": "mollitia",
+    "StyleHint": "dolorem",
     "Hidden": false,
-    "FullName": "Anahi Pollich"
+    "FullName": "Margaretta Murazik"
   }
 ]
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -138,65 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 915,
-    "Name": "Pfannerstill, Raynor and Cormier",
-    "ToolTip": "Id aut beatae.",
-    "Deleted": false,
-    "Rank": 499,
-    "Type": "velit",
-    "ColorBlock": 314,
-    "IconHint": "sequi",
-    "Selected": true,
-    "LastChanged": "1998-03-15T18:25:51.9842456+01:00",
+    "Id": 97,
+    "Name": "O'Kon-Pfannerstill",
+    "ToolTip": "Rem aut et.",
+    "Deleted": true,
+    "Rank": 719,
+    "Type": "ad",
+    "ColorBlock": 13,
+    "IconHint": "unde",
+    "Selected": false,
+    "LastChanged": "1995-12-28T11:10:54.3999023+01:00",
     "ChildItems": [
       {
-        "Id": 740,
-        "Name": "Crona-Hamill",
-        "ToolTip": "Blanditiis rem vero aut illo aliquam.",
+        "Id": 855,
+        "Name": "Dibbert LLC",
+        "ToolTip": "Quidem praesentium ut.",
         "Deleted": false,
-        "Rank": 443,
-        "Type": "deserunt",
-        "ColorBlock": 421,
-        "IconHint": "et",
-        "Selected": true,
-        "LastChanged": "2019-04-26T18:25:51.9842456+02:00",
+        "Rank": 955,
+        "Type": "nihil",
+        "ColorBlock": 698,
+        "IconHint": "velit",
+        "Selected": false,
+        "LastChanged": "2011-12-03T11:10:54.3999023+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "perspiciatis",
-        "StyleHint": "laudantium",
+        "ExtraInfo": "perferendis",
+        "StyleHint": "ab",
         "Hidden": false,
-        "FullName": "Tyreek Considine II",
-        "TableRight": {},
+        "FullName": "Jerry Ritchie",
+        "TableRight": null,
         "FieldProperties": {
           "fieldName": {
-            "FieldRight": {
-              "Mask": "FULL",
-              "Reason": ""
-            },
-            "FieldType": "System.String",
-            "FieldLength": 885
+            "FieldRight": null,
+            "FieldType": "System.Int32",
+            "FieldLength": 24
           }
         }
       }
     ],
-    "ExtraInfo": "facilis",
-    "StyleHint": "ut",
+    "ExtraInfo": "ut",
+    "StyleHint": "magni",
     "Hidden": false,
-    "FullName": "Dario Frami",
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "FullName": "Madison Larson III",
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.Int32",
-        "FieldLength": 499
+        "FieldRight": null,
+        "FieldType": "System.String",
+        "FieldLength": 674
       }
     }
   }

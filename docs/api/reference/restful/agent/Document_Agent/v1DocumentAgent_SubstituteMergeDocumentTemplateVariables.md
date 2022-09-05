@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Document/SubstituteMergeDocumentTemplateVariables
-id: v1DocumentAgent_SubstituteMergeDocumentTemplateVariables
+uid: v1DocumentAgent_SubstituteMergeDocumentTemplateVariables
 ---
 
 # POST Agents/Document/SubstituteMergeDocumentTemplateVariables
@@ -11,7 +11,13 @@ POST /api/v1/Agents/Document/SubstituteMergeDocumentTemplateVariables
 
 Parse the source document, and replace any template variable tags with their values, based on the associate Id.
 
-The source document should be of type MergeDraft. This method also takes a pair of arrays specifying custom tags and their values; these tags will be available during substitution in addition to all the existing tags. Custom values will override values otherwise set.
+
+&lt;p/&gt; The source document should be of type MergeDraft. This method also takes a pair of arrays specifying custom tags and their values; these tags will be available during substitution in addition to all the existing tags. Custom values will override values otherwise set.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +28,7 @@ The source document should be of type MergeDraft. This method also takes a pair 
 ```http
 POST /api/v1/Agents/Document/SubstituteMergeDocumentTemplateVariables?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,9 +44,9 @@ POST /api/v1/Agents/Document/SubstituteMergeDocumentTemplateVariables?$select=na
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-DocumentId, AssociateId, CustomTags, CustomValues
+DocumentId, AssociateId, CustomTags, CustomValues 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -48,40 +55,46 @@ DocumentId, AssociateId, CustomTags, CustomValues
 | CustomTags | array |  |
 | CustomValues | array |  |
 
-## Response
+
+## Response: byte
+
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: byte
 
-## Sample Request
+
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Document/SubstituteMergeDocumentTemplateVariables
 Authorization: Basic dGplMDpUamUw
-Accept: binary/octet-stream
-Accept-Language: fr,de,ru,zh
+Accept: application/json; charset=utf-8
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 558,
-  "AssociateId": 344,
+  "DocumentId": 492,
+  "AssociateId": 615,
   "CustomTags": [
-    "adipisci",
-    "sint"
+    "natus",
+    "voluptatem"
   ],
   "CustomValues": [
-    "a",
-    "dolorem"
+    "ipsam",
+    "quia"
   ]
 }
 ```
 
+## Sample response
+
 ```http_
 HTTP/1.1 200 OK
-Content-Type: binary/octet-stream
+Content-Type: application/json; charset=utf-8
 
-GIF89....File contents as raw bytes...
+"GIF89....File contents as raw bytes..."
 ```

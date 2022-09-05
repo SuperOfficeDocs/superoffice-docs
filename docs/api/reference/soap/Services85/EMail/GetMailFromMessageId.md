@@ -17,6 +17,7 @@ Get email from db based on Message Id
 
 **Returns:** EMailEntity with the provided message id
 
+
 [WSDL file for Services85/EMail](../Services85-EMail.md)
 
 Obtain a ticket from the [Services85/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -48,6 +49,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+
 
 ## GetMailFromMessageId Response
 
@@ -124,7 +126,7 @@ Application tokens must be specified if calling an Online installation. Applicat
      </EMail:DuplicatePersonIds>
      <EMail:Name xsi:type="xsd:string"></EMail:Name>
     </EMail:From>
-    <EMail:Sent xsi:type="xsd:dateTime">2021-11-30T13:22:31Z</EMail:Sent>
+    <EMail:Sent xsi:type="xsd:dateTime">2022-08-26T08:52:47Z</EMail:Sent>
     <EMail:Size xsi:type="xsd:int">0</EMail:Size>
     <EMail:Priority xsi:type="EMail:EMailPriority">NoPriority</EMail:Priority>
     <EMail:Flags xsi:type="EMail:EMailFlags">Seen</EMail:Flags>
@@ -137,7 +139,7 @@ Application tokens must be specified if calling an Online installation. Applicat
      <EMail:ProjectId xsi:type="xsd:int">0</EMail:ProjectId>
      <EMail:SaleId xsi:type="xsd:int">0</EMail:SaleId>
      <EMail:Archived xsi:type="xsd:boolean">false</EMail:Archived>
-     <EMail:ArchivedAt xsi:type="xsd:dateTime">2021-11-30T13:22:31Z</EMail:ArchivedAt>
+     <EMail:ArchivedAt xsi:type="xsd:dateTime">2022-08-26T08:52:47Z</EMail:ArchivedAt>
      <EMail:ArchivedBy xsi:type="xsd:int">0</EMail:ArchivedBy>
      <EMail:ArchivedDisplayName xsi:type="xsd:string"></EMail:ArchivedDisplayName>
     </EMail:EMailSOInfo>
@@ -165,7 +167,7 @@ Application tokens must be specified if calling an Online installation. Applicat
     <EMail:FolderName xsi:type="xsd:string"></EMail:FolderName>
     <EMail:EmailItemId xsi:type="xsd:int">0</EMail:EmailItemId>
     <EMail:AccountId xsi:type="xsd:int">0</EMail:AccountId>
-    <EMail:ReceivedAt xsi:type="xsd:dateTime">2021-11-30T13:22:31Z</EMail:ReceivedAt>
+    <EMail:ReceivedAt xsi:type="xsd:dateTime">2022-08-26T08:52:47Z</EMail:ReceivedAt>
     <EMail:InReplyTo xsi:type="EMail:EMailEnvelope">
      <EMail:ServerId xsi:type="xsd:int">0</EMail:ServerId>
      <EMail:MessageId xsi:type="xsd:string"></EMail:MessageId>
@@ -198,7 +200,7 @@ Application tokens must be specified if calling an Online installation. Applicat
        <EMail:Name xsi:type="xsd:string"></EMail:Name>
       </EMail:EMailAddress>
      </EMail:To>
-     <EMail:Sent xsi:type="xsd:dateTime">2021-11-30T13:22:31Z</EMail:Sent>
+     <EMail:Sent xsi:type="xsd:dateTime">2022-08-26T08:52:47Z</EMail:Sent>
      <EMail:Priority xsi:type="EMail:EMailPriority">NoPriority</EMail:Priority>
      <EMail:Flags xsi:type="EMail:EMailFlags">Seen</EMail:Flags>
      <EMail:Size xsi:type="xsd:int">0</EMail:Size>
@@ -208,15 +210,16 @@ Application tokens must be specified if calling an Online installation. Applicat
       <EMail:ProjectId xsi:type="xsd:int">0</EMail:ProjectId>
       <EMail:SaleId xsi:type="xsd:int">0</EMail:SaleId>
       <EMail:Archived xsi:type="xsd:boolean">false</EMail:Archived>
-      <EMail:ArchivedAt xsi:type="xsd:dateTime">2021-11-30T13:22:31Z</EMail:ArchivedAt>
+      <EMail:ArchivedAt xsi:type="xsd:dateTime">2022-08-26T08:52:47Z</EMail:ArchivedAt>
       <EMail:ArchivedBy xsi:type="xsd:int">0</EMail:ArchivedBy>
       <EMail:ArchivedDisplayName xsi:type="xsd:string"></EMail:ArchivedDisplayName>
      </EMail:EMailSOInfo>
     </EMail:InReplyTo>
-    <EMail:RepliedAt xsi:type="xsd:dateTime">2021-11-30T13:22:31Z</EMail:RepliedAt>
+    <EMail:RepliedAt xsi:type="xsd:dateTime">2022-08-26T08:52:47Z</EMail:RepliedAt>
    </EMail:Response>
   </EMail:GetMailFromMessageIdResponse>
  </SOAP-ENV:Body>
 </SOAP-ENV:Envelope>
 
 ```
+

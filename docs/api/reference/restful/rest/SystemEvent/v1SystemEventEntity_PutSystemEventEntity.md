@@ -1,6 +1,6 @@
 ---
 title: PUT SystemEvent/{id}
-id: v1SystemEventEntity_PutSystemEventEntity
+uid: v1SystemEventEntity_PutSystemEventEntity
 ---
 
 # PUT SystemEvent/{id}
@@ -11,9 +11,15 @@ PUT /api/v1/SystemEvent/{id}
 
 Updates the existing SystemEventEntity
 
+
+
+
+
+
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | id | int32 | The SystemEventEntity id to update. **Required** |
+
 
 ## Query String Parameters
 
@@ -24,6 +30,7 @@ Updates the existing SystemEventEntity
 ```http
 PUT /api/v1/SystemEvent/{id}?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -39,9 +46,9 @@ PUT /api/v1/SystemEvent/{id}?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entity
+## Request Body: entity  
 
-The SystemEventEntity to be saved.
+The SystemEventEntity to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -56,18 +63,17 @@ The SystemEventEntity to be saved.
 | Registered | date-time | Registered when  in UTC. |
 | ActivatedBy |  | The associate that first created the SystemEvent. |
 
-## Response: object
 
-Entity for system events
+## Response: 
 
-SystemEventEntity entity with API _Links added.
+SystemEventEntity updated.
 
 | Response | Description |
 |----------------|-------------|
 | 200 | SystemEventEntity updated. |
 | 400 | Bad request. Entity to save is not in request body. |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -85,93 +91,52 @@ Response body: object
 | FieldProperties | object |  |
 | _Links | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 PUT /api/v1/SystemEvent/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "SystemEventId": 879,
+  "SystemEventId": 149,
   "Scope": "Database",
-  "Eta": "1999-11-15T18:25:51.1219432+01:00",
-  "Eventkey": "in",
-  "Eventmess": "perspiciatis",
-  "ExtraInfo": 482,
-  "Owner": 216,
-  "UpdatedCount": 752,
-  "Registered": "2019-10-19T18:25:51.1219432+02:00",
-  "ActivatedBy": {
-    "AssociateId": 709,
-    "Name": "Nienow, O'Conner and Zboncak",
-    "PersonId": 355,
-    "Rank": 614,
-    "Tooltip": "doloremque",
-    "Type": "AnonymousAssociate",
-    "GroupIdx": 678,
-    "FullName": "Conner Deckow",
-    "FormalName": "Keebler-Ortiz",
-    "Deleted": true,
-    "EjUserId": 725,
-    "UserName": "Lynch, Stanton and Gottlieb"
-  }
+  "Eta": "2009-02-04T11:10:53.5331739+01:00",
+  "Eventkey": "sed",
+  "Eventmess": "sunt",
+  "ExtraInfo": 867,
+  "Owner": 183,
+  "UpdatedCount": 778,
+  "Registered": "2005-12-12T11:10:53.5331739+01:00",
+  "ActivatedBy": null
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 SystemEventEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "SystemEventId": 424,
+  "SystemEventId": 526,
   "Scope": "Database",
-  "Eta": "2011-07-19T18:25:51.1229351+02:00",
-  "Eventkey": "aut",
-  "Eventmess": "quas",
-  "ExtraInfo": 738,
-  "Owner": 417,
-  "UpdatedCount": 104,
-  "Registered": "2013-02-06T18:25:51.1229351+01:00",
-  "ActivatedBy": {
-    "AssociateId": 590,
-    "Name": "Weissnat Inc and Sons",
-    "PersonId": 790,
-    "Rank": 147,
-    "Tooltip": "ea",
-    "Type": "AnonymousAssociate",
-    "GroupIdx": 957,
-    "FullName": "Joaquin Reilly",
-    "FormalName": "Rowe, Kub and Kutch",
-    "Deleted": false,
-    "EjUserId": 416,
-    "UserName": "Jones LLC",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 498
-      }
-    }
-  },
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "Eta": "2003-02-11T11:10:53.5341762+01:00",
+  "Eventkey": "est",
+  "Eventmess": "minus",
+  "ExtraInfo": 850,
+  "Owner": 499,
+  "UpdatedCount": 879,
+  "Registered": "2017-09-20T11:10:53.5341762+02:00",
+  "ActivatedBy": null,
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
+      "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 999
+      "FieldLength": 1002
     }
   },
   "_Links": {

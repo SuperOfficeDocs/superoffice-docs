@@ -1,6 +1,6 @@
 ---
 title: PUT License/{moduleOwner}/{id}
-id: v1License_AssignThirdPartyLicenses
+uid: v1License_AssignThirdPartyLicenses
 ---
 
 # PUT License/{moduleOwner}/{id}
@@ -11,10 +11,17 @@ PUT /api/v1/License/{moduleOwner}/{associateId}
 
 Assign third party licenses
 
+
+
+
+
+
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | associateId | int32 | User to assign third party licenses for **Required** |
 | moduleOwner | string | Name of the module owner to assign license for **Required** |
+
+
 
 ## Request Headers
 
@@ -30,11 +37,15 @@ Assign third party licenses
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: moduleLicenseNames
+## Request Body: moduleLicenseNames  
 
-Name of module licenses to assign
+Name of module licenses to assign 
+
+
 
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -61,14 +72,16 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 PUT /api/v1/License/{moduleOwner}/{associateId}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -76,32 +89,26 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Unrestricted": true,
-    "Total": 425,
-    "Tooltip": "accusantium",
+    "Unrestricted": false,
+    "Total": 95,
+    "Tooltip": "omnis",
     "CanAssign": false,
-    "Free": 544,
-    "InUse": 865,
-    "IsHidden": true,
-    "Assigned": true,
-    "ModuleLicenseId": 556,
-    "Name": "Aufderhar Inc and Sons",
-    "Description": "Distributed zero tolerance contingency",
-    "PrerequisiteModuleName": "Orn, Koch and Dickinson",
-    "SortOrder": 998,
-    "ExtraFlags": 77,
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "Free": 971,
+    "InUse": 855,
+    "IsHidden": false,
+    "Assigned": false,
+    "ModuleLicenseId": 878,
+    "Name": "Muller LLC",
+    "Description": "Sharable contextually-based orchestration",
+    "PrerequisiteModuleName": "Hegmann, Bins and Christiansen",
+    "SortOrder": 272,
+    "ExtraFlags": 657,
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.Int32",
-        "FieldLength": 997
+        "FieldRight": null,
+        "FieldType": "System.String",
+        "FieldLength": 686
       }
     }
   }

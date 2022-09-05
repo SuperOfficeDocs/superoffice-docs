@@ -1,6 +1,6 @@
 ---
 title: PUT List/ReasonSold/Items/{id}/Headings
-id: v1ReasonSoldList_PutReasonSoldHeadingsForListItem
+uid: v1ReasonSoldList_PutReasonSoldHeadingsForListItem
 ---
 
 # PUT List/ReasonSold/Items/{id}/Headings
@@ -11,11 +11,18 @@ PUT /api/v1/List/ReasonSold/Items/{itemId}/Headings
 
 Saves headings for the ReasonSold list's item.
 
+
 Calls the List agent service SaveHeadingsForListItemFromListDefinition.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | itemId | int32 | The ID of the headings to be saved. **Required** |
+
+
 
 ## Request Headers
 
@@ -31,9 +38,9 @@ Calls the List agent service SaveHeadingsForListItemFromListDefinition.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entities
+## Request Body: entities  
 
-The headings to be saved.
+The headings to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -53,7 +60,10 @@ The headings to be saved.
 | Hidden | bool | True if the ListItem is hidden |
 | FullName | string | The name of the ListItem in its context |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -81,56 +91,58 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 PUT /api/v1/List/ReasonSold/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 773,
-    "Name": "Buckridge, Olson and Dicki",
-    "ToolTip": "Temporibus nemo.",
+    "Id": 200,
+    "Name": "Pfannerstill Group",
+    "ToolTip": "Ea deserunt in assumenda.",
     "Deleted": true,
-    "Rank": 679,
-    "Type": "quis",
-    "ColorBlock": 558,
-    "IconHint": "eius",
+    "Rank": 716,
+    "Type": "omnis",
+    "ColorBlock": 800,
+    "IconHint": "expedita",
     "Selected": false,
-    "LastChanged": "2002-04-05T18:25:52.1549849+02:00",
+    "LastChanged": "2001-06-25T11:10:54.5729377+02:00",
     "ChildItems": [
       {
-        "Id": 578,
-        "Name": "Monahan-Nicolas",
-        "ToolTip": "Ut occaecati quasi in.",
-        "Deleted": true,
-        "Rank": 359,
-        "Type": "quis",
-        "ColorBlock": 102,
-        "IconHint": "id",
-        "Selected": false,
-        "LastChanged": "2018-04-16T18:25:52.1549849+02:00",
+        "Id": 566,
+        "Name": "O'Reilly, Schumm and Lehner",
+        "ToolTip": "Illum qui mollitia occaecati doloribus vero consectetur possimus.",
+        "Deleted": false,
+        "Rank": 938,
+        "Type": "est",
+        "ColorBlock": 393,
+        "IconHint": "dolorem",
+        "Selected": true,
+        "LastChanged": "2016-06-26T11:10:54.5729377+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "est",
-        "StyleHint": "nesciunt",
-        "Hidden": true,
-        "FullName": "Dee Jacobi"
+        "ExtraInfo": "consequatur",
+        "StyleHint": "vel",
+        "Hidden": false,
+        "FullName": "Dr. Baylee Brown"
       }
     ],
-    "ExtraInfo": "et",
-    "StyleHint": "et",
+    "ExtraInfo": "ea",
+    "StyleHint": "sit",
     "Hidden": false,
-    "FullName": "Kathryne Prohaska Jr."
+    "FullName": "Irving Schaefer"
   }
 ]
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -138,65 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 548,
-    "Name": "Lemke LLC",
-    "ToolTip": "Dolores ullam asperiores ab.",
-    "Deleted": false,
-    "Rank": 961,
-    "Type": "ad",
-    "ColorBlock": 841,
-    "IconHint": "labore",
+    "Id": 271,
+    "Name": "Carter, Schulist and Grimes",
+    "ToolTip": "Ad fugit totam qui occaecati iste maxime commodi.",
+    "Deleted": true,
+    "Rank": 235,
+    "Type": "porro",
+    "ColorBlock": 303,
+    "IconHint": "reprehenderit",
     "Selected": false,
-    "LastChanged": "2000-10-26T18:25:52.1570191+02:00",
+    "LastChanged": "1998-05-11T11:10:54.5759387+02:00",
     "ChildItems": [
       {
-        "Id": 924,
-        "Name": "Bartoletti LLC",
-        "ToolTip": "Ex nam sit expedita.",
-        "Deleted": true,
-        "Rank": 857,
-        "Type": "eveniet",
-        "ColorBlock": 803,
-        "IconHint": "est",
-        "Selected": true,
-        "LastChanged": "1999-10-08T18:25:52.1570191+02:00",
+        "Id": 856,
+        "Name": "Kuvalis Inc and Sons",
+        "ToolTip": "Debitis ut vel laudantium laudantium.",
+        "Deleted": false,
+        "Rank": 67,
+        "Type": "consequatur",
+        "ColorBlock": 374,
+        "IconHint": "facilis",
+        "Selected": false,
+        "LastChanged": "2020-08-20T11:10:54.5759387+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "suscipit",
-        "StyleHint": "cumque",
-        "Hidden": false,
-        "FullName": "Layla Hartmann",
-        "TableRight": {},
+        "ExtraInfo": "fugit",
+        "StyleHint": "corporis",
+        "Hidden": true,
+        "FullName": "Dr. Letitia Abigale Zemlak Jr.",
+        "TableRight": null,
         "FieldProperties": {
           "fieldName": {
-            "FieldRight": {
-              "Mask": "FULL",
-              "Reason": ""
-            },
+            "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 41
+            "FieldLength": 431
           }
         }
       }
     ],
-    "ExtraInfo": "ut",
-    "StyleHint": "omnis",
-    "Hidden": true,
-    "FullName": "Xavier Cummings",
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "ExtraInfo": "et",
+    "StyleHint": "perferendis",
+    "Hidden": false,
+    "FullName": "Miss Santiago Schoen II",
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": "generate transparent platforms"
-        },
-        "FieldType": "System.String",
-        "FieldLength": 680
+        "FieldRight": null,
+        "FieldType": "System.Int32",
+        "FieldLength": 236
       }
     }
   }

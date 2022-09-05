@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Project/GetProjectEventOnPerson
-id: v1ProjectAgent_GetProjectEventOnPerson
+uid: v1ProjectAgent_GetProjectEventOnPerson
 ---
 
 # POST Agents/Project/GetProjectEventOnPerson
@@ -11,6 +11,12 @@ POST /api/v1/Agents/Project/GetProjectEventOnPerson
 
 Gets a ProjectEvent object from a project and a person.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Gets a ProjectEvent object from a project and a person.
 ```http
 POST /api/v1/Agents/Project/GetProjectEventOnPerson?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,27 +42,25 @@ POST /api/v1/Agents/Project/GetProjectEventOnPerson?$select=name,department,cate
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-ProjectId, PersonId
+ProjectId, PersonId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | ProjectId | int32 |  |
 | PersonId | int32 |  |
 
-## Response: object
 
-A project that is also an event. Used by Audience
+## Response: 
 
-Carrier object for ProjectEvent.
-Services for the ProjectEvent Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IProjectAgent">Project Agent</see>.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -84,60 +89,56 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Project/GetProjectEventOnPerson
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 388,
-  "PersonId": 132
+  "ProjectId": 177,
+  "PersonId": 694
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateFullName": "Mr. Ila Bernier",
-  "Description": "Re-engineered exuding firmware",
-  "ProjectId": 475,
-  "EventName": "Olson Group",
-  "AssociateId": 386,
-  "IsSignedOn": true,
-  "SignOffConfirmationText": "et",
-  "SignOffText": "ex",
-  "SignOnConfirmationText": "qui",
-  "SignOnText": "et",
-  "EventDate": "2005-07-25T18:28:49.9021331+02:00",
-  "Enabled": true,
-  "SignOff": true,
-  "SignOffTaskEnable": false,
+  "AssociateFullName": "Arden Harvey",
+  "Description": "Object-based didactic archive",
+  "ProjectId": 614,
+  "EventName": "Paucek Group",
+  "AssociateId": 408,
+  "IsSignedOn": false,
+  "SignOffConfirmationText": "est",
+  "SignOffText": "eum",
+  "SignOnConfirmationText": "accusamus",
+  "SignOnText": "fugit",
+  "EventDate": "2019-02-20T11:10:27.607453+01:00",
+  "Enabled": false,
+  "SignOff": false,
+  "SignOffTaskEnable": true,
   "SignOnTaskEnable": true,
-  "SignOn": false,
-  "SignOffTaskId": 455,
-  "SignOnTaskId": 675,
-  "SignOffTriggersAssign": true,
+  "SignOn": true,
+  "SignOffTaskId": 22,
+  "SignOnTaskId": 403,
+  "SignOffTriggersAssign": false,
   "SignOnTriggersAssign": true,
-  "SignOnPersonId": 818,
-  "SignOffPersonId": 1001,
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "SignOnPersonId": 625,
+  "SignOffPersonId": 532,
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
-      "FieldType": "System.String",
-      "FieldLength": 26
+      "FieldRight": null,
+      "FieldType": "System.Int32",
+      "FieldLength": 207
     }
   }
 }

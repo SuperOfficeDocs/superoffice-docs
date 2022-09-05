@@ -1,6 +1,6 @@
 ---
 title: GET Sale/UdefLayout/{progidOrLabel}
-id: v1SaleEntity_GetUdefFieldInfo
+uid: v1SaleEntity_GetUdefFieldInfo
 ---
 
 # GET Sale/UdefLayout/{progidOrLabel}
@@ -11,9 +11,16 @@ GET /api/v1/Sale/UdefLayout/{progidOrLabel}
 
 Get a SaleEntity user-defined field's details based on the prog-id or label.
 
+
+
+
+
+
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | progidOrLabel | string | The udef field id, case-sensitive prog-id, or field label. **Required** |
+
+
 
 ## Request Headers
 
@@ -28,19 +35,17 @@ Get a SaleEntity user-defined field's details based on the prog-id or label.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response: object
 
-Return information about the user defined fields. The information can be used to mirror the layout of the user-defined fields in the user interface.
+## Response: 
 
-Carrier object for UserDefinedFieldInfo.
-Services for the UserDefinedFieldInfo Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent">UserDefinedFieldInfo Agent</see>.
+SaleEntity found.
 
 | Response | Description |
 |----------------|-------------|
 | 200 | SaleEntity found. |
 | 404 | SaleEntity not found. |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -81,7 +86,7 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 GET /api/v1/Sale/UdefLayout/{progidOrLabel}
@@ -90,57 +95,53 @@ Accept: application/json; charset=utf-8
 Accept-Language: en
 ```
 
+## Sample response
+
 ```http_
 HTTP/1.1 200 SaleEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 921,
-  "ColumnId": 734,
-  "FieldDefault": "praesentium",
-  "FieldHeight": 393,
-  "FieldLabel": "quia",
-  "FieldLeft": 610,
-  "FieldTop": 203,
+  "UDefFieldId": 166,
+  "ColumnId": 869,
+  "FieldDefault": "dicta",
+  "FieldHeight": 873,
+  "FieldLabel": "ut",
+  "FieldLeft": 330,
+  "FieldTop": 694,
   "FieldType": "Checkbox",
-  "FieldWidth": 394,
-  "FormatMask": "nulla",
-  "HideLabel": true,
+  "FieldWidth": 636,
+  "FormatMask": "reiciendis",
+  "HideLabel": false,
   "IsIndexed": false,
-  "LabelHeight": 114,
-  "LabelLeft": 125,
-  "LabelTop": 565,
-  "LabelWidth": 244,
-  "LastVersionId": 823,
-  "ListTableId": 880,
+  "LabelHeight": 69,
+  "LabelLeft": 651,
+  "LabelTop": 500,
+  "LabelWidth": 91,
+  "LastVersionId": 35,
+  "ListTableId": 586,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 575,
-  "ProgId": "aut",
+  "Page1LineNo": 726,
+  "ProgId": "voluptatem",
   "IsReadOnly": false,
-  "ShortLabel": "ex",
-  "TabOrder": 792,
-  "TextLength": 489,
-  "Tooltip": "maiores",
-  "UdefIdentity": 959,
-  "UDListDefinitionId": 803,
+  "ShortLabel": "aut",
+  "TabOrder": 422,
+  "TextLength": 775,
+  "Tooltip": "est",
+  "UdefIdentity": 579,
+  "UDListDefinitionId": 60,
   "Justification": "Center",
-  "Version": 983,
-  "TemplateVariableName": "Schuppe Inc and Sons",
-  "HasBeenPublished": false,
-  "MdoListName": "Fay Group",
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "Version": 145,
+  "TemplateVariableName": "Friesen LLC",
+  "HasBeenPublished": true,
+  "MdoListName": "Cummerata Inc and Sons",
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
+      "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 948
+      "FieldLength": 566
     }
   }
 }

@@ -16,6 +16,8 @@ Stores the contact image that is displayed in the CRM application.
 * **contactId:** The contact id of the contact the image belongs to.
 * **image:** The image that is stored on the contact (System.Drawing.Image)
 
+
+
 [WSDL file for Services88/BLOB](../Services88-BLOB.md)
 
 Obtain a ticket from the [Services88/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -48,6 +50,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## SetContactImage Response
 
 ```xml
@@ -66,3 +69,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

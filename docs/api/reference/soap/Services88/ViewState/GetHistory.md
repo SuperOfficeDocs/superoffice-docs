@@ -17,6 +17,7 @@ Gets a History object.
 
 **Returns:** History
 
+
 [WSDL file for Services88/ViewState](../Services88-ViewState.md)
 
 Obtain a ticket from the [Services88/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -49,6 +50,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## GetHistory Response
 
 ```xml
@@ -77,3 +79,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

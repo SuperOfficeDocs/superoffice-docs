@@ -15,11 +15,17 @@ Agent with Pocket specific functionality
 
 Download [WSDL file for Services88/Pocket](../Services88-Pocket.md) if you need to generate your own proxy code.
 
+* [GetCallerIDsFromSelection](GetCallerIDsFromSelection.md)
+* [GetMyCallerIDs](GetMyCallerIDs.md)
 * [GetPocketStartupData](GetPocketStartupData.md)
 * [GetPushNotificationTagsForDevice](GetPushNotificationTagsForDevice.md)
 * [GetRegisteredDevices](GetRegisteredDevices.md)
+* [NotificationHandled](NotificationHandled.md)
+* [NotificationsHandled](NotificationsHandled.md)
+* [NotifyUsers](NotifyUsers.md)
 * [RegisterDeviceForPushNotification](RegisterDeviceForPushNotification.md)
 * [RunAppointmentAlarmBroker](RunAppointmentAlarmBroker.md)
 * [SendPushNotification](SendPushNotification.md)
 * [SetPushNotificationTagsForDevice](SetPushNotificationTagsForDevice.md)
 * [SetPushNotificationTagsForUser](SetPushNotificationTagsForUser.md)
+

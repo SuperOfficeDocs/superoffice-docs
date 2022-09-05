@@ -1,6 +1,6 @@
 ---
 title: POST Agents/User/GetValidUserName
-id: v1UserAgent_GetValidUserName
+uid: v1UserAgent_GetValidUserName
 ---
 
 # POST Agents/User/GetValidUserName
@@ -9,9 +9,15 @@ id: v1UserAgent_GetValidUserName
 POST /api/v1/Agents/User/GetValidUserName
 ```
 
-<br />
+<para />
 
-## Online Restricted: ## The User agent is not available in Online by default. User management is not allowed for partner apps
+
+## Online Restricted: ## The User agent is not available in Online by default. User management is not allowed for partner apps.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +28,7 @@ POST /api/v1/Agents/User/GetValidUserName
 ```http
 POST /api/v1/Agents/User/GetValidUserName?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,9 +44,9 @@ POST /api/v1/Agents/User/GetValidUserName?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-AssociateId, Type, PersonId, UserName
+AssociateId, Type, PersonId, UserName 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -48,7 +55,10 @@ AssociateId, Type, PersonId, UserName
 | PersonId | int32 |  |
 | UserName | string |  |
 
+
 ## Response: string
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -56,26 +66,29 @@ AssociateId, Type, PersonId, UserName
 
 Response body: string
 
-## Sample Request
+
+## Sample request
 
 ```http!
 POST /api/v1/Agents/User/GetValidUserName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 467,
+  "AssociateId": 939,
   "Type": "AnonymousAssociate",
-  "PersonId": 310,
-  "UserName": "Howe-Frami"
+  "PersonId": 777,
+  "UserName": "Hamill-Douglas"
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"Okuneva LLC"
+"Bins Inc and Sons"
 ```

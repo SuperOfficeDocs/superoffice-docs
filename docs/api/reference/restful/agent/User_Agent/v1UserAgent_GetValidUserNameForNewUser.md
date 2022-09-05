@@ -1,6 +1,6 @@
 ---
 title: POST Agents/User/GetValidUserNameForNewUser
-id: v1UserAgent_GetValidUserNameForNewUser
+uid: v1UserAgent_GetValidUserNameForNewUser
 ---
 
 # POST Agents/User/GetValidUserNameForNewUser
@@ -11,7 +11,15 @@ POST /api/v1/Agents/User/GetValidUserNameForNewUser
 
 Generates a valid username for an unsaved user
 
-## Online Restricted: ## The User agent is not available in Online by default. User management is not allowed for partner apps
+
+
+
+## Online Restricted: ## The User agent is not available in Online by default. User management is not allowed for partner apps.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +30,7 @@ Generates a valid username for an unsaved user
 ```http
 POST /api/v1/Agents/User/GetValidUserNameForNewUser?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,15 +46,18 @@ POST /api/v1/Agents/User/GetValidUserNameForNewUser?$select=name,department,cate
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-User
+User 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| User |  | SuperOffice User, with login credentials and an associated person. <br /> Carrier object for User. Services for the User Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IUserAgent">User Agent</see>. |
+| User |  | SuperOffice User, with login credentials and an associated person. <para /> Carrier object for User. Services for the User Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IUserAgent">User Agent</see>. |
+
 
 ## Response: string
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -53,70 +65,26 @@ User
 
 Response body: string
 
-## Sample Request
+
+## Sample request
 
 ```http!
 POST /api/v1/Agents/User/GetValidUserNameForNewUser
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "User": {
-    "AssociateId": 412,
-    "Name": "Hills Group",
-    "Rank": 96,
-    "Tooltip": "voluptas",
-    "LicenseOwners": [
-      {},
-      {}
-    ],
-    "Role": {},
-    "UserGroup": {},
-    "OtherGroups": [
-      {},
-      {}
-    ],
-    "Person": {},
-    "Deleted": true,
-    "Lastlogin": "2002-10-05T18:28:50.4224118+02:00",
-    "Lastlogout": "2016-09-02T18:28:50.4224118+02:00",
-    "EjUserId": 998,
-    "RequestSignature": "voluptates",
-    "Type": "AnonymousAssociate",
-    "IsPersonRetired": false,
-    "IsOnTravel": true,
-    "Credentials": [
-      {},
-      {}
-    ],
-    "UserName": "Stiedemann, Goodwin and Labadie",
-    "TicketCategories": [
-      {},
-      {}
-    ],
-    "NickName": "Moore, Batz and White",
-    "WaitingForApproval": true,
-    "ExtraFields": {
-      "ExtraFields1": "dolore",
-      "ExtraFields2": "quas"
-    },
-    "CustomFields": {
-      "CustomFields1": "vero",
-      "CustomFields2": "sequi"
-    },
-    "PostSaveCommands": [
-      {},
-      {}
-    ]
-  }
+  "User": null
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"Marks-Mitchell"
+"Abernathy LLC"
 ```

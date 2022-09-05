@@ -1,6 +1,6 @@
 ---
 title: GET List/ConsentPurpose/MDOItems
-id: v1ConsentPurposeList_GetMDOList
+uid: v1ConsentPurposeList_GetMDOList
 ---
 
 # GET List/ConsentPurpose/MDOItems
@@ -11,6 +11,12 @@ GET /api/v1/List/ConsentPurpose/MDOItems
 
 Get the MDO list items for "ConsentPurpose" - with headings and filtering by user group.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,8 +26,9 @@ Get the MDO list items for "ConsentPurpose" - with headings and filtering by use
 
 ```http
 GET /api/v1/List/ConsentPurpose/MDOItems?flat=False
-GET /api/v1/List/ConsentPurpose/MDOItems?query=inventore
+GET /api/v1/List/ConsentPurpose/MDOItems?query=amet
 ```
+
 
 ## Request Headers
 
@@ -36,7 +43,10 @@ GET /api/v1/List/ConsentPurpose/MDOItems?query=inventore
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -61,7 +71,7 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 GET /api/v1/List/ConsentPurpose/MDOItems
@@ -70,65 +80,58 @@ Accept: application/json; charset=utf-8
 Accept-Language: fr,de,ru,zh
 ```
 
+## Sample response
+
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 448,
-    "Name": "Hermann, Berge and Olson",
-    "ToolTip": "Ipsam est.",
-    "Deleted": true,
-    "Rank": 259,
-    "Type": "ex",
+    "Id": 283,
+    "Name": "Crona Group",
+    "ToolTip": "Repellat et ut rerum quas.",
+    "Deleted": false,
+    "Rank": 879,
+    "Type": "id",
     "ChildItems": [
       {
-        "Id": 96,
-        "Name": "Jewess Inc and Sons",
-        "ToolTip": "Accusamus fuga id est.",
+        "Id": 676,
+        "Name": "Grady Inc and Sons",
+        "ToolTip": "Non ducimus ullam.",
         "Deleted": false,
-        "Rank": 284,
-        "Type": "quo",
+        "Rank": 508,
+        "Type": "dignissimos",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "maiores",
-        "ColorBlock": 818,
-        "ExtraInfo": "qui",
-        "StyleHint": "minus",
-        "FullName": "Fleta Murray",
-        "TableRight": {},
+        "IconHint": "ullam",
+        "ColorBlock": 368,
+        "ExtraInfo": "consequatur",
+        "StyleHint": "est",
+        "FullName": "Prof. Jovanny McKenzie DDS",
+        "TableRight": null,
         "FieldProperties": {
           "fieldName": {
-            "FieldRight": {
-              "Mask": "FULL",
-              "Reason": ""
-            },
-            "FieldType": "System.String",
-            "FieldLength": 700
+            "FieldRight": null,
+            "FieldType": "System.Int32",
+            "FieldLength": 210
           }
         }
       }
     ],
-    "IconHint": "nostrum",
-    "ColorBlock": 783,
-    "ExtraInfo": "culpa",
-    "StyleHint": "consequatur",
-    "FullName": "Charlotte Murazik",
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "IconHint": "recusandae",
+    "ColorBlock": 585,
+    "ExtraInfo": "in",
+    "StyleHint": "voluptas",
+    "FullName": "Alyson Tavares Wisoky Sr.",
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
+        "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 690
+        "FieldLength": 20
       }
     }
   }

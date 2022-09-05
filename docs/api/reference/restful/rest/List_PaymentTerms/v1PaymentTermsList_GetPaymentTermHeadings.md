@@ -1,6 +1,6 @@
 ---
 title: GET List/PaymentTerm/Headings
-id: v1PaymentTermsList_GetPaymentTermHeadings
+uid: v1PaymentTermsList_GetPaymentTermHeadings
 ---
 
 # GET List/PaymentTerm/Headings
@@ -11,7 +11,14 @@ GET /api/v1/List/PaymentTerm/Headings
 
 Gets headings for the PaymentTerm list.
 
+
 Calls the List agent service GetGetHeadingsFromListDefinition.
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -26,7 +33,10 @@ Calls the List agent service GetGetHeadingsFromListDefinition.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -45,7 +55,7 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 GET /api/v1/List/PaymentTerm/Headings
@@ -54,30 +64,26 @@ Accept: application/json; charset=utf-8
 Accept-Language: en
 ```
 
+## Sample response
+
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 323,
-    "Name": "White Group",
-    "Tooltip": "unde",
+    "HeadingId": 206,
+    "Name": "Kreiger Inc and Sons",
+    "Tooltip": "nostrum",
     "Deleted": true,
-    "Rank": 237,
-    "UdListDefinitionId": 685,
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "Rank": 53,
+    "UdListDefinitionId": 574,
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.Int32",
-        "FieldLength": 95
+        "FieldRight": null,
+        "FieldType": "System.String",
+        "FieldLength": 760
       }
     }
   }

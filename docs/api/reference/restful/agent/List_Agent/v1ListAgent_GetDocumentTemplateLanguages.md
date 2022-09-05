@@ -1,6 +1,6 @@
 ---
 title: POST Agents/List/GetDocumentTemplateLanguages
-id: v1ListAgent_GetDocumentTemplateLanguages
+uid: v1ListAgent_GetDocumentTemplateLanguages
 ---
 
 # POST Agents/List/GetDocumentTemplateLanguages
@@ -11,6 +11,12 @@ POST /api/v1/Agents/List/GetDocumentTemplateLanguages
 
 Get the supported language variations for a document template
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Get the supported language variations for a document template
 ```http
 POST /api/v1/Agents/List/GetDocumentTemplateLanguages?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,15 +42,18 @@ POST /api/v1/Agents/List/GetDocumentTemplateLanguages?$select=name,department,ca
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-DocumentTemplateId
+DocumentTemplateId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | DocumentTemplateId | int32 |  |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -51,26 +61,29 @@ DocumentTemplateId
 
 Response body: array
 
-## Sample Request
+
+## Sample request
 
 ```http!
 POST /api/v1/Agents/List/GetDocumentTemplateLanguages
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 953
+  "DocumentTemplateId": 346
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 [
-  "recusandae",
-  "nobis"
+  "quia",
+  "voluptatem"
 ]
 ```

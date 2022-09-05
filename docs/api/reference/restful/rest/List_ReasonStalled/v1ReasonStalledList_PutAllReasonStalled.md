@@ -1,6 +1,6 @@
 ---
 title: PUT List/ReasonStalled/Items
-id: v1ReasonStalledList_PutAllReasonStalled
+uid: v1ReasonStalledList_PutAllReasonStalled
 ---
 
 # PUT List/ReasonStalled/Items
@@ -10,6 +10,13 @@ PUT /api/v1/List/ReasonStalled/Items
 ```
 
 Update the ReasonStalled list
+
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -25,9 +32,9 @@ Update the ReasonStalled list
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: listItems
+## Request Body: listItems  
 
-All the updated ReasonStalled.
+All the updated ReasonStalled. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -38,7 +45,10 @@ All the updated ReasonStalled.
 | UdListDefinitionId | int32 | The id of the list which this list item belongs to |
 | Rank | int32 | The rank of the list item |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -57,34 +67,36 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 PUT /api/v1/List/ReasonStalled/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 360,
-    "Name": "Mayert-Oberbrunner",
-    "Tooltip": "ut",
-    "Deleted": false,
-    "UdListDefinitionId": 279,
-    "Rank": 773
+    "Id": 393,
+    "Name": "Kuvalis, Nienow and Wuckert",
+    "Tooltip": "ipsam",
+    "Deleted": true,
+    "UdListDefinitionId": 807,
+    "Rank": 155
   },
   {
-    "Id": 360,
-    "Name": "Mayert-Oberbrunner",
-    "Tooltip": "ut",
-    "Deleted": false,
-    "UdListDefinitionId": 279,
-    "Rank": 773
+    "Id": 393,
+    "Name": "Kuvalis, Nienow and Wuckert",
+    "Tooltip": "ipsam",
+    "Deleted": true,
+    "UdListDefinitionId": 807,
+    "Rank": 155
   }
 ]
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -92,24 +104,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 347,
-    "Name": "Anderson Inc and Sons",
-    "Tooltip": "nemo",
+    "Id": 40,
+    "Name": "Wintheiser, Jacobson and Satterfield",
+    "Tooltip": "dolorem",
     "Deleted": true,
-    "UdListDefinitionId": 110,
-    "Rank": 773,
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "UdListDefinitionId": 482,
+    "Rank": 188,
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
+        "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 911
+        "FieldLength": 603
       }
     }
   }

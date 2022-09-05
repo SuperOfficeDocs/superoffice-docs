@@ -12,11 +12,12 @@ Implemented by the <see cref="M:SuperOffice.Services87.IWebhookAgent.GetLastErro
 ## GetLastError
 
 Return the most recent error message received when calling this webhook.
-<br />**Online Restricted:** The Webhook agent is not available in Online by default. Access must be requested specifically when app is registered.
+<para /><b>Online Restricted:</b> The Webhook agent is not available in Online by default. Access must be requested specifically when app is registered.
 
 * **webhookId:** Webhook to get error message for.
 
 **Returns:** Error message, or empty string if no errors received
+
 
 [WSDL file for Services87/Webhook](../Services87-Webhook.md)
 
@@ -50,6 +51,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## GetLastError Response
 
 ```xml
@@ -70,3 +72,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

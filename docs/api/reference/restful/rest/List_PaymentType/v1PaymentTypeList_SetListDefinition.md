@@ -1,6 +1,6 @@
 ---
 title: PUT List/PaymentType
-id: v1PaymentTypeList_SetListDefinition
+uid: v1PaymentTypeList_SetListDefinition
 ---
 
 # PUT List/PaymentType
@@ -10,6 +10,13 @@ PUT /api/v1/List/PaymentType
 ```
 
 Save the description of PaymentType list
+
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -25,12 +32,12 @@ Save the description of PaymentType list
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: listEntity
+## Request Body: listEntity  
 
 The list entity contains information about a specific list
-<br />
+<para />
 Carrier object for ListEntity.
-Services for the ListEntity Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IListAgent">List Agent</see>.
+Services for the ListEntity Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IListAgent">List Agent</see>. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -45,18 +52,16 @@ Services for the ListEntity Carrier is available from the <see cref="T:SuperOffi
 | ListType | string | The type of this list, often indicated by the database name, but not necessarily |
 | InUseByUserDefinedFields | bool | True if this in use by one or more udfields |
 
-## Response: object
 
-The list entity contains information about a specific list
+## Response: 
 
-Carrier object for ListEntity.
-Services for the ListEntity Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IListAgent">List Agent</see>.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -73,56 +78,52 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 PUT /api/v1/List/PaymentType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 711,
-  "Name": "Kulas, Bartoletti and Roob",
-  "Tooltip": "esse",
+  "Id": 764,
+  "Name": "Stehr-Von",
+  "Tooltip": "perspiciatis",
   "Deleted": true,
-  "Rank": 15,
-  "IsCustomList": false,
+  "Rank": 538,
+  "IsCustomList": true,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "qui",
+  "ListType": "ratione",
   "InUseByUserDefinedFields": false
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 659,
-  "Name": "Franecki Group",
-  "Tooltip": "possimus",
-  "Deleted": true,
-  "Rank": 255,
-  "IsCustomList": false,
-  "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "earum",
-  "InUseByUserDefinedFields": true,
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "Id": 703,
+  "Name": "Wuckert-Christiansen",
+  "Tooltip": "qui",
+  "Deleted": false,
+  "Rank": 784,
+  "IsCustomList": true,
+  "IsMDOList": true,
+  "UseGroupsAndHeadings": false,
+  "ListType": "quidem",
+  "InUseByUserDefinedFields": false,
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
+      "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 450
+      "FieldLength": 772
     }
   }
 }

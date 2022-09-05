@@ -1,6 +1,6 @@
 ---
 title: GET List/ReasonStalled/Items
-id: v1ReasonStalledList_GetAll
+uid: v1ReasonStalledList_GetAll
 ---
 
 # GET List/ReasonStalled/Items
@@ -11,6 +11,12 @@ GET /api/v1/List/ReasonStalled/Items
 
 Gets all the ReasonStalled items
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -18,8 +24,9 @@ Gets all the ReasonStalled items
 | includeDeleted | bool |  Include deleted items in the result? |
 
 ```http
-GET /api/v1/List/ReasonStalled/Items?includeDeleted=True
+GET /api/v1/List/ReasonStalled/Items?includeDeleted=False
 ```
+
 
 ## Request Headers
 
@@ -34,7 +41,10 @@ GET /api/v1/List/ReasonStalled/Items?includeDeleted=True
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -53,7 +63,7 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 GET /api/v1/List/ReasonStalled/Items
@@ -62,30 +72,26 @@ Accept: application/json; charset=utf-8
 Accept-Language: fr,de,ru,zh
 ```
 
+## Sample response
+
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 331,
-    "Name": "Altenwerth-Jaskolski",
-    "Tooltip": "sit",
+    "Id": 488,
+    "Name": "Reichel LLC",
+    "Tooltip": "eum",
     "Deleted": false,
-    "UdListDefinitionId": 290,
-    "Rank": 452,
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "UdListDefinitionId": 796,
+    "Rank": 969,
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
+        "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 733
+        "FieldLength": 575
       }
     }
   }

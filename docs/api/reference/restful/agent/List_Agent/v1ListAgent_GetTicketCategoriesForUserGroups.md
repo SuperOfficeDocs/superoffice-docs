@@ -1,6 +1,6 @@
 ---
 title: POST Agents/List/GetTicketCategoriesForUserGroups
-id: v1ListAgent_GetTicketCategoriesForUserGroups
+uid: v1ListAgent_GetTicketCategoriesForUserGroups
 ---
 
 # POST Agents/List/GetTicketCategoriesForUserGroups
@@ -11,6 +11,12 @@ POST /api/v1/Agents/List/GetTicketCategoriesForUserGroups
 
 Ticket categories for user groups
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Ticket categories for user groups
 ```http
 POST /api/v1/Agents/List/GetTicketCategoriesForUserGroups?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,15 +42,18 @@ POST /api/v1/Agents/List/GetTicketCategoriesForUserGroups?$select=name,departmen
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-UserGroupIds
+UserGroupIds 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | UserGroupIds | array |  |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -68,22 +78,24 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/List/GetTicketCategoriesForUserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "UserGroupIds": [
-    338,
-    577
+    994,
+    282
   ]
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -91,59 +103,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 565,
-    "Name": "Carroll-Kerluke",
-    "ToolTip": "Sint incidunt aperiam et.",
+    "Id": 344,
+    "Name": "Gleason Group",
+    "ToolTip": "Aut non voluptatum.",
     "Deleted": false,
-    "Rank": 166,
-    "Type": "in",
+    "Rank": 863,
+    "Type": "labore",
     "ChildItems": [
       {
-        "Id": 849,
-        "Name": "Predovic LLC",
-        "ToolTip": "Numquam deserunt culpa.",
+        "Id": 158,
+        "Name": "Bernier, Pagac and Emmerich",
+        "ToolTip": "Rem accusamus expedita sunt nobis minima consequatur voluptatem.",
         "Deleted": false,
-        "Rank": 67,
-        "Type": "temporibus",
+        "Rank": 181,
+        "Type": "corporis",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "incidunt",
-        "ColorBlock": 11,
-        "ExtraInfo": "asperiores",
-        "StyleHint": "et",
-        "FullName": "Oma Nicolas",
-        "TableRight": {},
+        "IconHint": "quaerat",
+        "ColorBlock": 329,
+        "ExtraInfo": "suscipit",
+        "StyleHint": "dolores",
+        "FullName": "Miss Roosevelt Justen Metz DDS",
+        "TableRight": null,
         "FieldProperties": {
           "fieldName": {
-            "FieldRight": {
-              "Mask": "FULL",
-              "Reason": "implement leading-edge interfaces"
-            },
-            "FieldType": "System.Int32",
-            "FieldLength": 385
+            "FieldRight": null,
+            "FieldType": "System.String",
+            "FieldLength": 682
           }
         }
       }
     ],
-    "IconHint": "asperiores",
-    "ColorBlock": 970,
-    "ExtraInfo": "dicta",
-    "StyleHint": "non",
-    "FullName": "Vickie Metz",
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "IconHint": "nobis",
+    "ColorBlock": 554,
+    "ExtraInfo": "ut",
+    "StyleHint": "quidem",
+    "FullName": "Matilda Boehm",
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
+        "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 58
+        "FieldLength": 103
       }
     }
   }

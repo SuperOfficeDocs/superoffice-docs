@@ -1,6 +1,6 @@
 ---
 title: GET List/Reason
-id: v1ReasonList_GetListDefinition
+uid: v1ReasonList_GetListDefinition
 ---
 
 # GET List/Reason
@@ -10,6 +10,13 @@ GET /api/v1/List/Reason
 ```
 
 Gets description of Reason list
+
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -24,17 +31,16 @@ Gets description of Reason list
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response: object
 
-The list entity contains information about a specific list
+## Response: 
 
-ListEntity entity with API _Links added.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -52,7 +58,7 @@ Response body: object
 | FieldProperties | object |  |
 | _Links | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 GET /api/v1/List/Reason
@@ -61,38 +67,34 @@ Accept: application/json; charset=utf-8
 Accept-Language: en
 ```
 
+## Sample response
+
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 827,
-  "Name": "Cronin-Gulgowski",
-  "Tooltip": "est",
-  "Deleted": false,
-  "Rank": 887,
-  "IsCustomList": true,
+  "Id": 589,
+  "Name": "Farrell LLC",
+  "Tooltip": "qui",
+  "Deleted": true,
+  "Rank": 354,
+  "IsCustomList": false,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "eius",
+  "UseGroupsAndHeadings": false,
+  "ListType": "enim",
   "InUseByUserDefinedFields": true,
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
+      "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 359
+      "FieldLength": 496
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

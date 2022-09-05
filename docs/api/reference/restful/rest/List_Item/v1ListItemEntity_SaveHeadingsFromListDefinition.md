@@ -1,6 +1,6 @@
 ---
 title: PUT List/{id}/Headings
-id: v1ListItemEntity_SaveHeadingsFromListDefinition
+uid: v1ListItemEntity_SaveHeadingsFromListDefinition
 ---
 
 # PUT List/{id}/Headings
@@ -11,9 +11,16 @@ PUT /api/v1/List/{id}/Headings
 
 Save headings for list resolved by the provided id.
 
+
+
+
+
+
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | id | int32 | The id of the list to look up. **Required** |
+
+
 
 ## Request Headers
 
@@ -29,9 +36,9 @@ Save headings for list resolved by the provided id.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entities
+## Request Body: entities  
 
-The headings to save
+The headings to save 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -42,7 +49,10 @@ The headings to save
 | Rank | int32 | Rank order |
 | UdListDefinitionId | int32 | The id of the list which this heading belongs to |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -62,34 +72,36 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 PUT /api/v1/List/{id}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 547,
-    "Name": "Smith-Sporer",
-    "Tooltip": "veritatis",
-    "Deleted": true,
-    "Rank": 422,
-    "UdListDefinitionId": 215
+    "HeadingId": 531,
+    "Name": "Kris Group",
+    "Tooltip": "consequatur",
+    "Deleted": false,
+    "Rank": 860,
+    "UdListDefinitionId": 864
   },
   {
-    "HeadingId": 547,
-    "Name": "Smith-Sporer",
-    "Tooltip": "veritatis",
-    "Deleted": true,
-    "Rank": 422,
-    "UdListDefinitionId": 215
+    "HeadingId": 531,
+    "Name": "Kris Group",
+    "Tooltip": "consequatur",
+    "Deleted": false,
+    "Rank": 860,
+    "UdListDefinitionId": 864
   }
 ]
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -97,24 +109,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 699,
-    "Name": "Carroll-Cronin",
-    "Tooltip": "ratione",
+    "HeadingId": 768,
+    "Name": "Muller-Swift",
+    "Tooltip": "cum",
     "Deleted": false,
-    "Rank": 55,
-    "UdListDefinitionId": 85,
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": "reintermediate dot-com deliverables"
-    },
+    "Rank": 541,
+    "UdListDefinitionId": 209,
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 85
+        "FieldRight": null,
+        "FieldType": "System.Int32",
+        "FieldLength": 11
       }
     }
   }

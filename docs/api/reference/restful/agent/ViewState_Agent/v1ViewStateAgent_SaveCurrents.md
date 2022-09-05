@@ -1,6 +1,6 @@
 ---
 title: POST Agents/ViewState/SaveCurrents
-id: v1ViewStateAgent_SaveCurrents
+uid: v1ViewStateAgent_SaveCurrents
 ---
 
 # POST Agents/ViewState/SaveCurrents
@@ -11,7 +11,13 @@ POST /api/v1/Agents/ViewState/SaveCurrents
 
 Saves the history elements as the current value for their respective lists.
 
+
 If more than one item is submitted for the same list, they are added sequently, meaning that the last one is the most current.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +28,7 @@ If more than one item is submitted for the same list, they are added sequently, 
 ```http
 POST /api/v1/Agents/ViewState/SaveCurrents?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,15 +44,18 @@ POST /api/v1/Agents/ViewState/SaveCurrents?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-Currents
+Currents 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | Currents | array |  |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -65,29 +75,31 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/ViewState/SaveCurrents
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "Currents": [
     {
-      "Rank": 168,
-      "Id": 376,
-      "HistoryName": "Goldner, Yundt and O'Kon",
-      "HistoryId": 547,
-      "AssociateId": 546,
-      "Name": "Denesik Inc and Sons",
-      "ItemInfo": "esse"
+      "Rank": 220,
+      "Id": 520,
+      "HistoryName": "D'Amore LLC",
+      "HistoryId": 400,
+      "AssociateId": 835,
+      "Name": "Bins-Reinger",
+      "ItemInfo": "aliquam"
     }
   ]
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -95,25 +107,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Rank": 897,
-    "Id": 504,
-    "HistoryName": "Kilback LLC",
-    "HistoryId": 108,
-    "AssociateId": 266,
-    "Name": "Lindgren LLC",
-    "ItemInfo": "asperiores",
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "Rank": 289,
+    "Id": 998,
+    "HistoryName": "Hodkiewicz Inc and Sons",
+    "HistoryId": 186,
+    "AssociateId": 146,
+    "Name": "Stoltenberg Group",
+    "ItemInfo": "ad",
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": "morph web-enabled architectures"
-        },
-        "FieldType": "System.String",
-        "FieldLength": 156
+        "FieldRight": null,
+        "FieldType": "System.Int32",
+        "FieldLength": 203
       }
     }
   }

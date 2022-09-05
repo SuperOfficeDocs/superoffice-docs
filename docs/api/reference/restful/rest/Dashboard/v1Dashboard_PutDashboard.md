@@ -1,6 +1,6 @@
 ---
 title: PUT Dashboard/{id}
-id: v1Dashboard_PutDashboard
+uid: v1Dashboard_PutDashboard
 ---
 
 # PUT Dashboard/{id}
@@ -11,9 +11,15 @@ PUT /api/v1/Dashboard/{id}
 
 Updates the existing Dashboard
 
+
+
+
+
+
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | id | int32 | The Dashboard id to update. **Required** |
+
 
 ## Query String Parameters
 
@@ -24,6 +30,7 @@ Updates the existing Dashboard
 ```http
 PUT /api/v1/Dashboard/{id}?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -39,9 +46,9 @@ PUT /api/v1/Dashboard/{id}?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entity
+## Request Body: entity  
 
-The Dashboard to be saved.
+The Dashboard to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -51,18 +58,17 @@ The Dashboard to be saved.
 | Layout | string | The dashboard layout, how the tiles are organized on the screen |
 | Tiles | array | The tiles associated with this dashboard |
 
-## Response: object
 
-Dashboard configuration
+## Response: 
 
-Dashboard entity with API _Links added.
+Dashboard updated.
 
 | Response | Description |
 |----------------|-------------|
 | 200 | Dashboard updated. |
 | 400 | Bad request. Entity to save is not in request body. |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -75,32 +81,32 @@ Response body: object
 | FieldProperties | object |  |
 | _Links | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 PUT /api/v1/Dashboard/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 550,
-  "AssociateId": 351,
-  "Caption": "et",
+  "DashboardId": 967,
+  "AssociateId": 355,
+  "Caption": "repudiandae",
   "Layout": "Four",
   "Tiles": [
     {
-      "DashboardTileId": 977,
-      "Caption": "sed",
-      "Description": "Mandatory tertiary project",
-      "ChartName": "Quitzon LLC",
-      "ChartId": "eius",
+      "DashboardTileId": 265,
+      "Caption": "est",
+      "Description": "Object-based human-resource emulation",
+      "ChartName": "Olson-Franecki",
+      "ChartId": "consequatur",
       "IsDefault": false,
-      "AssociateId": 432,
-      "GroupId": 642,
-      "SelectionId": 461,
-      "Config": "occaecati",
+      "AssociateId": 442,
+      "GroupId": 105,
+      "SelectionId": 888,
+      "Config": "voluptatibus",
       "Type": "Bignum",
       "EntityType": "Activity",
       "Options": [
@@ -116,27 +122,29 @@ Content-Type: application/json; charset=utf-8
 }
 ```
 
+## Sample response
+
 ```http_
 HTTP/1.1 200 Dashboard updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 558,
-  "AssociateId": 920,
-  "Caption": "esse",
+  "DashboardId": 488,
+  "AssociateId": 364,
+  "Caption": "aperiam",
   "Layout": "Four",
   "Tiles": [
     {
-      "DashboardTileId": 205,
-      "Caption": "voluptas",
-      "Description": "Exclusive systematic algorithm",
-      "ChartName": "Kutch-Fahey",
-      "ChartId": "officiis",
-      "IsDefault": false,
-      "AssociateId": 182,
-      "GroupId": 560,
-      "SelectionId": 180,
-      "Config": "neque",
+      "DashboardTileId": 788,
+      "Caption": "illum",
+      "Description": "Profound zero tolerance framework",
+      "ChartName": "O'Reilly, Fahey and Halvorson",
+      "ChartId": "debitis",
+      "IsDefault": true,
+      "AssociateId": 307,
+      "GroupId": 604,
+      "SelectionId": 460,
+      "Config": "aut",
       "Type": "Bignum",
       "EntityType": "Activity",
       "Options": [
@@ -147,31 +155,22 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "TableRight": {},
+      "TableRight": null,
       "FieldProperties": {
         "fieldName": {
-          "FieldRight": {
-            "Mask": "FULL",
-            "Reason": ""
-          },
-          "FieldType": "System.String",
-          "FieldLength": 280
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 769
         }
       }
     }
   ],
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
+      "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 336
+      "FieldLength": 634
     }
   },
   "_Links": {

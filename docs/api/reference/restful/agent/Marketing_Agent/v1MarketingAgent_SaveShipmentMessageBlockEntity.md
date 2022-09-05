@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Marketing/SaveShipmentMessageBlockEntity
-id: v1MarketingAgent_SaveShipmentMessageBlockEntity
+uid: v1MarketingAgent_SaveShipmentMessageBlockEntity
 ---
 
 # POST Agents/Marketing/SaveShipmentMessageBlockEntity
@@ -10,6 +10,13 @@ POST /api/v1/Agents/Marketing/SaveShipmentMessageBlockEntity
 ```
 
 Updates the existing ShipmentMessageBlockEntity or creates a new ShipmentMessageBlockEntity if the id parameter is empty
+
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -25,9 +32,9 @@ Updates the existing ShipmentMessageBlockEntity or creates a new ShipmentMessage
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entity
+## Request Body: entity  
 
-The ShipmentMessageBlockEntity to be saved.
+The ShipmentMessageBlockEntity to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -40,18 +47,16 @@ The ShipmentMessageBlockEntity to be saved.
 | UpdatedAssociateId | int32 | Last updated by whom |
 | UpdatedCount | int32 | Number of updates made to this record |
 
-## Response: object
 
-This entity contains information about design blocks that can be used in a shipment/mailing message
+## Response: 
 
-Carrier object for ShipmentMessageBlockEntity.
-Services for the ShipmentMessageBlockEntity Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IMarketingAgent">Marketing Agent</see>.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -66,52 +71,48 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Marketing/SaveShipmentMessageBlockEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageBlockId": 274,
-  "AssociateId": 605,
-  "Block": "qui",
-  "Registered": "2009-02-25T18:28:49.4650876+01:00",
-  "RegisteredAssociateId": 735,
-  "Updated": "2003-09-24T18:28:49.4650876+02:00",
-  "UpdatedAssociateId": 111,
-  "UpdatedCount": 694
+  "ShipmentMessageBlockId": 741,
+  "AssociateId": 386,
+  "Block": "accusamus",
+  "Registered": "1997-01-04T11:10:27.2874535+01:00",
+  "RegisteredAssociateId": 86,
+  "Updated": "2001-04-14T11:10:27.2874535+02:00",
+  "UpdatedAssociateId": 899,
+  "UpdatedCount": 909
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageBlockId": 375,
-  "AssociateId": 221,
-  "Block": "consequatur",
-  "Registered": "2019-07-22T18:28:49.4650876+02:00",
-  "RegisteredAssociateId": 261,
-  "Updated": "2010-08-08T18:28:49.4650876+02:00",
-  "UpdatedAssociateId": 473,
-  "UpdatedCount": 259,
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "ShipmentMessageBlockId": 586,
+  "AssociateId": 290,
+  "Block": "sed",
+  "Registered": "2007-07-08T11:10:27.2884555+02:00",
+  "RegisteredAssociateId": 843,
+  "Updated": "2013-03-20T11:10:27.2884555+01:00",
+  "UpdatedAssociateId": 499,
+  "UpdatedCount": 254,
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
+      "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 680
+      "FieldLength": 255
     }
   }
 }

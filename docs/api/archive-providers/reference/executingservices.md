@@ -8,7 +8,7 @@ keywords:
   - "archive provider"
   - "ExecutingServices"
 so.generated: true
-so.date: 03.23.2021
+so.date: 08.26.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -22,13 +22,13 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 ## Supported Entities
 
 | Name | Description |
-| ---- | ----- |
+| ---- | ----------- |
 |"current"|[Current]|
 
 ## Supported Columns
 
-| Name | Restriction | Description | OrderBy
-| ---- | ----- | ------- | ------ |
+| Name | Restriction | Description | OrderBy |
+| ---- | ----------- | ----------- | ------- |
 |contextId|string|Context ID: Context ID| x |
 |threadId|int|Thread ID: Thread ID| x |
 |threadName|string|Thread: Thread| x |
@@ -38,18 +38,23 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |runtime|int|Time ms: Time ms| x |
 |assocName|string|User: User| x |
 |appToken|string|App token: App token| x |
+|appName|string|App name: App name| x |
 |opSeqNo|int|Seq no: Seq no| x |
 |dbOps|int|DbOps: DbOps| x |
 |dbRows|int|DbRows: DbRows| x |
+|maxThreads|int|Max Threads: Max Threads| x |
 
 ## Sample
 
 ```http!
-GET /api/v1/archive/ExecutingServices?$select=method,runtime
+GET /api/v1/archive/ExecutingServices?$select=method,assocName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv
 
 ```
 
-See also: <see cref="T:SuperOffice.CRM.Services.IArchiveAgent">IArchiveAgent</see>.
+
+
+See also: <see cref="T:SuperOffice.CRM.Services.IArchiveAgent">IArchiveAgent</see>.</p>
+

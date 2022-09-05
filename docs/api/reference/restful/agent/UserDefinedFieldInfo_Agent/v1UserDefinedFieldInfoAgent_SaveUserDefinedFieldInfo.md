@@ -1,6 +1,6 @@
 ---
 title: POST Agents/UserDefinedFieldInfo/SaveUserDefinedFieldInfo
-id: v1UserDefinedFieldInfoAgent_SaveUserDefinedFieldInfo
+uid: v1UserDefinedFieldInfoAgent_SaveUserDefinedFieldInfo
 ---
 
 # POST Agents/UserDefinedFieldInfo/SaveUserDefinedFieldInfo
@@ -10,6 +10,13 @@ POST /api/v1/Agents/UserDefinedFieldInfo/SaveUserDefinedFieldInfo
 ```
 
 Updates the existing UserDefinedFieldInfo or creates a new UserDefinedFieldInfo if the id parameter is empty
+
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -25,9 +32,9 @@ Updates the existing UserDefinedFieldInfo or creates a new UserDefinedFieldInfo 
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entity
+## Request Body: entity  
 
-The UserDefinedFieldInfo to be saved.
+The UserDefinedFieldInfo to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -66,18 +73,16 @@ The UserDefinedFieldInfo to be saved.
 | HasBeenPublished | bool | Has the udef field been published? |
 | MdoListName | string | MDO list name used to populate this list. Derived from UDListDefinitionId and ListTableId. (Read-only) |
 
-## Response: object
 
-Return information about the user defined fields. The information can be used to mirror the layout of the user-defined fields in the user interface.
+## Response: 
 
-Carrier object for UserDefinedFieldInfo.
-Services for the UserDefinedFieldInfo Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent">UserDefinedFieldInfo Agent</see>.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -118,7 +123,7 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/UserDefinedFieldInfo/SaveUserDefinedFieldInfo
@@ -128,94 +133,90 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 32,
-  "ColumnId": 730,
-  "FieldDefault": "accusantium",
-  "FieldHeight": 209,
-  "FieldLabel": "et",
-  "FieldLeft": 879,
-  "FieldTop": 601,
+  "UDefFieldId": 995,
+  "ColumnId": 420,
+  "FieldDefault": "laboriosam",
+  "FieldHeight": 700,
+  "FieldLabel": "libero",
+  "FieldLeft": 456,
+  "FieldTop": 289,
   "FieldType": "Checkbox",
-  "FieldWidth": 950,
-  "FormatMask": "quia",
-  "HideLabel": true,
+  "FieldWidth": 608,
+  "FormatMask": "corrupti",
+  "HideLabel": false,
   "IsIndexed": true,
-  "LabelHeight": 800,
-  "LabelLeft": 626,
-  "LabelTop": 148,
-  "LabelWidth": 219,
-  "LastVersionId": 63,
-  "ListTableId": 402,
+  "LabelHeight": 826,
+  "LabelLeft": 709,
+  "LabelTop": 672,
+  "LabelWidth": 782,
+  "LastVersionId": 265,
+  "ListTableId": 462,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 370,
-  "ProgId": "est",
-  "IsReadOnly": true,
-  "ShortLabel": "nisi",
-  "TabOrder": 538,
-  "TextLength": 679,
-  "Tooltip": "rerum",
-  "UdefIdentity": 148,
-  "UDListDefinitionId": 579,
+  "Page1LineNo": 780,
+  "ProgId": "debitis",
+  "IsReadOnly": false,
+  "ShortLabel": "similique",
+  "TabOrder": 922,
+  "TextLength": 97,
+  "Tooltip": "minima",
+  "UdefIdentity": 492,
+  "UDListDefinitionId": 536,
   "Justification": "Center",
-  "Version": 456,
-  "TemplateVariableName": "Skiles-Wisozk",
+  "Version": 450,
+  "TemplateVariableName": "Ullrich-Bayer",
   "HasBeenPublished": true,
-  "MdoListName": "Boyer LLC"
+  "MdoListName": "Harris, O'Reilly and Farrell"
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 820,
-  "ColumnId": 279,
-  "FieldDefault": "aperiam",
-  "FieldHeight": 60,
-  "FieldLabel": "nulla",
-  "FieldLeft": 82,
-  "FieldTop": 275,
+  "UDefFieldId": 271,
+  "ColumnId": 24,
+  "FieldDefault": "molestiae",
+  "FieldHeight": 387,
+  "FieldLabel": "voluptatem",
+  "FieldLeft": 906,
+  "FieldTop": 678,
   "FieldType": "Checkbox",
-  "FieldWidth": 763,
-  "FormatMask": "numquam",
+  "FieldWidth": 569,
+  "FormatMask": "dolorem",
   "HideLabel": false,
   "IsIndexed": false,
-  "LabelHeight": 233,
-  "LabelLeft": 231,
-  "LabelTop": 343,
-  "LabelWidth": 31,
-  "LastVersionId": 903,
-  "ListTableId": 769,
+  "LabelHeight": 239,
+  "LabelLeft": 951,
+  "LabelTop": 592,
+  "LabelWidth": 957,
+  "LastVersionId": 803,
+  "ListTableId": 626,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 298,
-  "ProgId": "corporis",
+  "Page1LineNo": 56,
+  "ProgId": "atque",
   "IsReadOnly": false,
-  "ShortLabel": "consectetur",
-  "TabOrder": 360,
-  "TextLength": 655,
-  "Tooltip": "quo",
-  "UdefIdentity": 914,
-  "UDListDefinitionId": 431,
+  "ShortLabel": "possimus",
+  "TabOrder": 299,
+  "TextLength": 146,
+  "Tooltip": "aliquam",
+  "UdefIdentity": 624,
+  "UDListDefinitionId": 882,
   "Justification": "Center",
-  "Version": 291,
-  "TemplateVariableName": "Hoeger, Vandervort and Kulas",
+  "Version": 552,
+  "TemplateVariableName": "Casper-Steuber",
   "HasBeenPublished": false,
-  "MdoListName": "Beahan, Krajcik and Runte",
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "MdoListName": "Pouros-Heidenreich",
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
+      "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 982
+      "FieldLength": 294
     }
   }
 }

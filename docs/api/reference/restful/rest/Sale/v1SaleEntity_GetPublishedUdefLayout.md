@@ -1,6 +1,6 @@
 ---
 title: GET Sale/UdefLayout/Published
-id: v1SaleEntity_GetPublishedUdefLayout
+uid: v1SaleEntity_GetPublishedUdefLayout
 ---
 
 # GET Sale/UdefLayout/Published
@@ -10,6 +10,13 @@ GET /api/v1/Sale/UdefLayout/Published
 ```
 
 Currently published SaleEntity user-defined field layout.
+
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -24,7 +31,10 @@ Currently published SaleEntity user-defined field layout.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -71,14 +81,16 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 GET /api/v1/Sale/UdefLayout/Published
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -86,52 +98,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 232,
-    "ColumnId": 632,
-    "FieldDefault": "voluptatem",
-    "FieldHeight": 319,
-    "FieldLabel": "quo",
-    "FieldLeft": 683,
-    "FieldTop": 105,
+    "UDefFieldId": 581,
+    "ColumnId": 598,
+    "FieldDefault": "quia",
+    "FieldHeight": 788,
+    "FieldLabel": "ratione",
+    "FieldLeft": 232,
+    "FieldTop": 256,
     "FieldType": "Checkbox",
-    "FieldWidth": 620,
-    "FormatMask": "at",
+    "FieldWidth": 295,
+    "FormatMask": "perferendis",
     "HideLabel": true,
-    "IsIndexed": true,
-    "LabelHeight": 539,
-    "LabelLeft": 326,
-    "LabelTop": 533,
-    "LabelWidth": 952,
-    "LastVersionId": 174,
-    "ListTableId": 774,
+    "IsIndexed": false,
+    "LabelHeight": 530,
+    "LabelLeft": 838,
+    "LabelTop": 348,
+    "LabelWidth": 12,
+    "LastVersionId": 488,
+    "ListTableId": 293,
     "IsMandatory": false,
     "Type": "Appointment",
-    "Page1LineNo": 521,
-    "ProgId": "et",
-    "IsReadOnly": false,
-    "ShortLabel": "quisquam",
-    "TabOrder": 120,
-    "TextLength": 383,
-    "Tooltip": "fugit",
-    "UdefIdentity": 267,
-    "UDListDefinitionId": 527,
+    "Page1LineNo": 18,
+    "ProgId": "deleniti",
+    "IsReadOnly": true,
+    "ShortLabel": "aliquid",
+    "TabOrder": 870,
+    "TextLength": 565,
+    "Tooltip": "placeat",
+    "UdefIdentity": 509,
+    "UDListDefinitionId": 587,
     "Justification": "Center",
-    "Version": 459,
-    "TemplateVariableName": "DuBuque Group",
+    "Version": 916,
+    "TemplateVariableName": "Schneider, Greenholt and Greenfelder",
     "HasBeenPublished": false,
-    "MdoListName": "Bailey Inc and Sons",
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "MdoListName": "Rempel, Weissnat and Lang",
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 2
+        "FieldRight": null,
+        "FieldType": "System.Int32",
+        "FieldLength": 938
       }
     }
   }

@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "s_smtp_servers"
-so.date: 04.12.2022
+so.date: 08.26.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -26,6 +26,7 @@ Contains the smtp server for a shipment
 |smtp\_server|The actual smtp server|String(255)|&#x25CF;|
 |smtp\_port|The port of the SMTP server.|Int| |
 
+
 ![s_smtp_servers table relationship diagram](./media/s_smtp_servers.png)
 
 [!include[details](./includes/s-smtp-servers.md)]
@@ -43,6 +44,7 @@ Contains the smtp server for a shipment
 |------|-------------|
 |[s\_shipment](s-shipment.md)  |Contains info about one shipment. The addresses are stored in s_shipment_addr |
 
+
 ## Replication Flags
 
 * None
@@ -50,3 +52,4 @@ Contains the smtp server for a shipment
 ## Security Flags
 
 * No access control via user's Role.
+

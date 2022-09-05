@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Import/CreateDefaultImportLine
-id: v1ImportAgent_CreateDefaultImportLine
+uid: v1ImportAgent_CreateDefaultImportLine
 ---
 
 # POST Agents/Import/CreateDefaultImportLine
@@ -11,6 +11,12 @@ POST /api/v1/Agents/Import/CreateDefaultImportLine
 
 Create a new empty import row with x count of values
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Create a new empty import row with x count of values
 ```http
 POST /api/v1/Agents/Import/CreateDefaultImportLine?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,26 +42,24 @@ POST /api/v1/Agents/Import/CreateDefaultImportLine?$select=name,department,categ
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-CountColumns
+CountColumns 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | CountColumns | int32 |  |
 
-## Response: object
 
-Used to import data into the system. Representing one entity that will be imported.
+## Response: 
 
-Carrier object for ImportLine.
-Services for the ImportLine Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IImportAgent">Import Agent</see>.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -66,7 +71,7 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Import/CreateDefaultImportLine
@@ -76,9 +81,11 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "CountColumns": 239
+  "CountColumns": 816
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -86,25 +93,19 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Values": [
-    "temporibus",
-    "explicabo"
+    "voluptas",
+    "occaecati"
   ],
-  "Selected": true,
+  "Selected": false,
   "Operation": "ContactAdded",
   "Type": "Contact",
-  "ExternalKey": "cupiditate",
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "ExternalKey": "sunt",
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
+      "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 564
+      "FieldLength": 996
     }
   }
 }

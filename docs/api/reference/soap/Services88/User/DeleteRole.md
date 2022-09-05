@@ -12,10 +12,12 @@ Implemented by the <see cref="M:SuperOffice.Services88.IUserAgent.DeleteRole">Su
 ## DeleteRole
 
 Delete the specified role and move all users associated with the role to the replacingRoleId
-<br />**Online Restricted:** The User agent is not available in Online by default. User management is not allowed for partner apps.
+<para /><b>Online Restricted:</b> The User agent is not available in Online by default. User management is not allowed for partner apps.
 
 * **roleIdToDelete:** The roleId to delete
 * **replacingRoleId:** The roleId which all associated users will be moved to.
+
+
 
 [WSDL file for Services88/User](../Services88-User.md)
 
@@ -50,6 +52,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## DeleteRole Response
 
 ```xml
@@ -69,3 +72,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

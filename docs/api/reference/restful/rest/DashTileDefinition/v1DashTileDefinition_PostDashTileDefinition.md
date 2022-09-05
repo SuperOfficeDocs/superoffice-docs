@@ -1,6 +1,6 @@
 ---
 title: POST DashTileDefinition
-id: v1DashTileDefinition_PostDashTileDefinition
+uid: v1DashTileDefinition_PostDashTileDefinition
 ---
 
 # POST DashTileDefinition
@@ -11,7 +11,13 @@ POST /api/v1/DashTileDefinition
 
 Creates a new DashTileDefinition
 
+
 Calls the Dash agent service SaveDashTileDefinition.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +28,7 @@ Calls the Dash agent service SaveDashTileDefinition.
 ```http
 POST /api/v1/DashTileDefinition?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,9 +44,9 @@ POST /api/v1/DashTileDefinition?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: newEntity
+## Request Body: newEntity  
 
-The DashTileDefinition to be saved.
+The DashTileDefinition to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -60,19 +67,19 @@ The DashTileDefinition to be saved.
 | LayoutConfig | string | The JSON formatted layout config |
 | SecondarySelectionId | int32 | Selection holding the replaced or changed criterias (period comparisons etc) |
 | MeasureByField | string | Field to group by |
+| Usage | string | Where this tile can be used |
 | ProviderName | string | Name of provider to use with this entity type - read only property |
 
-## Response: object
 
-Dashboard Tile definition
+## Response: 
 
-DashTileDefinition entity with API _Links added.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -93,12 +100,13 @@ Response body: object
 | LayoutConfig | string | The JSON formatted layout config |
 | SecondarySelectionId | int32 | Selection holding the replaced or changed criterias (period comparisons etc) |
 | MeasureByField | string | Field to group by |
+| Usage | string | Where this tile can be used |
 | ProviderName | string | Name of provider to use with this entity type - read only property |
 | TableRight |  |  |
 | FieldProperties | object |  |
 | _Links | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/DashTileDefinition
@@ -108,62 +116,60 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileDefinitionId": 865,
-  "Name": "O'Reilly LLC",
-  "Description": "Persistent neutral portal",
-  "DefaultHeight": 177,
-  "DefaultWidth": 266,
+  "DashboardTileDefinitionId": 227,
+  "Name": "Wuckert LLC",
+  "Description": "Mandatory composite standardization",
+  "DefaultHeight": 688,
+  "DefaultWidth": 630,
   "TileType": "Area",
   "EntityType": "Appointment",
-  "EntityName": "Wyman, Conroy and Schmitt",
-  "SelectionId": 754,
+  "EntityName": "Crona, Fahey and Gutkowski",
+  "SelectionId": 291,
   "CurrencyMode": "Base",
-  "CurrencyCode": "incidunt",
+  "CurrencyCode": "maiores",
   "Measure": "Average",
-  "MeasureField": "est",
-  "SortBy": "ea",
-  "LayoutConfig": "et",
-  "SecondarySelectionId": 289,
-  "MeasureByField": "odio",
-  "ProviderName": "Shields Group"
+  "MeasureField": "ullam",
+  "SortBy": "modi",
+  "LayoutConfig": "consequatur",
+  "SecondarySelectionId": 748,
+  "MeasureByField": "excepturi",
+  "Usage": "Dashboard",
+  "ProviderName": "Koepp Inc and Sons"
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileDefinitionId": 196,
-  "Name": "Feest-Hills",
-  "Description": "Open-architected neutral emulation",
-  "DefaultHeight": 687,
-  "DefaultWidth": 959,
+  "DashboardTileDefinitionId": 111,
+  "Name": "Marks-Murphy",
+  "Description": "Down-sized cohesive matrix",
+  "DefaultHeight": 352,
+  "DefaultWidth": 778,
   "TileType": "Area",
   "EntityType": "Appointment",
-  "EntityName": "Maggio-Hagenes",
-  "SelectionId": 480,
+  "EntityName": "Wiza-Kilback",
+  "SelectionId": 809,
   "CurrencyMode": "Base",
-  "CurrencyCode": "est",
+  "CurrencyCode": "dolores",
   "Measure": "Average",
-  "MeasureField": "quibusdam",
-  "SortBy": "ex",
-  "LayoutConfig": "temporibus",
-  "SecondarySelectionId": 643,
-  "MeasureByField": "iste",
-  "ProviderName": "Rowe-Hahn",
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "MeasureField": "nam",
+  "SortBy": "ducimus",
+  "LayoutConfig": "voluptatum",
+  "SecondarySelectionId": 541,
+  "MeasureByField": "cum",
+  "Usage": "Dashboard",
+  "ProviderName": "Jacobs, Schmeler and Frami",
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
+      "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 857
+      "FieldLength": 158
     }
   },
   "_Links": {

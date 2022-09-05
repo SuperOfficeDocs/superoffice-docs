@@ -1,6 +1,6 @@
 ---
 title: PUT ForeignApp/{appName}
-id: v1ForeignAppEntity_PostForeignApp_PUT
+uid: v1ForeignAppEntity_PostForeignApp_PUT
 ---
 
 # PUT ForeignApp/{appName}
@@ -11,11 +11,18 @@ PUT /api/v1/ForeignApp/{appName}
 
 Creates a new ForeignApp
 
+
 Calls the ForeignSystem agent service SaveForeignAppEntity.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | appName | string | The ForeignApp to be saved. **Required** |
+
+
 
 ## Request Headers
 
@@ -30,16 +37,16 @@ Calls the ForeignSystem agent service SaveForeignAppEntity.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response: object
 
-Carrier object for ForeignAppEntity.
-Services for the ForeignAppEntity Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IForeignSystemAgent">ForeignSystem Agent</see>.
+## Response: 
+
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -53,110 +60,55 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 PUT /api/v1/ForeignApp/{appName}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 458,
-  "Name": "Labadie, Altenwerth and Considine",
-  "CreatedDate": "2003-03-28T18:25:50.5475974+01:00",
-  "UpdatedDate": "2018-12-21T18:25:50.5475974+01:00",
-  "CreatedBy": {
-    "AssociateId": 605,
-    "Name": "Welch Group",
-    "PersonId": 264,
-    "Rank": 882,
-    "Tooltip": "consequatur",
-    "Type": "AnonymousAssociate",
-    "GroupIdx": 600,
-    "FullName": "Carolyne Kunze",
-    "FormalName": "Barrows, Oberbrunner and Oberbrunner",
-    "Deleted": false,
-    "EjUserId": 86,
-    "UserName": "Ullrich Group",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.Int32",
-        "FieldLength": 857
-      }
-    }
-  },
-  "UpdatedBy": {
-    "AssociateId": 625,
-    "Name": "Mayert LLC",
-    "PersonId": 985,
-    "Rank": 837,
-    "Tooltip": "cupiditate",
-    "Type": "AnonymousAssociate",
-    "GroupIdx": 24,
-    "FullName": "Karley Quitzon",
-    "FormalName": "Hintz, McKenzie and Willms",
-    "Deleted": true,
-    "EjUserId": 838,
-    "UserName": "Gerhold, Raynor and Kautzer",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.Int32",
-        "FieldLength": 61
-      }
-    }
-  },
+  "ForeignAppId": 529,
+  "Name": "Pfannerstill-Greenholt",
+  "CreatedDate": "2004-07-02T11:10:52.8781761+02:00",
+  "UpdatedDate": "1999-12-31T11:10:52.8781761+01:00",
+  "CreatedBy": null,
+  "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 562,
-      "Name": "Schuster Inc and Sons",
-      "CreatedDate": "2011-12-20T18:25:50.5475974+01:00",
-      "UpdatedDate": "2015-05-07T18:25:50.5475974+02:00",
-      "AssociateFullName": "Deshawn Carter",
-      "CreatedBy": "alias",
+      "ForeignDeviceId": 429,
+      "Name": "Spinka, Hilpert and Mohr",
+      "CreatedDate": "2011-02-17T11:10:52.8791778+01:00",
+      "UpdatedDate": "2012-12-12T11:10:52.8791778+01:00",
+      "AssociateFullName": "Toy Ratke",
+      "CreatedBy": "quidem",
       "UpdatedBy": "qui",
-      "DeviceIdentifier": "aut",
-      "ForeignAppId": 77,
-      "TableRight": {},
+      "DeviceIdentifier": "inventore",
+      "ForeignAppId": 546,
+      "TableRight": null,
       "FieldProperties": {
         "fieldName": {
-          "FieldRight": {
-            "Mask": "FULL",
-            "Reason": ""
-          },
+          "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 226
+          "FieldLength": 954
         }
       }
     }
   ],
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
-      "FieldType": "System.String",
-      "FieldLength": 746
+      "FieldRight": null,
+      "FieldType": "System.Int32",
+      "FieldLength": 623
     }
   }
 }

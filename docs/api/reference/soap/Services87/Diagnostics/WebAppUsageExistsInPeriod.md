@@ -19,6 +19,7 @@ Returns true if viewState has been clicked at least once since FromDate, if assc
 
 **Returns:** Returns true if viewState has been clicked at least once since FromDate
 
+
 [WSDL file for Services87/Diagnostics](../Services87-Diagnostics.md)
 
 Obtain a ticket from the [Services87/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -45,13 +46,14 @@ Application tokens must be specified if calling an Online installation. Applicat
    <Diagnostics:WebAppUsageExistsInPeriod>
     <Diagnostics:AssociateId xsi:type="xsd:int">0</Diagnostics:AssociateId>
     <Diagnostics:ViewState xsi:type="xsd:string"></Diagnostics:ViewState>
-    <Diagnostics:FromDate xsi:type="xsd:dateTime">2021-11-30T13:23:13Z</Diagnostics:FromDate>
+    <Diagnostics:FromDate xsi:type="xsd:dateTime">2022-08-26T08:56:47Z</Diagnostics:FromDate>
    </Diagnostics:WebAppUsageExistsInPeriod>
 
  </SOAP-ENV:Body>
 </SOAP-ENV:Envelope>
 
 ```
+
 
 ## WebAppUsageExistsInPeriod Response
 
@@ -73,3 +75,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

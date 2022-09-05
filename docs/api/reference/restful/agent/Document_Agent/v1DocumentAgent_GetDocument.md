@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Document/GetDocument
-id: v1DocumentAgent_GetDocument
+uid: v1DocumentAgent_GetDocument
 ---
 
 # POST Agents/Document/GetDocument
@@ -11,6 +11,12 @@ POST /api/v1/Agents/Document/GetDocument
 
 Gets a Document object.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -19,9 +25,10 @@ Gets a Document object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Document/GetDocument?documentId=383
+POST /api/v1/Agents/Document/GetDocument?documentId=996
 POST /api/v1/Agents/Document/GetDocument?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -36,16 +43,16 @@ POST /api/v1/Agents/Document/GetDocument?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response: object
 
-Carrier object for Document.
-Services for the Document Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IDocumentAgent">Document Agent</see>.
+## Response: 
+
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -67,53 +74,53 @@ Response body: object
 | ProjectName | string | Project name |
 | AssociateId | int32 | ID of associate whose diary the appointment is in, REQUIRED |
 | Snum | int32 | The sequence number allocated from refcount on used template when creating the document |
+| SaleId | int32 | Owning sale, if any (may be 0) |
+| SaleName | string | Heading of Owning sale, if any. (may be blank) |
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Document/GetDocument
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 119,
-  "Attention": "ea",
-  "Header": "numquam",
-  "Name": "Runte Group",
-  "OurRef": "corrupti",
-  "YourRef": "eaque",
-  "Description": "Cross-platform demand-driven forecast",
-  "DocumentTemplate": "consequuntur",
-  "IsPublished": true,
-  "PersonId": 10,
-  "PersonFullName": "Cecilia Romaguera",
-  "AssociateFullName": "Clifford Cole",
-  "ContactId": 130,
-  "ContactName": "West-Erdman",
-  "ProjectId": 275,
-  "ProjectName": "Pfeffer, DuBuque and Cartwright",
-  "AssociateId": 61,
-  "Snum": 829,
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "DocumentId": 227,
+  "Attention": "voluptatibus",
+  "Header": "veniam",
+  "Name": "Krajcik Inc and Sons",
+  "OurRef": "quo",
+  "YourRef": "eveniet",
+  "Description": "Multi-tiered bi-directional Graphic Interface",
+  "DocumentTemplate": "consequatur",
+  "IsPublished": false,
+  "PersonId": 712,
+  "PersonFullName": "Karianne Leffler",
+  "AssociateFullName": "Ted Kerluke",
+  "ContactId": 193,
+  "ContactName": "Corkery-Hayes",
+  "ProjectId": 665,
+  "ProjectName": "Feeney Group",
+  "AssociateId": 122,
+  "Snum": 160,
+  "SaleId": 468,
+  "SaleName": "Osinski, Raynor and Kreiger",
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
-      "FieldType": "System.String",
-      "FieldLength": 134
+      "FieldRight": null,
+      "FieldType": "System.Int32",
+      "FieldLength": 391
     }
   }
 }

@@ -18,6 +18,7 @@ Rename the physical document, i.e., change the file name or equivalent concept i
 
 **Returns:** The actual, new "file" name. This will generally be derived from the suggested name, but may be amended.
 
+
 [WSDL file for Services87/Document](../Services87-Document.md)
 
 Obtain a ticket from the [Services87/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -51,6 +52,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## RenameDocument Response
 
 ```xml
@@ -71,3 +73,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

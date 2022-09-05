@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Batch/GetBatchTaskInfo
-id: v1BatchAgent_GetBatchTaskInfo
+uid: v1BatchAgent_GetBatchTaskInfo
 ---
 
 # POST Agents/Batch/GetBatchTaskInfo
@@ -11,6 +11,12 @@ POST /api/v1/Agents/Batch/GetBatchTaskInfo
 
 Get a single BatchTaskInfo based on Id.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Get a single BatchTaskInfo based on Id.
 ```http
 POST /api/v1/Agents/Batch/GetBatchTaskInfo?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,26 +42,24 @@ POST /api/v1/Agents/Batch/GetBatchTaskInfo?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-Id
+Id 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | Id | int32 |  |
 
-## Response: object
 
-BatchTaskInfo contains information about one batch task.
+## Response: 
 
-Carrier object for BatchTaskInfo.
-Services for the BatchTaskInfo Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IBatchAgent">Batch Agent</see>.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -82,61 +87,57 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Batch/GetBatchTaskInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 178
+  "Id": 744
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 897,
-  "Name": "Bode, Bahringer and Bechtelar",
-  "AssociateId": 144,
-  "DetailsTable": 939,
-  "DetailsRecord": 905,
+  "Id": 181,
+  "Name": "Mayert Inc and Sons",
+  "AssociateId": 310,
+  "DetailsTable": 667,
+  "DetailsRecord": 797,
   "IsSystemTask": true,
-  "IsInternalTask": false,
+  "IsInternalTask": true,
   "ParameterObject": {
-    "ParameterObject1": "aspernatur",
-    "ParameterObject2": "non"
+    "ParameterObject1": "reiciendis",
+    "ParameterObject2": "error"
   },
-  "LastStarted": "1997-10-10T18:28:48.1415425+02:00",
-  "Created": "2013-08-13T18:28:48.1415425+02:00",
-  "StartCount": 646,
-  "DatabaseSerialNumber": "878960",
-  "Context": "quis",
-  "Result": "quo",
+  "LastStarted": "2003-09-11T11:10:26.0165588+02:00",
+  "Created": "2005-01-01T11:10:26.0165588+01:00",
+  "StartCount": 772,
+  "DatabaseSerialNumber": "1012988",
+  "Context": "omnis",
+  "Result": "qui",
   "State": "All",
-  "Description": "Re-contextualized cohesive hub",
-  "Response": "velit",
-  "Request": "voluptas",
-  "ProgressDescription": "Horizontal directional utilisation",
-  "ProgressPercent": 697,
-  "FileName": "Ratke Group",
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "Description": "Fully-configurable 5th generation moderator",
+  "Response": "qui",
+  "Request": "aut",
+  "ProgressDescription": "Progressive secondary Graphic Interface",
+  "ProgressPercent": 456,
+  "FileName": "Wuckert, Wisoky and Langosh",
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": "iterate synergistic infomediaries"
-      },
+      "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 924
+      "FieldLength": 382
     }
   }
 }

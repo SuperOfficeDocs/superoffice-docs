@@ -19,3 +19,4 @@ Download [WSDL file for Services85/Navigator](../Services85-Navigator.md) if you
 * [GetNavigatorCompanies](GetNavigatorCompanies.md)
 * [GetNavigatorCompany](GetNavigatorCompany.md)
 * [GetNavigatorCompanyList](GetNavigatorCompanyList.md)
+

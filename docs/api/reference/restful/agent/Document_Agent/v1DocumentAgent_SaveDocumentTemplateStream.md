@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Document/SaveDocumentTemplateStream
-id: v1DocumentAgent_SaveDocumentTemplateStream
+uid: v1DocumentAgent_SaveDocumentTemplateStream
 ---
 
 # POST Agents/Document/SaveDocumentTemplateStream
@@ -11,6 +11,12 @@ POST /api/v1/Agents/Document/SaveDocumentTemplateStream
 
 Saves content in stream to document template file
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Saves content in stream to document template file
 ```http
 POST /api/v1/Agents/Document/SaveDocumentTemplateStream?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,9 +42,9 @@ POST /api/v1/Agents/Document/SaveDocumentTemplateStream?$select=name,department,
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-DocumentTemplateId, Content, LanguageCode, PluginId
+DocumentTemplateId, Content, LanguageCode, PluginId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -46,13 +53,16 @@ DocumentTemplateId, Content, LanguageCode, PluginId
 | LanguageCode | string |  |
 | PluginId | int32 |  |
 
-## Response: object
+
+## Response: 
+
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -62,32 +72,34 @@ Response body: object
 | MimeType | string |  |
 | PluginId | int32 |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Document/SaveDocumentTemplateStream
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 634,
+  "DocumentTemplateId": 762,
   "Content": "GIF89....File contents as raw bytes...",
-  "LanguageCode": "vitae",
-  "PluginId": 643
+  "LanguageCode": "doloribus",
+  "PluginId": 605
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Williamson-Hand",
-  "Description": "Front-line tangible database",
-  "ExternalReference": "impedit",
+  "Name": "Kuphal Group",
+  "Description": "Synergistic systematic superstructure",
+  "ExternalReference": "et",
   "MimeType": "quia",
-  "PluginId": 997
+  "PluginId": 543
 }
 ```

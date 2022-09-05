@@ -1,6 +1,6 @@
 ---
 title: GET ChatTopic/{id}
-id: v1ChatTopicEntity_GetChatTopicEntity
+uid: v1ChatTopicEntity_GetChatTopicEntity
 ---
 
 # GET ChatTopic/{id}
@@ -11,11 +11,17 @@ GET /api/v1/ChatTopic/{id}
 
 Gets a ChatTopicEntity object.
 
+
 Calls the Chat agent service GetChatTopicEntity.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | id | int32 | The id of the ChatTopicEntity to return. **Required** |
+
 
 ## Query String Parameters
 
@@ -26,6 +32,7 @@ Calls the Chat agent service GetChatTopicEntity.
 ```http
 GET /api/v1/ChatTopic/{id}?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -40,18 +47,17 @@ GET /api/v1/ChatTopic/{id}?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response: object
 
-Chat topics define who is assigned, when the channel is open for business, and look of the chat widget.
+## Response: 
 
-ChatTopicEntity entity with API _Links added.
+ChatTopicEntity found.
 
 | Response | Description |
 |----------------|-------------|
 | 200 | ChatTopicEntity found. |
 | 404 | Not Found. |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -84,172 +90,65 @@ Response body: object
 | UseQueueOfflineForm | bool | Use offline form capability from chat queue |
 | OfflineFormTimeLimit | int32 | The number of minutes in the queue before the offline form is available |
 | OfflineFormQueueLength | int32 | The number of customers in the queue before the offline form is available |
+| WidgetEnableRating | bool | Enable rating functionality in the chat widgte |
+| WidgetRatingText | string | The text to be displayed in the widget next to the rating stars |
 | TableRight |  |  |
 | FieldProperties | object |  |
 | _Links | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 GET /api/v1/ChatTopic/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 ChatTopicEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatTopicId": 652,
-  "Name": "Bauch-Bednar",
-  "Description": "Synergistic solution-oriented capacity",
-  "WelcomeMessage": "quos",
-  "Language": {
-    "Id": 400,
-    "Value": "impedit",
-    "Tooltip": "praesentium",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 977
-      }
-    }
-  },
-  "LastAccept": "2013-04-12T18:25:50.1636295+02:00",
-  "SecondsPrAccept": 694,
-  "AlertRecipient": "ipsa",
-  "AlertTemplate": {
-    "ReplyTemplateId": 553,
-    "Name": "Hoeger, Schmitt and Mertz",
-    "Description": "Down-sized explicit instruction set",
-    "FolderId": 311
-  },
-  "CollectConsent": true,
-  "BadgeHeader": "rerum",
-  "CustomQueueTextEnabled": true,
-  "CustomQueueText": "sunt",
-  "WarnNewChatMinutes": 587,
-  "WarnManagerNewChatMinutes": 328,
+  "ChatTopicId": 653,
+  "Name": "O'Kon, Schoen and Hand",
+  "Description": "Digitized optimal capability",
+  "WelcomeMessage": "voluptatibus",
+  "Language": null,
+  "LastAccept": "2003-11-30T11:10:52.5731686+01:00",
+  "SecondsPrAccept": 509,
+  "AlertRecipient": "vero",
+  "AlertTemplate": null,
+  "CollectConsent": false,
+  "BadgeHeader": "voluptatibus",
+  "CustomQueueTextEnabled": false,
+  "CustomQueueText": "in",
+  "WarnNewChatMinutes": 575,
+  "WarnManagerNewChatMinutes": 787,
   "TicketEnabled": false,
-  "TicketCategory": {
-    "Id": 438,
-    "Value": "amet",
-    "Tooltip": "est",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.Int32",
-        "FieldLength": 107
-      }
-    }
-  },
-  "TicketPriority": {
-    "Id": 238,
-    "Value": "harum",
-    "Tooltip": "ipsa",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.Int32",
-        "FieldLength": 44
-      }
-    }
-  },
+  "TicketCategory": null,
+  "TicketPriority": null,
   "OpeningHoursEnabled": false,
-  "OpeningHours": {
-    "TzLocation": {},
-    "MonEnabled": true,
-    "MonStart": "hic",
-    "MonStop": "reiciendis",
-    "TueEnabled": true,
-    "TueStart": "perspiciatis",
-    "TueStop": "doloribus",
-    "WedEnabled": false,
-    "WedStart": "nesciunt",
-    "WedStop": "facilis",
-    "ThuEnabled": true,
-    "ThuStart": "vero",
-    "ThuStop": "tempora",
-    "FriEnabled": true,
-    "FriStart": "labore",
-    "FriStop": "dolores",
-    "SatEnabled": false,
-    "SatStart": "perspiciatis",
-    "SatStop": "quia",
-    "SunEnabled": false,
-    "SunStart": "non",
-    "SunStop": "voluptatem",
-    "UseLunchHours": true,
-    "LunchStart": "consequatur",
-    "LunchStop": "id"
-  },
-  "Widget": {
-    "AutoFaqEnabled": true,
-    "AutoFaqCategory": {},
-    "PreFormEnabled": false,
-    "PreFormMessage": "consequatur",
-    "RequiredFields": "Company",
-    "PostFormEnabled": false,
-    "PostFormHeader": "voluptatibus",
-    "PostFormMessage": "repellendus",
-    "PostTranscriptEnabled": false,
-    "LanguageIsoCode": "magnam",
-    "Size": "Large",
-    "Theme": "Classic",
-    "Color": "doloribus",
-    "Font": "laborum",
-    "LogoEnabled": true,
-    "LogoBlobId": 412,
-    "LogoName": "Jones, Kirlin and Cassin",
-    "ShowAgentPhoto": false,
-    "WelcomeTitle": "magnam",
-    "WelcomeMessage": "sed",
-    "OfflineHeader": "earum",
-    "OfflineMessage": "aliquam",
-    "OfflineFields": "Company",
-    "UseAgentFirstname": true
-  },
-  "BotEnabled": true,
-  "BotSettings": {
-    "BotName": "Langosh, Haley and McGlynn",
-    "BotRegisterScriptId": 698,
-    "BotSessionCreatedScriptId": 515,
-    "BotSessionChangedScriptId": 338,
-    "BotMessageReceivedScriptId": 613
-  },
+  "OpeningHours": null,
+  "Widget": null,
+  "BotEnabled": false,
+  "BotSettings": null,
   "OfflineCollectConsent": true,
-  "WarnChatMessageMinutes": 507,
-  "WarnManagerChatMessageMinutes": 714,
-  "UseQueueOfflineForm": true,
-  "OfflineFormTimeLimit": 930,
-  "OfflineFormQueueLength": 450,
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "WarnChatMessageMinutes": 385,
+  "WarnManagerChatMessageMinutes": 953,
+  "UseQueueOfflineForm": false,
+  "OfflineFormTimeLimit": 171,
+  "OfflineFormQueueLength": 503,
+  "WidgetEnableRating": false,
+  "WidgetRatingText": "rerum",
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
+      "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 257
+      "FieldLength": 939
     }
   },
   "_Links": {

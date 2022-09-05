@@ -1,6 +1,6 @@
 ---
 title: GET BatchTask/{state}
-id: v1Batch_GetBatchTaskInfosByState
+uid: v1Batch_GetBatchTaskInfosByState
 ---
 
 # GET BatchTask/{state}
@@ -11,9 +11,16 @@ GET /api/v1/BatchTask/{state}
 
 Gets an array of BatchTaskInfo with state defined by a BatchTaskState.
 
+
+
+
+
+
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | state | Enum: Unknown, New, Aquired, Started, Succeeded, Failed, SucceededManualCleanup, All | The BatchTaskState to get batch tasks for. **Required** |
+
+
 
 ## Request Headers
 
@@ -28,7 +35,10 @@ Gets an array of BatchTaskInfo with state defined by a BatchTaskState.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -62,14 +72,16 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 GET /api/v1/BatchTask/{state}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -77,42 +89,36 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 446,
-    "Name": "Kassulke Inc and Sons",
-    "AssociateId": 885,
-    "DetailsTable": 807,
-    "DetailsRecord": 354,
+    "Id": 476,
+    "Name": "Crooks-McGlynn",
+    "AssociateId": 545,
+    "DetailsTable": 22,
+    "DetailsRecord": 70,
     "IsSystemTask": false,
-    "IsInternalTask": false,
+    "IsInternalTask": true,
     "ParameterObject": {
-      "ParameterObject1": "aut",
-      "ParameterObject2": "expedita"
+      "ParameterObject1": "nisi",
+      "ParameterObject2": "dicta"
     },
-    "LastStarted": "2021-07-20T18:25:51.328106+02:00",
-    "Created": "2011-12-19T18:25:51.328106+01:00",
-    "StartCount": 653,
-    "DatabaseSerialNumber": "1546212",
-    "Context": "ut",
-    "Result": "est",
+    "LastStarted": "2014-02-27T11:10:53.6762152+01:00",
+    "Created": "2000-04-29T11:10:53.6762152+02:00",
+    "StartCount": 686,
+    "DatabaseSerialNumber": "1271159",
+    "Context": "est",
+    "Result": "at",
     "State": "All",
-    "Description": "Progressive 5th generation forecast",
-    "Response": "et",
-    "Request": "quia",
-    "ProgressDescription": "Reverse-engineered next generation open architecture",
-    "ProgressPercent": 425,
-    "FileName": "Monahan-Collier",
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "Description": "Digitized eco-centric concept",
+    "Response": "omnis",
+    "Request": "laudantium",
+    "ProgressDescription": "Profound system-worthy Graphic Interface",
+    "ProgressPercent": 12,
+    "FileName": "Boehm, Gibson and Hills",
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 379
+        "FieldRight": null,
+        "FieldType": "System.Int32",
+        "FieldLength": 559
       }
     }
   }

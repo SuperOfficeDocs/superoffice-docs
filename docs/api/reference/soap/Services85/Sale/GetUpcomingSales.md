@@ -18,6 +18,7 @@ Returns all open sales, sorted descending with the latest first.  If the weigthe
 
 **Returns:** Array of upcoming sales.
 
+
 [WSDL file for Services85/Sale](../Services85-Sale.md)
 
 Obtain a ticket from the [Services85/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -51,6 +52,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## GetUpcomingSales Response
 
 ```xml
@@ -68,7 +70,7 @@ Application tokens must be specified if calling an Online installation. Applicat
    <Sale:Response xsi:type="Sale:ArrayOfSale">
     <Sale:Sale xsi:type="Sale:Sale">
      <Sale:ContactName xsi:type="xsd:string"></Sale:ContactName>
-     <Sale:SaleDate xsi:type="xsd:dateTime">2021-11-30T13:22:42Z</Sale:SaleDate>
+     <Sale:SaleDate xsi:type="xsd:dateTime">2022-08-26T08:53:45Z</Sale:SaleDate>
      <Sale:SaleId xsi:type="xsd:int">0</Sale:SaleId>
      <Sale:Probability xsi:type="xsd:short">0</Sale:Probability>
      <Sale:Title xsi:type="xsd:string"></Sale:Title>
@@ -90,7 +92,7 @@ Application tokens must be specified if calling an Online installation. Applicat
      <Sale:PersonFullName xsi:type="xsd:string"></Sale:PersonFullName>
      <Sale:Completed xsi:type="Sale:ActivityStatus">Unknown</Sale:Completed>
      <Sale:ActiveErpLinks xsi:type="xsd:int">0</Sale:ActiveErpLinks>
-     <Sale:NextDueDate xsi:type="xsd:dateTime">2021-11-30T13:22:42Z</Sale:NextDueDate>
+     <Sale:NextDueDate xsi:type="xsd:dateTime">2022-08-26T08:53:45Z</Sale:NextDueDate>
     </Sale:Sale>
    </Sale:Response>
   </Sale:GetUpcomingSalesResponse>
@@ -98,3 +100,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

@@ -1,6 +1,6 @@
 ---
 title: GET Contact/DuplicateRules
-id: v1ContactEntity_GetDuplicateRules
+uid: v1ContactEntity_GetDuplicateRules
 ---
 
 # GET Contact/DuplicateRules
@@ -10,6 +10,13 @@ GET /api/v1/Contact/DuplicateRules
 ```
 
 Retrieve all available duplicate rules for contact
+
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -24,7 +31,10 @@ Retrieve all available duplicate rules for contact
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -41,7 +51,7 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 GET /api/v1/Contact/DuplicateRules
@@ -50,48 +60,38 @@ Accept: application/json; charset=utf-8
 Accept-Language: sv
 ```
 
+## Sample response
+
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Wehner Group",
-    "DisplayName": "Kemmer, Homenick and Schaefer",
-    "DisplayTooltip": "dicta",
-    "IsActive": true,
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "Name": "Sanford Group",
+    "DisplayName": "Schinner, Marquardt and Kozey",
+    "DisplayTooltip": "nisi",
+    "IsActive": false,
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.Int32",
-        "FieldLength": 223
+        "FieldRight": null,
+        "FieldType": "System.String",
+        "FieldLength": 988
       }
     }
   },
   {
-    "Name": "Wehner Group",
-    "DisplayName": "Kemmer, Homenick and Schaefer",
-    "DisplayTooltip": "dicta",
-    "IsActive": true,
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "Name": "Sanford Group",
+    "DisplayName": "Schinner, Marquardt and Kozey",
+    "DisplayTooltip": "nisi",
+    "IsActive": false,
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.Int32",
-        "FieldLength": 223
+        "FieldRight": null,
+        "FieldType": "System.String",
+        "FieldLength": 988
       }
     }
   }

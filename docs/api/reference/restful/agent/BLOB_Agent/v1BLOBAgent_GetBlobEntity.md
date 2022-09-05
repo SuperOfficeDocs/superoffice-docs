@@ -1,6 +1,6 @@
 ---
 title: POST Agents/BLOB/GetBlobEntity
-id: v1BLOBAgent_GetBlobEntity
+uid: v1BLOBAgent_GetBlobEntity
 ---
 
 # POST Agents/BLOB/GetBlobEntity
@@ -11,6 +11,12 @@ POST /api/v1/Agents/BLOB/GetBlobEntity
 
 Gets a BlobEntity object.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -19,9 +25,10 @@ Gets a BlobEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/BLOB/GetBlobEntity?blobEntityId=50
+POST /api/v1/Agents/BLOB/GetBlobEntity?blobEntityId=988
 POST /api/v1/Agents/BLOB/GetBlobEntity?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -36,16 +43,16 @@ POST /api/v1/Agents/BLOB/GetBlobEntity?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response: object
 
-Carrier object for BlobEntity.
-Services for the BlobEntity Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IBLOBAgent">BLOB Agent</see>.
+## Response: 
+
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -65,93 +72,41 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/BLOB/GetBlobEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 597,
-  "BlobSize": 238,
-  "Description": "Integrated clear-thinking instruction set",
-  "ExtraInfo": "et",
+  "BlobId": 462,
+  "BlobSize": 603,
+  "Description": "Mandatory methodical interface",
+  "ExtraInfo": "excepturi",
   "IsEncrypted": true,
   "IsZipped": false,
-  "MimeType": "dolor",
-  "OriginalSize": 598,
-  "CreatedDate": "2010-10-30T18:28:48.1555453+02:00",
-  "UpdatedDate": "2012-03-24T18:28:48.1555453+01:00",
-  "CreatedBy": {
-    "AssociateId": 821,
-    "Name": "Raynor, Pfannerstill and Moen",
-    "PersonId": 533,
-    "Rank": 144,
-    "Tooltip": "et",
-    "Type": "AnonymousAssociate",
-    "GroupIdx": 211,
-    "FullName": "Kali Stiedemann IV",
-    "FormalName": "Barrows-Kutch",
-    "Deleted": true,
-    "EjUserId": 13,
-    "UserName": "Zulauf, Kutch and Aufderhar",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 103
-      }
-    }
-  },
-  "UpdatedBy": {
-    "AssociateId": 735,
-    "Name": "Spinka-Fisher",
-    "PersonId": 406,
-    "Rank": 317,
-    "Tooltip": "molestias",
-    "Type": "AnonymousAssociate",
-    "GroupIdx": 370,
-    "FullName": "Pascale Walsh",
-    "FormalName": "McCullough LLC",
-    "Deleted": false,
-    "EjUserId": 360,
-    "UserName": "Welch Group",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.Int32",
-        "FieldLength": 384
-      }
-    }
-  },
-  "ConceptualType": "consequatur",
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "MimeType": "molestiae",
+  "OriginalSize": 427,
+  "CreatedDate": "2018-04-01T11:10:26.0285254+02:00",
+  "UpdatedDate": "1995-05-09T11:10:26.0285254+02:00",
+  "CreatedBy": null,
+  "UpdatedBy": null,
+  "ConceptualType": "similique",
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
+      "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 622
+      "FieldLength": 421
     }
   }
 }

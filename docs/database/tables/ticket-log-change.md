@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "ticket_log_change"
-so.date: 04.12.2022
+so.date: 08.26.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -29,6 +29,7 @@ This table contains log entries for the tickets.
 |log\_change|An enum indicating what kind of log-entry this is.|Int|&#x25CF;|
 |to\_value|A the &amp;apos;to&amp;apos; value|String(255)| |
 |from\_value|A the &amp;apos;from&amp;apos; value|String(255)| |
+
 
 ![ticket_log_change table relationship diagram](./media/ticket_log_change.png)
 
@@ -53,6 +54,7 @@ This table contains log entries for the tickets.
 |[ticket](ticket.md)  |This table contains the tickets (requests) of the system. Its purpose should be evident. |
 |[ticket\_log\_action](ticket-log-action.md)  |This table contains actions for the tickets. |
 
+
 ## Replication Flags
 
 * None
@@ -60,3 +62,4 @@ This table contains log entries for the tickets.
 ## Security Flags
 
 * No access control via user's Role.
+

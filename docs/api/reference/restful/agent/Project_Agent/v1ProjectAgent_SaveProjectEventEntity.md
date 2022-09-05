@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Project/SaveProjectEventEntity
-id: v1ProjectAgent_SaveProjectEventEntity
+uid: v1ProjectAgent_SaveProjectEventEntity
 ---
 
 # POST Agents/Project/SaveProjectEventEntity
@@ -10,6 +10,13 @@ POST /api/v1/Agents/Project/SaveProjectEventEntity
 ```
 
 Updates the existing ProjectEventEntity or creates a new ProjectEventEntity if the id parameter is empty
+
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -25,9 +32,9 @@ Updates the existing ProjectEventEntity or creates a new ProjectEventEntity if t
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entity
+## Request Body: entity  
 
-The ProjectEventEntity to be saved.
+The ProjectEventEntity to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -62,18 +69,16 @@ The ProjectEventEntity to be saved.
 | IsVisibleForPersonInterests | bool |  |
 | ProjectEventId | int32 | Primary key |
 
-## Response: object
 
-The ProjectEvent Service. The service implements all services working with the ProjectEvent object
+## Response: 
 
-Carrier object for ProjectEventEntity.
-Services for the ProjectEventEntity Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IProjectAgent">Project Agent</see>.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -110,264 +115,180 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Project/SaveProjectEventEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SignOffConfirmationText": "sequi",
-  "SignOffText": "quam",
-  "SignOnConfirmationText": "ducimus",
-  "SignOnText": "corrupti",
-  "EventDate": "1995-03-20T18:28:49.875143+01:00",
-  "Enabled": false,
-  "CreatedDate": "2016-05-15T18:28:49.875143+02:00",
-  "SignOff": true,
-  "SignOffTaskEnable": true,
-  "SignOffTaskId": 158,
+  "SignOffConfirmationText": "ad",
+  "SignOffText": "explicabo",
+  "SignOnConfirmationText": "dicta",
+  "SignOnText": "recusandae",
+  "EventDate": "2001-12-11T11:10:27.5774536+01:00",
+  "Enabled": true,
+  "CreatedDate": "2004-03-29T11:10:27.5774536+02:00",
+  "SignOff": false,
+  "SignOffTaskEnable": false,
+  "SignOffTaskId": 802,
   "SignOffTriggersAssign": false,
   "SignOn": false,
   "SignOnTaskEnable": false,
-  "SignOnTaskId": 24,
-  "SignOnTriggersAssign": false,
-  "UpdatedDate": "2016-11-16T18:28:49.875143+01:00",
-  "CreatedBy": {
-    "AssociateId": 594,
-    "Name": "DuBuque LLC",
-    "PersonId": 286,
-    "Rank": 274,
-    "Tooltip": "laudantium",
-    "Type": "AnonymousAssociate",
-    "GroupIdx": 363,
-    "FullName": "Bradley Mante",
-    "FormalName": "Greenholt LLC",
-    "Deleted": false,
-    "EjUserId": 651,
-    "UserName": "Moen-Nicolas"
-  },
-  "UpdatedBy": {
-    "AssociateId": 913,
-    "Name": "Friesen-Hermiston",
-    "PersonId": 681,
-    "Rank": 537,
-    "Tooltip": "architecto",
-    "Type": "AnonymousAssociate",
-    "GroupIdx": 577,
-    "FullName": "Clyde Larkin",
-    "FormalName": "Collier Group",
-    "Deleted": false,
-    "EjUserId": 135,
-    "UserName": "Emard LLC"
-  },
-  "ProjectId": 66,
-  "Id": 614,
-  "PublishFrom": "2016-08-31T18:28:49.8761096+02:00",
+  "SignOnTaskId": 810,
+  "SignOnTriggersAssign": true,
+  "UpdatedDate": "2012-07-17T11:10:27.5774536+02:00",
+  "CreatedBy": null,
+  "UpdatedBy": null,
+  "ProjectId": 997,
+  "Id": 803,
+  "PublishFrom": "2016-07-16T11:10:27.579453+02:00",
   "PublishType": "External",
-  "PublishTo": "1999-08-19T18:28:49.8761096+02:00",
+  "PublishTo": "2010-11-27T11:10:27.579453+01:00",
   "VisibleForCategories": [
     {
-      "Id": 239,
-      "Name": "Cronin, Powlowski and Hane",
-      "ToolTip": "Illo unde soluta natus a.",
+      "Id": 225,
+      "Name": "Sawayn-Hilpert",
+      "ToolTip": "Consequatur voluptatem quam in nihil minus tenetur.",
       "Deleted": true,
-      "Rank": 607,
-      "Type": "enim",
+      "Rank": 21,
+      "Type": "totam",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "qui",
-      "ColorBlock": 787,
-      "ExtraInfo": "molestiae",
-      "StyleHint": "aut",
-      "FullName": "Jude Smith IV"
+      "IconHint": "dolores",
+      "ColorBlock": 620,
+      "ExtraInfo": "et",
+      "StyleHint": "perferendis",
+      "FullName": "Prof. Xavier Weber"
     }
   ],
   "VisibleForPersonInterests": [
     {
-      "Id": 110,
-      "Name": "Greenfelder-Stamm",
-      "ToolTip": "Inventore minima et ullam aspernatur repudiandae et.",
+      "Id": 724,
+      "Name": "Torphy, Langworth and Sipes",
+      "ToolTip": "Libero mollitia rem placeat.",
       "Deleted": true,
-      "Rank": 910,
-      "Type": "ut",
+      "Rank": 86,
+      "Type": "fuga",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "in",
-      "ColorBlock": 991,
-      "ExtraInfo": "non",
-      "StyleHint": "earum",
-      "FullName": "Dejah Shields"
+      "IconHint": "ullam",
+      "ColorBlock": 419,
+      "ExtraInfo": "aut",
+      "StyleHint": "doloribus",
+      "FullName": "Caesar Roberts Jr."
     }
   ],
-  "IsPublished": true,
-  "IsVisibleForMembers": true,
+  "IsPublished": false,
+  "IsVisibleForMembers": false,
   "IsVisibleForCategories": false,
   "IsVisibleForPersonInterests": true,
-  "ProjectEventId": 703
+  "ProjectEventId": 72
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SignOffConfirmationText": "id",
-  "SignOffText": "iste",
-  "SignOnConfirmationText": "dolore",
-  "SignOnText": "earum",
-  "EventDate": "2005-10-07T18:28:49.8781439+02:00",
-  "Enabled": true,
-  "CreatedDate": "2015-01-06T18:28:49.8781439+01:00",
+  "SignOffConfirmationText": "optio",
+  "SignOffText": "reprehenderit",
+  "SignOnConfirmationText": "natus",
+  "SignOnText": "in",
+  "EventDate": "2008-10-21T11:10:27.582453+02:00",
+  "Enabled": false,
+  "CreatedDate": "2006-09-30T11:10:27.582453+02:00",
   "SignOff": false,
   "SignOffTaskEnable": false,
-  "SignOffTaskId": 495,
-  "SignOffTriggersAssign": true,
-  "SignOn": false,
+  "SignOffTaskId": 593,
+  "SignOffTriggersAssign": false,
+  "SignOn": true,
   "SignOnTaskEnable": false,
-  "SignOnTaskId": 347,
+  "SignOnTaskId": 457,
   "SignOnTriggersAssign": true,
-  "UpdatedDate": "2012-05-23T18:28:49.8781439+02:00",
-  "CreatedBy": {
-    "AssociateId": 581,
-    "Name": "Smitham-Koepp",
-    "PersonId": 157,
-    "Rank": 28,
-    "Tooltip": "enim",
-    "Type": "AnonymousAssociate",
-    "GroupIdx": 23,
-    "FullName": "Jodie Kunde",
-    "FormalName": "Goodwin-Grant",
-    "Deleted": false,
-    "EjUserId": 399,
-    "UserName": "Franecki-Ebert",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.Int32",
-        "FieldLength": 337
-      }
-    }
-  },
-  "UpdatedBy": {
-    "AssociateId": 53,
-    "Name": "Ferry, Morissette and Heaney",
-    "PersonId": 112,
-    "Rank": 443,
-    "Tooltip": "et",
-    "Type": "AnonymousAssociate",
-    "GroupIdx": 446,
-    "FullName": "Edmond Jacobi",
-    "FormalName": "Goodwin, Carter and Shields",
-    "Deleted": false,
-    "EjUserId": 772,
-    "UserName": "Gerhold, Feeney and Emmerich",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.Int32",
-        "FieldLength": 11
-      }
-    }
-  },
-  "ProjectId": 919,
-  "Id": 138,
-  "PublishFrom": "2008-11-29T18:28:49.8791435+01:00",
+  "UpdatedDate": "2000-02-08T11:10:27.582453+01:00",
+  "CreatedBy": null,
+  "UpdatedBy": null,
+  "ProjectId": 206,
+  "Id": 29,
+  "PublishFrom": "2017-07-11T11:10:27.582453+02:00",
   "PublishType": "External",
-  "PublishTo": "2004-09-16T18:28:49.8791435+02:00",
+  "PublishTo": "2005-01-05T11:10:27.582453+01:00",
   "VisibleForCategories": [
     {
-      "Id": 131,
-      "Name": "Brown Group",
-      "ToolTip": "Assumenda voluptates ad sequi harum.",
-      "Deleted": true,
-      "Rank": 832,
-      "Type": "cupiditate",
+      "Id": 320,
+      "Name": "Boehm, Schoen and Cremin",
+      "ToolTip": "Assumenda similique.",
+      "Deleted": false,
+      "Rank": 663,
+      "Type": "sint",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "unde",
-      "ColorBlock": 972,
-      "ExtraInfo": "ad",
-      "StyleHint": "odio",
-      "FullName": "Pearline Parker",
-      "TableRight": {},
+      "IconHint": "perspiciatis",
+      "ColorBlock": 911,
+      "ExtraInfo": "dolorum",
+      "StyleHint": "aut",
+      "FullName": "Dr. Lia Murphy II",
+      "TableRight": null,
       "FieldProperties": {
         "fieldName": {
-          "FieldRight": {
-            "Mask": "FULL",
-            "Reason": ""
-          },
-          "FieldType": "System.Int32",
-          "FieldLength": 717
+          "FieldRight": null,
+          "FieldType": "System.String",
+          "FieldLength": 831
         }
       }
     }
   ],
   "VisibleForPersonInterests": [
     {
-      "Id": 433,
-      "Name": "Reinger-Weimann",
-      "ToolTip": "Enim nesciunt exercitationem cum.",
+      "Id": 774,
+      "Name": "Yost, Smith and Rowe",
+      "ToolTip": "Hic libero culpa maiores.",
       "Deleted": false,
-      "Rank": 464,
-      "Type": "expedita",
+      "Rank": 438,
+      "Type": "nesciunt",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "deserunt",
-      "ColorBlock": 626,
-      "ExtraInfo": "iure",
-      "StyleHint": "molestiae",
-      "FullName": "Jaime West",
-      "TableRight": {},
+      "IconHint": "ut",
+      "ColorBlock": 504,
+      "ExtraInfo": "odit",
+      "StyleHint": "placeat",
+      "FullName": "Prof. Bradley Kariane Fay V",
+      "TableRight": null,
       "FieldProperties": {
         "fieldName": {
-          "FieldRight": {
-            "Mask": "FULL",
-            "Reason": ""
-          },
+          "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 190
+          "FieldLength": 645
         }
       }
     }
   ],
   "IsPublished": false,
-  "IsVisibleForMembers": true,
-  "IsVisibleForCategories": true,
-  "IsVisibleForPersonInterests": false,
-  "ProjectEventId": 809,
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "IsVisibleForMembers": false,
+  "IsVisibleForCategories": false,
+  "IsVisibleForPersonInterests": true,
+  "ProjectEventId": 905,
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
-      "FieldType": "System.String",
-      "FieldLength": 130
+      "FieldRight": null,
+      "FieldType": "System.Int32",
+      "FieldLength": 509
     }
   }
 }

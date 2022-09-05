@@ -1,6 +1,6 @@
 ---
 title: POST Agents/User/RemoveUntrustedCredentials
-id: v1UserAgent_RemoveUntrustedCredentials
+uid: v1UserAgent_RemoveUntrustedCredentials
 ---
 
 # POST Agents/User/RemoveUntrustedCredentials
@@ -11,7 +11,15 @@ POST /api/v1/Agents/User/RemoveUntrustedCredentials
 
 Remove a credentials entry for authenticated user.
 
-## Online Restricted: ## The User agent is not available in Online by default. User management is not allowed for partner apps
+
+
+
+## Online Restricted: ## The User agent is not available in Online by default. User management is not allowed for partner apps.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -23,6 +31,7 @@ Remove a credentials entry for authenticated user.
 POST /api/v1/Agents/User/RemoveUntrustedCredentials?$select=name,department,category/id
 ```
 
+
 ## Request Headers
 
 | Parameter Name | Description |
@@ -30,19 +39,50 @@ POST /api/v1/Agents/User/RemoveUntrustedCredentials?$select=name,department,cate
 | Authorization  | Supports 'Basic', 'SoTicket' and 'Bearer' schemes, depending on installation type. |
 | X-XSRF-TOKEN   | If not using Authorization header, you must provide XSRF value from cookie or hidden input field |
 | Content-Type | Content-type of the request body: `application/json`, `text/json`, `application/xml`, `text/xml`, `application/x-www-form-urlencoded`, `application/json-patch+json`, `application/merge-patch+json` |
+| Accept         | Content-type(s) you would like the response in:  |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-Type, PublicValue
+Type, PublicValue 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | Type | string |  |
 | PublicValue | string |  |
 
-## Response
+
+## Response: 
+
+No Content
 
 | Response | Description |
 |----------------|-------------|
 | 204 | No Content |
+
+Response body: 
+
+
+## Sample request
+
+```http!
+POST /api/v1/Agents/User/RemoveUntrustedCredentials
+Authorization: Basic dGplMDpUamUw
+Accept: application/json; charset=utf-8
+Accept-Language: en
+Content-Type: application/json; charset=utf-8
+
+{
+  "Type": "labore",
+  "PublicValue": "voluptate"
+}
+```
+
+## Sample response
+
+```http_
+HTTP/1.1 204 No Content
+Content-Type: application/json; charset=utf-8
+
+null
+```

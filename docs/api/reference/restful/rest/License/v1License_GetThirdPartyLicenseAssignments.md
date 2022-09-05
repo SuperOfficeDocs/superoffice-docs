@@ -1,6 +1,6 @@
 ---
 title: GET License/{moduleOwner}/{id}
-id: v1License_GetThirdPartyLicenseAssignments
+uid: v1License_GetThirdPartyLicenseAssignments
 ---
 
 # GET License/{moduleOwner}/{id}
@@ -11,10 +11,17 @@ GET /api/v1/License/{moduleOwner}/{associateId}
 
 Get license assignments for an associate for licenses belonging to an other module owner than SuperOffice
 
+
+
+
+
+
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | associateId | int32 | User to get third party license assignments for **Required** |
 | moduleOwner | string | Name of the module owner to get license assignments for **Required** |
+
+
 
 ## Request Headers
 
@@ -29,7 +36,10 @@ Get license assignments for an associate for licenses belonging to an other modu
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -56,7 +66,7 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 GET /api/v1/License/{moduleOwner}/{associateId}
@@ -65,38 +75,34 @@ Accept: application/json; charset=utf-8
 Accept-Language: en
 ```
 
+## Sample response
+
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Unrestricted": true,
-    "Total": 632,
-    "Tooltip": "dolores",
+    "Unrestricted": false,
+    "Total": 726,
+    "Tooltip": "a",
     "CanAssign": false,
-    "Free": 841,
-    "InUse": 494,
-    "IsHidden": true,
+    "Free": 967,
+    "InUse": 169,
+    "IsHidden": false,
     "Assigned": false,
-    "ModuleLicenseId": 166,
-    "Name": "Corwin Inc and Sons",
-    "Description": "Total contextually-based knowledge base",
-    "PrerequisiteModuleName": "Collier, Klein and Schumm",
-    "SortOrder": 473,
-    "ExtraFlags": 289,
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "ModuleLicenseId": 126,
+    "Name": "Yundt, D'Amore and Hansen",
+    "Description": "User-friendly value-added support",
+    "PrerequisiteModuleName": "DuBuque, Erdman and Hagenes",
+    "SortOrder": 954,
+    "ExtraFlags": 696,
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
+        "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 148
+        "FieldLength": 769
       }
     }
   }

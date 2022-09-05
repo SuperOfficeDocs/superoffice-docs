@@ -1,6 +1,6 @@
 ---
 title: POST Agents/List/GetReasonList
-id: v1ListAgent_GetReasonList
+uid: v1ListAgent_GetReasonList
 ---
 
 # POST Agents/List/GetReasonList
@@ -11,6 +11,12 @@ POST /api/v1/Agents/List/GetReasonList
 
 Gets an array of Reason objects.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Gets an array of Reason objects.
 ```http
 POST /api/v1/Agents/List/GetReasonList?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,11 +42,15 @@ POST /api/v1/Agents/List/GetReasonList?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: reasonIds
+## Request Body: reasonIds  
 
-The primary keys.
+The primary keys. 
+
+
 
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -55,7 +66,7 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/List/GetReasonList
@@ -64,46 +75,36 @@ Accept: application/json; charset=utf-8
 Accept-Language: sv
 ```
 
+## Sample response
+
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 747,
-    "Value": "qui",
-    "Tooltip": "accusantium",
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "Id": 762,
+    "Value": "adipisci",
+    "Tooltip": "dignissimos",
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.Int32",
-        "FieldLength": 68
+        "FieldRight": null,
+        "FieldType": "System.String",
+        "FieldLength": 800
       }
     }
   },
   {
-    "Id": 747,
-    "Value": "qui",
-    "Tooltip": "accusantium",
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "Id": 762,
+    "Value": "adipisci",
+    "Tooltip": "dignissimos",
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.Int32",
-        "FieldLength": 68
+        "FieldRight": null,
+        "FieldType": "System.String",
+        "FieldLength": 800
       }
     }
   }

@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "kb_workflow_access"
-so.date: 04.12.2022
+so.date: 08.26.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -25,6 +25,7 @@ Control of who can do what in a knowledge base workflow step
 |kb\_workflow|The workflow to access.|FK [kb_workflow](kb-workflow.md)| |
 |user\_id|The user with access.|FK [ejuser](ejuser.md)| |
 |kb\_access|The access given to a user for entries in a given workflow phase. 1 for viewing entries, 2 for moving entries between workflow phases, 3 for editing entries|kb_access| |
+
 
 ![kb_workflow_access table relationship diagram](./media/kb_workflow_access.png)
 
@@ -45,6 +46,7 @@ Control of who can do what in a knowledge base workflow step
 |[ejuser](ejuser.md)  |This table contains entries for the users of the system. |
 |[kb\_workflow](kb-workflow.md)  |Knowledge base workflow steps |
 
+
 ## Replication Flags
 
 * None
@@ -52,3 +54,4 @@ Control of who can do what in a knowledge base workflow step
 ## Security Flags
 
 * No access control via user's Role.
+

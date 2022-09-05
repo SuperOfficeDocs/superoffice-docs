@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Marketing/SaveFormEntity
-id: v1MarketingAgent_SaveFormEntity
+uid: v1MarketingAgent_SaveFormEntity
 ---
 
 # POST Agents/Marketing/SaveFormEntity
@@ -10,6 +10,13 @@ POST /api/v1/Agents/Marketing/SaveFormEntity
 ```
 
 Updates the existing FormEntity or creates a new FormEntity if the id parameter is empty
+
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -25,9 +32,9 @@ Updates the existing FormEntity or creates a new FormEntity if the id parameter 
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entity
+## Request Body: entity  
 
-The FormEntity to be saved.
+The FormEntity to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -54,18 +61,16 @@ The FormEntity to be saved.
 | UpdatedCount | int32 | Number of updates made to this record |
 | FolderName | string | The name of the folder for this form |
 
-## Response: object
 
-Definition and configuration of a Form
+## Response: 
 
-Carrier object for FormEntity.
-Services for the FormEntity Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IMarketingAgent">Marketing Agent</see>.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -94,7 +99,7 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Marketing/SaveFormEntity
@@ -104,70 +109,66 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "FormId": 357,
-  "FormKey": "excepturi",
-  "Name": "Rice, Brakus and Ritchie",
-  "Description": "Enhanced zero tolerance utilisation",
+  "FormId": 785,
+  "FormKey": "non",
+  "Name": "Reynolds, Stehr and Jaskolski",
+  "Description": "Proactive full-range synergy",
   "Config": "et",
-  "FolderId": 52,
-  "ScriptId": 472,
-  "ResponseShipmentId": 843,
-  "Active": true,
-  "Expires": "2000-05-20T18:28:49.4590874+02:00",
-  "MaxSubmits": 275,
+  "FolderId": 676,
+  "ScriptId": 536,
+  "ResponseShipmentId": 691,
+  "Active": false,
+  "Expires": "2011-05-02T11:10:27.2854252+02:00",
+  "MaxSubmits": 76,
   "Type": "Normal",
-  "Recipe": "ad",
-  "GroupId": 15,
+  "Recipe": "aliquam",
+  "GroupId": 293,
   "NewTicket": false,
   "RecaptchaMode": "GlobalKeysExist",
-  "Registered": "2011-10-14T18:28:49.4590874+02:00",
-  "RegisteredAssociateId": 378,
-  "Updated": "1996-11-19T18:28:49.4590874+01:00",
-  "UpdatedAssociateId": 906,
-  "UpdatedCount": 731,
-  "FolderName": "Hermiston LLC"
+  "Registered": "2005-04-28T11:10:27.2854252+02:00",
+  "RegisteredAssociateId": 429,
+  "Updated": "2001-03-19T11:10:27.2854252+01:00",
+  "UpdatedAssociateId": 699,
+  "UpdatedCount": 512,
+  "FolderName": "Jakubowski Inc and Sons"
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "FormId": 788,
-  "FormKey": "quasi",
-  "Name": "Bergstrom LLC",
-  "Description": "Visionary bifurcated firmware",
-  "Config": "repudiandae",
-  "FolderId": 679,
-  "ScriptId": 251,
-  "ResponseShipmentId": 177,
-  "Active": true,
-  "Expires": "2004-04-04T18:28:49.4590874+02:00",
-  "MaxSubmits": 691,
+  "FormId": 701,
+  "FormKey": "fugiat",
+  "Name": "Eichmann Group",
+  "Description": "Grass-roots client-server help-desk",
+  "Config": "est",
+  "FolderId": 295,
+  "ScriptId": 381,
+  "ResponseShipmentId": 649,
+  "Active": false,
+  "Expires": "2019-01-24T11:10:27.2854252+01:00",
+  "MaxSubmits": 6,
   "Type": "Normal",
-  "Recipe": "voluptatibus",
-  "GroupId": 622,
-  "NewTicket": false,
+  "Recipe": "quis",
+  "GroupId": 523,
+  "NewTicket": true,
   "RecaptchaMode": "GlobalKeysExist",
-  "Registered": "2011-02-11T18:28:49.4590874+01:00",
-  "RegisteredAssociateId": 771,
-  "Updated": "1997-12-10T18:28:49.4590874+01:00",
-  "UpdatedAssociateId": 554,
-  "UpdatedCount": 795,
-  "FolderName": "Bahringer, Leffler and Cole",
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": "matrix cutting-edge portals"
-  },
+  "Registered": "2002-04-20T11:10:27.2854252+02:00",
+  "RegisteredAssociateId": 644,
+  "Updated": "2004-08-21T11:10:27.2854252+02:00",
+  "UpdatedAssociateId": 864,
+  "UpdatedCount": 5,
+  "FolderName": "Roob Inc and Sons",
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
-      "FieldType": "System.Int32",
-      "FieldLength": 598
+      "FieldRight": null,
+      "FieldType": "System.String",
+      "FieldLength": 86
     }
   }
 }

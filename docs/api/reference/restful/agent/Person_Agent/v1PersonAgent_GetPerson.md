@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Person/GetPerson
-id: v1PersonAgent_GetPerson
+uid: v1PersonAgent_GetPerson
 ---
 
 # POST Agents/Person/GetPerson
@@ -11,6 +11,12 @@ POST /api/v1/Agents/Person/GetPerson
 
 Gets a Person object.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -19,9 +25,10 @@ Gets a Person object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Person/GetPerson?personId=497
+POST /api/v1/Agents/Person/GetPerson?personId=520
 POST /api/v1/Agents/Person/GetPerson?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -36,16 +43,16 @@ POST /api/v1/Agents/Person/GetPerson?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response: object
 
-Carrier object for Person.
-Services for the Person Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IPersonAgent">Person Agent</see>.
+## Response: 
+
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -92,7 +99,7 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Person/GetPerson
@@ -101,63 +108,59 @@ Accept: application/json; charset=utf-8
 Accept-Language: fr,de,ru,zh
 ```
 
+## Sample response
+
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Position": "id",
-  "PersonId": 267,
-  "Mrmrs": "velit",
-  "Firstname": "Fernando",
-  "Lastname": "Roob",
-  "MiddleName": "Predovic Group",
-  "Title": "perferendis",
-  "Description": "Public-key disintermediate orchestration",
-  "Email": "jamir@hickle.biz",
-  "FullName": "Gage Hahn",
-  "DirectPhone": "1-006-358-0465 x416",
-  "FormalName": "Daniel-Stark",
-  "CountryId": 719,
-  "ContactId": 770,
-  "ContactName": "Bayer, Pfeffer and Orn",
-  "Retired": 424,
-  "Rank": 353,
-  "ActiveInterests": 631,
+  "Position": "ut",
+  "PersonId": 939,
+  "Mrmrs": "enim",
+  "Firstname": "Korbin",
+  "Lastname": "Leuschke",
+  "MiddleName": "Toy Inc and Sons",
+  "Title": "eum",
+  "Description": "Polarised well-modulated migration",
+  "Email": "bria@konopelski.uk",
+  "FullName": "Amir Tillman",
+  "DirectPhone": "827-874-5736 x06877",
+  "FormalName": "McGlynn-Kessler",
+  "CountryId": 989,
+  "ContactId": 886,
+  "ContactName": "Rutherford LLC",
+  "Retired": 353,
+  "Rank": 549,
+  "ActiveInterests": 207,
   "ContactDepartment": "",
-  "ContactCountryId": 440,
-  "ContactOrgNr": "772840",
-  "FaxPhone": "1-338-312-8508 x2486",
-  "MobilePhone": "866.148.0527",
-  "ContactPhone": "537-543-3011 x232",
-  "AssociateName": "Stoltenberg, Casper and Prohaska",
-  "AssociateId": 846,
-  "UsePersonAddress": false,
-  "ContactFax": "est",
-  "Kanafname": "velit",
-  "Kanalname": "ut",
-  "Post1": "laudantium",
-  "Post2": "qui",
-  "Post3": "assumenda",
-  "EmailName": "jovanny_reichel@schroederlabadie.uk",
-  "ContactFullName": "Anastasia Ullrich",
-  "ActiveErpLinks": 500,
-  "TicketPriorityId": 965,
-  "SupportLanguageId": 650,
-  "SupportAssociateId": 366,
+  "ContactCountryId": 452,
+  "ContactOrgNr": "1722919",
+  "FaxPhone": "1-860-269-4381 x991",
+  "MobilePhone": "260.718.6563",
+  "ContactPhone": "1-228-488-2783",
+  "AssociateName": "Reichel, Barton and Kiehn",
+  "AssociateId": 456,
+  "UsePersonAddress": true,
+  "ContactFax": "magni",
+  "Kanafname": "voluptatem",
+  "Kanalname": "harum",
+  "Post1": "neque",
+  "Post2": "ea",
+  "Post3": "fuga",
+  "EmailName": "lamont.gottlieb@gleason.info",
+  "ContactFullName": "Angus Homenick I",
+  "ActiveErpLinks": 337,
+  "TicketPriorityId": 404,
+  "SupportLanguageId": 529,
+  "SupportAssociateId": 9,
   "CategoryName": "VIP Customer",
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
+      "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 754
+      "FieldLength": 136
     }
   }
 }

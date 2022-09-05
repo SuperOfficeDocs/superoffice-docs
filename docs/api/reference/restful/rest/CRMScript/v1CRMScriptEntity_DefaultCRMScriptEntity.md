@@ -1,6 +1,6 @@
 ---
 title: GET CRMScript/default
-id: v1CRMScriptEntity_DefaultCRMScriptEntity
+uid: v1CRMScriptEntity_DefaultCRMScriptEntity
 ---
 
 # GET CRMScript/default
@@ -11,9 +11,17 @@ GET /api/v1/CRMScript/default
 
 Set default values into a new CRMScriptEntity.
 
+
 NetServer calculates default values on the entity, which is required when creating/storing a new instance
 
-## Online Restricted: ## The CRMScript agent is not available in Online by default. Access must be requested specifically when app is registered. Calls the CRMScript agent service CreateDefaultCRMScriptEntity
+
+## Online Restricted: ## The CRMScript agent is not available in Online by default. Access must be requested specifically when app is registered. Calls the CRMScript agent service CreateDefaultCRMScriptEntity.
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -28,18 +36,16 @@ NetServer calculates default values on the entity, which is required when creati
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response: object
 
-CRM Scripts - stored in the ejScript table, including source code.
+## Response: 
 
-Carrier object for CRMScriptEntity.
-Services for the CRMScriptEntity Carrier is available from the <see cref="T:SuperOffice.CRM.Services.ICRMScriptAgent">CRMScript Agent</see>.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -57,7 +63,7 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 GET /api/v1/CRMScript/default
@@ -66,34 +72,30 @@ Accept: application/json; charset=utf-8
 Accept-Language: sv
 ```
 
+## Sample response
+
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjscriptId": 637,
-  "UniqueIdentifier": "fuga",
-  "Name": "Hessel-Botsford",
-  "Description": "Extended disintermediate strategy",
-  "IncludeId": "placeat",
-  "HierarchyId": 925,
-  "Source": "sint",
-  "Registered": "2014-04-23T18:25:50.398624+02:00",
-  "RegisteredAssociateId": 773,
-  "Updated": "2000-03-30T18:25:50.398624+02:00",
-  "UpdatedAssociateId": 339,
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "EjscriptId": 763,
+  "UniqueIdentifier": "ut",
+  "Name": "Frami LLC",
+  "Description": "Vision-oriented full-range data-warehouse",
+  "IncludeId": "cupiditate",
+  "HierarchyId": 847,
+  "Source": "quisquam",
+  "Registered": "2000-03-06T11:10:52.7561442+01:00",
+  "RegisteredAssociateId": 626,
+  "Updated": "1996-03-26T11:10:52.7561442+01:00",
+  "UpdatedAssociateId": 996,
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
-      "FieldType": "System.String",
-      "FieldLength": 720
+      "FieldRight": null,
+      "FieldType": "System.Int32",
+      "FieldLength": 76
     }
   }
 }

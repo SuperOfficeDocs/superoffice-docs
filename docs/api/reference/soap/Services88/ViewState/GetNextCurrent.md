@@ -18,6 +18,7 @@ Returns the next current item. If no item exists a default value is returned. Th
 
 **Returns:** The current value.
 
+
 [WSDL file for Services88/ViewState](../Services88-ViewState.md)
 
 Obtain a ticket from the [Services88/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -51,6 +52,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## GetNextCurrent Response
 
 ```xml
@@ -79,3 +81,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

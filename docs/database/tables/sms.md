@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "sms"
-so.date: 04.12.2022
+so.date: 08.26.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -34,7 +34,8 @@ This table will hold outgoing sms messages when transmitted with WebServices
 |shipment\_id|Reference to the shipment id, used for eMarketeer|FK [s_shipment](s-shipment.md)| |
 |customer\_id|Reference to the customer id, used for eMarketeer|FK [person](person.md)| |
 |message\_id|Reference to the message id this SMS was sent from|FK [ej_message](ej-message.md)| |
-|outgoing\_message\_id|Reference to the outgoing message entry created by NetServer for sending and status update|FK [outgoing_message](outgoing-message.md)|&#x25CF;|
+|outgoing\_message\_id|Reference to the outgoing message entry created by netserver for sending and status update|FK [outgoing_message](outgoing-message.md)|&#x25CF;|
+
 
 ![sms table relationship diagram](./media/sms.png)
 
@@ -63,6 +64,7 @@ This table will hold outgoing sms messages when transmitted with WebServices
 |[person](person.md)  |Persons in a company or an organizations. All associates have a corresponding person record |
 |[s\_shipment](s-shipment.md)  |Contains info about one shipment. The addresses are stored in s_shipment_addr |
 
+
 ## Replication Flags
 
 * None
@@ -70,3 +72,4 @@ This table will hold outgoing sms messages when transmitted with WebServices
 ## Security Flags
 
 * No access control via user's Role.
+

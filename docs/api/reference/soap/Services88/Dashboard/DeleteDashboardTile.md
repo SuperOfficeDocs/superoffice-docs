@@ -15,6 +15,8 @@ Deletes the DashboardTile
 
 * **dashboardTileId:** The identity of the DashboardTile
 
+
+
 [WSDL file for Services88/Dashboard](../Services88-Dashboard.md)
 
 Obtain a ticket from the [Services88/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -47,6 +49,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## DeleteDashboardTile Response
 
 ```xml
@@ -66,3 +69,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

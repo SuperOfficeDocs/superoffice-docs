@@ -1,6 +1,6 @@
 ---
 title: GET List/Competitor/MDOItems
-id: v1CompetitorList_GetMDOList
+uid: v1CompetitorList_GetMDOList
 ---
 
 # GET List/Competitor/MDOItems
@@ -11,6 +11,12 @@ GET /api/v1/List/Competitor/MDOItems
 
 Get the MDO list items for "Comptr" - with headings and filtering by user group.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -19,9 +25,10 @@ Get the MDO list items for "Comptr" - with headings and filtering by user group.
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/Competitor/MDOItems?flat=True
-GET /api/v1/List/Competitor/MDOItems?query=nihil
+GET /api/v1/List/Competitor/MDOItems?flat=False
+GET /api/v1/List/Competitor/MDOItems?query=adipisci
 ```
+
 
 ## Request Headers
 
@@ -36,7 +43,10 @@ GET /api/v1/List/Competitor/MDOItems?query=nihil
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -61,14 +71,16 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 GET /api/v1/List/Competitor/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -76,59 +88,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 224,
-    "Name": "Jenkins, Mante and Gutmann",
-    "ToolTip": "Consequatur sit non quod provident.",
+    "Id": 805,
+    "Name": "O'Hara-Torp",
+    "ToolTip": "Earum sit.",
     "Deleted": false,
-    "Rank": 656,
-    "Type": "maxime",
+    "Rank": 580,
+    "Type": "nisi",
     "ChildItems": [
       {
-        "Id": 379,
-        "Name": "Herzog LLC",
-        "ToolTip": "Est ratione.",
+        "Id": 302,
+        "Name": "Wyman Inc and Sons",
+        "ToolTip": "Modi inventore odio et provident.",
         "Deleted": false,
-        "Rank": 188,
-        "Type": "placeat",
+        "Rank": 38,
+        "Type": "sit",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "qui",
-        "ColorBlock": 982,
-        "ExtraInfo": "sunt",
-        "StyleHint": "qui",
-        "FullName": "Brendan Okuneva",
-        "TableRight": {},
+        "IconHint": "ea",
+        "ColorBlock": 862,
+        "ExtraInfo": "dicta",
+        "StyleHint": "explicabo",
+        "FullName": "Gerardo Considine",
+        "TableRight": null,
         "FieldProperties": {
           "fieldName": {
-            "FieldRight": {
-              "Mask": "FULL",
-              "Reason": ""
-            },
+            "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 153
+            "FieldLength": 167
           }
         }
       }
     ],
-    "IconHint": "et",
-    "ColorBlock": 664,
-    "ExtraInfo": "ad",
-    "StyleHint": "consectetur",
-    "FullName": "Salvador Grant DVM",
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "IconHint": "facere",
+    "ColorBlock": 856,
+    "ExtraInfo": "vitae",
+    "StyleHint": "non",
+    "FullName": "Gregoria Hayes",
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
+        "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 439
+        "FieldLength": 423
       }
     }
   }

@@ -1,6 +1,6 @@
 ---
 title: GET List/DeliveryTerm
-id: v1DeliveryTermsList_GetListDefinition
+uid: v1DeliveryTermsList_GetListDefinition
 ---
 
 # GET List/DeliveryTerm
@@ -10,6 +10,13 @@ GET /api/v1/List/DeliveryTerm
 ```
 
 Gets description of DeliveryTerm list
+
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -24,17 +31,16 @@ Gets description of DeliveryTerm list
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response: object
 
-The list entity contains information about a specific list
+## Response: 
 
-ListEntity entity with API _Links added.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -52,7 +58,7 @@ Response body: object
 | FieldProperties | object |  |
 | _Links | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 GET /api/v1/List/DeliveryTerm
@@ -61,38 +67,34 @@ Accept: application/json; charset=utf-8
 Accept-Language: en
 ```
 
+## Sample response
+
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 965,
-  "Name": "Cremin-Jerde",
-  "Tooltip": "maxime",
-  "Deleted": true,
-  "Rank": 504,
+  "Id": 393,
+  "Name": "Bahringer-Kiehn",
+  "Tooltip": "libero",
+  "Deleted": false,
+  "Rank": 996,
   "IsCustomList": true,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "ipsam",
+  "ListType": "omnis",
   "InUseByUserDefinedFields": false,
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
+      "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 62
+      "FieldLength": 952
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

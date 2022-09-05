@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Appointment/GetContactAppointmentsByTaskHeading
-id: v1AppointmentAgent_GetContactAppointmentsByTaskHeading
+uid: v1AppointmentAgent_GetContactAppointmentsByTaskHeading
 ---
 
 # POST Agents/Appointment/GetContactAppointmentsByTaskHeading
@@ -11,7 +11,13 @@ POST /api/v1/Agents/Appointment/GetContactAppointmentsByTaskHeading
 
 Method that returns a specified number of appointments of a specific appointment task heading within a time range.
 
+
 The appointments belong to the contact specified. Task represents the different types of activities, like “Phone call”, “Meeting” and so on. The heading represents a grouping or filtering of tasks.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +28,7 @@ The appointments belong to the contact specified. Task represents the different 
 ```http
 POST /api/v1/Agents/Appointment/GetContactAppointmentsByTaskHeading?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,9 +44,9 @@ POST /api/v1/Agents/Appointment/GetContactAppointmentsByTaskHeading?$select=name
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-ContactId, StartTime, EndTime, Count, TaskHeadingId
+ContactId, StartTime, EndTime, Count, TaskHeadingId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -49,7 +56,10 @@ ContactId, StartTime, EndTime, Count, TaskHeadingId
 | Count | int32 |  |
 | TaskHeadingId | int32 |  |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -111,23 +121,25 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Appointment/GetContactAppointmentsByTaskHeading
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 471,
-  "StartTime": "1994-07-16T18:28:47.7208141+02:00",
-  "EndTime": "2015-02-02T18:28:47.7208141+01:00",
-  "Count": 733,
-  "TaskHeadingId": 807
+  "ContactId": 310,
+  "StartTime": "1997-09-30T11:10:25.4405254+02:00",
+  "EndTime": "2003-09-24T11:10:25.4405254+02:00",
+  "Count": 567,
+  "TaskHeadingId": 737
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -135,67 +147,61 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 906,
-    "StartDate": "2017-03-30T18:28:47.7228442+02:00",
-    "EndDate": "2016-08-23T18:28:47.7228442+02:00",
+    "AppointmentId": 542,
+    "StartDate": "2021-03-18T11:10:25.4425249+01:00",
+    "EndDate": "2017-08-02T11:10:25.4425249+02:00",
     "Type": "BookingForChecklist",
-    "Task": "eius",
-    "AssociateFullName": "Sigurd Berge V",
-    "ContactName": "Walter, Okuneva and Spinka",
-    "Description": "Managed mission-critical installation",
-    "PersonFullName": "Heloise Legros",
-    "PersonId": 35,
-    "ContactId": 647,
-    "ProjectId": 937,
-    "ProjectName": "Swift Group",
-    "IsPublished": true,
-    "AssociateId": 536,
-    "ColorIndex": 804,
-    "IsFree": true,
-    "HasAlarm": true,
-    "IsAlldayEvent": true,
+    "Task": "et",
+    "AssociateFullName": "Gisselle Rice",
+    "ContactName": "Wisoky-Considine",
+    "Description": "Versatile modular benchmark",
+    "PersonFullName": "Abdiel Jazlyn Schmidt II",
+    "PersonId": 224,
+    "ContactId": 449,
+    "ProjectId": 406,
+    "ProjectName": "Reichel-Hodkiewicz",
+    "IsPublished": false,
+    "AssociateId": 650,
+    "ColorIndex": 890,
+    "IsFree": false,
+    "HasAlarm": false,
+    "IsAlldayEvent": false,
     "Private": "PrivateGroup",
-    "PriorityId": 74,
-    "PriorityName": "Glover, O'Reilly and Gleichner",
+    "PriorityId": 784,
+    "PriorityName": "Yundt Group",
     "TaskType": "Appointment",
-    "IsBookingMain": false,
+    "IsBookingMain": true,
     "IsRecurrence": false,
-    "IsBooking": false,
-    "ActiveDate": "2013-12-14T18:28:47.7228442+01:00",
+    "IsBooking": true,
+    "ActiveDate": "2020-11-03T11:10:25.4425249+01:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2008-03-31T18:28:47.7228442+02:00",
-    "RecurringEndDate": "2018-07-21T18:28:47.7228442+02:00",
-    "MotherId": 787,
-    "AssignedBy": 144,
-    "AssignedByFullName": "Mrs. Casper Gerhold",
+    "RecurringStartDate": "2019-04-15T11:10:25.4425249+02:00",
+    "RecurringEndDate": "1996-03-22T11:10:25.4425249+01:00",
+    "MotherId": 84,
+    "AssignedBy": 679,
+    "AssignedByFullName": "Vivienne Koelpin",
     "RejectReason": "",
-    "Location": "error",
-    "AlarmLeadTime": "dolores",
-    "SaleId": 641,
-    "SaleName": "Bayer Inc and Sons",
-    "AssociateName": "Wyman-McGlynn",
-    "CreatedDate": "2020-01-05T18:28:47.7238451+01:00",
-    "CreatedBy": "earum",
-    "CreatedByFullName": "Lucio Macejkovic DDS",
-    "CreatedByAssociateId": 207,
+    "Location": "vitae",
+    "AlarmLeadTime": "nam",
+    "SaleId": 266,
+    "SaleName": "Herman-Emmerich",
+    "AssociateName": "Wilderman-Little",
+    "CreatedDate": "2015-04-21T11:10:25.4435257+02:00",
+    "CreatedBy": "enim",
+    "CreatedByFullName": "Prof. Wilhelm Elouise Trantow Sr.",
+    "CreatedByAssociateId": 316,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
+        "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 37
+        "FieldLength": 76
       }
     }
   }

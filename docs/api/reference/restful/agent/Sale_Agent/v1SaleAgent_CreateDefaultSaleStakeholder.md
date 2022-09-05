@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Sale/CreateDefaultSaleStakeholder
-id: v1SaleAgent_CreateDefaultSaleStakeholder
+uid: v1SaleAgent_CreateDefaultSaleStakeholder
 ---
 
 # POST Agents/Sale/CreateDefaultSaleStakeholder
@@ -11,7 +11,14 @@ POST /api/v1/Agents/Sale/CreateDefaultSaleStakeholder
 
 Set default values into a new SaleStakeholder.
 
+
 NetServer calculates default values on the entity, which is required when creating/storing a new instance
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -26,16 +33,16 @@ NetServer calculates default values on the entity, which is required when creati
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response: object
 
-Carrier object for SaleStakeholder.
-Services for the SaleStakeholder Carrier is available from the <see cref="T:SuperOffice.CRM.Services.ISaleAgent">Sale Agent</see>.
+## Response: 
+
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -61,7 +68,7 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Sale/CreateDefaultSaleStakeholder
@@ -70,42 +77,38 @@ Accept: application/json; charset=utf-8
 Accept-Language: sv
 ```
 
+## Sample response
+
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "StakeholderRoleName": "Stroman Inc and Sons",
-  "Comment": "consequatur",
-  "StakeholderRoleId": 289,
-  "CountryId": 66,
-  "PersonId": 988,
-  "EmailDescription": "nicolas_corwin@watsica.info",
-  "EmailId": 2,
-  "EmailAddress": "kenya@brownparker.info",
-  "PhoneId": 391,
-  "ContactName": "Wyman-Dicki",
-  "ContactId": 263,
-  "SaleId": 217,
-  "Mrmrs": "illum",
-  "Firstname": "Rosanna",
-  "MiddleName": "Waters Group",
-  "Lastname": "Senger",
-  "SaleStakeholderId": 326,
-  "Rank": 866,
-  "Phone": "(273)155-5314 x1116",
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "StakeholderRoleName": "Tremblay, Schoen and Treutel",
+  "Comment": "eligendi",
+  "StakeholderRoleId": 80,
+  "CountryId": 570,
+  "PersonId": 118,
+  "EmailDescription": "grover.rempel@borerschuster.info",
+  "EmailId": 194,
+  "EmailAddress": "ryann_mayert@mccullough.uk",
+  "PhoneId": 362,
+  "ContactName": "Harvey LLC",
+  "ContactId": 341,
+  "SaleId": 301,
+  "Mrmrs": "voluptates",
+  "Firstname": "Will",
+  "MiddleName": "Gusikowski LLC",
+  "Lastname": "Brakus",
+  "SaleStakeholderId": 24,
+  "Rank": 831,
+  "Phone": "033.971.2046 x7170",
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
-      "FieldType": "System.String",
-      "FieldLength": 915
+      "FieldRight": null,
+      "FieldType": "System.Int32",
+      "FieldLength": 343
     }
   }
 }

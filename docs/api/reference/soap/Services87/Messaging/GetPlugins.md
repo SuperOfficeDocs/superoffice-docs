@@ -11,7 +11,10 @@ Implemented by the <see cref="M:SuperOffice.Services87.IMessagingAgent.GetPlugin
 
 ## GetPlugins
 
-<br />**Online Restricted:** The Messaging agent is not available in Online by default. Access must be requested specifically when app is registered.
+<para /><b>Online Restricted:</b> The Messaging agent is not available in Online by default. Access must be requested specifically when app is registered.
+
+
+
 
 [WSDL file for Services87/Messaging](../Services87-Messaging.md)
 
@@ -44,6 +47,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## GetPlugins Response
 
 ```xml
@@ -72,3 +76,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

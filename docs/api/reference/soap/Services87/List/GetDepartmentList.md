@@ -17,6 +17,7 @@ Gets an array of Department objects.
 
 **Returns:** Array of Department objects
 
+
 [WSDL file for Services87/List](../Services87-List.md)
 
 Obtain a ticket from the [Services87/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -51,6 +52,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## GetDepartmentList Response
 
 ```xml
@@ -77,3 +79,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

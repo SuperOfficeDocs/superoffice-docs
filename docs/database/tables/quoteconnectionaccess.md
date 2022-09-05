@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "QuoteConnectionAccess"
-so.date: 04.12.2022
+so.date: 08.26.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -31,6 +31,7 @@ Access control for Quote Connections
 |updated\_associate\_id|Last updated by whom|FK [associate](associate.md)| |
 |updatedCount|Number of updates made to this record|UShort| |
 
+
 ![QuoteConnectionAccess table relationship diagram](./media/QuoteConnectionAccess.png)
 
 [!include[details](./includes/quoteconnectionaccess.md)]
@@ -49,6 +50,7 @@ Access control for Quote Connections
 |[QuoteConnection](quoteconnection.md)  |Primary key in the CRM database. Definition of a connection to an external system, for the Quote system. |
 |[UserGroup](usergroup.md)  |Secondary user groups |
 
+
 ## Replication Flags
 
 * Replicate changes DOWN from central to satellites and travellers.
@@ -57,3 +59,4 @@ Access control for Quote Connections
 ## Security Flags
 
 * No access control via user's Role.
+

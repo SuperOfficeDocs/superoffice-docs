@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "document"
-so.date: 04.12.2022
+so.date: 08.26.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -15,7 +15,7 @@ so.envir:
 
 # document Table (10)
 
-Documents, this table is an extension of the Appointment table.  There is always a corresponding appointment record; the relation between appointment and document is navigable in both directions. A document-type appointment record always has a corresponding document record and a record in VisibleFor specifying who may see this.
+Documents, this table is an extension of the Appointment table.  There is always a corresponding appointment record; the relation between appointment and document is navigable in both directions. A document-type appointment record always has a corresponding document record and a record in VisibleFor specifying who may see this.  
 
 ## Fields
 
@@ -42,6 +42,7 @@ Documents, this table is an extension of the Appointment table.  There is always
 |userdef2\_id|User-defined fields|FK [uddoclarge](uddoclarge.md)|&#x25CF;|
 |snum|The sequence number allocated from refcount on used template when creating the document|Int|&#x25CF;|
 |ExtUrl|For DocPlugin-internal use only. Used to optionally cache URL of external documents.|String(1023)|&#x25CF;|
+
 
 ![document table relationship diagram](./media/document.png)
 
@@ -77,6 +78,7 @@ Documents, this table is an extension of the Appointment table.  There is always
 |[uddoclarge](uddoclarge.md)  |User-defined fields |
 |[uddocsmall](uddocsmall.md)  |User-defined fields |
 
+
 ## Replication Flags
 
 * Area Management controlled table. Contents replicated to satellites and traveller databases.
@@ -87,3 +89,4 @@ Documents, this table is an extension of the Appointment table.  There is always
 ## Security Flags
 
 * Sentry controls access to items in this table using user's Role and data rights matrix on the table's parent.
+

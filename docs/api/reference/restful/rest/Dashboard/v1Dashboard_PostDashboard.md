@@ -1,6 +1,6 @@
 ---
 title: POST Dashboard
-id: v1Dashboard_PostDashboard
+uid: v1Dashboard_PostDashboard
 ---
 
 # POST Dashboard
@@ -11,7 +11,13 @@ POST /api/v1/Dashboard
 
 Creates a new Dashboard
 
+
 Calls the Dashboard agent service SaveDashboard.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +28,7 @@ Calls the Dashboard agent service SaveDashboard.
 ```http
 POST /api/v1/Dashboard?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,9 +44,9 @@ POST /api/v1/Dashboard?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: newEntity
+## Request Body: newEntity  
 
-The Dashboard to be saved.
+The Dashboard to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -49,17 +56,16 @@ The Dashboard to be saved.
 | Layout | string | The dashboard layout, how the tiles are organized on the screen |
 | Tiles | array | The tiles associated with this dashboard |
 
-## Response: object
 
-Dashboard configuration
+## Response: 
 
-Dashboard entity with API _Links added.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -72,32 +78,32 @@ Response body: object
 | FieldProperties | object |  |
 | _Links | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Dashboard
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 913,
-  "AssociateId": 524,
-  "Caption": "sed",
+  "DashboardId": 401,
+  "AssociateId": 297,
+  "Caption": "repellat",
   "Layout": "Four",
   "Tiles": [
     {
-      "DashboardTileId": 331,
-      "Caption": "sit",
-      "Description": "Future-proofed eco-centric hierarchy",
-      "ChartName": "Willms LLC",
-      "ChartId": "iure",
-      "IsDefault": false,
-      "AssociateId": 988,
-      "GroupId": 273,
-      "SelectionId": 871,
-      "Config": "doloremque",
+      "DashboardTileId": 782,
+      "Caption": "nesciunt",
+      "Description": "Robust 24/7 capability",
+      "ChartName": "Fay LLC",
+      "ChartId": "quis",
+      "IsDefault": true,
+      "AssociateId": 858,
+      "GroupId": 287,
+      "SelectionId": 75,
+      "Config": "animi",
       "Type": "Bignum",
       "EntityType": "Activity",
       "Options": [
@@ -113,27 +119,29 @@ Content-Type: application/json; charset=utf-8
 }
 ```
 
+## Sample response
+
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 142,
-  "AssociateId": 796,
-  "Caption": "ea",
+  "DashboardId": 694,
+  "AssociateId": 671,
+  "Caption": "ut",
   "Layout": "Four",
   "Tiles": [
     {
-      "DashboardTileId": 867,
-      "Caption": "atque",
-      "Description": "Diverse upward-trending project",
-      "ChartName": "Turner, O'Reilly and Kautzer",
-      "ChartId": "ipsa",
+      "DashboardTileId": 411,
+      "Caption": "aut",
+      "Description": "Progressive incremental open architecture",
+      "ChartName": "Fahey, Ritchie and Schroeder",
+      "ChartId": "qui",
       "IsDefault": false,
-      "AssociateId": 388,
-      "GroupId": 55,
-      "SelectionId": 791,
-      "Config": "impedit",
+      "AssociateId": 245,
+      "GroupId": 734,
+      "SelectionId": 267,
+      "Config": "quisquam",
       "Type": "Bignum",
       "EntityType": "Activity",
       "Options": [
@@ -144,36 +152,27 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "TableRight": {},
+      "TableRight": null,
       "FieldProperties": {
         "fieldName": {
-          "FieldRight": {
-            "Mask": "FULL",
-            "Reason": ""
-          },
+          "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 427
+          "FieldLength": 374
         }
       }
     }
   ],
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": "enhance sexy supply-chains"
-  },
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
-      "FieldType": "System.String",
-      "FieldLength": 277
+      "FieldRight": null,
+      "FieldType": "System.Int32",
+      "FieldLength": 846
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

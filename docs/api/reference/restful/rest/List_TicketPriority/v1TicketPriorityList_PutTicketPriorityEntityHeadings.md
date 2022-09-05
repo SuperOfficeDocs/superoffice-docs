@@ -1,6 +1,6 @@
 ---
 title: PUT List/TicketPriority/Headings
-id: v1TicketPriorityList_PutTicketPriorityEntityHeadings
+uid: v1TicketPriorityList_PutTicketPriorityEntityHeadings
 ---
 
 # PUT List/TicketPriority/Headings
@@ -11,7 +11,14 @@ PUT /api/v1/List/TicketPriority/Headings
 
 Saves headings for the TicketPriorityEntity list.
 
+
 Calls the List agent service SaveHeadingsFromListDefinition.
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -27,9 +34,9 @@ Calls the List agent service SaveHeadingsFromListDefinition.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entities
+## Request Body: entities  
 
-The headings to be saved.
+The headings to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -40,7 +47,10 @@ The headings to be saved.
 | Rank | int32 | Rank order |
 | UdListDefinitionId | int32 | The id of the list which this heading belongs to |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -59,34 +69,36 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 PUT /api/v1/List/TicketPriority/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 17,
-    "Name": "Stroman-Fadel",
-    "Tooltip": "soluta",
-    "Deleted": true,
-    "Rank": 218,
-    "UdListDefinitionId": 848
+    "HeadingId": 217,
+    "Name": "Raynor-Weimann",
+    "Tooltip": "quia",
+    "Deleted": false,
+    "Rank": 430,
+    "UdListDefinitionId": 471
   },
   {
-    "HeadingId": 17,
-    "Name": "Stroman-Fadel",
-    "Tooltip": "soluta",
-    "Deleted": true,
-    "Rank": 218,
-    "UdListDefinitionId": 848
+    "HeadingId": 217,
+    "Name": "Raynor-Weimann",
+    "Tooltip": "quia",
+    "Deleted": false,
+    "Rank": 430,
+    "UdListDefinitionId": 471
   }
 ]
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -94,24 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 758,
-    "Name": "Heaney Inc and Sons",
-    "Tooltip": "placeat",
-    "Deleted": false,
-    "Rank": 895,
-    "UdListDefinitionId": 213,
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "HeadingId": 837,
+    "Name": "Conn-Fisher",
+    "Tooltip": "est",
+    "Deleted": true,
+    "Rank": 730,
+    "UdListDefinitionId": 245,
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
+        "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 465
+        "FieldLength": 154
       }
     }
   }

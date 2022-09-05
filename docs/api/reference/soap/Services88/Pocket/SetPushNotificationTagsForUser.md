@@ -16,6 +16,9 @@ Specify what kind of notification events a user should receive push notification
 * **associateId:** The associate to set tags for
 * **tags:** A comma separated list of events the associate should receive push events for
 
+**Returns:** This method has no return value
+
+
 [WSDL file for Services88/Pocket](../Services88-Pocket.md)
 
 Obtain a ticket from the [Services88/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -49,6 +52,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## SetPushNotificationTagsForUser Response
 
 ```xml
@@ -68,3 +72,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

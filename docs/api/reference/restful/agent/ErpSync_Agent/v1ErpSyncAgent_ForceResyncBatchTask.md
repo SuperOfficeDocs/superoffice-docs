@@ -1,6 +1,6 @@
 ---
 title: POST Agents/ErpSync/ForceResyncBatchTask
-id: v1ErpSyncAgent_ForceResyncBatchTask
+uid: v1ErpSyncAgent_ForceResyncBatchTask
 ---
 
 # POST Agents/ErpSync/ForceResyncBatchTask
@@ -11,7 +11,15 @@ POST /api/v1/Agents/ErpSync/ForceResyncBatchTask
 
 Start batch task to force resync from CRM or given Erp connection to all other connections
 
-## Online Restricted: ## The ErpSync agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for ERP integration apps
+
+
+
+## Online Restricted: ## The ErpSync agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for ERP integration apps.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -23,6 +31,7 @@ Start batch task to force resync from CRM or given Erp connection to all other c
 POST /api/v1/Agents/ErpSync/ForceResyncBatchTask?$select=name,department,category/id
 ```
 
+
 ## Request Headers
 
 | Parameter Name | Description |
@@ -30,19 +39,53 @@ POST /api/v1/Agents/ErpSync/ForceResyncBatchTask?$select=name,department,categor
 | Authorization  | Supports 'Basic', 'SoTicket' and 'Bearer' schemes, depending on installation type. |
 | X-XSRF-TOKEN   | If not using Authorization header, you must provide XSRF value from cookie or hidden input field |
 | Content-Type | Content-type of the request body: `application/json`, `text/json`, `application/xml`, `text/xml`, `application/x-www-form-urlencoded`, `application/json-patch+json`, `application/merge-patch+json` |
+| Accept         | Content-type(s) you would like the response in:  |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-ErpConnectionId, InternalKeyIds
+ErpConnectionId, InternalKeyIds 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | ErpConnectionId | int32 |  |
 | InternalKeyIds | array |  |
 
-## Response
+
+## Response: 
+
+No Content
 
 | Response | Description |
 |----------------|-------------|
 | 204 | No Content |
+
+Response body: 
+
+
+## Sample request
+
+```http!
+POST /api/v1/Agents/ErpSync/ForceResyncBatchTask
+Authorization: Basic dGplMDpUamUw
+Accept: application/json; charset=utf-8
+Accept-Language: sv
+Content-Type: application/json; charset=utf-8
+
+{
+  "ErpConnectionId": 206,
+  "InternalKeyIds": [
+    229,
+    159
+  ]
+}
+```
+
+## Sample response
+
+```http_
+HTTP/1.1 204 No Content
+Content-Type: application/json; charset=utf-8
+
+null
+```

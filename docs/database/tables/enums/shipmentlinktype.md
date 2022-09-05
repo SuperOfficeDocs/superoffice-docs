@@ -5,7 +5,7 @@ description: Lists the enum values for ShipmentLinkType.
 so.generated: true
 keywords:
   - "database"
-so.date: 04.12.2022
+so.date: 08.26.2022
 so.topic: reference
 so.envir:
   - "onsite"

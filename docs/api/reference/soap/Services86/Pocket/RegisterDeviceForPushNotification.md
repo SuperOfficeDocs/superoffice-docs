@@ -15,6 +15,8 @@ Register a device that should receive push notifications when notable events occ
 
 * **deviceInfo:** Properties for the device to register
 
+
+
 [WSDL file for Services86/Pocket](../Services86-Pocket.md)
 
 Obtain a ticket from the [Services86/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -55,6 +57,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## RegisterDeviceForPushNotification Response
 
 ```xml
@@ -74,3 +77,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

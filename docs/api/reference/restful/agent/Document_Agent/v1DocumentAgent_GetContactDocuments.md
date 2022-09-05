@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Document/GetContactDocuments
-id: v1DocumentAgent_GetContactDocuments
+uid: v1DocumentAgent_GetContactDocuments
 ---
 
 # POST Agents/Document/GetContactDocuments
@@ -11,7 +11,13 @@ POST /api/v1/Agents/Document/GetContactDocuments
 
 Method that returns a specified number of document appointments within a time range.
 
+
 The document appointments belong to the contact specified.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +28,7 @@ The document appointments belong to the contact specified.
 ```http
 POST /api/v1/Agents/Document/GetContactDocuments?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,9 +44,9 @@ POST /api/v1/Agents/Document/GetContactDocuments?$select=name,department,categor
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-ContactId, StartTime, EndTime, Count
+ContactId, StartTime, EndTime, Count 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -48,7 +55,10 @@ ContactId, StartTime, EndTime, Count
 | EndTime | date-time |  |
 | Count | int32 |  |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -76,25 +86,29 @@ Response body: array
 | ProjectName | string | Project name |
 | AssociateId | int32 | ID of associate whose diary the appointment is in, REQUIRED |
 | Snum | int32 | The sequence number allocated from refcount on used template when creating the document |
+| SaleId | int32 | Owning sale, if any (may be 0) |
+| SaleName | string | Heading of Owning sale, if any. (may be blank) |
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Document/GetContactDocuments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 384,
-  "StartTime": "2015-03-17T18:28:48.7089279+01:00",
-  "EndTime": "2021-08-03T18:28:48.7089279+02:00",
-  "Count": 569
+  "ContactId": 438,
+  "StartTime": "2011-10-03T11:10:26.4614566+02:00",
+  "EndTime": "1996-07-28T11:10:26.4614566+02:00",
+  "Count": 726
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -102,36 +116,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 493,
-    "Attention": "illo",
-    "Header": "eaque",
-    "Name": "Brown LLC",
-    "OurRef": "id",
-    "YourRef": "qui",
-    "Description": "Vision-oriented multi-tasking knowledge user",
-    "DocumentTemplate": "natus",
-    "IsPublished": true,
-    "PersonId": 99,
-    "PersonFullName": "Lilian Haley",
-    "AssociateFullName": "Mrs. Lawrence Parker",
-    "ContactId": 666,
-    "ContactName": "Schaefer, Stark and Lynch",
-    "ProjectId": 455,
-    "ProjectName": "Hauck Group",
-    "AssociateId": 251,
-    "Snum": 444,
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "DocumentId": 338,
+    "Attention": "nulla",
+    "Header": "enim",
+    "Name": "Mosciski LLC",
+    "OurRef": "ut",
+    "YourRef": "eos",
+    "Description": "Versatile incremental database",
+    "DocumentTemplate": "magni",
+    "IsPublished": false,
+    "PersonId": 426,
+    "PersonFullName": "Destany Becker",
+    "AssociateFullName": "Lori Lizzie Adams DVM",
+    "ContactId": 19,
+    "ContactName": "Kerluke Inc and Sons",
+    "ProjectId": 623,
+    "ProjectName": "Moore, Casper and Reilly",
+    "AssociateId": 856,
+    "Snum": 152,
+    "SaleId": 285,
+    "SaleName": "Bailey, Aufderhar and Gulgowski",
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 212
+        "FieldRight": null,
+        "FieldType": "System.Int32",
+        "FieldLength": 583
       }
     }
   }

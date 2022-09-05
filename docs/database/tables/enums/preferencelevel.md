@@ -5,7 +5,7 @@ description: Lists the enum values for PreferenceLevel.
 so.generated: true
 keywords:
   - "database"
-so.date: 04.12.2022
+so.date: 08.26.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -30,5 +30,5 @@ Highest override level allowed
 
 * [UserPreference](../userpreference.md).deflevel - Preference system. If deflevel is set to 5; the user may change the preferences
 * [UserPreference](../userpreference.md).maxlevel - Preference system. If deflevel is set to 5; the user may change the preferences
-* [PrefDesc](../prefdesc.md).maxLevel - Preference description, drives the Preference GUI. Maintenance client - controls all preferences in SuperOffice. May be used by third-party developers to add system preferences to be updated from SuperOffice Maintenance client, instead of ini-files.
-* [PrefDesc](../prefdesc.md).sysMaxLevel - Preference description, drives the Preference GUI. Maintenance client - controls all preferences in SuperOffice. May be used by third-party developers to add system preferences to be updated from SuperOffice Maintenance client, instead of ini-files.
+* [PrefDesc](../prefdesc.md).maxLevel - Preference description, drives the Preference GUI. Maintenance client - controls all preferences in SuperOffice. You find an overview off all standard preference on http://techdoc.superoffice.com.  May be used by third-party developers to add system preferences to be updated from SuperOffice Maintenance client, instead of ini-files. 
+* [PrefDesc](../prefdesc.md).sysMaxLevel - Preference description, drives the Preference GUI. Maintenance client - controls all preferences in SuperOffice. You find an overview off all standard preference on http://techdoc.superoffice.com.  May be used by third-party developers to add system preferences to be updated from SuperOffice Maintenance client, instead of ini-files. 

@@ -1,6 +1,6 @@
 ---
 title: POST Agents/ErpSync/GetActorTypeMapping
-id: v1ErpSyncAgent_GetActorTypeMapping
+uid: v1ErpSyncAgent_GetActorTypeMapping
 ---
 
 # POST Agents/ErpSync/GetActorTypeMapping
@@ -11,7 +11,15 @@ POST /api/v1/Agents/ErpSync/GetActorTypeMapping
 
 Get the current mappings for one connection/actor; connection+actor type = unique key
 
-## Online Restricted: ## The ErpSync agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for ERP integration apps
+
+
+
+## Online Restricted: ## The ErpSync agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for ERP integration apps.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +30,7 @@ Get the current mappings for one connection/actor; connection+actor type = uniqu
 ```http
 POST /api/v1/Agents/ErpSync/GetActorTypeMapping?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,27 +46,25 @@ POST /api/v1/Agents/ErpSync/GetActorTypeMapping?$select=name,department,category
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-ErpConnectionId, ActorType
+ErpConnectionId, ActorType 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | ErpConnectionId | int32 |  |
 | ActorType | string |  |
 
-## Response: object
 
-Mapping information for one Actor, contains array of field mappings (ERP &lt;-&gt; SuperOffice)
+## Response: 
 
-Carrier object for ErpSyncActorTypeMapping.
-Services for the ErpSyncActorTypeMapping Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IErpSyncAgent">ErpSync Agent</see>.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -69,74 +76,67 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/ErpSync/GetActorTypeMapping
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 770,
+  "ErpConnectionId": 123,
   "ActorType": "Customer"
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 934,
+  "ErpConnectionId": 601,
   "IsActive": true,
   "FieldMappings": [
     {
-      "ErpFieldId": 733,
-      "CrmFieldKey": "et",
-      "CrmDisplayName": "Boyer Inc and Sons",
-      "CrmDisplayTooltip": "consectetur",
-      "ErpFieldKey": "cumque",
+      "ErpFieldId": 981,
+      "CrmFieldKey": "assumenda",
+      "CrmDisplayName": "D'Amore-Herman",
+      "CrmDisplayTooltip": "dolores",
+      "ErpFieldKey": "dolores",
       "FieldType": "Checkbox",
-      "ErpDisplayName": "Cummerata Inc and Sons",
-      "ErpDisplayTooltip": "soluta",
+      "ErpDisplayName": "Lang, Mayer and Torphy",
+      "ErpDisplayTooltip": "eaque",
       "SyncToCrm": false,
       "SyncToErp": false,
-      "ShowInGui": false,
-      "ShowInSearch": true,
-      "AlreadyMapped": true,
+      "ShowInGui": true,
+      "ShowInSearch": false,
+      "AlreadyMapped": false,
       "MissingInERP": false,
-      "MissingInCRM": false,
+      "MissingInCRM": true,
       "Access": "Mandatory",
-      "ListReference": "dolores",
-      "TableRight": {},
+      "ListReference": "quia",
+      "TableRight": null,
       "FieldProperties": {
         "fieldName": {
-          "FieldRight": {
-            "Mask": "FULL",
-            "Reason": "maximize mission-critical eyeballs"
-          },
-          "FieldType": "System.String",
-          "FieldLength": 246
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 859
         }
       }
     }
   ],
   "ActorTypeErp": "Customer",
   "ActorTypeCrm": "Contact",
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
-      "FieldType": "System.String",
-      "FieldLength": 744
+      "FieldRight": null,
+      "FieldType": "System.Int32",
+      "FieldLength": 156
     }
   }
 }

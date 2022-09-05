@@ -1,6 +1,6 @@
 ---
 title: POST Agents/User/ResolveUserFromInfo
-id: v1UserAgent_ResolveUserFromInfo
+uid: v1UserAgent_ResolveUserFromInfo
 ---
 
 # POST Agents/User/ResolveUserFromInfo
@@ -11,9 +11,16 @@ POST /api/v1/Agents/User/ResolveUserFromInfo
 
 Get a user from the provided information.
 
+
 If the user or associated person does not exist, it will be created on demand.
 
-## Online Restricted: ## The User agent is not available in Online by default. User management is not allowed for partner apps
+
+## Online Restricted: ## The User agent is not available in Online by default. User management is not allowed for partner apps.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -24,6 +31,7 @@ If the user or associated person does not exist, it will be created on demand.
 ```http
 POST /api/v1/Agents/User/ResolveUserFromInfo?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -39,9 +47,9 @@ POST /api/v1/Agents/User/ResolveUserFromInfo?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-ContactId, PersonName, PhoneNumbers, Emails, UserType, Credential
+ContactId, PersonName, PhoneNumbers, Emails, UserType, Credential 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -50,20 +58,18 @@ ContactId, PersonName, PhoneNumbers, Emails, UserType, Credential
 | PhoneNumbers | array |  |
 | Emails | array |  |
 | UserType | string |  |
-| Credential |  | Credentials supported for authentication <br /> Carrier object for Credential. Services for the Credential Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IUserAgent">User Agent</see>. |
+| Credential |  | Credentials supported for authentication <para /> Carrier object for Credential. Services for the Credential Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IUserAgent">User Agent</see>. |
 
-## Response: object
 
-The User Service. The service implements all services working with the User object.
+## Response: 
 
-Carrier object for ResolvedUser.
-Services for the ResolvedUser Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IUserAgent">User Agent</see>.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -72,7 +78,7 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/User/ResolveUserFromInfo
@@ -82,102 +88,36 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 1000,
-  "PersonName": "Becker Inc and Sons",
+  "ContactId": 837,
+  "PersonName": "Larson-Weimann",
   "PhoneNumbers": [
-    "893466",
-    "290180"
+    "419017",
+    "547598"
   ],
   "Emails": [
-    "bobby@stiedemannhalvorson.ca",
-    "zula@rodriguez.ca"
+    "jazmin.swaniawski@vonrueden.co.uk",
+    "dashawn@williamsonmckenzie.ca"
   ],
   "UserType": "AnonymousAssociate",
-  "Credential": {
-    "Type": {},
-    "Value": "ipsa",
-    "DisplayValue": "occaecati"
-  }
+  "Credential": null
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "User": {
-    "AssociateId": 563,
-    "Name": "Wolf, Abbott and Wolf",
-    "Rank": 936,
-    "Tooltip": "nobis",
-    "LicenseOwners": [
-      {},
-      {}
-    ],
-    "Role": {},
-    "UserGroup": {},
-    "OtherGroups": [
-      {},
-      {}
-    ],
-    "Person": {},
-    "Deleted": true,
-    "Lastlogin": "2016-05-13T18:28:50.4214122+02:00",
-    "Lastlogout": "2016-03-09T18:28:50.4214122+01:00",
-    "EjUserId": 155,
-    "RequestSignature": "cupiditate",
-    "Type": "AnonymousAssociate",
-    "IsPersonRetired": false,
-    "IsOnTravel": false,
-    "Credentials": [
-      {},
-      {}
-    ],
-    "UserName": "Wisozk-Stracke",
-    "TicketCategories": [
-      {},
-      {}
-    ],
-    "NickName": "Kohler, Becker and Ebert",
-    "WaitingForApproval": false,
-    "ExtraFields": {
-      "ExtraFields1": "maxime",
-      "ExtraFields2": "enim"
-    },
-    "CustomFields": {
-      "CustomFields1": "officiis",
-      "CustomFields2": "dolores"
-    },
-    "PostSaveCommands": [
-      {},
-      {}
-    ],
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.Int32",
-        "FieldLength": 67
-      }
-    }
-  },
+  "User": null,
   "PersonCreated": false,
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
-      "FieldType": "System.String",
-      "FieldLength": 810
+      "FieldRight": null,
+      "FieldType": "System.Int32",
+      "FieldLength": 625
     }
   }
 }

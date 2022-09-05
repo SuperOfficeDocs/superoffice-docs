@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Sale/UpdateSaleStakeholders
-id: v1SaleAgent_UpdateSaleStakeholders
+uid: v1SaleAgent_UpdateSaleStakeholders
 ---
 
 # POST Agents/Sale/UpdateSaleStakeholders
@@ -8,6 +8,14 @@ id: v1SaleAgent_UpdateSaleStakeholders
 ```http
 POST /api/v1/Agents/Sale/UpdateSaleStakeholders
 ```
+
+
+
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -18,6 +26,7 @@ POST /api/v1/Agents/Sale/UpdateSaleStakeholders
 ```http
 POST /api/v1/Agents/Sale/UpdateSaleStakeholders?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -33,15 +42,18 @@ POST /api/v1/Agents/Sale/UpdateSaleStakeholders?$select=name,department,category
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-Stakeholders
+Stakeholders 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | Stakeholders | array |  |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -73,41 +85,43 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Sale/UpdateSaleStakeholders
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "Stakeholders": [
     {
-      "StakeholderRoleName": "Mayer, Gerlach and Reynolds",
-      "Comment": "amet",
-      "StakeholderRoleId": 28,
-      "CountryId": 304,
-      "PersonId": 235,
-      "EmailDescription": "tom_hermiston@sipes.biz",
-      "EmailId": 252,
-      "EmailAddress": "stewart@hayes.co.uk",
-      "PhoneId": 1001,
-      "ContactName": "Gislason, Abernathy and Friesen",
-      "ContactId": 353,
-      "SaleId": 912,
-      "Mrmrs": "veniam",
-      "Firstname": "Ilene",
-      "MiddleName": "Weimann, Kunde and DuBuque",
-      "Lastname": "Ullrich",
-      "SaleStakeholderId": 141,
-      "Rank": 598,
-      "Phone": "1-781-628-6808"
+      "StakeholderRoleName": "Bode-Dare",
+      "Comment": "dolorem",
+      "StakeholderRoleId": 788,
+      "CountryId": 879,
+      "PersonId": 64,
+      "EmailDescription": "kiarra@swaniawski.com",
+      "EmailId": 328,
+      "EmailAddress": "robb@luettgen.us",
+      "PhoneId": 709,
+      "ContactName": "Adams Group",
+      "ContactId": 584,
+      "SaleId": 522,
+      "Mrmrs": "suscipit",
+      "Firstname": "Javon",
+      "MiddleName": "Kuhn Inc and Sons",
+      "Lastname": "Koelpin",
+      "SaleStakeholderId": 398,
+      "Rank": 945,
+      "Phone": "974.534.1722 x40048"
     }
   ]
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -115,37 +129,31 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "StakeholderRoleName": "Konopelski LLC",
-    "Comment": "sed",
-    "StakeholderRoleId": 831,
-    "CountryId": 106,
-    "PersonId": 656,
-    "EmailDescription": "sidney_walsh@hand.us",
-    "EmailId": 325,
-    "EmailAddress": "brock@haagbalistreri.info",
-    "PhoneId": 663,
-    "ContactName": "Hagenes, McDermott and Hermann",
-    "ContactId": 393,
-    "SaleId": 166,
-    "Mrmrs": "nam",
-    "Firstname": "Marlene",
-    "MiddleName": "Doyle-Kunde",
-    "Lastname": "Renner",
-    "SaleStakeholderId": 635,
-    "Rank": 2,
-    "Phone": "(320)633-4802",
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "StakeholderRoleName": "Steuber Group",
+    "Comment": "qui",
+    "StakeholderRoleId": 879,
+    "CountryId": 888,
+    "PersonId": 647,
+    "EmailDescription": "broderick@leannon.uk",
+    "EmailId": 229,
+    "EmailAddress": "terrill.greenholt@dare.biz",
+    "PhoneId": 656,
+    "ContactName": "Schneider Inc and Sons",
+    "ContactId": 890,
+    "SaleId": 305,
+    "Mrmrs": "et",
+    "Firstname": "Jaycee",
+    "MiddleName": "Hyatt-Rice",
+    "Lastname": "Schneider",
+    "SaleStakeholderId": 216,
+    "Rank": 914,
+    "Phone": "560-603-7213",
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
+        "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 27
+        "FieldLength": 738
       }
     }
   }

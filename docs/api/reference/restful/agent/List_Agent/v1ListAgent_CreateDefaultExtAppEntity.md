@@ -1,6 +1,6 @@
 ---
 title: POST Agents/List/CreateDefaultExtAppEntity
-id: v1ListAgent_CreateDefaultExtAppEntity
+uid: v1ListAgent_CreateDefaultExtAppEntity
 ---
 
 # POST Agents/List/CreateDefaultExtAppEntity
@@ -11,7 +11,14 @@ POST /api/v1/Agents/List/CreateDefaultExtAppEntity
 
 Set default values into a new ExtAppEntity.
 
+
 NetServer calculates default values on the entity, which is required when creating/storing a new instance
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -26,18 +33,16 @@ NetServer calculates default values on the entity, which is required when creati
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response: object
 
-The ext app entity contains information on an external application
+## Response: 
 
-Carrier object for ExtAppEntity.
-Services for the ExtAppEntity Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IListAgent">List Agent</see>.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -66,54 +71,50 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/List/CreateDefaultExtAppEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ExtAppId": 640,
-  "Name": "Beer Group",
-  "Tooltip": "facilis",
+  "ExtAppId": 832,
+  "Name": "Pfeffer Group",
+  "Tooltip": "temporibus",
   "Deleted": false,
-  "Rank": 879,
-  "Filename": "fugit",
-  "Parameters": "aut",
-  "Workdir": "natus",
+  "Rank": 855,
+  "Filename": "pariatur",
+  "Parameters": "omnis",
+  "Workdir": "et",
   "ShowState": "AddressBar",
   "VisibleIn": "ActivityDialog",
-  "OnCentral": true,
-  "OnSatellite": true,
-  "OnTravel": true,
+  "OnCentral": false,
+  "OnSatellite": false,
+  "OnTravel": false,
   "OnSalesMarketingPocket": false,
   "ShowInMenuBar": false,
-  "ShowInToolBar": true,
-  "ShowInAddressBar": true,
+  "ShowInToolBar": false,
+  "ShowInAddressBar": false,
   "ShowInStatusBar": true,
-  "Icon": 959,
+  "Icon": 181,
   "WaitToFinish": false,
   "ExecuteOnEvent": "LocalUpdate",
-  "Path": "soluta",
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "Path": "quisquam",
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
+      "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 368
+      "FieldLength": 208
     }
   }
 }

@@ -1,6 +1,6 @@
 ---
 title: GET List/Task/MDOItems
-id: v1TaskList_GetMDOList
+uid: v1TaskList_GetMDOList
 ---
 
 # GET List/Task/MDOItems
@@ -11,6 +11,12 @@ GET /api/v1/List/Task/MDOItems
 
 Get the MDO list items for "Task" - with headings and filtering by user group.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -19,9 +25,10 @@ Get the MDO list items for "Task" - with headings and filtering by user group.
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/Task/MDOItems?flat=True
-GET /api/v1/List/Task/MDOItems?query=vel
+GET /api/v1/List/Task/MDOItems?flat=False
+GET /api/v1/List/Task/MDOItems?query=accusantium
 ```
+
 
 ## Request Headers
 
@@ -36,7 +43,10 @@ GET /api/v1/List/Task/MDOItems?query=vel
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -61,7 +71,7 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 GET /api/v1/List/Task/MDOItems
@@ -70,65 +80,58 @@ Accept: application/json; charset=utf-8
 Accept-Language: en
 ```
 
+## Sample response
+
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 950,
-    "Name": "Ortiz, Botsford and Jones",
-    "ToolTip": "Veniam ipsam.",
-    "Deleted": true,
-    "Rank": 269,
-    "Type": "voluptatum",
+    "Id": 397,
+    "Name": "Labadie Inc and Sons",
+    "ToolTip": "Nesciunt animi.",
+    "Deleted": false,
+    "Rank": 345,
+    "Type": "voluptatem",
     "ChildItems": [
       {
-        "Id": 223,
-        "Name": "Franecki Group",
-        "ToolTip": "Qui beatae quod architecto in.",
-        "Deleted": true,
-        "Rank": 823,
-        "Type": "et",
+        "Id": 862,
+        "Name": "Towne-Hayes",
+        "ToolTip": "Eius eius.",
+        "Deleted": false,
+        "Rank": 222,
+        "Type": "inventore",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "voluptas",
-        "ColorBlock": 99,
-        "ExtraInfo": "omnis",
-        "StyleHint": "voluptas",
-        "FullName": "Lon Turcotte MD",
-        "TableRight": {},
+        "IconHint": "non",
+        "ColorBlock": 166,
+        "ExtraInfo": "modi",
+        "StyleHint": "quos",
+        "FullName": "Danika DuBuque",
+        "TableRight": null,
         "FieldProperties": {
           "fieldName": {
-            "FieldRight": {
-              "Mask": "FULL",
-              "Reason": ""
-            },
-            "FieldType": "System.String",
-            "FieldLength": 710
+            "FieldRight": null,
+            "FieldType": "System.Int32",
+            "FieldLength": 851
           }
         }
       }
     ],
-    "IconHint": "et",
-    "ColorBlock": 908,
-    "ExtraInfo": "enim",
-    "StyleHint": "cupiditate",
-    "FullName": "Pat Graham DDS",
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "IconHint": "quia",
+    "ColorBlock": 752,
+    "ExtraInfo": "nihil",
+    "StyleHint": "numquam",
+    "FullName": "Daphne Zboncak",
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 850
+        "FieldRight": null,
+        "FieldType": "System.Int32",
+        "FieldLength": 540
       }
     }
   }

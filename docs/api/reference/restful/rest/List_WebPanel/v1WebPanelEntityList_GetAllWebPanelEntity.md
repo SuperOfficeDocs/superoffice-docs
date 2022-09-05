@@ -1,6 +1,6 @@
 ---
 title: GET List/WebPanel/Items
-id: v1WebPanelEntityList_GetAllWebPanelEntity
+uid: v1WebPanelEntityList_GetAllWebPanelEntity
 ---
 
 # GET List/WebPanel/Items
@@ -11,7 +11,14 @@ GET /api/v1/List/WebPanel/Items
 
 Gets a list of all WebPanelEntity list items.
 
+
 Calls the List agent service GetAllWebPanelEntity.
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -26,7 +33,10 @@ Calls the List agent service GetAllWebPanelEntity.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -56,10 +66,11 @@ Response body: array
 | Url | string | The url |
 | ProgId | string | String key that can be used to uniquely retrieve the panel; particularly useful for partners and others who do not wish to store database ID's |
 | Icon | int32 | The icon of the webpanel |
+| AlwaysReloadOnShow | bool | If set to true, the content will reload every time the panel is shown |
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 GET /api/v1/List/WebPanel/Items
@@ -68,44 +79,41 @@ Accept: application/json; charset=utf-8
 Accept-Language: en
 ```
 
+## Sample response
+
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "WebPanelId": 41,
-    "Name": "Gaylord Group",
-    "Tooltip": "ut",
-    "Deleted": true,
-    "Rank": 690,
+    "WebPanelId": 698,
+    "Name": "Moore-Dibbert",
+    "Tooltip": "non",
+    "Deleted": false,
+    "Rank": 125,
     "UrlEncoding": "ANSI",
     "VisibleIn": "ActivityDialog",
-    "OnCentral": true,
+    "OnCentral": false,
     "OnSatellite": false,
-    "OnTravel": false,
-    "OnSalesMarketingWeb": false,
-    "OnSalesMarketingPocket": false,
+    "OnTravel": true,
+    "OnSalesMarketingWeb": true,
+    "OnSalesMarketingPocket": true,
     "ShowInMenuBar": true,
-    "ShowInToolBar": true,
-    "ShowInAddressBar": false,
-    "ShowInStatusBar": true,
-    "WindowName": "Goyette-Fahey",
+    "ShowInToolBar": false,
+    "ShowInAddressBar": true,
+    "ShowInStatusBar": false,
+    "WindowName": "Lynch Group",
     "Url": "http://www.example.com/",
-    "ProgId": "fuga",
-    "Icon": 670,
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "ProgId": "nobis",
+    "Icon": 172,
+    "AlwaysReloadOnShow": true,
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
+        "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 358
+        "FieldLength": 120
       }
     }
   }

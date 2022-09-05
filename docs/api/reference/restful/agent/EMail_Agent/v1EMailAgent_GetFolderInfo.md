@@ -1,6 +1,6 @@
 ---
 title: POST Agents/EMail/GetFolderInfo
-id: v1EMailAgent_GetFolderInfo
+uid: v1EMailAgent_GetFolderInfo
 ---
 
 # POST Agents/EMail/GetFolderInfo
@@ -11,9 +11,16 @@ POST /api/v1/Agents/EMail/GetFolderInfo
 
 Retrieve information about folders.
 
+
 If folders parameter is not specified(null), information about all subscribed folders will be returned.
 
-## Online Restricted: ## The EMail agent is not available in Online by default. Access must be requested specifically when app is registered
+
+## Online Restricted: ## The EMail agent is not available in Online by default. Access must be requested specifically when app is registered.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -24,6 +31,7 @@ If folders parameter is not specified(null), information about all subscribed fo
 ```http
 POST /api/v1/Agents/EMail/GetFolderInfo?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -39,16 +47,19 @@ POST /api/v1/Agents/EMail/GetFolderInfo?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-ConnectionInfo, Folders
+ConnectionInfo, Folders 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| ConnectionInfo |  | All information needed to connect to a mailserver <br /> Carrier object for EMailConnectionInfo. Services for the EMailConnectionInfo Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IEMailAgent">EMail Agent</see>. |
+| ConnectionInfo |  | All information needed to connect to a mailserver <para /> Carrier object for EMailConnectionInfo. Services for the EMailConnectionInfo Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IEMailAgent">EMail Agent</see>. |
 | Folders | array |  |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -68,29 +79,25 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/EMail/GetFolderInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConnectionInfo": {
-    "ServerName": "Abshire-Hilll",
-    "UserName": "Paucek Group",
-    "Password": "vero",
-    "Folder": "tempore",
-    "UseSSL": false
-  },
+  "ConnectionInfo": null,
   "Folders": [
-    "quis",
-    "eaque"
+    "quod",
+    "molestiae"
   ]
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -98,25 +105,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Padberg Group",
-    "Delimiter": "eligendi",
-    "Flags": "nesciunt",
-    "TotalItems": 145,
-    "UnreadItems": 803,
+    "Name": "Moen, Boyle and Gaylord",
+    "Delimiter": "qui",
+    "Flags": "aut",
+    "TotalItems": 858,
+    "UnreadItems": 480,
     "Subscribed": false,
-    "EmailFolderId": 401,
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "EmailFolderId": 29,
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 29
+        "FieldRight": null,
+        "FieldType": "System.Int32",
+        "FieldLength": 80
       }
     }
   }

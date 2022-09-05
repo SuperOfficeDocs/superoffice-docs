@@ -1,6 +1,6 @@
 ---
 title: POST Agents/CRMScript/SaveTriggerScriptEntity
-id: v1CRMScriptAgent_SaveTriggerScriptEntity
+uid: v1CRMScriptAgent_SaveTriggerScriptEntity
 ---
 
 # POST Agents/CRMScript/SaveTriggerScriptEntity
@@ -11,7 +11,16 @@ POST /api/v1/Agents/CRMScript/SaveTriggerScriptEntity
 
 Updates the existing TriggerScriptEntity or creates a new TriggerScriptEntity if the id parameter is empty
 
-## Online Restricted: ## The CRMScript agent is not available in Online by default. Access must be requested specifically when app is registered
+
+
+
+## Online Restricted: ## The CRMScript agent is not available in Online by default. Access must be requested specifically when app is registered.
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -27,9 +36,9 @@ Updates the existing TriggerScriptEntity or creates a new TriggerScriptEntity if
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entity
+## Request Body: entity  
 
-The TriggerScriptEntity to be saved.
+The TriggerScriptEntity to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -38,24 +47,22 @@ The TriggerScriptEntity to be saved.
 | ScreenType | string | Event id that triggers script.  See EventHandlerType enum. |
 | Enabled | bool | Whether this screen chooser is enabled or not |
 | UniqueIdentifier | string | Global unique identifier, accross customers/tenants |
-| Source | string | The CRMScript code for this event handler |
+| Source | string | The CRMscript code for this event handler |
 | Registered | date-time | Registered when  in UTC. |
 | RegisteredAssociateId | int32 | Registered by whom |
 | Updated | date-time | Last updated when  in UTC. |
 | UpdatedAssociateId | int32 | Last updated by whom |
 
-## Response: object
 
-CRM Trigger Script - The script runs when a given event fires.
+## Response: 
 
-Carrier object for TriggerScriptEntity.
-Services for the TriggerScriptEntity Carrier is available from the <see cref="T:SuperOffice.CRM.Services.ICRMScriptAgent">CRMScript Agent</see>.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -64,7 +71,7 @@ Response body: object
 | ScreenType | string | Event id that triggers script.  See EventHandlerType enum. |
 | Enabled | bool | Whether this screen chooser is enabled or not |
 | UniqueIdentifier | string | Global unique identifier, accross customers/tenants |
-| Source | string | The CRMScript code for this event handler |
+| Source | string | The CRMscript code for this event handler |
 | Registered | date-time | Registered when  in UTC. |
 | RegisteredAssociateId | int32 | Registered by whom |
 | Updated | date-time | Last updated when  in UTC. |
@@ -72,7 +79,7 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/CRMScript/SaveTriggerScriptEntity
@@ -82,46 +89,42 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 36,
-  "Name": "Schroeder-Sipes",
+  "ScreenChooserId": 378,
+  "Name": "Gottlieb LLC",
   "ScreenType": "ChatAfterSaveNewMessage",
   "Enabled": false,
-  "UniqueIdentifier": "natus",
-  "Source": "sed",
-  "Registered": "2006-04-25T18:28:48.6299298+02:00",
-  "RegisteredAssociateId": 481,
-  "Updated": "2000-07-01T18:28:48.6299298+02:00",
-  "UpdatedAssociateId": 283
+  "UniqueIdentifier": "non",
+  "Source": "sunt",
+  "Registered": "2020-07-29T11:10:26.3794583+02:00",
+  "RegisteredAssociateId": 309,
+  "Updated": "2000-07-21T11:10:26.3794583+02:00",
+  "UpdatedAssociateId": 871
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 899,
-  "Name": "Koelpin Inc and Sons",
+  "ScreenChooserId": 408,
+  "Name": "Hahn-Kautzer",
   "ScreenType": "ChatAfterSaveNewMessage",
-  "Enabled": true,
-  "UniqueIdentifier": "nostrum",
-  "Source": "et",
-  "Registered": "2011-04-09T18:28:48.6309282+02:00",
-  "RegisteredAssociateId": 664,
-  "Updated": "2009-05-14T18:28:48.6309282+02:00",
-  "UpdatedAssociateId": 592,
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "Enabled": false,
+  "UniqueIdentifier": "expedita",
+  "Source": "numquam",
+  "Registered": "2013-10-19T11:10:26.3804579+02:00",
+  "RegisteredAssociateId": 686,
+  "Updated": "2000-04-03T11:10:26.3804579+02:00",
+  "UpdatedAssociateId": 235,
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
-      "FieldType": "System.String",
-      "FieldLength": 235
+      "FieldRight": null,
+      "FieldType": "System.Int32",
+      "FieldLength": 136
     }
   }
 }

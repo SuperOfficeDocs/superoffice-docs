@@ -1,6 +1,6 @@
 ---
 title: GET List/{id}/Items/{id}
-id: v1ListItemEntity_GetFromListDefinition
+uid: v1ListItemEntity_GetFromListDefinition
 ---
 
 # GET List/{id}/Items/{id}
@@ -11,10 +11,17 @@ GET /api/v1/List/{udListDefinitionId}/Items/{id}
 
 Get a list item for the specified list defintion
 
+
+
+
+
+
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | id | int32 | The identity of the list item to load **Required** |
 | udListDefinitionId | int32 | The id of the list definition, indicating which list to get the item from. Negative numbers indicate TableNumber value instead of UDListDefId. e.g. -64 = category. **Required** |
+
+
 
 ## Request Headers
 
@@ -29,19 +36,17 @@ Get a list item for the specified list defintion
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response: object
 
-The list item entity contains generic list item information
+## Response: 
 
-Carrier object for ListItemEntity.
-Services for the ListItemEntity Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IListAgent">List Agent</see>.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 | 404 | Not Found. |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -54,38 +59,34 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 GET /api/v1/List/{udListDefinitionId}/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 914,
-  "Name": "Connelly Inc and Sons",
-  "Tooltip": "repudiandae",
-  "Deleted": false,
-  "UdListDefinitionId": 768,
-  "Rank": 196,
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "Id": 739,
+  "Name": "Thiel, Shields and Pagac",
+  "Tooltip": "odit",
+  "Deleted": true,
+  "UdListDefinitionId": 2,
+  "Rank": 637,
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
-      "FieldType": "System.Int32",
-      "FieldLength": 530
+      "FieldRight": null,
+      "FieldType": "System.String",
+      "FieldLength": 538
     }
   }
 }

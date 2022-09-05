@@ -1,6 +1,6 @@
 ---
 title: POST Agents/List/GetProjectStatuses
-id: v1ListAgent_GetProjectStatuses
+uid: v1ListAgent_GetProjectStatuses
 ---
 
 # POST Agents/List/GetProjectStatuses
@@ -11,6 +11,12 @@ POST /api/v1/Agents/List/GetProjectStatuses
 
 Gets all items from the Project Status (ProjStatus) table.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Gets all items from the Project Status (ProjStatus) table.
 ```http
 POST /api/v1/Agents/List/GetProjectStatuses?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -34,7 +41,10 @@ POST /api/v1/Agents/List/GetProjectStatuses?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -50,14 +60,16 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/List/GetProjectStatuses
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -65,40 +77,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 369,
-    "Value": "voluptatum",
-    "Tooltip": "esse",
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "Id": 947,
+    "Value": "deserunt",
+    "Tooltip": "ut",
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
+        "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 919
+        "FieldLength": 790
       }
     }
   },
   {
-    "Id": 369,
-    "Value": "voluptatum",
-    "Tooltip": "esse",
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "Id": 947,
+    "Value": "deserunt",
+    "Tooltip": "ut",
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
+        "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 919
+        "FieldLength": 790
       }
     }
   }

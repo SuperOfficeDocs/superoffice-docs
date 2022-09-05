@@ -17,6 +17,7 @@ Returns the associate that belongs to this person if the person is an associate.
 
 **Returns:** Associate if person is associate
 
+
 [WSDL file for Services88/Associate](../Services88-Associate.md)
 
 Obtain a ticket from the [Services88/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -48,6 +49,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+
 
 ## GetAssociateByPersonId Response
 
@@ -82,3 +84,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

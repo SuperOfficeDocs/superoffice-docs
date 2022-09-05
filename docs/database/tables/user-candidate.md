@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "user_candidate"
-so.date: 04.12.2022
+so.date: 08.26.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -26,6 +26,7 @@ This table will hold user candidate secrets
 |secret\_key||String(255)|&#x25CF;|
 |secret\_value||String(255)|&#x25CF;|
 
+
 ![user_candidate table relationship diagram](./media/user_candidate.png)
 
 [!include[details](./includes/user-candidate.md)]
@@ -44,6 +45,7 @@ This table will hold user candidate secrets
 |------|-------------|
 |[person](person.md)  |Persons in a company or an organizations. All associates have a corresponding person record |
 
+
 ## Replication Flags
 
 * None
@@ -51,3 +53,4 @@ This table will hold user candidate secrets
 ## Security Flags
 
 * No access control via user's Role.
+

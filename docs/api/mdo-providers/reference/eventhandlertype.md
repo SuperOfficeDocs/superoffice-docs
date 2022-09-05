@@ -7,7 +7,7 @@ keywords:
   - "mdo provider"
   - "eventhandlertype"
 so.generated: true
-so.date: 03.19.2021
+so.date: 08.26.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -15,11 +15,15 @@ so.envir:
 ---
 
 # "eventhandlertype" MDO List
-
 Screen trigger event types: members of <see cref="T:SuperOffice.Data.EventHandlerType" /> enum.
+
+
 
 Implemented by the <see cref="T:SuperOffice.CRM.Lists.EventHandlerTypeProvider">EventHandlerTypeProvider</see> class.
 The name of the MDO list is 'eventhandlertype'.
+
+
+
 
 ## Sample Request
 
@@ -32,7 +36,6 @@ Accept-Language: *
 ```
 
 ## Sample Code
-
 ```cs
 var listProvider = SuperOffice.CRM.Lists.SoListProviderFactory.Create("eventhandlertype", forceFlatList: true);
 foreach (var item in listProvider.RootItems) {
@@ -66,6 +69,7 @@ foreach (var item in listProvider.RootItems) {
 |142|Request changed owner||TicketChangedOwnedBy|
 |143|Request changed primary contact||TicketChangedPrimaryCustomer|
 |144|Request changed status||TicketChangedTicketStatus|
+
 
 ## Related MDO Lists
 

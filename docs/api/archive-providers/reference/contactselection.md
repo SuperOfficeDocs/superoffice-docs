@@ -8,7 +8,7 @@ keywords:
   - "archive provider"
   - "ContactSelection"
 so.generated: true
-so.date: 03.23.2021
+so.date: 08.26.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -22,15 +22,15 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 ## Supported Entities
 
 | Name | Description |
-| ---- | ----- |
+| ---- | ----------- |
 |"staticContact"|Static company|
 |"staticPerson"|Static contact|
 |"dynamicContact"|Dynamic company|
 
 ## Supported Columns
 
-| Name | Restriction | Description | OrderBy
-| ---- | ----- | ------- | ------ |
+| Name | Restriction | Description | OrderBy |
+| ---- | ----------- | ----------- | ------- |
 |selectionId|int|Selection ID: The database ID of the selection|  |
 |rowKind| *None* |Icon indicating whether the row comes from a static or a dynamic selection|  |
 |getAllRows|bool|GetAll: Get all rows of archive - use with care, you may be fetching the whole database|  |
@@ -46,14 +46,17 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |category|listAny|Category| x |
 |business|listAny|Business| x |
 |country|listAny|Country: This criterion corresponds to the Country field on the Company card.| x |
+|countryId|int|Country ID: Country ID| x |
 |number|string|Number| x |
 |code|string|Code| x |
 |orgnr|string|VAT No.| x |
 |stop|bool|Stop| x |
 |contactNoMail|bool|No mailings (company| x |
 |updatedBy|associate|Updated by: The user who last updated the data| x |
+|updatedByFullName|associate|Updated by - Full name: The user who last updated the data| x |
 |updatedDate|date|Updated: The date/time the data was last updated in UTC.| x |
 |registeredBy|associate|Registered by: The user who registered the data| x |
+|registeredByFullName|associate|Registered by - Full name: The user who registered the data| x |
 |registeredDate|date|Registered date: The date/time the data was registered in UTC.| x |
 |contactSource|listAny|Source: Source (Company)| x |
 |contactDeleted|bool|Deleted: Deleted| x |
@@ -158,6 +161,22 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |contactUdef/SuperOffice:11|string|page1adminonly| x |
 |contactUdef/SuperOffice:12|listAny|Udlist one: Static tooltip for udlist one| x |
 |contactUdef/SuperOffice:13|listAny|Udlist two: Static tooltip for udlist two| x |
+|contactExtra/x\_contact\_integer|int|Extra Integer: Custom integer field| x |
+|contactExtra/x\_contact\_hidden\_integer|int|Extra hidden integer: Custom integer field - hidden| x |
+|contactExtra/x\_contact\_default\_integer|int|Extra Default Integer: Custom integer field with default value 123.| x |
+|contactExtra/x\_contact\_float|decimal|Extra Float: Custom float field with 3 decimals| x |
+|contactExtra/x\_contact\_longtext|string|Extra LongText: Custom long text field. DO not keep HTML. 3 Line text area editor| x |
+|contactExtra/x\_contact\_dropdown|listAny|Extra Long Dropdown: Custom long text field with dropdown: Volvo, Saab, etc.| x |
+|contactExtra/x\_contact\_date|date|Extra date: Custom date field. User current as default.| x |
+|contactExtra/x\_contact\_datetime|datetime|Extra DateTime: Custom Date Time field. No default value. External| x |
+|contactExtra/x\_contact\_time| *None* |Extra time: Custom time field.| x |
+|contactExtra/x\_contact\_boolean|bool|Extra boolean: Custom boolean field.| x |
+|contactExtra/x\_contact\_timespan|timeSpan|Extra timespan: Custom timespan field. Hours and minutes in 10 units| x |
+|contactExtra/x\_contact\_shorttext|string|Extra short text: Custom short text field. Keep HTML tags.| x |
+|contactExtra/x\_contact\_short\_dropdown|listAny|Extra short dropdown: Custom short text with dropdown list. Red, Green or Blue or Purple. External.| x |
+|contactExtra/x\_contact\_contact\_relation|stringorPK|Extra Company: Custom company relation. Do not show one-to-many relations. Show function buttons| x |
+|contactExtra/x\_contact\_request\_relation|stringorPK|Extra Request relation: Request relation on company| x |
+|contactExtra/x\_contact\_contact|stringorPK|Extra contact relation: Contact relation on company| x |
 |NumberOfActivities| *None* |Number of activities|  |
 |NumberOfActivitiesInPeriod| *None* |Number of activities in last 90 days|  |
 |NumberOfNotCompletedActivities| *None* |Number of non-completed activities|  |
@@ -179,8 +198,8 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |LastTicket| *None* |Date of last request|  |
 |LastCompletedTicket| *None* |Date of last completed request|  |
 |LastDoByTicket| *None* |Date of last non-completed request|  |
-|SaintStatus1| *None* |Neglected customer|  |
-|SaintStatus2| *None* |C-company|  |
+|SaintStatus1| *None* |Neglected customer: Denne kunden har det vært 0 salgsaktiviteter på i perioden.|  |
+|SaintStatus2| *None* |C-company: Kundens navn starter med bokstaven C|  |
 |saintSaleStatus| *None* |With status|  |
 |saintAmountClass| *None* |Amount class|  |
 |saintActivityType| *None* |SAINT type|  |
@@ -198,14 +217,17 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |sourceRelation/category| *None* |Source - Category| x |
 |sourceRelation/business| *None* |Source - Business| x |
 |sourceRelation/country| *None* |Source - Country: This criterion corresponds to the Country field on the Company card.| x |
+|sourceRelation/countryId| *None* |Source - Country ID: Country ID| x |
 |sourceRelation/number| *None* |Source - Number| x |
 |sourceRelation/code| *None* |Source - Code| x |
 |sourceRelation/orgnr| *None* |Source - VAT No.| x |
 |sourceRelation/stop| *None* |Source - Stop| x |
 |sourceRelation/contactNoMail| *None* |Source - No mailings (company)| x |
 |sourceRelation/updatedBy| *None* |Source - Updated by: The user who last updated the data| x |
+|sourceRelation/updatedByFullName| *None* |Source - Updated by - Full name: The user who last updated the data| x |
 |sourceRelation/updatedDate| *None* |Source - Updated: The date/time the data was last updated in UTC.| x |
 |sourceRelation/registeredBy| *None* |Source - Registered by: The user who registered the data| x |
+|sourceRelation/registeredByFullName| *None* |Source - Registered by - Full name: The user who registered the data| x |
 |sourceRelation/registeredDate| *None* |Source - Registered date: The date/time the data was registered in UTC.| x |
 |sourceRelation/contactSource| *None* |Source - Source: Source (Company)| x |
 |sourceRelation/contactDeleted| *None* |Source - Deleted: Deleted| x |
@@ -214,7 +236,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |sourceRelation/mainContact| *None* |Source - Main contact: Main contact for this company| x |
 |sourceRelation/restrictionContactId| *None* |Source - Company ID: Database ID of company to fetch relations for|  |
 |sourceRelation/who| *None* |Source - Full name: Full name of company/contact| x |
-|sourceRelation/csRelation| *None* |Source - Relation: Name of relation, not taking into account the relation direction| x |
+|sourceRelation/csRelation| *None* |Source - Company-to-company relation: Name of relation, not taking into account the relation direction| x |
 |targetRelation/contactId| *None* |Target - Company ID: Database ID of company| x |
 |targetRelation/name| *None* |Target - Company name| x |
 |targetRelation/department| *None* |Target - Department| x |
@@ -225,14 +247,17 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |targetRelation/category| *None* |Target - Category| x |
 |targetRelation/business| *None* |Target - Business| x |
 |targetRelation/country| *None* |Target - Country: This criterion corresponds to the Country field on the Company card.| x |
+|targetRelation/countryId| *None* |Target - Country ID: Country ID| x |
 |targetRelation/number| *None* |Target - Number| x |
 |targetRelation/code| *None* |Target - Code| x |
 |targetRelation/orgnr| *None* |Target - VAT No.| x |
 |targetRelation/stop| *None* |Target - Stop| x |
 |targetRelation/contactNoMail| *None* |Target - No mailings (company)| x |
 |targetRelation/updatedBy| *None* |Target - Updated by: The user who last updated the data| x |
+|targetRelation/updatedByFullName| *None* |Target - Updated by - Full name: The user who last updated the data| x |
 |targetRelation/updatedDate| *None* |Target - Updated: The date/time the data was last updated in UTC.| x |
 |targetRelation/registeredBy| *None* |Target - Registered by: The user who registered the data| x |
+|targetRelation/registeredByFullName| *None* |Target - Registered by - Full name: The user who registered the data| x |
 |targetRelation/registeredDate| *None* |Target - Registered date: The date/time the data was registered in UTC.| x |
 |targetRelation/contactSource| *None* |Target - Source: Source (Company)| x |
 |targetRelation/contactDeleted| *None* |Target - Deleted: Deleted| x |
@@ -241,7 +266,9 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |targetRelation/mainContact| *None* |Target - Main contact: Main contact for this company| x |
 |targetRelation/restrictionContactId| *None* |Target - Company ID: Database ID of company to fetch relations for|  |
 |targetRelation/who| *None* |Target - Full name: Full name of company/contact| x |
-|targetRelation/csRelation| *None* |Target - Relation: Name of relation, not taking into account the relation direction| x |
+|targetRelation/csRelation| *None* |Target - Company-to-company relation: Name of relation, not taking into account the relation direction| x |
+|sourceRelation/contactPersonRelation| *None* |Source - Company-to-contact relation: Name of relation, not taking into account the relation direction| x |
+|targetRelation/personContactRelation| *None* |Target - Contact-to-company relation: Name of relation, not taking into account the relation direction| x |
 |sale/completed| *None* |Completed: Displays a checkbox showing if an appointment is completed| x |
 |sale/icon| *None* |Category: Displays the icon for an activity type| x |
 |sale/date| *None* |Date: Displays start date of a follow-up / sale date of a sale| x |
@@ -257,8 +284,10 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |sale/userGroup| *None* |User group : The user group that owns the record| x |
 |sale/who| *None* |Who: Contact and/or company|  |
 |sale/updatedBy| *None* |Updated by: The user who last updated the data| x |
+|sale/updatedByFullName| *None* |Updated by - Full name: The user who last updated the data| x |
 |sale/updatedDate| *None* |Updated: The date/time the data was last updated in UTC.| x |
 |sale/registeredBy| *None* |Registered by: The user who registered the data| x |
+|sale/registeredByFullName| *None* |Registered by - Full name: The user who registered the data| x |
 |sale/registeredDate| *None* |Registered date: The date/time the data was registered in UTC.| x |
 |sale/currencyId| *None* |Currency ID: The currency list item ID| x |
 |sale/currency| *None* |Currency: The currency of the sale| x |
@@ -266,7 +295,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |sale/lossReason| *None* |Reason (lost: The reason for losing the sale| x |
 |sale/source| *None* |Source: The source (lead) of the sale| x |
 |sale/competitor| *None* |Competitor: The competitor who won the sale| x |
-|sale/heading| *None* |Sale: Displays a descriptive text for the item| x |
+|sale/heading| *None* |Sale: The name of the sale| x |
 |sale/amount| *None* |Amount: The gross sales total| x |
 |sale/amountWeighted| *None* |Weighted amount: Virtual field calculated from amount * probability percent.| x |
 |sale/earning| *None* |Profit: Gross profit (gross sales total - cost) for the sale| x |
@@ -275,10 +304,12 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |sale/originalStage| *None* |Stage: Displays the stage of the sale| x |
 |sale/stage| *None* |Stage: Displays the stage of the sale| x |
 |sale/saleStatus| *None* |Status: The status of the sale - open, lost or sold| x |
+|sale/stageRank| *None* |Stage rank: Rank of the sale stage in the stage list| x |
 |sale/saleType| *None* |Sale type: Sale type, from list| x |
 |sale/nextDueDate| *None* |Next activity: Date for next activity for a sale, updated live from the sale's activities| x |
 |sale/reopenDate| *None* |Reopen date: Displays the reopen date for the sale| x |
 |sale/stalledComment| *None* |Reason (stalled: The reason the sale has been stalled| x |
+|sale/saleTypeCategory| *None* |Sale type category: Sale type category| x |
 |sale/soldReason| *None* |Reason (sold: Reason (sold)| x |
 |sale/saleNumber| *None* |Number: Number| x |
 |sale/hasStakeholders| *None* |Has stakeholders: Does this sale have stakeholders enabled| x |
@@ -346,8 +377,10 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |appointment/userGroup| *None* |User group : The user group that owns the record| x |
 |appointment/who| *None* |Who: Contact and/or company|  |
 |appointment/updatedBy| *None* |Updated by: The user who last updated the data| x |
+|appointment/updatedByFullName| *None* |Updated by - Full name: The user who last updated the data| x |
 |appointment/updatedDate| *None* |Updated: The date/time the data was last updated in UTC.| x |
 |appointment/registeredBy| *None* |Registered by: The user who registered the data| x |
+|appointment/registeredByFullName| *None* |Registered by - Full name: The user who registered the data| x |
 |appointment/registeredDate| *None* |Registered date: The date/time the data was registered in UTC.| x |
 |appointment/appointmentId| *None* |DB ID: Displays the database ID of a row| x |
 |appointment/endDate| *None* |End date: Displays the deadline for a follow-up/sale| x |
@@ -429,8 +462,10 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |document/userGroup| *None* |User group : The user group that owns the record| x |
 |document/who| *None* |Who: Contact and/or company|  |
 |document/updatedBy| *None* |Updated by: The user who last updated the data| x |
+|document/updatedByFullName| *None* |Updated by - Full name: The user who last updated the data| x |
 |document/updatedDate| *None* |Updated: The date/time the data was last updated in UTC.| x |
 |document/registeredBy| *None* |Registered by: The user who registered the data| x |
+|document/registeredByFullName| *None* |Registered by - Full name: The user who registered the data| x |
 |document/registeredDate| *None* |Registered date: The date/time the data was registered in UTC.| x |
 |document/documentId| *None* |Document ID: Database ID of document record| x |
 |document/keywords| *None* |Keywords | x |
@@ -500,6 +535,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |personNumber|string|Number: Displays the contact's number| x |
 |title|string|Title: Displays the contact's job title| x |
 |personCountry|listAny|Country: Country| x |
+|personCountryId|int|Country ID: Country ID| x |
 |personNoMail|bool|No Mailings: Displays the contact's No Mailings checkbox| x |
 |rank|int|Rank: Displays a contact's current rank| x |
 |birthdate| *None* |Birthdate: Displays the contact's date of birth|  |
@@ -513,15 +549,19 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |kanaFirstName|string|First name, kana: Contact's first name, in kana alphabet| x |
 |kanaLastName|string|Last name, kana: Contact's last name, in kana alphabet| x |
 |personUpdatedBy|associate|Updated by: The user who last updated the data| x |
+|personUpdatedByFullName|associate|Updated by - Full name: The user who last updated the data| x |
 |personUpdatedDate|date|Updated: The date/time the data was last updated in UTC.| x |
 |personRegisteredBy|associate|Registered by: The user who registered the data| x |
+|personRegisteredByFullName|associate|Registered by - Full name: The user who registered the data| x |
 |personRegisteredDate|date|Registered date: The date/time the data was registered in UTC.| x |
 |portraitThumbnail| *None* |Person image: Person image|  |
 |personActiveErpLinks|bool|ERP connected: Is there an active ERP Sync?| x |
 |ticketPriority|listAny|Service priority: Default service priority for this contact| x |
 |supportLanguage|listAny|Preferred language: Preferred language used for reply templates and more| x |
 |supportAssociate|associate|Our service contact: Default service contact for this contact| x |
+|supportAssociateFullName|associate|Our service contact - Full name: Default service contact for this contact| x |
 |personAssociateId|associate|Our contact: Displays our contact| x |
+|personAssociateFullName|associate|Our contact - Full name: Displays our contact| x |
 |personCategory|listAny|Category| x |
 |personBusiness|listAny|Business| x |
 |personDeletedDate|datetime|Deleted date: Deleted date|  |
@@ -541,7 +581,30 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |personUdef/SuperOffice:9|string|page1saleonly| x |
 |personUdef/SuperOffice:10|string|page1marketingonly| x |
 |personUdef/SuperOffice:11|string|page1adminonly| x |
-|isMailingRecipient|bool|isMailingRecipient: isMailingRecipient| x |
+|personExtra/x\_person\_integer|int|Extra Integer: Custom person integer| x |
+|personExtra/x\_person\_hidden\_integer|int|Extra hidden integer: Custom integer field that is hidden| x |
+|personExtra/x\_person\_float|decimal|Extra float: Custom float field| x |
+|personExtra/x\_person\_longtext|string|Extra Long Text: Custom long text field on person, keep HTML tags. Simple input, not text area. Default value = 'Hello there'| x |
+|personExtra/x\_person\_date|date|Extra date: Custom date field on person. Default value = 28.03.2019| x |
+|personExtra/x\_person\_datetime|datetime|Extra DateTime: Custom person date and time field. No default| x |
+|personExtra/x\_person\_time| *None* |Extra time: Custom time field on person. Current time as default| x |
+|personExtra/x\_person\_boolean|bool|Extra Boolean: Custom boolean field on person. Default checked| x |
+|personExtra/x\_person\_timespan|timeSpan|Extra timespan: Custom timespan on person. Minutes only in 15 units| x |
+|personExtra/x\_person\_shorttext|string|Extra short text: Custom short text on person. With index. Do not keep HTML tags| x |
+|personExtra/x\_person\_shorttext\_list|listAny|Extra short dropdown: Custom Short text dropdown field on person: black, white, transparent| x |
+|personExtra/x\_person\_user\_relation|associate|Extra user relation: Custom person-user relation field| x |
+|personExtra/x\_person\_category\_relation|listAny|Extra category relation: Custom person-category relation| x |
+|personExtra/x\_person\_priority\_relation|listAny|Extra priority relation: Custom person-priority relation| x |
+|personExtra/x\_person\_request\_relation|stringorPK|Extra request relation: Request relation on contact| x |
+|personExtra/x\_person\_appointment\_relation|stringorPK|Extra appointment relation: Appointment relation on person| x |
+|personExtra/x\_person\_contact\_relation|stringorPK|Extra company relation: Company relation on contact| x |
+|personExtra/y\_rental/id|int|Rental - id: Displays the row's primary key (y\_rental)| x |
+|personExtra/y\_rental/x\_start|date|Rental - Start rental| x |
+|personExtra/y\_rental/x\_end|date|Rental - End| x |
+|personExtra/y\_rental/x\_amount|int|Rental - Amount: Number to rent. Default = 1| x |
+|personExtra/y\_rental/x\_contact|stringorPK|Rental - Renter: Company that rents equipment| x |
+|personExtra/y\_rental/y\_equipment/x\_name|string|Rental - Equipment - Name: Equpment name custom field. Cannot be null., show in table| x |
+|isMailingRecipient|bool|Is mailing recipient: isMailingRecipient| x |
 |hasStoreConsent|bool|Consent - Sales and service: The purpose to store data about this contact is to sell to and/or provide services to this contact. This purpose is usually used when storing contacts who are defined as potential or existing customers.|  |
 |withdrawnStoreConsent|bool|Consent is withdrawn - Sales and service: The purpose to store data about this contact is to sell to and/or provide services to this contact. This purpose is usually used when storing contacts who are defined as potential or existing customers.|  |
 |hasEmarketingConsent|bool|Consent - E-marketing: The purpose is to gain the explicit consent to communicate electronically (bulk e-mail) on topics related to our products and services. This might include newsletters, invitations and product-related content. The subscription system is used to refine the individual marketing choices this contact makes.|  |
@@ -585,6 +648,110 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |personAddress/formattedAddress| *None* |Contact address - {formattedAddress}: {formattedAddress}|  |
 |personAddress/formattedMultiLineAddress| *None* |Contact address - {formattedAddress}: {formattedAddress}|  |
 |personInterestIds| *None* |Contact interest: This criterion corresponds to a contact's interests.  It is available via the Contact dialog's Interests tab.|  |
+|personSourceRelation/personId| *None* |Source - DB ID: Displays the database ID of a contact| x |
+|personSourceRelation/firstName| *None* |Source - First name: Displays the contact's first name| x |
+|personSourceRelation/lastName| *None* |Source - Last name: Displays the contact's last name| x |
+|personSourceRelation/middleName| *None* |Source - Middle name: Displays the contact's middle name.| x |
+|personSourceRelation/fullName| *None* |Source - Contact: Displays the contact to which an item is linked| x |
+|personSourceRelation/contactId| *None* |Source - Company ID: Database ID of company| x |
+|personSourceRelation/hasInfoText| *None* |Source - Has note: Displays an icon indicating if there is additional information available about the contact| x |
+|personSourceRelation/hasInterests| *None* |Source - Has interests: Displays an Icon indicating if the contact has active interests| x |
+|personSourceRelation/personHasInterests| *None* |Source - Has interests: Displays an Icon indicating if the contact has active interests| x |
+|personSourceRelation/mrMrs| *None* |Source - Mr/Ms: Displays whether the contact is addressed as Mr or Ms| x |
+|personSourceRelation/position| *None* |Source - Position| x |
+|personSourceRelation/personNumber| *None* |Source - Number: Displays the contact's number| x |
+|personSourceRelation/title| *None* |Source - Title: Displays the contact's job title| x |
+|personSourceRelation/personCountry| *None* |Source - Country: Country| x |
+|personSourceRelation/personCountryId| *None* |Source - Country ID: Country ID| x |
+|personSourceRelation/personNoMail| *None* |Source - No Mailings: Displays the contact's No Mailings checkbox| x |
+|personSourceRelation/rank| *None* |Source - Rank: Displays a contact's current rank| x |
+|personSourceRelation/birthdate| *None* |Source - Birthdate: Displays the contact's date of birth|  |
+|personSourceRelation/associateType| *None* |Source - User type: Displays an icon indicating if a contact is an associate or external contact with log-in rights and currently online. This information is updated only once while the archive is loading.|  |
+|personSourceRelation/useAsMailingAddress| *None* |Source - Use as postal address: Use as postal address| x |
+|personSourceRelation/personSource| *None* |Source - Source: Source (Contact)| x |
+|personSourceRelation/retired| *None* |Source - Former employee: Indicates whether the contact has retired/left the company| x |
+|personSourceRelation/birthYear| *None* |Source - Birth year: Displays contact's birth year| x |
+|personSourceRelation/birthMonth| *None* |Source - Birth month: Displays contact's birth month| x |
+|personSourceRelation/birthDay| *None* |Source - Birth day: Displays contact's birth day (day of month)| x |
+|personSourceRelation/kanaFirstName| *None* |Source - First name, kana: Contact's first name, in kana alphabet| x |
+|personSourceRelation/kanaLastName| *None* |Source - Last name, kana: Contact's last name, in kana alphabet| x |
+|personSourceRelation/personUpdatedBy| *None* |Source - Updated by: The user who last updated the data| x |
+|personSourceRelation/personUpdatedByFullName| *None* |Source - Updated by - Full name: The user who last updated the data| x |
+|personSourceRelation/personUpdatedDate| *None* |Source - Updated: The date/time the data was last updated in UTC.| x |
+|personSourceRelation/personRegisteredBy| *None* |Source - Registered by: The user who registered the data| x |
+|personSourceRelation/personRegisteredByFullName| *None* |Source - Registered by - Full name: The user who registered the data| x |
+|personSourceRelation/personRegisteredDate| *None* |Source - Registered date: The date/time the data was registered in UTC.| x |
+|personSourceRelation/portraitThumbnail| *None* |Source - Person image: Person image|  |
+|personSourceRelation/personActiveErpLinks| *None* |Source - ERP connected: Is there an active ERP Sync?| x |
+|personSourceRelation/ticketPriority| *None* |Source - Service priority: Default service priority for this contact| x |
+|personSourceRelation/supportLanguage| *None* |Source - Preferred language: Preferred language used for reply templates and more| x |
+|personSourceRelation/supportAssociate| *None* |Source - Our service contact: Default service contact for this contact| x |
+|personSourceRelation/supportAssociateFullName| *None* |Source - Our service contact - Full name: Default service contact for this contact| x |
+|personSourceRelation/personAssociateId| *None* |Source - Our contact: Displays our contact| x |
+|personSourceRelation/personAssociateFullName| *None* |Source - Our contact - Full name: Displays our contact| x |
+|personSourceRelation/personCategory| *None* |Source - Category| x |
+|personSourceRelation/personBusiness| *None* |Source - Business| x |
+|personSourceRelation/personDeletedDate| *None* |Source - Deleted date: Deleted date|  |
+|personSourceRelation/hasCompany| *None* |Source - Has company: The contact is associated with a company| x |
+|personSourceRelation/isProjectMember| *None* |Source - Is project member: This person is a project member| x |
+|personSourceRelation/isStakeholder| *None* |Source - Is stakeholder: This person is a sale stakeholder| x |
+|personSourceRelation/restrictionContactId| *None* |Source - Company ID: Database ID of company to fetch relations for|  |
+|personSourceRelation/restrictionPersonId| *None* |Source - Company ID: Database ID of company to fetch relations for|  |
+|personSourceRelation/who| *None* |Source - Full name: Full name of company/contact| x |
+|personSourceRelation/personPersonRelation| *None* |Source - Contact-to-contact relation: Name of relation, not taking into account the relation direction| x |
+|personTargetRelation/personId| *None* |Target - DB ID: Displays the database ID of a contact| x |
+|personTargetRelation/firstName| *None* |Target - First name: Displays the contact's first name| x |
+|personTargetRelation/lastName| *None* |Target - Last name: Displays the contact's last name| x |
+|personTargetRelation/middleName| *None* |Target - Middle name: Displays the contact's middle name.| x |
+|personTargetRelation/fullName| *None* |Target - Contact: Displays the contact to which an item is linked| x |
+|personTargetRelation/contactId| *None* |Target - Company ID: Database ID of company| x |
+|personTargetRelation/hasInfoText| *None* |Target - Has note: Displays an icon indicating if there is additional information available about the contact| x |
+|personTargetRelation/hasInterests| *None* |Target - Has interests: Displays an Icon indicating if the contact has active interests| x |
+|personTargetRelation/personHasInterests| *None* |Target - Has interests: Displays an Icon indicating if the contact has active interests| x |
+|personTargetRelation/mrMrs| *None* |Target - Mr/Ms: Displays whether the contact is addressed as Mr or Ms| x |
+|personTargetRelation/position| *None* |Target - Position| x |
+|personTargetRelation/personNumber| *None* |Target - Number: Displays the contact's number| x |
+|personTargetRelation/title| *None* |Target - Title: Displays the contact's job title| x |
+|personTargetRelation/personCountry| *None* |Target - Country: Country| x |
+|personTargetRelation/personCountryId| *None* |Target - Country ID: Country ID| x |
+|personTargetRelation/personNoMail| *None* |Target - No Mailings: Displays the contact's No Mailings checkbox| x |
+|personTargetRelation/rank| *None* |Target - Rank: Displays a contact's current rank| x |
+|personTargetRelation/birthdate| *None* |Target - Birthdate: Displays the contact's date of birth|  |
+|personTargetRelation/associateType| *None* |Target - User type: Displays an icon indicating if a contact is an associate or external contact with log-in rights and currently online. This information is updated only once while the archive is loading.|  |
+|personTargetRelation/useAsMailingAddress| *None* |Target - Use as postal address: Use as postal address| x |
+|personTargetRelation/personSource| *None* |Target - Source: Source (Contact)| x |
+|personTargetRelation/retired| *None* |Target - Former employee: Indicates whether the contact has retired/left the company| x |
+|personTargetRelation/birthYear| *None* |Target - Birth year: Displays contact's birth year| x |
+|personTargetRelation/birthMonth| *None* |Target - Birth month: Displays contact's birth month| x |
+|personTargetRelation/birthDay| *None* |Target - Birth day: Displays contact's birth day (day of month)| x |
+|personTargetRelation/kanaFirstName| *None* |Target - First name, kana: Contact's first name, in kana alphabet| x |
+|personTargetRelation/kanaLastName| *None* |Target - Last name, kana: Contact's last name, in kana alphabet| x |
+|personTargetRelation/personUpdatedBy| *None* |Target - Updated by: The user who last updated the data| x |
+|personTargetRelation/personUpdatedByFullName| *None* |Target - Updated by - Full name: The user who last updated the data| x |
+|personTargetRelation/personUpdatedDate| *None* |Target - Updated: The date/time the data was last updated in UTC.| x |
+|personTargetRelation/personRegisteredBy| *None* |Target - Registered by: The user who registered the data| x |
+|personTargetRelation/personRegisteredByFullName| *None* |Target - Registered by - Full name: The user who registered the data| x |
+|personTargetRelation/personRegisteredDate| *None* |Target - Registered date: The date/time the data was registered in UTC.| x |
+|personTargetRelation/portraitThumbnail| *None* |Target - Person image: Person image|  |
+|personTargetRelation/personActiveErpLinks| *None* |Target - ERP connected: Is there an active ERP Sync?| x |
+|personTargetRelation/ticketPriority| *None* |Target - Service priority: Default service priority for this contact| x |
+|personTargetRelation/supportLanguage| *None* |Target - Preferred language: Preferred language used for reply templates and more| x |
+|personTargetRelation/supportAssociate| *None* |Target - Our service contact: Default service contact for this contact| x |
+|personTargetRelation/supportAssociateFullName| *None* |Target - Our service contact - Full name: Default service contact for this contact| x |
+|personTargetRelation/personAssociateId| *None* |Target - Our contact: Displays our contact| x |
+|personTargetRelation/personAssociateFullName| *None* |Target - Our contact - Full name: Displays our contact| x |
+|personTargetRelation/personCategory| *None* |Target - Category| x |
+|personTargetRelation/personBusiness| *None* |Target - Business| x |
+|personTargetRelation/personDeletedDate| *None* |Target - Deleted date: Deleted date|  |
+|personTargetRelation/hasCompany| *None* |Target - Has company: The contact is associated with a company| x |
+|personTargetRelation/isProjectMember| *None* |Target - Is project member: This person is a project member| x |
+|personTargetRelation/isStakeholder| *None* |Target - Is stakeholder: This person is a sale stakeholder| x |
+|personTargetRelation/restrictionContactId| *None* |Target - Company ID: Database ID of company to fetch relations for|  |
+|personTargetRelation/restrictionPersonId| *None* |Target - Company ID: Database ID of company to fetch relations for|  |
+|personTargetRelation/who| *None* |Target - Full name: Full name of company/contact| x |
+|personTargetRelation/personPersonRelation| *None* |Target - Contact-to-contact relation: Name of relation, not taking into account the relation direction| x |
+|personSourceRelation/personContactRelation| *None* |Source - Contact-to-company relation: Name of relation, not taking into account the relation direction| x |
+|personTargetRelation/contactPersonRelation| *None* |Target - Company-to-contact relation: Name of relation, not taking into account the relation direction| x |
 |personAssociate/firstName| *None* |First name: Displays the contact's first name| x |
 |personAssociate/lastName| *None* |Last name: Displays the contact's last name| x |
 |personAssociate/middleName| *None* |Middle Name : Displays the contact's middle name.| x |
@@ -615,6 +782,36 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |personAssociate/otherGroups| *None* |Other groups: Other groups|  |
 |personAssociate/userName| *None* |User name: User name| x |
 |personAssociate/personEmail| *None* |E-mail| x |
+|correspondingAssociate/firstName| *None* |First name: Displays the contact's first name| x |
+|correspondingAssociate/lastName| *None* |Last name: Displays the contact's last name| x |
+|correspondingAssociate/middleName| *None* |Middle Name : Displays the contact's middle name.| x |
+|correspondingAssociate/fullName| *None* |Full name: Displays full name of user (first, middle, last - according to settings)| x |
+|correspondingAssociate/contactId| *None* |Company ID: Database ID of the company the user belongs to|  |
+|correspondingAssociate/personId| *None* |Contact ID: Database ID of the contact row|  |
+|correspondingAssociate/mrMrs| *None* |Mr/Ms: Displays whether the contact is addressed as Mr or Ms| x |
+|correspondingAssociate/title| *None* |Title: Displays whether the contact is addressed as Mr or Ms| x |
+|correspondingAssociate/associateDbId| *None* |ID| x |
+|correspondingAssociate/contactName| *None* |Owning company: Name of the company the user belongs to| x |
+|correspondingAssociate/contactDepartment| *None* |Owning department: Name of the department at the company the user belongs to| x |
+|correspondingAssociate/usergroup| *None* |Primary group: The user's primary user group| x |
+|correspondingAssociate/contactFullName| *None* |Owner: Name and department of the company the user belongs to| x |
+|correspondingAssociate/contactCategory| *None* |Category: Category| x |
+|correspondingAssociate/role| *None* |Role : Role| x |
+|correspondingAssociate/assocName| *None* |User ID : User ID| x |
+|correspondingAssociate/assocTooltip| *None* |Description : Description|  |
+|correspondingAssociate/assocType| *None* |Type: Type of user: associate, external user, system user, anonymous account| x |
+|correspondingAssociate/ejUserId| *None* |Service user ID: The database ID of a Service user|  |
+|correspondingAssociate/simultaneousEjUser| *None* |Simultaneous Service user: If this flag is set, then the user will only have access if the maximum number of simultaneous users is not exceeded|  |
+|correspondingAssociate/ejDisplayName| *None* |Nick name: User's nick name in Service| x |
+|correspondingAssociate/ejStatus| *None* |Service status: Status for Service user: Normal; Unavailable / holiday; Deleted; Read-only|  |
+|correspondingAssociate/credentialType| *None* |Auth. type: What type of credentials to use when this user logs in| x |
+|correspondingAssociate/credentialDisplayValue| *None* |Auth. value: Credential value (public, visible part) to be used when this user logs in| x |
+|correspondingAssociate/isActive| *None* |Active: Is this user active, and should be able to log in?| x |
+|correspondingAssociate/isActiveText| *None* |Active status: Is this user active, and should be able to log in?| x |
+|correspondingAssociate/portraitThumbnail| *None* |Person image: Person image|  |
+|correspondingAssociate/otherGroups| *None* |Other groups: Other groups|  |
+|correspondingAssociate/userName| *None* |User name: User name| x |
+|correspondingAssociate/personEmail| *None* |E-mail| x |
 |request/contactId| *None* |Company ID: Database ID of company| x |
 |request/personId| *None* |Contact ID: Database ID of the contact row| x |
 |request/ticketStatusName| *None* |Status: Request status| x |
@@ -714,20 +911,38 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |request/ownedBy/otherGroups| *None* |Owner - Other groups: Other groups|  |
 |request/ownedBy/userName| *None* |Owner - User name: User name| x |
 |request/ownedBy/personEmail| *None* |Owner - E-mail| x |
+|request/extra/x\_ticket\_integer| *None* |Extra integer: Custom ticket integer. Default 123. External. Show in properties| x |
+|request/extra/x\_ticket\_float| *None* |Extra float: Custom float on Request. 2 decimal places| x |
+|request/extra/x\_ticket\_longtext| *None* |Extra long text: Custom long text on Request. Keep HTML tags. 9 line text area. Show in props| x |
+|request/extra/x\_ticket\_date| *None* |Extra date: Custom date field on Request. No default value| x |
+|request/extra/x\_ticket\_datetime| *None* |Extra DateTime: Custom date+time on ticket. Default = 28.03.2019 2:24 pm. External. Show in properties. Display for new request| x |
+|request/extra/x\_ticket\_time| *None* |Extra time: Custom time field on Request. Default = 13min Display for new.| x |
+|request/extra/x\_ticket\_boolean| *None* |Extra boolean: Custom boolean on Ticket.| x |
+|request/extra/x\_ticket\_timespan| *None* |Extra timespan: Custom timespan field on Request. Default = 1 hr 25 minutes. Show in props| x |
+|request/extra/x\_ticket\_short\_text| *None* |Extra short text: Custom short text field on Request. Do not keep HTML tags. Display on new request| x |
+|request/extra/x\_ticket\_shorttext\_list| *None* |Extra Dropdown: Custom short text with list for Request Pink, Orange, Yellow, Polkadot| x |
+|request/extra/x\_ticket\_timestamp| *None* |Extra timestamp: Custom date time field on ticket with default = current date + time. Field cannot change. Hide field| x |
+|request/extra/x\_ticket\_project\_relation| *None* |Extra project: Custom project relation on Request| x |
+|request/extra/x\_ticket\_faq| *None* |Extra FAQ Relation| x |
+|request/extra/x\_ticket\_category\_relation| *None* |Extra category relation: Category relation on request| x |
+|request/extra/y\_equipment/x\_name| *None* |Equipment - Name: Equpment name custom field. Cannot be null., show in table| x |
 |projectMembers/completed| *None* |Completed: Displays a check mark indicating if the project has been completed.| x |
 |projectMembers/projectId| *None* |DB ID: Displays the database ID for a project row| x |
 |projectMembers/name| *None* |Project name: Displays the Project's name| x |
 |projectMembers/number| *None* |Number: Displays the project's number| x |
 |projectMembers/type| *None* |Project type: Displays the project's type| x |
 |projectMembers/status| *None* |Status: Displays the project's status| x |
+|projectMembers/statusRank| *None* |Status rank: Rank of the project status in the status list| x |
 |projectMembers/associateId| *None* |ID: Displays login ID of the associate who owns the project| x |
 |projectMembers/hasInfoText| *None* |Info: Displays an icon indicating if the project has a description text. The text itself will be displayed in a tooltip.| x |
 |projectMembers/icon| *None* |Category: Displays the icon for an activity type| x |
 |projectMembers/text| *None* |Text: Displays a descriptive text for the item| x |
 |projectMembers/description| *None* |Description : Description| x |
 |projectMembers/updatedBy| *None* |Updated by: The user who last updated the data| x |
+|projectMembers/updatedByFullName| *None* |Updated by - Full name: The user who last updated the data| x |
 |projectMembers/updatedDate| *None* |Updated: The date/time the data was last updated in UTC.| x |
 |projectMembers/registeredBy| *None* |Registered by: The user who registered the data| x |
+|projectMembers/registeredByFullName| *None* |Registered by - Full name: The user who registered the data| x |
 |projectMembers/registeredDate| *None* |Registered date: The date/time the data was registered in UTC.| x |
 |projectMembers/hasGuide| *None* |Guided: Does this sale have a Sales Guide| x |
 |projectMembers/nextMilestone| *None* |Next milestone: Date of next non-completed activity that is marked as a milestone| x |
@@ -799,7 +1014,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |projectMembers/LastSale| *None* |Date of last sale|  |
 |projectMembers/LastCompletedSale| *None* |Date of last completed sale|  |
 |projectMembers/LastDoBySale| *None* |Date of last non-completed sale|  |
-|projectMembers/SaintStatus3| *None* |Not completed activites with intention sale|  |
+|projectMembers/SaintStatus3| *None* |Not completed activites with intention sale: Number of not completed activities for intention sale > 0.|  |
 |projectMembers/saintSaleStatus| *None* |With status|  |
 |projectMembers/saintAmountClass| *None* |Amount class|  |
 |projectMembers/saintActivityType| *None* |SAINT type|  |
@@ -824,8 +1039,10 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |personAppointment/userGroup| *None* |User group : The user group that owns the record| x |
 |personAppointment/who| *None* |Who: Contact and/or company|  |
 |personAppointment/updatedBy| *None* |Updated by: The user who last updated the data| x |
+|personAppointment/updatedByFullName| *None* |Updated by - Full name: The user who last updated the data| x |
 |personAppointment/updatedDate| *None* |Updated: The date/time the data was last updated in UTC.| x |
 |personAppointment/registeredBy| *None* |Registered by: The user who registered the data| x |
+|personAppointment/registeredByFullName| *None* |Registered by - Full name: The user who registered the data| x |
 |personAppointment/registeredDate| *None* |Registered date: The date/time the data was registered in UTC.| x |
 |personAppointment/appointmentId| *None* |DB ID: Displays the database ID of a row| x |
 |personAppointment/endDate| *None* |End date: Displays the deadline for a follow-up/sale| x |
@@ -898,11 +1115,14 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 ## Sample
 
 ```http!
-GET /api/v1/archive/ContactSelection?$select=document/associate/ejDisplayName,personUdef/SuperOffice:10,personAddress/line1,request/ownedBy/contactName,projectMembers/nextMilestone
+GET /api/v1/archive/ContactSelection?$select=contactExtra/x_contact_default_integer,sale/registeredByFullName,sale/stageRank,document/documentUdef/SuperOffice:8,personHasInterests
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv
 
 ```
 
-See also: <see cref="T:SuperOffice.CRM.Services.IArchiveAgent">IArchiveAgent</see>.
+
+
+See also: <see cref="T:SuperOffice.CRM.Services.IArchiveAgent">IArchiveAgent</see>.</p>
+

@@ -19,6 +19,7 @@ Get combined day information (activity + redletter summary) for one or more days
 
 **Returns:** Exactly one item per day of the given time span is returned. Days where nothing happens will have all values set to 0, but will still be in the returned array. Start end dates are treated as inclusive.
 
+
 [WSDL file for Services86/Appointment](../Services86-Appointment.md)
 
 Obtain a ticket from the [Services86/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -43,8 +44,8 @@ Application tokens must be specified if calling an Online installation. Applicat
   </Appointment:Credentials>
  <SOAP-ENV:Body>
    <Appointment:GetDayInformationListByDatesAndAssociate>
-    <Appointment:StartDate xsi:type="xsd:dateTime">2021-11-30T13:22:46Z</Appointment:StartDate>
-    <Appointment:EndDate xsi:type="xsd:dateTime">2021-11-30T13:22:46Z</Appointment:EndDate>
+    <Appointment:StartDate xsi:type="xsd:dateTime">2022-08-26T08:54:08Z</Appointment:StartDate>
+    <Appointment:EndDate xsi:type="xsd:dateTime">2022-08-26T08:54:08Z</Appointment:EndDate>
     <Appointment:AssociateId xsi:type="xsd:int">0</Appointment:AssociateId>
    </Appointment:GetDayInformationListByDatesAndAssociate>
 
@@ -52,6 +53,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+
 
 ## GetDayInformationListByDatesAndAssociate Response
 
@@ -78,7 +80,7 @@ Application tokens must be specified if calling an Online installation. Applicat
       <Appointment:IsOwnCountryHoliday xsi:type="xsd:boolean">false</Appointment:IsOwnCountryHoliday>
       <Appointment:IsOtherCountryHoliday xsi:type="xsd:boolean">false</Appointment:IsOtherCountryHoliday>
      </Appointment:RedLetterInformation>
-     <Appointment:Date xsi:type="xsd:dateTime">2021-11-30T13:22:46Z</Appointment:Date>
+     <Appointment:Date xsi:type="xsd:dateTime">2022-08-26T08:54:08Z</Appointment:Date>
     </Appointment:DayInformationListItem>
    </Appointment:Response>
   </Appointment:GetDayInformationListByDatesAndAssociateResponse>
@@ -86,3 +88,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

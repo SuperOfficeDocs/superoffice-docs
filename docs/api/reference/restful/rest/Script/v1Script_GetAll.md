@@ -1,6 +1,6 @@
 ---
 title: GET Script
-id: v1Script_GetAll
+uid: v1Script_GetAll
 ---
 
 # GET Script
@@ -11,6 +11,7 @@ GET /api/v1/Script
 
 OData list of all Script.
 
+
 Can be sorted and further filtered using OData conventions:
 
 * Script?$select=col1,col2,abc/col3
@@ -19,25 +20,34 @@ Can be sorted and further filtered using OData conventions:
 * Script?$top=1000
 * Script?$mode=full
 
+
 OData returns XML or JSON carriers depending on the Accept headers.
+
 
 Calls the Archive service using the "CRMScripts" archive.
 
-## Filter Operators
+
+## Filter Operators: ##
 
 ints: eq =, ne, le, lt, gt, ge, set, equals, greater, less, unequals, between
 
 strings: contains, is, notBegins, notContains, isNot
 
-associate: associateIsOneOf, associateIsNotOneOf,
+associate: associateIsOneOf, associateIsNotOneOf,  
 
-list ids: oneOf, NotOneOf,
+list ids: oneOf, NotOneOf, 
 
 dates: before, date, after, dateBetween, beforeToday
 
 Unary ops: currentAssociate, beforeToday, today, afterToday, lastWeek, thisWeek, nextWeek, lastMonth, thisMonth, nextMonth, lastQuarter, thisQuarter, nextQuarter, thisHalf, thisYear
 
 Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,n,period), previous(f,n,period), thisAndNext(f,n,period), thisAndPrevious(f,n,period), thisAndPreviousAndNext(f,period)
+
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -60,16 +70,17 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 GET /api/v1/Script?$select=name,department,category/id
 GET /api/v1/Script?$filter=name begins 'S'
 GET /api/v1/Script?$orderBy=name asc
-GET /api/v1/Script?$entities=assumenda
-GET /api/v1/Script?$top=558
-GET /api/v1/Script?$skip=74
+GET /api/v1/Script?$entities=quis
+GET /api/v1/Script?$top=215
+GET /api/v1/Script?$skip=196
 GET /api/v1/Script?$mode=Full
 GET /api/v1/Script?$options=GrandTotal=true
-GET /api/v1/Script?$context=dignissimos
+GET /api/v1/Script?$context=totam
 GET /api/v1/Script?$format=JSON
-GET /api/v1/Script?$jsonSafe=True
+GET /api/v1/Script?$jsonSafe=False
 GET /api/v1/Script?$output=Display
 ```
+
 
 ## Request Headers
 
@@ -84,15 +95,16 @@ GET /api/v1/Script?$output=Display
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response: object
 
-Easy to use archive results - just a flat list of values.
+## Response: 
+
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -100,7 +112,7 @@ Response body: object
 | odata.nextLink | string |  |
 | value | array |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 GET /api/v1/Script
@@ -109,27 +121,27 @@ Accept: application/json; charset=utf-8
 Accept-Language: en
 ```
 
+## Sample response
+
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "voluptate",
+  "odata.nextLink": "nam",
   "value": [
     {
-      "PrimaryKey": 6088,
-      "EntityName": "sale",
-      "saleId": 6088,
-      "contactId": 5779,
-      "name": "Wilderman Inc and Sons"
+      "PrimaryKey": 2670,
+      "EntityName": "person",
+      "personId": 2670,
+      "fullName": "Miss Braulio Aidan Koepp"
     },
     {
-      "PrimaryKey": 9193,
-      "EntityName": "sale",
-      "saleId": 9193,
-      "contactId": 2414,
-      "name": "Lockman-Paucek"
+      "PrimaryKey": 2071,
+      "EntityName": "person",
+      "personId": 2071,
+      "fullName": "Jaylin Tromp"
     }
   ]
 }

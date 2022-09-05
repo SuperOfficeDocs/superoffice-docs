@@ -1,6 +1,6 @@
 ---
 title: POST Agents/List/GetAppWebPanels
-id: v1ListAgent_GetAppWebPanels
+uid: v1ListAgent_GetAppWebPanels
 ---
 
 # POST Agents/List/GetAppWebPanels
@@ -11,6 +11,12 @@ POST /api/v1/Agents/List/GetAppWebPanels
 
 Get all web panels owned by your app; works in Online only, for registered Apps that send a valid ApplicationToken
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Get all web panels owned by your app; works in Online only, for registered Apps 
 ```http
 POST /api/v1/Agents/List/GetAppWebPanels?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -34,7 +41,10 @@ POST /api/v1/Agents/List/GetAppWebPanels?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -64,10 +74,11 @@ Response body: array
 | Url | string | The url |
 | ProgId | string | String key that can be used to uniquely retrieve the panel; particularly useful for partners and others who do not wish to store database ID's |
 | Icon | int32 | The icon of the webpanel |
+| AlwaysReloadOnShow | bool | If set to true, the content will reload every time the panel is shown |
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/List/GetAppWebPanels
@@ -76,44 +87,41 @@ Accept: application/json; charset=utf-8
 Accept-Language: sv
 ```
 
+## Sample response
+
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "WebPanelId": 800,
-    "Name": "Kuphal, Lehner and Corwin",
-    "Tooltip": "aliquid",
-    "Deleted": false,
-    "Rank": 459,
+    "WebPanelId": 324,
+    "Name": "O'Conner-Halvorson",
+    "Tooltip": "molestias",
+    "Deleted": true,
+    "Rank": 79,
     "UrlEncoding": "ANSI",
     "VisibleIn": "ActivityDialog",
     "OnCentral": true,
     "OnSatellite": true,
     "OnTravel": false,
-    "OnSalesMarketingWeb": false,
-    "OnSalesMarketingPocket": false,
-    "ShowInMenuBar": true,
-    "ShowInToolBar": false,
-    "ShowInAddressBar": true,
-    "ShowInStatusBar": false,
-    "WindowName": "Mills-Barton",
+    "OnSalesMarketingWeb": true,
+    "OnSalesMarketingPocket": true,
+    "ShowInMenuBar": false,
+    "ShowInToolBar": true,
+    "ShowInAddressBar": false,
+    "ShowInStatusBar": true,
+    "WindowName": "Frami-Reynolds",
     "Url": "http://www.example.com/",
-    "ProgId": "necessitatibus",
-    "Icon": 494,
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "ProgId": "debitis",
+    "Icon": 618,
+    "AlwaysReloadOnShow": false,
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": "morph transparent communities"
-        },
+        "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 669
+        "FieldLength": 385
       }
     }
   }

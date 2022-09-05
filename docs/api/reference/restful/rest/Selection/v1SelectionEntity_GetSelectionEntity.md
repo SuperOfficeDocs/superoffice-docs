@@ -1,6 +1,6 @@
 ---
 title: GET Selection/{id}
-id: v1SelectionEntity_GetSelectionEntity
+uid: v1SelectionEntity_GetSelectionEntity
 ---
 
 # GET Selection/{id}
@@ -11,11 +11,17 @@ GET /api/v1/Selection/{id}
 
 Gets a SelectionEntity object.
 
+
 Calls the Selection agent service GetSelectionEntity.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | id | int32 | The id of the SelectionEntity to return. **Required** |
+
 
 ## Query String Parameters
 
@@ -26,6 +32,7 @@ Calls the Selection agent service GetSelectionEntity.
 ```http
 GET /api/v1/Selection/{id}?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -40,9 +47,10 @@ GET /api/v1/Selection/{id}?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response: object
 
-SelectionEntity entity with API _Links added.
+## Response: 
+
+SelectionEntity found.
 
 | Response | Description |
 |----------------|-------------|
@@ -50,7 +58,7 @@ SelectionEntity entity with API _Links added.
 | 304 | SelectionEntity has not changed since the requested If-Modified-Since date. |
 | 404 | Not Found. |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -59,7 +67,7 @@ Response body: object
 | Associate |  | Owner of the selection |
 | CreatedBy |  | Who created the selection |
 | UpdatedBy |  | Who last modified the selection |
-| SelectionCategory |  | Selection category type (list item)  <br />Use MDO List name "searchCat" to get list items. |
+| SelectionCategory |  | Selection category type (list item)  <para>Use MDO List name "searchCat" to get list items.</para> |
 | GroupIdx | int32 | Original primary user group of associate |
 | IncludePerson | int32 | 0 = Include first person, 1 = Include all persons, 2 = Include no persons |
 | MemberCount | int32 | How many selectionmembers (for progress bar calculations) - estimate, -1 (or 4294967295) means we don't know |
@@ -99,247 +107,102 @@ Response body: object
 | FieldProperties | object |  |
 | _Links | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 GET /api/v1/Selection/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 SelectionEntity found.
 Content-Type: application/json; charset=utf-8
-Last-Modified: Fri, 30 Aug 1996 18:25:51 G8T
+Last-Modified: Tue, 25 Apr 2000 11:10:53 G4T
 
 {
-  "Description": "Implemented real-time superstructure",
-  "Postit": "ullam",
-  "Associate": {
-    "AssociateId": 601,
-    "Name": "Kub, Pollich and Blick",
-    "PersonId": 406,
-    "Rank": 204,
-    "Tooltip": "provident",
-    "Type": "AnonymousAssociate",
-    "GroupIdx": 558,
-    "FullName": "Dr. Blanca Mohr",
-    "FormalName": "Dickinson Inc and Sons",
-    "Deleted": false,
-    "EjUserId": 506,
-    "UserName": "Toy, Bernhard and Lemke",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.Int32",
-        "FieldLength": 457
-      }
-    }
-  },
-  "CreatedBy": {
-    "AssociateId": 983,
-    "Name": "Parisian, O'Conner and Walker",
-    "PersonId": 569,
-    "Rank": 64,
-    "Tooltip": "distinctio",
-    "Type": "AnonymousAssociate",
-    "GroupIdx": 146,
-    "FullName": "Roxane Lubowitz V",
-    "FormalName": "Murphy, Kuhn and Graham",
-    "Deleted": false,
-    "EjUserId": 924,
-    "UserName": "Denesik-Rosenbaum",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": "monetize cross-media metrics"
-        },
-        "FieldType": "System.String",
-        "FieldLength": 360
-      }
-    }
-  },
-  "UpdatedBy": {
-    "AssociateId": 114,
-    "Name": "Rodriguez-Adams",
-    "PersonId": 572,
-    "Rank": 69,
-    "Tooltip": "fugit",
-    "Type": "AnonymousAssociate",
-    "GroupIdx": 59,
-    "FullName": "Lily Boyer",
-    "FormalName": "Satterfield, O'Hara and Jenkins",
-    "Deleted": true,
-    "EjUserId": 302,
-    "UserName": "Spencer, Pagac and Kulas",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 925
-      }
-    }
-  },
-  "SelectionCategory": {
-    "Id": 739,
-    "Value": "ut",
-    "Tooltip": "ut",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.Int32",
-        "FieldLength": 828
-      }
-    }
-  },
-  "GroupIdx": 106,
-  "IncludePerson": 547,
-  "MemberCount": 993,
-  "Name": "Reilly, Hodkiewicz and Wolff",
-  "PostitTextId": 475,
-  "CreatedDate": "2019-08-09T18:25:51.0859494+02:00",
-  "SelectionId": 918,
-  "SoundEx": "saepe",
-  "Source": 137,
-  "TextId": 445,
-  "UpdatedDate": "1996-08-30T18:25:51.0869453+02:00",
-  "UpdatedCount": 379,
-  "Visibility": 570,
+  "Description": "Right-sized modular adapter",
+  "Postit": "odio",
+  "Associate": null,
+  "CreatedBy": null,
+  "UpdatedBy": null,
+  "SelectionCategory": null,
+  "GroupIdx": 47,
+  "IncludePerson": 265,
+  "MemberCount": 285,
+  "Name": "Effertz, Hackett and Goyette",
+  "PostitTextId": 307,
+  "CreatedDate": "2004-02-25T11:10:53.4981817+01:00",
+  "SelectionId": 482,
+  "SoundEx": "rem",
+  "Source": 997,
+  "TextId": 497,
+  "UpdatedDate": "2000-04-25T11:10:53.4981817+02:00",
+  "UpdatedCount": 820,
+  "Visibility": 1002,
   "SelectionType": "Combined",
-  "CompanyUnique": false,
-  "TargetTableNumber": 436,
-  "TargetTableName": "Eichmann, Maggio and Schiller",
-  "Completed": true,
-  "LeftSelectionId": 169,
-  "RightSelectionId": 289,
+  "CompanyUnique": true,
+  "TargetTableNumber": 904,
+  "TargetTableName": "Hand-Sporer",
+  "Completed": false,
+  "LeftSelectionId": 60,
+  "RightSelectionId": 826,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Wehner, Volkman and Hermiston",
-  "ShadowProviderName": "Wilderman, Little and Streich",
-  "ChartKey": "animi",
-  "LastLoaded": "2017-01-09T18:25:51.0869453+01:00",
-  "LastLoadedBy": 464,
-  "LastLoadedByAssociate": {
-    "AssociateId": 700,
-    "Name": "King LLC",
-    "PersonId": 691,
-    "Rank": 32,
-    "Tooltip": "eum",
-    "Type": "AnonymousAssociate",
-    "GroupIdx": 979,
-    "FullName": "Madyson Ernser",
-    "FormalName": "Weissnat-Toy",
-    "Deleted": false,
-    "EjUserId": 200,
-    "UserName": "Luettgen-Borer",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.Int32",
-        "FieldLength": 3
-      }
-    }
-  },
-  "LastMembershipChange": "2001-11-26T18:25:51.0869453+01:00",
-  "LastMembershipChangeBy": 60,
-  "LastMembershipChangeByAssociate": {
-    "AssociateId": 184,
-    "Name": "Bednar, Batz and Wisozk",
-    "PersonId": 873,
-    "Rank": 56,
-    "Tooltip": "eos",
-    "Type": "AnonymousAssociate",
-    "GroupIdx": 40,
-    "FullName": "Mr. Kenneth Turner",
-    "FormalName": "Reilly, Mitchell and Gerhold",
-    "Deleted": true,
-    "EjUserId": 237,
-    "UserName": "O'Kon Group",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 374
-      }
-    }
-  },
-  "MainHeading": "magnam",
-  "MemberTabHeading": "cupiditate",
-  "MailingsProviderName": "Witting, Johns and Kuhic",
-  "DashboardTileDefinitionId": 258,
+  "MainProviderName": "Kihn Group",
+  "ShadowProviderName": "Rolfson, Bartoletti and Gibson",
+  "ChartKey": "nihil",
+  "LastLoaded": "2010-10-29T11:10:53.4981817+02:00",
+  "LastLoadedBy": 88,
+  "LastLoadedByAssociate": null,
+  "LastMembershipChange": "2008-11-28T11:10:53.4981817+01:00",
+  "LastMembershipChangeBy": 127,
+  "LastMembershipChangeByAssociate": null,
+  "MainHeading": "beatae",
+  "MemberTabHeading": "blanditiis",
+  "MailingsProviderName": "Dibbert, Wiza and Kub",
+  "DashboardTileDefinitionId": 260,
   "VisibleFor": [
     {
-      "VisibleId": 941,
+      "VisibleId": 666,
       "Visibility": "All",
-      "DisplayValue": "dolorem",
-      "TableRight": {},
+      "DisplayValue": "harum",
+      "TableRight": null,
       "FieldProperties": {
         "fieldName": {
-          "FieldRight": {
-            "Mask": "FULL",
-            "Reason": ""
-          },
-          "FieldType": "System.Int32",
-          "FieldLength": 944
+          "FieldRight": null,
+          "FieldType": "System.String",
+          "FieldLength": 726
         }
       }
     },
     {
-      "VisibleId": 941,
+      "VisibleId": 666,
       "Visibility": "All",
-      "DisplayValue": "dolorem",
-      "TableRight": {},
+      "DisplayValue": "harum",
+      "TableRight": null,
       "FieldProperties": {
         "fieldName": {
-          "FieldRight": {
-            "Mask": "FULL",
-            "Reason": ""
-          },
-          "FieldType": "System.Int32",
-          "FieldLength": 944
+          "FieldRight": null,
+          "FieldType": "System.String",
+          "FieldLength": 726
         }
       }
     }
   ],
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
+      "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 47
+      "FieldLength": 174
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

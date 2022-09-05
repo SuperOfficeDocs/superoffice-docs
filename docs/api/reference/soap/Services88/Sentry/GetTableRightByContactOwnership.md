@@ -18,6 +18,7 @@ Return the TableRight from the relationship between the current user and the giv
 
 **Returns:** The TableRight
 
+
 [WSDL file for Services88/Sentry](../Services88-Sentry.md)
 
 Obtain a ticket from the [Services88/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -51,6 +52,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## GetTableRightByContactOwnership Response
 
 ```xml
@@ -74,3 +76,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

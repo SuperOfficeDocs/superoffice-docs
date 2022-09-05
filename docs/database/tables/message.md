@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "Message"
-so.date: 04.12.2022
+so.date: 08.26.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -35,6 +35,7 @@ Definition of a message, corresponding to the header of a protocol
 |updated\_associate\_id|Last updated by whom|FK [associate](associate.md)| |
 |updatedCount|Number of updates made to this record|UShort| |
 
+
 ![Message table relationship diagram](./media/Message.png)
 
 [!include[details](./includes/message.md)]
@@ -56,6 +57,7 @@ Definition of a message, corresponding to the header of a protocol
 |[Message](message.md)  |Definition of a message, corresponding to the header of a protocol |
 |[MessageHandler](messagehandler.md)  |Presence and heartbeat of a message handler, should be updated once a minute. Older records are stale |
 
+
 ## Replication Flags
 
 * None
@@ -63,3 +65,4 @@ Definition of a message, corresponding to the header of a protocol
 ## Security Flags
 
 * No access control via user's Role.
+

@@ -1,6 +1,6 @@
 ---
 title: PUT List/ProductFamily/Items/{id}
-id: v1ProductFamilyList_PutProductFamily
+uid: v1ProductFamilyList_PutProductFamily
 ---
 
 # PUT List/ProductFamily/Items/{id}
@@ -11,9 +11,16 @@ PUT /api/v1/List/ProductFamily/Items/{id}
 
 Updates an existing ProductFamily list item.
 
+
+
+
+
+
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | id | int32 | The id of ProductFamily to be saved. **Required** |
+
+
 
 ## Request Headers
 
@@ -29,9 +36,9 @@ Updates an existing ProductFamily list item.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: listItem
+## Request Body: listItem  
 
-The details of ProductFamily list item to be saved.
+The details of ProductFamily list item to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -42,19 +49,17 @@ The details of ProductFamily list item to be saved.
 | UdListDefinitionId | int32 | The id of the list which this list item belongs to |
 | Rank | int32 | The rank of the list item |
 
-## Response: object
 
-The list item entity contains generic list item information
+## Response: 
 
-Carrier object for ListItemEntity.
-Services for the ListItemEntity Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IListAgent">List Agent</see>.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 | 400 | Bad request. Entity to save is not in request body. |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -67,48 +72,44 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 PUT /api/v1/List/ProductFamily/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 395,
-  "Name": "Koch, Feil and Nienow",
-  "Tooltip": "excepturi",
+  "Id": 641,
+  "Name": "Bartell, Mayert and Cremin",
+  "Tooltip": "sed",
   "Deleted": true,
-  "UdListDefinitionId": 213,
-  "Rank": 398
+  "UdListDefinitionId": 276,
+  "Rank": 327
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 258,
-  "Name": "Waelchi, Kertzmann and Weber",
-  "Tooltip": "enim",
-  "Deleted": true,
-  "UdListDefinitionId": 426,
-  "Rank": 120,
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "Id": 273,
+  "Name": "Cartwright Group",
+  "Tooltip": "et",
+  "Deleted": false,
+  "UdListDefinitionId": 157,
+  "Rank": 144,
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
+      "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 370
+      "FieldLength": 606
     }
   }
 }

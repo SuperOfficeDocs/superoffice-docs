@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Quote/GetQuoteVersions
-id: v1QuoteAgent_GetQuoteVersions
+uid: v1QuoteAgent_GetQuoteVersions
 ---
 
 # POST Agents/Quote/GetQuoteVersions
@@ -11,6 +11,12 @@ POST /api/v1/Agents/Quote/GetQuoteVersions
 
 Get all quote versions for a sale
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Get all quote versions for a sale
 ```http
 POST /api/v1/Agents/Quote/GetQuoteVersions?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,15 +42,18 @@ POST /api/v1/Agents/Quote/GetQuoteVersions?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-QuoteId
+QuoteId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | QuoteId | int32 |  |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -89,11 +99,13 @@ Response body: array
 | UpdatedAssociateId | int32 | Last updated by whom |
 | Registered | date-time | Registered when  in UTC. |
 | RegisteredAssociateId | int32 | Registered by whom |
+| RequestAssociateId | int32 | User to whom the request proposal should be delivered |
+| RequestComment | string | Comment for why quote should be approved |
 | QuoteAlternatives | array | The QuoteAlternatives for the QuoteVersion |
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Quote/GetQuoteVersions
@@ -103,9 +115,11 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteId": 590
+  "QuoteId": 284
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -113,92 +127,85 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "QuoteVersionId": 73,
-    "ERPQuoteVersionKey": "non",
-    "QuoteId": 887,
-    "Description": "Horizontal mission-critical moratorium",
-    "Number": "785563",
+    "QuoteVersionId": 237,
+    "ERPQuoteVersionKey": "cum",
+    "QuoteId": 885,
+    "Description": "Synergized well-modulated orchestration",
+    "Number": "1415186",
     "State": "Archived",
     "ArchivedState": "Archived",
     "Status": "Error",
     "Reason": "",
-    "LikelyQuoteAlternativeId": 598,
-    "SentDate": "2016-08-07T18:28:49.9201373+02:00",
-    "FollowupId": 945,
-    "ExpirationDate": "2012-12-03T18:28:49.9201373+01:00",
-    "DeliveryCountryId": 638,
-    "HasOwnDeliveryAddress": true,
-    "InvoiceCountryId": 420,
-    "HasOwnInvoiceAddress": true,
-    "ERPPaymentTermsKey": "velit",
-    "ERPPaymentTypeKey": "consequuntur",
-    "ERPDeliveryTermsKey": "eum",
-    "ERPDeliveryTypeKey": "odit",
-    "Rank": 867,
-    "ApprovedBy": 174,
-    "ApprovedText": "libero",
-    "ApprovedRegisteredBy": 478,
-    "ApprovedRegisteredDate": "2017-10-12T18:28:49.9211374+02:00",
-    "ExtraField1": "cum",
-    "ExtraField2": "distinctio",
-    "ExtraField3": "voluptates",
-    "ExtraField4": "fugit",
-    "ExtraField5": "consequatur",
-    "LastRecalculated": "2001-02-19T18:28:49.9211374+01:00",
-    "Updated": "2012-04-10T18:28:49.9211374+02:00",
-    "UpdatedAssociateId": 537,
-    "Registered": "2012-08-13T18:28:49.9211374+02:00",
-    "RegisteredAssociateId": 909,
+    "LikelyQuoteAlternativeId": 211,
+    "SentDate": "2022-08-24T11:10:27.6524575+02:00",
+    "FollowupId": 57,
+    "ExpirationDate": "2018-04-05T11:10:27.6524575+02:00",
+    "DeliveryCountryId": 492,
+    "HasOwnDeliveryAddress": false,
+    "InvoiceCountryId": 702,
+    "HasOwnInvoiceAddress": false,
+    "ERPPaymentTermsKey": "qui",
+    "ERPPaymentTypeKey": "explicabo",
+    "ERPDeliveryTermsKey": "ipsa",
+    "ERPDeliveryTypeKey": "non",
+    "Rank": 787,
+    "ApprovedBy": 487,
+    "ApprovedText": "dolor",
+    "ApprovedRegisteredBy": 477,
+    "ApprovedRegisteredDate": "2021-06-22T11:10:27.6524575+02:00",
+    "ExtraField1": "animi",
+    "ExtraField2": "aspernatur",
+    "ExtraField3": "dolorem",
+    "ExtraField4": "exercitationem",
+    "ExtraField5": "a",
+    "LastRecalculated": "2013-10-07T11:10:27.6524575+02:00",
+    "Updated": "2000-09-21T11:10:27.6524575+02:00",
+    "UpdatedAssociateId": 750,
+    "Registered": "2019-06-07T11:10:27.6524575+02:00",
+    "RegisteredAssociateId": 317,
+    "RequestAssociateId": 664,
+    "RequestComment": "reprehenderit",
     "QuoteAlternatives": [
       {
-        "QuoteAlternativeId": 326,
-        "ERPQuoteAlternativeKey": "rerum",
-        "QuoteVersionId": 691,
-        "Name": "Gleichner-Lakin",
-        "Description": "Future-proofed radical benchmark",
+        "QuoteAlternativeId": 332,
+        "ERPQuoteAlternativeKey": "iusto",
+        "QuoteVersionId": 580,
+        "Name": "Bahringer, Kertzmann and Rolfson",
+        "Description": "Programmable static product",
         "Status": "Error",
-        "Reason": "integrate integrated platforms",
-        "ERPDiscountPercent": 22129.174,
-        "ERPDiscountAmount": 8132.73,
-        "DiscountPercent": 16372.016,
-        "DiscountAmount": 13990.176,
+        "Reason": "",
+        "ERPDiscountPercent": 13563.952,
+        "ERPDiscountAmount": 1714.298,
+        "DiscountPercent": 31198.969999999998,
+        "DiscountAmount": 16491.108,
         "UserValueOverride": "DiscountAmount",
-        "VATInfo": "iste",
-        "VAT": 30609.778,
-        "EarningPercent": 43.876,
-        "EarningAmount": 15883.112,
-        "SubTotal": 21884.721999999998,
-        "TotalPrice": 21527.446,
-        "ExtraField1": "qui",
-        "ExtraField2": "rerum",
-        "ExtraField3": "quia",
-        "ExtraField4": "ut",
-        "ExtraField5": "amet",
-        "TableRight": {},
+        "VATInfo": "ad",
+        "VAT": 13303.83,
+        "EarningPercent": 2914.62,
+        "EarningAmount": 11088.091999999999,
+        "SubTotal": 29986.111999999997,
+        "TotalPrice": 26554.381999999998,
+        "ExtraField1": "et",
+        "ExtraField2": "nam",
+        "ExtraField3": "et",
+        "ExtraField4": "reiciendis",
+        "ExtraField5": "est",
+        "TableRight": null,
         "FieldProperties": {
           "fieldName": {
-            "FieldRight": {
-              "Mask": "FULL",
-              "Reason": ""
-            },
+            "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 164
+            "FieldLength": 972
           }
         }
       }
     ],
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 439
+        "FieldRight": null,
+        "FieldType": "System.Int32",
+        "FieldLength": 975
       }
     }
   }

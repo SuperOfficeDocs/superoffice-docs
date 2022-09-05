@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Associate/GetAssociate
-id: v1AssociateAgent_GetAssociate
+uid: v1AssociateAgent_GetAssociate
 ---
 
 # POST Agents/Associate/GetAssociate
@@ -11,6 +11,12 @@ POST /api/v1/Agents/Associate/GetAssociate
 
 Gets a Associate object.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -19,9 +25,10 @@ Gets a Associate object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Associate/GetAssociate?associateId=350
+POST /api/v1/Agents/Associate/GetAssociate?associateId=951
 POST /api/v1/Agents/Associate/GetAssociate?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -36,22 +43,22 @@ POST /api/v1/Agents/Associate/GetAssociate?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response: object
 
-Carrier object for Associate.
-Services for the Associate Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IAssociateAgent">Associate Agent</see>.
+## Response: 
+
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | AssociateId | int32 | Primary key |
 | Name | string | Initials, also login name, possibly database user name |
-| PersonId | int32 | Owning person record  <br />Use MDO List name "person" to get list items. |
+| PersonId | int32 | Owning person record  <para>Use MDO List name "person" to get list items.</para> |
 | Rank | int32 | Rank order |
 | Tooltip | string | Tooltip or other description |
 | Type | string | User type - 1 = internal user, 2 = resource, 3 = external user, 4 = anonymous, 5 = system |
@@ -64,44 +71,40 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Associate/GetAssociate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 424,
-  "Name": "Hermann Group",
-  "PersonId": 200,
-  "Rank": 675,
-  "Tooltip": "quam",
+  "AssociateId": 163,
+  "Name": "Steuber-Swift",
+  "PersonId": 323,
+  "Rank": 894,
+  "Tooltip": "provident",
   "Type": "AnonymousAssociate",
-  "GroupIdx": 805,
-  "FullName": "Noemie Keeling",
-  "FormalName": "West-Gulgowski",
-  "Deleted": true,
-  "EjUserId": 291,
-  "UserName": "Medhurst-Treutel",
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "GroupIdx": 602,
+  "FullName": "Ms. Blanche Simeon Kuphal MD",
+  "FormalName": "Lemke-Blanda",
+  "Deleted": false,
+  "EjUserId": 863,
+  "UserName": "Skiles Inc and Sons",
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
-      "FieldType": "System.String",
-      "FieldLength": 702
+      "FieldRight": null,
+      "FieldType": "System.Int32",
+      "FieldLength": 830
     }
   }
 }

@@ -1,6 +1,6 @@
 ---
 title: POST List/ConsentPurpose/Items
-id: v1ConsentPurposeList_PostConsentPurpose
+uid: v1ConsentPurposeList_PostConsentPurpose
 ---
 
 # POST List/ConsentPurpose/Items
@@ -11,7 +11,14 @@ POST /api/v1/List/ConsentPurpose/Items
 
 Create a new ConsentPurpose list item
 
+
 Calls the List agent service SaveConsentPurpose.
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -27,9 +34,9 @@ Calls the List agent service SaveConsentPurpose.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: newEntity
+## Request Body: newEntity  
 
-The ConsentPurpose to be created.
+The ConsentPurpose to be created. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -47,16 +54,16 @@ The ConsentPurpose to be created.
 | PrivacyStatementDesc | string | Name or description for the privacy statement |
 | PrivacyStatementUrl | string | Url referencing the actual privacy statement |
 
-## Response: object
 
-Carrier object for ConsentPurpose.
-Services for the ConsentPurpose Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IListAgent">List Agent</see>.
+## Response: 
+
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -76,7 +83,7 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/List/ConsentPurpose/Items
@@ -86,89 +93,48 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConsentPurposeId": 273,
-  "Name": "Hamill-Emard",
-  "ConsentText": "veritatis",
-  "FormText": "quis",
-  "Key": "eius",
-  "Tooltip": "veniam",
-  "Active": 991,
-  "UpdatedDate": "2015-12-13T18:25:51.6622944+01:00",
-  "UpdatedBy": {
-    "AssociateId": 540,
-    "Name": "Hane LLC",
-    "PersonId": 562,
-    "Rank": 992,
-    "Tooltip": "saepe",
-    "Type": "AnonymousAssociate",
-    "GroupIdx": 36,
-    "FullName": "Max Cassin",
-    "FormalName": "Stark, Cole and Beatty",
-    "Deleted": true,
-    "EjUserId": 868,
-    "UserName": "Beier Group"
-  },
-  "Deleted": false,
-  "Rank": 890,
-  "PrivacyStatementDesc": "nihil",
+  "ConsentPurposeId": 783,
+  "Name": "Effertz-Langosh",
+  "ConsentText": "iusto",
+  "FormText": "quisquam",
+  "Key": "porro",
+  "Tooltip": "omnis",
+  "Active": 99,
+  "UpdatedDate": "2007-11-14T11:10:53.974183+01:00",
+  "UpdatedBy": null,
+  "Deleted": true,
+  "Rank": 605,
+  "PrivacyStatementDesc": "quo",
   "PrivacyStatementUrl": "http://www.example.com/"
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConsentPurposeId": 771,
-  "Name": "Dickinson Inc and Sons",
-  "ConsentText": "ex",
-  "FormText": "suscipit",
-  "Key": "unde",
-  "Tooltip": "ipsam",
-  "Active": 438,
-  "UpdatedDate": "2010-11-15T18:25:51.6632949+01:00",
-  "UpdatedBy": {
-    "AssociateId": 466,
-    "Name": "Feest-Ankunding",
-    "PersonId": 873,
-    "Rank": 138,
-    "Tooltip": "ut",
-    "Type": "AnonymousAssociate",
-    "GroupIdx": 516,
-    "FullName": "Kelli Dach",
-    "FormalName": "Turcotte-Kozey",
-    "Deleted": true,
-    "EjUserId": 44,
-    "UserName": "Spencer Inc and Sons",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.Int32",
-        "FieldLength": 741
-      }
-    }
-  },
-  "Deleted": true,
-  "Rank": 577,
-  "PrivacyStatementDesc": "et",
+  "ConsentPurposeId": 808,
+  "Name": "Botsford-Larson",
+  "ConsentText": "ut",
+  "FormText": "delectus",
+  "Key": "dolorum",
+  "Tooltip": "et",
+  "Active": 87,
+  "UpdatedDate": "2012-07-24T11:10:53.9751831+02:00",
+  "UpdatedBy": null,
+  "Deleted": false,
+  "Rank": 271,
+  "PrivacyStatementDesc": "accusantium",
   "PrivacyStatementUrl": "http://www.example.com/",
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
-      "FieldType": "System.String",
-      "FieldLength": 568
+      "FieldRight": null,
+      "FieldType": "System.Int32",
+      "FieldLength": 823
     }
   }
 }

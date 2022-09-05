@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Configuration/GetWindowPosSizeList
-id: v1ConfigurationAgent_GetWindowPosSizeList
+uid: v1ConfigurationAgent_GetWindowPosSizeList
 ---
 
 # POST Agents/Configuration/GetWindowPosSizeList
@@ -11,6 +11,12 @@ POST /api/v1/Agents/Configuration/GetWindowPosSizeList
 
 Gets an array of WindowPosSize objects.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Gets an array of WindowPosSize objects.
 ```http
 POST /api/v1/Agents/Configuration/GetWindowPosSizeList?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,11 +42,15 @@ POST /api/v1/Agents/Configuration/GetWindowPosSizeList?$select=name,department,c
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: windowPosSizeIds
+## Request Body: windowPosSizeIds  
 
-The primary keys.
+The primary keys. 
+
+
 
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -63,14 +74,16 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Configuration/GetWindowPosSizeList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -78,29 +91,23 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "OwnerWindow": "nemo",
-    "PersonId": 105,
-    "AssociateId": 113,
-    "ExtraId": 882,
-    "ExtraInfo": "cumque",
-    "Height": 141,
-    "LeftX": 902,
+    "OwnerWindow": "consequatur",
+    "PersonId": 414,
+    "AssociateId": 547,
+    "ExtraId": 517,
+    "ExtraInfo": "ex",
+    "Height": 729,
+    "LeftX": 521,
     "State": "Maximized",
-    "UpperY": 221,
-    "Width": 684,
-    "WindowPosSizeId": 641,
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "UpperY": 684,
+    "Width": 644,
+    "WindowPosSizeId": 38,
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
+        "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 879
+        "FieldLength": 908
       }
     }
   }

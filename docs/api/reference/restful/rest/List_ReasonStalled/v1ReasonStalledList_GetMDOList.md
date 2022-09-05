@@ -1,6 +1,6 @@
 ---
 title: GET List/ReasonStalled/MDOItems
-id: v1ReasonStalledList_GetMDOList
+uid: v1ReasonStalledList_GetMDOList
 ---
 
 # GET List/ReasonStalled/MDOItems
@@ -11,6 +11,12 @@ GET /api/v1/List/ReasonStalled/MDOItems
 
 Get the MDO list items for "ReasonStalled" - with headings and filtering by user group.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,8 +26,9 @@ Get the MDO list items for "ReasonStalled" - with headings and filtering by user
 
 ```http
 GET /api/v1/List/ReasonStalled/MDOItems?flat=False
-GET /api/v1/List/ReasonStalled/MDOItems?query=dolore
+GET /api/v1/List/ReasonStalled/MDOItems?query=consequatur
 ```
+
 
 ## Request Headers
 
@@ -36,7 +43,10 @@ GET /api/v1/List/ReasonStalled/MDOItems?query=dolore
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -61,14 +71,16 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 GET /api/v1/List/ReasonStalled/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -76,59 +88,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 137,
-    "Name": "Wintheiser, Schultz and Baumbach",
-    "ToolTip": "Beatae omnis illo.",
-    "Deleted": false,
-    "Rank": 228,
-    "Type": "earum",
+    "Id": 518,
+    "Name": "Beer-Jerde",
+    "ToolTip": "Eaque aut sit ut tenetur quia sed.",
+    "Deleted": true,
+    "Rank": 409,
+    "Type": "quasi",
     "ChildItems": [
       {
-        "Id": 303,
-        "Name": "Bednar Inc and Sons",
-        "ToolTip": "Nihil deserunt.",
-        "Deleted": true,
-        "Rank": 470,
-        "Type": "amet",
+        "Id": 214,
+        "Name": "VonRueden Group",
+        "ToolTip": "Architecto sed quo aut asperiores aut est.",
+        "Deleted": false,
+        "Rank": 401,
+        "Type": "recusandae",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "vel",
-        "ColorBlock": 700,
-        "ExtraInfo": "officiis",
-        "StyleHint": "aut",
-        "FullName": "Ms. Burnice Hyatt",
-        "TableRight": {},
+        "IconHint": "at",
+        "ColorBlock": 665,
+        "ExtraInfo": "et",
+        "StyleHint": "id",
+        "FullName": "Ibrahim Raynor",
+        "TableRight": null,
         "FieldProperties": {
           "fieldName": {
-            "FieldRight": {
-              "Mask": "FULL",
-              "Reason": ""
-            },
-            "FieldType": "System.String",
-            "FieldLength": 806
+            "FieldRight": null,
+            "FieldType": "System.Int32",
+            "FieldLength": 369
           }
         }
       }
     ],
-    "IconHint": "quo",
-    "ColorBlock": 364,
-    "ExtraInfo": "saepe",
-    "StyleHint": "porro",
-    "FullName": "Elwyn Legros Sr.",
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": "leverage compelling functionalities"
-    },
+    "IconHint": "asperiores",
+    "ColorBlock": 296,
+    "ExtraInfo": "sunt",
+    "StyleHint": "deserunt",
+    "FullName": "Prof. Addison Zulauf Jr.",
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 645
+        "FieldRight": null,
+        "FieldType": "System.Int32",
+        "FieldLength": 585
       }
     }
   }

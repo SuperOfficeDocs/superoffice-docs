@@ -1,6 +1,6 @@
 ---
 title: POST Agents/ForeignSystem/GetDeviceKeysOnDeviceIdentifierTable
-id: v1ForeignSystemAgent_GetDeviceKeysOnDeviceIdentifierTable
+uid: v1ForeignSystemAgent_GetDeviceKeysOnDeviceIdentifierTable
 ---
 
 # POST Agents/ForeignSystem/GetDeviceKeysOnDeviceIdentifierTable
@@ -11,6 +11,12 @@ POST /api/v1/Agents/ForeignSystem/GetDeviceKeysOnDeviceIdentifierTable
 
 Returns all ForeignKeys that belong to a device with a given deviceIdentifier and table name.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Returns all ForeignKeys that belong to a device with a given deviceIdentifier an
 ```http
 POST /api/v1/Agents/ForeignSystem/GetDeviceKeysOnDeviceIdentifierTable?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,9 +42,9 @@ POST /api/v1/Agents/ForeignSystem/GetDeviceKeysOnDeviceIdentifierTable?$select=n
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-ApplicationName, DeviceName, DeviceIdentifier, TableName
+ApplicationName, DeviceName, DeviceIdentifier, TableName 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -46,7 +53,10 @@ ApplicationName, DeviceName, DeviceIdentifier, TableName
 | DeviceIdentifier | string |  |
 | TableName | string |  |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -67,7 +77,7 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/ForeignSystem/GetDeviceKeysOnDeviceIdentifierTable
@@ -77,12 +87,14 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Schroeder Group",
-  "DeviceName": "Brown, Wiza and Cole",
-  "DeviceIdentifier": "et",
-  "TableName": "Kassulke, Goyette and Rogahn"
+  "ApplicationName": "Kassulke, Okuneva and Runolfsdottir",
+  "DeviceName": "Gerlach, Ankunding and Leannon",
+  "DeviceIdentifier": "est",
+  "TableName": "Gutkowski, Miller and Hodkiewicz"
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -90,26 +102,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Key": "autem",
-    "Value": "aut",
-    "RecordId": 75,
-    "CreatedDate": "1997-08-16T18:28:49.2240933+02:00",
-    "UpdatedDate": "2006-12-09T18:28:49.2240933+01:00",
-    "UpdatedBy": "eum",
-    "CreatedBy": "labore",
-    "TableName": "Klein-Rosenbaum",
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "Key": "non",
+    "Value": "sit",
+    "RecordId": 428,
+    "CreatedDate": "2008-10-01T11:10:27.0934525+02:00",
+    "UpdatedDate": "2000-07-12T11:10:27.0934525+02:00",
+    "UpdatedBy": "voluptatem",
+    "CreatedBy": "vero",
+    "TableName": "Conn-Brekke",
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 600
+        "FieldRight": null,
+        "FieldType": "System.Int32",
+        "FieldLength": 336
       }
     }
   }

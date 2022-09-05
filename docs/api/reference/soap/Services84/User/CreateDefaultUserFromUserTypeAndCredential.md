@@ -19,6 +19,8 @@ Creates a PersonEntity with default values based on the contactId and credential
 * **credentialValue:** This is the actuall value of the credentials.  This will typically be the password or teh users SID in active directory
 * **credentialDisplayValue:** The value displayed to the user. this will typically be the users login name in active directory.
 
+
+
 [WSDL file for Services84/User](../Services84-User.md)
 
 Obtain a ticket from the [Services84/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -54,6 +56,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+
 
 ## CreateDefaultUserFromUserTypeAndCredential Response
 
@@ -174,8 +177,8 @@ Application tokens must be specified if calling an Online installation. Applicat
      <User:SupportLanguageId xsi:type="xsd:int">0</User:SupportLanguageId>
     </User:Person>
     <User:Deleted xsi:type="xsd:boolean">false</User:Deleted>
-    <User:Lastlogin xsi:type="xsd:dateTime">2021-11-30T13:22:23Z</User:Lastlogin>
-    <User:Lastlogout xsi:type="xsd:dateTime">2021-11-30T13:22:23Z</User:Lastlogout>
+    <User:Lastlogin xsi:type="xsd:dateTime">2022-08-26T08:51:57Z</User:Lastlogin>
+    <User:Lastlogout xsi:type="xsd:dateTime">2022-08-26T08:51:57Z</User:Lastlogout>
     <User:EjUserId xsi:type="xsd:int">0</User:EjUserId>
     <User:Type xsi:type="User:UserType">Unknown</User:Type>
     <User:IsPersonRetired xsi:type="xsd:boolean">false</User:IsPersonRetired>
@@ -199,3 +202,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

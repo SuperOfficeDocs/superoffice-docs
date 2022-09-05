@@ -6,14 +6,14 @@ so.generated: true
 keywords:
   - "database"
   - "Webhook"
-so.date: 04.12.2022
+so.date: 08.26.2022
 so.topic: reference
 so.envir:
   - "onsite"
   - "online"
 ---
 
-# Webhook Table (500)
+# Webhook Table (502)
 
 Webhook URL to call when events occur in the client or in NetServer. Also tracks call+error statistics.
 
@@ -37,6 +37,7 @@ Webhook URL to call when events occur in the client or in NetServer. Also tracks
 |updated\_associate\_id|Last updated by whom|FK [associate](associate.md)| |
 |updatedCount|Number of updates made to this record|UShort| |
 
+
 ![Webhook table relationship diagram](./media/Webhook.png)
 
 [!include[details](./includes/webhook.md)]
@@ -53,6 +54,7 @@ Webhook URL to call when events occur in the client or in NetServer. Also tracks
 |------|-------------|
 |[associate](associate.md)  |Employees, resources and other users - except for External persons |
 
+
 ## Replication Flags
 
 * None
@@ -60,3 +62,4 @@ Webhook URL to call when events occur in the client or in NetServer. Also tracks
 ## Security Flags
 
 * No access control via user's Role.
+

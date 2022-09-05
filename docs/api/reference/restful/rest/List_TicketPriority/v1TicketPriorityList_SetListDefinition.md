@@ -1,6 +1,6 @@
 ---
 title: PUT List/TicketPriority
-id: v1TicketPriorityList_SetListDefinition
+uid: v1TicketPriorityList_SetListDefinition
 ---
 
 # PUT List/TicketPriority
@@ -10,6 +10,13 @@ PUT /api/v1/List/TicketPriority
 ```
 
 Save the description of TicketPriority list
+
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -25,12 +32,12 @@ Save the description of TicketPriority list
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: listEntity
+## Request Body: listEntity  
 
 The list entity contains information about a specific list
-<br />
+<para />
 Carrier object for ListEntity.
-Services for the ListEntity Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IListAgent">List Agent</see>.
+Services for the ListEntity Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IListAgent">List Agent</see>. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -45,18 +52,16 @@ Services for the ListEntity Carrier is available from the <see cref="T:SuperOffi
 | ListType | string | The type of this list, often indicated by the database name, but not necessarily |
 | InUseByUserDefinedFields | bool | True if this in use by one or more udfields |
 
-## Response: object
 
-The list entity contains information about a specific list
+## Response: 
 
-Carrier object for ListEntity.
-Services for the ListEntity Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IListAgent">List Agent</see>.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -73,7 +78,7 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 PUT /api/v1/List/TicketPriority
@@ -83,46 +88,42 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 478,
-  "Name": "Stracke-O'Reilly",
+  "Id": 246,
+  "Name": "Jenkins Group",
   "Tooltip": "est",
   "Deleted": false,
-  "Rank": 878,
+  "Rank": 742,
   "IsCustomList": false,
-  "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "assumenda",
+  "IsMDOList": true,
+  "UseGroupsAndHeadings": true,
+  "ListType": "facere",
   "InUseByUserDefinedFields": false
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 981,
-  "Name": "Armstrong, Wehner and Hackett",
-  "Tooltip": "tenetur",
-  "Deleted": false,
-  "Rank": 109,
-  "IsCustomList": true,
+  "Id": 609,
+  "Name": "Mitchell, Stiedemann and Nicolas",
+  "Tooltip": "esse",
+  "Deleted": true,
+  "Rank": 645,
+  "IsCustomList": false,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "quas",
+  "UseGroupsAndHeadings": true,
+  "ListType": "vel",
   "InUseByUserDefinedFields": true,
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": "revolutionize world-class portals"
-  },
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
-      "FieldType": "System.Int32",
-      "FieldLength": 924
+      "FieldRight": null,
+      "FieldType": "System.String",
+      "FieldLength": 844
     }
   }
 }

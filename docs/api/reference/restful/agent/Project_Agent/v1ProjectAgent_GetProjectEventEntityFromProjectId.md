@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Project/GetProjectEventEntityFromProjectId
-id: v1ProjectAgent_GetProjectEventEntityFromProjectId
+uid: v1ProjectAgent_GetProjectEventEntityFromProjectId
 ---
 
 # POST Agents/Project/GetProjectEventEntityFromProjectId
@@ -11,6 +11,12 @@ POST /api/v1/Agents/Project/GetProjectEventEntityFromProjectId
 
 Get a ProjectEventEntity based on a projectId.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Get a ProjectEventEntity based on a projectId.
 ```http
 POST /api/v1/Agents/Project/GetProjectEventEntityFromProjectId?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,26 +42,24 @@ POST /api/v1/Agents/Project/GetProjectEventEntityFromProjectId?$select=name,depa
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-ProjectId
+ProjectId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | ProjectId | int32 |  |
 
-## Response: object
 
-The ProjectEvent Service. The service implements all services working with the ProjectEvent object
+## Response: 
 
-Carrier object for ProjectEventEntity.
-Services for the ProjectEventEntity Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IProjectAgent">Project Agent</see>.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -91,173 +96,115 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Project/GetProjectEventEntityFromProjectId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 961
+  "ProjectId": 209
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SignOffConfirmationText": "corrupti",
-  "SignOffText": "eum",
-  "SignOnConfirmationText": "recusandae",
-  "SignOnText": "dolor",
-  "EventDate": "2017-12-15T18:28:49.7731373+01:00",
+  "SignOffConfirmationText": "ipsam",
+  "SignOffText": "non",
+  "SignOnConfirmationText": "vitae",
+  "SignOnText": "doloremque",
+  "EventDate": "2010-07-18T11:10:27.6124529+02:00",
   "Enabled": false,
-  "CreatedDate": "1995-02-25T18:28:49.7731373+01:00",
-  "SignOff": true,
-  "SignOffTaskEnable": true,
-  "SignOffTaskId": 834,
-  "SignOffTriggersAssign": true,
-  "SignOn": true,
-  "SignOnTaskEnable": true,
-  "SignOnTaskId": 431,
-  "SignOnTriggersAssign": true,
-  "UpdatedDate": "2021-04-23T18:28:49.7731373+02:00",
-  "CreatedBy": {
-    "AssociateId": 478,
-    "Name": "Bergnaum-Mante",
-    "PersonId": 151,
-    "Rank": 968,
-    "Tooltip": "quis",
-    "Type": "AnonymousAssociate",
-    "GroupIdx": 937,
-    "FullName": "Alejandrin Greenfelder",
-    "FormalName": "Nikolaus-O'Connell",
-    "Deleted": true,
-    "EjUserId": 991,
-    "UserName": "Smith-Fay",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.Int32",
-        "FieldLength": 231
-      }
-    }
-  },
-  "UpdatedBy": {
-    "AssociateId": 575,
-    "Name": "Predovic, Schiller and Batz",
-    "PersonId": 985,
-    "Rank": 774,
-    "Tooltip": "accusamus",
-    "Type": "AnonymousAssociate",
-    "GroupIdx": 223,
-    "FullName": "Archibald Pagac",
-    "FormalName": "Little-Donnelly",
-    "Deleted": true,
-    "EjUserId": 211,
-    "UserName": "Wiegand-Auer",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 978
-      }
-    }
-  },
-  "ProjectId": 309,
-  "Id": 818,
-  "PublishFrom": "2005-09-08T18:28:49.774109+02:00",
+  "CreatedDate": "1997-12-20T11:10:27.6124529+01:00",
+  "SignOff": false,
+  "SignOffTaskEnable": false,
+  "SignOffTaskId": 821,
+  "SignOffTriggersAssign": false,
+  "SignOn": false,
+  "SignOnTaskEnable": false,
+  "SignOnTaskId": 998,
+  "SignOnTriggersAssign": false,
+  "UpdatedDate": "2002-10-24T11:10:27.6124529+02:00",
+  "CreatedBy": null,
+  "UpdatedBy": null,
+  "ProjectId": 607,
+  "Id": 343,
+  "PublishFrom": "2008-04-15T11:10:27.6134529+02:00",
   "PublishType": "External",
-  "PublishTo": "2012-04-12T18:28:49.774109+02:00",
+  "PublishTo": "2000-03-17T11:10:27.6134529+01:00",
   "VisibleForCategories": [
     {
-      "Id": 821,
-      "Name": "Hauck-Mayer",
-      "ToolTip": "Est dolores voluptas.",
+      "Id": 365,
+      "Name": "Ward, Dooley and DuBuque",
+      "ToolTip": "Earum consequatur amet beatae perspiciatis voluptatum aliquid.",
       "Deleted": false,
-      "Rank": 572,
-      "Type": "nihil",
+      "Rank": 573,
+      "Type": "rerum",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "quam",
-      "ColorBlock": 225,
-      "ExtraInfo": "enim",
-      "StyleHint": "quis",
-      "FullName": "Miss Jerod Aufderhar",
-      "TableRight": {},
+      "IconHint": "et",
+      "ColorBlock": 767,
+      "ExtraInfo": "molestiae",
+      "StyleHint": "quas",
+      "FullName": "Dave Quitzon",
+      "TableRight": null,
       "FieldProperties": {
         "fieldName": {
-          "FieldRight": {
-            "Mask": "FULL",
-            "Reason": ""
-          },
-          "FieldType": "System.String",
-          "FieldLength": 506
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 975
         }
       }
     }
   ],
   "VisibleForPersonInterests": [
     {
-      "Id": 145,
-      "Name": "Padberg Group",
-      "ToolTip": "Beatae non ea dolorem id.",
-      "Deleted": true,
-      "Rank": 301,
-      "Type": "cumque",
+      "Id": 289,
+      "Name": "Kertzmann Inc and Sons",
+      "ToolTip": "Neque illo numquam et facilis aut.",
+      "Deleted": false,
+      "Rank": 164,
+      "Type": "non",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "quaerat",
-      "ColorBlock": 877,
-      "ExtraInfo": "deserunt",
-      "StyleHint": "est",
-      "FullName": "Natasha Zieme",
-      "TableRight": {},
+      "IconHint": "ut",
+      "ColorBlock": 583,
+      "ExtraInfo": "eius",
+      "StyleHint": "suscipit",
+      "FullName": "Luz Hagenes",
+      "TableRight": null,
       "FieldProperties": {
         "fieldName": {
-          "FieldRight": {
-            "Mask": "FULL",
-            "Reason": ""
-          },
-          "FieldType": "System.String",
-          "FieldLength": 605
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 775
         }
       }
     }
   ],
-  "IsPublished": true,
+  "IsPublished": false,
   "IsVisibleForMembers": false,
-  "IsVisibleForCategories": true,
-  "IsVisibleForPersonInterests": true,
-  "ProjectEventId": 184,
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "IsVisibleForCategories": false,
+  "IsVisibleForPersonInterests": false,
+  "ProjectEventId": 767,
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
+      "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 209
+      "FieldLength": 441
     }
   }
 }

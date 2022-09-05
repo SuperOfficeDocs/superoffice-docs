@@ -15,6 +15,8 @@ Deletes a window and dialog position and size setting.
 
 * **windowPosSizeId:** Id of the window and dialog position and size settings item.
 
+
+
 [WSDL file for Services85/Configuration](../Services85-Configuration.md)
 
 Obtain a ticket from the [Services85/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -47,6 +49,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## DeleteWindowPosSize Response
 
 ```xml
@@ -66,3 +69,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Archive/GetAvailableColumns
-id: v1ArchiveAgent_GetAvailableColumns
+uid: v1ArchiveAgent_GetAvailableColumns
 ---
 
 # POST Agents/Archive/GetAvailableColumns
@@ -11,7 +11,13 @@ POST /api/v1/Agents/Archive/GetAvailableColumns
 
 Return list of all columns supported by an archive provider.
 
+
 See also GetArchiveConfiguration.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +28,7 @@ See also GetArchiveConfiguration.
 ```http
 POST /api/v1/Agents/Archive/GetAvailableColumns?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,16 +44,19 @@ POST /api/v1/Agents/Archive/GetAvailableColumns?$select=name,department,category
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-ProviderName, Context
+ProviderName, Context 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | ProviderName | string |  |
 | Context | string |  |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -70,20 +80,22 @@ Response body: array
 | IconHint | string |  |
 | HeadingIconHint | string |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Archive/GetAvailableColumns
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Abernathy, Stiedemann and Lemke",
-  "Context": "voluptatem"
+  "ProviderName": "Brown LLC",
+  "Context": "veniam"
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -91,19 +103,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DisplayName": "Gutkowski-Gottlieb",
-    "DisplayTooltip": "minima",
-    "DisplayType": "vel",
+    "DisplayName": "Welch, Heathcote and Stroman",
+    "DisplayTooltip": "nobis",
+    "DisplayType": "cupiditate",
     "CanOrderBy": false,
-    "Name": "Schmeler, Schinner and Mann",
+    "Name": "D'Amore, Hickle and Marquardt",
     "CanRestrictBy": true,
-    "RestrictionType": "unde",
-    "RestrictionListName": "Zieme Group",
-    "IsVisible": true,
-    "ExtraInfo": "doloremque",
-    "Width": "ut",
-    "IconHint": "minima",
-    "HeadingIconHint": "iste"
+    "RestrictionType": "id",
+    "RestrictionListName": "Kulas-Klocko",
+    "IsVisible": false,
+    "ExtraInfo": "corrupti",
+    "Width": "quaerat",
+    "IconHint": "velit",
+    "HeadingIconHint": "hic"
   }
 ]
 ```

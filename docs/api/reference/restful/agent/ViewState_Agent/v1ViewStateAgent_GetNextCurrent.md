@@ -1,6 +1,6 @@
 ---
 title: POST Agents/ViewState/GetNextCurrent
-id: v1ViewStateAgent_GetNextCurrent
+uid: v1ViewStateAgent_GetNextCurrent
 ---
 
 # POST Agents/ViewState/GetNextCurrent
@@ -11,7 +11,13 @@ POST /api/v1/Agents/ViewState/GetNextCurrent
 
 Returns the next current item.
 
+
 If no item exists a default value is returned. This is usually the first item in the table representing the history list.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +28,7 @@ If no item exists a default value is returned. This is usually the first item in
 ```http
 POST /api/v1/Agents/ViewState/GetNextCurrent?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,27 +44,25 @@ POST /api/v1/Agents/ViewState/GetNextCurrent?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-HistoryName, Id
+HistoryName, Id 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | HistoryName | string |  |
 | Id | int32 |  |
 
-## Response: object
 
-The usage history of the currently logged in user is represented as History objects.
+## Response: 
 
-Carrier object for History.
-Services for the History Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IViewStateAgent">ViewState Agent</see>.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -71,45 +76,41 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/ViewState/GetNextCurrent
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "HistoryName": "Quitzon-Upton",
-  "Id": 71
+  "HistoryName": "Cronin-Hahn",
+  "Id": 399
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Rank": 750,
-  "Id": 385,
-  "HistoryName": "Kilback, Aufderhar and Walter",
-  "HistoryId": 291,
-  "AssociateId": 699,
-  "Name": "Wisoky LLC",
-  "ItemInfo": "voluptatem",
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "Rank": 850,
+  "Id": 432,
+  "HistoryName": "Herzog-Lynch",
+  "HistoryId": 205,
+  "AssociateId": 844,
+  "Name": "Ryan, Emmerich and Ankunding",
+  "ItemInfo": "sint",
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
+      "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 580
+      "FieldLength": 913
     }
   }
 }

@@ -8,7 +8,7 @@ keywords:
   - "archive provider"
   - "SaleGuide"
 so.generated: true
-so.date: 03.23.2021
+so.date: 08.26.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -26,7 +26,7 @@ This provider is a trivial aggregation of the Appointment and Document providers
 ## Supported Entities
 
 | Name | Description |
-| ---- | ----- |
+| ---- | ----------- |
 |"suggestedAppointment"|Follow-ups|
 |"appointment"|Follow-ups|
 |"suggestedDocument"|Documents|
@@ -34,8 +34,8 @@ This provider is a trivial aggregation of the Appointment and Document providers
 
 ## Supported Columns
 
-| Name | Restriction | Description | OrderBy
-| ---- | ----- | ------- | ------ |
+| Name | Restriction | Description | OrderBy |
+| ---- | ----------- | ----------- | ------- |
 |getAllRows|bool|GetAll: Get all rows of archive - use with care, you may be fetching the whole database|  |
 |getNoRows|bool|GetNone: Do not get any rows from the archive|  |
 |saleId|int|Sale ID: The database ID of the sale record| x |
@@ -69,8 +69,10 @@ This provider is a trivial aggregation of the Appointment and Document providers
 |appointmentInstance/userGroup| *None* |User group : The user group that owns the record|  |
 |appointmentInstance/who| *None* |Who: Contact and/or company|  |
 |appointmentInstance/updatedBy| *None* |Updated by: The user who last updated the data|  |
+|appointmentInstance/updatedByFullName| *None* |Updated by - Full name: The user who last updated the data|  |
 |appointmentInstance/updatedDate| *None* |Updated: The date/time the data was last updated in UTC.|  |
 |appointmentInstance/registeredBy| *None* |Registered by: The user who registered the data|  |
+|appointmentInstance/registeredByFullName| *None* |Registered by - Full name: The user who registered the data|  |
 |appointmentInstance/registeredDate| *None* |Registered date: The date/time the data was registered in UTC.|  |
 |appointmentInstance/appointmentId| *None* |DB ID: Displays the database ID of a row|  |
 |appointmentInstance/endDate| *None* |End date: Displays the deadline for a follow-up/sale|  |
@@ -107,14 +109,17 @@ This provider is a trivial aggregation of the Appointment and Document providers
 |appointmentInstance/contact/category| *None* |Category|  |
 |appointmentInstance/contact/business| *None* |Business|  |
 |appointmentInstance/contact/country| *None* |Country: This criterion corresponds to the Country field on the Company card.|  |
+|appointmentInstance/contact/countryId| *None* |Country ID: Country ID|  |
 |appointmentInstance/contact/number| *None* |Number|  |
 |appointmentInstance/contact/code| *None* |Code|  |
 |appointmentInstance/contact/orgnr| *None* |VAT No.|  |
 |appointmentInstance/contact/stop| *None* |Stop|  |
 |appointmentInstance/contact/contactNoMail| *None* |No mailings (company|  |
 |appointmentInstance/contact/updatedBy| *None* |Updated by: The user who last updated the data|  |
+|appointmentInstance/contact/updatedByFullName| *None* |Updated by - Full name: The user who last updated the data|  |
 |appointmentInstance/contact/updatedDate| *None* |Updated: The date/time the data was last updated in UTC.|  |
 |appointmentInstance/contact/registeredBy| *None* |Registered by: The user who registered the data|  |
+|appointmentInstance/contact/registeredByFullName| *None* |Registered by - Full name: The user who registered the data|  |
 |appointmentInstance/contact/registeredDate| *None* |Registered date: The date/time the data was registered in UTC.|  |
 |appointmentInstance/contact/contactSource| *None* |Source: Source (Company)|  |
 |appointmentInstance/contact/contactDeleted| *None* |Deleted: Deleted|  |
@@ -218,6 +223,22 @@ This provider is a trivial aggregation of the Appointment and Document providers
 |appointmentInstance/contact/contactUdef/SuperOffice:11| *None* |page1adminonly|  |
 |appointmentInstance/contact/contactUdef/SuperOffice:12| *None* |Udlist one: Static tooltip for udlist one|  |
 |appointmentInstance/contact/contactUdef/SuperOffice:13| *None* |Udlist two: Static tooltip for udlist two|  |
+|appointmentInstance/contact/contactExtra/x\_contact\_integer| *None* |Extra Integer: Custom integer field|  |
+|appointmentInstance/contact/contactExtra/x\_contact\_hidden\_integer| *None* |Extra hidden integer: Custom integer field - hidden|  |
+|appointmentInstance/contact/contactExtra/x\_contact\_default\_integer| *None* |Extra Default Integer: Custom integer field with default value 123.|  |
+|appointmentInstance/contact/contactExtra/x\_contact\_float| *None* |Extra Float: Custom float field with 3 decimals|  |
+|appointmentInstance/contact/contactExtra/x\_contact\_longtext| *None* |Extra LongText: Custom long text field. DO not keep HTML. 3 Line text area editor|  |
+|appointmentInstance/contact/contactExtra/x\_contact\_dropdown| *None* |Extra Long Dropdown: Custom long text field with dropdown: Volvo, Saab, etc.|  |
+|appointmentInstance/contact/contactExtra/x\_contact\_date| *None* |Extra date: Custom date field. User current as default.|  |
+|appointmentInstance/contact/contactExtra/x\_contact\_datetime| *None* |Extra DateTime: Custom Date Time field. No default value. External|  |
+|appointmentInstance/contact/contactExtra/x\_contact\_time| *None* |Extra time: Custom time field.|  |
+|appointmentInstance/contact/contactExtra/x\_contact\_boolean| *None* |Extra boolean: Custom boolean field.|  |
+|appointmentInstance/contact/contactExtra/x\_contact\_timespan| *None* |Extra timespan: Custom timespan field. Hours and minutes in 10 units|  |
+|appointmentInstance/contact/contactExtra/x\_contact\_shorttext| *None* |Extra short text: Custom short text field. Keep HTML tags.|  |
+|appointmentInstance/contact/contactExtra/x\_contact\_short\_dropdown| *None* |Extra short dropdown: Custom short text with dropdown list. Red, Green or Blue or Purple. External.|  |
+|appointmentInstance/contact/contactExtra/x\_contact\_contact\_relation| *None* |Extra Company: Custom company relation. Do not show one-to-many relations. Show function buttons|  |
+|appointmentInstance/contact/contactExtra/x\_contact\_request\_relation| *None* |Extra Request relation: Request relation on company|  |
+|appointmentInstance/contact/contactExtra/x\_contact\_contact| *None* |Extra contact relation: Contact relation on company|  |
 |appointmentInstance/contact/NumberOfActivities| *None* |Number of activities|  |
 |appointmentInstance/contact/NumberOfActivitiesInPeriod| *None* |Number of activities in last 90 days|  |
 |appointmentInstance/contact/NumberOfNotCompletedActivities| *None* |Number of non-completed activities|  |
@@ -239,8 +260,8 @@ This provider is a trivial aggregation of the Appointment and Document providers
 |appointmentInstance/contact/LastTicket| *None* |Date of last request|  |
 |appointmentInstance/contact/LastCompletedTicket| *None* |Date of last completed request|  |
 |appointmentInstance/contact/LastDoByTicket| *None* |Date of last non-completed request|  |
-|appointmentInstance/contact/SaintStatus1| *None* |Neglected customer|  |
-|appointmentInstance/contact/SaintStatus2| *None* |C-company|  |
+|appointmentInstance/contact/SaintStatus1| *None* |Neglected customer: Denne kunden har det vært 0 salgsaktiviteter på i perioden.|  |
+|appointmentInstance/contact/SaintStatus2| *None* |C-company: Kundens navn starter med bokstaven C|  |
 |appointmentInstance/contact/saintSaleStatus| *None* |With status|  |
 |appointmentInstance/contact/saintAmountClass| *None* |Amount class|  |
 |appointmentInstance/contact/saintActivityType| *None* |SAINT type|  |
@@ -262,6 +283,7 @@ This provider is a trivial aggregation of the Appointment and Document providers
 |appointmentInstance/person/personNumber| *None* |Number: Displays the contact's number|  |
 |appointmentInstance/person/title| *None* |Title: Displays the contact's job title|  |
 |appointmentInstance/person/personCountry| *None* |Country: Country|  |
+|appointmentInstance/person/personCountryId| *None* |Country ID: Country ID|  |
 |appointmentInstance/person/personNoMail| *None* |No Mailings: Displays the contact's No Mailings checkbox|  |
 |appointmentInstance/person/rank| *None* |Rank: Displays a contact's current rank|  |
 |appointmentInstance/person/birthdate| *None* |Birthdate: Displays the contact's date of birth|  |
@@ -275,15 +297,19 @@ This provider is a trivial aggregation of the Appointment and Document providers
 |appointmentInstance/person/kanaFirstName| *None* |First name, kana: Contact's first name, in kana alphabet|  |
 |appointmentInstance/person/kanaLastName| *None* |Last name, kana: Contact's last name, in kana alphabet|  |
 |appointmentInstance/person/personUpdatedBy| *None* |Updated by: The user who last updated the data|  |
+|appointmentInstance/person/personUpdatedByFullName| *None* |Updated by - Full name: The user who last updated the data|  |
 |appointmentInstance/person/personUpdatedDate| *None* |Updated: The date/time the data was last updated in UTC.|  |
 |appointmentInstance/person/personRegisteredBy| *None* |Registered by: The user who registered the data|  |
+|appointmentInstance/person/personRegisteredByFullName| *None* |Registered by - Full name: The user who registered the data|  |
 |appointmentInstance/person/personRegisteredDate| *None* |Registered date: The date/time the data was registered in UTC.|  |
 |appointmentInstance/person/portraitThumbnail| *None* |Person image: Person image|  |
 |appointmentInstance/person/personActiveErpLinks| *None* |ERP connected: Is there an active ERP Sync?|  |
 |appointmentInstance/person/ticketPriority| *None* |Service priority: Default service priority for this contact|  |
 |appointmentInstance/person/supportLanguage| *None* |Preferred language: Preferred language used for reply templates and more|  |
 |appointmentInstance/person/supportAssociate| *None* |Our service contact: Default service contact for this contact|  |
+|appointmentInstance/person/supportAssociateFullName| *None* |Our service contact - Full name: Default service contact for this contact|  |
 |appointmentInstance/person/personAssociateId| *None* |Our contact: Displays our contact|  |
+|appointmentInstance/person/personAssociateFullName| *None* |Our contact - Full name: Displays our contact|  |
 |appointmentInstance/person/personCategory| *None* |Category|  |
 |appointmentInstance/person/personBusiness| *None* |Business|  |
 |appointmentInstance/person/personDeletedDate| *None* |Deleted date: Deleted date|  |
@@ -351,7 +377,90 @@ This provider is a trivial aggregation of the Appointment and Document providers
 |appointmentInstance/person/personUdef/SuperOffice:9| *None* |page1saleonly|  |
 |appointmentInstance/person/personUdef/SuperOffice:10| *None* |page1marketingonly|  |
 |appointmentInstance/person/personUdef/SuperOffice:11| *None* |page1adminonly|  |
-|appointmentInstance/person/isMailingRecipient| *None* |isMailingRecipient: isMailingRecipient|  |
+|appointmentInstance/person/personExtra/x\_person\_integer| *None* |Extra Integer: Custom person integer|  |
+|appointmentInstance/person/personExtra/x\_person\_hidden\_integer| *None* |Extra hidden integer: Custom integer field that is hidden|  |
+|appointmentInstance/person/personExtra/x\_person\_float| *None* |Extra float: Custom float field|  |
+|appointmentInstance/person/personExtra/x\_person\_longtext| *None* |Extra Long Text: Custom long text field on person, keep HTML tags. Simple input, not text area. Default value = 'Hello there'|  |
+|appointmentInstance/person/personExtra/x\_person\_date| *None* |Extra date: Custom date field on person. Default value = 28.03.2019|  |
+|appointmentInstance/person/personExtra/x\_person\_datetime| *None* |Extra DateTime: Custom person date and time field. No default|  |
+|appointmentInstance/person/personExtra/x\_person\_time| *None* |Extra time: Custom time field on person. Current time as default|  |
+|appointmentInstance/person/personExtra/x\_person\_boolean| *None* |Extra Boolean: Custom boolean field on person. Default checked|  |
+|appointmentInstance/person/personExtra/x\_person\_timespan| *None* |Extra timespan: Custom timespan on person. Minutes only in 15 units|  |
+|appointmentInstance/person/personExtra/x\_person\_shorttext| *None* |Extra short text: Custom short text on person. With index. Do not keep HTML tags|  |
+|appointmentInstance/person/personExtra/x\_person\_shorttext\_list| *None* |Extra short dropdown: Custom Short text dropdown field on person: black, white, transparent|  |
+|appointmentInstance/person/personExtra/x\_person\_user\_relation| *None* |Extra user relation: Custom person-user relation field|  |
+|appointmentInstance/person/personExtra/x\_person\_category\_relation| *None* |Extra category relation: Custom person-category relation|  |
+|appointmentInstance/person/personExtra/x\_person\_priority\_relation| *None* |Extra priority relation: Custom person-priority relation|  |
+|appointmentInstance/person/personExtra/x\_person\_request\_relation| *None* |Extra request relation: Request relation on contact|  |
+|appointmentInstance/person/personExtra/x\_person\_appointment\_relation| *None* |Extra appointment relation: Appointment relation on person|  |
+|appointmentInstance/person/personExtra/x\_person\_contact\_relation| *None* |Extra company relation: Company relation on contact|  |
+|appointmentInstance/person/personExtra/y\_rental/id| *None* |Rental - id: Displays the row's primary key (y\_rental)|  |
+|appointmentInstance/person/personExtra/y\_rental/x\_start| *None* |Rental - Start rental|  |
+|appointmentInstance/person/personExtra/y\_rental/x\_end| *None* |Rental - End|  |
+|appointmentInstance/person/personExtra/y\_rental/x\_amount| *None* |Rental - Amount: Number to rent. Default = 1|  |
+|appointmentInstance/person/personExtra/y\_rental/x\_contact| *None* |Rental - Renter: Company that rents equipment|  |
+|appointmentInstance/person/personExtra/y\_rental/y\_equipment/x\_name| *None* |Rental - Equipment - Name: Equpment name custom field. Cannot be null., show in table|  |
+|appointmentInstance/person/personAssociate/firstName| *None* |First name: Displays the contact's first name|  |
+|appointmentInstance/person/personAssociate/lastName| *None* |Last name: Displays the contact's last name|  |
+|appointmentInstance/person/personAssociate/middleName| *None* |Middle Name : Displays the contact's middle name.|  |
+|appointmentInstance/person/personAssociate/fullName| *None* |Full name: Displays full name of user (first, middle, last - according to settings)|  |
+|appointmentInstance/person/personAssociate/contactId| *None* |Company ID: Database ID of the company the user belongs to|  |
+|appointmentInstance/person/personAssociate/personId| *None* |Contact ID: Database ID of the contact row|  |
+|appointmentInstance/person/personAssociate/mrMrs| *None* |Mr/Ms: Displays whether the contact is addressed as Mr or Ms|  |
+|appointmentInstance/person/personAssociate/title| *None* |Title: Displays whether the contact is addressed as Mr or Ms|  |
+|appointmentInstance/person/personAssociate/associateDbId| *None* |ID|  |
+|appointmentInstance/person/personAssociate/contactName| *None* |Owning company: Name of the company the user belongs to|  |
+|appointmentInstance/person/personAssociate/contactDepartment| *None* |Owning department: Name of the department at the company the user belongs to|  |
+|appointmentInstance/person/personAssociate/usergroup| *None* |Primary group: The user's primary user group|  |
+|appointmentInstance/person/personAssociate/contactFullName| *None* |Owner: Name and department of the company the user belongs to|  |
+|appointmentInstance/person/personAssociate/contactCategory| *None* |Category: Category|  |
+|appointmentInstance/person/personAssociate/role| *None* |Role : Role|  |
+|appointmentInstance/person/personAssociate/assocName| *None* |User ID : User ID|  |
+|appointmentInstance/person/personAssociate/assocTooltip| *None* |Description : Description|  |
+|appointmentInstance/person/personAssociate/assocType| *None* |Type: Type of user: associate, external user, system user, anonymous account|  |
+|appointmentInstance/person/personAssociate/ejUserId| *None* |Service user ID: The database ID of a Service user|  |
+|appointmentInstance/person/personAssociate/simultaneousEjUser| *None* |Simultaneous Service user: If this flag is set, then the user will only have access if the maximum number of simultaneous users is not exceeded|  |
+|appointmentInstance/person/personAssociate/ejDisplayName| *None* |Nick name: User's nick name in Service|  |
+|appointmentInstance/person/personAssociate/ejStatus| *None* |Service status: Status for Service user: Normal; Unavailable / holiday; Deleted; Read-only|  |
+|appointmentInstance/person/personAssociate/credentialType| *None* |Auth. type: What type of credentials to use when this user logs in|  |
+|appointmentInstance/person/personAssociate/credentialDisplayValue| *None* |Auth. value: Credential value (public, visible part) to be used when this user logs in|  |
+|appointmentInstance/person/personAssociate/isActive| *None* |Active: Is this user active, and should be able to log in?|  |
+|appointmentInstance/person/personAssociate/isActiveText| *None* |Active status: Is this user active, and should be able to log in?|  |
+|appointmentInstance/person/personAssociate/portraitThumbnail| *None* |Person image: Person image|  |
+|appointmentInstance/person/personAssociate/otherGroups| *None* |Other groups: Other groups|  |
+|appointmentInstance/person/personAssociate/userName| *None* |User name: User name|  |
+|appointmentInstance/person/personAssociate/personEmail| *None* |E-mail|  |
+|appointmentInstance/person/correspondingAssociate/firstName| *None* |First name: Displays the contact's first name|  |
+|appointmentInstance/person/correspondingAssociate/lastName| *None* |Last name: Displays the contact's last name|  |
+|appointmentInstance/person/correspondingAssociate/middleName| *None* |Middle Name : Displays the contact's middle name.|  |
+|appointmentInstance/person/correspondingAssociate/fullName| *None* |Full name: Displays full name of user (first, middle, last - according to settings)|  |
+|appointmentInstance/person/correspondingAssociate/contactId| *None* |Company ID: Database ID of the company the user belongs to|  |
+|appointmentInstance/person/correspondingAssociate/personId| *None* |Contact ID: Database ID of the contact row|  |
+|appointmentInstance/person/correspondingAssociate/mrMrs| *None* |Mr/Ms: Displays whether the contact is addressed as Mr or Ms|  |
+|appointmentInstance/person/correspondingAssociate/title| *None* |Title: Displays whether the contact is addressed as Mr or Ms|  |
+|appointmentInstance/person/correspondingAssociate/associateDbId| *None* |ID|  |
+|appointmentInstance/person/correspondingAssociate/contactName| *None* |Owning company: Name of the company the user belongs to|  |
+|appointmentInstance/person/correspondingAssociate/contactDepartment| *None* |Owning department: Name of the department at the company the user belongs to|  |
+|appointmentInstance/person/correspondingAssociate/usergroup| *None* |Primary group: The user's primary user group|  |
+|appointmentInstance/person/correspondingAssociate/contactFullName| *None* |Owner: Name and department of the company the user belongs to|  |
+|appointmentInstance/person/correspondingAssociate/contactCategory| *None* |Category: Category|  |
+|appointmentInstance/person/correspondingAssociate/role| *None* |Role : Role|  |
+|appointmentInstance/person/correspondingAssociate/assocName| *None* |User ID : User ID|  |
+|appointmentInstance/person/correspondingAssociate/assocTooltip| *None* |Description : Description|  |
+|appointmentInstance/person/correspondingAssociate/assocType| *None* |Type: Type of user: associate, external user, system user, anonymous account|  |
+|appointmentInstance/person/correspondingAssociate/ejUserId| *None* |Service user ID: The database ID of a Service user|  |
+|appointmentInstance/person/correspondingAssociate/simultaneousEjUser| *None* |Simultaneous Service user: If this flag is set, then the user will only have access if the maximum number of simultaneous users is not exceeded|  |
+|appointmentInstance/person/correspondingAssociate/ejDisplayName| *None* |Nick name: User's nick name in Service|  |
+|appointmentInstance/person/correspondingAssociate/ejStatus| *None* |Service status: Status for Service user: Normal; Unavailable / holiday; Deleted; Read-only|  |
+|appointmentInstance/person/correspondingAssociate/credentialType| *None* |Auth. type: What type of credentials to use when this user logs in|  |
+|appointmentInstance/person/correspondingAssociate/credentialDisplayValue| *None* |Auth. value: Credential value (public, visible part) to be used when this user logs in|  |
+|appointmentInstance/person/correspondingAssociate/isActive| *None* |Active: Is this user active, and should be able to log in?|  |
+|appointmentInstance/person/correspondingAssociate/isActiveText| *None* |Active status: Is this user active, and should be able to log in?|  |
+|appointmentInstance/person/correspondingAssociate/portraitThumbnail| *None* |Person image: Person image|  |
+|appointmentInstance/person/correspondingAssociate/otherGroups| *None* |Other groups: Other groups|  |
+|appointmentInstance/person/correspondingAssociate/userName| *None* |User name: User name|  |
+|appointmentInstance/person/correspondingAssociate/personEmail| *None* |E-mail|  |
+|appointmentInstance/person/isMailingRecipient| *None* |Is mailing recipient: isMailingRecipient|  |
 |appointmentInstance/person/hasStoreConsent| *None* |Consent - Sales and service: The purpose to store data about this contact is to sell to and/or provide services to this contact. This purpose is usually used when storing contacts who are defined as potential or existing customers.|  |
 |appointmentInstance/person/withdrawnStoreConsent| *None* |Consent is withdrawn - Sales and service: The purpose to store data about this contact is to sell to and/or provide services to this contact. This purpose is usually used when storing contacts who are defined as potential or existing customers.|  |
 |appointmentInstance/person/hasEmarketingConsent| *None* |Consent - E-marketing: The purpose is to gain the explicit consent to communicate electronically (bulk e-mail) on topics related to our products and services. This might include newsletters, invitations and product-related content. The subscription system is used to refine the individual marketing choices this contact makes.|  |
@@ -375,14 +484,17 @@ This provider is a trivial aggregation of the Appointment and Document providers
 |appointmentInstance/project/number| *None* |Number: Displays the project's number|  |
 |appointmentInstance/project/type| *None* |Project type: Displays the project's type|  |
 |appointmentInstance/project/status| *None* |Status: Displays the project's status|  |
+|appointmentInstance/project/statusRank| *None* |Status rank: Rank of the project status in the status list|  |
 |appointmentInstance/project/associateId| *None* |ID: Displays login ID of the associate who owns the project|  |
 |appointmentInstance/project/hasInfoText| *None* |Info: Displays an icon indicating if the project has a description text. The text itself will be displayed in a tooltip.|  |
 |appointmentInstance/project/icon| *None* |Category: Displays the icon for an activity type|  |
 |appointmentInstance/project/text| *None* |Text: Displays a descriptive text for the item|  |
 |appointmentInstance/project/description| *None* |Description : Description|  |
 |appointmentInstance/project/updatedBy| *None* |Updated by: The user who last updated the data|  |
+|appointmentInstance/project/updatedByFullName| *None* |Updated by - Full name: The user who last updated the data|  |
 |appointmentInstance/project/updatedDate| *None* |Updated: The date/time the data was last updated in UTC.|  |
 |appointmentInstance/project/registeredBy| *None* |Registered by: The user who registered the data|  |
+|appointmentInstance/project/registeredByFullName| *None* |Registered by - Full name: The user who registered the data|  |
 |appointmentInstance/project/registeredDate| *None* |Registered date: The date/time the data was registered in UTC.|  |
 |appointmentInstance/project/hasGuide| *None* |Guided: Does this sale have a Sales Guide|  |
 |appointmentInstance/project/nextMilestone| *None* |Next milestone: Date of next non-completed activity that is marked as a milestone|  |
@@ -453,7 +565,7 @@ This provider is a trivial aggregation of the Appointment and Document providers
 |appointmentInstance/project/LastSale| *None* |Date of last sale|  |
 |appointmentInstance/project/LastCompletedSale| *None* |Date of last completed sale|  |
 |appointmentInstance/project/LastDoBySale| *None* |Date of last non-completed sale|  |
-|appointmentInstance/project/SaintStatus3| *None* |Not completed activites with intention sale|  |
+|appointmentInstance/project/SaintStatus3| *None* |Not completed activites with intention sale: Number of not completed activities for intention sale > 0.|  |
 |appointmentInstance/project/saintSaleStatus| *None* |With status|  |
 |appointmentInstance/project/saintAmountClass| *None* |Amount class|  |
 |appointmentInstance/project/saintActivityType| *None* |SAINT type|  |
@@ -478,8 +590,10 @@ This provider is a trivial aggregation of the Appointment and Document providers
 |appointmentInstance/sale/userGroup| *None* |User group : The user group that owns the record|  |
 |appointmentInstance/sale/who| *None* |Who: Contact and/or company|  |
 |appointmentInstance/sale/updatedBy| *None* |Updated by: The user who last updated the data|  |
+|appointmentInstance/sale/updatedByFullName| *None* |Updated by - Full name: The user who last updated the data|  |
 |appointmentInstance/sale/updatedDate| *None* |Updated: The date/time the data was last updated in UTC.|  |
 |appointmentInstance/sale/registeredBy| *None* |Registered by: The user who registered the data|  |
+|appointmentInstance/sale/registeredByFullName| *None* |Registered by - Full name: The user who registered the data|  |
 |appointmentInstance/sale/registeredDate| *None* |Registered date: The date/time the data was registered in UTC.|  |
 |appointmentInstance/sale/currencyId| *None* |Currency ID: The currency list item ID|  |
 |appointmentInstance/sale/currency| *None* |Currency: The currency of the sale|  |
@@ -487,7 +601,7 @@ This provider is a trivial aggregation of the Appointment and Document providers
 |appointmentInstance/sale/lossReason| *None* |Reason (lost: The reason for losing the sale|  |
 |appointmentInstance/sale/source| *None* |Source: The source (lead) of the sale|  |
 |appointmentInstance/sale/competitor| *None* |Competitor: The competitor who won the sale|  |
-|appointmentInstance/sale/heading| *None* |Sale: Displays a descriptive text for the item|  |
+|appointmentInstance/sale/heading| *None* |Sale: The name of the sale|  |
 |appointmentInstance/sale/amount| *None* |Amount: The gross sales total|  |
 |appointmentInstance/sale/amountWeighted| *None* |Weighted amount: Virtual field calculated from amount * probability percent.|  |
 |appointmentInstance/sale/earning| *None* |Profit: Gross profit (gross sales total - cost) for the sale|  |
@@ -496,10 +610,12 @@ This provider is a trivial aggregation of the Appointment and Document providers
 |appointmentInstance/sale/originalStage| *None* |Stage: Displays the stage of the sale|  |
 |appointmentInstance/sale/stage| *None* |Stage: Displays the stage of the sale|  |
 |appointmentInstance/sale/saleStatus| *None* |Status: The status of the sale - open, lost or sold|  |
+|appointmentInstance/sale/stageRank| *None* |Stage rank: Rank of the sale stage in the stage list|  |
 |appointmentInstance/sale/saleType| *None* |Sale type: Sale type, from list|  |
 |appointmentInstance/sale/nextDueDate| *None* |Next activity: Date for next activity for a sale, updated live from the sale's activities|  |
 |appointmentInstance/sale/reopenDate| *None* |Reopen date: Displays the reopen date for the sale|  |
 |appointmentInstance/sale/stalledComment| *None* |Reason (stalled: The reason the sale has been stalled|  |
+|appointmentInstance/sale/saleTypeCategory| *None* |Sale type category: Sale type category|  |
 |appointmentInstance/sale/soldReason| *None* |Reason (sold: Reason (sold)|  |
 |appointmentInstance/sale/saleNumber| *None* |Number: Number|  |
 |appointmentInstance/sale/hasStakeholders| *None* |Has stakeholders: Does this sale have stakeholders enabled|  |
@@ -599,8 +715,10 @@ This provider is a trivial aggregation of the Appointment and Document providers
 |documentInstance/userGroup| *None* |User group : The user group that owns the record|  |
 |documentInstance/who| *None* |Who: Contact and/or company|  |
 |documentInstance/updatedBy| *None* |Updated by: The user who last updated the data|  |
+|documentInstance/updatedByFullName| *None* |Updated by - Full name: The user who last updated the data|  |
 |documentInstance/updatedDate| *None* |Updated: The date/time the data was last updated in UTC.|  |
 |documentInstance/registeredBy| *None* |Registered by: The user who registered the data|  |
+|documentInstance/registeredByFullName| *None* |Registered by - Full name: The user who registered the data|  |
 |documentInstance/registeredDate| *None* |Registered date: The date/time the data was registered in UTC.|  |
 |documentInstance/documentId| *None* |Document ID: Database ID of document record|  |
 |documentInstance/keywords| *None* |Keywords |  |
@@ -633,6 +751,7 @@ This provider is a trivial aggregation of the Appointment and Document providers
 |documentInstance/person/personNumber| *None* |Number: Displays the contact's number|  |
 |documentInstance/person/title| *None* |Title: Displays the contact's job title|  |
 |documentInstance/person/personCountry| *None* |Country: Country|  |
+|documentInstance/person/personCountryId| *None* |Country ID: Country ID|  |
 |documentInstance/person/personNoMail| *None* |No Mailings: Displays the contact's No Mailings checkbox|  |
 |documentInstance/person/rank| *None* |Rank: Displays a contact's current rank|  |
 |documentInstance/person/birthdate| *None* |Birthdate: Displays the contact's date of birth|  |
@@ -646,15 +765,19 @@ This provider is a trivial aggregation of the Appointment and Document providers
 |documentInstance/person/kanaFirstName| *None* |First name, kana: Contact's first name, in kana alphabet|  |
 |documentInstance/person/kanaLastName| *None* |Last name, kana: Contact's last name, in kana alphabet|  |
 |documentInstance/person/personUpdatedBy| *None* |Updated by: The user who last updated the data|  |
+|documentInstance/person/personUpdatedByFullName| *None* |Updated by - Full name: The user who last updated the data|  |
 |documentInstance/person/personUpdatedDate| *None* |Updated: The date/time the data was last updated in UTC.|  |
 |documentInstance/person/personRegisteredBy| *None* |Registered by: The user who registered the data|  |
+|documentInstance/person/personRegisteredByFullName| *None* |Registered by - Full name: The user who registered the data|  |
 |documentInstance/person/personRegisteredDate| *None* |Registered date: The date/time the data was registered in UTC.|  |
 |documentInstance/person/portraitThumbnail| *None* |Person image: Person image|  |
 |documentInstance/person/personActiveErpLinks| *None* |ERP connected: Is there an active ERP Sync?|  |
 |documentInstance/person/ticketPriority| *None* |Service priority: Default service priority for this contact|  |
 |documentInstance/person/supportLanguage| *None* |Preferred language: Preferred language used for reply templates and more|  |
 |documentInstance/person/supportAssociate| *None* |Our service contact: Default service contact for this contact|  |
+|documentInstance/person/supportAssociateFullName| *None* |Our service contact - Full name: Default service contact for this contact|  |
 |documentInstance/person/personAssociateId| *None* |Our contact: Displays our contact|  |
+|documentInstance/person/personAssociateFullName| *None* |Our contact - Full name: Displays our contact|  |
 |documentInstance/person/personCategory| *None* |Category|  |
 |documentInstance/person/personBusiness| *None* |Business|  |
 |documentInstance/person/personDeletedDate| *None* |Deleted date: Deleted date|  |
@@ -722,7 +845,90 @@ This provider is a trivial aggregation of the Appointment and Document providers
 |documentInstance/person/personUdef/SuperOffice:9| *None* |page1saleonly|  |
 |documentInstance/person/personUdef/SuperOffice:10| *None* |page1marketingonly|  |
 |documentInstance/person/personUdef/SuperOffice:11| *None* |page1adminonly|  |
-|documentInstance/person/isMailingRecipient| *None* |isMailingRecipient: isMailingRecipient|  |
+|documentInstance/person/personExtra/x\_person\_integer| *None* |Extra Integer: Custom person integer|  |
+|documentInstance/person/personExtra/x\_person\_hidden\_integer| *None* |Extra hidden integer: Custom integer field that is hidden|  |
+|documentInstance/person/personExtra/x\_person\_float| *None* |Extra float: Custom float field|  |
+|documentInstance/person/personExtra/x\_person\_longtext| *None* |Extra Long Text: Custom long text field on person, keep HTML tags. Simple input, not text area. Default value = 'Hello there'|  |
+|documentInstance/person/personExtra/x\_person\_date| *None* |Extra date: Custom date field on person. Default value = 28.03.2019|  |
+|documentInstance/person/personExtra/x\_person\_datetime| *None* |Extra DateTime: Custom person date and time field. No default|  |
+|documentInstance/person/personExtra/x\_person\_time| *None* |Extra time: Custom time field on person. Current time as default|  |
+|documentInstance/person/personExtra/x\_person\_boolean| *None* |Extra Boolean: Custom boolean field on person. Default checked|  |
+|documentInstance/person/personExtra/x\_person\_timespan| *None* |Extra timespan: Custom timespan on person. Minutes only in 15 units|  |
+|documentInstance/person/personExtra/x\_person\_shorttext| *None* |Extra short text: Custom short text on person. With index. Do not keep HTML tags|  |
+|documentInstance/person/personExtra/x\_person\_shorttext\_list| *None* |Extra short dropdown: Custom Short text dropdown field on person: black, white, transparent|  |
+|documentInstance/person/personExtra/x\_person\_user\_relation| *None* |Extra user relation: Custom person-user relation field|  |
+|documentInstance/person/personExtra/x\_person\_category\_relation| *None* |Extra category relation: Custom person-category relation|  |
+|documentInstance/person/personExtra/x\_person\_priority\_relation| *None* |Extra priority relation: Custom person-priority relation|  |
+|documentInstance/person/personExtra/x\_person\_request\_relation| *None* |Extra request relation: Request relation on contact|  |
+|documentInstance/person/personExtra/x\_person\_appointment\_relation| *None* |Extra appointment relation: Appointment relation on person|  |
+|documentInstance/person/personExtra/x\_person\_contact\_relation| *None* |Extra company relation: Company relation on contact|  |
+|documentInstance/person/personExtra/y\_rental/id| *None* |Rental - id: Displays the row's primary key (y\_rental)|  |
+|documentInstance/person/personExtra/y\_rental/x\_start| *None* |Rental - Start rental|  |
+|documentInstance/person/personExtra/y\_rental/x\_end| *None* |Rental - End|  |
+|documentInstance/person/personExtra/y\_rental/x\_amount| *None* |Rental - Amount: Number to rent. Default = 1|  |
+|documentInstance/person/personExtra/y\_rental/x\_contact| *None* |Rental - Renter: Company that rents equipment|  |
+|documentInstance/person/personExtra/y\_rental/y\_equipment/x\_name| *None* |Rental - Equipment - Name: Equpment name custom field. Cannot be null., show in table|  |
+|documentInstance/person/personAssociate/firstName| *None* |First name: Displays the contact's first name|  |
+|documentInstance/person/personAssociate/lastName| *None* |Last name: Displays the contact's last name|  |
+|documentInstance/person/personAssociate/middleName| *None* |Middle Name : Displays the contact's middle name.|  |
+|documentInstance/person/personAssociate/fullName| *None* |Full name: Displays full name of user (first, middle, last - according to settings)|  |
+|documentInstance/person/personAssociate/contactId| *None* |Company ID: Database ID of the company the user belongs to|  |
+|documentInstance/person/personAssociate/personId| *None* |Contact ID: Database ID of the contact row|  |
+|documentInstance/person/personAssociate/mrMrs| *None* |Mr/Ms: Displays whether the contact is addressed as Mr or Ms|  |
+|documentInstance/person/personAssociate/title| *None* |Title: Displays whether the contact is addressed as Mr or Ms|  |
+|documentInstance/person/personAssociate/associateDbId| *None* |ID|  |
+|documentInstance/person/personAssociate/contactName| *None* |Owning company: Name of the company the user belongs to|  |
+|documentInstance/person/personAssociate/contactDepartment| *None* |Owning department: Name of the department at the company the user belongs to|  |
+|documentInstance/person/personAssociate/usergroup| *None* |Primary group: The user's primary user group|  |
+|documentInstance/person/personAssociate/contactFullName| *None* |Owner: Name and department of the company the user belongs to|  |
+|documentInstance/person/personAssociate/contactCategory| *None* |Category: Category|  |
+|documentInstance/person/personAssociate/role| *None* |Role : Role|  |
+|documentInstance/person/personAssociate/assocName| *None* |User ID : User ID|  |
+|documentInstance/person/personAssociate/assocTooltip| *None* |Description : Description|  |
+|documentInstance/person/personAssociate/assocType| *None* |Type: Type of user: associate, external user, system user, anonymous account|  |
+|documentInstance/person/personAssociate/ejUserId| *None* |Service user ID: The database ID of a Service user|  |
+|documentInstance/person/personAssociate/simultaneousEjUser| *None* |Simultaneous Service user: If this flag is set, then the user will only have access if the maximum number of simultaneous users is not exceeded|  |
+|documentInstance/person/personAssociate/ejDisplayName| *None* |Nick name: User's nick name in Service|  |
+|documentInstance/person/personAssociate/ejStatus| *None* |Service status: Status for Service user: Normal; Unavailable / holiday; Deleted; Read-only|  |
+|documentInstance/person/personAssociate/credentialType| *None* |Auth. type: What type of credentials to use when this user logs in|  |
+|documentInstance/person/personAssociate/credentialDisplayValue| *None* |Auth. value: Credential value (public, visible part) to be used when this user logs in|  |
+|documentInstance/person/personAssociate/isActive| *None* |Active: Is this user active, and should be able to log in?|  |
+|documentInstance/person/personAssociate/isActiveText| *None* |Active status: Is this user active, and should be able to log in?|  |
+|documentInstance/person/personAssociate/portraitThumbnail| *None* |Person image: Person image|  |
+|documentInstance/person/personAssociate/otherGroups| *None* |Other groups: Other groups|  |
+|documentInstance/person/personAssociate/userName| *None* |User name: User name|  |
+|documentInstance/person/personAssociate/personEmail| *None* |E-mail|  |
+|documentInstance/person/correspondingAssociate/firstName| *None* |First name: Displays the contact's first name|  |
+|documentInstance/person/correspondingAssociate/lastName| *None* |Last name: Displays the contact's last name|  |
+|documentInstance/person/correspondingAssociate/middleName| *None* |Middle Name : Displays the contact's middle name.|  |
+|documentInstance/person/correspondingAssociate/fullName| *None* |Full name: Displays full name of user (first, middle, last - according to settings)|  |
+|documentInstance/person/correspondingAssociate/contactId| *None* |Company ID: Database ID of the company the user belongs to|  |
+|documentInstance/person/correspondingAssociate/personId| *None* |Contact ID: Database ID of the contact row|  |
+|documentInstance/person/correspondingAssociate/mrMrs| *None* |Mr/Ms: Displays whether the contact is addressed as Mr or Ms|  |
+|documentInstance/person/correspondingAssociate/title| *None* |Title: Displays whether the contact is addressed as Mr or Ms|  |
+|documentInstance/person/correspondingAssociate/associateDbId| *None* |ID|  |
+|documentInstance/person/correspondingAssociate/contactName| *None* |Owning company: Name of the company the user belongs to|  |
+|documentInstance/person/correspondingAssociate/contactDepartment| *None* |Owning department: Name of the department at the company the user belongs to|  |
+|documentInstance/person/correspondingAssociate/usergroup| *None* |Primary group: The user's primary user group|  |
+|documentInstance/person/correspondingAssociate/contactFullName| *None* |Owner: Name and department of the company the user belongs to|  |
+|documentInstance/person/correspondingAssociate/contactCategory| *None* |Category: Category|  |
+|documentInstance/person/correspondingAssociate/role| *None* |Role : Role|  |
+|documentInstance/person/correspondingAssociate/assocName| *None* |User ID : User ID|  |
+|documentInstance/person/correspondingAssociate/assocTooltip| *None* |Description : Description|  |
+|documentInstance/person/correspondingAssociate/assocType| *None* |Type: Type of user: associate, external user, system user, anonymous account|  |
+|documentInstance/person/correspondingAssociate/ejUserId| *None* |Service user ID: The database ID of a Service user|  |
+|documentInstance/person/correspondingAssociate/simultaneousEjUser| *None* |Simultaneous Service user: If this flag is set, then the user will only have access if the maximum number of simultaneous users is not exceeded|  |
+|documentInstance/person/correspondingAssociate/ejDisplayName| *None* |Nick name: User's nick name in Service|  |
+|documentInstance/person/correspondingAssociate/ejStatus| *None* |Service status: Status for Service user: Normal; Unavailable / holiday; Deleted; Read-only|  |
+|documentInstance/person/correspondingAssociate/credentialType| *None* |Auth. type: What type of credentials to use when this user logs in|  |
+|documentInstance/person/correspondingAssociate/credentialDisplayValue| *None* |Auth. value: Credential value (public, visible part) to be used when this user logs in|  |
+|documentInstance/person/correspondingAssociate/isActive| *None* |Active: Is this user active, and should be able to log in?|  |
+|documentInstance/person/correspondingAssociate/isActiveText| *None* |Active status: Is this user active, and should be able to log in?|  |
+|documentInstance/person/correspondingAssociate/portraitThumbnail| *None* |Person image: Person image|  |
+|documentInstance/person/correspondingAssociate/otherGroups| *None* |Other groups: Other groups|  |
+|documentInstance/person/correspondingAssociate/userName| *None* |User name: User name|  |
+|documentInstance/person/correspondingAssociate/personEmail| *None* |E-mail|  |
+|documentInstance/person/isMailingRecipient| *None* |Is mailing recipient: isMailingRecipient|  |
 |documentInstance/person/hasStoreConsent| *None* |Consent - Sales and service: The purpose to store data about this contact is to sell to and/or provide services to this contact. This purpose is usually used when storing contacts who are defined as potential or existing customers.|  |
 |documentInstance/person/withdrawnStoreConsent| *None* |Consent is withdrawn - Sales and service: The purpose to store data about this contact is to sell to and/or provide services to this contact. This purpose is usually used when storing contacts who are defined as potential or existing customers.|  |
 |documentInstance/person/hasEmarketingConsent| *None* |Consent - E-marketing: The purpose is to gain the explicit consent to communicate electronically (bulk e-mail) on topics related to our products and services. This might include newsletters, invitations and product-related content. The subscription system is used to refine the individual marketing choices this contact makes.|  |
@@ -742,14 +948,17 @@ This provider is a trivial aggregation of the Appointment and Document providers
 |documentInstance/contact/category| *None* |Category|  |
 |documentInstance/contact/business| *None* |Business|  |
 |documentInstance/contact/country| *None* |Country: This criterion corresponds to the Country field on the Company card.|  |
+|documentInstance/contact/countryId| *None* |Country ID: Country ID|  |
 |documentInstance/contact/number| *None* |Number|  |
 |documentInstance/contact/code| *None* |Code|  |
 |documentInstance/contact/orgnr| *None* |VAT No.|  |
 |documentInstance/contact/stop| *None* |Stop|  |
 |documentInstance/contact/contactNoMail| *None* |No mailings (company|  |
 |documentInstance/contact/updatedBy| *None* |Updated by: The user who last updated the data|  |
+|documentInstance/contact/updatedByFullName| *None* |Updated by - Full name: The user who last updated the data|  |
 |documentInstance/contact/updatedDate| *None* |Updated: The date/time the data was last updated in UTC.|  |
 |documentInstance/contact/registeredBy| *None* |Registered by: The user who registered the data|  |
+|documentInstance/contact/registeredByFullName| *None* |Registered by - Full name: The user who registered the data|  |
 |documentInstance/contact/registeredDate| *None* |Registered date: The date/time the data was registered in UTC.|  |
 |documentInstance/contact/contactSource| *None* |Source: Source (Company)|  |
 |documentInstance/contact/contactDeleted| *None* |Deleted: Deleted|  |
@@ -853,6 +1062,22 @@ This provider is a trivial aggregation of the Appointment and Document providers
 |documentInstance/contact/contactUdef/SuperOffice:11| *None* |page1adminonly|  |
 |documentInstance/contact/contactUdef/SuperOffice:12| *None* |Udlist one: Static tooltip for udlist one|  |
 |documentInstance/contact/contactUdef/SuperOffice:13| *None* |Udlist two: Static tooltip for udlist two|  |
+|documentInstance/contact/contactExtra/x\_contact\_integer| *None* |Extra Integer: Custom integer field|  |
+|documentInstance/contact/contactExtra/x\_contact\_hidden\_integer| *None* |Extra hidden integer: Custom integer field - hidden|  |
+|documentInstance/contact/contactExtra/x\_contact\_default\_integer| *None* |Extra Default Integer: Custom integer field with default value 123.|  |
+|documentInstance/contact/contactExtra/x\_contact\_float| *None* |Extra Float: Custom float field with 3 decimals|  |
+|documentInstance/contact/contactExtra/x\_contact\_longtext| *None* |Extra LongText: Custom long text field. DO not keep HTML. 3 Line text area editor|  |
+|documentInstance/contact/contactExtra/x\_contact\_dropdown| *None* |Extra Long Dropdown: Custom long text field with dropdown: Volvo, Saab, etc.|  |
+|documentInstance/contact/contactExtra/x\_contact\_date| *None* |Extra date: Custom date field. User current as default.|  |
+|documentInstance/contact/contactExtra/x\_contact\_datetime| *None* |Extra DateTime: Custom Date Time field. No default value. External|  |
+|documentInstance/contact/contactExtra/x\_contact\_time| *None* |Extra time: Custom time field.|  |
+|documentInstance/contact/contactExtra/x\_contact\_boolean| *None* |Extra boolean: Custom boolean field.|  |
+|documentInstance/contact/contactExtra/x\_contact\_timespan| *None* |Extra timespan: Custom timespan field. Hours and minutes in 10 units|  |
+|documentInstance/contact/contactExtra/x\_contact\_shorttext| *None* |Extra short text: Custom short text field. Keep HTML tags.|  |
+|documentInstance/contact/contactExtra/x\_contact\_short\_dropdown| *None* |Extra short dropdown: Custom short text with dropdown list. Red, Green or Blue or Purple. External.|  |
+|documentInstance/contact/contactExtra/x\_contact\_contact\_relation| *None* |Extra Company: Custom company relation. Do not show one-to-many relations. Show function buttons|  |
+|documentInstance/contact/contactExtra/x\_contact\_request\_relation| *None* |Extra Request relation: Request relation on company|  |
+|documentInstance/contact/contactExtra/x\_contact\_contact| *None* |Extra contact relation: Contact relation on company|  |
 |documentInstance/contact/NumberOfActivities| *None* |Number of activities|  |
 |documentInstance/contact/NumberOfActivitiesInPeriod| *None* |Number of activities in last 90 days|  |
 |documentInstance/contact/NumberOfNotCompletedActivities| *None* |Number of non-completed activities|  |
@@ -874,8 +1099,8 @@ This provider is a trivial aggregation of the Appointment and Document providers
 |documentInstance/contact/LastTicket| *None* |Date of last request|  |
 |documentInstance/contact/LastCompletedTicket| *None* |Date of last completed request|  |
 |documentInstance/contact/LastDoByTicket| *None* |Date of last non-completed request|  |
-|documentInstance/contact/SaintStatus1| *None* |Neglected customer|  |
-|documentInstance/contact/SaintStatus2| *None* |C-company|  |
+|documentInstance/contact/SaintStatus1| *None* |Neglected customer: Denne kunden har det vært 0 salgsaktiviteter på i perioden.|  |
+|documentInstance/contact/SaintStatus2| *None* |C-company: Kundens navn starter med bokstaven C|  |
 |documentInstance/contact/saintSaleStatus| *None* |With status|  |
 |documentInstance/contact/saintAmountClass| *None* |Amount class|  |
 |documentInstance/contact/saintActivityType| *None* |SAINT type|  |
@@ -889,14 +1114,17 @@ This provider is a trivial aggregation of the Appointment and Document providers
 |documentInstance/project/number| *None* |Number: Displays the project's number|  |
 |documentInstance/project/type| *None* |Project type: Displays the project's type|  |
 |documentInstance/project/status| *None* |Status: Displays the project's status|  |
+|documentInstance/project/statusRank| *None* |Status rank: Rank of the project status in the status list|  |
 |documentInstance/project/associateId| *None* |ID: Displays login ID of the associate who owns the project|  |
 |documentInstance/project/hasInfoText| *None* |Info: Displays an icon indicating if the project has a description text. The text itself will be displayed in a tooltip.|  |
 |documentInstance/project/icon| *None* |Category: Displays the icon for an activity type|  |
 |documentInstance/project/text| *None* |Text: Displays a descriptive text for the item|  |
 |documentInstance/project/description| *None* |Description : Description|  |
 |documentInstance/project/updatedBy| *None* |Updated by: The user who last updated the data|  |
+|documentInstance/project/updatedByFullName| *None* |Updated by - Full name: The user who last updated the data|  |
 |documentInstance/project/updatedDate| *None* |Updated: The date/time the data was last updated in UTC.|  |
 |documentInstance/project/registeredBy| *None* |Registered by: The user who registered the data|  |
+|documentInstance/project/registeredByFullName| *None* |Registered by - Full name: The user who registered the data|  |
 |documentInstance/project/registeredDate| *None* |Registered date: The date/time the data was registered in UTC.|  |
 |documentInstance/project/hasGuide| *None* |Guided: Does this sale have a Sales Guide|  |
 |documentInstance/project/nextMilestone| *None* |Next milestone: Date of next non-completed activity that is marked as a milestone|  |
@@ -967,7 +1195,7 @@ This provider is a trivial aggregation of the Appointment and Document providers
 |documentInstance/project/LastSale| *None* |Date of last sale|  |
 |documentInstance/project/LastCompletedSale| *None* |Date of last completed sale|  |
 |documentInstance/project/LastDoBySale| *None* |Date of last non-completed sale|  |
-|documentInstance/project/SaintStatus3| *None* |Not completed activites with intention sale|  |
+|documentInstance/project/SaintStatus3| *None* |Not completed activites with intention sale: Number of not completed activities for intention sale > 0.|  |
 |documentInstance/project/saintSaleStatus| *None* |With status|  |
 |documentInstance/project/saintAmountClass| *None* |Amount class|  |
 |documentInstance/project/saintActivityType| *None* |SAINT type|  |
@@ -1030,8 +1258,10 @@ This provider is a trivial aggregation of the Appointment and Document providers
 |documentInstance/sale/userGroup| *None* |User group : The user group that owns the record|  |
 |documentInstance/sale/who| *None* |Who: Contact and/or company|  |
 |documentInstance/sale/updatedBy| *None* |Updated by: The user who last updated the data|  |
+|documentInstance/sale/updatedByFullName| *None* |Updated by - Full name: The user who last updated the data|  |
 |documentInstance/sale/updatedDate| *None* |Updated: The date/time the data was last updated in UTC.|  |
 |documentInstance/sale/registeredBy| *None* |Registered by: The user who registered the data|  |
+|documentInstance/sale/registeredByFullName| *None* |Registered by - Full name: The user who registered the data|  |
 |documentInstance/sale/registeredDate| *None* |Registered date: The date/time the data was registered in UTC.|  |
 |documentInstance/sale/currencyId| *None* |Currency ID: The currency list item ID|  |
 |documentInstance/sale/currency| *None* |Currency: The currency of the sale|  |
@@ -1039,7 +1269,7 @@ This provider is a trivial aggregation of the Appointment and Document providers
 |documentInstance/sale/lossReason| *None* |Reason (lost: The reason for losing the sale|  |
 |documentInstance/sale/source| *None* |Source: The source (lead) of the sale|  |
 |documentInstance/sale/competitor| *None* |Competitor: The competitor who won the sale|  |
-|documentInstance/sale/heading| *None* |Sale: Displays a descriptive text for the item|  |
+|documentInstance/sale/heading| *None* |Sale: The name of the sale|  |
 |documentInstance/sale/amount| *None* |Amount: The gross sales total|  |
 |documentInstance/sale/amountWeighted| *None* |Weighted amount: Virtual field calculated from amount * probability percent.|  |
 |documentInstance/sale/earning| *None* |Profit: Gross profit (gross sales total - cost) for the sale|  |
@@ -1048,10 +1278,12 @@ This provider is a trivial aggregation of the Appointment and Document providers
 |documentInstance/sale/originalStage| *None* |Stage: Displays the stage of the sale|  |
 |documentInstance/sale/stage| *None* |Stage: Displays the stage of the sale|  |
 |documentInstance/sale/saleStatus| *None* |Status: The status of the sale - open, lost or sold|  |
+|documentInstance/sale/stageRank| *None* |Stage rank: Rank of the sale stage in the stage list|  |
 |documentInstance/sale/saleType| *None* |Sale type: Sale type, from list|  |
 |documentInstance/sale/nextDueDate| *None* |Next activity: Date for next activity for a sale, updated live from the sale's activities|  |
 |documentInstance/sale/reopenDate| *None* |Reopen date: Displays the reopen date for the sale|  |
 |documentInstance/sale/stalledComment| *None* |Reason (stalled: The reason the sale has been stalled|  |
+|documentInstance/sale/saleTypeCategory| *None* |Sale type category: Sale type category|  |
 |documentInstance/sale/soldReason| *None* |Reason (sold: Reason (sold)|  |
 |documentInstance/sale/saleNumber| *None* |Number: Number|  |
 |documentInstance/sale/hasStakeholders| *None* |Has stakeholders: Does this sale have stakeholders enabled|  |
@@ -1110,11 +1342,14 @@ This provider is a trivial aggregation of the Appointment and Document providers
 ## Sample
 
 ```http!
-GET /api/v1/archive/SaleGuide?$select=appointmentInstance/appointmentId,appointmentInstance/sale/associate/portraitThumbnail,appointmentInstance/associate/simultaneousEjUser,documentInstance/contact/contactUdef/SuperOffice:9,documentInstance/project/projectAssociate/credentialType
+GET /api/v1/archive/SaleGuide?$select=appointmentInstance/userGroup,appointmentInstance/contact/streetAddress/formattedAddress,appointmentInstance/contact/restrictionAddress/line2,appointmentInstance/contact/contactAssociate/userName,appointmentInstance/contact/contactUdef/SuperOffice:5
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv
 
 ```
 
-See also: <see cref="T:SuperOffice.CRM.Services.IArchiveAgent">IArchiveAgent</see>.
+
+
+See also: <see cref="T:SuperOffice.CRM.Services.IArchiveAgent">IArchiveAgent</see>.</p>
+

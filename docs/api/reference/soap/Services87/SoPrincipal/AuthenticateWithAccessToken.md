@@ -11,6 +11,10 @@ Implemented by the <see cref="M:SuperOffice.Services87.ISoPrincipalAgent.Authent
 
 ## AuthenticateWithAccessToken
 
+
+
+
+
 [WSDL file for Services87/SoPrincipal](../Services87-SoPrincipal.md)
 
 ## AuthenticateWithAccessToken Request
@@ -36,6 +40,7 @@ Implemented by the <see cref="M:SuperOffice.Services87.ISoPrincipalAgent.Authent
 </SOAP-ENV:Envelope>
 
 ```
+
 
 ## AuthenticateWithAccessToken Response
 
@@ -84,7 +89,7 @@ Implemented by the <see cref="M:SuperOffice.Services87.ISoPrincipalAgent.Authent
       <SoPrincipal:LicenseNumber xsi:type="xsd:int">0</SoPrincipal:LicenseNumber>
       <SoPrincipal:IsHidden xsi:type="xsd:boolean">false</SoPrincipal:IsHidden>
       <SoPrincipal:IsUnrestricted xsi:type="xsd:boolean">false</SoPrincipal:IsUnrestricted>
-      <SoPrincipal:ExpiryDate xsi:type="xsd:dateTime">2021-11-30T13:23:27Z</SoPrincipal:ExpiryDate>
+      <SoPrincipal:ExpiryDate xsi:type="xsd:dateTime">2022-08-26T08:58:02Z</SoPrincipal:ExpiryDate>
      </SoPrincipal:GrantedModuleLicense>
     </SoPrincipal:Licenses>
     <SoPrincipal:FullName xsi:type="xsd:string"></SoPrincipal:FullName>
@@ -117,3 +122,4 @@ Implemented by the <see cref="M:SuperOffice.Services87.ISoPrincipalAgent.Authent
 </SOAP-ENV:Envelope>
 
 ```
+

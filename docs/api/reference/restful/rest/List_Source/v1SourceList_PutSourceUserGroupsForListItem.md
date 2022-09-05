@@ -1,6 +1,6 @@
 ---
 title: PUT List/Source/Items/{id}/UserGroups
-id: v1SourceList_PutSourceUserGroupsForListItem
+uid: v1SourceList_PutSourceUserGroupsForListItem
 ---
 
 # PUT List/Source/Items/{id}/UserGroups
@@ -11,11 +11,18 @@ PUT /api/v1/List/Source/Items/{itemId}/UserGroups
 
 Saves user groups visible for the Source list's item.
 
+
 Calls the List agent service SaveHeadingsForListItemFromListDefinition.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | itemId | int32 | The ID of the item to save. **Required** |
+
+
 
 ## Request Headers
 
@@ -31,9 +38,9 @@ Calls the List agent service SaveHeadingsForListItemFromListDefinition.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entities
+## Request Body: entities  
 
-The headings to be saved.
+The headings to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -53,7 +60,10 @@ The headings to be saved.
 | Hidden | bool | True if the ListItem is hidden |
 | FullName | string | The name of the ListItem in its context |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -81,56 +91,58 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 PUT /api/v1/List/Source/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 90,
-    "Name": "Koss, McLaughlin and Harvey",
-    "ToolTip": "Voluptatum eum delectus laborum sed.",
-    "Deleted": false,
-    "Rank": 207,
-    "Type": "molestiae",
-    "ColorBlock": 501,
-    "IconHint": "in",
+    "Id": 836,
+    "Name": "Abbott-Hirthe",
+    "ToolTip": "Quasi quis iusto possimus aut non illo fugit.",
+    "Deleted": true,
+    "Rank": 84,
+    "Type": "sed",
+    "ColorBlock": 472,
+    "IconHint": "et",
     "Selected": true,
-    "LastChanged": "1995-10-15T18:25:52.2190197+02:00",
+    "LastChanged": "2019-10-20T11:10:54.6419171+02:00",
     "ChildItems": [
       {
-        "Id": 408,
-        "Name": "Friesen Group",
-        "ToolTip": "Vel culpa rem vero quia.",
-        "Deleted": false,
-        "Rank": 560,
-        "Type": "labore",
-        "ColorBlock": 487,
-        "IconHint": "voluptatum",
+        "Id": 325,
+        "Name": "Rosenbaum, Schultz and Stracke",
+        "ToolTip": "Quae et eius reiciendis quidem tenetur.",
+        "Deleted": true,
+        "Rank": 117,
+        "Type": "in",
+        "ColorBlock": 60,
+        "IconHint": "omnis",
         "Selected": false,
-        "LastChanged": "2013-06-08T18:25:52.2190197+02:00",
+        "LastChanged": "2019-09-10T11:10:54.6429381+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ducimus",
-        "StyleHint": "consequatur",
-        "Hidden": true,
-        "FullName": "Karianne Russel V"
+        "ExtraInfo": "mollitia",
+        "StyleHint": "ut",
+        "Hidden": false,
+        "FullName": "Shad Smith"
       }
     ],
-    "ExtraInfo": "non",
-    "StyleHint": "omnis",
+    "ExtraInfo": "nisi",
+    "StyleHint": "enim",
     "Hidden": true,
-    "FullName": "Jeff Swift"
+    "FullName": "Abbie Wilhelmine McClure III"
   }
 ]
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -138,65 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 279,
-    "Name": "Rippin Group",
-    "ToolTip": "Molestiae fugit.",
-    "Deleted": true,
-    "Rank": 891,
-    "Type": "aut",
-    "ColorBlock": 783,
-    "IconHint": "sit",
+    "Id": 453,
+    "Name": "Weimann-Carroll",
+    "ToolTip": "Est quibusdam ea voluptas illum vero corrupti perferendis.",
+    "Deleted": false,
+    "Rank": 7,
+    "Type": "dicta",
+    "ColorBlock": 465,
+    "IconHint": "nostrum",
     "Selected": false,
-    "LastChanged": "1996-10-29T18:25:52.2380179+01:00",
+    "LastChanged": "2016-07-08T11:10:54.6459299+02:00",
     "ChildItems": [
       {
-        "Id": 357,
-        "Name": "Cummerata, Mayert and Beer",
-        "ToolTip": "Aperiam aut iste velit autem.",
+        "Id": 384,
+        "Name": "Pouros, Gottlieb and Stiedemann",
+        "ToolTip": "Et mollitia omnis.",
         "Deleted": true,
-        "Rank": 340,
-        "Type": "assumenda",
-        "ColorBlock": 596,
-        "IconHint": "ut",
+        "Rank": 698,
+        "Type": "quod",
+        "ColorBlock": 253,
+        "IconHint": "consequatur",
         "Selected": false,
-        "LastChanged": "1994-09-28T18:25:52.2520268+02:00",
+        "LastChanged": "1996-04-13T11:10:54.6459299+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "autem",
-        "StyleHint": "nam",
+        "ExtraInfo": "rerum",
+        "StyleHint": "aut",
         "Hidden": false,
-        "FullName": "Fausto Ondricka",
-        "TableRight": {},
+        "FullName": "Treva Moen",
+        "TableRight": null,
         "FieldProperties": {
           "fieldName": {
-            "FieldRight": {
-              "Mask": "FULL",
-              "Reason": ""
-            },
+            "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 588
+            "FieldLength": 280
           }
         }
       }
     ],
-    "ExtraInfo": "qui",
-    "StyleHint": "magni",
-    "Hidden": true,
-    "FullName": "Mara Russel",
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "ExtraInfo": "quos",
+    "StyleHint": "consequatur",
+    "Hidden": false,
+    "FullName": "Bruce Cassin",
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 969
+        "FieldRight": null,
+        "FieldType": "System.Int32",
+        "FieldLength": 82
       }
     }
   }

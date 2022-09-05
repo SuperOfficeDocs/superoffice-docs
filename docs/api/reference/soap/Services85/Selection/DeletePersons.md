@@ -15,6 +15,8 @@ Deletes all persons from a selection. If a person does not have delete rights, i
 
 * **selectionId:** Id of the selection the delete operation will be performed.
 
+
+
 [WSDL file for Services85/Selection](../Services85-Selection.md)
 
 Obtain a ticket from the [Services85/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -47,6 +49,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## DeletePersons Response
 
 ```xml
@@ -66,3 +69,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

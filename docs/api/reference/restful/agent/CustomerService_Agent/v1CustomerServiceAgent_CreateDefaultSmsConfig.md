@@ -1,6 +1,6 @@
 ---
 title: POST Agents/CustomerService/CreateDefaultSmsConfig
-id: v1CustomerServiceAgent_CreateDefaultSmsConfig
+uid: v1CustomerServiceAgent_CreateDefaultSmsConfig
 ---
 
 # POST Agents/CustomerService/CreateDefaultSmsConfig
@@ -11,7 +11,14 @@ POST /api/v1/Agents/CustomerService/CreateDefaultSmsConfig
 
 Set default values into a new SmsConfig.
 
+
 NetServer calculates default values on the entity, which is required when creating/storing a new instance
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -26,18 +33,16 @@ NetServer calculates default values on the entity, which is required when creati
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response: object
 
-Sms settings for Customer Service sms providers.
+## Response: 
 
-Carrier object for SmsConfig.
-Services for the SmsConfig Carrier is available from the <see cref="T:SuperOffice.CRM.Services.ICustomerServiceAgent">CustomerService Agent</see>.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -48,7 +53,7 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/CustomerService/CreateDefaultSmsConfig
@@ -57,30 +62,26 @@ Accept: application/json; charset=utf-8
 Accept-Language: en
 ```
 
+## Sample response
+
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
   "DefaultSmsCountry": "Sokovia",
-  "NetServerSmsProvider": "quaerat",
-  "NsPluginSender": "tempore",
+  "NetServerSmsProvider": "accusantium",
+  "NsPluginSender": "corporis",
   "NsPluginConfig": {
-    "NsPluginConfig1": "quis",
-    "NsPluginConfig2": "repellat"
+    "NsPluginConfig1": "pariatur",
+    "NsPluginConfig2": "earum"
   },
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": "monetize transparent e-services"
-      },
-      "FieldType": "System.String",
-      "FieldLength": 64
+      "FieldRight": null,
+      "FieldType": "System.Int32",
+      "FieldLength": 299
     }
   }
 }

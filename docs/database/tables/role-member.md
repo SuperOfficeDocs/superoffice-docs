@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "role_member"
-so.date: 04.12.2022
+so.date: 08.26.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -24,6 +24,7 @@ Users linked to a role. Deprecated.
 |id|The primary key (auto-incremented)|PK| |
 |role|The id of the group.|FK [ej_role](ej-role.md)| |
 |ejuser|The id of the user.|FK [ejuser](ejuser.md)| |
+
 
 ![role_member table relationship diagram](./media/role_member.png)
 
@@ -44,6 +45,7 @@ Users linked to a role. Deprecated.
 |[ej\_role](ej-role.md)  |Define access rights, memberships and other properties for role user members |
 |[ejuser](ejuser.md)  |This table contains entries for the users of the system. |
 
+
 ## Replication Flags
 
 * None
@@ -51,3 +53,4 @@ Users linked to a role. Deprecated.
 ## Security Flags
 
 * No access control via user's Role.
+

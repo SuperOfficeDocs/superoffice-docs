@@ -1,6 +1,6 @@
 ---
 title: PUT List/Priority/Items
-id: v1PriorityList_PutAllPriority
+uid: v1PriorityList_PutAllPriority
 ---
 
 # PUT List/Priority/Items
@@ -10,6 +10,13 @@ PUT /api/v1/List/Priority/Items
 ```
 
 Update the Priority list
+
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -25,9 +32,9 @@ Update the Priority list
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: listItems
+## Request Body: listItems  
 
-All the updated Priority.
+All the updated Priority. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -38,7 +45,10 @@ All the updated Priority.
 | UdListDefinitionId | int32 | The id of the list which this list item belongs to |
 | Rank | int32 | The rank of the list item |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -57,34 +67,36 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 PUT /api/v1/List/Priority/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 705,
-    "Name": "Schowalter-Mayer",
-    "Tooltip": "aut",
-    "Deleted": false,
-    "UdListDefinitionId": 837,
-    "Rank": 398
+    "Id": 57,
+    "Name": "Schamberger LLC",
+    "Tooltip": "suscipit",
+    "Deleted": true,
+    "UdListDefinitionId": 126,
+    "Rank": 54
   },
   {
-    "Id": 705,
-    "Name": "Schowalter-Mayer",
-    "Tooltip": "aut",
-    "Deleted": false,
-    "UdListDefinitionId": 837,
-    "Rank": 398
+    "Id": 57,
+    "Name": "Schamberger LLC",
+    "Tooltip": "suscipit",
+    "Deleted": true,
+    "UdListDefinitionId": 126,
+    "Rank": 54
   }
 ]
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -92,24 +104,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 586,
-    "Name": "Zboncak Inc and Sons",
-    "Tooltip": "sed",
-    "Deleted": true,
-    "UdListDefinitionId": 555,
-    "Rank": 45,
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "Id": 946,
+    "Name": "Lindgren, Heller and Gleason",
+    "Tooltip": "ut",
+    "Deleted": false,
+    "UdListDefinitionId": 636,
+    "Rank": 326,
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
+        "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 487
+        "FieldLength": 666
       }
     }
   }

@@ -1,6 +1,6 @@
 ---
 title: GET User/currentToken
-id: v1User_GetCurrentToken
+uid: v1User_GetCurrentToken
 ---
 
 # GET User/currentToken
@@ -11,8 +11,15 @@ GET /api/v1/User/currentToken
 
 Returns the access token.
 
+
 It can be used with BEARER authentication to speed up the authentication
 process. Does not call an agent - just returns the current session info.
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -27,7 +34,10 @@ process. Does not call an agent - just returns the current session info.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
+
 ## Response: string
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -35,18 +45,21 @@ process. Does not call an agent - just returns the current session info.
 
 Response body: string
 
-## Sample Request
+
+## Sample request
 
 ```http!
 GET /api/v1/User/currentToken
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"praesentium"
+"perferendis"
 ```

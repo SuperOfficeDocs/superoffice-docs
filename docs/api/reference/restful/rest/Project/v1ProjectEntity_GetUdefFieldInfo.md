@@ -1,6 +1,6 @@
 ---
 title: GET Project/UdefLayout/{progidOrLabel}
-id: v1ProjectEntity_GetUdefFieldInfo
+uid: v1ProjectEntity_GetUdefFieldInfo
 ---
 
 # GET Project/UdefLayout/{progidOrLabel}
@@ -11,9 +11,16 @@ GET /api/v1/Project/UdefLayout/{progidOrLabel}
 
 Get a ProjectEntity user-defined field's details based on the prog-id or label.
 
+
+
+
+
+
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | progidOrLabel | string | The udef field id, case-sensitive prog-id, or field label. **Required** |
+
+
 
 ## Request Headers
 
@@ -28,19 +35,17 @@ Get a ProjectEntity user-defined field's details based on the prog-id or label.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response: object
 
-Return information about the user defined fields. The information can be used to mirror the layout of the user-defined fields in the user interface.
+## Response: 
 
-Carrier object for UserDefinedFieldInfo.
-Services for the UserDefinedFieldInfo Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent">UserDefinedFieldInfo Agent</see>.
+ProjectEntity found.
 
 | Response | Description |
 |----------------|-------------|
 | 200 | ProjectEntity found. |
 | 404 | ProjectEntity not found. |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -81,66 +86,62 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 GET /api/v1/Project/UdefLayout/{progidOrLabel}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 ProjectEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 389,
-  "ColumnId": 294,
-  "FieldDefault": "rerum",
-  "FieldHeight": 286,
-  "FieldLabel": "qui",
-  "FieldLeft": 863,
-  "FieldTop": 57,
+  "UDefFieldId": 473,
+  "ColumnId": 114,
+  "FieldDefault": "nemo",
+  "FieldHeight": 381,
+  "FieldLabel": "ad",
+  "FieldLeft": 180,
+  "FieldTop": 556,
   "FieldType": "Checkbox",
-  "FieldWidth": 605,
-  "FormatMask": "qui",
+  "FieldWidth": 501,
+  "FormatMask": "asperiores",
   "HideLabel": false,
   "IsIndexed": false,
-  "LabelHeight": 866,
-  "LabelLeft": 630,
-  "LabelTop": 734,
-  "LabelWidth": 806,
-  "LastVersionId": 748,
-  "ListTableId": 47,
+  "LabelHeight": 203,
+  "LabelLeft": 322,
+  "LabelTop": 106,
+  "LabelWidth": 373,
+  "LastVersionId": 1002,
+  "ListTableId": 710,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 385,
-  "ProgId": "magni",
-  "IsReadOnly": true,
-  "ShortLabel": "similique",
-  "TabOrder": 400,
-  "TextLength": 870,
-  "Tooltip": "eaque",
-  "UdefIdentity": 67,
-  "UDListDefinitionId": 440,
+  "Page1LineNo": 750,
+  "ProgId": "et",
+  "IsReadOnly": false,
+  "ShortLabel": "eius",
+  "TabOrder": 435,
+  "TextLength": 751,
+  "Tooltip": "voluptatem",
+  "UdefIdentity": 760,
+  "UDListDefinitionId": 478,
   "Justification": "Center",
-  "Version": 571,
-  "TemplateVariableName": "Rau-Conn",
+  "Version": 100,
+  "TemplateVariableName": "Quigley-Zulauf",
   "HasBeenPublished": false,
-  "MdoListName": "Halvorson-Zemlak",
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "MdoListName": "Pacocha-Baumbach",
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
-      "FieldType": "System.Int32",
-      "FieldLength": 762
+      "FieldRight": null,
+      "FieldType": "System.String",
+      "FieldLength": 98
     }
   }
 }

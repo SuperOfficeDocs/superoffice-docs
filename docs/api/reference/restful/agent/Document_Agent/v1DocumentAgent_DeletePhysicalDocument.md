@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Document/DeletePhysicalDocument
-id: v1DocumentAgent_DeletePhysicalDocument
+uid: v1DocumentAgent_DeletePhysicalDocument
 ---
 
 # POST Agents/Document/DeletePhysicalDocument
@@ -11,6 +11,12 @@ POST /api/v1/Agents/Document/DeletePhysicalDocument
 
 Delete the document contents
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Delete the document contents
 ```http
 POST /api/v1/Agents/Document/DeletePhysicalDocument?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,22 +42,25 @@ POST /api/v1/Agents/Document/DeletePhysicalDocument?$select=name,department,cate
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-DocumentId, AllowedReturnType
+DocumentId, AllowedReturnType 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | DocumentId | int32 |  |
 | AllowedReturnType | array |  |
 
-## Response: object
+
+## Response: 
+
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -61,34 +71,36 @@ Response body: object
 | Value | string |  |
 | AdditionalInfo | string |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Document/DeletePhysicalDocument
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 999,
+  "DocumentId": 175,
   "AllowedReturnType": [
-    "tenetur",
-    "aliquid"
+    "deleniti",
+    "corrupti"
   ]
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ExternalReference": "libero",
-  "VersionId": "quae",
+  "ExternalReference": "quia",
+  "VersionId": "ea",
   "Success": false,
   "Type": "CustomGui",
-  "Value": "molestiae",
-  "AdditionalInfo": "harum"
+  "Value": "placeat",
+  "AdditionalInfo": "dolorem"
 }
 ```

@@ -1,6 +1,6 @@
 ---
 title: POST Role
-id: v1RoleEntity_PostRoleEntity
+uid: v1RoleEntity_PostRoleEntity
 ---
 
 # POST Role
@@ -11,9 +11,16 @@ POST /api/v1/Role
 
 Creates a new RoleEntity
 
+
 Calls the User agent service SaveRoleEntity.
 
-## Online Restricted: ## The User agent is not available in Online by default. User management is not allowed for partner apps
+
+## Online Restricted: ## The User agent is not available in Online by default. User management is not allowed for partner apps.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -24,6 +31,7 @@ Calls the User agent service SaveRoleEntity.
 ```http
 POST /api/v1/Role?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -39,9 +47,9 @@ POST /api/v1/Role?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: newEntity
+## Request Body: newEntity  
 
-The RoleEntity to be saved.
+The RoleEntity to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -58,15 +66,16 @@ The RoleEntity to be saved.
 | UpdatedBy |  | Last updated by user |
 | DataRights |  | Data rights matrix - defines role's access to data owned by current user, users in same group, and other users. |
 
-## Response: object
 
-RoleEntity entity with API _Links added.
+## Response: 
+
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -86,252 +95,61 @@ Response body: object
 | FieldProperties | object |  |
 | _Links | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Role
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 962,
-  "Name": "Will, Hamill and Reynolds",
-  "Tooltip": "consequatur",
+  "RoleId": 887,
+  "Name": "Hahn, Botsford and Ondricka",
+  "Tooltip": "quaerat",
   "RoleType": "Anonymous",
-  "Deleted": 943,
-  "Rank": 592,
-  "Created": "1998-10-25T18:25:50.8618853+01:00",
-  "UseCategories": 318,
-  "CreatedBy": {
-    "AssociateId": 90,
-    "Name": "Lindgren Inc and Sons",
-    "PersonId": 266,
-    "Rank": 664,
-    "Tooltip": "nemo",
-    "Type": "AnonymousAssociate",
-    "GroupIdx": 552,
-    "FullName": "Keegan Leannon",
-    "FormalName": "Yundt, Jast and Wyman",
-    "Deleted": true,
-    "EjUserId": 892,
-    "UserName": "Marquardt-Mante"
-  },
-  "Updated": "2003-12-02T18:25:50.8618853+01:00",
-  "UpdatedBy": {
-    "AssociateId": 381,
-    "Name": "Barrows, Ankunding and Dibbert",
-    "PersonId": 685,
-    "Rank": 115,
-    "Tooltip": "dolores",
-    "Type": "AnonymousAssociate",
-    "GroupIdx": 985,
-    "FullName": "Rowan Sanford",
-    "FormalName": "Moen Inc and Sons",
-    "Deleted": false,
-    "EjUserId": 894,
-    "UserName": "Jast, Gleichner and Hyatt"
-  },
-  "DataRights": {
-    "ColumnsInfo": [
-      {},
-      {}
-    ],
-    "RowsInfo": [
-      {},
-      {}
-    ],
-    "Rights": [
-      [
-        {
-          "Value": "maiores",
-          "Description": "Balanced methodical throughput",
-          "TableRight": {
-            "Mask": "Delete",
-            "Reason": ""
-          },
-          "FieldProperties": {
-            "fieldName": {
-              "FieldRight": {
-                "Mask": "FULL",
-                "Reason": ""
-              },
-              "FieldType": "System.String",
-              "FieldLength": 441
-            }
-          }
-        }
-      ],
-      [
-        {
-          "Value": "sit",
-          "Description": "Enterprise-wide multimedia array",
-          "TableRight": {
-            "Mask": "Delete",
-            "Reason": ""
-          },
-          "FieldProperties": {
-            "fieldName": {
-              "FieldRight": {
-                "Mask": "FULL",
-                "Reason": ""
-              },
-              "FieldType": "System.String",
-              "FieldLength": 541
-            }
-          }
-        }
-      ]
-    ]
-  }
+  "Deleted": 733,
+  "Rank": 814,
+  "Created": "2011-08-23T11:10:53.3411437+02:00",
+  "UseCategories": 235,
+  "CreatedBy": null,
+  "Updated": "2016-02-16T11:10:53.3411437+01:00",
+  "UpdatedBy": null,
+  "DataRights": null
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 33,
-  "Name": "Runolfsdottir-Jast",
-  "Tooltip": "quo",
+  "RoleId": 433,
+  "Name": "Welch Group",
+  "Tooltip": "non",
   "RoleType": "Anonymous",
-  "Deleted": 424,
-  "Rank": 122,
-  "Created": "2017-04-24T18:25:50.864884+02:00",
-  "UseCategories": 512,
-  "CreatedBy": {
-    "AssociateId": 461,
-    "Name": "Buckridge LLC",
-    "PersonId": 934,
-    "Rank": 678,
-    "Tooltip": "corrupti",
-    "Type": "AnonymousAssociate",
-    "GroupIdx": 609,
-    "FullName": "Miss Albin Deckow",
-    "FormalName": "Langworth, Kassulke and Frami",
-    "Deleted": false,
-    "EjUserId": 498,
-    "UserName": "Lockman-Larkin",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.Int32",
-        "FieldLength": 326
-      }
-    }
-  },
-  "Updated": "1997-12-08T18:25:50.864884+01:00",
-  "UpdatedBy": {
-    "AssociateId": 296,
-    "Name": "Reichert Group",
-    "PersonId": 172,
-    "Rank": 681,
-    "Tooltip": "neque",
-    "Type": "AnonymousAssociate",
-    "GroupIdx": 895,
-    "FullName": "Westley Romaguera",
-    "FormalName": "Nader Group",
-    "Deleted": true,
-    "EjUserId": 955,
-    "UserName": "Farrell, Shields and Hammes",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 673
-      }
-    }
-  },
-  "DataRights": {
-    "ColumnsInfo": [
-      {},
-      {}
-    ],
-    "RowsInfo": [
-      {},
-      {}
-    ],
-    "Rights": [
-      [
-        {
-          "Value": "voluptates",
-          "Description": "Organized reciprocal groupware",
-          "TableRight": {
-            "Mask": "Delete",
-            "Reason": ""
-          },
-          "FieldProperties": {
-            "fieldName": {
-              "FieldRight": {
-                "Mask": "FULL",
-                "Reason": ""
-              },
-              "FieldType": "System.Int32",
-              "FieldLength": 887
-            }
-          }
-        }
-      ],
-      [
-        {
-          "Value": "quos",
-          "Description": "Future-proofed neutral matrices",
-          "TableRight": {
-            "Mask": "Delete",
-            "Reason": ""
-          },
-          "FieldProperties": {
-            "fieldName": {
-              "FieldRight": {
-                "Mask": "FULL",
-                "Reason": ""
-              },
-              "FieldType": "System.String",
-              "FieldLength": 560
-            }
-          }
-        }
-      ]
-    ],
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.Int32",
-        "FieldLength": 233
-      }
-    }
-  },
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": "integrate holistic partnerships"
-  },
+  "Deleted": 54,
+  "Rank": 123,
+  "Created": "2003-10-27T11:10:53.3431433+01:00",
+  "UseCategories": 385,
+  "CreatedBy": null,
+  "Updated": "2020-07-01T11:10:53.3431433+02:00",
+  "UpdatedBy": null,
+  "DataRights": null,
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
+      "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 814
+      "FieldLength": 250
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

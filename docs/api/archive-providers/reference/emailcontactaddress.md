@@ -8,7 +8,7 @@ keywords:
   - "archive provider"
   - "emailcontactaddress"
 so.generated: true
-so.date: 03.23.2021
+so.date: 08.26.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -22,21 +22,21 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 Contact subchannel for special purpose archive provider used to search for email addresses.
 
 This channel will match on either the email address itself, or contact.name
-
+<para />
 The resulting rows will have entity name 'contact', but the primary key will always be
 the email_id.
 
 ## Supported Entities
 
 | Name | Description |
-| ---- | ----- |
+| ---- | ----------- |
 |"email"|[email]|
 |"contact"|Contact|
 
 ## Supported Columns
 
-| Name | Restriction | Description | OrderBy
-| ---- | ----- | ------- | ------ |
+| Name | Restriction | Description | OrderBy |
+| ---- | ----------- | ----------- | ------- |
 |getAllRows|bool|GetAll: Get all rows of archive - use with care, you may be fetching the whole database|  |
 |getNoRows|bool|GetNone: Do not get any rows from the archive|  |
 |emailMatch|string|emailMatch: Restriction only: (partial) email / person / contact to match|  |
@@ -58,14 +58,17 @@ the email_id.
 |category|listAny|Category| x |
 |business|listAny|Business| x |
 |country|listAny|Country: This criterion corresponds to the Country field on the Company card.| x |
+|countryId|int|Country ID: Country ID| x |
 |number|string|Number| x |
 |code|string|Code| x |
 |orgnr|string|VAT No.| x |
 |stop|bool|Stop| x |
 |contactNoMail|bool|No mailings (company| x |
 |updatedBy|associate|Updated by: The user who last updated the data| x |
+|updatedByFullName|associate|Updated by - Full name: The user who last updated the data| x |
 |updatedDate|date|Updated: The date/time the data was last updated in UTC.| x |
 |registeredBy|associate|Registered by: The user who registered the data| x |
+|registeredByFullName|associate|Registered by - Full name: The user who registered the data| x |
 |registeredDate|date|Registered date: The date/time the data was registered in UTC.| x |
 |contactSource|listAny|Source: Source (Company)| x |
 |contactDeleted|bool|Deleted: Deleted| x |
@@ -212,6 +215,7 @@ the email_id.
 |contactSupportPerson/personNumber|string|User support contact - Number: Displays the contact's number| x |
 |contactSupportPerson/title|string|User support contact - Title: Displays the contact's job title| x |
 |contactSupportPerson/personCountry|listAny|User support contact - Country: Country| x |
+|contactSupportPerson/personCountryId|int|User support contact - Country ID: Country ID| x |
 |contactSupportPerson/personNoMail|bool|User support contact - No Mailings: Displays the contact's No Mailings checkbox| x |
 |contactSupportPerson/rank|int|User support contact - Rank: Displays a contact's current rank| x |
 |contactSupportPerson/birthdate| *None* |User support contact - Birthdate: Displays the contact's date of birth|  |
@@ -225,15 +229,19 @@ the email_id.
 |contactSupportPerson/kanaFirstName|string|User support contact - First name, kana: Contact's first name, in kana alphabet| x |
 |contactSupportPerson/kanaLastName|string|User support contact - Last name, kana: Contact's last name, in kana alphabet| x |
 |contactSupportPerson/personUpdatedBy|associate|User support contact - Updated by: The user who last updated the data| x |
+|contactSupportPerson/personUpdatedByFullName|associate|User support contact - Updated by - Full name: The user who last updated the data| x |
 |contactSupportPerson/personUpdatedDate|date|User support contact - Updated: The date/time the data was last updated in UTC.| x |
 |contactSupportPerson/personRegisteredBy|associate|User support contact - Registered by: The user who registered the data| x |
+|contactSupportPerson/personRegisteredByFullName|associate|User support contact - Registered by - Full name: The user who registered the data| x |
 |contactSupportPerson/personRegisteredDate|date|User support contact - Registered date: The date/time the data was registered in UTC.| x |
 |contactSupportPerson/portraitThumbnail| *None* |User support contact - Person image: Person image|  |
 |contactSupportPerson/personActiveErpLinks|bool|User support contact - ERP connected: Is there an active ERP Sync?| x |
 |contactSupportPerson/ticketPriority|listAny|User support contact - Service priority: Default service priority for this contact| x |
 |contactSupportPerson/supportLanguage|listAny|User support contact - Preferred language: Preferred language used for reply templates and more| x |
 |contactSupportPerson/supportAssociate|associate|User support contact - Our service contact: Default service contact for this contact| x |
+|contactSupportPerson/supportAssociateFullName|associate|User support contact - Our service contact - Full name: Default service contact for this contact| x |
 |contactSupportPerson/personAssociateId|associate|User support contact - Our contact: Displays our contact| x |
+|contactSupportPerson/personAssociateFullName|associate|User support contact - Our contact - Full name: Displays our contact| x |
 |contactSupportPerson/personCategory|listAny|User support contact - Category| x |
 |contactSupportPerson/personBusiness|listAny|User support contact - Business| x |
 |contactSupportPerson/personDeletedDate|datetime|User support contact - Deleted date: Deleted date|  |
@@ -254,7 +262,30 @@ the email_id.
 |contactSupportPerson/personUdef/SuperOffice:9|string|User support contact - page1saleonly| x |
 |contactSupportPerson/personUdef/SuperOffice:10|string|User support contact - page1marketingonly| x |
 |contactSupportPerson/personUdef/SuperOffice:11|string|User support contact - page1adminonly| x |
-|contactSupportPerson/isMailingRecipient|bool|User support contact - isMailingRecipient: isMailingRecipient| x |
+|contactSupportPerson/personExtra/x\_person\_integer|int|User support contact - Extra Integer: Custom person integer| x |
+|contactSupportPerson/personExtra/x\_person\_hidden\_integer|int|User support contact - Extra hidden integer: Custom integer field that is hidden| x |
+|contactSupportPerson/personExtra/x\_person\_float|decimal|User support contact - Extra float: Custom float field| x |
+|contactSupportPerson/personExtra/x\_person\_longtext|string|User support contact - Extra Long Text: Custom long text field on person, keep HTML tags. Simple input, not text area. Default value = 'Hello there'| x |
+|contactSupportPerson/personExtra/x\_person\_date|date|User support contact - Extra date: Custom date field on person. Default value = 28.03.2019| x |
+|contactSupportPerson/personExtra/x\_person\_datetime|datetime|User support contact - Extra DateTime: Custom person date and time field. No default| x |
+|contactSupportPerson/personExtra/x\_person\_time| *None* |User support contact - Extra time: Custom time field on person. Current time as default| x |
+|contactSupportPerson/personExtra/x\_person\_boolean|bool|User support contact - Extra Boolean: Custom boolean field on person. Default checked| x |
+|contactSupportPerson/personExtra/x\_person\_timespan|timeSpan|User support contact - Extra timespan: Custom timespan on person. Minutes only in 15 units| x |
+|contactSupportPerson/personExtra/x\_person\_shorttext|string|User support contact - Extra short text: Custom short text on person. With index. Do not keep HTML tags| x |
+|contactSupportPerson/personExtra/x\_person\_shorttext\_list|listAny|User support contact - Extra short dropdown: Custom Short text dropdown field on person: black, white, transparent| x |
+|contactSupportPerson/personExtra/x\_person\_user\_relation|associate|User support contact - Extra user relation: Custom person-user relation field| x |
+|contactSupportPerson/personExtra/x\_person\_category\_relation|listAny|User support contact - Extra category relation: Custom person-category relation| x |
+|contactSupportPerson/personExtra/x\_person\_priority\_relation|listAny|User support contact - Extra priority relation: Custom person-priority relation| x |
+|contactSupportPerson/personExtra/x\_person\_request\_relation|stringorPK|User support contact - Extra request relation: Request relation on contact| x |
+|contactSupportPerson/personExtra/x\_person\_appointment\_relation|stringorPK|User support contact - Extra appointment relation: Appointment relation on person| x |
+|contactSupportPerson/personExtra/x\_person\_contact\_relation|stringorPK|User support contact - Extra company relation: Company relation on contact| x |
+|contactSupportPerson/personExtra/y\_rental/id|int|User support contact - Rental - id: Displays the row's primary key (y\_rental)| x |
+|contactSupportPerson/personExtra/y\_rental/x\_start|date|User support contact - Rental - Start rental| x |
+|contactSupportPerson/personExtra/y\_rental/x\_end|date|User support contact - Rental - End| x |
+|contactSupportPerson/personExtra/y\_rental/x\_amount|int|User support contact - Rental - Amount: Number to rent. Default = 1| x |
+|contactSupportPerson/personExtra/y\_rental/x\_contact|stringorPK|User support contact - Rental - Renter: Company that rents equipment| x |
+|contactSupportPerson/personExtra/y\_rental/y\_equipment/x\_name|string|User support contact - Rental - Equipment - Name: Equpment name custom field. Cannot be null., show in table| x |
+|contactSupportPerson/isMailingRecipient|bool|User support contact - Is mailing recipient: isMailingRecipient| x |
 |contactSupportPerson/hasStoreConsent|bool|User support contact - Consent - Sales and service: The purpose to store data about this contact is to sell to and/or provide services to this contact. This purpose is usually used when storing contacts who are defined as potential or existing customers.|  |
 |contactSupportPerson/withdrawnStoreConsent|bool|User support contact - Consent is withdrawn - Sales and service: The purpose to store data about this contact is to sell to and/or provide services to this contact. This purpose is usually used when storing contacts who are defined as potential or existing customers.|  |
 |contactSupportPerson/hasEmarketingConsent|bool|User support contact - Consent - E-marketing: The purpose is to gain the explicit consent to communicate electronically (bulk e-mail) on topics related to our products and services. This might include newsletters, invitations and product-related content. The subscription system is used to refine the individual marketing choices this contact makes.|  |
@@ -278,6 +309,22 @@ the email_id.
 |contactUdef/SuperOffice:11|string|page1adminonly| x |
 |contactUdef/SuperOffice:12|listAny|Udlist one: Static tooltip for udlist one| x |
 |contactUdef/SuperOffice:13|listAny|Udlist two: Static tooltip for udlist two| x |
+|contactExtra/x\_contact\_integer|int|Extra Integer: Custom integer field| x |
+|contactExtra/x\_contact\_hidden\_integer|int|Extra hidden integer: Custom integer field - hidden| x |
+|contactExtra/x\_contact\_default\_integer|int|Extra Default Integer: Custom integer field with default value 123.| x |
+|contactExtra/x\_contact\_float|decimal|Extra Float: Custom float field with 3 decimals| x |
+|contactExtra/x\_contact\_longtext|string|Extra LongText: Custom long text field. DO not keep HTML. 3 Line text area editor| x |
+|contactExtra/x\_contact\_dropdown|listAny|Extra Long Dropdown: Custom long text field with dropdown: Volvo, Saab, etc.| x |
+|contactExtra/x\_contact\_date|date|Extra date: Custom date field. User current as default.| x |
+|contactExtra/x\_contact\_datetime|datetime|Extra DateTime: Custom Date Time field. No default value. External| x |
+|contactExtra/x\_contact\_time| *None* |Extra time: Custom time field.| x |
+|contactExtra/x\_contact\_boolean|bool|Extra boolean: Custom boolean field.| x |
+|contactExtra/x\_contact\_timespan|timeSpan|Extra timespan: Custom timespan field. Hours and minutes in 10 units| x |
+|contactExtra/x\_contact\_shorttext|string|Extra short text: Custom short text field. Keep HTML tags.| x |
+|contactExtra/x\_contact\_short\_dropdown|listAny|Extra short dropdown: Custom short text with dropdown list. Red, Green or Blue or Purple. External.| x |
+|contactExtra/x\_contact\_contact\_relation|stringorPK|Extra Company: Custom company relation. Do not show one-to-many relations. Show function buttons| x |
+|contactExtra/x\_contact\_request\_relation|stringorPK|Extra Request relation: Request relation on company| x |
+|contactExtra/x\_contact\_contact|stringorPK|Extra contact relation: Contact relation on company| x |
 |NumberOfActivities|int|Number of activities|  |
 |NumberOfActivitiesInPeriod|int|Number of activities in last 90 days|  |
 |NumberOfNotCompletedActivities|int|Number of non-completed activities|  |
@@ -299,8 +346,8 @@ the email_id.
 |LastTicket|date|Date of last request|  |
 |LastCompletedTicket|date|Date of last completed request|  |
 |LastDoByTicket|date|Date of last non-completed request|  |
-|SaintStatus1|saintStatus|Neglected customer|  |
-|SaintStatus2|saintStatus|C-company|  |
+|SaintStatus1|saintStatus|Neglected customer: Denne kunden har det vært 0 salgsaktiviteter på i perioden.|  |
+|SaintStatus2|saintStatus|C-company: Kundens navn starter med bokstaven C|  |
 |saintSaleStatus|listAny|With status|  |
 |saintAmountClass|listAny|Amount class|  |
 |saintActivityType|listAny|SAINT type|  |
@@ -314,11 +361,14 @@ the email_id.
 ## Sample
 
 ```http!
-GET /api/v1/archive/emailcontactaddress?$select=hasInterests,contactAssociate/credentialType,contactAssociate/isActiveText
+GET /api/v1/archive/emailcontactaddress?$select=postAddress/formattedAddress,restrictionPostalAddress/city,contactAssociate/middleName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv
 
 ```
 
-See also: <see cref="T:SuperOffice.CRM.Services.IArchiveAgent">IArchiveAgent</see>.
+
+
+See also: <see cref="T:SuperOffice.CRM.Services.IArchiveAgent">IArchiveAgent</see>.</p>
+

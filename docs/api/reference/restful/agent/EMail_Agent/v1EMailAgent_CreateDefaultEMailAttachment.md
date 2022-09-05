@@ -1,6 +1,6 @@
 ---
 title: POST Agents/EMail/CreateDefaultEMailAttachment
-id: v1EMailAgent_CreateDefaultEMailAttachment
+uid: v1EMailAgent_CreateDefaultEMailAttachment
 ---
 
 # POST Agents/EMail/CreateDefaultEMailAttachment
@@ -11,9 +11,17 @@ POST /api/v1/Agents/EMail/CreateDefaultEMailAttachment
 
 Set default values into a new EMailAttachment.
 
+
 NetServer calculates default values on the entity, which is required when creating/storing a new instance
 
-## Online Restricted: ## The EMail agent is not available in Online by default. Access must be requested specifically when app is registered
+
+## Online Restricted: ## The EMail agent is not available in Online by default. Access must be requested specifically when app is registered.
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -28,18 +36,16 @@ NetServer calculates default values on the entity, which is required when creati
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response: object
 
-Information about an attachment
+## Response: 
 
-Carrier object for EMailAttachment.
-Services for the EMailAttachment Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IEMailAgent">EMail Agent</see>.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -54,40 +60,36 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/EMail/CreateDefaultEMailAttachment
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Managed systemic application",
-  "Filename": "aut",
-  "Size": 263,
-  "Type": "tenetur",
-  "Encoding": "aut",
-  "Id": "libero",
-  "Disposition": "hic",
+  "Description": "Business-focused value-added ability",
+  "Filename": "cumque",
+  "Size": 592,
+  "Type": "est",
+  "Encoding": "laudantium",
+  "Id": "enim",
+  "Disposition": "voluptatem",
   "Stream": "GIF89....File contents as raw bytes...",
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
-      "FieldType": "System.String",
-      "FieldLength": 709
+      "FieldRight": null,
+      "FieldType": "System.Int32",
+      "FieldLength": 916
     }
   }
 }

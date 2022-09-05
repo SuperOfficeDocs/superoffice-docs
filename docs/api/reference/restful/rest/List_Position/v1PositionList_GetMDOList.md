@@ -1,6 +1,6 @@
 ---
 title: GET List/Position/MDOItems
-id: v1PositionList_GetMDOList
+uid: v1PositionList_GetMDOList
 ---
 
 # GET List/Position/MDOItems
@@ -11,6 +11,12 @@ GET /api/v1/List/Position/MDOItems
 
 Get the MDO list items for "PersPos" - with headings and filtering by user group.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,8 +26,9 @@ Get the MDO list items for "PersPos" - with headings and filtering by user group
 
 ```http
 GET /api/v1/List/Position/MDOItems?flat=False
-GET /api/v1/List/Position/MDOItems?query=odit
+GET /api/v1/List/Position/MDOItems?query=nihil
 ```
+
 
 ## Request Headers
 
@@ -36,7 +43,10 @@ GET /api/v1/List/Position/MDOItems?query=odit
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -61,14 +71,16 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 GET /api/v1/List/Position/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -76,59 +88,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 479,
-    "Name": "Beier Group",
-    "ToolTip": "Ad consequatur eos illum tempore.",
-    "Deleted": true,
-    "Rank": 241,
-    "Type": "aut",
+    "Id": 884,
+    "Name": "O'Reilly, Kuhn and Stokes",
+    "ToolTip": "Nemo aut.",
+    "Deleted": false,
+    "Rank": 245,
+    "Type": "minus",
     "ChildItems": [
       {
-        "Id": 747,
-        "Name": "Gusikowski, Kovacek and Jerde",
-        "ToolTip": "Modi nihil et asperiores.",
+        "Id": 224,
+        "Name": "Kunde LLC",
+        "ToolTip": "Architecto culpa odio et autem omnis rem sed.",
         "Deleted": true,
-        "Rank": 363,
-        "Type": "voluptatem",
+        "Rank": 170,
+        "Type": "quae",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "eligendi",
-        "ColorBlock": 415,
-        "ExtraInfo": "porro",
-        "StyleHint": "et",
-        "FullName": "Samson Pfannerstill",
-        "TableRight": {},
+        "IconHint": "ea",
+        "ColorBlock": 765,
+        "ExtraInfo": "et",
+        "StyleHint": "repudiandae",
+        "FullName": "Lucas Schmitt MD",
+        "TableRight": null,
         "FieldProperties": {
           "fieldName": {
-            "FieldRight": {
-              "Mask": "FULL",
-              "Reason": ""
-            },
+            "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 845
+            "FieldLength": 779
           }
         }
       }
     ],
-    "IconHint": "quibusdam",
-    "ColorBlock": 906,
-    "ExtraInfo": "quisquam",
-    "StyleHint": "praesentium",
-    "FullName": "Marquis Schamberger",
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "IconHint": "dignissimos",
+    "ColorBlock": 292,
+    "ExtraInfo": "quis",
+    "StyleHint": "qui",
+    "FullName": "Mrs. Arielle Regan Smitham",
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.Int32",
-        "FieldLength": 66
+        "FieldRight": null,
+        "FieldType": "System.String",
+        "FieldLength": 684
       }
     }
   }

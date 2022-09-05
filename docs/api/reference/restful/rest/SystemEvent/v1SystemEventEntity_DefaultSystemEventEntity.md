@@ -1,6 +1,6 @@
 ---
 title: GET SystemEvent/default
-id: v1SystemEventEntity_DefaultSystemEventEntity
+uid: v1SystemEventEntity_DefaultSystemEventEntity
 ---
 
 # GET SystemEvent/default
@@ -11,7 +11,14 @@ GET /api/v1/SystemEvent/default
 
 Set default values into a new SystemEventEntity.
 
+
 NetServer calculates default values on the entity, which is required when creating/storing a new instance Calls the Configuration agent service CreateDefaultSystemEventEntity.
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -26,18 +33,16 @@ NetServer calculates default values on the entity, which is required when creati
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response: object
 
-Entity for system events
+## Response: 
 
-Carrier object for SystemEventEntity.
-Services for the SystemEventEntity Carrier is available from the <see cref="!:IConfigurationAgent">Configuration Agent</see>.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -54,66 +59,38 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 GET /api/v1/SystemEvent/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SystemEventId": 443,
+  "SystemEventId": 663,
   "Scope": "Database",
-  "Eta": "2001-03-23T18:25:51.1179361+01:00",
-  "Eventkey": "molestiae",
-  "Eventmess": "culpa",
-  "ExtraInfo": 813,
-  "Owner": 556,
-  "UpdatedCount": 601,
-  "Registered": "2009-11-20T18:25:51.1179361+01:00",
-  "ActivatedBy": {
-    "AssociateId": 7,
-    "Name": "Hackett-Bode",
-    "PersonId": 568,
-    "Rank": 381,
-    "Tooltip": "et",
-    "Type": "AnonymousAssociate",
-    "GroupIdx": 617,
-    "FullName": "Mose Rodriguez",
-    "FormalName": "Torp-Casper",
-    "Deleted": false,
-    "EjUserId": 113,
-    "UserName": "Bashirian-Spencer",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.Int32",
-        "FieldLength": 883
-      }
-    }
-  },
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "Eta": "2022-07-19T11:10:53.5281735+02:00",
+  "Eventkey": "magni",
+  "Eventmess": "nobis",
+  "ExtraInfo": 824,
+  "Owner": 9,
+  "UpdatedCount": 621,
+  "Registered": "2012-11-28T11:10:53.5281735+01:00",
+  "ActivatedBy": null,
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
+      "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 864
+      "FieldLength": 579
     }
   }
 }

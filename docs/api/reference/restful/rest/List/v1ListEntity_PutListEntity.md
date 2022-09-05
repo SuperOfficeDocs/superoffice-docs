@@ -1,6 +1,6 @@
 ---
 title: PUT List/{id}
-id: v1ListEntity_PutListEntity
+uid: v1ListEntity_PutListEntity
 ---
 
 # PUT List/{id}
@@ -11,9 +11,15 @@ PUT /api/v1/List/{id}
 
 Updates the existing ListEntity
 
+
+
+
+
+
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | id | int32 | The ListEntity id to update. **Required** |
+
 
 ## Query String Parameters
 
@@ -24,6 +30,7 @@ Updates the existing ListEntity
 ```http
 PUT /api/v1/List/{id}?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -39,9 +46,9 @@ PUT /api/v1/List/{id}?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entity
+## Request Body: entity  
 
-The ListEntity to be saved.
+The ListEntity to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -56,18 +63,17 @@ The ListEntity to be saved.
 | ListType | string | The type of this list, often indicated by the database name, but not necessarily |
 | InUseByUserDefinedFields | bool | True if this in use by one or more udfields |
 
-## Response: object
 
-The list entity contains information about a specific list
+## Response: 
 
-ListEntity entity with API _Links added.
+ListEntity updated.
 
 | Response | Description |
 |----------------|-------------|
 | 200 | ListEntity updated. |
 | 400 | Bad request. Entity to save is not in request body. |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -85,7 +91,7 @@ Response body: object
 | FieldProperties | object |  |
 | _Links | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 PUT /api/v1/List/{id}
@@ -95,51 +101,47 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 568,
-  "Name": "Robel-Heathcote",
-  "Tooltip": "qui",
+  "Id": 555,
+  "Name": "Monahan Inc and Sons",
+  "Tooltip": "ipsum",
   "Deleted": true,
-  "Rank": 569,
-  "IsCustomList": true,
+  "Rank": 651,
+  "IsCustomList": false,
   "IsMDOList": true,
   "UseGroupsAndHeadings": true,
-  "ListType": "ipsam",
-  "InUseByUserDefinedFields": true
+  "ListType": "voluptatibus",
+  "InUseByUserDefinedFields": false
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 ListEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 561,
-  "Name": "Marks LLC",
-  "Tooltip": "et",
+  "Id": 585,
+  "Name": "Schmidt, Gibson and Hettinger",
+  "Tooltip": "maiores",
   "Deleted": true,
-  "Rank": 414,
-  "IsCustomList": false,
+  "Rank": 338,
+  "IsCustomList": true,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "sit",
-  "InUseByUserDefinedFields": true,
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "ListType": "dicta",
+  "InUseByUserDefinedFields": false,
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
+      "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 223
+      "FieldLength": 155
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

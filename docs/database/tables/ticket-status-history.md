@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "ticket_status_history"
-so.date: 04.12.2022
+so.date: 08.26.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -15,7 +15,7 @@ so.envir:
 
 # ticket\_status\_history Table (261)
 
-This table contains the history of a tickets statuses. Each time a ticket changes status a copy of the previous status of the record will be saved
+This table contains the history of a tickets statuses. Each time a ticket changes status a copy of the previous status of the record will be saved 
 
 ## Fields
 
@@ -28,6 +28,7 @@ This table contains the history of a tickets statuses. Each time a ticket change
 |real\_timespan|The time (seconds) the ticket was in that status. Not calculated based on priority&amp;apos;s timeframe.|Int|&#x25CF;|
 |from\_datetime||DateTime|&#x25CF;|
 |to\_datetime||DateTime|&#x25CF;|
+
 
 ![ticket_status_history table relationship diagram](./media/ticket_status_history.png)
 
@@ -48,6 +49,7 @@ This table contains the history of a tickets statuses. Each time a ticket change
 |[ticket](ticket.md)  |This table contains the tickets (requests) of the system. Its purpose should be evident. |
 |[ticket\_status](ticket-status.md)  |This table user defined ticket status values. |
 
+
 ## Replication Flags
 
 * None
@@ -55,3 +57,4 @@ This table contains the history of a tickets statuses. Each time a ticket change
 ## Security Flags
 
 * No access control via user's Role.
+

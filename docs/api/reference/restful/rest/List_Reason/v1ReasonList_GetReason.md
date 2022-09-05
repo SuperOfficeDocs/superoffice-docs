@@ -1,6 +1,6 @@
 ---
 title: GET List/Reason/Items/{id}
-id: v1ReasonList_GetReason
+uid: v1ReasonList_GetReason
 ---
 
 # GET List/Reason/Items/{id}
@@ -11,9 +11,16 @@ GET /api/v1/List/Reason/Items/{id}
 
 Gets a Reason  item by id.
 
+
+
+
+
+
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | id | int32 | The id of the Reason to return. **Required** |
+
+
 
 ## Request Headers
 
@@ -28,19 +35,17 @@ Gets a Reason  item by id.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response: object
 
-The list item entity contains generic list item information
+## Response: 
 
-Carrier object for ListItemEntity.
-Services for the ListItemEntity Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IListAgent">List Agent</see>.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 | 404 | Not Found. |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -53,7 +58,7 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 GET /api/v1/List/Reason/Items/{id}
@@ -62,29 +67,25 @@ Accept: application/json; charset=utf-8
 Accept-Language: en
 ```
 
+## Sample response
+
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 961,
-  "Name": "Willms-Kuhn",
-  "Tooltip": "impedit",
-  "Deleted": false,
-  "UdListDefinitionId": 451,
-  "Rank": 541,
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "Id": 622,
+  "Name": "Botsford, Beer and Schneider",
+  "Tooltip": "qui",
+  "Deleted": true,
+  "UdListDefinitionId": 145,
+  "Rank": 195,
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
-      "FieldType": "System.Int32",
-      "FieldLength": 206
+      "FieldRight": null,
+      "FieldType": "System.String",
+      "FieldLength": 885
     }
   }
 }

@@ -1,6 +1,6 @@
 ---
 title: POST Agents/User/ChangePassword
-id: v1UserAgent_ChangePassword
+uid: v1UserAgent_ChangePassword
 ---
 
 # POST Agents/User/ChangePassword
@@ -11,7 +11,15 @@ POST /api/v1/Agents/User/ChangePassword
 
 Change password for a user.
 
-## Online Restricted: ## The User agent is not available in Online by default. User management is not allowed for partner apps
+
+
+
+## Online Restricted: ## The User agent is not available in Online by default. User management is not allowed for partner apps.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +30,7 @@ Change password for a user.
 ```http
 POST /api/v1/Agents/User/ChangePassword?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,9 +46,9 @@ POST /api/v1/Agents/User/ChangePassword?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-AssociateId, OldPassword, NewPassword
+AssociateId, OldPassword, NewPassword 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -47,7 +56,10 @@ AssociateId, OldPassword, NewPassword
 | OldPassword | string |  |
 | NewPassword | string |  |
 
+
 ## Response: bool
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -55,25 +67,28 @@ AssociateId, OldPassword, NewPassword
 
 Response body: bool
 
-## Sample Request
+
+## Sample request
 
 ```http!
 POST /api/v1/Agents/User/ChangePassword
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 477,
-  "OldPassword": "commodi",
-  "NewPassword": "dolores"
+  "AssociateId": 19,
+  "OldPassword": "eius",
+  "NewPassword": "et"
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-false
+true
 ```

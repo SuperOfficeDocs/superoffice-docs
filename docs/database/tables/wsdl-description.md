@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "wsdl_description"
-so.date: 04.12.2022
+so.date: 08.26.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -25,6 +25,7 @@ Soap wsdl files
 |name|The name of the wsdl file, same as used in the import statements in the wsdl file|String(255)| |
 |body|The content of the wsdl file|Clob|&#x25CF;|
 
+
 ![wsdl_description table relationship diagram](./media/wsdl_description.png)
 
 [!include[details](./includes/wsdl-description.md)]
@@ -42,3 +43,4 @@ Soap wsdl files
 ## Security Flags
 
 * No access control via user's Role.
+

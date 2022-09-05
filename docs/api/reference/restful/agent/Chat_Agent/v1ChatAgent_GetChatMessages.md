@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Chat/GetChatMessages
-id: v1ChatAgent_GetChatMessages
+uid: v1ChatAgent_GetChatMessages
 ---
 
 # POST Agents/Chat/GetChatMessages
@@ -11,6 +11,12 @@ POST /api/v1/Agents/Chat/GetChatMessages
 
 Get all or some of the messages in a chat session
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Get all or some of the messages in a chat session
 ```http
 POST /api/v1/Agents/Chat/GetChatMessages?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,16 +42,19 @@ POST /api/v1/Agents/Chat/GetChatMessages?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-ChatSessionId, After
+ChatSessionId, After 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | ChatSessionId | int32 |  |
 | After | int32 |  |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -64,20 +74,22 @@ Response body: array
 | SpecialParam | string | Special parameter for the special_type. |
 | WhenPosted | date-time | When the message was posted (UTC timestamp). |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Chat/GetChatMessages
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 129,
-  "After": 107
+  "ChatSessionId": 177,
+  "After": 964
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -85,15 +97,15 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ChatMessageId": 959,
-    "ChatSessionId": 643,
+    "ChatMessageId": 28,
+    "ChatSessionId": 425,
     "Type": "Invalid",
-    "Message": "ipsam",
-    "Author": "necessitatibus",
-    "ReadByCustomer": 795,
+    "Message": "quam",
+    "Author": "perspiciatis",
+    "ReadByCustomer": 810,
     "SpecialType": "Block",
-    "SpecialParam": "eaque",
-    "WhenPosted": "2001-06-28T18:28:48.3282865+02:00"
+    "SpecialParam": "culpa",
+    "WhenPosted": "2020-10-23T11:10:26.1625251+02:00"
   }
 ]
 ```

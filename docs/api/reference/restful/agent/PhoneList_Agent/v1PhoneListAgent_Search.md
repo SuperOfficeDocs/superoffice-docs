@@ -1,6 +1,6 @@
 ---
 title: POST Agents/PhoneList/Search
-id: v1PhoneListAgent_Search
+uid: v1PhoneListAgent_Search
 ---
 
 # POST Agents/PhoneList/Search
@@ -11,7 +11,13 @@ POST /api/v1/Agents/PhoneList/Search
 
 Searching the phone list.
 
+
 Using default search preferences or the preferences already set by the PhoneListPreferences Service
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +28,7 @@ Using default search preferences or the preferences already set by the PhoneList
 ```http
 POST /api/v1/Agents/PhoneList/Search?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,15 +44,18 @@ POST /api/v1/Agents/PhoneList/Search?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-SearchString
+SearchString 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | SearchString | string |  |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -68,19 +78,21 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/PhoneList/Search
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SearchString": "itaque"
+  "SearchString": "officia"
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -88,28 +100,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PersonDirectPhone": "320-812-5060 x6484",
-    "PersonCellPhone": "(706)183-4882",
-    "PersonPrivatePhone": "787.236.1473 x223",
-    "PersonFaxNumber": "936887",
-    "PersonPagerNumber": "299388",
-    "PersonEmail": "marquis@kemmerfritsch.biz",
-    "Id": 989,
-    "Name": "Hayes, Bernier and Senger",
-    "Tooltip": "dolorem",
-    "UniqueId": "aspernatur",
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "PersonDirectPhone": "(639)854-8859 x3382",
+    "PersonCellPhone": "1-968-492-2480 x3934",
+    "PersonPrivatePhone": "583.974.4775",
+    "PersonFaxNumber": "968476",
+    "PersonPagerNumber": "1362251",
+    "PersonEmail": "tyrese@yundt.ca",
+    "Id": 220,
+    "Name": "Leannon-Herzog",
+    "Tooltip": "quia",
+    "UniqueId": "at",
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
+        "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 481
+        "FieldLength": 634
       }
     }
   }

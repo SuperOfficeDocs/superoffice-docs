@@ -1,6 +1,6 @@
 ---
 title: POST Attachment
-id: v1AttachmentEntity_PostAttachmentEntity
+uid: v1AttachmentEntity_PostAttachmentEntity
 ---
 
 # POST Attachment
@@ -11,7 +11,13 @@ POST /api/v1/Attachment
 
 Creates a new AttachmentEntity
 
+
 Calls the Ticket agent service SaveAttachmentEntity.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +28,7 @@ Calls the Ticket agent service SaveAttachmentEntity.
 ```http
 POST /api/v1/Attachment?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,9 +44,9 @@ POST /api/v1/Attachment?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: newEntity
+## Request Body: newEntity  
 
-The AttachmentEntity to be saved.
+The AttachmentEntity to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -50,17 +57,16 @@ The AttachmentEntity to be saved.
 | InlineImage | bool | True if this attachment is inlined in the html_body. |
 | ContentId | string | The content_id of this attachment, used for inline images |
 
-## Response: object
 
-The Attachment carrier represent meta data for a Service attachment
+## Response: 
 
-AttachmentEntity entity with API _Links added.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -74,53 +80,49 @@ Response body: object
 | FieldProperties | object |  |
 | _Links | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Attachment
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 406,
-  "Name": "Reinger-Weimann",
-  "ContentType": "ipsa",
-  "AttSize": 622,
+  "AttachmentId": 888,
+  "Name": "Simonis LLC",
+  "ContentType": "eveniet",
+  "AttSize": 365,
   "InlineImage": false,
-  "ContentId": "debitis"
+  "ContentId": "commodi"
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 287,
-  "Name": "Lueilwitz Group",
-  "ContentType": "ab",
-  "AttSize": 150,
+  "AttachmentId": 340,
+  "Name": "Dicki, Schmitt and Jerde",
+  "ContentType": "minima",
+  "AttSize": 921,
   "InlineImage": false,
-  "ContentId": "ut",
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "ContentId": "sed",
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
+      "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 175
+      "FieldLength": 678
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

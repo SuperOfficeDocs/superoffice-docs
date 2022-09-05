@@ -1,6 +1,6 @@
 ---
 title: POST Agents/UserDefinedFieldInfo/GetCustomFieldInfoList
-id: v1UserDefinedFieldInfoAgent_GetCustomFieldInfoList
+uid: v1UserDefinedFieldInfoAgent_GetCustomFieldInfoList
 ---
 
 # POST Agents/UserDefinedFieldInfo/GetCustomFieldInfoList
@@ -11,6 +11,12 @@ POST /api/v1/Agents/UserDefinedFieldInfo/GetCustomFieldInfoList
 
 Return information about all the custom fields (user-defined + extra) on a particular table
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Return information about all the custom fields (user-defined + extra) on a parti
 ```http
 POST /api/v1/Agents/UserDefinedFieldInfo/GetCustomFieldInfoList?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,16 +42,19 @@ POST /api/v1/Agents/UserDefinedFieldInfo/GetCustomFieldInfoList?$select=name,dep
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-TableName, IncludeStandard
+TableName, IncludeStandard 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | TableName | string |  |
 | IncludeStandard | bool |  |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -68,20 +78,22 @@ Response body: array
 | Rank | int32 | Tab order, ranking within the custom fields. |
 | TemplateVariableName | string | Template variable name: 'cs01', 'cl02' etc. Null for extra fields. |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/UserDefinedFieldInfo/GetCustomFieldInfoList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Murray-Sipes",
-  "IncludeStandard": true
+  "TableName": "Koepp-Mayer",
+  "IncludeStandard": false
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -90,18 +102,18 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "FieldType": "Attachment",
-    "FieldName": "O'Keefe-Koch",
-    "DisplayName": "Bosco-Pacocha",
-    "Description": "Cloned holistic emulation",
-    "ShortLabel": "eum",
-    "HideLabel": false,
+    "FieldName": "Koelpin-Deckow",
+    "DisplayName": "Bernier, Stamm and Morar",
+    "Description": "Fundamental next generation time-frame",
+    "ShortLabel": "dolorem",
+    "HideLabel": true,
     "HideField": false,
     "IsIndexed": false,
-    "IsMandatory": false,
+    "IsMandatory": true,
     "IsReadOnly": false,
-    "IsExternal": false,
-    "Rank": 978,
-    "TemplateVariableName": "Jerde, Gorczany and Nader"
+    "IsExternal": true,
+    "Rank": 735,
+    "TemplateVariableName": "Nader-Gottlieb"
   }
 ]
 ```

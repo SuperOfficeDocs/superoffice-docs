@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Chat/GetUserAgentList
-id: v1ChatAgent_GetUserAgentList
+uid: v1ChatAgent_GetUserAgentList
 ---
 
 # POST Agents/Chat/GetUserAgentList
@@ -11,7 +11,13 @@ POST /api/v1/Agents/Chat/GetUserAgentList
 
 Get list of users that can be assigned to chat topics.
 
+
 Users with Chat-CALs from the MDO list 'chatuser'
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +28,7 @@ Users with Chat-CALs from the MDO list 'chatuser'
 ```http
 POST /api/v1/Agents/Chat/GetUserAgentList?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,16 +44,19 @@ POST /api/v1/Agents/Chat/GetUserAgentList?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-Flat, OnlyPresent
+Flat, OnlyPresent 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | Flat | bool |  |
 | OnlyPresent | bool |  |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -71,7 +81,7 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Chat/GetUserAgentList
@@ -81,10 +91,12 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Flat": false,
-  "OnlyPresent": true
+  "Flat": true,
+  "OnlyPresent": false
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -92,59 +104,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 95,
-    "Name": "McGlynn, Weimann and Kohler",
-    "ToolTip": "Sed necessitatibus quam perferendis pariatur et cum.",
-    "Deleted": true,
-    "Rank": 910,
-    "Type": "suscipit",
+    "Id": 939,
+    "Name": "Zulauf-Schoen",
+    "ToolTip": "Consequuntur nobis corporis deleniti aut praesentium.",
+    "Deleted": false,
+    "Rank": 605,
+    "Type": "repudiandae",
     "ChildItems": [
       {
-        "Id": 797,
-        "Name": "Bode-Bernhard",
-        "ToolTip": "Aut sed amet cumque labore non quia.",
+        "Id": 644,
+        "Name": "Romaguera Inc and Sons",
+        "ToolTip": "Sed et beatae nesciunt voluptas pariatur numquam.",
         "Deleted": false,
-        "Rank": 763,
-        "Type": "facere",
+        "Rank": 863,
+        "Type": "nesciunt",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "aut",
-        "ColorBlock": 954,
-        "ExtraInfo": "unde",
-        "StyleHint": "quisquam",
-        "FullName": "Hudson Hills",
-        "TableRight": {},
+        "IconHint": "voluptatum",
+        "ColorBlock": 258,
+        "ExtraInfo": "et",
+        "StyleHint": "id",
+        "FullName": "Novella Hickle",
+        "TableRight": null,
         "FieldProperties": {
           "fieldName": {
-            "FieldRight": {
-              "Mask": "FULL",
-              "Reason": ""
-            },
-            "FieldType": "System.Int32",
-            "FieldLength": 501
+            "FieldRight": null,
+            "FieldType": "System.String",
+            "FieldLength": 414
           }
         }
       }
     ],
-    "IconHint": "quasi",
-    "ColorBlock": 665,
-    "ExtraInfo": "quasi",
-    "StyleHint": "et",
-    "FullName": "Barry Reichert",
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "IconHint": "molestiae",
+    "ColorBlock": 378,
+    "ExtraInfo": "est",
+    "StyleHint": "in",
+    "FullName": "Miss Nyasia Nella Schaden III",
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
+        "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 768
+        "FieldLength": 142
       }
     }
   }

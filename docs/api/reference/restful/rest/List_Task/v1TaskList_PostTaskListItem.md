@@ -1,6 +1,6 @@
 ---
 title: POST List/Task/Items
-id: v1TaskList_PostTaskListItem
+uid: v1TaskList_PostTaskListItem
 ---
 
 # POST List/Task/Items
@@ -11,7 +11,14 @@ POST /api/v1/List/Task/Items
 
 Create a new TaskListItem list item
 
+
 Calls the Appointment agent service SaveTaskListItem.
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -27,9 +34,9 @@ Calls the Appointment agent service SaveTaskListItem.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: newEntity
+## Request Body: newEntity  
 
-The TaskListItem to be created.
+The TaskListItem to be created. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -47,16 +54,16 @@ The TaskListItem to be created.
 | ColorIndex | string | JAP |
 | DefaultVideomeetingStatus | string | Default video-meeting status for meetings created in SuperOffice CRM. |
 
-## Response: object
 
-Carrier object for TaskListItem.
-Services for the TaskListItem Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IAppointmentAgent">Appointment Agent</see>.
+## Response: 
+
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -76,24 +83,24 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/List/Task/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TaskListItemId": 12,
-  "Value": "fuga",
+  "TaskListItemId": 934,
+  "Value": "veritatis",
   "Direction": "Incoming",
   "Type": "Appointment",
-  "Tooltip": "eligendi",
+  "Tooltip": "id",
   "Deleted": false,
-  "IntentId": 793,
-  "Rank": 895,
+  "IntentId": 106,
+  "Rank": 918,
   "IsDefaultAlldayEvent": true,
   "IsDefaultFree": false,
   "IsDefaultPublished": false,
@@ -102,36 +109,32 @@ Content-Type: application/json; charset=utf-8
 }
 ```
 
+## Sample response
+
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TaskListItemId": 176,
-  "Value": "voluptas",
+  "TaskListItemId": 649,
+  "Value": "enim",
   "Direction": "Incoming",
   "Type": "Appointment",
-  "Tooltip": "nostrum",
+  "Tooltip": "molestiae",
   "Deleted": true,
-  "IntentId": 143,
-  "Rank": 25,
+  "IntentId": 457,
+  "Rank": 130,
   "IsDefaultAlldayEvent": true,
-  "IsDefaultFree": true,
-  "IsDefaultPublished": false,
+  "IsDefaultFree": false,
+  "IsDefaultPublished": true,
   "ColorIndex": "BlueAlt1",
   "DefaultVideomeetingStatus": "NoChange",
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
+      "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 419
+      "FieldLength": 813
     }
   }
 }

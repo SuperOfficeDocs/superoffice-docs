@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Audience/CreateDefaultAudienceLayoutEntity
-id: v1AudienceAgent_CreateDefaultAudienceLayoutEntity
+uid: v1AudienceAgent_CreateDefaultAudienceLayoutEntity
 ---
 
 # POST Agents/Audience/CreateDefaultAudienceLayoutEntity
@@ -11,7 +11,14 @@ POST /api/v1/Agents/Audience/CreateDefaultAudienceLayoutEntity
 
 Set default values into a new AudienceLayoutEntity.
 
+
 NetServer calculates default values on the entity, which is required when creating/storing a new instance
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -26,18 +33,16 @@ NetServer calculates default values on the entity, which is required when creati
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response: object
 
-Audience layout. Each instance of Audience has at least one layout. The layout is connected to the instance by it's instance name or is linked to the currently logged on user. The web part layout and the Audience configuration parameters belongs to an Audience layout
+## Response: 
 
-Carrier object for AudienceLayoutEntity.
-Services for the AudienceLayoutEntity Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IAudienceAgent">Audience Agent</see>.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -51,87 +56,35 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Audience/CreateDefaultAudienceLayoutEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AudienceLayoutId": 683,
-  "InstanceLayout": "et",
-  "InstanceName": "White-Stoltenberg",
-  "CreatedDate": "2009-02-03T18:28:48.1245431+01:00",
-  "UpdatedDate": "1999-01-23T18:28:48.1245431+01:00",
-  "CreatedBy": {
-    "AssociateId": 291,
-    "Name": "Durgan Inc and Sons",
-    "PersonId": 492,
-    "Rank": 403,
-    "Tooltip": "nobis",
-    "Type": "AnonymousAssociate",
-    "GroupIdx": 62,
-    "FullName": "Iva Turcotte",
-    "FormalName": "Kessler LLC",
-    "Deleted": true,
-    "EjUserId": 896,
-    "UserName": "Zboncak, Littel and Hamill",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 169
-      }
-    }
-  },
-  "UpdatedBy": {
-    "AssociateId": 562,
-    "Name": "Ledner LLC",
-    "PersonId": 772,
-    "Rank": 668,
-    "Tooltip": "aut",
-    "Type": "AnonymousAssociate",
-    "GroupIdx": 269,
-    "FullName": "Kaitlyn Fritsch",
-    "FormalName": "Towne, Jacobi and Huels",
-    "Deleted": false,
-    "EjUserId": 976,
-    "UserName": "Nikolaus-Keebler",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.Int32",
-        "FieldLength": 55
-      }
-    }
-  },
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "AudienceLayoutId": 858,
+  "InstanceLayout": "quo",
+  "InstanceName": "O'Keefe Inc and Sons",
+  "CreatedDate": "2020-07-14T11:10:25.9995481+02:00",
+  "UpdatedDate": "1996-06-07T11:10:25.9995481+02:00",
+  "CreatedBy": null,
+  "UpdatedBy": null,
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
-      "FieldType": "System.String",
-      "FieldLength": 611
+      "FieldRight": null,
+      "FieldType": "System.Int32",
+      "FieldLength": 410
     }
   }
 }

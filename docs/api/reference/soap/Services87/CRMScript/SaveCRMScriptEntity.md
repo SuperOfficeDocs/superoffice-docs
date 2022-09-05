@@ -12,11 +12,12 @@ Implemented by the <see cref="M:SuperOffice.Services87.ICRMScriptAgent.SaveCRMSc
 ## SaveCRMScriptEntity
 
 Updates the existing CRMScriptEntity or creates a new CRMScriptEntity if the id parameter is 0.
-<br />**Online Restricted:** The CRMScript agent is not available in Online by default. Access must be requested specifically when app is registered.
+<para /><b>Online Restricted:</b> The CRMScript agent is not available in Online by default. Access must be requested specifically when app is registered.
 
 * **cRMScriptEntity:** The CRMScriptEntity that is saved.
 
 **Returns:** New or updated CRMScriptEntity
+
 
 [WSDL file for Services87/CRMScript](../Services87-CRMScript.md)
 
@@ -49,9 +50,9 @@ Application tokens must be specified if calling an Online installation. Applicat
      <CRMScript:IncludeId xsi:type="xsd:string"></CRMScript:IncludeId>
      <CRMScript:HierarchyId xsi:type="xsd:int">0</CRMScript:HierarchyId>
      <CRMScript:Source xsi:type="xsd:string"></CRMScript:Source>
-     <CRMScript:Registered xsi:type="xsd:dateTime">2021-11-30T13:23:12Z</CRMScript:Registered>
+     <CRMScript:Registered xsi:type="xsd:dateTime">2022-08-26T08:56:41Z</CRMScript:Registered>
      <CRMScript:RegisteredAssociateId xsi:type="xsd:int">0</CRMScript:RegisteredAssociateId>
-     <CRMScript:Updated xsi:type="xsd:dateTime">2021-11-30T13:23:12Z</CRMScript:Updated>
+     <CRMScript:Updated xsi:type="xsd:dateTime">2022-08-26T08:56:41Z</CRMScript:Updated>
      <CRMScript:UpdatedAssociateId xsi:type="xsd:int">0</CRMScript:UpdatedAssociateId>
     </CRMScript:CRMScriptEntity>
    </CRMScript:SaveCRMScriptEntity>
@@ -60,6 +61,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+
 
 ## SaveCRMScriptEntity Response
 
@@ -82,9 +84,9 @@ Application tokens must be specified if calling an Online installation. Applicat
     <CRMScript:IncludeId xsi:type="xsd:string"></CRMScript:IncludeId>
     <CRMScript:HierarchyId xsi:type="xsd:int">0</CRMScript:HierarchyId>
     <CRMScript:Source xsi:type="xsd:string"></CRMScript:Source>
-    <CRMScript:Registered xsi:type="xsd:dateTime">2021-11-30T13:23:12Z</CRMScript:Registered>
+    <CRMScript:Registered xsi:type="xsd:dateTime">2022-08-26T08:56:41Z</CRMScript:Registered>
     <CRMScript:RegisteredAssociateId xsi:type="xsd:int">0</CRMScript:RegisteredAssociateId>
-    <CRMScript:Updated xsi:type="xsd:dateTime">2021-11-30T13:23:12Z</CRMScript:Updated>
+    <CRMScript:Updated xsi:type="xsd:dateTime">2022-08-26T08:56:41Z</CRMScript:Updated>
     <CRMScript:UpdatedAssociateId xsi:type="xsd:int">0</CRMScript:UpdatedAssociateId>
    </CRMScript:Response>
   </CRMScript:SaveCRMScriptEntityResponse>
@@ -92,3 +94,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

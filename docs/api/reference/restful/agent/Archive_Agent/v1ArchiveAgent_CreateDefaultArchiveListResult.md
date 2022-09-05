@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Archive/CreateDefaultArchiveListResult
-id: v1ArchiveAgent_CreateDefaultArchiveListResult
+uid: v1ArchiveAgent_CreateDefaultArchiveListResult
 ---
 
 # POST Agents/Archive/CreateDefaultArchiveListResult
@@ -11,7 +11,14 @@ POST /api/v1/Agents/Archive/CreateDefaultArchiveListResult
 
 Set default values into a new ArchiveListResult.
 
+
 NetServer calculates default values on the entity, which is required when creating/storing a new instance
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -26,18 +33,16 @@ NetServer calculates default values on the entity, which is required when creati
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response: object
 
-Header/Detail variant of archive result, with a Row Count plus the actual rows. Future extensions may include other header data on the same level as the RowCount
+## Response: 
 
-Carrier object for ArchiveListResult.
-Services for the ArchiveListResult Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IArchiveAgent">Archive Agent</see>.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -46,59 +51,52 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Archive/CreateDefaultArchiveListResult
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RowCount": 538,
+  "RowCount": 753,
   "Rows": [
     {
-      "EntityName": "Von Group",
-      "PrimaryKey": 566,
+      "EntityName": "Mitchell-Lesch",
+      "PrimaryKey": 103,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "ipsum",
-          "TooltipHint": "error",
-          "LinkHint": "quis"
+          "DisplayValue": "quo",
+          "TooltipHint": "eos",
+          "LinkHint": "officia"
         }
       },
-      "LinkHint": "dolores",
-      "StyleHint": "sit",
-      "TableRight": {},
+      "LinkHint": "adipisci",
+      "StyleHint": "aliquid",
+      "TableRight": null,
       "FieldProperties": {
         "fieldName": {
-          "FieldRight": {
-            "Mask": "FULL",
-            "Reason": ""
-          },
+          "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 345
+          "FieldLength": 802
         }
       }
     }
   ],
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
-      "FieldType": "System.String",
-      "FieldLength": 996
+      "FieldRight": null,
+      "FieldType": "System.Int32",
+      "FieldLength": 132
     }
   }
 }

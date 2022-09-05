@@ -1,6 +1,6 @@
 ---
 title: POST Agents/ViewState/SaveCurrent
-id: v1ViewStateAgent_SaveCurrent
+uid: v1ViewStateAgent_SaveCurrent
 ---
 
 # POST Agents/ViewState/SaveCurrent
@@ -11,7 +11,13 @@ POST /api/v1/Agents/ViewState/SaveCurrent
 
 Saving the current history item.
 
+
 This history item is saved with Rank = 1, and all the remaining elements rank values are shifted one down. The list is maintained with the max lenght of the History list length preference.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +28,7 @@ This history item is saved with Rank = 1, and all the remaining elements rank va
 ```http
 POST /api/v1/Agents/ViewState/SaveCurrent?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,26 +44,24 @@ POST /api/v1/Agents/ViewState/SaveCurrent?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-Current
+Current 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| Current |  | The usage history of the currently logged in user is represented as History objects. <br /> Carrier object for History. Services for the History Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IViewStateAgent">ViewState Agent</see>. |
+| Current |  | The usage history of the currently logged in user is represented as History objects. <para /> Carrier object for History. Services for the History Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IViewStateAgent">ViewState Agent</see>. |
 
-## Response: object
 
-The usage history of the currently logged in user is represented as History objects.
+## Response: 
 
-Carrier object for History.
-Services for the History Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IViewStateAgent">ViewState Agent</see>.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -70,52 +75,40 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/ViewState/SaveCurrent
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Current": {
-    "Rank": 734,
-    "Id": 145,
-    "HistoryName": "Quitzon-Upton",
-    "HistoryId": 59,
-    "AssociateId": 106,
-    "Name": "Lockman Inc and Sons",
-    "ItemInfo": "architecto"
-  }
+  "Current": null
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Rank": 261,
-  "Id": 268,
-  "HistoryName": "Harvey, Beier and Parker",
-  "HistoryId": 629,
-  "AssociateId": 63,
-  "Name": "Heaney-Wolff",
-  "ItemInfo": "quia",
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "Rank": 76,
+  "Id": 161,
+  "HistoryName": "Cummings, Schumm and DuBuque",
+  "HistoryId": 140,
+  "AssociateId": 5,
+  "Name": "Ernser, Larkin and Howe",
+  "ItemInfo": "nihil",
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
-      "FieldType": "System.String",
-      "FieldLength": 594
+      "FieldRight": null,
+      "FieldType": "System.Int32",
+      "FieldLength": 224
     }
   }
 }

@@ -15,6 +15,8 @@ Change the status of one or more sales to Lost. Note that this does not affect t
 
 * **saleIds:** Array of sale ids to be marked as lost. All normal write access rules apply.
 
+
+
 [WSDL file for Services88/Sale](../Services88-Sale.md)
 
 Obtain a ticket from the [Services88/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -49,6 +51,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## SetAsLost Response
 
 ```xml
@@ -68,3 +71,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

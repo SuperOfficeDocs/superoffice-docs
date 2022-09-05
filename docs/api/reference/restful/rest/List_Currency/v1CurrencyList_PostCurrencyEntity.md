@@ -1,6 +1,6 @@
 ---
 title: POST List/Currency/Items
-id: v1CurrencyList_PostCurrencyEntity
+uid: v1CurrencyList_PostCurrencyEntity
 ---
 
 # POST List/Currency/Items
@@ -11,7 +11,14 @@ POST /api/v1/List/Currency/Items
 
 Create a new CurrencyEntity list item
 
+
 Calls the List agent service SaveCurrencyEntity.
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -27,9 +34,9 @@ Calls the List agent service SaveCurrencyEntity.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: newEntity
+## Request Body: newEntity  
 
-The CurrencyEntity to be created.
+The CurrencyEntity to be created. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -41,16 +48,16 @@ The CurrencyEntity to be created.
 | Units | double | Exchange unit scale (0.01, 0.1, 1, 10, 100 etc) |
 | Deleted | bool | 0 -&gt; record is active 1 -&gt; record is 'deleted' and should not be shown in lists |
 
-## Response: object
 
-Carrier object for CurrencyEntity.
-Services for the CurrencyEntity Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IListAgent">List Agent</see>.
+## Response: 
+
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -64,50 +71,46 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/List/Currency/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "CurrencyId": 729,
-  "Name": "Murphy-Halvorson",
-  "Tooltip": "hic",
-  "Rank": 867,
-  "Rate": 9436.474,
-  "Units": 17923.345999999998,
-  "Deleted": true
+  "CurrencyId": 443,
+  "Name": "Kozey-Frami",
+  "Tooltip": "fugiat",
+  "Rank": 260,
+  "Rate": 6954.346,
+  "Units": 7537.2699999999995,
+  "Deleted": false
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CurrencyId": 78,
-  "Name": "Kihn, Schamberger and Renner",
-  "Tooltip": "et",
-  "Rank": 699,
-  "Rate": 5283.924,
-  "Units": 3541.42,
+  "CurrencyId": 699,
+  "Name": "Carter, Eichmann and Davis",
+  "Tooltip": "veritatis",
+  "Rank": 753,
+  "Rate": 13799.002,
+  "Units": 10589.786,
   "Deleted": false,
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
+      "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 380
+      "FieldLength": 842
     }
   }
 }

@@ -17,6 +17,7 @@ Updates the existing ServiceAuth or creates a new ServiceAuth if the id paramete
 
 **Returns:** New or updated ServiceAuth
 
+
 [WSDL file for Services84/User](../Services84-User.md)
 
 Obtain a ticket from the [Services84/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -56,6 +57,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## SaveServiceAuth Response
 
 ```xml
@@ -83,3 +85,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

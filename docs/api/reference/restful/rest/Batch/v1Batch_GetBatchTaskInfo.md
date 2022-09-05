@@ -1,6 +1,6 @@
 ---
 title: GET BatchTask/{id}
-id: v1Batch_GetBatchTaskInfo
+uid: v1Batch_GetBatchTaskInfo
 ---
 
 # GET BatchTask/{id}
@@ -11,9 +11,16 @@ GET /api/v1/BatchTask/{id}
 
 Get a single BatchTaskInfo based on Id.
 
+
+
+
+
+
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | id | int32 | Id of the BatchTaskInfo to get. **Required** |
+
+
 
 ## Request Headers
 
@@ -28,19 +35,17 @@ Get a single BatchTaskInfo based on Id.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response: object
 
-BatchTaskInfo contains information about one batch task.
+## Response: 
 
-Carrier object for BatchTaskInfo.
-Services for the BatchTaskInfo Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IBatchAgent">Batch Agent</see>.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 | 404 | Not Found. |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -68,56 +73,52 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 GET /api/v1/BatchTask/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 821,
-  "Name": "Hane Group",
-  "AssociateId": 751,
-  "DetailsTable": 113,
-  "DetailsRecord": 822,
-  "IsSystemTask": true,
-  "IsInternalTask": true,
+  "Id": 744,
+  "Name": "Fritsch Group",
+  "AssociateId": 100,
+  "DetailsTable": 176,
+  "DetailsRecord": 364,
+  "IsSystemTask": false,
+  "IsInternalTask": false,
   "ParameterObject": {
-    "ParameterObject1": "veniam",
-    "ParameterObject2": "earum"
+    "ParameterObject1": "labore",
+    "ParameterObject2": "consequatur"
   },
-  "LastStarted": "2001-09-19T18:25:51.3271062+02:00",
-  "Created": "2016-08-09T18:25:51.3271062+02:00",
-  "StartCount": 387,
-  "DatabaseSerialNumber": "697007",
-  "Context": "mollitia",
-  "Result": "ratione",
+  "LastStarted": "1999-05-23T11:10:53.6752128+02:00",
+  "Created": "2015-08-22T11:10:53.6752128+02:00",
+  "StartCount": 21,
+  "DatabaseSerialNumber": "1196485",
+  "Context": "ipsa",
+  "Result": "ad",
   "State": "All",
-  "Description": "Stand-alone incremental matrix",
-  "Response": "voluptatibus",
-  "Request": "fugiat",
-  "ProgressDescription": "Inverse web-enabled methodology",
-  "ProgressPercent": 771,
-  "FileName": "Considine-Nienow",
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "Description": "Customizable modular architecture",
+  "Response": "recusandae",
+  "Request": "nihil",
+  "ProgressDescription": "Sharable systemic secured line",
+  "ProgressPercent": 321,
+  "FileName": "Buckridge, Leffler and Howell",
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
+      "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 319
+      "FieldLength": 456
     }
   }
 }

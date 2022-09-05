@@ -1,6 +1,6 @@
 ---
 title: POST Agents/List/GetHeadingEntity
-id: v1ListAgent_GetHeadingEntity
+uid: v1ListAgent_GetHeadingEntity
 ---
 
 # POST Agents/List/GetHeadingEntity
@@ -11,6 +11,12 @@ POST /api/v1/Agents/List/GetHeadingEntity
 
 Gets a HeadingEntity object.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -19,9 +25,10 @@ Gets a HeadingEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetHeadingEntity?headingEntityId=709
+POST /api/v1/Agents/List/GetHeadingEntity?headingEntityId=106
 POST /api/v1/Agents/List/GetHeadingEntity?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -36,18 +43,16 @@ POST /api/v1/Agents/List/GetHeadingEntity?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response: object
 
-The heading entity contains generic list item information
+## Response: 
 
-Carrier object for HeadingEntity.
-Services for the HeadingEntity Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IListAgent">List Agent</see>.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -60,38 +65,34 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/List/GetHeadingEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 478,
-  "Name": "Lind Group",
-  "Tooltip": "et",
+  "HeadingId": 227,
+  "Name": "Graham, Hermiston and Prohaska",
+  "Tooltip": "reiciendis",
   "Deleted": true,
-  "Rank": 77,
-  "UdListDefinitionId": 438,
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "Rank": 63,
+  "UdListDefinitionId": 620,
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
-      "FieldType": "System.String",
-      "FieldLength": 435
+      "FieldRight": null,
+      "FieldType": "System.Int32",
+      "FieldLength": 446
     }
   }
 }

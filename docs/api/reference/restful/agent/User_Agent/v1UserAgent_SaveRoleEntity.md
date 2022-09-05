@@ -1,6 +1,6 @@
 ---
 title: POST Agents/User/SaveRoleEntity
-id: v1UserAgent_SaveRoleEntity
+uid: v1UserAgent_SaveRoleEntity
 ---
 
 # POST Agents/User/SaveRoleEntity
@@ -11,7 +11,16 @@ POST /api/v1/Agents/User/SaveRoleEntity
 
 Updates the existing RoleEntity or creates a new RoleEntity if the id parameter is empty
 
-## Online Restricted: ## The User agent is not available in Online by default. User management is not allowed for partner apps
+
+
+
+## Online Restricted: ## The User agent is not available in Online by default. User management is not allowed for partner apps.
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -27,9 +36,9 @@ Updates the existing RoleEntity or creates a new RoleEntity if the id parameter 
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entity
+## Request Body: entity  
 
-The RoleEntity to be saved.
+The RoleEntity to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -46,16 +55,16 @@ The RoleEntity to be saved.
 | UpdatedBy |  | Last updated by user |
 | DataRights |  | Data rights matrix - defines role's access to data owned by current user, users in same group, and other users. |
 
-## Response: object
 
-Carrier object for RoleEntity.
-Services for the RoleEntity Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IUserAgent">User Agent</see>.
+## Response: 
+
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -74,247 +83,56 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/User/SaveRoleEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 918,
-  "Name": "O'Hara LLC",
-  "Tooltip": "dolorum",
+  "RoleId": 894,
+  "Name": "Waters, Stamm and Jacobs",
+  "Tooltip": "excepturi",
   "RoleType": "Anonymous",
-  "Deleted": 163,
-  "Rank": 482,
-  "Created": "2012-03-18T18:28:50.4864405+01:00",
-  "UseCategories": 893,
-  "CreatedBy": {
-    "AssociateId": 405,
-    "Name": "Farrell-Hettinger",
-    "PersonId": 105,
-    "Rank": 243,
-    "Tooltip": "voluptas",
-    "Type": "AnonymousAssociate",
-    "GroupIdx": 227,
-    "FullName": "Archibald Sawayn",
-    "FormalName": "Paucek, Bogisich and Huel",
-    "Deleted": false,
-    "EjUserId": 171,
-    "UserName": "Grimes Group"
-  },
-  "Updated": "2007-10-28T18:28:50.4864405+01:00",
-  "UpdatedBy": {
-    "AssociateId": 394,
-    "Name": "Auer-Wisoky",
-    "PersonId": 957,
-    "Rank": 508,
-    "Tooltip": "laudantium",
-    "Type": "AnonymousAssociate",
-    "GroupIdx": 747,
-    "FullName": "Bridgette Erdman",
-    "FormalName": "Howell-Shanahan",
-    "Deleted": true,
-    "EjUserId": 938,
-    "UserName": "Kulas Group"
-  },
-  "DataRights": {
-    "ColumnsInfo": [
-      {},
-      {}
-    ],
-    "RowsInfo": [
-      {},
-      {}
-    ],
-    "Rights": [
-      [
-        {
-          "Value": "tenetur",
-          "Description": "Synergistic multimedia portal",
-          "TableRight": {
-            "Mask": "Delete",
-            "Reason": "facilitate granular e-services"
-          },
-          "FieldProperties": {
-            "fieldName": {
-              "FieldRight": {
-                "Mask": "FULL",
-                "Reason": ""
-              },
-              "FieldType": "System.Int32",
-              "FieldLength": 839
-            }
-          }
-        }
-      ],
-      [
-        {
-          "Value": "dicta",
-          "Description": "Extended background secured line",
-          "TableRight": {
-            "Mask": "Delete",
-            "Reason": ""
-          },
-          "FieldProperties": {
-            "fieldName": {
-              "FieldRight": {
-                "Mask": "FULL",
-                "Reason": ""
-              },
-              "FieldType": "System.Int32",
-              "FieldLength": 741
-            }
-          }
-        }
-      ]
-    ]
-  }
+  "Deleted": 52,
+  "Rank": 543,
+  "Created": "1997-02-26T11:10:28.3552067+01:00",
+  "UseCategories": 153,
+  "CreatedBy": null,
+  "Updated": "2022-04-10T11:10:28.3552067+02:00",
+  "UpdatedBy": null,
+  "DataRights": null
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 986,
-  "Name": "Wilkinson, Weimann and Funk",
-  "Tooltip": "ab",
+  "RoleId": 251,
+  "Name": "Mann Inc and Sons",
+  "Tooltip": "vel",
   "RoleType": "Anonymous",
-  "Deleted": 631,
-  "Rank": 276,
-  "Created": "2002-04-08T18:28:50.4884136+02:00",
-  "UseCategories": 436,
-  "CreatedBy": {
-    "AssociateId": 942,
-    "Name": "Lakin-Fisher",
-    "PersonId": 319,
-    "Rank": 328,
-    "Tooltip": "id",
-    "Type": "AnonymousAssociate",
-    "GroupIdx": 993,
-    "FullName": "Alfreda Marquardt",
-    "FormalName": "Christiansen-Yundt",
-    "Deleted": true,
-    "EjUserId": 25,
-    "UserName": "Corkery, Kuhic and Koch",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 433
-      }
-    }
-  },
-  "Updated": "2015-09-05T18:28:50.489413+02:00",
-  "UpdatedBy": {
-    "AssociateId": 912,
-    "Name": "Ziemann, Gutkowski and Crooks",
-    "PersonId": 805,
-    "Rank": 714,
-    "Tooltip": "tempore",
-    "Type": "AnonymousAssociate",
-    "GroupIdx": 910,
-    "FullName": "Edwin Mohr",
-    "FormalName": "Ullrich, Zemlak and Langosh",
-    "Deleted": false,
-    "EjUserId": 368,
-    "UserName": "O'Keefe, Berge and Larson",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 947
-      }
-    }
-  },
-  "DataRights": {
-    "ColumnsInfo": [
-      {},
-      {}
-    ],
-    "RowsInfo": [
-      {},
-      {}
-    ],
-    "Rights": [
-      [
-        {
-          "Value": "ea",
-          "Description": "Balanced fault-tolerant success",
-          "TableRight": {
-            "Mask": "Delete",
-            "Reason": ""
-          },
-          "FieldProperties": {
-            "fieldName": {
-              "FieldRight": {
-                "Mask": "FULL",
-                "Reason": ""
-              },
-              "FieldType": "System.String",
-              "FieldLength": 291
-            }
-          }
-        }
-      ],
-      [
-        {
-          "Value": "eos",
-          "Description": "User-centric high-level algorithm",
-          "TableRight": {
-            "Mask": "Delete",
-            "Reason": ""
-          },
-          "FieldProperties": {
-            "fieldName": {
-              "FieldRight": {
-                "Mask": "FULL",
-                "Reason": ""
-              },
-              "FieldType": "System.String",
-              "FieldLength": 556
-            }
-          }
-        }
-      ]
-    ],
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 66
-      }
-    }
-  },
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "Deleted": 329,
+  "Rank": 360,
+  "Created": "2004-11-17T11:10:28.3572068+01:00",
+  "UseCategories": 298,
+  "CreatedBy": null,
+  "Updated": "1999-07-09T11:10:28.3572068+02:00",
+  "UpdatedBy": null,
+  "DataRights": null,
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
+      "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 648
+      "FieldLength": 838
     }
   }
 }

@@ -17,6 +17,7 @@ Gets the window and dialog position and size settings belonging to the specified
 
 **Returns:** Array of window and dialog position and size settings
 
+
 [WSDL file for Services88/Configuration](../Services88-Configuration.md)
 
 Obtain a ticket from the [Services88/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -48,6 +49,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+
 
 ## GetWindowPosSizesOnAssociateId Response
 
@@ -83,3 +85,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

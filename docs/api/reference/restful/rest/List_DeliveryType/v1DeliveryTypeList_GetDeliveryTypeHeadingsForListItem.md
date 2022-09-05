@@ -1,6 +1,6 @@
 ---
 title: GET List/DeliveryType/Items/{id}/Headings
-id: v1DeliveryTypeList_GetDeliveryTypeHeadingsForListItem
+uid: v1DeliveryTypeList_GetDeliveryTypeHeadingsForListItem
 ---
 
 # GET List/DeliveryType/Items/{id}/Headings
@@ -11,11 +11,17 @@ GET /api/v1/List/DeliveryType/Items/{itemId}/Headings
 
 Gets headings for the DeliveryType list's item.
 
+
 Calls the List agent service GetHeadings.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | itemId | int32 | The ID of the headings to be get. **Required** |
+
 
 ## Query String Parameters
 
@@ -24,8 +30,9 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/DeliveryType/Items/{itemId}/Headings?showDeleted=False
+GET /api/v1/List/DeliveryType/Items/{itemId}/Headings?showDeleted=True
 ```
+
 
 ## Request Headers
 
@@ -40,7 +47,10 @@ GET /api/v1/List/DeliveryType/Items/{itemId}/Headings?showDeleted=False
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -68,14 +78,16 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 GET /api/v1/List/DeliveryType/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -83,65 +95,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 699,
-    "Name": "Fisher Inc and Sons",
-    "ToolTip": "Ullam sunt.",
+    "Id": 546,
+    "Name": "Gorczany Group",
+    "ToolTip": "Assumenda incidunt hic veritatis.",
     "Deleted": false,
-    "Rank": 671,
-    "Type": "voluptas",
-    "ColorBlock": 977,
-    "IconHint": "et",
+    "Rank": 553,
+    "Type": "eligendi",
+    "ColorBlock": 689,
+    "IconHint": "asperiores",
     "Selected": false,
-    "LastChanged": "2020-01-11T18:25:51.818322+01:00",
+    "LastChanged": "2018-02-10T11:10:54.2688992+01:00",
     "ChildItems": [
       {
-        "Id": 11,
-        "Name": "Farrell-Konopelski",
-        "ToolTip": "Sed sunt autem et et qui et.",
+        "Id": 150,
+        "Name": "Hyatt, Leffler and Wisozk",
+        "ToolTip": "Cumque voluptates voluptatum odio veniam.",
         "Deleted": true,
-        "Rank": 15,
-        "Type": "voluptates",
-        "ColorBlock": 990,
-        "IconHint": "hic",
+        "Rank": 94,
+        "Type": "ducimus",
+        "ColorBlock": 535,
+        "IconHint": "officiis",
         "Selected": false,
-        "LastChanged": "2002-11-01T18:25:51.818322+01:00",
+        "LastChanged": "2005-05-09T11:10:54.2688992+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "neque",
-        "StyleHint": "nesciunt",
-        "Hidden": true,
-        "FullName": "Ms. Berniece Kassulke",
-        "TableRight": {},
+        "ExtraInfo": "aperiam",
+        "StyleHint": "id",
+        "Hidden": false,
+        "FullName": "Maximo Leffler",
+        "TableRight": null,
         "FieldProperties": {
           "fieldName": {
-            "FieldRight": {
-              "Mask": "FULL",
-              "Reason": ""
-            },
+            "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 312
+            "FieldLength": 250
           }
         }
       }
     ],
-    "ExtraInfo": "corporis",
-    "StyleHint": "quisquam",
+    "ExtraInfo": "ea",
+    "StyleHint": "id",
     "Hidden": false,
-    "FullName": "Lesly Streich",
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "FullName": "Miss Yvonne Thiel",
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
+        "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 657
+        "FieldLength": 25
       }
     }
   }

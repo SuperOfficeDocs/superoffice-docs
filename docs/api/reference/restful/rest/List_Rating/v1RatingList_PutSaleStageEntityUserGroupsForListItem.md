@@ -1,6 +1,6 @@
 ---
 title: PUT List/Rating/Items/{id}/UserGroups
-id: v1RatingList_PutSaleStageEntityUserGroupsForListItem
+uid: v1RatingList_PutSaleStageEntityUserGroupsForListItem
 ---
 
 # PUT List/Rating/Items/{id}/UserGroups
@@ -11,11 +11,18 @@ PUT /api/v1/List/Rating/Items/{itemId}/UserGroups
 
 Saves user groups visible for the SaleStageEntity list's item.
 
+
 Calls the List agent service SaveHeadingsForListItemFromListDefinition.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | itemId | int32 | The ID of the item to save. **Required** |
+
+
 
 ## Request Headers
 
@@ -31,9 +38,9 @@ Calls the List agent service SaveHeadingsForListItemFromListDefinition.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entities
+## Request Body: entities  
 
-The headings to be saved.
+The headings to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -53,7 +60,10 @@ The headings to be saved.
 | Hidden | bool | True if the ListItem is hidden |
 | FullName | string | The name of the ListItem in its context |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -81,56 +91,58 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 PUT /api/v1/List/Rating/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 309,
-    "Name": "Homenick, Crooks and White",
-    "ToolTip": "Repellendus dolor consequatur.",
-    "Deleted": true,
-    "Rank": 528,
-    "Type": "consectetur",
-    "ColorBlock": 488,
-    "IconHint": "eius",
+    "Id": 799,
+    "Name": "Wilkinson-Bernier",
+    "ToolTip": "Ab aut accusantium illo.",
+    "Deleted": false,
+    "Rank": 697,
+    "Type": "rerum",
+    "ColorBlock": 156,
+    "IconHint": "ut",
     "Selected": true,
-    "LastChanged": "2012-05-14T18:25:52.1180192+02:00",
+    "LastChanged": "2019-03-28T11:10:54.5349296+01:00",
     "ChildItems": [
       {
-        "Id": 721,
-        "Name": "Upton, Frami and Collier",
-        "ToolTip": "Sed sunt tenetur perspiciatis laboriosam est soluta.",
-        "Deleted": true,
-        "Rank": 609,
-        "Type": "et",
-        "ColorBlock": 28,
-        "IconHint": "sed",
+        "Id": 429,
+        "Name": "Dickinson-Wisozk",
+        "ToolTip": "Sed quia.",
+        "Deleted": false,
+        "Rank": 424,
+        "Type": "voluptatem",
+        "ColorBlock": 404,
+        "IconHint": "et",
         "Selected": true,
-        "LastChanged": "2021-07-24T18:25:52.1180192+02:00",
+        "LastChanged": "2013-11-27T11:10:54.5349296+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "nisi",
-        "StyleHint": "ratione",
+        "ExtraInfo": "natus",
+        "StyleHint": "dolor",
         "Hidden": false,
-        "FullName": "Moriah Beer"
+        "FullName": "Gaston Wehner"
       }
     ],
-    "ExtraInfo": "quaerat",
-    "StyleHint": "eos",
+    "ExtraInfo": "commodi",
+    "StyleHint": "facere",
     "Hidden": false,
-    "FullName": "Katrina Beier"
+    "FullName": "Philip Maggio"
   }
 ]
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -138,65 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 765,
-    "Name": "Ward, Volkman and Stokes",
-    "ToolTip": "Veritatis quia.",
-    "Deleted": false,
-    "Rank": 767,
-    "Type": "repudiandae",
-    "ColorBlock": 288,
-    "IconHint": "distinctio",
+    "Id": 786,
+    "Name": "Stark, Johns and Hackett",
+    "ToolTip": "Culpa molestias perspiciatis dicta enim.",
+    "Deleted": true,
+    "Rank": 573,
+    "Type": "numquam",
+    "ColorBlock": 286,
+    "IconHint": "sint",
     "Selected": false,
-    "LastChanged": "2004-02-18T18:25:52.1200204+01:00",
+    "LastChanged": "2021-02-19T11:10:54.5359304+01:00",
     "ChildItems": [
       {
-        "Id": 370,
-        "Name": "Boehm, Doyle and Collier",
-        "ToolTip": "Recusandae quis sit voluptas sint tempore.",
+        "Id": 378,
+        "Name": "Hettinger Inc and Sons",
+        "ToolTip": "Deserunt dolores ab fuga nam voluptas deleniti.",
         "Deleted": true,
-        "Rank": 948,
-        "Type": "rem",
-        "ColorBlock": 496,
-        "IconHint": "perferendis",
-        "Selected": true,
-        "LastChanged": "2006-07-03T18:25:52.1200204+02:00",
+        "Rank": 840,
+        "Type": "qui",
+        "ColorBlock": 236,
+        "IconHint": "voluptatibus",
+        "Selected": false,
+        "LastChanged": "2008-06-07T11:10:54.5359304+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "impedit",
-        "StyleHint": "consequatur",
-        "Hidden": true,
-        "FullName": "Susie Connelly",
-        "TableRight": {},
+        "ExtraInfo": "quasi",
+        "StyleHint": "est",
+        "Hidden": false,
+        "FullName": "Clinton Grady",
+        "TableRight": null,
         "FieldProperties": {
           "fieldName": {
-            "FieldRight": {
-              "Mask": "FULL",
-              "Reason": ""
-            },
+            "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 92
+            "FieldLength": 999
           }
         }
       }
     ],
-    "ExtraInfo": "mollitia",
-    "StyleHint": "labore",
+    "ExtraInfo": "vel",
+    "StyleHint": "minus",
     "Hidden": false,
-    "FullName": "Taryn Zieme",
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "FullName": "Prof. Lysanne Pierce Wyman II",
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
+        "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 703
+        "FieldLength": 187
       }
     }
   }

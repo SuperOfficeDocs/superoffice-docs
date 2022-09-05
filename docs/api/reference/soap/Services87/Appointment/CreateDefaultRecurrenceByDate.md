@@ -15,6 +15,8 @@ Creates a RecurrenceInfo object populated with the default values for the specif
 
 * **startDate:** Date of which the recurring pattern should start.
 
+
+
 [WSDL file for Services87/Appointment](../Services87-Appointment.md)
 
 Obtain a ticket from the [Services87/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -39,13 +41,14 @@ Application tokens must be specified if calling an Online installation. Applicat
   </Appointment:Credentials>
  <SOAP-ENV:Body>
    <Appointment:CreateDefaultRecurrenceByDate>
-    <Appointment:StartDate xsi:type="xsd:dateTime">2021-11-30T13:23:08Z</Appointment:StartDate>
+    <Appointment:StartDate xsi:type="xsd:dateTime">2022-08-26T08:56:13Z</Appointment:StartDate>
    </Appointment:CreateDefaultRecurrenceByDate>
 
  </SOAP-ENV:Body>
 </SOAP-ENV:Envelope>
 
 ```
+
 
 ## CreateDefaultRecurrenceByDate Response
 
@@ -63,8 +66,8 @@ Application tokens must be specified if calling an Online installation. Applicat
   <Appointment:CreateDefaultRecurrenceByDateResponse>
    <Appointment:Response xsi:type="Appointment:RecurrenceInfo">
     <Appointment:RecurrenceId xsi:type="xsd:int">0</Appointment:RecurrenceId>
-    <Appointment:StartDate xsi:type="xsd:dateTime">2021-11-30T13:23:08Z</Appointment:StartDate>
-    <Appointment:EndDate xsi:type="xsd:dateTime">2021-11-30T13:23:08Z</Appointment:EndDate>
+    <Appointment:StartDate xsi:type="xsd:dateTime">2022-08-26T08:56:13Z</Appointment:StartDate>
+    <Appointment:EndDate xsi:type="xsd:dateTime">2022-08-26T08:56:13Z</Appointment:EndDate>
     <Appointment:RecurrenceEndType xsi:type="Appointment:RecurrenceEndType">Unknown</Appointment:RecurrenceEndType>
     <Appointment:Pattern xsi:type="Appointment:RecurrencePattern">Unknown</Appointment:Pattern>
     <Appointment:DayPattern xsi:type="Appointment:RecurrenceDayPattern">
@@ -91,7 +94,7 @@ Application tokens must be specified if calling an Online installation. Applicat
     </Appointment:YearPattern>
     <Appointment:Dates xsi:type="Appointment:ArrayOfRecurrenceDate">
      <Appointment:RecurrenceDate xsi:type="Appointment:RecurrenceDate">
-      <Appointment:Date xsi:type="xsd:dateTime">2021-11-30T13:23:08Z</Appointment:Date>
+      <Appointment:Date xsi:type="xsd:dateTime">2022-08-26T08:56:13Z</Appointment:Date>
       <Appointment:IsConflict xsi:type="xsd:boolean">false</Appointment:IsConflict>
       <Appointment:Description xsi:type="xsd:string"></Appointment:Description>
       <Appointment:DescriptionStyleHint xsi:type="xsd:string"></Appointment:DescriptionStyleHint>
@@ -106,3 +109,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

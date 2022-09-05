@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Preference/GetPreference
-id: v1PreferenceAgent_GetPreference
+uid: v1PreferenceAgent_GetPreference
 ---
 
 # POST Agents/Preference/GetPreference
@@ -11,6 +11,12 @@ POST /api/v1/Agents/Preference/GetPreference
 
 Get a preference by id
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Get a preference by id
 ```http
 POST /api/v1/Agents/Preference/GetPreference?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,26 +42,24 @@ POST /api/v1/Agents/Preference/GetPreference?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-Id
+Id 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | Id | int32 |  |
 
-## Response: object
 
-One preference item, which contains a specification (section/key), the raw string value, and the level at which this value was found.
+## Response: 
 
-Carrier object for Preference.
-Services for the Preference Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IPreferenceAgent">Preference Agent</see>.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -72,19 +77,21 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Preference/GetPreference
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 746
+  "Id": 825
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -92,58 +99,22 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Level": "Database",
-  "RawValue": "ad",
-  "Specification": {
-    "Section": "unde",
-    "Key": "temporibus",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": "envisioneer front-end applications"
-        },
-        "FieldType": "System.Int32",
-        "FieldLength": 574
-      }
-    }
-  },
-  "DisplayValue": "quis",
-  "DisplayTooltip": "dicta",
+  "RawValue": "sint",
+  "Specification": null,
+  "DisplayValue": "nam",
+  "DisplayTooltip": "fuga",
   "DisplayType": "Bool",
-  "TabOrder": {
-    "TabOrderId": 107,
-    "TabName": "Kiehn Inc and Sons",
-    "Order": "dolores",
-    "AssociateId": 741,
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.Int32",
-        "FieldLength": 573
-      }
-    }
-  },
-  "TargetId": 851,
-  "PrefDescId": 415,
-  "TableName": "Denesik-Berge",
-  "UserPreferenceId": 75,
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "TabOrder": null,
+  "TargetId": 111,
+  "PrefDescId": 409,
+  "TableName": "Ankunding, Schulist and Parisian",
+  "UserPreferenceId": 954,
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
-      "FieldType": "System.String",
-      "FieldLength": 703
+      "FieldRight": null,
+      "FieldType": "System.Int32",
+      "FieldLength": 815
     }
   }
 }

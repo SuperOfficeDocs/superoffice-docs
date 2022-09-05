@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Quote/GetConnection
-id: v1QuoteAgent_GetConnection
+uid: v1QuoteAgent_GetConnection
 ---
 
 # POST Agents/Quote/GetConnection
@@ -11,6 +11,12 @@ POST /api/v1/Agents/Quote/GetConnection
 
 Returns the specified connection.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Returns the specified connection.
 ```http
 POST /api/v1/Agents/Quote/GetConnection?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,26 +42,24 @@ POST /api/v1/Agents/Quote/GetConnection?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-QuoteConnectionId
+QuoteConnectionId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | QuoteConnectionId | int32 |  |
 
-## Response: object
 
-Information about a connection to the ERP system.
+## Response: 
 
-Carrier object for QuoteConnection.
-Services for the QuoteConnection Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IQuoteAgent">Quote Agent</see>.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -76,73 +81,55 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Quote/GetConnection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 718
+  "QuoteConnectionId": 984
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 113,
-  "ERPName": "Roob Inc and Sons",
-  "DisplayName": "Homenick LLC",
-  "DisplayDescription": "Open-architected encompassing standardization",
-  "Rank": 390,
-  "ConnectorName": "Cruickshank-Hyatt",
-  "ErpConnectionId": 575,
+  "QuoteConnectionId": 320,
+  "ERPName": "Klocko, Bins and Blanda",
+  "DisplayName": "Cartwright, Mertz and Runte",
+  "DisplayDescription": "Upgradable responsive model",
+  "Rank": 963,
+  "ConnectorName": "Schoen Inc and Sons",
+  "ErpConnectionId": 840,
   "ExtraData": "dolor",
-  "IsAvailable": true,
-  "InitializeResponse": {
-    "IsOk": true,
-    "UserExplanation": "omnis",
-    "TechExplanation": "est",
-    "ErrorCode": "unde",
-    "Changes": {},
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.Int32",
-        "FieldLength": 356
-      }
-    }
-  },
+  "IsAvailable": false,
+  "InitializeResponse": null,
   "PriceLists": [
     {
-      "PriceListId": 872,
-      "ERPPriceListKey": "voluptas",
-      "QuoteConnectionId": 149,
-      "Name": "Yundt-Rosenbaum",
-      "Description": "Multi-lateral 6th generation matrix",
-      "Currency": "itaque",
-      "CurrencyName": "Hermiston Group",
-      "ValidFrom": "2001-06-20T18:28:49.9381371+02:00",
-      "ValidTo": "2009-03-11T18:28:49.9381371+01:00",
+      "PriceListId": 371,
+      "ERPPriceListKey": "earum",
+      "QuoteConnectionId": 222,
+      "Name": "Raynor Inc and Sons",
+      "Description": "Public-key solution-oriented encryption",
+      "Currency": "autem",
+      "CurrencyName": "Stoltenberg-Schaden",
+      "ValidFrom": "2001-05-19T11:10:27.7064918+02:00",
+      "ValidTo": "2015-12-03T11:10:27.7064918+01:00",
       "IsActive": false,
-      "TableRight": {},
+      "TableRight": null,
       "FieldProperties": {
         "fieldName": {
-          "FieldRight": {
-            "Mask": "FULL",
-            "Reason": ""
-          },
-          "FieldType": "System.Int32",
-          "FieldLength": 523
+          "FieldRight": null,
+          "FieldType": "System.String",
+          "FieldLength": 5
         }
       }
     }
@@ -150,25 +137,19 @@ Content-Type: application/json; charset=utf-8
   "AllAccess": true,
   "Deleted": true,
   "UserGroupAccessIds": [
-    426,
-    400
+    50,
+    808
   ],
   "AssociateAccessIds": [
-    770,
-    318
+    351,
+    92
   ],
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
+      "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 159
+      "FieldLength": 841
     }
   }
 }

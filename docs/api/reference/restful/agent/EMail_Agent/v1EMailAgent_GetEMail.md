@@ -1,6 +1,6 @@
 ---
 title: POST Agents/EMail/GetEMail
-id: v1EMailAgent_GetEMail
+uid: v1EMailAgent_GetEMail
 ---
 
 # POST Agents/EMail/GetEMail
@@ -11,7 +11,15 @@ POST /api/v1/Agents/EMail/GetEMail
 
 Get en e-mail based on its primary key in the DB
 
-## Online Restricted: ## The EMail agent is not available in Online by default. Access must be requested specifically when app is registered
+
+
+
+## Online Restricted: ## The EMail agent is not available in Online by default. Access must be requested specifically when app is registered.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +30,7 @@ Get en e-mail based on its primary key in the DB
 ```http
 POST /api/v1/Agents/EMail/GetEMail?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,27 +46,25 @@ POST /api/v1/Agents/EMail/GetEMail?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-Id, IncludeAttachments
+Id, IncludeAttachments 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | Id | int32 |  |
 | IncludeAttachments | bool |  |
 
-## Response: object
 
-All information about an e-mail
+## Response: 
 
-Carrier object for EMailEntity.
-Services for the EMailEntity Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IEMailAgent">EMail Agent</see>.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -90,20 +97,22 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/EMail/GetEMail
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 199,
-  "IncludeAttachments": true
+  "Id": 218,
+  "IncludeAttachments": false
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -112,248 +121,155 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 594,
-      "ContactName": "Bode, Muller and Corwin",
-      "PersonId": 247,
-      "PersonName": "Johnston-Beer",
-      "AssociateId": 61,
-      "Address": "et",
-      "EmailId": 756,
+      "ContactId": 129,
+      "ContactName": "Wehner Group",
+      "PersonId": 651,
+      "PersonName": "Larson-Marks",
+      "AssociateId": 918,
+      "Address": "sequi",
+      "EmailId": 473,
       "DuplicatePersonIds": [
-        130,
-        627
+        482,
+        493
       ],
-      "Name": "Streich, Hansen and Greenholt",
-      "TableRight": {},
+      "Name": "Rohan, Mohr and Cormier",
+      "TableRight": null,
       "FieldProperties": {
         "fieldName": {
-          "FieldRight": {
-            "Mask": "FULL",
-            "Reason": ""
-          },
+          "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 835
+          "FieldLength": 983
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 485,
-      "ContactName": "Lemke LLC",
-      "PersonId": 875,
-      "PersonName": "Wilkinson-Purdy",
-      "AssociateId": 653,
-      "Address": "harum",
-      "EmailId": 580,
+      "ContactId": 73,
+      "ContactName": "D'Amore-Runte",
+      "PersonId": 111,
+      "PersonName": "Nader, Lakin and Wuckert",
+      "AssociateId": 149,
+      "Address": "officia",
+      "EmailId": 489,
       "DuplicatePersonIds": [
-        478,
-        137
+        255,
+        335
       ],
-      "Name": "Price Inc and Sons",
-      "TableRight": {},
+      "Name": "Hirthe Inc and Sons",
+      "TableRight": null,
       "FieldProperties": {
         "fieldName": {
-          "FieldRight": {
-            "Mask": "FULL",
-            "Reason": ""
-          },
-          "FieldType": "System.String",
-          "FieldLength": 35
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 221
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 717,
-      "ContactName": "Rohan-Sauer",
-      "PersonId": 582,
-      "PersonName": "DuBuque LLC",
-      "AssociateId": 773,
-      "Address": "quis",
-      "EmailId": 484,
+      "ContactId": 780,
+      "ContactName": "Zulauf, Olson and Hilpert",
+      "PersonId": 380,
+      "PersonName": "Sanford, Kuhlman and Hettinger",
+      "AssociateId": 498,
+      "Address": "nobis",
+      "EmailId": 209,
       "DuplicatePersonIds": [
-        837,
-        600
+        141,
+        442
       ],
-      "Name": "Morar-McGlynn",
-      "TableRight": {},
+      "Name": "Reynolds Group",
+      "TableRight": null,
       "FieldProperties": {
         "fieldName": {
-          "FieldRight": {
-            "Mask": "FULL",
-            "Reason": ""
-          },
+          "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 355
+          "FieldLength": 440
         }
       }
     }
   ],
-  "Subject": "illum",
-  "HTMLBody": "omnis",
-  "From": {
-    "ContactId": 151,
-    "ContactName": "Smitham, Murazik and Collins",
-    "PersonId": 526,
-    "PersonName": "Kessler, Schmidt and Runolfsson",
-    "AssociateId": 719,
-    "Address": "debitis",
-    "EmailId": 294,
-    "DuplicatePersonIds": [
-      302,
-      751
-    ],
-    "Name": "Thompson Inc and Sons",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": "expedite back-end systems"
-        },
-        "FieldType": "System.Int32",
-        "FieldLength": 573
-      }
-    }
-  },
-  "Sent": "1998-11-14T18:28:49.0609673+01:00",
-  "Size": 753,
+  "Subject": "unde",
+  "HTMLBody": "reprehenderit",
+  "From": null,
+  "Sent": "2012-08-18T11:10:26.9784523+02:00",
+  "Size": 880,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "quisquam",
-  "PlainBody": "incidunt",
+  "MessageID": "architecto",
+  "PlainBody": "voluptatem",
   "IsSent": true,
-  "EMailSOInfo": {
-    "DocumentId": 426,
-    "AppointmentId": 368,
-    "ProjectId": 913,
-    "SaleId": 637,
-    "Archived": true,
-    "ArchivedAt": "2010-10-22T18:28:49.0609673+02:00",
-    "ArchivedBy": 43,
-    "ArchivedDisplayName": "Simonis LLC",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.Int32",
-        "FieldLength": 648
-      }
-    }
-  },
-  "ServerId": 355,
+  "EMailSOInfo": null,
+  "ServerId": 757,
   "Attachments": [
     {
-      "Description": "Digitized incremental matrix",
-      "Filename": "blanditiis",
-      "Size": 510,
-      "Type": "sit",
-      "Encoding": "error",
-      "Id": "magni",
-      "Disposition": "sed",
+      "Description": "Intuitive neutral architecture",
+      "Filename": "et",
+      "Size": 17,
+      "Type": "tempore",
+      "Encoding": "et",
+      "Id": "eos",
+      "Disposition": "quasi",
       "Stream": "GIF89....File contents as raw bytes...",
-      "TableRight": {},
+      "TableRight": null,
       "FieldProperties": {
         "fieldName": {
-          "FieldRight": {
-            "Mask": "FULL",
-            "Reason": ""
-          },
-          "FieldType": "System.Int32",
-          "FieldLength": 646
+          "FieldRight": null,
+          "FieldType": "System.String",
+          "FieldLength": 796
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Terry, Homenick and Gaylord",
+      "Name": "Casper, Abshire and Kessler",
       "Values": [
-        "accusamus",
-        "illo"
+        "itaque",
+        "voluptatem"
       ],
-      "TableRight": {},
+      "TableRight": null,
       "FieldProperties": {
         "fieldName": {
-          "FieldRight": {
-            "Mask": "FULL",
-            "Reason": ""
-          },
-          "FieldType": "System.Int32",
-          "FieldLength": 257
+          "FieldRight": null,
+          "FieldType": "System.String",
+          "FieldLength": 311
         }
       }
     },
     {
-      "Name": "Terry, Homenick and Gaylord",
+      "Name": "Casper, Abshire and Kessler",
       "Values": [
-        "accusamus",
-        "illo"
+        "itaque",
+        "voluptatem"
       ],
-      "TableRight": {},
+      "TableRight": null,
       "FieldProperties": {
         "fieldName": {
-          "FieldRight": {
-            "Mask": "FULL",
-            "Reason": ""
-          },
-          "FieldType": "System.Int32",
-          "FieldLength": 257
+          "FieldRight": null,
+          "FieldType": "System.String",
+          "FieldLength": 311
         }
       }
     }
   ],
-  "FolderName": "Macejkovic, Braun and Effertz",
-  "EmailItemId": 495,
-  "AccountId": 796,
-  "ReceivedAt": "2018-07-18T18:28:49.0619695+02:00",
-  "InReplyTo": {
-    "ServerId": 853,
-    "MessageId": "et",
-    "Subject": "sit",
-    "From": {},
-    "To": [
-      {},
-      {}
-    ],
-    "Sent": "2011-10-23T18:28:49.0619695+02:00",
-    "Priority": "High",
-    "Flags": "Answered",
-    "Size": 277,
-    "EMailSOInfo": {},
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.Int32",
-        "FieldLength": 657
-      }
-    }
-  },
-  "RepliedAt": "2003-07-03T18:28:49.0619695+02:00",
+  "FolderName": "Sawayn Group",
+  "EmailItemId": 274,
+  "AccountId": 516,
+  "ReceivedAt": "2010-11-12T11:10:26.9784523+01:00",
+  "InReplyTo": null,
+  "RepliedAt": "2013-03-02T11:10:26.9784523+01:00",
   "HasCalendarData": true,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
+      "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 402
+      "FieldLength": 108
     }
   }
 }

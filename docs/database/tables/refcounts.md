@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "RefCounts"
-so.date: 04.12.2022
+so.date: 08.26.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -15,7 +15,7 @@ so.envir:
 
 # RefCounts Table (171)
 
-Number counter for all tables that generate numbers, e.g. templates, contacts...   This table is used for the number allocation system and should not be confused with sequence, used for allocating internal ID&apos;s. This table is replicated during generation of satellites and during local update for travellers, using special logic. By default it contains rows for the SuperOffice standard counters, including one row for each DocTemplate record.  It is permissible to add new rows to this table, and such records are maintainable through the Maintenance client.  Changing the contents of the standard records is not recommended.
+Number counter for all tables that generate numbers, e.g. templates, contacts...   This table is used for the number allocation system and should not be confused with sequence, used for allocating internal ID&apos;s. This table is replicated during generation of satellites and during local update for travellers, using special logic. By default it contains rows for the SuperOffice standard counters, including one row for each DocTemplate record.  It is permissible to add new rows to this table, and such records are maintainable through the Maintenance client.  Changing the contents of the standard records is not recommended. 
 
 ## Fields
 
@@ -33,6 +33,7 @@ Number counter for all tables that generate numbers, e.g. templates, contacts...
 |updated|Last updated when|UtcDateTime| |
 |updated\_associate\_id|Last updated by whom|FK [associate](associate.md)| |
 |updatedCount|Number of updates made to this record|UShort| |
+
 
 ![RefCounts table relationship diagram](./media/RefCounts.png)
 
@@ -54,6 +55,7 @@ Number counter for all tables that generate numbers, e.g. templates, contacts...
 |[associate](associate.md)  |Employees, resources and other users - except for External persons |
 |[RefCountRange](refcountrange.md)  |Number allocation system, for keeping track of ranges of numbers loaned out to travel and satellite databases |
 
+
 ## Replication Flags
 
 * Area Management controlled table. Contents replicated to satellites and traveller databases.
@@ -62,3 +64,4 @@ Number counter for all tables that generate numbers, e.g. templates, contacts...
 ## Security Flags
 
 * No access control via user's Role.
+

@@ -11,9 +11,13 @@ Implemented by the <see cref="M:SuperOffice.Services88.ISaleAgent.GetSummaryByCo
 
 ## GetSummaryByContact
 
-* **contactId:**
-* **fromDate:**
-* **toDate:**
+
+
+* **contactId:** 
+* **fromDate:** 
+* **toDate:** 
+
+
 
 [WSDL file for Services88/Sale](../Services88-Sale.md)
 
@@ -40,14 +44,15 @@ Application tokens must be specified if calling an Online installation. Applicat
  <SOAP-ENV:Body>
    <Sale:GetSummaryByContact>
     <Sale:ContactId xsi:type="xsd:int">0</Sale:ContactId>
-    <Sale:FromDate xsi:type="xsd:dateTime">2021-11-30T13:23:51Z</Sale:FromDate>
-    <Sale:ToDate xsi:type="xsd:dateTime">2021-11-30T13:23:51Z</Sale:ToDate>
+    <Sale:FromDate xsi:type="xsd:dateTime">2022-08-26T09:00:27Z</Sale:FromDate>
+    <Sale:ToDate xsi:type="xsd:dateTime">2022-08-26T09:00:27Z</Sale:ToDate>
    </Sale:GetSummaryByContact>
 
  </SOAP-ENV:Body>
 </SOAP-ENV:Envelope>
 
 ```
+
 
 ## GetSummaryByContact Response
 
@@ -98,3 +103,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

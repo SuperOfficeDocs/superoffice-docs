@@ -1,6 +1,6 @@
 ---
 title: PUT Person/{id}/ImageInfo
-id: v1PersonEntity_PutImageInfo
+uid: v1PersonEntity_PutImageInfo
 ---
 
 # PUT Person/{id}/ImageInfo
@@ -11,11 +11,18 @@ PUT /api/v1/Person/{personId}/ImageInfo
 
 Update the Blob that describes the given person's picture.
 
+
 The actual bitmap is accessible via /api/Services80/person/123/image/content.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | personId | int32 | Person id **Required** |
+
+
 
 ## Request Headers
 
@@ -31,9 +38,9 @@ The actual bitmap is accessible via /api/Services80/person/123/image/content.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: imageInfo
+## Request Body: imageInfo  
 
-New or Updated information about the person image.
+New or Updated information about the person image. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -51,16 +58,16 @@ New or Updated information about the person image.
 | UpdatedBy |  | The person that last updated the appointment. |
 | ConceptualType | string | The type, for instance PHOTO, PERSONPHOTO, or whatever, that is descriptive of what kind of image or data this is |
 
-## Response: object
 
-Carrier object for BlobEntity.
-Services for the BlobEntity Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IBLOBAgent">BLOB Agent</see>.
+## Response: 
+
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -80,7 +87,7 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 PUT /api/v1/Person/{personId}/ImageInfo
@@ -90,126 +97,48 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 739,
-  "BlobSize": 971,
-  "Description": "Enhanced maximized open architecture",
-  "ExtraInfo": "quia",
-  "IsEncrypted": false,
-  "IsZipped": false,
-  "MimeType": "accusamus",
-  "OriginalSize": 841,
-  "CreatedDate": "2007-02-04T18:25:50.7858837+01:00",
-  "UpdatedDate": "2017-07-17T18:25:50.7858837+02:00",
-  "CreatedBy": {
-    "AssociateId": 901,
-    "Name": "Wuckert-Kassulke",
-    "PersonId": 723,
-    "Rank": 442,
-    "Tooltip": "illo",
-    "Type": "AnonymousAssociate",
-    "GroupIdx": 946,
-    "FullName": "Miss Mariana Mitchell",
-    "FormalName": "Torphy, Reichel and Windler",
-    "Deleted": true,
-    "EjUserId": 787,
-    "UserName": "Schmitt, Steuber and Hirthe"
-  },
-  "UpdatedBy": {
-    "AssociateId": 522,
-    "Name": "Jacobi-Lemke",
-    "PersonId": 898,
-    "Rank": 457,
-    "Tooltip": "consectetur",
-    "Type": "AnonymousAssociate",
-    "GroupIdx": 210,
-    "FullName": "Alycia Klein",
-    "FormalName": "Waelchi, Eichmann and Schoen",
-    "Deleted": false,
-    "EjUserId": 718,
-    "UserName": "Lueilwitz Group"
-  },
-  "ConceptualType": "similique"
+  "BlobId": 416,
+  "BlobSize": 270,
+  "Description": "Public-key incremental strategy",
+  "ExtraInfo": "occaecati",
+  "IsEncrypted": true,
+  "IsZipped": true,
+  "MimeType": "ut",
+  "OriginalSize": 289,
+  "CreatedDate": "2015-01-24T11:10:53.05418+01:00",
+  "UpdatedDate": "1998-06-01T11:10:53.05418+02:00",
+  "CreatedBy": null,
+  "UpdatedBy": null,
+  "ConceptualType": "qui"
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 388,
-  "BlobSize": 580,
-  "Description": "Quality-focused high-level protocol",
-  "ExtraInfo": "corrupti",
-  "IsEncrypted": true,
-  "IsZipped": true,
-  "MimeType": "optio",
-  "OriginalSize": 492,
-  "CreatedDate": "2018-09-04T18:25:50.7888837+02:00",
-  "UpdatedDate": "2007-05-15T18:25:50.7888837+02:00",
-  "CreatedBy": {
-    "AssociateId": 501,
-    "Name": "Hilpert, Treutel and Funk",
-    "PersonId": 279,
-    "Rank": 648,
-    "Tooltip": "quasi",
-    "Type": "AnonymousAssociate",
-    "GroupIdx": 943,
-    "FullName": "Easter Heathcote",
-    "FormalName": "Upton-Johnson",
-    "Deleted": false,
-    "EjUserId": 482,
-    "UserName": "Rodriguez-Turner",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 514
-      }
-    }
-  },
-  "UpdatedBy": {
-    "AssociateId": 977,
-    "Name": "Armstrong, Pagac and Metz",
-    "PersonId": 150,
-    "Rank": 91,
-    "Tooltip": "cum",
-    "Type": "AnonymousAssociate",
-    "GroupIdx": 195,
-    "FullName": "Melissa Kirlin",
-    "FormalName": "Corwin-Lakin",
-    "Deleted": false,
-    "EjUserId": 521,
-    "UserName": "Wunsch, Connelly and Ruecker",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 12
-      }
-    }
-  },
-  "ConceptualType": "repellendus",
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": "redefine proactive mindshare"
-  },
+  "BlobId": 567,
+  "BlobSize": 249,
+  "Description": "Horizontal bifurcated algorithm",
+  "ExtraInfo": "eaque",
+  "IsEncrypted": false,
+  "IsZipped": false,
+  "MimeType": "ut",
+  "OriginalSize": 992,
+  "CreatedDate": "2009-07-04T11:10:53.2611813+02:00",
+  "UpdatedDate": "1999-03-06T11:10:53.2611813+01:00",
+  "CreatedBy": null,
+  "UpdatedBy": null,
+  "ConceptualType": "cumque",
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
+      "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 392
+      "FieldLength": 725
     }
   }
 }

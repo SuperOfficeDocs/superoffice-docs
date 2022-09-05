@@ -1,6 +1,6 @@
 ---
 title: PUT List/ProductType/Items
-id: v1ProductTypeList_PutAllProductType
+uid: v1ProductTypeList_PutAllProductType
 ---
 
 # PUT List/ProductType/Items
@@ -10,6 +10,13 @@ PUT /api/v1/List/ProductType/Items
 ```
 
 Update the ProductType list
+
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -25,9 +32,9 @@ Update the ProductType list
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: listItems
+## Request Body: listItems  
 
-All the updated ProductType.
+All the updated ProductType. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -38,7 +45,10 @@ All the updated ProductType.
 | UdListDefinitionId | int32 | The id of the list which this list item belongs to |
 | Rank | int32 | The rank of the list item |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -57,7 +67,7 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 PUT /api/v1/List/ProductType/Items
@@ -68,23 +78,25 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 783,
-    "Name": "Reinger, Wuckert and Welch",
-    "Tooltip": "dolorem",
-    "Deleted": false,
-    "UdListDefinitionId": 687,
-    "Rank": 660
+    "Id": 768,
+    "Name": "Simonis, Strosin and Stoltenberg",
+    "Tooltip": "ab",
+    "Deleted": true,
+    "UdListDefinitionId": 778,
+    "Rank": 811
   },
   {
-    "Id": 783,
-    "Name": "Reinger, Wuckert and Welch",
-    "Tooltip": "dolorem",
-    "Deleted": false,
-    "UdListDefinitionId": 687,
-    "Rank": 660
+    "Id": 768,
+    "Name": "Simonis, Strosin and Stoltenberg",
+    "Tooltip": "ab",
+    "Deleted": true,
+    "UdListDefinitionId": 778,
+    "Rank": 811
   }
 ]
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -92,24 +104,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 821,
-    "Name": "Terry, Hilll and Robel",
-    "Tooltip": "sequi",
+    "Id": 201,
+    "Name": "Barrows-Lebsack",
+    "Tooltip": "explicabo",
     "Deleted": false,
-    "UdListDefinitionId": 901,
-    "Rank": 724,
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "UdListDefinitionId": 908,
+    "Rank": 268,
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.Int32",
-        "FieldLength": 320
+        "FieldRight": null,
+        "FieldType": "System.String",
+        "FieldLength": 452
       }
     }
   }

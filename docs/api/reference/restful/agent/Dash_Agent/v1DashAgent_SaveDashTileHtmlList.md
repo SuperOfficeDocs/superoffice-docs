@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Dash/SaveDashTileHtmlList
-id: v1DashAgent_SaveDashTileHtmlList
+uid: v1DashAgent_SaveDashTileHtmlList
 ---
 
 # POST Agents/Dash/SaveDashTileHtmlList
@@ -11,6 +11,12 @@ POST /api/v1/Agents/Dash/SaveDashTileHtmlList
 
 Set the HTML data for a tile with TileType = HTML.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Set the HTML data for a tile with TileType = HTML.
 ```http
 POST /api/v1/Agents/Dash/SaveDashTileHtmlList?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,16 +42,19 @@ POST /api/v1/Agents/Dash/SaveDashTileHtmlList?$select=name,department,category/i
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-DashboardTileDefinitionId, Languages
+DashboardTileDefinitionId, Languages 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | DashboardTileDefinitionId | int32 |  |
 | Languages | array |  |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -59,29 +69,31 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Dash/SaveDashTileHtmlList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileDefinitionId": 763,
+  "DashboardTileDefinitionId": 606,
   "Languages": [
     {
-      "LanguageCode": "sit",
-      "Html": "veniam"
+      "LanguageCode": "facere",
+      "Html": "et"
     },
     {
-      "LanguageCode": "sit",
-      "Html": "veniam"
+      "LanguageCode": "facere",
+      "Html": "et"
     }
   ]
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -89,38 +101,26 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "LanguageCode": "dolorum",
-    "Html": "quo",
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "LanguageCode": "aliquid",
+    "Html": "nihil",
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
+        "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 222
+        "FieldLength": 825
       }
     }
   },
   {
-    "LanguageCode": "dolorum",
-    "Html": "quo",
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "LanguageCode": "aliquid",
+    "Html": "nihil",
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
+        "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 222
+        "FieldLength": 825
       }
     }
   }

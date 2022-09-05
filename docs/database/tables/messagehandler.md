@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "MessageHandler"
-so.date: 04.12.2022
+so.date: 08.26.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -34,6 +34,7 @@ Presence and heartbeat of a message handler, should be updated once a minute. Ol
 |updated\_associate\_id|&apos;heartbeat&apos; that is updated once a minute by the batch task process|FK [associate](associate.md)| |
 |updatedCount|&apos;heartbeat&apos; that is updated once a minute by the batch task process|UShort| |
 
+
 ![MessageHandler table relationship diagram](./media/MessageHandler.png)
 
 [!include[details](./includes/messagehandler.md)]
@@ -53,6 +54,7 @@ Presence and heartbeat of a message handler, should be updated once a minute. Ol
 |[associate](associate.md)  |Employees, resources and other users - except for External persons |
 |[Message](message.md)  |Definition of a message, corresponding to the header of a protocol |
 
+
 ## Replication Flags
 
 * None
@@ -60,3 +62,4 @@ Presence and heartbeat of a message handler, should be updated once a minute. Ol
 ## Security Flags
 
 * No access control via user's Role.
+

@@ -17,6 +17,7 @@ Gets a SelectionEntity object.
 
 **Returns:** SelectionEntity
 
+
 [WSDL file for Services86/Selection](../Services86-Selection.md)
 
 Obtain a ticket from the [Services86/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -48,6 +49,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+
 
 ## GetSelectionEntity Response
 
@@ -118,12 +120,12 @@ Application tokens must be specified if calling an Online installation. Applicat
     <Selection:MemberCount xsi:type="xsd:unsignedInt">0</Selection:MemberCount>
     <Selection:Name xsi:type="xsd:string"></Selection:Name>
     <Selection:PostitTextId xsi:type="xsd:int">0</Selection:PostitTextId>
-    <Selection:CreatedDate xsi:type="xsd:dateTime">2021-11-30T13:23:04Z</Selection:CreatedDate>
+    <Selection:CreatedDate xsi:type="xsd:dateTime">2022-08-26T08:55:51Z</Selection:CreatedDate>
     <Selection:SelectionId xsi:type="xsd:int">0</Selection:SelectionId>
     <Selection:SoundEx xsi:type="xsd:string"></Selection:SoundEx>
     <Selection:Source xsi:type="xsd:short">0</Selection:Source>
     <Selection:TextId xsi:type="xsd:int">0</Selection:TextId>
-    <Selection:UpdatedDate xsi:type="xsd:dateTime">2021-11-30T13:23:04Z</Selection:UpdatedDate>
+    <Selection:UpdatedDate xsi:type="xsd:dateTime">2022-08-26T08:55:51Z</Selection:UpdatedDate>
     <Selection:UpdatedCount xsi:type="xsd:short">0</Selection:UpdatedCount>
     <Selection:Visibility xsi:type="xsd:short">0</Selection:Visibility>
     <Selection:SelectionType xsi:type="Selection:SelectionType">Static</Selection:SelectionType>
@@ -147,3 +149,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

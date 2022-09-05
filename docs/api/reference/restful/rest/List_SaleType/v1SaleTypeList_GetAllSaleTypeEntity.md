@@ -1,6 +1,6 @@
 ---
 title: GET List/SaleType/Items
-id: v1SaleTypeList_GetAllSaleTypeEntity
+uid: v1SaleTypeList_GetAllSaleTypeEntity
 ---
 
 # GET List/SaleType/Items
@@ -11,7 +11,13 @@ GET /api/v1/List/SaleType/Items
 
 Gets a list of all SaleTypeEntity list items.
 
+
 Calls the List agent service GetAllSaleTypeEntity.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +28,7 @@ Calls the List agent service GetAllSaleTypeEntity.
 ```http
 GET /api/v1/List/SaleType/Items?includeDeleted=True
 ```
+
 
 ## Request Headers
 
@@ -36,7 +43,10 @@ GET /api/v1/List/SaleType/Items?includeDeleted=True
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -67,18 +77,20 @@ Response body: array
 | MinEarningPercent | int32 | The minimum earning in percent of total, if set, on quotes linked to sales of this type |
 | GroupQuoteLinesBy | int32 | Group quote lines by this field |
 | SortGroupLinesBy | int32 | Sort group lines by this field |
-| Stages | array | Stages, those associated with this SaleType are selected.  <br />Use MDO List name "salestage" to get list items. |
+| Stages | array | Stages, those associated with this SaleType are selected.  <para>Use MDO List name "salestage" to get list items.</para> |
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 GET /api/v1/List/SaleType/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -86,72 +98,63 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "SaleTypeId": 421,
-    "Name": "Graham-Hagenes",
-    "Tooltip": "sed",
-    "Rank": 203,
+    "SaleTypeId": 725,
+    "Name": "Green Group",
+    "Tooltip": "repudiandae",
+    "Rank": 402,
     "DurationUnit": "Century",
-    "SaleDuration": 114,
-    "SaleTypeCatId": 670,
+    "SaleDuration": 62,
+    "SaleTypeCatId": 191,
     "Deleted": true,
-    "HasGuide": true,
-    "HasStakeholders": false,
+    "HasGuide": false,
+    "HasStakeholders": true,
     "IsAutoAdvance": false,
     "AllowQuoteAlternatives": false,
-    "DefaultQuoteValidity": 726,
-    "QuoteLinesTemplate": 417,
-    "ConfirmationLinesTemplate": 984,
+    "DefaultQuoteValidity": 348,
+    "QuoteLinesTemplate": 799,
+    "ConfirmationLinesTemplate": 753,
     "MaxDiscountPercentSet": false,
-    "MinEarningPercentSet": true,
-    "MaxDiscountPercent": 846,
-    "MinEarningPercent": 559,
-    "GroupQuoteLinesBy": 493,
-    "SortGroupLinesBy": 293,
+    "MinEarningPercentSet": false,
+    "MaxDiscountPercent": 26,
+    "MinEarningPercent": 201,
+    "GroupQuoteLinesBy": 49,
+    "SortGroupLinesBy": 262,
     "Stages": [
       {
-        "Id": 778,
-        "Name": "Goodwin, Fisher and Koch",
-        "ToolTip": "Voluptatem aut at.",
-        "Deleted": true,
-        "Rank": 328,
-        "Type": "qui",
-        "ColorBlock": 56,
-        "IconHint": "fugit",
+        "Id": 218,
+        "Name": "Armstrong-Schuster",
+        "ToolTip": "Quia facere quis sunt dolor alias.",
+        "Deleted": false,
+        "Rank": 555,
+        "Type": "quae",
+        "ColorBlock": 780,
+        "IconHint": "aliquam",
         "Selected": false,
-        "LastChanged": "2000-09-01T18:25:52.1790241+02:00",
+        "LastChanged": "2012-01-10T11:10:54.595935+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "alias",
-        "StyleHint": "ex",
+        "ExtraInfo": "consequatur",
+        "StyleHint": "suscipit",
         "Hidden": true,
-        "FullName": "Dwight Yundt",
-        "TableRight": {},
+        "FullName": "Shanel Little",
+        "TableRight": null,
         "FieldProperties": {
           "fieldName": {
-            "FieldRight": {
-              "Mask": "FULL",
-              "Reason": "recontextualize intuitive e-tailers"
-            },
-            "FieldType": "System.String",
-            "FieldLength": 116
+            "FieldRight": null,
+            "FieldType": "System.Int32",
+            "FieldLength": 546
           }
         }
       }
     ],
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 142
+        "FieldRight": null,
+        "FieldType": "System.Int32",
+        "FieldLength": 721
       }
     }
   }

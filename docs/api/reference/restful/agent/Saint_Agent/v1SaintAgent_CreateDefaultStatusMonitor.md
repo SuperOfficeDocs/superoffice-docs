@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Saint/CreateDefaultStatusMonitor
-id: v1SaintAgent_CreateDefaultStatusMonitor
+uid: v1SaintAgent_CreateDefaultStatusMonitor
 ---
 
 # POST Agents/Saint/CreateDefaultStatusMonitor
@@ -11,7 +11,14 @@ POST /api/v1/Agents/Saint/CreateDefaultStatusMonitor
 
 Set default values into a new StatusMonitor.
 
+
 NetServer calculates default values on the entity, which is required when creating/storing a new instance
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -26,18 +33,16 @@ NetServer calculates default values on the entity, which is required when creati
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response: object
 
-Definition of all properties for a status monitor
+## Response: 
 
-Carrier object for StatusMonitor.
-Services for the StatusMonitor Carrier is available from the <see cref="T:SuperOffice.CRM.Services.ISaintAgent">Saint Agent</see>.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -59,47 +64,43 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Saint/CreateDefaultStatusMonitor
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "OwnerTable": 935,
-  "Rank": 159,
-  "DefaultTask": 694,
-  "DefaultTaskText": "est",
-  "IsVisual": true,
-  "LastGenerated": "2019-03-21T18:28:50.0387083+01:00",
-  "Description": "Stand-alone intangible functionalities",
-  "Name": "Hilll-Feil",
-  "StatusMonitorId": 792,
-  "PictureId": 444,
+  "OwnerTable": 632,
+  "Rank": 65,
+  "DefaultTask": 577,
+  "DefaultTaskText": "quia",
+  "IsVisual": false,
+  "LastGenerated": "2014-10-06T11:10:27.7724919+02:00",
+  "Description": "Up-sized bandwidth-monitored info-mediaries",
+  "Name": "Lueilwitz-Bruen",
+  "StatusMonitorId": 205,
+  "PictureId": 468,
   "NeedsUpdate": true,
   "Deleted": false,
-  "NumMatches": 231,
-  "NumNeedUpdate": 273,
-  "GenerationStart": "2012-12-20T18:28:50.0387083+01:00",
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "NumMatches": 237,
+  "NumNeedUpdate": 50,
+  "GenerationStart": "1995-12-18T11:10:27.7724919+01:00",
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
-      "FieldType": "System.Int32",
-      "FieldLength": 394
+      "FieldRight": null,
+      "FieldType": "System.String",
+      "FieldLength": 692
     }
   }
 }

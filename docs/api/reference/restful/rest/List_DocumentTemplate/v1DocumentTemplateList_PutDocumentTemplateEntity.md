@@ -1,6 +1,6 @@
 ---
 title: PUT List/DocumentTemplate/Items/{id}
-id: v1DocumentTemplateList_PutDocumentTemplateEntity
+uid: v1DocumentTemplateList_PutDocumentTemplateEntity
 ---
 
 # PUT List/DocumentTemplate/Items/{id}
@@ -11,11 +11,18 @@ PUT /api/v1/List/DocumentTemplate/Items/{id}
 
 Updates the existing DocumentTemplateEntity
 
+
 Calls the List agent service SaveDocumentTemplateEntity.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | id | int32 | The id of DocumentTemplateEntity to be saved. **Required** |
+
+
 
 ## Request Headers
 
@@ -31,9 +38,9 @@ Calls the List agent service SaveDocumentTemplateEntity.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entity
+## Request Body: entity  
 
-The details of DocumentTemplateEntity to be saved.
+The details of DocumentTemplateEntity to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -63,19 +70,17 @@ The details of DocumentTemplateEntity to be saved.
 | SenderEmailAddress | string | If email template, default senderaddress when template is of type quote email or privacy email. |
 | InvitationDocType | string | Type for sending email meeting invitation. Not an invitation type template = 0, New = 1, Changed = 2, Cancelled = 3 |
 
-## Response: object
 
-The template a document is based on is stored in the SO_arc\template folder on the server. This will return the name as displayed in the GUI, and not the physical document name, of the template the document object is based on.
+## Response: 
 
-Carrier object for DocumentTemplateEntity.
-Services for the DocumentTemplateEntity Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IListAgent">List Agent</see>.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 | 400 | Bad request. Entity to save is not in request body. |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -107,7 +112,7 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 PUT /api/v1/List/DocumentTemplate/Items/{id}
@@ -117,76 +122,72 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 747,
-  "Name": "Durgan Group",
-  "Tooltip": "iusto",
-  "SaveInDb": 611,
-  "Filename": "aut",
-  "DefaultOref": "eveniet",
+  "DocumentTemplateId": 562,
+  "Name": "Shields-Dicki",
+  "Tooltip": "doloribus",
+  "SaveInDb": 184,
+  "Filename": "illum",
+  "DefaultOref": "mollitia",
   "RecordType": "Appointment",
-  "Deleted": false,
+  "Deleted": true,
   "Direction": "Incoming",
-  "AutoeventId": 589,
-  "IntentId": 989,
-  "IsDefaultPublished": true,
-  "Rank": 319,
-  "LoadTemplateFromPlugin": 428,
-  "MimeType": "quisquam",
+  "AutoeventId": 12,
+  "IntentId": 453,
+  "IsDefaultPublished": false,
+  "Rank": 400,
+  "LoadTemplateFromPlugin": 346,
+  "MimeType": "corporis",
   "IsInUseInGuides": false,
-  "DocumentTypeKey": 750,
+  "DocumentTypeKey": 930,
   "QuoteDocType": "ConfirmationLines",
   "PrivacyDocType": "None",
-  "EmailSubject": "chasity.okuneva@jacobsjacobs.co.uk",
+  "EmailSubject": "leilani_ullrich@howell.co.uk",
   "IncludeSignature": true,
   "ShowCurrents": true,
   "SenderEmailMode": "UseDefaultSender",
-  "SenderEmailAddress": "ivy_smith@stroman.us",
+  "SenderEmailAddress": "pink@schumm.co.uk",
   "InvitationDocType": "Cancelled"
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 920,
-  "Name": "McLaughlin-Hilll",
-  "Tooltip": "labore",
-  "SaveInDb": 651,
-  "Filename": "provident",
-  "DefaultOref": "sequi",
+  "DocumentTemplateId": 186,
+  "Name": "Fisher-Fay",
+  "Tooltip": "alias",
+  "SaveInDb": 915,
+  "Filename": "vel",
+  "DefaultOref": "tempore",
   "RecordType": "Appointment",
   "Deleted": false,
   "Direction": "Incoming",
-  "AutoeventId": 431,
-  "IntentId": 547,
-  "IsDefaultPublished": true,
-  "Rank": 739,
-  "LoadTemplateFromPlugin": 40,
-  "MimeType": "tenetur",
-  "IsInUseInGuides": true,
-  "DocumentTypeKey": 317,
+  "AutoeventId": 552,
+  "IntentId": 432,
+  "IsDefaultPublished": false,
+  "Rank": 88,
+  "LoadTemplateFromPlugin": 857,
+  "MimeType": "hic",
+  "IsInUseInGuides": false,
+  "DocumentTypeKey": 544,
   "QuoteDocType": "ConfirmationLines",
   "PrivacyDocType": "None",
-  "EmailSubject": "erika@murazikanderson.ca",
-  "IncludeSignature": false,
-  "ShowCurrents": true,
+  "EmailSubject": "spencer@morissette.biz",
+  "IncludeSignature": true,
+  "ShowCurrents": false,
   "SenderEmailMode": "UseDefaultSender",
-  "SenderEmailAddress": "brandyn.schowalter@quitzonmuller.info",
+  "SenderEmailAddress": "buster_hegmann@oconnell.name",
   "InvitationDocType": "Cancelled",
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
+      "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 800
+      "FieldLength": 583
     }
   }
 }

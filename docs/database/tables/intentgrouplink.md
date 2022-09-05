@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "IntentGroupLink"
-so.date: 04.12.2022
+so.date: 08.26.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -30,6 +30,7 @@ User group link table for Intent, for MDO item hiding
 |updated\_associate\_id|Last updated by whom|FK [associate](associate.md)| |
 |updatedCount|Number of updates made to this record|UShort| |
 
+
 ![IntentGroupLink table relationship diagram](./media/IntentGroupLink.png)
 
 [!include[details](./includes/intentgrouplink.md)]
@@ -47,8 +48,9 @@ User group link table for Intent, for MDO item hiding
 | Table|  Description |
 |------|-------------|
 |[associate](associate.md)  |Employees, resources and other users - except for External persons |
-|[Intent](intent.md)  |Intent list for SAINT.  |
+|[Intent](intent.md)  |Intent list for SAINT. More information regarding SuperOffice Sales Intelligence on http://techdoc.superoffice.com  |
 |[UserGroup](usergroup.md)  |Secondary user groups |
+
 
 ## Replication Flags
 
@@ -59,3 +61,4 @@ User group link table for Intent, for MDO item hiding
 ## Security Flags
 
 * No access control via user's Role.
+

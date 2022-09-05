@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Selection/CreateTemporaryContactSelectionFromSelectionMemberIds
-id: v1SelectionAgent_CreateTemporaryContactSelectionFromSelectionMemberIds
+uid: v1SelectionAgent_CreateTemporaryContactSelectionFromSelectionMemberIds
 ---
 
 # POST Agents/Selection/CreateTemporaryContactSelectionFromSelectionMemberIds
@@ -11,6 +11,12 @@ POST /api/v1/Agents/Selection/CreateTemporaryContactSelectionFromSelectionMember
 
 Creates a temporary selection with members from a collection of selectionmember id's.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Creates a temporary selection with members from a collection of selectionmember 
 ```http
 POST /api/v1/Agents/Selection/CreateTemporaryContactSelectionFromSelectionMemberIds?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,25 +42,25 @@ POST /api/v1/Agents/Selection/CreateTemporaryContactSelectionFromSelectionMember
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-SelectionId, SelectionMemberIds
+SelectionId, SelectionMemberIds 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | SelectionId | int32 |  |
 | SelectionMemberIds | array |  |
 
-## Response: object
 
-Carrier object for SelectionEntity.
-Services for the SelectionEntity Carrier is available from the <see cref="T:SuperOffice.CRM.Services.ISelectionAgent">Selection Agent</see>.
+## Response: 
+
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -62,7 +69,7 @@ Response body: object
 | Associate |  | Owner of the selection |
 | CreatedBy |  | Who created the selection |
 | UpdatedBy |  | Who last modified the selection |
-| SelectionCategory |  | Selection category type (list item)  <br />Use MDO List name "searchCat" to get list items. |
+| SelectionCategory |  | Selection category type (list item)  <para>Use MDO List name "searchCat" to get list items.</para> |
 | GroupIdx | int32 | Original primary user group of associate |
 | IncludePerson | int32 | 0 = Include first person, 1 = Include all persons, 2 = Include no persons |
 | MemberCount | int32 | How many selectionmembers (for progress bar calculations) - estimate, -1 (or 4294967295) means we don't know |
@@ -101,7 +108,7 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Selection/CreateTemporaryContactSelectionFromSelectionMemberIds
@@ -111,240 +118,95 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 14,
+  "SelectionId": 118,
   "SelectionMemberIds": [
-    252,
-    485
+    927,
+    878
   ]
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Organized heuristic ability",
-  "Postit": "facere",
-  "Associate": {
-    "AssociateId": 607,
-    "Name": "Klocko, Morissette and Shanahan",
-    "PersonId": 148,
-    "Rank": 21,
-    "Tooltip": "et",
-    "Type": "AnonymousAssociate",
-    "GroupIdx": 244,
-    "FullName": "Andreane Dare PhD",
-    "FormalName": "Fritsch Group",
-    "Deleted": true,
-    "EjUserId": 470,
-    "UserName": "Berge-Greenfelder",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 365
-      }
-    }
-  },
-  "CreatedBy": {
-    "AssociateId": 122,
-    "Name": "Barton LLC",
-    "PersonId": 456,
-    "Rank": 635,
-    "Tooltip": "possimus",
-    "Type": "AnonymousAssociate",
-    "GroupIdx": 335,
-    "FullName": "Kenya Hermiston",
-    "FormalName": "Cummerata LLC",
-    "Deleted": false,
-    "EjUserId": 735,
-    "UserName": "Abernathy, Kessler and McKenzie",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 562
-      }
-    }
-  },
-  "UpdatedBy": {
-    "AssociateId": 392,
-    "Name": "Lindgren LLC",
-    "PersonId": 30,
-    "Rank": 403,
-    "Tooltip": "dolor",
-    "Type": "AnonymousAssociate",
-    "GroupIdx": 642,
-    "FullName": "Ena Schaefer",
-    "FormalName": "Wisoky-Johnson",
-    "Deleted": false,
-    "EjUserId": 939,
-    "UserName": "Fadel, Boehm and Klein",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.Int32",
-        "FieldLength": 698
-      }
-    }
-  },
-  "SelectionCategory": {
-    "Id": 530,
-    "Value": "et",
-    "Tooltip": "aliquam",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 245
-      }
-    }
-  },
-  "GroupIdx": 954,
-  "IncludePerson": 214,
-  "MemberCount": 322,
-  "Name": "Waters LLC",
-  "PostitTextId": 577,
-  "CreatedDate": "2018-10-11T18:28:50.262442+02:00",
-  "SelectionId": 527,
-  "SoundEx": "in",
-  "Source": 948,
-  "TextId": 82,
-  "UpdatedDate": "2020-11-29T18:28:50.262442+01:00",
-  "UpdatedCount": 23,
-  "Visibility": 665,
+  "Description": "Configurable mission-critical superstructure",
+  "Postit": "odio",
+  "Associate": null,
+  "CreatedBy": null,
+  "UpdatedBy": null,
+  "SelectionCategory": null,
+  "GroupIdx": 6,
+  "IncludePerson": 960,
+  "MemberCount": 797,
+  "Name": "Ortiz, Effertz and Mills",
+  "PostitTextId": 634,
+  "CreatedDate": "2015-10-10T11:10:27.9299795+02:00",
+  "SelectionId": 659,
+  "SoundEx": "laborum",
+  "Source": 736,
+  "TextId": 719,
+  "UpdatedDate": "2011-06-26T11:10:27.9299795+02:00",
+  "UpdatedCount": 454,
+  "Visibility": 92,
   "SelectionType": "Combined",
   "CompanyUnique": true,
-  "TargetTableNumber": 436,
-  "TargetTableName": "Weber-Pollich",
-  "Completed": true,
-  "LeftSelectionId": 246,
-  "RightSelectionId": 334,
+  "TargetTableNumber": 242,
+  "TargetTableName": "Hagenes, Powlowski and Kautzer",
+  "Completed": false,
+  "LeftSelectionId": 338,
+  "RightSelectionId": 81,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Stokes-Hills",
-  "ShadowProviderName": "Cruickshank-Keeling",
-  "ChartKey": "commodi",
-  "LastLoaded": "2021-07-05T18:28:50.262442+02:00",
-  "LastLoadedBy": 210,
-  "LastLoadedByAssociate": {
-    "AssociateId": 608,
-    "Name": "Yost-Swaniawski",
-    "PersonId": 510,
-    "Rank": 343,
-    "Tooltip": "tempore",
-    "Type": "AnonymousAssociate",
-    "GroupIdx": 752,
-    "FullName": "Khalil Tromp",
-    "FormalName": "Dach, Gutkowski and Kirlin",
-    "Deleted": true,
-    "EjUserId": 310,
-    "UserName": "Brakus Inc and Sons",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 717
-      }
-    }
-  },
-  "LastMembershipChange": "2001-07-07T18:28:50.2644119+02:00",
-  "LastMembershipChangeBy": 140,
-  "LastMembershipChangeByAssociate": {
-    "AssociateId": 597,
-    "Name": "Becker Group",
-    "PersonId": 23,
-    "Rank": 815,
-    "Tooltip": "qui",
-    "Type": "AnonymousAssociate",
-    "GroupIdx": 564,
-    "FullName": "Laurel Runte",
-    "FormalName": "Jones-McClure",
-    "Deleted": true,
-    "EjUserId": 37,
-    "UserName": "Kutch, Emard and Stoltenberg",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.Int32",
-        "FieldLength": 754
-      }
-    }
-  },
-  "MainHeading": "provident",
-  "MemberTabHeading": "molestiae",
-  "MailingsProviderName": "Schiller LLC",
-  "DashboardTileDefinitionId": 785,
+  "MainProviderName": "Graham, O'Conner and Christiansen",
+  "ShadowProviderName": "Quigley LLC",
+  "ChartKey": "mollitia",
+  "LastLoaded": "2007-05-28T11:10:27.9299795+02:00",
+  "LastLoadedBy": 158,
+  "LastLoadedByAssociate": null,
+  "LastMembershipChange": "2021-08-29T11:10:27.9309799+02:00",
+  "LastMembershipChangeBy": 294,
+  "LastMembershipChangeByAssociate": null,
+  "MainHeading": "sequi",
+  "MemberTabHeading": "voluptas",
+  "MailingsProviderName": "Rempel Inc and Sons",
+  "DashboardTileDefinitionId": 573,
   "VisibleFor": [
     {
-      "VisibleId": 81,
+      "VisibleId": 895,
       "Visibility": "All",
-      "DisplayValue": "minus",
-      "TableRight": {},
+      "DisplayValue": "necessitatibus",
+      "TableRight": null,
       "FieldProperties": {
         "fieldName": {
-          "FieldRight": {
-            "Mask": "FULL",
-            "Reason": "engineer synergistic metrics"
-          },
-          "FieldType": "System.String",
-          "FieldLength": 451
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 830
         }
       }
     },
     {
-      "VisibleId": 81,
+      "VisibleId": 895,
       "Visibility": "All",
-      "DisplayValue": "minus",
-      "TableRight": {},
+      "DisplayValue": "necessitatibus",
+      "TableRight": null,
       "FieldProperties": {
         "fieldName": {
-          "FieldRight": {
-            "Mask": "FULL",
-            "Reason": "engineer synergistic metrics"
-          },
-          "FieldType": "System.String",
-          "FieldLength": 451
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 830
         }
       }
     }
   ],
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
+      "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 638
+      "FieldLength": 689
     }
   }
 }

@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "SearchCriteria"
-so.date: 04.12.2022
+so.date: 08.26.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -36,6 +36,7 @@ Criteria storage for Selection and other Find mechanisms
 |ownerGuiName|Name of the owner GUI control, this is the GUI XML id in SIX.web|String(254)|&#x25CF;|
 |displayName|Display name when these criteria are a saved archive filter|String(254)|&#x25CF;|
 
+
 ![SearchCriteria table relationship diagram](./media/SearchCriteria.png)
 
 [!include[details](./includes/searchcriteria.md)]
@@ -56,6 +57,7 @@ Criteria storage for Selection and other Find mechanisms
 |[SearchCriteriaGroup](searchcriteriagroup.md)  |Criteria storage for Selection and other Find mechanisms |
 |[text](text.md)  |Long text fields from all over the system |
 
+
 ## Replication Flags
 
 * Area Management controlled table. Contents replicated to satellites and traveller databases.
@@ -65,3 +67,4 @@ Criteria storage for Selection and other Find mechanisms
 ## Security Flags
 
 * No access control via user's Role.
+

@@ -1,6 +1,6 @@
 ---
 title: PUT List/{name}/Headings
-id: v1ListItemEntity_SaveHeadingsFromName
+uid: v1ListItemEntity_SaveHeadingsFromName
 ---
 
 # PUT List/{name}/Headings
@@ -11,9 +11,16 @@ PUT /api/v1/List/{name}/Headings
 
 Save headings for list resolved by the provided name.
 
+
+
+
+
+
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | name | string | The name of the list to look up. **Required** |
+
+
 
 ## Request Headers
 
@@ -29,9 +36,9 @@ Save headings for list resolved by the provided name.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entities
+## Request Body: entities  
 
-The headings to save
+The headings to save 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -42,7 +49,10 @@ The headings to save
 | Rank | int32 | Rank order |
 | UdListDefinitionId | int32 | The id of the list which this heading belongs to |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -61,34 +71,36 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 PUT /api/v1/List/{name}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 75,
-    "Name": "Brakus, Bergstrom and Grimes",
-    "Tooltip": "deserunt",
-    "Deleted": false,
-    "Rank": 390,
-    "UdListDefinitionId": 210
+    "HeadingId": 394,
+    "Name": "Weimann, Kerluke and Kuhn",
+    "Tooltip": "in",
+    "Deleted": true,
+    "Rank": 223,
+    "UdListDefinitionId": 275
   },
   {
-    "HeadingId": 75,
-    "Name": "Brakus, Bergstrom and Grimes",
-    "Tooltip": "deserunt",
-    "Deleted": false,
-    "Rank": 390,
-    "UdListDefinitionId": 210
+    "HeadingId": 394,
+    "Name": "Weimann, Kerluke and Kuhn",
+    "Tooltip": "in",
+    "Deleted": true,
+    "Rank": 223,
+    "UdListDefinitionId": 275
   }
 ]
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -96,24 +108,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 100,
-    "Name": "Fahey Inc and Sons",
-    "Tooltip": "esse",
+    "HeadingId": 150,
+    "Name": "Kertzmann Group",
+    "Tooltip": "quis",
     "Deleted": true,
-    "Rank": 582,
-    "UdListDefinitionId": 862,
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "Rank": 478,
+    "UdListDefinitionId": 847,
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
+        "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 902
+        "FieldLength": 177
       }
     }
   }

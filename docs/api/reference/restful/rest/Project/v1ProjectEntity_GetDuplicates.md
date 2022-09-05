@@ -1,6 +1,6 @@
 ---
 title: GET Project/Duplicates/{name}
-id: v1ProjectEntity_GetDuplicates
+uid: v1ProjectEntity_GetDuplicates
 ---
 
 # GET Project/Duplicates/{name}
@@ -11,9 +11,16 @@ GET /api/v1/Project/Duplicates/{name}
 
 Get duplicates(exact or similar in the database) based on the name
 
+
+
+
+
+
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | name | string | Name used for lookup **Required** |
+
+
 
 ## Request Headers
 
@@ -28,7 +35,10 @@ Get duplicates(exact or similar in the database) based on the name
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -46,14 +56,16 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 GET /api/v1/Project/Duplicates/{name}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -61,23 +73,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "RuleName": "Nikolaus LLC",
-    "SoPrimaryKey": 358,
-    "EntryName": "Stamm Inc and Sons",
-    "EntryIdentifier": "eaque",
-    "RuleDisplayName": "Torphy-Cronin",
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "RuleName": "McLaughlin, Considine and Gerhold",
+    "SoPrimaryKey": 827,
+    "EntryName": "Greenfelder, Hintz and Welch",
+    "EntryIdentifier": "repellendus",
+    "RuleDisplayName": "Jerde, Flatley and Lakin",
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.Int32",
-        "FieldLength": 975
+        "FieldRight": null,
+        "FieldType": "System.String",
+        "FieldLength": 288
       }
     }
   }

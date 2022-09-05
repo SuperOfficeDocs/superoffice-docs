@@ -1,6 +1,6 @@
 ---
 title: POST Agents/List/GetDocumentTemplateUsedInProjectStage
-id: v1ListAgent_GetDocumentTemplateUsedInProjectStage
+uid: v1ListAgent_GetDocumentTemplateUsedInProjectStage
 ---
 
 # POST Agents/List/GetDocumentTemplateUsedInProjectStage
@@ -11,6 +11,12 @@ POST /api/v1/Agents/List/GetDocumentTemplateUsedInProjectStage
 
 Get a String array of names in project guide that this template is used in
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Get a String array of names in project guide that this template is used in
 ```http
 POST /api/v1/Agents/List/GetDocumentTemplateUsedInProjectStage?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,15 +42,18 @@ POST /api/v1/Agents/List/GetDocumentTemplateUsedInProjectStage?$select=name,depa
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-DocumentTemplateId
+DocumentTemplateId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | DocumentTemplateId | int32 |  |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -51,19 +61,22 @@ DocumentTemplateId
 
 Response body: array
 
-## Sample Request
+
+## Sample request
 
 ```http!
 POST /api/v1/Agents/List/GetDocumentTemplateUsedInProjectStage
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 534
+  "DocumentTemplateId": 247
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -71,6 +84,6 @@ Content-Type: application/json; charset=utf-8
 
 [
   "voluptatem",
-  "omnis"
+  "qui"
 ]
 ```

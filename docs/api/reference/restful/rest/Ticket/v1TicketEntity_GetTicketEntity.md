@@ -1,6 +1,6 @@
 ---
 title: GET Ticket/{id}
-id: v1TicketEntity_GetTicketEntity
+uid: v1TicketEntity_GetTicketEntity
 ---
 
 # GET Ticket/{id}
@@ -11,11 +11,17 @@ GET /api/v1/Ticket/{id}
 
 Gets a TicketEntity object.
 
+
 Calls the Ticket agent service GetTicketEntity.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | id | int32 | The id of the TicketEntity to return. **Required** |
+
 
 ## Query String Parameters
 
@@ -26,8 +32,9 @@ Calls the Ticket agent service GetTicketEntity.
 
 ```http
 GET /api/v1/Ticket/{id}?$select=name,department,category/id
-GET /api/v1/Ticket/{id}?fk=True
+GET /api/v1/Ticket/{id}?fk=False
 ```
+
 
 ## Request Headers
 
@@ -42,18 +49,17 @@ GET /api/v1/Ticket/{id}?fk=True
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response: object
 
-The ticket entity is used for representing a service ticket
+## Response: 
 
-TicketEntity entity with API _Links added.
+TicketEntity found.
 
 | Response | Description |
 |----------------|-------------|
 | 200 | TicketEntity found. |
 | 404 | Not Found. |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -71,15 +77,15 @@ Response body: object
 | Deadline | date-time | Deadline for ticket. |
 | CreatedBy |  | The associate who created this ticket |
 | Author | string | A string representing the author of the ticket (same as author of first message). |
-| OwnedBy |  | The associate who owns this ticket. Setting the id to 0 will make the ticket unassigned. Setting the id to 2147483647 (MaxInt) will make it automatically assigned according to the ticket category assignment rules.  <br />Use MDO List name "associate" to get list items. |
-| Category |  | The ticket category entity which this ticket is connected to  <br />Use MDO List name "ejcategory" to get list items. |
+| OwnedBy |  | The associate who owns this ticket. Setting the id to 0 will make the ticket unassigned. Setting the id to 2147483647 (MaxInt) will make it automatically assigned according to the ticket category assignment rules.  <para>Use MDO List name "associate" to get list items.</para> |
+| Category |  | The ticket category entity which this ticket is connected to  <para>Use MDO List name "ejcategory" to get list items.</para> |
 | Slevel | string | The securitylevel of the ticket. |
-| Priority |  | The ticket priority entity which this ticket is connected to  <br />Use MDO List name "ticketpriority" to get list items. |
-| BaseStatus | string | The status of the ticket. I.e. active/closed/postponed/deleted  <br />Use MDO List name "ticketstatus" to get list items. |
-| Status |  | The ticket status entity which this ticket is connected to  <br />Use MDO List name "ticketstatus" to get list items. |
+| Priority |  | The ticket priority entity which this ticket is connected to  <para>Use MDO List name "ticketpriority" to get list items.</para> |
+| BaseStatus | string | The status of the ticket. I.e. active/closed/postponed/deleted  <para>Use MDO List name "ticketstatus" to get list items.</para> |
+| Status |  | The ticket status entity which this ticket is connected to  <para>Use MDO List name "ticketstatus" to get list items.</para> |
 | Origin | string | What is the origin of this ticket |
-| Person |  | The primary person that this ticket is connected to  <br />Use MDO List name "person_new" to get list items. |
-| SecondaryPersons | array | The secondary persons this ticket is connected to  <br />Use MDO List name "person_new" to get list items. |
+| Person |  | The primary person that this ticket is connected to  <para>Use MDO List name "person_new" to get list items.</para> |
+| SecondaryPersons | array | The secondary persons this ticket is connected to  <para>Use MDO List name "person_new" to get list items.</para> |
 | AlertLevel | int32 | The alert level for the ticket. Matches the level value of the ticket_alert table. |
 | ConnectId | int32 | If a ticket is connected to another ticket, this field is set to the id of the &amp;apos;master&amp;apos; ticket. |
 | ReadStatus | string | Whether the owner has read the ticket or not (red, yellow, green). |
@@ -99,405 +105,207 @@ Response body: object
 | FromAddress | string | The from-address used when this ticket got created, e.g. by email |
 | Messages | array | TicketMessageId,CreatedAt,SLevel and Important for all the messages connected to this ticket. For message body see the TicketMessageEntity or the TicketMessage archive. |
 | Tags | array | An array containing the tags assigned to this request |
+| Language | string | The language of the first external message |
+| Sentiment | int32 | The sentiment index of the last external message |
+| SentimentConfidence | int32 | The sentiment confidence of the last external message |
+| SuggestedCategoryId | int32 | Suggestion for categorization, based on the text of the message (AI) |
+| SuggestedCategoryName | string | Suggested category from AI |
+| OrigHumanCategoryId | int32 | Will contain the category id selected by the user, when having the choice of using the suggested category or manually selecting a category |
+| IconHint | string | Icon representing ticket's state |
 | ExtraFields | object | Deprecated: Use {SuperOffice.CRM.Services.TicketEntity.CustomFields} instead. Extra fields added to the carrier. This could be data from Plug-ins, the foreign key system, external applications, etc. |
 | CustomFields | object | Udef + Extra fields added to the carrier. Extra fields as defined by changes to database schema + user-defined fields as defined by admin. Custom fields combines user defined fields and extra fields into one bucket.  The individual {SuperOffice.CRM.Services.TicketEntity.ExtraFields} and <see cref="!:UserDefinedFields">UserDefinedFields</see> properties are deprecated in favor of this combined collection. |
 | TableRight |  |  |
 | FieldProperties | object |  |
 | _Links | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 GET /api/v1/Ticket/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 TicketEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketId": 760,
-  "Title": "voluptates",
-  "CreatedAt": "2000-05-10T18:25:51.1959398+02:00",
-  "LastChanged": "2010-07-22T18:25:51.1959398+02:00",
-  "ReadByOwner": "2019-03-18T18:25:51.1959398+01:00",
-  "ReadByCustomer": "1995-01-30T18:25:51.1959398+01:00",
-  "FirstReadByUser": "2002-04-11T18:25:51.1959398+02:00",
-  "Activate": "2009-05-20T18:25:51.1959398+02:00",
-  "ClosedAt": "1996-11-05T18:25:51.1959398+01:00",
-  "RepliedAt": "1997-04-20T18:25:51.1959398+02:00",
-  "AlertTimeout": "2013-11-18T18:25:51.1959398+01:00",
-  "Deadline": "1995-11-27T18:25:51.1959398+01:00",
-  "CreatedBy": {
-    "AssociateId": 168,
-    "Name": "Lebsack, Friesen and Ernser",
-    "PersonId": 304,
-    "Rank": 935,
-    "Tooltip": "voluptate",
-    "Type": "AnonymousAssociate",
-    "GroupIdx": 351,
-    "FullName": "Otto Robel",
-    "FormalName": "Kemmer LLC",
-    "Deleted": false,
-    "EjUserId": 904,
-    "UserName": "Koelpin-Reinger",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 960
-      }
-    }
-  },
-  "Author": "sed",
-  "OwnedBy": {
-    "AssociateId": 2,
-    "Name": "Rath, McKenzie and Kreiger",
-    "PersonId": 656,
-    "Rank": 941,
-    "Tooltip": "ullam",
-    "Type": "AnonymousAssociate",
-    "GroupIdx": 915,
-    "FullName": "Arianna Schultz",
-    "FormalName": "Harris-Lynch",
-    "Deleted": false,
-    "EjUserId": 632,
-    "UserName": "Waelchi-Gottlieb",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 845
-      }
-    }
-  },
-  "Category": {
-    "TicketCategoryId": 488,
-    "ParentId": 441,
-    "Name": "Fisher-Renner",
-    "Fullname": "quia",
-    "CategoryMaster": 398,
-    "Flags": "AcceptWhenReplying",
-    "DelegateMethod": "Even",
-    "ExternalName": "Rowe, Kemmer and Christiansen",
-    "ClosingStatus": "Active",
-    "MsgClosingStatus": "Active",
-    "AssignmentLag": 139,
-    "ReplyTemplate": 459,
-    "NotificationEmail": "asia.oberbrunner@andersonreichert.biz",
-    "DefaultTicketStatus": {},
-    "DefaultMessageStatus": {},
-    "ExtraFields": {
-      "ExtraFields1": "fuga",
-      "ExtraFields2": "quisquam"
-    },
-    "CustomFields": {
-      "CustomFields1": "facilis",
-      "CustomFields2": "quidem"
-    },
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 60
-      }
-    }
-  },
+  "TicketId": 856,
+  "Title": "dolorum",
+  "CreatedAt": "1998-09-08T11:10:53.5772076+02:00",
+  "LastChanged": "2004-10-29T11:10:53.5772076+02:00",
+  "ReadByOwner": "1998-06-10T11:10:53.5772076+02:00",
+  "ReadByCustomer": "2010-03-12T11:10:53.5772076+01:00",
+  "FirstReadByUser": "2007-05-20T11:10:53.5772076+02:00",
+  "Activate": "2017-03-06T11:10:53.5772076+01:00",
+  "ClosedAt": "2006-09-26T11:10:53.5772076+02:00",
+  "RepliedAt": "2021-10-26T11:10:53.5772076+02:00",
+  "AlertTimeout": "1996-05-10T11:10:53.5772076+02:00",
+  "Deadline": "2016-09-11T11:10:53.5772076+02:00",
+  "CreatedBy": null,
+  "Author": "in",
+  "OwnedBy": null,
+  "Category": null,
   "Slevel": "External",
-  "Priority": {
-    "TicketPriorityId": 650,
-    "Name": "Parker-Wintheiser",
-    "Status": "Deleted",
-    "Flags": "AlertSchedule",
-    "SortOrder": 801,
-    "TicketRead": "Continue",
-    "ChangedOwner": "Continue",
-    "TicketNewinfo": "Continue",
-    "TicketClosed": "Continue",
-    "TicketChangedPriority": "Continue",
-    "TicketNew": "Continue",
-    "Deadline": 136,
-    "MonStart": "1997-02-01T18:25:51.1969399+01:00",
-    "MonStop": "2008-12-15T18:25:51.1969399+01:00",
-    "TueStart": "1998-12-09T18:25:51.1969399+01:00",
-    "TueStop": "2020-02-29T18:25:51.1969399+01:00",
-    "WedStart": "2011-03-08T18:25:51.1969399+01:00",
-    "WedStop": "2007-09-19T18:25:51.1969399+02:00",
-    "ThuStart": "2019-08-09T18:25:51.1969399+02:00",
-    "ThuStop": "1996-03-30T18:25:51.1969399+01:00",
-    "FriStart": "2002-10-19T18:25:51.1969399+02:00",
-    "FriStop": "2000-07-21T18:25:51.1969399+02:00",
-    "SatStart": "2018-05-02T18:25:51.1969399+02:00",
-    "SatStop": "2009-09-05T18:25:51.1969399+02:00",
-    "SunStart": "2012-03-12T18:25:51.1969399+01:00",
-    "SunStop": "2017-04-25T18:25:51.1969399+02:00",
-    "NonDates": [
-      "sapiente",
-      "ut"
-    ],
-    "EscalationLevels": [
-      {},
-      {}
-    ],
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": "empower distributed infomediaries"
-        },
-        "FieldType": "System.String",
-        "FieldLength": 476
-      }
-    }
-  },
+  "Priority": null,
   "BaseStatus": "Active",
-  "Status": {
-    "TicketStatusId": 925,
-    "Name": "Shields Inc and Sons",
-    "Status": "Active",
-    "TimeCounter": "Externally",
-    "NoEmailReopen": false,
-    "IsDefault": false,
-    "UsedInQueue": false,
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.Int32",
-        "FieldLength": 454
-      }
-    }
-  },
+  "Status": null,
   "Origin": "AutoGenerated",
-  "Person": {
-    "Position": "quo",
-    "PersonId": 796,
-    "Mrmrs": "quo",
-    "Firstname": "Jack",
-    "Lastname": "Wuckert",
-    "MiddleName": "Nienow-Leuschke",
-    "Title": "eos",
-    "Description": "Business-focused even-keeled solution",
-    "Email": "otis@mckenzie.ca",
-    "FullName": "Bernhard Murazik",
-    "DirectPhone": "(487)455-7448",
-    "FormalName": "Schmitt-Schaefer",
-    "CountryId": 848,
-    "ContactId": 21,
-    "ContactName": "Green, Marks and Grant",
-    "Retired": 820,
-    "Rank": 371,
-    "ActiveInterests": 514,
-    "ContactDepartment": "reintermediate dynamic portals",
-    "ContactCountryId": 174,
-    "ContactOrgNr": "1586129",
-    "FaxPhone": "1-351-524-1108 x35442",
-    "MobilePhone": "1-825-022-7780 x710",
-    "ContactPhone": "(407)548-5154",
-    "AssociateName": "Conn-Mann",
-    "AssociateId": 382,
-    "UsePersonAddress": true,
-    "ContactFax": "doloribus",
-    "Kanafname": "vel",
-    "Kanalname": "eum",
-    "Post1": "minima",
-    "Post2": "rerum",
-    "Post3": "dolor",
-    "EmailName": "moriah@renner.co.uk",
-    "ContactFullName": "Isaias Hilll",
-    "ActiveErpLinks": 847,
-    "TicketPriorityId": 932,
-    "SupportLanguageId": 895,
-    "SupportAssociateId": 309,
-    "CategoryName": "VIP Customer",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 67
-      }
-    }
-  },
+  "Person": null,
   "SecondaryPersons": [
     {
-      "Position": "dolorem",
-      "PersonId": 739,
-      "Mrmrs": "vel",
-      "Firstname": "Carey",
-      "Lastname": "Bechtelar",
-      "MiddleName": "Schoen Inc and Sons",
-      "Title": "mollitia",
-      "Description": "Re-engineered 6th generation time-frame",
-      "Email": "clarabelle@jones.info",
-      "FullName": "Ashton Schuppe",
-      "DirectPhone": "1-080-700-4112 x42385",
-      "FormalName": "O'Keefe Inc and Sons",
-      "CountryId": 823,
-      "ContactId": 878,
-      "ContactName": "Murphy, Schaefer and Wolf",
-      "Retired": 397,
-      "Rank": 119,
-      "ActiveInterests": 588,
+      "Position": "ab",
+      "PersonId": 708,
+      "Mrmrs": "officiis",
+      "Firstname": "Makenzie",
+      "Lastname": "Gottlieb",
+      "MiddleName": "Crooks-Crona",
+      "Title": "asperiores",
+      "Description": "Enterprise-wide holistic core",
+      "Email": "aliza@leannonnader.info",
+      "FullName": "Clemmie Raynor III",
+      "DirectPhone": "(125)867-5505",
+      "FormalName": "Skiles, Greenholt and Stokes",
+      "CountryId": 19,
+      "ContactId": 164,
+      "ContactName": "Luettgen-Effertz",
+      "Retired": 42,
+      "Rank": 593,
+      "ActiveInterests": 267,
       "ContactDepartment": "",
-      "ContactCountryId": 424,
-      "ContactOrgNr": "1134252",
-      "FaxPhone": "(842)282-6224",
-      "MobilePhone": "1-741-727-1142 x803",
-      "ContactPhone": "1-038-316-8333",
-      "AssociateName": "Ondricka, Hammes and Dietrich",
-      "AssociateId": 394,
-      "UsePersonAddress": true,
-      "ContactFax": "unde",
-      "Kanafname": "odit",
-      "Kanalname": "dolores",
-      "Post1": "ut",
-      "Post2": "error",
-      "Post3": "quia",
-      "EmailName": "ramon@kassulke.name",
-      "ContactFullName": "Oren Schmitt",
-      "ActiveErpLinks": 198,
-      "TicketPriorityId": 788,
-      "SupportLanguageId": 605,
-      "SupportAssociateId": 368,
+      "ContactCountryId": 473,
+      "ContactOrgNr": "1572437",
+      "FaxPhone": "1-230-560-2099 x11018",
+      "MobilePhone": "(625)007-1187 x123",
+      "ContactPhone": "353-918-5402 x80189",
+      "AssociateName": "Towne-Schroeder",
+      "AssociateId": 404,
+      "UsePersonAddress": false,
+      "ContactFax": "odio",
+      "Kanafname": "sint",
+      "Kanalname": "non",
+      "Post1": "et",
+      "Post2": "laboriosam",
+      "Post3": "eos",
+      "EmailName": "remington@dicki.biz",
+      "ContactFullName": "Ezequiel Cronin",
+      "ActiveErpLinks": 374,
+      "TicketPriorityId": 288,
+      "SupportLanguageId": 598,
+      "SupportAssociateId": 259,
       "CategoryName": "VIP Customer",
-      "TableRight": {},
+      "TableRight": null,
       "FieldProperties": {
         "fieldName": {
-          "FieldRight": {
-            "Mask": "FULL",
-            "Reason": ""
-          },
-          "FieldType": "System.Int32",
-          "FieldLength": 639
+          "FieldRight": null,
+          "FieldType": "System.String",
+          "FieldLength": 613
         }
       }
     }
   ],
-  "AlertLevel": 529,
-  "ConnectId": 941,
+  "AlertLevel": 282,
+  "ConnectId": 218,
   "ReadStatus": "Green",
-  "TimeToReply": 65,
-  "RealTimeToReply": 670,
-  "TimeToClose": 396,
-  "RealTimeToClose": 710,
-  "TimeSpentInternally": 330,
-  "TimeSpentExternally": 116,
-  "TimeSpentQueue": 587,
-  "RealTimeSpentInternally": 208,
-  "RealTimeSpentExternally": 690,
-  "RealTimeSpentQueue": 136,
-  "HasAttachment": false,
-  "NumReplies": 406,
-  "NumMessages": 747,
-  "FromAddress": "qui",
+  "TimeToReply": 441,
+  "RealTimeToReply": 236,
+  "TimeToClose": 560,
+  "RealTimeToClose": 397,
+  "TimeSpentInternally": 422,
+  "TimeSpentExternally": 9,
+  "TimeSpentQueue": 151,
+  "RealTimeSpentInternally": 63,
+  "RealTimeSpentExternally": 677,
+  "RealTimeSpentQueue": 485,
+  "HasAttachment": true,
+  "NumReplies": 708,
+  "NumMessages": 798,
+  "FromAddress": "voluptates",
   "Messages": [
     {
-      "TicketMessageId": 424,
-      "CreatedAt": "2010-10-30T18:25:51.1999373+02:00",
+      "TicketMessageId": 964,
+      "CreatedAt": "2018-12-22T11:10:53.5812142+01:00",
       "Slevel": "External",
-      "Important": true,
-      "Author": "unde",
-      "PersonId": 634,
-      "PersonFullName": "Felix McDermott",
-      "ContactId": 502,
-      "ContactName": "Jenkins-Kassulke",
+      "Important": false,
+      "Author": "voluptatem",
+      "PersonId": 138,
+      "PersonFullName": "Michele Schowalter",
+      "ContactId": 261,
+      "ContactName": "Gutmann-Ankunding",
       "ContactDepartment": "",
-      "NumAttachments": 648,
-      "EmailHeader": "fay@gutmannconroy.ca",
+      "NumAttachments": 963,
+      "EmailHeader": "jamaal_morissette@fisher.info",
       "MessageHeaders": [
         {},
         {}
       ],
-      "TableRight": {},
+      "Language": "incidunt",
+      "Sentiment": 607,
+      "SentimentConfidence": 415,
+      "CreatedBy": 261,
+      "TableRight": null,
       "FieldProperties": {
         "fieldName": {
-          "FieldRight": {
-            "Mask": "FULL",
-            "Reason": ""
-          },
+          "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 329
+          "FieldLength": 395
         }
       }
     }
   ],
   "Tags": [
     {
-      "Id": 637,
-      "Name": "Orn LLC",
-      "ToolTip": "Vero enim dolores commodi.",
-      "TableRight": {},
+      "Id": 413,
+      "Name": "Block LLC",
+      "ToolTip": "Aspernatur cupiditate minima aut.",
+      "TableRight": null,
       "FieldProperties": {
         "fieldName": {
-          "FieldRight": {
-            "Mask": "FULL",
-            "Reason": ""
-          },
-          "FieldType": "System.Int32",
-          "FieldLength": 659
+          "FieldRight": null,
+          "FieldType": "System.String",
+          "FieldLength": 252
         }
       }
     },
     {
-      "Id": 637,
-      "Name": "Orn LLC",
-      "ToolTip": "Vero enim dolores commodi.",
-      "TableRight": {},
+      "Id": 413,
+      "Name": "Block LLC",
+      "ToolTip": "Aspernatur cupiditate minima aut.",
+      "TableRight": null,
       "FieldProperties": {
         "fieldName": {
-          "FieldRight": {
-            "Mask": "FULL",
-            "Reason": ""
-          },
-          "FieldType": "System.Int32",
-          "FieldLength": 659
+          "FieldRight": null,
+          "FieldType": "System.String",
+          "FieldLength": 252
         }
       }
     }
   ],
+  "Language": "esse",
+  "Sentiment": 698,
+  "SentimentConfidence": 756,
+  "SuggestedCategoryId": 349,
+  "SuggestedCategoryName": "VIP Customer",
+  "OrigHumanCategoryId": 302,
+  "IconHint": "soluta",
   "ExtraFields": {
-    "ExtraFields1": "et",
-    "ExtraFields2": "ipsa"
+    "ExtraFields1": "veniam",
+    "ExtraFields2": "quis"
   },
   "CustomFields": {
-    "CustomFields1": "eum",
-    "CustomFields2": "ipsum"
+    "CustomFields1": "et",
+    "CustomFields2": "officia"
   },
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
+      "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 298
+      "FieldLength": 559
     }
   },
   "_Links": {

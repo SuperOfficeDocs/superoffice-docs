@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Sale/HasStakeholderSetting
-id: v1SaleAgent_HasStakeholderSetting
+uid: v1SaleAgent_HasStakeholderSetting
 ---
 
 # POST Agents/Sale/HasStakeholderSetting
@@ -8,6 +8,14 @@ id: v1SaleAgent_HasStakeholderSetting
 ```http
 POST /api/v1/Agents/Sale/HasStakeholderSetting
 ```
+
+
+
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -18,6 +26,7 @@ POST /api/v1/Agents/Sale/HasStakeholderSetting
 ```http
 POST /api/v1/Agents/Sale/HasStakeholderSetting?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -33,15 +42,18 @@ POST /api/v1/Agents/Sale/HasStakeholderSetting?$select=name,department,category/
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-SaleId
+SaleId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | SaleId | int32 |  |
 
+
 ## Response: bool
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -49,23 +61,26 @@ SaleId
 
 Response body: bool
 
-## Sample Request
+
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Sale/HasStakeholderSetting
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleId": 313
+  "SaleId": 761
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-false
+true
 ```

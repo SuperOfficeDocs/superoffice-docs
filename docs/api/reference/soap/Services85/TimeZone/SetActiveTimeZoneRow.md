@@ -16,6 +16,8 @@ Set active state of singe row in the TZLocation table
 * **id:** Id of row to set active state on
 * **active:** Set active to true or false
 
+
+
 [WSDL file for Services85/TimeZone](../Services85-TimeZone.md)
 
 Obtain a ticket from the [Services85/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -48,6 +50,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## SetActiveTimeZoneRow Response
 
 ```xml
@@ -66,3 +69,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

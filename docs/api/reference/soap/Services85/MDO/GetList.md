@@ -20,6 +20,7 @@ Method to get a MDO list.
 
 **Returns:** Array of MDOListItem
 
+
 [WSDL file for Services85/MDO](../Services85-MDO.md)
 
 Obtain a ticket from the [Services85/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -54,6 +55,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+
 
 ## GetList Response
 
@@ -122,3 +124,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

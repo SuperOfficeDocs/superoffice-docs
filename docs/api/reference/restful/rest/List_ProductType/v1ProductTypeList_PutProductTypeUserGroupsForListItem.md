@@ -1,6 +1,6 @@
 ---
 title: PUT List/ProductType/Items/{id}/UserGroups
-id: v1ProductTypeList_PutProductTypeUserGroupsForListItem
+uid: v1ProductTypeList_PutProductTypeUserGroupsForListItem
 ---
 
 # PUT List/ProductType/Items/{id}/UserGroups
@@ -11,11 +11,18 @@ PUT /api/v1/List/ProductType/Items/{itemId}/UserGroups
 
 Saves user groups visible for the ProductType list's item.
 
+
 Calls the List agent service SaveHeadingsForListItemFromListDefinition.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | itemId | int32 | The ID of the item to save. **Required** |
+
+
 
 ## Request Headers
 
@@ -31,9 +38,9 @@ Calls the List agent service SaveHeadingsForListItemFromListDefinition.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entities
+## Request Body: entities  
 
-The headings to be saved.
+The headings to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -53,7 +60,10 @@ The headings to be saved.
 | Hidden | bool | True if the ListItem is hidden |
 | FullName | string | The name of the ListItem in its context |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -81,56 +91,58 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 PUT /api/v1/List/ProductType/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 63,
-    "Name": "Runolfsson-Conroy",
-    "ToolTip": "Eos rerum.",
+    "Id": 757,
+    "Name": "Osinski LLC",
+    "ToolTip": "Dignissimos culpa eos voluptatem velit veritatis fugit aut.",
     "Deleted": true,
-    "Rank": 991,
-    "Type": "quasi",
-    "ColorBlock": 441,
-    "IconHint": "eum",
-    "Selected": false,
-    "LastChanged": "2010-06-13T18:25:52.0292124+02:00",
+    "Rank": 359,
+    "Type": "aspernatur",
+    "ColorBlock": 581,
+    "IconHint": "harum",
+    "Selected": true,
+    "LastChanged": "2006-11-17T11:10:54.4519022+01:00",
     "ChildItems": [
       {
-        "Id": 290,
-        "Name": "Cronin, Johnson and Quigley",
-        "ToolTip": "Praesentium eaque maiores unde.",
+        "Id": 521,
+        "Name": "Blanda Group",
+        "ToolTip": "Praesentium et.",
         "Deleted": true,
-        "Rank": 560,
-        "Type": "in",
-        "ColorBlock": 534,
-        "IconHint": "facere",
+        "Rank": 742,
+        "Type": "reprehenderit",
+        "ColorBlock": 259,
+        "IconHint": "sunt",
         "Selected": true,
-        "LastChanged": "2015-01-04T18:25:52.0302124+01:00",
+        "LastChanged": "2013-12-27T11:10:54.4529024+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "qui",
-        "StyleHint": "consequatur",
-        "Hidden": true,
-        "FullName": "Lupe Kulas"
+        "ExtraInfo": "ducimus",
+        "StyleHint": "quis",
+        "Hidden": false,
+        "FullName": "Ms. Meaghan Brandyn Anderson DVM"
       }
     ],
-    "ExtraInfo": "natus",
-    "StyleHint": "sed",
-    "Hidden": true,
-    "FullName": "Veda Schoen"
+    "ExtraInfo": "similique",
+    "StyleHint": "quis",
+    "Hidden": false,
+    "FullName": "Josianne Hand"
   }
 ]
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -138,65 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 395,
-    "Name": "Koss LLC",
-    "ToolTip": "Quod aperiam minus ut omnis.",
-    "Deleted": true,
-    "Rank": 438,
-    "Type": "consequatur",
-    "ColorBlock": 215,
-    "IconHint": "perspiciatis",
+    "Id": 123,
+    "Name": "Hayes, McKenzie and Cummings",
+    "ToolTip": "Id velit asperiores accusantium.",
+    "Deleted": false,
+    "Rank": 402,
+    "Type": "quam",
+    "ColorBlock": 18,
+    "IconHint": "aut",
     "Selected": false,
-    "LastChanged": "2021-10-12T18:25:52.0322125+02:00",
+    "LastChanged": "2011-01-12T11:10:54.4539021+01:00",
     "ChildItems": [
       {
-        "Id": 112,
-        "Name": "Cormier-Powlowski",
-        "ToolTip": "Quo distinctio eius et repudiandae culpa.",
-        "Deleted": true,
-        "Rank": 536,
-        "Type": "necessitatibus",
-        "ColorBlock": 144,
-        "IconHint": "ipsam",
-        "Selected": false,
-        "LastChanged": "2013-07-05T18:25:52.0322125+02:00",
+        "Id": 965,
+        "Name": "Walsh Inc and Sons",
+        "ToolTip": "Doloribus enim nam.",
+        "Deleted": false,
+        "Rank": 494,
+        "Type": "quis",
+        "ColorBlock": 732,
+        "IconHint": "debitis",
+        "Selected": true,
+        "LastChanged": "2021-02-21T11:10:54.4539021+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "nostrum",
-        "StyleHint": "modi",
-        "Hidden": true,
-        "FullName": "Dr. Nils Hahn",
-        "TableRight": {},
+        "ExtraInfo": "et",
+        "StyleHint": "vel",
+        "Hidden": false,
+        "FullName": "Miss Octavia Kattie Mann",
+        "TableRight": null,
         "FieldProperties": {
           "fieldName": {
-            "FieldRight": {
-              "Mask": "FULL",
-              "Reason": ""
-            },
+            "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 813
+            "FieldLength": 517
           }
         }
       }
     ],
-    "ExtraInfo": "reiciendis",
-    "StyleHint": "dolore",
+    "ExtraInfo": "voluptas",
+    "StyleHint": "nihil",
     "Hidden": true,
-    "FullName": "Marcellus Wintheiser",
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "FullName": "Dannie Miller",
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.Int32",
-        "FieldLength": 752
+        "FieldRight": null,
+        "FieldType": "System.String",
+        "FieldLength": 316
       }
     }
   }

@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Quote/GetQuoteVersionWorkflowImageState
-id: v1QuoteAgent_GetQuoteVersionWorkflowImageState
+uid: v1QuoteAgent_GetQuoteVersionWorkflowImageState
 ---
 
 # POST Agents/Quote/GetQuoteVersionWorkflowImageState
@@ -11,6 +11,12 @@ POST /api/v1/Agents/Quote/GetQuoteVersionWorkflowImageState
 
 Get state icon and name for the Quote version dialog header.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Get state icon and name for the Quote version dialog header.
 ```http
 POST /api/v1/Agents/Quote/GetQuoteVersionWorkflowImageState?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,26 +42,24 @@ POST /api/v1/Agents/Quote/GetQuoteVersionWorkflowImageState?$select=name,departm
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-QuoteVersionId
+QuoteVersionId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | QuoteVersionId | int32 |  |
 
-## Response: object
 
-Information about possible button actions for the quote version dialog.
+## Response: 
 
-Carrier object for QuoteVersionButtonState.
-Services for the QuoteVersionButtonState Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IQuoteAgent">Quote Agent</see>.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -66,7 +71,7 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Quote/GetQuoteVersionWorkflowImageState
@@ -76,9 +81,11 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 573
+  "QuoteVersionId": 73
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -86,22 +93,16 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Action": "Approve",
-  "ImageHint": "sequi",
-  "DisplayText": "et",
-  "TooltipText": "non",
-  "Enabled": true,
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": "whiteboard front-end e-business"
-  },
+  "ImageHint": "ipsa",
+  "DisplayText": "fugit",
+  "TooltipText": "ratione",
+  "Enabled": false,
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
+      "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 707
+      "FieldLength": 582
     }
   }
 }

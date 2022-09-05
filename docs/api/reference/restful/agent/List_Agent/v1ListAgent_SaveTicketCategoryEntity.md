@@ -1,6 +1,6 @@
 ---
 title: POST Agents/List/SaveTicketCategoryEntity
-id: v1ListAgent_SaveTicketCategoryEntity
+uid: v1ListAgent_SaveTicketCategoryEntity
 ---
 
 # POST Agents/List/SaveTicketCategoryEntity
@@ -10,6 +10,13 @@ POST /api/v1/Agents/List/SaveTicketCategoryEntity
 ```
 
 Updates the existing TicketCategoryEntity or creates a new TicketCategoryEntity if the id parameter is empty
+
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -25,9 +32,9 @@ Updates the existing TicketCategoryEntity or creates a new TicketCategoryEntity 
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entity
+## Request Body: entity  
 
-The TicketCategoryEntity to be saved.
+The TicketCategoryEntity to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -49,18 +56,16 @@ The TicketCategoryEntity to be saved.
 | ExtraFields | object | Deprecated: Use {SuperOffice.CRM.Services.TicketCategoryEntity.CustomFields} instead. Extra fields added to the carrier. This could be data from Plug-ins, the foreign key system, external applications, etc. |
 | CustomFields | object | Udef + Extra fields added to the carrier. Extra fields as defined by changes to database schema + user-defined fields as defined by admin. Custom fields combines user defined fields and extra fields into one bucket.  The individual {SuperOffice.CRM.Services.TicketCategoryEntity.ExtraFields} and <see cref="!:UserDefinedFields">UserDefinedFields</see> properties are deprecated in favor of this combined collection. |
 
-## Response: object
 
-This entity describes the meta data for a ticket category, and provides special operations on it.
+## Response: 
 
-Carrier object for TicketCategoryEntity.
-Services for the TicketCategoryEntity Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IListAgent">List Agent</see>.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -84,7 +89,7 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/List/SaveTicketCategoryEntity
@@ -94,126 +99,68 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketCategoryId": 806,
-  "ParentId": 46,
-  "Name": "Sawayn Inc and Sons",
-  "Fullname": "facilis",
-  "CategoryMaster": 680,
+  "TicketCategoryId": 962,
+  "ParentId": 6,
+  "Name": "Streich-Waters",
+  "Fullname": "vel",
+  "CategoryMaster": 509,
   "Flags": "AcceptWhenReplying",
   "DelegateMethod": "Even",
-  "ExternalName": "Vandervort, Dickinson and Jerde",
+  "ExternalName": "Barton-McGlynn",
   "ClosingStatus": "Active",
   "MsgClosingStatus": "Active",
-  "AssignmentLag": 707,
-  "ReplyTemplate": 771,
-  "NotificationEmail": "remington_kuhlman@gibsonpaucek.com",
-  "DefaultTicketStatus": {
-    "TicketStatusId": 791,
-    "Name": "Stiedemann-McCullough",
-    "Status": "Active",
-    "TimeCounter": "Externally",
-    "NoEmailReopen": true,
-    "IsDefault": true,
-    "UsedInQueue": true
-  },
-  "DefaultMessageStatus": {
-    "TicketStatusId": 321,
-    "Name": "Medhurst LLC",
-    "Status": "Active",
-    "TimeCounter": "Externally",
-    "NoEmailReopen": false,
-    "IsDefault": true,
-    "UsedInQueue": true
-  },
+  "AssignmentLag": 1001,
+  "ReplyTemplate": 493,
+  "NotificationEmail": "giles@herzogpadberg.info",
+  "DefaultTicketStatus": null,
+  "DefaultMessageStatus": null,
   "ExtraFields": {
-    "ExtraFields1": "unde",
-    "ExtraFields2": "minus"
+    "ExtraFields1": "cupiditate",
+    "ExtraFields2": "molestias"
   },
   "CustomFields": {
-    "CustomFields1": "architecto",
-    "CustomFields2": "ut"
+    "CustomFields1": "qui",
+    "CustomFields2": "incidunt"
   }
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketCategoryId": 923,
-  "ParentId": 529,
-  "Name": "Windler-Treutel",
-  "Fullname": "magni",
-  "CategoryMaster": 235,
+  "TicketCategoryId": 769,
+  "ParentId": 639,
+  "Name": "Lesch, Reynolds and Dare",
+  "Fullname": "inventore",
+  "CategoryMaster": 110,
   "Flags": "AcceptWhenReplying",
   "DelegateMethod": "Even",
-  "ExternalName": "Hackett LLC",
+  "ExternalName": "Dicki-Pacocha",
   "ClosingStatus": "Active",
   "MsgClosingStatus": "Active",
-  "AssignmentLag": 882,
-  "ReplyTemplate": 35,
-  "NotificationEmail": "loraine_keebler@rueckerhackett.ca",
-  "DefaultTicketStatus": {
-    "TicketStatusId": 722,
-    "Name": "Satterfield, Gislason and Lemke",
-    "Status": "Active",
-    "TimeCounter": "Externally",
-    "NoEmailReopen": false,
-    "IsDefault": false,
-    "UsedInQueue": false,
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.Int32",
-        "FieldLength": 849
-      }
-    }
-  },
-  "DefaultMessageStatus": {
-    "TicketStatusId": 908,
-    "Name": "Carter Inc and Sons",
-    "Status": "Active",
-    "TimeCounter": "Externally",
-    "NoEmailReopen": false,
-    "IsDefault": false,
-    "UsedInQueue": false,
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 642
-      }
-    }
-  },
+  "AssignmentLag": 915,
+  "ReplyTemplate": 249,
+  "NotificationEmail": "hannah@macejkovicbradtke.com",
+  "DefaultTicketStatus": null,
+  "DefaultMessageStatus": null,
   "ExtraFields": {
-    "ExtraFields1": "vero",
-    "ExtraFields2": "minima"
+    "ExtraFields1": "odit",
+    "ExtraFields2": "enim"
   },
   "CustomFields": {
-    "CustomFields1": "dicta",
-    "CustomFields2": "dolor"
+    "CustomFields1": "ratione",
+    "CustomFields2": "dolorum"
   },
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
+      "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 772
+      "FieldLength": 691
     }
   }
 }

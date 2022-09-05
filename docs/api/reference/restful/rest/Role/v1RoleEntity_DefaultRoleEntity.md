@@ -1,6 +1,6 @@
 ---
 title: GET Role/default
-id: v1RoleEntity_DefaultRoleEntity
+uid: v1RoleEntity_DefaultRoleEntity
 ---
 
 # GET Role/default
@@ -11,9 +11,17 @@ GET /api/v1/Role/default
 
 Set default values into a new RoleEntity.
 
+
 NetServer calculates default values on the entity, which is required when creating/storing a new instance
 
-## Online Restricted: ## The User agent is not available in Online by default. User management is not allowed for partner apps. Calls the User agent service CreateDefaultRoleEntity
+
+## Online Restricted: ## The User agent is not available in Online by default. User management is not allowed for partner apps. Calls the User agent service CreateDefaultRoleEntity.
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -28,16 +36,16 @@ NetServer calculates default values on the entity, which is required when creati
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response: object
 
-Carrier object for RoleEntity.
-Services for the RoleEntity Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IUserAgent">User Agent</see>.
+## Response: 
+
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -56,7 +64,7 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 GET /api/v1/Role/default
@@ -65,145 +73,31 @@ Accept: application/json; charset=utf-8
 Accept-Language: en
 ```
 
+## Sample response
+
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 255,
-  "Name": "Koepp-Greenholt",
-  "Tooltip": "aspernatur",
+  "RoleId": 260,
+  "Name": "White, Bartoletti and Welch",
+  "Tooltip": "saepe",
   "RoleType": "Anonymous",
-  "Deleted": 294,
-  "Rank": 796,
-  "Created": "2019-03-11T18:25:50.8598852+01:00",
-  "UseCategories": 312,
-  "CreatedBy": {
-    "AssociateId": 73,
-    "Name": "Rogahn LLC",
-    "PersonId": 344,
-    "Rank": 212,
-    "Tooltip": "sequi",
-    "Type": "AnonymousAssociate",
-    "GroupIdx": 656,
-    "FullName": "Lester O'Connell",
-    "FormalName": "Schuster-Johnston",
-    "Deleted": true,
-    "EjUserId": 190,
-    "UserName": "Pacocha-Corwin",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.Int32",
-        "FieldLength": 55
-      }
-    }
-  },
-  "Updated": "2018-01-24T18:25:50.8598852+01:00",
-  "UpdatedBy": {
-    "AssociateId": 551,
-    "Name": "Hahn, Braun and Lang",
-    "PersonId": 747,
-    "Rank": 422,
-    "Tooltip": "labore",
-    "Type": "AnonymousAssociate",
-    "GroupIdx": 378,
-    "FullName": "Ricardo Metz DVM",
-    "FormalName": "Schultz Group",
-    "Deleted": false,
-    "EjUserId": 967,
-    "UserName": "Smith, Boehm and Padberg",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": "aggregate killer initiatives"
-        },
-        "FieldType": "System.String",
-        "FieldLength": 303
-      }
-    }
-  },
-  "DataRights": {
-    "ColumnsInfo": [
-      {},
-      {}
-    ],
-    "RowsInfo": [
-      {},
-      {}
-    ],
-    "Rights": [
-      [
-        {
-          "Value": "iure",
-          "Description": "Diverse multi-state concept",
-          "TableRight": {
-            "Mask": "Delete",
-            "Reason": ""
-          },
-          "FieldProperties": {
-            "fieldName": {
-              "FieldRight": {
-                "Mask": "FULL",
-                "Reason": ""
-              },
-              "FieldType": "System.Int32",
-              "FieldLength": 581
-            }
-          }
-        }
-      ],
-      [
-        {
-          "Value": "quod",
-          "Description": "Automated bifurcated frame",
-          "TableRight": {
-            "Mask": "Delete",
-            "Reason": ""
-          },
-          "FieldProperties": {
-            "fieldName": {
-              "FieldRight": {
-                "Mask": "FULL",
-                "Reason": ""
-              },
-              "FieldType": "System.Int32",
-              "FieldLength": 755
-            }
-          }
-        }
-      ]
-    ],
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 887
-      }
-    }
-  },
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "Deleted": 152,
+  "Rank": 390,
+  "Created": "2000-05-28T11:10:53.3371437+02:00",
+  "UseCategories": 441,
+  "CreatedBy": null,
+  "Updated": "2000-04-13T11:10:53.3381434+02:00",
+  "UpdatedBy": null,
+  "DataRights": null,
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
-      "FieldType": "System.String",
-      "FieldLength": 912
+      "FieldRight": null,
+      "FieldType": "System.Int32",
+      "FieldLength": 160
     }
   }
 }

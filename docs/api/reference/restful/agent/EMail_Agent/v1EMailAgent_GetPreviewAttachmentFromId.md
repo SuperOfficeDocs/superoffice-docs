@@ -1,6 +1,6 @@
 ---
 title: POST Agents/EMail/GetPreviewAttachmentFromId
-id: v1EMailAgent_GetPreviewAttachmentFromId
+uid: v1EMailAgent_GetPreviewAttachmentFromId
 ---
 
 # POST Agents/EMail/GetPreviewAttachmentFromId
@@ -11,9 +11,16 @@ POST /api/v1/Agents/EMail/GetPreviewAttachmentFromId
 
 Retrieve an attachment from an e-mail.
 
+
 The returned data is intended to be use for a preview.
 
-## Online Restricted: ## The EMail agent is not available in Online by default. Access must be requested specifically when app is registered
+
+## Online Restricted: ## The EMail agent is not available in Online by default. Access must be requested specifically when app is registered.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -24,6 +31,7 @@ The returned data is intended to be use for a preview.
 ```http
 POST /api/v1/Agents/EMail/GetPreviewAttachmentFromId?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -39,9 +47,9 @@ POST /api/v1/Agents/EMail/GetPreviewAttachmentFromId?$select=name,department,cat
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-MailItemId, AttachmentId, AttachmentType, AttachmentFilename
+MailItemId, AttachmentId, AttachmentType, AttachmentFilename 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -50,18 +58,16 @@ MailItemId, AttachmentId, AttachmentType, AttachmentFilename
 | AttachmentType | string |  |
 | AttachmentFilename | string |  |
 
-## Response: object
 
-Information about an attachment
+## Response: 
 
-Carrier object for EMailAttachment.
-Services for the EMailAttachment Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IEMailAgent">EMail Agent</see>.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -76,48 +82,44 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/EMail/GetPreviewAttachmentFromId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "MailItemId": 210,
-  "AttachmentId": "ut",
-  "AttachmentType": "optio",
-  "AttachmentFilename": "excepturi"
+  "MailItemId": 651,
+  "AttachmentId": "atque",
+  "AttachmentType": "at",
+  "AttachmentFilename": "amet"
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "De-engineered well-modulated hierarchy",
-  "Filename": "omnis",
-  "Size": 277,
-  "Type": "ullam",
-  "Encoding": "eveniet",
-  "Id": "natus",
-  "Disposition": "molestiae",
+  "Description": "Multi-channelled 5th generation application",
+  "Filename": "animi",
+  "Size": 955,
+  "Type": "explicabo",
+  "Encoding": "provident",
+  "Id": "illo",
+  "Disposition": "neque",
   "Stream": "GIF89....File contents as raw bytes...",
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
+      "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 187
+      "FieldLength": 915
     }
   }
 }

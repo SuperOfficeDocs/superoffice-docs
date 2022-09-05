@@ -1,6 +1,6 @@
 ---
 title: POST Agents/License/GetThirdPartyLicenseAssignments
-id: v1LicenseAgent_GetThirdPartyLicenseAssignments
+uid: v1LicenseAgent_GetThirdPartyLicenseAssignments
 ---
 
 # POST Agents/License/GetThirdPartyLicenseAssignments
@@ -11,6 +11,12 @@ POST /api/v1/Agents/License/GetThirdPartyLicenseAssignments
 
 Get license assignments for an associate for licenses belonging to an other module owner than SuperOffice
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Get license assignments for an associate for licenses belonging to an other modu
 ```http
 POST /api/v1/Agents/License/GetThirdPartyLicenseAssignments?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,16 +42,19 @@ POST /api/v1/Agents/License/GetThirdPartyLicenseAssignments?$select=name,departm
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-AssociateId, ModuleOwner
+AssociateId, ModuleOwner 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | AssociateId | int32 |  |
 | ModuleOwner | string |  |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -71,20 +81,22 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/License/GetThirdPartyLicenseAssignments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 275,
-  "ModuleOwner": "voluptas"
+  "AssociateId": 964,
+  "ModuleOwner": "et"
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -92,32 +104,26 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Unrestricted": true,
-    "Total": 772,
-    "Tooltip": "molestiae",
-    "CanAssign": true,
-    "Free": 808,
-    "InUse": 645,
-    "IsHidden": false,
+    "Unrestricted": false,
+    "Total": 100,
+    "Tooltip": "accusantium",
+    "CanAssign": false,
+    "Free": 305,
+    "InUse": 464,
+    "IsHidden": true,
     "Assigned": false,
-    "ModuleLicenseId": 123,
-    "Name": "Kuhn-Lehner",
-    "Description": "Persistent multi-tasking focus group",
-    "PrerequisiteModuleName": "D'Amore, Heathcote and Gerlach",
-    "SortOrder": 226,
-    "ExtraFlags": 416,
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "ModuleLicenseId": 122,
+    "Name": "Zieme, Ullrich and Dare",
+    "Description": "Monitored eco-centric neural-net",
+    "PrerequisiteModuleName": "Hahn Inc and Sons",
+    "SortOrder": 679,
+    "ExtraFlags": 984,
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
+        "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 748
+        "FieldLength": 976
       }
     }
   }

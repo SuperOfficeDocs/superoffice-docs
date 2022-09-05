@@ -17,6 +17,7 @@ Returns an array of strings(notepad pages).
 
 **Returns:** Returns an array of strings(notepad pages).
 
+
 [WSDL file for Services85/Associate](../Services85-Associate.md)
 
 Obtain a ticket from the [Services85/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -49,6 +50,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## GetNote Response
 
 ```xml
@@ -71,3 +73,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

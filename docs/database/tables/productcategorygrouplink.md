@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "ProductCategoryGroupLink"
-so.date: 04.12.2022
+so.date: 08.26.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -30,6 +30,7 @@ User group link table for ProductCategory, for MDO item hiding
 |updated\_associate\_id|Last updated by whom|FK [associate](associate.md)| |
 |updatedCount|Number of updates made to this record|UShort| |
 
+
 ![ProductCategoryGroupLink table relationship diagram](./media/ProductCategoryGroupLink.png)
 
 [!include[details](./includes/productcategorygrouplink.md)]
@@ -50,6 +51,7 @@ User group link table for ProductCategory, for MDO item hiding
 |[ProductCategory](productcategory.md)  |List for the ProductCategory field of the Product table (Quote Management) |
 |[UserGroup](usergroup.md)  |Secondary user groups |
 
+
 ## Replication Flags
 
 * Replicate changes DOWN from central to satellites and travellers.
@@ -59,3 +61,4 @@ User group link table for ProductCategory, for MDO item hiding
 ## Security Flags
 
 * No access control via user's Role.
+

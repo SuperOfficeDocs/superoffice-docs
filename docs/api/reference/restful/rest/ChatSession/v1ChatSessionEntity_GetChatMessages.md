@@ -1,6 +1,6 @@
 ---
 title: GET ChatSession/{id}/Messages
-id: v1ChatSessionEntity_GetChatMessages
+uid: v1ChatSessionEntity_GetChatMessages
 ---
 
 # GET ChatSession/{id}/Messages
@@ -11,9 +11,15 @@ GET /api/v1/ChatSession/{chatSessionId}/Messages
 
 Get all or some of the messages in a chat session
 
+
+
+
+
+
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | chatSessionId | int32 | id of the chat session to reset **Required** |
+
 
 ## Query String Parameters
 
@@ -22,8 +28,9 @@ Get all or some of the messages in a chat session
 | after | int32 |  Return messages after this message id |
 
 ```http
-GET /api/v1/ChatSession/{chatSessionId}/Messages?after=568
+GET /api/v1/ChatSession/{chatSessionId}/Messages?after=877
 ```
+
 
 ## Request Headers
 
@@ -38,7 +45,10 @@ GET /api/v1/ChatSession/{chatSessionId}/Messages?after=568
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -58,14 +68,16 @@ Response body: array
 | SpecialParam | string | Special parameter for the special_type. |
 | WhenPosted | date-time | When the message was posted (UTC timestamp). |
 
-## Sample Request
+## Sample request
 
 ```http!
 GET /api/v1/ChatSession/{chatSessionId}/Messages
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -73,15 +85,15 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ChatMessageId": 938,
-    "ChatSessionId": 247,
+    "ChatMessageId": 83,
+    "ChatSessionId": 119,
     "Type": "Invalid",
-    "Message": "quia",
-    "Author": "laudantium",
-    "ReadByCustomer": 7,
+    "Message": "eligendi",
+    "Author": "temporibus",
+    "ReadByCustomer": 516,
     "SpecialType": "Block",
-    "SpecialParam": "explicabo",
-    "WhenPosted": "2012-09-06T18:25:50.1555956+02:00"
+    "SpecialParam": "cum",
+    "WhenPosted": "2013-05-01T11:10:52.5641784+02:00"
   }
 ]
 ```

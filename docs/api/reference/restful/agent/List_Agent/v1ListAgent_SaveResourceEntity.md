@@ -1,6 +1,6 @@
 ---
 title: POST Agents/List/SaveResourceEntity
-id: v1ListAgent_SaveResourceEntity
+uid: v1ListAgent_SaveResourceEntity
 ---
 
 # POST Agents/List/SaveResourceEntity
@@ -10,6 +10,13 @@ POST /api/v1/Agents/List/SaveResourceEntity
 ```
 
 Updates the existing ResourceEntity or creates a new ResourceEntity if the id parameter is empty
+
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -25,9 +32,9 @@ Updates the existing ResourceEntity or creates a new ResourceEntity if the id pa
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entity
+## Request Body: entity  
 
-The ResourceEntity to be saved.
+The ResourceEntity to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -39,18 +46,16 @@ The ResourceEntity to be saved.
 | IsLocation | bool | If true the resource is a location |
 | LocationAddress | string | Address of location, if this is a resource that is a location |
 
-## Response: object
 
-The resource entity contains resource information
+## Response: 
 
-Carrier object for ResourceEntity.
-Services for the ResourceEntity Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IListAgent">List Agent</see>.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -64,7 +69,7 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/List/SaveResourceEntity
@@ -74,40 +79,36 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ResourceId": 931,
-  "Name": "Langosh LLC",
-  "Rank": 971,
-  "Tooltip": "iste",
+  "ResourceId": 416,
+  "Name": "Waters LLC",
+  "Rank": 164,
+  "Tooltip": "quod",
   "Deleted": false,
   "IsLocation": false,
-  "LocationAddress": "voluptatum"
+  "LocationAddress": "quidem"
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ResourceId": 941,
-  "Name": "Kassulke, Lowe and Treutel",
-  "Rank": 592,
-  "Tooltip": "autem",
-  "Deleted": true,
+  "ResourceId": 609,
+  "Name": "Jacobi LLC",
+  "Rank": 551,
+  "Tooltip": "dignissimos",
+  "Deleted": false,
   "IsLocation": false,
-  "LocationAddress": "architecto",
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": "repurpose value-added niches"
-  },
+  "LocationAddress": "odio",
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
-      "FieldType": "System.String",
-      "FieldLength": 1001
+      "FieldRight": null,
+      "FieldType": "System.Int32",
+      "FieldLength": 106
     }
   }
 }

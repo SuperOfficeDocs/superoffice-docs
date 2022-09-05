@@ -19,6 +19,7 @@ Generates a Pdf from HTML and makes a document
 
 **Returns:** Document id of saved report
 
+
 [WSDL file for Services88/Document](../Services88-Document.md)
 
 Obtain a ticket from the [Services88/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -53,6 +54,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## SavePrivacyReport Response
 
 ```xml
@@ -73,3 +75,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

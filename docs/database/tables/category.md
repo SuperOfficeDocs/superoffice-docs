@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "Category"
-so.date: 04.12.2022
+so.date: 08.26.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -34,6 +34,7 @@ Category list table
 |updatedCount|Number of updates made to this record|UShort| |
 |CategoryFamily\_id|Optional link to family, for grouping things like multiple kinds of customer category under family &apos;customer&apos;|FK [CategoryFamily](categoryfamily.md)|&#x25CF;|
 
+
 ![Category table relationship diagram](./media/Category.png)
 
 [!include[details](./includes/category.md)]
@@ -56,6 +57,7 @@ Category list table
 |[contact](contact.md)  |Companies and Organizations.   This table features a special record containing information about the contact that owns the database.   |
 |[person](person.md)  |Persons in a company or an organizations. All associates have a corresponding person record |
 
+
 ## Replication Flags
 
 * Replicate changes DOWN from central to satellites and travellers.
@@ -65,3 +67,4 @@ Category list table
 ## Security Flags
 
 * No access control via user's Role.
+

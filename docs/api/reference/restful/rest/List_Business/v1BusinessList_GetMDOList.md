@@ -1,6 +1,6 @@
 ---
 title: GET List/Business/MDOItems
-id: v1BusinessList_GetMDOList
+uid: v1BusinessList_GetMDOList
 ---
 
 # GET List/Business/MDOItems
@@ -11,6 +11,12 @@ GET /api/v1/List/Business/MDOItems
 
 Get the MDO list items for "Business" - with headings and filtering by user group.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,8 +26,9 @@ Get the MDO list items for "Business" - with headings and filtering by user grou
 
 ```http
 GET /api/v1/List/Business/MDOItems?flat=True
-GET /api/v1/List/Business/MDOItems?query=maiores
+GET /api/v1/List/Business/MDOItems?query=impedit
 ```
+
 
 ## Request Headers
 
@@ -36,7 +43,10 @@ GET /api/v1/List/Business/MDOItems?query=maiores
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -61,14 +71,16 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 GET /api/v1/List/Business/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -76,59 +88,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 174,
-    "Name": "Klocko Inc and Sons",
-    "ToolTip": "A incidunt eius accusamus laborum doloremque aliquam.",
-    "Deleted": true,
-    "Rank": 788,
-    "Type": "sit",
+    "Id": 407,
+    "Name": "Huels Group",
+    "ToolTip": "Exercitationem tempore optio et dolores ipsam sit sint.",
+    "Deleted": false,
+    "Rank": 354,
+    "Type": "dignissimos",
     "ChildItems": [
       {
-        "Id": 158,
-        "Name": "Hyatt Group",
-        "ToolTip": "Consequatur suscipit sint pariatur odio est sequi.",
+        "Id": 980,
+        "Name": "Smitham Group",
+        "ToolTip": "Quia qui unde.",
         "Deleted": false,
-        "Rank": 89,
-        "Type": "nostrum",
+        "Rank": 714,
+        "Type": "quidem",
         "ChildItems": [
           {},
           {}
         ],
         "IconHint": "et",
-        "ColorBlock": 236,
-        "ExtraInfo": "repellendus",
-        "StyleHint": "sed",
-        "FullName": "Winnifred Waelchi",
-        "TableRight": {},
+        "ColorBlock": 803,
+        "ExtraInfo": "illo",
+        "StyleHint": "mollitia",
+        "FullName": "Leilani Lind",
+        "TableRight": null,
         "FieldProperties": {
           "fieldName": {
-            "FieldRight": {
-              "Mask": "FULL",
-              "Reason": ""
-            },
+            "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 893
+            "FieldLength": 213
           }
         }
       }
     ],
-    "IconHint": "vel",
-    "ColorBlock": 308,
-    "ExtraInfo": "vero",
-    "StyleHint": "expedita",
-    "FullName": "Francis Cummerata",
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "IconHint": "non",
+    "ColorBlock": 344,
+    "ExtraInfo": "et",
+    "StyleHint": "enim",
+    "FullName": "Marlene Ziemann",
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.Int32",
-        "FieldLength": 81
+        "FieldRight": null,
+        "FieldType": "System.String",
+        "FieldLength": 398
       }
     }
   }

@@ -17,6 +17,7 @@ Gets the tab order.
 
 **Returns:** Tab order. Array of strings. Each string represent a named tab.
 
+
 [WSDL file for Services88/Preference](../Services88-Preference.md)
 
 Obtain a ticket from the [Services88/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -49,6 +50,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## GetTabOrder Response
 
 ```xml
@@ -74,3 +76,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

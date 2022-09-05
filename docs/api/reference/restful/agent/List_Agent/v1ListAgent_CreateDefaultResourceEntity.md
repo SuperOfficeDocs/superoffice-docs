@@ -1,6 +1,6 @@
 ---
 title: POST Agents/List/CreateDefaultResourceEntity
-id: v1ListAgent_CreateDefaultResourceEntity
+uid: v1ListAgent_CreateDefaultResourceEntity
 ---
 
 # POST Agents/List/CreateDefaultResourceEntity
@@ -11,7 +11,14 @@ POST /api/v1/Agents/List/CreateDefaultResourceEntity
 
 Set default values into a new ResourceEntity.
 
+
 NetServer calculates default values on the entity, which is required when creating/storing a new instance
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -26,18 +33,16 @@ NetServer calculates default values on the entity, which is required when creati
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response: object
 
-The resource entity contains resource information
+## Response: 
 
-Carrier object for ResourceEntity.
-Services for the ResourceEntity Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IListAgent">List Agent</see>.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -51,39 +56,35 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/List/CreateDefaultResourceEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ResourceId": 653,
-  "Name": "Murray LLC",
-  "Rank": 965,
-  "Tooltip": "quos",
+  "ResourceId": 786,
+  "Name": "Keeling, Bahringer and Runolfsson",
+  "Rank": 192,
+  "Tooltip": "esse",
   "Deleted": false,
-  "IsLocation": true,
-  "LocationAddress": "harum",
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "IsLocation": false,
+  "LocationAddress": "dolores",
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
-      "FieldType": "System.String",
-      "FieldLength": 275
+      "FieldRight": null,
+      "FieldType": "System.Int32",
+      "FieldLength": 937
     }
   }
 }

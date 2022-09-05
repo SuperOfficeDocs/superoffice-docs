@@ -1,6 +1,6 @@
 ---
 title: POST Agents/List/GetSources
-id: v1ListAgent_GetSources
+uid: v1ListAgent_GetSources
 ---
 
 # POST Agents/List/GetSources
@@ -11,6 +11,12 @@ POST /api/v1/Agents/List/GetSources
 
 Returns all sources
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Returns all sources
 ```http
 POST /api/v1/Agents/List/GetSources?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -34,7 +41,10 @@ POST /api/v1/Agents/List/GetSources?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -50,14 +60,16 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/List/GetSources
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -65,40 +77,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 558,
-    "Value": "sint",
-    "Tooltip": "qui",
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": "deliver scalable e-commerce"
-    },
+    "Id": 849,
+    "Value": "iusto",
+    "Tooltip": "blanditiis",
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 579
+        "FieldRight": null,
+        "FieldType": "System.Int32",
+        "FieldLength": 35
       }
     }
   },
   {
-    "Id": 558,
-    "Value": "sint",
-    "Tooltip": "qui",
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": "deliver scalable e-commerce"
-    },
+    "Id": 849,
+    "Value": "iusto",
+    "Tooltip": "blanditiis",
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 579
+        "FieldRight": null,
+        "FieldType": "System.Int32",
+        "FieldLength": 35
       }
     }
   }

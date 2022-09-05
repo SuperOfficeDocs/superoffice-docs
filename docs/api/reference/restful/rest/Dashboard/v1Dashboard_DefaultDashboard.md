@@ -1,6 +1,6 @@
 ---
 title: GET Dashboard/default
-id: v1Dashboard_DefaultDashboard
+uid: v1Dashboard_DefaultDashboard
 ---
 
 # GET Dashboard/default
@@ -11,7 +11,14 @@ GET /api/v1/Dashboard/default
 
 Set default values into a new Dashboard.
 
+
 NetServer calculates default values on the entity, which is required when creating/storing a new instance Calls the Dashboard agent service CreateDefaultDashboard.
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -26,18 +33,16 @@ NetServer calculates default values on the entity, which is required when creati
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response: object
 
-Dashboard configuration
+## Response: 
 
-Carrier object for Dashboard.
-Services for the Dashboard Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IDashboardAgent">Dashboard Agent</see>.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -49,35 +54,37 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 GET /api/v1/Dashboard/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 484,
-  "AssociateId": 607,
-  "Caption": "facilis",
+  "DashboardId": 75,
+  "AssociateId": 851,
+  "Caption": "et",
   "Layout": "Four",
   "Tiles": [
     {
-      "DashboardTileId": 128,
-      "Caption": "repellendus",
-      "Description": "Persistent dedicated hierarchy",
-      "ChartName": "Hudson-Kuphal",
-      "ChartId": "qui",
+      "DashboardTileId": 538,
+      "Caption": "cum",
+      "Description": "Multi-lateral client-driven website",
+      "ChartName": "Oberbrunner LLC",
+      "ChartId": "voluptatem",
       "IsDefault": false,
-      "AssociateId": 669,
-      "GroupId": 275,
-      "SelectionId": 783,
+      "AssociateId": 391,
+      "GroupId": 445,
+      "SelectionId": 138,
       "Config": "qui",
       "Type": "Bignum",
       "EntityType": "Activity",
@@ -89,31 +96,22 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "TableRight": {},
+      "TableRight": null,
       "FieldProperties": {
         "fieldName": {
-          "FieldRight": {
-            "Mask": "FULL",
-            "Reason": ""
-          },
-          "FieldType": "System.Int32",
-          "FieldLength": 795
+          "FieldRight": null,
+          "FieldType": "System.String",
+          "FieldLength": 223
         }
       }
     }
   ],
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
+      "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 571
+      "FieldLength": 429
     }
   }
 }

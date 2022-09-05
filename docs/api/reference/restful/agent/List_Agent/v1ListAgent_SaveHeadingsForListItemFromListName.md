@@ -1,6 +1,6 @@
 ---
 title: POST Agents/List/SaveHeadingsForListItemFromListName
-id: v1ListAgent_SaveHeadingsForListItemFromListName
+uid: v1ListAgent_SaveHeadingsForListItemFromListName
 ---
 
 # POST Agents/List/SaveHeadingsForListItemFromListName
@@ -11,6 +11,12 @@ POST /api/v1/Agents/List/SaveHeadingsForListItemFromListName
 
 Saves the headings for the list item.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Saves the headings for the list item.
 ```http
 POST /api/v1/Agents/List/SaveHeadingsForListItemFromListName?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,9 +42,9 @@ POST /api/v1/Agents/List/SaveHeadingsForListItemFromListName?$select=name,depart
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-UdListDefinitionName, ListItemId, Headings
+UdListDefinitionName, ListItemId, Headings 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -45,7 +52,10 @@ UdListDefinitionName, ListItemId, Headings
 | ListItemId | int32 |  |
 | Headings | array |  |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -73,7 +83,7 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/List/SaveHeadingsForListItemFromListName
@@ -83,32 +93,34 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionName": "Daniel, Bartell and Schmeler",
-  "ListItemId": 372,
+  "UdListDefinitionName": "Parisian Inc and Sons",
+  "ListItemId": 276,
   "Headings": [
     {
-      "Id": 112,
-      "Name": "Balistreri-Farrell",
-      "ToolTip": "Repellendus et numquam aut.",
+      "Id": 756,
+      "Name": "Bradtke LLC",
+      "ToolTip": "Et dolor et eos tenetur.",
       "Deleted": true,
-      "Rank": 666,
-      "Type": "voluptatum",
-      "ColorBlock": 911,
-      "IconHint": "rem",
-      "Selected": false,
-      "LastChanged": "2015-01-16T18:28:49.3231181+01:00",
+      "Rank": 846,
+      "Type": "quia",
+      "ColorBlock": 319,
+      "IconHint": "ea",
+      "Selected": true,
+      "LastChanged": "2017-02-27T11:10:27.1814543+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "consectetur",
-      "StyleHint": "non",
+      "ExtraInfo": "sed",
+      "StyleHint": "quia",
       "Hidden": false,
-      "FullName": "Miss Liza Barton"
+      "FullName": "Precious Collins II"
     }
   ]
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -116,65 +128,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 399,
-    "Name": "Bins LLC",
-    "ToolTip": "Vel labore ut.",
+    "Id": 568,
+    "Name": "Stroman, Hintz and Larkin",
+    "ToolTip": "Sed necessitatibus voluptatibus non cumque dignissimos.",
     "Deleted": false,
-    "Rank": 546,
-    "Type": "eos",
-    "ColorBlock": 615,
-    "IconHint": "ratione",
+    "Rank": 648,
+    "Type": "possimus",
+    "ColorBlock": 748,
+    "IconHint": "similique",
     "Selected": true,
-    "LastChanged": "2006-05-12T18:28:49.3241242+02:00",
+    "LastChanged": "2007-01-22T11:10:27.1824535+01:00",
     "ChildItems": [
       {
-        "Id": 678,
-        "Name": "Bins LLC",
-        "ToolTip": "Ex sunt minima rem deserunt.",
+        "Id": 225,
+        "Name": "Homenick, Hayes and Swaniawski",
+        "ToolTip": "Nisi mollitia nisi officiis non.",
         "Deleted": false,
-        "Rank": 737,
-        "Type": "sed",
-        "ColorBlock": 999,
-        "IconHint": "odit",
+        "Rank": 127,
+        "Type": "quo",
+        "ColorBlock": 667,
+        "IconHint": "quisquam",
         "Selected": true,
-        "LastChanged": "2006-07-25T18:28:49.3251228+02:00",
+        "LastChanged": "2013-11-20T11:10:27.1824535+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "voluptas",
-        "StyleHint": "architecto",
-        "Hidden": true,
-        "FullName": "Westley Kihn Jr.",
-        "TableRight": {},
+        "ExtraInfo": "velit",
+        "StyleHint": "id",
+        "Hidden": false,
+        "FullName": "Graham Dooley V",
+        "TableRight": null,
         "FieldProperties": {
           "fieldName": {
-            "FieldRight": {
-              "Mask": "FULL",
-              "Reason": ""
-            },
-            "FieldType": "System.Int32",
-            "FieldLength": 622
+            "FieldRight": null,
+            "FieldType": "System.String",
+            "FieldLength": 591
           }
         }
       }
     ],
-    "ExtraInfo": "est",
-    "StyleHint": "recusandae",
-    "Hidden": false,
-    "FullName": "Rigoberto Tremblay",
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "ExtraInfo": "et",
+    "StyleHint": "commodi",
+    "Hidden": true,
+    "FullName": "Antonina Trantow",
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.Int32",
-        "FieldLength": 167
+        "FieldRight": null,
+        "FieldType": "System.String",
+        "FieldLength": 400
       }
     }
   }

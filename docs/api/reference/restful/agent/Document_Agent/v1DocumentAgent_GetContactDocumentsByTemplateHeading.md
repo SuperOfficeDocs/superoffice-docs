@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Document/GetContactDocumentsByTemplateHeading
-id: v1DocumentAgent_GetContactDocumentsByTemplateHeading
+uid: v1DocumentAgent_GetContactDocumentsByTemplateHeading
 ---
 
 # POST Agents/Document/GetContactDocumentsByTemplateHeading
@@ -11,7 +11,13 @@ POST /api/v1/Agents/Document/GetContactDocumentsByTemplateHeading
 
 Method that returns a specified number of document appointments within a time range, filtered by the document template heading.
 
+
 The document appointments belong to the contact specified. The heading represents a grouping or filtering of document templates.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +28,7 @@ The document appointments belong to the contact specified. The heading represent
 ```http
 POST /api/v1/Agents/Document/GetContactDocumentsByTemplateHeading?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,9 +44,9 @@ POST /api/v1/Agents/Document/GetContactDocumentsByTemplateHeading?$select=name,d
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-ContactId, StartTime, EndTime, Count, TemplateHeadingId
+ContactId, StartTime, EndTime, Count, TemplateHeadingId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -49,7 +56,10 @@ ContactId, StartTime, EndTime, Count, TemplateHeadingId
 | Count | int32 |  |
 | TemplateHeadingId | int32 |  |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -77,10 +87,12 @@ Response body: array
 | ProjectName | string | Project name |
 | AssociateId | int32 | ID of associate whose diary the appointment is in, REQUIRED |
 | Snum | int32 | The sequence number allocated from refcount on used template when creating the document |
+| SaleId | int32 | Owning sale, if any (may be 0) |
+| SaleName | string | Heading of Owning sale, if any. (may be blank) |
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Document/GetContactDocumentsByTemplateHeading
@@ -90,13 +102,15 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 840,
-  "StartTime": "2000-08-07T18:28:48.7079282+02:00",
-  "EndTime": "2006-09-18T18:28:48.7079282+02:00",
-  "Count": 33,
-  "TemplateHeadingId": 889
+  "ContactId": 393,
+  "StartTime": "2015-10-23T11:10:26.4594527+02:00",
+  "EndTime": "2016-08-05T11:10:26.4594527+02:00",
+  "Count": 405,
+  "TemplateHeadingId": 870
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -104,36 +118,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 482,
-    "Attention": "dolorem",
-    "Header": "exercitationem",
-    "Name": "Mante, Cronin and Hessel",
-    "OurRef": "corporis",
-    "YourRef": "veritatis",
-    "Description": "Multi-tiered reciprocal approach",
-    "DocumentTemplate": "voluptatibus",
-    "IsPublished": false,
-    "PersonId": 976,
-    "PersonFullName": "Irving Fisher MD",
-    "AssociateFullName": "Mr. Jarret Corkery",
-    "ContactId": 65,
-    "ContactName": "Quitzon, Price and Borer",
-    "ProjectId": 271,
-    "ProjectName": "Nikolaus, Farrell and Kunze",
-    "AssociateId": 607,
-    "Snum": 337,
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "DocumentId": 305,
+    "Attention": "qui",
+    "Header": "nam",
+    "Name": "Borer, Hyatt and Walter",
+    "OurRef": "laborum",
+    "YourRef": "voluptas",
+    "Description": "Team-oriented multi-state superstructure",
+    "DocumentTemplate": "quos",
+    "IsPublished": true,
+    "PersonId": 7,
+    "PersonFullName": "Laron Gulgowski",
+    "AssociateFullName": "Melyssa Yundt",
+    "ContactId": 501,
+    "ContactName": "Kuhic Group",
+    "ProjectId": 889,
+    "ProjectName": "Marquardt-Collier",
+    "AssociateId": 191,
+    "Snum": 5,
+    "SaleId": 243,
+    "SaleName": "Bradtke, O'Reilly and Grant",
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
+        "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 920
+        "FieldLength": 546
       }
     }
   }

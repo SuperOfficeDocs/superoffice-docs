@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "AudienceLayout"
-so.date: 04.12.2022
+so.date: 08.26.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -30,6 +30,7 @@ One layout (of webparts and other stuff) for an audience instance
 |updated\_associate\_id|Last updated by whom|FK [associate](associate.md)| |
 |updatedCount|Number of updates made to this record|UShort| |
 
+
 ![AudienceLayout table relationship diagram](./media/AudienceLayout.png)
 
 [!include[details](./includes/audiencelayout.md)]
@@ -49,6 +50,7 @@ One layout (of webparts and other stuff) for an audience instance
 |[AudienceConfig](audienceconfig.md)  |Configuration data for Audience core and webparts |
 |[AudienceLayoutLink](audiencelayoutlink.md)  |Link between an audience layout and some target grouping table - might be Role or Category |
 
+
 ## Replication Flags
 
 * None
@@ -56,3 +58,4 @@ One layout (of webparts and other stuff) for an audience instance
 ## Security Flags
 
 * No access control via user's Role.
+

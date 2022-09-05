@@ -1,6 +1,6 @@
 ---
 title: PUT List/WebPanel/Items/{id}
-id: v1WebPanelEntityList_PutWebPanelEntity
+uid: v1WebPanelEntityList_PutWebPanelEntity
 ---
 
 # PUT List/WebPanel/Items/{id}
@@ -11,11 +11,18 @@ PUT /api/v1/List/WebPanel/Items/{id}
 
 Updates the existing WebPanelEntity
 
+
 Calls the List agent service SaveWebPanelEntity.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | id | int32 | The id of WebPanelEntity to be saved. **Required** |
+
+
 
 ## Request Headers
 
@@ -31,9 +38,9 @@ Calls the List agent service SaveWebPanelEntity.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entity
+## Request Body: entity  
 
-The details of WebPanelEntity to be saved.
+The details of WebPanelEntity to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -57,20 +64,19 @@ The details of WebPanelEntity to be saved.
 | Url | string | The url |
 | ProgId | string | String key that can be used to uniquely retrieve the panel; particularly useful for partners and others who do not wish to store database ID's |
 | Icon | int32 | The icon of the webpanel |
+| AlwaysReloadOnShow | bool | If set to true, the content will reload every time the panel is shown |
 
-## Response: object
 
-The web panel entity contains information on a web panel
+## Response: 
 
-Carrier object for WebPanelEntity.
-Services for the WebPanelEntity Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IListAgent">List Agent</see>.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 | 400 | Bad request. Entity to save is not in request body. |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -94,79 +100,78 @@ Response body: object
 | Url | string | The url |
 | ProgId | string | String key that can be used to uniquely retrieve the panel; particularly useful for partners and others who do not wish to store database ID's |
 | Icon | int32 | The icon of the webpanel |
+| AlwaysReloadOnShow | bool | If set to true, the content will reload every time the panel is shown |
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 PUT /api/v1/List/WebPanel/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebPanelId": 949,
-  "Name": "Auer, Kiehn and Carroll",
-  "Tooltip": "qui",
+  "WebPanelId": 684,
+  "Name": "Greenfelder Group",
+  "Tooltip": "omnis",
   "Deleted": false,
-  "Rank": 409,
+  "Rank": 632,
   "UrlEncoding": "ANSI",
   "VisibleIn": "ActivityDialog",
-  "OnCentral": false,
+  "OnCentral": true,
   "OnSatellite": false,
   "OnTravel": false,
   "OnSalesMarketingWeb": false,
-  "OnSalesMarketingPocket": true,
+  "OnSalesMarketingPocket": false,
   "ShowInMenuBar": false,
-  "ShowInToolBar": true,
-  "ShowInAddressBar": false,
-  "ShowInStatusBar": true,
-  "WindowName": "Dach-Lehner",
+  "ShowInToolBar": false,
+  "ShowInAddressBar": true,
+  "ShowInStatusBar": false,
+  "WindowName": "Schultz, Klocko and Wisozk",
   "Url": "http://www.example.com/",
-  "ProgId": "est",
-  "Icon": 103
+  "ProgId": "repellat",
+  "Icon": 765,
+  "AlwaysReloadOnShow": false
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebPanelId": 674,
-  "Name": "Shields Group",
-  "Tooltip": "aut",
+  "WebPanelId": 884,
+  "Name": "Glover-Tillman",
+  "Tooltip": "omnis",
   "Deleted": false,
-  "Rank": 917,
+  "Rank": 490,
   "UrlEncoding": "ANSI",
   "VisibleIn": "ActivityDialog",
-  "OnCentral": true,
-  "OnSatellite": true,
-  "OnTravel": false,
+  "OnCentral": false,
+  "OnSatellite": false,
+  "OnTravel": true,
   "OnSalesMarketingWeb": true,
-  "OnSalesMarketingPocket": false,
-  "ShowInMenuBar": true,
-  "ShowInToolBar": true,
-  "ShowInAddressBar": true,
-  "ShowInStatusBar": false,
-  "WindowName": "Abbott, Douglas and Prohaska",
+  "OnSalesMarketingPocket": true,
+  "ShowInMenuBar": false,
+  "ShowInToolBar": false,
+  "ShowInAddressBar": false,
+  "ShowInStatusBar": true,
+  "WindowName": "Welch-Mayer",
   "Url": "http://www.example.com/",
   "ProgId": "accusamus",
-  "Icon": 631,
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "Icon": 958,
+  "AlwaysReloadOnShow": false,
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
+      "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 748
+      "FieldLength": 623
     }
   }
 }

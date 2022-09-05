@@ -1,6 +1,6 @@
 ---
 title: POST List/UserGroup/Items
-id: v1UserGroupList_PostUserGroup
+uid: v1UserGroupList_PostUserGroup
 ---
 
 # POST List/UserGroup/Items
@@ -11,7 +11,14 @@ POST /api/v1/List/UserGroup/Items
 
 Create a new UserGroup list item
 
+
 Calls the User agent service SaveUserGroup.
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -27,9 +34,9 @@ Calls the User agent service SaveUserGroup.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: newEntity
+## Request Body: newEntity  
 
-The UserGroup to be created.
+The UserGroup to be created. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -39,18 +46,16 @@ The UserGroup to be created.
 | Rank | int32 | Rank order |
 | Deleted | bool | Deleted equal to true means that this is a user group that no longer can be selected by the user.  It is not permitted to delete a UserGroup. |
 
-## Response: object
 
-The main user group that this user belongs to
+## Response: 
 
-Carrier object for UserGroup.
-Services for the UserGroup Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IUserAgent">User Agent</see>.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -62,7 +67,7 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/List/UserGroup/Items
@@ -72,36 +77,32 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Value": "sint",
-  "Tooltip": "assumenda",
-  "Id": 980,
-  "Rank": 390,
-  "Deleted": true
+  "Value": "ad",
+  "Tooltip": "cum",
+  "Id": 186,
+  "Rank": 879,
+  "Deleted": false
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Value": "qui",
-  "Tooltip": "nobis",
-  "Id": 70,
-  "Rank": 57,
+  "Value": "nisi",
+  "Tooltip": "eaque",
+  "Id": 574,
+  "Rank": 123,
   "Deleted": true,
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
-      "FieldType": "System.String",
-      "FieldLength": 910
+      "FieldRight": null,
+      "FieldType": "System.Int32",
+      "FieldLength": 12
     }
   }
 }

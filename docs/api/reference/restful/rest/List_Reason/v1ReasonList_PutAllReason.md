@@ -1,6 +1,6 @@
 ---
 title: PUT List/Reason/Items
-id: v1ReasonList_PutAllReason
+uid: v1ReasonList_PutAllReason
 ---
 
 # PUT List/Reason/Items
@@ -10,6 +10,13 @@ PUT /api/v1/List/Reason/Items
 ```
 
 Update the Reason list
+
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -25,9 +32,9 @@ Update the Reason list
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: listItems
+## Request Body: listItems  
 
-All the updated Reason.
+All the updated Reason. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -38,7 +45,10 @@ All the updated Reason.
 | UdListDefinitionId | int32 | The id of the list which this list item belongs to |
 | Rank | int32 | The rank of the list item |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -57,34 +67,36 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 PUT /api/v1/List/Reason/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 232,
-    "Name": "Rempel, Dare and McCullough",
-    "Tooltip": "nihil",
-    "Deleted": true,
-    "UdListDefinitionId": 812,
-    "Rank": 265
+    "Id": 260,
+    "Name": "Gleichner-Gutkowski",
+    "Tooltip": "eveniet",
+    "Deleted": false,
+    "UdListDefinitionId": 870,
+    "Rank": 27
   },
   {
-    "Id": 232,
-    "Name": "Rempel, Dare and McCullough",
-    "Tooltip": "nihil",
-    "Deleted": true,
-    "UdListDefinitionId": 812,
-    "Rank": 265
+    "Id": 260,
+    "Name": "Gleichner-Gutkowski",
+    "Tooltip": "eveniet",
+    "Deleted": false,
+    "UdListDefinitionId": 870,
+    "Rank": 27
   }
 ]
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -92,24 +104,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 755,
-    "Name": "Crooks Group",
-    "Tooltip": "et",
+    "Id": 937,
+    "Name": "Upton, O'Conner and Howell",
+    "Tooltip": "autem",
     "Deleted": true,
-    "UdListDefinitionId": 25,
-    "Rank": 771,
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "UdListDefinitionId": 433,
+    "Rank": 719,
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 107
+        "FieldRight": null,
+        "FieldType": "System.Int32",
+        "FieldLength": 413
       }
     }
   }

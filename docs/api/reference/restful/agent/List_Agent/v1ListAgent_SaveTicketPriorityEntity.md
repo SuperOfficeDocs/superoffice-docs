@@ -1,6 +1,6 @@
 ---
 title: POST Agents/List/SaveTicketPriorityEntity
-id: v1ListAgent_SaveTicketPriorityEntity
+uid: v1ListAgent_SaveTicketPriorityEntity
 ---
 
 # POST Agents/List/SaveTicketPriorityEntity
@@ -10,6 +10,13 @@ POST /api/v1/Agents/List/SaveTicketPriorityEntity
 ```
 
 Updates the existing TicketPriorityEntity or creates a new TicketPriorityEntity if the id parameter is empty
+
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -25,9 +32,9 @@ Updates the existing TicketPriorityEntity or creates a new TicketPriorityEntity 
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entity
+## Request Body: entity  
 
-The TicketPriorityEntity to be saved.
+The TicketPriorityEntity to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -57,21 +64,19 @@ The TicketPriorityEntity to be saved.
 | SatStop | date-time | The work hour stop for Saturdays. Note that only the time part of the DateTime is used |
 | SunStart | date-time | The work hour start for Sundays. Note that only the time part of the DateTime is used |
 | SunStop | date-time | The work hour stop for Sundays. Note that only the time part of the DateTime is used |
-| NonDates | array | Dates which the escalation time should not be running. Note that only the day of the year (day and month) is used. So the year and time part is not used even if this is a DateTime |
+| NonDates | array | Dates which the escalation time should not be running. Note that only the day of the year (day and month) is used. So the year and time part is not used even if this is a DateTime. Exception - it IS possible to include a year here, for dates that should not repeat every year |
 | EscalationLevels | array | Escalation levels bound to the parent priority |
 
-## Response: object
 
-Entity for a ticket priority. This entity describes the meta data for a ticket priority, and provides special operations on it.
+## Response: 
 
-Carrier object for TicketPriorityEntity.
-Services for the TicketPriorityEntity Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IListAgent">List Agent</see>.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -101,152 +106,145 @@ Response body: object
 | SatStop | date-time | The work hour stop for Saturdays. Note that only the time part of the DateTime is used |
 | SunStart | date-time | The work hour start for Sundays. Note that only the time part of the DateTime is used |
 | SunStop | date-time | The work hour stop for Sundays. Note that only the time part of the DateTime is used |
-| NonDates | array | Dates which the escalation time should not be running. Note that only the day of the year (day and month) is used. So the year and time part is not used even if this is a DateTime |
+| NonDates | array | Dates which the escalation time should not be running. Note that only the day of the year (day and month) is used. So the year and time part is not used even if this is a DateTime. Exception - it IS possible to include a year here, for dates that should not repeat every year |
 | EscalationLevels | array | Escalation levels bound to the parent priority |
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/List/SaveTicketPriorityEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketPriorityId": 625,
-  "Name": "Mayer Inc and Sons",
+  "TicketPriorityId": 566,
+  "Name": "Bartell-Hartmann",
   "Status": "Deleted",
   "Flags": "AlertSchedule",
-  "SortOrder": 318,
+  "SortOrder": 116,
   "TicketRead": "Continue",
   "ChangedOwner": "Continue",
   "TicketNewinfo": "Continue",
   "TicketClosed": "Continue",
   "TicketChangedPriority": "Continue",
   "TicketNew": "Continue",
-  "Deadline": 926,
-  "MonStart": "2000-09-25T18:28:49.3631226+02:00",
-  "MonStop": "2017-03-25T18:28:49.3631226+01:00",
-  "TueStart": "2020-03-09T18:28:49.3631226+01:00",
-  "TueStop": "2004-01-09T18:28:49.3631226+01:00",
-  "WedStart": "2014-04-02T18:28:49.3631226+02:00",
-  "WedStop": "1998-03-26T18:28:49.3631226+01:00",
-  "ThuStart": "2003-12-18T18:28:49.3631226+01:00",
-  "ThuStop": "2004-04-21T18:28:49.3631226+02:00",
-  "FriStart": "2020-08-03T18:28:49.3631226+02:00",
-  "FriStop": "1996-04-22T18:28:49.3631226+02:00",
-  "SatStart": "2019-08-06T18:28:49.3631226+02:00",
-  "SatStop": "2014-10-25T18:28:49.3631226+02:00",
-  "SunStart": "2016-03-20T18:28:49.3631226+01:00",
-  "SunStop": "1997-11-19T18:28:49.3631226+01:00",
+  "Deadline": 272,
+  "MonStart": "2020-10-01T11:10:27.2644531+02:00",
+  "MonStop": "2012-12-06T11:10:27.2644531+01:00",
+  "TueStart": "2000-06-19T11:10:27.2644531+02:00",
+  "TueStop": "2017-11-08T11:10:27.2644531+01:00",
+  "WedStart": "2014-07-01T11:10:27.2644531+02:00",
+  "WedStop": "2020-05-02T11:10:27.2644531+02:00",
+  "ThuStart": "2002-11-09T11:10:27.2644531+01:00",
+  "ThuStop": "2020-04-08T11:10:27.2644531+02:00",
+  "FriStart": "2019-08-13T11:10:27.2644531+02:00",
+  "FriStop": "2011-11-20T11:10:27.2644531+01:00",
+  "SatStart": "2015-03-13T11:10:27.2644531+01:00",
+  "SatStop": "2009-09-04T11:10:27.2644531+02:00",
+  "SunStart": "2007-03-19T11:10:27.2644531+01:00",
+  "SunStop": "2009-05-26T11:10:27.2644531+02:00",
   "NonDates": [
-    "rerum",
-    "est"
+    "veritatis",
+    "culpa"
   ],
   "EscalationLevels": [
     {
-      "TicketAlertId": 142,
-      "AlertLevel": 858,
-      "AlertTimeout": 318,
-      "Action": 944,
-      "DelegateTo": 842,
-      "ScriptId": 612,
-      "EmailTo": "jason@turner.biz",
-      "SmsTo": "officia",
-      "ReplyTemplateIdCustomer": 248,
-      "ReplyTemplateIdUser": 709,
-      "ReplyTemplateIdCatmast": 707,
-      "ReplyTemplateIdEmail": 669,
-      "RtiCustomerSms": 358,
-      "ReplyTemplateIdUserSms": 138,
-      "ReplyTemplateIdCatmastSms": 535,
-      "ReplyTemplateIdSms": 563
+      "TicketAlertId": 90,
+      "AlertLevel": 598,
+      "AlertTimeout": 233,
+      "Action": 25,
+      "DelegateTo": 431,
+      "ScriptId": 603,
+      "EmailTo": "ahmad@haagnitzsche.name",
+      "SmsTo": "explicabo",
+      "ReplyTemplateIdCustomer": 970,
+      "ReplyTemplateIdUser": 654,
+      "ReplyTemplateIdCatmast": 956,
+      "ReplyTemplateIdEmail": 3,
+      "RtiCustomerSms": 151,
+      "ReplyTemplateIdUserSms": 858,
+      "ReplyTemplateIdCatmastSms": 893,
+      "ReplyTemplateIdSms": 215
     }
   ]
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketPriorityId": 553,
-  "Name": "Ankunding Inc and Sons",
+  "TicketPriorityId": 560,
+  "Name": "Schumm, Feeney and Spencer",
   "Status": "Deleted",
   "Flags": "AlertSchedule",
-  "SortOrder": 754,
+  "SortOrder": 874,
   "TicketRead": "Continue",
   "ChangedOwner": "Continue",
   "TicketNewinfo": "Continue",
   "TicketClosed": "Continue",
   "TicketChangedPriority": "Continue",
   "TicketNew": "Continue",
-  "Deadline": 526,
-  "MonStart": "2010-11-27T18:28:49.3641241+01:00",
-  "MonStop": "2013-10-20T18:28:49.3641241+02:00",
-  "TueStart": "2001-09-09T18:28:49.3641241+02:00",
-  "TueStop": "2003-02-14T18:28:49.3641241+01:00",
-  "WedStart": "2011-11-29T18:28:49.3641241+01:00",
-  "WedStop": "2009-04-06T18:28:49.3641241+02:00",
-  "ThuStart": "1999-12-14T18:28:49.3641241+01:00",
-  "ThuStop": "2013-05-30T18:28:49.3641241+02:00",
-  "FriStart": "2015-09-02T18:28:49.3641241+02:00",
-  "FriStop": "2021-09-03T18:28:49.3641241+02:00",
-  "SatStart": "2010-12-28T18:28:49.3641241+01:00",
-  "SatStop": "1997-11-03T18:28:49.3641241+01:00",
-  "SunStart": "2013-08-27T18:28:49.3641241+02:00",
-  "SunStop": "2018-08-02T18:28:49.3641241+02:00",
+  "Deadline": 687,
+  "MonStart": "2001-11-27T11:10:27.2654529+01:00",
+  "MonStop": "2003-01-18T11:10:27.2654529+01:00",
+  "TueStart": "1997-04-29T11:10:27.2654529+02:00",
+  "TueStop": "2017-09-01T11:10:27.2654529+02:00",
+  "WedStart": "2010-07-17T11:10:27.2654529+02:00",
+  "WedStop": "2017-12-07T11:10:27.2654529+01:00",
+  "ThuStart": "1998-11-21T11:10:27.2654529+01:00",
+  "ThuStop": "1996-12-15T11:10:27.2654529+01:00",
+  "FriStart": "2000-03-28T11:10:27.2654529+02:00",
+  "FriStop": "2009-04-10T11:10:27.2654529+02:00",
+  "SatStart": "2017-12-21T11:10:27.2654529+01:00",
+  "SatStop": "2005-10-16T11:10:27.2654529+02:00",
+  "SunStart": "2004-04-30T11:10:27.2654529+02:00",
+  "SunStop": "2014-12-19T11:10:27.2654529+01:00",
   "NonDates": [
-    "delectus",
-    "repellat"
+    "autem",
+    "vel"
   ],
   "EscalationLevels": [
     {
-      "TicketAlertId": 999,
-      "AlertLevel": 377,
-      "AlertTimeout": 937,
-      "Action": 827,
-      "DelegateTo": 864,
-      "ScriptId": 208,
-      "EmailTo": "jackeline_nicolas@damore.uk",
-      "SmsTo": "perferendis",
-      "ReplyTemplateIdCustomer": 528,
-      "ReplyTemplateIdUser": 974,
-      "ReplyTemplateIdCatmast": 194,
-      "ReplyTemplateIdEmail": 558,
-      "RtiCustomerSms": 383,
-      "ReplyTemplateIdUserSms": 990,
-      "ReplyTemplateIdCatmastSms": 516,
-      "ReplyTemplateIdSms": 243,
-      "TableRight": {},
+      "TicketAlertId": 640,
+      "AlertLevel": 137,
+      "AlertTimeout": 936,
+      "Action": 373,
+      "DelegateTo": 618,
+      "ScriptId": 191,
+      "EmailTo": "maximo@turcottebalistreri.ca",
+      "SmsTo": "enim",
+      "ReplyTemplateIdCustomer": 106,
+      "ReplyTemplateIdUser": 741,
+      "ReplyTemplateIdCatmast": 641,
+      "ReplyTemplateIdEmail": 62,
+      "RtiCustomerSms": 475,
+      "ReplyTemplateIdUserSms": 442,
+      "ReplyTemplateIdCatmastSms": 367,
+      "ReplyTemplateIdSms": 115,
+      "TableRight": null,
       "FieldProperties": {
         "fieldName": {
-          "FieldRight": {
-            "Mask": "FULL",
-            "Reason": ""
-          },
-          "FieldType": "System.String",
-          "FieldLength": 78
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 879
         }
       }
     }
   ],
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
-      "FieldType": "System.Int32",
-      "FieldLength": 572
+      "FieldRight": null,
+      "FieldType": "System.String",
+      "FieldLength": 163
     }
   }
 }

@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Saint/SaveStatusMonitorPeriods
-id: v1SaintAgent_SaveStatusMonitorPeriods
+uid: v1SaintAgent_SaveStatusMonitorPeriods
 ---
 
 # POST Agents/Saint/SaveStatusMonitorPeriods
@@ -10,6 +10,13 @@ POST /api/v1/Agents/Saint/SaveStatusMonitorPeriods
 ```
 
 Updates the existing StatusMonitorPeriods or creates a new StatusMonitorPeriods if the id parameter is empty
+
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -25,9 +32,9 @@ Updates the existing StatusMonitorPeriods or creates a new StatusMonitorPeriods 
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entity
+## Request Body: entity  
 
-The StatusMonitorPeriods to be saved.
+The StatusMonitorPeriods to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -35,18 +42,16 @@ The StatusMonitorPeriods to be saved.
 | Period2 | int32 | Days in the second period |
 | Period3 | int32 | Days in the third period |
 
-## Response: object
 
-Obsolete, use SaintConfiguration carrier and methods instead. Was:Definition of the three perionds for status monitors
+## Response: 
 
-Carrier object for StatusMonitorPeriods.
-Services for the StatusMonitorPeriods Carrier is available from the <see cref="T:SuperOffice.CRM.Services.ISaintAgent">Saint Agent</see>.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -56,42 +61,38 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Saint/SaveStatusMonitorPeriods
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Period1": 667,
-  "Period2": 367,
-  "Period3": 804
+  "Period1": 596,
+  "Period2": 477,
+  "Period3": 228
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Period1": 270,
-  "Period2": 63,
-  "Period3": 434,
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "Period1": 291,
+  "Period2": 13,
+  "Period3": 488,
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
-      "FieldType": "System.String",
-      "FieldLength": 847
+      "FieldRight": null,
+      "FieldType": "System.Int32",
+      "FieldLength": 762
     }
   }
 }

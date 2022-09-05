@@ -1,6 +1,6 @@
 ---
 title: POST List/Priority/Headings
-id: v1PriorityList_PostPriorityHeading
+uid: v1PriorityList_PostPriorityHeading
 ---
 
 # POST List/Priority/Headings
@@ -11,7 +11,14 @@ POST /api/v1/List/Priority/Headings
 
 Saves a new heading for the Priority list.
 
+
 Calls the List agent service SaveHeadingFromListDefinition.
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -27,9 +34,9 @@ Calls the List agent service SaveHeadingFromListDefinition.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: newEntity
+## Request Body: newEntity  
 
-The heading to be added.
+The heading to be added. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -40,18 +47,16 @@ The heading to be added.
 | Rank | int32 | Rank order |
 | UdListDefinitionId | int32 | The id of the list which this heading belongs to |
 
-## Response: object
 
-The heading entity contains generic list item information
+## Response: 
 
-Carrier object for HeadingEntity.
-Services for the HeadingEntity Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IListAgent">List Agent</see>.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -64,48 +69,44 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/List/Priority/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 567,
-  "Name": "Kilback-Torphy",
-  "Tooltip": "delectus",
-  "Deleted": true,
-  "Rank": 686,
-  "UdListDefinitionId": 502
+  "HeadingId": 202,
+  "Name": "Sauer Group",
+  "Tooltip": "deleniti",
+  "Deleted": false,
+  "Rank": 177,
+  "UdListDefinitionId": 422
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 570,
-  "Name": "Aufderhar, Legros and Kilback",
-  "Tooltip": "quam",
+  "HeadingId": 574,
+  "Name": "Haley, Schneider and Boehm",
+  "Tooltip": "eos",
   "Deleted": true,
-  "Rank": 480,
-  "UdListDefinitionId": 789,
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "Rank": 64,
+  "UdListDefinitionId": 477,
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
+      "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 941
+      "FieldLength": 512
     }
   }
 }

@@ -1,6 +1,6 @@
 ---
 title: GET List/Source/Items
-id: v1SourceList_GetAll
+uid: v1SourceList_GetAll
 ---
 
 # GET List/Source/Items
@@ -11,6 +11,12 @@ GET /api/v1/List/Source/Items
 
 Gets all the Source items
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Gets all the Source items
 ```http
 GET /api/v1/List/Source/Items?includeDeleted=False
 ```
+
 
 ## Request Headers
 
@@ -34,7 +41,10 @@ GET /api/v1/List/Source/Items?includeDeleted=False
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -53,14 +63,16 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 GET /api/v1/List/Source/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -68,24 +80,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 14,
-    "Name": "Boyer, Thompson and Fritsch",
-    "Tooltip": "a",
-    "Deleted": false,
-    "UdListDefinitionId": 785,
-    "Rank": 530,
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "Id": 209,
+    "Name": "Kertzmann Group",
+    "Tooltip": "excepturi",
+    "Deleted": true,
+    "UdListDefinitionId": 519,
+    "Rank": 416,
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
+        "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 87
+        "FieldLength": 781
       }
     }
   }

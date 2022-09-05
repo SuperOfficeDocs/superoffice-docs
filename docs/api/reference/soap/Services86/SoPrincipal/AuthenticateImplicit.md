@@ -11,6 +11,10 @@ Implemented by the <see cref="M:SuperOffice.Services86.ISoPrincipalAgent.Authent
 
 ## AuthenticateImplicit
 
+
+
+
+
 [WSDL file for Services86/SoPrincipal](../Services86-SoPrincipal.md)
 
 ## AuthenticateImplicit Request
@@ -35,6 +39,7 @@ Implemented by the <see cref="M:SuperOffice.Services86.ISoPrincipalAgent.Authent
 </SOAP-ENV:Envelope>
 
 ```
+
 
 ## AuthenticateImplicit Response
 
@@ -83,7 +88,7 @@ Implemented by the <see cref="M:SuperOffice.Services86.ISoPrincipalAgent.Authent
       <SoPrincipal:LicenseNumber xsi:type="xsd:int">0</SoPrincipal:LicenseNumber>
       <SoPrincipal:IsHidden xsi:type="xsd:boolean">false</SoPrincipal:IsHidden>
       <SoPrincipal:IsUnrestricted xsi:type="xsd:boolean">false</SoPrincipal:IsUnrestricted>
-      <SoPrincipal:ExpiryDate xsi:type="xsd:dateTime">2021-11-30T13:23:05Z</SoPrincipal:ExpiryDate>
+      <SoPrincipal:ExpiryDate xsi:type="xsd:dateTime">2022-08-26T08:55:56Z</SoPrincipal:ExpiryDate>
      </SoPrincipal:GrantedModuleLicense>
     </SoPrincipal:Licenses>
     <SoPrincipal:FullName xsi:type="xsd:string"></SoPrincipal:FullName>
@@ -116,3 +121,4 @@ Implemented by the <see cref="M:SuperOffice.Services86.ISoPrincipalAgent.Authent
 </SOAP-ENV:Envelope>
 
 ```
+

@@ -1,6 +1,6 @@
 ---
 title: POST List/{udListDefinitionName}/Items
-id: v1ListItemEntity_AddFromListName
+uid: v1ListItemEntity_AddFromListName
 ---
 
 # POST List/{udListDefinitionName}/Items
@@ -11,9 +11,16 @@ POST /api/v1/List/{udListDefinitionName}/Items
 
 Save a new list item for the specified list defintion
 
+
+
+
+
+
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | udListDefinitionName | string | The name of the list definition, indicating which list to save the item to. **Required** |
+
+
 
 ## Request Headers
 
@@ -29,9 +36,9 @@ Save a new list item for the specified list defintion
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: item
+## Request Body: item  
 
-The item to save
+The item to save 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -42,18 +49,16 @@ The item to save
 | UdListDefinitionId | int32 | The id of the list which this list item belongs to |
 | Rank | int32 | The rank of the list item |
 
-## Response: object
 
-The list item entity contains generic list item information
+## Response: 
 
-Carrier object for ListItemEntity.
-Services for the ListItemEntity Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IListAgent">List Agent</see>.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -66,48 +71,44 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/List/{udListDefinitionName}/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 501,
-  "Name": "Hahn, Bradtke and Wisoky",
-  "Tooltip": "ea",
-  "Deleted": true,
-  "UdListDefinitionId": 514,
-  "Rank": 890
+  "Id": 603,
+  "Name": "Batz, McCullough and Grimes",
+  "Tooltip": "iure",
+  "Deleted": false,
+  "UdListDefinitionId": 925,
+  "Rank": 646
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 188,
-  "Name": "Mitchell-Wilkinson",
-  "Tooltip": "exercitationem",
+  "Id": 528,
+  "Name": "Mertz LLC",
+  "Tooltip": "laudantium",
   "Deleted": false,
-  "UdListDefinitionId": 923,
-  "Rank": 586,
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "UdListDefinitionId": 466,
+  "Rank": 595,
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
-      "FieldType": "System.String",
-      "FieldLength": 108
+      "FieldRight": null,
+      "FieldType": "System.Int32",
+      "FieldLength": 470
     }
   }
 }

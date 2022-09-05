@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "screen_definition"
-so.date: 04.12.2022
+so.date: 08.26.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -35,6 +35,7 @@ A configurable screen
 |description|Optional description of what this screen is used for|String(2047)|&#x25CF;|
 |autosave|Whether this screen uses autosave or not|Bool|&#x25CF;|
 
+
 ![screen_definition table relationship diagram](./media/screen_definition.png)
 
 [!include[details](./includes/screen-definition.md)]
@@ -56,6 +57,7 @@ A configurable screen
 |[screen\_definition\_hidden](screen-definition-hidden.md)  |The name of a hidden variable to keep for this screen |
 |[screen\_definition\_language](screen-definition-language.md)  |Custom language variables used for screens |
 
+
 ## Replication Flags
 
 * None
@@ -63,3 +65,4 @@ A configurable screen
 ## Security Flags
 
 * No access control via user's Role.
+

@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Configuration/CreateDefaultSystemEventEntity
-id: v1ConfigurationAgent_CreateDefaultSystemEventEntity
+uid: v1ConfigurationAgent_CreateDefaultSystemEventEntity
 ---
 
 # POST Agents/Configuration/CreateDefaultSystemEventEntity
@@ -11,7 +11,14 @@ POST /api/v1/Agents/Configuration/CreateDefaultSystemEventEntity
 
 Set default values into a new SystemEventEntity.
 
+
 NetServer calculates default values on the entity, which is required when creating/storing a new instance
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -26,18 +33,16 @@ NetServer calculates default values on the entity, which is required when creati
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response: object
 
-Entity for system events
+## Response: 
 
-Carrier object for SystemEventEntity.
-Services for the SystemEventEntity Carrier is available from the <see cref="!:IConfigurationAgent">Configuration Agent</see>.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -54,7 +59,7 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Configuration/CreateDefaultSystemEventEntity
@@ -63,57 +68,29 @@ Accept: application/json; charset=utf-8
 Accept-Language: sv
 ```
 
+## Sample response
+
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SystemEventId": 247,
+  "SystemEventId": 348,
   "Scope": "Database",
-  "Eta": "2014-07-28T18:28:48.4066529+02:00",
-  "Eventkey": "voluptas",
-  "Eventmess": "quibusdam",
-  "ExtraInfo": 24,
-  "Owner": 421,
-  "UpdatedCount": 828,
-  "Registered": "1997-10-04T18:28:48.4066529+02:00",
-  "ActivatedBy": {
-    "AssociateId": 415,
-    "Name": "Larson-Heathcote",
-    "PersonId": 458,
-    "Rank": 238,
-    "Tooltip": "exercitationem",
-    "Type": "AnonymousAssociate",
-    "GroupIdx": 721,
-    "FullName": "Lloyd Daniel",
-    "FormalName": "Bergstrom LLC",
-    "Deleted": false,
-    "EjUserId": 711,
-    "UserName": "Sawayn-Pacocha",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.Int32",
-        "FieldLength": 661
-      }
-    }
-  },
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "Eta": "2020-10-23T11:10:26.1975253+02:00",
+  "Eventkey": "in",
+  "Eventmess": "est",
+  "ExtraInfo": 452,
+  "Owner": 447,
+  "UpdatedCount": 833,
+  "Registered": "2011-08-10T11:10:26.1975253+02:00",
+  "ActivatedBy": null,
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
-      "FieldType": "System.Int32",
-      "FieldLength": 395
+      "FieldRight": null,
+      "FieldType": "System.String",
+      "FieldLength": 146
     }
   }
 }

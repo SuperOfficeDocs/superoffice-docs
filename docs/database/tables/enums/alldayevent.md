@@ -5,7 +5,7 @@ description: Lists the enum values for AllDayEvent.
 so.generated: true
 keywords:
   - "database"
-so.date: 04.12.2022
+so.date: 08.26.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -23,5 +23,5 @@ Default value for alldayEvent flag
 
 ## Usage
 
-* [appointment](../appointment.md).alldayEvent - Tasks, appointments, followups, phone calls; and documents (document_id != 0). An appointment always has a corresponding record in VisibleFor specifying who may see this.
+* [appointment](../appointment.md).alldayEvent - Tasks, appointments, followups, phone calls; and documents (document_id != 0). An appointment always has a corresponding record in VisibleFor specifying who may see this. 
 * [Task](../task.md).defaultAlldayEvent - Task list table, activity types, like Phone, Meeting

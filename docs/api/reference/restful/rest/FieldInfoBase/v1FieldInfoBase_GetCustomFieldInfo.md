@@ -1,6 +1,6 @@
 ---
 title: GET Schema/{tableName}/{fieldName}
-id: v1FieldInfoBase_GetCustomFieldInfo
+uid: v1FieldInfoBase_GetCustomFieldInfo
 ---
 
 # GET Schema/{tableName}/{fieldName}
@@ -11,10 +11,17 @@ GET /api/v1/Schema/{tableName}/{fieldName}
 
 Return information about a particular custom field (user-defined + extra) on a particular table
 
+
+
+
+
+
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | tableName | string | The name of table that owns the custom fields. e.g. 'contact', 'person', 'project' etc. **Required** |
 | fieldName | string | The name of the field: prog:id or field name. e.g. 'SuperOffice:21' or 'x_foobar' **Required** |
+
+
 
 ## Request Headers
 
@@ -29,18 +36,16 @@ Return information about a particular custom field (user-defined + extra) on a p
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response: object
 
-Abstract basic information about database fields. May be custom or user-defined fields. The information can be used to build a user interface.
+## Response: 
 
-Carrier object for FieldInfoBase.
-Services for the FieldInfoBase Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent">UserDefinedFieldInfo Agent</see>.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -58,7 +63,7 @@ Response body: object
 | Rank | int32 | Tab order, ranking within the custom fields. |
 | TemplateVariableName | string | Template variable name: 'cs01', 'cl02' etc. Null for extra fields. |
 
-## Sample Request
+## Sample request
 
 ```http!
 GET /api/v1/Schema/{tableName}/{fieldName}
@@ -67,23 +72,25 @@ Accept: application/json; charset=utf-8
 Accept-Language: *
 ```
 
+## Sample response
+
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
   "FieldType": "Attachment",
-  "FieldName": "Bernhard Inc and Sons",
-  "DisplayName": "Hoeger LLC",
-  "Description": "Persevering non-volatile migration",
-  "ShortLabel": "illum",
+  "FieldName": "Crona, Zieme and Ziemann",
+  "DisplayName": "Brakus-Hahn",
+  "Description": "Synchronised global portal",
+  "ShortLabel": "nobis",
   "HideLabel": true,
   "HideField": false,
-  "IsIndexed": true,
+  "IsIndexed": false,
   "IsMandatory": false,
   "IsReadOnly": false,
   "IsExternal": false,
-  "Rank": 204,
-  "TemplateVariableName": "Cruickshank, Haley and Sanford"
+  "Rank": 555,
+  "TemplateVariableName": "Graham, Buckridge and Gerlach"
 }
 ```

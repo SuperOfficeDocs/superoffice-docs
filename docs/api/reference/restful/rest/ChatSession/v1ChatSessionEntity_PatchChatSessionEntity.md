@@ -1,6 +1,6 @@
 ---
 title: PATCH ChatSession/{id}
-id: v1ChatSessionEntity_PatchChatSessionEntity
+uid: v1ChatSessionEntity_PatchChatSessionEntity
 ---
 
 # PATCH ChatSession/{id}
@@ -10,6 +10,7 @@ PATCH /api/v1/ChatSession/{id}
 ```
 
 Update a ChatSessionEntity with changes, as described in a JSON Patch or a JSON Merge Patch document.
+
 
 See <a href="https://tools.ietf.org/html/rfc6902">RFC6902</a> and <a href="https://tools.ietf.org/html/rfc7386">RFC 7396</a>. Update the Department field to "foo" can be done either as a JSON PATCH:
 
@@ -27,14 +28,23 @@ or as a JSON MERGE PATCH, which describes the change directly:
 
 ```
 
+
+
 JSON PATCH supports operations 'add', 'replace', 'remove' and 'test'.
 The path is case insensitive, and the leading slash is optional, so the paths "/department", "Department" and "department" are all equivalent.
 
+
+
 Calls the {SuperOffice.CRM.Services.IChatAgent} service SaveChatSessionEntity.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | id | int32 | The ChatSessionEntity  id to update. **Required** |
+
 
 ## Query String Parameters
 
@@ -45,6 +55,7 @@ Calls the {SuperOffice.CRM.Services.IChatAgent} service SaveChatSessionEntity.
 ```http
 PATCH /api/v1/ChatSession/{id}?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -60,9 +71,9 @@ PATCH /api/v1/ChatSession/{id}?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: changes string
+## Request Body: changes string 
 
-JSON-Patch array of operations+path+value, or a MERGE-PATCH object (which will be converted to a list of JSON-PATCH operations).
+JSON-Patch array of operations+path+value, or a MERGE-PATCH object (which will be converted to a list of JSON-PATCH operations). 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -70,11 +81,10 @@ JSON-Patch array of operations+path+value, or a MERGE-PATCH object (which will b
 | path | string | The property names to modify.  "/users/0/email", "/users/-", |
 | value | object | New/Replaced value - string or object. |
 
-## Response: object
 
-Chat sessions belong to a chat topic, and contain messages to/from users
+## Response: 
 
-ChatSessionEntity entity with API _Links added.
+ChatSessionEntity  updated.
 
 | Response | Description |
 |----------------|-------------|
@@ -83,7 +93,7 @@ ChatSessionEntity entity with API _Links added.
 | 409 | Update blocked because a 'test' operation has detected a conflict with the entity value. |
 | 412 | Update aborted because ChatSessionEntity has changed since the requested If-Unmodified-Since timestamp. |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -117,11 +127,12 @@ Response body: object
 | Ticket |  | Ticket the session is connected to - could be empty if we don't know exactly. |
 | TransferTo |  | User agent that has a pending transfer of the chat session |
 | ChatbotIsActive | bool | Indicates that a chatbot is active on the session. This will cause bot triggers to fire. Set to 0 when bot hands off to user. |
+| Rating | int32 | Rating of this chat conversation given by the customer |
 | TableRight |  |  |
 | FieldProperties | object |  |
 | _Links | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 PATCH /api/v1/ChatSession/{id}
@@ -133,359 +144,61 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "op": "add",
-    "path": "repudiandae",
-    "value": {
-      "value1": {
-        "PrimaryKey": 6766,
-        "EntityName": "sale",
-        "saleId": 6766,
-        "contactId": 5433,
-        "name": "Boyer, Kuhlman and Sanford"
-      },
-      "value2": {
-        "PrimaryKey": 5727,
-        "EntityName": "sale",
-        "saleId": 5727,
-        "contactId": 9733,
-        "name": "Stroman-Bode"
-      }
-    }
+    "path": "dolorum",
+    "value": {}
   },
   {
     "op": "add",
-    "path": "repudiandae",
-    "value": {
-      "value1": {
-        "PrimaryKey": 6766,
-        "EntityName": "sale",
-        "saleId": 6766,
-        "contactId": 5433,
-        "name": "Boyer, Kuhlman and Sanford"
-      },
-      "value2": {
-        "PrimaryKey": 5727,
-        "EntityName": "sale",
-        "saleId": 5727,
-        "contactId": 9733,
-        "name": "Stroman-Bode"
-      }
-    }
+    "path": "dolorum",
+    "value": {}
   }
 ]
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 ChatSessionEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 779,
-  "TopicId": 339,
-  "User": {
-    "AssociateId": 810,
-    "Name": "Lueilwitz, Ryan and Goyette",
-    "PersonId": 930,
-    "Rank": 216,
-    "Tooltip": "nobis",
-    "Type": "AnonymousAssociate",
-    "GroupIdx": 431,
-    "FullName": "Dortha Turner",
-    "FormalName": "McDermott-Murray",
-    "Deleted": false,
-    "EjUserId": 910,
-    "UserName": "O'Hara-Zulauf",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.Int32",
-        "FieldLength": 369
-      }
-    }
-  },
-  "Person": {
-    "Position": "non",
-    "PersonId": 813,
-    "Mrmrs": "minima",
-    "Firstname": "Keon",
-    "Lastname": "Prohaska",
-    "MiddleName": "Boyer-Koelpin",
-    "Title": "necessitatibus",
-    "Description": "Advanced systemic conglomeration",
-    "Email": "vincenzo_hickle@brownfeil.uk",
-    "FullName": "Stephon VonRueden",
-    "DirectPhone": "367.842.8408 x70706",
-    "FormalName": "Bogan, Halvorson and Roberts",
-    "CountryId": 542,
-    "ContactId": 46,
-    "ContactName": "Skiles Inc and Sons",
-    "Retired": 302,
-    "Rank": 665,
-    "ActiveInterests": 880,
-    "ContactDepartment": "",
-    "ContactCountryId": 188,
-    "ContactOrgNr": "913693",
-    "FaxPhone": "1-352-724-6503 x17154",
-    "MobilePhone": "333.213.8276 x673",
-    "ContactPhone": "(226)852-6845 x5136",
-    "AssociateName": "Wisozk, Waelchi and O'Reilly",
-    "AssociateId": 160,
-    "UsePersonAddress": true,
-    "ContactFax": "possimus",
-    "Kanafname": "et",
-    "Kanalname": "voluptatibus",
-    "Post1": "ab",
-    "Post2": "excepturi",
-    "Post3": "debitis",
-    "EmailName": "ike@walsh.com",
-    "ContactFullName": "Darrel Schimmel",
-    "ActiveErpLinks": 424,
-    "TicketPriorityId": 910,
-    "SupportLanguageId": 798,
-    "SupportAssociateId": 716,
-    "CategoryName": "VIP Customer",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.Int32",
-        "FieldLength": 310
-      }
-    }
-  },
-  "CustomerAlias": "at",
-  "CustomerHost": "nihil",
-  "CustomerName": "Rohan LLC",
-  "CustomerEmail": "rosalinda.pagac@ratkewhite.co.uk",
-  "CustomerPhone": "680-507-6684 x47416",
-  "CustomerConsented": true,
-  "CustomerCompanyName": "Ritchie-Bradtke",
+  "ChatSessionId": 684,
+  "TopicId": 160,
+  "User": null,
+  "Person": null,
+  "CustomerAlias": "iure",
+  "CustomerHost": "et",
+  "CustomerName": "Gerhold, Emmerich and McKenzie",
+  "CustomerEmail": "hortense.blick@wolfyost.ca",
+  "CustomerPhone": "017-212-5088 x218",
+  "CustomerConsented": false,
+  "CustomerCompanyName": "Olson-Strosin",
   "Status": "Closed",
-  "FirstMessage": "ipsum",
-  "LastMessage": "est",
-  "WhenRequested": "2008-10-19T18:25:50.0485682+02:00",
-  "WhenStarted": "1996-04-12T18:25:50.0485682+02:00",
-  "WhenEnded": "2014-07-12T18:25:50.0485682+02:00",
-  "WhenIdle": "2020-09-10T18:25:50.0485682+02:00",
-  "WhenFetched": "2013-09-24T18:25:50.0485682+02:00",
-  "SessionKey": "vitae",
-  "InitialQueuePos": 476,
-  "AlertLevel": 900,
-  "Rank": 963,
+  "FirstMessage": "sunt",
+  "LastMessage": "magni",
+  "WhenRequested": "2007-04-11T11:10:52.4801747+02:00",
+  "WhenStarted": "2017-10-17T11:10:52.4801747+02:00",
+  "WhenEnded": "2015-01-21T11:10:52.4801747+01:00",
+  "WhenIdle": "2020-12-17T11:10:52.4801747+01:00",
+  "WhenFetched": "2010-12-16T11:10:52.4801747+01:00",
+  "SessionKey": "consequatur",
+  "InitialQueuePos": 437,
+  "AlertLevel": 80,
+  "Rank": 233,
   "Flags": "CustomerIsTyping",
-  "Contact": {
-    "ContactId": 101,
-    "Name": "Moen, Greenfelder and Balistreri",
-    "OrgNr": "463181",
-    "Department": "",
-    "URL": "http://www.example.com/",
-    "City": "ut",
-    "DirectPhone": "1-453-518-7304 x7210",
-    "AssociateId": 587,
-    "CountryId": 686,
-    "EmailAddress": "elta@altenwerthwhite.ca",
-    "Kananame": "facilis",
-    "EmailAddressName": "pietro@binslemke.uk",
-    "URLName": "http://www.example.com/",
-    "AssociateFullName": "Kevon Johnston",
-    "BusinessName": "Information Technology",
-    "CategoryName": "VIP Customer",
-    "CountryName": "Sokovia",
-    "Address": {},
-    "FormattedAddress": "qui",
-    "FullName": "Lucile Ondricka",
-    "IsOwnerContact": true,
-    "ActiveErpLinks": 108,
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 485
-      }
-    }
-  },
-  "Project": {
-    "ProjectId": 301,
-    "Name": "Kertzmann-Effertz",
-    "Description": "Monitored grid-enabled throughput",
-    "URL": "http://www.example.com/",
-    "Type": "aut",
-    "AssociateId": 261,
-    "AssociateFullName": "Trey Koss",
-    "TypeId": 759,
-    "Updated": "2007-06-13T18:25:50.0495639+02:00",
-    "StatusId": 416,
-    "Status": "omnis",
-    "TextId": 818,
-    "PublishTo": "2003-08-15T18:25:50.0495639+02:00",
-    "PublishFrom": "2018-03-01T18:25:50.0495639+01:00",
-    "IsPublished": true,
-    "URLName": "http://www.example.com/",
-    "ProjectNumber": "1291415",
-    "ActiveErpLinks": 629,
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 909
-      }
-    }
-  },
-  "Sale": {
-    "ContactName": "Homenick-Jacobs",
-    "SaleDate": "2003-09-30T18:25:50.0495639+02:00",
-    "SaleId": 698,
-    "Probability": 348,
-    "Title": "ea",
-    "Amount": 7342.9619999999995,
-    "Currency": "explicabo",
-    "ProjectName": "Walsh-Klocko",
-    "AssociateFullName": "Zoie Langosh Sr.",
-    "Description": "Team-oriented bi-directional website",
-    "Status": "Lost",
-    "WeightedAmount": 26623.329999999998,
-    "ProjectId": 733,
-    "EarningPercent": 6666.018,
-    "Earning": 10868.712,
-    "ContactId": 71,
-    "AssociateId": 736,
-    "PersonId": 39,
-    "SaleTypeId": 587,
-    "SaleTypeName": "Huels-Ernser",
-    "PersonFullName": "Olga Terry",
-    "Completed": "Completed",
-    "ActiveErpLinks": 278,
-    "NextDueDate": "2000-09-08T18:25:50.0505631+02:00",
-    "Number": "455415",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.Int32",
-        "FieldLength": 722
-      }
-    }
-  },
-  "Ticket": {
-    "TicketId": 205,
-    "Title": "assumenda",
-    "CreatedAt": "2001-12-28T18:25:50.0505631+01:00",
-    "LastChanged": "2010-11-10T18:25:50.0505631+01:00",
-    "ReadByOwner": "2018-10-12T18:25:50.0505631+02:00",
-    "ReadByCustomer": "1999-05-31T18:25:50.0505631+02:00",
-    "FirstReadByUser": "2017-06-24T18:25:50.0505631+02:00",
-    "Activate": "2005-09-13T18:25:50.0505631+02:00",
-    "ClosedAt": "1996-09-13T18:25:50.0505631+02:00",
-    "RepliedAt": "2001-02-03T18:25:50.0505631+01:00",
-    "AlertTimeout": "2007-04-20T18:25:50.0505631+02:00",
-    "Deadline": "2003-07-21T18:25:50.0505631+02:00",
-    "CreatedBy": 452,
-    "CreatedByName": "Gorczany-Rohan",
-    "Author": "est",
-    "OwnedBy": 159,
-    "OwnedByName": "Fisher, Hettinger and Pfannerstill",
-    "Category": 287,
-    "CategoryName": "VIP Customer",
-    "CategoryFullname": "VIP Customer",
-    "Slevel": "External",
-    "Priority": 239,
-    "PriorityName": "Koss-Bosco",
-    "BaseStatus": "Active",
-    "TicketStatus": 287,
-    "TicketStatusDisplayValue": "aut",
-    "Origin": "AutoGenerated",
-    "CustId": 136,
-    "PersonFirstname": "Eliezer",
-    "PersonMiddleName": "Nader LLC",
-    "PersonLastname": "O'Hara",
-    "PersonFullname": "harum",
-    "AlertLevel": 642,
-    "ConnectId": 14,
-    "ReadStatus": "Green",
-    "TimeToReply": 695,
-    "RealTimeToReply": 828,
-    "TimeToClose": 426,
-    "RealTimeToClose": 136,
-    "TimeSpentInternally": 296,
-    "TimeSpentExternally": 736,
-    "TimeSpentQueue": 645,
-    "RealTimeSpentInternally": 989,
-    "RealTimeSpentExternally": 22,
-    "RealTimeSpentQueue": 965,
-    "HasAttachment": false,
-    "NumReplies": 85,
-    "NumMessages": 443,
-    "FromAddress": "debitis",
-    "ContactId": 451,
-    "ContactName": "Kuphal, Yundt and Kovacek",
-    "OwnedByAssociateId": 830,
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.Int32",
-        "FieldLength": 979
-      }
-    }
-  },
-  "TransferTo": {
-    "AssociateId": 744,
-    "Name": "Daugherty, Kuvalis and Kohler",
-    "PersonId": 610,
-    "Rank": 725,
-    "Tooltip": "earum",
-    "Type": "AnonymousAssociate",
-    "GroupIdx": 413,
-    "FullName": "Ethelyn Schinner",
-    "FormalName": "Nitzsche Group",
-    "Deleted": false,
-    "EjUserId": 47,
-    "UserName": "Emard LLC",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.Int32",
-        "FieldLength": 545
-      }
-    }
-  },
+  "Contact": null,
+  "Project": null,
+  "Sale": null,
+  "Ticket": null,
+  "TransferTo": null,
   "ChatbotIsActive": true,
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "Rating": 554,
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
+      "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 211
+      "FieldLength": 733
     }
   },
   "_Links": {

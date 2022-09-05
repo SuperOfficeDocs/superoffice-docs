@@ -1,6 +1,6 @@
 ---
 title: POST Agents/ViewState/GetHistories
-id: v1ViewStateAgent_GetHistories
+uid: v1ViewStateAgent_GetHistories
 ---
 
 # POST Agents/ViewState/GetHistories
@@ -11,6 +11,12 @@ POST /api/v1/Agents/ViewState/GetHistories
 
 Returns all history items that belong to the currently logged in user
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Returns all history items that belong to the currently logged in user
 ```http
 POST /api/v1/Agents/ViewState/GetHistories?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -34,7 +41,10 @@ POST /api/v1/Agents/ViewState/GetHistories?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -54,14 +64,16 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/ViewState/GetHistories
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -69,25 +81,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Rank": 424,
-    "Id": 68,
-    "HistoryName": "Wolff, Pollich and Schmitt",
-    "HistoryId": 570,
-    "AssociateId": 308,
-    "Name": "Weber Inc and Sons",
-    "ItemInfo": "et",
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "Rank": 695,
+    "Id": 14,
+    "HistoryName": "Corkery Inc and Sons",
+    "HistoryId": 868,
+    "AssociateId": 119,
+    "Name": "Walsh, Bogan and Hodkiewicz",
+    "ItemInfo": "ullam",
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
+        "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 840
+        "FieldLength": 863
       }
     }
   }

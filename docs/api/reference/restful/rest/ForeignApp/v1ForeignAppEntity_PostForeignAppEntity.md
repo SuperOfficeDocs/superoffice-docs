@@ -1,6 +1,6 @@
 ---
 title: POST ForeignApp
-id: v1ForeignAppEntity_PostForeignAppEntity
+uid: v1ForeignAppEntity_PostForeignAppEntity
 ---
 
 # POST ForeignApp
@@ -11,7 +11,13 @@ POST /api/v1/ForeignApp
 
 Creates a new ForeignAppEntity
 
+
 Calls the ForeignSystem agent service SaveForeignAppEntity.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +28,7 @@ Calls the ForeignSystem agent service SaveForeignAppEntity.
 ```http
 POST /api/v1/ForeignApp?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,9 +44,9 @@ POST /api/v1/ForeignApp?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: newEntity
+## Request Body: newEntity  
 
-The ForeignAppEntity to be saved.
+The ForeignAppEntity to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -51,15 +58,16 @@ The ForeignAppEntity to be saved.
 | UpdatedBy |  | The person that last updated this foreign application. |
 | Devices | array | The devices that belong to this foreign app. |
 
-## Response: object
 
-ForeignAppEntity entity with API _Links added.
+## Response: 
+
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -74,159 +82,78 @@ Response body: object
 | FieldProperties | object |  |
 | _Links | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/ForeignApp
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 713,
-  "Name": "Hudson LLC",
-  "CreatedDate": "2020-02-29T18:25:50.554597+01:00",
-  "UpdatedDate": "2002-06-10T18:25:50.554597+02:00",
-  "CreatedBy": {
-    "AssociateId": 49,
-    "Name": "Fritsch-Beer",
-    "PersonId": 329,
-    "Rank": 882,
-    "Tooltip": "nam",
-    "Type": "AnonymousAssociate",
-    "GroupIdx": 975,
-    "FullName": "Miss Leila Homenick",
-    "FormalName": "Abernathy Group",
-    "Deleted": false,
-    "EjUserId": 830,
-    "UserName": "Luettgen LLC"
-  },
-  "UpdatedBy": {
-    "AssociateId": 953,
-    "Name": "West, Bartoletti and Watsica",
-    "PersonId": 407,
-    "Rank": 727,
-    "Tooltip": "repellat",
-    "Type": "AnonymousAssociate",
-    "GroupIdx": 366,
-    "FullName": "Zoie Hilpert Jr.",
-    "FormalName": "Terry-DuBuque",
-    "Deleted": true,
-    "EjUserId": 474,
-    "UserName": "O'Connell, Schamberger and Labadie"
-  },
+  "ForeignAppId": 934,
+  "Name": "Hayes Inc and Sons",
+  "CreatedDate": "1996-02-12T11:10:52.8851774+01:00",
+  "UpdatedDate": "2002-10-25T11:10:52.8851774+02:00",
+  "CreatedBy": null,
+  "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 1000,
-      "Name": "Towne-Quitzon",
-      "CreatedDate": "2013-02-25T18:25:50.5555974+01:00",
-      "UpdatedDate": "1999-04-03T18:25:50.5555974+02:00",
-      "AssociateFullName": "Sally Cremin",
-      "CreatedBy": "nihil",
-      "UpdatedBy": "aut",
-      "DeviceIdentifier": "rerum",
-      "ForeignAppId": 975
+      "ForeignDeviceId": 496,
+      "Name": "Champlin Group",
+      "CreatedDate": "2019-04-25T11:10:52.8861749+02:00",
+      "UpdatedDate": "2019-10-31T11:10:52.8861749+01:00",
+      "AssociateFullName": "Lisandro Rahsaan Prosacco PhD",
+      "CreatedBy": "itaque",
+      "UpdatedBy": "sunt",
+      "DeviceIdentifier": "occaecati",
+      "ForeignAppId": 295
     }
   ]
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 61,
-  "Name": "Macejkovic, Effertz and Haag",
-  "CreatedDate": "2011-05-02T18:25:50.556597+02:00",
-  "UpdatedDate": "2020-07-25T18:25:50.556597+02:00",
-  "CreatedBy": {
-    "AssociateId": 361,
-    "Name": "Barton-Legros",
-    "PersonId": 167,
-    "Rank": 517,
-    "Tooltip": "quos",
-    "Type": "AnonymousAssociate",
-    "GroupIdx": 341,
-    "FullName": "Kiana Wehner",
-    "FormalName": "Medhurst-Runte",
-    "Deleted": false,
-    "EjUserId": 285,
-    "UserName": "Trantow Inc and Sons",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 747
-      }
-    }
-  },
-  "UpdatedBy": {
-    "AssociateId": 929,
-    "Name": "Nitzsche, Romaguera and Thiel",
-    "PersonId": 120,
-    "Rank": 110,
-    "Tooltip": "rem",
-    "Type": "AnonymousAssociate",
-    "GroupIdx": 38,
-    "FullName": "Regan Kilback",
-    "FormalName": "Bradtke-Hauck",
-    "Deleted": true,
-    "EjUserId": 275,
-    "UserName": "Beahan-Stiedemann",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.Int32",
-        "FieldLength": 925
-      }
-    }
-  },
+  "ForeignAppId": 652,
+  "Name": "Schinner LLC",
+  "CreatedDate": "2000-03-15T11:10:52.8871739+01:00",
+  "UpdatedDate": "2004-07-01T11:10:52.8871739+02:00",
+  "CreatedBy": null,
+  "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 931,
-      "Name": "Kuhn, Watsica and Bergnaum",
-      "CreatedDate": "1998-03-15T18:25:50.557597+01:00",
-      "UpdatedDate": "2015-01-14T18:25:50.557597+01:00",
-      "AssociateFullName": "Davin Marks",
-      "CreatedBy": "id",
-      "UpdatedBy": "modi",
-      "DeviceIdentifier": "saepe",
-      "ForeignAppId": 466,
-      "TableRight": {},
+      "ForeignDeviceId": 567,
+      "Name": "Kuvalis LLC",
+      "CreatedDate": "2021-03-11T11:10:52.888174+01:00",
+      "UpdatedDate": "2001-12-26T11:10:52.888174+01:00",
+      "AssociateFullName": "Miss Nikko Mitchell Langworth",
+      "CreatedBy": "commodi",
+      "UpdatedBy": "rerum",
+      "DeviceIdentifier": "quidem",
+      "ForeignAppId": 78,
+      "TableRight": null,
       "FieldProperties": {
         "fieldName": {
-          "FieldRight": {
-            "Mask": "FULL",
-            "Reason": ""
-          },
-          "FieldType": "System.String",
-          "FieldLength": 819
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 340
         }
       }
     }
   ],
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
+      "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 375
+      "FieldLength": 93
     }
   },
   "_Links": {

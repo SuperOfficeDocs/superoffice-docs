@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Navigator/GetNavigatorCompanies
-id: v1NavigatorAgent_GetNavigatorCompanies
+uid: v1NavigatorAgent_GetNavigatorCompanies
 ---
 
 # POST Agents/Navigator/GetNavigatorCompanies
@@ -8,6 +8,14 @@ id: v1NavigatorAgent_GetNavigatorCompanies
 ```http
 POST /api/v1/Agents/Navigator/GetNavigatorCompanies
 ```
+
+
+
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -18,6 +26,7 @@ POST /api/v1/Agents/Navigator/GetNavigatorCompanies
 ```http
 POST /api/v1/Agents/Navigator/GetNavigatorCompanies?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -33,15 +42,18 @@ POST /api/v1/Agents/Navigator/GetNavigatorCompanies?$select=name,department,cate
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-Name
+Name 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | Name | string |  |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -57,19 +69,21 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Navigator/GetNavigatorCompanies
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Hegmann, Nader and Thompson"
+  "Name": "Kessler-Schumm"
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -77,40 +91,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 40,
-    "Value": "quas",
-    "Tooltip": "sunt",
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "Id": 825,
+    "Value": "praesentium",
+    "Tooltip": "labore",
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 342
+        "FieldRight": null,
+        "FieldType": "System.Int32",
+        "FieldLength": 28
       }
     }
   },
   {
-    "Id": 40,
-    "Value": "quas",
-    "Tooltip": "sunt",
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "Id": 825,
+    "Value": "praesentium",
+    "Tooltip": "labore",
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 342
+        "FieldRight": null,
+        "FieldType": "System.Int32",
+        "FieldLength": 28
       }
     }
   }

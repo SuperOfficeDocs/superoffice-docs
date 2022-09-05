@@ -1,6 +1,6 @@
 ---
 title: POST Agents/ErpSync/GetCrmActorType
-id: v1ErpSyncAgent_GetCrmActorType
+uid: v1ErpSyncAgent_GetCrmActorType
 ---
 
 # POST Agents/ErpSync/GetCrmActorType
@@ -11,7 +11,15 @@ POST /api/v1/Agents/ErpSync/GetCrmActorType
 
 Retrieves the CrmActorType that are mapped to a specific ErpActorType for this connection
 
-## Online Restricted: ## The ErpSync agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for ERP integration apps
+
+
+
+## Online Restricted: ## The ErpSync agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for ERP integration apps.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +30,7 @@ Retrieves the CrmActorType that are mapped to a specific ErpActorType for this c
 ```http
 POST /api/v1/Agents/ErpSync/GetCrmActorType?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,16 +46,19 @@ POST /api/v1/Agents/ErpSync/GetCrmActorType?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-ErpConnectionId, ErpActorType
+ErpConnectionId, ErpActorType 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | ErpConnectionId | int32 |  |
 | ErpActorType | string |  |
 
+
 ## Response: string
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -54,20 +66,23 @@ ErpConnectionId, ErpActorType
 
 Response body: string
 
-## Sample Request
+
+## Sample request
 
 ```http!
 POST /api/v1/Agents/ErpSync/GetCrmActorType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 202,
+  "ErpConnectionId": 574,
   "ErpActorType": "Customer"
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK

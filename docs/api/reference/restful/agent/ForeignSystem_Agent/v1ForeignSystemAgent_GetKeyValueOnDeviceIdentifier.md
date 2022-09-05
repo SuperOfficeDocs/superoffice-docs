@@ -1,6 +1,6 @@
 ---
 title: POST Agents/ForeignSystem/GetKeyValueOnDeviceIdentifier
-id: v1ForeignSystemAgent_GetKeyValueOnDeviceIdentifier
+uid: v1ForeignSystemAgent_GetKeyValueOnDeviceIdentifier
 ---
 
 # POST Agents/ForeignSystem/GetKeyValueOnDeviceIdentifier
@@ -11,7 +11,13 @@ POST /api/v1/Agents/ForeignSystem/GetKeyValueOnDeviceIdentifier
 
 Returning a foreign key string value by its key name and device identifier, that belongs to the specified device and application.
 
+
 A table name and record ID can also be specified.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +28,7 @@ A table name and record ID can also be specified.
 ```http
 POST /api/v1/Agents/ForeignSystem/GetKeyValueOnDeviceIdentifier?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,9 +44,9 @@ POST /api/v1/Agents/ForeignSystem/GetKeyValueOnDeviceIdentifier?$select=name,dep
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-ApplicationName, DeviceName, DeviceIdentifier, KeyName, TableName, RecordId
+ApplicationName, DeviceName, DeviceIdentifier, KeyName, TableName, RecordId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -50,7 +57,10 @@ ApplicationName, DeviceName, DeviceIdentifier, KeyName, TableName, RecordId
 | TableName | string |  |
 | RecordId | int32 |  |
 
+
 ## Response: string
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -58,7 +68,8 @@ ApplicationName, DeviceName, DeviceIdentifier, KeyName, TableName, RecordId
 
 Response body: string
 
-## Sample Request
+
+## Sample request
 
 ```http!
 POST /api/v1/Agents/ForeignSystem/GetKeyValueOnDeviceIdentifier
@@ -68,18 +79,20 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Haley Group",
-  "DeviceName": "Ebert-Schoen",
-  "DeviceIdentifier": "et",
-  "KeyName": "Homenick, Cronin and Crona",
-  "TableName": "Considine Group",
-  "RecordId": 609
+  "ApplicationName": "Braun-O'Reilly",
+  "DeviceName": "Dare Group",
+  "DeviceIdentifier": "ex",
+  "KeyName": "Dibbert, O'Connell and Little",
+  "TableName": "Lehner-Hahn",
+  "RecordId": 915
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"quo"
+"accusamus"
 ```

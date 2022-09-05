@@ -1,6 +1,6 @@
 ---
 title: POST Agents/List/CreateDefaultSaleTypeEntity
-id: v1ListAgent_CreateDefaultSaleTypeEntity
+uid: v1ListAgent_CreateDefaultSaleTypeEntity
 ---
 
 # POST Agents/List/CreateDefaultSaleTypeEntity
@@ -11,7 +11,14 @@ POST /api/v1/Agents/List/CreateDefaultSaleTypeEntity
 
 Set default values into a new SaleTypeEntity.
 
+
 NetServer calculates default values on the entity, which is required when creating/storing a new instance
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -26,16 +33,16 @@ NetServer calculates default values on the entity, which is required when creati
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response: object
 
-Carrier object for SaleTypeEntity.
-Services for the SaleTypeEntity Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IListAgent">List Agent</see>.
+## Response: 
+
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -60,90 +67,83 @@ Response body: object
 | MinEarningPercent | int32 | The minimum earning in percent of total, if set, on quotes linked to sales of this type |
 | GroupQuoteLinesBy | int32 | Group quote lines by this field |
 | SortGroupLinesBy | int32 | Sort group lines by this field |
-| Stages | array | Stages, those associated with this SaleType are selected.  <br />Use MDO List name "salestage" to get list items. |
+| Stages | array | Stages, those associated with this SaleType are selected.  <para>Use MDO List name "salestage" to get list items.</para> |
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/List/CreateDefaultSaleTypeEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 609,
-  "Name": "Volkman Inc and Sons",
-  "Tooltip": "ipsam",
-  "Rank": 55,
+  "SaleTypeId": 578,
+  "Name": "Goyette Group",
+  "Tooltip": "harum",
+  "Rank": 952,
   "DurationUnit": "Century",
-  "SaleDuration": 899,
-  "SaleTypeCatId": 501,
-  "Deleted": true,
-  "HasGuide": true,
+  "SaleDuration": 46,
+  "SaleTypeCatId": 822,
+  "Deleted": false,
+  "HasGuide": false,
   "HasStakeholders": true,
   "IsAutoAdvance": false,
   "AllowQuoteAlternatives": true,
-  "DefaultQuoteValidity": 316,
-  "QuoteLinesTemplate": 163,
-  "ConfirmationLinesTemplate": 513,
+  "DefaultQuoteValidity": 18,
+  "QuoteLinesTemplate": 388,
+  "ConfirmationLinesTemplate": 952,
   "MaxDiscountPercentSet": false,
-  "MinEarningPercentSet": true,
-  "MaxDiscountPercent": 968,
-  "MinEarningPercent": 405,
-  "GroupQuoteLinesBy": 452,
-  "SortGroupLinesBy": 919,
+  "MinEarningPercentSet": false,
+  "MaxDiscountPercent": 973,
+  "MinEarningPercent": 725,
+  "GroupQuoteLinesBy": 793,
+  "SortGroupLinesBy": 969,
   "Stages": [
     {
-      "Id": 364,
-      "Name": "Morissette, Hegmann and Kertzmann",
-      "ToolTip": "Doloribus laboriosam et.",
+      "Id": 912,
+      "Name": "Mertz-Kassulke",
+      "ToolTip": "Blanditiis et quae fuga debitis ut rem nemo.",
       "Deleted": true,
-      "Rank": 895,
-      "Type": "nulla",
-      "ColorBlock": 559,
-      "IconHint": "accusantium",
+      "Rank": 351,
+      "Type": "quia",
+      "ColorBlock": 399,
+      "IconHint": "quo",
       "Selected": false,
-      "LastChanged": "2000-05-06T18:28:49.4510874+02:00",
+      "LastChanged": "1999-12-03T11:10:27.2564525+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "adipisci",
-      "StyleHint": "aut",
+      "ExtraInfo": "aut",
+      "StyleHint": "sed",
       "Hidden": false,
-      "FullName": "Augustus O'Reilly",
-      "TableRight": {},
+      "FullName": "Reuben Lubowitz",
+      "TableRight": null,
       "FieldProperties": {
         "fieldName": {
-          "FieldRight": {
-            "Mask": "FULL",
-            "Reason": "utilize extensible synergies"
-          },
-          "FieldType": "System.Int32",
-          "FieldLength": 805
+          "FieldRight": null,
+          "FieldType": "System.String",
+          "FieldLength": 875
         }
       }
     }
   ],
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
-      "FieldType": "System.String",
-      "FieldLength": 800
+      "FieldRight": null,
+      "FieldType": "System.Int32",
+      "FieldLength": 228
     }
   }
 }

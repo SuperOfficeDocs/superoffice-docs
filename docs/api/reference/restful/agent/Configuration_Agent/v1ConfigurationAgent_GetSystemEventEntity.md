@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Configuration/GetSystemEventEntity
-id: v1ConfigurationAgent_GetSystemEventEntity
+uid: v1ConfigurationAgent_GetSystemEventEntity
 ---
 
 # POST Agents/Configuration/GetSystemEventEntity
@@ -11,6 +11,12 @@ POST /api/v1/Agents/Configuration/GetSystemEventEntity
 
 Gets a SystemEventEntity object.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -19,9 +25,10 @@ Gets a SystemEventEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Configuration/GetSystemEventEntity?systemEventEntityId=600
+POST /api/v1/Agents/Configuration/GetSystemEventEntity?systemEventEntityId=383
 POST /api/v1/Agents/Configuration/GetSystemEventEntity?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -36,18 +43,16 @@ POST /api/v1/Agents/Configuration/GetSystemEventEntity?$select=name,department,c
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response: object
 
-Entity for system events
+## Response: 
 
-Carrier object for SystemEventEntity.
-Services for the SystemEventEntity Carrier is available from the <see cref="!:IConfigurationAgent">Configuration Agent</see>.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -64,66 +69,38 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Configuration/GetSystemEventEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SystemEventId": 609,
+  "SystemEventId": 771,
   "Scope": "Database",
-  "Eta": "2003-04-02T18:28:48.3956239+02:00",
-  "Eventkey": "vel",
-  "Eventmess": "omnis",
-  "ExtraInfo": 966,
-  "Owner": 112,
-  "UpdatedCount": 720,
-  "Registered": "2014-08-09T18:28:48.3956239+02:00",
-  "ActivatedBy": {
-    "AssociateId": 844,
-    "Name": "Rempel, Prosacco and Harris",
-    "PersonId": 361,
-    "Rank": 436,
-    "Tooltip": "aspernatur",
-    "Type": "AnonymousAssociate",
-    "GroupIdx": 539,
-    "FullName": "Jermain Gleichner Jr.",
-    "FormalName": "Pouros Inc and Sons",
-    "Deleted": false,
-    "EjUserId": 960,
-    "UserName": "Waelchi LLC",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.Int32",
-        "FieldLength": 62
-      }
-    }
-  },
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": "leverage world-class functionalities"
-  },
+  "Eta": "2000-08-26T11:10:26.2135242+02:00",
+  "Eventkey": "soluta",
+  "Eventmess": "excepturi",
+  "ExtraInfo": 432,
+  "Owner": 781,
+  "UpdatedCount": 799,
+  "Registered": "2005-09-14T11:10:26.2145219+02:00",
+  "ActivatedBy": null,
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
+      "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 676
+      "FieldLength": 25
     }
   }
 }

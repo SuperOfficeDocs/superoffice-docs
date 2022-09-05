@@ -1,6 +1,6 @@
 ---
 title: GET Contact/{id}/Summary
-id: v1ContactEntity_GetContactSummary
+uid: v1ContactEntity_GetContactSummary
 ---
 
 # GET Contact/{id}/Summary
@@ -11,9 +11,15 @@ GET /api/v1/Contact/{contactId}/Summary
 
 Get summary of contact and its recent activity.
 
+
+
+
+
+
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | contactId | int32 | The contact id to summarize. **Required** |
+
 
 ## Query String Parameters
 
@@ -22,8 +28,9 @@ Get summary of contact and its recent activity.
 | limit | int32 |  Max number of items to include in summary lists. |
 
 ```http
-GET /api/v1/Contact/{contactId}/Summary?limit=762
+GET /api/v1/Contact/{contactId}/Summary?limit=272
 ```
+
 
 ## Request Headers
 
@@ -38,18 +45,16 @@ GET /api/v1/Contact/{contactId}/Summary?limit=762
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response: object
 
-Summary of contact with recent activities, chats, and requests included.
+## Response: 
 
-Carrier object for ContactSummary.
-Services for the ContactSummary Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IContactAgent">Contact Agent</see>.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -60,7 +65,7 @@ Response body: object
 | Sales | array | Recent sales on contact |
 | Chats | array | Recent chats with contact |
 
-## Sample Request
+## Sample request
 
 ```http!
 GET /api/v1/Contact/{contactId}/Summary
@@ -69,119 +74,89 @@ Accept: application/json; charset=utf-8
 Accept-Language: *
 ```
 
+## Sample response
+
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Contact": {
-    "ContactId": 559,
-    "Name": "Towne-Bradtke",
-    "OrgNr": "1166219",
-    "Department": "",
-    "URL": "http://www.example.com/",
-    "City": "doloribus",
-    "DirectPhone": "1-437-784-3317",
-    "AssociateId": 38,
-    "CountryId": 582,
-    "EmailAddress": "betty@ward.co.uk",
-    "Kananame": "enim",
-    "EmailAddressName": "marty_donnelly@botsford.biz",
-    "URLName": "http://www.example.com/",
-    "AssociateFullName": "Roslyn Romaguera",
-    "BusinessName": "Information Technology",
-    "CategoryName": "VIP Customer",
-    "CountryName": "Sokovia",
-    "Address": {},
-    "FormattedAddress": "magnam",
-    "FullName": "Haskell Jenkins",
-    "IsOwnerContact": true,
-    "ActiveErpLinks": 443,
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 6
-      }
-    }
-  },
+  "Contact": null,
   "Tickets": [
     {
-      "TicketId": 578,
-      "TicketStatus": 978,
-      "Title": "est",
-      "Registered": "2014-06-25T18:25:50.3655947+02:00"
+      "TicketId": 442,
+      "TicketStatus": 72,
+      "Title": "modi",
+      "Registered": "2016-12-09T11:10:52.7161794+01:00",
+      "IconHint": "fugit"
     },
     {
-      "TicketId": 578,
-      "TicketStatus": 978,
-      "Title": "est",
-      "Registered": "2014-06-25T18:25:50.3655947+02:00"
+      "TicketId": 442,
+      "TicketStatus": 72,
+      "Title": "modi",
+      "Registered": "2016-12-09T11:10:52.7161794+01:00",
+      "IconHint": "fugit"
     }
   ],
   "Followups": [
     {
-      "AppointmentId": 311,
-      "DocumentId": 672,
-      "Date": "2021-10-16T18:25:50.3655947+02:00",
-      "Description": "Networked bottom-line ability",
+      "AppointmentId": 231,
+      "DocumentId": 975,
+      "Date": "2005-01-24T11:10:52.7161794+01:00",
+      "Description": "Progressive asynchronous info-mediaries",
       "Completed": "Completed",
-      "Registered": "2001-09-28T18:25:50.3655947+02:00"
+      "Registered": "1996-04-20T11:10:52.7161794+02:00"
     },
     {
-      "AppointmentId": 311,
-      "DocumentId": 672,
-      "Date": "2021-10-16T18:25:50.3655947+02:00",
-      "Description": "Networked bottom-line ability",
+      "AppointmentId": 231,
+      "DocumentId": 975,
+      "Date": "2005-01-24T11:10:52.7161794+01:00",
+      "Description": "Progressive asynchronous info-mediaries",
       "Completed": "Completed",
-      "Registered": "2001-09-28T18:25:50.3655947+02:00"
+      "Registered": "1996-04-20T11:10:52.7161794+02:00"
     }
   ],
   "Documents": [
     {
-      "AppointmentId": 127,
-      "DocumentId": 637,
-      "Date": "2018-03-13T18:25:50.3655947+01:00",
-      "Description": "Integrated client-driven local area network",
+      "AppointmentId": 349,
+      "DocumentId": 540,
+      "Date": "2014-06-19T11:10:52.7161794+02:00",
+      "Description": "Multi-tiered incremental matrix",
       "Completed": "Completed",
-      "Registered": "2007-02-23T18:25:50.3655947+01:00"
+      "Registered": "2008-03-02T11:10:52.7161794+01:00"
     },
     {
-      "AppointmentId": 127,
-      "DocumentId": 637,
-      "Date": "2018-03-13T18:25:50.3655947+01:00",
-      "Description": "Integrated client-driven local area network",
+      "AppointmentId": 349,
+      "DocumentId": 540,
+      "Date": "2014-06-19T11:10:52.7161794+02:00",
+      "Description": "Multi-tiered incremental matrix",
       "Completed": "Completed",
-      "Registered": "2007-02-23T18:25:50.3655947+01:00"
+      "Registered": "2008-03-02T11:10:52.7161794+01:00"
     }
   ],
   "Sales": [
     {
-      "SaleId": 189,
-      "SaleDate": "1999-04-15T18:25:50.3655947+02:00",
-      "Probability": 737,
-      "Heading": "cupiditate",
-      "Amount": 16143.234,
-      "Currency": "ea",
-      "AmountInBaseCurrency": 18033.036,
+      "SaleId": 126,
+      "SaleDate": "2001-11-13T11:10:52.7161794+01:00",
+      "Probability": 424,
+      "Heading": "quibusdam",
+      "Amount": 4174.488,
+      "Currency": "quasi",
+      "AmountInBaseCurrency": 6590.802,
       "Status": "Lost",
       "Completed": "Completed",
-      "Registered": "1997-04-04T18:25:50.3655947+02:00"
+      "Registered": "1995-05-16T11:10:52.7161794+02:00"
     }
   ],
   "Chats": [
     {
-      "ChatSessionId": 686,
-      "Name": "Erdman Group",
-      "CompanyName": "Wolff LLC",
-      "FirstMessage": "ad",
-      "LastMessage": "animi",
-      "WhenRequested": "2002-11-03T18:25:50.3655947+01:00",
-      "WhenEnded": "2008-10-16T18:25:50.3655947+02:00"
+      "ChatSessionId": 943,
+      "Name": "Murray-Harris",
+      "CompanyName": "Waelchi, Schoen and Heathcote",
+      "FirstMessage": "adipisci",
+      "LastMessage": "fugiat",
+      "WhenRequested": "2021-05-14T11:10:52.717146+02:00",
+      "WhenEnded": "1997-01-13T11:10:52.717146+01:00"
     }
   ]
 }

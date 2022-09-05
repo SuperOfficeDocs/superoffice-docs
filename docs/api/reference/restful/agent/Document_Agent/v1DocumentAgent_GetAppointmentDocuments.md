@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Document/GetAppointmentDocuments
-id: v1DocumentAgent_GetAppointmentDocuments
+uid: v1DocumentAgent_GetAppointmentDocuments
 ---
 
 # POST Agents/Document/GetAppointmentDocuments
@@ -11,7 +11,13 @@ POST /api/v1/Agents/Document/GetAppointmentDocuments
 
 Get all documents that are linked to the appointment.
 
+
 I.e. the documents that are listed in the appointment dialog.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +28,7 @@ I.e. the documents that are listed in the appointment dialog.
 ```http
 POST /api/v1/Agents/Document/GetAppointmentDocuments?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,15 +44,18 @@ POST /api/v1/Agents/Document/GetAppointmentDocuments?$select=name,department,cat
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-AppointmentId
+AppointmentId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | AppointmentId | int32 |  |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -73,22 +83,26 @@ Response body: array
 | ProjectName | string | Project name |
 | AssociateId | int32 | ID of associate whose diary the appointment is in, REQUIRED |
 | Snum | int32 | The sequence number allocated from refcount on used template when creating the document |
+| SaleId | int32 | Owning sale, if any (may be 0) |
+| SaleName | string | Heading of Owning sale, if any. (may be blank) |
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Document/GetAppointmentDocuments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "AppointmentId": 861
+  "AppointmentId": 176
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -96,36 +110,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 146,
-    "Attention": "unde",
-    "Header": "laborum",
-    "Name": "McGlynn-Wolf",
-    "OurRef": "iusto",
-    "YourRef": "id",
-    "Description": "Sharable secondary strategy",
-    "DocumentTemplate": "et",
+    "DocumentId": 574,
+    "Attention": "harum",
+    "Header": "delectus",
+    "Name": "Auer LLC",
+    "OurRef": "ipsa",
+    "YourRef": "dolores",
+    "Description": "Managed multi-tasking standardization",
+    "DocumentTemplate": "atque",
     "IsPublished": false,
-    "PersonId": 152,
-    "PersonFullName": "Dr. Damaris Gulgowski",
-    "AssociateFullName": "Arely Gulgowski III",
-    "ContactId": 751,
-    "ContactName": "Weimann-Wiza",
-    "ProjectId": 486,
-    "ProjectName": "Langosh-Tromp",
-    "AssociateId": 887,
-    "Snum": 119,
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": "deliver front-end action-items"
-    },
+    "PersonId": 736,
+    "PersonFullName": "Lilliana Koss",
+    "AssociateFullName": "Julian Considine",
+    "ContactId": 655,
+    "ContactName": "Bradtke, Wisoky and King",
+    "ProjectId": 35,
+    "ProjectName": "Kunde LLC",
+    "AssociateId": 992,
+    "Snum": 68,
+    "SaleId": 446,
+    "SaleName": "Willms-Prohaska",
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
+        "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 808
+        "FieldLength": 106
       }
     }
   }

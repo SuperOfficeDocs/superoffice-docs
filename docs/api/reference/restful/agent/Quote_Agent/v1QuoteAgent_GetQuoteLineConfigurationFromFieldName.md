@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Quote/GetQuoteLineConfigurationFromFieldName
-id: v1QuoteAgent_GetQuoteLineConfigurationFromFieldName
+uid: v1QuoteAgent_GetQuoteLineConfigurationFromFieldName
 ---
 
 # POST Agents/Quote/GetQuoteLineConfigurationFromFieldName
@@ -11,6 +11,12 @@ POST /api/v1/Agents/Quote/GetQuoteLineConfigurationFromFieldName
 
 Returns the configuration field with the given field name
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Returns the configuration field with the given field name
 ```http
 POST /api/v1/Agents/Quote/GetQuoteLineConfigurationFromFieldName?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,26 +42,24 @@ POST /api/v1/Agents/Quote/GetQuoteLineConfigurationFromFieldName?$select=name,de
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-FieldName
+FieldName 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | FieldName | string |  |
 
-## Response: object
 
-QuoteLineConfiguration contains information about which configuration fields that is visible in the GUI. Read only and mandatory fields are also specified.
+## Response: 
 
-Carrier object for QuoteLineConfiguration.
-Services for the QuoteLineConfiguration Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IQuoteAgent">Quote Agent</see>.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -70,46 +75,42 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Quote/GetQuoteLineConfigurationFromFieldName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "FieldName": "Kiehn Group"
+  "FieldName": "McLaughlin, Moen and Brakus"
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLineConfigurationId": 390,
-  "FieldName": "Shields-Bernier",
-  "Label": "sed",
-  "Tooltip": "quam",
+  "QuoteLineConfigurationId": 673,
+  "FieldName": "Vandervort Group",
+  "Label": "quas",
+  "Tooltip": "et",
   "Editable": false,
-  "InUse": true,
+  "InUse": false,
   "Mandatory": false,
-  "Rank": 393,
-  "RestrictEdit": true,
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": "e-enable customized e-business"
-  },
+  "Rank": 612,
+  "RestrictEdit": false,
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
-      "FieldType": "System.Int32",
-      "FieldLength": 13
+      "FieldRight": null,
+      "FieldType": "System.String",
+      "FieldLength": 161
     }
   }
 }

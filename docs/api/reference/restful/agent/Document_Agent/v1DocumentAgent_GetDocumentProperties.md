@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Document/GetDocumentProperties
-id: v1DocumentAgent_GetDocumentProperties
+uid: v1DocumentAgent_GetDocumentProperties
 ---
 
 # POST Agents/Document/GetDocumentProperties
@@ -11,7 +11,13 @@ POST /api/v1/Agents/Document/GetDocumentProperties
 
 Get plugin-dependent properties for the document.
 
+
 A number of standard properties that should be supported by all plugins are defined in SuperOffice.CRM.Documents.Constants.Properties.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +28,7 @@ A number of standard properties that should be supported by all plugins are defi
 ```http
 POST /api/v1/Agents/Document/GetDocumentProperties?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,16 +44,19 @@ POST /api/v1/Agents/Document/GetDocumentProperties?$select=name,department,categ
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-DocumentId, RequestedProperties
+DocumentId, RequestedProperties 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | DocumentId | int32 |  |
 | RequestedProperties | array |  |
 
+
 ## Response: object
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -54,30 +64,33 @@ DocumentId, RequestedProperties
 
 Response body: object
 
-## Sample Request
+
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Document/GetDocumentProperties
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 32,
+  "DocumentId": 712,
   "RequestedProperties": [
-    "quia",
-    "et"
+    "vero",
+    "optio"
   ]
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "1": "sapiente",
-  "2": "magni"
+  "1": "earum",
+  "2": "numquam"
 }
 ```

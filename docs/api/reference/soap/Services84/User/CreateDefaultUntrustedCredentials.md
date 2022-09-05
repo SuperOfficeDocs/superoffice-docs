@@ -14,7 +14,9 @@ Implemented by the <see cref="M:SuperOffice.Services84.IUserAgent.CreateDefaultU
 Loading default values into a new UntrustedCredentials.
 NetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance
 
+
 **Returns:** New UntrustedCredentials with default values
+
 
 [WSDL file for Services84/User](../Services84-User.md)
 
@@ -47,6 +49,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## CreateDefaultUntrustedCredentials Response
 
 ```xml
@@ -62,8 +65,8 @@ Application tokens must be specified if calling an Online installation. Applicat
  <SOAP-ENV:Body>
   <User:CreateDefaultUntrustedCredentialsResponse>
    <User:Response xsi:type="User:UntrustedCredentials">
-    <User:ValidFrom xsi:type="xsd:dateTime">2021-11-30T13:22:23Z</User:ValidFrom>
-    <User:ValidTo xsi:type="xsd:dateTime">2021-11-30T13:22:23Z</User:ValidTo>
+    <User:ValidFrom xsi:type="xsd:dateTime">2022-08-26T08:51:52Z</User:ValidFrom>
+    <User:ValidTo xsi:type="xsd:dateTime">2022-08-26T08:51:52Z</User:ValidTo>
     <User:Comment xsi:type="xsd:string"></User:Comment>
     <User:SecretValue xsi:type="xsd:string"></User:SecretValue>
     <User:PublicValue xsi:type="xsd:string"></User:PublicValue>
@@ -74,3 +77,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

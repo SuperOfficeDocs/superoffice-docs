@@ -1,6 +1,6 @@
 ---
 title: GET List/Rating/MDOItems
-id: v1RatingList_GetMDOList
+uid: v1RatingList_GetMDOList
 ---
 
 # GET List/Rating/MDOItems
@@ -11,6 +11,12 @@ GET /api/v1/List/Rating/MDOItems
 
 Get the MDO list items for "Prob" - with headings and filtering by user group.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -19,9 +25,10 @@ Get the MDO list items for "Prob" - with headings and filtering by user group.
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/Rating/MDOItems?flat=True
-GET /api/v1/List/Rating/MDOItems?query=culpa
+GET /api/v1/List/Rating/MDOItems?flat=False
+GET /api/v1/List/Rating/MDOItems?query=et
 ```
+
 
 ## Request Headers
 
@@ -36,7 +43,10 @@ GET /api/v1/List/Rating/MDOItems?query=culpa
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -61,14 +71,16 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 GET /api/v1/List/Rating/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -76,59 +88,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 756,
-    "Name": "Witting Inc and Sons",
-    "ToolTip": "Facilis dolorem voluptatem beatae perferendis.",
-    "Deleted": true,
-    "Rank": 313,
-    "Type": "quisquam",
+    "Id": 493,
+    "Name": "DuBuque, Moen and Kreiger",
+    "ToolTip": "Iste nemo molestiae laudantium.",
+    "Deleted": false,
+    "Rank": 127,
+    "Type": "nostrum",
     "ChildItems": [
       {
-        "Id": 440,
-        "Name": "Smith, Stark and Shields",
-        "ToolTip": "Quam alias quasi ut consequatur.",
+        "Id": 273,
+        "Name": "Witting-O'Conner",
+        "ToolTip": "Quia et mollitia accusamus dolorum alias voluptas dolorem.",
         "Deleted": false,
-        "Rank": 541,
-        "Type": "velit",
+        "Rank": 253,
+        "Type": "qui",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "atque",
-        "ColorBlock": 754,
-        "ExtraInfo": "sed",
-        "StyleHint": "omnis",
-        "FullName": "Donato Pfeffer",
-        "TableRight": {},
+        "IconHint": "voluptatem",
+        "ColorBlock": 273,
+        "ExtraInfo": "et",
+        "StyleHint": "aliquam",
+        "FullName": "Royce McGlynn",
+        "TableRight": null,
         "FieldProperties": {
           "fieldName": {
-            "FieldRight": {
-              "Mask": "FULL",
-              "Reason": ""
-            },
-            "FieldType": "System.String",
-            "FieldLength": 132
+            "FieldRight": null,
+            "FieldType": "System.Int32",
+            "FieldLength": 682
           }
         }
       }
     ],
-    "IconHint": "voluptatem",
-    "ColorBlock": 802,
-    "ExtraInfo": "cum",
-    "StyleHint": "eligendi",
-    "FullName": "Madyson Corwin",
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "IconHint": "necessitatibus",
+    "ColorBlock": 250,
+    "ExtraInfo": "ullam",
+    "StyleHint": "ut",
+    "FullName": "Mrs. Anastacio Lelah Bashirian",
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": "recontextualize 24/365 architectures"
-        },
+        "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 646
+        "FieldLength": 99
       }
     }
   }

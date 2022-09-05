@@ -1,6 +1,6 @@
 ---
 title: POST Agents/AI/DetectSentiment
-id: v1AIAgent_DetectSentiment
+uid: v1AIAgent_DetectSentiment
 ---
 
 # POST Agents/AI/DetectSentiment
@@ -11,7 +11,13 @@ POST /api/v1/Agents/AI/DetectSentiment
 
 Detect the sentiment of a (reasonably short) text.
 
+
 Sentiment analysis may cause a translation to be made, since sentiment analysis only supports a limited set of languages
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +28,7 @@ Sentiment analysis may cause a translation to be made, since sentiment analysis 
 ```http
 POST /api/v1/Agents/AI/DetectSentiment?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,26 +44,24 @@ POST /api/v1/Agents/AI/DetectSentiment?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-Text
+Text 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | Text | string |  |
 
-## Response: object
 
-Sentiment information: Score (-100 to 100) and Confidence (0 to 100)
+## Response: 
 
-Carrier object for Sentiment.
-Services for the Sentiment Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IAIAgent">AI Agent</see>.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -65,39 +70,35 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/AI/DetectSentiment
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Text": "est"
+  "Text": "occaecati"
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Score": 197,
-  "Confidence": 390,
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "Score": 887,
+  "Confidence": 178,
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
+      "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 690
+      "FieldLength": 236
     }
   }
 }

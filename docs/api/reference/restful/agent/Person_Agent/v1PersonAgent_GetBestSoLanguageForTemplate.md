@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Person/GetBestSoLanguageForTemplate
-id: v1PersonAgent_GetBestSoLanguageForTemplate
+uid: v1PersonAgent_GetBestSoLanguageForTemplate
 ---
 
 # POST Agents/Person/GetBestSoLanguageForTemplate
@@ -11,6 +11,12 @@ POST /api/v1/Agents/Person/GetBestSoLanguageForTemplate
 
 Get the best language for this person on this template
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Get the best language for this person on this template
 ```http
 POST /api/v1/Agents/Person/GetBestSoLanguageForTemplate?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,16 +42,19 @@ POST /api/v1/Agents/Person/GetBestSoLanguageForTemplate?$select=name,department,
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-PersonId, TemplateId
+PersonId, TemplateId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | PersonId | int32 |  |
 | TemplateId | int32 |  |
 
+
 ## Response: string
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -52,7 +62,8 @@ PersonId, TemplateId
 
 Response body: string
 
-## Sample Request
+
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Person/GetBestSoLanguageForTemplate
@@ -62,14 +73,16 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 916,
-  "TemplateId": 321
+  "PersonId": 120,
+  "TemplateId": 785
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"debitis"
+"ut"
 ```

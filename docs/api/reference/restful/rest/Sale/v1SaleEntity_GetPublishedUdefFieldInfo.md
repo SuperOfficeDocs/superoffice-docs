@@ -1,6 +1,6 @@
 ---
 title: GET Sale/UdefLayout/Published/{progidOrLabel}
-id: v1SaleEntity_GetPublishedUdefFieldInfo
+uid: v1SaleEntity_GetPublishedUdefFieldInfo
 ---
 
 # GET Sale/UdefLayout/Published/{progidOrLabel}
@@ -11,9 +11,16 @@ GET /api/v1/Sale/UdefLayout/Published/{progidOrLabel}
 
 Get a published SaleEntity user-defined field's details based on the prog-id or label.
 
+
+
+
+
+
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | progidOrLabel | string | The udef field id, case-sensitive prog-id, or field label. **Required** |
+
+
 
 ## Request Headers
 
@@ -28,19 +35,17 @@ Get a published SaleEntity user-defined field's details based on the prog-id or 
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response: object
 
-Return information about the user defined fields. The information can be used to mirror the layout of the user-defined fields in the user interface.
+## Response: 
 
-Carrier object for UserDefinedFieldInfo.
-Services for the UserDefinedFieldInfo Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent">UserDefinedFieldInfo Agent</see>.
+SaleEntity found.
 
 | Response | Description |
 |----------------|-------------|
 | 200 | SaleEntity found. |
 | 404 | SaleEntity not found. |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -81,66 +86,62 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 GET /api/v1/Sale/UdefLayout/Published/{progidOrLabel}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 SaleEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 271,
-  "ColumnId": 864,
-  "FieldDefault": "atque",
-  "FieldHeight": 550,
-  "FieldLabel": "explicabo",
-  "FieldLeft": 942,
-  "FieldTop": 817,
+  "UDefFieldId": 736,
+  "ColumnId": 62,
+  "FieldDefault": "aut",
+  "FieldHeight": 166,
+  "FieldLabel": "in",
+  "FieldLeft": 974,
+  "FieldTop": 531,
   "FieldType": "Checkbox",
-  "FieldWidth": 250,
-  "FormatMask": "ipsam",
+  "FieldWidth": 612,
+  "FormatMask": "beatae",
   "HideLabel": true,
-  "IsIndexed": false,
-  "LabelHeight": 206,
-  "LabelLeft": 980,
-  "LabelTop": 650,
-  "LabelWidth": 571,
-  "LastVersionId": 943,
-  "ListTableId": 801,
+  "IsIndexed": true,
+  "LabelHeight": 580,
+  "LabelLeft": 698,
+  "LabelTop": 901,
+  "LabelWidth": 652,
+  "LastVersionId": 752,
+  "ListTableId": 866,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 862,
-  "ProgId": "ratione",
-  "IsReadOnly": false,
-  "ShortLabel": "ut",
-  "TabOrder": 560,
-  "TextLength": 794,
-  "Tooltip": "aliquid",
-  "UdefIdentity": 285,
-  "UDListDefinitionId": 857,
+  "Page1LineNo": 435,
+  "ProgId": "aut",
+  "IsReadOnly": true,
+  "ShortLabel": "aut",
+  "TabOrder": 779,
+  "TextLength": 85,
+  "Tooltip": "dolor",
+  "UdefIdentity": 396,
+  "UDListDefinitionId": 298,
   "Justification": "Center",
-  "Version": 762,
-  "TemplateVariableName": "Kiehn LLC",
+  "Version": 855,
+  "TemplateVariableName": "Kohler-Bruen",
   "HasBeenPublished": false,
-  "MdoListName": "Gusikowski-Stokes",
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "MdoListName": "Klein, Nienow and Waters",
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
+      "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 568
+      "FieldLength": 554
     }
   }
 }

@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Person/GetPersonList
-id: v1PersonAgent_GetPersonList
+uid: v1PersonAgent_GetPersonList
 ---
 
 # POST Agents/Person/GetPersonList
@@ -11,6 +11,12 @@ POST /api/v1/Agents/Person/GetPersonList
 
 Gets an array of Person objects.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Gets an array of Person objects.
 ```http
 POST /api/v1/Agents/Person/GetPersonList?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,11 +42,15 @@ POST /api/v1/Agents/Person/GetPersonList?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: personIds
+## Request Body: personIds  
 
-The primary keys.
+The primary keys. 
+
+
 
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -92,14 +103,16 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Person/GetPersonList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -107,58 +120,52 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Position": "libero",
-    "PersonId": 336,
-    "Mrmrs": "consequatur",
-    "Firstname": "Roma",
-    "Lastname": "Harvey",
-    "MiddleName": "Weimann-Nitzsche",
-    "Title": "est",
-    "Description": "Multi-layered 5th generation focus group",
-    "Email": "diego@bergstrommorissette.us",
-    "FullName": "Fred Orn",
-    "DirectPhone": "352.627.7268 x1764",
-    "FormalName": "Klein, Wiza and Quigley",
-    "CountryId": 794,
-    "ContactId": 398,
-    "ContactName": "Turcotte, Sporer and Wunsch",
-    "Retired": 151,
-    "Rank": 809,
-    "ActiveInterests": 945,
+    "Position": "sequi",
+    "PersonId": 690,
+    "Mrmrs": "inventore",
+    "Firstname": "Nikko",
+    "Lastname": "Bergstrom",
+    "MiddleName": "McClure-Tremblay",
+    "Title": "qui",
+    "Description": "Up-sized fresh-thinking knowledge user",
+    "Email": "sheldon_hirthe@rowe.us",
+    "FullName": "Dr. Courtney Ari Hoppe IV",
+    "DirectPhone": "173.531.0574 x1771",
+    "FormalName": "Considine, Gaylord and Bauch",
+    "CountryId": 192,
+    "ContactId": 962,
+    "ContactName": "Treutel Inc and Sons",
+    "Retired": 855,
+    "Rank": 578,
+    "ActiveInterests": 889,
     "ContactDepartment": "",
-    "ContactCountryId": 563,
-    "ContactOrgNr": "1780511",
-    "FaxPhone": "1-655-208-6713",
-    "MobilePhone": "015.582.1225 x2846",
-    "ContactPhone": "1-437-466-1710",
-    "AssociateName": "Maggio, Kilback and Abbott",
-    "AssociateId": 1001,
+    "ContactCountryId": 775,
+    "ContactOrgNr": "1280546",
+    "FaxPhone": "(496)945-1788",
+    "MobilePhone": "717.692.5900 x8353",
+    "ContactPhone": "017.683.1753",
+    "AssociateName": "Homenick Group",
+    "AssociateId": 473,
     "UsePersonAddress": false,
-    "ContactFax": "nihil",
-    "Kanafname": "id",
-    "Kanalname": "iste",
-    "Post1": "doloremque",
-    "Post2": "in",
-    "Post3": "officia",
-    "EmailName": "graciela_damore@okunevakiehn.us",
-    "ContactFullName": "Miss Maximillian Berge",
-    "ActiveErpLinks": 988,
-    "TicketPriorityId": 404,
-    "SupportLanguageId": 400,
-    "SupportAssociateId": 491,
+    "ContactFax": "culpa",
+    "Kanafname": "provident",
+    "Kanalname": "illum",
+    "Post1": "veniam",
+    "Post2": "corporis",
+    "Post3": "quis",
+    "EmailName": "charlie@terry.com",
+    "ContactFullName": "Niko Mosciski",
+    "ActiveErpLinks": 994,
+    "TicketPriorityId": 390,
+    "SupportLanguageId": 936,
+    "SupportAssociateId": 953,
     "CategoryName": "VIP Customer",
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.Int32",
-        "FieldLength": 631
+        "FieldRight": null,
+        "FieldType": "System.String",
+        "FieldLength": 206
       }
     }
   }

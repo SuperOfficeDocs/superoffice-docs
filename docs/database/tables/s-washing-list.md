@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "s_washing_list"
-so.date: 04.12.2022
+so.date: 08.26.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -25,6 +25,7 @@ Unused table that is ment to be used for active washing in spm v2
 |list\_id|Reference to a list to wash|FK [s_list](s-list.md)| |
 |address|Not known, probably usefull in the future :)|String(255)| |
 
+
 ![s_washing_list table relationship diagram](./media/s_washing_list.png)
 
 [!include[details](./includes/s-washing-list.md)]
@@ -42,6 +43,7 @@ Unused table that is ment to be used for active washing in spm v2
 |------|-------------|
 |[s\_list](s-list.md)  |A list, dynamic or static |
 
+
 ## Replication Flags
 
 * None
@@ -49,3 +51,4 @@ Unused table that is ment to be used for active washing in spm v2
 ## Security Flags
 
 * No access control via user's Role.
+

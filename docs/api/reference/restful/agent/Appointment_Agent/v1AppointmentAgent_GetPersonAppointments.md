@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Appointment/GetPersonAppointments
-id: v1AppointmentAgent_GetPersonAppointments
+uid: v1AppointmentAgent_GetPersonAppointments
 ---
 
 # POST Agents/Appointment/GetPersonAppointments
@@ -11,7 +11,13 @@ POST /api/v1/Agents/Appointment/GetPersonAppointments
 
 Method that returns a specified number of appointments within a time range.
 
+
 The appointments belong to the person specified. If the person not is a SuperOffice user (associate) or the logged on user is not allowed to view this persons appointments an exception is thrown.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +28,7 @@ The appointments belong to the person specified. If the person not is a SuperOff
 ```http
 POST /api/v1/Agents/Appointment/GetPersonAppointments?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,9 +44,9 @@ POST /api/v1/Agents/Appointment/GetPersonAppointments?$select=name,department,ca
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-PersonId, IncludeProjectAppointments, StartTime, EndTime, Count
+PersonId, IncludeProjectAppointments, StartTime, EndTime, Count 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -49,7 +56,10 @@ PersonId, IncludeProjectAppointments, StartTime, EndTime, Count
 | EndTime | date-time |  |
 | Count | int32 |  |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -111,23 +121,25 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Appointment/GetPersonAppointments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 205,
-  "IncludeProjectAppointments": true,
-  "StartTime": "2000-10-15T18:28:47.8848454+02:00",
-  "EndTime": "2001-05-19T18:28:47.8848454+02:00",
-  "Count": 999
+  "PersonId": 457,
+  "IncludeProjectAppointments": false,
+  "StartTime": "2013-01-01T11:10:25.7415532+01:00",
+  "EndTime": "2006-05-30T11:10:25.7415532+02:00",
+  "Count": 74
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -135,67 +147,61 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 168,
-    "StartDate": "2011-04-12T18:28:47.8858448+02:00",
-    "EndDate": "2010-04-12T18:28:47.8858448+02:00",
+    "AppointmentId": 290,
+    "StartDate": "2005-07-07T11:10:25.7435528+02:00",
+    "EndDate": "2019-08-22T11:10:25.7435528+02:00",
     "Type": "BookingForChecklist",
-    "Task": "magni",
-    "AssociateFullName": "Nikolas Cassin",
-    "ContactName": "Fahey, Veum and Walter",
-    "Description": "Networked even-keeled ability",
-    "PersonFullName": "Lessie Fahey",
-    "PersonId": 125,
-    "ContactId": 380,
-    "ProjectId": 164,
-    "ProjectName": "Kovacek-Greenfelder",
-    "IsPublished": true,
-    "AssociateId": 42,
-    "ColorIndex": 105,
+    "Task": "vitae",
+    "AssociateFullName": "Miss Ellen Ervin Auer",
+    "ContactName": "DuBuque, Romaguera and Schneider",
+    "Description": "Secured transitional structure",
+    "PersonFullName": "Maximillian Jessie Langworth MD",
+    "PersonId": 700,
+    "ContactId": 942,
+    "ProjectId": 337,
+    "ProjectName": "Hane-Glover",
+    "IsPublished": false,
+    "AssociateId": 868,
+    "ColorIndex": 797,
     "IsFree": false,
     "HasAlarm": false,
     "IsAlldayEvent": false,
     "Private": "PrivateGroup",
-    "PriorityId": 380,
-    "PriorityName": "Prosacco-Considine",
+    "PriorityId": 786,
+    "PriorityName": "O'Keefe Group",
     "TaskType": "Appointment",
     "IsBookingMain": false,
     "IsRecurrence": true,
     "IsBooking": false,
-    "ActiveDate": "2009-12-27T18:28:47.8858448+01:00",
+    "ActiveDate": "2022-03-04T11:10:25.7435528+01:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2008-11-12T18:28:47.8858448+01:00",
-    "RecurringEndDate": "2003-04-14T18:28:47.8858448+02:00",
-    "MotherId": 530,
-    "AssignedBy": 786,
-    "AssignedByFullName": "Mireille Gleason",
+    "RecurringStartDate": "2010-09-04T11:10:25.7435528+02:00",
+    "RecurringEndDate": "2011-03-12T11:10:25.7435528+01:00",
+    "MotherId": 750,
+    "AssignedBy": 520,
+    "AssignedByFullName": "Ms. Robert Christine Hackett",
     "RejectReason": "",
-    "Location": "consequatur",
-    "AlarmLeadTime": "hic",
-    "SaleId": 522,
-    "SaleName": "Borer-Keebler",
-    "AssociateName": "Kulas Inc and Sons",
-    "CreatedDate": "1999-11-29T18:28:47.8868444+01:00",
-    "CreatedBy": "omnis",
-    "CreatedByFullName": "Cordelia Renner",
-    "CreatedByAssociateId": 357,
+    "Location": "fuga",
+    "AlarmLeadTime": "sed",
+    "SaleId": 981,
+    "SaleName": "Nienow-Marvin",
+    "AssociateName": "Beatty Inc and Sons",
+    "CreatedDate": "2021-08-05T11:10:25.7445526+02:00",
+    "CreatedBy": "hic",
+    "CreatedByFullName": "Belle Wiegand",
+    "CreatedByAssociateId": 308,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
+        "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 11
+        "FieldLength": 521
       }
     }
   }

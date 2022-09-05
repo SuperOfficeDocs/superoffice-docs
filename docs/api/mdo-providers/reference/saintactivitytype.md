@@ -7,7 +7,7 @@ keywords:
   - "mdo provider"
   - "saintactivitytype"
 so.generated: true
-so.date: 03.19.2021
+so.date: 08.26.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -15,13 +15,17 @@ so.envir:
 ---
 
 # "saintactivitytype" MDO List
-
 This SoList provider generates the appointment/task type list for the Saint criteria. This is a simple, hard-coded list corresponding
 to the type field of the <see cref="!:SuperOffice.CRM.Rows.DocTmpl" /> and <see cref="!:SuperOffice.CRM.Rows.Task" /> tables. Tasks are both
 appointments and documents.
 
+
+
 Implemented by the <see cref="T:SuperOffice.CRM.ArchiveLists.SaintActivityTypeProvider">SaintActivityTypeProvider</see> class.
 The name of the MDO list is 'saintactivitytype'.
+
+
+
 
 ## Sample Request
 
@@ -34,7 +38,6 @@ Accept-Language: *
 ```
 
 ## Sample Code
-
 ```cs
 var listProvider = SuperOffice.CRM.Lists.SoListProviderFactory.Create("saintactivitytype", forceFlatList: true);
 foreach (var item in listProvider.RootItems) {
@@ -55,6 +58,7 @@ foreach (var item in listProvider.RootItems) {
 |4|Fax|||
 |3|E-mail|||
 |8|Mail merge|||
+
 
 ## Related MDO Lists
 

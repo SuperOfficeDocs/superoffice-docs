@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Document/SaveSuggestedDocumentEntity
-id: v1DocumentAgent_SaveSuggestedDocumentEntity
+uid: v1DocumentAgent_SaveSuggestedDocumentEntity
 ---
 
 # POST Agents/Document/SaveSuggestedDocumentEntity
@@ -10,6 +10,13 @@ POST /api/v1/Agents/Document/SaveSuggestedDocumentEntity
 ```
 
 Updates the existing SuggestedDocumentEntity or creates a new SuggestedDocumentEntity if the id parameter is empty
+
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -25,9 +32,9 @@ Updates the existing SuggestedDocumentEntity or creates a new SuggestedDocumentE
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entity
+## Request Body: entity  
 
-The SuggestedDocumentEntity to be saved.
+The SuggestedDocumentEntity to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -43,16 +50,16 @@ The SuggestedDocumentEntity to be saved.
 | ProjectTypeStatusLink |  | Project type and project status link info |
 | SaleTypeStageLink |  | Sale type and stage link info. |
 
-## Response: object
 
-Carrier object for SuggestedDocumentEntity.
-Services for the SuggestedDocumentEntity Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IDocumentAgent">Document Agent</see>.
+## Response: 
+
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -70,149 +77,54 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Document/SaveSuggestedDocumentEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "SuggestedDocumentId": 950,
-  "Name": "Howell LLC",
-  "Tooltip": "aut",
-  "Rank": 584,
-  "DoctmplId": 653,
-  "Header": "neque",
-  "OurRef": "eos",
-  "Deleted": false,
-  "DocTmpl": {
-    "DocumentTemplateId": 579,
-    "Name": "Rempel, Nitzsche and Hammes",
-    "Tooltip": "optio",
-    "SaveInDb": 529,
-    "Filename": "deleniti",
-    "DefaultOref": "quaerat",
-    "RecordType": "Appointment",
-    "Deleted": 824,
-    "Direction": "Incoming",
-    "AutoeventId": 946,
-    "QuoteDocType": "ConfirmationLines"
-  },
-  "ProjectTypeStatusLink": {
-    "ProjectTypeStatusLinkId": 168,
-    "ProjTypeId": 509,
-    "ProjTypeName": "Feil-Parisian",
-    "ProjTypeTooltip": "aliquid",
-    "ProjStatusId": 796,
-    "ProjStatusName": "Blanda, Mann and Klocko",
-    "ProjStatusTooltip": "consequatur"
-  },
-  "SaleTypeStageLink": {
-    "SaleTypeStageLinkId": 980,
-    "SaleTypeId": 6,
-    "SaleTypeName": "Conn Group",
-    "SaleTypeTooltip": "eos",
-    "ProbId": 518,
-    "ProbName": "Lind LLC",
-    "ProbTooltip": "libero",
-    "Probability": 290
-  }
+  "SuggestedDocumentId": 222,
+  "Name": "Marquardt-Schmitt",
+  "Tooltip": "nemo",
+  "Rank": 125,
+  "DoctmplId": 120,
+  "Header": "earum",
+  "OurRef": "quo",
+  "Deleted": true,
+  "DocTmpl": null,
+  "ProjectTypeStatusLink": null,
+  "SaleTypeStageLink": null
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SuggestedDocumentId": 547,
-  "Name": "Monahan Group",
-  "Tooltip": "soluta",
-  "Rank": 570,
-  "DoctmplId": 136,
-  "Header": "eveniet",
-  "OurRef": "tempora",
-  "Deleted": true,
-  "DocTmpl": {
-    "DocumentTemplateId": 760,
-    "Name": "Boehm, Bailey and Daniel",
-    "Tooltip": "doloribus",
-    "SaveInDb": 414,
-    "Filename": "velit",
-    "DefaultOref": "nihil",
-    "RecordType": "Appointment",
-    "Deleted": 982,
-    "Direction": "Incoming",
-    "AutoeventId": 824,
-    "QuoteDocType": "ConfirmationLines",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 155
-      }
-    }
-  },
-  "ProjectTypeStatusLink": {
-    "ProjectTypeStatusLinkId": 400,
-    "ProjTypeId": 736,
-    "ProjTypeName": "Murray, Senger and Klocko",
-    "ProjTypeTooltip": "eligendi",
-    "ProjStatusId": 230,
-    "ProjStatusName": "Cruickshank-Abshire",
-    "ProjStatusTooltip": "libero",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 968
-      }
-    }
-  },
-  "SaleTypeStageLink": {
-    "SaleTypeStageLinkId": 848,
-    "SaleTypeId": 614,
-    "SaleTypeName": "Rau Group",
-    "SaleTypeTooltip": "aut",
-    "ProbId": 113,
-    "ProbName": "McGlynn, Hagenes and Kulas",
-    "ProbTooltip": "et",
-    "Probability": 707,
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.Int32",
-        "FieldLength": 216
-      }
-    }
-  },
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "SuggestedDocumentId": 146,
+  "Name": "O'Reilly, Wehner and Skiles",
+  "Tooltip": "tempora",
+  "Rank": 737,
+  "DoctmplId": 605,
+  "Header": "maxime",
+  "OurRef": "temporibus",
+  "Deleted": false,
+  "DocTmpl": null,
+  "ProjectTypeStatusLink": null,
+  "SaleTypeStageLink": null,
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
-      "FieldType": "System.String",
-      "FieldLength": 602
+      "FieldRight": null,
+      "FieldType": "System.Int32",
+      "FieldLength": 459
     }
   }
 }

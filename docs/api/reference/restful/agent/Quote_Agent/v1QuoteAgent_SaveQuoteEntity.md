@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Quote/SaveQuoteEntity
-id: v1QuoteAgent_SaveQuoteEntity
+uid: v1QuoteAgent_SaveQuoteEntity
 ---
 
 # POST Agents/Quote/SaveQuoteEntity
@@ -11,7 +11,13 @@ POST /api/v1/Agents/Quote/SaveQuoteEntity
 
 Saves a QuoteEntity.
 
+
 Versions and alternatives will not be saved by this call.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +28,7 @@ Versions and alternatives will not be saved by this call.
 ```http
 POST /api/v1/Agents/Quote/SaveQuoteEntity?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,26 +44,24 @@ POST /api/v1/Agents/Quote/SaveQuoteEntity?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-QuoteEntity
+QuoteEntity 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| QuoteEntity |  | Quote methods <br /> Carrier object for QuoteEntity. Services for the QuoteEntity Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IQuoteAgent">Quote Agent</see>. |
+| QuoteEntity |  | Quote methods <para /> Carrier object for QuoteEntity. Services for the QuoteEntity Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IQuoteAgent">Quote Agent</see>. |
 
-## Response: object
 
-Quote methods
+## Response: 
 
-Carrier object for QuoteEntity.
-Services for the QuoteEntity Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IQuoteAgent">Quote Agent</see>.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -76,121 +81,99 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Quote/SaveQuoteEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteEntity": {
-    "QuoteId": 62,
-    "SaleId": 696,
-    "QuoteConnectionId": 6,
-    "ERPQuoteKey": "culpa",
-    "ERPOrderKey": "illum",
-    "ActiveQuoteVersionId": 932,
-    "AcceptedQuoteAlternativeId": 502,
-    "UseValuesFromQuote": 733,
-    "DocumentId": 972,
-    "PoNumber": "959962",
-    "OrderComment": "expedita",
-    "PreferredEmailCulture": "merl.harber@yostwest.biz",
-    "QuoteVersions": [
-      {},
-      {}
-    ]
-  }
+  "QuoteEntity": null
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteId": 58,
-  "SaleId": 453,
-  "QuoteConnectionId": 62,
-  "ERPQuoteKey": "quam",
-  "ERPOrderKey": "aut",
-  "ActiveQuoteVersionId": 8,
-  "AcceptedQuoteAlternativeId": 83,
-  "UseValuesFromQuote": 548,
-  "DocumentId": 996,
-  "PoNumber": "1015523",
-  "OrderComment": "qui",
-  "PreferredEmailCulture": "jeff@mckenzie.biz",
+  "QuoteId": 919,
+  "SaleId": 641,
+  "QuoteConnectionId": 820,
+  "ERPQuoteKey": "earum",
+  "ERPOrderKey": "facere",
+  "ActiveQuoteVersionId": 446,
+  "AcceptedQuoteAlternativeId": 530,
+  "UseValuesFromQuote": 2,
+  "DocumentId": 824,
+  "PoNumber": "502385",
+  "OrderComment": "quas",
+  "PreferredEmailCulture": "mae@reillygoldner.info",
   "QuoteVersions": [
     {
-      "QuoteVersionId": 80,
-      "ERPQuoteVersionKey": "est",
-      "QuoteId": 141,
-      "Description": "Self-enabling coherent utilisation",
-      "Number": "849909",
+      "QuoteVersionId": 903,
+      "ERPQuoteVersionKey": "repellendus",
+      "QuoteId": 478,
+      "Description": "Versatile 4th generation website",
+      "Number": "1594222",
       "State": "Archived",
       "ArchivedState": "Archived",
       "Status": "Error",
       "Reason": "",
-      "LikelyQuoteAlternativeId": 707,
-      "SentDate": "2004-09-24T18:28:49.9541373+02:00",
-      "FollowupId": 835,
-      "ExpirationDate": "2006-01-22T18:28:49.9541373+01:00",
-      "DeliveryCountryId": 955,
-      "HasOwnDeliveryAddress": true,
-      "InvoiceCountryId": 35,
+      "LikelyQuoteAlternativeId": 715,
+      "SentDate": "2015-01-27T11:10:27.7214949+01:00",
+      "FollowupId": 957,
+      "ExpirationDate": "2012-03-30T11:10:27.7214949+02:00",
+      "DeliveryCountryId": 700,
+      "HasOwnDeliveryAddress": false,
+      "InvoiceCountryId": 309,
       "HasOwnInvoiceAddress": true,
-      "ERPPaymentTermsKey": "est",
-      "ERPPaymentTypeKey": "voluptatum",
-      "ERPDeliveryTermsKey": "omnis",
-      "ERPDeliveryTypeKey": "odit",
-      "Rank": 854,
-      "ApprovedBy": 827,
-      "ApprovedText": "in",
-      "ApprovedRegisteredBy": 640,
-      "ApprovedRegisteredDate": "1995-02-13T18:28:49.9541373+01:00",
-      "ExtraField1": "qui",
-      "ExtraField2": "laborum",
-      "ExtraField3": "magni",
-      "ExtraField4": "animi",
-      "ExtraField5": "laudantium",
-      "LastRecalculated": "2006-01-29T18:28:49.9541373+01:00",
-      "Updated": "1999-03-20T18:28:49.9541373+01:00",
-      "UpdatedAssociateId": 977,
-      "Registered": "1999-05-06T18:28:49.9541373+02:00",
-      "RegisteredAssociateId": 411,
+      "ERPPaymentTermsKey": "qui",
+      "ERPPaymentTypeKey": "debitis",
+      "ERPDeliveryTermsKey": "voluptatibus",
+      "ERPDeliveryTypeKey": "et",
+      "Rank": 756,
+      "ApprovedBy": 145,
+      "ApprovedText": "omnis",
+      "ApprovedRegisteredBy": 351,
+      "ApprovedRegisteredDate": "2008-08-23T11:10:27.7214949+02:00",
+      "ExtraField1": "consequuntur",
+      "ExtraField2": "a",
+      "ExtraField3": "quia",
+      "ExtraField4": "blanditiis",
+      "ExtraField5": "sed",
+      "LastRecalculated": "2017-02-10T11:10:27.7214949+01:00",
+      "Updated": "1997-06-03T11:10:27.7214949+02:00",
+      "UpdatedAssociateId": 817,
+      "Registered": "1995-12-04T11:10:27.7214949+01:00",
+      "RegisteredAssociateId": 69,
+      "RequestAssociateId": 923,
+      "RequestComment": "sed",
       "QuoteAlternatives": [
         {},
         {}
       ],
-      "TableRight": {},
+      "TableRight": null,
       "FieldProperties": {
         "fieldName": {
-          "FieldRight": {
-            "Mask": "FULL",
-            "Reason": ""
-          },
-          "FieldType": "System.Int32",
-          "FieldLength": 526
+          "FieldRight": null,
+          "FieldType": "System.String",
+          "FieldLength": 769
         }
       }
     }
   ],
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
-      "FieldType": "System.String",
-      "FieldLength": 245
+      "FieldRight": null,
+      "FieldType": "System.Int32",
+      "FieldLength": 466
     }
   }
 }

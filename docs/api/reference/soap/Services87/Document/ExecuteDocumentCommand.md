@@ -21,6 +21,7 @@ Execute a custom command on a particular document, optionally a particular versi
 
 **Returns:** Return information, including possible requests for further processing ("Return Action"). Return actions are constrained by the allowedReturnTypes parameter.
 
+
 [WSDL file for Services87/Document](../Services87-Document.md)
 
 Obtain a ticket from the [Services87/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -61,6 +62,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## ExecuteDocumentCommand Response
 
 ```xml
@@ -88,3 +90,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

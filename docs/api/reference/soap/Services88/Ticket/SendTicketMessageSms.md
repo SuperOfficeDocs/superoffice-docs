@@ -11,6 +11,15 @@ Implemented by the <see cref="M:SuperOffice.Services88.ITicketAgent.SendTicketMe
 
 ## SendTicketMessageSms
 
+Send a message to recipients by sms
+
+* **ticketMessageEntityId:** The id of the ticket message to send
+* **replyTemplateId:** Optional ID of reply template to merge message with. &lt;= 0 to skip.
+* **sms:** The Sms-recipients. Each recipient must be in correct format
+
+**Returns:** This method has no return value
+
+
 [WSDL file for Services88/Ticket](../Services88-Ticket.md)
 
 Obtain a ticket from the [Services88/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -47,6 +56,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## SendTicketMessageSms Response
 
 ```xml
@@ -66,3 +76,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

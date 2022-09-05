@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Selection/GetRecipientStatisticsFromContactPersonIds
-id: v1SelectionAgent_GetRecipientStatisticsFromContactPersonIds
+uid: v1SelectionAgent_GetRecipientStatisticsFromContactPersonIds
 ---
 
 # POST Agents/Selection/GetRecipientStatisticsFromContactPersonIds
@@ -11,6 +11,12 @@ POST /api/v1/Agents/Selection/GetRecipientStatisticsFromContactPersonIds
 
 Returns a RecipientStatistics object with a count of addresses, emailaddresses and emailaddresses based on contact and persons in a collection of ContactPersonId.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Returns a RecipientStatistics object with a count of addresses, emailaddresses a
 ```http
 POST /api/v1/Agents/Selection/GetRecipientStatisticsFromContactPersonIds?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,25 +42,24 @@ POST /api/v1/Agents/Selection/GetRecipientStatisticsFromContactPersonIds?$select
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-ContactPersonIds
+ContactPersonIds 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | ContactPersonIds | array |  |
 
-## Response: object
 
-Class representing a RecipientStatistics carrier used for counting attributes on selection members.
+## Response: 
 
-Carrier object for RecipientStatistics.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -66,52 +72,48 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Selection/GetRecipientStatisticsFromContactPersonIds
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "ContactPersonIds": [
     {
-      "PersonId": 287,
-      "ContactId": 51
+      "PersonId": 945,
+      "ContactId": 98
     },
     {
-      "PersonId": 287,
-      "ContactId": 51
+      "PersonId": 945,
+      "ContactId": 98
     }
   ]
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Total": 526,
-  "ValidPostalAddresses": 320,
-  "ValidEmailAddresses": 190,
-  "ValidFaxNumbers": 276,
-  "NoAddresses": 392,
-  "NoFaxOrEmails": 416,
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "Total": 613,
+  "ValidPostalAddresses": 919,
+  "ValidEmailAddresses": 871,
+  "ValidFaxNumbers": 739,
+  "NoAddresses": 50,
+  "NoFaxOrEmails": 9,
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": "deploy sexy communities"
-      },
+      "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 103
+      "FieldLength": 17
     }
   }
 }

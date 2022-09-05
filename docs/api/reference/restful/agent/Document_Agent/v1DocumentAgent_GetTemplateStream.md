@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Document/GetTemplateStream
-id: v1DocumentAgent_GetTemplateStream
+uid: v1DocumentAgent_GetTemplateStream
 ---
 
 # POST Agents/Document/GetTemplateStream
@@ -11,6 +11,12 @@ POST /api/v1/Agents/Document/GetTemplateStream
 
 Retrieve a stream to a mail template based on its name
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Retrieve a stream to a mail template based on its name
 ```http
 POST /api/v1/Agents/Document/GetTemplateStream?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,9 +42,9 @@ POST /api/v1/Agents/Document/GetTemplateStream?$select=name,department,category/
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-TemplateName, AllowPersonal, UiCulture
+TemplateName, AllowPersonal, UiCulture 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -45,33 +52,39 @@ TemplateName, AllowPersonal, UiCulture
 | AllowPersonal | bool |  |
 | UiCulture | string |  |
 
-## Response
+
+## Response: byte
+
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: byte
 
-## Sample Request
+
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Document/GetTemplateStream
 Authorization: Basic dGplMDpUamUw
-Accept: binary/octet-stream
-Accept-Language: en
+Accept: application/json; charset=utf-8
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TemplateName": "Ziemann-Runte",
+  "TemplateName": "Boyer-Shields",
   "AllowPersonal": true,
-  "UiCulture": "iste"
+  "UiCulture": "reiciendis"
 }
 ```
 
+## Sample response
+
 ```http_
 HTTP/1.1 200 OK
-Content-Type: binary/octet-stream
+Content-Type: application/json; charset=utf-8
 
-GIF89....File contents as raw bytes...
+"GIF89....File contents as raw bytes..."
 ```

@@ -1,6 +1,6 @@
 ---
 title: POST Agents/List/GetReasonStalledList
-id: v1ListAgent_GetReasonStalledList
+uid: v1ListAgent_GetReasonStalledList
 ---
 
 # POST Agents/List/GetReasonStalledList
@@ -11,6 +11,12 @@ POST /api/v1/Agents/List/GetReasonStalledList
 
 Gets an array of ReasonStalled objects.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Gets an array of ReasonStalled objects.
 ```http
 POST /api/v1/Agents/List/GetReasonStalledList?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,11 +42,15 @@ POST /api/v1/Agents/List/GetReasonStalledList?$select=name,department,category/i
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: reasonStalledIds
+## Request Body: reasonStalledIds  
 
-The primary keys.
+The primary keys. 
+
+
 
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -55,7 +66,7 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/List/GetReasonStalledList
@@ -64,46 +75,36 @@ Accept: application/json; charset=utf-8
 Accept-Language: sv
 ```
 
+## Sample response
+
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 77,
-    "Value": "quo",
-    "Tooltip": "eos",
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "Id": 388,
+    "Value": "ab",
+    "Tooltip": "velit",
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
+        "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 211
+        "FieldLength": 832
       }
     }
   },
   {
-    "Id": 77,
-    "Value": "quo",
-    "Tooltip": "eos",
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "Id": 388,
+    "Value": "ab",
+    "Tooltip": "velit",
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
+        "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 211
+        "FieldLength": 832
       }
     }
   }

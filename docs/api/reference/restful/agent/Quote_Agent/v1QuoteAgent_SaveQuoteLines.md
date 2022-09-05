@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Quote/SaveQuoteLines
-id: v1QuoteAgent_SaveQuoteLines
+uid: v1QuoteAgent_SaveQuoteLines
 ---
 
 # POST Agents/Quote/SaveQuoteLines
@@ -11,6 +11,12 @@ POST /api/v1/Agents/Quote/SaveQuoteLines
 
 Saves the QuoteLines in the SuperOffice database
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Saves the QuoteLines in the SuperOffice database
 ```http
 POST /api/v1/Agents/Quote/SaveQuoteLines?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,15 +42,18 @@ POST /api/v1/Agents/Quote/SaveQuoteLines?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-QuoteLines
+QuoteLines 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | QuoteLines | array |  |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -105,74 +115,76 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Quote/SaveQuoteLines
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "QuoteLines": [
     {
-      "QuoteLineId": 703,
-      "ERPQuoteLineKey": "doloremque",
-      "QuoteAlternativeId": 86,
-      "ERPProductKey": "consequatur",
+      "QuoteLineId": 388,
+      "ERPQuoteLineKey": "cupiditate",
+      "QuoteAlternativeId": 601,
+      "ERPProductKey": "et",
       "Status": "Error",
       "Reason": "",
-      "Quantity": 5575.3859999999995,
-      "DeliveredQuantity": 12720.905999999999,
-      "Rank": 833,
-      "Name": "Jones LLC",
-      "Description": "Managed optimizing installation",
-      "Code": "itaque",
-      "QuantityUnit": "velit",
-      "PriceUnit": "facilis",
-      "ItemNumber": "1278942",
+      "Quantity": 18725.649999999998,
+      "DeliveredQuantity": 16312.47,
+      "Rank": 89,
+      "Name": "Jast-Haag",
+      "Description": "Realigned 5th generation synergy",
+      "Code": "perspiciatis",
+      "QuantityUnit": "sint",
+      "PriceUnit": "aut",
+      "ItemNumber": "1429333",
       "Url": "http://www.example.com/",
       "ProductCategoryKey": "VIP Customer",
-      "ProductFamilyKey": "qui",
-      "ProductTypeKey": "et",
-      "Supplier": "aliquam",
-      "SupplierCode": "sint",
-      "Thumbnail": "odit",
-      "VATInfo": "sed",
-      "VAT": 14892.768,
-      "UnitCost": 22088.432,
-      "UnitMinimumPrice": 27171.78,
-      "UnitListPrice": 28513.131999999998,
+      "ProductFamilyKey": "nisi",
+      "ProductTypeKey": "sed",
+      "Supplier": "nostrum",
+      "SupplierCode": "quam",
+      "Thumbnail": "quos",
+      "VATInfo": "illum",
+      "VAT": 9743.606,
+      "UnitCost": 1140.776,
+      "UnitMinimumPrice": 27663.818,
+      "UnitListPrice": 17393.7,
       "ExtraInfo": [
         {},
         {}
       ],
-      "RawExtraInfo": "quo",
+      "RawExtraInfo": "et",
       "IsSubscription": false,
-      "SubscriptionUnit": "laborum",
-      "SubscriptionQuantity": 23714.978,
-      "SubscriptionStart": "2000-06-25T18:28:49.9641084+02:00",
-      "ERPDiscountPercent": 19653.314,
-      "ERPDiscountAmount": 8167.204,
-      "DiscountPercent": 9229.63,
-      "DiscountAmount": 22928.344,
+      "SubscriptionUnit": "nihil",
+      "SubscriptionQuantity": 21392.684,
+      "SubscriptionStart": "2002-09-03T11:10:27.7314943+02:00",
+      "ERPDiscountPercent": 5374.8099999999995,
+      "ERPDiscountAmount": 14074.794,
+      "DiscountPercent": 5412.418,
+      "DiscountAmount": 12069.034,
       "UserValueOverride": "DiscountAmount",
-      "EarningPercent": 3726.326,
-      "EarningAmount": 19258.43,
-      "SubTotal": 29083.52,
-      "TotalPrice": 911.99399999999991,
-      "Rights": "aut",
-      "Rule": "omnis",
-      "ExtraField1": "deserunt",
-      "ExtraField2": "voluptatem",
-      "ExtraField3": "autem",
-      "ExtraField4": "laboriosam",
-      "ExtraField5": "quia"
+      "EarningPercent": 24893.362,
+      "EarningAmount": 5719.55,
+      "SubTotal": 24692.786,
+      "TotalPrice": 9596.3079999999991,
+      "Rights": "adipisci",
+      "Rule": "aliquam",
+      "ExtraField1": "aspernatur",
+      "ExtraField2": "autem",
+      "ExtraField3": "voluptatem",
+      "ExtraField4": "aliquam",
+      "ExtraField5": "neque"
     }
   ]
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -180,100 +192,88 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "QuoteLineId": 228,
-    "ERPQuoteLineKey": "animi",
-    "QuoteAlternativeId": 888,
-    "ERPProductKey": "et",
+    "QuoteLineId": 741,
+    "ERPQuoteLineKey": "dolorem",
+    "QuoteAlternativeId": 745,
+    "ERPProductKey": "quaerat",
     "Status": "Error",
-    "Reason": "",
-    "Quantity": 5265.12,
-    "DeliveredQuantity": 24228.953999999998,
-    "Rank": 214,
-    "Name": "O'Conner, Schiller and Hermiston",
-    "Description": "Synchronised needs-based matrix",
-    "Code": "aut",
-    "QuantityUnit": "dolore",
-    "PriceUnit": "illo",
-    "ItemNumber": "439866",
+    "Reason": "strategize cross-media channels",
+    "Quantity": 14560.564,
+    "DeliveredQuantity": 12977.894,
+    "Rank": 348,
+    "Name": "Morar Inc and Sons",
+    "Description": "Robust attitude-oriented middleware",
+    "Code": "labore",
+    "QuantityUnit": "magnam",
+    "PriceUnit": "natus",
+    "ItemNumber": "882344",
     "Url": "http://www.example.com/",
     "ProductCategoryKey": "VIP Customer",
-    "ProductFamilyKey": "perferendis",
-    "ProductTypeKey": "repellat",
-    "Supplier": "sed",
-    "SupplierCode": "hic",
-    "Thumbnail": "recusandae",
-    "VATInfo": "illo",
-    "VAT": 17550.399999999998,
-    "UnitCost": 17321.618,
-    "UnitMinimumPrice": 6493.648,
-    "UnitListPrice": 7715.9079999999994,
+    "ProductFamilyKey": "repellat",
+    "ProductTypeKey": "beatae",
+    "Supplier": "rerum",
+    "SupplierCode": "minus",
+    "Thumbnail": "alias",
+    "VATInfo": "minus",
+    "VAT": 28268.68,
+    "UnitCost": 20756.482,
+    "UnitMinimumPrice": 28929.953999999998,
+    "UnitListPrice": 3065.0519999999997,
     "ExtraInfo": [
       {
-        "Name": "Lesch-Jacobi",
-        "Value": "dolor",
+        "Name": "Gleason LLC",
+        "Value": "eligendi",
         "Type": "Image",
-        "TableRight": {},
+        "TableRight": null,
         "FieldProperties": {
           "fieldName": {
-            "FieldRight": {
-              "Mask": "FULL",
-              "Reason": ""
-            },
-            "FieldType": "System.Int32",
-            "FieldLength": 28
+            "FieldRight": null,
+            "FieldType": "System.String",
+            "FieldLength": 241
           }
         }
       },
       {
-        "Name": "Lesch-Jacobi",
-        "Value": "dolor",
+        "Name": "Gleason LLC",
+        "Value": "eligendi",
         "Type": "Image",
-        "TableRight": {},
+        "TableRight": null,
         "FieldProperties": {
           "fieldName": {
-            "FieldRight": {
-              "Mask": "FULL",
-              "Reason": ""
-            },
-            "FieldType": "System.Int32",
-            "FieldLength": 28
+            "FieldRight": null,
+            "FieldType": "System.String",
+            "FieldLength": 241
           }
         }
       }
     ],
-    "RawExtraInfo": "amet",
-    "IsSubscription": true,
-    "SubscriptionUnit": "sunt",
-    "SubscriptionQuantity": 17108.506,
-    "SubscriptionStart": "2000-10-31T18:28:49.9651072+01:00",
-    "ERPDiscountPercent": 11821.448,
-    "ERPDiscountAmount": 14751.738,
-    "DiscountPercent": 29152.468,
-    "DiscountAmount": 15566.578,
+    "RawExtraInfo": "excepturi",
+    "IsSubscription": false,
+    "SubscriptionUnit": "maxime",
+    "SubscriptionQuantity": 1601.474,
+    "SubscriptionStart": "2002-11-25T11:10:27.734494+01:00",
+    "ERPDiscountPercent": 5653.736,
+    "ERPDiscountAmount": 13325.768,
+    "DiscountPercent": 4892.174,
+    "DiscountAmount": 22893.87,
     "UserValueOverride": "DiscountAmount",
-    "EarningPercent": 21220.314,
-    "EarningAmount": 2983.5679999999998,
-    "SubTotal": 27312.809999999998,
-    "TotalPrice": 21928.597999999998,
-    "Rights": "nihil",
-    "Rule": "harum",
-    "ExtraField1": "molestiae",
-    "ExtraField2": "id",
-    "ExtraField3": "unde",
-    "ExtraField4": "sit",
-    "ExtraField5": "voluptatum",
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "EarningPercent": 5393.614,
+    "EarningAmount": 17095.97,
+    "SubTotal": 26175.167999999998,
+    "TotalPrice": 13808.404,
+    "Rights": "ut",
+    "Rule": "dignissimos",
+    "ExtraField1": "quidem",
+    "ExtraField2": "excepturi",
+    "ExtraField3": "enim",
+    "ExtraField4": "libero",
+    "ExtraField5": "eligendi",
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
+        "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 739
+        "FieldLength": 691
       }
     }
   }

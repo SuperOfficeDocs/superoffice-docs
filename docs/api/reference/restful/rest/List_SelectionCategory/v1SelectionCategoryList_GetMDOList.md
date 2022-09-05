@@ -1,6 +1,6 @@
 ---
 title: GET List/SelectionCategory/MDOItems
-id: v1SelectionCategoryList_GetMDOList
+uid: v1SelectionCategoryList_GetMDOList
 ---
 
 # GET List/SelectionCategory/MDOItems
@@ -11,6 +11,12 @@ GET /api/v1/List/SelectionCategory/MDOItems
 
 Get the MDO list items for "SearchCat" - with headings and filtering by user group.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,8 +26,9 @@ Get the MDO list items for "SearchCat" - with headings and filtering by user gro
 
 ```http
 GET /api/v1/List/SelectionCategory/MDOItems?flat=True
-GET /api/v1/List/SelectionCategory/MDOItems?query=ducimus
+GET /api/v1/List/SelectionCategory/MDOItems?query=et
 ```
+
 
 ## Request Headers
 
@@ -36,7 +43,10 @@ GET /api/v1/List/SelectionCategory/MDOItems?query=ducimus
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -61,7 +71,7 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 GET /api/v1/List/SelectionCategory/MDOItems
@@ -70,65 +80,58 @@ Accept: application/json; charset=utf-8
 Accept-Language: en
 ```
 
+## Sample response
+
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 517,
-    "Name": "Rohan-Dickens",
-    "ToolTip": "In repellendus voluptatibus eius ad blanditiis soluta.",
+    "Id": 21,
+    "Name": "Herman, Ankunding and Jones",
+    "ToolTip": "Rem ipsam debitis a.",
     "Deleted": true,
-    "Rank": 493,
-    "Type": "minus",
+    "Rank": 519,
+    "Type": "libero",
     "ChildItems": [
       {
-        "Id": 870,
-        "Name": "Wiza, Collier and Rolfson",
-        "ToolTip": "Soluta eum voluptas.",
-        "Deleted": true,
-        "Rank": 694,
-        "Type": "et",
+        "Id": 872,
+        "Name": "Glover Inc and Sons",
+        "ToolTip": "Deleniti iste reiciendis odio libero non error.",
+        "Deleted": false,
+        "Rank": 477,
+        "Type": "vero",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "hic",
-        "ColorBlock": 401,
-        "ExtraInfo": "architecto",
-        "StyleHint": "possimus",
-        "FullName": "Jaylan Cummings",
-        "TableRight": {},
+        "IconHint": "provident",
+        "ColorBlock": 43,
+        "ExtraInfo": "harum",
+        "StyleHint": "qui",
+        "FullName": "Mr. Maurice Rutherford Jr.",
+        "TableRight": null,
         "FieldProperties": {
           "fieldName": {
-            "FieldRight": {
-              "Mask": "FULL",
-              "Reason": ""
-            },
+            "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 980
+            "FieldLength": 711
           }
         }
       }
     ],
-    "IconHint": "sapiente",
-    "ColorBlock": 960,
-    "ExtraInfo": "est",
-    "StyleHint": "non",
-    "FullName": "Lillian Stokes",
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "IconHint": "commodi",
+    "ColorBlock": 377,
+    "ExtraInfo": "error",
+    "StyleHint": "reprehenderit",
+    "FullName": "Eileen Kuhn",
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
+        "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 423
+        "FieldLength": 806
       }
     }
   }

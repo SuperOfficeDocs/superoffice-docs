@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Find/PopulateRestrictionValues
-id: v1FindAgent_PopulateRestrictionValues
+uid: v1FindAgent_PopulateRestrictionValues
 ---
 
 # POST Agents/Find/PopulateRestrictionValues
@@ -11,7 +11,13 @@ POST /api/v1/Agents/Find/PopulateRestrictionValues
 
 Take an incoming set of Restrictions (name + operator + any user-entered values), and populate/expand all values as specified by the operator's ValueHints, taking into account any values already there.
 
+
 Used for dynamic date periods; perhaps others in the future
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +28,7 @@ Used for dynamic date periods; perhaps others in the future
 ```http
 POST /api/v1/Agents/Find/PopulateRestrictionValues?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,15 +44,18 @@ POST /api/v1/Agents/Find/PopulateRestrictionValues?$select=name,department,categ
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-Restrictions
+Restrictions 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | Restrictions | array |  |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -66,7 +76,7 @@ Response body: array
 | InterOperator | string |  |
 | UniqueHash | int32 |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Find/PopulateRestrictionValues
@@ -78,29 +88,31 @@ Content-Type: application/json; charset=utf-8
 {
   "Restrictions": [
     {
-      "Name": "Konopelski-Emard",
-      "Operator": "qui",
+      "Name": "Waters-Boyle",
+      "Operator": "at",
       "Values": [
-        "sit",
-        "aliquid"
+        "et",
+        "qui"
       ],
       "DisplayValues": [
-        "dolor",
-        "consequatur"
+        "nobis",
+        "reiciendis"
       ],
-      "ColumnInfo": {},
-      "IsActive": true,
+      "ColumnInfo": null,
+      "IsActive": false,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 112,
+      "InterParenthesis": 515,
       "InterOperator": "And",
-      "UniqueHash": 284
+      "UniqueHash": 229
     }
   ]
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -108,58 +120,44 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Glover Group",
-    "Operator": "eum",
+    "Name": "Donnelly, Schaefer and Russel",
+    "Operator": "delectus",
     "Values": [
-      "quidem",
-      "eos"
+      "suscipit",
+      "aspernatur"
     ],
     "DisplayValues": [
-      "repellendus",
-      "laborum"
+      "veniam",
+      "eos"
     ],
-    "ColumnInfo": {
-      "DisplayName": "Waelchi, Morissette and Sauer",
-      "DisplayTooltip": "omnis",
-      "DisplayType": "ducimus",
-      "CanOrderBy": true,
-      "Name": "Schulist Inc and Sons",
-      "CanRestrictBy": false,
-      "RestrictionType": "ratione",
-      "RestrictionListName": "Block-Cole",
-      "IsVisible": true,
-      "ExtraInfo": "est",
-      "Width": "temporibus",
-      "IconHint": "officia",
-      "HeadingIconHint": "aut"
-    },
-    "IsActive": true,
+    "ColumnInfo": null,
+    "IsActive": false,
     "SubRestrictions": [
       {
-        "Name": "Weber Inc and Sons",
-        "Operator": "ut",
+        "Name": "Borer Group",
+        "Operator": "ea",
         "Values": [
-          "dolore",
-          "perspiciatis"
+          "cupiditate",
+          "officia"
         ],
         "DisplayValues": [
-          "corporis",
-          "rerum"
+          "enim",
+          "laboriosam"
         ],
-        "ColumnInfo": {},
-        "IsActive": false,
+        "ColumnInfo": null,
+        "IsActive": true,
         "SubRestrictions": [
           {},
           {}
         ],
-        "InterParenthesis": 995,
+        "InterParenthesis": 389,
         "InterOperator": "And",
-        "UniqueHash": 908
+        "UniqueHash": 329
       }
     ],
-    "InterParenthesis": 469,
+    "InterParenthesis": 154,
     "InterOperator": "And",
-    "UniqueHash": 844
+    "UniqueHash": 775
   }
 ]
 ```

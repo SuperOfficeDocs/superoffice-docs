@@ -1,6 +1,6 @@
 ---
 title: POST List/DocumentTemplate/Items
-id: v1DocumentTemplateList_PostDocumentTemplateEntity
+uid: v1DocumentTemplateList_PostDocumentTemplateEntity
 ---
 
 # POST List/DocumentTemplate/Items
@@ -11,7 +11,14 @@ POST /api/v1/List/DocumentTemplate/Items
 
 Create a new DocumentTemplateEntity list item
 
+
 Calls the List agent service SaveDocumentTemplateEntity.
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -27,9 +34,9 @@ Calls the List agent service SaveDocumentTemplateEntity.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: newEntity
+## Request Body: newEntity  
 
-The DocumentTemplateEntity to be created.
+The DocumentTemplateEntity to be created. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -59,18 +66,16 @@ The DocumentTemplateEntity to be created.
 | SenderEmailAddress | string | If email template, default senderaddress when template is of type quote email or privacy email. |
 | InvitationDocType | string | Type for sending email meeting invitation. Not an invitation type template = 0, New = 1, Changed = 2, Cancelled = 3 |
 
-## Response: object
 
-The template a document is based on is stored in the SO_arc\template folder on the server. This will return the name as displayed in the GUI, and not the physical document name, of the template the document object is based on.
+## Response: 
 
-Carrier object for DocumentTemplateEntity.
-Services for the DocumentTemplateEntity Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IListAgent">List Agent</see>.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -102,86 +107,82 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/List/DocumentTemplate/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 429,
-  "Name": "Becker, Luettgen and Bartell",
-  "Tooltip": "aliquam",
-  "SaveInDb": 460,
-  "Filename": "eveniet",
-  "DefaultOref": "molestiae",
+  "DocumentTemplateId": 445,
+  "Name": "Dickens LLC",
+  "Tooltip": "ut",
+  "SaveInDb": 433,
+  "Filename": "assumenda",
+  "DefaultOref": "eum",
   "RecordType": "Appointment",
   "Deleted": false,
   "Direction": "Incoming",
-  "AutoeventId": 505,
-  "IntentId": 991,
-  "IsDefaultPublished": true,
-  "Rank": 405,
-  "LoadTemplateFromPlugin": 118,
-  "MimeType": "consectetur",
-  "IsInUseInGuides": true,
-  "DocumentTypeKey": 127,
+  "AutoeventId": 382,
+  "IntentId": 486,
+  "IsDefaultPublished": false,
+  "Rank": 635,
+  "LoadTemplateFromPlugin": 851,
+  "MimeType": "iste",
+  "IsInUseInGuides": false,
+  "DocumentTypeKey": 954,
   "QuoteDocType": "ConfirmationLines",
   "PrivacyDocType": "None",
-  "EmailSubject": "erling@prohaska.biz",
-  "IncludeSignature": true,
-  "ShowCurrents": true,
+  "EmailSubject": "erin@wolff.name",
+  "IncludeSignature": false,
+  "ShowCurrents": false,
   "SenderEmailMode": "UseDefaultSender",
-  "SenderEmailAddress": "blanche@cassin.name",
+  "SenderEmailAddress": "abbey@bernier.biz",
   "InvitationDocType": "Cancelled"
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 235,
-  "Name": "Medhurst-Bins",
-  "Tooltip": "odit",
-  "SaveInDb": 584,
-  "Filename": "dolores",
-  "DefaultOref": "qui",
+  "DocumentTemplateId": 773,
+  "Name": "O'Kon-Borer",
+  "Tooltip": "expedita",
+  "SaveInDb": 227,
+  "Filename": "natus",
+  "DefaultOref": "ipsum",
   "RecordType": "Appointment",
-  "Deleted": true,
+  "Deleted": false,
   "Direction": "Incoming",
-  "AutoeventId": 922,
-  "IntentId": 768,
+  "AutoeventId": 138,
+  "IntentId": 430,
   "IsDefaultPublished": false,
-  "Rank": 560,
-  "LoadTemplateFromPlugin": 701,
-  "MimeType": "nihil",
-  "IsInUseInGuides": true,
-  "DocumentTypeKey": 182,
+  "Rank": 947,
+  "LoadTemplateFromPlugin": 78,
+  "MimeType": "at",
+  "IsInUseInGuides": false,
+  "DocumentTypeKey": 369,
   "QuoteDocType": "ConfirmationLines",
   "PrivacyDocType": "None",
-  "EmailSubject": "major.cole@kingward.uk",
-  "IncludeSignature": false,
+  "EmailSubject": "marcos@doyle.co.uk",
+  "IncludeSignature": true,
   "ShowCurrents": false,
   "SenderEmailMode": "UseDefaultSender",
-  "SenderEmailAddress": "addison_hintz@jast.info",
+  "SenderEmailAddress": "kay@harriskassulke.us",
   "InvitationDocType": "Cancelled",
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
-      "FieldType": "System.Int32",
-      "FieldLength": 738
+      "FieldRight": null,
+      "FieldType": "System.String",
+      "FieldLength": 546
     }
   }
 }

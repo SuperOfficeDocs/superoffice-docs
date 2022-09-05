@@ -1,6 +1,6 @@
 ---
 title: GET User/CustomField
-id: v1User_GetCustomFieldInfoList
+uid: v1User_GetCustomFieldInfoList
 ---
 
 # GET User/CustomField
@@ -11,7 +11,14 @@ GET /api/v1/User/CustomField
 
 Custom fields meta-data (published user defined + extra fields) on User.
 
+
 Excludes standard fields.
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -26,7 +33,10 @@ Excludes standard fields.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -50,14 +60,16 @@ Response body: array
 | Rank | int32 | Tab order, ranking within the custom fields. |
 | TemplateVariableName | string | Template variable name: 'cs01', 'cl02' etc. Null for extra fields. |
 
-## Sample Request
+## Sample request
 
 ```http!
 GET /api/v1/User/CustomField
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -66,18 +78,18 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "FieldType": "Attachment",
-    "FieldName": "McDermott Inc and Sons",
-    "DisplayName": "Trantow, Kozey and Block",
-    "Description": "Cross-platform demand-driven matrices",
-    "ShortLabel": "voluptas",
+    "FieldName": "Bins Group",
+    "DisplayName": "Hand, Hand and Denesik",
+    "Description": "Organic needs-based concept",
+    "ShortLabel": "commodi",
     "HideLabel": false,
-    "HideField": false,
+    "HideField": true,
     "IsIndexed": false,
     "IsMandatory": false,
     "IsReadOnly": false,
     "IsExternal": false,
-    "Rank": 726,
-    "TemplateVariableName": "McClure Group"
+    "Rank": 760,
+    "TemplateVariableName": "Schowalter Group"
   }
 ]
 ```

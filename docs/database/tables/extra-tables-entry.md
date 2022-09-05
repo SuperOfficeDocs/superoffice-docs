@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "extra_tables_entry"
-so.date: 04.12.2022
+so.date: 08.26.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -29,6 +29,7 @@ Hits/entries in result set of executed search in ejournal extra tables
 |page\_num|The pagenum of this result entry in the table.|Int|&#x25CF;|
 |order\_pos|Used to order elements when listed.|Int|&#x25CF;|
 
+
 ![extra_tables_entry table relationship diagram](./media/extra_tables_entry.png)
 
 [!include[details](./includes/extra-tables-entry.md)]
@@ -46,6 +47,7 @@ Hits/entries in result set of executed search in ejournal extra tables
 |------|-------------|
 |[extra\_tables\_result](extra-tables-result.md)  |Result set of executed search in ejournal extra tables |
 
+
 ## Replication Flags
 
 * None
@@ -53,3 +55,4 @@ Hits/entries in result set of executed search in ejournal extra tables
 ## Security Flags
 
 * No access control via user's Role.
+

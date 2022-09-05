@@ -1,6 +1,6 @@
 ---
 title: GET List/Source/Items/{id}/Headings
-id: v1SourceList_GetSourceHeadingsForListItem
+uid: v1SourceList_GetSourceHeadingsForListItem
 ---
 
 # GET List/Source/Items/{id}/Headings
@@ -11,11 +11,17 @@ GET /api/v1/List/Source/Items/{itemId}/Headings
 
 Gets headings for the Source list's item.
 
+
 Calls the List agent service GetHeadings.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | itemId | int32 | The ID of the headings to be get. **Required** |
+
 
 ## Query String Parameters
 
@@ -24,8 +30,9 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/Source/Items/{itemId}/Headings?showDeleted=True
+GET /api/v1/List/Source/Items/{itemId}/Headings?showDeleted=False
 ```
+
 
 ## Request Headers
 
@@ -40,7 +47,10 @@ GET /api/v1/List/Source/Items/{itemId}/Headings?showDeleted=True
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -68,14 +78,16 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 GET /api/v1/List/Source/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -83,65 +95,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 209,
-    "Name": "Howell Group",
-    "ToolTip": "Id adipisci.",
-    "Deleted": true,
-    "Rank": 370,
-    "Type": "qui",
-    "ColorBlock": 739,
-    "IconHint": "ea",
+    "Id": 923,
+    "Name": "Ritchie, Cremin and Zulauf",
+    "ToolTip": "Ad illum aut qui excepturi.",
+    "Deleted": false,
+    "Rank": 334,
+    "Type": "iste",
+    "ColorBlock": 471,
+    "IconHint": "est",
     "Selected": false,
-    "LastChanged": "2021-10-24T18:25:52.2686394+02:00",
+    "LastChanged": "2011-01-05T11:10:54.6469304+01:00",
     "ChildItems": [
       {
-        "Id": 484,
-        "Name": "Friesen-Bruen",
-        "ToolTip": "Neque autem aliquid laudantium perspiciatis impedit.",
-        "Deleted": true,
-        "Rank": 673,
-        "Type": "tempora",
-        "ColorBlock": 678,
-        "IconHint": "repellat",
+        "Id": 476,
+        "Name": "Kertzmann-Prosacco",
+        "ToolTip": "Eum similique neque.",
+        "Deleted": false,
+        "Rank": 890,
+        "Type": "similique",
+        "ColorBlock": 102,
+        "IconHint": "fugiat",
         "Selected": true,
-        "LastChanged": "1998-07-05T18:25:52.2686394+02:00",
+        "LastChanged": "2005-12-23T11:10:54.6469304+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "debitis",
-        "StyleHint": "aut",
-        "Hidden": false,
-        "FullName": "Reymundo Gleason Sr.",
-        "TableRight": {},
+        "ExtraInfo": "iste",
+        "StyleHint": "rerum",
+        "Hidden": true,
+        "FullName": "Destin Ledner",
+        "TableRight": null,
         "FieldProperties": {
           "fieldName": {
-            "FieldRight": {
-              "Mask": "FULL",
-              "Reason": ""
-            },
-            "FieldType": "System.Int32",
-            "FieldLength": 155
+            "FieldRight": null,
+            "FieldType": "System.String",
+            "FieldLength": 643
           }
         }
       }
     ],
-    "ExtraInfo": "rerum",
-    "StyleHint": "ad",
-    "Hidden": false,
-    "FullName": "Alyce Gutmann",
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "ExtraInfo": "et",
+    "StyleHint": "qui",
+    "Hidden": true,
+    "FullName": "Mr. Brian Franz Bernier Sr.",
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 465
+        "FieldRight": null,
+        "FieldType": "System.Int32",
+        "FieldLength": 415
       }
     }
   }

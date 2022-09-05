@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Marketing/GetFormEntity
-id: v1MarketingAgent_GetFormEntity
+uid: v1MarketingAgent_GetFormEntity
 ---
 
 # POST Agents/Marketing/GetFormEntity
@@ -11,6 +11,12 @@ POST /api/v1/Agents/Marketing/GetFormEntity
 
 Gets a FormEntity object.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -19,9 +25,10 @@ Gets a FormEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Marketing/GetFormEntity?formEntityId=363
+POST /api/v1/Agents/Marketing/GetFormEntity?formEntityId=295
 POST /api/v1/Agents/Marketing/GetFormEntity?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -36,18 +43,16 @@ POST /api/v1/Agents/Marketing/GetFormEntity?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response: object
 
-Definition and configuration of a Form
+## Response: 
 
-Carrier object for FormEntity.
-Services for the FormEntity Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IMarketingAgent">Marketing Agent</see>.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -76,7 +81,7 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Marketing/GetFormEntity
@@ -85,45 +90,41 @@ Accept: application/json; charset=utf-8
 Accept-Language: sv
 ```
 
+## Sample response
+
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "FormId": 689,
-  "FormKey": "sed",
-  "Name": "Conroy-King",
-  "Description": "Monitored radical artificial intelligence",
-  "Config": "ea",
-  "FolderId": 226,
-  "ScriptId": 574,
-  "ResponseShipmentId": 887,
+  "FormId": 131,
+  "FormKey": "nobis",
+  "Name": "Schmeler, Stracke and Collins",
+  "Description": "Universal uniform focus group",
+  "Config": "repudiandae",
+  "FolderId": 498,
+  "ScriptId": 828,
+  "ResponseShipmentId": 726,
   "Active": false,
-  "Expires": "2018-07-07T18:28:49.4670875+02:00",
-  "MaxSubmits": 614,
+  "Expires": "2021-12-12T11:10:27.2924531+01:00",
+  "MaxSubmits": 139,
   "Type": "Normal",
-  "Recipe": "unde",
-  "GroupId": 240,
-  "NewTicket": false,
+  "Recipe": "alias",
+  "GroupId": 718,
+  "NewTicket": true,
   "RecaptchaMode": "GlobalKeysExist",
-  "Registered": "2014-09-15T18:28:49.4670875+02:00",
-  "RegisteredAssociateId": 754,
-  "Updated": "2014-06-11T18:28:49.4670875+02:00",
-  "UpdatedAssociateId": 812,
-  "UpdatedCount": 400,
-  "FolderName": "Ullrich, King and Marquardt",
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "Registered": "2009-08-17T11:10:27.2924531+02:00",
+  "RegisteredAssociateId": 446,
+  "Updated": "2002-12-27T11:10:27.2924531+01:00",
+  "UpdatedAssociateId": 686,
+  "UpdatedCount": 224,
+  "FolderName": "Wuckert, Douglas and Hand",
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
+      "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 663
+      "FieldLength": 143
     }
   }
 }

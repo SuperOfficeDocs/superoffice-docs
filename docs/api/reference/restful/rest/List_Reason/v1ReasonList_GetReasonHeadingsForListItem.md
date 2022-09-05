@@ -1,6 +1,6 @@
 ---
 title: GET List/Reason/Items/{id}/Headings
-id: v1ReasonList_GetReasonHeadingsForListItem
+uid: v1ReasonList_GetReasonHeadingsForListItem
 ---
 
 # GET List/Reason/Items/{id}/Headings
@@ -11,11 +11,17 @@ GET /api/v1/List/Reason/Items/{itemId}/Headings
 
 Gets headings for the Reason list's item.
 
+
 Calls the List agent service GetHeadings.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | itemId | int32 | The ID of the headings to be get. **Required** |
+
 
 ## Query String Parameters
 
@@ -24,8 +30,9 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/Reason/Items/{itemId}/Headings?showDeleted=True
+GET /api/v1/List/Reason/Items/{itemId}/Headings?showDeleted=False
 ```
+
 
 ## Request Headers
 
@@ -40,7 +47,10 @@ GET /api/v1/List/Reason/Items/{itemId}/Headings?showDeleted=True
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -68,14 +78,16 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 GET /api/v1/List/Reason/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -83,65 +95,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 40,
-    "Name": "Becker, Reichel and Purdy",
-    "ToolTip": "Qui non.",
-    "Deleted": true,
-    "Rank": 234,
-    "Type": "et",
-    "ColorBlock": 693,
-    "IconHint": "adipisci",
-    "Selected": true,
-    "LastChanged": "2005-09-27T18:25:52.1370188+02:00",
+    "Id": 115,
+    "Name": "Steuber, Jacobson and Murphy",
+    "ToolTip": "Officia quidem est.",
+    "Deleted": false,
+    "Rank": 762,
+    "Type": "aliquam",
+    "ColorBlock": 328,
+    "IconHint": "occaecati",
+    "Selected": false,
+    "LastChanged": "1996-07-06T11:10:54.5539375+02:00",
     "ChildItems": [
       {
-        "Id": 249,
-        "Name": "Klocko-Stehr",
-        "ToolTip": "Temporibus autem et sit et a.",
+        "Id": 98,
+        "Name": "Luettgen, Mueller and Kunde",
+        "ToolTip": "In et iste.",
         "Deleted": false,
-        "Rank": 521,
-        "Type": "repellendus",
-        "ColorBlock": 30,
-        "IconHint": "voluptatem",
-        "Selected": true,
-        "LastChanged": "2019-10-05T18:25:52.1370188+02:00",
+        "Rank": 993,
+        "Type": "culpa",
+        "ColorBlock": 93,
+        "IconHint": "commodi",
+        "Selected": false,
+        "LastChanged": "2009-03-19T11:10:54.5539375+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "itaque",
-        "StyleHint": "repellendus",
+        "ExtraInfo": "labore",
+        "StyleHint": "et",
         "Hidden": false,
-        "FullName": "Audra Hoeger II",
-        "TableRight": {},
+        "FullName": "Foster Charlie Padberg Jr.",
+        "TableRight": null,
         "FieldProperties": {
           "fieldName": {
-            "FieldRight": {
-              "Mask": "FULL",
-              "Reason": ""
-            },
+            "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 205
+            "FieldLength": 208
           }
         }
       }
     ],
-    "ExtraInfo": "molestiae",
-    "StyleHint": "recusandae",
+    "ExtraInfo": "veritatis",
+    "StyleHint": "et",
     "Hidden": false,
-    "FullName": "Sophie Pagac",
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "FullName": "Amie Reinger",
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
+        "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 849
+        "FieldLength": 635
       }
     }
   }

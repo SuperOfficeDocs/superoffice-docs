@@ -1,6 +1,6 @@
 ---
 title: GET Appointment/CustomField
-id: v1AppointmentEntity_GetCustomFieldInfoList
+uid: v1AppointmentEntity_GetCustomFieldInfoList
 ---
 
 # GET Appointment/CustomField
@@ -11,7 +11,14 @@ GET /api/v1/Appointment/CustomField
 
 Custom fields meta-data (published user defined + extra fields) on AppointmentEntity.
 
+
 Excludes standard fields.
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -26,7 +33,10 @@ Excludes standard fields.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -50,14 +60,16 @@ Response body: array
 | Rank | int32 | Tab order, ranking within the custom fields. |
 | TemplateVariableName | string | Template variable name: 'cs01', 'cl02' etc. Null for extra fields. |
 
-## Sample Request
+## Sample request
 
 ```http!
 GET /api/v1/Appointment/CustomField
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -66,18 +78,18 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "FieldType": "Attachment",
-    "FieldName": "Graham, Konopelski and Murphy",
-    "DisplayName": "Price LLC",
-    "Description": "Realigned grid-enabled adapter",
-    "ShortLabel": "pariatur",
+    "FieldName": "VonRueden Inc and Sons",
+    "DisplayName": "Windler Group",
+    "Description": "Enhanced cohesive encoding",
+    "ShortLabel": "nostrum",
     "HideLabel": true,
     "HideField": false,
     "IsIndexed": false,
     "IsMandatory": true,
     "IsReadOnly": false,
-    "IsExternal": false,
-    "Rank": 349,
-    "TemplateVariableName": "Powlowski Inc and Sons"
+    "IsExternal": true,
+    "Rank": 798,
+    "TemplateVariableName": "Bergnaum LLC"
   }
 ]
 ```

@@ -17,6 +17,7 @@ Sets an appointment's status to Completed if the appointment had a different sta
 
 **Returns:** The new AppointmentStatus
 
+
 [WSDL file for Services86/Appointment](../Services86-Appointment.md)
 
 Obtain a ticket from the [Services86/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -49,6 +50,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## ToggleAppointmentStatus Response
 
 ```xml
@@ -69,3 +71,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

@@ -1,6 +1,6 @@
 ---
 title: POST Agents/CRMScript/GetCRMScriptEntity
-id: v1CRMScriptAgent_GetCRMScriptEntity
+uid: v1CRMScriptAgent_GetCRMScriptEntity
 ---
 
 # POST Agents/CRMScript/GetCRMScriptEntity
@@ -11,7 +11,15 @@ POST /api/v1/Agents/CRMScript/GetCRMScriptEntity
 
 Gets a CRMScriptEntity object.
 
-## Online Restricted: ## The CRMScript agent is not available in Online by default. Access must be requested specifically when app is registered
+
+
+
+## Online Restricted: ## The CRMScript agent is not available in Online by default. Access must be requested specifically when app is registered.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -21,9 +29,10 @@ Gets a CRMScriptEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/CRMScript/GetCRMScriptEntity?cRMScriptEntityId=643
+POST /api/v1/Agents/CRMScript/GetCRMScriptEntity?cRMScriptEntityId=598
 POST /api/v1/Agents/CRMScript/GetCRMScriptEntity?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -38,18 +47,16 @@ POST /api/v1/Agents/CRMScript/GetCRMScriptEntity?$select=name,department,categor
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response: object
 
-CRM Scripts - stored in the ejScript table, including source code.
+## Response: 
 
-Carrier object for CRMScriptEntity.
-Services for the CRMScriptEntity Carrier is available from the <see cref="T:SuperOffice.CRM.Services.ICRMScriptAgent">CRMScript Agent</see>.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -67,7 +74,7 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/CRMScript/GetCRMScriptEntity
@@ -76,34 +83,30 @@ Accept: application/json; charset=utf-8
 Accept-Language: en
 ```
 
+## Sample response
+
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjscriptId": 76,
-  "UniqueIdentifier": "expedita",
-  "Name": "Aufderhar, Trantow and Fritsch",
-  "Description": "Visionary intermediate support",
-  "IncludeId": "ut",
-  "HierarchyId": 444,
-  "Source": "tenetur",
-  "Registered": "2009-12-20T18:28:48.6329579+01:00",
-  "RegisteredAssociateId": 31,
-  "Updated": "1995-04-07T18:28:48.6329579+02:00",
-  "UpdatedAssociateId": 353,
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "EjscriptId": 333,
+  "UniqueIdentifier": "similique",
+  "Name": "McClure, Crooks and Morar",
+  "Description": "Cross-platform 24 hour open system",
+  "IncludeId": "autem",
+  "HierarchyId": 924,
+  "Source": "corrupti",
+  "Registered": "2017-06-25T11:10:26.3824602+02:00",
+  "RegisteredAssociateId": 239,
+  "Updated": "2002-07-08T11:10:26.3824602+02:00",
+  "UpdatedAssociateId": 78,
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
+      "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 512
+      "FieldLength": 535
     }
   }
 }

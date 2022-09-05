@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Dash/CreateDefaultDashTile
-id: v1DashAgent_CreateDefaultDashTile
+uid: v1DashAgent_CreateDefaultDashTile
 ---
 
 # POST Agents/Dash/CreateDefaultDashTile
@@ -11,7 +11,14 @@ POST /api/v1/Agents/Dash/CreateDefaultDashTile
 
 Set default values into a new DashTile.
 
+
 NetServer calculates default values on the entity, which is required when creating/storing a new instance
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -26,18 +33,16 @@ NetServer calculates default values on the entity, which is required when creati
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response: object
 
-Dashboard Tile configuration
+## Response: 
 
-Carrier object for DashTile.
-Services for the DashTile Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IDashAgent">Dash Agent</see>.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -50,7 +55,7 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Dash/CreateDefaultDashTile
@@ -59,59 +64,25 @@ Accept: application/json; charset=utf-8
 Accept-Language: en
 ```
 
+## Sample response
+
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 256,
-  "DashboardId": 572,
-  "Height": 83,
-  "Width": 465,
-  "Rank": 944,
-  "DashTileDefinition": {
-    "DashboardTileDefinitionId": 482,
-    "Name": "Adams-Cormier",
-    "Description": "Inverse zero defect collaboration",
-    "DefaultHeight": 497,
-    "DefaultWidth": 833,
-    "TileType": "Area",
-    "EntityType": "Appointment",
-    "EntityName": "Fadel Inc and Sons",
-    "SelectionId": 137,
-    "CurrencyMode": "Base",
-    "CurrencyCode": "beatae",
-    "Measure": "Average",
-    "MeasureField": "iste",
-    "SortBy": "ratione",
-    "LayoutConfig": "enim",
-    "SecondarySelectionId": 492,
-    "MeasureByField": "ratione",
-    "ProviderName": "Schneider, Boyer and Barton",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 563
-      }
-    }
-  },
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "DashboardTileId": 791,
+  "DashboardId": 607,
+  "Height": 194,
+  "Width": 242,
+  "Rank": 503,
+  "DashTileDefinition": null,
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
-      "FieldType": "System.Int32",
-      "FieldLength": 20
+      "FieldRight": null,
+      "FieldType": "System.String",
+      "FieldLength": 864
     }
   }
 }

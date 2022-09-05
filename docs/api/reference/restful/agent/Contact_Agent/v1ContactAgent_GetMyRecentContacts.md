@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Contact/GetMyRecentContacts
-id: v1ContactAgent_GetMyRecentContacts
+uid: v1ContactAgent_GetMyRecentContacts
 ---
 
 # POST Agents/Contact/GetMyRecentContacts
@@ -11,7 +11,13 @@ POST /api/v1/Agents/Contact/GetMyRecentContacts
 
 Method that returns a set of initial contacts.
 
+
 This could be the contacts in a favorites selection, the history list, the diary, or from all sources. If retrieved from the diary it will get appointments for the current and the next day.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +28,7 @@ This could be the contacts in a favorites selection, the history list, the diary
 ```http
 POST /api/v1/Agents/Contact/GetMyRecentContacts?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,15 +44,18 @@ POST /api/v1/Agents/Contact/GetMyRecentContacts?$select=name,department,category
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-SourceType
+SourceType 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | SourceType | string |  |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -80,13 +90,13 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Contact/GetMyRecentContacts
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -94,113 +104,42 @@ Content-Type: application/json; charset=utf-8
 }
 ```
 
+## Sample response
+
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactId": 883,
-    "Name": "Turner, Walker and Schuster",
-    "OrgNr": "1051711",
+    "ContactId": 199,
+    "Name": "Kuhlman, Schuppe and Walker",
+    "OrgNr": "1056389",
     "Department": "",
     "URL": "http://www.example.com/",
-    "City": "at",
-    "DirectPhone": "1-384-346-2240",
-    "AssociateId": 423,
-    "CountryId": 884,
-    "EmailAddress": "trey_schaefer@brown.com",
-    "Kananame": "eos",
-    "EmailAddressName": "alvera.leuschke@durgan.co.uk",
+    "City": "ut",
+    "DirectPhone": "1-225-531-4940",
+    "AssociateId": 392,
+    "CountryId": 796,
+    "EmailAddress": "christa@dibbert.com",
+    "Kananame": "molestias",
+    "EmailAddressName": "francisco@blandaschaden.com",
     "URLName": "http://www.example.com/",
-    "AssociateFullName": "Emery Prohaska",
+    "AssociateFullName": "Amy Cronin",
     "BusinessName": "Information Technology",
     "CategoryName": "VIP Customer",
     "CountryName": "Sokovia",
-    "Address": {
-      "Wgs84Latitude": 5678.808,
-      "Wgs84Longitude": 11902.931999999999,
-      "LocalizedAddress": [
-        [
-          {
-            "Name": "Schroeder Inc and Sons",
-            "Value": "saepe",
-            "Tooltip": "dolorem",
-            "Label": "praesentium",
-            "ValueLength": 25,
-            "AddressType": "voluptatibus",
-            "TableRight": {
-              "Mask": "Delete",
-              "Reason": ""
-            },
-            "FieldProperties": {
-              "fieldName": {
-                "FieldRight": {
-                  "Mask": "FULL",
-                  "Reason": ""
-                },
-                "FieldType": "System.Int32",
-                "FieldLength": 606
-              }
-            }
-          }
-        ],
-        [
-          {
-            "Name": "Gaylord-Fay",
-            "Value": "architecto",
-            "Tooltip": "et",
-            "Label": "quia",
-            "ValueLength": 206,
-            "AddressType": "et",
-            "TableRight": {
-              "Mask": "Delete",
-              "Reason": ""
-            },
-            "FieldProperties": {
-              "fieldName": {
-                "FieldRight": {
-                  "Mask": "FULL",
-                  "Reason": ""
-                },
-                "FieldType": "System.String",
-                "FieldLength": 469
-              }
-            }
-          }
-        ]
-      ],
-      "Street": {},
-      "Postal": {},
-      "Formatted": "ducimus",
-      "TableRight": {},
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": {
-            "Mask": "FULL",
-            "Reason": ""
-          },
-          "FieldType": "System.Int32",
-          "FieldLength": 263
-        }
-      }
-    },
-    "FormattedAddress": "ad",
-    "FullName": "Reuben Altenwerth",
-    "IsOwnerContact": false,
-    "ActiveErpLinks": 718,
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "Address": null,
+    "FormattedAddress": "error",
+    "FullName": "Lavern Goldner",
+    "IsOwnerContact": true,
+    "ActiveErpLinks": 76,
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
+        "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 151
+        "FieldLength": 92
       }
     }
   }

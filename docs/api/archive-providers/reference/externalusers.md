@@ -8,7 +8,7 @@ keywords:
   - "archive provider"
   - "ExternalUsers"
 so.generated: true
-so.date: 03.23.2021
+so.date: 08.26.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -25,15 +25,15 @@ the actual functionality of the provider.
 ## Supported Entities
 
 | Name | Description |
-| ---- | ----- |
+| ---- | ----------- |
 |"all"|All|
 |"potential"|Potential users|
 |"expired"|Expired|
 
 ## Supported Columns
 
-| Name | Restriction | Description | OrderBy
-| ---- | ----- | ------- | ------ |
+| Name | Restriction | Description | OrderBy |
+| ---- | ----------- | ----------- | ------- |
 |getAllRows|bool|GetAll: Get all rows of archive - use with care, you may be fetching the whole database|  |
 |getNoRows|bool|GetNone: Do not get any rows from the archive|  |
 |userplan| *None* |User plan: User plan (licence)|  |
@@ -68,11 +68,14 @@ the actual functionality of the provider.
 ## Sample
 
 ```http!
-GET /api/v1/archive/ExternalUsers?$select=mrMrs,usergroup
+GET /api/v1/archive/ExternalUsers?$select=role,portraitThumbnail,mrMrs
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv
 
 ```
 
-See also: <see cref="T:SuperOffice.CRM.Services.IArchiveAgent">IArchiveAgent</see>.
+
+
+See also: <see cref="T:SuperOffice.CRM.Services.IArchiveAgent">IArchiveAgent</see>.</p>
+

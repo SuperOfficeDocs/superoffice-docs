@@ -1,6 +1,6 @@
 ---
 title: GET List/ProductType/Items/{id}/Headings
-id: v1ProductTypeList_GetProductTypeHeadingsForListItem
+uid: v1ProductTypeList_GetProductTypeHeadingsForListItem
 ---
 
 # GET List/ProductType/Items/{id}/Headings
@@ -11,11 +11,17 @@ GET /api/v1/List/ProductType/Items/{itemId}/Headings
 
 Gets headings for the ProductType list's item.
 
+
 Calls the List agent service GetHeadings.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | itemId | int32 | The ID of the headings to be get. **Required** |
+
 
 ## Query String Parameters
 
@@ -24,8 +30,9 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/ProductType/Items/{itemId}/Headings?showDeleted=True
+GET /api/v1/List/ProductType/Items/{itemId}/Headings?showDeleted=False
 ```
+
 
 ## Request Headers
 
@@ -40,7 +47,10 @@ GET /api/v1/List/ProductType/Items/{itemId}/Headings?showDeleted=True
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -68,7 +78,7 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 GET /api/v1/List/ProductType/Items/{itemId}/Headings
@@ -77,71 +87,64 @@ Accept: application/json; charset=utf-8
 Accept-Language: sv
 ```
 
+## Sample response
+
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 900,
-    "Name": "Pfannerstill-Bogisich",
-    "ToolTip": "Quidem quae velit.",
-    "Deleted": true,
-    "Rank": 982,
-    "Type": "aut",
-    "ColorBlock": 578,
-    "IconHint": "quod",
+    "Id": 457,
+    "Name": "Abernathy Group",
+    "ToolTip": "Molestias omnis.",
+    "Deleted": false,
+    "Rank": 715,
+    "Type": "magnam",
+    "ColorBlock": 634,
+    "IconHint": "numquam",
     "Selected": false,
-    "LastChanged": "2014-05-08T18:25:52.0342124+02:00",
+    "LastChanged": "2014-09-13T11:10:54.4549022+02:00",
     "ChildItems": [
       {
-        "Id": 841,
-        "Name": "Johnston, Cartwright and Abernathy",
-        "ToolTip": "Dolorem qui debitis.",
+        "Id": 148,
+        "Name": "Carter-Lind",
+        "ToolTip": "Magnam accusantium voluptatem quis.",
         "Deleted": false,
-        "Rank": 932,
-        "Type": "explicabo",
-        "ColorBlock": 197,
-        "IconHint": "atque",
-        "Selected": true,
-        "LastChanged": "1999-08-22T18:25:52.0342124+02:00",
+        "Rank": 864,
+        "Type": "porro",
+        "ColorBlock": 596,
+        "IconHint": "ullam",
+        "Selected": false,
+        "LastChanged": "2016-11-27T11:10:54.4549022+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "sapiente",
-        "StyleHint": "ea",
+        "ExtraInfo": "ipsum",
+        "StyleHint": "et",
         "Hidden": false,
-        "FullName": "Kris Hoppe",
-        "TableRight": {},
+        "FullName": "Carmine Botsford",
+        "TableRight": null,
         "FieldProperties": {
           "fieldName": {
-            "FieldRight": {
-              "Mask": "FULL",
-              "Reason": ""
-            },
+            "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 193
+            "FieldLength": 865
           }
         }
       }
     ],
-    "ExtraInfo": "quo",
-    "StyleHint": "repudiandae",
-    "Hidden": false,
-    "FullName": "Leonora Tromp",
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "ExtraInfo": "amet",
+    "StyleHint": "natus",
+    "Hidden": true,
+    "FullName": "Alana Fisher",
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.Int32",
-        "FieldLength": 849
+        "FieldRight": null,
+        "FieldType": "System.String",
+        "FieldLength": 214
       }
     }
   }

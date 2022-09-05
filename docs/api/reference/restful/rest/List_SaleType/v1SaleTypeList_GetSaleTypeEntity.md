@@ -1,6 +1,6 @@
 ---
 title: GET List/SaleType/Items/{id}
-id: v1SaleTypeList_GetSaleTypeEntity
+uid: v1SaleTypeList_GetSaleTypeEntity
 ---
 
 # GET List/SaleType/Items/{id}
@@ -11,11 +11,18 @@ GET /api/v1/List/SaleType/Items/{id}
 
 Gets a SaleTypeEntity list item.
 
+
 Calls the List agent service GetSaleTypeEntity.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | id | int32 | The id of the SaleType to return. **Required** |
+
+
 
 ## Request Headers
 
@@ -30,17 +37,17 @@ Calls the List agent service GetSaleTypeEntity.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response: object
 
-Carrier object for SaleTypeEntity.
-Services for the SaleTypeEntity Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IListAgent">List Agent</see>.
+## Response: 
+
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 | 404 | Not Found. |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -65,90 +72,83 @@ Response body: object
 | MinEarningPercent | int32 | The minimum earning in percent of total, if set, on quotes linked to sales of this type |
 | GroupQuoteLinesBy | int32 | Group quote lines by this field |
 | SortGroupLinesBy | int32 | Sort group lines by this field |
-| Stages | array | Stages, those associated with this SaleType are selected.  <br />Use MDO List name "salestage" to get list items. |
+| Stages | array | Stages, those associated with this SaleType are selected.  <para>Use MDO List name "salestage" to get list items.</para> |
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 GET /api/v1/List/SaleType/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 795,
-  "Name": "Smitham-Maggio",
-  "Tooltip": "atque",
-  "Rank": 913,
+  "SaleTypeId": 867,
+  "Name": "Hilll, Koelpin and Adams",
+  "Tooltip": "corrupti",
+  "Rank": 791,
   "DurationUnit": "Century",
-  "SaleDuration": 579,
-  "SaleTypeCatId": 67,
+  "SaleDuration": 967,
+  "SaleTypeCatId": 742,
   "Deleted": false,
-  "HasGuide": true,
+  "HasGuide": false,
   "HasStakeholders": false,
   "IsAutoAdvance": true,
   "AllowQuoteAlternatives": true,
-  "DefaultQuoteValidity": 863,
-  "QuoteLinesTemplate": 965,
-  "ConfirmationLinesTemplate": 641,
+  "DefaultQuoteValidity": 75,
+  "QuoteLinesTemplate": 340,
+  "ConfirmationLinesTemplate": 186,
   "MaxDiscountPercentSet": false,
-  "MinEarningPercentSet": false,
-  "MaxDiscountPercent": 954,
-  "MinEarningPercent": 622,
-  "GroupQuoteLinesBy": 86,
-  "SortGroupLinesBy": 699,
+  "MinEarningPercentSet": true,
+  "MaxDiscountPercent": 297,
+  "MinEarningPercent": 583,
+  "GroupQuoteLinesBy": 760,
+  "SortGroupLinesBy": 626,
   "Stages": [
     {
-      "Id": 16,
-      "Name": "Ullrich-Klein",
-      "ToolTip": "Consectetur maxime odit corporis numquam maiores.",
+      "Id": 7,
+      "Name": "Lueilwitz, Hermiston and Fahey",
+      "ToolTip": "Impedit nulla officia consequuntur minima.",
       "Deleted": false,
-      "Rank": 161,
-      "Type": "laborum",
-      "ColorBlock": 426,
-      "IconHint": "eum",
+      "Rank": 238,
+      "Type": "nesciunt",
+      "ColorBlock": 303,
+      "IconHint": "odit",
       "Selected": true,
-      "LastChanged": "2014-02-22T18:25:52.1830188+01:00",
+      "LastChanged": "2000-03-04T11:10:54.599935+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "impedit",
-      "StyleHint": "est",
-      "Hidden": false,
-      "FullName": "Jarrett Wilderman",
-      "TableRight": {},
+      "ExtraInfo": "illo",
+      "StyleHint": "sit",
+      "Hidden": true,
+      "FullName": "Dr. Angelita Vern Armstrong II",
+      "TableRight": null,
       "FieldProperties": {
         "fieldName": {
-          "FieldRight": {
-            "Mask": "FULL",
-            "Reason": ""
-          },
-          "FieldType": "System.Int32",
-          "FieldLength": 175
+          "FieldRight": null,
+          "FieldType": "System.String",
+          "FieldLength": 575
         }
       }
     }
   ],
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": "deliver end-to-end interfaces"
-  },
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
+      "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 320
+      "FieldLength": 517
     }
   }
 }

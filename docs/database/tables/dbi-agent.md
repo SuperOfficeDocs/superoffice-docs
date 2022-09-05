@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "dbi_agent"
-so.date: 04.12.2022
+so.date: 08.26.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -26,6 +26,7 @@ DBI agent settings
 |id\_string|A field for an id_string which may be used to access the dbi agent|String(255)| |
 |protocol|Agent communcication protocol |protocol|&#x25CF;|
 |path|Path to agent URL or file path|String(255)|&#x25CF;|
+
 
 ![dbi_agent table relationship diagram](./media/dbi_agent.png)
 
@@ -56,6 +57,7 @@ DBI agent settings
 |[s\_list](s-list.md)  |A list, dynamic or static |
 |[ticket](ticket.md)  |This table contains the tickets (requests) of the system. Its purpose should be evident. |
 
+
 ## Replication Flags
 
 * None
@@ -63,3 +65,4 @@ DBI agent settings
 ## Security Flags
 
 * No access control via user's Role.
+

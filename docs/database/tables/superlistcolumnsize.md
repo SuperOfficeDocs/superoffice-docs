@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "SuperListColumnSize"
-so.date: 04.12.2022
+so.date: 08.26.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -40,6 +40,7 @@ Stores the relative size (in percent) or in characters of a column in a SuperLis
 |group\_id|Optional group id, if layout is bound to a group|FK [UserGroup](usergroup.md)|&#x25CF;|
 |configurationName|Name to show in dropdowns/menus so this configuration can be selected|String(255)|&#x25CF;|
 
+
 ![SuperListColumnSize table relationship diagram](./media/SuperListColumnSize.png)
 
 [!include[details](./includes/superlistcolumnsize.md)]
@@ -58,6 +59,7 @@ Stores the relative size (in percent) or in characters of a column in a SuperLis
 |[associate](associate.md)  |Employees, resources and other users - except for External persons |
 |[UserGroup](usergroup.md)  |Secondary user groups |
 
+
 ## Replication Flags
 
 * Area Management controlled table. Contents replicated to satellites and traveller databases.
@@ -67,3 +69,4 @@ Stores the relative size (in percent) or in characters of a column in a SuperLis
 ## Security Flags
 
 * No access control via user's Role.
+

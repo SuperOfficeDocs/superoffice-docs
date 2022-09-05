@@ -1,6 +1,6 @@
 ---
 title: POST Agents/BLOB/CreateDefaultBlobEntity
-id: v1BLOBAgent_CreateDefaultBlobEntity
+uid: v1BLOBAgent_CreateDefaultBlobEntity
 ---
 
 # POST Agents/BLOB/CreateDefaultBlobEntity
@@ -11,7 +11,14 @@ POST /api/v1/Agents/BLOB/CreateDefaultBlobEntity
 
 Set default values into a new BlobEntity.
 
+
 NetServer calculates default values on the entity, which is required when creating/storing a new instance
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -26,16 +33,16 @@ NetServer calculates default values on the entity, which is required when creati
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response: object
 
-Carrier object for BlobEntity.
-Services for the BlobEntity Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IBLOBAgent">BLOB Agent</see>.
+## Response: 
+
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -55,93 +62,41 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/BLOB/CreateDefaultBlobEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 982,
-  "BlobSize": 329,
-  "Description": "Versatile fault-tolerant capacity",
-  "ExtraInfo": "repellat",
-  "IsEncrypted": true,
+  "BlobId": 210,
+  "BlobSize": 569,
+  "Description": "User-friendly grid-enabled flexibility",
+  "ExtraInfo": "qui",
+  "IsEncrypted": false,
   "IsZipped": false,
-  "MimeType": "itaque",
-  "OriginalSize": 426,
-  "CreatedDate": "2008-03-27T18:28:48.1505424+01:00",
-  "UpdatedDate": "1996-10-23T18:28:48.1505424+02:00",
-  "CreatedBy": {
-    "AssociateId": 100,
-    "Name": "Thompson, Erdman and O'Hara",
-    "PersonId": 307,
-    "Rank": 93,
-    "Tooltip": "numquam",
-    "Type": "AnonymousAssociate",
-    "GroupIdx": 591,
-    "FullName": "Lindsey Hoppe",
-    "FormalName": "Braun-Ortiz",
-    "Deleted": true,
-    "EjUserId": 234,
-    "UserName": "O'Keefe LLC",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 498
-      }
-    }
-  },
-  "UpdatedBy": {
-    "AssociateId": 690,
-    "Name": "Wolf, Ritchie and Schmidt",
-    "PersonId": 632,
-    "Rank": 197,
-    "Tooltip": "totam",
-    "Type": "AnonymousAssociate",
-    "GroupIdx": 193,
-    "FullName": "William Witting",
-    "FormalName": "Satterfield-Brown",
-    "Deleted": true,
-    "EjUserId": 804,
-    "UserName": "Marvin-Moore",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 934
-      }
-    }
-  },
-  "ConceptualType": "voluptatem",
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "MimeType": "ad",
+  "OriginalSize": 361,
+  "CreatedDate": "2007-08-27T11:10:26.0235527+02:00",
+  "UpdatedDate": "2001-05-03T11:10:26.0235527+02:00",
+  "CreatedBy": null,
+  "UpdatedBy": null,
+  "ConceptualType": "ad",
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
-      "FieldType": "System.Int32",
-      "FieldLength": 157
+      "FieldRight": null,
+      "FieldType": "System.String",
+      "FieldLength": 371
     }
   }
 }

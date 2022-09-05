@@ -1,6 +1,6 @@
 ---
 title: POST List/UserGroup/Headings
-id: v1UserGroupList_PostUserGroupHeading
+uid: v1UserGroupList_PostUserGroupHeading
 ---
 
 # POST List/UserGroup/Headings
@@ -11,7 +11,14 @@ POST /api/v1/List/UserGroup/Headings
 
 Saves a new heading for the UserGroup list.
 
+
 Calls the List agent service SaveHeadingFromListDefinition.
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -27,9 +34,9 @@ Calls the List agent service SaveHeadingFromListDefinition.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: newEntity
+## Request Body: newEntity  
 
-The heading to be added.
+The heading to be added. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -40,18 +47,16 @@ The heading to be added.
 | Rank | int32 | Rank order |
 | UdListDefinitionId | int32 | The id of the list which this heading belongs to |
 
-## Response: object
 
-The heading entity contains generic list item information
+## Response: 
 
-Carrier object for HeadingEntity.
-Services for the HeadingEntity Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IListAgent">List Agent</see>.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -64,7 +69,7 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/List/UserGroup/Headings
@@ -74,38 +79,34 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 763,
-  "Name": "Gleason Inc and Sons",
-  "Tooltip": "reiciendis",
+  "HeadingId": 754,
+  "Name": "Sipes-Kutch",
+  "Tooltip": "molestiae",
   "Deleted": false,
-  "Rank": 915,
-  "UdListDefinitionId": 646
+  "Rank": 990,
+  "UdListDefinitionId": 145
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 958,
-  "Name": "Prohaska, Greenholt and Reichert",
+  "HeadingId": 858,
+  "Name": "Dooley-Hilpert",
   "Tooltip": "rerum",
   "Deleted": false,
-  "Rank": 70,
-  "UdListDefinitionId": 139,
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "Rank": 288,
+  "UdListDefinitionId": 124,
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
-      "FieldType": "System.String",
-      "FieldLength": 436
+      "FieldRight": null,
+      "FieldType": "System.Int32",
+      "FieldLength": 897
     }
   }
 }

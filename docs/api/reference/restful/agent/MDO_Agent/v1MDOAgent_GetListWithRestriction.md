@@ -1,6 +1,6 @@
 ---
 title: POST Agents/MDO/GetListWithRestriction
-id: v1MDOAgent_GetListWithRestriction
+uid: v1MDOAgent_GetListWithRestriction
 ---
 
 # POST Agents/MDO/GetListWithRestriction
@@ -11,6 +11,12 @@ POST /api/v1/Agents/MDO/GetListWithRestriction
 
 Method to get a MDO list with restrictions.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Method to get a MDO list with restrictions.
 ```http
 POST /api/v1/Agents/MDO/GetListWithRestriction?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,9 +42,9 @@ POST /api/v1/Agents/MDO/GetListWithRestriction?$select=name,department,category/
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-Name, AdditionalInfo, SearchValue
+Name, AdditionalInfo, SearchValue 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -45,7 +52,10 @@ Name, AdditionalInfo, SearchValue
 | AdditionalInfo | string |  |
 | SearchValue | string |  |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -70,21 +80,23 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/MDO/GetListWithRestriction
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Rippin, DuBuque and Larson",
-  "AdditionalInfo": "soluta",
-  "SearchValue": "et"
+  "Name": "Herzog, Homenick and Durgan",
+  "AdditionalInfo": "quia",
+  "SearchValue": "accusantium"
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -92,59 +104,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 194,
-    "Name": "Kilback, Kirlin and Turcotte",
-    "ToolTip": "Rerum consectetur maxime ducimus dicta autem minus.",
+    "Id": 680,
+    "Name": "Barrows-Shields",
+    "ToolTip": "Sed ad tempora corrupti possimus.",
     "Deleted": false,
-    "Rank": 994,
-    "Type": "sed",
+    "Rank": 56,
+    "Type": "dolorum",
     "ChildItems": [
       {
-        "Id": 30,
-        "Name": "Rosenbaum Inc and Sons",
-        "ToolTip": "Nisi accusantium.",
+        "Id": 686,
+        "Name": "Lebsack LLC",
+        "ToolTip": "Dolor nihil aliquam delectus nostrum cum ad.",
         "Deleted": false,
-        "Rank": 521,
-        "Type": "minima",
+        "Rank": 495,
+        "Type": "atque",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "aliquam",
-        "ColorBlock": 98,
-        "ExtraInfo": "rerum",
-        "StyleHint": "molestiae",
-        "FullName": "Joel Roberts",
-        "TableRight": {},
+        "IconHint": "enim",
+        "ColorBlock": 41,
+        "ExtraInfo": "eos",
+        "StyleHint": "autem",
+        "FullName": "Bobbie Koss",
+        "TableRight": null,
         "FieldProperties": {
           "fieldName": {
-            "FieldRight": {
-              "Mask": "FULL",
-              "Reason": ""
-            },
+            "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 476
+            "FieldLength": 567
           }
         }
       }
     ],
-    "IconHint": "ut",
-    "ColorBlock": 597,
-    "ExtraInfo": "odit",
-    "StyleHint": "modi",
-    "FullName": "Ms. Ken Grady",
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": "streamline viral technologies"
-    },
+    "IconHint": "reprehenderit",
+    "ColorBlock": 129,
+    "ExtraInfo": "quos",
+    "StyleHint": "ratione",
+    "FullName": "Mrs. Arielle Boris Marvin",
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
+        "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 610
+        "FieldLength": 338
       }
     }
   }

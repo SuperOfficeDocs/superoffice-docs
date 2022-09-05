@@ -17,6 +17,7 @@ Method returns a simple flat MDO List.
 
 **Returns:** Array of MDOListItem
 
+
 [WSDL file for Services86/MDO](../Services86-MDO.md)
 
 Obtain a ticket from the [Services86/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -48,6 +49,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+
 
 ## GetSimpleList Response
 
@@ -116,3 +118,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

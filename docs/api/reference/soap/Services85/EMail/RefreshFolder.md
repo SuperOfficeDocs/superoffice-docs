@@ -18,6 +18,7 @@ Refresh the given folders - i.e., fetch data from the mail server and update the
 
 **Returns:** Batch task id, or 0 if the processing was synchronous
 
+
 [WSDL file for Services85/EMail](../Services85-EMail.md)
 
 Obtain a ticket from the [Services85/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -59,6 +60,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## RefreshFolder Response
 
 ```xml
@@ -79,3 +81,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

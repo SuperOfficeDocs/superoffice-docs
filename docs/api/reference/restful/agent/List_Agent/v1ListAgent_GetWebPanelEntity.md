@@ -1,6 +1,6 @@
 ---
 title: POST Agents/List/GetWebPanelEntity
-id: v1ListAgent_GetWebPanelEntity
+uid: v1ListAgent_GetWebPanelEntity
 ---
 
 # POST Agents/List/GetWebPanelEntity
@@ -11,6 +11,12 @@ POST /api/v1/Agents/List/GetWebPanelEntity
 
 Gets a WebPanelEntity object.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -19,9 +25,10 @@ Gets a WebPanelEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetWebPanelEntity?webPanelEntityId=408
+POST /api/v1/Agents/List/GetWebPanelEntity?webPanelEntityId=1001
 POST /api/v1/Agents/List/GetWebPanelEntity?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -36,18 +43,16 @@ POST /api/v1/Agents/List/GetWebPanelEntity?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response: object
 
-The web panel entity contains information on a web panel
+## Response: 
 
-Carrier object for WebPanelEntity.
-Services for the WebPanelEntity Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IListAgent">List Agent</see>.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -71,55 +76,53 @@ Response body: object
 | Url | string | The url |
 | ProgId | string | String key that can be used to uniquely retrieve the panel; particularly useful for partners and others who do not wish to store database ID's |
 | Icon | int32 | The icon of the webpanel |
+| AlwaysReloadOnShow | bool | If set to true, the content will reload every time the panel is shown |
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/List/GetWebPanelEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebPanelId": 776,
-  "Name": "Hagenes LLC",
-  "Tooltip": "et",
-  "Deleted": true,
-  "Rank": 964,
+  "WebPanelId": 132,
+  "Name": "Gutmann-Fahey",
+  "Tooltip": "est",
+  "Deleted": false,
+  "Rank": 202,
   "UrlEncoding": "ANSI",
   "VisibleIn": "ActivityDialog",
   "OnCentral": false,
   "OnSatellite": false,
-  "OnTravel": false,
+  "OnTravel": true,
   "OnSalesMarketingWeb": false,
   "OnSalesMarketingPocket": true,
-  "ShowInMenuBar": false,
-  "ShowInToolBar": false,
-  "ShowInAddressBar": false,
+  "ShowInMenuBar": true,
+  "ShowInToolBar": true,
+  "ShowInAddressBar": true,
   "ShowInStatusBar": false,
-  "WindowName": "Daugherty Group",
+  "WindowName": "Ziemann-Haley",
   "Url": "http://www.example.com/",
-  "ProgId": "autem",
-  "Icon": 849,
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "ProgId": "harum",
+  "Icon": 480,
+  "AlwaysReloadOnShow": false,
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
+      "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 687
+      "FieldLength": 47
     }
   }
 }

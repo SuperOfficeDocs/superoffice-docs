@@ -1,6 +1,6 @@
 ---
 title: GET List/MrMrs/Items/{id}/UserGroups
-id: v1MrMrsList_GetMrMrsUserGroupsForListItem
+uid: v1MrMrsList_GetMrMrsUserGroupsForListItem
 ---
 
 # GET List/MrMrs/Items/{id}/UserGroups
@@ -11,11 +11,18 @@ GET /api/v1/List/MrMrs/Items/{itemId}/UserGroups
 
 Gets user groups visible for the MrMrs list's item.
 
+
 Calls the List agent service GetHeadings.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | itemId | int32 | The ID of the item to get. **Required** |
+
+
 
 ## Request Headers
 
@@ -30,7 +37,10 @@ Calls the List agent service GetHeadings.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -58,14 +68,16 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 GET /api/v1/List/MrMrs/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -73,65 +85,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 275,
-    "Name": "Leannon-Kling",
-    "ToolTip": "Fuga rerum.",
+    "Id": 90,
+    "Name": "Hartmann, Hudson and Osinski",
+    "ToolTip": "Consectetur quaerat nulla consequatur.",
     "Deleted": false,
-    "Rank": 731,
-    "Type": "doloremque",
-    "ColorBlock": 724,
-    "IconHint": "vel",
-    "Selected": true,
-    "LastChanged": "2011-04-21T18:25:51.9102497+02:00",
+    "Rank": 276,
+    "Type": "distinctio",
+    "ColorBlock": 820,
+    "IconHint": "non",
+    "Selected": false,
+    "LastChanged": "1999-01-28T11:10:54.3268695+01:00",
     "ChildItems": [
       {
-        "Id": 13,
-        "Name": "Leannon LLC",
-        "ToolTip": "Asperiores commodi quaerat maiores.",
+        "Id": 722,
+        "Name": "Kris LLC",
+        "ToolTip": "Est assumenda tempora.",
         "Deleted": true,
-        "Rank": 248,
-        "Type": "voluptatibus",
-        "ColorBlock": 557,
-        "IconHint": "amet",
-        "Selected": true,
-        "LastChanged": "2017-03-01T18:25:51.9102497+01:00",
+        "Rank": 478,
+        "Type": "qui",
+        "ColorBlock": 143,
+        "IconHint": "voluptates",
+        "Selected": false,
+        "LastChanged": "1996-03-25T11:10:54.3268695+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "modi",
-        "StyleHint": "rerum",
+        "ExtraInfo": "laboriosam",
+        "StyleHint": "eum",
         "Hidden": false,
-        "FullName": "Megane Nicolas",
-        "TableRight": {},
+        "FullName": "Alysha Moore",
+        "TableRight": null,
         "FieldProperties": {
           "fieldName": {
-            "FieldRight": {
-              "Mask": "FULL",
-              "Reason": ""
-            },
+            "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 375
+            "FieldLength": 712
           }
         }
       }
     ],
-    "ExtraInfo": "quisquam",
-    "StyleHint": "aut",
+    "ExtraInfo": "quia",
+    "StyleHint": "impedit",
     "Hidden": false,
-    "FullName": "Reva Halvorson",
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "FullName": "Shad Koss",
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.Int32",
-        "FieldLength": 912
+        "FieldRight": null,
+        "FieldType": "System.String",
+        "FieldLength": 997
       }
     }
   }

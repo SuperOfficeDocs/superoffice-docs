@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Audience/GetMyConfigParameter
-id: v1AudienceAgent_GetMyConfigParameter
+uid: v1AudienceAgent_GetMyConfigParameter
 ---
 
 # POST Agents/Audience/GetMyConfigParameter
@@ -11,6 +11,12 @@ POST /api/v1/Agents/Audience/GetMyConfigParameter
 
 Gets an Audience configuration parameter belonging to the currently logged on user with the specified configuration parameter name.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Gets an Audience configuration parameter belonging to the currently logged on us
 ```http
 POST /api/v1/Agents/Audience/GetMyConfigParameter?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,26 +42,24 @@ POST /api/v1/Agents/Audience/GetMyConfigParameter?$select=name,department,catego
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-ParameterName
+ParameterName 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | ParameterName | string |  |
 
-## Response: object
 
-An Audience configuration parameter, used for handling Audience application or Web part settings.
+## Response: 
 
-Carrier object for AudienceConfigParameter.
-Services for the AudienceConfigParameter Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IAudienceAgent">Audience Agent</see>.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -68,7 +73,7 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Audience/GetMyConfigParameter
@@ -78,34 +83,30 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ParameterName": "Jones, Halvorson and Hegmann"
+  "ParameterName": "Russel Inc and Sons"
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AudienceLayoutId": 844,
-  "Name": "Dickens Group",
-  "Value": "dolor",
-  "CreatedDate": "2020-06-25T18:28:48.1305425+02:00",
-  "UpdatedDate": "1999-01-25T18:28:48.1305425+01:00",
-  "CreatedBy": "ut",
-  "UpdatedBy": "eum",
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "AudienceLayoutId": 904,
+  "Name": "Mueller, Kilback and Ebert",
+  "Value": "assumenda",
+  "CreatedDate": "2012-04-22T11:10:26.0055526+02:00",
+  "UpdatedDate": "2001-01-27T11:10:26.0055526+01:00",
+  "CreatedBy": "laboriosam",
+  "UpdatedBy": "dolorum",
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
+      "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 129
+      "FieldLength": 266
     }
   }
 }

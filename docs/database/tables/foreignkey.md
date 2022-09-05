@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "foreignkey"
-so.date: 04.12.2022
+so.date: 08.26.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -34,6 +34,7 @@ Foreign Key - enables storage of arbitrary extra key information for every table
 |updated\_associate\_id|Last updated by whom|FK [associate](associate.md)| |
 |updatedCount|Number of updates made to this record|UShort| |
 
+
 ![foreignkey table relationship diagram](./media/foreignkey.png)
 
 [!include[details](./includes/foreignkey.md)]
@@ -56,6 +57,7 @@ Foreign Key - enables storage of arbitrary extra key information for every table
 |[associate](associate.md)  |Employees, resources and other users - except for External persons |
 |[foreigndevice](foreigndevice.md)  |Middle level of Foreign Key system |
 
+
 ## Replication Flags
 
 * Replicate changes DOWN from central to satellites and travellers.
@@ -65,3 +67,4 @@ Foreign Key - enables storage of arbitrary extra key information for every table
 ## Security Flags
 
 * No access control via user's Role.
+

@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "snapshot"
-so.date: 04.12.2022
+so.date: 08.26.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -25,6 +25,7 @@ Snapshots taken of the system database and attachments via soap
 |created\_at|Snapshot file created at|DateTime|&#x25CF;|
 |user\_comment|Comment from the user|String(255)|&#x25CF;|
 
+
 ![snapshot table relationship diagram](./media/snapshot.png)
 
 [!include[details](./includes/snapshot.md)]
@@ -42,3 +43,4 @@ Snapshots taken of the system database and attachments via soap
 ## Security Flags
 
 * No access control via user's Role.
+

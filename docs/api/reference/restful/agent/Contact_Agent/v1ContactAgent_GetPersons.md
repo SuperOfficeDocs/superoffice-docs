@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Contact/GetPersons
-id: v1ContactAgent_GetPersons
+uid: v1ContactAgent_GetPersons
 ---
 
 # POST Agents/Contact/GetPersons
@@ -11,6 +11,12 @@ POST /api/v1/Agents/Contact/GetPersons
 
 Returns an array of all the contact persons for the company card.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Returns an array of all the contact persons for the company card.
 ```http
 POST /api/v1/Agents/Contact/GetPersons?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,15 +42,18 @@ POST /api/v1/Agents/Contact/GetPersons?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-ContactId
+ContactId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | ContactId | int32 |  |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -96,7 +106,7 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Contact/GetPersons
@@ -106,9 +116,11 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 828
+  "ContactId": 809
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -116,58 +128,52 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Position": "voluptatem",
-    "PersonId": 937,
-    "Mrmrs": "asperiores",
-    "Firstname": "Lamont",
-    "Lastname": "Kertzmann",
-    "MiddleName": "Waters LLC",
-    "Title": "id",
-    "Description": "Decentralized human-resource complexity",
-    "Email": "orland_rowe@lakin.biz",
-    "FullName": "Ova Orn",
-    "DirectPhone": "(320)761-3288 x17708",
-    "FormalName": "Grady LLC",
-    "CountryId": 756,
-    "ContactId": 751,
-    "ContactName": "Sawayn-Johnson",
-    "Retired": 275,
-    "Rank": 979,
-    "ActiveInterests": 93,
+    "Position": "perspiciatis",
+    "PersonId": 29,
+    "Mrmrs": "aut",
+    "Firstname": "Aimee",
+    "Lastname": "Fahey",
+    "MiddleName": "Strosin, Harris and Collier",
+    "Title": "eligendi",
+    "Description": "Expanded holistic encryption",
+    "Email": "jayda_wunsch@russel.co.uk",
+    "FullName": "Austyn Daniel",
+    "DirectPhone": "1-121-695-5120",
+    "FormalName": "Runolfsson-Waters",
+    "CountryId": 700,
+    "ContactId": 151,
+    "ContactName": "Senger-Feest",
+    "Retired": 172,
+    "Rank": 976,
+    "ActiveInterests": 585,
     "ContactDepartment": "",
-    "ContactCountryId": 377,
-    "ContactOrgNr": "1177605",
-    "FaxPhone": "026.068.5337",
-    "MobilePhone": "165.880.4130",
-    "ContactPhone": "835-767-6885",
-    "AssociateName": "Littel-Bernier",
-    "AssociateId": 452,
-    "UsePersonAddress": true,
-    "ContactFax": "eius",
-    "Kanafname": "quidem",
-    "Kanalname": "quis",
-    "Post1": "aliquid",
-    "Post2": "optio",
-    "Post3": "voluptatem",
-    "EmailName": "carol@lesch.co.uk",
-    "ContactFullName": "Evan Jakubowski",
-    "ActiveErpLinks": 884,
-    "TicketPriorityId": 175,
-    "SupportLanguageId": 831,
-    "SupportAssociateId": 684,
+    "ContactCountryId": 507,
+    "ContactOrgNr": "1163202",
+    "FaxPhone": "(086)825-2904 x30760",
+    "MobilePhone": "303.361.0972",
+    "ContactPhone": "(151)777-8194 x38393",
+    "AssociateName": "Baumbach-Lesch",
+    "AssociateId": 190,
+    "UsePersonAddress": false,
+    "ContactFax": "minus",
+    "Kanafname": "eligendi",
+    "Kanalname": "asperiores",
+    "Post1": "reprehenderit",
+    "Post2": "ut",
+    "Post3": "praesentium",
+    "EmailName": "brandyn.kihn@jerdefranecki.com",
+    "ContactFullName": "Dr. Marianne Cameron Weimann III",
+    "ActiveErpLinks": 666,
+    "TicketPriorityId": 928,
+    "SupportLanguageId": 400,
+    "SupportAssociateId": 667,
     "CategoryName": "VIP Customer",
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.Int32",
-        "FieldLength": 553
+        "FieldRight": null,
+        "FieldType": "System.String",
+        "FieldLength": 82
       }
     }
   }

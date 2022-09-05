@@ -1,6 +1,6 @@
 ---
 title: POST Agents/List/SaveSaleTypeEntity
-id: v1ListAgent_SaveSaleTypeEntity
+uid: v1ListAgent_SaveSaleTypeEntity
 ---
 
 # POST Agents/List/SaveSaleTypeEntity
@@ -10,6 +10,13 @@ POST /api/v1/Agents/List/SaveSaleTypeEntity
 ```
 
 Updates the existing SaleTypeEntity or creates a new SaleTypeEntity if the id parameter is empty
+
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -25,9 +32,9 @@ Updates the existing SaleTypeEntity or creates a new SaleTypeEntity if the id pa
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entity
+## Request Body: entity  
 
-The SaleTypeEntity to be saved.
+The SaleTypeEntity to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -52,18 +59,18 @@ The SaleTypeEntity to be saved.
 | MinEarningPercent | int32 | The minimum earning in percent of total, if set, on quotes linked to sales of this type |
 | GroupQuoteLinesBy | int32 | Group quote lines by this field |
 | SortGroupLinesBy | int32 | Sort group lines by this field |
-| Stages | array | Stages, those associated with this SaleType are selected.  <br />Use MDO List name "salestage" to get list items. |
+| Stages | array | Stages, those associated with this SaleType are selected.  <para>Use MDO List name "salestage" to get list items.</para> |
 
-## Response: object
 
-Carrier object for SaleTypeEntity.
-Services for the SaleTypeEntity Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IListAgent">List Agent</see>.
+## Response: 
+
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -88,11 +95,11 @@ Response body: object
 | MinEarningPercent | int32 | The minimum earning in percent of total, if set, on quotes linked to sales of this type |
 | GroupQuoteLinesBy | int32 | Group quote lines by this field |
 | SortGroupLinesBy | int32 | Sort group lines by this field |
-| Stages | array | Stages, those associated with this SaleType are selected.  <br />Use MDO List name "salestage" to get list items. |
+| Stages | array | Stages, those associated with this SaleType are selected.  <para>Use MDO List name "salestage" to get list items.</para> |
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/List/SaveSaleTypeEntity
@@ -102,123 +109,116 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 676,
-  "Name": "Yundt-Kemmer",
-  "Tooltip": "rerum",
-  "Rank": 322,
+  "SaleTypeId": 604,
+  "Name": "Farrell, Price and Nienow",
+  "Tooltip": "dolores",
+  "Rank": 47,
   "DurationUnit": "Century",
-  "SaleDuration": 606,
-  "SaleTypeCatId": 533,
-  "Deleted": false,
-  "HasGuide": false,
-  "HasStakeholders": true,
+  "SaleDuration": 36,
+  "SaleTypeCatId": 766,
+  "Deleted": true,
+  "HasGuide": true,
+  "HasStakeholders": false,
   "IsAutoAdvance": false,
-  "AllowQuoteAlternatives": true,
-  "DefaultQuoteValidity": 35,
-  "QuoteLinesTemplate": 482,
-  "ConfirmationLinesTemplate": 123,
-  "MaxDiscountPercentSet": true,
-  "MinEarningPercentSet": true,
-  "MaxDiscountPercent": 776,
-  "MinEarningPercent": 130,
-  "GroupQuoteLinesBy": 899,
-  "SortGroupLinesBy": 317,
+  "AllowQuoteAlternatives": false,
+  "DefaultQuoteValidity": 874,
+  "QuoteLinesTemplate": 789,
+  "ConfirmationLinesTemplate": 685,
+  "MaxDiscountPercentSet": false,
+  "MinEarningPercentSet": false,
+  "MaxDiscountPercent": 843,
+  "MinEarningPercent": 990,
+  "GroupQuoteLinesBy": 852,
+  "SortGroupLinesBy": 167,
   "Stages": [
     {
-      "Id": 303,
-      "Name": "Pfeffer-Abbott",
-      "ToolTip": "Voluptates aliquam sit non doloribus doloribus nobis.",
+      "Id": 451,
+      "Name": "Walker Group",
+      "ToolTip": "Id tenetur.",
       "Deleted": false,
-      "Rank": 448,
-      "Type": "omnis",
-      "ColorBlock": 774,
-      "IconHint": "quos",
+      "Rank": 848,
+      "Type": "voluptas",
+      "ColorBlock": 22,
+      "IconHint": "eveniet",
       "Selected": false,
-      "LastChanged": "2014-06-23T18:28:49.4520873+02:00",
+      "LastChanged": "2003-06-10T11:10:27.257454+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "dolorem",
-      "StyleHint": "unde",
+      "ExtraInfo": "quam",
+      "StyleHint": "alias",
       "Hidden": false,
-      "FullName": "Leland Marvin III"
+      "FullName": "Casimer Gibson"
     }
   ]
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 669,
-  "Name": "Fahey-Haag",
-  "Tooltip": "repudiandae",
-  "Rank": 722,
+  "SaleTypeId": 719,
+  "Name": "Klocko Inc and Sons",
+  "Tooltip": "voluptas",
+  "Rank": 899,
   "DurationUnit": "Century",
-  "SaleDuration": 274,
-  "SaleTypeCatId": 30,
+  "SaleDuration": 415,
+  "SaleTypeCatId": 384,
   "Deleted": false,
-  "HasGuide": false,
-  "HasStakeholders": true,
-  "IsAutoAdvance": true,
+  "HasGuide": true,
+  "HasStakeholders": false,
+  "IsAutoAdvance": false,
   "AllowQuoteAlternatives": false,
-  "DefaultQuoteValidity": 903,
-  "QuoteLinesTemplate": 514,
-  "ConfirmationLinesTemplate": 478,
-  "MaxDiscountPercentSet": true,
-  "MinEarningPercentSet": false,
-  "MaxDiscountPercent": 294,
-  "MinEarningPercent": 750,
-  "GroupQuoteLinesBy": 512,
-  "SortGroupLinesBy": 519,
+  "DefaultQuoteValidity": 935,
+  "QuoteLinesTemplate": 31,
+  "ConfirmationLinesTemplate": 481,
+  "MaxDiscountPercentSet": false,
+  "MinEarningPercentSet": true,
+  "MaxDiscountPercent": 674,
+  "MinEarningPercent": 566,
+  "GroupQuoteLinesBy": 3,
+  "SortGroupLinesBy": 818,
   "Stages": [
     {
-      "Id": 536,
-      "Name": "Mertz, Predovic and Cole",
-      "ToolTip": "Officia nulla pariatur.",
+      "Id": 605,
+      "Name": "Raynor, Wolf and Kunze",
+      "ToolTip": "Iste fugit eius ullam ab accusantium ut.",
       "Deleted": false,
-      "Rank": 181,
-      "Type": "voluptate",
-      "ColorBlock": 407,
-      "IconHint": "repudiandae",
-      "Selected": true,
-      "LastChanged": "2012-08-23T18:28:49.4530875+02:00",
+      "Rank": 107,
+      "Type": "non",
+      "ColorBlock": 971,
+      "IconHint": "aut",
+      "Selected": false,
+      "LastChanged": "2009-08-02T11:10:27.2584248+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "earum",
-      "StyleHint": "et",
-      "Hidden": true,
-      "FullName": "Wilburn Dooley",
-      "TableRight": {},
+      "ExtraInfo": "tenetur",
+      "StyleHint": "quia",
+      "Hidden": false,
+      "FullName": "Marcelina Kozey",
+      "TableRight": null,
       "FieldProperties": {
         "fieldName": {
-          "FieldRight": {
-            "Mask": "FULL",
-            "Reason": ""
-          },
-          "FieldType": "System.String",
-          "FieldLength": 336
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 551
         }
       }
     }
   ],
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
-      "FieldType": "System.String",
-      "FieldLength": 706
+      "FieldRight": null,
+      "FieldType": "System.Int32",
+      "FieldLength": 402
     }
   }
 }

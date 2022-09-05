@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Quote/GetConfigurationFields
-id: v1QuoteAgent_GetConfigurationFields
+uid: v1QuoteAgent_GetConfigurationFields
 ---
 
 # POST Agents/Quote/GetConfigurationFields
@@ -11,7 +11,13 @@ POST /api/v1/Agents/Quote/GetConfigurationFields
 
 Used by ADMIN.
 
+
 Asks for metadata needed to populate admin dialog that takes in the information needed to create a connection to an ERP system. The values entered in the dialog are stored in SuperOffice db and used when InitializeConnector is called by the client.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +28,7 @@ Asks for metadata needed to populate admin dialog that takes in the information 
 ```http
 POST /api/v1/Agents/Quote/GetConfigurationFields?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,16 +44,19 @@ POST /api/v1/Agents/Quote/GetConfigurationFields?$select=name,department,categor
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-ConnectionId, ConnectorName
+ConnectionId, ConnectorName 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | ConnectionId | int32 |  |
 | ConnectorName | string |  |
 
+
 ## Response: object
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -69,7 +79,7 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Quote/GetConfigurationFields
@@ -79,10 +89,12 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConnectionId": 259,
-  "ConnectorName": "Feil-Stehr"
+  "ConnectionId": 272,
+  "ConnectorName": "Legros Group"
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -90,28 +102,22 @@ Content-Type: application/json; charset=utf-8
 
 {
   "fieldName": {
-    "FieldKey": "cum",
-    "Rank": 532,
-    "DisplayName": "Pagac, Morissette and Littel",
-    "DisplayDescription": "Phased object-oriented budgetary management",
+    "FieldKey": "tempore",
+    "Rank": 426,
+    "DisplayName": "Schuster LLC",
+    "DisplayDescription": "Right-sized real-time toolset",
     "FieldType": "Checkbox",
-    "ListName": "DuBuque Group",
-    "DefaultValue": "voluptate",
-    "MaxLength": 40,
+    "ListName": "Gerhold Group",
+    "DefaultValue": "omnis",
+    "MaxLength": 823,
     "Access": "Mandatory",
-    "ShowInSearch": true,
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "ShowInSearch": false,
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
+        "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 43
+        "FieldLength": 732
       }
     }
   }

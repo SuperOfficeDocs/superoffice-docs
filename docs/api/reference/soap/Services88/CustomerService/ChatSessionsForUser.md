@@ -13,7 +13,9 @@ Implemented by the <see cref="M:SuperOffice.Services88.ICustomerServiceAgent.Cha
 
 Get all chat TOPICS which this user is a member of. Members means that you have at least one of: Can Respond, Notifications, Listen or Manager
 
+
 **Returns:** Array of chat TOPIC ids the current user can access. NOT chat sessions.
+
 
 [WSDL file for Services88/CustomerService](../Services88-CustomerService.md)
 
@@ -46,6 +48,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## ChatSessionsForUser Response
 
 ```xml
@@ -70,3 +73,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

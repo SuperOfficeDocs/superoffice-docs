@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Person/SaveConsentPerson
-id: v1PersonAgent_SaveConsentPerson
+uid: v1PersonAgent_SaveConsentPerson
 ---
 
 # POST Agents/Person/SaveConsentPerson
@@ -10,6 +10,13 @@ POST /api/v1/Agents/Person/SaveConsentPerson
 ```
 
 Updates the existing ConsentPerson or creates a new ConsentPerson if the id parameter is empty
+
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -25,9 +32,9 @@ Updates the existing ConsentPerson or creates a new ConsentPerson if the id para
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entity
+## Request Body: entity  
 
-The ConsentPerson to be saved.
+The ConsentPerson to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -38,16 +45,16 @@ The ConsentPerson to be saved.
 | ConsentPurpose |  | The consent purpose |
 | Comment | string | Comment regarding this specific consent |
 
-## Response: object
 
-Carrier object for ConsentPerson.
-Services for the ConsentPerson Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IPersonAgent">Person Agent</see>.
+## Response: 
+
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -60,139 +67,44 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Person/SaveConsentPerson
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConsentPersonId": 849,
-  "ConsentSource": {
-    "ConsentSourceId": 25,
-    "Name": "Kihn-McKenzie",
-    "Tooltip": "nemo",
-    "Rank": 794,
-    "Key": "nam",
-    "MailTemplateId": 678,
-    "Deleted": true
-  },
-  "LegalBase": {
-    "LegalBaseId": 579,
-    "Name": "Langworth LLC",
-    "Tooltip": "illo",
-    "Rank": 252,
-    "Key": "quod",
-    "Deleted": false
-  },
-  "PersonId": 376,
-  "ConsentPurpose": {
-    "ConsentPurposeId": 932,
-    "Name": "Walter, Huel and Hansen",
-    "ConsentText": "ut",
-    "FormText": "quis",
-    "Key": "et",
-    "Tooltip": "expedita",
-    "Active": 934,
-    "UpdatedDate": "2017-04-05T18:28:49.5300874+02:00",
-    "UpdatedBy": {},
-    "Deleted": false,
-    "Rank": 726,
-    "PrivacyStatementDesc": "aut",
-    "PrivacyStatementUrl": "http://www.example.com/"
-  },
-  "Comment": "accusamus"
+  "ConsentPersonId": 931,
+  "ConsentSource": null,
+  "LegalBase": null,
+  "PersonId": 471,
+  "ConsentPurpose": null,
+  "Comment": "consequuntur"
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConsentPersonId": 721,
-  "ConsentSource": {
-    "ConsentSourceId": 440,
-    "Name": "Medhurst Group",
-    "Tooltip": "perspiciatis",
-    "Rank": 982,
-    "Key": "tempora",
-    "MailTemplateId": 494,
-    "Deleted": true,
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 851
-      }
-    }
-  },
-  "LegalBase": {
-    "LegalBaseId": 236,
-    "Name": "Bahringer Inc and Sons",
-    "Tooltip": "fugit",
-    "Rank": 125,
-    "Key": "sed",
-    "Deleted": true,
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 142
-      }
-    }
-  },
-  "PersonId": 191,
-  "ConsentPurpose": {
-    "ConsentPurposeId": 394,
-    "Name": "Torp, Herman and Hoeger",
-    "ConsentText": "officiis",
-    "FormText": "in",
-    "Key": "ut",
-    "Tooltip": "qui",
-    "Active": 98,
-    "UpdatedDate": "2011-12-05T18:28:49.5310874+01:00",
-    "UpdatedBy": {},
-    "Deleted": false,
-    "Rank": 271,
-    "PrivacyStatementDesc": "fuga",
-    "PrivacyStatementUrl": "http://www.example.com/",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.Int32",
-        "FieldLength": 709
-      }
-    }
-  },
-  "Comment": "id",
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "ConsentPersonId": 676,
+  "ConsentSource": null,
+  "LegalBase": null,
+  "PersonId": 1000,
+  "ConsentPurpose": null,
+  "Comment": "voluptatem",
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
+      "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 786
+      "FieldLength": 676
     }
   }
 }

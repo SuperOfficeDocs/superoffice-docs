@@ -1,6 +1,6 @@
 ---
 title: GET List/ReasonSold/MDOItems
-id: v1ReasonSoldList_GetMDOList
+uid: v1ReasonSoldList_GetMDOList
 ---
 
 # GET List/ReasonSold/MDOItems
@@ -11,6 +11,12 @@ GET /api/v1/List/ReasonSold/MDOItems
 
 Get the MDO list items for "ReasonSold" - with headings and filtering by user group.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -19,9 +25,10 @@ Get the MDO list items for "ReasonSold" - with headings and filtering by user gr
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/ReasonSold/MDOItems?flat=True
-GET /api/v1/List/ReasonSold/MDOItems?query=perferendis
+GET /api/v1/List/ReasonSold/MDOItems?flat=False
+GET /api/v1/List/ReasonSold/MDOItems?query=assumenda
 ```
+
 
 ## Request Headers
 
@@ -36,7 +43,10 @@ GET /api/v1/List/ReasonSold/MDOItems?query=perferendis
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -61,14 +71,16 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 GET /api/v1/List/ReasonSold/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -76,59 +88,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 359,
-    "Name": "Thiel Inc and Sons",
-    "ToolTip": "Quia aut et ipsa.",
+    "Id": 669,
+    "Name": "Tromp, Herzog and Carroll",
+    "ToolTip": "Adipisci sit quibusdam ex voluptas inventore quia.",
     "Deleted": false,
-    "Rank": 545,
-    "Type": "delectus",
+    "Rank": 655,
+    "Type": "error",
     "ChildItems": [
       {
-        "Id": 252,
-        "Name": "Bradtke, Senger and Dickinson",
-        "ToolTip": "Eos fugit rerum neque magnam non aspernatur.",
+        "Id": 299,
+        "Name": "Kihn-Blanda",
+        "ToolTip": "Culpa odio ea cumque.",
         "Deleted": false,
-        "Rank": 835,
-        "Type": "sit",
+        "Rank": 257,
+        "Type": "sed",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "dolores",
-        "ColorBlock": 438,
-        "ExtraInfo": "consequatur",
-        "StyleHint": "quisquam",
-        "FullName": "Guiseppe Huels",
-        "TableRight": {},
+        "IconHint": "cupiditate",
+        "ColorBlock": 9,
+        "ExtraInfo": "sit",
+        "StyleHint": "odit",
+        "FullName": "Kendrick Wolff",
+        "TableRight": null,
         "FieldProperties": {
           "fieldName": {
-            "FieldRight": {
-              "Mask": "FULL",
-              "Reason": ""
-            },
-            "FieldType": "System.Int32",
-            "FieldLength": 365
+            "FieldRight": null,
+            "FieldType": "System.String",
+            "FieldLength": 647
           }
         }
       }
     ],
-    "IconHint": "aliquam",
-    "ColorBlock": 594,
+    "IconHint": "omnis",
+    "ColorBlock": 121,
     "ExtraInfo": "est",
-    "StyleHint": "nihil",
-    "FullName": "Mrs. Abdul Krajcik",
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "StyleHint": "consequatur",
+    "FullName": "Opal Crooks II",
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
+        "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 329
+        "FieldLength": 198
       }
     }
   }

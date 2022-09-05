@@ -16,6 +16,8 @@ Removes members from the selection as  specified in the collection of ContactPer
 * **selectionId:** The id of the selection where to members will be removed.
 * **contactPersonIds:** A collection of ContactPersonId to remove from the static selection.
 
+
+
 [WSDL file for Services85/Selection](../Services85-Selection.md)
 
 Obtain a ticket from the [Services85/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -54,6 +56,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## RemoveContactSelectionMembers Response
 
 ```xml
@@ -73,3 +76,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

@@ -14,9 +14,10 @@ Implemented by the <see cref="M:SuperOffice.Services84.IQuoteAgent.GetAllPriceLi
 Gets the all PriceLists in all currencies, including those inactive. Will return empty array if there is no PriceList available.
 
 * **quoteConnectionId:** Primary key of the connection
-* **currency:** Iso currency like: USD or NOK. See <http://www.currency-iso.org/dl_iso_table_a1.xls> for details. Case insensitive. Will return empty array if there is no PriceList with the stated currency available.
+* **currency:** Iso currency like: USD or NOK. See http://www.currency-iso.org/dl\_iso\_table\_a1.xls for details. Case insensitive. Will return empty array if there is no PriceList with the stated currency available.
 
 **Returns:** The PriceLists that supports a specific currency
+
 
 [WSDL file for Services84/Quote](../Services84-Quote.md)
 
@@ -51,6 +52,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## GetAllPriceLists Response
 
 ```xml
@@ -74,8 +76,8 @@ Application tokens must be specified if calling an Online installation. Applicat
      <Quote:Description xsi:type="xsd:string"></Quote:Description>
      <Quote:Currency xsi:type="xsd:string"></Quote:Currency>
      <Quote:CurrencyName xsi:type="xsd:string"></Quote:CurrencyName>
-     <Quote:ValidFrom xsi:type="xsd:dateTime">2021-11-30T13:22:19Z</Quote:ValidFrom>
-     <Quote:ValidTo xsi:type="xsd:dateTime">2021-11-30T13:22:19Z</Quote:ValidTo>
+     <Quote:ValidFrom xsi:type="xsd:dateTime">2022-08-26T08:51:39Z</Quote:ValidFrom>
+     <Quote:ValidTo xsi:type="xsd:dateTime">2022-08-26T08:51:39Z</Quote:ValidTo>
      <Quote:IsActive xsi:type="xsd:boolean">false</Quote:IsActive>
     </Quote:PriceList>
    </Quote:Response>
@@ -84,3 +86,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

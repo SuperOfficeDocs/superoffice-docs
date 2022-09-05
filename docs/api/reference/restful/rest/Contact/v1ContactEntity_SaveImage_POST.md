@@ -1,6 +1,6 @@
 ---
 title: POST Contact/{id}/Image
-id: v1ContactEntity_SaveImage_POST
+uid: v1ContactEntity_SaveImage_POST
 ---
 
 # POST Contact/{id}/Image
@@ -11,11 +11,18 @@ POST /api/v1/Contact/{contactId}/Image
 
 Save an image to a contact.
 
+
 Updating the image will update the ImageInfo automatically.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | contactId | int32 | Contact id **Required** |
+
+
 
 ## Request Headers
 
@@ -31,11 +38,15 @@ Updating the image will update the ImageInfo automatically.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: image binary
+## Request Body: image binary 
 
-Bitmap (GIF, TIFF, PNG or JPG format)
+Bitmap (GIF, TIFF, PNG or JPG format) 
+
+
 
 ## Response: int32
+
+The blob id for the image
 
 | Response | Description |
 |----------------|-------------|
@@ -44,18 +55,21 @@ Bitmap (GIF, TIFF, PNG or JPG format)
 
 Response body: int32
 
-## Sample Request
+
+## Sample request
 
 ```http!
 POST /api/v1/Contact/{contactId}/Image
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 The blob id for the image
 Content-Type: application/json; charset=utf-8
 
-56
+898
 ```

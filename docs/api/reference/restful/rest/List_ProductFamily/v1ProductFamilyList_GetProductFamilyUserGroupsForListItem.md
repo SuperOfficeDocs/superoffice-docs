@@ -1,6 +1,6 @@
 ---
 title: GET List/ProductFamily/Items/{id}/UserGroups
-id: v1ProductFamilyList_GetProductFamilyUserGroupsForListItem
+uid: v1ProductFamilyList_GetProductFamilyUserGroupsForListItem
 ---
 
 # GET List/ProductFamily/Items/{id}/UserGroups
@@ -11,11 +11,18 @@ GET /api/v1/List/ProductFamily/Items/{itemId}/UserGroups
 
 Gets user groups visible for the ProductFamily list's item.
 
+
 Calls the List agent service GetHeadings.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | itemId | int32 | The ID of the item to get. **Required** |
+
+
 
 ## Request Headers
 
@@ -30,7 +37,10 @@ Calls the List agent service GetHeadings.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -58,14 +68,16 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 GET /api/v1/List/ProductFamily/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -73,65 +85,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 64,
-    "Name": "Prosacco, Rowe and Lockman",
-    "ToolTip": "Perspiciatis sapiente est hic sed.",
+    "Id": 814,
+    "Name": "Sawayn-Reichel",
+    "ToolTip": "Assumenda ex nulla veniam.",
     "Deleted": false,
-    "Rank": 396,
-    "Type": "id",
-    "ColorBlock": 800,
-    "IconHint": "facilis",
-    "Selected": false,
-    "LastChanged": "2006-03-07T18:25:52.0122124+01:00",
+    "Rank": 628,
+    "Type": "odit",
+    "ColorBlock": 366,
+    "IconHint": "eos",
+    "Selected": true,
+    "LastChanged": "2010-11-29T11:10:54.4339392+01:00",
     "ChildItems": [
       {
-        "Id": 891,
-        "Name": "Rau Inc and Sons",
-        "ToolTip": "Sed est ut sit.",
-        "Deleted": true,
-        "Rank": 87,
-        "Type": "ut",
-        "ColorBlock": 685,
-        "IconHint": "distinctio",
+        "Id": 812,
+        "Name": "Little-Brakus",
+        "ToolTip": "Et doloremque voluptatibus voluptatem voluptas.",
+        "Deleted": false,
+        "Rank": 659,
+        "Type": "repellat",
+        "ColorBlock": 154,
+        "IconHint": "corrupti",
         "Selected": true,
-        "LastChanged": "1995-09-15T18:25:52.0122124+02:00",
+        "LastChanged": "2005-07-29T11:10:54.4349299+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "hic",
-        "StyleHint": "non",
+        "ExtraInfo": "qui",
+        "StyleHint": "dolores",
         "Hidden": false,
-        "FullName": "Mr. Camden Streich",
-        "TableRight": {},
+        "FullName": "Simone Treutel",
+        "TableRight": null,
         "FieldProperties": {
           "fieldName": {
-            "FieldRight": {
-              "Mask": "FULL",
-              "Reason": ""
-            },
-            "FieldType": "System.Int32",
-            "FieldLength": 670
+            "FieldRight": null,
+            "FieldType": "System.String",
+            "FieldLength": 144
           }
         }
       }
     ],
-    "ExtraInfo": "omnis",
-    "StyleHint": "pariatur",
+    "ExtraInfo": "occaecati",
+    "StyleHint": "quisquam",
     "Hidden": false,
-    "FullName": "Maxwell Heller",
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "FullName": "Miss Jasen Langosh II",
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
+        "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 865
+        "FieldLength": 378
       }
     }
   }

@@ -1,6 +1,6 @@
 ---
 title: PUT List/ConsentSource/Headings
-id: v1ConsentSourceList_PutConsentSourceHeadings
+uid: v1ConsentSourceList_PutConsentSourceHeadings
 ---
 
 # PUT List/ConsentSource/Headings
@@ -11,7 +11,14 @@ PUT /api/v1/List/ConsentSource/Headings
 
 Saves headings for the ConsentSource list.
 
+
 Calls the List agent service SaveHeadingsFromListDefinition.
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -27,9 +34,9 @@ Calls the List agent service SaveHeadingsFromListDefinition.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entities
+## Request Body: entities  
 
-The headings to be saved.
+The headings to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -40,7 +47,10 @@ The headings to be saved.
 | Rank | int32 | Rank order |
 | UdListDefinitionId | int32 | The id of the list which this heading belongs to |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -59,34 +69,36 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 PUT /api/v1/List/ConsentSource/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 9,
-    "Name": "McLaughlin-Zulauf",
-    "Tooltip": "error",
-    "Deleted": false,
-    "Rank": 391,
-    "UdListDefinitionId": 573
+    "HeadingId": 470,
+    "Name": "Keeling-Windler",
+    "Tooltip": "atque",
+    "Deleted": true,
+    "Rank": 538,
+    "UdListDefinitionId": 819
   },
   {
-    "HeadingId": 9,
-    "Name": "McLaughlin-Zulauf",
-    "Tooltip": "error",
-    "Deleted": false,
-    "Rank": 391,
-    "UdListDefinitionId": 573
+    "HeadingId": 470,
+    "Name": "Keeling-Windler",
+    "Tooltip": "atque",
+    "Deleted": true,
+    "Rank": 538,
+    "UdListDefinitionId": 819
   }
 ]
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -94,24 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 627,
-    "Name": "Hand Inc and Sons",
-    "Tooltip": "quaerat",
-    "Deleted": false,
-    "Rank": 253,
-    "UdListDefinitionId": 269,
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "HeadingId": 640,
+    "Name": "Connelly Inc and Sons",
+    "Tooltip": "reiciendis",
+    "Deleted": true,
+    "Rank": 44,
+    "UdListDefinitionId": 309,
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": "morph extensible supply-chains"
-        },
+        "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 991
+        "FieldLength": 11
       }
     }
   }

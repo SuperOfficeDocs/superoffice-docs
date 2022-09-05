@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Quote/CreateDefaultProduct
-id: v1QuoteAgent_CreateDefaultProduct
+uid: v1QuoteAgent_CreateDefaultProduct
 ---
 
 # POST Agents/Quote/CreateDefaultProduct
@@ -11,7 +11,14 @@ POST /api/v1/Agents/Quote/CreateDefaultProduct
 
 Set default values into a new Product.
 
+
 NetServer calculates default values on the entity, which is required when creating/storing a new instance
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -26,18 +33,16 @@ NetServer calculates default values on the entity, which is required when creati
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response: object
 
-Information about a Product from the ERP system. This may be fetched from SuperOffice Product table through the SO Connector
+## Response: 
 
-Carrier object for Product.
-Services for the Product Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IQuoteAgent">Quote Agent</see>.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -57,7 +62,7 @@ Response body: object
 | ProductCategoryKey | string | Either a List id to an id from a connector provided list, or, if the connection doesn’t support lists, a text with the actual product category. |
 | ProductFamilyKey | string | Either a List id to an id from a connector provided list, or, if the connection doesn't support lists, a text with the actual product family. |
 | ProductTypeKey | string | Either a List id to an id from a connector provided list, or, if the connection doesn’t support lists, a text with the actual product type. |
-| VAT | double | Tax/VAT if available from ERP system. THIS IS A PERCENTAGE. In the SuperOffice product register, this field is available in the product admin GUI. |
+| VAT | double | Tax/VAT if available from ERP system. THIS IS A PERCENTAGE. In the Superoffice product register, this field is available in the product admin GUI. |
 | VATInfo | string | A field for putting VATInfo you need to show in the final quoteDocument, like the VAT type that is used. Not used in any business logic in SuperOffice; available to document templates. |
 | UnitCost | double | The cost price. Might not be given, use Decimal.MinValue to signal this. |
 | UnitMinimumPrice | double | The minimum price this salesman can offer to his customer. This might be cost price if there is no policy. Might not be given, use Decimal.MinValue to signal this. |
@@ -78,99 +83,89 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Quote/CreateDefaultProduct
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 993,
-  "ERPProductKey": "aperiam",
-  "ERPPriceListKey": "eum",
-  "Name": "Senger-Zboncak",
-  "Description": "Up-sized logistical ability",
-  "Code": "sint",
-  "PriceUnit": "aliquid",
-  "QuantityUnit": "officia",
+  "ProductId": 583,
+  "ERPProductKey": "dolor",
+  "ERPPriceListKey": "esse",
+  "Name": "Smitham-Nolan",
+  "Description": "Multi-layered regional info-mediaries",
+  "Code": "dolorem",
+  "PriceUnit": "adipisci",
+  "QuantityUnit": "facilis",
   "IsSubscription": false,
-  "SubscriptionUnit": "consequatur",
-  "DefaultSubscriptionQuantity": 1429.104,
-  "ItemNumber": "1017902",
+  "SubscriptionUnit": "amet",
+  "DefaultSubscriptionQuantity": 11041.082,
+  "ItemNumber": "864629",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "alias",
-  "ProductTypeKey": "et",
-  "VAT": 21869.052,
-  "VATInfo": "recusandae",
-  "UnitCost": 18380.91,
-  "UnitMinimumPrice": 20405.474,
-  "UnitListPrice": 28300.02,
-  "InAssortment": true,
-  "Supplier": "distinctio",
-  "SupplierCode": "eveniet",
-  "Rights": "quis",
-  "Rule": "eum",
+  "ProductFamilyKey": "quia",
+  "ProductTypeKey": "sed",
+  "VAT": 23589.618,
+  "VATInfo": "cupiditate",
+  "UnitCost": 29854.484,
+  "UnitMinimumPrice": 20101.476,
+  "UnitListPrice": 20715.739999999998,
+  "InAssortment": false,
+  "Supplier": "est",
+  "SupplierCode": "et",
+  "Rights": "et",
+  "Rule": "libero",
   "ExtraInfo": [
     {
-      "Name": "Walker, Heller and Boyle",
-      "Value": "non",
+      "Name": "Heathcote, Prohaska and Mitchell",
+      "Value": "eligendi",
       "Type": "Image",
-      "TableRight": {},
+      "TableRight": null,
       "FieldProperties": {
         "fieldName": {
-          "FieldRight": {
-            "Mask": "FULL",
-            "Reason": ""
-          },
-          "FieldType": "System.String",
-          "FieldLength": 79
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 710
         }
       }
     },
     {
-      "Name": "Walker, Heller and Boyle",
-      "Value": "non",
+      "Name": "Heathcote, Prohaska and Mitchell",
+      "Value": "eligendi",
       "Type": "Image",
-      "TableRight": {},
+      "TableRight": null,
       "FieldProperties": {
         "fieldName": {
-          "FieldRight": {
-            "Mask": "FULL",
-            "Reason": ""
-          },
-          "FieldType": "System.String",
-          "FieldLength": 79
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 710
         }
       }
     }
   ],
-  "RawExtraInfo": "quas",
-  "ExtraField1": "ut",
-  "ExtraField2": "quia",
-  "ExtraField3": "possimus",
-  "ExtraField4": "amet",
-  "ExtraField5": "repellat",
-  "InStock": 11003.474,
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "RawExtraInfo": "pariatur",
+  "ExtraField1": "dolores",
+  "ExtraField2": "laudantium",
+  "ExtraField3": "rerum",
+  "ExtraField4": "quisquam",
+  "ExtraField5": "distinctio",
+  "InStock": 24570.559999999998,
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
-      "FieldType": "System.Int32",
-      "FieldLength": 690
+      "FieldRight": null,
+      "FieldType": "System.String",
+      "FieldLength": 179
     }
   }
 }

@@ -5,7 +5,7 @@ description: Lists the enum values for TicketBaseStatus.
 so.generated: true
 keywords:
   - "database"
-so.date: 04.12.2022
+so.date: 08.26.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -24,6 +24,14 @@ The &amp;apos;classic&amp;apos; ticket status. I.e. active/closed/postponed/dele
 |Postponed|3|Request has been postponed|
 |Deleted|4|Request has been deleted|
 |Merged|5|Request has been merged with another request|
+|PostponedSpecific|1001|Should only be used for UI, when saved to DB it will be converted to Postponed|
+|Postponed1Hour|1002|Should only be used for UI, when saved to DB it will be converted to Postponed|
+|Postponed2Hours|1003|Should only be used for UI, when saved to DB it will be converted to Postponed|
+|Postponed3Hours|1004|Should only be used for UI, when saved to DB it will be converted to Postponed|
+|Postponed4Hours|1005|Should only be used for UI, when saved to DB it will be converted to Postponed|
+|PostponedDay|1006|Should only be used for UI, when saved to DB it will be converted to Postponed|
+|PostponedWeek|1007|Should only be used for UI, when saved to DB it will be converted to Postponed|
+|PostponedMonth|1008|Should only be used for UI, when saved to DB it will be converted to Postponed|
 
 ## Usage
 

@@ -1,6 +1,6 @@
 ---
 title: PUT List/ConsentSource/Items/{id}
-id: v1ConsentSourceList_PutConsentSource
+uid: v1ConsentSourceList_PutConsentSource
 ---
 
 # PUT List/ConsentSource/Items/{id}
@@ -11,11 +11,18 @@ PUT /api/v1/List/ConsentSource/Items/{id}
 
 Updates the existing ConsentSource
 
+
 Calls the List agent service SaveConsentSource.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | id | int32 | The id of ConsentSource to be saved. **Required** |
+
+
 
 ## Request Headers
 
@@ -31,9 +38,9 @@ Calls the List agent service SaveConsentSource.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entity
+## Request Body: entity  
 
-The details of ConsentSource to be saved.
+The details of ConsentSource to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -45,17 +52,17 @@ The details of ConsentSource to be saved.
 | MailTemplateId | int32 | The mail template to use when automatically sending emails to new persons created with this consent source. |
 | Deleted | bool | true if the ConsentSource is deleted |
 
-## Response: object
 
-Carrier object for ConsentSource.
-Services for the ConsentSource Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IListAgent">List Agent</see>.
+## Response: 
+
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 | 400 | Bad request. Entity to save is not in request body. |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -69,50 +76,46 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 PUT /api/v1/List/ConsentSource/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConsentSourceId": 724,
-  "Name": "McLaughlin-Kertzmann",
-  "Tooltip": "qui",
-  "Rank": 136,
-  "Key": "quidem",
-  "MailTemplateId": 678,
-  "Deleted": true
+  "ConsentSourceId": 761,
+  "Name": "Barrows, Pouros and Murphy",
+  "Tooltip": "minima",
+  "Rank": 901,
+  "Key": "id",
+  "MailTemplateId": 220,
+  "Deleted": false
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConsentSourceId": 58,
-  "Name": "Emmerich Group",
-  "Tooltip": "nisi",
-  "Rank": 379,
-  "Key": "ut",
-  "MailTemplateId": 988,
+  "ConsentSourceId": 278,
+  "Name": "Glover, Corkery and Gerhold",
+  "Tooltip": "quidem",
+  "Rank": 664,
+  "Key": "debitis",
+  "MailTemplateId": 440,
   "Deleted": true,
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
+      "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 767
+      "FieldLength": 230
     }
   }
 }

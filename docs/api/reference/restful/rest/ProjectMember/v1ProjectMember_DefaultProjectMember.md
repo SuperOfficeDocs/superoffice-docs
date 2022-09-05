@@ -1,6 +1,6 @@
 ---
 title: GET ProjectMember/default
-id: v1ProjectMember_DefaultProjectMember
+uid: v1ProjectMember_DefaultProjectMember
 ---
 
 # GET ProjectMember/default
@@ -11,7 +11,14 @@ GET /api/v1/ProjectMember/default
 
 Set default values into a new ProjectMember.
 
+
 NetServer calculates default values on the entity, which is required when creating/storing a new instance Calls the Project agent service CreateDefaultProjectMember.
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -26,18 +33,16 @@ NetServer calculates default values on the entity, which is required when creati
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response: object
 
-A person can be a member of multiple projects, with a different comment and member type in each project.
+## Response: 
 
-Carrier object for ProjectMember.
-Services for the ProjectMember Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IProjectAgent">Project Agent</see>.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -58,60 +63,56 @@ Response body: object
 | ProjectMemberTypeName | string | The projectmembers type name: 'secretary', 'member', etc. |
 | Phone | string | Phone number |
 | PhoneId | int32 | The phone id |
-| ProjectMemberTypeId | int32 | ProjectMember Type Id - from the ProjectMemberType list.  <br />Use MDO List name "PMembType" to get list items. |
+| ProjectMemberTypeId | int32 | ProjectMember Type Id - from the ProjectMemberType list.  <para>Use MDO List name "PMembType" to get list items.</para> |
 | EmailAddressName | string | The e-mail address description |
 | Comment | string | Comment text on the project membership |
 | FullName | string | The person's full name localized to the current culture/country.  (internal name used in clients for employees) |
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 GET /api/v1/ProjectMember/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectmemberId": 817,
-  "ContactId": 23,
-  "ProjectId": 496,
-  "ContactName": "Hermiston-Funk",
+  "ProjectmemberId": 32,
+  "ContactId": 362,
+  "ProjectId": 58,
+  "ContactName": "Wisozk-Wolf",
   "ContactDepartment": "",
-  "ProjectName": "Kling-Sipes",
-  "EmailId": 989,
-  "EmailAddress": "floy.labadie@prosacco.us",
-  "CountryId": 285,
-  "Firstname": "Alberto",
-  "MiddleName": "Zulauf Group",
-  "Lastname": "Howe",
-  "PersonId": 175,
-  "Mrmrs": "eos",
-  "ProjectMemberTypeName": "Schaden-Wilderman",
-  "Phone": "(824)016-4763",
-  "PhoneId": 74,
-  "ProjectMemberTypeId": 342,
-  "EmailAddressName": "gisselle_dickinson@smithbaumbach.uk",
-  "Comment": "impedit",
-  "FullName": "Maymie Kulas",
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "ProjectName": "Fadel, Balistreri and O'Keefe",
+  "EmailId": 253,
+  "EmailAddress": "rosalia@rodriguezoconner.us",
+  "CountryId": 471,
+  "Firstname": "Abagail",
+  "MiddleName": "Mitchell-McGlynn",
+  "Lastname": "Bruen",
+  "PersonId": 549,
+  "Mrmrs": "et",
+  "ProjectMemberTypeName": "Lowe-Smith",
+  "Phone": "109.434.1895 x5792",
+  "PhoneId": 506,
+  "ProjectMemberTypeId": 647,
+  "EmailAddressName": "emmie.ratke@casper.biz",
+  "Comment": "officiis",
+  "FullName": "Clemens Glover",
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": "innovate customized paradigms"
-      },
+      "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 434
+      "FieldLength": 625
     }
   }
 }

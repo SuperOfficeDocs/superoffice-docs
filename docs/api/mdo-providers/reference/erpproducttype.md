@@ -7,7 +7,7 @@ keywords:
   - "mdo provider"
   - "erpproducttype"
 so.generated: true
-so.date: 03.19.2021
+so.date: 08.26.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -15,7 +15,6 @@ so.envir:
 ---
 
 # "erpproducttype" MDO List
-
 Dynamic provider that dispatches Quote Connector lists, based on QuoteAlternativeId or SaleId and "Erp"+&lt;list name&gt;.
 Consider using "QM_"+&lt;sale_id&gt;+&lt;list name&gt; instead if you can.
 
@@ -33,6 +32,10 @@ The name of the MDO list is 'erpproducttype'.
 
 Separator: &
 
+
+
+
+
 ## Sample Request
 
 ```http!
@@ -44,7 +47,6 @@ Accept-Language: *
 ```
 
 ## Sample Code
-
 ```cs
 var listProvider = SuperOffice.CRM.Lists.SoListProviderFactory.Create("erpproducttype", forceFlatList: true);
 foreach (var item in listProvider.RootItems) {
@@ -58,6 +60,7 @@ foreach (var item in listProvider.RootItems) {
 |Id   | Name  |StyleHint|ExtraInfo |
 | --- | ----- | ------- | -------- |
 | 2 | Example | | |
+
 
 ## Related MDO Lists
 

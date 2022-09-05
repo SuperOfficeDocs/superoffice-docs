@@ -1,6 +1,6 @@
 ---
 title: GET Person/{id}/ImageInfo
-id: v1PersonEntity_GetImageInfo
+uid: v1PersonEntity_GetImageInfo
 ---
 
 # GET Person/{id}/ImageInfo
@@ -11,11 +11,18 @@ GET /api/v1/Person/{personId}/ImageInfo
 
 Get the Blob that describes the given person's picture.
 
+
 The actual bitmap is accessible via /api/Services80/person/123/image/content.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | personId | int32 | Person id **Required** |
+
+
 
 ## Request Headers
 
@@ -30,16 +37,16 @@ The actual bitmap is accessible via /api/Services80/person/123/image/content.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response: object
 
-Carrier object for BlobEntity.
-Services for the BlobEntity Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IBLOBAgent">BLOB Agent</see>.
+## Response: 
+
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -59,94 +66,42 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 GET /api/v1/Person/{personId}/ImageInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Sat, 24 Oct 2015 18:25:50 G10T
+Last-Modified: Wed, 13 Sep 2006 11:10:53 G9T
 
 {
-  "BlobId": 256,
-  "BlobSize": 626,
-  "Description": "Adaptive bi-directional ability",
-  "ExtraInfo": "illum",
+  "BlobId": 755,
+  "BlobSize": 985,
+  "Description": "Stand-alone upward-trending conglomeration",
+  "ExtraInfo": "iste",
   "IsEncrypted": true,
   "IsZipped": true,
-  "MimeType": "dicta",
-  "OriginalSize": 955,
-  "CreatedDate": "2012-12-31T18:25:50.7858837+01:00",
-  "UpdatedDate": "2015-10-24T18:25:50.7858837+02:00",
-  "CreatedBy": {
-    "AssociateId": 382,
-    "Name": "Bradtke Group",
-    "PersonId": 254,
-    "Rank": 492,
-    "Tooltip": "dolor",
-    "Type": "AnonymousAssociate",
-    "GroupIdx": 798,
-    "FullName": "Hilma Batz",
-    "FormalName": "Zulauf LLC",
-    "Deleted": false,
-    "EjUserId": 761,
-    "UserName": "Osinski-Muller",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.Int32",
-        "FieldLength": 16
-      }
-    }
-  },
-  "UpdatedBy": {
-    "AssociateId": 820,
-    "Name": "Metz, Wilkinson and Bergstrom",
-    "PersonId": 109,
-    "Rank": 45,
-    "Tooltip": "eum",
-    "Type": "AnonymousAssociate",
-    "GroupIdx": 111,
-    "FullName": "Ruby Emmerich",
-    "FormalName": "Rutherford-Blick",
-    "Deleted": false,
-    "EjUserId": 210,
-    "UserName": "Marquardt, Dicki and Predovic",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.Int32",
-        "FieldLength": 329
-      }
-    }
-  },
-  "ConceptualType": "et",
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "MimeType": "quia",
+  "OriginalSize": 668,
+  "CreatedDate": "2005-04-26T11:10:53.0531793+02:00",
+  "UpdatedDate": "2006-09-13T11:10:53.0531793+02:00",
+  "CreatedBy": null,
+  "UpdatedBy": null,
+  "ConceptualType": "esse",
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
-      "FieldType": "System.String",
-      "FieldLength": 436
+      "FieldRight": null,
+      "FieldType": "System.Int32",
+      "FieldLength": 17
     }
   }
 }

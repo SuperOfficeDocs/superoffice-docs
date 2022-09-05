@@ -7,7 +7,7 @@ keywords:
   - "mdo provider"
   - "person_freetextsearch"
 so.generated: true
-so.date: 03.19.2021
+so.date: 08.26.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -15,27 +15,29 @@ so.envir:
 ---
 
 # "person_freetextsearch" MDO List
-
 Provider for selecting a Person - without contact search.
 Does keyword matching and scoring across multiple
 tables using freetext index.
 
 User's own contacts, recently added + modified contacts, contacts modified or created by user.
 Matches on word boundaries or at start of field are scored extra highly.
-
+<para />
 id = person_id,
-
+<para />
 Name = contact.name + department or person first+last name (contact name + department)
-
+<para />
 ExtraInfo = contact_id,
-
+<para />
 IconHint = Personwithcontact or Personwithoutcontact
-
+<para />
 Type = "Person"
 Stopped contacts are marked with stylehint = "stop" (but item.deleted = false)
 
 Implemented by the <see cref="T:SuperOffice.CRM.Lists.PersonListFreetextSearchProvider">PersonListFreetextSearchProvider</see> class.
 The name of the MDO list is 'person_freetextsearch'.
+
+
+
 
 ## Sample Request
 
@@ -44,10 +46,10 @@ GET /api/v1/MDOList/person_freetextsearch
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: *
+
 ```
 
 ## Sample Code
-
 ```cs
 var listProvider = SuperOffice.CRM.Lists.SoListProviderFactory.Create("person_freetextsearch", forceFlatList: true);
 foreach (var item in listProvider.RootItems) {
@@ -70,17 +72,18 @@ foreach (var item in listProvider.RootItems) {
 |16|Geir Grønbeck||2|
 |17|Hans Hansen||2|
 |18|Ingrid Istad||2|
-|19|Arne Arnesen||3|
-|20|Arnt Arntsen||3|
-|21|Arnhild Arvestad||4|
-|22|Arjan Abelsen||4|
-|23|Britt Bærum||6|
-|24|Bente Båstad||6|
-|25|Bjørn Bjørnsen||5|
-|26|Bjørge Bastesen||5|
-|27|Carl-Oskar Cederström||8|
-|28|Cidrik Culien||8|
-|29|Cecilie Carlsen||7|
+|147|Adm0||2|
+|148|Adm1||2|
+|149|Adm2||2|
+|150|Adm3||2|
+|151|Adm4||2|
+|152|Adm5||2|
+|153|Sal0||2|
+|154|Sal1||2|
+|155|Sal2||2|
+|156|Sal3||2|
+|157|Sal4||2|
+
 
 ## Related MDO Lists
 

@@ -8,10 +8,11 @@ title: Services88.ConfigurationAgent WSDL
 
 ```xml
 <?xml version="1.0" encoding="utf-8"?>
-<wsdl:definitions name="WcfConfigurationService" targetNamespace="http://www.superoffice.net/ws/crm/NetServer/Services88" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:tns="http://www.superoffice.net/ws/crm/NetServer/Services88" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<wsdl:definitions name="WcfConfigurationService" targetNamespace="http://www.superoffice.net/ws/crm/NetServer/Services88" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tns="http://www.superoffice.net/ws/crm/NetServer/Services88" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing">
   <wsdl:types>
     <xs:schema elementFormDefault="qualified" targetNamespace="http://www.superoffice.net/ws/crm/NetServer/Services88" xmlns:xs="http://www.w3.org/2001/XMLSchema">
       <xs:import namespace="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+      <xs:import namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
       <xs:element name="CreateDefaultConfigurableScreenDelta">
         <xs:complexType>
           <xs:sequence />
@@ -55,7 +56,8 @@ title: Services88.ConfigurationAgent WSDL
               <xs:element minOccurs="0" name="CreatedDate" type="xs:dateTime" />
               <xs:element minOccurs="0" name="UpdatedBy" nillable="true" type="tns:Associate" />
               <xs:element minOccurs="0" name="CreatedBy" nillable="true" type="tns:Associate" />
-              <xs:element minOccurs="0" name="UserGroupIds" nillable="true" type="q1:ArrayOfint" xmlns:q1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+              <xs:element minOccurs="0" name="AppliesToIds" nillable="true" type="q1:ArrayOfint" xmlns:q1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+              <xs:element minOccurs="0" name="AppliesToKey" nillable="true" type="xs:string" />
             </xs:sequence>
           </xs:extension>
         </xs:complexContent>
@@ -85,6 +87,22 @@ title: Services88.ConfigurationAgent WSDL
               <xs:enumeration value="Delete" />
               <xs:enumeration value="Filtering" />
               <xs:enumeration value="RestrictedUpdate" />
+              <xs:enumeration value="Unused1" />
+              <xs:enumeration value="Uninitialized" />
+              <xs:enumeration value="R">
+                <xs:annotation>
+                  <xs:appinfo>
+                    <EnumerationValue xmlns="http://schemas.microsoft.com/2003/10/Serialization/">1</EnumerationValue>
+                  </xs:appinfo>
+                </xs:annotation>
+              </xs:enumeration>
+              <xs:enumeration value="F">
+                <xs:annotation>
+                  <xs:appinfo>
+                    <EnumerationValue xmlns="http://schemas.microsoft.com/2003/10/Serialization/">16</EnumerationValue>
+                  </xs:appinfo>
+                </xs:annotation>
+              </xs:enumeration>
             </xs:restriction>
           </xs:simpleType>
         </xs:list>
@@ -136,6 +154,13 @@ title: Services88.ConfigurationAgent WSDL
               <xs:enumeration value="UIHintMandatory" />
               <xs:enumeration value="UIHintReadOnly" />
               <xs:enumeration value="UndefinedValue256" />
+              <xs:enumeration value="Nullable">
+                <xs:annotation>
+                  <xs:appinfo>
+                    <EnumerationValue xmlns="http://schemas.microsoft.com/2003/10/Serialization/">32</EnumerationValue>
+                  </xs:appinfo>
+                </xs:annotation>
+              </xs:enumeration>
             </xs:restriction>
           </xs:simpleType>
         </xs:list>
@@ -505,7 +530,7 @@ title: Services88.ConfigurationAgent WSDL
               <xs:element minOccurs="0" name="RecipeId" nillable="true" type="xs:string" />
               <xs:element minOccurs="0" name="DeltaStates" nillable="true" type="tns:ArrayOfDeltaState" />
               <xs:element minOccurs="0" name="DeltaTypes" nillable="true" type="tns:ArrayOfDeltaType" />
-              <xs:element minOccurs="0" name="UserGroupIds" nillable="true" type="q2:ArrayOfint" xmlns:q2="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+              <xs:element minOccurs="0" name="AppliesToIds" nillable="true" type="q2:ArrayOfint" xmlns:q2="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
             </xs:sequence>
           </xs:extension>
         </xs:complexContent>
@@ -564,6 +589,49 @@ title: Services88.ConfigurationAgent WSDL
           </xs:sequence>
         </xs:complexType>
       </xs:element>
+      <xs:element name="SetAppliesToKey">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="RecipeId" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="AppliesToKey" nillable="true" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="SetAppliesToKeyResponse">
+        <xs:complexType>
+          <xs:sequence />
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="GetRecipeAppliesToMappings">
+        <xs:complexType>
+          <xs:sequence />
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="GetRecipeAppliesToMappingsResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="Response" nillable="true" type="tns:StringDictionary" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:complexType name="StringDictionary">
+        <xs:annotation>
+          <xs:appinfo>
+            <IsDictionary xmlns="http://schemas.microsoft.com/2003/10/Serialization/">true</IsDictionary>
+          </xs:appinfo>
+        </xs:annotation>
+        <xs:sequence>
+          <xs:element minOccurs="0" maxOccurs="unbounded" name="StringKeyValuePair">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="Key" nillable="true" type="xs:string" />
+                <xs:element name="Value" nillable="true" type="xs:string" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:sequence>
+      </xs:complexType>
+      <xs:element name="StringDictionary" nillable="true" type="tns:StringDictionary" />
       <xs:element name="GetApplicationConfiguration">
         <xs:complexType>
           <xs:sequence>
@@ -1365,6 +1433,40 @@ title: Services88.ConfigurationAgent WSDL
     <wsdl:part name="Succeeded" element="tns:Succeeded" />
     <wsdl:part name="TimeZone" element="tns:TimeZone" />
   </wsdl:message>
+  <wsdl:message name="SetAppliesToKeyRequest">
+    <wsdl:part name="parameters" element="tns:SetAppliesToKey" />
+  </wsdl:message>
+  <wsdl:message name="SetAppliesToKeyRequest_Headers">
+    <wsdl:part name="ApplicationToken" element="tns:ApplicationToken" />
+    <wsdl:part name="Credentials" element="tns:Credentials" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="SetAppliesToKeyResponse">
+    <wsdl:part name="parameters" element="tns:SetAppliesToKeyResponse" />
+  </wsdl:message>
+  <wsdl:message name="SetAppliesToKeyResponse_Headers">
+    <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
+    <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
+    <wsdl:part name="Succeeded" element="tns:Succeeded" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="GetRecipeAppliesToMappingsRequest">
+    <wsdl:part name="parameters" element="tns:GetRecipeAppliesToMappings" />
+  </wsdl:message>
+  <wsdl:message name="GetRecipeAppliesToMappingsRequest_Headers">
+    <wsdl:part name="ApplicationToken" element="tns:ApplicationToken" />
+    <wsdl:part name="Credentials" element="tns:Credentials" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="GetRecipeAppliesToMappingsResponse">
+    <wsdl:part name="parameters" element="tns:GetRecipeAppliesToMappingsResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetRecipeAppliesToMappingsResponse_Headers">
+    <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
+    <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
+    <wsdl:part name="Succeeded" element="tns:Succeeded" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
   <wsdl:message name="GetApplicationConfigurationRequest">
     <wsdl:part name="parameters" element="tns:GetApplicationConfiguration" />
   </wsdl:message>
@@ -1998,6 +2100,20 @@ title: Services88.ConfigurationAgent WSDL
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Configuration/SaveAndPublish" name="SaveAndPublishRequest" message="tns:SaveAndPublishRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Configuration/SaveAndPublishResponse" name="SaveAndPublishResponse" message="tns:SaveAndPublishResponse" />
     </wsdl:operation>
+    <wsdl:operation name="SetAppliesToKey">
+      <wsdl:documentation>
+        <summary>Set the type of assignTo the deltas of the given recipe should have</summary>
+      </wsdl:documentation>
+      <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Configuration/SetAppliesToKey" name="SetAppliesToKeyRequest" message="tns:SetAppliesToKeyRequest" />
+      <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Configuration/SetAppliesToKeyResponse" name="SetAppliesToKeyResponse" message="tns:SetAppliesToKeyResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="GetRecipeAppliesToMappings">
+      <wsdl:documentation>
+        <summary>Return the a  dictionary with recipeId as key, and chosen appliesTo for that recipe, Like projecttype for projectcardrecipe</summary>
+      </wsdl:documentation>
+      <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Configuration/GetRecipeAppliesToMappings" name="GetRecipeAppliesToMappingsRequest" message="tns:GetRecipeAppliesToMappingsRequest" />
+      <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Configuration/GetRecipeAppliesToMappingsResponse" name="GetRecipeAppliesToMappingsResponse" message="tns:GetRecipeAppliesToMappingsResponse" />
+    </wsdl:operation>
     <wsdl:operation name="GetApplicationConfiguration">
       <wsdl:documentation>
         <summary>Return the application configuration. This is a list of pages, with information about the name, main panel and preference mappings of each page.</summary>
@@ -2482,6 +2598,38 @@ title: Services88.ConfigurationAgent WSDL
         <soap:header message="tns:SaveAndPublishResponse_Headers" part="ExtraInfo" use="literal" />
         <soap:header message="tns:SaveAndPublishResponse_Headers" part="Succeeded" use="literal" />
         <soap:header message="tns:SaveAndPublishResponse_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SetAppliesToKey">
+      <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/Configuration/SetAppliesToKey" style="document" />
+      <wsdl:input name="SetAppliesToKeyRequest">
+        <soap:header message="tns:SetAppliesToKeyRequest_Headers" part="ApplicationToken" use="literal" />
+        <soap:header message="tns:SetAppliesToKeyRequest_Headers" part="Credentials" use="literal" />
+        <soap:header message="tns:SetAppliesToKeyRequest_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="SetAppliesToKeyResponse">
+        <soap:header message="tns:SetAppliesToKeyResponse_Headers" part="ExceptionInfo" use="literal" />
+        <soap:header message="tns:SetAppliesToKeyResponse_Headers" part="ExtraInfo" use="literal" />
+        <soap:header message="tns:SetAppliesToKeyResponse_Headers" part="Succeeded" use="literal" />
+        <soap:header message="tns:SetAppliesToKeyResponse_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetRecipeAppliesToMappings">
+      <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/Configuration/GetRecipeAppliesToMappings" style="document" />
+      <wsdl:input name="GetRecipeAppliesToMappingsRequest">
+        <soap:header message="tns:GetRecipeAppliesToMappingsRequest_Headers" part="ApplicationToken" use="literal" />
+        <soap:header message="tns:GetRecipeAppliesToMappingsRequest_Headers" part="Credentials" use="literal" />
+        <soap:header message="tns:GetRecipeAppliesToMappingsRequest_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="GetRecipeAppliesToMappingsResponse">
+        <soap:header message="tns:GetRecipeAppliesToMappingsResponse_Headers" part="ExceptionInfo" use="literal" />
+        <soap:header message="tns:GetRecipeAppliesToMappingsResponse_Headers" part="ExtraInfo" use="literal" />
+        <soap:header message="tns:GetRecipeAppliesToMappingsResponse_Headers" part="Succeeded" use="literal" />
+        <soap:header message="tns:GetRecipeAppliesToMappingsResponse_Headers" part="TimeZone" use="literal" />
         <soap:body use="literal" />
       </wsdl:output>
     </wsdl:operation>
@@ -2973,3 +3121,4 @@ title: Services88.ConfigurationAgent WSDL
   </wsdl:service>
 </wsdl:definitions>
 ```
+

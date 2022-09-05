@@ -17,6 +17,7 @@ Returns a TableRight for a new row based on tableName parameter.
 
 **Returns:** The TableRight
 
+
 [WSDL file for Services85/Sentry](../Services85-Sentry.md)
 
 Obtain a ticket from the [Services85/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -49,6 +50,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## GetNewTableRight Response
 
 ```xml
@@ -72,3 +74,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

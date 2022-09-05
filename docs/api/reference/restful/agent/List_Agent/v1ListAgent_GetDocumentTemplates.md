@@ -1,6 +1,6 @@
 ---
 title: POST Agents/List/GetDocumentTemplates
-id: v1ListAgent_GetDocumentTemplates
+uid: v1ListAgent_GetDocumentTemplates
 ---
 
 # POST Agents/List/GetDocumentTemplates
@@ -11,6 +11,12 @@ POST /api/v1/Agents/List/GetDocumentTemplates
 
 Returns all available document templates
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Returns all available document templates
 ```http
 POST /api/v1/Agents/List/GetDocumentTemplates?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -34,7 +41,10 @@ POST /api/v1/Agents/List/GetDocumentTemplates?$select=name,department,category/i
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -58,14 +68,16 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/List/GetDocumentTemplates
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -73,29 +85,23 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentTemplateId": 352,
-    "Name": "Anderson, Bergstrom and Koch",
-    "Tooltip": "architecto",
-    "SaveInDb": 880,
-    "Filename": "qui",
-    "DefaultOref": "ratione",
+    "DocumentTemplateId": 248,
+    "Name": "Kuvalis-Lesch",
+    "Tooltip": "at",
+    "SaveInDb": 823,
+    "Filename": "quam",
+    "DefaultOref": "iste",
     "RecordType": "Appointment",
-    "Deleted": 84,
+    "Deleted": 697,
     "Direction": "Incoming",
-    "AutoeventId": 5,
+    "AutoeventId": 199,
     "QuoteDocType": "ConfirmationLines",
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
+        "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 248
+        "FieldLength": 593
       }
     }
   }

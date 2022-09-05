@@ -1,6 +1,6 @@
 ---
 title: POST Agents/CRMScript/GetTriggerScriptEntity
-id: v1CRMScriptAgent_GetTriggerScriptEntity
+uid: v1CRMScriptAgent_GetTriggerScriptEntity
 ---
 
 # POST Agents/CRMScript/GetTriggerScriptEntity
@@ -11,7 +11,15 @@ POST /api/v1/Agents/CRMScript/GetTriggerScriptEntity
 
 Gets a TriggerScriptEntity object.
 
-## Online Restricted: ## The CRMScript agent is not available in Online by default. Access must be requested specifically when app is registered
+
+
+
+## Online Restricted: ## The CRMScript agent is not available in Online by default. Access must be requested specifically when app is registered.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -21,9 +29,10 @@ Gets a TriggerScriptEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/CRMScript/GetTriggerScriptEntity?triggerScriptEntityId=727
+POST /api/v1/Agents/CRMScript/GetTriggerScriptEntity?triggerScriptEntityId=315
 POST /api/v1/Agents/CRMScript/GetTriggerScriptEntity?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -38,18 +47,16 @@ POST /api/v1/Agents/CRMScript/GetTriggerScriptEntity?$select=name,department,cat
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response: object
 
-CRM Trigger Script - The script runs when a given event fires.
+## Response: 
 
-Carrier object for TriggerScriptEntity.
-Services for the TriggerScriptEntity Carrier is available from the <see cref="T:SuperOffice.CRM.Services.ICRMScriptAgent">CRMScript Agent</see>.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -58,7 +65,7 @@ Response body: object
 | ScreenType | string | Event id that triggers script.  See EventHandlerType enum. |
 | Enabled | bool | Whether this screen chooser is enabled or not |
 | UniqueIdentifier | string | Global unique identifier, accross customers/tenants |
-| Source | string | The CRMScript code for this event handler |
+| Source | string | The CRMscript code for this event handler |
 | Registered | date-time | Registered when  in UTC. |
 | RegisteredAssociateId | int32 | Registered by whom |
 | Updated | date-time | Last updated when  in UTC. |
@@ -66,42 +73,38 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/CRMScript/GetTriggerScriptEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 990,
-  "Name": "Emard, Ullrich and Ryan",
+  "ScreenChooserId": 604,
+  "Name": "Ullrich-Howe",
   "ScreenType": "ChatAfterSaveNewMessage",
   "Enabled": false,
-  "UniqueIdentifier": "fuga",
-  "Source": "pariatur",
-  "Registered": "2002-12-06T18:28:48.6399562+01:00",
-  "RegisteredAssociateId": 990,
-  "Updated": "2011-06-27T18:28:48.6399562+02:00",
-  "UpdatedAssociateId": 836,
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "UniqueIdentifier": "odio",
+  "Source": "autem",
+  "Registered": "2017-01-08T11:10:26.3884585+01:00",
+  "RegisteredAssociateId": 865,
+  "Updated": "1995-06-26T11:10:26.3884585+02:00",
+  "UpdatedAssociateId": 982,
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
-      "FieldType": "System.String",
-      "FieldLength": 100
+      "FieldRight": null,
+      "FieldType": "System.Int32",
+      "FieldLength": 413
     }
   }
 }

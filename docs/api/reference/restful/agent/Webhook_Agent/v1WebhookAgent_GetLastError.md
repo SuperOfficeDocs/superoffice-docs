@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Webhook/GetLastError
-id: v1WebhookAgent_GetLastError
+uid: v1WebhookAgent_GetLastError
 ---
 
 # POST Agents/Webhook/GetLastError
@@ -11,7 +11,15 @@ POST /api/v1/Agents/Webhook/GetLastError
 
 Return the most recent error message received when calling this webhook.
 
-## Online Restricted: ## The Webhook agent is not available in Online by default. Access must be requested specifically when app is registered
+
+
+
+## Online Restricted: ## The Webhook agent is not available in Online by default. Access must be requested specifically when app is registered.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +30,7 @@ Return the most recent error message received when calling this webhook.
 ```http
 POST /api/v1/Agents/Webhook/GetLastError?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,15 +46,18 @@ POST /api/v1/Agents/Webhook/GetLastError?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-WebhookId
+WebhookId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | WebhookId | int32 |  |
 
+
 ## Response: string
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -53,23 +65,26 @@ WebhookId
 
 Response body: string
 
-## Sample Request
+
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Webhook/GetLastError
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebhookId": 416
+  "WebhookId": 915
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"ex"
+"delectus"
 ```

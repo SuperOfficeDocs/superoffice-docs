@@ -1,6 +1,6 @@
 ---
 title: PUT List/ProductCategory/Items
-id: v1ProductCategoryList_PutAllProductCategory
+uid: v1ProductCategoryList_PutAllProductCategory
 ---
 
 # PUT List/ProductCategory/Items
@@ -10,6 +10,13 @@ PUT /api/v1/List/ProductCategory/Items
 ```
 
 Update the ProductCategory list
+
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -25,9 +32,9 @@ Update the ProductCategory list
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: listItems
+## Request Body: listItems  
 
-All the updated ProductCategory.
+All the updated ProductCategory. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -38,7 +45,10 @@ All the updated ProductCategory.
 | UdListDefinitionId | int32 | The id of the list which this list item belongs to |
 | Rank | int32 | The rank of the list item |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -57,34 +67,36 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 PUT /api/v1/List/ProductCategory/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 583,
-    "Name": "Upton, Farrell and Beahan",
-    "Tooltip": "libero",
-    "Deleted": true,
-    "UdListDefinitionId": 523,
-    "Rank": 930
+    "Id": 332,
+    "Name": "Schowalter LLC",
+    "Tooltip": "in",
+    "Deleted": false,
+    "UdListDefinitionId": 276,
+    "Rank": 367
   },
   {
-    "Id": 583,
-    "Name": "Upton, Farrell and Beahan",
-    "Tooltip": "libero",
-    "Deleted": true,
-    "UdListDefinitionId": 523,
-    "Rank": 930
+    "Id": 332,
+    "Name": "Schowalter LLC",
+    "Tooltip": "in",
+    "Deleted": false,
+    "UdListDefinitionId": 276,
+    "Rank": 367
   }
 ]
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -92,24 +104,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 252,
-    "Name": "Gislason, Donnelly and Bode",
-    "Tooltip": "dolorem",
+    "Id": 996,
+    "Name": "Donnelly-Renner",
+    "Tooltip": "voluptatibus",
     "Deleted": false,
-    "UdListDefinitionId": 587,
-    "Rank": 44,
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "UdListDefinitionId": 227,
+    "Rank": 742,
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 28
+        "FieldRight": null,
+        "FieldType": "System.Int32",
+        "FieldLength": 444
       }
     }
   }

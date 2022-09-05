@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Configuration/GetWindowPosSizesOnPersonId
-id: v1ConfigurationAgent_GetWindowPosSizesOnPersonId
+uid: v1ConfigurationAgent_GetWindowPosSizesOnPersonId
 ---
 
 # POST Agents/Configuration/GetWindowPosSizesOnPersonId
@@ -11,6 +11,12 @@ POST /api/v1/Agents/Configuration/GetWindowPosSizesOnPersonId
 
 Gets the window and dialog position and size settings belonging to the specified person
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Gets the window and dialog position and size settings belonging to the specified
 ```http
 POST /api/v1/Agents/Configuration/GetWindowPosSizesOnPersonId?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,15 +42,18 @@ POST /api/v1/Agents/Configuration/GetWindowPosSizesOnPersonId?$select=name,depar
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-PersonId
+PersonId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | PersonId | int32 |  |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -67,19 +77,21 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Configuration/GetWindowPosSizesOnPersonId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 53
+  "PersonId": 370
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -87,29 +99,23 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "OwnerWindow": "nobis",
-    "PersonId": 821,
-    "AssociateId": 277,
-    "ExtraId": 256,
-    "ExtraInfo": "voluptatem",
-    "Height": 834,
-    "LeftX": 977,
+    "OwnerWindow": "illum",
+    "PersonId": 115,
+    "AssociateId": 287,
+    "ExtraId": 196,
+    "ExtraInfo": "voluptatibus",
+    "Height": 32,
+    "LeftX": 12,
     "State": "Maximized",
-    "UpperY": 650,
-    "Width": 69,
-    "WindowPosSizeId": 529,
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "UpperY": 925,
+    "Width": 756,
+    "WindowPosSizeId": 803,
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
+        "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 497
+        "FieldLength": 447
       }
     }
   }

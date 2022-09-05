@@ -1,6 +1,6 @@
 ---
 title: PUT List/Priority/Headings
-id: v1PriorityList_PutPriorityHeadings
+uid: v1PriorityList_PutPriorityHeadings
 ---
 
 # PUT List/Priority/Headings
@@ -11,7 +11,14 @@ PUT /api/v1/List/Priority/Headings
 
 Saves headings for the Priority list.
 
+
 Calls the List agent service SaveHeadingsFromListDefinition.
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -27,9 +34,9 @@ Calls the List agent service SaveHeadingsFromListDefinition.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entities
+## Request Body: entities  
 
-The headings to be saved.
+The headings to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -40,7 +47,10 @@ The headings to be saved.
 | Rank | int32 | Rank order |
 | UdListDefinitionId | int32 | The id of the list which this heading belongs to |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -59,34 +69,36 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 PUT /api/v1/List/Priority/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 802,
-    "Name": "Turner-Carroll",
-    "Tooltip": "praesentium",
-    "Deleted": true,
-    "Rank": 790,
-    "UdListDefinitionId": 190
+    "HeadingId": 469,
+    "Name": "Borer Group",
+    "Tooltip": "ad",
+    "Deleted": false,
+    "Rank": 585,
+    "UdListDefinitionId": 585
   },
   {
-    "HeadingId": 802,
-    "Name": "Turner-Carroll",
-    "Tooltip": "praesentium",
-    "Deleted": true,
-    "Rank": 790,
-    "UdListDefinitionId": 190
+    "HeadingId": 469,
+    "Name": "Borer Group",
+    "Tooltip": "ad",
+    "Deleted": false,
+    "Rank": 585,
+    "UdListDefinitionId": 585
   }
 ]
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -94,24 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 61,
-    "Name": "Macejkovic-Glover",
-    "Tooltip": "tempore",
-    "Deleted": true,
-    "Rank": 539,
-    "UdListDefinitionId": 796,
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "HeadingId": 159,
+    "Name": "Dietrich, Boyer and Collins",
+    "Tooltip": "rerum",
+    "Deleted": false,
+    "Rank": 597,
+    "UdListDefinitionId": 183,
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 946
+        "FieldRight": null,
+        "FieldType": "System.Int32",
+        "FieldLength": 40
       }
     }
   }

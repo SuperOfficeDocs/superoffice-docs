@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Sale/GetNextDueDate
-id: v1SaleAgent_GetNextDueDate
+uid: v1SaleAgent_GetNextDueDate
 ---
 
 # POST Agents/Sale/GetNextDueDate
@@ -11,7 +11,13 @@ POST /api/v1/Agents/Sale/GetNextDueDate
 
 Gets the next due date for a sale.
 
+
 The next due date is the next future appointment that is not completed.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +28,7 @@ The next due date is the next future appointment that is not completed.
 ```http
 POST /api/v1/Agents/Sale/GetNextDueDate?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,15 +44,18 @@ POST /api/v1/Agents/Sale/GetNextDueDate?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-SaleId
+SaleId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | SaleId | int32 |  |
 
+
 ## Response: date-time
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -53,23 +63,26 @@ SaleId
 
 Response body: date-time
 
-## Sample Request
+
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Sale/GetNextDueDate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleId": 981
+  "SaleId": 125
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"2015-06-25T18:28:50.1694134+02:00"
+"2003-05-02T11:10:27.8430195+02:00"
 ```

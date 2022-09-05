@@ -1,6 +1,6 @@
 ---
 title: POST Agents/List/GetDocumentTemplateTask
-id: v1ListAgent_GetDocumentTemplateTask
+uid: v1ListAgent_GetDocumentTemplateTask
 ---
 
 # POST Agents/List/GetDocumentTemplateTask
@@ -11,7 +11,13 @@ POST /api/v1/Agents/List/GetDocumentTemplateTask
 
 Returns a Document Template list item as a TaskListItem.
 
+
 The appointment's task is a Document template item when the appointment is a document.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +28,7 @@ The appointment's task is a Document template item when the appointment is a doc
 ```http
 POST /api/v1/Agents/List/GetDocumentTemplateTask?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,26 +44,24 @@ POST /api/v1/Agents/List/GetDocumentTemplateTask?$select=name,department,categor
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-DocumentTemplateId
+DocumentTemplateId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | DocumentTemplateId | int32 |  |
 
-## Response: object
 
-Type of an appointment
+## Response: 
 
-Carrier object for Task.
-Services for the Task Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IListAgent">List Agent</see>.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -66,40 +71,36 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/List/GetDocumentTemplateTask
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 869
+  "DocumentTemplateId": 373
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 724,
-  "Value": "sunt",
-  "Tooltip": "aliquam",
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "Id": 42,
+  "Value": "natus",
+  "Tooltip": "et",
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
+      "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 701
+      "FieldLength": 797
     }
   }
 }

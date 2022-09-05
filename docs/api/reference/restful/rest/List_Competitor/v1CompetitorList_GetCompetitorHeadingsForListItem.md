@@ -1,6 +1,6 @@
 ---
 title: GET List/Competitor/Items/{id}/Headings
-id: v1CompetitorList_GetCompetitorHeadingsForListItem
+uid: v1CompetitorList_GetCompetitorHeadingsForListItem
 ---
 
 # GET List/Competitor/Items/{id}/Headings
@@ -11,11 +11,17 @@ GET /api/v1/List/Competitor/Items/{itemId}/Headings
 
 Gets headings for the Competitor list's item.
 
+
 Calls the List agent service GetHeadings.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | itemId | int32 | The ID of the headings to be get. **Required** |
+
 
 ## Query String Parameters
 
@@ -24,8 +30,9 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/Competitor/Items/{itemId}/Headings?showDeleted=True
+GET /api/v1/List/Competitor/Items/{itemId}/Headings?showDeleted=False
 ```
+
 
 ## Request Headers
 
@@ -40,7 +47,10 @@ GET /api/v1/List/Competitor/Items/{itemId}/Headings?showDeleted=True
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -68,14 +78,16 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 GET /api/v1/List/Competitor/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -83,65 +95,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 687,
-    "Name": "Mayer Inc and Sons",
-    "ToolTip": "Enim eaque nesciunt corrupti.",
-    "Deleted": true,
-    "Rank": 801,
-    "Type": "asperiores",
-    "ColorBlock": 155,
-    "IconHint": "itaque",
+    "Id": 284,
+    "Name": "O'Conner, Treutel and Schmeler",
+    "ToolTip": "Eius consequatur.",
+    "Deleted": false,
+    "Rank": 143,
+    "Type": "aspernatur",
+    "ColorBlock": 843,
+    "IconHint": "omnis",
     "Selected": false,
-    "LastChanged": "2001-01-14T18:25:51.6552946+01:00",
+    "LastChanged": "2009-05-07T11:10:53.9651856+02:00",
     "ChildItems": [
       {
-        "Id": 807,
-        "Name": "Altenwerth Inc and Sons",
-        "ToolTip": "Quia aut laboriosam fugit reiciendis quas.",
-        "Deleted": true,
-        "Rank": 37,
-        "Type": "sapiente",
-        "ColorBlock": 421,
-        "IconHint": "sed",
+        "Id": 267,
+        "Name": "Welch, Mosciski and Upton",
+        "ToolTip": "Harum quisquam voluptate enim sed ipsa.",
+        "Deleted": false,
+        "Rank": 389,
+        "Type": "quae",
+        "ColorBlock": 646,
+        "IconHint": "nostrum",
         "Selected": false,
-        "LastChanged": "1997-10-03T18:25:51.6552946+02:00",
+        "LastChanged": "2013-01-01T11:10:53.9651856+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "fugiat",
-        "StyleHint": "et",
+        "ExtraInfo": "voluptas",
+        "StyleHint": "placeat",
         "Hidden": true,
-        "FullName": "Hugh Maggio",
-        "TableRight": {},
+        "FullName": "Sarah Shania Littel I",
+        "TableRight": null,
         "FieldProperties": {
           "fieldName": {
-            "FieldRight": {
-              "Mask": "FULL",
-              "Reason": ""
-            },
+            "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 174
+            "FieldLength": 219
           }
         }
       }
     ],
-    "ExtraInfo": "quia",
-    "StyleHint": "rerum",
+    "ExtraInfo": "sit",
+    "StyleHint": "aut",
     "Hidden": true,
-    "FullName": "Janet Jacobs",
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": "reinvent proactive systems"
-    },
+    "FullName": "Prof. Max Karen Swift",
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
+        "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 195
+        "FieldLength": 237
       }
     }
   }

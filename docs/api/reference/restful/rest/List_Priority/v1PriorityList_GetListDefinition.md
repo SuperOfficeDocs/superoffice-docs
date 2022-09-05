@@ -1,6 +1,6 @@
 ---
 title: GET List/Priority
-id: v1PriorityList_GetListDefinition
+uid: v1PriorityList_GetListDefinition
 ---
 
 # GET List/Priority
@@ -10,6 +10,13 @@ GET /api/v1/List/Priority
 ```
 
 Gets description of Priority list
+
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -24,17 +31,16 @@ Gets description of Priority list
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response: object
 
-The list entity contains information about a specific list
+## Response: 
 
-ListEntity entity with API _Links added.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -52,47 +58,43 @@ Response body: object
 | FieldProperties | object |  |
 | _Links | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 GET /api/v1/List/Priority
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 338,
-  "Name": "Ebert Inc and Sons",
-  "Tooltip": "quae",
-  "Deleted": false,
-  "Rank": 50,
-  "IsCustomList": true,
-  "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "quaerat",
+  "Id": 722,
+  "Name": "Mayert, Heidenreich and Bahringer",
+  "Tooltip": "eveniet",
+  "Deleted": true,
+  "Rank": 295,
+  "IsCustomList": false,
+  "IsMDOList": true,
+  "UseGroupsAndHeadings": false,
+  "ListType": "earum",
   "InUseByUserDefinedFields": true,
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": "utilize plug-and-play e-tailers"
-  },
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
-      "FieldType": "System.String",
-      "FieldLength": 565
+      "FieldRight": null,
+      "FieldType": "System.Int32",
+      "FieldLength": 71
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

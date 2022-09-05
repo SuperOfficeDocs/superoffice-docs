@@ -17,6 +17,7 @@ Saves a window and dialog position and size setting.
 
 **Returns:** The saved item
 
+
 [WSDL file for Services88/Configuration](../Services88-Configuration.md)
 
 Obtain a ticket from the [Services88/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -61,6 +62,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## SaveWindowPosSize Response
 
 ```xml
@@ -93,3 +95,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

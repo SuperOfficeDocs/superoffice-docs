@@ -1,6 +1,6 @@
 ---
 title: POST Agents/EMail/Send
-id: v1EMailAgent_Send
+uid: v1EMailAgent_Send
 ---
 
 # POST Agents/EMail/Send
@@ -11,7 +11,15 @@ POST /api/v1/Agents/EMail/Send
 
 Send the provided e-mails
 
-## Online Restricted: ## The EMail agent is not available in Online by default. Access must be requested specifically when app is registered
+
+
+
+## Online Restricted: ## The EMail agent is not available in Online by default. Access must be requested specifically when app is registered.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +30,7 @@ Send the provided e-mails
 ```http
 POST /api/v1/Agents/EMail/Send?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,15 +46,18 @@ POST /api/v1/Agents/EMail/Send?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-Emails
+Emails 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | Emails | array |  |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -84,13 +96,13 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/EMail/Send
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
@@ -108,18 +120,18 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "Subject": "ex",
-      "HTMLBody": "est",
-      "From": {},
-      "Sent": "2003-03-29T18:28:48.9709579+01:00",
-      "Size": 225,
+      "Subject": "aut",
+      "HTMLBody": "et",
+      "From": null,
+      "Sent": "2001-04-14T11:10:26.8414523+02:00",
+      "Size": 902,
       "Priority": "High",
       "Flags": "Answered",
-      "MessageID": "consectetur",
-      "PlainBody": "quam",
-      "IsSent": true,
-      "EMailSOInfo": {},
-      "ServerId": 75,
+      "MessageID": "ipsa",
+      "PlainBody": "ipsum",
+      "IsSent": false,
+      "EMailSOInfo": null,
+      "ServerId": 306,
       "Attachments": [
         {},
         {}
@@ -128,12 +140,12 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "FolderName": "Wolff, Blanda and Parker",
-      "EmailItemId": 272,
-      "AccountId": 13,
-      "ReceivedAt": "2013-09-10T18:28:48.9709579+02:00",
-      "InReplyTo": {},
-      "RepliedAt": "1994-10-05T18:28:48.9709579+02:00",
+      "FolderName": "Kutch-Hickle",
+      "EmailItemId": 118,
+      "AccountId": 488,
+      "ReceivedAt": "2004-12-26T11:10:26.8414523+01:00",
+      "InReplyTo": null,
+      "RepliedAt": "2009-08-19T11:10:26.8414523+02:00",
       "HasCalendarData": false,
       "CalMethod": "Add",
       "CalReplyStatus": "Accepted"
@@ -141,6 +153,8 @@ Content-Type: application/json; charset=utf-8
   ]
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -150,248 +164,155 @@ Content-Type: application/json; charset=utf-8
   {
     "To": [
       {
-        "ContactId": 602,
-        "ContactName": "Herman, Prohaska and Hansen",
-        "PersonId": 522,
-        "PersonName": "Gerlach, Feil and Hagenes",
-        "AssociateId": 97,
-        "Address": "dignissimos",
-        "EmailId": 371,
+        "ContactId": 925,
+        "ContactName": "Hirthe Inc and Sons",
+        "PersonId": 881,
+        "PersonName": "Purdy-O'Conner",
+        "AssociateId": 728,
+        "Address": "maiores",
+        "EmailId": 307,
         "DuplicatePersonIds": [
-          492,
-          784
+          829,
+          252
         ],
-        "Name": "Ryan-Murphy",
-        "TableRight": {},
+        "Name": "Wintheiser Group",
+        "TableRight": null,
         "FieldProperties": {
           "fieldName": {
-            "FieldRight": {
-              "Mask": "FULL",
-              "Reason": ""
-            },
+            "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 944
+            "FieldLength": 456
           }
         }
       }
     ],
     "Cc": [
       {
-        "ContactId": 339,
-        "ContactName": "Beatty Inc and Sons",
-        "PersonId": 428,
-        "PersonName": "Lueilwitz LLC",
-        "AssociateId": 480,
-        "Address": "est",
-        "EmailId": 554,
+        "ContactId": 357,
+        "ContactName": "Nolan Inc and Sons",
+        "PersonId": 530,
+        "PersonName": "Hahn LLC",
+        "AssociateId": 760,
+        "Address": "deserunt",
+        "EmailId": 851,
         "DuplicatePersonIds": [
-          257,
-          317
+          890,
+          777
         ],
-        "Name": "Metz-O'Keefe",
-        "TableRight": {},
+        "Name": "Reichert, Turcotte and Huels",
+        "TableRight": null,
         "FieldProperties": {
           "fieldName": {
-            "FieldRight": {
-              "Mask": "FULL",
-              "Reason": ""
-            },
-            "FieldType": "System.String",
-            "FieldLength": 635
+            "FieldRight": null,
+            "FieldType": "System.Int32",
+            "FieldLength": 151
           }
         }
       }
     ],
     "Bcc": [
       {
-        "ContactId": 475,
-        "ContactName": "Greenholt, Miller and Batz",
-        "PersonId": 816,
-        "PersonName": "Rath-Dibbert",
-        "AssociateId": 221,
-        "Address": "debitis",
-        "EmailId": 906,
+        "ContactId": 256,
+        "ContactName": "Walker Group",
+        "PersonId": 756,
+        "PersonName": "Nienow, Beier and Jones",
+        "AssociateId": 759,
+        "Address": "magni",
+        "EmailId": 699,
         "DuplicatePersonIds": [
-          19,
-          696
+          362,
+          654
         ],
-        "Name": "Howe Inc and Sons",
-        "TableRight": {},
+        "Name": "Waters Group",
+        "TableRight": null,
         "FieldProperties": {
           "fieldName": {
-            "FieldRight": {
-              "Mask": "FULL",
-              "Reason": ""
-            },
-            "FieldType": "System.String",
-            "FieldLength": 618
+            "FieldRight": null,
+            "FieldType": "System.Int32",
+            "FieldLength": 684
           }
         }
       }
     ],
-    "Subject": "quisquam",
-    "HTMLBody": "ut",
-    "From": {
-      "ContactId": 469,
-      "ContactName": "Dare, Wiza and Roob",
-      "PersonId": 807,
-      "PersonName": "Hackett, Stracke and Bernhard",
-      "AssociateId": 757,
-      "Address": "iure",
-      "EmailId": 484,
-      "DuplicatePersonIds": [
-        18,
-        889
-      ],
-      "Name": "Altenwerth LLC",
-      "TableRight": {},
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": {
-            "Mask": "FULL",
-            "Reason": ""
-          },
-          "FieldType": "System.Int32",
-          "FieldLength": 952
-        }
-      }
-    },
-    "Sent": "2013-02-18T18:28:48.973955+01:00",
-    "Size": 269,
+    "Subject": "cumque",
+    "HTMLBody": "adipisci",
+    "From": null,
+    "Sent": "2019-02-05T11:10:26.8434537+01:00",
+    "Size": 157,
     "Priority": "High",
     "Flags": "Answered",
-    "MessageID": "et",
-    "PlainBody": "dolor",
+    "MessageID": "sit",
+    "PlainBody": "excepturi",
     "IsSent": false,
-    "EMailSOInfo": {
-      "DocumentId": 785,
-      "AppointmentId": 805,
-      "ProjectId": 349,
-      "SaleId": 722,
-      "Archived": false,
-      "ArchivedAt": "2016-02-13T18:28:48.973955+01:00",
-      "ArchivedBy": 464,
-      "ArchivedDisplayName": "Wunsch-Mertz",
-      "TableRight": {},
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": {
-            "Mask": "FULL",
-            "Reason": ""
-          },
-          "FieldType": "System.String",
-          "FieldLength": 855
-        }
-      }
-    },
-    "ServerId": 890,
+    "EMailSOInfo": null,
+    "ServerId": 49,
     "Attachments": [
       {
-        "Description": "Multi-tiered multi-tasking secured line",
-        "Filename": "ratione",
-        "Size": 205,
-        "Type": "rerum",
-        "Encoding": "accusamus",
-        "Id": "impedit",
-        "Disposition": "fugiat",
+        "Description": "Profound foreground interface",
+        "Filename": "incidunt",
+        "Size": 620,
+        "Type": "sapiente",
+        "Encoding": "quia",
+        "Id": "adipisci",
+        "Disposition": "a",
         "Stream": "GIF89....File contents as raw bytes...",
-        "TableRight": {},
+        "TableRight": null,
         "FieldProperties": {
           "fieldName": {
-            "FieldRight": {
-              "Mask": "FULL",
-              "Reason": ""
-            },
-            "FieldType": "System.Int32",
-            "FieldLength": 286
+            "FieldRight": null,
+            "FieldType": "System.String",
+            "FieldLength": 998
           }
         }
       }
     ],
     "CustomHeaderList": [
       {
-        "Name": "Rohan LLC",
+        "Name": "Fadel LLC",
         "Values": [
-          "exercitationem",
-          "vitae"
+          "tenetur",
+          "suscipit"
         ],
-        "TableRight": {},
+        "TableRight": null,
         "FieldProperties": {
           "fieldName": {
-            "FieldRight": {
-              "Mask": "FULL",
-              "Reason": "visualize enterprise platforms"
-            },
+            "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 798
+            "FieldLength": 703
           }
         }
       },
       {
-        "Name": "Rohan LLC",
+        "Name": "Fadel LLC",
         "Values": [
-          "exercitationem",
-          "vitae"
+          "tenetur",
+          "suscipit"
         ],
-        "TableRight": {},
+        "TableRight": null,
         "FieldProperties": {
           "fieldName": {
-            "FieldRight": {
-              "Mask": "FULL",
-              "Reason": "visualize enterprise platforms"
-            },
+            "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 798
+            "FieldLength": 703
           }
         }
       }
     ],
-    "FolderName": "Pfannerstill-Kuhn",
-    "EmailItemId": 480,
-    "AccountId": 101,
-    "ReceivedAt": "2007-04-16T18:28:48.973955+02:00",
-    "InReplyTo": {
-      "ServerId": 638,
-      "MessageId": "rerum",
-      "Subject": "dolor",
-      "From": {},
-      "To": [
-        {},
-        {}
-      ],
-      "Sent": "1998-07-23T18:28:48.973955+02:00",
-      "Priority": "High",
-      "Flags": "Answered",
-      "Size": 283,
-      "EMailSOInfo": {},
-      "TableRight": {},
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": {
-            "Mask": "FULL",
-            "Reason": ""
-          },
-          "FieldType": "System.Int32",
-          "FieldLength": 148
-        }
-      }
-    },
-    "RepliedAt": "2012-07-09T18:28:48.973955+02:00",
+    "FolderName": "Satterfield, Haley and Anderson",
+    "EmailItemId": 365,
+    "AccountId": 92,
+    "ReceivedAt": "2013-09-30T11:10:26.8444526+02:00",
+    "InReplyTo": null,
+    "RepliedAt": "2005-03-04T11:10:26.8444526+01:00",
     "HasCalendarData": true,
     "CalMethod": "Add",
     "CalReplyStatus": "Accepted",
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 93
+        "FieldRight": null,
+        "FieldType": "System.Int32",
+        "FieldLength": 876
       }
     }
   }

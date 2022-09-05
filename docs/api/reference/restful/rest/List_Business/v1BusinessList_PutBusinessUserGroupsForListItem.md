@@ -1,6 +1,6 @@
 ---
 title: PUT List/Business/Items/{id}/UserGroups
-id: v1BusinessList_PutBusinessUserGroupsForListItem
+uid: v1BusinessList_PutBusinessUserGroupsForListItem
 ---
 
 # PUT List/Business/Items/{id}/UserGroups
@@ -11,11 +11,18 @@ PUT /api/v1/List/Business/Items/{itemId}/UserGroups
 
 Saves user groups visible for the Business list's item.
 
+
 Calls the List agent service SaveHeadingsForListItemFromListDefinition.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | itemId | int32 | The ID of the item to save. **Required** |
+
+
 
 ## Request Headers
 
@@ -31,9 +38,9 @@ Calls the List agent service SaveHeadingsForListItemFromListDefinition.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entities
+## Request Body: entities  
 
-The headings to be saved.
+The headings to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -53,7 +60,10 @@ The headings to be saved.
 | Hidden | bool | True if the ListItem is hidden |
 | FullName | string | The name of the ListItem in its context |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -81,56 +91,58 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 PUT /api/v1/List/Business/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 648,
-    "Name": "Dach-Olson",
-    "ToolTip": "Minima facere.",
+    "Id": 537,
+    "Name": "Simonis Group",
+    "ToolTip": "At dignissimos maiores iusto.",
     "Deleted": false,
-    "Rank": 610,
-    "Type": "ullam",
-    "ColorBlock": 606,
-    "IconHint": "sequi",
-    "Selected": true,
-    "LastChanged": "2019-09-10T18:25:51.6222945+02:00",
+    "Rank": 332,
+    "Type": "praesentium",
+    "ColorBlock": 470,
+    "IconHint": "quae",
+    "Selected": false,
+    "LastChanged": "2016-05-23T11:10:53.9282125+02:00",
     "ChildItems": [
       {
-        "Id": 727,
-        "Name": "Buckridge-Oberbrunner",
-        "ToolTip": "Aperiam consequatur aut aliquid asperiores doloribus.",
+        "Id": 484,
+        "Name": "Wisozk-Lind",
+        "ToolTip": "Nemo suscipit ratione odit reiciendis commodi porro.",
         "Deleted": false,
-        "Rank": 919,
-        "Type": "commodi",
-        "ColorBlock": 813,
-        "IconHint": "unde",
-        "Selected": false,
-        "LastChanged": "2006-09-14T18:25:51.6222945+02:00",
+        "Rank": 332,
+        "Type": "laborum",
+        "ColorBlock": 531,
+        "IconHint": "dolorem",
+        "Selected": true,
+        "LastChanged": "1997-02-15T11:10:53.9282125+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "illo",
-        "StyleHint": "eaque",
+        "ExtraInfo": "qui",
+        "StyleHint": "accusantium",
         "Hidden": false,
-        "FullName": "Declan Gutkowski"
+        "FullName": "Salvatore Skiles"
       }
     ],
-    "ExtraInfo": "aliquid",
-    "StyleHint": "possimus",
+    "ExtraInfo": "possimus",
+    "StyleHint": "voluptatem",
     "Hidden": true,
-    "FullName": "Mrs. Clementine O'Reilly"
+    "FullName": "Allison Reginald Daniel DVM"
   }
 ]
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -138,65 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 894,
-    "Name": "Olson-Schneider",
-    "ToolTip": "Unde sed non libero voluptas voluptatem vero.",
+    "Id": 967,
+    "Name": "Raynor Inc and Sons",
+    "ToolTip": "Vero magnam mollitia eligendi quaerat sint corrupti tempora.",
     "Deleted": false,
-    "Rank": 826,
-    "Type": "modi",
-    "ColorBlock": 696,
-    "IconHint": "quos",
+    "Rank": 668,
+    "Type": "sequi",
+    "ColorBlock": 937,
+    "IconHint": "voluptatem",
     "Selected": false,
-    "LastChanged": "2010-01-27T18:25:51.6232945+01:00",
+    "LastChanged": "2008-06-23T11:10:53.931215+02:00",
     "ChildItems": [
       {
-        "Id": 27,
-        "Name": "Morissette-Feeney",
-        "ToolTip": "Quia sed et non optio.",
+        "Id": 379,
+        "Name": "Brekke LLC",
+        "ToolTip": "Rerum quaerat porro.",
         "Deleted": false,
-        "Rank": 674,
-        "Type": "ut",
-        "ColorBlock": 684,
-        "IconHint": "commodi",
+        "Rank": 244,
+        "Type": "omnis",
+        "ColorBlock": 748,
+        "IconHint": "consequatur",
         "Selected": false,
-        "LastChanged": "2020-03-18T18:25:51.6232945+01:00",
+        "LastChanged": "2021-11-13T11:10:53.931215+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "expedita",
-        "StyleHint": "quaerat",
-        "Hidden": true,
-        "FullName": "Dr. Esta Davis",
-        "TableRight": {},
+        "ExtraInfo": "voluptatem",
+        "StyleHint": "recusandae",
+        "Hidden": false,
+        "FullName": "Mrs. Elinore Wilbert Raynor",
+        "TableRight": null,
         "FieldProperties": {
           "fieldName": {
-            "FieldRight": {
-              "Mask": "FULL",
-              "Reason": ""
-            },
-            "FieldType": "System.Int32",
-            "FieldLength": 560
+            "FieldRight": null,
+            "FieldType": "System.String",
+            "FieldLength": 536
           }
         }
       }
     ],
-    "ExtraInfo": "aut",
-    "StyleHint": "repellendus",
-    "Hidden": true,
-    "FullName": "Giovani Hilpert",
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "ExtraInfo": "illum",
+    "StyleHint": "voluptas",
+    "Hidden": false,
+    "FullName": "Beatrice Barton",
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 186
+        "FieldRight": null,
+        "FieldType": "System.Int32",
+        "FieldLength": 308
       }
     }
   }

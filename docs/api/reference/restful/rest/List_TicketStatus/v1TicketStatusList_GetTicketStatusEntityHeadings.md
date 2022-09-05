@@ -1,6 +1,6 @@
 ---
 title: GET List/TicketStatus/Headings
-id: v1TicketStatusList_GetTicketStatusEntityHeadings
+uid: v1TicketStatusList_GetTicketStatusEntityHeadings
 ---
 
 # GET List/TicketStatus/Headings
@@ -11,7 +11,14 @@ GET /api/v1/List/TicketStatus/Headings
 
 Gets headings for the TicketStatusEntity list.
 
+
 Calls the List agent service GetGetHeadingsFromListDefinition.
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -26,7 +33,10 @@ Calls the List agent service GetGetHeadingsFromListDefinition.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -45,14 +55,16 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 GET /api/v1/List/TicketStatus/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -60,24 +72,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 921,
-    "Name": "Nolan, Keebler and Hickle",
-    "Tooltip": "ea",
+    "HeadingId": 776,
+    "Name": "Witting, Wolf and Mohr",
+    "Tooltip": "at",
     "Deleted": false,
-    "Rank": 887,
-    "UdListDefinitionId": 163,
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "Rank": 769,
+    "UdListDefinitionId": 322,
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 383
+        "FieldRight": null,
+        "FieldType": "System.Int32",
+        "FieldLength": 996
       }
     }
   }

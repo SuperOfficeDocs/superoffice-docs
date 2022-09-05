@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Appointment/GetAppointmentsByTaskHeading
-id: v1AppointmentAgent_GetAppointmentsByTaskHeading
+uid: v1AppointmentAgent_GetAppointmentsByTaskHeading
 ---
 
 # POST Agents/Appointment/GetAppointmentsByTaskHeading
@@ -11,7 +11,13 @@ POST /api/v1/Agents/Appointment/GetAppointmentsByTaskHeading
 
 Method that returns appointments of a specific appointment task heading.
 
+
 Task represents the different types of activities, like “Phone call”, “Meeting” and so on. The heading represents a grouping or filtering of tasks.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +28,7 @@ Task represents the different types of activities, like “Phone call”, “Mee
 ```http
 POST /api/v1/Agents/Appointment/GetAppointmentsByTaskHeading?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,15 +44,18 @@ POST /api/v1/Agents/Appointment/GetAppointmentsByTaskHeading?$select=name,depart
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-TaskHeadingId
+TaskHeadingId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | TaskHeadingId | int32 |  |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -107,19 +117,21 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Appointment/GetAppointmentsByTaskHeading
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "TaskHeadingId": 812
+  "TaskHeadingId": 624
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -127,67 +139,61 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 515,
-    "StartDate": "2011-04-28T18:28:47.7338417+02:00",
-    "EndDate": "2012-04-03T18:28:47.7338417+02:00",
+    "AppointmentId": 30,
+    "StartDate": "2002-01-21T11:10:25.4595225+01:00",
+    "EndDate": "2019-10-09T11:10:25.4595225+02:00",
     "Type": "BookingForChecklist",
-    "Task": "vitae",
-    "AssociateFullName": "Annamae Torp",
-    "ContactName": "Jacobson, Murray and Christiansen",
-    "Description": "Organic even-keeled capacity",
-    "PersonFullName": "Norberto Smith",
-    "PersonId": 261,
-    "ContactId": 759,
-    "ProjectId": 274,
-    "ProjectName": "Hudson-Reichel",
+    "Task": "ea",
+    "AssociateFullName": "Miss Hailey Koepp MD",
+    "ContactName": "Von Inc and Sons",
+    "Description": "Balanced modular time-frame",
+    "PersonFullName": "Priscilla Jamal Kautzer DVM",
+    "PersonId": 477,
+    "ContactId": 330,
+    "ProjectId": 981,
+    "ProjectName": "Yost-Schimmel",
     "IsPublished": false,
-    "AssociateId": 587,
-    "ColorIndex": 442,
-    "IsFree": true,
+    "AssociateId": 645,
+    "ColorIndex": 707,
+    "IsFree": false,
     "HasAlarm": false,
-    "IsAlldayEvent": false,
+    "IsAlldayEvent": true,
     "Private": "PrivateGroup",
-    "PriorityId": 595,
-    "PriorityName": "Bosco Group",
+    "PriorityId": 128,
+    "PriorityName": "Kshlerin, Tillman and Gislason",
     "TaskType": "Appointment",
     "IsBookingMain": false,
     "IsRecurrence": true,
     "IsBooking": true,
-    "ActiveDate": "2015-07-09T18:28:47.7348442+02:00",
+    "ActiveDate": "2001-01-09T11:10:25.4595225+01:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "1999-12-15T18:28:47.7348442+01:00",
-    "RecurringEndDate": "2004-01-12T18:28:47.7348442+01:00",
-    "MotherId": 243,
-    "AssignedBy": 996,
-    "AssignedByFullName": "Deangelo Murphy",
+    "RecurringStartDate": "2020-12-12T11:10:25.4595225+01:00",
+    "RecurringEndDate": "2017-07-24T11:10:25.4595225+02:00",
+    "MotherId": 8,
+    "AssignedBy": 953,
+    "AssignedByFullName": "Prof. Ernie Hintz",
     "RejectReason": "",
     "Location": "labore",
-    "AlarmLeadTime": "sapiente",
-    "SaleId": 574,
-    "SaleName": "Kunze-Howell",
-    "AssociateName": "Dibbert, Bernhard and Welch",
-    "CreatedDate": "2020-10-30T18:28:47.7348442+01:00",
-    "CreatedBy": "voluptatum",
-    "CreatedByFullName": "Durward Blick",
-    "CreatedByAssociateId": 692,
+    "AlarmLeadTime": "aperiam",
+    "SaleId": 220,
+    "SaleName": "Steuber, Wilderman and Crona",
+    "AssociateName": "Wilkinson Group",
+    "CreatedDate": "1999-12-21T11:10:25.4595225+01:00",
+    "CreatedBy": "quis",
+    "CreatedByFullName": "Kamille O'Keefe III",
+    "CreatedByAssociateId": 992,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 98
+        "FieldRight": null,
+        "FieldType": "System.Int32",
+        "FieldLength": 84
       }
     }
   }

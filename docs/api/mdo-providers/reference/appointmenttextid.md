@@ -7,7 +7,7 @@ keywords:
   - "mdo provider"
   - "appointmenttextid"
 so.generated: true
-so.date: 03.19.2021
+so.date: 08.26.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -15,12 +15,16 @@ so.envir:
 ---
 
 # "appointmenttextid" MDO List
-
 Special case of appointment list where we get the id value from the Text table. For use when we want
 to represent an appointment with the text.
 
+
+
 Implemented by the <see cref="T:SuperOffice.CRM.Lists.AppointmentListTextIdProvider">AppointmentListTextIdProvider</see> class.
 The name of the MDO list is 'appointmenttextid'.
+
+
+
 
 ## Sample Request
 
@@ -33,7 +37,6 @@ Accept-Language: *
 ```
 
 ## Sample Code
-
 ```cs
 var listProvider = SuperOffice.CRM.Lists.SoListProviderFactory.Create("appointmenttextid", forceFlatList: true);
 foreach (var item in listProvider.RootItems) {
@@ -49,24 +52,25 @@ foreach (var item in listProvider.RootItems) {
 |8|AMøte inneABB|||
 |9|BTelefon utBBB|||
 |10|IMøte inneIBB|||
+|11|EMøte inneEBB|||
 |12|MMøte inneMBB|||
 |13|PPrivatPBB|||
 |14|QMøte inneQBB|||
 |15|TPrivatTBB|||
 |16|XPrivatXBB|||
 |17|ØPrivatØBB|||
+|18|ÜTilbudÜBB|||
 |19|ÄPrivatÄBB|||
 |20|2Tilbud2BB|||
 |21|6Tilbud6BB|||
 |23|&Telefon ut&BB|||
 |24|=Tilbud=BB|||
+|25|*Møte inne*BB|||
 |26|CTilbudCCC|||
 |27|FTelefon utFCC|||
 |28|GTilbudGCC|||
-|31|RTelefon utRCC|||
-|34|YMøte inneYCC|||
-|36|0Møte inne0CC|||
-|37|3Privat3CC|||
+|29|JTelefon utJCC|||
+
 
 ## Related MDO Lists
 

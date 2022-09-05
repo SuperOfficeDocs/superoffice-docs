@@ -1,6 +1,6 @@
 ---
 title: GET Product/{id}/ImageInfo
-id: v1Product_GetImageInfo
+uid: v1Product_GetImageInfo
 ---
 
 # GET Product/{id}/ImageInfo
@@ -11,11 +11,18 @@ GET /api/v1/Product/{productId}/ImageInfo
 
 Get the Blob that describes the given products picture.
 
+
 The actual bitmap is accessible via /api/Services80/pricelist/1/product/123/image.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | productId | int32 | Product id **Required** |
+
+
 
 ## Request Headers
 
@@ -30,16 +37,16 @@ The actual bitmap is accessible via /api/Services80/pricelist/1/product/123/imag
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response: object
 
-Carrier object for BlobEntity.
-Services for the BlobEntity Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IBLOBAgent">BLOB Agent</see>.
+## Response: 
+
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -59,94 +66,42 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 GET /api/v1/Product/{productId}/ImageInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Sun, 28 Dec 2003 18:25:51 G12T
+Last-Modified: Fri, 23 May 2014 11:10:53 G5T
 
 {
-  "BlobId": 840,
-  "BlobSize": 615,
-  "Description": "Up-sized mobile solution",
-  "ExtraInfo": "amet",
-  "IsEncrypted": false,
-  "IsZipped": true,
-  "MimeType": "similique",
-  "OriginalSize": 205,
-  "CreatedDate": "1998-09-25T18:25:51.4051179+02:00",
-  "UpdatedDate": "2003-12-28T18:25:51.4051179+01:00",
-  "CreatedBy": {
-    "AssociateId": 449,
-    "Name": "Barrows Inc and Sons",
-    "PersonId": 280,
-    "Rank": 302,
-    "Tooltip": "veritatis",
-    "Type": "AnonymousAssociate",
-    "GroupIdx": 537,
-    "FullName": "Jamaal Nicolas",
-    "FormalName": "Lehner, Stoltenberg and Kemmer",
-    "Deleted": true,
-    "EjUserId": 126,
-    "UserName": "Ankunding, Trantow and Pfeffer",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 191
-      }
-    }
-  },
-  "UpdatedBy": {
-    "AssociateId": 36,
-    "Name": "Hauck, Konopelski and Altenwerth",
-    "PersonId": 691,
-    "Rank": 457,
-    "Tooltip": "id",
-    "Type": "AnonymousAssociate",
-    "GroupIdx": 494,
-    "FullName": "Will Bartell",
-    "FormalName": "Adams, Huel and Romaguera",
-    "Deleted": true,
-    "EjUserId": 855,
-    "UserName": "Kilback-Heller",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.Int32",
-        "FieldLength": 935
-      }
-    }
-  },
-  "ConceptualType": "iste",
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "BlobId": 605,
+  "BlobSize": 273,
+  "Description": "Fundamental bandwidth-monitored algorithm",
+  "ExtraInfo": "voluptatum",
+  "IsEncrypted": true,
+  "IsZipped": false,
+  "MimeType": "vitae",
+  "OriginalSize": 300,
+  "CreatedDate": "1997-05-20T11:10:53.7492158+02:00",
+  "UpdatedDate": "2014-05-23T11:10:53.7492158+02:00",
+  "CreatedBy": null,
+  "UpdatedBy": null,
+  "ConceptualType": "laboriosam",
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
+      "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 165
+      "FieldLength": 266
     }
   }
 }

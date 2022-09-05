@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "freetextstopwords"
-so.date: 04.12.2022
+so.date: 08.26.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -23,6 +23,7 @@ Here are the words that can be excluded from Free Text Search by using the FreeT
 |------|-------------|------|:----:|
 |freetextwords\_id|Primary key|PK| |
 |word|Stop word, not to be indexed|String(19)| |
+
 
 ![freetextstopwords table relationship diagram](./media/freetextstopwords.png)
 
@@ -42,3 +43,4 @@ Here are the words that can be excluded from Free Text Search by using the FreeT
 ## Security Flags
 
 * No access control via user's Role.
+

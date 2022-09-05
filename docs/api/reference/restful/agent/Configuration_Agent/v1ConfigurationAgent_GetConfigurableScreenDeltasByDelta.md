@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Configuration/GetConfigurableScreenDeltasByDelta
-id: v1ConfigurationAgent_GetConfigurableScreenDeltasByDelta
+uid: v1ConfigurationAgent_GetConfigurableScreenDeltasByDelta
 ---
 
 # POST Agents/Configuration/GetConfigurableScreenDeltasByDelta
@@ -11,6 +11,12 @@ POST /api/v1/Agents/Configuration/GetConfigurableScreenDeltasByDelta
 
 This method will return a configurablescreen delta matching the properties received from the incomming delta
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ This method will return a configurablescreen delta matching the properties recei
 ```http
 POST /api/v1/Agents/Configuration/GetConfigurableScreenDeltasByDelta?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,15 +42,18 @@ POST /api/v1/Agents/Configuration/GetConfigurableScreenDeltasByDelta?$select=nam
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-ConfigurableScreenDelta
+ConfigurableScreenDelta 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | ConfigurableScreenDelta |  |  |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -64,11 +74,12 @@ Response body: array
 | CreatedDate | date-time |  |
 | UpdatedBy |  | Carrier object for Associate. Services for the Associate Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IAssociateAgent">Associate Agent</see>. |
 | CreatedBy |  | Carrier object for Associate. Services for the Associate Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IAssociateAgent">Associate Agent</see>. |
-| UserGroupIds | array |  |
+| AppliesToIds | array |  |
+| AppliesToKey | string |  |
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Configuration/GetConfigurableScreenDeltasByDelta
@@ -78,25 +89,11 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConfigurableScreenDelta": {
-    "ConfigurableScreenDeltaId": 466,
-    "Name": "Pfannerstill, Lind and Corwin",
-    "Description": "Innovative full-range core",
-    "DeltaJson": "beatae",
-    "DeltaType": "CustomFields",
-    "DeltaState": "Draft",
-    "RecipeId": "ad",
-    "UpdatedDate": "2017-11-18T18:28:48.4126252+01:00",
-    "CreatedDate": "2003-12-04T18:28:48.4126252+01:00",
-    "UpdatedBy": {},
-    "CreatedBy": {},
-    "UserGroupIds": [
-      464,
-      646
-    ]
-  }
+  "ConfigurableScreenDelta": null
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -104,81 +101,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ConfigurableScreenDeltaId": 121,
-    "Name": "Dicki-Dare",
-    "Description": "Compatible modular time-frame",
-    "DeltaJson": "ut",
+    "ConfigurableScreenDeltaId": 903,
+    "Name": "Heidenreich-Waelchi",
+    "Description": "Customizable holistic migration",
+    "DeltaJson": "illo",
     "DeltaType": "CustomFields",
     "DeltaState": "Draft",
-    "RecipeId": "dolor",
-    "UpdatedDate": "2001-11-04T18:28:48.4136241+01:00",
-    "CreatedDate": "2021-04-02T18:28:48.4136241+02:00",
-    "UpdatedBy": {
-      "AssociateId": 209,
-      "Name": "Flatley-Stamm",
-      "PersonId": 171,
-      "Rank": 16,
-      "Tooltip": "asperiores",
-      "Type": "AnonymousAssociate",
-      "GroupIdx": 724,
-      "FullName": "Zola Boehm",
-      "FormalName": "Watsica-Weimann",
-      "Deleted": false,
-      "EjUserId": 772,
-      "UserName": "Johns, Murphy and Grimes",
-      "TableRight": {},
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": {
-            "Mask": "FULL",
-            "Reason": ""
-          },
-          "FieldType": "System.Int32",
-          "FieldLength": 783
-        }
-      }
-    },
-    "CreatedBy": {
-      "AssociateId": 960,
-      "Name": "Bernier Group",
-      "PersonId": 688,
-      "Rank": 305,
-      "Tooltip": "et",
-      "Type": "AnonymousAssociate",
-      "GroupIdx": 706,
-      "FullName": "Brooks Hahn",
-      "FormalName": "Bosco, Macejkovic and Rowe",
-      "Deleted": true,
-      "EjUserId": 641,
-      "UserName": "Swift-Legros",
-      "TableRight": {},
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": {
-            "Mask": "FULL",
-            "Reason": "implement web-enabled supply-chains"
-          },
-          "FieldType": "System.Int32",
-          "FieldLength": 395
-        }
-      }
-    },
-    "UserGroupIds": [
-      912,
-      335
+    "RecipeId": "assumenda",
+    "UpdatedDate": "1996-08-09T11:10:26.2035526+02:00",
+    "CreatedDate": "2000-12-16T11:10:26.2035526+01:00",
+    "UpdatedBy": null,
+    "CreatedBy": null,
+    "AppliesToIds": [
+      407,
+      729
     ],
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "AppliesToKey": "rerum",
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
+        "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 925
+        "FieldLength": 353
       }
     }
   }

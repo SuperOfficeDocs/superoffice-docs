@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "temporary_words"
-so.date: 04.12.2022
+so.date: 08.26.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -25,6 +25,7 @@ This table is used as a temporary table, containing the words we want           
 |magic\_number|A magic number, securing unique rows|Int| |
 |word|The temporary word|String(63)| |
 |word\_length|The length of the word|Int| |
+
 
 ![temporary_words table relationship diagram](./media/temporary_words.png)
 
@@ -45,3 +46,4 @@ This table is used as a temporary table, containing the words we want           
 ## Security Flags
 
 * No access control via user's Role.
+

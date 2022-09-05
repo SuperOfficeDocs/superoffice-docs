@@ -1,6 +1,6 @@
 ---
 title: POST Agents/List/GetHeadingsFromListDefinition
-id: v1ListAgent_GetHeadingsFromListDefinition
+uid: v1ListAgent_GetHeadingsFromListDefinition
 ---
 
 # POST Agents/List/GetHeadingsFromListDefinition
@@ -11,6 +11,12 @@ POST /api/v1/Agents/List/GetHeadingsFromListDefinition
 
 Gets headings for list resolved by the provided id.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Gets headings for list resolved by the provided id.
 ```http
 POST /api/v1/Agents/List/GetHeadingsFromListDefinition?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,15 +42,18 @@ POST /api/v1/Agents/List/GetHeadingsFromListDefinition?$select=name,department,c
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-Id
+Id 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | Id | int32 |  |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -62,7 +72,7 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/List/GetHeadingsFromListDefinition
@@ -72,9 +82,11 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 384
+  "Id": 191
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -82,24 +94,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 648,
-    "Name": "Jewess-Hartmann",
-    "Tooltip": "commodi",
-    "Deleted": true,
-    "Rank": 757,
-    "UdListDefinitionId": 549,
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "HeadingId": 799,
+    "Name": "Beatty Inc and Sons",
+    "Tooltip": "maiores",
+    "Deleted": false,
+    "Rank": 815,
+    "UdListDefinitionId": 909,
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
+        "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 64
+        "FieldLength": 563
       }
     }
   }

@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Document/GetMyPublishedDocuments
-id: v1DocumentAgent_GetMyPublishedDocuments
+uid: v1DocumentAgent_GetMyPublishedDocuments
 ---
 
 # POST Agents/Document/GetMyPublishedDocuments
@@ -8,6 +8,14 @@ id: v1DocumentAgent_GetMyPublishedDocuments
 ```http
 POST /api/v1/Agents/Document/GetMyPublishedDocuments
 ```
+
+
+
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -18,6 +26,7 @@ POST /api/v1/Agents/Document/GetMyPublishedDocuments
 ```http
 POST /api/v1/Agents/Document/GetMyPublishedDocuments?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -32,7 +41,10 @@ POST /api/v1/Agents/Document/GetMyPublishedDocuments?$select=name,department,cat
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -60,17 +72,21 @@ Response body: array
 | ProjectName | string | Project name |
 | AssociateId | int32 | ID of associate whose diary the appointment is in, REQUIRED |
 | Snum | int32 | The sequence number allocated from refcount on used template when creating the document |
+| SaleId | int32 | Owning sale, if any (may be 0) |
+| SaleName | string | Heading of Owning sale, if any. (may be blank) |
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Document/GetMyPublishedDocuments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -78,36 +94,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 167,
-    "Attention": "ipsa",
-    "Header": "quas",
-    "Name": "Hirthe-Walsh",
-    "OurRef": "repellendus",
-    "YourRef": "est",
-    "Description": "Ergonomic next generation toolset",
-    "DocumentTemplate": "nulla",
+    "DocumentId": 541,
+    "Attention": "odio",
+    "Header": "saepe",
+    "Name": "Greenholt, Bradtke and Ullrich",
+    "OurRef": "quasi",
+    "YourRef": "rerum",
+    "Description": "Upgradable 5th generation budgetary management",
+    "DocumentTemplate": "dignissimos",
     "IsPublished": false,
-    "PersonId": 810,
-    "PersonFullName": "Frida Marks",
-    "AssociateFullName": "Julia Spencer IV",
-    "ContactId": 226,
-    "ContactName": "Greenholt, Schowalter and Raynor",
-    "ProjectId": 649,
-    "ProjectName": "Ferry-Harber",
-    "AssociateId": 736,
-    "Snum": 512,
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "PersonId": 74,
+    "PersonFullName": "Tad Yundt",
+    "AssociateFullName": "Meaghan Reynolds Jr.",
+    "ContactId": 708,
+    "ContactName": "Kuhic LLC",
+    "ProjectId": 377,
+    "ProjectName": "Larkin Inc and Sons",
+    "AssociateId": 781,
+    "Snum": 210,
+    "SaleId": 233,
+    "SaleName": "Hills-Grady",
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
+        "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 690
+        "FieldLength": 588
       }
     }
   }

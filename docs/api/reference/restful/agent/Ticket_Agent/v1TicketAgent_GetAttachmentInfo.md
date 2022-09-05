@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Ticket/GetAttachmentInfo
-id: v1TicketAgent_GetAttachmentInfo
+uid: v1TicketAgent_GetAttachmentInfo
 ---
 
 # POST Agents/Ticket/GetAttachmentInfo
@@ -11,6 +11,12 @@ POST /api/v1/Agents/Ticket/GetAttachmentInfo
 
 Get a list with meta data for all attached attachments
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Get a list with meta data for all attached attachments
 ```http
 POST /api/v1/Agents/Ticket/GetAttachmentInfo?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,15 +42,18 @@ POST /api/v1/Agents/Ticket/GetAttachmentInfo?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-TicketMessageEntityId
+TicketMessageEntityId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | TicketMessageEntityId | int32 |  |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -62,19 +72,21 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Ticket/GetAttachmentInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketMessageEntityId": 263
+  "TicketMessageEntityId": 334
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -82,24 +94,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AttachmentId": 822,
-    "Name": "Price-King",
-    "ContentType": "sint",
-    "AttSize": 874,
-    "InlineImage": true,
-    "ContentId": "magnam",
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "AttachmentId": 632,
+    "Name": "Watsica-Kunde",
+    "ContentType": "voluptas",
+    "AttSize": 842,
+    "InlineImage": false,
+    "ContentId": "expedita",
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.Int32",
-        "FieldLength": 744
+        "FieldRight": null,
+        "FieldType": "System.String",
+        "FieldLength": 544
       }
     }
   }

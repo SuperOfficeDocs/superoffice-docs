@@ -8,7 +8,7 @@ keywords:
   - "archive provider"
   - "ParticipantsWithConflictRemoval"
 so.generated: true
-so.date: 03.23.2021
+so.date: 08.26.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -23,7 +23,7 @@ Archive provider that wraps the <see cref="T:SuperOffice.CRM.ArchiveLists.Partic
 
 This provider is used by the Assign To dialog, where an associate list with conflict markers is shown. This list has a checkbox
 with the text 'hide conflicts', and its effect is to remove from the list those that do have a conflict.
-
+<para />
 This class implements the functionality by wrapping the existing participants provider, adds an optional entity to get
 the checkbox, and performs filtering if the entity is chosen. It also ensures that the relevant column is ordered from the
 inner participants provider, so that the conflict checking is performed.
@@ -31,7 +31,7 @@ inner participants provider, so that the conflict checking is performed.
 ## Supported Entities
 
 | Name | Description |
-| ---- | ----- |
+| ---- | ----------- |
 |"associate"|Associate|
 |"resource"|Resource:|
 |"externalPerson"|External users|
@@ -39,8 +39,8 @@ inner participants provider, so that the conflict checking is performed.
 
 ## Supported Columns
 
-| Name | Restriction | Description | OrderBy
-| ---- | ----- | ------- | ------ |
+| Name | Restriction | Description | OrderBy |
+| ---- | ----------- | ----------- | ------- |
 |ownerAssociateIdInformation|associate|Owner's Associate ID: Associate ID of the user specified as owner of the follow-up|  |
 |inhibitConflictsInformation|bool|No conflict checking: This restriction is used to turn off conflict checking in the participants list|  |
 |startTimeInformation|datetime|Start time: Information for data fetcher, specifies start time for conflict checker|  |
@@ -94,6 +94,7 @@ inner participants provider, so that the conflict checking is performed.
 |position|listAny|Position|  |
 |personNumber|string|Number: Displays the contact's number|  |
 |personCountry|listAny|Country: Country|  |
+|personCountryId|int|Country ID: Country ID|  |
 |personNoMail|bool|No Mailings: Displays the contact's No Mailings checkbox|  |
 |rank|int|Rank: Displays a contact's current rank|  |
 |birthdate| *None* |Birthdate: Displays the contact's date of birth|  |
@@ -107,14 +108,18 @@ inner participants provider, so that the conflict checking is performed.
 |kanaFirstName|string|First name, kana: Contact's first name, in kana alphabet|  |
 |kanaLastName|string|Last name, kana: Contact's last name, in kana alphabet|  |
 |personUpdatedBy|associate|Updated by: The user who last updated the data|  |
+|personUpdatedByFullName|associate|Updated by - Full name: The user who last updated the data|  |
 |personUpdatedDate|date|Updated: The date/time the data was last updated in UTC.|  |
 |personRegisteredBy|associate|Registered by: The user who registered the data|  |
+|personRegisteredByFullName|associate|Registered by - Full name: The user who registered the data|  |
 |personRegisteredDate|date|Registered date: The date/time the data was registered in UTC.|  |
 |personActiveErpLinks|bool|ERP connected: Is there an active ERP Sync?|  |
 |ticketPriority|listAny|Service priority: Default service priority for this contact|  |
 |supportLanguage|listAny|Preferred language: Preferred language used for reply templates and more|  |
 |supportAssociate|associate|Our service contact: Default service contact for this contact|  |
+|supportAssociateFullName|associate|Our service contact - Full name: Default service contact for this contact|  |
 |personAssociateId|associate|Our contact: Displays our contact|  |
+|personAssociateFullName|associate|Our contact - Full name: Displays our contact|  |
 |personCategory|listAny|Category|  |
 |personBusiness|listAny|Business|  |
 |personDeletedDate|datetime|Deleted date: Deleted date|  |
@@ -141,14 +146,17 @@ inner participants provider, so that the conflict checking is performed.
 |personContact/category| *None* |Category|  |
 |personContact/business| *None* |Business|  |
 |personContact/country| *None* |Country: This criterion corresponds to the Country field on the Company card.|  |
+|personContact/countryId| *None* |Country ID: Country ID|  |
 |personContact/number| *None* |Number|  |
 |personContact/code| *None* |Code|  |
 |personContact/orgnr| *None* |VAT No.|  |
 |personContact/stop| *None* |Stop|  |
 |personContact/contactNoMail| *None* |No mailings (company|  |
 |personContact/updatedBy| *None* |Updated by: The user who last updated the data|  |
+|personContact/updatedByFullName| *None* |Updated by - Full name: The user who last updated the data|  |
 |personContact/updatedDate| *None* |Updated: The date/time the data was last updated in UTC.|  |
 |personContact/registeredBy| *None* |Registered by: The user who registered the data|  |
+|personContact/registeredByFullName| *None* |Registered by - Full name: The user who registered the data|  |
 |personContact/registeredDate| *None* |Registered date: The date/time the data was registered in UTC.|  |
 |personContact/contactSource| *None* |Source: Source (Company)|  |
 |personContact/contactDeleted| *None* |Deleted: Deleted|  |
@@ -171,11 +179,14 @@ inner participants provider, so that the conflict checking is performed.
 ## Sample
 
 ```http!
-GET /api/v1/archive/ParticipantsWithConflictRemoval?$select=hasInterests,otherGroups,kanaFirstName
+GET /api/v1/archive/ParticipantsWithConflictRemoval?$select=contactName,personEmail,personUpdatedByFullName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv
 
 ```
 
-See also: <see cref="T:SuperOffice.CRM.Services.IArchiveAgent">IArchiveAgent</see>.
+
+
+See also: <see cref="T:SuperOffice.CRM.Services.IArchiveAgent">IArchiveAgent</see>.</p>
+

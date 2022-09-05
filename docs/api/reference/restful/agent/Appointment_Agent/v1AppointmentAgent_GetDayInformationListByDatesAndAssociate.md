@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Appointment/GetDayInformationListByDatesAndAssociate
-id: v1AppointmentAgent_GetDayInformationListByDatesAndAssociate
+uid: v1AppointmentAgent_GetDayInformationListByDatesAndAssociate
 ---
 
 # POST Agents/Appointment/GetDayInformationListByDatesAndAssociate
@@ -11,7 +11,13 @@ POST /api/v1/Agents/Appointment/GetDayInformationListByDatesAndAssociate
 
 Get combined day information (activity + redletter summary) for one or more days according to the given date interval.
 
+
 The time portion of the dates is ignored. Private appointments are counted, but may not be visible through tooltips or other more detailed services.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +28,7 @@ The time portion of the dates is ignored. Private appointments are counted, but 
 ```http
 POST /api/v1/Agents/Appointment/GetDayInformationListByDatesAndAssociate?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,9 +44,9 @@ POST /api/v1/Agents/Appointment/GetDayInformationListByDatesAndAssociate?$select
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-StartDate, EndDate, AssociateId
+StartDate, EndDate, AssociateId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -47,7 +54,10 @@ StartDate, EndDate, AssociateId
 | EndDate | date-time |  |
 | AssociateId | int32 |  |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -63,21 +73,23 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Appointment/GetDayInformationListByDatesAndAssociate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "StartDate": "2003-05-11T18:28:47.7518443+02:00",
-  "EndDate": "2006-03-22T18:28:47.7518443+01:00",
-  "AssociateId": 973
+  "StartDate": "2010-06-06T11:10:25.4775225+02:00",
+  "EndDate": "2003-11-28T11:10:25.4775225+01:00",
+  "AssociateId": 557
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -85,98 +97,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ActivityInformation": {
-      "NumBusyActivities": 113,
-      "NumFreeActivities": 505,
-      "PercentageBusy": 330,
-      "TableRight": {},
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": {
-            "Mask": "FULL",
-            "Reason": ""
-          },
-          "FieldType": "System.Int32",
-          "FieldLength": 907
-        }
-      }
-    },
-    "RedLetterInformation": {
-      "IsOwnCountryHoliday": false,
-      "IsOtherCountryHoliday": false,
-      "TableRight": {},
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": {
-            "Mask": "FULL",
-            "Reason": ""
-          },
-          "FieldType": "System.Int32",
-          "FieldLength": 168
-        }
-      }
-    },
-    "Date": "2005-03-19T18:28:47.7518443+01:00",
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "ActivityInformation": null,
+    "RedLetterInformation": null,
+    "Date": "2021-01-14T11:10:25.4775225+01:00",
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 799
+        "FieldRight": null,
+        "FieldType": "System.Int32",
+        "FieldLength": 551
       }
     }
   },
   {
-    "ActivityInformation": {
-      "NumBusyActivities": 113,
-      "NumFreeActivities": 505,
-      "PercentageBusy": 330,
-      "TableRight": {},
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": {
-            "Mask": "FULL",
-            "Reason": ""
-          },
-          "FieldType": "System.Int32",
-          "FieldLength": 907
-        }
-      }
-    },
-    "RedLetterInformation": {
-      "IsOwnCountryHoliday": false,
-      "IsOtherCountryHoliday": false,
-      "TableRight": {},
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": {
-            "Mask": "FULL",
-            "Reason": ""
-          },
-          "FieldType": "System.Int32",
-          "FieldLength": 168
-        }
-      }
-    },
-    "Date": "2005-03-19T18:28:47.7518443+01:00",
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "ActivityInformation": null,
+    "RedLetterInformation": null,
+    "Date": "2021-01-14T11:10:25.4775225+01:00",
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 799
+        "FieldRight": null,
+        "FieldType": "System.Int32",
+        "FieldLength": 551
       }
     }
   }

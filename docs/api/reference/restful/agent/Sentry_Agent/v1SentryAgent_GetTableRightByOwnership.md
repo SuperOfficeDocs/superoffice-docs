@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Sentry/GetTableRightByOwnership
-id: v1SentryAgent_GetTableRightByOwnership
+uid: v1SentryAgent_GetTableRightByOwnership
 ---
 
 # POST Agents/Sentry/GetTableRightByOwnership
@@ -11,6 +11,12 @@ POST /api/v1/Agents/Sentry/GetTableRightByOwnership
 
 Return the TableRight from the relationship between the current user and the given user and group.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Return the TableRight from the relationship between the current user and the giv
 ```http
 POST /api/v1/Agents/Sentry/GetTableRightByOwnership?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,9 +42,9 @@ POST /api/v1/Agents/Sentry/GetTableRightByOwnership?$select=name,department,cate
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-TableName, ContactGroupId, ContactAssociateId
+TableName, ContactGroupId, ContactAssociateId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -45,34 +52,39 @@ TableName, ContactGroupId, ContactAssociateId
 | ContactGroupId | int32 |  |
 | ContactAssociateId | int32 |  |
 
-## Response: object
+
+## Response: 
+
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | Mask | string |  |
 | Reason | string |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Sentry/GetTableRightByOwnership
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Murray-Kunze",
-  "ContactGroupId": 250,
-  "ContactAssociateId": 97
+  "TableName": "Hessel-Sawayn",
+  "ContactGroupId": 998,
+  "ContactAssociateId": 556
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK

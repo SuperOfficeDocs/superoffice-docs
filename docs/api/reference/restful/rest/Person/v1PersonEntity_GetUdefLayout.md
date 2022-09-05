@@ -1,6 +1,6 @@
 ---
 title: GET Person/UdefLayout
-id: v1PersonEntity_GetUdefLayout
+uid: v1PersonEntity_GetUdefLayout
 ---
 
 # GET Person/UdefLayout
@@ -11,7 +11,14 @@ GET /api/v1/Person/UdefLayout
 
 Current PersonEntity user-defined field layout.
 
+
 May be different from the published version.
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -26,7 +33,10 @@ May be different from the published version.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -73,7 +83,7 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 GET /api/v1/Person/UdefLayout
@@ -82,58 +92,54 @@ Accept: application/json; charset=utf-8
 Accept-Language: en
 ```
 
+## Sample response
+
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 912,
-    "ColumnId": 752,
-    "FieldDefault": "beatae",
-    "FieldHeight": 82,
-    "FieldLabel": "amet",
-    "FieldLeft": 286,
-    "FieldTop": 818,
+    "UDefFieldId": 12,
+    "ColumnId": 140,
+    "FieldDefault": "doloribus",
+    "FieldHeight": 944,
+    "FieldLabel": "excepturi",
+    "FieldLeft": 123,
+    "FieldTop": 962,
     "FieldType": "Checkbox",
-    "FieldWidth": 251,
-    "FormatMask": "autem",
-    "HideLabel": true,
+    "FieldWidth": 877,
+    "FormatMask": "officiis",
+    "HideLabel": false,
     "IsIndexed": false,
-    "LabelHeight": 679,
-    "LabelLeft": 129,
-    "LabelTop": 169,
-    "LabelWidth": 711,
-    "LastVersionId": 712,
-    "ListTableId": 432,
+    "LabelHeight": 808,
+    "LabelLeft": 324,
+    "LabelTop": 428,
+    "LabelWidth": 641,
+    "LastVersionId": 950,
+    "ListTableId": 331,
     "IsMandatory": false,
     "Type": "Appointment",
-    "Page1LineNo": 61,
-    "ProgId": "voluptate",
+    "Page1LineNo": 762,
+    "ProgId": "ut",
     "IsReadOnly": false,
-    "ShortLabel": "quia",
-    "TabOrder": 895,
-    "TextLength": 684,
-    "Tooltip": "tenetur",
-    "UdefIdentity": 524,
-    "UDListDefinitionId": 357,
+    "ShortLabel": "debitis",
+    "TabOrder": 369,
+    "TextLength": 465,
+    "Tooltip": "sed",
+    "UdefIdentity": 207,
+    "UDListDefinitionId": 881,
     "Justification": "Center",
-    "Version": 813,
-    "TemplateVariableName": "McKenzie, Waters and Mills",
+    "Version": 387,
+    "TemplateVariableName": "Zboncak, Breitenberg and Klein",
     "HasBeenPublished": true,
-    "MdoListName": "Schmidt, Connelly and Kirlin",
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "MdoListName": "VonRueden, Hilpert and Kautzer",
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 701
+        "FieldRight": null,
+        "FieldType": "System.Int32",
+        "FieldLength": 189
       }
     }
   }

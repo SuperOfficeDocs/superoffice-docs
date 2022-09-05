@@ -1,6 +1,6 @@
 ---
 title: POST Agents/List/SaveExtAppEntity
-id: v1ListAgent_SaveExtAppEntity
+uid: v1ListAgent_SaveExtAppEntity
 ---
 
 # POST Agents/List/SaveExtAppEntity
@@ -10,6 +10,13 @@ POST /api/v1/Agents/List/SaveExtAppEntity
 ```
 
 Updates the existing ExtAppEntity or creates a new ExtAppEntity if the id parameter is empty
+
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -25,9 +32,9 @@ Updates the existing ExtAppEntity or creates a new ExtAppEntity if the id parame
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entity
+## Request Body: entity  
 
-The ExtAppEntity to be saved.
+The ExtAppEntity to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -54,18 +61,16 @@ The ExtAppEntity to be saved.
 | ExecuteOnEvent | string | Events that cause automatic execution of this app |
 | Path | string | Path where the programfile is located; if empty, PATH is used |
 
-## Response: object
 
-The ext app entity contains information on an external application
+## Response: 
 
-Carrier object for ExtAppEntity.
-Services for the ExtAppEntity Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IListAgent">List Agent</see>.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -94,80 +99,76 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/List/SaveExtAppEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ExtAppId": 531,
-  "Name": "Collins LLC",
-  "Tooltip": "incidunt",
+  "ExtAppId": 137,
+  "Name": "Mante-Grant",
+  "Tooltip": "reiciendis",
   "Deleted": false,
-  "Rank": 951,
-  "Filename": "est",
-  "Parameters": "doloremque",
-  "Workdir": "alias",
+  "Rank": 653,
+  "Filename": "architecto",
+  "Parameters": "aut",
+  "Workdir": "aut",
   "ShowState": "AddressBar",
   "VisibleIn": "ActivityDialog",
-  "OnCentral": true,
-  "OnSatellite": true,
+  "OnCentral": false,
+  "OnSatellite": false,
   "OnTravel": false,
   "OnSalesMarketingPocket": false,
-  "ShowInMenuBar": true,
-  "ShowInToolBar": true,
+  "ShowInMenuBar": false,
+  "ShowInToolBar": false,
   "ShowInAddressBar": false,
   "ShowInStatusBar": false,
-  "Icon": 643,
+  "Icon": 463,
   "WaitToFinish": false,
   "ExecuteOnEvent": "LocalUpdate",
-  "Path": "sit"
+  "Path": "nobis"
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ExtAppId": 256,
-  "Name": "Green LLC",
-  "Tooltip": "ipsam",
+  "ExtAppId": 345,
+  "Name": "Prosacco LLC",
+  "Tooltip": "veniam",
   "Deleted": false,
-  "Rank": 410,
-  "Filename": "itaque",
+  "Rank": 807,
+  "Filename": "natus",
   "Parameters": "ut",
-  "Workdir": "vel",
+  "Workdir": "praesentium",
   "ShowState": "AddressBar",
   "VisibleIn": "ActivityDialog",
-  "OnCentral": true,
+  "OnCentral": false,
   "OnSatellite": true,
   "OnTravel": false,
-  "OnSalesMarketingPocket": true,
+  "OnSalesMarketingPocket": false,
   "ShowInMenuBar": true,
-  "ShowInToolBar": true,
-  "ShowInAddressBar": false,
+  "ShowInToolBar": false,
+  "ShowInAddressBar": true,
   "ShowInStatusBar": false,
-  "Icon": 160,
-  "WaitToFinish": true,
+  "Icon": 513,
+  "WaitToFinish": false,
   "ExecuteOnEvent": "LocalUpdate",
-  "Path": "nobis",
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "Path": "dolorum",
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
+      "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 507
+      "FieldLength": 150
     }
   }
 }

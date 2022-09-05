@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Document/GetPublishedDocuments
-id: v1DocumentAgent_GetPublishedDocuments
+uid: v1DocumentAgent_GetPublishedDocuments
 ---
 
 # POST Agents/Document/GetPublishedDocuments
@@ -11,6 +11,12 @@ POST /api/v1/Agents/Document/GetPublishedDocuments
 
 Get the published documents from an array of doucment ids.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Get the published documents from an array of doucment ids.
 ```http
 POST /api/v1/Agents/Document/GetPublishedDocuments?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,15 +42,18 @@ POST /api/v1/Agents/Document/GetPublishedDocuments?$select=name,department,categ
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-DocumentIds
+DocumentIds 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | DocumentIds | array |  |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -71,25 +81,29 @@ Response body: array
 | ProjectName | string | Project name |
 | AssociateId | int32 | ID of associate whose diary the appointment is in, REQUIRED |
 | Snum | int32 | The sequence number allocated from refcount on used template when creating the document |
+| SaleId | int32 | Owning sale, if any (may be 0) |
+| SaleName | string | Heading of Owning sale, if any. (may be blank) |
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Document/GetPublishedDocuments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
   "DocumentIds": [
-    127,
-    405
+    993,
+    387
   ]
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -97,36 +111,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 264,
-    "Attention": "et",
-    "Header": "neque",
-    "Name": "Keebler, Zboncak and Tremblay",
-    "OurRef": "ipsum",
-    "YourRef": "eligendi",
-    "Description": "Fundamental content-based knowledge user",
-    "DocumentTemplate": "ut",
-    "IsPublished": false,
-    "PersonId": 302,
-    "PersonFullName": "Blake Funk",
-    "AssociateFullName": "Willard Champlin",
-    "ContactId": 358,
-    "ContactName": "Borer-Jacobi",
-    "ProjectId": 961,
-    "ProjectName": "Auer-Paucek",
-    "AssociateId": 619,
-    "Snum": 512,
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "DocumentId": 72,
+    "Attention": "perferendis",
+    "Header": "consequatur",
+    "Name": "Mertz Group",
+    "OurRef": "id",
+    "YourRef": "possimus",
+    "Description": "Re-contextualized non-volatile standardization",
+    "DocumentTemplate": "ipsam",
+    "IsPublished": true,
+    "PersonId": 912,
+    "PersonFullName": "Mr. Cordelia Jennings Mohr V",
+    "AssociateFullName": "Dr. Johnathan Kub",
+    "ContactId": 518,
+    "ContactName": "Pouros-Davis",
+    "ProjectId": 87,
+    "ProjectName": "Williamson LLC",
+    "AssociateId": 822,
+    "Snum": 114,
+    "SaleId": 870,
+    "SaleName": "Lesch, Robel and Moore",
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
+        "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 150
+        "FieldLength": 318
       }
     }
   }

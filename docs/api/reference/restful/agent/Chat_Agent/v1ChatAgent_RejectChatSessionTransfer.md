@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Chat/RejectChatSessionTransfer
-id: v1ChatAgent_RejectChatSessionTransfer
+uid: v1ChatAgent_RejectChatSessionTransfer
 ---
 
 # POST Agents/Chat/RejectChatSessionTransfer
@@ -11,7 +11,13 @@ POST /api/v1/Agents/Chat/RejectChatSessionTransfer
 
 Do not want.
 
+
 Deny the transfer to the user. If the session is not being transferred, nothing happens.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +28,7 @@ Deny the transfer to the user. If the session is not being transferred, nothing 
 ```http
 POST /api/v1/Agents/Chat/RejectChatSessionTransfer?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,26 +44,24 @@ POST /api/v1/Agents/Chat/RejectChatSessionTransfer?$select=name,department,categ
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-ChatSessionId
+ChatSessionId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | ChatSessionId | int32 |  |
 
-## Response: object
 
-Chat sessions belong to a chat topic, and contain messages to/from users
+## Response: 
 
-Carrier object for ChatSessionEntity.
-Services for the ChatSessionEntity Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IChatAgent">Chat Agent</see>.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -90,335 +95,68 @@ Response body: object
 | Ticket |  | Ticket the session is connected to - could be empty if we don't know exactly. |
 | TransferTo |  | User agent that has a pending transfer of the chat session |
 | ChatbotIsActive | bool | Indicates that a chatbot is active on the session. This will cause bot triggers to fire. Set to 0 when bot hands off to user. |
+| Rating | int32 | Rating of this chat conversation given by the customer |
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Chat/RejectChatSessionTransfer
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 585
+  "ChatSessionId": 798
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 225,
-  "TopicId": 665,
-  "User": {
-    "AssociateId": 565,
-    "Name": "Schmidt, Torphy and Keeling",
-    "PersonId": 498,
-    "Rank": 410,
-    "Tooltip": "repudiandae",
-    "Type": "AnonymousAssociate",
-    "GroupIdx": 356,
-    "FullName": "Chadd Muller",
-    "FormalName": "O'Conner LLC",
-    "Deleted": true,
-    "EjUserId": 438,
-    "UserName": "Nader, Purdy and Jacobson",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 894
-      }
-    }
-  },
-  "Person": {
-    "Position": "eum",
-    "PersonId": 115,
-    "Mrmrs": "ab",
-    "Firstname": "Else",
-    "Lastname": "Stroman",
-    "MiddleName": "Connelly, Rempel and Denesik",
-    "Title": "numquam",
-    "Description": "Stand-alone web-enabled website",
-    "Email": "braeden@lednerjohns.biz",
-    "FullName": "Sincere Watsica",
-    "DirectPhone": "(307)211-6581",
-    "FormalName": "Jaskolski, Haag and Grady",
-    "CountryId": 307,
-    "ContactId": 855,
-    "ContactName": "Waelchi, Franecki and Klein",
-    "Retired": 223,
-    "Rank": 56,
-    "ActiveInterests": 677,
-    "ContactDepartment": "",
-    "ContactCountryId": 392,
-    "ContactOrgNr": "714150",
-    "FaxPhone": "460-187-8787",
-    "MobilePhone": "025.771.5721 x568",
-    "ContactPhone": "402-318-5841 x2154",
-    "AssociateName": "Haley-Kohler",
-    "AssociateId": 940,
-    "UsePersonAddress": true,
-    "ContactFax": "non",
-    "Kanafname": "est",
-    "Kanalname": "eos",
-    "Post1": "repellendus",
-    "Post2": "voluptates",
-    "Post3": "voluptates",
-    "EmailName": "bella_jenkins@parisian.name",
-    "ContactFullName": "Antwan Spencer",
-    "ActiveErpLinks": 483,
-    "TicketPriorityId": 645,
-    "SupportLanguageId": 678,
-    "SupportAssociateId": 610,
-    "CategoryName": "VIP Customer",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 756
-      }
-    }
-  },
-  "CustomerAlias": "distinctio",
-  "CustomerHost": "et",
-  "CustomerName": "Jones-Brown",
-  "CustomerEmail": "lempi@treutel.uk",
-  "CustomerPhone": "200-065-8113",
+  "ChatSessionId": 184,
+  "TopicId": 164,
+  "User": null,
+  "Person": null,
+  "CustomerAlias": "dignissimos",
+  "CustomerHost": "corporis",
+  "CustomerName": "Russel LLC",
+  "CustomerEmail": "johnathan_ortiz@shanahanfeil.biz",
+  "CustomerPhone": "(234)938-9618",
   "CustomerConsented": true,
-  "CustomerCompanyName": "Champlin LLC",
+  "CustomerCompanyName": "Marquardt-Rolfson",
   "Status": "Closed",
-  "FirstMessage": "optio",
-  "LastMessage": "hic",
-  "WhenRequested": "2015-03-30T18:28:48.2942869+02:00",
-  "WhenStarted": "2014-02-24T18:28:48.2942869+01:00",
-  "WhenEnded": "2014-06-04T18:28:48.2942869+02:00",
-  "WhenIdle": "2007-02-07T18:28:48.2942869+01:00",
-  "WhenFetched": "2017-12-22T18:28:48.2942869+01:00",
-  "SessionKey": "sit",
-  "InitialQueuePos": 571,
-  "AlertLevel": 993,
-  "Rank": 172,
+  "FirstMessage": "et",
+  "LastMessage": "ab",
+  "WhenRequested": "2017-09-17T11:10:26.1285249+02:00",
+  "WhenStarted": "2012-03-01T11:10:26.1285249+01:00",
+  "WhenEnded": "2004-11-11T11:10:26.1285249+01:00",
+  "WhenIdle": "2013-03-11T11:10:26.1285249+01:00",
+  "WhenFetched": "2014-02-03T11:10:26.1285249+01:00",
+  "SessionKey": "ut",
+  "InitialQueuePos": 146,
+  "AlertLevel": 83,
+  "Rank": 688,
   "Flags": "CustomerIsTyping",
-  "Contact": {
-    "ContactId": 78,
-    "Name": "Hickle Inc and Sons",
-    "OrgNr": "985500",
-    "Department": "",
-    "URL": "http://www.example.com/",
-    "City": "unde",
-    "DirectPhone": "1-644-120-2526",
-    "AssociateId": 410,
-    "CountryId": 492,
-    "EmailAddress": "dario@barrows.co.uk",
-    "Kananame": "et",
-    "EmailAddressName": "zachariah.grady@watsica.com",
-    "URLName": "http://www.example.com/",
-    "AssociateFullName": "Emilio Quitzon",
-    "BusinessName": "Information Technology",
-    "CategoryName": "VIP Customer",
-    "CountryName": "Sokovia",
-    "Address": {},
-    "FormattedAddress": "et",
-    "FullName": "Rebekah Roob",
-    "IsOwnerContact": true,
-    "ActiveErpLinks": 850,
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 685
-      }
-    }
-  },
-  "Project": {
-    "ProjectId": 489,
-    "Name": "McDermott-Vandervort",
-    "Description": "Customer-focused eco-centric extranet",
-    "URL": "http://www.example.com/",
-    "Type": "maxime",
-    "AssociateId": 956,
-    "AssociateFullName": "Mrs. Otilia Koss",
-    "TypeId": 234,
-    "Updated": "1996-10-02T18:28:48.2952868+02:00",
-    "StatusId": 175,
-    "Status": "et",
-    "TextId": 392,
-    "PublishTo": "2000-12-07T18:28:48.2952868+01:00",
-    "PublishFrom": "2011-12-03T18:28:48.2952868+01:00",
-    "IsPublished": false,
-    "URLName": "http://www.example.com/",
-    "ProjectNumber": "1111461",
-    "ActiveErpLinks": 763,
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.Int32",
-        "FieldLength": 12
-      }
-    }
-  },
-  "Sale": {
-    "ContactName": "Huel, Blanda and Gutmann",
-    "SaleDate": "2008-02-08T18:28:48.2952868+01:00",
-    "SaleId": 831,
-    "Probability": 700,
-    "Title": "et",
-    "Amount": 17092.836,
-    "Currency": "reprehenderit",
-    "ProjectName": "Roob-Rice",
-    "AssociateFullName": "Marshall Hegmann",
-    "Description": "Open-source full-range neural-net",
-    "Status": "Lost",
-    "WeightedAmount": 18891.752,
-    "ProjectId": 601,
-    "EarningPercent": 28773.254,
-    "Earning": 3867.3559999999998,
-    "ContactId": 757,
-    "AssociateId": 956,
-    "PersonId": 432,
-    "SaleTypeId": 374,
-    "SaleTypeName": "Bayer Group",
-    "PersonFullName": "Vergie Rempel",
-    "Completed": "Completed",
-    "ActiveErpLinks": 479,
-    "NextDueDate": "1995-05-20T18:28:48.2952868+02:00",
-    "Number": "622684",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 519
-      }
-    }
-  },
-  "Ticket": {
-    "TicketId": 374,
-    "Title": "earum",
-    "CreatedAt": "1997-05-16T18:28:48.2952868+02:00",
-    "LastChanged": "2018-11-19T18:28:48.2952868+01:00",
-    "ReadByOwner": "2019-11-21T18:28:48.2952868+01:00",
-    "ReadByCustomer": "2000-10-02T18:28:48.2952868+02:00",
-    "FirstReadByUser": "2001-07-02T18:28:48.2952868+02:00",
-    "Activate": "2001-09-23T18:28:48.2952868+02:00",
-    "ClosedAt": "2012-09-21T18:28:48.2952868+02:00",
-    "RepliedAt": "2019-12-16T18:28:48.2952868+01:00",
-    "AlertTimeout": "2000-04-08T18:28:48.2952868+02:00",
-    "Deadline": "2008-11-07T18:28:48.2952868+01:00",
-    "CreatedBy": 389,
-    "CreatedByName": "Blanda-Roberts",
-    "Author": "molestiae",
-    "OwnedBy": 344,
-    "OwnedByName": "Jacobi, Skiles and Schmidt",
-    "Category": 8,
-    "CategoryName": "VIP Customer",
-    "CategoryFullname": "VIP Customer",
-    "Slevel": "External",
-    "Priority": 212,
-    "PriorityName": "Casper-Dooley",
-    "BaseStatus": "Active",
-    "TicketStatus": 624,
-    "TicketStatusDisplayValue": "vitae",
-    "Origin": "AutoGenerated",
-    "CustId": 332,
-    "PersonFirstname": "Raphaelle",
-    "PersonMiddleName": "Hamill Inc and Sons",
-    "PersonLastname": "Keebler",
-    "PersonFullname": "aliquam",
-    "AlertLevel": 403,
-    "ConnectId": 886,
-    "ReadStatus": "Green",
-    "TimeToReply": 707,
-    "RealTimeToReply": 91,
-    "TimeToClose": 590,
-    "RealTimeToClose": 330,
-    "TimeSpentInternally": 478,
-    "TimeSpentExternally": 183,
-    "TimeSpentQueue": 879,
-    "RealTimeSpentInternally": 544,
-    "RealTimeSpentExternally": 690,
-    "RealTimeSpentQueue": 974,
-    "HasAttachment": false,
-    "NumReplies": 143,
-    "NumMessages": 891,
-    "FromAddress": "eos",
-    "ContactId": 396,
-    "ContactName": "Lesch-Mraz",
-    "OwnedByAssociateId": 450,
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 52
-      }
-    }
-  },
-  "TransferTo": {
-    "AssociateId": 262,
-    "Name": "Klocko, Champlin and Vandervort",
-    "PersonId": 530,
-    "Rank": 145,
-    "Tooltip": "sint",
-    "Type": "AnonymousAssociate",
-    "GroupIdx": 484,
-    "FullName": "Miss Penelope Reichert",
-    "FormalName": "Roberts-Dare",
-    "Deleted": true,
-    "EjUserId": 574,
-    "UserName": "Osinski-Dach",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.Int32",
-        "FieldLength": 679
-      }
-    }
-  },
-  "ChatbotIsActive": false,
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "Contact": null,
+  "Project": null,
+  "Sale": null,
+  "Ticket": null,
+  "TransferTo": null,
+  "ChatbotIsActive": true,
+  "Rating": 853,
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
-      "FieldType": "System.Int32",
-      "FieldLength": 540
+      "FieldRight": null,
+      "FieldType": "System.String",
+      "FieldLength": 277
     }
   }
 }

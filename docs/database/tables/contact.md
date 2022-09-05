@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "contact"
-so.date: 04.12.2022
+so.date: 08.26.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -15,7 +15,7 @@ so.envir:
 
 # contact Table (5)
 
-Companies and Organizations.   This table features a special record containing information about the contact that owns the database.
+Companies and Organizations.   This table features a special record containing information about the contact that owns the database.  
 
 ## Fields
 
@@ -59,6 +59,7 @@ Companies and Organizations.   This table features a special record containing i
 |dbi\_last\_modified|When the entry was last modified.|DateTime|&#x25CF;|
 |activeErpLinks|The number of Erp Sync connections this record is synced with; count of the ErpExternalKey+ErpInternalKey relations|Int|&#x25CF;|
 |DeletedDate|Datetime (utc) when this record was soft-deleted; if this value is set then the record should not be shown|UtcDateTime|&#x25CF;|
+
 
 ![contact table relationship diagram](./media/contact.png)
 
@@ -135,6 +136,7 @@ Companies and Organizations.   This table features a special record containing i
 |[URL](url.md)  |Unified Resource Locators, URL to contacts, persons or projects. |
 |[UserGroup](usergroup.md)  |Secondary user groups |
 
+
 ## Replication Flags
 
 * Area Management controlled table. Contents replicated to satellites and traveller databases.
@@ -145,3 +147,4 @@ Companies and Organizations.   This table features a special record containing i
 ## Security Flags
 
 * Sentry controls access to items in this table using user's Role and data rights matrix.
+

@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "BaseTZLocation"
-so.date: 04.12.2022
+so.date: 08.26.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -32,6 +32,7 @@ Time zone location for the database (how tz-related datetimes should be stored i
 |updated\_associate\_id|Last updated by whom|FK [associate](associate.md)| |
 |updatedCount|Number of updates made to this record|UShort| |
 
+
 ![BaseTZLocation table relationship diagram](./media/BaseTZLocation.png)
 
 [!include[details](./includes/basetzlocation.md)]
@@ -49,6 +50,7 @@ Time zone location for the database (how tz-related datetimes should be stored i
 |[associate](associate.md)  |Employees, resources and other users - except for External persons |
 |[TZLocation](tzlocation.md)  |Time zone location |
 
+
 ## Replication Flags
 
 * Replicate changes DOWN from central to satellites and travellers.
@@ -58,3 +60,4 @@ Time zone location for the database (how tz-related datetimes should be stored i
 ## Security Flags
 
 * No access control via user's Role.
+

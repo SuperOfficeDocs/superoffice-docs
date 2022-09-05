@@ -1,6 +1,6 @@
 ---
 title: GET List/ProductCategory/Items/{id}/Headings
-id: v1ProductCategoryList_GetProductCategoryHeadingsForListItem
+uid: v1ProductCategoryList_GetProductCategoryHeadingsForListItem
 ---
 
 # GET List/ProductCategory/Items/{id}/Headings
@@ -11,11 +11,17 @@ GET /api/v1/List/ProductCategory/Items/{itemId}/Headings
 
 Gets headings for the ProductCategory list's item.
 
+
 Calls the List agent service GetHeadings.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | itemId | int32 | The ID of the headings to be get. **Required** |
+
 
 ## Query String Parameters
 
@@ -26,6 +32,7 @@ Calls the List agent service GetHeadings.
 ```http
 GET /api/v1/List/ProductCategory/Items/{itemId}/Headings?showDeleted=True
 ```
+
 
 ## Request Headers
 
@@ -40,7 +47,10 @@ GET /api/v1/List/ProductCategory/Items/{itemId}/Headings?showDeleted=True
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -68,14 +78,16 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 GET /api/v1/List/ProductCategory/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -83,65 +95,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 602,
-    "Name": "O'Conner-Turcotte",
-    "ToolTip": "Et ipsam non.",
+    "Id": 193,
+    "Name": "Tremblay-Powlowski",
+    "ToolTip": "Dolore nulla quos delectus voluptate sed rerum dolores.",
     "Deleted": false,
-    "Rank": 449,
-    "Type": "repellendus",
-    "ColorBlock": 259,
-    "IconHint": "doloribus",
+    "Rank": 912,
+    "Type": "vel",
+    "ColorBlock": 516,
+    "IconHint": "alias",
     "Selected": true,
-    "LastChanged": "2014-01-20T18:25:52.0012125+01:00",
+    "LastChanged": "2016-07-17T11:10:54.4229274+02:00",
     "ChildItems": [
       {
-        "Id": 182,
-        "Name": "Cummerata Inc and Sons",
-        "ToolTip": "Qui perspiciatis non dolores ipsum est nulla.",
+        "Id": 67,
+        "Name": "Prohaska, Marquardt and Jewess",
+        "ToolTip": "Libero exercitationem.",
         "Deleted": false,
-        "Rank": 434,
-        "Type": "dolores",
-        "ColorBlock": 297,
-        "IconHint": "perspiciatis",
-        "Selected": true,
-        "LastChanged": "2021-09-28T18:25:52.0012125+02:00",
+        "Rank": 750,
+        "Type": "modi",
+        "ColorBlock": 462,
+        "IconHint": "non",
+        "Selected": false,
+        "LastChanged": "2022-07-11T11:10:54.4229274+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "maxime",
-        "StyleHint": "iste",
+        "ExtraInfo": "nisi",
+        "StyleHint": "voluptate",
         "Hidden": false,
-        "FullName": "Manuel Hoeger",
-        "TableRight": {},
+        "FullName": "Mrs. Ferne Eduardo Stokes DVM",
+        "TableRight": null,
         "FieldProperties": {
           "fieldName": {
-            "FieldRight": {
-              "Mask": "FULL",
-              "Reason": ""
-            },
-            "FieldType": "System.String",
-            "FieldLength": 62
+            "FieldRight": null,
+            "FieldType": "System.Int32",
+            "FieldLength": 155
           }
         }
       }
     ],
-    "ExtraInfo": "non",
-    "StyleHint": "quaerat",
+    "ExtraInfo": "similique",
+    "StyleHint": "nostrum",
     "Hidden": true,
-    "FullName": "Rolando Brekke",
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": "optimize cross-media action-items"
-    },
+    "FullName": "Lindsey Volkman",
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.Int32",
-        "FieldLength": 290
+        "FieldRight": null,
+        "FieldType": "System.String",
+        "FieldLength": 362
       }
     }
   }

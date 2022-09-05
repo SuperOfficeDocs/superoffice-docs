@@ -15,6 +15,8 @@ Deletes the FormSubmissionEntity
 
 * **formSubmissionEntityId:** The identity of the FormSubmissionEntity
 
+
+
 [WSDL file for Services85/Marketing](../Services85-Marketing.md)
 
 Obtain a ticket from the [Services85/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -46,6 +48,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## DeleteFormSubmissionEntity Response
 
 ```xml
@@ -64,3 +67,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

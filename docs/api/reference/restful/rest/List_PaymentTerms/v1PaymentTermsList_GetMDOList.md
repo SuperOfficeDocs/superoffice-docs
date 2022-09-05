@@ -1,6 +1,6 @@
 ---
 title: GET List/PaymentTerm/MDOItems
-id: v1PaymentTermsList_GetMDOList
+uid: v1PaymentTermsList_GetMDOList
 ---
 
 # GET List/PaymentTerm/MDOItems
@@ -11,6 +11,12 @@ GET /api/v1/List/PaymentTerm/MDOItems
 
 Get the MDO list items for "PaymentTerms" - with headings and filtering by user group.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -19,9 +25,10 @@ Get the MDO list items for "PaymentTerms" - with headings and filtering by user 
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/PaymentTerm/MDOItems?flat=True
-GET /api/v1/List/PaymentTerm/MDOItems?query=aperiam
+GET /api/v1/List/PaymentTerm/MDOItems?flat=False
+GET /api/v1/List/PaymentTerm/MDOItems?query=accusantium
 ```
+
 
 ## Request Headers
 
@@ -36,7 +43,10 @@ GET /api/v1/List/PaymentTerm/MDOItems?query=aperiam
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -61,7 +71,7 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 GET /api/v1/List/PaymentTerm/MDOItems
@@ -70,65 +80,58 @@ Accept: application/json; charset=utf-8
 Accept-Language: sv
 ```
 
+## Sample response
+
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 286,
-    "Name": "Schmeler Inc and Sons",
-    "ToolTip": "Et natus.",
+    "Id": 921,
+    "Name": "Lesch, Hilpert and Harvey",
+    "ToolTip": "Beatae ad.",
     "Deleted": true,
-    "Rank": 513,
-    "Type": "culpa",
+    "Rank": 866,
+    "Type": "modi",
     "ChildItems": [
       {
-        "Id": 58,
-        "Name": "Hansen, Herman and Ward",
-        "ToolTip": "Excepturi nesciunt sed exercitationem sint.",
+        "Id": 694,
+        "Name": "Bartoletti-Cassin",
+        "ToolTip": "Recusandae aliquam nesciunt voluptatem in perferendis placeat.",
         "Deleted": false,
-        "Rank": 523,
-        "Type": "aspernatur",
+        "Rank": 20,
+        "Type": "minima",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "voluptates",
-        "ColorBlock": 863,
-        "ExtraInfo": "perferendis",
-        "StyleHint": "vel",
-        "FullName": "Dr. Kyle Hoppe",
-        "TableRight": {},
+        "IconHint": "est",
+        "ColorBlock": 835,
+        "ExtraInfo": "non",
+        "StyleHint": "voluptatibus",
+        "FullName": "Cydney Ziemann",
+        "TableRight": null,
         "FieldProperties": {
           "fieldName": {
-            "FieldRight": {
-              "Mask": "FULL",
-              "Reason": ""
-            },
-            "FieldType": "System.String",
-            "FieldLength": 575
+            "FieldRight": null,
+            "FieldType": "System.Int32",
+            "FieldLength": 362
           }
         }
       }
     ],
-    "IconHint": "vel",
-    "ColorBlock": 306,
-    "ExtraInfo": "quis",
-    "StyleHint": "fugit",
-    "FullName": "Kole Nader",
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "IconHint": "aut",
+    "ColorBlock": 895,
+    "ExtraInfo": "voluptate",
+    "StyleHint": "soluta",
+    "FullName": "Stuart Fay",
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
+        "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 329
+        "FieldLength": 172
       }
     }
   }

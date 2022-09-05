@@ -1,6 +1,6 @@
 ---
 title: GET List/{name}/Headings
-id: v1ListItemEntity_GetHeadingsFromName
+uid: v1ListItemEntity_GetHeadingsFromName
 ---
 
 # GET List/{name}/Headings
@@ -11,9 +11,16 @@ GET /api/v1/List/{name}/Headings
 
 Gets headings for list resolved by the provided name.
 
+
+
+
+
+
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | name | string | The name of the list to look up. **Required** |
+
+
 
 ## Request Headers
 
@@ -28,7 +35,10 @@ Gets headings for list resolved by the provided name.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -47,7 +57,7 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 GET /api/v1/List/{name}/Headings
@@ -56,30 +66,26 @@ Accept: application/json; charset=utf-8
 Accept-Language: en
 ```
 
+## Sample response
+
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 976,
-    "Name": "Tremblay, Ritchie and Berge",
-    "Tooltip": "ipsum",
-    "Deleted": true,
-    "Rank": 305,
-    "UdListDefinitionId": 141,
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "HeadingId": 736,
+    "Name": "Herman Inc and Sons",
+    "Tooltip": "maiores",
+    "Deleted": false,
+    "Rank": 79,
+    "UdListDefinitionId": 143,
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.Int32",
-        "FieldLength": 980
+        "FieldRight": null,
+        "FieldType": "System.String",
+        "FieldLength": 476
       }
     }
   }

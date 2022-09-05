@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Archive/ExportArchive
-id: v1ArchiveAgent_ExportArchive
+uid: v1ArchiveAgent_ExportArchive
 ---
 
 # POST Agents/Archive/ExportArchive
@@ -11,6 +11,12 @@ POST /api/v1/Agents/Archive/ExportArchive
 
 Exports the target archive to a downloadable format.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Exports the target archive to a downloadable format.
 ```http
 POST /api/v1/Agents/Archive/ExportArchive?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,9 +42,9 @@ POST /api/v1/Agents/Archive/ExportArchive?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-ProviderName, Context, DesiredEntities, Columns, SortOrder, Restrictions, ExportType, SelectedRowIds, EstimatedRowCount
+ProviderName, Context, DesiredEntities, Columns, SortOrder, Restrictions, ExportType, SelectedRowIds, EstimatedRowCount 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -51,16 +58,16 @@ ProviderName, Context, DesiredEntities, Columns, SortOrder, Restrictions, Export
 | SelectedRowIds | array |  |
 | EstimatedRowCount | int32 |  |
 
-## Response: object
 
-Carrier object for ExportArchiveResult.
-Services for the ExportArchiveResult Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IArchiveAgent">Archive Agent</see>.
+## Response: 
+
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -70,88 +77,84 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Archive/ExportArchive
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Purdy Inc and Sons",
-  "Context": "fugiat",
+  "ProviderName": "Dietrich LLC",
+  "Context": "sit",
   "DesiredEntities": [
-    "ut",
-    "aut"
+    "repellendus",
+    "rerum"
   ],
   "Columns": [
-    "est",
-    "et"
+    "temporibus",
+    "voluptas"
   ],
   "SortOrder": [
     {
-      "Name": "Hettinger, Schiller and Lakin",
+      "Name": "Haag Group",
       "Direction": "ASC"
     },
     {
-      "Name": "Hettinger, Schiller and Lakin",
+      "Name": "Haag Group",
       "Direction": "ASC"
     }
   ],
   "Restrictions": [
     {
-      "Name": "Durgan, Kling and Vandervort",
-      "Operator": "sed",
+      "Name": "Kris-Rau",
+      "Operator": "aut",
       "Values": [
-        "voluptatibus",
-        "aut"
+        "dolor",
+        "velit"
       ],
       "DisplayValues": [
-        "enim",
-        "saepe"
+        "culpa",
+        "et"
       ],
-      "ColumnInfo": {},
+      "ColumnInfo": null,
       "IsActive": true,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 73,
+      "InterParenthesis": 605,
       "InterOperator": "And",
-      "UniqueHash": 667
+      "UniqueHash": 451
     }
   ],
-  "ExportType": "sint",
+  "ExportType": "ad",
   "SelectedRowIds": [
-    "aliquid",
-    "architecto"
+    "ut",
+    "laboriosam"
   ],
-  "EstimatedRowCount": 126
+  "EstimatedRowCount": 774
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BatchTaskId": 223,
-  "FileName": "Baumbach, Barton and Stark",
-  "Message": "dolores",
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "BatchTaskId": 357,
+  "FileName": "Cassin Inc and Sons",
+  "Message": "ea",
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
+      "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 835
+      "FieldLength": 47
     }
   }
 }

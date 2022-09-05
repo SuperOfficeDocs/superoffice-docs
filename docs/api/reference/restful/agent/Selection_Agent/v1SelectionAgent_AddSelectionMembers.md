@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Selection/AddSelectionMembers
-id: v1SelectionAgent_AddSelectionMembers
+uid: v1SelectionAgent_AddSelectionMembers
 ---
 
 # POST Agents/Selection/AddSelectionMembers
@@ -11,6 +11,12 @@ POST /api/v1/Agents/Selection/AddSelectionMembers
 
 Add selection members to a static selection of type others than contacts.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Add selection members to a static selection of type others than contacts.
 ```http
 POST /api/v1/Agents/Selection/AddSelectionMembers?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,16 +42,19 @@ POST /api/v1/Agents/Selection/AddSelectionMembers?$select=name,department,catego
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-SelectionId, Ids
+SelectionId, Ids 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | SelectionId | int32 |  |
 | Ids | array |  |
 
+
 ## Response: int32
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -52,7 +62,8 @@ SelectionId, Ids
 
 Response body: int32
 
-## Sample Request
+
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Selection/AddSelectionMembers
@@ -62,17 +73,19 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 240,
+  "SelectionId": 625,
   "Ids": [
-    543,
-    687
+    467,
+    697
   ]
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-278
+39
 ```

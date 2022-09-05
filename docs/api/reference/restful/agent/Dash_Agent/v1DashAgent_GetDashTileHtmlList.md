@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Dash/GetDashTileHtmlList
-id: v1DashAgent_GetDashTileHtmlList
+uid: v1DashAgent_GetDashTileHtmlList
 ---
 
 # POST Agents/Dash/GetDashTileHtmlList
@@ -11,7 +11,13 @@ POST /api/v1/Agents/Dash/GetDashTileHtmlList
 
 Get HTML for a dashboard tile definition with TileType = HTML.
 
+
 Retrieve a list with all registered languages.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +28,7 @@ Retrieve a list with all registered languages.
 ```http
 POST /api/v1/Agents/Dash/GetDashTileHtmlList?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,15 +44,18 @@ POST /api/v1/Agents/Dash/GetDashTileHtmlList?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-DashboardTileDefinitionId
+DashboardTileDefinitionId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | DashboardTileDefinitionId | int32 |  |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -60,19 +70,21 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Dash/GetDashTileHtmlList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileDefinitionId": 703
+  "DashboardTileDefinitionId": 515
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -80,38 +92,26 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "LanguageCode": "maiores",
-    "Html": "veritatis",
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "LanguageCode": "ut",
+    "Html": "nostrum",
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": "strategize rich experiences"
-        },
+        "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 99
+        "FieldLength": 492
       }
     }
   },
   {
-    "LanguageCode": "maiores",
-    "Html": "veritatis",
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "LanguageCode": "ut",
+    "Html": "nostrum",
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": "strategize rich experiences"
-        },
+        "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 99
+        "FieldLength": 492
       }
     }
   }

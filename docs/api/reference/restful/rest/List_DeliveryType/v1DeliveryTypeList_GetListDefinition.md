@@ -1,6 +1,6 @@
 ---
 title: GET List/DeliveryType
-id: v1DeliveryTypeList_GetListDefinition
+uid: v1DeliveryTypeList_GetListDefinition
 ---
 
 # GET List/DeliveryType
@@ -10,6 +10,13 @@ GET /api/v1/List/DeliveryType
 ```
 
 Gets description of DeliveryType list
+
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -24,17 +31,16 @@ Gets description of DeliveryType list
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response: object
 
-The list entity contains information about a specific list
+## Response: 
 
-ListEntity entity with API _Links added.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -52,42 +58,38 @@ Response body: object
 | FieldProperties | object |  |
 | _Links | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 GET /api/v1/List/DeliveryType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 73,
-  "Name": "Kuhic, Williamson and O'Kon",
-  "Tooltip": "rerum",
-  "Deleted": false,
-  "Rank": 392,
+  "Id": 89,
+  "Name": "Monahan-Satterfield",
+  "Tooltip": "et",
+  "Deleted": true,
+  "Rank": 85,
   "IsCustomList": false,
   "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "eligendi",
-  "InUseByUserDefinedFields": true,
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "ListType": "fugiat",
+  "InUseByUserDefinedFields": false,
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": "embrace enterprise users"
-      },
-      "FieldType": "System.String",
-      "FieldLength": 811
+      "FieldRight": null,
+      "FieldType": "System.Int32",
+      "FieldLength": 945
     }
   },
   "_Links": {

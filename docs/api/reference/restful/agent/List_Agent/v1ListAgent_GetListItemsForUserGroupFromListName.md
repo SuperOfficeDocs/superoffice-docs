@@ -1,6 +1,6 @@
 ---
 title: POST Agents/List/GetListItemsForUserGroupFromListName
-id: v1ListAgent_GetListItemsForUserGroupFromListName
+uid: v1ListAgent_GetListItemsForUserGroupFromListName
 ---
 
 # POST Agents/List/GetListItemsForUserGroupFromListName
@@ -11,6 +11,12 @@ POST /api/v1/Agents/List/GetListItemsForUserGroupFromListName
 
 List of list items that is visible in the usergroup
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ List of list items that is visible in the usergroup
 ```http
 POST /api/v1/Agents/List/GetListItemsForUserGroupFromListName?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,16 +42,19 @@ POST /api/v1/Agents/List/GetListItemsForUserGroupFromListName?$select=name,depar
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-UdListDefinitionName, GroupId
+UdListDefinitionName, GroupId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | UdListDefinitionName | string |  |
 | GroupId | int32 |  |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -72,20 +82,22 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/List/GetListItemsForUserGroupFromListName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionName": "Treutel, Hermiston and Kerluke",
-  "GroupId": 699
+  "UdListDefinitionName": "Bergstrom-Torp",
+  "GroupId": 615
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -93,65 +105,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 291,
-    "Name": "Hudson, Weissnat and Walter",
-    "ToolTip": "Reprehenderit similique sed.",
+    "Id": 527,
+    "Name": "Botsford, Gerlach and Bartoletti",
+    "ToolTip": "Quam minus praesentium inventore.",
     "Deleted": false,
-    "Rank": 814,
-    "Type": "eligendi",
-    "ColorBlock": 393,
-    "IconHint": "soluta",
+    "Rank": 662,
+    "Type": "temporibus",
+    "ColorBlock": 310,
+    "IconHint": "maxime",
     "Selected": true,
-    "LastChanged": "1999-11-16T18:28:49.3161225+01:00",
+    "LastChanged": "2004-03-26T11:10:27.1734524+01:00",
     "ChildItems": [
       {
-        "Id": 513,
-        "Name": "Bogan-Nikolaus",
-        "ToolTip": "Minus voluptatem praesentium.",
+        "Id": 665,
+        "Name": "Collins-Ankunding",
+        "ToolTip": "Ut consequatur qui aut.",
         "Deleted": true,
-        "Rank": 453,
-        "Type": "tempore",
-        "ColorBlock": 833,
-        "IconHint": "est",
-        "Selected": false,
-        "LastChanged": "2007-11-16T18:28:49.3171231+01:00",
+        "Rank": 732,
+        "Type": "praesentium",
+        "ColorBlock": 795,
+        "IconHint": "repudiandae",
+        "Selected": true,
+        "LastChanged": "2008-08-24T11:10:27.1744587+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "aut",
-        "StyleHint": "distinctio",
-        "Hidden": true,
-        "FullName": "Dimitri Ebert",
-        "TableRight": {},
+        "ExtraInfo": "dolores",
+        "StyleHint": "aut",
+        "Hidden": false,
+        "FullName": "Megane Morar",
+        "TableRight": null,
         "FieldProperties": {
           "fieldName": {
-            "FieldRight": {
-              "Mask": "FULL",
-              "Reason": ""
-            },
+            "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 236
+            "FieldLength": 634
           }
         }
       }
     ],
-    "ExtraInfo": "qui",
-    "StyleHint": "temporibus",
+    "ExtraInfo": "est",
+    "StyleHint": "tempore",
     "Hidden": false,
-    "FullName": "Adaline O'Keefe",
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "FullName": "Noelia Douglas",
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.Int32",
-        "FieldLength": 155
+        "FieldRight": null,
+        "FieldType": "System.String",
+        "FieldLength": 865
       }
     }
   }

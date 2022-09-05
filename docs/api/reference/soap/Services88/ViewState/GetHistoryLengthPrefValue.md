@@ -13,7 +13,9 @@ Implemented by the <see cref="M:SuperOffice.Services88.IViewStateAgent.GetHistor
 
 Get the logged on user's preferred history list length. Will return the system preference if no user preferences are available.
 
+
 **Returns:** The history list lenght
+
 
 [WSDL file for Services88/ViewState](../Services88-ViewState.md)
 
@@ -46,6 +48,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## GetHistoryLengthPrefValue Response
 
 ```xml
@@ -66,3 +69,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

@@ -18,6 +18,7 @@ This method will return a json with all deltas for screen
 
 **Returns:** A string with recipe delta in json for logged in associate of given deltatype
 
+
 [WSDL file for Services88/Configuration](../Services88-Configuration.md)
 
 Obtain a ticket from the [Services88/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -51,6 +52,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## GetScreenConfigurationDelta Response
 
 ```xml
@@ -71,3 +73,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

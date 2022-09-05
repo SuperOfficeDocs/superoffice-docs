@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Webhook/GetAllWebhooks
-id: v1WebhookAgent_GetAllWebhooks
+uid: v1WebhookAgent_GetAllWebhooks
 ---
 
 # POST Agents/Webhook/GetAllWebhooks
@@ -11,7 +11,15 @@ POST /api/v1/Agents/Webhook/GetAllWebhooks
 
 Returns all webhooks, according to filter criteria
 
-## Online Restricted: ## The Webhook agent is not available in Online by default. Access must be requested specifically when app is registered
+
+
+
+## Online Restricted: ## The Webhook agent is not available in Online by default. Access must be requested specifically when app is registered.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +30,7 @@ Returns all webhooks, according to filter criteria
 ```http
 POST /api/v1/Agents/Webhook/GetAllWebhooks?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,9 +46,9 @@ POST /api/v1/Agents/Webhook/GetAllWebhooks?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-NameFilter, EventFilter, StatusFilter
+NameFilter, EventFilter, StatusFilter 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -47,7 +56,10 @@ NameFilter, EventFilter, StatusFilter
 | EventFilter | string |  |
 | StatusFilter | string |  |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -71,21 +83,23 @@ Response body: array
 | Updated | date-time | Last updated when  in UTC. |
 | UpdatedAssociate |  | The user that last updated the webhook. |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Webhook/GetAllWebhooks
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "NameFilter": "Mayert Inc and Sons",
-  "EventFilter": "excepturi",
+  "NameFilter": "Zieme, Carroll and Mills",
+  "EventFilter": "perferendis",
   "StatusFilter": "Active"
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -93,75 +107,27 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "WebhookId": 233,
-    "Name": "Wisoky, Wisoky and Raynor",
+    "WebhookId": 1002,
+    "Name": "Wolff-O'Kon",
     "Events": [
-      "aut",
-      "tempore"
+      "minus",
+      "quia"
     ],
     "TargetUrl": "http://www.example.com/",
-    "Secret": "ipsa",
+    "Secret": "et",
     "State": "Active",
-    "Type": "minus",
+    "Type": "et",
     "Headers": {
-      "Headers1": "alias",
-      "Headers2": "quas"
+      "Headers1": "natus",
+      "Headers2": "consequatur"
     },
     "Properties": {
       "fieldName": {}
     },
-    "Registered": "2009-10-17T18:28:50.6134149+02:00",
-    "RegisteredAssociate": {
-      "AssociateId": 216,
-      "Name": "Hudson Inc and Sons",
-      "PersonId": 773,
-      "Rank": 8,
-      "Tooltip": "a",
-      "Type": "AnonymousAssociate",
-      "GroupIdx": 174,
-      "FullName": "Payton Bahringer",
-      "FormalName": "Welch, Leffler and Marquardt",
-      "Deleted": true,
-      "EjUserId": 487,
-      "UserName": "King, Beahan and Kiehn",
-      "TableRight": {},
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": {
-            "Mask": "FULL",
-            "Reason": "incentivize vertical schemas"
-          },
-          "FieldType": "System.Int32",
-          "FieldLength": 322
-        }
-      }
-    },
-    "Updated": "2020-07-30T18:28:50.6134149+02:00",
-    "UpdatedAssociate": {
-      "AssociateId": 919,
-      "Name": "Donnelly LLC",
-      "PersonId": 253,
-      "Rank": 841,
-      "Tooltip": "adipisci",
-      "Type": "AnonymousAssociate",
-      "GroupIdx": 158,
-      "FullName": "Ofelia Leuschke",
-      "FormalName": "Beer-Aufderhar",
-      "Deleted": false,
-      "EjUserId": 53,
-      "UserName": "Kulas Group",
-      "TableRight": {},
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": {
-            "Mask": "FULL",
-            "Reason": ""
-          },
-          "FieldType": "System.String",
-          "FieldLength": 169
-        }
-      }
-    }
+    "Registered": "2020-09-18T11:10:28.4862112+02:00",
+    "RegisteredAssociate": null,
+    "Updated": "2018-12-30T11:10:28.4872104+01:00",
+    "UpdatedAssociate": null
   }
 ]
 ```

@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Document/DeleteTempFile
-id: v1DocumentAgent_DeleteTempFile
+uid: v1DocumentAgent_DeleteTempFile
 ---
 
 # POST Agents/Document/DeleteTempFile
@@ -10,6 +10,12 @@ POST /api/v1/Agents/Document/DeleteTempFile
 ```
 
 Delete a temporary file created with CreateTempFile.
+
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -21,6 +27,7 @@ Delete a temporary file created with CreateTempFile.
 POST /api/v1/Agents/Document/DeleteTempFile?$select=name,department,category/id
 ```
 
+
 ## Request Headers
 
 | Parameter Name | Description |
@@ -28,18 +35,48 @@ POST /api/v1/Agents/Document/DeleteTempFile?$select=name,department,category/id
 | Authorization  | Supports 'Basic', 'SoTicket' and 'Bearer' schemes, depending on installation type. |
 | X-XSRF-TOKEN   | If not using Authorization header, you must provide XSRF value from cookie or hidden input field |
 | Content-Type | Content-type of the request body: `application/json`, `text/json`, `application/xml`, `text/xml`, `application/x-www-form-urlencoded`, `application/json-patch+json`, `application/merge-patch+json` |
+| Accept         | Content-type(s) you would like the response in:  |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-Filename
+Filename 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | Filename | string |  |
 
-## Response
+
+## Response: 
+
+No Content
 
 | Response | Description |
 |----------------|-------------|
 | 204 | No Content |
+
+Response body: 
+
+
+## Sample request
+
+```http!
+POST /api/v1/Agents/Document/DeleteTempFile
+Authorization: Basic dGplMDpUamUw
+Accept: application/json; charset=utf-8
+Accept-Language: en
+Content-Type: application/json; charset=utf-8
+
+{
+  "Filename": "eveniet"
+}
+```
+
+## Sample response
+
+```http_
+HTTP/1.1 204 No Content
+Content-Type: application/json; charset=utf-8
+
+null
+```

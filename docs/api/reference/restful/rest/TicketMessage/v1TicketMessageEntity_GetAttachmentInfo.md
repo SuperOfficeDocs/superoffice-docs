@@ -1,6 +1,6 @@
 ---
 title: GET TicketMessage/{id}/Attachment
-id: v1TicketMessageEntity_GetAttachmentInfo
+uid: v1TicketMessageEntity_GetAttachmentInfo
 ---
 
 # GET TicketMessage/{id}/Attachment
@@ -11,9 +11,16 @@ GET /api/v1/TicketMessage/{ticketMessageEntityId}/Attachment
 
 Get a list with meta data for all attached attachments
 
+
+
+
+
+
 | Path Part | Type | Description |
 |-----------|------|-------------|
-| ticketMessageEntityId | int32 | The id of the ticket message to get attachment infos **Required** |
+| ticketMessageEntityId | int32 | The id of the ticket message to get attachment infos for **Required** |
+
+
 
 ## Request Headers
 
@@ -28,7 +35,10 @@ Get a list with meta data for all attached attachments
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -47,14 +57,16 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 GET /api/v1/TicketMessage/{ticketMessageEntityId}/Attachment
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -62,24 +74,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AttachmentId": 323,
-    "Name": "Dicki-Graham",
-    "ContentType": "voluptas",
-    "AttSize": 420,
+    "AttachmentId": 38,
+    "Name": "Haley-Bayer",
+    "ContentType": "repudiandae",
+    "AttSize": 312,
     "InlineImage": false,
-    "ContentId": "eligendi",
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "ContentId": "tempore",
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 598
+        "FieldRight": null,
+        "FieldType": "System.Int32",
+        "FieldLength": 196
       }
     }
   }

@@ -1,6 +1,6 @@
 ---
 title: POST List/PaymentType/Items
-id: v1PaymentTypeList_PostPaymentType
+uid: v1PaymentTypeList_PostPaymentType
 ---
 
 # POST List/PaymentType/Items
@@ -10,6 +10,13 @@ POST /api/v1/List/PaymentType/Items
 ```
 
 Add a new PaymentType to the list.
+
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -25,9 +32,9 @@ Add a new PaymentType to the list.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: newListItem
+## Request Body: newListItem  
 
-The PaymentType to be added to the list.
+The PaymentType to be added to the list. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -38,18 +45,16 @@ The PaymentType to be added to the list.
 | UdListDefinitionId | int32 | The id of the list which this list item belongs to |
 | Rank | int32 | The rank of the list item |
 
-## Response: object
 
-The list item entity contains generic list item information
+## Response: 
 
-Carrier object for ListItemEntity.
-Services for the ListItemEntity Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IListAgent">List Agent</see>.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -62,7 +67,7 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/List/PaymentType/Items
@@ -72,38 +77,34 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 234,
-  "Name": "Hickle, O'Keefe and Champlin",
-  "Tooltip": "sequi",
-  "Deleted": false,
-  "UdListDefinitionId": 497,
-  "Rank": 631
+  "Id": 521,
+  "Name": "Bauch, Stracke and Hamill",
+  "Tooltip": "atque",
+  "Deleted": true,
+  "UdListDefinitionId": 734,
+  "Rank": 294
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 372,
-  "Name": "Bergnaum, Marvin and Lind",
-  "Tooltip": "quas",
-  "Deleted": true,
-  "UdListDefinitionId": 924,
-  "Rank": 205,
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "Id": 539,
+  "Name": "Fay, Powlowski and Gislason",
+  "Tooltip": "enim",
+  "Deleted": false,
+  "UdListDefinitionId": 98,
+  "Rank": 614,
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
+      "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 826
+      "FieldLength": 343
     }
   }
 }

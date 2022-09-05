@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Dash/AddTileToDashboard
-id: v1DashAgent_AddTileToDashboard
+uid: v1DashAgent_AddTileToDashboard
 ---
 
 # POST Agents/Dash/AddTileToDashboard
@@ -11,6 +11,12 @@ POST /api/v1/Agents/Dash/AddTileToDashboard
 
 Add a tile to a dashboard with next rank
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Add a tile to a dashboard with next rank
 ```http
 POST /api/v1/Agents/Dash/AddTileToDashboard?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,27 +42,25 @@ POST /api/v1/Agents/Dash/AddTileToDashboard?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-DashboardId, DashTileDefinitionId
+DashboardId, DashTileDefinitionId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | DashboardId | int32 |  |
 | DashTileDefinitionId | int32 |  |
 
-## Response: object
 
-Dashboard Tile configuration
+## Response: 
 
-Carrier object for DashTile.
-Services for the DashTile Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IDashAgent">Dash Agent</see>.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -68,74 +73,40 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Dash/AddTileToDashboard
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 700,
-  "DashTileDefinitionId": 500
+  "DashboardId": 740,
+  "DashTileDefinitionId": 68
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 288,
-  "DashboardId": 621,
-  "Height": 991,
-  "Width": 610,
-  "Rank": 824,
-  "DashTileDefinition": {
-    "DashboardTileDefinitionId": 600,
-    "Name": "Hand, Gulgowski and Klein",
-    "Description": "Programmable 5th generation interface",
-    "DefaultHeight": 392,
-    "DefaultWidth": 823,
-    "TileType": "Area",
-    "EntityType": "Appointment",
-    "EntityName": "Swaniawski-Monahan",
-    "SelectionId": 576,
-    "CurrencyMode": "Base",
-    "CurrencyCode": "nihil",
-    "Measure": "Average",
-    "MeasureField": "aut",
-    "SortBy": "quo",
-    "LayoutConfig": "cupiditate",
-    "SecondarySelectionId": 674,
-    "MeasureByField": "quidem",
-    "ProviderName": "Upton, Harber and Luettgen",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 386
-      }
-    }
-  },
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "DashboardTileId": 922,
+  "DashboardId": 74,
+  "Height": 844,
+  "Width": 299,
+  "Rank": 27,
+  "DashTileDefinition": null,
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
+      "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 904
+      "FieldLength": 651
     }
   }
 }

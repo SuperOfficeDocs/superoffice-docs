@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "DeliveryTermsGroupLink"
-so.date: 04.12.2022
+so.date: 08.26.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -30,6 +30,7 @@ User group link table for DeliveryTerms, for MDO item hiding
 |updated\_associate\_id|Last updated by whom|FK [associate](associate.md)| |
 |updatedCount|Number of updates made to this record|UShort| |
 
+
 ![DeliveryTermsGroupLink table relationship diagram](./media/DeliveryTermsGroupLink.png)
 
 [!include[details](./includes/deliverytermsgrouplink.md)]
@@ -50,6 +51,7 @@ User group link table for DeliveryTerms, for MDO item hiding
 |[DeliveryTerms](deliveryterms.md)  |The list of Delivery terms, in the internal product register |
 |[UserGroup](usergroup.md)  |Secondary user groups |
 
+
 ## Replication Flags
 
 * Replicate changes DOWN from central to satellites and travellers.
@@ -59,3 +61,4 @@ User group link table for DeliveryTerms, for MDO item hiding
 ## Security Flags
 
 * No access control via user's Role.
+

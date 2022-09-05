@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Configuration/GetDiaryViewEntity
-id: v1ConfigurationAgent_GetDiaryViewEntity
+uid: v1ConfigurationAgent_GetDiaryViewEntity
 ---
 
 # POST Agents/Configuration/GetDiaryViewEntity
@@ -11,6 +11,12 @@ POST /api/v1/Agents/Configuration/GetDiaryViewEntity
 
 Gets a DiaryViewEntity object.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -19,9 +25,10 @@ Gets a DiaryViewEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Configuration/GetDiaryViewEntity?diaryViewEntityId=677
+POST /api/v1/Agents/Configuration/GetDiaryViewEntity?diaryViewEntityId=836
 POST /api/v1/Agents/Configuration/GetDiaryViewEntity?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -36,13 +43,16 @@ POST /api/v1/Agents/Configuration/GetDiaryViewEntity?$select=name,department,cat
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response: object
+
+## Response: 
+
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -57,72 +67,65 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Configuration/GetDiaryViewEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DiaryViewId": 28,
-  "Name": "Legros-Cormier",
-  "Tooltip": "consequuntur",
-  "VisibleColumns": 466,
-  "Rank": 93,
-  "AssocId": 269,
+  "DiaryViewId": 421,
+  "Name": "Bergnaum, Morar and Gaylord",
+  "Tooltip": "et",
+  "VisibleColumns": 598,
+  "Rank": 639,
+  "AssocId": 326,
   "AssociateList": [
     {
-      "Id": 30,
-      "Name": "Johnson Inc and Sons",
-      "ToolTip": "Adipisci et cupiditate occaecati repellat id.",
+      "Id": 91,
+      "Name": "Hansen Inc and Sons",
+      "ToolTip": "Nihil sed est consequatur placeat.",
       "Deleted": false,
-      "Rank": 175,
-      "Type": "aut",
-      "ColorBlock": 103,
-      "IconHint": "omnis",
+      "Rank": 588,
+      "Type": "omnis",
+      "ColorBlock": 213,
+      "IconHint": "laudantium",
       "Selected": true,
-      "LastChanged": "1995-01-28T18:28:48.3946235+01:00",
+      "LastChanged": "2001-08-20T11:10:26.2135242+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "officia",
-      "StyleHint": "quae",
+      "ExtraInfo": "quidem",
+      "StyleHint": "non",
       "Hidden": true,
-      "FullName": "Libbie Prosacco",
-      "TableRight": {},
+      "FullName": "Mable Luettgen",
+      "TableRight": null,
       "FieldProperties": {
         "fieldName": {
-          "FieldRight": {
-            "Mask": "FULL",
-            "Reason": ""
-          },
+          "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 80
+          "FieldLength": 155
         }
       }
     }
   ],
-  "TzLocationId": 794,
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "TzLocationId": 95,
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": "cultivate sexy e-tailers"
-      },
+      "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 42
+      "FieldLength": 111
     }
   }
 }

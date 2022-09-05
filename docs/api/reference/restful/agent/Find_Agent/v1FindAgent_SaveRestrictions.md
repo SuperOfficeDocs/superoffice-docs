@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Find/SaveRestrictions
-id: v1FindAgent_SaveRestrictions
+uid: v1FindAgent_SaveRestrictions
 ---
 
 # POST Agents/Find/SaveRestrictions
@@ -10,6 +10,12 @@ POST /api/v1/Agents/Find/SaveRestrictions
 ```
 
 Save an array of restrictions for later use as search criteria (including as dynamic selection and Find).
+
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -21,6 +27,7 @@ Save an array of restrictions for later use as search criteria (including as dyn
 POST /api/v1/Agents/Find/SaveRestrictions?$select=name,department,category/id
 ```
 
+
 ## Request Headers
 
 | Parameter Name | Description |
@@ -28,11 +35,12 @@ POST /api/v1/Agents/Find/SaveRestrictions?$select=name,department,category/id
 | Authorization  | Supports 'Basic', 'SoTicket' and 'Bearer' schemes, depending on installation type. |
 | X-XSRF-TOKEN   | If not using Authorization header, you must provide XSRF value from cookie or hidden input field |
 | Content-Type | Content-type of the request body: `application/json`, `text/json`, `application/xml`, `text/xml`, `application/x-www-form-urlencoded`, `application/json-patch+json`, `application/merge-patch+json` |
+| Accept         | Content-type(s) you would like the response in:  |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-StorageType, ProviderName, StorageKey, Restrictions
+StorageType, ProviderName, StorageKey, Restrictions 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -41,8 +49,62 @@ StorageType, ProviderName, StorageKey, Restrictions
 | StorageKey | string |  |
 | Restrictions | array |  |
 
-## Response
+
+## Response: 
+
+No Content
 
 | Response | Description |
 |----------------|-------------|
 | 204 | No Content |
+
+Response body: 
+
+
+## Sample request
+
+```http!
+POST /api/v1/Agents/Find/SaveRestrictions
+Authorization: Basic dGplMDpUamUw
+Accept: application/json; charset=utf-8
+Accept-Language: en
+Content-Type: application/json; charset=utf-8
+
+{
+  "StorageType": "aut",
+  "ProviderName": "Marvin-Powlowski",
+  "StorageKey": "beatae",
+  "Restrictions": [
+    {
+      "Name": "O'Connell-Torphy",
+      "Operator": "ut",
+      "Values": [
+        "adipisci",
+        "esse"
+      ],
+      "DisplayValues": [
+        "officia",
+        "autem"
+      ],
+      "ColumnInfo": null,
+      "IsActive": false,
+      "SubRestrictions": [
+        {},
+        {}
+      ],
+      "InterParenthesis": 610,
+      "InterOperator": "And",
+      "UniqueHash": 69
+    }
+  ]
+}
+```
+
+## Sample response
+
+```http_
+HTTP/1.1 204 No Content
+Content-Type: application/json; charset=utf-8
+
+null
+```

@@ -1,6 +1,6 @@
 ---
 title: POST Agents/License/GetModuleLicenseFromDB
-id: v1LicenseAgent_GetModuleLicenseFromDB
+uid: v1LicenseAgent_GetModuleLicenseFromDB
 ---
 
 # POST Agents/License/GetModuleLicenseFromDB
@@ -11,6 +11,12 @@ POST /api/v1/Agents/License/GetModuleLicenseFromDB
 
 Get license information for one particular license module.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Get license information for one particular license module.
 ```http
 POST /api/v1/Agents/License/GetModuleLicenseFromDB?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,22 +42,25 @@ POST /api/v1/Agents/License/GetModuleLicenseFromDB?$select=name,department,categ
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-OwnerName, ModuleName
+OwnerName, ModuleName 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | OwnerName | string |  |
 | ModuleName | string |  |
 
-## Response: object
+
+## Response: 
+
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -70,7 +80,7 @@ Response body: object
 | PrerequisiteModuleName | string |  |
 | Signature | string |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/License/GetModuleLicenseFromDB
@@ -80,30 +90,32 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "OwnerName": "Bruen-Bauch",
-  "ModuleName": "Rippin LLC"
+  "OwnerName": "Connelly, Brakus and Carter",
+  "ModuleName": "Okuneva, Kris and Kohler"
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "OwnerName": "O'Keefe, Bednar and Green",
-  "ModuleName": "Vandervort-Kutch",
-  "ModuleDescription": "Synergistic intangible parallelism",
-  "ModuleTooltip": "quis",
-  "ModuleVersion": "omnis",
+  "OwnerName": "Nicolas, Spinka and Yost",
+  "ModuleName": "Terry-Frami",
+  "ModuleDescription": "Enhanced fault-tolerant initiative",
+  "ModuleTooltip": "aspernatur",
+  "ModuleVersion": "culpa",
   "LicenseType": "SatelliteLicense",
   "Unrestricted": false,
   "AllowedUserType": "AnonymousAssociate",
-  "NumberOfLicenses": 940,
-  "ExtraFlags": 520,
-  "ExtraInfo": "dolor",
-  "SortOrder": 342,
+  "NumberOfLicenses": 247,
+  "ExtraFlags": 800,
+  "ExtraInfo": "vero",
+  "SortOrder": 906,
   "IsHidden": true,
-  "PrerequisiteModuleName": "Paucek, Rath and Kautzer",
-  "Signature": "qui"
+  "PrerequisiteModuleName": "Batz Group",
+  "Signature": "quos"
 }
 ```

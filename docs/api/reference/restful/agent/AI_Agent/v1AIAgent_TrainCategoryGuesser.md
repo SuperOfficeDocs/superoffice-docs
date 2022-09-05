@@ -1,6 +1,6 @@
 ---
 title: POST Agents/AI/TrainCategoryGuesser
-id: v1AIAgent_TrainCategoryGuesser
+uid: v1AIAgent_TrainCategoryGuesser
 ---
 
 # POST Agents/AI/TrainCategoryGuesser
@@ -11,6 +11,12 @@ POST /api/v1/Agents/AI/TrainCategoryGuesser
 
 The category guesser training API will be called with an array of CategorizationTrainingItem during the (background, Batch) execution of this call
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ The category guesser training API will be called with an array of Categorization
 ```http
 POST /api/v1/Agents/AI/TrainCategoryGuesser?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,9 +42,9 @@ POST /api/v1/Agents/AI/TrainCategoryGuesser?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-SelectionId, MaxItems, MaxTextLength
+SelectionId, MaxItems, MaxTextLength 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -45,7 +52,10 @@ SelectionId, MaxItems, MaxTextLength
 | MaxItems | int32 |  |
 | MaxTextLength | int32 |  |
 
+
 ## Response: string
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -53,21 +63,24 @@ SelectionId, MaxItems, MaxTextLength
 
 Response body: string
 
-## Sample Request
+
+## Sample request
 
 ```http!
 POST /api/v1/Agents/AI/TrainCategoryGuesser
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 309,
-  "MaxItems": 935,
-  "MaxTextLength": 778
+  "SelectionId": 572,
+  "MaxItems": 419,
+  "MaxTextLength": 262
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK

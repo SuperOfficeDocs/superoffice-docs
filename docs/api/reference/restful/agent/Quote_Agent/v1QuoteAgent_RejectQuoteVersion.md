@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Quote/RejectQuoteVersion
-id: v1QuoteAgent_RejectQuoteVersion
+uid: v1QuoteAgent_RejectQuoteVersion
 ---
 
 # POST Agents/Quote/RejectQuoteVersion
@@ -11,6 +11,12 @@ POST /api/v1/Agents/Quote/RejectQuoteVersion
 
 Rejects a quote version
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Rejects a quote version
 ```http
 POST /api/v1/Agents/Quote/RejectQuoteVersion?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,9 +42,9 @@ POST /api/v1/Agents/Quote/RejectQuoteVersion?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-QuoteVersionId, RejectedByText, RejectedByAssociateId, RejectionText
+QuoteVersionId, RejectedByText, RejectedByAssociateId, RejectionText 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -46,18 +53,16 @@ QuoteVersionId, RejectedByText, RejectedByAssociateId, RejectionText
 | RejectedByAssociateId | int32 |  |
 | RejectionText | string |  |
 
-## Response: object
 
-ApproveRejectResponse contains a PluginResponse and an appointmentId if the operation created one.
+## Response: 
 
-Carrier object for ApproveRejectResponse.
-Services for the ApproveRejectResponse Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IQuoteAgent">Quote Agent</see>.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -66,59 +71,38 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Quote/RejectQuoteVersion
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 131,
-  "RejectedByText": "dolores",
-  "RejectedByAssociateId": 835,
-  "RejectionText": "illo"
+  "QuoteVersionId": 707,
+  "RejectedByText": "voluptatem",
+  "RejectedByAssociateId": 564,
+  "RejectionText": "pariatur"
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PluginResponse": {
-    "IsOk": true,
-    "UserExplanation": "magnam",
-    "TechExplanation": "et",
-    "ErrorCode": "rem",
-    "Changes": {},
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 352
-      }
-    }
-  },
-  "CreatedAppointmentId": 170,
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "PluginResponse": null,
+  "CreatedAppointmentId": 196,
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
-      "FieldType": "System.String",
-      "FieldLength": 901
+      "FieldRight": null,
+      "FieldType": "System.Int32",
+      "FieldLength": 921
     }
   }
 }

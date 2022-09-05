@@ -1,6 +1,6 @@
 ---
 title: PUT List/Country/Items/{id}
-id: v1CountryList_PutCountry
+uid: v1CountryList_PutCountry
 ---
 
 # PUT List/Country/Items/{id}
@@ -11,11 +11,18 @@ PUT /api/v1/List/Country/Items/{id}
 
 Updates the existing Country
 
+
 Calls the List agent service SaveCountry.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | id | int32 | The id of Country to be saved. **Required** |
+
+
 
 ## Request Headers
 
@@ -31,9 +38,9 @@ Calls the List agent service SaveCountry.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entity
+## Request Body: entity  
 
-The details of Country to be saved.
+The details of Country to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -56,17 +63,17 @@ The details of Country to be saved.
 | Tooltip | string | The tooltip of the country |
 | Deleted | bool | true if the country is deleted |
 
-## Response: object
 
-Carrier object for Country.
-Services for the Country Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IListAgent">List Agent</see>.
+## Response: 
+
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 | 400 | Bad request. Entity to save is not in request body. |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -91,72 +98,68 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 PUT /api/v1/List/Country/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "CountryId": 914,
-  "Name": "Treutel, Lynch and Emmerich",
-  "CurrencyId": 342,
-  "EnglishName": "Johnson-Hayes",
+  "CountryId": 360,
+  "Name": "Raynor Inc and Sons",
+  "CurrencyId": 335,
+  "EnglishName": "Jakubowski Inc and Sons",
   "TwoLetterISOCountry": "Sokovia",
   "ThreeLetterISOCountry": "Sokovia",
-  "ImageDescription": "Upgradable analyzing knowledge user",
-  "OrgNrText": "1405595",
-  "InterAreaPrefix": "consequatur",
-  "DialInPrefix": "tenetur",
-  "ZipPrefix": "numquam",
-  "DomainName": "Christiansen LLC",
-  "AddressLayoutId": 315,
-  "DomesticAddressLayoutId": 277,
-  "ForeignAddressLayoutId": 271,
-  "Rank": 78,
-  "Tooltip": "suscipit",
-  "Deleted": true
+  "ImageDescription": "Total human-resource intranet",
+  "OrgNrText": "207993",
+  "InterAreaPrefix": "eum",
+  "DialInPrefix": "tempora",
+  "ZipPrefix": "eius",
+  "DomainName": "Rath LLC",
+  "AddressLayoutId": 513,
+  "DomesticAddressLayoutId": 90,
+  "ForeignAddressLayoutId": 393,
+  "Rank": 180,
+  "Tooltip": "consequatur",
+  "Deleted": false
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CountryId": 174,
-  "Name": "Daugherty Group",
-  "CurrencyId": 629,
-  "EnglishName": "Bednar-Beahan",
+  "CountryId": 200,
+  "Name": "Wolff-O'Hara",
+  "CurrencyId": 526,
+  "EnglishName": "O'Kon Inc and Sons",
   "TwoLetterISOCountry": "Sokovia",
   "ThreeLetterISOCountry": "Sokovia",
-  "ImageDescription": "Business-focused 6th generation archive",
-  "OrgNrText": "1133505",
-  "InterAreaPrefix": "ut",
-  "DialInPrefix": "rem",
-  "ZipPrefix": "voluptas",
-  "DomainName": "Rowe-Kuhlman",
-  "AddressLayoutId": 764,
-  "DomesticAddressLayoutId": 555,
-  "ForeignAddressLayoutId": 966,
-  "Rank": 601,
-  "Tooltip": "hic",
-  "Deleted": false,
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "ImageDescription": "Object-based dynamic policy",
+  "OrgNrText": "1474141",
+  "InterAreaPrefix": "explicabo",
+  "DialInPrefix": "qui",
+  "ZipPrefix": "impedit",
+  "DomainName": "O'Connell LLC",
+  "AddressLayoutId": 438,
+  "DomesticAddressLayoutId": 381,
+  "ForeignAddressLayoutId": 445,
+  "Rank": 705,
+  "Tooltip": "et",
+  "Deleted": true,
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
-      "FieldType": "System.String",
-      "FieldLength": 777
+      "FieldRight": null,
+      "FieldType": "System.Int32",
+      "FieldLength": 545
     }
   }
 }

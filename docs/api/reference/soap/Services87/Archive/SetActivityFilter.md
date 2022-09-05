@@ -15,6 +15,8 @@ Set activity filter for the specified list.
 
 * **activityFilter:** New activity filter
 
+
+
 [WSDL file for Services87/Archive](../Services87-Archive.md)
 
 Obtain a ticket from the [Services87/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -40,8 +42,8 @@ Application tokens must be specified if calling an Online installation. Applicat
  <SOAP-ENV:Body>
    <Archive:SetActivityFilter>
     <Archive:ActivityFilter xsi:type="Archive:ActivityFilter">
-     <Archive:FromDate xsi:type="xsd:dateTime">2021-11-30T13:23:09Z</Archive:FromDate>
-     <Archive:ToDate xsi:type="xsd:dateTime">2021-11-30T13:23:09Z</Archive:ToDate>
+     <Archive:FromDate xsi:type="xsd:dateTime">2022-08-26T08:56:14Z</Archive:FromDate>
+     <Archive:ToDate xsi:type="xsd:dateTime">2022-08-26T08:56:14Z</Archive:ToDate>
      <Archive:AssociateList xsi:type="Archive:ArrayOfSelectableMDOListItem">
       <Archive:SelectableMDOListItem xsi:type="Archive:SelectableMDOListItem">
        <Archive:Id xsi:type="xsd:int">0</Archive:Id>
@@ -53,7 +55,7 @@ Application tokens must be specified if calling an Online installation. Applicat
        <Archive:ColorBlock xsi:type="xsd:int">0</Archive:ColorBlock>
        <Archive:IconHint xsi:type="xsd:string"></Archive:IconHint>
        <Archive:Selected xsi:type="xsd:boolean">false</Archive:Selected>
-       <Archive:LastChanged xsi:type="xsd:dateTime">2021-11-30T13:23:09Z</Archive:LastChanged>
+       <Archive:LastChanged xsi:type="xsd:dateTime">2022-08-26T08:56:14Z</Archive:LastChanged>
        <Archive:ChildItems xsi:type="Archive:ArrayOfSelectableMDOListItem">
         <Archive:SelectableMDOListItem xsi:type="Archive:SelectableMDOListItem">
          <Archive:Id xsi:type="xsd:int">0</Archive:Id>
@@ -65,7 +67,7 @@ Application tokens must be specified if calling an Online installation. Applicat
          <Archive:ColorBlock xsi:type="xsd:int">0</Archive:ColorBlock>
          <Archive:IconHint xsi:type="xsd:string"></Archive:IconHint>
          <Archive:Selected xsi:type="xsd:boolean">false</Archive:Selected>
-         <Archive:LastChanged xsi:type="xsd:dateTime">2021-11-30T13:23:09Z</Archive:LastChanged>
+         <Archive:LastChanged xsi:type="xsd:dateTime">2022-08-26T08:56:14Z</Archive:LastChanged>
          <Archive:ChildItems xsi:type="Archive:ArrayOfSelectableMDOListItem">
           <Archive:SelectableMDOListItem xsi:nil="true"></Archive:SelectableMDOListItem>
          </Archive:ChildItems>
@@ -92,7 +94,7 @@ Application tokens must be specified if calling an Online installation. Applicat
        <Archive:ColorBlock xsi:type="xsd:int">0</Archive:ColorBlock>
        <Archive:IconHint xsi:type="xsd:string"></Archive:IconHint>
        <Archive:Selected xsi:type="xsd:boolean">false</Archive:Selected>
-       <Archive:LastChanged xsi:type="xsd:dateTime">2021-11-30T13:23:09Z</Archive:LastChanged>
+       <Archive:LastChanged xsi:type="xsd:dateTime">2022-08-26T08:56:14Z</Archive:LastChanged>
        <Archive:ChildItems xsi:type="Archive:ArrayOfSelectableMDOListItem">
         <Archive:SelectableMDOListItem xsi:type="Archive:SelectableMDOListItem">
          <Archive:Id xsi:type="xsd:int">0</Archive:Id>
@@ -104,7 +106,7 @@ Application tokens must be specified if calling an Online installation. Applicat
          <Archive:ColorBlock xsi:type="xsd:int">0</Archive:ColorBlock>
          <Archive:IconHint xsi:type="xsd:string"></Archive:IconHint>
          <Archive:Selected xsi:type="xsd:boolean">false</Archive:Selected>
-         <Archive:LastChanged xsi:type="xsd:dateTime">2021-11-30T13:23:09Z</Archive:LastChanged>
+         <Archive:LastChanged xsi:type="xsd:dateTime">2022-08-26T08:56:14Z</Archive:LastChanged>
          <Archive:ChildItems xsi:type="Archive:ArrayOfSelectableMDOListItem">
           <Archive:SelectableMDOListItem xsi:nil="true"></Archive:SelectableMDOListItem>
          </Archive:ChildItems>
@@ -161,6 +163,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## SetActivityFilter Response
 
 ```xml
@@ -180,3 +183,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

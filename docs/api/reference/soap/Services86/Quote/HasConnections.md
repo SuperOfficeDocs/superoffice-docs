@@ -13,7 +13,9 @@ Implemented by the <see cref="M:SuperOffice.Services86.IQuoteAgent.HasConnection
 
 Whether or not the system has any connections available for this user.
 
+
 **Returns:** The response
+
 
 [WSDL file for Services86/Quote](../Services86-Quote.md)
 
@@ -45,6 +47,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+
 
 ## HasConnections Response
 
@@ -91,3 +94,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

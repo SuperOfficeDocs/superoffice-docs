@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Project/GetProjectImage
-id: v1ProjectAgent_GetProjectImage
+uid: v1ProjectAgent_GetProjectImage
 ---
 
 # POST Agents/Project/GetProjectImage
@@ -11,6 +11,12 @@ POST /api/v1/Agents/Project/GetProjectImage
 
 Returns the project image that is displayed in the CRM application.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Returns the project image that is displayed in the CRM application.
 ```http
 POST /api/v1/Agents/Project/GetProjectImage?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,39 +42,45 @@ POST /api/v1/Agents/Project/GetProjectImage?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-ProjectId
+ProjectId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | ProjectId | int32 |  |
 
-## Response
+
+## Response: byte
+
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: byte
 
-## Sample Request
+
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Project/GetProjectImage
 Authorization: Basic dGplMDpUamUw
-Accept: binary/octet-stream
-Accept-Language: en
+Accept: application/json; charset=utf-8
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 734
+  "ProjectId": 643
 }
 ```
 
+## Sample response
+
 ```http_
 HTTP/1.1 200 OK
-Content-Type: binary/octet-stream
+Content-Type: application/json; charset=utf-8
 
-GIF89....File contents as raw bytes...
+"GIF89....File contents as raw bytes..."
 ```

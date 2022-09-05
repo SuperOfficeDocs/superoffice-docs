@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Ticket/GetAttachmentEntity
-id: v1TicketAgent_GetAttachmentEntity
+uid: v1TicketAgent_GetAttachmentEntity
 ---
 
 # POST Agents/Ticket/GetAttachmentEntity
@@ -11,6 +11,12 @@ POST /api/v1/Agents/Ticket/GetAttachmentEntity
 
 Gets a AttachmentEntity object.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -19,9 +25,10 @@ Gets a AttachmentEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Ticket/GetAttachmentEntity?attachmentEntityId=261
+POST /api/v1/Agents/Ticket/GetAttachmentEntity?attachmentEntityId=129
 POST /api/v1/Agents/Ticket/GetAttachmentEntity?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -36,18 +43,16 @@ POST /api/v1/Agents/Ticket/GetAttachmentEntity?$select=name,department,category/
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response: object
 
-The Attachment carrier represent meta data for a Service attachment
+## Response: 
 
-Carrier object for AttachmentEntity.
-Services for the AttachmentEntity Carrier is available from the <see cref="T:SuperOffice.CRM.Services.ITicketAgent">Ticket Agent</see>.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -60,7 +65,7 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Ticket/GetAttachmentEntity
@@ -69,29 +74,25 @@ Accept: application/json; charset=utf-8
 Accept-Language: sv
 ```
 
+## Sample response
+
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 572,
-  "Name": "Renner-Welch",
-  "ContentType": "fugit",
-  "AttSize": 422,
+  "AttachmentId": 27,
+  "Name": "Greenholt, Orn and Harvey",
+  "ContentType": "in",
+  "AttSize": 575,
   "InlineImage": false,
-  "ContentId": "explicabo",
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "ContentId": "quaerat",
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
-      "FieldType": "System.String",
-      "FieldLength": 553
+      "FieldRight": null,
+      "FieldType": "System.Int32",
+      "FieldLength": 702
     }
   }
 }

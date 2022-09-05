@@ -1,6 +1,6 @@
 ---
 title: PATCH CRMScript/{id}
-id: v1CRMScriptEntity_PatchCRMScriptEntity
+uid: v1CRMScriptEntity_PatchCRMScriptEntity
 ---
 
 # PATCH CRMScript/{id}
@@ -11,9 +11,11 @@ PATCH /api/v1/CRMScript/{id}
 
 Update a CRMScriptEntity with changes, as described in a JSON Patch or a JSON Merge Patch document.
 
+
 See <a href="https://tools.ietf.org/html/rfc6902">RFC6902</a> and <a href="https://tools.ietf.org/html/rfc7386">RFC 7396</a>.
 
-## Online Restricted: ## The CRMScript agent is not available in Online by default. Access must be requested specifically when app is registered. Update the Department field to "foo" can be done either as a JSON PATCH
+
+## Online Restricted: ## The CRMScript agent is not available in Online by default. Access must be requested specifically when app is registered. Update the Department field to "foo" can be done either as a JSON PATCH:
 
 ```js
 
@@ -29,14 +31,23 @@ or as a JSON MERGE PATCH, which describes the change directly:
 
 ```
 
+
+
 JSON PATCH supports operations 'add', 'replace', 'remove' and 'test'.
 The path is case insensitive, and the leading slash is optional, so the paths "/department", "Department" and "department" are all equivalent.
 
+
+
 Calls the {SuperOffice.CRM.Services.ICRMScriptAgent} service SaveCRMScriptEntity.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | id | int32 | The CRMScriptEntity  id to update. **Required** |
+
 
 ## Query String Parameters
 
@@ -47,6 +58,7 @@ Calls the {SuperOffice.CRM.Services.ICRMScriptAgent} service SaveCRMScriptEntity
 ```http
 PATCH /api/v1/CRMScript/{id}?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -62,9 +74,9 @@ PATCH /api/v1/CRMScript/{id}?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: changes string
+## Request Body: changes string 
 
-JSON-Patch array of operations+path+value, or a MERGE-PATCH object (which will be converted to a list of JSON-PATCH operations).
+JSON-Patch array of operations+path+value, or a MERGE-PATCH object (which will be converted to a list of JSON-PATCH operations). 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -72,11 +84,10 @@ JSON-Patch array of operations+path+value, or a MERGE-PATCH object (which will b
 | path | string | The property names to modify.  "/users/0/email", "/users/-", |
 | value | object | New/Replaced value - string or object. |
 
-## Response: object
 
-CRM Scripts - stored in the ejScript table, including source code.
+## Response: 
 
-CRMScriptEntity entity with API _Links added.
+CRMScriptEntity  updated.
 
 | Response | Description |
 |----------------|-------------|
@@ -85,7 +96,7 @@ CRMScriptEntity entity with API _Links added.
 | 409 | Update blocked because a 'test' operation has detected a conflict with the entity value. |
 | 412 | Update aborted because CRMScriptEntity has changed since the requested If-Unmodified-Since timestamp. |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -104,85 +115,53 @@ Response body: object
 | FieldProperties | object |  |
 | _Links | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 PATCH /api/v1/CRMScript/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "adipisci",
-    "value": {
-      "value1": {
-        "PrimaryKey": 4559,
-        "EntityName": "sale",
-        "saleId": 4559,
-        "contactId": 5138,
-        "name": "Stanton-Keeling"
-      },
-      "value2": {
-        "PrimaryKey": 7469,
-        "EntityName": "person",
-        "personId": 7469,
-        "fullName": "Bradly Hermann"
-      }
-    }
+    "path": "earum",
+    "value": {}
   },
   {
     "op": "add",
-    "path": "adipisci",
-    "value": {
-      "value1": {
-        "PrimaryKey": 4559,
-        "EntityName": "sale",
-        "saleId": 4559,
-        "contactId": 5138,
-        "name": "Stanton-Keeling"
-      },
-      "value2": {
-        "PrimaryKey": 7469,
-        "EntityName": "person",
-        "personId": 7469,
-        "fullName": "Bradly Hermann"
-      }
-    }
+    "path": "earum",
+    "value": {}
   }
 ]
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 CRMScriptEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjscriptId": 419,
-  "UniqueIdentifier": "esse",
-  "Name": "Sanford Inc and Sons",
-  "Description": "Grass-roots bifurcated functionalities",
-  "IncludeId": "corporis",
-  "HierarchyId": 502,
-  "Source": "porro",
-  "Registered": "2004-11-03T18:25:50.4036249+01:00",
-  "RegisteredAssociateId": 166,
-  "Updated": "2013-01-24T18:25:50.4036249+01:00",
-  "UpdatedAssociateId": 9,
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "EjscriptId": 459,
+  "UniqueIdentifier": "nesciunt",
+  "Name": "Medhurst, Koss and Douglas",
+  "Description": "De-engineered multimedia policy",
+  "IncludeId": "ut",
+  "HierarchyId": 989,
+  "Source": "eum",
+  "Registered": "2002-10-30T11:10:52.7601739+01:00",
+  "RegisteredAssociateId": 357,
+  "Updated": "2014-06-26T11:10:52.7601739+02:00",
+  "UpdatedAssociateId": 41,
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
-      "FieldType": "System.String",
-      "FieldLength": 678
+      "FieldRight": null,
+      "FieldType": "System.Int32",
+      "FieldLength": 35
     }
   },
   "_Links": {

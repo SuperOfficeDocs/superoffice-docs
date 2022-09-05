@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Appointment/GetNextSuggestedAppointmentBySale
-id: v1AppointmentAgent_GetNextSuggestedAppointmentBySale
+uid: v1AppointmentAgent_GetNextSuggestedAppointmentBySale
 ---
 
 # POST Agents/Appointment/GetNextSuggestedAppointmentBySale
@@ -11,6 +11,12 @@ POST /api/v1/Agents/Appointment/GetNextSuggestedAppointmentBySale
 
 Gets the next suggested appointment for a given sale (or rather a given sale's guide).
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Gets the next suggested appointment for a given sale (or rather a given sale's g
 ```http
 POST /api/v1/Agents/Appointment/GetNextSuggestedAppointmentBySale?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,9 +42,9 @@ POST /api/v1/Agents/Appointment/GetNextSuggestedAppointmentBySale?$select=name,d
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-SaleId, CurrentAppointmentId, SkipCompleteCheck
+SaleId, CurrentAppointmentId, SkipCompleteCheck 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -45,16 +52,16 @@ SaleId, CurrentAppointmentId, SkipCompleteCheck
 | CurrentAppointmentId | int32 |  |
 | SkipCompleteCheck | bool |  |
 
-## Response: object
 
-Carrier object for SuggestedAppointment.
-Services for the SuggestedAppointment Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IAppointmentAgent">Appointment Agent</see>.
+## Response: 
+
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -75,7 +82,7 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Appointment/GetNextSuggestedAppointmentBySale
@@ -85,67 +92,39 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleId": 801,
-  "CurrentAppointmentId": 980,
-  "SkipCompleteCheck": false
+  "SaleId": 798,
+  "CurrentAppointmentId": 501,
+  "SkipCompleteCheck": true
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AutoSuggest": 377,
-  "Deleted": 938,
-  "DaysFuture": 8,
-  "Tooltip": "rerum",
+  "AutoSuggest": 583,
+  "Deleted": 283,
+  "DaysFuture": 970,
+  "Tooltip": "culpa",
   "Text": "et",
-  "TaskId": 43,
-  "SuggestedAppointmentId": 958,
-  "SaleTypeStageLinkId": 436,
-  "RegisteredAssociateId": 348,
-  "Rank": 87,
-  "ProjectTypeStatusLinkId": 402,
-  "Name": "Wintheiser-Flatley",
-  "Duration": 741,
-  "Associate": {
-    "AssociateId": 620,
-    "Name": "Bruen Group",
-    "PersonId": 238,
-    "Rank": 620,
-    "Tooltip": "excepturi",
-    "Type": "AnonymousAssociate",
-    "GroupIdx": 106,
-    "FullName": "Quinn Predovic",
-    "FormalName": "Mohr Inc and Sons",
-    "Deleted": true,
-    "EjUserId": 582,
-    "UserName": "Collier-Zieme",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": "benchmark dynamic e-tailers"
-        },
-        "FieldType": "System.String",
-        "FieldLength": 52
-      }
-    }
-  },
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "TaskId": 10,
+  "SuggestedAppointmentId": 655,
+  "SaleTypeStageLinkId": 459,
+  "RegisteredAssociateId": 414,
+  "Rank": 723,
+  "ProjectTypeStatusLinkId": 925,
+  "Name": "Hettinger Inc and Sons",
+  "Duration": 107,
+  "Associate": null,
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
+      "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 980
+      "FieldLength": 792
     }
   }
 }

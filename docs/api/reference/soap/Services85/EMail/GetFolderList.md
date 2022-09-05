@@ -18,6 +18,7 @@ Retrieve all folders for the mail account. String is separated in sections by th
 
 **Returns:** List of available folders as a string array
 
+
 [WSDL file for Services85/EMail](../Services85-EMail.md)
 
 Obtain a ticket from the [Services85/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -57,6 +58,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## GetFolderList Response
 
 ```xml
@@ -79,3 +81,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

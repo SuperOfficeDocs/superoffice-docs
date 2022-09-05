@@ -1,6 +1,6 @@
 ---
 title: GET CRMScript/{id}
-id: v1CRMScriptEntity_GetCRMScriptEntity
+uid: v1CRMScriptEntity_GetCRMScriptEntity
 ---
 
 # GET CRMScript/{id}
@@ -11,13 +11,20 @@ GET /api/v1/CRMScript/{id}
 
 Gets a CRMScriptEntity object.
 
+
 Calls the CRMScript agent service GetCRMScriptEntity.
 
-## Online Restricted: ## The CRMScript agent is not available in Online by default. Access must be requested specifically when app is registered
+
+## Online Restricted: ## The CRMScript agent is not available in Online by default. Access must be requested specifically when app is registered.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | id | int32 | The id of the CRMScriptEntity to return. **Required** |
+
 
 ## Query String Parameters
 
@@ -28,6 +35,7 @@ Calls the CRMScript agent service GetCRMScriptEntity.
 ```http
 GET /api/v1/CRMScript/{id}?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -42,18 +50,17 @@ GET /api/v1/CRMScript/{id}?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response: object
 
-CRM Scripts - stored in the ejScript table, including source code.
+## Response: 
 
-CRMScriptEntity entity with API _Links added.
+CRMScriptEntity found.
 
 | Response | Description |
 |----------------|-------------|
 | 200 | CRMScriptEntity found. |
 | 404 | Not Found. |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -72,43 +79,39 @@ Response body: object
 | FieldProperties | object |  |
 | _Links | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 GET /api/v1/CRMScript/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 CRMScriptEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjscriptId": 66,
-  "UniqueIdentifier": "vitae",
-  "Name": "Haag Inc and Sons",
-  "Description": "Upgradable coherent infrastructure",
-  "IncludeId": "sunt",
-  "HierarchyId": 853,
-  "Source": "sit",
-  "Registered": "1996-04-18T18:25:50.4016191+02:00",
-  "RegisteredAssociateId": 550,
-  "Updated": "1997-04-30T18:25:50.4016191+02:00",
-  "UpdatedAssociateId": 210,
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "EjscriptId": 50,
+  "UniqueIdentifier": "sunt",
+  "Name": "Bruen Group",
+  "Description": "Secured interactive core",
+  "IncludeId": "quasi",
+  "HierarchyId": 693,
+  "Source": "quia",
+  "Registered": "2006-10-06T11:10:52.7591741+02:00",
+  "RegisteredAssociateId": 955,
+  "Updated": "2002-03-30T11:10:52.7591741+01:00",
+  "UpdatedAssociateId": 145,
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
-      "FieldType": "System.Int32",
-      "FieldLength": 463
+      "FieldRight": null,
+      "FieldType": "System.String",
+      "FieldLength": 939
     }
   },
   "_Links": {

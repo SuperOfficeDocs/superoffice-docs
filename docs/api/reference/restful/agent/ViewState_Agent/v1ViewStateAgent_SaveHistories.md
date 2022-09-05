@@ -1,6 +1,6 @@
 ---
 title: POST Agents/ViewState/SaveHistories
-id: v1ViewStateAgent_SaveHistories
+uid: v1ViewStateAgent_SaveHistories
 ---
 
 # POST Agents/ViewState/SaveHistories
@@ -11,7 +11,13 @@ POST /api/v1/Agents/ViewState/SaveHistories
 
 Replaces the existing history-list for the currently logged in user.
 
+
 All elements must belong to the same history list. If not they are ignored.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +28,7 @@ All elements must belong to the same history list. If not they are ignored.
 ```http
 POST /api/v1/Agents/ViewState/SaveHistories?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,16 +44,19 @@ POST /api/v1/Agents/ViewState/SaveHistories?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-HistoryName, History
+HistoryName, History 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | HistoryName | string |  |
 | History | array |  |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -66,30 +76,32 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/ViewState/SaveHistories
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HistoryName": "DuBuque LLC",
+  "HistoryName": "Donnelly LLC",
   "History": [
     {
-      "Rank": 235,
-      "Id": 878,
-      "HistoryName": "Welch, Lynch and O'Connell",
-      "HistoryId": 47,
-      "AssociateId": 358,
-      "Name": "Brown, Halvorson and Toy",
-      "ItemInfo": "maiores"
+      "Rank": 873,
+      "Id": 834,
+      "HistoryName": "Durgan Group",
+      "HistoryId": 712,
+      "AssociateId": 343,
+      "Name": "Grady-Wilderman",
+      "ItemInfo": "aut"
     }
   ]
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -97,25 +109,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Rank": 592,
-    "Id": 967,
-    "HistoryName": "Willms, Glover and Orn",
-    "HistoryId": 632,
-    "AssociateId": 280,
-    "Name": "Botsford, Walker and Mosciski",
-    "ItemInfo": "earum",
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "Rank": 293,
+    "Id": 477,
+    "HistoryName": "Cassin Group",
+    "HistoryId": 429,
+    "AssociateId": 586,
+    "Name": "Bergnaum Inc and Sons",
+    "ItemInfo": "sunt",
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": "evolve leading-edge synergies"
-        },
+        "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 477
+        "FieldLength": 621
       }
     }
   }

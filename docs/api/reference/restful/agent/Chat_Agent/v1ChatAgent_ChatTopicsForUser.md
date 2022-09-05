@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Chat/ChatTopicsForUser
-id: v1ChatAgent_ChatTopicsForUser
+uid: v1ChatAgent_ChatTopicsForUser
 ---
 
 # POST Agents/Chat/ChatTopicsForUser
@@ -11,7 +11,13 @@ POST /api/v1/Agents/Chat/ChatTopicsForUser
 
 Get all chat topics which this user is a member of.
 
+
 Members means that you have at least one of: Can Respond, Notifications, Listen or Manager
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +28,7 @@ Members means that you have at least one of: Can Respond, Notifications, Listen 
 ```http
 POST /api/v1/Agents/Chat/ChatTopicsForUser?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -36,7 +43,10 @@ POST /api/v1/Agents/Chat/ChatTopicsForUser?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -75,10 +85,12 @@ Response body: array
 | UseQueueOfflineForm | bool | Use offline form capability from chat queue |
 | OfflineFormTimeLimit | int32 | The number of minutes in the queue before the offline form is available |
 | OfflineFormQueueLength | int32 | The number of customers in the queue before the offline form is available |
+| WidgetEnableRating | bool | Enable rating functionality in the chat widgte |
+| WidgetRatingText | string | The text to be displayed in the widget next to the rating stars |
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Chat/ChatTopicsForUser
@@ -87,160 +99,51 @@ Accept: application/json; charset=utf-8
 Accept-Language: en
 ```
 
+## Sample response
+
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ChatTopicId": 497,
-    "Name": "Mitchell LLC",
-    "Description": "Visionary systematic concept",
-    "WelcomeMessage": "dolores",
-    "Language": {
-      "Id": 535,
-      "Value": "officia",
-      "Tooltip": "blanditiis",
-      "TableRight": {},
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": {
-            "Mask": "FULL",
-            "Reason": ""
-          },
-          "FieldType": "System.String",
-          "FieldLength": 323
-        }
-      }
-    },
-    "LastAccept": "2001-05-23T18:28:48.3322902+02:00",
-    "SecondsPrAccept": 215,
+    "ChatTopicId": 108,
+    "Name": "Halvorson, Cartwright and O'Hara",
+    "Description": "Triple-buffered asynchronous knowledge base",
+    "WelcomeMessage": "ut",
+    "Language": null,
+    "LastAccept": "1997-04-04T11:10:26.1675255+02:00",
+    "SecondsPrAccept": 800,
     "AlertRecipient": "et",
-    "AlertTemplate": {
-      "ReplyTemplateId": 379,
-      "Name": "Hane Group",
-      "Description": "Sharable intangible conglomeration",
-      "FolderId": 729
-    },
-    "CollectConsent": false,
-    "BadgeHeader": "ipsum",
+    "AlertTemplate": null,
+    "CollectConsent": true,
+    "BadgeHeader": "dolorem",
     "CustomQueueTextEnabled": false,
-    "CustomQueueText": "eos",
-    "WarnNewChatMinutes": 200,
-    "WarnManagerNewChatMinutes": 793,
-    "TicketEnabled": false,
-    "TicketCategory": {
-      "Id": 814,
-      "Value": "officia",
-      "Tooltip": "doloribus",
-      "TableRight": {},
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": {
-            "Mask": "FULL",
-            "Reason": ""
-          },
-          "FieldType": "System.String",
-          "FieldLength": 252
-        }
-      }
-    },
-    "TicketPriority": {
-      "Id": 139,
-      "Value": "harum",
-      "Tooltip": "qui",
-      "TableRight": {},
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": {
-            "Mask": "FULL",
-            "Reason": ""
-          },
-          "FieldType": "System.String",
-          "FieldLength": 734
-        }
-      }
-    },
-    "OpeningHoursEnabled": false,
-    "OpeningHours": {
-      "TzLocation": {},
-      "MonEnabled": true,
-      "MonStart": "ipsa",
-      "MonStop": "totam",
-      "TueEnabled": false,
-      "TueStart": "sed",
-      "TueStop": "ipsum",
-      "WedEnabled": true,
-      "WedStart": "ipsam",
-      "WedStop": "tempore",
-      "ThuEnabled": false,
-      "ThuStart": "mollitia",
-      "ThuStop": "iure",
-      "FriEnabled": true,
-      "FriStart": "consequuntur",
-      "FriStop": "iure",
-      "SatEnabled": false,
-      "SatStart": "cum",
-      "SatStop": "velit",
-      "SunEnabled": false,
-      "SunStart": "consequuntur",
-      "SunStop": "optio",
-      "UseLunchHours": true,
-      "LunchStart": "aut",
-      "LunchStop": "quis"
-    },
-    "Widget": {
-      "AutoFaqEnabled": true,
-      "AutoFaqCategory": {},
-      "PreFormEnabled": true,
-      "PreFormMessage": "et",
-      "RequiredFields": "Company",
-      "PostFormEnabled": true,
-      "PostFormHeader": "culpa",
-      "PostFormMessage": "sint",
-      "PostTranscriptEnabled": true,
-      "LanguageIsoCode": "ut",
-      "Size": "Large",
-      "Theme": "Classic",
-      "Color": "magni",
-      "Font": "nostrum",
-      "LogoEnabled": false,
-      "LogoBlobId": 678,
-      "LogoName": "Cummerata Inc and Sons",
-      "ShowAgentPhoto": true,
-      "WelcomeTitle": "similique",
-      "WelcomeMessage": "ea",
-      "OfflineHeader": "dolorem",
-      "OfflineMessage": "deleniti",
-      "OfflineFields": "Company",
-      "UseAgentFirstname": true
-    },
+    "CustomQueueText": "praesentium",
+    "WarnNewChatMinutes": 194,
+    "WarnManagerNewChatMinutes": 355,
+    "TicketEnabled": true,
+    "TicketCategory": null,
+    "TicketPriority": null,
+    "OpeningHoursEnabled": true,
+    "OpeningHours": null,
+    "Widget": null,
     "BotEnabled": false,
-    "BotSettings": {
-      "BotName": "Pouros-Hettinger",
-      "BotRegisterScriptId": 946,
-      "BotSessionCreatedScriptId": 954,
-      "BotSessionChangedScriptId": 515,
-      "BotMessageReceivedScriptId": 446
-    },
+    "BotSettings": null,
     "OfflineCollectConsent": false,
-    "WarnChatMessageMinutes": 959,
-    "WarnManagerChatMessageMinutes": 205,
+    "WarnChatMessageMinutes": 811,
+    "WarnManagerChatMessageMinutes": 308,
     "UseQueueOfflineForm": false,
-    "OfflineFormTimeLimit": 787,
-    "OfflineFormQueueLength": 170,
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "OfflineFormTimeLimit": 770,
+    "OfflineFormQueueLength": 206,
+    "WidgetEnableRating": false,
+    "WidgetRatingText": "numquam",
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
+        "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 698
+        "FieldLength": 155
       }
     }
   }

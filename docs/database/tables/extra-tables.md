@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "extra_tables"
-so.date: 04.12.2022
+so.date: 08.26.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -39,6 +39,7 @@ This table contains entries for the extra tables in the system.
 |screen\_chooser\_edit|The screen chooser to use for this extra table when editing the table.|FK [screen_chooser](screen-chooser.md)|&#x25CF;|
 |description|Optional description of what this table is used for|String(2047)|&#x25CF;|
 
+
 ![extra_tables table relationship diagram](./media/extra_tables.png)
 
 [!include[details](./includes/extra-tables.md)]
@@ -67,6 +68,7 @@ This table contains entries for the extra tables in the system.
 |[hierarchy](hierarchy.md)  |This table contains folders used to group the extra tables in the system. |
 |[screen\_chooser](screen-chooser.md)  |Screen choosers |
 
+
 ## Replication Flags
 
 * None
@@ -74,3 +76,4 @@ This table contains entries for the extra tables in the system.
 ## Security Flags
 
 * No access control via user's Role.
+

@@ -1,6 +1,6 @@
 ---
 title: POST Agents/List/GetRatings
-id: v1ListAgent_GetRatings
+uid: v1ListAgent_GetRatings
 ---
 
 # POST Agents/List/GetRatings
@@ -11,6 +11,12 @@ POST /api/v1/Agents/List/GetRatings
 
 Returns all ratings
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Returns all ratings
 ```http
 POST /api/v1/Agents/List/GetRatings?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -34,7 +41,10 @@ POST /api/v1/Agents/List/GetRatings?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -50,7 +60,7 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/List/GetRatings
@@ -59,46 +69,36 @@ Accept: application/json; charset=utf-8
 Accept-Language: *
 ```
 
+## Sample response
+
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 318,
-    "Value": "quis",
-    "Tooltip": "veniam",
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "Id": 512,
+    "Value": "sint",
+    "Tooltip": "magni",
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
+        "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 362
+        "FieldLength": 700
       }
     }
   },
   {
-    "Id": 318,
-    "Value": "quis",
-    "Tooltip": "veniam",
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "Id": 512,
+    "Value": "sint",
+    "Tooltip": "magni",
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
+        "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 362
+        "FieldLength": 700
       }
     }
   }

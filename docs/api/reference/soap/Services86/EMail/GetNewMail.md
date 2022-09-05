@@ -12,11 +12,12 @@ Implemented by the <see cref="M:SuperOffice.Services86.IEMailAgent.GetNewMail">S
 ## GetNewMail
 
 Get new email in folder(s) for current associate
-<br />**Online Restricted:** The EMail agent is not available in Online by default. Access must be requested specifically when app is registered.
+<para /><b>Online Restricted:</b> The EMail agent is not available in Online by default. Access must be requested specifically when app is registered.
 
 * **folders:** List of folder ids to check for new email
 
 **Returns:** The downloaded email envelopes
+
 
 [WSDL file for Services86/EMail](../Services86-EMail.md)
 
@@ -51,6 +52,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+
 
 ## GetNewMail Response
 
@@ -99,7 +101,7 @@ Application tokens must be specified if calling an Online installation. Applicat
        <EMail:Name xsi:type="xsd:string"></EMail:Name>
       </EMail:EMailAddress>
      </EMail:To>
-     <EMail:Sent xsi:type="xsd:dateTime">2021-11-30T13:22:52Z</EMail:Sent>
+     <EMail:Sent xsi:type="xsd:dateTime">2022-08-26T08:54:52Z</EMail:Sent>
      <EMail:Priority xsi:type="EMail:EMailPriority">NoPriority</EMail:Priority>
      <EMail:Flags xsi:type="EMail:EMailFlags">Seen</EMail:Flags>
      <EMail:Size xsi:type="xsd:int">0</EMail:Size>
@@ -109,7 +111,7 @@ Application tokens must be specified if calling an Online installation. Applicat
       <EMail:ProjectId xsi:type="xsd:int">0</EMail:ProjectId>
       <EMail:SaleId xsi:type="xsd:int">0</EMail:SaleId>
       <EMail:Archived xsi:type="xsd:boolean">false</EMail:Archived>
-      <EMail:ArchivedAt xsi:type="xsd:dateTime">2021-11-30T13:22:52Z</EMail:ArchivedAt>
+      <EMail:ArchivedAt xsi:type="xsd:dateTime">2022-08-26T08:54:52Z</EMail:ArchivedAt>
       <EMail:ArchivedBy xsi:type="xsd:int">0</EMail:ArchivedBy>
       <EMail:ArchivedDisplayName xsi:type="xsd:string"></EMail:ArchivedDisplayName>
      </EMail:EMailSOInfo>
@@ -120,3 +122,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

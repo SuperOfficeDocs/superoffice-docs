@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Configuration/GetWwwUrl
-id: v1ConfigurationAgent_GetWwwUrl
+uid: v1ConfigurationAgent_GetWwwUrl
 ---
 
 # POST Agents/Configuration/GetWwwUrl
@@ -11,6 +11,12 @@ POST /api/v1/Agents/Configuration/GetWwwUrl
 
 Will get the default URL used for the logo, from the [NetServices] PageUrl preferencec, with tags substituted.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Will get the default URL used for the logo, from the [NetServices] PageUrl prefe
 ```http
 POST /api/v1/Agents/Configuration/GetWwwUrl?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,15 +42,18 @@ POST /api/v1/Agents/Configuration/GetWwwUrl?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-Client
+Client 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | Client | string |  |
 
+
 ## Response: string
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -51,7 +61,8 @@ Client
 
 Response body: string
 
-## Sample Request
+
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Configuration/GetWwwUrl
@@ -61,9 +72,11 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Client": "aut"
+  "Client": "consequatur"
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK

@@ -1,6 +1,6 @@
 ---
 title: GET User/currentAssociate
-id: v1User_GetCurrentAssociate
+uid: v1User_GetCurrentAssociate
 ---
 
 # GET User/currentAssociate
@@ -11,7 +11,14 @@ GET /api/v1/User/currentAssociate
 
 Gets the currently logged in user's associate information (username, associate id, role)
 
+
 Calls the Associate agent service GetAssociate.
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -26,22 +33,22 @@ Calls the Associate agent service GetAssociate.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response: object
 
-Carrier object for Associate.
-Services for the Associate Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IAssociateAgent">Associate Agent</see>.
+## Response: 
+
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | AssociateId | int32 | Primary key |
 | Name | string | Initials, also login name, possibly database user name |
-| PersonId | int32 | Owning person record  <br />Use MDO List name "person" to get list items. |
+| PersonId | int32 | Owning person record  <para>Use MDO List name "person" to get list items.</para> |
 | Rank | int32 | Rank order |
 | Tooltip | string | Tooltip or other description |
 | Type | string | User type - 1 = internal user, 2 = resource, 3 = external user, 4 = anonymous, 5 = system |
@@ -54,44 +61,40 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 GET /api/v1/User/currentAssociate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 348,
-  "Name": "McGlynn-Marquardt",
-  "PersonId": 724,
-  "Rank": 818,
-  "Tooltip": "sit",
+  "AssociateId": 854,
+  "Name": "Murphy-Christiansen",
+  "PersonId": 807,
+  "Rank": 246,
+  "Tooltip": "dolorum",
   "Type": "AnonymousAssociate",
-  "GroupIdx": 824,
-  "FullName": "Dan Schoen II",
-  "FormalName": "Emmerich LLC",
+  "GroupIdx": 814,
+  "FullName": "Mrs. Roxane Osinski DDS",
+  "FormalName": "Bernier-Sporer",
   "Deleted": false,
-  "EjUserId": 712,
-  "UserName": "Rau, Spencer and Bashirian",
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "EjUserId": 861,
+  "UserName": "Denesik-Bednar",
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
+      "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 355
+      "FieldLength": 383
     }
   }
 }

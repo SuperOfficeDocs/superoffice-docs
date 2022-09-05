@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Dashboard/CreateDefaultDashboard
-id: v1DashboardAgent_CreateDefaultDashboard
+uid: v1DashboardAgent_CreateDefaultDashboard
 ---
 
 # POST Agents/Dashboard/CreateDefaultDashboard
@@ -11,7 +11,14 @@ POST /api/v1/Agents/Dashboard/CreateDefaultDashboard
 
 Set default values into a new Dashboard.
 
+
 NetServer calculates default values on the entity, which is required when creating/storing a new instance
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -26,18 +33,16 @@ NetServer calculates default values on the entity, which is required when creati
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response: object
 
-Dashboard configuration
+## Response: 
 
-Carrier object for Dashboard.
-Services for the Dashboard Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IDashboardAgent">Dashboard Agent</see>.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -49,7 +54,7 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Dashboard/CreateDefaultDashboard
@@ -58,27 +63,29 @@ Accept: application/json; charset=utf-8
 Accept-Language: en
 ```
 
+## Sample response
+
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 560,
-  "AssociateId": 911,
-  "Caption": "laborum",
+  "DashboardId": 410,
+  "AssociateId": 677,
+  "Caption": "voluptas",
   "Layout": "Four",
   "Tiles": [
     {
-      "DashboardTileId": 49,
-      "Caption": "nostrum",
-      "Description": "Distributed multimedia approach",
-      "ChartName": "Dibbert-Romaguera",
-      "ChartId": "inventore",
+      "DashboardTileId": 564,
+      "Caption": "delectus",
+      "Description": "Switchable explicit workforce",
+      "ChartName": "Cole, Corwin and Cormier",
+      "ChartId": "facilis",
       "IsDefault": true,
-      "AssociateId": 242,
-      "GroupId": 759,
-      "SelectionId": 829,
-      "Config": "sed",
+      "AssociateId": 406,
+      "GroupId": 824,
+      "SelectionId": 452,
+      "Config": "iste",
       "Type": "Bignum",
       "EntityType": "Activity",
       "Options": [
@@ -89,31 +96,22 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "TableRight": {},
+      "TableRight": null,
       "FieldProperties": {
         "fieldName": {
-          "FieldRight": {
-            "Mask": "FULL",
-            "Reason": ""
-          },
+          "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 928
+          "FieldLength": 765
         }
       }
     }
   ],
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
-      "FieldType": "System.Int32",
-      "FieldLength": 166
+      "FieldRight": null,
+      "FieldType": "System.String",
+      "FieldLength": 525
     }
   }
 }

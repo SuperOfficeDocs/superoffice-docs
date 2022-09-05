@@ -1,6 +1,6 @@
 ---
 title: POST Agents/EMail/GetEmailsAsString
-id: v1EMailAgent_GetEmailsAsString
+uid: v1EMailAgent_GetEmailsAsString
 ---
 
 # POST Agents/EMail/GetEmailsAsString
@@ -9,9 +9,15 @@ id: v1EMailAgent_GetEmailsAsString
 POST /api/v1/Agents/EMail/GetEmailsAsString
 ```
 
-<br />
+<para />
 
-## Online Restricted: ## The EMail agent is not available in Online by default. Access must be requested specifically when app is registered
+
+## Online Restricted: ## The EMail agent is not available in Online by default. Access must be requested specifically when app is registered.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +28,7 @@ POST /api/v1/Agents/EMail/GetEmailsAsString
 ```http
 POST /api/v1/Agents/EMail/GetEmailsAsString?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,16 +44,19 @@ POST /api/v1/Agents/EMail/GetEmailsAsString?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-ConnectionInfoExtended, MessageIds
+ConnectionInfoExtended, MessageIds 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | ConnectionInfoExtended |  | Carrier object for EMailConnectionInfoExtended. Services for the EMailConnectionInfoExtended Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IEMailAgent">EMail Agent</see>. |
 | MessageIds | array |  |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -54,38 +64,33 @@ ConnectionInfoExtended, MessageIds
 
 Response body: array
 
-## Sample Request
+
+## Sample request
 
 ```http!
 POST /api/v1/Agents/EMail/GetEmailsAsString
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConnectionInfoExtended": {
-    "Port": 971,
-    "ServerName": "Reichert-Ferry",
-    "Protocol": "consequatur",
-    "UserName": "Klein-Hane",
-    "Password": "vel",
-    "UseSSL": false,
-    "Folder": "quia"
-  },
+  "ConnectionInfoExtended": null,
   "MessageIds": [
-    "saepe",
-    "laboriosam"
+    "sequi",
+    "et"
   ]
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 [
-  "qui",
-  "deserunt"
+  "ad",
+  "velit"
 ]
 ```

@@ -11,7 +11,11 @@ Implemented by the <see cref="M:SuperOffice.Services88.IProjectAgent.OfferAutoNe
 
 ## OfferAutoNextStatusOnApppointmentCompleted
 
-* **appointmentId:**
+
+
+* **appointmentId:** 
+
+
 
 [WSDL file for Services88/Project](../Services88-Project.md)
 
@@ -45,6 +49,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## OfferAutoNextStatusOnApppointmentCompleted Response
 
 ```xml
@@ -65,3 +70,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

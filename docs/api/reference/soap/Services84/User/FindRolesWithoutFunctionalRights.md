@@ -17,6 +17,7 @@ Find all roles without a given set of functional rights. The roles matched must 
 
 **Returns:** Role ids that without your functional rights
 
+
 [WSDL file for Services84/User](../Services84-User.md)
 
 Obtain a ticket from the [Services84/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -51,6 +52,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## FindRolesWithoutFunctionalRights Response
 
 ```xml
@@ -73,3 +75,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

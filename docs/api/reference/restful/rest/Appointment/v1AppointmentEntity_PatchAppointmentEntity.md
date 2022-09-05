@@ -1,6 +1,6 @@
 ---
 title: PATCH Appointment/{id}
-id: v1AppointmentEntity_PatchAppointmentEntity
+uid: v1AppointmentEntity_PatchAppointmentEntity
 ---
 
 # PATCH Appointment/{id}
@@ -10,6 +10,7 @@ PATCH /api/v1/Appointment/{id}
 ```
 
 Update a AppointmentEntity with changes, as described in a JSON Patch or a JSON Merge Patch document.
+
 
 See <a href="https://tools.ietf.org/html/rfc6902">RFC6902</a> and <a href="https://tools.ietf.org/html/rfc7386">RFC 7396</a>. Update the Department field to "foo" can be done either as a JSON PATCH:
 
@@ -27,14 +28,23 @@ or as a JSON MERGE PATCH, which describes the change directly:
 
 ```
 
+
+
 JSON PATCH supports operations 'add', 'replace', 'remove' and 'test'.
 The path is case insensitive, and the leading slash is optional, so the paths "/department", "Department" and "department" are all equivalent.
 
+
+
 Calls the {SuperOffice.CRM.Services.IAppointmentAgent} service SaveAppointmentEntity.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | id | int32 | The AppointmentEntity  id to update. **Required** |
+
 
 ## Query String Parameters
 
@@ -45,6 +55,7 @@ Calls the {SuperOffice.CRM.Services.IAppointmentAgent} service SaveAppointmentEn
 ```http
 PATCH /api/v1/Appointment/{id}?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -60,9 +71,9 @@ PATCH /api/v1/Appointment/{id}?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: changes string
+## Request Body: changes string 
 
-JSON-Patch array of operations+path+value, or a MERGE-PATCH object (which will be converted to a list of JSON-PATCH operations).
+JSON-Patch array of operations+path+value, or a MERGE-PATCH object (which will be converted to a list of JSON-PATCH operations). 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -70,11 +81,10 @@ JSON-Patch array of operations+path+value, or a MERGE-PATCH object (which will b
 | path | string | The property names to modify.  "/users/0/email", "/users/-", |
 | value | object | New/Replaced value - string or object. |
 
-## Response: object
 
-Appointments appear in the diary, and have links to a Contact/Person and possibly a Project or Sale. They have start and end time+date.
+## Response: 
 
-AppointmentEntity entity with API _Links added.
+AppointmentEntity  updated.
 
 | Response | Description |
 |----------------|-------------|
@@ -83,12 +93,12 @@ AppointmentEntity entity with API _Links added.
 | 409 | Update blocked because a 'test' operation has detected a conflict with the entity value. |
 | 412 | Update aborted because AppointmentEntity has changed since the requested If-Unmodified-Since timestamp. |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| Associate |  | The owner of the appointment - the associate whose diary/checklist the appointment is in.  <br />Use MDO List name "associate" to get list items. |
-| Contact |  | The contact associated with the appointment. It may also be null if no contact is associated with the appointment.  <br />Use MDO List name "contact_new" to get list items. |
+| Associate |  | The owner of the appointment - the associate whose diary/checklist the appointment is in.  <para>Use MDO List name "associate" to get list items.</para> |
+| Contact |  | The contact associated with the appointment. It may also be null if no contact is associated with the appointment.  <para>Use MDO List name "contact_new" to get list items.</para> |
 | CreatedBy |  | The associate that first created the appointment. The property is read-only. |
 | UpdatedBy |  | The person that last updated the appointment. |
 | CreatedDate | date-time | Registered date  in UTC. |
@@ -97,11 +107,11 @@ Response body: object
 | StartDate | date-time | date + start time planned |
 | EndDate | date-time | Date + end time planned |
 | InvitedPerson |  | If the appointment is a booking, the invited persons may be your associates, but you are also able to invite contact persons from other companies to join your meeting. They do not receive an invitation, unless you send them one by email, but you can see in the appointment that persons other than your associates have been invited to a meeting. Each invited person will have an appointment slave record. |
-| Person |  | An appointment may also be connected to a person; this must be a contact person registered on the current company. This does not mean however that a person is required.  <br />Use MDO List name "person" to get list items. |
+| Person |  | An appointment may also be connected to a person; this must be a contact person registered on the current company. This does not mean however that a person is required.  <para>Use MDO List name "person" to get list items.</para> |
 | MotherId | int32 | ID of mother appointment; self if booking master, master ID if booking slave, 0 if normal appointment. However, if 0 and assoc_id != reg_id then this is an assigned appointment, indicated vt type = kBooking |
-| Priority |  | It's possible to give appointments different priorities. All the different priority types are saved in the priority table, and edited from the Admin. Client. An appointment does not require a priority.  <br />Use MDO List name "priority" to get list items. |
+| Priority |  | It's possible to give appointments different priorities. All the different priority types are saved in the priority table, and edited from the Admin. Client. An appointment does not require a priority.  <para>Use MDO List name "priority" to get list items.</para> |
 | Private | string | The confidentiality of appointments is shown as different types of “private” on the appointment. For an updated list of “private” types, see the database manual. |
-| Project |  | An appointment may also be connected to a project, so you see the appointment both on the company card, and on the project card. This does not mean however that a project is required.  <br />Use MDO List name "project" to get list items. |
+| Project |  | An appointment may also be connected to a project, so you see the appointment both on the company card, and on the project card. This does not mean however that a project is required.  <para>Use MDO List name "project" to get list items.</para> |
 | Type | string | The different types of appointment, if the appointment is supposed to be shown in the diary or checklist, or if it's a document. See the different types of appointments in the database manual. |
 | UpdatedDate | date-time | Updated date  in UTC. |
 | Completed | string | Appointment Completed state. This property is the part of the Status property that is the completed state. Could be three state if the three state user preference is set. |
@@ -116,7 +126,7 @@ Response body: object
 | LeadTime | string | Time blocked (minutes) BEFORE starttime |
 | Location | string | Location for appointment, defaulted from invited resource of type place and other rules, but you can write anything you want here |
 | RejectCounter | int32 | How many invitees have rejected this appointment |
-| RejectReason | string | Why was this booking or assignment rejected, the RejectReason list is a source of suggestions but you can write anything here  <br />Use MDO List name "rejectReason" to get list items. |
+| RejectReason | string | Why was this booking or assignment rejected, the RejectReason list is a source of suggestions but you can write anything here  <para>Use MDO List name "rejectReason" to get list items.</para> |
 | Recurrence |  | The appointment recurrence. |
 | Participants | array | List of id's of the participants to this appointment. |
 | AssignmentStatus | string | Status if this appointment is in the process of being assigned to someone else |
@@ -126,9 +136,9 @@ Response body: object
 | HasConflict | bool | Does the appointment overlap with another appointment in the user's diary? |
 | AssignedBy |  | Who assigned this appointment to this user? Whose diary did the appointment come from? |
 | MotherAssociate |  | The owner of the mother appointment - the associate whose diary/checklist the mother appointment is in.  The mother appointment is the one identified by the mother_id. If the mother_id is 0 or the same as this appointment_id, then the master associate will be the same as the 'ordinary' associate. |
-| Task |  | Task comprises the different types of activities, like “Phone call”, “Meeting” and so on.  <br />Use MDO List name "task" to get list items. |
+| Task |  | Task comprises the different types of activities, like “Phone call”, “Meeting” and so on.  <para>Use MDO List name "task" to get list items.</para> |
 | PreferredTZLocation | int32 | Appoinmtments preferred timezone location. |
-| Sale |  | An appointment may also be connected to a sale, so you see the appointment on the company card, on the project card and on the sale card. This does not mean however that a sale is required.  <br />Use MDO List name "sale" to get list items. |
+| Sale |  | An appointment may also be connected to a sale, so you see the appointment on the company card, on the project card and on the sale card. This does not mean however that a sale is required.  <para>Use MDO List name "sale" to get list items.</para> |
 | SuggestedAppointmentId | int32 | Suggested guide item that this appointment is an instance of (Note: NOT VALID for document-type appointments, they have their own link) |
 | IsMileStone | bool | Is this appointment a milestone? |
 | CautionWarning | string | Status field to indicate appointments that have some sort of problem |
@@ -146,395 +156,97 @@ Response body: object
 | FieldProperties | object |  |
 | _Links | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 PATCH /api/v1/Appointment/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "ab",
-    "value": {
-      "value1": {
-        "PrimaryKey": 7655,
-        "EntityName": "person",
-        "personId": 7655,
-        "fullName": "Annabel Crona PhD"
-      },
-      "value2": {
-        "PrimaryKey": 4824,
-        "EntityName": "person",
-        "personId": 4824,
-        "fullName": "Camryn Schulist"
-      }
-    }
+    "path": "adipisci",
+    "value": {}
   },
   {
     "op": "add",
-    "path": "ab",
-    "value": {
-      "value1": {
-        "PrimaryKey": 7655,
-        "EntityName": "person",
-        "personId": 7655,
-        "fullName": "Annabel Crona PhD"
-      },
-      "value2": {
-        "PrimaryKey": 4824,
-        "EntityName": "person",
-        "personId": 4824,
-        "fullName": "Camryn Schulist"
-      }
-    }
+    "path": "adipisci",
+    "value": {}
   }
 ]
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 AppointmentEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "Associate": {
-    "AssociateId": 697,
-    "Name": "Upton LLC",
-    "PersonId": 583,
-    "Rank": 769,
-    "Tooltip": "sunt",
-    "Type": "AnonymousAssociate",
-    "GroupIdx": 358,
-    "FullName": "Allene Feest",
-    "FormalName": "Kuphal, Bernhard and Heller",
-    "Deleted": false,
-    "EjUserId": 316,
-    "UserName": "Ratke-Glover",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.Int32",
-        "FieldLength": 690
-      }
-    }
-  },
-  "Contact": {
-    "ContactId": 78,
-    "Name": "Hand Inc and Sons",
-    "OrgNr": "1131375",
-    "Department": "",
-    "URL": "http://www.example.com/",
-    "City": "dignissimos",
-    "DirectPhone": "1-553-170-7140",
-    "AssociateId": 439,
-    "CountryId": 851,
-    "EmailAddress": "orlo@labadiemills.biz",
-    "Kananame": "molestiae",
-    "EmailAddressName": "vernie.trantow@pacocha.info",
-    "URLName": "http://www.example.com/",
-    "AssociateFullName": "Casimir Beier",
-    "BusinessName": "Information Technology",
-    "CategoryName": "VIP Customer",
-    "CountryName": "Sokovia",
-    "Address": {},
-    "FormattedAddress": "commodi",
-    "FullName": "Nora Dickens",
-    "IsOwnerContact": true,
-    "ActiveErpLinks": 742,
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.Int32",
-        "FieldLength": 444
-      }
-    }
-  },
-  "CreatedBy": {
-    "AssociateId": 33,
-    "Name": "Fahey LLC",
-    "PersonId": 546,
-    "Rank": 554,
-    "Tooltip": "quae",
-    "Type": "AnonymousAssociate",
-    "GroupIdx": 777,
-    "FullName": "Mr. Lue Hartmann",
-    "FormalName": "Leffler-Daniel",
-    "Deleted": true,
-    "EjUserId": 969,
-    "UserName": "Ebert-Veum",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.Int32",
-        "FieldLength": 313
-      }
-    }
-  },
-  "UpdatedBy": {
-    "AssociateId": 696,
-    "Name": "Labadie Group",
-    "PersonId": 744,
-    "Rank": 20,
-    "Tooltip": "sint",
-    "Type": "AnonymousAssociate",
-    "GroupIdx": 644,
-    "FullName": "Alexie Erdman",
-    "FormalName": "Treutel-Fritsch",
-    "Deleted": false,
-    "EjUserId": 285,
-    "UserName": "Denesik-Senger",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 567
-      }
-    }
-  },
-  "CreatedDate": "2011-10-16T18:25:49.9605614+02:00",
-  "AppointmentId": 441,
-  "Description": "Quality-focused contextually-based attitude",
-  "StartDate": "1998-01-05T18:25:49.9605614+01:00",
-  "EndDate": "2001-03-28T18:25:49.9605614+02:00",
-  "InvitedPerson": {
-    "Position": "incidunt",
-    "PersonId": 860,
-    "Mrmrs": "sed",
-    "Firstname": "Estel",
-    "Lastname": "Bartoletti",
-    "MiddleName": "Friesen Inc and Sons",
-    "Title": "eum",
-    "Description": "Business-focused bifurcated approach",
-    "Email": "icie_wyman@buckridge.uk",
-    "FullName": "Leatha Weissnat",
-    "DirectPhone": "1-352-206-6484",
-    "FormalName": "Rau LLC",
-    "CountryId": 252,
-    "ContactId": 357,
-    "ContactName": "Powlowski, Haley and Torp",
-    "Retired": 503,
-    "Rank": 426,
-    "ActiveInterests": 303,
-    "ContactDepartment": "",
-    "ContactCountryId": 256,
-    "ContactOrgNr": "408692",
-    "FaxPhone": "556.505.8530 x7003",
-    "MobilePhone": "(011)237-6878 x6380",
-    "ContactPhone": "808.807.2811 x5588",
-    "AssociateName": "Hagenes, Senger and Considine",
-    "AssociateId": 768,
-    "UsePersonAddress": true,
-    "ContactFax": "inventore",
-    "Kanafname": "placeat",
-    "Kanalname": "debitis",
-    "Post1": "hic",
-    "Post2": "suscipit",
-    "Post3": "dicta",
-    "EmailName": "magdalen.smith@bernier.info",
-    "ContactFullName": "Dejah Altenwerth",
-    "ActiveErpLinks": 120,
-    "TicketPriorityId": 788,
-    "SupportLanguageId": 255,
-    "SupportAssociateId": 828,
-    "CategoryName": "VIP Customer",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 897
-      }
-    }
-  },
-  "Person": {
-    "Position": "ratione",
-    "PersonId": 852,
-    "Mrmrs": "et",
-    "Firstname": "Wendell",
-    "Lastname": "Ernser",
-    "MiddleName": "Dicki Inc and Sons",
-    "Title": "magnam",
-    "Description": "Synchronised well-modulated instruction set",
-    "Email": "dorothea@ankunding.info",
-    "FullName": "Gerry Keeling",
-    "DirectPhone": "886-050-0378",
-    "FormalName": "Marvin, Bruen and Stoltenberg",
-    "CountryId": 813,
-    "ContactId": 14,
-    "ContactName": "O'Conner LLC",
-    "Retired": 994,
-    "Rank": 160,
-    "ActiveInterests": 152,
-    "ContactDepartment": "",
-    "ContactCountryId": 252,
-    "ContactOrgNr": "719117",
-    "FaxPhone": "1-313-145-7023 x14223",
-    "MobilePhone": "1-526-614-6627",
-    "ContactPhone": "766-344-0523 x628",
-    "AssociateName": "Schmidt LLC",
-    "AssociateId": 638,
-    "UsePersonAddress": false,
-    "ContactFax": "quaerat",
-    "Kanafname": "maxime",
-    "Kanalname": "optio",
-    "Post1": "at",
-    "Post2": "omnis",
-    "Post3": "in",
-    "EmailName": "stan_effertz@grimes.biz",
-    "ContactFullName": "Mrs. Lesley Bruen",
-    "ActiveErpLinks": 689,
-    "TicketPriorityId": 832,
-    "SupportLanguageId": 994,
-    "SupportAssociateId": 780,
-    "CategoryName": "VIP Customer",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 106
-      }
-    }
-  },
-  "MotherId": 809,
-  "Priority": {
-    "Id": 194,
-    "Value": "optio",
-    "Tooltip": "quisquam",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 62
-      }
-    }
-  },
+  "Associate": null,
+  "Contact": null,
+  "CreatedBy": null,
+  "UpdatedBy": null,
+  "CreatedDate": "2008-12-04T11:10:52.3901792+01:00",
+  "AppointmentId": 830,
+  "Description": "Proactive incremental synergy",
+  "StartDate": "2007-12-03T11:10:52.3901792+01:00",
+  "EndDate": "1997-08-17T11:10:52.3901792+02:00",
+  "InvitedPerson": null,
+  "Person": null,
+  "MotherId": 229,
+  "Priority": null,
   "Private": "PrivateGroup",
-  "Project": {
-    "ProjectId": 740,
-    "Name": "Rohan, Sporer and O'Conner",
-    "Description": "Reactive content-based installation",
-    "URL": "http://www.example.com/",
-    "Type": "eligendi",
-    "AssociateId": 320,
-    "AssociateFullName": "Mr. Brant Murray",
-    "TypeId": 354,
-    "Updated": "1998-02-27T18:25:49.9635633+01:00",
-    "StatusId": 993,
-    "Status": "vero",
-    "TextId": 426,
-    "PublishTo": "1994-12-10T18:25:49.9635633+01:00",
-    "PublishFrom": "2013-10-13T18:25:49.9635633+02:00",
-    "IsPublished": false,
-    "URLName": "http://www.example.com/",
-    "ProjectNumber": "742738",
-    "ActiveErpLinks": 515,
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 500
-      }
-    }
-  },
+  "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "2021-02-06T18:25:49.9635633+01:00",
+  "UpdatedDate": "1999-03-20T11:10:52.3941878+01:00",
   "Completed": "Completed",
-  "ActiveLinks": 876,
+  "ActiveLinks": 137,
   "Links": [
     {
-      "EntityName": "Wehner Group",
-      "Id": 343,
-      "Description": "Business-focused discrete solution",
-      "ExtraInfo": "velit",
-      "LinkId": 491,
-      "TableRight": {},
+      "EntityName": "Erdman-Kuhn",
+      "Id": 59,
+      "Description": "Phased multi-tasking migration",
+      "ExtraInfo": "cumque",
+      "LinkId": 923,
+      "TableRight": null,
       "FieldProperties": {
         "fieldName": {
-          "FieldRight": {
-            "Mask": "FULL",
-            "Reason": ""
-          },
-          "FieldType": "System.String",
-          "FieldLength": 511
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 723
         }
       }
     }
   ],
-  "AlarmLeadTime": "quia",
-  "HasAlarm": true,
-  "ColorIndex": 576,
+  "AlarmLeadTime": "magnam",
+  "HasAlarm": false,
+  "ColorIndex": 889,
   "IsFree": true,
   "IsAlldayEvent": false,
-  "LagTime": "animi",
-  "LeadTime": "eos",
-  "Location": "adipisci",
-  "RejectCounter": 400,
+  "LagTime": "cupiditate",
+  "LeadTime": "aut",
+  "Location": "necessitatibus",
+  "RejectCounter": 425,
   "RejectReason": "",
-  "Recurrence": {
-    "RecurrenceId": 397,
-    "StartDate": "2016-08-05T18:25:49.9635633+02:00",
-    "EndDate": "2012-11-30T18:25:49.9635633+01:00",
-    "RecurrenceCounter": 989,
-    "RecurrenceEndType": "Counter",
-    "Pattern": "Custom",
-    "DayPattern": {},
-    "WeekPattern": {},
-    "MonthPattern": {},
-    "YearPattern": {},
-    "Dates": [
-      {},
-      {}
-    ],
-    "IsRecurrence": true
-  },
+  "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 416,
-      "PersonId": 883,
-      "ContactId": 652,
-      "EmailId": 6,
+      "AssociateId": 792,
+      "PersonId": 611,
+      "ContactId": 520,
+      "EmailId": 795,
       "SendEmail": false,
       "InvitationStatus": "Accepted"
     },
     {
-      "AssociateId": 416,
-      "PersonId": 883,
-      "ContactId": 652,
-      "EmailId": 6,
+      "AssociateId": 792,
+      "PersonId": 611,
+      "ContactId": 520,
+      "EmailId": 795,
       "SendEmail": false,
       "InvitationStatus": "Accepted"
     }
@@ -542,195 +254,73 @@ Content-Type: application/json; charset=utf-8
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "2007-05-29T18:25:49.9635633+02:00",
+  "ActiveDate": "1997-07-28T11:10:52.3941878+02:00",
   "HasConflict": false,
-  "AssignedBy": {
-    "AssociateId": 945,
-    "Name": "Doyle-Kling",
-    "PersonId": 45,
-    "Rank": 417,
-    "Tooltip": "voluptatem",
-    "Type": "AnonymousAssociate",
-    "GroupIdx": 616,
-    "FullName": "Dr. Molly Swift",
-    "FormalName": "Waelchi, Lindgren and Emmerich",
-    "Deleted": true,
-    "EjUserId": 191,
-    "UserName": "Halvorson-Bosco",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 571
-      }
-    }
-  },
-  "MotherAssociate": {
-    "AssociateId": 637,
-    "Name": "Quigley Group",
-    "PersonId": 513,
-    "Rank": 612,
-    "Tooltip": "magnam",
-    "Type": "AnonymousAssociate",
-    "GroupIdx": 726,
-    "FullName": "Camila Veum",
-    "FormalName": "Collins Inc and Sons",
-    "Deleted": false,
-    "EjUserId": 364,
-    "UserName": "Walker Inc and Sons",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 667
-      }
-    }
-  },
-  "Task": {
-    "TaskListItemId": 214,
-    "Value": "eos",
-    "Direction": "Incoming",
-    "Type": "Appointment",
-    "Tooltip": "numquam",
-    "Deleted": true,
-    "IntentId": 847,
-    "Rank": 192,
-    "IsDefaultAlldayEvent": false,
-    "IsDefaultFree": true,
-    "IsDefaultPublished": false,
-    "ColorIndex": "BlueAlt1",
-    "DefaultVideomeetingStatus": "NoChange",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 197
-      }
-    }
-  },
-  "PreferredTZLocation": 607,
-  "Sale": {
-    "ContactName": "Friesen Inc and Sons",
-    "SaleDate": "2015-07-08T18:25:49.9645673+02:00",
-    "SaleId": 186,
-    "Probability": 291,
-    "Title": "quia",
-    "Amount": 27582.334,
-    "Currency": "sapiente",
-    "ProjectName": "Doyle-Bechtelar",
-    "AssociateFullName": "Don Wintheiser",
-    "Description": "Pre-emptive secondary info-mediaries",
-    "Status": "Lost",
-    "WeightedAmount": 28528.802,
-    "ProjectId": 68,
-    "EarningPercent": 30387.264,
-    "Earning": 13122.057999999999,
-    "ContactId": 719,
-    "AssociateId": 907,
-    "PersonId": 824,
-    "SaleTypeId": 803,
-    "SaleTypeName": "Lakin Group",
-    "PersonFullName": "Stacy Mertz",
-    "Completed": "Completed",
-    "ActiveErpLinks": 313,
-    "NextDueDate": "1997-01-29T18:25:49.9645673+01:00",
-    "Number": "1398899",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.Int32",
-        "FieldLength": 408
-      }
-    }
-  },
-  "SuggestedAppointmentId": 230,
-  "IsMileStone": true,
+  "AssignedBy": null,
+  "MotherAssociate": null,
+  "Task": null,
+  "PreferredTZLocation": 369,
+  "Sale": null,
+  "SuggestedAppointmentId": 787,
+  "IsMileStone": false,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "et",
+  "CentralserviceVideomeetId": "atque",
   "UserDefinedFields": {
-    "SuperOffice:1": "False",
-    "SuperOffice:2": "Carmella Deckow"
+    "SuperOffice:1": "1628699060",
+    "SuperOffice:2": "Dr. Rafael Garth Walker"
   },
   "ExtraFields": {
-    "ExtraFields1": "vel",
-    "ExtraFields2": "eum"
+    "ExtraFields1": "repellendus",
+    "ExtraFields2": "enim"
   },
   "CustomFields": {
-    "CustomFields1": "ea",
-    "CustomFields2": "non"
+    "CustomFields1": "maxime",
+    "CustomFields2": "voluptatem"
   },
-  "PublishEventDate": "2018-08-10T18:25:49.965563+02:00",
-  "PublishTo": "2016-10-25T18:25:49.965563+02:00",
-  "PublishFrom": "2013-07-06T18:25:49.965563+02:00",
-  "IsPublished": true,
+  "PublishEventDate": "2018-06-03T11:10:52.3951793+02:00",
+  "PublishTo": "2006-02-06T11:10:52.3951793+01:00",
+  "PublishFrom": "2013-07-11T11:10:52.3951793+02:00",
+  "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 337,
+      "VisibleId": 407,
       "Visibility": "All",
-      "DisplayValue": "sit",
-      "TableRight": {},
+      "DisplayValue": "et",
+      "TableRight": null,
       "FieldProperties": {
         "fieldName": {
-          "FieldRight": {
-            "Mask": "FULL",
-            "Reason": ""
-          },
+          "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 552
+          "FieldLength": 556
         }
       }
     },
     {
-      "VisibleId": 337,
+      "VisibleId": 407,
       "Visibility": "All",
-      "DisplayValue": "sit",
-      "TableRight": {},
+      "DisplayValue": "et",
+      "TableRight": null,
       "FieldProperties": {
         "fieldName": {
-          "FieldRight": {
-            "Mask": "FULL",
-            "Reason": ""
-          },
+          "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 552
+          "FieldLength": 556
         }
       }
     }
   ],
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
-      "FieldType": "System.Int32",
-      "FieldLength": 582
+      "FieldRight": null,
+      "FieldType": "System.String",
+      "FieldLength": 8
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

@@ -1,6 +1,6 @@
 ---
 title: GET ForeignApp/{applicationName}/Devices
-id: v1ForeignAppEntity_GetApplicationDevices
+uid: v1ForeignAppEntity_GetApplicationDevices
 ---
 
 # GET ForeignApp/{applicationName}/Devices
@@ -11,9 +11,16 @@ GET /api/v1/ForeignApp/{applicationName}/Devices
 
 Gets all devices that belong to a foreign application.
 
+
+
+
+
+
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | applicationName | string | The foreign application name **Required** |
+
+
 
 ## Request Headers
 
@@ -28,7 +35,10 @@ Gets all devices that belong to a foreign application.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -50,7 +60,7 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 GET /api/v1/ForeignApp/{applicationName}/Devices
@@ -59,34 +69,30 @@ Accept: application/json; charset=utf-8
 Accept-Language: en
 ```
 
+## Sample response
+
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Sun, 04 Feb 2018 18:25:50 G2T
+Last-Modified: Tue, 17 Oct 2006 11:10:52 G10T
 
 [
   {
-    "ForeignDeviceId": 464,
-    "Name": "Schneider, Gibson and Kuhlman",
-    "CreatedDate": "2015-01-29T18:25:50.5695973+01:00",
-    "UpdatedDate": "2018-02-04T18:25:50.5695973+01:00",
-    "AssociateFullName": "Loyce Moen",
-    "CreatedBy": "sint",
-    "UpdatedBy": "amet",
-    "DeviceIdentifier": "eveniet",
-    "ForeignAppId": 35,
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "ForeignDeviceId": 589,
+    "Name": "O'Hara-Greenfelder",
+    "CreatedDate": "2011-05-29T11:10:52.9021796+02:00",
+    "UpdatedDate": "2006-10-17T11:10:52.9021796+02:00",
+    "AssociateFullName": "Augustine Trace Jacobi DVM",
+    "CreatedBy": "corrupti",
+    "UpdatedBy": "minima",
+    "DeviceIdentifier": "ad",
+    "ForeignAppId": 314,
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
+        "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 232
+        "FieldLength": 56
       }
     }
   }

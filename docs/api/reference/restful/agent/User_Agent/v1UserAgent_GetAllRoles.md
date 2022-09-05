@@ -1,6 +1,6 @@
 ---
 title: POST Agents/User/GetAllRoles
-id: v1UserAgent_GetAllRoles
+uid: v1UserAgent_GetAllRoles
 ---
 
 # POST Agents/User/GetAllRoles
@@ -11,9 +11,16 @@ POST /api/v1/Agents/User/GetAllRoles
 
 Get a list of all roles for the given type of role.
 
-MDO List name = 'Roles', extra='0' (roleType)
 
-## Online Restricted: ## The User agent is not available in Online by default. User management is not allowed for partner apps
+MDO List name = 'Roles', extra='0' (roleType) 
+
+
+## Online Restricted: ## The User agent is not available in Online by default. User management is not allowed for partner apps.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -24,6 +31,7 @@ MDO List name = 'Roles', extra='0' (roleType)
 ```http
 POST /api/v1/Agents/User/GetAllRoles?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -39,15 +47,18 @@ POST /api/v1/Agents/User/GetAllRoles?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-RoleType
+RoleType 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | RoleType | string |  |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -75,13 +86,13 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/User/GetAllRoles
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -89,71 +100,64 @@ Content-Type: application/json; charset=utf-8
 }
 ```
 
+## Sample response
+
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 310,
-    "Name": "White Group",
-    "ToolTip": "Ea odit dolorem iure delectus dignissimos.",
+    "Id": 753,
+    "Name": "Bailey-Von",
+    "ToolTip": "Qui omnis expedita itaque similique voluptates molestiae.",
     "Deleted": false,
-    "Rank": 118,
-    "Type": "minus",
-    "ColorBlock": 319,
-    "IconHint": "ipsam",
+    "Rank": 338,
+    "Type": "consequuntur",
+    "ColorBlock": 871,
+    "IconHint": "omnis",
     "Selected": false,
-    "LastChanged": "2019-04-20T18:28:50.568412+02:00",
+    "LastChanged": "1999-12-20T11:10:28.3862069+01:00",
     "ChildItems": [
       {
-        "Id": 259,
-        "Name": "Gusikowski-Swaniawski",
-        "ToolTip": "Ut enim rerum dolorem vero natus animi.",
+        "Id": 892,
+        "Name": "Greenfelder LLC",
+        "ToolTip": "Explicabo unde quia veritatis.",
         "Deleted": false,
-        "Rank": 877,
-        "Type": "earum",
-        "ColorBlock": 873,
-        "IconHint": "amet",
+        "Rank": 195,
+        "Type": "dolor",
+        "ColorBlock": 917,
+        "IconHint": "sint",
         "Selected": false,
-        "LastChanged": "2009-01-09T18:28:50.568412+01:00",
+        "LastChanged": "1996-05-29T11:10:28.3862069+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "et",
-        "StyleHint": "ab",
-        "Hidden": true,
-        "FullName": "Melba Gleason",
-        "TableRight": {},
+        "ExtraInfo": "aut",
+        "StyleHint": "ut",
+        "Hidden": false,
+        "FullName": "Mr. Art Edna Schamberger DVM",
+        "TableRight": null,
         "FieldProperties": {
           "fieldName": {
-            "FieldRight": {
-              "Mask": "FULL",
-              "Reason": ""
-            },
-            "FieldType": "System.Int32",
-            "FieldLength": 336
+            "FieldRight": null,
+            "FieldType": "System.String",
+            "FieldLength": 401
           }
         }
       }
     ],
-    "ExtraInfo": "et",
-    "StyleHint": "sapiente",
+    "ExtraInfo": "culpa",
+    "StyleHint": "saepe",
     "Hidden": true,
-    "FullName": "Ethan Beatty",
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "FullName": "Sonya Waters",
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
+        "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 55
+        "FieldLength": 627
       }
     }
   }

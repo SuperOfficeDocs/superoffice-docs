@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Preference/GetAllFromSection
-id: v1PreferenceAgent_GetAllFromSection
+uid: v1PreferenceAgent_GetAllFromSection
 ---
 
 # POST Agents/Preference/GetAllFromSection
@@ -11,6 +11,12 @@ POST /api/v1/Agents/Preference/GetAllFromSection
 
 Gets all PreferenceDescription-items in the specified section
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Gets all PreferenceDescription-items in the specified section
 ```http
 POST /api/v1/Agents/Preference/GetAllFromSection?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,15 +42,18 @@ POST /api/v1/Agents/Preference/GetAllFromSection?$select=name,department,categor
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-Section
+Section 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | Section | string |  |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -74,7 +84,7 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Preference/GetAllFromSection
@@ -84,9 +94,11 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Section": "delectus"
+  "Section": "ipsa"
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -94,36 +106,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PrefDescId": 565,
-    "Section": "ea",
-    "Key": "sit",
-    "Name": "Trantow Inc and Sons",
+    "PrefDescId": 684,
+    "Section": "id",
+    "Key": "et",
+    "Name": "Hamill Group",
     "ValueType": "Bool",
     "MaxLevel": "Database",
     "SysMaxLevel": "Database",
     "AccessFlags": "adminGUI",
-    "Description": "Enhanced human-resource parallelism",
-    "IsBuiltin": false,
-    "TableName": "Weissnat, Tromp and Hills",
-    "UserDefinedListId": 256,
-    "Rank": 631,
-    "SubGroup": "aut",
-    "MinLevel": 130,
-    "MaxValue": 210,
-    "MinValue": 111,
-    "RequiredLicense": "sint",
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "Description": "Advanced client-server initiative",
+    "IsBuiltin": true,
+    "TableName": "Rau LLC",
+    "UserDefinedListId": 610,
+    "Rank": 892,
+    "SubGroup": "quidem",
+    "MinLevel": 893,
+    "MaxValue": 939,
+    "MinValue": 466,
+    "RequiredLicense": "porro",
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 522
+        "FieldRight": null,
+        "FieldType": "System.Int32",
+        "FieldLength": 975
       }
     }
   }

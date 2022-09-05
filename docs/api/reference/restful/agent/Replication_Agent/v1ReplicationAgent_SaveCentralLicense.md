@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Replication/SaveCentralLicense
-id: v1ReplicationAgent_SaveCentralLicense
+uid: v1ReplicationAgent_SaveCentralLicense
 ---
 
 # POST Agents/Replication/SaveCentralLicense
@@ -9,9 +9,15 @@ id: v1ReplicationAgent_SaveCentralLicense
 POST /api/v1/Agents/Replication/SaveCentralLicense
 ```
 
-<br />
+<para />
 
-## Online Restricted: ## The Replication agent is not available in Online by default. Not available in Online. Only used on-site
+
+## Online Restricted: ## The Replication agent is not available in Online by default. Not available in Online. Only used on-site.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +28,7 @@ POST /api/v1/Agents/Replication/SaveCentralLicense
 ```http
 POST /api/v1/Agents/Replication/SaveCentralLicense?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,15 +44,18 @@ POST /api/v1/Agents/Replication/SaveCentralLicense?$select=name,department,categ
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-License
+License 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | License | array |  |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -62,20 +72,20 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Replication/SaveCentralLicense
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "License": [
     {
-      "Name": "Okuneva Inc and Sons",
-      "Description": "Balanced hybrid Graphical User Interface",
+      "Name": "Von-Dicki",
+      "Description": "Re-engineered encompassing alliance",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -86,8 +96,8 @@ Content-Type: application/json; charset=utf-8
       ]
     },
     {
-      "Name": "Okuneva Inc and Sons",
-      "Description": "Balanced hybrid Graphical User Interface",
+      "Name": "Von-Dicki",
+      "Description": "Re-engineered encompassing alliance",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -101,39 +111,38 @@ Content-Type: application/json; charset=utf-8
 }
 ```
 
+## Sample response
+
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Denesik LLC",
-    "Description": "Customizable upward-trending superstructure",
+    "Name": "Wilderman-O'Reilly",
+    "Description": "Exclusive discrete focus group",
     "RestrictedModuleLicenses": [
       {
-        "Unrestricted": false,
-        "Total": 907,
-        "Tooltip": "necessitatibus",
-        "CanAssign": false,
-        "Free": 89,
-        "InUse": 805,
-        "IsHidden": true,
-        "Assigned": true,
-        "ModuleLicenseId": 75,
-        "Name": "Gutkowski-Douglas",
-        "Description": "Face to face radical neural-net",
-        "PrerequisiteModuleName": "Bogisich-Schumm",
-        "SortOrder": 622,
-        "ExtraFlags": 491,
-        "TableRight": {},
+        "Unrestricted": true,
+        "Total": 985,
+        "Tooltip": "voluptatem",
+        "CanAssign": true,
+        "Free": 401,
+        "InUse": 902,
+        "IsHidden": false,
+        "Assigned": false,
+        "ModuleLicenseId": 778,
+        "Name": "Little-Hodkiewicz",
+        "Description": "Seamless attitude-oriented matrix",
+        "PrerequisiteModuleName": "Rutherford Group",
+        "SortOrder": 661,
+        "ExtraFlags": 544,
+        "TableRight": null,
         "FieldProperties": {
           "fieldName": {
-            "FieldRight": {
-              "Mask": "FULL",
-              "Reason": ""
-            },
+            "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 547
+            "FieldLength": 406
           }
         }
       }
@@ -141,75 +150,63 @@ Content-Type: application/json; charset=utf-8
     "UnrestrictedModuleLicenses": [
       {
         "Unrestricted": false,
-        "Total": 292,
-        "Tooltip": "voluptas",
+        "Total": 603,
+        "Tooltip": "magnam",
         "CanAssign": false,
-        "Free": 184,
-        "InUse": 179,
-        "IsHidden": false,
-        "Assigned": false,
-        "ModuleLicenseId": 427,
-        "Name": "Hartmann Inc and Sons",
-        "Description": "Progressive object-oriented model",
-        "PrerequisiteModuleName": "Keebler-Bernhard",
-        "SortOrder": 372,
-        "ExtraFlags": 971,
-        "TableRight": {},
+        "Free": 587,
+        "InUse": 827,
+        "IsHidden": true,
+        "Assigned": true,
+        "ModuleLicenseId": 564,
+        "Name": "Effertz-Gerhold",
+        "Description": "Synergistic zero defect process improvement",
+        "PrerequisiteModuleName": "Gutkowski, Runolfsdottir and McCullough",
+        "SortOrder": 341,
+        "ExtraFlags": 479,
+        "TableRight": null,
         "FieldProperties": {
           "fieldName": {
-            "FieldRight": {
-              "Mask": "FULL",
-              "Reason": ""
-            },
+            "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 503
+            "FieldLength": 734
           }
         }
       }
     ],
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
+        "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 522
+        "FieldLength": 292
       }
     }
   },
   {
-    "Name": "Denesik LLC",
-    "Description": "Customizable upward-trending superstructure",
+    "Name": "Wilderman-O'Reilly",
+    "Description": "Exclusive discrete focus group",
     "RestrictedModuleLicenses": [
       {
-        "Unrestricted": false,
-        "Total": 907,
-        "Tooltip": "necessitatibus",
-        "CanAssign": false,
-        "Free": 89,
-        "InUse": 805,
-        "IsHidden": true,
-        "Assigned": true,
-        "ModuleLicenseId": 75,
-        "Name": "Gutkowski-Douglas",
-        "Description": "Face to face radical neural-net",
-        "PrerequisiteModuleName": "Bogisich-Schumm",
-        "SortOrder": 622,
-        "ExtraFlags": 491,
-        "TableRight": {},
+        "Unrestricted": true,
+        "Total": 985,
+        "Tooltip": "voluptatem",
+        "CanAssign": true,
+        "Free": 401,
+        "InUse": 902,
+        "IsHidden": false,
+        "Assigned": false,
+        "ModuleLicenseId": 778,
+        "Name": "Little-Hodkiewicz",
+        "Description": "Seamless attitude-oriented matrix",
+        "PrerequisiteModuleName": "Rutherford Group",
+        "SortOrder": 661,
+        "ExtraFlags": 544,
+        "TableRight": null,
         "FieldProperties": {
           "fieldName": {
-            "FieldRight": {
-              "Mask": "FULL",
-              "Reason": ""
-            },
+            "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 547
+            "FieldLength": 406
           }
         }
       }
@@ -217,44 +214,35 @@ Content-Type: application/json; charset=utf-8
     "UnrestrictedModuleLicenses": [
       {
         "Unrestricted": false,
-        "Total": 292,
-        "Tooltip": "voluptas",
+        "Total": 603,
+        "Tooltip": "magnam",
         "CanAssign": false,
-        "Free": 184,
-        "InUse": 179,
-        "IsHidden": false,
-        "Assigned": false,
-        "ModuleLicenseId": 427,
-        "Name": "Hartmann Inc and Sons",
-        "Description": "Progressive object-oriented model",
-        "PrerequisiteModuleName": "Keebler-Bernhard",
-        "SortOrder": 372,
-        "ExtraFlags": 971,
-        "TableRight": {},
+        "Free": 587,
+        "InUse": 827,
+        "IsHidden": true,
+        "Assigned": true,
+        "ModuleLicenseId": 564,
+        "Name": "Effertz-Gerhold",
+        "Description": "Synergistic zero defect process improvement",
+        "PrerequisiteModuleName": "Gutkowski, Runolfsdottir and McCullough",
+        "SortOrder": 341,
+        "ExtraFlags": 479,
+        "TableRight": null,
         "FieldProperties": {
           "fieldName": {
-            "FieldRight": {
-              "Mask": "FULL",
-              "Reason": ""
-            },
+            "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 503
+            "FieldLength": 734
           }
         }
       }
     ],
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
+        "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 522
+        "FieldLength": 292
       }
     }
   }

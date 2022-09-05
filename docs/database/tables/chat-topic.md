@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "chat_topic"
-so.date: 04.12.2022
+so.date: 08.26.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -98,6 +98,16 @@ This table contains chat topics.
 |offline\_form\_queue\_length|The number of customers in the queue before the offline form is available|Int|&#x25CF;|
 |widget\_enable\_rating|Setting this to true will enable rating support in the chat widget|Bool|&#x25CF;|
 |widget\_rating\_text|The text to be displayed in the widget next to the rating stars|String(1024)|&#x25CF;|
+|widget\_badge\_color|Optional color for chat widget badge|String(16)|&#x25CF;|
+|widget\_badge\_text\_color|Optional color for chat widget badge text|String(16)|&#x25CF;|
+|widget\_cust\_msg\_color|Optional color for chat widget customer message|String(16)|&#x25CF;|
+|widget\_cust\_msg\_text\_color|Optional color for chat widget customer message text|String(16)|&#x25CF;|
+|widget\_agent\_msg\_color|Optional color for chat widget agent message|String(16)|&#x25CF;|
+|widget\_agent\_msg\_text\_color|Optional color for chat widget agent message text|String(16)|&#x25CF;|
+|widget\_font\_size|Optional size for chat widget font|String(16)|&#x25CF;|
+|widget\_button\_color|Optional color for chat widget button|String(16)|&#x25CF;|
+|widget\_button\_text\_color|Optional color for chat widget button text|String(16)|&#x25CF;|
+
 
 ![chat_topic table relationship diagram](./media/chat_topic.png)
 
@@ -124,6 +134,7 @@ This table contains chat topics.
 |[ticket\_priority](ticket-priority.md)  |This table contains the ticket priorities. |
 |[TZLocation](tzlocation.md)  |Time zone location |
 
+
 ## Replication Flags
 
 * None
@@ -131,3 +142,4 @@ This table contains chat topics.
 ## Security Flags
 
 * No access control via user's Role.
+

@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Ticket/Html2Text
-id: v1TicketAgent_Html2Text
+uid: v1TicketAgent_Html2Text
 ---
 
 # POST Agents/Ticket/Html2Text
@@ -11,6 +11,12 @@ POST /api/v1/Agents/Ticket/Html2Text
 
 Create a plain text version of the html, suitable for email
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Create a plain text version of the html, suitable for email
 ```http
 POST /api/v1/Agents/Ticket/Html2Text?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,15 +42,18 @@ POST /api/v1/Agents/Ticket/Html2Text?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-Content
+Content 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | Content | string |  |
 
+
 ## Response: string
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -51,23 +61,26 @@ Content
 
 Response body: string
 
-## Sample Request
+
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Ticket/Html2Text
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Content": "totam"
+  "Content": "ipsum"
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"omnis"
+"sit"
 ```

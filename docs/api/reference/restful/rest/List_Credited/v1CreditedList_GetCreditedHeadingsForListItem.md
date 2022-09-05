@@ -1,6 +1,6 @@
 ---
 title: GET List/Credited/Items/{id}/Headings
-id: v1CreditedList_GetCreditedHeadingsForListItem
+uid: v1CreditedList_GetCreditedHeadingsForListItem
 ---
 
 # GET List/Credited/Items/{id}/Headings
@@ -11,11 +11,17 @@ GET /api/v1/List/Credited/Items/{itemId}/Headings
 
 Gets headings for the Credited list's item.
 
+
 Calls the List agent service GetHeadings.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | itemId | int32 | The ID of the headings to be get. **Required** |
+
 
 ## Query String Parameters
 
@@ -24,8 +30,9 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/Credited/Items/{itemId}/Headings?showDeleted=True
+GET /api/v1/List/Credited/Items/{itemId}/Headings?showDeleted=False
 ```
+
 
 ## Request Headers
 
@@ -40,7 +47,10 @@ GET /api/v1/List/Credited/Items/{itemId}/Headings?showDeleted=True
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -68,14 +78,16 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 GET /api/v1/List/Credited/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -83,65 +95,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 91,
-    "Name": "Mosciski, Bednar and Blanda",
-    "ToolTip": "Ex tenetur nulla nemo tempora.",
+    "Id": 797,
+    "Name": "Kunze-Deckow",
+    "ToolTip": "Dolor soluta voluptatibus sit fugit harum possimus qui.",
     "Deleted": false,
-    "Rank": 777,
-    "Type": "qui",
-    "ColorBlock": 640,
-    "IconHint": "esse",
-    "Selected": false,
-    "LastChanged": "2012-11-07T18:25:51.770326+01:00",
+    "Rank": 473,
+    "Type": "vel",
+    "ColorBlock": 39,
+    "IconHint": "consequatur",
+    "Selected": true,
+    "LastChanged": "2021-06-20T11:10:54.0382159+02:00",
     "ChildItems": [
       {
-        "Id": 141,
-        "Name": "Raynor Group",
-        "ToolTip": "Mollitia consequatur ea.",
+        "Id": 669,
+        "Name": "Quigley-Howe",
+        "ToolTip": "Possimus nesciunt at rerum.",
         "Deleted": true,
-        "Rank": 146,
-        "Type": "amet",
-        "ColorBlock": 753,
-        "IconHint": "distinctio",
-        "Selected": false,
-        "LastChanged": "1995-05-18T18:25:51.770326+02:00",
+        "Rank": 438,
+        "Type": "et",
+        "ColorBlock": 585,
+        "IconHint": "soluta",
+        "Selected": true,
+        "LastChanged": "2012-02-16T11:10:54.0382159+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quidem",
-        "StyleHint": "ut",
-        "Hidden": false,
-        "FullName": "Savannah Rolfson",
-        "TableRight": {},
+        "ExtraInfo": "est",
+        "StyleHint": "quia",
+        "Hidden": true,
+        "FullName": "Kirk Ortiz",
+        "TableRight": null,
         "FieldProperties": {
           "fieldName": {
-            "FieldRight": {
-              "Mask": "FULL",
-              "Reason": "facilitate world-class deliverables"
-            },
-            "FieldType": "System.String",
-            "FieldLength": 975
+            "FieldRight": null,
+            "FieldType": "System.Int32",
+            "FieldLength": 509
           }
         }
       }
     ],
-    "ExtraInfo": "qui",
-    "StyleHint": "consequatur",
+    "ExtraInfo": "adipisci",
+    "StyleHint": "explicabo",
     "Hidden": true,
-    "FullName": "Rickey Krajcik",
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "FullName": "Hollis Senger",
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
+        "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 43
+        "FieldLength": 112
       }
     }
   }

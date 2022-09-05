@@ -1,6 +1,6 @@
 ---
 title: POST Agents/EMail/GetEmailDocumentAsMimeStream
-id: v1EMailAgent_GetEmailDocumentAsMimeStream
+uid: v1EMailAgent_GetEmailDocumentAsMimeStream
 ---
 
 # POST Agents/EMail/GetEmailDocumentAsMimeStream
@@ -11,7 +11,15 @@ POST /api/v1/Agents/EMail/GetEmailDocumentAsMimeStream
 
 Gets a particular document, and tries to parse it, and returns it in MIME/RFC822 format.
 
-## Online Restricted: ## The EMail agent is not available in Online by default. Access must be requested specifically when app is registered
+
+
+
+## Online Restricted: ## The EMail agent is not available in Online by default. Access must be requested specifically when app is registered.
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -22,6 +30,7 @@ Gets a particular document, and tries to parse it, and returns it in MIME/RFC822
 ```http
 POST /api/v1/Agents/EMail/GetEmailDocumentAsMimeStream?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -37,39 +46,45 @@ POST /api/v1/Agents/EMail/GetEmailDocumentAsMimeStream?$select=name,department,c
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-DocumentId
+DocumentId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | DocumentId | int32 |  |
 
-## Response
+
+## Response: byte
+
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body:
+Response body: byte
 
-## Sample Request
+
+## Sample request
 
 ```http!
 POST /api/v1/Agents/EMail/GetEmailDocumentAsMimeStream
 Authorization: Basic dGplMDpUamUw
-Accept: binary/octet-stream
-Accept-Language: en
+Accept: application/json; charset=utf-8
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 690
+  "DocumentId": 570
 }
 ```
 
+## Sample response
+
 ```http_
 HTTP/1.1 200 OK
-Content-Type: binary/octet-stream
+Content-Type: application/json; charset=utf-8
 
-GIF89....File contents as raw bytes...
+"GIF89....File contents as raw bytes..."
 ```

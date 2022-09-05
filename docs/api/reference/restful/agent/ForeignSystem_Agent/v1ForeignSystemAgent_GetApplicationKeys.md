@@ -1,6 +1,6 @@
 ---
 title: POST Agents/ForeignSystem/GetApplicationKeys
-id: v1ForeignSystemAgent_GetApplicationKeys
+uid: v1ForeignSystemAgent_GetApplicationKeys
 ---
 
 # POST Agents/ForeignSystem/GetApplicationKeys
@@ -11,6 +11,12 @@ POST /api/v1/Agents/ForeignSystem/GetApplicationKeys
 
 Returns all ForeignKeys that belong to an application.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Returns all ForeignKeys that belong to an application.
 ```http
 POST /api/v1/Agents/ForeignSystem/GetApplicationKeys?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,15 +42,18 @@ POST /api/v1/Agents/ForeignSystem/GetApplicationKeys?$select=name,department,cat
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-ApplicationName
+ApplicationName 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | ApplicationName | string |  |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -64,19 +74,21 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/ForeignSystem/GetApplicationKeys
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Ortiz Group"
+  "ApplicationName": "Murphy, Terry and Breitenberg"
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -84,26 +96,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Key": "dolor",
-    "Value": "rerum",
-    "RecordId": 474,
-    "CreatedDate": "2016-06-24T18:28:49.2221176+02:00",
-    "UpdatedDate": "2020-07-09T18:28:49.2221176+02:00",
-    "UpdatedBy": "natus",
-    "CreatedBy": "esse",
-    "TableName": "Rodriguez Inc and Sons",
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "Key": "totam",
+    "Value": "alias",
+    "RecordId": 714,
+    "CreatedDate": "2003-11-28T11:10:27.0924523+01:00",
+    "UpdatedDate": "2017-12-18T11:10:27.0924523+01:00",
+    "UpdatedBy": "quia",
+    "CreatedBy": "earum",
+    "TableName": "Hilll Inc and Sons",
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 133
+        "FieldRight": null,
+        "FieldType": "System.Int32",
+        "FieldLength": 889
       }
     }
   }

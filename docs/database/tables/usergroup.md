@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "UserGroup"
-so.date: 04.12.2022
+so.date: 08.26.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -32,6 +32,7 @@ Secondary user groups
 |updated|Last updated when|UtcDateTime| |
 |updated\_associate\_id|Last updated by whom|FK [associate](associate.md)| |
 |updatedCount|Number of updates made to this record|UShort| |
+
 
 ![UserGroup table relationship diagram](./media/UserGroup.png)
 
@@ -84,7 +85,9 @@ Secondary user groups
 |[project](project.md)  |Projects |
 |[ProjStatusGroupLink](projstatusgrouplink.md)  |User group link table for ProjStatus, for MDO item hiding |
 |[ProjTypeGroupLink](projtypegrouplink.md)  |User group link table for ProjType, for MDO item hiding |
+|[QuoteApprReasonGroupLink](quoteapprreasongrouplink.md)  |User group link table for QuoteApprReason, for MDO item hiding |
 |[QuoteConnectionAccess](quoteconnectionaccess.md)  |Access control for Quote Connections |
+|[QuoteDenyReasonGroupLink](quotedenyreasongrouplink.md)  |User group link table for QuoteDenyReason, for MDO item hiding |
 |[ReasonGroupLink](reasongrouplink.md)  |User group link table for Reason, for MDO item hiding |
 |[ReasonSoldGroupLink](reasonsoldgrouplink.md)  |User group link table for ReasonSold, for MDO item hiding |
 |[ReasonStalledGroupLink](reasonstalledgrouplink.md)  |Link table for ReasonStalled, for MDO item hiding |
@@ -109,8 +112,9 @@ Secondary user groups
 |[TaskGroupLink](taskgrouplink.md)  |User group link table for Task, for MDO item hiding |
 |[UDefFieldGL](udeffieldgl.md)  |User group link table for UDefField, for MDO item hiding |
 |[UDListGroupLink](udlistgrouplink.md)  |User group link table for UDList, for MDO item hiding. Note - MDO mode for userdefinede lists are either turned on or off, you may not have it on for one userdefined list and off for the others. |
-|[UserGroupLink](usergrouplink.md)  |Link table between associate and usergroup, specifies secondary group membership. From SIX an associate may belong to more than one usergroup. |
+|[UserGroupLink](usergrouplink.md)  |Link table between associate and usergroup, specifies secondary group membership. From SIX an associate may belong to more than one usergroup. Http://techdoc.superoffice.com has more information about how roles are implemented. |
 |[VisibleFor](visiblefor.md)  |Visible for rights, who may see this appointment/document, sale,  salehist or selection |
+
 
 ## Replication Flags
 
@@ -121,3 +125,4 @@ Secondary user groups
 ## Security Flags
 
 * No access control via user's Role.
+

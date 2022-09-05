@@ -1,6 +1,6 @@
 ---
 title: GET Pricelist/{id}
-id: v1PriceList_GetPriceList
+uid: v1PriceList_GetPriceList
 ---
 
 # GET Pricelist/{id}
@@ -11,11 +11,17 @@ GET /api/v1/Pricelist/{id}
 
 Gets a PriceList object.
 
+
 Calls the Quote agent service GetPriceList.
+
+
+
+
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | id | int32 | The id of the PriceList to return. **Required** |
+
 
 ## Query String Parameters
 
@@ -26,6 +32,7 @@ Calls the Quote agent service GetPriceList.
 ```http
 GET /api/v1/Pricelist/{id}?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -40,18 +47,17 @@ GET /api/v1/Pricelist/{id}?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response: object
 
-A pricelist is basically a collection of products. It can be valid in a time period, and outright deactivated. All prices in the product list is in a specific currency. We have decieded not to separate prices and products, which means that we get a simpler data model, but some redundancy.
+## Response: 
 
-PriceList entity with API _Links added.
+PriceList found.
 
 | Response | Description |
 |----------------|-------------|
 | 200 | PriceList found. |
 | 404 | Not Found. |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -69,7 +75,7 @@ Response body: object
 | FieldProperties | object |  |
 | _Links | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 GET /api/v1/Pricelist/{id}
@@ -78,38 +84,34 @@ Accept: application/json; charset=utf-8
 Accept-Language: en
 ```
 
+## Sample response
+
 ```http_
 HTTP/1.1 200 PriceList found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 128,
-  "ERPPriceListKey": "consectetur",
-  "QuoteConnectionId": 311,
-  "Name": "Lueilwitz-Grady",
-  "Description": "Polarised eco-centric function",
-  "Currency": "nihil",
-  "CurrencyName": "Friesen-Will",
-  "ValidFrom": "2018-05-04T18:25:51.9732447+02:00",
-  "ValidTo": "2009-06-27T18:25:51.9732447+02:00",
+  "PriceListId": 699,
+  "ERPPriceListKey": "reprehenderit",
+  "QuoteConnectionId": 595,
+  "Name": "Erdman Group",
+  "Description": "Virtual scalable interface",
+  "Currency": "ut",
+  "CurrencyName": "Abshire-Hodkiewicz",
+  "ValidFrom": "2003-11-23T11:10:54.3869026+01:00",
+  "ValidTo": "2006-12-26T11:10:54.3869026+01:00",
   "IsActive": true,
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
-      "FieldType": "System.String",
-      "FieldLength": 100
+      "FieldRight": null,
+      "FieldType": "System.Int32",
+      "FieldLength": 288
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

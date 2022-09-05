@@ -16,6 +16,8 @@ Edit company and contact details in a selection based on contents in selectionMe
 * **selectionId:** The id of the selection to edit members from.
 * **selectionMemberEditValues:** An object of <see cref="T:SuperOffice.Services84.SelectionMemberEditValues" /> describing what should be changed for companys and contacts.
 
+
+
 [WSDL file for Services84/Selection](../Services84-Selection.md)
 
 Obtain a ticket from the [Services84/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -72,6 +74,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## EditContactSelectionMemberDetails Response
 
 ```xml
@@ -91,3 +94,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

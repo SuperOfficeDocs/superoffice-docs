@@ -1,6 +1,6 @@
 ---
 title: GET Webhook/default
-id: v1Webhook_DefaultWebhook
+uid: v1Webhook_DefaultWebhook
 ---
 
 # GET Webhook/default
@@ -11,9 +11,17 @@ GET /api/v1/Webhook/default
 
 Set default values into a new Webhook.
 
+
 NetServer calculates default values on the entity, which is required when creating/storing a new instance
 
-## Online Restricted: ## The Webhook agent is not available in Online by default. Access must be requested specifically when app is registered. Calls the Webhook agent service CreateDefaultWebhook
+
+## Online Restricted: ## The Webhook agent is not available in Online by default. Access must be requested specifically when app is registered. Calls the Webhook agent service CreateDefaultWebhook.
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -28,18 +36,16 @@ NetServer calculates default values on the entity, which is required when creati
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response: object
 
-Webhook definitions. Webhooks broadcast events from NetServer to remote servers.
+## Response: 
 
-Carrier object for Webhook.
-Services for the Webhook Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IWebhookAgent">Webhook Agent</see>.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -57,88 +63,42 @@ Response body: object
 | Updated | date-time | Last updated when  in UTC. |
 | UpdatedAssociate |  | The user that last updated the webhook. |
 
-## Sample Request
+## Sample request
 
 ```http!
 GET /api/v1/Webhook/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebhookId": 876,
-  "Name": "Kutch-Prosacco",
+  "WebhookId": 731,
+  "Name": "Weber-Block",
   "Events": [
-    "ducimus",
+    "aut",
     "illo"
   ],
   "TargetUrl": "http://www.example.com/",
-  "Secret": "nisi",
+  "Secret": "similique",
   "State": "Active",
-  "Type": "in",
+  "Type": "et",
   "Headers": {
-    "Headers1": "architecto",
-    "Headers2": "minima"
+    "Headers1": "non",
+    "Headers2": "voluptas"
   },
   "Properties": {
     "fieldName": {}
   },
-  "Registered": "2007-06-14T18:25:51.5561212+02:00",
-  "RegisteredAssociate": {
-    "AssociateId": 892,
-    "Name": "Nitzsche, Breitenberg and Metz",
-    "PersonId": 928,
-    "Rank": 242,
-    "Tooltip": "in",
-    "Type": "AnonymousAssociate",
-    "GroupIdx": 396,
-    "FullName": "Marjolaine Nolan",
-    "FormalName": "Kohler-Kub",
-    "Deleted": false,
-    "EjUserId": 639,
-    "UserName": "Gleichner, Lemke and Hilll",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.Int32",
-        "FieldLength": 697
-      }
-    }
-  },
-  "Updated": "2015-01-27T18:25:51.557121+01:00",
-  "UpdatedAssociate": {
-    "AssociateId": 751,
-    "Name": "Fadel-Herman",
-    "PersonId": 335,
-    "Rank": 323,
-    "Tooltip": "ullam",
-    "Type": "AnonymousAssociate",
-    "GroupIdx": 769,
-    "FullName": "Ms. Jakob Block",
-    "FormalName": "Borer, Okuneva and Cormier",
-    "Deleted": false,
-    "EjUserId": 55,
-    "UserName": "Waters LLC",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 260
-      }
-    }
-  }
+  "Registered": "2016-08-10T11:10:53.8662126+02:00",
+  "RegisteredAssociate": null,
+  "Updated": "2013-08-05T11:10:53.8662126+02:00",
+  "UpdatedAssociate": null
 }
 ```

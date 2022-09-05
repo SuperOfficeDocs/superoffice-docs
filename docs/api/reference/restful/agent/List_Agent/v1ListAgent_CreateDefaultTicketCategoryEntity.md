@@ -1,6 +1,6 @@
 ---
 title: POST Agents/List/CreateDefaultTicketCategoryEntity
-id: v1ListAgent_CreateDefaultTicketCategoryEntity
+uid: v1ListAgent_CreateDefaultTicketCategoryEntity
 ---
 
 # POST Agents/List/CreateDefaultTicketCategoryEntity
@@ -11,7 +11,14 @@ POST /api/v1/Agents/List/CreateDefaultTicketCategoryEntity
 
 Set default values into a new TicketCategoryEntity.
 
+
 NetServer calculates default values on the entity, which is required when creating/storing a new instance
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -26,18 +33,16 @@ NetServer calculates default values on the entity, which is required when creati
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response: object
 
-This entity describes the meta data for a ticket category, and provides special operations on it.
+## Response: 
 
-Carrier object for TicketCategoryEntity.
-Services for the TicketCategoryEntity Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IListAgent">List Agent</see>.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -61,93 +66,51 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/List/CreateDefaultTicketCategoryEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketCategoryId": 650,
-  "ParentId": 798,
-  "Name": "Fahey-Lubowitz",
-  "Fullname": "quas",
-  "CategoryMaster": 288,
+  "TicketCategoryId": 224,
+  "ParentId": 271,
+  "Name": "Gottlieb-Hayes",
+  "Fullname": "molestiae",
+  "CategoryMaster": 994,
   "Flags": "AcceptWhenReplying",
   "DelegateMethod": "Even",
-  "ExternalName": "Runolfsdottir-Rogahn",
+  "ExternalName": "Powlowski, Boehm and Kulas",
   "ClosingStatus": "Active",
   "MsgClosingStatus": "Active",
-  "AssignmentLag": 339,
-  "ReplyTemplate": 809,
-  "NotificationEmail": "geo_hermiston@beer.biz",
-  "DefaultTicketStatus": {
-    "TicketStatusId": 443,
-    "Name": "Kunze LLC",
-    "Status": "Active",
-    "TimeCounter": "Externally",
-    "NoEmailReopen": false,
-    "IsDefault": false,
-    "UsedInQueue": false,
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 164
-      }
-    }
-  },
-  "DefaultMessageStatus": {
-    "TicketStatusId": 971,
-    "Name": "Thompson LLC",
-    "Status": "Active",
-    "TimeCounter": "Externally",
-    "NoEmailReopen": false,
-    "IsDefault": true,
-    "UsedInQueue": true,
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 437
-      }
-    }
-  },
+  "AssignmentLag": 457,
+  "ReplyTemplate": 622,
+  "NotificationEmail": "everett@morissettewisozk.biz",
+  "DefaultTicketStatus": null,
+  "DefaultMessageStatus": null,
   "ExtraFields": {
-    "ExtraFields1": "aut",
-    "ExtraFields2": "in"
+    "ExtraFields1": "voluptatum",
+    "ExtraFields2": "aut"
   },
   "CustomFields": {
-    "CustomFields1": "quod",
-    "CustomFields2": "qui"
+    "CustomFields1": "dignissimos",
+    "CustomFields2": "eos"
   },
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
-      "FieldType": "System.String",
-      "FieldLength": 470
+      "FieldRight": null,
+      "FieldType": "System.Int32",
+      "FieldLength": 747
     }
   }
 }

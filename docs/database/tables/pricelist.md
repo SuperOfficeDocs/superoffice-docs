@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "PriceList"
-so.date: 04.12.2022
+so.date: 08.26.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -37,6 +37,7 @@ List of prices, cached from an ERP system
 |updated\_associate\_id|Last updated by whom|FK [associate](associate.md)| |
 |updatedCount|Number of updates made to this record|UShort| |
 
+
 ![PriceList table relationship diagram](./media/PriceList.png)
 
 [!include[details](./includes/pricelist.md)]
@@ -58,6 +59,7 @@ List of prices, cached from an ERP system
 |[Product](product.md)  |One Product, member of one price list |
 |[QuoteConnection](quoteconnection.md)  |Primary key in the CRM database. Definition of a connection to an external system, for the Quote system. |
 
+
 ## Replication Flags
 
 * Replicate changes DOWN from central to satellites and travellers.
@@ -66,3 +68,4 @@ List of prices, cached from an ERP system
 ## Security Flags
 
 * No access control via user's Role.
+

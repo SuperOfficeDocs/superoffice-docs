@@ -1,6 +1,6 @@
 ---
 title: GET ChatSession/default
-id: v1ChatSessionEntity_DefaultChatSessionEntity
+uid: v1ChatSessionEntity_DefaultChatSessionEntity
 ---
 
 # GET ChatSession/default
@@ -11,7 +11,14 @@ GET /api/v1/ChatSession/default
 
 Set default values into a new ChatSessionEntity.
 
+
 NetServer calculates default values on the entity, which is required when creating/storing a new instance Calls the Chat agent service CreateDefaultChatSessionEntity.
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -26,18 +33,16 @@ NetServer calculates default values on the entity, which is required when creati
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response: object
 
-Chat sessions belong to a chat topic, and contain messages to/from users
+## Response: 
 
-Carrier object for ChatSessionEntity.
-Services for the ChatSessionEntity Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IChatAgent">Chat Agent</see>.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -71,10 +76,11 @@ Response body: object
 | Ticket |  | Ticket the session is connected to - could be empty if we don't know exactly. |
 | TransferTo |  | User agent that has a pending transfer of the chat session |
 | ChatbotIsActive | bool | Indicates that a chatbot is active on the session. This will cause bot triggers to fire. Set to 0 when bot hands off to user. |
+| Rating | int32 | Rating of this chat conversation given by the customer |
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 GET /api/v1/ChatSession/default
@@ -83,318 +89,50 @@ Accept: application/json; charset=utf-8
 Accept-Language: *
 ```
 
+## Sample response
+
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 186,
-  "TopicId": 543,
-  "User": {
-    "AssociateId": 740,
-    "Name": "Corkery-Mayer",
-    "PersonId": 537,
-    "Rank": 802,
-    "Tooltip": "saepe",
-    "Type": "AnonymousAssociate",
-    "GroupIdx": 815,
-    "FullName": "Ryder Kuvalis",
-    "FormalName": "Hamill LLC",
-    "Deleted": true,
-    "EjUserId": 526,
-    "UserName": "Lebsack LLC",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 541
-      }
-    }
-  },
-  "Person": {
-    "Position": "sed",
-    "PersonId": 413,
-    "Mrmrs": "explicabo",
-    "Firstname": "Micheal",
-    "Lastname": "Bednar",
-    "MiddleName": "Kuvalis-Moen",
-    "Title": "earum",
-    "Description": "Enterprise-wide static firmware",
-    "Email": "shirley@monahan.co.uk",
-    "FullName": "Ena Swaniawski",
-    "DirectPhone": "785.836.3075",
-    "FormalName": "Bednar-Stanton",
-    "CountryId": 100,
-    "ContactId": 626,
-    "ContactName": "Zulauf-Mann",
-    "Retired": 837,
-    "Rank": 525,
-    "ActiveInterests": 105,
-    "ContactDepartment": "",
-    "ContactCountryId": 2,
-    "ContactOrgNr": "1119093",
-    "FaxPhone": "220-640-8871 x6417",
-    "MobilePhone": "106.577.4700 x143",
-    "ContactPhone": "(182)273-0800",
-    "AssociateName": "Borer-West",
-    "AssociateId": 263,
-    "UsePersonAddress": true,
-    "ContactFax": "praesentium",
-    "Kanafname": "aperiam",
-    "Kanalname": "ut",
-    "Post1": "ad",
-    "Post2": "vero",
-    "Post3": "vel",
-    "EmailName": "abner@hauck.info",
-    "ContactFullName": "Dahlia Lehner",
-    "ActiveErpLinks": 263,
-    "TicketPriorityId": 371,
-    "SupportLanguageId": 438,
-    "SupportAssociateId": 556,
-    "CategoryName": "VIP Customer",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 156
-      }
-    }
-  },
+  "ChatSessionId": 172,
+  "TopicId": 417,
+  "User": null,
+  "Person": null,
   "CustomerAlias": "et",
-  "CustomerHost": "consequatur",
-  "CustomerName": "Little-Runte",
-  "CustomerEmail": "haskell@marvin.uk",
-  "CustomerPhone": "045-826-7415 x211",
-  "CustomerConsented": true,
-  "CustomerCompanyName": "Hoeger-Paucek",
+  "CustomerHost": "dolore",
+  "CustomerName": "Jaskolski-Gislason",
+  "CustomerEmail": "vivien@quigley.co.uk",
+  "CustomerPhone": "1-763-148-7702",
+  "CustomerConsented": false,
+  "CustomerCompanyName": "Will, Yost and Simonis",
   "Status": "Closed",
-  "FirstMessage": "optio",
-  "LastMessage": "illum",
-  "WhenRequested": "2006-07-20T18:25:49.996563+02:00",
-  "WhenStarted": "2019-04-16T18:25:49.996563+02:00",
-  "WhenEnded": "2004-08-31T18:25:49.996563+02:00",
-  "WhenIdle": "2016-10-09T18:25:49.996563+02:00",
-  "WhenFetched": "2006-04-13T18:25:49.996563+02:00",
-  "SessionKey": "sed",
-  "InitialQueuePos": 636,
-  "AlertLevel": 65,
-  "Rank": 578,
+  "FirstMessage": "doloremque",
+  "LastMessage": "quo",
+  "WhenRequested": "2005-03-09T11:10:52.4291455+01:00",
+  "WhenStarted": "2017-07-28T11:10:52.4291455+02:00",
+  "WhenEnded": "2013-01-29T11:10:52.4291455+01:00",
+  "WhenIdle": "2009-04-07T11:10:52.4291455+02:00",
+  "WhenFetched": "1995-07-26T11:10:52.4291455+02:00",
+  "SessionKey": "repudiandae",
+  "InitialQueuePos": 882,
+  "AlertLevel": 644,
+  "Rank": 165,
   "Flags": "CustomerIsTyping",
-  "Contact": {
-    "ContactId": 841,
-    "Name": "Torp Group",
-    "OrgNr": "948294",
-    "Department": "",
-    "URL": "http://www.example.com/",
-    "City": "enim",
-    "DirectPhone": "502.367.0488 x6228",
-    "AssociateId": 478,
-    "CountryId": 349,
-    "EmailAddress": "coby@gleichner.biz",
-    "Kananame": "ex",
-    "EmailAddressName": "micheal.kiehn@schulist.co.uk",
-    "URLName": "http://www.example.com/",
-    "AssociateFullName": "Zena Huel",
-    "BusinessName": "Information Technology",
-    "CategoryName": "VIP Customer",
-    "CountryName": "Sokovia",
-    "Address": {},
-    "FormattedAddress": "consequatur",
-    "FullName": "Catharine Collier",
-    "IsOwnerContact": true,
-    "ActiveErpLinks": 594,
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.Int32",
-        "FieldLength": 895
-      }
-    }
-  },
-  "Project": {
-    "ProjectId": 507,
-    "Name": "McGlynn, Oberbrunner and Olson",
-    "Description": "Adaptive disintermediate approach",
-    "URL": "http://www.example.com/",
-    "Type": "aliquam",
-    "AssociateId": 996,
-    "AssociateFullName": "Mr. Louisa Bednar",
-    "TypeId": 69,
-    "Updated": "2017-03-26T18:25:49.9985704+02:00",
-    "StatusId": 318,
-    "Status": "labore",
-    "TextId": 61,
-    "PublishTo": "2008-09-30T18:25:49.9985704+02:00",
-    "PublishFrom": "1995-10-05T18:25:49.9985704+02:00",
-    "IsPublished": true,
-    "URLName": "http://www.example.com/",
-    "ProjectNumber": "759582",
-    "ActiveErpLinks": 103,
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.Int32",
-        "FieldLength": 510
-      }
-    }
-  },
-  "Sale": {
-    "ContactName": "Powlowski, Schuster and Trantow",
-    "SaleDate": "2006-11-07T18:25:49.9985704+01:00",
-    "SaleId": 315,
-    "Probability": 168,
-    "Title": "quo",
-    "Amount": 22677.624,
-    "Currency": "officia",
-    "ProjectName": "Spencer Group",
-    "AssociateFullName": "Justina Block Jr.",
-    "Description": "Managed clear-thinking application",
-    "Status": "Lost",
-    "WeightedAmount": 26137.559999999998,
-    "ProjectId": 26,
-    "EarningPercent": 29425.126,
-    "Earning": 9477.216,
-    "ContactId": 260,
-    "AssociateId": 292,
-    "PersonId": 904,
-    "SaleTypeId": 942,
-    "SaleTypeName": "Haag-Rodriguez",
-    "PersonFullName": "Eveline Hahn DDS",
-    "Completed": "Completed",
-    "ActiveErpLinks": 755,
-    "NextDueDate": "2021-10-12T18:25:49.9995334+02:00",
-    "Number": "1248071",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 817
-      }
-    }
-  },
-  "Ticket": {
-    "TicketId": 444,
-    "Title": "quia",
-    "CreatedAt": "2006-04-12T18:25:49.9995334+02:00",
-    "LastChanged": "2014-03-26T18:25:49.9995334+01:00",
-    "ReadByOwner": "2009-12-30T18:25:49.9995334+01:00",
-    "ReadByCustomer": "2003-05-05T18:25:49.9995334+02:00",
-    "FirstReadByUser": "2012-04-29T18:25:49.9995334+02:00",
-    "Activate": "2000-11-28T18:25:49.9995334+01:00",
-    "ClosedAt": "1996-12-09T18:25:49.9995334+01:00",
-    "RepliedAt": "1994-11-04T18:25:49.9995334+01:00",
-    "AlertTimeout": "1998-02-20T18:25:49.9995334+01:00",
-    "Deadline": "2005-03-06T18:25:49.9995334+01:00",
-    "CreatedBy": 13,
-    "CreatedByName": "Jenkins, Watsica and Sauer",
-    "Author": "veniam",
-    "OwnedBy": 396,
-    "OwnedByName": "Keebler, Stanton and Schaden",
-    "Category": 574,
-    "CategoryName": "VIP Customer",
-    "CategoryFullname": "VIP Customer",
-    "Slevel": "External",
-    "Priority": 419,
-    "PriorityName": "Kassulke-Gleason",
-    "BaseStatus": "Active",
-    "TicketStatus": 136,
-    "TicketStatusDisplayValue": "eos",
-    "Origin": "AutoGenerated",
-    "CustId": 84,
-    "PersonFirstname": "Esta",
-    "PersonMiddleName": "D'Amore-Murphy",
-    "PersonLastname": "Huels",
-    "PersonFullname": "et",
-    "AlertLevel": 327,
-    "ConnectId": 878,
-    "ReadStatus": "Green",
-    "TimeToReply": 743,
-    "RealTimeToReply": 99,
-    "TimeToClose": 203,
-    "RealTimeToClose": 702,
-    "TimeSpentInternally": 736,
-    "TimeSpentExternally": 942,
-    "TimeSpentQueue": 610,
-    "RealTimeSpentInternally": 422,
-    "RealTimeSpentExternally": 770,
-    "RealTimeSpentQueue": 186,
-    "HasAttachment": true,
-    "NumReplies": 786,
-    "NumMessages": 709,
-    "FromAddress": "quaerat",
-    "ContactId": 807,
-    "ContactName": "Nolan-Heller",
-    "OwnedByAssociateId": 735,
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": "incentivize frictionless e-markets"
-        },
-        "FieldType": "System.Int32",
-        "FieldLength": 86
-      }
-    }
-  },
-  "TransferTo": {
-    "AssociateId": 655,
-    "Name": "Goldner, Zulauf and Lebsack",
-    "PersonId": 912,
-    "Rank": 678,
-    "Tooltip": "voluptatem",
-    "Type": "AnonymousAssociate",
-    "GroupIdx": 728,
-    "FullName": "Maverick Ledner",
-    "FormalName": "Bosco, Klocko and Reilly",
-    "Deleted": false,
-    "EjUserId": 955,
-    "UserName": "Hilll LLC",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 144
-      }
-    }
-  },
+  "Contact": null,
+  "Project": null,
+  "Sale": null,
+  "Ticket": null,
+  "TransferTo": null,
   "ChatbotIsActive": true,
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "Rating": 280,
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": "maximize cutting-edge web services"
-      },
+      "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 495
+      "FieldLength": 122
     }
   }
 }

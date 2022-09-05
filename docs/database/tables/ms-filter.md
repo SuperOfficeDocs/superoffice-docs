@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "database"
   - "ms_filter"
-so.date: 04.12.2022
+so.date: 08.26.2022
 so.topic: reference
 so.envir:
   - "onsite"
@@ -44,6 +44,7 @@ This table contains email filters. These are the filters allowing you to do adva
 |ejscript|The reference to the ejscript to execute for this filter.|FK [ejscript](ejscript.md)|&#x25CF;|
 |new\_tags|The tags to set for tickets modified by this filter|FKArray|&#x25CF;|
 
+
 ![ms_filter table relationship diagram](./media/ms_filter.png)
 
 [!include[details](./includes/ms-filter.md)]
@@ -77,6 +78,7 @@ This table contains email filters. These are the filters allowing you to do adva
 |[Tags](tags.md)  |MDO List of tags for Service entities |
 |[ticket\_priority](ticket-priority.md)  |This table contains the ticket priorities. |
 
+
 ## Replication Flags
 
 * None
@@ -84,3 +86,4 @@ This table contains email filters. These are the filters allowing you to do adva
 ## Security Flags
 
 * No access control via user's Role.
+

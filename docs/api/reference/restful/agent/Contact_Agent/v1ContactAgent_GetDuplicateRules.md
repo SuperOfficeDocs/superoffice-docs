@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Contact/GetDuplicateRules
-id: v1ContactAgent_GetDuplicateRules
+uid: v1ContactAgent_GetDuplicateRules
 ---
 
 # POST Agents/Contact/GetDuplicateRules
@@ -11,6 +11,12 @@ POST /api/v1/Agents/Contact/GetDuplicateRules
 
 Retrieve all available duplicate rules for contact
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Retrieve all available duplicate rules for contact
 ```http
 POST /api/v1/Agents/Contact/GetDuplicateRules?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -34,7 +41,10 @@ POST /api/v1/Agents/Contact/GetDuplicateRules?$select=name,department,category/i
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -51,14 +61,16 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Contact/GetDuplicateRules
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -66,42 +78,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Klocko, Gerhold and Ruecker",
-    "DisplayName": "Borer-Mayer",
-    "DisplayTooltip": "minus",
+    "Name": "D'Amore, Miller and Heathcote",
+    "DisplayName": "Eichmann, Schroeder and Shields",
+    "DisplayTooltip": "tempore",
     "IsActive": true,
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.Int32",
-        "FieldLength": 922
+        "FieldRight": null,
+        "FieldType": "System.String",
+        "FieldLength": 265
       }
     }
   },
   {
-    "Name": "Klocko, Gerhold and Ruecker",
-    "DisplayName": "Borer-Mayer",
-    "DisplayTooltip": "minus",
+    "Name": "D'Amore, Miller and Heathcote",
+    "DisplayName": "Eichmann, Schroeder and Shields",
+    "DisplayTooltip": "tempore",
     "IsActive": true,
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.Int32",
-        "FieldLength": 922
+        "FieldRight": null,
+        "FieldType": "System.String",
+        "FieldLength": 265
       }
     }
   }

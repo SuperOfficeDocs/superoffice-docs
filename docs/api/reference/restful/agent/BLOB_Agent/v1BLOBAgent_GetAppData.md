@@ -1,6 +1,6 @@
 ---
 title: POST Agents/BLOB/GetAppData
-id: v1BLOBAgent_GetAppData
+uid: v1BLOBAgent_GetAppData
 ---
 
 # POST Agents/BLOB/GetAppData
@@ -11,6 +11,12 @@ POST /api/v1/Agents/BLOB/GetAppData
 
 Get a CLOB (limited to a reasonable size by the mechanics of Web Services) according to a string key; ALSO limits to the current ApplicationToken if any
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Get a CLOB (limited to a reasonable size by the mechanics of Web Services) accor
 ```http
 POST /api/v1/Agents/BLOB/GetAppData?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -35,15 +42,18 @@ POST /api/v1/Agents/BLOB/GetAppData?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-Key
+Key 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | Key | string |  |
 
+
 ## Response: string
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -51,23 +61,26 @@ Key
 
 Response body: string
 
-## Sample Request
+
+## Sample request
 
 ```http!
 POST /api/v1/Agents/BLOB/GetAppData
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "perferendis"
+  "Key": "et"
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"dignissimos"
+"sint"
 ```

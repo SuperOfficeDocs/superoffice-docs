@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Archive/GetArchiveList
-id: v1ArchiveAgent_GetArchiveList
+uid: v1ArchiveAgent_GetArchiveList
 ---
 
 # POST Agents/Archive/GetArchiveList
@@ -11,17 +11,39 @@ POST /api/v1/Agents/Archive/GetArchiveList
 
 Get a page of data for an archive.
 
-The columns returned will be those set as chosen columns, using either the SetChosenColumns service or the corresponding SelectableMDOList.SetSelected.
+
+The columns returned will be those set as chosen columns, using either the SetChosenColumns service or the corresponding SelectableMDOList.SetSelected. 
 Archive Restriction Info objects represent search terms.
 
+
 Column names and operator strings are defined elsewhere.
+
 
 Values should be encoded using the CultureDataFormatter, so 10 is "[I:10]".
 Default string encodings should be handled ok, but beware of non-invariant cultures leading to incorrect date and float parsing.
 
-```http
-var restriction1 = new ArchiveRestrictionInfo("category", "equals", "[I:10]");
+
+
+
+
+
 ```
+
+var restriction1 = new ArchiveRestrictionInfo("category", "equals", "[I:10]");
+
+```
+
+
+
+
+
+
+
+
+
+
+
+
 
 ## Query String Parameters
 
@@ -32,6 +54,7 @@ var restriction1 = new ArchiveRestrictionInfo("category", "equals", "[I:10]");
 ```http
 POST /api/v1/Agents/Archive/GetArchiveList?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -47,9 +70,9 @@ POST /api/v1/Agents/Archive/GetArchiveList?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request
+## Request Body: request  
 
-GuiName, ProviderName, SortOrder, Restriction, Entities, Page, PageSize
+GuiName, ProviderName, SortOrder, Restriction, Entities, Page, PageSize 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -61,7 +84,10 @@ GuiName, ProviderName, SortOrder, Restriction, Entities, Page, PageSize
 | Page | int32 |  |
 | PageSize | int32 |  |
 
+
 ## Response: array
+
+OK
 
 | Response | Description |
 |----------------|-------------|
@@ -79,59 +105,61 @@ Response body: array
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Archive/GetArchiveList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "GuiName": "Walker Group",
-  "ProviderName": "Yundt, Windler and Jacobs",
+  "GuiName": "Blick, Cassin and Wilderman",
+  "ProviderName": "Corkery, Rosenbaum and Dare",
   "SortOrder": [
     {
-      "Name": "McGlynn Inc and Sons",
+      "Name": "Anderson-Shanahan",
       "Direction": "ASC"
     },
     {
-      "Name": "McGlynn Inc and Sons",
+      "Name": "Anderson-Shanahan",
       "Direction": "ASC"
     }
   ],
   "Restriction": [
     {
-      "Name": "Mosciski, Harvey and Kiehn",
-      "Operator": "voluptatum",
+      "Name": "Cronin, Harber and Donnelly",
+      "Operator": "amet",
       "Values": [
-        "molestias",
-        "provident"
+        "esse",
+        "aspernatur"
       ],
       "DisplayValues": [
-        "esse",
-        "nihil"
+        "ut",
+        "occaecati"
       ],
-      "ColumnInfo": {},
+      "ColumnInfo": null,
       "IsActive": false,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 631,
+      "InterParenthesis": 605,
       "InterOperator": "And",
-      "UniqueHash": 649
+      "UniqueHash": 637
     }
   ],
   "Entities": [
-    "vero",
-    "est"
+    "dolor",
+    "qui"
   ],
-  "Page": 779,
-  "PageSize": 797
+  "Page": 530,
+  "PageSize": 599
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
@@ -139,29 +167,23 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EntityName": "Lakin, Klein and Larkin",
-    "PrimaryKey": 132,
+    "EntityName": "Grimes-Rolfson",
+    "PrimaryKey": 477,
     "ColumnData": {
       "fieldName": {
-        "DisplayValue": "nisi",
-        "TooltipHint": "necessitatibus",
-        "LinkHint": "hic"
+        "DisplayValue": "aut",
+        "TooltipHint": "sit",
+        "LinkHint": "qui"
       }
     },
-    "LinkHint": "voluptas",
-    "StyleHint": "dicta",
-    "TableRight": {
-      "Mask": "Delete",
-      "Reason": ""
-    },
+    "LinkHint": "quo",
+    "StyleHint": "dolor",
+    "TableRight": null,
     "FieldProperties": {
       "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
+        "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 833
+        "FieldLength": 688
       }
     }
   }

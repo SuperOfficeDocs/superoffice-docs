@@ -17,6 +17,7 @@ Delete some preferences by id
 
 **Returns:** This method has no return value
 
+
 [WSDL file for Services87/Preference](../Services87-Preference.md)
 
 Obtain a ticket from the [Services87/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -51,6 +52,7 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
+
 ## DeletePreferences Response
 
 ```xml
@@ -70,3 +72,4 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
+

@@ -1,6 +1,6 @@
 ---
 title: POST Agents/List/SaveAmountClassEntity
-id: v1ListAgent_SaveAmountClassEntity
+uid: v1ListAgent_SaveAmountClassEntity
 ---
 
 # POST Agents/List/SaveAmountClassEntity
@@ -10,6 +10,13 @@ POST /api/v1/Agents/List/SaveAmountClassEntity
 ```
 
 Updates the existing AmountClassEntity or creates a new AmountClassEntity if the id parameter is empty
+
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -25,9 +32,9 @@ Updates the existing AmountClassEntity or creates a new AmountClassEntity if the
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entity
+## Request Body: entity  
 
-The AmountClassEntity to be saved.
+The AmountClassEntity to be saved. 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -40,16 +47,16 @@ The AmountClassEntity to be saved.
 | Deleted | bool | 0 -&gt; record is active 1 -&gt; record is 'deleted' and should not be shown in lists |
 | CurrencyId | int32 | Currency the limits in this amount class refer to. Mixing currencies between classes can give rise to overlapping intervals and thus unpredictable classifications. |
 
-## Response: object
 
-Carrier object for AmountClassEntity.
-Services for the AmountClassEntity Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IListAgent">List Agent</see>.
+## Response: 
+
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -64,52 +71,48 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/List/SaveAmountClassEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AmountClassId": 29,
-  "Name": "Kutch-Heaney",
-  "Tooltip": "cupiditate",
-  "Rank": 7,
-  "AmountFrom": 3137.134,
-  "AmountTo": 28989.5,
-  "Deleted": false,
-  "CurrencyId": 102
+  "AmountClassId": 473,
+  "Name": "Thompson, Schiller and Heathcote",
+  "Tooltip": "dolore",
+  "Rank": 934,
+  "AmountFrom": 31108.084,
+  "AmountTo": 21.938,
+  "Deleted": true,
+  "CurrencyId": 702
 }
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AmountClassId": 646,
-  "Name": "Larson LLC",
-  "Tooltip": "est",
-  "Rank": 439,
-  "AmountFrom": 7697.1039999999994,
-  "AmountTo": 18217.942,
-  "Deleted": true,
-  "CurrencyId": 24,
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "AmountClassId": 538,
+  "Name": "Ledner Inc and Sons",
+  "Tooltip": "et",
+  "Rank": 19,
+  "AmountFrom": 7186.262,
+  "AmountTo": 14701.594,
+  "Deleted": false,
+  "CurrencyId": 115,
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
-      "FieldType": "System.String",
-      "FieldLength": 886
+      "FieldRight": null,
+      "FieldType": "System.Int32",
+      "FieldLength": 996
     }
   }
 }

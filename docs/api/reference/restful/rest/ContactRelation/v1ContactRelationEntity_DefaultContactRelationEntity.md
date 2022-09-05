@@ -1,6 +1,6 @@
 ---
 title: GET Relation/default
-id: v1ContactRelationEntity_DefaultContactRelationEntity
+uid: v1ContactRelationEntity_DefaultContactRelationEntity
 ---
 
 # GET Relation/default
@@ -11,7 +11,14 @@ GET /api/v1/Relation/default
 
 Set default values into a new ContactRelationEntity.
 
+
 NetServer calculates default values on the entity, which is required when creating/storing a new instance Calls the Relation agent service CreateDefaultContactRelationEntity.
+
+
+
+
+
+
 
 ## Request Headers
 
@@ -26,18 +33,16 @@ NetServer calculates default values on the entity, which is required when creati
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response: object
 
-Relationship between a (contact/person) and another (contact/person), as described by the RelationDefinition.
+## Response: 
 
-Carrier object for ContactRelationEntity.
-Services for the ContactRelationEntity Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IRelationAgent">Relation Agent</see>.
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -62,99 +67,47 @@ Response body: object
 | TableRight |  |  |
 | FieldProperties | object |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 GET /api/v1/Relation/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Wed, 13 Jun 2018 18:25:50 G6T
+Last-Modified: Sun, 11 Apr 2021 11:10:52 G4T
 
 {
-  "SourceContactId": 876,
-  "SourcePersonId": 275,
-  "DestinationContactId": 562,
-  "DestinationPersonId": 617,
-  "RelationId": 788,
-  "Comment": "quo",
-  "RelationDefinitionId": 958,
-  "Reversed": 588,
-  "UpdatedDate": "2018-06-13T18:25:50.3846316+02:00",
-  "CreatedDate": "2014-05-20T18:25:50.3846316+02:00",
-  "CreatedBy": {
-    "AssociateId": 721,
-    "Name": "Paucek Group",
-    "PersonId": 533,
-    "Rank": 552,
-    "Tooltip": "aut",
-    "Type": "AnonymousAssociate",
-    "GroupIdx": 202,
-    "FullName": "Trey Strosin Jr.",
-    "FormalName": "Kub-Donnelly",
-    "Deleted": false,
-    "EjUserId": 618,
-    "UserName": "Treutel, Crona and Kemmer",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 423
-      }
-    }
-  },
-  "UpdatedBy": {
-    "AssociateId": 886,
-    "Name": "Towne, Leannon and Nitzsche",
-    "PersonId": 971,
-    "Rank": 131,
-    "Tooltip": "libero",
-    "Type": "AnonymousAssociate",
-    "GroupIdx": 627,
-    "FullName": "Eden Greenholt",
-    "FormalName": "Reilly LLC",
-    "Deleted": false,
-    "EjUserId": 336,
-    "UserName": "Little, Gerhold and Zboncak",
-    "TableRight": {},
-    "FieldProperties": {
-      "fieldName": {
-        "FieldRight": {
-          "Mask": "FULL",
-          "Reason": ""
-        },
-        "FieldType": "System.String",
-        "FieldLength": 159
-      }
-    }
-  },
-  "SourceContactName": "Macejkovic-Mitchell",
-  "SourcePersonName": "Collier-Watsica",
-  "DestinationContactName": "Carroll Inc and Sons",
-  "DestinationPersonName": "Pagac LLC",
-  "ActiveText": "quod",
-  "PassiveText": "vero",
-  "TableRight": {
-    "Mask": "Delete",
-    "Reason": ""
-  },
+  "SourceContactId": 613,
+  "SourcePersonId": 174,
+  "DestinationContactId": 829,
+  "DestinationPersonId": 991,
+  "RelationId": 972,
+  "Comment": "nostrum",
+  "RelationDefinitionId": 384,
+  "Reversed": 85,
+  "UpdatedDate": "2021-04-11T11:10:52.7411738+02:00",
+  "CreatedDate": "1998-05-07T11:10:52.7411738+02:00",
+  "CreatedBy": null,
+  "UpdatedBy": null,
+  "SourceContactName": "Nitzsche, Luettgen and Larson",
+  "SourcePersonName": "Howe Group",
+  "DestinationContactName": "Fahey Inc and Sons",
+  "DestinationPersonName": "Watsica Inc and Sons",
+  "ActiveText": "maiores",
+  "PassiveText": "qui",
+  "TableRight": null,
   "FieldProperties": {
     "fieldName": {
-      "FieldRight": {
-        "Mask": "FULL",
-        "Reason": ""
-      },
-      "FieldType": "System.String",
-      "FieldLength": 898
+      "FieldRight": null,
+      "FieldType": "System.Int32",
+      "FieldLength": 781
     }
   }
 }

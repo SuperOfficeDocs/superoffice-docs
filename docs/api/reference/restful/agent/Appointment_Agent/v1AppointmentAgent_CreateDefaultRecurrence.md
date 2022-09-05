@@ -1,6 +1,6 @@
 ---
 title: POST Agents/Appointment/CreateDefaultRecurrence
-id: v1AppointmentAgent_CreateDefaultRecurrence
+uid: v1AppointmentAgent_CreateDefaultRecurrence
 ---
 
 # POST Agents/Appointment/CreateDefaultRecurrence
@@ -11,6 +11,12 @@ POST /api/v1/Agents/Appointment/CreateDefaultRecurrence
 
 Creates a RecurrenceInfo object populated with the default values for the specific type.
 
+
+
+
+
+
+
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -20,6 +26,7 @@ Creates a RecurrenceInfo object populated with the default values for the specif
 ```http
 POST /api/v1/Agents/Appointment/CreateDefaultRecurrence?$select=name,department,category/id
 ```
+
 
 ## Request Headers
 
@@ -34,13 +41,16 @@ POST /api/v1/Agents/Appointment/CreateDefaultRecurrence?$select=name,department,
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Response: object
+
+## Response: 
+
+OK
 
 | Response | Description |
 |----------------|-------------|
 | 200 | OK |
 
-Response body: object
+Response body: 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -57,62 +67,46 @@ Response body: object
 | Dates | array |  |
 | IsRecurrence | bool |  |
 
-## Sample Request
+## Sample request
 
 ```http!
 POST /api/v1/Agents/Appointment/CreateDefaultRecurrence
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
+
+## Sample response
 
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RecurrenceId": 515,
-  "StartDate": "2021-03-02T18:28:48.0578499+01:00",
-  "EndDate": "2014-01-09T18:28:48.0578499+01:00",
-  "RecurrenceCounter": 707,
+  "RecurrenceId": 510,
+  "StartDate": "2005-02-13T11:10:25.599525+01:00",
+  "EndDate": "2009-10-30T11:10:25.599525+01:00",
+  "RecurrenceCounter": 81,
   "RecurrenceEndType": "Counter",
   "Pattern": "Custom",
-  "DayPattern": {
-    "Pattern": "EveryCyclicDay",
-    "Cycle": 206
-  },
-  "WeekPattern": {
-    "Weekdays": "Friday",
-    "Cycle": 77
-  },
-  "MonthPattern": {
-    "Pattern": "DayOfMonth",
-    "Cycle": 671,
-    "Day": 371,
-    "Weekday": "Friday",
-    "WeekOfMonth": "First"
-  },
-  "YearPattern": {
-    "Pattern": "DayOfMonth",
-    "Cycle": 961,
-    "Day": 929,
-    "Weekday": "Friday",
-    "WeekOfMonth": "First"
-  },
+  "DayPattern": null,
+  "WeekPattern": null,
+  "MonthPattern": null,
+  "YearPattern": null,
   "Dates": [
     {
-      "Date": "2010-07-27T18:28:48.0578499+02:00",
-      "IsConflict": true,
-      "Description": "Quality-focused multi-tasking superstructure",
-      "DescriptionStyleHint": "Upgradable maximized infrastructure",
-      "Tooltip": "non"
+      "Date": "2022-07-21T11:10:25.599525+02:00",
+      "IsConflict": false,
+      "Description": "Multi-channelled 24 hour emulation",
+      "DescriptionStyleHint": "Switchable web-enabled portal",
+      "Tooltip": "qui"
     },
     {
-      "Date": "2010-07-27T18:28:48.0578499+02:00",
-      "IsConflict": true,
-      "Description": "Quality-focused multi-tasking superstructure",
-      "DescriptionStyleHint": "Upgradable maximized infrastructure",
-      "Tooltip": "non"
+      "Date": "2022-07-21T11:10:25.599525+02:00",
+      "IsConflict": false,
+      "Description": "Multi-channelled 24 hour emulation",
+      "DescriptionStyleHint": "Switchable web-enabled portal",
+      "Tooltip": "qui"
     }
   ],
   "IsRecurrence": false
