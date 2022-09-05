@@ -15,12 +15,12 @@ Your standard application is almost ready. Before we go live, we need to ensure 
 
 ## Pre-requisites
 
-* You have gone through the [certification checklist][1]
-* You have appointed a designated certification contact who will be available during the test period
+* You have gone through the [certification checklist][1].
+* You have appointed a designated certification contact who will be available during the test period.
 
 ## Certify
 
-1. [Request to publish configuration in the Developer Portal][5].
+1. [Request to publish configuration in the Developer Portal][2].
 2. Provide additional info and clarify questions while we run certification tests in SOD and Stage.
 
     [!include[List of info](../includes/list-of-test-period-info.md)]

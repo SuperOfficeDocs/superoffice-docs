@@ -28,7 +28,7 @@ In all three cases, after you click the **Request to Publish** button we create 
 
 ## Application - Configuration
 
-1. In the Developer Portal, go to your application page.
+1. In the [Developer Portal][9], go to your application page.
 2. Select **Configuration** from the left menu.
 3. Click the **Request to Publish** button.
 4. The version is now listed as pending. Look for the support email from us.
@@ -69,6 +69,7 @@ Need to update something? [Follow these steps][2].
 [6]: ../security/cors-and-redirection-urls.md
 [7]: ../howto/notifications.md
 [8]: update-endpoints.md
+[9]: https://dev.superoffice.com/
 
 <!-- Referenced images -->
 [img1]: ../media/request-to-publish.png

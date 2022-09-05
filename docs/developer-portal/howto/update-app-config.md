@@ -14,7 +14,7 @@ so.client: online
 
 The application configuration, also known as the technical specification, consists of many sections. For details about each field, see the [app config reference section](../reference/app-config.md).
 
-1. In the Developer Portal, go to your application page.
+1. In the [Developer Portal][7], go to your application page.
 1. Select **Configuration** from the left menu.
 1. Toggle on **Advanced**.
 1. [Create a new version.][3]
@@ -42,3 +42,4 @@ The application configuration, also known as the technical specification, consis
 [4]: update-endpoints.md
 [5]: ../security/cors-and-redirection-urls.md
 [6]: ../howto/notifications.md
+[7]: https://dev.superoffice.com/

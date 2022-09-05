@@ -4,7 +4,7 @@ uid: dp-update-app-info
 description: How to update your app-specific page in the SuperOffice Developer Portal.
 author: Bergfrid Dias
 so.date: 04.27.2022
-keywords: Developer Portal, app store listing
+keywords: Developer Portal, App Store listing
 so.topic: howto
 so.version:
 so.envir: cloud
@@ -32,11 +32,15 @@ The information shown on your app-specific product pages in the App Store comes 
 1. [Create a new version.][3]
 1. Go through each sub-section and fill in the information.
 
-    * App Store listing
+    * [Description][5]
+
+        > [!TIP]
+        > Use an online counter to [count the number of characters or words][6].
+
     * [SEO][1]
-    * Prices and terms
-    * How to install
-    * Links
+    * [Prices and terms][7]
+    * [How to install][8]
+    * [Links][9]
     * [Image and videos][2]
 
 1. Click **Save Settings**.
@@ -85,6 +89,11 @@ When you are happy with how it looks, return to your partner page in the Develop
 [2]: images-and-videos.md
 [3]: ../versioning.md
 [4]: ../howto/request-to-publish.md
+[5]: ../../apps/requirements/marketing.md#application-description
+[6]: https://www.charactercountonline.com
+[7]: prices-and-terms.md
+[8]: user-guide.md#how-to-install
+[9]: user-guide.md#links
 
 <!-- Referenced images -->
 [img1]: media/app-store-listing.png

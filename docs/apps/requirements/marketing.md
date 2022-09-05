@@ -52,6 +52,8 @@ You must provide a **description** of your application with the following inform
 
 * **Key features**
 
+  * What does the app do? List the key features (max 10) in bullet style
+
 * **Prices and terms:**
 
   * Clarify whether the price is by site or user, with or without VAT.
@@ -62,22 +64,48 @@ You must provide a **description** of your application with the following inform
 
   * List whatever the customer needs to use your application, including licenses.
 
+* **Market availability:**
+
+  * Indicate in which markets the application is available.
+
+* **App language:**
+
+  If your application supports multiple languages, it is important to name these languages in the description.
+
+* **Category:**
+
+  * Indicate one or more categories you think the application belongs to.
+
 ### Images and links
+
+All images must the following properties:
+
+* Format: PNG
+* Transparent background
+* A minimum DPI of 72
 
 * You must provide **minimum 3 images** for the App Store listing:
 
 [!include[ALT](../includes/app-store-image-req.md)]
 
 * Screenshots from the application (if used) should have descriptive **file names** because they are displayed as captions.
+
+  * Image dimensions: minimum 1920x1080 pixel and maximum 3840x2160
+  * Do not resize images to the indicated image dimensions
+  * Make sure when you make screenshots from your browser that the zoom level is 100%
+  * Format: PNG
+  * Do not mix languages in the screenshot
+  * No transparency
+  * Use normal formatted data
+  * Use real fake company names, for example, Acme Inc. instead of Test Company
+  * Take screenshots of the browser only, not the desktop around it, size the browser to the indicated dimensions.
+  * Do not write any text on the screenshots. If something needs to be highlighted by a box or an arrow to point something out, send us a comment.
+
 * If you want screenshots shown in a specific order, add numbering to the file names.
 
 * When you are listed in our App Store, you must add **links** to your website or marketplace that direct the viewer to the SuperOffice website and App Store. This helps us build ranking in search engines. Ideally, you include our logo, though it is not a requirement. If you don't have a specific app store, then use the appropriate landing page on your site where it is natural to link to our sites.
   * [https://online.superoffice.com/appstore][1]
   * [https://www.superoffice.com/][2]
-
-**Location of the app icon and screenshots in an app entry:**
-
-![Wireframe showing the location of app icon and screenshot images in an app entry -screenshot][img1]
 
 We encourage you to include some meaningful screenshots from the application interface. These will show in the slider on the application detail page.
 
@@ -91,22 +119,22 @@ The SuperOffice needs to be either green or white, depending upon the background
 
 Note that the logo should NEVER look blind. If you are using the logo on a colored background, you must use the negative logo.
 
-![imageyiti.png -screenshot][img2]
+![SuperOffice primary logo -screenshot][img2]
 
 This is our primary logo.
 It should always be your first choice. If, for some reason, this can’t be used – choose another option described below and available from download.
 
-![imagezwdb.png -screenshot][img3]
+![Logo whitespace guidance -screenshot][img3]
 
 Always place our logo on a clear, white space to ensure visibility and influence. This minimum clear space is equal to the height of an uppercase 'O'.
 
-![image6tlbw.png -screenshot][img4]
+![SuperOffice white logo on green -screenshot][img4]
 
 The logo can be placed on green and very dark backgrounds.
 
 Please note this logo is a **negative version**, which means the background color shows through the eyes.
 
-![imagezt0an.png -screenshot][img5]
+![SuperOffice green main color -screenshot][img5]
 
 The SuperOffice green color is:
 
@@ -116,7 +144,7 @@ The SuperOffice green color is:
 **REMEMBER TO NEVER:**
 
 * **Add a drop shadow** (or anything else) to the logo. Use only the logos as defined above.
-* **Split the logo** – The logo must stay alongside our name. We have experienced few cases where this rule cannot be met. Please contact [AS Marketing][4] to make sure you stay on track.
+* **Split the logo** – The logo must stay alongside our name. We have experienced few cases where this rule cannot be met. Please [contact our marketing team][4] to make sure you stay on track.
 * **Oversize the logo** – use the templates provided in this guide to get the size right.
 * **Use the logo on a too busy background**. If the background is too busy find another solution ie. putting the logo in a green or white bar/box. Whenever possible use the templates provided in this guide to stay clear of uncertainties.
 
@@ -126,7 +154,6 @@ The SuperOffice green color is:
 [4]: mailto:appstore@superoffice.com
 
 <!-- Referenced images -->
-[img1]: media/app-entry-images.png
 [img2]: media/imageyiti.png
 [img3]: media/imagezwdb.png
 [img4]: media/image6tlbw.png
