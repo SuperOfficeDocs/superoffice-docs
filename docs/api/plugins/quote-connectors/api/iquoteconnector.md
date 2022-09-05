@@ -17,7 +17,7 @@ If an ERP system does not provide products, or if the ERP system is not availabl
 the SuperOffice IProductRegisterCache object that is provided at startup.
 
 Currencies are specified in ISO three letter codes: USD, NOK, SEK, EUR, GBP, etc.
-See http://www.currency-iso.org/dl_iso_table_a1.xls for details. 
+See http://www.currency-iso.org/dl_iso_table_a1.xls for details.
 
 The user may click the TEST button in the configuration dialog, which calls the TestConnection method.
 
@@ -25,15 +25,14 @@ The user may click the TEST button in the configuration dialog, which calls the 
 
 The id of this connection in the CRM system
 
-## Dictionary<string, FieldMetadataInfo> GetConfigurationFields()
+## Dictionary&lt;string, FieldMetadataInfo> GetConfigurationFields()
 
-This is a request for metadata needed to populate the Quote connection configuration admin dialog 
-that takes in the information needed to create a connection to an ERP system. 
-The values entered in the dialog are stored in the SuperOffice db and used when 
-`InitializeConnection` is called by the client.
-Returns: A list of field descriptions for the GUI to use when populating the config dialog. Make sure that the FieldMetadataInfo.Rank is set.
+This is a request for metadata needed to populate the Quote connection configuration admin dialog that takes in the information needed to create a connection to an ERP system. 
+The values entered in the dialog are stored in the SuperOffice db and used when
+[`InitializeConnection`](#pluginresponseinfo-initializeconnectionsuperofficecrmquoteconnectioninfo-connectiondata-superofficecrmuserinfo-user-bool-isontravel-dictionaryltstring-string-connectionconfigfields-iproductregistercache-productregister) is called by the client.
+Returns: [FieldMetdataInfo](./data-carriers/fieldmetadatainfo.md) dictionary. A list of field descriptions for the GUI to use when populating the config dialog. Make sure that the FieldMetadataInfo.Rank is set.
 
-## PluginResponseInfo TestConnection(Dictionary<string, string> connectionData)
+## PluginResponseInfo TestConnection(Dictionary&lt;string, string> connectionData)
 
 Check that the ERP connection is good. Return some status info that the Admin client can show to the user.
 
@@ -41,42 +40,38 @@ Testing if the connection data is sufficient to get a connection with the ERP sy
 The Connector should try to do some operations to check if the connection has sufficient rights
 to run. The connection has not been created yet. 
 
-* connectionData: {"name" = "value"}. The names are defined by the FieldMetadata. The values are what the user typed into the fields in the configure connection dialog.
+* connectionData: {"name" = "value"}. The names are defined by the [FieldMetadata](data-carriers/fieldmetadatainfo.md) returned by the [GetConfigurationFields](#dictionaryltstring-fieldmetadatainfo-getconfigurationfields). The values are what the user typed into the fields in the configure connection dialog.
 
 Returns: Ok or not + a status or error message. This message is shown in a result dialog.
 
-
-## PluginResponseInfo InitializeConnection(SuperOffice.CRM.QuoteConnectionInfo connectionData, SuperOffice.CRM.UserInfo user, bool isOnTravel, Dictionary<string, string> connectionConfigFields, IProductRegisterCache productRegister)
+## PluginResponseInfo InitializeConnection(SuperOffice.CRM.QuoteConnectionInfo connectionData, SuperOffice.CRM.UserInfo user, bool isOnTravel, Dictionary&lt;string, string> connectionConfigFields, IProductRegisterCache productRegister)
 
  Set up the connection to the ERP system.
  Will be called as part of SuperOffice client startup for each installed connection. 
- Configuration data comes from the configuration dialog shown in the Admin client (see `GetConfigurationFields`)
+ Configuration data comes from the configuration dialog shown in the Admin client (see [`GetConfigurationFields`](#dictionaryltstring-fieldmetadatainfo-getconfigurationfields))
 
-* connectionData: Contains the configuration values defined in the Admin client.
-* user: Information about the logged in user
-* isOnTravel: Is the user on Travel?
-* connectionConfigFields: `{"name" = "value"}`. The names are defined by the FieldMetadata. The values are what the user typed into the fields in the configure connection dialog.
-* productRegister: Product caching object that allows connectors to stash product information in the SuperOffice database for off-line use.
+* [QuoteConnectionInfo](./data-carriers/quoteconnectioninfo.md) connectionData: Contains the configuration values defined in the Admin client.
+* UserInfo user: Information about the logged in user
+* bool isOnTravel: Is the user on Travel?
+* Dictionary connectionConfigFields: `{"name" = "value"}`. The names are defined by the [FieldMetadata](./data-carriers/fieldmetadatainfo.md). The values are what the user typed into the fields in the configure connection dialog.
+* [IProductRegisterCache](iproductregistercache.md) productRegister: Product caching object that allows connectors to stash product information in the SuperOffice database for off-line use.
 
 Returns: IsOk set to false if connector can’t provide service (no network)
  The connector is then ignored until the application restarts.
 
-## Dictionary<string, bool> GetCapabilities()
+## Dictionary&lt;string, bool> GetCapabilities()
 
 Return a set of capability name &gt; status pairs that tell the system what capabilities this connector provides.
-Using the `PluginResponseInfo` gives the connector the possibility to disable a capability,
- with a reason string that might be shown to the user.
 
-Returns: List of all capabilities.
+If a capability is missing, then the corresponding parts of the quote UI are disabled.
 
+Returns: List of all capabilities that the connector supports. Capabilty names must match [the list of capability names](../capability-names.md).
 
 ## bool CanProvideCapability(string capabilityName)
 
-Check if one named capability can be provided (now)
-Using the `PluginResponseInfo` gives the connector the possibility to disable a capability,
-with a reason string that might be shown to the user.
+Check if one named capability can be provided by this connector.
 
-* capabilityName: Name of the capability, see [the list](../capability-names.md)
+* capabilityName: Name of the capability, see [the list](../capability-names.md) for valid names.
 
 Returns: True if connector has this capability
 
@@ -87,34 +82,34 @@ Called when a user is creating a quote.
 The Quote does not exist in database at this time; 
 any changes in the returned QuoteResponseInfo will be saved and the GUI updated. 
 
-* context: The quote and its parts.
+* [QuoteAlternativeContextInfo](./data-carriers/quotealternativecontextinfo.md) context: The quote and its parts.
 
-Returns: An updated quote. If returns IsOk = false, then quote creation is aborted.
+Returns:QuoteResponseInfo An updated quote. If returns IsOk = false, then quote creation is aborted.
 
 
 ## QuoteVersionResponseInfo OnBeforeCreateQuoteVersion(QuoteVersionContextInfo context)
 
-Called when a user is creating a new quoteversion.
+Called when a user is creating a new quote version.
 The version does not exist in database at this time; any changes in the returned QuoteVersionResponseInfo will be saved and the GUI updated.
 
-* context: The quote and its parts.
+* [QuoteVersionContextInfo](data-carriers/quoteversioncontextinfo.md) context: The quote and its parts.
 
-Returns: An updated quote version. If returns IsOk = false, then quoteversion creation is aborted.
+Returns: [QuoteVersionResponseInfo](data-carriers/quoteversionresponseinfo.md) An updated quote version. If returns IsOk = false, then quoteversion creation is aborted.
 
 ## QuoteAlternativeResponseInfo OnBeforeCreateQuoteAlternative(QuoteAlternativeContextInfo context)
 
 Called when a user is creating a quote alternative.
 The quote alternative does not exist in database at this time; any changes in the returned Quote alternative will be saved and the GUI updated.
 
-* context: The quote and its parts.
+* [QuoteAlternativeContextInfo](data-carriers/quotealternativecontextinfo.md) context: The quote and its parts.
 
-Returns: An updated quote alternative. If returns IsOk = false, then quote alternative creation is aborted.
+Returns: [QuoteAlternativeResponseInfo](data-carriers/quotealternativeinfo.md) An updated quote alternative. If returns IsOk = false, then quote alternative creation is aborted.
 
 ## void OnAfterSaveQuote(QuoteAlternativeContextInfo context)
 
 Called after a sale containing a quote is saved or created. (Notice that new items have now gotten their ids in the CRM system.)
 
-* context: The quote and its parts. Contact, Person, Project are read-only. Quote, QuoteRevision, QuoteAlternative parts can be changed before the save.
+* [QuoteAlternativeContextInfo](data-carriers/quotealternativecontextinfo.md) context: The quote and its parts. The context is read-only. The records have been written to the database.
 
 ## void OnBeforeDeleteQuote(QuoteInfo quote, ISaleInfo sale, IContactInfo contact)
 
@@ -364,7 +359,7 @@ The [QuoteConnectorBase](quoteconnectorbase.md) implementation of this method de
 
 Returns: The updated Context, with changes to State and UserExplanation if needed.
 
-## QuoteVersionResponseInfo UpdateQuoteVersionPrices(QuoteVersionContextInfo context, HashSet<string> writeableFields)
+## QuoteVersionResponseInfo UpdateQuoteVersionPrices(QuoteVersionContextInfo context, HashSet< string > writeableFields)
 
 Fetch new prices from the pricelist for all the alternatives in the quote.
 This method is explicitly triggered by the user clicking the UPDATE PRICES button in the quote dialog.

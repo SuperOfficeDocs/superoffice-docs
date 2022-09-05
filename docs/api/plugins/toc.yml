@@ -46,6 +46,11 @@ items:
       items:
       - name: Online SOAP API
         href: quote-connectors/online-quote-connectors/index.md
+        items:
+        - name: REST Quote Connector
+          href: quote-connectors/online-quote-connectors/rest-quote-connector-api.md
+        - name: SOAP Quote Connector
+          href: quote-connectors/online-quote-connectors/soap-quote-connector-api.md
       - name: .net on-site API
         href: quote-connectors/api/index.md
         items:
@@ -65,6 +70,37 @@ items:
           href: quote-connectors/api/quoteconnectorbase.md
         - name: QuoteConnectorExtender
           href: quote-connectors/api/quoteconnectorextender.md        
+      - name: Data Carrier definitions
+        href: quote-connectors/api/data-carriers/index.md
+        items:
+        - name: AddressInfo
+          href: quote-connectors/api/api/data-carriers/addressinfo.md
+        - name: ExtraDataFieldtypeInfo
+          href: quote-connectors/api/api/data-carriers/extradatafieldtypeinfo.md
+        - name: FieldMetadataInfo
+          href: quote-connectors/api/api/data-carriers/fieldmetadatainfo.md
+        - name: ISaleInfo
+          href: quote-connectors/api/api/data-carriers/isaleinfo.md
+        - name: OrderResponseInfo
+          href: quote-connectors/api/api/data-carriers/orderresponseinfo.md
+        - name: PlaceOrderResponseInfo
+          href: quote-connectors/api/api/data-carriers/placeorderresponseinfo.md
+        - name: PluginResponseInfo
+          href: quote-connectors/api/api/data-carriers/pluginresponseinfo.md
+        - name: PriceListInfo
+          href: quote-connectors/api/api/data-carriers/pricelistinfo.md
+        - name: ProductInfo
+          href: quote-connectors/api/api/data-carriers/productinfo.md
+        - name: QuoteAlternativeContextInfo
+          href: quote-connectors/api/api/data-carriers/quotealternativecontextinfo.md
+        - name: QuoteAlternativeInfo
+          href: quote-connectors/api/api/data-carriers/quotealternativeinfo.md
+        - name: QuoteAlternativeWithLinesInfo
+          href: quote-connectors/api/api/data-carriers/quotealternativewithlinesinfo.md
+        - name: QuoteConnectionInfo
+          href: quote-connectors/api/api/data-carriers/quoteconnectioninfo.md
+        - name: QuoteInfo
+          href: quote-connectors/api/api/data-carriers/quoteinfo.md
     - name: Implementation guide
       href: quote-connectors/implementation-guide.md
     - name: Scenarios
