@@ -71,7 +71,8 @@ This can be changed either by a SQL statement (requires access to SQL database)
  
 #### How to add the OAuth 2.0 feature?
 
-We made that feature General Available (iow. not in Pilot) with SuperOffice 10.0.3 (+ SuperOffice 8.5 R17).
+This feature is in General Availability (iow. not in Pilot) in SuperOffice 10.0.3 (+ SuperOffice 8.5 R17).
+
 
 **Online:**
 N/A
