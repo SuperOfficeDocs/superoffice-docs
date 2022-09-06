@@ -170,7 +170,8 @@ Use the links below to learn how to check and change UPNs in various environment
 
 ### MX Record pointing to the Microsoft® Exchange Online server
 
-We need to ensure that the MX record points to the Microsoft address.
+Ensure that the MX record points to the Microsoft address.
+
 - How it looks from where NetServer is installed on the internal network, that applies:
 
 To see this, follow the steps below.
