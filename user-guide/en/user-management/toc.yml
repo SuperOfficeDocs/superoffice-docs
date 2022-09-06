@@ -40,3 +40,14 @@ items:
     href: superoffice-reports-access-rights.md
   - name: Visibility
     href: visibility.md
+  - name: Role
+    href: role/toc.yml
+  - name: Service users
+    href: in-service/index.md
+    items:
+    - name: Edit a user
+      href: in-service/edit-user.md
+    - name: Create user group
+      href: in-service/create-user-group.md
+    - name: Delete user group
+      href: in-service/delete-user-group.md

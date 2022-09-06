@@ -70,7 +70,7 @@ To create a new category:
 <!-- Referenced links -->
 [1]: ../../../dashboard/service/index.md#hyperlinks-to-categories
 [2]: editUser.helpSettings.md
-[3]: listUsers.listUsergroups.md
+[3]: ../../../user-management/user-groups.md
 [4]: ../reply-templates/index.md
 [5]: ../request/get-next-request-in-queue.md
 [6]: listCategories.searchTickets.md

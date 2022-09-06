@@ -64,6 +64,6 @@ The full name, e-mail address and owning company is displayed at the top. At the
 [4]: import-users-web.md
 [5]: ../admin/orphans/logging-users-off.md
 [6]: associates-filter-group.md
-[7]: ../admin/role/index.md
+[7]: role/index.md
 
 <!-- Referenced images -->

@@ -36,7 +36,7 @@ Selecting ![icon][img1] **System settings** &gt; **Categories** takes you to a l
 
 <!-- Referenced links -->
 [1]: ../request/tags.md
-[2]: listUsers.listUsergroups.md
+[2]: ../../../user-management/user-groups.md
 [3]: listCategories.newCategory.md
 [4]: listCategories.deleteCategory.md
 [5]: listCategories.searchTickets.md

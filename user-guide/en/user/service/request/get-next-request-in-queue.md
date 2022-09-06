@@ -89,7 +89,7 @@ When you have fetched a request from the queue, the status must be changed from 
 Create a new request, set **Owner** to **Unassigned**, select the category you are a member of and set **Status** to **In queue**. Then try clicking **Requests** &gt; **Get next request in queue**.
 
 <!-- Referenced links -->
-[1]: ../topics/../admin/listUsers.listUsergroups.md
+[1]: ../../../user-management/user-groups.md
 
 <!-- Referenced images -->
 [img1]: ../../../../media/icons/btn-add.png

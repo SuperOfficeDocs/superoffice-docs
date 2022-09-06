@@ -4,6 +4,6 @@ Joe Johnson works in the sales department of a large company. The primary group 
 He also needs limited rights to documents from the marketing department and development department. These two departments are added under **Other groups**. In the role Joe belongs to it is specified that he only has read access to these data.
 
 <!-- Referenced links -->
-[1]: ../../admin/role/set-data-rights-for-role.md
+[1]: ../role/set-data-rights-for-role.md
 
 <!-- Referenced images -->

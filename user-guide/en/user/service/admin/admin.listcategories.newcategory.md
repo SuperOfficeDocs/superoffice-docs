@@ -71,7 +71,7 @@ To create a new category:
 [1]: listCategories.searchTickets.md
 [2]: ../../../dashboard/service/index.md#hyperlinks-to-categories
 [3]: editUser.helpSettings.md
-[4]: listUsers.listUsergroups.md
+[4]: ../../../user-management/user-groups.md
 [5]: ../reply-templates/index.md
 [6]: ../request/get-next-request-in-queue.md
 

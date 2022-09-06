@@ -13,7 +13,7 @@ language: en
 
 [!include[Requirement](../includes/note-anon-req.md)]
 
-Using role-based security in SuperOffice CRM, you can customise roles for different access levels in the company.
+Using role-based security in SuperOffice CRM, you can customize roles for different access levels in the company.
 
 A role describes two things:
 
@@ -45,6 +45,15 @@ A number of predefined roles are included with SuperOffice CRM. The **User level
 | External user | Consultant or partner with limited access to company and project data. Only has access to data which has been published. |
 | Anonymous user | Anonymous user |
 | System user | System integration user. Overrides all security controls. This role is not visible and cannot be edited. |
+
+## Roles in Service
+
+[!include[Restricted access](../../includes/note-insufficient-rights.md)]
+
+Roles are used as a tool for administrating users. You can link different properties to a role, such as profiles, workflow access and functional rights. When you assign a user to a role, the user automatically acquires these properties. The **Roles** screen displays a list of all available roles.
+
+> [!NOTE]
+> If your company uses SuperOffice CRM, the roles are managed from SuperOffice Settings and maintenance.
 
 ## What would you like to do now?
 

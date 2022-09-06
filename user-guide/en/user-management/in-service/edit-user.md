@@ -1,7 +1,7 @@
 ---
-uid: help-en-admin-listusers-listusers-batchupdate
-title: admin listUsers listUsers batchUpdate
-description: admin listUsers listUsers batchUpdate
+uid: help-en-user-edit-service
+title: Edit users in Service
+description: Edit users in Service
 author: SuperOffice RnD
 so.date: 06.29.2022
 keywords: Service
@@ -9,11 +9,22 @@ so.topic: help
 language: en
 ---
 
-# Batch update users
+# Edit users
+
+To edit the information already recorded for a user:
+
+1. Select ![icon][img1] **System settings > Users**.
+2. Select the **Users** tab.
+3. Click the **Filter** list to apply a filter to the list.
+4. Click the required user name. The **Edit users** screen is displayed.
+5. Make the required changes.
+6. Click **OK**. The changes are saved.
+
+## Batch update users
 
 In this screen you can update several users at the same time.
 
-[!include[To do this](../../../includes/to-do-this.md)]
+[!include[To do this](../../includes/to-do-this.md)]
 
 1. Select ![icon][img1] **System settings &gt; Users**.
 2. Select the **Users** tab.
@@ -21,14 +32,14 @@ In this screen you can update several users at the same time.
 4. Check the users you want to update.
 5. Click the ![icon][img2] menu button in the lower left corner, and select **Batch update** and **Change**.
 6. In the **Batch update users** screen, check the box(es) for the property or properties you want to change, and then select the value you want in the associated field. The following options are available:
-    * **Role**: Select a role you want to assign to the selected users. For more details about roles, see [Roles][1].
+    * **Role**: Select a [role][1] you want to assign to the selected users.
 
         > [!NOTE]
         > The role may override other options further down.
 
     * **Status**: Select the required status for the selected users. You can choose between **Normal** and **Not present**. If a user is not present, they will not receive any requests automatically. This is the status you would set, for example, when users go on holiday.
 
-    * **Group**: Select the user group you want to assign to the selected users. For more details about user groups, see [User groups][2].
+    * **Group**: Select the [user group][2] you want to assign to the selected users.
 
     * **Default status for new request**: Select the default status to appear in the **R****equest** screen for the selected users.
 
@@ -52,9 +63,9 @@ In this screen you can update several users at the same time.
 7. Click **OK**. The selected users are updated with your changes.
 
 <!-- Referenced links -->
-[1]: listRoles.md
-[2]: listUsers.listUsergroups.md
+[1]: ../role/index.md
+[2]: ../user-groups.md
 
 <!-- Referenced images -->
-[img1]: ../../../../media/icons/globalmenu-settings-small.png
-[img2]: ../../../../media/icons/btn-menu.png
+[img1]: ../../../media/icons/globalmenu-settings-small.png
+[img2]: ../../../media/icons/btn-menu.png

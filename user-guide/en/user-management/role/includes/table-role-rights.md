@@ -1,4 +1,5 @@
-﻿You can choose from these rights:
+﻿<!-- markdownlint-disable-file MD041 -->
+You can choose from these rights:
 
 | Name | Rights | Tooltips |
 |---|---|---|

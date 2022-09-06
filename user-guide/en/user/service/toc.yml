@@ -96,12 +96,6 @@ items:
     href: admin/listprofiles.globalprofiles.md
   - name: Admin listProfiles personalProfile
     href: admin/listprofiles.personalprofile.md
-  - name: Admin listRoles
-    href: admin/listroles.md
-  - name: Admin listRoles editRole
-    href: admin/listroles.editrole.md
-  - name: Admin listRoles newRole
-    href: admin/listroles.newrole.md
   - name: Admin listTicketStatuses
     href: admin/admin.listticketstatuses.md
   - name: Admin listTicketStatuses
@@ -110,22 +104,6 @@ items:
     href: admin/listticketstatuses.deleteticketstatus.md
   - name: Admin listTicketStatuses newTicketStatus
     href: admin/listticketstatuses.newticketstatus.md
-  - name: Admin listUsers
-    href: admin/listusers.md
-  - name: Admin listUsers listUsergroups
-    href: admin/listusers.listusergroups.md
-  - name: Admin listUsers listUsers
-    href: admin/listusers.listusers.md
-  - name: Admin listUsers listUsers batchUpdate
-    href: admin/listusers.listusers.batchupdate.md
-  - name: Admin listUsers listUsers delUser
-    href: admin/listusers.listusers.deluser.md
-  - name: Admin listUsers listUsers editUser
-    href: admin/listusers.listusers.edituser.md
-  - name: Admin listUsers listUsers newUser
-    href: admin/listusers.listusers.newuser.md
-  - name: Admin listUsers listUsers restoreUser
-    href: admin/listusers.listusers.restoreuser.md
   - name: Admin soapConf
     href: admin/soapconf.md
   - name: Admin viewLicenses

@@ -64,5 +64,4 @@ If the data objects (companies, projects, documents and so on) are to be made ac
 [1]: edit-rights-for-anonymous-users.md
 
 <!-- Referenced images -->
-[img2]: ../../../media/icons/admin/question.bmp
 [img3]: ../../../media/icons/admin/pil-ned.bmp

@@ -19,6 +19,6 @@ This requires the licence **Confidential activities**.
 > The **Visible for** list box in the **Selections** screen does not require this licence, and is available to all users.
 
 <!-- Referenced links -->
-[1]: ../admin/role/index.md
+[1]: role/index.md
 
 <!-- Referenced images -->

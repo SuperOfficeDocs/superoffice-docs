@@ -13,6 +13,8 @@ language: en
 
 [!include[Requirement](../includes/note-anon-req.md)]
 
+## In Settings and maintenance
+
 To edit a role:
 
 1. [!include[Open Roles](includes/open-roles.md)]
@@ -39,9 +41,22 @@ To edit a role:
 
     The changes are saved automatically.
 
+## In Service
+
+To edit the information already recorded for a role in Service:
+
+1. Select ![icon][img1] **System settings > Roles**.
+2. Click the required role name. The **Edit role** screen appears.
+3. Make the required changes.
+
+    For more information about the tabs and fields in this screen, see [Create roles][2].
+
+4. Click **OK**. The changes are saved.
+
 <!-- Referenced links -->
 [1]: edit-rights-for-anonymous-users.md
 [3]: index.md
+[2]: create-role.md#in-service
 
 <!-- Referenced images -->
-[img4]: ../../../media/icons/admin/question.bmp
+[img1]: ../../../media/icons/globalmenu-settings-small.png
