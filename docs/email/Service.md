@@ -70,7 +70,8 @@ This can be changed either by a SQL statement (requires access to SQL database)
 
   * See [SuperOffice.Inbox Email][9] for more details
  
-#### How to add the OAuth 2.0 feature?
+#### How to add the OAuth 2.0 feature
+
 
 This feature is in General Availability (iow. not in Pilot) in SuperOffice 10.0.3 (+ SuperOffice 8.5 R17).
 
