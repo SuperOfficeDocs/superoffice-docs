@@ -57,4 +57,4 @@ All SuperOffice customers can visit the App Store. There are no geographical lim
 
 <!-- Referenced links -->
 [1]: provisioning/index.md
-[2]: https://online.superoffice.com/appstore/superoffice-as
+[2]: https://appstore.superoffice.com/superoffice-as
