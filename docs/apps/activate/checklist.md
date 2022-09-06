@@ -34,7 +34,7 @@ If the subscription is discontinued, any custom applications will lose access to
 
 ## Limit your searches
 
-* API calls don't choke the database
+* API calls don't choke the database, see [best practices][5]
 * Ensure the user types at least 3 characters before you start searching for contacts, persons, email addresses, selections, and similar
 * No more than 10 API calls per second
 
@@ -63,3 +63,4 @@ If the subscription is discontinued, any custom applications will lose access to
 [2]: ../provisioning/consent.md
 [3]: ../tenant-status/check-status.md
 [4]: validate-app.md
+[5]: ../best-practices.md

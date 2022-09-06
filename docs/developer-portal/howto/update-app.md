@@ -16,7 +16,7 @@ so.client: online
 |---|---|---|
 | App Store information only | [Update app page][1] |
 | New software version | Release the new software; [optionally update app page][1]. | The new application code must be running in your cloud.<br />Changes should have been tested in SOD.<br />Ensure provisioning handles any changes. |
-| Technical specification | [Update app configuration][2] | Request to publish the configuration. Changes might trigger re-certification and renewal of consent. |
+| Technical specification | [Update app configuration][2] | Request to publish the configuration. The configuration cannot be used in the requested environment before it is approved. Changes might trigger re-certification and renewal of consent. |
 
 > [!CAUTION]
 > If you add database mirroring or webhooks, the tenant administrator must renew the consent to your application. **Users will be locked out from when the change happens until the consent has been given.**
