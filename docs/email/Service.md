@@ -113,7 +113,8 @@ b)
 </details>
 
 
-#### How to use OAuth 2.0 in SuperOffice Service?
+#### How to use OAuth 2.0 in SuperOffice Service
+
 
 Next time you create a mailbox in SuperOffice Service, add your Microsoft 365 (Microsoft® Exchange Online) email account, and you will be redirected to Microsoft for authentication:
 
