@@ -71,4 +71,4 @@ During approval, the customer's administrator should accept the following change
 
 <!-- Referenced images -->
 [img1]: media/appvendorconsultants.png
-[img2]: media/image5n4c.png
+[img2]: media/installed-apps.png
