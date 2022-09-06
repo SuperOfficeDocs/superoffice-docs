@@ -40,7 +40,7 @@ items:
   nameWithType: HtmlElement.#ctor
   fullName: CRMScript.Native.HtmlElement.#ctor
   type: Constructor
-  summary: "\nInitializes a new instance of the Html class.\n"
+  summary: "\nInitializes a new instance of the HtmlElement class.\n"
   remarks: 
   syntax: 
     content: HtmlElement
