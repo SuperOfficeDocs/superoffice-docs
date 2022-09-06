@@ -1,0 +1,3791 @@
+{
+  "openapi": "3.0.1",
+  "info": {
+    "title": "SuperOffice.RestQuoteServer",
+    "version": "1.0"
+  },
+  "paths": {
+    "/GetConfigurationFields": {
+      "post": {
+        "tags": [
+          "QuoteContract"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "object",
+                  "additionalProperties": {
+                    "$ref": "#/components/schemas/FieldMetadataInfo"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "additionalProperties": {
+                    "$ref": "#/components/schemas/FieldMetadataInfo"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "object",
+                  "additionalProperties": {
+                    "$ref": "#/components/schemas/FieldMetadataInfo"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/TestConnection": {
+      "post": {
+        "tags": [
+          "QuoteContract"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/TestConnectionRequest"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/TestConnectionRequest"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/TestConnectionRequest"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/PluginResponseInfo"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/PluginResponseInfo"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/PluginResponseInfo"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/GetCapabilities": {
+      "post": {
+        "tags": [
+          "QuoteContract"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "object",
+                  "additionalProperties": {
+                    "type": "boolean"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "additionalProperties": {
+                    "type": "boolean"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "object",
+                  "additionalProperties": {
+                    "type": "boolean"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/FindProduct": {
+      "post": {
+        "tags": [
+          "QuoteContract"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/FindProductRequest"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/FindProductRequest"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/FindProductRequest"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/ProdInfo"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/ProdInfo"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/ProdInfo"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/GetActivePriceLists": {
+      "post": {
+        "tags": [
+          "QuoteContract"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/GetActivePriceListsRequest"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/GetActivePriceListsRequest"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/GetActivePriceListsRequest"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/PriceListInfo"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/PriceListInfo"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/PriceListInfo"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/GetAddresses": {
+      "post": {
+        "tags": [
+          "QuoteContract"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/GetAddressesRequest"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/GetAddressesRequest"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/GetAddressesRequest"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/AddressInfo"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/AddressInfo"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/AddressInfo"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/GetAllPriceLists": {
+      "post": {
+        "tags": [
+          "QuoteContract"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/GetAllPriceListsRequest"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/GetAllPriceListsRequest"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/GetAllPriceListsRequest"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/PriceListInfo"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/PriceListInfo"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/PriceListInfo"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/GetNumberOfProductImages": {
+      "post": {
+        "tags": [
+          "QuoteContract"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/GetNumberOfProductImagesRequest"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/GetNumberOfProductImagesRequest"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/GetNumberOfProductImagesRequest"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "integer",
+                  "format": "int32"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "integer",
+                  "format": "int32"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "integer",
+                  "format": "int32"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/GetOrderState": {
+      "post": {
+        "tags": [
+          "QuoteContract"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/GetOrderStateRequest"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/GetOrderStateRequest"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/GetOrderStateRequest"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/OrderResponseInfo"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/OrderResponseInfo"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/OrderResponseInfo"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/GetProduct": {
+      "post": {
+        "tags": [
+          "QuoteContract"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/GetProductRequest"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/GetProductRequest"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/GetProductRequest"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/ProdInfo"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ProdInfo"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ProdInfo"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/GetProductImage": {
+      "post": {
+        "tags": [
+          "QuoteContract"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/GetProductImageRequest"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/GetProductImageRequest"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/GetProductImageRequest"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "string"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "string"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/GetProducts": {
+      "post": {
+        "tags": [
+          "QuoteContract"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/GetProductsRequest"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/GetProductsRequest"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/GetProductsRequest"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/ProdInfo"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/ProdInfo"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/ProdInfo"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/GetQuoteLinesFromProduct": {
+      "post": {
+        "tags": [
+          "QuoteContract"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/GetQuoteLinesFromProductRequest"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/GetQuoteLinesFromProductRequest"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/GetQuoteLinesFromProductRequest"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/QuoteLineInfo"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/QuoteLineInfo"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/QuoteLineInfo"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/GetQuoteList": {
+      "post": {
+        "tags": [
+          "QuoteContract"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/GetQuoteListRequest"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/GetQuoteListRequest"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/GetQuoteListRequest"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/ListItemInfo"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/ListItemInfo"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/ListItemInfo"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/GetSearchableFields": {
+      "post": {
+        "tags": [
+          "QuoteContract"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/FieldMetadataInfo"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/FieldMetadataInfo"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/FieldMetadataInfo"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/GetSearchResults": {
+      "post": {
+        "tags": [
+          "QuoteContract"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/GetSearchResultsRequest"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/GetSearchResultsRequest"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/GetSearchResultsRequest"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/ProdInfo"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/ProdInfo"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/ProdInfo"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/OnAfterSaveQuote": {
+      "post": {
+        "tags": [
+          "QuoteContract"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/OnAfterSaveQuoteRequest"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/OnAfterSaveQuoteRequest"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/OnAfterSaveQuoteRequest"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/OnAfterSentQuoteVersion": {
+      "post": {
+        "tags": [
+          "QuoteContract"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/OnAfterSentQuoteVersionRequest"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/OnAfterSentQuoteVersionRequest"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/OnAfterSentQuoteVersionRequest"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/QuoteSentResponseInfo"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/QuoteSentResponseInfo"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/QuoteSentResponseInfo"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/OnBeforeCreateQuote": {
+      "post": {
+        "tags": [
+          "QuoteContract"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/OnBeforeCreateQuoteRequest"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/OnBeforeCreateQuoteRequest"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/OnBeforeCreateQuoteRequest"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/QuoteResponseInfo"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/QuoteResponseInfo"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/QuoteResponseInfo"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/OnBeforeCreateQuoteAlternative": {
+      "post": {
+        "tags": [
+          "QuoteContract"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/OnBeforeCreateQuoteAlternativeRequest"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/OnBeforeCreateQuoteAlternativeRequest"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/OnBeforeCreateQuoteAlternativeRequest"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/QuoteAlternativeResponseInfo"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/QuoteAlternativeResponseInfo"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/QuoteAlternativeResponseInfo"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/OnBeforeCreateQuoteVersion": {
+      "post": {
+        "tags": [
+          "QuoteContract"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/OnBeforeCreateQuoteVersionRequest"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/OnBeforeCreateQuoteVersionRequest"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/OnBeforeCreateQuoteVersionRequest"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/QuoteVersionResponseInfo"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/QuoteVersionResponseInfo"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/QuoteVersionResponseInfo"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/OnBeforeDeleteQuote": {
+      "post": {
+        "tags": [
+          "QuoteContract"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/OnBeforeDeleteQuoteRequest"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/OnBeforeDeleteQuoteRequest"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/OnBeforeDeleteQuoteRequest"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/OnQuoteLineChanged": {
+      "post": {
+        "tags": [
+          "QuoteContract"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/OnQuoteLineChangedRequest"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/OnQuoteLineChangedRequest"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/OnQuoteLineChangedRequest"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/QuoteLineInfo"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/QuoteLineInfo"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/QuoteLineInfo"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/PlaceOrder": {
+      "post": {
+        "tags": [
+          "QuoteContract"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/PlaceOrderRequest"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/PlaceOrderRequest"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/PlaceOrderRequest"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/PlaceOrderResponseInfo"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/PlaceOrderResponseInfo"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/PlaceOrderResponseInfo"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/RecalculateQuoteAlternative": {
+      "post": {
+        "tags": [
+          "QuoteContract"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/RecalculateQuoteAlternativeRequest"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/RecalculateQuoteAlternativeRequest"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/RecalculateQuoteAlternativeRequest"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/QuoteAlternativeWithLinesInfo"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/QuoteAlternativeWithLinesInfo"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/QuoteAlternativeWithLinesInfo"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/UpdateQuoteVersionPrices": {
+      "post": {
+        "tags": [
+          "QuoteContract"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/UpdateQuoteVersionPricesRequest"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/UpdateQuoteVersionPricesRequest"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/UpdateQuoteVersionPricesRequest"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/QuoteVersionResponseInfo"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/QuoteVersionResponseInfo"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/QuoteVersionResponseInfo"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/ValidateQuoteVersion": {
+      "post": {
+        "tags": [
+          "QuoteContract"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ValidateQuoteVersionRequest"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ValidateQuoteVersionRequest"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/ValidateQuoteVersionRequest"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/QuoteResponseInfo"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/QuoteResponseInfo"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/QuoteResponseInfo"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "AddressInfo": {
+        "type": "object",
+        "properties": {
+          "AddressLine1": {
+            "type": "string",
+            "nullable": true
+          },
+          "AddressLine2": {
+            "type": "string",
+            "nullable": true
+          },
+          "AddressLine3": {
+            "type": "string",
+            "nullable": true
+          },
+          "City": {
+            "type": "string",
+            "nullable": true
+          },
+          "ZipCode": {
+            "type": "string",
+            "nullable": true
+          },
+          "CountryCode": {
+            "type": "string",
+            "nullable": true
+          },
+          "Country": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "ContactInfo3": {
+        "type": "object",
+        "properties": {
+          "CustomFields": {
+            "type": "object",
+            "additionalProperties": {
+              "type": "string"
+            },
+            "nullable": true
+          },
+          "SupportPersonId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "SupportPersonName": {
+            "type": "string",
+            "nullable": true
+          },
+          "ContactId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "Name": {
+            "type": "string",
+            "nullable": true
+          },
+          "Department": {
+            "type": "string",
+            "nullable": true
+          },
+          "OrganisationNumber": {
+            "type": "string",
+            "nullable": true
+          },
+          "Phone": {
+            "type": "string",
+            "nullable": true
+          },
+          "PhoneId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "Fax": {
+            "type": "string",
+            "nullable": true
+          },
+          "FaxId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "FaxStripped": {
+            "type": "string",
+            "nullable": true
+          },
+          "EMail": {
+            "type": "string",
+            "nullable": true
+          },
+          "EMailId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "Web": {
+            "type": "string",
+            "nullable": true
+          },
+          "WebId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "AddressLine1": {
+            "type": "string",
+            "nullable": true
+          },
+          "PostalAddressLine1": {
+            "type": "string",
+            "nullable": true
+          },
+          "PostalAddressLine2": {
+            "type": "string",
+            "nullable": true
+          },
+          "PostalAddressLine3": {
+            "type": "string",
+            "nullable": true
+          },
+          "PostalAddressCity": {
+            "type": "string",
+            "nullable": true
+          },
+          "PostalAddressCityFull": {
+            "type": "string",
+            "nullable": true
+          },
+          "PostalAddressZip": {
+            "type": "string",
+            "nullable": true
+          },
+          "PostalAddressPrefix": {
+            "type": "string",
+            "nullable": true
+          },
+          "PostalAddressState": {
+            "type": "string",
+            "nullable": true
+          },
+          "PostalAddressZipCity": {
+            "type": "string",
+            "nullable": true
+          },
+          "PostalAddressCounty": {
+            "type": "string",
+            "nullable": true
+          },
+          "StreetAddressLine1": {
+            "type": "string",
+            "nullable": true
+          },
+          "StreetAddressLine2": {
+            "type": "string",
+            "nullable": true
+          },
+          "StreetAddressLine3": {
+            "type": "string",
+            "nullable": true
+          },
+          "StreetAddressCityFull": {
+            "type": "string",
+            "nullable": true
+          },
+          "StreetAddressCity": {
+            "type": "string",
+            "nullable": true
+          },
+          "StreetAddressZip": {
+            "type": "string",
+            "nullable": true
+          },
+          "StreetAddressZipGerman": {
+            "type": "string",
+            "nullable": true
+          },
+          "PostalAddressLine1And3": {
+            "type": "string",
+            "nullable": true
+          },
+          "StreetAddressState": {
+            "type": "string",
+            "nullable": true
+          },
+          "LineFeedAustraliaUK": {
+            "type": "string",
+            "nullable": true
+          },
+          "LineFeedGermany": {
+            "type": "string",
+            "nullable": true
+          },
+          "Category": {
+            "type": "string",
+            "nullable": true
+          },
+          "Business": {
+            "type": "string",
+            "nullable": true
+          },
+          "CountryCode": {
+            "type": "string",
+            "nullable": true
+          },
+          "Country": {
+            "type": "string",
+            "nullable": true
+          },
+          "Country2": {
+            "type": "string",
+            "nullable": true
+          },
+          "CountryId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "CountryEnglish": {
+            "type": "string",
+            "nullable": true
+          },
+          "County": {
+            "type": "string",
+            "nullable": true
+          },
+          "PostCode": {
+            "type": "string",
+            "nullable": true
+          },
+          "CountyZipUK": {
+            "type": "string",
+            "nullable": true
+          },
+          "OurContact": {
+            "type": "string",
+            "nullable": true
+          },
+          "Code": {
+            "type": "string",
+            "nullable": true
+          },
+          "Number": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "ExtraDataFieldTypeInfo": {
+        "enum": [
+          0,
+          1,
+          2
+        ],
+        "type": "integer",
+        "format": "int32"
+      },
+      "FieldAccessInfo": {
+        "enum": [
+          0,
+          1,
+          2
+        ],
+        "type": "integer",
+        "format": "int32"
+      },
+      "FieldMetadataInfo": {
+        "type": "object",
+        "properties": {
+          "FieldKey": {
+            "type": "string",
+            "nullable": true
+          },
+          "DisplayName": {
+            "type": "string",
+            "nullable": true
+          },
+          "DisplayDescription": {
+            "type": "string",
+            "nullable": true
+          },
+          "FieldType": {
+            "$ref": "#/components/schemas/FieldMetadataTypeInfo"
+          },
+          "ListName": {
+            "type": "string",
+            "nullable": true
+          },
+          "DefaultValue": {
+            "type": "string",
+            "nullable": true
+          },
+          "Rank": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "MaxLength": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "Access": {
+            "$ref": "#/components/schemas/FieldAccessInfo"
+          }
+        },
+        "additionalProperties": false
+      },
+      "FieldMetadataTypeInfo": {
+        "enum": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          99
+        ],
+        "type": "integer",
+        "format": "int32"
+      },
+      "FindProductRequest": {
+        "type": "object",
+        "properties": {
+          "Context": {
+            "$ref": "#/components/schemas/QuoteAlternativeContextInfo2"
+          },
+          "CurrencyCode": {
+            "type": "string",
+            "nullable": true
+          },
+          "UserInput": {
+            "type": "string",
+            "nullable": true
+          },
+          "PriceListKey": {
+            "type": "string",
+            "nullable": true
+          },
+          "ConfigValues": {
+            "type": "object",
+            "additionalProperties": {
+              "type": "string"
+            },
+            "nullable": true
+          },
+          "ConnectionInfo": {
+            "$ref": "#/components/schemas/QuoteConnectionInfo"
+          }
+        },
+        "additionalProperties": false
+      },
+      "ForeignKeyInfo": {
+        "type": "object",
+        "properties": {
+          "Key": {
+            "type": "string",
+            "nullable": true
+          },
+          "Value": {
+            "type": "string",
+            "nullable": true
+          },
+          "RecordId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "TableName": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "GetActivePriceListsRequest": {
+        "type": "object",
+        "properties": {
+          "IsoCurrencyCode": {
+            "type": "string",
+            "nullable": true
+          },
+          "ConfigValues": {
+            "type": "object",
+            "additionalProperties": {
+              "type": "string"
+            },
+            "nullable": true
+          },
+          "ConnectionInfo": {
+            "$ref": "#/components/schemas/QuoteConnectionInfo"
+          }
+        },
+        "additionalProperties": false
+      },
+      "GetAddressesRequest": {
+        "type": "object",
+        "properties": {
+          "Context": {
+            "$ref": "#/components/schemas/QuoteAlternativeContextInfo2"
+          },
+          "ConfigValues": {
+            "type": "object",
+            "additionalProperties": {
+              "type": "string"
+            },
+            "nullable": true
+          },
+          "ConnectionInfo": {
+            "$ref": "#/components/schemas/QuoteConnectionInfo"
+          }
+        },
+        "additionalProperties": false
+      },
+      "GetAllPriceListsRequest": {
+        "type": "object",
+        "properties": {
+          "IsoCurrencyCode": {
+            "type": "string",
+            "nullable": true
+          },
+          "ConfigValues": {
+            "type": "object",
+            "additionalProperties": {
+              "type": "string"
+            },
+            "nullable": true
+          },
+          "ConnectionInfo": {
+            "$ref": "#/components/schemas/QuoteConnectionInfo"
+          }
+        },
+        "additionalProperties": false
+      },
+      "GetNumberOfProductImagesRequest": {
+        "type": "object",
+        "properties": {
+          "ErpProductKey": {
+            "type": "string",
+            "nullable": true
+          },
+          "ConfigValues": {
+            "type": "object",
+            "additionalProperties": {
+              "type": "string"
+            },
+            "nullable": true
+          },
+          "ConnectionInfo": {
+            "$ref": "#/components/schemas/QuoteConnectionInfo"
+          }
+        },
+        "additionalProperties": false
+      },
+      "GetOrderStateRequest": {
+        "type": "object",
+        "properties": {
+          "Context": {
+            "$ref": "#/components/schemas/QuoteAlternativeContextInfo2"
+          },
+          "ConfigValues": {
+            "type": "object",
+            "additionalProperties": {
+              "type": "string"
+            },
+            "nullable": true
+          },
+          "ConnectionInfo": {
+            "$ref": "#/components/schemas/QuoteConnectionInfo"
+          }
+        },
+        "additionalProperties": false
+      },
+      "GetProductImageRequest": {
+        "type": "object",
+        "properties": {
+          "ErpProductKey": {
+            "type": "string",
+            "nullable": true
+          },
+          "Rank": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "ConfigValues": {
+            "type": "object",
+            "additionalProperties": {
+              "type": "string"
+            },
+            "nullable": true
+          },
+          "ConnectionInfo": {
+            "$ref": "#/components/schemas/QuoteConnectionInfo"
+          }
+        },
+        "additionalProperties": false
+      },
+      "GetProductRequest": {
+        "type": "object",
+        "properties": {
+          "Context": {
+            "$ref": "#/components/schemas/QuoteAlternativeContextInfo2"
+          },
+          "ErpProductKey": {
+            "type": "string",
+            "nullable": true
+          },
+          "ConfigValues": {
+            "type": "object",
+            "additionalProperties": {
+              "type": "string"
+            },
+            "nullable": true
+          },
+          "ConnectionInfo": {
+            "$ref": "#/components/schemas/QuoteConnectionInfo"
+          }
+        },
+        "additionalProperties": false
+      },
+      "GetProductsRequest": {
+        "type": "object",
+        "properties": {
+          "Context": {
+            "$ref": "#/components/schemas/QuoteAlternativeContextInfo2"
+          },
+          "ErpProductKeys": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "nullable": true
+          },
+          "ConfigValues": {
+            "type": "object",
+            "additionalProperties": {
+              "type": "string"
+            },
+            "nullable": true
+          },
+          "ConnectionInfo": {
+            "$ref": "#/components/schemas/QuoteConnectionInfo"
+          }
+        },
+        "additionalProperties": false
+      },
+      "GetQuoteLinesFromProductRequest": {
+        "type": "object",
+        "properties": {
+          "Context": {
+            "$ref": "#/components/schemas/QuoteAlternativeContextInfo2"
+          },
+          "ErpProductKey": {
+            "type": "string",
+            "nullable": true
+          },
+          "ConfigValues": {
+            "type": "object",
+            "additionalProperties": {
+              "type": "string"
+            },
+            "nullable": true
+          },
+          "ConnectionInfo": {
+            "$ref": "#/components/schemas/QuoteConnectionInfo"
+          }
+        },
+        "additionalProperties": false
+      },
+      "GetQuoteListRequest": {
+        "type": "object",
+        "properties": {
+          "QuoteListType": {
+            "type": "string",
+            "nullable": true
+          },
+          "ConfigValues": {
+            "type": "object",
+            "additionalProperties": {
+              "type": "string"
+            },
+            "nullable": true
+          },
+          "ConnectionInfo": {
+            "$ref": "#/components/schemas/QuoteConnectionInfo"
+          }
+        },
+        "additionalProperties": false
+      },
+      "GetSearchResultsRequest": {
+        "type": "object",
+        "properties": {
+          "Restrictions": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/SearchRestrictionInfo"
+            },
+            "nullable": true
+          },
+          "ConfigValues": {
+            "type": "object",
+            "additionalProperties": {
+              "type": "string"
+            },
+            "nullable": true
+          },
+          "ConnectionInfo": {
+            "$ref": "#/components/schemas/QuoteConnectionInfo"
+          }
+        },
+        "additionalProperties": false
+      },
+      "ListItemInfo": {
+        "type": "object",
+        "properties": {
+          "ERPQuoteListItemKey": {
+            "type": "string",
+            "nullable": true
+          },
+          "DisplayValue": {
+            "type": "string",
+            "nullable": true
+          },
+          "DisplayDescription": {
+            "type": "string",
+            "nullable": true
+          },
+          "Icon": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "OnAfterSaveQuoteRequest": {
+        "type": "object",
+        "properties": {
+          "Context": {
+            "$ref": "#/components/schemas/QuoteAlternativeContextInfo2"
+          },
+          "ConfigValues": {
+            "type": "object",
+            "additionalProperties": {
+              "type": "string"
+            },
+            "nullable": true
+          },
+          "ConnectionInfo": {
+            "$ref": "#/components/schemas/QuoteConnectionInfo"
+          }
+        },
+        "additionalProperties": false
+      },
+      "OnAfterSentQuoteVersionRequest": {
+        "type": "object",
+        "properties": {
+          "QuoteContext": {
+            "$ref": "#/components/schemas/QuoteVersionContextInfo2"
+          },
+          "ConfigValues": {
+            "type": "object",
+            "additionalProperties": {
+              "type": "string"
+            },
+            "nullable": true
+          },
+          "ConnectionInfo": {
+            "$ref": "#/components/schemas/QuoteConnectionInfo"
+          }
+        },
+        "additionalProperties": false
+      },
+      "OnBeforeCreateQuoteAlternativeRequest": {
+        "type": "object",
+        "properties": {
+          "Context": {
+            "$ref": "#/components/schemas/QuoteAlternativeContextInfo2"
+          },
+          "ConfigValues": {
+            "type": "object",
+            "additionalProperties": {
+              "type": "string"
+            },
+            "nullable": true
+          },
+          "ConnectionInfo": {
+            "$ref": "#/components/schemas/QuoteConnectionInfo"
+          }
+        },
+        "additionalProperties": false
+      },
+      "OnBeforeCreateQuoteRequest": {
+        "type": "object",
+        "properties": {
+          "Context": {
+            "$ref": "#/components/schemas/QuoteAlternativeContextInfo2"
+          },
+          "ConfigValues": {
+            "type": "object",
+            "additionalProperties": {
+              "type": "string"
+            },
+            "nullable": true
+          },
+          "ConnectionInfo": {
+            "$ref": "#/components/schemas/QuoteConnectionInfo"
+          }
+        },
+        "additionalProperties": false
+      },
+      "OnBeforeCreateQuoteVersionRequest": {
+        "type": "object",
+        "properties": {
+          "QuoteContext": {
+            "$ref": "#/components/schemas/QuoteVersionContextInfo2"
+          },
+          "ConfigValues": {
+            "type": "object",
+            "additionalProperties": {
+              "type": "string"
+            },
+            "nullable": true
+          },
+          "ConnectionInfo": {
+            "$ref": "#/components/schemas/QuoteConnectionInfo"
+          }
+        },
+        "additionalProperties": false
+      },
+      "OnBeforeDeleteQuoteRequest": {
+        "type": "object",
+        "properties": {
+          "Quote": {
+            "$ref": "#/components/schemas/QuoteInfo"
+          },
+          "Sale": {
+            "$ref": "#/components/schemas/SaleInfo3"
+          },
+          "Contact": {
+            "$ref": "#/components/schemas/ContactInfo3"
+          },
+          "ConfigValues": {
+            "type": "object",
+            "additionalProperties": {
+              "type": "string"
+            },
+            "nullable": true
+          },
+          "ConnectionInfo": {
+            "$ref": "#/components/schemas/QuoteConnectionInfo"
+          }
+        },
+        "additionalProperties": false
+      },
+      "OnQuoteLineChangedRequest": {
+        "type": "object",
+        "properties": {
+          "Context": {
+            "$ref": "#/components/schemas/QuoteAlternativeContextInfo2"
+          },
+          "QuoteLine": {
+            "$ref": "#/components/schemas/QuoteLineInfo"
+          },
+          "ChangedFields": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "nullable": true
+          },
+          "ConfigValues": {
+            "type": "object",
+            "additionalProperties": {
+              "type": "string"
+            },
+            "nullable": true
+          },
+          "ConnectionInfo": {
+            "$ref": "#/components/schemas/QuoteConnectionInfo"
+          }
+        },
+        "additionalProperties": false
+      },
+      "OrderResponseInfo": {
+        "type": "object",
+        "properties": {
+          "State": {
+            "$ref": "#/components/schemas/ResponseState"
+          },
+          "IsOk": {
+            "type": "boolean"
+          },
+          "UserExplanation": {
+            "type": "string",
+            "nullable": true
+          },
+          "TechExplanation": {
+            "type": "string",
+            "nullable": true
+          },
+          "ErrorCode": {
+            "type": "string",
+            "nullable": true
+          },
+          "CRMQuote": {
+            "$ref": "#/components/schemas/QuoteInfo"
+          },
+          "CRMQuoteVersion": {
+            "$ref": "#/components/schemas/QuoteVersionInfo"
+          },
+          "CRMAlternativeWithLines": {
+            "$ref": "#/components/schemas/QuoteAlternativeWithLinesInfo"
+          }
+        },
+        "additionalProperties": false
+      },
+      "PersonInfo3": {
+        "type": "object",
+        "properties": {
+          "CustomFields": {
+            "type": "object",
+            "additionalProperties": {
+              "type": "string"
+            },
+            "nullable": true
+          },
+          "Retired": {
+            "type": "boolean"
+          },
+          "PreferredLanguageId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "ServicePriority": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "ServiceContactId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "ServiceContactName": {
+            "type": "string",
+            "nullable": true
+          },
+          "PersonId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "AssociateId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "ContactId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "Department": {
+            "type": "string",
+            "nullable": true
+          },
+          "MrMrs": {
+            "type": "string",
+            "nullable": true
+          },
+          "FirstName": {
+            "type": "string",
+            "nullable": true
+          },
+          "MiddleName": {
+            "type": "string",
+            "nullable": true
+          },
+          "MiddleName2": {
+            "type": "string",
+            "nullable": true
+          },
+          "LastName": {
+            "type": "string",
+            "nullable": true
+          },
+          "PersonNumber": {
+            "type": "string",
+            "nullable": true
+          },
+          "Title": {
+            "type": "string",
+            "nullable": true
+          },
+          "Salutation": {
+            "type": "string",
+            "nullable": true
+          },
+          "Position": {
+            "type": "string",
+            "nullable": true
+          },
+          "DateOfBirth": {
+            "type": "string",
+            "nullable": true
+          },
+          "MobilePhone": {
+            "type": "string",
+            "nullable": true
+          },
+          "MobilePhoneId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "OfficePhone": {
+            "type": "string",
+            "nullable": true
+          },
+          "OfficePhoneId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "Fax": {
+            "type": "string",
+            "nullable": true
+          },
+          "FaxId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "FaxStripped": {
+            "type": "string",
+            "nullable": true
+          },
+          "PrivatePhone": {
+            "type": "string",
+            "nullable": true
+          },
+          "PrivatePhoneId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "Pager": {
+            "type": "string",
+            "nullable": true
+          },
+          "PagerId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "EMailId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "EMail": {
+            "type": "string",
+            "nullable": true
+          },
+          "ChatId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "Chat": {
+            "type": "string",
+            "nullable": true
+          },
+          "ChatProtocol": {
+            "type": "string",
+            "nullable": true
+          },
+          "VoipId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "Voip": {
+            "type": "string",
+            "nullable": true
+          },
+          "VoipService": {
+            "type": "string",
+            "nullable": true
+          },
+          "Url": {
+            "type": "string",
+            "nullable": true
+          },
+          "UrlId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "Nomailing": {
+            "type": "boolean"
+          },
+          "UsePersonAddress": {
+            "type": "boolean"
+          },
+          "PostalAddressLine1": {
+            "type": "string",
+            "nullable": true
+          },
+          "PostalAddressLine1Extended": {
+            "type": "string",
+            "nullable": true
+          },
+          "PostalAddressLine2": {
+            "type": "string",
+            "nullable": true
+          },
+          "PostalAddressLine3": {
+            "type": "string",
+            "nullable": true
+          },
+          "PostalAddressCity": {
+            "type": "string",
+            "nullable": true
+          },
+          "PostalAddressCityFull": {
+            "type": "string",
+            "nullable": true
+          },
+          "PostalAddressZip": {
+            "type": "string",
+            "nullable": true
+          },
+          "PostalAddressState": {
+            "type": "string",
+            "nullable": true
+          },
+          "PostalAddressCounty": {
+            "type": "string",
+            "nullable": true
+          },
+          "PostalAddressStateAmericaCanadaAustralia": {
+            "type": "string",
+            "nullable": true
+          },
+          "LineFeedGermany": {
+            "type": "string",
+            "nullable": true
+          },
+          "Country": {
+            "type": "string",
+            "nullable": true
+          },
+          "Country2": {
+            "type": "string",
+            "nullable": true
+          },
+          "CountryCode": {
+            "type": "string",
+            "nullable": true
+          },
+          "CountryId": {
+            "type": "integer",
+            "format": "int32"
+          }
+        },
+        "additionalProperties": false
+      },
+      "PlaceOrderRequest": {
+        "type": "object",
+        "properties": {
+          "Context": {
+            "$ref": "#/components/schemas/QuoteAlternativeContextInfo2"
+          },
+          "ConfigValues": {
+            "type": "object",
+            "additionalProperties": {
+              "type": "string"
+            },
+            "nullable": true
+          },
+          "ConnectionInfo": {
+            "$ref": "#/components/schemas/QuoteConnectionInfo"
+          }
+        },
+        "additionalProperties": false
+      },
+      "PlaceOrderResponseInfo": {
+        "type": "object",
+        "properties": {
+          "State": {
+            "$ref": "#/components/schemas/ResponseState"
+          },
+          "IsOk": {
+            "type": "boolean"
+          },
+          "UserExplanation": {
+            "type": "string",
+            "nullable": true
+          },
+          "TechExplanation": {
+            "type": "string",
+            "nullable": true
+          },
+          "ErrorCode": {
+            "type": "string",
+            "nullable": true
+          },
+          "CRMQuote": {
+            "$ref": "#/components/schemas/QuoteInfo"
+          },
+          "CRMQuoteVersion": {
+            "$ref": "#/components/schemas/QuoteVersionInfo"
+          },
+          "CRMAlternativeWithLines": {
+            "$ref": "#/components/schemas/QuoteAlternativeWithLinesInfo"
+          },
+          "Url": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "PluginResponseInfo": {
+        "type": "object",
+        "properties": {
+          "State": {
+            "$ref": "#/components/schemas/ResponseState"
+          },
+          "IsOk": {
+            "type": "boolean"
+          },
+          "UserExplanation": {
+            "type": "string",
+            "nullable": true
+          },
+          "TechExplanation": {
+            "type": "string",
+            "nullable": true
+          },
+          "ErrorCode": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "PriceListInfo": {
+        "type": "object",
+        "properties": {
+          "ERPPriceListKey": {
+            "type": "string",
+            "nullable": true
+          },
+          "QuoteConnectionId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "Name": {
+            "type": "string",
+            "nullable": true
+          },
+          "Description": {
+            "type": "string",
+            "nullable": true
+          },
+          "Currency": {
+            "type": "string",
+            "nullable": true
+          },
+          "CurrencyName": {
+            "type": "string",
+            "nullable": true
+          },
+          "ValidFrom": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "ValidTo": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "IsActive": {
+            "type": "boolean"
+          }
+        },
+        "additionalProperties": false
+      },
+      "ProdInfo": {
+        "type": "object",
+        "properties": {
+          "Id": {
+            "type": "string",
+            "nullable": true
+          },
+          "PriceListKey": {
+            "type": "string",
+            "nullable": true
+          },
+          "Name": {
+            "type": "string",
+            "nullable": true
+          },
+          "Description": {
+            "type": "string",
+            "nullable": true
+          },
+          "Image": {
+            "type": "string",
+            "nullable": true
+          },
+          "SubParts": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "nullable": true
+          },
+          "Price": {
+            "type": "number",
+            "format": "double"
+          },
+          "Cost": {
+            "type": "number",
+            "format": "double"
+          }
+        },
+        "additionalProperties": false
+      },
+      "ProductExtraDataFieldInfo": {
+        "type": "object",
+        "properties": {
+          "Name": {
+            "type": "string",
+            "nullable": true
+          },
+          "Value": {
+            "type": "string",
+            "nullable": true
+          },
+          "Type": {
+            "$ref": "#/components/schemas/ExtraDataFieldTypeInfo"
+          }
+        },
+        "additionalProperties": false
+      },
+      "ProjectInfo3": {
+        "type": "object",
+        "properties": {
+          "CustomFields": {
+            "type": "object",
+            "additionalProperties": {
+              "type": "string"
+            },
+            "nullable": true
+          },
+          "HasGuide": {
+            "type": "boolean"
+          },
+          "ProjectEndDate": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "NextMileStoneAppointmentId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "NextMilestoneDate": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "InfoText": {
+            "type": "string",
+            "nullable": true
+          },
+          "ProjectId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "Name": {
+            "type": "string",
+            "nullable": true
+          },
+          "Description": {
+            "type": "string",
+            "nullable": true
+          },
+          "Manager": {
+            "type": "string",
+            "nullable": true
+          },
+          "Number": {
+            "type": "string",
+            "nullable": true
+          },
+          "EventDate": {
+            "type": "string",
+            "nullable": true
+          },
+          "PublishStartDate": {
+            "type": "string",
+            "nullable": true
+          },
+          "PublishEndDate": {
+            "type": "string",
+            "nullable": true
+          },
+          "Status": {
+            "type": "string",
+            "nullable": true
+          },
+          "Type": {
+            "type": "string",
+            "nullable": true
+          },
+          "Web": {
+            "type": "string",
+            "nullable": true
+          },
+          "WebId": {
+            "type": "integer",
+            "format": "int32"
+          }
+        },
+        "additionalProperties": false
+      },
+      "QuoteAction": {
+        "enum": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "type": "integer",
+        "format": "int32"
+      },
+      "QuoteAlternativeContextInfo2": {
+        "type": "object",
+        "properties": {
+          "CRMAssociate": {
+            "$ref": "#/components/schemas/UserInfo2"
+          },
+          "CRMCompany": {
+            "$ref": "#/components/schemas/ContactInfo3"
+          },
+          "CRMPerson": {
+            "$ref": "#/components/schemas/PersonInfo3"
+          },
+          "CRMProject": {
+            "$ref": "#/components/schemas/ProjectInfo3"
+          },
+          "CRMSale": {
+            "$ref": "#/components/schemas/SaleInfo3"
+          },
+          "CRMForeignKeys": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/ForeignKeyInfo"
+            },
+            "nullable": true
+          },
+          "CRMQuote": {
+            "$ref": "#/components/schemas/QuoteInfo"
+          },
+          "CRMQuoteVersion": {
+            "$ref": "#/components/schemas/QuoteVersionInfo"
+          },
+          "InvoiceAddress": {
+            "$ref": "#/components/schemas/AddressInfo"
+          },
+          "DeliveryAddress": {
+            "$ref": "#/components/schemas/AddressInfo"
+          },
+          "EISConnectionId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "EISConnectionGuid": {
+            "type": "string",
+            "nullable": true
+          },
+          "ERPCompanyKey": {
+            "type": "string",
+            "nullable": true
+          },
+          "ERPPersonKey": {
+            "type": "string",
+            "nullable": true
+          },
+          "ERPProjectKey": {
+            "type": "string",
+            "nullable": true
+          },
+          "ERPSaleKey": {
+            "type": "string",
+            "nullable": true
+          },
+          "UserLanguageCode": {
+            "type": "string",
+            "nullable": true
+          },
+          "CRMAlternativeWithLines": {
+            "$ref": "#/components/schemas/QuoteAlternativeWithLinesInfo"
+          }
+        },
+        "additionalProperties": false
+      },
+      "QuoteAlternativeInfo": {
+        "type": "object",
+        "properties": {
+          "QuoteAlternativeId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "ERPQuoteAlternativeKey": {
+            "type": "string",
+            "nullable": true
+          },
+          "QuoteVersionId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "Name": {
+            "type": "string",
+            "nullable": true
+          },
+          "Description": {
+            "type": "string",
+            "nullable": true
+          },
+          "Status": {
+            "$ref": "#/components/schemas/QuoteStatusInfo"
+          },
+          "Reason": {
+            "type": "string",
+            "nullable": true
+          },
+          "ERPDiscountPercent": {
+            "type": "number",
+            "format": "double"
+          },
+          "ERPDiscountAmount": {
+            "type": "number",
+            "format": "double"
+          },
+          "DiscountPercent": {
+            "type": "number",
+            "format": "double"
+          },
+          "DiscountAmount": {
+            "type": "number",
+            "format": "double"
+          },
+          "UserValueOverride": {
+            "$ref": "#/components/schemas/ValueOverrideInfo"
+          },
+          "VATInfo": {
+            "type": "string",
+            "nullable": true
+          },
+          "VAT": {
+            "type": "number",
+            "format": "double"
+          },
+          "EarningAmount": {
+            "type": "number",
+            "format": "double"
+          },
+          "EarningPercent": {
+            "type": "number",
+            "format": "double"
+          },
+          "SubTotal": {
+            "type": "number",
+            "format": "double"
+          },
+          "TotalPrice": {
+            "type": "number",
+            "format": "double"
+          },
+          "ExtraField1": {
+            "type": "string",
+            "nullable": true
+          },
+          "ExtraField2": {
+            "type": "string",
+            "nullable": true
+          },
+          "ExtraField3": {
+            "type": "string",
+            "nullable": true
+          },
+          "ExtraField4": {
+            "type": "string",
+            "nullable": true
+          },
+          "ExtraField5": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "QuoteAlternativeResponseInfo": {
+        "type": "object",
+        "properties": {
+          "State": {
+            "$ref": "#/components/schemas/ResponseState"
+          },
+          "IsOk": {
+            "type": "boolean"
+          },
+          "UserExplanation": {
+            "type": "string",
+            "nullable": true
+          },
+          "TechExplanation": {
+            "type": "string",
+            "nullable": true
+          },
+          "ErrorCode": {
+            "type": "string",
+            "nullable": true
+          },
+          "CRMAlternativesWithLines": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/QuoteAlternativeWithLinesInfo"
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "QuoteAlternativeWithLinesInfo": {
+        "type": "object",
+        "properties": {
+          "CRMAlternative": {
+            "$ref": "#/components/schemas/QuoteAlternativeInfo"
+          },
+          "CRMQuoteLines": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/QuoteLineInfo"
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "QuoteAlternativeWithLinesInfo2": {
+        "type": "object",
+        "properties": {
+          "CRMAlternative": {
+            "$ref": "#/components/schemas/QuoteAlternativeInfo"
+          },
+          "CRMQuoteLines": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/QuoteLineInfo"
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "QuoteConnectionInfo": {
+        "type": "object",
+        "additionalProperties": false
+      },
+      "QuoteInfo": {
+        "type": "object",
+        "properties": {
+          "QuoteId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "SaleId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "QuoteConnectionId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "ERPQuoteKey": {
+            "type": "string",
+            "nullable": true
+          },
+          "ERPOrderKey": {
+            "type": "string",
+            "nullable": true
+          },
+          "ActiveQuoteVersionId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "AcceptedQuoteAlternativeId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "DocumentId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "PoNumber": {
+            "type": "string",
+            "nullable": true
+          },
+          "OrderComment": {
+            "type": "string",
+            "nullable": true
+          },
+          "PreferredCulture": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "QuoteLineInfo": {
+        "type": "object",
+        "properties": {
+          "ERPProductKey": {
+            "type": "string",
+            "nullable": true
+          },
+          "Name": {
+            "type": "string",
+            "nullable": true
+          },
+          "Description": {
+            "type": "string",
+            "nullable": true
+          },
+          "Code": {
+            "type": "string",
+            "nullable": true
+          },
+          "QuantityUnit": {
+            "type": "string",
+            "nullable": true
+          },
+          "PriceUnit": {
+            "type": "string",
+            "nullable": true
+          },
+          "IsSubscription": {
+            "type": "boolean"
+          },
+          "SubscriptionUnit": {
+            "type": "string",
+            "nullable": true
+          },
+          "ItemNumber": {
+            "type": "string",
+            "nullable": true
+          },
+          "Url": {
+            "type": "string",
+            "nullable": true
+          },
+          "ProductCategoryKey": {
+            "type": "string",
+            "nullable": true
+          },
+          "ProductFamilyKey": {
+            "type": "string",
+            "nullable": true
+          },
+          "ProductTypeKey": {
+            "type": "string",
+            "nullable": true
+          },
+          "Supplier": {
+            "type": "string",
+            "nullable": true
+          },
+          "SupplierCode": {
+            "type": "string",
+            "nullable": true
+          },
+          "Thumbnail": {
+            "type": "string",
+            "nullable": true
+          },
+          "VATInfo": {
+            "type": "string",
+            "nullable": true
+          },
+          "VAT": {
+            "type": "number",
+            "format": "double"
+          },
+          "UnitCost": {
+            "type": "number",
+            "format": "double"
+          },
+          "UnitMinimumPrice": {
+            "type": "number",
+            "format": "double"
+          },
+          "UnitListPrice": {
+            "type": "number",
+            "format": "double"
+          },
+          "ExtraInfo": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/ProductExtraDataFieldInfo"
+            },
+            "nullable": true
+          },
+          "RawExtraInfo": {
+            "type": "string",
+            "nullable": true
+          },
+          "Rights": {
+            "type": "string",
+            "nullable": true
+          },
+          "Rule": {
+            "type": "string",
+            "nullable": true
+          },
+          "ExtraField1": {
+            "type": "string",
+            "nullable": true
+          },
+          "ExtraField2": {
+            "type": "string",
+            "nullable": true
+          },
+          "ExtraField3": {
+            "type": "string",
+            "nullable": true
+          },
+          "ExtraField4": {
+            "type": "string",
+            "nullable": true
+          },
+          "ExtraField5": {
+            "type": "string",
+            "nullable": true
+          },
+          "QuoteLineId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "ERPQuoteLineKey": {
+            "type": "string",
+            "nullable": true
+          },
+          "QuoteAlternativeId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "Status": {
+            "$ref": "#/components/schemas/QuoteStatusInfo"
+          },
+          "Reason": {
+            "type": "string",
+            "nullable": true
+          },
+          "Quantity": {
+            "type": "number",
+            "format": "double"
+          },
+          "SubscriptionQuantity": {
+            "type": "number",
+            "format": "double"
+          },
+          "SubscriptionStart": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "DeliveredQuantity": {
+            "type": "number",
+            "format": "double"
+          },
+          "Rank": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "ERPDiscountAmount": {
+            "type": "number",
+            "format": "double"
+          },
+          "ERPDiscountPercent": {
+            "type": "number",
+            "format": "double"
+          },
+          "DiscountAmount": {
+            "type": "number",
+            "format": "double"
+          },
+          "DiscountPercent": {
+            "type": "number",
+            "format": "double"
+          },
+          "UserValueOverride": {
+            "$ref": "#/components/schemas/ValueOverrideInfo"
+          },
+          "EarningAmount": {
+            "type": "number",
+            "format": "double"
+          },
+          "EarningPercent": {
+            "type": "number",
+            "format": "double"
+          },
+          "SubTotal": {
+            "type": "number",
+            "format": "double"
+          },
+          "TotalPrice": {
+            "type": "number",
+            "format": "double"
+          },
+          "TotalPriceWithAlternativeDiscount": {
+            "type": "number",
+            "format": "double"
+          }
+        },
+        "additionalProperties": false
+      },
+      "QuoteResponseInfo": {
+        "type": "object",
+        "properties": {
+          "State": {
+            "$ref": "#/components/schemas/ResponseState"
+          },
+          "IsOk": {
+            "type": "boolean"
+          },
+          "UserExplanation": {
+            "type": "string",
+            "nullable": true
+          },
+          "TechExplanation": {
+            "type": "string",
+            "nullable": true
+          },
+          "ErrorCode": {
+            "type": "string",
+            "nullable": true
+          },
+          "CRMAlternativesWithLines": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/QuoteAlternativeWithLinesInfo"
+            },
+            "nullable": true
+          },
+          "CRMQuoteVersion": {
+            "$ref": "#/components/schemas/QuoteVersionInfo"
+          },
+          "CRMQuote": {
+            "$ref": "#/components/schemas/QuoteInfo"
+          }
+        },
+        "additionalProperties": false
+      },
+      "QuoteSentResponseInfo": {
+        "type": "object",
+        "properties": {
+          "VersionResponse": {
+            "$ref": "#/components/schemas/QuoteVersionResponseInfo"
+          },
+          "Url": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "QuoteStatusInfo": {
+        "enum": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "type": "integer",
+        "format": "int32"
+      },
+      "QuoteVersionContextInfo2": {
+        "type": "object",
+        "properties": {
+          "CRMAssociate": {
+            "$ref": "#/components/schemas/UserInfo2"
+          },
+          "CRMCompany": {
+            "$ref": "#/components/schemas/ContactInfo3"
+          },
+          "CRMPerson": {
+            "$ref": "#/components/schemas/PersonInfo3"
+          },
+          "CRMProject": {
+            "$ref": "#/components/schemas/ProjectInfo3"
+          },
+          "CRMSale": {
+            "$ref": "#/components/schemas/SaleInfo3"
+          },
+          "CRMForeignKeys": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/ForeignKeyInfo"
+            },
+            "nullable": true
+          },
+          "CRMQuote": {
+            "$ref": "#/components/schemas/QuoteInfo"
+          },
+          "CRMQuoteVersion": {
+            "$ref": "#/components/schemas/QuoteVersionInfo"
+          },
+          "InvoiceAddress": {
+            "$ref": "#/components/schemas/AddressInfo"
+          },
+          "DeliveryAddress": {
+            "$ref": "#/components/schemas/AddressInfo"
+          },
+          "EISConnectionId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "EISConnectionGuid": {
+            "type": "string",
+            "nullable": true
+          },
+          "ERPCompanyKey": {
+            "type": "string",
+            "nullable": true
+          },
+          "ERPPersonKey": {
+            "type": "string",
+            "nullable": true
+          },
+          "ERPProjectKey": {
+            "type": "string",
+            "nullable": true
+          },
+          "ERPSaleKey": {
+            "type": "string",
+            "nullable": true
+          },
+          "UserLanguageCode": {
+            "type": "string",
+            "nullable": true
+          },
+          "CRMAlternativesWithLines": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/QuoteAlternativeWithLinesInfo2"
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "QuoteVersionInfo": {
+        "type": "object",
+        "properties": {
+          "QuoteVersionId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "ERPQuoteVersionKey": {
+            "type": "string",
+            "nullable": true
+          },
+          "QuoteId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "Description": {
+            "type": "string",
+            "nullable": true
+          },
+          "Number": {
+            "type": "string",
+            "nullable": true
+          },
+          "State": {
+            "$ref": "#/components/schemas/QuoteVersionStateInfo"
+          },
+          "ArchivedState": {
+            "$ref": "#/components/schemas/QuoteVersionStateInfo"
+          },
+          "LikelyQuoteAlternativeId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "SentDate": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "FollowupId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "ExpirationDate": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "DeliveryCountryId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "HasOwnDeliveryAddress": {
+            "type": "boolean"
+          },
+          "InvoiceCountryId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "HasOwnInvoiceAddress": {
+            "type": "boolean"
+          },
+          "ERPPaymentTermsKey": {
+            "type": "string",
+            "nullable": true
+          },
+          "ERPPaymentTypeKey": {
+            "type": "string",
+            "nullable": true
+          },
+          "ERPDeliveryTermsKey": {
+            "type": "string",
+            "nullable": true
+          },
+          "ERPDeliveryTypeKey": {
+            "type": "string",
+            "nullable": true
+          },
+          "Rank": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "Status": {
+            "$ref": "#/components/schemas/QuoteStatusInfo"
+          },
+          "Reason": {
+            "type": "string",
+            "nullable": true
+          },
+          "ApprovedBy": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "ApprovedText": {
+            "type": "string",
+            "nullable": true
+          },
+          "ApprovedRegisteredBy": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "ApprovedRegisteredDate": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "ExtraField1": {
+            "type": "string",
+            "nullable": true
+          },
+          "ExtraField2": {
+            "type": "string",
+            "nullable": true
+          },
+          "ExtraField3": {
+            "type": "string",
+            "nullable": true
+          },
+          "ExtraField4": {
+            "type": "string",
+            "nullable": true
+          },
+          "ExtraField5": {
+            "type": "string",
+            "nullable": true
+          },
+          "LastRecalculated": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "Updated": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "RequestAssociateId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "RequestComment": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "QuoteVersionResponseInfo": {
+        "type": "object",
+        "properties": {
+          "State": {
+            "$ref": "#/components/schemas/ResponseState"
+          },
+          "IsOk": {
+            "type": "boolean"
+          },
+          "UserExplanation": {
+            "type": "string",
+            "nullable": true
+          },
+          "TechExplanation": {
+            "type": "string",
+            "nullable": true
+          },
+          "ErrorCode": {
+            "type": "string",
+            "nullable": true
+          },
+          "CRMAlternativesWithLines": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/QuoteAlternativeWithLinesInfo"
+            },
+            "nullable": true
+          },
+          "CRMQuoteVersion": {
+            "$ref": "#/components/schemas/QuoteVersionInfo"
+          }
+        },
+        "additionalProperties": false
+      },
+      "QuoteVersionStateInfo": {
+        "enum": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ],
+        "type": "integer",
+        "format": "int32"
+      },
+      "RecalculateQuoteAlternativeRequest": {
+        "type": "object",
+        "properties": {
+          "Context": {
+            "$ref": "#/components/schemas/QuoteAlternativeContextInfo2"
+          },
+          "ConfigValues": {
+            "type": "object",
+            "additionalProperties": {
+              "type": "string"
+            },
+            "nullable": true
+          },
+          "ConnectionInfo": {
+            "$ref": "#/components/schemas/QuoteConnectionInfo"
+          }
+        },
+        "additionalProperties": false
+      },
+      "ResponseState": {
+        "enum": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "type": "integer",
+        "format": "int32"
+      },
+      "SaleInfo3": {
+        "type": "object",
+        "properties": {
+          "CustomFields": {
+            "type": "object",
+            "additionalProperties": {
+              "type": "string"
+            },
+            "nullable": true
+          },
+          "PublishActiveDate": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "Source": {
+            "type": "string",
+            "nullable": true
+          },
+          "HasGuide": {
+            "type": "boolean"
+          },
+          "HasStakeHolders": {
+            "type": "boolean"
+          },
+          "Earning": {
+            "type": "number",
+            "format": "double"
+          },
+          "EarningPercent": {
+            "type": "number",
+            "format": "double"
+          },
+          "Cost": {
+            "type": "number",
+            "format": "double"
+          },
+          "SaleText": {
+            "type": "string",
+            "nullable": true
+          },
+          "Registered": {
+            "type": "string",
+            "nullable": true
+          },
+          "AssociateId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "CreatedAssociate": {
+            "type": "string",
+            "nullable": true
+          },
+          "SaleId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "Associate": {
+            "type": "string",
+            "nullable": true
+          },
+          "Number": {
+            "type": "string",
+            "nullable": true
+          },
+          "Title": {
+            "type": "string",
+            "nullable": true
+          },
+          "Amount": {
+            "type": "number",
+            "format": "double"
+          },
+          "Currency": {
+            "type": "string",
+            "nullable": true
+          },
+          "PublishStartDate": {
+            "type": "string",
+            "nullable": true
+          },
+          "PublishEndDate": {
+            "type": "string",
+            "nullable": true
+          },
+          "Type": {
+            "type": "string",
+            "nullable": true
+          },
+          "Stage": {
+            "type": "string",
+            "nullable": true
+          },
+          "Credited": {
+            "type": "string",
+            "nullable": true
+          },
+          "Competitor": {
+            "type": "string",
+            "nullable": true
+          },
+          "Probability": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "NextDueDate": {
+            "type": "string",
+            "nullable": true
+          },
+          "Reason": {
+            "type": "string",
+            "nullable": true
+          },
+          "SaleDate": {
+            "type": "string",
+            "nullable": true
+          },
+          "Status": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "SearchRestrictionInfo": {
+        "type": "object",
+        "properties": {
+          "FieldKey": {
+            "type": "string",
+            "nullable": true
+          },
+          "Operator": {
+            "type": "string",
+            "nullable": true
+          },
+          "Values": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "nullable": true
+          },
+          "ScalarValue": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "TestConnectionRequest": {
+        "type": "object",
+        "properties": {
+          "ConfigValues": {
+            "type": "object",
+            "additionalProperties": {
+              "type": "string"
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "UpdateQuoteVersionPricesRequest": {
+        "type": "object",
+        "properties": {
+          "QuoteContext": {
+            "$ref": "#/components/schemas/QuoteVersionContextInfo2"
+          },
+          "WriteableFields": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "nullable": true
+          },
+          "ConfigValues": {
+            "type": "object",
+            "additionalProperties": {
+              "type": "string"
+            },
+            "nullable": true
+          },
+          "ConnectionInfo": {
+            "$ref": "#/components/schemas/QuoteConnectionInfo"
+          }
+        },
+        "additionalProperties": false
+      },
+      "UserInfo2": {
+        "type": "object",
+        "properties": {
+          "AssociateId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "AssociateName": {
+            "type": "string",
+            "nullable": true
+          },
+          "FullName": {
+            "type": "string",
+            "nullable": true
+          },
+          "Email": {
+            "type": "string",
+            "nullable": true
+          },
+          "RoleId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "RoleName": {
+            "type": "string",
+            "nullable": true
+          },
+          "CountryId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "CountryName": {
+            "type": "string",
+            "nullable": true
+          },
+          "CountryDomainName": {
+            "type": "string",
+            "nullable": true
+          },
+          "FunctionRights": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "nullable": true
+          },
+          "Licenses": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "nullable": true
+          },
+          "Ticket": {
+            "type": "string",
+            "nullable": true
+          },
+          "UserName": {
+            "type": "string",
+            "nullable": true
+          },
+          "CustomFields": {
+            "type": "object",
+            "additionalProperties": {
+              "type": "string"
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "ValidateQuoteVersionRequest": {
+        "type": "object",
+        "properties": {
+          "QuoteContext": {
+            "$ref": "#/components/schemas/QuoteVersionContextInfo2"
+          },
+          "Action": {
+            "$ref": "#/components/schemas/QuoteAction"
+          },
+          "ConfigValues": {
+            "type": "object",
+            "additionalProperties": {
+              "type": "string"
+            },
+            "nullable": true
+          },
+          "ConnectionInfo": {
+            "$ref": "#/components/schemas/QuoteConnectionInfo"
+          }
+        },
+        "additionalProperties": false
+      },
+      "ValueOverrideInfo": {
+        "enum": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "type": "integer",
+        "format": "int32"
+      }
+    },
+    "securitySchemes": {
+      "Bearer": {
+        "type": "http",
+        "description": "Authorization header containing an access token returned by the /Authenticate endpoint, using the Bearer scheme.",
+        "scheme": "Bearer",
+        "bearerFormat": "Defined by Server"
+      }
+    }
+  },
+  "security": [
+    {
+      "Bearer": [ ]
+    }
+  ]
+}
