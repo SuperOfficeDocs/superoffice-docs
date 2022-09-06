@@ -42,4 +42,3 @@ Service methods defined on <see cref='T:SuperOffice.CRM.Services.IAudienceAgent'
 * [SetDefaultPersonImage](setdefaultpersonimage.md)
 * [SetDefaultProjectImage](setdefaultprojectimage.md)
 * [SetLogoImage](setlogoimage.md)
-

@@ -69,4 +69,3 @@ The following endpoint interfaces define all web service methods that serve even
 * [UserDefinedFieldInfoAgent](userdefinedfieldinfoagent/index.md)
 * [ViewStateAgent](viewstateagent/index.md)
 * [WebhookAgent](webhookagent/index.md)
-

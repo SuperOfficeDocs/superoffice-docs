@@ -27,4 +27,3 @@ Service methods defined on <see cref='T:SuperOffice.CRM.Services.IBatchAgent'>Ba
 * [StartBatchJob](startbatchjob.md)
 * [StopBatchJob](stopbatchjob.md)
 * [UpdateBatchTask](updatebatchtask.md)
-

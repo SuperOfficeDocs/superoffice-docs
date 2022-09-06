@@ -66,4 +66,3 @@ Service methods defined on <see cref='T:SuperOffice.CRM.Services.IProjectAgent'>
 * [SetProjectImage](setprojectimage.md)
 * [UpdateProjectMember](updateprojectmember.md)
 * [ValidateProjectEntity](validateprojectentity.md)
-

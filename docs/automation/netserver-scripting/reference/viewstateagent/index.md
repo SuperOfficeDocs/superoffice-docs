@@ -30,4 +30,3 @@ Service methods defined on <see cref='T:SuperOffice.CRM.Services.IViewStateAgent
 * [SaveCurrents](savecurrents.md)
 * [SaveHistories](savehistories.md)
 * [SetHistoryLengthPrefValue](sethistorylengthprefvalue.md)
-

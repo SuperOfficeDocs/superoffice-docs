@@ -20,4 +20,3 @@ Service methods defined on <see cref='T:SuperOffice.CRM.Services.IRelationAgent'
 * [DeleteContactRelation](deletecontactrelation.md)
 * [GetContactRelationEntity](getcontactrelationentity.md)
 * [SaveContactRelation](savecontactrelation.md)
-

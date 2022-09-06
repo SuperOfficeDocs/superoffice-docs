@@ -31,4 +31,3 @@ Service methods defined on <see cref='T:SuperOffice.CRM.Services.IDiagnosticsAge
 * [PerformTasksAfterUpgrade](performtasksafterupgrade.md)
 * [ResyncUsers](resyncusers.md)
 * [WebAppUsageExistsInPeriod](webappusageexistsinperiod.md)
-

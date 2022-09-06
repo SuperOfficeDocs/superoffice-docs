@@ -29,4 +29,3 @@ Service methods defined on <see cref='T:SuperOffice.CRM.Services.IPocketAgent'>P
 * [SendPushNotification](sendpushnotification.md)
 * [SetPushNotificationTagsForDevice](setpushnotificationtagsfordevice.md)
 * [SetPushNotificationTagsForUser](setpushnotificationtagsforuser.md)
-

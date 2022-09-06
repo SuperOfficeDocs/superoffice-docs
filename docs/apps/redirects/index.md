@@ -24,7 +24,6 @@ The redirection endpoints are specified when you [register the application][5]. 
 
 [!include[TIP regex](../includes/tip-regex-urls.md)]
 
-
 <!-- Referenced links -->
 [1]: https://tools.ietf.org/html/rfc6749#section-3.1.2
 [2]: ../../api/authentication/online/validate-security-tokens.md

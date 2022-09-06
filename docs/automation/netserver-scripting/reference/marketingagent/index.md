@@ -37,4 +37,3 @@ Service methods defined on <see cref='T:SuperOffice.CRM.Services.IMarketingAgent
 * [SaveShipmentMessageBlockEntity](saveshipmentmessageblockentity.md)
 * [SaveShipmentMessageEntity](saveshipmentmessageentity.md)
 * [VerifyGoogleRecaptcha](verifygooglerecaptcha.md)
-

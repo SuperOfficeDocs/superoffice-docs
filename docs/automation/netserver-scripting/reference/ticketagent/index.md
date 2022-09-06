@@ -54,4 +54,3 @@ Service methods defined on <see cref='T:SuperOffice.CRM.Services.ITicketAgent'>T
 * [SetTicketMessageImportant](setticketmessageimportant.md)
 * [SetTicketReadByOwner](setticketreadbyowner.md)
 * [UploadAttachment](uploadattachment.md)
-

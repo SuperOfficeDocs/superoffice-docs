@@ -41,6 +41,7 @@ The information shown on your partner profile page in the App Store comes from:
 1. Update names and contact persons.
 1. Click **Save Settings**.
 -->
+
 ## Verify your changes
 
 1. Review your listing in the SOD App Store.

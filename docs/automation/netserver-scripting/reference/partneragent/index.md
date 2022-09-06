@@ -22,4 +22,3 @@ Service methods defined on <see cref='T:SuperOffice.CRM.Services.IPartnerAgent'>
 * [GetMyWebPanels](getmywebpanels.md)
 * [ResumeWebPanel](resumewebpanel.md)
 * [SuspendWebPanel](suspendwebpanel.md)
-

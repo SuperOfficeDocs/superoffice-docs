@@ -21,4 +21,3 @@ Service methods defined on <see cref='T:SuperOffice.CRM.Services.IResourceAgent'
 * [GetResourceSubstitutions](getresourcesubstitutions.md)
 * [IsResourceSubstitutionActive](isresourcesubstitutionactive.md)
 * [SetResourceSubstitution](setresourcesubstitution.md)
-

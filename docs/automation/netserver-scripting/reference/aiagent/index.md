@@ -23,4 +23,3 @@ Service methods defined on <see cref='T:SuperOffice.CRM.Services.IAIAgent'>AIAge
 * [TrainCategoryGuesser](traincategoryguesser.md)
 * [Translate](translate.md)
 * [TranslateEntity](translateentity.md)
-

@@ -47,4 +47,3 @@ Service methods defined on <see cref='T:SuperOffice.CRM.Services.IChatAgent'>Cha
 * [TransferChatSession](transferchatsession.md)
 * [UpdateChatTopicUserAgent](updatechattopicuseragent.md)
 * [UpdateChatTopicUserAgents](updatechattopicuseragents.md)
-

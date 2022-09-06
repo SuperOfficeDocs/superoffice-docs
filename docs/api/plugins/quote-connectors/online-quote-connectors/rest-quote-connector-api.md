@@ -11,4 +11,3 @@ keywords: quote
 **In Development, currently unavailable.**
 
 The REST API is similar to the [SOAP API](soap-quote-connector-api.md) - it mostly mirrors the C# [IQuoteConnector interface](../api/iquoteconnector.md).
-

@@ -67,4 +67,3 @@ Service methods defined on <see cref='T:SuperOffice.CRM.Services.IPersonAgent'>P
 * [SetPersonRank](setpersonrank.md)
 * [Undelete](undelete.md)
 * [ValidatePersonEntity](validatepersonentity.md)
-

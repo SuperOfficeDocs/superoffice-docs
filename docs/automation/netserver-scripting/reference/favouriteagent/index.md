@@ -24,4 +24,3 @@ Service methods defined on <see cref='T:SuperOffice.CRM.Services.IFavouriteAgent
 * [RemoveFavourite](removefavourite.md)
 * [RemoveFavouritesById](removefavouritesbyid.md)
 * [ToggleFavourite](togglefavourite.md)
-

@@ -55,4 +55,3 @@ Service methods defined on <see cref='T:SuperOffice.CRM.Services.IPreferenceAgen
 * [SaveTabOrders](savetaborders.md)
 * [SetXsrfPaths](setxsrfpaths.md)
 * [UpdateNetServicesStatus](updatenetservicesstatus.md)
-
