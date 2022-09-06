@@ -7,15 +7,13 @@ title: List_PaymentTerms
 ```
 
 ---
+
 title: List_PaymentTerms
 ---
 
 ```http
 /api/v1/List/PaymentTerms
 ```
-
-
-
 
 * [GET List/PaymentTerm](v1PaymentTermsList_GetListDefinition.md)
 
@@ -54,7 +52,6 @@ title: List_PaymentTerms
 * [PUT List/PaymentTerm/Items/{id}/Headings](v1PaymentTermsList_PutPaymentTermHeadingsForListItem.md)
 
 * [GET List/PaymentTerm/MDOItems](v1PaymentTermsList_GetMDOList.md)
-
 
 * [GET List/PaymentTerm](v1PaymentTermsList_GetListDefinition.md)
 

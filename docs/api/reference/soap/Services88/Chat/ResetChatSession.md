@@ -17,7 +17,6 @@ Reset chat session, put it back on the queue for pickup. Used by bots to hand of
 
 **Returns:** The updated chat session
 
-
 [WSDL file for Services88/Chat](../Services88-Chat.md)
 
 Obtain a ticket from the [Services88/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -49,7 +48,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-
 
 ## ResetChatSession Response
 
@@ -332,4 +330,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

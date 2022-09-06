@@ -7,15 +7,13 @@ title: List_Credited
 ```
 
 ---
+
 title: List_Credited
 ---
 
 ```http
 /api/v1/List/Credited
 ```
-
-
-
 
 * [GET List/Credited](v1CreditedList_GetListDefinition.md)
 
@@ -54,7 +52,6 @@ title: List_Credited
 * [PUT List/Credited/Items/{id}/Headings](v1CreditedList_PutCreditedHeadingsForListItem.md)
 
 * [GET List/Credited/MDOItems](v1CreditedList_GetMDOList.md)
-
 
 * [GET List/Credited](v1CreditedList_GetListDefinition.md)
 

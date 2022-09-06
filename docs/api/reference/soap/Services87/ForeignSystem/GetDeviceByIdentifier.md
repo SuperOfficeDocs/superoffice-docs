@@ -19,7 +19,6 @@ Gets a ForeignDevice with deviceName and deviceIdentifier that belongs to the ap
 
 **Returns:** The ForeignDevice.
 
-
 [WSDL file for Services87/ForeignSystem](../Services87-ForeignSystem.md)
 
 Obtain a ticket from the [Services87/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -53,7 +52,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
-
 ## GetDeviceByIdentifier Response
 
 ```xml
@@ -83,4 +81,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

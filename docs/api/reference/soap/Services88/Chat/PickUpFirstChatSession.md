@@ -13,9 +13,7 @@ Implemented by the <see cref="M:SuperOffice.Services88.IChatAgent.PickUpFirstCha
 
 'answer' the first available session from the queue: assign the session to the user. The welcome message is sent to the customer.
 
-
 **Returns:** The picked-up chat session
-
 
 [WSDL file for Services88/Chat](../Services88-Chat.md)
 
@@ -47,7 +45,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-
 
 ## PickUpFirstChatSession Response
 
@@ -330,4 +327,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

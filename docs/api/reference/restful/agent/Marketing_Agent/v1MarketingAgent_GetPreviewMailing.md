@@ -11,12 +11,6 @@ POST /api/v1/Agents/Marketing/GetPreviewMailing
 
 Get a shipment message from its shipment address id
 
-
-
-
-
-
-
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -26,7 +20,6 @@ Get a shipment message from its shipment address id
 ```http
 POST /api/v1/Agents/Marketing/GetPreviewMailing?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -42,16 +35,15 @@ POST /api/v1/Agents/Marketing/GetPreviewMailing?$select=name,department,category
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request
 
-ShipmentAddrId 
+ShipmentAddrId
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | ShipmentAddrId | int32 |  |
 
-
-## Response: 
+## Response
 
 OK
 
@@ -59,7 +51,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+Response body:
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|

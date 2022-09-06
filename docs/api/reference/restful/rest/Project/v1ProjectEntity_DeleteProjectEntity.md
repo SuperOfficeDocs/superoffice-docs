@@ -11,18 +11,11 @@ DELETE /api/v1/Project/{id}
 
 Deletes the ProjectEntity
 
-
 Calls the Project agent service DeleteProjectEntity.
-
-
-
-
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | id | int32 | The ProjectEntity to be deleted. **Required** |
-
-
 
 ## Request Headers
 
@@ -33,8 +26,7 @@ Calls the Project agent service DeleteProjectEntity.
 | Accept         | Content-type(s) you would like the response in:  |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-
-## Response: 
+## Response
 
 ProjectEntity deleted.
 
@@ -43,8 +35,7 @@ ProjectEntity deleted.
 | 204 | ProjectEntity deleted. |
 | 412 | Delete aborted because ProjectEntity has changed since the requested If-Unmodified-Since timestamp. |
 
-Response body: 
-
+Response body:
 
 ## Sample request
 

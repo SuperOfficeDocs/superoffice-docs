@@ -7,15 +7,13 @@ title: Selection_Agent
 ```
 
 ---
+
 title: Selection_Agent
 ---
 
 ```http
 /api/v1/Selection/Agent
 ```
-
-
-
 
 * [POST Agents/Selection/GetParentCombinedSelections](v1SelectionAgent_GetParentCombinedSelections.md)
 
@@ -124,7 +122,6 @@ title: Selection_Agent
 * [POST Agents/Selection/CreateContactSelectionFromShadowSelection](v1SelectionAgent_CreateContactSelectionFromShadowSelection.md)
 
 * [POST Agents/Selection/DeleteEntities](v1SelectionAgent_DeleteEntities.md)
-
 
 * [POST Agents/Selection/CreateDefaultMailMergeSettings](v1SelectionAgent_CreateDefaultMailMergeSettings.md)
 

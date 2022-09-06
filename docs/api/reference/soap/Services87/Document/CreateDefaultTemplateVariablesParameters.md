@@ -14,9 +14,7 @@ Implemented by the <see cref="M:SuperOffice.Services87.IDocumentAgent.CreateDefa
 Loading default values into a new TemplateVariablesParameters.
 NetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance
 
-
 **Returns:** New TemplateVariablesParameters with default values
-
 
 [WSDL file for Services87/Document](../Services87-Document.md)
 
@@ -48,7 +46,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-
 
 ## CreateDefaultTemplateVariablesParameters Response
 
@@ -351,4 +348,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

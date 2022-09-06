@@ -11,12 +11,6 @@ POST /api/v1/Agents/Document/SetTemplateStream
 
 Save a mail signature template to the document archive
 
-
-
-
-
-
-
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -26,7 +20,6 @@ Save a mail signature template to the document archive
 ```http
 POST /api/v1/Agents/Document/SetTemplateStream?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -38,9 +31,9 @@ POST /api/v1/Agents/Document/SetTemplateStream?$select=name,department,category/
 | Accept         | Content-type(s) you would like the response in:  |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request
 
-Filename, Personal, Stream 
+Filename, Personal, Stream
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -48,8 +41,7 @@ Filename, Personal, Stream
 | Personal | bool |  |
 | Stream | byte |  |
 
-
-## Response: 
+## Response
 
 No Content
 
@@ -57,8 +49,7 @@ No Content
 |----------------|-------------|
 | 204 | No Content |
 
-Response body: 
-
+Response body:
 
 ## Sample request
 

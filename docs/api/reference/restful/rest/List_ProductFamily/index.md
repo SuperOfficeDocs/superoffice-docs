@@ -7,15 +7,13 @@ title: List_ProductFamily
 ```
 
 ---
+
 title: List_ProductFamily
 ---
 
 ```http
 /api/v1/List/ProductFamily
 ```
-
-
-
 
 * [GET List/ProductFamily](v1ProductFamilyList_GetListDefinition.md)
 
@@ -54,7 +52,6 @@ title: List_ProductFamily
 * [PUT List/ProductFamily/Items/{id}/Headings](v1ProductFamilyList_PutProductFamilyHeadingsForListItem.md)
 
 * [GET List/ProductFamily/MDOItems](v1ProductFamilyList_GetMDOList.md)
-
 
 * [GET List/ProductFamily](v1ProductFamilyList_GetListDefinition.md)
 

@@ -11,12 +11,6 @@ POST /api/v1/Agents/BLOB/GetPersonImageWithSize
 
 Returns the person image that is displayed in the CRM application with a specified maximum size.
 
-
-
-
-
-
-
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -26,7 +20,6 @@ Returns the person image that is displayed in the CRM application with a specifi
 ```http
 POST /api/v1/Agents/BLOB/GetPersonImageWithSize?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -42,16 +35,15 @@ POST /api/v1/Agents/BLOB/GetPersonImageWithSize?$select=name,department,category
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request
 
-PersonId, Width, Height 
+PersonId, Width, Height
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | PersonId | int32 |  |
 | Width | int32 |  |
 | Height | int32 |  |
-
 
 ## Response: byte
 
@@ -62,7 +54,6 @@ OK
 | 200 | OK |
 
 Response body: byte
-
 
 ## Sample request
 

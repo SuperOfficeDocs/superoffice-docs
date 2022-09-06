@@ -11,13 +11,6 @@ POST /api/v1/Agents/List/SaveHeadingEntity
 
 Updates the existing HeadingEntity or creates a new HeadingEntity if the id parameter is empty
 
-
-
-
-
-
-
-
 ## Request Headers
 
 | Parameter Name | Description |
@@ -32,9 +25,9 @@ Updates the existing HeadingEntity or creates a new HeadingEntity if the id para
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entity  
+## Request Body: entity
 
-The HeadingEntity to be saved. 
+The HeadingEntity to be saved.
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -45,8 +38,7 @@ The HeadingEntity to be saved.
 | Rank | int32 | Rank order |
 | UdListDefinitionId | int32 | The id of the list which this heading belongs to |
 
-
-## Response: 
+## Response
 
 OK
 
@@ -54,7 +46,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+Response body:
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|

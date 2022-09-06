@@ -11,16 +11,9 @@ GET /api/v1/BatchTask/{id}
 
 Get a single BatchTaskInfo based on Id.
 
-
-
-
-
-
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | id | int32 | Id of the BatchTaskInfo to get. **Required** |
-
-
 
 ## Request Headers
 
@@ -35,8 +28,7 @@ Get a single BatchTaskInfo based on Id.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-
-## Response: 
+## Response
 
 OK
 
@@ -45,7 +37,7 @@ OK
 | 200 | OK |
 | 404 | Not Found. |
 
-Response body: 
+Response body:
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|

@@ -11,13 +11,6 @@ POST /api/v1/Agents/List/SaveWebPanelEntity
 
 Updates the existing WebPanelEntity or creates a new WebPanelEntity if the id parameter is empty
 
-
-
-
-
-
-
-
 ## Request Headers
 
 | Parameter Name | Description |
@@ -32,9 +25,9 @@ Updates the existing WebPanelEntity or creates a new WebPanelEntity if the id pa
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entity  
+## Request Body: entity
 
-The WebPanelEntity to be saved. 
+The WebPanelEntity to be saved.
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -60,8 +53,7 @@ The WebPanelEntity to be saved.
 | Icon | int32 | The icon of the webpanel |
 | AlwaysReloadOnShow | bool | If set to true, the content will reload every time the panel is shown |
 
-
-## Response: 
+## Response
 
 OK
 
@@ -69,7 +61,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+Response body:
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|

@@ -7,15 +7,13 @@ title: DashboardTile
 ```
 
 ---
+
 title: DashboardTile
 ---
 
 ```http
 /api/v1/DashboardTile
 ```
-
-
-
 
 * [GET DashboardTile/default](v1DashboardTile_DefaultDashboardTile.md)
 
@@ -28,7 +26,6 @@ title: DashboardTile
 * [DEL DashboardTile/{id}](v1DashboardTile_DeleteDashboardTile.md)
 
 * [PATCH DashboardTile/{id}](v1DashboardTile_PatchDashboardTile.md)
-
 
 * [GET DashboardTile/default](v1DashboardTile_DefaultDashboardTile.md)
 

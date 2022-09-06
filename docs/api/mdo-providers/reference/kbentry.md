@@ -16,14 +16,8 @@ so.envir:
 
 # "kbentry" MDO List
 
-
-
-
 Implemented by the <see cref="T:SuperOffice.CRM.Lists.KbEntryListProvider">KbEntryListProvider</see> class.
 The name of the MDO list is 'kbentry'.
-
-
-
 
 ## Sample Request
 
@@ -36,6 +30,7 @@ Accept-Language: *
 ```
 
 ## Sample Code
+
 ```cs
 var listProvider = SuperOffice.CRM.Lists.SoListProviderFactory.Create("kbentry", forceFlatList: true);
 foreach (var item in listProvider.RootItems) {
@@ -49,7 +44,6 @@ foreach (var item in listProvider.RootItems) {
 |Id   | Name  |StyleHint|ExtraInfo |
 | --- | ----- | ------- | -------- |
 |1|Test FAQ|||
-
 
 ## Related MDO Lists
 

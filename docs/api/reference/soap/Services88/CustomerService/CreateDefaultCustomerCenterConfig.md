@@ -14,9 +14,7 @@ Implemented by the <see cref="M:SuperOffice.Services88.ICustomerServiceAgent.Cre
 Loading default values into a new CustomerCenterConfig.
 NetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance
 
-
 **Returns:** New CustomerCenterConfig with default values
-
 
 [WSDL file for Services88/CustomerService](../Services88-CustomerService.md)
 
@@ -49,7 +47,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
-
 ## CreateDefaultCustomerCenterConfig Response
 
 ```xml
@@ -79,4 +76,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

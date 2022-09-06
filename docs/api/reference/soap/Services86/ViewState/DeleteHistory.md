@@ -16,8 +16,6 @@ Deletes the history element
 * **historyName:** Name of the history list, e.g. contact, project
 * **id:** Id of the history element, e.g. Contact id
 
-
-
 [WSDL file for Services86/ViewState](../Services86-ViewState.md)
 
 Obtain a ticket from the [Services86/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -51,7 +49,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
-
 ## DeleteHistory Response
 
 ```xml
@@ -71,4 +68,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

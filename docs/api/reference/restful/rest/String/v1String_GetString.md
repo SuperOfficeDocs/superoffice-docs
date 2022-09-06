@@ -11,16 +11,10 @@ GET /api/v1/String/{sr_id}/{isoLangCode}
 
 Gets the value of the string with a given name in a given language
 
-
-
-
-
-
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | sr_id | string | The name of the string: SR_YES, SR_NO etc **Required** |
 | isoLangCode | string | ISO Language code. ("nb-no", "en-gb" etc) Defaults to English if nothing specified in the Accept-Language header. **Required** |
-
 
 ## Query String Parameters
 
@@ -31,7 +25,6 @@ Gets the value of the string with a given name in a given language
 ```http
 GET /api/v1/String/{sr_id}/{isoLangCode}?ignoreOverrides=False
 ```
-
 
 ## Request Headers
 
@@ -46,7 +39,6 @@ GET /api/v1/String/{sr_id}/{isoLangCode}?ignoreOverrides=False
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-
 ## Response: string
 
 OK
@@ -56,7 +48,6 @@ OK
 | 200 | OK |
 
 Response body: string
-
 
 ## Sample request
 

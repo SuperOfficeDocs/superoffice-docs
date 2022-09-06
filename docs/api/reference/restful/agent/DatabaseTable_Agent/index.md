@@ -7,15 +7,13 @@ title: DatabaseTable_Agent
 ```
 
 ---
+
 title: DatabaseTable_Agent
 ---
 
 ```http
 /api/v1/DatabaseTable/Agent
 ```
-
-
-
 
 * [POST Agents/DatabaseTable/ReadRow](v1DatabaseTableAgent_ReadRow.md)
 
@@ -32,7 +30,6 @@ title: DatabaseTable_Agent
 * [POST Agents/DatabaseTable/Upsert](v1DatabaseTableAgent_Upsert.md)
 
 * [POST Agents/DatabaseTable/Delete](v1DatabaseTableAgent_Delete.md)
-
 
 * [POST Agents/DatabaseTable/ReadRow](v1DatabaseTableAgent_ReadRow.md)
 

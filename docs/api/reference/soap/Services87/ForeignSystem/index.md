@@ -44,4 +44,3 @@ Download [WSDL file for Services87/ForeignSystem](../Services87-ForeignSystem.md
 * [SaveForeignAppEntity](SaveForeignAppEntity.md)
 * [SaveForeignDevice](SaveForeignDevice.md)
 * [SaveForeignKey](SaveForeignKey.md)
-

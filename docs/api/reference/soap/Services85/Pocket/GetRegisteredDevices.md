@@ -15,8 +15,6 @@ Retrieve all registered devices for an associate
 
 * **associateId:** The user to get devices for
 
-
-
 [WSDL file for Services85/Pocket](../Services85-Pocket.md)
 
 Obtain a ticket from the [Services85/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -49,7 +47,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
-
 ## GetRegisteredDevices Response
 
 ```xml
@@ -80,4 +77,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

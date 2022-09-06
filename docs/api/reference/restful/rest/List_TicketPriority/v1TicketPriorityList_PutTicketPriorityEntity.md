@@ -11,18 +11,11 @@ PUT /api/v1/List/TicketPriority/Items/{id}
 
 Updates the existing TicketPriorityEntity
 
-
 Calls the List agent service SaveTicketPriorityEntity.
-
-
-
-
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | id | int32 | The id of TicketPriorityEntity to be saved. **Required** |
-
-
 
 ## Request Headers
 
@@ -38,9 +31,9 @@ Calls the List agent service SaveTicketPriorityEntity.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entity  
+## Request Body: entity
 
-The details of TicketPriorityEntity to be saved. 
+The details of TicketPriorityEntity to be saved.
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -73,8 +66,7 @@ The details of TicketPriorityEntity to be saved.
 | NonDates | array | Dates which the escalation time should not be running. Note that only the day of the year (day and month) is used. So the year and time part is not used even if this is a DateTime. Exception - it IS possible to include a year here, for dates that should not repeat every year |
 | EscalationLevels | array | Escalation levels bound to the parent priority |
 
-
-## Response: 
+## Response
 
 OK
 
@@ -83,7 +75,7 @@ OK
 | 200 | OK |
 | 400 | Bad request. Entity to save is not in request body. |
 
-Response body: 
+Response body:
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|

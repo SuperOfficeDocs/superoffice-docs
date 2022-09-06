@@ -11,13 +11,7 @@ POST /api/v1/Agents/License/GetShopUrl
 
 Get the shop URL for the specified module owner.
 
-
 This can be used to redirect user to the web shop.
-
-
-
-
-
 
 ## Query String Parameters
 
@@ -28,7 +22,6 @@ This can be used to redirect user to the web shop.
 ```http
 POST /api/v1/Agents/License/GetShopUrl?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -44,14 +37,13 @@ POST /api/v1/Agents/License/GetShopUrl?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request
 
-OwnerName 
+OwnerName
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | OwnerName | string |  |
-
 
 ## Response: string
 
@@ -62,7 +54,6 @@ OK
 | 200 | OK |
 
 Response body: string
-
 
 ## Sample request
 

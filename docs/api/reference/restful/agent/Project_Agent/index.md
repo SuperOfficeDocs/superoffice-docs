@@ -7,15 +7,13 @@ title: Project_Agent
 ```
 
 ---
+
 title: Project_Agent
 ---
 
 ```http
 /api/v1/Project/Agent
 ```
-
-
-
 
 * [POST Agents/Project/GetPublishedProjects](v1ProjectAgent_GetPublishedProjects.md)
 
@@ -116,7 +114,6 @@ title: Project_Agent
 * [POST Agents/Project/GetProjectsFromContact](v1ProjectAgent_GetProjectsFromContact.md)
 
 * [POST Agents/Project/GetPublishedProject](v1ProjectAgent_GetPublishedProject.md)
-
 
 * [POST Agents/Project/CreateDefaultProjectEntity](v1ProjectAgent_CreateDefaultProjectEntity.md)
 

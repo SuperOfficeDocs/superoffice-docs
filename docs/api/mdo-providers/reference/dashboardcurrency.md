@@ -16,14 +16,8 @@ so.envir:
 
 # "dashboardcurrency" MDO List
 
-
-
-
 Implemented by the <see cref="T:SuperOffice.CRM.Lists.CurrencyProvider">CurrencyProvider</see> class.
 The name of the MDO list is 'dashboardcurrency'.
-
-
-
 
 ## Sample Request
 
@@ -36,6 +30,7 @@ Accept-Language: *
 ```
 
 ## Sample Code
+
 ```cs
 var listProvider = SuperOffice.CRM.Lists.SoListProviderFactory.Create("dashboardcurrency", forceFlatList: true);
 foreach (var item in listProvider.RootItems) {
@@ -51,7 +46,6 @@ foreach (var item in listProvider.RootItems) {
 |0|None|||
 |-1|Base (NOK)|||
 |-2|Own (NOK)|||
-
 
 ## Related MDO Lists
 

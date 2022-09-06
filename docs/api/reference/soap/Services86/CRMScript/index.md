@@ -27,4 +27,3 @@ Download [WSDL file for Services86/CRMScript](../Services86-CRMScript.md) if you
 * [SaveCRMScriptEntity](SaveCRMScriptEntity.md)
 * [ValidateScript](ValidateScript.md)
 * [ValidateScriptByIncludeId](ValidateScriptByIncludeId.md)
-

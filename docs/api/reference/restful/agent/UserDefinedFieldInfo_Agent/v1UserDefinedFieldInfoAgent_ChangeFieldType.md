@@ -11,12 +11,6 @@ POST /api/v1/Agents/UserDefinedFieldInfo/ChangeFieldType
 
 Create a UserDefinedFieldInfo based on a owner-entity id
 
-
-
-
-
-
-
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -26,7 +20,6 @@ Create a UserDefinedFieldInfo based on a owner-entity id
 ```http
 POST /api/v1/Agents/UserDefinedFieldInfo/ChangeFieldType?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -42,9 +35,9 @@ POST /api/v1/Agents/UserDefinedFieldInfo/ChangeFieldType?$select=name,department
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request
 
-Info, FieldType, IsIndexed 
+Info, FieldType, IsIndexed
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -52,8 +45,7 @@ Info, FieldType, IsIndexed
 | FieldType | string |  |
 | IsIndexed | bool |  |
 
-
-## Response: 
+## Response
 
 OK
 
@@ -61,7 +53,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+Response body:
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|

@@ -18,7 +18,6 @@ Return an given array user defined field identified by the owner and the prog-id
 
 **Returns:** Returns an array of user-defined field info carriers
 
-
 [WSDL file for Services86/UserDefinedFieldInfo](../Services86-UserDefinedFieldInfo.md)
 
 Obtain a ticket from the [Services86/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -53,7 +52,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-
 
 ## GetUserDefinedFieldFromProgIds Response
 
@@ -112,4 +110,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

@@ -7,15 +7,13 @@ title: List_ProjectStatus
 ```
 
 ---
+
 title: List_ProjectStatus
 ---
 
 ```http
 /api/v1/List/ProjectStatus
 ```
-
-
-
 
 * [GET List/ProjectStatus](v1ProjectStatusList_GetListDefinition.md)
 
@@ -54,7 +52,6 @@ title: List_ProjectStatus
 * [PUT List/ProjectStatus/Items/{id}/Headings](v1ProjectStatusList_PutProjectStatusHeadingsForListItem.md)
 
 * [GET List/ProjectStatus/MDOItems](v1ProjectStatusList_GetMDOList.md)
-
 
 * [GET List/ProjectStatus](v1ProjectStatusList_GetListDefinition.md)
 

@@ -17,7 +17,6 @@ Get the probability percentage for a given sale stage
 
 **Returns:** Probability percentage
 
-
 [WSDL file for Services87/Sale](../Services87-Sale.md)
 
 Obtain a ticket from the [Services87/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -50,7 +49,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
-
 ## GetProbabilityFromStage Response
 
 ```xml
@@ -71,4 +69,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

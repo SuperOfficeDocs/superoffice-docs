@@ -11,10 +11,6 @@ Implemented by the <see cref="M:SuperOffice.Services88.ISoPrincipalAgent.Authent
 
 ## AuthenticateWithAccessToken
 
-
-
-
-
 [WSDL file for Services88/SoPrincipal](../Services88-SoPrincipal.md)
 
 ## AuthenticateWithAccessToken Request
@@ -40,7 +36,6 @@ Implemented by the <see cref="M:SuperOffice.Services88.ISoPrincipalAgent.Authent
 </SOAP-ENV:Envelope>
 
 ```
-
 
 ## AuthenticateWithAccessToken Response
 
@@ -122,4 +117,3 @@ Implemented by the <see cref="M:SuperOffice.Services88.ISoPrincipalAgent.Authent
 </SOAP-ENV:Envelope>
 
 ```
-

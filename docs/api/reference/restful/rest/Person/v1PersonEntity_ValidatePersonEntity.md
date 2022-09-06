@@ -11,13 +11,6 @@ POST /api/v1/Person/Validate
 
 Check that entity is ready for saving, return error messages by field.
 
-
-
-
-
-
-
-
 ## Request Headers
 
 | Parameter Name | Description |
@@ -32,9 +25,9 @@ Check that entity is ready for saving, return error messages by field.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: personEntity  
+## Request Body: personEntity
 
-Entity to be checked for errors. 
+Entity to be checked for errors.
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -102,7 +95,6 @@ Entity to be checked for errors.
 | ExtraFields | object | Deprecated: Use {SuperOffice.CRM.Services.PersonEntity.CustomFields} instead. Extra fields added to the carrier. This could be data from Plug-ins, the foreign key system, external applications, etc. |
 | CustomFields | object | Udef + Extra fields added to the carrier. Extra fields as defined by changes to database schema + user-defined fields as defined by admin. Custom fields combines user defined fields and extra fields into one bucket.  The individual {SuperOffice.CRM.Services.PersonEntity.ExtraFields} and <see cref="P:SuperOffice.CRM.Services.PersonEntity.UserDefinedFields">UserDefinedFields</see> properties are deprecated in favor of this combined collection. |
 
-
 ## Response: object
 
 OK
@@ -112,7 +104,6 @@ OK
 | 200 | OK |
 
 Response body: object
-
 
 ## Sample request
 

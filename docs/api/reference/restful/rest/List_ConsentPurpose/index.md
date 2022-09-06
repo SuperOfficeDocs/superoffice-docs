@@ -7,15 +7,13 @@ title: List_ConsentPurpose
 ```
 
 ---
+
 title: List_ConsentPurpose
 ---
 
 ```http
 /api/v1/List/ConsentPurpose
 ```
-
-
-
 
 * [GET List/ConsentPurpose](v1ConsentPurposeList_GetListDefinition.md)
 
@@ -48,7 +46,6 @@ title: List_ConsentPurpose
 * [PUT List/ConsentPurpose/Items/{id}/Headings](v1ConsentPurposeList_PutConsentPurposeHeadingsForListItem.md)
 
 * [GET List/ConsentPurpose/MDOItems](v1ConsentPurposeList_GetMDOList.md)
-
 
 * [GET List/ConsentPurpose](v1ConsentPurposeList_GetListDefinition.md)
 

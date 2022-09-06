@@ -13,9 +13,7 @@ Implemented by the <see cref="M:SuperOffice.Services88.IAIAgent.GetTrainingStatu
 
 Calling the HugoAI endpoint to fetch the current training status.
 
-
 **Returns:** Carrier to describe the current status of HugoAI categorization
-
 
 [WSDL file for Services88/AI](../Services88-AI.md)
 
@@ -46,7 +44,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-
 
 ## GetTrainingStatus Response
 
@@ -80,4 +77,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

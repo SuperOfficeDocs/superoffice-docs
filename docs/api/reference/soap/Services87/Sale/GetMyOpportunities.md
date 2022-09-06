@@ -17,7 +17,6 @@ Returning the opportunities (open sales) belonging to the user currently logged 
 
 **Returns:** Array of open sales (opportunities).
 
-
 [WSDL file for Services87/Sale](../Services87-Sale.md)
 
 Obtain a ticket from the [Services87/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -49,7 +48,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-
 
 ## GetMyOpportunities Response
 
@@ -98,4 +96,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

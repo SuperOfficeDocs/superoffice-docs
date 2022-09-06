@@ -9,14 +9,6 @@ uid: v1AppointmentAgent_GetDiaryByGroup
 POST /api/v1/Agents/Appointment/GetDiaryByGroup
 ```
 
-
-
-
-
-
-
-
-
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -26,7 +18,6 @@ POST /api/v1/Agents/Appointment/GetDiaryByGroup
 ```http
 POST /api/v1/Agents/Appointment/GetDiaryByGroup?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -42,9 +33,9 @@ POST /api/v1/Agents/Appointment/GetDiaryByGroup?$select=name,department,category
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request
 
-GroupId, GroupType, StartTime, EndTime, Count 
+GroupId, GroupType, StartTime, EndTime, Count
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -53,7 +44,6 @@ GroupId, GroupType, StartTime, EndTime, Count
 | StartTime | date-time |  |
 | EndTime | date-time |  |
 | Count | int32 |  |
-
 
 ## Response: array
 

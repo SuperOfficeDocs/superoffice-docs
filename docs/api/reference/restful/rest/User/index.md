@@ -7,15 +7,13 @@ title: User
 ```
 
 ---
+
 title: User
 ---
 
 ```http
 /api/v1/User
 ```
-
-
-
 
 * [GET User](v1User_GetAll.md)
 
@@ -58,7 +56,6 @@ title: User
 * [GET User/currentAssociate](v1User_GetCurrentAssociate.md)
 
 * [GET User/currentToken](v1User_GetCurrentToken.md)
-
 
 * [GET User](v1User_GetAll.md)
 

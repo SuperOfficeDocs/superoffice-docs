@@ -11,15 +11,7 @@ POST /api/v1/Agents/EMail/GetParticipantInfoFromEmailAddress
 
 Get participant data associated with the participant in the emails iCal attachment
 
-
-
-
-## Online Restricted: ## The EMail agent is not available in Online by default. Access must be requested specifically when app is registered.
-
-
-
-
-
+## Online Restricted: ## The EMail agent is not available in Online by default. Access must be requested specifically when app is registered
 
 ## Query String Parameters
 
@@ -30,7 +22,6 @@ Get participant data associated with the participant in the emails iCal attachme
 ```http
 POST /api/v1/Agents/EMail/GetParticipantInfoFromEmailAddress?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -46,17 +37,16 @@ POST /api/v1/Agents/EMail/GetParticipantInfoFromEmailAddress?$select=name,depart
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request
 
-EmailAddress, AppointmentId 
+EmailAddress, AppointmentId
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | EmailAddress | string |  |
 | AppointmentId | int32 |  |
 
-
-## Response: 
+## Response
 
 OK
 
@@ -64,7 +54,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+Response body:
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|

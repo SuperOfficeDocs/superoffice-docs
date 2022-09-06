@@ -20,4 +20,3 @@ Download [WSDL file for Services86/DatabaseTable](../Services86-DatabaseTable.md
 * [InsertRow](InsertRow.md)
 * [ReadRow](ReadRow.md)
 * [UpdateRow](UpdateRow.md)
-

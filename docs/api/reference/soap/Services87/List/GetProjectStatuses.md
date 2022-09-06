@@ -13,9 +13,7 @@ Implemented by the <see cref="M:SuperOffice.Services87.IListAgent.GetProjectStat
 
 Gets all items from the Project Status (ProjStatus) table.
 
-
 **Returns:** List of all Project statuses.
-
 
 [WSDL file for Services87/List](../Services87-List.md)
 
@@ -48,7 +46,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
-
 ## GetProjectStatuses Response
 
 ```xml
@@ -75,4 +72,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

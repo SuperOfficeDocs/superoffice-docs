@@ -9,14 +9,6 @@ uid: v1PocketAgent_GetPocketStartupData
 POST /api/v1/Agents/Pocket/GetPocketStartupData
 ```
 
-
-
-
-
-
-
-
-
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -26,7 +18,6 @@ POST /api/v1/Agents/Pocket/GetPocketStartupData
 ```http
 POST /api/v1/Agents/Pocket/GetPocketStartupData?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -42,17 +33,16 @@ POST /api/v1/Agents/Pocket/GetPocketStartupData?$select=name,department,category
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request
 
-Tables, CurrentClientTime 
+Tables, CurrentClientTime
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | Tables | array |  |
 | CurrentClientTime | date-time |  |
 
-
-## Response: 
+## Response
 
 OK
 
@@ -60,7 +50,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+Response body:
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -71,7 +61,7 @@ Response body:
 | NotificationsCount | int32 | Number of new invitations |
 | SystemWebPanels | array | Web panels defined in Admin client, set to be shown in Pocket client |
 | PocketPreferences | array | All Pocket specific preferences, including WebPanels defined by the user in Pocket |
-| IsPushNotificationEnabled | bool | Is push notification configured and enabled in Netserver |
+| IsPushNotificationEnabled | bool | Is push notification configured and enabled in NetServer |
 | CustomData | string | Custom data for Pocket, in JSON format |
 | TableRight |  |  |
 | FieldProperties | object |  |

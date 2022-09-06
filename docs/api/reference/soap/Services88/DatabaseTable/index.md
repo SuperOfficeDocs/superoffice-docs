@@ -23,4 +23,3 @@ Download [WSDL file for Services88/DatabaseTable](../Services88-DatabaseTable.md
 * [Truncate](Truncate.md)
 * [UpdateRow](UpdateRow.md)
 * [Upsert](Upsert.md)
-

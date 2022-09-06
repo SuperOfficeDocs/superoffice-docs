@@ -11,12 +11,6 @@ POST /api/v1/Agents/Configuration/GetCsProgramUrl
 
 This method will convert a module name into a CS URL.
 
-
-
-
-
-
-
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -26,7 +20,6 @@ This method will convert a module name into a CS URL.
 ```http
 POST /api/v1/Agents/Configuration/GetCsProgramUrl?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -42,9 +35,9 @@ POST /api/v1/Agents/Configuration/GetCsProgramUrl?$select=name,department,catego
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request
 
-Language, ProgramName, Action, ExtraParameters 
+Language, ProgramName, Action, ExtraParameters
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -52,7 +45,6 @@ Language, ProgramName, Action, ExtraParameters
 | ProgramName | string |  |
 | Action | string |  |
 | ExtraParameters | string |  |
-
 
 ## Response: string
 
@@ -63,7 +55,6 @@ OK
 | 200 | OK |
 
 Response body: string
-
 
 ## Sample request
 

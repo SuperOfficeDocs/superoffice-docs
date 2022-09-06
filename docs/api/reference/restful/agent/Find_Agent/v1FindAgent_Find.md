@@ -11,13 +11,7 @@ POST /api/v1/Agents/Find/Find
 
 Execute a Find operation and return a page of results.
 
-
 The criteria for the Find are fetched from the restriction storage provider according to the given parameters. The columns of the result are calculated based on the restriction. The orderby columns are also calculated by the system.&lt;para/&gt;The other variants of the Find method allow you greater control over the individual aspects of the process.
-
-
-
-
-
 
 ## Query String Parameters
 
@@ -28,7 +22,6 @@ The criteria for the Find are fetched from the restriction storage provider acco
 ```http
 POST /api/v1/Agents/Find/Find?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -44,9 +37,9 @@ POST /api/v1/Agents/Find/Find?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request
 
-StorageType, ProviderName, StorageKey, PageSize, PageNumber 
+StorageType, ProviderName, StorageKey, PageSize, PageNumber
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -56,8 +49,7 @@ StorageType, ProviderName, StorageKey, PageSize, PageNumber
 | PageSize | int32 |  |
 | PageNumber | int32 |  |
 
-
-## Response: 
+## Response
 
 OK
 
@@ -65,7 +57,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+Response body:
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|

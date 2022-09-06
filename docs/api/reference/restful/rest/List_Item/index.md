@@ -7,15 +7,13 @@ title: List_Item
 ```
 
 ---
+
 title: List_Item
 ---
 
 ```http
 /api/v1/List/Item
 ```
-
-
-
 
 * [GET List/{id}/Items/{id}/UserGroups](v1ListItemEntity_GetVisibleForUserGroups.md)
 
@@ -76,7 +74,6 @@ title: List_Item
 * [POST List/{id}/Headings](v1ListItemEntity_SaveHeadingFromListDefinition.md)
 
 * [DEL List/{id}/Headings](v1ListItemEntity_DeleteAllHeadingsFromListDefinition.md)
-
 
 * [GET List/{id}/Items/{id}/UserGroups](v1ListItemEntity_GetVisibleForUserGroups.md)
 

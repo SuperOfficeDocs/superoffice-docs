@@ -11,13 +11,7 @@ POST /api/v1/Agents/Appointment/GetAppointmentsByTaskHeading
 
 Method that returns appointments of a specific appointment task heading.
 
-
 Task represents the different types of activities, like “Phone call”, “Meeting” and so on. The heading represents a grouping or filtering of tasks.
-
-
-
-
-
 
 ## Query String Parameters
 
@@ -28,7 +22,6 @@ Task represents the different types of activities, like “Phone call”, “Mee
 ```http
 POST /api/v1/Agents/Appointment/GetAppointmentsByTaskHeading?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -44,14 +37,13 @@ POST /api/v1/Agents/Appointment/GetAppointmentsByTaskHeading?$select=name,depart
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request
 
-TaskHeadingId 
+TaskHeadingId
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | TaskHeadingId | int32 |  |
-
 
 ## Response: array
 

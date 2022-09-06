@@ -7,15 +7,13 @@ title: Person_Agent
 ```
 
 ---
+
 title: Person_Agent
 ---
 
 ```http
 /api/v1/Person/Agent
 ```
-
-
-
 
 * [POST Agents/Person/GetPersonsFromProject](v1PersonAgent_GetPersonsFromProject.md)
 
@@ -118,7 +116,6 @@ title: Person_Agent
 * [POST Agents/Person/GetPersonList](v1PersonAgent_GetPersonList.md)
 
 * [POST Agents/Person/GetPersonsFromContact](v1PersonAgent_GetPersonsFromContact.md)
-
 
 * [POST Agents/Person/CreateDefaultConsentPerson](v1PersonAgent_CreateDefaultConsentPerson.md)
 

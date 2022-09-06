@@ -11,12 +11,6 @@ POST /api/v1/Agents/Configuration/GetScreenConfigurationDeltas
 
 This method will return a json with all deltas for screen
 
-
-
-
-
-
-
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -26,7 +20,6 @@ This method will return a json with all deltas for screen
 ```http
 POST /api/v1/Agents/Configuration/GetScreenConfigurationDeltas?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -41,7 +34,6 @@ POST /api/v1/Agents/Configuration/GetScreenConfigurationDeltas?$select=name,depa
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-
 ## Response: string
 
 OK
@@ -51,7 +43,6 @@ OK
 | 200 | OK |
 
 Response body: string
-
 
 ## Sample request
 

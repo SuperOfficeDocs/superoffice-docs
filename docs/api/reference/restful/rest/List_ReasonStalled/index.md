@@ -7,15 +7,13 @@ title: List_ReasonStalled
 ```
 
 ---
+
 title: List_ReasonStalled
 ---
 
 ```http
 /api/v1/List/ReasonStalled
 ```
-
-
-
 
 * [GET List/ReasonStalled](v1ReasonStalledList_GetListDefinition.md)
 
@@ -54,7 +52,6 @@ title: List_ReasonStalled
 * [PUT List/ReasonStalled/Items/{id}/Headings](v1ReasonStalledList_PutReasonStalledHeadingsForListItem.md)
 
 * [GET List/ReasonStalled/MDOItems](v1ReasonStalledList_GetMDOList.md)
-
 
 * [GET List/ReasonStalled](v1ReasonStalledList_GetListDefinition.md)
 

@@ -6,6 +6,7 @@ items:
   langs:
   - crmscript
   children:
+  - CRMScript.Native.HtmlElement.#ctor
   - CRMScript.Native.HtmlElement.clearValue()
   - CRMScript.Native.HtmlElement.getFieldValue(String)
   - CRMScript.Native.HtmlElement.getNextTabIndex()
@@ -28,6 +29,21 @@ items:
   fullName: CRMScript.Native.HtmlElement
   type: Class
   summary: "\nRepresents HTML elements in the SuperOffice UI.\n"
+  example: 
+- uid: CRMScript.Native.HtmlElement.#ctor
+  commentId: M:CRMScript.Native.HtmlElement.#ctor
+  id: '#ctor'
+  so.intellisense: Void.HtmlElement
+  langs:
+  - crmscript
+  name: HtmlElement()
+  nameWithType: HtmlElement.#ctor
+  fullName: CRMScript.Native.HtmlElement.#ctor
+  type: Constructor
+  summary: "\nInitializes a new instance of the HtmlElement class.\n"
+  remarks: 
+  syntax: 
+    content: HtmlElement
   example: 
 - uid: CRMScript.Native.HtmlElement.clearValue()
   commentId: M:CRMScript.Native.HtmlElement.clearValue()

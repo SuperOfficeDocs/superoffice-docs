@@ -11,15 +11,9 @@ PUT /api/v1/List/{id}
 
 Updates the existing ListEntity
 
-
-
-
-
-
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | id | int32 | The ListEntity id to update. **Required** |
-
 
 ## Query String Parameters
 
@@ -30,7 +24,6 @@ Updates the existing ListEntity
 ```http
 PUT /api/v1/List/{id}?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -46,9 +39,9 @@ PUT /api/v1/List/{id}?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entity  
+## Request Body: entity
 
-The ListEntity to be saved. 
+The ListEntity to be saved.
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -63,8 +56,7 @@ The ListEntity to be saved.
 | ListType | string | The type of this list, often indicated by the database name, but not necessarily |
 | InUseByUserDefinedFields | bool | True if this in use by one or more udfields |
 
-
-## Response: 
+## Response
 
 ListEntity updated.
 
@@ -73,7 +65,7 @@ ListEntity updated.
 | 200 | ListEntity updated. |
 | 400 | Bad request. Entity to save is not in request body. |
 
-Response body: 
+Response body:
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|

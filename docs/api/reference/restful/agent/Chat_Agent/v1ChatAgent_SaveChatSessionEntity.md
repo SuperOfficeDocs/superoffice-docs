@@ -11,13 +11,6 @@ POST /api/v1/Agents/Chat/SaveChatSessionEntity
 
 Updates the existing ChatSessionEntity or creates a new ChatSessionEntity if the id parameter is empty
 
-
-
-
-
-
-
-
 ## Request Headers
 
 | Parameter Name | Description |
@@ -32,9 +25,9 @@ Updates the existing ChatSessionEntity or creates a new ChatSessionEntity if the
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entity  
+## Request Body: entity
 
-The ChatSessionEntity to be saved. 
+The ChatSessionEntity to be saved.
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -70,8 +63,7 @@ The ChatSessionEntity to be saved.
 | ChatbotIsActive | bool | Indicates that a chatbot is active on the session. This will cause bot triggers to fire. Set to 0 when bot hands off to user. |
 | Rating | int32 | Rating of this chat conversation given by the customer |
 
-
-## Response: 
+## Response
 
 OK
 
@@ -79,7 +71,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+Response body:
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|

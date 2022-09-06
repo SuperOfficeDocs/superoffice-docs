@@ -11,12 +11,6 @@ POST /api/v1/Agents/Find/SaveRestrictionGroups
 
 Save and rerank an array of restriction groups, returning the possibly modified array.
 
-
-
-
-
-
-
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -26,7 +20,6 @@ Save and rerank an array of restriction groups, returning the possibly modified 
 ```http
 POST /api/v1/Agents/Find/SaveRestrictionGroups?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -42,9 +35,9 @@ POST /api/v1/Agents/Find/SaveRestrictionGroups?$select=name,department,category/
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request
 
-StorageType, ProviderName, StorageKey, RestrictionGroups, Context 
+StorageType, ProviderName, StorageKey, RestrictionGroups, Context
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -53,7 +46,6 @@ StorageType, ProviderName, StorageKey, RestrictionGroups, Context
 | StorageKey | string |  |
 | RestrictionGroups | array |  |
 | Context | string |  |
-
 
 ## Response: array
 

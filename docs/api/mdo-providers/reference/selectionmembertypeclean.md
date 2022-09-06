@@ -16,14 +16,8 @@ so.envir:
 
 # "selectionmembertypeclean" MDO List
 
-
-
-
 Implemented by the <see cref="T:SuperOffice.CRM.Lists.SelectionMemberTypeClean">SelectionMemberTypeClean</see> class.
 The name of the MDO list is 'selectionmembertypeclean'.
-
-
-
 
 ## Sample Request
 
@@ -36,6 +30,7 @@ Accept-Language: *
 ```
 
 ## Sample Code
+
 ```cs
 var listProvider = SuperOffice.CRM.Lists.SoListProviderFactory.Create("selectionmembertypeclean", forceFlatList: true);
 foreach (var item in listProvider.RootItems) {
@@ -57,7 +52,6 @@ foreach (var item in listProvider.RootItems) {
 |10|Documents||document|
 |127|Products||QuoteLine|
 |262|Requests||ticket|
-
 
 ## Related MDO Lists
 

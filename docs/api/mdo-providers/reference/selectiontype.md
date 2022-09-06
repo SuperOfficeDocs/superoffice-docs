@@ -15,16 +15,12 @@ so.envir:
 ---
 
 # "selectiontype" MDO List
+
 MDO provider for the hard-coded list of selection kinds: Static, Dynamic, Combined.
 Combined requires the Combined Selection CAL license.
 
-
-
 Implemented by the <see cref="T:SuperOffice.CRM.Lists.SelectionTypeList">SelectionTypeList</see> class.
 The name of the MDO list is 'selectiontype'.
-
-
-
 
 ## Sample Request
 
@@ -37,6 +33,7 @@ Accept-Language: *
 ```
 
 ## Sample Code
+
 ```cs
 var listProvider = SuperOffice.CRM.Lists.SoListProviderFactory.Create("selectiontype", forceFlatList: true);
 foreach (var item in listProvider.RootItems) {
@@ -52,7 +49,6 @@ foreach (var item in listProvider.RootItems) {
 |0|Static|||
 |1|Dynamic|||
 |2|Combined|||
-
 
 ## Related MDO Lists
 

@@ -20,7 +20,6 @@ Rejects a quote version
 
 **Returns:** Response of the the operation
 
-
 [WSDL file for Services85/Quote](../Services85-Quote.md)
 
 Obtain a ticket from the [Services85/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -55,7 +54,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-
 
 ## RejectQuoteVersion Response
 
@@ -105,4 +103,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

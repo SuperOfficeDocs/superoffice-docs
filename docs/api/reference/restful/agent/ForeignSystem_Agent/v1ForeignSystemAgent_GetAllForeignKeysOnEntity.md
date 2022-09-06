@@ -11,13 +11,7 @@ POST /api/v1/Agents/ForeignSystem/GetAllForeignKeysOnEntity
 
 Get a list of foreignkeys ('app.
 
-
 device.key') and their values ('123') that belong to the specified entity.
-
-
-
-
-
 
 ## Query String Parameters
 
@@ -28,7 +22,6 @@ device.key') and their values ('123') that belong to the specified entity.
 ```http
 POST /api/v1/Agents/ForeignSystem/GetAllForeignKeysOnEntity?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -44,15 +37,14 @@ POST /api/v1/Agents/ForeignSystem/GetAllForeignKeysOnEntity?$select=name,departm
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request
 
-EntityType, EntityId 
+EntityType, EntityId
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | EntityType | string |  |
 | EntityId | int32 |  |
-
 
 ## Response: object
 
@@ -63,7 +55,6 @@ OK
 | 200 | OK |
 
 Response body: object
-
 
 ## Sample request
 

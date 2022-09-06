@@ -11,13 +11,6 @@ POST /api/v1/Agents/List/SaveSaleTypeEntity
 
 Updates the existing SaleTypeEntity or creates a new SaleTypeEntity if the id parameter is empty
 
-
-
-
-
-
-
-
 ## Request Headers
 
 | Parameter Name | Description |
@@ -32,9 +25,9 @@ Updates the existing SaleTypeEntity or creates a new SaleTypeEntity if the id pa
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entity  
+## Request Body: entity
 
-The SaleTypeEntity to be saved. 
+The SaleTypeEntity to be saved.
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -61,8 +54,7 @@ The SaleTypeEntity to be saved.
 | SortGroupLinesBy | int32 | Sort group lines by this field |
 | Stages | array | Stages, those associated with this SaleType are selected.  <para>Use MDO List name "salestage" to get list items.</para> |
 
-
-## Response: 
+## Response
 
 OK
 
@@ -70,7 +62,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+Response body:
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|

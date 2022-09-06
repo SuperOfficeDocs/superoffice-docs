@@ -11,11 +11,7 @@ Implemented by the <see cref="M:SuperOffice.Services85.ISaleAgent.GetSaleStakeho
 
 ## GetSaleStakeholders
 
-
-
-* **saleId:** 
-
-
+* **saleId:**
 
 [WSDL file for Services85/Sale](../Services85-Sale.md)
 
@@ -48,7 +44,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-
 
 ## GetSaleStakeholders Response
 
@@ -92,4 +87,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

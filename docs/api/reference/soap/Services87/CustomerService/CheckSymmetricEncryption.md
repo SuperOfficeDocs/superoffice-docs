@@ -17,7 +17,6 @@ Do a test to check that we are using the same encryption keys
 
 **Returns:** Encrypted version of the string done by NetServer
 
-
 [WSDL file for Services87/CustomerService](../Services87-CustomerService.md)
 
 Obtain a ticket from the [Services87/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -50,7 +49,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
-
 ## CheckSymmetricEncryption Response
 
 ```xml
@@ -71,4 +69,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

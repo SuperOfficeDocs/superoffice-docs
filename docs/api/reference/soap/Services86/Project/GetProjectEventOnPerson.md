@@ -16,8 +16,6 @@ Gets a ProjectEvent object from a project and a person.
 * **projectId:** The project Id
 * **personId:** Id of the person the project events belong to.
 
-
-
 [WSDL file for Services86/Project](../Services86-Project.md)
 
 Obtain a ticket from the [Services86/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -50,7 +48,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-
 
 ## GetProjectEventOnPerson Response
 
@@ -95,4 +92,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

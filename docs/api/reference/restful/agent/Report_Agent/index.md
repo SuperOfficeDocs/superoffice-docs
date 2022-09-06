@@ -7,15 +7,13 @@ title: Report_Agent
 ```
 
 ---
+
 title: Report_Agent
 ---
 
 ```http
 /api/v1/Report/Agent
 ```
-
-
-
 
 * [POST Agents/Report/CreateDefaultReportEntity](v1ReportAgent_CreateDefaultReportEntity.md)
 
@@ -42,7 +40,6 @@ title: Report_Agent
 * [POST Agents/Report/DeleteReport](v1ReportAgent_DeleteReport.md)
 
 * [POST Agents/Report/GetReportLabelLayoutEntity](v1ReportAgent_GetReportLabelLayoutEntity.md)
-
 
 * [POST Agents/Report/CreateDefaultReportEntity](v1ReportAgent_CreateDefaultReportEntity.md)
 

@@ -11,13 +11,7 @@ POST /api/v1/List
 
 Creates a new ListEntity
 
-
 Calls the List agent service SaveListEntity.
-
-
-
-
-
 
 ## Query String Parameters
 
@@ -28,7 +22,6 @@ Calls the List agent service SaveListEntity.
 ```http
 POST /api/v1/List?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -44,9 +37,9 @@ POST /api/v1/List?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: newEntity  
+## Request Body: newEntity
 
-The ListEntity to be saved. 
+The ListEntity to be saved.
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -61,8 +54,7 @@ The ListEntity to be saved.
 | ListType | string | The type of this list, often indicated by the database name, but not necessarily |
 | InUseByUserDefinedFields | bool | True if this in use by one or more udfields |
 
-
-## Response: 
+## Response
 
 OK
 
@@ -70,7 +62,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+Response body:
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|

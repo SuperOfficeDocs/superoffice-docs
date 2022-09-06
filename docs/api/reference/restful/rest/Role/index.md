@@ -7,15 +7,13 @@ title: Role
 ```
 
 ---
+
 title: Role
 ---
 
 ```http
 /api/v1/Role
 ```
-
-
-
 
 * [GET Role/default](v1RoleEntity_DefaultRoleEntity.md)
 
@@ -48,7 +46,6 @@ title: Role
 * [GET Role/{type}/Default](v1RoleEntity_CreateDefaultRoleEntityFromType.md)
 
 * [GET Role/WithFunctionRight/{functionalRightName}](v1RoleEntity_FindRolesWithFunctionalRight.md)
-
 
 * [GET Role/default](v1RoleEntity_DefaultRoleEntity.md)
 

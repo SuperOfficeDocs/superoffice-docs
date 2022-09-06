@@ -12,6 +12,8 @@ so.topic: howto
 
 ![Publish/send a quote dialog -screenshot][img1]
 
+Before the quote is sent, the quote connector validates the quote. The quote connector may reject the quote, or [ask that it be approved](approve-quote.md) by an authorized user.
+
 When a user sends a quote to the customer, the quote version is frozen, and the quote version cannot be edited further.
 
 This happens outside the Quote Connector. SuperOffice will generate a PDF document containing the overview document and the order details, and generate an e-mail to the customer if asked.

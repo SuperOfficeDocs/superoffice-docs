@@ -11,15 +11,7 @@ POST /api/v1/Agents/CRMScript/SaveCRMScriptByUniqueIdentifier
 
 Create or Update the CRMScript information
 
-
-
-
-## Online Restricted: ## The CRMScript agent is not available in Online by default. Access must be requested specifically when app is registered.
-
-
-
-
-
+## Online Restricted: ## The CRMScript agent is not available in Online by default. Access must be requested specifically when app is registered
 
 ## Query String Parameters
 
@@ -30,7 +22,6 @@ Create or Update the CRMScript information
 ```http
 POST /api/v1/Agents/CRMScript/SaveCRMScriptByUniqueIdentifier?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -46,17 +37,16 @@ POST /api/v1/Agents/CRMScript/SaveCRMScriptByUniqueIdentifier?$select=name,depar
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request
 
-UniqueIdentifier, Crmscript 
+UniqueIdentifier, CRMScript
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | UniqueIdentifier | string |  |
-| Crmscript |  | The Script Service. The service implements all services working with the CRMScript object without reference to primary keys. Primarily used by VSCode integration. <para /> Carrier object for Script. Services for the Script Carrier is available from the <see cref="T:SuperOffice.CRM.Services.ICRMScriptAgent">CRMScript Agent</see>. |
+| CRMScript |  | The Script Service. The service implements all services working with the CRMScript object without reference to primary keys. Primarily used by VSCode integration. <para /> Carrier object for Script. Services for the Script Carrier is available from the <see cref="T:SuperOffice.CRM.Services.ICRMScriptAgent">CRMScript Agent</see>. |
 
-
-## Response: 
+## Response
 
 OK
 
@@ -64,7 +54,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+Response body:
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|

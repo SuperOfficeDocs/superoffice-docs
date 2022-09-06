@@ -11,12 +11,6 @@ POST /api/v1/Agents/Contact/CreateNewEntry
 
 Creates a new contact based on external duplicate
 
-
-
-
-
-
-
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -26,7 +20,6 @@ Creates a new contact based on external duplicate
 ```http
 POST /api/v1/Agents/Contact/CreateNewEntry?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -42,14 +35,13 @@ POST /api/v1/Agents/Contact/CreateNewEntry?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request
 
-Duplicate 
+Duplicate
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | Duplicate |  | A duplicate entry <para /> Carrier object for DuplicateEntry. |
-
 
 ## Response: int32
 
@@ -60,7 +52,6 @@ OK
 | 200 | OK |
 
 Response body: int32
-
 
 ## Sample request
 

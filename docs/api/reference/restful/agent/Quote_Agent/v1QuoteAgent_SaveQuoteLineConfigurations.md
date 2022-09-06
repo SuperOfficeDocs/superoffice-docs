@@ -11,13 +11,7 @@ POST /api/v1/Agents/Quote/SaveQuoteLineConfigurations
 
 Save a collection of QuoteLineConfigurations.
 
-
 It is not possible to add a new configurations.
-
-
-
-
-
 
 ## Query String Parameters
 
@@ -28,7 +22,6 @@ It is not possible to add a new configurations.
 ```http
 POST /api/v1/Agents/Quote/SaveQuoteLineConfigurations?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -44,14 +37,13 @@ POST /api/v1/Agents/Quote/SaveQuoteLineConfigurations?$select=name,department,ca
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request
 
-QuoteLineConfigurations 
+QuoteLineConfigurations
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | QuoteLineConfigurations | array |  |
-
 
 ## Response: array
 

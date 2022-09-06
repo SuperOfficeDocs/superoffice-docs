@@ -11,13 +11,7 @@ POST /api/v1/Agents/Contact/GetQuoteVersionAddresses
 
 Get the associated billing and invoice quote version addresses.
 
-
 These addresses might be address on the contact, or a custom address.
-
-
-
-
-
 
 ## Query String Parameters
 
@@ -28,7 +22,6 @@ These addresses might be address on the contact, or a custom address.
 ```http
 POST /api/v1/Agents/Contact/GetQuoteVersionAddresses?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -44,14 +37,13 @@ POST /api/v1/Agents/Contact/GetQuoteVersionAddresses?$select=name,department,cat
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request
 
-QuoteVersionId 
+QuoteVersionId
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | QuoteVersionId | int32 |  |
-
 
 ## Response: array
 

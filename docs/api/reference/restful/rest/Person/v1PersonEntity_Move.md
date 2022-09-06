@@ -11,18 +11,12 @@ POST /api/v1/Person/{personId}/MoveTo/{destinationContactId}
 
 Move a person to a specified contact.
 
-
 You must specify the date after which activities will be moved along with the person.
-
-
-
-
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | personId | int32 | The identifier for the person **Required** |
 | destinationContactId | int32 | The identifier for the contact which the person will be moved to **Required** |
-
 
 ## Query String Parameters
 
@@ -34,7 +28,6 @@ You must specify the date after which activities will be moved along with the pe
 POST /api/v1/Person/{personId}/MoveTo/{destinationContactId}?moveAfterDate=12/05/2020 11:10:55
 ```
 
-
 ## Request Headers
 
 | Parameter Name | Description |
@@ -44,8 +37,7 @@ POST /api/v1/Person/{personId}/MoveTo/{destinationContactId}?moveAfterDate=12/05
 | Accept         | Content-type(s) you would like the response in:  |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-
-## Response: 
+## Response
 
 No Content
 
@@ -53,8 +45,7 @@ No Content
 |----------------|-------------|
 | 204 | No Content |
 
-Response body: 
-
+Response body:
 
 ## Sample request
 

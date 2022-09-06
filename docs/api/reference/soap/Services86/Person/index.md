@@ -59,4 +59,3 @@ Download [WSDL file for Services86/Person](../Services86-Person.md) if you need 
 * [SetPersonImage](SetPersonImage.md)
 * [SetPersonRank](SetPersonRank.md)
 * [Undelete](Undelete.md)
-

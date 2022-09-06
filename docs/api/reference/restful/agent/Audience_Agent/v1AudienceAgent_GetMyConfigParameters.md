@@ -11,12 +11,6 @@ POST /api/v1/Agents/Audience/GetMyConfigParameters
 
 Gets the Audience configuration parameters belonging to the currently logged on user.
 
-
-
-
-
-
-
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -26,7 +20,6 @@ Gets the Audience configuration parameters belonging to the currently logged on 
 ```http
 POST /api/v1/Agents/Audience/GetMyConfigParameters?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -40,7 +33,6 @@ POST /api/v1/Agents/Audience/GetMyConfigParameters?$select=name,department,categ
 | SO-Culture | Number, date formatting in a specified culture (iso2 language) code. Partially overrides SO-Language/Accept-Language value. Ignored if no Language set. |
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
-
 
 ## Response: array
 

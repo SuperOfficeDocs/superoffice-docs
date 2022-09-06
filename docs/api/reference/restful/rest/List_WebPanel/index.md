@@ -7,15 +7,13 @@ title: List_WebPanel
 ```
 
 ---
+
 title: List_WebPanel
 ---
 
 ```http
 /api/v1/List/WebPanel
 ```
-
-
-
 
 * [GET List/WebPanel](v1WebPanelEntityList_GetListDefinition.md)
 
@@ -40,7 +38,6 @@ title: List_WebPanel
 * [POST List/WebPanel/Headings](v1WebPanelEntityList_PostWebPanelEntityHeading.md)
 
 * [DEL List/WebPanel/Headings](v1WebPanelEntityList_DeleteWebPanelEntityHeadings.md)
-
 
 * [GET List/WebPanel](v1WebPanelEntityList_GetListDefinition.md)
 

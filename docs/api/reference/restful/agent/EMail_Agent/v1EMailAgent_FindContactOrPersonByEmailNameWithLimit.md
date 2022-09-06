@@ -11,13 +11,7 @@ POST /api/v1/Agents/EMail/FindContactOrPersonByEmailNameWithLimit
 
 <para />
 
-
-## Online Restricted: ## The EMail agent is not available in Online by default. Access must be requested specifically when app is registered.
-
-
-
-
-
+## Online Restricted: ## The EMail agent is not available in Online by default. Access must be requested specifically when app is registered
 
 ## Query String Parameters
 
@@ -28,7 +22,6 @@ POST /api/v1/Agents/EMail/FindContactOrPersonByEmailNameWithLimit
 ```http
 POST /api/v1/Agents/EMail/FindContactOrPersonByEmailNameWithLimit?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -44,9 +37,9 @@ POST /api/v1/Agents/EMail/FindContactOrPersonByEmailNameWithLimit?$select=name,d
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request
 
-Name, EmailAddress, NumberOfContacts, NumberOfPersons 
+Name, EmailAddress, NumberOfContacts, NumberOfPersons
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -54,7 +47,6 @@ Name, EmailAddress, NumberOfContacts, NumberOfPersons
 | EmailAddress | string |  |
 | NumberOfContacts | int32 |  |
 | NumberOfPersons | int32 |  |
-
 
 ## Response: array
 

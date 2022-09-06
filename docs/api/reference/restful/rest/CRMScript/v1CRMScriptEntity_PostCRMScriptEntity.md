@@ -11,16 +11,9 @@ POST /api/v1/CRMScript
 
 Creates a new CRMScriptEntity
 
-
 Calls the CRMScript agent service SaveCRMScriptEntity.
 
-
-## Online Restricted: ## The CRMScript agent is not available in Online by default. Access must be requested specifically when app is registered.
-
-
-
-
-
+## Online Restricted: ## The CRMScript agent is not available in Online by default. Access must be requested specifically when app is registered
 
 ## Query String Parameters
 
@@ -31,7 +24,6 @@ Calls the CRMScript agent service SaveCRMScriptEntity.
 ```http
 POST /api/v1/CRMScript?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -47,9 +39,9 @@ POST /api/v1/CRMScript?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: newEntity  
+## Request Body: newEntity
 
-The CRMScriptEntity to be saved. 
+The CRMScriptEntity to be saved.
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -65,8 +57,7 @@ The CRMScriptEntity to be saved.
 | Updated | date-time | Last updated when  in UTC. |
 | UpdatedAssociateId | int32 | Last updated by whom |
 
-
-## Response: 
+## Response
 
 OK
 
@@ -74,7 +65,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+Response body:
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|

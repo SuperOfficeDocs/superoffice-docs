@@ -11,17 +11,11 @@ GET /api/v1/Contact/{id}
 
 Gets a ContactEntity object.
 
-
 Calls the Contact agent service GetContactEntity.
-
-
-
-
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | id | int32 | The id of the ContactEntity to return. **Required** |
-
 
 ## Query String Parameters
 
@@ -34,7 +28,6 @@ Calls the Contact agent service GetContactEntity.
 GET /api/v1/Contact/{id}?$select=name,department,category/id
 GET /api/v1/Contact/{id}?fk=False
 ```
-
 
 ## Request Headers
 
@@ -49,8 +42,7 @@ GET /api/v1/Contact/{id}?fk=False
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-
-## Response: 
+## Response
 
 ContactEntity found.
 
@@ -60,7 +52,7 @@ ContactEntity found.
 | 304 | ContactEntity has not changed since the requested If-Modified-Since date. |
 | 404 | Not Found. |
 
-Response body: 
+Response body:
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|

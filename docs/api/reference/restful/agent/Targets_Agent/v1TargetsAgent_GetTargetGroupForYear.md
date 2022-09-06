@@ -11,12 +11,6 @@ POST /api/v1/Agents/Targets/GetTargetGroupForYear
 
 Returns the target group for the specified year and entity type.
 
-
-
-
-
-
-
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -26,7 +20,6 @@ Returns the target group for the specified year and entity type.
 ```http
 POST /api/v1/Agents/Targets/GetTargetGroupForYear?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -42,17 +35,16 @@ POST /api/v1/Agents/Targets/GetTargetGroupForYear?$select=name,department,catego
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request
 
-TargetYear, EntityType 
+TargetYear, EntityType
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | TargetYear | int32 |  |
 | EntityType | string |  |
 
-
-## Response: 
+## Response
 
 OK
 
@@ -60,7 +52,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+Response body:
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|

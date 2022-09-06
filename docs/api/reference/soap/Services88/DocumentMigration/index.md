@@ -25,4 +25,3 @@ Download [WSDL file for Services88/DocumentMigration](../Services88-DocumentMigr
 * [HasDocumentsToMigrate](HasDocumentsToMigrate.md)
 * [MigrateDocumentToNewDocPlugin](MigrateDocumentToNewDocPlugin.md)
 * [MigrateTemplateToNewDocPlugin](MigrateTemplateToNewDocPlugin.md)
-

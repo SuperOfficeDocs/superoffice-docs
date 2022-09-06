@@ -13,9 +13,7 @@ Implemented by the <see cref="M:SuperOffice.Services87.IListAgent.GetOwnerCompan
 
 Get the currency of the user's owner company
 
-
 **Returns:** Currency of the user's owner company
-
 
 [WSDL file for Services87/List](../Services87-List.md)
 
@@ -48,7 +46,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
-
 ## GetOwnerCompanysCurrency Response
 
 ```xml
@@ -73,4 +70,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

@@ -13,9 +13,7 @@ Implemented by the <see cref="M:SuperOffice.Services87.IDatabaseAgent.GetStepsIn
 
 Get information about the dictionary steps that are in the currently-loggedon database
 
-
 **Returns:** Array of dictionary steps in the database, listing only the highest number for each step
-
 
 [WSDL file for Services87/Database](../Services87-Database.md)
 
@@ -47,7 +45,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
-
 ## GetStepsInDatabase Response
 
 ```xml
@@ -72,4 +69,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

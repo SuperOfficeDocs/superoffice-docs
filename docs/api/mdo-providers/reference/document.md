@@ -15,15 +15,11 @@ so.envir:
 ---
 
 # "document" MDO List
+
 MDO list provider for documents.
-
-
 
 Implemented by the <see cref="T:SuperOffice.CRM.Lists.DocumentListProvider">DocumentListProvider</see> class.
 The name of the MDO list is 'document'.
-
-
-
 
 ## Sample Request
 
@@ -36,6 +32,7 @@ Accept-Language: *
 ```
 
 ## Sample Code
+
 ```cs
 var listProvider = SuperOffice.CRM.Lists.SoListProviderFactory.Create("document", forceFlatList: true);
 foreach (var item in listProvider.RootItems) {
@@ -69,7 +66,6 @@ foreach (var item in listProvider.RootItems) {
 |69|Document for Fish company||69|
 |13|GBrevGBB||13|
 |24|HBrevHDD||24|
-
 
 ## Related MDO Lists
 

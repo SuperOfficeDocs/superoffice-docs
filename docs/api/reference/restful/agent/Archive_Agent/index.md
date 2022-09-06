@@ -7,15 +7,13 @@ title: Archive_Agent
 ```
 
 ---
+
 title: Archive_Agent
 ---
 
 ```http
 /api/v1/Archive/Agent
 ```
-
-
-
 
 * [POST Agents/Archive/CreateDefaultArchiveListResult](v1ArchiveAgent_CreateDefaultArchiveListResult.md)
 
@@ -74,7 +72,6 @@ title: Archive_Agent
 * [POST Agents/Archive/GetArchiveListByColumnsWithHeaderWithContext2](v1ArchiveAgent_GetArchiveListByColumnsWithHeaderWithContext2.md)
 
 * [POST Agents/Archive/ExportArchive](v1ArchiveAgent_ExportArchive.md)
-
 
 * [POST Agents/Archive/CreateDefaultArchiveListResult](v1ArchiveAgent_CreateDefaultArchiveListResult.md)
 

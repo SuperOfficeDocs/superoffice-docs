@@ -11,13 +11,6 @@ POST /api/v1/BatchTask
 
 Start a batch job based on BatchTaskInfo.
 
-
-
-
-
-
-
-
 ## Request Headers
 
 | Parameter Name | Description |
@@ -32,9 +25,9 @@ Start a batch job based on BatchTaskInfo.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: batchTaskInfo  
+## Request Body: batchTaskInfo
 
-Use BatchTaskInfo to describe the new batch job. 
+Use BatchTaskInfo to describe the new batch job.
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -60,7 +53,6 @@ Use BatchTaskInfo to describe the new batch job.
 | ProgressPercent | int32 | Task progress, in percent of estimated total |
 | FileName | string | The filename related to the batchtask. |
 
-
 ## Response: int32
 
 OK
@@ -70,7 +62,6 @@ OK
 | 200 | OK |
 
 Response body: int32
-
 
 ## Sample request
 

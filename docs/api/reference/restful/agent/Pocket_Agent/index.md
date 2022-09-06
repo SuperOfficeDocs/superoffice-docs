@@ -7,15 +7,13 @@ title: Pocket_Agent
 ```
 
 ---
+
 title: Pocket_Agent
 ---
 
 ```http
 /api/v1/Pocket/Agent
 ```
-
-
-
 
 * [POST Agents/Pocket/GetPocketStartupData](v1PocketAgent_GetPocketStartupData.md)
 
@@ -36,7 +34,6 @@ title: Pocket_Agent
 * [POST Agents/Pocket/NotifyUsers](v1PocketAgent_NotifyUsers.md)
 
 * [POST Agents/Pocket/NotificationHandled](v1PocketAgent_NotificationHandled.md)
-
 
 * [POST Agents/Pocket/GetMyCallerIDs](v1PocketAgent_GetMyCallerIDs.md)
 

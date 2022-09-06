@@ -7,15 +7,13 @@ title: List_Currency
 ```
 
 ---
+
 title: List_Currency
 ---
 
 ```http
 /api/v1/List/Currency
 ```
-
-
-
 
 * [GET List/Currency](v1CurrencyList_GetListDefinition.md)
 
@@ -50,7 +48,6 @@ title: List_Currency
 * [PUT List/Currency/Items/{id}/Headings](v1CurrencyList_PutCurrencyEntityHeadingsForListItem.md)
 
 * [GET List/Currency/MDOItems](v1CurrencyList_GetMDOList.md)
-
 
 * [GET List/Currency](v1CurrencyList_GetListDefinition.md)
 

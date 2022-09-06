@@ -17,7 +17,6 @@ Gets the next due date for a sale. The next due date is the next future appointm
 
 **Returns:** Next due date for the given sale.
 
-
 [WSDL file for Services87/Sale](../Services87-Sale.md)
 
 Obtain a ticket from the [Services87/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -50,7 +49,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
-
 ## GetNextDueDate Response
 
 ```xml
@@ -71,4 +69,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

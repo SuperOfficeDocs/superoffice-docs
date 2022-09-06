@@ -11,13 +11,6 @@ POST /api/v1/Agents/List/SaveDocumentTemplateEntity
 
 Updates the existing DocumentTemplateEntity or creates a new DocumentTemplateEntity if the id parameter is empty
 
-
-
-
-
-
-
-
 ## Request Headers
 
 | Parameter Name | Description |
@@ -32,9 +25,9 @@ Updates the existing DocumentTemplateEntity or creates a new DocumentTemplateEnt
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entity  
+## Request Body: entity
 
-The DocumentTemplateEntity to be saved. 
+The DocumentTemplateEntity to be saved.
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -64,8 +57,7 @@ The DocumentTemplateEntity to be saved.
 | SenderEmailAddress | string | If email template, default senderaddress when template is of type quote email or privacy email. |
 | InvitationDocType | string | Type for sending email meeting invitation. Not an invitation type template = 0, New = 1, Changed = 2, Cancelled = 3 |
 
-
-## Response: 
+## Response
 
 OK
 
@@ -73,7 +65,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+Response body:
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|

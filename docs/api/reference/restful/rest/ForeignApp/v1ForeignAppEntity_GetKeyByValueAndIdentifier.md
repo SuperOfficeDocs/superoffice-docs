@@ -11,11 +11,6 @@ GET /api/v1/ForeignApp/{applicationName}/{deviceName}/{deviceIdentifier}/Key/{ke
 
 Get a foreignkey based on its name and value, that belongs to the specified deviceId, device, and application.
 
-
-
-
-
-
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | applicationName | string | The name of the foreign application. **Required** |
@@ -23,7 +18,6 @@ Get a foreignkey based on its name and value, that belongs to the specified devi
 | deviceIdentifier | string | The device identifier. Optional if device identifier is not used. **Required** |
 | keyName | string | The name of the foreign key. **Required** |
 | tableName | string | Table name, transformed to and from numeric table id by the service layer.&lt;p/&gt;Use an empty string to indicate that your key is not bound to any specific table. **Required** |
-
 
 ## Query String Parameters
 
@@ -34,7 +28,6 @@ Get a foreignkey based on its name and value, that belongs to the specified devi
 ```http
 GET /api/v1/ForeignApp/{applicationName}/{deviceName}/{deviceIdentifier}/Key/{keyName}/{tableName}?Value=dolorum
 ```
-
 
 ## Request Headers
 
@@ -49,8 +42,7 @@ GET /api/v1/ForeignApp/{applicationName}/{deviceName}/{deviceIdentifier}/Key/{ke
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-
-## Response: 
+## Response
 
 OK
 
@@ -58,7 +50,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+Response body:
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|

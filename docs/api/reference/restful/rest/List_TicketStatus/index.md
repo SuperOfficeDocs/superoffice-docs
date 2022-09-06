@@ -7,15 +7,13 @@ title: List_TicketStatus
 ```
 
 ---
+
 title: List_TicketStatus
 ---
 
 ```http
 /api/v1/List/TicketStatus
 ```
-
-
-
 
 * [GET List/TicketStatus](v1TicketStatusList_GetListDefinition.md)
 
@@ -42,7 +40,6 @@ title: List_TicketStatus
 * [DEL List/TicketStatus/Headings](v1TicketStatusList_DeleteTicketStatusEntityHeadings.md)
 
 * [GET List/TicketStatus/{id}/ChangeTo/{id}](v1TicketStatusList_GlobalChangeTicketStatus.md)
-
 
 * [GET List/TicketStatus](v1TicketStatusList_GetListDefinition.md)
 

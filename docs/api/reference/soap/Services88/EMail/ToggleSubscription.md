@@ -17,8 +17,6 @@ Set subscription on or off on a set of folders
 * **folderId:** The folder id to set subscription value on
 * **subscriptionStatus:** The subscription status to set
 
-
-
 [WSDL file for Services88/EMail](../Services88-EMail.md)
 
 Obtain a ticket from the [Services88/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -52,7 +50,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
-
 ## ToggleSubscription Response
 
 ```xml
@@ -72,4 +69,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

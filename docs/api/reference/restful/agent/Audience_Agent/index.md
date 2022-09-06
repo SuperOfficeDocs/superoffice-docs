@@ -7,15 +7,13 @@ title: Audience_Agent
 ```
 
 ---
+
 title: Audience_Agent
 ---
 
 ```http
 /api/v1/Audience/Agent
 ```
-
-
-
 
 * [POST Agents/Audience/CreateDefaultAudienceLayoutEntity](v1AudienceAgent_CreateDefaultAudienceLayoutEntity.md)
 
@@ -68,7 +66,6 @@ title: Audience_Agent
 * [POST Agents/Audience/GetLogoImage](v1AudienceAgent_GetLogoImage.md)
 
 * [POST Agents/Audience/SetLogoImage](v1AudienceAgent_SetLogoImage.md)
-
 
 * [POST Agents/Audience/CreateDefaultAudienceLayoutEntity](v1AudienceAgent_CreateDefaultAudienceLayoutEntity.md)
 

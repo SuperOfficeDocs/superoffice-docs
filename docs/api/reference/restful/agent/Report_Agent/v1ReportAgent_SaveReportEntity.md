@@ -11,13 +11,6 @@ POST /api/v1/Agents/Report/SaveReportEntity
 
 Updates the existing ReportEntity or creates a new ReportEntity if the id parameter is empty
 
-
-
-
-
-
-
-
 ## Request Headers
 
 | Parameter Name | Description |
@@ -32,9 +25,9 @@ Updates the existing ReportEntity or creates a new ReportEntity if the id parame
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entity  
+## Request Body: entity
 
-The ReportEntity to be saved. 
+The ReportEntity to be saved.
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -47,8 +40,7 @@ The ReportEntity to be saved.
 | TemplateId | int32 | The id of report template. |
 | Published | bool | Is the report published? |
 
-
-## Response: 
+## Response
 
 OK
 
@@ -56,7 +48,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+Response body:
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|

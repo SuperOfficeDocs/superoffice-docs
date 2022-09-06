@@ -11,13 +11,7 @@ POST /api/v1/Pricelist
 
 Creates a new PriceList
 
-
 Calls the Quote agent service SavePriceList.
-
-
-
-
-
 
 ## Query String Parameters
 
@@ -28,7 +22,6 @@ Calls the Quote agent service SavePriceList.
 ```http
 POST /api/v1/Pricelist?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -44,9 +37,9 @@ POST /api/v1/Pricelist?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: newEntity  
+## Request Body: newEntity
 
-The PriceList to be saved. 
+The PriceList to be saved.
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -61,8 +54,7 @@ The PriceList to be saved.
 | ValidTo | date-time | The date (inclusive) the pricelist ends to be valid. This can be DateTime.MaxValue to signal that it doesn't have a specific end date. |
 | IsActive | bool | Is the list active (as opposed to being worked on, suddenly canceled, etc. |
 
-
-## Response: 
+## Response
 
 OK
 
@@ -70,7 +62,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+Response body:
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|

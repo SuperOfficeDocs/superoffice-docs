@@ -11,13 +11,6 @@ PUT /api/v1/Person/UdefLayout
 
 Save PersonEntity user-defined field layout.
 
-
-
-
-
-
-
-
 ## Request Headers
 
 | Parameter Name | Description |
@@ -32,9 +25,7 @@ Save PersonEntity user-defined field layout.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: fields  
-
- 
+## Request Body: fields
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -72,7 +63,6 @@ Save PersonEntity user-defined field layout.
 | TemplateVariableName | string | Template variable name |
 | HasBeenPublished | bool | Has the udef field been published? |
 | MdoListName | string | MDO list name used to populate this list. Derived from UDListDefinitionId and ListTableId. (Read-only) |
-
 
 ## Response: array
 

@@ -14,9 +14,7 @@ Implemented by the <see cref="M:SuperOffice.Services87.IPersonAgent.CreateDefaul
 Loading default values into a new PersonEntity.
 NetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance
 
-
 **Returns:** New PersonEntity with default values
-
 
 [WSDL file for Services87/Person](../Services87-Person.md)
 
@@ -48,7 +46,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-
 
 ## CreateDefaultPersonEntity Response
 
@@ -548,4 +545,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

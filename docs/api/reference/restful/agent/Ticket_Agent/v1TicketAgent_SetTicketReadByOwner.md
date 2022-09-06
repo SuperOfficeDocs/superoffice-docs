@@ -11,13 +11,7 @@ POST /api/v1/Agents/Ticket/SetTicketReadByOwner
 
 Set the ReadByOwner status for a ticket.
 
-
 It will only have an effect if the calling user is the same as the owner of the ticket
-
-
-
-
-
 
 ## Query String Parameters
 
@@ -28,7 +22,6 @@ It will only have an effect if the calling user is the same as the owner of the 
 ```http
 POST /api/v1/Agents/Ticket/SetTicketReadByOwner?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -44,9 +37,9 @@ POST /api/v1/Agents/Ticket/SetTicketReadByOwner?$select=name,department,category
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request
 
-TicketEntityId, ReadStatus, CheckEscalating 
+TicketEntityId, ReadStatus, CheckEscalating
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -54,8 +47,7 @@ TicketEntityId, ReadStatus, CheckEscalating
 | ReadStatus | string |  |
 | CheckEscalating | bool |  |
 
-
-## Response: 
+## Response
 
 OK
 
@@ -63,7 +55,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+Response body:
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|

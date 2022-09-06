@@ -17,7 +17,6 @@ Get a ticket entity, adapted to the specific needs of the Request Management UI.
 
 **Returns:** The ticket entity. Information is filtered/adapted to the current needs of the UI
 
-
 [WSDL file for Services88/Ticket](../Services88-Ticket.md)
 
 Obtain a ticket from the [Services88/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -49,7 +48,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-
 
 ## GetForRmUi Response
 
@@ -378,4 +376,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

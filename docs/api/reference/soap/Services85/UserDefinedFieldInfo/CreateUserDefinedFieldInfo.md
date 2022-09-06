@@ -18,7 +18,6 @@ Create a UserDefinedFieldInfo based on a owner-entity id
 
 **Returns:** Returns the user-defined field info carrier
 
-
 [WSDL file for Services85/UserDefinedFieldInfo](../Services85-UserDefinedFieldInfo.md)
 
 Obtain a ticket from the [Services85/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -51,7 +50,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-
 
 ## CreateUserDefinedFieldInfo Response
 
@@ -107,4 +105,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

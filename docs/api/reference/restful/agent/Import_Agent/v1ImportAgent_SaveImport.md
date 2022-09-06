@@ -11,12 +11,6 @@ POST /api/v1/Agents/Import/SaveImport
 
 Do the actual import
 
-
-
-
-
-
-
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -26,7 +20,6 @@ Do the actual import
 ```http
 POST /api/v1/Agents/Import/SaveImport?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -42,9 +35,9 @@ POST /api/v1/Agents/Import/SaveImport?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request
 
-ImportLines, ColumnDefinition, CreateSelection, Culture, Context 
+ImportLines, ColumnDefinition, CreateSelection, Culture, Context
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -53,7 +46,6 @@ ImportLines, ColumnDefinition, CreateSelection, Culture, Context
 | CreateSelection | bool |  |
 | Culture | string |  |
 | Context | string |  |
-
 
 ## Response: array
 
@@ -64,7 +56,6 @@ OK
 | 200 | OK |
 
 Response body: array
-
 
 ## Sample request
 

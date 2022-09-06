@@ -13,9 +13,7 @@ Implemented by the <see cref="M:SuperOffice.Services84.IContactAgent.GetMyBizCar
 
 Returns all data needed to display the logged on person's business card. That is company, person, and company interest data.
 
-
 **Returns:** The contact object with persons and interests
-
 
 [WSDL file for Services84/Contact](../Services84-Contact.md)
 
@@ -47,7 +45,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-
 
 ## GetMyBizCard Response
 
@@ -377,4 +374,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

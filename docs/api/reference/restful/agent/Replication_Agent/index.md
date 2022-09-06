@@ -7,15 +7,13 @@ title: Replication_Agent
 ```
 
 ---
+
 title: Replication_Agent
 ---
 
 ```http
 /api/v1/Replication/Agent
 ```
-
-
-
 
 * [POST Agents/Replication/CreateDefaultSatellite](v1ReplicationAgent_CreateDefaultSatellite.md)
 
@@ -32,7 +30,6 @@ title: Replication_Agent
 * [POST Agents/Replication/GetCentralLicense](v1ReplicationAgent_GetCentralLicense.md)
 
 * [POST Agents/Replication/SaveCentralLicense](v1ReplicationAgent_SaveCentralLicense.md)
-
 
 * [POST Agents/Replication/CreateDefaultSatellite](v1ReplicationAgent_CreateDefaultSatellite.md)
 

@@ -11,12 +11,6 @@ POST /api/v1/Agents/Chat/AddChatTopicUserAgent
 
 Add a user to a chat topic
 
-
-
-
-
-
-
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -26,7 +20,6 @@ Add a user to a chat topic
 ```http
 POST /api/v1/Agents/Chat/AddChatTopicUserAgent?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -42,17 +35,16 @@ POST /api/v1/Agents/Chat/AddChatTopicUserAgent?$select=name,department,category/
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request
 
-ChatTopicId, Useragent 
+ChatTopicId, Useragent
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | ChatTopicId | int32 |  |
 | Useragent |  | User agents within a chat topic. Which users are assigned and what roles they have within the chat topic. <para /> Carrier object for ChatTopicAgent. Services for the ChatTopicAgent Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IChatAgent">Chat Agent</see>. |
 
-
-## Response: 
+## Response
 
 OK
 
@@ -60,7 +52,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+Response body:
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|

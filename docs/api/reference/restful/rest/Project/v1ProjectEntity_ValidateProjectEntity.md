@@ -11,13 +11,6 @@ POST /api/v1/Project/Validate
 
 Check that entity is ready for saving, return error messages by field.
 
-
-
-
-
-
-
-
 ## Request Headers
 
 | Parameter Name | Description |
@@ -32,9 +25,9 @@ Check that entity is ready for saving, return error messages by field.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: projectEntity  
+## Request Body: projectEntity
 
-Entity to be checked for errors. 
+Entity to be checked for errors.
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -70,7 +63,6 @@ Entity to be checked for errors.
 | PublishFrom | date-time | Publication valid from (inclusive) |
 | IsPublished | bool | Publication is published |
 
-
 ## Response: object
 
 OK
@@ -80,7 +72,6 @@ OK
 | 200 | OK |
 
 Response body: object
-
 
 ## Sample request
 

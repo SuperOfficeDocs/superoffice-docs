@@ -11,13 +11,7 @@ POST /api/v1/Agents/UserDefinedFieldInfo/SetPublishStartSystemEvent
 
 Set the start flag for udef publishing.
 
-
 Must be called before PUBLISH, or PUBLISH will fail. Start flag is removed when publish process completes.
-
-
-
-
-
 
 ## Query String Parameters
 
@@ -29,7 +23,6 @@ Must be called before PUBLISH, or PUBLISH will fail. Start flag is removed when 
 POST /api/v1/Agents/UserDefinedFieldInfo/SetPublishStartSystemEvent?$select=name,department,category/id
 ```
 
-
 ## Request Headers
 
 | Parameter Name | Description |
@@ -40,16 +33,15 @@ POST /api/v1/Agents/UserDefinedFieldInfo/SetPublishStartSystemEvent?$select=name
 | Accept         | Content-type(s) you would like the response in:  |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request
 
-OwnerType 
+OwnerType
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | OwnerType | string |  |
 
-
-## Response: 
+## Response
 
 No Content
 
@@ -57,8 +49,7 @@ No Content
 |----------------|-------------|
 | 204 | No Content |
 
-Response body: 
-
+Response body:
 
 ## Sample request
 

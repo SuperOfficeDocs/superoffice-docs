@@ -11,13 +11,6 @@ POST /api/v1/Presence/SaveAll
 
 Save the chat presence for specified users
 
-
-
-
-
-
-
-
 ## Request Headers
 
 | Parameter Name | Description |
@@ -28,9 +21,9 @@ Save the chat presence for specified users
 | Accept         | Content-type(s) you would like the response in:  |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: chatPresence  
+## Request Body: chatPresence
 
-An array with ChatPresence objects. Only the UserId and Present information is used while saving 
+An array with ChatPresence objects. Only the UserId and Present information is used while saving
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -40,8 +33,7 @@ An array with ChatPresence objects. Only the UserId and Present information is u
 | Present | bool | Indicates if the user has the chat presence turned on or off |
 | ChatTopics | array | An array of ids with chat topics that this user is a member of |
 
-
-## Response: 
+## Response
 
 No Content
 
@@ -49,8 +41,7 @@ No Content
 |----------------|-------------|
 | 204 | No Content |
 
-Response body: 
-
+Response body:
 
 ## Sample request
 

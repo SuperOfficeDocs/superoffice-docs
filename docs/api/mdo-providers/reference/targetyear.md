@@ -15,15 +15,11 @@ so.envir:
 ---
 
 # "targetyear" MDO List
+
 Year MDO list. Includes the two coming years, this year, and previous 5 years
-
-
 
 Implemented by the <see cref="T:SuperOffice.CRM.Lists.TargetYearProvider">TargetYearProvider</see> class.
 The name of the MDO list is 'targetyear'.
-
-
-
 
 ## Sample Request
 
@@ -36,6 +32,7 @@ Accept-Language: *
 ```
 
 ## Sample Code
+
 ```cs
 var listProvider = SuperOffice.CRM.Lists.SoListProviderFactory.Create("targetyear", forceFlatList: true);
 foreach (var item in listProvider.RootItems) {
@@ -56,7 +53,6 @@ foreach (var item in listProvider.RootItems) {
 |2019|2019|||
 |2018|2018|||
 |2017|2017|||
-
 
 ## Related MDO Lists
 

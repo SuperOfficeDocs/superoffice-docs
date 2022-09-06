@@ -11,13 +11,7 @@ POST /api/v1/Agents/Appointment/GetPersonAppointmentsByTasks
 
 Method that returns a specified number of appointments from a list of appointment task types within a time range.
 
-
 The appointments belong to the person specified.  Task represents the different types of activities, like “Phone call”, “Meeting” and so on.
-
-
-
-
-
 
 ## Query String Parameters
 
@@ -28,7 +22,6 @@ The appointments belong to the person specified.  Task represents the different 
 ```http
 POST /api/v1/Agents/Appointment/GetPersonAppointmentsByTasks?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -44,9 +37,9 @@ POST /api/v1/Agents/Appointment/GetPersonAppointmentsByTasks?$select=name,depart
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request
 
-PersonId, IncludeProjectAppointments, StartTime, EndTime, Count, TaskIds 
+PersonId, IncludeProjectAppointments, StartTime, EndTime, Count, TaskIds
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -56,7 +49,6 @@ PersonId, IncludeProjectAppointments, StartTime, EndTime, Count, TaskIds
 | EndTime | date-time |  |
 | Count | int32 |  |
 | TaskIds | array |  |
-
 
 ## Response: array
 

@@ -7,15 +7,13 @@ title: List_Price
 ```
 
 ---
+
 title: List_Price
 ---
 
 ```http
 /api/v1/List/Price
 ```
-
-
-
 
 * [GET Pricelist/default](v1PriceList_DefaultPriceList.md)
 
@@ -34,7 +32,6 @@ title: List_Price
 * [GET Pricelist/{id}/Products](v1PriceList_Products.md)
 
 * [POST Pricelist/{id}/CopyTo/{newName}](v1PriceList_CopySuperOfficePriceList.md)
-
 
 * [GET Pricelist/default](v1PriceList_DefaultPriceList.md)
 

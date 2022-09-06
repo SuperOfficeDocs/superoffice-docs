@@ -11,16 +11,9 @@ POST /api/v1/Attachment/{attachmentId}/Content
 
 Upload an attachment and return the attachment id
 
-
-
-
-
-
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | attachmentId | int32 | The id of the attachment row, for which to attach the upload data **Required** |
-
-
 
 ## Request Headers
 
@@ -32,13 +25,11 @@ Upload an attachment and return the attachment id
 | Accept         | Content-type(s) you would like the response in:  |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: content  
+## Request Body: content
 
-A stream to the content to be uploaded 
+A stream to the content to be uploaded
 
-
-
-## Response: 
+## Response
 
 No Content
 
@@ -46,8 +37,7 @@ No Content
 |----------------|-------------|
 | 204 | No Content |
 
-Response body: 
-
+Response body:
 
 ## Sample request
 

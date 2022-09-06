@@ -7,15 +7,13 @@ title: List_LegalBase
 ```
 
 ---
+
 title: List_LegalBase
 ---
 
 ```http
 /api/v1/List/LegalBase
 ```
-
-
-
 
 * [GET List/LegalBase](v1LegalBaseList_GetListDefinition.md)
 
@@ -48,7 +46,6 @@ title: List_LegalBase
 * [PUT List/LegalBase/Items/{id}/Headings](v1LegalBaseList_PutLegalBaseHeadingsForListItem.md)
 
 * [GET List/LegalBase/MDOItems](v1LegalBaseList_GetMDOList.md)
-
 
 * [GET List/LegalBase](v1LegalBaseList_GetListDefinition.md)
 

@@ -51,17 +51,17 @@ the actual functionality of the provider.
 |getNoRows|bool|GetNone: Do not get any rows from the archive|  |
 |userplan| *None* |User plan: User plan (licence)|  |
 |canLogin|bool|Can log in: Can log in|  |
-|superoffice\_admin-system-user| *None* |System user administrator: Allows user to admin system user in SOADMIN user panel.|  |
-|superoffice\_admin-extern-user| *None* |External user administrator: Allows user to admin external user in CRM client|  |
-|superoffice\_visible-for| *None* |Confidential activities: Enables the visible-for dropdown in the CRM client|  |
-|superoffice\_reporter-studio-user| *None* |Reporter Studio: Allows user to log in to Reporter Studio.|  |
-|superoffice\_admin-anonymous-user| *None* |Anonymous user admin: Allows user to admin anonymous user in SOADMIN user panel.|  |
-|superoffice\_publish| *None* |Publish to external: Enables Publish checkbox in CRM client. Requires Extern-user|  |
-|superoffice\_superlicense-no-selection| *None* |(No Selection): User Plan: License Not in Use.|  |
-|superoffice\_ten-sales| *None* |SalesPREM: User Plan: Can edit Companies, Diary, Sales, Selections, Reports|  |
-|superoffice\_ten-service| *None* |ServicePREM: User Plan: Can edit Requests|  |
-|superoffice\_ten-marketing| *None* |Marketing: User Plan: Can send Mailings, Combined Selections|  |
-|superoffice\_ten-salesservicemarketing| *None* |SalesPREM-ServicePREM-Marketing: User Plan: Can edit sales, requests, mailings.|  |
+|SuperOffice\_admin-system-user| *None* |System user administrator: Allows user to admin system user in SOADMIN user panel.|  |
+|SuperOffice\_admin-extern-user| *None* |External user administrator: Allows user to admin external user in CRM client|  |
+|SuperOffice\_visible-for| *None* |Confidential activities: Enables the visible-for dropdown in the CRM client|  |
+|SuperOffice\_reporter-studio-user| *None* |Reporter Studio: Allows user to log in to Reporter Studio.|  |
+|SuperOffice\_admin-anonymous-user| *None* |Anonymous user admin: Allows user to admin anonymous user in SOADMIN user panel.|  |
+|SuperOffice\_publish| *None* |Publish to external: Enables Publish checkbox in CRM client. Requires Extern-user|  |
+|SuperOffice\_superlicense-no-selection| *None* |(No Selection): User Plan: License Not in Use.|  |
+|SuperOffice\_ten-sales| *None* |SalesPREM: User Plan: Can edit Companies, Diary, Sales, Selections, Reports|  |
+|SuperOffice\_ten-service| *None* |ServicePREM: User Plan: Can edit Requests|  |
+|SuperOffice\_ten-marketing| *None* |Marketing: User Plan: Can send Mailings, Combined Selections|  |
+|SuperOffice\_ten-salesservicemarketing| *None* |SalesPREM-ServicePREM-Marketing: User Plan: Can edit sales, requests, mailings.|  |
 |firstName|string|First name: Displays the contact's first name| x |
 |lastName|string|Last name: Displays the contact's last name| x |
 |middleName|string|Middle Name : Displays the contact's middle name.| x |
@@ -103,7 +103,4 @@ Accept-Language: sv
 
 ```
 
-
-
 See also: <see cref="T:SuperOffice.CRM.Services.IArchiveAgent">IArchiveAgent</see>.</p>
-

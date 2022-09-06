@@ -20,7 +20,6 @@ Creates a new selection based on selection members from an existing selection.
 
 **Returns:** Returns the newly created SelectionEntity.
 
-
 [WSDL file for Services88/Selection](../Services88-Selection.md)
 
 Obtain a ticket from the [Services88/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -55,7 +54,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-
 
 ## CreateContactSelectionFromSelection Response
 
@@ -194,4 +192,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

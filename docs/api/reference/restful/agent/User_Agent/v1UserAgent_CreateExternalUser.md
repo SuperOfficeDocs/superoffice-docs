@@ -11,15 +11,7 @@ POST /api/v1/Agents/User/CreateExternalUser
 
 Creates an associate of type external user.
 
-
-
-
-## Online Restricted: ## The User agent is not available in Online by default. User management is not allowed for partner apps.
-
-
-
-
-
+## Online Restricted: ## The User agent is not available in Online by default. User management is not allowed for partner apps
 
 ## Query String Parameters
 
@@ -30,7 +22,6 @@ Creates an associate of type external user.
 ```http
 POST /api/v1/Agents/User/CreateExternalUser?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -46,9 +37,9 @@ POST /api/v1/Agents/User/CreateExternalUser?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request
 
-PersonId, UserName, Password, RoleId, IsActive 
+PersonId, UserName, Password, RoleId, IsActive
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -57,7 +48,6 @@ PersonId, UserName, Password, RoleId, IsActive
 | Password | string |  |
 | RoleId | int32 |  |
 | IsActive | bool |  |
-
 
 ## Response: int32
 
@@ -68,7 +58,6 @@ OK
 | 200 | OK |
 
 Response body: int32
-
 
 ## Sample request
 

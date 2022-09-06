@@ -11,12 +11,6 @@ POST /api/v1/Agents/Appointment/WillSendEmail
 
 Returns true if the changes will trigger email sending on Save, so you can inform the user.
 
-
-
-
-
-
-
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -26,7 +20,6 @@ Returns true if the changes will trigger email sending on Save, so you can infor
 ```http
 POST /api/v1/Agents/Appointment/WillSendEmail?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -42,14 +35,13 @@ POST /api/v1/Agents/Appointment/WillSendEmail?$select=name,department,category/i
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request
 
-Appointment 
+Appointment
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | Appointment |  | Partial AppointmentEntity class associating the generated AppointmentEntity with an interface. |
-
 
 ## Response: bool
 
@@ -60,7 +52,6 @@ OK
 | 200 | OK |
 
 Response body: bool
-
 
 ## Sample request
 

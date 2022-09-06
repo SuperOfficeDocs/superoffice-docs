@@ -11,20 +11,11 @@ PUT /api/v1/User/{userName}
 
 Save a user, with lookup based on the user name.
 
-
-
-
-## Online Restricted: ## The User agent is not available in Online by default. User management is not allowed for partner apps.
-
-
-
-
+## Online Restricted: ## The User agent is not available in Online by default. User management is not allowed for partner apps
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | userName | string | User name of the user to get. **Required** |
-
-
 
 ## Request Headers
 
@@ -40,9 +31,9 @@ Save a user, with lookup based on the user name.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: user  
+## Request Body: user
 
-User object to save. 
+User object to save.
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -72,8 +63,7 @@ User object to save.
 | CustomFields | object | Udef + Extra fields added to the carrier. Extra fields as defined by changes to database schema + user-defined fields as defined by admin. Custom fields combines user defined fields and extra fields into one bucket.  The individual {SuperOffice.CRM.Services.User.ExtraFields} and <see cref="!:UserDefinedFields">UserDefinedFields</see> properties are deprecated in favor of this combined collection. |
 | PostSaveCommands | array | Post custom commands the client should execute after save has completed. |
 
-
-## Response: 
+## Response
 
 OK
 
@@ -81,7 +71,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+Response body:
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|

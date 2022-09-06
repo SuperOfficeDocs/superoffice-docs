@@ -11,16 +11,9 @@ PUT /api/v1/List/QuoteApproveReason/Items/{id}
 
 Updates an existing QuoteApproveReason list item.
 
-
-
-
-
-
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | id | int32 | The id of QuoteApproveReason to be saved. **Required** |
-
-
 
 ## Request Headers
 
@@ -36,9 +29,9 @@ Updates an existing QuoteApproveReason list item.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: listItem  
+## Request Body: listItem
 
-The details of QuoteApproveReason list item to be saved. 
+The details of QuoteApproveReason list item to be saved.
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -49,8 +42,7 @@ The details of QuoteApproveReason list item to be saved.
 | UdListDefinitionId | int32 | The id of the list which this list item belongs to |
 | Rank | int32 | The rank of the list item |
 
-
-## Response: 
+## Response
 
 OK
 
@@ -59,7 +51,7 @@ OK
 | 200 | OK |
 | 400 | Bad request. Entity to save is not in request body. |
 
-Response body: 
+Response body:
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|

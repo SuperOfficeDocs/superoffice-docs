@@ -18,7 +18,6 @@ Return list of all columns supported by an archive provider. See also GetArchive
 
 **Returns:** Array of all columns supported by the archive provider.
 
-
 [WSDL file for Services84/Archive](../Services84-Archive.md)
 
 Obtain a ticket from the [Services84/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -51,7 +50,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-
 
 ## GetAvailableColumns Response
 
@@ -88,4 +86,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

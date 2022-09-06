@@ -7,15 +7,13 @@ title: User_Agent
 ```
 
 ---
+
 title: User_Agent
 ---
 
 ```http
 /api/v1/User/Agent
 ```
-
-
-
 
 * [POST Agents/User/ValidateUser](v1UserAgent_ValidateUser.md)
 
@@ -202,7 +200,6 @@ title: User_Agent
 * [POST Agents/User/SaveUserFromName](v1UserAgent_SaveUserFromName.md)
 
 * [POST Agents/User/DeleteUserFromName](v1UserAgent_DeleteUserFromName.md)
-
 
 * [POST Agents/User/SetPassword](v1UserAgent_SetPassword.md)
 

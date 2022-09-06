@@ -11,12 +11,6 @@ POST /api/v1/Agents/List/SetHeadingsForListItem
 
 Set headings which this list item should be listed under
 
-
-
-
-
-
-
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -26,7 +20,6 @@ Set headings which this list item should be listed under
 ```http
 POST /api/v1/Agents/List/SetHeadingsForListItem?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -38,9 +31,9 @@ POST /api/v1/Agents/List/SetHeadingsForListItem?$select=name,department,category
 | Accept         | Content-type(s) you would like the response in:  |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request
 
-UdListDefinitionId, ListItemId, HeadingIds, Enable 
+UdListDefinitionId, ListItemId, HeadingIds, Enable
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -49,8 +42,7 @@ UdListDefinitionId, ListItemId, HeadingIds, Enable
 | HeadingIds | array |  |
 | Enable | bool |  |
 
-
-## Response: 
+## Response
 
 No Content
 
@@ -58,8 +50,7 @@ No Content
 |----------------|-------------|
 | 204 | No Content |
 
-Response body: 
-
+Response body:
 
 ## Sample request
 

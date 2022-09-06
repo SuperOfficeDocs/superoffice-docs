@@ -11,11 +11,6 @@ Implemented by the <see cref="M:SuperOffice.Services85.IMessagingAgent.GetPlugin
 
 ## GetPlugins
 
-
-
-
-
-
 [WSDL file for Services85/Messaging](../Services85-Messaging.md)
 
 Obtain a ticket from the [Services85/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -47,7 +42,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
-
 ## GetPlugins Response
 
 ```xml
@@ -76,4 +70,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

@@ -11,16 +11,9 @@ POST /api/v1/Agents/EMail/GetPreviewAttachmentFromDocId
 
 Retrieve an attachment from an e-mail stored in the document archive.
 
-
 The returned data is intended to be use for a preview.
 
-
-## Online Restricted: ## The EMail agent is not available in Online by default. Access must be requested specifically when app is registered.
-
-
-
-
-
+## Online Restricted: ## The EMail agent is not available in Online by default. Access must be requested specifically when app is registered
 
 ## Query String Parameters
 
@@ -31,7 +24,6 @@ The returned data is intended to be use for a preview.
 ```http
 POST /api/v1/Agents/EMail/GetPreviewAttachmentFromDocId?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -47,17 +39,16 @@ POST /api/v1/Agents/EMail/GetPreviewAttachmentFromDocId?$select=name,department,
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request
 
-DocId, AttachmentId 
+DocId, AttachmentId
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | DocId | int32 |  |
 | AttachmentId | string |  |
 
-
-## Response: 
+## Response
 
 OK
 
@@ -65,7 +56,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+Response body:
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|

@@ -11,16 +11,9 @@ POST /api/v1/Webhook
 
 Creates a new Webhook
 
-
 Calls the Webhook agent service SaveWebhook.
 
-
-## Online Restricted: ## The Webhook agent is not available in Online by default. Access must be requested specifically when app is registered.
-
-
-
-
-
+## Online Restricted: ## The Webhook agent is not available in Online by default. Access must be requested specifically when app is registered
 
 ## Query String Parameters
 
@@ -31,7 +24,6 @@ Calls the Webhook agent service SaveWebhook.
 ```http
 POST /api/v1/Webhook?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -47,9 +39,9 @@ POST /api/v1/Webhook?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: newEntity  
+## Request Body: newEntity
 
-The Webhook to be saved. 
+The Webhook to be saved.
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -67,8 +59,7 @@ The Webhook to be saved.
 | Updated | date-time | Last updated when  in UTC. |
 | UpdatedAssociate |  | The user that last updated the webhook. |
 
-
-## Response: 
+## Response
 
 OK
 
@@ -76,7 +67,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+Response body:
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|

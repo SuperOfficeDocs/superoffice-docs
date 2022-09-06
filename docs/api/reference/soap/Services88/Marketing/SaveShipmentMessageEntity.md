@@ -17,7 +17,6 @@ Updates the existing ShipmentMessageEntity or creates a new ShipmentMessageEntit
 
 **Returns:** New or updated ShipmentMessageEntity
 
-
 [WSDL file for Services88/Marketing](../Services88-Marketing.md)
 
 Obtain a ticket from the [Services88/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -71,7 +70,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
-
 ## SaveShipmentMessageEntity Response
 
 ```xml
@@ -113,4 +111,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

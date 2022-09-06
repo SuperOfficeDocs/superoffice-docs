@@ -7,15 +7,13 @@ title: String
 ```
 
 ---
+
 title: String
 ---
 
 ```http
 /api/v1/String
 ```
-
-
-
 
 * [GET String](v1String_GetStringNames.md)
 
@@ -26,7 +24,6 @@ title: String
 * [GET String/{sr_id}/{isoLangCode}](v1String_GetString.md)
 
 * [GET String/KnownLanguages](v1String_GetKnownLanguages.md)
-
 
 * [GET String](v1String_GetStringNames.md)
 

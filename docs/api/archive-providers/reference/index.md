@@ -64,7 +64,6 @@ This is a list of all the valid provider names, and the associated column names 
 * [ChatConversationStaticSelectionV2](ChatConversationStaticSelectionV2.md)
 * [ChatSession](ChatSession.md)
 * [ChecklistAppointment](ChecklistAppointment.md)
-* [ConfigurableArchive](ConfigurableArchive.md)
 * [ConfigurableArchiveProject](ConfigurableArchiveProject.md)
 * [ConfigurableArchiveQuoteLine](ConfigurableArchiveQuoteLine.md)
 * [ConsentPurpose](ConsentPurpose.md)

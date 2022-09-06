@@ -15,9 +15,7 @@ Loading default values into a new DocumentTemplateMigrationList.
 NetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance
 <para /><b>Online Restricted:</b> The DocumentMigration agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for SuperOffice-internal apps.
 
-
 **Returns:** New DocumentTemplateMigrationList with default values
-
 
 [WSDL file for Services88/DocumentMigration](../Services88-DocumentMigration.md)
 
@@ -50,7 +48,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
-
 ## CreateDefaultDocumentTemplateMigrationList Response
 
 ```xml
@@ -77,4 +74,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

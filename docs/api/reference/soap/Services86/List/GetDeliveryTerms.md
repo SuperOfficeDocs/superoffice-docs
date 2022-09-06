@@ -13,9 +13,7 @@ Implemented by the <see cref="M:SuperOffice.Services86.IListAgent.GetDeliveryTer
 
 Returns all DeliveryTerms in SuperOffice db.
 
-
 **Returns:** An array of all available DeliveryTerms
-
 
 [WSDL file for Services86/List](../Services86-List.md)
 
@@ -48,7 +46,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
-
 ## GetDeliveryTerms Response
 
 ```xml
@@ -75,4 +72,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

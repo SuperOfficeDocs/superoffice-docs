@@ -15,7 +15,7 @@ This carrier describes a custom field to be added to the config dialog at runtim
 > [!NOTE]
 > This is just a description of the field - it is not the field itself.
 
-The GUI will use this info to build the user interface controls. The call to the ERP Connector’s `GetConfigurationFields` method returns a list of fields and field types. The Admin client builds a dialog with these fields.
+The GUI will use this info to build the user interface controls. The call to the ERP Connector’s [`GetConfigurationFields`](../iquoteconnector.md#dictionaryltstring-fieldmetadatainfo-getconfigurationfields) method returns a list of fields and field types. The Admin client builds a dialog with these fields.
 
 **Admin Quote Connection Dialog:**
 

@@ -7,15 +7,13 @@ title: RelationDefinition
 ```
 
 ---
+
 title: RelationDefinition
 ---
 
 ```http
 /api/v1/RelationDefinition
 ```
-
-
-
 
 * [GET RelationDefinition/default](v1RelationDefinitionEntity_DefaultRelationDefinitionEntity.md)
 
@@ -26,7 +24,6 @@ title: RelationDefinition
 * [PUT RelationDefinition/{id}](v1RelationDefinitionEntity_PutRelationDefinitionEntity.md)
 
 * [PATCH RelationDefinition/{id}](v1RelationDefinitionEntity_PatchRelationDefinitionEntity.md)
-
 
 * [GET RelationDefinition/default](v1RelationDefinitionEntity_DefaultRelationDefinitionEntity.md)
 

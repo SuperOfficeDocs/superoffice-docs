@@ -7,15 +7,13 @@ title: Ticket_Agent
 ```
 
 ---
+
 title: Ticket_Agent
 ---
 
 ```http
 /api/v1/Ticket/Agent
 ```
-
-
-
 
 * [POST Agents/Ticket/CreateDefaultAttachmentEntity](v1TicketAgent_CreateDefaultAttachmentEntity.md)
 
@@ -76,7 +74,6 @@ title: Ticket_Agent
 * [POST Agents/Ticket/SetTicketMessageImportant](v1TicketAgent_SetTicketMessageImportant.md)
 
 * [POST Agents/Ticket/SaveTicketMessageEntityWithNotify](v1TicketAgent_SaveTicketMessageEntityWithNotify.md)
-
 
 * [POST Agents/Ticket/CreateDefaultAttachmentEntity](v1TicketAgent_CreateDefaultAttachmentEntity.md)
 

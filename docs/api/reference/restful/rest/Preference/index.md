@@ -7,15 +7,13 @@ title: Preference
 ```
 
 ---
+
 title: Preference
 ---
 
 ```http
 /api/v1/Preference
 ```
-
-
-
 
 * [GET Preference](v1Preference_GetSections.md)
 
@@ -32,7 +30,6 @@ title: Preference
 * [PUT Preference/{section}/{key}/{prefLevel}](v1Preference_SetPrefValueAtLevel.md)
 
 * [POST Preference/{section}/{key}/{prefLevel}](v1Preference_SetPrefValueAtLevel_POST.md)
-
 
 * [GET Preference](v1Preference_GetSections.md)
 

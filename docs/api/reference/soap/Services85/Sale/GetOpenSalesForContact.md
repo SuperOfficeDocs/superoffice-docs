@@ -17,7 +17,6 @@ Returns all open sales for the contact provided.
 
 **Returns:** Aray of sales.
 
-
 [WSDL file for Services85/Sale](../Services85-Sale.md)
 
 Obtain a ticket from the [Services85/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -49,7 +48,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-
 
 ## GetOpenSalesForContact Response
 
@@ -98,4 +96,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

@@ -7,15 +7,13 @@ title: CRMScript
 ```
 
 ---
+
 title: CRMScript
 ---
 
 ```http
 /api/v1/CRMScript
 ```
-
-
-
 
 * [GET CRMScript/default](v1CRMScriptEntity_DefaultCRMScriptEntity.md)
 
@@ -42,7 +40,6 @@ title: CRMScript
 * [GET CRMScript/{id}/Validate](v1CRMScriptEntity_ValidateScript.md)
 
 * [GET CRMScript/{id}/Validate](v1CRMScriptEntity_ValidateScriptByUniqueId.md)
-
 
 * [GET CRMScript/default](v1CRMScriptEntity_DefaultCRMScriptEntity.md)
 

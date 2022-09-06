@@ -16,8 +16,6 @@ Specify what kind of notification events a device should receive push notificati
 * **deviceIdentifier:** The unique identifier for a device
 * **tags:** A comma separated list of events this device should receive push events for
 
-
-
 [WSDL file for Services85/Pocket](../Services85-Pocket.md)
 
 Obtain a ticket from the [Services85/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -51,7 +49,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
-
 ## SetPushNotificationTagsForDevice Response
 
 ```xml
@@ -71,4 +68,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

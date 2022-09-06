@@ -23,4 +23,3 @@ Download [WSDL file for Services86/Favourite](../Services86-Favourite.md) if you
 * [RemoveFavourite](RemoveFavourite.md)
 * [RemoveFavouritesById](RemoveFavouritesById.md)
 * [ToggleFavourite](ToggleFavourite.md)
-

@@ -11,13 +11,7 @@ POST /api/v1/Agents/Document/GetDocumentsByTemplateHeading
 
 Method that returns document appointments, filtered by the document template heading.
 
-
 The heading represents a grouping or filtering of document templates.
-
-
-
-
-
 
 ## Query String Parameters
 
@@ -28,7 +22,6 @@ The heading represents a grouping or filtering of document templates.
 ```http
 POST /api/v1/Agents/Document/GetDocumentsByTemplateHeading?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -44,14 +37,13 @@ POST /api/v1/Agents/Document/GetDocumentsByTemplateHeading?$select=name,departme
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request
 
-TemplateHeadingId 
+TemplateHeadingId
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | TemplateHeadingId | int32 |  |
-
 
 ## Response: array
 

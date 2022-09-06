@@ -18,7 +18,6 @@ Check if consent has been given by a specified person, for a specific purpose. W
 
 **Returns:** True if the person has consented to the given purpose.
 
-
 [WSDL file for Services88/Person](../Services88-Person.md)
 
 Obtain a ticket from the [Services88/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -52,7 +51,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
-
 ## HasConsent Response
 
 ```xml
@@ -73,4 +71,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

@@ -11,13 +11,7 @@ GET /api/v1/String
 
 Gets all the string names containing a search string.
 
-
 Search the strings using Q parameter.
-
-
-
-
-
 
 ## Query String Parameters
 
@@ -30,7 +24,6 @@ Search the strings using Q parameter.
 GET /api/v1/String?q=eaque
 GET /api/v1/String?isoLangCode=dolorem
 ```
-
 
 ## Request Headers
 
@@ -45,7 +38,6 @@ GET /api/v1/String?isoLangCode=dolorem
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-
 ## Response: array
 
 OK
@@ -55,7 +47,6 @@ OK
 | 200 | OK |
 
 Response body: array
-
 
 ## Sample request
 

@@ -7,15 +7,13 @@ title: List_DeliveryTerms
 ```
 
 ---
+
 title: List_DeliveryTerms
 ---
 
 ```http
 /api/v1/List/DeliveryTerms
 ```
-
-
-
 
 * [GET List/DeliveryTerm](v1DeliveryTermsList_GetListDefinition.md)
 
@@ -54,7 +52,6 @@ title: List_DeliveryTerms
 * [PUT List/DeliveryTerm/Items/{id}/Headings](v1DeliveryTermsList_PutDeliveryTermHeadingsForListItem.md)
 
 * [GET List/DeliveryTerm/MDOItems](v1DeliveryTermsList_GetMDOList.md)
-
 
 * [GET List/DeliveryTerm](v1DeliveryTermsList_GetListDefinition.md)
 

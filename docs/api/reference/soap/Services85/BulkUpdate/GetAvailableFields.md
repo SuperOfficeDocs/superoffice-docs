@@ -17,7 +17,6 @@ Get all available fields for a given tablename/entity
 
 **Returns:** Returns array of the available fields for the given entity
 
-
 [WSDL file for Services85/BulkUpdate](../Services85-BulkUpdate.md)
 
 Obtain a ticket from the [Services85/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -49,7 +48,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-
 
 ## GetAvailableFields Response
 
@@ -113,4 +111,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

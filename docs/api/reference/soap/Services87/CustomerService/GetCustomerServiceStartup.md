@@ -13,9 +13,7 @@ Implemented by the <see cref="M:SuperOffice.Services87.ICustomerServiceAgent.Get
 
 Get the carrier with data that Service needs when starting up
 
-
 **Returns:** The carrier containing the startup data
-
 
 [WSDL file for Services87/CustomerService](../Services87-CustomerService.md)
 
@@ -48,7 +46,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
-
 ## GetCustomerServiceStartup Response
 
 ```xml
@@ -73,4 +70,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

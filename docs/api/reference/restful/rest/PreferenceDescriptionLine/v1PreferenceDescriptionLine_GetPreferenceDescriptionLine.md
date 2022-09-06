@@ -11,17 +11,11 @@ GET /api/v1/PreferenceDescriptionLine/{id}
 
 Gets a PreferenceDescriptionLine object.
 
-
 Calls the Preference agent service GetPreferenceDescriptionLine.
-
-
-
-
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | id | int32 | The id of the PreferenceDescriptionLine to return. **Required** |
-
 
 ## Query String Parameters
 
@@ -32,7 +26,6 @@ Calls the Preference agent service GetPreferenceDescriptionLine.
 ```http
 GET /api/v1/PreferenceDescriptionLine/{id}?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -47,8 +40,7 @@ GET /api/v1/PreferenceDescriptionLine/{id}?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-
-## Response: 
+## Response
 
 PreferenceDescriptionLine found.
 
@@ -57,7 +49,7 @@ PreferenceDescriptionLine found.
 | 200 | PreferenceDescriptionLine found. |
 | 404 | Not Found. |
 
-Response body: 
+Response body:
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|

@@ -116,7 +116,7 @@ so.envir:
 | [credentialgroup](credentialgroup.md) |List of user groups supported by a named creditial plugin, sorted by group name.|
 | [credited](credited.md) |GenericMDOProvider reads MDO lists with default settings|
 | [crmfields](crmfields.md) ||
-| [crmscript](crmscript.md) |Archive of CRMScripts. Returns script id + name of script as hierarchy.|
+| [CRMScript](crmscript.md) |Archive of CRMScripts. Returns script id + name of script as hierarchy.|
 | [culture](culture.md) ||
 | [culturesolanguage](culturesolanguage.md) |List of SuperOffice cultures with old-style SO Culture name in ExtraInfo|
 | [currency](currency.md) |GenericMDOProvider reads MDO lists with default settings|
@@ -428,4 +428,3 @@ so.envir:
 | [weekday](weekday.md) |MDO provider for the hard-coded list of week days.|
 | [weeknumber](weeknumber.md) |MDO provider for the hard-coded list of numbered weeks in the recurrence dialog.|
 | [y_equipment](y_equipment.md) |Extra tables lists. List names are 'y_xyz' - based on the custom table name|
-

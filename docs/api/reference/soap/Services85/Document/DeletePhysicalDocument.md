@@ -18,7 +18,6 @@ Delete the document contents
 
 **Returns:** Delete status - did removal succeed or not
 
-
 [WSDL file for Services85/Document](../Services85-Document.md)
 
 Obtain a ticket from the [Services85/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -54,7 +53,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
-
 ## DeletePhysicalDocument Response
 
 ```xml
@@ -82,4 +80,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

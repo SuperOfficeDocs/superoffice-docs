@@ -18,4 +18,3 @@ Download [WSDL file for Services87/Chat](../Services87-Chat.md) if you need to g
 * [GetChatPresence](GetChatPresence.md)
 * [IsWithinOpeningHours](IsWithinOpeningHours.md)
 * [SaveChatPresence](SaveChatPresence.md)
-

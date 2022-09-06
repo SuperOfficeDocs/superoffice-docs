@@ -11,12 +11,6 @@ POST /api/v1/Agents/Dash/DeleteDash
 
 Deletes the Dash
 
-
-
-
-
-
-
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -27,7 +21,6 @@ Deletes the Dash
 POST /api/v1/Agents/Dash/DeleteDash?DashId=620
 ```
 
-
 ## Request Headers
 
 | Parameter Name | Description |
@@ -37,8 +30,7 @@ POST /api/v1/Agents/Dash/DeleteDash?DashId=620
 | Accept         | Content-type(s) you would like the response in:  |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-
-## Response: 
+## Response
 
 No Content
 
@@ -46,8 +38,7 @@ No Content
 |----------------|-------------|
 | 204 | No Content |
 
-Response body: 
-
+Response body:
 
 ## Sample request
 

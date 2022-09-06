@@ -7,15 +7,13 @@ title: TicketMessage
 ```
 
 ---
+
 title: TicketMessage
 ---
 
 ```http
 /api/v1/TicketMessage
 ```
-
-
-
 
 * [GET TicketMessage/default](v1TicketMessageEntity_DefaultTicketMessageEntity.md)
 
@@ -44,7 +42,6 @@ title: TicketMessage
 * [GET TicketMessage/CustomField/{fieldName}](v1TicketMessageEntity_GetCustomFieldInfo.md)
 
 * [GET TicketMessage/{id}/ForeignKey](v1TicketMessageEntity_GetAllForeignKeysOnEntity.md)
-
 
 * [GET TicketMessage/default](v1TicketMessageEntity_DefaultTicketMessageEntity.md)
 

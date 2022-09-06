@@ -11,18 +11,11 @@ DELETE /api/v1/Dashboard/{id}
 
 Deletes the Dashboard
 
-
 Calls the Dashboard agent service DeleteDashboard.
-
-
-
-
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | id | int32 | The Dashboard to be deleted. **Required** |
-
-
 
 ## Request Headers
 
@@ -33,8 +26,7 @@ Calls the Dashboard agent service DeleteDashboard.
 | Accept         | Content-type(s) you would like the response in:  |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-
-## Response: 
+## Response
 
 Dashboard deleted.
 
@@ -42,8 +34,7 @@ Dashboard deleted.
 |----------------|-------------|
 | 204 | Dashboard deleted. |
 
-Response body: 
-
+Response body:
 
 ## Sample request
 

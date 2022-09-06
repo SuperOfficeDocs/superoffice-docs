@@ -11,13 +11,7 @@ POST /api/v1/Agents/Ticket/ProcessTicketWhenRead
 
 When a user view/read a ticket, a number of action should be performed: set read status, escalation handling, remove notifications, etc.
 
-
 Which actions will be performed depends on owner, caller and configuration
-
-
-
-
-
 
 ## Query String Parameters
 
@@ -28,7 +22,6 @@ Which actions will be performed depends on owner, caller and configuration
 ```http
 POST /api/v1/Agents/Ticket/ProcessTicketWhenRead?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -44,16 +37,15 @@ POST /api/v1/Agents/Ticket/ProcessTicketWhenRead?$select=name,department,categor
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request
 
-TicketEntityId 
+TicketEntityId
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | TicketEntityId | int32 |  |
 
-
-## Response: 
+## Response
 
 OK
 
@@ -61,7 +53,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+Response body:
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|

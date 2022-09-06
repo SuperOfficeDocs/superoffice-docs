@@ -19,7 +19,6 @@ Method to get a Selectable MDO list with restrictions.
 
 **Returns:** Array of SelectableMDOListItem
 
-
 [WSDL file for Services85/MDO](../Services85-MDO.md)
 
 Obtain a ticket from the [Services85/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -53,7 +52,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-
 
 ## GetSelectableListWithRestriction Response
 
@@ -131,4 +129,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

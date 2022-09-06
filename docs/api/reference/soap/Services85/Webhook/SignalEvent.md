@@ -19,7 +19,6 @@ Signal webhooks that an event has occurred. All webhooks listening for the event
 
 **Returns:** This method has no return value
 
-
 [WSDL file for Services85/Webhook](../Services85-Webhook.md)
 
 Obtain a ticket from the [Services85/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -59,7 +58,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
-
 ## SignalEvent Response
 
 ```xml
@@ -79,4 +77,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

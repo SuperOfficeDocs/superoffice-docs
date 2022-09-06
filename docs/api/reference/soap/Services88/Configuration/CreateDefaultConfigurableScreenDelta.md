@@ -14,9 +14,7 @@ Implemented by the <see cref="M:SuperOffice.Services88.IConfigurationAgent.Creat
 Loading default values into a new ConfigurableScreenDelta.
 NetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance
 
-
 **Returns:** New ConfigurableScreenDelta with default values
-
 
 [WSDL file for Services88/Configuration](../Services88-Configuration.md)
 
@@ -48,7 +46,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-
 
 ## CreateDefaultConfigurableScreenDelta Response
 
@@ -112,4 +109,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

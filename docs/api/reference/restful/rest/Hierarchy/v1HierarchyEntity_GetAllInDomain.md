@@ -11,15 +11,9 @@ GET /api/v1/Hierarchy/{domain}
 
 Get all items in a domain
 
-
-
-
-
-
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | domain | Enum: Unknown, ExtraTables, ScreenDefinitions, Scripts, Selections, ExternalDocuments, UserGroups, ExternalDocumentRelatedToSpmMessage, Dashboards | Type of items to get (scripts, extra tables, etc) **Required** |
-
 
 ## Query String Parameters
 
@@ -30,7 +24,6 @@ Get all items in a domain
 ```http
 GET /api/v1/Hierarchy/{domain}?children=False
 ```
-
 
 ## Request Headers
 
@@ -44,7 +37,6 @@ GET /api/v1/Hierarchy/{domain}?children=False
 | SO-Culture | Number, date formatting in a specified culture (iso2 language) code. Partially overrides SO-Language/Accept-Language value. Ignored if no Language set. |
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
-
 
 ## Response: array
 

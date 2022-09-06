@@ -19,7 +19,6 @@ Insert a row into a table
 
 **Returns:** The id of the newly inserted row
 
-
 [WSDL file for Services87/DatabaseTable](../Services87-DatabaseTable.md)
 
 Obtain a ticket from the [Services87/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -57,7 +56,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
-
 ## InsertRow Response
 
 ```xml
@@ -77,4 +75,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

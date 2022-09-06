@@ -11,15 +11,9 @@ GET /api/v1/Person/{personId}/Summary
 
 Get summary of person and recent activity.
 
-
-
-
-
-
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | personId | int32 | The person id to summarize. **Required** |
-
 
 ## Query String Parameters
 
@@ -30,7 +24,6 @@ Get summary of person and recent activity.
 ```http
 GET /api/v1/Person/{personId}/Summary?limit=16
 ```
-
 
 ## Request Headers
 
@@ -45,8 +38,7 @@ GET /api/v1/Person/{personId}/Summary?limit=16
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-
-## Response: 
+## Response
 
 OK
 
@@ -54,7 +46,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+Response body:
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|

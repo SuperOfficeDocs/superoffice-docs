@@ -19,7 +19,6 @@ Get activity information for one or more days according to the given date interv
 
 **Returns:** Exactly one item per day of the given time span is returned. Days where nothing happens will have all values set to 0, but will still be in the returned array. Start end dates are treated as inclusive.
 
-
 [WSDL file for Services86/Appointment](../Services86-Appointment.md)
 
 Obtain a ticket from the [Services86/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -54,7 +53,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
-
 ## GetActivityInformationListByDatesAndAssociate Response
 
 ```xml
@@ -84,4 +82,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

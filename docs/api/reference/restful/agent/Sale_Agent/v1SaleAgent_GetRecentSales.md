@@ -11,13 +11,7 @@ POST /api/v1/Agents/Sale/GetRecentSales
 
 Returns the latest sales (that are sold) limited by their amount.
 
-
 The result is sorted descending with the latest first. If the amount is -1, the amount restriction is omitted.
-
-
-
-
-
 
 ## Query String Parameters
 
@@ -28,7 +22,6 @@ The result is sorted descending with the latest first. If the amount is -1, the 
 ```http
 POST /api/v1/Agents/Sale/GetRecentSales?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -44,15 +37,14 @@ POST /api/v1/Agents/Sale/GetRecentSales?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request
 
-AmountLimit, Count 
+AmountLimit, Count
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | AmountLimit | int32 |  |
 | Count | int32 |  |
-
 
 ## Response: array
 

@@ -7,15 +7,13 @@ title: Ticket
 ```
 
 ---
+
 title: Ticket
 ---
 
 ```http
 /api/v1/Ticket
 ```
-
-
-
 
 * [GET Ticket/default](v1TicketEntity_DefaultTicketEntity.md)
 
@@ -46,7 +44,6 @@ title: Ticket
 * [GET Ticket/CustomField/{fieldName}](v1TicketEntity_GetCustomFieldInfo.md)
 
 * [GET Ticket/{id}/ForeignKey](v1TicketEntity_GetAllForeignKeysOnEntity.md)
-
 
 * [GET Ticket/default](v1TicketEntity_DefaultTicketEntity.md)
 

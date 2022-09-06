@@ -15,8 +15,6 @@ Renders the given targetgroup to excel, and returns the path to the temporary fi
 
 * **targetGroupId:** The id of the targetgroup to be rendered to excel.
 
-
-
 [WSDL file for Services88/Targets](../Services88-Targets.md)
 
 Obtain a ticket from the [Services88/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -49,7 +47,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
-
 ## ExportTargetGroupToExcel Response
 
 ```xml
@@ -74,4 +71,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

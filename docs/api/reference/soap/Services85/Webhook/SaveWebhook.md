@@ -17,7 +17,6 @@ Updates the existing Webhook or creates a new Webhook if the id parameter is 0.
 
 **Returns:** New or updated Webhook
 
-
 [WSDL file for Services85/Webhook](../Services85-Webhook.md)
 
 Obtain a ticket from the [Services85/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -100,7 +99,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
-
 ## SaveWebhook Response
 
 ```xml
@@ -171,4 +169,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

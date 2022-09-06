@@ -15,8 +15,6 @@ Deletes the FormEntity
 
 * **formEntityId:** The identity of the FormEntity
 
-
-
 [WSDL file for Services88/Marketing](../Services88-Marketing.md)
 
 Obtain a ticket from the [Services88/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -48,7 +46,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
-
 ## DeleteFormEntity Response
 
 ```xml
@@ -67,4 +64,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

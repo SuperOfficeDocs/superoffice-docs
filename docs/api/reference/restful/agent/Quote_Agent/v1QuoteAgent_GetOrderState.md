@@ -11,13 +11,7 @@ POST /api/v1/Agents/Quote/GetOrderState
 
 If there is a problem with a quoteline, the error description shall be placed in the status and reason fields of the quoteline, if there is a problem with the alternative, the error description shall be placed in the status and reason fields of the alternative.
 
-
 A summary of all the problems (if any) should be placed in the response object. Requires that the Create-Order capability is true.
-
-
-
-
-
 
 ## Query String Parameters
 
@@ -28,7 +22,6 @@ A summary of all the problems (if any) should be placed in the response object. 
 ```http
 POST /api/v1/Agents/Quote/GetOrderState?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -44,16 +37,15 @@ POST /api/v1/Agents/Quote/GetOrderState?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request
 
-QuoteVersionId 
+QuoteVersionId
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | QuoteVersionId | int32 |  |
 
-
-## Response: 
+## Response
 
 OK
 
@@ -61,7 +53,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+Response body:
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|

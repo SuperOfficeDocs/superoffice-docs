@@ -16,14 +16,8 @@ so.envir:
 
 # "language" MDO List
 
-
-
-
 Implemented by the <see cref="T:SuperOffice.CRM.Lists.LanguageProvider">LanguageProvider</see> class.
 The name of the MDO list is 'language'.
-
-
-
 
 ## Sample Request
 
@@ -36,6 +30,7 @@ Accept-Language: *
 ```
 
 ## Sample Code
+
 ```cs
 var listProvider = SuperOffice.CRM.Lists.SoListProviderFactory.Create("language", forceFlatList: true);
 foreach (var item in listProvider.RootItems) {
@@ -67,7 +62,6 @@ foreach (var item in listProvider.RootItems) {
 |17|Brazilian Portuguese ||br|
 |18|Vietnamese||vi|
 |19|Swiss German||ch|
-
 
 ## Related MDO Lists
 

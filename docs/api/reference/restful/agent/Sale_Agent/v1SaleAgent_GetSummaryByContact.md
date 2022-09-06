@@ -9,14 +9,6 @@ uid: v1SaleAgent_GetSummaryByContact
 POST /api/v1/Agents/Sale/GetSummaryByContact
 ```
 
-
-
-
-
-
-
-
-
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -26,7 +18,6 @@ POST /api/v1/Agents/Sale/GetSummaryByContact
 ```http
 POST /api/v1/Agents/Sale/GetSummaryByContact?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -42,9 +33,9 @@ POST /api/v1/Agents/Sale/GetSummaryByContact?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request
 
-ContactId, FromDate, ToDate 
+ContactId, FromDate, ToDate
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -52,8 +43,7 @@ ContactId, FromDate, ToDate
 | FromDate | date-time |  |
 | ToDate | date-time |  |
 
-
-## Response: 
+## Response
 
 OK
 
@@ -61,7 +51,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+Response body:
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|

@@ -15,10 +15,8 @@ so.envir:
 ---
 
 # "udeffieldtype" MDO List
+
 The name of the MDO list is 'udeffieldtype'.
-
-
-
 
 ## Sample Request
 
@@ -31,6 +29,7 @@ Accept-Language: *
 ```
 
 ## Sample Code
+
 ```cs
 var listProvider = SuperOffice.CRM.Lists.SoListProviderFactory.Create("udeffieldtype", forceFlatList: true);
 foreach (var item in listProvider.RootItems) {
@@ -44,7 +43,6 @@ foreach (var item in listProvider.RootItems) {
 |Id   | Name  |StyleHint|ExtraInfo |
 | --- | ----- | ------- | -------- |
 | 2 | Example | | |
-
 
 ## Related MDO Lists
 

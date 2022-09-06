@@ -15,10 +15,9 @@ so.envir:
 ---
 
 # "typicalsearch" MDO List
+
 MDO provider for the TypicalSearch Title, Tooltip and Id
 ExtraInfo parameter specifies the entity of the typical search rows to fetch
-
-
 
 Implemented by the <see cref="T:SuperOffice.CRM.Lists.TypicalSearchProvider">TypicalSearchProvider</see> class.
 The name of the MDO list is 'typicalsearch'.
@@ -28,10 +27,6 @@ The name of the MDO list is 'typicalsearch'.
 | Description | Name | Example Value |
 |-----|-----|------|
 |Name of the entity (contact, person, sale, ...) to get the TypicalSearches for| EntityName|person|
-
-
-
-
 
 ## Sample Request
 
@@ -44,6 +39,7 @@ Accept-Language: *
 ```
 
 ## Sample Code
+
 ```cs
 var listProvider = SuperOffice.CRM.Lists.SoListProviderFactory.Create("typicalsearch", forceFlatList: true);
 foreach (var item in listProvider.RootItems) {
@@ -57,7 +53,6 @@ foreach (var item in listProvider.RootItems) {
 |Id   | Name  |StyleHint|ExtraInfo |
 | --- | ----- | ------- | -------- |
 | 2 | Example | | |
-
 
 ## Related MDO Lists
 

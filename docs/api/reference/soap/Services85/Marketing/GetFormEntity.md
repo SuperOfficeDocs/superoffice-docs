@@ -17,7 +17,6 @@ Gets a FormEntity object.
 
 **Returns:** FormEntity
 
-
 [WSDL file for Services85/Marketing](../Services85-Marketing.md)
 
 Obtain a ticket from the [Services85/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -48,7 +47,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-
 
 ## GetFormEntity Response
 
@@ -88,4 +86,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

@@ -11,17 +11,10 @@ PUT /api/v1/List/{udListDefinitionName}/Items/{listItemId}/UserGroups
 
 Update User groups that this list item is visible for
 
-
-
-
-
-
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | udListDefinitionName | string | The name of the list definition, indicating which list to update the items from. **Required** |
 | listItemId | int32 | The id of the list item **Required** |
-
-
 
 ## Request Headers
 
@@ -37,9 +30,9 @@ Update User groups that this list item is visible for
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: userGroups  
+## Request Body: userGroups
 
-The selectable user groups. 
+The selectable user groups.
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -58,7 +51,6 @@ The selectable user groups.
 | StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
 | Hidden | bool | True if the ListItem is hidden |
 | FullName | string | The name of the ListItem in its context |
-
 
 ## Response: array
 

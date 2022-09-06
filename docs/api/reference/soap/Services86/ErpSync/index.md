@@ -60,4 +60,3 @@ Download [WSDL file for Services86/ErpSync](../Services86-ErpSync.md) if you nee
 * [ToggleErpConnectionActive](ToggleErpConnectionActive.md)
 * [UpdateConnectionFields](UpdateConnectionFields.md)
 * [ValidateArchiveColumnConfig](ValidateArchiveColumnConfig.md)
-

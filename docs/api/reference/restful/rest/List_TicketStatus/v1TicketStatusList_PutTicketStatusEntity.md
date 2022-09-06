@@ -11,18 +11,11 @@ PUT /api/v1/List/TicketStatus/Items/{id}
 
 Updates the existing TicketStatusEntity
 
-
 Calls the List agent service SaveTicketStatusEntity.
-
-
-
-
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | id | int32 | The id of TicketStatusEntity to be saved. **Required** |
-
-
 
 ## Request Headers
 
@@ -38,9 +31,9 @@ Calls the List agent service SaveTicketStatusEntity.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entity  
+## Request Body: entity
 
-The details of TicketStatusEntity to be saved. 
+The details of TicketStatusEntity to be saved.
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -52,8 +45,7 @@ The details of TicketStatusEntity to be saved.
 | IsDefault | bool | Indicates if status is default one as there might be more than one status with same internal status |
 | UsedInQueue | bool | If set, status is used in GetNext calculations |
 
-
-## Response: 
+## Response
 
 OK
 
@@ -62,7 +54,7 @@ OK
 | 200 | OK |
 | 400 | Bad request. Entity to save is not in request body. |
 
-Response body: 
+Response body:
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|

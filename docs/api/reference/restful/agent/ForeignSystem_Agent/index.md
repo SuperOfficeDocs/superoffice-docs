@@ -7,15 +7,13 @@ title: ForeignSystem_Agent
 ```
 
 ---
+
 title: ForeignSystem_Agent
 ---
 
 ```http
 /api/v1/ForeignSystem/Agent
 ```
-
-
-
 
 * [POST Agents/ForeignSystem/CreateDefaultForeignAppEntity](v1ForeignSystemAgent_CreateDefaultForeignAppEntity.md)
 
@@ -76,7 +74,6 @@ title: ForeignSystem_Agent
 * [POST Agents/ForeignSystem/GetDeviceKeysOnDeviceIdentifierTable](v1ForeignSystemAgent_GetDeviceKeysOnDeviceIdentifierTable.md)
 
 * [POST Agents/ForeignSystem/GetDeviceKeysOnDeviceIdentifierTableRecordId](v1ForeignSystemAgent_GetDeviceKeysOnDeviceIdentifierTableRecordId.md)
-
 
 * [POST Agents/ForeignSystem/CreateDefaultForeignAppEntity](v1ForeignSystemAgent_CreateDefaultForeignAppEntity.md)
 

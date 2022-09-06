@@ -21,7 +21,6 @@ Create ErpActor from crm entity
 
 **Returns:** Created ERP actor with success
 
-
 [WSDL file for Services85/ErpSync](../Services85-ErpSync.md)
 
 Obtain a ticket from the [Services85/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -63,7 +62,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
-
 ## CreateErpActorFromCrm Response
 
 ```xml
@@ -84,4 +82,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-
