@@ -184,7 +184,8 @@ If the MX does not point to Microsoft, then this is the cause of the problem, an
 
 ### Duplicate serial number
      
-If you get the following error when trying to setup OAuth:
+When the following error is observed when configuring OAuth:
+
 
 ```
 Error
