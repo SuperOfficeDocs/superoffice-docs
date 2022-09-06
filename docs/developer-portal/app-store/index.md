@@ -48,8 +48,12 @@ Before a new application gets listed in the App Store:
 * [View when a version was published in each environment][10]
 * [List a new application in the App Store][7]
 * [Publish a new version of an existing application][8]
+* [Create screenshots and videos][11]
 * [Add or update images and videos][9]
 * [Improve SEO][4]
+* [Add or update price information][12]
+* [Describe how to get started with the application][13]
+* [Add or update links][14]
 
 <!-- Referenced links -->
 [1]: ../../apps/app-store.md
@@ -61,5 +65,9 @@ Before a new application gets listed in the App Store:
 [3]: update-app-page.md
 [4]: seo.md
 [10]: ../versioning.md
+[11]: ../../apps/publish/screenshots.md
+[12]: prices-and-terms.md
+[13]: user-guide.md#how-to-install
+[14]: user-guide.md#links
 
 <!-- Referenced images -->

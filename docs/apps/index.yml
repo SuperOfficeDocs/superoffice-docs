@@ -190,8 +190,8 @@ conceptualContent:
         - text: Validate your application
           itemType: how-to-guide
           url: activate/validate-app.md
-        - text: Activate your custom application
-          itemType: how-to-guide
+        - text: First-time activation
+          itemType: concept
           url: activate/activate-custom-app.md
         - text: Helper for custom applications
           itemType: how-to-guide

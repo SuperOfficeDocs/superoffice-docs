@@ -29,10 +29,14 @@ items:
       href: app-store/update-company-profile.md
     - name: Update app-specific page
       href: app-store/update-app-page.md
+    - name: Prices and terms
+      href: app-store/prices-and-terms.md
     - name: Images and videos
       href: app-store/images-and-videos.md
     - name: Search engine optimization
       href: app-store/seo.md
+    - name: How to install, Links
+      href: app-store/user-guide.md
   - name: Security
     href: security/index.md
     items:
@@ -59,6 +63,8 @@ items:
       href: howto/update-contact-person.md
     - name: Update your application
       href: howto/update-app.md
+    - name: Update configuration
+      href: howto/update-app-config.md
     - name: Update partner settings
       href: howto/update-partner-settings.md
     - name: Update endpoints

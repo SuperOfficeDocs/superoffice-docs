@@ -31,7 +31,7 @@ To get access to additional SuperOffice API endpoints or RESTful agents, you nee
 
 ## How to change configuration
 
-1. In the Developer Portal, go to your application page.
+1. In the [Developer Portal][3], go to your application page.
 2. Select **Configuration** from the left menu.
 3. Turn on **Advanced** (next to the left menu, between the list of versions and the client ID).
 
@@ -91,6 +91,7 @@ For detailed instructions, see [CORS and redirection URLs][6] in the Security se
 <!-- Referenced links -->
 [1]: ../create-app/index.md#default-config
 [2]: request-to-publish.md
+[3]: https://dev.superoffice.com/
 [6]: ../security/cors-and-redirection-urls.md
 [7]: ../howto/notifications.md
 

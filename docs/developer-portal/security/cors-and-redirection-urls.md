@@ -28,11 +28,11 @@ Types of URLs:
 * CORS URLs
 
 > [!NOTE]
-> All can optionally be configured per environment.
+> All URLs can optionally be configured per environment.
 >
 > You can list multiple of each type (except default) if you put one per line.
 >
-> Consider if whitelisting is sufficient or do you need a CORS redirect?
+> Consider if whitelisting is sufficient or you need a CORS redirect.
 
 ## Pre-requisites
 

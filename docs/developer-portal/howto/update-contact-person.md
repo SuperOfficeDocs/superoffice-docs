@@ -3,7 +3,7 @@ title: Update contact persons
 uid: dp-update-contact-persons
 description: How to update contact persons for a company in the SuperOffice Developer Portal.
 author: Bergfrid Dias
-so.date: 06.05.2022
+so.date: 08.26.2022
 keywords: Developer Portal, profile, partner, contact person
 so.topic: howto
 so.version:
@@ -15,6 +15,9 @@ so.client: online
 
 ![Partner settings -screenshot][img1]
 
+[!include[Read-only in version 1.5](../includes/note-cannot-edit.md)]
+
+<!--
 > [!NOTE]
 > These steps apply to the *partner settings*. To update the technical contact for a specific application, do steps 1-3 of [Update app-specific page][1].
 
@@ -32,10 +35,11 @@ so.client: online
 
 > [!TIP]
 > [!include[Link to partner settings](../includes/see-partner-settings.md)]
+-->
 
 <!-- Referenced links -->
 [1]: ../app-store/update-app-page.md
 
 <!-- Referenced images -->
-[img1]: media/partner-settings.png
+[img1]: ../media/partner-settings.png
 [img2]: media/select-contact.png

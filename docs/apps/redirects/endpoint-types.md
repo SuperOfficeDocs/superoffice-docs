@@ -24,7 +24,7 @@ so.client: online
 
 ## Application configure URL
 
-* Where the AppStore will link to when the user clicks **Configure**
+* Where the App Store will link to when the user clicks **Configure**
 
 ## Application uninstall URL
 

@@ -81,9 +81,9 @@ Applications are either [built to fit many][4] and available in the SuperOffice 
 
 ## Developer Portal
 
-We're proud to release a new self-service portal for developers and application partners this year. It will replace the manual forms and let you handle more of the configuration yourself.
+We're proud to release a [new self-service portal for developers and application partners][10] this year. It replaces the manual forms and let you handle more of the configuration yourself.
 
-While you wait, check out our brand new [Developer Portal documentation][9].
+To get started, check out our brand new [Developer Portal documentation][9].
 
 <!-- Referenced links -->
 [1]: terminology.md
@@ -95,3 +95,4 @@ While you wait, check out our brand new [Developer Portal documentation][9].
 [7]: ../api/plugins/erp-connectors/index.md
 [8]: ../api/plugins/quote-connectors/index.md
 [9]: ../developer-portal/index.yml
+[10]: https://dev.superoffice.com/

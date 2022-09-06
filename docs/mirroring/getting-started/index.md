@@ -75,6 +75,6 @@ If you believe you have a great case for an application, navigate to the [applic
 [6]: ../../apps/getting-started/developer-registration-form.md
 [7]: ../order-database-mirroring.md
 [8]: ../../apps/publish/update-app-form.md
-[9]: ../../apps/getting-started/application-registration-form.md
+[9]: ../../developer-portal/create-app/mirror-app.md
 [10]: ../../api/authentication/online/certificates/override-resolver.md
 [11]: https://github.com/SuperOffice/devnet-database-mirroring

@@ -21,15 +21,18 @@ Congratulations, your standard application is ready!
 
 **Process:**
 
-1. We will move your application from stage to production environment and list it in the public App Store with beta status.
-2. A customer clicks **Sign up** on your application listing and completes the form. We get a notification and will automatically forward the request to you with some additional information.
-    * In addition to the beta form, we ask customers to sign and accept any standard commercial contract you have for the application.
-3. You contact the customer to initiate the [application setup][4].
-4. The customer's administrator must sign in to SuperOffice and [give their consent][5] to allow your application to access their database tenant.
+1. We will publish your application from stage to production environment and list it in the public App Store with beta status.
+2. A customer clicks the green button for **Sign up** on your application listing and get redirected to your sign up.    
+3. The customer's administrator must sign in to SuperOffice and [give their consent][5] to allow your application to access their database tenant.
 5. After the beta period, your application will transition to full status if everything is OK.
+
+## Request application changes
+
+You can [change the application configuration and the App Store information][3] in the Developer Portal.
 
 <!-- Referenced links -->
 [1]: ../certification/certify-app.md
 [2]: ../../developer-portal/app-store/update-app-page.md
+[3]: ../../developer-portal/howto/update-app.md
 [4]: ../provisioning/index.md
 [5]: ../provisioning/consent.md

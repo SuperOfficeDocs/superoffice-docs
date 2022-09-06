@@ -39,7 +39,7 @@ so.client: online
 
 ## Screenshots
 
-We encourage you to include meaningful screenshots from the application interface. They should have descriptive **file names** because they are displayed as captions.
+We encourage you to include beautiful and meaningful screenshots from the application interface. They should have descriptive **file names** because they are displayed as captions.
 
 > [!TIP]
 > If you want screenshots shown in a specific order, add numbering to the file names.
@@ -50,6 +50,22 @@ We encourage you to include meaningful screenshots from the application interfac
 4. Enter alt text and select image type **AppImage**.
 5. Repeat steps 3 and 4 to add more screenshots.
 6. Click **Save Settings**.
+
+We will take the submitted information and clean screenshots, and create an appealing screenshot that matches a certain level of consistency with the App Store.
+
+### Example
+
+Your input:
+
+![Example of good screen capture for App Store -screenshot][img3]
+
+![Example of good screen capture for App Store -screenshot][img4]
+
+What the final result could be:
+
+![Example processed screen capture in App Store -screenshot][img5]
+
+![Example processed screen capture in App Store -screenshot][img6]
 
 ## Videos
 
@@ -66,3 +82,7 @@ We encourage you to include meaningful screenshots from the application interfac
 <!-- Referenced images -->
 [img1]: media/app-images-and-videos.png
 [img2]: media/add-images.png
+[img3]: media/example-screenshot-1.png
+[img4]: media/example-screenshot-2.png
+[img5]: media/example-output-1.png
+[img6]: media/example-output-2.png

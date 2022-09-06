@@ -60,7 +60,7 @@ Design, architecture, infrastructure, and data storage will be audited to make 
 
 You will be invoiced and pay Wathcom directly for the services delivered in connection with the security audit.
 
-Security audits come in 3 different packages: small, medium, and large.
+Security audits come in 3 different packages: small, medium (for most apps), and large.
 
 <!-- markdownlint-disable MD033 -->
 <table class="table-striped" style="width: 100%;" border="1">

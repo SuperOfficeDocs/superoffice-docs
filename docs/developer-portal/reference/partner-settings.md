@@ -20,14 +20,13 @@ These settings may only be changed by SuperOffice app managers. Contact us via c
 | Setting | Description | How-tos | Read more |
 |---|---|---|---|
 | Name | The name of the company. | [Update settings][9] | |
-| SEO-friendly name | For search engines. | [Improve SEO][10] | |
+| SEO-friendly name | For search engines. | [Update settings][9] | [Improve SEO][10] |
 | Administrative contact | The main contact person for this company.| [Update contact person][3] | |
-| Technical contact | The IT contact person for this company. | [Update contact person][3] | |
+| Technical contact | The IT contact person for this company. | [Update contact person][3] | [About notifications][11] |
 | Logo | Company logo, circular | [Update settings][9] | [Marketing requirements][5] |
-| Description | The company blurb. | [Update partner profile][6]| |
-| Meta description | Description for search engines. | [Improve SEO][10] | |
-| Comment | | | |
-| Home page URL | The website of the company. | | |
+| Description | The company blurb. | [Update partner profile][6]| [Marketing requirements][5] |
+| Meta description | Description for search engines. | [Update settings][9] | [Improve SEO][10] |
+| Home page URL | The website of the company. | [Update settings][9] | |
 
 ## See also
 
@@ -44,6 +43,7 @@ These settings may only be changed by SuperOffice app managers. Contact us via c
 [6]: ../app-store/update-company-profile.md
 [9]: ../app-store/update-app-page.md
 [10]: ../app-store/seo.md
+[11]: ../howto/notifications.md
 
 <!-- Referenced images -->
 [img1]: ../media/partner-settings.png
