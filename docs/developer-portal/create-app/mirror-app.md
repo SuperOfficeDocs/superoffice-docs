@@ -37,7 +37,7 @@ Custom apps may only be used by a customer tenant who have the [Developer Tools 
 
 5. Enter the URL of the integration endpoint.
 
-    Select Has integration to activate the endpoint.
+    Select On/Off to activate the endpoint.
 
     > [!NOTE]
     > If the endpoint is not yet ready, you may change configuration later.
