@@ -16,7 +16,8 @@ cURL *(default)* or Netserver is used for sending and receiving emails in the S
 
 cURL uses libcurl, and supports a range of common Internet protocols.
 
-The main reason for using this library is a wider range of supported protocols, certificates and improved speed.
+cURL has a wide range of supported protocols, certificates and improved speed.
+
 
 cURL is used for sending and receiving emails in the SuperOffice Service client.
 
