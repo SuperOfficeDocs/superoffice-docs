@@ -23,9 +23,11 @@ so.topic: reference
 * [API - Fixed bug ID 27795][2]
 * [API – Breaking changes on Web.Api (10.1.3)][3]
 * [API – CRMScript array and struct intellisense (10.1.4)][4]
+* [API - Quote Connector for Approval/Rejection (10.1.5)][5]
 
 <!-- Referenced links-->
 [1]: 10.1.1-update.md
 [2]: 10.1.2-update.md
 [3]: 10.1.3-update.md
 [4]: 10.1.4-update.md
+[5]: 10.1.5-update.md

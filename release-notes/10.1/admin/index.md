@@ -14,7 +14,9 @@ so.topic: reference
 * [Screen designer – Add Macro as a button in CRM (10.1.1)][1]
 * [Options – Add customer languages from Settings and maintenance (10.1.1)][1]
 * [Settings and maintenance link from Sales opens new tab (10.1.3)][3]
+* [Lists – GUI Web panel with reload settings (10.1.5)][5]
 
 <!-- Referenced links-->
 [1]: 10.1.1-update.md
 [3]: 10.1.3-update.md
+[5]: 10.1.5-update.md
