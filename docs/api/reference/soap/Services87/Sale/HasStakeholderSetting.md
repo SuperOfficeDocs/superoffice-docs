@@ -11,11 +11,7 @@ Implemented by the <see cref="M:SuperOffice.Services87.ISaleAgent.HasStakeholder
 
 ## HasStakeholderSetting
 
-
-
-* **saleId:** 
-
-
+* **saleId:**
 
 [WSDL file for Services87/Sale](../Services87-Sale.md)
 
@@ -49,7 +45,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
-
 ## HasStakeholderSetting Response
 
 ```xml
@@ -70,4 +65,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

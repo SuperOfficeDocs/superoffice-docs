@@ -7,15 +7,13 @@ title: Find_Agent
 ```
 
 ---
+
 title: Find_Agent
 ---
 
 ```http
 /api/v1/Find/Agent
 ```
-
-
-
 
 * [POST Agents/Find/GetCriteriaInformation](v1FindAgent_GetCriteriaInformation.md)
 
@@ -88,7 +86,6 @@ title: Find_Agent
 * [POST Agents/Find/FindOrderBy2](v1FindAgent_FindOrderBy2.md)
 
 * [POST Agents/Find/FindWithExtraRestrictions2](v1FindAgent_FindWithExtraRestrictions2.md)
-
 
 * [POST Agents/Find/GetCriteriaInformation](v1FindAgent_GetCriteriaInformation.md)
 

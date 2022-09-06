@@ -11,13 +11,7 @@ POST /api/v1/Agents/Person/HasConsent
 
 Check if consent has been given by a specified person, for a specific purpose.
 
-
 Withdraw consents return FALSE.
-
-
-
-
-
 
 ## Query String Parameters
 
@@ -28,7 +22,6 @@ Withdraw consents return FALSE.
 ```http
 POST /api/v1/Agents/Person/HasConsent?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -44,15 +37,14 @@ POST /api/v1/Agents/Person/HasConsent?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request
 
-PersonId, Purpose 
+PersonId, Purpose
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | PersonId | int32 |  |
 | Purpose | string |  |
-
 
 ## Response: bool
 
@@ -63,7 +55,6 @@ OK
 | 200 | OK |
 
 Response body: bool
-
 
 ## Sample request
 

@@ -11,17 +11,11 @@ GET /api/v1/Document/{documentId}/Command
 
 Get a list of custom commands valid for the specific document at this time.
 
-
 This information should not be cached by clients, as it may change between documents and over time.
-
-
-
-
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | documentId | int32 | SuperOffice document ID **Required** |
-
 
 ## Query String Parameters
 
@@ -32,7 +26,6 @@ This information should not be cached by clients, as it may change between docum
 ```http
 GET /api/v1/Document/{documentId}/Command?allowedReturnTypes=Message
 ```
-
 
 ## Request Headers
 
@@ -46,7 +39,6 @@ GET /api/v1/Document/{documentId}/Command?allowedReturnTypes=Message
 | SO-Culture | Number, date formatting in a specified culture (iso2 language) code. Partially overrides SO-Language/Accept-Language value. Ignored if no Language set. |
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
-
 
 ## Response: array
 

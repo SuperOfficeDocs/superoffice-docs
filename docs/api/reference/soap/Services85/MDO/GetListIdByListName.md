@@ -17,7 +17,6 @@ Retrieve the UdListDefinition id of a list, by its name. Not all lists have such
 
 **Returns:** List id in the UdListDefinition table
 
-
 [WSDL file for Services85/MDO](../Services85-MDO.md)
 
 Obtain a ticket from the [Services85/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -50,7 +49,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
-
 ## GetListIdByListName Response
 
 ```xml
@@ -71,4 +69,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

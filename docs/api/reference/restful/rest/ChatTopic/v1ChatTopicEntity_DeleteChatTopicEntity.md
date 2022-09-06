@@ -11,18 +11,11 @@ DELETE /api/v1/ChatTopic/{id}
 
 Deletes the ChatTopicEntity
 
-
 Calls the Chat agent service DeleteChatTopicEntity.
-
-
-
-
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | id | int32 | The ChatTopicEntity to be deleted. **Required** |
-
-
 
 ## Request Headers
 
@@ -33,8 +26,7 @@ Calls the Chat agent service DeleteChatTopicEntity.
 | Accept         | Content-type(s) you would like the response in:  |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-
-## Response: 
+## Response
 
 ChatTopicEntity deleted.
 
@@ -42,8 +34,7 @@ ChatTopicEntity deleted.
 |----------------|-------------|
 | 204 | ChatTopicEntity deleted. |
 
-Response body: 
-
+Response body:
 
 ## Sample request
 

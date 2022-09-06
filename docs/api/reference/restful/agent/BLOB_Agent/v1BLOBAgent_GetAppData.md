@@ -11,12 +11,6 @@ POST /api/v1/Agents/BLOB/GetAppData
 
 Get a CLOB (limited to a reasonable size by the mechanics of Web Services) according to a string key; ALSO limits to the current ApplicationToken if any
 
-
-
-
-
-
-
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -26,7 +20,6 @@ Get a CLOB (limited to a reasonable size by the mechanics of Web Services) accor
 ```http
 POST /api/v1/Agents/BLOB/GetAppData?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -42,14 +35,13 @@ POST /api/v1/Agents/BLOB/GetAppData?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request
 
-Key 
+Key
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | Key | string |  |
-
 
 ## Response: string
 
@@ -60,7 +52,6 @@ OK
 | 200 | OK |
 
 Response body: string
-
 
 ## Sample request
 

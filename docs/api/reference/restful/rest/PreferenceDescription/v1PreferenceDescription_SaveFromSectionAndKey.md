@@ -11,17 +11,10 @@ PUT /api/v1/PreferenceDescription/{section}/{key}
 
 Update a PreferenceDescription based on the section and key
 
-
-
-
-
-
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | section | string | The PreferenceDescription-section **Required** |
 | key | string | The PreferenceDescription-key **Required** |
-
-
 
 ## Request Headers
 
@@ -37,9 +30,9 @@ Update a PreferenceDescription based on the section and key
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: preferenceDescription  
+## Request Body: preferenceDescription
 
-The PreferenceDescription to save. 
+The PreferenceDescription to save.
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -62,8 +55,7 @@ The PreferenceDescription to save.
 | MinValue | int32 | Min value (if type 1); list extra id (if type 5) |
 | RequiredLicense | string | Licenses the user/installation must have if this reference is to be shown. Comma-separated list of owner.module pairs |
 
-
-## Response: 
+## Response
 
 OK
 
@@ -71,7 +63,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+Response body:
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|

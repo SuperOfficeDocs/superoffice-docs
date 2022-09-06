@@ -18,7 +18,6 @@ Get a list of foreignkeys ('app.device.key') and their values ('123') that belon
 
 **Returns:** Dictionary of 'appname.deviceid.keyname' = '123' key values
 
-
 [WSDL file for Services88/ForeignSystem](../Services88-ForeignSystem.md)
 
 Obtain a ticket from the [Services88/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -51,7 +50,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
-
 ## GetAllForeignKeysOnEntity Response
 
 ```xml
@@ -76,4 +74,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

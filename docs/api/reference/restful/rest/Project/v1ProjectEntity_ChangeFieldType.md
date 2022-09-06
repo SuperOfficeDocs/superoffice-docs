@@ -11,16 +11,10 @@ POST /api/v1/Project/UdefLayout/{progidOrLabel}/ChangeTo/{fieldType}
 
 Change a ProjectEntity user-defined field's type based on the prog-id or label.
 
-
-
-
-
-
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | progidOrLabel | string | The udef field id, case-sensitive prog-id, or field label. **Required** |
 | fieldType | Enum: Number, ShortText, LongText, Date, UnlimitedDate, Checkbox, List, Decimal | The new type of the user defined field. **Required** |
-
 
 ## Query String Parameters
 
@@ -31,7 +25,6 @@ Change a ProjectEntity user-defined field's type based on the prog-id or label.
 ```http
 POST /api/v1/Project/UdefLayout/{progidOrLabel}/ChangeTo/{fieldType}?isIndexed=False
 ```
-
 
 ## Request Headers
 
@@ -46,8 +39,7 @@ POST /api/v1/Project/UdefLayout/{progidOrLabel}/ChangeTo/{fieldType}?isIndexed=F
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-
-## Response: 
+## Response
 
 ProjectEntity found.
 
@@ -56,7 +48,7 @@ ProjectEntity found.
 | 200 | ProjectEntity found. |
 | 404 | ProjectEntity not found. |
 
-Response body: 
+Response body:
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|

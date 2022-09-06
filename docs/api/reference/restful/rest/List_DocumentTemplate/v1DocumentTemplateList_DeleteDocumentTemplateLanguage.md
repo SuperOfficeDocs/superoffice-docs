@@ -11,17 +11,10 @@ DELETE /api/v1/List/DocumentTemplate/Items/{documentTemplateId}/Content/{languag
 
 Deletes language variant of the document template
 
-
-
-
-
-
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | documentTemplateId | int32 | The id of the document template **Required** |
 | languageCode | string | The language code ('en-US, 'nb-NO', etc) **Required** |
-
-
 
 ## Request Headers
 
@@ -32,8 +25,7 @@ Deletes language variant of the document template
 | Accept         | Content-type(s) you would like the response in:  |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-
-## Response: 
+## Response
 
 No Content
 
@@ -41,8 +33,7 @@ No Content
 |----------------|-------------|
 | 204 | No Content |
 
-Response body: 
-
+Response body:
 
 ## Sample request
 

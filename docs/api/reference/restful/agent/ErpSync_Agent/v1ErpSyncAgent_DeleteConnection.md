@@ -11,15 +11,7 @@ POST /api/v1/Agents/ErpSync/DeleteConnection
 
 Deletes a connection from the database.
 
-
-
-
-## Online Restricted: ## The ErpSync agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for ERP integration apps.
-
-
-
-
-
+## Online Restricted: ## The ErpSync agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for ERP integration apps
 
 ## Query String Parameters
 
@@ -31,7 +23,6 @@ Deletes a connection from the database.
 POST /api/v1/Agents/ErpSync/DeleteConnection?$select=name,department,category/id
 ```
 
-
 ## Request Headers
 
 | Parameter Name | Description |
@@ -42,16 +33,15 @@ POST /api/v1/Agents/ErpSync/DeleteConnection?$select=name,department,category/id
 | Accept         | Content-type(s) you would like the response in:  |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request
 
-ErpConnectionId 
+ErpConnectionId
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | ErpConnectionId | int32 |  |
 
-
-## Response: 
+## Response
 
 No Content
 
@@ -59,8 +49,7 @@ No Content
 |----------------|-------------|
 | 204 | No Content |
 
-Response body: 
-
+Response body:
 
 ## Sample request
 

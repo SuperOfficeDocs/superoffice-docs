@@ -11,13 +11,6 @@ POST /api/v1/Agents/Project/SaveProjectMember
 
 Updates the existing ProjectMember or creates a new ProjectMember if the id parameter is empty
 
-
-
-
-
-
-
-
 ## Request Headers
 
 | Parameter Name | Description |
@@ -32,9 +25,9 @@ Updates the existing ProjectMember or creates a new ProjectMember if the id para
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entity  
+## Request Body: entity
 
-The ProjectMember to be saved. 
+The ProjectMember to be saved.
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -60,8 +53,7 @@ The ProjectMember to be saved.
 | Comment | string | Comment text on the project membership |
 | FullName | string | The person's full name localized to the current culture/country.  (internal name used in clients for employees) |
 
-
-## Response: 
+## Response
 
 OK
 
@@ -69,7 +61,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+Response body:
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|

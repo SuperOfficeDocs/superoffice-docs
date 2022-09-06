@@ -7,15 +7,13 @@ title: List_Country
 ```
 
 ---
+
 title: List_Country
 ---
 
 ```http
 /api/v1/List/Country
 ```
-
-
-
 
 * [GET List/Country](v1CountryList_GetListDefinition.md)
 
@@ -48,7 +46,6 @@ title: List_Country
 * [PUT List/Country/Items/{id}/Headings](v1CountryList_PutCountryHeadingsForListItem.md)
 
 * [GET List/Country/MDOItems](v1CountryList_GetMDOList.md)
-
 
 * [GET List/Country](v1CountryList_GetListDefinition.md)
 

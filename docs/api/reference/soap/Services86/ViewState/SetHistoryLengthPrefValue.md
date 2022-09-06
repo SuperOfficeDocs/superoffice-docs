@@ -15,8 +15,6 @@ Set the logged on user's preferred history list length.
 
 * **length:** The new history list lenght
 
-
-
 [WSDL file for Services86/ViewState](../Services86-ViewState.md)
 
 Obtain a ticket from the [Services86/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -49,7 +47,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
-
 ## SetHistoryLengthPrefValue Response
 
 ```xml
@@ -69,4 +66,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

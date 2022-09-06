@@ -7,15 +7,13 @@ title: List_Task
 ```
 
 ---
+
 title: List_Task
 ---
 
 ```http
 /api/v1/List/Task
 ```
-
-
-
 
 * [GET List/Task](v1TaskList_GetListDefinition.md)
 
@@ -50,7 +48,6 @@ title: List_Task
 * [PUT List/Task/Items/{id}/Headings](v1TaskList_PutTaskListItemHeadingsForListItem.md)
 
 * [GET List/Task/MDOItems](v1TaskList_GetMDOList.md)
-
 
 * [GET List/Task](v1TaskList_GetListDefinition.md)
 

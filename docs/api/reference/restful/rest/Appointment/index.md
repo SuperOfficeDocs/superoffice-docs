@@ -7,15 +7,13 @@ title: Appointment
 ```
 
 ---
+
 title: Appointment
 ---
 
 ```http
 /api/v1/Appointment
 ```
-
-
-
 
 * [GET Appointment/default](v1AppointmentEntity_DefaultAppointmentEntity.md)
 
@@ -68,7 +66,6 @@ title: Appointment
 * [POST Appointment/UdefLayout/Revert](v1AppointmentEntity_RevertUdefLayout.md)
 
 * [GET Appointment/{id}/ForeignKey](v1AppointmentEntity_GetAllForeignKeysOnEntity.md)
-
 
 * [GET Appointment/default](v1AppointmentEntity_DefaultAppointmentEntity.md)
 

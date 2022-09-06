@@ -17,7 +17,6 @@ Saves the history elements as the current value for their respective lists. If m
 
 **Returns:** Array of the saved History items
 
-
 [WSDL file for Services85/ViewState](../Services85-ViewState.md)
 
 Obtain a ticket from the [Services85/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -60,7 +59,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
-
 ## SaveCurrents Response
 
 ```xml
@@ -91,4 +89,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

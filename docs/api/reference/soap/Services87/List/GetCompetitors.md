@@ -13,9 +13,6 @@ Implemented by the <see cref="M:SuperOffice.Services87.IListAgent.GetCompetitors
 
 Returns all competitors
 
-
-
-
 [WSDL file for Services87/List](../Services87-List.md)
 
 Obtain a ticket from the [Services87/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -47,7 +44,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
-
 ## GetCompetitors Response
 
 ```xml
@@ -74,4 +70,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

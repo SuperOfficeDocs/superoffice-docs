@@ -109,4 +109,3 @@ Download [WSDL file for Services88/User](../Services88-User.md) if you need to g
 * [SetPassword](SetPassword.md)
 * [SetPasswordFromName](SetPasswordFromName.md)
 * [ValidateUser](ValidateUser.md)
-

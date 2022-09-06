@@ -13,9 +13,7 @@ Implemented by the <see cref="M:SuperOffice.Services84.IPhoneListAgent.GetPrefer
 
 Getting Phone List Preferences from the CRM 5 user preferences
 
-
 **Returns:** The Phone List Preferences
-
 
 [WSDL file for Services84/PhoneList](../Services84-PhoneList.md)
 
@@ -47,7 +45,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
-
 ## GetPreferences Response
 
 ```xml
@@ -76,4 +73,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

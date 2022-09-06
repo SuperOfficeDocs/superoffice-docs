@@ -11,16 +11,9 @@ PUT /api/v1/ChatTopic/{chatTopicId}/UserAgent
 
 Update users roles in a chat topic
 
-
-
-
-
-
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | chatTopicId | int32 | Id of the chat topic **Required** |
-
-
 
 ## Request Headers
 
@@ -36,9 +29,9 @@ Update users roles in a chat topic
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: useragents  
+## Request Body: useragents
 
-Users new/updated roles within the chat topic. Replaces existing roles 
+Users new/updated roles within the chat topic. Replaces existing roles
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -48,7 +41,6 @@ Users new/updated roles within the chat topic. Replaces existing roles
 | CanRespond | bool | True if the user can respond to chats in this topic |
 | CanManage | bool | True if the user is a manager for this topic |
 | CanNotify | bool | True if the user should receive notifications for this topic |
-
 
 ## Response: array
 

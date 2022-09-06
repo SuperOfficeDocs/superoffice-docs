@@ -17,7 +17,6 @@ Get a single status monitor based on its identity
 
 **Returns:** The requested status monitor
 
-
 [WSDL file for Services86/Saint](../Services86-Saint.md)
 
 Obtain a ticket from the [Services86/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -49,7 +48,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-
 
 ## GetStatusMonitor Response
 
@@ -87,4 +85,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

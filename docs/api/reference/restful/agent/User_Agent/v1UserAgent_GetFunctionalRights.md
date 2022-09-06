@@ -11,16 +11,9 @@ POST /api/v1/Agents/User/GetFunctionalRights
 
 Get all functional rights for the given role.
 
-
 Functional rights not set on the role are not included. MDO List name = 'FunctionRights', extra='role=123'
 
-
-## Online Restricted: ## The User agent is not available in Online by default. User management is not allowed for partner apps.
-
-
-
-
-
+## Online Restricted: ## The User agent is not available in Online by default. User management is not allowed for partner apps
 
 ## Query String Parameters
 
@@ -31,7 +24,6 @@ Functional rights not set on the role are not included. MDO List name = 'Functio
 ```http
 POST /api/v1/Agents/User/GetFunctionalRights?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -47,14 +39,13 @@ POST /api/v1/Agents/User/GetFunctionalRights?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request
 
-RoleId 
+RoleId
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | RoleId | int32 |  |
-
 
 ## Response: array
 

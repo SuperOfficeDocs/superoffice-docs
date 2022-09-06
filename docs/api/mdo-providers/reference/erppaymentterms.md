@@ -15,6 +15,7 @@ so.envir:
 ---
 
 # "erppaymentterms" MDO List
+
 Dynamic provider that dispatches Quote Connector lists, based on QuoteAlternativeId or SaleId and "Erp"+&lt;list name&gt;.
 Consider using "QM_"+&lt;sale_id&gt;+&lt;list name&gt; instead if you can.
 
@@ -32,10 +33,6 @@ The name of the MDO list is 'erppaymentterms'.
 
 Separator: &
 
-
-
-
-
 ## Sample Request
 
 ```http!
@@ -47,6 +44,7 @@ Accept-Language: *
 ```
 
 ## Sample Code
+
 ```cs
 var listProvider = SuperOffice.CRM.Lists.SoListProviderFactory.Create("erppaymentterms", forceFlatList: true);
 foreach (var item in listProvider.RootItems) {
@@ -60,7 +58,6 @@ foreach (var item in listProvider.RootItems) {
 |Id   | Name  |StyleHint|ExtraInfo |
 | --- | ----- | ------- | -------- |
 | 2 | Example | | |
-
 
 ## Related MDO Lists
 

@@ -11,12 +11,6 @@ GET /api/v1/List/SelectionCategory/MDOItems
 
 Get the MDO list items for "SearchCat" - with headings and filtering by user group.
 
-
-
-
-
-
-
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -28,7 +22,6 @@ Get the MDO list items for "SearchCat" - with headings and filtering by user gro
 GET /api/v1/List/SelectionCategory/MDOItems?flat=True
 GET /api/v1/List/SelectionCategory/MDOItems?query=et
 ```
-
 
 ## Request Headers
 
@@ -42,7 +35,6 @@ GET /api/v1/List/SelectionCategory/MDOItems?query=et
 | SO-Culture | Number, date formatting in a specified culture (iso2 language) code. Partially overrides SO-Language/Accept-Language value. Ignored if no Language set. |
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
-
 
 ## Response: array
 

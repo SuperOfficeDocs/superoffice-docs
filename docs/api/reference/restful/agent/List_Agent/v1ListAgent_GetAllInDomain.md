@@ -11,12 +11,6 @@ POST /api/v1/Agents/List/GetAllInDomain
 
 Get all items in a domain
 
-
-
-
-
-
-
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -26,7 +20,6 @@ Get all items in a domain
 ```http
 POST /api/v1/Agents/List/GetAllInDomain?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -42,15 +35,14 @@ POST /api/v1/Agents/List/GetAllInDomain?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request
 
-Domain, Children 
+Domain, Children
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | Domain | string |  |
 | Children | bool |  |
-
 
 ## Response: array
 

@@ -17,7 +17,6 @@ Returns the contact with all the contact persons belonging to the contact
 
 **Returns:** ContactEntity with all data and persons.
 
-
 [WSDL file for Services88/Contact](../Services88-Contact.md)
 
 Obtain a ticket from the [Services88/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -49,7 +48,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-
 
 ## GetContactWithPersons Response
 
@@ -422,4 +420,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

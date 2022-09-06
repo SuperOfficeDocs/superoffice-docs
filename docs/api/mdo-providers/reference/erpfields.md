@@ -16,14 +16,8 @@ so.envir:
 
 # "erpfields" MDO List
 
-
-
-
 Implemented by the <see cref="T:SuperOffice.ErpSync.ErpFieldMdoProvider">ErpFieldMdoProvider</see> class.
 The name of the MDO list is 'erpfields'.
-
-
-
 
 ## Sample Request
 
@@ -36,6 +30,7 @@ Accept-Language: *
 ```
 
 ## Sample Code
+
 ```cs
 var listProvider = SuperOffice.CRM.Lists.SoListProviderFactory.Create("erpfields", forceFlatList: true);
 foreach (var item in listProvider.RootItems) {
@@ -49,7 +44,6 @@ foreach (var item in listProvider.RootItems) {
 |Id   | Name  |StyleHint|ExtraInfo |
 | --- | ----- | ------- | -------- |
 | 2 | Example | | |
-
 
 ## Related MDO Lists
 

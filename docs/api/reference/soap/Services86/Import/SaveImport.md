@@ -21,7 +21,6 @@ Do the actual import
 
 **Returns:** First part: the id of the selection created after the import, 0 if no selection is created. Second part: The number of rows actually imported
 
-
 [WSDL file for Services86/Import](../Services86-Import.md)
 
 Obtain a ticket from the [Services86/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -70,7 +69,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
-
 ## SaveImport Response
 
 ```xml
@@ -93,4 +91,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

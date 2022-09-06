@@ -11,16 +11,10 @@ POST /api/v1/Project/{sourceProjectId}/MergeTo/{destinationProjectId}
 
 Merge two projects into one, removing the source project in the process
 
-
-
-
-
-
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | sourceProjectId | int32 | Id of source project for merge. This project is removed after the merge is completed. **Required** |
 | destinationProjectId | int32 | Id of destination project to merge to. This project is updated with info from the source. **Required** |
-
 
 ## Query String Parameters
 
@@ -32,7 +26,6 @@ Merge two projects into one, removing the source project in the process
 POST /api/v1/Project/{sourceProjectId}/MergeTo/{destinationProjectId}?replaceEmptyFieldsOnDestination=True
 ```
 
-
 ## Request Headers
 
 | Parameter Name | Description |
@@ -42,8 +35,7 @@ POST /api/v1/Project/{sourceProjectId}/MergeTo/{destinationProjectId}?replaceEmp
 | Accept         | Content-type(s) you would like the response in:  |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-
-## Response: 
+## Response
 
 No Content
 
@@ -51,8 +43,7 @@ No Content
 |----------------|-------------|
 | 204 | No Content |
 
-Response body: 
-
+Response body:
 
 ## Sample request
 

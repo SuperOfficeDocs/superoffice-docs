@@ -11,13 +11,7 @@ POST /api/v1/Agents/Audience/SetDefaultCountryFlag
 
 Stores the default country flag image that is displayed in Audience when no person image is found.
 
-
 The image is set on a specific Audience layout instance.
-
-
-
-
-
 
 ## Query String Parameters
 
@@ -29,7 +23,6 @@ The image is set on a specific Audience layout instance.
 POST /api/v1/Agents/Audience/SetDefaultCountryFlag?$select=name,department,category/id
 ```
 
-
 ## Request Headers
 
 | Parameter Name | Description |
@@ -40,17 +33,16 @@ POST /api/v1/Agents/Audience/SetDefaultCountryFlag?$select=name,department,categ
 | Accept         | Content-type(s) you would like the response in:  |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request
 
-LayoutName, Image 
+LayoutName, Image
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | LayoutName | string |  |
 | Image | byte |  |
 
-
-## Response: 
+## Response
 
 No Content
 
@@ -58,8 +50,7 @@ No Content
 |----------------|-------------|
 | 204 | No Content |
 
-Response body: 
-
+Response body:
 
 ## Sample request
 

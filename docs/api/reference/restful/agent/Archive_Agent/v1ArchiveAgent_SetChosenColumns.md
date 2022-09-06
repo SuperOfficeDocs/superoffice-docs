@@ -11,13 +11,7 @@ POST /api/v1/Agents/Archive/SetChosenColumns
 
 Set the currently chosen columns for the given gui name/provider name combination.
 
-
 This service corresponds to the SetSelected method of the SelectableMDOList service, for a list called archiveColumns: plus the archive provider name and gui name as its additionalInfo.
-
-
-
-
-
 
 ## Query String Parameters
 
@@ -29,7 +23,6 @@ This service corresponds to the SetSelected method of the SelectableMDOList serv
 POST /api/v1/Agents/Archive/SetChosenColumns?$select=name,department,category/id
 ```
 
-
 ## Request Headers
 
 | Parameter Name | Description |
@@ -40,9 +33,9 @@ POST /api/v1/Agents/Archive/SetChosenColumns?$select=name,department,category/id
 | Accept         | Content-type(s) you would like the response in:  |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request
 
-GuiName, ProviderName, ChosenColumns 
+GuiName, ProviderName, ChosenColumns
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -50,8 +43,7 @@ GuiName, ProviderName, ChosenColumns
 | ProviderName | string |  |
 | ChosenColumns | array |  |
 
-
-## Response: 
+## Response
 
 No Content
 
@@ -59,8 +51,7 @@ No Content
 |----------------|-------------|
 | 204 | No Content |
 
-Response body: 
-
+Response body:
 
 ## Sample request
 

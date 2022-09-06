@@ -11,18 +11,11 @@ PUT /api/v1/Person/{personId}/ImageInfo
 
 Update the Blob that describes the given person's picture.
 
-
 The actual bitmap is accessible via /api/Services80/person/123/image/content.
-
-
-
-
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | personId | int32 | Person id **Required** |
-
-
 
 ## Request Headers
 
@@ -38,9 +31,9 @@ The actual bitmap is accessible via /api/Services80/person/123/image/content.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: imageInfo  
+## Request Body: imageInfo
 
-New or Updated information about the person image. 
+New or Updated information about the person image.
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -58,8 +51,7 @@ New or Updated information about the person image.
 | UpdatedBy |  | The person that last updated the appointment. |
 | ConceptualType | string | The type, for instance PHOTO, PERSONPHOTO, or whatever, that is descriptive of what kind of image or data this is |
 
-
-## Response: 
+## Response
 
 OK
 
@@ -67,7 +59,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+Response body:
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|

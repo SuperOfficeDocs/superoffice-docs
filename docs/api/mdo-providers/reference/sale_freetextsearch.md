@@ -15,6 +15,7 @@ so.envir:
 ---
 
 # "sale_freetextsearch" MDO List
+
 Provider for selecting a Sale.
 Does keyword matching and scoring across multiple
 string fields. Checks name, description, soundex fields.
@@ -29,9 +30,6 @@ Completed/Done sales are marked with stylehint = "deleted_item" (but item.delete
 Implemented by the <see cref="T:SuperOffice.CRM.Lists.SaleListFreetextSearchProvider">SaleListFreetextSearchProvider</see> class.
 The name of the MDO list is 'sale_freetextsearch'.
 
-
-
-
 ## Sample Request
 
 ```http!
@@ -43,6 +41,7 @@ Accept-Language: *
 ```
 
 ## Sample Code
+
 ```cs
 var listProvider = SuperOffice.CRM.Lists.SoListProviderFactory.Create("sale_freetextsearch", forceFlatList: true);
 foreach (var item in listProvider.RootItems) {
@@ -76,7 +75,6 @@ foreach (var item in listProvider.RootItems) {
 |23|SalgNDDN (Arne'S Kebab, AAvdeling)||SalgNDDN|
 |24|SalgSDDS (Yngve'S Fisk & Vilt, YAvdeling)|sold|SalgSDDS|
 |25|SalgYDDY (Yngve'S Fisk & Vilt, YAvdeling)||SalgYDDY|
-
 
 ## Related MDO Lists
 

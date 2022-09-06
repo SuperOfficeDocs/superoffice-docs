@@ -11,13 +11,6 @@ POST /api/v1/Agents/Quote/SaveQuoteAlternative
 
 Updates the existing QuoteAlternative or creates a new QuoteAlternative if the id parameter is empty
 
-
-
-
-
-
-
-
 ## Request Headers
 
 | Parameter Name | Description |
@@ -32,9 +25,9 @@ Updates the existing QuoteAlternative or creates a new QuoteAlternative if the i
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entity  
+## Request Body: entity
 
-The QuoteAlternative to be saved. 
+The QuoteAlternative to be saved.
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -62,8 +55,7 @@ The QuoteAlternative to be saved.
 | ExtraField4 | string | Optional information added by Quote Connector; usable in the quote document merge process |
 | ExtraField5 | string | Optional information added by Quote Connector; usable in the quote document merge process |
 
-
-## Response: 
+## Response
 
 OK
 
@@ -71,7 +63,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+Response body:
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|

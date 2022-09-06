@@ -11,12 +11,6 @@ POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedPageOneFields
 
 Get a list of page one fields for given Udef type and current user group
 
-
-
-
-
-
-
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -26,7 +20,6 @@ Get a list of page one fields for given Udef type and current user group
 ```http
 POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedPageOneFields?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -42,15 +35,14 @@ POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedPageOneFields?$select=nam
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request
 
-OwnerType, UserGroupId 
+OwnerType, UserGroupId
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | OwnerType | string |  |
 | UserGroupId | int32 |  |
-
 
 ## Response: array
 

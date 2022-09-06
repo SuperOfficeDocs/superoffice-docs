@@ -15,16 +15,12 @@ so.envir:
 ---
 
 # "efd_6" MDO List
+
 Extra fields dropdown lists. Contains list of string values defined on the extra_field.
 List names are 'EFD_123' where 123 is the extra field id.
 
-
-
 Implemented by the <see cref="T:SuperOffice.CRM.Lists.ExtraFieldsDropdownProvider">ExtraFieldsDropdownProvider</see> class.
 The name of the MDO list is 'efd_6'.
-
-
-
 
 ## Sample Request
 
@@ -37,6 +33,7 @@ Accept-Language: *
 ```
 
 ## Sample Code
+
 ```cs
 var listProvider = SuperOffice.CRM.Lists.SoListProviderFactory.Create("efd_6", forceFlatList: true);
 foreach (var item in listProvider.RootItems) {
@@ -59,7 +56,6 @@ foreach (var item in listProvider.RootItems) {
 |8|Subaru||Subaru|
 |9|Toyota||Toyota|
 |10|Honda||Honda|
-
 
 ## Related MDO Lists
 

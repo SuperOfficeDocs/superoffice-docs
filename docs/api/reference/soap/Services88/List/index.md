@@ -298,4 +298,3 @@ Download [WSDL file for Services88/List](../Services88-List.md) if you need to g
 * [SortListItems](SortListItems.md)
 * [UpdateCategoryMemberships](UpdateCategoryMemberships.md)
 * [UpdateHierarchyFromPath](UpdateHierarchyFromPath.md)
-

@@ -11,15 +11,9 @@ GET /api/v1/List/DocumentTemplate/Items/{documentTemplateId}/Url
 
 Get a url to the document template
 
-
-
-
-
-
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | documentTemplateId | int32 | The id of the template **Required** |
-
 
 ## Query String Parameters
 
@@ -32,7 +26,6 @@ Get a url to the document template
 GET /api/v1/List/DocumentTemplate/Items/{documentTemplateId}/Url?writableUrl=True
 GET /api/v1/List/DocumentTemplate/Items/{documentTemplateId}/Url?languageCode=facere
 ```
-
 
 ## Request Headers
 
@@ -47,7 +40,6 @@ GET /api/v1/List/DocumentTemplate/Items/{documentTemplateId}/Url?languageCode=fa
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-
 ## Response: string
 
 OK
@@ -57,7 +49,6 @@ OK
 | 200 | OK |
 
 Response body: string
-
 
 ## Sample request
 

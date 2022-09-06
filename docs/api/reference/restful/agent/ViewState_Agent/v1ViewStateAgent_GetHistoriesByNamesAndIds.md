@@ -11,13 +11,7 @@ POST /api/v1/Agents/ViewState/GetHistoriesByNamesAndIds
 
 Returns history data for the named entities and the given ids - which may not directly correspond to the current history records in the database.
 
-
 &lt;para/&gt;Use this method if you know exactly which items you need, regardless of whether they are in the current history or not.&lt;para/&gt;The history in the database is not changed or even looked at by this method.
-
-
-
-
-
 
 ## Query String Parameters
 
@@ -28,7 +22,6 @@ Returns history data for the named entities and the given ids - which may not di
 ```http
 POST /api/v1/Agents/ViewState/GetHistoriesByNamesAndIds?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -44,14 +37,13 @@ POST /api/v1/Agents/ViewState/GetHistoriesByNamesAndIds?$select=name,department,
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request
 
-Requests 
+Requests
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | Requests | array |  |
-
 
 ## Response: array
 

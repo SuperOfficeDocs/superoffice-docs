@@ -11,12 +11,6 @@ POST /api/v1/Agents/List/GetDocumentTemplateUrl
 
 Get a url to the document template
 
-
-
-
-
-
-
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -26,7 +20,6 @@ Get a url to the document template
 ```http
 POST /api/v1/Agents/List/GetDocumentTemplateUrl?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -42,16 +35,15 @@ POST /api/v1/Agents/List/GetDocumentTemplateUrl?$select=name,department,category
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request
 
-DocumentTemplateId, WritableUrl, LanguageCode 
+DocumentTemplateId, WritableUrl, LanguageCode
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | DocumentTemplateId | int32 |  |
 | WritableUrl | bool |  |
 | LanguageCode | string |  |
-
 
 ## Response: string
 
@@ -62,7 +54,6 @@ OK
 | 200 | OK |
 
 Response body: string
-
 
 ## Sample request
 

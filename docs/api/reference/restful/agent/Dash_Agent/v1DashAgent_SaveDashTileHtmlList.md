@@ -11,12 +11,6 @@ POST /api/v1/Agents/Dash/SaveDashTileHtmlList
 
 Set the HTML data for a tile with TileType = HTML.
 
-
-
-
-
-
-
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -26,7 +20,6 @@ Set the HTML data for a tile with TileType = HTML.
 ```http
 POST /api/v1/Agents/Dash/SaveDashTileHtmlList?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -42,15 +35,14 @@ POST /api/v1/Agents/Dash/SaveDashTileHtmlList?$select=name,department,category/i
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request
 
-DashboardTileDefinitionId, Languages 
+DashboardTileDefinitionId, Languages
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | DashboardTileDefinitionId | int32 |  |
 | Languages | array |  |
-
 
 ## Response: array
 

@@ -7,15 +7,13 @@ title: List_Reason
 ```
 
 ---
+
 title: List_Reason
 ---
 
 ```http
 /api/v1/List/Reason
 ```
-
-
-
 
 * [GET List/Reason](v1ReasonList_GetListDefinition.md)
 
@@ -54,7 +52,6 @@ title: List_Reason
 * [PUT List/Reason/Items/{id}/Headings](v1ReasonList_PutReasonHeadingsForListItem.md)
 
 * [GET List/Reason/MDOItems](v1ReasonList_GetMDOList.md)
-
 
 * [GET List/Reason](v1ReasonList_GetListDefinition.md)
 

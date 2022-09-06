@@ -11,12 +11,6 @@ POST /api/v1/Agents/List/GetHeadings
 
 Gets a selectable MDO list of the headings for this list item
 
-
-
-
-
-
-
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -26,7 +20,6 @@ Gets a selectable MDO list of the headings for this list item
 ```http
 POST /api/v1/Agents/List/GetHeadings?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -42,16 +35,15 @@ POST /api/v1/Agents/List/GetHeadings?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request
 
-UdListDefinitionId, ListItemId, ShowDeleted 
+UdListDefinitionId, ListItemId, ShowDeleted
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | UdListDefinitionId | int32 |  |
 | ListItemId | int32 |  |
 | ShowDeleted | bool |  |
-
 
 ## Response: array
 

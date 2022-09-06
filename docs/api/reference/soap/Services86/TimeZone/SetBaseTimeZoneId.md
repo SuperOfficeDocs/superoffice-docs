@@ -17,7 +17,6 @@ Set the base timezone id.
 
 **Returns:** Returns true if setting of base timezone was done
 
-
 [WSDL file for Services86/TimeZone](../Services86-TimeZone.md)
 
 Obtain a ticket from the [Services86/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -49,7 +48,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
-
 ## SetBaseTimeZoneId Response
 
 ```xml
@@ -69,4 +67,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

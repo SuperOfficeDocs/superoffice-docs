@@ -17,7 +17,6 @@ Updates the existing DashTileDefinition or creates a new DashTileDefinition if t
 
 **Returns:** New or updated DashTileDefinition
 
-
 [WSDL file for Services88/Dash](../Services88-Dash.md)
 
 Obtain a ticket from the [Services88/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -70,7 +69,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
-
 ## SaveDashTileDefinition Response
 
 ```xml
@@ -111,4 +109,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

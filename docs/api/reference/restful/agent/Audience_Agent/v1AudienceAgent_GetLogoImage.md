@@ -9,14 +9,6 @@ uid: v1AudienceAgent_GetLogoImage
 POST /api/v1/Agents/Audience/GetLogoImage
 ```
 
-
-
-
-
-
-
-
-
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -26,7 +18,6 @@ POST /api/v1/Agents/Audience/GetLogoImage
 ```http
 POST /api/v1/Agents/Audience/GetLogoImage?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -42,14 +33,13 @@ POST /api/v1/Agents/Audience/GetLogoImage?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request
 
-LayoutName 
+LayoutName
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | LayoutName | string |  |
-
 
 ## Response: byte
 
@@ -60,7 +50,6 @@ OK
 | 200 | OK |
 
 Response body: byte
-
 
 ## Sample request
 

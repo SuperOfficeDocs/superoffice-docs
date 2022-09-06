@@ -11,13 +11,7 @@ POST /api/v1/Agents/Configuration/GetAnyConfiguration
 
 Get one defined configuration fragment, with full reference resolution and parsing applied.
 
-
 This is essentially the same service as the GetPageConfiguration, except that this service is not locked to objects of type Page.
-
-
-
-
-
 
 ## Query String Parameters
 
@@ -28,7 +22,6 @@ This is essentially the same service as the GetPageConfiguration, except that th
 ```http
 POST /api/v1/Agents/Configuration/GetAnyConfiguration?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -44,9 +37,9 @@ POST /api/v1/Agents/Configuration/GetAnyConfiguration?$select=name,department,ca
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request
 
-Application, Instance, Item, Type 
+Application, Instance, Item, Type
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -54,7 +47,6 @@ Application, Instance, Item, Type
 | Instance | string |  |
 | Item | string |  |
 | Type | string |  |
-
 
 ## Response: string
 
@@ -65,7 +57,6 @@ OK
 | 200 | OK |
 
 Response body: string
-
 
 ## Sample request
 

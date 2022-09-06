@@ -11,18 +11,11 @@ GET /api/v1/Appointment/{id}/Simple
 
 A simple Appointment object.
 
-
 This is a simpler, smaller variation of the full AppointmentEntity. Calls the Appointment agent service GetAppointment.
-
-
-
-
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | id | int32 | The id of the Appointment to return. **Required** |
-
-
 
 ## Request Headers
 
@@ -37,8 +30,7 @@ This is a simpler, smaller variation of the full AppointmentEntity. Calls the Ap
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-
-## Response: 
+## Response
 
 AppointmentEntity found.
 
@@ -47,7 +39,7 @@ AppointmentEntity found.
 | 200 | AppointmentEntity found. |
 | 404 | Not Found. |
 
-Response body: 
+Response body:
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|

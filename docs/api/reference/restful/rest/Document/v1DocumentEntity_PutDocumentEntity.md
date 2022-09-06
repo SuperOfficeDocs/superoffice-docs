@@ -11,17 +11,11 @@ PUT /api/v1/Document/{id}
 
 Updates the existing DocumentEntity Save the document entity.
 
-
 If the entity already exists and the file name of the incoming entity is different from the existing one, a corresponding renaming of the physical document will be attempted. This may cause an amended file name to be substituted into the document entity, since a document plugin may have aribitrary rules on file names and collisions. Clients should always inspect the return value from this call and not assume that what they sent for saving is the final truth.
-
-
-
-
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | id | int32 | The DocumentEntity id to update. **Required** |
-
 
 ## Query String Parameters
 
@@ -32,7 +26,6 @@ If the entity already exists and the file name of the incoming entity is differe
 ```http
 PUT /api/v1/Document/{id}?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -48,9 +41,9 @@ PUT /api/v1/Document/{id}?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entity  
+## Request Body: entity
 
-The DocumentEntity to be saved. 
+The DocumentEntity to be saved.
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -89,8 +82,7 @@ The DocumentEntity to be saved.
 | IsPublished | bool | Publication is published |
 | VisibleFor | array | The set of users or groups the record is visible for |
 
-
-## Response: 
+## Response
 
 DocumentEntity updated.
 
@@ -100,7 +92,7 @@ DocumentEntity updated.
 | 412 | Update stopped because DocumentEntity has changed since the requested If-Unmodified-Since timestamp. |
 | 400 | Bad request. Entity to save is not in request body. |
 
-Response body: 
+Response body:
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|

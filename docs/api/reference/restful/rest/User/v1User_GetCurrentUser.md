@@ -11,14 +11,7 @@ GET /api/v1/User/current
 
 Gets the currently logged in user's information: username, personal name, credentials, licenses.
 
-
 Blocked in Online for safety. Calls the User agent service GetUser.
-
-
-
-
-
-
 
 ## Request Headers
 
@@ -33,8 +26,7 @@ Blocked in Online for safety. Calls the User agent service GetUser.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-
-## Response: 
+## Response
 
 OK
 
@@ -42,7 +34,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+Response body:
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|

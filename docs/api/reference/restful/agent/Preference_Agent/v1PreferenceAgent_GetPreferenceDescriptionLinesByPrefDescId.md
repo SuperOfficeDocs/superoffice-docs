@@ -11,12 +11,6 @@ POST /api/v1/Agents/Preference/GetPreferenceDescriptionLinesByPrefDescId
 
 Get all preference description lines from a prefDesc_id
 
-
-
-
-
-
-
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -26,7 +20,6 @@ Get all preference description lines from a prefDesc_id
 ```http
 POST /api/v1/Agents/Preference/GetPreferenceDescriptionLinesByPrefDescId?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -42,14 +35,13 @@ POST /api/v1/Agents/Preference/GetPreferenceDescriptionLinesByPrefDescId?$select
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request
 
-PrefDescId 
+PrefDescId
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | PrefDescId | int32 |  |
-
 
 ## Response: array
 

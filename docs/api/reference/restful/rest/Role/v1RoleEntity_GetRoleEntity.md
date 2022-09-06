@@ -11,20 +11,13 @@ GET /api/v1/Role/{id}
 
 Gets a RoleEntity object.
 
-
 Calls the User agent service GetRoleEntity.
 
-
-## Online Restricted: ## The User agent is not available in Online by default. User management is not allowed for partner apps.
-
-
-
-
+## Online Restricted: ## The User agent is not available in Online by default. User management is not allowed for partner apps
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | id | int32 | The id of the RoleEntity to return. **Required** |
-
 
 ## Query String Parameters
 
@@ -35,7 +28,6 @@ Calls the User agent service GetRoleEntity.
 ```http
 GET /api/v1/Role/{id}?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -50,8 +42,7 @@ GET /api/v1/Role/{id}?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-
-## Response: 
+## Response
 
 RoleEntity found.
 
@@ -60,7 +51,7 @@ RoleEntity found.
 | 200 | RoleEntity found. |
 | 404 | Not Found. |
 
-Response body: 
+Response body:
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|

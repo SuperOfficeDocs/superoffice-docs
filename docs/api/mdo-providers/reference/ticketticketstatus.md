@@ -15,9 +15,8 @@ so.envir:
 ---
 
 # "ticketticketstatus" MDO List
+
 TicketTicketStatusProvider creates a flat list based on the table: TICKET_STATUS
-
-
 
 Implemented by the <see cref="T:SuperOffice.CRM.Lists.TicketTicketStatusProvider">TicketTicketStatusProvider</see> class.
 The name of the MDO list is 'ticketticketstatus'.
@@ -30,10 +29,6 @@ The name of the MDO list is 'ticketticketstatus'.
 
 Separator: &
 
-
-
-
-
 ## Sample Request
 
 ```http!
@@ -45,6 +40,7 @@ Accept-Language: *
 ```
 
 ## Sample Code
+
 ```cs
 var listProvider = SuperOffice.CRM.Lists.SoListProviderFactory.Create("ticketticketstatus", forceFlatList: true);
 foreach (var item in listProvider.RootItems) {
@@ -62,7 +58,6 @@ foreach (var item in listProvider.RootItems) {
 |5|Linked||5|
 |1|Open||1|
 |3|Postponed||3|
-
 
 ## Related MDO Lists
 

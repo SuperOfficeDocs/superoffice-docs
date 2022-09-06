@@ -11,13 +11,7 @@ POST /api/v1/Agents/Find/PopulateRestrictions
 
 Take an incoming set of minimally populated restrictions (name + operator is required), and populate all the other parts of the ArchiveRestrictionInfo structure.
 
-
 This includes column information, display values (including list value lookup), and calculated/default values where the value hints specify read-only (R).
-
-
-
-
-
 
 ## Query String Parameters
 
@@ -28,7 +22,6 @@ This includes column information, display values (including list value lookup), 
 ```http
 POST /api/v1/Agents/Find/PopulateRestrictions?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -44,15 +37,14 @@ POST /api/v1/Agents/Find/PopulateRestrictions?$select=name,department,category/i
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request
 
-ProviderName, Restrictions 
+ProviderName, Restrictions
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | ProviderName | string |  |
 | Restrictions | array |  |
-
 
 ## Response: array
 

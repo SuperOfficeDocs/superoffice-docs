@@ -17,7 +17,6 @@ Updates the existing SaleTypeEntity or creates a new SaleTypeEntity if the id pa
 
 **Returns:** New or updated SaleTypeEntity
 
-
 [WSDL file for Services85/List](../Services85-List.md)
 
 Obtain a ticket from the [Services85/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -110,7 +109,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-
 
 ## SaveSaleTypeEntity Response
 
@@ -209,4 +207,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

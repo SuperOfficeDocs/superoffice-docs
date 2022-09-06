@@ -7,15 +7,13 @@ title: ContactRelation
 ```
 
 ---
+
 title: ContactRelation
 ---
 
 ```http
 /api/v1/ContactRelation
 ```
-
-
-
 
 * [GET Relation/default](v1ContactRelationEntity_DefaultContactRelationEntity.md)
 
@@ -30,7 +28,6 @@ title: ContactRelation
 * [DEL Relation/{id}](v1ContactRelationEntity_DeleteContactRelationEntity.md)
 
 * [PATCH Relation/{id}](v1ContactRelationEntity_PatchContactRelationEntity.md)
-
 
 * [GET Relation/default](v1ContactRelationEntity_DefaultContactRelationEntity.md)
 

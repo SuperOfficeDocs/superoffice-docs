@@ -7,15 +7,13 @@ title: FreeText_Agent
 ```
 
 ---
+
 title: FreeText_Agent
 ---
 
 ```http
 /api/v1/FreeText/Agent
 ```
-
-
-
 
 * [POST Agents/FreeText/GetStatus](v1FreeTextAgent_GetStatus.md)
 
@@ -36,7 +34,6 @@ title: FreeText_Agent
 * [POST Agents/FreeText/GetSuggestedStopWords](v1FreeTextAgent_GetSuggestedStopWords.md)
 
 * [POST Agents/FreeText/RegenerateIndex](v1FreeTextAgent_RegenerateIndex.md)
-
 
 * [POST Agents/FreeText/GetStatus](v1FreeTextAgent_GetStatus.md)
 

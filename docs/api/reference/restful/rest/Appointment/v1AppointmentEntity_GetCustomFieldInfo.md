@@ -11,18 +11,11 @@ GET /api/v1/Appointment/CustomField/{fieldName}
 
 Custom field meta-data (published user defined + extra fields) on AppointmentEntity.
 
-
 Excludes standard fields.
-
-
-
-
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | fieldName | string | The name of the custom field to return: 'x_foo' or 'SuperOffice:3' **Required** |
-
-
 
 ## Request Headers
 
@@ -37,8 +30,7 @@ Excludes standard fields.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-
-## Response: 
+## Response
 
 OK
 
@@ -46,7 +38,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+Response body:
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|

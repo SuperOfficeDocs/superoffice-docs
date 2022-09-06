@@ -13,9 +13,7 @@ Implemented by the <see cref="M:SuperOffice.Services85.IAppointmentAgent.CleanUp
 
 Deletes all appointments(within the appointmentIds array) with status BookingDeleted.
 
-* **appointmentIds:** 
-
-
+* **appointmentIds:**
 
 [WSDL file for Services85/Appointment](../Services85-Appointment.md)
 
@@ -51,7 +49,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
-
 ## CleanUpBookingDeleted Response
 
 ```xml
@@ -72,4 +69,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

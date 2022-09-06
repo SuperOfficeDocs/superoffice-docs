@@ -11,18 +11,11 @@ PUT /api/v1/List/Country/Items/{id}
 
 Updates the existing Country
 
-
 Calls the List agent service SaveCountry.
-
-
-
-
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | id | int32 | The id of Country to be saved. **Required** |
-
-
 
 ## Request Headers
 
@@ -38,9 +31,9 @@ Calls the List agent service SaveCountry.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entity  
+## Request Body: entity
 
-The details of Country to be saved. 
+The details of Country to be saved.
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -63,8 +56,7 @@ The details of Country to be saved.
 | Tooltip | string | The tooltip of the country |
 | Deleted | bool | true if the country is deleted |
 
-
-## Response: 
+## Response
 
 OK
 
@@ -73,7 +65,7 @@ OK
 | 200 | OK |
 | 400 | Bad request. Entity to save is not in request body. |
 
-Response body: 
+Response body:
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|

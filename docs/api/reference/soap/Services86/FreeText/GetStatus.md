@@ -13,9 +13,7 @@ Implemented by the <see cref="M:SuperOffice.Services86.IFreeTextAgent.GetStatus"
 
 Returns status for the freetext search words
 
-
 **Returns:** The freetext status
-
 
 [WSDL file for Services86/FreeText](../Services86-FreeText.md)
 
@@ -48,7 +46,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
-
 ## GetStatus Response
 
 ```xml
@@ -77,4 +74,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

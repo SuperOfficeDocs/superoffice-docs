@@ -11,13 +11,7 @@ POST /api/v1/Agents/User/GetValidUserName
 
 <para />
 
-
-## Online Restricted: ## The User agent is not available in Online by default. User management is not allowed for partner apps.
-
-
-
-
-
+## Online Restricted: ## The User agent is not available in Online by default. User management is not allowed for partner apps
 
 ## Query String Parameters
 
@@ -28,7 +22,6 @@ POST /api/v1/Agents/User/GetValidUserName
 ```http
 POST /api/v1/Agents/User/GetValidUserName?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -44,9 +37,9 @@ POST /api/v1/Agents/User/GetValidUserName?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request
 
-AssociateId, Type, PersonId, UserName 
+AssociateId, Type, PersonId, UserName
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -54,7 +47,6 @@ AssociateId, Type, PersonId, UserName
 | Type | string |  |
 | PersonId | int32 |  |
 | UserName | string |  |
-
 
 ## Response: string
 
@@ -65,7 +57,6 @@ OK
 | 200 | OK |
 
 Response body: string
-
 
 ## Sample request
 

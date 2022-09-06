@@ -12,15 +12,15 @@ so.topic: reference
 
 ## string AddressField1
 
-Address line
+Address line 1
 
 ## string AddressField2
 
-Address line
+Address line 2
 
 ## string AddressField3
 
-Address line
+Address line 3
 
 ## string AddressCity
 

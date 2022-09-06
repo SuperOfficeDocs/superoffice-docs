@@ -7,15 +7,13 @@ title: BulkUpdate_Agent
 ```
 
 ---
+
 title: BulkUpdate_Agent
 ---
 
 ```http
 /api/v1/BulkUpdate/Agent
 ```
-
-
-
 
 * [POST Agents/BulkUpdate/GetAvailableFields](v1BulkUpdateAgent_GetAvailableFields.md)
 
@@ -32,7 +30,6 @@ title: BulkUpdate_Agent
 * [POST Agents/BulkUpdate/RemoveStoredFieldsAndGetDefaultFields](v1BulkUpdateAgent_RemoveStoredFieldsAndGetDefaultFields.md)
 
 * [POST Agents/BulkUpdate/GetJobResultAsJsonFromBinaryObjectId](v1BulkUpdateAgent_GetJobResultAsJsonFromBinaryObjectId.md)
-
 
 * [POST Agents/BulkUpdate/GetAvailableFields](v1BulkUpdateAgent_GetAvailableFields.md)
 

@@ -15,15 +15,11 @@ so.envir:
 ---
 
 # "importnewlistitem" MDO List
+
 Import list items: Add item, use default, use blank
-
-
 
 Implemented by the <see cref="T:SuperOffice.CRM.Lists.ImportNewListItemProvider">ImportNewListItemProvider</see> class.
 The name of the MDO list is 'importnewlistitem'.
-
-
-
 
 ## Sample Request
 
@@ -36,6 +32,7 @@ Accept-Language: *
 ```
 
 ## Sample Code
+
 ```cs
 var listProvider = SuperOffice.CRM.Lists.SoListProviderFactory.Create("importnewlistitem", forceFlatList: true);
 foreach (var item in listProvider.RootItems) {
@@ -51,7 +48,6 @@ foreach (var item in listProvider.RootItems) {
 |1|Add new item to list|||
 |2|Ignore - use default|||
 |3|Ignore - set to blank|||
-
 
 ## Related MDO Lists
 

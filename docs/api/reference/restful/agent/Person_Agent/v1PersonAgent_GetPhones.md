@@ -11,12 +11,6 @@ POST /api/v1/Agents/Person/GetPhones
 
 Returning all phones that belong to a person, ordered by the phone type.
 
-
-
-
-
-
-
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -26,7 +20,6 @@ Returning all phones that belong to a person, ordered by the phone type.
 ```http
 POST /api/v1/Agents/Person/GetPhones?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -42,14 +35,13 @@ POST /api/v1/Agents/Person/GetPhones?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request
 
-PersonId 
+PersonId
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | PersonId | int32 |  |
-
 
 ## Response: array
 

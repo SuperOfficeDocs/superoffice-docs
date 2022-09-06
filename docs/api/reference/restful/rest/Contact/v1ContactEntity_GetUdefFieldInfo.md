@@ -11,16 +11,9 @@ GET /api/v1/Contact/UdefLayout/{progidOrLabel}
 
 Get a ContactEntity user-defined field's details based on the prog-id or label.
 
-
-
-
-
-
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | progidOrLabel | string | The udef field id, case-sensitive prog-id, or field label. **Required** |
-
-
 
 ## Request Headers
 
@@ -35,8 +28,7 @@ Get a ContactEntity user-defined field's details based on the prog-id or label.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-
-## Response: 
+## Response
 
 ContactEntity found.
 
@@ -45,7 +37,7 @@ ContactEntity found.
 | 200 | ContactEntity found. |
 | 404 | ContactEntity not found. |
 
-Response body: 
+Response body:
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|

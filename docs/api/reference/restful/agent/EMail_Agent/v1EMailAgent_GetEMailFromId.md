@@ -11,15 +11,7 @@ POST /api/v1/Agents/EMail/GetEMailFromId
 
 Get en e-mail based on its unique id
 
-
-
-
-## Online Restricted: ## The EMail agent is not available in Online by default. Access must be requested specifically when app is registered.
-
-
-
-
-
+## Online Restricted: ## The EMail agent is not available in Online by default. Access must be requested specifically when app is registered
 
 ## Query String Parameters
 
@@ -30,7 +22,6 @@ Get en e-mail based on its unique id
 ```http
 POST /api/v1/Agents/EMail/GetEMailFromId?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -46,9 +37,9 @@ POST /api/v1/Agents/EMail/GetEMailFromId?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request
 
-ConnectionInfo, MessageServerId, LookupAddresses, Flags, IncludeAttachments 
+ConnectionInfo, MessageServerId, LookupAddresses, Flags, IncludeAttachments
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -58,8 +49,7 @@ ConnectionInfo, MessageServerId, LookupAddresses, Flags, IncludeAttachments
 | Flags | string |  |
 | IncludeAttachments | bool |  |
 
-
-## Response: 
+## Response
 
 OK
 
@@ -67,7 +57,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+Response body:
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|

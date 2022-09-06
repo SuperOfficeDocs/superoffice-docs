@@ -14,9 +14,7 @@ Implemented by the <see cref="M:SuperOffice.Services88.IListAgent.CreateDefaultW
 Loading default values into a new WebPanelEntity.
 NetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance
 
-
 **Returns:** New WebPanelEntity with default values
-
 
 [WSDL file for Services88/List](../Services88-List.md)
 
@@ -48,7 +46,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-
 
 ## CreateDefaultWebPanelEntity Response
 
@@ -92,4 +89,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

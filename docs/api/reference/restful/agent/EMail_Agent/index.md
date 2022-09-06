@@ -7,15 +7,13 @@ title: EMail_Agent
 ```
 
 ---
+
 title: EMail_Agent
 ---
 
 ```http
 /api/v1/EMail/Agent
 ```
-
-
-
 
 * [POST Agents/EMail/TestAuthenticate](v1EMailAgent_TestAuthenticate.md)
 
@@ -210,7 +208,6 @@ title: EMail_Agent
 * [POST Agents/EMail/GetEMailEnvelopes](v1EMailAgent_GetEMailEnvelopes.md)
 
 * [POST Agents/EMail/SetSubscription](v1EMailAgent_SetSubscription.md)
-
 
 * [POST Agents/EMail/Send](v1EMailAgent_Send.md)
 

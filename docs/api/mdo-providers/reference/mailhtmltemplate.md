@@ -15,15 +15,11 @@ so.envir:
 ---
 
 # "mailhtmltemplate" MDO List
+
 List provider for the Mailtemplates.
-
-
 
 Implemented by the <see cref="T:SuperOffice.CRM.Lists.MailHtmlTemplateProvider">MailHtmlTemplateProvider</see> class.
 The name of the MDO list is 'mailhtmltemplate'.
-
-
-
 
 ## Sample Request
 
@@ -36,6 +32,7 @@ Accept-Language: *
 ```
 
 ## Sample Code
+
 ```cs
 var listProvider = SuperOffice.CRM.Lists.SoListProviderFactory.Create("mailhtmltemplate", forceFlatList: true);
 foreach (var item in listProvider.RootItems) {
@@ -52,7 +49,6 @@ foreach (var item in listProvider.RootItems) {
 |23|Cancelled meeting|||
 |22|Changed meeting|||
 |21|New meeting|||
-
 
 ## Related MDO Lists
 

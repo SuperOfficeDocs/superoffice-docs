@@ -15,8 +15,6 @@ Adds WebApp usage to existing log
 
 * **webAppUsages:** Web app usage.
 
-
-
 [WSDL file for Services85/Diagnostics](../Services85-Diagnostics.md)
 
 Obtain a ticket from the [Services85/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -59,7 +57,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
-
 ## AddWebAppUsage Response
 
 ```xml
@@ -79,4 +76,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

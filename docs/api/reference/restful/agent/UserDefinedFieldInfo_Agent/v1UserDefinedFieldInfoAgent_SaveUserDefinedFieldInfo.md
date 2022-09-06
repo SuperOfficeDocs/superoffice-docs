@@ -11,13 +11,6 @@ POST /api/v1/Agents/UserDefinedFieldInfo/SaveUserDefinedFieldInfo
 
 Updates the existing UserDefinedFieldInfo or creates a new UserDefinedFieldInfo if the id parameter is empty
 
-
-
-
-
-
-
-
 ## Request Headers
 
 | Parameter Name | Description |
@@ -32,9 +25,9 @@ Updates the existing UserDefinedFieldInfo or creates a new UserDefinedFieldInfo 
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entity  
+## Request Body: entity
 
-The UserDefinedFieldInfo to be saved. 
+The UserDefinedFieldInfo to be saved.
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -73,8 +66,7 @@ The UserDefinedFieldInfo to be saved.
 | HasBeenPublished | bool | Has the udef field been published? |
 | MdoListName | string | MDO list name used to populate this list. Derived from UDListDefinitionId and ListTableId. (Read-only) |
 
-
-## Response: 
+## Response
 
 OK
 
@@ -82,7 +74,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+Response body:
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|

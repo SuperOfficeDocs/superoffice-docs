@@ -7,15 +7,13 @@ title: List_Rating
 ```
 
 ---
+
 title: List_Rating
 ---
 
 ```http
 /api/v1/List/Rating
 ```
-
-
-
 
 * [GET List/Rating](v1RatingList_GetListDefinition.md)
 
@@ -50,7 +48,6 @@ title: List_Rating
 * [PUT List/Rating/Items/{id}/Headings](v1RatingList_PutSaleStageEntityHeadingsForListItem.md)
 
 * [GET List/Rating/MDOItems](v1RatingList_GetMDOList.md)
-
 
 * [GET List/Rating](v1RatingList_GetListDefinition.md)
 

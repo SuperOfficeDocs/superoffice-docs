@@ -17,7 +17,6 @@ Updates the existing Product or creates a new Product if the id parameter is 0.
 
 **Returns:** New or updated Product
 
-
 [WSDL file for Services87/Quote](../Services87-Quote.md)
 
 Obtain a ticket from the [Services87/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -91,7 +90,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
-
 ## SaveProduct Response
 
 ```xml
@@ -153,4 +151,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

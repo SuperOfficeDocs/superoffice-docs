@@ -11,12 +11,6 @@ POST /api/v1/Agents/Configuration/GetRecipeAppliesToMappings
 
 Return the a  dictionary with recipeId as key, and chosen appliesTo for that recipe, Like projecttype for projectcardrecipe
 
-
-
-
-
-
-
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -26,7 +20,6 @@ Return the a  dictionary with recipeId as key, and chosen appliesTo for that rec
 ```http
 POST /api/v1/Agents/Configuration/GetRecipeAppliesToMappings?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -41,7 +34,6 @@ POST /api/v1/Agents/Configuration/GetRecipeAppliesToMappings?$select=name,depart
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-
 ## Response: object
 
 OK
@@ -51,7 +43,6 @@ OK
 | 200 | OK |
 
 Response body: object
-
 
 ## Sample request
 

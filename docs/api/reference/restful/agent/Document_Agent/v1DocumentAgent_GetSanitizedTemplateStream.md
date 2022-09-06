@@ -11,13 +11,7 @@ POST /api/v1/Agents/Document/GetSanitizedTemplateStream
 
 Retrieve a stream to a mail template based on its name.
 
-
 Sanitizes the contents if possible.
-
-
-
-
-
 
 ## Query String Parameters
 
@@ -28,7 +22,6 @@ Sanitizes the contents if possible.
 ```http
 POST /api/v1/Agents/Document/GetSanitizedTemplateStream?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -44,16 +37,15 @@ POST /api/v1/Agents/Document/GetSanitizedTemplateStream?$select=name,department,
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request
 
-TemplateName, AllowPersonal, UiCulture 
+TemplateName, AllowPersonal, UiCulture
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | TemplateName | string |  |
 | AllowPersonal | bool |  |
 | UiCulture | string |  |
-
 
 ## Response: byte
 
@@ -64,7 +56,6 @@ OK
 | 200 | OK |
 
 Response body: byte
-
 
 ## Sample request
 

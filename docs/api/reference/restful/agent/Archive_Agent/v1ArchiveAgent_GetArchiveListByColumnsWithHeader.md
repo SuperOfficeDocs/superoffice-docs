@@ -11,39 +11,19 @@ POST /api/v1/Agents/Archive/GetArchiveListByColumnsWithHeader
 
 Get a page of results for an archive list, explicitly specifying the restrictions, orderby and chosen columns; as well as a name/value string formatted set of options.
 
-
-The return value includes a header that has various extra information, in addition to the actual rows. 
+The return value includes a header that has various extra information, in addition to the actual rows.
 Archive Restriction Info objects represent search terms.
-
 
 Column names and operator strings are defined elsewhere.
 
-
 Values should be encoded using the CultureDataFormatter, so 10 is "[I:10]".
 Default string encodings should be handled ok, but beware of non-invariant cultures leading to incorrect date and float parsing.
-
-
-
-
-
 
 ```
 
 var restriction1 = new ArchiveRestrictionInfo("category", "equals", "[I:10]");
 
 ```
-
-
-
-
-
-
-
-
-
-
-
-
 
 ## Query String Parameters
 
@@ -54,7 +34,6 @@ var restriction1 = new ArchiveRestrictionInfo("category", "equals", "[I:10]");
 ```http
 POST /api/v1/Agents/Archive/GetArchiveListByColumnsWithHeader?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -70,9 +49,9 @@ POST /api/v1/Agents/Archive/GetArchiveListByColumnsWithHeader?$select=name,depar
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request
 
-ProviderName, Columns, SortOrder, Restriction, Entities, Page, PageSize, Options 
+ProviderName, Columns, SortOrder, Restriction, Entities, Page, PageSize, Options
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -85,8 +64,7 @@ ProviderName, Columns, SortOrder, Restriction, Entities, Page, PageSize, Options
 | PageSize | int32 |  |
 | Options | string |  |
 
-
-## Response: 
+## Response
 
 OK
 
@@ -94,7 +72,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+Response body:
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|

@@ -14,9 +14,7 @@ Implemented by the <see cref="M:SuperOffice.Services87.IListAgent.CreateDefaultS
 Loading default values into a new SaleTypeEntity.
 NetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance
 
-
 **Returns:** New SaleTypeEntity with default values
-
 
 [WSDL file for Services87/List](../Services87-List.md)
 
@@ -48,7 +46,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-
 
 ## CreateDefaultSaleTypeEntity Response
 
@@ -147,4 +144,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

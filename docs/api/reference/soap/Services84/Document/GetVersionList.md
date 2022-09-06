@@ -17,7 +17,6 @@ Get a list of existing, committed  versions for a given document
 
 **Returns:** Array of objects describing the existing, committed versions for this document
 
-
 [WSDL file for Services84/Document](../Services84-Document.md)
 
 Obtain a ticket from the [Services84/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -49,7 +48,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-
 
 ## GetVersionList Response
 
@@ -85,4 +83,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

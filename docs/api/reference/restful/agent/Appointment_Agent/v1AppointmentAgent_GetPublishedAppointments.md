@@ -11,12 +11,6 @@ POST /api/v1/Agents/Appointment/GetPublishedAppointments
 
 Get published appointments by appointment ids.
 
-
-
-
-
-
-
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -26,7 +20,6 @@ Get published appointments by appointment ids.
 ```http
 POST /api/v1/Agents/Appointment/GetPublishedAppointments?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -42,14 +35,13 @@ POST /api/v1/Agents/Appointment/GetPublishedAppointments?$select=name,department
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request
 
-AppointmentIds 
+AppointmentIds
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | AppointmentIds | array |  |
-
 
 ## Response: array
 

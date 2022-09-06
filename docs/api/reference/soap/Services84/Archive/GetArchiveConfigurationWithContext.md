@@ -19,7 +19,6 @@ Get the configuration for one archive, with context parameter. The configuration
 
 **Returns:** Archive configuration consisting of column information, orderby information and entities
 
-
 [WSDL file for Services84/Archive](../Services84-Archive.md)
 
 Obtain a ticket from the [Services84/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -53,7 +52,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-
 
 ## GetArchiveConfigurationWithContext Response
 
@@ -153,4 +151,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

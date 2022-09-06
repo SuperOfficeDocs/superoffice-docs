@@ -11,16 +11,9 @@ GET /api/v1/List/Reason/Items/{id}
 
 Gets a Reason  item by id.
 
-
-
-
-
-
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | id | int32 | The id of the Reason to return. **Required** |
-
-
 
 ## Request Headers
 
@@ -35,8 +28,7 @@ Gets a Reason  item by id.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-
-## Response: 
+## Response
 
 OK
 
@@ -45,7 +37,7 @@ OK
 | 200 | OK |
 | 404 | Not Found. |
 
-Response body: 
+Response body:
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|

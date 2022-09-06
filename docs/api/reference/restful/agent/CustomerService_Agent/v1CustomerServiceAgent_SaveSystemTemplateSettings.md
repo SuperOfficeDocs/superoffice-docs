@@ -11,13 +11,7 @@ POST /api/v1/Agents/CustomerService/SaveSystemTemplateSettings
 
 Saves and validates updated system templates.
 
-
 Throws exception if validation fails
-
-
-
-
-
 
 ## Query String Parameters
 
@@ -28,7 +22,6 @@ Throws exception if validation fails
 ```http
 POST /api/v1/Agents/CustomerService/SaveSystemTemplateSettings?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -44,16 +37,15 @@ POST /api/v1/Agents/CustomerService/SaveSystemTemplateSettings?$select=name,depa
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request
 
-SystemTemplateSettings 
+SystemTemplateSettings
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | SystemTemplateSettings |  | System template settings item <para /> Carrier object for SystemTemplateSettings. Services for the SystemTemplateSettings Carrier is available from the <see cref="T:SuperOffice.CRM.Services.ICustomerServiceAgent">CustomerService Agent</see>. |
 
-
-## Response: 
+## Response
 
 OK
 
@@ -61,7 +53,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+Response body:
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|

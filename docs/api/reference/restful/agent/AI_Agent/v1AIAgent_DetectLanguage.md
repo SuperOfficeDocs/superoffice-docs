@@ -11,12 +11,6 @@ POST /api/v1/Agents/AI/DetectLanguage
 
 Given a (reasonably short) text, detect the language it is written in
 
-
-
-
-
-
-
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -26,7 +20,6 @@ Given a (reasonably short) text, detect the language it is written in
 ```http
 POST /api/v1/Agents/AI/DetectLanguage?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -42,14 +35,13 @@ POST /api/v1/Agents/AI/DetectLanguage?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request
 
-Text 
+Text
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | Text | string |  |
-
 
 ## Response: string
 
@@ -60,7 +52,6 @@ OK
 | 200 | OK |
 
 Response body: string
-
 
 ## Sample request
 

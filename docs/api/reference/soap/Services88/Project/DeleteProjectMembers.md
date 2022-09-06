@@ -16,8 +16,6 @@ Delete the given project members from a project
 * **projectEntityId:** Project to remove members from
 * **memberIds:** Project member ids
 
-
-
 [WSDL file for Services88/Project](../Services88-Project.md)
 
 Obtain a ticket from the [Services88/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -53,7 +51,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
-
 ## DeleteProjectMembers Response
 
 ```xml
@@ -73,4 +70,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

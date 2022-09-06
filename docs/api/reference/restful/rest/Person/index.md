@@ -7,15 +7,13 @@ title: Person
 ```
 
 ---
+
 title: Person
 ---
 
 ```http
 /api/v1/Person
 ```
-
-
-
 
 * [GET Person/default](v1PersonEntity_DefaultPersonEntity.md)
 
@@ -102,7 +100,6 @@ title: Person
 * [POST Person/{id}/Image](v1PersonEntity_SaveImage_POST.md)
 
 * [DEL Person/{id}/Image](v1PersonEntity_DeleteImageContent.md)
-
 
 * [GET Person/default](v1PersonEntity_DefaultPersonEntity.md)
 

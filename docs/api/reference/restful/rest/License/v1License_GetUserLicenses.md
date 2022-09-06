@@ -11,16 +11,9 @@ GET /api/v1/License/User/{associateId}
 
 Obtain information about associate module licenses
 
-
-
-
-
-
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | associateId | int32 | Associate id to check for associate module licenses **Required** |
-
-
 
 ## Request Headers
 
@@ -34,7 +27,6 @@ Obtain information about associate module licenses
 | SO-Culture | Number, date formatting in a specified culture (iso2 language) code. Partially overrides SO-Language/Accept-Language value. Ignored if no Language set. |
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
-
 
 ## Response: array
 

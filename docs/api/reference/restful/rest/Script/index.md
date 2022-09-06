@@ -7,15 +7,13 @@ title: Script
 ```
 
 ---
+
 title: Script
 ---
 
 ```http
 /api/v1/Script
 ```
-
-
-
 
 * [GET Script](v1Script_GetAll.md)
 
@@ -24,7 +22,6 @@ title: Script
 * [PUT Script/{uniqueIdentifier}](v1Script_SaveCRMScriptByUniqueIdentifier.md)
 
 * [DEL Script/{uniqueIdentifier}](v1Script_DeleteCRMScriptByUniqueIdentifier.md)
-
 
 * [GET Script](v1Script_GetAll.md)
 

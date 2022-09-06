@@ -15,15 +15,11 @@ so.envir:
 ---
 
 # "stopword" MDO List
+
 List of stop words. i.e. words which will not be included in the free-text index.
-
-
 
 Implemented by the <see cref="T:SuperOffice.CRM.Lists.StopWordProvider">StopWordProvider</see> class.
 The name of the MDO list is 'stopword'.
-
-
-
 
 ## Sample Request
 
@@ -36,6 +32,7 @@ Accept-Language: *
 ```
 
 ## Sample Code
+
 ```cs
 var listProvider = SuperOffice.CRM.Lists.SoListProviderFactory.Create("stopword", forceFlatList: true);
 foreach (var item in listProvider.RootItems) {
@@ -69,7 +66,6 @@ foreach (var item in listProvider.RootItems) {
 |19|ARBEIDET|||
 |20|AUGUST|||
 |21|BAK|||
-
 
 ## Related MDO Lists
 

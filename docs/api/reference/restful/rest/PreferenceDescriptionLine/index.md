@@ -7,15 +7,13 @@ title: PreferenceDescriptionLine
 ```
 
 ---
+
 title: PreferenceDescriptionLine
 ---
 
 ```http
 /api/v1/PreferenceDescriptionLine
 ```
-
-
-
 
 * [GET PreferenceDescriptionLine/default](v1PreferenceDescriptionLine_DefaultPreferenceDescriptionLine.md)
 
@@ -28,7 +26,6 @@ title: PreferenceDescriptionLine
 * [DEL PreferenceDescriptionLine/{id}](v1PreferenceDescriptionLine_DeletePreferenceDescriptionLine.md)
 
 * [PATCH PreferenceDescriptionLine/{id}](v1PreferenceDescriptionLine_PatchPreferenceDescriptionLine.md)
-
 
 * [GET PreferenceDescriptionLine/default](v1PreferenceDescriptionLine_DefaultPreferenceDescriptionLine.md)
 

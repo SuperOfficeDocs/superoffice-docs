@@ -11,13 +11,6 @@ PUT /api/v1/List/QuoteApproveReason/Items
 
 Update the QuoteApproveReason list
 
-
-
-
-
-
-
-
 ## Request Headers
 
 | Parameter Name | Description |
@@ -32,9 +25,9 @@ Update the QuoteApproveReason list
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: listItems  
+## Request Body: listItems
 
-All the updated QuoteApproveReason. 
+All the updated QuoteApproveReason.
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -44,7 +37,6 @@ All the updated QuoteApproveReason.
 | Deleted | bool | True if the list item is marked as deleted |
 | UdListDefinitionId | int32 | The id of the list which this list item belongs to |
 | Rank | int32 | The rank of the list item |
-
 
 ## Response: array
 

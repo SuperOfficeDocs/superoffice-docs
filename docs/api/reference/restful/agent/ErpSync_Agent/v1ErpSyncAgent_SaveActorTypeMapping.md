@@ -11,15 +11,7 @@ POST /api/v1/Agents/ErpSync/SaveActorTypeMapping
 
 Save mappings for a connection/actor
 
-
-
-
-## Online Restricted: ## The ErpSync agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for ERP integration apps.
-
-
-
-
-
+## Online Restricted: ## The ErpSync agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for ERP integration apps
 
 ## Query String Parameters
 
@@ -30,7 +22,6 @@ Save mappings for a connection/actor
 ```http
 POST /api/v1/Agents/ErpSync/SaveActorTypeMapping?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -46,16 +37,15 @@ POST /api/v1/Agents/ErpSync/SaveActorTypeMapping?$select=name,department,categor
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request
 
-Mapping 
+Mapping
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | Mapping |  | Mapping information for one Actor, contains array of field mappings (ERP &lt;-&gt; SuperOffice) <para /> Carrier object for ErpSyncActorTypeMapping. Services for the ErpSyncActorTypeMapping Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IErpSyncAgent">ErpSync Agent</see>. |
 
-
-## Response: 
+## Response
 
 OK
 
@@ -63,7 +53,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+Response body:
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|

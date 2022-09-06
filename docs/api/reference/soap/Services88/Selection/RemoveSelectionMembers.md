@@ -16,8 +16,6 @@ Removes members from the selection as  specified in the collection of entity ids
 * **selectionId:** The id of the selection where to members will be removed.
 * **selectionMemberIds:** Selection member primary keys
 
-
-
 [WSDL file for Services88/Selection](../Services88-Selection.md)
 
 Obtain a ticket from the [Services88/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -53,7 +51,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
-
 ## RemoveSelectionMembers Response
 
 ```xml
@@ -73,4 +70,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

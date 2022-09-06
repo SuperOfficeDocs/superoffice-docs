@@ -11,13 +11,6 @@ POST /api/v1/Agents/Appointment/SaveAppointmentEntity
 
 Updates the existing AppointmentEntity or creates a new AppointmentEntity if the id parameter is empty
 
-
-
-
-
-
-
-
 ## Request Headers
 
 | Parameter Name | Description |
@@ -32,9 +25,9 @@ Updates the existing AppointmentEntity or creates a new AppointmentEntity if the
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entity  
+## Request Body: entity
 
-The AppointmentEntity to be saved. 
+The AppointmentEntity to be saved.
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -94,8 +87,7 @@ The AppointmentEntity to be saved.
 | IsPublished | bool | Publication is published |
 | VisibleFor | array | The set of users or groups the record is visible for |
 
-
-## Response: 
+## Response
 
 OK
 
@@ -103,7 +95,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+Response body:
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|

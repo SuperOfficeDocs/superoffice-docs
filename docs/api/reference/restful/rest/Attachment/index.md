@@ -7,15 +7,13 @@ title: Attachment
 ```
 
 ---
+
 title: Attachment
 ---
 
 ```http
 /api/v1/Attachment
 ```
-
-
-
 
 * [GET Attachment/default](v1AttachmentEntity_DefaultAttachmentEntity.md)
 
@@ -30,7 +28,6 @@ title: Attachment
 * [GET Attachment/{id}/Content](v1AttachmentEntity_GetAttachmentStream.md)
 
 * [POST Attachment/{id}/Content](v1AttachmentEntity_UploadAttachment.md)
-
 
 * [GET Attachment/default](v1AttachmentEntity_DefaultAttachmentEntity.md)
 

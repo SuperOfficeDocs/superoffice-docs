@@ -28,4 +28,3 @@ Download [WSDL file for Services87/Diagnostics](../Services87-Diagnostics.md) if
 * [LogViewState](LogViewState.md)
 * [ResyncUsers](ResyncUsers.md)
 * [WebAppUsageExistsInPeriod](WebAppUsageExistsInPeriod.md)
-

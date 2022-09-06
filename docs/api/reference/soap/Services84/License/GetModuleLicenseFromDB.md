@@ -18,7 +18,6 @@ Get license information for one particular license module.
 
 **Returns:** Module License details, as it is stored in the database. NULL if not found.
 
-
 [WSDL file for Services84/License](../Services84-License.md)
 
 Obtain a ticket from the [Services84/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -52,7 +51,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-
 
 ## GetModuleLicenseFromDB Response
 
@@ -91,4 +89,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

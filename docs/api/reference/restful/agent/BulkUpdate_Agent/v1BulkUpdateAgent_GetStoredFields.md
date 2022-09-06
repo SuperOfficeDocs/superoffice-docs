@@ -11,12 +11,6 @@ POST /api/v1/Agents/BulkUpdate/GetStoredFields
 
 Get all stored fields for a given tablename/entity and context
 
-
-
-
-
-
-
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -26,7 +20,6 @@ Get all stored fields for a given tablename/entity and context
 ```http
 POST /api/v1/Agents/BulkUpdate/GetStoredFields?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -42,15 +35,14 @@ POST /api/v1/Agents/BulkUpdate/GetStoredFields?$select=name,department,category/
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request
 
-Tablename, Context 
+Tablename, Context
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | Tablename | string |  |
 | Context | string |  |
-
 
 ## Response: array
 

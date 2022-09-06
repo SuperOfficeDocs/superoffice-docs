@@ -13,9 +13,7 @@ Implemented by the <see cref="M:SuperOffice.Services87.IProjectAgent.GetMyPublis
 
 Get published projects from the logged in user.
 
-
 **Returns:** Projects
-
 
 [WSDL file for Services87/Project](../Services87-Project.md)
 
@@ -47,7 +45,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-
 
 ## GetMyPublishedProjects Response
 
@@ -90,4 +87,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

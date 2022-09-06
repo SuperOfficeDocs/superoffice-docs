@@ -11,13 +11,7 @@ POST /api/v1/Agents/Ticket/AddAttachments
 
 Connect existing attachments with this TicketMessage.
 
-
 Can connect multiple attachments
-
-
-
-
-
 
 ## Query String Parameters
 
@@ -29,7 +23,6 @@ Can connect multiple attachments
 POST /api/v1/Agents/Ticket/AddAttachments?$select=name,department,category/id
 ```
 
-
 ## Request Headers
 
 | Parameter Name | Description |
@@ -40,17 +33,16 @@ POST /api/v1/Agents/Ticket/AddAttachments?$select=name,department,category/id
 | Accept         | Content-type(s) you would like the response in:  |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request
 
-TicketMessageEntityId, AttachmentIds 
+TicketMessageEntityId, AttachmentIds
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | TicketMessageEntityId | int32 |  |
 | AttachmentIds | array |  |
 
-
-## Response: 
+## Response
 
 No Content
 
@@ -58,8 +50,7 @@ No Content
 |----------------|-------------|
 | 204 | No Content |
 
-Response body: 
-
+Response body:
 
 ## Sample request
 

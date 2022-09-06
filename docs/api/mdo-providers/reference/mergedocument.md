@@ -15,15 +15,11 @@ so.envir:
 ---
 
 # "mergedocument" MDO List
+
 MDO list provider for documents marked as type <see cref="F:SuperOffice.Data.TaskType.MailMergeDraft" />.
-
-
 
 Implemented by the <see cref="T:SuperOffice.CRM.Lists.MergeDocumentListProvider">MergeDocumentListProvider</see> class.
 The name of the MDO list is 'mergedocument'.
-
-
-
 
 ## Sample Request
 
@@ -36,6 +32,7 @@ Accept-Language: *
 ```
 
 ## Sample Code
+
 ```cs
 var listProvider = SuperOffice.CRM.Lists.SoListProviderFactory.Create("mergedocument", forceFlatList: true);
 foreach (var item in listProvider.RootItems) {
@@ -62,7 +59,6 @@ foreach (var item in listProvider.RootItems) {
 |35|NFaksNFF||35|
 |28|ØNotatØ||28|
 |4|PFaksPAA||4|
-
 
 ## Related MDO Lists
 

@@ -24,7 +24,6 @@ Submits a request for information. The request is added to the task list of the 
 
 **Returns:** True if the submission was successful.
 
-
 [WSDL file for Services86/Appointment](../Services86-Appointment.md)
 
 Obtain a ticket from the [Services86/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -63,7 +62,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-
 
 ## RequestForInfo Response
 
@@ -229,4 +227,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

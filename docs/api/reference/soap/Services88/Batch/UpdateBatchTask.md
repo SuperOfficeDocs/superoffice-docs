@@ -17,7 +17,6 @@ Update information about a BatchTask. Only the following properties can be updat
 
 **Returns:** The updated BatchTaskInfo
 
-
 [WSDL file for Services88/Batch](../Services88-Batch.md)
 
 Obtain a ticket from the [Services88/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -77,7 +76,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
-
 ## UpdateBatchTask Response
 
 ```xml
@@ -125,4 +123,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

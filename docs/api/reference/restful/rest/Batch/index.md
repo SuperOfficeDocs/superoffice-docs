@@ -7,15 +7,13 @@ title: Batch
 ```
 
 ---
+
 title: Batch
 ---
 
 ```http
 /api/v1/Batch
 ```
-
-
-
 
 * [GET BatchTask](v1Batch_GetAll.md)
 
@@ -30,7 +28,6 @@ title: Batch
 * [PUT BatchTask/{Id}](v1Batch_UpdateBatchTask.md)
 
 * [DEL BatchTask/{id}](v1Batch_DeleteBatchTask.md)
-
 
 * [GET BatchTask](v1Batch_GetAll.md)
 

@@ -18,7 +18,6 @@ Validate a CRMScript. This will check that the syntax is correct
 
 **Returns:** True of the syntax is correct
 
-
 [WSDL file for Services87/CRMScript](../Services87-CRMScript.md)
 
 Obtain a ticket from the [Services87/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -50,7 +49,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
-
 ## ValidateScript Response
 
 ```xml
@@ -73,4 +71,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

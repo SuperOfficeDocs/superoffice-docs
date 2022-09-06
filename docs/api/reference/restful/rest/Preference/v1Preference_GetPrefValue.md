@@ -11,19 +11,12 @@ GET /api/v1/Preference/{section}/{key}
 
 Gets the preference value for specific section + key.
 
-
 Returns the value defined closest to the user. Calls the Preference agent service GetPreferenceByName.
-
-
-
-
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | section | string | The name of the preference section. **Required** |
 | key | string | The name of the preference key. **Required** |
-
-
 
 ## Request Headers
 
@@ -38,8 +31,7 @@ Returns the value defined closest to the user. Calls the Preference agent servic
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-
-## Response: 
+## Response
 
 OK
 
@@ -47,7 +39,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+Response body:
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|

@@ -21,7 +21,6 @@ Save an array of restrictions as a restriction group for later use as search cri
 
 **Returns:** This service call just saves the restrictions.
 
-
 [WSDL file for Services88/Find](../Services88-Find.md)
 
 Obtain a ticket from the [Services88/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -127,7 +126,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
-
 ## SaveRestrictionGroup Response
 
 ```xml
@@ -147,4 +145,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

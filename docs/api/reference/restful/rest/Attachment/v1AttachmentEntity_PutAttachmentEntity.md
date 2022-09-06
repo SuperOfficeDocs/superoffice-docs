@@ -11,15 +11,9 @@ PUT /api/v1/Attachment/{id}
 
 Updates the existing AttachmentEntity
 
-
-
-
-
-
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | id | int32 | The AttachmentEntity id to update. **Required** |
-
 
 ## Query String Parameters
 
@@ -30,7 +24,6 @@ Updates the existing AttachmentEntity
 ```http
 PUT /api/v1/Attachment/{id}?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -46,9 +39,9 @@ PUT /api/v1/Attachment/{id}?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entity  
+## Request Body: entity
 
-The AttachmentEntity to be saved. 
+The AttachmentEntity to be saved.
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -59,8 +52,7 @@ The AttachmentEntity to be saved.
 | InlineImage | bool | True if this attachment is inlined in the html_body. |
 | ContentId | string | The content_id of this attachment, used for inline images |
 
-
-## Response: 
+## Response
 
 AttachmentEntity updated.
 
@@ -69,7 +61,7 @@ AttachmentEntity updated.
 | 200 | AttachmentEntity updated. |
 | 400 | Bad request. Entity to save is not in request body. |
 
-Response body: 
+Response body:
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|

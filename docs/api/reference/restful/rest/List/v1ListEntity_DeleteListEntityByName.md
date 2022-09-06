@@ -11,16 +11,9 @@ DELETE /api/v1/List/{name}
 
 Delete a ListEntity resolved by the provided name.
 
-
-
-
-
-
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | name | string | The name of the list to delete. **Required** |
-
-
 
 ## Request Headers
 
@@ -31,8 +24,7 @@ Delete a ListEntity resolved by the provided name.
 | Accept         | Content-type(s) you would like the response in:  |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-
-## Response: 
+## Response
 
 No Content
 
@@ -40,8 +32,7 @@ No Content
 |----------------|-------------|
 | 204 | No Content |
 
-Response body: 
-
+Response body:
 
 ## Sample request
 

@@ -17,7 +17,6 @@ Method that returns appointments of a specific appointment task heading. Task re
 
 **Returns:** Array of Appointments.
 
-
 [WSDL file for Services85/Appointment](../Services85-Appointment.md)
 
 Obtain a ticket from the [Services85/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -49,7 +48,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-
 
 ## GetAppointmentsByTaskHeading Response
 
@@ -121,4 +119,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

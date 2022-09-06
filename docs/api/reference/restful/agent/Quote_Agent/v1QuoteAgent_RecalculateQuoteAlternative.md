@@ -11,13 +11,7 @@ POST /api/v1/Agents/Quote/RecalculateQuoteAlternative
 
 When the user changes one or more values in a quoteline or a quoteAlternative, the connector gets to change the QuoteLines and the alternative, for instance calculate VAT.
 
-
 RecalculateQuoteAlternative shall be called when the user changes any of the following fields: Quantity, DiscountAmount, DiscountPercent, listprice (if allowed). RecalculateQuoteAlternative will calculate the TotalPrice and the VAT (if possible) for the lines and the alternative.
-
-
-
-
-
 
 ## Query String Parameters
 
@@ -28,7 +22,6 @@ RecalculateQuoteAlternative shall be called when the user changes any of the fol
 ```http
 POST /api/v1/Agents/Quote/RecalculateQuoteAlternative?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -44,16 +37,15 @@ POST /api/v1/Agents/Quote/RecalculateQuoteAlternative?$select=name,department,ca
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request
 
-QuoteAlternative 
+QuoteAlternative
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | QuoteAlternative | int32 |  |
 
-
-## Response: 
+## Response
 
 OK
 
@@ -61,7 +53,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+Response body:
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|

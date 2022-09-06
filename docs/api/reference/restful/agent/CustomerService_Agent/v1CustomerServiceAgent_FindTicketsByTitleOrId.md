@@ -11,12 +11,6 @@ POST /api/v1/Agents/CustomerService/FindTicketsByTitleOrId
 
 This method wil search for tickets matching title or id
 
-
-
-
-
-
-
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -26,7 +20,6 @@ This method wil search for tickets matching title or id
 ```http
 POST /api/v1/Agents/CustomerService/FindTicketsByTitleOrId?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -42,15 +35,14 @@ POST /api/v1/Agents/CustomerService/FindTicketsByTitleOrId?$select=name,departme
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request
 
-TitleOrId, MaxRows 
+TitleOrId, MaxRows
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | TitleOrId | string |  |
 | MaxRows | int32 |  |
-
 
 ## Response: array
 

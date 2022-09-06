@@ -15,6 +15,7 @@ so.envir:
 ---
 
 # "quotedocumenttype" MDO List
+
 List of quote document types - assumes ExtraInfo is the name of RecordType enum value
 
 AdditionalInfo = "email=Email"
@@ -29,10 +30,6 @@ The name of the MDO list is 'quotedocumenttype'.
 |-----|-----|------|
 |DocTmplType value to filter.| |Email|
 
-
-
-
-
 ## Sample Request
 
 ```http!
@@ -44,6 +41,7 @@ Accept-Language: *
 ```
 
 ## Sample Code
+
 ```cs
 var listProvider = SuperOffice.CRM.Lists.SoListProviderFactory.Create("quotedocumenttype", forceFlatList: true);
 foreach (var item in listProvider.RootItems) {
@@ -59,7 +57,6 @@ foreach (var item in listProvider.RootItems) {
 |2|Template for Quote Document|||
 |3|Template for Quote Details|||
 |5|Template for Order Confirmations|||
-
 
 ## Related MDO Lists
 

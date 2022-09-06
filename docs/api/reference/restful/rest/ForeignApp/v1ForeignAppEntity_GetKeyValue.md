@@ -11,12 +11,7 @@ GET /api/v1/ForeignApp/{applicationName}/{deviceName}/Key/{keyName}/{tableName}/
 
 Gets the string value of a ForeignKey, that belongs to the specified device and application.
 
-
 The table name and record ID must also be specified.
-
-
-
-
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
@@ -25,8 +20,6 @@ The table name and record ID must also be specified.
 | keyName | string | The name of the foreign key. **Required** |
 | tableName | string | Table name, transformed to and from numeric table id by the service layer.&lt;p/&gt;Use an empty string to indicate that your key is not bound to any specific table. **Required** |
 | recordId | int32 | Id of record that this key refers to. If the table name was blank, then this parameter must be 0. It can also be 0 to mean that the foreign key record was not bound to any particular record of the target table. **Required** |
-
-
 
 ## Request Headers
 
@@ -41,7 +34,6 @@ The table name and record ID must also be specified.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-
 ## Response: string
 
 OK
@@ -51,7 +43,6 @@ OK
 | 200 | OK |
 
 Response body: string
-
 
 ## Sample request
 

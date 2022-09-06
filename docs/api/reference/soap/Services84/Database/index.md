@@ -17,4 +17,3 @@ Download [WSDL file for Services84/Database](../Services84-Database.md) if you n
 
 * [GetStepsFromNetServerCode](GetStepsFromNetServerCode.md)
 * [GetStepsInDatabase](GetStepsInDatabase.md)
-

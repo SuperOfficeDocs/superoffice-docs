@@ -17,7 +17,6 @@ Updates the existing ShipmentMessageBlockEntity or creates a new ShipmentMessage
 
 **Returns:** New or updated ShipmentMessageBlockEntity
 
-
 [WSDL file for Services88/Marketing](../Services88-Marketing.md)
 
 Obtain a ticket from the [Services88/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -58,7 +57,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
-
 ## SaveShipmentMessageBlockEntity Response
 
 ```xml
@@ -87,4 +85,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

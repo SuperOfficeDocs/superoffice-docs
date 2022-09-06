@@ -11,18 +11,11 @@ GET /api/v1/Person/{id}/Simple
 
 A simple Person object.
 
-
 This is a simpler, smaller variation of the full PersonEntity. Calls the Person agent service GetPerson.
-
-
-
-
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | id | int32 | The id of the Person to return. **Required** |
-
-
 
 ## Request Headers
 
@@ -37,8 +30,7 @@ This is a simpler, smaller variation of the full PersonEntity. Calls the Person 
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-
-## Response: 
+## Response
 
 PersonEntity found.
 
@@ -47,7 +39,7 @@ PersonEntity found.
 | 200 | PersonEntity found. |
 | 404 | Not Found. |
 
-Response body: 
+Response body:
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|

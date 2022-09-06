@@ -11,12 +11,6 @@ POST /api/v1/Agents/List/GetDeliveryType
 
 Gets a DeliveryType object.
 
-
-
-
-
-
-
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -28,7 +22,6 @@ Gets a DeliveryType object.
 POST /api/v1/Agents/List/GetDeliveryType?deliveryTypeId=434
 POST /api/v1/Agents/List/GetDeliveryType?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -43,8 +36,7 @@ POST /api/v1/Agents/List/GetDeliveryType?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-
-## Response: 
+## Response
 
 OK
 
@@ -52,7 +44,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+Response body:
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|

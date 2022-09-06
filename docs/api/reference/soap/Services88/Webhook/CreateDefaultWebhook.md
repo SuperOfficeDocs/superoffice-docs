@@ -15,9 +15,7 @@ Loading default values into a new Webhook.
 NetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance
 <para /><b>Online Restricted:</b> The Webhook agent is not available in Online by default. Access must be requested specifically when app is registered.
 
-
 **Returns:** New Webhook with default values
-
 
 [WSDL file for Services88/Webhook](../Services88-Webhook.md)
 
@@ -49,7 +47,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-
 
 ## CreateDefaultWebhook Response
 
@@ -123,4 +120,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

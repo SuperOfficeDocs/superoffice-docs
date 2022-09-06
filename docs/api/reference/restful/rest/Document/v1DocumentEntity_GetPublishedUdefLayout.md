@@ -11,13 +11,6 @@ GET /api/v1/Document/UdefLayout/Published
 
 Currently published DocumentEntity user-defined field layout.
 
-
-
-
-
-
-
-
 ## Request Headers
 
 | Parameter Name | Description |
@@ -30,7 +23,6 @@ Currently published DocumentEntity user-defined field layout.
 | SO-Culture | Number, date formatting in a specified culture (iso2 language) code. Partially overrides SO-Language/Accept-Language value. Ignored if no Language set. |
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
-
 
 ## Response: array
 

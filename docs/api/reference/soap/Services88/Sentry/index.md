@@ -22,4 +22,3 @@ Download [WSDL file for Services88/Sentry](../Services88-Sentry.md) if you need 
 * [GetTableRightByContactOwnership](GetTableRightByContactOwnership.md)
 * [GetTableRightByOwnership](GetTableRightByOwnership.md)
 * [HasFunctionRight](HasFunctionRight.md)
-

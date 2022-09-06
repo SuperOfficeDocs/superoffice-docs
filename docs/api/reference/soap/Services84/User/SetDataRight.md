@@ -18,8 +18,6 @@ Set one specific data right at the given position. An exception will be thrown i
 * **relationToOwner:** The id of the relation to owner
 * **dataRightValue:** The data right value to set at the specified position (CRUD)
 
-
-
 [WSDL file for Services84/User](../Services84-User.md)
 
 Obtain a ticket from the [Services84/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -55,7 +53,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
-
 ## SetDataRight Response
 
 ```xml
@@ -75,4 +72,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

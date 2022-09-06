@@ -11,12 +11,6 @@ POST /api/v1/Agents/BLOB/GetQuoteLineImage
 
 Returns the quoteline image (rank=1) that is displayed in the CRM application.
 
-
-
-
-
-
-
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -26,7 +20,6 @@ Returns the quoteline image (rank=1) that is displayed in the CRM application.
 ```http
 POST /api/v1/Agents/BLOB/GetQuoteLineImage?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -42,14 +35,13 @@ POST /api/v1/Agents/BLOB/GetQuoteLineImage?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request
 
-QuoteLineId 
+QuoteLineId
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | QuoteLineId | int32 |  |
-
 
 ## Response: byte
 
@@ -60,7 +52,6 @@ OK
 | 200 | OK |
 
 Response body: byte
-
 
 ## Sample request
 

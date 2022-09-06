@@ -19,7 +19,6 @@ Migrates the template with the provided id to the specified document-plugin.
 
 **Returns:** This method has no return value
 
-
 [WSDL file for Services88/DocumentMigration](../Services88-DocumentMigration.md)
 
 Obtain a ticket from the [Services88/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -53,7 +52,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
-
 ## MigrateTemplateToNewDocPlugin Response
 
 ```xml
@@ -73,4 +71,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-
