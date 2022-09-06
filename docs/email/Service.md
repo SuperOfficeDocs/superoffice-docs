@@ -43,7 +43,8 @@ Change the value for `reg_id = 320` in the table registry
 * Using Netserver: value = 2
 
 > [!NOTE]
-> The value will not be stored in the database (table "registry") until after you have entered the Mail setup dialogue in Service.
+> The value will not be stored in the database (table "registry") until a value is entered the Mail setup dialogue in Service.
+
 
 ![x -screenshot][img1]
 
