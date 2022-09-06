@@ -11,15 +11,7 @@ POST /api/v1/Agents/EMail/GetReadySyncEmailAccounts
 
 Gets the list of SyncUserAccounts that should be synced.
 
-
-
-
-## Online Restricted: ## The EMail agent is not available in Online by default. Access must be requested specifically when app is registered.
-
-
-
-
-
+## Online Restricted: ## The EMail agent is not available in Online by default. Access must be requested specifically when app is registered
 
 ## Query String Parameters
 
@@ -30,7 +22,6 @@ Gets the list of SyncUserAccounts that should be synced.
 ```http
 POST /api/v1/Agents/EMail/GetReadySyncEmailAccounts?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -44,7 +35,6 @@ POST /api/v1/Agents/EMail/GetReadySyncEmailAccounts?$select=name,department,cate
 | SO-Culture | Number, date formatting in a specified culture (iso2 language) code. Partially overrides SO-Language/Accept-Language value. Ignored if no Language set. |
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
-
 
 ## Response: array
 

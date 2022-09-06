@@ -11,13 +11,7 @@ POST /api/v1/Agents/User/SetGeneratedPassword
 
 <para />
 
-
-## Online Restricted: ## The User agent is not available in Online by default. User management is not allowed for partner apps.
-
-
-
-
-
+## Online Restricted: ## The User agent is not available in Online by default. User management is not allowed for partner apps
 
 ## Query String Parameters
 
@@ -28,7 +22,6 @@ POST /api/v1/Agents/User/SetGeneratedPassword
 ```http
 POST /api/v1/Agents/User/SetGeneratedPassword?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -44,14 +37,13 @@ POST /api/v1/Agents/User/SetGeneratedPassword?$select=name,department,category/i
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request
 
-AssociateId 
+AssociateId
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | AssociateId | int32 |  |
-
 
 ## Response: string
 
@@ -62,7 +54,6 @@ OK
 | 200 | OK |
 
 Response body: string
-
 
 ## Sample request
 

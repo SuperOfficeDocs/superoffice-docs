@@ -15,10 +15,9 @@ Get a user from the user name.
 <para /><b>Online Restricted:</b> The User agent is not available in Online by default. User management is not allowed for partner apps.
 
 * **user:** User name of the user to get.
-* **userType:** 
+* **userType:**
 
 **Returns:** User retrieved by name
-
 
 [WSDL file for Services86/User](../Services86-User.md)
 
@@ -190,7 +189,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
-
 ## ChangeUserType Response
 
 ```xml
@@ -348,4 +346,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

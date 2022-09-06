@@ -7,15 +7,13 @@ title: Sale
 ```
 
 ---
+
 title: Sale
 ---
 
 ```http
 /api/v1/Sale
 ```
-
-
-
 
 * [GET Sale/default](v1SaleEntity_DefaultSaleEntity.md)
 
@@ -82,7 +80,6 @@ title: Sale
 * [POST Sale/UdefLayout/Revert](v1SaleEntity_RevertUdefLayout.md)
 
 * [GET Sale/{id}/ForeignKey](v1SaleEntity_GetAllForeignKeysOnEntity.md)
-
 
 * [GET Sale/default](v1SaleEntity_DefaultSaleEntity.md)
 

@@ -113,4 +113,3 @@ Download [WSDL file for Services88/EMail](../Services88-EMail.md) if you need to
 * [SyncEmailAccounts](SyncEmailAccounts.md)
 * [TestAuthenticate](TestAuthenticate.md)
 * [ToggleSubscription](ToggleSubscription.md)
-

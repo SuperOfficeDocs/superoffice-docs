@@ -106,4 +106,3 @@ Download [WSDL file for Services87/EMail](../Services87-EMail.md) if you need to
 * [SyncEmailAccounts](SyncEmailAccounts.md)
 * [TestAuthenticate](TestAuthenticate.md)
 * [ToggleSubscription](ToggleSubscription.md)
-

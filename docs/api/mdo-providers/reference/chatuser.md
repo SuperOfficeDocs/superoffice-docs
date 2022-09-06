@@ -16,9 +16,6 @@ so.envir:
 
 # "chatuser" MDO List
 
-
-
-
 Implemented by the <see cref="T:SuperOffice.CRM.Lists.ChatUserProvider">ChatUserProvider</see> class.
 The name of the MDO list is 'chatuser'.
 
@@ -31,10 +28,6 @@ The name of the MDO list is 'chatuser'.
 |Return Associate ID instead of ejUser id| associate|True|
 |Only users who are a member of this topic| topicId|0|
 
-
-
-
-
 ## Sample Request
 
 ```http!
@@ -46,6 +39,7 @@ Accept-Language: *
 ```
 
 ## Sample Code
+
 ```cs
 var listProvider = SuperOffice.CRM.Lists.SoListProviderFactory.Create("chatuser", forceFlatList: true);
 foreach (var item in listProvider.RootItems) {
@@ -79,7 +73,6 @@ foreach (var item in listProvider.RootItems) {
 |55|Olga Jensen|||
 |56|Lollo Johansen|||
 |57|Morten Johansen|||
-
 
 ## Related MDO Lists
 

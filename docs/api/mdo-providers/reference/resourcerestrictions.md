@@ -15,16 +15,12 @@ so.envir:
 ---
 
 # "resourcerestrictions" MDO List
+
 MDO provider for resources (from the associate table) that uses restrictions to include
 conflict checking
 
-
-
 Implemented by the <see cref="T:SuperOffice.CRM.Lists.ResourceRestrictionsMDOProvider">ResourceRestrictionsMDOProvider</see> class.
 The name of the MDO list is 'resourcerestrictions'.
-
-
-
 
 ## Sample Request
 
@@ -37,6 +33,7 @@ Accept-Language: *
 ```
 
 ## Sample Code
+
 ```cs
 var listProvider = SuperOffice.CRM.Lists.SoListProviderFactory.Create("resourcerestrictions", forceFlatList: true);
 foreach (var item in listProvider.RootItems) {
@@ -62,7 +59,6 @@ foreach (var item in listProvider.RootItems) {
 |49|ResourceItem 9: Heading 2|||
 |50|ResourceItem 10: Heading 3|||
 |51|ResourceItem 11: Heading 3|||
-
 
 ## Related MDO Lists
 

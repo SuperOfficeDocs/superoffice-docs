@@ -11,13 +11,7 @@ POST /api/v1/Agents/ViewState/GetHistoryLengthPrefValue
 
 Get the logged on user's preferred history list length.
 
-
 Will return the system preference if no user preferences are available.
-
-
-
-
-
 
 ## Query String Parameters
 
@@ -28,7 +22,6 @@ Will return the system preference if no user preferences are available.
 ```http
 POST /api/v1/Agents/ViewState/GetHistoryLengthPrefValue?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -43,7 +36,6 @@ POST /api/v1/Agents/ViewState/GetHistoryLengthPrefValue?$select=name,department,
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-
 ## Response: int32
 
 OK
@@ -53,7 +45,6 @@ OK
 | 200 | OK |
 
 Response body: int32
-
 
 ## Sample request
 

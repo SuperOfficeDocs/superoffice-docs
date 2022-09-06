@@ -11,18 +11,11 @@ DELETE /api/v1/ProjectMember/{id}
 
 Deletes the ProjectMember
 
-
 Calls the Project agent service DeleteProjectMember.
-
-
-
-
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | id | int32 | The ProjectMember to be deleted. **Required** |
-
-
 
 ## Request Headers
 
@@ -33,8 +26,7 @@ Calls the Project agent service DeleteProjectMember.
 | Accept         | Content-type(s) you would like the response in:  |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-
-## Response: 
+## Response
 
 ProjectMember deleted.
 
@@ -42,8 +34,7 @@ ProjectMember deleted.
 |----------------|-------------|
 | 204 | ProjectMember deleted. |
 
-Response body: 
-
+Response body:
 
 ## Sample request
 

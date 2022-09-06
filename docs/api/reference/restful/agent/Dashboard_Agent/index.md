@@ -7,15 +7,13 @@ title: Dashboard_Agent
 ```
 
 ---
+
 title: Dashboard_Agent
 ---
 
 ```http
 /api/v1/Dashboard/Agent
 ```
-
-
-
 
 * [POST Agents/Dashboard/CreateDefaultDashboard](v1DashboardAgent_CreateDefaultDashboard.md)
 
@@ -46,7 +44,6 @@ title: Dashboard_Agent
 * [POST Agents/Dashboard/CreateNewFromTemplate](v1DashboardAgent_CreateNewFromTemplate.md)
 
 * [POST Agents/Dashboard/GetDataWithSelection](v1DashboardAgent_GetDataWithSelection.md)
-
 
 * [POST Agents/Dashboard/CreateDefaultDashboard](v1DashboardAgent_CreateDefaultDashboard.md)
 

@@ -20,7 +20,6 @@ Create or update a resource substitution
 
 **Returns:** This method has no return value
 
-
 [WSDL file for Services88/Resource](../Services88-Resource.md)
 
 Obtain a ticket from the [Services88/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -56,7 +55,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
-
 ## SetResourceSubstitution Response
 
 ```xml
@@ -76,4 +74,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

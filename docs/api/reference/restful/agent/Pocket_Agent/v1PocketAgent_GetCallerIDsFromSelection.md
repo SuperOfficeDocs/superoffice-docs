@@ -11,13 +11,7 @@ POST /api/v1/Agents/Pocket/GetCallerIDsFromSelection
 
 Get caller ids from a selection.
 
-
 Queries the shadow selection of persons and companies, so selections of any kind can be used
-
-
-
-
-
 
 ## Query String Parameters
 
@@ -28,7 +22,6 @@ Queries the shadow selection of persons and companies, so selections of any kind
 ```http
 POST /api/v1/Agents/Pocket/GetCallerIDsFromSelection?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -44,17 +37,16 @@ POST /api/v1/Agents/Pocket/GetCallerIDsFromSelection?$select=name,department,cat
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request
 
-SelectionId, LastHash 
+SelectionId, LastHash
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | SelectionId | int32 |  |
 | LastHash | string |  |
 
-
-## Response: 
+## Response
 
 OK
 
@@ -62,7 +54,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+Response body:
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|

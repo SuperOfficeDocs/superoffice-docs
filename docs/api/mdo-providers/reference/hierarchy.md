@@ -15,12 +15,11 @@ so.envir:
 ---
 
 # "hierarchy" MDO List
+
 List provider for the Hierarchy table. Pass the domain using Additional info.
 MDO can be nested arbitrary levels deep.
 Fullname contains path separated.
 returns a list of domains if no domain is specified.
-
-
 
 Implemented by the <see cref="T:SuperOffice.CRM.Lists.HierarchyListProvider">HierarchyListProvider</see> class.
 The name of the MDO list is 'hierarchy'.
@@ -31,10 +30,6 @@ The name of the MDO list is 'hierarchy'.
 |-----|-----|------|
 |Specify type of hierarchy to get| domain|scripts|
 |Return fullname rather than just node name| fullname|True|
-
-
-
-
 
 ## Sample Request
 
@@ -47,6 +42,7 @@ Accept-Language: *
 ```
 
 ## Sample Code
+
 ```cs
 var listProvider = SuperOffice.CRM.Lists.SoListProviderFactory.Create("hierarchy", forceFlatList: true);
 foreach (var item in listProvider.RootItems) {
@@ -67,7 +63,6 @@ foreach (var item in listProvider.RootItems) {
 |6|UserGroups||Domain|
 |7|ExternalDocumentRelatedToSpmMessage||Domain|
 |8|Dashboards||Domain|
-
 
 ## Related MDO Lists
 

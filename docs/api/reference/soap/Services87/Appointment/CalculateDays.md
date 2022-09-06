@@ -13,9 +13,7 @@ Implemented by the <see cref="M:SuperOffice.Services87.IAppointmentAgent.Calcula
 
 Calculates the set of dates that represents a recurrence pattern. Adds conflict information to each date.
 
-* **appointmentEntity:** 
-
-
+* **appointmentEntity:**
 
 [WSDL file for Services87/Appointment](../Services87-Appointment.md)
 
@@ -449,7 +447,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
-
 ## CalculateDays Response
 
 ```xml
@@ -509,4 +506,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

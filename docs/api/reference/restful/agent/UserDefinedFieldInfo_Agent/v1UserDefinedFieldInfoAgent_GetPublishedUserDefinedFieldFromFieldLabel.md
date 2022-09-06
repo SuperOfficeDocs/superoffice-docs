@@ -11,13 +11,7 @@ POST /api/v1/Agents/UserDefinedFieldInfo/GetPublishedUserDefinedFieldFromFieldLa
 
 Return information about the given user defined field identified by the owner and the field label.
 
-
 Note that field labels are fuzzy. Leading and trailing spaces and punctuation are ignored.
-
-
-
-
-
 
 ## Query String Parameters
 
@@ -28,7 +22,6 @@ Note that field labels are fuzzy. Leading and trailing spaces and punctuation ar
 ```http
 POST /api/v1/Agents/UserDefinedFieldInfo/GetPublishedUserDefinedFieldFromFieldLabel?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -44,17 +37,16 @@ POST /api/v1/Agents/UserDefinedFieldInfo/GetPublishedUserDefinedFieldFromFieldLa
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request
 
-FieldLabel, OwnerType 
+FieldLabel, OwnerType
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | FieldLabel | string |  |
 | OwnerType | string |  |
 
-
-## Response: 
+## Response
 
 OK
 
@@ -62,7 +54,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+Response body:
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|

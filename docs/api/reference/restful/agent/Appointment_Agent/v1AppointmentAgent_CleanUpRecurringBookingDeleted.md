@@ -11,12 +11,6 @@ POST /api/v1/Agents/Appointment/CleanUpRecurringBookingDeleted
 
 Deletes all appointments with status BookingDeleted and for in logged user.
 
-
-
-
-
-
-
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -26,7 +20,6 @@ Deletes all appointments with status BookingDeleted and for in logged user.
 ```http
 POST /api/v1/Agents/Appointment/CleanUpRecurringBookingDeleted?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -41,7 +34,6 @@ POST /api/v1/Agents/Appointment/CleanUpRecurringBookingDeleted?$select=name,depa
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-
 ## Response: int32
 
 OK
@@ -51,7 +43,6 @@ OK
 | 200 | OK |
 
 Response body: int32
-
 
 ## Sample request
 

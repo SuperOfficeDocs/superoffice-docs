@@ -7,15 +7,13 @@ title: List_UserGroup
 ```
 
 ---
+
 title: List_UserGroup
 ---
 
 ```http
 /api/v1/List/UserGroup
 ```
-
-
-
 
 * [GET List/UserGroup](v1UserGroupList_GetListDefinition.md)
 
@@ -38,7 +36,6 @@ title: List_UserGroup
 * [POST List/UserGroup/Headings](v1UserGroupList_PostUserGroupHeading.md)
 
 * [DEL List/UserGroup/Headings](v1UserGroupList_DeleteUserGroupHeadings.md)
-
 
 * [GET List/UserGroup](v1UserGroupList_GetListDefinition.md)
 

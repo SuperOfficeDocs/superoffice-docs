@@ -11,13 +11,7 @@ POST /api/v1/Agents/Document/GetSaleDocuments
 
 Get all documents that are linked to the sale.
 
-
 I.e. the documents that are listed in the sale dialog.
-
-
-
-
-
 
 ## Query String Parameters
 
@@ -28,7 +22,6 @@ I.e. the documents that are listed in the sale dialog.
 ```http
 POST /api/v1/Agents/Document/GetSaleDocuments?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -44,14 +37,13 @@ POST /api/v1/Agents/Document/GetSaleDocuments?$select=name,department,category/i
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request
 
-SaleId 
+SaleId
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | SaleId | int32 |  |
-
 
 ## Response: array
 

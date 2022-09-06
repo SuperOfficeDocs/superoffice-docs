@@ -7,15 +7,13 @@ title: ChatTopic
 ```
 
 ---
+
 title: ChatTopic
 ---
 
 ```http
 /api/v1/ChatTopic
 ```
-
-
-
 
 * [GET ChatTopic/default](v1ChatTopicEntity_DefaultChatTopicEntity.md)
 
@@ -50,7 +48,6 @@ title: ChatTopic
 * [DEL ChatTopic/{id}/UserAgent/{username}](v1ChatTopicEntity_DeleteChatTopicUserAgent.md)
 
 * [POST ChatTopic/{id}/Sessions](v1ChatTopicEntity_CreateChatSessionForTopic.md)
-
 
 * [GET ChatTopic/default](v1ChatTopicEntity_DefaultChatTopicEntity.md)
 

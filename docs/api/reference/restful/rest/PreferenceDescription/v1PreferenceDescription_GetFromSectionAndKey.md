@@ -11,17 +11,10 @@ GET /api/v1/PreferenceDescription/{section}/{key}
 
 Gets a PreferenceDescription based on the section and key
 
-
-
-
-
-
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | section | string | The PreferenceDescription-section **Required** |
 | key | string | The PreferenceDescription-key **Required** |
-
-
 
 ## Request Headers
 
@@ -36,8 +29,7 @@ Gets a PreferenceDescription based on the section and key
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-
-## Response: 
+## Response
 
 OK
 
@@ -45,7 +37,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+Response body:
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|

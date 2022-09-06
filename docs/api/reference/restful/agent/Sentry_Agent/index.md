@@ -7,15 +7,13 @@ title: Sentry_Agent
 ```
 
 ---
+
 title: Sentry_Agent
 ---
 
 ```http
 /api/v1/Sentry/Agent
 ```
-
-
-
 
 * [POST Agents/Sentry/GetNewTableRight](v1SentryAgent_GetNewTableRight.md)
 
@@ -30,7 +28,6 @@ title: Sentry_Agent
 * [POST Agents/Sentry/CanCreateAppointmentInAllDiaries](v1SentryAgent_CanCreateAppointmentInAllDiaries.md)
 
 * [POST Agents/Sentry/GetTableRightByContactOwnership](v1SentryAgent_GetTableRightByContactOwnership.md)
-
 
 * [POST Agents/Sentry/GetNewTableRight](v1SentryAgent_GetNewTableRight.md)
 

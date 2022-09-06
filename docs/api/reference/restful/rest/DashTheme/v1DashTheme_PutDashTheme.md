@@ -11,15 +11,9 @@ PUT /api/v1/DashTheme/{id}
 
 Updates the existing DashTheme
 
-
-
-
-
-
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | id | int32 | The DashTheme id to update. **Required** |
-
 
 ## Query String Parameters
 
@@ -30,7 +24,6 @@ Updates the existing DashTheme
 ```http
 PUT /api/v1/DashTheme/{id}?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -46,9 +39,9 @@ PUT /api/v1/DashTheme/{id}?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entity  
+## Request Body: entity
 
-The DashTheme to be saved. 
+The DashTheme to be saved.
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -59,8 +52,7 @@ The DashTheme to be saved.
 | Client | string | Name of client(s) this theme is available to |
 | Style | string | Style value - for example 'light' or 'dark' |
 
-
-## Response: 
+## Response
 
 DashTheme updated.
 
@@ -69,7 +61,7 @@ DashTheme updated.
 | 200 | DashTheme updated. |
 | 400 | Bad request. Entity to save is not in request body. |
 
-Response body: 
+Response body:
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|

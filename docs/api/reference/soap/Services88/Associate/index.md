@@ -22,4 +22,3 @@ Download [WSDL file for Services88/Associate](../Services88-Associate.md) if you
 * [GetNote](GetNote.md)
 * [LogOffWindowsUsers](LogOffWindowsUsers.md)
 * [SaveNote](SaveNote.md)
-

@@ -11,13 +11,7 @@ POST /api/v1/Agents/Project/GetMyProjects
 
 Returning the projects belonging to an associate.
 
-
 If memberProjects is false only the projects where the associate is project responsible is returned, otherwise both the projects where the associate is project responsible and project member is returned.
-
-
-
-
-
 
 ## Query String Parameters
 
@@ -28,7 +22,6 @@ If memberProjects is false only the projects where the associate is project resp
 ```http
 POST /api/v1/Agents/Project/GetMyProjects?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -44,14 +37,13 @@ POST /api/v1/Agents/Project/GetMyProjects?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request
 
-IncludeMemberProjects 
+IncludeMemberProjects
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | IncludeMemberProjects | bool |  |
-
 
 ## Response: array
 

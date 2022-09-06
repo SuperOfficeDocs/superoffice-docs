@@ -11,18 +11,11 @@ DELETE /api/v1/ChatSession/{id}
 
 Deletes the ChatSessionEntity
 
-
 Calls the Chat agent service DeleteChatSessionEntity.
-
-
-
-
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | id | int32 | The ChatSessionEntity to be deleted. **Required** |
-
-
 
 ## Request Headers
 
@@ -33,8 +26,7 @@ Calls the Chat agent service DeleteChatSessionEntity.
 | Accept         | Content-type(s) you would like the response in:  |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-
-## Response: 
+## Response
 
 ChatSessionEntity deleted.
 
@@ -42,8 +34,7 @@ ChatSessionEntity deleted.
 |----------------|-------------|
 | 204 | ChatSessionEntity deleted. |
 
-Response body: 
-
+Response body:
 
 ## Sample request
 

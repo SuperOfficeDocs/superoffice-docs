@@ -11,12 +11,6 @@ POST /api/v1/Agents/MDO/GetListItem
 
 Returns a single list item
 
-
-
-
-
-
-
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -26,7 +20,6 @@ Returns a single list item
 ```http
 POST /api/v1/Agents/MDO/GetListItem?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -42,17 +35,16 @@ POST /api/v1/Agents/MDO/GetListItem?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request
 
-ListName, Id 
+ListName, Id
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | ListName | string |  |
 | Id | int32 |  |
 
-
-## Response: 
+## Response
 
 OK
 
@@ -60,7 +52,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+Response body:
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|

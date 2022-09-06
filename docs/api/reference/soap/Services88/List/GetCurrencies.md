@@ -13,9 +13,7 @@ Implemented by the <see cref="M:SuperOffice.Services88.IListAgent.GetCurrencies"
 
 Returns all currencies
 
-
 **Returns:** Array of currencies
-
 
 [WSDL file for Services88/List](../Services88-List.md)
 
@@ -48,7 +46,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
-
 ## GetCurrencies Response
 
 ```xml
@@ -75,4 +72,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

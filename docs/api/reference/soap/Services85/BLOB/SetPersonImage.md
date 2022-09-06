@@ -16,8 +16,6 @@ Stores the person image that is displayed in the CRM application.
 * **personId:** The person id of the person the image belongs to.
 * **image:** The image that is stored on the person (System.Drawing.Image)
 
-
-
 [WSDL file for Services85/BLOB](../Services85-BLOB.md)
 
 Obtain a ticket from the [Services85/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -50,7 +48,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
-
 ## SetPersonImage Response
 
 ```xml
@@ -69,4 +66,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

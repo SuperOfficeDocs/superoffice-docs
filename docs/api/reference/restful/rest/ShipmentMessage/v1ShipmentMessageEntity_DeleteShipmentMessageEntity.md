@@ -11,18 +11,11 @@ DELETE /api/v1/ShipmentMessage/{id}
 
 Deletes the ShipmentMessageEntity
 
-
 Calls the Marketing agent service DeleteShipmentMessageEntity.
-
-
-
-
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | id | int32 | The ShipmentMessageEntity to be deleted. **Required** |
-
-
 
 ## Request Headers
 
@@ -33,8 +26,7 @@ Calls the Marketing agent service DeleteShipmentMessageEntity.
 | Accept         | Content-type(s) you would like the response in:  |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-
-## Response: 
+## Response
 
 ShipmentMessageEntity deleted.
 
@@ -42,8 +34,7 @@ ShipmentMessageEntity deleted.
 |----------------|-------------|
 | 204 | ShipmentMessageEntity deleted. |
 
-Response body: 
-
+Response body:
 
 ## Sample request
 

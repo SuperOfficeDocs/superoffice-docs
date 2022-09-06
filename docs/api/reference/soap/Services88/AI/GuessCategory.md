@@ -17,7 +17,6 @@ Given a ticket's id, guess the ticket category it should be placed in. Currently
 
 **Returns:** Suggested ticket category ID
 
-
 [WSDL file for Services88/AI](../Services88-AI.md)
 
 Obtain a ticket from the [Services88/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -49,7 +48,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
-
 ## GuessCategory Response
 
 ```xml
@@ -69,4 +67,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

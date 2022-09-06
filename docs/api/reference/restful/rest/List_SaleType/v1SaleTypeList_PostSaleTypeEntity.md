@@ -11,14 +11,7 @@ POST /api/v1/List/SaleType/Items
 
 Create a new SaleTypeEntity list item
 
-
 Calls the List agent service SaveSaleTypeEntity.
-
-
-
-
-
-
 
 ## Request Headers
 
@@ -34,9 +27,9 @@ Calls the List agent service SaveSaleTypeEntity.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: newEntity  
+## Request Body: newEntity
 
-The SaleTypeEntity to be created. 
+The SaleTypeEntity to be created.
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -63,8 +56,7 @@ The SaleTypeEntity to be created.
 | SortGroupLinesBy | int32 | Sort group lines by this field |
 | Stages | array | Stages, those associated with this SaleType are selected.  <para>Use MDO List name "salestage" to get list items.</para> |
 
-
-## Response: 
+## Response
 
 OK
 
@@ -72,7 +64,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+Response body:
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|

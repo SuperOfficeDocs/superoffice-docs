@@ -7,15 +7,13 @@ title: List_PaymentType
 ```
 
 ---
+
 title: List_PaymentType
 ---
 
 ```http
 /api/v1/List/PaymentType
 ```
-
-
-
 
 * [GET List/PaymentType](v1PaymentTypeList_GetListDefinition.md)
 
@@ -54,7 +52,6 @@ title: List_PaymentType
 * [PUT List/PaymentType/Items/{id}/Headings](v1PaymentTypeList_PutPaymentTypeHeadingsForListItem.md)
 
 * [GET List/PaymentType/MDOItems](v1PaymentTypeList_GetMDOList.md)
-
 
 * [GET List/PaymentType](v1PaymentTypeList_GetListDefinition.md)
 

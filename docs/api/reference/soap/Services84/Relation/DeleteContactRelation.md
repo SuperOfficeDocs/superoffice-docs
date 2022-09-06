@@ -13,9 +13,7 @@ Implemented by the <see cref="M:SuperOffice.Services84.IRelationAgent.DeleteCont
 
 Deletes the spesified contact relation.
 
-* **contactRelationEntityId:** 
-
-
+* **contactRelationEntityId:**
 
 [WSDL file for Services84/Relation](../Services84-Relation.md)
 
@@ -48,7 +46,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
-
 ## DeleteContactRelation Response
 
 ```xml
@@ -67,4 +64,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

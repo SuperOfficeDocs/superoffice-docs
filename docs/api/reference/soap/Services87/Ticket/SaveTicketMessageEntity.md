@@ -17,7 +17,6 @@ Updates the existing TicketMessageEntity or creates a new TicketMessageEntity if
 
 **Returns:** New or updated TicketMessageEntity
 
-
 [WSDL file for Services87/Ticket](../Services87-Ticket.md)
 
 Obtain a ticket from the [Services87/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -174,7 +173,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
-
 ## SaveTicketMessageEntity Response
 
 ```xml
@@ -319,4 +317,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

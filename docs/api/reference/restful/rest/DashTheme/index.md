@@ -7,15 +7,13 @@ title: DashTheme
 ```
 
 ---
+
 title: DashTheme
 ---
 
 ```http
 /api/v1/DashTheme
 ```
-
-
-
 
 * [GET DashTheme/default](v1DashTheme_DefaultDashTheme.md)
 
@@ -28,7 +26,6 @@ title: DashTheme
 * [DEL DashTheme/{id}](v1DashTheme_DeleteDashTheme.md)
 
 * [PATCH DashTheme/{id}](v1DashTheme_PatchDashTheme.md)
-
 
 * [GET DashTheme/default](v1DashTheme_DefaultDashTheme.md)
 

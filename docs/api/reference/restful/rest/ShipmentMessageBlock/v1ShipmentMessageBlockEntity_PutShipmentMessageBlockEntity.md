@@ -11,15 +11,9 @@ PUT /api/v1/ShipmentMessageBlock/{id}
 
 Updates the existing ShipmentMessageBlockEntity
 
-
-
-
-
-
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | id | int32 | The ShipmentMessageBlockEntity id to update. **Required** |
-
 
 ## Query String Parameters
 
@@ -30,7 +24,6 @@ Updates the existing ShipmentMessageBlockEntity
 ```http
 PUT /api/v1/ShipmentMessageBlock/{id}?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -46,9 +39,9 @@ PUT /api/v1/ShipmentMessageBlock/{id}?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entity  
+## Request Body: entity
 
-The ShipmentMessageBlockEntity to be saved. 
+The ShipmentMessageBlockEntity to be saved.
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -61,8 +54,7 @@ The ShipmentMessageBlockEntity to be saved.
 | UpdatedAssociateId | int32 | Last updated by whom |
 | UpdatedCount | int32 | Number of updates made to this record |
 
-
-## Response: 
+## Response
 
 ShipmentMessageBlockEntity updated.
 
@@ -71,7 +63,7 @@ ShipmentMessageBlockEntity updated.
 | 200 | ShipmentMessageBlockEntity updated. |
 | 400 | Bad request. Entity to save is not in request body. |
 
-Response body: 
+Response body:
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|

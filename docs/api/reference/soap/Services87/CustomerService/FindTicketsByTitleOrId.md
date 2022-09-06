@@ -18,7 +18,6 @@ This method wil search for tickets matching title or id
 
 **Returns:** An array of objects containing some meta data for matching tickets
 
-
 [WSDL file for Services87/CustomerService](../Services87-CustomerService.md)
 
 Obtain a ticket from the [Services87/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -52,7 +51,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
-
 ## FindTicketsByTitleOrId Response
 
 ```xml
@@ -84,4 +82,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

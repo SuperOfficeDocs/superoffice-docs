@@ -11,13 +11,6 @@ POST /api/v1/Agents/Dash/SaveDashTheme
 
 Updates the existing DashTheme or creates a new DashTheme if the id parameter is empty
 
-
-
-
-
-
-
-
 ## Request Headers
 
 | Parameter Name | Description |
@@ -32,9 +25,9 @@ Updates the existing DashTheme or creates a new DashTheme if the id parameter is
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entity  
+## Request Body: entity
 
-The DashTheme to be saved. 
+The DashTheme to be saved.
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -45,8 +38,7 @@ The DashTheme to be saved.
 | Client | string | Name of client(s) this theme is available to |
 | Style | string | Style value - for example 'light' or 'dark' |
 
-
-## Response: 
+## Response
 
 OK
 
@@ -54,7 +46,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+Response body:
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|

@@ -7,15 +7,13 @@ title: MDO_Agent
 ```
 
 ---
+
 title: MDO_Agent
 ---
 
 ```http
 /api/v1/MDO/Agent
 ```
-
-
-
 
 * [POST Agents/MDO/GetList](v1MDOAgent_GetList.md)
 
@@ -40,7 +38,6 @@ title: MDO_Agent
 * [POST Agents/MDO/GetSelectableList](v1MDOAgent_GetSelectableList.md)
 
 * [POST Agents/MDO/SetSelected](v1MDOAgent_SetSelected.md)
-
 
 * [POST Agents/MDO/GetList](v1MDOAgent_GetList.md)
 

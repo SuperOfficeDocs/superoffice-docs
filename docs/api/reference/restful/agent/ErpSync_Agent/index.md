@@ -7,15 +7,13 @@ title: ErpSync_Agent
 ```
 
 ---
+
 title: ErpSync_Agent
 ---
 
 ```http
 /api/v1/ErpSync/Agent
 ```
-
-
-
 
 * [POST Agents/ErpSync/ForceResyncExternal](v1ErpSyncAgent_ForceResyncExternal.md)
 
@@ -110,7 +108,6 @@ title: ErpSync_Agent
 * [POST Agents/ErpSync/ForceResyncNoBlankValues](v1ErpSyncAgent_ForceResyncNoBlankValues.md)
 
 * [POST Agents/ErpSync/ForceResyncBatchTask](v1ErpSyncAgent_ForceResyncBatchTask.md)
-
 
 * [POST Agents/ErpSync/CreateDefaultErpSyncConnectorEntity](v1ErpSyncAgent_CreateDefaultErpSyncConnectorEntity.md)
 

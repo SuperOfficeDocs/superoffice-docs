@@ -11,12 +11,6 @@ POST /api/v1/Agents/Configuration/GetConfigurableScreenDeltasByQuery
 
 This method will return a configurablescreen delta matching the properties received from the incomming query
 
-
-
-
-
-
-
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -26,7 +20,6 @@ This method will return a configurablescreen delta matching the properties recei
 ```http
 POST /api/v1/Agents/Configuration/GetConfigurableScreenDeltasByQuery?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -42,14 +35,13 @@ POST /api/v1/Agents/Configuration/GetConfigurableScreenDeltasByQuery?$select=nam
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request
 
-DeltaQuery 
+DeltaQuery
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | DeltaQuery |  |  |
-
 
 ## Response: array
 

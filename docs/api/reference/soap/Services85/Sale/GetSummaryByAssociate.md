@@ -11,13 +11,9 @@ Implemented by the <see cref="M:SuperOffice.Services85.ISaleAgent.GetSummaryByAs
 
 ## GetSummaryByAssociate
 
-
-
-* **associateId:** 
-* **fromDate:** 
-* **toDate:** 
-
-
+* **associateId:**
+* **fromDate:**
+* **toDate:**
 
 [WSDL file for Services85/Sale](../Services85-Sale.md)
 
@@ -52,7 +48,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-
 
 ## GetSummaryByAssociate Response
 
@@ -103,4 +98,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

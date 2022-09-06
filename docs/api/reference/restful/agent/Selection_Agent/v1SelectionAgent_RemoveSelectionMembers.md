@@ -11,13 +11,7 @@ POST /api/v1/Agents/Selection/RemoveSelectionMembers
 
 Removes members from the selection as  specified in the collection of entity ids.
 
-
 The ids are selection member ids (selection member primary key)
-
-
-
-
-
 
 ## Query String Parameters
 
@@ -29,7 +23,6 @@ The ids are selection member ids (selection member primary key)
 POST /api/v1/Agents/Selection/RemoveSelectionMembers?$select=name,department,category/id
 ```
 
-
 ## Request Headers
 
 | Parameter Name | Description |
@@ -40,17 +33,16 @@ POST /api/v1/Agents/Selection/RemoveSelectionMembers?$select=name,department,cat
 | Accept         | Content-type(s) you would like the response in:  |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request
 
-SelectionId, SelectionMemberIds 
+SelectionId, SelectionMemberIds
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | SelectionId | int32 |  |
 | SelectionMemberIds | array |  |
 
-
-## Response: 
+## Response
 
 No Content
 
@@ -58,8 +50,7 @@ No Content
 |----------------|-------------|
 | 204 | No Content |
 
-Response body: 
-
+Response body:
 
 ## Sample request
 

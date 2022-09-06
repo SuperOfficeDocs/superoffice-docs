@@ -17,7 +17,6 @@ Gets the standard tile (not personal tile) corresponding to the given chart id
 
 **Returns:** Standard tile
 
-
 [WSDL file for Services88/Dashboard](../Services88-Dashboard.md)
 
 Obtain a ticket from the [Services88/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -49,7 +48,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-
 
 ## GetStandardDashboardTileFromChartId Response
 
@@ -132,4 +130,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

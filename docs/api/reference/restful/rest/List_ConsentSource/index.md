@@ -7,15 +7,13 @@ title: List_ConsentSource
 ```
 
 ---
+
 title: List_ConsentSource
 ---
 
 ```http
 /api/v1/List/ConsentSource
 ```
-
-
-
 
 * [GET List/ConsentSource](v1ConsentSourceList_GetListDefinition.md)
 
@@ -48,7 +46,6 @@ title: List_ConsentSource
 * [PUT List/ConsentSource/Items/{id}/Headings](v1ConsentSourceList_PutConsentSourceHeadingsForListItem.md)
 
 * [GET List/ConsentSource/MDOItems](v1ConsentSourceList_GetMDOList.md)
-
 
 * [GET List/ConsentSource](v1ConsentSourceList_GetListDefinition.md)
 

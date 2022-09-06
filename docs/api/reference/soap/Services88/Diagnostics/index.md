@@ -30,4 +30,3 @@ Download [WSDL file for Services88/Diagnostics](../Services88-Diagnostics.md) if
 * [PerformTasksAfterUpgrade](PerformTasksAfterUpgrade.md)
 * [ResyncUsers](ResyncUsers.md)
 * [WebAppUsageExistsInPeriod](WebAppUsageExistsInPeriod.md)
-

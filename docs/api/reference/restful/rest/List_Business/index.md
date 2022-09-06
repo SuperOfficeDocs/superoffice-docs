@@ -7,15 +7,13 @@ title: List_Business
 ```
 
 ---
+
 title: List_Business
 ---
 
 ```http
 /api/v1/List/Business
 ```
-
-
-
 
 * [GET List/Business](v1BusinessList_GetListDefinition.md)
 
@@ -54,7 +52,6 @@ title: List_Business
 * [PUT List/Business/Items/{id}/Headings](v1BusinessList_PutBusinessHeadingsForListItem.md)
 
 * [GET List/Business/MDOItems](v1BusinessList_GetMDOList.md)
-
 
 * [GET List/Business](v1BusinessList_GetListDefinition.md)
 

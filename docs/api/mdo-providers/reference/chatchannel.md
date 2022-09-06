@@ -16,9 +16,6 @@ so.envir:
 
 # "chatchannel" MDO List
 
-
-
-
 Implemented by the <see cref="T:SuperOffice.CRM.Lists.ChatChannelProvider">ChatChannelProvider</see> class.
 The name of the MDO list is 'chatchannel'.
 
@@ -28,10 +25,6 @@ The name of the MDO list is 'chatchannel'.
 |-----|-----|------|
 |Include ALL value in result or not| notAll|True|
 |Include all chat channels| listAll|False|
-
-
-
-
 
 ## Sample Request
 
@@ -44,6 +37,7 @@ Accept-Language: *
 ```
 
 ## Sample Code
+
 ```cs
 var listProvider = SuperOffice.CRM.Lists.SoListProviderFactory.Create("chatchannel", forceFlatList: true);
 foreach (var item in listProvider.RootItems) {
@@ -57,7 +51,6 @@ foreach (var item in listProvider.RootItems) {
 |Id   | Name  |StyleHint|ExtraInfo |
 | --- | ----- | ------- | -------- |
 |0|All|||
-
 
 ## Related MDO Lists
 

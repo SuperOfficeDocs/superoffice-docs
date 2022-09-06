@@ -27,4 +27,3 @@ Download [WSDL file for Services85/CustomerService](../Services85-CustomerServic
 * [SaveSmsConfig](SaveSmsConfig.md)
 * [SessionIsValid](SessionIsValid.md)
 * [UpdateFeatureToggles](UpdateFeatureToggles.md)
-

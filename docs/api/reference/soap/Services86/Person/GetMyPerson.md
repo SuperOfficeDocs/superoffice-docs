@@ -13,9 +13,7 @@ Implemented by the <see cref="M:SuperOffice.Services86.IPersonAgent.GetMyPerson"
 
 Gets the person info belonging to the currently logged on user.
 
-
 **Returns:** The PersonEntity
-
 
 [WSDL file for Services86/Person](../Services86-Person.md)
 
@@ -47,7 +45,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-
 
 ## GetMyPerson Response
 
@@ -535,4 +532,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

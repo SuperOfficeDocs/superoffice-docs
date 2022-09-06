@@ -15,9 +15,8 @@ so.envir:
 ---
 
 # "suggesteddocument" MDO List
+
 SuggestedDocumentProvider creates a MDO list of suggested documents in the database.
-
-
 
 Implemented by the <see cref="T:SuperOffice.CRM.Lists.SuggestedDocumentProvider">SuggestedDocumentProvider</see> class.
 The name of the MDO list is 'suggesteddocument'.
@@ -32,10 +31,6 @@ The name of the MDO list is 'suggesteddocument'.
 
 Separator: &
 
-
-
-
-
 ## Sample Request
 
 ```http!
@@ -47,6 +42,7 @@ Accept-Language: *
 ```
 
 ## Sample Code
+
 ```cs
 var listProvider = SuperOffice.CRM.Lists.SoListProviderFactory.Create("suggesteddocument", forceFlatList: true);
 foreach (var item in listProvider.RootItems) {
@@ -63,7 +59,6 @@ foreach (var item in listProvider.RootItems) {
 |2|Write report|||
 |3|Write quote doc|||
 |4|Write a letter|||
-
 
 ## Related MDO Lists
 

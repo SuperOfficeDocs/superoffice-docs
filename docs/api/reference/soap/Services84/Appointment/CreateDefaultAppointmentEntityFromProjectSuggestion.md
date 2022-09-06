@@ -11,14 +11,10 @@ Implemented by the <see cref="M:SuperOffice.Services84.IAppointmentAgent.CreateD
 
 ## CreateDefaultAppointmentEntityFromProjectSuggestion
 
-
-
-* **suggestedAppointmentId:** 
-* **projectId:** 
-* **createNow:** 
-* **ownerId:** 
-
-
+* **suggestedAppointmentId:**
+* **projectId:**
+* **createNow:**
+* **ownerId:**
 
 [WSDL file for Services84/Appointment](../Services84-Appointment.md)
 
@@ -54,7 +50,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-
 
 ## CreateDefaultAppointmentEntityFromProjectSuggestion Response
 
@@ -437,4 +432,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

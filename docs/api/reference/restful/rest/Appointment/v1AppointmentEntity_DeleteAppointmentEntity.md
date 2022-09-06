@@ -11,18 +11,11 @@ DELETE /api/v1/Appointment/{id}
 
 Deletes the AppointmentEntity
 
-
 Calls the Appointment agent service DeleteAppointmentEntity.
-
-
-
-
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | id | int32 | The AppointmentEntity to be deleted. **Required** |
-
-
 
 ## Request Headers
 
@@ -33,8 +26,7 @@ Calls the Appointment agent service DeleteAppointmentEntity.
 | Accept         | Content-type(s) you would like the response in:  |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-
-## Response: 
+## Response
 
 AppointmentEntity deleted.
 
@@ -43,8 +35,7 @@ AppointmentEntity deleted.
 | 204 | AppointmentEntity deleted. |
 | 412 | Delete aborted because AppointmentEntity has changed since the requested If-Unmodified-Since timestamp. |
 
-Response body: 
-
+Response body:
 
 ## Sample request
 

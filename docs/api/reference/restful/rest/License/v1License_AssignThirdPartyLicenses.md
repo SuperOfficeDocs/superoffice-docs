@@ -11,17 +11,10 @@ PUT /api/v1/License/{moduleOwner}/{associateId}
 
 Assign third party licenses
 
-
-
-
-
-
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | associateId | int32 | User to assign third party licenses for **Required** |
 | moduleOwner | string | Name of the module owner to assign license for **Required** |
-
-
 
 ## Request Headers
 
@@ -37,11 +30,9 @@ Assign third party licenses
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: moduleLicenseNames  
+## Request Body: moduleLicenseNames
 
-Name of module licenses to assign 
-
-
+Name of module licenses to assign
 
 ## Response: array
 

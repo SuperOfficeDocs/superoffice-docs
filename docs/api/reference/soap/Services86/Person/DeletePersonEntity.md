@@ -16,8 +16,6 @@ This table supports Soft Delete; records will be marked as deleted and disappear
 
 * **personEntityId:** The identity of the PersonEntity
 
-
-
 [WSDL file for Services86/Person](../Services86-Person.md)
 
 Obtain a ticket from the [Services86/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -50,7 +48,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
-
 ## DeletePersonEntity Response
 
 ```xml
@@ -70,4 +67,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

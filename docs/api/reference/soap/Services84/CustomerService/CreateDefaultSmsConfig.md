@@ -14,9 +14,7 @@ Implemented by the <see cref="M:SuperOffice.Services84.ICustomerServiceAgent.Cre
 Loading default values into a new SmsConfig.
 NetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance
 
-
 **Returns:** New SmsConfig with default values
-
 
 [WSDL file for Services84/CustomerService](../Services84-CustomerService.md)
 
@@ -49,7 +47,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
-
 ## CreateDefaultSmsConfig Response
 
 ```xml
@@ -80,4 +77,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

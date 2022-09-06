@@ -7,15 +7,13 @@ title: Project
 ```
 
 ---
+
 title: Project
 ---
 
 ```http
 /api/v1/Project
 ```
-
-
-
 
 * [GET Project/default](v1ProjectEntity_DefaultProjectEntity.md)
 
@@ -100,7 +98,6 @@ title: Project
 * [POST Project/{id}/Image](v1ProjectEntity_SaveImage_POST.md)
 
 * [DEL Project/{id}/Image](v1ProjectEntity_DeleteImageContent.md)
-
 
 * [GET Project/default](v1ProjectEntity_DefaultProjectEntity.md)
 

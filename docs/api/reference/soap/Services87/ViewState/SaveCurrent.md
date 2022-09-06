@@ -17,7 +17,6 @@ Saving the current history item. This history item is saved with Rank = 1, and a
 
 **Returns:** The current (most recent) history item
 
-
 [WSDL file for Services87/ViewState](../Services87-ViewState.md)
 
 Obtain a ticket from the [Services87/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -58,7 +57,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
-
 ## SaveCurrent Response
 
 ```xml
@@ -87,4 +85,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

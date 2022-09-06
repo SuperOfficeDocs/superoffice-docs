@@ -11,18 +11,11 @@ PUT /api/v1/List/LegalBase/Items/{id}
 
 Updates the existing LegalBase
 
-
 Calls the List agent service SaveLegalBase.
-
-
-
-
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | id | int32 | The id of LegalBase to be saved. **Required** |
-
-
 
 ## Request Headers
 
@@ -38,9 +31,9 @@ Calls the List agent service SaveLegalBase.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entity  
+## Request Body: entity
 
-The details of LegalBase to be saved. 
+The details of LegalBase to be saved.
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -51,8 +44,7 @@ The details of LegalBase to be saved.
 | Key | string | The key used to uniquely identify this legal base |
 | Deleted | bool | true if the LegalBase is deleted |
 
-
-## Response: 
+## Response
 
 OK
 
@@ -61,7 +53,7 @@ OK
 | 200 | OK |
 | 400 | Bad request. Entity to save is not in request body. |
 
-Response body: 
+Response body:
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|

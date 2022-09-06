@@ -11,18 +11,11 @@ GET /api/v1/License/{ownerName}/ShopUrl
 
 Get the shop URL for the specified module owner.
 
-
 This can be used to redirect user to the web shop.
-
-
-
-
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | ownerName | string | Name of the module owner. **Required** |
-
-
 
 ## Request Headers
 
@@ -37,7 +30,6 @@ This can be used to redirect user to the web shop.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-
 ## Response: string
 
 OK
@@ -47,7 +39,6 @@ OK
 | 200 | OK |
 
 Response body: string
-
 
 ## Sample request
 

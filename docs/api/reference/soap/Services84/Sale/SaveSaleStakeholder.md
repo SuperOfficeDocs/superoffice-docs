@@ -17,7 +17,6 @@ Updates the existing SaleStakeholder or creates a new SaleStakeholder if the id 
 
 **Returns:** New or updated SaleStakeholder
 
-
 [WSDL file for Services84/Sale](../Services84-Sale.md)
 
 Obtain a ticket from the [Services84/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -70,7 +69,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
-
 ## SaveSaleStakeholder Response
 
 ```xml
@@ -111,4 +109,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

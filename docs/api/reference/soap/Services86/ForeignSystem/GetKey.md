@@ -21,7 +21,6 @@ Returning a foreign key by its key name, that belongs to the specified device an
 
 **Returns:** The ForeignKey.
 
-
 [WSDL file for Services86/ForeignSystem](../Services86-ForeignSystem.md)
 
 Obtain a ticket from the [Services86/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -57,7 +56,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
-
 ## GetKey Response
 
 ```xml
@@ -86,4 +84,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

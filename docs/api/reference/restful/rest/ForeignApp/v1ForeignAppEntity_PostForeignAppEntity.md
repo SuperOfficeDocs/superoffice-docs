@@ -11,13 +11,7 @@ POST /api/v1/ForeignApp
 
 Creates a new ForeignAppEntity
 
-
 Calls the ForeignSystem agent service SaveForeignAppEntity.
-
-
-
-
-
 
 ## Query String Parameters
 
@@ -28,7 +22,6 @@ Calls the ForeignSystem agent service SaveForeignAppEntity.
 ```http
 POST /api/v1/ForeignApp?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -44,9 +37,9 @@ POST /api/v1/ForeignApp?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: newEntity  
+## Request Body: newEntity
 
-The ForeignAppEntity to be saved. 
+The ForeignAppEntity to be saved.
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -58,8 +51,7 @@ The ForeignAppEntity to be saved.
 | UpdatedBy |  | The person that last updated this foreign application. |
 | Devices | array | The devices that belong to this foreign app. |
 
-
-## Response: 
+## Response
 
 OK
 
@@ -67,7 +59,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+Response body:
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|

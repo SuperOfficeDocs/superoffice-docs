@@ -17,7 +17,6 @@ Updates the existing MailboxEntity or creates a new MailboxEntity if the id para
 
 **Returns:** New or updated MailboxEntity
 
-
 [WSDL file for Services88/CustomerService](../Services88-CustomerService.md)
 
 Obtain a ticket from the [Services88/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -58,7 +57,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
-
 ## SaveMailboxEntity Response
 
 ```xml
@@ -87,4 +85,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

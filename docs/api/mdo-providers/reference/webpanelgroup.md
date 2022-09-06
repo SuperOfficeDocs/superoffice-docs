@@ -15,16 +15,12 @@ so.envir:
 ---
 
 # "webpanelgroup" MDO List
+
 List of WebPanels with visible for groups as commaseperated ids in extrainfo field.
 This list only makes sence if the setting use groups and heading are turned on for
 
-
-
 Implemented by the <see cref="T:SuperOffice.CRM.Lists.WebPanelGroupProvider">WebPanelGroupProvider</see> class.
 The name of the MDO list is 'webpanelgroup'.
-
-
-
 
 ## Sample Request
 
@@ -37,6 +33,7 @@ Accept-Language: *
 ```
 
 ## Sample Code
+
 ```cs
 var listProvider = SuperOffice.CRM.Lists.SoListProviderFactory.Create("webpanelgroup", forceFlatList: true);
 foreach (var item in listProvider.RootItems) {
@@ -50,7 +47,6 @@ foreach (var item in listProvider.RootItems) {
 |Id   | Name  |StyleHint|ExtraInfo |
 | --- | ----- | ------- | -------- |
 |2|Echo||1,2,3,4,5|
-
 
 ## Related MDO Lists
 

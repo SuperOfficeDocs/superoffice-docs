@@ -20,7 +20,6 @@ Will generate an url to the emarketing module
 
 **Returns:** Returns a valid CS URL composed of the give parameters.
 
-
 [WSDL file for Services85/Configuration](../Services85-Configuration.md)
 
 Obtain a ticket from the [Services85/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -56,7 +55,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
-
 ## GetCSAuthUrl Response
 
 ```xml
@@ -77,4 +75,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

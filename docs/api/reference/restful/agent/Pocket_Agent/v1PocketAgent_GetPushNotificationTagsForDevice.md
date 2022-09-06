@@ -11,12 +11,6 @@ POST /api/v1/Agents/Pocket/GetPushNotificationTagsForDevice
 
 Retrieve current tag value for a device
 
-
-
-
-
-
-
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -26,7 +20,6 @@ Retrieve current tag value for a device
 ```http
 POST /api/v1/Agents/Pocket/GetPushNotificationTagsForDevice?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -42,14 +35,13 @@ POST /api/v1/Agents/Pocket/GetPushNotificationTagsForDevice?$select=name,departm
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request
 
-DeviceIdentifier 
+DeviceIdentifier
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | DeviceIdentifier | string |  |
-
 
 ## Response: string
 
@@ -60,7 +52,6 @@ OK
 | 200 | OK |
 
 Response body: string
-
 
 ## Sample request
 

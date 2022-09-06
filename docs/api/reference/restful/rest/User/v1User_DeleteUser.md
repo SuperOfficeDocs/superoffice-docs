@@ -11,20 +11,11 @@ DELETE /api/v1/User/{id}
 
 Deletes the User
 
-
-
-
-## Online Restricted: ## The User agent is not available in Online by default. User management is not allowed for partner apps. Calls the User agent service DeleteUser.
-
-
-
-
+## Online Restricted: ## The User agent is not available in Online by default. User management is not allowed for partner apps. Calls the User agent service DeleteUser
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | id | int32 | The User to be deleted. **Required** |
-
-
 
 ## Request Headers
 
@@ -35,8 +26,7 @@ Deletes the User
 | Accept         | Content-type(s) you would like the response in:  |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-
-## Response: 
+## Response
 
 User deleted.
 
@@ -44,8 +34,7 @@ User deleted.
 |----------------|-------------|
 | 204 | User deleted. |
 
-Response body: 
-
+Response body:
 
 ## Sample request
 

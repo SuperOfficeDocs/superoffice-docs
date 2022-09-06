@@ -17,7 +17,6 @@ Check that entity is ready for saving, return error messages by field.
 
 **Returns:** Error messages tagged by field.
 
-
 [WSDL file for Services88/Contact](../Services88-Contact.md)
 
 Obtain a ticket from the [Services88/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -385,7 +384,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
-
 ## ValidateContactEntity Response
 
 ```xml
@@ -411,4 +409,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

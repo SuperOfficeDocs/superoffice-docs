@@ -11,12 +11,6 @@ POST /api/v1/Agents/Dash/CreateDefaultTileForEntity
 
 Set Measure to CountAll and MeasureField to primary key field
 
-
-
-
-
-
-
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -26,7 +20,6 @@ Set Measure to CountAll and MeasureField to primary key field
 ```http
 POST /api/v1/Agents/Dash/CreateDefaultTileForEntity?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -42,16 +35,15 @@ POST /api/v1/Agents/Dash/CreateDefaultTileForEntity?$select=name,department,cate
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request
 
-EntityName 
+EntityName
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | EntityName | string |  |
 
-
-## Response: 
+## Response
 
 OK
 
@@ -59,7 +51,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+Response body:
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|

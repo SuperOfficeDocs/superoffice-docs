@@ -15,8 +15,6 @@ Deletes the BlobEntity
 
 * **blobEntityId:** The identity of the BlobEntity
 
-
-
 [WSDL file for Services85/BLOB](../Services85-BLOB.md)
 
 Obtain a ticket from the [Services85/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -48,7 +46,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
-
 ## DeleteBlobEntity Response
 
 ```xml
@@ -67,4 +64,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

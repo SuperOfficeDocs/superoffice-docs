@@ -11,12 +11,6 @@ POST /api/v1/Agents/Contact/GetContactSummary
 
 Get summary of contact and its recent activity.
 
-
-
-
-
-
-
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -26,7 +20,6 @@ Get summary of contact and its recent activity.
 ```http
 POST /api/v1/Agents/Contact/GetContactSummary?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -42,17 +35,16 @@ POST /api/v1/Agents/Contact/GetContactSummary?$select=name,department,category/i
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request
 
-ContactId, Limit 
+ContactId, Limit
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | ContactId | int32 |  |
 | Limit | int32 |  |
 
-
-## Response: 
+## Response
 
 OK
 
@@ -60,7 +52,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+Response body:
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|

@@ -18,7 +18,6 @@ Adds members to the selection from the search result.
 
 **Returns:** Number of members added
 
-
 [WSDL file for Services87/Selection](../Services87-Selection.md)
 
 Obtain a ticket from the [Services87/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -52,7 +51,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
-
 ## AddContactSelectionMembersFromSearch Response
 
 ```xml
@@ -73,4 +71,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

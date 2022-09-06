@@ -11,15 +11,7 @@ POST /api/v1/Agents/EMail/TestAuthenticate
 
 Test if logged-in user has a working mail account
 
-
-
-
-## Online Restricted: ## The EMail agent is not available in Online by default. Access must be requested specifically when app is registered.
-
-
-
-
-
+## Online Restricted: ## The EMail agent is not available in Online by default. Access must be requested specifically when app is registered
 
 ## Query String Parameters
 
@@ -30,7 +22,6 @@ Test if logged-in user has a working mail account
 ```http
 POST /api/v1/Agents/EMail/TestAuthenticate?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -45,7 +36,6 @@ POST /api/v1/Agents/EMail/TestAuthenticate?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-
 ## Response: bool
 
 OK
@@ -55,7 +45,6 @@ OK
 | 200 | OK |
 
 Response body: bool
-
 
 ## Sample request
 

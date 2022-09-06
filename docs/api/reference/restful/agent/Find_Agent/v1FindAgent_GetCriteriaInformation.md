@@ -11,13 +11,7 @@ POST /api/v1/Agents/Find/GetCriteriaInformation
 
 Get criteria information from a set of saved criteria.
 
-
 The result contains the restrictions in two forms: fully populated ArchiveRestrictionInfo objects, used to display details and for saving changes; and as a list suitable for an Archive control
-
-
-
-
-
 
 ## Query String Parameters
 
@@ -28,7 +22,6 @@ The result contains the restrictions in two forms: fully populated ArchiveRestri
 ```http
 POST /api/v1/Agents/Find/GetCriteriaInformation?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -44,9 +37,9 @@ POST /api/v1/Agents/Find/GetCriteriaInformation?$select=name,department,category
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request
 
-StorageType, ProviderName, StorageKey, StaticColumns 
+StorageType, ProviderName, StorageKey, StaticColumns
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -55,8 +48,7 @@ StorageType, ProviderName, StorageKey, StaticColumns
 | StorageKey | string |  |
 | StaticColumns | array |  |
 
-
-## Response: 
+## Response
 
 OK
 
@@ -64,7 +56,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+Response body:
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|

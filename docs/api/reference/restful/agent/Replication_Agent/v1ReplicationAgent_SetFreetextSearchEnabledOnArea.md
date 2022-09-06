@@ -11,15 +11,7 @@ POST /api/v1/Agents/Replication/SetFreetextSearchEnabledOnArea
 
 Enable freetext search on this area
 
-
-
-
-## Online Restricted: ## The Replication agent is not available in Online by default. Not available in Online. Only used on-site.
-
-
-
-
-
+## Online Restricted: ## The Replication agent is not available in Online by default. Not available in Online. Only used on-site
 
 ## Query String Parameters
 
@@ -31,7 +23,6 @@ Enable freetext search on this area
 POST /api/v1/Agents/Replication/SetFreetextSearchEnabledOnArea?$select=name,department,category/id
 ```
 
-
 ## Request Headers
 
 | Parameter Name | Description |
@@ -42,17 +33,16 @@ POST /api/v1/Agents/Replication/SetFreetextSearchEnabledOnArea?$select=name,depa
 | Accept         | Content-type(s) you would like the response in:  |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request
 
-AreaId, FreetextEnabled 
+AreaId, FreetextEnabled
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | AreaId | int32 |  |
 | FreetextEnabled | bool |  |
 
-
-## Response: 
+## Response
 
 No Content
 
@@ -60,8 +50,7 @@ No Content
 |----------------|-------------|
 | 204 | No Content |
 
-Response body: 
-
+Response body:
 
 ## Sample request
 

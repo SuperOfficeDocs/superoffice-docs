@@ -11,10 +11,6 @@ Implemented by the <see cref="M:SuperOffice.Services84.IBlobManagerAgent.BeginRe
 
 ## BeginReadBlobPart
 
-
-
-
-
 [WSDL file for Services84/BlobManager](../Services84-BlobManager.md)
 
 Obtain a ticket from the [Services84/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -46,7 +42,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
-
 ## BeginReadBlobPart Response
 
 ```xml
@@ -66,4 +61,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

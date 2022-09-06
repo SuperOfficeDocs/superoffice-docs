@@ -11,13 +11,7 @@ POST /api/v1/Agents/BLOB/ChangeProjectImage
 
 Changes the project image link.
 
-
 If the Binary object id is 0, any image link is removed from the project.
-
-
-
-
-
 
 ## Query String Parameters
 
@@ -29,7 +23,6 @@ If the Binary object id is 0, any image link is removed from the project.
 POST /api/v1/Agents/BLOB/ChangeProjectImage?$select=name,department,category/id
 ```
 
-
 ## Request Headers
 
 | Parameter Name | Description |
@@ -40,17 +33,16 @@ POST /api/v1/Agents/BLOB/ChangeProjectImage?$select=name,department,category/id
 | Accept         | Content-type(s) you would like the response in:  |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request
 
-ProjectId, BlobId 
+ProjectId, BlobId
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | ProjectId | int32 |  |
 | BlobId | int32 |  |
 
-
-## Response: 
+## Response
 
 No Content
 
@@ -58,8 +50,7 @@ No Content
 |----------------|-------------|
 | 204 | No Content |
 
-Response body: 
-
+Response body:
 
 ## Sample request
 

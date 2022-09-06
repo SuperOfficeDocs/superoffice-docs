@@ -17,7 +17,6 @@ Send the provided e-mails
 
 **Returns:** The sent e-mails (updated with message id etc.)
 
-
 [WSDL file for Services84/EMail](../Services84-EMail.md)
 
 Obtain a ticket from the [Services84/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -203,7 +202,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
-
 ## Send Response
 
 ```xml
@@ -377,4 +375,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

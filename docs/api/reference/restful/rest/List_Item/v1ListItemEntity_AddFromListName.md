@@ -11,16 +11,9 @@ POST /api/v1/List/{udListDefinitionName}/Items
 
 Save a new list item for the specified list defintion
 
-
-
-
-
-
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | udListDefinitionName | string | The name of the list definition, indicating which list to save the item to. **Required** |
-
-
 
 ## Request Headers
 
@@ -36,9 +29,9 @@ Save a new list item for the specified list defintion
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: item  
+## Request Body: item
 
-The item to save 
+The item to save
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -49,8 +42,7 @@ The item to save
 | UdListDefinitionId | int32 | The id of the list which this list item belongs to |
 | Rank | int32 | The rank of the list item |
 
-
-## Response: 
+## Response
 
 OK
 
@@ -58,7 +50,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+Response body:
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|

@@ -17,7 +17,6 @@ Create (but do not save) a new selection entity, for the current user and the gi
 
 **Returns:** The new SelectionEntity, which has not yet been saved
 
-
 [WSDL file for Services88/Selection](../Services88-Selection.md)
 
 Obtain a ticket from the [Services88/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -49,7 +48,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-
 
 ## CreateSelectionEntity Response
 
@@ -188,4 +186,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

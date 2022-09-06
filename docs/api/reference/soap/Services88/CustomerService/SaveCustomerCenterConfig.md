@@ -17,7 +17,6 @@ Updates the existing CustomerCenterConfig or creates a new CustomerCenterConfig 
 
 **Returns:** New or updated CustomerCenterConfig
 
-
 [WSDL file for Services88/CustomerService](../Services88-CustomerService.md)
 
 Obtain a ticket from the [Services88/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -59,7 +58,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
-
 ## SaveCustomerCenterConfig Response
 
 ```xml
@@ -89,4 +87,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

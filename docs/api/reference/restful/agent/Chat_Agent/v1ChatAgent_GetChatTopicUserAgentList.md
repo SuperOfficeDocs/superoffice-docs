@@ -11,12 +11,6 @@ POST /api/v1/Agents/Chat/GetChatTopicUserAgentList
 
 Get list of users assigned to a chat topic
 
-
-
-
-
-
-
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -26,7 +20,6 @@ Get list of users assigned to a chat topic
 ```http
 POST /api/v1/Agents/Chat/GetChatTopicUserAgentList?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -42,14 +35,13 @@ POST /api/v1/Agents/Chat/GetChatTopicUserAgentList?$select=name,department,categ
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request
 
-ChatTopicId 
+ChatTopicId
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | ChatTopicId | int32 |  |
-
 
 ## Response: array
 

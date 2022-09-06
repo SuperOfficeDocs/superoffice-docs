@@ -7,15 +7,13 @@ title: ChatSession
 ```
 
 ---
+
 title: ChatSession
 ---
 
 ```http
 /api/v1/ChatSession
 ```
-
-
-
 
 * [GET ChatSession/default](v1ChatSessionEntity_DefaultChatSessionEntity.md)
 
@@ -50,7 +48,6 @@ title: ChatSession
 * [GET ChatSession/{id}/Messages](v1ChatSessionEntity_GetChatMessages.md)
 
 * [POST ChatSession/{id}/Messages](v1ChatSessionEntity_AddChatMessage.md)
-
 
 * [GET ChatSession/default](v1ChatSessionEntity_DefaultChatSessionEntity.md)
 

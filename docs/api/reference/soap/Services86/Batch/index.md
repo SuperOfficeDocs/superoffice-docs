@@ -26,4 +26,3 @@ Download [WSDL file for Services86/Batch](../Services86-Batch.md) if you need to
 * [StartBatchJob](StartBatchJob.md)
 * [StopBatchJob](StopBatchJob.md)
 * [UpdateBatchTask](UpdateBatchTask.md)
-

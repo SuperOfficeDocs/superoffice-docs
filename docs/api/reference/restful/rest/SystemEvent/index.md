@@ -7,15 +7,13 @@ title: SystemEvent
 ```
 
 ---
+
 title: SystemEvent
 ---
 
 ```http
 /api/v1/SystemEvent
 ```
-
-
-
 
 * [GET SystemEvent/default](v1SystemEventEntity_DefaultSystemEventEntity.md)
 
@@ -30,7 +28,6 @@ title: SystemEvent
 * [DEL SystemEvent/{id}](v1SystemEventEntity_DeleteSystemEventEntity.md)
 
 * [PATCH SystemEvent/{id}](v1SystemEventEntity_PatchSystemEventEntity.md)
-
 
 * [GET SystemEvent/default](v1SystemEventEntity_DefaultSystemEventEntity.md)
 

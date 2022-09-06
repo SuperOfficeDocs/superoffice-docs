@@ -11,16 +11,7 @@ POST /api/v1/Agents/CRMScript/SaveTriggerScriptEntity
 
 Updates the existing TriggerScriptEntity or creates a new TriggerScriptEntity if the id parameter is empty
 
-
-
-
-## Online Restricted: ## The CRMScript agent is not available in Online by default. Access must be requested specifically when app is registered.
-
-
-
-
-
-
+## Online Restricted: ## The CRMScript agent is not available in Online by default. Access must be requested specifically when app is registered
 
 ## Request Headers
 
@@ -36,9 +27,9 @@ Updates the existing TriggerScriptEntity or creates a new TriggerScriptEntity if
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entity  
+## Request Body: entity
 
-The TriggerScriptEntity to be saved. 
+The TriggerScriptEntity to be saved.
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -47,14 +38,13 @@ The TriggerScriptEntity to be saved.
 | ScreenType | string | Event id that triggers script.  See EventHandlerType enum. |
 | Enabled | bool | Whether this screen chooser is enabled or not |
 | UniqueIdentifier | string | Global unique identifier, accross customers/tenants |
-| Source | string | The CRMscript code for this event handler |
+| Source | string | The CRMScript code for this event handler |
 | Registered | date-time | Registered when  in UTC. |
 | RegisteredAssociateId | int32 | Registered by whom |
 | Updated | date-time | Last updated when  in UTC. |
 | UpdatedAssociateId | int32 | Last updated by whom |
 
-
-## Response: 
+## Response
 
 OK
 
@@ -62,7 +52,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+Response body:
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -71,7 +61,7 @@ Response body:
 | ScreenType | string | Event id that triggers script.  See EventHandlerType enum. |
 | Enabled | bool | Whether this screen chooser is enabled or not |
 | UniqueIdentifier | string | Global unique identifier, accross customers/tenants |
-| Source | string | The CRMscript code for this event handler |
+| Source | string | The CRMScript code for this event handler |
 | Registered | date-time | Registered when  in UTC. |
 | RegisteredAssociateId | int32 | Registered by whom |
 | Updated | date-time | Last updated when  in UTC. |

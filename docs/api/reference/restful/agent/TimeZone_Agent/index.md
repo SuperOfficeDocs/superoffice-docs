@@ -7,15 +7,13 @@ title: TimeZone_Agent
 ```
 
 ---
+
 title: TimeZone_Agent
 ---
 
 ```http
 /api/v1/TimeZone/Agent
 ```
-
-
-
 
 * [POST Agents/TimeZone/InitializeTimeZoneData](v1TimeZoneAgent_InitializeTimeZoneData.md)
 
@@ -38,7 +36,6 @@ title: TimeZone_Agent
 * [POST Agents/TimeZone/DeleteTimeZones](v1TimeZoneAgent_DeleteTimeZones.md)
 
 * [POST Agents/TimeZone/SetActiveTimeZoneRow](v1TimeZoneAgent_SetActiveTimeZoneRow.md)
-
 
 * [POST Agents/TimeZone/InitializeTimeZoneData](v1TimeZoneAgent_InitializeTimeZoneData.md)
 

@@ -11,13 +11,7 @@ POST /api/v1/Agents/BLOB/SaveImageStream
 
 Stores an image in the database without linking it to a project or a person.
 
-
 It is possible to ChangePersonImage or ChangeProjectImage to attach image later.
-
-
-
-
-
 
 ## Query String Parameters
 
@@ -28,7 +22,6 @@ It is possible to ChangePersonImage or ChangeProjectImage to attach image later.
 ```http
 POST /api/v1/Agents/BLOB/SaveImageStream?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -44,16 +37,15 @@ POST /api/v1/Agents/BLOB/SaveImageStream?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request
 
-Type, Image, Description 
+Type, Image, Description
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | Type | string |  |
 | Image | byte |  |
 | Description | string |  |
-
 
 ## Response: int32
 
@@ -64,7 +56,6 @@ OK
 | 200 | OK |
 
 Response body: int32
-
 
 ## Sample request
 

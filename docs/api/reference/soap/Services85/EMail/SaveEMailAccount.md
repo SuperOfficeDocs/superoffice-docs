@@ -17,7 +17,6 @@ Updates the existing EMailAccount or creates a new EMailAccount if the id parame
 
 **Returns:** New or updated EMailAccount
 
-
 [WSDL file for Services85/EMail](../Services85-EMail.md)
 
 Obtain a ticket from the [Services85/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -73,7 +72,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
-
 ## SaveEMailAccount Response
 
 ```xml
@@ -117,4 +115,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

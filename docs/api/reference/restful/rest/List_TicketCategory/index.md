@@ -7,15 +7,13 @@ title: List_TicketCategory
 ```
 
 ---
+
 title: List_TicketCategory
 ---
 
 ```http
 /api/v1/List/TicketCategory
 ```
-
-
-
 
 * [GET List/TicketCategory](v1TicketCategoryList_GetListDefinition.md)
 
@@ -40,7 +38,6 @@ title: List_TicketCategory
 * [POST List/TicketCategory/Headings](v1TicketCategoryList_PostTicketCategoryEntityHeading.md)
 
 * [DEL List/TicketCategory/Headings](v1TicketCategoryList_DeleteTicketCategoryEntityHeadings.md)
-
 
 * [GET List/TicketCategory](v1TicketCategoryList_GetListDefinition.md)
 

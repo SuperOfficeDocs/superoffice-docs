@@ -7,15 +7,13 @@ title: List_Source
 ```
 
 ---
+
 title: List_Source
 ---
 
 ```http
 /api/v1/List/Source
 ```
-
-
-
 
 * [GET List/Source](v1SourceList_GetListDefinition.md)
 
@@ -54,7 +52,6 @@ title: List_Source
 * [PUT List/Source/Items/{id}/Headings](v1SourceList_PutSourceHeadingsForListItem.md)
 
 * [GET List/Source/MDOItems](v1SourceList_GetMDOList.md)
-
 
 * [GET List/Source](v1SourceList_GetListDefinition.md)
 

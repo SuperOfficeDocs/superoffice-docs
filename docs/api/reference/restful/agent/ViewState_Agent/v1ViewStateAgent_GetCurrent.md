@@ -11,13 +11,7 @@ POST /api/v1/Agents/ViewState/GetCurrent
 
 Get the current (most recent) value of the history list.
 
-
 This is the item with rank = 1. If no item exists a default value is returned. This is usually the first item in the table representing the history list.
-
-
-
-
-
 
 ## Query String Parameters
 
@@ -28,7 +22,6 @@ This is the item with rank = 1. If no item exists a default value is returned. T
 ```http
 POST /api/v1/Agents/ViewState/GetCurrent?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -44,16 +37,15 @@ POST /api/v1/Agents/ViewState/GetCurrent?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request
 
-HistoryName 
+HistoryName
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | HistoryName | string |  |
 
-
-## Response: 
+## Response
 
 OK
 
@@ -61,7 +53,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+Response body:
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|

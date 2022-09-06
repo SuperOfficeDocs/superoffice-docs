@@ -44,4 +44,3 @@ Download [WSDL file for Services86/ForeignSystem](../Services86-ForeignSystem.md
 * [SaveForeignAppEntity](SaveForeignAppEntity.md)
 * [SaveForeignDevice](SaveForeignDevice.md)
 * [SaveForeignKey](SaveForeignKey.md)
-

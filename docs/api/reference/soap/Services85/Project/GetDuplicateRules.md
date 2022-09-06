@@ -13,9 +13,7 @@ Implemented by the <see cref="M:SuperOffice.Services85.IProjectAgent.GetDuplicat
 
 Retrieve all available duplicate rules for project
 
-
 **Returns:** All available duplicate rules
-
 
 [WSDL file for Services85/Project](../Services85-Project.md)
 
@@ -48,7 +46,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
-
 ## GetDuplicateRules Response
 
 ```xml
@@ -76,4 +73,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

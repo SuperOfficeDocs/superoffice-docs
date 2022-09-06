@@ -11,13 +11,7 @@ POST /api/v1/Agents/Configuration/GetWwwUrlForSMWeb
 
 Returns the URL used for the logo by the SM.
 
-
 web client. Uses urldispatch.aspx
-
-
-
-
-
 
 ## Query String Parameters
 
@@ -28,7 +22,6 @@ web client. Uses urldispatch.aspx
 ```http
 POST /api/v1/Agents/Configuration/GetWwwUrlForSMWeb?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -43,7 +36,6 @@ POST /api/v1/Agents/Configuration/GetWwwUrlForSMWeb?$select=name,department,cate
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-
 ## Response: string
 
 OK
@@ -53,7 +45,6 @@ OK
 | 200 | OK |
 
 Response body: string
-
 
 ## Sample request
 

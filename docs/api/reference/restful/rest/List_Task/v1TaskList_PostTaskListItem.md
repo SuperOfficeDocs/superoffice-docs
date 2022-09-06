@@ -11,14 +11,7 @@ POST /api/v1/List/Task/Items
 
 Create a new TaskListItem list item
 
-
 Calls the Appointment agent service SaveTaskListItem.
-
-
-
-
-
-
 
 ## Request Headers
 
@@ -34,9 +27,9 @@ Calls the Appointment agent service SaveTaskListItem.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: newEntity  
+## Request Body: newEntity
 
-The TaskListItem to be created. 
+The TaskListItem to be created.
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -54,8 +47,7 @@ The TaskListItem to be created.
 | ColorIndex | string | JAP |
 | DefaultVideomeetingStatus | string | Default video-meeting status for meetings created in SuperOffice CRM. |
 
-
-## Response: 
+## Response
 
 OK
 
@@ -63,7 +55,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+Response body:
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|

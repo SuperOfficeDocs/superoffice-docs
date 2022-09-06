@@ -11,12 +11,6 @@ POST /api/v1/Agents/Dashboard/CreateNewFromTemplate
 
 Create new tile from another tile used as template
 
-
-
-
-
-
-
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -26,7 +20,6 @@ Create new tile from another tile used as template
 ```http
 POST /api/v1/Agents/Dashboard/CreateNewFromTemplate?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -42,9 +35,9 @@ POST /api/v1/Agents/Dashboard/CreateNewFromTemplate?$select=name,department,cate
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request
 
-DashboardTileId, Caption, Description, SelectionId, VisibleFor 
+DashboardTileId, Caption, Description, SelectionId, VisibleFor
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -54,8 +47,7 @@ DashboardTileId, Caption, Description, SelectionId, VisibleFor
 | SelectionId | int32 |  |
 | VisibleFor | array |  |
 
-
-## Response: 
+## Response
 
 OK
 
@@ -63,7 +55,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+Response body:
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|

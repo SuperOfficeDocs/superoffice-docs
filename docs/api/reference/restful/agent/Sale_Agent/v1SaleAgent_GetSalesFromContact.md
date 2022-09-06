@@ -11,12 +11,6 @@ POST /api/v1/Agents/Sale/GetSalesFromContact
 
 Returns all sales for the contact provided.
 
-
-
-
-
-
-
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -26,7 +20,6 @@ Returns all sales for the contact provided.
 ```http
 POST /api/v1/Agents/Sale/GetSalesFromContact?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -42,15 +35,14 @@ POST /api/v1/Agents/Sale/GetSalesFromContact?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request
 
-ContactId, OnlyOpenSales 
+ContactId, OnlyOpenSales
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | ContactId | int32 |  |
 | OnlyOpenSales | bool |  |
-
 
 ## Response: array
 

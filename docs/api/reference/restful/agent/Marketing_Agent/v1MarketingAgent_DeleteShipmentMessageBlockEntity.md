@@ -11,12 +11,6 @@ POST /api/v1/Agents/Marketing/DeleteShipmentMessageBlockEntity
 
 Deletes the ShipmentMessageBlockEntity
 
-
-
-
-
-
-
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -27,7 +21,6 @@ Deletes the ShipmentMessageBlockEntity
 POST /api/v1/Agents/Marketing/DeleteShipmentMessageBlockEntity?ShipmentMessageBlockEntityId=235
 ```
 
-
 ## Request Headers
 
 | Parameter Name | Description |
@@ -37,8 +30,7 @@ POST /api/v1/Agents/Marketing/DeleteShipmentMessageBlockEntity?ShipmentMessageBl
 | Accept         | Content-type(s) you would like the response in:  |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-
-## Response: 
+## Response
 
 No Content
 
@@ -46,8 +38,7 @@ No Content
 |----------------|-------------|
 | 204 | No Content |
 
-Response body: 
-
+Response body:
 
 ## Sample request
 

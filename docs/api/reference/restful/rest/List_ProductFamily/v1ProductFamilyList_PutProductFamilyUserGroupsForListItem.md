@@ -11,18 +11,11 @@ PUT /api/v1/List/ProductFamily/Items/{itemId}/UserGroups
 
 Saves user groups visible for the ProductFamily list's item.
 
-
 Calls the List agent service SaveHeadingsForListItemFromListDefinition.
-
-
-
-
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | itemId | int32 | The ID of the item to save. **Required** |
-
-
 
 ## Request Headers
 
@@ -38,9 +31,9 @@ Calls the List agent service SaveHeadingsForListItemFromListDefinition.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entities  
+## Request Body: entities
 
-The headings to be saved. 
+The headings to be saved.
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -59,7 +52,6 @@ The headings to be saved.
 | StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
 | Hidden | bool | True if the ListItem is hidden |
 | FullName | string | The name of the ListItem in its context |
-
 
 ## Response: array
 

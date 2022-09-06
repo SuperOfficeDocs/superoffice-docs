@@ -11,13 +11,7 @@ POST /api/v1/Agents/Appointment/GenerateLead
 
 Adds a sales lead (task) to a contact in SuperOffice.
 
-
 If the contact or person is known, the sales lead is added to the current contact. If not, a new contact is created, with the associate with ownerIdForNewContact as responsible (Our Contact). A relation is created between the contact and the person submitting the lead. Based on wether the person the request is made for is found or not, the following happens: If the person is found, the person, person's contact and sales representative is returned. If neither the person nor the contact is found a new person and contact is created (if sufficient data is supplied), and the person, person's contact and sales representative is returned. If the contact and not the person is found a new person is created on this contact, and the contact, salesrep, and person is returned (if there was enough data to return the person). If more than one contact is found a list of contacts is returned.
-
-
-
-
-
 
 ## Query String Parameters
 
@@ -28,7 +22,6 @@ If the contact or person is known, the sales lead is added to the current contac
 ```http
 POST /api/v1/Agents/Appointment/GenerateLead?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -44,9 +37,9 @@ POST /api/v1/Agents/Appointment/GenerateLead?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request
 
-AssociateIdForNewContact, LeadDescription, Relation, RelationId, LeadContact, LeadPersonFirstname, LeadPersonLastname, LeadPersonEmail, LeadPhoneNumber, CreatorsContact, CreatorsFirstname, CreatorsLastname 
+AssociateIdForNewContact, LeadDescription, Relation, RelationId, LeadContact, LeadPersonFirstname, LeadPersonLastname, LeadPersonEmail, LeadPhoneNumber, CreatorsContact, CreatorsFirstname, CreatorsLastname
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -63,8 +56,7 @@ AssociateIdForNewContact, LeadDescription, Relation, RelationId, LeadContact, Le
 | CreatorsFirstname | string |  |
 | CreatorsLastname | string |  |
 
-
-## Response: 
+## Response
 
 OK
 
@@ -72,7 +64,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+Response body:
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|

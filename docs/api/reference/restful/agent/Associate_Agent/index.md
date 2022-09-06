@@ -7,15 +7,13 @@ title: Associate_Agent
 ```
 
 ---
+
 title: Associate_Agent
 ---
 
 ```http
 /api/v1/Associate/Agent
 ```
-
-
-
 
 * [POST Agents/Associate/GetAssociate](v1AssociateAgent_GetAssociate.md)
 
@@ -30,7 +28,6 @@ title: Associate_Agent
 * [POST Agents/Associate/GetAssociatesByGroup](v1AssociateAgent_GetAssociatesByGroup.md)
 
 * [POST Agents/Associate/LogOffWindowsUsers](v1AssociateAgent_LogOffWindowsUsers.md)
-
 
 * [POST Agents/Associate/GetAssociate](v1AssociateAgent_GetAssociate.md)
 

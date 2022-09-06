@@ -18,7 +18,6 @@ Update the criteria for this dynamic selection. Replaces existing criteria with 
 
 **Returns:** Criteria defining the selection result. NULL if this is not a dynamic selection.
 
-
 [WSDL file for Services84/Selection](../Services84-Selection.md)
 
 Obtain a ticket from the [Services84/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -124,7 +123,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-
 
 ## SetDynamicSelectionCriteria Response
 
@@ -238,4 +236,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

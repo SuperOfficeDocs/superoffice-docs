@@ -11,12 +11,6 @@ POST /api/v1/Agents/ForeignSystem/GetKeyByValue
 
 Get a foreignkey based on its name and value, that belongs to the specified device and application.
 
-
-
-
-
-
-
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -26,7 +20,6 @@ Get a foreignkey based on its name and value, that belongs to the specified devi
 ```http
 POST /api/v1/Agents/ForeignSystem/GetKeyByValue?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -42,9 +35,9 @@ POST /api/v1/Agents/ForeignSystem/GetKeyByValue?$select=name,department,category
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request
 
-ApplicationName, DeviceName, KeyName, KeyValue, TableName 
+ApplicationName, DeviceName, KeyName, KeyValue, TableName
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -54,8 +47,7 @@ ApplicationName, DeviceName, KeyName, KeyValue, TableName
 | KeyValue | string |  |
 | TableName | string |  |
 
-
-## Response: 
+## Response
 
 OK
 
@@ -63,7 +55,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+Response body:
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|

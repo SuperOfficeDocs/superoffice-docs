@@ -17,7 +17,6 @@ Gets a Satellite object.
 
 **Returns:** Satellite
 
-
 [WSDL file for Services85/Replication](../Services85-Replication.md)
 
 Obtain a ticket from the [Services85/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -49,7 +48,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-
 
 ## GetSatellite Response
 
@@ -186,4 +184,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

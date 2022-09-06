@@ -22,4 +22,3 @@ Download [WSDL file for Services88/AI](../Services88-AI.md) if you need to gener
 * [TrainCategoryGuesser](TrainCategoryGuesser.md)
 * [Translate](Translate.md)
 * [TranslateEntity](TranslateEntity.md)
-

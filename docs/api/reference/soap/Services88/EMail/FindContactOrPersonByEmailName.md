@@ -18,7 +18,6 @@ Implemented by the <see cref="M:SuperOffice.Services88.IEMailAgent.FindContactOr
 
 **Returns:** Contacts and persons matching emailaddress and name
 
-
 [WSDL file for Services88/EMail](../Services88-EMail.md)
 
 Obtain a ticket from the [Services88/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -52,7 +51,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
-
 ## FindContactOrPersonByEmailName Response
 
 ```xml
@@ -84,4 +82,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

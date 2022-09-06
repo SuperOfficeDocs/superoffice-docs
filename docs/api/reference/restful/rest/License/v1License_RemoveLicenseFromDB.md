@@ -11,18 +11,11 @@ DELETE /api/v1/License/{moduleOwner}
 
 Remove the license from a particular module owner from the database.
 
-
 It is not permitted to remove licenses from SuperOffice
-
-
-
-
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | moduleOwner | string | Name of the module owner to remove license from. **Required** |
-
-
 
 ## Request Headers
 
@@ -33,8 +26,7 @@ It is not permitted to remove licenses from SuperOffice
 | Accept         | Content-type(s) you would like the response in: `application/json`, `text/json`, `application/xml`, `text/xml`, `application/json-patch+json`, `application/merge-patch+json` |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-
-## Response: 
+## Response
 
 OK
 
@@ -42,7 +34,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+Response body:
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|

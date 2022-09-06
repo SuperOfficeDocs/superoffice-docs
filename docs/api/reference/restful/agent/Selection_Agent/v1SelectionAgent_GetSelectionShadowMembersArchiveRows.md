@@ -11,13 +11,7 @@ POST /api/v1/Agents/Selection/GetSelectionShadowMembersArchiveRows
 
 Get the list of members in this selection's shadow (i.
 
-
 e. the list of contacts + persons referenced in the main selection).
-
-
-
-
-
 
 ## Query String Parameters
 
@@ -28,7 +22,6 @@ e. the list of contacts + persons referenced in the main selection).
 ```http
 POST /api/v1/Agents/Selection/GetSelectionShadowMembersArchiveRows?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -44,15 +37,14 @@ POST /api/v1/Agents/Selection/GetSelectionShadowMembersArchiveRows?$select=name,
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request
 
-SelectionId, Select 
+SelectionId, Select
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | SelectionId | int32 |  |
 | Select | string |  |
-
 
 ## Response: array
 

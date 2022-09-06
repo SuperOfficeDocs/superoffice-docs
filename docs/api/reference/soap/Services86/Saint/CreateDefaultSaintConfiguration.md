@@ -14,9 +14,7 @@ Implemented by the <see cref="M:SuperOffice.Services86.ISaintAgent.CreateDefault
 Loading default values into a new SaintConfiguration.
 NetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance
 
-
 **Returns:** New SaintConfiguration with default values
-
 
 [WSDL file for Services86/Saint](../Services86-Saint.md)
 
@@ -49,7 +47,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
-
 ## CreateDefaultSaintConfiguration Response
 
 ```xml
@@ -79,4 +76,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

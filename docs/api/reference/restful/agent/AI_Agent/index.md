@@ -7,15 +7,13 @@ title: AI_Agent
 ```
 
 ---
+
 title: AI_Agent
 ---
 
 ```http
 /api/v1/AI/Agent
 ```
-
-
-
 
 * [POST Agents/AI/GetTrainingStatus](v1AIAgent_GetTrainingStatus.md)
 
@@ -28,7 +26,6 @@ title: AI_Agent
 * [POST Agents/AI/DetectSentiment](v1AIAgent_DetectSentiment.md)
 
 * [POST Agents/AI/Translate](v1AIAgent_Translate.md)
-
 
 * [POST Agents/AI/GetTrainingStatus](v1AIAgent_GetTrainingStatus.md)
 

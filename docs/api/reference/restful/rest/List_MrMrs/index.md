@@ -7,15 +7,13 @@ title: List_MrMrs
 ```
 
 ---
+
 title: List_MrMrs
 ---
 
 ```http
 /api/v1/List/MrMrs
 ```
-
-
-
 
 * [GET List/MrMrs](v1MrMrsList_GetListDefinition.md)
 
@@ -54,7 +52,6 @@ title: List_MrMrs
 * [PUT List/MrMrs/Items/{id}/Headings](v1MrMrsList_PutMrMrsHeadingsForListItem.md)
 
 * [GET List/MrMrs/MDOItems](v1MrMrsList_GetMDOList.md)
-
 
 * [GET List/MrMrs](v1MrMrsList_GetListDefinition.md)
 

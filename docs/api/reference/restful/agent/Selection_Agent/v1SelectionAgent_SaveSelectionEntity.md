@@ -11,13 +11,6 @@ POST /api/v1/Agents/Selection/SaveSelectionEntity
 
 Updates the existing SelectionEntity or creates a new SelectionEntity if the id parameter is empty
 
-
-
-
-
-
-
-
 ## Request Headers
 
 | Parameter Name | Description |
@@ -32,9 +25,9 @@ Updates the existing SelectionEntity or creates a new SelectionEntity if the id 
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entity  
+## Request Body: entity
 
-The SelectionEntity to be saved. 
+The SelectionEntity to be saved.
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -80,8 +73,7 @@ The SelectionEntity to be saved.
 | DashboardTileDefinitionId | int32 | The associated tile definition |
 | VisibleFor | array | The set of users or groups the record is visible for |
 
-
-## Response: 
+## Response
 
 OK
 
@@ -89,7 +81,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+Response body:
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|

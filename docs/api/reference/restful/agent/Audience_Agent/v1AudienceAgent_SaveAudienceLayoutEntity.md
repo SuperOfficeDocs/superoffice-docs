@@ -11,13 +11,6 @@ POST /api/v1/Agents/Audience/SaveAudienceLayoutEntity
 
 Updates the existing AudienceLayoutEntity or creates a new AudienceLayoutEntity if the id parameter is empty
 
-
-
-
-
-
-
-
 ## Request Headers
 
 | Parameter Name | Description |
@@ -32,9 +25,9 @@ Updates the existing AudienceLayoutEntity or creates a new AudienceLayoutEntity 
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entity  
+## Request Body: entity
 
-The AudienceLayoutEntity to be saved. 
+The AudienceLayoutEntity to be saved.
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -46,8 +39,7 @@ The AudienceLayoutEntity to be saved.
 | CreatedBy |  | Name of the person that created the Audience layout |
 | UpdatedBy |  | Name of the person that last updated the Audience layout |
 
-
-## Response: 
+## Response
 
 OK
 
@@ -55,7 +47,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+Response body:
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|

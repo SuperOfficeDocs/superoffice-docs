@@ -13,9 +13,6 @@ Implemented by the <see cref="M:SuperOffice.Services85.IEMailAgent.TestAuthentic
 
 Test if logged-in user has a working mail account
 
-
-
-
 [WSDL file for Services85/EMail](../Services85-EMail.md)
 
 Obtain a ticket from the [Services85/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -47,7 +44,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
-
 ## TestAuthenticate Response
 
 ```xml
@@ -68,4 +64,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

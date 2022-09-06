@@ -13,9 +13,7 @@ Implemented by the <see cref="M:SuperOffice.Services85.ITimeZoneAgent.TimeOfLast
 
 Get the time time zone data was last updated
 
-
 **Returns:** Time of last update
-
 
 [WSDL file for Services85/TimeZone](../Services85-TimeZone.md)
 
@@ -47,7 +45,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
-
 ## TimeOfLastTimeZoneUpdate Response
 
 ```xml
@@ -67,4 +64,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

@@ -7,15 +7,13 @@ title: Targets_Agent
 ```
 
 ---
+
 title: Targets_Agent
 ---
 
 ```http
 /api/v1/Targets/Agent
 ```
-
-
-
 
 * [POST Agents/Targets/CreateDefaultTargetAssignment](v1TargetsAgent_CreateDefaultTargetAssignment.md)
 
@@ -26,7 +24,6 @@ title: Targets_Agent
 * [POST Agents/Targets/DeleteTargetGroup](v1TargetsAgent_DeleteTargetGroup.md)
 
 * [POST Agents/Targets/GetTargetGroup](v1TargetsAgent_GetTargetGroup.md)
-
 
 * [POST Agents/Targets/CreateDefaultTargetAssignment](v1TargetsAgent_CreateDefaultTargetAssignment.md)
 

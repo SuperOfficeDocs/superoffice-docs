@@ -7,15 +7,13 @@ title: Appointment_Agent
 ```
 
 ---
+
 title: Appointment_Agent
 ---
 
 ```http
 /api/v1/Appointment/Agent
 ```
-
-
-
 
 * [POST Agents/Appointment/UpdateAppointment](v1AppointmentAgent_UpdateAppointment.md)
 
@@ -212,7 +210,6 @@ title: Appointment_Agent
 * [POST Agents/Appointment/CreateDefaultReOpenAppointment](v1AppointmentAgent_CreateDefaultReOpenAppointment.md)
 
 * [POST Agents/Appointment/CreateDefaultAppointmentEntityFromProjectSuggestion](v1AppointmentAgent_CreateDefaultAppointmentEntityFromProjectSuggestion.md)
-
 
 * [POST Agents/Appointment/GetProjectMemberAppointments](v1AppointmentAgent_GetProjectMemberAppointments.md)
 

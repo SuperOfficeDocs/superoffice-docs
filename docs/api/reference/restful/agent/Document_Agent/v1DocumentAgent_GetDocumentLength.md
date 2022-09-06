@@ -11,12 +11,6 @@ POST /api/v1/Agents/Document/GetDocumentLength
 
 Get length of the document content in bytes.
 
-
-
-
-
-
-
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -26,7 +20,6 @@ Get length of the document content in bytes.
 ```http
 POST /api/v1/Agents/Document/GetDocumentLength?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -42,15 +35,14 @@ POST /api/v1/Agents/Document/GetDocumentLength?$select=name,department,category/
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request
 
-DocumentId, VersionId 
+DocumentId, VersionId
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | DocumentId | int32 |  |
 | VersionId | string |  |
-
 
 ## Response: int64
 
@@ -61,7 +53,6 @@ OK
 | 200 | OK |
 
 Response body: int64
-
 
 ## Sample request
 

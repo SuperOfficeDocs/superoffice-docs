@@ -7,15 +7,13 @@ title: Dashboard
 ```
 
 ---
+
 title: Dashboard
 ---
 
 ```http
 /api/v1/Dashboard
 ```
-
-
-
 
 * [GET Dashboard/default](v1Dashboard_DefaultDashboard.md)
 
@@ -28,7 +26,6 @@ title: Dashboard
 * [DEL Dashboard/{id}](v1Dashboard_DeleteDashboard.md)
 
 * [PATCH Dashboard/{id}](v1Dashboard_PatchDashboard.md)
-
 
 * [GET Dashboard/default](v1Dashboard_DefaultDashboard.md)
 

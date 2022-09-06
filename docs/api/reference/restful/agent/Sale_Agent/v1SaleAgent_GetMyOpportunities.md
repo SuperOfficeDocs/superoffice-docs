@@ -11,12 +11,6 @@ POST /api/v1/Agents/Sale/GetMyOpportunities
 
 Returning the opportunities (open sales) belonging to the user currently logged on
 
-
-
-
-
-
-
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -26,7 +20,6 @@ Returning the opportunities (open sales) belonging to the user currently logged 
 ```http
 POST /api/v1/Agents/Sale/GetMyOpportunities?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -42,14 +35,13 @@ POST /api/v1/Agents/Sale/GetMyOpportunities?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request
 
-Count 
+Count
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | Count | int32 |  |
-
 
 ## Response: array
 

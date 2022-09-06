@@ -11,13 +11,7 @@ POST /api/v1/Agents/Sale/GetNextDueDate
 
 Gets the next due date for a sale.
 
-
 The next due date is the next future appointment that is not completed.
-
-
-
-
-
 
 ## Query String Parameters
 
@@ -28,7 +22,6 @@ The next due date is the next future appointment that is not completed.
 ```http
 POST /api/v1/Agents/Sale/GetNextDueDate?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -44,14 +37,13 @@ POST /api/v1/Agents/Sale/GetNextDueDate?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request
 
-SaleId 
+SaleId
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | SaleId | int32 |  |
-
 
 ## Response: date-time
 
@@ -62,7 +54,6 @@ OK
 | 200 | OK |
 
 Response body: date-time
-
 
 ## Sample request
 

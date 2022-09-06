@@ -15,8 +15,6 @@ Deletes projectmembers rows.
 
 * **projectMemberIds:** An Array of projectmember ids.
 
-
-
 [WSDL file for Services86/Project](../Services86-Project.md)
 
 Obtain a ticket from the [Services86/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -51,7 +49,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
-
 ## DeleteProjectMemberByIds Response
 
 ```xml
@@ -71,4 +68,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

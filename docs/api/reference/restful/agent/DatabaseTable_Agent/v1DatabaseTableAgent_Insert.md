@@ -11,13 +11,7 @@ POST /api/v1/Agents/DatabaseTable/Insert
 
 Mass-insert rows, with or without primary keys specified.
 
-
 Works on physical tables with no special processing for udef etc.; traveltransactionlog and WebHooks are supported
-
-
-
-
-
 
 ## Query String Parameters
 
@@ -28,7 +22,6 @@ Works on physical tables with no special processing for udef etc.; traveltransac
 ```http
 POST /api/v1/Agents/DatabaseTable/Insert?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -44,9 +37,9 @@ POST /api/v1/Agents/DatabaseTable/Insert?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request
 
-TableName, Columns, Data 
+TableName, Columns, Data
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -54,8 +47,7 @@ TableName, Columns, Data
 | Columns | array |  |
 | Data | array |  |
 
-
-## Response: 
+## Response
 
 OK
 
@@ -63,7 +55,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+Response body:
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|

@@ -7,15 +7,13 @@ title: Quote_Agent
 ```
 
 ---
+
 title: Quote_Agent
 ---
 
 ```http
 /api/v1/Quote/Agent
 ```
-
-
-
 
 * [POST Agents/Quote/GenerateQuoteDocuments](v1QuoteAgent_GenerateQuoteDocuments.md)
 
@@ -212,7 +210,6 @@ title: Quote_Agent
 * [POST Agents/Quote/GetAllPriceLists](v1QuoteAgent_GetAllPriceLists.md)
 
 * [POST Agents/Quote/GetAllPriceListsByCurrencyId](v1QuoteAgent_GetAllPriceListsByCurrencyId.md)
-
 
 * [POST Agents/Quote/DeleteQuoteLine](v1QuoteAgent_DeleteQuoteLine.md)
 

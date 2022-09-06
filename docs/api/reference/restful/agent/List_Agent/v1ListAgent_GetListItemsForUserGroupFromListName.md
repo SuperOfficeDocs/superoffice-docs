@@ -11,12 +11,6 @@ POST /api/v1/Agents/List/GetListItemsForUserGroupFromListName
 
 List of list items that is visible in the usergroup
 
-
-
-
-
-
-
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -26,7 +20,6 @@ List of list items that is visible in the usergroup
 ```http
 POST /api/v1/Agents/List/GetListItemsForUserGroupFromListName?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -42,15 +35,14 @@ POST /api/v1/Agents/List/GetListItemsForUserGroupFromListName?$select=name,depar
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request
 
-UdListDefinitionName, GroupId 
+UdListDefinitionName, GroupId
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | UdListDefinitionName | string |  |
 | GroupId | int32 |  |
-
 
 ## Response: array
 

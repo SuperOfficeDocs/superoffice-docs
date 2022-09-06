@@ -15,15 +15,11 @@ so.envir:
 ---
 
 # "visibleforassociate" MDO List
+
 List provider that returns a list suitable for VisibleFor and PinTo (with groups and possibly some other special items like All).
-
-
 
 Implemented by the <see cref="T:SuperOffice.CRM.Lists.VisibleForAssociateMDOProvider">VisibleForAssociateMDOProvider</see> class.
 The name of the MDO list is 'visibleforassociate'.
-
-
-
 
 ## Sample Request
 
@@ -36,6 +32,7 @@ Accept-Language: *
 ```
 
 ## Sample Code
+
 ```cs
 var listProvider = SuperOffice.CRM.Lists.SoListProviderFactory.Create("visibleforassociate", forceFlatList: true);
 foreach (var item in listProvider.RootItems) {
@@ -69,7 +66,6 @@ foreach (var item in listProvider.RootItems) {
 |86|Johan Jensen|||
 |87|Kjell Jensen|||
 |81|Listadm Listadm|||
-
 
 ## Related MDO Lists
 

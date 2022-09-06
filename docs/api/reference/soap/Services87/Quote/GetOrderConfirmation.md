@@ -18,7 +18,6 @@ Get a base64-encoded data stream that is just the order confirmation document, f
 
 **Returns:** Base64-encoded binary data, that is in fact a PDF document that should be shown to the user
 
-
 [WSDL file for Services87/Quote](../Services87-Quote.md)
 
 Obtain a ticket from the [Services87/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -52,7 +51,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
-
 ## GetOrderConfirmation Response
 
 ```xml
@@ -73,4 +71,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

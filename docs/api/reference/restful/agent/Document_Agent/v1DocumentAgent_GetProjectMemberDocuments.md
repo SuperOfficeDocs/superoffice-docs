@@ -11,13 +11,7 @@ POST /api/v1/Agents/Document/GetProjectMemberDocuments
 
 Method that returns a specified number of document appointments within a time range.
 
-
 The document appointments belong to the project member specified.
-
-
-
-
-
 
 ## Query String Parameters
 
@@ -28,7 +22,6 @@ The document appointments belong to the project member specified.
 ```http
 POST /api/v1/Agents/Document/GetProjectMemberDocuments?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -44,9 +37,9 @@ POST /api/v1/Agents/Document/GetProjectMemberDocuments?$select=name,department,c
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request
 
-PersonId, StartTime, EndTime, Count 
+PersonId, StartTime, EndTime, Count
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -54,7 +47,6 @@ PersonId, StartTime, EndTime, Count
 | StartTime | date-time |  |
 | EndTime | date-time |  |
 | Count | int32 |  |
-
 
 ## Response: array
 

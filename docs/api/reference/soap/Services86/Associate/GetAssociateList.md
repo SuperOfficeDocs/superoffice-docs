@@ -17,7 +17,6 @@ Gets an array of Associate objects.
 
 **Returns:** Array of Associate objects
 
-
 [WSDL file for Services86/Associate](../Services86-Associate.md)
 
 Obtain a ticket from the [Services86/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -51,7 +50,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-
 
 ## GetAssociateList Response
 
@@ -88,4 +86,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

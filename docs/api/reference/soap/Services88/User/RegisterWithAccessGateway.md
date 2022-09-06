@@ -16,8 +16,6 @@ Registers with access gateway if not already done, otherwise will attempt to upd
 
 * **redirectUri:** This is the registered redirect\_uri for AccessGateway OIDC.
 
-
-
 [WSDL file for Services88/User](../Services88-User.md)
 
 Obtain a ticket from the [Services88/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -50,7 +48,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
-
 ## RegisterWithAccessGateway Response
 
 ```xml
@@ -74,4 +71,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

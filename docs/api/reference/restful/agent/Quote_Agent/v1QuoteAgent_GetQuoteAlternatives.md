@@ -11,12 +11,6 @@ POST /api/v1/Agents/Quote/GetQuoteAlternatives
 
 Get all quote alternatives for a quote version
 
-
-
-
-
-
-
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -26,7 +20,6 @@ Get all quote alternatives for a quote version
 ```http
 POST /api/v1/Agents/Quote/GetQuoteAlternatives?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -42,14 +35,13 @@ POST /api/v1/Agents/Quote/GetQuoteAlternatives?$select=name,department,category/
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request
 
-QuoteVersionId 
+QuoteVersionId
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | QuoteVersionId | int32 |  |
-
 
 ## Response: array
 

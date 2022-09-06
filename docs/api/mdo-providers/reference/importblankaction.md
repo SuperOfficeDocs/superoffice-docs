@@ -15,15 +15,11 @@ so.envir:
 ---
 
 # "importblankaction" MDO List
+
 Import actions for blank values: Use Person Name, Skip
-
-
 
 Implemented by the <see cref="T:SuperOffice.CRM.Lists.ImportBlankActionProvider">ImportBlankActionProvider</see> class.
 The name of the MDO list is 'importblankaction'.
-
-
-
 
 ## Sample Request
 
@@ -36,6 +32,7 @@ Accept-Language: *
 ```
 
 ## Sample Code
+
 ```cs
 var listProvider = SuperOffice.CRM.Lists.SoListProviderFactory.Create("importblankaction", forceFlatList: true);
 foreach (var item in listProvider.RootItems) {
@@ -50,7 +47,6 @@ foreach (var item in listProvider.RootItems) {
 | --- | ----- | ------- | -------- |
 |1|Create company using contact name|||
 |2|Skip – do not create company or contact|||
-
 
 ## Related MDO Lists
 

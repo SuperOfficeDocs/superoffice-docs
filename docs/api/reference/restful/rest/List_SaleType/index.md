@@ -7,15 +7,13 @@ title: List_SaleType
 ```
 
 ---
+
 title: List_SaleType
 ---
 
 ```http
 /api/v1/List/SaleType
 ```
-
-
-
 
 * [GET List/SaleType](v1SaleTypeList_GetListDefinition.md)
 
@@ -50,7 +48,6 @@ title: List_SaleType
 * [PUT List/SaleType/Items/{id}/Headings](v1SaleTypeList_PutSaleTypeEntityHeadingsForListItem.md)
 
 * [GET List/SaleType/MDOItems](v1SaleTypeList_GetMDOList.md)
-
 
 * [GET List/SaleType](v1SaleTypeList_GetListDefinition.md)
 

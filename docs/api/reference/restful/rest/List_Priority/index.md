@@ -7,15 +7,13 @@ title: List_Priority
 ```
 
 ---
+
 title: List_Priority
 ---
 
 ```http
 /api/v1/List/Priority
 ```
-
-
-
 
 * [GET List/Priority](v1PriorityList_GetListDefinition.md)
 
@@ -54,7 +52,6 @@ title: List_Priority
 * [PUT List/Priority/Items/{id}/Headings](v1PriorityList_PutPriorityHeadingsForListItem.md)
 
 * [GET List/Priority/MDOItems](v1PriorityList_GetMDOList.md)
-
 
 * [GET List/Priority](v1PriorityList_GetListDefinition.md)
 

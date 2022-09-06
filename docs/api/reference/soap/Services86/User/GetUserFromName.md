@@ -18,7 +18,6 @@ Get a user, with lookup based on user name.
 
 **Returns:** User retrieved by name
 
-
 [WSDL file for Services86/User](../Services86-User.md)
 
 Obtain a ticket from the [Services86/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -50,7 +49,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-
 
 ## GetUserFromName Response
 
@@ -209,4 +207,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

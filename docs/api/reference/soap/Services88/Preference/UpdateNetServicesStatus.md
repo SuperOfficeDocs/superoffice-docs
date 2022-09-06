@@ -17,7 +17,6 @@ Update the NetServices preferences with values contained in the content from the
 
 **Returns:** This method has no return value
 
-
 [WSDL file for Services88/Preference](../Services88-Preference.md)
 
 Obtain a ticket from the [Services88/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -50,7 +49,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
-
 ## UpdateNetServicesStatus Response
 
 ```xml
@@ -70,4 +68,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

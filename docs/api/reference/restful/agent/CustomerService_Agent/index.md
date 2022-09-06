@@ -7,15 +7,13 @@ title: CustomerService_Agent
 ```
 
 ---
+
 title: CustomerService_Agent
 ---
 
 ```http
 /api/v1/CustomerService/Agent
 ```
-
-
-
 
 * [POST Agents/CustomerService/CreateDefaultCustomerCenterConfig](v1CustomerServiceAgent_CreateDefaultCustomerCenterConfig.md)
 
@@ -82,7 +80,6 @@ title: CustomerService_Agent
 * [POST Agents/CustomerService/AddMessageFromMailData](v1CustomerServiceAgent_AddMessageFromMailData.md)
 
 * [POST Agents/CustomerService/FindTicketsByTitleOrId](v1CustomerServiceAgent_FindTicketsByTitleOrId.md)
-
 
 * [POST Agents/CustomerService/CreateDefaultCustomerCenterConfig](v1CustomerServiceAgent_CreateDefaultCustomerCenterConfig.md)
 

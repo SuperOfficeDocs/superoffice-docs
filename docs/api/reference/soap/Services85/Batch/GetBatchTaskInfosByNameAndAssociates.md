@@ -18,7 +18,6 @@ Get an array of BatchTaskInfo for the provided associate id's and batch task def
 
 **Returns:** Returns an array of BatchTaskInfo.
 
-
 [WSDL file for Services85/Batch](../Services85-Batch.md)
 
 Obtain a ticket from the [Services85/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -53,7 +52,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-
 
 ## GetBatchTaskInfosByNameAndAssociates Response
 
@@ -103,4 +101,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

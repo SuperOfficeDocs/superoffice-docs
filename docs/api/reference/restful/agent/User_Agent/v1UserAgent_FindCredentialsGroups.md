@@ -11,16 +11,9 @@ POST /api/v1/Agents/User/FindCredentialsGroups
 
 Get user groups holding users filtered by the searchString.
 
-
 This method is only relevant if the CredentialType control is of type link.  There will allways be at least one groups even if the underlying provider does not support groups.
 
-
-## Online Restricted: ## The User agent is not available in Online by default. User management is not allowed for partner apps.
-
-
-
-
-
+## Online Restricted: ## The User agent is not available in Online by default. User management is not allowed for partner apps
 
 ## Query String Parameters
 
@@ -31,7 +24,6 @@ This method is only relevant if the CredentialType control is of type link.  The
 ```http
 POST /api/v1/Agents/User/FindCredentialsGroups?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -47,15 +39,14 @@ POST /api/v1/Agents/User/FindCredentialsGroups?$select=name,department,category/
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request
 
-Type, SearchString 
+Type, SearchString
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | Type | string |  |
 | SearchString | string |  |
-
 
 ## Response: array
 

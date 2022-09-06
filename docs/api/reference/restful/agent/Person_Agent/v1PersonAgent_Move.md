@@ -11,13 +11,7 @@ POST /api/v1/Agents/Person/Move
 
 Move a person to a specified contact.
 
-
 You must specify the date after which activities will be moved along with the person.
-
-
-
-
-
 
 ## Query String Parameters
 
@@ -29,7 +23,6 @@ You must specify the date after which activities will be moved along with the pe
 POST /api/v1/Agents/Person/Move?$select=name,department,category/id
 ```
 
-
 ## Request Headers
 
 | Parameter Name | Description |
@@ -40,9 +33,9 @@ POST /api/v1/Agents/Person/Move?$select=name,department,category/id
 | Accept         | Content-type(s) you would like the response in:  |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request
 
-PersonId, DestinationContactId, MoveAfterDate 
+PersonId, DestinationContactId, MoveAfterDate
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -50,8 +43,7 @@ PersonId, DestinationContactId, MoveAfterDate
 | DestinationContactId | int32 |  |
 | MoveAfterDate | date-time |  |
 
-
-## Response: 
+## Response
 
 No Content
 
@@ -59,8 +51,7 @@ No Content
 |----------------|-------------|
 | 204 | No Content |
 
-Response body: 
-
+Response body:
 
 ## Sample request
 

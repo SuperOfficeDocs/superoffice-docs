@@ -11,12 +11,6 @@ POST /api/v1/Agents/Batch/GetBatchTaskInfosByNameAndAssociates
 
 Get an array of BatchTaskInfo for the provided associate id's and batch task definition name.
 
-
-
-
-
-
-
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -26,7 +20,6 @@ Get an array of BatchTaskInfo for the provided associate id's and batch task def
 ```http
 POST /api/v1/Agents/Batch/GetBatchTaskInfosByNameAndAssociates?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -42,15 +35,14 @@ POST /api/v1/Agents/Batch/GetBatchTaskInfosByNameAndAssociates?$select=name,depa
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request
 
-Name, AssociateIds 
+Name, AssociateIds
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | Name | string |  |
 | AssociateIds | array |  |
-
 
 ## Response: array
 

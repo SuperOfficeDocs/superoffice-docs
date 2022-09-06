@@ -11,13 +11,7 @@ POST /api/v1/Agents/ViewState/SaveCurrents
 
 Saves the history elements as the current value for their respective lists.
 
-
 If more than one item is submitted for the same list, they are added sequently, meaning that the last one is the most current.
-
-
-
-
-
 
 ## Query String Parameters
 
@@ -28,7 +22,6 @@ If more than one item is submitted for the same list, they are added sequently, 
 ```http
 POST /api/v1/Agents/ViewState/SaveCurrents?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -44,14 +37,13 @@ POST /api/v1/Agents/ViewState/SaveCurrents?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request
 
-Currents 
+Currents
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | Currents | array |  |
-
 
 ## Response: array
 

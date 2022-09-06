@@ -7,15 +7,13 @@ title: Configuration_Agent
 ```
 
 ---
+
 title: Configuration_Agent
 ---
 
 ```http
 /api/v1/Configuration/Agent
 ```
-
-
-
 
 * [POST Agents/Configuration/GetWindowPosSizeList](v1ConfigurationAgent_GetWindowPosSizeList.md)
 
@@ -110,7 +108,6 @@ title: Configuration_Agent
 * [POST Agents/Configuration/SaveWindowPosSize](v1ConfigurationAgent_SaveWindowPosSize.md)
 
 * [POST Agents/Configuration/DeleteWindowPosSize](v1ConfigurationAgent_DeleteWindowPosSize.md)
-
 
 * [POST Agents/Configuration/CreateDefaultConfigurableScreenDelta](v1ConfigurationAgent_CreateDefaultConfigurableScreenDelta.md)
 

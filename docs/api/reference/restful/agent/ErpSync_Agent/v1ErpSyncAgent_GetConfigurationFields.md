@@ -11,15 +11,7 @@ POST /api/v1/Agents/ErpSync/GetConfigurationFields
 
 Returns all fields needed to connect to the given connector
 
-
-
-
-## Online Restricted: ## The ErpSync agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for ERP integration apps.
-
-
-
-
-
+## Online Restricted: ## The ErpSync agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for ERP integration apps
 
 ## Query String Parameters
 
@@ -30,7 +22,6 @@ Returns all fields needed to connect to the given connector
 ```http
 POST /api/v1/Agents/ErpSync/GetConfigurationFields?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -46,14 +37,13 @@ POST /api/v1/Agents/ErpSync/GetConfigurationFields?$select=name,department,categ
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request
 
-ErpConnectorId 
+ErpConnectorId
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | ErpConnectorId | int32 |  |
-
 
 ## Response: array
 

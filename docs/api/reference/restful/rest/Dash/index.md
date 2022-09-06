@@ -7,15 +7,13 @@ title: Dash
 ```
 
 ---
+
 title: Dash
 ---
 
 ```http
 /api/v1/Dash
 ```
-
-
-
 
 * [GET Dash/default](v1Dash_DefaultDash.md)
 
@@ -28,7 +26,6 @@ title: Dash
 * [DEL Dash/{id}](v1Dash_DeleteDash.md)
 
 * [PATCH Dash/{id}](v1Dash_PatchDash.md)
-
 
 * [GET Dash/default](v1Dash_DefaultDash.md)
 

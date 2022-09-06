@@ -11,14 +11,10 @@ Implemented by the <see cref="M:SuperOffice.Services84.IUserAgent.IsPasswordVali
 
 ## IsPasswordValidWithReason
 
-
-
-* **associateId:** 
-* **type:** 
-* **personId:** 
-* **password:** 
-
-
+* **associateId:**
+* **type:**
+* **personId:**
+* **password:**
 
 [WSDL file for Services84/User](../Services84-User.md)
 
@@ -55,7 +51,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
-
 ## IsPasswordValidWithReason Response
 
 ```xml
@@ -79,4 +74,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

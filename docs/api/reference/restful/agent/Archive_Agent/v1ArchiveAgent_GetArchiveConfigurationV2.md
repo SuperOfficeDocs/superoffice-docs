@@ -11,13 +11,7 @@ POST /api/v1/Agents/Archive/GetArchiveConfigurationV2
 
 Get the configuration for one archive.
 
-
 The configuration is keyed by a combination of archive provider name (plus optional context), gui name, and optional table binding. The archive provider name must match an archive provider plugin; the gui name is an arbitrary string used to distinguish multiple occurrences of the same underlying provider in a gui.
-
-
-
-
-
 
 ## Query String Parameters
 
@@ -28,7 +22,6 @@ The configuration is keyed by a combination of archive provider name (plus optio
 ```http
 POST /api/v1/Agents/Archive/GetArchiveConfigurationV2?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -44,9 +37,9 @@ POST /api/v1/Agents/Archive/GetArchiveConfigurationV2?$select=name,department,ca
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request
 
-GuiName, ProviderName, Context, OwnerKeys 
+GuiName, ProviderName, Context, OwnerKeys
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -55,8 +48,7 @@ GuiName, ProviderName, Context, OwnerKeys
 | Context | string |  |
 | OwnerKeys | string |  |
 
-
-## Response: 
+## Response
 
 OK
 
@@ -64,7 +56,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+Response body:
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|

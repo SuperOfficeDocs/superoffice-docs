@@ -17,7 +17,6 @@ Return the most recent error message received when calling this webhook.
 
 **Returns:** Error message, or empty string if no errors received
 
-
 [WSDL file for Services85/Webhook](../Services85-Webhook.md)
 
 Obtain a ticket from the [Services85/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -50,7 +49,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
-
 ## GetLastError Response
 
 ```xml
@@ -71,4 +69,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

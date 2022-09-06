@@ -7,15 +7,13 @@ title: List_TicketPriority
 ```
 
 ---
+
 title: List_TicketPriority
 ---
 
 ```http
 /api/v1/List/TicketPriority
 ```
-
-
-
 
 * [GET List/TicketPriority](v1TicketPriorityList_GetListDefinition.md)
 
@@ -40,7 +38,6 @@ title: List_TicketPriority
 * [POST List/TicketPriority/Headings](v1TicketPriorityList_PostTicketPriorityEntityHeading.md)
 
 * [DEL List/TicketPriority/Headings](v1TicketPriorityList_DeleteTicketPriorityEntityHeadings.md)
-
 
 * [GET List/TicketPriority](v1TicketPriorityList_GetListDefinition.md)
 

@@ -7,15 +7,13 @@ title: Diagnostics_Agent
 ```
 
 ---
+
 title: Diagnostics_Agent
 ---
 
 ```http
 /api/v1/Diagnostics/Agent
 ```
-
-
-
 
 * [POST Agents/Diagnostics/FlushCaches](v1DiagnosticsAgent_FlushCaches.md)
 
@@ -46,7 +44,6 @@ title: Diagnostics_Agent
 * [POST Agents/Diagnostics/WebAppUsageExistsInPeriod](v1DiagnosticsAgent_WebAppUsageExistsInPeriod.md)
 
 * [POST Agents/Diagnostics/GetWebAppUsagesForPeriod](v1DiagnosticsAgent_GetWebAppUsagesForPeriod.md)
-
 
 * [POST Agents/Diagnostics/FlushCaches](v1DiagnosticsAgent_FlushCaches.md)
 

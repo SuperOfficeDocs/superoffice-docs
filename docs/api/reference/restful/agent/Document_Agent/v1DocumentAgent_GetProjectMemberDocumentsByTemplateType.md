@@ -11,13 +11,7 @@ POST /api/v1/Agents/Document/GetProjectMemberDocumentsByTemplateType
 
 Method that returns a specified number of document appointments within a time range, filtered by document template type.
 
-
 The document appointments belong to the project member specified.
-
-
-
-
-
 
 ## Query String Parameters
 
@@ -28,7 +22,6 @@ The document appointments belong to the project member specified.
 ```http
 POST /api/v1/Agents/Document/GetProjectMemberDocumentsByTemplateType?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -44,9 +37,9 @@ POST /api/v1/Agents/Document/GetProjectMemberDocumentsByTemplateType?$select=nam
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request
 
-PersonId, StartTime, EndTime, Count, DocumentTemplateId 
+PersonId, StartTime, EndTime, Count, DocumentTemplateId
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -55,7 +48,6 @@ PersonId, StartTime, EndTime, Count, DocumentTemplateId
 | EndTime | date-time |  |
 | Count | int32 |  |
 | DocumentTemplateId | int32 |  |
-
 
 ## Response: array
 

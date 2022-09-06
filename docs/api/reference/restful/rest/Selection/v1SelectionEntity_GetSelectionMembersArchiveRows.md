@@ -11,17 +11,11 @@ GET /api/v1/Selection/{selectionId}/Members
 
 Get the list of members in this selection.
 
-
 The type of members depends on the target table of the selection.
-
-
-
-
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | selectionId | int32 | The selectionId we want selection members for. **Required** |
-
 
 ## Query String Parameters
 
@@ -37,7 +31,6 @@ GET /api/v1/Selection/{selectionId}/Members?$mode=FULL
 GET /api/v1/Selection/{selectionId}/Members?$format=JSON
 ```
 
-
 ## Request Headers
 
 | Parameter Name | Description |
@@ -51,8 +44,7 @@ GET /api/v1/Selection/{selectionId}/Members?$format=JSON
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-
-## Response: 
+## Response
 
 OK
 
@@ -60,7 +52,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+Response body:
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|

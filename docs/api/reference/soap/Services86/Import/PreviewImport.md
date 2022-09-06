@@ -20,7 +20,6 @@ Preview the import
 
 **Returns:** An array of the the rows that can be imported, manipulated according to Import rules given
 
-
 [WSDL file for Services86/Import](../Services86-Import.md)
 
 Obtain a ticket from the [Services86/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -68,7 +67,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
-
 ## PreviewImport Response
 
 ```xml
@@ -99,4 +97,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

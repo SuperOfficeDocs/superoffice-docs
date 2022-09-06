@@ -15,8 +15,6 @@ Verify that the requested document stream exists, and that we can access it, wit
 
 * **documentId:** The document id that refers to the binary data (document)
 
-
-
 [WSDL file for Services84/Document](../Services84-Document.md)
 
 Obtain a ticket from the [Services84/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -49,7 +47,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
-
 ## VerifyGetDocumentStream Response
 
 ```xml
@@ -69,4 +66,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

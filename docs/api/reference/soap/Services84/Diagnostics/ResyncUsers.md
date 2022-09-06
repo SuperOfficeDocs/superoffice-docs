@@ -13,9 +13,7 @@ Implemented by the <see cref="M:SuperOffice.Services84.IDiagnosticsAgent.ResyncU
 
 Resynchronize user information with SuperOffice Community, if opted-out then this call does nothing. The call returns immediately (starting a background thread), and updates CS scheduler table to set the next run time.
 
-
 **Returns:** This method has no return value
-
 
 [WSDL file for Services84/Diagnostics](../Services84-Diagnostics.md)
 
@@ -48,7 +46,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
-
 ## ResyncUsers Response
 
 ```xml
@@ -68,4 +65,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

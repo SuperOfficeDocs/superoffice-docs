@@ -17,7 +17,6 @@ Gets a Dashboard object.
 
 **Returns:** Dashboard
 
-
 [WSDL file for Services85/Dashboard](../Services85-Dashboard.md)
 
 Obtain a ticket from the [Services85/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -49,7 +48,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-
 
 ## GetDashboard Response
 
@@ -125,4 +123,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

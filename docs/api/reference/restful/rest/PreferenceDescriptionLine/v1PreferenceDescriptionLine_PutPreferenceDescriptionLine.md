@@ -11,15 +11,9 @@ PUT /api/v1/PreferenceDescriptionLine/{id}
 
 Updates the existing PreferenceDescriptionLine
 
-
-
-
-
-
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | id | int32 | The PreferenceDescriptionLine id to update. **Required** |
-
 
 ## Query String Parameters
 
@@ -30,7 +24,6 @@ Updates the existing PreferenceDescriptionLine
 ```http
 PUT /api/v1/PreferenceDescriptionLine/{id}?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -46,9 +39,9 @@ PUT /api/v1/PreferenceDescriptionLine/{id}?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entity  
+## Request Body: entity
 
-The PreferenceDescriptionLine to be saved. 
+The PreferenceDescriptionLine to be saved.
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -59,8 +52,7 @@ The PreferenceDescriptionLine to be saved.
 | Description | string | Description of preference value, multi-language parsed |
 | IsBuiltin | bool | 1 = This row populated and maintained by SuperOffice |
 
-
-## Response: 
+## Response
 
 PreferenceDescriptionLine updated.
 
@@ -69,7 +61,7 @@ PreferenceDescriptionLine updated.
 | 200 | PreferenceDescriptionLine updated. |
 | 400 | Bad request. Entity to save is not in request body. |
 
-Response body: 
+Response body:
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|

@@ -11,18 +11,11 @@ DELETE /api/v1/List/TicketCategory/Items/{id}
 
 Marks the existing TicketCategoryEntity as deleted.
 
-
 Calls the List agent service SaveTicketCategoryEntity.
-
-
-
-
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | id | int32 | The id of TicketCategoryEntity to be marked as deleted. **Required** |
-
-
 
 ## Request Headers
 
@@ -33,8 +26,7 @@ Calls the List agent service SaveTicketCategoryEntity.
 | Accept         | Content-type(s) you would like the response in:  |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-
-## Response: 
+## Response
 
 No Content
 
@@ -42,8 +34,7 @@ No Content
 |----------------|-------------|
 | 204 | No Content |
 
-Response body: 
-
+Response body:
 
 ## Sample request
 

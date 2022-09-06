@@ -11,15 +11,9 @@ PUT /api/v1/DashTileDefinition/{id}
 
 Updates the existing DashTileDefinition
 
-
-
-
-
-
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | id | int32 | The DashTileDefinition id to update. **Required** |
-
 
 ## Query String Parameters
 
@@ -30,7 +24,6 @@ Updates the existing DashTileDefinition
 ```http
 PUT /api/v1/DashTileDefinition/{id}?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -46,9 +39,9 @@ PUT /api/v1/DashTileDefinition/{id}?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entity  
+## Request Body: entity
 
-The DashTileDefinition to be saved. 
+The DashTileDefinition to be saved.
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -72,8 +65,7 @@ The DashTileDefinition to be saved.
 | Usage | string | Where this tile can be used |
 | ProviderName | string | Name of provider to use with this entity type - read only property |
 
-
-## Response: 
+## Response
 
 DashTileDefinition updated.
 
@@ -82,7 +74,7 @@ DashTileDefinition updated.
 | 200 | DashTileDefinition updated. |
 | 400 | Bad request. Entity to save is not in request body. |
 
-Response body: 
+Response body:
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|

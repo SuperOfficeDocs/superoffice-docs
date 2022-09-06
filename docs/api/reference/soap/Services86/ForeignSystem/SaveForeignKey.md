@@ -20,7 +20,6 @@ Saves a key belonging to the ForeignApp and ForeignDevice specified.
 
 **Returns:** The new or updated ForeignKey
 
-
 [WSDL file for Services86/ForeignSystem](../Services86-ForeignSystem.md)
 
 Obtain a ticket from the [Services86/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -64,7 +63,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
-
 ## SaveForeignKey Response
 
 ```xml
@@ -93,4 +91,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-
