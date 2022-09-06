@@ -29,6 +29,10 @@ When working with quotes, data will often intersect with the following entities:
 * [project][5]
 * [sale][6]
 
+## Quote Connectors
+
+SuperOffice has a simple product and pricelist system built in, but using [quote connectors][7] you can access products and pricelists in other systems from inside SuperOffice.
+
 <!-- Referenced links -->
 [1]: ../document/index.yml
 [2]: ../diary/index.yml
@@ -36,3 +40,4 @@ When working with quotes, data will often intersect with the following entities:
 [4]: ../contact/index.yml
 [5]: ../project/index.yml
 [6]: ../sale/index.yml
+[7]: ../api/plugins/quote-connectors/index.md

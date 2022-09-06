@@ -6,9 +6,12 @@ author: {github-id}
 keywords:
 ---
 
-# Online quote connectors
+# Online Quote Connectors
 
 Quote connectors allow third parties to build a web service endpoint that supplies SuperOffice with product price-list and product details.
+
+* [Online REST Quote Connector API](REST%20Quote%20Connector%20API.md)
+* [Online SOAP Quote Connector API](SOAP%20Quote%20Connector%20API.md)
 
 Use the [SuperOffice.Crm.Online.IntegrationServices][1] package to build a quote connector for SuperOffice Online. This has two package dependencies:
 

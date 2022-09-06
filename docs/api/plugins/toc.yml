@@ -3,6 +3,110 @@ items:
   href: document/soarc-document-plugin.md
 - name: Quote Connector
   href: quote-connectors/index.md
+  items:
+  - name: Administration
+    items:
+    - name: Setting up
+      href: quote-connectors/set-up.md
+    - name: Edit quote connection
+      href: quote-connectors/edit-connection.md
+    - name: Error system
+      href: quote-connectors/error-system.md
+  - name: In use
+    href: quote-connectors/api/index.md
+    items:
+    - name: Starting up
+      href: quote-connectors/start-client.md
+    - name: Capabilities
+      href: quote-connectors/capability-names.md
+    - name: Create quote
+      href: quote-connectors/create-quote.md
+    - name: Add Products
+      href: quote-connectors/adding-products.md
+    - name: Find product
+      href: quote-connectors/find-product.md
+    - name: Calculate prices
+      href: quote-connectors/calc-price.md
+    - name: Discounts
+      href: quote-connectors/discounts.md
+    - name: Save quote
+      href: quote-connectors/save-quote.md
+    - name: Send quote
+      href: quote-connectors/send-quote.md
+    - name: Approve quote
+      href: quote-connectors/appove-quote.md
+    - name: Place order
+      href: quote-connectors/place-order.md
+    - name: Quote Addresses
+      href: quote-connectors/addresses.md
+  - name: API
+    items:
+    - name: Online SOAP API
+      href: quote-connectors/online-quote-connectors/index.md
+      items:
+      - name: REST Quote Connector
+        href: quote-connectors/online-quote-connectors/rest-quote-connector-api.md
+      - name: SOAP Quote Connector
+        href: quote-connectors/online-quote-connectors/soap-quote-connector-api.md
+    - name: .net on-site API
+      href: quote-connectors/api/index.md
+      items:
+      - name: IQuoteConnector
+        href: quote-connectors/api/iquoteconnector.md
+      - name: IQuoteConnector2
+        href: quote-connectors/api/iquoteconnector2.md
+      - name: IProductRegisterCache
+        href: quote-connectors/api/iproductregistercache.md
+      - name: Reason fields
+        href: quote-connectors/api/reason-fields.md
+      - name: Rights field
+        href: quote-connectors/api/rights-field.md
+      - name: IArchiveProvider
+        href: quote-connectors/api/iarchiveprovider.md
+      - name: QuoteConnectorBase
+        href: quote-connectors/api/quoteconnectorbase.md
+      - name: QuoteConnectorExtender
+        href: quote-connectors/api/quoteconnectorextender.md        
+    - name: Data Carrier definitions
+      href: quote-connectors/api/data-carriers/index.md
+      items:
+      - name: AddressInfo
+        href: quote-connectors/api/api/data-carriers/addressinfo.md
+      - name: ExtraDataFieldtypeInfo
+        href: quote-connectors/api/api/data-carriers/extradatafieldtypeinfo.md
+      - name: FieldMetadataInfo
+        href: quote-connectors/api/api/data-carriers/fieldmetadatainfo.md
+      - name: ISaleInfo
+        href: quote-connectors/api/api/data-carriers/isaleinfo.md
+      - name: OrderResponseInfo
+        href: quote-connectors/api/api/data-carriers/orderresponseinfo.md
+      - name: PlaceOrderResponseInfo
+        href: quote-connectors/api/api/data-carriers/placeorderresponseinfo.md
+      - name: PluginResponseInfo
+        href: quote-connectors/api/api/data-carriers/pluginresponseinfo.md
+      - name: PriceListInfo
+        href: quote-connectors/api/api/data-carriers/pricelistinfo.md
+      - name: ProductInfo
+        href: quote-connectors/api/api/data-carriers/productinfo.md
+      - name: QuoteAlternativeContextInfo
+        href: quote-connectors/api/api/data-carriers/quotealternativecontextinfo.md
+      - name: QuoteAlternativeInfo
+        href: quote-connectors/api/api/data-carriers/quotealternativeinfo.md
+      - name: QuoteAlternativeWithLinesInfo
+        href: quote-connectors/api/api/data-carriers/quotealternativewithlinesinfo.md
+      - name: QuoteConnectionInfo
+        href: quote-connectors/api/api/data-carriers/quoteconnectioninfo.md
+      - name: QuoteInfo
+        href: quote-connectors/api/api/data-carriers/quoteinfo.md
+  - name: Implementation guide
+    href: quote-connectors/implementation-guide.md
+  - name: Scenarios
+    href: quote-connectors/scenarios/index.md
+    items:
+    - name: Add product
+      href: quote-connectors/scenarios/add-product.md
+    - name: Customer specific product codes
+      href: quote-connectors/scenarios/customer-specific-product-codes.m
 - name: ERP Connector
   href: erp-connectors/index.md
   items:
@@ -17,14 +121,14 @@ items:
   - name: Architecture
     href: erp-connectors/architecture/index.md
     items:
-    - name: Sync Service
-      href: erp-connectors/architecture/sync-service.md
-    - name: SOAP Sync Service
-      href: erp-connectors/architecture/soap-service.md
-    - name: WCF Host
-      href: erp-connectors/architecture/wcf-host.md
-    - name: Multi-hosting
-      href: erp-connectors/architecture/wcf-host.md#multi-hosting
+      - name: Sync Service
+        href: erp-connectors/architecture/sync-service.md
+      - name: SOAP Sync Service
+        href: erp-connectors/architecture/soap-service.md
+      - name: WCF Host
+        href: erp-connectors/architecture/wcf-host.md
+      - name: Multi-hosting
+        href: erp-connectors/architecture/wcf-host.md#multi-hosting
   - name: Working with ERP Sync onsite
     href: erp-connectors/getting-started.md
     items:
