@@ -11,12 +11,6 @@ POST /api/v1/Agents/Audience/GetConfigParameterValue
 
 Gets the string value of an Audience configuration parameter belonging to a given Audience layout with the specified configuration parameter name
 
-
-
-
-
-
-
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -26,7 +20,6 @@ Gets the string value of an Audience configuration parameter belonging to a give
 ```http
 POST /api/v1/Agents/Audience/GetConfigParameterValue?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -42,15 +35,14 @@ POST /api/v1/Agents/Audience/GetConfigParameterValue?$select=name,department,cat
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request
 
-LayoutName, ParameterName 
+LayoutName, ParameterName
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | LayoutName | string |  |
 | ParameterName | string |  |
-
 
 ## Response: string
 
@@ -61,7 +53,6 @@ OK
 | 200 | OK |
 
 Response body: string
-
 
 ## Sample request
 

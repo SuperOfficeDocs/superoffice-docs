@@ -11,11 +11,7 @@ Implemented by the <see cref="M:SuperOffice.Services88.IDocumentAgent.CreateDefa
 
 ## CreateDefaultDocumentEntityFromSuggestion
 
-
-
-* **suggestedDocumentId:** 
-
-
+* **suggestedDocumentId:**
 
 [WSDL file for Services88/Document](../Services88-Document.md)
 
@@ -48,7 +44,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-
 
 ## CreateDefaultDocumentEntityFromSuggestion Response
 
@@ -332,4 +327,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

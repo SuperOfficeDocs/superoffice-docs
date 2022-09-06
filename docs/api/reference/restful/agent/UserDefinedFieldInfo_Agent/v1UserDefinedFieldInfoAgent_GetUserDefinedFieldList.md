@@ -11,13 +11,7 @@ POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedFieldList
 
 Return information about all the user defined fields on a particular owner type (project, contact, person, etc).
 
-
 Note this may be different than the currently published fields.
-
-
-
-
-
 
 ## Query String Parameters
 
@@ -28,7 +22,6 @@ Note this may be different than the currently published fields.
 ```http
 POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedFieldList?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -44,14 +37,13 @@ POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedFieldList?$select=name,de
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request
 
-OwnerType 
+OwnerType
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | OwnerType | string |  |
-
 
 ## Response: array
 

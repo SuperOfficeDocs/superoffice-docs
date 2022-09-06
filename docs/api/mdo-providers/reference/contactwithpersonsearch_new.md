@@ -15,6 +15,7 @@ so.envir:
 ---
 
 # "contactwithpersonsearch_new" MDO List
+
 Provider for selecting a Contact, including search on persons that match as well as contacts. this provider will
 return a mix of contact and person records. The type is indicated in the Type property of the item, and the contact
 ID is always in the extraInfo.
@@ -38,9 +39,6 @@ Stopped contacts are marked with stylehint = "stop" (but item.deleted = false)
 Implemented by the <see cref="T:SuperOffice.CRM.Lists.ContactListWithPersonSearchProvider">ContactListWithPersonSearchProvider</see> class.
 The name of the MDO list is 'contactwithpersonsearch_new'.
 
-
-
-
 ## Sample Request
 
 ```http!
@@ -52,6 +50,7 @@ Accept-Language: *
 ```
 
 ## Sample Code
+
 ```cs
 var listProvider = SuperOffice.CRM.Lists.SoListProviderFactory.Create("contactwithpersonsearch_new", forceFlatList: true);
 foreach (var item in listProvider.RootItems) {
@@ -85,7 +84,6 @@ foreach (var item in listProvider.RootItems) {
 |20|Illinoise Market Fare INC, IAvdeling||20|
 |21|Jensen Madrasser, JAvdeling||21|
 |22|Juul & Hansen AS, JAvdeling||22|
-
 
 ## Related MDO Lists
 

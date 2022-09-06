@@ -11,22 +11,14 @@ POST /api/v1/Webhook/{eventName}/{primaryKey}
 
 Signal webhooks that an event has occurred.
 
-
 All webhooks listening for the event will be notified.
 
-
-## Online Restricted: ## The Webhook agent is not available in Online by default. Access must be requested specifically when app is registered.
-
-
-
-
+## Online Restricted: ## The Webhook agent is not available in Online by default. Access must be requested specifically when app is registered
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | eventName | string | Name of event to fire. 'entity.verb' For example: 'window.closed', 'button.clicked'. **Required** |
 | primaryKey | int32 | (Optional) Id of entity that is firing event. Can be 0 if not used. **Required** |
-
-
 
 ## Request Headers
 
@@ -38,13 +30,11 @@ All webhooks listening for the event will be notified.
 | Accept         | Content-type(s) you would like the response in:  |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: data  
+## Request Body: data
 
-Event data. Not all the data values may be posted to the webhook, depending in webhook type: { 'windowName': 'foo', 'widgets': 123 } 
+Event data. Not all the data values may be posted to the webhook, depending in webhook type: { 'windowName': 'foo', 'widgets': 123 }
 
-
-
-## Response: 
+## Response
 
 No Content
 
@@ -52,8 +42,7 @@ No Content
 |----------------|-------------|
 | 204 | No Content |
 
-Response body: 
-
+Response body:
 
 ## Sample request
 

@@ -13,9 +13,7 @@ Implemented by the <see cref="M:SuperOffice.Services85.IDiagnosticsAgent.GetCach
 
 Get the name of the caches that can be flushed
 
-
 **Returns:** Name of the caches that can be flusehd
-
 
 [WSDL file for Services85/Diagnostics](../Services85-Diagnostics.md)
 
@@ -48,7 +46,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
-
 ## GetCacheNames Response
 
 ```xml
@@ -71,4 +68,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

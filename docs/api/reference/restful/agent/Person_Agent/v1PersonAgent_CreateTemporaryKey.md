@@ -11,13 +11,7 @@ POST /api/v1/Agents/Person/CreateTemporaryKey
 
 Create a temporary key in the database from the given parameters and return the key string.
 
-
 Used for temporary keys for accessing customer centric functionality, such as UpdateSubscriptions.
-
-
-
-
-
 
 ## Query String Parameters
 
@@ -28,7 +22,6 @@ Used for temporary keys for accessing customer centric functionality, such as Up
 ```http
 POST /api/v1/Agents/Person/CreateTemporaryKey?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -44,9 +37,9 @@ POST /api/v1/Agents/Person/CreateTemporaryKey?$select=name,department,category/i
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request
 
-Domain, TargetId, PersonId, Expires 
+Domain, TargetId, PersonId, Expires
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -54,7 +47,6 @@ Domain, TargetId, PersonId, Expires
 | TargetId | int32 |  |
 | PersonId | int32 |  |
 | Expires | date-time |  |
-
 
 ## Response: string
 
@@ -65,7 +57,6 @@ OK
 | 200 | OK |
 
 Response body: string
-
 
 ## Sample request
 

@@ -11,16 +11,9 @@ GET /api/v1/TicketMessage/{id}/ForeignKey
 
 Foreign keys on the TicketMessageEntity.
 
-
-
-
-
-
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | id | int32 | TicketMessageEntity id/primary key. **Required** |
-
-
 
 ## Request Headers
 
@@ -35,7 +28,6 @@ Foreign keys on the TicketMessageEntity.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-
 ## Response: object
 
 OK
@@ -46,7 +38,6 @@ OK
 | 404 | Not Found. |
 
 Response body: object
-
 
 ## Sample request
 

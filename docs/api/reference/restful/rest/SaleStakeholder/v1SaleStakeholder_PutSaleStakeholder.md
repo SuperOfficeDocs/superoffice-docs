@@ -11,15 +11,9 @@ PUT /api/v1/SaleStakeholder/{id}
 
 Updates the existing SaleStakeholder
 
-
-
-
-
-
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | id | int32 | The SaleStakeholder id to update. **Required** |
-
 
 ## Query String Parameters
 
@@ -30,7 +24,6 @@ Updates the existing SaleStakeholder
 ```http
 PUT /api/v1/SaleStakeholder/{id}?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -46,9 +39,9 @@ PUT /api/v1/SaleStakeholder/{id}?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entity  
+## Request Body: entity
 
-The SaleStakeholder to be saved. 
+The SaleStakeholder to be saved.
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -72,8 +65,7 @@ The SaleStakeholder to be saved.
 | Rank | int32 | Rank in list of stakeholders |
 | Phone | string | Phone number |
 
-
-## Response: 
+## Response
 
 SaleStakeholder updated.
 
@@ -82,7 +74,7 @@ SaleStakeholder updated.
 | 200 | SaleStakeholder updated. |
 | 400 | Bad request. Entity to save is not in request body. |
 
-Response body: 
+Response body:
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|

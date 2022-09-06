@@ -11,15 +11,7 @@ POST /api/v1/Agents/DocumentMigration/GetForDateRange
 
 Gets a migration summary for documents in the provided date-rage
 
-
-
-
-## Online Restricted: ## The DocumentMigration agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for SuperOffice-internal apps.
-
-
-
-
-
+## Online Restricted: ## The DocumentMigration agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for SuperOffice-internal apps
 
 ## Query String Parameters
 
@@ -30,7 +22,6 @@ Gets a migration summary for documents in the provided date-rage
 ```http
 POST /api/v1/Agents/DocumentMigration/GetForDateRange?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -46,9 +37,9 @@ POST /api/v1/Agents/DocumentMigration/GetForDateRange?$select=name,department,ca
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request
 
-DocumentPluginId, MinDate, MaxDate, IncludeEmails 
+DocumentPluginId, MinDate, MaxDate, IncludeEmails
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -57,8 +48,7 @@ DocumentPluginId, MinDate, MaxDate, IncludeEmails
 | MaxDate | date-time |  |
 | IncludeEmails | bool |  |
 
-
-## Response: 
+## Response
 
 OK
 
@@ -66,7 +56,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+Response body:
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|

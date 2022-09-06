@@ -18,7 +18,6 @@ Translate a text from one language to another. Language of the text is automatic
 
 **Returns:** Translated text
 
-
 [WSDL file for Services88/AI](../Services88-AI.md)
 
 Obtain a ticket from the [Services88/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -51,7 +50,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
-
 ## Translate Response
 
 ```xml
@@ -71,4 +69,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

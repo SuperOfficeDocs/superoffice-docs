@@ -11,12 +11,6 @@ POST /api/v1/Agents/ViewState/DeleteHistory
 
 Deletes the history element
 
-
-
-
-
-
-
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -26,7 +20,6 @@ Deletes the history element
 ```http
 POST /api/v1/Agents/ViewState/DeleteHistory?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -38,17 +31,16 @@ POST /api/v1/Agents/ViewState/DeleteHistory?$select=name,department,category/id
 | Accept         | Content-type(s) you would like the response in:  |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request
 
-HistoryName, Id 
+HistoryName, Id
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | HistoryName | string |  |
 | Id | int32 |  |
 
-
-## Response: 
+## Response
 
 No Content
 
@@ -56,8 +48,7 @@ No Content
 |----------------|-------------|
 | 204 | No Content |
 
-Response body: 
-
+Response body:
 
 ## Sample request
 

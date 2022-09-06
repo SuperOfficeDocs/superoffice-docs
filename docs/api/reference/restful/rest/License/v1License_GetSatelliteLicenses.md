@@ -11,16 +11,9 @@ GET /api/v1/License/Site/{satelliteId}
 
 Obtain information about satellite module licenses
 
-
-
-
-
-
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | satelliteId | int32 | Satellite id to check for satellite module licenses **Required** |
-
-
 
 ## Request Headers
 
@@ -34,7 +27,6 @@ Obtain information about satellite module licenses
 | SO-Culture | Number, date formatting in a specified culture (iso2 language) code. Partially overrides SO-Language/Accept-Language value. Ignored if no Language set. |
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
-
 
 ## Response: array
 

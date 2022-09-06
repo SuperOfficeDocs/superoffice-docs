@@ -14,9 +14,7 @@ Implemented by the <see cref="M:SuperOffice.Services84.IProjectAgent.CreateDefau
 Loading default values into a new ProjectEventEntity.
 NetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance
 
-
 **Returns:** New ProjectEventEntity with default values
-
 
 [WSDL file for Services84/Project](../Services84-Project.md)
 
@@ -48,7 +46,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-
 
 ## CreateDefaultProjectEventEntity Response
 
@@ -215,4 +212,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

@@ -7,15 +7,13 @@ title: Chat_Agent
 ```
 
 ---
+
 title: Chat_Agent
 ---
 
 ```http
 /api/v1/Chat/Agent
 ```
-
-
-
 
 * [POST Agents/Chat/CreateDefaultChatSessionEntity](v1ChatAgent_CreateDefaultChatSessionEntity.md)
 
@@ -78,7 +76,6 @@ title: Chat_Agent
 * [POST Agents/Chat/DeleteChatTopicUserAgent](v1ChatAgent_DeleteChatTopicUserAgent.md)
 
 * [POST Agents/Chat/CreateChatSessionForTopic](v1ChatAgent_CreateChatSessionForTopic.md)
-
 
 * [POST Agents/Chat/CreateDefaultChatSessionEntity](v1ChatAgent_CreateDefaultChatSessionEntity.md)
 

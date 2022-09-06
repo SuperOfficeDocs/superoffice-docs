@@ -11,13 +11,7 @@ POST /api/v1/Agents/Quote/GetQuoteVersionWorkflowState
 
 Get all button states for the Quote version dialog.
 
-
 Packages ImageState, Button states and status info into one call. Collects most important warnings/errors from across all quotelines/alternatives in this quote version.
-
-
-
-
-
 
 ## Query String Parameters
 
@@ -28,7 +22,6 @@ Packages ImageState, Button states and status info into one call. Collects most 
 ```http
 POST /api/v1/Agents/Quote/GetQuoteVersionWorkflowState?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -44,17 +37,16 @@ POST /api/v1/Agents/Quote/GetQuoteVersionWorkflowState?$select=name,department,c
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request
 
-QuoteVersionId, QuoteAlternativeId 
+QuoteVersionId, QuoteAlternativeId
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | QuoteVersionId | int32 |  |
 | QuoteAlternativeId | int32 |  |
 
-
-## Response: 
+## Response
 
 OK
 
@@ -62,7 +54,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+Response body:
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|

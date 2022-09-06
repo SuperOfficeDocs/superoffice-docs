@@ -19,7 +19,6 @@ The category guesser training API will be called with an array of Categorization
 
 **Returns:** Placeholder for result...  should this be a BatchTaskId?  maybe not useful?
 
-
 [WSDL file for Services88/AI](../Services88-AI.md)
 
 Obtain a ticket from the [Services88/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -53,7 +52,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
-
 ## TrainCategoryGuesser Response
 
 ```xml
@@ -73,4 +71,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

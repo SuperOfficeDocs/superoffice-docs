@@ -17,7 +17,6 @@ Save a QuoteLineConfiguration object. It is not possible to add a new configurat
 
 **Returns:** The saved QuoteLineConfiguration.
 
-
 [WSDL file for Services86/Quote](../Services86-Quote.md)
 
 Obtain a ticket from the [Services86/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -60,7 +59,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
-
 ## SaveQuoteLineConfiguration Response
 
 ```xml
@@ -91,4 +89,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

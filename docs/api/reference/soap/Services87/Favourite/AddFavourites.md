@@ -14,11 +14,9 @@ Implemented by the <see cref="M:SuperOffice.Services87.IFavouriteAgent.AddFavour
 Add a list of record ids as favourites for an associate
 
 * **tableName:** Table name, transformed to and from numeric table id by the service layer.
-* **recordIds:** 
-* **associateId:** 
-* **extraInfo:** 
-
-
+* **recordIds:**
+* **associateId:**
+* **extraInfo:**
 
 [WSDL file for Services87/Favourite](../Services87-Favourite.md)
 
@@ -57,7 +55,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
-
 ## AddFavourites Response
 
 ```xml
@@ -77,4 +74,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

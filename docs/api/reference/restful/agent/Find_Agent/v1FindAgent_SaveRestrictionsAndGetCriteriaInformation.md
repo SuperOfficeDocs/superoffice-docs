@@ -11,13 +11,7 @@ POST /api/v1/Agents/Find/SaveRestrictionsAndGetCriteriaInformation
 
 Save an array of restrictions for later use as search criteria (including as dynamic selection and Find).
 
-
 Then, return the same result as a call to GetCriteriaInformation would have done. The purpose is to encapsulate saving and updating of a GUI in one round trip.
-
-
-
-
-
 
 ## Query String Parameters
 
@@ -28,7 +22,6 @@ Then, return the same result as a call to GetCriteriaInformation would have done
 ```http
 POST /api/v1/Agents/Find/SaveRestrictionsAndGetCriteriaInformation?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -44,9 +37,9 @@ POST /api/v1/Agents/Find/SaveRestrictionsAndGetCriteriaInformation?$select=name,
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request
 
-StorageType, ProviderName, StorageKey, Restrictions, StaticColumns 
+StorageType, ProviderName, StorageKey, Restrictions, StaticColumns
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -56,8 +49,7 @@ StorageType, ProviderName, StorageKey, Restrictions, StaticColumns
 | Restrictions | array |  |
 | StaticColumns | array |  |
 
-
-## Response: 
+## Response
 
 OK
 
@@ -65,7 +57,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+Response body:
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|

@@ -15,8 +15,6 @@ Get all persons and contacts with the given email address
 
 * **emailAddress:** The emailAddress to find persons and contacts fors
 
-
-
 [WSDL file for Services85/EMail](../Services85-EMail.md)
 
 Obtain a ticket from the [Services85/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -48,7 +46,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-
 
 ## GetPersonEntitiesFromEmailAddress Response
 
@@ -461,4 +458,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

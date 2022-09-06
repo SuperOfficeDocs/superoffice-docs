@@ -11,13 +11,7 @@ POST /api/v1/Agents/Contact/GetMyBizCard
 
 Returns all data needed to display the logged on person's business card.
 
-
 That is company, person, and company interest data.
-
-
-
-
-
 
 ## Query String Parameters
 
@@ -28,7 +22,6 @@ That is company, person, and company interest data.
 ```http
 POST /api/v1/Agents/Contact/GetMyBizCard?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -43,8 +36,7 @@ POST /api/v1/Agents/Contact/GetMyBizCard?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-
-## Response: 
+## Response
 
 OK
 
@@ -52,7 +44,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+Response body:
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|

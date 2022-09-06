@@ -11,12 +11,8 @@ Implemented by the <see cref="M:SuperOffice.Services88.IAudienceAgent.SetLogoIma
 
 ## SetLogoImage
 
-
-
-* **layoutName:** 
-* **image:** 
-
-
+* **layoutName:**
+* **image:**
 
 [WSDL file for Services88/Audience](../Services88-Audience.md)
 
@@ -50,7 +46,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
-
 ## SetLogoImage Response
 
 ```xml
@@ -69,4 +64,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

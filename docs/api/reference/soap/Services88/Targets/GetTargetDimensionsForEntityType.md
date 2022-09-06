@@ -17,7 +17,6 @@ Returns the target dimensions for the given entity type.
 
 **Returns:** Target dimensions for year and entity type.
 
-
 [WSDL file for Services88/Targets](../Services88-Targets.md)
 
 Obtain a ticket from the [Services88/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -49,7 +48,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-
 
 ## GetTargetDimensionsForEntityType Response
 
@@ -83,4 +81,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

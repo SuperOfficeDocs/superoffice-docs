@@ -7,15 +7,13 @@ title: Batch_Agent
 ```
 
 ---
+
 title: Batch_Agent
 ---
 
 ```http
 /api/v1/Batch/Agent
 ```
-
-
-
 
 * [POST Agents/Batch/GetBatchTaskInfo](v1BatchAgent_GetBatchTaskInfo.md)
 
@@ -38,7 +36,6 @@ title: Batch_Agent
 * [POST Agents/Batch/DeleteBatchTasks](v1BatchAgent_DeleteBatchTasks.md)
 
 * [POST Agents/Batch/DeleteBatchTask](v1BatchAgent_DeleteBatchTask.md)
-
 
 * [POST Agents/Batch/GetBatchTaskInfo](v1BatchAgent_GetBatchTaskInfo.md)
 

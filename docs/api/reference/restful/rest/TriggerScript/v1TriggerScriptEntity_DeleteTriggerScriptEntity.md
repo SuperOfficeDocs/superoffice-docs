@@ -11,20 +11,11 @@ DELETE /api/v1/TriggerScript/{id}
 
 Deletes the TriggerScriptEntity
 
-
-
-
-## Online Restricted: ## The CRMScript agent is not available in Online by default. Access must be requested specifically when app is registered. Calls the CRMScript agent service DeleteTriggerScriptEntity.
-
-
-
-
+## Online Restricted: ## The CRMScript agent is not available in Online by default. Access must be requested specifically when app is registered. Calls the CRMScript agent service DeleteTriggerScriptEntity
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | id | int32 | The TriggerScriptEntity to be deleted. **Required** |
-
-
 
 ## Request Headers
 
@@ -35,8 +26,7 @@ Deletes the TriggerScriptEntity
 | Accept         | Content-type(s) you would like the response in:  |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-
-## Response: 
+## Response
 
 TriggerScriptEntity deleted.
 
@@ -44,8 +34,7 @@ TriggerScriptEntity deleted.
 |----------------|-------------|
 | 204 | TriggerScriptEntity deleted. |
 
-Response body: 
-
+Response body:
 
 ## Sample request
 

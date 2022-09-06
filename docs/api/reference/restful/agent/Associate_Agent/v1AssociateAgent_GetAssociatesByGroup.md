@@ -11,13 +11,7 @@ POST /api/v1/Agents/Associate/GetAssociatesByGroup
 
 Method that returns a array of associate , based on DiaryGroupType and groupId.
 
-
 The differernt types are, Userdefined, Usergroup and ResourceHeadings
-
-
-
-
-
 
 ## Query String Parameters
 
@@ -28,7 +22,6 @@ The differernt types are, Userdefined, Usergroup and ResourceHeadings
 ```http
 POST /api/v1/Agents/Associate/GetAssociatesByGroup?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -44,15 +37,14 @@ POST /api/v1/Agents/Associate/GetAssociatesByGroup?$select=name,department,categ
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request
 
-GroupId, Type 
+GroupId, Type
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | GroupId | int32 |  |
 | Type | int32 |  |
-
 
 ## Response: array
 

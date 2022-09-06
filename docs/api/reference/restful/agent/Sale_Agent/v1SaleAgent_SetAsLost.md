@@ -11,13 +11,7 @@ POST /api/v1/Agents/Sale/SetAsLost
 
 Change the status of one or more sales to Lost.
 
-
 Note that this does not affect the Completed state of the sale.
-
-
-
-
-
 
 ## Query String Parameters
 
@@ -29,7 +23,6 @@ Note that this does not affect the Completed state of the sale.
 POST /api/v1/Agents/Sale/SetAsLost?$select=name,department,category/id
 ```
 
-
 ## Request Headers
 
 | Parameter Name | Description |
@@ -40,16 +33,15 @@ POST /api/v1/Agents/Sale/SetAsLost?$select=name,department,category/id
 | Accept         | Content-type(s) you would like the response in:  |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request
 
-SaleIds 
+SaleIds
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | SaleIds | array |  |
 
-
-## Response: 
+## Response
 
 No Content
 
@@ -57,8 +49,7 @@ No Content
 |----------------|-------------|
 | 204 | No Content |
 
-Response body: 
-
+Response body:
 
 ## Sample request
 

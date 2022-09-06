@@ -6,9 +6,6 @@ title: DocumentMigration_Agent
 /api/v1/DocumentMigration/Agent
 ```
 
-
-
-
 * [POST Agents/DocumentMigration/CreateDefaultDocumentMigrationItemList](v1DocumentMigrationAgent_CreateDefaultDocumentMigrationItemList.md)
 
 * [POST Agents/DocumentMigration/CreateDefaultDocumentTemplateMigrationList](v1DocumentMigrationAgent_CreateDefaultDocumentTemplateMigrationList.md)

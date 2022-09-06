@@ -11,12 +11,6 @@ POST /api/v1/Agents/List/SaveHeadingFromName
 
 Save new heading for list resolved by the provided name.
 
-
-
-
-
-
-
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -26,7 +20,6 @@ Save new heading for list resolved by the provided name.
 ```http
 POST /api/v1/Agents/List/SaveHeadingFromName?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -42,17 +35,16 @@ POST /api/v1/Agents/List/SaveHeadingFromName?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request
 
-Name, Entity 
+Name, Entity
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | Name | string |  |
 | Entity |  | The heading entity contains generic list item information <para /> Carrier object for HeadingEntity. Services for the HeadingEntity Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IListAgent">List Agent</see>. |
 
-
-## Response: 
+## Response
 
 OK
 
@@ -60,7 +52,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+Response body:
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|

@@ -7,15 +7,13 @@ title: List_Competitor
 ```
 
 ---
+
 title: List_Competitor
 ---
 
 ```http
 /api/v1/List/Competitor
 ```
-
-
-
 
 * [GET List/Competitor](v1CompetitorList_GetListDefinition.md)
 
@@ -54,7 +52,6 @@ title: List_Competitor
 * [PUT List/Competitor/Items/{id}/Headings](v1CompetitorList_PutCompetitorHeadingsForListItem.md)
 
 * [GET List/Competitor/MDOItems](v1CompetitorList_GetMDOList.md)
-
 
 * [GET List/Competitor](v1CompetitorList_GetListDefinition.md)
 

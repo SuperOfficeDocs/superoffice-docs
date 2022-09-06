@@ -11,18 +11,11 @@ GET /api/v1/Sale/{id}/Simple
 
 A simple Sale object.
 
-
 This is a simpler, smaller variation of the full SaleEntity. Calls the Sale agent service GetSale.
-
-
-
-
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | id | int32 | The id of the Sale to return. **Required** |
-
-
 
 ## Request Headers
 
@@ -37,8 +30,7 @@ This is a simpler, smaller variation of the full SaleEntity. Calls the Sale agen
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-
-## Response: 
+## Response
 
 SaleEntity found.
 
@@ -47,7 +39,7 @@ SaleEntity found.
 | 200 | SaleEntity found. |
 | 404 | Not Found. |
 
-Response body: 
+Response body:
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|

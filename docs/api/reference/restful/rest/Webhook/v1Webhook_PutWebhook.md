@@ -11,19 +11,11 @@ PUT /api/v1/Webhook/{id}
 
 Updates the existing Webhook
 
-
-
-
-## Online Restricted: ## The Webhook agent is not available in Online by default. Access must be requested specifically when app is registered.
-
-
-
-
+## Online Restricted: ## The Webhook agent is not available in Online by default. Access must be requested specifically when app is registered
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | id | int32 | The Webhook id to update. **Required** |
-
 
 ## Query String Parameters
 
@@ -34,7 +26,6 @@ Updates the existing Webhook
 ```http
 PUT /api/v1/Webhook/{id}?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -50,9 +41,9 @@ PUT /api/v1/Webhook/{id}?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entity  
+## Request Body: entity
 
-The Webhook to be saved. 
+The Webhook to be saved.
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -70,8 +61,7 @@ The Webhook to be saved.
 | Updated | date-time | Last updated when  in UTC. |
 | UpdatedAssociate |  | The user that last updated the webhook. |
 
-
-## Response: 
+## Response
 
 Webhook updated.
 
@@ -80,7 +70,7 @@ Webhook updated.
 | 200 | Webhook updated. |
 | 400 | Bad request. Entity to save is not in request body. |
 
-Response body: 
+Response body:
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|

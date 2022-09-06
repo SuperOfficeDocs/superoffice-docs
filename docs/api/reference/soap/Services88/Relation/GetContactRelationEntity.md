@@ -17,7 +17,6 @@ Gets a ContactRelationEntity object.
 
 **Returns:** ContactRelationEntity
 
-
 [WSDL file for Services88/Relation](../Services88-Relation.md)
 
 Obtain a ticket from the [Services88/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -48,7 +47,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-
 
 ## GetContactRelationEntity Response
 
@@ -114,4 +112,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

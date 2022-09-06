@@ -7,15 +7,13 @@ title: License_Agent
 ```
 
 ---
+
 title: License_Agent
 ---
 
 ```http
 /api/v1/License/Agent
 ```
-
-
-
 
 * [POST Agents/License/GetLicenseForAllOwnersFromDB](v1LicenseAgent_GetLicenseForAllOwnersFromDB.md)
 
@@ -54,7 +52,6 @@ title: License_Agent
 * [POST Agents/License/AssignThirdPartyLicenses](v1LicenseAgent_AssignThirdPartyLicenses.md)
 
 * [POST Agents/License/UnassignThirdPartyLicenses](v1LicenseAgent_UnassignThirdPartyLicenses.md)
-
 
 * [POST Agents/License/GetLicenseForAllOwnersFromDB](v1LicenseAgent_GetLicenseForAllOwnersFromDB.md)
 

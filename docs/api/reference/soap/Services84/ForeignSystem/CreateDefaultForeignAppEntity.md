@@ -14,9 +14,7 @@ Implemented by the <see cref="M:SuperOffice.Services84.IForeignSystemAgent.Creat
 Loading default values into a new ForeignAppEntity.
 NetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance
 
-
 **Returns:** New ForeignAppEntity with default values
-
 
 [WSDL file for Services84/ForeignSystem](../Services84-ForeignSystem.md)
 
@@ -47,7 +45,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-
 
 ## CreateDefaultForeignAppEntity Response
 
@@ -112,4 +109,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

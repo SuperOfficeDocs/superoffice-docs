@@ -11,13 +11,7 @@ POST /api/v1/Agents/Contact/Merge
 
 Merge two contacts.
 
-
 The destination contact will remain.
-
-
-
-
-
 
 ## Query String Parameters
 
@@ -29,7 +23,6 @@ The destination contact will remain.
 POST /api/v1/Agents/Contact/Merge?$select=name,department,category/id
 ```
 
-
 ## Request Headers
 
 | Parameter Name | Description |
@@ -40,9 +33,9 @@ POST /api/v1/Agents/Contact/Merge?$select=name,department,category/id
 | Accept         | Content-type(s) you would like the response in:  |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request
 
-SourceContactId, DestinationContactId, MergeIdenticalPersons, ReplaceEmptyFieldsOnDestination 
+SourceContactId, DestinationContactId, MergeIdenticalPersons, ReplaceEmptyFieldsOnDestination
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -51,8 +44,7 @@ SourceContactId, DestinationContactId, MergeIdenticalPersons, ReplaceEmptyFields
 | MergeIdenticalPersons | bool |  |
 | ReplaceEmptyFieldsOnDestination | bool |  |
 
-
-## Response: 
+## Response
 
 No Content
 
@@ -60,8 +52,7 @@ No Content
 |----------------|-------------|
 | 204 | No Content |
 
-Response body: 
-
+Response body:
 
 ## Sample request
 

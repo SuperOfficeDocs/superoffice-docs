@@ -18,7 +18,6 @@ Returns the target group for the specified year and entity type.
 
 **Returns:** Target Group for year and entity type.
 
-
 [WSDL file for Services88/Targets](../Services88-Targets.md)
 
 Obtain a ticket from the [Services88/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -51,7 +50,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-
 
 ## GetTargetGroupForYear Response
 
@@ -180,4 +178,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

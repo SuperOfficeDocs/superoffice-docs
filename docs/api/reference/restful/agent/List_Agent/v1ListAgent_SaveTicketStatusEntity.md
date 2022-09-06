@@ -11,13 +11,6 @@ POST /api/v1/Agents/List/SaveTicketStatusEntity
 
 Updates the existing TicketStatusEntity or creates a new TicketStatusEntity if the id parameter is empty
 
-
-
-
-
-
-
-
 ## Request Headers
 
 | Parameter Name | Description |
@@ -32,9 +25,9 @@ Updates the existing TicketStatusEntity or creates a new TicketStatusEntity if t
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entity  
+## Request Body: entity
 
-The TicketStatusEntity to be saved. 
+The TicketStatusEntity to be saved.
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -46,8 +39,7 @@ The TicketStatusEntity to be saved.
 | IsDefault | bool | Indicates if status is default one as there might be more than one status with same internal status |
 | UsedInQueue | bool | If set, status is used in GetNext calculations |
 
-
-## Response: 
+## Response
 
 OK
 
@@ -55,7 +47,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+Response body:
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|

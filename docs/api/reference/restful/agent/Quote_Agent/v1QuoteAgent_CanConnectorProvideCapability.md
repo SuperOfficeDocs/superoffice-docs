@@ -11,12 +11,6 @@ POST /api/v1/Agents/Quote/CanConnectorProvideCapability
 
 Can the connector provide the capability
 
-
-
-
-
-
-
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -26,7 +20,6 @@ Can the connector provide the capability
 ```http
 POST /api/v1/Agents/Quote/CanConnectorProvideCapability?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -42,15 +35,14 @@ POST /api/v1/Agents/Quote/CanConnectorProvideCapability?$select=name,department,
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request
 
-QuoteConnectionId, CapabilityName 
+QuoteConnectionId, CapabilityName
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | QuoteConnectionId | int32 |  |
 | CapabilityName | string |  |
-
 
 ## Response: bool
 
@@ -61,7 +53,6 @@ OK
 | 200 | OK |
 
 Response body: bool
-
 
 ## Sample request
 

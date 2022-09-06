@@ -13,9 +13,7 @@ Implemented by the <see cref="M:SuperOffice.Services84.ISelectionAgent.CreateTem
 
 Creates a temporary selection.
 
-
 **Returns:** Returns the newly created SelectionEntity.
-
 
 [WSDL file for Services84/Selection](../Services84-Selection.md)
 
@@ -47,7 +45,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-
 
 ## CreateTemporaryContactSelection Response
 
@@ -144,4 +141,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

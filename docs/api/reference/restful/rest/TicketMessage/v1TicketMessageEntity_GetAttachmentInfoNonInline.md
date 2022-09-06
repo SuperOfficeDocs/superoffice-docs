@@ -11,16 +11,9 @@ GET /api/v1/TicketMessage/{ticketMessageEntityId}/Attachment/Noninline
 
 Get a list with meta data for all attached attachments, EXCEPT those marked as inline
 
-
-
-
-
-
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | ticketMessageEntityId | int32 | The id of the ticket message to get attachment infos for **Required** |
-
-
 
 ## Request Headers
 
@@ -34,7 +27,6 @@ Get a list with meta data for all attached attachments, EXCEPT those marked as i
 | SO-Culture | Number, date formatting in a specified culture (iso2 language) code. Partially overrides SO-Language/Accept-Language value. Ignored if no Language set. |
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
-
 
 ## Response: array
 

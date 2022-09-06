@@ -11,16 +11,9 @@ GET /api/v1/Sale/UdefLayout/{progidOrLabel}
 
 Get a SaleEntity user-defined field's details based on the prog-id or label.
 
-
-
-
-
-
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | progidOrLabel | string | The udef field id, case-sensitive prog-id, or field label. **Required** |
-
-
 
 ## Request Headers
 
@@ -35,8 +28,7 @@ Get a SaleEntity user-defined field's details based on the prog-id or label.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-
-## Response: 
+## Response
 
 SaleEntity found.
 
@@ -45,7 +37,7 @@ SaleEntity found.
 | 200 | SaleEntity found. |
 | 404 | SaleEntity not found. |
 
-Response body: 
+Response body:
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|

@@ -13,9 +13,6 @@ Implemented by the <see cref="M:SuperOffice.Services88.ITimeZoneAgent.DeleteTime
 
 Deletes all time zone data (locations and rules) from the database
 
-
-
-
 [WSDL file for Services88/TimeZone](../Services88-TimeZone.md)
 
 Obtain a ticket from the [Services88/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -46,7 +43,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
-
 ## DeleteTimeZones Response
 
 ```xml
@@ -65,4 +61,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

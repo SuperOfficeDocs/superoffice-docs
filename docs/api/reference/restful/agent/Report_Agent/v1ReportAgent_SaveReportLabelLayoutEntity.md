@@ -11,13 +11,6 @@ POST /api/v1/Agents/Report/SaveReportLabelLayoutEntity
 
 Updates the existing ReportLabelLayoutEntity or creates a new ReportLabelLayoutEntity if the id parameter is empty
 
-
-
-
-
-
-
-
 ## Request Headers
 
 | Parameter Name | Description |
@@ -32,9 +25,9 @@ Updates the existing ReportLabelLayoutEntity or creates a new ReportLabelLayoutE
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entity  
+## Request Body: entity
 
-The ReportLabelLayoutEntity to be saved. 
+The ReportLabelLayoutEntity to be saved.
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -51,8 +44,7 @@ The ReportLabelLayoutEntity to be saved.
 | CountColumns | int32 | Number og columns |
 | CountRows | int32 | Number of rows |
 
-
-## Response: 
+## Response
 
 OK
 
@@ -60,7 +52,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+Response body:
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|

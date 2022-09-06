@@ -11,17 +11,11 @@ GET /api/v1/Ticket/{id}
 
 Gets a TicketEntity object.
 
-
 Calls the Ticket agent service GetTicketEntity.
-
-
-
-
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | id | int32 | The id of the TicketEntity to return. **Required** |
-
 
 ## Query String Parameters
 
@@ -34,7 +28,6 @@ Calls the Ticket agent service GetTicketEntity.
 GET /api/v1/Ticket/{id}?$select=name,department,category/id
 GET /api/v1/Ticket/{id}?fk=False
 ```
-
 
 ## Request Headers
 
@@ -49,8 +42,7 @@ GET /api/v1/Ticket/{id}?fk=False
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-
-## Response: 
+## Response
 
 TicketEntity found.
 
@@ -59,7 +51,7 @@ TicketEntity found.
 | 200 | TicketEntity found. |
 | 404 | Not Found. |
 
-Response body: 
+Response body:
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|

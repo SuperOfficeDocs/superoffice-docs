@@ -7,15 +7,13 @@ title: DashTileDefinition
 ```
 
 ---
+
 title: DashTileDefinition
 ---
 
 ```http
 /api/v1/DashTileDefinition
 ```
-
-
-
 
 * [GET DashTileDefinition/default](v1DashTileDefinition_DefaultDashTileDefinition.md)
 
@@ -28,7 +26,6 @@ title: DashTileDefinition
 * [DEL DashTileDefinition/{id}](v1DashTileDefinition_DeleteDashTileDefinition.md)
 
 * [PATCH DashTileDefinition/{id}](v1DashTileDefinition_PatchDashTileDefinition.md)
-
 
 * [GET DashTileDefinition/default](v1DashTileDefinition_DefaultDashTileDefinition.md)
 

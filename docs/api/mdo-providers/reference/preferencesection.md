@@ -15,6 +15,7 @@ so.envir:
 ---
 
 # "preferencesection" MDO List
+
 MDO Provider that retrieves a list of preference sections
 
 Preferences are described in the prefdesc table. This provider will retrieve descriptions for all sections.
@@ -23,9 +24,6 @@ Each item contains the programmatic section name in the extraInfo field.
 
 Implemented by the <see cref="T:SuperOffice.CRM.Lists.PreferenceSectionProvider">PreferenceSectionProvider</see> class.
 The name of the MDO list is 'preferencesection'.
-
-
-
 
 ## Sample Request
 
@@ -38,6 +36,7 @@ Accept-Language: *
 ```
 
 ## Sample Code
+
 ```cs
 var listProvider = SuperOffice.CRM.Lists.SoListProviderFactory.Create("preferencesection", forceFlatList: true);
 foreach (var item in listProvider.RootItems) {
@@ -71,7 +70,6 @@ foreach (var item in listProvider.RootItems) {
 |1000395|SuperOffice Service system settings||serviceSettings|
 |1000420|Service outbox||serviceSMTP|
 |1000426|SMS configuration||sms|
-
 
 ## Related MDO Lists
 

@@ -13,9 +13,7 @@ Implemented by the <see cref="M:SuperOffice.Services85.IUserAgent.RemoveLicenses
 
 Remove all user licenses.
 
-* **associateId:** 
-
-
+* **associateId:**
 
 [WSDL file for Services85/User](../Services85-User.md)
 
@@ -49,7 +47,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
-
 ## RemoveLicenses Response
 
 ```xml
@@ -69,4 +66,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

@@ -15,9 +15,7 @@ Loading default values into a new Satellite.
 NetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance
 <para /><b>Online Restricted:</b> The Replication agent is not available in Online by default. Not available in Online. Only used on-site.
 
-
 **Returns:** New Satellite with default values
-
 
 [WSDL file for Services86/Replication](../Services86-Replication.md)
 
@@ -49,7 +47,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-
 
 ## CreateDefaultSatellite Response
 
@@ -208,4 +205,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

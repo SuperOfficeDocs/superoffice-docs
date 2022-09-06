@@ -19,7 +19,6 @@ Save the passed e-mail back to the server
 
 **Returns:** The updated saved entity
 
-
 [WSDL file for Services86/EMail](../Services86-EMail.md)
 
 Obtain a ticket from the [Services86/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -210,7 +209,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
-
 ## SaveEMail Response
 
 ```xml
@@ -382,4 +380,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

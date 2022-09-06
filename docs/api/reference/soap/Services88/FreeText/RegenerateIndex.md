@@ -17,7 +17,6 @@ Wipe and regenerate the freetext index by scanning the database (freetext search
 
 **Returns:** Information about the batch task, if batch execution was requested. Otherwise null
 
-
 [WSDL file for Services88/FreeText](../Services88-FreeText.md)
 
 Obtain a ticket from the [Services88/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -49,7 +48,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-
 
 ## RegenerateIndex Response
 
@@ -98,4 +96,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

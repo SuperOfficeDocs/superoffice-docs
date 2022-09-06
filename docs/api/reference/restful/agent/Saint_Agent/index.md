@@ -7,15 +7,13 @@ title: Saint_Agent
 ```
 
 ---
+
 title: Saint_Agent
 ---
 
 ```http
 /api/v1/Saint/Agent
 ```
-
-
-
 
 * [POST Agents/Saint/CreateDefaultSaintConfiguration](v1SaintAgent_CreateDefaultSaintConfiguration.md)
 
@@ -44,7 +42,6 @@ title: Saint_Agent
 * [POST Agents/Saint/RegenerateCounters](v1SaintAgent_RegenerateCounters.md)
 
 * [POST Agents/Saint/GetStatusMonitorPeriods](v1SaintAgent_GetStatusMonitorPeriods.md)
-
 
 * [POST Agents/Saint/CreateDefaultSaintConfiguration](v1SaintAgent_CreateDefaultSaintConfiguration.md)
 

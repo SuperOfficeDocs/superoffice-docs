@@ -11,16 +11,9 @@ GET /api/v1/Project/UdefLayout/Published/{progidOrLabel}
 
 Get a published ProjectEntity user-defined field's details based on the prog-id or label.
 
-
-
-
-
-
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | progidOrLabel | string | The udef field id, case-sensitive prog-id, or field label. **Required** |
-
-
 
 ## Request Headers
 
@@ -35,8 +28,7 @@ Get a published ProjectEntity user-defined field's details based on the prog-id 
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-
-## Response: 
+## Response
 
 ProjectEntity found.
 
@@ -45,7 +37,7 @@ ProjectEntity found.
 | 200 | ProjectEntity found. |
 | 404 | ProjectEntity not found. |
 
-Response body: 
+Response body:
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|

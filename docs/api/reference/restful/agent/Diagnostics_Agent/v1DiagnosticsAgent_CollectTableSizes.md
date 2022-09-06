@@ -11,13 +11,7 @@ POST /api/v1/Agents/Diagnostics/CollectTableSizes
 
 Collect and transmit usage statistics: Table Sizes.
 
-
 If opted-out then this call does nothing. The call returns immediately (starting a background thread), and updates CS scheduler table to set the next run time.
-
-
-
-
-
 
 ## Query String Parameters
 
@@ -29,7 +23,6 @@ If opted-out then this call does nothing. The call returns immediately (starting
 POST /api/v1/Agents/Diagnostics/CollectTableSizes?$select=name,department,category/id
 ```
 
-
 ## Request Headers
 
 | Parameter Name | Description |
@@ -39,8 +32,7 @@ POST /api/v1/Agents/Diagnostics/CollectTableSizes?$select=name,department,catego
 | Accept         | Content-type(s) you would like the response in:  |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-
-## Response: 
+## Response
 
 No Content
 
@@ -48,8 +40,7 @@ No Content
 |----------------|-------------|
 | 204 | No Content |
 
-Response body: 
-
+Response body:
 
 ## Sample request
 

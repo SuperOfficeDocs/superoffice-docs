@@ -15,15 +15,11 @@ so.envir:
 ---
 
 # "saintticketcategory" MDO List
+
 This SoList provider generates the eJournal top-level categories, meant for the saint system
-
-
 
 Implemented by the <see cref="T:SuperOffice.CRM.ArchiveLists.SaintTicketCategoryProvider">SaintTicketCategoryProvider</see> class.
 The name of the MDO list is 'saintticketcategory'.
-
-
-
 
 ## Sample Request
 
@@ -36,6 +32,7 @@ Accept-Language: *
 ```
 
 ## Sample Code
+
 ```cs
 var listProvider = SuperOffice.CRM.Lists.SoListProviderFactory.Create("saintticketcategory", forceFlatList: true);
 foreach (var item in listProvider.RootItems) {
@@ -52,7 +49,6 @@ foreach (var item in listProvider.RootItems) {
 |1|Support|||
 |2|Administration|||
 |3|Sale|||
-
 
 ## Related MDO Lists
 

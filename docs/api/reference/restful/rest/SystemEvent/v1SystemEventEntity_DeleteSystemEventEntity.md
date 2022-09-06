@@ -11,18 +11,11 @@ DELETE /api/v1/SystemEvent/{id}
 
 Deletes the SystemEventEntity
 
-
 Calls the Configuration agent service DeleteSystemEventEntity.
-
-
-
-
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | id | int32 | The SystemEventEntity to be deleted. **Required** |
-
-
 
 ## Request Headers
 
@@ -33,8 +26,7 @@ Calls the Configuration agent service DeleteSystemEventEntity.
 | Accept         | Content-type(s) you would like the response in:  |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-
-## Response: 
+## Response
 
 SystemEventEntity deleted.
 
@@ -42,8 +34,7 @@ SystemEventEntity deleted.
 |----------------|-------------|
 | 204 | SystemEventEntity deleted. |
 
-Response body: 
-
+Response body:
 
 ## Sample request
 

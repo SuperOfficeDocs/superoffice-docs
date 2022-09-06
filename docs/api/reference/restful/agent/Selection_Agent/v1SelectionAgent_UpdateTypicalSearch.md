@@ -11,12 +11,6 @@ POST /api/v1/Agents/Selection/UpdateTypicalSearch
 
 Update (import) TypicalSearch information in the database
 
-
-
-
-
-
-
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -26,7 +20,6 @@ Update (import) TypicalSearch information in the database
 ```http
 POST /api/v1/Agents/Selection/UpdateTypicalSearch?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -42,14 +35,13 @@ POST /api/v1/Agents/Selection/UpdateTypicalSearch?$select=name,department,catego
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request
 
-Searches 
+Searches
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | Searches |  | Full set of all TypicalSearch elements maintained by one source (including criteria) <para /> Carrier object for TypicalSearches. Services for the TypicalSearches Carrier is available from the <see cref="T:SuperOffice.CRM.Services.ISelectionAgent">Selection Agent</see>. |
-
 
 ## Response: string
 
@@ -60,7 +52,6 @@ OK
 | 200 | OK |
 
 Response body: string
-
 
 ## Sample request
 

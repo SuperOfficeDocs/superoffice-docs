@@ -7,15 +7,13 @@ title: List_ProjectType
 ```
 
 ---
+
 title: List_ProjectType
 ---
 
 ```http
 /api/v1/List/ProjectType
 ```
-
-
-
 
 * [GET List/ProjectType](v1ProjectTypeList_GetListDefinition.md)
 
@@ -54,7 +52,6 @@ title: List_ProjectType
 * [PUT List/ProjectType/Items/{id}/Headings](v1ProjectTypeList_PutProjectTypeHeadingsForListItem.md)
 
 * [GET List/ProjectType/MDOItems](v1ProjectTypeList_GetMDOList.md)
-
 
 * [GET List/ProjectType](v1ProjectTypeList_GetListDefinition.md)
 

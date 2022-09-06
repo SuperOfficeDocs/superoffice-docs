@@ -11,12 +11,6 @@ POST /api/v1/Agents/Sentry/GetTableRightByOwnership
 
 Return the TableRight from the relationship between the current user and the given user and group.
 
-
-
-
-
-
-
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -26,7 +20,6 @@ Return the TableRight from the relationship between the current user and the giv
 ```http
 POST /api/v1/Agents/Sentry/GetTableRightByOwnership?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -42,9 +35,9 @@ POST /api/v1/Agents/Sentry/GetTableRightByOwnership?$select=name,department,cate
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request
 
-TableName, ContactGroupId, ContactAssociateId 
+TableName, ContactGroupId, ContactAssociateId
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -52,8 +45,7 @@ TableName, ContactGroupId, ContactAssociateId
 | ContactGroupId | int32 |  |
 | ContactAssociateId | int32 |  |
 
-
-## Response: 
+## Response
 
 OK
 
@@ -61,7 +53,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+Response body:
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|

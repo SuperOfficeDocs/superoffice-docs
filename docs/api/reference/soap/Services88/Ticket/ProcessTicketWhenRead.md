@@ -17,7 +17,6 @@ When a user view/read a ticket, a number of action should be performed: set read
 
 **Returns:** The ticket entity after marking it as read
 
-
 [WSDL file for Services88/Ticket](../Services88-Ticket.md)
 
 Obtain a ticket from the [Services88/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -49,7 +48,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-
 
 ## ProcessTicketWhenRead Response
 
@@ -378,4 +376,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

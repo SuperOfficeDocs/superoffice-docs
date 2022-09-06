@@ -16,14 +16,8 @@ so.envir:
 
 # "simplemailingstatus" MDO List
 
-
-
-
 Implemented by the <see cref="T:SuperOffice.CRM.Lists.SimpleMailingStatusProvider">SimpleMailingStatusProvider</see> class.
 The name of the MDO list is 'simplemailingstatus'.
-
-
-
 
 ## Sample Request
 
@@ -36,6 +30,7 @@ Accept-Language: *
 ```
 
 ## Sample Code
+
 ```cs
 var listProvider = SuperOffice.CRM.Lists.SoListProviderFactory.Create("simplemailingstatus", forceFlatList: true);
 foreach (var item in listProvider.RootItems) {
@@ -54,7 +49,6 @@ foreach (var item in listProvider.RootItems) {
 |3|Scheduled|||
 |8|Deleted|||
 |13|Too many recipients|||
-
 
 ## Related MDO Lists
 

@@ -13,9 +13,7 @@ Implemented by the <see cref="M:SuperOffice.Services85.IUserAgent.GetCredentialT
 
 Get available credential types that can be used for authentication
 
-
 **Returns:** Credential types that can be used for authentication
-
 
 [WSDL file for Services85/User](../Services85-User.md)
 
@@ -48,7 +46,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
-
 ## GetCredentialTypes Response
 
 ```xml
@@ -77,4 +74,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

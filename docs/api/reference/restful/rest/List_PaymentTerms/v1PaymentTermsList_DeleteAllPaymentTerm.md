@@ -11,14 +11,7 @@ DELETE /api/v1/List/PaymentTerm/Items
 
 Delete all the items in the PaymentTerm list.
 
-
 Marks all existing items as deleted.
-
-
-
-
-
-
 
 ## Request Headers
 
@@ -29,8 +22,7 @@ Marks all existing items as deleted.
 | Accept         | Content-type(s) you would like the response in:  |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-
-## Response: 
+## Response
 
 No Content
 
@@ -38,8 +30,7 @@ No Content
 |----------------|-------------|
 | 204 | No Content |
 
-Response body: 
-
+Response body:
 
 ## Sample request
 

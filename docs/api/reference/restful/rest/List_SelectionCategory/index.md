@@ -7,15 +7,13 @@ title: List_SelectionCategory
 ```
 
 ---
+
 title: List_SelectionCategory
 ---
 
 ```http
 /api/v1/List/SelectionCategory
 ```
-
-
-
 
 * [GET List/SelectionCategory](v1SelectionCategoryList_GetListDefinition.md)
 
@@ -54,7 +52,6 @@ title: List_SelectionCategory
 * [PUT List/SelectionCategory/Items/{id}/Headings](v1SelectionCategoryList_PutSelectionCategoryHeadingsForListItem.md)
 
 * [GET List/SelectionCategory/MDOItems](v1SelectionCategoryList_GetMDOList.md)
-
 
 * [GET List/SelectionCategory](v1SelectionCategoryList_GetListDefinition.md)
 

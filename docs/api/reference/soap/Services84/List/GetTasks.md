@@ -13,9 +13,7 @@ Implemented by the <see cref="M:SuperOffice.Services84.IListAgent.GetTasks">Supe
 
 Returns all appointment tasks
 
-
 **Returns:** An array of all available tasks
-
 
 [WSDL file for Services84/List](../Services84-List.md)
 
@@ -48,7 +46,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
-
 ## GetTasks Response
 
 ```xml
@@ -75,4 +72,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

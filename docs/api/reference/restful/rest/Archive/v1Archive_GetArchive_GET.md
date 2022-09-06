@@ -11,7 +11,6 @@ GET /api/v1/Archive/{archiveProviderName}
 
 Returns archive providers in OData format.
 
-
 Supports JSON and ATOM+XML results based on Accept headers. Supports OData query parameters:
 <ul><li>$select=col1,col2,abc/col3</li><li>$filter=col1 eq 'foo' and startswith(col2, 'baz')</li><li>$orderby=col1,abc/col3</li><li>$top=1000</li><li>$options=GrandTotal=true</li><li>$context=foo</li><li>$format=json</li></ul>
 ## Filter Operators: ##
@@ -20,9 +19,9 @@ ints: eq =, ne, le, lt, gt, ge, set, equals, greater, less, unequals, between
 
 strings: contains, is, notBegins, notContains, isNot
 
-associate: associateIsOneOf, associateIsNotOneOf,  
+associate: associateIsOneOf, associateIsNotOneOf,
 
-list ids: oneOf, NotOneOf, 
+list ids: oneOf, NotOneOf,
 
 dates: before, date, after, dateBetween, beforeToday
 
@@ -30,14 +29,14 @@ Unary ops: currentAssociate, beforeToday, today, afterToday, lastWeek, thisWeek,
 
 Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,n,period), previous(f,n,period), thisAndNext(f,n,period), thisAndPrevious(f,n,period), thisAndPreviousAndNext(f,period)
 
-
-OData returns XML or JSON carriers depending on the Accept headers. $format can also be used to 
-control the response format via the URL. 
+OData returns XML or JSON carriers depending on the Accept headers. $format can also be used to
+control the response format via the URL.
 
 ## Aggregation operators
 
 The column names can encode grouping and summarizing.
 You add functions and modifiers to the column name to trigger aggregation.
+
 * GroupBy(col)
 * Sum(col)
 * Avg(col)
@@ -46,15 +45,14 @@ You add functions and modifiers to the column name to trigger aggregation.
 * CountAll(col)
 * DatePart(col)
 
-
-
 You add modifiers to the end of the column name to trigger aggregation.
+
 * :Header
 * :Footer
 * :HideDetail
 
-
 DatePart specific modifiers
+
 * :Year
 * :Quarter
 * :Month
@@ -67,7 +65,6 @@ DatePart specific modifiers
 * :YearWeekno
 * :YearQuarter
 
-
 Example: group last names together, and inject a header row for each group.
 
 ```
@@ -76,7 +73,7 @@ GroupBy(lastName):Header
 
 ```
 
-Example: count instances of middle names, and hide the individual rows, 
+Example: count instances of middle names, and hide the individual rows,
 report just the totals for each group using a footer. Note how the modifiers stack.
 
 ```
@@ -107,15 +104,9 @@ GET api/archives/findContact?$select=nameDepartment,fullname&amp;$filter=name be
 
 ```
 
-
-
-
-
-
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | archiveProviderName | string | Archive Provider name: FindContact, Person, Product, etc. Call with blank name to get a list of names. **Required** |
-
 
 ## Query String Parameters
 
@@ -153,7 +144,6 @@ GET /api/v1/Archive/{archiveProviderName}?$jsonSafe=True
 GET /api/v1/Archive/{archiveProviderName}?$output=Display
 ```
 
-
 ## Request Headers
 
 | Parameter Name | Description |
@@ -167,8 +157,7 @@ GET /api/v1/Archive/{archiveProviderName}?$output=Display
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-
-## Response: 
+## Response
 
 OK
 
@@ -176,7 +165,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+Response body:
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|

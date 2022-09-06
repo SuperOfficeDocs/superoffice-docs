@@ -11,13 +11,6 @@ POST /api/v1/Agents/Chat/SaveChatTopicEntity
 
 Updates the existing ChatTopicEntity or creates a new ChatTopicEntity if the id parameter is empty
 
-
-
-
-
-
-
-
 ## Request Headers
 
 | Parameter Name | Description |
@@ -32,9 +25,9 @@ Updates the existing ChatTopicEntity or creates a new ChatTopicEntity if the id 
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entity  
+## Request Body: entity
 
-The ChatTopicEntity to be saved. 
+The ChatTopicEntity to be saved.
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -70,8 +63,7 @@ The ChatTopicEntity to be saved.
 | WidgetEnableRating | bool | Enable rating functionality in the chat widgte |
 | WidgetRatingText | string | The text to be displayed in the widget next to the rating stars |
 
-
-## Response: 
+## Response
 
 OK
 
@@ -79,7 +71,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+Response body:
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|

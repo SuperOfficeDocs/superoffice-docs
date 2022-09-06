@@ -16,14 +16,8 @@ so.envir:
 
 # "dashboardentity" MDO List
 
-
-
-
 Implemented by the <see cref="T:SuperOffice.CRM.Lists.DashboardEntityList">DashboardEntityList</see> class.
 The name of the MDO list is 'dashboardentity'.
-
-
-
 
 ## Sample Request
 
@@ -36,6 +30,7 @@ Accept-Language: *
 ```
 
 ## Sample Code
+
 ```cs
 var listProvider = SuperOffice.CRM.Lists.SoListProviderFactory.Create("dashboardentity", forceFlatList: true);
 foreach (var item in listProvider.RootItems) {
@@ -56,7 +51,6 @@ foreach (var item in listProvider.RootItems) {
 |10|Document||document|
 |127|Product||QuoteLine|
 |262|Request||ticket|
-
 
 ## Related MDO Lists
 

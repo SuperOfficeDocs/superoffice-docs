@@ -20,7 +20,6 @@ Execute a Find operation and return a page of results. The criteria for the Find
 
 **Returns:** Results from search, containing column information and result rows.
 
-
 [WSDL file for Services88/Find](../Services88-Find.md)
 
 Obtain a ticket from the [Services88/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -55,7 +54,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-
 
 ## FindFromRestrictions2 Response
 
@@ -114,4 +112,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

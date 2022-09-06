@@ -11,13 +11,7 @@ POST /api/v1/Agents/Quote/TestConnection
 
 Used by the Admin clients.
 
-
 Testing if the connection data is sufficient to get a connection with the ERP system. The Connector should try to do some operations to check if the connection has sufficient rights to run. The connection has not been created yet. TestConnection is called without InitializeConnector being called first.
-
-
-
-
-
 
 ## Query String Parameters
 
@@ -28,7 +22,6 @@ Testing if the connection data is sufficient to get a connection with the ERP sy
 ```http
 POST /api/v1/Agents/Quote/TestConnection?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -44,17 +37,16 @@ POST /api/v1/Agents/Quote/TestConnection?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request
 
-ConnectorName, ConnectionData 
+ConnectorName, ConnectionData
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | ConnectorName | string |  |
 | ConnectionData | object |  |
 
-
-## Response: 
+## Response
 
 OK
 
@@ -62,7 +54,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+Response body:
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|

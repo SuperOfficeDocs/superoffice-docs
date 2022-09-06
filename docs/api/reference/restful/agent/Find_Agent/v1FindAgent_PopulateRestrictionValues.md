@@ -11,13 +11,7 @@ POST /api/v1/Agents/Find/PopulateRestrictionValues
 
 Take an incoming set of Restrictions (name + operator + any user-entered values), and populate/expand all values as specified by the operator's ValueHints, taking into account any values already there.
 
-
 Used for dynamic date periods; perhaps others in the future
-
-
-
-
-
 
 ## Query String Parameters
 
@@ -28,7 +22,6 @@ Used for dynamic date periods; perhaps others in the future
 ```http
 POST /api/v1/Agents/Find/PopulateRestrictionValues?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -44,14 +37,13 @@ POST /api/v1/Agents/Find/PopulateRestrictionValues?$select=name,department,categ
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request
 
-Restrictions 
+Restrictions
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | Restrictions | array |  |
-
 
 ## Response: array
 

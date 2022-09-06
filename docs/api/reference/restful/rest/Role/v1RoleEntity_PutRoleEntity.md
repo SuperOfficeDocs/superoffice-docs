@@ -11,19 +11,11 @@ PUT /api/v1/Role/{id}
 
 Updates the existing RoleEntity
 
-
-
-
-## Online Restricted: ## The User agent is not available in Online by default. User management is not allowed for partner apps.
-
-
-
-
+## Online Restricted: ## The User agent is not available in Online by default. User management is not allowed for partner apps
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | id | int32 | The RoleEntity id to update. **Required** |
-
 
 ## Query String Parameters
 
@@ -34,7 +26,6 @@ Updates the existing RoleEntity
 ```http
 PUT /api/v1/Role/{id}?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -50,9 +41,9 @@ PUT /api/v1/Role/{id}?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entity  
+## Request Body: entity
 
-The RoleEntity to be saved. 
+The RoleEntity to be saved.
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -69,8 +60,7 @@ The RoleEntity to be saved.
 | UpdatedBy |  | Last updated by user |
 | DataRights |  | Data rights matrix - defines role's access to data owned by current user, users in same group, and other users. |
 
-
-## Response: 
+## Response
 
 RoleEntity updated.
 
@@ -79,7 +69,7 @@ RoleEntity updated.
 | 200 | RoleEntity updated. |
 | 400 | Bad request. Entity to save is not in request body. |
 
-Response body: 
+Response body:
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|

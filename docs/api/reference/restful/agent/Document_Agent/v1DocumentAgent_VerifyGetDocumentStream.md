@@ -11,12 +11,6 @@ POST /api/v1/Agents/Document/VerifyGetDocumentStream
 
 Verify that the requested document stream exists, and that we can access it, without actually getting the stream.
 
-
-
-
-
-
-
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -26,7 +20,6 @@ Verify that the requested document stream exists, and that we can access it, wit
 ```http
 POST /api/v1/Agents/Document/VerifyGetDocumentStream?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -38,16 +31,15 @@ POST /api/v1/Agents/Document/VerifyGetDocumentStream?$select=name,department,cat
 | Accept         | Content-type(s) you would like the response in:  |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request
 
-DocumentId 
+DocumentId
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | DocumentId | int32 |  |
 
-
-## Response: 
+## Response
 
 No Content
 
@@ -55,8 +47,7 @@ No Content
 |----------------|-------------|
 | 204 | No Content |
 
-Response body: 
-
+Response body:
 
 ## Sample request
 

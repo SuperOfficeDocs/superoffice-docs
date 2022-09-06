@@ -11,12 +11,6 @@ POST /api/v1/Agents/Archive/ExportArchive
 
 Exports the target archive to a downloadable format.
 
-
-
-
-
-
-
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -26,7 +20,6 @@ Exports the target archive to a downloadable format.
 ```http
 POST /api/v1/Agents/Archive/ExportArchive?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -42,9 +35,9 @@ POST /api/v1/Agents/Archive/ExportArchive?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request
 
-ProviderName, Context, DesiredEntities, Columns, SortOrder, Restrictions, ExportType, SelectedRowIds, EstimatedRowCount 
+ProviderName, Context, DesiredEntities, Columns, SortOrder, Restrictions, ExportType, SelectedRowIds, EstimatedRowCount
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -58,8 +51,7 @@ ProviderName, Context, DesiredEntities, Columns, SortOrder, Restrictions, Export
 | SelectedRowIds | array |  |
 | EstimatedRowCount | int32 |  |
 
-
-## Response: 
+## Response
 
 OK
 
@@ -67,7 +59,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+Response body:
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|

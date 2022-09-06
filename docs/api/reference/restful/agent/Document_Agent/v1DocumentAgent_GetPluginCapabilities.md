@@ -11,13 +11,7 @@ POST /api/v1/Agents/Document/GetPluginCapabilities
 
 Get a list of plugin-dependent capabilities for a given document archive plugin.
 
-
 &lt;br/&gt;A standard set of properties is defined in SuperOffice.CRM.Documents.Constants.Capabilities.
-
-
-
-
-
 
 ## Query String Parameters
 
@@ -28,7 +22,6 @@ Get a list of plugin-dependent capabilities for a given document archive plugin.
 ```http
 POST /api/v1/Agents/Document/GetPluginCapabilities?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -44,14 +37,13 @@ POST /api/v1/Agents/Document/GetPluginCapabilities?$select=name,department,categ
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request
 
-PluginId 
+PluginId
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | PluginId | int32 |  |
-
 
 ## Response: object
 
@@ -62,7 +54,6 @@ OK
 | 200 | OK |
 
 Response body: object
-
 
 ## Sample request
 

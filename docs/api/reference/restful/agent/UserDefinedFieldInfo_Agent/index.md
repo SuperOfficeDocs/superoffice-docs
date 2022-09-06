@@ -7,15 +7,13 @@ title: UserDefinedFieldInfo_Agent
 ```
 
 ---
+
 title: UserDefinedFieldInfo_Agent
 ---
 
 ```http
 /api/v1/UserDefinedFieldInfo/Agent
 ```
-
-
-
 
 * [POST Agents/UserDefinedFieldInfo/CreateDefaultUserDefinedFieldInfo](v1UserDefinedFieldInfoAgent_CreateDefaultUserDefinedFieldInfo.md)
 
@@ -80,7 +78,6 @@ title: UserDefinedFieldInfo_Agent
 * [POST Agents/UserDefinedFieldInfo/SetRankOnFields](v1UserDefinedFieldInfoAgent_SetRankOnFields.md)
 
 * [POST Agents/UserDefinedFieldInfo/SetPublishStartSystemEvent](v1UserDefinedFieldInfoAgent_SetPublishStartSystemEvent.md)
-
 
 * [POST Agents/UserDefinedFieldInfo/CreateDefaultUserDefinedFieldInfo](v1UserDefinedFieldInfoAgent_CreateDefaultUserDefinedFieldInfo.md)
 

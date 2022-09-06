@@ -11,18 +11,11 @@ GET /api/v1/Project/{id}/Simple
 
 A simple Project object.
 
-
 This is a simpler, smaller variation of the full ProjectEntity. Calls the Project agent service GetProject.
-
-
-
-
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | id | int32 | The id of the Project to return. **Required** |
-
-
 
 ## Request Headers
 
@@ -37,8 +30,7 @@ This is a simpler, smaller variation of the full ProjectEntity. Calls the Projec
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-
-## Response: 
+## Response
 
 ProjectEntity found.
 
@@ -47,7 +39,7 @@ ProjectEntity found.
 | 200 | ProjectEntity found. |
 | 404 | Not Found. |
 
-Response body: 
+Response body:
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|

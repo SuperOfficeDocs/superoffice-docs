@@ -11,12 +11,6 @@ POST /api/v1/Agents/Quote/GetConnectorCapabilityNames
 
 Gets a list of all possible connector capabilities
 
-
-
-
-
-
-
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -26,7 +20,6 @@ Gets a list of all possible connector capabilities
 ```http
 POST /api/v1/Agents/Quote/GetConnectorCapabilityNames?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -42,14 +35,13 @@ POST /api/v1/Agents/Quote/GetConnectorCapabilityNames?$select=name,department,ca
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request
 
-QuoteConnectionId 
+QuoteConnectionId
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | QuoteConnectionId | int32 |  |
-
 
 ## Response: array
 
@@ -60,7 +52,6 @@ OK
 | 200 | OK |
 
 Response body: array
-
 
 ## Sample request
 

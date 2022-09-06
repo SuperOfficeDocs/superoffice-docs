@@ -11,13 +11,6 @@ POST /api/v1/Agents/Document/SaveDocumentEntity
 
 Updates the existing DocumentEntity or creates a new DocumentEntity if the id parameter is empty
 
-
-
-
-
-
-
-
 ## Request Headers
 
 | Parameter Name | Description |
@@ -32,9 +25,9 @@ Updates the existing DocumentEntity or creates a new DocumentEntity if the id pa
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entity  
+## Request Body: entity
 
-The DocumentEntity to be saved. 
+The DocumentEntity to be saved.
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -73,8 +66,7 @@ The DocumentEntity to be saved.
 | IsPublished | bool | Publication is published |
 | VisibleFor | array | The set of users or groups the record is visible for |
 
-
-## Response: 
+## Response
 
 OK
 
@@ -82,7 +74,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+Response body:
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|

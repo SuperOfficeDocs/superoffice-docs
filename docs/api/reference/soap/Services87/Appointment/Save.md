@@ -13,14 +13,13 @@ Implemented by the <see cref="M:SuperOffice.Services87.IAppointmentAgent.Save">S
 
 Saving a booking.
 
-* **appointmentEntity:** 
+* **appointmentEntity:**
 * **updateMode:** Update mode for a recurring appointment.
 * **sendEmailToParticipants:** If true, emails will be sent to all participants that is marked with send email flag. If false no mails will be sent even if the send email flag is true.
 * **smtpEMailConnectionInfo:** Login information for outgoing smtp email server. Will be null if no login information is relevant.
 * **imapEMailConnectionInfo:** Login information for imap server. Will be null if no login information is relevant.
 
 **Returns:** Updated AppointmentEntity
-
 
 [WSDL file for Services87/Appointment](../Services87-Appointment.md)
 
@@ -470,7 +469,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
-
 ## Save Response
 
 ```xml
@@ -891,4 +889,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

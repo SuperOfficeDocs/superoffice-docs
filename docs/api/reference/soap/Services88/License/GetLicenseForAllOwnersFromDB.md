@@ -13,9 +13,6 @@ Implemented by the <see cref="M:SuperOffice.Services88.ILicenseAgent.GetLicenseF
 
 Get all licenses, with usage, from all module owners as they are stored in the database
 
-
-
-
 [WSDL file for Services88/License](../Services88-License.md)
 
 Obtain a ticket from the [Services88/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -47,7 +44,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-
 
 ## GetLicenseForAllOwnersFromDB Response
 
@@ -224,4 +220,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

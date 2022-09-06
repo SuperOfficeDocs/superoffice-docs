@@ -11,12 +11,6 @@ POST /api/v1/Agents/DatabaseTable/UpdateRow
 
 Update a row in a table
 
-
-
-
-
-
-
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -26,7 +20,6 @@ Update a row in a table
 ```http
 POST /api/v1/Agents/DatabaseTable/UpdateRow?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -38,9 +31,9 @@ POST /api/v1/Agents/DatabaseTable/UpdateRow?$select=name,department,category/id
 | Accept         | Content-type(s) you would like the response in:  |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request
 
-TableName, Id, Values 
+TableName, Id, Values
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -48,8 +41,7 @@ TableName, Id, Values
 | Id | int32 |  |
 | Values | object |  |
 
-
-## Response: 
+## Response
 
 No Content
 
@@ -57,8 +49,7 @@ No Content
 |----------------|-------------|
 | 204 | No Content |
 
-Response body: 
-
+Response body:
 
 ## Sample request
 

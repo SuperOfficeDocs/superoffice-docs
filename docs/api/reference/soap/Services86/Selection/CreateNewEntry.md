@@ -17,7 +17,6 @@ Creates a new selection based on external duplicate
 
 **Returns:** The database identity of the newly created entry
 
-
 [WSDL file for Services86/Selection](../Services86-Selection.md)
 
 Obtain a ticket from the [Services86/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -56,7 +55,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
-
 ## CreateNewEntry Response
 
 ```xml
@@ -77,4 +75,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

@@ -11,12 +11,6 @@ POST /api/v1/Agents/Configuration/DeleteConfigurableScreenDelta
 
 Deletes the ConfigurableScreenDelta
 
-
-
-
-
-
-
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -27,7 +21,6 @@ Deletes the ConfigurableScreenDelta
 POST /api/v1/Agents/Configuration/DeleteConfigurableScreenDelta?ConfigurableScreenDeltaId=46
 ```
 
-
 ## Request Headers
 
 | Parameter Name | Description |
@@ -37,8 +30,7 @@ POST /api/v1/Agents/Configuration/DeleteConfigurableScreenDelta?ConfigurableScre
 | Accept         | Content-type(s) you would like the response in:  |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-
-## Response: 
+## Response
 
 No Content
 
@@ -46,8 +38,7 @@ No Content
 |----------------|-------------|
 | 204 | No Content |
 
-Response body: 
-
+Response body:
 
 ## Sample request
 

@@ -15,15 +15,11 @@ so.envir:
 ---
 
 # "everymonth" MDO List
+
 MDO provider for the hard-coded list of day month in the recurrence dialog.
-
-
 
 Implemented by the <see cref="T:SuperOffice.CRM.Lists.RecurrenceEveryMonthProvider">RecurrenceEveryMonthProvider</see> class.
 The name of the MDO list is 'everymonth'.
-
-
-
 
 ## Sample Request
 
@@ -36,6 +32,7 @@ Accept-Language: *
 ```
 
 ## Sample Code
+
 ```cs
 var listProvider = SuperOffice.CRM.Lists.SoListProviderFactory.Create("everymonth", forceFlatList: true);
 foreach (var item in listProvider.RootItems) {
@@ -60,7 +57,6 @@ foreach (var item in listProvider.RootItems) {
 |10|of every $month month(s)|replacekey=$month|10|
 |11|of every $month month(s)|replacekey=$month|11|
 |12|of every $month month(s)|replacekey=$month|12|
-
 
 ## Related MDO Lists
 

@@ -7,15 +7,13 @@ title: List
 ```
 
 ---
+
 title: List
 ---
 
 ```http
 /api/v1/List
 ```
-
-
-
 
 * [GET List/default](v1ListEntity_DefaultListEntity.md)
 
@@ -36,7 +34,6 @@ title: List
 * [PUT List/{name}](v1ListEntity_SaveListEntityByName.md)
 
 * [DEL List/{name}](v1ListEntity_DeleteListEntityByName.md)
-
 
 * [GET List/default](v1ListEntity_DefaultListEntity.md)
 

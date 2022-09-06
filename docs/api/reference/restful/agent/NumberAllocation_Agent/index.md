@@ -7,15 +7,13 @@ title: NumberAllocation_Agent
 ```
 
 ---
+
 title: NumberAllocation_Agent
 ---
 
 ```http
 /api/v1/NumberAllocation/Agent
 ```
-
-
-
 
 * [POST Agents/NumberAllocation/CreateDefaultRefCountEntity](v1NumberAllocationAgent_CreateDefaultRefCountEntity.md)
 
@@ -30,7 +28,6 @@ title: NumberAllocation_Agent
 * [POST Agents/NumberAllocation/GetNumberEachTemplate](v1NumberAllocationAgent_GetNumberEachTemplate.md)
 
 * [POST Agents/NumberAllocation/SetNumberEachTemplate](v1NumberAllocationAgent_SetNumberEachTemplate.md)
-
 
 * [POST Agents/NumberAllocation/CreateDefaultRefCountEntity](v1NumberAllocationAgent_CreateDefaultRefCountEntity.md)
 

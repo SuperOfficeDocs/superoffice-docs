@@ -11,13 +11,6 @@ POST /api/v1/Agents/Dashboard/SaveDashboard
 
 Updates the existing Dashboard or creates a new Dashboard if the id parameter is empty
 
-
-
-
-
-
-
-
 ## Request Headers
 
 | Parameter Name | Description |
@@ -32,9 +25,9 @@ Updates the existing Dashboard or creates a new Dashboard if the id parameter is
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entity  
+## Request Body: entity
 
-The Dashboard to be saved. 
+The Dashboard to be saved.
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -44,8 +37,7 @@ The Dashboard to be saved.
 | Layout | string | The dashboard layout, how the tiles are organized on the screen |
 | Tiles | array | The tiles associated with this dashboard |
 
-
-## Response: 
+## Response
 
 OK
 
@@ -53,7 +45,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+Response body:
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|

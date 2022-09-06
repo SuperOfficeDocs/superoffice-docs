@@ -11,12 +11,6 @@ POST /api/v1/Agents/UserDefinedFieldInfo/GetCustomFieldInfo
 
 Return information about a particular custom field (user-defined + extra) on a particular table
 
-
-
-
-
-
-
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -26,7 +20,6 @@ Return information about a particular custom field (user-defined + extra) on a p
 ```http
 POST /api/v1/Agents/UserDefinedFieldInfo/GetCustomFieldInfo?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -42,17 +35,16 @@ POST /api/v1/Agents/UserDefinedFieldInfo/GetCustomFieldInfo?$select=name,departm
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request
 
-TableName, FieldName 
+TableName, FieldName
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | TableName | string |  |
 | FieldName | string |  |
 
-
-## Response: 
+## Response
 
 OK
 
@@ -60,7 +52,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+Response body:
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|

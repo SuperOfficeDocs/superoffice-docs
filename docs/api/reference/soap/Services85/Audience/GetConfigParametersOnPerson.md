@@ -17,7 +17,6 @@ Gets the Audience configuration parameters belonging to the person specified
 
 **Returns:** Array of Audience configuration parameters.
 
-
 [WSDL file for Services85/Audience](../Services85-Audience.md)
 
 Obtain a ticket from the [Services85/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -49,7 +48,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
-
 ## GetConfigParametersOnPerson Response
 
 ```xml
@@ -79,4 +77,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

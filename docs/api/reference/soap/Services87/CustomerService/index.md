@@ -43,4 +43,3 @@ Download [WSDL file for Services87/CustomerService](../Services87-CustomerServic
 * [SessionIsValid](SessionIsValid.md)
 * [TestSmtpServer](TestSmtpServer.md)
 * [UpdateFeatureToggles](UpdateFeatureToggles.md)
-

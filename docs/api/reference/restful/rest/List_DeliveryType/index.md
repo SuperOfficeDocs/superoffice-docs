@@ -7,15 +7,13 @@ title: List_DeliveryType
 ```
 
 ---
+
 title: List_DeliveryType
 ---
 
 ```http
 /api/v1/List/DeliveryType
 ```
-
-
-
 
 * [GET List/DeliveryType](v1DeliveryTypeList_GetListDefinition.md)
 
@@ -54,7 +52,6 @@ title: List_DeliveryType
 * [PUT List/DeliveryType/Items/{id}/Headings](v1DeliveryTypeList_PutDeliveryTypeHeadingsForListItem.md)
 
 * [GET List/DeliveryType/MDOItems](v1DeliveryTypeList_GetMDOList.md)
-
 
 * [GET List/DeliveryType](v1DeliveryTypeList_GetListDefinition.md)
 

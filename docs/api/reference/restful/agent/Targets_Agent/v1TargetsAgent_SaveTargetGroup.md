@@ -11,13 +11,6 @@ POST /api/v1/Agents/Targets/SaveTargetGroup
 
 Updates the existing TargetGroup or creates a new TargetGroup if the id parameter is empty
 
-
-
-
-
-
-
-
 ## Request Headers
 
 | Parameter Name | Description |
@@ -32,9 +25,9 @@ Updates the existing TargetGroup or creates a new TargetGroup if the id paramete
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entity  
+## Request Body: entity
 
-The TargetGroup to be saved. 
+The TargetGroup to be saved.
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -45,8 +38,7 @@ The TargetGroup to be saved.
 | TargetAssignments | array | Collection of target values |
 | TargetDimension |  | Info about the target dimensions |
 
-
-## Response: 
+## Response
 
 OK
 
@@ -54,7 +46,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+Response body:
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|

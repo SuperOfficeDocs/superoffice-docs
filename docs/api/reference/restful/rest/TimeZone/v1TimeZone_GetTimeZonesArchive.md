@@ -11,13 +11,7 @@ GET /api/v1/TimeZone
 
 List of timezones
 
-
 Use with SO-TIMEZONE header to specify times.
-
-
-
-
-
 
 ## Query String Parameters
 
@@ -47,7 +41,6 @@ GET /api/v1/TimeZone?$context=quam
 GET /api/v1/TimeZone?$format=JSON
 ```
 
-
 ## Request Headers
 
 | Parameter Name | Description |
@@ -61,8 +54,7 @@ GET /api/v1/TimeZone?$format=JSON
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-
-## Response: 
+## Response
 
 OK
 
@@ -70,7 +62,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+Response body:
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|

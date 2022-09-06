@@ -19,7 +19,6 @@ Gets the next suggested appointment for a given sale (or rather a given sale's g
 
 **Returns:** The next suggestion based on the sale id of a guided sale and the id of the current apopintment. If we cannot find a next suggestion or the sale is not guided (or if any of the paramters are invalid), we will return null.
 
-
 [WSDL file for Services85/Appointment](../Services85-Appointment.md)
 
 Obtain a ticket from the [Services85/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -53,7 +52,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-
 
 ## GetNextSuggestedAppointmentBySale Response
 
@@ -102,4 +100,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

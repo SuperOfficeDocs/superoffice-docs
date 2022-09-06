@@ -16,14 +16,8 @@ so.envir:
 
 # "shipmentaddrstatusprovider" MDO List
 
-
-
-
 Implemented by the <see cref="T:SuperOffice.CRM.Lists.ShipmentAddrStatusProvider">ShipmentAddrStatusProvider</see> class.
 The name of the MDO list is 'shipmentaddrstatusprovider'.
-
-
-
 
 ## Sample Request
 
@@ -36,6 +30,7 @@ Accept-Language: *
 ```
 
 ## Sample Code
+
 ```cs
 var listProvider = SuperOffice.CRM.Lists.SoListProviderFactory.Create("shipmentaddrstatusprovider", forceFlatList: true);
 foreach (var item in listProvider.RootItems) {
@@ -60,7 +55,6 @@ foreach (var item in listProvider.RootItems) {
 |9|No subscription|||
 |10|Recipient complained|||
 |11|Too many bounces|||
-
 
 ## Related MDO Lists
 

@@ -11,18 +11,11 @@ DELETE /api/v1/Hierarchy/{id}
 
 Deletes the HierarchyEntity
 
-
 Calls the List agent service DeleteHierarchyEntity.
-
-
-
-
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | id | int32 | The HierarchyEntity to be deleted. **Required** |
-
-
 
 ## Request Headers
 
@@ -33,8 +26,7 @@ Calls the List agent service DeleteHierarchyEntity.
 | Accept         | Content-type(s) you would like the response in:  |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-
-## Response: 
+## Response
 
 HierarchyEntity deleted.
 
@@ -42,8 +34,7 @@ HierarchyEntity deleted.
 |----------------|-------------|
 | 204 | HierarchyEntity deleted. |
 
-Response body: 
-
+Response body:
 
 ## Sample request
 

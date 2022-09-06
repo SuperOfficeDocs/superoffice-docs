@@ -11,13 +11,7 @@ POST /api/v1/Agents/Quote/GetQuoteList
 
 Gets a named list from the connector Return array of QuoteListItems.
 
-
 Return NULL if the given list is not supported.
-
-
-
-
-
 
 ## Query String Parameters
 
@@ -28,7 +22,6 @@ Return NULL if the given list is not supported.
 ```http
 POST /api/v1/Agents/Quote/GetQuoteList?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -44,14 +37,13 @@ POST /api/v1/Agents/Quote/GetQuoteList?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request
 
-QuoteListType 
+QuoteListType
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | QuoteListType | string |  |
-
 
 ## Response: array
 

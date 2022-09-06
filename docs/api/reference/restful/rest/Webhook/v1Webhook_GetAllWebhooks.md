@@ -11,15 +11,7 @@ GET /api/v1/Webhook
 
 Returns all webhooks, according to filter criteria
 
-
-
-
-## Online Restricted: ## The Webhook agent is not available in Online by default. Access must be requested specifically when app is registered.
-
-
-
-
-
+## Online Restricted: ## The Webhook agent is not available in Online by default. Access must be requested specifically when app is registered
 
 ## Query String Parameters
 
@@ -35,7 +27,6 @@ GET /api/v1/Webhook?eventFilter=assumenda
 GET /api/v1/Webhook?statusFilter=Active
 ```
 
-
 ## Request Headers
 
 | Parameter Name | Description |
@@ -48,7 +39,6 @@ GET /api/v1/Webhook?statusFilter=Active
 | SO-Culture | Number, date formatting in a specified culture (iso2 language) code. Partially overrides SO-Language/Accept-Language value. Ignored if no Language set. |
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
-
 
 ## Response: array
 

@@ -7,15 +7,13 @@ title: BLOB_Agent
 ```
 
 ---
+
 title: BLOB_Agent
 ---
 
 ```http
 /api/v1/BLOB/Agent
 ```
-
-
-
 
 * [POST Agents/BLOB/CreateDefaultBlobEntity](v1BLOBAgent_CreateDefaultBlobEntity.md)
 
@@ -88,7 +86,6 @@ title: BLOB_Agent
 * [POST Agents/BLOB/GetOutputFromBatch](v1BLOBAgent_GetOutputFromBatch.md)
 
 * [POST Agents/BLOB/CleanupBatchTask](v1BLOBAgent_CleanupBatchTask.md)
-
 
 * [POST Agents/BLOB/CreateDefaultBlobEntity](v1BLOBAgent_CreateDefaultBlobEntity.md)
 

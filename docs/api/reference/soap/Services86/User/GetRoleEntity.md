@@ -18,7 +18,6 @@ Gets a RoleEntity object.
 
 **Returns:** RoleEntity
 
-
 [WSDL file for Services86/User](../Services86-User.md)
 
 Obtain a ticket from the [Services86/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -50,7 +49,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-
 
 ## GetRoleEntity Response
 
@@ -133,4 +131,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

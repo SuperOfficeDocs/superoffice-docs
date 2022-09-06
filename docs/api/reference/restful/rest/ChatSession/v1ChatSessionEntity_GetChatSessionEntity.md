@@ -11,17 +11,11 @@ GET /api/v1/ChatSession/{id}
 
 Gets a ChatSessionEntity object.
 
-
 Calls the Chat agent service GetChatSessionEntity.
-
-
-
-
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | id | int32 | The id of the ChatSessionEntity to return. **Required** |
-
 
 ## Query String Parameters
 
@@ -32,7 +26,6 @@ Calls the Chat agent service GetChatSessionEntity.
 ```http
 GET /api/v1/ChatSession/{id}?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -47,8 +40,7 @@ GET /api/v1/ChatSession/{id}?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-
-## Response: 
+## Response
 
 ChatSessionEntity found.
 
@@ -57,7 +49,7 @@ ChatSessionEntity found.
 | 200 | ChatSessionEntity found. |
 | 404 | Not Found. |
 
-Response body: 
+Response body:
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|

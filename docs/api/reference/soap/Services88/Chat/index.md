@@ -46,4 +46,3 @@ Download [WSDL file for Services88/Chat](../Services88-Chat.md) if you need to g
 * [TransferChatSession](TransferChatSession.md)
 * [UpdateChatTopicUserAgent](UpdateChatTopicUserAgent.md)
 * [UpdateChatTopicUserAgents](UpdateChatTopicUserAgents.md)
-

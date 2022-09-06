@@ -11,18 +11,11 @@ PUT /api/v1/BatchTask/{Id}
 
 Update information about a BatchTask.
 
-
 Only the following properties can be updated: State, Description, Response and Request.
-
-
-
-
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | Id | string |  **Required** |
-
-
 
 ## Request Headers
 
@@ -38,9 +31,9 @@ Only the following properties can be updated: State, Description, Response and R
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: batchTaskInfo  
+## Request Body: batchTaskInfo
 
-The updated information to save. 
+The updated information to save.
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -66,8 +59,7 @@ The updated information to save.
 | ProgressPercent | int32 | Task progress, in percent of estimated total |
 | FileName | string | The filename related to the batchtask. |
 
-
-## Response: 
+## Response
 
 OK
 
@@ -75,7 +67,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+Response body:
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|

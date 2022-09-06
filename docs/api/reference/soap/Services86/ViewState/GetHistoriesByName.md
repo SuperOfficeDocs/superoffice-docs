@@ -17,7 +17,6 @@ Returns the named history list that belong to the currently logged in user
 
 **Returns:** Array of History items
 
-
 [WSDL file for Services86/ViewState](../Services86-ViewState.md)
 
 Obtain a ticket from the [Services86/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -50,7 +49,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
-
 ## GetHistoriesByName Response
 
 ```xml
@@ -81,4 +79,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

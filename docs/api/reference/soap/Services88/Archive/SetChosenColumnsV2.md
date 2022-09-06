@@ -19,8 +19,6 @@ Set the currently chosen columns for the given gui name/provider name combinatio
 * **ownerKeys:** Name/value string containing ownership binding information. The first should resolve to a table/primarykey, such as selection=123. Future functionality may allow multiple/extended keys
 * **chosenColumns:** Array of column names, where array order indicates left to right order in the archive.
 
-
-
 [WSDL file for Services88/Archive](../Services88-Archive.md)
 
 Obtain a ticket from the [Services88/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -59,7 +57,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
-
 ## SetChosenColumnsV2 Response
 
 ```xml
@@ -79,4 +76,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

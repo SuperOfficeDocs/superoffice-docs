@@ -11,18 +11,11 @@ POST /api/v1/ChatSession/{chatSessionId}/Reset
 
 Reset chat session, put it back on the queue for pickup.
 
-
 Used by bots to hand off a session to human
-
-
-
-
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | chatSessionId | int32 | id of the chat session to reset **Required** |
-
-
 
 ## Request Headers
 
@@ -37,8 +30,7 @@ Used by bots to hand off a session to human
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-
-## Response: 
+## Response
 
 OK
 
@@ -46,7 +38,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+Response body:
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|

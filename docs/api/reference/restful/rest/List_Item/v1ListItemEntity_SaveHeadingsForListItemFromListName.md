@@ -11,17 +11,10 @@ PUT /api/v1/List/{udListDefinitionName}/Items/{listItemId}/Headings
 
 Saves the headings for the list item.
 
-
-
-
-
-
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | udListDefinitionName | string | The name of the list definition, indicating which list to update. **Required** |
 | listItemId | int32 | The identity of the list item **Required** |
-
-
 
 ## Request Headers
 
@@ -37,9 +30,9 @@ Saves the headings for the list item.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: headings  
+## Request Body: headings
 
-The headings to save. 
+The headings to save.
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -58,7 +51,6 @@ The headings to save.
 | StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
 | Hidden | bool | True if the ListItem is hidden |
 | FullName | string | The name of the ListItem in its context |
-
 
 ## Response: array
 

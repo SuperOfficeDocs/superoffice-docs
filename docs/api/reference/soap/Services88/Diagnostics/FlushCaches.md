@@ -13,9 +13,6 @@ Implemented by the <see cref="M:SuperOffice.Services88.IDiagnosticsAgent.FlushCa
 
 Flushes all NetServer caches
 
-
-
-
 [WSDL file for Services88/Diagnostics](../Services88-Diagnostics.md)
 
 Obtain a ticket from the [Services88/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -47,7 +44,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
-
 ## FlushCaches Response
 
 ```xml
@@ -67,4 +63,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

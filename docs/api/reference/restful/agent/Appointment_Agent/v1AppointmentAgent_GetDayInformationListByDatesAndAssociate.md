@@ -11,13 +11,7 @@ POST /api/v1/Agents/Appointment/GetDayInformationListByDatesAndAssociate
 
 Get combined day information (activity + redletter summary) for one or more days according to the given date interval.
 
-
 The time portion of the dates is ignored. Private appointments are counted, but may not be visible through tooltips or other more detailed services.
-
-
-
-
-
 
 ## Query String Parameters
 
@@ -28,7 +22,6 @@ The time portion of the dates is ignored. Private appointments are counted, but 
 ```http
 POST /api/v1/Agents/Appointment/GetDayInformationListByDatesAndAssociate?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -44,16 +37,15 @@ POST /api/v1/Agents/Appointment/GetDayInformationListByDatesAndAssociate?$select
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request
 
-StartDate, EndDate, AssociateId 
+StartDate, EndDate, AssociateId
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | StartDate | date-time |  |
 | EndDate | date-time |  |
 | AssociateId | int32 |  |
-
 
 ## Response: array
 

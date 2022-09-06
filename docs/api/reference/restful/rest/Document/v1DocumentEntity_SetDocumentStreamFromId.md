@@ -11,18 +11,11 @@ PUT /api/v1/Document/{documentId}/Content
 
 Store document content from stream.
 
-
 Since there is a potential for a name conflict (the file name stored by the document entity earlier may prove to be invalid), the (possibly amended) document entity is returned. The client should not assume that any earlier, cached entity information is valid.
-
-
-
-
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | documentId | int32 | The document entity object that the binary data (document) should be stored to. Its file name may be amended by this call, see the return value. **Required** |
-
-
 
 ## Request Headers
 
@@ -38,13 +31,11 @@ Since there is a potential for a name conflict (the file name stored by the docu
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: stream  
+## Request Body: stream
 
-The document content as a stream. 
+The document content as a stream.
 
-
-
-## Response: 
+## Response
 
 OK
 
@@ -52,7 +43,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+Response body:
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|

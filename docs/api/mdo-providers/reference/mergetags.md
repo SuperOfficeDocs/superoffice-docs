@@ -16,9 +16,6 @@ so.envir:
 
 # "mergetags" MDO List
 
-
-
-
 Implemented by the <see cref="T:SuperOffice.CRM.Lists.MergeTagsProvider">MergeTagsProvider</see> class.
 The name of the MDO list is 'mergetags'.
 
@@ -27,10 +24,6 @@ The name of the MDO list is 'mergetags'.
 | Description | Name | Example Value |
 |-----|-----|------|
 |Include ticket parser variables| includeTicket|False|
-
-
-
-
 
 ## Sample Request
 
@@ -43,6 +36,7 @@ Accept-Language: *
 ```
 
 ## Sample Code
+
 ```cs
 var listProvider = SuperOffice.CRM.Lists.SoListProviderFactory.Create("mergetags", forceFlatList: true);
 foreach (var item in listProvider.RootItems) {
@@ -76,7 +70,6 @@ foreach (var item in listProvider.RootItems) {
 |19|Business||[[company.business]]|
 |20|Number||[[company.number2]]|
 |21|City||[[company.city]]|
-
 
 ## Related MDO Lists
 

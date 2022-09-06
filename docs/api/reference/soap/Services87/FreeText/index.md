@@ -25,4 +25,3 @@ Download [WSDL file for Services87/FreeText](../Services87-FreeText.md) if you n
 * [SetEnabled](SetEnabled.md)
 * [SetMultiWordOperator](SetMultiWordOperator.md)
 * [SetSingleWordOperator](SetSingleWordOperator.md)
-

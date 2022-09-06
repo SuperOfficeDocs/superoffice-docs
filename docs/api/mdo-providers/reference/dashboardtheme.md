@@ -16,9 +16,6 @@ so.envir:
 
 # "dashboardtheme" MDO List
 
-
-
-
 Implemented by the <see cref="T:SuperOffice.CRM.Lists.DashboardThemeListProvider">DashboardThemeListProvider</see> class.
 The name of the MDO list is 'dashboardtheme'.
 
@@ -29,10 +26,6 @@ The name of the MDO list is 'dashboardtheme'.
 |Return dashboard themes| DashboardTheme||
 |Return dashboard themes associated with the client name| client||
 |Return dashboard themes with this style value| style||
-
-
-
-
 
 ## Sample Request
 
@@ -45,6 +38,7 @@ Accept-Language: *
 ```
 
 ## Sample Code
+
 ```cs
 var listProvider = SuperOffice.CRM.Lists.SoListProviderFactory.Create("dashboardtheme", forceFlatList: true);
 foreach (var item in listProvider.RootItems) {
@@ -62,7 +56,6 @@ foreach (var item in listProvider.RootItems) {
 |3|SR_DASHBOARD_THEME_DARK||client=sales&style=light|
 |4|SR_DASHBOARD_THEME_DARKMODE||client=sales&style=dark|
 |5|SR_DASHBOARD_THEME_DARKMODE||client=mobile&style=dark|
-
 
 ## Related MDO Lists
 

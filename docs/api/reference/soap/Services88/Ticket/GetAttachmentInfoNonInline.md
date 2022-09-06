@@ -17,7 +17,6 @@ Get a list with meta data for all attached attachments, EXCEPT those marked as i
 
 **Returns:** An array with AttachmentEntity objects, describing each attachment; those marked as INLINE will be skipped
 
-
 [WSDL file for Services88/Ticket](../Services88-Ticket.md)
 
 Obtain a ticket from the [Services88/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -50,7 +49,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
-
 ## GetAttachmentInfoNonInline Response
 
 ```xml
@@ -80,4 +78,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

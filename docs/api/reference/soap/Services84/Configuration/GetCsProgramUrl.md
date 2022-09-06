@@ -20,7 +20,6 @@ This method will convert a module name into a CS URL.
 
 **Returns:** Returns a valid CS URL composed of the give parameters.
 
-
 [WSDL file for Services84/Configuration](../Services84-Configuration.md)
 
 Obtain a ticket from the [Services84/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -56,7 +55,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
-
 ## GetCsProgramUrl Response
 
 ```xml
@@ -77,4 +75,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

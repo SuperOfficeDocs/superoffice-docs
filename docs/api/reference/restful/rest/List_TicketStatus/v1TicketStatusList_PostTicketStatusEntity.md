@@ -11,14 +11,7 @@ POST /api/v1/List/TicketStatus/Items
 
 Create a new TicketStatusEntity list item
 
-
 Calls the List agent service SaveTicketStatusEntity.
-
-
-
-
-
-
 
 ## Request Headers
 
@@ -34,9 +27,9 @@ Calls the List agent service SaveTicketStatusEntity.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: newEntity  
+## Request Body: newEntity
 
-The TicketStatusEntity to be created. 
+The TicketStatusEntity to be created.
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -48,8 +41,7 @@ The TicketStatusEntity to be created.
 | IsDefault | bool | Indicates if status is default one as there might be more than one status with same internal status |
 | UsedInQueue | bool | If set, status is used in GetNext calculations |
 
-
-## Response: 
+## Response
 
 OK
 
@@ -57,7 +49,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+Response body:
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|

@@ -11,12 +11,6 @@ POST /api/v1/Agents/Relation/DeleteContactRelation
 
 Deletes the spesified contact relation.
 
-
-
-
-
-
-
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -26,7 +20,6 @@ Deletes the spesified contact relation.
 ```http
 POST /api/v1/Agents/Relation/DeleteContactRelation?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -38,16 +31,15 @@ POST /api/v1/Agents/Relation/DeleteContactRelation?$select=name,department,categ
 | Accept         | Content-type(s) you would like the response in:  |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request
 
-ContactRelationEntityId 
+ContactRelationEntityId
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | ContactRelationEntityId | int32 |  |
 
-
-## Response: 
+## Response
 
 No Content
 
@@ -55,8 +47,7 @@ No Content
 |----------------|-------------|
 | 204 | No Content |
 
-Response body: 
-
+Response body:
 
 ## Sample request
 

@@ -11,12 +11,6 @@ POST /api/v1/Agents/ForeignSystem/AddForeignKey
 
 Add a new key belonging to the ForeignApp and ForeignDevice specified.
 
-
-
-
-
-
-
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -26,7 +20,6 @@ Add a new key belonging to the ForeignApp and ForeignDevice specified.
 ```http
 POST /api/v1/Agents/ForeignSystem/AddForeignKey?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -42,9 +35,9 @@ POST /api/v1/Agents/ForeignSystem/AddForeignKey?$select=name,department,category
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request
 
-ForeignKey, ApplicationName, DeviceName, DeviceIdentifier 
+ForeignKey, ApplicationName, DeviceName, DeviceIdentifier
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -53,8 +46,7 @@ ForeignKey, ApplicationName, DeviceName, DeviceIdentifier
 | DeviceName | string |  |
 | DeviceIdentifier | string |  |
 
-
-## Response: 
+## Response
 
 OK
 
@@ -62,7 +54,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+Response body:
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|

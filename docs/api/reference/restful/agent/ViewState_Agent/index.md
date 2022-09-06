@@ -7,15 +7,13 @@ title: ViewState_Agent
 ```
 
 ---
+
 title: ViewState_Agent
 ---
 
 ```http
 /api/v1/ViewState/Agent
 ```
-
-
-
 
 * [POST Agents/ViewState/GetHistory](v1ViewStateAgent_GetHistory.md)
 
@@ -44,7 +42,6 @@ title: ViewState_Agent
 * [POST Agents/ViewState/SaveCurrents](v1ViewStateAgent_SaveCurrents.md)
 
 * [POST Agents/ViewState/GetHistoriesByNamesAndIds](v1ViewStateAgent_GetHistoriesByNamesAndIds.md)
-
 
 * [POST Agents/ViewState/GetHistory](v1ViewStateAgent_GetHistory.md)
 

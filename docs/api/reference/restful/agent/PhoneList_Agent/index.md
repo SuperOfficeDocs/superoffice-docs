@@ -7,15 +7,13 @@ title: PhoneList_Agent
 ```
 
 ---
+
 title: PhoneList_Agent
 ---
 
 ```http
 /api/v1/PhoneList/Agent
 ```
-
-
-
 
 * [POST Agents/PhoneList/Search](v1PhoneListAgent_Search.md)
 
@@ -32,7 +30,6 @@ title: PhoneList_Agent
 * [POST Agents/PhoneList/GetPreferences](v1PhoneListAgent_GetPreferences.md)
 
 * [POST Agents/PhoneList/SetPreferences](v1PhoneListAgent_SetPreferences.md)
-
 
 * [POST Agents/PhoneList/Search](v1PhoneListAgent_Search.md)
 

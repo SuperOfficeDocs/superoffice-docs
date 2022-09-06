@@ -19,7 +19,6 @@ Parse the source document, and replace any template variable tags with their val
 
 **Returns:** The document as a Stream
 
-
 [WSDL file for Services84/Document](../Services84-Document.md)
 
 Obtain a ticket from the [Services84/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -59,7 +58,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
-
 ## SubstituteMergeDocumentTemplateVariables2 Response
 
 ```xml
@@ -80,4 +78,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

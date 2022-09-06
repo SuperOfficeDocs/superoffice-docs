@@ -17,7 +17,6 @@ Save the incomming draft and publish
 
 **Returns:** The newly published version of the ConfigurbleScreenDelta
 
-
 [WSDL file for Services88/Configuration](../Services88-Configuration.md)
 
 Obtain a ticket from the [Services88/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -92,7 +91,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
-
 ## SaveAndPublish Response
 
 ```xml
@@ -155,4 +153,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

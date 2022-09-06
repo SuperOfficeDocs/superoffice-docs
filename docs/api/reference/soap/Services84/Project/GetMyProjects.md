@@ -17,7 +17,6 @@ Returning the projects belonging to an associate. If memberProjects is false onl
 
 **Returns:** The list of projects
 
-
 [WSDL file for Services84/Project](../Services84-Project.md)
 
 Obtain a ticket from the [Services84/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -49,7 +48,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-
 
 ## GetMyProjects Response
 
@@ -92,4 +90,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

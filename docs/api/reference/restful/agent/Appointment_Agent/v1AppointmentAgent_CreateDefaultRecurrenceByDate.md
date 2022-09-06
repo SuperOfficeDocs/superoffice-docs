@@ -11,13 +11,7 @@ POST /api/v1/Agents/Appointment/CreateDefaultRecurrenceByDate
 
 Creates a RecurrenceInfo object populated with the default values for the specific type.
 
-
 Using startDate as start date for the recurreing pattern.
-
-
-
-
-
 
 ## Query String Parameters
 
@@ -28,7 +22,6 @@ Using startDate as start date for the recurreing pattern.
 ```http
 POST /api/v1/Agents/Appointment/CreateDefaultRecurrenceByDate?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -44,16 +37,15 @@ POST /api/v1/Agents/Appointment/CreateDefaultRecurrenceByDate?$select=name,depar
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request
 
-StartDate 
+StartDate
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | StartDate | date-time |  |
 
-
-## Response: 
+## Response
 
 OK
 
@@ -61,7 +53,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+Response body:
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|

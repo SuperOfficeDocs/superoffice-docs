@@ -11,15 +11,7 @@ POST /api/v1/Agents/EMail/SaveEmailToTmpDocument
 
 Save the Email as a tmp document ready to archive
 
-
-
-
-## Online Restricted: ## The EMail agent is not available in Online by default. Access must be requested specifically when app is registered.
-
-
-
-
-
+## Online Restricted: ## The EMail agent is not available in Online by default. Access must be requested specifically when app is registered
 
 ## Query String Parameters
 
@@ -30,7 +22,6 @@ Save the Email as a tmp document ready to archive
 ```http
 POST /api/v1/Agents/EMail/SaveEmailToTmpDocument?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -46,16 +37,15 @@ POST /api/v1/Agents/EMail/SaveEmailToTmpDocument?$select=name,department,categor
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request
 
-Email, FolderId, StripAttachments 
+Email, FolderId, StripAttachments
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | Email |  | All information about an e-mail <para /> Carrier object for EMailEntity. Services for the EMailEntity Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IEMailAgent">EMail Agent</see>. |
 | FolderId | int32 |  |
 | StripAttachments | bool |  |
-
 
 ## Response: string
 
@@ -66,7 +56,6 @@ OK
 | 200 | OK |
 
 Response body: string
-
 
 ## Sample request
 

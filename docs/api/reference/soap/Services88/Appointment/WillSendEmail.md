@@ -17,7 +17,6 @@ Returns true if the changes will trigger email sending on Save, so you can infor
 
 **Returns:** True if the changes to the appointment and preference settings etc. indicates an email should be sent.
 
-
 [WSDL file for Services88/Appointment](../Services88-Appointment.md)
 
 Obtain a ticket from the [Services88/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -454,7 +453,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
-
 ## WillSendEmail Response
 
 ```xml
@@ -475,4 +473,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

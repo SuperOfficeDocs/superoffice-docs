@@ -17,7 +17,6 @@ Gets the string value of an Audience configuration parameter belonging to the cu
 
 **Returns:** The string value of the Audience configuration parameter.
 
-
 [WSDL file for Services87/Audience](../Services87-Audience.md)
 
 Obtain a ticket from the [Services87/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -49,7 +48,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
-
 ## GetMyConfigParameterValue Response
 
 ```xml
@@ -69,4 +67,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

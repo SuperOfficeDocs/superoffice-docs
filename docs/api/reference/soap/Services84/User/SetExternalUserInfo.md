@@ -20,8 +20,6 @@ Modifies an external user. Changes external users information according to the f
 * **roleId:** Id of role for the external user. The role must be a role of type external users.
 * **externalUserInfoModification:** externalUserInfoModification is a flag describing what to change. <see cref="T:SuperOffice.CRM.Services.Util.ExternalUserInfoModification" />.
 
-
-
 [WSDL file for Services84/User](../Services84-User.md)
 
 Obtain a ticket from the [Services84/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -59,7 +57,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
-
 ## SetExternalUserInfo Response
 
 ```xml
@@ -79,4 +76,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

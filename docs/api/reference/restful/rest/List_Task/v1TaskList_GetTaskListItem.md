@@ -11,18 +11,11 @@ GET /api/v1/List/Task/Items/{id}
 
 Gets a TaskListItem list item.
 
-
 Calls the Appointment agent service GetTaskListItem.
-
-
-
-
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | id | int32 | The id of the Task to return. **Required** |
-
-
 
 ## Request Headers
 
@@ -37,8 +30,7 @@ Calls the Appointment agent service GetTaskListItem.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-
-## Response: 
+## Response
 
 OK
 
@@ -47,7 +39,7 @@ OK
 | 200 | OK |
 | 404 | Not Found. |
 
-Response body: 
+Response body:
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|

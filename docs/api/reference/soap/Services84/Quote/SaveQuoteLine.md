@@ -17,7 +17,6 @@ Saves the QuoteLine in the SuperOffice database
 
 **Returns:** The updated quote line (If the quoteline was new, it returns with id's set.
 
-
 [WSDL file for Services84/Quote](../Services84-Quote.md)
 
 Obtain a ticket from the [Services84/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -106,7 +105,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
-
 ## SaveQuoteLine Response
 
 ```xml
@@ -183,4 +181,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

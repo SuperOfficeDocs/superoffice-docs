@@ -7,15 +7,13 @@ title: List_ProductCategory
 ```
 
 ---
+
 title: List_ProductCategory
 ---
 
 ```http
 /api/v1/List/ProductCategory
 ```
-
-
-
 
 * [GET List/ProductCategory](v1ProductCategoryList_GetListDefinition.md)
 
@@ -54,7 +52,6 @@ title: List_ProductCategory
 * [PUT List/ProductCategory/Items/{id}/Headings](v1ProductCategoryList_PutProductCategoryHeadingsForListItem.md)
 
 * [GET List/ProductCategory/MDOItems](v1ProductCategoryList_GetMDOList.md)
-
 
 * [GET List/ProductCategory](v1ProductCategoryList_GetListDefinition.md)
 

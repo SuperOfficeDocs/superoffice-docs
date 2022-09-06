@@ -16,8 +16,6 @@ Stores the product thumbnail that is displayed in the CRM application. The image
 * **productId:** The project id of the product the image belongs to.
 * **image:** The image that is stored on the product (System.Drawing.Image); scaled down to no more than 200x200
 
-
-
 [WSDL file for Services84/BLOB](../Services84-BLOB.md)
 
 Obtain a ticket from the [Services84/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -50,7 +48,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
-
 ## SetProductThumbnail Response
 
 ```xml
@@ -69,4 +66,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

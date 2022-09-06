@@ -11,16 +11,9 @@ POST /api/v1/Agents/CRMScript/ExecuteScriptAsEvent
 
 Execute a CRMScript with event data as input.
 
-
 Returns event data with output variable values.
 
-
-## Online Restricted: ## The CRMScript agent is not available in Online by default. Access must be requested specifically when app is registered.
-
-
-
-
-
+## Online Restricted: ## The CRMScript agent is not available in Online by default. Access must be requested specifically when app is registered
 
 ## Query String Parameters
 
@@ -31,7 +24,6 @@ Returns event data with output variable values.
 ```http
 POST /api/v1/Agents/CRMScript/ExecuteScriptAsEvent?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -47,17 +39,16 @@ POST /api/v1/Agents/CRMScript/ExecuteScriptAsEvent?$select=name,department,categ
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request
 
-CRMScriptId, EventData 
+CRMScriptId, EventData
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | CRMScriptId | int32 |  |
 | EventData |  | EventData containing data related to event handlers <para /> Carrier object for EventData. Services for the EventData Carrier is available from the <see cref="T:SuperOffice.CRM.Services.ICustomerServiceAgent">CustomerService Agent</see>. |
 
-
-## Response: 
+## Response
 
 OK
 
@@ -65,7 +56,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+Response body:
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|

@@ -15,15 +15,11 @@ so.envir:
 ---
 
 # "productimage" MDO List
+
 Return product images from the blob table
-
-
 
 Implemented by the <see cref="T:SuperOffice.CRM.Lists.ProductImageProvider">ProductImageProvider</see> class.
 The name of the MDO list is 'productimage'.
-
-
-
 
 ## Sample Request
 
@@ -36,6 +32,7 @@ Accept-Language: *
 ```
 
 ## Sample Code
+
 ```cs
 var listProvider = SuperOffice.CRM.Lists.SoListProviderFactory.Create("productimage", forceFlatList: true);
 foreach (var item in listProvider.RootItems) {
@@ -69,7 +66,6 @@ foreach (var item in listProvider.RootItems) {
 |641|641|||
 |642|642|||
 |643|643|||
-
 
 ## Related MDO Lists
 

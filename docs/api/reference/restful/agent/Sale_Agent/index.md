@@ -7,15 +7,13 @@ title: Sale_Agent
 ```
 
 ---
+
 title: Sale_Agent
 ---
 
 ```http
 /api/v1/Sale/Agent
 ```
-
-
-
 
 * [POST Agents/Sale/CreateDefaultSaleEntity](v1SaleAgent_CreateDefaultSaleEntity.md)
 
@@ -94,7 +92,6 @@ title: Sale_Agent
 * [POST Agents/Sale/GetSummaryByGroup](v1SaleAgent_GetSummaryByGroup.md)
 
 * [POST Agents/Sale/GetSummaryByContact](v1SaleAgent_GetSummaryByContact.md)
-
 
 * [POST Agents/Sale/CreateDefaultSaleEntity](v1SaleAgent_CreateDefaultSaleEntity.md)
 

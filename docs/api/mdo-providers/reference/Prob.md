@@ -15,15 +15,11 @@ so.envir:
 ---
 
 # "prob" MDO List
+
 GenericMDOProvider reads MDO lists with default settings
-
-
 
 Implemented by the <see cref="T:SuperOffice.CRM.Lists.GenericMDOProvider">GenericMDOProvider</see> class.
 The name of the MDO list is 'prob'.
-
-
-
 
 ## Sample Request
 
@@ -36,6 +32,7 @@ Accept-Language: *
 ```
 
 ## Sample Code
+
 ```cs
 var listProvider = SuperOffice.CRM.Lists.SoListProviderFactory.Create("prob", forceFlatList: true);
 foreach (var item in listProvider.RootItems) {
@@ -53,7 +50,6 @@ foreach (var item in listProvider.RootItems) {
 |3|Muntlig aksept|||
 |1|Sendt tilbud|||
 |2|Sluttforhandlinger|||
-
 
 ## Related MDO Lists
 

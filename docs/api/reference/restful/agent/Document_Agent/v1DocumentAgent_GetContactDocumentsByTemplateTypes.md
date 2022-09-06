@@ -11,13 +11,7 @@ POST /api/v1/Agents/Document/GetContactDocumentsByTemplateTypes
 
 Method that returns a specified number of document appointments within a time range, filtered by document template types.
 
-
 The document appointments belong to the contact specified.
-
-
-
-
-
 
 ## Query String Parameters
 
@@ -28,7 +22,6 @@ The document appointments belong to the contact specified.
 ```http
 POST /api/v1/Agents/Document/GetContactDocumentsByTemplateTypes?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -44,9 +37,9 @@ POST /api/v1/Agents/Document/GetContactDocumentsByTemplateTypes?$select=name,dep
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request
 
-ContactId, StartTime, EndTime, Count, DocumentTemplateIds 
+ContactId, StartTime, EndTime, Count, DocumentTemplateIds
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -55,7 +48,6 @@ ContactId, StartTime, EndTime, Count, DocumentTemplateIds
 | EndTime | date-time |  |
 | Count | int32 |  |
 | DocumentTemplateIds | array |  |
-
 
 ## Response: array
 

@@ -16,8 +16,6 @@ Toggles active state of a single row in the TZLocation table
 * **filter:** Filter timezones
 * **active:** Set active to true or false
 
-
-
 [WSDL file for Services88/TimeZone](../Services88-TimeZone.md)
 
 Obtain a ticket from the [Services88/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -50,7 +48,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
-
 ## SetActiveTimeZonesByFilter Response
 
 ```xml
@@ -69,4 +66,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

@@ -11,12 +11,6 @@ POST /api/v1/Agents/Preference/DeletePrefDescLinesByPrefDescIds
 
 Delete the PrefDescLines associated with Preference Description Ids in the SuperOffice database
 
-
-
-
-
-
-
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -26,7 +20,6 @@ Delete the PrefDescLines associated with Preference Description Ids in the Super
 ```http
 POST /api/v1/Agents/Preference/DeletePrefDescLinesByPrefDescIds?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -38,16 +31,15 @@ POST /api/v1/Agents/Preference/DeletePrefDescLinesByPrefDescIds?$select=name,dep
 | Accept         | Content-type(s) you would like the response in:  |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request
 
-PrefDescIds 
+PrefDescIds
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | PrefDescIds | array |  |
 
-
-## Response: 
+## Response
 
 No Content
 
@@ -55,8 +47,7 @@ No Content
 |----------------|-------------|
 | 204 | No Content |
 
-Response body: 
-
+Response body:
 
 ## Sample request
 

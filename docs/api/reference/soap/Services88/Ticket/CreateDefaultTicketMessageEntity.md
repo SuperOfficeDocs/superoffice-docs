@@ -14,9 +14,7 @@ Implemented by the <see cref="M:SuperOffice.Services88.ITicketAgent.CreateDefaul
 Loading default values into a new TicketMessageEntity.
 NetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance
 
-
 **Returns:** New TicketMessageEntity with default values
-
 
 [WSDL file for Services88/Ticket](../Services88-Ticket.md)
 
@@ -48,7 +46,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-
 
 ## CreateDefaultTicketMessageEntity Response
 
@@ -222,4 +219,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

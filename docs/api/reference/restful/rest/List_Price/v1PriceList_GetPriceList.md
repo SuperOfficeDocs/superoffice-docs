@@ -11,17 +11,11 @@ GET /api/v1/Pricelist/{id}
 
 Gets a PriceList object.
 
-
 Calls the Quote agent service GetPriceList.
-
-
-
-
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | id | int32 | The id of the PriceList to return. **Required** |
-
 
 ## Query String Parameters
 
@@ -32,7 +26,6 @@ Calls the Quote agent service GetPriceList.
 ```http
 GET /api/v1/Pricelist/{id}?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -47,8 +40,7 @@ GET /api/v1/Pricelist/{id}?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-
-## Response: 
+## Response
 
 PriceList found.
 
@@ -57,7 +49,7 @@ PriceList found.
 | 200 | PriceList found. |
 | 404 | Not Found. |
 
-Response body: 
+Response body:
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|

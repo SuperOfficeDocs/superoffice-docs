@@ -11,12 +11,8 @@ Implemented by the <see cref="M:SuperOffice.Services85.IEMailAgent.GetEmailsAsSt
 
 ## GetEmailsAsString
 
-
-
-* **connectionInfoExtended:** 
-* **messageIds:** 
-
-
+* **connectionInfoExtended:**
+* **messageIds:**
 
 [WSDL file for Services85/EMail](../Services85-EMail.md)
 
@@ -61,7 +57,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
-
 ## GetEmailsAsString Response
 
 ```xml
@@ -84,4 +79,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

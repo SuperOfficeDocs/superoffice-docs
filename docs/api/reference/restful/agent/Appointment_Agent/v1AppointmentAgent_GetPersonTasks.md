@@ -11,13 +11,7 @@ POST /api/v1/Agents/Appointment/GetPersonTasks
 
 Method that returns a specified number of appointments within a time range.
 
-
 It only returns appointments that would be displayed in the user's task list. The appointments belong to the person specified. If the person not is a SuperOffice user (associate) or the logged on user is not allowed to view this persons appointments an exception is thrown.
-
-
-
-
-
 
 ## Query String Parameters
 
@@ -28,7 +22,6 @@ It only returns appointments that would be displayed in the user's task list. Th
 ```http
 POST /api/v1/Agents/Appointment/GetPersonTasks?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -44,15 +37,14 @@ POST /api/v1/Agents/Appointment/GetPersonTasks?$select=name,department,category/
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request
 
-PersonId, Count 
+PersonId, Count
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | PersonId | int32 |  |
 | Count | int32 |  |
-
 
 ## Response: array
 

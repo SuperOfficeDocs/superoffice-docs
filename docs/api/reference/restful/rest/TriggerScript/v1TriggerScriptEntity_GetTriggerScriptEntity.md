@@ -11,20 +11,13 @@ GET /api/v1/TriggerScript/{id}
 
 Gets a TriggerScriptEntity object.
 
-
 Calls the CRMScript agent service GetTriggerScriptEntity.
 
-
-## Online Restricted: ## The CRMScript agent is not available in Online by default. Access must be requested specifically when app is registered.
-
-
-
-
+## Online Restricted: ## The CRMScript agent is not available in Online by default. Access must be requested specifically when app is registered
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | id | int32 | The id of the TriggerScriptEntity to return. **Required** |
-
 
 ## Query String Parameters
 
@@ -35,7 +28,6 @@ Calls the CRMScript agent service GetTriggerScriptEntity.
 ```http
 GET /api/v1/TriggerScript/{id}?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -50,8 +42,7 @@ GET /api/v1/TriggerScript/{id}?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-
-## Response: 
+## Response
 
 TriggerScriptEntity found.
 
@@ -60,7 +51,7 @@ TriggerScriptEntity found.
 | 200 | TriggerScriptEntity found. |
 | 404 | Not Found. |
 
-Response body: 
+Response body:
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -69,7 +60,7 @@ Response body:
 | ScreenType | string | Event id that triggers script.  See EventHandlerType enum. |
 | Enabled | bool | Whether this screen chooser is enabled or not |
 | UniqueIdentifier | string | Global unique identifier, accross customers/tenants |
-| Source | string | The CRMscript code for this event handler |
+| Source | string | The CRMScript code for this event handler |
 | Registered | date-time | Registered when  in UTC. |
 | RegisteredAssociateId | int32 | Registered by whom |
 | Updated | date-time | Last updated when  in UTC. |

@@ -14,9 +14,7 @@ Implemented by the <see cref="M:SuperOffice.Services88.ITargetsAgent.CreateDefau
 Loading default values into a new TargetDimension.
 NetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance
 
-
 **Returns:** New TargetDimension with default values
-
 
 [WSDL file for Services88/Targets](../Services88-Targets.md)
 
@@ -49,7 +47,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
-
 ## CreateDefaultTargetDimension Response
 
 ```xml
@@ -80,4 +77,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

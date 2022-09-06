@@ -11,12 +11,6 @@ POST /api/v1/Agents/List/GetLocalizedTextsByLanguageId
 
 Gets all localized text belonging to a specific language.
 
-
-
-
-
-
-
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -26,7 +20,6 @@ Gets all localized text belonging to a specific language.
 ```http
 POST /api/v1/Agents/List/GetLocalizedTextsByLanguageId?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -42,14 +35,13 @@ POST /api/v1/Agents/List/GetLocalizedTextsByLanguageId?$select=name,department,c
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request
 
-LanguageId 
+LanguageId
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | LanguageId | int32 |  |
-
 
 ## Response: array
 

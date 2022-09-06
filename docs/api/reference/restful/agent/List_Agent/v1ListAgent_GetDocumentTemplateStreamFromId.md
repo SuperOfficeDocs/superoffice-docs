@@ -11,12 +11,6 @@ POST /api/v1/Agents/List/GetDocumentTemplateStreamFromId
 
 Retrieve a stream to a document template based on its id
 
-
-
-
-
-
-
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -26,7 +20,6 @@ Retrieve a stream to a document template based on its id
 ```http
 POST /api/v1/Agents/List/GetDocumentTemplateStreamFromId?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -42,15 +35,14 @@ POST /api/v1/Agents/List/GetDocumentTemplateStreamFromId?$select=name,department
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request
 
-DocumentTemplateId, LanguageCode 
+DocumentTemplateId, LanguageCode
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | DocumentTemplateId | int32 |  |
 | LanguageCode | string |  |
-
 
 ## Response: byte
 
@@ -61,7 +53,6 @@ OK
 | 200 | OK |
 
 Response body: byte
-
 
 ## Sample request
 

@@ -18,7 +18,6 @@ Get all stored fields for a given tablename/entity and context
 
 **Returns:** Returns array of the stored or default fields for the given entity
 
-
 [WSDL file for Services88/BulkUpdate](../Services88-BulkUpdate.md)
 
 Obtain a ticket from the [Services88/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -51,7 +50,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-
 
 ## GetStoredFields Response
 
@@ -115,4 +113,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

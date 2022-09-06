@@ -11,16 +11,9 @@ GET /api/v1/ShipmentMessageBlock/Associate/{associateId}
 
 Get the saved user blocks to be used in a shipment/mailing message
 
-
-
-
-
-
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | associateId | int32 | The associate id to get the user blocks. 0 will get all saved blocks **Required** |
-
-
 
 ## Request Headers
 
@@ -34,7 +27,6 @@ Get the saved user blocks to be used in a shipment/mailing message
 | SO-Culture | Number, date formatting in a specified culture (iso2 language) code. Partially overrides SO-Language/Accept-Language value. Ignored if no Language set. |
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
-
 
 ## Response: array
 

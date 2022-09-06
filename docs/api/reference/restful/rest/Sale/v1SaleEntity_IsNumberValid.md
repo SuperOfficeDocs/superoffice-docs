@@ -11,19 +11,12 @@ GET /api/v1/Sale/{contactId}/IsNumberValid/{number}
 
 Checks if the number is unique or required.
 
-
 The setting is configured from admin under system options.
-
-
-
-
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | contactId | int32 | SaleId **Required** |
 | number | string | Number value to check for uniqueness/required **Required** |
-
-
 
 ## Request Headers
 
@@ -38,7 +31,6 @@ The setting is configured from admin under system options.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-
 ## Response: bool
 
 OK
@@ -48,7 +40,6 @@ OK
 | 200 | OK |
 
 Response body: bool
-
 
 ## Sample request
 

@@ -34,4 +34,3 @@ Download [WSDL file for Services88/Targets](../Services88-Targets.md) if you nee
 * [GetTargetRevisionHistory](GetTargetRevisionHistory.md)
 * [SaveTargetDimension](SaveTargetDimension.md)
 * [SaveTargetGroup](SaveTargetGroup.md)
-

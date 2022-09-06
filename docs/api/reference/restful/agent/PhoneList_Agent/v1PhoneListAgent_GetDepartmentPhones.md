@@ -11,13 +11,7 @@ POST /api/v1/Agents/PhoneList/GetDepartmentPhones
 
 Returns an array of phone list items with the in-parameter as restriction.
 
-
 The in-parameter must be a valid department id (UserGroupId).
-
-
-
-
-
 
 ## Query String Parameters
 
@@ -28,7 +22,6 @@ The in-parameter must be a valid department id (UserGroupId).
 ```http
 POST /api/v1/Agents/PhoneList/GetDepartmentPhones?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -44,14 +37,13 @@ POST /api/v1/Agents/PhoneList/GetDepartmentPhones?$select=name,department,catego
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request
 
-DepartmentId 
+DepartmentId
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | DepartmentId | int32 |  |
-
 
 ## Response: array
 

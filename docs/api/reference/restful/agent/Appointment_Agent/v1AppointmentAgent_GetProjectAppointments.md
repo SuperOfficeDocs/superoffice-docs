@@ -11,13 +11,7 @@ POST /api/v1/Agents/Appointment/GetProjectAppointments
 
 Method that returns a specified number of appointments within a time range.
 
-
 The appointments belong to the project specified. If the logged on user is not allowed to view this projects appointments an exception is thrown.
-
-
-
-
-
 
 ## Query String Parameters
 
@@ -28,7 +22,6 @@ The appointments belong to the project specified. If the logged on user is not a
 ```http
 POST /api/v1/Agents/Appointment/GetProjectAppointments?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -44,9 +37,9 @@ POST /api/v1/Agents/Appointment/GetProjectAppointments?$select=name,department,c
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request
 
-ProjectId, StartTime, EndTime, Count 
+ProjectId, StartTime, EndTime, Count
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -54,7 +47,6 @@ ProjectId, StartTime, EndTime, Count
 | StartTime | date-time |  |
 | EndTime | date-time |  |
 | Count | int32 |  |
-
 
 ## Response: array
 

@@ -19,8 +19,6 @@ Merge two persons. The destination person will remain. You must specify the date
 * **deleteSource:** If true, the source person will be deleted after the merge. If false, it will have its retired flag set
 * **replaceEmptyFieldsOnDestination:** If true, empty fields on destination will be replaced by values from source.
 
-
-
 [WSDL file for Services85/Person](../Services85-Person.md)
 
 Obtain a ticket from the [Services85/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -57,7 +55,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
-
 ## Merge Response
 
 ```xml
@@ -77,4 +74,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-
