@@ -11,6 +11,6 @@ so.client: online
 
 # Developer Registration
 
-Get your own sandbox tenant and begin creating online apps in our development environment!
+Get your own sandbox tenant and login to our developer portal to begin creating online apps in our development environment!
 
 <script src='https://online2.superoffice.com/Cust1990/CS/scripts/customer.fcgi?action=form&id=9'></script>
