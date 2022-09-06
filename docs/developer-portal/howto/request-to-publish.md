@@ -31,7 +31,7 @@ In all three cases, after you click the **Request to Publish** button we create 
 1. In the [Developer Portal][9], go to your application page.
 2. Select **Configuration** from the left menu.
 3. Click the **Request to Publish** button.
-4. The version is now listed as pending. Look for the support email from us.
+4. The version is now listed as pending. Look for the support email from us. The configuration may not be used in the requested environment before it is approved.
 
 Need to update something?
 
