@@ -11,13 +11,6 @@ POST /api/v1/Agents/Dash/SaveDash
 
 Updates the existing Dash or creates a new Dash if the id parameter is empty
 
-
-
-
-
-
-
-
 ## Request Headers
 
 | Parameter Name | Description |
@@ -32,9 +25,9 @@ Updates the existing Dash or creates a new Dash if the id parameter is empty
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entity  
+## Request Body: entity
 
-The Dash to be saved. 
+The Dash to be saved.
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -52,8 +45,7 @@ The Dash to be saved.
 | PinForAssociates | array | Array of references to the pinned associates |
 | PinForGroups | array | Array of references to the pinned groups |
 
-
-## Response: 
+## Response
 
 OK
 
@@ -61,7 +53,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+Response body:
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|

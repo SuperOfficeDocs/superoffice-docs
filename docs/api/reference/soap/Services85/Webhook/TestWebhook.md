@@ -17,7 +17,6 @@ Pings a webhook with a 'test' event, returns SUCCESS(true) or FAILURE(false) + t
 
 **Returns:** Result of calling webhook. Sucess=true/false + Error message
 
-
 [WSDL file for Services85/Webhook](../Services85-Webhook.md)
 
 Obtain a ticket from the [Services85/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -100,7 +99,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
-
 ## TestWebhook Response
 
 ```xml
@@ -124,4 +122,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

@@ -21,4 +21,3 @@ Download [WSDL file for Services84/Messaging](../Services84-Messaging.md) if you
 * [SendMessages](SendMessages.md)
 * [SendMessagesWithConfig](SendMessagesWithConfig.md)
 * [SetDeliveryStatus](SetDeliveryStatus.md)
-

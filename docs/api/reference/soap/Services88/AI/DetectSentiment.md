@@ -17,7 +17,6 @@ Detect the sentiment of a (reasonably short) text. Sentiment analysis may cause 
 
 **Returns:** The sentiment information: score (-100 to +100) and confidence
 
-
 [WSDL file for Services88/AI](../Services88-AI.md)
 
 Obtain a ticket from the [Services88/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -49,7 +48,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
-
 ## DetectSentiment Response
 
 ```xml
@@ -72,4 +70,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

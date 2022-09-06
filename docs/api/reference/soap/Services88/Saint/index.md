@@ -29,4 +29,3 @@ Download [WSDL file for Services88/Saint](../Services88-Saint.md) if you need to
 * [SaveStatusMonitor](SaveStatusMonitor.md)
 * [SaveStatusMonitorPeriods](SaveStatusMonitorPeriods.md)
 * [SetRankOnStatusMonitors](SetRankOnStatusMonitors.md)
-

@@ -7,15 +7,13 @@ title: List_Position
 ```
 
 ---
+
 title: List_Position
 ---
 
 ```http
 /api/v1/List/Position
 ```
-
-
-
 
 * [GET List/Position](v1PositionList_GetListDefinition.md)
 
@@ -54,7 +52,6 @@ title: List_Position
 * [PUT List/Position/Items/{id}/Headings](v1PositionList_PutPositionHeadingsForListItem.md)
 
 * [GET List/Position/MDOItems](v1PositionList_GetMDOList.md)
-
 
 * [GET List/Position](v1PositionList_GetListDefinition.md)
 

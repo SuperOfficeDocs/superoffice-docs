@@ -11,13 +11,7 @@ POST /api/v1/Agents/Document/GetPreviewDocumentStream
 
 Get the preview version of the document content as a stream.
 
-
 Retrieves a sanitized version if possible
-
-
-
-
-
 
 ## Query String Parameters
 
@@ -28,7 +22,6 @@ Retrieves a sanitized version if possible
 ```http
 POST /api/v1/Agents/Document/GetPreviewDocumentStream?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -44,16 +37,15 @@ POST /api/v1/Agents/Document/GetPreviewDocumentStream?$select=name,department,ca
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request
 
-DocumentId 
+DocumentId
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | DocumentId | int32 |  |
 
-
-## Response: 
+## Response
 
 OK
 
@@ -61,7 +53,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+Response body:
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|

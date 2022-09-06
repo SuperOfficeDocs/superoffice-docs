@@ -11,13 +11,7 @@ POST /api/v1/Agents/Person/SetPersonRank
 
 Directly set the rank field of a person record, adjusting all other person records under the same contact as needed.
 
-
 &lt;para/&gt;This call may affect multiple records, potentially all person records belonging to one contact.&lt;para/&gt;You must have write access for to affected records for this method to succeed.
-
-
-
-
-
 
 ## Query String Parameters
 
@@ -28,7 +22,6 @@ Directly set the rank field of a person record, adjusting all other person recor
 ```http
 POST /api/v1/Agents/Person/SetPersonRank?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -44,15 +37,14 @@ POST /api/v1/Agents/Person/SetPersonRank?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request
 
-PersonId, DesiredRank 
+PersonId, DesiredRank
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | PersonId | int32 |  |
 | DesiredRank | int32 |  |
-
 
 ## Response: bool
 
@@ -63,7 +55,6 @@ OK
 | 200 | OK |
 
 Response body: bool
-
 
 ## Sample request
 

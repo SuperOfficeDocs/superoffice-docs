@@ -34,4 +34,3 @@ Download [WSDL file for Services87/License](../Services87-License.md) if you nee
 * [RemoveLicenseFromDB](RemoveLicenseFromDB.md)
 * [UnassignThirdPartyLicenses](UnassignThirdPartyLicenses.md)
 * [ValidateLicenseInfo](ValidateLicenseInfo.md)
-

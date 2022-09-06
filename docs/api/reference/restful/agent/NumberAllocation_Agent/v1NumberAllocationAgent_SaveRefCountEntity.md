@@ -11,13 +11,6 @@ POST /api/v1/Agents/NumberAllocation/SaveRefCountEntity
 
 Updates the existing RefCountEntity or creates a new RefCountEntity if the id parameter is empty
 
-
-
-
-
-
-
-
 ## Request Headers
 
 | Parameter Name | Description |
@@ -32,9 +25,9 @@ Updates the existing RefCountEntity or creates a new RefCountEntity if the id pa
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entity  
+## Request Body: entity
 
-The RefCountEntity to be saved. 
+The RefCountEntity to be saved.
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -50,8 +43,7 @@ The RefCountEntity to be saved.
 | ReadOnly | bool | Target field is read only in GUI |
 | AllowBlank | bool | Allow blank  as a valid value |
 
-
-## Response: 
+## Response
 
 OK
 
@@ -59,7 +51,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+Response body:
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|

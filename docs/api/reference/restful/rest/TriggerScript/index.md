@@ -7,15 +7,13 @@ title: TriggerScript
 ```
 
 ---
+
 title: TriggerScript
 ---
 
 ```http
 /api/v1/TriggerScript
 ```
-
-
-
 
 * [GET TriggerScript/default](v1TriggerScriptEntity_DefaultTriggerScriptEntity.md)
 
@@ -40,7 +38,6 @@ title: TriggerScript
 * [GET TriggerScript/{id}/Validate](v1TriggerScriptEntity_ValidateTriggerScript.md)
 
 * [GET TriggerScript/{id}/Validate](v1TriggerScriptEntity_ValidateTriggerScriptByUniqueId.md)
-
 
 * [GET TriggerScript/default](v1TriggerScriptEntity_DefaultTriggerScriptEntity.md)
 

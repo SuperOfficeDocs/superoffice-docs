@@ -11,15 +11,9 @@ GET /api/v1/String/{sr_id}
 
 Gets the value of the string(s) with a given name in all known languages.
 
-
-
-
-
-
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | sr_id | string | The name of the string: SR_YES, SR_NO etc. You can specify multiple string ids separated by commas: "SR_YES,SR_NO" **Required** |
-
 
 ## Query String Parameters
 
@@ -32,7 +26,6 @@ Gets the value of the string(s) with a given name in all known languages.
 GET /api/v1/String/{sr_id}?isoLangCode=error
 GET /api/v1/String/{sr_id}?ignoreOverrides=False
 ```
-
 
 ## Request Headers
 
@@ -47,7 +40,6 @@ GET /api/v1/String/{sr_id}?ignoreOverrides=False
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-
 ## Response: object
 
 OK
@@ -57,7 +49,6 @@ OK
 | 200 | OK |
 
 Response body: object
-
 
 ## Sample request
 

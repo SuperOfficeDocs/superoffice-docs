@@ -11,20 +11,11 @@ POST /api/v1/CRMScript/{cRMScriptId}/Execute
 
 Execute a CRMScript with parameters, returning printed output value.
 
-
-
-
-## Online Restricted: ## The CRMScript agent is not available in Online by default. Access must be requested specifically when app is registered.
-
-
-
-
+## Online Restricted: ## The CRMScript agent is not available in Online by default. Access must be requested specifically when app is registered
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | cRMScriptId | int32 | The id of the CRMScript to execute **Required** |
-
-
 
 ## Request Headers
 
@@ -40,11 +31,9 @@ Execute a CRMScript with parameters, returning printed output value.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: parameters  
+## Request Body: parameters
 
-Parameters passed as variables to the CRMScript 
-
-
+Parameters passed as variables to the CRMScript
 
 ## Response: string
 
@@ -55,7 +44,6 @@ OK
 | 200 | OK |
 
 Response body: string
-
 
 ## Sample request
 

@@ -17,7 +17,6 @@ Get the published documents from an array of doucment ids.
 
 **Returns:** Array of Document
 
-
 [WSDL file for Services86/Document](../Services86-Document.md)
 
 Obtain a ticket from the [Services86/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -51,7 +50,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-
 
 ## GetPublishedDocuments Response
 
@@ -93,4 +91,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

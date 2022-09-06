@@ -18,8 +18,6 @@ Sets a user defined fields as page one field.
 * **userGroupId:** The usergroup id to associate the page one field with.
 * **fieldLineNo:** Page one line number
 
-
-
 [WSDL file for Services88/UserDefinedFieldInfo](../Services88-UserDefinedFieldInfo.md)
 
 Obtain a ticket from the [Services88/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -55,7 +53,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
-
 ## SetUserDefinedPageOneField Response
 
 ```xml
@@ -75,4 +72,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

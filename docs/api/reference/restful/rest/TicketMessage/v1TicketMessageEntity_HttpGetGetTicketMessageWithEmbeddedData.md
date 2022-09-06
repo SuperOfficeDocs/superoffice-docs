@@ -11,17 +11,11 @@ GET /api/v1/TicketMessage/{id}
 
 Get a ticket message entity with posibillity to change embedded images to be represented with inline data within the HTML body.
 
-
 If using inline data, be sure not to save this back to the database.
-
-
-
-
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | id | int32 | The id of the ticket message entity **Required** |
-
 
 ## Query String Parameters
 
@@ -32,7 +26,6 @@ If using inline data, be sure not to save this back to the database.
 ```http
 GET /api/v1/TicketMessage/{id}?embedImages=Inline
 ```
-
 
 ## Request Headers
 
@@ -47,8 +40,7 @@ GET /api/v1/TicketMessage/{id}?embedImages=Inline
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-
-## Response: 
+## Response
 
 OK
 
@@ -57,7 +49,7 @@ OK
 | 200 | OK |
 | 404 | Not Found. |
 
-Response body: 
+Response body:
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|

@@ -11,15 +11,9 @@ PUT /api/v1/ChatTopic/{id}
 
 Updates the existing ChatTopicEntity
 
-
-
-
-
-
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | id | int32 | The ChatTopicEntity id to update. **Required** |
-
 
 ## Query String Parameters
 
@@ -30,7 +24,6 @@ Updates the existing ChatTopicEntity
 ```http
 PUT /api/v1/ChatTopic/{id}?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -46,9 +39,9 @@ PUT /api/v1/ChatTopic/{id}?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entity  
+## Request Body: entity
 
-The ChatTopicEntity to be saved. 
+The ChatTopicEntity to be saved.
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -84,8 +77,7 @@ The ChatTopicEntity to be saved.
 | WidgetEnableRating | bool | Enable rating functionality in the chat widgte |
 | WidgetRatingText | string | The text to be displayed in the widget next to the rating stars |
 
-
-## Response: 
+## Response
 
 ChatTopicEntity updated.
 
@@ -94,7 +86,7 @@ ChatTopicEntity updated.
 | 200 | ChatTopicEntity updated. |
 | 400 | Bad request. Entity to save is not in request body. |
 
-Response body: 
+Response body:
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|

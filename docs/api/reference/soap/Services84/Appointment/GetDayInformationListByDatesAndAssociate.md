@@ -19,7 +19,6 @@ Get combined day information (activity + redletter summary) for one or more days
 
 **Returns:** Exactly one item per day of the given time span is returned. Days where nothing happens will have all values set to 0, but will still be in the returned array. Start end dates are treated as inclusive.
 
-
 [WSDL file for Services84/Appointment](../Services84-Appointment.md)
 
 Obtain a ticket from the [Services84/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -54,7 +53,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
-
 ## GetDayInformationListByDatesAndAssociate Response
 
 ```xml
@@ -88,4 +86,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

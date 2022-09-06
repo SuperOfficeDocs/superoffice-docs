@@ -11,13 +11,7 @@ POST /api/v1/Agents/Appointment/GetAppointmentRecords
 
 Get all records involved in a booking and/or recurring appointments.
 
-
 MotherId can be zero for repeating appointments or bookings, and recurrenceRuleId can be zero for bookings that are not repeating.
-
-
-
-
-
 
 ## Query String Parameters
 
@@ -28,7 +22,6 @@ MotherId can be zero for repeating appointments or bookings, and recurrenceRuleI
 ```http
 POST /api/v1/Agents/Appointment/GetAppointmentRecords?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -44,15 +37,14 @@ POST /api/v1/Agents/Appointment/GetAppointmentRecords?$select=name,department,ca
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request
 
-MotherId, RecurrenceRuleId 
+MotherId, RecurrenceRuleId
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | MotherId | int32 |  |
 | RecurrenceRuleId | int32 |  |
-
 
 ## Response: array
 

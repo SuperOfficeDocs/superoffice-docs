@@ -7,15 +7,13 @@ title: Preference_Agent
 ```
 
 ---
+
 title: Preference_Agent
 ---
 
 ```http
 /api/v1/Preference/Agent
 ```
-
-
-
 
 * [POST Agents/Preference/CreateDefaultPreference](v1PreferenceAgent_CreateDefaultPreference.md)
 
@@ -90,7 +88,6 @@ title: Preference_Agent
 * [POST Agents/Preference/SaveTabOrders](v1PreferenceAgent_SaveTabOrders.md)
 
 * [POST Agents/Preference/SavePreferenceEntities](v1PreferenceAgent_SavePreferenceEntities.md)
-
 
 * [POST Agents/Preference/CreateDefaultPreference](v1PreferenceAgent_CreateDefaultPreference.md)
 

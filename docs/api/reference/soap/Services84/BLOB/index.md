@@ -44,4 +44,3 @@ Download [WSDL file for Services84/BLOB](../Services84-BLOB.md) if you need to g
 * [SetProductImage](SetProductImage.md)
 * [SetProductThumbnail](SetProductThumbnail.md)
 * [SetProjectImage](SetProjectImage.md)
-

@@ -13,9 +13,7 @@ Implemented by the <see cref="M:SuperOffice.Services87.ITimeZoneAgent.UpdateTime
 
 Retrieve time zone data from the SuperOffice server and update TimeZone data in the database
 
-
 **Returns:** Returns true if the operation succeeded
-
 
 [WSDL file for Services87/TimeZone](../Services87-TimeZone.md)
 
@@ -47,7 +45,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
-
 ## UpdateTimeZoneData Response
 
 ```xml
@@ -67,4 +64,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

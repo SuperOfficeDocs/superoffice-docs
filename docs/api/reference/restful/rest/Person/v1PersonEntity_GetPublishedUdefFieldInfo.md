@@ -11,16 +11,9 @@ GET /api/v1/Person/UdefLayout/Published/{progidOrLabel}
 
 Get a published PersonEntity user-defined field's details based on the prog-id or label.
 
-
-
-
-
-
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | progidOrLabel | string | The udef field id, case-sensitive prog-id, or field label. **Required** |
-
-
 
 ## Request Headers
 
@@ -35,8 +28,7 @@ Get a published PersonEntity user-defined field's details based on the prog-id o
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-
-## Response: 
+## Response
 
 PersonEntity found.
 
@@ -45,7 +37,7 @@ PersonEntity found.
 | 200 | PersonEntity found. |
 | 404 | PersonEntity not found. |
 
-Response body: 
+Response body:
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|

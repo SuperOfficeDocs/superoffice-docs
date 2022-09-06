@@ -7,15 +7,13 @@ title: PreferenceDescription
 ```
 
 ---
+
 title: PreferenceDescription
 ---
 
 ```http
 /api/v1/PreferenceDescription
 ```
-
-
-
 
 * [GET PreferenceDescription/default](v1PreferenceDescription_DefaultPreferenceDescription.md)
 
@@ -38,7 +36,6 @@ title: PreferenceDescription
 * [DEL PreferenceDescription/{section}/{key}](v1PreferenceDescription_DeleteFromSectionAndKey.md)
 
 * [GET PreferenceDescription/{section}](v1PreferenceDescription_GetAllFromSection.md)
-
 
 * [GET PreferenceDescription/default](v1PreferenceDescription_DefaultPreferenceDescription.md)
 

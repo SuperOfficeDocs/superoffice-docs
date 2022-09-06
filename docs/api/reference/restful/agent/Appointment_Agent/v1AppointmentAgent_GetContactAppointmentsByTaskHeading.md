@@ -11,13 +11,7 @@ POST /api/v1/Agents/Appointment/GetContactAppointmentsByTaskHeading
 
 Method that returns a specified number of appointments of a specific appointment task heading within a time range.
 
-
 The appointments belong to the contact specified. Task represents the different types of activities, like “Phone call”, “Meeting” and so on. The heading represents a grouping or filtering of tasks.
-
-
-
-
-
 
 ## Query String Parameters
 
@@ -28,7 +22,6 @@ The appointments belong to the contact specified. Task represents the different 
 ```http
 POST /api/v1/Agents/Appointment/GetContactAppointmentsByTaskHeading?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -44,9 +37,9 @@ POST /api/v1/Agents/Appointment/GetContactAppointmentsByTaskHeading?$select=name
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request
 
-ContactId, StartTime, EndTime, Count, TaskHeadingId 
+ContactId, StartTime, EndTime, Count, TaskHeadingId
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -55,7 +48,6 @@ ContactId, StartTime, EndTime, Count, TaskHeadingId
 | EndTime | date-time |  |
 | Count | int32 |  |
 | TaskHeadingId | int32 |  |
-
 
 ## Response: array
 

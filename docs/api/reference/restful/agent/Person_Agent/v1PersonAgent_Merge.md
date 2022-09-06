@@ -11,13 +11,7 @@ POST /api/v1/Agents/Person/Merge
 
 Merge two persons.
 
-
 The destination person will remain. You must specify the date after which activities will be moved along with the person.
-
-
-
-
-
 
 ## Query String Parameters
 
@@ -29,7 +23,6 @@ The destination person will remain. You must specify the date after which activi
 POST /api/v1/Agents/Person/Merge?$select=name,department,category/id
 ```
 
-
 ## Request Headers
 
 | Parameter Name | Description |
@@ -40,9 +33,9 @@ POST /api/v1/Agents/Person/Merge?$select=name,department,category/id
 | Accept         | Content-type(s) you would like the response in:  |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request
 
-SourcePersonId, DestinationPersonId, MoveAfterDate, DeleteSource, ReplaceEmptyFieldsOnDestination 
+SourcePersonId, DestinationPersonId, MoveAfterDate, DeleteSource, ReplaceEmptyFieldsOnDestination
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -52,8 +45,7 @@ SourcePersonId, DestinationPersonId, MoveAfterDate, DeleteSource, ReplaceEmptyFi
 | DeleteSource | bool |  |
 | ReplaceEmptyFieldsOnDestination | bool |  |
 
-
-## Response: 
+## Response
 
 No Content
 
@@ -61,8 +53,7 @@ No Content
 |----------------|-------------|
 | 204 | No Content |
 
-Response body: 
-
+Response body:
 
 ## Sample request
 

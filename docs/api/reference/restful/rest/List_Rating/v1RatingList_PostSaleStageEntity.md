@@ -11,14 +11,7 @@ POST /api/v1/List/Rating/Items
 
 Create a new SaleStageEntity list item
 
-
 Calls the List agent service SaveSaleStageEntity.
-
-
-
-
-
-
 
 ## Request Headers
 
@@ -34,9 +27,9 @@ Calls the List agent service SaveSaleStageEntity.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: newEntity  
+## Request Body: newEntity
 
-The SaleStageEntity to be created. 
+The SaleStageEntity to be created.
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -47,8 +40,7 @@ The SaleStageEntity to be created.
 | Deleted | bool | If true, the Sale stage is deleted |
 | Rank | int32 | Rank order |
 
-
-## Response: 
+## Response
 
 OK
 
@@ -56,7 +48,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+Response body:
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|

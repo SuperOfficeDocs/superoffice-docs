@@ -13,9 +13,7 @@ Implemented by the <see cref="M:SuperOffice.Services88.IQuoteAgent.GetAllQuoteLi
 
 Returns all the configuration fields
 
-
 **Returns:** Array of QuoteLineConfigurations
-
 
 [WSDL file for Services88/Quote](../Services88-Quote.md)
 
@@ -47,7 +45,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-
 
 ## GetAllQuoteLineConfigurations Response
 
@@ -81,4 +78,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

@@ -17,7 +17,6 @@ Updates the existing FormEntity or creates a new FormEntity if the id parameter 
 
 **Returns:** New or updated FormEntity
 
-
 [WSDL file for Services85/Marketing](../Services85-Marketing.md)
 
 Obtain a ticket from the [Services85/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -68,7 +67,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
-
 ## SaveFormEntity Response
 
 ```xml
@@ -107,4 +105,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

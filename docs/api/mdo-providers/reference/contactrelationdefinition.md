@@ -15,6 +15,7 @@ so.envir:
 ---
 
 # "contactrelationdefinition" MDO List
+
 MDO list provider for contact/person relation definitions. This provider is a takes a mandatory
 additionalInfo parameter, that specifies what kind of relation should be fetched.
 
@@ -33,10 +34,6 @@ The name of the MDO list is 'contactrelationdefinition'.
 |-----|-----|------|
 |RelationType enum value. CC=Contact-Contact relations| |CC|
 
-
-
-
-
 ## Sample Request
 
 ```http!
@@ -48,6 +45,7 @@ Accept-Language: *
 ```
 
 ## Sample Code
+
 ```cs
 var listProvider = SuperOffice.CRM.Lists.SoListProviderFactory.Create("contactrelationdefinition", forceFlatList: true);
 foreach (var item in listProvider.RootItems) {
@@ -62,7 +60,6 @@ foreach (var item in listProvider.RootItems) {
 | --- | ----- | ------- | -------- |
 |1|eier||eies av|
 |7|kjenner||kjenner|
-
 
 ## Related MDO Lists
 

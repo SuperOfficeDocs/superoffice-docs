@@ -11,18 +11,11 @@ PUT /api/v1/List/WebPanel/Items/{id}
 
 Updates the existing WebPanelEntity
 
-
 Calls the List agent service SaveWebPanelEntity.
-
-
-
-
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | id | int32 | The id of WebPanelEntity to be saved. **Required** |
-
-
 
 ## Request Headers
 
@@ -38,9 +31,9 @@ Calls the List agent service SaveWebPanelEntity.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entity  
+## Request Body: entity
 
-The details of WebPanelEntity to be saved. 
+The details of WebPanelEntity to be saved.
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -66,8 +59,7 @@ The details of WebPanelEntity to be saved.
 | Icon | int32 | The icon of the webpanel |
 | AlwaysReloadOnShow | bool | If set to true, the content will reload every time the panel is shown |
 
-
-## Response: 
+## Response
 
 OK
 
@@ -76,7 +68,7 @@ OK
 | 200 | OK |
 | 400 | Bad request. Entity to save is not in request body. |
 
-Response body: 
+Response body:
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|

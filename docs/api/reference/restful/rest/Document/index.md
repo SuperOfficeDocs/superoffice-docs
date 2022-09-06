@@ -7,15 +7,13 @@ title: Document
 ```
 
 ---
+
 title: Document
 ---
 
 ```http
 /api/v1/Document
 ```
-
-
-
 
 * [GET Document/default](v1DocumentEntity_DefaultDocumentEntity.md)
 
@@ -98,7 +96,6 @@ title: Document
 * [POST Document/UdefLayout/Revert](v1DocumentEntity_RevertUdefLayout.md)
 
 * [GET Document/{id}/ForeignKey](v1DocumentEntity_GetAllForeignKeysOnEntity.md)
-
 
 * [GET Document/default](v1DocumentEntity_DefaultDocumentEntity.md)
 

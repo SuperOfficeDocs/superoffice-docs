@@ -17,7 +17,6 @@ Gets a TicketCategoryEntity object.
 
 **Returns:** TicketCategoryEntity
 
-
 [WSDL file for Services88/List](../Services88-List.md)
 
 Obtain a ticket from the [Services88/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -49,7 +48,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-
 
 ## GetTicketCategoryEntity Response
 
@@ -115,4 +113,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

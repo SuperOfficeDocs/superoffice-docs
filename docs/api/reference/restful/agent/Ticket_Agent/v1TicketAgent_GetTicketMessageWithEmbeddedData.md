@@ -11,13 +11,7 @@ POST /api/v1/Agents/Ticket/GetTicketMessageWithEmbeddedData
 
 Get a ticket message entity with posibillity to change embedded images to be represented with inline data within the HTML body.
 
-
 If using inline data, be sure not to save this back to the database.
-
-
-
-
-
 
 ## Query String Parameters
 
@@ -28,7 +22,6 @@ If using inline data, be sure not to save this back to the database.
 ```http
 POST /api/v1/Agents/Ticket/GetTicketMessageWithEmbeddedData?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -44,17 +37,16 @@ POST /api/v1/Agents/Ticket/GetTicketMessageWithEmbeddedData?$select=name,departm
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request
 
-Id, EmbedImages 
+Id, EmbedImages
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | Id | int32 |  |
 | EmbedImages | string |  |
 
-
-## Response: 
+## Response
 
 OK
 
@@ -62,7 +54,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+Response body:
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|

@@ -11,13 +11,7 @@ POST /api/v1/Agents/Diagnostics/GetCacheState
 
 Get the current generation value of the named caches.
 
-
 State is opaque.
-
-
-
-
-
 
 ## Query String Parameters
 
@@ -28,7 +22,6 @@ State is opaque.
 ```http
 POST /api/v1/Agents/Diagnostics/GetCacheState?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -44,14 +37,13 @@ POST /api/v1/Agents/Diagnostics/GetCacheState?$select=name,department,category/i
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request
 
-CacheNames 
+CacheNames
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | CacheNames | array |  |
-
 
 ## Response: string
 
@@ -62,7 +54,6 @@ OK
 | 200 | OK |
 
 Response body: string
-
 
 ## Sample request
 

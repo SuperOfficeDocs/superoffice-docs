@@ -7,15 +7,13 @@ title: SaleStakeholder
 ```
 
 ---
+
 title: SaleStakeholder
 ---
 
 ```http
 /api/v1/SaleStakeholder
 ```
-
-
-
 
 * [GET SaleStakeholder/default](v1SaleStakeholder_DefaultSaleStakeholder.md)
 
@@ -30,7 +28,6 @@ title: SaleStakeholder
 * [DEL SaleStakeholder/{id}](v1SaleStakeholder_DeleteSaleStakeholder.md)
 
 * [PATCH SaleStakeholder/{id}](v1SaleStakeholder_PatchSaleStakeholder.md)
-
 
 * [GET SaleStakeholder/default](v1SaleStakeholder_DefaultSaleStakeholder.md)
 

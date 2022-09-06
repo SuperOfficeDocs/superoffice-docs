@@ -7,15 +7,13 @@ title: Document_Agent
 ```
 
 ---
+
 title: Document_Agent
 ---
 
 ```http
 /api/v1/Document/Agent
 ```
-
-
-
 
 * [POST Agents/Document/CheckinDocument](v1DocumentAgent_CheckinDocument.md)
 
@@ -184,7 +182,6 @@ title: Document_Agent
 * [POST Agents/Document/GetCheckoutState](v1DocumentAgent_GetCheckoutState.md)
 
 * [POST Agents/Document/CheckoutDocument](v1DocumentAgent_CheckoutDocument.md)
-
 
 * [POST Agents/Document/GetPublishedDocumentsByDate](v1DocumentAgent_GetPublishedDocumentsByDate.md)
 

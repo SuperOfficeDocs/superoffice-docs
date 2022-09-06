@@ -18,7 +18,6 @@ Get the fields that must be filled out when creating a new ERP actor
 
 **Returns:** The fields that are required for the new ERP actor
 
-
 [WSDL file for Services85/ErpSync](../Services85-ErpSync.md)
 
 Obtain a ticket from the [Services85/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -51,7 +50,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-
 
 ## GetFieldsForNewErpActor Response
 
@@ -86,4 +84,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

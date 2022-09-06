@@ -18,7 +18,6 @@ Add a person to the given contact
 
 **Returns:** Updated person object
 
-
 [WSDL file for Services84/Contact](../Services84-Contact.md)
 
 Obtain a ticket from the [Services84/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -440,7 +439,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-
 
 ## AddPerson Response
 
@@ -883,4 +881,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

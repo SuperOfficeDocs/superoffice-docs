@@ -11,13 +11,7 @@ POST /api/v1/Agents/Person/GetSalesRep
 
 Returns the sales representative for an external user.
 
-
 If this method is accessed with anonymous authentication the external user is recognized by contact and name, or by email, or phone number. If the external user is recognized as an CRM5 user (internal or external) the input fields can be left blank.
-
-
-
-
-
 
 ## Query String Parameters
 
@@ -28,7 +22,6 @@ If this method is accessed with anonymous authentication the external user is re
 ```http
 POST /api/v1/Agents/Person/GetSalesRep?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -44,9 +37,9 @@ POST /api/v1/Agents/Person/GetSalesRep?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request
 
-ContactName, PersonFirstname, PersonLastname, EmailAddress, PhoneNumber 
+ContactName, PersonFirstname, PersonLastname, EmailAddress, PhoneNumber
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -56,8 +49,7 @@ ContactName, PersonFirstname, PersonLastname, EmailAddress, PhoneNumber
 | EmailAddress | string |  |
 | PhoneNumber | string |  |
 
-
-## Response: 
+## Response
 
 OK
 
@@ -65,7 +57,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+Response body:
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|

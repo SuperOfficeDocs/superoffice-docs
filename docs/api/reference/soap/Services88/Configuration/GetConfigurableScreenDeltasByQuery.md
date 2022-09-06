@@ -17,7 +17,6 @@ This method will return a configurablescreen delta matching the properties recei
 
 **Returns:** An array of deltas matching the values of the incomming query
 
-
 [WSDL file for Services88/Configuration](../Services88-Configuration.md)
 
 Obtain a ticket from the [Services88/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -60,7 +59,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-
 
 ## GetConfigurableScreenDeltasByQuery Response
 
@@ -126,4 +124,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

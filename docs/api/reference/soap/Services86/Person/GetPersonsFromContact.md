@@ -17,7 +17,6 @@ Returns all the persons belonging to a contact.
 
 **Returns:** The persons belonging to a contact.
 
-
 [WSDL file for Services86/Person](../Services86-Person.md)
 
 Obtain a ticket from the [Services86/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -49,7 +48,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-
 
 ## GetPersonsFromContact Response
 
@@ -113,4 +111,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

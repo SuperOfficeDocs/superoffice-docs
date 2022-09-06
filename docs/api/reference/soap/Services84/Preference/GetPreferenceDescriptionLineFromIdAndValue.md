@@ -18,7 +18,6 @@ Get a preference description line from a prefDesc\_id and a prefValue
 
 **Returns:** The preference description line matching the id and the value
 
-
 [WSDL file for Services84/Preference](../Services84-Preference.md)
 
 Obtain a ticket from the [Services84/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -52,7 +51,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
-
 ## GetPreferenceDescriptionLineFromIdAndValue Response
 
 ```xml
@@ -80,4 +78,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

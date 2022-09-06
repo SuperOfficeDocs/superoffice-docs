@@ -11,16 +11,9 @@ POST /api/v1/BatchTask/{id}/Stop
 
 Stop a batch job based on Id.
 
-
-
-
-
-
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | id | int32 | Id of the batch job to stop. **Required** |
-
-
 
 ## Request Headers
 
@@ -35,7 +28,6 @@ Stop a batch job based on Id.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-
 ## Response: bool
 
 OK
@@ -46,7 +38,6 @@ OK
 | 400 | Bad request. Entity to save is not in request body. |
 
 Response body: bool
-
 
 ## Sample request
 

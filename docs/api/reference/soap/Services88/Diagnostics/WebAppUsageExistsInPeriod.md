@@ -19,7 +19,6 @@ Returns true if viewState has been clicked at least once since FromDate, if assc
 
 **Returns:** Returns true if viewState has been clicked at least once since FromDate
 
-
 [WSDL file for Services88/Diagnostics](../Services88-Diagnostics.md)
 
 Obtain a ticket from the [Services88/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -54,7 +53,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
-
 ## WebAppUsageExistsInPeriod Response
 
 ```xml
@@ -75,4 +73,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

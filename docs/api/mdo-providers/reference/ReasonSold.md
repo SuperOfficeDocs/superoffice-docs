@@ -15,15 +15,11 @@ so.envir:
 ---
 
 # "reasonsold" MDO List
+
 GenericMDOProvider reads MDO lists with default settings
-
-
 
 Implemented by the <see cref="T:SuperOffice.CRM.Lists.GenericMDOProvider">GenericMDOProvider</see> class.
 The name of the MDO list is 'reasonsold'.
-
-
-
 
 ## Sample Request
 
@@ -36,6 +32,7 @@ Accept-Language: *
 ```
 
 ## Sample Code
+
 ```cs
 var listProvider = SuperOffice.CRM.Lists.SoListProviderFactory.Create("reasonsold", forceFlatList: true);
 foreach (var item in listProvider.RootItems) {
@@ -52,7 +49,6 @@ foreach (var item in listProvider.RootItems) {
 |4|Personality|||
 |1|Price|||
 |3|User-friendliness|||
-
 
 ## Related MDO Lists
 

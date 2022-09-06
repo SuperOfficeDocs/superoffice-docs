@@ -15,8 +15,6 @@ Validate that a license is consistant.
 
 * **licenseInfo:** License to validate consistancy for
 
-
-
 [WSDL file for Services88/License](../Services88-License.md)
 
 Obtain a ticket from the [Services88/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -202,7 +200,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
-
 ## ValidateLicenseInfo Response
 
 ```xml
@@ -227,4 +224,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

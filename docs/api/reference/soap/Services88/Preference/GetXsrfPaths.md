@@ -17,7 +17,6 @@ Returns paths that XSRF cookies should be set on
 
 **Returns:** Paths that XSRF cookies should be set for: ['/cs', '/crm']
 
-
 [WSDL file for Services88/Preference](../Services88-Preference.md)
 
 Obtain a ticket from the [Services88/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -50,7 +49,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
-
 ## GetXsrfPaths Response
 
 ```xml
@@ -73,4 +71,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

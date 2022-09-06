@@ -11,18 +11,11 @@ DELETE /api/v1/Selection/{id}
 
 Deletes the SelectionEntity
 
-
 Calls the Selection agent service DeleteSelectionEntity.
-
-
-
-
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | id | int32 | The SelectionEntity to be deleted. **Required** |
-
-
 
 ## Request Headers
 
@@ -33,8 +26,7 @@ Calls the Selection agent service DeleteSelectionEntity.
 | Accept         | Content-type(s) you would like the response in:  |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-
-## Response: 
+## Response
 
 SelectionEntity deleted.
 
@@ -43,8 +35,7 @@ SelectionEntity deleted.
 | 204 | SelectionEntity deleted. |
 | 412 | Delete aborted because SelectionEntity has changed since the requested If-Unmodified-Since timestamp. |
 
-Response body: 
-
+Response body:
 
 ## Sample request
 

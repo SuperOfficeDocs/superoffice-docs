@@ -11,12 +11,6 @@ POST /api/v1/Agents/Selection/GetRecipientStatisticsFromProjectMembers
 
 Returns a RecipientStatistics object with a count of addresses, emailaddresses and emailaddresses based on members in a project.
 
-
-
-
-
-
-
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -26,7 +20,6 @@ Returns a RecipientStatistics object with a count of addresses, emailaddresses a
 ```http
 POST /api/v1/Agents/Selection/GetRecipientStatisticsFromProjectMembers?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -42,16 +35,15 @@ POST /api/v1/Agents/Selection/GetRecipientStatisticsFromProjectMembers?$select=n
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request
 
-ProjectId 
+ProjectId
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | ProjectId | int32 |  |
 
-
-## Response: 
+## Response
 
 OK
 
@@ -59,7 +51,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+Response body:
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|

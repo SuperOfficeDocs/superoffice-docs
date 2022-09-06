@@ -11,12 +11,6 @@ POST /api/v1/Agents/Selection/EditContactSelectionMemberDetails
 
 Edit company and contact details in a selection based on contents in selectionMemberEditValues.
 
-
-
-
-
-
-
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -26,7 +20,6 @@ Edit company and contact details in a selection based on contents in selectionMe
 ```http
 POST /api/v1/Agents/Selection/EditContactSelectionMemberDetails?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -38,17 +31,16 @@ POST /api/v1/Agents/Selection/EditContactSelectionMemberDetails?$select=name,dep
 | Accept         | Content-type(s) you would like the response in:  |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request
 
-SelectionId, SelectionMemberEditValues 
+SelectionId, SelectionMemberEditValues
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | SelectionId | int32 |  |
 | SelectionMemberEditValues |  | A class representing values to change when changing company and contact details from the Edit Company Details task for selections. <para /> Carrier object for SelectionMemberEditValues. |
 
-
-## Response: 
+## Response
 
 No Content
 
@@ -56,8 +48,7 @@ No Content
 |----------------|-------------|
 | 204 | No Content |
 
-Response body: 
-
+Response body:
 
 ## Sample request
 

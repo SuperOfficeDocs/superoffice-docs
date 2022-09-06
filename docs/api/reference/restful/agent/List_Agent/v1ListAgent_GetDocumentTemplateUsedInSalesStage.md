@@ -11,12 +11,6 @@ POST /api/v1/Agents/List/GetDocumentTemplateUsedInSalesStage
 
 Get a String array of names in sales guide that this template is used in
 
-
-
-
-
-
-
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -26,7 +20,6 @@ Get a String array of names in sales guide that this template is used in
 ```http
 POST /api/v1/Agents/List/GetDocumentTemplateUsedInSalesStage?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -42,14 +35,13 @@ POST /api/v1/Agents/List/GetDocumentTemplateUsedInSalesStage?$select=name,depart
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request
 
-DocumentTemplateId 
+DocumentTemplateId
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | DocumentTemplateId | int32 |  |
-
 
 ## Response: array
 
@@ -60,7 +52,6 @@ OK
 | 200 | OK |
 
 Response body: array
-
 
 ## Sample request
 

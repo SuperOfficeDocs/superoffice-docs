@@ -17,7 +17,6 @@ Create a new role entity of the specified role type. The role type cannot be cha
 
 **Returns:** A blank role.
 
-
 [WSDL file for Services84/User](../Services84-User.md)
 
 Obtain a ticket from the [Services84/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -49,7 +48,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-
 
 ## CreateDefaultRoleEntityFromType Response
 
@@ -130,4 +128,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

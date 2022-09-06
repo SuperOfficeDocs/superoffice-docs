@@ -15,8 +15,6 @@ Removes a product from the database
 
 * **productId:** The database id of the product to remove
 
-
-
 [WSDL file for Services87/Quote](../Services87-Quote.md)
 
 Obtain a ticket from the [Services87/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -49,7 +47,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
-
 ## RemoveProduct Response
 
 ```xml
@@ -69,4 +66,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

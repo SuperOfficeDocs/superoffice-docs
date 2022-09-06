@@ -18,7 +18,6 @@ Get license assignments for an associate for licenses belonging to an other modu
 
 **Returns:** Module license names
 
-
 [WSDL file for Services86/License](../Services86-License.md)
 
 Obtain a ticket from the [Services86/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -52,7 +51,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-
 
 ## GetThirdPartyLicenseAssignments Response
 
@@ -90,4 +88,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

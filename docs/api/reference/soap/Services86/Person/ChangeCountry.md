@@ -18,7 +18,6 @@ Change country regenerates the default values and localized information such as 
 
 **Returns:** The PersonEntity
 
-
 [WSDL file for Services86/Person](../Services86-Person.md)
 
 Obtain a ticket from the [Services86/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -485,7 +484,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-
 
 ## ChangeCountry Response
 
@@ -973,4 +971,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

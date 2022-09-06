@@ -11,17 +11,9 @@ POST /api/v1/Agents/EMail/CreateDefaultEMailFolder
 
 Set default values into a new EMailFolder.
 
-
 NetServer calculates default values on the entity, which is required when creating/storing a new instance
 
-
-## Online Restricted: ## The EMail agent is not available in Online by default. Access must be requested specifically when app is registered.
-
-
-
-
-
-
+## Online Restricted: ## The EMail agent is not available in Online by default. Access must be requested specifically when app is registered
 
 ## Request Headers
 
@@ -36,8 +28,7 @@ NetServer calculates default values on the entity, which is required when creati
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-
-## Response: 
+## Response
 
 OK
 
@@ -45,7 +36,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+Response body:
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|

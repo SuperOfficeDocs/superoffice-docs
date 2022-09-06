@@ -18,7 +18,6 @@ Mark a notification as handled, so it can be cleaned up on other clients that ha
 
 **Returns:** This method has no return value
 
-
 [WSDL file for Services88/Pocket](../Services88-Pocket.md)
 
 Obtain a ticket from the [Services88/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -52,7 +51,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
-
 ## NotificationHandled Response
 
 ```xml
@@ -72,4 +70,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

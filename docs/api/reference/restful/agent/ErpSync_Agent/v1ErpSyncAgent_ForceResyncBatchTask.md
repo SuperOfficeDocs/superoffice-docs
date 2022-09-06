@@ -11,15 +11,7 @@ POST /api/v1/Agents/ErpSync/ForceResyncBatchTask
 
 Start batch task to force resync from CRM or given Erp connection to all other connections
 
-
-
-
-## Online Restricted: ## The ErpSync agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for ERP integration apps.
-
-
-
-
-
+## Online Restricted: ## The ErpSync agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for ERP integration apps
 
 ## Query String Parameters
 
@@ -31,7 +23,6 @@ Start batch task to force resync from CRM or given Erp connection to all other c
 POST /api/v1/Agents/ErpSync/ForceResyncBatchTask?$select=name,department,category/id
 ```
 
-
 ## Request Headers
 
 | Parameter Name | Description |
@@ -42,17 +33,16 @@ POST /api/v1/Agents/ErpSync/ForceResyncBatchTask?$select=name,department,categor
 | Accept         | Content-type(s) you would like the response in:  |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request
 
-ErpConnectionId, InternalKeyIds 
+ErpConnectionId, InternalKeyIds
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | ErpConnectionId | int32 |  |
 | InternalKeyIds | array |  |
 
-
-## Response: 
+## Response
 
 No Content
 
@@ -60,8 +50,7 @@ No Content
 |----------------|-------------|
 | 204 | No Content |
 
-Response body: 
-
+Response body:
 
 ## Sample request
 

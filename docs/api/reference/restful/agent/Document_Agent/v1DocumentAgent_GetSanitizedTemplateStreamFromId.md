@@ -11,13 +11,7 @@ POST /api/v1/Agents/Document/GetSanitizedTemplateStreamFromId
 
 Retrieve a stream to a document template based on its id.
 
-
 Sanitizes the contents if possible.
-
-
-
-
-
 
 ## Query String Parameters
 
@@ -28,7 +22,6 @@ Sanitizes the contents if possible.
 ```http
 POST /api/v1/Agents/Document/GetSanitizedTemplateStreamFromId?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -44,15 +37,14 @@ POST /api/v1/Agents/Document/GetSanitizedTemplateStreamFromId?$select=name,depar
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request
 
-TemplateId, UiCulture 
+TemplateId, UiCulture
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | TemplateId | int32 |  |
 | UiCulture | string |  |
-
 
 ## Response: byte
 
@@ -63,7 +55,6 @@ OK
 | 200 | OK |
 
 Response body: byte
-
 
 ## Sample request
 

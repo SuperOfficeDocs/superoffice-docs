@@ -11,15 +11,7 @@ POST /api/v1/Agents/User/DeleteExternalUser
 
 Deletes an associate of type external user.
 
-
-
-
-## Online Restricted: ## The User agent is not available in Online by default. User management is not allowed for partner apps.
-
-
-
-
-
+## Online Restricted: ## The User agent is not available in Online by default. User management is not allowed for partner apps
 
 ## Query String Parameters
 
@@ -31,7 +23,6 @@ Deletes an associate of type external user.
 POST /api/v1/Agents/User/DeleteExternalUser?$select=name,department,category/id
 ```
 
-
 ## Request Headers
 
 | Parameter Name | Description |
@@ -42,16 +33,15 @@ POST /api/v1/Agents/User/DeleteExternalUser?$select=name,department,category/id
 | Accept         | Content-type(s) you would like the response in:  |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request
 
-AssociateId 
+AssociateId
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | AssociateId | int32 |  |
 
-
-## Response: 
+## Response
 
 No Content
 
@@ -59,8 +49,7 @@ No Content
 |----------------|-------------|
 | 204 | No Content |
 
-Response body: 
-
+Response body:
 
 ## Sample request
 

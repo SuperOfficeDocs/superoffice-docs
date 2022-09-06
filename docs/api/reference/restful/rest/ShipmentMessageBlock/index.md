@@ -7,15 +7,13 @@ title: ShipmentMessageBlock
 ```
 
 ---
+
 title: ShipmentMessageBlock
 ---
 
 ```http
 /api/v1/ShipmentMessageBlock
 ```
-
-
-
 
 * [GET ShipmentMessageBlock/default](v1ShipmentMessageBlockEntity_DefaultShipmentMessageBlockEntity.md)
 
@@ -30,7 +28,6 @@ title: ShipmentMessageBlock
 * [PATCH ShipmentMessageBlock/{id}](v1ShipmentMessageBlockEntity_PatchShipmentMessageBlockEntity.md)
 
 * [GET ShipmentMessageBlock/Associate/{id}](v1ShipmentMessageBlockEntity_GetUserBlocks.md)
-
 
 * [GET ShipmentMessageBlock/default](v1ShipmentMessageBlockEntity_DefaultShipmentMessageBlockEntity.md)
 

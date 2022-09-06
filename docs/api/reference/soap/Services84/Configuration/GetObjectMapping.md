@@ -18,7 +18,6 @@ Get the object mappings, i.e., the what code objects should be instantiated to h
 
 **Returns:** XML containing the object mappings, including assembly and class names
 
-
 [WSDL file for Services84/Configuration](../Services84-Configuration.md)
 
 Obtain a ticket from the [Services84/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -52,7 +51,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
-
 ## GetObjectMapping Response
 
 ```xml
@@ -73,4 +71,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

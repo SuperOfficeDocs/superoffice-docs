@@ -17,7 +17,6 @@ Gets an array of ProjectEvent objects.
 
 **Returns:** Array of ProjectEvent objects
 
-
 [WSDL file for Services88/Project](../Services88-Project.md)
 
 Obtain a ticket from the [Services88/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -51,7 +50,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-
 
 ## GetProjectEventList Response
 
@@ -98,4 +96,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

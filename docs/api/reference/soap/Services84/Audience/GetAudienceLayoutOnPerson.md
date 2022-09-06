@@ -17,7 +17,6 @@ Gets the Audience layout belonging to the person specified.
 
 **Returns:** Audience layout entity
 
-
 [WSDL file for Services84/Audience](../Services84-Audience.md)
 
 Obtain a ticket from the [Services84/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -48,7 +47,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-
 
 ## GetAudienceLayoutOnPerson Response
 
@@ -101,4 +99,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

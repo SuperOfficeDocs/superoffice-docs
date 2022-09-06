@@ -15,8 +15,6 @@ Deletes the TargetGroup
 
 * **targetGroupId:** The identity of the TargetGroup
 
-
-
 [WSDL file for Services88/Targets](../Services88-Targets.md)
 
 Obtain a ticket from the [Services88/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -49,7 +47,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
-
 ## DeleteTargetGroup Response
 
 ```xml
@@ -69,4 +66,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

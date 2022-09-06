@@ -11,15 +11,9 @@ DELETE /api/v1/Document/{documentId}/Content
 
 Delete the document contents
 
-
-
-
-
-
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | documentId | int32 | document primary key **Required** |
-
 
 ## Query String Parameters
 
@@ -31,7 +25,6 @@ Delete the document contents
 DELETE /api/v1/Document/{documentId}/Content?allowedReturnType=Message
 ```
 
-
 ## Request Headers
 
 | Parameter Name | Description |
@@ -41,8 +34,7 @@ DELETE /api/v1/Document/{documentId}/Content?allowedReturnType=Message
 | Accept         | Content-type(s) you would like the response in: `application/json`, `text/json`, `application/xml`, `text/xml`, `application/json-patch+json`, `application/merge-patch+json` |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-
-## Response: 
+## Response
 
 OK
 
@@ -50,7 +42,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+Response body:
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|

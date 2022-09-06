@@ -18,7 +18,6 @@ Creates a new Stream that can be used to store the document in the file archive.
 
 **Returns:** A writeable stream. When written and closed, the stream will become the new document content, subject to locking and versioning constraints.
 
-
 [WSDL file for Services85/Document](../Services85-Document.md)
 
 Obtain a ticket from the [Services85/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -279,7 +278,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
-
 ## CreateDocumentStream Response
 
 ```xml
@@ -300,4 +298,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

@@ -11,39 +11,18 @@ POST /api/v1/Agents/Archive/GetArchiveListByColumns
 
 Get a page of results for an archive list, explicitly specifying the restrictions, orderby and chosen columns.
 
-
-
 Archive Restriction Info objects represent search terms.
-
 
 Column names and operator strings are defined elsewhere.
 
-
 Values should be encoded using the CultureDataFormatter, so 10 is "[I:10]".
 Default string encodings should be handled ok, but beware of non-invariant cultures leading to incorrect date and float parsing.
-
-
-
-
-
 
 ```
 
 var restriction1 = new ArchiveRestrictionInfo("category", "equals", "[I:10]");
 
 ```
-
-
-
-
-
-
-
-
-
-
-
-
 
 ## Query String Parameters
 
@@ -54,7 +33,6 @@ var restriction1 = new ArchiveRestrictionInfo("category", "equals", "[I:10]");
 ```http
 POST /api/v1/Agents/Archive/GetArchiveListByColumns?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -70,9 +48,9 @@ POST /api/v1/Agents/Archive/GetArchiveListByColumns?$select=name,department,cate
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request
 
-ProviderName, Columns, SortOrder, Restriction, Entities, Page, PageSize 
+ProviderName, Columns, SortOrder, Restriction, Entities, Page, PageSize
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -83,7 +61,6 @@ ProviderName, Columns, SortOrder, Restriction, Entities, Page, PageSize
 | Entities | array |  |
 | Page | int32 |  |
 | PageSize | int32 |  |
-
 
 ## Response: array
 

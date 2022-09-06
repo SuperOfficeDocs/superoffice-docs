@@ -20,4 +20,3 @@ Download [WSDL file for Services86/Resource](../Services86-Resource.md) if you n
 * [GetResourceSubstitutions](GetResourceSubstitutions.md)
 * [IsResourceSubstitutionActive](IsResourceSubstitutionActive.md)
 * [SetResourceSubstitution](SetResourceSubstitution.md)
-

@@ -17,7 +17,6 @@ Takes the input stream and create a report. This stream must be on a valid xml f
 
 **Returns:** The id of the newly imported report
 
-
 [WSDL file for Services86/Report](../Services86-Report.md)
 
 Obtain a ticket from the [Services86/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -50,7 +49,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
-
 ## ImportReport Response
 
 ```xml
@@ -71,4 +69,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

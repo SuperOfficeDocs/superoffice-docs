@@ -19,7 +19,6 @@ Get caller ids that the current principal might be interested in (phone numbers 
 
 **Returns:** Collection of caller IDs, containing the hash of the caller ids
 
-
 [WSDL file for Services88/Pocket](../Services88-Pocket.md)
 
 Obtain a ticket from the [Services88/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -54,7 +53,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
-
 ## GetMyCallerIDs Response
 
 ```xml
@@ -88,4 +86,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

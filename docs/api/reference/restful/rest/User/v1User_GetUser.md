@@ -11,20 +11,13 @@ GET /api/v1/User/{id}
 
 Gets a User object.
 
-
 Calls the User agent service GetUser.
 
-
-## Online Restricted: ## The User agent is not available in Online by default. User management is not allowed for partner apps.
-
-
-
-
+## Online Restricted: ## The User agent is not available in Online by default. User management is not allowed for partner apps
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | id | int32 | The id of the User to return. **Required** |
-
 
 ## Query String Parameters
 
@@ -37,7 +30,6 @@ Calls the User agent service GetUser.
 GET /api/v1/User/{id}?$select=name,department,category/id
 GET /api/v1/User/{id}?fk=True
 ```
-
 
 ## Request Headers
 
@@ -52,8 +44,7 @@ GET /api/v1/User/{id}?fk=True
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-
-## Response: 
+## Response
 
 User found.
 
@@ -62,7 +53,7 @@ User found.
 | 200 | User found. |
 | 404 | Not Found. |
 
-Response body: 
+Response body:
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|

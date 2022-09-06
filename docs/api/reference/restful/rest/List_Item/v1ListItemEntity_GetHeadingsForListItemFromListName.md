@@ -11,16 +11,10 @@ GET /api/v1/List/{udListDefinitionName}/Items/{listItemId}/Headings
 
 Gets a selectable MDO list of the headings for this list item
 
-
-
-
-
-
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | udListDefinitionName | string | The name of the list definition, indicating which list to delete the items from. **Required** |
 | listItemId | int32 | The id of the list item **Required** |
-
 
 ## Query String Parameters
 
@@ -31,7 +25,6 @@ Gets a selectable MDO list of the headings for this list item
 ```http
 GET /api/v1/List/{udListDefinitionName}/Items/{listItemId}/Headings?showDeleted=True
 ```
-
 
 ## Request Headers
 
@@ -45,7 +38,6 @@ GET /api/v1/List/{udListDefinitionName}/Items/{listItemId}/Headings?showDeleted=
 | SO-Culture | Number, date formatting in a specified culture (iso2 language) code. Partially overrides SO-Language/Accept-Language value. Ignored if no Language set. |
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
-
 
 ## Response: array
 

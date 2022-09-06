@@ -18,7 +18,6 @@ Get all button states for the Quote version dialog.
 
 **Returns:** Workflow state information
 
-
 [WSDL file for Services86/Quote](../Services86-Quote.md)
 
 Obtain a ticket from the [Services86/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -51,7 +50,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-
 
 ## GetQuoteVersionWorkflowButtonStates Response
 
@@ -103,4 +101,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

@@ -11,12 +11,6 @@ POST /api/v1/Agents/Ticket/GetAttachmentInfoNonInline
 
 Get a list with meta data for all attached attachments, EXCEPT those marked as inline
 
-
-
-
-
-
-
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -26,7 +20,6 @@ Get a list with meta data for all attached attachments, EXCEPT those marked as i
 ```http
 POST /api/v1/Agents/Ticket/GetAttachmentInfoNonInline?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -42,14 +35,13 @@ POST /api/v1/Agents/Ticket/GetAttachmentInfoNonInline?$select=name,department,ca
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request
 
-TicketMessageEntityId 
+TicketMessageEntityId
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | TicketMessageEntityId | int32 |  |
-
 
 ## Response: array
 

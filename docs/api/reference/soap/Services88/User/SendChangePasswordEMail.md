@@ -18,7 +18,6 @@ Send a change password email to this users registered address.
 
 **Returns:** Result - with result flag and optional error reason.
 
-
 [WSDL file for Services88/User](../Services88-User.md)
 
 Obtain a ticket from the [Services88/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -51,7 +50,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
-
 ## SendChangePasswordEMail Response
 
 ```xml
@@ -75,4 +73,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

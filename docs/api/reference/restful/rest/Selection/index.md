@@ -7,15 +7,13 @@ title: Selection
 ```
 
 ---
+
 title: Selection
 ---
 
 ```http
 /api/v1/Selection
 ```
-
-
-
 
 * [GET Selection/default](v1SelectionEntity_DefaultSelectionEntity.md)
 
@@ -56,7 +54,6 @@ title: Selection
 * [GET Selection/{id}/Members](v1SelectionEntity_GetSelectionMembersArchiveRows.md)
 
 * [GET Selection/{id}/ShadowMembers](v1SelectionEntity_GetSelectionShadowMembersArchiveRows.md)
-
 
 * [GET Selection/default](v1SelectionEntity_DefaultSelectionEntity.md)
 

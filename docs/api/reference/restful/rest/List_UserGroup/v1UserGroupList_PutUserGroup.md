@@ -11,18 +11,11 @@ PUT /api/v1/List/UserGroup/Items/{id}
 
 Updates the existing UserGroup
 
-
 Calls the User agent service SaveUserGroup.
-
-
-
-
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | id | int32 | The id of UserGroup to be saved. **Required** |
-
-
 
 ## Request Headers
 
@@ -38,9 +31,9 @@ Calls the User agent service SaveUserGroup.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entity  
+## Request Body: entity
 
-The details of UserGroup to be saved. 
+The details of UserGroup to be saved.
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -50,8 +43,7 @@ The details of UserGroup to be saved.
 | Rank | int32 | Rank order |
 | Deleted | bool | Deleted equal to true means that this is a user group that no longer can be selected by the user.  It is not permitted to delete a UserGroup. |
 
-
-## Response: 
+## Response
 
 OK
 
@@ -60,7 +52,7 @@ OK
 | 200 | OK |
 | 400 | Bad request. Entity to save is not in request body. |
 
-Response body: 
+Response body:
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|

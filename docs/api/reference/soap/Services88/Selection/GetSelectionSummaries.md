@@ -17,7 +17,6 @@ Get an array of summaryitem for the given selections
 
 **Returns:** Summary items for the given id's, in no particular order
 
-
 [WSDL file for Services88/Selection](../Services88-Selection.md)
 
 Obtain a ticket from the [Services88/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -52,7 +51,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
-
 ## GetSelectionSummaries Response
 
 ```xml
@@ -81,4 +79,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

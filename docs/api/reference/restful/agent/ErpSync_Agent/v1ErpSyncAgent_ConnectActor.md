@@ -11,15 +11,7 @@ POST /api/v1/Agents/ErpSync/ConnectActor
 
 Create a link between Erp and Crm and set default values
 
-
-
-
-## Online Restricted: ## The ErpSync agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for ERP integration apps.
-
-
-
-
-
+## Online Restricted: ## The ErpSync agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for ERP integration apps
 
 ## Query String Parameters
 
@@ -31,7 +23,6 @@ Create a link between Erp and Crm and set default values
 POST /api/v1/Agents/ErpSync/ConnectActor?$select=name,department,category/id
 ```
 
-
 ## Request Headers
 
 | Parameter Name | Description |
@@ -42,9 +33,9 @@ POST /api/v1/Agents/ErpSync/ConnectActor?$select=name,department,category/id
 | Accept         | Content-type(s) you would like the response in:  |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request
 
-ErpConnectionId, CrmRecordId, CrmActorType, ErpKey, ErpActorType, FieldValues 
+ErpConnectionId, CrmRecordId, CrmActorType, ErpKey, ErpActorType, FieldValues
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -55,8 +46,7 @@ ErpConnectionId, CrmRecordId, CrmActorType, ErpKey, ErpActorType, FieldValues
 | ErpActorType | string |  |
 | FieldValues | array |  |
 
-
-## Response: 
+## Response
 
 No Content
 
@@ -64,8 +54,7 @@ No Content
 |----------------|-------------|
 | 204 | No Content |
 
-Response body: 
-
+Response body:
 
 ## Sample request
 

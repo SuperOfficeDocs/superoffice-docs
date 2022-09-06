@@ -15,11 +15,10 @@ so.envir:
 ---
 
 # "availablereports" MDO List
+
 AvailableReportsProvider creates an MDO list containing the available reports.
 The available reports are either the standard SuperOffice reports, the reports defined in ReporterStudio,
 or the favorites for each user as defined in SuperOffice.
-
-
 
 Implemented by the <see cref="T:SuperOffice.CRM.Lists.AvailableReportsProvider">AvailableReportsProvider</see> class.
 The name of the MDO list is 'availablereports'.
@@ -29,10 +28,6 @@ The name of the MDO list is 'availablereports'.
 | Description | Name | Example Value |
 |-----|-----|------|
 |Report category enum value. Contact=2, Sale reports=4, etc| |2|
-
-
-
-
 
 ## Sample Request
 
@@ -45,6 +40,7 @@ Accept-Language: *
 ```
 
 ## Sample Code
+
 ```cs
 var listProvider = SuperOffice.CRM.Lists.SoListProviderFactory.Create("availablereports", forceFlatList: true);
 foreach (var item in listProvider.RootItems) {
@@ -58,7 +54,6 @@ foreach (var item in listProvider.RootItems) {
 |Id   | Name  |StyleHint|ExtraInfo |
 | --- | ----- | ------- | -------- |
 | 2 | Example | | |
-
 
 ## Related MDO Lists
 

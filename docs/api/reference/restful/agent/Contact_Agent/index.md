@@ -7,15 +7,13 @@ title: Contact_Agent
 ```
 
 ---
+
 title: Contact_Agent
 ---
 
 ```http
 /api/v1/Contact/Agent
 ```
-
-
-
 
 * [POST Agents/Contact/CreateDefaultContactEntity](v1ContactAgent_CreateDefaultContactEntity.md)
 
@@ -78,7 +76,6 @@ title: Contact_Agent
 * [POST Agents/Contact/GetMyContacts](v1ContactAgent_GetMyContacts.md)
 
 * [POST Agents/Contact/GetMyRecentContacts](v1ContactAgent_GetMyRecentContacts.md)
-
 
 * [POST Agents/Contact/CreateDefaultContactEntity](v1ContactAgent_CreateDefaultContactEntity.md)
 

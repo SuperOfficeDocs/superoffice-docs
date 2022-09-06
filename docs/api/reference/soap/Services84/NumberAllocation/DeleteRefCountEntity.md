@@ -15,8 +15,6 @@ Deletes the RefCountEntity
 
 * **refCountEntityId:** The identity of the RefCountEntity
 
-
-
 [WSDL file for Services84/NumberAllocation](../Services84-NumberAllocation.md)
 
 Obtain a ticket from the [Services84/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -48,7 +46,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
-
 ## DeleteRefCountEntity Response
 
 ```xml
@@ -67,4 +64,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

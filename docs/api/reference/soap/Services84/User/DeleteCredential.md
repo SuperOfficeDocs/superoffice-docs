@@ -18,7 +18,6 @@ Remove credential of a specific type for a user
 
 **Returns:** True if credential was sucessfully removed.
 
-
 [WSDL file for Services84/User](../Services84-User.md)
 
 Obtain a ticket from the [Services84/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -52,7 +51,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
-
 ## DeleteCredential Response
 
 ```xml
@@ -73,4 +71,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

@@ -11,16 +11,10 @@ POST /api/v1/Pricelist/{originalPriceListId}/CopyTo/{newName}
 
 Create a copy of a PriceList in the SuperOffice database
 
-
-
-
-
-
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | originalPriceListId | int32 | Id of the PriceList to be copied **Required** |
 | newName | string | Name of the copied PriceList **Required** |
-
 
 ## Query String Parameters
 
@@ -38,7 +32,6 @@ POST /api/v1/Pricelist/{originalPriceListId}/CopyTo/{newName}?newCurrencyId=580
 POST /api/v1/Pricelist/{originalPriceListId}/CopyTo/{newName}?convertCurrency=False
 ```
 
-
 ## Request Headers
 
 | Parameter Name | Description |
@@ -52,8 +45,7 @@ POST /api/v1/Pricelist/{originalPriceListId}/CopyTo/{newName}?convertCurrency=Fa
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-
-## Response: 
+## Response
 
 OK
 
@@ -61,7 +53,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+Response body:
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|

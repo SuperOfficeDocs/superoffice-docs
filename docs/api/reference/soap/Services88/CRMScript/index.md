@@ -40,4 +40,3 @@ Download [WSDL file for Services88/CRMScript](../Services88-CRMScript.md) if you
 * [ValidateScriptByUniqueId](ValidateScriptByUniqueId.md)
 * [ValidateTriggerScript](ValidateTriggerScript.md)
 * [ValidateTriggerScriptByUniqueId](ValidateTriggerScriptByUniqueId.md)
-

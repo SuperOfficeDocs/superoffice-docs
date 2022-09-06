@@ -11,13 +11,6 @@ POST /api/v1/Agents/Sale/SaveSaleStakeholder
 
 Updates the existing SaleStakeholder or creates a new SaleStakeholder if the id parameter is empty
 
-
-
-
-
-
-
-
 ## Request Headers
 
 | Parameter Name | Description |
@@ -32,9 +25,9 @@ Updates the existing SaleStakeholder or creates a new SaleStakeholder if the id 
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entity  
+## Request Body: entity
 
-The SaleStakeholder to be saved. 
+The SaleStakeholder to be saved.
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -58,8 +51,7 @@ The SaleStakeholder to be saved.
 | Rank | int32 | Rank in list of stakeholders |
 | Phone | string | Phone number |
 
-
-## Response: 
+## Response
 
 OK
 
@@ -67,7 +59,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+Response body:
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|

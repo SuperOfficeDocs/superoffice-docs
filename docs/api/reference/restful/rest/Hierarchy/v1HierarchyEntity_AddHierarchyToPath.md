@@ -11,17 +11,10 @@ POST /api/v1/Hierarchy/{domain}/{path}
 
 Add a hierarchy item to a path
 
-
-
-
-
-
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | domain | Enum: Unknown, ExtraTables, ScreenDefinitions, Scripts, Selections, ExternalDocuments, UserGroups, ExternalDocumentRelatedToSpmMessage, Dashboards | Type of items to get **Required** |
 | path | string | Hierarchy path to parent item **Required** |
-
-
 
 ## Request Headers
 
@@ -37,13 +30,11 @@ Add a hierarchy item to a path
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: name  
+## Request Body: name
 
-Name of node to add 
+Name of node to add
 
-
-
-## Response: 
+## Response
 
 OK
 
@@ -51,7 +42,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+Response body:
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|

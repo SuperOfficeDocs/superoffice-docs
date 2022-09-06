@@ -11,15 +11,9 @@ PUT /api/v1/ProjectMember/{id}
 
 Updates the existing ProjectMember
 
-
-
-
-
-
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | id | int32 | The ProjectMember id to update. **Required** |
-
 
 ## Query String Parameters
 
@@ -30,7 +24,6 @@ Updates the existing ProjectMember
 ```http
 PUT /api/v1/ProjectMember/{id}?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -46,9 +39,9 @@ PUT /api/v1/ProjectMember/{id}?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entity  
+## Request Body: entity
 
-The ProjectMember to be saved. 
+The ProjectMember to be saved.
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -74,8 +67,7 @@ The ProjectMember to be saved.
 | Comment | string | Comment text on the project membership |
 | FullName | string | The person's full name localized to the current culture/country.  (internal name used in clients for employees) |
 
-
-## Response: 
+## Response
 
 ProjectMember updated.
 
@@ -84,7 +76,7 @@ ProjectMember updated.
 | 200 | ProjectMember updated. |
 | 400 | Bad request. Entity to save is not in request body. |
 
-Response body: 
+Response body:
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|

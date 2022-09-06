@@ -11,17 +11,10 @@ DELETE /api/v1/Table/{tableName}/{id}
 
 Delete a row from a table
 
-
-
-
-
-
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | tableName | string | The name of the table to delete from; in the current release this must be an 'extratable'. Use the database name, on the form y_aTable **Required** |
 | id | int32 | The id of the row to delete **Required** |
-
-
 
 ## Request Headers
 
@@ -32,8 +25,7 @@ Delete a row from a table
 | Accept         | Content-type(s) you would like the response in:  |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-
-## Response: 
+## Response
 
 No Content
 
@@ -41,8 +33,7 @@ No Content
 |----------------|-------------|
 | 204 | No Content |
 
-Response body: 
-
+Response body:
 
 ## Sample request
 

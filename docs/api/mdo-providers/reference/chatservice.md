@@ -16,14 +16,8 @@ so.envir:
 
 # "chatservice" MDO List
 
-
-
-
 Implemented by the <see cref="T:SuperOffice.CRM.Lists.ChatServiceProvider">ChatServiceProvider</see> class.
 The name of the MDO list is 'chatservice'.
-
-
-
 
 ## Sample Request
 
@@ -36,6 +30,7 @@ Accept-Language: *
 ```
 
 ## Sample Code
+
 ```cs
 var listProvider = SuperOffice.CRM.Lists.SoListProviderFactory.Create("chatservice", forceFlatList: true);
 foreach (var item in listProvider.RootItems) {
@@ -55,7 +50,6 @@ foreach (var item in listProvider.RootItems) {
 |28|QQ|||
 |26|SameTime|||
 |23|Yahoo|||
-
 
 ## Related MDO Lists
 

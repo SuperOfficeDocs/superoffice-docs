@@ -30,4 +30,3 @@ Download [WSDL file for Services88/Dashboard](../Services88-Dashboard.md) if you
 * [SaveDashboard](SaveDashboard.md)
 * [SaveDashboardTile](SaveDashboardTile.md)
 * [SetTile](SetTile.md)
-

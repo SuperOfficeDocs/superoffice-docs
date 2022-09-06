@@ -64,4 +64,3 @@ Download [WSDL file for Services88/Configuration](../Services88-Configuration.md
 * [SaveWindowPosSize](SaveWindowPosSize.md)
 * [SaveWindowPosSizes](SaveWindowPosSizes.md)
 * [SetAppliesToKey](SetAppliesToKey.md)
-

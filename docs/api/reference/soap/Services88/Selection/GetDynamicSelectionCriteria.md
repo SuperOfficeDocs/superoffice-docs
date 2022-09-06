@@ -17,7 +17,6 @@ Get the criteria for this dynamic selection.
 
 **Returns:** Criteria defining the selection result. NULL if selection does not exist, or if this is not a dynamic selection.
 
-
 [WSDL file for Services88/Selection](../Services88-Selection.md)
 
 Obtain a ticket from the [Services88/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -49,7 +48,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-
 
 ## GetDynamicSelectionCriteria Response
 
@@ -166,4 +164,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

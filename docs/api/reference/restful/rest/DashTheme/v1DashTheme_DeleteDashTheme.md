@@ -11,18 +11,11 @@ DELETE /api/v1/DashTheme/{id}
 
 Deletes the DashTheme
 
-
 Calls the Dash agent service DeleteDashTheme.
-
-
-
-
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | id | int32 | The DashTheme to be deleted. **Required** |
-
-
 
 ## Request Headers
 
@@ -33,8 +26,7 @@ Calls the Dash agent service DeleteDashTheme.
 | Accept         | Content-type(s) you would like the response in:  |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-
-## Response: 
+## Response
 
 DashTheme deleted.
 
@@ -42,8 +34,7 @@ DashTheme deleted.
 |----------------|-------------|
 | 204 | DashTheme deleted. |
 
-Response body: 
-
+Response body:
 
 ## Sample request
 

@@ -99,4 +99,3 @@ Download [WSDL file for Services85/Appointment](../Services85-Appointment.md) if
 * [ToggleAppointmentStatus](ToggleAppointmentStatus.md)
 * [UpdateAppointment](UpdateAppointment.md)
 * [ValidateDays](ValidateDays.md)
-

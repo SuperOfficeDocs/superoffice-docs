@@ -11,12 +11,6 @@ POST /api/v1/Agents/Diagnostics/GetWebAppUsagesForPeriod
 
 Get all WebAppUsages for a given period, that match an optional search term
 
-
-
-
-
-
-
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -26,7 +20,6 @@ Get all WebAppUsages for a given period, that match an optional search term
 ```http
 POST /api/v1/Agents/Diagnostics/GetWebAppUsagesForPeriod?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -42,16 +35,15 @@ POST /api/v1/Agents/Diagnostics/GetWebAppUsagesForPeriod?$select=name,department
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request
 
-FromDate, ToDate, SearchTerm 
+FromDate, ToDate, SearchTerm
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | FromDate | date-time |  |
 | ToDate | date-time |  |
 | SearchTerm | string |  |
-
 
 ## Response: array
 

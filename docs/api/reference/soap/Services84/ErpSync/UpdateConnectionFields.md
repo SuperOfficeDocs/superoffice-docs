@@ -17,7 +17,6 @@ Gets all supported actor types, and all fields for each actor type, and save thi
 
 **Returns:** Success or fail
 
-
 [WSDL file for Services84/ErpSync](../Services84-ErpSync.md)
 
 Obtain a ticket from the [Services84/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -50,7 +49,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
-
 ## UpdateConnectionFields Response
 
 ```xml
@@ -71,4 +69,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

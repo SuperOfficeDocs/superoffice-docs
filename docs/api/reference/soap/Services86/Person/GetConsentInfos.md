@@ -17,7 +17,6 @@ Get all consent information for a given person. May include withdrawn consents (
 
 **Returns:** List of consents recorded on this person
 
-
 [WSDL file for Services86/Person](../Services86-Person.md)
 
 Obtain a ticket from the [Services86/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -49,7 +48,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-
 
 ## GetConsentInfos Response
 
@@ -89,4 +87,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

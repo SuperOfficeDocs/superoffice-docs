@@ -18,7 +18,6 @@ Updates the existing Satellite or creates a new Satellite if the id parameter is
 
 **Returns:** New or updated Satellite
 
-
 [WSDL file for Services87/Replication](../Services87-Replication.md)
 
 Obtain a ticket from the [Services87/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -193,7 +192,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
-
 ## SaveSatellite Response
 
 ```xml
@@ -356,4 +354,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

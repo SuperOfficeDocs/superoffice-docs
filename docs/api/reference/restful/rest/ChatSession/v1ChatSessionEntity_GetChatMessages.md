@@ -11,15 +11,9 @@ GET /api/v1/ChatSession/{chatSessionId}/Messages
 
 Get all or some of the messages in a chat session
 
-
-
-
-
-
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | chatSessionId | int32 | id of the chat session to reset **Required** |
-
 
 ## Query String Parameters
 
@@ -30,7 +24,6 @@ Get all or some of the messages in a chat session
 ```http
 GET /api/v1/ChatSession/{chatSessionId}/Messages?after=877
 ```
-
 
 ## Request Headers
 
@@ -44,7 +37,6 @@ GET /api/v1/ChatSession/{chatSessionId}/Messages?after=877
 | SO-Culture | Number, date formatting in a specified culture (iso2 language) code. Partially overrides SO-Language/Accept-Language value. Ignored if no Language set. |
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
-
 
 ## Response: array
 

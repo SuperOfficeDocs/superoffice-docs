@@ -15,15 +15,11 @@ so.envir:
 ---
 
 # "form" MDO List
+
 Get all forms with folder hierarchy. Set ExtraInfo to "onlyActive" if you only want to get active forms
-
-
 
 Implemented by the <see cref="T:SuperOffice.CRM.Lists.FormProvider">FormProvider</see> class.
 The name of the MDO list is 'form'.
-
-
-
 
 ## Sample Request
 
@@ -36,6 +32,7 @@ Accept-Language: *
 ```
 
 ## Sample Code
+
 ```cs
 var listProvider = SuperOffice.CRM.Lists.SoListProviderFactory.Create("form", forceFlatList: true);
 foreach (var item in listProvider.RootItems) {
@@ -49,7 +46,6 @@ foreach (var item in listProvider.RootItems) {
 |Id   | Name  |StyleHint|ExtraInfo |
 | --- | ----- | ------- | -------- |
 | 2 | Example | | |
-
 
 ## Related MDO Lists
 

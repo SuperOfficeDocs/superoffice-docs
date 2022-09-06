@@ -11,12 +11,6 @@ POST /api/v1/Agents/Pocket/NotificationsHandled
 
 Mark a set of notifications as handled, so they can be cleaned up on other clients that have received the notification
 
-
-
-
-
-
-
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -26,7 +20,6 @@ Mark a set of notifications as handled, so they can be cleaned up on other clien
 ```http
 POST /api/v1/Agents/Pocket/NotificationsHandled?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -38,16 +31,15 @@ POST /api/v1/Agents/Pocket/NotificationsHandled?$select=name,department,category
 | Accept         | Content-type(s) you would like the response in:  |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request
 
-NotificationEvents 
+NotificationEvents
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | NotificationEvents | array |  |
 
-
-## Response: 
+## Response
 
 No Content
 
@@ -55,8 +47,7 @@ No Content
 |----------------|-------------|
 | 204 | No Content |
 
-Response body: 
-
+Response body:
 
 ## Sample request
 

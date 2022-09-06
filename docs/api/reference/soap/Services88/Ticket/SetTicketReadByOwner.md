@@ -19,7 +19,6 @@ Set the ReadByOwner status for a ticket. It will only have an effect if the call
 
 **Returns:** The ticket entity after setting the ReadByOwner
 
-
 [WSDL file for Services88/Ticket](../Services88-Ticket.md)
 
 Obtain a ticket from the [Services88/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -53,7 +52,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-
 
 ## SetTicketReadByOwner Response
 
@@ -382,4 +380,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

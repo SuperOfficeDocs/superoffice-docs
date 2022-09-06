@@ -7,15 +7,13 @@ title: List_Agent
 ```
 
 ---
+
 title: List_Agent
 ---
 
 ```http
 /api/v1/List/Agent
 ```
-
-
-
 
 * [POST Agents/List/GetTicketPriority](v1ListAgent_GetTicketPriority.md)
 
@@ -560,7 +558,6 @@ title: List_Agent
 * [POST Agents/List/GetBusiness](v1ListAgent_GetBusiness.md)
 
 * [POST Agents/List/GetBusinessList](v1ListAgent_GetBusinessList.md)
-
 
 * [POST Agents/List/GetTicketCategoryList](v1ListAgent_GetTicketCategoryList.md)
 

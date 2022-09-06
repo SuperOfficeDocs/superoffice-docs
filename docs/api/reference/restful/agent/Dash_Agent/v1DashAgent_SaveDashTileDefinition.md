@@ -11,13 +11,6 @@ POST /api/v1/Agents/Dash/SaveDashTileDefinition
 
 Updates the existing DashTileDefinition or creates a new DashTileDefinition if the id parameter is empty
 
-
-
-
-
-
-
-
 ## Request Headers
 
 | Parameter Name | Description |
@@ -32,9 +25,9 @@ Updates the existing DashTileDefinition or creates a new DashTileDefinition if t
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entity  
+## Request Body: entity
 
-The DashTileDefinition to be saved. 
+The DashTileDefinition to be saved.
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -58,8 +51,7 @@ The DashTileDefinition to be saved.
 | Usage | string | Where this tile can be used |
 | ProviderName | string | Name of provider to use with this entity type - read only property |
 
-
-## Response: 
+## Response
 
 OK
 
@@ -67,7 +59,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+Response body:
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|

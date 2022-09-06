@@ -11,13 +11,7 @@ POST /api/v1/PreferenceDescription
 
 Creates a new PreferenceDescription
 
-
 Calls the Preference agent service SavePreferenceDescription.
-
-
-
-
-
 
 ## Query String Parameters
 
@@ -28,7 +22,6 @@ Calls the Preference agent service SavePreferenceDescription.
 ```http
 POST /api/v1/PreferenceDescription?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -44,9 +37,9 @@ POST /api/v1/PreferenceDescription?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: newEntity  
+## Request Body: newEntity
 
-The PreferenceDescription to be saved. 
+The PreferenceDescription to be saved.
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -69,8 +62,7 @@ The PreferenceDescription to be saved.
 | MinValue | int32 | Min value (if type 1); list extra id (if type 5) |
 | RequiredLicense | string | Licenses the user/installation must have if this reference is to be shown. Comma-separated list of owner.module pairs |
 
-
-## Response: 
+## Response
 
 OK
 
@@ -78,7 +70,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+Response body:
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|

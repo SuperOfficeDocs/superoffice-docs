@@ -17,7 +17,6 @@ Gets a AudienceLayoutEntity object.
 
 **Returns:** AudienceLayoutEntity
 
-
 [WSDL file for Services85/Audience](../Services85-Audience.md)
 
 Obtain a ticket from the [Services85/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -48,7 +47,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-
 
 ## GetAudienceLayoutEntity Response
 
@@ -101,4 +99,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

@@ -11,14 +11,7 @@ PUT /api/v1/List/ReasonSold/Headings
 
 Saves headings for the ReasonSold list.
 
-
 Calls the List agent service SaveHeadingsFromListDefinition.
-
-
-
-
-
-
 
 ## Request Headers
 
@@ -34,9 +27,9 @@ Calls the List agent service SaveHeadingsFromListDefinition.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entities  
+## Request Body: entities
 
-The headings to be saved. 
+The headings to be saved.
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -46,7 +39,6 @@ The headings to be saved.
 | Deleted | bool | True if the heading is marked as deleted |
 | Rank | int32 | Rank order |
 | UdListDefinitionId | int32 | The id of the list which this heading belongs to |
-
 
 ## Response: array
 

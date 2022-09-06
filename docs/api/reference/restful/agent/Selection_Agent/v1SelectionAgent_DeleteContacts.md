@@ -11,13 +11,7 @@ POST /api/v1/Agents/Selection/DeleteContacts
 
 Deletes all contacts from a selection.
 
-
 If a contact does not have delete rights, it will be skipped.
-
-
-
-
-
 
 ## Query String Parameters
 
@@ -29,7 +23,6 @@ If a contact does not have delete rights, it will be skipped.
 POST /api/v1/Agents/Selection/DeleteContacts?$select=name,department,category/id
 ```
 
-
 ## Request Headers
 
 | Parameter Name | Description |
@@ -40,16 +33,15 @@ POST /api/v1/Agents/Selection/DeleteContacts?$select=name,department,category/id
 | Accept         | Content-type(s) you would like the response in:  |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request
 
-SelectionId 
+SelectionId
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | SelectionId | int32 |  |
 
-
-## Response: 
+## Response
 
 No Content
 
@@ -57,8 +49,7 @@ No Content
 |----------------|-------------|
 | 204 | No Content |
 
-Response body: 
-
+Response body:
 
 ## Sample request
 

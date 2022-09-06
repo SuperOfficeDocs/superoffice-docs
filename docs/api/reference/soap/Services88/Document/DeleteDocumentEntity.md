@@ -15,8 +15,6 @@ Deletes the DocumentEntity
 
 * **documentEntityId:** The identity of the DocumentEntity
 
-
-
 [WSDL file for Services88/Document](../Services88-Document.md)
 
 Obtain a ticket from the [Services88/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -49,7 +47,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
-
 ## DeleteDocumentEntity Response
 
 ```xml
@@ -69,4 +66,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

@@ -7,15 +7,13 @@ title: DashTile
 ```
 
 ---
+
 title: DashTile
 ---
 
 ```http
 /api/v1/DashTile
 ```
-
-
-
 
 * [GET DashTile/default](v1DashTile_DefaultDashTile.md)
 
@@ -28,7 +26,6 @@ title: DashTile
 * [DEL DashTile/{id}](v1DashTile_DeleteDashTile.md)
 
 * [PATCH DashTile/{id}](v1DashTile_PatchDashTile.md)
-
 
 * [GET DashTile/default](v1DashTile_DefaultDashTile.md)
 

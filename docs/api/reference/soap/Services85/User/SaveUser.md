@@ -17,7 +17,6 @@ Updates the existing User or creates a new User if the id parameter is 0.
 
 **Returns:** New or updated User
 
-
 [WSDL file for Services85/User](../Services85-User.md)
 
 Obtain a ticket from the [Services85/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -185,7 +184,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
-
 ## SaveUser Response
 
 ```xml
@@ -341,4 +339,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

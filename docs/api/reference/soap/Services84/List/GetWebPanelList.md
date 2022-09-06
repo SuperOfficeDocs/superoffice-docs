@@ -13,9 +13,7 @@ Implemented by the <see cref="M:SuperOffice.Services84.IListAgent.GetWebPanelLis
 
 Return a list of all web panels.
 
-
 **Returns:** List of all web panels
-
 
 [WSDL file for Services84/List](../Services84-List.md)
 
@@ -47,7 +45,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-
 
 ## GetWebPanelList Response
 
@@ -92,4 +89,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

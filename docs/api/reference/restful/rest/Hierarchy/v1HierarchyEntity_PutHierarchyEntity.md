@@ -11,15 +11,9 @@ PUT /api/v1/Hierarchy/{id}
 
 Updates the existing HierarchyEntity
 
-
-
-
-
-
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | id | int32 | The HierarchyEntity id to update. **Required** |
-
 
 ## Query String Parameters
 
@@ -30,7 +24,6 @@ Updates the existing HierarchyEntity
 ```http
 PUT /api/v1/Hierarchy/{id}?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -46,9 +39,9 @@ PUT /api/v1/Hierarchy/{id}?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entity  
+## Request Body: entity
 
-The HierarchyEntity to be saved. 
+The HierarchyEntity to be saved.
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -63,8 +56,7 @@ The HierarchyEntity to be saved.
 | Updated | date-time | Last updated when  in UTC. |
 | UpdatedAssociateId | int32 | Last updated by whom |
 
-
-## Response: 
+## Response
 
 HierarchyEntity updated.
 
@@ -73,7 +65,7 @@ HierarchyEntity updated.
 | 200 | HierarchyEntity updated. |
 | 400 | Bad request. Entity to save is not in request body. |
 
-Response body: 
+Response body:
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|

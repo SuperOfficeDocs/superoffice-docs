@@ -11,16 +11,9 @@ GET /api/v1/Selection/{selectionId}/Criteria
 
 Get the criteria for this dynamic selection.
 
-
-
-
-
-
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | selectionId | int32 | The id of the selection to add members **Required** |
-
-
 
 ## Request Headers
 
@@ -34,7 +27,6 @@ Get the criteria for this dynamic selection.
 | SO-Culture | Number, date formatting in a specified culture (iso2 language) code. Partially overrides SO-Language/Accept-Language value. Ignored if no Language set. |
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
-
 
 ## Response: array
 

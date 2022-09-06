@@ -11,12 +11,6 @@ POST /api/v1/Agents/List/UpdateCategoryMemberships
 
 Updates category memberships
 
-
-
-
-
-
-
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -26,7 +20,6 @@ Updates category memberships
 ```http
 POST /api/v1/Agents/List/UpdateCategoryMemberships?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -38,9 +31,9 @@ POST /api/v1/Agents/List/UpdateCategoryMemberships?$select=name,department,categ
 | Accept         | Content-type(s) you would like the response in:  |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request
 
-TicketCategoryId, MembershipsToAdd, MembershipsToUpdate, MembershipsToDelete 
+TicketCategoryId, MembershipsToAdd, MembershipsToUpdate, MembershipsToDelete
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -49,8 +42,7 @@ TicketCategoryId, MembershipsToAdd, MembershipsToUpdate, MembershipsToDelete
 | MembershipsToUpdate | array |  |
 | MembershipsToDelete | array |  |
 
-
-## Response: 
+## Response
 
 No Content
 
@@ -58,8 +50,7 @@ No Content
 |----------------|-------------|
 | 204 | No Content |
 
-Response body: 
-
+Response body:
 
 ## Sample request
 

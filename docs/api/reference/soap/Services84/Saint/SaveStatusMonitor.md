@@ -17,7 +17,6 @@ Updates the existing StatusMonitor or creates a new StatusMonitor if the id para
 
 **Returns:** New or updated StatusMonitor
 
-
 [WSDL file for Services84/Saint](../Services84-Saint.md)
 
 Obtain a ticket from the [Services84/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -65,7 +64,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
-
 ## SaveStatusMonitor Response
 
 ```xml
@@ -101,4 +99,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

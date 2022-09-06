@@ -11,16 +11,9 @@ POST /api/v1/Agents/User/GetUntrustedCredentialsForAssociate
 
 Get a set of credentials of a specified type for a specified user.
 
-
 SecretValue is only populated for authenticated user, and system users.
 
-
-## Online Restricted: ## The User agent is not available in Online by default. User management is not allowed for partner apps.
-
-
-
-
-
+## Online Restricted: ## The User agent is not available in Online by default. User management is not allowed for partner apps
 
 ## Query String Parameters
 
@@ -31,7 +24,6 @@ SecretValue is only populated for authenticated user, and system users.
 ```http
 POST /api/v1/Agents/User/GetUntrustedCredentialsForAssociate?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -47,15 +39,14 @@ POST /api/v1/Agents/User/GetUntrustedCredentialsForAssociate?$select=name,depart
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request
 
-AssociateId, Type 
+AssociateId, Type
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | AssociateId | int32 |  |
 | Type | string |  |
-
 
 ## Response: array
 

@@ -16,9 +16,6 @@ so.envir:
 
 # "faqreplytemplate" MDO List
 
-
-
-
 Implemented by the <see cref="T:SuperOffice.CRM.Lists.FaqReplyTemplateProvider">FaqReplyTemplateProvider</see> class.
 The name of the MDO list is 'faqreplytemplate'.
 
@@ -27,10 +24,6 @@ The name of the MDO list is 'faqreplytemplate'.
 | Description | Name | Example Value |
 |-----|-----|------|
 |Which of the types should be included? Comma separated string with the following choices: faqEntries, replyTemplates, quickReplies. Empty will give everything| resultType||
-
-
-
-
 
 ## Sample Request
 
@@ -43,6 +36,7 @@ Accept-Language: *
 ```
 
 ## Sample Code
+
 ```cs
 var listProvider = SuperOffice.CRM.Lists.SoListProviderFactory.Create("faqreplytemplate", forceFlatList: true);
 foreach (var item in listProvider.RootItems) {
@@ -56,7 +50,6 @@ foreach (var item in listProvider.RootItems) {
 |Id   | Name  |StyleHint|ExtraInfo |
 | --- | ----- | ------- | -------- |
 | 2 | Example | | |
-
 
 ## Related MDO Lists
 

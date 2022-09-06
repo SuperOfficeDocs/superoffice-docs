@@ -18,8 +18,6 @@ Update a row in a table
 * **id:** The id of the row to update
 * **values:** A StringDictionary with the values to update. You do not need to specify all the values in the table. The omitted ones will remain unchanged
 
-
-
 [WSDL file for Services87/DatabaseTable](../Services87-DatabaseTable.md)
 
 Obtain a ticket from the [Services87/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -58,7 +56,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
-
 ## UpdateRow Response
 
 ```xml
@@ -77,4 +74,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

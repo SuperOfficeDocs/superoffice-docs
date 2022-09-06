@@ -11,13 +11,6 @@ POST /api/v1/Appointment/Validate
 
 Check that entity is ready for saving.
 
-
-
-
-
-
-
-
 ## Request Headers
 
 | Parameter Name | Description |
@@ -32,9 +25,9 @@ Check that entity is ready for saving.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: appointmentEntity  
+## Request Body: appointmentEntity
 
-Entity to be checked. 
+Entity to be checked.
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -94,7 +87,6 @@ Entity to be checked.
 | IsPublished | bool | Publication is published |
 | VisibleFor | array | The set of users or groups the record is visible for |
 
-
 ## Response: object
 
 OK
@@ -104,7 +96,6 @@ OK
 | 200 | OK |
 
 Response body: object
-
 
 ## Sample request
 

@@ -7,15 +7,13 @@ title: Marketing_Agent
 ```
 
 ---
+
 title: Marketing_Agent
 ---
 
 ```http
 /api/v1/Marketing/Agent
 ```
-
-
-
 
 * [POST Agents/Marketing/CreateDefaultFormEntity](v1MarketingAgent_CreateDefaultFormEntity.md)
 
@@ -58,7 +56,6 @@ title: Marketing_Agent
 * [POST Agents/Marketing/GetUserBlocks](v1MarketingAgent_GetUserBlocks.md)
 
 * [POST Agents/Marketing/GetShipmentMessageEntity](v1MarketingAgent_GetShipmentMessageEntity.md)
-
 
 * [POST Agents/Marketing/CreateDefaultFormEntity](v1MarketingAgent_CreateDefaultFormEntity.md)
 

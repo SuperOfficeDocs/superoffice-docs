@@ -11,18 +11,11 @@ DELETE /api/v1/Dash/{id}
 
 Deletes the Dash
 
-
 Calls the Dash agent service DeleteDash.
-
-
-
-
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | id | int32 | The Dash to be deleted. **Required** |
-
-
 
 ## Request Headers
 
@@ -33,8 +26,7 @@ Calls the Dash agent service DeleteDash.
 | Accept         | Content-type(s) you would like the response in:  |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-
-## Response: 
+## Response
 
 Dash deleted.
 
@@ -42,8 +34,7 @@ Dash deleted.
 |----------------|-------------|
 | 204 | Dash deleted. |
 
-Response body: 
-
+Response body:
 
 ## Sample request
 

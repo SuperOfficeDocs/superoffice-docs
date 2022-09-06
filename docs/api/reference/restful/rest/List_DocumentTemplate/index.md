@@ -7,15 +7,13 @@ title: List_DocumentTemplate
 ```
 
 ---
+
 title: List_DocumentTemplate
 ---
 
 ```http
 /api/v1/List/DocumentTemplate
 ```
-
-
-
 
 * [GET List/DocumentTemplate](v1DocumentTemplateList_GetListDefinition.md)
 
@@ -72,7 +70,6 @@ title: List_DocumentTemplate
 * [GET List/DocumentTemplate/Plugin/{id}](v1DocumentTemplateList_GetPluginCapabilities.md)
 
 * [GET List/DocumentTemplate/Plugin/{id}/DocumentTypes](v1DocumentTemplateList_GetDocumentTypesForPlugin.md)
-
 
 * [GET List/DocumentTemplate](v1DocumentTemplateList_GetListDefinition.md)
 

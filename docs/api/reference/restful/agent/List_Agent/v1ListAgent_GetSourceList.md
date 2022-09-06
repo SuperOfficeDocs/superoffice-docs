@@ -11,12 +11,6 @@ POST /api/v1/Agents/List/GetSourceList
 
 Gets an array of Source objects.
 
-
-
-
-
-
-
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -26,7 +20,6 @@ Gets an array of Source objects.
 ```http
 POST /api/v1/Agents/List/GetSourceList?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -42,11 +35,9 @@ POST /api/v1/Agents/List/GetSourceList?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: sourceIds  
+## Request Body: sourceIds
 
-The primary keys. 
-
-
+The primary keys.
 
 ## Response: array
 

@@ -17,7 +17,6 @@ Gets the contact's localized address.
 
 **Returns:** The address as LocalizedField[][].
 
-
 [WSDL file for Services88/Contact](../Services88-Contact.md)
 
 Obtain a ticket from the [Services88/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -49,7 +48,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-
 
 ## GetAddress Response
 
@@ -109,4 +107,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

@@ -11,12 +11,6 @@ POST /api/v1/Agents/ForeignSystem/GetDeviceKeysOnDeviceIdentifierTableRecordId
 
 Returns all ForeignKeys that belong to a device with a given deviceIdentifier and table name, as well as record id.
 
-
-
-
-
-
-
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -26,7 +20,6 @@ Returns all ForeignKeys that belong to a device with a given deviceIdentifier an
 ```http
 POST /api/v1/Agents/ForeignSystem/GetDeviceKeysOnDeviceIdentifierTableRecordId?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -42,9 +35,9 @@ POST /api/v1/Agents/ForeignSystem/GetDeviceKeysOnDeviceIdentifierTableRecordId?$
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request
 
-ApplicationName, DeviceName, DeviceIdentifier, TableName, RecordId 
+ApplicationName, DeviceName, DeviceIdentifier, TableName, RecordId
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -53,7 +46,6 @@ ApplicationName, DeviceName, DeviceIdentifier, TableName, RecordId
 | DeviceIdentifier | string |  |
 | TableName | string |  |
 | RecordId | int32 |  |
-
 
 ## Response: array
 

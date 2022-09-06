@@ -27,4 +27,3 @@ Download [WSDL file for Services87/Ticket](../Services87-Ticket.md) if you need 
 * [SanitizeMailContents](SanitizeMailContents.md)
 * [SaveTicketEntity](SaveTicketEntity.md)
 * [SaveTicketMessageEntity](SaveTicketMessageEntity.md)
-

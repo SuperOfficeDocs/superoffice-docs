@@ -9,14 +9,6 @@ uid: v1ProjectAgent_OfferAutoNextStatusOnApppointmentCompleted
 POST /api/v1/Agents/Project/OfferAutoNextStatusOnApppointmentCompleted
 ```
 
-
-
-
-
-
-
-
-
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -26,7 +18,6 @@ POST /api/v1/Agents/Project/OfferAutoNextStatusOnApppointmentCompleted
 ```http
 POST /api/v1/Agents/Project/OfferAutoNextStatusOnApppointmentCompleted?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -42,14 +33,13 @@ POST /api/v1/Agents/Project/OfferAutoNextStatusOnApppointmentCompleted?$select=n
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request
 
-AppointmentId 
+AppointmentId
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | AppointmentId | int32 |  |
-
 
 ## Response: bool
 
@@ -60,7 +50,6 @@ OK
 | 200 | OK |
 
 Response body: bool
-
 
 ## Sample request
 

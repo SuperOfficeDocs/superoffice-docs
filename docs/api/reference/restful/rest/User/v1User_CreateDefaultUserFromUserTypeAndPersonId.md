@@ -11,16 +11,9 @@ GET /api/v1/User/Default
 
 Create default User providing the associate type and person id.
 
-
 System and Anonymous users can be created without an exsisting person and permits person id to be 0.
 
-
-## Online Restricted: ## The User agent is not available in Online by default. User management is not allowed for partner apps.
-
-
-
-
-
+## Online Restricted: ## The User agent is not available in Online by default. User management is not allowed for partner apps
 
 ## Query String Parameters
 
@@ -33,7 +26,6 @@ System and Anonymous users can be created without an exsisting person and permit
 GET /api/v1/User/Default?userType=AnonymousAssociate
 GET /api/v1/User/Default?personId=272
 ```
-
 
 ## Request Headers
 
@@ -48,8 +40,7 @@ GET /api/v1/User/Default?personId=272
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-
-## Response: 
+## Response
 
 OK
 
@@ -57,7 +48,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+Response body:
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|

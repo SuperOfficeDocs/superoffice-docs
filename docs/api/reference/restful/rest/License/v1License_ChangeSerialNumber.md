@@ -11,13 +11,7 @@ POST /api/v1/License/ChangeSerialNumber
 
 Change the new serial number for the installation.
 
-
 Requests a new license from SuperLicense, checks if change is authorized.
-
-
-
-
-
 
 ## Query String Parameters
 
@@ -30,7 +24,6 @@ Requests a new license from SuperLicense, checks if change is authorized.
 POST /api/v1/License/ChangeSerialNumber?newCompanyName=Beer, Howe and Feest
 POST /api/v1/License/ChangeSerialNumber?newSerialNumber=1277826
 ```
-
 
 ## Request Headers
 
@@ -45,8 +38,7 @@ POST /api/v1/License/ChangeSerialNumber?newSerialNumber=1277826
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-
-## Response: 
+## Response
 
 OK
 
@@ -54,7 +46,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+Response body:
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|

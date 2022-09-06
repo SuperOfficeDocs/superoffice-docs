@@ -7,15 +7,13 @@ title: Hierarchy
 ```
 
 ---
+
 title: Hierarchy
 ---
 
 ```http
 /api/v1/Hierarchy
 ```
-
-
-
 
 * [GET Hierarchy/default](v1HierarchyEntity_DefaultHierarchyEntity.md)
 
@@ -40,7 +38,6 @@ title: Hierarchy
 * [POST Hierarchy/{domain}/{path}](v1HierarchyEntity_AddHierarchyToPath.md)
 
 * [DEL Hierarchy/{domain}/{path}](v1HierarchyEntity_DeleteHierarchyFromPath.md)
-
 
 * [GET Hierarchy/default](v1HierarchyEntity_DefaultHierarchyEntity.md)
 

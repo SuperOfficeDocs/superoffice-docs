@@ -7,15 +7,13 @@ title: License
 ```
 
 ---
+
 title: License
 ---
 
 ```http
 /api/v1/License
 ```
-
-
-
 
 * [GET License](v1License_GetLicenseForAllOwnersFromDB.md)
 
@@ -42,7 +40,6 @@ title: License
 * [PUT License/{moduleOwner}/{id}](v1License_AssignThirdPartyLicenses.md)
 
 * [DEL License/{moduleOwner}/{id}](v1License_UnassignThirdPartyLicenses.md)
-
 
 * [GET License](v1License_GetLicenseForAllOwnersFromDB.md)
 

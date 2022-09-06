@@ -7,15 +7,13 @@ title: ShipmentMessage
 ```
 
 ---
+
 title: ShipmentMessage
 ---
 
 ```http
 /api/v1/ShipmentMessage
 ```
-
-
-
 
 * [GET ShipmentMessage/default](v1ShipmentMessageEntity_DefaultShipmentMessageEntity.md)
 
@@ -28,7 +26,6 @@ title: ShipmentMessage
 * [DEL ShipmentMessage/{id}](v1ShipmentMessageEntity_DeleteShipmentMessageEntity.md)
 
 * [PATCH ShipmentMessage/{id}](v1ShipmentMessageEntity_PatchShipmentMessageEntity.md)
-
 
 * [GET ShipmentMessage/default](v1ShipmentMessageEntity_DefaultShipmentMessageEntity.md)
 

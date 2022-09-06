@@ -11,16 +11,10 @@ PUT /api/v1/List/DocumentTemplate/Items/{documentTemplateId}/Content/{languageCo
 
 Writes content in stream to document template file
 
-
-
-
-
-
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | documentTemplateId | int32 | Identifier for document template **Required** |
 | languageCode | string | Language variation of template to update. (ISO code: "en-US" or "nb-NO" etc). Used to select a template of the appropriate language. Can be overridden in SO ARC by user preference "PreferDocLang". **Required** |
-
 
 ## Query String Parameters
 
@@ -31,7 +25,6 @@ Writes content in stream to document template file
 ```http
 PUT /api/v1/List/DocumentTemplate/Items/{documentTemplateId}/Content/{languageCode}?pluginId=676
 ```
-
 
 ## Request Headers
 
@@ -47,13 +40,11 @@ PUT /api/v1/List/DocumentTemplate/Items/{documentTemplateId}/Content/{languageCo
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: content  
+## Request Body: content
 
-Stream containing content to be saved to document template file 
+Stream containing content to be saved to document template file
 
-
-
-## Response: 
+## Response
 
 OK
 
@@ -61,7 +52,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+Response body:
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|

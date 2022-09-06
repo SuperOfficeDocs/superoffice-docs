@@ -13,9 +13,7 @@ Implemented by the <see cref="M:SuperOffice.Services87.IListAgent.GetConsentSour
 
 Returns all defined Sources.
 
-
 **Returns:** An array of all defined Sources
-
 
 [WSDL file for Services87/List](../Services87-List.md)
 
@@ -48,7 +46,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
-
 ## GetConsentSources Response
 
 ```xml
@@ -79,4 +76,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

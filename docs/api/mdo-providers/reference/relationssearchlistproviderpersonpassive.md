@@ -15,6 +15,7 @@ so.envir:
 ---
 
 # "relationssearchlistproviderpersonpassive" MDO List
+
 Serve the active and passive texts of relations, with a given table as source (active)
 or destination (passive).
 
@@ -28,9 +29,6 @@ appear in the correct direction, in the list for a table. Each such list is alwa
 Implemented by the <see cref="T:SuperOffice.CRM.Lists.RelationsSearchListProvider">RelationsSearchListProvider</see> class.
 The name of the MDO list is 'relationssearchlistproviderpersonpassive'.
 
-
-
-
 ## Sample Request
 
 ```http!
@@ -42,6 +40,7 @@ Accept-Language: *
 ```
 
 ## Sample Code
+
 ```cs
 var listProvider = SuperOffice.CRM.Lists.SoListProviderFactory.Create("relationssearchlistproviderpersonpassive", forceFlatList: true);
 foreach (var item in listProvider.RootItems) {
@@ -58,7 +57,6 @@ foreach (var item in listProvider.RootItems) {
 |3|leies inn av|||
 |6|er i familie med|||
 |7|kjenner|||
-
 
 ## Related MDO Lists
 

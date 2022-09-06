@@ -16,8 +16,6 @@ Store a binary object from it's stream
 * **blobEntityId:** Id of the BLOB entity object that the binary data should be stored to.
 * **stream:** The binary object as a Stream
 
-
-
 [WSDL file for Services88/BLOB](../Services88-BLOB.md)
 
 Obtain a ticket from the [Services88/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -50,7 +48,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
-
 ## SetBlobStream Response
 
 ```xml
@@ -69,4 +66,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

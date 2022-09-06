@@ -16,8 +16,6 @@ Removes members from the selection as specified in the collection of entity ids.
 * **selectionId:** The id of the selection where to members will be removed.
 * **ids:** A collection of sale/project/contact ids to remove from the selection. The ids can be a collection of sale ids, or other supported types.
 
-
-
 [WSDL file for Services86/Selection](../Services86-Selection.md)
 
 Obtain a ticket from the [Services86/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -53,7 +51,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
-
 ## RemoveSelectionMembersById Response
 
 ```xml
@@ -73,4 +70,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

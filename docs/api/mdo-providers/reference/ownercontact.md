@@ -15,9 +15,8 @@ so.envir:
 ---
 
 # "ownercontact" MDO List
+
 MDO provider for listing owner contacts.
-
-
 
 Implemented by the <see cref="T:SuperOffice.CRM.Lists.OwnerContactProvider">OwnerContactProvider</see> class.
 The name of the MDO list is 'ownercontact'.
@@ -27,10 +26,6 @@ The name of the MDO list is 'ownercontact'.
 | Description | Name | Example Value |
 |-----|-----|------|
 |Add an extra item for ALL Companies to list| addallitem|y|
-
-
-
-
 
 ## Sample Request
 
@@ -43,6 +38,7 @@ Accept-Language: *
 ```
 
 ## Sample Code
+
 ```cs
 var listProvider = SuperOffice.CRM.Lists.SoListProviderFactory.Create("ownercontact", forceFlatList: true);
 foreach (var item in listProvider.RootItems) {
@@ -58,7 +54,6 @@ foreach (var item in listProvider.RootItems) {
 |21|Jensen Madrasser, JAvdeling|||
 |30|Nilsen'S VVS ANS, NAvdeling|||
 |2|statezerodatabase|||
-
 
 ## Related MDO Lists
 

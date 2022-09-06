@@ -13,11 +13,10 @@ Implemented by the <see cref="M:SuperOffice.Services88.IAppointmentAgent.CreateA
 
 Create an invitation record and an appointment with a given UID to reserve it if the UID is unused, otherwise null.
 
-* **appointmentEntity:** 
+* **appointmentEntity:**
 * **uID:** The UID associated with the appointment
 
 **Returns:** The newly created AppointmentEntity or null if the UID is in the DB already.
-
 
 [WSDL file for Services88/Appointment](../Services88-Appointment.md)
 
@@ -456,7 +455,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
-
 ## CreateAppointmentForUID Response
 
 ```xml
@@ -881,4 +879,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

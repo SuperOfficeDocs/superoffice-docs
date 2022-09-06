@@ -19,7 +19,6 @@ Retrieve, format and translate text for an entity to a specified language
 
 **Returns:** Translated text
 
-
 [WSDL file for Services88/AI](../Services88-AI.md)
 
 Obtain a ticket from the [Services88/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -53,7 +52,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
-
 ## TranslateEntity Response
 
 ```xml
@@ -73,4 +71,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

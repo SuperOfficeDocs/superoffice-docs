@@ -11,14 +11,7 @@ POST /api/v1/List/WebPanel/Items
 
 Create a new WebPanelEntity list item
 
-
 Calls the List agent service SaveWebPanelEntity.
-
-
-
-
-
-
 
 ## Request Headers
 
@@ -34,9 +27,9 @@ Calls the List agent service SaveWebPanelEntity.
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: newEntity  
+## Request Body: newEntity
 
-The WebPanelEntity to be created. 
+The WebPanelEntity to be created.
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -62,8 +55,7 @@ The WebPanelEntity to be created.
 | Icon | int32 | The icon of the webpanel |
 | AlwaysReloadOnShow | bool | If set to true, the content will reload every time the panel is shown |
 
-
-## Response: 
+## Response
 
 OK
 
@@ -71,7 +63,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+Response body:
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|

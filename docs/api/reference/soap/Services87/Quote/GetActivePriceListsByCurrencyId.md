@@ -18,7 +18,6 @@ Gets the available active PriceLists in a specific currency. Will return empty a
 
 **Returns:** The PriceLists that supports a specific currency
 
-
 [WSDL file for Services87/Quote](../Services87-Quote.md)
 
 Obtain a ticket from the [Services87/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -51,7 +50,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-
 
 ## GetActivePriceListsByCurrencyId Response
 
@@ -86,4 +84,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

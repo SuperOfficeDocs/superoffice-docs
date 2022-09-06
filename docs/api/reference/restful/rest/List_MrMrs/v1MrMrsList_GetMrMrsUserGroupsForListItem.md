@@ -11,18 +11,11 @@ GET /api/v1/List/MrMrs/Items/{itemId}/UserGroups
 
 Gets user groups visible for the MrMrs list's item.
 
-
 Calls the List agent service GetHeadings.
-
-
-
-
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | itemId | int32 | The ID of the item to get. **Required** |
-
-
 
 ## Request Headers
 
@@ -36,7 +29,6 @@ Calls the List agent service GetHeadings.
 | SO-Culture | Number, date formatting in a specified culture (iso2 language) code. Partially overrides SO-Language/Accept-Language value. Ignored if no Language set. |
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
-
 
 ## Response: array
 

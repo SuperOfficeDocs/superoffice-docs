@@ -11,15 +11,9 @@ GET /api/v1/MDOList/{listname}/selectable
 
 Return the selectable list items
 
-
-
-
-
-
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | listname | string | "category", "business" etc **Required** |
-
 
 ## Query String Parameters
 
@@ -33,7 +27,6 @@ GET /api/v1/MDOList/{listname}/selectable?additional=quasi
 GET /api/v1/MDOList/{listname}/selectable?flat=False
 ```
 
-
 ## Request Headers
 
 | Parameter Name | Description |
@@ -46,7 +39,6 @@ GET /api/v1/MDOList/{listname}/selectable?flat=False
 | SO-Culture | Number, date formatting in a specified culture (iso2 language) code. Partially overrides SO-Language/Accept-Language value. Ignored if no Language set. |
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
-
 
 ## Response: array
 

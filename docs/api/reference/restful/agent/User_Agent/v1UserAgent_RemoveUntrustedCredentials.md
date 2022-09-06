@@ -11,15 +11,7 @@ POST /api/v1/Agents/User/RemoveUntrustedCredentials
 
 Remove a credentials entry for authenticated user.
 
-
-
-
-## Online Restricted: ## The User agent is not available in Online by default. User management is not allowed for partner apps.
-
-
-
-
-
+## Online Restricted: ## The User agent is not available in Online by default. User management is not allowed for partner apps
 
 ## Query String Parameters
 
@@ -31,7 +23,6 @@ Remove a credentials entry for authenticated user.
 POST /api/v1/Agents/User/RemoveUntrustedCredentials?$select=name,department,category/id
 ```
 
-
 ## Request Headers
 
 | Parameter Name | Description |
@@ -42,17 +33,16 @@ POST /api/v1/Agents/User/RemoveUntrustedCredentials?$select=name,department,cate
 | Accept         | Content-type(s) you would like the response in:  |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request
 
-Type, PublicValue 
+Type, PublicValue
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | Type | string |  |
 | PublicValue | string |  |
 
-
-## Response: 
+## Response
 
 No Content
 
@@ -60,8 +50,7 @@ No Content
 |----------------|-------------|
 | 204 | No Content |
 
-Response body: 
-
+Response body:
 
 ## Sample request
 

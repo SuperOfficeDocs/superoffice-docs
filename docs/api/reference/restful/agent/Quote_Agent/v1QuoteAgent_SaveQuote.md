@@ -11,12 +11,6 @@ POST /api/v1/Agents/Quote/SaveQuote
 
 Saves a Quote
 
-
-
-
-
-
-
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -26,7 +20,6 @@ Saves a Quote
 ```http
 POST /api/v1/Agents/Quote/SaveQuote?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -42,16 +35,15 @@ POST /api/v1/Agents/Quote/SaveQuote?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request
 
-Quote 
+Quote
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | Quote |  | Quote carrier with the active quote version and favorite alternative. <para /> Carrier object for Quote. Services for the Quote Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IQuoteAgent">Quote Agent</see>. |
 
-
-## Response: 
+## Response
 
 OK
 
@@ -59,7 +51,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+Response body:
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|

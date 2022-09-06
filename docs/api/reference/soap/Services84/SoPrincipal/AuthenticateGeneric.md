@@ -11,10 +11,6 @@ Implemented by the <see cref="M:SuperOffice.Services84.ISoPrincipalAgent.Authent
 
 ## AuthenticateGeneric
 
-
-
-
-
 [WSDL file for Services84/SoPrincipal](../Services84-SoPrincipal.md)
 
 ## AuthenticateGeneric Request
@@ -45,7 +41,6 @@ Implemented by the <see cref="M:SuperOffice.Services84.ISoPrincipalAgent.Authent
 </SOAP-ENV:Envelope>
 
 ```
-
 
 ## AuthenticateGeneric Response
 
@@ -127,4 +122,3 @@ Implemented by the <see cref="M:SuperOffice.Services84.ISoPrincipalAgent.Authent
 </SOAP-ENV:Envelope>
 
 ```
-

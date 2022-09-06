@@ -19,7 +19,6 @@ Saves the selected values as selected by their given list representation.
 
 **Returns:** Array of updated SelectableMDOListItems
 
-
 [WSDL file for Services88/MDO](../Services88-MDO.md)
 
 Obtain a ticket from the [Services88/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -108,7 +107,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
-
 ## SetSelected Response
 
 ```xml
@@ -185,4 +183,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

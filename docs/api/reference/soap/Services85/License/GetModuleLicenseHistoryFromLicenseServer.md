@@ -18,7 +18,6 @@ Get details about a license from the license server.
 
 **Returns:** Information about a particular license module.
 
-
 [WSDL file for Services85/License](../Services85-License.md)
 
 Obtain a ticket from the [Services85/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -246,7 +245,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
-
 ## GetModuleLicenseHistoryFromLicenseServer Response
 
 ```xml
@@ -268,4 +266,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

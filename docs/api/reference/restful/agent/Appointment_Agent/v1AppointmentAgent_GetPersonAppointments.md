@@ -11,13 +11,7 @@ POST /api/v1/Agents/Appointment/GetPersonAppointments
 
 Method that returns a specified number of appointments within a time range.
 
-
 The appointments belong to the person specified. If the person not is a SuperOffice user (associate) or the logged on user is not allowed to view this persons appointments an exception is thrown.
-
-
-
-
-
 
 ## Query String Parameters
 
@@ -28,7 +22,6 @@ The appointments belong to the person specified. If the person not is a SuperOff
 ```http
 POST /api/v1/Agents/Appointment/GetPersonAppointments?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -44,9 +37,9 @@ POST /api/v1/Agents/Appointment/GetPersonAppointments?$select=name,department,ca
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request
 
-PersonId, IncludeProjectAppointments, StartTime, EndTime, Count 
+PersonId, IncludeProjectAppointments, StartTime, EndTime, Count
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -55,7 +48,6 @@ PersonId, IncludeProjectAppointments, StartTime, EndTime, Count
 | StartTime | date-time |  |
 | EndTime | date-time |  |
 | Count | int32 |  |
-
 
 ## Response: array
 

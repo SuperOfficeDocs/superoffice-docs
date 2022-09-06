@@ -11,17 +11,10 @@ GET /api/v1/Table/{tableName}/{id}
 
 Read a row from a table
 
-
-
-
-
-
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | tableName | string | The name of the table to fetch; in the current release this must be an 'extratable'. Use the database name, on the form y_aTable **Required** |
 | id | int32 | The id of the row to fetch **Required** |
-
-
 
 ## Request Headers
 
@@ -36,8 +29,7 @@ Read a row from a table
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-
-## Response: 
+## Response
 
 OK
 
@@ -46,7 +38,7 @@ OK
 | 200 | OK |
 | 404 | Not Found. |
 
-Response body: 
+Response body:
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|

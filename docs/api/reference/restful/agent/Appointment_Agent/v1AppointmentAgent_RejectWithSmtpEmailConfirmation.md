@@ -11,12 +11,6 @@ POST /api/v1/Agents/Appointment/RejectWithSmtpEmailConfirmation
 
 Rejecting an appointment invitation and send an email confirmation to the meeting organizer.
 
-
-
-
-
-
-
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -26,7 +20,6 @@ Rejecting an appointment invitation and send an email confirmation to the meetin
 ```http
 POST /api/v1/Agents/Appointment/RejectWithSmtpEmailConfirmation?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -38,9 +31,9 @@ POST /api/v1/Agents/Appointment/RejectWithSmtpEmailConfirmation?$select=name,dep
 | Accept         | Content-type(s) you would like the response in:  |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request
 
-AppointmentId, RejectReason, UpdateMode, SmtpEMailConnectionInfo 
+AppointmentId, RejectReason, UpdateMode, SmtpEMailConnectionInfo
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -49,8 +42,7 @@ AppointmentId, RejectReason, UpdateMode, SmtpEMailConnectionInfo
 | UpdateMode | string |  |
 | SmtpEMailConnectionInfo |  | All information needed to connect to a mailserver <para /> Carrier object for EMailConnectionInfo. Services for the EMailConnectionInfo Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IEMailAgent">EMail Agent</see>. |
 
-
-## Response: 
+## Response
 
 No Content
 
@@ -58,8 +50,7 @@ No Content
 |----------------|-------------|
 | 204 | No Content |
 
-Response body: 
-
+Response body:
 
 ## Sample request
 

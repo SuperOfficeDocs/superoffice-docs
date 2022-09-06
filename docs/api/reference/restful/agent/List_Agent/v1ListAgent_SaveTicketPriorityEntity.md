@@ -11,13 +11,6 @@ POST /api/v1/Agents/List/SaveTicketPriorityEntity
 
 Updates the existing TicketPriorityEntity or creates a new TicketPriorityEntity if the id parameter is empty
 
-
-
-
-
-
-
-
 ## Request Headers
 
 | Parameter Name | Description |
@@ -32,9 +25,9 @@ Updates the existing TicketPriorityEntity or creates a new TicketPriorityEntity 
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entity  
+## Request Body: entity
 
-The TicketPriorityEntity to be saved. 
+The TicketPriorityEntity to be saved.
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -67,8 +60,7 @@ The TicketPriorityEntity to be saved.
 | NonDates | array | Dates which the escalation time should not be running. Note that only the day of the year (day and month) is used. So the year and time part is not used even if this is a DateTime. Exception - it IS possible to include a year here, for dates that should not repeat every year |
 | EscalationLevels | array | Escalation levels bound to the parent priority |
 
-
-## Response: 
+## Response
 
 OK
 
@@ -76,7 +68,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+Response body:
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|

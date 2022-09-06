@@ -11,13 +11,6 @@ POST /api/v1/Agents/Preference/SavePreferenceDescription
 
 Updates the existing PreferenceDescription or creates a new PreferenceDescription if the id parameter is empty
 
-
-
-
-
-
-
-
 ## Request Headers
 
 | Parameter Name | Description |
@@ -32,9 +25,9 @@ Updates the existing PreferenceDescription or creates a new PreferenceDescriptio
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entity  
+## Request Body: entity
 
-The PreferenceDescription to be saved. 
+The PreferenceDescription to be saved.
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -57,8 +50,7 @@ The PreferenceDescription to be saved.
 | MinValue | int32 | Min value (if type 1); list extra id (if type 5) |
 | RequiredLicense | string | Licenses the user/installation must have if this reference is to be shown. Comma-separated list of owner.module pairs |
 
-
-## Response: 
+## Response
 
 OK
 
@@ -66,7 +58,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+Response body:
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|

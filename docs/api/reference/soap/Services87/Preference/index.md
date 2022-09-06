@@ -45,4 +45,3 @@ Download [WSDL file for Services87/Preference](../Services87-Preference.md) if y
 * [SaveTabOrder](SaveTabOrder.md)
 * [SaveTabOrders](SaveTabOrders.md)
 * [UpdateNetServicesStatus](UpdateNetServicesStatus.md)
-

@@ -11,13 +11,6 @@ POST /api/v1/Agents/Marketing/SaveShipmentMessageBlockEntity
 
 Updates the existing ShipmentMessageBlockEntity or creates a new ShipmentMessageBlockEntity if the id parameter is empty
 
-
-
-
-
-
-
-
 ## Request Headers
 
 | Parameter Name | Description |
@@ -32,9 +25,9 @@ Updates the existing ShipmentMessageBlockEntity or creates a new ShipmentMessage
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entity  
+## Request Body: entity
 
-The ShipmentMessageBlockEntity to be saved. 
+The ShipmentMessageBlockEntity to be saved.
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -47,8 +40,7 @@ The ShipmentMessageBlockEntity to be saved.
 | UpdatedAssociateId | int32 | Last updated by whom |
 | UpdatedCount | int32 | Number of updates made to this record |
 
-
-## Response: 
+## Response
 
 OK
 
@@ -56,7 +48,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+Response body:
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|

@@ -91,4 +91,3 @@ Download [WSDL file for Services86/Document](../Services86-Document.md) if you n
 * [SubstituteTemplateVariablesWithCustomTags2](SubstituteTemplateVariablesWithCustomTags2.md)
 * [UndoCheckoutDocument](UndoCheckoutDocument.md)
 * [VerifyGetDocumentStream](VerifyGetDocumentStream.md)
-

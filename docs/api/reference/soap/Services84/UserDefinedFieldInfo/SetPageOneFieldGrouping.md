@@ -16,8 +16,6 @@ Sets the Page One Field grouping for a specific entity
 * **ownerType:** The user-defined field owner-entity.
 * **active:** If true, use grouping
 
-
-
 [WSDL file for Services84/UserDefinedFieldInfo](../Services84-UserDefinedFieldInfo.md)
 
 Obtain a ticket from the [Services84/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -51,7 +49,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
-
 ## SetPageOneFieldGrouping Response
 
 ```xml
@@ -71,4 +68,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

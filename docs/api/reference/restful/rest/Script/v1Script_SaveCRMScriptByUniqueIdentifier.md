@@ -11,20 +11,11 @@ PUT /api/v1/Script/{uniqueIdentifier}
 
 Create or Update the CRMScript information
 
-
-
-
-## Online Restricted: ## The CRMScript agent is not available in Online by default. Access must be requested specifically when app is registered.
-
-
-
-
+## Online Restricted: ## The CRMScript agent is not available in Online by default. Access must be requested specifically when app is registered
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | uniqueIdentifier | string | Global unique reference to script (independent of installation) **Required** |
-
-
 
 ## Request Headers
 
@@ -40,9 +31,9 @@ Create or Update the CRMScript information
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: crmscript  
+## Request Body: CRMScript
 
-Information about the CRMScript 
+Information about the CRMScript
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -57,8 +48,7 @@ Information about the CRMScript
 | UpdatedBy | string | Who updated this script |
 | Path | string | Path to script in the hierarchy. |
 
-
-## Response: 
+## Response
 
 OK
 
@@ -66,7 +56,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+Response body:
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|

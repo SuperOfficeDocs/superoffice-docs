@@ -17,7 +17,6 @@ Returns a Document Template list item as a TaskListItem. The appointment's task 
 
 **Returns:** Document Template item as TaskListItem.
 
-
 [WSDL file for Services88/List](../Services88-List.md)
 
 Obtain a ticket from the [Services88/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -50,7 +49,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
-
 ## GetDocumentTemplateTask Response
 
 ```xml
@@ -75,4 +73,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

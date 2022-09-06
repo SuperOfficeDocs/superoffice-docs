@@ -21,7 +21,6 @@ Get the values for the specified fields from the ERP connection
 
 **Returns:** An array containing the values for the specified fields, in the same order
 
-
 [WSDL file for Services86/ErpSync](../Services86-ErpSync.md)
 
 Obtain a ticket from the [Services86/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -59,7 +58,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
-
 ## GetErpFieldValues Response
 
 ```xml
@@ -82,4 +80,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

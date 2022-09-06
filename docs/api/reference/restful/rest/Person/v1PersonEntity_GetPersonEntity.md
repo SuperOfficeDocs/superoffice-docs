@@ -11,17 +11,11 @@ GET /api/v1/Person/{id}
 
 Gets a PersonEntity object.
 
-
 Calls the Person agent service GetPersonEntity.
-
-
-
-
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | id | int32 | The id of the PersonEntity to return. **Required** |
-
 
 ## Query String Parameters
 
@@ -34,7 +28,6 @@ Calls the Person agent service GetPersonEntity.
 GET /api/v1/Person/{id}?$select=name,department,category/id
 GET /api/v1/Person/{id}?fk=False
 ```
-
 
 ## Request Headers
 
@@ -49,8 +42,7 @@ GET /api/v1/Person/{id}?fk=False
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-
-## Response: 
+## Response
 
 PersonEntity found.
 
@@ -60,7 +52,7 @@ PersonEntity found.
 | 304 | PersonEntity has not changed since the requested If-Modified-Since date. |
 | 404 | Not Found. |
 
-Response body: 
+Response body:
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|

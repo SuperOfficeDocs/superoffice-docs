@@ -7,15 +7,13 @@ title: Dash_Agent
 ```
 
 ---
+
 title: Dash_Agent
 ---
 
 ```http
 /api/v1/Dash/Agent
 ```
-
-
-
 
 * [POST Agents/Dash/CreateDefaultDash](v1DashAgent_CreateDefaultDash.md)
 
@@ -84,7 +82,6 @@ title: Dash_Agent
 * [POST Agents/Dash/GetDashTileHtmlList](v1DashAgent_GetDashTileHtmlList.md)
 
 * [POST Agents/Dash/SaveDashTileHtmlList](v1DashAgent_SaveDashTileHtmlList.md)
-
 
 * [POST Agents/Dash/CreateDefaultDash](v1DashAgent_CreateDefaultDash.md)
 

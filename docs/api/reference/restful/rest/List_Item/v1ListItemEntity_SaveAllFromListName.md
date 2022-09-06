@@ -11,16 +11,9 @@ PUT /api/v1/List/{udListDefinitionName}/Items
 
 Save all list items for the specified list defintion
 
-
-
-
-
-
 | Path Part | Type | Description |
 |-----------|------|-------------|
 | udListDefinitionName | string | The name of the list definition, indicating which list to save the items to. **Required** |
-
-
 
 ## Request Headers
 
@@ -36,9 +29,9 @@ Save all list items for the specified list defintion
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: items  
+## Request Body: items
 
-The list items 
+The list items
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -48,7 +41,6 @@ The list items
 | Deleted | bool | True if the list item is marked as deleted |
 | UdListDefinitionId | int32 | The id of the list which this list item belongs to |
 | Rank | int32 | The rank of the list item |
-
 
 ## Response: array
 

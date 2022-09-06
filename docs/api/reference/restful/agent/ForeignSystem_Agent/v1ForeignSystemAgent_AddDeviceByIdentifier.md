@@ -11,12 +11,6 @@ POST /api/v1/Agents/ForeignSystem/AddDeviceByIdentifier
 
 Adds a new ForeignDevice with deviceName that belongs to the application with applicationName, with an optional device-specific identifier.
 
-
-
-
-
-
-
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -26,7 +20,6 @@ Adds a new ForeignDevice with deviceName that belongs to the application with ap
 ```http
 POST /api/v1/Agents/ForeignSystem/AddDeviceByIdentifier?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -42,9 +35,9 @@ POST /api/v1/Agents/ForeignSystem/AddDeviceByIdentifier?$select=name,department,
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request
 
-ApplicationName, DeviceName, DeviceIdentifier 
+ApplicationName, DeviceName, DeviceIdentifier
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -52,8 +45,7 @@ ApplicationName, DeviceName, DeviceIdentifier
 | DeviceName | string |  |
 | DeviceIdentifier | string |  |
 
-
-## Response: 
+## Response
 
 OK
 
@@ -61,7 +53,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+Response body:
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|

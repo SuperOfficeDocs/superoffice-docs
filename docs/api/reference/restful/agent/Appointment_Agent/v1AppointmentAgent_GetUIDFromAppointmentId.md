@@ -11,12 +11,6 @@ POST /api/v1/Agents/Appointment/GetUIDFromAppointmentId
 
 Get the UID associated with the appointment id in the Invitation table.
 
-
-
-
-
-
-
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -26,7 +20,6 @@ Get the UID associated with the appointment id in the Invitation table.
 ```http
 POST /api/v1/Agents/Appointment/GetUIDFromAppointmentId?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -42,15 +35,14 @@ POST /api/v1/Agents/Appointment/GetUIDFromAppointmentId?$select=name,department,
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request
 
-AppointmentId, UseMotherId 
+AppointmentId, UseMotherId
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | AppointmentId | int32 |  |
 | UseMotherId | bool |  |
-
 
 ## Response: string
 
@@ -61,7 +53,6 @@ OK
 | 200 | OK |
 
 Response body: string
-
 
 ## Sample request
 

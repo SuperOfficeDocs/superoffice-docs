@@ -14,9 +14,7 @@ Implemented by the <see cref="M:SuperOffice.Services84.ISaintAgent.CreateDefault
 Loading default values into a new StatusMonitor.
 NetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance
 
-
 **Returns:** New StatusMonitor with default values
-
 
 [WSDL file for Services84/Saint](../Services84-Saint.md)
 
@@ -48,7 +46,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-
 
 ## CreateDefaultStatusMonitor Response
 
@@ -85,4 +82,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

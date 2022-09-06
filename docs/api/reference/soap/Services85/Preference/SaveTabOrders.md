@@ -11,11 +11,7 @@ Implemented by the <see cref="M:SuperOffice.Services85.IPreferenceAgent.SaveTabO
 
 ## SaveTabOrders
 
-
-
-* **tabOrders:** 
-
-
+* **tabOrders:**
 
 [WSDL file for Services85/Preference](../Services85-Preference.md)
 
@@ -56,7 +52,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
-
 ## SaveTabOrders Response
 
 ```xml
@@ -76,4 +71,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

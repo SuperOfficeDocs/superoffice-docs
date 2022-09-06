@@ -18,7 +18,6 @@ Creates a AppointmentEntity populated with the default values for the specific t
 
 **Returns:** AppointmentEntity with default values.
 
-
 [WSDL file for Services87/Appointment](../Services87-Appointment.md)
 
 Obtain a ticket from the [Services87/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -51,7 +50,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-
 
 ## CreateDefaultAppointmentEntityByTypeAndAssociate Response
 
@@ -473,4 +471,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

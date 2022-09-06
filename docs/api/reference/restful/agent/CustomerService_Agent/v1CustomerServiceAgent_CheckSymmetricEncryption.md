@@ -11,12 +11,6 @@ POST /api/v1/Agents/CustomerService/CheckSymmetricEncryption
 
 Do a test to check that we are using the same encryption keys
 
-
-
-
-
-
-
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -26,7 +20,6 @@ Do a test to check that we are using the same encryption keys
 ```http
 POST /api/v1/Agents/CustomerService/CheckSymmetricEncryption?$select=name,department,category/id
 ```
-
 
 ## Request Headers
 
@@ -42,14 +35,13 @@ POST /api/v1/Agents/CustomerService/CheckSymmetricEncryption?$select=name,depart
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request
 
-EncryptedString 
+EncryptedString
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | EncryptedString | string |  |
-
 
 ## Response: string
 
@@ -60,7 +52,6 @@ OK
 | 200 | OK |
 
 Response body: string
-
 
 ## Sample request
 

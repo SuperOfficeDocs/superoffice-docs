@@ -54,4 +54,3 @@ Download [WSDL file for Services88/Sale](../Services88-Sale.md) if you need to g
 * [SetAsSold](SetAsSold.md)
 * [UpdateSaleStakeholders](UpdateSaleStakeholders.md)
 * [ValidateSaleEntity](ValidateSaleEntity.md)
-

@@ -16,14 +16,8 @@ so.envir:
 
 # "replytemplate" MDO List
 
-
-
-
 Implemented by the <see cref="T:SuperOffice.CRM.Lists.ReplyTemplateProvider">ReplyTemplateProvider</see> class.
 The name of the MDO list is 'replytemplate'.
-
-
-
 
 ## Sample Request
 
@@ -36,6 +30,7 @@ Accept-Language: *
 ```
 
 ## Sample Code
+
 ```cs
 var listProvider = SuperOffice.CRM.Lists.SoListProviderFactory.Create("replytemplate", forceFlatList: true);
 foreach (var item in listProvider.RootItems) {
@@ -69,7 +64,6 @@ foreach (var item in listProvider.RootItems) {
 |9|System template - request taken over|||
 |18|System template - warning of expiring licence|||
 |12|System template - weekly statistics|||
-
 
 ## Related MDO Lists
 

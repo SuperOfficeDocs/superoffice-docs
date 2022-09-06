@@ -17,7 +17,6 @@ Updates the existing StatusMonitorPeriods or creates a new StatusMonitorPeriods 
 
 **Returns:** New or updated StatusMonitorPeriods
 
-
 [WSDL file for Services86/Saint](../Services86-Saint.md)
 
 Obtain a ticket from the [Services86/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -54,7 +53,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
-
 ## SaveStatusMonitorPeriods Response
 
 ```xml
@@ -79,4 +77,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

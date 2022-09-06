@@ -11,15 +11,7 @@ POST /api/v1/Agents/EMail/ToggleSubscription
 
 Set subscription on or off on a set of folders
 
-
-
-
-## Online Restricted: ## The EMail agent is not available in Online by default. Access must be requested specifically when app is registered.
-
-
-
-
-
+## Online Restricted: ## The EMail agent is not available in Online by default. Access must be requested specifically when app is registered
 
 ## Query String Parameters
 
@@ -31,7 +23,6 @@ Set subscription on or off on a set of folders
 POST /api/v1/Agents/EMail/ToggleSubscription?$select=name,department,category/id
 ```
 
-
 ## Request Headers
 
 | Parameter Name | Description |
@@ -42,17 +33,16 @@ POST /api/v1/Agents/EMail/ToggleSubscription?$select=name,department,category/id
 | Accept         | Content-type(s) you would like the response in:  |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: request  
+## Request Body: request
 
-FolderId, SubscriptionStatus 
+FolderId, SubscriptionStatus
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | FolderId | int32 |  |
 | SubscriptionStatus | bool |  |
 
-
-## Response: 
+## Response
 
 No Content
 
@@ -60,8 +50,7 @@ No Content
 |----------------|-------------|
 | 204 | No Content |
 
-Response body: 
-
+Response body:
 
 ## Sample request
 

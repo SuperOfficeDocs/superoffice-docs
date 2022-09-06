@@ -18,7 +18,6 @@ Set the type of assignTo the deltas of the given recipe should have
 
 **Returns:** Returns nothing
 
-
 [WSDL file for Services88/Configuration](../Services88-Configuration.md)
 
 Obtain a ticket from the [Services88/SoPrincipal.svc](../SoPrincipal/index.md)
@@ -52,7 +51,6 @@ Application tokens must be specified if calling an Online installation. Applicat
 
 ```
 
-
 ## SetAppliesToKey Response
 
 ```xml
@@ -72,4 +70,3 @@ Application tokens must be specified if calling an Online installation. Applicat
 </SOAP-ENV:Envelope>
 
 ```
-

@@ -11,12 +11,6 @@ POST /api/v1/TicketMessage
 
 Saves a ticket message and performs any user notifications
 
-
-
-
-
-
-
 ## Query String Parameters
 
 | Parameter Name | Type |  Description |
@@ -26,7 +20,6 @@ Saves a ticket message and performs any user notifications
 ```http
 POST /api/v1/TicketMessage?notify=False
 ```
-
 
 ## Request Headers
 
@@ -42,9 +35,9 @@ POST /api/v1/TicketMessage?notify=False
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: newEntity  
+## Request Body: newEntity
 
-The ticket message to save 
+The ticket message to save
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -73,8 +66,7 @@ The ticket message to save
 | ExtraFields | object | Deprecated: Use {SuperOffice.CRM.Services.TicketMessageEntity.CustomFields} instead. Extra fields added to the carrier. This could be data from Plug-ins, the foreign key system, external applications, etc. |
 | CustomFields | object | Udef + Extra fields added to the carrier. Extra fields as defined by changes to database schema + user-defined fields as defined by admin. Custom fields combines user defined fields and extra fields into one bucket.  The individual {SuperOffice.CRM.Services.TicketMessageEntity.ExtraFields} and <see cref="!:UserDefinedFields">UserDefinedFields</see> properties are deprecated in favor of this combined collection. |
 
-
-## Response: 
+## Response
 
 OK
 
@@ -82,7 +74,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-Response body: 
+Response body:
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
