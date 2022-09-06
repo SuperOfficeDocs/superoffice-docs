@@ -104,7 +104,7 @@ All images must the following properties:
 * If you want screenshots shown in a specific order, add numbering to the file names.
 
 * When you are listed in our App Store, you must add **links** to your website or marketplace that direct the viewer to the SuperOffice website and App Store. This helps us build ranking in search engines. Ideally, you include our logo, though it is not a requirement. If you don't have a specific app store, then use the appropriate landing page on your site where it is natural to link to our sites.
-  * [https://online.superoffice.com/appstore][1]
+  * [https://appstore.superoffice.com/][1]
   * [https://www.superoffice.com/][2]
 
 We encourage you to include some meaningful screenshots from the application interface. These will show in the slider on the application detail page.
@@ -149,7 +149,7 @@ The SuperOffice green color is:
 * **Use the logo on a too busy background**. If the background is too busy find another solution ie. putting the logo in a green or white bar/box. Whenever possible use the templates provided in this guide to stay clear of uncertainties.
 
 <!-- Referenced links -->
-[1]: https://online.superoffice.com/appstore
+[1]: https://appstore.superoffice.com/
 [2]: https://www.superoffice.com/
 [4]: mailto:appstore@superoffice.com
 
