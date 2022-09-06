@@ -62,8 +62,9 @@ This can be changed either by a SQL statement (requires access to SQL database)
   * Only the first site that tries to register with a given serial number will register successfully. Contact support to change site/DB.
 * Microsoft 365 (Microsoft® Exchange Online)
 * MX Record pointing to the Microsoft® Exchange Online server
-* Netserver need to use *Mailkit*
-  * When you use OAuth 2.0 on a mailbox, it ingnores the value in reg_id = 320, and uses Netserver to connect to the OAuth service
+* Netserver must use *Mailkit*
+  * When OAuth 2.0 is used on a mailbox, it ignores the value in reg_id = 320, and uses NetServer to connect to the OAuth service
+
    * Netserver have to use Mailkit, not EasyMail
    * Mailkit only have IMAP support (no POP support)
   * See [SuperOffice.Inbox Email][9] for more details
