@@ -25,7 +25,7 @@ When you add an item to the **Sale - Stage** list, the **Edit list item** dialog
 
 3. Optionally, type in a description of the item in the **Description** field.
 
-4. [!include[Save or cancel](../../admin/includes/save-or-cancel.md)]
+4. [!include[Save or cancel](../../includes/save-or-cancel.md)]
 
 > [!NOTE]
 > If you delete a stage that is linked to a sales guide (via a sale type), this may have consequences for using the sales guide.

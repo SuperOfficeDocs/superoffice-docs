@@ -49,7 +49,7 @@ You can select which columns are displayed in the lists, as well as their order.
     * Add columns: In the **Available columns** pane, select the columns you want to add and click the right arrow ( ![icon][img1] ) to move them to the **Columns selected** pane.
     * Remove columns: In the **Columns selected** pane, select the columns you want to remove and click the left arrow ( ![icon][img2] ) to move them to the **Available columns** pane.
     * Change the order of the columns: In the **Columns selected** pane, select the column that you want to move left or right in the view and click either the up arrow ( ![icon][img4] ) or the down arrow ( ![icon][img5] ).
-3. Click **Save** to save the setup and close the **Customise** dialog.
+3. Click **Save**.
 
 > [!TIP]
 > To reset the column layout, click **Reset** at the bottom of the **Columns selected** pane.

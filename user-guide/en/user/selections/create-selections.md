@@ -52,7 +52,7 @@ To create a new static or dynamic selection:
 
 15. To add the selection to favourites, click the star icon ![icon][img1]. The star turns yellow ![icon][img2], and the selection is instantly added to favourites. Now you can quickly access the selection by clicking ![icon][img3] from the Navigator menu.
 
-16. When you have finished defining the core data for the selection, click **Save** to save.
+16. When you have finished defining the core data for the selection, click **Save**.
 
 17. The screen now displays the following tabs:
 

@@ -27,7 +27,7 @@ language: en
 
 5. Type in a description of the item in the **Description** field.
 
-6. [!include[Save or cancel](../../admin/includes/save-or-cancel.md)]
+6. [!include[Save or cancel](../../includes/save-or-cancel.md)]
 
 <!-- Referenced links -->
 [1]: ../../admin/lists/adding-template-web.md

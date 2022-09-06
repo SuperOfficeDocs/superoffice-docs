@@ -43,7 +43,7 @@ To create a new combined selection:
 
 13. To add the selection to favourites, click the star icon ![icon][img1]. The star turns yellow ![icon][img2], and the selection is instantly added to favourites. Now you can quickly access the selection by clicking ![icon][img3] from the Navigator menu.
 
-14. Click **Save** to save the selection in the database.
+14. Click **Save**.
     Once the selection has been saved, you can [edit it][1] to change both the combination type and which selections are combined. But it is not possible to change the **Selection of** field.
 
 ## Related topics

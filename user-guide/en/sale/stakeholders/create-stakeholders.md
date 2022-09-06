@@ -58,7 +58,7 @@ To link the sale to stakeholders:
 
 <!-- Referenced links -->
 [1]: ../../user/getting-started/find-dialog.md
-[2]: ../../user/project/Adding-project-members.md
+[2]: ../../project/project-members/adding-project-members.md
 [3]: ../../person/create.md
 
 <!-- Referenced images -->

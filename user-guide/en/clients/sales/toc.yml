@@ -35,16 +35,38 @@ items:
   items:
   - name: Section tabs in the Sale screen
     href: sale/sale-screen-section-tabs.md
-  - name: Activities sale
-    href: sale/activities-sale.md
-  - name: Salesguide detailcard
-    href: sale/salesguide-detailcard.md
-  - name: Quote detailcard
-    href: sale/quote-detailcard.md
-  - name: Quote
     items:
-    - name: Quote dlg edit quote
-      href: sale/quote-dlg-edit-quote.md
+    - name: Activities sale
+      href: sale/activities-sale.md
+    - name: Salesguide detailcard
+      href: sale/salesguide-detailcard.md
+    - name: Quote detailcard
+      href: sale/quote-detailcard.md
+    - name: Quote
+      items:
+      - name: Quote dlg edit quote
+        href: sale/quote-dlg-edit-quote.md
+- name: Project
+  items:
+  - name: Tabs
+    items:
+    - name: More tab
+      href: project/more-tab-project.md
+    - name: Event tab
+      href: project/event-tab.md
+    - name: Note tab
+      href: project/projectcard-tab-note.md
+  - name: Project screen section tabs
+    href: project/project-screen-section-tabs.md
+    items:
+    - name: Project guide section tab
+      href: project/projectguide-detail.md
+    - name: Project members
+      href: project/project-members.md
+    - name: Activities
+      href: project/activities-project.md
+    - name: Sales
+      href: project/sale.md
 - name: Reports screen
   href: reports/reports-screen.md
   items:

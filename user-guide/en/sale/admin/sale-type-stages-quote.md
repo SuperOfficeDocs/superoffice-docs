@@ -39,7 +39,7 @@ When you add an item to the **Sale – Type, Stages, Quote** list, the **Edit li
     > [!NOTE]
     > the **Quote attachments**, **Quote defaults** and **Quote approval** tabs are only relevant if you have access to the quotes module.
 
-6. [!include[Save or cancel](../../admin/includes/save-or-cancel.md)]
+6. [!include[Save or cancel](../../includes/save-or-cancel.md)]
 
 ## Stages tab
 

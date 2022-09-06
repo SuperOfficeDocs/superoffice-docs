@@ -1,0 +1,41 @@
+items:
+- name: Overview
+  href: index.md
+- name: Create a project
+  href: create.md
+- name: Add project image
+  href: add-image.md
+- name: Add links from project and sale
+  href: add-links.md
+- name: Edit a projects
+  href: edit.md
+- name: Merge projects
+  href: merge-projects.md
+- name: Delete a project
+  href: delete.md
+- name: Print projects
+  href: print.md
+- name: Project members
+  href: project-members/index.md
+  items:
+  - name: Add project members
+    href: project-members/adding-project-members.md
+  - name: Edit project members
+    href: project-members/editing-project-members.md
+  - name: Invite project members to a meeting
+    href: project-members/invite-project-members-to-meeting.md
+  - name: Sending emails to project members
+    href: project-members/send-email-to.md
+  - name: Create document mailing to project members
+    href: project-members/create-mailing.md
+- name: Project guide
+  href: project-guide/index.md
+  items:
+  - name: Work with project guide
+    href: project-guide/work-with-projectguide.md
+  - name: Example project guide
+    href: project-guide/example-projectguide.md
+  - name: View followups and documents
+    href: project-guide/view-followups-and-documents.md
+- name: For administrators
+  href: admin/toc.yml

@@ -22,7 +22,7 @@ Follow these steps:
 2. Click the **More** button ( ![icon][img1] ) in the email toolbar.
 3. Select **Create request**. The dialog **Create request in SuperOffice based on email** opens.
 4. Click the request queue in which you want to place the request. Each queue has a specific category and priority assigned to it.
-5. Click **Save** to save the request in SuperOffice Service. A message appears to confirm that the request has been created.
+5. Click **Save**. A message appears to confirm that the request has been created.
     * If the sender's email address is recognized, the request is automatically linked to the correct contact and company.
     * If the sender's email address is not recognized, the sender is automatically registered as a new contact in SuperOffice Service.
 6. In the confirmation message, you can select **Click here to view it** if you would like to have a closer look at the request in SuperOffice Service.

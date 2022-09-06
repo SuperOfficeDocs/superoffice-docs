@@ -29,7 +29,7 @@ When you add an item to the **General - Resource** list, the **Edit List Item** 
 
 4. Optionally, type in a description of the resource in the **Description** field.
 
-5. [!include[Save or cancel](../includes/save-or-cancel.md)]
+5. [!include[Save or cancel](../../includes/save-or-cancel.md)]
 
 <!-- Referenced links -->
 

@@ -39,7 +39,7 @@ When you add an item to the **General - Relation** list in Settings and maintena
 
 5. Optionally, type in a description of the item in the **Description** field.
 
-6. [!include[Save or cancel](../includes/save-or-cancel.md)]
+6. [!include[Save or cancel](../../includes/save-or-cancel.md)]
 
 <!-- Referenced links -->
 [1]: adding-items.md

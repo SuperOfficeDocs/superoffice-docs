@@ -19,7 +19,7 @@ The **Workflow** screen consists of two tabs: **Project guide** and **Sales guid
 * [Work with sales guides][2]
 
 <!-- Referenced links -->
-[1]: project/project-guide.md
+[1]: ../clients/sales/project/projectguide-detail.md
 [2]: ../clients/admin/sales-guide.md
 
 <!-- Referenced images -->

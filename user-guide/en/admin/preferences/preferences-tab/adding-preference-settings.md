@@ -33,7 +33,7 @@ You can add new settings for each of the preferences in the **Preferences** list
 
 1. If you chose a higher level than the lowest possible one under **This setting will apply to**, you can check **Remove preferences on lower levels** at the bottom of the dialog to remove the settings for this preference on all lower levels. The new setting will override the settings specified for lower levels.
 
-1. Click **Save** to save the new setting in Settings and maintenance. The setting becomes available to users the next time they log in to SuperOffice CRM.
+1. Click **Save**. The setting becomes available to users the next time they log in to SuperOffice CRM.
 
 [!include[Note](includes/note-individual-settings.md)]
 

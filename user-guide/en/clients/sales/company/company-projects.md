@@ -31,8 +31,8 @@ For more details on how to manage projects, see [Project][1].
 * [Create projects][2]
 
 <!-- Referenced links -->
-[1]: ../../../user/project/index.md
-[2]: ../../../user/project/creating-projects.md
+[1]: ../../../project/index.md
+[2]: ../../../project/create.md
 [3]: ../../../user/getting-started/changing-column-view.md
 
 <!-- Referenced images -->

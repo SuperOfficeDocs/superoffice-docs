@@ -115,7 +115,7 @@ Agenda for first meeting:
     > [!TIP]
     > The user can change the above information as required.
 
-10. [!include[Click Save](../../admin/includes/save-changes.md)]
+10. Click **Save**.
 
 11. Repeat this procedure to add more follow-ups in this or other stages.
 
@@ -147,7 +147,7 @@ Agenda for first meeting:
 
 7. Enter any reference in the **Our ref.** field. Here you might enter a [template variable][1] for sales number, sales title or another field relating to the sale.
 
-8. [!include[Click Save](../../admin/includes/save-changes.md)]
+8. Click **Save**.
 
 9. Repeat this procedure to add more documents in this or other stages.
 

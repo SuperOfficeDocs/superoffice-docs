@@ -43,8 +43,8 @@ It is generally very easy to add, edit and delete lists and items. Some lists, h
 [9]: webpanel.md
 [10]: ../../person/gdpr/index.md#legal-basis
 [11]: ../../person/gdpr/index.md#source
-[12]: ../project/project-status.md
-[13]: ../project/project-type.md
+[12]: ../../project/admin/project-status.md
+[13]: ../../project/admin/project-type.md
 [14]: ../../sale/admin/sale-amount-class.md
 [15]: ../../clients/admin/sale-stage.md
 [16]: ../../sale/stakeholders/sales-role-stakeholders.md

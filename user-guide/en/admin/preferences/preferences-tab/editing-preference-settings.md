@@ -21,9 +21,7 @@ To change an existing setting:
 
 1. Make the required changes in the dialog. The various fields are described under [Add preference settings][2].
 
-1. [!include[Click Save](../../includes/save-changes.md)]
-
-    The setting becomes available to users the next time they log in to SuperOffice CRM.
+1. Click **Save**. The setting becomes available to users the next time they log in to SuperOffice CRM.
 
     > [!NOTE]
     > You can click **Cancel** to reject your changes.

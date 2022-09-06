@@ -53,7 +53,7 @@ If you get no hits for a search word that is in the SuperOffice database, this m
 [3]: Using-FastSearcher.md
 [4]: Using-history-list.md
 [5]: Export-archives.md
-[6]: ../project/Creating-project-members.md
+[6]: ../../project/project-members/adding-project-members.md#from-section-tab
 
 <!-- Referenced images -->
 [img1]: media/freetext.bmp

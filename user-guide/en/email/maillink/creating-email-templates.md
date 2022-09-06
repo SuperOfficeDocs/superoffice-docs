@@ -56,7 +56,7 @@ You can create your own templates to use when creating emails from SuperOffice C
 
 20. Click **OK**. The template is added as a separate item in the **Items** list.
 
-21. Click **Save** to save the changes in SuperOffice Settings and maintenance.
+21. Click **Save**.
 
 You may now create new emails from SuperOffice CRM using this template.
 

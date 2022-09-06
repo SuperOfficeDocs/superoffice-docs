@@ -38,7 +38,7 @@ To edit the name and/or description of an item:
 
 5. Edit the description of the item, as required, in the **Description** field.
 
-6. [!include[Save or cancel](../includes/save-or-cancel.md)]
+6. [!include[Save or cancel](../../includes/save-or-cancel.md)]
 
 <!-- Referenced links -->
 [1]: deleting-items.md

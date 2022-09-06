@@ -17,7 +17,7 @@ To delete both predefined and user-defined list items:
 2. [!include[Click arrow and select](../../includes/expand-list.md)] the required list.
 3. Select the item to delete in the **Items** list.
 4. Click the **Delete** button at the bottom of the screen. The item will be deleted from the list and will also no longer be displayed in the relevant list in SuperOffice CRM.
-5. [!include[Save or cancel](../includes/save-or-cancel.md)]
+5. [!include[Save or cancel](../../includes/save-or-cancel.md)]
 
 > [!NOTE]
 > The deletion is not permanent even if you confirm it. See [Deleted items and headings][1] if you want to undo the deletion.

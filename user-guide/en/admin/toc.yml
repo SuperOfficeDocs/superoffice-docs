@@ -10,8 +10,6 @@ items:
   href: quote-sync/toc.yml
 - name: Workflow
   href: workflow.md
-- name: Project
-  href: project/toc.yml
 - name: Screen designer
   href: screen-designer/toc.yml
 - name: Preferences

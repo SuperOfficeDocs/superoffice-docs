@@ -42,7 +42,7 @@ Templates are displayed as items in the **E-mail - Template** list and you can a
 
 8. Enter the required information in the **Details** and **Languages** tabs. For more information, see below.
 
-9. [!include[Click Save](../includes/save-changes.md)] The template is added as a separate item in the **Items** list. Repeat this procedure to add more templates.
+9. Click **Save**. The template is added as a separate item in the **Items** list. Repeat this procedure to add more templates.
 
 ## Details tab
 

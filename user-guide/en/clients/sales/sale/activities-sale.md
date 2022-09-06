@@ -23,7 +23,7 @@ The following columns are displayed on the **Activities** section tab:
 
 <details><summary>Click here to see a list of the different icons</summary>
 
-[!include[Table showing icons for activities](../../../user/includes/table-activity-icons.md)]
+[!include[Table showing icons for activities](../../../includes/table-activity-icons.md)]
 </details>
 
 * The date of the activity.

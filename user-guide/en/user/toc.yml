@@ -5,8 +5,6 @@ items:
   href: diary/toc.yml
 - name: Mailing
   href: marketing/toc.yml
-- name: Project
-  href: project/toc.yml
 - name: Selection
   href: selections/toc.yml
 - name: Service

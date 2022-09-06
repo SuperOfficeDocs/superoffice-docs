@@ -26,9 +26,9 @@ For each stakeholder, information about company, contact name, role in the sale,
 
 <!-- Referenced links -->
 [1]: create-stakeholders.md
-[2]: ../../user/project/adding-project-members.md
+[2]: ../../project/project-members/adding-project-members.md
 [3]: edit-stakeholders.md
-[4]: ../../user/project/sending-emails-to-project-members.md
+[4]: ../../project/project-members/send-email-to.md
 
 <!-- Referenced images -->
 [img1]: media/chap7-stakeholders.bmp

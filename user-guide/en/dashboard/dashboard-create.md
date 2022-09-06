@@ -34,7 +34,7 @@ To create a new dashboard tab:
 
 8. Use the **Pin to** function to always show this dashboard for selected users. You can use this function for all users or for selected user groups or users. Using this function requires functional rights.
 
-9. Click **Save** to create the dashboard. The new dashboard opens, containing no tiles.
+9. Click **Save**. The new dashboard opens, containing no tiles.
 
 On the right side of the new dashboard, the **Add tile / Edit layout** section is displayed. You can now start [adding tiles to the dashboard][2].
 

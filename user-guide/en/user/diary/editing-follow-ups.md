@@ -15,7 +15,7 @@ To edit an existing follow-up:
 
 1. Open the required follow-up (see [Open follow-ups][1]). The **Appointment**, **Task** or **Phone Call** dialog appears.
 2. Make the required changes in the dialog. [!include[See Appointment dialog](../../includes/see-apt-dialog.md)]
-3. Click **Save** to save the information and close the dialog.
+3. Click **Save**.
 
 > [!NOTE]
 > You cannot edit completed follow-ups until you have undone their **Completed** status. See [Change Completed status of an activity][2].

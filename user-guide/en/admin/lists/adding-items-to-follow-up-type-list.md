@@ -37,7 +37,7 @@ When you add an item to the **Follow-up - Type** list in Settings and maintenanc
 
 6. Optionally, type in a description of the item in the **Description** field.
 
-7. [!include[Save or cancel](../includes/save-or-cancel.md)]
+7. [!include[Save or cancel](../../includes/save-or-cancel.md)]
 
 <!-- Referenced links -->
 [1]: adding-items.md

@@ -47,7 +47,7 @@ You can move the project to the next status in two ways:
 1. Click **Edit** on the **Sale** tab.
 2. Click the arrow next to the **Stage** field.
 3. Select the required stage from the list that appears. Apart from the statuses **Sold** and **Lost**, the options in the list are defined in SuperOffice Settings and maintenance.
-4. Click **Save** to save the change.
+4. Click **Save**.
 
 ## Why does the Sales guide dialog open when I mark a follow-up as completed?
 

@@ -34,8 +34,9 @@ To edit an existing sale, browse to the sale and click **Edit** at the bottom of
 
     </details>
 
-4. Click **Save** to save the information entered, or click the **Details**, **Links** or **Note** tabs to enter further information about the sale.
-5. When you have entered the required information in all the tabs, click **Save** to save it. You have now created a sale card for the new sale.
+4. Optionally, go to the **Details**, **Links**, or **Note** tab to enter further information about the sale.
+
+5. When you have entered the required information in all the tabs, click **Save**. You have now created a sale card for the new sale.
 
 ## The Details tab
 
@@ -60,7 +61,7 @@ This tab contains fields that focus, in particular, on the financial details of 
 
 Here you can add links that are relevant for the sale you are working on, such as URL addresses, projects, other sales, follow-ups and documents. For example, if you are going to a meeting with a company you have previously communicated with, you can add links to documents you have already created for this company.
 
-[!include[How to add links](../user/includes/howto-add-links.md)]
+[!include[How to add links](../includes/howto-add-links.md)]
 
 ### Open links
 

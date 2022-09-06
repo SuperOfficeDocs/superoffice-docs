@@ -29,7 +29,7 @@ Before linking a heading to an item, you need to add the headings you require:
 
 7. Type in a description of the heading, if required, in the **Description** field.
 
-8. [!include[Save or cancel](../../includes/save-or-cancel.md)]
+8. [!include[Save or cancel](../../../includes/save-or-cancel.md)]
 
 The item is added to the **Headings** list. Repeat this procedure to add more headings.
 

@@ -33,7 +33,7 @@ When you add an item to the **Sale - Amount class** list, the **Edit List Item**
 
 4. Optionally, type in a description of the amount class in the **Description** field.
 
-5. [!include[Save or cancel](../../admin/includes/save-or-cancel.md)]
+5. [!include[Save or cancel](../../includes/save-or-cancel.md)]
 
 <!-- Referenced links -->
 [1]: ../../admin/lists/adding-items.md
