@@ -54,7 +54,8 @@ This can be changed either by a SQL statement (requires access to SQL database)
 
 ### OAuth 2.0
 
-#### Requirements for OAuth 2.0:
+#### Requirements for OAuth 2.0
+
 
 * Onsite customers who use SuperOffice 8.5 R17 + SuperOffice G9 9.2 R10 or newer
 * Unique/separate serial number for each site/DB to use OAuth/AccessGateway
