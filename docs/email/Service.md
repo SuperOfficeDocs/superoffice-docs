@@ -65,8 +65,9 @@ This can be changed either by a SQL statement (requires access to SQL database)
 * Netserver must use *Mailkit*
   * When OAuth 2.0 is used on a mailbox, it ignores the value in reg_id = 320, and uses NetServer to connect to the OAuth service
 
-   * Netserver have to use Mailkit, not EasyMail
-   * Mailkit only have IMAP support (no POP support)
+   * NetServer must use Mailkit, not EasyMail
+   * Mailkit only supports IMAP (no POP support)
+
   * See [SuperOffice.Inbox Email][9] for more details
  
 #### How to add the OAuth 2.0 feature?
