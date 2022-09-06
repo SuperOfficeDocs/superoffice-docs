@@ -31,7 +31,7 @@ We are checking logs in Application Insight and our Operation Center.
 
 ## Do I have to pay to get certified?
 
-The certification is free of charge except for a fee billed by Watchcom for their services.
+The certification is free of charge except for a [fee billed by Watchcom][7] for their services.
 
 ## I'm ready - what do I do?
 
@@ -44,3 +44,4 @@ Follow our [step-by-step guide][6], started by sending a request to publish in t
 [4]: initial-watchcom-eval.md
 [5]: ../requirements/index.md
 [6]: certify-app.md
+[7]: initial-watchcom-eval.md#does-it-cost-anything
