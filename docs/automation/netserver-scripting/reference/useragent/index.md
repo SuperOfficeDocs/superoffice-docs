@@ -109,4 +109,3 @@ Service methods defined on <see cref='T:SuperOffice.CRM.Services.IUserAgent'>Use
 * [SetPassword](setpassword.md)
 * [SetPasswordFromName](setpasswordfromname.md)
 * [ValidateUser](validateuser.md)
-

@@ -3,7 +3,7 @@ title: Consent to app
 uid: provisioning_consent
 description: "Learn about the tenant-approval sequence and when the customer's admin must authorize the application."
 author: Margrethe Romnes
-so.date: 02.02.2022
+so.date: 09.05.2022
 keywords: provisioning, apps, consent, I approve
 so.topic: concept
 so.envir: cloud
@@ -17,9 +17,17 @@ During the [provisioning][5] of your application, the customer's administrator *
 > [!NOTE]
 > Only a tenant user with administrator rights is allowed to approve online applications, both for standard and custom application types. Specifically, an administrator is someone with **General Administrator** or **User Administrator** function right.
 
-The tenant administrative user must sign in to SuperID and approve the application to establish an **authorization record** between the application and the tenant. If this option is unavailable to you, a strict hand-shake flow must be implemented.
-
 The SuperOffice Operation Center stores information about when the application was authorized and which user clicked **I approve**.
+
+The workflow is different for custom and standard applications.
+
+## For custom applications
+
+The SuperOffice App Manager grants explicit consent to approved custom applications [during activation][7].
+
+## For standard applications in the App Store
+
+The [tenant administrative user must sign in to SuperID and approve the application][6] to establish an **authorization record** between the application and the tenant. If this option is unavailable to you, a strict hand-shake flow must be implemented.
 
 ## Tenant approval sequence (hand-shake)
 
@@ -59,7 +67,8 @@ During approval, the customer's administrator should accept the following change
 [4]: ../../mirroring/overview.md
 [5]: index.md
 [6]: get-consent.md
+[7]: ../activate/activate-custom-app.md
 
 <!-- Referenced images -->
 [img1]: media/appvendorconsultants.png
-[img2]: media/image5n4c.png
+[img2]: media/installed-apps.png

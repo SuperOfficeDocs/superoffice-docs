@@ -3,6 +3,6 @@
 
 | Image | Usage | Size<br>(width by height in pixels) |
 |-------|-------|--------|
-| Application tile icon | preview in the main page | 263 x 109 |
-| Small application icon | application detail page | 220 x 216 |
-| Your company logo | vendor page | 220 x 151 |
+| Application tile icon | Preview in the main page | 488 x 488 |
+| Small application icon | Application detail page | 488 x 488 |
+| Your company logo | Vendor page | 488 x 488 |

@@ -17,7 +17,7 @@ so.client:
 
 ## Overview
 
-1. In the Developer Portal, go to your partner page.
+1. In the [Developer Portal][19], go to your partner page.
 
 2. In the **Applications** section, click **Create App**.
 
@@ -117,6 +117,7 @@ If you have registered the application but lost the keys, you need to [look up y
 [16]: sync-app.md
 [17]: ../../api/overview/index.md
 [18]: ../howto/request-to-publish.md
+[19]: https://dev.superoffice.com/
 
 <!-- Referenced images -->
 [img1]: ../media/partner-overview.png

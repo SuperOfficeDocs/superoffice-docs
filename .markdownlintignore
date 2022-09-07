@@ -1,0 +1,7 @@
+**/**/*.{cs,xml,yml}
+/docs/api/archive-providers/reference/
+/docs/api/mdo-providers/reference/
+/docs/api/reference/
+/docs/automation/netserver-scripting/
+/docs/database/tables/
+/release-notes/database/

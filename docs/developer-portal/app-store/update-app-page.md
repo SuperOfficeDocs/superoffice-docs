@@ -4,7 +4,7 @@ uid: dp-update-app-info
 description: How to update your app-specific page in the SuperOffice Developer Portal.
 author: Bergfrid Dias
 so.date: 04.27.2022
-keywords: Developer Portal, app store listing
+keywords: Developer Portal, App Store listing
 so.topic: howto
 so.version:
 so.envir: cloud
@@ -13,10 +13,6 @@ so.client: online
 
 # Update app-specific page
 
-<!-- Previous: 
-    https://community.superoffice.com/new-application-listing and
-    https://community.superoffice.com/update-application-listing -->
-
 The information shown on your app-specific product pages in the App Store comes from:
 
 * Application settings
@@ -24,26 +20,45 @@ The information shown on your app-specific product pages in the App Store comes 
 
 ![App Store information for an application -screenshot][img1]
 
-## Update information
-
-1. In the Developer Portal, go to your application page.
-2. Select **Settings** from the left menu or click the **Edit** button.
-3. Update names and contact persons.
-4. Click **Save Settings**.
-5. Select **App Store information** from the left menu.
-6. Go through each sub-section and fill in the information.
-
-    * App Store listing
-    * [SEO][1]
-    * Price and terms
-    * How to install
-    * Links and references
-    * [Image and videos][2]
-
-7. Click **Save Settings**.
-
+<!-- markdownlint-disable DOCSMD007 -->
 > [!TIP]
 > [!include[Link to application settings](../includes/see-app-settings.md)]
+<!-- markdownlint-restore -->
+
+## Update App Store information
+
+1. In the Developer Portal, go to your application page.
+1. Select **App Store information** from the left menu.
+1. [Create a new version.][3]
+1. Go through each sub-section and fill in the information.
+
+    * [Description][5]
+
+        > [!TIP]
+        > Use an online counter to [count the number of characters or words][6].
+
+    * [SEO][1]
+    * [Prices and terms][7]
+    * [How to install][8]
+    * [Links][9]
+    * [Image and videos][2]
+
+1. Click **Save Settings**.
+
+> [!TIP]
+> When you release a new version of your application, your App Store listing can include a **What's new** entry and we can help boost visibility.
+>
+> Optionally include new images, such as screenshots from your application.
+
+## Update application settings
+
+[!include[Read-only in version 1.5](../includes/note-cannot-edit.md)]
+
+<!--
+1. In your application page, select **Settings** from the left menu or click the **Edit** button.
+1. Update names and contact persons.
+1. Click **Save Settings**.
+-->
 
 ## Verify your changes
 
@@ -74,6 +89,11 @@ When you are happy with how it looks, return to your partner page in the Develop
 [2]: images-and-videos.md
 [3]: ../versioning.md
 [4]: ../howto/request-to-publish.md
+[5]: ../../apps/requirements/marketing.md#application-description
+[6]: https://www.charactercountonline.com
+[7]: prices-and-terms.md
+[8]: user-guide.md#how-to-install
+[9]: user-guide.md#links
 
 <!-- Referenced images -->
 [img1]: media/app-store-listing.png

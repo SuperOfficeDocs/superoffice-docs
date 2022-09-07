@@ -71,4 +71,3 @@ Service methods defined on <see cref='T:SuperOffice.CRM.Services.ISelectionAgent
 * [SetDynamicSelectionCriteriaGroups](setdynamicselectioncriteriagroups.md)
 * [StartMailMerge](startmailmerge.md)
 * [UpdateTypicalSearch](updatetypicalsearch.md)
-

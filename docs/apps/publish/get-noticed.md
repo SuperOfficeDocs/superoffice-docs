@@ -22,6 +22,9 @@ Your App Store entry aims to trigger the interest, and your webshop needs to sec
     * Avoid technical terms (unless they are necessary) so that a business person can identify the benefits you provide. If you need to include technical information, for example when listing the requirements, keep it as simple as possible.
 3. Include high-quality **images** that show the user what your application is about and that support the descriptive text.
 
+    * [How to create screenshots and capture movies][2]
+    * [How to upload the media files][3]
+
 ## Provide great customer experiences
 
 To get those customers' **reviews**, it is very important not only to deliver a good quality product, but to invest in the description, sales material, and not least the **on-boarding** experience.
@@ -42,3 +45,5 @@ In the future, we will make it possible for customers to review and rate your ap
 
 <!-- Referenced links -->
 [1]: ../provisioning/index.md
+[2]: screenshots.md
+[3]: ../../developer-portal/app-store/images-and-videos.md

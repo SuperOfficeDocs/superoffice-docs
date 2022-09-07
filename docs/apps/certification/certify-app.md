@@ -15,39 +15,25 @@ Your standard application is almost ready. Before we go live, we need to ensure 
 
 ## Pre-requisites
 
-* You have gone through the [certification checklist][1]
-* You have appointed a designated certification contact who will be available during the test period
+* You have gone through the [certification checklist][1].
+* You have appointed a designated certification contact who will be available during the test period.
 
-## Required info
+## Certify
 
-* Name of the application
-* Client ID in our SOD environment
-* Certification contact
-* List of endpoints
-
-## Relevant info
-
-* Technology stack
-* If using system user
-* Data operations
-* Public URLs to support and product pages
-* Previous auditing experience
-* Test cases and test documents
-  * If you have been running heavy testing in our SOD environment, please include the date and time for these tests since we may go back and check logs for the last 30 days inside Application Insight.
-
-## Process
-
-1. [Submit a standard application for certification][2] (form).
+1. [Request to publish configuration in the Developer Portal][2].
 2. Provide additional info and clarify questions while we run certification tests in SOD and Stage.
-    * Respond to the reply email with any additional information
-    * We may contact you or schedule a time for either a phone call or WebEx meeting
+
+    [!include[List of info](../includes/list-of-test-period-info.md)]
+
 3. [Pass Watchcom security test][3].
 4. Fix issues if necessary.
+
+After certification, your application is ready to be published in the App Store!
 
 **Next step:** [publish application in CRM Online][4] environment.
 
 <!-- Referenced links -->
 [1]: checklist.md
-[2]: certify-app-form.md
+[2]: ../../developer-portal/howto/request-to-publish.md
 [3]: secure-app.md
 [4]: ../publish/index.md

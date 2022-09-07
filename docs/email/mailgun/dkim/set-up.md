@@ -50,7 +50,7 @@ To make sure no one else, besides your company orders a DKIM key for your domain
     * Choose "txt" as record type
 
     ![x -screenshot][img4]
-    
+
     > [!NOTE]
     > Some DNS servers may require "version of DKIM". If you are sure your DNS needs it, add it by adding "v=DKIM1; " in front of the key. Example: "k=rsa; p=XXX..."  -->  "v=DKIM1; k=rsa; p=XXX..."
 

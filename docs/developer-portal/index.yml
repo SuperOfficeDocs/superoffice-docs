@@ -62,6 +62,10 @@ landingContent:
             url: "howto/update-app.md"
           - text: Change contact persons
             url: "howto/update-contact-person.md"
+          - text: Certify an app
+            url: ../apps/certification/certify-app.md
+          - text: Validate an app
+            url: ../apps/activate/validate-app.md
       - linkListType: reference
         links:
           - text: Application settings
@@ -130,6 +134,12 @@ landingContent:
             url: "app-store/images-and-videos.md"
           - text: SEO
             url: "app-store/seo.md"
+          - text: Prices and terms
+            url: "app-store/prices-and-terms.md"
+          - text: How to install
+            url: "app-store/user-guide.md#how-to-install"
+          - text: Links
+            url: "app-store/user-guide.md#links"
 
   # Card
   - title: User management

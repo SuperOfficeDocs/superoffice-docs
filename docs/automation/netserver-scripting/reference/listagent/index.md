@@ -299,4 +299,3 @@ Service methods defined on <see cref='T:SuperOffice.CRM.Services.IListAgent'>Lis
 * [SortListItems](sortlistitems.md)
 * [UpdateCategoryMemberships](updatecategorymemberships.md)
 * [UpdateHierarchyFromPath](updatehierarchyfrompath.md)
-

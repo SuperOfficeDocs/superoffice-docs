@@ -48,4 +48,3 @@ Service methods defined on <see cref='T:SuperOffice.CRM.Services.IUserDefinedFie
 * [SetPublishStartSystemEvent](setpublishstartsystemevent.md)
 * [SetRankOnFields](setrankonfields.md)
 * [SetUserDefinedPageOneField](setuserdefinedpageonefield.md)
-

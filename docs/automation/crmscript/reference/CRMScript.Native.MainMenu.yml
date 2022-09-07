@@ -7,6 +7,7 @@ items:
   langs:
   - crmscript
   children:
+  - CRMScript.Native.MainMenu.#ctor
   - CRMScript.Native.MainMenu.addGroup(String,String)
   - CRMScript.Native.MainMenu.addGroup(String,String,Integer)
   - CRMScript.Native.MainMenu.addGroup(String,String,Integer,String)
@@ -28,6 +29,21 @@ items:
   fullName: CRMScript.Native.MainMenu
   type: Class
   summary: "\nUsed to control the main (left-side) menu of SuperOffice CRM. Customizing the main menu means modifying the corresponding trigger.\n"
+  example: 
+- uid: CRMScript.Native.MainMenu.#ctor
+  commentId: M:CRMScript.Native.MainMenu.#ctor
+  id: '#ctor'
+  so.intellisense: Void.MainMenu
+  langs:
+  - crmscript
+  name: MainMenu()
+  nameWithType: MainMenu.#ctor
+  fullName: CRMScript.Native.MainMenu.#ctor
+  type: Constructor
+  summary: "\nInitializes a new instance of the MainMenu class.\n"
+  remarks: 
+  syntax: 
+    content: MainMenu
   example: 
 - uid: CRMScript.Native.MainMenu.addGroup(String,String)
   commentId: M:CRMScript.Native.MainMenu.addGroup(String,String)

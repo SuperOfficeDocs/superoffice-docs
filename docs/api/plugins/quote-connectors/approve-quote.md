@@ -30,11 +30,9 @@ The quote connector can update the quote state, or choose to send its own notifi
 
 ## Approved
 
-The approver is notified in Mobile, and clicks **Approved** or **Reject**. 
+The approver is notified in Mobile, and clicks **Approved** or **Reject**.
 
 ![Quote is approved][img3]
-
-
 
 <!-- Referenced links -->
 [1]: send-quote.md

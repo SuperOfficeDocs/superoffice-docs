@@ -28,7 +28,6 @@ Called when quote that needs approval is approved.
 
 Returns: Updated quote version.
 
-
 ## QuoteVersionResponseInfo OnQuoteVersionRejected(QuoteVersionContextInfo context)
 
 Called when quote that needs approval is rejected.

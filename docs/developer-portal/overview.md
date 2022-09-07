@@ -10,7 +10,7 @@ so.topic: overview
 
 # Developer Portal
 
-The SuperOffice Developer Portal contains a set of self-serve tools that developers can use to manage their access to SuperOffice Online APIs.
+The [SuperOffice Developer Portal][6] contains a set of self-serve tools that developers can use to manage their access to SuperOffice Online APIs.
 
 ![SuperOffice Developer Portal start page for a partner -screenshot][img1]
 
@@ -136,6 +136,7 @@ You can get started using the SuperOffice Online API by [signing up for a develo
 [3]: ../apps/overview.md
 [4]: create-app/index.md
 [5]: app-store/index.md
+[6]: https://dev.superoffice.com/
 
 <!-- Referenced images -->
 [img1]: media/partner-overview.png

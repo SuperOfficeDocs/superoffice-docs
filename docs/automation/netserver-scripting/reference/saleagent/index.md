@@ -55,4 +55,3 @@ Service methods defined on <see cref='T:SuperOffice.CRM.Services.ISaleAgent'>Sal
 * [SetAsSold](setassold.md)
 * [UpdateSaleStakeholders](updatesalestakeholders.md)
 * [ValidateSaleEntity](validatesaleentity.md)
-

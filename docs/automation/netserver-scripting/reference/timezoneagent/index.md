@@ -27,4 +27,3 @@ Service methods defined on <see cref='T:SuperOffice.CRM.Services.ITimeZoneAgent'
 * [TimeOfLastTimeZoneUpdate](timeoflasttimezoneupdate.md)
 * [ToggleActiveTimeZoneRow](toggleactivetimezonerow.md)
 * [UpdateTimeZoneData](updatetimezonedata.md)
-

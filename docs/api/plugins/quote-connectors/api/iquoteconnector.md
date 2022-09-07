@@ -13,21 +13,21 @@ so.topic: howto
 This is the interface SuperOffice will call to integrate against an ERP system in the realm of quotes and orders.
 SuperOffice uses  capabilities to determine what the connector can and cannot do.
 
-If an ERP system does not provide products, or if the ERP system is not available, the searches can be delegated to the built-in SuperOffice product registry by using 
+If an ERP system does not provide products, or if the ERP system is not available, the searches can be delegated to the built-in SuperOffice product registry by using
 the SuperOffice IProductRegisterCache object that is provided at startup.
 
 Currencies are specified in ISO three letter codes: USD, NOK, SEK, EUR, GBP, etc.
-See http://www.currency-iso.org/dl_iso_table_a1.xls for details.
+See <http://www.currency-iso.org/dl_iso_table_a1.xls> for details.
 
 The user may click the TEST button in the configuration dialog, which calls the TestConnection method.
 
-## int CRMConnectionId 
+## int CRMConnectionId
 
 The id of this connection in the CRM system
 
 ## Dictionary&lt;string, FieldMetadataInfo> GetConfigurationFields()
 
-This is a request for metadata needed to populate the Quote connection configuration admin dialog that takes in the information needed to create a connection to an ERP system. 
+This is a request for metadata needed to populate the Quote connection configuration admin dialog that takes in the information needed to create a connection to an ERP system.
 The values entered in the dialog are stored in the SuperOffice db and used when
 [`InitializeConnection`](#pluginresponseinfo-initializeconnectionsuperofficecrmquoteconnectioninfo-connectiondata-superofficecrmuserinfo-user-bool-isontravel-dictionaryltstring-string-connectionconfigfields-iproductregistercache-productregister) is called by the client.
 Returns: [FieldMetdataInfo](./data-carriers/fieldmetadatainfo.md) dictionary. A list of field descriptions for the GUI to use when populating the config dialog. Make sure that the FieldMetadataInfo.Rank is set.
@@ -38,7 +38,7 @@ Check that the ERP connection is good. Return some status info that the Admin cl
 
 Testing if the connection data is sufficient to get a connection with the ERP system.
 The Connector should try to do some operations to check if the connection has sufficient rights
-to run. The connection has not been created yet. 
+to run. The connection has not been created yet.
 
 * connectionData: {"name" = "value"}. The names are defined by the [FieldMetadata](data-carriers/fieldmetadatainfo.md) returned by the [GetConfigurationFields](#dictionaryltstring-fieldmetadatainfo-getconfigurationfields). The values are what the user typed into the fields in the configure connection dialog.
 
@@ -47,7 +47,7 @@ Returns: Ok or not + a status or error message. This message is shown in a resul
 ## PluginResponseInfo InitializeConnection(SuperOffice.CRM.QuoteConnectionInfo connectionData, SuperOffice.CRM.UserInfo user, bool isOnTravel, Dictionary&lt;string, string> connectionConfigFields, IProductRegisterCache productRegister)
 
  Set up the connection to the ERP system.
- Will be called as part of SuperOffice client startup for each installed connection. 
+ Will be called as part of SuperOffice client startup for each installed connection.
  Configuration data comes from the configuration dialog shown in the Admin client (see [`GetConfigurationFields`](#dictionaryltstring-fieldmetadatainfo-getconfigurationfields))
 
 * [QuoteConnectionInfo](./data-carriers/quoteconnectioninfo.md) connectionData: Contains the configuration values defined in the Admin client.
@@ -75,17 +75,15 @@ Check if one named capability can be provided by this connector.
 
 Returns: True if connector has this capability
 
-
 ## QuoteResponseInfo OnBeforeCreateQuote(QuoteAlternativeContextInfo context)
 
 Called when a user is creating a quote.
-The Quote does not exist in database at this time; 
-any changes in the returned QuoteResponseInfo will be saved and the GUI updated. 
+The Quote does not exist in database at this time;
+any changes in the returned QuoteResponseInfo will be saved and the GUI updated.
 
 * [QuoteAlternativeContextInfo](./data-carriers/quotealternativecontextinfo.md) context: The quote and its parts.
 
 Returns:QuoteResponseInfo An updated quote. If returns IsOk = false, then quote creation is aborted.
-
 
 ## QuoteVersionResponseInfo OnBeforeCreateQuoteVersion(QuoteVersionContextInfo context)
 
@@ -113,7 +111,7 @@ Called after a sale containing a quote is saved or created. (Notice that new ite
 
 ## void OnBeforeDeleteQuote(QuoteInfo quote, ISaleInfo sale, IContactInfo contact)
 
-Called before a sale containing a quote is deleted. 
+Called before a sale containing a quote is deleted.
 Clean up in the ERP system, if needed.
 
 The connector cannot stop the quote being deleted in the CRM system.
@@ -127,7 +125,7 @@ The connector cannot stop the quote being deleted in the CRM system.
 Called after a quote version is sent to the user's customer.
 
 You may do extra work and return the modified the Quote Version info, but you cannot
-abort the sending process. Any mail or document generation in SuperOffice is 
+abort the sending process. Any mail or document generation in SuperOffice is
 independent of the connector.
 
 * quoteContext: The Quote Version that was sent to the customer
@@ -137,7 +135,7 @@ Returns: URL and/or modified quote version info.
 
 Gets a named list from the connector.
 
-There are a few lists in the ERP system that we would like to show to the users: 
+There are a few lists in the ERP system that we would like to show to the users:
 payment terms and types, delivery terms and types, and product classifications (product category, product family and product type).
 
 These lists can be supplied by the ERP connector using this interface.
@@ -146,13 +144,14 @@ SuperOffice will take these values and convert the simple flat list of values in
 If the ERP connector wants to supply a more complex nested list, then the ERP connector can implement a full MDO Provider.
 
 There are some lists in the system we would like the ERP system to provide data for, if it can:
+
 * ProductCategory
 * ProductFamily
 * ProductType
 * PaymentTerms
 * PaymentType
 * DeliveryTerms
-* DeliveryType 
+* DeliveryType
 
 If a quote list is NULL, then the GUI will fall back to a text input field, where the user can enter text. This text is passed to the ERP plugin unchanged.
 
@@ -177,7 +176,7 @@ Return an empty array if there is no PriceList with the stated currency availabl
 Used by the admin client.
 Gets the available active PriceLists in a specific currency.
 
-* isoCurrencyCode: Iso currency like: USD or NOK. Case insensitive. 
+* isoCurrencyCode: Iso currency like: USD or NOK. Case insensitive.
 
 Returns:
 Return empty array if there is no PriceList available in the currency.
@@ -188,25 +187,25 @@ Return all pricelists if isoCurrencyCode is empty.
 Called when creating quotes.
 Gets the all PriceLists in the given currency, including those inactive.
 
-* isoCurrencyCode: Iso currency like: USD or NOK. Case insensitive. 
+* isoCurrencyCode: Iso currency like: USD or NOK. Case insensitive.
 
-Returns: 
+Returns:
 Return empty array if there is no PriceList available.
 Return all pricelists if isoCurrencyCode is empty.
 
 ## ProductInfo[] FindProduct(QuoteAlternativeContextInfo context, string currencyCode, string userinput, string priceListKey)
 
-The connector should treat this as a freetext search, the user might want to enter several words 
+The connector should treat this as a freetext search, the user might want to enter several words
 and expect the system to search for through several fields like name, description, product code, extrafields, etc.
 
-Since the return list is a potentially large return value, the connector or the ERP system should 
+Since the return list is a potentially large return value, the connector or the ERP system should
 limit the number of matches returned to a few hundred.
 
 The fast searcher in the add product dialog calls this function to populate the dropdown list.
 
-* context: 
-* currencyCode: 
-* userinput: 
+* context:
+* currencyCode:
+* userinput:
 * priceListKey: If the pricelist is empty, the function will search in all active pricelists.
 
 Returns: An array of products matching the search words
@@ -243,7 +242,7 @@ The quoteLineId will be provided by SuperOffice later.
 
 Returns: Return the QuoteLine(-s) with the product info filled in.
 Only the first non-null quoteline returned is added.
-The ERP Product Key must be filled in in the return value. 
+The ERP Product Key must be filled in in the return value.
 The ERP price list id should also be filled in.
 
 If the erpProductKey is null or empty, the function will throw an ArgumentException.
@@ -253,7 +252,7 @@ If the product is not found, the function will throw an Exception.
 
 Gets the number of images available for this product
 
-* erpProductKey: id of the product 
+* erpProductKey: id of the product
 
 Returns: Count of images on the product. 0 if no images.
 
@@ -261,7 +260,7 @@ Returns: Count of images on the product. 0 if no images.
 
 Gets the full size picture of the given product.
 
-* erpProductKey: 
+* erpProductKey:
 * rank: Which of the images to return, will in the first version only ask for the first.
 
 If the erpProductKey is null or empty, the function will throw an ArgumentException.
@@ -298,7 +297,7 @@ Perform the advanced search and return results
 ## QuoteLineInfo OnQuoteLineChanged(QuoteAlternativeContextInfo context, QuoteLineInfo ql, string[] changedFields)
 
 Called when the user has changed a field in the Quote Line.
-The QuoteContext is readonly; QuoteLine may be changed in the return value. 
+The QuoteContext is readonly; QuoteLine may be changed in the return value.
 Response time must be fast since this method is called often (every time a field is changed).
 
 The connect can signal errors or warnings by setting the `QuoteLineInfo.Status` and `QuoteLineInfo.Reason` fields.
@@ -316,7 +315,7 @@ The user is finished with entering the quotelines, and wants to calculate the or
 on this alternative.
 This method is called whenever the quote lines are changed in the alternative, or when the user clicks the RECALCULATE button.
 
-The connector may signal problems with the quote by setting the  Quote Alternative Status 
+The connector may signal problems with the quote by setting the  Quote Alternative Status
 to Error, Warning or OkWithInfo, and fill in the alternative's Reason field with an explanation.
 
 Use `QuoteCalculation.CalculateQuoteAlternativeWithLines` helper to help you calculate amounts.
@@ -344,7 +343,7 @@ A draft quote version will have state = `QuoteVersionStateInfo.DraftNotCalculate
 The connector should set the version state to `QuoteVersionStateInfo.DraftCalculated`
 if the calculations were successful. Leave the state as DraftNotCalculated if the ERP system was not available or some other factor that made the calculation unsuccessful.
 
-The connector can trigger the approval workflow by setting the state to `QuoteVersionStateInfo.DraftNeedsApproval`. When a user with the approval permission 
+The connector can trigger the approval workflow by setting the state to `QuoteVersionStateInfo.DraftNeedsApproval`. When a user with the approval permission
 has approved or rejected the quote, the quote version state will be `QuoteVersionStateInfo.DraftApproved` or `QuoteVersionStateInfo.DraftNotApproved`.
 
 Note that recalculate may also be called when the quote is Approved, or Archived.  In these cases, please leave the quote version state alone.
@@ -378,7 +377,7 @@ Returns: Updated quote version, with alternatives and quote lines.
 Some ERP systems will be able to turn quotes into orders. The user selects a quote alternative to send to  the ERP system and clicks OK in the CREATE ORDER dialog.
 After the Quote has been accepted/sold, then the user can check the delivery status with the ERP system.
 
-Place the order in the ERP system. 
+Place the order in the ERP system.
 If the operation retuns successfully, the Quote will be locked (completed) in the CRM system
 and all updates will come from the ERP system thru the GetOrderState function.
 
@@ -393,7 +392,7 @@ If the returned state in not OK, then the PlaceOrder call is aborted and the err
 
 ## OrderResponseInfo GetOrderState(QuoteAlternativeContextInfo context)
 
-After the order is created in the ERP system and the user wants to see what the current state of 
+After the order is created in the ERP system and the user wants to see what the current state of
 the order is this function gets called.
 
 This new version will be displayed in the GUI.
@@ -406,7 +405,7 @@ Returns:
 If nothing has changed it should return null.
 To create a new QuoteVersion, set OrderResponseInfo.CRMQuoteVersion.QuoteVersionId to 0, and return a new version with a new alternative and quotelines describing the current state.
 
-## AddressInfo[] GetAddresses(QuoteAlternativeContextInfo context);
+## AddressInfo[] GetAddresses(QuoteAlternativeContextInfo context)
 
 Returns two addresses:
 

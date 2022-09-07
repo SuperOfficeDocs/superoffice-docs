@@ -23,4 +23,3 @@ Service methods defined on <see cref='T:SuperOffice.CRM.Services.IAssociateAgent
 * [GetNote](getnote.md)
 * [LogOffWindowsUsers](logoffwindowsusers.md)
 * [SaveNote](savenote.md)
-

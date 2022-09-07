@@ -114,4 +114,3 @@ Service methods defined on <see cref='T:SuperOffice.CRM.Services.IAppointmentAge
 * [ValidateAppointmentEntity](validateappointmententity.md)
 * [ValidateDays](validatedays.md)
 * [WillSendEmail](willsendemail.md)
-

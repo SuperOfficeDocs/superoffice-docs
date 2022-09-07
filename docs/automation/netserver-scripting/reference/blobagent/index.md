@@ -52,4 +52,3 @@ Service methods defined on <see cref='T:SuperOffice.CRM.Services.IBLOBAgent'>BLO
 * [SetProductImage](setproductimage.md)
 * [SetProductThumbnail](setproductthumbnail.md)
 * [SetProjectImage](setprojectimage.md)
-

@@ -35,4 +35,3 @@ Service methods defined on <see cref='T:SuperOffice.CRM.Services.ITargetsAgent'>
 * [GetTargetRevisionHistory](gettargetrevisionhistory.md)
 * [SaveTargetDimension](savetargetdimension.md)
 * [SaveTargetGroup](savetargetgroup.md)
-

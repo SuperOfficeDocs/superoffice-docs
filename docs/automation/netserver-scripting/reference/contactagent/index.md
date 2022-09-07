@@ -47,4 +47,3 @@ Service methods defined on <see cref='T:SuperOffice.CRM.Services.IContactAgent'>
 * [SetDuplicateRulesStatus](setduplicaterulesstatus.md)
 * [Undelete](undelete.md)
 * [ValidateContactEntity](validatecontactentity.md)
-

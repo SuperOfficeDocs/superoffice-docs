@@ -20,7 +20,7 @@ A custom application can be the solution when your needs as a SuperOffice CRM On
 
 As long as the application is specific to you, unique to your business, we call it a custom application. In contrast to [standard applications][2], each custom application is mapped to a specific [database tenant][3].
 
-All applications begin in our [sandbox environment][4]. Custom applications must [pass our validation process][5]. We test that things work the way they should and don't affect other customers in any way. After that, you may [activate][6] your application on your production environment tenant.
+All applications begin in our [sandbox environment][4]. Custom applications must [pass our validation process][5]. We test that things work the way they should and don't affect other customers in any way. After that, the application is activated on your production environment tenant.
 
 ## Your options with custom applications
 
@@ -46,6 +46,5 @@ When it is time to develop your application idea, you have 3 options:
 [3]: terminology.md
 [4]: getting-started/app-envir.md
 [5]: activate/index.md
-[6]: activate/activate-custom-app.md
 [7]: ../admin/license/expander-services/index.md
 [8]: ../admin/license/user-plans.md

@@ -20,14 +20,13 @@ The application residing at the redirect URL is expected to receive the security
 
 ## Where do I set my redirects?
 
-The redirection endpoints are specified when you register the application idea. If you need to make changes later, [update the application configuration][4] in the Developer Portal.
+The redirection endpoints are specified when you [register the application][5]. If you need to make changes later, [update the application configuration][4] in the Developer Portal.
 
-[!include[TIP](../includes/tip-regex-urls.md)]
-
-To override the default redirect URL, specify the `redirect_url` query string parameter with one of your whitelisted URLs.
+[!include[TIP regex](../includes/tip-regex-urls.md)]
 
 <!-- Referenced links -->
 [1]: https://tools.ietf.org/html/rfc6749#section-3.1.2
 [2]: ../../api/authentication/online/validate-security-tokens.md
 [3]: ../../api/authentication/online/index.md
 [4]: ../../developer-portal/security/cors-and-redirection-urls.md
+[5]: ../../developer-portal/create-app/index.md

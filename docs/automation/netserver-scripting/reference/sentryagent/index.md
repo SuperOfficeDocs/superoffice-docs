@@ -23,4 +23,3 @@ Service methods defined on <see cref='T:SuperOffice.CRM.Services.ISentryAgent'>S
 * [GetTableRightByContactOwnership](gettablerightbycontactownership.md)
 * [GetTableRightByOwnership](gettablerightbyownership.md)
 * [HasFunctionRight](hasfunctionright.md)
-

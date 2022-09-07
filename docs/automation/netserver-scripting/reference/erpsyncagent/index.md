@@ -65,4 +65,3 @@ Service methods defined on <see cref='T:SuperOffice.CRM.Services.IErpSyncAgent'>
 * [TryConnectActor](tryconnectactor.md)
 * [UpdateConnectionFields](updateconnectionfields.md)
 * [ValidateArchiveColumnConfig](validatearchivecolumnconfig.md)
-

@@ -16,22 +16,21 @@ We run the validation tests in [SOD][3] before we deploy your application to a p
 
 ## Why do you test my one-off customization?
 
-The purpose of our validation tests is to ensure that the [application can be safely activated][4] in SuperOffice CRM Online.
+The purpose of our validation tests is to ensure that the application can be safely activated in SuperOffice CRM Online.
 
 ## What are you checking?
 
-We install your application and want to see that it runs smoothly and adheres to our [requirements][5]. **Security** and **performance** are particularly important.
+We install your application and want to see that it runs smoothly and [adheres to our requirements][5]. **Security** and **performance** are particularly important.
 
 We are checking logs in Application Insight and our Operation Center.
 
 ## I'm ready - what do I do?
 
-Follow our [step-by-step guide][6], started by sending a validation request form.
+Follow our [step-by-step guide][6], started by sending a request to publish in the Developer Portal.
 
 <!-- Referenced links -->
 [1]: ../standard.md
 [2]: ../custom.md
 [3]: ../getting-started/app-envir.md
-[4]: activate-custom-app.md
 [5]: ../requirements/index.md
 [6]: validate-app.md

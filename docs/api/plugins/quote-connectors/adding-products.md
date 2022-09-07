@@ -12,8 +12,6 @@ so.topic: howto
 
 The user searches for products in the Add Product dialog.
 
-
-
 ## ProductInfo[] FindProduct( QuoteContextInfo context, string isoCurrencyCode, string userinput, string priceListKey )
 
 The connector should treat this as a free text search. The user might want to search for the name, description, product code, extra fields, and so on.

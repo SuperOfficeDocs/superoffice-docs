@@ -30,4 +30,3 @@ Service methods defined on <see cref='T:SuperOffice.CRM.Services.ISaintAgent'>Sa
 * [SaveStatusMonitor](savestatusmonitor.md)
 * [SaveStatusMonitorPeriods](savestatusmonitorperiods.md)
 * [SetRankOnStatusMonitors](setrankonstatusmonitors.md)
-
