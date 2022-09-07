@@ -1,10 +1,10 @@
 ---
-uid: help-en-document-faq-publishfaq
-title: document faq publishFAQ
-description: document faq publishFAQ
+uid: help-en-document-faq-publish
+title: Publish FAQ entries
+description: Publish FAQ entries
 author: SuperOffice RnD
 so.date: 06.29.2022
-keywords: Service
+keywords: FAQ
 so.topic: help
 language: en
 ---
@@ -28,8 +28,8 @@ When a request handler creates a suggestion for an FAQ entry (see [Create FAQ en
 * [Work with the workflow][3]
 
 <!-- Referenced links -->
-[1]: newKbEntry.md
-[2]: ../request/index.md
-[3]: editKbWorkflow.md
+[1]: create.md
+[2]: ../user/service/request/index.md
+[3]: workflow.md
 
 <!-- Referenced images -->

@@ -100,7 +100,7 @@ To create a new role:
 
 [1]: ../../user/service/admin/editUser.helpUserInfo.md
 [2]: ../../user/service/admin/listProfiles.md
-[3]: ../../user/service/faq/editkbworkflow.md
+[3]: ../../faq/workflow.md
 [4]: editing-role.md
 
 <!-- Referenced images -->

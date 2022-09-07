@@ -100,7 +100,7 @@ The **Details** tab contains an overview of the request.
 [5]: showListTickets.acceptRequest.md
 [6]: showListTickets.splitTicket.md
 [7]: showListTickets.mergeTickets.md
-[8]: ../faq/newKbEntry.md
+[8]: ../../../faq/create.md
 [9]: showListTickets.editMessage.md
 [10]: showListTickets.forward.md
 [11]: showListTickets.splitMessage.md
@@ -112,4 +112,4 @@ The **Details** tab contains an overview of the request.
 [img2]: ../../../../media/icons/favorite-inactive.png
 [img3]: ../../../../media/icons/globalmenu-personalsettings-small.png
 [img4]: ../../../../media/icons/favorite-inactive.png
-[img5]: ../faq/newKbEntry.md
+[img5]: 

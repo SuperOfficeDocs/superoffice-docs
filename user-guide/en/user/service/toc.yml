@@ -235,29 +235,6 @@ items:
     href: customers/viewcustomer.mergecontacts.md
   - name: Customers viewCustomer sendNewCustMail
     href: customers/viewcustomer.sendnewcustmail.md
-- name: Faq
-  href: faq/index.md
-  items:
-  - name: Document faq addFaqToMessage
-    href: faq/addfaqtomessage.md
-  - name: Document faq delKbEntry
-    href: faq/delkbentry.md
-  - name: Document faq editKbCategory
-    href: faq/editkbcategory.md
-  - name: Document faq editKbEntry
-    href: faq/editkbentry.md
-  - name: Document faq editKbWorkflow
-    href: faq/editkbworkflow.md
-  - name: Document faq findKbEntry
-    href: faq/findkbentry.md
-  - name: Document faq newKbEntry
-    href: faq/newkbentry.md
-  - name: Document faq publishFAQ
-    href: faq/publishfaq.md
-  - name: Document faq viewKbComment
-    href: faq/viewkbcomment.md
-  - name: Document faq viewKbEntry
-    href: faq/viewkbentry.md
 - name: Getting started
   href: getting-started/index.md
   items:

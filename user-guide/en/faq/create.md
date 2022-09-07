@@ -1,10 +1,10 @@
 ---
-uid: help-en-document-faq-newkbentry
-title: document faq newKbEntry
-description: document faq newKbEntry
+uid: help-en-faq-create
+title: Create FAQ entries
+description: Create FAQ entries
 author: SuperOffice RnD
 so.date: 06.29.2022
-keywords: Service
+keywords: FAQ
 so.topic: help
 language: en
 ---
@@ -18,7 +18,7 @@ By creating FAQ entries, your organisation can build up a comprehensive collecti
 
 ## Create FAQ entries from a request
 
-If you reply to an enquiry and think the same question may arise again, it is a good idea to create a reply that can be reused and made available to all customers. [!include[To do this](../../../includes/to-do-this.md)]
+If you reply to an enquiry and think the same question may arise again, it is a good idea to create a reply that can be reused and made available to all customers. [!include[To do this](../includes/to-do-this.md)]
 
 1. Open a request. See [Process requests][1].
 
@@ -28,9 +28,10 @@ If you reply to an enquiry and think the same question may arise again, it is a 
 
 4. In the **Position** field, select a number for the entry's position in the sort order of the folder it belongs in. 1 means the top of the list.
 
-5. In the **Folder** field, select which folder you want to place the entry in. This is relevant if you have a folder structure for FAQ entries. See [Administrate folders of FAQ entries][2].
+5. In the **Folder** field, select which folder you want to place the entry in. This is relevant if you have a [folder structure for FAQ entries][2].
 
 6. In the **Access** field, select who is to have access to the FAQ entry in question:
+
     * **Private**: Only you. This can be relevant if you are creating new FAQ entries or updating outdated FAQ entries.
     * **Accessible to internal users**: Only internal users (and not customers using SuperOffice Customer Centre).
     * **Accessible to registered customers**: Registered customers who have login access to SuperOffice Customer Centre.
@@ -41,7 +42,7 @@ If you reply to an enquiry and think the same question may arise again, it is a 
 8. As an FAQ administrator, you can choose from the following options in the **Workflow** field:
 
     * **Unpublished**: Choose this option if you do not want to publish the FAQ entry at the moment.
-    * **Published**: Choose this option if you want to publish the FAQ entry immediately. See [Publish FAQ entries][3].
+    * **Published**: Choose this option if you want to [publish the FAQ entry immediately][3].
     * **Expired**: Select this option if the FAQ entry is no longer current. This will be most relevant when editing existing FAQ entries.
 
     > [!NOTE]
@@ -49,21 +50,27 @@ If you reply to an enquiry and think the same question may arise again, it is a 
 
 9. If you select a date in the **Valid to** field, the entry's status is changed to **Expired** on this date. After that it will not be available to anyone except the FAQ administrators. They will be warned that the entry has expired. This may be relevant in connection with marketing campaigns. If you enter no date here, the FAQ entry will remain available permanently.
 
-10. In the **Attachment** field, you can add one or more documents as attachments to the request. <!-- Fix reuse ID=a1 -->
+10. In the **Attachment** field, you can add one or more documents as attachments to the request.
+
+    <details><summary>How?</summary>
     To add an attachment to the FAQ entry:
 
     1. Click **Choose file** next to **Attachment**.
     2. Browse to the document you require in the dialog box that appears.
     3. Click ![icon][img1] to add the attachment.
     4. Repeat this procedure to add more attachments.
+    </details>
 
-11. In the **Link** field, you can add one or more addresses of relevant websites. <!-- Fix reuse ID=a2 -->
+11. In the **Link** field, you can add one or more addresses of relevant websites.
+
+    <details><summary>How?</summary>
     To add links to an FAQ entry:
 
     1. In the field to the left, enter the name to be displayed for the link.
-    2. In the field on the right, enter the actual web address after **http://**
+    2. In the field on the right, enter the actual web address after `http://`
     3. Click ![icon][img1] **Add** to add the link.
     4. Repeat this procedure to add more links.
+    </details>
 
 12. Go to the **Question** tab.
 
@@ -74,16 +81,16 @@ If you reply to an enquiry and think the same question may arise again, it is a 
 
 14. Go to the **Answer** tab and enter the answer. By default, the next messages in the request are pasted into the **Answer** tab.
 
-15. Click **OK**. The **FAQ Entry** screen is displayed, and your proposed FAQ entry is sent to the administrator, who can publish it. See [Publish FAQ entries][3].
+15. Click **OK**. The **FAQ Entry** screen is displayed, and your proposed FAQ entry is sent to the administrator, who can publish it.
 
 ## Create new FAQ
 
 You can also create an FAQ entry as follows:
 
 1. Select **Knowledge Base** &gt; **FAQ**.
-2. Go to the folder you want to put the FAQ entry in. If it does not yet exist, you can create a new folder. See [Administrate folders of FAQ entries][2].
+2. Go to the folder you want to put the FAQ entry in. If it does not yet exist, you can [create a new folder][2].
 3. Click the **New entry** button. This takes you to the **FAQ entry properties** screen.
-4. Follow the procedure above from step 3 onwards.
+4. Follow the procedure above starting at step 3..
 
 Since the option to create FAQ entries this way is only available to administrators, there is no need for a separate publishing step in this process. The administrator can create and publish simultaneously.
 
@@ -93,11 +100,11 @@ Since the option to create FAQ entries this way is only available to administrat
 * [Publish FAQ entries][3]
 
 <!-- Referenced links -->
-[1]: ../request/listTicket.md
-[2]: editKbCategory.md
-[3]: publishFAQ.md
-[4]: editKbEntry.md
+[1]: ../user/service/request/listTicket.md
+[2]: manage-folders.md
+[3]: publish.md
+[4]: edit.md
 
 <!-- Referenced images -->
-[img1]: ../../../../media/icons/btn-add.png
-[img2]: ../../../../media/icons/service/btn-spellcheck.png
+[img1]: ../../media/icons/btn-add.png
+[img2]: ../../media/icons/service/btn-spellcheck.png

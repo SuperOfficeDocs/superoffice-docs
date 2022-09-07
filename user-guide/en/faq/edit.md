@@ -1,10 +1,10 @@
 ---
-uid: help-en-document-faq-editkbentry
-title: document faq editKbEntry
-description: document faq editKbEntry
+uid: help-en-faq-edit
+title: Edit FAQ entries
+description: Edit FAQ entries
 author: SuperOffice RnD
 so.date: 06.29.2022
-keywords: Service
+keywords: FAQ
 so.topic: help
 language: en
 ---
@@ -13,7 +13,7 @@ language: en
 
 If you need to edit an FAQ entry, for example to add more detail to the answer, do as follows:
 
-1. Select **Knowledge Base** &gt; **FAQ**.
+1. Select **Knowledge Base** > **FAQ**.
 2. Go to the folder where the FAQ entry is located.
 3. Click the FAQ entry you want. The **FAQ entry** screen opens.
 4. Click **Edit entry**. The **FAQ entry properties** screen opens.
@@ -21,6 +21,6 @@ If you need to edit an FAQ entry, for example to add more detail to the answer, 
 6. Click **OK**. The changes are saved.
 
 <!-- Referenced links -->
-[1]: newKbEntry.md
+[1]: create.md
 
 <!-- Referenced images -->

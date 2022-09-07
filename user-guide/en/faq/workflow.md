@@ -1,21 +1,21 @@
 ---
-uid: help-en-document-faq-editkbworkflow
-title: document faq editKbWorkflow
-description: document faq editKbWorkflow
+uid: help-en-faq-workflow
+title: Workflow stages
+description: Workflow stages
 author: SuperOffice RnD
 so.date: 06.29.2022
-keywords: Service
+keywords: FAQ
 so.topic: help
 language: en
 ---
 
-# Work with workflow
+# Workflow stages
 
 In a new installation, the workflow contains two default stages: **Unpublished** and **Published**. It is possible to add additional stages between these two. For example, you can set up a workflow where an FAQ entry is sent to be proof-read, so that someone checks the entry and then publishes it, or sends it unpublished back for editing.
 
 ## Create new stage
 
-1. Select **Knowledge Base** &gt; **FAQ**.
+1. Select **Knowledge Base** > **FAQ**.
 2. Click the **Workflow** button. This takes you to the **View workflow** screen.
 3. Click the **New stage** button. This takes you to the **New stage** screen.
 4. Enter a descriptive name for the stage in the **Name** field.
@@ -32,7 +32,7 @@ In a new installation, the workflow contains two default stages: **Unpublished**
 
 ## Edit stage
 
-You can both change the name of a stage and alter which users are to have access to it. [!include[To do this](../../../includes/to-do-this.md)]
+You can both change the name of a stage and alter which users are to have access to it. [!include[To do this](../includes/to-do-this.md)]
 
 1. Select **Knowledge Base** &gt; **FAQ** and click the **Workflow** button.
 2. Click the name of the stage. This takes you to the **Edit stage** screen.
@@ -63,10 +63,10 @@ You can both change the name of a stage and alter which users are to have access
 > You can cancel publishing of the FAQ entry by clicking the **Move backward in workflow** button.
 
 <!-- Referenced links -->
-[1]: viewKbEntry.md
-[2]: publishFAQ.md
+[1]: view-entry.md
+[2]: publish.md
 
 <!-- Referenced images -->
-[img1]: ../../../../media/icons/btn-menu.png
-[img2]: ../../../../media/icons/btn-workflow.png
-[img3]: ../../../../media/icons/btn-add.png
+[img1]: ../../media/icons/btn-menu.png
+[img2]: ../../media/icons/btn-workflow.png
+[img3]: ../../media/icons/btn-add.png

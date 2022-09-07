@@ -1,21 +1,21 @@
 ---
-uid: help-en-document-faq-editkbcategory
-title: document faq editKbCategory
-description: document faq editKbCategory
+uid: help-en-faq-folder
+title: Administrate folders of FAQ entries
+description: Administrate folders of FAQ entries
 author: SuperOffice RnD
 so.date: 06.29.2022
-keywords: Service
+keywords: FAQ
 so.topic: help
 language: en
 ---
 
 # Administrate folders of FAQ entries
 
-Under **Knowledge Base** &gt; **FAQ** you can create a folder structure for FAQs, to give them a logical structure and make it easy for others to find information. You can create subfolders in all folders, and you can place FAQ entries in any of these folders as appropriate. Find out more below about how to work with the folder structure.
+Under **Knowledge Base** > **FAQ** you can create a folder structure for FAQs, to give them a logical structure and make it easy for others to find information. You can create sub-folders in all folders, and you can place FAQ entries in any of these folders as appropriate. Find out more below about how to work with the folder structure.
 
 ## Create folders
 
-1. Select **Knowledge Base** &gt; **FAQ**.
+1. Select **Knowledge Base** > **FAQ**.
 
 2. Click the **New folder** button. This takes you to the **FAQ folder properties** screen.
 
@@ -34,24 +34,24 @@ Under **Knowledge Base** &gt; **FAQ** you can create a folder structure for FAQs
 
 8. In the **Access control** field, you can enter a script to use to control external customers' access to this folder. If this field contains a script, it will be evaluated and access granted only if the script returns a value of "1".
 
-9. Click **OK**. The new folder is created. You are now ready to add FAQ entries to the new folder. See [Create FAQ entries][3].
+9. Click **OK**. The new folder is created. You are now ready to [add FAQ entries][3] to the new folder.
 
 ## Delete folders
 
 Before you delete an FAQ folder, you need to remove all the entries in it. You do this in one of the following ways:
 
-* You can delete the FAQ entries as described under [Delete FAQ entries][1].
-* You can move an FAQ entry to another folder by changing the content of the **Folder** field when you edit an entry. See [Edit FAQ entries][2].
+* You can [delete the FAQ entries][1].
+* You can [move an FAQ entry to another folder][2] by changing the content of the **Folder** field when you edit an entry.
 
-[!include[How to delete a folder](../../includes/howto-delete-folder-kb.md)]
+[!include[How to delete a folder](../user/includes/howto-delete-folder-kb.md)]
 
 ## What would you like to do now?
 
 * [Create FAQ entries][3]
 
 <!-- Referenced links -->
-[1]: delKbEntry.md
-[2]: editKbEntry.md
-[3]: newKbEntry.md
+[1]: delete.md
+[2]: edit.md
+[3]: create.md
 
 <!-- Referenced images -->
