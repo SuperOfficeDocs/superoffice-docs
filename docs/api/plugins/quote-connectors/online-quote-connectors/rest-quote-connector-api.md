@@ -53,19 +53,36 @@ The JWT Authenticate middleware looks at the JWT value, decodes the JWT and vali
 
 If the signature is valid (i.e. signed with the environment's private key), then we accept the JWT and allow the call.
 
+### Quote Connector re-authentication
+
+If the quote connector responds with **401 Unauthorized** or **403 Forbidden**, then the REST quote plugin in the fileset will try to generate a fresh JWT and then retry the call to the service.
+
+The client will retry once with a fresh JWT.
+
 ## Quote Connector missing methods
 
-If the REST quote plugin tries to call an endpoint and receives an HTTP error of **404 NotFound** or **410 Gone** then the endpoint is flagged as not-implemented, and 
-subsequent calls to the endpoint are skipped.
+If the REST quote plugin tries to call an endpoint and receives an HTTP error of **404 NotFound** or **410 Gone** then the endpoint is flagged as not-implemented, and subsequent calls to the endpoint are skipped.
+
 This avoids unnecessary calls to the service, and improves performance.
 
 ## Quote Connector endpoints
 
 All of these require a HTTP `Authenticate` header with a `Basic` username + shared secret, `Bearer` JWT signed with the shared secret.
 
-Invalid access tokens are rejected with a 401 error, which will trigger a re-authenticate on the client side.
+Invalid access tokens must be rejected with a 401 HTTP error, which will trigger a re-authenticate on the client side.
 
 The client will retry once with a fresh JWT.
+
+## Quote Connector parameters
+
+In addition to the parameters specified in the interface, the POST body will also include 
+
+* `dictionary<string,string>` ConfigValues - dictionary containing the configuration settings for the connection.
+* `object` ConnectionInfo - object containing the connection id, and related ERP Sync connection info, if any.
+
+Example:
+```json
+```
 
 ## `POST baseUrl/GetConfigurationFields`
 
@@ -74,6 +91,10 @@ Called when configuring/editing a connection.
 Returns [`Dictionary<string, FieldMetadataInfo>`](../api/data-carriers/fieldmetadatainfo.md) containing the fields you want the user to edit/set on the connection.
 
 The values are stored in the fileset's connection and passed in subsequent calls.
+
+The fields are displayed in the configuration dialog in the admin client.
+The values the user inputs are stored in SuperOffice and passed along as ConfigValues in
+subsequent calls to the REST connector.
 
 ## `POST baseUrl/TestConnection`
 
@@ -120,11 +141,12 @@ Return a dictionary of capabilities mapped to boolean values.
 
 See the [sample request](./rest-quote-connector-samples.md#post-getcapabilities)
 
-
 ## Lists
 ### `POST baseUrl/GetQuoteList` 
 
 * string QuoteListType - List name
+* `dictionary<string,string>` ConfigValues - dictionary containing the configuration settings for the connection.
+* `object` ConnectionInfo - object containing the connection id, and related ERP Sync connection info, if any.
 
 Lists are fetched from the remote service unless the corresponding capability has been turned off.
 Built-in MDO lists (like "category" or "associate") are not fetched from the remote service.
@@ -150,6 +172,8 @@ If capability `cache-pricelists` is true, then list of pricelists is cached for 
 ### `POST baseUrl/GetActivePriceLists`
 
 * `string` IsoCurrencyCode - currency from Sale
+* `dictionary<string,string>` ConfigValues - dictionary containing the configuration settings for the connection.
+* `object` ConnectionInfo - object containing the connection id, and related ERP Sync connection info, if any.
 
 Return only the active pricelists for a given currency. If no pricelists are returned, then the connector cannot be used to create a quote for this sale.
 
@@ -162,6 +186,8 @@ See the [sample request](./rest-quote-connector-samples.md#post-getactivepriceli
 ### `POST baseUrl/GetAddresses`
 
 * [`QuoteAlternativeContextInfo`](../api/data-carriers/quotealternativecontextinfo.md) Context - information about the quote alternative.
+* `dictionary<string,string>` ConfigValues - dictionary containing the configuration settings for the connection.
+* `object` ConnectionInfo - object containing the connection id, and related ERP Sync connection info, if any.
 
 Return custom billing/shipping addresses for the quote.
 Requires `iaddressprovider_provide_addresses` capability.
@@ -176,171 +202,217 @@ Returns `AddressInfo[]` - array of addresses.
  Quote events are triggered by user actions.
  The quote service receives a copy of the quote and returns a possibly modified copy of the quote state.
 
- ### `POST baseUrl/OnBeforeCreateQuote`
+### `POST baseUrl/OnBeforeCreateQuote`
 
 * [`QuoteAlternativeContextInfo`](../api/data-carriers/quotealternativecontextinfo.md) Context -  information about the quote with a single alternative.
+* `dictionary<string,string>` ConfigValues - dictionary containing the configuration settings for the connection.
+* `object` ConnectionInfo - object containing the connection id, and related ERP Sync connection info, if any.
 
  Called when the user creates a quote, before the quote has been saved to the database.
 
 See the [sample request](./rest-quote-connector-samples.md#post-onbeforecreatequote)
 
- ### `POST baseUrl/OnBeforeCreateQuoteVersion`
+### `POST baseUrl/OnBeforeCreateQuoteVersion`
 
- * [`QuoteVersionContextInfo`](../api/data-carriers/quoteversioncontextinfo.md) QuoteContext - the quote with a version and all its alternatives.
+* [`QuoteVersionContextInfo`](../api/data-carriers/quoteversioncontextinfo.md) QuoteContext - the quote with a version and all its alternatives.
+* `dictionary<string,string>` ConfigValues - dictionary containing the configuration settings for the connection.
+* `object` ConnectionInfo - object containing the connection id, and related ERP Sync connection info, if any.
 
- Called when the user creates a new version - and the initial version when creating a new quote, before the version has been saved to the database.
+Called when the user creates a new version - and the initial version when creating a new quote, before the version has been saved to the database.
 
- ### `POST /OnBeforeCreateQuoteAlternative`
- * `QuoteAlternativeContextInfo` Context - information about the quote with a single alternative.
+### `POST /OnBeforeCreateQuoteAlternative`
 
- Called when the user creates a new alternative within a version, and the initial alternative when creating a new quote.
+* [`QuoteAlternativeContextInfo`](../api/data-carriers/quotealternativecontextinfo.md) Context - information about the quote with a single alternative.
+* `dictionary<string,string>` ConfigValues - dictionary containing the configuration settings for the connection.
+* `object` ConnectionInfo - object containing the connection id, and related ERP Sync connection info, if any.
 
- ### `POST /OnBeforeDeleteQuote` 
- * `IContactInfo3` Contact - company information including custom fields.
- * `ISaleInfo3` Sale - sale information that quote belongs to, including custom fields.
- * `QuoteInfo` Quote - quote information that is being deleted.
+Called when the user creates a new alternative within a version, and the initial alternative when creating a new quote.
 
- Called when the quote is about to be deleted, so that the service can mark the ERP quote as deleted.
- No return value.
+### `POST /OnBeforeDeleteQuote` 
 
- ### `POST /OnAfterSentQuoteVersion`
- * `QuoteVersionContextInfo` QuoteContext - information about the quote with a version and all its alternatives.
+* `IContactInfo3` Contact - company information including custom fields.
+* `ISaleInfo3` Sale - sale information that quote belongs to, including custom fields.
+* `QuoteInfo` Quote - quote information that is being deleted.
+* `dictionary<string,string>` ConfigValues - dictionary containing the configuration settings for the connection.
+* `object` ConnectionInfo - object containing the connection id, and related ERP Sync connection info, if any.
 
- Returns `QuoteSentResponseInfo` - status on if quote was published in ERP.
+Called when the quote is about to be deleted, so that the service can mark the ERP quote as deleted.
 
+No return value.
 
- ### `POST /OnQuoteLineChanged`
- * `QuoteAlternativeContextInfo` Context - information about the quote with a version and all its alternatives.
- * `QuoteLineInfo` QuoteLine - the quoteline that was changed
- * `string[]` ChangedFields - list of fields that were modified.
+### `POST /OnAfterSentQuoteVersion`
 
- Called whenever the user modifies a field on a quoteline.
- You must implement sub-total and discount calculations. You can set quoteline status and reason to report errors.
- If not implemented (server returns 404 NotFound) then default quoteline calculations are applied.
+* `QuoteVersionContextInfo` QuoteContext - information about the quote with a version and all its alternatives.
+* `dictionary<string,string>` ConfigValues - dictionary containing the configuration settings for the connection.
+* `object` ConnectionInfo - object containing the connection id, and related ERP Sync connection info, if any.
 
- Returns `QuoteLineInfo` - updated quoteline.
+Returns [`QuoteSentResponseInfo`](../api/data-carriers/quotesentresponseinfo.md) - status on if quote was published in ERP.
 
- ## Product info
+### `POST /OnQuoteLineChanged`
+
+* `QuoteAlternativeContextInfo` Context - information about the quote with a version and all its alternatives.
+* `QuoteLineInfo` QuoteLine - the quoteline that was changed
+* `string[]` ChangedFields - list of fields that were modified.
+* `dictionary<string,string>` ConfigValues - dictionary containing the configuration settings for the connection.
+* `object` ConnectionInfo - object containing the connection id, and related ERP Sync connection info, if any.
+
+Called whenever the user modifies a field on a quoteline.
+You must implement sub-total and discount calculations. You can set quoteline status and reason to report errors.
+If not implemented (server returns 404 NotFound) then default quoteline calculations are applied.
+
+Returns [`QuoteLineInfo`](../api/data-carriers/quotelineinfo.md) - updated quoteline.
+Return null to apply default quoteline calculations instead.
+
+## Product info
 
 ### `POST /FindProduct`
- * `QuoteAlternativeContextInfo` Context - information about the quote alternative.
- * `string` CurrencyCode - NOK or SEK from the sale.
- * `string` UserInput - what the user typed into the search field
- * `string` PriceListKey - blank if no pricelist chosen, otherwise a pricelist key "PLXYZ".
 
- Called when user has typed something into the search field at the top of the add product dialog.
+* `QuoteAlternativeContextInfo` Context - information about the quote alternative.
+* `string` CurrencyCode - NOK or SEK from the sale.
+* `string` UserInput - what the user typed into the search field
+* `string` PriceListKey - blank if no pricelist chosen, otherwise a pricelist key "PLXYZ".
+* `dictionary<string,string>` ConfigValues - dictionary containing the configuration settings for the connection.
+* `object` ConnectionInfo - object containing the connection id, and related ERP Sync connection info, if any.
 
- Returns `ProductInfo[]` - array of matching products.
+Called when user has typed something into the search field at the top of the add product dialog.
+
+Returns [`ProductInfo[]`](../api/data-carriers/productinfo.md) - array of matching products.
 
 ### `POST /GetProduct`
- * `QuoteAlternativeContextInfo` Context - information about the quote alternative.
- * `string` ErpProductKey - product key found earlier.
 
- Returns `ProductInfo` - details on the selected product
+* `QuoteAlternativeContextInfo` Context - information about the quote alternative.
+* `string` ErpProductKey - product key found earlier.
+* `dictionary<string,string>` ConfigValues - dictionary containing the configuration settings for the connection.
+* `object` ConnectionInfo - object containing the connection id, and related ERP Sync connection info, if any.
+
+Returns `ProductInfo` - details on the selected product
 
 ### `POST /GetProducts`
- * `QuoteAlternativeContextInfo` Context - information about the quote alternative.
- * `string[]` ErpProductKeys - product keys found earlier.
+
+* `QuoteAlternativeContextInfo` Context - information about the quote alternative.
+* `string[]` ErpProductKeys - product keys found earlier.
+* `dictionary<string,string>` ConfigValues - dictionary containing the configuration settings for the connection.
+* `object` ConnectionInfo - object containing the connection id, and related ERP Sync connection info, if any.
 
  
- Returns `ProductInfo[]` - details on the selected products
+Returns `ProductInfo[]` - details on the selected products
 
- ### `POST /GetQuoteLinesFromProduct`
- * `QuoteAlternativeContextInfo` Context - information about the quote alternative.
- * `string` ErpProductKey - product key found earlier.
+### `POST /GetQuoteLinesFromProduct`
 
- Called when user selects a product from the search result. The result is added to the quote.
+* `QuoteAlternativeContextInfo` Context - information about the quote alternative.
+* `string` ErpProductKey - product key found earlier.
+* `dictionary<string,string>` ConfigValues - dictionary containing the configuration settings for the connection.
+* `object` ConnectionInfo - object containing the connection id, and related ERP Sync connection info, if any.
 
- Returns `QuoteLineInfo[]` - details on the selected products. A single product can turn into multiple quote lines.
+Called when user selects a product from the search result. The result is added to the quote.
 
+Returns `QuoteLineInfo[]` - details on the selected products. A single product can turn into multiple quote lines.
 
 ### `POST /GetNumberOfProductImages`
- * `string` ErpProductKey - product id.
 
- Returns `int` - number of images. 0 or 1 or more.
+* `string` ErpProductKey - product id.
+* `dictionary<string,string>` ConfigValues - dictionary containing the configuration settings for the connection.
+* `object` ConnectionInfo - object containing the connection id, and related ERP Sync connection info, if any.
+
+Returns `int` - number of images. 0 or 1 or more.
 
 ### `POST /GetProductImage`
- * `string` ErpProductKey - product id
- * `ìnt` Rank - image number
 
- Get the image URL or Base64 encoded image data for a product. Called when displaying product details in the quoteline dialog.
- Returned value is cached on the client to improve performance.
+* `string` ErpProductKey - product id
+* `ìnt` Rank - image number
+* `dictionary<string,string>` ConfigValues - dictionary containing the configuration settings for the connection.
+* `object` ConnectionInfo - object containing the connection id, and related ERP Sync connection info, if any.
 
- Returns `string` - Base64 encoded image or URL to image.
+Get the image URL or Base64 encoded image data for a product. Called when displaying product details in the quoteline dialog.
 
+Returned value is cached on the client to improve performance.
+
+Returns `string` - Base64 encoded image or URL to image.
 
 ## Advanced Search
 
 ### `POST /GetSearchableFields`
- * no arguments
 
- Called when advanced search is clicked. Advanced search requires the `iconnector_perform_complexsearch`  capability.
- The result is cached in the fileset per connection, since the set of searchable fields should not change from minute to minute.
+* `dictionary<string,string>` ConfigValues - dictionary containing the configuration settings for the connection.
+* `object` ConnectionInfo - object containing the connection id, and related ERP Sync connection info, if any.
+
+Called when advanced search is clicked. Advanced search requires the `iconnector_perform_complexsearch`  capability.
+
+The result is cached in the fileset per connection, since the set of searchable fields should not change from minute to minute.
  
- Returns `FieldMetadataInfo[]` - list of fields and how to use them in search.
+Returns `FieldMetadataInfo[]` - list of fields and how to use them in search.
 
 ### `POST /GetSearchResults`
- * `SearchRestrictionInfo[]` Restrictions - search field values and operators.
 
- Returns `ProductInfo[]` - search matches.
+* `SearchRestrictionInfo[]` Restrictions - search field values and operators.
+* `dictionary<string,string>` ConfigValues - dictionary containing the configuration settings for the connection.
+* `object` ConnectionInfo - object containing the connection id, and related ERP Sync connection info, if any.
+
+Returns `ProductInfo[]` - search matches.
 
 ## Calculations
 
 If the endpoint is not implemented or returns NULL, then the default QuoteConnector calculations are used instead.
-Returning HTTP 404 NotFound flags the endpoint as missing, and stops further calls to the endpoint. The default QuoteConnector is then called directly, 
-skipping the round-trip to the Quote Connector service.
+
+Returning HTTP 404 NotFound flags the endpoint as missing, and stops further calls to the endpoint. The default QuoteConnector is then called directly, skipping the round-trip to the Quote Connector service.
 
 ### `POST /RecalculateQuoteAlternative`
- * `QuoteAlternativeContextInfo` Context - information about the quote alternative.
 
- Calculate new values on the quote alternative. Called after quote lines are added.
- If not implemented, then defaults to SuperOffice connector calculations.
+* `QuoteAlternativeContextInfo` Context - information about the quote alternative.
+* `dictionary<string,string>` ConfigValues - dictionary containing the configuration settings for the connection.
+* `object` ConnectionInfo - object containing the connection id, and related ERP Sync connection info, if any.
 
- Returns `QuoteAlternativeWithLinesInfo` - updated quote lines and alternative.
+Calculate new values on the quote alternative. Called after quote lines are added.
+
+If not implemented, then defaults to SuperOffice connector calculations.
+
+Returns [`QuoteAlternativeWithLinesInfo`](../api/data-carriers/quotealternativewithlinesinfo.md) - updated quote lines and alternative.
 
 ### `POST /ValidateQuoteVersion`
- * `QuoteVersionContextInfo` QuoteContext - information about the quote with a version and all its alternatives.
- * `QuoteAction` action - what the user is requesting:  Validate(1), Send(2), PlaceOrder(3), UpdatePrice(4)
 
- Allows the connector to verify that the quote is in the correct state to perform the action.
- If the returned status is nok ok, then the action is blocked and an error dialog shown.
+* `QuoteVersionContextInfo` QuoteContext - information about the quote with a version and all its alternatives.
+* `QuoteAction` action - what the user is requesting:  Validate(1), Send(2), PlaceOrder(3), UpdatePrice(4)
+* `dictionary<string,string>` ConfigValues - dictionary containing the configuration settings for the connection.
+* `object` ConnectionInfo - object containing the connection id, and related ERP Sync connection info, if any.
 
- Returns `QuoteResponseInfo` - returns updated quote and status values. 
+Allows the connector to verify that the quote is in the correct state to perform the action.
+If the returned status is nok ok, then the action is blocked and an error dialog shown.
+
+Returns `QuoteResponseInfo` - returns updated quote and status values. 
 
 ### `POST /UpdateQuoteVersionPrices`
- * `QuoteVersionContextInfo` QuoteContext - information about the quote with a version and all its alternatives.
- * `string[]` WriteableFields - list of fields that connector is allowed to update.
 
- Update price on the all the quotelines for each alternative in the current quote version.
- If not implemented, then default implementation does nothing.
+* `QuoteVersionContextInfo` QuoteContext - information about the quote with a version and all its alternatives.
+* `string[]` WriteableFields - list of fields that connector is allowed to update.
+* `dictionary<string,string>` ConfigValues - dictionary containing the configuration settings for the connection.
+* `object` ConnectionInfo - object containing the connection id, and related ERP Sync connection info, if any.
 
- Returns `QuoteVersionResponseInfo` - updated quote information.
+Update price on the all the quotelines for each alternative in the current quote version.
+If not implemented, then default implementation does nothing.
+
+Returns `QuoteVersionResponseInfo` - updated quote information.
 
 ## Ordering
 
 ### `POST /PlaceOrder`
- * `QuoteAlternativeContextInfo` Context - information about the quote alternative.
 
- Turn the quote into an order.
- Called when the user clicks the PLACE ORDER button.
- Requires the `iorderconsumer_place_order` capability.
+* `QuoteAlternativeContextInfo` Context - information about the quote alternative.
+* `dictionary<string,string>` ConfigValues - dictionary containing the configuration settings for the connection.
+* `object` ConnectionInfo - object containing the connection id, and related ERP Sync connection info, if any.
+
+Turn the quote into an order.
+Called when the user clicks the PLACE ORDER button.
+Requires the `iorderconsumer_place_order` capability.
 
 Returns `PlaceOrderResponseInfo` - if the order placement went ok. 
  
 ### `POST /GetOrderState`
- * `QuoteAlternativeContextInfo` Context - information about the quote alternative.
 
- How is the order we placed doing?
- Displays result in UI.
- Requires `iorderconsumer_provide_orderstate` capability.
+* `QuoteAlternativeContextInfo` Context - information about the quote alternative.
 
-Returns `OrderResponseInfo` - ok or error status.
+How is the order we placed doing?
+Displays result in UI.
+Requires `iorderconsumer_provide_orderstate` capability.
 
-
-# Quote Connector re-authentication
-
-If the quote service responds with **401 Unauthorized** or **403 Forbidden**, then the REST quote plugin in the fileset will try to generate a fresh JWT
-and then retry the call to the service.
-The client will retry once with a fresh JWT.
-
+Returns [`OrderResponseInfo`](../api/data-carriers/orderresponseinfo.md) - ok or error status.
 
