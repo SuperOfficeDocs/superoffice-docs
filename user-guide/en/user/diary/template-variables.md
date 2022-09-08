@@ -547,6 +547,7 @@ qaf1 | Extra field 1. |
 | qpon | Quote PO Number. |
 | qptk | Version payment type key (ID). |
 | qptv | Version payment type (Display text). |
+| quid | Quote ID |
 | qver | Version rank. |
 | qvf1 | Version extra field 1. |
 | qvf2 | Version extra field 2. |
