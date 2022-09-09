@@ -163,6 +163,24 @@ Use the links below to learn how to check and change UPNs in various environment
 
 </details>
 
+[!Tip]
+> Work-around
+>
+> A work-around can be to use the full onmicrosoft user name:
+>
+> *Example*
+>
+> If you have e-mailadresse and login to o365: support@company.com
+>
+> - write user name in the Service mailbox dialog: support@company.mail.onmicrosoft.com
+ 
+[!Tip]
+> Work-around
+>
+> If the browser caches an existing valid athentication-cookie - this can result in a direct redirect back to Service without the needed user interaction to get the needed details back.
+> 
+> Clear the cockies or use an incognito-session in the browser.
+     
 ### MX Record pointing to the Microsoft® Exchange Online server
 
 Ensure that the MX record points to the Microsoft address.
@@ -177,6 +195,25 @@ To see this, follow the steps below.
 4. Enter your domain
 If the MX does not point to Microsoft, then this is the cause of the problem, and your IT administrator needs to resolve this DNS issue.
 
+[!Tip]
+> Work-around
+>
+> A Work-around when their MX record is not pointing to Microsoft
+>
+> You may avoid to change the existing MXs, by just add a new temporary fake MX with a lower priority number, to outlook.microsoft.com:
+>
+> *MX, pref=5, outlook.microsoft.com*
+     
+[!Tip]
+>
+> Work-around for tech-wiz
+>
+> Url-trick
+>
+> To manually create a url matching what supposed to be created (the url which sends the customer to MS (during the authenticatin process)),
+>
+> by catching the redirect in the browsers network tab - and manually run it in the browser
+     
 ### Duplicate serial number
 
 When the following error is observed when configuring OAuth:
