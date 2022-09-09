@@ -14,9 +14,9 @@ items:
         href: cloud/sharepoint-documents/requirements.md
       - name: About permissions
         href: cloud/sharepoint-documents/permissions-in-sharepoint.md
-      - name: Set up
+      - name: SharePoint site and folders set up
         href: cloud/sharepoint-documents/set-up.md
-      - name: How to configure templates
+      - name: SuperOffice Admin configuration
         href: cloud/sharepoint-documents/configure-templates.md
       - name: How to configure permissions
         href: cloud/sharepoint-documents/configure-permissions-with-aad-groups.md
