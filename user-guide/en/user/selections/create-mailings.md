@@ -19,11 +19,11 @@ You can send a mailing to all contacts in a selection. The mailing can be an e-m
 
 3. Click one of the following options:
 
-    * **Create e-mail mailing**: Select this options to send e-mails to all or parts of your customer base. See [Step 1: Setup - Email][1].
+    * **Create e-mail mailing**: Select this options to [send e-mails to all or parts of your customer base][1].
 
-    * **Create SMS mailing**: Select this option to send SMS messages to all or parts of your customer base by mobile phone. See [Step 1: Setup - SMS][2].
+    * **Create SMS mailing**: Select this option to [send SMS messages][2] to all or parts of your customer base by mobile phone.
 
-    * **Create document mailing**: Select this options to create merged documents (PDFs) to print and send by regular mail to all or parts of your customer base. See [Step 1: Setup - Document][3].
+    * **Create document mailing**: Select this options to [create merged documents][3] (PDFs) to print and send by regular mail to all or parts of your customer base.
 
     > [!TIP]
     > These options are also available from the **Marketing** button in the navigator.
@@ -31,8 +31,8 @@ You can send a mailing to all contacts in a selection. The mailing can be an e-m
 In SuperOffice CRM, the mailing will be added to the **Mailings** section tab in the **Selection** screen. This will help you keep track of all mailings related to each selection.
 
 <!-- Referenced links -->
-[1]: ../marketing/step-1-setup-email.md
-[2]: ../marketing/step-1-setup-sms.md
-[3]: ../marketing/step-1-setup-document.md
+[1]: ../../marketing/mailing/create/tutorial-email-mailing.yml
+[2]: ../../marketing/mailing/create/tutorial-sms-mailing.yml
+[3]: ../../marketing/mailing/create/tutorial-document-mailing.yml
 
 <!-- Referenced images -->

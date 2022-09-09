@@ -19,6 +19,8 @@ items:
     href: email/toc.yml
   - name: Faq
     href: faq/toc.yml
+  - name: Marketing
+    href: marketing/toc.yml
   - name: Reports
     href: reports/toc.yml
   - name: Import web

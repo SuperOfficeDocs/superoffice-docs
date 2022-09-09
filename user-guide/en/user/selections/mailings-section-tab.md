@@ -17,11 +17,11 @@ The purpose of the latter is to keep track of all mailings related to a selectio
 
 Double-click a mailing to open it.
 
-**Create a mailing**: Click here to create a new mailing to the contacts in this selection. See [Step 1: Setup][1].
+**Create a mailing**: Click here to [create a new mailing][1] to the contacts in this selection. See [Step 1: Setup][1].
 
 **Export**: Click here to export the list to a spreadsheet.
 
 <!-- Referenced links -->
-[1]: ../marketing/step-1-setup-email.md
+[1]: ../../marketing/mailing/create/index.md
 
 <!-- Referenced images -->
