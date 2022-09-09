@@ -220,12 +220,12 @@ When the following error is observed when configuring OAuth:
 
 ```txt
 Error
-Sorry, tere was an error : invalid_request
+Sorry, there was an error : invalid_request
 Invalid client_id
 Request Id: 0...:0000000001
 ```
 
-The typical scenario is that you have a seperate test-environment on the same serial as your production-environment.
+The typical scenario is that you have a separate test-environment on the same serial as your production-environment.
 
 There is no support for 2 duplicate onsite-environments run OAuth 2.0 at the same time: this is due to a security mechanism only allowing one registration per serialnumber (This is by design). If you want to use this feature on 2 tenants - you need 2 unique serial numbers.
 
