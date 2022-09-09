@@ -191,7 +191,7 @@ The Hybrid flow offers more flexibility with this token flow, but it’s **less 
 <!-- Referenced links -->
 [1]: https://dev.superoffice.com
 [2]: ./auth-application/index.md
-[3]: https://community.superoffice.com/register-as-developer
+[3]: ../../../apps/getting-started/developer-registration-form.md
 [4]: https://jwt.io/
 [5]: ../../../apps/provisioning/get-consent.md
 [6]: troubleshooting/iframe-idp-auth.md
