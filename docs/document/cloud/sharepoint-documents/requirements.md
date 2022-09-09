@@ -33,11 +33,11 @@ so.client: online
   * AAD Authentication of users (see [IDP authentication][2] for more info).
 
 > [!NOTE]
-> Support Word, Excel, PowerPoint documents, PDF and some image-formats.
+> Support Word, Excel, PowerPoint documents, PDF and some image formats.
 >
-> Support for arching emails to SharePoint and opening archived emails from SharePoint.
+> Support for archiving emails to SharePoint and opening archived emails from SharePoint.
 >
-> No support for migrating existing documents in SuperOffice archive (SO cloud) to SharePoint. If this is a requirement, you must wait for a later version.
+> Support for migrating existing documents in SuperOffice archive (SO cloud) to SharePoint. Pilot program from SuperOffice Online 10.1.5.
 >
 > No support for migrating existing CloudOffice customers (version 1) to 'SharePoint documents 2.0'. Must wait for later version.
 >
