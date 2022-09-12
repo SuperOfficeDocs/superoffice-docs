@@ -32,6 +32,6 @@ The **Company** screen contains the following section tabs:
 [4]: company-projects.md
 [5]: company-sales.md
 [6]: company-requests.md
-[7]: ../../../user/erp/erp-main.md
+[7]: ../../../erp/index.md
 
 <!-- Referenced images -->

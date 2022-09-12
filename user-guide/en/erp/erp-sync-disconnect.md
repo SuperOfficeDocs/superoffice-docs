@@ -13,13 +13,8 @@ language: en
 
 [!include[Requirement](../includes/req-integration-server.md)]
 
-[!include[To do this](../../includes/to-do-this.md)]
-
 1. Go to the **Company** screen, **Contact** screen or **Project** screen, and select the **ERP** tab.
-
-<!-- -->
-
 1. Click **Edit**.
-2. Click **Disconnect**. The **Disconnect** dialog appears.
-3. Click **Disconnect**.
-4. Click **Save**. The data will no longer be synchronised.
+1. Click **Disconnect**. The **Disconnect** dialog appears.
+1. Click **Disconnect**.
+1. Click **Save**. The data will no longer be synchronised.

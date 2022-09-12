@@ -1,6 +1,8 @@
 items:
   - name: Welcome
     href: index.md
+  - name: Standard CRM
+    href: standard-crm.md
   - name: Company
     href: company/toc.yml
   - name: Contact
@@ -19,6 +21,8 @@ items:
     href: dashboard/toc.yml
   - name: Email
     href: email/toc.yml
+  - name: ERP
+    href: erp/toc.yml
   - name: Faq
     href: faq/toc.yml
   - name: Marketing
@@ -45,3 +49,5 @@ items:
     href: copyright.md
   - name: Using the help
     href: about.md
+  - name: Translation
+    href: translate-fields.md

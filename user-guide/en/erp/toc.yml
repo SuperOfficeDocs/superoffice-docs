@@ -1,10 +1,10 @@
 items:
+- name: Overview
+  href: index.md
 - name: ERP connect
   href: erp-connect.md
 - name: ERP create new actor
   href: erp-create-new-actor.md
-- name: ERP main
-  href: erp-main.md
 - name: ERP sync disconnect
   href: erp-sync-disconnect.md
 - name: ERP tab (contact)

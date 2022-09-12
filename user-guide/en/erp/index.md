@@ -24,8 +24,8 @@ On the main **Company**, **Contact** and **Project** cards, the **ERP** tab is d
 * [Disable synchronisation][3]
 
 <!-- Referenced links -->
-[1]: ERP-connect.md
-[2]: ERP-create-new-actor.md
-[3]: ERP-sync-disconnect.md
+[1]: erp-connect.md
+[2]: erp-create-new-actor.md
+[3]: erp-sync-disconnect.md
 
 <!-- Referenced images -->

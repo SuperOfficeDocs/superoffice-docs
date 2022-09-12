@@ -18,8 +18,6 @@ If you want to connect, for example, a SuperOffice company to a customer in the 
 > [!NOTE]
 > The **Create** button is disabled if SuperOffice is not allowed to create actors in the ERP system.
 
-[!include[To do this](../../includes/to-do-this.md)]
-
 1. Open the **Connect to ERP** dialog as described in [Connect to ERP][1].
 2. Select **Can't find match in ERP** at the bottom of the **Connect to ERP** dialog, and click **Create**. The **Create in ERP** dialog appears.
 3. Enter the values as required.
@@ -27,6 +25,6 @@ If you want to connect, for example, a SuperOffice company to a customer in the 
 5. Click **Save**.
 
 <!-- Referenced links -->
-[1]: ERP-connect.md
+[1]: erp-connect.md
 
 <!-- Referenced images -->

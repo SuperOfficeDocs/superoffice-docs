@@ -53,7 +53,7 @@ To create a new purpose:
 * [Privacy - Source][3]
 
 <!-- Referenced links -->
-[1]: ../../user/translate-fields.md
+[1]: ../../translate-fields.md
 [2]: index.md#legal-basis
 [3]: index.md#source
 
