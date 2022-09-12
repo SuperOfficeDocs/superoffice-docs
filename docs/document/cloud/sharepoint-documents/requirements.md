@@ -20,7 +20,8 @@ so.client: online
 * Microsoft 365 for business subscription
   * If you don't have a Microsoft 365 subscription, you have to sign up for one at Microsoft
 
-* A SharePoint document library (for storing documents)
+* A SharePoint document library for storing documents
+* A SharePoint document library for storing templates
 
 * If you want to enable group access on SharePoint documents based on "Visible for" settings in SuperOffice
   * Need access to 'Global Admin' rights in O365 (to be able to authenticate SuperOffice as a trusted app in your MS 365 solution)
@@ -39,7 +40,7 @@ so.client: online
 >
 > Support for migrating existing documents in SuperOffice archive (SO cloud) to SharePoint. Pilot program from SuperOffice Online 10.1.5.
 >
-> No support for migrating existing CloudOffice customers (version 1) to 'SharePoint documents 2.0'. Must wait for later version.
+> Support for migrating existing CloudOffice customers (version 1) to 'SharePoint documents 2.0'. Pilot program from SuperOffice Online 10.1.5.
 >
 > No support for moving a documents to other SharePoint "sites", only within the same site.
 

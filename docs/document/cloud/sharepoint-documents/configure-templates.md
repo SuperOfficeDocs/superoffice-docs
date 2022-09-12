@@ -114,7 +114,7 @@ See the [reference of permissions in SharePoint​][1] for more information.
 ​    ![Review and confirm -screenshot][img8]
 
 > [!CAUTION]
-> When you have confirmed, **you will not be able to change the Site in Sharepoint and Document Library settings**. Specifically:​
+> When you have confirmed, **you will not be able to change the Site in SharePoint and Document Library settings**. Specifically:​
 >
 >* SuperOffice documents​
 >   * Site in SharePoint​

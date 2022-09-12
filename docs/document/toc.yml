@@ -12,8 +12,10 @@ items:
       items:
       - name: Requirements
         href: cloud/sharepoint-documents/requirements.md
-      - name: About permissions
+      - name: SharePoint permissions
         href: cloud/sharepoint-documents/permissions-in-sharepoint.md
+      - name: SuperOffice app permissions
+        href: cloud/sharepoint-documents/permissions-app.md        
       - name: SharePoint site and folders set up
         href: cloud/sharepoint-documents/set-up.md
       - name: SuperOffice Admin configuration
