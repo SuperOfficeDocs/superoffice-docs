@@ -107,7 +107,7 @@ You can choose from the following views. Click the views for more information.
 [4]: ../diary/diary.md
 [5]: ../diary/document-dialog.md
 [6]: ../diary/dialog-for-followups.md
-[7]: ../selections/creating-dynamic-selections.md
+[7]: ../../search-options/selections/create/create-dynamic.yml
 [8]: favourites.md
 [9]: notepad.md
 

@@ -31,6 +31,8 @@ items:
     href: admin/toc.yml
   - name: Licenses
     href: license/toc.yml
+  - name: Search options
+    href: search-options/toc.yml
   - name: User management
     href: user-management/toc.yml
   - name: win-client

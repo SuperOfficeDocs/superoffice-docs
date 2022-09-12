@@ -38,7 +38,7 @@ When you click one of these buttons, you get access to various options, such as 
 
 <!-- Referenced links -->
 [1]: ../customers/index.md
-[2]: ../selections/index.md
+[2]: ../../../search-options/selections/in-service/index.md
 [3]: ../statistics/index.md
 [4]: ../request/index.md
 [5]: ../knowledge-base/index.md

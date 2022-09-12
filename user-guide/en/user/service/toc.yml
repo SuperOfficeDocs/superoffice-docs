@@ -378,35 +378,6 @@ items:
     href: search/use-shortcut-search.md
   - name: Rms search useQuickSearch
     href: search/usequicksearch.md
-- name: Selections
-  href: selections/index.md
-  items:
-  - name: New selection
-    href: selections/newselection.md
-  - name: Selections deleterecords
-    href: selections/deleterecords.md
-  - name: Selections deleteSelection
-    href: selections/deleteselection.md
-  - name: Selections editSelection2
-    href: selections/editselection2.md
-  - name: Selections editSelection2 editProfile
-    href: selections/editselection2.editprofile.md
-  - name: Selections editSelectionFolder
-    href: selections/editselectionfolder.md
-  - name: Selections listSelections
-    href: selections/listselections.md
-  - name: Selections newSelection newCombiSelection
-    href: selections/newselection.newcombiselection.md
-  - name: Selections newSelection newDynamicSelection
-    href: selections/newselection.newdynamicselection.md
-  - name: Selections newSelection newScriptSelection
-    href: selections/newselection.newscriptselection.md
-  - name: Selections newSelection newSelection
-    href: selections/newselection.newselection.md
-  - name: Selections newSelection newStatSelection
-    href: selections/newselection.newstatselection.md
-  - name: Selections updateSelection
-    href: selections/updateselection.md
 - name: Statistics
   href: statistics/index.md
   items:

@@ -50,7 +50,7 @@ Access to other useful functions is also just a click away thanks to the **New**
 [11]: ../../sale/index.md
 [12]: ../../sale/quote/index.md
 [13]: ../../project/index.md
-[14]: ../selections/index.md
+[14]: ../../search-options/selections/index.md
 [15]: ../../email/index.md
 [16]: ../../chat/index.md
 [17]: ../../reports/index.md

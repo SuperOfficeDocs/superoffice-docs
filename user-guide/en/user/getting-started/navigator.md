@@ -50,7 +50,7 @@ The navigator contains the following buttons:
 [4]: ../diary/index.md
 [5]: ../../sale/index.md
 [6]: ../../project/index.md
-[7]: ../selections/index.md
+[7]: ../../search-options/selections/index.md
 [8]: ../../email/inbox/index.md
 [9]: ../../chat/index.md
 [10]: ../../reports/index.md

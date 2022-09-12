@@ -15,12 +15,12 @@ This screen is used to edit the properties of a new or existing table folder. Ta
 
 ## Create folders
 
-[!include[How to create a selection folder](../../includes/selection-create-folder.md)]
+[!include[How to create a selection folder](../../../includes/selection-create-folder.md)]
 
 ## Edit folders
 
-[!include[How to edit a selection folder](../../includes/selection-edit-folder.md)]
+[!include[How to edit a selection folder](../../../includes/selection-edit-folder.md)]
 
 ## Delete folders
 
-[!include[How to delete a selection folder](../../includes/selection-delete-folder.md)]
+[!include[How to delete a selection folder](../../../includes/selection-delete-folder.md)]

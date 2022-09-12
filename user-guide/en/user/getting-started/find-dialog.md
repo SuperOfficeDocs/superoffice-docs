@@ -315,9 +315,9 @@ Imagine that you are a marketing department manager and you want to brainstorm a
 [4]: navigating-in-mini-card.md
 [5]: freetext-search.md
 [6]: using-history-list.md
-[7]: ../selections/performing-tasks-using-selections.md
-[8]: ../selections/create-selections.md
-[9]: ../selections/adding-members-to-static-selections.md
+[7]: ../../search-options/selections/howto/index.md
+[8]: ../../search-options/selections/create/index.md
+[9]: ../../search-options/selections/update/add-members-to-static.md
 
 <!-- Referenced images -->
 [img1]: ../../../media/icons/dialogboksknapper-pil-ned.bmp

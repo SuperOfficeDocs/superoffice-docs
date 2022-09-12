@@ -52,7 +52,7 @@ To add tiles to a dashboard:
 
 <!-- Referenced links -->
 [1]: dashboard-tiles-edit.md
-[2]: ../user/selections/display-selections-as-charts.md
+[2]: ../search-options/selections/howto/display-as-charts.md
 [3]: dashboard-tiles-delete.md
 
 <!-- Referenced images -->

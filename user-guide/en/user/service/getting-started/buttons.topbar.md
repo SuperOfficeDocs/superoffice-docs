@@ -16,7 +16,7 @@ Wherever you are in the system, these options will appear in the Top bar at the 
 | Button | Description |
 |:-:|-------------|
 | ![icon][img5] | **New**: Click this button to quickly create new requests, contacts, companies, selections, FAQ entries and mailings. |
-| ![icon][img2]![icon][] | **Notification**: Click here to open a list of new notifications in SuperOffice Service. Click an item in the list to open the relevant record. |
+| ![icon][img2]![icon][img3] | **Notification**: Click here to open a list of new notifications in SuperOffice Service. Click an item in the list to open the relevant record. |
 | ![icon][img1] | **Personal settings**: Click here to edit your personal settings. If you added an image in your own person card, this image will appear on the **Personal settings** button. See [Personal settings][1]. **Language**: Click here to switch language. **Customer centre**: Click here to access the customer centre. **Log out**: Click here to log out of SuperOffice Service. |
 | ![icon][img6] | **System settings** (maintenance): Click here to access the system settings. This menu requires administration rights. See [Settings][2]. |
 | **Help** | **Help**: Clicking this button gives you access to a variety of support options, such as this help system, technical support, feedback features, the SuperOffice Community and our resource centre. The help system contains comprehensive and easily accessible information on how to use the system. Wherever you are in the program, no matter what you are doing, you can always get help about the precise task you are involved in. You can also press **F1** to open the help topic for the current screen. |

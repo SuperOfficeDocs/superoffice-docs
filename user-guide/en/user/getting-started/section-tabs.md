@@ -60,7 +60,7 @@ To change the default number of records, do as follows:
 [11]: ../diary/section-tabs-in-diary-screen.md
 [12]: ../../clients/sales/sale/sale-screen-section-tabs.md
 [13]: ../../clients/sales/project/project-screen-section-tabs.md
-[14]: ../selections/section-tabs-in-selection-screen.md
+[14]: ../../clients/sales/selections/section-tabs-in-selection-screen.md
 
 <!-- Referenced images -->
 [img1]: ../../../media/icons/btn-columnheaderoptions.png
