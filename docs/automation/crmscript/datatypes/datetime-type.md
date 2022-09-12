@@ -290,6 +290,16 @@ Time t = dt.getTime();
 print(t.toString());
 ```
 
+### Date getDate()
+
+`getDate()` returns the date part of the DateTime
+
+```crmscript!
+DateTime dt;
+Date d = dt.getDate();
+print(d.toString());
+```
+
 ## Comparing timestamps
 
 ### Integer diff(DateTime otherDateTime)
