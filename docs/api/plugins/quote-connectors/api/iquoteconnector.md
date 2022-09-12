@@ -24,7 +24,7 @@ The user may click the TEST button in the configuration dialog, which calls the 
 ## int CRMConnectionId
 
 The id of this connection in the CRM system
-
+<!-- markdownlint-disable MD051 -->
 ## Dictionary&lt;string, FieldMetadataInfo> GetConfigurationFields()
 
 This is a request for metadata needed to populate the Quote connection configuration admin dialog that takes in the information needed to create a connection to an ERP system.
@@ -417,3 +417,5 @@ The addresses are used in the generated quote document.
 * context: the quote alternative being sent or placed as an order
 
 Returns: Returns null if no address was found.
+
+<!-- markdownlint-restore -->
