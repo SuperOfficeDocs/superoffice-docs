@@ -57,13 +57,13 @@ The second column contains icons that indicate the type of activity, for example
 * [Filter activities][7]
 
 <!-- Referenced links -->
-[1]: ../../../user/diary/index.md
-[2]: ../../../user/diary/marking-activities-as-completed-not-completed.md
+[1]: ../../../diary/index.md
+[2]: ../../../diary/marking-activities-as-completed-not-completed.md
 [3]: ../../../company/view-activities.md
 [4]: ../../../company/delete-activities-contact.md
 [5]: ../../../company/replying-to-email-from-activities-section-tab.md
 [6]: ../../../company/forwarding-email-from-activities-section-tab.md
-[7]: ../../../user/diary/using-filter-function-contact.md
+[7]: ../../../diary/using-filter-function-contact.md
 
 <!-- Referenced images -->
 [img1]: media/project-activities.bmp

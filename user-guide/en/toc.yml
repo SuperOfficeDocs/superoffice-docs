@@ -5,6 +5,8 @@ items:
     href: company/toc.yml
   - name: Contact
     href: person/toc.yml
+  - name: Diary
+    href: diary/toc.yml
   - name: Sale
     href: sale/toc.yml
   - name: Project

@@ -47,7 +47,7 @@ Click the **Personal settings** button in the Top bar to access the following op
 <!-- Referenced links -->
 [1]: preferences.md
 [2]: restore-deleted-companies-and-contacts.md
-[3]: ../diary/template-variables.md#variables-for-a-selected-contact
+[3]: ../../diary/template-variables.md#variables-for-a-selected-contact
 
 <!-- Referenced images -->
 [img1]: ../../../media/icons/globalmenu-personalsettings.png

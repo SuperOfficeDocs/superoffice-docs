@@ -103,10 +103,10 @@ You can choose from the following views. Click the views for more information.
 <!-- Referenced links -->
 [1]: using-history-list.md
 [2]: ../../person/create.md
-[3]: ../diary/day-tab.md
-[4]: ../diary/diary.md
-[5]: ../diary/document-dialog.md
-[6]: ../diary/dialog-for-followups.md
+[3]: ../../diary/day-tab.md
+[4]: ../../diary/diary.md
+[5]: ../../diary/document-dialog.md
+[6]: ../../diary/dialog-for-followups.md
 [7]: ../../search-options/selections/create/create-dynamic.yml
 [8]: favourites.md
 [9]: notepad.md

@@ -29,7 +29,7 @@ Wherever you are in the system, these options will appear at the top of the scre
 [1]: options-in-personal-settings-menu.md
 [2]: options-in-main-menu.md
 [3]: freetext-search.md
-[4]: ../diary/receiving-invitations.md
+[4]: ../../diary/receiving-invitations.md
 [5]: find-dialog.md
 
 <!-- Referenced images -->

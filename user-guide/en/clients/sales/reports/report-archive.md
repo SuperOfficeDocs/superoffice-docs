@@ -23,7 +23,7 @@ The report archive (the **Documents** section tab) appears at the bottom of the 
 * [Delete reports from the report archive (the Documents section tab)][8]
 
 <!-- Referenced links -->
-[3]: ../../../user/diary/index.md
+[3]: ../../../diary/index.md
 [6]: ../../../reports/open-from-archive.md
 [7]: ../../../reports/using-filter-function-reports.md
 [8]: ../../../reports/delete-from-archive.md

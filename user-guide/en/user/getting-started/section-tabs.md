@@ -54,10 +54,10 @@ To change the default number of records, do as follows:
 [5]: adjusting-column-widths.md
 [6]: changing-column-view.md
 [7]: export-archives.md
-[8]: ../diary/using-filter-function-contact.md
+[8]: ../../diary/using-filter-function-contact.md
 [9]: ../../clients/sales/company/section-tabs-in-company-screen.md
 [10]: ../../clients/sales/contact/section-tabs-in-contact-screen.md
-[11]: ../diary/section-tabs-in-diary-screen.md
+[11]: ../../diary/section-tabs-in-diary-screen.md
 [12]: ../../clients/sales/sale/sale-screen-section-tabs.md
 [13]: ../../clients/sales/project/project-screen-section-tabs.md
 [14]: ../../clients/sales/selections/section-tabs-in-selection-screen.md

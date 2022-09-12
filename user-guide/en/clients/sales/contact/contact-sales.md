@@ -29,7 +29,7 @@ If you check **Include stakeholders** at the bottom of the section tab, sales wh
 <!-- Referenced links -->
 [1]: ../../../sale/index.md
 [2]: ../../../sale/stakeholders/index.md
-[3]: ../../../user/diary/using-filter-function-contact.md
+[3]: ../../../diary/using-filter-function-contact.md
 [4]: ../../../user/getting-started/changing-column-view.md
 
 <!-- Referenced images -->
