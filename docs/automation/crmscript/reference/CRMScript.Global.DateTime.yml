@@ -542,7 +542,7 @@ items:
   type: Method
   summary: "\nReturns the date part of the DateTime\n"
   example:
-  - "\n<pre><code>DateTime dt;\Date d = dt.getDate();\nprint(d.toString());</code></pre>\n"
+  - "\n<pre><code>DateTime dt;\nDate d = dt.getDate();\nprint(d.toString());</code></pre>\n"
   syntax:
     content: Date getDate()
     parameters: []
