@@ -38,6 +38,6 @@ To create a new request status:
 1. If required, adjust the position of the status using the arrow buttons below the list of statuses. The rank here specifies the order in the **Status** list box when creating a new request. Place the most frequently used statuses at the top.
 
 <!-- Referenced links -->
-[1]: ../../../user/service/request/get-next-request-in-queue.md
+[1]: ../../../request/get-next-request-in-queue.md
 
 <!-- Referenced images -->

@@ -26,6 +26,6 @@ The knowledge base gives request handlers access to saved data in a single locat
 [3]: externalDocument.md
 [4]: emailAddressBook.md
 [5]: ../../../faq/index.md
-[6]: ../reply-templates/index.md
+[6]: ../../../request/reply-templates/index.md
 
 <!-- Referenced images -->

@@ -45,7 +45,7 @@ Click the ![icon][img1] **Actions** button to access the following options:
 
 <!-- Referenced links -->
 [1]: findContacts.showResultsContacts.md
-[2]: ../request/listTicket.md
+[2]: ../../../request/listTicket.md
 [3]: viewCustomer.md
 [4]: newCompany.md
 [5]: viewCompany.editCompany.md

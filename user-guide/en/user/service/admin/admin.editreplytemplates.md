@@ -74,7 +74,7 @@ In the **Weekly stats** tab, you have the following options:
 [!include[How to change template](../../../includes/select-other-template.md)]
 
 <!-- Referenced links -->
-[1]: ../reply-templates/index.md
+[1]: ../../../request/reply-templates/index.md
 [2]: editInfo.settings.md
 [3]: ../../../email/service/mailboxes/index.md
 

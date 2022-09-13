@@ -86,11 +86,11 @@ Lists requests that no-one has been assigned responsibility for. If you want to 
 
 <!-- Referenced links -->
 [1]: create.md
-[2]: ../../user/service/request/showlisttickets.acceptrequest.md
-[3]: ../../user/service/request/receivetickets.md
-[4]: ../../user/service/request/newticket.md
-[5]: ../../user/service/request/listtickets.md
-[6]: ../../user/service/request/listticket.md
+[2]: ../../request/showlisttickets.acceptrequest.md
+[3]: ../../request/receivetickets.md
+[4]: ../../request/newticket.md
+[5]: ../../request/listtickets.md
+[6]: ../../request/listticket.md
 
 <!-- Referenced images -->
 [img1]: ../../../media/icons/globalmenu-settings-small.png

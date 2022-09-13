@@ -39,7 +39,7 @@ To create a new category:
 
 5. In the **Reply template** tab, select the reply template to use in messages sent to customers and others, for requests belonging to this category. This can be a reply template specifically created for this category, to give all replies from a category (such as support or accounting) a uniform appearance. For more on reply templates, see [Work with reply templates][4].
     <!-- Fix reuse ID=a2 -->
-    [!include[Reply templates with different layout](../../includes/custom-replytemplate.md)]
+    [!include[Reply templates with different layout](../../../request/reply-templates/includes/custom-replytemplate.md)]
 
     > [!TIP]
     > Check **Apply to subcategories** if you want the selected reply template to also be used for any subcategories. This assumes however that the template is not overridden by settings made in the subcategories.
@@ -71,8 +71,8 @@ To create a new category:
 [1]: ../../../dashboard/service/index.md#hyperlinks-to-categories
 [2]: editUser.helpSettings.md
 [3]: ../../../user-management/user-groups.md
-[4]: ../reply-templates/index.md
-[5]: ../request/get-next-request-in-queue.md
+[4]: ../../../request/reply-templates/index.md
+[5]: ../../../request/get-next-request-in-queue.md
 [6]: listCategories.searchTickets.md
 
 <!-- Referenced images -->

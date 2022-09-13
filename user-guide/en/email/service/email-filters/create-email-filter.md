@@ -65,8 +65,8 @@ To create a new email filter:
 
 <!-- Referenced links -->
 [1]: ../../../automation/index.md
-[2]: ../../../user/service/reply-templates/index.md
-[3]: ../../../user/service/reply-templates/autofaq.md
+[2]: ../../../request/reply-templates/index.md
+[3]: ../../../request/reply-templates/autofaq.md
 
 <!-- Referenced images -->
 [img1]: ../../../../media/icons/admin/btn-delete-admin.png

@@ -43,8 +43,8 @@ Click **OK**. The selection is saved, and you are returned to the **List selecti
 * [Edit a selection][6]
 
 <!-- Referenced links -->
-[1]: ../../../user/service/request/listtickets.findtickets.md
-[2]: ../../../user/service/request/listtickets.uselists.md
+[1]: ../../../request/listtickets.findtickets.md
+[2]: ../../../request/listtickets.uselists.md
 [3]: ../../in-service/index.md
 [4]: updateSelection.md
 [5]: listSelections.md

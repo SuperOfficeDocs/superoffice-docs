@@ -28,7 +28,7 @@ To create a new request status:
 10. If required, adjust the position of the status using the arrow buttons ( ![icon][img2] and ![icon][img3] ) in the **Rank** column in the **Request status** screen. The rank here specifies the order in the **Status** list box when creating a new request.
 
 <!-- Referenced links -->
-[1]: ../request/get-next-request-in-queue.md
+[1]: ../../../request/get-next-request-in-queue.md
 
 <!-- Referenced images -->
 [img1]: ../../../../media/icons/globalmenu-settings-small.png

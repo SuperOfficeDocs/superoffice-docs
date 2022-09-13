@@ -31,7 +31,7 @@ In SuperOffice Service you can also log in as the same user in several browsers 
 * [Navigate in SuperOffice Service][2]
 
 <!-- Referenced links -->
-[1]: request/index.md
+[1]: ../../request/index.md
 [2]: getting-started/index.md
 
 <!-- Referenced images -->

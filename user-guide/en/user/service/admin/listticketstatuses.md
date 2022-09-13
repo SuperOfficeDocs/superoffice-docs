@@ -33,7 +33,7 @@ The **Request status** screen displays all existing statuses in the system. The 
 
 <!-- Referenced links -->
 [1]: listTicketStatuses.newTicketStatus.md
-[2]: ../request/get-next-request-in-queue.md
+[2]: ../../../request/get-next-request-in-queue.md
 [3]: listTicketStatuses.deleteTicketStatus.md
 
 <!-- Referenced images -->

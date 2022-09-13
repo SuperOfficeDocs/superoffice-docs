@@ -30,7 +30,7 @@ To view invoice information that has been registered for a specific contact , do
 4. Click **Return to contact** to go back to the **Contact** screen.
 
 <!-- Referenced links -->
-[1]: ../request/newticket.md#invoice-information
+[1]: ../../../request/newticket.md#invoice-information
 [2]: ../topics/../admin/listInvoiceTypes.md
 [3]: viewCustomer.md
 

@@ -49,8 +49,8 @@ Click the ![icon][img1] **Actions** button to access the following options:
 [1]: findCustomers.showResults.md
 [2]: newCustomer.md
 [3]: viewCustomer.editCustomer.md
-[4]: ../request/newTicket.md
-[5]: ../request/newQuickTicket.md
+[4]: ../../../request/newTicket.md
+[5]: ../../../request/newQuickTicket.md
 [6]: viewCustomer.sendNewCustMail.md
 [7]: viewCustomer.listInvoices.md
 [8]: viewCustomer.deleteCustomer.md

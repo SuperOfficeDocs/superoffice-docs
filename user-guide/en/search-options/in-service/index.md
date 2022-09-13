@@ -124,8 +124,8 @@ To return to the ordinary view, click the **Simple view** button at the top of t
 <!-- Referenced links -->
 [1]: useQuickSearch.md
 [2]: ../../user/service/getting-started/navigator-options.md
-[3]: ../../user/service/request/listTickets.findTickets.md
-[4]: ../../user/service/request/listTickets.useLists.md
+[3]: ../../request/listTickets.findTickets.md
+[4]: ../../request/listTickets.useLists.md
 [5]: ../selections/in-service/newselection.md
 [6]: ../selections/in-service/newselection.newselection.md
 [7]: searchResult.md#add-columns

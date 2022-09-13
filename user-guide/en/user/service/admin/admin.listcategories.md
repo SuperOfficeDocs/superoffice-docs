@@ -25,7 +25,7 @@ Users can be added as members in the categories individually or via the user gro
 Selecting ![icon][img1] **System settings** &gt; **Categories** takes you to a list of all the categories defined in the system. The categories are arranged in a tree structure.
 
 <!-- Fix reuse ID=a2 -->
-[!include[Reply templates with different layout](../../includes/custom-replytemplate.md)]
+[!include[Reply templates with different layout](../../../request/reply-templates/includes/custom-replytemplate.md)]
 
 ## What would you like to do now?
 
@@ -35,12 +35,12 @@ Selecting ![icon][img1] **System settings** &gt; **Categories** takes you to a l
 * [How to set up Get next request in queue][6]
 
 <!-- Referenced links -->
-[1]: ../request/tags.md
+[1]: ../../../request/tags.md
 [2]: ../../../user-management/user-groups.md
 [3]: listCategories.newCategory.md
 [4]: listCategories.deleteCategory.md
 [5]: listCategories.searchTickets.md
-[6]: ../request/get-next-request-in-queue.md
+[6]: ../../../request/get-next-request-in-queue.md
 
 <!-- Referenced images -->
 [img1]: ../../../../media/icons/globalmenu-settings-small.png

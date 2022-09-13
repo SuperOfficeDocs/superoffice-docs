@@ -30,7 +30,7 @@ Apart from this practical use, external documents are otherwise dealt with in th
 [Administrate folders of documents][7]
 
 <!-- Referenced links -->
-[1]: ../request/showListTickets.addMessage.md
+[1]: ../../../request/showListTickets.addMessage.md
 [2]: ../knowledge-base/viewDocument.md
 [3]: ../knowledge-base/newDocument.md
 [4]: ../knowledge-base/editDocument.md

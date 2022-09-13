@@ -40,7 +40,7 @@ When you click one of these buttons, you get access to various options, such as 
 [1]: ../customers/index.md
 [2]: ../../../search-options/selections/in-service/index.md
 [3]: ../../../dashboard/service/statistics/index.md
-[4]: ../request/index.md
+[4]: ../../../request/index.md
 [5]: ../knowledge-base/index.md
 [6]: navigator-options.md
 [7]: ../../../dashboard/service/index.md

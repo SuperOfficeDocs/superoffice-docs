@@ -32,6 +32,6 @@ To search for information in the knowledge base:
 [2]: externalDocument.md
 [3]: emailAddressBook.md
 [4]: ../../../faq/index.md
-[5]: ../reply-templates/index.md
+[5]: ../../../request/reply-templates/index.md
 
 <!-- Referenced images -->

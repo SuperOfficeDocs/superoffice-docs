@@ -31,7 +31,7 @@ To view invoice information that has been registered for a specific company, do 
 4. Click **Return to company** to go back to the **View company** screen.
 
 <!-- Referenced links -->
-[1]: ../request/newticket.md#invoice-information
+[1]: ../../../request/newticket.md#invoice-information
 [2]: ../topics/../admin/listInvoiceTypes.md
 [3]: viewCompany.md
 

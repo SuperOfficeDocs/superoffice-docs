@@ -32,8 +32,8 @@ Now you can quickly access the record by clicking ![icon][img3] in the Navigator
 [Add requests to the favourites list][2]
 
 <!-- Referenced links -->
-[1]: ../request/showListTickets.hotlist.md
-[2]: ../request/showListTickets.hotlist.md
+[1]: ../../../request/showListTickets.hotlist.md
+[2]: ../../../request/showListTickets.hotlist.md
 
 <!-- Referenced images -->
 [img1]: ../../../../media/icons/favorite-inactive.png

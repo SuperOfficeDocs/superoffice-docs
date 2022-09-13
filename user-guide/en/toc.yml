@@ -13,6 +13,8 @@ items:
     href: sale/toc.yml
   - name: Project
     href: project/toc.yml
+  - name: Request
+    href: request/toc.yml
   - name: AI
     href: ai/toc.yml
   - name: Automation
