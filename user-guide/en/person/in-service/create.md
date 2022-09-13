@@ -11,7 +11,7 @@ language: en
 
 # Create contacts
 
-Normally, contacts are registered by the system when they send in mails, but there may occasionally be a need to register a contact manually. This might be the case for instance if you are talking to a contact on the phone. [!include[To do this](../../../includes/to-do-this.md)]
+Normally, contacts are registered by the system when they send in mails, but there may occasionally be a need to register a contact manually. This might be the case for instance if you are talking to a contact on the phone.
 
 1. Select **Customers** &gt; **New contact**. This takes you to the **Contact properties** screen.
 
@@ -44,7 +44,7 @@ Normally, contacts are registered by the system when they send in mails, but the
     * In the **Business**field, select from a list of different predefined types of business. Click the arrow and choose the business that best matches the contact you are creating.
 
 13. In the **Company** field, you can specify which company the contact is linked to. To search for a company, start typing its name, and select the company from the list of results.
-    Click ![icon][img3] to create a new company. See [Create companies][1].
+    Click ![icon][img3] to [create a new company][1].
 
     > [!TIP]
     > You can also click **Automatic** to select a company automatically based on the domain in the e-mail address, i.e. what appears after "@". The domain must be registered on a company (see [Create companies][1]).
@@ -61,10 +61,10 @@ Normally, contacts are registered by the system when they send in mails, but the
 * [Create companies][1]
 
 <!-- Referenced links -->
-[1]: newCompany.md
-[2]: viewCustomer.editCustomer.md
+[1]: ../../company/in-service/create.md
+[2]: edit.md
 
 <!-- Referenced images -->
-[img1]: ../../../../media/icons/btn-add.png
-[img2]: ../../../../../common/icons/delete-red.png
-[img3]: ../../../../media/icons/service/btn-add-company.png
+[img1]: ../../../media/icons/btn-add.png
+[img2]: ../../../../common/icons/delete-red.png
+[img3]: ../../../media/icons/service/btn-add-company.png

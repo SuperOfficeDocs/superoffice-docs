@@ -37,7 +37,7 @@ When you click one of these buttons, you get access to various options, such as 
 * [Global buttons][10]
 
 <!-- Referenced links -->
-[1]: ../customers/index.md
+[1]: ../../../request/customers.md
 [2]: ../../../search-options/selections/in-service/index.md
 [3]: ../../../dashboard/service/statistics/index.md
 [4]: ../../../request/index.md

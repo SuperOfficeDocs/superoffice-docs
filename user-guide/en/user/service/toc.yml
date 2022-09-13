@@ -173,45 +173,7 @@ items:
     href: blogic/listsystemscripts.md
   - name: Blogic listSystemScripts editSystemScript
     href: blogic/listsystemscripts.editsystemscript.md
-- name: Customers
-  href: customers/index.md
-  items:
-  - name: Customers findContacts
-    href: customers/findcontacts.md
-  - name: Customers findContacts showResultsContacts
-    href: customers/findcontacts.showresultscontacts.md
-  - name: Customers findCustomers
-    href: customers/findcustomers.md
-  - name: Customers findCustomers showResults
-    href: customers/findcustomers.showresults.md
-  - name: Customers newCompany
-    href: customers/newcompany.md
-  - name: Customers newCustomer
-    href: customers/newcustomer.md
-  - name: Customers viewCompany
-    href: customers/viewcompany.md
-  - name: Customers viewCompany deleteContact
-    href: customers/viewcompany.deletecontact.md
-  - name: Customers viewCompany editCompany
-    href: customers/viewcompany.editcompany.md
-  - name: Customers viewCompany listInvoicesContact
-    href: customers/viewcompany.listinvoicescontact.md
-  - name: Customers viewCompany listInvoicesContact editInvoice
-    href: customers/viewcompany.listinvoicescontact.editinvoice.md
-  - name: Customers viewCompany mergecompanies
-    href: customers/viewcompany.mergecompanies.md
-  - name: Customers viewCustomer
-    href: customers/viewcustomer.md
-  - name: Customers viewCustomer deleteCustomer
-    href: customers/viewcustomer.deletecustomer.md
-  - name: Customers viewCustomer editCustomer
-    href: customers/viewcustomer.editcustomer.md
-  - name: Customers viewCustomer listInvoices
-    href: customers/viewcustomer.listinvoices.md
-  - name: Customers viewCustomer mergecontacts
-    href: customers/viewcustomer.mergecontacts.md
-  - name: Customers viewCustomer sendNewCustMail
-    href: customers/viewcustomer.sendnewcustmail.md
+
 - name: Getting started
   href: getting-started/index.md
   items:

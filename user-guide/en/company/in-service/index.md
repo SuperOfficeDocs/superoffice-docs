@@ -13,7 +13,7 @@ language: en
 
 You can get to the **Company** screen as follows:
 
-* You can double-click a row under **Find companies** in the search results screen (see [Show search results for companies][1]).
+* You can double-click a row under **Find companies** in the [search results screen][1].
 * You can click the company's name in screens where this information is displayed, such as the **Request** screen.
 
 This screen comprises the following sections:
@@ -44,17 +44,17 @@ Click the ![icon][img1] **Actions** button to access the following options:
 * [View invoice data for companies][7]
 
 <!-- Referenced links -->
-[1]: findContacts.showResultsContacts.md
-[2]: ../../../request/listTicket.md
-[3]: viewCustomer.md
-[4]: newCompany.md
-[5]: viewCompany.editCompany.md
-[6]: newCustomer.md
-[7]: viewCompany.listInvoicesContact.md
-[8]: viewCompany.deleteContact.md
+[1]: find.md
+[2]: ../../request/listTicket.md
+[3]: ../../person/in-service/index.md
+[4]: create.md
+[5]: edit.md
+[6]: ../../person/in-service/create.md
+[7]: ../../request/viewCompany.listInvoicesContact.md
+[8]: delete.md
 
 <!-- Referenced images -->
-[img1]: ../../../../media/icons/btn-menu.png
-[img2]: ../../../../media/icons/favorite-inactive.png
-[img3]: ../../../../media/icons/navigator-favorites-small.png
-[img4]: ../../../../media/icons/favorite-active.png
+[img1]: ../../../media/icons/btn-menu.png
+[img2]: ../../../media/icons/favorite-inactive.png
+[img3]: ../../../media/icons/navigator-favorites-small.png
+[img4]: ../../../media/icons/favorite-active.png

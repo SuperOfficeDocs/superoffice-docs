@@ -16,9 +16,9 @@ Contacts can be linked to companies:
 * The system searches for the domain name registered for the company, so that all contacts with this domain in their e-mail address are automatically linked to the company.
 * You can specify contacts' links to companies manually when you create them. See [Create contacts][1].
 
-But you first need to register a company. [!include[To do this](../../../includes/to-do-this.md)]
+But you first need to register a company.
 
-1. Select **Customers** &gt; **New company**. This takes you to the **Company properties** screen.
+1. Select **Customers** > **New company**. This takes you to the **Company properties** screen.
 
 2. Enter the company name and a department name (if applicable).
 
@@ -56,11 +56,11 @@ But you first need to register a company. [!include[To do this](../../../include
 * [Create contacts][1]
 
 <!-- Referenced links -->
-[1]: newCustomer.md
-[2]: ../topics/../admin/listPriorities.listPriorities.md
-[3]: viewCompany.editCompany.md
+[1]: ../../company/in-service/create.md
+[2]: ../../user/service/admin/listPriorities.listPriorities.md
+[3]: edit.md
 
 <!-- Referenced images -->
-[img1]: ../../../../media/icons/btn-add.png
-[img2]: ../../../../../common/icons/delete-red.png
-[img3]: ../../../../media/icons/service/btn-active-user.png
+[img1]: ../../../media/icons/btn-add.png
+[img2]: ../../../../common/icons/delete-red.png
+[img3]: ../../../media/icons/service/btn-active-user.png

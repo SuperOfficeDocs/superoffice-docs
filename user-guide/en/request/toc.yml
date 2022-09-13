@@ -1,6 +1,8 @@
 items:
 - name: Overview
   href: index.md
+- name: Customers
+  href: customers.md
 - name: AI requests
   href: ai-requests.md
 - name: Get next request in the queue
@@ -65,6 +67,12 @@ items:
   href: ticket.ticketstepbystep.md
 - name: Ticket ticketStepByStep
   href: ticketstepbystep.md
+- name: viewCompany listInvoicesContact
+  href: viewcompany.listinvoicescontact.md
+- name: viewCompany listInvoicesContact editInvoice
+  href: viewcompany.listinvoicescontact.editinvoice.md
+- name: viewCustomer listInvoices
+  href: viewcustomer.listinvoices.md
 - name: Reply templates
   href: reply-templates/index.md
   items:

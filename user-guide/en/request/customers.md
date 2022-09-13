@@ -23,12 +23,12 @@ Requests can be linked to contacts, who in turn can belong to a company. This me
 * [Create companies][7]
 
 <!-- Referenced links -->
-[1]: ../../../request/listticket.md
-[2]: findCustomers.md
-[3]: viewCustomer.md
-[4]: newCustomer.md
-[5]: findContacts.md
-[6]: viewCompany.md
-[7]: newCompany.md
+[1]: listticket.md
+[2]: ../person/in-service/find.md
+[3]: ../person/in-service/index.md
+[4]: ../person/in-service/create.md
+[5]: ../company/in-service/find.md
+[6]: ../company/in-service/index.md
+[7]: ../company/in-service/create.md
 
 <!-- Referenced images -->

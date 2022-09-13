@@ -36,3 +36,5 @@ items:
       href: gdpr/privacy-legal-base-add.md
     - name: Add privacy source
       href: gdpr/privacy-source-add.md
+- name: Customers in Service
+  href: in-service/toc.yml

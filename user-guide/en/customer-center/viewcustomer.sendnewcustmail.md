@@ -13,7 +13,7 @@ language: en
 
 A contact who is going to have access to a customer centre needs a user name and password to log in to the customer centre. You send this information to the contact as follows:
 
-1. Open the **Contact** screen as described under [View contacts][1].
+1. Open the **Contact** screen.
 
 2. Click the ![icon][img1] **Actions** button and select **Send password**. The **Send password to contact** screen appears.
 
@@ -27,7 +27,6 @@ A contact who is going to have access to a customer centre needs a user name and
 5. Click **OK**. The e-mail is sent.
 
 <!-- Referenced links -->
-[1]: viewCustomer.md
 
 <!-- Referenced images -->
-[img1]: ../../../../media/icons/btn-menu.png
+[img1]: ../../media/icons/btn-menu.png

@@ -31,3 +31,5 @@ items:
     href: forwarding-email-from-activities-section-tab.md
 - name: Address formats for different countries
   href: address-formats-for-different-countries.md
+- name: Customers in Service
+  href: in-service/toc.yml

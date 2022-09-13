@@ -37,8 +37,8 @@ The companies that have been overwritten will no longer be available in favourit
 * [Merge contacts][1]
 
 <!-- Referenced links -->
-[1]: viewCustomer.mergecontacts.md
+[1]: ../../person/in-service/merge-contacts.md
 
 <!-- Referenced images -->
-[img1]: ../../../../media/icons/btn-menu.png
-[img2]: ../../../../media/icons/service/btn-selectall.png
+[img1]: ../../../media/icons/btn-menu.png
+[img2]: ../../../media/icons/service/btn-selectall.png
