@@ -29,6 +29,8 @@ You will have some downtime during the migration, the time depends on how large 
 > [!TIP]
 > Worried something might go wrong? We know that migrating to CRM Online for our more advanced customers may be a longer journey. We strongly recommend you contact your SuperOffice sales person and consider our **extended migration services**.
 
+If you plan to use identify provider for the authentication, we recommend to [register the customer domain name][4] before doing the migration, so that users can immediately login using IDP and you don't need to do any user-transition later.
+
 ### Your onsite SuperOffice version
 
 You need to be on at least SuperOffice 7.1 to migrate to CRM Online. If you run an older version of SuperOffice than 7.1, then an upgrade must be performed first.
@@ -56,10 +58,6 @@ The migrator needs access to the SuperOffice Admin client with a user with Super
 The SuperOffice CRM Online Migration Tool (OMT) is responsible for transferring a local onsite database and document archive to CRM Online. It also makes sure that a set of initial configuration steps is carried out.
 
  OMT needs access to SuperOffice installation - database, so_arc folder, Service folders.
-
-> [!TIP]
->
-> If you plan to use identify provider for the authentication, we recommend to [register][4] the customer domain name before doing the migration, so that users can immediately login using IDP and you don't need to do any user-transition later.
 
 > [!CAUTION]
 >
@@ -155,7 +153,7 @@ You can choose from 2 options:
 
 ## Migration log file
 
-A log file of the migration is written to %temp%\SoMigration folder.
+A log file of the migration is written to *%temp%\SoMigration* folder.
 
 <!-- Referenced links -->
 [1]: http://online.superoffice.com/appstore
