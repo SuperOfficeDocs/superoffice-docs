@@ -50,7 +50,7 @@ Here is a set of recommendations that represent the current setup that is consid
 
 The SuperOffice web application should use valid X.509 certificates. If SuperOffice is to be accessible on the internal network only, a certificate signed by an internal CA that is distributed to all clients could be used. Otherwise, if SuperOffice should be accessible from the Internet we recommend buying a certificate signed by a third-party CA. All certificates should be signed using the SHA256 algorithm and contain a full common name to make it valid and able to reassure users that they are connecting to the correct web server. This provides integrity of the data passed between your users and your CRM system.
 
-## Hardening windows servers
+## Hardening Windows servers
 
 SuperOffice recommends using the latest Windows Server 2012 as your platform. Windows servers used in the SuperOffice deployment should be hardened as much as possible, and we recommend that you take the following into consideration:
 

@@ -29,6 +29,8 @@ You will have some downtime during the migration, the time depends on how large 
 > [!TIP]
 > Worried something might go wrong? We know that migrating to CRM Online for our more advanced customers may be a longer journey. We strongly recommend you contact your SuperOffice sales person and consider our **extended migration services**.
 
+If you plan to use identify provider for the authentication, we recommend to [register the customer domain name][4] before doing the migration, so that users can immediately login using IDP and you don't need to do any user-transition later.
+
 ### Your onsite SuperOffice version
 
 You need to be on at least SuperOffice 7.1 to migrate to CRM Online. If you run an older version of SuperOffice than 7.1, then an upgrade must be performed first.
@@ -47,13 +49,19 @@ The migrator needs access to the SuperOffice Admin client with a user with Super
 * Make sure there are no users currently on Travel
 * Make sure that you do not use SuperOffice Satellite and have active satellites
 
+### SuperOffice database check
+
+* Make sure to remove references to 'SentryAddonNames' in the Userpreference table.
+
 ## Start Online Migration Tool
 
 The SuperOffice CRM Online Migration Tool (OMT) is responsible for transferring a local onsite database and document archive to CRM Online. It also makes sure that a set of initial configuration steps is carried out.
 
+ OMT needs access to SuperOffice installation - database, so_arc folder, Service folders.
+
 > [!CAUTION]
 >
-> When the OMT is started, users are prevented from logging into SuperOffice Service and SuperOffice Windows App. This behavior is the result of OMT adding "Frozen" to Service config file and setting "no-login" System Event for SuperOffice Windows. However, it does not affect SuperOffice Web users, they can still log in. They should not update any info until the process is complete.
+> When the upload/migration is started, users are prevented from logging into SuperOffice Service and SuperOffice Windows App. This behavior is the result of OMT adding "Frozen" to Service config file and setting "no-login" System Event for SuperOffice Windows. However, it does not affect SuperOffice Web users, they can still log in. They should not update any info until the process is complete.
 
 The OMT can be executed in one of 2 modes: Initial upload or Recovery mode. It will automatically determine the mode when it starts.
 
@@ -101,11 +109,15 @@ Drag the user to the correct column to choose a user plan. Write a filter-cri
 
 Click OK when licenses are assigned. It is possible to come back to re-assign licenses after the other configuration steps are performed as well.
 
-A valid email address must be selected as a user name. All users must have a unique email address. Select one of the users existing email addresses or write a new address as appropriate.
+A valid email address must be selected as a user name. All users must have a unique email address. Select one of the user's existing email addresses or write a new address as appropriate.
 
- ![6-usernames.png -screenshot][img12]
+ ![6-usernames.png -screenshot][img11]
 
-If another user has a username email address populated on their person card at the time of migration, it will be removed. Filtering works the same way as on the user plan assignment page.
+In case there are duplicated usernames, the duplications need to be resolved before you are allowed to continue.
+
+ ![6a-usernames-duplication.png -screenshot][img12]
+
+Filtering works the same way as on the user plan assignment page.
 
 Click OK when all users are assigned a valid user name email address.
 
@@ -139,10 +151,15 @@ You can choose from 2 options:
 
 ![22-recovery.png -screenshot][img18]
 
+## Migration log file
+
+A log file of the migration is written to *%temp%\SoMigration* folder.
+
 <!-- Referenced links -->
 [1]: http://online.superoffice.com/appstore
 [2]: ../sandbox/index.md
 [3]: ../../service/mailboxes/migrate.md
+[4]: ../../identity-management/superid/howto/register-idp.md
 
 <!-- Referenced images -->
 [img2]: media/mig-proc-duplicate.jpg
@@ -151,7 +168,8 @@ You can choose from 2 options:
 [img8]: media/3-confirm.png
 [img9]: media/4-checklist-start.png
 [img10]: media/5-user-plans.png
-[img12]: media/6-usernames.png
+[img11]: media/6-usernames.png
+[img12]: media/6a-usernames-duplication.png
 [img13]: media/7-welcome-email.png
 [img14]: media/8-checklist-completed.png
 [img15]: media/9-upload-progress.png
