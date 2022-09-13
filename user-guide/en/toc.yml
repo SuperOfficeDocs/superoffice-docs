@@ -15,6 +15,8 @@ items:
     href: project/toc.yml
   - name: AI
     href: ai/toc.yml
+  - name: Automation
+    href: automation/toc.yml
   - name: Chat
     href: chat/toc.yml
   - name: Dashboard

@@ -11,7 +11,7 @@ language: en
 
 # Debug sessions
 
-[!include[Requirement](../../../includes/req-expander-services.md)]
+[!include[Requirement](../includes/req-expander-services.md)]
 
 The **Debug sessions** tab contains a list of all active debug sessions in the system. Click a session in the list to open it in **Debugger**.
 
@@ -29,5 +29,5 @@ To go to the **Debug sessions** tab:
 [2]: Tracing.md
 
 <!-- Referenced images -->
-[img1]: ../../../../media/icons/btn-executescript.png
-[img2]: ../../../../media/icons/globalmenu-settings-small.png
+[img1]: ../../media/icons/btn-executescript.png
+[img2]: ../../media/icons/globalmenu-settings-small.png

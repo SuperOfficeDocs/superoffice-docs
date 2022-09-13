@@ -108,29 +108,6 @@ items:
     href: admin/soapconf.md
   - name: Admin viewLicenses
     href: admin/viewlicenses.md
-- name: Automation
-  href: automation/index.md
-  items:
-  - name: Blogic listDebugSessions
-    href: automation/listdebugsessions.md
-  - name: Blogic listDebugSessions viewDebugSession
-    href: automation/listdebugsessions.viewdebugsession.md
-  - name: Blogic listEventHandler
-    href: automation/listeventhandler.md
-  - name: Blogic listScheduledTasks
-    href: automation/listscheduledtasks.md
-  - name: Blogic listScripts
-    href: automation/listscripts.md
-  - name: Blogic listScripts editMacro
-    href: automation/listscripts.editmacro.md
-  - name: Blogic listScripts editScript
-    href: automation/listscripts.editscript.md
-  - name: Blogic listScripts editScriptFolder
-    href: automation/listscripts.editscriptfolder.md
-  - name: Tracing
-    href: automation/tracing.md
-  - name: View script macro
-    href: automation/view-script-macro.md
 - name: Blogic
   href: blogic/index.md
   items:
@@ -367,29 +344,3 @@ items:
     href: request/ticket.ticketstepbystep.md
   - name: Ticket ticketStepByStep
     href: request/ticketstepbystep.md
-- name: Search
-  href: search/index.md
-  items:
-  - name: Rms search searchResult
-    href: search/searchresult.md
-  - name: Rms search searchTable
-    href: search/searchtable.md
-  - name: Rms search use shortcut search
-    href: search/use-shortcut-search.md
-  - name: Rms search useQuickSearch
-    href: search/usequicksearch.md
-- name: Statistics
-  href: statistics/index.md
-  items:
-  - name: Stat invoiceStat
-    href: statistics/invoicestat.md
-  - name: Stat loginStat
-    href: statistics/loginstat.md
-  - name: Stat newStat
-    href: statistics/newstat.md
-  - name: Stat newStat standard
-    href: statistics/newstat.standard.md
-  - name: Stat reportGenerator reportGeneratorChooseRoot
-    href: statistics/reportgenerator.reportgeneratorchooseroot.md
-  - name: Stat simpleStat
-    href: statistics/simplestat.md

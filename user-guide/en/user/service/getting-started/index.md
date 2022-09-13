@@ -28,7 +28,7 @@ When you click one of these buttons, you get access to various options, such as 
 
 ## Try the shortcut search
 
-[!include[How to search](../../includes/howto-search-service.md)]
+[!include[How to search](../../../search-options/in-service/includes/howto-search-service.md)]
 
 ## See also
 
@@ -39,7 +39,7 @@ When you click one of these buttons, you get access to various options, such as 
 <!-- Referenced links -->
 [1]: ../customers/index.md
 [2]: ../../../search-options/selections/in-service/index.md
-[3]: ../statistics/index.md
+[3]: ../../../dashboard/service/statistics/index.md
 [4]: ../request/index.md
 [5]: ../knowledge-base/index.md
 [6]: navigator-options.md

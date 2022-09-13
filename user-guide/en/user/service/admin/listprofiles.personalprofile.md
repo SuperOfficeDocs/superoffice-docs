@@ -11,7 +11,7 @@ language: en
 
 # Personal profiles
 
-Personal profiles apply to a single user. You configure personal profiles by clicking ![icon][img1] (the "spanner" icon) available in different screens, for example, the list of requests in the **Contact** screen, the request properties section in the **Request** screen or the search results screen. We will use a concrete example to explain how this works. In the example below, we assume that you want to add a field in the **Request** screen. [!include[To do this](../../../includes/to-do-this.md)]
+Personal profiles apply to a single user. You configure personal profiles by clicking ![icon][img1] (the "spanner" icon) available in different screens, for example, the list of requests in the **Contact** screen, the request properties section in the **Request** screen or the search results screen. We will use a concrete example to explain how this works. In the example below, we assume that you want to add a field in the **Request** screen.
 
 1. Open the **Request** screen and select the **Details** tab (see [Process requests][1]).
 2. Click ![icon][img1] on the far right of the request's properties. The **Edit element profile** screen appears.
@@ -32,7 +32,7 @@ Personal profiles apply to a single user. You configure personal profiles by cli
 
 <!-- Referenced links -->
 [1]: ../request/listTicket.md
-[2]: ../search/searchResult.md
+[2]: ../../../search-options/in-service/searchResult.md
 [3]: listProfiles.commonProfiles.md
 [4]: listProfiles.globalProfiles.md
 

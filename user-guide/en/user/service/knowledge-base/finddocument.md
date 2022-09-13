@@ -20,6 +20,6 @@ If there are lots of documents in a folder, it may be difficult to find the one 
 5. Search as described under [Search in SuperOffice Service][1].
 
 <!-- Referenced links -->
-[1]: ../search/index.md
+[1]: ../../../search-options/in-service/index.md
 
 <!-- Referenced images -->

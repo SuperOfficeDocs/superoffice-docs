@@ -31,7 +31,7 @@ The other buttons in SuperOffice Service are described in connection with the ta
 <!-- Referenced links -->
 [1]: ../admin/editUser.md
 [2]: ../admin/index.md
-[3]: ../search/useQuickSearch.md
+[3]:../../../search-options/in-service/useQuickSearch.md
 [4]: buttons.md
 
 <!-- Referenced images -->

@@ -188,7 +188,7 @@ Here you can define how a submitted form should be processed. Fill in the follow
 [5]: submissions/index.md
 [6]: submissions/process.md
 [7]: ../marketing/mailing/create/tutorial-form-mailing.yml
-[8]: ../user/service/automation/index.md
+[8]: ../automation/index.md
 [19]: ../marketing/create-folder.md
 
 <!-- Referenced images -->

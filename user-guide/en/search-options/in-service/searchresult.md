@@ -19,7 +19,7 @@ Clicking the element profile button ( ![icon][img3] ) in the search results list
 
 ## Add columns
 
-1. Open the search screen. (See [Open the search screen](index.md#open-the-search-screen).)
+1. [Open the search screen][1].
 
 2. Perform a search by entering criteria and clicking the **Search** button, so that the **Result** section appears.
 
@@ -79,16 +79,17 @@ You can edit the information about the existing columns, e.g. the name and colum
 Click the delete icon ( ![icon][img1] ) to the right of the required column. The column is removed immediately.
 
 <!-- Referenced links -->
+[1]: index.md#open-the-search-screen
 
 <!-- Referenced images -->
-[img1]: ../../../../../common/icons/delete-red.png
-[img2]: ../../../../media/icons/edit.png
-[img3]: ../../../../media/icons/service/btn-editelementprofile.png
-[img4]: ../../../../media/icons/service/calculator.png
-[img5]: ../../../../media/icons/service/field.png
-[img6]: ../../../../../common/icons/dropdown-arrow.png
-[img7]: ../../../../media/icons/service/up.png
-[img8]: ../../../../media/icons/service/btn-RankUp.png
-[img9]: ../../../../media/icons/service/calculator.png
-[img10]: ../../../../media/icons/service/btn-RankUp.png
-[img11]: ../../../../media/icons/service/btn-RankDown.png
+[img1]: ../../../../common/icons/delete-red.png
+[img2]: ../../../media/icons/edit.png
+[img3]: ../../../media/icons/service/btn-editelementprofile.png
+[img4]: ../../../media/icons/service/calculator.png
+[img5]: ../../../media/icons/service/field.png
+[img6]: ../../../../common/icons/dropdown-arrow.png
+[img7]: ../../../media/icons/service/up.png
+[img8]: ../../../media/icons/service/btn-RankUp.png
+[img9]: ../../../media/icons/service/calculator.png
+[img10]: ../../../media/icons/service/btn-RankUp.png
+[img11]: ../../../media/icons/service/btn-RankDown.png

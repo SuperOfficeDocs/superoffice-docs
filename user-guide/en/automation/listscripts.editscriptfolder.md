@@ -24,7 +24,7 @@ To create a new folder:
 
 ## Edit folders
 
-You can edit both the name of a folder and the details you entered when creating it. [!include[To do this](../../../includes/to-do-this.md)]
+You can edit both the name of a folder and the details you entered when creating it.
 
 1. Go to the required folder.
 2. Click the name of the folder.
@@ -33,7 +33,7 @@ You can edit both the name of a folder and the details you entered when creating
 
 ## Delete folders
 
-When you delete a folder, all its contents (selections, FAQ entries, reply templates, tables, scripts, macros etc.) are also deleted from SuperOffice Service. [!include[To do this](../../../includes/to-do-this.md)]
+When you delete a folder, all its contents (selections, FAQ entries, reply templates, tables, scripts, macros etc.) are also deleted from SuperOffice Service.
 
 1. Go to the required folder.
 2. Click the name of the folder.
@@ -43,4 +43,4 @@ When you delete a folder, all its contents (selections, FAQ entries, reply templ
 <!-- Referenced links -->
 
 <!-- Referenced images -->
-[img1]: ../../../../../common/icons/folder.png
+[img1]: ../../../common/icons/folder.png

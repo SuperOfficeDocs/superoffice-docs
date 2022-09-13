@@ -13,11 +13,9 @@ language: en
 
 No matter where you are in SuperOffice Service, the quick search field is always at the top right. You can use this field to quickly find data in the system. Quick search works slightly differently for requests and other records.
 
-<!-- Fix reuse ID=a1 -->
-
 ## Shortcut search
 
-[!include[How to search](../../includes/howto-search-service.md)]
+[!include[How to search](includes/howto-search-service.md)]
 
 ## Search for requests
 
@@ -66,4 +64,4 @@ How this works in practice:
 <!-- Referenced links -->
 
 <!-- Referenced images -->
-[img1]: ../../../../media/icons/service/search.png
+[img1]: ../../../media/icons/service/search.png

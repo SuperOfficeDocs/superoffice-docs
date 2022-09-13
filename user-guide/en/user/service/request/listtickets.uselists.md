@@ -45,7 +45,7 @@ In practice, all these lists are predefined searches, and if you wish you can cu
 [1]: listTickets.findTickets.md
 [2]: get-next-request-in-queue.md
 [3]: showListTickets.acceptRequest.md
-[4]: ../search/index.md
+[4]: ../../../search-options/in-service/index.md
 [5]: listTickets.showListTickets.md
 
 <!-- Referenced images -->

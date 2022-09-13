@@ -22,7 +22,7 @@ If there are lots of reply templates in a folder, it may be difficult to find th
 [Administrate folders of reply templates][2]
 
 <!-- Referenced links -->
-[1]: ../search/index.md
+[1]: ../../../search-options/in-service/index.md
 [2]: editReplyTemplateFolder.md
 
 <!-- Referenced images -->

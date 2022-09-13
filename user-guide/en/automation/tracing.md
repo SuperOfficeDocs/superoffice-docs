@@ -44,6 +44,6 @@ To start tracing scripts:
 [1]: listDebugSessions.viewDebugSession.md
 
 <!-- Referenced images -->
-[img1]: ../../../../media/icons/btn-executescript.png
-[img2]: ../../../../media/icons/btn-script-trace-small.png
-[img3]: ../../../../media/icons/edit.png
+[img1]: ../../media/icons/btn-executescript.png
+[img2]: ../../media/icons/btn-script-trace-small.png
+[img3]: ../../media/icons/edit.png

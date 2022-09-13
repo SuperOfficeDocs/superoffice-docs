@@ -18,7 +18,7 @@ To find companies that are registered in the system:
 3. Click **Search**.
 4. Under **Find companies** are the companies that match your search criteria. If you select one of the companies in the list, the requests and contacts linked to that company are displayed in the preview section. <!-- Fix reuse ID=a1 -->
 
-    [!include[How to preview search](../../includes/howto-preview-search-in-service.md)]
+    [!include[How to preview search](../../../includes/howto-preview-search-in-service.md)]
 
 > [!TIP]
 > There is a more complete description of what you can do in the **Find companies** screen, under [Search in SuperOffice Service][1].
@@ -28,7 +28,7 @@ To find companies that are registered in the system:
 * [View search results for companies][2]
 
 <!-- Referenced links -->
-[1]: ../search/index.md
+[1]: ../../../search-options/in-service/index.md
 [2]: findContacts.showResultsContacts.md
 
 <!-- Referenced images -->

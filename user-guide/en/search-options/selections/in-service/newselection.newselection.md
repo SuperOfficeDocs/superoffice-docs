@@ -45,7 +45,7 @@ Click **OK**. The selection is saved, and you are returned to the **List selecti
 <!-- Referenced links -->
 [1]: ../../../user/service/request/listtickets.findtickets.md
 [2]: ../../../user/service/request/listtickets.uselists.md
-[3]: ../../../user/service/search/index.md
+[3]: ../../in-service/index.md
 [4]: updateSelection.md
 [5]: listSelections.md
 [6]: editSelection2.md

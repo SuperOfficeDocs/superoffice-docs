@@ -59,5 +59,5 @@ Some of the more advanced macro functions are described in [Triggers][1].
 [2]: View-script-macro.md
 
 <!-- Referenced images -->
-[img1]: ../../../../media/icons/btn-menu.png
-[img2]: ../../../../media/icons/globalmenu-settings-small.png
+[img1]: ../../media/icons/btn-menu.png
+[img2]: ../../media/icons/globalmenu-settings-small.png

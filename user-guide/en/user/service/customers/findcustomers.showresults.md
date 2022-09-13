@@ -36,7 +36,7 @@ Under the list, you can click the ![icon][img1] menu button to access the follow
 
 This section of the screen displays the requests linked to the contact selected under **Find contacts**. Here you have the same options as described under [View contacts][3]. <!-- Fix reuse ID=a1 -->
 
-[!include[How to preview search](../../includes/howto-preview-search-in-service.md)]
+[!include[How to preview search](../../../includes/howto-preview-search-in-service.md)]
 
 ## What would you like to do now?
 
@@ -44,7 +44,7 @@ This section of the screen displays the requests linked to the contact selected 
 
 <!-- Referenced links -->
 [1]: findCustomers.md
-[2]: ../search/index.md
+[2]: ../../../search-options/in-service/index.md
 [3]: viewCustomer.md
 
 <!-- Referenced images -->

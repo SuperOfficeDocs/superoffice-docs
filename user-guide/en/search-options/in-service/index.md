@@ -13,11 +13,11 @@ language: en
 
 Searching in SuperOffice Service is performed from the same screen, no matter whether you are searching for requests, contacts, companies or other records in the system. In this topic, you can find out more about how searching in SuperOffice Service works.
 
-<details><summary>Try the shortcut search</summary><!-- Fix reuse ID=a12 -->
+<details><summary>Try the shortcut search</summary>
 
 ## Shortcut search
 
-[!include[How to search](../../includes/howto-search-service.md)]
+[!include[How to search](includes/howto-search-service.md)]
 
 </details>
 
@@ -75,7 +75,7 @@ The search screen always shows the most relevant criteria for what you are searc
 
 When you have specified search criteria under **Criteria** and clicked **Search**, all the records that match the search criteria are displayed in a list. The first record in the list is selected by default and displayed in the preview section. Click a record in the list to show a preview.
 
-<details><summary>Where is the preview?</summary><!-- Fix reuse ID=a1 -->
+<details><summary>Where is the preview?</summary>
 
 [!include[How to preview search](../../includes/howto-preview-search-in-service.md)]
 
@@ -103,9 +103,9 @@ Under the list, you can click ![icon][img2] to access the following options:
 
 ## The preview section
 
-This section of the screen displays the contents of the record selected in the list. <!-- Fix reuse ID=a11 -->
+This section of the screen displays the contents of the record selected in the list.
 
-<details><summary>Where is the preview?</summary><!-- Fix reuse ID=a1 -->
+<details><summary>Where is the preview?</summary>
 
 If the preview section is not visible, click the ![icon][img2] menu button in the top right corner and select **Show reading pane to the right** or **Show reading pane below**.
 
@@ -123,20 +123,20 @@ To return to the ordinary view, click the **Simple view** button at the top of t
 
 <!-- Referenced links -->
 [1]: useQuickSearch.md
-[2]: ../getting-started/navigator-options.md
-[3]: ../request/listTickets.findTickets.md
-[4]: ../request/listTickets.useLists.md
-[5]: ../../../search-options/selections/in-service/newselection.md
-[6]: ../../../search-options/selections/in-service/newselection.newselection.md
+[2]: ../../user/service/getting-started/navigator-options.md
+[3]: ../../user/service/request/listTickets.findTickets.md
+[4]: ../../user/service/request/listTickets.useLists.md
+[5]: ../selections/in-service/newselection.md
+[6]: ../selections/in-service/newselection.newselection.md
 [7]: searchResult.md#add-columns
 [8]: searchResult.md
 
 <!-- Referenced images -->
-[img1]: ../../../../media/icons/refresh.png
-[img2]: ../../../../media/icons/btn-menu.png
-[img3]: ../../../../../common/icons/dropdown-arrow.png
-[img4]: ../../../../media/icons/btn-add.png
-[img5]: ../../../../../common/icons/delete-red.png
-[img6]: ../../../../media/icons/service/search.png
-[img7]: ../../../../media/icons/service/inputText.png
-[img8]: ../../../../media/icons/service/btn-editelementprofile.png
+[img1]: ../../../media/icons/refresh.png
+[img2]: ../../../media/icons/btn-menu.png
+[img3]: ../../../../common/icons/dropdown-arrow.png
+[img4]: ../../../media/icons/btn-add.png
+[img5]: ../../../../common/icons/delete-red.png
+[img6]: ../../../media/icons/service/search.png
+[img7]: ../../../media/icons/service/inputText.png
+[img8]: ../../../media/icons/service/btn-editelementprofile.png

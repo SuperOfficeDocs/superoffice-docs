@@ -33,8 +33,8 @@ To create or edit a script:
 7. Click **OK**.
 
 <!-- Referenced links -->
-[1]: ../../../../../docs/automation/crmscript/index.yml
+[1]: ../../../docs/automation/crmscript/index.yml
 [2]: View-script-macro.md
 
 <!-- Referenced images -->
-[img1]: ../../../../media/icons/globalmenu-settings-small.png
+[img1]: ../../media/icons/globalmenu-settings-small.png

@@ -29,11 +29,11 @@ The following tabs are available:
 * [Tracing][5] - Record every detail in the execution of a script or macro and save it in a log.
 
 <!-- Referenced links -->
-[1]: listScripts.md
-[2]: listEventHandler.md
-[3]: listScheduledTasks.md
-[4]: listDebugSessions.viewDebugSession.md
-[5]: Tracing.md
+[1]: listscripts.md
+[2]: listeventhandler.md
+[3]: listscheduledtasks.md
+[4]: listdebugsessions.viewdebugsession.md
+[5]: tracing.md
 
 <!-- Referenced images -->
-[img1]: ../../../../media/icons/globalmenu-settings-small.png
+[img1]: ../../media/icons/globalmenu-settings-small.png

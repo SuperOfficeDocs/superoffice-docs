@@ -39,7 +39,7 @@ Under the list, you can click the ![icon][img1] menu button to access the follow
 
 This section of the screen displays the contents of the request selected under **Result**. Here you have the same options as described under [Process requests][6]. <!-- Fix reuse ID=a1 -->
 
-[!include[How to preview search](../../includes/howto-preview-search-in-service.md)]
+[!include[How to preview search](../../../includes/howto-preview-search-in-service.md)]
 
 ## What would you like to do now?
 
@@ -47,7 +47,7 @@ This section of the screen displays the contents of the request selected under *
 
 <!-- Referenced links -->
 [1]: listTickets.md
-[2]: ../search/index.md
+[2]: ../../../search-options/in-service/index.md
 [3]: listTicket.md
 [4]: showListTickets.addMassMessage.md
 [5]: showListTickets.massForward.md

@@ -40,7 +40,7 @@ language: en
 
 <!-- Referenced links -->
 [1]: newSelection.newSelection.md
-[2]: ../../../user/service/search/index.md
+[2]: ../../in-service/index.md
 [3]: updateSelection.md
 [4]: listSelections.md
 [5]: editSelection2.md

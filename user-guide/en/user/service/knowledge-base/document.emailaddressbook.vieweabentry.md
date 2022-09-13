@@ -21,6 +21,6 @@ If you want details of the e-mail addresses that have been registered, select **
 <!-- Referenced links -->
 [1]: emailAddressBook.editEabFolder.md
 [2]: emailAddressBook.newEabEntry.md
-[3]: ../search/index.md
+[3]: ../../../search-options/in-service/index.md
 
 <!-- Referenced images -->

@@ -16,6 +16,6 @@ Under **Requests** in the Navigator is the **Search in request log** option. Thi
 For example, you can find all requests that you yourself have changed in the last week, regardless of who is responsible for the request or what status it has. In this way, you can easily retrieve all the requests you have worked on and which you want to keep a check on in future. In other respects, this screen works like an ordinary search (see [Search in SuperOffice Service][1]).
 
 <!-- Referenced links -->
-[1]: ../search/index.md
+[1]: ../../../search-options/in-service/index.md
 
 <!-- Referenced images -->

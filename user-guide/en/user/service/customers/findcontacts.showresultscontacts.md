@@ -40,7 +40,7 @@ This section of the screen displays the requests and contacts linked to the comp
 
 <!-- Referenced links -->
 [1]: findContacts.md
-[2]: ../search/index.md
+[2]: ../../../search-options/in-service/index.md
 [3]: viewCompany.md
 
 <!-- Referenced images -->

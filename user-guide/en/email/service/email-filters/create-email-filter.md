@@ -64,7 +64,7 @@ To create a new email filter:
 1. Click **OK**. The e-mail filter is created.
 
 <!-- Referenced links -->
-[1]: ../../../user/service/automation/index.md
+[1]: ../../../automation/index.md
 [2]: ../../../user/service/reply-templates/index.md
 [3]: ../../../user/service/reply-templates/autofaq.md
 

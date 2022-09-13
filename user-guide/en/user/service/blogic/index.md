@@ -35,12 +35,12 @@ Here you can find the advanced options in SuperOffice Service. To go here select
 
 <!-- Referenced links -->
 [1]: listExtraTables.md
-[2]: ../automation/index.md
-[3]: ../automation/listScripts.md
-[4]: ../automation/listEventHandler.md
-[5]: ../automation/listScheduledTasks.md
-[6]: ../automation/listDebugSessions.viewDebugSession.md
-[7]: ../automation/Tracing.md
+[2]: ../../../automation/index.md
+[3]: ../../../automation/listScripts.md
+[4]: ../../../automation/listEventHandler.md
+[5]: ../../../automation/listScheduledTasks.md
+[6]: ../../../automation/listDebugSessions.viewDebugSession.md
+[7]: ../../../automation/Tracing.md
 [8]: listScreenDefinitions.editScreenDefinition.md
 [9]: listScreenChoosers.md
 [10]: listSystemScripts.md
