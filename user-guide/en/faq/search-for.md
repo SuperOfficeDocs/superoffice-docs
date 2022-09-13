@@ -21,7 +21,7 @@ If there are lots of FAQ entries in a folder, it may be difficult to find the on
 > Perhaps you should consider [creating a folder structure][2] to make it easier to locate relevant FAQ entries?
 
 <!-- Referenced links -->
-[1]: ../user/service/search/index.md
+[1]: ../search-options/in-service/index.md
 [2]: manage-folders.md
 
 <!-- Referenced images -->

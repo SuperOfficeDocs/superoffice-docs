@@ -34,7 +34,7 @@ If the Notepad is open when you close SuperOffice CRM, it will also be displayed
 
 <!-- Referenced links -->
 [1]: navigating-in-mini-card.md
-[2]: ../diary/Note.md
+[2]: ../../diary/Note.md
 
 <!-- Referenced images -->
 [img1]: ../../../media/icons/globalmenu-mainmenu-small.png

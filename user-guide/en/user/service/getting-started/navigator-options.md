@@ -50,7 +50,7 @@ When you click a navigator button, one or more of the buttons below are displaye
 3. When you find the required record, click it to move to the relevant record.
 
 <!-- Referenced links -->
-[1]: favorites.md
+[5]: favorites.md
 
 <!-- Referenced images -->
 [img1]: ../../../../media/icons/navigator-list.png

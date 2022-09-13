@@ -1,0 +1,14 @@
+items:
+- name: Section tabs in the Selection screen
+  href: section-tabs-in-selection-screen.md
+  items:
+  - name: The List of Members
+    href: list-of-members.md
+  - name: Company contact
+    href: selection-tab-company-contact.md
+  - name: Criteria
+    href: selection-tab-criteria.md
+  - name: Details
+    href: selection-tab-details.md
+  - name: Mailings
+    href: mailings-section-tab.md

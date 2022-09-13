@@ -25,7 +25,7 @@ Several sections of SuperOffice CRM, for example, the **Company** screen, contai
 [1]: ../../company/create.md#more-tab
 [2]: ../../person/create.md#more-tab
 [3]: ../../clients/sales/project/more-tab-project.md
-[4]: ../diary/more-tab-follow-ups.md
-[5]: ../diary/more-tab-document.md
+[4]: ../../diary/more-tab-follow-ups.md
+[5]: ../../diary/more-tab-document.md
 
 <!-- Referenced images -->

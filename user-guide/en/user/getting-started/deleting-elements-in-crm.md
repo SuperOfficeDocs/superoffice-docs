@@ -53,7 +53,7 @@ To reactivate this dialog: Go to ![icon][img1] **Personal settings &gt; Preferen
 [1]: restore-deleted-companies-and-contacts.md
 [2]: ../../company/delete.md
 [3]: ../../person/delete.md
-[4]: ../diary/stopping-recurring-follow-ups.md
+[4]: ../../diary/stopping-recurring-follow-ups.md
 
 <!-- Referenced images -->
 [img1]: ../../../media/icons/globalmenu-personalsettings-small.png

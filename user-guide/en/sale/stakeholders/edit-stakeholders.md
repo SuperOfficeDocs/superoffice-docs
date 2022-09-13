@@ -36,4 +36,4 @@ To remove one or more stakeholders from the sale, select them and click the **Re
 [2]: create-stakeholders.md
 
 <!-- Referenced images -->
-[img1]: ../../user/marketing/media/btn-editor-edit.png
+[img1]: ../../../media/icons/marketing-and-forms/btn-editor-edit.png

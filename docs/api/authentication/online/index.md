@@ -20,7 +20,7 @@ For back-channel communications SuperOffice provides the proprietary [System Use
 
 Access to tenant web services requires a registered application. If your not already registered as an app developer with us, please [submit this developer registration form][3] to create your developer account.
 
-If you already have a developer account, and just want to create a new application, [fill out the new application form][1] to register your application.
+If you already have a developer account, and just want to create a new application, [use the Developer Portal][1] to register your new application. Read the [Developer Portal docs][12] to become more familiar with how to create and manage your application.
 
 Once registered, you will receive 2 application identifiers:
 
@@ -189,9 +189,9 @@ The Hybrid flow offers more flexibility with this token flow, but it’s **less 
 [!include[Deprecated OAuth flows](includes/implicit-hybrid-deprecated.md)]
 
 <!-- Referenced links -->
-[1]: https://community.superoffice.com/application-registration
+[1]: https://dev.superoffice.com
 [2]: ./auth-application/index.md
-[3]: https://community.superoffice.com/register-as-developer
+[3]: ../../../apps/getting-started/developer-registration-form.md
 [4]: https://jwt.io/
 [5]: ../../../apps/provisioning/get-consent.md
 [6]: troubleshooting/iframe-idp-auth.md
@@ -200,6 +200,7 @@ The Hybrid flow offers more flexibility with this token flow, but it’s **less 
 [9]: sign-in-user/auth-code-flow.md
 [10]: sign-in-user/implicit-flow.md
 [11]: sign-in-user/hybrid-flow.md
+[12]: ../../../developer-portal/index.yml
 
 <!-- Referenced images -->
 [img3]: media/keyplayers.jpg

@@ -43,7 +43,7 @@ In the **Preferences** tab in the **Edit users** screen, you can edit the follow
     > You can override this choice in the **Request** screen.
 
 <!-- Referenced links -->
-[1]: ../request/showListTickets.askForHelp.md
-[2]: ../request/listTickets.useLists.md
+[1]: ../../../request/showListTickets.askForHelp.md
+[2]: ../../../request/listTickets.useLists.md
 
 <!-- Referenced images -->

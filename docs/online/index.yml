@@ -137,9 +137,9 @@ conceptualContent:
         - text: Database mirroring
           itemType: overview
           url: ../mirroring/index.yml
-        - text: Microsoft 365 document integration
+        - text: SharePoint documents
           itemType: concept
-          url: ../document/cloud/legacy/office-365/index.md
+          url: ../document/cloud/sharepoint-documents/index.md
         - text: Google Workspace document integration
           itemType: concept
           url: ../document/cloud/g-suite/index.md

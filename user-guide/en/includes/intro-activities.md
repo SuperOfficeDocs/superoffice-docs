@@ -5,4 +5,4 @@ These are created by clicking the **New** button in the [top bar][1], or created
 
 <!-- Referenced links -->
 [1]: ../user/getting-started/buttons-in-menu-bar.md
-[2]: ../user/diary/index.md
+[2]: ../diary/index.md

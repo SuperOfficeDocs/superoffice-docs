@@ -29,7 +29,7 @@ When a request handler creates a suggestion for an FAQ entry (see [Create FAQ en
 
 <!-- Referenced links -->
 [1]: create.md
-[2]: ../user/service/request/index.md
+[2]: ../request/index.md
 [3]: workflow.md
 
 <!-- Referenced images -->

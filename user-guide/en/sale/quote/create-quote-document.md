@@ -50,8 +50,8 @@ If have created a quote document for a quote, but want to use another document, 
 
 <!-- Referenced links -->
 [1]: create.md
-[2]: ../../user/diary/document-dialog.md
-[3]: ../../user/diary/template-variables.md
+[2]: ../../diary/document-dialog.md
+[3]: ../../diary/template-variables.md
 [4]: send.md
 [5]: create-order.md
 

@@ -14,4 +14,4 @@ so.envir: onsite
 
 The **SMTP** tab in the **System** screen contains the following options:
 
-[!include[List of fields for mailings](../../includes/mailing-smtp-fields.md)]
+[!include[List of fields for mailings](../../../marketing/includes/mailing-smtp-fields.md)]

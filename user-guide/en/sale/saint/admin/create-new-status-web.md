@@ -64,14 +64,14 @@ If a company, contact or project has several active statuses, the lower priority
 * [Manage status monitors][4]
 
 <!-- Referenced links -->
-[1]: ../../../user/diary/template-variables.md
+[1]: ../../../diary/template-variables.md
 [2]: edit-description-for-status.md
 [3]: select-image-for-status.md
 [4]: manage-status-monitors.md
 [5]: select-default-follow-up-type-for-status.md
 [6]: select-status-criteria.md
 [7]: select-period-length.md
-[8]: ../../../user/translate-fields.md
+[8]: ../../../translate-fields.md
 
 <!-- Referenced images -->
 [img2]: ../../../../media/icons/admin/question.bmp

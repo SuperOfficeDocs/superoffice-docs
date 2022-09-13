@@ -31,3 +31,18 @@ items:
     href: service/edit.md
   - name: Delete a dashboard
     href: service/delete.md
+  - name: Statistics
+    href: service/statistics/index.md
+    items:
+    - name: Stat invoiceStat
+      href: service/statistics/invoicestat.md
+    - name: Stat loginStat
+      href: service/statistics/loginstat.md
+    - name: Stat newStat
+      href: service/statistics/newstat.md
+    - name: Stat newStat standard
+      href: service/statistics/newstat.standard.md
+    - name: Stat reportGenerator reportGeneratorChooseRoot
+      href: service/statistics/reportgenerator.reportgeneratorchooseroot.md
+    - name: Stat simpleStat
+      href: service/statistics/simplestat.md

@@ -43,7 +43,7 @@ Before you delete an FAQ folder, you need to remove all the entries in it. You d
 * You can [delete the FAQ entries][1].
 * You can [move an FAQ entry to another folder][2] by changing the content of the **Folder** field when you edit an entry.
 
-[!include[How to delete a folder](../user/includes/howto-delete-folder-kb.md)]
+[!include[How to delete a folder](../includes/howto-delete-folder-kb.md)]
 
 ## What would you like to do now?
 

@@ -1,0 +1,107 @@
+items:
+- name: Overview
+  href: index.md
+- name: Customers
+  href: customers.md
+- name: AI requests
+  href: ai-requests.md
+- name: Get next request in the queue
+  href: get-next-request-in-queue.md
+- name: Ticket autosave
+  href: autosave.md
+- name: Ticket deleteTicket
+  href: deleteticket.md
+- name: Ticket listExtraTables
+  href: listextratables.md
+- name: Ticket listTicket
+  href: listticket.md
+- name: Ticket listTickets
+  href: listtickets.md
+- name: Ticket listTickets findTickets
+  href: listtickets.findtickets.md
+- name: Ticket listTickets searchTicketLog
+  href: listtickets.searchticketlog.md
+- name: Ticket listTickets showListTickets
+  href: listtickets.showlisttickets.md
+- name: Ticket listTickets useLists
+  href: listtickets.uselists.md
+- name: Ticket newQuickTicket
+  href: newquickticket.md
+- name: Ticket newTicket
+  href: newticket.md
+- name: Ticket receiveTickets
+  href: receivetickets.md
+- name: Ticket showListTickets
+  href: showlisttickets.md
+- name: Ticket showListTickets acceptRequest
+  href: showlisttickets.acceptrequest.md
+- name: Ticket showListTickets addMassMessage
+  href: showlisttickets.addmassmessage.md
+- name: Ticket showListTickets addMessage
+  href: showlisttickets.addmessage.md
+- name: Ticket showListTickets askForHelp
+  href: showlisttickets.askforhelp.md
+- name: Ticket showListTickets closeTickets
+  href: showlisttickets.closetickets.md
+- name: Ticket showListTickets editMessage
+  href: showlisttickets.editmessage.md
+- name: Ticket showListTickets forward
+  href: showlisttickets.forward.md
+- name: Ticket showListTickets hotlist
+  href: showlisttickets.hotlist.md
+- name: Ticket showListTickets listTicketLog
+  href: showlisttickets.listticketlog.md
+- name: Ticket showListTickets massForward
+  href: showlisttickets.massforward.md
+- name: Ticket showListTickets mergeTickets
+  href: showlisttickets.mergetickets.md
+- name: Ticket showListTickets Message keeptrack
+  href: showlisttickets.message-keeptrack.md
+- name: Ticket showListTickets splitMessage
+  href: showlisttickets.splitmessage.md
+- name: Ticket showListTickets splitTicket
+  href: showlisttickets.splitticket.md
+- name: Ticket tags
+  href: tags.md
+- name: Ticket ticketStepByStep
+  href: ticket.ticketstepbystep.md
+- name: Ticket ticketStepByStep
+  href: ticketstepbystep.md
+- name: viewCompany listInvoicesContact
+  href: viewcompany.listinvoicescontact.md
+- name: viewCompany listInvoicesContact editInvoice
+  href: viewcompany.listinvoicescontact.editinvoice.md
+- name: viewCustomer listInvoices
+  href: viewcustomer.listinvoices.md
+- name: Document externalDocument
+  href: externaldocument.md
+- name: Reply templates
+  href: reply-templates/index.md
+  items:
+  - name: Document replyTemplates addReplyTemplatesToMessages
+    href: reply-templates/addreplytemplatestomessages.md
+  - name: Document replyTemplates autoFAQ
+    href: reply-templates/autofaq.md
+  - name: Document replyTemplates delReplyTemplate
+    href: reply-templates/delreplytemplate.md
+  - name: Document replyTemplates editReplyTemplateCustomerLang
+    href: reply-templates/editreplytemplatecustomerlang.md
+  - name: Document replyTemplates editReplyTemplateFolder
+    href: reply-templates/editreplytemplatefolder.md
+  - name: Document replyTemplates findReplyTemplates
+    href: reply-templates/findreplytemplates.md
+  - name: Document replyTemplates newlangversion
+    href: reply-templates/newlangversion.md
+  - name: Document replyTemplates newReplyTemplate
+    href: reply-templates/newreplytemplate.md
+  - name: Document replyTemplates viewReplyTemplate
+    href: reply-templates/viewreplytemplate.md
+  - name: Work with email addresses
+    href: mailboxes/index.md
+    items:
+    - name: List email addresses
+      href: mailboxes/view-addresses.md
+    - name: newEabEntry
+      href: mailboxes/add-email-address.md
+    - name: editEabFolder
+      href: mailboxes/manage-folders.md

@@ -41,7 +41,7 @@ You can easily switch between these screens by clicking the buttons in the Navig
 To access SOLoader, advanced import, replication, Travel and scripting, see [The main sections of Windows Client settings][20].
 
 <!-- Referenced links -->
-[1]: ../../user/service/automation/index.md
+[1]: ../../automation/index.md
 [2]: ../../chat/index.md
 [3]: ../customer-center.md
 [4]: ../system-design.md

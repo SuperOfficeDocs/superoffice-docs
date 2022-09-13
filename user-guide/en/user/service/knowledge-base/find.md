@@ -28,10 +28,10 @@ To search for information in the knowledge base:
 * [Work with reply templates][5]
 
 <!-- Referenced links -->
-[1]: ../knowledge-base/work-with-documents.md
-[2]: externalDocument.md
-[3]: emailAddressBook.md
+[1]: ../../../clients/service/knowledge-base.md
+[2]: ../../../request/externalDocument.md
+[3]: ../../../document/index.md
 [4]: ../../../faq/index.md
-[5]: ../reply-templates/index.md
+[5]: ../../../request/reply-templates/index.md
 
 <!-- Referenced images -->

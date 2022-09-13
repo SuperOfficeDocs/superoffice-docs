@@ -37,7 +37,7 @@ The Navigator on the far left of the main screen contains the following buttons:
 | [![icon][img20]][21] | **App Store**: Click here to open the SuperOffice App Store, where you can explore standard apps, modules and integrations that can expand SuperOffice CRM Online. |
 
 <!-- Referenced links -->
-[1]: ../../user/service/automation/index.md
+[1]: ../../automation/index.md
 [2]: ../../chat/index.md
 [5]: ../../license/index.md
 [6]: ../../user-management/index.md

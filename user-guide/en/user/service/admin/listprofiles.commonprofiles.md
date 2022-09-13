@@ -23,7 +23,7 @@ We explain how to create a common profile by using a specific example. In the ex
 1. Select ![icon][img1] **System settings &gt; Profile**. The **Show profiles** screen appears.
 2. Choose **System**. This displays a hierarchical list of all the profiles in the system.
 3. Click **Search**.
-4. Point at **Find requests**, and click ![icon][img1] (**New common profile**) to the right of the name. The **Edit element profile** screen appears.
+4. Point at **Find requests**, and click ![icon][img2] (**New common profile**) to the right of the name. The **Edit element profile** screen appears.
 5. In the **Name** field, enter the name of the profile.
 6. Click the **Add criteria** button.
 7. In the dialog box that opens, do the following:
@@ -59,7 +59,7 @@ To delete a profile from SuperOffice Service, do as follows:
 * [Global profiles][5]
 
 <!-- Referenced links -->
-[1]: ../blogic/listScreenDefinitions.editScreenDefinition.md
+[1]: ../../../clients/admin/listScreenDefinitions.editScreenDefinition.md
 [2]: ../../../user-management/role/index.md
 [3]: ../../../user-management/role/create-role.md
 [4]: listProfiles.personalProfile.md

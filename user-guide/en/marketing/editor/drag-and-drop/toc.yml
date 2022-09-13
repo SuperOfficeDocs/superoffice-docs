@@ -1,0 +1,15 @@
+items:
+- name: Overview
+  href: index.md
+- name: Add a link to display the message in a browser
+  href: add-link-to-display-message-in-browser.md
+- name: Add content
+  href: add-content.md
+- name: Edit a paragraph
+  href: edit-paragraph.md
+- name: Insert images in the message
+  href: insert-images-in-message.md
+- name: Customize the message for display on mobile devices
+  href: customize-for-mobile.md
+- name: Add merge tags to your message
+  href: add-merge-tag.md

@@ -88,7 +88,7 @@ Here you can add translated versions of the document template. [!include[To do t
 5. Repeat the steps above to add additional languages.
 
 <!-- Referenced links -->
-[2]: ../../user/diary/template-variables.md
+[2]: ../../diary/template-variables.md
 [1]: replace-existing-template.md
 [4]: ../../sale/saint/index.md
 

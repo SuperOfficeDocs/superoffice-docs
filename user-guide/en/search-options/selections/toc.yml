@@ -1,0 +1,87 @@
+items:
+- name: Overview
+  href: index.md
+- name: Static selections
+  href: static-selections.md
+- name: Dynamic selections
+  href: dynamic-selections.md
+- name: Combined selections
+  href: combined-selections.md
+- name: Create a selection
+  href: create/index.md
+  items:
+  - name: Create static selection
+    href: create/create-static.yml
+  - name: Create dynamic selection
+    href: create/create-dynamic.yml
+  - name: Create combined selection
+    href: create/create-combined.yml
+  - name: Copy a selection
+    href: create/copy.md
+- name: Updating selections
+  href: update/index.md
+  items:
+  - name: Add members to static selection
+    href: update/add-members-to-static.md
+  - name: Remove members from static selection
+    href: update/remove-members-from-static.md
+  - name: Copy members to another selection
+    href: update/copy-members-to.md
+  - name: Delete a selection
+    href: update/delete.md
+- name: Performing tasks using selections
+  href: howto/index.md
+  items:
+  - name: Create mailing
+    href: howto/create-mailings.md
+  - name: Send email to multiple several recipients
+    href: howto/send-email.md
+  - name: Generating follow ups
+    href: howto/generate-follow-ups.md
+  - name: Display selections as charts
+    href: howto/display-as-charts.md
+  - name: Bulk update
+    href: howto/bulk-update.md
+  - name: Printing labels Selection
+    href: howto/print-labels.md
+  - name: Printing company reports
+    href: howto/print-company-reports.md
+  - name: Export to file
+    href: howto/export-to-file.md
+  - name: Export to Excel
+    href: howto/export-to-excel.md
+  - name: Deleting companies permanently
+    href: howto/deleting-companies-permanently.md
+- name: Selections in Service
+  href: in-service/index.md
+  items:
+  - name: List selections
+    href: in-service/listselections.md
+  - name: Update a selection
+    href: in-service/updateselection.md
+  - name: Create a selection
+    href: in-service/newselection.md
+    items:
+    - name: Create a selection based on search criteria
+      href: in-service/newselection.newselection.md
+    - name: Create a dynamic selection
+      href: in-service/newselection.newdynamicselection.md
+    - name: Create a script-based selection
+      href: in-service/newselection.newscriptselection.md
+    - name: Create a static selection
+      href: in-service/newselection.newstatselection.md
+    - name: Create a combined selection
+      href: in-service/newselection.newcombiselection.md
+  - name: Delete records in a selection
+    href: in-service/deleterecords.md
+  - name: Delete a selection
+    href: in-service/deleteselection.md
+  - name: Edit a selection
+    href: in-service/editselection2.md
+    items:
+    - name: Manage columns in selections
+      href: in-service/editselection2.editprofile.md
+  - name: Administrate folders of selections
+    href: in-service/editselectionfolder.md
+
+

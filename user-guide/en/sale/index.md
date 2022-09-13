@@ -45,7 +45,7 @@ To move backwards and forwards between sales click the previous/next buttons ( !
 
 <!-- Referenced links -->
 [1]: quote/create.md
-[2]: ../user/diary/sales-secretary.md
+[2]: ../diary/sales-secretary.md
 [3]: sales-guide/index.md
 [4]: create.md
 [5]: stakeholders/create-stakeholders.md

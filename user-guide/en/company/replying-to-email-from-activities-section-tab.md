@@ -23,6 +23,6 @@ E-mail messages that are saved as documents for a specific company are displayed
     * To send the message and archive it as a document in SuperOffice CRM, click **Send and archive**. The **Document** dialog opens. See [Create new documents][1].
 
 <!-- Referenced links -->
-[1]: ../user/diary/creating-new-documents.md
+[1]: ../diary/creating-new-documents.md
 
 <!-- Referenced images -->

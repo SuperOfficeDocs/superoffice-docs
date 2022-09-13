@@ -25,6 +25,6 @@ You can click on data in a tile (for instance a sector in a pie chart) to displa
 5. Click **Close** when you are done.
 
 <!-- Referenced links -->
-[1]: ../user/selections/adding-members-to-static-selections.md
+[1]: ../search-options/selections/update/add-members-to-static.md
 
 <!-- Referenced images -->

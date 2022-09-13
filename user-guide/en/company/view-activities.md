@@ -28,8 +28,8 @@ You can show all activities, or just one of the types. For more details about th
 * [Move between activities in the activities list][2]
 
 <!-- Referenced links -->
-[1]: ../user/diary/index.md
-[2]: ../user/diary/moving-between-activities-in-activities-list.md
-[3]: ../user/diary/using-filter-function-contact.md
+[1]: ../diary/index.md
+[2]: ../diary/moving-between-activities-in-activities-list.md
+[3]: ../diary/using-filter-function-contact.md
 
 <!-- Referenced images -->

@@ -44,8 +44,8 @@ The available parameters are as follows:
 [Template variables][2] can also be used in the phone parameters.
 
 <!-- Referenced links -->
-[1]: ../diary/dialling-contacts.md
-[2]: ../diary/template-variables.md
+[1]: ../../diary/dialling-contacts.md
+[2]: ../../diary/template-variables.md
 
 <!-- Referenced images -->
 [img1]: ../../../media/icons/dialogboksknapper-telefon.bmp
