@@ -83,4 +83,5 @@ When SuperOffice is used from the Internet, it means clients are often outside o
 [4]: https://github.com/iSECPartners/sslyze
 [5]: https://www.nsm.stat.no/globalassets/dokumenter/veiledninger/systemteknisk-sikkerhetu-03_sikring_av_windows_tls.pdf
 [6]: https://www.nsm.stat.no/globalassets/dokumenter/veiledninger/systemteknisk-sikkerhet/u-03_sikring_av_windows_tls.zip
+[7]: https://support.microsoft.com/en-us/kb/2458544
 [8]: set-up-emet.md
