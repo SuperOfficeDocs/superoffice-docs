@@ -40,7 +40,7 @@ Once the server is upgraded, you can run the *SuperOffice9.exe* (or *SuperOffice
 
 SuperOffice Web is upgraded by running *Setup.exe* from *SnMWeb* installation file. The setup can upgrade both NetServer and SuperOffice Web files.
 
-INCLUDE WARNING NETSERVER
+[!include[Remote NetServer](../../includes/remote-netserver-web.md)]
 
 ### 3. Upgrade SuperOffice 8 Service
 
