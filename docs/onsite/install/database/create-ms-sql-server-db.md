@@ -14,17 +14,9 @@ so.envir: onsite
 Are you going to run SuperOffice on a Microsoft SQL Server, follow these steps to set up the target database:
 
 1. Create a new target database using the SQL Management tool.
-Fill in the **Database name**, leave the **Owner** field to default.
-![Add new DB -screenshot][img1]
-
-2. Add a new login in **Security > Login**. The login name may be called CRM8, but you are free to name the user whatever you like. Switch to **SQL Server authentication** and fill in password. You may set the **Default database** to the SuperOffice one.
-![Add new login -screenshot][img2]
-
-3. Switch to **User Mapping** page and give the user `db_owner` permission (lower list) on the new database.
-![Add DB owner -screenshot][img3]
-
-4. Go to the new database, expand **Security** and **Schemas**. Create a new schema, the name of the schema will be the table prefix.
-![Create schema -screenshot][img4]
+2. Add a user (Security > Users). The user may be called CRM8, but you are free to name the user whatever you like.
+3. Give the user `db_owner` permissions (lower list) on the new database.
+4. Create a new schema, the name of the schema will be the table prefix.
 
 5. Create a new 32-bit ODBC System Data Source pointing to the new database.
 
@@ -45,7 +37,3 @@ Please refer to the manufacturer's web pages for more information.
 [13]: ../guide.md
 
 <!-- Referenced images -->
-[img1]: media/01-new-db.jpg
-[img2]: media/02-add-login.jpg
-[img3]: media/03-db-owner.jpg
-[img4]: media/04-add-schema.jpg
