@@ -1,4 +1,7 @@
 <!-- markdownlint-disable-file MD041 -->
+[!TIP]
+In the **Country** field, enter the contact’s country. The correct address format for the address field will be updated automatically. You can set your current home country from **System** in the preferences. See [Preferences][1].
+
 * Enter the title of the contact (business card title or position).
 
 * In the **E-mail** field, you can enter several e-mail addresses in the same way as for companies. If you click the contact's e-mail address in the **Contact** tab, you can click the required e-mail address in the list that appears. A blank e-mail message opens, with the e-mail address entered in the **To** field.
@@ -21,3 +24,6 @@
 
 > [!NOTE]
 > Three of the user-defined fields from the **More** tab may also be displayed here, as defined in SuperOffice Settings and maintenance. The fields displayed can vary from user group to user group.
+
+<!-- Referenced links -->
+[1]: ../user/getting-started/preferences.md
