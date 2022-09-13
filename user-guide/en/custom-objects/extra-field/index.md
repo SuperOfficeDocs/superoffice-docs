@@ -11,9 +11,9 @@ language: en
 
 # Extra fields
 
-See [Define extra fields][1].
+* [Define extra fields][1].
 
 <!-- Referenced links -->
-[1]: listExtraTables.listFields.editField.md
+[1]: create.md
 
 <!-- Referenced images -->

@@ -11,7 +11,7 @@ language: en
 
 # Screen
 
-[!include[Requirement](../../../includes/req-expander-services.md)]
+[!include[Requirement](../../includes/req-expander-services.md)]
 
 Here you can view the details of the selected screen.
 
@@ -37,7 +37,7 @@ Here you can view the details of the selected screen.
 [2]: listScreenDefinitions.editLanguage.md
 [3]: listScreenDefinitions.editScreenElement.md
 [4]: listScreenDefinitions.editScreenAction.md
-[5]: ../../../automation/listScripts.editMacro.md
+[5]: ../../automation/listScripts.editMacro.md
 [6]: listScreenDefinitions.viewScreenDefinitionDesign.md
 
 <!-- Referenced images -->

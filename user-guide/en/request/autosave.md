@@ -30,6 +30,6 @@ The autosave feature is activated by default when you view and edit requests (in
 
 <!-- Referenced links -->
 [1]: newQuickTicket.md
-[2]: ../user/service/blogic/listScreenDefinitions.editScreenDefinition.md
+[2]: ../clients/admin/listScreenDefinitions.editScreenDefinition.md
 
 <!-- Referenced images -->

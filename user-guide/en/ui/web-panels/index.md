@@ -24,6 +24,6 @@ In this way, SuperOffice Service can be adapted so that the information is where
 You can add the same type of content as described for [Extra menus][1].
 
 <!-- Referenced links -->
-[1]: listExtraMenus.md
+[1]: ../extra-menus/index.md
 
 <!-- Referenced images -->

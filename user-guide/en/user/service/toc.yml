@@ -108,71 +108,30 @@ items:
     href: admin/soapconf.md
   - name: Admin viewLicenses
     href: admin/viewlicenses.md
-- name: Blogic
-  href: blogic/index.md
-  items:
   - name: Blogic listDbiAgents
-    href: blogic/listdbiagents.md
+    href: admin/listdbiagents.md
   - name: Blogic listDbiAgents editDbiAgent
-    href: blogic/listdbiagents.editdbiagent.md
+    href: admin/listdbiagents.editdbiagent.md
   - name: Blogic listDbiAgents editDbiAgentField
-    href: blogic/listdbiagents.editdbiagentfield.md
+    href: admin/listdbiagents.editdbiagentfield.md
   - name: Blogic listDbiAgents editDbiAgentSchedule
-    href: blogic/listdbiagents.editdbiagentschedule.md
+    href: admin/listdbiagents.editdbiagentschedule.md
   - name: Blogic listDbiAgents listDbiAgents
-    href: blogic/listdbiagents.listdbiagents.md
+    href: admin/listdbiagents.listdbiagents.md
   - name: Blogic listDbiAgents newDbiAgentSchedule
-    href: blogic/listdbiagents.newdbiagentschedule.md
+    href: admin/listdbiagents.newdbiagentschedule.md
   - name: Blogic listDbiAgents viewDbiAgent
-    href: blogic/listdbiagents.viewdbiagent.md
+    href: admin/listdbiagents.viewdbiagent.md
   - name: Blogic listDebugLog
-    href: blogic/listdebuglog.md
-  - name: Blogic listExtraMenus
-    href: blogic/listextramenus.md
-  - name: Blogic listExtraMenus editExtraMenu
-    href: blogic/listextramenus.editextramenu.md
-  - name: Blogic listExtraMenus editExtraMenu menubutton
-    href: blogic/listextramenus.editextramenu-menubutton.md
-  - name: Blogic listExtraMenus editExtraMenu navigator
-    href: blogic/listextramenus.editextramenu-navigator.md
-  - name: Blogic listExtraTables
-    href: blogic/listextratables.md
-  - name: Blogic listExtraTables editExtraTable
-    href: blogic/listextratables.editextratable.md
-  - name: Blogic listExtraTables editExtraTablesFolder
-    href: blogic/listextratables.editextratablesfolder.md
-  - name: Blogic listExtraTables listFields
-    href: blogic/listextratables.listfields.md
-  - name: Blogic listExtraTables listFields editField
-    href: blogic/listextratables.listfields.editfield.md
+    href: admin/listdebuglog.md
   - name: Blogic listPackages
-    href: blogic/listpackages.md
+    href: admin/listpackages.md
   - name: Blogic listPackages editPackage
-    href: blogic/listpackages.editpackage.md
-  - name: Blogic listScreenChoosers
-    href: blogic/listscreenchoosers.md
-  - name: Blogic listScreenChoosers editScreenChooser
-    href: blogic/listscreenchoosers.editscreenchooser.md
-  - name: Blogic listScreenDefinitions editLanguage
-    href: blogic/listscreendefinitions.editlanguage.md
-  - name: Blogic listScreenDefinitions editScreenAction
-    href: blogic/listscreendefinitions.editscreenaction.md
-  - name: Blogic listScreenDefinitions editScreenDefinition
-    href: blogic/listscreendefinitions.editscreendefinition.md
-  - name: Blogic listScreenDefinitions editScreenDefinitionFolder
-    href: blogic/listscreendefinitions.editscreendefinitionfolder.md
-  - name: Blogic listScreenDefinitions editScreenElement
-    href: blogic/listscreendefinitions.editscreenelement.md
-  - name: Blogic listScreenDefinitions viewScreenDefinition
-    href: blogic/listscreendefinitions.viewscreendefinition.md
-  - name: Blogic listScreenDefinitions viewScreenDefinitionDesign
-    href: blogic/listscreendefinitions.viewscreendefinitiondesign.md
-  - name: Blogic listsWebpanels
-    href: blogic/listswebpanels.md
+    href: admin/listpackages.editpackage.md
   - name: Blogic listSystemScripts
-    href: blogic/listsystemscripts.md
+    href: admin/listsystemscripts.md
   - name: Blogic listSystemScripts editSystemScript
-    href: blogic/listsystemscripts.editsystemscript.md
+    href: admin/listsystemscripts.editsystemscript.md
 
 - name: Getting started
   href: getting-started/index.md

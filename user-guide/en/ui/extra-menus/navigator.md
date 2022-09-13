@@ -31,8 +31,8 @@ Do as follows:
 14. Click the navigator group and the new extra menu and check that the website opens correctly.
 
 <!-- Referenced links -->
-[1]: listExtraMenus.editExtraMenu.md
+[1]: properties.md
 
 <!-- Referenced images -->
-[img1]: ../../../../media/icons/btn-add.png
-[img2]: ../../../../media/icons/globalmenu-settings-small.png
+[img1]: ../../../media/icons/btn-add.png
+[img2]: ../../../media/icons/globalmenu-settings-small.png

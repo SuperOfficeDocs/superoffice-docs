@@ -11,7 +11,7 @@ language: en
 
 # Tables
 
-[!include[Requirement](../../../includes/req-expander-services.md)]
+[!include[Requirement](../../includes/req-expander-services.md)]
 
 In the **Tables** screen in **System design** there is a list of the tables in the system. Here you can extend the SuperOffice Service by creating new tables and fields for different screens in the system.
 
@@ -23,13 +23,17 @@ This screen displays both standard tables, predefined in the system and which fo
 > [!NOTE]
 > If your company uses SuperOffice CRM, you will see a message that NetServer must be restarted every time you add new fields/tables. If Travel is activated, you will also see a message that a new Travel database must be generated.
 
+## Table folder properties
+
+This screen is used to edit the properties of a new or existing table folder. Table folders are used to organize your custom tables.
+
 ## What would you like to do now?
 
 * [Define extra tables][1]
 * [Define extra fields][2]
 
 <!-- Referenced links -->
-[1]: listExtraTables.editExtraTable.md
-[2]: listExtraTables.listFields.editField.md
+[1]: ../../custom-objects/extra-table/create.md
+[2]: ../../custom-objects/extra-field/create.md
 
 <!-- Referenced images -->

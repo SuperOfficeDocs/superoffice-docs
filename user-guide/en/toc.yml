@@ -37,6 +37,8 @@ items:
     href: reports/toc.yml
   - name: Import web
     href: import/toc.yml
+  - name: Custom objects
+    href: custom-objects/toc.yml
   - name: User
     href: user/toc.yml
   - name: Admin
@@ -47,6 +49,8 @@ items:
     href: search-options/toc.yml
   - name: User management
     href: user-management/toc.yml
+  - name: UI
+    href: ui/toc.yml
   - name: Customer center
     href: customer-center/toc.yml
   - name: win-client

@@ -60,6 +60,6 @@ To create extra fields in tables:
 <!-- Referenced links -->
 
 <!-- Referenced images -->
-[img1]: ../../../../media/icons/globalmenu-settings-small.png
-[img2]: ../../../../media/icons/service/btn-newfield.png
-[img3]: ../../../../media/icons/service/btn-restartNetserver.png
+[img1]: ../../../media/icons/globalmenu-settings-small.png
+[img2]: ../../../media/icons/service/btn-newfield.png
+[img3]: ../../../media/icons/service/btn-restartNetserver.png

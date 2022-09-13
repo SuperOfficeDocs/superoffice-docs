@@ -43,11 +43,11 @@ See also [Menu properties][1].
 * [Add navigator group and extra menu][4]
 
 <!-- Referenced links -->
-[1]: listExtraMenus.editExtraMenu.md
-[2]: listExtraMenus.editExtraMenu-menubutton.md
-[3]: listsWebpanels.md
-[4]: listExtraMenus.editExtraMenu-navigator.md
+[1]: properties.md
+[2]: actions.md
+[3]: ../web-panels/index.md
+[4]: navigator.md
 
 <!-- Referenced images -->
-[img1]: ../../../../media/icons/btn-menu.png
-[img2]: ../../../../media/icons/globalmenu-settings-small.png
+[img1]: ../../../media/icons/btn-menu.png
+[img2]: ../../../media/icons/globalmenu-settings-small.png
