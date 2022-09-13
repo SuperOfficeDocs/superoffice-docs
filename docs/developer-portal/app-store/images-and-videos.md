@@ -71,8 +71,8 @@ What the final result could be:
 
 1. In the Developer Portal, go to your application page.
 2. Select **App Store information** from the left menu, then select **Images and videos**.
-3. Click the **Add Video** button.
-4. Enter URL, alt text, and YouTube tag.
+3. Click the **Add Videos** button.
+4. Enter alt text, and YouTube video ID.
 5. Repeat steps 3 and 4 to add more videos.
 6. Click **Save Settings**.
 
