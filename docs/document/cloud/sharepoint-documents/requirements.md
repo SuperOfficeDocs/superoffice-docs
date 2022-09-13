@@ -40,9 +40,9 @@ so.client: online
 >
 > Support for migrating existing documents in SuperOffice archive (SO cloud) to SharePoint. Pilot program from SuperOffice Online 10.1.5.
 >
-> Support for migrating existing CloudOffice customers (version 1) to 'SharePoint documents 2.0'. Pilot program from SuperOffice Online 10.1.5.
+> Support for migrating existing CloudOffice customers (version 1) to 'SharePoint documents 2.0'. Pilot program from SuperOffice Online 10.1.5.
 >
-> No support for moving a documents to other SharePoint "sites", only within the same site.
+> No support for moving a documents to other SharePoint "sites", only within the same site.
 
 <!-- Referenced links -->
 [2]: ../legacy/office-365/prepare-sharepoint.md

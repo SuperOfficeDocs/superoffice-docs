@@ -44,4 +44,4 @@ Enabling Application permission with Sites.Selected has following steps:
 |---|---|
 | Authenticate Global administrator, request additional scopes for permission handling | Global Administrator |
 | Approve the app with site selected scope | SharePoint Administrator |
-| Make the post call to assign the role for the app(read, write) | Global Administrator |
+| Make the post call to assign the role for the app (read, write) | Global Administrator |
