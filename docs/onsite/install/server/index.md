@@ -23,6 +23,8 @@ A warning will be given when installing prerequisites if the installation of the
 
 The reason is the prerequisites installation program on the installation package contains only the boot-strapper for the .NET installation and not the entire setup program (approx 2.5 MB versus 250 MB).
 
+The server where you install SuperOffice CRM Server needs to have an internet connection and access to our License server on [https://license.superoffice.com][4].
+
 ## Install
 
 Choose one of:
@@ -62,6 +64,7 @@ If you are upgrading from an earlier version of SuperOffice, make sure to select
 [1]: ../../requirements/crm-server.md
 [2]: silent-serversetup.md
 [3]: install-on-citrix.md
+[4]: https://license.superoffice.com
 [11]: ../../../service/install/prepare.md
 [12]: ../../../service/install/index.md
 [13]: ../guide.md
