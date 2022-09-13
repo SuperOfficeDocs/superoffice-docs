@@ -25,6 +25,8 @@ items:
     href: dashboard/toc.yml
   - name: Email
     href: email/toc.yml
+  - name: Document
+    href: document/toc.yml
   - name: ERP
     href: erp/toc.yml
   - name: Faq

@@ -17,25 +17,20 @@ This applies, for example, when you use the **Message** tab when answering reque
 
 Apart from this practical use, external documents are otherwise dealt with in the same way as other documents. This means that you can follow the procedures in the topics below when working with external documents; you just need to remember to select **Knowledge Base** &gt; **External documents** first, so that you are working from the correct location:
 
-[View documents][2]
-
-[Create documents][3]
-
-[Edit documents][4]
-
-[Delete documents][5]
-
-[Search for documents][6]
-
-[Administrate folders of documents][7]
+* [View documents][2]
+* [Create documents][3]
+* [Edit documents][4]
+* [Delete documents][5]
+* [Search for documents][6]
+* [Administrate folders of documents][7]
 
 <!-- Referenced links -->
-[1]: ../../../request/showListTickets.addMessage.md
-[2]: ../knowledge-base/viewDocument.md
-[3]: ../knowledge-base/newDocument.md
-[4]: ../knowledge-base/editDocument.md
-[5]: ../knowledge-base/delDocument.md
-[6]: ../knowledge-base/findDocument.md
-[7]: ../knowledge-base/editFolder.md
+[1]: showlisttickets.addmessage.md
+[2]: ../document/view.md
+[3]: ../document/create.md
+[4]: ../document/edit.md
+[5]: ../document/delete.md
+[6]: ../document/find.md
+[7]: ../document/manage-folders.md
 
 <!-- Referenced images -->

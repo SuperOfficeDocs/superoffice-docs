@@ -1,3 +1,4 @@
+<!-- markdownlint-disable-file MD041 -->
 When you are ready to delete the folder itself, do as follows:
 
 1. Go to the required folder.

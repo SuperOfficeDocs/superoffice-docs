@@ -17,7 +17,7 @@ To register an e-mail address:
 
 1. Select **Knowledge Base** &gt; **E-mail addresses**.
 
-2. Go to the folder you want to put the e-mail address in. If it does not yet exist, you can create a new folder. See [Administrate e-mail address folders][1].
+2. Go to the folder you want to put the e-mail address in. If it does not yet exist, you can [create a new folder][1].
 
 3. Click the **New e-mail address** button. This takes you to the **E-mail address properties** screen.
 
@@ -32,7 +32,7 @@ To register an e-mail address:
 8. Click **OK**. The e-mail address is added to the specified folder and will be available the next time you want to send an e-mail.
 
 <!-- Referenced links -->
-[1]: emailAddressBook.editEabFolder.md
+[1]: manage-folders.md
 
 <!-- Referenced images -->
-[img1]: ../../../../../common/icons/dropdown-arrow.png
+[img1]: ../../../../common/icons/dropdown-arrow.png

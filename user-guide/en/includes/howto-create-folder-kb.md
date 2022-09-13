@@ -1,3 +1,4 @@
+<!-- markdownlint-disable-file MD041 -->
 To create a new folder:
 
 1. Go to the folder you want to create a subfolder under.

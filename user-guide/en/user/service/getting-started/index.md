@@ -41,7 +41,7 @@ When you click one of these buttons, you get access to various options, such as 
 [2]: ../../../search-options/selections/in-service/index.md
 [3]: ../../../dashboard/service/statistics/index.md
 [4]: ../../../request/index.md
-[5]: ../knowledge-base/index.md
+[5]: ../../../clients/service/knowledge-base.md
 [6]: navigator-options.md
 [7]: ../../../dashboard/service/index.md
 [8]: ../../../chat/index.md

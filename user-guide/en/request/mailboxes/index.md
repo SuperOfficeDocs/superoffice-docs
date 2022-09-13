@@ -15,15 +15,13 @@ Under **Knowledge Base &gt; E-mail addresses** you can create a list of e-mail a
 
 ## What would you like to do now?
 
-[List e-mail addresses][1]
-
-[Create e-mail addresses][2]
-
-[Administrate e-mail address folders][3]
+* [List email addresses][1]
+* [Create email addresses][2]
+* [Administrate email address folders][3]
 
 <!-- Referenced links -->
-[1]: emailAddressBook.viewEabEntry.md
-[2]: emailAddressBook.newEabEntry.md
-[3]: emailAddressBook.editEabFolder.md
+[1]: view-addresses.md
+[2]: add-email-address.md
+[3]: manage-folders.md
 
 <!-- Referenced images -->

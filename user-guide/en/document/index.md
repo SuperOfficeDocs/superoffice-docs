@@ -26,12 +26,12 @@ Under **Knowledge Base &gt; Documents** you can add documents to make them avail
 * [Administrate folders of documents][7]
 
 <!-- Referenced links -->
-[1]: externalDocument.md
-[2]: viewDocument.md
-[3]: newDocument.md
-[4]: editDocument.md
-[5]: delDocument.md
-[6]: findDocument.md
-[7]: editFolder.md
+[1]: ../request/externaldocument.md
+[2]: view.md
+[3]: create.md
+[4]: edit.md
+[5]: delete.md
+[6]: find.md
+[7]: manage-folders.md
 
 <!-- Referenced images -->

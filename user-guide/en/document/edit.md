@@ -44,7 +44,7 @@ By editing the document's properties, you can, for example, change who is to hav
 > If you want to move the document to a different folder, you can select the new folder in the **In folder** field.
 
 <!-- Referenced links -->
-[1]: newDocument.md
+[1]: create.md
 
 <!-- Referenced images -->
-[img1]: ../../../../media/icons/service/btn-Download.png
+[img1]: ../../media/icons/service/btn-download.png

@@ -9,7 +9,7 @@ so.topic: help
 language: en
 ---
 
-# Administrate e-mail address folders
+# Administrate email address folders
 
 Under **Knowledge Base** &gt; **E-mail addresses** you can create a folder structure for e-mail addresses, to give them a logical structure and make it easy for others to find information. You can create subfolders in all folders, and you can place e-mail addresses in any of these folders as appropriate. Find out more below about how to work with the folder structure.
 
@@ -17,24 +17,19 @@ Under **Knowledge Base** &gt; **E-mail addresses** you can create a folder struc
 
 [!include[How to create a folder](../../includes/howto-create-folder-kb.md)]
 
-You are now ready to add e-mail addresses to the new folder. See [Create e-mail addresses][1].
+You are now ready to [add email addresses to the new folder][1].
 
 ## Delete folders
 
 Before you delete an e-mail folder, you need to remove all the addresses in it. You do this in one of the following ways:
 
-* You can delete the addresses as described under [List e-mail addresses][2].
-* You can move an e-mail address to another folder by changing the content of the **Folder** field when you edit an address. See [Create e-mail addresses][3].
+* You can [delete the addresses][2].
+* You can move an email address to another folder by changing the content of the **Folder** field when you edit an address.
 
 [!include[How to delete a folder](../../includes/howto-delete-folder-kb.md)]
 
-## What would you like to do now?
-
-[Create e-mail addresses][3]
-
 <!-- Referenced links -->
-[1]: emailAddressBook.newEabEntry.md
-[2]: emailAddressBook.viewEabEntry.md
-[3]: emailAddressBook.newEabEntry.md
+[1]: add-email-address.md
+[2]: view-addresses.md
 
 <!-- Referenced images -->

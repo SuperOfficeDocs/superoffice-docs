@@ -28,10 +28,10 @@ To display the contents of a document in the knowledge base:
 [Delete documents][4]
 
 <!-- Referenced links -->
-[1]: editFolder.md
-[2]: newDocument.md
-[3]: editDocument.md
-[4]: delDocument.md
+[1]: manage-folders.md
+[2]: create.md
+[3]: edit.md
+[4]: delete.md
 
 <!-- Referenced images -->
-[img1]: ../../../../media/icons/service/down.png
+[img1]: ../../media/icons/service/down.png

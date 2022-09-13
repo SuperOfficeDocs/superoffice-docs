@@ -73,6 +73,8 @@ items:
   href: viewcompany.listinvoicescontact.editinvoice.md
 - name: viewCustomer listInvoices
   href: viewcustomer.listinvoices.md
+- name: Document externalDocument
+  href: externaldocument.md
 - name: Reply templates
   href: reply-templates/index.md
   items:
@@ -94,3 +96,12 @@ items:
     href: reply-templates/newreplytemplate.md
   - name: Document replyTemplates viewReplyTemplate
     href: reply-templates/viewreplytemplate.md
+  - name: Work with email addresses
+    href: mailboxes/index.md
+    items:
+    - name: List email addresses
+      href: mailboxes/view-addresses.md
+    - name: newEabEntry
+      href: mailboxes/add-email-address.md
+    - name: editEabFolder
+      href: mailboxes/manage-folders.md

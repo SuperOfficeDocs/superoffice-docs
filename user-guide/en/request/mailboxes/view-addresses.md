@@ -9,9 +9,9 @@ so.topic: help
 language: en
 ---
 
-# List e-mail addresses
+# List email addresses
 
-If you want details of the e-mail addresses that have been registered, select **Knowledge Base** &gt; **E-mail addresses**. This takes you to the **E-mail addresses** screen, which contains e-mail addresses in a folder structure that you can create yourself. See [Administrate e-mail address folders][1].
+If you want details of the email addresses that have been registered, select **Knowledge Base** &gt; **E-mail addresses**. This takes you to the **E-mail addresses** screen, which contains e-mail addresses in a folder structure that you can create yourself. See [Administrate e-mail address folders][1].
 
 * To create a new e-mail address, see [Create e-mail addresses][2].
 * To edit an existing e-mail address, click the name in the list. See [Create e-mail addresses][2].
@@ -19,8 +19,8 @@ If you want details of the e-mail addresses that have been registered, select **
 * To delete an e-mail address, click the name in the list, and click **Delete** in the **E-mail address properties** screen.
 
 <!-- Referenced links -->
-[1]: emailAddressBook.editEabFolder.md
-[2]: emailAddressBook.newEabEntry.md
-[3]: ../../../search-options/in-service/index.md
+[1]: manage-folders.md
+[2]: add-email-address.md
+[3]: ../../search-options/in-service/index.md
 
 <!-- Referenced images -->

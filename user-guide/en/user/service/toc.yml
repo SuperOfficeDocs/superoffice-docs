@@ -185,36 +185,5 @@ items:
     href: getting-started/buttons.topbar.md
   - name: Rms navigate favourites
     href: getting-started/favorites.md
-- name: Knowledge base
-  href: knowledge-base/index.md
-  items:
-  - name: Document document
-    href: knowledge-base/work-with-documents.md
-  - name: Document document delDocument
-    href: knowledge-base/deldocument.md
-  - name: Document document editDocument
-    href: knowledge-base/editdocument.md
-  - name: Document document editFolder
-    href: knowledge-base/editfolder.md
-  - name: Document document findDocument
-    href: knowledge-base/finddocument.md
-  - name: Document document newDocument
-    href: knowledge-base/newdocument.md
-  - name: Document document viewDocument
-    href: knowledge-base/viewdocument.md
-  - name: Document emailAddressBook
-    href: knowledge-base/emailaddressbook.md
-  - name: Document emailAddressBook editEabFolder
-    href: knowledge-base/emailaddressbook.editeabfolder.md
-  - name: Document emailAddressBook newEabEntry
-    href: knowledge-base/emailaddressbook.neweabentry.md
-  - name: Document emailAddressBook viewEabEntry
-    href: knowledge-base/document.emailaddressbook.vieweabentry.md
-  - name: Document emailAddressBook viewEabEntry
-    href: knowledge-base/emailaddressbook.vieweabentry.md
-  - name: Document externalDocument
-    href: knowledge-base/externaldocument.md
-  - name: Document find
-    href: knowledge-base/document.find.md
-  - name: Document find
-    href: knowledge-base/find.md
+- name: Knowledge base search
+  href: knowledge-base/find.md

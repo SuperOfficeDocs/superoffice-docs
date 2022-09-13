@@ -25,7 +25,7 @@ Under **Knowledge Base** &gt; **Documents** you can create a folder structure fo
 
 ## Delete folders
 
-When you delete a folder, all the documents in it are also deleted from SuperOffice Service. [!include[To do this](../../../includes/to-do-this.md)]
+When you delete a folder, all the documents in it are also deleted from SuperOffice Service.
 
 1. Select **Knowledge Base** &gt; **Documents**.
 2. Go to the required folder.
@@ -38,7 +38,7 @@ When you delete a folder, all the documents in it are also deleted from SuperOff
 [Create documents][1]
 
 <!-- Referenced links -->
-[1]: newDocument.md
+[1]: create.md
 
 <!-- Referenced images -->
-[img1]: ../../../../../common/icons/dropdown-arrow.png
+[img1]: ../../../common/icons/dropdown-arrow.png
