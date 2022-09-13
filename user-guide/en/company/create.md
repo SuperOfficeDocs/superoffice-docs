@@ -21,10 +21,12 @@ In the **Company** screen you can enter information about companies on several l
 
     Type in the name of the company in the field at the top of the **Company** tab. ***Company name*** is shown in red, indicating that this field is mandatory. If you try to create a company with the same, or similar, name as an existing company, the **Duplicates** dialog opens. [!include[For more info](../user/includes/see-duplicates.md)]
 
-2. Enter the required information in the other fields.
+2. In the **Country** field, enter the company’s country. The correct address format for this country will be updated automatically in the **Company** tab. You can set your current home country from **System** in the preferences. See [Preferences][3].
+
+3. Enter the required information in the other fields.
 
     > [!NOTE]
-    > Default field values and list values are specified in the [Preferences dialog][3].
+    > Default field values and list values (such as business and category) are specified in the [Preferences dialog][3].
 
     <details><summary>What goes in the various fields?</summary>
 
@@ -32,7 +34,7 @@ In the **Company** screen you can enter information about companies on several l
 
     </details>
 
-3. Click **Save** to save the information entered, or click the **More** tab to enter further information about the company.
+4. Click **Save** to save the information entered, or click the **More** tab to enter further information about the company.
 
 ## <a id="more-tab" />The More tab (Company screen)
 
