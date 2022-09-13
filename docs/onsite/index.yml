@@ -98,7 +98,7 @@ conceptualContent:
         links:
           - url: upgrade/to-9/index.md
             itemType: how-to-guide
-            text: To version 9        
+            text: To version 9 or 10       
           - url: upgrade/to-81/index.md
             itemType: how-to-guide
             text: To version 8.1 - 8.5
