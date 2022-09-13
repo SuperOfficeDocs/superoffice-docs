@@ -16,9 +16,9 @@ SuperOffice CRM Web and Service must be installed on the same hostname from vers
 > [!NOTE]
 > All SuperOffice products must be installed on the same domain, under different directories. For example, `https://socrm.myorganization.com/sales` and `https://socrm.myorganization.com/service`.
 
-## Before you begin
-
 [!include[Remote NetServer](../../includes/remote-netserver-web.md)]
+
+## Before you begin
 
 * Install the SuperOffice CRM Server to set up or upgrade the database.
 * A SuperOffice database must be available, to install see [CRM Server][1].
