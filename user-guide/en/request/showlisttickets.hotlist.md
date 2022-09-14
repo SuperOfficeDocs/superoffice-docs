@@ -52,7 +52,7 @@ To view the favourites list, do one of the following:
 [Favourites][1]
 
 <!-- Referenced links -->
-[1]: ../user/service/getting-started/favorites.md
+[1]: ../getting-started/favourites.md
 [2]: showListTickets.askForHelp.md
 [3]: listTicket.md
 

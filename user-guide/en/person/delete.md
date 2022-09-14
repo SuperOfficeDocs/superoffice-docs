@@ -50,9 +50,9 @@ For details about deleting items, see [Delete items in SuperOffice CRM][4].)
 
 <!-- Referenced links -->
 [2]: merge-contacts.md
-[3]: ../user/getting-started/bulk-update.md
-[4]: ../user/getting-started/deleting-elements-in-crm.md
-[5]: ../user/getting-started/restore-deleted-companies-and-contacts.md
+[3]: ../getting-started/bulk-update.md
+[4]: ../getting-started/deleting-elements.md
+[5]: ../getting-started/restore-deleted-companies-and-contacts.md
 [6]: create.md
 
 <!-- Referenced images -->

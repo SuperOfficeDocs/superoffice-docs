@@ -32,6 +32,6 @@ A dot on the **Note** tab indicates that a note has been added.
 To delete a note, simply delete all the text in the note. The dot disappears from the **Note** tab.
 
 <!-- Referenced links -->
-[1]: ../user/getting-started/notepad.md
+[1]: ../getting-started/notepad.md
 
 <!-- Referenced images -->

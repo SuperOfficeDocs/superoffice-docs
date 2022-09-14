@@ -40,7 +40,7 @@ The requests that have been overwritten (i.e. the request IDs have been overwrit
 
 <!-- Referenced links -->
 [1]: listTicket.md
-[2]: ../search-options/in-service/useQuickSearch.md
+[2]: ../search-options/in-service/quick-search.md
 [3]: showListTickets.addMessage.md
 [4]: showListTickets.askForHelp.md
 [5]: showListTickets.forward.md

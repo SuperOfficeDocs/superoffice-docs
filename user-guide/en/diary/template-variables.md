@@ -615,6 +615,6 @@ These are variables for SuperOffice Service data used in SuperOffice CRM. [Click
 
 <!-- Referenced links -->
 [1]: template-variables-examples.md
-[2]: ../user/service/template-variables.md
+[2]: ../request/template-variables.md
 
 <!-- Referenced images -->

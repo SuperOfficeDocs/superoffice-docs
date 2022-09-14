@@ -30,7 +30,7 @@ If you check **Include stakeholders** at the bottom of the section tab, sales wh
 [1]: ../../../sale/index.md
 [2]: ../../../sale/stakeholders/index.md
 [3]: ../../../diary/using-filter-function-contact.md
-[4]: ../../../user/getting-started/changing-column-view.md
+[4]: ../../howto/changing-column-view.md
 
 <!-- Referenced images -->
 [img1]: ../../../../media/icons/filter.bmp

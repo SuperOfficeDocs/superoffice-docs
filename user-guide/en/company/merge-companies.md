@@ -57,7 +57,7 @@ To merge companies:
 * [Merge contacts][2]
 
 <!-- Referenced links -->
-[1]: ../user/getting-started/using-fastsearcher.md
+[1]: ../search-options/using-fastsearcher.md
 [2]: ../person/merge-contacts.md
 
 <!-- Referenced images -->

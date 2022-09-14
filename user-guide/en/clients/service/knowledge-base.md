@@ -26,7 +26,7 @@ The knowledge base gives request handlers access to saved data in a single locat
 * **Reply templates**: Here you will find a list of all the [reply templates][6] in the system. A reply template consists of ready-made text that can be pasted into a message you are writing to a customer.
 
 <!-- Referenced links -->
-[1]: ../../user/service/knowledge-base/find.md
+[1]: ../../search-options/in-service/search-kb.md
 [2]: ../../document/index.md
 [3]: ../../request/externaldocument.md
 [4]: ../../request/mailboxes/index.md

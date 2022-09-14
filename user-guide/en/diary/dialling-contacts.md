@@ -28,7 +28,7 @@ You do this using the telephone button in, for example, the **Appointment**, **T
 2. Click a phone number in a column containing phone numbers. The contact is then dialled.
 
 <!-- Referenced links -->
-[1]: ../user/getting-started/phone-preferences.md
+[1]: phone-preferences.md
 
 <!-- Referenced images -->
 [img1]: ../../media/icons/dialogboksknapper-telefon.bmp

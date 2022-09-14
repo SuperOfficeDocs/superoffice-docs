@@ -34,6 +34,6 @@ To see an example of how to edit and delete search criteria in a report, see [Ed
 [1]: editing-search-criteria-in-reports.md
 [3]: labels/add-format.md
 [4]: adding-search-criteria-to-reports.md
-[5]: ../user/getting-started/using-search-criteria.md
+[5]: ../search-options/using-search-criteria.md
 
 <!-- Referenced images -->

@@ -38,8 +38,8 @@ language: en
 * [Add members to static selections][3]
 
 <!-- Referenced links -->
-[1]: ../../../user/getting-started/find-dialog.md
-[2]: ../../../user/getting-started/using-search-criteria.md
+[1]: ../../find-dialog.md
+[2]: ../../using-search-criteria.md
 [3]: add-members-to-static.md
 
 <!-- Referenced images -->

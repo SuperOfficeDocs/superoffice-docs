@@ -50,6 +50,6 @@ This topic explains how you set the legal basis and source for the purposes call
 
 <!-- Referenced links -->
 [1]: https://community.superoffice.com/en/learning/admin-guide/gdpr-privacy-settings/
-[2]: ../../user/getting-started/bulk-update.md
+[2]: ../../getting-started/bulk-update.md
 
 <!-- Referenced images -->

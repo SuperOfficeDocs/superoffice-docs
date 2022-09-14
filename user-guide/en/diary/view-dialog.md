@@ -83,8 +83,8 @@ Closes the dialog without saving changes.
 [2]: viewing-views-for-entire-user-group.md
 [3]: using-group-view.md
 [4]: creating-appointments-for-associates.md
-[5]: ../user/getting-started/using-history-list.md
-[6]: ../user/getting-started/using-fastsearcher.md
+[5]: ../search-options/using-history-list.md
+[6]: ../search-options/using-fastsearcher.md
 
 <!-- Referenced images -->
 [img1]: ../../media/icons/btn-menu.png

@@ -22,8 +22,8 @@ To edit an existing tile:
 7. Click **Save**.
 
 <!-- Referenced links -->
-[1]: ../user/getting-started/using-search-criteria.md
-[2]: ../translate-fields.md
+[1]: ../search-options/using-search-criteria.md
+[2]: ../globalization/translate-fields.md
 
 <!-- Referenced images -->
 [img1]: ../../media/icons/translate.png

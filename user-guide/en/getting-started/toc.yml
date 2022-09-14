@@ -1,0 +1,41 @@
+items:
+- name: Overview
+  href: index.md
+- name: Introduction to Standard CRM
+  href: about-standard-crm.md
+- name: Introduction to Service
+  href: about-service.md
+- name: Log in
+  href: login.md
+- name: Refresh data
+  href: refresh-data.md
+- name: Main screen
+  href: main-screen.md
+- name: Navigator
+  href: navigator.md
+- name: Buttons in the menu bar
+  href: buttons-in-menu-bar.md
+- name: Global buttons
+  href: global-buttons.md
+- name: Side panels
+  href: side-panel.md
+- name: Preferences
+  href: preferences.md
+- name: Favorites
+  href: favourites.md
+- name: Tooltip
+  href: info-box.md
+- name: Notepad
+  href: notepad.md
+- name: How to...
+  items:
+  - name: Delete an element
+    href: deleting-elements.md
+  - name: Restore deleted companies and contacts
+    href: restore-deleted-companies-and-contacts.md
+  - name: Duplicates
+    href: duplicates.md
+  - name: Bulk update
+    href: bulk-update.md
+- name: Technical requirements
+  href: technical-requirements.md

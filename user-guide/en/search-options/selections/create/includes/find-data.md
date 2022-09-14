@@ -11,4 +11,4 @@
 1. If you want to save the results in a selection, click **Save as selection**. If not, refine your search criteria.
 
 <!-- Referenced links -->
-[2]: ../../../../user/getting-started/using-search-criteria.md
+[2]: ../../../using-search-criteria.md

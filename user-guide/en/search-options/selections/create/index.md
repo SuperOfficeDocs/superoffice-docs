@@ -35,7 +35,7 @@ Step 1 is different for combined selections because you start with two existing 
 [2]: create-dynamic.yml
 [3]: create-combined.yml
 
-[4]: ../../../user/getting-started/section-tabs.md
+[4]: ../../../clients/howto/section-tabs.md
 [5]: ../howto/index.md
 [6]: ../update/index.md
 

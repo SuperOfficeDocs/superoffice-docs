@@ -86,7 +86,7 @@ Here you can add translated versions of the document template. [!include[To do t
 > As described above, you can add translations of the template name and e-mail subject by clicking ![icon][img1] next to the relevant field. See [Translation][1].
 
 <!-- Referenced links -->
-[1]: ../../translate-fields.md
+[1]: ../../globalization/translate-fields.md
 [2]: ../../diary/template-variables.md
 [3]: ../../sale/admin/sale-type-stages-quote.md
 [4]: ../../person/gdpr/privacy-source-add.md

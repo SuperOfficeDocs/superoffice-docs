@@ -40,7 +40,7 @@ language: en
 3. Click **Send** to send the message.
 
 <!-- Referenced links -->
-[1]: ../user/getting-started/using-fastsearcher.md
-[2]: ../user/getting-started/using-history-list.md
+[1]: ../search-options/using-fastsearcher.md
+[2]: ../search-options/using-history-list.md
 
 <!-- Referenced images -->

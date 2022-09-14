@@ -7,3 +7,5 @@ items:
   href: admin/index.md
 - name: Service
   href: service/toc.yml
+- name: How to...
+  href: howto/toc.yml

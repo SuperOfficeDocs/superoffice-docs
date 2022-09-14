@@ -32,7 +32,7 @@ Personal profiles apply to a single user. You configure personal profiles by cli
 
 <!-- Referenced links -->
 [1]: ../../../request/listTicket.md
-[2]: ../../../search-options/in-service/searchResult.md
+[2]: ../../../search-options/in-service/customize-presentation.md
 [3]: listProfiles.commonProfiles.md
 [4]: listProfiles.globalProfiles.md
 

@@ -19,7 +19,7 @@ To delete a whole project and associated data:
 4. When you are asked if you really want to delete the project, click **Yes**. (For more details about this, see [Delete items in SuperOffice CRM][1].)
 
 <!-- Referenced links -->
-[1]: ../user/getting-started/deleting-elements-in-crm.md
+[1]: ../getting-started/deleting-elements.md
 
 <!-- Referenced images -->
 [img1]: ../../media/icons/btn-menu.png

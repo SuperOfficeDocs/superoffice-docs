@@ -1,8 +1,8 @@
 items:
   - name: Welcome
     href: index.md
-  - name: Standard CRM
-    href: standard-crm.md
+  - name: Getting started
+    href: getting-started/toc.yml
   - name: Company
     href: company/toc.yml
   - name: Contact
@@ -39,10 +39,11 @@ items:
     href: import/toc.yml
   - name: Custom objects
     href: custom-objects/toc.yml
-  - name: User
-    href: user/toc.yml
   - name: Admin
     href: admin/toc.yml
+    items:
+    - name: Service
+      href: user/service/admin/toc.yml
   - name: Licenses
     href: license/toc.yml
   - name: Search options
@@ -55,11 +56,9 @@ items:
     href: customer-center/toc.yml
   - name: win-client
     href: win-client/toc.yml
+  - name: Globalization
+    href: globalization/translate-fields.md
   - name: License agreement
     href: License-agreement.md
   - name: Copyright information
     href: copyright.md
-  - name: Using the help
-    href: about.md
-  - name: Translation
-    href: translate-fields.md

@@ -30,6 +30,6 @@ The **Activities** section tab in the **Company** screen contains all the activi
 [2]: ../../../company/delete-activities-contact.md
 [3]: ../../../company/replying-to-email-from-activities-section-tab.md
 [4]: ../../../company/forwarding-email-from-activities-section-tab.md
-[5]: ../../../user/getting-started/use-filters-in-section-tabs.md
+[5]: ../../howto/use-filters-in-section-tabs.md
 
 <!-- Referenced images -->

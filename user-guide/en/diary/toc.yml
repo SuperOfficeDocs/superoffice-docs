@@ -177,3 +177,5 @@ items:
   href: write.md
 - name: Using the Filter function Contact
   href: using-filter-function-contact.md
+- name: Phone preferences
+  href: phone-preferences.md

@@ -40,7 +40,7 @@ Tags can be used to search for requests in the [quick search][2] and in the "reg
 
 <!-- Referenced links -->
 [1]: newTicket.md
-[2]: ../search-options/in-service/useQuickSearch.md
+[2]: ../search-options/in-service/quick-search.md
 [3]: listTickets.findTickets.md
 
 <!-- Referenced images -->

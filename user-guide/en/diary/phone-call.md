@@ -34,7 +34,7 @@ The [Enter phone calls][2] topic describes how to enter a phone call. Other aspe
 [1]: index.md
 [2]: entering-phone-calls.md
 [3]: follow-ups-in-superoffice-crm.md
-[4]: ../user/getting-started/preferences.md
+[4]: ../getting-started/preferences.md
 
 <!-- Referenced images -->
 [img1]: ../../media/icons/globalmenu-personalsettings-small.png

@@ -13,3 +13,5 @@ items:
   href: manage-folders.md
 - name: Search for documents
   href: find.md
+- name: Web Tools
+  href: web-tools.md

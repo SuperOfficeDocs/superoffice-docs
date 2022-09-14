@@ -14,6 +14,6 @@ language: en
 Click **Edit** to edit the criteria for a dynamic selection. See [Use search criteria][1].
 
 <!-- Referenced links -->
-[1]: ../../../user/getting-started/using-search-criteria.md
+[1]: ../../../search-options/using-search-criteria.md
 
 <!-- Referenced images -->

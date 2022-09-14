@@ -35,7 +35,7 @@ The changes you make here define the default ranking, which means that they will
 * [Configure columns][1]
 
 <!-- Referenced links -->
-[1]: ../user/getting-started/changing-column-view.md
-[2]: ../user/getting-started/sorting-lists.md
+[1]: ../clients/howto/changing-column-view.md
+[2]: ../clients/howto/sorting-lists.md
 
 <!-- Referenced images -->

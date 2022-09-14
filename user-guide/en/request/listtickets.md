@@ -23,7 +23,7 @@ If you want to find a specific request in SuperOffice Service, do one of the fol
 <!-- Referenced links -->
 [1]: listTickets.useLists.md
 [2]: listTickets.findTickets.md
-[3]: ../search-options/in-service/useQuickSearch.md
+[3]: ../search-options/in-service/quick-search.md
 [4]: ../search-options/in-service/index.md
 
 <!-- Referenced images -->

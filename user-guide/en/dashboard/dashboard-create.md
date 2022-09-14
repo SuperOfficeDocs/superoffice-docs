@@ -46,7 +46,7 @@ On the right side of the new dashboard, the **Add tile / Edit layout** section i
 * [Delete a dashboard][5]
 
 <!-- Referenced links -->
-[1]: ../translate-fields.md
+[1]: ../globalization/translate-fields.md
 [2]: dashboard-add-tiles.md
 [3]: dashboard-edit.md
 [4]: dashboard-duplicate.md

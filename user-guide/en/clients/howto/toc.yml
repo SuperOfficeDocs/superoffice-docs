@@ -1,0 +1,23 @@
+items:
+- name: The Section tabs
+  href: section-tabs.md
+- name: Changing labels
+  href: changing-labels.md
+- name: Resizing screen elements
+  href: resizing-screen-elements.md
+- name: Sorting lists
+  href: sorting-lists.md
+- name: Grouping lists
+  href: sections-tabs-grouping-lists.md
+- name: Use filters in the section tabs
+  href: use-filters-in-section-tabs.md
+- name: Use column filters in the section tabs
+  href: use-column-filters-in-section-tabs.md
+- name: Adjusting column widths
+  href: adjusting-column-widths.md
+- name: Changing the column view
+  href: changing-column-view.md
+- name: Export section tabs
+  href: export-archives.md
+- name: External applications and URL addresses
+  href: external-applications-and-url-addresses.md

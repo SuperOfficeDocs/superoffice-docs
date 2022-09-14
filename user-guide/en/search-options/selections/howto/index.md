@@ -59,11 +59,11 @@ From the **Task** button in the **Selection** screen or the **Find** screen, you
 * [Delete records permanently][13]
 
 <!-- Referenced links -->
-[1]: ../../../user/getting-started/find-dialog.md
+[1]: ../../find-dialog.md
 [2]: create-mailings.md
 [3]: send-email.md
 [4]: generate-follow-ups.md
-[5]: ../../../user/getting-started/bulk-update.md
+[5]: ../../../getting-started/bulk-update.md
 [6]: ../update/index.md
 [7]: ../update/delete.md
 [9]: print-labels.md

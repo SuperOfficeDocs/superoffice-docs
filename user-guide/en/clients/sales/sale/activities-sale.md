@@ -45,7 +45,7 @@ The following columns are displayed on the **Activities** section tab:
 
 <!-- Referenced links -->
 [1]: ../../../diary/marking-activities-as-completed-not-completed.md
-[2]: ../../../user/getting-started/changing-column-view.md
+[2]: ../../howto/changing-column-view.md
 [3]: ../../../company/view-activities.md
 [4]: ../../../company/delete-activities-contact.md
 [5]: ../../../company/replying-to-email-from-activities-section-tab.md

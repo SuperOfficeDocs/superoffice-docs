@@ -141,7 +141,7 @@ If you need to revert to an earlier version of the screen, you can access the fo
 * **Discard draft**: Discards all changes and resets to the published version of the screen layout.
 
 <!-- Referenced links -->
-[2]: ../../translate-fields.md
+[2]: ../../globalization/translate-fields.md
 [5]: ../fields/index.md
 
 <!-- Referenced images -->

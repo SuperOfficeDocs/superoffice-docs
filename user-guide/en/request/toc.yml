@@ -96,6 +96,8 @@ items:
     href: reply-templates/newreplytemplate.md
   - name: Document replyTemplates viewReplyTemplate
     href: reply-templates/viewreplytemplate.md
+  - name: Template variables
+    href: template-variables.md
   - name: Work with email addresses
     href: mailboxes/index.md
     items:

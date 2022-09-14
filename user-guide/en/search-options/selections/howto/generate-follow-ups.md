@@ -42,7 +42,7 @@ You can create a follow-up to appear, for example, on the activities list of all
 
 <!-- Referenced links -->
 [1]: index.md
-[2]: ../../../user/getting-started/using-history-list.md
-[3]: ../../../user/getting-started/using-fastsearcher.md
+[2]: ../../using-history-list.md
+[3]: ../../using-fastsearcher.md
 
 <!-- Referenced images -->

@@ -83,7 +83,7 @@ Each type of activity will be dealt with in separate topics and chapters, as fol
 [14]: ../clients/sales/contact/contact-activities.md
 [15]: ../clients/sales/project/activities-project.md
 [16]: ../clients/sales/sale/activities-sale.md
-[17]: ../user/getting-started/use-filters-in-section-tabs.md
+[17]: ../clients/howto/use-filters-in-section-tabs.md
 
 <!-- Referenced images -->
 [img1]: ../../media/icons/utfoert.bmp

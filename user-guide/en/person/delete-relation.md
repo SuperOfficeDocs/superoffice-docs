@@ -18,6 +18,6 @@ You can delete relations that have been set up, as follows:
 3. Click **Yes** to confirm that you really want to delete the relation. (For more details about this, see [Delete items in SuperOffice CRM][3].)
 
 <!-- Referenced links -->
-[3]: ../user/getting-started/deleting-elements-in-crm.md
+[3]: ../getting-started/deleting-elements.md
 
 <!-- Referenced images -->

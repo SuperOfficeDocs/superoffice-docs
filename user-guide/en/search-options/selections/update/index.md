@@ -44,7 +44,7 @@ Once you have added members to a selection, the following applies:
 * [Add members to a static selection][3]
 
 <!-- Referenced links -->
-[1]: ../../../user/getting-started/find-dialog.md
+[1]: ../../find-dialog.md
 [2]: remove-members-from-static.md
 [3]: add-members-to-static.md
 

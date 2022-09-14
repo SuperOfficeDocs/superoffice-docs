@@ -50,7 +50,7 @@ Use the **Task** button to perform different tasks for the members or some of th
 
 <!-- Referenced links -->
 [1]: selection-tab-company-contact.md
-[2]: ../../../user/getting-started/use-column-filters-in-section-tabs.md
+[2]: ../../howto/use-column-filters-in-section-tabs.md
 [3]: ../../../search-options/selections/update/remove-members-from-static.md
 [4]: ../../../search-options/selections/create/index.md
 

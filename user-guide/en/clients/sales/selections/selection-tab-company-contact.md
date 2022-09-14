@@ -41,7 +41,7 @@ Use the **Task** button to perform different tasks for the members or some of th
 [1]: ../../../search-options/selections/update/remove-members-from-static.md
 [2]: ../../../search-options/selections/howto/index.md
 [3]: ../../../search-options/selections/create/index.md
-[4]: ../../../user/getting-started/use-filters-in-section-tabs.md
+[4]: ../../howto/use-filters-in-section-tabs.md
 
 <!-- Referenced images -->
 [img1]: ../../../../media/icons/globalmenu-personalsettings-small.png

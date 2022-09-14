@@ -13,7 +13,7 @@ language: en
 
 In the **User information** tab in the **Edit users** screen, you can edit the following details for your own user profile:
 
-* **User ID**: This is the name you enter when logging in to the system. See [Log in to SuperOffice Service][1].
+* **User ID**: This is the name you enter when [logging in][1] to the system.
 * **Display name**: This is the name visible to other users of SuperOffice Service.
 * **First name**, **Middle name** and **Last name**: these comprise your full name.
 * **Mobile phone**: This is the mobile number registered for you in the system and which is used to notify you by SMS, if you have SMS notification enabled.
@@ -24,7 +24,7 @@ In the **User information** tab in the **Edit users** screen, you can edit the f
 * **New e-mail address**: Here you enter the actual address in the left-hand field and the name of the person in the right-hand one and then click **Apply**.
 
 <!-- Referenced links -->
-[1]: ../login.md
+[1]: ../../../getting-started/login.md
 [2]: ../../../user-management/role/index.md
 [3]: editUser.helpOthergroups.md
 

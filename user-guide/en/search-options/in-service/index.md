@@ -17,7 +17,14 @@ Searching in SuperOffice Service is performed from the same screen, no matter wh
 
 ## Shortcut search
 
-[!include[How to search](includes/howto-search-service.md)]
+To quickly access a specific record (such as a request or contact), function or screen in SuperOffice Service, use the "shortcut search":
+
+1. Press **CTRL+SPACE** on your keyboard. The shortcut popup shows a fast searcher and all available menu items from the navigator, personal settings and system settings.
+2. Enter a search term, such as a function name, request ID, contact name or menu item. The result updates dynamically as you type.
+3. Select the result you want to open.
+
+> [!TIP]
+> You can also use the [keywords used in the quick search][1] to search for specific items like contacts or companies.
 
 </details>
 
@@ -122,14 +129,14 @@ If you click the ![icon][img2] menu button in the **Criteria** screen and select
 To return to the ordinary view, click the **Simple view** button at the top of the screen.
 
 <!-- Referenced links -->
-[1]: useQuickSearch.md
-[2]: ../../user/service/getting-started/navigator-options.md
+[1]: quick-search.md
+[2]: in-navigator.md
 [3]: ../../request/listTickets.findTickets.md
 [4]: ../../request/listTickets.useLists.md
 [5]: ../selections/in-service/newselection.md
 [6]: ../selections/in-service/newselection.newselection.md
-[7]: searchResult.md#add-columns
-[8]: searchResult.md
+[7]: customize-presentation.md#add-columns
+[8]: customize-presentation.md
 
 <!-- Referenced images -->
 [img1]: ../../../media/icons/refresh.png

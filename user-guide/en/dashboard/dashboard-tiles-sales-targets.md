@@ -72,8 +72,8 @@ To add a tile with sales targets to a dashboard:
 
 <!-- Referenced links -->
 [1]: dashboard-tiles-edit.md
-[2]: ../user/getting-started/using-search-criteria.md
-[3]: ../translate-fields.md
+[2]: ../search-options/using-search-criteria.md
+[3]: ../globalization/translate-fields.md
 [4]: ../sale/sales-targets.md
 
 <!-- Referenced images -->

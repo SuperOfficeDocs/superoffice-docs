@@ -57,9 +57,9 @@ Click **Show count** at the bottom right of the section tab, to see how many rec
 * [Grouping lists][3]
 
 <!-- Referenced links -->
-[1]: ../user/getting-started/find-dialog.md
-[2]: ../user/getting-started/use-filters-in-section-tabs.md
-[3]: ../user/getting-started/sections-tabs-grouping-lists.md
+[1]: ../search-options/find-dialog.md
+[2]: ../clients/howto/use-filters-in-section-tabs.md
+[3]: ../clients/howto/sections-tabs-grouping-lists.md
 
 <!-- Referenced images -->
 [img1]: ../../media/icons/filter.bmp
