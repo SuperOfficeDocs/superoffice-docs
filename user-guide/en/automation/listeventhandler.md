@@ -56,5 +56,5 @@ You have now created a macro that sends an e-mail with "Request closed" to the c
 <!-- Referenced links -->
 
 <!-- Referenced images -->
-[img1]: ../../media/icons/btn-workflow.png
+[img1]: ../../../common/icons/gearblack.png
 [img2]: ../../media/icons/globalmenu-settings-small.png

@@ -40,4 +40,4 @@ Step 1 is different for combined selections because you start with two existing 
 [6]: ../update/index.md
 
 <!-- Referenced images -->
-[img4]: ../../../../media/icons/btn-columnheaderoptions.png
+[img4]: ../../../../../common/icons/cog-wheel.png

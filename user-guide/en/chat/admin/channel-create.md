@@ -13,7 +13,7 @@ language: en
 
 You can create chat channels for specific purposes, such as technical support, product inquiries and sales support, and assign the relevant agents to each channel.
 
-1. SuperOffice CRM: Click the **Chat** button in the Navigator (![icon][img2]).
+1. SuperOffice CRM: Click the **Chat** button in the Navigator ![icon][img2].
     SuperOffice Service: Select ![icon][img1] **System settings &gt; Chat**.
 2. Click **Add** at the bottom of the list of chat channels. The **Add chat channel** dialog displays.
 3. Enter the name of the chat channel. This should be a unique name used to identify the topic and language (for example *Tech Support Norway*). The name will only be used internally.
@@ -141,6 +141,6 @@ Yes, but make sure that the chat channel is not being used on a website. Otherwi
 
 <!-- Referenced images -->
 [img1]: ../../../media/icons/globalmenu-settings-small.png
-[img2]: ../../../media/icons/chat-btn-small.png
+[img2]: ../../../../common/icons/nav-admin-chat-active.png
 [img3]: ../../media/chat-badge-example.png
-[img4]: ../../../media/icons/chat-mandatorytab.png
+[img4]: ../../../../common/icons/mandatory.png

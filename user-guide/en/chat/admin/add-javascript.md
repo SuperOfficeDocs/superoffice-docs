@@ -37,4 +37,4 @@ The chat widget is now available and live. Visitors to your website will now be 
 
 <!-- Referenced images -->
 [img1]: ../../../media/icons/globalmenu-settings-small.png
-[img2]: ../../../media/icons/chat-btn-small.png
+[img2]: ../../../../common/icons/nav-admin-chat-active.png

@@ -42,4 +42,4 @@ You can set columns widths to be adjusted automatically according to the content
 [3]: ../../company/change-rank-of-contacts.md
 
 <!-- Referenced images -->
-[img1]: ../../../media/icons/btn-columnheaderoptions.png
+[img1]: ../../../../common/icons/cog-wheel.png

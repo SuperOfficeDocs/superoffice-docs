@@ -83,9 +83,9 @@ Imagine that you are a sales department manager and you want to make a presentat
 
 4. Click **Add**.
 
-5. In the list that appears, select the field you want to search for information in. First click **Sale** (![icon][img5]), and then **Amount**.
+5. In the list that appears, select the field you want to search for information in. First click **Sale** ![icon][img5], and then **Amount**.
 
-6. In the list box to the right of **Amount**, click the arrow (![icon][img1]) and select **&gt;** (greater than).
+6. In the list box to the right of **Amount**, click the arrow ![icon][img1] and select **&gt;** (greater than).
 
 7. In the last field on the line, enter the minimum amount, e.g. "100 000".
 
@@ -93,9 +93,9 @@ Imagine that you are a sales department manager and you want to make a presentat
 
 9. Click **Add**.
 
-10. In the list that appears, select the field you want to search for information in. First click **Sale** (![icon][img5]), and then **Registered date**.
+10. In the list that appears, select the field you want to search for information in. First click **Sale** ![icon][img5], and then **Registered date**.
 
-11. In the second list box, click the arrow (![icon][img1]) and select **Between**.
+11. In the second list box, click the arrow ![icon][img1] and select **Between**.
 
 12. In the third list box, specify the start date of the period you want, and in the fourth list box, the end date.
 
@@ -141,7 +141,7 @@ Imagine you are going to attend a conference in Denmark. When you are there, you
 
 4. Click **Add**.
 
-5. In the list that appears, select the field you want to search for information in: First click **Company** ( ![icon][img6] ), and then **Country**.
+5. In the list that appears, select the field you want to search for information in: First click **Company** ![icon][img6], and then **Country**.
 
 6. In the second list box, select **Is one of**.
 
@@ -151,7 +151,7 @@ Imagine you are going to attend a conference in Denmark. When you are there, you
 
 9. Click **Add**.
 
-10. In the list that appears, select the field you want to search for information in: First click **Company** ( ![icon][img6] ), and then **Our contact**.
+10. In the list that appears, select the field you want to search for information in: First click **Company** ![icon][img6], and then **Our contact**.
 
 11. In the second list box, select **Current user**. Your name is displayed in the last field on the line.
 
@@ -184,7 +184,7 @@ Let's assume you are the manager of a company and want to find out what types of
 
 4. Click **Add**.
 
-5. In the list that appears, select the field you want to search for information in: First click **Sale** ( ![icon][img5] ), and then **Status**.
+5. In the list that appears, select the field you want to search for information in: First click **Sale** ![icon][img5], and then **Status**.
 
 6. In the second list box, select **Is one of**.
 
@@ -214,7 +214,7 @@ Imagine that the time for your pay review is approaching and you think you deser
 
 4. Click **Add**.
 
-5. In the list that appears, select the field you want to search for information in: First click **Contact** ( ![icon][img7] ), and then **Last name**.
+5. In the list that appears, select the field you want to search for information in: First click **Contact** ![icon][img7], and then **Last name**.
 
 6. In the second list box, select **Equals**.
 
@@ -224,7 +224,7 @@ Imagine that the time for your pay review is approaching and you think you deser
 
 9. Click **Add**.
 
-10. In the list that appears, select the field you want to search for information in: First click **Project** (![icon][img8]), and then **From date**.
+10. In the list that appears, select the field you want to search for information in: First click **Project** ![icon][img8], and then **From date**.
 
 11. In the second list box, select **After**.
 
@@ -259,7 +259,7 @@ Imagine that you are a marketing department manager and you want to brainstorm a
 
 4. Click **Add**.
 
-5. In the list that appears, select the field you want to search for information in: First click **Follow-up** (![icon][img9]), and then **Intention**.
+5. In the list that appears, select the field you want to search for information in: First click **Follow-up** ![icon][img9], and then **Intention**.
 
 6. In the second list box, select **Is one of**.
 
@@ -269,7 +269,7 @@ Imagine that you are a marketing department manager and you want to brainstorm a
 
 9. Click **Add**.
 
-10. In the list that appears, select the field you want to search for information in. First click **Follow-up** (![icon][img9]), and then **End date**.
+10. In the list that appears, select the field you want to search for information in. First click **Follow-up** ![icon][img9], and then **End date**.
 
 11. In the second list box, select **Previous**.
 
@@ -281,7 +281,7 @@ Imagine that you are a marketing department manager and you want to brainstorm a
 
 15. Click **Add**.
 
-16. In the list that appears, select the field you want to search for information in. First click **Follow-up** ( ![icon][img9] ), and then **Completed**.
+16. In the list that appears, select the field you want to search for information in. First click **Follow-up** ![icon][img9], and then **Completed**.
 
 17. Check **Yes**. You have now specified that you want to find follow-ups set as **Completed**.
 
@@ -322,10 +322,10 @@ Imagine that you are a marketing department manager and you want to brainstorm a
 <!-- Referenced images -->
 [img1]: ../../media/icons/dialogboksknapper-pil-ned.bmp
 [img2]: ../media/globalmenu-find.png
-[img3]: ../../media/icons/criteria-remove.png
+[img3]: ../../../common/icons/delete-circle-red.png
 [img4]: ../../media/icons/criteria-move.png
-[img5]: ../../media/icons/criteratype-sale.png
-[img6]: ../../media/icons/criteratype-company.png
-[img7]: ../../media/icons/criteratype-contact.png
-[img8]: ../../media/icons/criteratype-project.png
-[img9]: ../../media/icons/criteratype-followup.png
+[img5]: ../../../common/icons/singlecolour/sale.png
+[img6]: ../../../common/icons/singlecolour/contact.png
+[img7]: ../../../common/icons/singlecolour/person.png
+[img8]: ../../../common/icons/singlecolour/project.png
+[img9]: ../../../common/icons/singlecolour/appointment.png

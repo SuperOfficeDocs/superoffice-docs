@@ -23,4 +23,4 @@ You can group a list on one or more data types to get a better overview of the r
 <!-- Referenced links -->
 
 <!-- Referenced images -->
-[img1]: ../../../media/icons/btn-columnheaderoptions.png
+[img1]: ../../../../common/icons/cog-wheel.png

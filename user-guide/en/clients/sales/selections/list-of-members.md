@@ -57,6 +57,6 @@ Use the **Task** button to perform different tasks for the members or some of th
 <!-- Referenced images -->
 [img1]: ../../../../media/icons/globalmenu-personalsettings-small.png
 [img2]: ../../../../media/icons/refresh.png
-[img3]: ../../../../media/icons/btn-columnheaderoptions.png
+[img3]: ../../../../../common/icons/cog-wheel.png
 [img4]: ../../../../media/icons/btn-columnheaderfilter.png
 [img5]: ../../../media/task.png

@@ -63,4 +63,4 @@ To change the default number of records, do as follows:
 [14]: ../sales/selections/section-tabs-in-selection-screen.md
 
 <!-- Referenced images -->
-[img1]: ../../../media/icons/btn-columnheaderoptions.png
+[img1]: ../../../../common/icons/cog-wheel.png

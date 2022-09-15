@@ -24,5 +24,5 @@ Customers often ask the same questions, so you can save time by using pre-define
 [1]: quick-reply.md
 
 <!-- Referenced images -->
-[img1]: ../../media/icons/chat-btn-faq.png
-[img2]: ../../media/icons/chat-btn-edit.png
+[img1]: ../../../common/icons/copy-paste-icon.png
+[img2]: ../../../common/icons/edit-black.png

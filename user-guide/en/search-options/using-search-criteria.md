@@ -153,4 +153,4 @@ The criteria lists contain a set of default criteria you can edit or remove as r
 <!-- Referenced images -->
 [img1]: ../../media/icons/dialogboksknapper-pil-ned.bmp
 [img2]: ../../media/icons/criteria-move.png
-[img3]: ../../media/icons/criteria-remove.png
+[img3]: ../../../common/icons/delete-circle-red.png

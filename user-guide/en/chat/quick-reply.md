@@ -27,4 +27,4 @@ To create a quick reply:
 
 <!-- Referenced images -->
 [img1]: ../../media/icons/chat-btn-faq.png
-[img2]: ../../media/icons/chat-btn-edit.png
+[img2]: ../../../common/icons/edit-black.png

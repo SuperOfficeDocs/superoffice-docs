@@ -68,5 +68,5 @@ You can both change the name of a stage and alter which users are to have access
 
 <!-- Referenced images -->
 [img1]: ../../media/icons/btn-menu.png
-[img2]: ../../media/icons/btn-workflow.png
+[img2]: ../../../common/icons/gearblack.png
 [img3]: ../../media/icons/btn-add.png

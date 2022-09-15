@@ -41,6 +41,6 @@ To move backwards and forwards between selections:
 [7]: mailings-section-tab.md
 
 <!-- Referenced images -->
-[img3]: ../../../../media/icons/btn-columnheaderoptions.png
+[img3]: ../../../../../common/icons/cog-wheel.png
 [img1]: ../../../../media/icons/pil-hoeyre.bmp
 [img2]: ../../../../media/icons/pil-venstre.bmp

@@ -59,7 +59,7 @@ The Navigator on the far left of the main screen contains the following buttons:
 [23]: ../preferences/document-library.md
 
 <!-- Referenced images -->
-[img1]: ../../../media/icons/chat-btn.png
+[img1]: ../../../../common/icons/nav-admin-chat-active-h32.png
 [img2]: ../../../media/icons/admin/knapp-lisenser.bmp
 [img3]: ../../../media/icons/admin/knapp-brukere.bmp
 [img4]: ../../../media/icons/admin/knapp-rolle.bmp

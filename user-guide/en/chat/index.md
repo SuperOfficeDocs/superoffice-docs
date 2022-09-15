@@ -100,7 +100,7 @@ If the customer is found in SuperOffice, you can show contact information, reque
 
 <!-- Referenced images -->
 [img1]: media/chat-tabs.png
-[img2]: ../../media/icons/chat-last-customer.png
+[img2]: ../../../common/icons/chat-status-light-blue-h32.png
 [img3]: ../../media/icons/chat-last-customer-unanswered.png
-[img4]: ../../media/icons/chat-transfered.png
+[img4]: ../../../common/icons/exclamation-h32.png
 [img5]: media/chat-tab-chats.png

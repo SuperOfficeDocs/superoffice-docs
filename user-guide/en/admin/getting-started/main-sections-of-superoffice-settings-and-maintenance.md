@@ -26,7 +26,7 @@ Most administration of SuperOffice CRM is performed via Settings and maintenance
 | ![icon][img10] | [Workflow][13] |
 | ![icon][img11] | [Screen designer][14] |
 | ![icon][img12] | [Preferences][15] |
-| ![icon][img1]][2]] | [Chat][2] |
+| ![icon][img1] | [Chat][2] |
 | ![icon][img13] | [Options][16] |
 | ![icon][img14] | [Import][17] |
 | ![icon][img15] | [Fields][18] |
@@ -64,7 +64,7 @@ To access SOLoader, advanced import, replication, Travel and scripting, see [The
 [21]: https://online.superoffice.com/appstore
 
 <!-- Referenced images -->
-[img1]: ../../../media/icons/chat-btn.png
+[img1]: ../../../../common/icons/nav-admin-chat-active-h32.png
 [img2]: ../../../media/icons/admin/knapp-lisenser.bmp
 [img3]: ../../../media/icons/admin/knapp-brukere.bmp
 [img4]: ../../../media/icons/admin/knapp-rolle.bmp
