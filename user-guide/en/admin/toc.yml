@@ -2,11 +2,5 @@ items:
 - name: Getting started
   href: getting-started/toc.yml
   topicHref: getting-started/index.md
-- name: Lists
-  href: lists/toc.yml
 - name: Quote sync
   href: quote-sync/toc.yml
-- name: Preferences
-  href: preferences/toc.yml
-- name: Options
-  href: options/toc.yml

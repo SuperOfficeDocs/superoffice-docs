@@ -11,7 +11,7 @@ language: en
 
 # Document - Template
 
-[!include[Link to quote template docs](../includes/learn-quote-templates.md)]
+[!include[Link to quote template docs](../../includes/learn-quote-templates.md)]
 
 It is important for an organisation’s profile that letters, faxes and other documents have a distinctive and consistent appearance. This means that all documents sent out by the organisation should use the same fonts, margins, logos and so on. By creating templates that are customised to your organisation you ensure that your contacts can easily recognise your correspondence.
 

@@ -18,7 +18,7 @@ When you add an item to the **General - Resource** list, the **Edit List Item** 
 1. Enter the required name of the item in the **Name** field.
 
     > [!NOTE]
-    > [!include[Mandatory](../includes/note-mandatory-field.md)]
+    > [!include[Mandatory](../../includes/note-mandatory-field.md)]
 
 2. In the **Type** field, you specify whether the resource type:
 

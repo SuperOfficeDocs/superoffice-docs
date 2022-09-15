@@ -28,7 +28,7 @@ This is how to fill out the fields in the **Edit list items** dialog when the it
 1. Enter the required name of the item in the **Name** field. This name is displayed when you add the URL address in SuperOffice CRM.
 
     > [!NOTE]
-    > [!include[Mandatory](../includes/note-mandatory-field.md)]
+    > [!include[Mandatory](../../includes/note-mandatory-field.md)]
 
 1. In the **URL** field, specify the URL address. This might be an Internet page or a server-based HTML file. Please see the information at the top concerning the use of HTTP/HTTPS URLs.
 

@@ -27,7 +27,7 @@ To add items to both predefined and user-defined lists:
 4. Enter the required name of the item in the **Name** field.
 
     > [!NOTE]
-    > [!include[Mandatory](../includes/note-mandatory-field.md)]
+    > [!include[Mandatory](../../includes/note-mandatory-field.md)]
 
 5. Optionally, type in a description of the item in the **Description** field.
 

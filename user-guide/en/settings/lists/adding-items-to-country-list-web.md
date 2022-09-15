@@ -18,7 +18,7 @@ When you add an item to the **General - Country** list in Settings and maintenan
 1. Enter the required name of the item in the **Name** field. This will be the name of the country.
 
     > [!NOTE]
-    > [!include[Mandatory](../includes/note-mandatory-field.md)]
+    > [!include[Mandatory](../../includes/note-mandatory-field.md)]
 
 2. Optionally, enter the English name for the country in the **English name** field.
 

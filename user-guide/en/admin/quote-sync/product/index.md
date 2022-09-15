@@ -51,7 +51,7 @@ Either you do not have access rights to the export function (see [Roles][4]), or
 [2]: so-add-pricelist.md
 [3]: quote-delete-deactivate-pricelist-or-product.md
 [4]: ../../../user-management/role/index.md
-[5]: ../../preferences/index.md
+[5]: ../../../settings/preferences/index.md
 [6]: ../../getting-started/adjusting-views.md
 [7]: ../../getting-started/adjusting-views.md#change-the-column-view
 

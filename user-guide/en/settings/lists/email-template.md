@@ -11,7 +11,7 @@ language: en
 
 # E-mail - Template
 
-[!include[Link to quote template docs](../includes/learn-quote-templates.md)]
+[!include[Link to quote template docs](../../includes/learn-quote-templates.md)]
 
 It is important for an organisation’s profile that e-mails have a distinctive and consistent appearance. This means that all e-mails sent out by the organisation should use the same fonts, formatting, logos and so on. By creating e-mail templates that are customised to your organisation you ensure that your contacts can easily recognise your correspondence. E-mail templates are also used when sending quotes, order confirmations and privacy confirmations.
 

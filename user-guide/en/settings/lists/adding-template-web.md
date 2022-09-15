@@ -68,7 +68,7 @@ Enter the following information in the **Details** tab:
 
 7. Check the **Quote document type** option if the document is to be available as a quote template or order confirmation template. You select the quote document type in the list below.
 
-    [!include[Link to quote template docs](../includes/learn-quote-templates.md)]
+    [!include[Link to quote template docs](../../includes/learn-quote-templates.md)]
 
 8. Specify the default setting for the **Our reference (default)** field using the template variables, for example *auth* for the sender’s first and last names (see [Template variables][2]).
 
@@ -79,7 +79,7 @@ Enter the following information in the **Details** tab:
 
 ## Languages tab
 
-Here you can add translated versions of the document template. [!include[To do this](../../includes/to-do-this.md)]
+Here you can add translated versions of the document template.
 
 1. Click **Add**. The **Edit list item** dialog opens.
 2. Select the language you require in the **Add language** list.

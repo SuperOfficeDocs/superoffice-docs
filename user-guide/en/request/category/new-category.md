@@ -72,7 +72,7 @@ To create a new category:
 1. Click **OK**. The category is created.
 
 <!-- Referenced links -->
-[1]: ../../admin/preferences/index.md
+[1]: ../../settings/preferences/index.md
 [2]: ../../user-management/user-groups.md
 [3]: ../get-next-request-in-queue.md
 

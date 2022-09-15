@@ -21,7 +21,7 @@ When you add an item to the **GUI - Application** list in Settings and maintenan
 1. Enter the required name of the item in the **Name** field. This name is displayed at the place where you add the application in SuperOffice CRM (see step 7 concerning the **Show** list box).
 
     > [!NOTE]
-    > [!include[Mandatory](../includes/note-mandatory-field.md)]
+    > [!include[Mandatory](../../includes/note-mandatory-field.md)]
 
 1. Under **Add as**, select what the application will be added as:
 

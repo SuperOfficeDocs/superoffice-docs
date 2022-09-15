@@ -51,12 +51,12 @@ To access SOLoader, advanced import, replication, Travel and scripting, see [The
 [8]: ../../person/gdpr/index.md
 [9]: ../../sale/saint/index.md
 [10]: ../../ai/index.md
-[11]: ../lists/index.md
+[11]: ../../settings/lists/index.md
 [12]: ../quote-sync/index.md
 [13]: ../../clients/admin/workflow.md
 [14]: ../../ui/screen-designer/index.md
-[15]: ../preferences/index.md
-[16]: ../options/index.md
+[15]: ../../settings/preferences/index.md
+[16]: ../../settings/options/index.md
 [17]: ../../import/index.md
 [18]: ../../custom-objects/udef/index.md
 [19]: ../../clients/admin/requests/index.md

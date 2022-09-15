@@ -70,7 +70,7 @@ If you want to know which fields are displayed or not displayed, go to the **Set
 [1]: so-add-pricelist.md
 [2]: so-select-product-image.md
 [3]: settings-configure-product.md
-[4]: ../../lists/adding-items.md
+[4]: ../../../settings/lists/adding-items.md
 [5]: ../../../import/import-products-from-excel.md
 
 <!-- Referenced images -->

@@ -18,7 +18,7 @@ When you add an item to the **Follow-up - Type** list in Settings and maintenanc
 1. Enter the required name of the item in the **Name** field.
 
     > [!NOTE]
-    > [!include[Mandatory](../includes/note-mandatory-field.md)]
+    > [!include[Mandatory](../../includes/note-mandatory-field.md)]
 
 2. Click the arrow ( ![icon][img1] ) next to the **Type** field and select the required follow-up type from the list box. You can choose from **Appointment**, **Phone call** and **Task**.
 

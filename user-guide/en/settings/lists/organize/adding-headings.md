@@ -25,7 +25,7 @@ Before linking a heading to an item, you need to add the headings you require:
 
 6. Enter the required name for the heading in the **Name** field.
 
-    [!include[Mandatory](../../includes/note-mandatory-field.md)]
+    [!include[Mandatory](../../../includes/note-mandatory-field.md)]
 
 7. Type in a description of the heading, if required, in the **Description** field.
 

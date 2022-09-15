@@ -44,7 +44,7 @@ A status is only active for companies, contacts or projects that fulfil all the 
 * [Manage status monitors][2]
 
 <!-- Referenced links -->
-[1]: ../../../admin/options/using-search-criteria.md
+[1]: ../../../settings/options/using-search-criteria.md
 [2]: manage-status-monitors.md
 
 <!-- Referenced images -->

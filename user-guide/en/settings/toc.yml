@@ -1,0 +1,10 @@
+items:
+- name: Overview
+- name: Preferences
+  href: preferences/toc.yml
+- name: Options
+  href: options/toc.yml
+- name: Lists
+  href: lists/toc.yml
+- name: Edit email signature
+  href: edit-email-signature.md

@@ -34,4 +34,3 @@ To specify number allocation for a field:
 <!-- Referenced links -->
 
 <!-- Referenced images -->
-[img1]: ../../../media/icons/admin/knapp-systemvalg-liten.bmp

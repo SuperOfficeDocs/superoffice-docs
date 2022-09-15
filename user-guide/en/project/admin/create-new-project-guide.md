@@ -159,7 +159,7 @@ Planning meeting:
 [1]: ../../diary/template-variables.md#variables-from-the-project-card
 [2]: adding-items-to-project-status-list.md
 [3]: adding-items-to-project-type-list.md
-[4]: ../../admin/lists/document-template.md
+[4]: ../../settings/lists/document-template.md
 
 <!-- Referenced images -->
 [img1]: ../../../media/icons/admin/knapp-arbeidsflyt-liten.bmp

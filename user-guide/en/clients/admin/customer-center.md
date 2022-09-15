@@ -21,7 +21,7 @@ In the **Customer centre** screen, you define settings for the customer centre a
 * [Customer languages][1]
 
 <!-- Referenced links -->
-[1]: ../../admin/options/custlangs/index.md
+[1]: ../../settings/options/custlangs/index.md
 [2]: ../../user/service/admin/listCustCenter.config.md
 [3]: ../../user/service/admin/listCustCenter.edit.md
 

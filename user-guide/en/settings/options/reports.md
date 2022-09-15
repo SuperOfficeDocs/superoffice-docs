@@ -31,8 +31,6 @@ You cannot delete standard reports, but you can specify them as not published.
 
 You can import reports that have been exported from SuperOffice Reporter Studio, or created by a consultant or by SuperOffice Support.
 
-[!include[To do this](../../includes/to-do-this.md)]
-
 1. Go to the **Reports** tab in the **Options** screen.
 2. Click **Import** at the bottom of the tab.
 3. Click **Browse** in the dialog that appears.

@@ -60,6 +60,6 @@ Now you need to set up a Facebook account in SuperOffice Service.
 <!-- Referenced links -->
 [1]: https://developers.facebook.com
 [2]: ../../../../../docs/service/config/set-up-facebook-integration.md
-[3]: ../../../admin/options/custlangs/index.md
+[3]: ../../../settings/options/custlangs/index.md
 
 <!-- Referenced images -->

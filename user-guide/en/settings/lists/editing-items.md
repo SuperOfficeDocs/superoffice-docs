@@ -34,7 +34,7 @@ To edit the name and/or description of an item:
 4. Type a new name for the item in the **Name** field.
 
     > [!NOTE]
-    > [!include[Mandatory](../includes/note-mandatory-field.md)]
+    > [!include[Mandatory](../../includes/note-mandatory-field.md)]
 
 5. Edit the description of the item, as required, in the **Description** field.
 

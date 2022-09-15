@@ -20,7 +20,7 @@ To add a new list in the **Lists** screen:
 3. Enter the required name of the list in the **Name** field.
 
     > [!NOTE]
-    > [!include[Mandatory](../includes/note-mandatory-field.md)]
+    > [!include[Mandatory](../../includes/note-mandatory-field.md)]
 
 4. Optionally, type in a description of the list in the **Description** field.
 

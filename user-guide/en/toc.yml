@@ -39,6 +39,8 @@ items:
     href: import/toc.yml
   - name: Custom objects
     href: custom-objects/toc.yml
+  - name: Settings
+    href: settings/toc.yml
   - name: Admin
     href: admin/toc.yml
     items:
