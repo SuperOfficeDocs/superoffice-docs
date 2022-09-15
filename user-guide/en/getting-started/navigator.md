@@ -170,7 +170,7 @@ If you hold the mouse pointer over a record in any the lists, a tooltip is displ
 [img37]: ../../media/icons/nav-statistics.png
 [img39]: ../../media/icons/nav-chat.png
 
-[img41]: ../../media/icons/chat-btn.png
+[img41]: ../../../common/icons/nav-admin-chat-active-h32.png
 [img42]: ../../media/icons/admin/knapp-lisenser.bmp
 [img43]: ../../media/icons/admin/knapp-brukere.bmp
 [img44]: ../../media/icons/admin/knapp-rolle.bmp
