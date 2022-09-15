@@ -51,6 +51,6 @@ At the bottom of the **Lists** screen is the **Show deleted items and headings**
 [7]: organize/user-group-filtering.md
 [8]: deleting-items.md
 [9]: organize/deleted-items-and-headings.md
-[10]: ../fields/index.md
+[10]: ../../custom-objects/udef/index.md
 
 <!-- Referenced images -->

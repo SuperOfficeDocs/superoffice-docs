@@ -1,7 +1,7 @@
 ---
-uid: help-en-adding-fields
-title: Adding fields web
-description: Adding fields web
+uid: help-en-udef-add
+title: Adding fields
+description: Adding fields
 author: SuperOffice RnD
 so.date: 06.29.2022
 keywords: Settings and maintenance
@@ -9,7 +9,7 @@ so.topic: help
 language: en
 ---
 
-# Add fields
+# Add field
 
 To add a new user-defined field:
 

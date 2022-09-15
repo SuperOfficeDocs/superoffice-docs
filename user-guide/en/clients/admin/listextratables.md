@@ -21,7 +21,7 @@ In the **Tables** screen in **System design** there is a list of the tables in t
 This screen displays both standard tables, predefined in the system and which form the basis of different screens, and extra tables, which are tables you create yourself with optional content.
 
 > [!NOTE]
-> If your company uses SuperOffice CRM, you will see a message that NetServer must be restarted every time you add new fields/tables. If Travel is activated, you will also see a message that a new Travel database must be generated.
+> If your company uses SuperOffice CRM, you will see a message that NetServer must be restarted every time you add new fields or tables. If Travel is activated, you will also see a message that a new Travel database must be generated.
 
 ## Table folder properties
 

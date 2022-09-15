@@ -142,7 +142,7 @@ If you need to revert to an earlier version of the screen, you can access the fo
 
 <!-- Referenced links -->
 [2]: ../../globalization/translate-fields.md
-[5]: ../fields/index.md
+[5]: ../../custom-objects/udef/index.md
 
 <!-- Referenced images -->
 [img1]: ../../../media/icons/translate.png

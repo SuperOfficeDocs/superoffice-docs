@@ -58,7 +58,7 @@ To access SOLoader, advanced import, replication, Travel and scripting, see [The
 [15]: ../preferences/index.md
 [16]: ../options/index.md
 [17]: ../../import/index.md
-[18]: ../fields/index.md
+[18]: ../../custom-objects/udef/index.md
 [19]: ../requests/index.md
 [20]: ../../win-client/main-sections-of-maintenance-client.md
 [21]: https://online.superoffice.com/appstore

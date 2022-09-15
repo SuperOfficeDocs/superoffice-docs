@@ -1,5 +1,5 @@
 ---
-uid: help-en-fields
+uid: help-en-udef
 title: Fields web
 description: Fields web
 author: SuperOffice RnD
@@ -9,7 +9,9 @@ so.topic: help
 language: en
 ---
 
-# Fields
+# User-defined fields
+
+Several sections of SuperOffice CRM, for example, the **Company** screen, contain a separate tab called **More**. Here you can enter your own fields to customize the program to your organization's requirements. These fields are defined in SuperOffice Settings and maintenance.
 
 All companies and organisations have their own requirements with regard to the information they need to register concerning their customers, sales, projects, contracts, and so on. You can enter your own fields for SuperOffice CRM in the **Fields** screen. This way, you can customise the type of information that can be registered concerning companies, contacts, projects, sales, documents and follow-ups.
 
@@ -30,12 +32,12 @@ All companies and organisations have their own requirements with regard to the i
 
 ## Where will the fields I create be displayed?
 
-* The **More** tab in the **Company** screen
-* The **More** tab on the contact card
-* The **More** tab in the **Project** screen
-* The **Details** tab in the **Sale** screen
-* The **More** tab in the dialog for follow-ups
-* The **More** tab in the **Document** dialog
+* [The More tab (Company)][6]
+* [The More tab (Contact)][7]
+* [The More tab (Project)][3]
+* [The More tab (follow-ups)][4]
+* [The More tab (Document)][5]
+* The Details tab in the Sale screen
 
 You can specify *page 1 fields*, i.e. fields that will be displayed on the "first page" in their respective screens or dialogs, in the following places:
 
@@ -85,6 +87,11 @@ You can then add these fields to the **Project** screen:
 
 <!-- Referenced links -->
 [1]: page-1-fields.md
-[2]: ../lists/adding-user-defined-lists.md
+[2]: ../../admin/lists/adding-user-defined-lists.md
+[3]: ../../clients/sales/project/more-tab-project.md
+[4]: ../../diary/more-tab-follow-ups.md
+[5]: ../../diary/more-tab-document.md
+[6]: ../../company/create.md#more-tab
+[7]: ../../person/create.md#more-tab
 
 <!-- Referenced images -->

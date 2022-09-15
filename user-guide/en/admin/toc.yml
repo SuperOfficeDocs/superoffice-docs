@@ -16,8 +16,6 @@ items:
   href: preferences/toc.yml
 - name: Options
   href: options/toc.yml
-- name: Fields web
-  href: fields/toc.yml
 - name: Requests
   href: requests/toc.yml
 - name: Customer centre

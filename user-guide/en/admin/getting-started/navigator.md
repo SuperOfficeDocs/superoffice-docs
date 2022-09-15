@@ -52,7 +52,7 @@ The Navigator on the far left of the main screen contains the following buttons:
 [15]: ../preferences/index.md
 [16]: ../options/index.md
 [17]: ../../import/index.md
-[18]: ../fields/index.md
+[18]: ../../custom-objects/udef/index.md
 [19]: ../requests/index.md
 [21]: https://online.superoffice.com/appstore
 [22]: ../preferences/video-meetings/index.md
