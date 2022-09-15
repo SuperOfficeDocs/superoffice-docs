@@ -28,7 +28,7 @@ Selecting **Requests** in the navigator and then the **Categories** tab, takes y
 <!-- Referenced links -->
 [1]: new-category.md
 [2]: delete-category.md
-[3]: ../../admin/lists/index.md
+[3]: ../../settings/lists/index.md
 [4]: ../../user-management/user-groups.md
 [5]: ../get-next-request-in-queue.md
 

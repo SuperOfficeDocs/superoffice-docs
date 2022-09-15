@@ -25,7 +25,7 @@ This is how to proceed when importing actors (customers, suppliers and individua
 3. In the **ERP connection** list, select the connection you want to import from (see [Sync][2]).
 4. In the **Actor type** list, select what you want to import. These might, for example, be customers, suppliers or individuals.
 5. Click **OK**. The **Search ERP** dialog appears.
-6. Search for the actors you want to import, such as all suppliers in a specific town. [!include[See search criteria](../admin/includes/see-search-admin.md)]
+6. Search for the actors you want to import, such as all suppliers in a specific town. [!include[See search criteria](../includes/see-search-admin.md)]
 7. In the list of search results, select the rows you want to import.
 8. Click **Add Import**. The actors are displayed in Settings and maintenance.
 
@@ -55,7 +55,7 @@ Above each list is a link to the selection containing the new/updated actors.
 > If you have imported new actors, but want to delete them from SuperOffice, you can do this by using the selection.
 
 <!-- Referenced links -->
-[2]: ../admin/quote-sync/sync/index.md
+[2]: ../sale/quote/quote-sync/sync/index.md
 
 <!-- Referenced images -->
 [img1]: ../../media/icons/admin/import-erp-small.bmp

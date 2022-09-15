@@ -1,10 +1,10 @@
 ---
-uid: help-en-blogic
-title: blogic
-description: blogic
+uid: help-en-system-design
+title:  System design
+description:  System design
 author: SuperOffice RnD
 so.date: 06.29.2022
-keywords: Service
+keywords:  System design
 so.topic: help
 language: en
 ---
@@ -13,9 +13,7 @@ language: en
 
 [!include[Restricted access](../../includes/note-insufficient-rights.md)]
 
-Here you can find the advanced options in SuperOffice Service. To go here select ![icon][img1] **System settings** &gt; **System design**.
-
-## What would you like to find out more about?
+Here you can find the advanced options in SuperOffice.
 
 * [Tables][1]
 * [CRMScript][2]
@@ -51,4 +49,3 @@ Here you can find the advanced options in SuperOffice Service. To go here select
 [15]: ../../user/service/admin/listDebugLog.md
 
 <!-- Referenced images -->
-[img1]: ../../../media/icons/globalmenu-settings-small.png

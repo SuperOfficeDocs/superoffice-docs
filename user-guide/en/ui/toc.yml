@@ -5,3 +5,5 @@ items:
   href: extra-menus/toc.yml
 - name: Web panels
   href: web-panels/toc.yml
+- name: Screen designer
+  href: screen-designer/toc.yml

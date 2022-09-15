@@ -45,18 +45,18 @@ The Navigator on the far left of the main screen contains the following buttons:
 [8]: ../../person/gdpr/index.md
 [9]: ../../sale/saint/index.md
 [10]: ../../ai/index.md
-[11]: ../lists/index.md
-[12]: ../quote-sync/index.md
-[13]: ../workflow.md
-[14]: ../screen-designer/index.md
-[15]: ../preferences/index.md
-[16]: ../options/index.md
+[11]: ../../settings/lists/index.md
+[12]: ../../sale/quote/quote-sync/index.md
+[13]: ../../clients/admin/workflow.md
+[14]: ../../ui/screen-designer/index.md
+[15]: ../../settings/preferences/index.md
+[16]: ../../settings/options/index.md
 [17]: ../../import/index.md
 [18]: ../../custom-objects/udef/index.md
 [19]: ../../clients/admin/requests/index.md
 [21]: https://online.superoffice.com/appstore
-[22]: ../preferences/video-meetings/index.md
-[23]: ../preferences/document-library.md
+[22]: ../../settings/preferences/video-meetings/index.md
+[23]: ../../settings/preferences/document-library.md
 
 <!-- Referenced images -->
 [img1]: ../../../../common/icons/nav-admin-chat-active-h32.png

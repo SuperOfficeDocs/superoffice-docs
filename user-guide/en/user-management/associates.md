@@ -62,7 +62,7 @@ The full name, e-mail address and owning company is displayed at the top. At the
 [2]: adding-users.md
 [3]: move-users.md
 [4]: import-users-web.md
-[5]: ../admin/orphans/logging-users-off.md
+[5]: ../orphans/logging-users-off.md
 [6]: associates-filter-group.md
 [7]: role/index.md
 

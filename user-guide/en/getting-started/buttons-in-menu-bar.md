@@ -22,7 +22,7 @@ Wherever you are in the system, these options will appear at the top of the scre
 | ![icon][img6] | Unanswered invitations | |
 | ![icon][img2] | Personal settings | Click here to edit your personal settings, such as preferences, email signature and password. If you added an image in your own contact card, this image will appear on the button. (Options listed below) |
 | ![icon][img1] | Main menu | Click here to access general system settings, such as downloads, and SuperOffice Settings and maintenance. (Options listed below) |
-| ![icon][img16] | System settings (maintenance) | Click here to access the [Service system settings][12]. This menu requires administration rights. |
+| ![icon][img16] | System settings (maintenance) | Click here to access the Service system settings. This menu requires administration rights. |
 | Help | Help | Clicking this button gives you access to comprehensive and easily accessible information on how to use the system. Wherever you are in the program, no matter what you are doing, you can always get help about the precise task you are involved in. |
 | ![icon][img7] | Search | At the top right is the search field. You can use this field to quickly find data in the system. |
 
@@ -87,7 +87,6 @@ At the top left in SuperOffice CRM is the SuperOffice logo, which has the follow
 [7]: ../settings/edit-email-signature.md
 [8]: duplicates.md
 [9]: notepad.md
-[12]: ../admin/index.md
 [15]: ../orphans/creating-shortcuts-to-entries-in-crm.md
 [16]: ../diary/linking-participants-to-follow-ups.md
 [17]: ../sale/sales-targets.md

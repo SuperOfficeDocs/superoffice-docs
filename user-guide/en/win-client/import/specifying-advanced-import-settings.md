@@ -73,6 +73,6 @@ To specify advanced import settings:
 > If you have specified an import description file in the **Import description file** field, information will already be entered in the **Advanced Options** dialog. However, you can change this information as described above. Remember that the import description file must be saved before it is updated with any new options.
 
 <!-- Referenced links -->
-[2]: ../../admin/options/freetext-search/regenerating-freetext-index.md
+[2]: ../../settings/options/freetext-search/regenerating-freetext-index.md
 
 <!-- Referenced images -->

@@ -19,7 +19,7 @@ When you add an item to the **Sale - Stage** list, the **Edit list item** dialog
 
 1. Enter the required name of the item in the **Name** field. This will be displayed in the option list for the **Stage** field in the **Sale** screen in SuperOffice CRM.
 
-    [!include[Mandatory](../../admin/includes/note-mandatory-field.md)]
+    [!include[Mandatory](../../includes/note-mandatory-field.md)]
 
 2. Specify the probability for the item by typing a percentage in the **Probability** field. This figure will be displayed next to the stage in the **Sale** screen in SuperOffice CRM, and indicates the chance of a successful sale at this stage.
 
@@ -31,6 +31,6 @@ When you add an item to the **Sale - Stage** list, the **Edit list item** dialog
 > If you delete a stage that is linked to a sales guide (via a sale type), this may have consequences for using the sales guide.
 
 <!-- Referenced links -->
-[1]: ../../admin/lists/adding-items.md
+[1]: ../../settings/lists/adding-items.md
 
 <!-- Referenced images -->

@@ -18,7 +18,7 @@ When you add an item to the **Project - Type, status** list, the **Edit list ite
 1. Enter the name of the item in the **Name** field.
 
     > [!NOTE]
-    > [!include[Mandatory](../../admin/includes/note-mandatory-field.md)]
+    > [!include[Mandatory](../../includes/note-mandatory-field.md)]
 
 2. In the **Estimated time for this project process**, enter a duration for the project (number of weeks, days or months). When you create a new project of this project type, the end date will be set relative to the time you enter here (today's date + estimated time).
 
@@ -33,7 +33,7 @@ When you add an item to the **Project - Type, status** list, the **Edit list ite
 7. Click **Save**. The project type is added as a separate item in the **Items** list. Repeat this procedure to add more project types.
 
 <!-- Referenced links -->
-[1]: ../../admin/lists/adding-items.md
+[1]: ../../settings/lists/adding-items.md
 [2]: project-status.md
 [3]: project-guide.md
 

@@ -9,6 +9,14 @@ items:
     href: sale-stage.md
   - name: Sales type (for stages)
     href: sales-type-for-stages.md
+  - name: System design
+    href: system-design.md
+  - name: Customer centre
+    href: customer-center.md
+  - name: Workflow
+    href: workflow.md
+  - name: App Store
+    href: app-store.md
   - name: Tables
     href: listextratables.md
   - name: ScreenChoosers

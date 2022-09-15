@@ -13,7 +13,5 @@ so.lang: en
 # Overview
 
 <!-- Referenced links -->
-[1]:
 
 <!-- Referenced images -->
-[img1]: media/

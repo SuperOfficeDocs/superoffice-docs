@@ -155,7 +155,7 @@ Agenda for first meeting:
 [1]: ../../diary/template-variables.md#variables-for-sales
 [2]: ../admin/adding-items-to-sale-stage-list.md
 [3]: ../admin/sale-type-stages-quote.md
-[4]: ../../admin/lists/document-template.md
+[4]: ../../settings/lists/document-template.md
 
 <!-- Referenced images -->
 [img1]: ../../../media/icons/admin/knapp-arbeidsflyt-liten.bmp
