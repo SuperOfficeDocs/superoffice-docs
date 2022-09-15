@@ -5,6 +5,8 @@ items:
   href: about-standard-crm.md
 - name: Introduction to Service
   href: about-service.md
+- name: Introduction to Settings and maintenance
+  href: about-admin.md
 - name: Log in
   href: login.md
 - name: Refresh data

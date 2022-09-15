@@ -17,9 +17,11 @@ Settings and maintenance is the web-based administration client for SuperOffice 
 > [!NOTE]
 > Settings and maintenance cannot be used for Satellite, only for the central database.
 
-Certain features like replication, Travel, Satellite, import and scripting are only available from the Windows-based administration client ([Windows Client settings][1]).
+Certain features like replication, Travel, Satellite, import and scripting are only available from the [Windows-based administration client][1].
+
+The buttons in Settings and maintenance activate their associated functions with a single click, making it easy to navigate quickly between the different parts of the program.
 
 <!-- Referenced links -->
-[1]: ../../win-client/index.md
+[1]: ../win-client/index.md
 
 <!-- Referenced images -->

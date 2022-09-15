@@ -21,3 +21,5 @@ items:
   href: export-archives.md
 - name: External applications and URL addresses
   href: external-applications-and-url-addresses.md
+- name: Adjusting views in Settings and maintenance
+  href: adjusting-views.md

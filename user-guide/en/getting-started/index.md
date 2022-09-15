@@ -25,7 +25,7 @@ You can open the help in three ways:
 * Press **F1**. This opens the help topic for the current screen.
 * Click the **Help** button displayed in the individual windows.
 
-## Main sections
+## Main sections in Standard CRM
 
 SuperOffice CRM consists of the following main sections:
 
@@ -45,6 +45,35 @@ SuperOffice CRM consists of the following main sections:
 You can easily switch between these screens by clicking the buttons in the [Navigator][1]).
 
 Access to other useful functions is just a click away with the **New** button (in the [Top bar][2]) and the [global buttons][3].
+
+## Main sections of Settings and maintenance
+
+Most administration of SuperOffice CRM is performed via Settings and maintenance.
+
+* [Licences][25]
+* [Users][26]
+* [Roles][27]
+* [Privacy][28]
+* [Status monitoring/SAINT][29]
+* [AI services][30]
+* [Lists][31]
+* [Quote/Sync][32]
+* [Workflow][33]
+* [Screen designer][34]
+* [Preferences][35]
+* [Chat][16]
+* [Options][36]
+* [Import][37]
+* [Fields][38]
+* [CRMScript][21]
+* [Requests][39]
+* [Customer centre][23]
+* [System design][24]
+* [App Store][41]
+
+You can easily switch between these screens by clicking the buttons in the Navigator.
+
+To access SOLoader, advanced import, replication, Travel and scripting, see [The main sections of Windows Client settings][40].
 
 ## Differences between onsite and online installations
 
@@ -76,4 +105,24 @@ SuperOffice is available as an online application (cloud-based) and as an onsite
 [17]: ../reports/index.md
 [18]: ../marketing/index.md
 
-<!-- Referenced images -->
+[21]: ../automation/index.md
+[23]: ../clients/admin/customer-center.md
+[24]: ../clients/admin/system-design.md
+[25]: ../license/index.md
+[26]: ../user-management/index.md
+[27]: ../user-management/role/index.md
+[28]: ../person/gdpr/index.md
+[29]: ../sale/saint/index.md
+[30]: ../ai/index.md
+
+[31]: ../settings/lists/index.md
+[32]: ../sale/quote/quote-sync/index.md
+[33]: ../clients/admin/workflow.md
+[34]: ../ui/screen-designer/index.md
+[35]: ../settings/preferences/index.md
+[36]: ../settings/options/index.md
+[37]: ../import/index.md
+[38]: ../custom-objects/udef/index.md
+[39]: ../clients/admin/requests/index.md
+[40]: ../win-client/main-sections-of-maintenance-client.md
+[41]: https://online.superoffice.com/appstore

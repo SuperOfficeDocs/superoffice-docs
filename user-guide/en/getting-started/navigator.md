@@ -14,17 +14,6 @@ language: en
 You move between the main sections of SuperOffice CRM and Service using the Navigator on the far left of the main screen.
 
 > [!TIP]
-> Clicking the word next to the button gives you access to various options, such as favorites list, history list and search. If you hold the mouse pointer over a record in any the lists, a tooltip is displayed containing additional data about the record.
-
-**Sales:**
-
-![Example - screenshot][img2]
-
-**Service:**
-
-![Example Service -screenshot][img32]
-
-> [!TIP]
 > You can change the width of the navigator by clicking ![icon][img21] and ![icon][img22] above the navigator.
 
 ## The navigator in Standard CRM
@@ -58,6 +47,31 @@ You move between the main sections of SuperOffice CRM and Service using the Navi
 | ![icon][img31] | **Marketing**: From here you can create and send mailings (emails, SMS and documents) and create and publish forms. | [Mailing][11] |
 | ![icon][img39] | **Chat**: Opens the **Chat** screen, where you can respond to inquiries sent via the chat function on you company's web page. | [Chat][9] |
 
+## The Navigator in Settings and maintenance
+
+| Button | Function | Read more |
+|:-:|---|---|
+| ![icon][img42] | **Licences**: On the **SuperOffice** tab you can download new licence information for your version of SuperOffice CRM and associated modules. On the **Status** tab you can view database information and system notifications. | [Licenses][45] |
+| ![icon][img43] | **Users**: opens the **Users** screen, where you can define IDs, passwords, user groups, roles and various access options. On the **Our companies** tab you can add companies in addition to your main company. | [Status][46] |
+| ![icon][img44] | **Roles**: opens the **Roles** screen, where you can define roles for accessing data and functions in SuperOffice CRM. The users' access levels are determined by the role they belong to. | [Roles][47] |
+| ![icon][img45] | **Privacy**: opens the **Privacy** screen, where you can define settings for privacy and consent in SuperOffice CRM. | [Privacy][48] |
+| ![icon][img46] | **SAINT**: opens the screen for status monitors (Sales Intelligence), where you can create statuses for companies and projects. | [SAINT][49] |
+| ![icon][img47] | **AI services**: opens the screen for AI services, where you can configure settings for text analysis, sentiment analysis and categorization of requests. | [AI services][20] |
+| ![icon][img48] | **Lists**: opens the **Lists** screen, containing descriptions and definitions of the lists in SuperOffice CRM. | [Lists][21] |
+| ![icon][img49] | **Quote/Sync**: opens the **Quote/Sync** screen, where you can administrate connections and settings for ERP systems that are linked to SuperOffice CRM. Here you can also work on the price lists and products in the SuperOffice database. | [Quote/Sync][22] |
+| ![icon][img50] | **Workflow**: opens the **Workflow** screen, where you can define sales guides and project guides for SuperOffice CRM. | [Workflow][23] |
+| ![icon][img51] | **Screen designer**: opens the Screen designer screen, where you can create custom screen layouts for specific user groups. | [Screen designer][24] |
+| ![icon][img52] | **Preferences**: opens the **Preferences** screen, where you can specify a number of settings for different aspects of SuperOffice CRM, for example, the number of elements to display in the history list, the default type for new activities, and so on. Here you can also configure [Video meetings][42] and the [Document library][43]. | [Preferences][25] |
+| ![icon][img41] | **Chat**: opens the **Chat** screen, where you can create chat channels and set up the chat feature. | [Chat][2] |
+| ![icon][img53] | **Options**: opens the **Options** screen, where you can define system-wide settings, i.e. settings for freetext search, time zones, number allocation, labels and reports. | [Options]][26] |
+| ![icon][img54] | **Import**: opens the **Import** screen, where you can import data into the SuperOffice database. | [Import][27] |
+| ![icon][img55] | **Fields**: opens the **Fields** screen, where you define user-defined fields for SuperOffice CRM. | [Fields][28] |
+| ![icon][img56] | **CRMScript**: opens the screen with various functions for scripting and automation, such as macros, event handlers and scheduled tasks. | [CRMScript][41] |
+| ![icon][img57] | **Requests**: here you can find various settings for requests in SuperOffice Service. | [Requests][34]
+| ![icon][img58] | **Customer centre**: here you can configure the customer centre. You can edit the content and layout of the customer centre and edit the default content. | |
+| ![icon][img59] | **System design**: here you can find various advanced settings for SuperOffice Service. | |
+| ![icon][img60] | **App Store**: Click here to open the [SuperOffice App Store][44], where you can explore standard apps, modules and integrations that can expand SuperOffice CRM Online. | |
+
 ## Navigator options
 
 When you click a navigator button, one or more of the buttons below are displayed.
@@ -71,6 +85,16 @@ When you click a navigator button, one or more of the buttons below are displaye
 
 > [!NOTE]
 > Clicking the **Dashboard** button only opens the dashboard.
+
+If you hold the mouse pointer over a record in any the lists, a tooltip is displayed containing additional data about the record.
+
+**Sales:**
+
+![Example - screenshot][img2]
+
+**Service:**
+
+![Example Service -screenshot][img32]
 
 <!-- Referenced links -->
 [1]: ../dashboard/index.md
@@ -92,6 +116,26 @@ When you click a navigator button, one or more of the buttons below are displaye
 [34]: ../request/index.md
 [35]: ../clients/service/knowledge-base.md
 [37]: ../dashboard/service/index.md
+
+[20]: ../ai/index.md
+[21]: ../settings/lists/index.md
+[22]: ../sale/quote/quote-sync/index.md
+[23]: ../clients/admin/workflow.md
+[24]: ../ui/screen-designer/index.md
+[25]: ../settings/preferences/index.md
+[26]: ../settings/options/index.md
+[27]: ../import/index.md
+[28]: ../custom-objects/udef/index.md
+
+[41]: ../automation/index.md
+[42]: ../settings/preferences/video-meetings/index.md
+[43]: ../settings/preferences/document-library.md
+[44]: https://online.superoffice.com/appstore
+[45]: ../license/index.md
+[46]: ../user-management/index.md
+[47]: ../user-management/role/index.md
+[48]: ../person/gdpr/index.md
+[49]: ../sale/saint/index.md
 
 <!-- Referenced images -->
 [img2]: media/navigator-preview-sales.png
@@ -125,3 +169,25 @@ When you click a navigator button, one or more of the buttons below are displaye
 [img36]: ../../media/icons/nav-kb.png
 [img37]: ../../media/icons/nav-statistics.png
 [img39]: ../../media/icons/nav-chat.png
+
+[img41]: ../../media/icons/chat-btn.png
+[img42]: ../../media/icons/admin/knapp-lisenser.bmp
+[img43]: ../../media/icons/admin/knapp-brukere.bmp
+[img44]: ../../media/icons/admin/knapp-rolle.bmp
+[img45]: ../../media/icons/admin/knapp-privacy.png
+[img46]: ../../media/icons/admin/knapp-saint.bmp
+[img47]: ../../media/icons/admin/knapp-ai.png
+[img48]: ../../media/icons/admin/knapp-lister.bmp
+[img49]: ../../media/icons/admin/knapp-quotesync.bmp
+
+[img50]: ../../media/icons/admin/knapp-arbeidsflyt.bmp
+[img51]: ../../media/icons/admin/knapp-screendesigner.png
+[img52]: ../../media/icons/admin/knapp-preferanser.bmp
+[img53]: ../../media/icons/admin/knapp-systemvalg.bmp
+[img54]: ../../media/icons/admin/knapp-import.bmp
+[img55]: ../../media/icons/admin/knapp-felt.bmp
+[img56]: ../../media/icons/admin/knapp-crmscript.bmp
+[img57]: ../../media/icons/admin/knapp-requests.png
+[img58]: ../../media/icons/admin/knapp-customercentre.png
+[img59]: ../../media/icons/admin/knapp-systemdesign.png
+[img60]: ../../media/icons/admin/knapp-appstore.png

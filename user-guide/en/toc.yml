@@ -41,11 +41,8 @@ items:
     href: custom-objects/toc.yml
   - name: Settings
     href: settings/toc.yml
-  - name: Admin
-    href: admin/toc.yml
-    items:
-    - name: Service
-      href: user/service/admin/toc.yml
+  - name: Service admin
+    href: user/service/admin/toc.yml
   - name: Licenses
     href: license/toc.yml
   - name: Search options
@@ -59,7 +56,7 @@ items:
   - name: win-client
     href: win-client/toc.yml
   - name: Globalization
-    href: globalization/translate-fields.md
+    href: globalization/toc.yml
   - name: License agreement
     href: License-agreement.md
   - name: Copyright information

@@ -42,8 +42,6 @@ The columns will retain the specified widths the next time you run the program.
 
 You can select which columns are displayed in the lists, as well as their order.
 
-[!include[To do this](../../includes/to-do-this.md)]
-
 1. Right-click a column heading, and select **Configure columns**. The **Columns** tab in the **Customise** dialog is displayed.
 2. Make the required changes in the columns as follows:
     * Add columns: In the **Available columns** pane, select the columns you want to add and click the right arrow ( ![icon][img1] ) to move them to the **Columns selected** pane.

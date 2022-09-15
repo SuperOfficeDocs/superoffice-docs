@@ -11,7 +11,7 @@ language: en
 
 # Buttons on the Top bar
 
-Wherever you are in the system, these options will appear at the top of the screen:
+The items at the top of the screen vary slightly between SuperOffice CRM, Service, and Settings and maintenance. Their significance is however the same. For example, in Settings and maintenance, only Personal settings, Main menu, and Help are shown.
 
 | Button | Name | Description |
 |---|---|---|
@@ -21,8 +21,7 @@ Wherever you are in the system, these options will appear at the top of the scre
 | ![icon][img5] | Unread invitations | |
 | ![icon][img6] | Unanswered invitations | |
 | ![icon][img2] | Personal settings | Click here to edit your personal settings, such as preferences, email signature and password. If you added an image in your own contact card, this image will appear on the button. (Options listed below) |
-| ![icon][img1] | Main menu | Click here to access general system settings, such as downloads, and SuperOffice Settings and maintenance. (Options listed below) |
-| ![icon][img16] | System settings (maintenance) | Click here to access the Service system settings. This menu requires administration rights. |
+| ![icon][img1] | Main menu | Click here to access general system settings (options listed below) and to switch between SuperOffice CRM and Settings and maintenance. |
 | Help | Help | Clicking this button gives you access to comprehensive and easily accessible information on how to use the system. Wherever you are in the program, no matter what you are doing, you can always get help about the precise task you are involved in. |
 | ![icon][img7] | Search | At the top right is the search field. You can use this field to quickly find data in the system. |
 
@@ -32,8 +31,6 @@ The other buttons in SuperOffice Service are described in connection with the ta
 
 > [!NOTE]
 > If you added an image in your own contact card, this image will appear on the **Personal settings** button.
-
-Click the **Personal settings** button in the Top bar to access the following options:
 
 | Option | Description |
 |---|---|
@@ -48,11 +45,11 @@ Click the **Personal settings** button in the Top bar to access the following op
 | Log out | Click here to log out of SuperOffice CRM. |
 
 > [!NOTE]
-> To change the language in Mobile CRM, click the **Task** button in the bottom left corner. Then select **Settings**, click **Language** and select from the options.
+> In Settings and maintenance, you'll only find **Local settings**, **Change password**, and **Log out**.
 
 ## Options in the Main menu
 
-Click the **Main menu** button in the Top bar to access the following options:
+**Standard CRM:**
 
 | Option | Description |
 |---|---|
@@ -67,6 +64,13 @@ Click the **Main menu** button in the Top bar to access the following options:
 | Targets | Click here to add [sales targets][17]. |
 | Edit system signature | Click here to edit the default e-mail signature. |
 | Settings and maintenance | Click here to go to SuperOffice Settings and maintenance. This option is only available if you have administrator's rights. |
+
+**Settings and maintenance:**
+
+| Option | Description |
+|---|---|
+| Change serial number | Click here to change the serial number for SuperOffice. |
+| SuperOffice CRM | Click here to open SuperOffice CRM for Web. |
 
 ## The SuperOffice logo
 
@@ -101,4 +105,3 @@ At the top left in SuperOffice CRM is the SuperOffice logo, which has the follow
 [img7]: ../../media/icons/globalmenu-search.png
 [img8]: ../media/globalmenu-find.png
 [img11]: ../../media/superoffice-logo.bmp
-[img16]: ../../media/icons/service/globalmenu-settings.png
