@@ -16,8 +16,6 @@ When synchronising data between SuperOffice and ERP systems, you have to specify
 > [!NOTE]
 > When editing an ERP connection, you first need to deactivate it.
 
-[!include[To do this](../../../includes/to-do-this.md)]
-
 [!include[Go to sync](../includes/goto-sync.md)]
 
 1. Select the ERP connection, and click the **Mappings** button at the bottom. The **Mappings** dialog displays the tabs for the available actors in the ERP system.
@@ -77,8 +75,8 @@ If you have mapped any lists (for example category), you must also map the indiv
 [1]: sync-configure-list-mapping.md
 
 <!-- Referenced images -->
-[img1]: ../../../../media/icons/admin/sync-direction-none.bmp
-[img2]: ../../../../media/icons/admin/sync-direction-2way.bmp
-[img3]: ../../../../media/icons/admin/sync-direction-toerp.bmp
-[img4]: ../../../../media/icons/admin/sync-direction-toso.bmp
-[img5]: ../../../../media/icons/admin/sync-direction-deactivated.bmp
+[img1]: ../../../../../media/icons/admin/sync-direction-none.bmp
+[img2]: ../../../../../media/icons/admin/sync-direction-2way.bmp
+[img3]: ../../../../../media/icons/admin/sync-direction-toerp.bmp
+[img4]: ../../../../../media/icons/admin/sync-direction-toso.bmp
+[img5]: ../../../../../media/icons/admin/sync-direction-deactivated.bmp

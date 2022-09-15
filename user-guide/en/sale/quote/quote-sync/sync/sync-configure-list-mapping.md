@@ -16,8 +16,6 @@ When synchronising data between SuperOffice and ERP systems, you have to specify
 > [!NOTE]
 > When editing an ERP connection, you first need to deactivate it.
 
-[!include[To do this](../../../includes/to-do-this.md)]
-
 [!include[Go to sync](../includes/goto-sync.md)]
 
 1. Select the ERP connection, and click the **List mapping** button at the bottom. The **List mapping** dialog displays the lists that are available for mapping. If no lists are displayed, you have not mapped any lists in [Configure field mapping][1].

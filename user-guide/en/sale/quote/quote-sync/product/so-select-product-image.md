@@ -27,7 +27,7 @@ To select a picture for a product in **SuperOffice products**:
 
 ## What sort of images can I use?
 
-[!include[File type and size](../../../sale/includes/image-type-and-size.md)]
+[!include[File type and size](../../../includes/image-type-and-size.md)]
 
 <!-- Referenced links -->
 

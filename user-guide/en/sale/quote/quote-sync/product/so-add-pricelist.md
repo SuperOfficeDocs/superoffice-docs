@@ -33,7 +33,7 @@ To add a price list in SuperOffice CRM:
 1. Do one of the following:
 
     * Select **Add empty price list** if you want to start with a blank price list and enter all the products manually.
-    * Select **Copy existing price list** to copy a price list and all its products. [!include[To do this](../../../includes/to-do-this.md)]
+    * Select **Copy existing price list** to copy a price list and all its products.
 
     1. Select the required price list in the list below.
 

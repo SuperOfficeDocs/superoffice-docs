@@ -46,7 +46,7 @@ The Navigator on the far left of the main screen contains the following buttons:
 [9]: ../../sale/saint/index.md
 [10]: ../../ai/index.md
 [11]: ../../settings/lists/index.md
-[12]: ../quote-sync/index.md
+[12]: ../../sale/quote/quote-sync/index.md
 [13]: ../../clients/admin/workflow.md
 [14]: ../../ui/screen-designer/index.md
 [15]: ../../settings/preferences/index.md

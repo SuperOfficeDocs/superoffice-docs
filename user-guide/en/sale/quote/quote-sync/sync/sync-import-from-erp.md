@@ -13,15 +13,13 @@ language: en
 
 You can import companies, contacts and products from an ERP connection.
 
-[!include[To do this](../../../includes/to-do-this.md)]
-
 1. Go to the **Sync** tab in the **Quote/Sync** screen.
 2. Click the **Off** button to turn off automatic sync.
 3. Select the ERP connection, and click the **Import from ERP** button at the bottom. The **Import** screen opens.
-4. [!include[Select source](../../../import/includes/select-source.md)]
+4. [!include[Select source](../../../../import/includes/select-source.md)]
 5. See [Import from ERP][1] for more information.
 
 <!-- Referenced links -->
-[1]: ../../../import/import-from-erp.md
+[1]: ../../../../import/import-from-erp.md
 
 <!-- Referenced images -->
