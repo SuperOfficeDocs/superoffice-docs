@@ -47,8 +47,8 @@ The Navigator on the far left of the main screen contains the following buttons:
 [10]: ../../ai/index.md
 [11]: ../lists/index.md
 [12]: ../quote-sync/index.md
-[13]: ../workflow.md
-[14]: ../screen-designer/index.md
+[13]: ../../clients/admin/workflow.md
+[14]: ../../ui/screen-designer/index.md
 [15]: ../preferences/index.md
 [16]: ../options/index.md
 [17]: ../../import/index.md

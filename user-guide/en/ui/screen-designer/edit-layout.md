@@ -11,7 +11,7 @@ language: en
 
 # Edit layout
 
-When you have created a new layout as described in [Add new layout][4], it is time to customize it according to the needs of the assigned user group(s). If you are customizing a layout for the sales team, you should have a clear plan of what their needs are with regards to the layout and formatting of the tabs, fields, elements and columns. Which information should be first and easiest to find? Do they need all fields and tabs? What is the logical order of the fields?
+When you have [created a new layout][4], it is time to customize it according to the needs of the assigned user group(s). If you are customizing a layout for the sales team, you should have a clear plan of what their needs are with regards to the layout and formatting of the tabs, fields, elements and columns. Which information should be first and easiest to find? Do they need all fields and tabs? What is the logical order of the fields?
 
 **To edit a screen layout:**
 
@@ -53,7 +53,7 @@ When you have created a new layout as described in [Add new layout][4], it is ti
 
     Boxes with stapled lines in the layout, indicate where you can place a field.
     <details><summary>What does this look like?</summary>
-    ![Boxes with stapled lines -screenshot](../media/screendesigner-field-place.png)
+    ![Boxes with stapled lines -screenshot](media/screendesigner-field-place.png)
     </detais>
 
     * **Elements**: Drag various elements such as labels, dividers, links and buttons to the layout. Place the elements as described above. See [Elements](#elements).
@@ -142,6 +142,7 @@ If you need to revert to an earlier version of the screen, you can access the fo
 
 <!-- Referenced links -->
 [2]: ../../globalization/translate-fields.md
+[4]: add-new-layout.md
 [5]: ../../custom-objects/udef/index.md
 
 <!-- Referenced images -->

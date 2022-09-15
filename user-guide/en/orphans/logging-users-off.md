@@ -11,9 +11,9 @@ language: en
 
 # Log users off
 
-If a user is denied access to SuperOffice CRM, e.g. following a program crash, the administrator can log off the user in Settings and maintenance, so that the user can log in again as normal. [!include[To do this](../../includes/to-do-this.md)]
+If a user is denied access to SuperOffice CRM, e.g. following a program crash, the administrator can log off the user in Settings and maintenance, so that the user can log in again as normal.
 
-1. [!include[Click Users](../../user-management/includes/goto-users.md)]
+1. [!include[Click Users](../user-management/includes/goto-users.md)]
 
 2. Select the **Associates** tab.
 
@@ -21,7 +21,7 @@ If a user is denied access to SuperOffice CRM, e.g. following a program crash, t
 
 4. Select **Logged-on to Windows client** in the list box below the list of users.
 
-5. [!include[Select user](../../user-management/includes/select-user.md)]
+5. [!include[Select user](../user-management/includes/select-user.md)]
 
 6. Click the **Task** button and select **Log user off**. The user is logged off.
 

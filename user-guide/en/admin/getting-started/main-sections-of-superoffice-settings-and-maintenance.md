@@ -43,8 +43,8 @@ To access SOLoader, advanced import, replication, Travel and scripting, see [The
 <!-- Referenced links -->
 [1]: ../../automation/index.md
 [2]: ../../chat/index.md
-[3]: ../customer-center.md
-[4]: ../system-design.md
+[3]: ../../clients/admin/customer-center.md
+[4]: ../../clients/admin/system-design.md
 [5]: ../../license/index.md
 [6]: ../../user-management/index.md
 [7]: ../../user-management/role/index.md
@@ -53,8 +53,8 @@ To access SOLoader, advanced import, replication, Travel and scripting, see [The
 [10]: ../../ai/index.md
 [11]: ../lists/index.md
 [12]: ../quote-sync/index.md
-[13]: ../workflow.md
-[14]: ../screen-designer/index.md
+[13]: ../../clients/admin/workflow.md
+[14]: ../../ui/screen-designer/index.md
 [15]: ../preferences/index.md
 [16]: ../options/index.md
 [17]: ../../import/index.md

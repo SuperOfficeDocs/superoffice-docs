@@ -1,6 +1,4 @@
 items:
-- name: Overview
-  href: index.md
 - name: Getting started
   href: getting-started/toc.yml
   topicHref: getting-started/index.md
@@ -8,28 +6,7 @@ items:
   href: lists/toc.yml
 - name: Quote sync
   href: quote-sync/toc.yml
-- name: Workflow
-  href: workflow.md
-- name: Screen designer
-  href: screen-designer/toc.yml
 - name: Preferences
   href: preferences/toc.yml
 - name: Options
   href: options/toc.yml
-- name: Customer centre
-  href: customer-center.md
-- name: System design
-  href: system-design.md
-- name: App Store
-  href: app-store.md
-# Unedited files and entries below this point, sorted alphabetically
-- name: Orphaned content
-  items:
-  - name: Parameter examples
-    href: orphans/parameter-examples.md
-  - name: Logging users off
-    href: orphans/logging-users-off.md
-  - name: Deleting companies in the Our companies tab (Win)
-    href: orphans/deleting-companies-in-our-companies-tab-win.md
-  - name: Using document templates for multiple languages
-    href: orphans/using-document-templates-for-multiple-languages.md
