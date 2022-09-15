@@ -11,17 +11,7 @@ so.envir: cloud
 so.client: online
 ---
 
-# How to set up SharePoint using site permissions and Domain (AAD) groups
-
-We recommend that you use domain (AAD) groups to control access to you SuperOffice document site in SharePoint​. All your user administration will be in Azure Portal, you will maintain group members there​.
-
-If you plan to **use Visible for** (or already using this in CRM):​
-
-AAD groups is the only way to set permissions in SharePoint according to your SuperOffice user groups​. We recommend (if not already) that you create corresponding groups in AAD to your SuperOffice user groups​.
-
-If you plan **NOT to use Visible for**:​
-
-We recommend that you use domain (AAD) group and not the SharePoint groups.​ Then you will have one place to handle users and permissions, and by adding users to this group in AAD when creating them – you will not have to add them again in SharePoint.
+# How to set up SharePoint permissions for documents
 
 ## Step 1 – Navigate to the site where the SuperOffice document library reside​
 

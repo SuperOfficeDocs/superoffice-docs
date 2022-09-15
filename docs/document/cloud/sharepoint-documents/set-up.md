@@ -10,7 +10,7 @@ so.envir: cloud
 so.client: online
 ---
 
-# How to set up Microsoft 365 SharePoint folders
+# How to set up Microsoft 365 SharePoint
 
 The set-up of the SharePoint site and document libraries is quite flexible, but we recommend to create a separate SharePoint site for your SuperOffice documents, and 2 document libraries: one for documents and a separate document library for templates.
 

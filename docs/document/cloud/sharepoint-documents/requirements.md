@@ -24,7 +24,7 @@ so.client: online
 * A SharePoint document library for storing templates
 
 * If you want to enable group access on SharePoint documents based on "Visible for" settings in SuperOffice
-  * Need access to 'Global Admin' rights in O365 (to be able to authenticate SuperOffice as a trusted app in your MS 365 solution)
+  * 'Global Admin' rights in MS 365 (to be able to authenticate SuperOffice document library as a trusted app in your MS 365 solution)
     * Either during setup
     * Or send a link to someone who is
 
@@ -34,15 +34,8 @@ so.client: online
   * AAD Authentication of users (see [IDP authentication][2] for more info).
 
 > [!NOTE]
-> Support Word, Excel, PowerPoint documents, PDF and some image formats.
 >
-> Support for archiving emails to SharePoint and opening archived emails from SharePoint.
->
-> Support for migrating existing documents in SuperOffice archive (SO cloud) to SharePoint. Pilot program from SuperOffice Online 10.1.5.
->
-> Support for migrating existing CloudOffice customers (version 1) to 'SharePoint documents 2.0'. Pilot program from SuperOffice Online 10.1.5.
->
-> No support for moving a documents to other SharePoint "sites", only within the same site.
+> No support for moving documents to other SharePoint sites, only within the same site.
 
 <!-- Referenced links -->
 [2]: ../legacy/office-365/prepare-sharepoint.md

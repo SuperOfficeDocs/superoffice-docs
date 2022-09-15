@@ -114,14 +114,7 @@ See the [reference of permissions in SharePoint​][1] for more information.
 ​    ![Review and confirm -screenshot][img8]
 
 > [!CAUTION]
-> When you have confirmed, **you will not be able to change the Site in SharePoint and Document Library settings**. Specifically:​
->
->* SuperOffice documents​
->   * Site in SharePoint​
->   * Document library​
->* SuperOffice document templates​
->   * Site in SharePoint​
->   * Document library​​
+> When you have confirmed **you will not be able to change the Site in SharePoint and Document Library settings**.
 
 <!-- Referenced links -->
 [1]: permissions-in-sharepoint.md

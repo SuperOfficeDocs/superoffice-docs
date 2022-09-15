@@ -36,7 +36,7 @@ landingContent:
             url: sharepoint-documents/requirements.md
       - linkListType: how-to-guide
         links:
-          - text: SharePoint site and folders set up
+          - text: SharePoint site and libraries set up
             url: sharepoint-documents/set-up.md
           - text: SuperOffice Admin configuration
             url: sharepoint-documents/configure-templates.md
