@@ -1,5 +1,5 @@
 ---
-title: How to setup Microsoft 365 SharePoint folders
+title: How to setup Microsoft 365 SharePoint
 uid: sharepoint-set-up
 description: How to create a site and a document library in Microsoft 365 SharePoint
 author: Bergfrid Dias

@@ -12,16 +12,20 @@ items:
       items:
       - name: Requirements
         href: cloud/sharepoint-documents/requirements.md
-      - name: SharePoint permissions
-        href: cloud/sharepoint-documents/permissions-in-sharepoint.md
-      - name: SuperOffice app permissions
-        href: cloud/sharepoint-documents/permissions-app.md        
-      - name: SharePoint site and folders set up
-        href: cloud/sharepoint-documents/set-up.md
-      - name: SuperOffice Admin configuration
+      - name: Set up SharePoint
+        items:
+        - name: SharePoint site and libraries
+          href: cloud/sharepoint-documents/set-up.md                  
+        - name: About permissions in SharePoint
+          href: cloud/sharepoint-documents/permissions-in-sharepoint.md
+        - name: Permissions for documents
+          href: cloud/sharepoint-documents/configure-permissions-with-aad-groups.md
+        - name: Permissions for templates
+          href: cloud/sharepoint-documents/permissions-templates.md          
+      - name: Set up SuperOffice to use SharePoint
         href: cloud/sharepoint-documents/configure-templates.md
-      - name: How to configure permissions
-        href: cloud/sharepoint-documents/configure-permissions-with-aad-groups.md
+      - name: Permissions for SuperOffice document library app
+        href: cloud/sharepoint-documents/permissions-app.md               
       - name: Troubleshooting
         href: cloud/sharepoint-documents/troubleshooting.md
     - name: Google Workspace document integration
