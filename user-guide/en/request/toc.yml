@@ -3,6 +3,29 @@ items:
   href: index.md
 - name: Customers
   href: customers.md
+- name: Categories
+  href: category/index.md
+  items:
+  - name: Create category
+    href: category/new-category.md
+  - name: Delete category
+    href: category/delete-category.md
+- name: Priorities
+  href: priority/index.md
+  items:
+  - name: Create priorities
+    href: priority/create-priority.md
+  - name: Delete priority
+    href: priority/delete-priority.md
+  - name: Create escalation levels
+    href: priority/create-escalation-level.md
+- name: Request status
+  href: status/index.md
+  items:
+  - name: Create request status
+    href: status/create.md
+  - name: Delete request status
+    href: status/delete.md
 - name: AI requests
   href: ai-requests.md
 - name: Get next request in the queue

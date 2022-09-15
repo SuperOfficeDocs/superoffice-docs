@@ -19,7 +19,7 @@ To create a new category:
 
 1. Enter a descriptive name for the category (replace the text "New category" above the tabs).
 
-1. [!include[Enter properties](../../../includes/enter-properties.md)]
+1. [!include[Enter properties](../../includes/enter-properties.md)]
 
     * **Internal or external**: If you check **Internal**, the category will not be visible in SuperOffice Customer Centre.
 
@@ -72,8 +72,8 @@ To create a new category:
 1. Click **OK**. The category is created.
 
 <!-- Referenced links -->
-[1]: ../../preferences/index.md
-[2]: ../../../user-management/user-groups.md
-[3]: ../../../request/get-next-request-in-queue.md
+[1]: ../../admin/preferences/index.md
+[2]: ../../user-management/user-groups.md
+[3]: ../get-next-request-in-queue.md
 
 <!-- Referenced images -->

@@ -16,8 +16,6 @@ items:
   href: preferences/toc.yml
 - name: Options
   href: options/toc.yml
-- name: Requests
-  href: requests/toc.yml
 - name: Customer centre
   href: customer-center.md
 - name: System design

@@ -21,7 +21,7 @@ To create a new priority:
 
 1. Enter a descriptive name for the priority (replace the text "Priority name" above the tabs).
 
-1. [!include[Enter properties](../../../includes/enter-properties.md)]
+1. [!include[Enter properties](../../includes/enter-properties.md)]
 
     * **External**: Checking here makes the priority accessible from SuperOffice Customer Centre.
 

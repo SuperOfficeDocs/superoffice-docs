@@ -32,4 +32,4 @@ In the **SOAP** screen, you can configure the SOAP interface. You can set up 3 t
 <!-- Referenced links -->
 
 <!-- Referenced images -->
-[img1]: ../../../media/icons/admin/btn-delete-admin.png
+[img1]: ../../../../media/icons/admin/btn-delete-admin.png

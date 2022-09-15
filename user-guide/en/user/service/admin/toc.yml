@@ -11,10 +11,6 @@ items:
   href: editinfo.sms.md
 - name: Admin editInfo smtp
   href: editinfo.smtp.md
-- name: Admin editReplyTemplates
-  href: admin.editreplytemplates.md
-- name: Admin editReplyTemplates
-  href: editreplytemplates.md
 - name: Admin editUser
   href: edituser.md
 - name: Admin editUser helpCategoryMembership

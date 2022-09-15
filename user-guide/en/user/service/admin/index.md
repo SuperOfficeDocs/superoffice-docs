@@ -42,7 +42,7 @@ In this section of SuperOffice Service, you can configure the system to tailor i
 [5]: listPriorities.md
 [6]: listTicketStatuses.md
 [7]: ../../../email/service/index.md
-[8]: editReplyTemplates.md
+[8]: ../../../clients/admin/requests/system-templates.md
 [9]: editInfo.md
 [10]: listCustLangs.md
 [11]: listCustCenter.config.md

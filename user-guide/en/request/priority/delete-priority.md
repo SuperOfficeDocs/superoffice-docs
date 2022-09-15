@@ -11,7 +11,7 @@ language: en
 
 # Delete priorities
 
-You cannot delete priorities, but you can set the status of a priority to **Deleted**, to make it unavailable to users and customers. [!include[To do this](../../../includes/to-do-this.md)]
+You cannot delete priorities, but you can set the status of a priority to **Deleted**, to make it unavailable to users and customers.
 
 [!include[Go to priority](includes/goto-priority.md)]
 

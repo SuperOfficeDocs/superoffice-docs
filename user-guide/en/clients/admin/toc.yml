@@ -1,6 +1,8 @@
 items:
   - name: Overview
     href: index.md
+  - name: Requests
+    href: requests/toc.yml
   - name: Sales guide
     href: sales-guide.md
   - name: Sale stage
