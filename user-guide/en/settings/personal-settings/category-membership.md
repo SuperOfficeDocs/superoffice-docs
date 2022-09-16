@@ -1,10 +1,10 @@
 ---
-uid: help-en-admin-edituser-helpcategorymembership
-title: admin editUser helpCategoryMembership
-description: admin editUser helpCategoryMembership
+uid: help-en-service-settings-personal-category
+title: Category membership
+description: Category membership
 author: SuperOffice RnD
 so.date: 06.29.2022
-keywords: Service
+keywords: Service, personal settings
 so.topic: help
 language: en
 ---
@@ -17,7 +17,7 @@ You use the **Category membership** tab in the **Edit users** screen to specify 
 
 To add a category to the list of categories you are a member of:
 
-1. Select ![icon][img2] **Personal Settings &gt; Settings &gt; Category membership** tab.
+1. Select ![icon][img2] **Personal Settings > Settings > Category membership** tab.
 2. Click the **Category** list, and select the category you want.
 3. Click **Add** to add the category, or click **Add with subcategories** to include the subcategories of the selected category.
 4. Repeat steps 1-2 for each category you wish to add.
@@ -28,8 +28,8 @@ To add a category to the list of categories you are a member of:
 You remove a category from the list by clicking the delete icon ( ![icon][img1] ) to the right of the category in question.
 
 <!-- Referenced links -->
-[1]: editUser.helpUserInfo.md
+[1]: user-info.md
 
 <!-- Referenced images -->
-[img1]: ../../../../../common/icons/delete-red.png
-[img2]: ../../../../media/icons/globalmenu-personalsettings-small.png
+[img1]: ../../../../common/icons/delete-red.png
+[img2]: ../../../media/icons/globalmenu-personalsettings-small.png

@@ -1,10 +1,10 @@
 ---
-uid: help-en-admin-editinfo-sms
-title: admin editInfo sms
-description: admin editInfo sms
+uid: help-en-service-settings-system-sms
+title: SMS
+description: SMS
 author: SuperOffice RnD
 so.date: 06.29.2022
-keywords: Service
+keywords: Service, settings
 so.topic: help
 language: en
 ---
@@ -15,7 +15,7 @@ The **SMS** tab in the **System** screen contains options for configuring SMS so
 
 ## General fields
 
-[!include[Settings for mailings - SMS](../../../marketing/includes/mailing-settings-sms.md)]
+[!include[Settings for mailings - SMS](../../marketing/includes/mailing-settings-sms.md)]
 
 ## Testing the SMS settings
 

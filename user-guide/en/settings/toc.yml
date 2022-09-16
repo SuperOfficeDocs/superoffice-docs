@@ -9,3 +9,7 @@ items:
   href: lists/toc.yml
 - name: Edit email signature
   href: edit-email-signature.md
+- name: Personal settings in Service
+  href: personal-settings/toc.yml
+- name: System settings in Service
+  href: system/toc.yml

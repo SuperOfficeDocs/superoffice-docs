@@ -43,7 +43,7 @@ In this section of SuperOffice Service, you can configure the system to tailor i
 [6]: ../../../request/status/index.md
 [7]: ../../../email/service/index.md
 [8]: ../../../clients/admin/requests/system-templates.md
-[9]: editInfo.md
+[9]: ../../../settings/system/index.md
 [10]: listCustLangs.md
 [11]: listCustCenter.config.md
 [12]: listCustCenter.edit.md

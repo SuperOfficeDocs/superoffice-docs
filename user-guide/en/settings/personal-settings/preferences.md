@@ -1,10 +1,10 @@
 ---
-uid: help-en-admin-edituser-helpsettings
-title: admin editUser helpSettings
-description: admin editUser helpSettings
+uid: help-en-service-settings-personal-preferences
+title: Preferences
+description: Preferences
 author: SuperOffice RnD
 so.date: 06.29.2022
-keywords: Service
+keywords: Service, personal settings
 so.topic: help
 language: en
 ---
@@ -43,7 +43,7 @@ In the **Preferences** tab in the **Edit users** screen, you can edit the follow
     > You can override this choice in the **Request** screen.
 
 <!-- Referenced links -->
-[1]: ../../../request/showListTickets.askForHelp.md
-[2]: ../../../request/listTickets.useLists.md
+[1]: ../../request/showListTickets.askForHelp.md
+[2]: ../../request/listTickets.useLists.md
 
 <!-- Referenced images -->

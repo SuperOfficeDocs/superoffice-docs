@@ -1,17 +1,17 @@
 ---
-uid: help-en-admin-editinfo
-title: admin editInfo
-description: admin editInfo
+uid: help-en-service-settings-system
+title: System settings
+description: System settings
 author: SuperOffice RnD
 so.date: 06.29.2022
-keywords: Service
+keywords: Service, settings
 so.topic: help
 language: en
 ---
 
 # System
 
-[!include[Restricted access](../../../includes/note-insufficient-rights.md)]
+[!include[Restricted access](../../includes/note-insufficient-rights.md)]
 
 The **System** screen is used to configure some of the key characteristics of SuperOffice Service.
 
@@ -23,9 +23,9 @@ The **System** screen is used to configure some of the key characteristics of Su
 * [SMS][4]
 
 <!-- Referenced links -->
-[1]: editInfo.settings.md
-[2]: editInfo.smtp.md
-[3]: editInfo.password.md
-[4]: editInfo.sms.md
+[1]: settings.md
+[2]: smtp.md
+[3]: password.md
+[4]: sms.md
 
 <!-- Referenced images -->

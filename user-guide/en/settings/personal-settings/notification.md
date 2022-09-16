@@ -1,10 +1,10 @@
 ---
-uid: help-en-admin-edituser-helpnotification
-title: admin editUser helpNotification
-description: admin editUser helpNotification
+uid: help-en-service-settings-personal-notification
+title: Notification
+description: Notification
 author: SuperOffice RnD
 so.date: 06.29.2022
-keywords: Service
+keywords: Service, personal settings
 so.topic: help
 language: en
 ---
@@ -22,7 +22,7 @@ You can receive notifications of the following events in SuperOffice Service.
 * **Open requests, not read in the last \[number\] days**: Check here to be notified of open requests that have not been edited for the specified number of days and where you are the owner.
 
     > [!NOTE]
-    > This option is activated from ![icon][img1] **System settings** &gt; **System** &gt; **Settings** &gt; **Send e-mail notification of open requests**.
+    > This option is activated from ![icon][img1] **System settings** > **System** > **Settings** > **Send e-mail notification of open requests**.
 
 * **New request**: Check here to be notified each time you are assigned a new request.
 
@@ -39,9 +39,9 @@ You can receive notifications of the following events in SuperOffice Service.
 * **Custom messages**: Check here to receive custom notifications created using scripts.
 
 <!-- Referenced links -->
-[1]: ../../../getting-started/buttons-in-menu-bar.md
-[2]: ../../../request/priority/escalation-levels.md
+[1]: ../../getting-started/buttons-in-menu-bar.md
+[2]: ../../request/priority/escalation-levels.md
 
 <!-- Referenced images -->
-[img1]: ../../../../media/icons/globalmenu-settings-small.png
-[img2]: ../../../../media/icons/globalmenu-notice-new.png
+[img1]: ../../../media/icons/globalmenu-settings-small.png
+[img2]: ../../../media/icons/globalmenu-notice-new.png

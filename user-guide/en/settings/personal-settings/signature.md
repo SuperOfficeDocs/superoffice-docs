@@ -1,10 +1,10 @@
 ---
-uid: help-en-admin-edituser-helpsignature
-title: admin editUser helpSignature
-description: admin editUser helpSignature
+uid: help-en-service-settings-personal-signature
+title: Signature
+description: Signature
 author: SuperOffice RnD
 so.date: 06.29.2022
-keywords: Service
+keywords: Service, personal settings
 so.topic: help
 language: en
 ---
@@ -20,8 +20,8 @@ In the **Signature** tab, you can enter a signature that is automatically added 
 5. Optional: Test the signature by creating a new request. Check that all information is displayed correctly, and the links work and images are displayed as intended.
 
 <!-- Referenced links -->
-[1]: ../../../diary/Template-variables.md#variables-for-a-selected-contact
+[1]: ../../diary/template-variables.md#variables-for-a-selected-contact
 
 <!-- Referenced images -->
-[img1]: ../../../../media/icons/service/msg-toolbar.png
-[img2]: ../../../../media/icons/sign-editor-variables.png
+[img1]: ../../../media/icons/service/msg-toolbar.png
+[img2]: ../../../media/icons/sign-editor-variables.png

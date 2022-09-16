@@ -2,38 +2,6 @@ items:
 - name: Admin
   href: index.md
 
-- name: editInfo
-  href: editinfo.md
-- name: editInfo password
-  href: editinfo.password.md
-- name: editInfo settings
-  href: editinfo.settings.md
-- name: editInfo sms
-  href: editinfo.sms.md
-- name: editInfo smtp
-  href: editinfo.smtp.md
-
-- name: editUser
-  href: edituser.md
-- name: editUser helpCategoryMembership
-  href: edituser.helpcategorymembership.md
-- name: editUser helpExtrafields
-  href: edituser.helpextrafields.md
-- name: editUser helpInterface
-  href: edituser.helpinterface.md
-- name: editUser helpNotification
-  href: edituser.helpnotification.md
-- name: editUser helpOthergroups
-  href: edituser.helpothergroups.md
-- name: editUser helpPassword
-  href: edituser.helppassword.md
-- name: editUser helpSettings
-  href: edituser.helpsettings.md
-- name: editUser helpSignature
-  href: edituser.helpsignature.md
-- name: editUser helpUserInfo
-  href: edituser.helpuserinfo.md
-
 - name: listCustCenter config
   href: listcustcenter.config.md
 - name: listCustCenter edit

@@ -1,10 +1,10 @@
 ---
-uid: help-en-admin-editinfo-password
-title: admin editInfo password
-description: admin editInfo password
+uid: help-en-service-settings-system-password
+title: Password
+description: Password
 author: SuperOffice RnD
 so.date: 06.29.2022
-keywords: Service
+keywords: Service, settings
 so.topic: help
 language: en
 ---

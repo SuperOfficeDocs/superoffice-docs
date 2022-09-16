@@ -1,10 +1,10 @@
 ---
-uid: help-en-admin-editinfo-settings
-title: admin editInfo settings
-description: admin editInfo settings
+uid: help-en-service-settings-system-settings
+title: Settings
+description: Settings
 author: SuperOffice RnD
 so.date: 06.29.2022
-keywords: Service
+keywords: Service, settings
 so.topic: help
 language: en
 ---
@@ -58,7 +58,7 @@ The **Settings** tab in the **System** screen contains the following options:
 * **Track all links**: Check here to track all links in mailings.
 
 <!-- Referenced links -->
-[1]: ../../../request/reply-templates/autoFAQ.md
+[1]: ../../request/reply-templates/autofaq.md
 
 <!-- Referenced images -->
-[img1]: ../../../../media/icons/globalmenu-personalsettings-small.png
+[img1]: ../../../media/icons/globalmenu-personalsettings-small.png
