@@ -130,7 +130,7 @@ items:
         href: upgrade/to-81/using-new-domains.md
       - name: Move CRM Server
         href: upgrade/to-81/move-crm-server.md
-    - name: To version 9
+    - name: To version 9 or 10
       href: upgrade/to-9/index.md
   - name: Configuration
     href: config/index.md
