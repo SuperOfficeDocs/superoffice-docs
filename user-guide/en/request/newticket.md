@@ -116,7 +116,7 @@ This tab contains any extra fields defined for requests. These will vary from co
 <!-- Referenced links -->
 [1]: newQuickTicket.md
 [2]: autosave.md
-[3]: ../user/service/admin/listPriorities.editAlert.md
+[3]: priority/escalation-levels.md
 [4]: tags.md
 [5]: ../person/in-service/create.md
 [7]: reply-templates/newlangversion.md

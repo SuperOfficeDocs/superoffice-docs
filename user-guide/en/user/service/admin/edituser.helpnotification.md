@@ -28,7 +28,7 @@ You can receive notifications of the following events in SuperOffice Service.
 
 * **New message in request**: Check here to be notified each time a new message arrives for one of your requests.
 
-* **Request escalated**: Check here to be notified when one of your requests is escalated, i.e. forwarded to another request handler under the rules defined for escalation (see [Work with escalation levels][2]).
+* **Request escalated**: Check here to be notified when one of your requests is escalated, i.e. forwarded to another request handler under the [rules defined for escalation][2].
 
 * **Request activated**: Check here to be notified when one of your requests is activated, i.e. is given the **Open** status again after having been **Postponed** or **Closed**.
 
@@ -40,7 +40,7 @@ You can receive notifications of the following events in SuperOffice Service.
 
 <!-- Referenced links -->
 [1]: ../../../getting-started/buttons-in-menu-bar.md
-[2]: listPriorities.editAlert.md
+[2]: ../../../request/priority/escalation-levels.md
 
 <!-- Referenced images -->
 [img1]: ../../../../media/icons/globalmenu-settings-small.png

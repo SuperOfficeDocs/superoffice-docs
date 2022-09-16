@@ -1,10 +1,10 @@
 ---
-uid: help-en-admin-listpriorities
-title: admin listPriorities
-description: admin listPriorities
+uid: help-en-request-priority
+title: Request priorities
+description: Request priorities
 author: SuperOffice RnD
 so.date: 06.29.2022
-keywords: Settings and maintenance
+keywords: request, priority
 so.topic: help
 language: en
 ---
@@ -39,13 +39,17 @@ An example of this is user-support and SLA agreements which specify that the sup
 > [!NOTE]
 > Each priority has an accessibility property associated with it. If the request's priority is set to **External**, the priority will be accessible via SuperOffice Customer Centre. If more than two priorities are accessible externally, the customer will be able to select which priority should apply to the request. This may cause the request to be given a higher priority than necessary, since the customer will want to get a reply as quickly as possible and is likely to select the highest available priority. The highest priorities should therefore be set to **Internal**, while **Medium** and **Low** priorities are made accessible externally.
 
+The default priorities included with the system are **High**, **Medium** and **Low**. But you can both add new priorities and edit the settings of existing priorities.
+
 ## What do you want to do now?
 
-* [Create priorities][1]
-* [Create escalation levels][2]
+* [Create priority][1]
+* [Delete priorities][2]
+* [Create escalation levels][3]
 
 <!-- Referenced links -->
-[1]: create-priority.md
-[2]: create-escalation-level.md
+[1]: create.md
+[2]: delete.md
+[3]: escalation-levels.md
 
 <!-- Referenced images -->

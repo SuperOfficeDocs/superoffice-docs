@@ -1,10 +1,10 @@
 ---
-uid: help-en-admin-listcategories
-title: admin listCategories
-description: admin listCategories
+uid: help-en-request-category
+title: Categories
+description: Categories
 author: SuperOffice RnD
 so.date: 06.29.2022
-keywords: Settings and maintenance
+keywords: request, category
 so.topic: help
 language: en
 ---
@@ -15,21 +15,37 @@ All requests belong to a category, and each category has its own rules that defi
 
 **Disambiguation:** The term "category" is also used for company categories. See [Lists][3].
 
-Users can be added as members in the categories individually or via the user group(s) they belong to (see [User groups][4]).
+Users can be added as members in the categories individually or via the [user groups][4] they belong to.
 
-Selecting **Requests** in the navigator and then the **Categories** tab, takes you to a list of all the categories defined in the system. The categories are arranged in a tree structure.
+> [!TIP]
+> Looking for a more flexible way of organizing your request? Try [using tags in requests][1].
+
+## Where can I find the categories?
+
+To get to the list of all categories defined in the system:
+
+* **In Settings and maintenance:** Select **Requests** in the navigator and then the **Categories** tab.
+
+* **In Service:** Select ![icon][img1] **System settings** > **Categories**
+
+The categories are arranged in a tree structure.
+
+[!include[Restricted access](../../includes/note-insufficient-rights.md)]
 
 ## What would you like to do now?
 
 * [Create categories][1]
 * [Delete categories][2]
 * [How to set up Get next request in queue][5]
+* [Search for requests in categories][6]
 
 <!-- Referenced links -->
-[1]: new-category.md
-[2]: delete-category.md
+[1]: create.md
+[2]: delete.md
 [3]: ../../settings/lists/index.md
 [4]: ../../user-management/user-groups.md
 [5]: ../get-next-request-in-queue.md
+[6]: ../listtickets.findtickets.md
 
 <!-- Referenced images -->
+[img1]: ../../../media/icons/globalmenu-settings-small.png

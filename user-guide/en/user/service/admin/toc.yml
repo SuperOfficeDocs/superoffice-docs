@@ -1,121 +1,98 @@
 items:
 - name: Admin
   href: index.md
-- name: Admin editInfo
+
+- name: editInfo
   href: editinfo.md
-- name: Admin editInfo password
+- name: editInfo password
   href: editinfo.password.md
-- name: Admin editInfo settings
+- name: editInfo settings
   href: editinfo.settings.md
-- name: Admin editInfo sms
+- name: editInfo sms
   href: editinfo.sms.md
-- name: Admin editInfo smtp
+- name: editInfo smtp
   href: editinfo.smtp.md
-- name: Admin editUser
+
+- name: editUser
   href: edituser.md
-- name: Admin editUser helpCategoryMembership
+- name: editUser helpCategoryMembership
   href: edituser.helpcategorymembership.md
-- name: Admin editUser helpExtrafields
+- name: editUser helpExtrafields
   href: edituser.helpextrafields.md
-- name: Admin editUser helpInterface
+- name: editUser helpInterface
   href: edituser.helpinterface.md
-- name: Admin editUser helpNotification
+- name: editUser helpNotification
   href: edituser.helpnotification.md
-- name: Admin editUser helpOthergroups
+- name: editUser helpOthergroups
   href: edituser.helpothergroups.md
-- name: Admin editUser helpPassword
+- name: editUser helpPassword
   href: edituser.helppassword.md
-- name: Admin editUser helpSettings
+- name: editUser helpSettings
   href: edituser.helpsettings.md
-- name: Admin editUser helpSignature
+- name: editUser helpSignature
   href: edituser.helpsignature.md
-- name: Admin editUser helpUserInfo
+- name: editUser helpUserInfo
   href: edituser.helpuserinfo.md
-- name: Admin listCategories
-  href: admin.listcategories.md
-- name: Admin listCategories
-  href: listcategories.md
-- name: Admin listCategories deleteCategory
-  href: listcategories.deletecategory.md
-- name: Admin listCategories newCategory
-  href: admin.listcategories.newcategory.md
-- name: Admin listCategories newCategory
-  href: listcategories.newcategory.md
-- name: Admin listCategories searchTickets
-  href: listcategories.searchtickets.md
-- name: Admin listCustCenter config
+
+- name: listCustCenter config
   href: listcustcenter.config.md
-- name: Admin listCustCenter edit
+- name: listCustCenter edit
   href: listcustcenter.edit.md
-- name: Admin listCustLangs
+
+- name: listCustLangs
   href: listcustlangs.md
-- name: Admin listCustLangs editCustLang
+- name: listCustLangs editCustLang
   href: listcustlangs.editcustlang.md
-- name: Admin listCustLangs selectlanguage
+- name: listCustLangs selectlanguage
   href: listcustlangs.selectlanguage.md
-- name: Admin listCustLangs workWithExternaCategories
+- name: listCustLangs workWithExternaCategories
   href: listcustlangs.workwithexternacategories.md
-- name: Admin listInvoiceTypes
+
+- name: listInvoiceTypes
   href: listinvoicetypes.md
-- name: Admin listInvoiceTypes deleteInvoiceType
+- name: listInvoiceTypes deleteInvoiceType
   href: listinvoicetypes.deleteinvoicetype.md
-- name: Admin listInvoiceTypes editInvoiceType
+- name: listInvoiceTypes editInvoiceType
   href: listinvoicetypes.editinvoicetype.md
-- name: Admin listPriorities
-  href: listpriorities.md
-- name: Admin listPriorities editAlert
-  href: listpriorities.editalert.md
-- name: Admin listPriorities editAlert deleteAlert
-  href: listpriorities.editalert.deletealert.md
-- name: Admin listPriorities editAlert newAlert
-  href: listpriorities.editalert.newalert.md
-- name: Admin listPriorities listPriorities
-  href: listpriorities.listpriorities.md
-- name: Admin listPriorities listPriorities deletePriority
-  href: listpriorities.listpriorities.deletepriority.md
-- name: Admin listPriorities listPriorities editPriority
-  href: listpriorities.listpriorities.editpriority.md
-- name: Admin listProfiles
+
+- name: listProfiles
   href: listprofiles.md
-- name: Admin listProfiles commonProfiles
+- name: listProfiles commonProfiles
   href: listprofiles.commonprofiles.md
-- name: Admin listProfiles globalProfiles
+- name: listProfiles globalProfiles
   href: listprofiles.globalprofiles.md
-- name: Admin listProfiles personalProfile
+- name: listProfiles personalProfile
   href: listprofiles.personalprofile.md
-- name: Admin listTicketStatuses
-  href: admin.listticketstatuses.md
-- name: Admin listTicketStatuses
-  href: listticketstatuses.md
-- name: Admin listTicketStatuses deleteTicketStatus
-  href: listticketstatuses.deleteticketstatus.md
-- name: Admin listTicketStatuses newTicketStatus
-  href: listticketstatuses.newticketstatus.md
-- name: Admin soapConf
+
+- name: soapConf
   href: soapconf.md
-- name: Admin viewLicenses
+- name: viewLicenses
   href: viewlicenses.md
-- name: Blogic listDbiAgents
+
+- name: listDbiAgents
   href: listdbiagents.md
-- name: Blogic listDbiAgents editDbiAgent
+- name: listDbiAgents editDbiAgent
   href: listdbiagents.editdbiagent.md
-- name: Blogic listDbiAgents editDbiAgentField
+- name: listDbiAgents editDbiAgentField
   href: listdbiagents.editdbiagentfield.md
-- name: Blogic listDbiAgents editDbiAgentSchedule
+- name: listDbiAgents editDbiAgentSchedule
   href: listdbiagents.editdbiagentschedule.md
-- name: Blogic listDbiAgents listDbiAgents
+- name: listDbiAgents listDbiAgents
   href: listdbiagents.listdbiagents.md
-- name: Blogic listDbiAgents newDbiAgentSchedule
+- name: listDbiAgents newDbiAgentSchedule
   href: listdbiagents.newdbiagentschedule.md
-- name: Blogic listDbiAgents viewDbiAgent
+- name: listDbiAgents viewDbiAgent
   href: listdbiagents.viewdbiagent.md
-- name: Blogic listDebugLog
+
+- name: listDebugLog
   href: listdebuglog.md
-- name: Blogic listPackages
+
+- name: listPackages
   href: listpackages.md
-- name: Blogic listPackages editPackage
+- name: listPackages editPackage
   href: listpackages.editpackage.md
-- name: Blogic listSystemScripts
+
+- name: listSystemScripts
   href: listsystemscripts.md
-- name: Blogic listSystemScripts editSystemScript
+- name: listSystemScripts editSystemScript
   href: listsystemscripts.editsystemscript.md

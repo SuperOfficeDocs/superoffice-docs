@@ -16,15 +16,13 @@ A reply template can for instance be a specific layout to implement on replies, 
 <!-- Fix reuse ID=a1 -->
 [!include[FAQ vs. reply template](../../includes/faq-vs-replytemplate.md)]
 
-<!-- Fix reuse ID=a2 -->
-[!include[Reply templates with different layout](includes/custom-replytemplate.md)]
-
 ## What would you like to do now?
 
 * [View reply templates][2]
 * [Create reply templates][3]
 * [Create new language version of reply template][4]
 * [Create reply template with automatic FAQ reply][5]
+* [Create reply template with different layout][12]
 * [Edit reply templates][6]
 * [Copy reply templates][7]
 * [Delete reply templates][8]
@@ -43,5 +41,6 @@ A reply template can for instance be a specific layout to implement on replies, 
 [9]: findReplyTemplates.md
 [10]: editReplyTemplateFolder.md
 [11]: addReplyTemplatesToMessages.md
+[12]: custom-category.md
 
 <!-- Referenced images -->

@@ -7,18 +7,18 @@ items:
   href: category/index.md
   items:
   - name: Create category
-    href: category/new-category.md
+    href: category/create.md
   - name: Delete category
-    href: category/delete-category.md
+    href: category/delete.md
 - name: Priorities
   href: priority/index.md
   items:
-  - name: Create priorities
-    href: priority/create-priority.md
+  - name: Create priority
+    href: priority/create.md
   - name: Delete priority
-    href: priority/delete-priority.md
+    href: priority/delete.md
   - name: Create escalation levels
-    href: priority/create-escalation-level.md
+    href: priority/escalation-levels.md
 - name: Request status
   href: status/index.md
   items:
@@ -30,69 +30,69 @@ items:
   href: ai-requests.md
 - name: Get next request in the queue
   href: get-next-request-in-queue.md
-- name: Ticket autosave
+- name: autosave
   href: autosave.md
-- name: Ticket deleteTicket
+- name: deleteTicket
   href: deleteticket.md
-- name: Ticket listExtraTables
+- name: listExtraTables
   href: listextratables.md
-- name: Ticket listTicket
+- name: listTicket
   href: listticket.md
-- name: Ticket listTickets
+- name: listTickets
   href: listtickets.md
-- name: Ticket listTickets findTickets
+- name: listTickets findTickets
   href: listtickets.findtickets.md
-- name: Ticket listTickets searchTicketLog
+- name: listTickets searchTicketLog
   href: listtickets.searchticketlog.md
-- name: Ticket listTickets showListTickets
+- name: listTickets showListTickets
   href: listtickets.showlisttickets.md
-- name: Ticket listTickets useLists
+- name: listTickets useLists
   href: listtickets.uselists.md
-- name: Ticket newQuickTicket
+- name: newQuickTicket
   href: newquickticket.md
-- name: Ticket newTicket
+- name: newTicket
   href: newticket.md
-- name: Ticket receiveTickets
+- name: receiveTickets
   href: receivetickets.md
-- name: Ticket showListTickets
+- name: showListTickets
   href: showlisttickets.md
-- name: Ticket showListTickets acceptRequest
+- name: showListTickets acceptRequest
   href: showlisttickets.acceptrequest.md
-- name: Ticket showListTickets addMassMessage
+- name: showListTickets addMassMessage
   href: showlisttickets.addmassmessage.md
-- name: Ticket showListTickets addMessage
+- name: showListTickets addMessage
   href: showlisttickets.addmessage.md
-- name: Ticket showListTickets askForHelp
+- name: showListTickets askForHelp
   href: showlisttickets.askforhelp.md
-- name: Ticket showListTickets closeTickets
+- name: showListTickets closeTickets
   href: showlisttickets.closetickets.md
-- name: Ticket showListTickets editMessage
+- name: showListTickets editMessage
   href: showlisttickets.editmessage.md
-- name: Ticket showListTickets forward
+- name: showListTickets forward
   href: showlisttickets.forward.md
-- name: Ticket showListTickets hotlist
+- name: showListTickets hotlist
   href: showlisttickets.hotlist.md
-- name: Ticket showListTickets listTicketLog
+- name: showListTickets listTicketLog
   href: showlisttickets.listticketlog.md
-- name: Ticket showListTickets massForward
+- name: showListTickets massForward
   href: showlisttickets.massforward.md
-- name: Ticket showListTickets mergeTickets
+- name: showListTickets mergeTickets
   href: showlisttickets.mergetickets.md
-- name: Ticket showListTickets Message keeptrack
+- name: showListTickets Message keeptrack
   href: showlisttickets.message-keeptrack.md
-- name: Ticket showListTickets splitMessage
+- name: showListTickets splitMessage
   href: showlisttickets.splitmessage.md
-- name: Ticket showListTickets splitTicket
+- name: showListTickets splitTicket
   href: showlisttickets.splitticket.md
-- name: Ticket tags
+- name: tags
   href: tags.md
-- name: Ticket ticketStepByStep
+- name: ticketStepByStep
   href: ticket.ticketstepbystep.md
-- name: Ticket ticketStepByStep
+- name: ticketStepByStep
   href: ticketstepbystep.md
-- name: viewCompany listInvoicesContact
+- name: listInvoicesContact
   href: viewcompany.listinvoicescontact.md
-- name: viewCompany listInvoicesContact editInvoice
+- name: listInvoicesContact editInvoice
   href: viewcompany.listinvoicescontact.editinvoice.md
 - name: viewCustomer listInvoices
   href: viewcustomer.listinvoices.md
@@ -101,24 +101,26 @@ items:
 - name: Reply templates
   href: reply-templates/index.md
   items:
-  - name: Document replyTemplates addReplyTemplatesToMessages
+  - name: addReplyTemplatesToMessages
     href: reply-templates/addreplytemplatestomessages.md
-  - name: Document replyTemplates autoFAQ
+  - name: autoFAQ
     href: reply-templates/autofaq.md
-  - name: Document replyTemplates delReplyTemplate
+  - name: delReplyTemplate
     href: reply-templates/delreplytemplate.md
-  - name: Document replyTemplates editReplyTemplateCustomerLang
+  - name: editReplyTemplateCustomerLang
     href: reply-templates/editreplytemplatecustomerlang.md
-  - name: Document replyTemplates editReplyTemplateFolder
+  - name: editReplyTemplateFolder
     href: reply-templates/editreplytemplatefolder.md
-  - name: Document replyTemplates findReplyTemplates
+  - name: findReplyTemplates
     href: reply-templates/findreplytemplates.md
-  - name: Document replyTemplates newlangversion
+  - name: newlangversion
     href: reply-templates/newlangversion.md
-  - name: Document replyTemplates newReplyTemplate
+  - name: newReplyTemplate
     href: reply-templates/newreplytemplate.md
-  - name: Document replyTemplates viewReplyTemplate
+  - name: viewReplyTemplate
     href: reply-templates/viewreplytemplate.md
+  - name: Customize template with categories
+    href: reply-templates/custom-category.md
   - name: Template variables
     href: template-variables.md
   - name: Work with email addresses

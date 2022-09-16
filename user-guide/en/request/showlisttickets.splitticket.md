@@ -51,7 +51,7 @@ To split a request:
 <!-- Referenced links -->
 [1]: showListTickets.splitMessage.md
 [2]: listTicket.md
-[3]: ../user/service/admin/listPriorities.editAlert.md
+[3]: priority/escalation-levels.md
 [4]: showListTickets.addMessage.md
 [5]: showListTickets.askForHelp.md
 [6]: showListTickets.forward.md

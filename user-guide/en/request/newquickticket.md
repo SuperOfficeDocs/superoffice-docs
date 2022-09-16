@@ -34,7 +34,7 @@ If you are very busy and just need to register a request as fast as possible, us
 [Autosave][3]
 
 <!-- Referenced links -->
-[1]: ../user/service/admin/listPriorities.editAlert.md
+[1]: priority/escalation-levels.md
 [2]: ../person/in-service/create.md
 [3]: autosave.md
 

@@ -38,9 +38,9 @@ In this section of SuperOffice Service, you can configure the system to tailor i
 [1]: listProfiles.md
 [2]: ../../../user-management/role/index.md
 [3]: ../../../user-management/in-service/index.md
-[4]: listCategories.md
-[5]: listPriorities.md
-[6]: listTicketStatuses.md
+[4]: ../../../request/category/index.md
+[5]: ../../../request/priority/index.md
+[6]: ../../../request/status/index.md
 [7]: ../../../email/service/index.md
 [8]: ../../../clients/admin/requests/system-templates.md
 [9]: editInfo.md

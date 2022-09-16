@@ -43,7 +43,7 @@ An example will clarify this feature. Imagine that your company has created a ca
 <!-- Referenced links -->
 [1]: listTicket.md
 [2]: newTicket.md
-[3]: ../user/service/admin/listCategories.newCategory.md
+[3]: category/create.md
 [4]: showListTickets.acceptRequest.md
 [5]: AI-requests.md
 

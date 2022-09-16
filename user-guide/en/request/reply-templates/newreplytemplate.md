@@ -11,9 +11,6 @@ language: en
 
 # Create reply templates
 
-<!-- Fix reuse ID=a2 -->
-[!include[Reply templates with different layout](includes/custom-replytemplate.md)]
-
 To create a new reply template:
 
 1. Select **Knowledge Base &gt; Reply templates**.
@@ -71,6 +68,7 @@ To create a new reply template:
 * [Create new language version of reply template][5]
 * [Edit reply templates][6]
 * [Copy reply templates][7]
+* [Reply template with different layout based on category][8]
 
 <!-- Referenced links -->
 [2]: editReplyTemplateFolder.md
@@ -79,6 +77,7 @@ To create a new reply template:
 [5]: newlangversion.md
 [6]: editReplyTemplateCustomerLang.md
 [7]: viewreplytemplate.md#copy-reply-templates
+[8]: custom-category.md
 
 <!-- Referenced images -->
 [img1]: ../../../../common/icons/delete-red.png
