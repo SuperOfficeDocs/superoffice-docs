@@ -13,7 +13,7 @@ so.client: online
 
 # How to set up SharePoint using site permissions and Domain (AAD) groups
 
-We recommend that you use domain (AAD) groups to control access to you SuperOffice document site in SharePoint​. All your user administration will be in Azure Portal, you will maintain group members there​.
+We recommend that you use domain (AAD) groups to control access to you SuperOffice document site in SharePoint​. All your user administration will be in Azure Portal, you will maintain group members there​. The Group type must be Microsoft 365 and not Security.
 
 If you plan to **use Visible for** (or already using this in CRM):​
 
