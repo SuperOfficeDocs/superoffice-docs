@@ -80,6 +80,8 @@ The status, number of attempts, and last error message + possibly a more compr
 * Unique/separate serial number for each site/DB to use OAuth/AccessGateway
   * Only the first site that tries to register with a given serial number will register successfully. Contact support to change site/DB.
 
+* The firewall cannot block IMAPS on port 993
+
 * Microsoft 365 (Microsoft® Exchange Online)
 
 * MX Record pointing to the Microsoft® Exchange Online server
@@ -136,10 +138,21 @@ b)
 
 When a mailbox is created in SuperOffice Service, and a Microsoft 365 (Microsoft® Exchange Online) email account is added, you will be redirected to Microsoft for authentication:
 
-To create a new mailbox with OAuth 2.0:
+To create a new mailbox with OAuth 2.0 (in 10.1.5 and newer):
 
 1. Select System settings > E-mail. This takes you straight to the Mailboxes tab.
-2. Click New mailbox. The Mailbox properties screen appears, with the Properties tab open.
+2. Click New mailbox. 
+    * The "Set up e-mail account" dialog appears
+3.  Click the "sing in with Microsoft" button
+    * We redirect you to Microsoft for authentication.
+    * Completing authentication towards Microsoft will redirect you back to Mailboxes tab.
+4. Click OK. The mailbox is created.
+        
+To create a new mailbox with OAuth 2.0 (in 10.1.4 and older)::
+
+1. Select System settings > E-mail. This takes you straight to the Mailboxes tab.
+2. Click New mailbox. 
+    * The Mailbox properties screen appears, with the Properties tab open.
 3. In the Address field, enter the Microsoft 365 email account e-mail address you want to use for the mailbox.
     * If we recognize the UPN as an Microsoft 365 email account, we redirect you to Microsoft for authentication.
     * Completing authentication towards Microsoft will redirect you back to Mailboxes tab.
@@ -162,6 +175,8 @@ You do not have to delete and create a new mailbox just to change authentication
 
 #### Credential is not recognized
 
+![Could not log in error -screenshot][img5]
+        
 For OAuth to be able to work, make sure you have user-credentials (UPN) that directly authorize you on the mailbox, not the email address or a user which has access to it as a *shared mailbox*.
 
 > [!NOTE]
@@ -182,11 +197,13 @@ A UPN is not the same as an email address. Sometimes, a UPN can match a user's e
 
 **Work-around:**
 
-A work-around can be to use the full on microsoft user name.
+A work-around can be to use the full 'onmicrosoft' user name (or any other microsoft user name to initiate the redirect).
 
-For example, if you have email address and login to Microsoft 365: support@company.com, enter  `support@company.mail.onmicrosoft.com` as the username in the Service mailbox dialog.
+For example, if you have email address and login to Microsoft 365: support@company.com, enter `support@company.mail.onmicrosoft.com` as the username in the Service mailbox dialog.
 
 If the browser caches an existing valid authentication-cookie, this can result in a direct redirect back to Service without the needed user interaction to get the needed details back. Clear the cookies or use an incognito-session in the browser.
+        
+Also make sure your firewall is not blocking IMAPS on port 993.
 
 #### MX Record pointing to the Microsoft® Exchange Online server
 
@@ -252,3 +269,4 @@ For a customer who have 2 duplicate onsite-env. and already have OAuth 2.0 regis
 [img2]: media/e-mail.jpg
 [img3]: media/outboxitem.jpg
 [img4]: media/outboundlog.jpg
+[img5]: https://online2.superoffice.com/Cust1990/CS/scripts/customer.fcgi/getAttachment/5125281-FkmmPer6nnHNBhCBFXyCErRFzlAKkqtDN0lJXwXruPRHwrOrn6F4pL0iF3CsznxA-0/image.png
