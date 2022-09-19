@@ -23,9 +23,9 @@ There are two prerequisites before one can begin using the System User flow:
 
 1. The application has the System User option enabled.
 
-   It is enabled by selecting the option during application registration.
+   It is enabled by selecting the **Server to server** option when creating an application in the [Developer Portal][1].
 
-   ![imagecxe1.png][img3]
+   ![create-application-server-to-server.png -screenshot][img3]
 
 2. The application has been issued a **system user token**.
 
@@ -102,9 +102,10 @@ See the `<User:Credentials>` and `<User:ApplicationToken>` elements:
 With a valid credential set, the application can send authenticated requests to the customer tenant.
 
 <!-- Referenced links -->
+[1]: ../../../../developer-portal/create-app/index.md
 [3]: ../validate-security-tokens.md
 [8]: get-system-user-ticket.md
 [10]: ../sign-in-user/index.md
 [11]: sign-system-user-token.md
 <!-- Referenced images -->
-[img3]: media/imagecxe1.png
+[img3]: media/create-application-server-to-server.png

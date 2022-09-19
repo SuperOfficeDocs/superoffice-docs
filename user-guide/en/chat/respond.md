@@ -80,4 +80,4 @@ In the top-right corner of the **Chat** screen, you can set your presence:
 [img2]: media/chat-tab-dashboard.png
 [img3]: media/chat-status-present.png
 [img4]: media/chat-status-away.png
-[img5]: ../../media/icons/chat-btn-emoji.png
+[img5]: ../../../common/icons/smiley-icon.png

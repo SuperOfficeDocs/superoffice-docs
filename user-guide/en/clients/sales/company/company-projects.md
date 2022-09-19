@@ -33,7 +33,7 @@ For more details on how to manage projects, see [Project][1].
 <!-- Referenced links -->
 [1]: ../../../project/index.md
 [2]: ../../../project/create.md
-[3]: ../../../user/getting-started/changing-column-view.md
+[3]: ../../howto/changing-column-view.md
 
 <!-- Referenced images -->
 [img1]: ../media/projects-detail.bmp

@@ -23,7 +23,7 @@ When you add an item to the **Sale – Type, Stages, Quote** list, the **Edit li
 1. Enter the required name of the item in the **Name** field.
 
     > [!NOTE]
-    > [!include[Mandatory](../../admin/includes/note-mandatory-field.md)]
+    > [!include[Mandatory](../../includes/note-mandatory-field.md)]
 
 2. Select the required category for the sale type in the **Sale type category** list box.
 
@@ -60,7 +60,7 @@ In the **Quote attachments** tab you can add documents to be sent to the custome
 To add quote attachments:
 
 1. Click **Add**. The **Find** dialog opens.
-2. Search for the document(s) you want to add. [!include[See search criteria](../../admin/includes/see-search-admin.md)]
+2. Search for the document(s) you want to add. [!include[See search criteria](../../includes/see-search-admin.md)]
 3. Select one or more documents and click **OK**. The document(s) is/are displayed in the **Quote attachments** tab.
 4. Select the documents you want to include in the **Include** column.
 
@@ -74,7 +74,7 @@ Here you specify the following settings for quotes with this sale type:
 * **Default days a quote is valid**: Enter the number of days a quote will remain valid for. This value can be changed when the quote is sent.
 * **Quote format template**: Check the template you want to use for the quote.
 
-[!include[Link to quote template docs](../../admin/includes/learn-quote-templates.md)]
+[!include[Link to quote template docs](../../includes/learn-quote-templates.md)]
 
 * **Order confirmation template**: Check the template you want to use for the confirmation.
 
@@ -87,7 +87,7 @@ Here you can choose whether the quote must be approved if the total discount is 
 * **Total earning is below limit**. Enter a percentage value.
 
 <!-- Referenced links -->
-[2]: ../../admin/lists/adding-items.md
+[2]: ../../settings/lists/adding-items.md
 [3]: ../../clients/admin/sale-stage.md
 [4]: ../stakeholders/sales-role-stakeholders.md
 [5]: ../../clients/admin/sales-guide.md

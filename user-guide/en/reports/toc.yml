@@ -12,6 +12,8 @@ items:
     href: run.md
   - name: Viewing reports
     href: view.md
+  - name: Preview
+    href: functions-in-preview-window.md
   - name: Printing reports
     href: print.md
   - name: Saving reports as files

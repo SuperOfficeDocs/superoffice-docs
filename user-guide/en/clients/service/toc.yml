@@ -1,0 +1,19 @@
+items:
+- name: Overview
+  href: index.md
+- name: Knowledge base
+  href: knowledge-base.md
+- name: SOAP
+  href: soapconf.md
+- name: Packages
+  href: listpackages.md
+  items:
+  - name: Package properties
+    href: listpackages.editpackage.md 
+- name: System scripts
+  href: listsystemscripts.md
+  items:
+  - name: Edit system script
+    href: listsystemscripts.editsystemscript.md
+- name: Debug log
+  href: listdebuglog.md

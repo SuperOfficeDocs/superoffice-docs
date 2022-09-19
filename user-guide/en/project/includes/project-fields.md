@@ -9,9 +9,6 @@
 
     Enter the address of a web page on the Internet and a brief description of the sort of page it is. You can enter several web addresses if required. Click outside the table when you have finished, or press **TAB** until the table closes.
 
-    > [!TIP]
-    > Clicking on a web address when you are in view mode will take you to the relevant web site. This will open in a separate browser in SuperOffice CRM. For more details, see [The Browser in SuperOffice CRM][1].
-
 1. **Description field:** Enter a more detailed description of the project in the large text box.
 
 1. **Responsible:** Specify here the person who is responsible for the project. Click the arrow to display a list of users, user groups and resources in the database.
@@ -37,8 +34,7 @@
 1. **Publish:** (requires separate licence) If you check this box, the project will be visible to external users through third-party applications. For more information about this, see the SuperOffice Audience help. You can choose to have the project published for a specified period of time only (see [The Event tab][4]).
 
 <!-- Referenced links -->
-[5]: ../../user/getting-started/duplicates.md
-[1]: ../../user/getting-started/browser-in-superoffice-crm.md
+[5]: ../../getting-started/duplicates.md
 [2]: ../project-guide/index.md
 [3]: ../../clients/sales/project/more-tab-project.md
 [4]: ../../clients/sales/project/event-tab.md

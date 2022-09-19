@@ -98,8 +98,8 @@ To create a new role:
 <!-- Referenced links -->
 [5]: ../adding-users.md
 
-[1]: ../../user/service/admin/editUser.helpUserInfo.md
-[2]: ../../user/service/admin/listProfiles.md
+[1]: ../../settings/personal-settings/user-info.md
+[2]: ../../ui/service-screens/listProfiles.md
 [3]: ../../faq/workflow.md
 [4]: editing-role.md
 [5]: https://community.superoffice.com/en/support-faqs/faq/whichare-all-availablefunctional-rights-in-superoffice-and-what-each-of-them-mean/

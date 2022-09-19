@@ -29,10 +29,10 @@ Click the **Filter** button ( ![icon][img2] ) to filter the list by date, users 
 If you check **Include stakeholders** at the bottom of the section tab, sales where the company is involved as a stakeholder are also displayed. See [Stakeholders][3].
 
 <!-- Referenced links -->
-[1]: ../../../user/getting-started/changing-column-view.md
+[1]: ../../howto/changing-column-view.md
 [2]: ../../../sale/index.md
 [3]: ../../../sale/stakeholders/index.md
-[4]: ../../../user/diary/using-filter-function-contact.md
+[4]: ../../../diary/using-filter-function-contact.md
 
 <!-- Referenced images -->
 [img1]: ../media/sale-detail.bmp

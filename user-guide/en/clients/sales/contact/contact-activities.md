@@ -28,6 +28,6 @@ The activities displayed depend on which checkboxes you have selected at the bot
 E-mail messages that are saved as documents for a specific contact are displayed on the **Activities** section tab for that contact. To reply to or forward an e-mail, right-click the e-mail and choose **Reply** or **Forward**.
 
 <!-- Referenced links -->
-[1]: ../../../user/getting-started/use-filters-in-section-tabs.md
+[1]: ../../howto/use-filters-in-section-tabs.md
 
 <!-- Referenced images -->

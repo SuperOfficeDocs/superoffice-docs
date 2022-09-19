@@ -40,8 +40,8 @@ To add a relation:
 * [Delete relation][3]
 
 <!-- Referenced links -->
-[1]: ../user/getting-started/using-fastsearcher.md
-[2]: ../user/getting-started/using-history-list.md
+[1]: ../search-options/using-fastsearcher.md
+[2]: ../search-options/using-history-list.md
 [3]: delete-relation.md
 
 <!-- Referenced images -->

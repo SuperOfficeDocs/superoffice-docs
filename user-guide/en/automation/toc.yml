@@ -1,0 +1,25 @@
+items:
+- name: Overview
+  href: index.md
+- name: Blogic listDebugSessions
+  href: listdebugsessions.md
+- name: Blogic listDebugSessions viewDebugSession
+  href: listdebugsessions.viewdebugsession.md
+- name: Blogic listEventHandler
+  href: listeventhandler.md
+- name: Blogic listScheduledTasks
+  href: listscheduledtasks.md
+- name: Blogic listScripts
+  href: listscripts.md
+- name: Blogic listScripts editMacro
+  href: listscripts.editmacro.md
+- name: Blogic listScripts editScript
+  href: listscripts.editscript.md
+- name: Blogic listScripts editScriptFolder
+  href: listscripts.editscriptfolder.md
+- name: Tracing
+  href: tracing.md
+- name: View script macro
+  href: view-script-macro.md
+- name: Data Exchange
+  href: data-exchange/toc.yml

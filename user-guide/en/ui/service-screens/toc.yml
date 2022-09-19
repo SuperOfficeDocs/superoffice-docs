@@ -1,0 +1,10 @@
+items:
+- name: Profile
+  href: listprofiles.md
+  items:
+  - name: Personal profiles
+    href: listprofiles.personalprofile.md
+  - name: Common profiles
+    href: listprofiles.commonprofiles.md
+  - name: Global profiles
+    href: listprofiles.globalprofiles.md

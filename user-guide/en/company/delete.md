@@ -28,9 +28,9 @@ To delete a company and associated data:
 * [Delete records permanently][3]
 
 <!-- Referenced links -->
-[1]: ../user/getting-started/deleting-elements-in-crm.md
-[2]: ../user/getting-started/restore-deleted-companies-and-contacts.md
-[3]: ../user/selections/deleting-companies-permanently.md
+[1]: ../getting-started/deleting-elements.md
+[2]: ../getting-started/restore-deleted-companies-and-contacts.md
+[3]: ../search-options/selections/howto/deleting-companies-permanently.md
 [4]: merge-companies.md
 
 <!-- Referenced images -->

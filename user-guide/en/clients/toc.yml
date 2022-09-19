@@ -6,4 +6,6 @@ items:
 - name: Settings and maintenance
   href: admin/index.md
 - name: Service
-  href: service/index.md
+  href: service/toc.yml
+- name: How to...
+  href: howto/toc.yml

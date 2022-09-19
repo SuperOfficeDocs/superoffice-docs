@@ -1,0 +1,14 @@
+items:
+- name: Changing the language version web
+  href: changing-language-version-web.md
+- name: Translate fields
+  href: translate-fields.md
+- name: Customer languages
+  href: listcustlangs.md
+  items:
+  - name: Work with customer languages
+    href: listcustlangs.editcustlang.md
+  - name: Work with external categories
+    href: listcustlangs.workwithexternacategories.md
+  - name: How SuperOffice Service selects the customer language for new contacts
+    href: listcustlangs.selectlanguage.md

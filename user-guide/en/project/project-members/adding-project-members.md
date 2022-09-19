@@ -72,7 +72,7 @@ You do this as follows:
 
 <!-- Referenced links -->
 [2]: ../../person/create.md
-[3]: ../../user/getting-started/find-dialog.md
+[3]: ../../search-options/find-dialog.md
 
 <!-- Referenced images -->
 [img1]: ../../../media/icons/binders.bmp

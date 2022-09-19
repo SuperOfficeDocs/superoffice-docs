@@ -100,7 +100,7 @@ Since the option to create FAQ entries this way is only available to administrat
 * [Publish FAQ entries][3]
 
 <!-- Referenced links -->
-[1]: ../user/service/request/listTicket.md
+[1]: ../request/listTicket.md
 [2]: manage-folders.md
 [3]: publish.md
 [4]: edit.md

@@ -30,6 +30,6 @@ language: en
 6. [!include[Save or cancel](../../includes/save-or-cancel.md)]
 
 <!-- Referenced links -->
-[1]: ../../admin/lists/adding-template-web.md
+[1]: ../../settings/lists/adding-template-web.md
 
 <!-- Referenced images -->

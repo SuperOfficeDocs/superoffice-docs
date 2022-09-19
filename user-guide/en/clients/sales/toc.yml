@@ -67,6 +67,10 @@ items:
       href: project/activities-project.md
     - name: Sales
       href: project/sale.md
+- name: Selections
+  href: selections/toc.yml
+- name: Marketing
+  href: marketing/index.md
 - name: Reports screen
   href: reports/reports-screen.md
   items:

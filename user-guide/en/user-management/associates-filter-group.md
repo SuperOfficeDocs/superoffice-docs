@@ -58,12 +58,8 @@ You can group the list of users by role, user plan, primary group etc. In additi
 > [!NOTE]
 > If you navigate to another tab, the grouping will be reset.
 
-## Related topics
-
-* [Adjust views][1]
-
 <!-- Referenced links -->
-[1]: ../admin/getting-started/adjusting-views.md
+[1]: ../clients/howto/adjusting-views.md
 
 <!-- Referenced images -->
 [img1]: ../../media/icons/admin/btn-settings.png

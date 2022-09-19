@@ -57,7 +57,7 @@ To link the sale to stakeholders:
     > You can select multiple companies and/or contacts on the right side of the window by holding down **CTRL** or **SHIFT** as you select. Changes you then make in the **Sales role** field and **Comments** text box will apply to all the selected companies/contacts.
 
 <!-- Referenced links -->
-[1]: ../../user/getting-started/find-dialog.md
+[1]: ../../search-options/find-dialog.md
 [2]: ../../project/project-members/adding-project-members.md
 [3]: ../../person/create.md
 

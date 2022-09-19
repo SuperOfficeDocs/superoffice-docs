@@ -31,6 +31,6 @@ To add search criteria to reports:
 
 <!-- Referenced links -->
 [1]: labels/add-format.md
-[2]: ../user/getting-started/using-search-criteria.md
+[2]: ../search-options/using-search-criteria.md
 
 <!-- Referenced images -->

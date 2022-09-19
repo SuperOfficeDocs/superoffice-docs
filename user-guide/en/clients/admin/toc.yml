@@ -1,9 +1,41 @@
 items:
   - name: Overview
     href: index.md
+  - name: Requests
+    href: requests/toc.yml
   - name: Sales guide
     href: sales-guide.md
   - name: Sale stage
     href: sale-stage.md
   - name: Sales type (for stages)
     href: sales-type-for-stages.md
+  - name: System design
+    href: system-design.md
+  - name: Customer centre
+    href: customer-center.md
+  - name: Workflow
+    href: workflow.md
+  - name: App Store
+    href: app-store.md
+  - name: Tables
+    href: listextratables.md
+  - name: ScreenChoosers
+    href: listscreenchoosers.md
+    items:
+    - name: editScreenChooser
+      href: listscreenchoosers.editscreenchooser.md
+  - name: viewScreenDefinition
+    href: listscreendefinitions.viewscreendefinition.md
+    items:
+    - name: editLanguage
+      href: listscreendefinitions.editlanguage.md
+    - name: editScreenAction
+      href: listscreendefinitions.editscreenaction.md
+    - name: editScreenDefinition
+      href: listscreendefinitions.editscreendefinition.md
+    - name: editScreenDefinitionFolder
+      href: listscreendefinitions.editscreendefinitionfolder.md
+    - name: editScreenElement
+      href: listscreendefinitions.editscreenelement.md
+    - name: viewScreenDefinitionDesign
+      href: listscreendefinitions.viewscreendefinitiondesign.md

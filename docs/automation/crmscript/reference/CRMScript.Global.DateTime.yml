@@ -18,6 +18,7 @@ items:
     - CRMScript.Global.DateTime.addSec(Integer)
     - CRMScript.Global.DateTime.addYear(Integer)
     - CRMScript.Global.DateTime.diff(DateTime)
+    - CRMScript.Global.DateTime.getDate()
     - CRMScript.Global.DateTime.getMDay()
     - CRMScript.Global.DateTime.getMonth()
     - CRMScript.Global.DateTime.getTime()
@@ -528,6 +529,25 @@ items:
     parameters: []
     return:
       type: CRMScript.Global.Time
+- uid: CRMScript.Global.DateTime.getDate()
+  commentId: M:CRMScript.Global.DateTime.getDate()
+  id: getDate()
+  so.intellisense: DateTime.getDate
+  langs:
+  - crmscript
+  parent: CRMScript.Global.DateTime
+  name: getDate()
+  nameWithType: DateTime.getDate()
+  fullName: CRMScript.Global.DateTime.getDate()
+  type: Method
+  summary: "\nReturns the date part of the DateTime\n"
+  example:
+  - "\n<pre><code>DateTime dt;\nDate d = dt.getDate();\nprint(d.toString());</code></pre>\n"
+  syntax:
+    content: Date getDate()
+    parameters: []
+    return:
+      type: CRMScript.Global.Date
 - uid: CRMScript.Global.DateTime.diff(DateTime)
   commentId: M:CRMScript.Global.DateTime.diff(DateTime)
   id: diff(DateTime)

@@ -36,9 +36,9 @@ Proceed as follows to move a contact to another company:
 > You cannot move contacts (SuperOffice users) in your own company.
 
 <!-- Referenced links -->
-[1]: ../user/getting-started/using-fastsearcher.md
-[2]: ../user/getting-started/using-history-list.md
-[3]: ../user/getting-started/find-dialog.md
+[1]: ../search-options/using-fastsearcher.md
+[2]: ../search-options/using-history-list.md
+[3]: ../search-options/find-dialog.md
 
 <!-- Referenced images -->
 [img2]: ../../media/icons/btn-menu.png

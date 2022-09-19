@@ -15,9 +15,8 @@ so.envir: onsite
 
 Windows Client settings is the Windows-based administration client for SuperOffice CRM.
 
-The majority of the administration features are available in [Settings and maintenance][1].
+The majority of the administration features are available in Settings and maintenance.
 
 <!-- Referenced links -->
-[1]: ../admin/getting-started/index.md
 
 <!-- Referenced images -->

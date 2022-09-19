@@ -22,7 +22,7 @@ When you add an item to the **Sale - Amount class** list, the **Edit List Item**
 1. Enter the required name of the item in the **Name** field.
 
     > [!NOTE]
-    > [!include[Mandatory](../../admin/includes/note-mandatory-field.md)]
+    > [!include[Mandatory](../../includes/note-mandatory-field.md)]
 
 2. In the **Amount from** and **Amount to** fields, you can specify the range that will put the sale in this category. The amount must be entered in the currency your organisation uses.
 
@@ -36,6 +36,6 @@ When you add an item to the **Sale - Amount class** list, the **Edit List Item**
 5. [!include[Save or cancel](../../includes/save-or-cancel.md)]
 
 <!-- Referenced links -->
-[1]: ../../admin/lists/adding-items.md
+[1]: ../../settings/lists/adding-items.md
 
 <!-- Referenced images -->

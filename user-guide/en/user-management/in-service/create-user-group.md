@@ -27,8 +27,8 @@ If you want to assign a user to this group, follow the procedure under [Edit use
 
 <!-- Referenced links -->
 [1]: edit-user.md
-[2]: ../../user/service/admin/editUser.helpUserInfo.md
-[3]: ../../user/service/admin/editUser.helpOthergroups.md
+[2]: ../../settings/personal-settings/user-info.md
+[3]: ../../settings/personal-settings/other-groups.md
 
 <!-- Referenced images -->
 [img1]: ../../../media/icons/globalmenu-settings-small.png

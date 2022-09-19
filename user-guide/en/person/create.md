@@ -94,12 +94,9 @@ In the **Interests** tab you have the following options:
 
 [!include[How to add favorite](../includes/howto-add-favorite.md)]
 
-## Related topics
-
-* [The browser in SuperOffice CRM][1]
+[!include[Tip](../includes/tip-open-website.md)]
 
 <!-- Referenced links -->
-[1]: ../user/getting-started/browser-in-superoffice-crm.md
 [7]: gdpr/edit-legalbase.md
 [8]: add-relation.md
 

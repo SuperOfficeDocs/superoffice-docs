@@ -1,0 +1,7 @@
+items:
+- name: Customer centre configuration
+  href: listcustcenter.config.md
+- name: Customer centre source files
+  href: listcustcenter.edit.md
+- name: Send passwords to contacts
+  href: viewcustomer.sendnewcustmail.md

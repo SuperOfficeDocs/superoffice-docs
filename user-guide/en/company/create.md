@@ -19,12 +19,14 @@ In the **Company** screen you can enter information about companies on several l
 
     ![Empty company card -screenshot][img1]
 
-    Type in the name of the company in the field at the top of the **Company** tab. ***Company name*** is shown in red, indicating that this field is mandatory. If you try to create a company with the same, or similar, name as an existing company, the **Duplicates** dialog opens. [!include[For more info](../user/includes/see-duplicates.md)]
+    Type in the name of the company in the field at the top of the **Company** tab. ***Company name*** is shown in red, indicating that this field is mandatory. If you try to create a company with the same, or similar, name as an existing company, the **Duplicates** dialog opens. [!include[For more info](../includes/see-duplicates.md)]
 
-2. Enter the required information in the other fields.
+2. In the **Country** field, enter the company’s country. The correct address format for this country will be updated automatically in the **Company** tab. You can set your current home country from **System** in the preferences. See [Preferences][3].
+
+3. Enter the required information in the other fields.
 
     > [!NOTE]
-    > Default field values and list values are specified in the [Preferences dialog][3].
+    > Default field values and list values (such as business and category) are specified in the [Preferences dialog][3].
 
     <details><summary>What goes in the various fields?</summary>
 
@@ -32,7 +34,7 @@ In the **Company** screen you can enter information about companies on several l
 
     </details>
 
-3. Click **Save** to save the information entered, or click the **More** tab to enter further information about the company.
+4. Click **Save** to save the information entered, or click the **More** tab to enter further information about the company.
 
 ## <a id="more-tab" />The More tab (Company screen)
 
@@ -83,14 +85,11 @@ In the **Company** screen you can enter information about companies on several l
 
 If you try to enter a company that is similar to one that is already in SuperOffice CRM, the **Duplicates** dialog appears, asking you if you want to continue working with the current record or go to one of the records listed at the bottom of the dialog. This is to prevent you from unintentionally registering an existing company. See [Duplicates][2].
 
-## Related topics
-
-* [The browser in SuperOffice CRM][1]
+[!include[Tip](../includes/tip-open-website.md)]
 
 <!-- Referenced links -->
-[1]: ../user/getting-started/browser-in-superoffice-crm.md
-[2]: ../user/getting-started/duplicates.md
-[3]: ../user/getting-started/preferences.md
+[2]: ../getting-started/duplicates.md
+[3]: ../getting-started/preferences.md
 
 <!-- Referenced images -->
 [img1]: media/newcompany.bmp

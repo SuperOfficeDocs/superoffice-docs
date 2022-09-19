@@ -11,4 +11,4 @@
 A dot on the **Link** tab header indicates that a link has been added to the sale.
 
 <!-- Referenced links -->
-[1]: ../user/getting-started/using-history-list.md
+[1]: ../search-options/using-history-list.md

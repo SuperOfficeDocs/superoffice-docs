@@ -46,5 +46,5 @@ To create quick replies:
 [img1]: ../../media/icons/navigator-history-small.png
 [img2]: ../../media/icons/web-email-add-attachment-small.bmp
 [img3]: ../../media/icons/inbox/window-close.png
-[img4]: ../../media/icons/chat-btn-faq.png
-[img5]: ../../media/icons/chat-btn-edit.png
+[img4]: ../../../common/icons/copy-paste-icon.png
+[img5]: ../../../common/icons/edit-black.png

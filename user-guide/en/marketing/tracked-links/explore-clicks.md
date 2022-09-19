@@ -1,0 +1,56 @@
+---
+uid: help-en-tracked-links-view
+title: Work with tracked links after the mailing
+description: Work with tracked links after the mailing
+author: SuperOffice RnD
+so.date: 06.29.2022
+keywords: Marketing
+so.topic: help
+language: en
+---
+
+# Work with tracked links after the mailing
+
+You can include links (URLs) in an email mailing or form response and track them. In other words, you can see how many recipients have clicked them.
+
+## Where can I find the links?
+
+* To view the links for a single mailing, open the relevant mailing, click the **Tracked links** tab, and click the link you want to work with.
+
+    > [!NOTE]
+    > The **Tracked links** tab is not available for document mailings.
+
+* To view the links for all mailings, click the **Tracked links** tab in the main SuperOffice Marketing screen. If you cannot find the link you want to work with, click **All links**. Click the link you want to work with.
+
+    > [!NOTE]
+    > Only [registered links][2]) are displayed here. If you have added "regular" links in the mailing, you need to select the **Track all links** option in Step 1: Setup.
+
+## Explore clicks
+
+1. In the active mailing, select the **Tracked links** tab.
+
+2. Click the relevant link from the link list. The **View link** screen displays.
+
+    Here you can see the number of clicks for the link and any [actions specified for the link][4]. In the **Clickers** list you can see who has clicked the link and in which mailing they clicked the link.
+
+3. Click **OK** to close the **View link** screen.
+
+## Add clickers to a new selection or project
+
+[!include[Howto](../includes/howto-add-person-to-selection-new.md)]
+
+## Add clickers to an existing selection or project
+
+[!include[Howto](../includes/howto-add-person-to-selection-existing.md)]
+
+## What do you want to do now?
+
+* [Edit the link][2] (Click the **Edit** button.)
+* [Work with the recipient list][7]
+
+<!-- Referenced links -->
+[2]: create-links.md
+[4]: define-link-actions.md
+[7]: ../mailing/follow-up/look-at-recipient-list.md
+
+<!-- Referenced images -->

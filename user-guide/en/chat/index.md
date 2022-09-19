@@ -85,8 +85,8 @@ If the customer is found in SuperOffice, you can show contact information, reque
 
 <!-- Referenced links -->
 [1]: ../faq/index.md
-[2]: ../user/service/knowledge-base/work-with-documents.md
-[3]: ../user/service/reply-templates/index.md
+[2]: ../document/index.md
+[3]: ../request/reply-templates/index.md
 [4]: respond.md
 [5]: statistics.md
 [6]: function-from-customers-perspective.md
@@ -100,7 +100,7 @@ If the customer is found in SuperOffice, you can show contact information, reque
 
 <!-- Referenced images -->
 [img1]: media/chat-tabs.png
-[img2]: ../../media/icons/chat-last-customer.png
+[img2]: ../../../common/icons/chat-status-light-blue-h32.png
 [img3]: ../../media/icons/chat-last-customer-unanswered.png
-[img4]: ../../media/icons/chat-transfered.png
+[img4]: ../../../common/icons/exclamation-h32.png
 [img5]: media/chat-tab-chats.png

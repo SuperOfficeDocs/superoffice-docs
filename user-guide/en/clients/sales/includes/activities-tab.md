@@ -13,7 +13,7 @@ The columns of the **Activities** section tab contain the following information:
 * The ID of the person who created the activity.
 
 <!-- Referenced links -->
-[1]: ../../../user/diary/marking-activities-as-completed-not-completed.md
+[1]: ../../../diary/marking-activities-as-completed-not-completed.md
 
 <!-- Referenced images -->
 [img1]: ../../../../media/icons/utfoert.bmp

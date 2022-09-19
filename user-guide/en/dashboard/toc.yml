@@ -2,32 +2,38 @@ items:
 - name: Overview
   href: index.md
 - name: Create a new dashboard
-  href: dashboard-create.md
+  href: create.md
 - name: Add tiles and edit layout
-  href: dashboard-add-tiles.md
+  href: add-tile.md
 - name: Edit a dashboard
-  href: dashboard-edit.md
+  href: update.md
 - name: Duplicate a dashboard
-  href: dashboard-duplicate.md
+  href: copy.md
 - name: Delete a dashboard
-  href: dashboard-delete.md
+  href: delete.md
 - name: Working with tiles
-  href: dashboard-tiles.md
+  href: working-with-tiles.md
   items:
+  - name: Using sales targets in tiles
+    href: show-sales-targets.md
   - name: Edit a tile
-    href: dashboard-tiles-edit.md
-  - name: View tile data
-    href: dashboard-view-and-filter.md
-  - name: Sales targets
-    href: dashboard-tiles-sales-targets.md
+    href: edit-tile.md
   - name: Remove a tile
-    href: dashboard-tiles-delete.md
+    href: remove-tile.md
 - name: Dashboards in Service
-  href: service/index.md
+  href: in-service/index.md
+- name: Statistics in Service
+  href: in-service/statistics/index.md
   items:
-  - name: Create a dashboard
-    href: service/create.md
-  - name: Edit a dashboard
-    href: service/edit.md
-  - name: Delete a dashboard
-    href: service/delete.md
+  - name: Reports
+    href: in-service/statistics/reports.md
+  - name: Standard reports
+    href: in-service/statistics/standard-reports.md
+  - name: Request statistics
+    href: in-service/statistics/request.md
+  - name: Login statistics
+    href: in-service/statistics/login.md
+  - name: Invoice statistics
+    href: in-service/statistics/invoice.md
+  - name: Create new report
+    href: in-service/statistics/create-report.md

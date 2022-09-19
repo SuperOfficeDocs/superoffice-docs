@@ -47,4 +47,4 @@ The bottom of the **Company** screen contains the following default section tabs
 <!-- Referenced images -->
 [img1]: ../../media/icons/pil-hoeyre.bmp
 [img2]: ../../media/icons/pil-venstre.bmp
-[img3]: ../user/getting-started/media/company-month-mini.bmp
+[img3]: media/company-month-mini.bmp
