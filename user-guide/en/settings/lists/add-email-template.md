@@ -87,7 +87,7 @@ Here you can add translated versions of the document template.
 
 <!-- Referenced links -->
 [1]: ../../globalization/translate-fields.md
-[2]: ../../diary/template-variables.md
+[2]: ../../document/template-variables.md
 [3]: ../../sale/admin/sale-type-stages-quote.md
 [4]: ../../person/gdpr/privacy-source-add.md
 [5]: ../../sale/saint/index.md

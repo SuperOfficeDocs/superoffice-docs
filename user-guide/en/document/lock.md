@@ -1,7 +1,7 @@
 ---
-uid: help-en-doc-checkoutin
-title: doc checkoutin
-description: doc checkoutin
+uid: help-en-document-lock
+title: Check in/out documents
+description: Check in/out documents
 author: SuperOffice RnD
 so.date: 06.29.2022
 keywords: CRM
@@ -16,7 +16,7 @@ In SuperOffice CRM, many people are creating, editing and reading documents at a
 > [!NOTE]
 > If your organisation uses a document library like SharePoint, multiple people can edit a document simultaneously.
 
-<!-- Fix reuse ID=a1 -->
+## How do I know when a document has been checked out?
 
 In the **Document** dialog, a checked-out document has one of the following icons:
 
@@ -30,18 +30,18 @@ If you attempt to open a checked-out document, a dialog appears with information
 
 ## Check out a document for editing
 
-Open a document and select to edit the document. The document is checked out for editing by you. Other users can only open the document in read mode. See [Edit documents][1].
+Open a document and select to [edit the document][1]. The document is checked out for editing by you. Other users can only open the document in read mode.
 
 ## Check in a document after editing
 
-In most cases, you can save and close the document in the application, and the document will be checked in automatically. See [Edit documents][1].
+In most cases, you can [save and close the document][1] in the application, and the document will be checked in automatically.
 
 ## Edit mode and read mode
 
 By default, a document is opened in edit mode. Below we have described the differences between edit mode and read mode.
 
 > [!NOTE]
-> If you prefer to select read mode or edit mode when you open a document, do as follows: Go to ![icon][img2] **Personal settings** &gt; **Preferences** &gt; **Functions** and set **Ask to edit or read** to **Yes**.
+> If you prefer to select read mode or edit mode when you open a document, do as follows: Go to ![icon][img2] **Personal settings** > **Preferences** > **Functions** and set **Ask to edit or read** to **Yes**.
 
 * Edit mode: The document is opened for editing. The document cannot be edited by other users until you save and close the document, which automatically checks in the document.
 
@@ -67,7 +67,7 @@ If you or someone else have checked out a document, and you need to edit the doc
 > You need special privileges to access this option. You also need write access to the document.
 
 <!-- Referenced links -->
-[1]: editing-documents.md
+[1]: edit.md
 
 <!-- Referenced images -->
 [img1]: ../../media/icons/btn-menu.png

@@ -30,6 +30,6 @@ This function uses the SOProtocol. SuperOffice Web Tools must be installed for t
 
 <!-- Referenced links -->
 [1]: ../diary/dialog-for-followups.md
-[2]: ../diary/document-dialog.md
+[2]: ../clients/sales/document/document-dialog.md
 
 <!-- Referenced images -->

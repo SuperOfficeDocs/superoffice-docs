@@ -64,7 +64,7 @@ If a company, contact or project has several active statuses, the lower priority
 * [Manage status monitors][4]
 
 <!-- Referenced links -->
-[1]: ../../../diary/template-variables.md
+[1]: ../../../document/template-variables.md
 [2]: edit-description-for-status.md
 [3]: select-image-for-status.md
 [4]: manage-status-monitors.md

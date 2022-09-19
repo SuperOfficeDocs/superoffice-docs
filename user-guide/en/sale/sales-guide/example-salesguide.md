@@ -115,7 +115,7 @@ You can now change the stage to **Sold**. Once all the required follow-ups and d
 
 <!-- Referenced links -->
 [1]: ../../diary/dialog-for-followups.md
-[2]: ../../diary/editing-documents.md
+[2]: ../../document/edit.md
 [3]: working-with-sales-guide.md
 
 <!-- Referenced images -->

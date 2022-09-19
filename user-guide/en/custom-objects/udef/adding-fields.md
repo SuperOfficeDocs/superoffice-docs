@@ -69,7 +69,7 @@ If you find you are not allowed to create a new field, this may be because you h
 
 <!-- Referenced links -->
 [1]: maximum-number-of-fields.md
-[2]: ../../diary/template-variables.md
+[2]: ../../document/template-variables.md
 [3]: moving-fields.md
 [4]: editing-fields.md
 [5]: editing-tab-order-of-fields.md

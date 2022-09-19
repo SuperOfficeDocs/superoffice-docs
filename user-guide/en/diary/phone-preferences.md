@@ -45,7 +45,7 @@ The available parameters are as follows:
 
 <!-- Referenced links -->
 [1]: dialling-contacts.md
-[2]: template-variables.md
+[2]: ../document/template-variables.md
 
 <!-- Referenced images -->
 [img1]: ../../media/icons/dialogboksknapper-telefon.bmp

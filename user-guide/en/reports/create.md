@@ -23,6 +23,6 @@ However, if you want to create a separate report, you can [alter the search crit
 [1]: run.md
 [2]: editing-search-criteria-in-reports.md
 [3]: favorites/add.md
-[4]: ../diary/creating-new-documents.md
+[4]: ../document/create.md
 
 <!-- Referenced images -->

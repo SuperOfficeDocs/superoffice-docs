@@ -112,7 +112,7 @@ Once all the required follow-ups and documents for the project have been complet
 
 <!-- Referenced links -->
 [1]: ../../diary/dialog-for-followups.md
-[2]: ../../diary/editing-documents.md
+[2]: ../../document/edit.md
 [3]: work-with-projectguide.md
 [4]: view-followups-and-documents.md
 [5]: work-with-projectguide.md#move-to-next-status

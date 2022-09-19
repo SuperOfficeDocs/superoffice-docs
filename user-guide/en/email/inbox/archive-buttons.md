@@ -34,7 +34,7 @@ If you do not want to register this email address in SuperOffice CRM, click **Do
 * [Archive or open attachments][3]
 
 <!-- Referenced links -->
-[1]: ../../diary/document-dialog.md
+[1]: ../../clients/sales/document/document-dialog.md
 [2]: adding-email-addresses-in-crm.md
 [3]: opening-attachments-or-saving-them-on-disk.md
 

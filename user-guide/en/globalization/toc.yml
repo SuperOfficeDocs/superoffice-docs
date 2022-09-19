@@ -3,6 +3,8 @@ items:
   href: changing-language-version-web.md
 - name: Translate fields
   href: translate-fields.md
+- name: Language support for documents
+  href: doc-language-support.md
 - name: Customer languages
   href: listcustlangs.md
   items:

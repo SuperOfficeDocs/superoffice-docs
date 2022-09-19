@@ -14,7 +14,7 @@ language: en
 Open an existing follow-up by double-clicking it:
 
 <!-- markdownlint-disable MD032 -->
-[!include[List of Activities section tabs](includes/list-activities-section-tabs.md)]
+[!include[List of Activities section tabs](../includes/list-activities-section-tabs.md)]
 * On the different tabs in the **Diary** screen.
 <!-- markdownlint-restore -->
 

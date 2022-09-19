@@ -29,7 +29,7 @@ so.client:
 
 <!-- Referenced links -->
 
-[3]: ../diary/template-variables.md#variables-for-a-selected-contact
+[3]: ../../../docs/document/templates/variables/for-selected-contact.md
 
 <!-- Referenced images -->
 [img2]: ../../media/icons/sign-editor-show-hide.png

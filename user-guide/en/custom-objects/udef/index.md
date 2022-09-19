@@ -90,7 +90,7 @@ You can then add these fields to the **Project** screen:
 [2]: ../../settings/lists/adding-user-defined-lists.md
 [3]: ../../clients/sales/project/more-tab-project.md
 [4]: ../../diary/more-tab-follow-ups.md
-[5]: ../../diary/more-tab-document.md
+[5]: ../../clients/sales/document/document-dialog.md
 [6]: ../../company/create.md#more-tab
 [7]: ../../person/create.md#more-tab
 

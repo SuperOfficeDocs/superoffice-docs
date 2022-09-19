@@ -23,7 +23,7 @@ No matter where you are in SuperOffice CRM, you can create a new phone call by s
 Phone calls can be displayed in the following places in SuperOffice CRM:
 
 <!-- markdownlint-disable MD032 -->
-[!include[List of Activities section tabs](includes/list-activities-section-tabs.md)]
+[!include[List of Activities section tabs](../includes/list-activities-section-tabs.md)]
 * on the **Day**/**Week**/**Month**/**View** tabs in the **Diary** screen.
 * in these side panel views: **Day**, **Month**, **Next day** and **Week**.
 <!-- markdownlint-restore -->

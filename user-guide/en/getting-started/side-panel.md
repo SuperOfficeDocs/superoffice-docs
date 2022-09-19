@@ -133,7 +133,7 @@ In SuperOffice Settings and maintenance, you can also define your own views for 
 [2]: ../person/create.md
 [3]: ../diary/day-tab.md
 [4]: ../diary/diary.md
-[5]: ../diary/document-dialog.md
+[5]: ../clients/sales/document/document-dialog.md
 [6]: ../diary/dialog-for-followups.md
 [7]: ../search-options/selections/create/create-dynamic.yml
 [8]: favourites.md

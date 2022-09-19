@@ -152,7 +152,7 @@ Agenda for first meeting:
 9. Repeat this procedure to add more documents in this or other stages.
 
 <!-- Referenced links -->
-[1]: ../../diary/template-variables.md#variables-for-sales
+[1]:../../../../docs/document/templates/variables/for-sales.md
 [2]: ../admin/adding-items-to-sale-stage-list.md
 [3]: ../admin/sale-type-stages-quote.md
 [4]: ../../settings/lists/document-template.md

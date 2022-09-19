@@ -34,7 +34,7 @@ In the sections below there are more details on using standard templates and tem
 * [Look at template variables][1]
 
 <!-- Referenced links -->
-[1]: ../../diary/template-variables.md
+[1]: ../../document/template-variables.md
 [2]: using-standard-templates.md
 [3]: application.md
 [4]: creating-template-document.md

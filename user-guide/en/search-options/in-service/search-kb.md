@@ -29,8 +29,8 @@ To search for information in the knowledge base:
 
 <!-- Referenced links -->
 [1]: ../../clients/service/knowledge-base.md
-[2]: ../../request/externalDocument.md
-[3]: ../../document/index.md
+[2]: ../../request/externaldocument.md
+[3]: ../../document/in-service/index.md
 [4]: ../../faq/index.md
 [5]: ../../request/reply-templates/index.md
 

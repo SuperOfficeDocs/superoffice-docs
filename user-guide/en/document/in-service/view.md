@@ -1,7 +1,7 @@
 ---
-uid: help-en-document-document-viewdocument
-title: document document viewDocument
-description: document document viewDocument
+uid: help-en-document-view-kb
+title: View documents
+description: View documents
 author: SuperOffice RnD
 so.date: 06.29.2022
 keywords: Service
@@ -13,7 +13,7 @@ language: en
 
 To display the contents of a document in the knowledge base:
 
-1. Select **Knowledge Base** &gt; **Documents**. This takes you to the **Documents** screen. The documents are in a folder structure that you can create yourself. See [Administrate folders of documents][1].
+1. Select **Knowledge Base** &gt; **Documents**. This takes you to the **Documents** screen. The documents are in a [folder structure][1] that you can create yourself.
 2. Go to the required folder.
 3. Do one of the following:
     * Click the document name to go to the **Document properties** screen. Here you can also view and edit the contents of certain document types, such as html, txt and the native ejr format.
@@ -21,11 +21,9 @@ To display the contents of a document in the knowledge base:
 
 ## What would you like to do now?
 
-[Create documents][2]
-
-[Edit documents][3]
-
-[Delete documents][4]
+* [Create documents][2]
+* [Edit documents][3]
+* [Delete documents][4]
 
 <!-- Referenced links -->
 [1]: manage-folders.md
@@ -34,4 +32,4 @@ To display the contents of a document in the knowledge base:
 [4]: delete.md
 
 <!-- Referenced images -->
-[img1]: ../../media/icons/service/down.png
+[img1]: ../../../media/icons/service/down.png

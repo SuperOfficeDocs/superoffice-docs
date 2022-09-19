@@ -26,11 +26,11 @@ Apart from this practical use, external documents are otherwise dealt with in th
 
 <!-- Referenced links -->
 [1]: showlisttickets.addmessage.md
-[2]: ../document/view.md
-[3]: ../document/create.md
-[4]: ../document/edit.md
-[5]: ../document/delete.md
-[6]: ../document/find.md
-[7]: ../document/manage-folders.md
+[2]: ../document/in-service/view.md
+[3]: ../document/in-service/create.md
+[4]: ../document/in-service/edit.md
+[5]: ../document/in-service/delete.md
+[6]: ../document/in-service/find.md
+[7]: ../document/in-service/manage-folders.md
 
 <!-- Referenced images -->

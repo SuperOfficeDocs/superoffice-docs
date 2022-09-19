@@ -27,6 +27,10 @@ items:
     href: contact/projects-tab.md
   - name: Relations
     href: contact/relations-tab.md
+- name: Document
+  items:
+  - name: Document dialog
+    href: document/document-dialog.md
 - name: Sale
   items:
   - name: Section tabs in the Sale screen

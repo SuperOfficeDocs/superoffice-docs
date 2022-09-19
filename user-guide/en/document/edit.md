@@ -1,50 +1,93 @@
 ---
-uid: help-en-document-document-editdocument
-title: document document editDocument
-description: document document editDocument
+uid: help-en-document-update
+title: Editing documents
+description: Editing documents
 author: SuperOffice RnD
 so.date: 06.29.2022
-keywords: Service
+keywords: CRM
 so.topic: help
 language: en
 ---
 
 # Edit documents
 
-When we refer to editing documents in the context of SuperOffice Service, this can mean one of two things: editing the actual content of the document and editing the document properties. Both these aspects are described below.
+Editing documents involves two things:
 
-## Edit document content
+* Editing of the document properties, which is done in the **Document** dialog.
+* Editing of the document file itself, which is done in the application the document was created in.
 
-To edit the content of the document itself, for example the text in a letter, you need, in addition to SuperOffice Service, the application the document was originally created in.
+> [!NOTE]
+> You can open a document in [edit mode or in read mode][1]. When you open the document in edit mode, only you can edit the document. Other users can open the document in read mode.
+If your organisation uses a document library like SharePoint, multiple people can edit a document simultaneously.
 
-> [!TIP]
-> Certain document types, such as html, txt and the native ejr format, can be edited directly in the **Document properties** screen.
+Follow the instructions below, depending on how documents are managed in your SuperOffice installation:
 
-Proceed as follows:
+[!include[Requirement](../includes/req-licence-gen.md)]
 
-1. Select **Knowledge Base** &gt; **Documents**.
-2. Go to the folder where the document is located.
-3. Click ![icon][img1] **Download** to download a document.
-4. Edit and save the document using the application the document was originally created in.
-5. Click the document name to go to the **Document properties** screen.
-6. Click the **Choose file** button next to **File**, and in the dialog that appears select the document you have edited.
-7. Click **OK** to upload the document.
+## How do I know if I am using SharePoint, SuperOffice Web Tools or not?
 
-## Edit document properties
+[!include[How to check document library](includes/webtools-or-sharepoint.md)]
 
-By editing the document's properties, you can, for example, change who is to have access to the document. Proceed as follows:
+## Edit document properties in the Document dialog
 
-1. Select **Knowledge Base** &gt; **Documents**.
-2. Go to the folder where the document is located.
-3. Click the document name to go to the **Document properties** screen.
-4. Make the required changes. For more information about the fields in this screen, see [Create documents][1].
-5. Click **OK**. The changes are saved.
+To change document properties, for example, the project to which the document is linked, you need to use the **Document** dialog:
 
-> [!TIP]
-> If you want to move the document to a different folder, you can select the new folder in the **In folder** field.
+1. [Select the required document][2].
+2. Right-click and select **Document**. If you double-click on the document, it opens directly in the application it was created in.
+3. Make the required changes in the **Document** dialog. (See [The Document dialog][3]).
+4. Click the **Save** button.
+
+## Edit document content using SharePoint Documents
+
+1. Double-click the required document. (See [Open documents][2] for how to do this.) The document opens in a new tab with the online text-editing program (Office Online).
+
+    > [!NOTE]
+    > If you want to use your desktop editing program, you can choose **Open in Desktop App** from Office Online.
+
+2. Edit the document.
+
+3. Close the tab or your desktop app. The document is automatically saved to SharePoint
+
+## Edit document content - without SuperOffice Web Tools
+
+> [!NOTE]
+> This procedure describes how to create new documents if you are using a desktop text-editing application. The actual process may be slightly different if you use an online text-editing tool (like Microsoft Office Online) and a document library (like SharePoint).
+
+1. Double-click the required document. (See [Open documents][2] for how to do this.) The **Document** dialog opens.
+2. Click **Open**.
+3. If a dialog box displays, click **Edit**.
+4. The file download dialog opens automatically. Choose from the following options:
+    * **Open**: When you click the option for opening, the document is opened in the text-editing application. Type in the contents of the document and select **File** &gt; **Save As** to save it in the desired location on your PC.
+    * **Save**: When you click the option for saving, the **Save As** dialog appears. Specify where on your PC you want to save the file, and save it. Then open the document, enter the required text and save the document.
+5. Close the text-editing program.
+6. Go to the **Document** dialog.
+
+    > [!NOTE]
+    > If **Completed** is checked in the **Document** dialog, the upload options are disabled. In that case, remove the **Completed** check mark.
+
+7. Click the link to upload the document.
+    or drag and drop the document from Windows Explorer to the **Document** dialog.
+
+    ![Create a new document -screenshot][img1]
+
+8. Close the **Document** dialog by clicking **Save**. The document is checked in and the status is set to **Completed**.
+
+## Edit document content - using SuperOffice Web Tools
+
+1. Double-click the required document. (See [Open documents][2] for how to do this.)
+2. If a dialog box displays, click **Edit**.
+3. Save it and close the text-editing application.
+4. (if applicable) In the dialog that appears, click **Yes** if you are done editing the document. Click **No** to keep the document checked out. This dialog only appears if you have activated this option in SuperOffice Web Tools.
+5. The document is checked in and the status is set to **Completed**.
+
+## Troubleshooting
+
+If you double-click a document and nothing happens, try to right-click it and select **Document**. This opens the **Document** dialog. Click **Open** and see if the document opens now.
 
 <!-- Referenced links -->
-[1]: create.md
+[1]: lock.md
+[2]: open.md
+[3]: ../clients/sales/document/document-dialog.md
 
 <!-- Referenced images -->
-[img1]: ../../media/icons/service/btn-download.png
+[img1]: media/docfileuploaddragdrop.png

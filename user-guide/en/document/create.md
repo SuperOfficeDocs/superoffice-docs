@@ -1,37 +1,98 @@
 ---
-uid: help-en-document-document-newdocument
-title: document document newDocument
-description: document document newDocument
+uid: help-en-document-create
+title: Creating new documents
+description: Creating new documents
 author: SuperOffice RnD
 so.date: 06.29.2022
-keywords: Service
+keywords: CRM
 so.topic: help
 language: en
 ---
 
-# Create documents
+# Create new documents
 
-If you want to add a document to SuperOffice Service, you first need to create the document itself. To create a price list, you could, for example, use Microsoft Word or Excel to write the contents. You then add it to SuperOffice Service as follows:
+> [!TIP]
+> If you just want to upload a document, see [Upload documents][1].
 
-1. Select **Knowledge Base** &gt; **Documents**.
-2. Go to the folder you want to put the document in. If it does not yet exist, you can create a new folder. See [Administrate folders of documents][1].
-3. Click the **New document** button. This takes you to the **Document properties** screen.
-4. Enter a descriptive name for the document in the **Name** field.
-5. The **In folder** field automatically shows the name of the folder you chose. If you change your mind, you can click the list button ( ![icon][img1] ) and select a different folder in the list that appears.
-6. In the **Access** field, select who is to have access to read and edit the document.
-7. If you want to use the document in a web-based customer centre, you can add a unique ID string in the **ID string** field.
-8. In the **Description** field, enter a brief description of what the document contains.
-9. Click the **Choose file** button next to **File**, and in the dialog that appears select the document you have created.
-10. Click **Save**. If the document type can be edited in the browser, the **Contents** field is populated with the document contents.
-11. Click **OK**. The document is added to the specified folder under **Documents**.
+Follow the instructions below, depending on how documents are managed in your SuperOffice installation:
 
-## What would you like to do now?
+[!include[Requirement](../includes/req-licence-gen.md)]
 
-[Edit documents][2]
+## How do I know if I am using SharePoint, SuperOffice Web Tools or not?
+
+[!include[How to check document library](includes/webtools-or-sharepoint.md)]
+
+## Create a new document with SharePoint Documents
+
+1. Click **New** > **Document** on the top bar.
+
+2. The **Document** dialog opens. Complete the fields with the required information. See [The Document dialog][2] for an explanation of what to enter here.
+
+3. Click the **Create** button to create a new document based on the selected document template. The document is created in SharePoint and opened in a new tab with the online text-editing application (Office Online).
+
+    > [!NOTE]
+    > If you want to use your desktop editing program, you can choose **Open in Desktop App** from Office Online.
+
+4. Type in the contents of the document.
+
+5. Close the tab or your desktop app. The document is automatically saved to SharePoint.
+
+## Create a new document without SuperOffice Web Tools
+
+If you have not installed SuperOffice Web Tools, you need to manually download documents to edit them. You also have to upload the edited documents to the central server afterwards.
+
+> [!NOTE]
+> This procedure describes how to create new documents if you are using a desktop text-editing application. The actual process may be slightly different if you use an online text-editing tool (like Microsoft Office Online) and a document library (like SharePoint).
+
+1. Click **New** > **Document** on the top bar.
+
+2. The **Document** dialog opens. Complete the fields with the required information. See [The Document dialog][2] for an explanation of what to enter here.
+
+3. Click the **Create** button to create a new document based on the selected document template. The document is created on the server.
+
+4. Click **Open** and **Edit**. The **File download** dialog opens automatically. Here you can click one of the following buttons:
+
+    * **Open**: When you click **Open**, the document is opened in the text editing application. Type in the contents of the document and select **File** &gt; **Save As** to save it in the desired location on your PC.
+
+    * **Save**: When you click **Save**, the **Save As** dialog appears. Here you specify where on the PC you want to save the file, and then click **Save** to start the download. Click **Close** when the download has finished. Open Windows Explorer and browse to the document you have just saved. Open the document, enter the required text and save the document.
+
+5. Close the text-editing program.
+
+6. Go to the **Document** dialog.
+
+    > [!NOTE]
+    > If **Completed** is checked ( ![icon][img1] ) in the **Document** dialog, the upload options are disabled. In that case, remove the **Completed** check mark.
+
+7. Click the link to upload the document.
+    or drag and drop the document from Windows Explorer to the **Document** dialog.
+
+    ![Create a new document -screenshot][img2]
+
+8. Close the **Document** dialog by clicking **Save**.
+
+## Create a new document using SuperOffice Web Tools
+
+With SuperOffice CRM, you can log in from any PC using a browser, but your documents will then be saved on the central server. Downloading and uploading of documents are handled automatically by SuperOffice Web Tools.
+
+1. Click **New** > **Document** on the top bar.
+
+2. The **Document** dialog opens. Complete the fields with the required information. See [The Document dialog][2] for an explanation of what to enter here.
+
+3. Click the **Create** button to create a new document based on the selected document template. The **Document** dialog is closed automatically, and the document opens in your default text-editing application.
+
+4. Type in the content of your document.
+
+5. Save it and close the text-editing application. The document is saved.
+
+## Related topics
+
+* [Web Tools][3]
 
 <!-- Referenced links -->
-[1]: manage-folders.md
-[2]: edit.md
+[1]: upload.md
+[2]: ../clients/sales/document/document-dialog.md
+[3]: web-tools.md
 
 <!-- Referenced images -->
-[img1]: ../../../common/icons/dropdown-arrow.png
+[img1]: ../../media/icons/followup-completed-small.png
+[img2]: media/docfileuploaddragdrop.png

@@ -41,7 +41,7 @@ In your inbox, emails containing iCal invitations will be displayed with these i
 The message is removed from the inbox, and the appointment is added to you diary.
 
 <!-- Referenced links -->
-[1]: ../../diary/document-dialog.md
+[1]: ../../clients/sales/document/document-dialog.md
 
 <!-- Referenced images -->
 [img1]: ../../../media/icons/inbox/attachment.png

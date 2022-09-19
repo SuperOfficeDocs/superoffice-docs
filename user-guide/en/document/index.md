@@ -1,37 +1,52 @@
 ---
-uid: help-en-document-document
-title: document document
-description: document document
+uid: help-en-document
+title: Work with documents
+description: Work with documents
 author: SuperOffice RnD
 so.date: 06.29.2022
-keywords: Service
+keywords: CRM
 so.topic: help
 language: en
 ---
 
 # Work with documents
 
-Under **Knowledge Base &gt; Documents** you can add documents to make them available to yourself and/or other users. Such documents might include price lists, installation routines and brochures.
+![icon][img1]
 
-> [!NOTE]
-> The difference between **Documents** and **External documents** (see [Work with external documents][1]) is that the latter contains files that are accessible to everyone, including unregistered customers.
+No matter where you are in SuperOffice CRM, you can create or upload a new document by clicking **New** on the top bar and selecting **Document**. You can also create and upload new documents from the **New** button in the Top bar.
 
-## What would you like to do now?
+Documents can be letters, quotations or memos, and they can be displayed in several places in SuperOffice CRM.
 
-* [View documents][2]
-* [Create documents][3]
+* In the **Company** screen, you can display all the documents linked to the active company on the **Activities** section tab.
+* In the **Contact** screen, you can display all the documents linked to the active contact on the **Activities** section tab.
+* In the **Sale** screen, you can display all the documents linked to the active sale on the **Activities** section tab.
+* In the **Project** screen, you can display all the documents linked to the active project on the **Activities** section tab.
+* In the **Diary** screen, on the **Activities** section tab, you can display all documents that are not yet completed, plus those marked as completed since you last logged in to SuperOffice CRM.
+* In the **Selection** screen, on the **Documents** section tab, you can display a selection of documents.
+
+> [!TIP]
+> To open and examine an existing document, double-click the required row on the section tab.
+
+## Related topics
+
+* [Open documents][1]
+* [Upload documents][2]
+* [Create new documents][3]
 * [Edit documents][4]
-* [Delete documents][5]
-* [Search for documents][6]
-* [Administrate folders of documents][7]
+* [Send documents][5]
+* [Delete documents][6]
+* [Check in/out documents][7]
+* [Language support for documents][8]
 
 <!-- Referenced links -->
-[1]: ../request/externaldocument.md
-[2]: view.md
+[1]: open.md
+[2]: upload.md
 [3]: create.md
 [4]: edit.md
-[5]: delete.md
-[6]: find.md
-[7]: manage-folders.md
+[5]: send-as-email.md
+[6]: delete.md
+[7]: lock.md
+[8]: ../globalization/doc-language-support.md
 
 <!-- Referenced images -->
+[img1]: ../../media/icons/knapperad-skriv.bmp

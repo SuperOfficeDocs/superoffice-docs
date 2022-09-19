@@ -49,7 +49,7 @@ Fill in the fields below, click **Create** and compose the email as described ab
 | Language | If the selected template includes translated versions, you can select a language for the template. |
 
 <!-- Referenced links -->
-[1]: ../../diary/creating-new-documents.md
+[1]: ../../document/create.md
 [2]: archive.md
 
 <!-- Referenced images -->

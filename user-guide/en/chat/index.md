@@ -85,7 +85,7 @@ If the customer is found in SuperOffice, you can show contact information, reque
 
 <!-- Referenced links -->
 [1]: ../faq/index.md
-[2]: ../document/index.md
+[2]: ../document/in-service/index.md
 [3]: ../request/reply-templates/index.md
 [4]: respond.md
 [5]: statistics.md

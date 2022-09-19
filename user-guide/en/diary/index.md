@@ -70,7 +70,7 @@ Each type of activity will be dealt with in separate topics and chapters, as fol
 [1]: appointment.md
 [2]: task.md
 [3]: phone-call.md
-[4]: write.md
+[4]: ../document/index.md
 [5]: compose-email-web.md
 [6]: activities-list.md
 [7]: tabs-in-diary-screen.md

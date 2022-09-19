@@ -35,7 +35,7 @@ To change the **Completed** status of an activity:
 
 <!-- Referenced links -->
 [1]: opening-follow-ups.md
-[2]: opening-documents.md
+[2]: ../document/open.md
 
 <!-- Referenced images -->
 [img1]: ../../media/icons/utfoert.bmp

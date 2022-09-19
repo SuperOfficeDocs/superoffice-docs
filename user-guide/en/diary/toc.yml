@@ -25,8 +25,7 @@ items:
   href: creating-follow-ups-in-activities-list.md
 - name: Creating follow ups with your associates
   href: creating-follow-ups-with-your-associates.md
-- name: Creating new documents
-  href: creating-new-documents.md
+
 - name: Creating overlapping follow ups
   href: creating-overlapping-follow-ups.md
 - name: Creating recurring follow ups
@@ -39,14 +38,11 @@ items:
   href: deleting-activities.md
 - name: Deleting activities in the activities list
   href: deleting-activities-in-activities-list.md
-- name: Deleting documents
-  href: deleting-documents.md
+
 - name: Deleting follow ups using the Diary
   href: deleting-follow-ups-using-diary.md
 - name: Description tab follow ups
   href: description-tab-follow-ups.md
-- name: Details tab Document
-  href: details-tab-document.md
 - name: Details tab follow ups
   href: details-tab-follow-ups.md
 - name: Dialling Contacts
@@ -55,14 +51,10 @@ items:
   href: dialog-for-followups.md
 - name: Diary
   href: diary.md
-- name: Doc checkoutin
-  href: doc-checkoutin.md
-- name: Doc Language support
-  href: doc-language-support.md
-- name: Document dialog
-  href: document-dialog.md
-- name: Editing documents
-  href: editing-documents.md
+
+
+
+
 - name: Editing follow ups
   href: editing-follow-ups.md
 - name: Editing or deleting invitations
@@ -79,8 +71,6 @@ items:
   href: linking-documents-to-follow-ups.md
 - name: Linking participants to follow ups
   href: linking-participants-to-follow-ups.md
-- name: Links tab (Document)
-  href: links-tab-document.md
 - name: Links tab follow ups
   href: links-tab-follow-ups.md
 - name: Managing follow ups in the diary
@@ -89,8 +79,6 @@ items:
   href: marking-activities-as-completed-not-completed.md
 - name: Month tab
   href: month-tab.md
-- name: More tab Document
-  href: more-tab-document.md
 - name: More tab follow ups
   href: more-tab-follow-ups.md
 - name: Moving between activities in the activities list
@@ -107,8 +95,7 @@ items:
   href: note.md
 - name: Opening activities in the activities list
   href: opening-activities-in-activities-list.md
-- name: Opening documents
-  href: opening-documents.md
+
 - name: Opening Follow ups
   href: opening-follow-ups.md
 - name: Opening follow ups via the Diary
@@ -131,8 +118,7 @@ items:
   href: sales-secretary.md
 - name: Section tabs in the Diary screen
   href: section-tabs-in-diary-screen.md
-- name: Sending documents from the Activities section tab
-  href: sending-documents-from-activities-section-tab.md
+
 - name: Sending follow ups
   href: sending-follow-ups.md
 - name: Setting an alarm for follow ups
@@ -149,14 +135,10 @@ items:
   href: task.md
 - name: Tasks button
   href: tasks-button.md
-- name: Template variables
-  href: template-variables.md
-- name: Template variables examples
-  href: template-variables-examples.md
+
 - name: Time zones
   href: time-zones.md
-- name: Upload documents
-  href: upload-documents.md
+
 - name: Using group view
   href: using-group-view.md
 - name: Video meetings
@@ -173,8 +155,7 @@ items:
   href: view-tab.md
 - name: Week tab
   href: week-tab.md
-- name: Write
-  href: write.md
+
 - name: Using the Filter function Contact
   href: using-filter-function-contact.md
 - name: Phone preferences

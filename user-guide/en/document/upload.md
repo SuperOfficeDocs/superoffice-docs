@@ -1,5 +1,5 @@
 ---
-uid: help-en-upload-documents
+uid: help-en-document-upload
 title: Upload documents
 description: Upload documents
 author: SuperOffice RnD
@@ -13,7 +13,7 @@ language: en
 
 To quickly upload a document to SuperOffice CRM, do as follows:
 
-1. Click **New** &gt; **Document** on the top bar. The **Document** dialog opens.
+1. Click **New** > **Document** on the top bar. The **Document** dialog opens.
 
 2. Drag and drop the document from Windows Explorer to the **Document** dialog.
 
@@ -32,12 +32,12 @@ To quickly upload a document to SuperOffice CRM, do as follows:
 * [Web Tools][6]
 
 <!-- Referenced links -->
-[1]: document-dialog.md
-[2]: creating-new-documents.md
-[3]: opening-documents.md
-[4]: editing-documents.md
-[5]: doc-checkoutin.md
-[6]: ../document/web-tools.md
+[1]: ../clients/sales/document/document-dialog.md
+[2]: create.md
+[3]: open.md
+[4]: edit.md
+[5]: lock.md
+[6]: web-tools.md
 
 <!-- Referenced images -->
 [img1]: ../../media/icons/followup-notcompleted-small.png

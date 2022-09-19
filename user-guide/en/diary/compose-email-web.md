@@ -30,7 +30,7 @@ When you have finished the message, and want to send it, you have the following 
 > The signature template at the bottom of the message can be edited in ![icon][img1] **Personal settings** &gt; **Edit personal signature**.
 
 <!-- Referenced links -->
-[1]: creating-new-documents.md
+[1]: ../document/create.md
 [2]: ../email/inbox/archive.md
 
 <!-- Referenced images -->
