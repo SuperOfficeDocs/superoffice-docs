@@ -9,7 +9,7 @@ so.topic: help
 language: en
 ---
 
-# Dashboard
+# Dashboards in Service
 
 A dashboard can contain up to four tiles (panels) that provide an instant overview of requests and request statistics in SuperOffice Service. The content of the tiles can be individually customized, for different roles or globally.
 
@@ -18,17 +18,18 @@ A dashboard can contain up to four tiles (panels) that provide an instant overvi
 
 ## Choose the content of the tiles
 
-If you or your role have sufficient rights, you can choose the content you want to have displayed in the tiles on the dashboard. [!include[To do this](../../includes/to-do-this.md)]
+If you or your role have sufficient rights, you can choose the content you want to have displayed in the tiles on the dashboard.
 
 1. Click the title text of a tile, or click **Blank** if the tile is empty.
+
 2. Select the content you want from the list.
 
-You can choose to display, for example
+You can choose to display, for example:
 
-* [Statistics about requests](#statistics)
-* [Statuses of your own requests](#status)
-* [Own active requests](#own-open-requests)
-* [Unassigned requests](#unassigned-requests)
+* Statistics about requests
+* Statuses of your own requests
+* Own active requests
+* Unassigned requests
 
 Find out more about this below.
 
@@ -50,11 +51,11 @@ If the number of a specific type of request is greater than 0, you can click the
 
 ## Hyperlinks to categories
 
-If specified under **Settings** &gt; **Categories**, the **Status** tile on the dashboard also contains hyperlinks to categories and information about how many requests there are in each category.
+If specified under **Settings** > **Categories**, the **Status** tile on the dashboard also contains hyperlinks to categories and information about how many requests there are in each category.
 
 A user with category administration rights can do the following:
 
-1. Select ![icon][img1] **System settings &gt; Categories**.
+1. Select ![icon][img1] **System settings > Categories**.
 2. Select the required category.
 3. Select the **Properties tab**.
 4. Check **Show category in status view**.
@@ -74,7 +75,7 @@ Shows requests that belong to you and which have the **Open** status. In other w
 
 ## Unassigned requests
 
-Lists requests that no-one has been assigned responsibility for. If you want to take responsibility for one of the requests, it is important you do so by clicking **Accept request**. Otherwise there is a risk of others answering the request at the same time. See [Take responsibility for requests][2].
+Lists requests that no-one has been assigned responsibility for. If you want to [take responsibility for one of the requests][2], it is important you do so by clicking **Accept request**. Otherwise there is a risk of others answering the request at the same time.
 
 ## What would you like to do now?
 
@@ -85,7 +86,7 @@ Lists requests that no-one has been assigned responsibility for. If you want to 
 * [Process requests][6]
 
 <!-- Referenced links -->
-[1]: create.md
+[1]: ../create.md#service
 [2]: ../../request/showlisttickets.acceptrequest.md
 [3]: ../../request/receivetickets.md
 [4]: ../../request/newticket.md

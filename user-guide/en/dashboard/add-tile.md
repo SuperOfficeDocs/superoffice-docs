@@ -1,17 +1,17 @@
 ---
-uid: help-en-dashboard-add-tiles
+uid: help-en-dashboard-tile-add
 title: Dashboard add tiles
 description: Dashboard add tiles
 author: SuperOffice RnD
 so.date: 07.04.2022
 keywords: dashboard
-so.topic: help
+so.topic: howto
 language: en
 ---
 
-# Add tiles / Edit layout
+# Add a tile
 
-To add tiles to a dashboard:
+To add a tile to a dashboard:
 
 1. Open the **Dashboard** screen.
 
@@ -24,7 +24,7 @@ To add tiles to a dashboard:
     * **Library**: This tab contains a set of pre-defined tiles from the online template library. The icon next to the tile name indicates the tile type.
 
         > [!TIP]
-        > You can also select an empty tile to create a tile from scratch. See [Edit a tile][1].
+        > You can also select an empty tile to create a tile from scratch.
 
     * **Selections**: This tab contains dynamic selections with [charts][2], and will only show selections of the same record/entity type selected in the **View** list above (e.g. company, sale etc.).
 
@@ -51,8 +51,8 @@ To add tiles to a dashboard:
 * [Remove a tile][3]
 
 <!-- Referenced links -->
-[1]: dashboard-tiles-edit.md
+[1]: edit-tile.md
 [2]: ../search-options/selections/howto/display-as-charts.md
-[3]: dashboard-tiles-delete.md
+[3]: remove-tile.md
 
 <!-- Referenced images -->

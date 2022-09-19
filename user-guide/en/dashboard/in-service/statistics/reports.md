@@ -1,7 +1,7 @@
 ---
-uid: help-en-stat-newstat
-title: stat newStat
-description: stat newStat
+uid: help-en-service-statistics-reports
+title: Reports
+description: Reports
 author: SuperOffice RnD
 so.date: 06.29.2022
 keywords: Service

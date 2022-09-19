@@ -1,7 +1,7 @@
 ---
-uid: help-en-stat-newstat-standard
-title: stat newStat standard
-description: stat newStat standard
+uid: help-en-service-statistics-standard
+title: Standard reports
+description: Standard reports
 author: SuperOffice RnD
 so.date: 06.29.2022
 keywords: Service
@@ -16,7 +16,7 @@ In this screen you can generate the new and improved standard reports in SuperOf
 You have the following options:
 
 * Click ![icon][img2] to change the chart type and how the data are presented and grouped.
-* Click **Show criteria** to adjust the parameters of the report. See [Search in SuperOffice Service][1].
+* Click **Show criteria** to [adjust the parameters][1] of the report.
 * Click ![icon][img1] to select other viewing options.
 * Click ![icon][img3] to group the by one of the criteria.
 

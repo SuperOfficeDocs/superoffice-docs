@@ -1,11 +1,11 @@
 ---
 uid: help-en-dashboard-tiles
-title: Dashboard Tiles
-description: Dashboard Tiles
+title: Working with tiles
+description: Working with dashboard tiles
 author: SuperOffice RnD
 so.date: 07.04.2022
 keywords: dashboard
-so.topic: help
+so.topic: howto
 language: en
 ---
 
@@ -15,10 +15,31 @@ A dashboard can consist of any number of tiles. Each tile contains a graphical o
 
 ## View tiles and data
 
-* Click on data in a tile (for instance a sector in a pie chart) to display the underlying data. See [View tile data][1].
+* Click on data in a tile (for instance a sector in a pie chart) to display the underlying data.
+
 * Place the mouse-pointer over a section of a tile to view source data in a pop-up box.
+
 * Click the data labels (legend) under the tile to hide/show specific data in the tiles. This can be useful for printing or exporting the tiles.
+
 * Click ![icon][img1] in the header of a tile and select **View in full screen** to open the tile in full screen. This is especially useful for tiles with much content.
+
+### Examine underlying data
+
+1. Open the **Dashboard** screen.
+
+2. Select the relevant dashboard.
+
+3. Click on data in a tile (for instance a column in a column chart). A new window displays the records in the section you clicked.
+
+4. Here you have the following options:
+
+    * Click a record to see a preview on the right-hand side of the window.
+
+    * Double-click a record to open it (or select a record and click **Open**).
+
+    * To [copy the records to a selection][4], click the **Task** button and select **Copy into selection**. If you do not select any records, all records will be copied.
+
+5. Click **Close** when you are done.
 
 ## Export tiles
 
@@ -33,14 +54,13 @@ Click ![icon][img1] in the header of a tile to access the following options:
 
 ## Related topics
 
-* [View tile data][1]
 * [Edit a tile][2]
 * [Remove a tile][3]
 
 <!-- Referenced links -->
-[1]: dashboard-view-and-filter.md
-[2]: dashboard-tiles-edit.md
-[3]: dashboard-tiles-delete.md
+[2]: edit-tile.md
+[3]: remove-tile.md
+[4]: ../search-options/selections/update/add-members-to-static.md
 
 <!-- Referenced images -->
 [img1]: ../../media/icons/dashboard/dashboard-tile-options.png

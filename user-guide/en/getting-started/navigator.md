@@ -112,10 +112,10 @@ If you hold the mouse pointer over a record in any the lists, a tooltip is displ
 [15]: favourites.md
 [31]: ../request/customers.md
 [32]: ../search-options/selections/in-service/index.md
-[33]: ../dashboard/service/statistics/index.md
+[33]: ../dashboard/in-service/statistics/index.md
 [34]: ../request/index.md
 [35]: ../clients/service/knowledge-base.md
-[37]: ../dashboard/service/index.md
+[37]: ../dashboard/in-service/index.md
 
 [20]: ../ai/index.md
 [21]: ../settings/lists/index.md

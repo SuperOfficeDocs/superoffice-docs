@@ -37,7 +37,7 @@ To move backwards and forwards between selections:
 [3]: selection-tab-criteria.md
 [4]: selection-tab-details.md
 [5]: ../../../search-options/selections/howto/display-as-charts.md
-[6]: ../../../dashboard/dashboard-create.md
+[6]: ../../../dashboard/create.md
 [7]: mailings-section-tab.md
 
 <!-- Referenced images -->

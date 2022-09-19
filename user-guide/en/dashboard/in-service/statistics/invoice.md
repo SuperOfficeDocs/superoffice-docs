@@ -1,7 +1,7 @@
 ---
-uid: help-en-stat-invoicestat
-title: stat invoiceStat
-description: stat invoiceStat
+uid: help-en-service-statistics-invoice
+title: Invoice statistics
+description: Invoice statistics
 author: SuperOffice RnD
 so.date: 06.29.2022
 keywords: Service

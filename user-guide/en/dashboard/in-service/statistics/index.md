@@ -1,7 +1,7 @@
 ---
-uid: help-en-stat
-title: stat
-description: stat
+uid: help-en-service-statistics
+title: Statistics
+description: Statistics
 author: SuperOffice RnD
 so.date: 06.29.2022
 keywords: Service
@@ -19,9 +19,9 @@ You have the following options in the statistics module:
 * [Invoice statistics][4] – provides an overview of all items to be invoiced
 
 <!-- Referenced links -->
-[1]: newstat.standard.md
-[2]: simplestat.md
-[3]: loginstat.md
-[4]: invoicestat.md
+[1]: standard-reports.md
+[2]: request.md
+[3]: login.md
+[4]: invoice.md
 
 <!-- Referenced images -->
