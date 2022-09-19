@@ -12,11 +12,11 @@ so.lang: en
 
 # Overview
 
-* [Section tabs in the Company screen][1]
-* [Section tabs in the Contact screen][2]
+* [The Company screen][1]
+* [The Contact screen][2]
 
 <!-- Referenced links -->
-[1]: company/section-tabs-in-company-screen.md
+[1]: company/index.md
 [2]: contact/section-tabs-in-contact-screen.md
 
 <!-- Referenced images -->

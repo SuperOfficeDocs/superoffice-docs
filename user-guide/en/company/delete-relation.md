@@ -1,5 +1,5 @@
 ---
-uid: help-en-delete-relation
+uid: help-en-company-delete-relation
 title: Delete relations
 description: Delete relations
 author: SuperOffice RnD
@@ -13,11 +13,11 @@ language: en
 
 You can delete relations that have been set up, as follows:
 
-1. [!include[Go to company](includes/goto-company.md)]
+[!include[Go to company](../includes/goto-company.md)]
 
-2. Right-click the required relation on the **Relations** section tab and select **Delete**. The **Delete Relation** dialog opens.
+1. Right-click the required relation on the **Relations** section tab and select **Delete**. The **Delete Relation** dialog opens.
 
-3. Click **Yes** to confirm that you really want to delete the relation. (For more details about this, see [Delete items in SuperOffice CRM][1].)
+1. Click **Yes** to confirm that you really want to delete the relation. (For more details about this, see [Delete items in SuperOffice CRM][1].)
 
 <!-- Referenced links -->
 [1]: ../getting-started/deleting-elements.md

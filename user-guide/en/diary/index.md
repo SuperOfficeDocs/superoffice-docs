@@ -79,7 +79,7 @@ Each type of activity will be dealt with in separate topics and chapters, as fol
 [10]: marking-activities-as-completed-not-completed.md
 [11]: dialling-contacts.md
 [12]: ../chat/index.md
-[13]: ../clients/sales/company/company-activities.md
+[13]: ../clients/sales/company/activities-tab.md
 [14]: ../clients/sales/contact/contact-activities.md
 [15]: ../clients/sales/project/activities-project.md
 [16]: ../clients/sales/sale/activities-sale.md

@@ -1,7 +1,7 @@
 ---
-uid: help-en-customers-viewcompany-editcompany
-title: customers viewCompany editCompany
-description: customers viewCompany editCompany
+uid: help-en-company-update-service
+title: Edit companies
+description: Edit companies
 author: SuperOffice RnD
 so.date: 06.29.2022
 keywords: Service

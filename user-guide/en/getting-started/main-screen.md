@@ -31,7 +31,7 @@ The main screen in SuperOffice CRM consists of five main elements:
 <!-- Referenced links -->
 [1]: navigator.md
 [2]: buttons-in-menu-bar.md
-[9]: ../clients/sales/company/section-tabs-in-company-screen.md
+[9]: ../clients/sales/company/index.md
 [11]: ../clients/sales/contact/section-tabs-in-contact-screen.md
 [13]: ../diary/activities-list.md
 [15]: ../clients/sales/project/project-screen-section-tabs.md

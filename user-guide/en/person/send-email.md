@@ -27,13 +27,13 @@ You can prepare an email from both the **Contact** screen and the **Company** sc
 
 ## Create email from Company screen
 
-1. [!include[Go to company](../company/includes/goto-company.md)]
+1. [!include[Go to company](../includes/goto-company.md)]
 
-2. Select the **Contacts** section tab.
+1. Select the **Contacts** section tab.
 
-3. Select one or more contacts.
+1. Select one or more contacts.
 
-4. Right-click and select **Send email**. A message to the specified recipient(s) is then opened in your default email program.
+1. Right-click and select **Send email**. A message to the specified recipient(s) is then opened in your default email program.
 
     > [!NOTE]
     > Only contacts with email addresses are displayed in the **To** field. Contacts without email addresses are omitted.

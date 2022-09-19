@@ -15,8 +15,7 @@ The **Sales** section tab shows sales connected to the contact.
 
 [!include[Contents of the Sales section tab](../includes/sales-tab.md)]
 
-> [!TIP]
-> You can configure the columns on the section tab to display just the information that interests you. See [Configure columns][4].
+[!include[Conf. columns](../includes/tip-configure-columns.md)]
 
 Double-click a sale in the list to open the **Sale** screen in SuperOffice CRM which contains information about that sale.
 
@@ -30,7 +29,6 @@ If you check **Include stakeholders** at the bottom of the section tab, sales wh
 [1]: ../../../sale/index.md
 [2]: ../../../sale/stakeholders/index.md
 [3]: ../../../diary/using-filter-function-contact.md
-[4]: ../../howto/changing-column-view.md
 
 <!-- Referenced images -->
 [img1]: ../../../../media/icons/filter.bmp

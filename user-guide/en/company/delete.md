@@ -1,5 +1,5 @@
 ---
-uid: help-en-delete-company
+uid: help-en-company-delete
 title: Deleting companies
 description: Deleting companies
 author: SuperOffice RnD
@@ -13,9 +13,11 @@ language: en
 
 To delete a company and associated data:
 
-1. [!include[Go to company](includes/goto-company.md)]
-2. Click the ![icon][img1] **Task** button and select **Delete &lt;company name&gt;**.
-3. The **Delete Company** dialog opens. Click **Yes** to confirm that you really want to delete the company.
+[!include[Go to company](../includes/goto-company.md)]
+
+1. Click the ![icon][img1] **Task** button and select **Delete &lt;company name&gt;**.
+
+1. The **Delete Company** dialog opens. Click **Yes** to confirm that you really want to delete the company.
 
     For more details about this, see [Delete items in SuperOffice CRM][1].
 

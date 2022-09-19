@@ -18,9 +18,9 @@ If you are looking for a request in the system and cannot find it using the [pre
 1. Select **Requests > Find requests**. This takes you to the **Criteria** screen.
 2. Enter the required [search criteria][2].
 3. Click **Search**.
-4. Under **Find requests** are the requests that match your search criteria. If you select one of the requests in the list, its contents are displayed in the preview screen on the right. If you select one of the requests in the list, its contents are displayed in the preview section. <!-- Fix reuse ID=a1 -->
+4. Under **Find requests** are the requests that match your search criteria. If you select one of the requests in the list, its contents are displayed in the preview screen on the right. If you select one of the requests in the list, its contents are displayed in the preview section.
 
-    [!include[How to preview search](../includes/howto-preview-search-in-service.md)]
+    [!include[How to preview search](../includes/show-reading-pane.md)]
 
 > [!TIP]
 > There is a more complete description of what you can do in this screen, under [Search in SuperOffice Service][2].

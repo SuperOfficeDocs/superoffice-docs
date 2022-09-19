@@ -1,7 +1,7 @@
 ---
-uid: help-en-customers-newcompany
-title: customers newCompany
-description: customers newCompany
+uid: help-en-company-create-service
+title: Create companies
+description: Create companies
 author: SuperOffice RnD
 so.date: 06.29.2022
 keywords: Service
@@ -13,7 +13,7 @@ language: en
 
 Contacts can be linked to companies:
 
-* The system searches for the domain name registered for the company, so that all contacts with this domain in their e-mail address are automatically linked to the company.
+* The system searches for the domain name registered for the company, so that all contacts with this domain in their email address are automatically linked to the company.
 * You can specify contacts' links to companies manually when you create them. See [Create contacts][1].
 
 But you first need to register a company.
@@ -56,7 +56,7 @@ But you first need to register a company.
 * [Create contacts][1]
 
 <!-- Referenced links -->
-[1]: ../../company/in-service/create.md
+[1]: ../../person/in-service/create.md
 [2]: ../../request/priority/index.md
 [3]: edit.md
 

@@ -1,5 +1,5 @@
 ---
-uid: help-en-edit-company
+uid: help-en-company-update
 title: Editing companies
 description: Editing companies
 author: SuperOffice RnD
@@ -13,9 +13,11 @@ language: en
 
 To change information entered for existing companies:
 
-1. [!include[Go to company](includes/goto-company.md)]
-2. Click **Edit**.
-3. When you have made the necessary changes, click **Save** to close and save. Click **Cancel** if you want to reject your changes. 
+[!include[Go to company](../includes/goto-company.md)]
+
+1. Click **Edit**.
+
+1. When you have made the necessary changes, click **Save** to close and save. Click **Cancel** if you want to reject your changes.
 
 > [!TIP]
 > If the **Save** button is disabled, this means there are one or more mandatory fields that have not been filled out.

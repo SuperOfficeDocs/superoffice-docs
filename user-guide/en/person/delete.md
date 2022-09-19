@@ -32,16 +32,18 @@ For details about deleting items, see [Delete items in SuperOffice CRM][4].)
 
 ## To delete a contact from the Company screen
 
-1. [!include[Go to company](../company/includes/goto-company.md)]
-2. Select the **Contacts** section tab.
-3. Select the required contact.
+[!include[Go to company](../includes/goto-company.md)]
+
+1. Select the **Contacts** section tab.
+
+1. Select the required contact.
 
     > [!NOTE]
     > You can select and delete several contacts simultaneously.
 
-4. Click the **Delete** button in the footer of the **Contacts** section tab. The **Delete Contact** dialog opens. You can also right-click the contact and select **Delete**.
+1. Click the **Delete** button in the footer of the **Contacts** section tab. The **Delete Contact** dialog opens. You can also right-click the contact and select **Delete**.
 
-5. Click **Yes** to confirm that you really want to delete the contact.
+1. Click **Yes** to confirm that you really want to delete the contact.
 
 ## Related topics
 

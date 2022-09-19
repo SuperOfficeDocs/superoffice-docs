@@ -1,5 +1,5 @@
 ---
-uid: help-en-merge-companies
+uid: help-en-company-merge
 title: Merge companies
 description: Merge companies
 author: SuperOffice RnD
@@ -17,17 +17,17 @@ If there are duplicate records of companies in the database, you can merge them.
 
 To merge companies:
 
-1. [!include[Go to company](includes/goto-company.md)]
+[!include[Go to company](../includes/goto-company.md)]
 
-2. Select **Manage companies** from the ![icon][img3] **Task** button, and click **Merge companies**.
+1. Select **Manage companies** from the ![icon][img3] **Task** button, and click **Merge companies**.
     The **Merge companies** dialog opens. The source company is specified under **From**.
 
-3. Under **To company**, select the company you want to update with information from the source company. Start typing in the field to search for a company (see [FastSearcher][1]).
+1. Under **To company**, select the company you want to update with information from the source company. Start typing in the field to search for a company (see [FastSearcher][1]).
 
     > [!TIP]
     > If you want to switch the **From** and **To** companies, click the ![icon][img1] button.
 
-4. Under **Contacts and company details**, you can choose from:
+1. Under **Contacts and company details**, you can choose from:
 
     * Merge identical contacts. If you select this option, contacts with identical names will be merged.
 
@@ -38,7 +38,7 @@ To merge companies:
 
     [!include[Preview results](../includes/note-preview-results.md)]
 
-5. Click **Merge**. The following then happens:
+1. Click **Merge**. The following then happens:
 
     * The companies are merged.
     * Contacts are moved or merged.

@@ -1,5 +1,5 @@
 ---
-uid: help-en-customers-findcontacts
+uid: help-en-company-search-in-service
 title: customers findContacts
 description: customers findContacts
 author: SuperOffice RnD
@@ -13,7 +13,7 @@ language: en
 
 To find companies that are registered in the system:
 
-1. Select **Customers** &gt; **Find company**. This takes you to the **Criteria** screen.
+1. Select **Customers** > **Find company**. This takes you to the **Criteria** screen.
 1. Enter the required search criteria under **Criteria**.
 
     > [!TIP]
@@ -21,17 +21,17 @@ To find companies that are registered in the system:
 
 1. Click **Search**.
 
-1. Under **Find companies** are the companies that match your search criteria. If you select one of the companies in the list, the requests and contacts linked to that company are displayed in the preview section. <!-- Fix reuse ID=a1 -->
+1. Under **Find companies** are the companies that match your search criteria. If you select one of the companies in the list, the requests and contacts linked to that company are displayed in the preview section.
 
-    [!include[How to preview search](../../includes/howto-preview-search-in-service.md)]
+    [!include[How to preview search](../../includes/show-reading-pane.md)]
 
 ## View search results for companies
 
 Once you have got a list of companies, you will be in a screen containing the following sections:
 
 * **Criteria**: Here you enter search criteria to filter out which companies you wish to see.
-* **Result**: This contains all the companies that match your search criteria. See [List search results for companies &gt; Result](#result).
-* **Preview**: Displays the requests and contacts linked to the company selected under **Result**. See [List search results for companies &gt; Preview](#preview).
+* **Result**: This contains all the companies that match your search criteria.
+* **Preview**: Displays the requests and contacts linked to the company selected under **Result**.
 
 ## Result
 

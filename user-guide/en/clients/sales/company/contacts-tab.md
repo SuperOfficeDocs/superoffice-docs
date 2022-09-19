@@ -1,19 +1,19 @@
 ---
-uid: help-en-company-contacts
+uid: help-en-company-screen-contacts
 title: Contacts
 description: Contacts
 author: SuperOffice RnD
 so.date: 06.29.2022
 keywords: company
-so.topic: help
+so.topic: reference
 language: en
 ---
 
-# Contacts
+# Contacts tab
 
 ![Contacts section on company -screenshot][img1]
 
-**Contacts** is one of the section tabs at the bottom of the **Company** screen. It contains information about employees of the active company. Double-click on a name in the list to open the contact in the **Contact** screen. See [Contact][1].
+**Contacts** is one of the section tabs at the bottom of the **Company** screen. It contains information about [employees of the active company][1]. Double-click on a name in the list to open the contact in the **Contact** screen.
 
 ## <a id="columns" />Columns in the Contacts section tab
 
@@ -21,11 +21,11 @@ The **Contacts** section tab contains the following columns:
 
 ### Information
 
-A paperclip icon ( ![icon][img3] ) in this column means that information has been entered about that contact in **Note** tab in the contact card. Position the mouse pointer over the dot and the information is displayed in a tooltip.
+A paperclip icon (![icon][img3]) in this column means that information has been entered about that contact in **Note** tab in the contact card. Position the mouse pointer over the dot and the information is displayed in a tooltip.
 
 ### Interests
 
-A pin icon ( ![icon][img2] ) in this column means that one or more interests have been entered for that contact. Position the mouse pointer over the dot and the information is displayed in a tooltip. To edit the interests, double-click the contact's name to open the contact card, and go to the **Interests** tab. See [Create new contact][2].
+A pin icon (![icon][img2]) in this column means that one or more interests have been entered for that contact. Position the mouse pointer over the dot and the information is displayed in a tooltip. To edit the interests, double-click the contact's name to open the contact card, and go to the **Interests** tab.
 
 ### Mr/Ms
 
@@ -40,7 +40,7 @@ Displays the contact's name, title and mobile phone number.
 
 ### Email
 
-Displays the contact's e-mail address. Click on the e-mail address to send a message to this person. This opens the message in the e-mail program you have specified. See [Send e-mail to contacts][7].
+Displays the contact's email address. Click on the email address to [send a message to this person][7]. This opens the message in the email program you have specified.
 
 ### Former employees
 

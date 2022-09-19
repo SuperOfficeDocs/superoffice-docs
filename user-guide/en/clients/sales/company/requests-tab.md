@@ -1,11 +1,11 @@
 ---
-uid: help-en-requests
+uid: help-en-company-screen-requests
 title: requests
 description: requests
 author: SuperOffice RnD
 so.date: 06.29.2022
 keywords: company
-so.topic: help
+so.topic: reference
 language: en
 ---
 

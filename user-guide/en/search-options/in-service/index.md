@@ -82,11 +82,7 @@ The search screen always shows the most relevant criteria for what you are searc
 
 When you have specified search criteria under **Criteria** and clicked **Search**, all the records that match the search criteria are displayed in a list. The first record in the list is selected by default and displayed in the preview section. Click a record in the list to show a preview.
 
-<details><summary>Where is the preview?</summary>
-
-[!include[How to preview search](../../includes/howto-preview-search-in-service.md)]
-
-</details>
+[!include[How to preview search](../../includes/show-reading-pane.md)]
 
 You can also open a record by double-clicking the relevant row.
 
@@ -112,11 +108,7 @@ Under the list, you can click ![icon][img2] to access the following options:
 
 This section of the screen displays the contents of the record selected in the list.
 
-<details><summary>Where is the preview?</summary>
-
-If the preview section is not visible, click the ![icon][img2] menu button in the top right corner and select **Show reading pane to the right** or **Show reading pane below**.
-
-</details>
+[!include[How to preview search](../../includes/show-reading-pane.md)]
 
 ## Use advanced view
 

@@ -37,9 +37,9 @@ Under the list, you can click the ![icon][img1] menu button to access the follow
 
 ## Preview
 
-This section of the screen displays the contents of the request selected under **Result**. Here you have the same options as described under [Process requests][6]. <!-- Fix reuse ID=a1 -->
+This section of the screen displays the contents of the request selected under **Result**. Here you have the same options as described under [Process requests][6].
 
-[!include[How to preview search](../includes/howto-preview-search-in-service.md)]
+[!include[How to preview search](../includes/show-reading-pane.md)]
 
 ## What would you like to do now?
 

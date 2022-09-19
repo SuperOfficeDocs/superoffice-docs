@@ -1,7 +1,7 @@
 ---
-uid: help-en-customers-viewcompany
-title: customers viewCompany
-description: customers viewCompany
+uid: help-en-company-service
+title: View companies
+description: View companies
 author: SuperOffice RnD
 so.date: 06.29.2022
 keywords: Service

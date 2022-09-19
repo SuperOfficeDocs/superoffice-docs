@@ -1,5 +1,5 @@
 ---
-uid: help-en-create-new-company
+uid: help-en-company-create
 title: Create new companies
 description: Create new companies
 author: SuperOffice RnD
@@ -9,7 +9,7 @@ so.topic: help
 language: en
 ---
 
-# Create new companies
+# Create a new company
 
 In the **Company** screen you can enter information about companies on several levels, represented by the three **Company**, **More** and **Interests** tabs. To insert a comment on a company, use the **Note** tab.
 
@@ -19,9 +19,9 @@ In the **Company** screen you can enter information about companies on several l
 
     ![Empty company card -screenshot][img1]
 
-    Type in the name of the company in the field at the top of the **Company** tab. ***Company name*** is shown in red, indicating that this field is mandatory. If you try to create a company with the same, or similar, name as an existing company, the **Duplicates** dialog opens. [!include[For more info](../includes/see-duplicates.md)]
+    Type in the name of the company in the field at the top of the **Company** tab. ***Company name*** is shown in red, indicating that this field is mandatory.
 
-2. In the **Country** field, enter the company’s country. The correct address format for this country will be updated automatically in the **Company** tab. You can set your current home country from **System** in the preferences. See [Preferences][3].
+2. In the **Country** field, enter the company’s country. The correct address format for this country will be updated automatically in the **Company** tab. You can set your current home country from **System** in the preferences.
 
 3. Enter the required information in the other fields.
 

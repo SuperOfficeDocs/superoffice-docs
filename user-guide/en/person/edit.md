@@ -13,12 +13,17 @@ language: en
 
 To edit information recorded for a contact, do as follows:
 
-1. [!include[Go to company](../company/includes/goto-company.md)]
-2. Select the **Contacts** section tab.
-3. Double-click the required contact. The contact card opens in the **Contact** screen.
-4. Click **Edit**.
-5. Make the required changes. See [Create new contacts][1] for an explanation of the information you can specify here.
-6. Finally, click the **Save** button to close the dialog and save your changes.
+[!include[Go to company](../includes/goto-company.md)]
+
+1. Select the **Contacts** section tab.
+
+1. Double-click the required contact. The contact card opens in the **Contact** screen.
+
+1. Click **Edit**.
+
+1. Make the required changes. See [Create new contacts][1] for an explanation of the information you can specify here.
+
+1. Finally, click the **Save** button to close the dialog and save your changes.
 
 > [!NOTE]
 > Click **Cancel** to exit edit mode without saving your changes.

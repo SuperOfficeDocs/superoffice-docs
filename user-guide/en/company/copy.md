@@ -1,5 +1,5 @@
 ---
-uid: help-en-copy-company
+uid: help-en-company-copy
 title: Copy companies
 description: Copy companies
 author: SuperOffice RnD
@@ -20,21 +20,21 @@ At some stage, you may want to copy an existing company to a new company. For ex
 
 ## To copy the company
 
-1. [!include[Go to company](includes/goto-company.md)]
+[!include[Go to company](../includes/goto-company.md)]
 
-2. Select **Manage companies** from the ![icon][img1] **Task** button, and click **Copy company**.
+1. Select **Manage companies** from the ![icon][img1] **Task** button, and click **Copy company**.
     The **Copy company** dialog opens. The source company is specified under **From**.
 
-3. Enter the name of the new company and, where appropriate, a department under **To**.
+1. Enter the name of the new company and, where appropriate, a department under **To**.
 
-4. Under **Copy contacts with all information**, you can choose from:
+1. Under **Copy contacts with all information**, you can choose from:
 
     * **Do not copy**. If you select this option, the company details are copied, but not the contacts.
     * **Copy**. If you select this option, the company details and the contacts are copied.
 
     [!include[Preview results](../includes/note-preview-results.md)]
 
-5. Click **Copy**. The new company is created with the specified information, and is given its own number and code. You can then [edit the company information][2] if required.
+1. Click **Copy**. The new company is created with the specified information, and is given its own number and code. You can then [edit the company information][2] if required.
 
 ![Copy company dialog -screenshot][img3]
 

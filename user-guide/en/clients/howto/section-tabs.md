@@ -55,7 +55,7 @@ To change the default number of records, do as follows:
 [6]: changing-column-view.md
 [7]: export-archives.md
 [8]: ../../diary/using-filter-function-contact.md
-[9]: ../sales/company/section-tabs-in-company-screen.md
+[9]: ../sales/company/index.md
 [10]: ../sales/contact/section-tabs-in-contact-screen.md
 [11]: ../../diary/section-tabs-in-diary-screen.md
 [12]: ../sales/sale/sale-screen-section-tabs.md

@@ -1,3 +1,4 @@
+<!-- markdownlint-disable-file MD041 -->
 In the **www** tab, you can specify a shortcut to a URL address, in order to get information from other applications via a URL. The URL address can be specified using a template variable. The **www** tab can be displayed in several places in SuperOffice CRM, as defined in SuperOffice Settings and maintenance. If you click a shortcut, the linked URL address opens.
 
 > [!TIP]

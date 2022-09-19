@@ -1,15 +1,15 @@
 ---
-uid: help-en-activities-contact
-title: Activities Contact
-description: Activities Contact
+uid: help-en-company-screen-activities
+title: Activities tab (Company screen)
+description: Activities tab (Company screen)
 author: SuperOffice RnD
 so.date: 06.29.2022
 keywords: company
-so.topic: help
+so.topic: reference
 language: en
 ---
 
-# Activities (Company screen)
+# Activities tab
 
 The **Activities** section tab in the **Company** screen contains all the activities linked to the active company.
 
@@ -17,7 +17,7 @@ The **Activities** section tab in the **Company** screen contains all the activi
 
 [!include[Contents of Activities tab](../includes/activities-tab.md)]
 
-## What would you like to do now?
+## What would you like to do?
 
 * [View activities][1]
 * [Delete activities][2]

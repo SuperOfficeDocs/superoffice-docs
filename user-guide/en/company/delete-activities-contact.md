@@ -13,11 +13,15 @@ language: en
 
 To delete an activity in the **Activities** section tab:
 
-1. [!include[Go to company](includes/goto-company.md)]
-2. Select the **Activities** section tab.
-3. Select the required activity.
-4. Click **Delete** at the bottom left under the section tabs.
-5. When asked if you really want to delete the activity, click **Yes**. (For more details, see [Delete items in SuperOffice CRM][1].)
+[!include[Go to company](../includes/goto-company.md)]
+
+1. Select the **Activities** section tab.
+
+1. Select the required activity.
+
+1. Click **Delete** at the bottom left under the section tabs.
+
+1. When asked if you really want to delete the activity, click **Yes**. (For more details, see [Delete items in SuperOffice CRM][1].)
 
 <!-- Referenced links -->
 [1]: ../getting-started/deleting-elements.md

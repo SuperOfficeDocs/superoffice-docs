@@ -1,7 +1,7 @@
 ---
-uid: help-en-customers-viewcompany-deletecontact
-title: customers viewCompany deleteContact
-description: customers viewCompany deleteContact
+uid: help-en-company-delete-service
+title: Delete companies
+description: Delete companies
 author: SuperOffice RnD
 so.date: 06.29.2022
 keywords: Service
