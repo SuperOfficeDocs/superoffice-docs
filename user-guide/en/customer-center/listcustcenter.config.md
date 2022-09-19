@@ -1,7 +1,7 @@
 ---
 uid: help-en-admin-listcustcenter-config
-title: admin listCustCenter config
-description: admin listCustCenter config
+title: Customer centre configuration
+description: Customer centre configuration
 author: SuperOffice RnD
 so.date: 06.29.2022
 keywords: Service
@@ -11,7 +11,7 @@ language: en
 
 # Customer centre configuration
 
-[!include[Requirement](../../../includes/req-cep.md)]
+[!include[Requirement](../includes/req-cep.md)]
 
 In the **Customer centre configuration** screen, you can edit the styling and layout of your customer centre. You can see your changes in the preview on the right side of the screen.
 
@@ -22,7 +22,7 @@ If you have configured multiple languages for your customer centre, you can set 
 
 Do as follows:
 
-1. Select ![icon][img1] **System settings** &gt; **Customer centre config**. On the **Customer centre** screen you’ll see two tabs, one for **Styling** and one for **Options**. At the top of this page, you’ll find a link to the Customer Centre page where you can preview your Customer Centre.
+1. Select ![icon][img1] **System settings** > **Customer centre config**. On the **Customer centre** screen you’ll see two tabs, one for **Styling** and one for **Options**. At the top of this page, you’ll find a link to the Customer Centre page where you can preview your Customer Centre.
 
     > [!TIP]
     > You can also access the **Customer centre** screen from SuperOffice Settings and maintenance. Click **Customer centre** in the navigator and select the **Configure** tab.
@@ -59,4 +59,4 @@ Do as follows:
 [1]: listCustCenter.edit.md
 
 <!-- Referenced images -->
-[img1]: ../../../../media/icons/globalmenu-settings-small.png
+[img1]: ../../media/icons/globalmenu-settings-small.png

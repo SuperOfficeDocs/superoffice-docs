@@ -17,9 +17,6 @@ This screen shows the properties of a Data Exchange agent.
 * **New agent task**: Click here to create a new agent task.
 * **Edit fields**: Click here to specify fields that will should read-only in SuperOffice Service.
 * **Agent**: This pane lists different properties for the agent.
-
-<!-- -->
-
 * **Name**: Name of the Data Exchange agent.
 * **Protocol**: Select the protocol used to communicate with the Data Exchange agent.
 * **Path/URL**: Path or network address used to communicate with the Data Exchange agent.

@@ -31,11 +31,11 @@ Personal profiles apply to a single user. You configure personal profiles by cli
 * [Global profiles][4]
 
 <!-- Referenced links -->
-[1]: ../../../request/listTicket.md
-[2]: ../../../search-options/in-service/customize-presentation.md
+[1]: ../../request/listTicket.md
+[2]: ../../search-options/in-service/customize-presentation.md
 [3]: listProfiles.commonProfiles.md
 [4]: listProfiles.globalProfiles.md
 
 <!-- Referenced images -->
-[img1]: ../../../../media/icons/service/btn-editelementprofile.png
-[img2]: ../../../../../common/icons/dropdown-arrow.png
+[img1]: ../../../media/icons/service/btn-editelementprofile.png
+[img2]: ../../../../common/icons/dropdown-arrow.png

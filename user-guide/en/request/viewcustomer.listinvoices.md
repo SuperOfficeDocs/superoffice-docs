@@ -31,7 +31,7 @@ To view invoice information that has been registered for a specific contact , do
 
 <!-- Referenced links -->
 [1]: newticket.md#invoice-information
-[2]: ../user/service/admin/listInvoiceTypes.md
+[2]: listInvoiceTypes.md
 
 <!-- Referenced images -->
 [img1]: ../../media/icons/btn-menu.png

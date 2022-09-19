@@ -14,6 +14,6 @@ language: en
 Here you can search in the debug logs. See [Search in SuperOffice Service][1].
 
 <!-- Referenced links -->
-[1]: ../../../search-options/in-service/index.md
+[1]: ../../search-options/in-service/index.md
 
 <!-- Referenced images -->

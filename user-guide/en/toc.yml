@@ -9,24 +9,28 @@ items:
     href: person/toc.yml
   - name: Diary
     href: diary/toc.yml
+  - name: Document
+    href: document/toc.yml
   - name: Sale
     href: sale/toc.yml
   - name: Project
     href: project/toc.yml
-  - name: Request
-    href: request/toc.yml
-  - name: AI
-    href: ai/toc.yml
-  - name: Automation
-    href: automation/toc.yml
-  - name: Chat
-    href: chat/toc.yml
-  - name: Dashboard
-    href: dashboard/toc.yml
+  - name: Search options
+    href: search-options/toc.yml
   - name: Email
     href: email/toc.yml
-  - name: Document
-    href: document/toc.yml
+  - name: Chat
+    href: chat/toc.yml
+  - name: Request
+    href: request/toc.yml
+  - name: Dashboard
+    href: dashboard/toc.yml
+  - name: Automation
+    href: automation/toc.yml
+  - name: Dashboard
+    href: dashboard/toc.yml
+  - name: Customer center
+    href: customer-center/toc.yml
   - name: ERP
     href: erp/toc.yml
   - name: Faq
@@ -35,28 +39,22 @@ items:
     href: marketing/toc.yml
   - name: Reports
     href: reports/toc.yml
+  - name: UI
+    href: ui/toc.yml
   - name: Import web
     href: import/toc.yml
   - name: Custom objects
     href: custom-objects/toc.yml
   - name: Settings
     href: settings/toc.yml
-  - name: Service admin
-    href: user/service/admin/toc.yml
   - name: Licenses
     href: license/toc.yml
-  - name: Search options
-    href: search-options/toc.yml
   - name: User management
     href: user-management/toc.yml
-  - name: UI
-    href: ui/toc.yml
-  - name: Customer center
-    href: customer-center/toc.yml
-  - name: win-client
-    href: win-client/toc.yml
   - name: Globalization
     href: globalization/toc.yml
+  - name: Windows client
+    href: win-client/toc.yml
   - name: License agreement
     href: License-agreement.md
   - name: Copyright information

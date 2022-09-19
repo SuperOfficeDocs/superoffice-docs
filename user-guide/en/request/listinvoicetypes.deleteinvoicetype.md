@@ -21,4 +21,4 @@ To delete an invoice type from SuperOffice Service, do as follows:
 <!-- Referenced links -->
 
 <!-- Referenced images -->
-[img1]: ../../../../media/icons/globalmenu-settings-small.png
+[img1]: ../../media/icons/globalmenu-settings-small.png

@@ -1,7 +1,7 @@
 ---
 uid: help-en-admin-listcustcenter-edit
-title: admin listCustCenter edit
-description: admin listCustCenter edit
+title: Customer centre source files
+description: Customer centre source files
 author: SuperOffice RnD
 so.date: 06.29.2022
 keywords: Service
@@ -11,7 +11,7 @@ language: en
 
 # Customer centre source files
 
-[!include[Requirement](../../../includes/req-cep.md)]
+[!include[Requirement](../includes/req-cep.md)]
 
 In the **Customer centre source files** screen, you can edit the default pages in your customer centre.
 
@@ -35,4 +35,4 @@ If you later want to revert a page to the original contents, open the page and c
 <!-- Referenced links -->
 
 <!-- Referenced images -->
-[img1]: ../../../../media/icons/globalmenu-settings-small.png
+[img1]: ../../media/icons/globalmenu-settings-small.png

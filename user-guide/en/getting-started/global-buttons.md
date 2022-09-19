@@ -36,7 +36,7 @@ The global buttons appear throughout the user interface. Some of them are in the
 
 <!-- Referenced links -->
 [1]: ../search-options/in-service/index.md
-[2]: ../user/service/admin/listProfiles.md
+[2]: ../ui/service-screens/listProfiles.md
 [3]: favourites.md
 
 <!-- Referenced images -->

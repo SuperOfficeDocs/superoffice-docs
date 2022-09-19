@@ -11,7 +11,7 @@ language: en
 
 # Profile
 
-[!include[Restricted access](../../../includes/note-insufficient-rights.md)]
+[!include[Restricted access](../../includes/note-insufficient-rights.md)]
 
 Profiles in the system are used for configuring the appearance and behaviour of screen elements.
 

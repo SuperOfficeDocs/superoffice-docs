@@ -1,7 +1,7 @@
 ---
-uid: help-en-admin
-title: admin
-description: admin
+uid: help-en-service-settings
+title: System settings
+description: System settings
 author: SuperOffice RnD
 so.date: 06.29.2022
 keywords: Service
@@ -35,21 +35,21 @@ In this section of SuperOffice Service, you can configure the system to tailor i
 > The [Invoice types][16] function is only available if you have the required feature toggle.
 
 <!-- Referenced links -->
-[1]: listProfiles.md
-[2]: ../../../user-management/role/index.md
-[3]: ../../../user-management/in-service/index.md
-[4]: ../../../request/category/index.md
-[5]: ../../../request/priority/index.md
-[6]: ../../../request/status/index.md
-[7]: ../../../email/service/index.md
-[8]: ../../../clients/admin/requests/system-templates.md
-[9]: ../../../settings/system/index.md
-[10]: listCustLangs.md
-[11]: listCustCenter.config.md
-[12]: listCustCenter.edit.md
-[13]: ../../../chat/admin/index.md
-[14]: soapConf.md
-[15]: ../../../clients/admin/system-design.md
-[16]: listInvoiceTypes.md
+[1]: ../../ui/service-screens/listprofiles.md
+[2]: ../../user-management/role/index.md
+[3]: ../../user-management/in-service/index.md
+[4]: ../../request/category/index.md
+[5]: ../../request/priority/index.md
+[6]: ../../request/status/index.md
+[7]: ../../email/service/index.md
+[8]: ../../clients/admin/requests/system-templates.md
+[9]: system.md
+[10]: ../../globalization/listcustlangs.md
+[11]: ../../customer-center/listcustcenter.config.md
+[12]: ../../customer-center/listcustcenter.edit.md
+[13]: ../../chat/admin/index.md
+[14]: ../../clients/service/soapconf.md
+[15]: ../../clients/admin/system-design.md
+[16]: ../../request/listinvoicetypes.md
 
 <!-- Referenced images -->

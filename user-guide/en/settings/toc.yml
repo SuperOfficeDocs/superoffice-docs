@@ -12,4 +12,4 @@ items:
 - name: Personal settings in Service
   href: personal-settings/toc.yml
 - name: System settings in Service
-  href: system/toc.yml
+  href: in-service/toc.yml

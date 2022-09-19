@@ -120,7 +120,7 @@ This tab contains any extra fields defined for requests. These will vary from co
 [4]: tags.md
 [5]: ../person/in-service/create.md
 [7]: reply-templates/newlangversion.md
-[8]: ../user/service/admin/listInvoiceTypes.md
+[8]: listInvoiceTypes.md
 [9]: showListTickets.md
 
 <!-- Referenced images -->

@@ -70,4 +70,4 @@ To create a new customer language:
 [2]: listCustLangs.selectlanguage.md
 
 <!-- Referenced images -->
-[img1]: ../../../../media/icons/globalmenu-settings-small.png
+[img1]: ../../media/icons/globalmenu-settings-small.png

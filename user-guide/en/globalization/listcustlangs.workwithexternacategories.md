@@ -47,4 +47,4 @@ To delete an external category from SuperOffice Service, do as follows:
 [1]: listCustLangs.editCustLang.md
 
 <!-- Referenced images -->
-[img1]: ../../../../media/icons/globalmenu-settings-small.png
+[img1]: ../../media/icons/globalmenu-settings-small.png

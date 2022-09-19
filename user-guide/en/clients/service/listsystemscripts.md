@@ -11,6 +11,6 @@ language: en
 
 # System scripts
 
-[!include[Requirement](../../../includes/req-expander-services.md)]
+[!include[Requirement](../../includes/req-expander-services.md)]
 
 This screen lists the system scripts which control key parts of the system.

@@ -31,5 +31,5 @@ To add an IP address range:
 <!-- Referenced links -->
 
 <!-- Referenced images -->
-[img1]: ../../../../../common/icons/delete-red.png
-[img2]: ../../../../media/icons/globalmenu-settings-small.png
+[img1]: ../../../../common/icons/delete-red.png
+[img2]: ../../../media/icons/globalmenu-settings-small.png

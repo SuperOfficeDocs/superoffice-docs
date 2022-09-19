@@ -1,7 +1,7 @@
 ---
 uid: help-en-admin-listcustlangs
-title: admin listCustLangs
-description: admin listCustLangs
+title: Customer languages
+description: Customer languages
 author: SuperOffice RnD
 so.date: 06.29.2022
 keywords: Service
@@ -11,7 +11,7 @@ language: en
 
 # Customer languages
 
-[!include[Requirement](../../../includes/req-cep.md)]
+[!include[Requirement](../includes/req-cep.md)]
 
 In the **Customer languages** screen is a list of the installed customer languages. From this screen you can configure the customer languages, making it easy to communicate with customers in different languages.
 

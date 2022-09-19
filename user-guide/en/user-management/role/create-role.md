@@ -99,7 +99,7 @@ To create a new role:
 [5]: ../adding-users.md
 
 [1]: ../../settings/personal-settings/user-info.md
-[2]: ../../user/service/admin/listProfiles.md
+[2]: ../../ui/service-screens/listProfiles.md
 [3]: ../../faq/workflow.md
 [4]: editing-role.md
 

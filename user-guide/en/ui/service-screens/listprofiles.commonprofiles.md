@@ -18,7 +18,7 @@ Common profiles are linked to a role and apply to all users who have that role (
 
 ## Create common profiles
 
-We explain how to create a common profile by using a specific example. In the example below, we assume that you want to add a field in the **Find requests** screen. [!include[To do this](../../../includes/to-do-this.md)]
+We explain how to create a common profile by using a specific example. In the example below, we assume that you want to add a field in the **Find requests** screen.
 
 1. Select ![icon][img1] **System settings &gt; Profile**. The **Show profiles** screen appears.
 2. Choose **System**. This displays a hierarchical list of all the profiles in the system.
@@ -59,12 +59,12 @@ To delete a profile from SuperOffice Service, do as follows:
 * [Global profiles][5]
 
 <!-- Referenced links -->
-[1]: ../../../clients/admin/listScreenDefinitions.editScreenDefinition.md
-[2]: ../../../user-management/role/index.md
-[3]: ../../../user-management/role/create-role.md
+[1]: ../../clients/admin/listScreenDefinitions.editScreenDefinition.md
+[2]: ../../user-management/role/index.md
+[3]: ../../user-management/role/create-role.md
 [4]: listProfiles.personalProfile.md
 [5]: listProfiles.globalProfiles.md
 
 <!-- Referenced images -->
-[img1]: ../../../../media/icons/btn-add.png
-[img2]: ../../../../media/icons/globalmenu-settings-small.png
+[img1]: ../../../media/icons/btn-add.png
+[img2]: ../../../media/icons/globalmenu-settings-small.png

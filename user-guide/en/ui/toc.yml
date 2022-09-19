@@ -7,3 +7,5 @@ items:
   href: web-panels/toc.yml
 - name: Screen designer
   href: screen-designer/toc.yml
+- name: Service screens
+  href: service-screens/toc.yml

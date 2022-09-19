@@ -132,3 +132,10 @@ items:
       href: mailboxes/add-email-address.md
     - name: editEabFolder
       href: mailboxes/manage-folders.md
+- name: Invoice types
+  href: listinvoicetypes.md
+  items:
+  - name: Create invoice types
+    href: listinvoicetypes.editinvoicetype.md
+  - name: Delete invoice types
+    href: listinvoicetypes.deleteinvoicetype.md

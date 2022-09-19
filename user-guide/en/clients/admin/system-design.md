@@ -32,20 +32,20 @@ Here you can find the advanced options in SuperOffice.
 * [Debug log][15]
 
 <!-- Referenced links -->
-[1]: ../../clients/admin/listExtraTables.md
+[1]: ../../clients/admin/listextratables.md
 [2]: ../../automation/index.md
-[3]: ../../automation/listScripts.md
-[4]: ../../automation/listEventHandler.md
-[5]: ../../automation/listScheduledTasks.md
-[6]: ../../automation/listDebugSessions.viewDebugSession.md
-[7]: ../../automation/Tracing.md
-[8]: ../../clients/admin/listScreenDefinitions.editScreenDefinition.md
-[9]: ../../clients/admin/listScreenChoosers.md
-[10]: ../../user/service/admin/listSystemScripts.md
+[3]: ../../automation/listscripts.md
+[4]: ../../automation/listeventhandler.md
+[5]: ../../automation/listscheduledtasks.md
+[6]: ../../automation/listdebugsessions.viewdebugsession.md
+[7]: ../../automation/tracing.md
+[8]: ../../clients/admin/listscreendefinitions.editscreendefinition.md
+[9]: ../../clients/admin/listscreenchoosers.md
+[10]: ../../clients/service/listsystemscripts.md
 [11]: ../../ui/extra-menus/index.md
 [12]: ../../ui/web-panels/index.md
-[13]: ../../user/service/admin/listPackages.md
-[14]: ../../user/service/admin/listDbiAgents.md
-[15]: ../../user/service/admin/listDebugLog.md
+[13]: ../../clients/service/listpackages.md
+[14]: ../../automation/data-exchange/index.md
+[15]: ../../clients/service/listdebuglog.md
 
 <!-- Referenced images -->
