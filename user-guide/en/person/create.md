@@ -51,13 +51,13 @@ To create a new contact:
 
 8. Go to the **www** tab. See details below.
 
-9. Click **Legal basis** at the bottom of the contact card. The **Privacy** dialog opens. Review and edit the consent information as necessary. See [Edit privacy settings for a contact][7]. Click **Close** when you are done.
+9. Click **Legal basis** at the bottom of the contact card. The **Privacy** dialog opens. [Review and edit the consent][7] information as necessary. Click **Close** when you are done.
 
 10. Check **Former employee** (at the bottom of the contact card) if this contact has stopped working for the company. A contact who is recorded as a former employee is not normally displayed in the lists of contacts or project members.
 
 11. When you have entered the necessary information, click the **Save** button. The contact information is then saved in the database and displayed in the contact card. If you have linked the contact to a company, the contact will be displayed in the **Contacts** tab in the **Company** screen.
 
-12. Go to the **Relations** section tab. Here you can add relations between this contact and another contact or company. See [Add relations][8].
+12. Go to the **Relations** section tab. Here you can [add relations][8] between this contact and another contact or company.
 
 ## <a id="more-tab" />The More tab (Contact screen)
 

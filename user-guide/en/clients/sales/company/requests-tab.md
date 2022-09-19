@@ -1,7 +1,7 @@
 ---
 uid: help-en-company-screen-requests
-title: requests
-description: requests
+title: Requests tab
+description: Requests tab
 author: SuperOffice RnD
 so.date: 06.29.2022
 keywords: company
@@ -9,7 +9,7 @@ so.topic: reference
 language: en
 ---
 
-# Requests
+# Requests tab
 
 The **Requests** section tab shows SuperOffice Service requests for the active company.
 

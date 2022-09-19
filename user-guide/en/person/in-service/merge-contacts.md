@@ -1,7 +1,7 @@
 ---
-uid: help-en-customers-viewcustomer-mergecontacts
-title: customers viewCustomer mergecontacts
-description: customers viewCustomer mergecontacts
+uid: help-en-contact-merge-service
+title: Merge contacts
+description: Merge contacts in Service
 author: SuperOffice RnD
 so.date: 06.29.2022
 keywords: Service

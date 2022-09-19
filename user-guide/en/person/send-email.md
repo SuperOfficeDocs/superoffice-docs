@@ -15,15 +15,16 @@ You can prepare an email from both the **Contact** screen and the **Company** sc
 
 ## Create email from Contact screen
 
-1. [!include[Go to Contact screen](includes/goto-contact.md)]
-2. Do one of the following:
+[!include[Go to Contact screen](../includes/goto-contact.md)]
+
+1. Do one of the following:
     * Click the email address in the **Contact** tab. If the contact has more than one email address, you must select which one to use.
     * Click **New** on the top bar and select **E-mail**.
     * Click the **Task** button ( ![icon][img1] ) and select **Send e-mail**.
 
     A message to the specified recipient is then opened in your default email program.
-3. Write the email.
-4. Go to (#send) below.
+1. Write the email.
+1. Go to (#send) below.
 
 ## Create email from Company screen
 

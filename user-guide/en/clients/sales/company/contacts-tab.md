@@ -1,7 +1,7 @@
 ---
 uid: help-en-company-screen-contacts
-title: Contacts
-description: Contacts
+title: Contacts tab
+description: Contacts tab
 author: SuperOffice RnD
 so.date: 06.29.2022
 keywords: company

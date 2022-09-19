@@ -9,11 +9,11 @@ so.topic: reference
 language: en
 ---
 
-# Sales
+# Sales tab
 
 ![Sales tab -screenshot][img1]
 
-The **Sales** section tab shows sales connected to the company.
+The **Sales** section tab shows [sales connected to the company][2].
 
 [!include[Contents of the Sales section tab](../includes/sales-tab.md)]
 
@@ -21,7 +21,7 @@ The **Sales** section tab shows sales connected to the company.
 
 Double-click a sale in the list to open the **Sale** screen in SuperOffice CRM which contains information about that sale.
 
-Click **Add** to create a new sale. For more details on how to manage sales, see [Sale][2].
+Click **Add** to create a new sale.
 
 Click the **Filter** button (![icon][img2]) to [filter the list][4] by date, users or groups.
 

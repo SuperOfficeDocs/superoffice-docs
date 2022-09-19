@@ -15,20 +15,18 @@ items:
   - name: Requests tab
     href: company/requests-tab.md
 - name: Contact screen
+  href: contact/index.md
   items:
-  - name: Section tabs in the Contact screen
-    href: contact/section-tabs-in-contact-screen.md
-    items:
-    - name: Activities
-      href: contact/contact-activities.md
-    - name: Sales
-      href: contact/contact-sales.md
-    - name: Requests
-      href: contact/contact-requests.md
-    - name: Projects
-      href: contact/contact-projects.md
-    - name: Relations
-      href: contact/contact-relations.md
+  - name: Activities
+    href: contact/activities-tab.md
+  - name: Sales
+    href: contact/sales-tab.md
+  - name: Requests
+    href: contact/requests-tab.md
+  - name: Projects
+    href: contact/projects-tab.md
+  - name: Relations
+    href: contact/relations-tab.md
 - name: Sale
   items:
   - name: Section tabs in the Sale screen

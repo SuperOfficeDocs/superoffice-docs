@@ -1,7 +1,7 @@
 ---
-uid: help-en-contact-sales
-title: Contact sales
-description: Contact sales
+uid: help-en-contact-screen-sales
+title: Sales tab
+description: Sales tab
 author: SuperOffice RnD
 so.date: 07.04.2022
 keywords: person, contact
@@ -9,7 +9,7 @@ so.topic: help
 language: en
 ---
 
-# Sales
+# Sales tab
 
 The **Sales** section tab shows sales connected to the contact.
 
@@ -21,9 +21,9 @@ Double-click a sale in the list to open the **Sale** screen in SuperOffice CRM w
 
 Click **Add** to create a new sale. For more details on how to manage sales, see [Sale][1].
 
-Click the **Filter** button ( ![icon][img1] ) to [filter the list][3] by date, users or groups.
+Click the **Filter** button (![icon][img1]) to [filter the list][3] by date, users or groups.
 
-If you check **Include stakeholders** at the bottom of the section tab, sales where the contact is involved as a stakeholder are also displayed. See [Stakeholders][2].
+If you check **Include stakeholders** at the bottom of the section tab, sales where the [contact is involved as a stakeholder][2] are also displayed.
 
 <!-- Referenced links -->
 [1]: ../../../sale/index.md

@@ -15,9 +15,11 @@ You can print information about a contact from both the **Contact** screen and t
 
 ## To print from the Contact screen
 
-1. [!include[Go to Contact screen](includes/goto-contact.md)]
-2. Click the **Task** button and select **Print**.
-3. In the window which displays the contents to be printed, click **Print**.
+[!include[Go to Contact screen](../includes/goto-contact.md)]
+
+1. Click the **Task** button and select **Print**.
+
+1. In the window which displays the contents to be printed, click **Print**.
 
 ## To print from the Company screen
 

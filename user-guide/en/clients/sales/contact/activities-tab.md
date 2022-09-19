@@ -1,7 +1,7 @@
 ---
-uid: help-en-contact-activities
-title: Contact activities
-description: Contact activities
+uid: help-en-contact-screen-activities
+title: Activities tab (Contact screen)
+description: Activities tab (Contact screen)
 author: SuperOffice RnD
 so.date: 07.04.2022
 keywords: person, contact
@@ -9,7 +9,7 @@ so.topic: help
 language: en
 ---
 
-# Activities (Contact screen)
+# Activities tab
 
 The **Activities** section tab in the **Contact** screen contains all the activities linked to the active contact (including appointments where the contact is a participant).
 
@@ -21,11 +21,11 @@ If the contact is associated with a company, these activities will also be avail
 
 ## Filter activities
 
-The activities displayed depend on which checkboxes you have selected at the bottom of the section tab. See [Use filters in the section tabs][1].
+The activities displayed depend on which [filters][1] (checkboxes) you have selected at the bottom of the section tab.
 
 ## Reply to or forward emails
 
-E-mail messages that are saved as documents for a specific contact are displayed on the **Activities** section tab for that contact. To reply to or forward an e-mail, right-click the e-mail and choose **Reply** or **Forward**.
+Email messages that are saved as documents for a specific contact are displayed on the **Activities** section tab for that contact. To reply to or forward an email, right-click the email and choose **Reply** or **Forward**.
 
 <!-- Referenced links -->
 [1]: ../../howto/use-filters-in-section-tabs.md

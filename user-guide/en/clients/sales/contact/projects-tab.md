@@ -1,7 +1,7 @@
 ---
-uid: help-en-contact-projects
-title: Contact projects
-description: Contact projects
+uid: help-en-contact-screen-projects
+title: Projects tab
+description: Projects tab
 author: SuperOffice RnD
 so.date: 07.04.2022
 keywords: person, contact
@@ -9,7 +9,7 @@ so.topic: help
 language: en
 ---
 
-# Projects
+# Projects tab
 
 The **Projects** section tab shows all the projects where the active contact is a project member.
 
@@ -21,11 +21,10 @@ Double-click a project in the list to open the **Project** screen in SuperOffice
 
 [!include[Conf. columns](../includes/tip-configure-columns.md)]
 
-For more details on how to manage projects, see [Project][2].
-
 ## Related topics
 
 * [Create projects][3]
+* [Manage project][2]
 
 <!-- Referenced links -->
 [2]: ../../../project/index.md

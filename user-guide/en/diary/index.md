@@ -80,7 +80,7 @@ Each type of activity will be dealt with in separate topics and chapters, as fol
 [11]: dialling-contacts.md
 [12]: ../chat/index.md
 [13]: ../clients/sales/company/activities-tab.md
-[14]: ../clients/sales/contact/contact-activities.md
+[14]: ../clients/sales/contact/activities-tab.md
 [15]: ../clients/sales/project/activities-project.md
 [16]: ../clients/sales/sale/activities-sale.md
 [17]: ../clients/howto/use-filters-in-section-tabs.md

@@ -1,7 +1,7 @@
 ---
-uid: help-en-customers-newcustomer
-title: customers newCustomer
-description: customers newCustomer
+uid: help-en-contact-create-service
+title: Create contacts
+description: Create contacts in Service
 author: SuperOffice RnD
 so.date: 06.29.2022
 keywords: Service
@@ -13,16 +13,16 @@ language: en
 
 Normally, contacts are registered by the system when they send in mails, but there may occasionally be a need to register a contact manually. This might be the case for instance if you are talking to a contact on the phone.
 
-1. Select **Customers** &gt; **New contact**. This takes you to the **Contact properties** screen.
+1. Select **Customers** > **New contact**. This takes you to the **Contact properties** screen.
 
 2. Enter the contact's first name and last name.
 
-3. In the **New e-mail address** field, enter the address itself to the left and a name to identify the e-mail address (for instance "work", "private" etc) in the field on the right.
+3. In the **New e-mail address** field, enter the address itself to the left and a name to identify the email address (for instance "work", "private" etc) in the field on the right.
 
-4. Click ![icon][img1] to add the e-mail address. You can add multiple addresses.
+4. Click ![icon][img1] to add the email address. You can add multiple addresses.
 
     > [!TIP]
-    > You can delete an e-mail address by clicking **Delete** ( ![icon][img2] ) on the right of the row.
+    > You can delete an e-mail address by clicking **Delete** (![icon][img2]) on the right of the row.
 
 5. Enter the phone number and/or mobile number.
 
@@ -47,7 +47,7 @@ Normally, contacts are registered by the system when they send in mails, but the
     Click ![icon][img3] to [create a new company][1].
 
     > [!TIP]
-    > You can also click **Automatic** to select a company automatically based on the domain in the e-mail address, i.e. what appears after "@". The domain must be registered on a company (see [Create companies][1]).
+    > You can also click **Automatic** to select a company automatically based on the domain in the email address, i.e. what appears after "@". The domain must be registered on a company.
 
 14. Check **Company access** if the contact is to have access to all requests registered for all contacts of the company in question, for example via a customer centre.
 

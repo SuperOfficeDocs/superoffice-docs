@@ -1,5 +1,5 @@
 ---
-uid: help-en-move-contact
+uid: help-en-contact-move
 title: Move contact
 description: Move contact
 author: SuperOffice RnD
@@ -18,7 +18,7 @@ You can move a contact from one company to another. If a contact has been set up
 Proceed as follows to move a contact to another company:
 
 1. In the **Company** screen: Go to the **Contacts** section tab, right-click the contact you want to move, select **Manage contacts** and **Move contact**.
-    In the **Contact** screen: Go to the required contact, click the **Task** button ( ![icon][img2] ) in the contact card, and select **Manage contacts** and **Move contact**.
+    In the **Contact** screen: Go to the required contact, click the **Task** button (![icon][img2]) in the contact card, and select **Manage contacts** and **Move contact**.
     This opens the **Move contact** dialog.
 
 1. Under **Action on contact**, select one of the following options:

@@ -1,5 +1,5 @@
 ---
-uid: help-en-merge-contacts
+uid: help-en-contact-merge
 title: Merge contacts
 description: Merge contacts
 author: SuperOffice RnD

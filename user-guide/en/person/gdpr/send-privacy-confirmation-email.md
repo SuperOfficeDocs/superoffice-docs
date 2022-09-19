@@ -13,7 +13,7 @@ language: en
 
 From the **Contact** screen you can resend the privacy confirmation email to a contact. The privacy confirmation email is normally sent automatically to a contact when they are registered in SuperOffice. With this function you can send the confirmation email to existing contacts that have never received the confirmation email.
 
-## What does this e-mail contain?
+## What does this email contain?
 
 The privacy confirmation email will normally inform the contact of the following:
 
@@ -29,14 +29,17 @@ The email can also contain a link to a customer centre where the contact can man
 
 To send the privacy confirmation email to a contact:
 
-1. [!include[Go to Contact screen](../includes/goto-contact.md)]
-2. Click **Task** ( ![icon][img1] ) &gt; **Send privacy confirmation email**.
-3. In the dialog that opens, fill in the following fields:
+[!include[Go to Contact screen](../../includes/goto-contact.md)]
+
+1. Click **Task** (![icon][img1]) &gt; **Send privacy confirmation email**.
+
+1. In the dialog that opens, fill in the following fields:
     * **Send to**: Use the default email address or select another address.
     * **Use template**: Select an email template.
     * **Language**: Use the default language or select one of the available languages.
     * **Subject**: If relevant, edit the default subject of the email.
-4. Click **Send**.
+
+1. Click **Send**.
 
 The confirmation email is sent to the contact. The email is archived in the **Activities** section tab.
 

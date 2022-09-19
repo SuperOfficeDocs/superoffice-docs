@@ -17,6 +17,6 @@ so.lang: en
 
 <!-- Referenced links -->
 [1]: company/index.md
-[2]: contact/section-tabs-in-contact-screen.md
+[2]: contact/index.md
 
 <!-- Referenced images -->

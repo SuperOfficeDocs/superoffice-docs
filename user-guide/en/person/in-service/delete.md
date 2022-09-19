@@ -1,7 +1,7 @@
 ---
-uid: help-en-customers-viewcustomer-deletecustomer
-title: customers viewCustomer deleteCustomer
-description: customers viewCustomer deleteCustomer
+uid: help-en-contact-delete-service
+title: Delete contacts
+description: Delete contacts in Service
 author: SuperOffice RnD
 so.date: 06.29.2022
 keywords: Service

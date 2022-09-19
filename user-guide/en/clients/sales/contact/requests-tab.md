@@ -1,7 +1,7 @@
 ---
-uid: help-en-contact-requests
-title: Contact requests
-description: Contact requests
+uid: help-en-contact-screen-requests
+title: Requests tab
+description: Requests tab
 author: SuperOffice RnD
 so.date: 07.04.2022
 keywords: person, contact
@@ -9,7 +9,7 @@ so.topic: help
 language: en
 ---
 
-# Requests
+# Requests tab
 
 The **Requests** section tab shows SuperOffice Service requests for the active contact.
 

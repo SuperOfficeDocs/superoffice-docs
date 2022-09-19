@@ -1,7 +1,7 @@
 ---
-uid: help-en-customers-findcustomers
-title: customers findCustomers
-description: customers findCustomers
+uid: help-en-contact-search-service
+title: Find contacts
+description: Find contacts in Service
 author: SuperOffice RnD
 so.date: 06.29.2022
 keywords: Service
