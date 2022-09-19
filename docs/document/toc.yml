@@ -22,7 +22,7 @@ items:
           href: cloud/sharepoint-documents/configure-permissions-with-aad-groups.md
         - name: Permissions for templates
           href: cloud/sharepoint-documents/permissions-templates.md          
-      - name: Set up SuperOffice to use SharePoint
+      - name: Set up SuperOffice
         href: cloud/sharepoint-documents/configure-templates.md
       - name: Permissions for SuperOffice document library app
         href: cloud/sharepoint-documents/permissions-app.md               
