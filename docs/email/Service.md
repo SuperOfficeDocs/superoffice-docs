@@ -269,4 +269,4 @@ For a customer who have 2 duplicate onsite-env. and already have OAuth 2.0 regis
 [img2]: media/e-mail.jpg
 [img3]: media/outboxitem.jpg
 [img4]: media/outboundlog.jpg
-[img5]: https://online2.superoffice.com/Cust1990/CS/scripts/customer.fcgi/getAttachment/5125281-FkmmPer6nnHNBhCBFXyCErRFzlAKkqtDN0lJXwXruPRHwrOrn6F4pL0iF3CsznxA-0/image.png
+[img5]: media/setup_microsoft.png
