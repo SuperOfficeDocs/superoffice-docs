@@ -25,6 +25,6 @@ In the **Diary** screen, you can change the end time for a follow-up without hav
 
 <!-- Referenced links -->
 [1]: opening-follow-ups-via-diary.md
-[2]: dialog-for-followups.md
+[2]: ../clients/sales/diary/dialog-for-followups.md
 
 <!-- Referenced images -->

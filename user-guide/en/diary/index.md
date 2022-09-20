@@ -24,7 +24,7 @@ The **Activities** section tab is available in the **Company** screen, the **Con
 | Diary screen | Displays all your uncompleted activities. | [Activities section tab (Diary)][6] |
 
 > [!NOTE]
-> Activities are also displayed in the different views in the **Diary** screen. See [Tabs in the Diary screen][7].
+> Activities are also displayed in the [different views][7] in the **Diary** screen.
 
 There are two types of activities – documents and follow-ups. Follow-ups is a collective term for appointments, phone calls and tasks. In addition, mailings, form submissions and chat records are displayed in the **Activities** section tab.
 
@@ -72,8 +72,8 @@ Each type of activity will be dealt with in separate topics and chapters, as fol
 [3]: phone-call.md
 [4]: ../document/index.md
 [5]: compose-email-web.md
-[6]: activities-list.md
-[7]: tabs-in-diary-screen.md
+[6]: ../clients/sales/diary/activities-tab.md
+[7]: ../clients/sales/diary/index.md
 [8]: add-activities.md
 [9]: deleting-activities.md
 [10]: marking-activities-as-completed-not-completed.md

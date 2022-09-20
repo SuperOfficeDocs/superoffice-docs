@@ -1,5 +1,5 @@
 ---
-uid: help-en-navigate-in-diary
+uid: help-en-diary-screen-navigate
 title: Navigate in diary
 description: Navigate in diary
 author: SuperOffice RnD
@@ -24,16 +24,14 @@ To move between the different days, weeks or months in the **Diary** screen:
 
 ## Switch views
 
-The diary consists of four different tabs: **Day** tab, **Week** tab, **Month** tab and **View** tab. Switching between these views is easy: simply click the tabs at the top of the **Diary** screen. The relevant day, week or month is displayed at the top of the page, depending on which tab you select.
+The diary consists of [four different tabs][1]: **Day** tab, **Week** tab, **Month** tab and **View** tab. Switching between these views is easy: simply click the tabs at the top of the **Diary** screen. The relevant day, week or month is displayed at the top of the page, depending on which tab you select.
 
 > [!TIP]
 > Click **Diary** in the navigator and click a month, week number or a day in the calendar to move directly to one of the tabs above.
 
-For more details about the different views, see [Tabs in the Diary screen][1].
-
 <!-- Referenced links -->
-[1]: tabs-in-diary-screen.md
+[1]: index.md
 
 <!-- Referenced images -->
-[img1]: ../../media/icons/pil-hoeyre.bmp
-[img2]: ../../media/icons/pil-venstre.bmp
+[img1]: ../../../../media/icons/pil-hoeyre.bmp
+[img2]: ../../../../media/icons/pil-venstre.bmp

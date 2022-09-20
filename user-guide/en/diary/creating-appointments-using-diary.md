@@ -27,8 +27,8 @@ When you are in the diary, there are several ways to create follow-ups.
 * [The Dialog for follow-ups][2]
 
 <!-- Referenced links -->
-[1]: view-tab.md
-[2]: dialog-for-followups.md
+[1]: ../clients/sales/diary/view.md
+[2]: ../clients/sales/diary/dialog-for-followups.md
 
 <!-- Referenced images -->
 [img1]: ../../media/icons/globalmenu-personalsettings-small.png

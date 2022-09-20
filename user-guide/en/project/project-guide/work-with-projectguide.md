@@ -61,7 +61,7 @@ You can move the project to the next status in two ways:
 
 <!-- Referenced links -->
 [1]: ../../clients/sales/document/document-dialog.md
-[2]: ../../diary/dialog-for-followups.md
+[2]: ../../clients/sales/diary/dialog-for-followups.md
 [3]: example-projectguide.md
 
 <!-- Referenced images -->

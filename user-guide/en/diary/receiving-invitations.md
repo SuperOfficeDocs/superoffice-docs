@@ -20,7 +20,7 @@ Participants who are invited to a follow-up will receive a notification on the T
 The dialog is divided into two:
 
 * At the top is a list of your invitations, with status and icons.
-* Below is more detailed information about the invitations you have selected in the top section. This includes a full description of the invitation, the date and other complementary details. The fields in this section are described in detail under [The Dialog for follow-ups][1] and [The Details tab (follow-ups)][2].
+* Below is more detailed information about the invitations you have selected in the top section. This includes a full description of the invitation, the date and other complementary details. The fields in this section are described in detail under [The Dialog for follow-ups][1].
 
 ## Icons for follow-ups
 
@@ -81,8 +81,7 @@ Note:
 * If you receive an invitation for a time when you are already occupied, an exclamation mark ( ![icon][img6] ) is displayed in the description of the follow-up in the **Invitations** dialog. This draws your attention to the fact that the invitation causes a conflict.
 
 <!-- Referenced links -->
-[1]: dialog-for-followups.md
-[2]: details-tab-follow-ups.md
+[1]: ../clients/sales/diary/dialog-for-followups.md
 [3]: creating-recurring-follow-ups.md
 [4]: receive-response.md
 

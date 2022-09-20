@@ -19,7 +19,7 @@ In addition to the **Sale** screen, sales can be displayed in the following plac
 
 * On the **Sales** section tab in the **Company** screen.
 * On the **Sales** section tab in the **Contact** screen.
-* On the **Sales** section tab in the **Diary** screen. See [The Sales secretary][2].
+* On the **Sales** section tab in the **Diary** screen.
 * On the **Sales** section tab in the **Project** screen.
 
 > [!TIP]
@@ -45,7 +45,6 @@ To move backwards and forwards between sales click the previous/next buttons ( !
 
 <!-- Referenced links -->
 [1]: quote/create.md
-[2]: ../diary/sales-secretary.md
 [3]: sales-guide/index.md
 [4]: create.md
 [5]: stakeholders/create-stakeholders.md

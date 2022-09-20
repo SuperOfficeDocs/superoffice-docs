@@ -15,7 +15,7 @@ You can move a follow-up from the activities list to the Diary. This can be usef
 
 1. Select the required tab in the **Diary** screen (**Day**, **Week**, **Month** or **View**).
 2. Grab the follow-up in the activities list by clicking down on it with the mouse button.
-3. Drag the follow-up to the required time and/or day in the Diary and release the mouse button. The follow-up is entered in the Diary. It is removed from the activities list if the criteria for inclusion in the activities list are no longer fulfilled (see [Activities section tab][1]).
+3. Drag the follow-up to the required time and/or day in the Diary and release the mouse button. The follow-up is entered in the Diary. It is removed from the [activities list][1] if the criteria for inclusion in the activities list are no longer fulfilled.
 
 > [!TIP]
 > Select the **Week** or **Month** view in the side panel, go to the required week or month in the Diary and then drag the follow-up from the Diary to the required day in the side panel. The diary automatically updates with the required week or month.
@@ -26,6 +26,6 @@ If you have entered a follow-up in the Diary but are not yet sure of the time or
 > You can also use drag and drop to move an appointment that is already in the Diary to a different time or day.
 
 <!-- Referenced links -->
-[1]: activities-list.md
+[1]: ../clients/sales/diary/activities-tab.md
 
 <!-- Referenced images -->

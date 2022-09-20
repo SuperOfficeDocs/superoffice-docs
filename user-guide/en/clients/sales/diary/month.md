@@ -1,5 +1,5 @@
 ---
-uid: help-en-month-tab
+uid: help-en-diary-screen-month
 title: Month tab
 description: Month tab
 author: SuperOffice RnD
@@ -16,7 +16,7 @@ The **Month** tab displays one month at a time. It does not display the time, bu
 > [!TIP]
 > If you hold the mouse pointer over a follow-up, a tooltip containing information about the follow-up is displayed.
 
-![The Month tab -screenshot][img1]
+![Diary screen, the Month tab -screenshot][img1]
 
 To open the **Day** tab for a particular day, click the header/date.
 

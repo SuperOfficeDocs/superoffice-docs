@@ -27,6 +27,31 @@ items:
     href: contact/projects-tab.md
   - name: Relations
     href: contact/relations-tab.md
+- name: Diary
+  href: diary/index.md
+  items:
+  - name: Calendar views
+    items:
+    - name: Day
+      href: diary/day.md
+    - name: Month
+      href: diary/month.md
+    - name: Week
+      href: diary/week.md
+    - name: View
+      href: diary/view.md
+    - name: Navigate in the Diary screen
+      href: diary/navigate-in-diary.md
+  - name: Section tabs
+    items:
+    - name: Activities
+      href: diary/activities-tab.md
+    - name: Sales
+      href: diary/sales-tab.md
+  - name: Dialog for followups
+    href: diary/dialog-for-followups.md
+  - name: The New group view dialog
+    href: diary/view-dialog.md
 - name: Document
   items:
   - name: Document dialog

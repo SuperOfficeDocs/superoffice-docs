@@ -11,7 +11,7 @@ language: en
 
 # Edit repeating follow-ups
 
-You can make changes to all repeating follow-ups of which you are the owner (for more details, see [The Details tab][1]). Changes work in the same way as described under [Edit follow-ups][2], but when you make a change, the **Repeating follow-ups** dialog appears, giving a brief description of the follow-up.
+You can make changes to all repeating follow-ups of which you are the owner. Changes work in the same way as described under [Edit follow-ups][2], but when you make a change, the **Repeating follow-ups** dialog appears, giving a brief description of the follow-up.
 
 In the **Repeating follow-ups** dialog, you have two options:
 
@@ -25,7 +25,6 @@ In the **Repeating follow-ups** dialog, you have two options:
 * [Stop repeating follow-ups][5]
 
 <!-- Referenced links -->
-[1]: details-tab-follow-ups.md
 [2]: editing-follow-ups.md
 [3]: creating-recurring-follow-ups.md
 [4]: receiving-invitations.md

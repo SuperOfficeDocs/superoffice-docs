@@ -50,10 +50,10 @@ For more information about the fields in this dialog, see [The New group view di
 * [Create appointments for associates][4]
 
 <!-- Referenced links -->
-[1]: View-dialog.md
-[2]: Viewing-views-for-entire-user-group.md
-[3]: Using-group-view.md
-[4]: Creating-appointments-for-associates.md
+[1]: ../clients/sales/diary/view-dialog.md
+[2]: viewing-views-for-entire-user-group.md
+[3]: using-group-view.md
+[4]: creating-appointments-for-associates.md
 
 <!-- Referenced images -->
 [img2]: ../../media/icons/pil-hoeyre.bmp
