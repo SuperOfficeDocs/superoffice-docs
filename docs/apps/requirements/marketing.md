@@ -14,6 +14,16 @@ so.client: online
 Naming your application is important because it helps customers understand what your application does.
 For customers to find your application, to understand what it does and why they should download it, you need to provide good descriptions and images.
 
+## Available downloads
+
+This download contains the SuperOffice brand guide and reusable logos.
+
+The contents are trademarked, they are our signature logo, and therefore must not be modified. 
+
+Do not try to recreate version our trademarked logo. Custom attempts to recreate it will not be be certifiable.
+
+**[Branding guide and logos](../../assets/downloads/apps/superoffice-brand-guide-and-logos.zip)**
+
 ## Requirements
 
 ### Application name
