@@ -1,0 +1,167 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Editing search criteria in reports | SuperOffice Help Files </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Editing search criteria in reports | SuperOffice Help Files ">
+    <meta name="generator" content="docfx 2.56.7.0">
+    
+    <link rel="shortcut icon" href="../../../assets/images/favicon.ico">
+    <link rel="stylesheet" href="../../../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../../../styles/docfx.css">
+    <link rel="stylesheet" href="../../../styles/main.css">
+    <meta property="docfx:navrel" content="">
+    <meta property="docfx:tocrel" content="../../toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../../../index.html">
+                <img id="logo" class="svg" src="../../../assets/images/logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="help-en-editing-search-criteria-in-reports">
+<h1 id="edit-search-criteria-in-reports">Edit search criteria in reports</h1>
+
+<p>You can edit search criteria in favourite reports. Standard reports cannot actually be edited, but you can customise the search criteria in them and save them as your own <a href="labels/add-format.html">favourite reports</a>).</p>
+<p>To edit search criteria in reports:</p>
+<ol>
+<li><!-- markdownlint-disable-file MD041 -->
+<p>Click the <strong>Reports</strong> button in the Navigator to open the <strong>Reports</strong> screen.</p>
+</li>
+<li><p>Select a tab. The reports are displayed in the report list.</p>
+<div class="NOTE">
+<h5>Note</h5>
+<p>It is not recommended that you run reports without specifying search criteria, as this may generate extremely large reports and result in time-consuming processing.</p>
+</div>
+</li>
+<li><p>Select the required report from the list.</p>
+</li>
+<li><p>In the criteria list, double-click the criterion you want to edit.</p>
+</li>
+<li><p>The <strong>Add/edit search criteria</strong> dialog appears.</p>
+</li>
+<li><p>Edit the required information as described under <a href="../search-options/using-search-criteria.html">Use search criteria</a>.</p>
+<div class="NOTE">
+<h5>Note</h5>
+<p>The criteria you can choose from vary according to the tab and report you have selected.</p>
+</div>
+</li>
+<li><p>Click <strong>OK</strong> at the bottom of the <strong>Add/edit search criteria</strong> dialog when you have finished.</p>
+</li>
+</ol>
+<h2 id="example">Example</h2>
+<p>We are now going to see how you adjust the criteria in a sales report:</p>
+<ol>
+<li>Click the <strong>Sale</strong> tab. In the report list, a list of standard reports for the tab you have chosen is displayed.</li>
+<li>Select the <strong>Sale report – Actual sales</strong> standard report. The text field displays a description of the report, and the criteria list below that shows the criteria for the standard report you have selected.</li>
+</ol>
+<p>Now we are going to amend slightly the standard report criteria, so that you can see how to change them to match your needs. We are going to change the standard report so that it shows all actual sales from the previous month which do <em>not</em> have the status <strong>Open</strong>.</p>
+<ol>
+<li><p>Double-click the <strong>Sale: Date</strong> criterion in the criteria list. The <strong>Add/edit search criteria</strong> dialog appears.</p>
+<p><img src="media/edit-criteria.bmp" alt="Add/edit search criteria -screenshot"></p>
+</li>
+<li><p>Click the arrow next to the <strong>This month</strong> field, change the period to <strong>Last month</strong> and click <strong>OK</strong>. Your report will now only contain sales from the previous month.</p>
+</li>
+<li><p>Select the <strong>Sale: Owner</strong> criterion in the criteria list and click the <strong>Delete</strong> button at the bottom. Your report will now include all sales, and not just sales where the user in question (i.e. you) is recorded as the owner.</p>
+</li>
+<li><p>Double-click the <strong>Sale: Status</strong> criterion in the criteria list. The <strong>Add/edit search criteria</strong> dialog appears. Now we are going to change the <strong>Sale: Status</strong> criterion so that the report only contains sales which do <em>not</em> have the status <strong>Open</strong>.</p>
+<p><img src="media/edit-criteria-2.bmp" alt="Add/edit search criteria -screenshot"></p>
+</li>
+<li><p>Click the arrow next to the <strong>Is one of</strong> field and change the value to <strong>Is not one of</strong>.</p>
+</li>
+<li><p>Select the <strong>Sold</strong> criterion in the <strong>Selected values</strong> column and click the left-pointing arrow (<img src="../../media/icons/pil-venstre.bmp" alt="icon">) between the columns. The criterion is moved over to the left-hand column.</p>
+</li>
+<li><p>Select the <strong>Open</strong> criterion in the left-hand column and click the right-pointing arrow (<img src="../../media/icons/pil-hoeyre.bmp" alt="icon">) between the columns. The criterion is moved over to the <strong>Selected values</strong> column. The report will now contain sales which do <em>not</em> have the status <strong>Open</strong>.</p>
+</li>
+<li><p>Click <strong>OK</strong>.</p>
+</li>
+</ol>
+<!-- Referenced links -->
+<!-- Referenced images -->
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/SuperOfficeDocs/superoffice-docs/blob/351-migrate-en-user-and-admin-help/user-guide/en/reports/editing-search-criteria-in-reports.md/#L1" class="contribution-link">Improve this Doc</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            © SuperOffice. All rights reserved.
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../../../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../../../styles/docfx.js"></script>
+    <script type="text/javascript" src="../../../styles/main.js"></script>
+  </body>
+</html>

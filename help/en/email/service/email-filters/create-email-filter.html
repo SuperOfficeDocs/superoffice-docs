@@ -1,0 +1,188 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Create email filters | SuperOffice Help Files </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Create email filters | SuperOffice Help Files ">
+    <meta name="generator" content="docfx 2.56.7.0">
+    
+    <link rel="shortcut icon" href="../../../../../assets/images/favicon.ico">
+    <link rel="stylesheet" href="../../../../../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../../../../../styles/docfx.css">
+    <link rel="stylesheet" href="../../../../../styles/main.css">
+    <meta property="docfx:navrel" content="">
+    <meta property="docfx:tocrel" content="../../../../toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../../../../../index.html">
+                <img id="logo" class="svg" src="../../../../../assets/images/logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="help-en-email-filter-create">
+<h1 id="create-email-filters">Create email filters</h1>
+
+<p>To create a new email filter:</p>
+<!-- markdownlint-disable-file MD041 -->
+<ol>
+<li><p>Go to the <strong>E-mail</strong> tab:</p>
+<ul>
+<li><p>From Settings and Maintenance: Click the <strong>Requests</strong> button in the navigator and select the <strong>E-mail</strong> tab.</p>
+</li>
+<li><p>From Service: Select <img src="../../../../media/icons/globalmenu-settings-small.png" alt="icon"> <strong>System settings</strong> &gt; <strong>E-mail</strong>.</p>
+</li>
+</ul>
+</li>
+</ol>
+
+<ol>
+<li><p>Select the <strong>E-mail filters</strong> tab.</p>
+</li>
+<li><p>Click <strong>New e-mail filter</strong>. The <strong>Properties for e-mail filter</strong> screen appears.</p>
+</li>
+<li><p>In the <strong>Filter</strong> tab, you can specify which e-mails are to be filtered, by entering the following information:</p>
+<ul>
+<li><strong>Description</strong>: Enter a brief description of the e-mail filter.</li>
+<li><strong>Priority</strong>: In this list box, you select the filter's priority. A value of 10 is the highest priority and 1 the lowest.</li>
+<li><strong>Script</strong>: Here you can select a script or macro to be run by this filter. See <a href="../../../automation/index.html">Macros and scripts</a>.</li>
+</ul>
+</li>
+<li><p>Select whether to apply this filter for all incoming e-mail or only e-mails matching specific criteria:</p>
+<ul>
+<li><strong>All incoming e-mail</strong>: If you select this option, the e-mail filter is used for all incoming e-mails.</li>
+<li><strong>E-mail which contains</strong>: If you select this option, e-mails containing the fixed expression (regexp) specified in the fields to the right will trigger the e-mail filter. In the list box on the far right, you can choose between the e-mail header and/or e-mail body.</li>
+</ul>
+</li>
+<li><p>In the <strong>Find regular expressions</strong> tab, you can define regular expressions that find text in e-mails, and save them as variables. To assign the value from a regular expression to a variable named myVariable, use the following format: myVariable = &lt;regexp&gt;.</p>
+</li>
+<li><p>In the <strong>Set links</strong> tab, you can specify how incoming e-mail is linked to a request and/or a contact on the basis of the e-mail content:</p>
+<ul>
+<li><strong>Link to contact where</strong>: Here you can link the generated request to a contact based on information from the e-mail. You define these by selecting one of the contact fields in the left-hand list box, and then entering a regular expression that returns the value that identifies the contact.</li>
+<li><strong>Link to request where</strong>: Here you can link the e-mail to an existing request based on a regular expression that extracts data from the e-mail.</li>
+</ul>
+</li>
+<li><p>In the <strong>Set values</strong> tab, you can add or replace values for contacts, companies and requests, based on the content of the email:</p>
+<ol>
+<li><p>In the list box on the left, select the required field for the contact, company or request.</p>
+</li>
+<li><p>In the field on the right, enter one of the following:</p>
+<ul>
+<li>the regular expression that finds the value to be specified</li>
+<li>a fixed value (must be prefixed with =)</li>
+</ul>
+</li>
+<li><p>If you check <strong>Replace</strong>, the value that is found replaces an existing value.</p>
+</li>
+<li><p>Click <strong>Add</strong> to add the value.</p>
+<div class="TIP">
+<h5>Tip</h5>
+<p>You can delete a value again by selecting it and clicking the delete icon ( <img src="../../../../media/icons/admin/btn-delete-admin.png" alt="icon"> ).</p>
+</div>
+</li>
+</ol>
+</li>
+<li><p>In the <strong>Set properties</strong> tab, you can set specific properties for requests that are generated from e-mails that match the current filter:</p>
+</li>
+<li><p>In the <strong>E-mail response</strong> tab, you can create different e-mails to be sent when the filter is triggered. Here you can enter the following information:</p>
+<ul>
+<li><strong>Send reply template</strong>: Here you can select which <a href="../../../request/reply-templates/index.html">reply template</a> should be sent if the filter is triggered.</li>
+<li><strong>... to contact</strong>: If you check here, the selected reply template is sent back to the contact.</li>
+<li><strong>... to</strong>: If you check here, the selected reply template is sent to the e-mail address specified in the field on the right.</li>
+<li><strong>Suggest FAQ entries from</strong>: If you check here, the system will suggest FAQ entries based on the text in incoming e-mails. The suggested entries are available as template variables and can therefore be reused in the selected reply template (see <a href="../../../request/reply-templates/autofaq.html">Create reply template with automatic FAQ reply</a>). You can also specify which branch of the FAQ tree to search in, by specifying the folder you want.</li>
+<li><strong>Block auto-reply</strong>: If you check here, the system will not reply automatically to this e-mail.</li>
+</ul>
+</li>
+<li><p>In the <strong>E-mail boxes</strong> tab, you can select which mailboxes the filter applies to.</p>
+</li>
+<li><p>Click <strong>OK</strong>. The e-mail filter is created.</p>
+</li>
+</ol>
+<!-- Referenced links -->
+<!-- Referenced images -->
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/SuperOfficeDocs/superoffice-docs/blob/351-migrate-en-user-and-admin-help/user-guide/en/email/service/email-filters/create-email-filter.md/#L1" class="contribution-link">Improve this Doc</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            © SuperOffice. All rights reserved.
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../../../../../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../../../../../styles/docfx.js"></script>
+    <script type="text/javascript" src="../../../../../styles/main.js"></script>
+  </body>
+</html>

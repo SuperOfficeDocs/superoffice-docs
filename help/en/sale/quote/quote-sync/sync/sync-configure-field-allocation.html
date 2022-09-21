@@ -1,0 +1,206 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>sync configure field allocation | SuperOffice Help Files </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="sync configure field allocation | SuperOffice Help Files ">
+    <meta name="generator" content="docfx 2.56.7.0">
+    
+    <link rel="shortcut icon" href="../../../../../../assets/images/favicon.ico">
+    <link rel="stylesheet" href="../../../../../../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../../../../../../styles/docfx.css">
+    <link rel="stylesheet" href="../../../../../../styles/main.css">
+    <meta property="docfx:navrel" content="">
+    <meta property="docfx:tocrel" content="../../../../../toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../../../../../../index.html">
+                <img id="logo" class="svg" src="../../../../../../assets/images/logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="help-en-sync-configure-field-allocation">
+<h1 id="configure-field-mapping">Configure field mapping</h1>
+
+<p>When synchronising data between SuperOffice and ERP systems, you have to specify which SuperOffice field and which ERP field belong together.</p>
+<div class="NOTE">
+<h5>Note</h5>
+<p>When editing an ERP connection, you first need to deactivate it.</p>
+</div>
+<!-- markdownlint-disable-file MD041 -->
+<ol>
+<li><p>Go to the <strong>Sync</strong> tab in the <strong>Quote/Sync</strong> screen. The <strong>ERP connections</strong> list shows existing ERP connections.</p>
+</li>
+<li><p>Uncheck the <strong>Active</strong> box for the ERP connection you want to edit.</p>
+</li>
+</ol>
+
+<ol>
+<li><p>Select the ERP connection, and click the <strong>Mappings</strong> button at the bottom. The <strong>Mappings</strong> dialog displays the tabs for the available actors in the ERP system.</p>
+</li>
+<li><p>Select the tab for the actor for which you want to configure allocations.</p>
+</li>
+<li><p>Check <strong>Sync ERP [actor] to SuperOffice [entity]</strong>.</p>
+</li>
+<li><p>In the list below, select the synchronisation direction and which SuperOffice field each ERP field should be allocated to (synchronised with). You can also choose whether the fields should be displayed in searched and the <strong>ERP</strong> tab.
+The list consists of the following columns:</p>
+<ul>
+<li><p><strong>Show in Search</strong>: Check here if this field is to be displayed in search results.</p>
+</li>
+<li><p><strong>ERP Field</strong>: Shows the name of the field in the ERP system.</p>
+</li>
+<li><p><strong>Direction</strong>: Here you select the  direction(s) for the synchronisation.</p>
+  <details><summary>What does the icons mean?</summary>
+<table>
+<thead>
+<tr>
+<th>Icon</th>
+<th>Explanation</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><img src="../../../../../media/icons/admin/sync-direction-none.bmp" alt="icon"></td>
+<td>No synchronisation (SuperOffice field is selected). If the field is mandatory, you MUST choose a direction.</td>
+</tr>
+<tr>
+<td><img src="../../../../../media/icons/admin/sync-direction-2way.bmp" alt="icon"></td>
+<td>Sync both ways.</td>
+</tr>
+<tr>
+<td><img src="../../../../../media/icons/admin/sync-direction-toerp.bmp" alt="icon"></td>
+<td>Sync from SuperOffice to the ERP system.</td>
+</tr>
+<tr>
+<td><img src="../../../../../media/icons/admin/sync-direction-toso.bmp" alt="icon"></td>
+<td>Sync from the ERP system to SuperOffice.</td>
+</tr>
+<tr>
+<td><img src="../../../../../media/icons/admin/sync-direction-deactivated.bmp" alt="icon"></td>
+<td>No synchronisation (SuperOffice field is NOT selected), or the field cannot be synchronised (customer name etc.). This can also be due to read-only fields. Mouse-over the icon to view details.</td>
+</tr>
+</tbody>
+</table>
+<div class="NOTE">
+<h5>Note</h5>
+<p>The arrows are disabled until you have selected a SuperOffice field.</p>
+</div>
+  </details>
+</li>
+<li><p><strong>SuperOffice Field</strong>: here you choose which SuperOffice field you want to synchronise. Some fields (such as customer and contact IDs) cannot be synchronised and the list will then be empty.</p>
+</li>
+<li><p><strong>Show In ERP Tab</strong>: check here if you want this field to be displayed in the <strong>ERP</strong> tab in SuperOffice CRM.</p>
+<div class="NOTE">
+<h5>Note</h5>
+<p>If you have chosen to synchronise this field with a SuperOffice field, there is no point in displaying the field in the <strong>ERP</strong> tab.</p>
+</div>
+  <details><summary>Where is the ERP tab displayed?</summary>
+<ul>
+<li>The <strong>Company</strong> screen</li>
+<li>The <strong>Project</strong> screen</li>
+<li>The <strong>Contact</strong> screen</li>
+</ul>
+  </details>
+</li>
+</ul>
+</li>
+<li><p>Repeat steps 4 to 6 to configure field allocations for other actors.</p>
+</li>
+<li><p>Click <strong>Done</strong> to finish. Underneath the <strong>ERP connections</strong> list, all the fields which are synchronised for the different actors are shown.</p>
+</li>
+<li><p>Check <strong>Active</strong> for the ERP connection you have edited.</p>
+</li>
+</ol>
+<h2 id="troubleshooting">Troubleshooting</h2>
+<p>If you have defined incorrect settings for the field allocations, you will receive a descriptive error message. This would apply for instance to a mandatory field without a synchronisation direction. You need to correct the error before you can activate the ERP connection.</p>
+<h2 id="how-to-mapallocate-list-items">How to map/allocate list items</h2>
+<p>If you have mapped any lists (for example category), you must also map the individual items on each list. See <a href="sync-configure-list-mapping.html">Configure list mapping</a>.</p>
+<!-- Referenced links -->
+<!-- Referenced images -->
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/SuperOfficeDocs/superoffice-docs/blob/351-migrate-en-user-and-admin-help/user-guide/en/sale/quote/quote-sync/sync/sync-configure-field-allocation.md/#L1" class="contribution-link">Improve this Doc</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            © SuperOffice. All rights reserved.
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../../../../../../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../../../../../../styles/docfx.js"></script>
+    <script type="text/javascript" src="../../../../../../styles/main.js"></script>
+  </body>
+</html>

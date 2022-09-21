@@ -1,0 +1,191 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Specifying advanced import settings | SuperOffice Help Files </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Specifying advanced import settings | SuperOffice Help Files ">
+    <meta name="generator" content="docfx 2.56.7.0">
+    
+    <link rel="shortcut icon" href="../../../../assets/images/favicon.ico">
+    <link rel="stylesheet" href="../../../../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../../../../styles/docfx.css">
+    <link rel="stylesheet" href="../../../../styles/main.css">
+    <meta property="docfx:navrel" content="">
+    <meta property="docfx:tocrel" content="../../../toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../../../../index.html">
+                <img id="logo" class="svg" src="../../../../assets/images/logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="help-en-specifying-advanced-import-settings">
+<h1 id="specify-advanced-import-settings">Specify advanced import settings</h1>
+
+<p>Advanced import settings include date format settings and delimiter characters. They are aimed at ensuring that SuperOffice interprets the import file correctly.</p>
+<div class="NOTE">
+<h5>Note</h5>
+<p>To be able to correctly map the fields from the import file, you may have to edit the settings for text qualifier, field delimiter and row delimiter.</p>
+</div>
+<p>To specify advanced import settings:</p>
+<ol>
+<li><!-- markdownlint-disable-file MD041 -->
+<p>Click the <strong>Import</strong> button in the Navigator (<img src="../../../media/icons/admin/knapp-import-liten.bmp" alt="Import button">).</p>
+<!-- Referenced images -->
+</li>
+</ol>
+<!-- markdownlint-disable-file MD041 -->
+<ol>
+<li>Click <img src="../../../media/icons/admin/soek.bmp" alt="icon"> next to the <strong>Import file</strong> field and select a data file in the dialog which opens.</li>
+</ol>
+<!-- Referenced images -->
+
+<ol>
+<li><p>Click the <strong>Advanced</strong> button. The <strong>Advanced options</strong> dialog opens.</p>
+</li>
+<li><p>In the <strong>Date format</strong> list box, choose from the predefined date formats. You cannot use month names, only numbers.</p>
+<div class="NOTE">
+<h5>Note</h5>
+<p><strong>Native ID</strong> means a SuperOffice date. SuperOffice counts the seconds since 01.01.1970; it is this number which equates to <strong>Native ID</strong>.</p>
+</div>
+</li>
+<li><p>In the <strong>Number format</strong> list box, choose from the predefined options for decimal separators.</p>
+</li>
+<li><p>In the <strong>Checkbox format</strong> field, type in the character/characters that are used in the import file to specify that a checkbox is selected.</p>
+</li>
+<li><p>In the <strong>Text qualifier</strong> field, type in the character used in the import file to enclose plain text.</p>
+<div class="NOTE">
+<h5>Note</h5>
+<p>Text qualifiers override any field and row delimiters (see below). This means, for example, that if there is a field delimiter between two text qualifiers, it is taken to be plain text. However, you do not need to use text qualifiers if your import files contain field or row delimiters.</p>
+</div>
+</li>
+<li><p>In the <strong>Field delimiter</strong> list box, choose from the predefined options specifying which characters separate fields from each other.</p>
+</li>
+<li><p>In the <strong>Row delimiter</strong> list box, choose from the predefined options specifying which characters separate rows from each other.</p>
+</li>
+<li><p>In the <strong>Associate format</strong> list box, choose from the predefined formats specifying how names in the import file are to be interpreted, e.g. whether first names come before last names.</p>
+<div class="NOTE">
+<h5>Note</h5>
+<p><strong>Native ID</strong> means the associate's <strong>associate_id</strong>, as recorded in the database. If no such ID is found, the contents of the <strong>Default associate</strong> field are used.</p>
+</div>
+</li>
+<li><p>In the <strong>Default associate</strong> list box, choose which name will be entered by default if the SuperOffice database is unable to interpret the associate format in the import file.</p>
+</li>
+<li><p>In the <strong>Country format</strong> list box, choose from the predefined formats specifying how countries will be interpreted, e.g. whether the country name is local or English.</p>
+<div class="NOTE">
+<h5>Note</h5>
+<p><strong>Native ID</strong> means <strong>country_id</strong>, as recorded in the database.</p>
+</div>
+</li>
+<li><p>In the <strong>Default country name</strong> list box, choose which country will be entered if the SuperOffice database is unable to interpret the country format in the import file.</p>
+</li>
+<li><p>In the <strong>Currency</strong> list box, choose which currency will be entered if the SuperOffice database is unable to interpret the currency format in the import file.</p>
+</li>
+<li><p>Check <strong>Update freetext index</strong> if you want to update the freetext index continuously during the import, so that it is completely updated when the import is finished.</p>
+<div class="NOTE">
+<h5>Note</h5>
+<p>The import speed decreases if you check <strong>Update freetext index</strong>. If you want to import large quantities of data, an alternative is to run the import without checking this option and generate a new freetext index later from the <strong>Options</strong> screen. For more details, see <a href="../../settings/options/freetext-search/regenerating-freetext-index.html">Regenerate a freetext index</a>.</p>
+</div>
+</li>
+<li><p>When you have specified the required settings, click <strong>OK</strong>.</p>
+<!-- markdownlint-disable-file MD041 -->
+<div class="TIP">
+<h5>Tip</h5>
+<p>The field mapping selections you make can be saved, so that the same configuration can be reused in future. This is what constitutes <a href="import-descriptions.html">Import descriptions</a>.</p>
+</div>
+<!-- Referenced links -->
+</li>
+</ol>
+<div class="NOTE">
+<h5>Note</h5>
+<p>If you have specified an import description file in the <strong>Import description file</strong> field, information will already be entered in the <strong>Advanced Options</strong> dialog. However, you can change this information as described above. Remember that the import description file must be saved before it is updated with any new options.</p>
+</div>
+<!-- Referenced links -->
+<!-- Referenced images -->
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/SuperOfficeDocs/superoffice-docs/blob/351-migrate-en-user-and-admin-help/user-guide/en/win-client/import/specifying-advanced-import-settings.md/#L1" class="contribution-link">Improve this Doc</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            © SuperOffice. All rights reserved.
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../../../../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../../../../styles/docfx.js"></script>
+    <script type="text/javascript" src="../../../../styles/main.js"></script>
+  </body>
+</html>

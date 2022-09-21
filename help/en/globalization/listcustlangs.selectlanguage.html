@@ -1,0 +1,135 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>admin listCustLangs selectlanguage | SuperOffice Help Files </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="admin listCustLangs selectlanguage | SuperOffice Help Files ">
+    <meta name="generator" content="docfx 2.56.7.0">
+    
+    <link rel="shortcut icon" href="../../../assets/images/favicon.ico">
+    <link rel="stylesheet" href="../../../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../../../styles/docfx.css">
+    <link rel="stylesheet" href="../../../styles/main.css">
+    <meta property="docfx:navrel" content="">
+    <meta property="docfx:tocrel" content="../../toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../../../index.html">
+                <img id="logo" class="svg" src="../../../assets/images/logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="help-en-admin-listcustlangs-selectlanguage">
+<h1 id="how-superoffice-service-selects-the-customer-language-for-new-contacts">How SuperOffice Service selects the customer language for new contacts</h1>
+
+<p>When a new customer sends in a request, SuperOffice Service tries to decide which customer language should be shown for the customer. We have described below various scenarios to show how this works.</p>
+<h2 id="scenario-1">Scenario 1</h2>
+<ol>
+<li>John, a new contact, registers a new request in the customer centre cs.liberty.com with the e-mail address john@coca-cola.se.</li>
+<li>The new request is sent to the system, where John's e-mail domain (coca-cola.se) is checked. coca-cola.se is registered as domain for the company Coca-Cola.</li>
+<li>John is added as a new contact for Coca-Cola, instead of being added as a new contact without a company.</li>
+<li>SuperOffice Service then checks whether the e-mail domain .se is linked to one of the registered customer languages. .se is registered as domain for the customer language Swedish.</li>
+<li>The customer language for contact John is therefore set as Swedish.</li>
+<li>SuperOffice Service sends a Swedish reply template (if this has been created) to John, informing him that the request has been received and registered.</li>
+<li>John receives a user name and password from SuperOffice Service, and can log on to cs.liberty.com and access the Swedish version of SuperOffice Customer Centre. John will also have access to Swedish FAQs if this has been set up in SuperOffice Service.</li>
+</ol>
+<h2 id="scenario-2">Scenario 2</h2>
+<ol>
+<li>Maria, a new contact, registers a new request in the customer centre cs.liberty.com with the e-mail address maria@coca-cola.nl.</li>
+<li>SuperOffice Service checks the e-mail domain and this is registered to the company Coca-Cola.</li>
+<li>Maria is added as a new contact for Coca-Cola.</li>
+<li>SuperOffice Service then checks whether the e-mail domain .nl is linked to one of the registered customer languages. The e-mail domain .nl is <em>not</em> linked to a customer language and no customer language can therefore be decided for Maria.</li>
+<li>Maria receives a reply template in the default language for the company she is linked to. SuperOffice Customer Centre and FAQs are also shown in the default language.</li>
+</ol>
+<h2 id="scenario-3">Scenario 3</h2>
+<ol>
+<li>Dutch is added as a new customer language in SuperOffice Service and linked to the domain .nl.</li>
+<li>Maria does not automatically get Dutch as customer language. This must be done manually for the contact. Only new contacts will be checked against new customer languages.</li>
+</ol>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/SuperOfficeDocs/superoffice-docs/blob/351-migrate-en-user-and-admin-help/user-guide/en/globalization/listcustlangs.selectlanguage.md/#L1" class="contribution-link">Improve this Doc</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            © SuperOffice. All rights reserved.
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../../../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../../../styles/docfx.js"></script>
+    <script type="text/javascript" src="../../../styles/main.js"></script>
+  </body>
+</html>

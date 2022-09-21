@@ -1,0 +1,150 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>blogic listScheduledTasks | SuperOffice Help Files </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="blogic listScheduledTasks | SuperOffice Help Files ">
+    <meta name="generator" content="docfx 2.56.7.0">
+    
+    <link rel="shortcut icon" href="../../../assets/images/favicon.ico">
+    <link rel="stylesheet" href="../../../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../../../styles/docfx.css">
+    <link rel="stylesheet" href="../../../styles/main.css">
+    <meta property="docfx:navrel" content="">
+    <meta property="docfx:tocrel" content="../../toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../../../index.html">
+                <img id="logo" class="svg" src="../../../assets/images/logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="help-en-blogic-listscheduledtasks">
+<h1 id="scheduled-tasks">Scheduled tasks</h1>
+
+<p>In the <strong>Scheduled tasks</strong> tab you can specify that a script or macro should be run at specific times.</p>
+<div class="TIP">
+<h5>Tip</h5>
+<p>Time-consuming tasks should be scheduled at times when few people are using SuperOffice.</p>
+</div>
+<p>Click a task in the list to edit its properties, such as when it was last executed, execution time and sent/received objects.</p>
+<h2 id="create-a-new-scheduled-task">Create a new scheduled task</h2>
+<ol>
+<li>In SuperOffice Service: Select <img src="../../media/icons/globalmenu-settings-small.png" alt="icon"> <strong>System settings</strong> &gt; <strong>System design</strong> &gt; <strong>CRMScript</strong> and go to the <strong>Scheduled tasks</strong> tab.
+In SuperOffice Settings and maintenance: Click <strong>CRMScript</strong> in the navigator and go to the <strong>Scheduled tasks</strong> tab.</li>
+<li>Click <strong>New task</strong>.</li>
+<li>Select how often the task should be performed, in the <strong>Frequency</strong> list. <strong>Run after another schedule</strong> can be used to start a task after another task has completed. You can use this option to chain tasks together.</li>
+<li>Click <strong>OK</strong>.</li>
+<li>Fill in the following fields in the <strong>Properties</strong> tab:
+<ul>
+<li><strong>Name</strong>: Enter a name for the task.</li>
+<li><strong>ejScript/CRMScript</strong>: Select the script or macro to use in the task.</li>
+</ul>
+</li>
+<li>Click <strong>Apply</strong> and go to the <strong>Schedule</strong> tab.</li>
+<li>Select <strong>Start now</strong> to run the task the next time the system checks for scheduled tasks (normally withing 1 minute).</li>
+<li>Select <strong>Disable</strong> if the task should be inactive for the time being.</li>
+<li>Edit the schedule. The available fields will depend upon the selected frequency:
+<ul>
+<li><strong>Never</strong>: The task will not be run unless you select <strong>Start now</strong>.</li>
+<li><strong>Minute interval</strong>: The task will be run at the selected interval (in minutes). Make sure the interval is longer than the time it takes to run the task.</li>
+<li><strong>Hourly</strong>: The task will be run hourly, at X minutes past the hour.</li>
+<li><strong>Week interval</strong>: The task will be run weekly. Enter at which time and on which day(s) the task should be run.</li>
+<li><strong>Month interval</strong>:The task will be run monthly. Enter at which time, on which day of the month and in which month(s).</li>
+<li><strong>Once</strong>: The task will be run at the set date and time.</li>
+<li><strong>Run after schedule</strong>: The task will be run when the selected scheduled task is complete. You can use this option to chain tasks together.</li>
+</ul>
+</li>
+<li>Set <strong>Lock time in minutes</strong>. The purpose of this setting is to prevent multiple tasks from the same schedule to run at the same time. You should set this value higher than the expected run time for your task. If your task takes more time than specified here, it will be considered failed, and a new task from the same schedule will be allowed to run.</li>
+<li>Set <strong>Minutes before restart after error</strong>. This setting specifies the time before a failed task (a task that has crashed) will be re-run.</li>
+<li>Click <strong>OK</strong>. The task is added to the list, and you can see the status and time of the next execution of the task.</li>
+</ol>
+<!-- Referenced links -->
+<!-- Referenced images -->
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/SuperOfficeDocs/superoffice-docs/blob/351-migrate-en-user-and-admin-help/user-guide/en/automation/listscheduledtasks.md/#L1" class="contribution-link">Improve this Doc</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            © SuperOffice. All rights reserved.
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../../../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../../../styles/docfx.js"></script>
+    <script type="text/javascript" src="../../../styles/main.js"></script>
+  </body>
+</html>

@@ -1,0 +1,162 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>blogic listExtraTables listFields editField | SuperOffice Help Files </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="blogic listExtraTables listFields editField | SuperOffice Help Files ">
+    <meta name="generator" content="docfx 2.56.7.0">
+    
+    <link rel="shortcut icon" href="../../../../assets/images/favicon.ico">
+    <link rel="stylesheet" href="../../../../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../../../../styles/docfx.css">
+    <link rel="stylesheet" href="../../../../styles/main.css">
+    <meta property="docfx:navrel" content="">
+    <meta property="docfx:tocrel" content="../../../toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../../../../index.html">
+                <img id="logo" class="svg" src="../../../../assets/images/logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="help-en-blogic-listextratables-listfields-editfield">
+<h1 id="define-extra-fields">Define extra fields</h1>
+
+<p>Once you have created an extra table, you need to set up fields in the table, to allow you to subsequently input data (entries) into the table. You can also create extra fields in standard tables.</p>
+<div class="TIP">
+<h5>Tip</h5>
+<p>Extra fields can for instance be used as search criteria and columns in sales in SuperOffice CRM.</p>
+</div>
+<p>To create extra fields in tables:</p>
+<ol>
+<li>Select <img src="../../../media/icons/globalmenu-settings-small.png" alt="icon"> <strong>System settings</strong> &gt; <strong>System design</strong> &gt; <strong>Tables</strong>.</li>
+<li>Browse to the table you want, point at the table name and click <img src="../../../media/icons/service/btn-newfield.png" alt="icon">. The <strong>New extra field</strong> screen opens.</li>
+<li>Select a field type in the <strong>Type</strong> list box.</li>
+<li>Click <strong>OK</strong>. The <strong>Field properties</strong> screen appears.</li>
+<li>In the <strong>Field properties</strong> screen, enter data about the new field. The available properties depend on the type of extra field (specified in step 4).
+<ul>
+<li><strong>Cannot be empty</strong>: If you check this option, this field becomes mandatory.</li>
+<li><strong>Choose from list box</strong>: If the field is connected to an extra table, select this option to display a list of table values.</li>
+<li><strong>Choose values from list</strong>: If this option is checked, the field becomes a list box. The options in the list will be the text strings entered in the text box. There is one line per option.</li>
+<li><strong>Create index</strong>: Specify whether the field is to be indexed or not. It is quicker to search for data in indexed fields.</li>
+<li><strong>Database field</strong>: The name the column will have in the database. This name must be unique in this table. In addition, the column name must be a single word, containing only underscores, letters from a to z or numbers, and must begin with &quot;x-&quot;. You can only specify this name when the field is created; it cannot be changed later on.</li>
+<li><strong>Decimal places</strong>: The number of decimal places that are allowed in a number.</li>
+<li><strong>Default value</strong>: The default value will be used for this field.</li>
+<li><strong>Description</strong>: The default description.</li>
+<li><strong>Display value</strong>: Specify whether to display the value or not.</li>
+<li><strong>External</strong>: If this option is checked, the field will be available from a customer centre. This is only relevant for default tables, since extra tables are always displayed in customer centres.</li>
+<li><strong>Header for list</strong>: This field is used to specify a header for these entries when they are displayed as &quot;sub-entries&quot; in a list. In our example, this means the name of the new tab in the <strong>View contact</strong> screen, so we enter &quot;Computers&quot; here.</li>
+<li><strong>Hide function buttons</strong>: (relations) Select this option to hide the function for adding new entries to relation tables.</li>
+<li><strong>Hide the field</strong>: Specify whether to display the field or not.</li>
+<li><strong>Keep HTML tags</strong>: (text) Select this option to include the HTML tag in the text.</li>
+<li><strong>Name</strong>: The name of the field. In our example, this will be the names in the list in the introduction to this chapter.</li>
+<li><strong>Number of units</strong>: (time span) Enter the maximum number of units for the &quot;largest&quot; selected time unit. Example: If you have selected hours and minutes, and enter &quot;4&quot;, a maximum of 4 hours can be selected, while minutes go to 60. Similarly for days and hours, a maximum of 4 days can be selected, while hours go to 24.</li>
+<li><strong>Only allow leaf nodes for hierarchical list boxes</strong>: (extra table relation) Specify if only the lowest node in a hierarchy can be selected by the user.</li>
+<li><strong>Position</strong>: Specifies this field's position among the other fields in lists.</li>
+<li><strong>Search operator</strong>: Select the search operator to use for this field.</li>
+<li><strong>Show in table</strong>: If this option is checked, this field is displayed as a column in screens where several entries are displayed in a table.</li>
+<li><strong>Show one-to-many relations</strong>: If you have selected the <strong>Contact relation</strong>, <strong>Company relation</strong> or <strong>Request relation</strong> field types and want to have displayed a tab containing data from this table in the contact, company or request screens, you can check this field.</li>
+<li><strong>Table</strong>: Specify which table the field belongs to.</li>
+<li><strong>Target table</strong>: Specify which table should be used.</li>
+<li><strong>Text area</strong> / <strong>Height</strong>: Select this options to specify the height (number of lines) of the text field.</li>
+<li><strong>Type</strong>: Displays the field type you have selected.</li>
+<li><strong>Update null values now</strong>: Check this option if you want to replace all null values (i.e. empty fields) in the database with the default value. Note that this operation can take a while.</li>
+<li><strong>URL</strong>: Enter the URL of the dynamic link here.</li>
+<li><strong>Use active user as default value</strong>: If this option has been checked, the field's value is set as the current user as default. In our example, this could be relevant for the &quot;Registered by&quot; field.</li>
+<li><strong>Use current date/time as default value</strong>: If this option has been checked, the field's value is set as the current date/time as default. In our example, this could be relevant for the &quot;Registered date&quot; field.</li>
+<li><strong>Use days</strong> / <strong>Use hours</strong> / <strong>Use minutes</strong>: Select the time units you want to use in the time span field.</li>
+<li><strong>Use default value</strong>: If this option is checked, the field is assigned a default value unless otherwise specified.</li>
+<li><strong>View in relational choosers</strong>: If the current table has a relation with another table (extra table relation), select this option to make this field available as a search field. Example: You have created an extra table called &quot;Products&quot; with an extra table relation to the <strong>Requests</strong> table. In this way you can search for and add products in the <strong>Extra fields</strong> tab when creating new requests. By selecting <strong>View in relational choosers</strong> for specific fields in the &quot;Products&quot; table, these fields will be available as search fields in the <strong>Extra fields</strong> tab.</li>
+</ul>
+</li>
+<li>Click <strong>OK</strong> to save, and then <img src="../../../media/icons/service/btn-restartNetserver.png" alt="icon"><strong>Restart NetServer</strong>.</li>
+</ol>
+<!-- Referenced links -->
+<!-- Referenced images -->
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/SuperOfficeDocs/superoffice-docs/blob/351-migrate-en-user-and-admin-help/user-guide/en/custom-objects/extra-field/create.md/#L1" class="contribution-link">Improve this Doc</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            © SuperOffice. All rights reserved.
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../../../../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../../../../styles/docfx.js"></script>
+    <script type="text/javascript" src="../../../../styles/main.js"></script>
+  </body>
+</html>

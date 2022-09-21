@@ -1,0 +1,178 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Request statistics | SuperOffice Help Files </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Request statistics | SuperOffice Help Files ">
+    <meta name="generator" content="docfx 2.56.7.0">
+    
+    <link rel="shortcut icon" href="../../../../../assets/images/favicon.ico">
+    <link rel="stylesheet" href="../../../../../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../../../../../styles/docfx.css">
+    <link rel="stylesheet" href="../../../../../styles/main.css">
+    <meta property="docfx:navrel" content="">
+    <meta property="docfx:tocrel" content="../../../../toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../../../../../index.html">
+                <img id="logo" class="svg" src="../../../../../assets/images/logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="help-en-service-statistics-request">
+<h1 id="request-statistics">Request statistics</h1>
+
+<p>This screen is used to create statistics based on the requests stored in the system. By adjusting the various parameters, you can specify which information you would like statistics for.</p>
+<p>In the <strong>Settings</strong> tab, set the following parameters:</p>
+<ol>
+<li><p>Set the date interval:</p>
+<ul>
+<li><strong>From date</strong> and <strong>To date</strong>: In these fields, you must enter the date interval for which you want statistics. Set a date by clicking the calendar icon (<img src="../../../../media/icons/service/calendar.png" alt="icon">) or by typing the date into the field. To select today's date, click <img src="../../../../media/icons/service/btn-clock.png" alt="icon">.</li>
+</ul>
+</li>
+<li><p><strong>Choose statistics</strong>: In the first column you choose which value(s) you would like to measure. You can measure more than one value by holding down the <strong>CTRL</strong> key while you click the required type. Statistics are based on different measurable values, listed in the left column, and different summing options, listed in the right column. By making multiple selections, you can achieve all possible combinations of selected elements in the left and right columns. Among the different measurable values are the following:</p>
+<ul>
+<li><p><strong>Number of requests registered</strong>: Specifies the number of requests registered, based on their original status.</p>
+</li>
+<li><p><strong>Number of requests closed</strong>: The same as Total number of requests, but includes only those requests with the status <strong>Closed</strong>.</p>
+</li>
+<li><p><strong>Average time-to-close</strong>: Specifies the average time to close a case. There is information below on how this time is calculated.</p>
+</li>
+<li><p><strong>Average time-to-reply</strong>: Specifies the average time taken to answer a request, calculated from when the second message is added to a request. There is information below on how this time is calculated. Requests with just a single message are ignored.</p>
+</li>
+</ul>
+</li>
+<li><p>In the second column, you need to select summing options, since you are likely to want statistics for a specific purpose. The different summing options are:</p>
+<ul>
+<li><strong>Time of day</strong>: The measurable values are summed for each of the 24 hours in a day. These values are inclusive, for example, from 09:00:00 to 10:59:59. Note that for all measurable values, except <strong>Number of requests closed</strong>, this field refers to when the request was registered, not when it was closed or answered. For example: a request registered at 15:00 and answered at 16:10 will have a reply time of one hour, summed for the reply times from 15:00:00 to 15:59:59. The result is thus the average reply time for requests registered within a given period of time.</li>
+<li><strong>Day of week</strong>: This summing option works exactly like <strong>Hour</strong>, but applies to the seven days of the week.</li>
+<li><strong>Category</strong>: Sums measurable values by category.</li>
+<li><strong>User</strong>: Sums measurable values by user.</li>
+<li><strong>Priority</strong>: Sums measurable values by priority.</li>
+<li><strong>Mailbox</strong>: Sums measurable values by mailbox. Requests not generated from e-mails are ignored.</li>
+</ul>
+</li>
+<li><p>Set these options as necessary:</p>
+<ul>
+<li><p><strong>Calculate reply time and time-to-close based on the priority's timeframe</strong>: If you enable this option, then the values for average reply time and time-to-close will be based on the priority's timeframe for the request. For example, a request has priority <strong>Medium</strong>, and the timeframe for this priority is Monday-Friday from 9am to 5pm. A request was created on Friday at 4pm and closed on Monday at 10am. The raw time-to-close for this request is then 64 hours, but the real time-to-close is only 2 hours. With this option enabled, 2 hours is the value used for the calculations.</p>
+</li>
+<li><p><strong>Show time interval in minutes</strong>: If you enable this option, then the calculated time intervals are displayed as number of minutes. This is convenient if you would like to export the data and use them to display a graph.</p>
+</li>
+<li><p><strong>Display dates as YYYY-MM-DD</strong>: If you enable this option, then dates will be written in this format. This can be useful if you want to export the data to another program.</p>
+</li>
+<li><p><strong>Hide empty rows</strong>: If you enable this option, then rows in the calculated dataset containing only nulls/zeros will be ignored.</p>
+</li>
+<li><p><strong>Hide empty columns</strong>: If you enable this option, then columns in the calculated dataset containing only nulls/zeros will be ignored.</p>
+</li>
+<li><p><strong>Hide empty bars</strong>: If you enable this option, then empty bars in the resulting graph will be hidden. This is not the same option as Hide empty columns, since it applies to charts, while Hide empty columns applies to the entire spreadsheet.</p>
+</li>
+<li><p><strong>Show sum per week</strong>: If you enable this option, then a calculated sum per week, calculated as 7 days from the start date, will be displayed.</p>
+</li>
+<li><p><strong>Show sum per month</strong>: If you enable this option, then a calculated sum per month will be displayed. This statistic applies to full calendar months and not the number of days, which can vary.</p>
+</li>
+</ul>
+</li>
+<li><p><strong>Display format</strong>: Here you select how you want to display the data. The different formats are:</p>
+<ul>
+<li><p><strong>On screen as a graph</strong>. The data are displayed on screen as flat bar charts. Note that each chart contains only one dataset and each will have its own scale. Charts will therefore not be visually comparable.</p>
+</li>
+<li><p><strong>On screen as table</strong>. The data are displayed on screen as a spreadsheet.</p>
+</li>
+<li><p><strong>As an HTML table file</strong>. The data are displayed in a table in a pure HTML file, which can be saved locally and then imported into a spreadsheet.</p>
+</li>
+<li><p><strong>As a CSV (comma-separated value) file</strong>: The data are displayed in a comma-separated file, which can be saved locally and then imported into a spreadsheet.</p>
+</li>
+</ul>
+</li>
+<li><p>Click <strong>OK</strong> to open the statistics.</p>
+</li>
+</ol>
+<!-- Referenced links -->
+<!-- Referenced images -->
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/SuperOfficeDocs/superoffice-docs/blob/351-migrate-en-user-and-admin-help/user-guide/en/dashboard/in-service/statistics/request.md/#L1" class="contribution-link">Improve this Doc</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            © SuperOffice. All rights reserved.
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../../../../../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../../../../../styles/docfx.js"></script>
+    <script type="text/javascript" src="../../../../../styles/main.js"></script>
+  </body>
+</html>

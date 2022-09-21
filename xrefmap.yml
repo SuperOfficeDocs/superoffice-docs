@@ -1,0 +1,2514 @@
+### YamlMime:XRefMap
+sorted: true
+references:
+- uid: app-store
+  name: App store
+  href: help/en/clients/admin/app-store.html
+- uid: custom-objects
+  name: Custom objects
+  href: help/en/custom-objects/index.html
+- uid: help-en-about
+  name: About
+  href: help/en/email/maillink/options-dialog/about.html
+- uid: help-en-about-service
+  name: SuperOffice Service
+  href: help/en/getting-started/about-service.html
+- uid: help-en-activating-time-zones
+  name: Activating time zones web
+  href: help/en/settings/options/activating-time-zones.html
+- uid: help-en-active-settings
+  name: Active settings
+  href: help/en/settings/preferences/preferences-tab/active-settings.html
+- uid: help-en-activities-project
+  name: Activities Project
+  href: help/en/clients/sales/project/activities-project.html
+- uid: help-en-activities-sale
+  name: activities sale
+  href: help/en/clients/sales/sale/activities-sale.html
+- uid: help-en-add-activities
+  name: Add activities
+  href: help/en/diary/add-activities.html
+- uid: help-en-add-consent-purpose
+  name: Add consent purpose
+  href: help/en/person/gdpr/add-consent-purpose.html
+- uid: help-en-add-content
+  name: Add content
+  href: help/en/marketing/editor/drag-and-drop/add-content.html
+- uid: help-en-add-e-mail-template
+  name: Add e-mail template
+  href: help/en/settings/lists/add-email-template.html
+- uid: help-en-adding-companies-in-our-companies-tab
+  name: Adding companies in the Our companies tab
+  href: help/en/user-management/adding-companies-in-our-companies-tab.html
+- uid: help-en-adding-documents-from-superoffice-sales-marketing-as-attachments
+  name: Adding documents from SuperOffice Sales Marketing as attachments
+  href: help/en/email/maillink/adding-documents-from-superoffice-sales-marketing-as-attachments.html
+- uid: help-en-adding-email-addresses-in-crm
+  name: Adding email addresses in CRM
+  href: help/en/email/inbox/adding-email-addresses-in-crm.html
+- uid: help-en-adding-email-address-to-existing-contact
+  name: Adding an email address to an existing contact
+  href: help/en/email/maillink/adding-email-address-to-existing-contact.html
+- uid: help-en-adding-email-address-to-new-contact
+  name: Adding an email address to a new contact
+  href: help/en/email/maillink/adding-email-address-to-new-contact.html
+- uid: help-en-adding-external-applications-to-application-list
+  name: Adding external applications to the Application list
+  href: help/en/settings/lists/adding-external-applications-to-application-list.html
+- uid: help-en-adding-favorite-reports
+  name: Adding favorite reports
+  href: help/en/reports/favorites/add.html
+- uid: help-en-adding-headings
+  name: Adding headings
+  href: help/en/settings/lists/organize/adding-headings.html
+- uid: help-en-adding-items
+  name: Adding items
+  href: help/en/settings/lists/adding-items.html
+- uid: help-en-adding-items-to-country-list-web
+  name: Adding items to the Country list web
+  href: help/en/settings/lists/adding-items-to-country-list-web.html
+- uid: help-en-adding-items-to-currency-list
+  name: Adding items to the Currency list
+  href: help/en/settings/lists/adding-items-to-currency-list.html
+- uid: help-en-adding-items-to-follow-up-type-list
+  name: Adding items to the Follow-up - Type list
+  href: help/en/settings/lists/adding-items-to-follow-up-type-list.html
+- uid: help-en-adding-items-to-project-status-list
+  name: Adding items to the Project - Status list
+  href: help/en/project/admin/adding-items-to-project-status-list.html
+- uid: help-en-adding-items-to-project-type-list
+  name: Adding items to the Project - Type list
+  href: help/en/project/admin/adding-items-to-project-type-list.html
+- uid: help-en-adding-items-to-relation-list
+  name: Adding items to the Relation list
+  href: help/en/settings/lists/adding-items-to-relation-list.html
+- uid: help-en-adding-items-to-resource-list
+  name: Adding items to the Resource list
+  href: help/en/settings/lists/adding-items-to-resource-list.html
+- uid: help-en-adding-items-to-sale
+  name: Adding items to the Sale - Sales type (for stages) list
+  href: help/en/sale/admin/sale-type-stages-quote.html
+- uid: help-en-adding-items-to-sale-amount-class-list
+  name: Adding items to the Sale - Amount class list
+  href: help/en/sale/admin/adding-items-to-sale-amount-class-list.html
+- uid: help-en-adding-items-to-sale-stage-list
+  name: Adding items to the Sale - Stage list
+  href: help/en/sale/admin/adding-items-to-sale-stage-list.html
+- uid: help-en-adding-items-to-webpanel-list
+  name: Adding items to the Webpanel list
+  href: help/en/settings/lists/adding-items-to-webpanel-list.html
+- uid: help-en-adding-label-formats
+  name: Adding label formats
+  href: help/en/reports/labels/add-format.html
+- uid: help-en-adding-preference-settings
+  name: Adding preference settings
+  href: help/en/settings/preferences/preferences-tab/adding-preference-settings.html
+- uid: help-en-adding-project-members
+  name: Adding project members
+  href: help/en/project/project-members/adding-project-members.html
+- uid: help-en-adding-search-criteria-to-reports
+  name: Adding search criteria to reports
+  href: help/en/reports/adding-search-criteria-to-reports.html
+- uid: help-en-adding-stopwords
+  name: Adding stopwords
+  href: help/en/settings/options/freetext-search/adding-stopwords.html
+- uid: help-en-adding-system-events
+  name: Adding system events
+  href: help/en/license/adding-system-events.html
+- uid: help-en-adding-template-web
+  name: Adding a template web
+  href: help/en/settings/lists/adding-template-web.html
+- uid: help-en-adding-user-defined-lists
+  name: Adding user-defined lists
+  href: help/en/settings/lists/adding-user-defined-lists.html
+- uid: help-en-adding-users
+  name: Adding users web
+  href: help/en/user-management/adding-users.html
+- uid: help-en-add-other-users
+  name: Add other users
+  href: help/en/user-management/add-other-users.html
+- uid: help-en-address-formats-for-different-countries
+  name: Address formats for different countries
+  href: help/en/company/address-formats.html
+- uid: help-en-add-sender-to-superoffice
+  name: Add sender to SuperOffice
+  href: help/en/email/gmaillink/add-sender-to-superoffice.html
+- uid: help-en-adjusting-column-widths
+  name: Adjusting column widths
+  href: help/en/clients/howto/adjusting-column-widths.html
+- uid: help-en-adjusting-views
+  name: Adjusting views
+  href: help/en/clients/howto/adjusting-views.html
+- uid: help-en-admin-editreplytemplates
+  name: admin editReplyTemplates
+  href: help/en/clients/admin/requests/system-templates.html
+- uid: help-en-admin-listcustcenter-config
+  name: Customer centre configuration
+  href: help/en/customer-center/listcustcenter.config.html
+- uid: help-en-admin-listcustcenter-edit
+  name: Customer centre source files
+  href: help/en/customer-center/listcustcenter.edit.html
+- uid: help-en-admin-listcustlangs
+  name: Customer languages
+  href: help/en/globalization/listcustlangs.html
+- uid: help-en-admin-listcustlangs-editcustlang
+  name: admin listCustLangs editCustLang
+  href: help/en/globalization/listcustlangs.editcustlang.html
+- uid: help-en-admin-listcustlangs-selectlanguage
+  name: admin listCustLangs selectlanguage
+  href: help/en/globalization/listcustlangs.selectlanguage.html
+- uid: help-en-admin-listcustlangs-workwithexternacategories
+  name: admin listCustLangs workWithExternaCategories
+  href: help/en/globalization/listcustlangs.workwithexternacategories.html
+- uid: help-en-admin-listfilters
+  name: admin listFilters
+  href: help/en/email/service/index.html
+- uid: help-en-admin-listfilters-listfilters-editfacebookapplication
+  name: admin listFilters listFilters editFacebookApplication
+  href: help/en/email/service/mailboxes/create-facebook-application.html
+- uid: help-en-admin-listfilters-listfilters-editsmsmailbox
+  name: admin listFilters listFilters editSMSmailbox
+  href: help/en/email/service/mailboxes/create-sms-mailbox.html
+- uid: help-en-admin-listfilters-viewblocked
+  name: admin listFilters viewBlocked
+  href: help/en/email/service/tab-blocked-email.html
+- uid: help-en-admin-listinvoicetypes
+  name: admin listInvoiceTypes
+  href: help/en/request/listinvoicetypes.html
+- uid: help-en-admin-listinvoicetypes-deleteinvoicetype
+  name: admin listInvoiceTypes deleteInvoiceType
+  href: help/en/request/listinvoicetypes.deleteinvoicetype.html
+- uid: help-en-admin-listinvoicetypes-editinvoicetype
+  name: admin listInvoiceTypes editInvoiceType
+  href: help/en/request/listinvoicetypes.editinvoicetype.html
+- uid: help-en-admin-listprofiles
+  name: admin listProfiles
+  href: help/en/ui/service-screens/listprofiles.html
+- uid: help-en-admin-listprofiles-commonprofiles
+  name: admin listProfiles commonProfiles
+  href: help/en/ui/service-screens/listprofiles.commonprofiles.html
+- uid: help-en-admin-listprofiles-globalprofiles
+  name: admin listProfiles globalProfiles
+  href: help/en/ui/service-screens/listprofiles.globalprofiles.html
+- uid: help-en-admin-listprofiles-personalprofile
+  name: admin listProfiles personalProfile
+  href: help/en/ui/service-screens/listprofiles.personalprofile.html
+- uid: help-en-admin-service-settings-personal-extra-fields
+  name: Extra fields
+  href: help/en/settings/personal-settings/extra-fields.html
+- uid: help-en-admin-soapconf
+  name: admin soapConf
+  href: help/en/clients/admin/requests/soap-config.html
+- uid: help-en-admin-web
+  name: admin web
+  href: help/en/getting-started/about-admin.html
+- uid: help-en-admin-win
+  name: admin win
+  href: help/en/win-client/index.html
+- uid: help-en-ai-requests
+  name: AI requests
+  href: help/en/request/ai-requests.html
+- uid: help-en-ai-services
+  name: AI services
+  href: help/en/ai/index.html
+- uid: help-en-ansi-files
+  name: ANSI-files
+  href: help/en/win-client/import/ansi-files.html
+- uid: help-en-application
+  name: Application
+  href: help/en/settings/lists/application.html
+- uid: help-en-appointment
+  name: Appointment
+  href: help/en/diary/appointment.html
+- uid: help-en-archive-attachments
+  name: Archive attachments
+  href: help/en/email/gmaillink/archive-attachments.html
+- uid: help-en-archive-buttons
+  name: archive buttons
+  href: help/en/email/inbox/archive-buttons.html
+- uid: help-en-archive-emails
+  name: Archive emails
+  href: help/en/email/inbox/archive.html
+- uid: help-en-archive-emails-as-activities
+  name: Archive emails as activities
+  href: help/en/email/gmaillink/archive-emails-as-activities.html
+- uid: help-en-archive-emails-as-requests
+  name: Archive emails as requests
+  href: help/en/email/gmaillink/archive-emails-as-requests.html
+- uid: help-en-archiving-attachments-to-superoffice-sales-marketing
+  name: Archiving attachment s to SuperOffice Sales Marketing
+  href: help/en/email/maillink/archiving-attachments-to-superoffice-sales-marketing.html
+- uid: help-en-archiving-emails-as-requests
+  name: Archiving emails as requests
+  href: help/en/email/maillink/archiving-emails-as-requests.html
+- uid: help-en-archiving-emails-as-tasks-in-superoffice-sales-marketing
+  name: Archiving emails as tasks in SuperOffice Sales Marketing
+  href: help/en/email/maillink/archiving-emails-as-tasks-in-superoffice-sales-marketing.html
+- uid: help-en-archiving-emails-on-companies-contacts-in-superoffice-sales-marketing
+  name: Archiving emails on companies contacts in SuperOffice Sales Marketing
+  href: help/en/email/maillink/archiving-emails-on-companies-contacts-in-superoffice-sales-marketing.html
+- uid: help-en-archiving-emails-to-superoffice-sales-marketing
+  name: Archiving emails to SuperOffice Sales Marketing
+  href: help/en/email/maillink/archiving-emails-to-superoffice-sales-marketing.html
+- uid: help-en-archiving-options
+  name: Archiving options
+  href: help/en/email/inbox/archiving-options.html
+- uid: help-en-associates
+  name: Associates
+  href: help/en/user-management/associates.html
+- uid: help-en-backup-routines
+  name: Backup routines
+  href: help/en/win-client/backup-routines.html
+- uid: help-en-blocked-email-addresses
+  name: Blocked e-mail addresses
+  href: help/en/marketing/mailing/follow-up/manage-bounces.html
+- uid: help-en-blogic-listdbiagents
+  name: blogic listDbiAgents
+  href: help/en/automation/data-exchange/index.html
+- uid: help-en-blogic-listdbiagents-editdbiagent
+  name: blogic listDbiAgents editDbiAgent
+  href: help/en/automation/data-exchange/listdbiagents.editdbiagent.html
+- uid: help-en-blogic-listdbiagents-editdbiagentfield
+  name: blogic listDbiAgents editDbiAgentField
+  href: help/en/automation/data-exchange/listdbiagents.editdbiagentfield.html
+- uid: help-en-blogic-listdbiagents-editdbiagentschedule
+  name: blogic listDbiAgents editDbiAgentSchedule
+  href: help/en/automation/data-exchange/listdbiagents.editdbiagentschedule.html
+- uid: help-en-blogic-listdbiagents-listdbiagents
+  name: blogic listDbiAgents listDbiAgents
+  href: help/en/automation/data-exchange/listdbiagents.listdbiagents.html
+- uid: help-en-blogic-listdbiagents-newdbiagentschedule
+  name: blogic listDbiAgents newDbiAgentSchedule
+  href: help/en/automation/data-exchange/listdbiagents.newdbiagentschedule.html
+- uid: help-en-blogic-listdbiagents-viewdbiagent
+  name: blogic listDbiAgents viewDbiAgent
+  href: help/en/automation/data-exchange/listdbiagents.viewdbiagent.html
+- uid: help-en-blogic-listdebuglog
+  name: blogic listDebugLog
+  href: help/en/clients/service/listdebuglog.html
+- uid: help-en-blogic-listdebugsessions
+  name: blogic listDebugSessions
+  href: help/en/automation/listdebugsessions.html
+- uid: help-en-blogic-listdebugsessions-viewdebugsession
+  name: blogic listDebugSessions viewDebugSession
+  href: help/en/automation/listdebugsessions.viewdebugsession.html
+- uid: help-en-blogic-listeventhandler
+  name: blogic listEventHandler
+  href: help/en/automation/listeventhandler.html
+- uid: help-en-blogic-listextramenus
+  name: blogic listExtraMenus
+  href: help/en/ui/extra-menus/index.html
+- uid: help-en-blogic-listextramenus-editextramenu
+  name: blogic listExtraMenus editExtraMenu
+  href: help/en/ui/extra-menus/properties.html
+- uid: help-en-blogic-listextramenus-editextramenu-menubutton
+  name: blogic listExtraMenus editExtraMenu menubutton
+  href: help/en/ui/extra-menus/actions.html
+- uid: help-en-blogic-listextramenus-editextramenu-navigator
+  name: blogic listExtraMenus editExtraMenu navigator
+  href: help/en/ui/extra-menus/navigator.html
+- uid: help-en-blogic-listextratables
+  name: blogic listExtraTables
+  href: help/en/clients/admin/listextratables.html
+- uid: help-en-blogic-listextratables-editextratable
+  name: blogic listExtraTables editExtraTable
+  href: help/en/custom-objects/extra-table/create.html
+- uid: help-en-blogic-listextratables-listfields
+  name: blogic listExtraTables listFields
+  href: help/en/custom-objects/extra-field/index.html
+- uid: help-en-blogic-listextratables-listfields-editfield
+  name: blogic listExtraTables listFields editField
+  href: help/en/custom-objects/extra-field/create.html
+- uid: help-en-blogic-listpackages
+  name: blogic listPackages
+  href: help/en/clients/service/listpackages.html
+- uid: help-en-blogic-listpackages-editpackage
+  name: blogic listPackages editPackage
+  href: help/en/clients/service/listpackages.editpackage.html
+- uid: help-en-blogic-listscheduledtasks
+  name: blogic listScheduledTasks
+  href: help/en/automation/listscheduledtasks.html
+- uid: help-en-blogic-listscreenchoosers
+  name: blogic listScreenChoosers
+  href: help/en/clients/admin/listscreenchoosers.html
+- uid: help-en-blogic-listscreenchoosers-editscreenchooser
+  name: blogic listScreenChoosers editScreenChooser
+  href: help/en/clients/admin/listscreenchoosers.editscreenchooser.html
+- uid: help-en-blogic-listscreendefinitions-editlanguage
+  name: blogic listScreenDefinitions editLanguage
+  href: help/en/clients/admin/listscreendefinitions.editlanguage.html
+- uid: help-en-blogic-listscreendefinitions-editscreenaction
+  name: blogic listScreenDefinitions editScreenAction
+  href: help/en/clients/admin/listscreendefinitions.editscreenaction.html
+- uid: help-en-blogic-listscreendefinitions-editscreendefinition
+  name: blogic listScreenDefinitions editScreenDefinition
+  href: help/en/clients/admin/listscreendefinitions.editscreendefinition.html
+- uid: help-en-blogic-listscreendefinitions-editscreendefinitionfolder
+  name: blogic listScreenDefinitions editScreenDefinitionFolder
+  href: help/en/clients/admin/listscreendefinitions.editscreendefinitionfolder.html
+- uid: help-en-blogic-listscreendefinitions-editscreenelement
+  name: blogic listScreenDefinitions editScreenElement
+  href: help/en/clients/admin/listscreendefinitions.editscreenelement.html
+- uid: help-en-blogic-listscreendefinitions-viewscreendefinition
+  name: blogic listScreenDefinitions viewScreenDefinition
+  href: help/en/clients/admin/listscreendefinitions.viewscreendefinition.html
+- uid: help-en-blogic-listscreendefinitions-viewscreendefinitiondesign
+  name: blogic listScreenDefinitions viewScreenDefinitionDesign
+  href: help/en/clients/admin/listscreendefinitions.viewscreendefinitiondesign.html
+- uid: help-en-blogic-listscripts
+  name: blogic listScripts
+  href: help/en/automation/listscripts.html
+- uid: help-en-blogic-listscripts-editmacro
+  name: blogic listScripts editMacro
+  href: help/en/automation/listscripts.editmacro.html
+- uid: help-en-blogic-listscripts-editscript
+  name: blogic listScripts editScript
+  href: help/en/automation/listscripts.editscript.html
+- uid: help-en-blogic-listscripts-editscriptfolder
+  name: blogic listScripts editScriptFolder
+  href: help/en/automation/listscripts.editscriptfolder.html
+- uid: help-en-blogic-listswebpanels
+  name: blogic listsWebpanels
+  href: help/en/ui/web-panels/index.html
+- uid: help-en-blogic-listsystemscripts
+  name: blogic listSystemScripts
+  href: help/en/clients/service/listsystemscripts.html
+- uid: help-en-blogic-listsystemscripts-editsystemscript
+  name: blogic listSystemScripts editSystemScript
+  href: help/en/clients/service/listsystemscripts.editsystemscript.html
+- uid: help-en-bulk-update
+  name: Bulk update
+  href: help/en/getting-started/bulk-update.html
+- uid: help-en-buttons-in-email-window
+  name: Buttons in the email window
+  href: help/en/email/maillink/buttons-in-email-window.html
+- uid: help-en-buttons-on-microsoft-outlook-toolbar
+  name: Buttons on the Microsoft Outlook toolbar
+  href: help/en/email/maillink/buttons-on-microsoft-outlook-toolbar.html
+- uid: help-en-buttons-win
+  name: Buttons win
+  href: help/en/win-client/buttons-win.html
+- uid: help-en-categorization
+  name: Categorization
+  href: help/en/ai/categorization.html
+- uid: help-en-change-rank-of-contacts
+  name: Change the rank of contacts
+  href: help/en/company/change-rank-of-contacts.html
+- uid: help-en-changing-column-view
+  name: Changing the column view
+  href: help/en/clients/howto/changing-column-view.html
+- uid: help-en-changing-default-mail-client-in-superoffice-sales-marketing
+  name: Changing default mail client in SuperOffice Sales Marketing
+  href: help/en/email/maillink/changing-default-mail-client-in-superoffice-sales-marketing.html
+- uid: help-en-changing-end-time-for-follow-ups-in-diary
+  name: Changing the end time for follow-ups in the Diary
+  href: help/en/diary/changing-end-time-for-follow-ups-in-diary.html
+- uid: help-en-changing-labels
+  name: Changing labels web
+  href: help/en/settings/options/changing-labels.html
+- uid: help-en-changing-language-version-web
+  name: Changing the language version web
+  href: help/en/globalization/changing-language-version-web.html
+- uid: help-en-chat
+  name: Chat
+  href: help/en/chat/index.html
+- uid: help-en-chat-add-chat-user-to-superoffice
+  name: chat add chat user to SuperOffice
+  href: help/en/chat/add-chat-user-to-superoffice.html
+- uid: help-en-chat-add-javascript
+  name: chat Add JavaScript
+  href: help/en/chat/admin/add-javascript.html
+- uid: help-en-chat-channel-create
+  name: chat channel create
+  href: help/en/chat/admin/channel-create.html
+- uid: help-en-chat-create-request
+  name: chat create request
+  href: help/en/chat/create-request.html
+- uid: help-en-chat-function-from-customers-perspective
+  name: chat function from the customers perspective
+  href: help/en/chat/function-from-customers-perspective.html
+- uid: help-en-chat-link-to-person
+  name: chat link to person
+  href: help/en/chat/link-to-person.html
+- uid: help-en-chat-quick-reply
+  name: chat quick reply
+  href: help/en/chat/quick-reply.html
+- uid: help-en-chat-respond
+  name: chat respond
+  href: help/en/chat/respond.html
+- uid: help-en-chat-send-faq-or-reply-template
+  name: chat Send FAQ or reply template
+  href: help/en/chat/send-faq-or-reply-template.html
+- uid: help-en-chat-send-files
+  name: chat send files
+  href: help/en/chat/send-files.html
+- uid: help-en-chat-statistics
+  name: chat statistics
+  href: help/en/chat/statistics.html
+- uid: help-en-chat-transfer-to-another-agent
+  name: chat transfer to another agent
+  href: help/en/chat/transfer-to-another-agent.html
+- uid: help-en-clients-overview
+  name: Intro to the SuperOffice clients
+  href: help/en/clients/admin/index.html
+- uid: help-en-company
+  name: Companies
+  href: help/en/company/index.html
+- uid: help-en-company-add-relation
+  name: Add relation
+  href: help/en/company/add-relation.html
+- uid: help-en-company-copy
+  name: Copy companies
+  href: help/en/company/copy.html
+- uid: help-en-company-create
+  name: Create new companies
+  href: help/en/company/create.html
+- uid: help-en-company-create-service
+  name: Create companies
+  href: help/en/company/in-service/create.html
+- uid: help-en-company-delete
+  name: Deleting companies
+  href: help/en/company/delete.html
+- uid: help-en-company-delete-relation
+  name: Delete relations
+  href: help/en/company/delete-relation.html
+- uid: help-en-company-delete-service
+  name: Delete companies
+  href: help/en/company/in-service/delete.html
+- uid: help-en-company-merge
+  name: Merge companies
+  href: help/en/company/merge-companies.html
+- uid: help-en-company-merge-service
+  name: Merge companies
+  href: help/en/company/in-service/merge-companies.html
+- uid: help-en-company-print
+  name: Printing companies
+  href: help/en/company/print.html
+- uid: help-en-company-screen
+  name: The Company screen
+  href: help/en/clients/sales/company/index.html
+- uid: help-en-company-screen-activities
+  name: Activities tab (Company screen)
+  href: help/en/clients/sales/company/activities-tab.html
+- uid: help-en-company-screen-contacts
+  name: Contacts tab
+  href: help/en/clients/sales/company/contacts-tab.html
+- uid: help-en-company-screen-projects
+  name: Projects tab
+  href: help/en/clients/sales/company/projects-tab.html
+- uid: help-en-company-screen-relations
+  name: Relations tab (Company screen)
+  href: help/en/clients/sales/company/relations-tab.html
+- uid: help-en-company-screen-requests
+  name: Requests tab
+  href: help/en/clients/sales/company/requests-tab.html
+- uid: help-en-company-screen-sale
+  name: Sale tab
+  href: help/en/clients/sales/company/sales-tab.html
+- uid: help-en-company-search-in-service
+  name: customers findContacts
+  href: help/en/company/in-service/find.html
+- uid: help-en-company-service
+  name: View companies
+  href: help/en/company/in-service/index.html
+- uid: help-en-company-update
+  name: Editing companies
+  href: help/en/company/edit.html
+- uid: help-en-company-update-service
+  name: Edit companies
+  href: help/en/company/in-service/edit.html
+- uid: help-en-compose-email-web
+  name: Compose an email (Web)
+  href: help/en/diary/compose-email-web.html
+- uid: help-en-configure-sharepoint-document-library
+  name: Configure SharePoint document library
+  href: help/en/settings/preferences/configure-sharepoint-document-library.html
+- uid: help-en-configure-video-meetings
+  name: Configure video meetings
+  href: help/en/settings/preferences/video-meetings/configure-video-meetings.html
+- uid: help-en-contact
+  name: Contact
+  href: help/en/person/index.html
+- uid: help-en-contact-add-relation
+  name: Add relations (Contact screen)
+  href: help/en/person/add-relation.html
+- uid: help-en-contact-create
+  name: Create contacts
+  href: help/en/person/create.html
+- uid: help-en-contact-create-service
+  name: Create contacts
+  href: help/en/person/in-service/create.html
+- uid: help-en-contact-delete
+  name: contact delete
+  href: help/en/person/delete.html
+- uid: help-en-contact-delete-relation
+  name: Delete relation (Contact screen)
+  href: help/en/person/delete-relation.html
+- uid: help-en-contact-delete-service
+  name: Delete contacts
+  href: help/en/person/in-service/delete.html
+- uid: help-en-contact-merge
+  name: Merge contacts
+  href: help/en/person/merge-contacts.html
+- uid: help-en-contact-merge-service
+  name: Merge contacts
+  href: help/en/person/in-service/merge-contacts.html
+- uid: help-en-contact-move
+  name: Move contact
+  href: help/en/person/move.html
+- uid: help-en-contact-print
+  name: Print contact info
+  href: help/en/person/print.html
+- uid: help-en-contact-screen
+  name: The Contact screen
+  href: help/en/clients/sales/contact/index.html
+- uid: help-en-contact-screen-activities
+  name: Activities tab (Contact screen)
+  href: help/en/clients/sales/contact/activities-tab.html
+- uid: help-en-contact-screen-projects
+  name: Projects tab
+  href: help/en/clients/sales/contact/projects-tab.html
+- uid: help-en-contact-screen-relations
+  name: Relations tab (Contact screen)
+  href: help/en/clients/sales/contact/relations-tab.html
+- uid: help-en-contact-screen-requests
+  name: Requests tab
+  href: help/en/clients/sales/contact/requests-tab.html
+- uid: help-en-contact-screen-sales
+  name: Sales tab
+  href: help/en/clients/sales/contact/sales-tab.html
+- uid: help-en-contact-search-service
+  name: Find contacts
+  href: help/en/person/in-service/find.html
+- uid: help-en-contact-send-email
+  name: contact send email
+  href: help/en/person/send-email.html
+- uid: help-en-contact-service
+  name: View contacts
+  href: help/en/person/in-service/index.html
+- uid: help-en-contact-update
+  name: Edit contact
+  href: help/en/person/edit.html
+- uid: help-en-contact-update-service
+  name: Edit contacts
+  href: help/en/person/in-service/edit.html
+- uid: help-en-copy
+  name: Dashboard a duplicate
+  href: help/en/dashboard/copy.html
+- uid: help-en-copying-follow-ups-to-diary
+  name: Copying follow-ups to the diary
+  href: help/en/diary/copying-follow-ups-to-diary.html
+- uid: help-en-copyright
+  name: Copyright
+  href: help/en/copyright.html
+- uid: help-en-country
+  name: Country
+  href: help/en/settings/lists/country.html
+- uid: help-en-create-new-project-guide
+  name: Create new project guide
+  href: help/en/project/admin/create-new-project-guide.html
+- uid: help-en-create-new-sales-guide
+  name: Create new sales guide
+  href: help/en/sale/sales-guide/create-new-sales-guide.html
+- uid: help-en-create-new-status-web
+  name: Create new status web
+  href: help/en/sale/saint/admin/create-new-status-web.html
+- uid: help-en-create-reports
+  name: Creating reports
+  href: help/en/reports/create.html
+- uid: help-en-create-request
+  name: Create request
+  href: help/en/email/inbox/create-request.html
+- uid: help-en-create-role
+  name: Create role
+  href: help/en/user-management/role/create-role.html
+- uid: help-en-create-task
+  name: Create task
+  href: help/en/email/inbox/create-task.html
+- uid: help-en-creating-appointments
+  name: Creating appointments
+  href: help/en/diary/creating-appointments.html
+- uid: help-en-creating-appointments-for-associates
+  name: Creating appointments for associates
+  href: help/en/diary/creating-appointments-for-associates.html
+- uid: help-en-creating-appointments-using-diary
+  name: Creating appointments using the Diary
+  href: help/en/diary/creating-appointments-using-diary.html
+- uid: help-en-creating-diary-views
+  name: Creating diary views
+  href: help/en/diary/creating-diary-views.html
+- uid: help-en-creating-emails
+  name: Creating emails
+  href: help/en/email/maillink/creating-emails.html
+- uid: help-en-creating-emails-from-lotus-notes
+  name: Creating emails from Lotus Notes
+  href: help/en/email/maillink/creating-emails-from-lotus-notes.html
+- uid: help-en-creating-emails-from-microsoft-outlook
+  name: Creating emails from Microsoft Outlook
+  href: help/en/email/maillink/creating-emails-from-microsoft-outlook.html
+- uid: help-en-creating-emails-from-microsoft-outlook-using-superoffice-templates
+  name: Creating emails from Microsoft Outlook using SuperOffice templates
+  href: help/en/email/maillink/creating-emails-from-microsoft-outlook-using-superoffice-templates.html
+- uid: help-en-creating-emails-from-superoffice-sales-marketing
+  name: Creating emails from SuperOffice Sales Marketing
+  href: help/en/email/maillink/creating-emails-from-superoffice-sales-marketing.html
+- uid: help-en-creating-emails-using-predefined-email-body-templates
+  name: Creating emails using predefined email body templates
+  href: help/en/email/maillink/creating-emails-using-predefined-email-body-templates.html
+- uid: help-en-creating-email-templates
+  name: Creating email templates
+  href: help/en/email/maillink/creating-email-templates.html
+- uid: help-en-creating-follow-ups-in-activities-list
+  name: Creating follow-ups in the activities list
+  href: help/en/diary/creating-follow-ups-in-activities-list.html
+- uid: help-en-creating-follow-ups-with-your-associates
+  name: Creating follow-ups with your associates
+  href: help/en/diary/creating-follow-ups-with-your-associates.html
+- uid: help-en-creating-import-descriptions
+  name: Creating import descriptions
+  href: help/en/win-client/import/creating-import-descriptions.html
+- uid: help-en-creating-overlapping-follow-ups
+  name: Creating overlapping follow-ups
+  href: help/en/diary/creating-overlapping-follow-ups.html
+- uid: help-en-creating-recurring-follow-ups
+  name: Creating recurring follow-ups
+  href: help/en/diary/creating-recurring-follow-ups.html
+- uid: help-en-creating-shortcuts-to-entries-in-crm
+  name: Creating shortcuts to entries in CRM
+  href: help/en/orphans/creating-shortcuts-to-entries-in-crm.html
+- uid: help-en-creating-tasks
+  name: Creating tasks
+  href: help/en/diary/creating-tasks.html
+- uid: help-en-creating-template-document
+  name: Creating a template document
+  href: help/en/settings/lists/creating-template-document.html
+- uid: help-en-criteria-list
+  name: Criteria list
+  href: help/en/clients/sales/reports/criteria-list.html
+- uid: help-en-crm-and-licences
+  name: CRM and licences
+  href: help/en/license/crm-and-licences.html
+- uid: help-en-crmscript
+  name: CRMScript
+  href: help/en/automation/index.html
+- uid: help-en-cross-table-reports
+  name: Displaying cross tables
+  href: help/en/reports/cross-tables.html
+- uid: help-en-currency
+  name: Currency
+  href: help/en/settings/lists/currency.html
+- uid: help-en-customer-centre
+  name: Customer centre
+  href: help/en/clients/admin/customer-center.html
+- uid: help-en-customers
+  name: customers
+  href: help/en/request/customers.html
+- uid: help-en-customers-viewcompany-listinvoicescontact
+  name: customers viewCompany listInvoicesContact
+  href: help/en/request/viewcompany.listinvoicescontact.html
+- uid: help-en-customers-viewcompany-listinvoicescontact-editinvoice
+  name: customers viewCompany listInvoicesContact editInvoice
+  href: help/en/request/viewcompany.listinvoicescontact.editinvoice.html
+- uid: help-en-customers-viewcustomer-listinvoices
+  name: customers viewCustomer listInvoices
+  href: help/en/request/viewcustomer.listinvoices.html
+- uid: help-en-customers-viewcustomer-sendnewcustmail
+  name: customers viewCustomer sendNewCustMail
+  href: help/en/customer-center/viewcustomer.sendnewcustmail.html
+- uid: help-en-custom-labels
+  name: Custom labels
+  href: help/en/clients/howto/changing-labels.html
+- uid: help-en-dashboard
+  name: Dashboards
+  href: help/en/dashboard/index.html
+- uid: help-en-dashboard-create
+  name: Dashboard Create
+  href: help/en/dashboard/create.html
+- uid: help-en-dashboard-delete
+  name: Delete a dashboard
+  href: help/en/dashboard/delete.html
+- uid: help-en-dashboard-edit
+  name: Edit a dashboard
+  href: help/en/dashboard/update.html
+- uid: help-en-dashboard-in-service
+  name: ticket mainMenu
+  href: help/en/dashboard/in-service/index.html
+- uid: help-en-dashboard-tile-add
+  name: Dashboard add tiles
+  href: help/en/dashboard/add-tile.html
+- uid: help-en-dashboard-tile-delete
+  name: Remove a tile
+  href: help/en/dashboard/remove-tile.html
+- uid: help-en-dashboard-tile-edit
+  name: Edit a tile
+  href: help/en/dashboard/edit-tile.html
+- uid: help-en-dashboard-tiles
+  name: Working with tiles
+  href: help/en/dashboard/working-with-tiles.html
+- uid: help-en-dashboard-tile-sales-targets
+  name: Using sales targets in tiles
+  href: help/en/dashboard/show-sales-targets.html
+- uid: help-en-deactivate-project-guide
+  name: Deactivate project guide
+  href: help/en/project/admin/deactivate-project-guide.html
+- uid: help-en-deactivate-sales-guide
+  name: Deactivate sales guide
+  href: help/en/sale/sales-guide/deactivate-sales-guide.html
+- uid: help-en-default-options
+  name: Default options
+  href: help/en/email/maillink/options-dialog/default-options.html
+- uid: help-en-default-values-for-new-document-templates-web
+  name: Default values for new document templates web
+  href: help/en/settings/options/default-values-for-new-document-templates-web.html
+- uid: help-en-define-link-actions
+  name: Define link actions
+  href: help/en/marketing/tracked-links/define-link-actions.html
+- uid: help-en-deleted-items-and-headings
+  name: Deleted items and headings
+  href: help/en/settings/lists/organize/deleted-items-and-headings.html
+- uid: help-en-delete-from-archive
+  name: Deleting reports from the report archive
+  href: help/en/reports/delete-from-archive.html
+- uid: help-en-delete-other-users
+  name: Delete other users
+  href: help/en/user-management/delete-other-users.html
+- uid: help-en-deleting-activities
+  name: Deleting activities
+  href: help/en/diary/deleting-activities.html
+- uid: help-en-deleting-activities-contact
+  name: Deleting activities Contact
+  href: help/en/company/delete-activities-contact.html
+- uid: help-en-deleting-activities-in-activities-list
+  name: Deleting activities in the activities list
+  href: help/en/diary/deleting-activities-in-activities-list.html
+- uid: help-en-deleting-companies-in-our-companies-tab
+  name: Deleting companies in the Our companies tab
+  href: help/en/orphans/deleting-companies-in-our-companies-tab-win.html
+- uid: help-en-deleting-companies-permanently
+  name: Deleting companies permanently
+  href: help/en/search-options/selections/howto/deleting-companies-permanently.html
+- uid: help-en-deleting-elements-in-crm
+  name: Deleting elements in CRM
+  href: help/en/getting-started/deleting-elements.html
+- uid: help-en-deleting-favorite-reports
+  name: Deleting favorite reports
+  href: help/en/reports/favorites/delete.html
+- uid: help-en-deleting-field-mapping
+  name: Deleting field mapping
+  href: help/en/win-client/import/deleting-field-mapping.html
+- uid: help-en-deleting-follow-ups-using-diary
+  name: Deleting follow-ups using the Diary
+  href: help/en/diary/deleting-follow-ups-using-diary.html
+- uid: help-en-deleting-items
+  name: Deleting items
+  href: help/en/settings/lists/deleting-items.html
+- uid: help-en-deleting-preference-settings
+  name: Deleting preference settings
+  href: help/en/settings/preferences/preferences-tab/deleting-preference-settings.html
+- uid: help-en-deleting-role
+  name: Deleting a role
+  href: help/en/user-management/role/deleting-role.html
+- uid: help-en-deleting-stopwords
+  name: Deleting stopwords
+  href: help/en/settings/options/freetext-search/deleting-stopwords.html
+- uid: help-en-deleting-user-defined-lists
+  name: Deleting user-defined lists
+  href: help/en/settings/lists/deleting-user-defined-lists.html
+- uid: help-en-deleting-users
+  name: Deleting users
+  href: help/en/user-management/deleting-users.html
+- uid: help-en-dialling-contacts
+  name: Dialling Contacts
+  href: help/en/diary/dialling-contacts.html
+- uid: help-en-dialog-for-followups
+  name: Dialog for followups
+  href: help/en/clients/sales/diary/dialog-for-followups.html
+- uid: help-en-diary
+  name: Diary
+  href: help/en/diary/diary.html
+- uid: help-en-diary-screen
+  name: The Diary screen
+  href: help/en/clients/sales/diary/index.html
+- uid: help-en-diary-screen-activities
+  name: The Activities section tab (Diary)
+  href: help/en/clients/sales/diary/activities-tab.html
+- uid: help-en-diary-screen-day
+  name: Day tab
+  href: help/en/clients/sales/diary/day.html
+- uid: help-en-diary-screen-month
+  name: Month tab
+  href: help/en/clients/sales/diary/month.html
+- uid: help-en-diary-screen-navigate
+  name: Navigate in diary
+  href: help/en/clients/sales/diary/navigate-in-diary.html
+- uid: help-en-diary-screen-sales
+  name: The Sales section tab (Diary)
+  href: help/en/clients/sales/diary/sales-tab.html
+- uid: help-en-diary-screen-view
+  name: View Tab
+  href: help/en/clients/sales/diary/view.html
+- uid: help-en-diary-screen-view-dialog
+  name: The New group view dialog
+  href: help/en/clients/sales/diary/view-dialog.html
+- uid: help-en-diary-screen-week
+  name: Week tab
+  href: help/en/clients/sales/diary/week.html
+- uid: help-en-differences-between-archiving-in-outlook-and-superoffice-sales-marketing
+  name: Differences between archiving in Outlook and SuperOffice Sales Marketing
+  href: help/en/email/maillink/differences-between-archiving-in-outlook-and-superoffice-sales-marketing.html
+- uid: help-en-displaying-different-levels
+  name: Displaying different levels
+  href: help/en/settings/preferences/preferences-tab/displaying-different-levels.html
+- uid: help-en-doc-language-support
+  name: doc Language support
+  href: help/en/globalization/doc-language-support.html
+- uid: help-en-document
+  name: document
+  href: help/en/clients/service/knowledge-base.html
+- uid: help-en-document-create
+  name: Creating new documents
+  href: help/en/document/create.html
+- uid: help-en-document-create-kb
+  name: Create documents
+  href: help/en/document/in-service/create.html
+- uid: help-en-document-delete
+  name: Deleting documents
+  href: help/en/document/delete.html
+- uid: help-en-document-delete-kb
+  name: Delete documents
+  href: help/en/document/in-service/delete.html
+- uid: help-en-document-dialog
+  name: Document dialog
+  href: help/en/clients/sales/document/document-dialog.html
+- uid: help-en-document-emailaddressbook
+  name: document emailAddressBook
+  href: help/en/request/mailboxes/index.html
+- uid: help-en-document-emailaddressbook-editeabfolder
+  name: document emailAddressBook editEabFolder
+  href: help/en/request/mailboxes/manage-folders.html
+- uid: help-en-document-emailaddressbook-neweabentry
+  name: document emailAddressBook newEabEntry
+  href: help/en/request/mailboxes/add-email-address.html
+- uid: help-en-document-emailaddressbook-vieweabentry
+  name: document emailAddressBook viewEabEntry
+  href: help/en/request/mailboxes/view-addresses.html
+- uid: help-en-document-externaldocument
+  name: document externalDocument
+  href: help/en/request/externaldocument.html
+- uid: help-en-document-faq
+  name: document faq
+  href: help/en/faq/index.html
+- uid: help-en-document-faq-publish
+  name: Publish FAQ entries
+  href: help/en/faq/publish.html
+- uid: help-en-document-folder-kb
+  name: document document editFolder
+  href: help/en/document/in-service/manage-folders.html
+- uid: help-en-document-library
+  name: Document library
+  href: help/en/settings/preferences/document-library.html
+- uid: help-en-document-lock
+  name: Check in/out documents
+  href: help/en/document/lock.html
+- uid: help-en-document-open
+  name: Opening documents
+  href: help/en/document/open.html
+- uid: help-en-document-replytemplates
+  name: document replyTemplates
+  href: help/en/request/reply-templates/index.html
+- uid: help-en-document-replytemplates-addreplytemplatestomessages
+  name: document replyTemplates addReplyTemplatesToMessages
+  href: help/en/request/reply-templates/addreplytemplatestomessages.html
+- uid: help-en-document-replytemplates-autofaq
+  name: document replyTemplates autoFAQ
+  href: help/en/request/reply-templates/autofaq.html
+- uid: help-en-document-replytemplates-delreplytemplate
+  name: document replyTemplates delReplyTemplate
+  href: help/en/request/reply-templates/delreplytemplate.html
+- uid: help-en-document-replytemplates-editreplytemplatecustomerlang
+  name: document replyTemplates editReplyTemplateCustomerLang
+  href: help/en/request/reply-templates/editreplytemplatecustomerlang.html
+- uid: help-en-document-replytemplates-editreplytemplatefolder
+  name: document replyTemplates editReplyTemplateFolder
+  href: help/en/request/reply-templates/editreplytemplatefolder.html
+- uid: help-en-document-replytemplates-findreplytemplates
+  name: document replyTemplates findReplyTemplates
+  href: help/en/request/reply-templates/findreplytemplates.html
+- uid: help-en-document-replytemplates-newlangversion
+  name: document replyTemplates newlangversion
+  href: help/en/request/reply-templates/newlangversion.html
+- uid: help-en-document-replytemplates-newreplytemplate
+  name: document replyTemplates newReplyTemplate
+  href: help/en/request/reply-templates/newreplytemplate.html
+- uid: help-en-document-replytemplates-viewreplytemplate
+  name: document replyTemplates viewReplyTemplate
+  href: help/en/request/reply-templates/viewreplytemplate.html
+- uid: help-en-document-search-kb
+  name: Search for documents
+  href: help/en/document/in-service/find.html
+- uid: help-en-document-send
+  name: Send a document as email
+  href: help/en/document/send-as-email.html
+- uid: help-en-document-service
+  name: document document
+  href: help/en/document/in-service/index.html
+- uid: help-en-document-template
+  name: Document template
+  href: help/en/settings/lists/document-template.html
+- uid: help-en-document-update
+  name: Editing documents
+  href: help/en/document/edit.html
+- uid: help-en-document-update-kb
+  name: Edit documents
+  href: help/en/document/in-service/edit.html
+- uid: help-en-document-upload
+  name: Upload documents
+  href: help/en/document/upload.html
+- uid: help-en-document-view-kb
+  name: View documents
+  href: help/en/document/in-service/view.html
+- uid: help-en-duplicates
+  name: Duplicates
+  href: help/en/getting-started/duplicates.html
+- uid: help-en-duplicates-import
+  name: Duplicates import
+  href: help/en/win-client/import/duplicates-import.html
+- uid: help-en-edit-description-for-status
+  name: Edit description for status
+  href: help/en/sale/saint/admin/edit-description-for-status.html
+- uid: help-en-edit-email-signature
+  name: Edit email signature
+  href: help/en/settings/edit-email-signature.html
+- uid: help-en-editing-favorite-reports
+  name: Editing favorite reports
+  href: help/en/reports/favorites/edit.html
+- uid: help-en-editing-fields
+  name: Editing fields web
+  href: help/en/custom-objects/udef/editing-fields.html
+- uid: help-en-editing-follow-ups
+  name: Editing follow-ups
+  href: help/en/diary/editing-follow-ups.html
+- uid: help-en-editing-import-descriptions
+  name: Editing import descriptions
+  href: help/en/win-client/import/editing-import-descriptions.html
+- uid: help-en-editing-items
+  name: Editing items
+  href: help/en/settings/lists/editing-items.html
+- uid: help-en-editing-label-formats
+  name: Editing label formats
+  href: help/en/reports/labels/edit-format.html
+- uid: help-en-editing-licence-information-web
+  name: Editing licence information web
+  href: help/en/license/editing-licence-information-web.html
+- uid: help-en-editing-lists-name-and-description
+  name: Editing a list s name and description
+  href: help/en/settings/lists/editing-lists-name-and-description.html
+- uid: help-en-editing-or-deleting-invitations
+  name: Editing or deleting invitations
+  href: help/en/diary/editing-or-deleting-invitations.html
+- uid: help-en-editing-preference-settings
+  name: Editing preference settings
+  href: help/en/settings/preferences/preferences-tab/editing-preference-settings.html
+- uid: help-en-editing-project-members
+  name: Editing project members
+  href: help/en/project/project-members/editing-project-members.html
+- uid: help-en-editing-recurring-follow-ups
+  name: Editing recurring follow-ups
+  href: help/en/diary/editing-recurring-follow-ups.html
+- uid: help-en-editing-role
+  name: Editing a role
+  href: help/en/user-management/role/editing-role.html
+- uid: help-en-editing-search-criteria-in-reports
+  name: Editing search criteria in reports
+  href: help/en/reports/editing-search-criteria-in-reports.html
+- uid: help-en-editing-tab-order-of-fields
+  name: Editing the TAB order of fields web
+  href: help/en/custom-objects/udef/editing-tab-order-of-fields.html
+- uid: help-en-edit-legalbase
+  name: Edit legalbase
+  href: help/en/person/gdpr/edit-legalbase.html
+- uid: help-en-edit-logon-rights-for-other-users
+  name: Edit logon rights for other users
+  href: help/en/user-management/edit-logon-rights-for-other-users.html
+- uid: help-en-editor
+  name: Drag and drop editor
+  href: help/en/marketing/editor/drag-and-drop/index.html
+- uid: help-en-edit-other-users
+  name: Edit other users
+  href: help/en/user-management/edit-other-users.html
+- uid: help-en-edit-project-guide
+  name: Edit projectguide
+  href: help/en/project/admin/edit-project-guide.html
+- uid: help-en-edit-rights-for-anonymous-users
+  name: Edit rights for anonymous users
+  href: help/en/user-management/role/edit-rights-for-anonymous-users.html
+- uid: help-en-edit-sales-guide
+  name: Edit sales guide
+  href: help/en/sale/sales-guide/edit-sales-guide.html
+- uid: help-en-edit-stakeholders
+  name: Edit stakeholders
+  href: help/en/sale/stakeholders/edit-stakeholders.html
+- uid: help-en-edit-time-zones
+  name: Available time zones web
+  href: help/en/settings/options/edit-time-zones.html
+- uid: help-en-email
+  name: Inbox
+  href: help/en/email/index.html
+- uid: help-en-email-archive-incoming
+  name: email archive incoming
+  href: help/en/email/gmaillink/email-archive-incoming.html
+- uid: help-en-email-archive-outgoing-
+  name: email archive outgoing
+  href: help/en/email/gmaillink/email-archive-outgoing.html
+- uid: help-en-email-filter
+  name: Email filters
+  href: help/en/email/service/email-filters/index.html
+- uid: help-en-email-filter-create
+  name: Create email filters
+  href: help/en/email/service/email-filters/create-email-filter.html
+- uid: help-en-email-filter-delete
+  name: Delete email filters
+  href: help/en/email/service/email-filters/delete-email-filter.html
+- uid: help-en-email-project-members
+  name: Sending emails to project members
+  href: help/en/project/project-members/send-email-to.html
+- uid: help-en-emails-that-have-already-been-archived-in-superoffice-sales-marketing
+  name: Emails that have already been archived in SuperOffice Sales Marketing
+  href: help/en/email/maillink/emails-that-have-already-been-archived-in-superoffice-sales-marketing.html
+- uid: help-en-email-template
+  name: Email Template
+  href: help/en/settings/lists/email-template.html
+- uid: help-en-enabling-freetext-search
+  name: Enabling freetext search
+  href: help/en/settings/options/freetext-search/enable.html
+- uid: help-en-entering-phone-calls
+  name: Entering phone calls
+  href: help/en/diary/entering-phone-calls.html
+- uid: help-en-erp-connect
+  name: ERP connect
+  href: help/en/erp/erp-connect.html
+- uid: help-en-erp-connection-add
+  name: ERP connection add
+  href: help/en/sale/quote/quote-sync/erp-connection-add.html
+- uid: help-en-erp-create-new-actor
+  name: ERP create new actor
+  href: help/en/erp/erp-create-new-actor.html
+- uid: help-en-erp-main
+  name: ERP main
+  href: help/en/erp/index.html
+- uid: help-en-erp-sync-disconnect
+  name: ERP sync disconnect
+  href: help/en/erp/erp-sync-disconnect.html
+- uid: help-en-erp-tab-(contact)
+  name: ERP tab (contact)
+  href: help/en/erp/erp-tab-contact.html
+- uid: help-en-erp-tab-(project)
+  name: ERP tab (project)
+  href: help/en/erp/erp-tab-project.html
+- uid: help-en-event-tab
+  name: Event tab
+  href: help/en/clients/sales/project/event-tab.html
+- uid: help-en-example-salesguide
+  name: Example salesguide
+  href: help/en/sale/sales-guide/example-salesguide.html
+- uid: help-en-export
+  name: Export
+  href: help/en/win-client/export.html
+- uid: help-en-export-archives
+  name: Export archives
+  href: help/en/clients/howto/export-archives.html
+- uid: help-en-export-to-excel
+  name: Export to Excel
+  href: help/en/search-options/selections/howto/export-to-excel.html
+- uid: help-en-external-applications-and-url-addresses
+  name: External applications and URL addresses
+  href: help/en/clients/howto/external-applications-and-url-addresses.html
+- uid: help-en-faq-add-to-request
+  name: Add FAQ entries to messages
+  href: help/en/faq/add-to-request.html
+- uid: help-en-faq-comments
+  name: Handling comments in FAQ entries
+  href: help/en/faq/comments.html
+- uid: help-en-faq-create
+  name: Create FAQ entries
+  href: help/en/faq/create.html
+- uid: help-en-faq-delete
+  name: Delete FAQ entries
+  href: help/en/faq/delete.html
+- uid: help-en-faq-edit
+  name: Edit FAQ entries
+  href: help/en/faq/edit.html
+- uid: help-en-faq-folder
+  name: Administrate folders of FAQ entries
+  href: help/en/faq/manage-folders.html
+- uid: help-en-faq-search-for
+  name: Search for FAQ entries
+  href: help/en/faq/search-for.html
+- uid: help-en-faq-view-entry
+  name: View FAQ entries
+  href: help/en/faq/view-entry.html
+- uid: help-en-faq-workflow
+  name: Workflow stages
+  href: help/en/faq/workflow.html
+- uid: help-en-favorite-reports
+  name: Favorite reports
+  href: help/en/reports/favorites/index.html
+- uid: help-en-favorites
+  name: Favorites
+  href: help/en/getting-started/favourites.html
+- uid: help-en-field-mapping
+  name: Field mapping
+  href: help/en/win-client/import/field-mapping.html
+- uid: help-en-find-dialog
+  name: Find dialog
+  href: help/en/search-options/find-dialog.html
+- uid: help-en-first-time-login
+  name: First time login
+  href: help/en/email/inbox/first-time-login.html
+- uid: help-en-follow-up-assign
+  name: follow-up assign
+  href: help/en/diary/follow-up-assign.html
+- uid: help-en-follow-ups-in-superoffice-crm
+  name: Follow-ups in SuperOffice CRM
+  href: help/en/diary/follow-ups-in-superoffice-crm.html
+- uid: help-en-follow-up-type
+  name: Follow-up - Type
+  href: help/en/settings/lists/follow-up-type.html
+- uid: help-en-form-create
+  name: Create a new form
+  href: help/en/forms/create.html
+- uid: help-en-form-field-options
+  name: Field options
+  href: help/en/forms/field-options.html
+- uid: help-en-form-prefilled
+  name: Using pre-filled fields in forms
+  href: help/en/forms/form-prefilled.html
+- uid: help-en-form-publish
+  name: Publish forms
+  href: help/en/forms/publish.html
+- uid: help-en-forms
+  name: Work with forms
+  href: help/en/forms/index.html
+- uid: help-en-forms-examples
+  name: How to create forms (examples)
+  href: help/en/forms/examples.html
+- uid: help-en-form-submissions
+  name: Form submissions
+  href: help/en/forms/submissions/index.html
+- uid: help-en-form-submissions-process
+  name: Process form submissions
+  href: help/en/forms/submissions/process.html
+- uid: help-en-form-submission-track
+  name: Track form submissions and view statistics
+  href: help/en/forms/submissions/track.html
+- uid: help-en-form-templates
+  name: Work with form templates
+  href: help/en/forms/form-templates.html
+- uid: help-en-form-view
+  name: View forms
+  href: help/en/forms/view.html
+- uid: help-en-forwarding-e-mail-from-activities-section-tab
+  name: Forwarding e-mail from the Activities section tab
+  href: help/en/company/forwarding-email-from-activities-section-tab.html
+- uid: help-en-freetext-search
+  name: Freetext search
+  href: help/en/search-options/freetext-search.html
+- uid: help-en-freetext-search-and-travel
+  name: Freetext search and Travel
+  href: help/en/win-client/freetext-search-and-travel.html
+- uid: help-en-functions-in-preview-window
+  name: Functions in the preview window
+  href: help/en/reports/functions-in-preview-window.html
+- uid: help-en-generate-personal-data-report
+  name: Generate personal data report
+  href: help/en/person/gdpr/generate-personal-data-report.html
+- uid: help-en-generate-reports
+  name: Running reports
+  href: help/en/reports/run.html
+- uid: help-en-get-next-request-in-queue
+  name: Get next request in the queue
+  href: help/en/request/get-next-request-in-queue.html
+- uid: help-en-getting-started
+  name: Getting started
+  href: help/en/getting-started/index.html
+- uid: help-en-global-preferences
+  name: Global preferences
+  href: help/en/settings/preferences/global-preferences.html
+- uid: help-en--gmail-link
+  name: SuperOffice Gmail Link
+  href: help/en/email/gmaillink/index.html
+- uid: help-en-grouping-and-filtering
+  name: Grouping and filtering
+  href: help/en/settings/lists/organize/index.html
+- uid: help-en-grouping-items-under-headings
+  name: Grouping items under headings
+  href: help/en/settings/lists/organize/grouping-items-under-headings.html
+- uid: help-en-handling-emails-from-senders-not-listed-in-superoffice
+  name: Handling emails from senders not listed in SuperOffice
+  href: help/en/email/gmaillink/handling-emails-from-senders-not-listed-in-superoffice.html
+- uid: help-en-handling-emails-from-senders-not-listed-in-superoffice-sales-marketing
+  name: Handling emails from senders not listed in SuperOffice Sales Marketing
+  href: help/en/email/maillink/handling-emails-from-senders-not-listed-in-superoffice-sales-marketing.html
+- uid: help-en-handling-emails-from-senders-with-several-listings
+  name: Handling emails from senders with several listings
+  href: help/en/email/gmaillink/handling-emails-from-senders-with-several-listings.html
+- uid: help-en-handling-emails-from-senders-with-several-listings-in-superoffice-sales-marketing
+  name: Handling emails from senders with several listings in SuperOffice Sales Marketing
+  href: help/en/email/maillink/handling-emails-from-senders-with-several-listings-in-superoffice-sales-marketing.html
+- uid: help-en-headings
+  name: Headings
+  href: help/en/settings/lists/organize/headings.html
+- uid: help-en-headings-editing-and-deleting
+  name: Headings editing and deleting
+  href: help/en/settings/lists/organize/headings-editing-and-deleting.html
+- uid: help-en-import
+  name: Import web
+  href: help/en/import/index.html
+- uid: help-en-import-descriptions
+  name: Import descriptions
+  href: help/en/win-client/import/import-descriptions.html
+- uid: help-en-import-from-erp
+  name: import from ERP
+  href: help/en/import/import-from-erp.html
+- uid: help-en-import-from-excel
+  name: Import from Excel
+  href: help/en/import/import-from-excel.html
+- uid: help-en-import-from-gmail
+  name: Import from Gmail
+  href: help/en/import/import-from-gmail.html
+- uid: help-en-import-from-outlook
+  name: Import from Outlook
+  href: help/en/import/import-from-outlook.html
+- uid: help-en-importing-files
+  name: Importing files
+  href: help/en/win-client/import/importing-files.html
+- uid: help-en-import-products-from-excel
+  name: Import products from Excel
+  href: help/en/import/import-products-from-excel.html
+- uid: help-en-import-routines
+  name: Import routines
+  href: help/en/win-client/import/import-routines.html
+- uid: help-en-import-settings-web
+  name: Import settings web
+  href: help/en/import/configure-import-settings.html
+- uid: help-en-import-users-web
+  name: Import users web
+  href: help/en/user-management/import-users-web.html
+- uid: help-en-inbox
+  name: Inbox CRM web
+  href: help/en/email/inbox/index.html
+- uid: help-en-inbox-crm-web
+  name: Inbox CRM web
+  href: help/en/email/inbox/inbox-crm-web.html
+- uid: help-en-inbox-options
+  name: inbox
+  href: help/en/email/inbox/inbox-options.html
+- uid: help-en-index
+  name: Activities in SuperOffice CRM
+  href: help/en/diary/index.html
+- uid: help-en-info-box
+  name: Info box
+  href: help/en/getting-started/info-box.html
+- uid: help-en-insert-images-in-message
+  name: Insert images in the message
+  href: help/en/marketing/editor/drag-and-drop/insert-images-in-message.html
+- uid: help-en-introduction
+  name: Introduction
+  href: help/en/email/maillink/index.html
+- uid: help-en-invitations
+  name: Invitations
+  href: help/en/email/maillink/options-dialog/invitations.html
+- uid: help-en-invite-project-members-to-meeting
+  name: Invite project members to a meeting
+  href: help/en/project/project-members/invite-project-members-to-meeting.html
+- uid: help-en-items
+  name: Items
+  href: help/en/settings/lists/items.html
+- uid: help-en-labels
+  name: Labels
+  href: help/en/settings/options/labels.html
+- uid: help-en-levels-for-preference-settings
+  name: Levels for preference settings
+  href: help/en/settings/preferences/preferences-tab/levels-for-preference-settings.html
+- uid: help-en-licences-screen
+  name: Licences screen
+  href: help/en/license/index.html
+- uid: help-en-license-agreement
+  name: License agreement
+  href: help/en/license-agreement.html
+- uid: help-en-linking-documents-to-follow-ups
+  name: Linking documents to follow-ups
+  href: help/en/diary/linking-documents-to-follow-ups.html
+- uid: help-en-linking-participants-to-follow-ups
+  name: Linking participants to follow-ups
+  href: help/en/diary/linking-participants-to-follow-ups.html
+- uid: help-en-lists-web
+  name: Lists web
+  href: help/en/settings/lists/index.html
+- uid: help-en-logging-users-off
+  name: Logging users off
+  href: help/en/orphans/logging-users-off.html
+- uid: help-en-log-in-to-windows-client-settings
+  name: Log in to Windows Client settings
+  href: help/en/win-client/log-in-to-windows-client-settings.html
+- uid: help-en-look-up-sender-to-superoffice
+  name: Look up sender to SuperOffice
+  href: help/en/email/inbox/look-up-sender-to-superoffice.html
+- uid: help-en-mailing
+  name: Work with mailings
+  href: help/en/marketing/mailing/index.html
+- uid: help-en-mailing-add-merge-tags
+  name: Add merge tags to your message
+  href: help/en/marketing/editor/drag-and-drop/add-merge-tag.html
+- uid: help-en-mailing-add-merge-tags-old
+  name: Add template variables to your message
+  href: help/en/marketing/editor/old/add-template-variable.html
+- uid: help-en-mailing-add-tracked-link
+  name: Include links you want to track
+  href: help/en/marketing/tracked-links/add-tracked-link-to-msg.html
+- uid: help-en-mailing-add-unsubscribe-link
+  name: Add an unsubscribe link
+  href: help/en/marketing/mailing/create/add-unsubscribe-link.html
+- uid: help-en-mailing-create
+  name: Create new mailing
+  href: help/en/marketing/mailing/create/index.html
+- uid: help-en-mailing-create-tracked-link
+  name: Create tracked links
+  href: help/en/marketing/tracked-links/create-links.html
+- uid: help-en-mailing-create-with-selection
+  name: Create mailings to all contacts in a selection
+  href: help/en/search-options/selections/howto/create-mailings.html
+- uid: help-en-mailing-customize-for-mobile
+  name: Customise the message for display on mobile devices
+  href: help/en/marketing/editor/drag-and-drop/customize-for-mobile.html
+- uid: help-en-mailing-customize-for-mobile-old
+  name: Customise the message for display on mobile devices
+  href: help/en/marketing/editor/old/customize-for-mobile.html
+- uid: help-en-mailing-edit-paragraph
+  name: Edit a paragraph
+  href: help/en/marketing/editor/drag-and-drop/edit-paragraph.html
+- uid: help-en-mailing-edit-paragraph-old
+  name: Edit a paragraph
+  href: help/en/marketing/editor/old/edit-paragraph.html
+- uid: help-en-mailing-insert-image-old
+  name: Insert images in the message
+  href: help/en/marketing/editor/old/insert-image.html
+- uid: help-en-mailing-open-in-browser
+  name: Add a link to display the message in a browser
+  href: help/en/marketing/editor/drag-and-drop/add-link-to-display-message-in-browser.html
+- uid: help-en-mailing-recipient-list
+  name: Work with the recipient list after the mailing
+  href: help/en/marketing/mailing/follow-up/look-at-recipient-list.html
+- uid: help-en-mailing-send-test
+  name: Test mailing by sending a test email
+  href: help/en/marketing/mailing/create/send-test-email.html
+- uid: help-en-mailing-settings
+  name: Define settings for mailings
+  href: help/en/marketing/admin/define-settings-for-mailings.html
+- uid: help-en-mailings-follow-up
+  name: Follow up mailings
+  href: help/en/marketing/mailing/follow-up/index.html
+- uid: help-en-mailing-spam
+  name: Spam complaints
+  href: help/en/marketing/mailing/follow-up/spam-complaints.html
+- uid: help-en-mailing-tracked-links
+  name: Tracked links
+  href: help/en/marketing/tracked-links/index.html
+- uid: help-en-mailing-view-statistics
+  name: View statistics for mailing
+  href: help/en/marketing/mailing/follow-up/view-statistics.html
+- uid: help-en-main
+  name: chat main
+  href: help/en/chat/admin/index.html
+- uid: help-en-main-sections-of-maintenance-client
+  name: Main sections of the Maintenance client
+  href: help/en/win-client/main-sections-of-maintenance-client.html
+- uid: help-en-manage-status-monitors
+  name: Manage status monitors
+  href: help/en/sale/saint/admin/manage-status-monitors.html
+- uid: help-en-managing-external-users
+  name: managing external users
+  href: help/en/orphans/managing-external-users.html
+- uid: help-en-managing-follow-ups-in-diary
+  name: Managing follow-ups in the diary
+  href: help/en/diary/managing-follow-ups-in-diary.html
+- uid: help-en-mark-emails-as-read-unread
+  name: Mark emails as read unread
+  href: help/en/email/inbox/mark-emails-as-read-unread.html
+- uid: help-en-marketing
+  name: SuperOffice Marketing
+  href: help/en/marketing/index.html
+- uid: help-en-marketing-add-favourite
+  name: Add favourite
+  href: help/en/marketing/add-favourites.html
+- uid: help-en-marketing-add-images
+  name: Add images
+  href: help/en/marketing/add-images.html
+- uid: help-en-marketing-create-folder
+  name: How to create a folder in Marketing
+  href: help/en/marketing/create-folder.html
+- uid: help-en-marketing-editors
+  name: Editors
+  href: help/en/marketing/editor/index.html
+- uid: help-en-marketing-tabs
+  name: SuperOffice Marketing tabs
+  href: help/en/clients/sales/marketing/index.html
+- uid: help-en-marking-activities-as-completed
+  name: Marking activities as completed not completed
+  href: help/en/diary/marking-activities-as-completed-not-completed.html
+- uid: help-en-maximum-number-of-fields
+  name: Maximum number of fields
+  href: help/en/custom-objects/udef/maximum-number-of-fields.html
+- uid: help-en-merge-projects
+  name: Merge projects
+  href: help/en/project/merge-projects.html
+- uid: help-en-more-tab-project
+  name: More tab Project
+  href: help/en/clients/sales/project/more-tab-project.html
+- uid: help-en-move-users
+  name: Move users
+  href: help/en/user-management/move-users.html
+- uid: help-en-moving-email-to-folders
+  name: Moving e mail to folders
+  href: help/en/email/inbox/moving-email-to-folders.html
+- uid: help-en-moving-fields
+  name: Moving fields web
+  href: help/en/custom-objects/udef/moving-fields.html
+- uid: help-en-moving-follow-ups-from-activities-list-to-diary
+  name: Moving follow-ups from the activities list to the diary
+  href: help/en/diary/moving-follow-ups-from-activities-list-to-diary.html
+- uid: help-en-moving-follow-ups-to-different-time
+  name: Moving follow-ups to a different time
+  href: help/en/diary/moving-follow-ups-to-different-time.html
+- uid: help-en-moving-follow-ups-using-drag-and-drop
+  name: Moving follow-ups using drag and drop
+  href: help/en/diary/moving-follow-ups-using-drag-and-drop.html
+- uid: help-en-not-adding-email-address-to-superoffice-sales-marketing
+  name: Not adding an email address to SuperOffice Sales Marketing
+  href: help/en/email/maillink/not-adding-email-address-to-superoffice-sales-marketing.html
+- uid: help-en-note
+  name: Note
+  href: help/en/diary/note.html
+- uid: help-en-notepad
+  name: Notepad
+  href: help/en/getting-started/notepad.html
+- uid: help-en-number-allocation
+  name: Number allocation
+  href: help/en/settings/options/number-allocation.html
+- uid: help-en-old-editor
+  name: The old editor
+  href: help/en/marketing/editor/old/index.html
+- uid: help-en-open-from-archive
+  name: Opening reports in the report archive
+  href: help/en/reports/open-from-archive.html
+- uid: help-en-opening-attachments-or-saving-them-on-disk
+  name: Opening attachments or saving them on disk
+  href: help/en/email/inbox/opening-attachments-or-saving-them-on-disk.html
+- uid: help-en-opening-follow-ups
+  name: Opening Follow-ups
+  href: help/en/diary/opening-follow-ups.html
+- uid: help-en-opening-follow-ups-via-diary
+  name: Opening follow-ups via the Diary
+  href: help/en/diary/opening-follow-ups-via-diary.html
+- uid: help-en-options
+  name: Options
+  href: help/en/settings/options/index.html
+- uid: help-en-options-dialog/index
+  name: Email options dialog
+  href: help/en/email/maillink/options-dialog/index.html
+- uid: help-en-other-options
+  name: Other options
+  href: help/en/email/maillink/options-dialog/other-options.html
+- uid: help-en-other-users
+  name: Other users
+  href: help/en/user-management/other-users.html
+- uid: help-en-our-companies
+  name: Our companies web
+  href: help/en/user-management/our-companies.html
+- uid: help-en-page-1-fields
+  name: page 1 fields web
+  href: help/en/custom-objects/udef/page-1-fields.html
+- uid: help-en-parameter-examples
+  name: Parameter examples
+  href: help/en/orphans/parameter-examples.html
+- uid: help-en-performing-mail-merge-for-projects
+  name: Performing mail merge for projects
+  href: help/en/project/project-members/create-mailing.html
+- uid: help-en-phone-call
+  name: Phone call
+  href: help/en/diary/phone-call.html
+- uid: help-en-phone-preferences
+  name: Phone preferences
+  href: help/en/diary/phone-preferences.html
+- uid: help-en-preferences
+  name: Preferences
+  href: help/en/getting-started/preferences.html
+- uid: help-en-preferences-tab
+  name: Preferences tab
+  href: help/en/settings/preferences/preferences-tab/index.html
+- uid: help-en-preview-field
+  name: preview field
+  href: help/en/email/inbox/preview-field.html
+- uid: help-en-printing-email
+  name: Printing e mail
+  href: help/en/email/inbox/printing-email.html
+- uid: help-en-printing-follow-ups
+  name: Printing follow-ups
+  href: help/en/diary/printing-follow-ups.html
+- uid: help-en-printing-from-diary
+  name: Printing from the Diary
+  href: help/en/diary/printing-from-diary.html
+- uid: help-en-privacy
+  name: privacy
+  href: help/en/person/gdpr/index.html
+- uid: help-en-privacy-legal-base-add
+  name: Privacy Legal base add
+  href: help/en/person/gdpr/privacy-legal-base-add.html
+- uid: help-en-privacy-source-add
+  name: Privacy Source add
+  href: help/en/person/gdpr/privacy-source-add.html
+- uid: help-en-project
+  name: Project
+  href: help/en/project/admin/project-guide.html
+- uid: help-en-project-add-image
+  name: Add a project image
+  href: help/en/project/add-image.html
+- uid: help-en-project-add-links
+  name: Add links from the Project screen
+  href: help/en/project/add-links.html
+- uid: help-en-projectcard-tab-note
+  name: projectcard tab note
+  href: help/en/clients/sales/project/projectcard-tab-note.html
+- uid: help-en-project-create
+  name: Creating projects
+  href: help/en/project/create.html
+- uid: help-en-project-edit
+  name: Editing projects
+  href: help/en/project/edit.html
+- uid: help-en-project-guide
+  name: Project guide
+  href: help/en/project/project-guide/index.html
+- uid: help-en-projectguide-detail
+  name: Projectguide detail
+  href: help/en/clients/sales/project/projectguide-detail.html
+- uid: help-en-project-guide-example
+  name: Example project guide
+  href: help/en/project/project-guide/example-projectguide.html
+- uid: help-en-project-members
+  name: Project members
+  href: help/en/project/project-members/index.html
+- uid: help-en-project-members-tab
+  name: Project members
+  href: help/en/clients/sales/project/project-members.html
+- uid: help-en-project-print
+  name: Printing projects
+  href: help/en/project/print.html
+- uid: help-en-project-screen-section-tabs
+  name: Project screen section tabs
+  href: help/en/clients/sales/project/project-screen-section-tabs.html
+- uid: help-en-projects-delete
+  name: Deleting projects
+  href: help/en/project/delete.html
+- uid: help-en-project-status
+  name: Project - Status
+  href: help/en/project/admin/project-status.html
+- uid: help-en-project-type
+  name: Project - Type
+  href: help/en/project/admin/project-type.html
+- uid: help-en-quote
+  name: Work with quotes
+  href: help/en/sale/quote/index.html
+- uid: help-en-quote-add-alternative
+  name: quote add alternative
+  href: help/en/sale/quote/add-alternative.html
+- uid: help-en-quote-add-products
+  name: Add products to quote
+  href: help/en/sale/quote/add-product.html
+- uid: help-en-quote-approve
+  name: Approve quote before sending
+  href: help/en/sale/quote/approve.html
+- uid: help-en-quote-choose-erp-connection
+  name: Select ERP connection
+  href: help/en/sale/quote/choose-erp-connection.html
+- uid: help-en-quote-copy
+  name: Copy a quote
+  href: help/en/sale/quote/copy.html
+- uid: help-en-quote-create
+  name: Create a quote
+  href: help/en/sale/quote/create.html
+- uid: help-en-quote-create-order
+  name: quote create order
+  href: help/en/sale/quote/create-order.html
+- uid: help-en-quote-create-quote-document
+  name: quote create quote document
+  href: help/en/sale/quote/create-quote-document.html
+- uid: help-en-quote-delete-deactivate-pricelist-or-product
+  name: quote delete deactivate pricelist or product
+  href: help/en/sale/quote/quote-sync/product/quote-delete-deactivate-pricelist-or-product.html
+- uid: help-en-quote-detailcard
+  name: quote detailcard
+  href: help/en/clients/sales/sale/quote-detailcard.html
+- uid: help-en-quote-dlg-edit-quote
+  name: quote dlg edit quote
+  href: help/en/clients/sales/sale/quote-dlg-edit-quote.html
+- uid: help-en-quote-send
+  name: quote send
+  href: help/en/sale/quote/send.html
+- uid: help-en-quote-sync
+  name: quote sync
+  href: help/en/sale/quote/quote-sync/index.html
+- uid: help-en-quotesync-tab-erp-connections
+  name: quotesync tab ERP connections
+  href: help/en/sale/quote/quote-sync/quotesync-tab-erp-connections.html
+- uid: help-en-quotesync-tab-settings
+  name: quotesync tab settings
+  href: help/en/sale/quote/quote-sync/quotesync-tab-settings.html
+- uid: help-en-quotesync-tabs-so-products
+  name: quotesync tabs SO products
+  href: help/en/sale/quote/quote-sync/product/index.html
+- uid: help-en-quotesync-tab-sync
+  name: quotesync tab sync
+  href: help/en/sale/quote/quote-sync/sync/index.html
+- uid: help-en-quote-versions
+  name: Edit a sent quote (versions)
+  href: help/en/sale/quote/versions.html
+- uid: help-en-receive-invitations
+  name: Receive invitations
+  href: help/en/email/inbox/receive-invitations.html
+- uid: help-en-receive-response
+  name: Receive response
+  href: help/en/diary/receive-response.html
+- uid: help-en-receiving-invitations
+  name: Receiving invitations
+  href: help/en/diary/receiving-invitations.html
+- uid: help-en-refresh-data
+  name: Refreshing data
+  href: help/en/getting-started/refresh-data.html
+- uid: help-en-regenerating-freetext-index
+  name: Regenerating a freetext index
+  href: help/en/settings/options/freetext-search/regenerating-freetext-index.html
+- uid: help-en-relation
+  name: Relation
+  href: help/en/settings/lists/relation.html
+- uid: help-en-removing-label-formats
+  name: Removing label formats
+  href: help/en/reports/labels/remove-format.html
+- uid: help-en-replace-existing-template
+  name: Replace existing template
+  href: help/en/settings/lists/replace-existing-template.html
+- uid: help-en-replying-to-e-mail-from-activities-section-tab
+  name: Replying to e-mail from the Activities section tab
+  href: help/en/company/replying-to-email-from-activities-section-tab.html
+- uid: help-en-reply-template-category
+  name: Create custom layout for replies using categories
+  href: help/en/request/reply-templates/custom-category.html
+- uid: help-en-report-archive
+  name: Report archive
+  href: help/en/clients/sales/reports/report-archive.html
+- uid: help-en-report-labels
+  name: Displaying labels
+  href: help/en/reports/labels/index.html
+- uid: help-en-report-list
+  name: Report list
+  href: help/en/clients/sales/reports/report-list.html
+- uid: help-en-reports
+  name: Reports
+  href: help/en/reports/index.html
+- uid: help-en-reports-print
+  name: Printing reports
+  href: help/en/reports/print.html
+- uid: help-en-reports-print-labels
+  name: Printing labels
+  href: help/en/reports/labels/print-labels.html
+- uid: help-en-reports-screen
+  name: Reports screen
+  href: help/en/clients/sales/reports/reports-screen.html
+- uid: help-en-reports-view
+  name: Viewing reports
+  href: help/en/reports/view.html
+- uid: help-en-request-category
+  name: Categories
+  href: help/en/request/category/index.html
+- uid: help-en-request-category-create
+  name: Create category
+  href: help/en/request/category/create.html
+- uid: help-en-request-category-delete
+  name: Delete category
+  href: help/en/request/category/delete.html
+- uid: help-en-request-escalation
+  name: Escalation levels
+  href: help/en/request/priority/escalation-levels.html
+- uid: help-en-request-priority
+  name: Request priorities
+  href: help/en/request/priority/index.html
+- uid: help-en-request-priority-create
+  name: Create priority
+  href: help/en/request/priority/create.html
+- uid: help-en-request-priority-delete
+  name: Delete priority
+  href: help/en/request/priority/delete.html
+- uid: help-en-request-status
+  name: Request status
+  href: help/en/request/status/index.html
+- uid: help-en-request-status-create
+  name: Create request status
+  href: help/en/request/status/create.html
+- uid: help-en-request-status-delete
+  name: Delete request status
+  href: help/en/request/status/delete.html
+- uid: help-en-resetting-field-mapping
+  name: Resetting field mapping
+  href: help/en/win-client/import/resetting-field-mapping.html
+- uid: help-en-resetting-labels
+  name: Resetting labels
+  href: help/en/settings/options/resetting-labels.html
+- uid: help-en-resetting-rules-for-duplicate-handling
+  name: Resetting rules for duplicate handling
+  href: help/en/win-client/import/resetting-rules-for-duplicate-handling.html
+- uid: help-en-resizing-screen-elements
+  name: Resizing screen elements
+  href: help/en/clients/howto/resizing-screen-elements.html
+- uid: help-en-resource
+  name: Resource
+  href: help/en/settings/lists/resource.html
+- uid: help-en-restore-deleted-companies-and-contacts
+  name: Restore deleted companies and contacts
+  href: help/en/getting-started/restore-deleted-companies-and-contacts.html
+- uid: help-en-restore-deleted-status-web
+  name: Restore deleted status web
+  href: help/en/sale/saint/admin/restore-deleted-status-web.html
+- uid: help-en-rms-search
+  name: rms search
+  href: help/en/search-options/in-service/index.html
+- uid: help-en-rms-search-searchresult
+  name: rms search searchResult
+  href: help/en/search-options/in-service/customize-presentation.html
+- uid: help-en-rms-search-usequicksearch
+  name: rms search useQuickSearch
+  href: help/en/search-options/in-service/quick-search.html
+- uid: help-en-role
+  name: Role
+  href: help/en/user-management/role/index.html
+- uid: help-en-saint
+  name: Status monitor
+  href: help/en/sale/saint/index.html
+- uid: help-en-sale
+  name: Sale
+  href: help/en/clients/admin/sales-guide.html
+- uid: help-en-sale-amount-class
+  name: Sale - Amount class
+  href: help/en/sale/admin/sale-amount-class.html
+- uid: help-en-sale-create
+  name: Record a sale
+  href: help/en/sale/create.html
+- uid: help-en-sale-delete
+  name: Delete a sale
+  href: help/en/sale/delete.html
+- uid: help-en-sale-print
+  name: Print a sale
+  href: help/en/sale/print.html
+- uid: help-en-sale-sales-role-stakeholders
+  name: Sale - Sales role (Stakeholders)
+  href: help/en/sale/stakeholders/sales-role-stakeholders.html
+- uid: help-en-sale-sales-type-for-stages
+  name: Sale - Sales type (for stages)
+  href: help/en/clients/admin/sales-type-for-stages.html
+- uid: help-en-sale-screen-section-tabs
+  name: sale screen section tabs
+  href: help/en/clients/sales/sale/sale-screen-section-tabs.html
+- uid: help-en-sales-guide
+  name: sales guide
+  href: help/en/sale/sales-guide/index.html
+- uid: help-en-salesguide-detailcard
+  name: Salesguide detailcard
+  href: help/en/clients/sales/sale/salesguide-detailcard.html
+- uid: help-en-sale-stage
+  name: Sale - Stage
+  href: help/en/clients/admin/sale-stage.html
+- uid: help-en-sale-stages
+  name: Status of a sale sold and lost
+  href: help/en/sale/stages.html
+- uid: help-en-sales-targets
+  name: Sales targets
+  href: help/en/sale/sales-targets.html
+- uid: help-en-saving-reports-as-files
+  name: Saving reports as files
+  href: help/en/reports/save.html
+- uid: help-en-screen-designer
+  name: Screen designer
+  href: help/en/ui/screen-designer/index.html
+- uid: help-en-screendesigner-add-new-layout
+  name: ScreenDesigner Add new layout
+  href: help/en/ui/screen-designer/add-new-layout.html
+- uid: help-en-screendesigner-edit-layout
+  name: ScreenDesigner Edit layout
+  href: help/en/ui/screen-designer/edit-layout.html
+- uid: help-en-screen-designer-elements
+  name: Elements in the Screen Designer
+  href: help/en/ui/screen-designer/elements.html
+- uid: help-en-search-criteria-reports
+  name: Search criteria reports
+  href: help/en/reports/search-criteria-reports.html
+- uid: help-en-searching-for-sender-of-email
+  name: Searching for the sender of an email
+  href: help/en/email/maillink/searching-for-sender-of-email.html
+- uid: help-en-search-in-service-navigator
+  name: Navigator options
+  href: help/en/search-options/in-service/in-navigator.html
+- uid: help-en-search-kb
+  name: Search for contents in the knowledge base
+  href: help/en/search-options/in-service/search-kb.html
+- uid: help-en-search-options-in-crm
+  name: Search options in CRM
+  href: help/en/search-options/index.html
+- uid: help-en-sections-tabs-grouping-lists
+  name: Sections tabs Grouping lists
+  href: help/en/clients/howto/sections-tabs-grouping-lists.html
+- uid: help-en-section-tabs
+  name: The Section tabs
+  href: help/en/clients/howto/section-tabs.html
+- uid: help-en-section-tabs-in-selection-screen
+  name: Section tabs in the Selection screen
+  href: help/en/clients/sales/selections/section-tabs-in-selection-screen.html
+- uid: help-en-select-default-follow-up-type-for-status
+  name: Select default follow-up type for status
+  href: help/en/sale/saint/admin/select-default-follow-up-type-for-status.html
+- uid: help-en-select-image-for-status
+  name: Select image for status
+  href: help/en/sale/saint/admin/select-image-for-status.html
+- uid: help-en-selecting-recipients
+  name: Selecting recipients
+  href: help/en/email/maillink/selecting-recipients.html
+- uid: help-en-selection
+  name: Selection
+  href: help/en/search-options/selections/index.html
+- uid: help-en-selection-add-members
+  name: Adding members to static selections
+  href: help/en/search-options/selections/update/add-members-to-static.html
+- uid: help-en-selection-bulk-update
+  name: Selection task bulk update
+  href: help/en/search-options/selections/howto/bulk-update.html
+- uid: help-en-selection-combined
+  name: Combined selections
+  href: help/en/search-options/selections/combined-selections.html
+- uid: help-en-selection-copy
+  name: Copying selections
+  href: help/en/search-options/selections/create/copy.html
+- uid: help-en-selection-copy-members-to
+  name: Copying into selections
+  href: help/en/search-options/selections/update/copy-members-to.html
+- uid: help-en-selection-create
+  name: Create selection
+  href: help/en/search-options/selections/create/index.html
+- uid: help-en-selection-delete
+  name: Deleting selections
+  href: help/en/search-options/selections/update/delete.html
+- uid: help-en-selection-display-as-charts
+  name: Display selections as charts
+  href: help/en/search-options/selections/howto/display-as-charts.html
+- uid: help-en-selection-export-to-file
+  name: Exporting to file
+  href: help/en/search-options/selections/howto/export-to-file.html
+- uid: help-en-selection-generate-follow-ups
+  name: Generating follow-ups
+  href: help/en/search-options/selections/howto/generate-follow-ups.html
+- uid: help-en-selection-list-of-members
+  name: The List of Members
+  href: help/en/clients/sales/selections/list-of-members.html
+- uid: help-en-selection-mailings-section-tab
+  name: Mailings section tab
+  href: help/en/clients/sales/selections/mailings-section-tab.html
+- uid: help-en-selection-print-company-reports
+  name: Printing company reports
+  href: help/en/search-options/selections/howto/print-company-reports.html
+- uid: help-en-selection-print-labels
+  name: Printing labels Selection
+  href: help/en/search-options/selections/howto/print-labels.html
+- uid: help-en-selection-remove-members
+  name: Removing members from static selections
+  href: help/en/search-options/selections/update/remove-members-from-static.html
+- uid: help-en-selections
+  name: selections
+  href: help/en/search-options/selections/in-service/index.html
+- uid: help-en-selections-deleterecords
+  name: selections deleterecords
+  href: help/en/search-options/selections/in-service/deleterecords.html
+- uid: help-en-selections-deleteselection
+  name: selections deleteSelection
+  href: help/en/search-options/selections/in-service/deleteselection.html
+- uid: help-en-selections-dynamic
+  name: Dynamic selections
+  href: help/en/search-options/selections/dynamic-selections.html
+- uid: help-en-selections-editselection2
+  name: selections editSelection2
+  href: help/en/search-options/selections/in-service/editselection2.html
+- uid: help-en-selections-editselection2-editprofile
+  name: selections editSelection2 editProfile
+  href: help/en/search-options/selections/in-service/editselection2.editprofile.html
+- uid: help-en-selections-editselectionfolder
+  name: selections editSelectionFolder
+  href: help/en/search-options/selections/in-service/editselectionfolder.html
+- uid: help-en-selection-send-email
+  name: Sending email to several recipients simultaneously
+  href: help/en/search-options/selections/howto/send-email.html
+- uid: help-en-selections-listselections
+  name: selections listSelections
+  href: help/en/search-options/selections/in-service/listselections.html
+- uid: help-en-selections-new
+  name: New selection
+  href: help/en/search-options/selections/in-service/newselection.html
+- uid: help-en-selections-newselection-newcombiselection
+  name: selections newSelection newCombiSelection
+  href: help/en/search-options/selections/in-service/newselection.newcombiselection.html
+- uid: help-en-selections-newselection-newdynamicselection
+  name: selections newSelection newDynamicSelection
+  href: help/en/search-options/selections/in-service/newselection.newdynamicselection.html
+- uid: help-en-selections-newselection-newscriptselection
+  name: selections newSelection newScriptSelection
+  href: help/en/search-options/selections/in-service/newselection.newscriptselection.html
+- uid: help-en-selections-newselection-newselection
+  name: selections newSelection newSelection
+  href: help/en/search-options/selections/in-service/newselection.newselection.html
+- uid: help-en-selections-newselection-newstatselection
+  name: selections newSelection newStatSelection
+  href: help/en/search-options/selections/in-service/newselection.newstatselection.html
+- uid: help-en-selection-static
+  name: Static selections
+  href: help/en/search-options/selections/static-selections.html
+- uid: help-en-selections-updateselection
+  name: selections updateSelection
+  href: help/en/search-options/selections/in-service/updateselection.html
+- uid: help-en-selection-tab-company-contact
+  name: selection tab Company contact
+  href: help/en/clients/sales/selections/selection-tab-company-contact.html
+- uid: help-en-selection-tab-criteria
+  name: selection tab Criteria
+  href: help/en/clients/sales/selections/selection-tab-criteria.html
+- uid: help-en-selection-tab-details
+  name: selection tab Details
+  href: help/en/clients/sales/selections/selection-tab-details.html
+- uid: help-en-selection-update
+  name: Editing Selections
+  href: help/en/search-options/selections/update/index.html
+- uid: help-en-selection-user
+  name: Performing tasks using selections
+  href: help/en/search-options/selections/howto/index.html
+- uid: help-en-select-period-length
+  name: Select period length
+  href: help/en/sale/saint/admin/select-period-length.html
+- uid: help-en-select-status-criteria
+  name: Select status criteria
+  href: help/en/sale/saint/admin/select-status-criteria.html
+- uid: help-en-sending-follow-ups
+  name: Sending follow-ups
+  href: help/en/diary/sending-follow-ups.html
+- uid: help-en-send-privacy-confirmation-email
+  name: Send privacy confirmation email
+  href: help/en/person/gdpr/send-privacy-confirmation-email.html
+- uid: help-en-service-mailbox-create
+  name: Create mailboxes
+  href: help/en/email/service/mailboxes/create-mailbox.html
+- uid: help-en-service-mailbox-delete
+  name: Delete mailboxes
+  href: help/en/email/service/mailboxes/delete-mailbox.html
+- uid: help-en-service-mailboxes
+  name: admin listFilters listFilters
+  href: help/en/email/service/mailboxes/index.html
+- uid: help-en-service-mailboxes-in
+  name: Inbox for email
+  href: help/en/email/service/tab-inbox-for-email.html
+- uid: help-en-service-mailboxes-out
+  name: Outbox for email
+  href: help/en/email/service/tab-outbox-for-email.html
+- uid: help-en-service-settings
+  name: System settings
+  href: help/en/settings/in-service/index.html
+- uid: help-en-service-settings-personal
+  name: Personal settings
+  href: help/en/settings/personal-settings/index.html
+- uid: help-en-service-settings-personal-category
+  name: Category membership
+  href: help/en/settings/personal-settings/category-membership.html
+- uid: help-en-service-settings-personal-interface
+  name: Interface
+  href: help/en/settings/personal-settings/interface.html
+- uid: help-en-service-settings-personal-notification
+  name: Notification
+  href: help/en/settings/personal-settings/notification.html
+- uid: help-en-service-settings-personal-other
+  name: Other groups
+  href: help/en/settings/personal-settings/other-groups.html
+- uid: help-en-service-settings-personal-password
+  name: Password
+  href: help/en/settings/personal-settings/password.html
+- uid: help-en-service-settings-personal-preferences
+  name: Preferences
+  href: help/en/settings/personal-settings/preferences.html
+- uid: help-en-service-settings-personal-signature
+  name: Signature
+  href: help/en/settings/personal-settings/signature.html
+- uid: help-en-service-settings-personal-user-info
+  name: User information
+  href: help/en/settings/personal-settings/user-info.html
+- uid: help-en-service-settings-system
+  name: System settings
+  href: help/en/settings/in-service/system.html
+- uid: help-en-service-settings-system-password
+  name: Password
+  href: help/en/settings/in-service/password.html
+- uid: help-en-service-settings-system-settings
+  name: Settings
+  href: help/en/settings/in-service/settings.html
+- uid: help-en-service-settings-system-sms
+  name: SMS
+  href: help/en/settings/in-service/sms.html
+- uid: help-en-service-settings-system-smtp
+  name: SMTP
+  href: help/en/settings/in-service/smtp.html
+- uid: help-en-service-statistics
+  name: Statistics
+  href: help/en/dashboard/in-service/statistics/index.html
+- uid: help-en-service-statistics-invoice
+  name: Invoice statistics
+  href: help/en/dashboard/in-service/statistics/invoice.html
+- uid: help-en-service-statistics-login
+  name: Login statistics
+  href: help/en/dashboard/in-service/statistics/login.html
+- uid: help-en-service-statistics-report-create
+  name: Create new report
+  href: help/en/dashboard/in-service/statistics/create-report.html
+- uid: help-en-service-statistics-reports
+  name: Reports
+  href: help/en/dashboard/in-service/statistics/reports.html
+- uid: help-en-service-statistics-request
+  name: Request statistics
+  href: help/en/dashboard/in-service/statistics/request.html
+- uid: help-en-service-statistics-standard
+  name: Standard reports
+  href: help/en/dashboard/in-service/statistics/standard-reports.html
+- uid: help-en-set-data-rights-for-role
+  name: Set data rights for role
+  href: help/en/user-management/role/set-data-rights-for-role.html
+- uid: help-en-setting-alarm-for-follow-ups
+  name: Setting an alarm for follow-ups
+  href: help/en/diary/setting-alarm-for-follow-ups.html
+- uid: help-en-settings
+  name: Settings
+  href: help/en/email/gmaillink/settings.html
+- uid: help-en-settings-configure-product
+  name: settings configure product
+  href: help/en/sale/quote/quote-sync/product/settings-configure-product.html
+- uid: help-en-showallactivitiesdocs
+  name: ShowAllActivitiesDocs
+  href: help/en/sale/sales-guide/show-all-activities.html
+- uid: help-en-showing-follow-ups-you-are-invited-to
+  name: Showing follow-ups you are invited to
+  href: help/en/diary/showing-follow-ups-you-are-invited-to.html
+- uid: help-en-showing-report-properties
+  name: Showing report properties
+  href: help/en/reports/showing-report-properties.html
+- uid: help-en-sign-in-to-superoffice
+  name: Logging in
+  href: help/en/getting-started/login.html
+- uid: help-en-sms-inbox
+  name: admin listFilters viewSMS inbox
+  href: help/en/email/service/mailboxes/sms-inbox.html
+- uid: help-en-sms-outbox
+  name: admin listFilters viewSMS
+  href: help/en/email/service/mailboxes/sms-outbox.html
+- uid: help-en-so-add-pricelist
+  name: SO add pricelist
+  href: help/en/sale/quote/quote-sync/product/so-add-pricelist.html
+- uid: help-en-so-add-product-to-pricelist
+  name: SO add product to pricelist
+  href: help/en/sale/quote/quote-sync/product/so-add-product-to-pricelist.html
+- uid: help-en-sorting-lists
+  name: Sorting lists
+  href: help/en/clients/howto/sorting-lists.html
+- uid: help-en-so-select-product-image
+  name: SO select product image
+  href: help/en/sale/quote/quote-sync/product/so-select-product-image.html
+- uid: help-en-specialized-lists
+  name: Specialized lists
+  href: help/en/settings/lists/specialized-lists.html
+- uid: help-en-specifying-advanced-import-settings
+  name: Specifying advanced import settings
+  href: help/en/win-client/import/specifying-advanced-import-settings.html
+- uid: help-en-specifying-field-mapping
+  name: Specifying field mapping
+  href: help/en/win-client/import/specifying-field-mapping.html
+- uid: help-en-specifying-number-allocation
+  name: Specifying number allocation
+  href: help/en/settings/options/specifying-number-allocation.html
+- uid: help-en-specifying-search-criteria
+  name: Specifying search criteria
+  href: help/en/settings/options/freetext-search/specifying-search-criteria.html
+- uid: help-en-stakeholder-create
+  name: Create stakeholders
+  href: help/en/sale/stakeholders/create-stakeholders.html
+- uid: help-en-stakeholders
+  name: StakeHolders
+  href: help/en/sale/stakeholders/index.html
+- uid: help-en-standard-reports
+  name: Standard Reports
+  href: help/en/reports/standard-reports.html
+- uid: help-en-status-dialog
+  name: Status dialog
+  href: help/en/sale/saint/status-dialog.html
+- uid: help-en-status-monitor
+  name: Status monitor
+  href: help/en/sale/saint/admin/index.html
+- uid: help-en-status-of-invitations
+  name: Status of invitations
+  href: help/en/diary/status-of-invitations.html
+- uid: help-en-status-screen
+  name: Status screen
+  href: help/en/win-client/status-screen.html
+- uid: help-en-status-tab
+  name: The Status tab
+  href: help/en/license/status-tab.html
+- uid: help-en-stopping-recurring-follow-ups
+  name: Stopping recurring follow-ups
+  href: help/en/diary/stopping-recurring-follow-ups.html
+- uid: help-en-stopwords
+  name: Stopwords
+  href: help/en/settings/options/freetext-search/stopwords.html
+- uid: help-en-suggesting-stopwords
+  name: Suggesting stopwords
+  href: help/en/settings/options/freetext-search/suggesting-stopwords.html
+- uid: help-en-superoffice-account
+  name: SuperOffice Account
+  href: help/en/email/maillink/options-dialog/superoffice-account.html
+- uid: help-en-superoffice-crm
+  name: SuperOffice CRM
+  href: help/en/getting-started/about-standard-crm.html
+- uid: help-en-superoffice-reports-access-rights
+  name: SuperOffice reports access rights
+  href: help/en/user-management/superoffice-reports-access-rights.html
+- uid: help-en-sync-add-erp-connection
+  name: sync add erp connection
+  href: help/en/sale/quote/quote-sync/sync/sync-add-erp-connection.html
+- uid: help-en-sync-configure-default-values
+  name: sync configure default values
+  href: help/en/sale/quote/quote-sync/sync/sync-configure-default-values.html
+- uid: help-en-sync-configure-field-allocation
+  name: sync configure field allocation
+  href: help/en/sale/quote/quote-sync/sync/sync-configure-field-allocation.html
+- uid: help-en-sync-configure-list-mapping
+  name: sync configure list mapping
+  href: help/en/sale/quote/quote-sync/sync/sync-configure-list-mapping.html
+- uid: help-en-sync-connector-add
+  name: sync connector add
+  href: help/en/sale/quote/quote-sync/sync/sync-connector-add.html
+- uid: help-en-sync-edit-erp-connection
+  name: sync edit ERP connection
+  href: help/en/sale/quote/quote-sync/sync/sync-edit-erp-connection.html
+- uid: help-en-sync-import-from-erp
+  name: sync import from erp(sync)
+  href: help/en/sale/quote/quote-sync/sync/sync-import-from-erp.html
+- uid: help-en-sync-rank-fields-shown-in-erp-tab
+  name: sync rank fields shown in the ERP tab
+  href: help/en/sale/quote/quote-sync/sync/sync-rank-fields-shown-in-erp-tab.html
+- uid: help-en-sync-resync-from-crm
+  name: sync resync from CRM
+  href: help/en/sale/quote/quote-sync/sync/sync-resync-from-crm.html
+- uid: help-en-sync-set-sync-priority
+  name: sync set sync priority
+  href: help/en/sale/quote/quote-sync/sync/sync-set-sync-priority.html
+- uid: help-en-system-design
+  name: System design
+  href: help/en/clients/admin/system-design.html
+- uid: help-en-system-events
+  name: System events
+  href: help/en/license/system-events.html
+- uid: help-en-task
+  name: Task
+  href: help/en/diary/task.html
+- uid: help-en-technical-requirements
+  name: Technical requirements
+  href: help/en/getting-started/technical-requirements.html
+- uid: help-en-template-variables
+  name: Template variables
+  href: help/en/document/template-variables.html
+- uid: help-en-template-variables-service
+  name: Template variables
+  href: help/en/request/template-variables.html
+- uid: help-en-text-analysis
+  name: Text analysis
+  href: help/en/ai/text-analysis.html
+- uid: help-en-ticket
+  name: ticket
+  href: help/en/request/index.html
+- uid: help-en-ticket-autosave
+  name: ticket autosave
+  href: help/en/request/autosave.html
+- uid: help-en-ticket-deleteticket
+  name: ticket deleteTicket
+  href: help/en/request/deleteticket.html
+- uid: help-en-ticket-listextratables
+  name: ticket listExtraTables
+  href: help/en/request/listextratables.html
+- uid: help-en-ticket-listticket
+  name: ticket listTicket
+  href: help/en/request/listticket.html
+- uid: help-en-ticket-listtickets
+  name: ticket listTickets
+  href: help/en/request/listtickets.html
+- uid: help-en-ticket-listtickets-findtickets
+  name: ticket listTickets findTickets
+  href: help/en/request/listtickets.findtickets.html
+- uid: help-en-ticket-listtickets-searchticketlog
+  name: ticket listTickets searchTicketLog
+  href: help/en/request/listtickets.searchticketlog.html
+- uid: help-en-ticket-listtickets-showlisttickets
+  name: ticket listTickets showListTickets
+  href: help/en/request/listtickets.showlisttickets.html
+- uid: help-en-ticket-listtickets-uselists
+  name: ticket listTickets useLists
+  href: help/en/request/listtickets.uselists.html
+- uid: help-en-ticket-newquickticket
+  name: ticket newQuickTicket
+  href: help/en/request/newquickticket.html
+- uid: help-en-ticket-newticket
+  name: ticket newTicket
+  href: help/en/request/newticket.html
+- uid: help-en-ticket-receivetickets
+  name: ticket receiveTickets
+  href: help/en/request/receivetickets.html
+- uid: help-en-ticket-showlisttickets
+  name: ticket showListTickets
+  href: help/en/request/showlisttickets.html
+- uid: help-en-ticket-showlisttickets-acceptrequest
+  name: ticket showListTickets acceptRequest
+  href: help/en/request/showlisttickets.acceptrequest.html
+- uid: help-en-ticket-showlisttickets-addmassmessage
+  name: ticket showListTickets addMassMessage
+  href: help/en/request/showlisttickets.addmassmessage.html
+- uid: help-en-ticket-showlisttickets-addmessage
+  name: ticket showListTickets addMessage
+  href: help/en/request/showlisttickets.addmessage.html
+- uid: help-en-ticket-showlisttickets-askforhelp
+  name: ticket showListTickets askForHelp
+  href: help/en/request/showlisttickets.askforhelp.html
+- uid: help-en-ticket-showlisttickets-closetickets
+  name: ticket showListTickets closeTickets
+  href: help/en/request/showlisttickets.closetickets.html
+- uid: help-en-ticket-showlisttickets-editmessage
+  name: ticket showListTickets editMessage
+  href: help/en/request/showlisttickets.editmessage.html
+- uid: help-en-ticket-showlisttickets-forward
+  name: ticket showListTickets forward
+  href: help/en/request/showlisttickets.forward.html
+- uid: help-en-ticket-showlisttickets-hotlist
+  name: ticket showListTickets hotlist
+  href: help/en/request/showlisttickets.hotlist.html
+- uid: help-en-ticket-showlisttickets-listticketlog
+  name: ticket showListTickets listTicketLog
+  href: help/en/request/showlisttickets.listticketlog.html
+- uid: help-en-ticket-showlisttickets-massforward
+  name: ticket showListTickets massForward
+  href: help/en/request/showlisttickets.massforward.html
+- uid: help-en-ticket-showlisttickets-mergetickets
+  name: ticket showListTickets mergeTickets
+  href: help/en/request/showlisttickets.mergetickets.html
+- uid: help-en-ticket-showlisttickets-message-keeptrack
+  name: ticket showListTickets Message keeptrack
+  href: help/en/request/showlisttickets.message-keeptrack.html
+- uid: help-en-ticket-showlisttickets-splitmessage
+  name: ticket showListTickets splitMessage
+  href: help/en/request/showlisttickets.splitmessage.html
+- uid: help-en-ticket-showlisttickets-splitticket
+  name: ticket showListTickets splitTicket
+  href: help/en/request/showlisttickets.splitticket.html
+- uid: help-en-ticket-tags
+  name: ticket tags
+  href: help/en/request/tags.html
+- uid: help-en-ticket-ticketstepbystep
+  name: ticket ticketStepByStep
+  href: help/en/request/ticket.ticketstepbystep.html
+- uid: help-en-timezones
+  name: timezones
+  href: help/en/settings/options/timezones.html
+- uid: help-en-time-zones
+  name: Time zones
+  href: help/en/diary/time-zones.html
+- uid: help-en-tracing
+  name: Tracing
+  href: help/en/automation/tracing.html
+- uid: help-en-tracked-links-examples
+  name: Examples of the use of trackable links
+  href: help/en/marketing/tracked-links/examples.html
+- uid: help-en-tracked-links-reset
+  name: Reset counters for links
+  href: help/en/marketing/tracked-links/reset-counter.html
+- uid: help-en-tracked-links-view
+  name: Work with tracked links after the mailing
+  href: help/en/marketing/tracked-links/explore-clicks.html
+- uid: help-en-translate-fields
+  name: Translate fields
+  href: help/en/globalization/translate-fields.html
+- uid: help-en-turning-default-archiving-on-off
+  name: Turning default archiving on off
+  href: help/en/email/maillink/turning-default-archiving-on-off.html
+- uid: help-en-udef
+  name: Fields web
+  href: help/en/custom-objects/udef/index.html
+- uid: help-en-udef-add
+  name: Adding fields
+  href: help/en/custom-objects/udef/adding-fields.html
+- uid: help-en-ui-global-buttons
+  name: Global Buttons
+  href: help/en/getting-started/global-buttons.html
+- uid: help-en-ui-main-screen
+  name: Main screen
+  href: help/en/getting-started/main-screen.html
+- uid: help-en-ui-navigator
+  name: Navigator
+  href: help/en/getting-started/navigator.html
+- uid: help-en-ui-requests
+  name: requests
+  href: help/en/clients/admin/requests/index.html
+- uid: help-en-ui-side-panel
+  name: Navigating in the mini card
+  href: help/en/getting-started/side-panel.html
+- uid: help-en-ui-top-bar
+  name: Buttons in the menu bar
+  href: help/en/getting-started/buttons-in-menu-bar.html
+- uid: help-en-updating-database
+  name: Updating the database
+  href: help/en/win-client/updating-database.html
+- uid: help-en-updating-rules-for-duplicate-handling
+  name: Updating rules for duplicate handling
+  href: help/en/win-client/import/updating-rules-for-duplicate-handling.html
+- uid: help-en-use-column-filters-in-section-tabs
+  name: Use column filters in the section tabs
+  href: help/en/clients/howto/use-column-filters-in-section-tabs.html
+- uid: help-en-use-filters-in-section-tabs
+  name: Use filters in the section tabs
+  href: help/en/clients/howto/use-filters-in-section-tabs.html
+- uid: help-en-user-edit-service
+  name: Edit users in Service
+  href: help/en/user-management/in-service/edit-user.html
+- uid: help-en-user-group-create-service
+  name: Create user groups
+  href: help/en/user-management/in-service/create-user-group.html
+- uid: help-en-user-group-delete-service
+  name: Delete user groups
+  href: help/en/user-management/in-service/delete-user-group.html
+- uid: help-en-user-group-filtering
+  name: User groups
+  href: help/en/settings/lists/organize/user-group-filtering.html
+- uid: help-en-user-groups
+  name: User groups
+  href: help/en/user-management/user-groups.html
+- uid: help-en-user-licences
+  name: User licences
+  href: help/en/user-management/user-licences.html
+- uid: help-en-users
+  name: Users
+  href: help/en/user-management/index.html
+- uid: help-en-users-associates-filter-group
+  name: users associates filter group
+  href: help/en/user-management/associates-filter-group.html
+- uid: help-en-user-service
+  name: Users (Service)
+  href: help/en/user-management/in-service/index.html
+- uid: help-en-using-document-templates-for-multiple-languages
+  name: using document templates for multiple languages
+  href: help/en/orphans/using-document-templates-for-multiple-languages.html
+- uid: help-en-using-fastsearcher
+  name: Using FastSearcher
+  href: help/en/search-options/using-fastsearcher.html
+- uid: help-en-using-filter-function-contact
+  name: Using the Filter function Contact
+  href: help/en/diary/using-filter-function-contact.html
+- uid: help-en-using-filter-function-reports
+  name: Using the Filter function Reports
+  href: help/en/reports/using-filter-function-reports.html
+- uid: help-en-using-group-view
+  name: Using group view
+  href: help/en/diary/using-group-view.html
+- uid: help-en-using-history-list
+  name: Using the history list
+  href: help/en/search-options/using-history-list.html
+- uid: help-en-using-search-criteria
+  name: Using search criteria
+  href: help/en/search-options/using-search-criteria.html
+- uid: help-en-using-standard-templates
+  name: Using standard templates
+  href: help/en/settings/lists/using-standard-templates.html
+- uid: help-en-using-status-monitors-in-dynamic-selections
+  name: Using status monitors in dynamic selections
+  href: help/en/sale/saint/using-status-monitors-in-dynamic-selections.html
+- uid: help-en-video-meetings
+  name: video meetings
+  href: help/en/diary/video-meetings.html
+- uid: help-en-video-meetings-email-setup
+  name: Email setup for video meetings
+  href: help/en/settings/preferences/video-meetings/email-setup-in-superoffice.html
+- uid: help-en-view-followups-and-documents
+  name: View followups and documents
+  href: help/en/project/project-guide/view-followups-and-documents.html
+- uid: help-en-viewing-activities
+  name: Viewing activities
+  href: help/en/company/view-activities.html
+- uid: help-en-viewing-another-diary
+  name: Viewing another diary
+  href: help/en/diary/viewing-another-diary.html
+- uid: help-en-viewing-number-allocation
+  name: Viewing number allocation
+  href: help/en/settings/options/viewing-number-allocation.html
+- uid: help-en-viewing-preferences-in-superoffice-crm
+  name: Viewing preferences in SuperOffice CRM
+  href: help/en/settings/preferences/preferences-tab/viewing-preferences-in-superoffice-crm.html
+- uid: help-en-viewing-views-for-entire-user-group
+  name: Viewing views for an entire user group
+  href: help/en/diary/viewing-views-for-entire-user-group.html
+- uid: help-en-view-script-macro
+  name: View script macro
+  href: help/en/automation/view-script-macro.html
+- uid: help-en-visibility
+  name: Visibility
+  href: help/en/user-management/visibility.html
+- uid: help-en-webpanel
+  name: Webpanel
+  href: help/en/settings/lists/webpanel.html
+- uid: help-en-web-tools
+  name: Web Tools
+  href: help/en/document/web-tools.html
+- uid: help-en-wild-cards
+  name: wild cards
+  href: help/en/search-options/wild-cards.html
+- uid: help-en-workflow
+  name: Workflow
+  href: help/en/clients/admin/workflow.html
+- uid: help-en-working-with-reports
+  name: Working with reports
+  href: help/en/reports/working-with-reports.html
+- uid: help-en-working-with-sales-guide
+  name: Working with sales guide
+  href: help/en/sale/sales-guide/working-with-sales-guide.html
+- uid: help-en-work-with-messages-and-templates
+  name: work with messages and templates
+  href: help/en/marketing/work-with-messages-and-templates.html
+- uid: help-en-work-with-projectguide
+  name: Work with project guide
+  href: help/en/project/project-guide/work-with-projectguide.html
+- uid: help-en-writing-email
+  name: Writing email
+  href: help/en/email/inbox/writing-email.html
+- uid: mailing-open-in-browser-old
+  name: Add a link to display the message in a browser
+  href: help/en/marketing/editor/old/add-link-to-display-message-in-browser.html
+- uid: Projects
+  name: Projects
+  href: help/en/project/admin/index.html
+- uid: ssma-addendum
+  name: Addendum to SuperOffice Software Maintenance Agreement
+  href: help/en/addendum.html
+- uid: ug-en-start
+  name: User guide - English
+  href: help/en/index.html
+- uid: ug-start
+  name: User guide
+  href: help/index.html

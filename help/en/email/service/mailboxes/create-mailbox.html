@@ -1,0 +1,255 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Create mailboxes | SuperOffice Help Files </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Create mailboxes | SuperOffice Help Files ">
+    <meta name="generator" content="docfx 2.56.7.0">
+    
+    <link rel="shortcut icon" href="../../../../../assets/images/favicon.ico">
+    <link rel="stylesheet" href="../../../../../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../../../../../styles/docfx.css">
+    <link rel="stylesheet" href="../../../../../styles/main.css">
+    <meta property="docfx:navrel" content="">
+    <meta property="docfx:tocrel" content="../../../../toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../../../../../index.html">
+                <img id="logo" class="svg" src="../../../../../assets/images/logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="help-en-service-mailbox-create">
+<h1 id="create-mailboxes">Create mailboxes</h1>
+
+<p>You can create a mailbox to use for importing email into SuperOffice Service. Before you do that, you need to create a mailbox on the mail server that the email is delivered to.</p>
+<div class="NOTE">
+<h5>Note</h5>
+<p>Before you set up a mailbox, you need to make sure that there are no old messages in this mailbox on the mail server. SuperOffice Service will import all mail in the mailbox and you risk sending auto-replies to all contacts who have sent email to this address. If you want to import these old emails, you should disable the auto-reply function. Above all, this concerns the <strong>Do not auto-reply</strong> option in the <strong>Mailbox properties</strong> screen and the <strong>Do not send e-mail to new contacts</strong> option in the <strong>Settings</strong> tab in the <strong>System</strong> screen in SuperOffice Service.</p>
+</div>
+<h2 id="to-create-a-new-mailbox---online">To create a new mailbox - online</h2>
+<!-- markdownlint-disable-file MD041 -->
+<ol>
+<li><p>Go to the <strong>E-mail</strong> tab:</p>
+<ul>
+<li><p>From Settings and Maintenance: Click the <strong>Requests</strong> button in the navigator and select the <strong>E-mail</strong> tab.</p>
+</li>
+<li><p>From Service: Select <img src="../../../../media/icons/globalmenu-settings-small.png" alt="icon"> <strong>System settings</strong> &gt; <strong>E-mail</strong>.</p>
+</li>
+</ul>
+</li>
+</ol>
+
+<ol>
+<li><p>Click <strong>New mailbox</strong>. The <strong>Mailbox properties</strong> screen appears, with the <strong>Properties</strong> tab open.</p>
+</li>
+<li><p>In the <strong>Address</strong> field, enter the name without @domain.xx, and press <strong>TAB</strong> to add the CRM Online settings to the email address.</p>
+<div class="NOTE">
+<h5>Note</h5>
+<p>Friendly email address can be added to the address by adding (&quot;friendly name&quot;) at the end of the email address.Example: info@company.com (Customer Ltd.).</p>
+</div>
+</li>
+</ol>
+<!-- markdownlint-disable-file MD041 -->
+<ol>
+<li><p>In the <strong>Category</strong> list box, select to which category the messages in this mailbox should belong.</p>
+</li>
+<li><p>In the <strong>Priority</strong> list box, select which priority that requests from this mailbox should be given.</p>
+</li>
+</ol>
+<!-- markdownlint-disable-file MD041 -->
+<ol>
+<li>In the <strong>Customer language</strong> list box, specify which language is to be used for the customers who send messages to this mailbox. For more details about this, see <a href="../../../settings/options/custlangs/index.html">Customer languages</a>.</li>
+</ol>
+<!-- Referenced links -->
+<!-- markdownlint-disable-file MD041 -->
+<ol>
+<li><p>Check <strong>Do not auto-reply</strong> to disable the auto-reply function. See the note at the top of this topic.</p>
+</li>
+<li><p>In the <strong>E-mail fields</strong> field, you can enter a comma-separated list of email fields (headers) to be displayed in the request message, for example, To and Cc.</p>
+</li>
+<li><p>In the <strong>Reply template for reply to contact</strong> list box, select which reply template to use when auto-replying to the customer.</p>
+</li>
+<li><p><strong>Suggest FAQ entries from</strong>: If you check here, the system will suggest FAQ entries based on the text in incoming emails. The suggested FAQ entries are available as template variables and can therefore be reused in the selected reply template. You can also specify which branch of the FAQ tree to search in, by specifying the folder you want.</p>
+</li>
+</ol>
+<!-- markdownlint-disable-file MD041 -->
+<ol>
+<li><strong>Import auto-replies and system messages</strong>: By default, emails that contain out of office messages, system messages and other irrelevant messages are not imported. If you do want to import such emails, you can check this option.</li>
+</ol>
+
+<ol>
+<li><p><strong>AI services</strong>: Here you can select the following options for categorization and text analysis using AI (see <a href="../../../ai/index.html">AI services</a>):</p>
+<ul>
+<li><strong>Use AI to suggest categories</strong>: Select this option to let the AI suggest a category for requests based on the content of email messages. See <a href="../../../ai/categorization.html">Categorization</a>.</li>
+<li><strong>Use text analysis</strong>: Select this option to let the AI analyse the text in email messages to detect language (for translation) and perform sentiment analysis. See <a href="../../../ai/text-analysis.html">Text analysis</a>.</li>
+</ul>
+</li>
+<li><p>Click <strong>OK</strong>. The mailbox is created.</p>
+</li>
+</ol>
+<h2 id="to-create-a-new-mailbox---onsite">To create a new mailbox - onsite</h2>
+<!-- markdownlint-disable-file MD041 -->
+<ol>
+<li><p>Go to the <strong>E-mail</strong> tab:</p>
+<ul>
+<li><p>From Settings and Maintenance: Click the <strong>Requests</strong> button in the navigator and select the <strong>E-mail</strong> tab.</p>
+</li>
+<li><p>From Service: Select <img src="../../../../media/icons/globalmenu-settings-small.png" alt="icon"> <strong>System settings</strong> &gt; <strong>E-mail</strong>.</p>
+</li>
+</ul>
+</li>
+</ol>
+
+<ol>
+<li><p>Click <strong>New mailbox</strong>. The <strong>Mailbox properties</strong> screen appears, with the <strong>Properties</strong> tab open.</p>
+</li>
+<li><p>In the <strong>Address</strong> field, enter the email address you want to use for the mailbox.</p>
+<div class="NOTE">
+<h5>Note</h5>
+<p>Set up forwarding to this mailbox address if you are going to use your company's email address (for example info@company.com). Use <strong>Forwarding address</strong> in the <strong>Mailboxes</strong> screen.</p>
+</div>
+</li>
+<li><p>In the <strong>Protocol</strong> list box, select which protocol to use to communicate with the mail server. Some of the protocols may require further configuration.</p>
+</li>
+<li><p>In the <strong>E-mail server</strong> field, enter the server's host name.</p>
+</li>
+<li><p>In the <strong>User name</strong> and <strong>Password</strong> fields, enter the user name and password for the mailbox.</p>
+</li>
+<li><p>In the <strong>Folder</strong> field, enter the folder name for the mailbox on the server.</p>
+</li>
+<li><p>In the <strong>Port</strong> field, you can change the proposed default port for the selected protocol.</p>
+</li>
+</ol>
+<!-- markdownlint-disable-file MD041 -->
+<ol>
+<li><p>In the <strong>Category</strong> list box, select to which category the messages in this mailbox should belong.</p>
+</li>
+<li><p>In the <strong>Priority</strong> list box, select which priority that requests from this mailbox should be given.</p>
+</li>
+</ol>
+
+<ol>
+<li>In the <strong>Interval</strong> list box, select how often SuperOffice Service check for messages in this mailbox.</li>
+</ol>
+<!-- markdownlint-disable-file MD041 -->
+<ol>
+<li>In the <strong>Customer language</strong> list box, specify which language is to be used for the customers who send messages to this mailbox. For more details about this, see <a href="../../../settings/options/custlangs/index.html">Customer languages</a>.</li>
+</ol>
+<!-- Referenced links -->
+<!-- markdownlint-disable-file MD041 -->
+<ol>
+<li><p>Check <strong>Do not auto-reply</strong> to disable the auto-reply function. See the note at the top of this topic.</p>
+</li>
+<li><p>In the <strong>E-mail fields</strong> field, you can enter a comma-separated list of email fields (headers) to be displayed in the request message, for example, To and Cc.</p>
+</li>
+<li><p>In the <strong>Reply template for reply to contact</strong> list box, select which reply template to use when auto-replying to the customer.</p>
+</li>
+<li><p><strong>Suggest FAQ entries from</strong>: If you check here, the system will suggest FAQ entries based on the text in incoming emails. The suggested FAQ entries are available as template variables and can therefore be reused in the selected reply template. You can also specify which branch of the FAQ tree to search in, by specifying the folder you want.</p>
+</li>
+</ol>
+
+<ol>
+<li>Go to the <strong>Alias</strong> tab. Here you can enter any email alias for a mailbox (e.g. if sales@company.com and sale@company.com go to the same mailbox). You add an alias by entering an email address and then clicking <img src="../../../../media/icons/btn-add.png" alt="icon">.</li>
+</ol>
+<!-- markdownlint-disable-file MD041 -->
+<ol>
+<li><strong>Import auto-replies and system messages</strong>: By default, emails that contain out of office messages, system messages and other irrelevant messages are not imported. If you do want to import such emails, you can check this option.</li>
+</ol>
+
+<ol>
+<li>Click <strong>OK</strong>. The mailbox is created.</li>
+</ol>
+<h2 id="what-would-you-like-to-do-now">What would you like to do now?</h2>
+<ul>
+<li><a href="delete-mailbox.html">Delete mailboxes</a></li>
+</ul>
+<!-- Referenced links -->
+<!-- Referenced images -->
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/SuperOfficeDocs/superoffice-docs/blob/351-migrate-en-user-and-admin-help/user-guide/en/email/service/mailboxes/create-mailbox.md/#L1" class="contribution-link">Improve this Doc</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            © SuperOffice. All rights reserved.
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../../../../../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../../../../../styles/docfx.js"></script>
+    <script type="text/javascript" src="../../../../../styles/main.js"></script>
+  </body>
+</html>

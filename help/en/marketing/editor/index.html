@@ -1,0 +1,140 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Editors | SuperOffice Help Files </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Editors | SuperOffice Help Files ">
+    <meta name="generator" content="docfx 2.56.7.0">
+    
+    <link rel="shortcut icon" href="../../../../assets/images/favicon.ico">
+    <link rel="stylesheet" href="../../../../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../../../../styles/docfx.css">
+    <link rel="stylesheet" href="../../../../styles/main.css">
+    <meta property="docfx:navrel" content="">
+    <meta property="docfx:tocrel" content="../../../toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../../../../index.html">
+                <img id="logo" class="svg" src="../../../../assets/images/logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="help-en-marketing-editors">
+<h1 id="editors">Editors</h1>
+
+<p>In early 2021 SuperOffice added a new message editor (the &quot;Drag &amp; drop editor&quot;) to replace the old one (the &quot;Editor&quot;). The message editor is used when creating email mailings and form responses. The old message editor will still be available to edit messages and templates created in the old version. All new mailings and templates will be using the new message editor.</p>
+<h2 id="are-you-using-the-new-drag--drop-editor-or-the-previous-version-of-the-editor">Are you using the new Drag &amp; drop editor or the previous version of the editor?</h2>
+<p><strong>Drag &amp; drop editor (new):</strong></p>
+<p><img src="media/templateeditoverview.png" alt="Drag and drop editor (new) -screenshot">
+<img src="media/editor-sidepanel.png" alt="Drag and drop editor (new) -screenshot"></p>
+<p><strong>Editor (old):</strong></p>
+<p><img src="old/media/templateeditoverview-old.png" alt="Editor (old) -screenshot"></p>
+<h2 id="template-variables">Template variables</h2>
+<p>To give the message a more personal touch, you can use placeholders to insert customer-specific information such as the customer's first name. In this way, you can customize the content for each individual customer.</p>
+<p>These placeholders are called <strong>template variables</strong> in the old editor and <strong>merge tags</strong> in the Drag and drop editor.</p>
+<!-- markdownlint-disable-file MD041 -->
+<p>Imported recipients that ARE NOT found in the SuperOffice database, will only consist of a name and an email address (or just an email address). This means that only the template variables <strong>[[customer.name]]</strong> and/or <strong>[[customer.email]]</strong> will work for these recipients. To avoid empty variables in your mailings, make sure to <a href="../mailing/create/send-test-email.html">preview the mailing</a> first.</p>
+<!-- Referenced links -->
+<!-- Referenced images -->
+
+<p>There are several types of merge tags:</p>
+<ul>
+<li>Merge tags linked to contacts. For example, <strong>[[customer.name]]</strong> inserts the contact's full name.</li>
+<li>Merge tags linked to companies. For example, <strong>[[company.name]]</strong> inserts the name of the company the contact belongs to.</li>
+</ul>
+<h3 id="example">Example</h3>
+<p>Instead of this text:</p>
+<p>&quot;Dear Customer. Would you like to know more about how our product can help your company win new customers? Please call us at SuperShop.&quot;</p>
+<p>You can send this one:</p>
+<p>&quot;Dear Chris. Would you like to know more about how our product can help Car Care Ltd win new customers? Please call Ryan Webster at SuperShop.&quot;</p>
+<p>The text you enter will look like this:</p>
+<p>&quot;Dear <strong>[[customer.firstname]]</strong>. Would you like to know more about how our product can help <strong>[[company.name]]</strong> win new customers? Please call <strong>[[company.ourSalesContact.name]]</strong> at SuperShop.&quot;</p>
+<!-- Referenced links -->
+<!-- Referenced images -->
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/SuperOfficeDocs/superoffice-docs/blob/351-migrate-en-user-and-admin-help/user-guide/en/marketing/editor/index.md/#L1" class="contribution-link">Improve this Doc</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            © SuperOffice. All rights reserved.
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../../../../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../../../../styles/docfx.js"></script>
+    <script type="text/javascript" src="../../../../styles/main.js"></script>
+  </body>
+</html>

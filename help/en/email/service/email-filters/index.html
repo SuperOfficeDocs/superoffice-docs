@@ -1,0 +1,192 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Email filters | SuperOffice Help Files </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Email filters | SuperOffice Help Files ">
+    <meta name="generator" content="docfx 2.56.7.0">
+    
+    <link rel="shortcut icon" href="../../../../../assets/images/favicon.ico">
+    <link rel="stylesheet" href="../../../../../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../../../../../styles/docfx.css">
+    <link rel="stylesheet" href="../../../../../styles/main.css">
+    <meta property="docfx:navrel" content="">
+    <meta property="docfx:tocrel" content="../../../../toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../../../../../index.html">
+                <img id="logo" class="svg" src="../../../../../assets/images/logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="help-en-email-filter">
+<h1 id="email-filters">Email filters</h1>
+
+<p>An email filter is a tool used to analyze the content of inbound email, and generate a request based on this content.</p>
+<p>You can also add advanced rules for handling email from specific senders. Email filters are often used in connection with web forms that the company has published and that generate a fixed format email message that is imported into SuperOffice Service.</p>
+<h2 id="example">Example</h2>
+<p>For example, you can define fixed expressions to extract information that a customer has submitted using the form. Based on a defined rule set, data from the form is entered in the customer database. The request generate from the email/form is then placed into a specific category and a request handler is selected. Then the request is closed and the customer receives a customized receipt based on a reply template.In other words, there are many options for automatic handling of inbound email.</p>
+<p>Here are some examples related to inbound email from web forms:</p>
+<ul>
+<li><p>Email received from a web form generally has a default sender address. You can replace this address with the customer's own email address.</p>
+</li>
+<li><p>You can compare the customer's phone number with information in the customer database and link the request to the correct customer on this basis.</p>
+</li>
+<li><p>You can overwrite address data in the event of a change of address.</p>
+</li>
+<li><p>You can send a receipt with tailored information if a customer wants more information about a specific product, and assign the request to the right subcategory and request handler.</p>
+</li>
+</ul>
+<h2 id="columns-in-the-list-of-filters">Columns in the list of filters</h2>
+<p>The <strong>E-mail filters</strong> tab contains a list of existing email filters. This list contains the following columns:</p>
+<table>
+<thead>
+<tr>
+<th>Column</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Description</td>
+<td>A description of the email filter.</td>
+</tr>
+<tr>
+<td>Priority</td>
+<td>The email filter's priority. Only one filter per email is enabled. If more than one filter contains search criteria that match an inbound email, the highest priority filter is enabled.</td>
+</tr>
+<tr>
+<td>E-mail addresses</td>
+<td>The addresses of the mailbox the filter applies to.</td>
+</tr>
+<tr>
+<td>Search string</td>
+<td>The search string that the email filter uses.</td>
+</tr>
+</tbody>
+</table>
+<h2 id="properties-for-generated-requests">Properties for generated requests</h2>
+<ul>
+<li><p><strong>Set owner</strong>: If you check here, you can select which user will be assigned e-mails processed by this filter.</p>
+</li>
+<li><p><strong>Set category</strong>: If you check here and select a category, e-mail processed by this filter will end up in the specified category.</p>
+</li>
+<li><p><strong>Set priority</strong>: If you check here and select a priority, e-mail processed by this filter will be assigned the specified priority.</p>
+</li>
+<li><p><strong>Set access level</strong>: If you check here and select an access level from the list box, e-mail processed by this filter will be assigned the specified access level. If you select <strong>External</strong>, the generated request will be accessible in SuperOffice Customer Centre.</p>
+</li>
+<li><p><strong>Set messages</strong>: If you check here and select a reply template, the request message will be set up in accordance with the selected template, merged with all the fixed expressions that are found. You can use this to present a form, which is sent by e-mail, and is much tidier. This message will replace the original e-mail.</p>
+</li>
+<li><p><strong>Close request</strong>: If you check here, the request is closed immediately and assigned the status <strong>Closed</strong>.</p>
+</li>
+<li><p><strong>Ignore From address</strong>: If you check here, SuperOffice Service ignores the original sender address. The request will then not be linked to a contact unless other rules in the e-mail filter create a link to a contact.</p>
+</li>
+<li><p><strong>Block e-mail</strong>: If you check here, the e-mail is not imported into SuperOffice Service. It is added instead to the list in the <strong>Blocked e-mail</strong> tab.</p>
+</li>
+<li><p><strong>Permanently delete e-mail</strong>: If you check here, the e-mail is deleted permanently.</p>
+<div class="NOTE">
+<h5>Note</h5>
+<p>It is not possible to restore e-mails that have been permanently deleted.</p>
+</div>
+</li>
+<li><p><strong>Forward to</strong>: If you check here and enter an e-mail address, the e-mail will be forwarded to this address.</p>
+</li>
+<li><p><strong>Include debug information in the message</strong>: If you check here, the message will include debug data that you can use to check that the e-mail filter is working correctly.</p>
+</li>
+<li><p><strong>Mark e-mail as bounced</strong>: If you check here, e-mail processed by this filter will be marked as bounced. This may be relevant for e-mails received from postmaster, mailer-daemon, etc.</p>
+</li>
+</ul>
+<h2 id="what-would-you-like-to-do-now">What would you like to do now?</h2>
+<ul>
+<li><a href="create-email-filter.html">Create email filters</a></li>
+<li><a href="delete-email-filter.html">Delete email filters</a></li>
+</ul>
+<!-- Referenced links -->
+<!-- Referenced images -->
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/SuperOfficeDocs/superoffice-docs/blob/351-migrate-en-user-and-admin-help/user-guide/en/email/service/email-filters/index.md/#L1" class="contribution-link">Improve this Doc</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            © SuperOffice. All rights reserved.
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../../../../../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../../../../../styles/docfx.js"></script>
+    <script type="text/javascript" src="../../../../../styles/main.js"></script>
+  </body>
+</html>

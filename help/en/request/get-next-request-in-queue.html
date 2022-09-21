@@ -1,0 +1,178 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Get next request in the queue | SuperOffice Help Files </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Get next request in the queue | SuperOffice Help Files ">
+    <meta name="generator" content="docfx 2.56.7.0">
+    
+    <link rel="shortcut icon" href="../../../assets/images/favicon.ico">
+    <link rel="stylesheet" href="../../../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../../../styles/docfx.css">
+    <link rel="stylesheet" href="../../../styles/main.css">
+    <meta property="docfx:navrel" content="">
+    <meta property="docfx:tocrel" content="../../toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../../../index.html">
+                <img id="logo" class="svg" src="../../../assets/images/logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="help-en-get-next-request-in-queue">
+<h1 id="how-to-set-up-get-next-request-in-queue">How to set up Get next request in queue</h1>
+
+<p>In SuperOffice Service, requests are normally assigned to users according to an assignment method. Another method of assigning requests to request handlers, is to place new requests in <strong>Requests</strong> &gt; <strong>Unassigned requests</strong>. The request handlers must then accept the requests manually.</p>
+<p>However it is also possible to create an intelligent queue system for handling new requests. Request handlers can then click <strong>Get next request in queue</strong> under <strong>Requests</strong> to accept the next request in the queue. Requests in the queue are filtered by category, so that users are only assigned requests that belong to categories they are members of.</p>
+<!-- Fix reuse ID=a1 -->
+<p>The sequence of the requests in the queue is determined by the deadline for each individual request. The requests with the closest deadlines come first in the queue. The deadline is calculated based on priorities that have been defined for contact, company, mailbox, e-mail filter and standard priority.</p>
+<p>This ensures that requests are prioritised in a logical and fair sequence.</p>
+<div class="NOTE">
+<h5>Note</h5>
+<p>It is also possible to use a combination of queue system and assignment method. Requests can for example be placed in the queue or assigned to users based on which category the requests belong to.</p>
+</div>
+<!-- Fix reuse ID=a2 -->
+<p>The following factors determine which requests a request handler can get from the queue:</p>
+<ul>
+<li>The requests must have a request status with <strong>Queue status</strong> activated.</li>
+<li>The requests must have a category of which the request handler is a member.</li>
+<li>The request owner must be <strong>Unassigned</strong>.</li>
+</ul>
+<h2 id="create-new-request-status-in-queue">Create new request status &quot;In queue&quot;</h2>
+<p>First, we will create a new request status: <strong>In queue</strong>. New requests should automatically be assigned this request status.</p>
+<p>Do as follows:</p>
+<ol>
+<li><p>Select <img src="../../media/icons/globalmenu-settings-small.png" alt="icon"> <strong>System settings</strong> &gt; <strong>Request status</strong>. The <strong>Request status</strong> screen appears.</p>
+</li>
+<li><p>Click the <strong>New status</strong> button. This takes you to the <strong>Edit request status</strong> screen.</p>
+</li>
+<li><p>In the <strong>Internal status</strong> list box, select <strong>Open</strong>.</p>
+</li>
+<li><p>Check <strong>Default</strong>, so that all new requests (i.e. active requests) are assigned this status by default.</p>
+</li>
+<li><p>In the <strong>Name</strong> field, enter a descriptive name for the request status. For example &quot;In queue&quot;.</p>
+</li>
+<li><p>Check <strong>Queue status</strong>. The users are now able to get requests with this status from the queue.</p>
+<div class="NOTE">
+<h5>Note</h5>
+<p>This does not mean that these requests MUST be fetched from the queue. We will use categories to decide which requests will be placed in the queue and which requests will be distributed according to the assignment method for the category.</p>
+</div>
+</li>
+<li><p>You do not need to check <strong>Create new request on customer reply</strong>.</p>
+</li>
+<li><p>In the <strong>Track time as</strong> list, select <strong>In queue</strong>.</p>
+</li>
+<li><p>Click <strong>OK</strong>.</p>
+</li>
+</ol>
+<p>The new request status is shown in the list, and there is a check mark in the columns <strong>Default</strong> and <strong>Queue status</strong>.</p>
+<h2 id="use-categories-to-place-requests-in-the-queue">Use categories to place requests in the queue</h2>
+<p>Now you must ensure that you are a member of the category or categories you are going to manage. We must also specify that requests belonging to these categories should not be assigned according to the assignment method.</p>
+<div class="NOTE">
+<h5>Note</h5>
+<p>Membership in categories can also be defined at group level. In <img src="../../media/icons/globalmenu-settings-small.png" alt="icon"> <strong>System settings</strong> &gt; <strong>Users</strong> &gt; <strong>User groups</strong> you can state categories for the various user groups. See <a href="../user-management/user-groups.html">User groups</a>.</p>
+</div>
+<p>Do as follows:</p>
+<ol>
+<li>Select <img src="../../media/icons/globalmenu-settings-small.png" alt="icon"> <strong>System settings</strong> &gt; <strong>Categories</strong>. The <strong>Categories</strong> screen appears.</li>
+<li>Click the required category name. This takes you to the <strong>Category properties</strong> screen.</li>
+<li>Select the <strong>Members</strong> tab.</li>
+<li>Select yourself in the <strong>User</strong> list and click <img src="../../media/icons/btn-add.png" alt="icon"> to add yourself as a member of the category.</li>
+<li>Add any other users as members of this category.</li>
+<li>Select the <strong>Assignment method</strong> tab and select <strong>Do not assign</strong>. Now requests in this category will not be assigned to users in accordance with the assignment method.</li>
+<li>Click <strong>OK</strong> when you have finished.</li>
+</ol>
+<p>If needed, repeat this procedure for other categories that are to be available to be fetched from the queue. Categories that follow an assignment method will be assigned a user and will not therefore join the queue.</p>
+<h2 id="define-new-status-for-requests-that-are-fetched-from-the-queue">Define new status for requests that are fetched from the queue</h2>
+<p>When you have fetched a request from the queue, the status must be changed from <strong>In queue</strong> to <strong>Open</strong> (or another active status that indicates that the request is being processed). This is normally handled automatically. To be on the safe side, you can check that the option <strong>New status when accepting a request</strong> in <img src="../../media/icons/globalmenu-settings-small.png" alt="icon"> &gt; <strong>System</strong> &gt; <strong>Settings</strong> tab is set as <strong>Open</strong>.</p>
+<h2 id="verify-that-the-queue-works">Verify that the queue works</h2>
+<p>Create a new request, set <strong>Owner</strong> to <strong>Unassigned</strong>, select the category you are a member of and set <strong>Status</strong> to <strong>In queue</strong>. Then try clicking <strong>Requests</strong> &gt; <strong>Get next request in queue</strong>.</p>
+<!-- Referenced links -->
+<!-- Referenced images -->
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/SuperOfficeDocs/superoffice-docs/blob/351-migrate-en-user-and-admin-help/user-guide/en/request/get-next-request-in-queue.md/#L1" class="contribution-link">Improve this Doc</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            © SuperOffice. All rights reserved.
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../../../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../../../styles/docfx.js"></script>
+    <script type="text/javascript" src="../../../styles/main.js"></script>
+  </body>
+</html>

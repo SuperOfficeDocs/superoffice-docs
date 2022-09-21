@@ -1,0 +1,187 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Bulk update | SuperOffice Help Files </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Bulk update | SuperOffice Help Files ">
+    <meta name="generator" content="docfx 2.56.7.0">
+    
+    <link rel="shortcut icon" href="../../../assets/images/favicon.ico">
+    <link rel="stylesheet" href="../../../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../../../styles/docfx.css">
+    <link rel="stylesheet" href="../../../styles/main.css">
+    <meta property="docfx:navrel" content="">
+    <meta property="docfx:tocrel" content="../../toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../../../index.html">
+                <img id="logo" class="svg" src="../../../assets/images/logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="help-en-bulk-update">
+<h1 id="bulk-update">Bulk update</h1>
+
+<p>The <strong>Bulk update</strong> task allows you to change values across multiple records of the same type. You can perform the bulk update on all or selected records in section tabs (archives), selections and the <strong>Find</strong> screen. This task can also be used to delete multiple records.</p>
+<p>To update multiple records:</p>
+<ol>
+<li><p>Open the selection, section tab (archive) or search results (<strong>Find</strong> screen) containing the records you want to update.</p>
+</li>
+<li><p>Selections: Click the <strong>Task</strong> button and select <strong>Bulk update</strong>.
+or
+Select the records you want to update, right-click them and select <strong>Bulk update...</strong>.
+The <strong>Bulk update</strong> dialog opens. In the bottom of this dialog you can see the type of record and how many records to be updated. Example: Number of contacts in queue for bulk update: 7.</p>
+<div class="NOTE">
+<h5>Note</h5>
+<p>If the selection contains both companies and contacts, there will be two tabs: <strong>Company</strong> and <strong>Contact</strong>.</p>
+</div>
+</li>
+<li><p>Select a field to update in the <strong>Field</strong> column. You can also type the name in the field (see <a href="../search-options/using-fastsearcher.html">FastSearcher</a>). As you type in each letter, the list underneath displays all matches. The list only contains fields that are relevant to the selected records.</p>
+</li>
+<li><p>Select an action in the <strong>Action</strong> column. The available actions will depend on the type of field you have selected in the previous step. Here are some examples of available actions:</p>
+<ul>
+<li><strong>Check</strong>: Check or uncheck a checkbox.</li>
+<li><strong>Toggle</strong>: Uncheck a checked checkbox and vice versa.</li>
+<li><strong>Search and replace</strong>: Find a text and replace it. See <a href="#search-and-replace">Search and replace</a>.</li>
+<li><strong>Regex</strong>: Update a field using regular expressions. See <a href="#regex">Regex</a>.</li>
+<li><strong>Set</strong>: Apply a new value to the field.</li>
+<li><strong>Clear</strong>: Clear any value from the field.</li>
+<li>List actions: Select or clear single or multiple values for list fields.</li>
+<li>Activity link actions: Add, remove or replace activity links or clear all activity links.</li>
+</ul>
+</li>
+<li><p>To add more fields to be updated, click <strong>Add</strong> and repeat steps 3 and 4.</p>
+</li>
+<li><p>Make sure you select (<img src="../../media/icons/btn-selected.png" alt="icon">) the fields you want to update and unselect (<img src="../../media/icons/btn-unselected.png" alt="icon">) the fields you DO NOT want to update.</p>
+</li>
+<li><p>Click <strong>Update</strong>. The <strong>Confirm</strong> dialog opens, showing a summary of the updates.</p>
+<div class="NOTE">
+<h5>Note</h5>
+<p>Once the updates have been applied, they cannot be undone.</p>
+</div>
+</li>
+<li><p>Click <strong>Yes</strong> to implement the changes to the selected records.</p>
+<div class="NOTE">
+<h5>Note</h5>
+<p>It is possible to stop the update as soon as you have started the update. Any entities that have not been updated yet, will not be updated.</p>
+</div>
+</li>
+<li><p>Click <strong>LOG</strong> to show the change log. If any records were not updated, the reason is listed in the <strong>Reasons why</strong> column.</p>
+</li>
+<li><p>Click <strong>Close</strong>.</p>
+</li>
+</ol>
+<h2 id="search-and-replace">Search and replace</h2>
+<p>The action type <strong>Search and replace</strong> allows you to find a specific text in a field and replace it.</p>
+<ol>
+<li>Select <strong>Search and replace</strong> in the <strong>Action</strong> column.</li>
+<li>Enter the text to be replaced in the <strong>Find</strong> field.</li>
+<li>Enter the replacement text in the <strong>Replace with</strong> field.</li>
+<li>Optional: Click <strong>Options</strong> and select settings for case-sensitivity and whole/partial word search.</li>
+</ol>
+<h2 id="regular-expressions"><a id="regex"></a>Regular expressions</h2>
+<p>The action type <strong>Regex</strong> allows you to use regular expressions to update a field.</p>
+<ol>
+<li>Select <strong>Regex</strong> in the <strong>Action</strong> column.</li>
+<li>Enter the expression in the <strong>Expression</strong> field.</li>
+<li>Enter the replacement text in the <strong>Replace with</strong> field.</li>
+<li>Optional: Click <strong>Options</strong> and select settings for the regular expression.</li>
+</ol>
+<h2 id="examples">Examples</h2>
+<h2 id="update-company-categories">Update company categories</h2>
+<p>You want to categorize your customers according to sales amounts. Create company categories called &quot;Customer A&quot;, &quot;Customer B&quot; and &quot;Customer C&quot; in SuperOffice CRM. For &quot;Customer A&quot; you can create a selection of companies with sales amounts over EUR 50 000 last year. Use <strong>Bulk update</strong> to update the category for these customers to &quot;Customer A&quot;. Repeat this process for the other companies.</p>
+<h2 id="update-company-post-code-and-post-city">Update company post code and post city</h2>
+<p>There has been some changes in post codes and post cities in Norway. Use <strong>Bulk update</strong> to update the addresses.</p>
+<h2 id="update-contact">Update contact</h2>
+<p>You have discovered that the contact field <strong>Position</strong> is rarely used. To at least start the task of filling in this field for all contacts, you want to find everyone that have director in the title. Create a selection of all contacts that contain the word &quot;director&quot; in the <strong>Title</strong> field. Use <strong>Bulk update</strong> to set the field <strong>Position</strong> to <strong>Management</strong>.</p>
+<h2 id="update-project">Update project</h2>
+<p>You want to clean up all the “old” projects that have not been set to completed. Create a selection of all your old projects, for example all projects created more than 2 years ago and that has not been updated in the last year. Use <strong>Bulk update</strong> to set the <strong>Completed</strong> status for these projects to <strong>Yes</strong>.</p>
+<!-- Referenced links -->
+<!-- Referenced images -->
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/SuperOfficeDocs/superoffice-docs/blob/351-migrate-en-user-and-admin-help/user-guide/en/getting-started/bulk-update.md/#L1" class="contribution-link">Improve this Doc</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            © SuperOffice. All rights reserved.
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../../../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../../../styles/docfx.js"></script>
+    <script type="text/javascript" src="../../../styles/main.js"></script>
+  </body>
+</html>

@@ -1,0 +1,165 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Adding users web | SuperOffice Help Files </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Adding users web | SuperOffice Help Files ">
+    <meta name="generator" content="docfx 2.56.7.0">
+    
+    <link rel="shortcut icon" href="../../../assets/images/favicon.ico">
+    <link rel="stylesheet" href="../../../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../../../styles/docfx.css">
+    <link rel="stylesheet" href="../../../styles/main.css">
+    <meta property="docfx:navrel" content="">
+    <meta property="docfx:tocrel" content="../../toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../../../index.html">
+                <img id="logo" class="svg" src="../../../assets/images/logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="help-en-adding-users">
+<h1 id="add-users">Add users</h1>
+
+<p>This procedure describes how to add one user at a time. To add multiple users, see <a href="import-users-web.html">Import users</a>.</p>
+<h2 id="add-a-new-superoffice-crm-user">Add a new SuperOffice CRM user</h2>
+<ol>
+<li>Open the <strong>Users</strong> screen.</li>
+<li>Select the <strong>Associates</strong> tab.</li>
+<li>Click the <strong>Add</strong> button below the list. An empty user card opens on the right-hand side of the screen.</li>
+<li>Enter the name and e-mail address of the new user in the top-part of the view.</li>
+<li>If more than one owner company is available in your SuperOffice installation, you can select this below the <strong>E-mail</strong> field.</li>
+<li>Enter the relevant information in the <strong>Details</strong> and <strong>Licences</strong> tabs.</li>
+<li>Click <strong>Save</strong>. The name of the new user will now be displayed in the list.</li>
+</ol>
+<h2 id="the-details-tab">The Details tab</h2>
+<p>In the <strong>Details</strong> tab, you have the following options:</p>
+<ul>
+<li><p><strong>User ID</strong>: In the <strong>User ID</strong> field, edit the suggested ID for the user (if you do not want to use the automatically generated ID). You cannot specify a user ID that already exists in the database. There are no restrictions on the characters that can be used in the user ID.</p>
+<div class="NOTE">
+<h5>Note</h5>
+<p>The user ID should not contain too many characters, since it is displayed in the ID columns in SuperOffice CRM, and space in these columns may be limited.</p>
+</div>
+</li>
+<li><p><strong>Nick name</strong>: The nick name is the name visible to other users of SuperOffice, and is only used for SuperOffice Service users. You can edit the suggested nick name for the user (if you do not want to use the automatically generated name).</p>
+</li>
+<li><p><strong>Authentication</strong>: If multiple authentication methods are available, you can select an authentication method here.</p>
+</li>
+<li><p><strong>User name</strong>: Enter the SuperOffice user name. This should be the same name as in your identity provider's system (if you use Office 365 or Gmail for authentication). When you use SuperOffice for authentication, simply fill in your e-mail address. Make sure the e-mail address is valid, since it will be used for account confirmation.</p>
+</li>
+<li><p><strong>Role</strong>: Specify the <a href="/role/index.md">role</a> the user should have in the <strong>Role</strong> list box. The role determines the user's data access and functional rights. You cannot change your own role.</p>
+</li>
+<li><p><strong>User plan</strong>: Select the relevant user plan for the user. This determines which SuperOffice features the user can access.</p>
+</li>
+<li><p><strong>Former employee</strong>: If a user should no longer have access to SuperOffice, select this option to remove the user plan and login rights of the user.</p>
+</li>
+<li><p><strong>Primary group</strong>: Select one of the predefined options for group membership in the <strong>Primary group</strong> list box. These options are defined in the <strong>Lists</strong> screen. The user is granted access to data owned by other users in the same primary group. Access rights (e.g. write and delete access) for these data are defined in the <a href="/role/index.md">role</a> the user belongs to. <a href="#example">Click here for an example</a>. See also <a href="visibility.html">Visibility</a> for more information on sharing data with your primary group.</p>
+</li>
+<li><p><strong>Other groups</strong>: Click in the <strong>Other groups</strong> field and select which other groups the user should belong to. If the list contains many groups, start typing a group name in the search field to filter the list.</p>
+</li>
+<li><p><strong>Service categories</strong>: These categories are used to give users access to specific request categories.</p>
+</li>
+<li><p><strong>Service categories from user groups</strong>: Shows the categories the user has received from being in a user group.</p>
+</li>
+</ul>
+<h3 id="example">Example</h3>
+<!-- markdownlint-disable-file MD041 -->
+<p>Joe Johnson works in the sales department of a large company. The primary group is set to &quot;Sales&quot; so that Joe has access rights to data created by users in the sales department. The access rights to the primary group are defined in the role to which Joe belongs. This role determines whether Joe can edit or delete data created by other users in the sales department (see <a href="role/set-data-rights-for-role.html">Define data rights for a role</a>).</p>
+<p>He also needs limited rights to documents from the marketing department and development department. These two departments are added under <strong>Other groups</strong>. In the role Joe belongs to it is specified that he only has read access to these data.</p>
+<!-- Referenced links -->
+<!-- Referenced images -->
+<h2 id="the-licences-tab">The Licences tab</h2>
+<p>In the <strong>Licences</strong> tab, you can select licences in addition to those defined by the selected user plan.</p>
+<p><strong>Confidential activities</strong>: activates the <strong>Visible for</strong> list for follow-ups, documents and sales, to make records visible only to the user, the user's primary group or everyone. See <a href="visibility.html">Visibility</a>.</p>
+<h2 id="can-log-in">Can log in</h2>
+<p>In the lower part of the user card, you can activate or deactivate the login rights of the selected user by clicking the <strong>Can log in</strong> button. By default this option is activated when you select a user plan for the user.</p>
+<!-- Referenced links -->
+<!-- Referenced images -->
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/SuperOfficeDocs/superoffice-docs/blob/351-migrate-en-user-and-admin-help/user-guide/en/user-management/adding-users.md/#L1" class="contribution-link">Improve this Doc</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            © SuperOffice. All rights reserved.
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../../../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../../../styles/docfx.js"></script>
+    <script type="text/javascript" src="../../../styles/main.js"></script>
+  </body>
+</html>

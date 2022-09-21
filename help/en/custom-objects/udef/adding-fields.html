@@ -1,0 +1,175 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Adding fields | SuperOffice Help Files </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Adding fields | SuperOffice Help Files ">
+    <meta name="generator" content="docfx 2.56.7.0">
+    
+    <link rel="shortcut icon" href="../../../../assets/images/favicon.ico">
+    <link rel="stylesheet" href="../../../../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../../../../styles/docfx.css">
+    <link rel="stylesheet" href="../../../../styles/main.css">
+    <meta property="docfx:navrel" content="">
+    <meta property="docfx:tocrel" content="../../../toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../../../../index.html">
+                <img id="logo" class="svg" src="../../../../assets/images/logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="help-en-udef-add">
+<h1 id="add-field">Add field</h1>
+
+<p>To add a new user-defined field:</p>
+<!-- markdownlint-disable-file MD041 -->
+<ol>
+<li><p>Open the <strong>Fields</strong> screen.</p>
+</li>
+<li><p>Go to the required tab: <strong>Company</strong>, <strong>Contact</strong>, <strong>Project,</strong> <strong>Sale</strong>, <strong>Follow-up</strong> or <strong>Document</strong>.</p>
+</li>
+</ol>
+
+<ol>
+<li><p>Click the <strong>Add</strong> button below the <strong>Fields</strong> list.</p>
+</li>
+<li><p>Type the required name into the <strong>Name</strong> field.</p>
+</li>
+<li><p>In the <strong>Type</strong> list box, select the <a href="index.html#field-types">type of field</a> you wish to add (e.g. number, text or date).</p>
+</li>
+<li><p>In the <strong>Default value</strong> field, enter the value to be inserted by default in this field.</p>
+</li>
+<li><p>In the <strong>Tooltip</strong> field, type in a brief description to pop up when the mouse pointer is held over the field. This could be a description with information for the users who will use this field.</p>
+</li>
+<li><p>The <strong>Prog ID</strong> field contains a default ID for this field. The prog ID can be overridden by our partners, for better connection with partner applications. Instead of changing their code, they can write in a more logical name or a specific ID for a user-defined fields (UDEF).</p>
+</li>
+<li><p>Check <strong>Mandatory</strong> if you want it to be mandatory to fill in this field.</p>
+<div class="NOTE">
+<h5>Note</h5>
+<p>This does not apply to the <strong>Checkbox</strong> field type.</p>
+</div>
+</li>
+<li><p>Check <strong>Hide label</strong> if you do not want the name of the field to be displayed.</p>
+</li>
+<li><p>Check <strong>Read only</strong> if you do not want it to be possible to amend the field.</p>
+<div class="NOTE">
+<h5>Note</h5>
+<p>You cannot check <strong>Read only</strong> if you have checked <strong>Mandatory</strong>. These options are mutually exclusive.</p>
+</div>
+</li>
+<li><p>Check <strong>Indexed</strong> if you want it to be possible to search by this field.</p>
+ <details><summary>Why is it a good idea to index?</summary>
+<p>The benefit of choosing <strong>Indexed</strong> is that it will be quicker to search on these fields using <strong>Find</strong>, for example. Non-indexed fields are also searchable, but the search takes longer. You should only index fields which are frequently searched and contain frequently used data.</p>
+ </details>
+</li>
+<li><p>When you have specified the required settings, click <strong>Save</strong>. The dialog box will close and the new field will be displayed in the <strong>Fields</strong> list and in the grid.</p>
+</li>
+</ol>
+<div class="TIP">
+<h5>Tip</h5>
+<p>In the bottom right of the <strong>Fields</strong> dialog is the <strong>Template variable name</strong> followed by a code. This is the &quot;ID&quot; of the field you are creating and can be used to reuse the information you enter in this field, e.g. in documents and e-mails. For more information, see <a href="../../document/template-variables.html">Template variables</a>.</p>
+</div>
+<ol>
+<li>Adjust the position of the field as described in <a href="moving-fields.html">Place fields</a>.</li>
+<li>Click <strong>Publish</strong> if you want the field to be available to SuperOffice CRM users. Unpublished fields ( <img src="../../../media/icons/admin/fields-unpubl-new.png" alt="icon"> ) and fields with unpublished changes ( <img src="../../../media/icons/admin/fields-unpubl-changed.png" alt="icon"> ) are displayed in bold text in the <strong>Fields</strong> list.</li>
+</ol>
+<h2 id="troubleshooting">Troubleshooting</h2>
+<h3 id="i-cannot-create-a-new-field">I cannot create a new field</h3>
+<p>If you find you are not allowed to create a new field, this may be because you have already reached the maximum number of permitted fields of this type (see <a href="maximum-number-of-fields.html">Maximum number of fields</a>). You must then delete an existing field before you can insert a new one. Note also that four of each type of field (Short text, Long text, Number, Decimal) are searchable. This means that if you do not specify that some of the fields are to be searchable, you will only be able to specify for example six Decimal fields.</p>
+<h2 id="related-topics">Related topics</h2>
+<ul>
+<li><a href="moving-fields.html">Place fields</a></li>
+<li><a href="editing-fields.html">Edit fields</a></li>
+<li><a href="editing-tab-order-of-fields.html">Edit the TAB order of fields</a></li>
+<li><a href="maximum-number-of-fields.html">Maximum number of fields</a></li>
+</ul>
+<!-- Referenced links -->
+<!-- Referenced links -->
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/SuperOfficeDocs/superoffice-docs/blob/351-migrate-en-user-and-admin-help/user-guide/en/custom-objects/udef/adding-fields.md/#L1" class="contribution-link">Improve this Doc</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            © SuperOffice. All rights reserved.
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../../../../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../../../../styles/docfx.js"></script>
+    <script type="text/javascript" src="../../../../styles/main.js"></script>
+  </body>
+</html>

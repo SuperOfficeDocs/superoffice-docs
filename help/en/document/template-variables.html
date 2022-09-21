@@ -1,0 +1,214 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Template variables | SuperOffice Help Files </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Template variables | SuperOffice Help Files ">
+    <meta name="generator" content="docfx 2.56.7.0">
+    
+    <link rel="shortcut icon" href="../../../assets/images/favicon.ico">
+    <link rel="stylesheet" href="../../../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../../../styles/docfx.css">
+    <link rel="stylesheet" href="../../../styles/main.css">
+    <meta property="docfx:navrel" content="">
+    <meta property="docfx:tocrel" content="../../toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../../../index.html">
+                <img id="logo" class="svg" src="../../../assets/images/logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="help-en-template-variables">
+<h1 id="template-variables">Template variables</h1>
+
+<p>Template variables are used to insert data from SuperOffice into e-mails, quotes, meeting notifications, document templates etc. You can use template variables to personalise messages to customers and set up complex quotes.</p>
+<h2 id="examples">Examples</h2>
+<p>Here we show you some examples of how to use template variables.</p>
+<div class="NOTE">
+<h5>Note</h5>
+<p>Most of the examples below are available in the default templates in SuperOffice.</p>
+</div>
+<h3 id="how-to-personalise-an-email-using-template-variables">How to personalise an email using template variables</h3>
+<p>Instead of this text:</p>
+<p>&quot;Dear Customer. Would you like to know more about how our product can help your company win new customers? Please call us.&quot;</p>
+<p>you can send this one:</p>
+<p>&quot;Hi Chris. Would you like to know more about how our product can help Car Care Ltd win new customers? Please call Ryan Webster at SuperShop.&quot;</p>
+<p>The text you enter will look like this:</p>
+<p>&quot;Hi <strong>{atfn}</strong>. Would you like to know more about how our product can help <strong>{name}</strong> win new customers? Please call <strong>{cont}</strong> at <strong>{onam}</strong>.&quot;</p>
+<h3 id="signatures">Signatures</h3>
+<p>This is an example of a signature that can be used by anyone in your company.</p>
+<pre><code class="lang-text">Best Regards,
+{auth}
+{atit}
+{onam}
+Address: {opad}, {ozip} {ocit}
+Phone: {audp}
+Mobile phone: {aupc}
+{auem}
+{owww} | Best Regards,
+John Jones
+Sales Manager
+SuperShop
+Address: High Street 12, 223-344, Springfield
+Phone: 22334455
+Mobile phone: 99887766
+jj@supershop.com
+supershop.com
+</code></pre>
+<h3 id="meeting-minutes-header">Meeting minutes (header)</h3>
+<p>This is an example of a header in a meeting minutes (document or e-mail).</p>
+<pre><code class="lang-text">{head}
+Date / Location: {sdat}, {city}
+Present: {attn} ({name}), {auth} ({onam})
+Not attending:
+Meeting secretary: {auth} ({auem})
+Summer sales campaign - planning
+Date / Location: 15.12.2019, London
+Present: Sara Miller (Liberty Ltd.), John Jones (SuperShop)
+Not attending:
+Meeting secretary: John Jones (jj@supershop.com)
+</code></pre>
+<h3 id="order-confirmation-header">Order Confirmation (header)</h3>
+<p>Template variables for quotes and order confirmations can be used within the context of a quote.</p>
+<pre><code class="lang-text">Order date: {sdat}
+Order number: {qnum}
+Delivery terms: {qdev}
+Payment terms: {qpev}
+Your PO number: {qpon}
+Our contact: {cont}
+Order date: 15.12.2019
+Order number: 550012
+Delivery terms: Delivery included
+Payment terms: 15 days
+Your PO number: 70000882
+Our contact: John Jones
+</code></pre>
+<h2 id="how-to-use-template-variables">How to use template variables</h2>
+<ul>
+<li>In documents of file type .doc in Office 2003 and older, you need to use angled brackets – &lt; &gt; – around variables instead of curly brackets – { } –.</li>
+<li>The whole variable must be formatted using the same font and font size, and you must only use lowercase letters. However, if the <strong>Use case-sensitive template variables</strong> preference is enabled, the template variable can be formatted.</li>
+<li>You can mix normal text and variables in the template document: For example, you can enter template variables which retrieve a company’s name and address, type in standard text for the body of the letter and enter the variable for our contact to conclude the letter.</li>
+<li>You can also use fill characters in the template document (see below).</li>
+<li>The date and time in template variables are controlled by the PC's system clock.</li>
+</ul>
+<div class="TIP">
+<h5>Tip</h5>
+<p>When you have created a new template document, you have to add it using the <strong>Lists</strong> screen in Settings and maintenance in order to use it in SuperOffice CRM.</p>
+</div>
+<h2 id="fill-characters">Fill characters</h2>
+<p>Sometimes you have to use fill characters in templates so that a field’s contents or formatting will not be changed or deleted if the content of a field is shorter than the length specified by the field variable.</p>
+<p>Use the variable padd# to specify the fill character to use. Replace the # character with the ANSI code of the character you wish to use as a fill character. You will usually find a list of ANSI codes in the manual for the program you are creating templates for.</p>
+<p>SuperOffice CRM has default values for fill characters for the most commonly used word-processing and spreadsheet applications. A soft hyphen is usually used because it does not display on the screen or a printout. For applications where the set-up is unknown, SuperOffice CRM uses {padd32}, which is the ANSI code for a space.</p>
+<div class="TIP">
+<h5>Tip</h5>
+<p>Microsoft Word uses {padd31} as a fill character.</p>
+</div>
+<p>If you do not want to use fill characters, use the template variable {padd0}.</p>
+<div class="NOTE">
+<h5>Note</h5>
+<p>This only works for document formats that are sequential, for example, Notepad and AmiPro templates without graphics.</p>
+</div>
+<p>When you use {padd0} you can write all the template variables without blank characters between the name of the template variable and the closing variable delimiter (}).</p>
+<h2 id="variables-from-the-company-card">Variables from the company card</h2>
+<div class="NOTE">
+<h5>Note</h5>
+<p>Address variables from the company card are so called &quot;smart&quot; template variables. This means that the system selects address data in a specific order. The variables in <strong>bold text</strong> below (such as <strong>addr</strong> and <strong>city</strong>) are smart template variables.</p>
+</div>
+<p>When you use address variables from the company card, the system will select address data in the following order:</p>
+<ol>
+<li>If the <strong>Use as postal address</strong> option is active for a contact in the company, the contact's address data will be used.</li>
+<li>If the above option is not active, the company's address data will be used.</li>
+<li>If the company's postal address is empty, the company street address will be used.</li>
+</ol>
+<h2 id="reference">Reference</h2>
+<p>The reference is grouped by area. <a href="../../../docs/document/templates/variables/index.md">Go to reference (leaves the user guide)</a></p>
+<!-- Referenced links -->
+<!-- Referenced images -->
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/SuperOfficeDocs/superoffice-docs/blob/351-migrate-en-user-and-admin-help/user-guide/en/document/template-variables.md/#L1" class="contribution-link">Improve this Doc</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            © SuperOffice. All rights reserved.
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../../../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../../../styles/docfx.js"></script>
+    <script type="text/javascript" src="../../../styles/main.js"></script>
+  </body>
+</html>

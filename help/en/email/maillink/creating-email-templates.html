@@ -1,0 +1,164 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Creating email templates | SuperOffice Help Files </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Creating email templates | SuperOffice Help Files ">
+    <meta name="generator" content="docfx 2.56.7.0">
+    
+    <link rel="shortcut icon" href="../../../../assets/images/favicon.ico">
+    <link rel="stylesheet" href="../../../../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../../../../styles/docfx.css">
+    <link rel="stylesheet" href="../../../../styles/main.css">
+    <meta property="docfx:navrel" content="">
+    <meta property="docfx:tocrel" content="../../../toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../../../../index.html">
+                <img id="logo" class="svg" src="../../../../assets/images/logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="help-en-creating-email-templates">
+<h1 id="creating-email-templates">Creating email templates</h1>
+
+<p>You can create your own templates to use when creating emails from SuperOffice CRM. Follow these steps:</p>
+<ol>
+<li><p>Create a new email using e.g. Outlook Express. Standard document template variables may be used, and need to be enclosed in braces, e.g. {name}.</p>
+</li>
+<li><p>Save the file in .oft format, but set the extension to be .somail (e.g. mymail.somail).</p>
+</li>
+<li><p>Move the file to the <strong>\so-arc\template\</strong> folder.</p>
+</li>
+<li><p>Open SuperOffice Settings and maintenance.</p>
+</li>
+<li><p>Open the <strong>Lists</strong> screen.</p>
+</li>
+<li><p>Choose the <strong>Items</strong> tab.</p>
+</li>
+<li><p><!-- markdownlint-disable-file MD041 -->
+Click the arrow ( ![icon][img1] ) and select<!-- Referenced images -->
+[img1]: ../../media/icons/admin/pil-ned.bmp <strong>Document template</strong> from the <strong>List</strong> dropdown.</p>
+</li>
+<li><p>Click the <strong>Add</strong> button (<img src="../../../media/icons/maillink/so-admin-add-button.png" alt="icon">) below the <strong>Items</strong> list. The <strong>Edit list item</strong> dialog opens.</p>
+</li>
+<li><p>Enter the required name of the template in the mandatory <strong>Name</strong> field.</p>
+</li>
+<li><p>In the <strong>File name</strong> field, click the arrow (<img src="../../../media/icons/maillink/so-admin-down-arrow.png" alt="icon">) and select the .somail file you just created.</p>
+</li>
+<li><p>In the <strong>Direction</strong> field, click the arrow (<img src="../../../media/icons/maillink/so-admin-down-arrow.png" alt="icon">) and choose <strong>Outgoing</strong> from the dropdown.</p>
+</li>
+<li><p>In the <strong>Record type</strong> field, click the arrow (<img src="../../../media/icons/maillink/so-admin-down-arrow.png" alt="icon">) and choose <strong>Email</strong>.</p>
+</li>
+<li><p>In the <strong>Document plugin</strong> field, select the program to be used to display the document by clicking the arrow ( <img src="../../../media/icons/maillink/so-admin-down-arrow.png" alt="icon"> ) and selecting from the dropdown.</p>
+</li>
+<li><p>In the <strong>Intention</strong> field, click the arrow ( <img src="../../../media/icons/maillink/so-admin-down-arrow.png" alt="icon"> ) and select one of the predefined options from the dropdown. These items are used in connection with status monitors in SuperOffice CRM (requires a SAINT licence).</p>
+</li>
+<li><p>Check the <strong>Publish</strong> box if you want it to be possible to specify, in the <strong>Document</strong> dialog in SuperOffice CRM, that the document template in question should be made available to external users.</p>
+</li>
+<li><p>Specify the default setting for the <strong>Our reference (default)</strong> field using template variables, for example {auth} for the sender’s first and last names.</p>
+</li>
+<li><p>In the <strong>Save to database</strong> field, choose <strong>No</strong>.</p>
+</li>
+<li><p>In the <strong>Registry Open Key</strong> field, enter SoMailParser.exe.</p>
+</li>
+<li><p>Optionally, type in a description of the email template in the <strong>Description</strong> field.</p>
+<div class="NOTE">
+<h5>Note</h5>
+<p>Please refer to the SuperOffice Settings and maintenance Guide for more information on this dialog.</p>
+</div>
+</li>
+<li><p>Click <strong>OK</strong>. The template is added as a separate item in the <strong>Items</strong> list.</p>
+</li>
+<li><p>Click <strong>Save</strong>.</p>
+</li>
+</ol>
+<p>You may now create new emails from SuperOffice CRM using this template.</p>
+<!-- Referenced images -->
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/SuperOfficeDocs/superoffice-docs/blob/351-migrate-en-user-and-admin-help/user-guide/en/email/maillink/creating-email-templates.md/#L1" class="contribution-link">Improve this Doc</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            © SuperOffice. All rights reserved.
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../../../../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../../../../styles/docfx.js"></script>
+    <script type="text/javascript" src="../../../../styles/main.js"></script>
+  </body>
+</html>

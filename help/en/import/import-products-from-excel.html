@@ -1,0 +1,188 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Import products from Excel | SuperOffice Help Files </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Import products from Excel | SuperOffice Help Files ">
+    <meta name="generator" content="docfx 2.56.7.0">
+    
+    <link rel="shortcut icon" href="../../../assets/images/favicon.ico">
+    <link rel="stylesheet" href="../../../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../../../styles/docfx.css">
+    <link rel="stylesheet" href="../../../styles/main.css">
+    <meta property="docfx:navrel" content="">
+    <meta property="docfx:tocrel" content="../../toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../../../index.html">
+                <img id="logo" class="svg" src="../../../assets/images/logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="help-en-import-products-from-excel">
+<h1 id="import-products-from-excel">Import products from Excel</h1>
+
+<!-- markdownlint-disable-file MD041 -->
+<div class="CAUTION">
+<h5>Caution</h5>
+<p>We recommend that you contact SuperOffice Support to back up the SuperOffice database before you import large amounts of data.</p>
+</div>
+
+<p>If you have an Excel spreadsheet with a list of products, you can easily import them into SuperOffice.</p>
+<h2 id="what-should-the-import-file-contain">What should the import file contain?</h2>
+<ul>
+<li>You can for instance contains these columns of data: In assortment, product code, name, description, product category, unit, list price, unit minimum price, cost, product name.</li>
+<li>Make sure to add a unique product code for each row as a duplicate key.</li>
+</ul>
+<p>To import an Excel spreadsheet with products into the SuperOffice database:</p>
+<h2 id="a-export-products-from-an-excel-import-file">A. Export products from an Excel import file</h2>
+<ol>
+<li><!-- markdownlint-disable-file MD041 -->
+<p>Open the <strong>Import</strong> screen by clicking the <strong>Import</strong> button in the Navigator ( <img src="../../media/icons/admin/knapp-import-liten.bmp" alt="icon"> ).</p>
+<!-- Referenced images -->
+</li>
+<li><p>Click <strong>Products</strong> under <strong>Select an import source</strong>.</p>
+</li>
+<li><p>In the <strong>Import to price list</strong>, select the price list to which you want to import the products.</p>
+</li>
+<li><p>Click the Excel icon ( <img src="../../media/icons/admin/import-excel-small.bmp" alt="icon"> ) under <strong>Select an import source</strong>. The <strong>Upload file</strong> dialog opens.</p>
+</li>
+<li><p>Click <strong>Upload file</strong> to select the Excel spreadsheet you want to import.</p>
+</li>
+<li><p>Browse to the required Excel spreadsheet and click <strong>Open</strong>. The <strong>File name</strong> field shows the position and name of the file you have selected.</p>
+</li>
+<li><p>Click <strong>Save</strong>. The data from the spreadsheet will be displayed in the table and the name of the import file will be shown at the bottom.</p>
+</li>
+</ol>
+<div class="NOTE">
+<h5>Note</h5>
+<p>At this stage, products from Excel have not yet been imported into the SuperOffice database. SuperOffice will only upload the product list from the spreadsheet, so that you can specify the import settings.</p>
+</div>
+<h2 id="b-adjust-the-import">B. Adjust the import</h2>
+<p>As the Excel spreadsheet may contain anything from just a few to a large number of columns, it is important that the columns with data you want to import are linked to the correct SuperOffice field.</p>
+<div class="NOTE">
+<h5>Note</h5>
+<p>The spreadsheet must at minimum contain the columns you select for duplicate check in the procedure below (name, code or name+code).</p>
+</div>
+<!-- markdownlint-disable-file MD041 -->
+<p>To do this:</p>
+
+<ol>
+<li><p>Find the column containing the name of the products, click the <strong>(No Selection)</strong> column title and select <strong>Product: Name</strong>.</p>
+</li>
+<li><p>Find the column containing the product code, click the <strong>(No Selection)</strong> column title and select <strong>Product: Code</strong>.</p>
+</li>
+<li><p>Select the SuperOffice fields for the rest of the columns in the table. You do not need to do this for the columns you do not want to import.</p>
+</li>
+<li><!-- markdownlint-disable-file MD041 -->
+<p>Click <strong>Configure import settings</strong> and adjust the import settings as described in <a href="configure-import-settings.html">Configure import settings</a>.</p>
+<!-- Referenced links -->
+</li>
+<li><p>Click <strong>Next</strong>. The <strong>Preview import</strong> screen will appear.</p>
+</li>
+<li><p>Browse through the import data to fix any issues before the import begins.</p>
+ <details><summary>What do the different icons in the table mean?</summary>
+ | Icon | Description |
+ |---|---|
+ | ![icon][img2] | There is a problem with the data on this row. See the explanation text in the table header. |
+ | ![icon][img3] | The product does not already exist and will be added. |
+ | ![icon][img4] | The product already exists and will be updated. |
+ | empty | No updating. |
+ </details>
+</li>
+<li><p>Remove the checks for the rows you do NOT want to import. If the Excel spreadsheet contained a heading row, you can remove it here.</p>
+</li>
+<li><p>When you have checked that this actually is the data you want to import, click <strong>Import</strong>.</p>
+</li>
+</ol>
+<h2 id="c-complete-the-import">C. Complete the import</h2>
+<p>When the import is complete, a list of the imported products will be displayed. Above the list is a link to the updated price list.</p>
+<!-- Referenced links -->
+<!-- Referenced images -->
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/SuperOfficeDocs/superoffice-docs/blob/351-migrate-en-user-and-admin-help/user-guide/en/import/import-products-from-excel.md/#L1" class="contribution-link">Improve this Doc</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            © SuperOffice. All rights reserved.
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../../../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../../../styles/docfx.js"></script>
+    <script type="text/javascript" src="../../../styles/main.js"></script>
+  </body>
+</html>

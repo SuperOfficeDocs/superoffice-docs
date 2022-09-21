@@ -1,0 +1,153 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>blogic listEventHandler | SuperOffice Help Files </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="blogic listEventHandler | SuperOffice Help Files ">
+    <meta name="generator" content="docfx 2.56.7.0">
+    
+    <link rel="shortcut icon" href="../../../assets/images/favicon.ico">
+    <link rel="stylesheet" href="../../../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../../../styles/docfx.css">
+    <link rel="stylesheet" href="../../../styles/main.css">
+    <meta property="docfx:navrel" content="">
+    <meta property="docfx:tocrel" content="../../toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../../../index.html">
+                <img id="logo" class="svg" src="../../../assets/images/logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="help-en-blogic-listeventhandler">
+<h1 id="triggers">Triggers</h1>
+
+<div class="NOTE">
+<h5>Note</h5>
+<p>This feature requires the SuperOffice Expander Services license.</p>
+</div>
+
+<p>Triggers are scripts that are executed for specific events in the system, such as when a new sale is created or a request gets closed. Triggers can react silently to what happens, or block the operation and show an explanation back to the user.</p>
+<p>CRMScript can make your working day more efficient by automating various tasks. You can define that a certain event in the system will set in motion (trigger) one or more predefined actions. No knowledge of scripting is required to get this to work.</p>
+<p><strong>Example from SuperOffice Service</strong>: When a request is closed, the customer must be notified of this by e-mail. We can create a macro that contains a series of actionsto create and send this e-mail notification. This macro is run automatically when a request is closed. The actions in the macro will load the relevant request, fetch the right reply template and send an e-mail to the customer that the request is closed.</p>
+<div class="TIP">
+<h5>Tip</h5>
+<p>This is an example of a very simple trigger. You can for instance add conditions to the actions in a trigger, by changing the default <strong>Always</strong> setting.</p>
+</div>
+<h2 id="create-a-trigger">Create a trigger</h2>
+<p>We will now create a series of actions based on the example above.</p>
+<p>Do as follows:</p>
+<ol>
+<li>In SuperOffice Service: Select <img src="../../media/icons/globalmenu-settings-small.png" alt="icon"> <strong>System settings</strong> &gt; <strong>System design</strong> &gt; <strong>CRMScript</strong> and go to the <strong>Triggers</strong> tab.
+In SuperOffice Settings and maintenance: Click <strong>CRMScript</strong> in the navigator and go to the <strong>Triggers</strong> tab.</li>
+<li>Click the <strong>New trigger (macro)</strong> button. The <strong>Choose trigger</strong> screen displays the available triggers. These are events in the system that can be used to set off actions/macros. In our example we select <strong>Request closed</strong>, so that the macro is run when a request is closed in SuperOffice Service.</li>
+<li>Type &quot;request&quot; in the search field and select the trigger called <strong>Request closed</strong>.</li>
+<li>Enter a description of the trigger in the <strong>Description</strong> field.</li>
+<li>Select <strong>Enabled</strong>.</li>
+<li>Select <strong>Change a request</strong> under <strong>Choose action type</strong> below. This takes you to the <strong>Change a request</strong> tab.
+This will be the first action in the macro. The main purpose of this action is to fetch the request, so that the various values (ID, title, contact name and so on) can be used in the next actions we will create.</li>
+<li>Optional: Check <strong>Internal message</strong>, and enter, for example: &quot;Request closed and confirmation sent to customer.&quot;</li>
+<li>Click <strong>Apply</strong>.</li>
+<li>Click <strong>New action</strong> next to the <strong>Change a request</strong> tab.</li>
+<li>Select <strong>Load a reply template for merging</strong>. We will now fetch the reply template to be used.</li>
+<li>Click the <strong>Reply template</strong> field, and select an existing reply template from the list shown, such as &quot;Request closed&quot;.</li>
+<li>Click <strong>Apply</strong>.</li>
+<li>Click <strong>New action</strong>, and select <strong>Send an e-mail or SMS</strong>. We will now adapt the e-mail that will be sent to the customer.</li>
+<li>Check <strong>Subject</strong>.</li>
+<li>Click the parameter icon ( <img src="../../gearblack.png" alt="icon"> ) to the right, and then click the <strong>Choose parameter</strong> field.</li>
+<li>Select <strong>Change a request</strong> &gt; <strong>Title</strong>. This will put the request title in the subject of the e-mail.</li>
+<li>Check <strong>From</strong> and select <strong>Change a request</strong> &gt; <strong>Owner</strong>.</li>
+<li>Check <strong>To</strong> and select <strong>Change a request</strong> &gt; <strong>Contact: E-mail address</strong>.</li>
+<li>Check <strong>HTML message</strong> and select <strong>Load a reply template for merging</strong> &gt; <strong>HTML text</strong>.</li>
+<li>Click <strong>Apply</strong>.</li>
+</ol>
+<p>You have now created a macro that sends an e-mail with &quot;Request closed&quot; to the customer when a request is closed. This trigger will be active immediately if you checked <strong>Enabled</strong> at the top.</p>
+<!-- Referenced links -->
+<!-- Referenced images -->
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/SuperOfficeDocs/superoffice-docs/blob/351-migrate-en-user-and-admin-help/user-guide/en/automation/listeventhandler.md/#L1" class="contribution-link">Improve this Doc</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            © SuperOffice. All rights reserved.
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../../../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../../../styles/docfx.js"></script>
+    <script type="text/javascript" src="../../../styles/main.js"></script>
+  </body>
+</html>

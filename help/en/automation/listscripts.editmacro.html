@@ -1,0 +1,158 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>blogic listScripts editMacro | SuperOffice Help Files </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="blogic listScripts editMacro | SuperOffice Help Files ">
+    <meta name="generator" content="docfx 2.56.7.0">
+    
+    <link rel="shortcut icon" href="../../../assets/images/favicon.ico">
+    <link rel="stylesheet" href="../../../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../../../styles/docfx.css">
+    <link rel="stylesheet" href="../../../styles/main.css">
+    <meta property="docfx:navrel" content="">
+    <meta property="docfx:tocrel" content="../../toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../../../index.html">
+                <img id="logo" class="svg" src="../../../assets/images/logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="help-en-blogic-listscripts-editmacro">
+<h1 id="create-a-macro">Create a macro</h1>
+
+<p>Macros have a number of functions in SuperOffice. They can be linked to specific <a href="listEventHandler.md">triggers</a> in the system (such as escalations or new message on request in SuperOffice Service) or be assigned to buttons in defined screens, so that users can click a button to perform a set of actions that are often repeated. This makes request management faster and users avoid unnecessary clicking.</p>
+<p>For example, you can use macros</p>
+<ul>
+<li>as a task/function in a menu point (such as in <img src="../../media/icons/btn-menu.png" alt="icon"> <strong>Actions</strong> in the <strong>Request</strong> screen)</li>
+<li>when a request is escalated via the warning levels for priority</li>
+<li>as a planned task</li>
+<li>when they are activated by an e-mail filter</li>
+<li>when a recipient clicks a tracked link in a mailing</li>
+</ul>
+<p><strong>Example from SuperOffice Service:</strong> Many companies often receive requests relating to invoicing. Such requests should go straight to the accounts department. Instead of editing every request and changing category and owner, we can create a macro that performs all these actions. The macro can be assigned to <img src="../../media/icons/btn-menu.png" alt="icon"> <strong>Actions</strong> in the <strong>Request</strong> screen. Invoice questions can thus be delegated to the accounts department with just one click.</p>
+<div class="TIP">
+<h5>Tip</h5>
+<p>To fully automate this process, you can create an e-mail filter to look for the word &quot;invoice&quot; in e-mail subjects, and then run the macro to assign the request to the correct department.</p>
+</div>
+<p>We will now create a macro based on the example above.</p>
+<ol>
+<li><p>In SuperOffice Service: Select <img src="../../media/icons/globalmenu-settings-small.png" alt="icon"> <strong>System settings</strong> &gt; <strong>System design</strong> &gt; <strong>CRMScript</strong> and go to the <strong>Macros and scripts</strong> tab.
+In SuperOffice Settings and maintenance: Click <strong>CRMScript</strong> in the navigator and go to the <strong>Macros and scripts</strong> tab.</p>
+</li>
+<li><p>Do one of the following:</p>
+<ul>
+<li>To create a new macro: Click <strong>New macro</strong>.</li>
+<li>To edit an existing macro: Click the macro name. See <a href="View-script-macro.md">View a script/macro</a>.</li>
+</ul>
+</li>
+<li><p>In the <strong>Information</strong> tab, enter &quot;Send request to Accounts Dept.&quot; in the <strong>Name</strong> field and enter a description in the field below.</p>
+</li>
+<li><p>Select the <strong>New menu</strong> option to make the macro available from the <strong>Actions</strong> button (<img src="../../media/icons/btn-menu.png" alt="icon">) in the <strong>Company</strong> screen, <strong>Contact</strong> screen or <strong>Request</strong> screen, or <strong>Message</strong> tab.</p>
+</li>
+<li><p>Go to the <strong>Actions</strong> tab and select <strong>Change a request</strong> under <strong>Choose action type</strong>.</p>
+</li>
+<li><p>Check <strong>Category</strong> and select a category in the list (for instance <em>Accounting</em>).</p>
+</li>
+<li><p>Check <strong>Owner</strong> and select a user.</p>
+<div class="TIP">
+<h5>Tip</h5>
+<p>Alternatively, you can select <strong>Automatically assigned</strong> to allow the system to distribute the request according to current distribution rules.</p>
+</div>
+</li>
+<li><p>Check <strong>Internal message</strong> and write a brief standard message to the accounts department about why they have received this request.</p>
+</li>
+<li><p>Click <strong>OK</strong> when you are done.</p>
+</li>
+</ol>
+<p>Some of the more advanced macro functions are described in <a href="listEventHandler.md">Triggers</a>.</p>
+<!-- Referenced links -->
+<!-- Referenced images -->
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/SuperOfficeDocs/superoffice-docs/blob/351-migrate-en-user-and-admin-help/user-guide/en/automation/listscripts.editmacro.md/#L1" class="contribution-link">Improve this Doc</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            © SuperOffice. All rights reserved.
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../../../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../../../styles/docfx.js"></script>
+    <script type="text/javascript" src="../../../styles/main.js"></script>
+  </body>
+</html>

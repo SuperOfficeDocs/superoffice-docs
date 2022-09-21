@@ -1,0 +1,273 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Import settings web | SuperOffice Help Files </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Import settings web | SuperOffice Help Files ">
+    <meta name="generator" content="docfx 2.56.7.0">
+    
+    <link rel="shortcut icon" href="../../../assets/images/favicon.ico">
+    <link rel="stylesheet" href="../../../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../../../styles/docfx.css">
+    <link rel="stylesheet" href="../../../styles/main.css">
+    <meta property="docfx:navrel" content="">
+    <meta property="docfx:tocrel" content="../../toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../../../index.html">
+                <img id="logo" class="svg" src="../../../assets/images/logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="help-en-import-settings-web">
+<h1 id="configure-import-settings">Configure import settings</h1>
+
+<!-- markdownlint-disable-file MD041 -->
+<div class="CAUTION">
+<h5>Caution</h5>
+<p>We recommend that you contact SuperOffice Support to back up the SuperOffice database before you import large amounts of data.</p>
+</div>
+
+<p>In the <strong>Import settings</strong> dialog, you can customise the import to include precisely the what you want. To ensure that the quality of the imported data is as good as possible, it is important to specify the correct import settings.</p>
+<p>This applies to the following, among other things:</p>
+<ul>
+<li>Duplicates: Select the preferred method for managing information that occur in both the import file and the database.</li>
+<li>Contacts that are not linked to companies.</li>
+<li>Legal basis and consent source for contacts.</li>
+<li>Lists: Select the preferred method for managing list elements in the import, e.g. new categories, business types and phone numbers, new product categories, product families and product types.</li>
+</ul>
+<h2 id="typical-scenarios">Typical scenarios</h2>
+<ul>
+<li><p>I want to import information that does not exist in the SuperOffice data, but I do not want to overwrite existing information.
+Select the <strong>Merge - update empty fields</strong> option. Only empty fields in SuperOffice will then be updated with imported information.</p>
+</li>
+<li><p>The data I want to import has been quality-assured and I want to update the SuperOffice database.
+Select the <strong>Replace - overwrite existing</strong> option. The data from the import will overwrite existing fields in SuperOffice.</p>
+</li>
+<li><p>I only want to import new companies and contacts into SuperOffice.
+Select the <strong>Skip record - do not import</strong> option. Companies and contacts that already exist in SuperOffice will not be updated.</p>
+</li>
+<li><p>I only want to import new products into the selected price list.
+Select the <strong>Skip record - do not import</strong> option. Products that already exist in the selected price list will not be updated.</p>
+</li>
+<li><p>I want to import all companies and contacts into SuperOffice and manage any duplicates myself.
+Select the <strong>Always add</strong> option.</p>
+</li>
+<li><p>I want to import all products into selected price list and manage any duplicates myself.
+Select the <strong>Add always</strong> option.</p>
+</li>
+</ul>
+<details><summary>Click to view example.</summary>
+<h2 id="existing-data">Existing data</h2>
+<p>| <strong>Company</strong> | <strong>Address</strong> | <strong>VAT No.</strong> | <strong>Code</strong> |
+| <strong>Import (Excel/Outlook/Gmail</strong> | ACME Inc. | Broadway 123 | 11223344 | - |
+| <strong>SuperOffice</strong> | ACME Inc. | Main street 456 | - | ACME1 |</p>
+<h2 id="action">Action</h2>
+<p>| <strong>Merge</strong> | ACME Inc. | Broadway 123 | 11223344 | ACME1 |
+| <strong>Replace</strong> | ACME Inc. | Main street 456 | 11223344 | - |
+| <strong>Skip record</strong> | ACME Inc. | Broadway 123 | - | ACME1 |</p>
+</details>
+<h2 id="manage-duplicates-companycontact">Manage duplicates (company/contact)</h2>
+<p>A duplicate occurs if you have the same record in the import file and in the database. In the import settings, you must always specify rules for managing duplicates.</p>
+<p>Under <strong>Company</strong>, and <strong>Contact</strong>, and <strong>Product</strong> in the <strong>Import settings</strong> dialog, specify how duplicates are to be managed.</p>
+<!-- markdownlint-disable-file MD041 -->
+<p>To do this:</p>
+
+<ol>
+<li><p>Click the <strong>Duplicate match</strong> list box and select the field(s) that are to be used to identify duplicate companies or contacts.</p>
+<div class="NOTE">
+<h5>Note</h5>
+<p>To avoid the risk of overwriting data, you should choose the option that is unique for each company, contact, and product.</p>
+</div>
+ <details><summary>Click to find out more about the various options</summary>
+</details></li>
+</ol>
+<p>Company</p>
+<ul>
+<li><strong>Name</strong>: The company name must be identical.</li>
+<li><strong>Name + Department</strong>: Both the company name and the department must be identical.</li>
+<li><strong>Number</strong>: The company number must be identical.</li>
+<li><strong>Code</strong>: The company's code must be identical.</li>
+<li><strong>VAT number</strong>: The company's VAT number must be identical.</li>
+<li><strong>ID</strong>: The company's ID must be identical.</li>
+</ul>
+<p>Contact</p>
+<ul>
+<li><strong>Name</strong>: The contact's full name (first name+last name) must be identical.</li>
+<li><strong>E-mail address</strong>: The contact's e-mail address must be identical.</li>
+<li><strong>Mobile phone</strong>: The contact's mobile phone number must be identical.</li>
+<li><strong>Number</strong>: The contact number must be identical.</li>
+<li><strong>None - do not import contact</strong>: Select this option if you do not want to import contacts.</li>
+<li><strong>ID</strong>: The contact ID must be identical.</li>
+</ul>
+<p>Product</p>
+<ul>
+<li><strong>Name</strong>: The product name must be identical.</li>
+<li><strong>Code</strong>: The product code must be identical.</li>
+<li><strong>Name + Code</strong>: Both the product name and the product code must be identical.</li>
+</ul>
+<div class="NOTE">
+<h5>Note</h5>
+<p>The data you have selected for duplicate check MUST exist in the import file. If you select name+code, you import file must at minimum contain these columns.</p>
+</div>
+
+<ol>
+<li><p>Click the <strong>Action</strong> list box and choose how duplicate hits are to be managed:</p>
+<ul>
+<li><strong>Add always</strong>:
+<ul>
+<li>New companies, contacts, and products will always be added, even if there are duplicates.</li>
+<li>New products will always be added, even if there are duplicates.</li>
+</ul>
+</li>
+<li><strong>Merge - update empty fields</strong>:
+<ul>
+<li>If existing companies and contacts in SuperOffice have empty fields, these empty fields will be completed with data from the import source. Existing data in SuperOffice fields will not be overwritten.</li>
+<li>If existing products in the selected price list have empty fields, these empty fields will be completed with data from the import source. Existing data in the selected price list will not be overwritten.</li>
+</ul>
+</li>
+<li><strong>Replace - overwrite existing</strong>:
+<ul>
+<li>Import data will overwrite existing data in SuperOffice fields.</li>
+<li>Import data will overwrite existing data in the selected price list.</li>
+</ul>
+</li>
+<li><strong>Skip - do not import</strong>:
+<ul>
+<li>If companies and contacts already exist in SuperOffice, they will not be imported.</li>
+<li>If products already exist in the selected price list, they will not be imported.</li>
+</ul>
+</li>
+</ul>
+</li>
+</ol>
+<h2 id="manage-contacts-that-do-not-belong-to-a-company">Manage contacts that do not belong to a company</h2>
+<p>If contacts in the import source are not listed with a company, you have three options in the <strong>If no company name</strong> list box:</p>
+<ul>
+<li><strong>Create company using contact name</strong>: A company will be created using the contact name, with himself as the only contact.</li>
+<li><strong>Skip - do not create company or contact</strong>: The contact will not be imported.</li>
+<li><strong>Import contacts without company</strong>: The contact will be imported with no link to a company. This option will only be possible if the global preference <strong>Mandatory company on contact</strong> is set to <strong>No</strong>.</li>
+</ul>
+<h2 id="privacy-options-for-imported-contacts">Privacy options for imported contacts</h2>
+<p>When you import contacts, you must also set the legal basis and consent source for the purpose <strong>Sales and service</strong>:</p>
+<ul>
+<li><strong>Legal basis</strong>: Select a legal basis from the list, or select <strong>Use default</strong> to use the default legal basis defined in the <strong>Privacy</strong> screen (see <a href="../person/gdpr/index.html">Privacy</a>).</li>
+<li><strong>Consent source</strong>: This value is by default set to <strong>Import</strong>, but you can select another value in the list.</li>
+</ul>
+<h2 id="manage-list-values-that-do-not-exist-in-superoffice">Manage list values that do not exist in SuperOffice</h2>
+<p>The import source may, for example, contain businesses that are not registered in SuperOffice. You must then choose how new categories, businesses, positions, custom list values and interests are to be managed. In the list boxes under <strong>Lists</strong>, you have the following options:</p>
+<ul>
+<li><p><strong>Add new item to the list</strong>: New values will be added to SuperOffice.</p>
+</li>
+<li><p><strong>Ignore - use default</strong>: New values will not be imported, and the default value for category or business will be used. You specify the default value under <strong>Preferences</strong> &gt; <strong>Default values</strong>.</p>
+<div class="NOTE">
+<h5>Note</h5>
+<p><strong>Position</strong> does not have a default value.</p>
+</div>
+</li>
+<li><p><strong>Ignore - set to blank</strong>: No new values will be imported into SuperOffice.</p>
+</li>
+</ul>
+<h2 id="manage-new-phone-numbers-links-and-email-addresses">Manage new phone numbers, links and email addresses</h2>
+<p>The import source may, for example, contain phone numbers, links and e-mail addresses that are not registered in SuperOffice. As is it possible to register several phone numbers, links and e-mail addresses for a single company/contact, you must specify how new values are to be managed. In the <strong>Phone number</strong> and <strong>URLs + email</strong> list boxes under <strong>Lists</strong>, you have the following options:</p>
+<ul>
+<li><strong>Add new - keep existing</strong>: New values will be added to SuperOffice and existing values will be retained.</li>
+<li><strong>Replace - overwrite existing</strong>: Existing values in SuperOffice will be overwritten by imported values.
+For example: This may be relevant if you know that the import contains correct e-mail addresses for your contacts. If the e-mail addresses that are registered in SuperOffice are outdated, you can overwrite them to clean up the system.</li>
+<li><strong>Ignore - keep existing</strong>: No new values will be imported into SuperOffice.</li>
+</ul>
+<h2 id="manage-product-categories-product-families-and-product-types-not-in-superoffice">Manage product categories, product families and product types not in SuperOffice</h2>
+<p>The import source may, for example, contain product categories that are not registered in SuperOffice. You must then choose how new product categories, product families and product types are to be managed. In the <strong>New values for...</strong> list boxes, you have the following options:</p>
+<ul>
+<li><strong>Add new item to the list</strong>: New values will be added to SuperOffice.</li>
+<li><strong>Ignore - set to blank</strong>: No new values will be added to SuperOffice.</li>
+</ul>
+<!-- Referenced links -->
+<!-- Referenced images -->
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/SuperOfficeDocs/superoffice-docs/blob/351-migrate-en-user-and-admin-help/user-guide/en/import/configure-import-settings.md/#L1" class="contribution-link">Improve this Doc</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            © SuperOffice. All rights reserved.
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../../../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../../../styles/docfx.js"></script>
+    <script type="text/javascript" src="../../../styles/main.js"></script>
+  </body>
+</html>
