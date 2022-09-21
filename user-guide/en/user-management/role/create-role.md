@@ -53,7 +53,7 @@ To create a role for associates in the company or for external users:
     In this tab you can determine which functions will be available for the role, e.g. mail merge, publishing, exporting selections and administrator access in Settings and maintenance.
 
     > [!TIP]
-    > Hold the mouse pointer over a right to display more information about it. Read more about [Functional rights][5] in our FAQ.
+    > Hold the mouse pointer over a right to display more information about it. Read more about [Functional rights][6] in our FAQ.
 
 11. Set the role's functional rights:
 
@@ -96,13 +96,12 @@ To create a new role:
 * [Edit roles][4]
 
 <!-- Referenced links -->
-[5]: ../adding-users.md
-
 [1]: ../../settings/personal-settings/user-info.md
 [2]: ../../ui/service-screens/listProfiles.md
 [3]: ../../faq/workflow.md
 [4]: editing-role.md
-[5]: https://community.superoffice.com/en/support-faqs/faq/whichare-all-availablefunctional-rights-in-superoffice-and-what-each-of-them-mean/
+[5]: ../adding-users.md
+[6]: https://community.superoffice.com/en/support-faqs/faq/whichare-all-availablefunctional-rights-in-superoffice-and-what-each-of-them-mean/
 
 <!-- Referenced images -->
 [img5]: ../../../media/icons/admin/pil-ned.bmp
