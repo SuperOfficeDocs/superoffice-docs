@@ -30,6 +30,8 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v3
+        with:
+          ref: 351-migrate-en-user-and-admin-help
       - uses: nikeee/docfx-action@master
         name: Build Documentation
         with:
