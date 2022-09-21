@@ -36,8 +36,11 @@ jobs:
         name: Build Documentation
         with:
           args: docfx-help-en-only.json
-      - uses: maxheld83/ghpages@master
-        name: Publish Documentation on GitHub Pages
-        env:
-          BUILD_DIR: _site
-          GH_PAT: ${{ secrets.GH_PAT }}
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v1
+        with:
+          # Upload entire repository
+          path: '_site'
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v1
