@@ -178,6 +178,6 @@ Ensure your web project contains the following files from the sample project `Su
 * PartnerHttpContext.cs
 
 <!-- Referenced links -->
-[1]: https://community.superoffice.com/change-application
+[1]: ../../../../developer-portal/howto/update-app-config.md
 [2]: ../certificates/configure.md
 [3]: ../../../config/data.md#session
