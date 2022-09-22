@@ -18,11 +18,11 @@ You can get to the **Company** screen as follows:
 
 This screen comprises the following sections:
 
-* At the top of the screen, the company header contains basic information about the contact. See [Company header](#company-header).
-* The ![icon][img1] **Actions** button gives access to tasks associated with contacts. See [Task buttons for companies](#task-buttons-for-companies).
-* The **Requests** tab contains the requests associated with this company. Open a request by double-clicking it. See [Process requests][2].
-* The **Contacts** tab contains the contacts associated with this company. Open a contact by double-clicking the appropriate row. See [View contacts][3].
-* The **Info** tab contains an overview of the data registered for the active company. The contents of the fields are described in detail under [Create companies][4].
+* At the top of the screen, the company header contains basic information about the contact. See below.
+* The ![icon][img1] **Actions** button gives access to tasks associated with contacts. See below.
+* The **Requests** tab contains the requests associated with this company. [Open a request][2] by double-clicking it.
+* The **Contacts** tab contains the contacts associated with this company. [Open a contact][3] by double-clicking the appropriate row.
+* The **Info** tab contains an overview of the data registered for the active company. The contents of the fields are described in detail under [Create company][4].
 
 ## Company header
 
@@ -32,9 +32,9 @@ The header of the **Company** screen contains basic information about the compan
 
 Click the ![icon][img1] **Actions** button to access the following options:
 
-* **Edit company**: Click here to change the details registered for the company. See [Edit companies][5].
-* **New contact**: Click here to create a new contact linked to the active company. See [Create contacts][6].
-* **Invoices**: Click here to display invoice data recorded for the company. See [View invoice data for companies][7].
+* **Edit company**: Click here to [change the details][5] registered for the company.
+* **New contact**: Click here to [create a new contact][6] linked to the active company.
+* **Invoices**: Click here to [display invoice data][7] recorded for the company.
 * **Open in SuperOffice CRM**: Click here to show the company in SuperOffice CRM, if you have a licence for this application.
 
 ## What would you like to do now?
@@ -45,12 +45,12 @@ Click the ![icon][img1] **Actions** button to access the following options:
 
 <!-- Referenced links -->
 [1]: find.md
-[2]: ../../request/listTicket.md
+[2]: ../../request/open.md
 [3]: ../../person/in-service/index.md
 [4]: create.md
 [5]: edit.md
 [6]: ../../person/in-service/create.md
-[7]: ../../request/viewCompany.listInvoicesContact.md
+[7]: ../../request/invoice/for-company.md
 [8]: delete.md
 
 <!-- Referenced images -->

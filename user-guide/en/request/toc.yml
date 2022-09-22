@@ -1,8 +1,49 @@
 items:
 - name: Overview
   href: index.md
-- name: Customers
-  href: customers.md
+- name: Open and view a request
+  href: open.md
+- name: Get next request in the queue
+  href: next-in-queue.md
+- name: Find a request
+  href: find.md
+- name: How to...
+  href: howto/index.md
+  items:
+  - name: Create a request
+    href: howto/create.md
+  - name: New quick request
+    href: howto/quick-reply.md
+  - name: Receive requests
+    href: howto/receive.md
+  - name: Accept
+    href: howto/accept.md
+  - name: Ask for help
+    href: howto/transfer.md
+  - name: Forward messages to external parties
+    href: howto/forward.md
+  - name: Reply
+    href: howto/reply.md
+  - name: Add a message to multiple requests
+    href: howto/reply-batch.md
+  - name: Split request 
+    href: howto/split-request.md
+  - name: Merge requests
+    href: howto/merge.md
+  - name: Add requests to the favourites list
+    href: howto/fav.md
+  - name: Keep track of messages
+    href: howto/flag-message.md
+  - name: Autosave
+    href: howto/autosave.md
+  - name: Edit message
+    href: howto/edit-message.md
+  - name: Split message
+    href: howto/split-message.md
+  - name: Close a request
+    href: howto/close.md
+  - name: Delete a request
+    href: howto/delete.md
 - name: Categories
   href: category/index.md
   items:
@@ -10,6 +51,8 @@ items:
     href: category/create.md
   - name: Delete category
     href: category/delete.md
+- name: Using tags in requests
+  href: tags.md
 - name: Priorities
   href: priority/index.md
   items:
@@ -26,116 +69,34 @@ items:
     href: status/create.md
   - name: Delete request status
     href: status/delete.md
-- name: AI requests
-  href: ai-requests.md
-- name: Get next request in the queue
-  href: get-next-request-in-queue.md
-- name: autosave
-  href: autosave.md
-- name: deleteTicket
-  href: deleteticket.md
-- name: listExtraTables
-  href: listextratables.md
-- name: listTicket
-  href: listticket.md
-- name: listTickets
-  href: listtickets.md
-- name: listTickets findTickets
-  href: listtickets.findtickets.md
-- name: listTickets searchTicketLog
-  href: listtickets.searchticketlog.md
-- name: listTickets showListTickets
-  href: listtickets.showlisttickets.md
-- name: listTickets useLists
-  href: listtickets.uselists.md
-- name: newQuickTicket
-  href: newquickticket.md
-- name: newTicket
-  href: newticket.md
-- name: receiveTickets
-  href: receivetickets.md
-- name: showListTickets
-  href: showlisttickets.md
-- name: showListTickets acceptRequest
-  href: showlisttickets.acceptrequest.md
-- name: showListTickets addMassMessage
-  href: showlisttickets.addmassmessage.md
-- name: showListTickets addMessage
-  href: showlisttickets.addmessage.md
-- name: showListTickets askForHelp
-  href: showlisttickets.askforhelp.md
-- name: showListTickets closeTickets
-  href: showlisttickets.closetickets.md
-- name: showListTickets editMessage
-  href: showlisttickets.editmessage.md
-- name: showListTickets forward
-  href: showlisttickets.forward.md
-- name: showListTickets hotlist
-  href: showlisttickets.hotlist.md
-- name: showListTickets listTicketLog
-  href: showlisttickets.listticketlog.md
-- name: showListTickets massForward
-  href: showlisttickets.massforward.md
-- name: showListTickets mergeTickets
-  href: showlisttickets.mergetickets.md
-- name: showListTickets Message keeptrack
-  href: showlisttickets.message-keeptrack.md
-- name: showListTickets splitMessage
-  href: showlisttickets.splitmessage.md
-- name: showListTickets splitTicket
-  href: showlisttickets.splitticket.md
-- name: tags
-  href: tags.md
-- name: ticketStepByStep
-  href: ticket.ticketstepbystep.md
-- name: ticketStepByStep
-  href: ticketstepbystep.md
-- name: listInvoicesContact
-  href: viewcompany.listinvoicescontact.md
-- name: listInvoicesContact editInvoice
-  href: viewcompany.listinvoicescontact.editinvoice.md
-- name: viewCustomer listInvoices
-  href: viewcustomer.listinvoices.md
-- name: Document externalDocument
-  href: externaldocument.md
+
 - name: Reply templates
-  href: reply-templates/index.md
+  href: reply-templates/toc.yml
+
+- name: Work with email addresses
+  href: mailboxes/index.md
   items:
-  - name: addReplyTemplatesToMessages
-    href: reply-templates/addreplytemplatestomessages.md
-  - name: autoFAQ
-    href: reply-templates/autofaq.md
-  - name: delReplyTemplate
-    href: reply-templates/delreplytemplate.md
-  - name: editReplyTemplateCustomerLang
-    href: reply-templates/editreplytemplatecustomerlang.md
-  - name: editReplyTemplateFolder
-    href: reply-templates/editreplytemplatefolder.md
-  - name: findReplyTemplates
-    href: reply-templates/findreplytemplates.md
-  - name: newlangversion
-    href: reply-templates/newlangversion.md
-  - name: newReplyTemplate
-    href: reply-templates/newreplytemplate.md
-  - name: viewReplyTemplate
-    href: reply-templates/viewreplytemplate.md
-  - name: Customize template with categories
-    href: reply-templates/custom-category.md
-  - name: Template variables
-    href: template-variables.md
-  - name: Work with email addresses
-    href: mailboxes/index.md
-    items:
-    - name: List email addresses
-      href: mailboxes/view-addresses.md
-    - name: newEabEntry
-      href: mailboxes/add-email-address.md
-    - name: editEabFolder
-      href: mailboxes/manage-folders.md
-- name: Invoice types
-  href: listinvoicetypes.md
+  - name: List email addresses
+    href: mailboxes/view-addresses.md
+  - name: newEabEntry
+    href: mailboxes/add-email-address.md
+  - name: editEabFolder
+    href: mailboxes/manage-folders.md
+
+- name: External document
+  href: externaldocument.md
+  
+- name: Invoice
+  href: invoice/index.md
   items:
+  - name: View invoice data for company
+    href: invoice/for-company.md
+  - name: View invoice data for contact
+    href: invoice/for-contact.md
   - name: Create invoice types
-    href: listinvoicetypes.editinvoicetype.md
+    href: invoice/create-type.md
   - name: Delete invoice types
-    href: listinvoicetypes.deleteinvoicetype.md
+    href: invoice/delete-type.md
+
+- name: Customers
+  href: customers.md

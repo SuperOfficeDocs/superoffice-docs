@@ -15,14 +15,14 @@ The simplest way to create a selection is to base it on a search. This creates a
 
 Open the search screen.
 
-* You can select **Requests** &gt; **Find requests** to search for requests. See [Search for requests][1].
-* You can use predefined lists to search for requests. See [Use lists][2].
-* You can select **Customers** &gt; **Find contacts** or **Find companies** to search for contacts and companies.
+* You can select **Requests** > **Find requests** to [search for requests][1].
+* You can [use predefined lists][2] to search for requests.
+* You can select **Customers** > **Find contacts** or **Find companies** to search for contacts and companies.
 * In the knowledge base, you can click the **Search** icon ( ![icon][img1] ) to the right of a folder name to search for different types of content.
 
 Enter or adjust the criteria as described under [Search in SuperOffice Service][3].
 
-Click ![icon][img2] &gt; **Save as selection**. The **Edit selection** screen is displayed.
+Click ![icon][img2] > **Save as selection**. The **Edit selection** screen is displayed.
 
 In the **General info** tab, enter the following:
 
@@ -43,8 +43,8 @@ Click **OK**. The selection is saved, and you are returned to the **List selecti
 * [Edit a selection][6]
 
 <!-- Referenced links -->
-[1]: ../../../request/listtickets.findtickets.md
-[2]: ../../../request/listtickets.uselists.md
+[1]: ../../../request/find.md
+[2]: ../../../request/find.md#use-lists
 [3]: ../../in-service/index.md
 [4]: updateSelection.md
 [5]: listSelections.md

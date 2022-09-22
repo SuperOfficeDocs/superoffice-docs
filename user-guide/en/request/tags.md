@@ -1,7 +1,7 @@
 ---
-uid: help-en-ticket-tags
-title: ticket tags
-description: ticket tags
+uid: help-en-request-tags
+title: Using tags in requests
+description: Using tags in requests
 author: SuperOffice RnD
 so.date: 06.29.2022
 keywords: Service
@@ -13,7 +13,7 @@ language: en
 
 Tagging is a powerful tool for organizing and finding requests in SuperOffice Service. You can create tags on the fly and tag any request with as many tags as you want. Using tags will simplify the way you search for, view and filter requests.
 
-## Adding tags to request
+## Add tag to request
 
 When you create or edit a request, you can add one or more tags that describe the request. See [Create requests][1].
 
@@ -39,9 +39,9 @@ If you have the necessary functional right, you can also create new tags. In a t
 Tags can be used to search for requests in the [quick search][2] and in the "regular" [search function][3] using criteria.
 
 <!-- Referenced links -->
-[1]: newTicket.md
+[1]: howto/create.md
 [2]: ../search-options/in-service/quick-search.md
-[3]: listTickets.findTickets.md
+[3]: find.md#category
 
 <!-- Referenced images -->
 [img1]: ../../media/icons/btn-menu.png

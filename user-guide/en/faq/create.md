@@ -13,14 +13,14 @@ language: en
 
 By creating FAQ entries, your organisation can build up a comprehensive collection of questions and answers which both customers and staff can use to find useful information. There are two ways to create FAQ entries:
 
-* A user can create an FAQ entry, based on communication with a customer in **Requests**. See [Create an FAQ entry from a request](#create-faq-entries-from-a-request).
-* An administrator can create an FAQ entry directly in **Knowledge Base &gt; FAQ**. See [Create new FAQ entries](#create-new-faq).
+* A user can create an FAQ entry, based on communication with a customer in **Requests**.
+* An administrator can create an FAQ entry directly in **Knowledge Base > FAQ**.
 
 ## Create FAQ entries from a request
 
-If you reply to an enquiry and think the same question may arise again, it is a good idea to create a reply that can be reused and made available to all customers. [!include[To do this](../includes/to-do-this.md)]
+If you reply to an enquiry and think the same question may arise again, it is a good idea to create a reply that can be reused and made available to all customers.
 
-1. Open a request. See [Process requests][1].
+1. [Open a request][1].
 
 2. Click the ![icon][img1] **Actions** button and select **Publish to FAQ**. This takes you to the **FAQ entry properties** screen.
 
@@ -100,7 +100,7 @@ Since the option to create FAQ entries this way is only available to administrat
 * [Publish FAQ entries][3]
 
 <!-- Referenced links -->
-[1]: ../request/listTicket.md
+[1]: ../request/open.md
 [2]: manage-folders.md
 [3]: publish.md
 [4]: edit.md

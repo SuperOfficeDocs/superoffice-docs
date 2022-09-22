@@ -6,6 +6,7 @@ author: SuperOffice RnD
 so.date: 06.29.2022
 keywords: request, category
 so.topic: help
+so.user: admin
 language: en
 ---
 
@@ -84,8 +85,8 @@ To create a new category:
 <!-- Referenced links -->
 [1]: ../../settings/preferences/index.md
 [2]: ../../user-management/user-groups.md
-[3]: ../get-next-request-in-queue.md
-[6]: ../listtickets.findtickets.md
+[3]: ../next-in-queue.md
+[6]: ../find.md#category
 
 <!-- Referenced images -->
 [img2]: ../../../media/icons/globalmenu-settings-small.png

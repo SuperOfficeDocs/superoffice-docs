@@ -1,6 +1,11 @@
 items:
 - name: Overview
   href: index.md
+- name: Request screen
+  href: request-screen.md
+  items:
+  - name: Request log
+    href: showlisttickets.listticketlog.md
 - name: Knowledge base
   href: knowledge-base.md
 - name: SOAP

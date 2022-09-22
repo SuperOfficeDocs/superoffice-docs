@@ -50,6 +50,6 @@ In this section of SuperOffice Service, you can configure the system to tailor i
 [13]: ../../chat/admin/index.md
 [14]: ../../clients/service/soapconf.md
 [15]: ../../clients/admin/system-design.md
-[16]: ../../request/listinvoicetypes.md
+[16]: ../../request/invoice/index.md
 
 <!-- Referenced images -->

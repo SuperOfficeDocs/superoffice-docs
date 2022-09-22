@@ -11,7 +11,7 @@ language: en
 
 # Customers
 
-Requests can be linked to contacts, who in turn can belong to a company. This means that requests cannot be linked directly to companies (only indirectly via contacts). When new e-mails are imported and saved as requests, the request is automatically linked to the correct contact via the e-mail address. When you view a request (see [List requests][1]), it is easy to see who the contact is, and if you click the contact's name, you can see which other requests are registered for this person. This provides you with a rapid overview of previous communication with this same contact.
+Requests can be linked to contacts, who in turn can belong to a company. This means that requests cannot be linked directly to companies (only indirectly via contacts). When new e-mails are imported and saved as requests, the request is automatically linked to the correct contact via the e-mail address. When you [view a request][1], it is easy to see who the contact is, and if you click the contact's name, you can see which other requests are registered for this person. This provides you with a rapid overview of previous communication with this same contact.
 
 ## What would you like to do now?
 
@@ -23,7 +23,7 @@ Requests can be linked to contacts, who in turn can belong to a company. This me
 * [Create companies][7]
 
 <!-- Referenced links -->
-[1]: listticket.md
+[1]: open.md
 [2]: ../person/in-service/find.md
 [3]: ../person/in-service/index.md
 [4]: ../person/in-service/create.md

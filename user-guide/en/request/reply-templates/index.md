@@ -1,7 +1,7 @@
 ---
-uid: help-en-document-replytemplates
-title: document replyTemplates
-description: document replyTemplates
+uid: help-en-reply-template
+title: Work with reply templates
+description: Work with reply templates
 author: SuperOffice RnD
 so.date: 06.29.2022
 keywords: Service
@@ -13,7 +13,8 @@ language: en
 
 A reply template can for instance be a specific layout to implement on replies, or a ready-made text that can be pasted into a message you are writing to a customer. It can also include an attachment, which will then be added to the message. Before you send the reply to the customer, you can edit the text and add or remove attachments. In other words, a reply template provides the basis for a customised response to a customer. Using reply templates saves time, and they can be tailored to the precise situation.
 
-<!-- Fix reuse ID=a1 -->
+## What is the difference between an FAQ entry and a reply template?
+
 [!include[FAQ vs. reply template](../../includes/faq-vs-replytemplate.md)]
 
 ## What would you like to do now?
@@ -31,16 +32,16 @@ A reply template can for instance be a specific layout to implement on replies, 
 * [Add reply templates to messages][11]
 
 <!-- Referenced links -->
-[2]: viewReplyTemplate.md
-[3]: newReplyTemplate.md
-[4]: newlangversion.md
-[5]: autoFAQ.md
-[6]: editReplyTemplateCustomerLang.md
-[7]: viewreplytemplate.md#copy-reply-templates
-[8]: delReplyTemplate.md
-[9]: findReplyTemplates.md
-[10]: editReplyTemplateFolder.md
-[11]: addReplyTemplatesToMessages.md
+[2]: view.md
+[3]: create.md
+[4]: new-language.md
+[5]: autofaq.md
+[6]: edit.md
+[7]: copy.md
+[8]: delete.md
+[9]: find.md
+[10]: manage-folders.md
+[11]: ../howto/reply.md
 [12]: custom-category.md
 
 <!-- Referenced images -->

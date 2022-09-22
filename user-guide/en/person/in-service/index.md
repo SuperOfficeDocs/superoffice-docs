@@ -46,10 +46,10 @@ Click the ![icon][img1] **Actions** button to access the following options:
 <!-- Referenced links -->
 [2]: create.md
 [3]: edit.md
-[4]: ../../request/newticket.md
-[5]: ../../request/newquickticket.md
+[4]: ../../request/howto/create.md
+[5]: ../../request/howto/quick-reply.md
 [6]: ../../customer-center/viewcustomer.sendnewcustmail.md
-[7]: ../../request/viewcustomer.listinvoices.md
+[7]: ../../request/invoice/for-contact.md
 [8]: delete.md
 
 <!-- Referenced images -->

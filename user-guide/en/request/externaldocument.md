@@ -25,7 +25,7 @@ Apart from this practical use, external documents are otherwise dealt with in th
 * [Administrate folders of documents][7]
 
 <!-- Referenced links -->
-[1]: showlisttickets.addmessage.md
+[1]: howto/reply.md
 [2]: ../document/in-service/view.md
 [3]: ../document/in-service/create.md
 [4]: ../document/in-service/edit.md

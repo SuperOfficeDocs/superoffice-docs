@@ -35,9 +35,9 @@ To quickly access a specific record (such as a request or contact), function or 
 
 There are many different ways to bring up the search screen, depending on where in the system you are:
 
-* You can select **Requests** &gt; **Find requests** to search for requests. See [Search for requests][3].
-* You can use predefined lists to search for requests. See [Use lists][4].
-* You can select **Customers** &gt; **Find contacts** or **Find companies** to search for contacts and companies.
+* You can select **Requests** > **Find requests** to search for requests. See [Search for requests][3].
+* You can use [predefined lists][4] to search for requests. See [Use lists][4].
+* You can select **Customers** > **Find contacts** or **Find companies** to search for contacts and companies.
 * In the knowledge base, you can click the **Search** icon ( ![icon][img6] ) to the right of a folder name to search for different types of content.
 * The search screen is used as the basis for creating some types of selection. See [Create a selection][5].
 
@@ -62,9 +62,9 @@ The list below explains how to use the different types of field that can be disp
 At the bottom of the **Criteria** screen, you have the following options:
 
 * **Clear search fields**: When you click this button, the values entered in the fields in the search screen are cleared. This is a quick way of emptying all the fields.
-* **Restore default**: When you click this button, all the criteria you have added by following the procedure under [Add search criteria](#add-search-criteria) are removed.
+* **Restore default**: When you click this button, all the [criteria you have added](#add-search-criteria) are removed.
 * **Save as selection**: Click here to create a selection consisting of the records that meet the specified criteria. See [Create a selection based on search criteria][6].
-* **Advanced view**: Click here for access to more advanced search options. These are described under [Use advanced view](#use-advanced-view).
+* **Advanced view**: Click here for access to more [advanced search options](#use-advanced-view).
 
 ## Add search criteria
 
@@ -91,13 +91,13 @@ If you click one of the column headings below **Result**, you get the following 
 * **Sort ascending**: Clicking here sorts the records in ascending order, for example, alphabetically if the column contains text, based on the column in question.
 * **Sort descending**: Click here to sort the records in descending order, based on the column in question. If the column contains numbers (such as ID numbers), the highest will be displayed at the top.
 * **Group by**: For example, if you have the "Category" column containing the values "Sales", "Support" and "Invoices", the records will be divided into three groups with these headings.
-* **Functions**: If you click here you can choose between **Mathematical functions** and **Statistical functions**. An example of a mathematical function is summing a column consisting of numerical values. With regard to statistical functions, you can, for example, add a column showing request response times (see [Add columns][7]), and then use the **Average** statistical function to display the average response time for the displayed requests. If, instead, you select **Remove functions**, you remove any previously specified functions.
+* **Functions**: If you click here you can choose between **Mathematical functions** and **Statistical functions**. An example of a mathematical function is summing a column consisting of numerical values. With regard to statistical functions, you can, for example, [add a column][7] showing request response times, and then use the **Average** statistical function to display the average response time for the displayed requests. If, instead, you select **Remove functions**, you remove any previously specified functions.
 
 At the top right corner of the search results list are the following buttons:
 
 * **Update content** ( ![icon][img1] ): Clicking this button updates the search result with any new records that also match the criteria.
 * Click the ![icon][img2] menu button in the top right corner to access the change the view options.
-* **Edit element profile** ( ![icon][img8] ): Clicking this button takes you to the **Edit element profile** screen, where you can determine how the search results should be presented. See [Manage the display of search results][8].
+* **Edit element profile** ( ![icon][img8] ): Clicking this button takes you to the **Edit element profile** screen, where you can determine [how the search results should be presented][8].
 
 Under the list, you can click ![icon][img2] to access the following options:
 
@@ -123,8 +123,8 @@ To return to the ordinary view, click the **Simple view** button at the top of t
 <!-- Referenced links -->
 [1]: quick-search.md
 [2]: in-navigator.md
-[3]: ../../request/listTickets.findTickets.md
-[4]: ../../request/listTickets.useLists.md
+[3]: ../../request/find.md
+[4]: ../../request/find.md#use-lists
 [5]: ../selections/in-service/newselection.md
 [6]: ../selections/in-service/newselection.newselection.md
 [7]: customize-presentation.md#add-columns

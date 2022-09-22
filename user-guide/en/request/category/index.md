@@ -11,9 +11,14 @@ language: en
 
 # Categories
 
-All requests belong to a category, and each category has its own rules that define how requests are processed in the system. Typically, the higher-level categories will correspond to the organisation's departments, while subcategories will correspond to areas of responsibility and/or logical structures within a department. Subcategories could also be the products that the company sells. An example might be to have the main categories of User Support, Development, Sales and Invoicing - and subcategories in these for each of the products that are sold.
+All requests belong to a category, and each category has its own rules that define how requests are processed in the system.
 
-**Disambiguation:** The term "category" is also used for company categories. See [Lists][3].
+Typically, the higher-level categories will correspond to the organisation's departments, while subcategories will correspond to areas of responsibility and/or logical structures within a department. Subcategories could also be the products that the company sells.
+
+An example might be to have the main categories of User Support, Development, Sales and Invoicing - and subcategories in these for each of the products that are sold.
+
+> [!NOTE]
+> The term **category** is also used for company categories. See [Lists][3].
 
 Users can be added as members in the categories individually or via the [user groups][4] they belong to.
 
@@ -44,8 +49,8 @@ The categories are arranged in a tree structure.
 [2]: delete.md
 [3]: ../../settings/lists/index.md
 [4]: ../../user-management/user-groups.md
-[5]: ../get-next-request-in-queue.md
-[6]: ../listtickets.findtickets.md
+[5]: ../next-in-queue.md
+[6]: ../find.md#category
 
 <!-- Referenced images -->
 [img1]: ../../../media/icons/globalmenu-settings-small.png
