@@ -14,7 +14,7 @@ The Customer Centre in SuperOffice CRM is an out-of-the-box support portal, allo
 
 However, the Customer Centre is also a platform for building more web pages, which allow you to expose parts of your CRM data to your customers and let them interact with them. By including your customers in your CRM processes, you can increase the efficiency of your organization. Instead of having your customers contact you by phone and email, and then updating your CRM data manually, you can save time by letting your customers access a subset of the data directly themselves. Pay attention, this is not out-of-the-box functionality, but rather something you can achieve by customizing your installation.
 
-[!include[License requirement](../../includes/req-cep.md)]
+[!include[License requirement](../../../common/includes/req-cep.md)]
 
 ## The nature of a web form
 

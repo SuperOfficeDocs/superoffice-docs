@@ -21,7 +21,7 @@ An *extra field* is a custom field that you add to an existing SuperOffice datab
 * user
 * your [custom tables][6]
 
-[!include[License requirement](../../includes/req-dev-tools.md)]
+[!include[License requirement](../../../common/includes/req-dev-tools.md)]
 
 Extra fields are managed in SuperOffice Service, in the **Tables** screen.
 
