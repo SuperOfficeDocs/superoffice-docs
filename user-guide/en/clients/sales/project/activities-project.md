@@ -13,12 +13,9 @@ language: en
 
 ![Project guide activities section -screenshot][img1]
 
-The **Activities** section tab shows all activities that are linked to the active project: follow-ups (appointments, tasks and phone calls) and documents (including merge documents, reports and email).
+The **Activities** section tab shows all [activities][1] that are linked to the active project: follow-ups (appointments, tasks and phone calls) and documents (including merge documents, reports and email).
 
 Double-click an activity in the section tab to view or edit it, as required.
-
-> [!NOTE]
-> Activities are described in more detail under [Activities in SuperOffice CRM][1].
 
 ## Columns in the Activities section tab
 
@@ -57,13 +54,13 @@ The second column contains icons that indicate the type of activity, for example
 * [Filter activities][7]
 
 <!-- Referenced links -->
-[1]: ../../../diary/index.md
-[2]: ../../../diary/marking-activities-as-completed-not-completed.md
+[1]: ../../../diary/activity.md
+[2]: ../../../diary/change-completed-status.md
 [3]: ../../../company/view-activities.md
 [4]: ../../../company/delete-activities-contact.md
 [5]: ../../../company/replying-to-email-from-activities-section-tab.md
 [6]: ../../../company/forwarding-email-from-activities-section-tab.md
-[7]: ../../../diary/using-filter-function-contact.md
+[7]: ../../howto/using-filter-function-contact.md
 
 <!-- Referenced images -->
 [img1]: media/project-activities.bmp

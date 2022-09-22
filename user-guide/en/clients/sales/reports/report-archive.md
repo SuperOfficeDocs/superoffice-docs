@@ -14,16 +14,17 @@ language: en
 The report archive (the **Documents** section tab) appears at the bottom of the **Reports** screen. It contains previously generated reports which have been saved as documents. In this section tab, you can open, edit, delete and [filter][7] saved reports. You can also export a list of reports.
 
 > [!TIP]
-> Saved reports are listed with **Report** in the **Type** column on the **Activities** section tab in the **Company**, **Contact**, **Sale** and **Project** screens. (See [Activities in SuperOffice CRM][3]).
+> Saved reports are listed with **Report** in the **Type** column on the **Activities** section tab in the **Company**, **Contact**, **Sale** and **Project** screens.
 
 ## What would you like to do now?
 
+* [Learn more about activities][3]
 * [Open reports in the report archive (the Documents section tab)][6]
 * [Use the Filter function][7]
 * [Delete reports from the report archive (the Documents section tab)][8]
 
 <!-- Referenced links -->
-[3]: ../../../diary/index.md
+[3]: ../../../diary/activity.md
 [6]: ../../../reports/open-from-archive.md
 [7]: ../../../reports/using-filter-function-reports.md
 [8]: ../../../reports/delete-from-archive.md

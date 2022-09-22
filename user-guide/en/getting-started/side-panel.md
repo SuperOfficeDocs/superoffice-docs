@@ -132,12 +132,12 @@ In SuperOffice Settings and maintenance, you can also define your own views for 
 [1]: ../search-options/using-history-list.md
 [2]: ../person/create.md
 [3]: ../clients/sales/diary/day.md
-[4]: ../diary/diary.md
+[4]: ../clients/sales/diary/index.md
 [5]: ../clients/sales/document/document-dialog.md
 [6]: ../clients/sales/diary/dialog-for-followups.md
 [7]: ../search-options/selections/create/create-dynamic.yml
 [8]: favourites.md
-[9]: notepad.md
+[9]: notes.md
 
 <!-- Referenced images -->
 [img1]: ../../media/icons/arrow-left.png

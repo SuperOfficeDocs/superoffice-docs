@@ -25,6 +25,6 @@ SuperOffice CRM is compatible with all the latest operating systems and browsers
 
 <!-- Referenced links -->
 [1]: ../../../../docs/onsite/requirements/index.md
-[2]: ../diary/phone-preferences.md
+[2]: ../diary/phone-call/preferences.md
 
 <!-- Referenced images -->

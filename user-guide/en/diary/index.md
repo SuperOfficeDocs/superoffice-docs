@@ -1,91 +1,75 @@
 ---
-uid: help-en-index
-title: Activities in SuperOffice CRM
-description: Activities in SuperOffice CRM
+uid: help-en-diary
+title: Diary
+description: Diary
 author: SuperOffice RnD
-so.date: 06.29.2022
+so.date: 07.04.2022
 keywords: CRM
 so.topic: help
 language: en
 ---
 
-# Activities in SuperOffice CRM
+# Diary
 
-![Activities in SuperOffice CRM -screenshot][img3]
+The diary in SuperOffice CRM is used much like a filofax and has separate pages for every day, week and month.
 
-The **Activities** section tab is available in the **Company** screen, the **Contact** screen, the **Project** screen, the **Diary** screen and the **Sale** screen. You create activities using the ![icon][img2] **New** menu in the top bar, or by double-clicking in the section tab.
+The diary is a useful tool when you want to plan and perform different types of tasks. From the diary, you can view, edit and delete [activities][16].
 
-| Location | Description | Read more |
-|---|---|---|
-| Company screen | Displays activities linked to the company in question. | [Activities (Company)][13] |
-| Contact screen | Displays activities linked to the contact in question. | [Activities (Contact)][14] |
-| Project screen | Displays activities linked to the project or sale in question. | [Activities (Project)][15] |
-| Sale screen | Displays activities linked to the project or sale in question. | [Activities section tab (Sale)][16] |
-| Diary screen | Displays all your uncompleted activities. | [Activities section tab (Diary)][6] |
+You also get a [list of sales][13] to work on, using the **Sales** section tab in the **Diary** screen.
+
+## Work with follow-ups
+
+In SuperOffice CRM, follow-up is a collective term for the [appointment][1], [task][2], and [phone call][3] activities. These all function in largely the same way.
 
 > [!NOTE]
-> Activities are also displayed in the [different views][7] in the **Diary** screen.
+> It is important to understand the distinction between activities and follow-ups (appointments, tasks and phone calls).
+When you create follow-ups from the **Diary** screen, by default they are defined as appointments. However, you can change the follow-up type to task or phone call in the type field in the **Appointment** dialog. [!include[See Appointment dialog](../includes/see-apt-dialog.md)]
 
-There are two types of activities – documents and follow-ups. Follow-ups is a collective term for appointments, phone calls and tasks. In addition, mailings, form submissions and chat records are displayed in the **Activities** section tab.
+Follow-ups are closely linked to the **Diary** screen, and some functions apply especially to the Diary.
 
-The table below illustrates the different kinds of activities:
-
-[!include[ALT](includes/activity-types.md)]
-
-The activities list columns contain the following information:
-
-* ![icon][img1]: The first column in the activities list specifies the **Completed** status of an activity. A tick means that the activity is completed, while an empty box means that it is not completed.
-* The Category column contains icons that indicate the type of activity, for example, a telephone for a call. These icons reflect the text in the **Type** column.
-* The other columns in the activities list show various information about the activity. If not all the text in a field is visible, hold the mouse pointer over it to display it in a tooltip.
-
-The activities displayed depend on which of the following checkboxes you have selected at the bottom of the section tab:
-
-* Follow-ups (appointments, tasks and phone calls)
-* Documents (e-mail, letters, and other documents)
-* Mailings (bulk mailings by merged document, e-mail or SMS)
-* Other (chat records, form submissions)
-
-You can show all activities, or just one type.
-
-Each type of activity will be dealt with in separate topics and chapters, as follows:
-
-* [Appointment][1]
-* [Task][2]
-* [Phone Call][3]
-* [Work with documents][4]
-* [Compose an email][5]
-* [Chat][12]
+> [!TIP]
+> In SuperOffice Settings and maintenance, you can define that all follow-ups of a specific type will be displayed in the **Diary** screen in SuperOffice CRM with the same background colour.
 
 ## What would you like to do now?
 
-* [Use filters in the section tabs][17]
-* [Delete activities][9]
-* [Dial contacts][11]
-* [Change Completed status of an activity][10]
-* [Add follow-ups (appointments, tasks and phone calls)][8]
-* [Work with documents][4]
-* [Compose an email][5]
+* [Navigate in the Diary screen][14]
+* [Select a time zone][15]
+* [Open follow-ups][4]
+* [Edit follow-up][6]
+* [Set alarms for follow-up][7]
+* [Send follow-ups][8]
+* [Create appointment using the Diary][18]
+* [Create overlapping follow-ups][9]
+* [Create repeating follow-up][10]
+* [Invite your associates to a follow-up][11]
+* [Link activities][12]
+* [Move follow-ups][19]
+* [Change the end time of follow-up][20]
+* [Copy follow-up to the Diary][21]
+* [Print][5]
+* [Delete follow-up][17]
 
 <!-- Referenced links -->
 [1]: appointment.md
 [2]: task.md
-[3]: phone-call.md
-[4]: ../document/index.md
-[5]: compose-email-web.md
-[6]: ../clients/sales/diary/activities-tab.md
-[7]: ../clients/sales/diary/index.md
-[8]: add-activities.md
-[9]: deleting-activities.md
-[10]: marking-activities-as-completed-not-completed.md
-[11]: dialling-contacts.md
-[12]: ../chat/index.md
-[13]: ../clients/sales/company/activities-tab.md
-[14]: ../clients/sales/contact/activities-tab.md
-[15]: ../clients/sales/project/activities-project.md
-[16]: ../clients/sales/sale/activities-sale.md
-[17]: ../clients/howto/use-filters-in-section-tabs.md
+[3]: phone-call/index.md
+[4]: open-follow-up.md
+[5]: print.md
+[6]: edit-follow-up.md
+[7]: set-alarm.md
+[8]: send-as-email.md
+[9]: create-follow-up.md#overlap
+[10]: recurrence/create.md
+[11]: invitation/index.md
+[12]: ../clients/howto/linking-documents-to-follow-ups.md
+[13]: ../clients/sales/diary/sales-tab.md
+[14]: ../clients/sales/diary/navigate-in-diary.md
+[15]: ../globalization/time-zones.md
+[16]: activity.md
+[17]: delete-follow-up.md
+[18]: create-appointment.md
+[19]: move-follow-up.md
+[20]: change-end-time.md
+[21]: copy-follow-up.md
 
 <!-- Referenced images -->
-[img1]: ../../media/icons/utfoert.bmp
-[img2]: ../../media/icons/globalmenu-new.png
-[img3]: media/activities-detail.bmp

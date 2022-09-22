@@ -24,12 +24,16 @@ Tasks can be displayed in the following places in SuperOffice CRM:
 > [!NOTE]
 > If you specify a start and end time for a task, it will be entered in the diary at the correct day and time.
 
-The [Create tasks][2] topic describes how to create a task. Other aspects of tasks are explained in general under [Activities in SuperOffice CRM][1] and [Work with follow-ups][3].
+## What do you want to do
+
+* [Create tasks][2]
+* [Learn about activities][1]
+* [Work with follow-ups][3]
 
 <!-- Referenced links -->
-[1]: index.md
-[2]: creating-tasks.md
-[3]: follow-ups-in-superoffice-crm.md
+[1]: activity.md
+[2]: create-task.md
+[3]: index.md
 
 <!-- Referenced images -->
 [img1]: ../../media/icons/knapperad-oppgave.bmp

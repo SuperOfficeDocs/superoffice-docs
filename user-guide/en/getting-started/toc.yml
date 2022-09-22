@@ -27,8 +27,8 @@ items:
   href: favourites.md
 - name: Tooltip
   href: info-box.md
-- name: Notepad
-  href: notepad.md
+- name: Note and Notepad
+  href: notes.md
 - name: How to...
   items:
   - name: Delete an element

@@ -34,16 +34,14 @@ The button has the follow options:
 
 * [Create group views][1]
 * [View group views for an entire user group][2]
-* [Use the group view][3]
 * [Create appointments for associates][4]
 * [Invite participants][5]
 
 <!-- Referenced links -->
-[1]: ../../../diary/creating-diary-views.md
-[2]: ../../../diary/viewing-views-for-entire-user-group.md
-[3]: ../../../diary/using-group-view.md
-[4]: ../../../diary/creating-appointments-for-associates.md
-[5]: ../../../diary/linking-participants-to-follow-ups.md
+[1]: ../../../diary/create-view.md
+[2]: ../../../diary/open.md
+[4]: ../../../diary/create-follow-up.md
+[5]: ../../../diary/invitation/add-participant.md
 
 <!-- Referenced images -->
 [img1]: media/view.bmp

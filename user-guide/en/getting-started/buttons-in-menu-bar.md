@@ -60,7 +60,7 @@ The other buttons in SuperOffice Service are described in connection with the ta
 | Duplicate settings | Click here to edit the [duplicate settings][8] for companies, projects and selections. |
 | Filter | Click here to edit the [filter settings][2]. |
 | Show Notepad | Click here to [show the Notepad and create a new note][9]. |
-| Show confirmation dialog when sending invitations | Click her to activate/deactivate the confirmation dialog when sending emails to meeting participants from the **Appointment** dialog (see [Add participants to follow-ups][16]). |
+| Show confirmation dialog when sending invitations | Click her to activate/deactivate the confirmation dialog when sending emails to meeting participants from the **Appointment** dialog. |
 | Targets | Click here to add [sales targets][17]. |
 | Edit system signature | Click here to edit the default e-mail signature. |
 | Settings and maintenance | Click here to go to SuperOffice Settings and maintenance. This option is only available if you have administrator's rights. |
@@ -85,14 +85,13 @@ At the top left in SuperOffice CRM is the SuperOffice logo, which has the follow
 [1]: ../clients/howto/external-applications-and-url-addresses.md
 [2]: ../clients/howto/use-filters-in-section-tabs.md
 [3]: restore-deleted-companies-and-contacts.md
-[4]: ../diary/receiving-invitations.md
+[4]: ../diary/invitation/receive.md
 [5]: ../search-options/find-dialog.md
 [6]: preferences.md
 [7]: ../settings/edit-email-signature.md
 [8]: duplicates.md
-[9]: notepad.md
+[9]: notes.md
 [15]: ../orphans/creating-shortcuts-to-entries-in-crm.md
-[16]: ../diary/linking-participants-to-follow-ups.md
 [17]: ../sale/sales-targets.md
 
 <!-- Referenced images -->

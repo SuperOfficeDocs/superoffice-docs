@@ -145,10 +145,10 @@ This tab displays any [user-defined fields][3] configured in SuperOffice Setting
 [1]: ../../../document/edit.md
 [5]: ../../../document/create.md
 [6]: ../../../search-options/using-fastsearcher.md
-[7]: ../../../diary/marking-activities-as-completed-not-completed.md
+[7]: ../../../diary/change-completed-status.md
 [8]: ../../../document/lock.md
 [9]: ../../../orphans/creating-shortcuts-to-entries-in-crm.md
-[2]: ../../../diary/linking-documents-to-follow-ups.md
+[2]: ../../howto/linking-documents-to-follow-ups.md
 [3]: ../../../custom-objects/udef/index.md
 
 <!-- Referenced images -->

@@ -158,15 +158,15 @@ This tab displays any user-defined fields configured in SuperOffice Settings and
 <!-- Referenced links -->
 [1]: ../../../diary/appointment.md
 [2]: ../../../diary/task.md
-[3]: ../../../diary/phone-call.md
-[4]: ../../../diary/creating-recurring-follow-ups.md
-[5]: ../../../diary/setting-alarm-for-follow-ups.md
-[6]: ../../../diary/creating-follow-ups-with-your-associates.md
-[7]: ../../../diary/viewing-another-diary.md
-[8]: ../../../diary/linking-documents-to-follow-ups.md
+[3]: ../../../diary/phone-call/index.md
+[4]: ../../../diary/recurrence/index.md
+[5]: ../../../diary/set-alarm.md
+[6]: ../../../diary/invitation/index.md
+[7]: ../../../diary/open.md
+[8]: ../../howto/linking-documents-to-follow-ups.md
 [9]: ../../../diary/video-meetings.md
-[10]: ../../../diary/time-zones.md
-[11]: ../../../diary/marking-activities-as-completed-not-completed.md
+[10]: ../../../globalization/time-zones.md
+[11]: ../../../diary/change-completed-status.md
 [12]: ../../../search-options/using-fastsearcher.md
 [13]: ../../../getting-started/preferences.md
 

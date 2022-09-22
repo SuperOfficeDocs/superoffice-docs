@@ -1,7 +1,7 @@
 ---
 uid: help-en-follow-up-assign
-title: follow-up assign
-description: follow-up assign
+title: Assign a follow-up to someone else
+description: Assign a follow-up to someone else
 author: SuperOffice RnD
 so.date: 06.29.2022
 keywords: CRM
@@ -15,7 +15,7 @@ If you are creating a follow-up on behalf of someone else, you can change the ow
 
 Examples: Your colleague is on vacation, but he needs to phone a client when he gets back. You have arranged a meeting with a client, but you need to delegate it to someone else.
 
-1. Open or create a follow-up. See [Add follow-ups (appointments, tasks and phone calls)][1].
+1. [Open or create a follow-up][1].
 2. Select the **Details** tab and click the name in the **Owner** field.
     or
     Click the **Task** button ( ![icon][img1] ) and select **Assign to**.
@@ -27,7 +27,7 @@ Examples: Your colleague is on vacation, but he needs to phone a client when he 
 The selected person is now the owner of the follow-up, and will see the follow-up in their diary and activities list.
 
 <!-- Referenced links -->
-[1]: add-activities.md
+[1]: create-follow-up.md
 
 <!-- Referenced images -->
 [img1]: ../../media/icons/btn-menu.png

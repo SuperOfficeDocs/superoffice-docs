@@ -20,7 +20,7 @@ Along the left-hand edge of the **Day** tab, there are hourly time intervals. Yo
 At the bottom left of the **Day** tab is a field for selecting a [time zone][1], if time zones have been enabled in SuperOffice Settings and maintenance.
 
 <!-- Referenced links -->
-[1]: ../../../diary/time-zones.md
+[1]: ../../../globalization/time-zones.md
 
 <!-- Referenced images -->
 [img1]: media/dayplan.bmp

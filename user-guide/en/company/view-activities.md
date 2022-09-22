@@ -11,20 +11,20 @@ language: en
 
 # View activities
 
-The activities displayed depend on which of the following checkboxes you have selected at the bottom of the section tab:
+The [activities][1] displayed depend on which of the following checkboxes you have selected at the bottom of the section tab:
 
 * Follow-ups
 * Documents
 * Mailings
 * Other (chat records and form submissions)
 
-You can show all activities, or just one of the types. For more details about the different activities, see [Activities in SuperOffice CRM][1].
+You can show all activities, or just one of the types.
 
 > [!TIP]
 > You can also [filter activities][3] by date and user.
 
 <!-- Referenced links -->
-[1]: ../diary/index.md
-[3]: ../diary/using-filter-function-contact.md
+[1]: ../diary/activity.md
+[3]: ../clients/howto/using-filter-function-contact.md
 
 <!-- Referenced images -->

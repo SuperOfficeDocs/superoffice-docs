@@ -75,10 +75,10 @@ If an activity is highlighted in red type, this means that its provisional date 
 * [Delete activities in the activities list][7]
 
 <!-- Referenced links -->
-[1]: ../../../diary/marking-activities-as-completed-not-completed.md
+[1]: ../../../diary/change-completed-status.md
 [2]: dialog-for-followups.md
-[5]: ../../../diary/creating-follow-ups-in-activities-list.md
-[7]: ../../../diary/deleting-activities-in-activities-list.md
+[5]: ../../../diary/create-follow-up.md
+[7]: ../../../diary/activity.md
 [8]: ../../../getting-started/preferences.md
 
 <!-- Referenced images -->

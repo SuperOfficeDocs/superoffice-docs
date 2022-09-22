@@ -1,110 +1,85 @@
 items:
 - name: Diary
-  href: diary.md
-- name: Using the group view
-  href: using-group-view.md
-- name: Create group views
-  href: creating-diary-views.md
-- name: View group views for an entire user group
-  href: viewing-views-for-entire-user-group.md
-- name: Create appointments for associates
-  href: creating-appointments-for-associates.md
-- name: Create follow-ups in the activities list
-  href: creating-follow-ups-in-activities-list.md
-- name: Delete activities in the activities list
-  href: deleting-activities-in-activities-list.md
-
-- name: Activities in SuperOffice CRM
   href: index.md
-- name: Add activities
-  href: add-activities.md
+- name: Activities
+  href: activity.md
 - name: Appointment
   href: appointment.md
-- name: Changing the end time for follow ups in the Diary
-  href: changing-end-time-for-follow-ups-in-diary.md
-- name: Compose an email (Web)
-  href: compose-email-web.md
-- name: Copying follow ups to the diary
-  href: copying-follow-ups-to-diary.md
-- name: Creating appointments
-  href: creating-appointments.md
-- name: Creating appointments using the Diary
-  href: creating-appointments-using-diary.md
-- name: Creating follow ups with your associates
-  href: creating-follow-ups-with-your-associates.md
-- name: Creating overlapping follow ups
-  href: creating-overlapping-follow-ups.md
-- name: Creating recurring follow ups
-  href: creating-recurring-follow-ups.md
-- name: Creating tasks
-  href: creating-tasks.md
-- name: Deleting activities
-  href: deleting-activities.md
-- name: Deleting follow ups using the Diary
-  href: deleting-follow-ups-using-diary.md
-- name: Dialling Contacts
-  href: dialling-contacts.md
-- name: Editing follow ups
-  href: editing-follow-ups.md
-- name: Editing or deleting invitations
-  href: editing-or-deleting-invitations.md
-- name: Editing recurring follow ups
-  href: editing-recurring-follow-ups.md
-- name: Entering phone calls
-  href: entering-phone-calls.md
-- name: Follow up assign
-  href: follow-up-assign.md
-- name: Follow ups in SuperOffice CRM
-  href: follow-ups-in-superoffice-crm.md
-- name: Linking documents to follow ups
-  href: linking-documents-to-follow-ups.md
-- name: Linking participants to follow ups
-  href: linking-participants-to-follow-ups.md
-- name: Managing follow ups in the diary
-  href: managing-follow-ups-in-diary.md
-- name: Marking activities as completed not completed
-  href: marking-activities-as-completed-not-completed.md
-- name: Moving follow ups from the activities list to the diary
-  href: moving-follow-ups-from-activities-list-to-diary.md
-- name: Moving follow ups to a different time
-  href: moving-follow-ups-to-different-time.md
-- name: Moving follow ups using drag and drop
-  href: moving-follow-ups-using-drag-and-drop.md
-- name: Note
-  href: note.md
-- name: Opening Follow ups
-  href: opening-follow-ups.md
-- name: Opening follow ups via the Diary
-  href: opening-follow-ups-via-diary.md
-- name: Phone call
-  href: phone-call.md
-- name: Printing follow ups
-  href: printing-follow-ups.md
-- name: Printing from the Diary
-  href: printing-from-diary.md
-- name: Receive response
-  href: receive-response.md
-- name: Receiving invitations
-  href: receiving-invitations.md
-- name: Sending follow ups
-  href: sending-follow-ups.md
-- name: Setting an alarm for follow ups
-  href: setting-alarm-for-follow-ups.md
-- name: Showing follow ups you are invited to
-  href: showing-follow-ups-you-are-invited-to.md
-- name: Status of invitations
-  href: status-of-invitations.md
-- name: Stopping recurring follow ups
-  href: stopping-recurring-follow-ups.md
-- name: Task
+  items:
+  - name: Create an appointment
+    href: create-appointment.md
+- name: Tasks
   href: task.md
-- name: Time zones
-  href: time-zones.md
+  items:
+  - name: Create a task
+    href: create-task.md
+- name: Phone call
+  href: phone-call/index.md
+  items:
+  - name: Enter a phone call
+    href: phone-call/add.md
+  - name: Dial a contact
+    href: phone-call/dial.md
+  - name: Phone preferences
+    href: phone-call/preferences.md
+
+- name: Viewing the diary
+  items:
+  - name: View your or other diaries
+    href: open.md
+  - name: Create group view
+    href: create-view.md
+  - name: Open a follow-up
+    href: open-follow-up.md
+
+- name: Working with follow-ups
+  items:
+  - name: Add a follow-up (appointment, task, or phone call)
+    href: create-follow-up.md
+  - name: Copy a follow-up
+    href: copy-follow-up.md
+  - name: Assign a follow-up to someone else
+    href: follow-up-assign.md
+  - name: Edit a follow-up
+    href: edit-follow-up.md
+  - name: Change Completed status
+    href: change-completed-status.md
+  - name: Change the end time
+    href: change-end-time.md
+  - name: Sett alarm for follow-up
+    href: set-alarm.md
+  - name: Move a follow-up
+    href: move-follow-up.md
+  - name: Send a follow-up as an email
+    href: send-as-email.md
+  - name: Print follow-ups and Diary screen
+    href: print.md
+  - name: Delete follow-up
+    href: delete-follow-up.md
+
+- name: Invitations
+  href: invitation/index.md
+  items:
+  - name: Add participants to follow-up
+    href: invitation/add-participant.md
+  - name: Show follow-ups you are invited to
+    href: invitation/follow-ups-you-are-invited-to.md
+  - name: Receiving invitations
+    href: invitation/receive.md
+  - name: Edit or delete invitation
+    href: invitation/update.md
+  - name: Handle response to invitations
+    href: invitation/response.md
+
+- name: Recurrence
+  href: recurrence/index.md
+  items:
+  - name: Creating recurring follow-up
+    href: recurrence/create.md
+  - name: Editing recurring follow-up
+    href: recurrence/edit.md
+  - name: Stopping recurring follow-up
+    href: recurrence/stop.md
+
 - name: Video meetings
   href: video-meetings.md
-- name: Viewing another diary
-  href: viewing-another-diary.md
-- name: Using the Filter function Contact
-  href: using-filter-function-contact.md
-- name: Phone preferences
-  href: phone-preferences.md

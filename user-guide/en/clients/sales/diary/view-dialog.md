@@ -13,22 +13,6 @@ language: en
 
 In the **New group view** dialog, you can display users and resources whose diaries you want to see and save the views in the **View** list box with a name of your choosing.
 
-Bring up the **New group view** dialog as follows:
-
-1. Select **Diary** in the Navigator and select the **View** tab.
-2. Select ![icon][img1] **Task** at the bottom right of the tab.
-3. Select one of the following:
-    * **Edit**: Select this option to edit the current view.
-
-        <details><summary>Why is the Edit button greyed out?</summary>
-        You can only make changes in group views you have created yourself. If you are displaying a predefined group view, the **Edit** button will be greyed out to indicate that you cannot change it here. These group views contain all users that have been assigned to the specific groups. This is defined in SuperOffice Settings and maintenance.
-
-        If you want to edit and save a predefined group view, select the **Copy** option and save the view with a new name.
-        </details>
-
-    * **New group view:** Select this option to create a new view.
-    * **Copy**: Select this option to copy and edit the current view.
-
 ## Fields in this dialog
 
 ### Name
@@ -80,19 +64,16 @@ Closes the dialog without saving changes.
 
 * [Create group views][1]
 * [View group views for an entire user group][2]
-* [Use the group view][3]
 * [Create appointments for associates][4]
 
 <!-- Referenced links -->
-[1]: ../../../diary/creating-diary-views.md
-[2]: ../../../diary/viewing-views-for-entire-user-group.md
-[3]: ../../../diary/using-group-view.md
-[4]: ../../../diary/creating-appointments-for-associates.md
+[1]: ../../../diary/create-view.md
+[2]: ../../../diary/open.md
+[4]: ../../../diary/create-follow-up.md
 [5]: ../../../search-options/using-history-list.md
 [6]: ../../../search-options/using-fastsearcher.md
 
 <!-- Referenced images -->
-[img1]: ../../../../media/icons/btn-menu.png
 [img2]: ../../../../media/icons/pil-hoeyre.bmp
 [img3]: ../../../../media/icons/pil-venstre.bmp
 [img4]: ../../../../media/icons/merk-alle.bmp

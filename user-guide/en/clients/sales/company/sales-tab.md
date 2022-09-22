@@ -30,7 +30,7 @@ If you check **Include stakeholders** at the bottom of the section tab, sales wh
 <!-- Referenced links -->
 [2]: ../../../sale/index.md
 [3]: ../../../sale/stakeholders/index.md
-[4]: ../../../diary/using-filter-function-contact.md
+[4]: ../../howto/using-filter-function-contact.md
 
 <!-- Referenced images -->
 [img1]: ../media/sale-detail.bmp

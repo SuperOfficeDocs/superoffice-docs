@@ -51,9 +51,9 @@ By default, the follow-ups are displayed as a blue field in the diary tabs. If y
 
 The **Diary** screen contains the following section tabs:
 
-* [Activities][11]: The **Activities** section tab gives you an overview of activities and acts as a to-do list or task list.
+* [Activities][6]: The **Activities** section tab gives you an overview of activities and acts as a to-do list or task list.
 
-* [Sales][12]: The **Sales** section tab shows essential information about sales.
+* [Sales][7]: The **Sales** section tab shows essential information about sales.
 
 [!include[Add more section tabs](../../../includes/more-tab.md)]
 
@@ -64,12 +64,12 @@ The **Diary** screen contains the following section tabs:
 [5]: view.md
 [6]: activities-tab.md
 [7]: sales-tab.md
-[8]: ../../../diary/marking-activities-as-completed-not-completed.md
-[9]: ../../../diary/status-of-invitations.md
+[8]: ../../../diary/change-completed-status.md
+[9]: ../../../diary/invitation/index.md#status
 [10]: ../../../diary/video-meetings.md
-[11]: ../../../diary/creating-recurring-follow-ups.md
-[12]: ../../../diary/creating-follow-ups-with-your-associates.md
-[13]: ../../../diary/managing-follow-ups-in-diary.md
+[11]: ../../../diary/recurrence/create.md
+[12]: ../../../diary/invitation/index.md
+[13]: ../../../diary/index.md
 
 <!-- Referenced images -->
 [img1]: ../../../../media/icons/recurring-booking-assignment.bmp

@@ -14,3 +14,5 @@ items:
     href: listcustlangs.workwithexternacategories.md
   - name: How SuperOffice Service selects the customer language for new contacts
     href: listcustlangs.selectlanguage.md
+- name: Time zones
+  href: time-zones.md
