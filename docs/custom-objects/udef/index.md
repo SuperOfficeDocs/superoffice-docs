@@ -22,7 +22,7 @@ There are 8 different types of user-defined fields: Number, Decimal, Short text,
 
 User-defined fields are managed in the SuperOffice CRM Admin client, in the **Fields** screen.
 
-[!include[License requirement](../../includes/req-dev-tools.md)]
+[!include[License requirement](../../../common/includes/req-dev-tools.md)]
 
 ## Storage
 

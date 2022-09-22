@@ -13,7 +13,7 @@ SuperOffice Expander Tools license gives you the possibility to create extra tab
 
 However, an empty table is not very useful. So you have to set up fields for the new table and then you can populate with data.
 
-[!include[License requirement](../../includes/req-dev-tools.md)]
+[!include[License requirement](../../../common/includes/req-dev-tools.md)]
 
 ## The Tables screen in System design
 

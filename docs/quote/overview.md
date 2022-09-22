@@ -9,7 +9,7 @@ so.topic: concept
 
 # Quote management
 
-[!include[License requirement](../includes/req-sales-prem.md)]
+[!include[License requirement](../../common/includes/req-sales-prem.md)]
 
 In sales, a quote allows a prospective buyer to see the **costs of selected products and/or services**. It can contain multiple **alternatives** for the customer to choose between.
 

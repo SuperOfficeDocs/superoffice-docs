@@ -12,7 +12,7 @@ so.topic: concept
 
 A sale process typically consists of different stages. For each stage, you have certain activities and perhaps documents that need to be completed. With every activity and every stage completed, you will get closer to closing the sale.
 
-[!include[License requirement](../includes/req-sales-essentials.md)]
+[!include[License requirement](../../common/includes/req-sales-essentials.md)]
 
 (Some features need premium.)
 

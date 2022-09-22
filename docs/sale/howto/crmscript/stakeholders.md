@@ -11,7 +11,7 @@ so.topic: concept
 
 A sale has a main contact, but partners and subcontractors may also be involved in the sale. These are referred to as **stakeholders** and can be either individuals, organizations, or a mix.
 
-[!include[License requirement](../../../includes/req-sales-prem.md)]
+[!include[License requirement](../../../../common/includes/req-sales-prem.md)]
 
 ## Organizations as stakeholders
 
