@@ -13,7 +13,7 @@ so.version: 7.1
 
 # Sale stakeholders
 
-[!include[License requirement](../includes/req-sales-prem.md)]
+[!include[License requirement](../../common/includes/req-sales-prem.md)]
 
 A sale may have one or more stakeholders: a contact or person with an extra interest or role in the sale. This can be turned off using the preference in **SOAdmin - Preferences - Sale - Enable Stakeholders (default yes)**.
 

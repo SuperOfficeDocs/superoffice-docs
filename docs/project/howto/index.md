@@ -10,7 +10,7 @@ so.topic: howto
 
 # Howto
 
-[!include[License requirement](../../includes/req-for-project-mgt.md)]
+[!include[License requirement](../../../common/includes/req-for-project-mgt.md)]
 
 | Task | Available examples |
 |---|---|

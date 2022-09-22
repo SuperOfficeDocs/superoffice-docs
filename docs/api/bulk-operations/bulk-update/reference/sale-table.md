@@ -14,7 +14,7 @@ so.client: online
 
 Sale fields. Key constants are in `BulkUpdateSystem.SaleFieldValueKeys`.
 
-[!include[ALT](../../../../includes/req-sales-essentials.md)]
+[!include[ALT](../../../../../common/includes/req-sales-essentials.md)]
 
 <!-- markdownlint-disable-file MD033 -->
 <table>
