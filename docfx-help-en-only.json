@@ -33,7 +33,7 @@
       },
       {
         "src":"common/icons/",
-        "dest":"help",
+        "dest":"help/media",
         "files": "**/*.png"
       }
     ],
