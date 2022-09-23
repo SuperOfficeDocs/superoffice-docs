@@ -1,11 +1,11 @@
 ---
-uid: help-en-blogic-listscripts-editscriptfolder
-title: blogic listScripts editScriptFolder
-description: blogic listScripts editScriptFolder
+uid: help-en-automation-folder-create
+title: Macro/script folder properties
+description: Macro/script folder properties
 author: SuperOffice RnD
 so.date: 06.29.2022
 keywords: Service
-so.topic: help
+so.topic: howto
 language: en
 ---
 

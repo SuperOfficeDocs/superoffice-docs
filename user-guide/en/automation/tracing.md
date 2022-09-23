@@ -1,5 +1,5 @@
 ---
-uid: help-en-tracing
+uid: help-en-automation-script-tracing
 title: Tracing
 description: Tracing
 author: SuperOffice RnD
@@ -23,7 +23,7 @@ The **Tracing** tab contains a list of all traces. Click a trace in the list to 
 
 To start tracing scripts:
 
-* Go to **CRMScript** &gt; **Debug sessions** (see [Debug sessions][1]) and click ![icon][img1] **Start tracing scripts** to start tracing the scripts in the list.
+* Go to **CRMScript** > **Debug sessions** and click ![icon][img1] **Start tracing scripts** to start tracing the scripts in the list.
 * Open a script or macro in **Debugger** and click ![icon][img2] **Trace script**.
 * Open a script or macro in the **Macros and scripts** tab and click ![icon][img2] **Trace script**.
 
@@ -41,7 +41,6 @@ To start tracing scripts:
 4. Click **OK** when you are done.
 
 <!-- Referenced links -->
-[1]: listDebugSessions.viewDebugSession.md
 
 <!-- Referenced images -->
 [img1]: ../../media/icons/btn-executescript.png

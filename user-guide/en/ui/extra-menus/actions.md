@@ -28,7 +28,7 @@ Do as follows:
 8. Open a request, contact, company or message, click the ![icon][img2] **Actions** button and check that the button is displayed and functions as desired.
 
 <!-- Referenced links -->
-[1]: ../../automation/listScripts.editMacro.md
+[1]: ../../automation/create-macro.md
 [2]: properties.md
 
 <!-- Referenced images -->

@@ -11,6 +11,8 @@ items:
     href: sales-type-for-stages.md
   - name: System design
     href: system-design.md
+  - name: Macros and scripts
+    href: script-screen.md
   - name: Customer centre
     href: customer-center.md
   - name: Workflow

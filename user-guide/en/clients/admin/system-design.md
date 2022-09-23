@@ -34,10 +34,10 @@ Here you can find the advanced options in SuperOffice.
 <!-- Referenced links -->
 [1]: ../../clients/admin/listextratables.md
 [2]: ../../automation/index.md
-[3]: ../../automation/listscripts.md
-[4]: ../../automation/listeventhandler.md
-[5]: ../../automation/listscheduledtasks.md
-[6]: ../../automation/listdebugsessions.viewdebugsession.md
+[3]: ../../automation/macro-script.md
+[4]: ../../automation/trigger.md
+[5]: ../../automation/schedule-task.md
+[6]: ../../automation/debug.md
 [7]: ../../automation/tracing.md
 [8]: ../../clients/admin/listscreendefinitions.editscreendefinition.md
 [9]: ../../clients/admin/listscreenchoosers.md

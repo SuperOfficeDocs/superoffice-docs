@@ -24,7 +24,7 @@ It is possible to phone, send faxes and send emails direct from SuperOffice CRM.
 SuperOffice CRM is compatible with all the latest operating systems and browsers. For a complete overview, go [here][1].
 
 <!-- Referenced links -->
-[1]: ../../../../docs/onsite/requirements/index.md
+[1]: ../../../docs/onsite/requirements/index.md
 [2]: ../diary/phone-call/preferences.md
 
 <!-- Referenced images -->
