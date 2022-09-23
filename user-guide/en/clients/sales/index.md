@@ -1,6 +1,6 @@
 ---
 title: Intro to the SuperOffice clients
-uid: help-en-clients-overview
+uid: help-en-clients-sales-overview
 description: Intro to the SuperOffice clients
 author: Bergfrid Dias
 so.date: 08.30.2022

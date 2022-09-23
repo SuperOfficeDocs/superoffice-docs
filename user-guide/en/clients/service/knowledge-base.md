@@ -1,7 +1,7 @@
 ---
-uid: help-en-document
-title: document
-description: document
+uid: help-en-knowledge-base
+title:  Knowledge Base
+description:  Knowledge Base
 author: SuperOffice RnD
 so.date: 06.29.2022
 keywords: Service

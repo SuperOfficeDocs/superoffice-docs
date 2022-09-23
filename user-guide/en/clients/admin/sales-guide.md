@@ -1,5 +1,5 @@
 ---
-uid: help-en-sale
+uid: help-en-workflow-screen-sales-guide
 title: Sale
 description: Sale
 author: SuperOffice RnD

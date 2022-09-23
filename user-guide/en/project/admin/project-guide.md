@@ -1,5 +1,5 @@
 ---
-uid: help-en-project
+uid: help-en-project-admin
 title: Project
 description: Project
 author: SuperOffice RnD

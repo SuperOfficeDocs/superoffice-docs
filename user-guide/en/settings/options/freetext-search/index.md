@@ -1,5 +1,5 @@
 ---
-uid: help-en-freetext-search
+uid: help-en-settings-freetext-search
 title: Freetext search
 description: Freetext search
 author: SuperOffice RnD

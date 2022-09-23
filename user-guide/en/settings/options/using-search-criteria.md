@@ -1,5 +1,5 @@
 ---
-uid: help-en-using-search-criteria
+uid: help-en-settings-search-criteria
 title: using search criteria
 description: using search criteria
 author: SuperOffice RnD

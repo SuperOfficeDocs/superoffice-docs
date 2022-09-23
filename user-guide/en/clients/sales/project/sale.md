@@ -1,5 +1,5 @@
 ---
-uid: help-en-sale
+uid: help-en-project-screen-sale
 title: Sale
 description: Sale
 author: SuperOffice RnD

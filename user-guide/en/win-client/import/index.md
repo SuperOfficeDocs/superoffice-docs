@@ -1,5 +1,5 @@
 ---
-uid: help-en-import
+uid: help-en-import-win
 title: Import
 description: Import
 author: SuperOffice RnD

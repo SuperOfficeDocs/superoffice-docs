@@ -1,5 +1,5 @@
 ---
-uid: help-en-video-meetings
+uid: help-en-video-meetings-tab
 title: Video meetings
 description: Video meetings
 author: SuperOffice RnD
