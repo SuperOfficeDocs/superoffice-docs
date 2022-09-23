@@ -13,12 +13,14 @@ language: en
 
 The inbox in SuperOffice CRM is based on a separate email client which gives you access to your email via the Internet, without requiring you to have an email program installed locally on your PC. In this main topic we explain how to use this email facility.
 
-<!-- Fix reuse ID=a1 -->
+## How do I get to the inbox in SuperOffice CRM?
 
 Click the **Inbox** button in the Navigator.
 
 > [!TIP]
 > If you click the word **Inbox** instead of the actual button, a list is displayed, from which you can choose the email folder you want to go to.
+
+## Sections
 
 The **Inbox** screen consists of the following main sections:
 
@@ -27,7 +29,7 @@ The **Inbox** screen consists of the following main sections:
 
 ## What would you like to do now?
 
-* [View email messages][3]
+* [View email messages][1]
 * [Compose an email][2]
 
 <!-- Referenced links -->

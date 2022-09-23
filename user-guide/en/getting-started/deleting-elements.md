@@ -19,7 +19,7 @@ When you choose to delete something in SuperOffice CRM, the dialog displays **De
 > [!TIP]
 > To delete a repeating follow-up, see [Stop repeating follow-ups][4].
 
-<!-- Fix reuse ID=a1 -->
+## Why is the Delete button disabled (grey)?
 
 If the **Delete** button is disabled (light grey), it means that you have no rights to delete this particular item.
 
@@ -27,6 +27,8 @@ Examples:
 
 * You cannot delete a contact who is also an employee in a SuperOffice company.
 * You cannot delete appointments, documents, sales, projects, etc. that do not belong to you, unless you have sufficient user rights to do so.
+
+## Buttons
 
 Below you will find a description of the buttons in the dialog and what effect they have:
 

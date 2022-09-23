@@ -21,7 +21,7 @@ The first tab in a selection contains a list of members (records, data)in the ac
 > [!NOTE]
 > Before you filter the list of members (for instance sales or follow-ups), you must click **Show all** in the tab footer. This ensures that the tab displays all records in the selection. To optimise performance when working with large selections, only the first 100 records are usually loaded in the list of members.
 
-To activate the column filter, click ![icon][img3] on the far right of the column headers in a section tab and click **Enable filter**. The filter button (![icon][img4]) is now displayed on column which can be filtered. See [Use column filters in the section tabs][2].
+To activate the column filter, click ![icon][img3] on the far right of the column headers in a section tab and click **Enable filter**. The filter button (![icon][img4]) is now displayed on column which can be [filtered][2].
 
 ## The Task button
 
@@ -35,11 +35,10 @@ Use the **Task** button to perform different tasks for the members or some of th
 
 * **Count: number**, The number of members in the active selection.
 
-* **Show all**. Click here to display all selection members. <!-- Fix reuse ID=a1 -->
+* **Show all**. Click here to display all selection members.
 
-    By default the list only displays the 100 first records in the selection. To change this value, go to ![icon][img1] **Personal settings &gt; Preferences &gt; Functions &gt; Archive page size**.
-
-<!-- -->
+    > [!NOTE]
+    > By default the list only displays the 100 first records in the selection. To change this value, go to ![icon][img1] **Personal settings > Preferences > Functions > Archive page size**.
 
 * ![icon][img2]: Click here to refresh the data in the list.
 

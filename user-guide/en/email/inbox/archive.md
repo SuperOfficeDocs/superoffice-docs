@@ -38,22 +38,10 @@ To open an attachment or archive an attachment in SuperOffice:
     * **Open**: The attached file is displayed in your browser. Click the attachment to open it or to save it. How this works, depends on the browser.
     * **Archive**: The **Document** dialog opens. See [The Document dialog][1].
 
-## Troubleshooting
-
-### The Add contact to SuperOffice dialog opens
-
-This can mean one of the following:
-
-* The sender's email address is not registered in SuperOffice CRM. To add the sender to SuperOffice CRM, see [Add email addresses in SuperOffice CRM][2].
-* The sender's email address is registered on more than one contact or company in SuperOffice CRM. Select the correct contact under **This contact could be**.
-
-If you do not want to register this email address in SuperOffice CRM, click **Do not add contact to SuperOffice** to go to the **Document** dialog.
-
-## Related topics
+[!include[Add contact](includes/add-contact-opens.md)]
 
 <!-- Referenced links -->
 [1]: ../../clients/sales/document/document-dialog.md
-[2]: adding-email-addresses-in-crm.md
 [3]: writing-email.md
 
 <!-- Referenced images -->

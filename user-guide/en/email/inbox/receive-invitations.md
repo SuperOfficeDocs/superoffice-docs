@@ -11,9 +11,7 @@ language: en
 
 # Receive invitations
 
-You can receive invitations from a person outside your organization and easily accept and add it to your diary. This requires that the invitation email contains an <!-- Fix reuse ID=a1 -->iCal is a computer file format which allows Internet users to send meeting requests and tasks to other Internet users by sharing or sending files in this format through various methods. The files usually have an extension of .ics. with the invitation data.
-
-In your inbox, emails containing iCal invitations will be displayed with these icons: ![icon][img1] and ![icon][img2]
+You can receive invitations from a person outside your organization and easily accept and add it to your diary. This requires that the invitation email contains an iCal file (.ics.) with the invitation data. In your inbox, emails containing iCal invitations will be displayed with these icons: ![icon][img1] and ![icon][img2]
 
 > [!NOTE]
 > If the sender/organizer is a registered (an unique) contact in SuperOffice CRM, invitations will automatically be added as tentative appointments in you diary. Tentative appointments may also be created for other associates, depending on whether the preference **Manage incoming invitations, disable tentative** (under **email**) is active or not.

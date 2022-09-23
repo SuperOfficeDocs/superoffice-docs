@@ -18,108 +18,113 @@ Create your own custom forms with the **Forms** feature in SuperOffice Marketing
 
 The procedures below will guide your through the form creation using examples. We will not cover every field and option, but you can find comprehensive instructions in [Create a new form][1].
 
-## Newsletter sign-up
+## What is double opt-in?
 
-This form will let your customers sign up for one or more newsletters. The sign-up process will also include <!-- Fix reuse ID=a1 -->(in addition to submitting the form, the customers must verify their e-mail address by clicking the link in a confirmation e-mail) to eliminate erroneous or fake subscriptions.
+With double opt-in, the customers must verify their email address by clicking the link in a confirmation email in addition to submitting the form.
 
-Open SuperOffice CRM and create a static selection of companies/contacts called "Newsletter subscribers (form)". We will use this selection later in this guide.
-
-Open SuperOffice Marketing and go to the **Forms** tab.
-
-Select **Form** under **Create new** on the right side of the screen. The **Edit form** screen displays.
-
-Enter "Newsletter sign-up" in the **Form name** field.
-
-Fill in the options/fields in the **Properties** category as relevant. Do NOT activate any options under **Deactivate form automatically**.
-
-Click **Apply now** to save the form and continue editing.
-
-In the **Fields** category, click ![icon][img1] and add the following fields:
-
-First and last name (remove the **Contact - Name field**)
-
-**Contact - E-mail** (make this field mandatory)
-
-Contact - Subscription
-
-* Select one or more newsletters which should be available
-* Set the field to **Mandatory**.
-* Change the name of the field to "Select your subscriptions".
-
-Select the **OK** field, change the name to "Submit", and edit the font/background colour and position.
-
-Edit the names of the other fields as necessary. **Tip**: Remove "Contact -".
-
-Click ![icon][img2] at the top of a field and drag it to the desired position in the form. The fields should have a logical order.
-
-Click **Apply now** to save the form and continue editing.
-
-In the **Style** category, edit the layout, colours, size and fonts of the form. Now might be a good time to involve your web design colleagues.
-
-Click **Apply now** to save the form and continue editing.
-
-In the **Double opt-in** category, select **Enable double opt-in**. <!-- Fix reuse ID=a2 -->This option adds an extra layer of security to the form. If you activate this option, the person submitting the form must also confirm their e-mail address. This is done by sending them an e-mail when they submit the form. The e-mail contains a link they must click to confirm that the e-mail address is correct.
+This option adds an extra layer of security to the form. If you activate this option, the person submitting the form must also confirm their email address. This is done by sending them an email when they submit the form. The email contains a link they must click to confirm that the email address is correct.
 The link is valid for 30 minutes by default.
 
-In the **Message** tab, enter the text to display after the form has been submitted. This message should inform the customer that they will receive an e-mail confirmation. <!-- Fix reuse ID=a3 -->. Click **Show/hide toolbar** (![icon][img3]) to display formatting options for the text.
+## Newsletter sign-up
 
-We will now send an e-mail to the address you have registered in our form.
+This form will let your customers sign up for one or more newsletters. The sign-up process will also include double opt-in to eliminate erroneous or fake subscriptions.
 
-Click the link in the e-mail to confirm your e-mail address and activate your subscription(s).
+1. Open SuperOffice CRM and create a static selection of companies/contacts called "Newsletter subscribers (form)". We will use this selection later in this guide.
 
-Best regards,
+1. Open SuperOffice Marketing and go to the **Forms** tab.
 
-SuperShop
+1. Select **Form** under **Create new** on the right side of the screen. The **Edit form** screen displays.
 
-In the **E-mail** tab, create the confirmation e-mail sent to the persons submitting the form. <!-- Fix reuse ID=a4 -->.
+1. Enter "Newsletter sign-up" in the **Form name** field.
 
-Hi and thanks for your interest in our newsletters
+1. Fill in the options/fields in the **Properties** category as relevant. Do NOT activate any options under **Deactivate form automatically**.
 
-Please click the link below to confirm your e-mail address and start your subscription.
+1. Click **Apply now** to save the form and continue editing.
 
-Click here to confirm your e-mail address
+1. In the **Fields** category, click ![icon][img1] and add the following fields:
 
-Best regards,
+    * First and last name (remove the **Contact - Name field**)
+    * **Contact - E-mail** (make this field mandatory)
+    * Contact - Subscription
+        * Select one or more newsletters which should be available
+        * Set the field to **Mandatory**.
+        * Change the name of the field to "Select your subscriptions".
 
-The SuperShop Team
+1. Select the **OK** field, change the name to "Submit", and edit the font/background colour and position.
 
-Click **Show/hide toolbar** (![icon][img3]) and then click **Insert confirm link** (![icon][img4]). The confirmation link is inserted in the body text.
+1. Edit the names of the other fields as necessary. **Tip**: Remove "Contact -".
 
-Click the confirmation link, select **Edit link** (![icon][img5]), and change the link text to "Click here to confirm your e-mail address". The link is valid for 30 minutes by default.
+1. Click ![icon][img2] at the top of a field and drag it to the desired position in the form. The fields should have a logical order.
 
-Click **Apply now** to save the form and continue editing.
+1. Click **Apply now** to save the form and continue editing.
 
-In the **Thank you page** category, you can either redirect the customer to a web page or display a message (such as "Thank you for subscribing"). This will display after the customer has verified their e-mail address.
+1. In the **Style** category, edit the layout, colours, size and fonts of the form. Now might be a good time to involve your web design colleagues.
 
-Click **Apply now** to save the form and continue editing.
+1. Click **Apply now** to save the form and continue editing.
 
-In the **Page for inactive form** category, enter a URL or a message. This is relevant if a customer accesses the form after it has been set to inactive.
+1. In the **Double opt-in** category, select **Enable double opt-in**.
 
-Click **Apply now** to save the form and continue editing.
+1. In the **Message** tab, enter the text to display after the form has been submitted. This message should inform the customer that they will receive an e-mail confirmation. Click **Show/hide toolbar** (![icon][img3]) to display formatting options for the text.
 
-In the **Actions** category, you must set up the actions to be performed when the form is processed:
+    <details><summary>Example</summmary>
+    We will now send an email to the address you have registered in our form.
 
-* Do not select **Create request**. The subscriptions will activate automatically, so no action is required by the support team.
-* Select **Manually if submitter is unknown. Automatically if submitter is known**: If the e-mail address submitted in the form matches an e-mail address in SuperOffice, the form submission is processed automatically. Otherwise, it must be processed manually.
-* **Add contact to selection**: Select the selection you created in step 1. Use this selection to keep track of contacts added via this form.
-* **Add interest to contact**: Select the interest called **Newsletter**. This interest will be added to contacts who submit this form.
-* **E-mail response**: Select a form response to send to contacts when their form is processed. This e-mail can for example inform the customer of your company's privacy policy and can also include a link to manage subscriptions. To create a form response, see [Form response: Step 1: Setup][2].
+    Click the link in the email to confirm your email address and activate your subscription(s).
 
-Click **Save**. The form is saved and the **Edit form** screen closes.
+    Best regards,
 
-Set the form to **Active** (![icon][img6]) in the header.
+    SuperShop
+    </details>
 
-Go to the **Publish** tab.
+1. In the **E-mail** tab, create the confirmation email sent to the persons submitting the form.
 
-Copy the direct link and/or JavaScript into a newsletter, website or customer centre to publish it to your customers or prospects.
+    <details><summary>Example</summmary>
+    Hi and thanks for your interest in our newsletters
 
-Open the link to the form, fill in the form and check that everything works as expected.
+    Please click the link below to confirm your email address and start your subscription.
 
-What happens now? See the following topics:
+    Click here to confirm your email address
 
-* [Form submissions][3]
-* [Track form submissions and view statistics][4]
-* [Process form submissions][5]
+    Best regards,
+
+    The SuperShop Team
+    </details>
+
+1. Click **Show/hide toolbar** (![icon][img3]) and then click **Insert confirm link** (![icon][img4]). The confirmation link is inserted in the body text.
+
+1. Click the confirmation link, select **Edit link** (![icon][img5]), and change the link text to "Click here to confirm your e-mail address". The link is valid for 30 minutes by default.
+
+1. Click **Apply now** to save the form and continue editing.
+
+1. In the **Thank you page** category, you can either redirect the customer to a web page or display a message (such as "Thank you for subscribing"). This will display after the customer has verified their e-mail address.
+
+1. Click **Apply now** to save the form and continue editing.
+
+1. In the **Page for inactive form** category, enter a URL or a message. This is relevant if a customer accesses the form after it has been set to inactive.
+
+1. Click **Apply now** to save the form and continue editing.
+
+1. In the **Actions** category, you must set up the actions to be performed when the form is processed:
+
+    * Do not select **Create request**. The subscriptions will activate automatically, so no action is required by the support team.
+
+    * Select **Manually if submitter is unknown. Automatically if submitter is known**: If the e-mail address submitted in the form matches an e-mail address in SuperOffice, the form submission is processed automatically. Otherwise, it must be processed manually.
+
+    * **Add contact to selection**: Select the selection you created in step 1. Use this selection to keep track of contacts added via this form.
+
+    * **Add interest to contact**: Select the interest called **Newsletter**. This interest will be added to contacts who submit this form.
+
+    * **E-mail response**: Select a form response to send to contacts when their form is processed. This e-mail can for example inform the customer of your company's privacy policy and can also include a link to manage subscriptions. [How do I create a form response?][2].
+
+1. Click **Save**. The form is saved and the **Edit form** screen closes.
+
+1. Set the form to **Active** (![icon][img6]) in the header.
+
+1. Go to the **Publish** tab.
+
+1. Copy the direct link and/or JavaScript into a newsletter, website or customer centre to publish it to your customers or prospects.
+
+1. Open the link to the form, fill in the form and check that everything works as expected.
 
 ## Contact me
 
@@ -127,63 +132,62 @@ Put a "contact me" form on your company's web pages to provide an easy channel o
 
 In this example we will show you how to create short form for customers who want to get in touch with a support representative. The form submission will trigger a new request for your support department.
 
-Open SuperOffice Marketing and go to the **Forms** tab.
+1. Open SuperOffice Marketing and go to the **Forms** tab.
 
-Select **Form** under **Create new** on the right side of the screen. The **Edit form** screen displays.
+1. Select **Form** under **Create new** on the right side of the screen. The **Edit form** screen displays.
 
-Enter "Contact me (support)" in the **Form name** field.
+1. Enter "Contact me (support)" in the **Form name** field.
 
-Fill in the options/fields in the **Properties** category as relevant. Do NOT activate any options under **Deactivate form automatically**.
+1. Fill in the options/fields in the **Properties** category as relevant. Do NOT activate any options under **Deactivate form automatically**.
 
-In the **Fields** category, click ![icon][img1] and add the following fields:
+1. In the **Fields** category, click ![icon][img1] and add the following fields:
 
-* First and last name. Remove the **Contact - Name field**.
-* **View elements** &gt; **Text block**: Enter the text in "How can we contact you?" in bold.
-* **Contact - Mobile**: Enter an example of a correctly formatted phone number for your country (include the country code) in the **Placeholder** field (example: +47 999 88 777).
-* **Contact - E-mail**
-* **Form elements** &gt; **Text area**: Change the name of the field to "Comment (optional)" and write "How can we help you today?" in the **Placeholder** field.
+    * First and last name. Remove the **Contact - Name field**.
+    * **View elements** > **Text block**: Enter the text in "How can we contact you?" in bold.
+    * **Contact - Mobile**: Enter an example of a correctly formatted phone number for your country (include the country code) in the     **Placeholder** field (example: +47 999 88 777).
+    * **Contact - E-mail**
+    * **Form elements** > **Text area**: Change the name of the field to "Comment (optional)" and write "How can we help you today?" in the **Placeholder** field.
 
-Select the **OK** field, change the name to "Submit", and edit the font/background colour and position.
+1. Select the **OK** field, change the name to "Submit", and edit the font/background colour and position.
 
-Edit the names of the other fields as necessary. **Tip**: Remove "Contact -".
+1. Edit the names of the other fields as necessary. **Tip**: Remove "Contact -".
 
-Click ![icon][img2] at the top of a field and drag it to the desired position in the form. The fields should have a logical order.
+1. Click ![icon][img2] at the top of a field and drag it to the desired position in the form. The fields should have a logical order.
 
-Click **Apply now** to save the form and continue editing.
+1. Click **Apply now** to save the form and continue editing.
 
-In the **Style** category, edit the layout, colours, size and fonts of the form. Now might be a good time to involve your web design colleagues.
+1. In the **Style** category, edit the layout, colours, size and fonts of the form. Now might be a good time to involve your web design colleagues.
 
-Click **Apply now** to save the form and continue editing.
+1. Click **Apply now** to save the form and continue editing.
 
-Optional: If you want to enable double opt-in, you should also set the **E-mail** field to **Mandatory**. <!-- Fix reuse ID=a21 -->This option adds an extra layer of security to the form. If you activate this option, the person submitting the form must also confirm their e-mail address. This is done by sending them an e-mail when they submit the form. The e-mail contains a link they must click to confirm that the e-mail address is correct.
+1. Optional: If you want to enable double opt-in, you should also set the **E-mail** field to **Mandatory**.
 
-In the **Thank you page** category, you can either redirect the customer to a web page or display a message (such as "Thank you for contacting us. We will be in touch shortly."). This will display after the customer has submitted the form.
+1. In the **Thank you page** category, you can either redirect the customer to a web page or display a message (such as "Thank you for contacting us. We will be in touch shortly."). This will display after the customer has submitted the form.
 
-In the **Page for inactive form** category, enter a URL or a message. This is relevant if a customer accesses the form after it has been set to inactive.
+1. In the **Page for inactive form** category, enter a URL or a message. This is relevant if a customer accesses the form after it has been set to inactive.
 
-In the **Actions** category, you must set up the actions to be performed when the form is processed:
+1. In the **Actions** category, you must set up the actions to be performed when the form is processed:
 
-Select **Create request** and do the following:
+    * Select **Create request** and do the following:
+        1. Enter a descriptive title for the requests that will be generated from this form.
+        2. Select the relevant request category, for example "Support" or a sub-category called "Form submissions".
+        3. Set the request priority to **Medium**.
 
-1. Enter a descriptive title for the requests that will be generated from this form.
-2. Select the relevant request category, for example "Support" or a sub-category called "Form submissions".
-3. Set the request priority to **Medium**.
+    * Select **Manually if submitter is unknown. Automatically if submitter is known**: If the e-mail address submitted in the form matches an e-mail address in SuperOffice, the form submission is processed automatically. Otherwise, it must be processed manually.
 
-Select **Manually if submitter is unknown. Automatically if submitter is known**: If the e-mail address submitted in the form matches an e-mail address in SuperOffice, the form submission is processed automatically. Otherwise, it must be processed manually.
+    * **E-mail response**: Select a form response to send to contacts when their form is processed. This e-mail can for example inform the customer of your company's privacy policy and can also include a link to manage subscriptions. [How to create a form response][2].
 
-**E-mail response**: Select a form response to send to contacts when their form is processed. This e-mail can for example inform the customer of your company's privacy policy and can also include a link to manage subscriptions. [How to create a form response][2].
+1. Click **Save**. The form is saved and the **Edit form** screen closes.
 
-Click **Save**. The form is saved and the **Edit form** screen closes.
+1. Set the form to **Active** (![icon][img6]) in the header.
 
-Set the form to **Active** (![icon][img6]) in the header.
+1. Go to the **Publish** tab.
 
-Go to the **Publish** tab.
+1. Copy the direct link and/or JavaScript into a newsletter, website or customer centre to publish it to your customers or prospects.
 
-Copy the direct link and/or JavaScript into a newsletter, website or customer centre to publish it to your customers or prospects.
+1. Open the link to the form, fill in the form and check that everything works as expected.
 
-Open the link to the form, fill in the form and check that everything works as expected.
-
-## What happens now? See the following topics
+## What happens now?
 
 * [Form submissions][3]
 * [Track form submissions and view statistics][4]

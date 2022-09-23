@@ -13,7 +13,7 @@ language: en
 
 Create a stylish mailing using images. You can add images from the SuperOffice database, upload your own images, or use images from a royalty-free online image library.
 
-<!-- Fix reuse ID=a1 -->
+## How to set an image as background
 
 1. Click a row in the message.
 2. In the side-panel, scroll down to **Row properties** and **Background image**.
