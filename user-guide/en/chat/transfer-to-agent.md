@@ -1,7 +1,7 @@
 ---
-uid: help-en-chat-transfer-to-another-agent
-title: chat transfer to another agent
-description: chat transfer to another agent
+uid: help-en-chat-transfer-to-agent
+title: Transfer a chat to another agent
+description: Transfer a chat to another agent
 author: SuperOffice RnD
 so.date: 06.29.2022
 keywords: chat

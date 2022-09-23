@@ -1,11 +1,11 @@
 ---
-uid: help-en-categorization
-title: Categorization
-description: Categorization
+uid: help-en-ai-categorization
+title: AI categorization
+description: AI categorization
 author: SuperOffice RnD
 so.date: 06.29.2022
-keywords: CRM
-so.topic: help
+keywords: AI
+so.topic: concept
 language: en
 ---
 

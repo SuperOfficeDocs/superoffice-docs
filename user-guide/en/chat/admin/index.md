@@ -1,15 +1,16 @@
 ---
-uid: help-en-main
-title: chat main
-description: chat main
+uid: help-en-chat-admin
+title: Chat administration
+description: Chat administration
 author: SuperOffice RnD
 so.date: 06.29.2022
-keywords: CRM/Service
-so.topic: help
+keywords: chat
+so.topic: concept
+so.user: admin
 language: en
 ---
 
-# Chat
+# Chat administration
 
 The **Chat** feature in SuperOffice allows your support agents and sales people to chat with customers, potential customers and other people via the chat widget/window on your web site. This feature can for instance be used for service/support and pre-sales, and it easily integrates with FAQ, documents/attachments and templates. The chat feature can be set up with multiple chat channels for different topics, such as technical support, product questions and sales support.
 

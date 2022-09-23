@@ -1,11 +1,11 @@
 ---
-uid: help-en-text-analysis
-title: Text analysis
-description: Text analysis
+uid: help-en-ai-text-analysis
+title: AIext analysis
+description: AI text analysis
 author: SuperOffice RnD
 so.date: 06.29.2022
-keywords: CRM
-so.topic: help
+keywords: AI
+so.topic: concept
 language: en
 ---
 

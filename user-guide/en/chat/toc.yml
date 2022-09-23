@@ -4,7 +4,7 @@ items:
 - name: For customers
   items:
   - name: Using the chat function from the customer's perspective
-    href: function-from-customers-perspective.md
+    href: as-customer.md
 - name: For agents
   items:
   - name: Respond to a chat
@@ -12,17 +12,17 @@ items:
   - name: Link chat to SuperOffice contact
     href: link-to-person.md
   - name: Add customer to SuperOffice
-    href: add-chat-user-to-superoffice.md
+    href: create-contact.md
   - name: Create request in chat
     href: create-request.md
   - name: Create a quick reply
-    href: quick-reply.md
+    href: create-quick-reply.md
   - name: Send FAQs, reply templates and quick replies in a chat
     href: send-faq-or-reply-template.md
   - name: Send files in chat
     href: send-files.md
   - name: Transfer a chat to another agent
-    href: transfer-to-another-agent.md
+    href: transfer-to-agent.md
   - name: View chat statistics
     href: statistics.md
 - name: For administrators

@@ -1,11 +1,12 @@
 ---
 uid: help-en-chat-channel-create
-title: chat channel create
-description: chat channel create
+title: Create a chat channel
+description: Create a chat channel
 author: SuperOffice RnD
 so.date: 06.29.2022
-keywords: CRM/Service
-so.topic: help
+keywords: chat
+so.topic: howto
+so.user: admin
 language: en
 ---
 
@@ -14,7 +15,7 @@ language: en
 You can create chat channels for specific purposes, such as technical support, product inquiries and sales support, and assign the relevant agents to each channel.
 
 1. SuperOffice CRM: Click the **Chat** button in the Navigator ![icon][img2].
-    SuperOffice Service: Select ![icon][img1] **System settings &gt; Chat**.
+    SuperOffice Service: Select ![icon][img1] **System settings > Chat**.
 2. Click **Add** at the bottom of the list of chat channels. The **Add chat channel** dialog displays.
 3. Enter the name of the chat channel. This should be a unique name used to identify the topic and language (for example *Tech Support Norway*). The name will only be used internally.
 4. Complete the fields in the tabs as described below. Your changes are automatically saved when you go to another tab.

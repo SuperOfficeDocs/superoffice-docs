@@ -1,11 +1,11 @@
 ---
 uid: help-en-chat-send-files
-title: chat send files
-description: chat send files
+title:  Send files in chat
+description:  Send files in chat
 author: SuperOffice RnD
 so.date: 06.29.2022
 keywords: chat
-so.topic: help
+so.topic: howto
 language: en
 ---
 

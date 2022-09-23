@@ -1,11 +1,11 @@
 ---
-uid: help-en-chat-quick-reply
-title: chat quick reply
-description: chat quick reply
+uid: help-en-chat-create-quick-reply
+title: Create a quick reply
+description: Create a quick reply
 author: SuperOffice RnD
 so.date: 06.29.2022
 keywords: CRM
-so.topic: help
+so.topic: howto
 language: en
 ---
 
@@ -20,7 +20,7 @@ To create a quick reply:
 3. Click **Add**. A new reply is added to the list.
 4. Click the **New name** field and enter a title for the quick reply. This will not be visible to the customer.
 5. Click the **New content** field and enter the reply text you want to send to customers.
-6. Click **Save**. The window closes and the new quick reply is saved. You can now select the quick reply during a chat as described her[Send FAQs, reply templates and quick replies in a chat][1].
+6. Click **Save**. The window closes and the new quick reply is saved. You can now [select the quick reply during a chat][1].
 
 <!-- Referenced links -->
 [1]: send-faq-or-reply-template.md

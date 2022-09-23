@@ -23,6 +23,8 @@ items:
     href: chat/toc.yml
   - name: Request
     href: request/toc.yml
+  - name: AI
+    href: ai/toc.yml
   - name: Dashboard
     href: dashboard/toc.yml
   - name: Automation

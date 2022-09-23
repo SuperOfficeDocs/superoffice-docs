@@ -1,11 +1,11 @@
 ---
 uid: help-en-chat-statistics
-title: chat statistics
-description: chat statistics
+title: View chat statistics
+description: View chat statistics
 author: SuperOffice RnD
 so.date: 06.29.2022
 keywords: chat
-so.topic: help
+so.topic: howto
 language: en
 ---
 
@@ -24,7 +24,7 @@ By default statistics are shown for all available channels, but you can select a
 
 ## Respond to an incoming chat
 
-Double-click a row in the Incoming chat list to respond to that chat. The chat opens in the **Chats** tab. See [Respond to a chat][1].
+Double-click a row in the Incoming chat list to [respond to that chat][1]. The chat opens in the **Chats** tab.
 
 ## Listen to an ongoing chat
 

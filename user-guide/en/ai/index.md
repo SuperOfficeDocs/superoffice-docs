@@ -1,11 +1,11 @@
 ---
-uid: help-en-ai-services
+uid: help-en-ai
 title: AI services
 description: AI services
 author: SuperOffice RnD
 so.date: 06.29.2022
-keywords: CRM
-so.topic: help
+keywords: AI
+so.topic: concept
 language: en
 ---
 

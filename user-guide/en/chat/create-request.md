@@ -1,11 +1,11 @@
 ---
 uid: help-en-chat-create-request
-title: chat create request
-description: chat create request
+title: Create request in chat
+description: Create request in chat
 author: SuperOffice RnD
 so.date: 06.29.2022
 keywords: chat
-so.topic: help
+so.topic: howto
 language: en
 ---
 

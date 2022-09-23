@@ -92,10 +92,13 @@ items:
       href: project/activities-project.md
     - name: Sales
       href: project/sale.md
+
 - name: Selections
   href: selections/toc.yml
-- name: Marketing
-  href: marketing/index.md
+
+- name: Chat
+  href: chat/index.md
+
 - name: Reports screen
   href: reports/reports-screen.md
   items:
@@ -105,3 +108,6 @@ items:
     href: reports/criteria-list.md
   - name: Report archive
     href: reports/report-archive.md
+
+- name: Marketing
+  href: marketing/index.md

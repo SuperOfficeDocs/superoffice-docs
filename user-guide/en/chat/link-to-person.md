@@ -1,11 +1,11 @@
 ---
 uid: help-en-chat-link-to-person
-title: chat link to person
-description: chat link to person
+title: Link chat to SuperOffice contact
+description: Link chat to SuperOffice contact
 author: SuperOffice RnD
 so.date: 06.29.2022
 keywords: chat
-so.topic: help
+so.topic: howto
 language: en
 ---
 
@@ -34,6 +34,6 @@ If you have selected the wrong contact, you can click **Change contact** at the 
 * [Add customer to SuperOffice][1]
 
 <!-- Referenced links -->
-[1]: add-chat-user-to-superoffice.md
+[1]: create-contact.md
 
 <!-- Referenced images -->

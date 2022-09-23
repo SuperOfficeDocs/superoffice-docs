@@ -1,11 +1,12 @@
 ---
 uid: help-en-chat-add-javascript
-title: chat Add JavaScript
-description: chat Add JavaScript
+title: Add JavaScript for your website
+description: Add JavaScript for your website
 author: SuperOffice RnD
 so.date: 06.29.2022
-keywords: CRM/Service
-so.topic: help
+keywords: chat
+so.topic: howto
+so.user: admin
 language: en
 ---
 
@@ -16,7 +17,7 @@ To make the chat feature available to your customers, you must add a JavaScript 
 To do so:
 
 1. SuperOffice Settings and maintenance: Click the **Chat** button in the Navigator (![icon][img2]).
-    SuperOffice Service: Select ![icon][img1] **System settings &gt; Chat**.
+    SuperOffice Service: Select ![icon][img1] **System settings > Chat**.
 2. Select a chat channel in the list.
 3. Click **View**. The JavaScript for the selected chat channel is displayed.
 4. Select and copy the script.

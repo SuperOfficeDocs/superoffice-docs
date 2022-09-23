@@ -1,11 +1,11 @@
 ---
-uid: help-en-chat-add-chat-user-to-superoffice
-title: chat add chat user to SuperOffice
-description: chat add chat user to SuperOffice
+uid: help-en-chat-create-contact
+title:  Add customer to SuperOffice
+description:  Add customer to SuperOffice
 author: SuperOffice RnD
 so.date: 06.29.2022
 keywords: chat
-so.topic: help
+so.topic: howto
 language: en
 ---
 
