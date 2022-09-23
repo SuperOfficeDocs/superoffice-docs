@@ -1,10 +1,10 @@
 ---
-uid: help-en-admin-listcustlangs-selectlanguage
-title: admin listCustLangs selectlanguage
-description: admin listCustLangs selectlanguage
+uid: help-en-languages-selection
+title: Customer language for new contacts
+description: How SuperOffice Service selects the customer language for new contacts
 author: SuperOffice RnD
 so.date: 06.29.2022
-keywords: Settings and maintenance
+keywords: language
 so.topic: help
 language: en
 ---

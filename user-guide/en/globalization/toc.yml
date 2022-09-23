@@ -5,14 +5,6 @@ items:
   href: translate-fields.md
 - name: Language support for documents
   href: doc-language-support.md
-- name: Customer languages
-  href: listcustlangs.md
-  items:
-  - name: Work with customer languages
-    href: listcustlangs.editcustlang.md
-  - name: Work with external categories
-    href: listcustlangs.workwithexternacategories.md
-  - name: How SuperOffice Service selects the customer language for new contacts
-    href: listcustlangs.selectlanguage.md
+
 - name: Time zones
   href: time-zones.md

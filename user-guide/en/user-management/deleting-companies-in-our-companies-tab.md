@@ -20,8 +20,14 @@ To delete companies in the **Our companies** tab, the following two criteria mus
 If these two criteria are met, you can delete companies as follows:
 
 1. Open the **Users** screen.
+
+    > [!NOTE]
+    > If you are using the Windows client, this setting is located in the **Options**. screen. To get there., click the **Options** button in the Navigator ( ![icon][img1] ).
+
 2. Select the **Our companies** tab.
+
 3. Select the required company in the list.
+
 4. Click the **Delete** button below the company list. The company is removed from the list.
 
 > [!NOTE]
@@ -31,3 +37,4 @@ If these two criteria are met, you can delete companies as follows:
 [1]: deleting-users.md
 
 <!-- Referenced images -->
+[img1]: ../../media/icons/admin/knapp-systemvalg-liten.bmp

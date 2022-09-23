@@ -1,10 +1,10 @@
 ---
-uid: help-en-admin-listcustlangs
-title: admin listCustLangs
-description: admin listCustLangs
+uid: help-en-languages
+title: Customer languages
+description: Customer languages
 author: SuperOffice RnD
 so.date: 06.29.2022
-keywords: Settings and maintenance
+keywords: language
 so.topic: help
 language: en
 ---

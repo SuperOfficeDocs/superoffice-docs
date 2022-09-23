@@ -1,5 +1,5 @@
 ---
-uid: help-en-duplicates
+uid: help-en-lists-duplicates
 title: Duplicates
 description: Duplicates
 author: SuperOffice RnD

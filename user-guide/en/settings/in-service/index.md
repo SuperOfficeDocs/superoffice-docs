@@ -44,7 +44,7 @@ In this section of SuperOffice Service, you can configure the system to tailor i
 [7]: ../../email/service/index.md
 [8]: ../../clients/admin/requests/system-templates.md
 [9]: system.md
-[10]: ../../globalization/listcustlangs.md
+[10]: ../../settings/options/custlangs/index.md
 [11]: ../../customer-center/listcustcenter.config.md
 [12]: ../../customer-center/listcustcenter.edit.md
 [13]: ../../chat/admin/index.md

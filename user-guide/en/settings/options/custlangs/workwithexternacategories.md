@@ -1,7 +1,7 @@
 ---
-uid: help-en-admin-listcustlangs-workwithexternacategories
-title: admin listCustLangs workWithExternaCategories
-description: admin listCustLangs workWithExternaCategories
+uid: help-en-languages-category
+title: Work with external categories
+description: Work with external categories
 author: SuperOffice RnD
 so.date: 06.29.2022
 keywords: Settings and maintenance

@@ -1,5 +1,5 @@
 ---
-uid: help-en-preferences
+uid: help-en-preferences-intro
 title: Preferences
 description: Preferences
 author: SuperOffice RnD
