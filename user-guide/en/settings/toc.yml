@@ -13,3 +13,7 @@ items:
   href: personal-settings/toc.yml
 - name: System settings in Service
   href: in-service/toc.yml
+- name: How to...
+  items:
+  - name: Configure SOAP interface
+    href: configure-soap.md

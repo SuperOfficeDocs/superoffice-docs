@@ -48,7 +48,7 @@ In this section of SuperOffice Service, you can configure the system to tailor i
 [11]: ../../customer-center/listcustcenter.config.md
 [12]: ../../customer-center/listcustcenter.edit.md
 [13]: ../../chat/admin/index.md
-[14]: ../../clients/service/soapconf.md
+[14]: ../../clients/admin/requests/soap-config.md
 [15]: ../../clients/admin/system-design.md
 [16]: ../../request/invoice/index.md
 

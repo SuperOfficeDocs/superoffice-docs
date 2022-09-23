@@ -1,5 +1,5 @@
 ---
-uid: help-en-reports
+uid: help-en-options-reports
 title: reports
 description: reports
 author: SuperOffice RnD

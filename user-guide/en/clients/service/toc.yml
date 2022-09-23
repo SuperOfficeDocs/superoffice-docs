@@ -8,8 +8,6 @@ items:
     href: showlisttickets.listticketlog.md
 - name: Knowledge base
   href: knowledge-base.md
-- name: SOAP
-  href: soapconf.md
 - name: Packages
   href: listpackages.md
   items:
