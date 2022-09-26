@@ -1,6 +1,6 @@
 ---
-title: Intro to the SuperOffice clients
 uid: help-en-clients-admin-overview
+title: Intro to the SuperOffice clients
 description: Intro to the SuperOffice clients
 author: Bergfrid Dias
 so.date: 08.30.2022
@@ -10,7 +10,7 @@ so.version: 10.1
 so.lang: en
 ---
 
-# Overview
+# Settings and maintenance
 
 <!-- Referenced links -->
 

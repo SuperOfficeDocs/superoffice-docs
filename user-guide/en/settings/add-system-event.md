@@ -1,18 +1,18 @@
 ---
-uid: help-en-adding-system-events
+uid: help-en-system-event-add
 title: Adding system events
 description: Adding system events
 author: SuperOffice RnD
 so.date: 06.29.2022
-keywords: Settings and maintenance
-so.topic: help
+keywords: event, notification
+so.topic: howto
 language: en
 so.envir: onsite
 ---
 
 # Add system events
 
-You can initiate some system events from **System notifications** list in the **Status** tab (see [System events][1]). [!include[To do this](../includes/to-do-this.md)]
+You can initiate some [system events][1] from **System notifications** list in the **Status** tab.
 
 1. Open the **Licences** screen.
 

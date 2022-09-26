@@ -1,6 +1,6 @@
 <!-- markdownlint-disable-file MD041 -->
 > [!NOTE]
-> Anonymous users and system users require the **SuperOffice Expander Services** system license. See [Licenses][3].
+> Anonymous users and system users require the **SuperOffice Expander Services** system license. [Read more][1].
 
 <!-- Referenced links -->
-[3]: ../../license/index.md
+[1]: ../../../../docs/admin/license/expander-services/index.md
