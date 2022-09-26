@@ -18,8 +18,10 @@ so.topic: reference
 * [Dashboard – Preview of criteria (10.1.5)][5]
 * [Dashboard – Copy a tile to a different dashboard (10.1.5)][5]
 * [Dashboard – Big number tile with short number (10.1.5)][5]
+* [Sale - Sales targets (10.1.6)][6]
 
 <!-- Referenced links-->
 [3]: 10.1.3-update.md
 [4]: 10.1.4-update.md
 [5]: 10.1.5-update.md
+[6]: 10.1.6-update.md

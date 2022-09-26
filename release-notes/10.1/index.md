@@ -22,6 +22,7 @@ so.version: 10.1
 * 10.1.3: Form, Chat
 * 10.1.4: SharePoint document library, Dashboard/Find/Selection of Mailing/Form/Chat, CRMScript
 * 10.1.5: Quote approval notifications, Dashboard, Quick Search
+* 10.1.6: Sales targets, Configurable archives (Screen designer), Mailing - Document template languages
 
 <!-- Referenced links -->
 
