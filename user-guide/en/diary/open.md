@@ -26,7 +26,7 @@ If you click on the name of a user or resource, this user or resource becomes th
     > [!TIP]
     > Using FastSearcher, you can search for users by name or user ID.
 
-2. Select a resource or user directly, or click a user group ( ![icon][img1] ). You can then select from a list of all people linked to this group of SuperOffice CRM users.
+2. Select a resource or user directly, or click a user group ![icon][img1]. You can then select from a list of all people linked to this group of SuperOffice CRM users.
 
 3. The diary of the other user or resource opens and their name is displayed in place of your own at the top right of the **Diary** screen. The activities list of the other user or resource is also displayed.
 
@@ -53,6 +53,6 @@ When you open the diary of another user or resource, you can switch between the 
 [2]: create-follow-up.md
 
 <!-- Referenced images -->
-[img1]: ../../media/icons/dialogboksknapper-pil-hoeyre.bmp
+[img1]: ../../../common/icons/menu-arrow.png
 [img2]: ../../media/icons/dagbokeierliste-annen-person.bmp
 [img3]: ../../media/icons/dagbokeierliste-annen-ressurs.bmp

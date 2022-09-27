@@ -29,7 +29,7 @@ You can use the history list in different ways:
 ## Using the history list in dialogs
 
 1. Open the relevant dialog.
-2. Click the arrow ( ![icon][img3] ) next to the company, contact, sale, selection or project field. This brings up the history list.
+2. Click the arrow ![icon][img3] next to the company, contact, sale, selection or project field. This brings up the history list.
 3. Click the required company, contact, sale, selection or project to link to the record.
 
 > [!NOTE]
@@ -41,4 +41,4 @@ You can use the history list in different ways:
 <!-- Referenced images -->
 [img1]: ../../media/icons/globalmenu-personalsettings-small.png
 [img2]: ../../media/icons/navigator-history-small.png
-[img3]: ../../media/icons/dialogboksknapper-pil-ned.bmp
+[img3]: ../../../common/icons/dropdown-icon.png

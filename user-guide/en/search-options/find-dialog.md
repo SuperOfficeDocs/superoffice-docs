@@ -320,7 +320,7 @@ Imagine that you are a marketing department manager and you want to brainstorm a
 [9]: selections/update/add-members-to-static.md
 
 <!-- Referenced images -->
-[img1]: ../../media/icons/dialogboksknapper-pil-ned.bmp
+[img1]: ../../../common/icons/dropdown-icon.png
 [img2]: ../media/globalmenu-find.png
 [img3]: ../../../common/icons/delete-circle-red.png
 [img4]: ../../media/icons/criteria-move.png

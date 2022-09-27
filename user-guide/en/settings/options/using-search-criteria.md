@@ -41,7 +41,7 @@ In the list box, select the field you want to search for information in. The fie
 
     [!include[Search criteria](../../includes/list-date-criteria.md)]
 
-    Select the option you require and then enter the required date in the date field, or select a date in the calendar that appears when you click the arrow button ( ![icon][img3] ) to the right of the date field.
+    Select the option you require and then enter the required date in the date field, or select a date in the calendar that appears when you click the arrow button ![icon][img3] to the right of the date field.
 
     </details>
 
@@ -144,7 +144,7 @@ If you want to change a search criterion in the **Find** dialog, click it and se
 <!-- Referenced images -->
 [img1]: ../../../media/icons/pil-hoeyre.bmp
 [img2]: ../../../media/icons/pil-venstre.bmp
-[img3]: ../../../media/icons/dialogboksknapper-pil-ned.bmp
+[img3]: ../../../../common/icons/dropdown-icon.png
 [img4]: ../../../media/icons/admin/velg-alle.bmp
 [img5]: ../../../media/icons/admin/status-aktiv.bmp
 [img6]: ../../../media/icons/admin/status-inaktiv.bmp
