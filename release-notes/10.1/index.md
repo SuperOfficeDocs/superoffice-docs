@@ -15,6 +15,16 @@ so.version: 10.1
 
 [!include[ALT](../includes/v10-intro.md)]
 
+## Breaking changes
+
+### Onsite Username/Password and Windows Authentication
+
+In the previous SuperOffice versions, when you supplied credentials to the SuperOffice login dialog, NetServer tried to authenticate the user against SuperOffice database and when it failed, it tried also against AD. This system allowed for a mix of both SuperOffice logins and AD logins without any additional setup.
+
+This possibility to have mixed logins was removed in SuperOffice **10.1.5**.
+But reimplemented in version **10.1.6** (05.10.2022), due to a lot of unexpected problems.
+Have the full overview in our [Help Center & Community][1] in the forum.
+
 ## Details of the new features
 
 * 10.1.1 Screen designer, APIs
@@ -25,5 +35,6 @@ so.version: 10.1
 * 10.1.6: Sales targets, Configurable archives (Screen designer), Mailing - Document template languages
 
 <!-- Referenced links -->
+[1]: https://community.superoffice.com/en/technical/forums/general-forums/announcements/onsite-usernamepassword-and-windows-authentication/
 
 <!-- Referenced images -->
