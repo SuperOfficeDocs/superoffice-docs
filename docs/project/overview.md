@@ -12,7 +12,7 @@ so.topic: concept
 
 # Projects
 
-[!include[License requirement](../includes/req-for-project-mgt.md)]
+[!include[License requirement](../../common/includes/req-for-project-mgt.md)]
 
 ![Project card -screenshot][img1]
 
