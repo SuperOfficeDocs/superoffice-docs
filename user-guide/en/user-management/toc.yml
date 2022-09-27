@@ -1,53 +1,36 @@
 items:
   - name: Overview
     href: index.md
-  - name: Associates
-    href: associates.md
+  - name: Add user
     items:
-    - name: Adding users
-      href: adding-users.md
-    - name: Filter group
-      href: associates-filter-group.md
-    - name: Move users
-      href: move-users.md
-    - name: Deleting users
-      href: deleting-users.md
-    - name: Import users
-      href: import-users-web.md
-  - name: Other users
-    href: other-users.md
-    items:
-    - name: Add other users
-      href: add-other-users.md
-    - name: Edit other users
-      href: edit-other-users.md
-    - name: Edit logon rights for other users
-      href: edit-logon-rights-for-other-users.md
-    - name: Delete other users
-      href: delete-other-users.md
-  - name: Our companies
-    href: our-companies.md
-    items:
-    - name: Adding companies in the Our companies tab
-      href: adding-companies-in-our-companies-tab.md
-    - name: Deleting companies in the Our companies tab
-      href: deleting-companies-in-our-companies-tab.md
-  - name: User licences
-    href: user-licences.md
-  - name: User groups
-    href: user-groups.md
-  - name: Access rights to reports
-    href: superoffice-reports-access-rights.md
+    - name: Add a SuperOffice CRM user
+      href: add-associate.md
+    - name: Add anonymous or system user
+      href: add-other-user.md
+    - name: Import users from AD
+      href: import-users.md
+
+  - name: Edit user
+    href: update-user.md
+  - name: Move user
+    href: move-user.md
+  - name: Delete user
+    href: delete-user.md
+
+  - name: Add company in the Our companies tab
+    href: add-our-companies.md
+  - name: Delete company in the Our companies tab
+    href: delete-our-companies.md
+
+  - name: Create user group
+    href: create-user-group.md
+  - name: Delete user group
+    href: delete-user-group.md
+
+  - name: Edit logon rights for other users
+    href: edit-logon-rights-for-other-users.md
   - name: Visibility
     href: visibility.md
+
   - name: Role
     href: role/toc.yml
-  - name: Service users
-    href: in-service/index.md
-    items:
-    - name: Edit a user
-      href: in-service/edit-user.md
-    - name: Create user group
-      href: in-service/create-user-group.md
-    - name: Delete user group
-      href: in-service/delete-user-group.md

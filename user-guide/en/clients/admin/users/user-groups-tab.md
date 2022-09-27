@@ -1,10 +1,10 @@
 ---
-uid: help-en-user-groups
+uid: help-en-users-screen-groups
 title: User groups
 description: User groups
 author: SuperOffice RnD
 so.date: 06.29.2022
-keywords: Settings and maintenance, user
+keywords: user, group
 so.topic: help
 language: en
 ---

@@ -1,11 +1,11 @@
 ---
-uid: help-en-import-users-web
-title: Import users web
-description: Import users web
+uid: help-en-user-import
+title: Import users
+description: Import users from Active Directory
 author: SuperOffice RnD
 so.date: 06.29.2022
-keywords: Settings and maintenance, user
-so.topic: help
+keywords: user, import, associate, Active Directory, bulk
+so.topic: howto
 language: en
 so.envir: onsite
 so.client: web
@@ -13,7 +13,7 @@ so.client: web
 
 # Import users
 
-If your organisation uses Active Directory or another authentication type, you can add several users simultaneously:
+If your organization uses Active Directory or another authentication type, you can add several users simultaneously:
 
 > [!NOTE]
 > The import function is not available if you are using SuperID authentication.
@@ -27,9 +27,9 @@ If your organisation uses Active Directory or another authentication type, you c
 7. Select which company you want to add users to, in the **Add users to company** list.
 8. Select a role and primary group for the users.
 9. Click **OK**. The name of the new users will be displayed in the list.
-10. Enter information about the user as described in [Add users][1].
+10. [Enter information about the user][1].
 
 <!-- Referenced links -->
-[1]: adding-users.md
+[1]: add-associate.md
 
 <!-- Referenced images -->

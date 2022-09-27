@@ -1,11 +1,11 @@
 ---
-uid: help-en-adding-users
-title: Adding users web
-description: Adding users web
+uid: help-en-user-add
+title: Adding users
+description: Adding users
 author: SuperOffice RnD
 so.date: 06.29.2022
-keywords: Settings and maintenance, user
-so.topic: help
+keywords: user, associate
+so.topic: howto
 language: en
 ---
 
@@ -44,7 +44,7 @@ In the **Details** tab, you have the following options:
 
 * **Former employee**: If a user should no longer have access to SuperOffice, select this option to remove the user plan and login rights of the user.
 
-* **Primary group**: Select one of the predefined options for group membership in the **Primary group** list box. These options are defined in the **Lists** screen. The user is granted access to data owned by other users in the same primary group. Access rights (e.g. write and delete access) for these data are defined in the [role][3] the user belongs to. [Click here for an example](#example). See also [Visibility][2] for more information on sharing data with your primary group.
+* **Primary group**: Select one of the predefined options for group membership in the **Primary group** list box. These options are defined in the **Lists** screen. The user is granted access to data owned by other users in the same primary group. Access rights (e.g. write and delete access) for these data are defined in the [role][3] the user belongs to. See [Visibility][2] for more information on sharing data with your primary group.
 
 * **Other groups**: Click in the **Other groups** field and select which other groups the user should belong to. If the list contains many groups, start typing a group name in the search field to filter the list.
 
@@ -58,7 +58,7 @@ In the **Details** tab, you have the following options:
 
 ## The Licences tab
 
-In the **Licences** tab, you can select licences in addition to those defined by the selected user plan.
+In the **Licences** tab, you can select licenses in addition to those defined by the selected user plan.
 
 **Confidential activities**: activates the **Visible for** list for follow-ups, documents and sales, to make records visible only to the user, the user's primary group or everyone. See [Visibility][2].
 
@@ -67,8 +67,8 @@ In the **Licences** tab, you can select licences in addition to those defined by
 In the lower part of the user card, you can activate or deactivate the login rights of the selected user by clicking the **Can log in** button. By default this option is activated when you select a user plan for the user.
 
 <!-- Referenced links -->
-[1]: import-users-web.md
+[1]: import-users.md
 [2]: visibility.md
-[3]: /role/index.md
+[3]: role/index.md
 
 <!-- Referenced images -->

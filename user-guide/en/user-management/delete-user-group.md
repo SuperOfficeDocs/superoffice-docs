@@ -1,17 +1,24 @@
 ---
-uid: help-en-user-group-delete-service
+uid: help-en-user-group-delete
 title: Delete user groups
-description: Delete user groups in Service
+description: Delete user groups
 author: SuperOffice RnD
 so.date: 06.29.2022
-keywords: Service
-so.topic: help
+keywords: user group
+so.topic: howto
 language: en
 ---
 
 # Delete user groups
 
-To delete a user group from SuperOffice Service, do as follows:
+## Update the list in Settings and maintenance
+
+1. In Settings and maintenance, click the **Lists** button in the Navigator (![icon][img2]).
+2. Choose **General - User group** from the list.
+3. Click the name of the user group in question.
+4. Click the **Delete** button at the bottom of the screen.
+
+## <a id="service" />Delete user group in Service
 
 1. Select ![icon][img1] **System settings > Users**.
 2. Select the **User groups** tab.
@@ -24,4 +31,5 @@ To delete a user group from SuperOffice Service, do as follows:
 <!-- Referenced links -->
 
 <!-- Referenced images -->
-[img1]: ../../../media/icons/globalmenu-settings-small.png
+[img1]: ../../media/icons/globalmenu-settings-small.png
+[img2]: ../../media/icons/admin/knapp-lister-liten.bmp

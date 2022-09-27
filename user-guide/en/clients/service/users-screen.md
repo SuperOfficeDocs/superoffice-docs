@@ -1,17 +1,15 @@
 ---
-uid: help-en-user-service
+uid: help-en-users-screen-service
 title: Users (Service)
 description: Users (Service)
 author: SuperOffice RnD
 so.date: 06.29.2022
 keywords: Service
-so.topic: help
+so.topic: reference
 language: en
 ---
 
 # Users (Service)
-
-[!include[Restricted access](../../includes/note-insufficient-rights.md)]
 
 Selecting ![icon][img1] **System settings > Users** takes you the **Users** screen, where you have the following options:
 
@@ -25,8 +23,8 @@ To create, delete or restore users, go to SuperOffice Settings and maintenance.
 In the **Users** tab, you can display all the users registered in the system. Using the **Filter** field at the top of the tab, you can apply the following filters to the list:
 
 * **All**: Shows all the users registered in the system.
-* **Service users**: Shows all users with an active user licence. In practice, this means all active users.
-* **Deleted**: Shows all deleted users. When you delete a user in SuperOffice Settings and maintenance, this person remains in the system, but is marked as deleted. Their history is retained, but by deleting them, you free up a user licence. You can restore a deleted user, i.e. reactivate the user licence, in SuperOffice Settings and maintenance.
+* **Service users**: Shows all users with an active user license. In practice, this means all active users.
+* **Deleted**: Shows all deleted users. When you delete a user in SuperOffice Settings and maintenance, this person remains in the system, but is marked as deleted. Their history is retained, but by deleting them, you free up a user license. You can restore a deleted user, i.e. reactivate the user license, in SuperOffice Settings and maintenance.
 * **User groups**: If you select a user group, all members of that group are displayed.
 
 Clicking a user takes you to the **Edit users** screen, which contains all the information recorded about this user.
@@ -40,7 +38,7 @@ Using the **User groups** tab in the **Users** screen, you can collect the users
 * [Edit users][1]
 
 <!-- Referenced links -->
-[1]: edit-user.md
+[1]: ../../user-management/update-user.md#service
 
 <!-- Referenced images -->
 [img1]: ../../../media/icons/globalmenu-settings-small.png

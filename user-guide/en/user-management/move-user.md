@@ -1,7 +1,7 @@
 ---
-uid: help-en-move-users
-title: Move users
-description: Move users
+uid: help-en-user-move
+title: Move user
+description: Move user from one company to another
 author: SuperOffice RnD
 so.date: 06.29.2022
 keywords: Settings and maintenance, user
@@ -11,7 +11,7 @@ language: en
 
 # Move users
 
-You can move a user from one company to another, if your organization consists of multiple companies registered in the [Our companies][2] tab.If a user has been set up under the wrong company, or if they have changed positions/jobs within your organization, they can be moved, including their activities and sales.
+You can move a user from one company to another, if your organization consists of multiple companies registered in the [Our companies][2] tab. If a user has been set up under the wrong company, or if they have changed positions/jobs within your organization, they can be moved, including their activities and sales.
 
 To move a user:
 
@@ -35,6 +35,6 @@ To move a user:
 1. Click **Move**. The user is moved to the specified company.
 
 <!-- Referenced links -->
-[2]: our-companies.md
+[2]: ../clients/admin/users/our-companies-tab.md
 
 <!-- Referenced images -->

@@ -100,7 +100,7 @@ To create a new role:
 [2]: ../../ui/service-screens/listProfiles.md
 [3]: ../../faq/workflow.md
 [4]: editing-role.md
-[5]: ../adding-users.md
+[5]: ../add-associate.md
 [6]: https://community.superoffice.com/en/support-faqs/faq/whichare-all-availablefunctional-rights-in-superoffice-and-what-each-of-them-mean/
 
 <!-- Referenced images -->

@@ -1,18 +1,18 @@
 ---
-uid: help-en-add-other-users
+uid: help-en-user-add-other
 title: Add other users
-description: Add other users
+description: Add anonymous users or system users
 author: SuperOffice RnD
 so.date: 06.29.2022
-keywords: Settings and maintenance, user
-so.topic: help
+keywords:  user
+so.topic: howto
 language: en
 so.envir: onsite
 ---
 
-# Add other users
+# Add anonymous user or system user
 
-[!include[Requirement](includes/note-users-that-req-es.md)]
+[!include[Requirement](../includes/note-users-that-req-es.md)]
 
 To add anonymous users or system users:
 

@@ -1,20 +1,18 @@
 ---
-uid: help-en-adding-companies-in-our-companies-tab
+uid: help-en-our-companies-add
 title: Adding companies in the Our companies tab
 description: Adding companies in the Our companies tab
 author: SuperOffice RnD
 so.date: 06.29.2022
-keywords: Settings and maintenance
-so.topic: help
+keywords: user, our companies
+so.topic: howto
 language: en
 so.client: web
 ---
 
-# Add companies in the Our companies tab
+# Add company in the Our companies tab
 
 To add a company in the **Our companies** tab, it must first be registered as a company in SuperOffice CRM. Do this in SuperOffice CRM. To add a company in the **Our companies** tab, search for it first.
-
-[!include[To do this](../includes/to-do-this.md)]
 
 1. Open the Users screen.
 
@@ -61,9 +59,9 @@ To add a company in the **Our companies** tab, it must first be registered as a 
 
 ## What would you like to do now?
 
-* [Delete companies in the Our companies tab][2]
+* [Delete company in the Our companies tab][2]
 
 <!-- Referenced links -->
-[2]: deleting-companies-in-our-companies-tab.md
+[2]: delete-our-companies.md
 
 <!-- Referenced images -->
