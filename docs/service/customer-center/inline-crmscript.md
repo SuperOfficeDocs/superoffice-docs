@@ -19,5 +19,5 @@ The leading `%EJSCRIPT_START%` and matching `%EJSCRIPT_END%` tell the Parser tha
 ![x -screenshot][img2]
 
 <!-- Referenced images -->
-[img1]: media/image001.gif
-[img2]: media/image002.gif
+[img1]: media/image001.png
+[img2]: media/image002.png
