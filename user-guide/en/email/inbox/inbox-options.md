@@ -36,5 +36,5 @@ The inbox contains the following options:
 <!-- Referenced images -->
 [img1]: ../../../media/icons/web-email-resetsearch.png
 [img2]: ../../../media/icons/inbox/mail-sort.png
-[img3]: ../../../media/icons/filter.bmp
-[img4]: ../../../media/icons/epost-oppdater.bmp
+[img3]: ../../../../common/icons/filter-icon.png
+[img4]: ../../../../common/icons/refresh-icon.png

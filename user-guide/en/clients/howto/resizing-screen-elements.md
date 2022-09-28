@@ -38,5 +38,5 @@ Zoom in/out in the browser to get larger/smaller font.
 <!-- Referenced links -->
 
 <!-- Referenced images -->
-[img1]: ../../../media/icons/icon-center-resize.png
-[img2]: ../../../media/icons/icon-center-resize-vertical.png
+[img1]: ../../../../common/icons/dragger-vert-h32.png
+[img2]: ../../../../common/icons/dragger-hori-h32.png

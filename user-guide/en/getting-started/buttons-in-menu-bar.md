@@ -101,6 +101,6 @@ At the top left in SuperOffice CRM is the SuperOffice logo, which has the follow
 [img4]: ../../media/icons/globalmenu-notice.png
 [img5]: ../../media/icons/globalmenu-notice-new.png
 [img6]: ../../media/icons/globalmenu-notice-pending.png
-[img7]: ../../media/icons/globalmenu-search.png
+[img7]: ../../../common/icons/search-icon-black.png
 [img8]: ../media/globalmenu-find.png
 [img11]: ../../media/superoffice-logo.bmp

@@ -40,12 +40,12 @@ You can access your favourites from the following places in the application:
 ## Remove record from the favourites list
 
 1. Open the record.
-2. Click the favourites icon ( ![icon][img2] ) in the header. The icon changes to ![icon][img3].
+2. Click the favourites icon ![icon][img2] in the header. The icon changes to ![icon][img3].
 
 <!-- Referenced links -->
 [1]: ../reports/favorites/index.md
 
 <!-- Referenced images -->
 [img1]: ../../media/icons/navmenu-favourites.png
-[img2]: ../../media/icons/favorite-active.png
-[img3]: ../../media/icons/favorite-inactive.png
+[img2]: ../../../common/icons/favourite-yes.png
+[img3]: ../../../common/icons/favourite-no.png

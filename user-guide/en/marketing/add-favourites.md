@@ -25,11 +25,11 @@ In SuperOffice Service you can now quickly access the record by clicking **Marke
 ## Remove a mailing or form from the favourites list
 
 1. Open the mailing or form.
-2. Click the favourites icon ( ![icon][img2] ) in the header. The icon changes to ![icon][img1].
+2. Click the favourites icon ![icon][img2] in the header. The icon changes to ![icon][img1].
 
 <!-- Referenced links -->
 
 <!-- Referenced images -->
-[img1]: ../../media/icons/favorite-inactive.png
-[img2]: ../../media/icons/favorite-active.png
+[img1]: ../../../common/icons/favourite-no.png
+[img2]: ../../../common/icons/favourite-yes.png
 [img3]: ../../media/icons/navmenu-favourites.png

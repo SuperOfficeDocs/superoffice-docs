@@ -55,4 +55,4 @@ Either you do not have access rights to the export function (see [Roles][4]), or
 [6]: ../../../../clients/howto/adjusting-views.md
 
 <!-- Referenced images -->
-[img1]: ../../../../../media/icons/excel-export.bmp
+[img1]: ../../../../../../common/icons/export.png

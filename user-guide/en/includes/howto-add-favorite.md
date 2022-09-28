@@ -4,6 +4,6 @@ To add a record to favorites, click the star icon ![icon][img1] in the corner of
 Now you can quickly access the record by clicking ![icon][img3] from the Navigator menu. The favorites are also available in the side panel.
 
 <!-- Referenced images -->
-[img1]: ../../media/icons/favorite-inactive.png
-[img2]: ../../media/icons/favorite-active.png
+[img1]: ../../../common/icons/favourite-no.png
+[img2]: ../../../common/icons/favourite-yes.png
 [img3]: ../../media/icons/navmenu-favourites.png

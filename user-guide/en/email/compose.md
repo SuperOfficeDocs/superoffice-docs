@@ -35,4 +35,4 @@ When you have finished the message, and want to send it, you have the following 
 
 <!-- Referenced images -->
 [img1]: ../../media/icons/globalmenu-personalsettings-small.png
-[img2]: ../../media/icons/knapperad-e-post.bmp
+[img2]: ../../../common/icons/nav-inbox-h32.png

@@ -75,6 +75,6 @@ The **Diary** screen contains the following section tabs:
 [img1]: ../../../../media/icons/recurring-booking-assignment.bmp
 [img2]: ../../../../media/icons/vis-som-gruppe.bmp
 [img3]: ../../../../media/icons/utfoert-dagbok.bmp
-[img4]: ../../../../media/icons/followup-details-alarm.bmp
+[img4]: ../../../../../common/icons/diary-alarm.png
 [img5]: ../../../../../common/icons/diary-tentative.png
 [img6]: ../../../../media/icons/videomeeting-diaryicon.png

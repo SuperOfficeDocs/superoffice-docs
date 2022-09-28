@@ -23,7 +23,7 @@ Double-click a sale in the list to open the **Sale** screen in SuperOffice CRM w
 
 Click **Add** to create a new sale.
 
-Click the **Filter** button (![icon][img2]) to [filter the list][4] by date, users or groups.
+Click the **Filter** button ![icon][img2] to [filter the list][4] by date, users or groups.
 
 If you check **Include stakeholders** at the bottom of the section tab, sales where the company is involved as a [stakeholder][3] are also displayed.
 
@@ -34,4 +34,4 @@ If you check **Include stakeholders** at the bottom of the section tab, sales wh
 
 <!-- Referenced images -->
 [img1]: ../media/sale-detail.bmp
-[img2]: ../../../../media/icons/filter.bmp
+[img2]: ../../../../../common/icons/filter-icon.png

@@ -54,5 +54,5 @@ You can delete an alternative by selecting ![icon][img1] **Task &gt; Delete \[al
 
 <!-- Referenced images -->
 [img1]: ../../../media/icons/btn-menu.png
-[img2]: ../../../media/icons/quote-favorite-active.png
-[img3]: ../../../media/icons/quote-favorite-inactive.png
+[img2]: ../../../../common/icons/favourite-yes.png
+[img3]: ../../../../common/icons/favourite-no.png
