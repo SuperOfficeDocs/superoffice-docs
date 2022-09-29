@@ -52,7 +52,6 @@ My application is ready, what should I consider before I ask for a certification
 * Persons may be associates - if they have a row in the associate table then
   * don't update a person's company (`person.contact_id`)
 
-
 [!include[ALT](../includes/protect-database.md)]
 
 ## GDPR - creating persons
