@@ -15,7 +15,7 @@ so.client: online
 
 We recommend that you create a separate SharePoint document library on your “SuperOffice Document site” for your templates. If you do not use SharePoint to store your templates, you will need WebTools in order to edit the templates​.
 
-​**Permissions to the SharePoint document library for SuperOffice templates**​
+## Permissions to the SharePoint document library for SuperOffice templates
 
 People who will edit the templates should have Permission level edit​. For instance, create a domain (AAD) group named template-editors​.
 
@@ -95,9 +95,7 @@ If the groups do not exist or you need to add a group that can edit, see 3b.
 
 ## Step 4 – Review the SharePoint site groups​
 
-​We recommend that you remove user permissions for the standard site-groups: Members and Visitors, and that you limit the number of members in the Group owner.
-
-Make sure there are no user accounts in this group, only service accounts.
+​We recommend that you remove user permissions for the standard SharePoint groups Members and Visitors, and that you limit the number of members in the Group owner. Make sure there are no user accounts in this group, only service accounts.
 
 ![Invite people -screenshot][img11]
 

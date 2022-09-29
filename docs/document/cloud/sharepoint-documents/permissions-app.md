@@ -10,7 +10,7 @@ so.envir: cloud
 so.client: online
 ---
 
-# Permissions of SuperOffice integration application
+# Permissions for SuperOffice integration application
 
 SuperOffice integration application requires several permissions to be able to integrate SuperOffice CRM Online with SharePoint site.
 
