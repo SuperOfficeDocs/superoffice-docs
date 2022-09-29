@@ -10,21 +10,28 @@ so.topic: tutorial
 
 # Custom form - edit customer
 
-This tutorial shows you how to create a custom form in the Customer Care Center to allow modifying a customer
+This tutorial shows you how to create a custom form in the Customer Centre to allow modifying a customer
 
-By default, we have a page in the customer care center allowing the customer to change his/her name, password, and any extra fields, such as an address or interest flags used for subscriptions to eMarketing messages. In many cases, our standard page will suffice. However, if you need something a bit more customized, here is an example of how to create another page in the customer care center, allowing the customer to modify "something" :-)
+By default, we have a page in the customer care center allowing the customer to change his/her name, password, and any extra fields, such as an address or interest flags used for subscriptions to eMarketing messages. In many cases, our standard page will suffice. However, if you need something a bit more customized, here is an example of how to create another page in the customer centre, allowing the customer to modify "something" :-)
 
 Most pages in the customer care center use the simplified parser language. In this scenario, I will rather use a CRMScript created from within Service. This also allows me to edit the script without having to access the disk on the Service server.
 
-You can execute any script in eJournal from the customer care center, given that you have the id and the key for the script. The URL should be `.../bin/customer.exe?action=safeParse&includeId=the-include-id&key=the-key` where the-include-id and the-key are values you specify when creating the CRMScript.
+When you create a CRMScript, there are two fields which allow you to access the script from the Customer Centre: “Include name” and “Key”. They will allow you to identify and authenticate access to the script. The idea is that by knowing these two values, you are allowed to execute the script in the Customer Centre with this URL: `.../scripts/customer.fcgi?action=safeParse&includeId=change-customer-information&key=JJbqoeFSR65ItWS4`
 
 ![x -screenshot][img1]
 
+As you can see, there are some important parameters to customer.fcgi:
+1. `action=safeParse` – This parameter specifies the main method of the Customer Centre, which in this case tells it that we want to execute a custom script.
+2. `includeId=change-customer-information` – This parameter specifies that we want to execute the script with “Include name” equals “change-customer-address”.
+3. `key=JJbqoeFSR65ItWS4` – This parameter specifies that the secret key of the script is "JJbqoeFSR65ItWS4". If it does not match the key of the script, an error will be returned.
+4. Optionally, you can include `withFrame=1`. This will make the page a part of the Customer Centre default visual look by placing the returned contents inside “framework.html”, just like the other Customer Centre pages.
+Additionally, you can include any parameters of your choice in the URL. You can retrieve them inside your CRMScript by calling the `getCgiVariable()` method. This method will also retrieve any fields sent to this script by any form POST methods, which is what we will use for our custom form.
+
 In this example, I have created a new CRMScript with the following values:
 
-* Include-id: change-customer-information
-* Key: test
-* Body:
+* includeId: change-customer-information
+* key: JJbqoeFSR65ItWS4
+* body:
 
 ```html
 %EJSCRIPT_START%
@@ -43,7 +50,7 @@ if (getCgiVariable("ok") != "")
 else
 {
   %>
-  <form method='post' action='/bin/customer.exe?action=safeParse&includeId=change-customer-address&key=test&withFrame=1'>
+  <form method='post' action='<%print(getParserVariable("AuthProgram"));%>?action=safeParse&includeId=change-customer-information&key=JJbqoeFSR65ItWS4&withFrame=1'>
   <table>
   <tr><td>First name:</td><td><input type='text' name='firstname' value='<% print(theCustomer.getValue("firstname")); %>'></td></tr>
   <tr><td>Last name:</td><td><input type='text' name='lastname' value='<% print(theCustomer.getValue("lastname")); %>'></td></tr>
@@ -61,23 +68,22 @@ Notice how the body is not in "core" CRMScript syntax, but rather in our "embedd
 
 You can execute this script from your customer care center with the following URL. Note that for this particular scenario, I have added an extra field, `x_address`, to the `customer` table.
 
-`http://.../bin/customer.exe?action=safeParse&includeId=change-customer-information&key=test&withFrame=1`
+`.../scripts/customer.fcgi?action=safeParse&includeId=change-customer-information&key=JJbqoeFSR65ItWS4&withFrame=1`
 
 ## Add to left menu
 
-If you want to, you can add this item to the left menu of the customer care center. To do this, you will have to edit *framework.md* (in *c:\ejournal\templates\en\customer*) to add this item. You only want this screen for logged in customers, which means you will add something like this to your *framework.md*:
+If you want to, you can add this item to the left menu of the customer care center. To do this, you will have to edit *framework.html* (in Customer centre source files) to add this item. You only want this screen for logged in customers, which means you will add something like this to your *framework.html*:
 
-```html
-<tr><td nowrap class="menuItemTd" ><a onmouseenter="imageFocus(this, true);" onmouseout="imageFocus(this, false);" class="menuItemA" href="%AuthProgram%&action=safeParse&includeId=change-customer-address&key=test&withFrame=1"><img border="0" class="menuItemImg" src="%WwwRoot%/graphics/customer/list_tickets%list_tickets_suffix%.gif">Custom form</a></td></tr>
-```
+![x -screenshot][img4]
 
-It's just a copy of another menu line with the modified URL. You probably want to change the icon. This is how it looks:
+It's just a copy of another menu line with the modified URL. This is how it looks:
 
 ![form 1 -screenshot][img2]
 
 ![form 2 -screenshot][img3]
 
 <!-- Referenced image -->
-[img1]: media/script.jpg
-[img2]: media/form1.jpg
-[img3]: media/form2.jpg
+[img1]: media/script.png
+[img2]: media/form1.png
+[img3]: media/form2.png
+[img4]: media/menuitem.png
