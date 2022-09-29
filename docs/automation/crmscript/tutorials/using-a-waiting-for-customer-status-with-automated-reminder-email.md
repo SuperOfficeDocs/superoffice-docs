@@ -16,7 +16,7 @@ A frequently demanded feature is the possibility of having Service reminding the
 3. If the request remains in this status for another Y days without us getting a e response from the customer, we will close the request and send a notification email informing the customer that the issue is closed.
 4. If the customer responds back by email to a request with status "Waiting for customer", the request will change status to "Open". Consequently, if this happens before we reach X days, there will not be sent any notification emails.
 
-### This solution will be based on the following components:
+## This solution will be based on the following components:
 
 1. A new request status, "Waiting for customer".
 2. A new datetime fields on request to register when we send the notification to the customer about closing the request. This is to ensure that we do not send more than one notification.
