@@ -39,7 +39,7 @@ landingContent:
           - text: SharePoint site and libraries set up
             url: sharepoint-documents/set-up.md
           - text: SuperOffice Admin configuration
-            url: sharepoint-documents/configure-templates.md
+            url: sharepoint-documents/configure-superoffice.md
           - text: How to configure permissions
             url: sharepoint-documents/configure-permissions-with-aad-groups.md
           - text: Troubleshooting

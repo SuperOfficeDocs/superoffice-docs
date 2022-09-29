@@ -1,6 +1,6 @@
 ---
 title: Permissions in SharePoint
-uid: config-sharepoint-permissions
+uid: config-sharepoint-permissions-documents
 description: How to set up the SharePoint using site permissions and Domain (AAD) groups
 author: Bergfrid Dias
 so.date: 06.21.2022
@@ -25,7 +25,7 @@ This will give them access to the document library too.
 
 1. In your SuperOffice document Site - click on the cog-wheel and then **Site permissions**.
 
-2. Click on **Advanced permissions settings**
+2. Click on **Advanced permissions settings**.
 
     ![Advanced permissions settings -screenshot][img2]
 
