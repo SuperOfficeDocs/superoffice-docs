@@ -32,5 +32,5 @@ To edit an existing tile:
 [2]: ../globalization/translate-fields.md
 
 <!-- Referenced images -->
-[img1]: ../../media/icons/translate.png
+[img1]: ../../../common/icons/az.png
 [img2]: ../../media/icons/dashboard/dashboard-tile-edit.png

@@ -146,7 +146,7 @@ If you need to revert to an earlier version of the screen, you can access the fo
 [5]: ../../custom-objects/udef/index.md
 
 <!-- Referenced images -->
-[img1]: ../../../media/icons/translate.png
+[img1]: ../../../../common/icons/az.png
 [img2]: ../../../media/icons/admin/btn-delete-admin.png
 [img4]: ../../../media/icons/admin/btn-move.png
 [img5]: ../../../media/icons/admin/btn-add2.png

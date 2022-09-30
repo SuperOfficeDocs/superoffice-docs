@@ -32,5 +32,5 @@ so.client:
 [3]: ../../../docs/document/templates/variables/for-selected-contact.md
 
 <!-- Referenced images -->
-[img2]: ../../media/icons/sign-editor-show-hide.png
+[img2]: ../../../common/icons/editor-toolbar-icon.png
 [img3]: ../../media/icons/sign-editor-variables.png

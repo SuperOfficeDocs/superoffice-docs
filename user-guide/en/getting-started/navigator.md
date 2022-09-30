@@ -159,15 +159,15 @@ If you hold the mouse pointer over a record in any the lists, a tooltip is displ
 [img25]: ../../../common/icons/nav-search.png
 [img26]: ../../../common/icons/nav-list.png
 
-[img21]: ../../media/icons/panel-left-hide.png
-[img22]: ../../media/icons/panel-left-show.png
+[img21]: ../../../common/icons/left-collapse.png
+[img22]: ../../../common/icons/left-expand.png
 
 [img31]: ../../../common/icons/nav-marketing-h32.png
 [img33]: ../../../common/icons/nav-cs-h32.png
 [img34]: ../../../common/icons/nav-company-h32.png
 [img35]: ../../../common/icons/nav-selection-h32.png
 [img36]: ../../media/icons/nav-kb.png
-[img37]: ../../media/icons/nav-statistics.png
+[img37]: ../../../common/icons/nav-reports-h32.png
 [img39]: ../../../common/icons/nav-chat-h32.png
 
 [img41]: ../../../common/icons/nav-admin-chat-active-h32.png

@@ -58,5 +58,5 @@ To create a new purpose:
 [3]: index.md#source
 
 <!-- Referenced images -->
-[img1]: ../../../media/icons/translate.png
+[img1]: ../../../../common/icons/az.png
 [img2]: ../../../media/icons/admin/knapp-privacy-small.png

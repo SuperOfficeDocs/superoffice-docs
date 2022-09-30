@@ -73,7 +73,7 @@ To add a tile with sales targets to a dashboard:
 [4]: ../sale/sales-targets.md
 
 <!-- Referenced images -->
-[img1]: ../../media/icons/translate.png
+[img1]: ../../../common/icons/az.png
 [img2]: ../../media/icons/dashboard/dashboard-tiletype-bignumbers.png
 [img3]: ../../media/icons/dashboard/dashboard-tiletype-bar.png
 [img4]: ../../media/icons/dashboard/dashboard-tiletype-column.png
