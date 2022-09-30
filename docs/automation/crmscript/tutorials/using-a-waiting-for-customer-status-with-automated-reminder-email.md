@@ -16,25 +16,26 @@ A frequently demanded feature is the possibility of having Service reminding the
 3. If the request remains in this status for another Y days without us getting a e response from the customer, we will close the request and send a notification email informing the customer that the issue is closed.
 4. If the customer responds back by email to a request with status "Waiting for customer", the request will change status to "Open". Consequently, if this happens before we reach X days, there will not be sent any notification emails.
 
-## This solution will be based on the following components:
+## This solution will be based on the following components
 
-1. A new request status, "Waiting for customer".
-2. A new datetime fields on request to register when we send the notification to the customer about closing the request. This is to ensure that we do not send more than one notification.
-3. A new script which will be executed every night, checking the requests and sending email notifications as described above.
-4. Two new reply templates, containing the messages we send for notification.
+* A new request status, "Waiting for customer".
+* A new datetime fields on request to register when we send the notification to the customer about closing the request. This is to ensure that we do not send more than one notification.
+* A new script which will be executed every night, checking the requests and sending email notifications as described above.
+* Two new reply templates, containing the messages we send for notification.
 
-## Implementation
+## Implementation¨
+
 Creating the field should be straightforward:
 
-![x][img1]
+![field-screenshot][img1]
 
 You then need to create the two reply templates we will use. The script will merge the templates with the request and customer data, so merge fields from these entities can be used, such as “Dear [[customer.name]]”:
 
-![x][img2]
+![replytemplate-screenshot][img2]
 
 Creating the status is also easy. Note: the field “Standard” should not be checked.
 
-![x][img3]
+![requeststatus-screenshot][img3]
 
 Finally, we need to create the script. Here is the code:
 
@@ -135,15 +136,17 @@ for (se.execute(); !se.eof(); se.next())
 
 The opening part of this script have some variables you need to configure:
 
-* **daysBeforeWarning**: This is the number of days before we send the first notification.
-* **daysBeforeClosing**: This is the number of days before we close and send the second notification.
-* **waitingStatus**: This is the id of the new status we have created: “Waiting for customer”.
-* **notificationReplyTemplate**: This is the id of the reply template used for first notification.
-* **closingReplyTemplate**: This is the id of the reply template used for second notification.
+| Variable | Description |
+|----------|-------------|
+| **daysBeforeWarning** | This is the number of days before we send the first notification. |
+| **daysBeforeClosing** |This is the number of days before we close and send the second notification. |
+| **waitingStatus** | This is the id of the new status we have created: “Waiting for customer”. |
+| **notificationReplyTemplate** | This is the id of the reply template used for first notification.|
+| **closingReplyTemplate** | This is the id of the reply template used for second notification. |
 
 Schedule this script as a nightly task, and you should be all set. The notifications will be logged on the request so that you can easily see what has been sent:
 
-![x][img4]
+![viewticket-screenshot][img4]
 
 [img1]: media/466-notification_field.png
 [img2]: media/466-reply_template.png

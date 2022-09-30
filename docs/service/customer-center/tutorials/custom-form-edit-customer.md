@@ -21,10 +21,13 @@ When you create a CRMScript, there are two fields which allow you to access the 
 ![x -screenshot][img1]
 
 As you can see, there are some important parameters to customer.fcgi:
-1. `action=safeParse` – This parameter specifies the main method of the Customer Centre, which in this case tells it that we want to execute a custom script.
-2. `includeId=change-customer-information` – This parameter specifies that we want to execute the script with “Include name” equals “change-customer-address”.
-3. `key=JJbqoeFSR65ItWS4` – This parameter specifies that the secret key of the script is "JJbqoeFSR65ItWS4". If it does not match the key of the script, an error will be returned.
-4. Optionally, you can include `withFrame=1`. This will make the page a part of the Customer Centre default visual look by placing the returned contents inside “framework.html”, just like the other Customer Centre pages.
+| Parameter | Description |
+|-----------|-------------|
+|`action=safeParse` | This parameter specifies the main method of the Customer Centre, which in this case tells it that we want to execute a custom script. |
+| `includeId=change-customer-information` | This parameter specifies that we want to execute the script with “Include name” equals “change-customer-address”. |
+| `key=JJbqoeFSR65ItWS4` | This parameter specifies that the secret key of the script is "JJbqoeFSR65ItWS4". If it does not match the key of the script, an error will be returned. |
+| Optionally, you can include `withFrame=1`. | This will make the page a part of the Customer Centre default visual look by placing the returned contents inside “framework.html”, just like the other Customer Centre pages. |
+
 Additionally, you can include any parameters of your choice in the URL. You can retrieve them inside your CRMScript by calling the `getCgiVariable()` method. This method will also retrieve any fields sent to this script by any form POST methods, which is what we will use for our custom form.
 
 In this example, I have created a new CRMScript with the following values:
@@ -74,7 +77,7 @@ You can execute this script from your customer care center with the following UR
 
 If you want to, you can add this item to the left menu of the customer care center. To do this, you will have to edit *framework.html* (in Customer centre source files) to add this item. You only want this screen for logged in customers, which means you will add something like this to your *framework.html*:
 
-![x -screenshot][img4]
+![menu-screenshot][img4]
 
 It's just a copy of another menu line with the modified URL. This is how it looks:
 
