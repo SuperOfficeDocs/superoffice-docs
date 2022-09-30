@@ -26,17 +26,19 @@ This is what we use the scopes for:
 
 ### User delegated permission
 
+Used once for adding the app. Those permissions will not be persistent / saved.
+
 | App | User | Scope | Usage |
 |---|---|---|-------|
-| SuperOffice | Normal | Sites.ReadWrite.All | Create, Update and delete documents<br />Set permission on documents<br />Can't use application permission here because documents will be created and updated as the application, not as the logged in user |
-| SuperOffice | CRM Admin | Sites.ReadWrite.All | List sites and libraries<br />List AD groups attached to selected library<br/>Create meta data columns in SharePoint document library |
-| SuperOffice Documents | CRM Admin | Sites.FullControl | When giving permission for SuperOffice documents app the permission level Site.Selected we need to use a user token with Site.FullControl scope. For this once the app is approved with given scopes for delegated permission we will get a token of user with Site.FullCOntrol and will set the permission to the selected site. But this will be an one time token this token will not be saved in the ZFP database |
+| SuperOffice | CRM Admin | User.Read |  Sign in and read user profile​. To sign in global administrator user. ​ |
+| SuperOffice Documents | CRM Admin | Sites.FullControl.All | Have full control of all site collections. When giving permission for SuperOffice documents app the permission level Site.Selected we need to use a user token with Site.FullControl scope. For this once the app is approved with given scopes for delegated permission we will get a token of user with Site.FullControl and will set the permission to the selected site. But this will be an one time token, this token will not be saved in the ZFP database. |
 
 ### Application permission
 
-| App | User | Scope | Usage | Permission type |
-|---|---|---|---|---|
-| SuperOffice Documents | AD application | Sites.Selected | Deleted inherited permissions | Application Permission |
+| App | User | Scope | Usage |
+|---|---|---|---|
+| SuperOffice Documents | AD application | Sites.Selected | Access selected site collections. ​To read permissions on documents.​ |
+| SuperOffice Documents | AD application | Files.ReadWrite.All | Read and write files in all site collections. ​Delete and set permissions on documents. Create documents on behalf of non existing SharePoint user (system user).​ |
 
 Enabling Application permission with Sites.Selected has following steps:
 
