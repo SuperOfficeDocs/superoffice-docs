@@ -66,4 +66,4 @@ Open the **Reports** screen by clicking the **Reports** button ![icon][img7] in 
 [img4]: ../../media/icons/reports/rep-calendar.bmp
 [img5]: ../../media/icons/reports/rep-crosstable.bmp
 [img6]: ../../media/icons/reports/rep-textexport.bmp
-[img7]: ../../media/icons/navigator-rapporter.bmp
+[img7]: ../../../common/icons/nav-reports.png

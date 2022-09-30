@@ -44,8 +44,8 @@ There are basically three types of messages:
 [7]: howto/index.md
 
 <!-- Referenced images -->
-[img1]: ../../media/icons/navigator-dashboard-small.bmp
-[img2]: ../../media/icons/nav-request-small.png
+[img1]: ../../../common/icons/nav-dashboard.png
+[img2]: ../../../common/icons/nav-cs.png
 [img5]: ../../media/icons/service/message-internal.png
 [img3]: ../../../common/icons/favourite-no.png
 [img4]: ../../../common/icons/favourite-yes.png

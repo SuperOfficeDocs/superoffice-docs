@@ -52,6 +52,6 @@ To view the favourites list, do one of the following:
 <!-- Referenced images -->
 [img1]: ../../../../common/icons/favourite-no.png
 [img2]: ../../../../common/icons/favourite-yes.png
-[img3]: ../../../media/icons/navmenu-favourites.png
+[img3]: ../../../../common/icons/nav-fav.png
 [img5]: ../../../media/icons/btn-menu.png
 [img6]: ../../../../common/icons/dropdown-arrow.png
