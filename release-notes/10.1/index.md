@@ -17,13 +17,13 @@ so.version: 10.1
 
 ## Breaking changes
 
-### Onsite Username/Password and Windows Authentication
+### Onsite username/password and Windows authentication
 
 In the previous SuperOffice versions, when you supplied credentials to the SuperOffice login dialog, NetServer tried to authenticate the user against SuperOffice database and when it failed, it tried also against AD. This system allowed for a mix of both SuperOffice logins and AD logins without any additional setup.
 
-This possibility to have mixed logins was removed in SuperOffice **10.1.5**.
+The possibility to have mixed logins was removed in SuperOffice **10.1.5**.
 But reimplemented in version **10.1.6** (05.10.2022), due to a lot of unexpected problems.
-Have the full overview in our [Help Center & Community][1] in the forum.
+You can [read more on the forums][1].
 
 ## Details of the new features
 
