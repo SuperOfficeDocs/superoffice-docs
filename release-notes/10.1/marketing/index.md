@@ -12,6 +12,8 @@ so.topic: reference
 # New and improved marketing
 
 * [Form – Set up Our contact with a default on form submissions (10.1.3)][3]
+* [Mailing – Document mailing with language (10.1.6)][6]
 
 <!-- Referenced links-->
 [3]: 10.1.3-update.md
+[6]: 10.1.6-update.md
