@@ -10,7 +10,7 @@ so.topic: concept
 
 # Requests
 
-[!include[License requirement](../includes/req-service-essentials.md)]
+[!include[License requirement](../../common/includes/req-service-essentials.md)]
 
 (Some features need premium.)
 
@@ -67,7 +67,7 @@ The escalation chain has multiple levels. Each level has its own settings, such 
 * if and who the ticket should be delegated to on escalation
 * the ID of a **CRMScript** to run when the ticket alert goes off
 
-[!include[License requirement](../includes/req-service-prem.md)]
+[!include[License requirement](../../common/includes/req-service-prem.md)]
 
 ## Priority
 

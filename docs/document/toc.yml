@@ -7,7 +7,7 @@ items:
     items:
     - name: Overview
       href: cloud/overview.md
-    - name: SharePoint Documents
+    - name: SharePoint documents
       href: cloud/sharepoint-documents/index.md
       items:
       - name: Requirements

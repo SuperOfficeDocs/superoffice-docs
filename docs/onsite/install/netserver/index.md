@@ -17,6 +17,8 @@ NetServer is always installed, but for some scenarios, we recommend it is instal
 > [!NOTE]
 > This page describes a separate installation of SuperOffice NetServer / web services. For full installation of SuperOffice Web, please [follow the install guide][2].
 
+[!include[Remote NetServer](../../includes/remote-netserver-web.md)]
+
 ## Before you begin
 
 * Download the Web installer package

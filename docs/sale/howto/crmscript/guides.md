@@ -11,7 +11,7 @@ so.topic: concept
 
 Some sale types have an associated sales guide. For those types, it's important to understand stages and how to work with suggested activities.
 
-[!include[License requirement](../../../includes/req-sales-prem.md)]
+[!include[License requirement](../../../../common/includes/req-sales-prem.md)]
 
 ## Check if a sale is connected to a guide
 

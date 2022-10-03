@@ -24,6 +24,14 @@ highlightedContent:
       itemType: reference
       url: requirements/index.md
     # Card
+    - title: "Setup guide"
+      itemType: reference
+      url: install/guide.md
+    # Card
+    - title: "Installation guide (Web)"
+      itemType: overview
+      url: install/index.yml      
+    # Card
     - title: "Customer Service"
       itemType: overview
       url: ../service/index.yml
@@ -31,10 +39,6 @@ highlightedContent:
     - title: "SuperOffice mobile"
       itemType: learn
       url: ../mobile/index.yml
-    # Card
-    - title: "Installation guide (Web)"
-      itemType: overview
-      url: install/index.yml
     # Card
     - title: "Release notes"
       itemType: whats-new
@@ -98,7 +102,7 @@ conceptualContent:
         links:
           - url: upgrade/to-9/index.md
             itemType: how-to-guide
-            text: To version 9        
+            text: To version 9 or 10       
           - url: upgrade/to-81/index.md
             itemType: how-to-guide
             text: To version 8.1 - 8.5

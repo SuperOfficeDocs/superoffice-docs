@@ -1,15 +1,13 @@
 ---
+uid: tempvar-pocket
 title: Pocket template variables
-uid: variables_for_pocket
 description: Pocket template variables
-author: {github-id}
-keywords:
+author: Bergfrid Dias
+so.date: 09.22.2022
+keywords: template variable
 so.topic: reference
 ---
 
 # Pocket template variables
 
-| Variable | Description |
-|----------|-------------|
-| pccu | points to \<CRM.web installation>\PocketConfiguration.aspx |
-| pcvu | value is used as the display name for the PocketConfiguration.aspx link |
+[!include[Table](../../../../common/includes/variable/table-pocket.md)]

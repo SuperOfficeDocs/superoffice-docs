@@ -10,7 +10,7 @@ so.topic: concept
 
 # Custom objects
 
-[!include[License requirement](../includes/req-dev-tools.md)]
+[!include[License requirement](../../common/includes/req-dev-tools.md)]
 
 ## Data-driven approach
 

@@ -1,17 +1,17 @@
 ---
-title: Install SuperOffice 9 Windows client
+title: Install SuperOffice 9 or 10 Windows client
 uid: install_win9_client
-description: Install SuperOffice 9 Windows client
+description: Install SuperOffice 9 or 10 Windows client
 author: {github-id}
-keywords:
+keywords: install, win, client
 so.topic: howto
 so.envir: onsite
 so.client: win
 ---
 
-# Install SuperOffice 9 Windows client
+# Install SuperOffice 9 or 10 Windows client
 
-From SuperOffice 9 the SuperOffice Windows client is not available. The SuperOffice9.exe installer contains SuperOffice Admin client, Reporter Studio and Travel Gateway.
+From SuperOffice 9 the SuperOffice Windows client is not available. The *SuperOffice9.exe* (or *SuperOffice10.exe* for SuperOffice 10) installer contains SuperOffice Admin client, Reporter Studio and Travel Gateway.
 
 The installer is found on the SuperOffice CRM Server in the *Client* folder.
 
