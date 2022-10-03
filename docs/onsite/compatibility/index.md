@@ -15,6 +15,14 @@ The published compatibility test reports. A **Test Passed** status is a 90% assu
 
 We make the compatibility reports when other vendors release newer versions after our release. This is where you see if, for example, a new version of Internet Explorer is compatible with the current releases of SuperOffice. You can also check out the [system requirements][1].
 
+## MacOS Ventura
+
+![macOS Ventura][img18]
+
+We have tested SuperOffice Web, Service and WebTools for Mac 11.5.7948 on MacOS Ventura. We’ve conducted the test on MacOS Ventura Beta release as the final RTM is not yet released. No issues were found during testing. The report was made on September 29th 2022.
+
+<a href="../../assets/downloads/compatibility/maclink---os-macos-ventura.xlsx" download>Click to download report</a>
+
 ## Microsoft Office 2021
 
 ![office2021.png][img17]
@@ -172,3 +180,4 @@ Microsoft SQL Server 2016 has been tested successfully with SuperOffice 7.5 SR2 
 [img15]: media/macos-monterey.jpg
 [img16]: media/win-server-2022.jpg
 [img17]: media/office2021.png
+[img18]: media/macos-ventura.png
