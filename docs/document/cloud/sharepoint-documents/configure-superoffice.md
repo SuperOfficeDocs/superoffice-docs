@@ -14,9 +14,11 @@ so.client: online
 
 The configuration in the SuperOffice Admin is point-and-click. This part is primarily to select the values already created in the first part.
 
-## Admin client​
+## SuperOffice Admin client​
 
-You select your Document library in Admin: ​
+You select your Document library in Admin - Preferences - Document library: ​
+
+![SuperOffice Admin document library – Location​ -screenshot][img9]
 
 * Default is SuperOffice document library, and you can change that to SharePoint​.
 * When you are configuring your new document library, Admin will show an intermediate state.​
@@ -25,7 +27,7 @@ You select your Document library in Admin: ​
 > [!NOTE]
 > It will be possible to change some of the settings in the Wizard later​.
 
-## ​Wizard
+## Configuration ​wizard
 
 The wizard has four steps:​
 
@@ -128,3 +130,4 @@ See the [reference of permissions in SharePoint​][1] for more information.
 [img6]: media/groups-and-access-authorization.png
 [img7]: media/groups-and-access-ad.png
 [img8]: media/confirm.png
+[img9]: media/so-admin-document-library.png

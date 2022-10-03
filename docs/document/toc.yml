@@ -19,9 +19,9 @@ items:
         - name: About permissions in SharePoint
           href: cloud/sharepoint-documents/permissions-in-sharepoint.md
         - name: Permissions for documents
-          href: cloud/sharepoint-documents/configure-permissions-with-aad-groups.md
+          href: cloud/sharepoint-documents/configure-permissions-documents.md
         - name: Permissions for templates
-          href: cloud/sharepoint-documents/permissions-templates.md          
+          href: cloud/sharepoint-documents/configure-permissions-templates.md          
       - name: Set up SuperOffice
         href: cloud/sharepoint-documents/configure-superoffice.md
       - name: Permissions for SuperOffice document library app

@@ -41,9 +41,9 @@ landingContent:
           - text: SuperOffice Admin configuration
             url: sharepoint-documents/configure-superoffice.md
           - text: SharePoint permissions for documents
-            url: sharepoint-documents/configure-permissions-with-aad-groups.md
+            url: sharepoint-documents/configure-permissions-documents.md
           - text: SharePoint permissions for templates
-            url: sharepoint-documents/permissions-templates.md
+            url: sharepoint-documents/configure-permissions-templates.md
           - text: Permissions for SuperOffice integration application
             url: sharepoint-documents/permissions-app.md            
           - text: Troubleshooting
