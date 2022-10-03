@@ -55,7 +55,7 @@ if (printForm)
 
 This code has two important areas. The first if-section will get executed if the form was posted. Inside this section, we will process a post. The second if-section will get executed unless `printForm` is set to false, and prints out the form. The idea is that if the user posts the form, but the data is incorrect, we can bail out of the first if (without setting `printForm` to false), and the form will get reprinted with the posted values. For simplicity, no validation or escaping is done in the example code.
 
-### The Signature Area
+### The Signature area
 
 The idea of the signature area is based on some new HTML5 functionality: the canvas tag. This tag allows us to create an area which we can draw in with JavaScript, and which can be exported to an image and represented as a base64-encoded string. The string can be stored in a hidden text element. The components we need for this to work are:
 
@@ -94,7 +94,7 @@ The section where the post is processed on the server is inside the `if (getCgiV
 
 Here is the complete code. Just create this as a CRMScript under **System design > Scripts**, set the include ID to "sig_form" and the key to "TLJM31BqZA1iiStQ", and it should work out of the box.
 
-[!code-html[HTML](includes/custom-form.html)]
+[!code-text[HTML](includes/custom-form.html)]
 
 <!-- Referenced image -->
 [img1]: media/image011.png

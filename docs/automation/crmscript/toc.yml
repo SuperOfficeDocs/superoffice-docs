@@ -135,10 +135,10 @@ items:
     href: tutorials/udef-agent.md
   - name: Build custom rest API methods
     href: tutorials/build-custom-rest-api-methods.md
-  - name: Statlib for reporting
+  - name: StatLib for reporting
     href: tutorials/using-crmscript-statlib-for-reporting.md
   - name: Waiting for customer reminder
-    href: tutorials/waiting-for-customer-with-reminders.md
+    href: tutorials/waiting-for-customer-status-with-reminders.md
 - name: Reference
   href: reference/toc.yml
   topicHref: reference/index.md
