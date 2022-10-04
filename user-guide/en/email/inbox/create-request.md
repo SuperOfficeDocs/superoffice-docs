@@ -27,4 +27,4 @@ In order to do so:
 <!-- Referenced links -->
 
 <!-- Referenced images -->
-[img1]: ../../../media/icons/inbox/web-email-archive-small.bmp
+[img1]: ../../../../common/icons/archive-icon.png

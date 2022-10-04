@@ -17,7 +17,7 @@ To edit an existing tile:
 
 2. Click the **Task** button, and select **Add tile / Edit layout**.
 
-3. In the dashboard, click the **Edit tile** icon (![icon][img2]).
+3. In the dashboard, click the **Edit tile** icon ![icon][img2].
 
 4. In the **Dataset** tab, you can [edit the criteria][1] for the data displayed in the tile. Remember to update the tile name to reflect any changes made here.
 
@@ -33,4 +33,4 @@ To edit an existing tile:
 
 <!-- Referenced images -->
 [img1]: ../../../common/icons/az.png
-[img2]: ../../media/icons/dashboard/dashboard-tile-edit.png
+[img2]: ../../../common/icons/edit-pen.png

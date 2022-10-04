@@ -64,4 +64,4 @@ Read more on SuperOffice Community: [Simple Google Analytics email tracking][5].
 <!-- Referenced images -->
 [img1]: ../../../media/icons/btn-menu.png
 [img2]: ../../../media/icons/btn-add.png
-[img3]: ../../../media/icons/marketing-and-forms/btn-addfolder.png
+[img3]: ../../../../common/icons/folder.png

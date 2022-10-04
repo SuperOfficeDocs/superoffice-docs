@@ -42,7 +42,7 @@ To add a tile with sales targets to a dashboard:
 
     * Click the header of a tile and drag it to another position.
 
-8. In the dashboard, click the **Edit tile** icon (![icon][img6]) on the tile you have added.
+8. In the dashboard, click the **Edit tile** icon ![icon][img6] on the tile you have added.
 
 9. In the **Dataset** tab, set **Sale date** to this year, quarter or month. Edit the other [criteria][2] as necessary. Remember to update the tile name to reflect any changes made here.
 
@@ -74,8 +74,8 @@ To add a tile with sales targets to a dashboard:
 
 <!-- Referenced images -->
 [img1]: ../../../common/icons/az.png
-[img2]: ../../media/icons/dashboard/dashboard-tiletype-bignumbers.png
-[img3]: ../../media/icons/dashboard/dashboard-tiletype-bar.png
-[img4]: ../../media/icons/dashboard/dashboard-tiletype-column.png
-[img5]: ../../media/icons/dashboard/dashboard-tiletype-gauge.png
-[img6]: ../../media/icons/dashboard/dashboard-tile-edit.png
+[img2]: ../../../common/icons/big-numbers.png
+[img3]: ../../../common/icons/column-bar.png
+[img4]: ../../../common/icons/bar.png
+[img5]: ../../../common/icons/gauge.png
+[img6]: ../../../common/icons/edit-pen.png

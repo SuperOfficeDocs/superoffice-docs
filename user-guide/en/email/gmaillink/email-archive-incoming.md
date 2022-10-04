@@ -46,4 +46,4 @@ Click the link in the pop-up message to open the document in SuperOffice.
 [6]: archive-emails-as-requests.md
 
 <!-- Referenced images -->
-[img1]: ../../../media/icons/gmaillink/btn-archive.png
+[img1]: ../../../../common/icons/soarchive.png

@@ -64,7 +64,7 @@ This form will let your customers sign up for one or more newsletters. The sign-
 
 1. In the **Double opt-in** category, select **Enable double opt-in**.
 
-1. In the **Message** tab, enter the text to display after the form has been submitted. This message should inform the customer that they will receive an e-mail confirmation. Click **Show/hide toolbar** (![icon][img3]) to display formatting options for the text.
+1. In the **Message** tab, enter the text to display after the form has been submitted. This message should inform the customer that they will receive an e-mail confirmation. Click **Show/hide toolbar** ![icon][img3] to display formatting options for the text.
 
     <details><summary>Example</summmary>
     We will now send an email to the address you have registered in our form.
@@ -90,9 +90,9 @@ This form will let your customers sign up for one or more newsletters. The sign-
     The SuperShop Team
     </details>
 
-1. Click **Show/hide toolbar** (![icon][img3]) and then click **Insert confirm link** (![icon][img4]). The confirmation link is inserted in the body text.
+1. Click **Show/hide toolbar** ![icon][img3] and then click **Insert confirm link** ![icon][img4]. The confirmation link is inserted in the body text.
 
-1. Click the confirmation link, select **Edit link** (![icon][img5]), and change the link text to "Click here to confirm your e-mail address". The link is valid for 30 minutes by default.
+1. Click the confirmation link, select **Edit link** ![icon][img5], and change the link text to "Click here to confirm your e-mail address". The link is valid for 30 minutes by default.
 
 1. Click **Apply now** to save the form and continue editing.
 
@@ -118,7 +118,7 @@ This form will let your customers sign up for one or more newsletters. The sign-
 
 1. Click **Save**. The form is saved and the **Edit form** screen closes.
 
-1. Set the form to **Active** (![icon][img6]) in the header.
+1. Set the form to **Active** ![icon][img6] in the header.
 
 1. Go to the **Publish** tab.
 
@@ -179,7 +179,7 @@ In this example we will show you how to create short form for customers who want
 
 1. Click **Save**. The form is saved and the **Edit form** screen closes.
 
-1. Set the form to **Active** (![icon][img6]) in the header.
+1. Set the form to **Active** ![icon][img6] in the header.
 
 1. Go to the **Publish** tab.
 
@@ -204,6 +204,6 @@ In this example we will show you how to create short form for customers who want
 [img1]: ../../media/icons/marketing-and-forms/btn-field-add.png
 [img2]: ../../media/icons/marketing-and-forms/btn-field-move.png
 [img3]: ../../media/icons/marketing-and-forms/btn-editor-toolbar-showhide.png
-[img4]: ../../media/icons/marketing-and-forms/btn-confirmlink.png
-[img5]: ../../media/icons/marketing-and-forms/btn-editlink.png
+[img4]: ../../../common/icons/new-window-icon.png
+[img5]: ../../../common/icons/edit-black.png
 [img6]: ../../media/icons/marketing-and-forms/btn-form-active.png
