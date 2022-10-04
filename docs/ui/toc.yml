@@ -1,8 +1,11 @@
 items:
 - name: User interface
   topicHref: index.yml
-  expanded: true 
+  expanded: true
   items:
+  - name: Configurable screens
+    href: configurable-screens/toc.yml
+    topicHref: configurable-screens/index.md
   - name: Web application
     href: web-app/toc.yml
     topicHref: web-app/index.yml
