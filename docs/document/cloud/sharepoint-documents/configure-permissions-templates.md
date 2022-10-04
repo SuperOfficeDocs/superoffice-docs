@@ -13,17 +13,17 @@ so.client: online
 
 # How to set up SharePoint permissions for templates
 
-We recommend that you create a separate SharePoint document library on your “SuperOffice Document site” for your templates. If you do not use SharePoint to store your templates, you will need WebTools in order to edit the templates​.
+We recommend that you create a separate SharePoint document library on your SuperOffice Document site for your templates. If you do not use SharePoint to store your templates, you will need WebTools in order to edit the templates​.
 
 ## Permissions to the SharePoint document library for SuperOffice templates
 
 People who will edit the templates should have Permission level edit​. For instance, create a domain (AAD) group named template-editors​.
 
-All other users of SuperOffice Online must have Permission level Read. This is necessary because they must "read it" when creating document​.
+All other users of SuperOffice Online must have Permission level Read. This is necessary because they must read it when creating document​.
 
 All domain groups with access to the document library must be added to the template library​.
 
-If all users can edit templates, you don’t need to do anything – since you have already granted edit permissions on the site level.
+If all users can edit templates you don’t need to do anything, since you have already granted edit permissions on the site level.
 
 ## Step 1 – Select the SuperOffice template library​
 
@@ -85,11 +85,11 @@ If the groups do not exist or you need to add a group that can edit, see 3b.
 
         For normal users, not editors: Select a permission level **Read**.​
 
-      ![Invite people -screenshot][img9]
+        ![Invite people -screenshot][img9]
 
         For editors, members of your Template Editors: Select a permission level **Edit**.
 
-      ![Invite people -screenshot][img10]
+        ![Invite people -screenshot][img10]
 
     * When your done adding groups, press **Share**.
 

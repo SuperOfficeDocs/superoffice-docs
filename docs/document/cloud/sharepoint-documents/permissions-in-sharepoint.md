@@ -1,14 +1,14 @@
 ---
 title: Permissions in SharePoint
 uid: sharepoint-permissions
-description:
+description: About permissions in SharePoint​
 author: Bergfrid Dias
 so.date: 06.23.2022
 keywords: SharePoint, permission security, access control
-so.topic:
+so.topic: howto
 so.version:
-so.envir:
-so.client:
+so.envir: cloud
+so.client: online
 ---
 
 # About permissions in SharePoint​

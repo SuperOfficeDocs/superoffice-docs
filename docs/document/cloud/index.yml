@@ -36,16 +36,16 @@ landingContent:
             url: sharepoint-documents/requirements.md
       - linkListType: how-to-guide
         links:
-          - text: SharePoint site and libraries set up
+          - text: Set up SharePoint site and libraries
             url: sharepoint-documents/set-up.md
-          - text: SuperOffice Admin configuration
+          - text: Configure settings in SuperOffice Admin
             url: sharepoint-documents/configure-superoffice.md
-          - text: SharePoint permissions for documents
+          - text: Set up SharePoint permissions for documents
             url: sharepoint-documents/configure-permissions-documents.md
-          - text: SharePoint permissions for templates
+          - text: Set up SharePoint permissions for templates
             url: sharepoint-documents/configure-permissions-templates.md
           - text: Permissions for SuperOffice integration application
-            url: sharepoint-documents/permissions-app.md            
+            url: sharepoint-documents/permissions-app.md
           - text: Troubleshooting
             url: sharepoint-documents/troubleshooting.md
 

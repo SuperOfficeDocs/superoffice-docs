@@ -1,6 +1,6 @@
 ---
-title: Configure templates
-uid: sharepoint-configure
+title: How to configure settings in SuperOffice Admin
+uid: configure-superoffice-admin
 description: How to configure document templates for SharePoint Documents
 author: Bergfrid Dias
 so.date: 06.20.2022
@@ -42,18 +42,18 @@ The wizard has four steps:​
 
 ### ​SuperOffice documents - location, folders and filenames​
 
-* Site in SharePoint: Just choose your site from the dropdown. You must have permission level Owner to be able to select one site?​
-* Document library: Select from the drop-down​
-* Folder structure: You can select between​ User group, Author, Template type, Company name and project​
-* You can also organize the folders in Yearly subfolder​
-* Filename: Select between Heading or Heading - Company name​
+* Site in SharePoint: Just choose your site from the dropdown. You must have permission level Owner to be able to select a site.
+* Document library: Select from the drop-down​.
+* Folder structure: You can select between​ User group, Author, Template type, Company name and Project​.
+* You can also organize the folders in Yearly subfolder​.
+* File name: Select between Heading or Heading - Company name​.
 
-### SuperOffice document templates – Location​
+### SuperOffice document templates
 
 > [!NOTE]
-> We recommend that you Use SharePoint to store your new document templates, then you will be able to use Office Online to edit them​.
+> We recommend that you use SharePoint to store your new document templates, then you will be able to use Microsoft 365 online to edit them​.
 
-* Just select Site in SharePoint and Document library from the dropdowns​
+* Just select Site in SharePoint and Document library from the dropdowns​.
 
   ![SuperOffice document templates – Location​ -screenshot][img2]
 
@@ -61,7 +61,7 @@ The wizard has four steps:​
 
 Select **SuperOffice documents fields** to transfer as SharePoint document properties​.
 
-We recommend that you select all here. These fields will appear as columns in your SharePoint Document Library​.
+We recommend that you select all here. These fields will appear as columns in your SharePoint document library​.
 
 * Based on these fields you can create views in your SharePoint document library​. And you can choose to hide some of these fields there​.
 
@@ -116,7 +116,7 @@ See the [reference of permissions in SharePoint​][1] for more information.
 ​    ![Review and confirm -screenshot][img8]
 
 > [!CAUTION]
-> When you have confirmed **you will not be able to change the Site in SharePoint and Document Library settings**.
+> When you have confirmed **you will not be able to change the Site in SharePoint and Document library settings**.
 
 <!-- Referenced links -->
 [1]: permissions-in-sharepoint.md
