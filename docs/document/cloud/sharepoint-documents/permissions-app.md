@@ -1,9 +1,9 @@
 ---
 title: Permissions of SuperOffice integration app
-uid: permissions_app
-description:
-author: {github-id} # Your GitHub alias.
-so.date: 12.09.2022
+uid: permissions-app
+description: Permissions of SuperOffice integration app
+author: Martin Pavlas
+so.date: 09.12.2022
 keywords: permission, integration, app
 so.topic: reference
 so.envir: cloud

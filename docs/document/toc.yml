@@ -13,9 +13,8 @@ items:
       - name: Requirements
         href: cloud/sharepoint-documents/requirements.md
       - name: Set up SharePoint
+        href: cloud/sharepoint-documents/set-up.md
         items:
-        - name: SharePoint site and libraries
-          href: cloud/sharepoint-documents/set-up.md
         - name: About permissions in SharePoint
           href: cloud/sharepoint-documents/permissions-in-sharepoint.md
         - name: Permissions for documents
