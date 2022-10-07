@@ -69,4 +69,4 @@ To create a new email filter:
 [3]: ../../../request/reply-templates/autofaq.md
 
 <!-- Referenced images -->
-[img1]: ../../../../media/icons/admin/btn-delete-admin.png
+[img1]: ../../../../../common/icons/delete-circle-red.png

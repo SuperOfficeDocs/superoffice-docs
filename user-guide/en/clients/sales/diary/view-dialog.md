@@ -74,8 +74,8 @@ Closes the dialog without saving changes.
 [6]: ../../../search-options/using-fastsearcher.md
 
 <!-- Referenced images -->
-[img2]: ../../../../media/icons/pil-hoeyre.bmp
-[img3]: ../../../../media/icons/pil-venstre.bmp
+[img2]: ../../../../media/icons/arrow-right.png
+[img3]: ../../../../media/icons/arrow-left.png
 [img4]: ../../../../media/icons/merk-alle.bmp
 [img5]: ../../../../media/icons/velg-bort-alle.bmp
 [img6]: ../../../../media/icons/pil-opp.bmp

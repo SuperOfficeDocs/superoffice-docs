@@ -65,7 +65,7 @@ In the **Appointment**, **Task** or **Phone call** dialog, the text next to the 
 [4]: index.md
 
 <!-- Referenced images -->
-[img2]: ../../../media/icons/pil-hoeyre.bmp
+[img2]: ../../../media/icons/arrow-right.png
 [img3]: ../../../media/icons/pil-ned.bmp
 [img4]: ../../../media/icons/pil-opp.bmp
 [img5]: ../../../media/icons/kalender-pil-venstre.bmp

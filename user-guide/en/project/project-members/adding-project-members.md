@@ -76,4 +76,4 @@ You do this as follows:
 
 <!-- Referenced images -->
 [img1]: ../../../media/icons/binders.bmp
-[img2]: ../../../media/icons/pil-hoeyre.bmp
+[img2]: ../../../media/icons/arrow-right.png

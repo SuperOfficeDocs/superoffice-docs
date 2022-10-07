@@ -37,4 +37,4 @@ You can export all section tabs containing records in SuperOffice CRM to an Exce
 
 <!-- Referenced images -->
 [img1]: ../../../media/icons/globalmenu-personalsettings-small.png
-[img2]: ../../../media/icons/excel-export.bmp
+[img2]: ../../../../common/icons/archive-icon.png

@@ -3,5 +3,5 @@
 * To remove a right, select one or more rights in the **This role can** field, and click the left arrow ( ![icon][img2] ).
 
 <!-- Referenced images -->
-[img1]: ../../../../media/icons/pil-hoeyre.bmp
-[img2]: ../../../../media/icons/pil-venstre.bmp
+[img1]: ../../../../media/icons/arrow-right.png
+[img2]: ../../../../media/icons/arrow-left.png
