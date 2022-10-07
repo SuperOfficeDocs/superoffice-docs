@@ -37,4 +37,4 @@ If these two criteria are met, you can delete companies as follows:
 [1]: delete-user.md
 
 <!-- Referenced images -->
-[img1]: ../../media/icons/admin/knapp-systemvalg-liten.bmp
+[img1]: ../../../common/icons/pref-system-active.png

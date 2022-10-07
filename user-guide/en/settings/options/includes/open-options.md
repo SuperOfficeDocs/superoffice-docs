@@ -2,4 +2,4 @@
 Click the **Options** button in the Navigator (![icon][img1]).
 
 <!-- Referenced images -->
-[img1]: ../../../../media/icons/admin/knapp-systemvalg-liten.bmp
+[img1]: ../../../../../common/icons/pref-system-active.png

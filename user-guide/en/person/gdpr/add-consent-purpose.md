@@ -59,4 +59,4 @@ To create a new purpose:
 
 <!-- Referenced images -->
 [img1]: ../../../../common/icons/az.png
-[img2]: ../../../media/icons/admin/knapp-privacy-small.png
+[img2]: ../../../../common/icons/nav-admin-privacy-active.png

@@ -4,4 +4,4 @@
 1. Select the **Free text search** tab.
 
 <!-- Referenced images -->
-[img1]: ../../../../media/icons/admin/knapp-systemvalg-liten.bmp
+[img1]:  ../../../../../common/icons/pref-system-active.png

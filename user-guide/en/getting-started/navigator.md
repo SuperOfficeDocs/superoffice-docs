@@ -139,7 +139,6 @@ If you hold the mouse pointer over a record in any the lists, a tooltip is displ
 
 <!-- Referenced images -->
 [img2]: media/navigator-preview-sales.png
-[img32]: media/navigator-preview-service.png
 
 [img3]: ../../../common/icons/nav-dashboard-h32.png
 [img4]: ../../../common/icons/nav-company-h32.png
@@ -154,15 +153,16 @@ If you hold the mouse pointer over a record in any the lists, a tooltip is displ
 [img13]: ../../../common/icons/nav-marketing-h32.png
 [img14]: ../../../common/icons/nav-cs-h32.png
 [img15]: ../../../common/icons/nav-tools-h32.png
+
+[img21]: ../../../common/icons/left-collapse.png
+[img22]: ../../../common/icons/left-expand.png
 [img23]: ../../../common/icons/nav-history.png
 [img24]: ../../../common/icons/favourite-icon.png
 [img25]: ../../../common/icons/nav-search.png
 [img26]: ../../../common/icons/nav-list.png
 
-[img21]: ../../../common/icons/left-collapse.png
-[img22]: ../../../common/icons/left-expand.png
-
 [img31]: ../../../common/icons/nav-marketing-h32.png
+[img32]: media/navigator-preview-service.png
 [img33]: ../../../common/icons/nav-cs-h32.png
 [img34]: ../../../common/icons/nav-company-h32.png
 [img35]: ../../../common/icons/nav-selection-h32.png
@@ -171,23 +171,23 @@ If you hold the mouse pointer over a record in any the lists, a tooltip is displ
 [img39]: ../../../common/icons/nav-chat-h32.png
 
 [img41]: ../../../common/icons/nav-admin-chat-active-h32.png
-[img42]: ../../media/icons/admin/knapp-lisenser.bmp
-[img43]: ../../media/icons/admin/knapp-brukere.bmp
-[img44]: ../../media/icons/admin/knapp-rolle.bmp
-[img45]: ../../media/icons/admin/knapp-privacy.png
-[img46]: ../../media/icons/admin/knapp-saint.bmp
-[img47]: ../../media/icons/admin/knapp-ai.png
-[img48]: ../../media/icons/admin/knapp-lister.bmp
-[img49]: ../../media/icons/admin/knapp-quotesync.bmp
+[img42]: ../../../common/icons/nav-admin-licenses-active-h32.png
+[img43]: ../../../common/icons/nav-admin-users-active-h32.png
+[img44]: ../../../common/icons/nav-admin-roles-active-h32.png
+[img45]: ../../../common/icons/nav-admin-privacy-active-h32.png
+[img46]: ../../../common/icons/nav-admin-saint-active-h32.png
+[img47]: ../../../common/icons/nav-ai-services-active-h32.png
+[img48]: ../../../common/icons/nav-admin-lists-active-h32.png
+[img49]: ../../../common/icons/nav-admin-products-active-h32.png
 
-[img50]: ../../media/icons/admin/knapp-arbeidsflyt.bmp
-[img51]: ../../media/icons/admin/knapp-screendesigner.png
-[img52]: ../../media/icons/admin/knapp-preferanser.bmp
-[img53]: ../../media/icons/admin/knapp-systemvalg.bmp
-[img54]: ../../media/icons/admin/knapp-import.bmp
-[img55]: ../../media/icons/admin/knapp-felt.bmp
-[img56]: ../../media/icons/admin/knapp-crmscript.bmp
-[img57]: ../../media/icons/admin/knapp-requests.png
-[img58]: ../../media/icons/admin/knapp-customercentre.png
-[img59]: ../../media/icons/admin/knapp-systemdesign.png
-[img60]: ../../media/icons/admin/knapp-appstore.png
+[img50]: ../../../common/icons/nav-admin-workflow-active-h32.png
+[img51]: ../../../common/icons/nav-admin-confscreen-active-h32.png
+[img52]: ../../../common/icons/nav-admin-preferences-active-h32.png
+[img53]: ../../../common/icons/pref-system-active-h32.png
+[img54]: ../../../common/icons/nav-admin-import-active-h32.png
+[img55]: ../../../common/icons/nav-admin-fields-active-h32.png
+[img56]: ../../../common/icons/nav-admin-crmscript-active-h32.png
+[img57]: ../../../common/icons/nav-admin-requests-active-h32.png
+[img58]: ../../../common/icons/nav-admin-custcenter-active-h32.png
+[img59]: ../../../common/icons/nav-admin-systemdesign-active-h32.png
+[img60]: ../../../common/icons/nav-admin-appstore-h32.png

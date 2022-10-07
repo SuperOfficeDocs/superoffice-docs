@@ -97,4 +97,4 @@ When you add an item to the **GUI - Application** list in Settings and maintenan
 
 <!-- Referenced images -->
 [img1]: ../../../media/icons/btn-menu.png
-[img2]: ../../../media/icons/admin/knapp-verktoey-liten.bmp
+[img2]: ../../../../common/icons/nav-tools.png
