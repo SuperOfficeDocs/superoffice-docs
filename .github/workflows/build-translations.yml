@@ -1,0 +1,108 @@
+# Workflow for copying modified files on main to language folders,
+# and generating publishing ZIP files containing just the changes
+name: Create named translation branch
+
+on:
+  # Runs manually
+  workflow_dispatch:
+    inputs:
+      name:
+        description: 'Translation Name'
+        required: true
+        type: string
+      sinceWhen:
+        description: 'Include all changes since When'
+        required: true
+        default: '2 weeks ago'
+        type: string
+
+        
+# Sets permissions of the GITHUB_TOKEN to allow creation of new branch with translations
+permissions:
+  contents: write
+  issues: write
+  deployments: write
+  id-token: write
+
+# Allow one concurrent deployment
+concurrency:
+  group: "translations"
+  cancel-in-progress: true
+
+jobs:
+  # Single build job since we're just copying some files around
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+        with:
+          ref: 351-migrate-en-user-and-admin-help
+          # ref: main
+
+      - name: Create en-changes zip
+        shell: pwsh
+        run: Build/Copy-Changed-Files-To-Translations.ps1 "${{ inputs.name }}" "${{ inputs.sinceWhen }}"
+
+      - name: Upload en-changes artifact
+        uses: actions/upload-artifact@v3
+        with:
+          name: Translate-${{ inputs.name }}-en-changes
+          # Upload changes file
+          path: 'translate-${{ inputs.name }}-en-changes.zip'
+
+      - name: Clean up en-changes zip
+        shell: pwsh
+        run: |
+          del ./translate-${{ inputs.name }}-en-changes.zip
+
+      - name: Create and push new branch
+        uses: EndBug/add-and-commit@v9
+        with:
+          # The arguments for the `git add` command (see the paragraph below for more info)
+          # Default: '.'
+          add: 'user-guide'
+
+          # The name of the user that will be displayed as the author of the commit.
+          # Default: depends on the default_author input
+          author_name: Translate Workflow
+
+          # The email of the user that will be displayed as the author of the commit.
+          # Default: depends on the default_author input
+          author_email: mail@example.com
+
+          # Additional arguments for the git commit command. The --message argument is already set by the message input.
+          # Default: ''
+          commit: --signoff
+
+          # The name of the custom committer you want to use, if different from the author of the commit.
+          # Default: the name of the author (set with either author_name or default_author)
+          committer_name: Translate Workflow
+
+          # The email of the custom committer you want to use, if different from the author of the commit.
+          # Default: the email of the author (set with either author_email or default_author)
+          committer_email: mail@example.com
+
+          # The local path to the directory where your repository is located. You should use actions/checkout first to set it up.
+          # Default: '.'
+          # cwd: './path/to/the/repo'
+
+          # Determines the way the action fills missing author name and email. Three options are available:
+          # - github_actor -> UserName <UserName@users.noreply.github.com>
+          # - user_info -> Your Display Name <your-actual@email.com>
+          # - github_actions -> github-actions <email associated with the github logo>
+          # Default: github_actor
+          default_author: github_actor
+
+          # Arguments for the git fetch command. If set to false, the action won't fetch the repo.
+          # For more info as to why fetching is usually recommended, please see the "Performance on large repos" FAQ. 
+          # Default: --tags --force
+          fetch: false
+
+          # The message for the commit.
+          # Default: 'Commit from GitHub Actions (name of the workflow)'
+          message: 'New branch: translate_${{ inputs.name }}'
+
+          # If this input is set, the action will push the commit to a new branch with this name.
+          # Default: ''
+          new_branch: translate_${{ inputs.name }}

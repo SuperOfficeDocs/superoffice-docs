@@ -40,9 +40,9 @@ A self-service UI to provision and configure SharePoint as SO repository from Su
 * Work with SuperOffice documents from any device.
 
 * Advanced data access options (Visible for...)
-  * Visible for me - private in Sharepoint
-  * Visible for all - default access rights from Sharepoint
-  * Visible for group - private in Sharepoint
+  * Visible for me - private in SharePoint
+  * Visible for all - default access rights from SharePoint
+  * Visible for group - private in SharePoint
 
   > [!NOTE]
   > You need **Global Admin** rights in Microsoft 365 to be able to authenticate SuperOffice as a trusted app in your Microsoft 365 solution.

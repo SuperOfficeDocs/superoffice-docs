@@ -115,7 +115,7 @@ This selection will fail if SuperOffice 'content types' are not set up in ShareP
 ![Edit list item -screenshot][img12]
 
 1. Open Microsoft 365, and log in as an admin user, go to "Microsoft 365 admin center".
-2. Go to Sharepoint under "Admin centers".
+2. Go to SharePoint under "Admin centers".
 3. Open "Active sites", and open the root area – by clicking the link `https://[your_domain_name].sharepoint.com` from the list.
 4. Click the settings wheel-> Site Settings -> Site Content Types.
 
@@ -208,7 +208,7 @@ Since we’re not in Office Store, we have to do this manually:
 
 ### To use the App on your SharePoint site - Add the App to the site
 
-1. Go back to Grup Area: Open the Root area – by opening the link `https://[your_domain_name].sharepoint.com` from the **Sharepoint admin centre** menu by clicking the link `https://[your_domain_name].sharepoint.com` from the list
+1. Go back to Grup Area: Open the Root area – by opening the link `https://[your_domain_name].sharepoint.com` from the **SharePoint admin centre** menu by clicking the link `https://[your_domain_name].sharepoint.com` from the list
 
 2. Click **Site contents** in the menu:
 

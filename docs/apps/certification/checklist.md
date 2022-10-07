@@ -51,8 +51,6 @@ My application is ready, what should I consider before I ask for a certification
 * Never rename the **owner company** (`contact.name` field for the company with `contact_id` found in the Company database table). If you do, our license check fails and all users are locked out!
 * Persons may be associates - if they have a row in the associate table then
   * don't update a person's company (`person.contact_id`)
-  * don't update a person's email address **if the customer is not yet using SuperID**
-  * don't add the same email address to multiple persons who are associates **if the customer is not yet using SuperID**
 
 [!include[ALT](../includes/protect-database.md)]
 

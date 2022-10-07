@@ -127,12 +127,18 @@ items:
       href: searchengine/using-the-searchengine-class-blog-post.md
 - name: Tutorials
   items:
+  - name: Random requests
+    href: tutorials/creating-lots-of-random-requests.md
   - name: Script-based selections
     href: tutorials/script-based-selections.md
   - name: Udef agent
     href: tutorials/udef-agent.md
   - name: Build custom rest API methods
     href: tutorials/build-custom-rest-api-methods.md
+  - name: StatLib for reporting
+    href: tutorials/using-crmscript-statlib-for-reporting.md
+  - name: Waiting for customer reminder
+    href: tutorials/waiting-for-customer-status-with-reminders.md
 - name: Reference
   href: reference/toc.yml
   topicHref: reference/index.md
