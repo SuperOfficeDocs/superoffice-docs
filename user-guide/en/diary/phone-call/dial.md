@@ -19,7 +19,7 @@ You do this using the telephone button in, for example, the **Appointment**, **T
 
 1. Open an appointment, task, phone call or document.
 2. Select the required contact in the **Contact** field in the dialog.
-3. Click the button next to the contact field ( ![icon][img1] ). A list of numbers for the selected contact is displayed.
+3. Click the button next to the contact field ![icon][img1]. A list of numbers for the selected contact is displayed.
 4. Select the number you want to call. The contact is then dialled.
 
 ## Call from section tabs (to contacts, selection members, stakeholders, participants)
@@ -31,4 +31,4 @@ You do this using the telephone button in, for example, the **Appointment**, **T
 [1]: preferences.md
 
 <!-- Referenced images -->
-[img1]: ../../../media/icons/dialogboksknapper-telefon.bmp
+[img1]: ../../../../common/icons/phone.png

@@ -48,4 +48,4 @@ The available parameters are as follows:
 [2]: ../../document/template-variables.md
 
 <!-- Referenced images -->
-[img1]: ../../../media/icons/dialogboksknapper-telefon.bmp
+[img1]: ../../../../common/icons/phone.png

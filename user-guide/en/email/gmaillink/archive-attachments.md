@@ -18,7 +18,7 @@ If the attachment is the only part of the email you would like to keep for futur
 2. Hold the mouse-pointer over the attachment you want to archive.
     ![icon][img1]
 
-3. Click the SuperOffice icon (![icon][img2]). The dialog **Archive attachment as a SuperOffice document** opens.
+3. Click the SuperOffice icon ![icon][img2]. The dialog **Archive attachment as a SuperOffice document** opens.
 
     If the sender of the email is not listed in SuperOffice CRM, a warning will appear at the top of the dialog. See [Handling emails from senders not registered in SuperOffice][1]. A warning also appears if the sender is registered on multiple companies in SuperOffice CRM. See [Handling emails from senders with several listings][2].
 

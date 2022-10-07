@@ -47,5 +47,5 @@ The product list: If products have been added to the quote, they are shown in th
 [8]: quote-dlg-edit-quote.md
 
 <!-- Referenced images -->
-[img1]: ../../../../media/icons/quote-favorite-active.png
-[img2]: ../../../../media/icons/quote-favorite-inactive.png
+[img1]: ../../../../../common/icons/favourite-yes.png
+[img2]: ../../../../../common/icons/favourite-no.png

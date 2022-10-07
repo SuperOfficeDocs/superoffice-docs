@@ -28,7 +28,7 @@ The main section contains the following essential information about the document
 
 ### Document template
 
-Click the arrow (![icon][img1]) next to the type field at the top of the dialog to display a list of document templates that you can choose from. The available templates are defined in SuperOffice Settings and maintenance. Here you can also use [FastSearcher][6].
+Click the arrow ![icon][img1] next to the type field at the top of the dialog to display a list of document templates that you can choose from. The available templates are defined in SuperOffice Settings and maintenance. Here you can also use [FastSearcher][6].
 
 > [!NOTE]
 > The templates may have been created in various programs, for example, Word or Excel, so when you [create a document][5], the template is opened in the program it was created in. This means, for example, that DOCX files will open in Word.
@@ -152,7 +152,7 @@ This tab displays any [user-defined fields][3] configured in SuperOffice Setting
 [3]: ../../../custom-objects/udef/index.md
 
 <!-- Referenced images -->
-[img1]: ../../../../media/icons/dialogboksknapper-pil-ned.bmp
+[img1]: ../../../../../common/icons/dropdown-icon.png
 [img2]: ../../../../media/icons/documentlock-editing.png
 [img3]: ../../../../media/icons/documentlock-locked.png
 [img4]: ../../../../media/icons/followup-completed-small.png

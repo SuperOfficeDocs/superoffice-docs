@@ -44,7 +44,7 @@ To filter the information displayed in the **Activities** and **Sales** section 
 
 7. When you have chosen a time interval, group(s) and associate(s), click **OK**. The **Activities** or **Sales** section tabs will then show all activities or sales that match the criteria you specified in the **Filter** dialog.
 
-Hold the mouse pointer over the **Filter** button ( ![icon][img1] ) to display the active filter settings.
+Hold the mouse pointer over the **Filter** button ![icon][img1] to display the active filter settings.
 
 > [!NOTE]
 > In the **Activities** tab, you can also use pre-defined filters for documents, follow-ups, chats/forms (other) and mailings. See [Use filters in the section tabs][2].
@@ -62,4 +62,4 @@ Click **Show count** at the bottom right of the section tab, to see how many rec
 [3]: sections-tabs-grouping-lists.md
 
 <!-- Referenced images -->
-[img1]: ../../../media/icons/filter.bmp
+[img1]: ../../../../common/icons/filter-icon.png

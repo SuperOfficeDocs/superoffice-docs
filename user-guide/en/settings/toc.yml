@@ -13,6 +13,11 @@ items:
   href: personal-settings/toc.yml
 - name: System settings in Service
   href: in-service/toc.yml
+- name: System events
+  href: system-events.md
+  items:
+  - name: Add
+    href: add-system-event.md
 - name: How to...
   items:
   - name: Configure SOAP interface

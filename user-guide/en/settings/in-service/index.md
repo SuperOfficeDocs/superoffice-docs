@@ -37,7 +37,7 @@ In this section of SuperOffice Service, you can configure the system to tailor i
 <!-- Referenced links -->
 [1]: ../../ui/service-screens/listprofiles.md
 [2]: ../../user-management/role/index.md
-[3]: ../../user-management/in-service/index.md
+[3]: ../../user-management/index.md
 [4]: ../../request/category/index.md
 [5]: ../../request/priority/index.md
 [6]: ../../request/status/index.md

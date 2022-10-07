@@ -17,7 +17,7 @@ This is done by adding field identifiers and template variables to the form link
 
 1. [Create a new form][1].
 
-2. For each field you want to be pre-filled: Click **Advanced options** (![icon][img1]) to display the **Identifier** field, where you can add an ID for the field. This will be a unique ID for this field, and will not change even if the field name/label or the language changes. This way you can ensure that links to this field are not broken after publishing the form.
+2. For each field you want to be pre-filled: Click **Advanced options** ![icon][img1] to display the **Identifier** field, where you can add an ID for the field. This will be a unique ID for this field, and will not change even if the field name/label or the language changes. This way you can ensure that links to this field are not broken after publishing the form.
 
 3. [Publish forms][2].
 
@@ -43,4 +43,4 @@ This is done by adding field identifiers and template variables to the form link
 [3]: ../request/reply-templates/template-variables.md
 
 <!-- Referenced images -->
-[img1]: ../../media/icons/marketing-and-forms/btn-field-advancedoptions.png
+[img1]: ../../../common/icons/cog-wheel.png

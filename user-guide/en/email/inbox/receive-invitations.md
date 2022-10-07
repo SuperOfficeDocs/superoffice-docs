@@ -42,5 +42,5 @@ The message is removed from the inbox, and the appointment is added to you diary
 [1]: ../../clients/sales/document/document-dialog.md
 
 <!-- Referenced images -->
-[img1]: ../../../media/icons/inbox/attachment.png
-[img2]: ../../../media/icons/inbox/invitation.png
+[img1]: ../../../../common/icons/attachments-black.png
+[img2]: ../../../../common/icons/appointments-black.png

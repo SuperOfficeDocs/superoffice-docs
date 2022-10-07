@@ -49,7 +49,7 @@ Everywhere you are able to enter search criteria, you will find a criteria list 
 
         [!include[Search criteria](../includes/list-date-criteria.md)]
 
-        Select the required option. Depending on what you select, the field at the far right of the line is automatically filled with a date or date range, or you can enter the date you want. You can also select a date in the calendar which is displayed when you click the arrow button ( ![icon][img1] ).
+        Select the required option. Depending on what you select, the field at the far right of the line is automatically filled with a date or date range, or you can enter the date you want. You can also select a date in the calendar which is displayed when you click the arrow button ![icon][img1].
 
     </details>
 
@@ -151,6 +151,6 @@ The criteria lists contain a set of default criteria you can edit or remove as r
 [2]: using-fastsearcher.md
 
 <!-- Referenced images -->
-[img1]: ../../media/icons/dialogboksknapper-pil-ned.bmp
+[img1]: ../../../common/icons/dropdown-icon.png
 [img2]: ../../media/icons/criteria-move.png
 [img3]: ../../../common/icons/delete-circle-red.png

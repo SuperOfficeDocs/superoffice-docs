@@ -23,4 +23,4 @@ This feature allows you to quickly add a task in SuperOffice CRM based on the se
 <!-- Referenced links -->
 
 <!-- Referenced images -->
-[img1]: ../../../media/icons/inbox/web-email-archive-small.bmp
+[img1]: ../../../../common/icons/archive-icon.png

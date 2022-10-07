@@ -40,7 +40,7 @@ Fill in the fields below, click **Create** and compose the email as described ab
 
 | Field | Description |
 |---|---|
-| Document template | Click the arrow ( ![icon][img2] ) next to the type field at the top of the dialog to display a list of document templates that you can choose from. The available templates are defined in SuperOffice Settings and maintenance. |
+| Document template | Click the arrow ![icon][img2] next to the type field at the top of the dialog to display a list of document templates that you can choose from. The available templates are defined in SuperOffice Settings and maintenance. |
 | Company | Enter here the name of the company you are writing to. |
 | Contact | Click the arrow next to this field and a list of known contacts in the company is displayed. |
 | Project | Enter the name of the project that the email should be linked to. |
@@ -54,4 +54,4 @@ Fill in the fields below, click **Create** and compose the email as described ab
 
 <!-- Referenced images -->
 [img1]: ../../../media/icons/globalmenu-personalsettings-small.png
-[img2]: ../../../media/icons/dialogboksknapper-pil-ned.bmp
+[img2]: ../../../../common/icons/dropdown-icon.png

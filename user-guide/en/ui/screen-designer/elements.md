@@ -90,4 +90,4 @@ Buttons work similarly to links. You can add links for looking up information in
 [6]: ../../automation/index.md
 
 <!-- Referenced images -->
-[img1]: ../../../media/icons/translate.png
+[img1]: ../../../../common/icons/az.png

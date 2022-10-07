@@ -18,11 +18,11 @@ You can move a contact from one company to another. If a contact has been set up
 Proceed as follows to move a contact to another company:
 
 1. In the **Company** screen: Go to the **Contacts** section tab, right-click the contact you want to move, select **Manage contacts** and **Move contact**.
-    In the **Contact** screen: Go to the required contact, click the **Task** button (![icon][img2]) in the contact card, and select **Manage contacts** and **Move contact**.
+    In the **Contact** screen: Go to the required contact, click the **Task** button ![icon][img2] in the contact card, and select **Manage contacts** and **Move contact**.
     This opens the **Move contact** dialog.
 
 1. Under **Action on contact**, select one of the following options:
-    * Select **Move to** and choose the company you want to move the contact to. Use [FastSearcher][1], [The History list][2] or [Find][3] ( ![icon][img3] ).
+    * Select **Move to** and choose the company you want to move the contact to. Use [FastSearcher][1], [The History list][2] or [Find][3] ![icon][img3].
     * Select **Disconnect from &lt;company&gt;**.
 
 [!include[Select action](../includes/select-action-on-activity.md)]
@@ -42,4 +42,4 @@ Proceed as follows to move a contact to another company:
 
 <!-- Referenced images -->
 [img2]: ../../media/icons/btn-menu.png
-[img3]: ../../media/icons/globalmenu-search.png
+[img3]: ../../../common/icons/search-icon-black.png

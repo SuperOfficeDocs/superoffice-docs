@@ -13,7 +13,7 @@ language: en
 
 In the dialog **SuperOffice Gmail Link - Settings** you can set archive, general and account options and show version information about SuperOffice Mail Link.
 
-Open the **SuperOffice Gmail Link - Settings** dialog by clicking the SuperOffice icon ( ![icon][img1] ) in the top-right corner of your browser.
+Open the **SuperOffice Gmail Link - Settings** dialog by clicking the SuperOffice icon ![icon][img1] in the top-right corner of your browser.
 
 ## Always show the archive dialog
 
@@ -26,9 +26,9 @@ In some cases the dialog **Archive email in SuperOffice** will always be display
 
 ## Include non email templates in template list
 
-Checked (![icon][img2]): All document templates will be displayed in the **Type** list in the dialog **Archive email in SuperOffice**.
+Checked ![icon][img2]: All document templates will be displayed in the **Type** list in the dialog **Archive email in SuperOffice**.
 
-Unchecked (![icon][img3]): Only document templates of the type **Email** will be displayed.
+Unchecked ![icon][img3]: Only document templates of the type **Email** will be displayed.
 
 ## Default outgoing email template
 
@@ -64,6 +64,6 @@ Click this button to connect to another SuperOffice installation. Follow the ons
 [5]: archive-emails-as-activities.md
 
 <!-- Referenced images -->
-[img1]: ../../../media/icons/gmaillink/icon.png
+[img1]: ../../../../common/icons/soarchive.png
 [img2]: ../../../media/icons/gmaillink/checkbox-selected.png
 [img3]: ../../../media/icons/gmaillink/checkbox-unselected.png

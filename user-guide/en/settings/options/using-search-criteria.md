@@ -41,7 +41,7 @@ In the list box, select the field you want to search for information in. The fie
 
     [!include[Search criteria](../../includes/list-date-criteria.md)]
 
-    Select the option you require and then enter the required date in the date field, or select a date in the calendar that appears when you click the arrow button ( ![icon][img3] ) to the right of the date field.
+    Select the option you require and then enter the required date in the date field, or select a date in the calendar that appears when you click the arrow button ![icon][img3] to the right of the date field.
 
     </details>
 
@@ -142,10 +142,17 @@ If you want to change a search criterion in the **Find** dialog, click it and se
 [1]: ../../sale/admin/sale-amount-class.md
 
 <!-- Referenced images -->
+<<<<<<< HEAD
 [img1]: ../../../media/icons/arrow-right.png
 [img2]: ../../../media/icons/arrow-left.png
 [img3]: ../../../media/icons/dialogboksknapper-pil-ned.bmp
 [img4]: ../../../media/icons/merk-alle.bmp
+=======
+[img1]: ../../../media/icons/pil-hoeyre.bmp
+[img2]: ../../../media/icons/pil-venstre.bmp
+[img3]: ../../../../common/icons/dropdown-icon.png
+[img4]: ../../../media/icons/admin/velg-alle.bmp
+>>>>>>> 0449fcaef56dfc56fbe6c477b94d51bbec050735
 [img5]: ../../../media/icons/admin/status-aktiv.bmp
 [img6]: ../../../media/icons/admin/status-inaktiv.bmp
 [img7]: ../../../media/icons/admin/saint-counter-company.bmp

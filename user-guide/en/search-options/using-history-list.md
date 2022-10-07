@@ -15,12 +15,12 @@ In several places in SuperOffice CRM, the history list makes it easy to access t
 
 You can use the history list in different ways:
 
-* Directly from the Navigator ( ![icon][img2] ) to go to the required company, contact, sale, project or selection.
+* Directly from the Navigator ![icon][img2] to go to the required company, contact, sale, project or selection.
 * From dialogs containing the fields for companies, contacts, sales and projects, for example, the **Appointment** and **Document** dialogs, to link to the appointment or document.
 
 ## Using the history list in the Navigator
 
-1. Click the word **Company**, **Contact**, **Sale**, **Project** or **Selection** in the Navigator on the left of the window. An empty field is displayed at the top (this is used for FastSearcher). The history list ( ![icon][img2] ) is displayed underneath this.
+1. Click the word **Company**, **Contact**, **Sale**, **Project** or **Selection** in the Navigator on the left of the window. An empty field is displayed at the top (this is used for FastSearcher). The history list ![icon][img2] is displayed underneath this.
 2. Click the company, contact, sale, project or selection you want to view.
 
 > [!TIP]
@@ -29,7 +29,7 @@ You can use the history list in different ways:
 ## Using the history list in dialogs
 
 1. Open the relevant dialog.
-2. Click the arrow ( ![icon][img3] ) next to the company, contact, sale, selection or project field. This brings up the history list.
+2. Click the arrow ![icon][img3] next to the company, contact, sale, selection or project field. This brings up the history list.
 3. Click the required company, contact, sale, selection or project to link to the record.
 
 > [!NOTE]
@@ -40,5 +40,5 @@ You can use the history list in different ways:
 
 <!-- Referenced images -->
 [img1]: ../../media/icons/globalmenu-personalsettings-small.png
-[img2]: ../../media/icons/navigator-history-small.png
-[img3]: ../../media/icons/dialogboksknapper-pil-ned.bmp
+[img2]: ../../../common/icons/nav-history.png
+[img3]: ../../../common/icons/dropdown-icon.png

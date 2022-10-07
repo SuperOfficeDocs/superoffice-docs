@@ -75,7 +75,7 @@ If you check **All day**, the time of the appointment is set to the period speci
 
 ### Location
 
-Here you choose the address where the follow-up will take place. By default, this field is empty, but if you click the arrow (![icon][img2]) next to the field, two entries are displayed in a list box. One is the user's company and the other is the company that is to be followed up. If you have specified a resource of type **Location** as a participant in the **Participants** tab, e.g. a meeting room, the resource is also displayed in this list box.
+Here you choose the address where the follow-up will take place. By default, this field is empty, but if you click the arrow ![icon][img2] next to the field, two entries are displayed in a list box. One is the user's company and the other is the company that is to be followed up. If you have specified a resource of type **Location** as a participant in the **Participants** tab, e.g. a meeting room, the resource is also displayed in this list box.
 
 > [!TIP]
 > You can also simply enter an address for the location.
@@ -107,7 +107,7 @@ The **Details** tab contains detailed information about the follow-up.
 
 ### Recurrence
 
-In this field, you indicate whether the follow-up is a repeating one. Click the word **Never** to the right of the **Recurrence** field if you want the [appointment to be repeated][4] at regular intervals. If a follow-up has been specified as repeating, an icon (![icon][img1]) at the upper left of the main part of the dialog.
+In this field, you indicate whether the follow-up is a repeating one. Click the word **Never** to the right of the **Recurrence** field if you want the [appointment to be repeated][4] at regular intervals. If a follow-up has been specified as repeating, an icon ![icon][img1] at the upper left of the main part of the dialog.
 
 ### Priority
 
@@ -115,7 +115,7 @@ Specify here the priority of the follow-up. Click the arrow to display a list wi
 
 ### Alarm
 
-For notification of the follow-up, check **Alarm**. If an [alarm has been specified][5] for a follow-up, an icon (![icon][img2]) is displayed at the upper left of the main part of the dialog.
+For notification of the follow-up, check **Alarm**. If an [alarm has been specified][5] for a follow-up, an icon ![icon][img2] is displayed at the upper left of the main part of the dialog.
 
 ### Owner
 
@@ -145,7 +145,7 @@ Check here if you want the follow-up to be visible to external users.
 
 This tab contains a [list of participants][6] in the follow-up. If any participants are registered, this is indicated with a dot on the actual **Participants** tab.
 
-If you click the **View as group** button (![icon][img7]) at the bottom right of the **Participants** tab, the **View** tab in the diary opens, giving you an overview of the [diaries of the invited associates][7] (SuperOffice users).
+If you click the **View as group** button ![icon][img7] at the bottom right of the **Participants** tab, the **View** tab in the diary opens, giving you an overview of the [diaries of the invited associates][7] (SuperOffice users).
 
 ## The Links tab
 
@@ -172,9 +172,9 @@ This tab displays any user-defined fields configured in SuperOffice Settings and
 
 <!-- Referenced images -->
 [img1]: ../../../../media/icons/btn-menu.png
-[img2]: ../../../../media/icons/dialogboksknapper-pil-ned.bmp
-[img3]: ../../../../media/icons/videomeeting-inactive.png
+[img2]: ../../../../../common/icons/dropdown-icon.png
+[img3]: ../../../../../common/icons/videocall-off.png
 [img4]: ../../../../media/icons/videomeeting-active.png
 [img5]: ../../../../media/icons/followup-notcompleted.png
 [img6]: ../../../../media/icons/followup-completed.png
-[img7]: ../../../../media/icons/vis-som-gruppe.bmp
+[img7]: ../../../../../common/icons/diary-participants.png

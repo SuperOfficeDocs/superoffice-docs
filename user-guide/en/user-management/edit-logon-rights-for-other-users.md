@@ -1,18 +1,18 @@
 ---
 uid: help-en-edit-logon-rights-for-other-users
-title: Edit logon rights for other users
-description: Edit logon rights for other users
+title: Change login rights for other users
+description: Change login rights for other users
 author: SuperOffice RnD
 so.date: 06.29.2022
-keywords: Settings and maintenance, user
-so.topic: help
+keywords: user
+so.topic: howto
 language: en
 so.envir: onsite
 ---
 
 # Change login rights for other users
 
-[!include[Requirement](includes/note-users-that-req-es.md)]
+[!include[Requirement](../includes/note-users-that-req-es.md)]
 
 If an anonymous user or a system user is no longer to have the option of logging in to the system, you can remove their login rights. The external user will not be removed, but defined as inactive and can always be reactivated if required.
 

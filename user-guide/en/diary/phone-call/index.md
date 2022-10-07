@@ -42,4 +42,4 @@ Phone calls can be displayed in the following places in SuperOffice CRM:
 
 <!-- Referenced images -->
 [img1]: ../../../media/icons/globalmenu-personalsettings-small.png
-[img2]: ../../../media/icons/knapperad-samtale.bmp
+[img2]: ../../../../common/icons/phone-h32.png

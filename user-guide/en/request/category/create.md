@@ -55,7 +55,7 @@ To create a new category:
 1. In the **Members** tab, you specify which users are to be members of the category. Select a user in the **User** list at the bottom and click **Add**.
 
     > [!TIP]
-    > If **Weighted assignment** is selected as assignment method for the requests in this category, you can use the weighting for each individual user to determine the assignment of new requests. The users with the highest weighting will be assigned most requests. You cannot use weighted assignment for category members from [user groups][2].
+    > If **Weighted assignment** is selected as assignment method for the requests in this category, you can use the weighting for each individual user to determine the assignment of new requests. The users with the highest weighting will be assigned most requests. You cannot use weighted assignment for category members from user groups.
 
 1. In the **Assignment method** tab, enter the following information:
 
@@ -84,7 +84,6 @@ To create a new category:
 
 <!-- Referenced links -->
 [1]: ../../settings/preferences/index.md
-[2]: ../../user-management/user-groups.md
 [3]: ../next-in-queue.md
 [6]: ../find.md#category
 

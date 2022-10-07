@@ -39,15 +39,15 @@ You can specify a number of settings for different parts of SuperOffice CRM, for
 <!-- Referenced links -->
 
 <!-- Referenced images -->
-[img1]: ../../media/icons/preferences-defvalues.bmp
-[img2]: ../../media/icons/preferences-diary.bmp
-[img3]: ../../media/icons/preferences-functions.bmp
-[img4]: ../../media/icons/preferences-email.bmp
-[img5]: ../../media/icons/preferences-notifications.bmp
-[img6]: ../../media/icons/preferences-contact.bmp
-[img7]: ../../media/icons/preferences-request.bmp
-[img8]: ../../media/icons/preferences-sale.bmp
-[img9]: ../../media/icons/preferences-sorting.bmp
-[img10]: ../../media/icons/preferences-system.bmp
-[img11]: ../../media/icons/preferences-visualeff.bmp
+[img1]: ../../../common/icons/pref-defaultvalues-h32.png
+[img2]: ../../../common/icons/pref-diary-h32.png
+[img3]: ../../../common/icons/pref-function-h32.png
+[img4]: ../../../common/icons/pref-email-h32.png
+[img5]: ../../../common/icons/pref-notification-h32.png
+[img6]: ../../../common/icons/pref-person-h32.png
+[img7]: ../../../common/icons/pref-request-h32.png
+[img8]: ../../../common/icons/pref-sale-h32.png
+[img9]: ../../../common/icons/pref-sorting-h32.png
+[img10]: ../../../common/icons/pref-system-h32.png
+[img11]: ../../../common/icons/pref-visualeffects-h32.png
 [img12]: ../../media/icons/globalmenu-personalsettings-small.png

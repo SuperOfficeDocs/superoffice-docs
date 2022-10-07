@@ -67,6 +67,6 @@ The bottom section of the dialog
 [9]: ../../../sale/quote/add-product.md#warning
 
 <!-- Referenced images -->
-[img1]: ../../../../media/icons/quote-favorite-active.png
+[img1]: ../../../../../common/icons/favourite-yes.png
 [img6]: ../../../../media/icons/pil-opp.bmp
 [img7]: ../../../../media/icons/pil-ned.bmp

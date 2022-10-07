@@ -32,7 +32,7 @@ You insert an image in a message like this:
 
 7. Click **OK** when you have finished.
 
-8. Click ![icon][img4]**Select this image** to use this image. This takes you back to the **Edit paragraph** dialog.
+8. Click  **Select this image** to use this image. This takes you back to the **Edit paragraph** dialog.
 
 9. Select where to position the image in the text by checking one of the options for **Image position**.
 
@@ -57,5 +57,4 @@ You insert an image in a message like this:
 [img1]: ../../../../media/icons/btn-add.png
 [img2]: ../../../../media/icons/marketing-and-forms/btn-editor-edit.png
 [img3]: ../../../../media/icons/marketing-and-forms/btn-resize.jpg
-[img4]: ../../../../media/icons/marketing-and-forms/btn-green-check.jpg
-[img5]: ../../../../media/icons/marketing-and-forms/btn-folder.png
+[img5]: ../../../../../common/icons/folder.png

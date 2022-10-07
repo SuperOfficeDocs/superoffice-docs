@@ -80,7 +80,7 @@ To add fields to the form:
 
 1. Go to the **Fields** category. By default, the **Contact - name** field and **OK** button have been added to the new form.
 
-2. Click the **Add** button (![icon][img2]). The **Add element** window opens.
+2. Click the **Add** button ![icon][img2]. The **Add element** window opens.
 
 3. Select one of the following field categories:
     * **SuperOffice elements**: Fields that are linked to SuperOffice data, such as contact name, country, e-mail address etc. Depending on the type of field, values from submitted forms can either replace existing values (such as country or title) or be added to the relevant SuperOffice field (such as mobile phone).
@@ -99,14 +99,14 @@ To add fields to the form:
 
     * In the **Placeholder** field, enter a short hint on what to enter in the field.
     * Select the **Mandatory** check box if this field must be filled in. The form cannot be submitted if mandatory fields are not filled in.
-    * Click **Advanced options** (![icon][img5]) to display the **Identifier** field, where you can add an ID for the field. This will be a unique ID for this field, and will not change even if the field name/label or the language changes. This way you can ensure that links to this field are not broken after publishing the form.
+    * Click **Advanced options** ![icon][img5] to display the **Identifier** field, where you can add an ID for the field. This will be a unique ID for this field, and will not change even if the field name/label or the language changes. This way you can ensure that links to this field are not broken after publishing the form.
     * Click the check box **Full width** if you want the selected field to be the same width as the form.
 
 9. Edit any other [options in the field][4] as relevant.
 
 10. Click **Apply now** when you are done.
 
-11. Repeat steps 2-10 to add another field. You can also click **Duplicate field** (![icon][img6]) to create a copy of a field.
+11. Repeat steps 2-10 to add another field. You can also click **Duplicate field** ![icon][img6] to create a copy of a field.
 
 ### Style
 
@@ -127,12 +127,12 @@ This option adds an extra layer of security to the form. If you activate this op
 To activate double opt-in:
 
 1. Click **Enable double opt-in**.
-2. In the **Message** tab, enter the text to display after the form has been submitted. Click **Show/hide toolbar** (![icon][img7]) to display formatting options for the text.
+2. In the **Message** tab, enter the text to display after the form has been submitted. Click **Show/hide toolbar** ![icon][img7] to display formatting options for the text.
 3. In the **E-mail** tab, create the confirmation e-mail sent to the persons submitting the form. In order to do so:
     1. **Subject**: Enter the subject of the confirmation e-mail.
     2. **Sender address**: Enter the e-mail address to display in the **From** field in the confirmation mail.
-    3. **Confirmation text**: Enter the body text of the e-mail. Click **Show/hide toolbar** (![icon][img7]) to display formatting options for the text. Click **Open text editor in dialog** (![icon][img8]) to edit the text in a larger editor.
-    4. Click **Show/hide toolbar** (![icon][img7]) and then click **Insert confirm link** (![icon][img9]). The confirmation link is inserted in the body text. To edit the link, click it and select **Edit link** (![icon][img10]).
+    3. **Confirmation text**: Enter the body text of the e-mail. Click **Show/hide toolbar** ![icon][img7] to display formatting options for the text. Click **Open text editor in dialog** ![icon][img8] to edit the text in a larger editor.
+    4. Click **Show/hide toolbar** ![icon][img7] and then click **Insert confirm link** ![icon][img9]. The confirmation link is inserted in the body text. To edit the link, click it and select **Edit link** ![icon][img10].
 4. Click **Apply now** when you are done.
 
 If double opt-in has been activated for a form, all [submissions for this form][5] will have status **Awaiting confirmation** until the e-mail address has been confirmed.
@@ -145,14 +145,14 @@ If double opt-in has been activated for a form, all [submissions for this form][
 When a person has completed and submitted a form, you should thank them and let them know what will happen next. You can do this by either redirecting them to another web page with more information or displaying a message.
 
 * **Redirect to external website**: Enter the link to the web page.
-* **Show this message**: Enter the text to display. Click **Show/hide toolbar** (![icon][img7]) to display formatting options for the text. Click **Open text editor in dialog** (![icon][img8]) to edit the text in a larger editor.
+* **Show this message**: Enter the text to display. Click **Show/hide toolbar** ![icon][img7] to display formatting options for the text. Click **Open text editor in dialog** ![icon][img8] to edit the text in a larger editor.
 
 ### Page for inactive form
 
 If a person opens a form that is inactive, you can either redirect them to another web page or display a message.
 
 * **Redirect to external website**: Enter the link to the web page.
-* **Show this message**: Enter the text to display. Click **Show/hide toolbar** (![icon][img7]) to display formatting options for the text. Click **Open text editor in dialog** (![icon][img8]) to edit the text in a larger editor.
+* **Show this message**: Enter the text to display. Click **Show/hide toolbar** ![icon][img7] to display formatting options for the text. Click **Open text editor in dialog** ![icon][img8] to edit the text in a larger editor.
 
 ### Actions
 
@@ -195,10 +195,10 @@ Here you can define how a submitted form should be processed. Fill in the follow
 [img1]: ../../media/icons/btn-menu.png
 [img2]: ../../media/icons/marketing-and-forms/btn-field-add.png
 [img3]: ../../media/icons/marketing-and-forms/btn-field-move.png
-[img5]: ../../media/icons/marketing-and-forms/btn-field-advancedoptions.png
-[img6]: ../../media/icons/marketing-and-forms/btn-field-duplicate.png
+[img5]: ../../../common/icons/cog-wheel.png
+[img6]: ../../../common/icons/duplicate-icon.png
 [img7]: ../../media/icons/marketing-and-forms/btn-editor-toolbar-showhide.png
-[img8]: ../../media/icons/marketing-and-forms/btn-editor-open.png
-[img9]: ../../media/icons/marketing-and-forms/btn-confirmlink.png
-[img10]: ../../media/icons/marketing-and-forms/btn-editlink.png
+[img8]: ../../../common/icons/pop-out-icon.png
+[img9]: ../../../common/icons/new-window-icon.png
+[img10]: ../../../common/icons/edit-black.png
 [img11]: ../../media/icons/marketing-and-forms/btn-form-notification.png

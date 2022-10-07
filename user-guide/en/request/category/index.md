@@ -20,7 +20,7 @@ An example might be to have the main categories of User Support, Development, Sa
 > [!NOTE]
 > The term **category** is also used for company categories. See [Lists][3].
 
-Users can be added as members in the categories individually or via the [user groups][4] they belong to.
+Users can be added as members in the categories individually or via the user groups they belong to.
 
 > [!TIP]
 > Looking for a more flexible way of organizing your request? Try [using tags in requests][1].
@@ -48,7 +48,6 @@ The categories are arranged in a tree structure.
 [1]: create.md
 [2]: delete.md
 [3]: ../../settings/lists/index.md
-[4]: ../../user-management/user-groups.md
 [5]: ../next-in-queue.md
 [6]: ../find.md#category
 

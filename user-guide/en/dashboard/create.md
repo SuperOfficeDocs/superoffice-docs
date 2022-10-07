@@ -69,4 +69,4 @@ The selected chart is displayed in the tile. Repeat this step for each empty til
 [5]: delete.md
 
 <!-- Referenced images -->
-[img1]: ../../media/icons/translate.png
+[img1]: ../../../common/icons/az.png

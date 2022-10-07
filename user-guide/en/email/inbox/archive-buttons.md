@@ -29,4 +29,4 @@ You can archive an incoming email (including any attachments) as a document in S
 [3]: opening-attachments-or-saving-them-on-disk.md
 
 <!-- Referenced images -->
-[img1]: ../../../media/icons/inbox/web-email-archive-small.bmp
+[img1]: ../../../../common/icons/archive-icon.png

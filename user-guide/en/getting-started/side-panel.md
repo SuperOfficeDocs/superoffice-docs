@@ -94,7 +94,7 @@ Shows a preview of a selected activity, project, contact, project member or sele
 Shows a summary of information about the current project in the **Project** screen.
 
 > [!TIP]
-> If you want to view other projects, without having to switch projects in the **Project** screen, you can use the [history list][1], which you bring up by clicking the arrow ( ![icon][img3] ) next to the project name.
+> If you want to view other projects, without having to switch projects in the **Project** screen, you can use the [history list][1], which you bring up by clicking the arrow ![icon][img3] next to the project name.
 
 ## Project members
 
@@ -142,9 +142,9 @@ In SuperOffice Settings and maintenance, you can also define your own views for 
 <!-- Referenced images -->
 [img1]: ../../media/icons/arrow-left.png
 [img2]: ../../media/icons/arrow-right.png
-[img3]: ../../media/icons/dialogboksknapper-pil-ned.bmp
-[img4]: ../../media/icons/panel-right-hide.png
-[img5]: ../../media/icons/panel-right-show.png
+[img3]: ../../../common/icons/dropdown-icon.png
+[img4]: ../../../common/icons/right-collapse.png
+[img5]: ../../../common/icons/right-expand.png
 [img7]: ../../media/icons/minicard-level.png
 [img8]: ../../media/icons/minicard-today.png
 [img9]: ../../media/icons/minicard-selected.png
