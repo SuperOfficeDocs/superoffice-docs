@@ -63,7 +63,7 @@ You will then be returned to the **View** tab, where you can create appointments
 [4]: create-follow-up.md#associate
 
 <!-- Referenced images -->
-[img2]: ../../media/icons/pil-hoeyre.bmp
+[img2]: ../../media/icons/arrow-right.png
 [img3]: ../../media/icons/pil-opp.bmp
 [img4]: ../../media/icons/pil-ned.bmp
 [img1]: ../../media/icons/btn-menu.png

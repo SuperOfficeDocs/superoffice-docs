@@ -52,5 +52,5 @@ To move backwards and forwards between sales click the previous/next buttons ( !
 [7]: sales-targets.md
 
 <!-- Referenced images -->
-[img1]: ../../media/icons/pil-hoeyre.bmp
-[img2]: ../../media/icons/pil-venstre.bmp
+[img1]: ../../media/icons/arrow-right.png
+[img2]: ../../media/icons/arrow-left.png

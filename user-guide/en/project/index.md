@@ -54,6 +54,6 @@ If you have selected a project type for which a project guide has been defined, 
 [7]: project-members/create-mailing.md
 
 <!-- Referenced images -->
-[img1]: ../../media/icons/pil-hoeyre.bmp
-[img2]: ../../media/icons/pil-venstre.bmp
+[img1]: ../../media/icons/arrow-right.png
+[img2]: ../../media/icons/arrow-left.png
 [img3]: media/project.bmp

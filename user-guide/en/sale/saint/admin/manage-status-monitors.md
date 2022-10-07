@@ -46,7 +46,7 @@ You must then regenerate these statuses by clicking one of these buttons:
 
 <!-- Referenced images -->
 [img1]: ../../../../media/icons/admin/status-inaktiv.bmp
-[img2]: ../../../../media/icons/pil-hoeyre.bmp
+[img2]: ../../../../media/icons/arrow-right.png
 [img3]: ../../../../media/icons/admin/saint-counter-company-dis.bmp
 [img4]: ../../../../media/icons/admin/saint-counter-project-dis.bmp
 [img5]: ../../../../media/icons/admin/saint-counter-sale-disabled.bmp
