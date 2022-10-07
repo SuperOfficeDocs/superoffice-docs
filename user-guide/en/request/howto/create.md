@@ -134,4 +134,4 @@ This tab contains any extra fields defined for requests. These will vary from co
 [img4]: ../../../../common/icons/dropdown-arrow.png
 [img5]: ../../../media/icons/service/stop.png
 [img6]: ../../../media/icons/service/play.png
-[img7]: ../../../media/icons/service/btn-calendar.jpg
+[img7]: ../../../../common/icons/timespan.png
