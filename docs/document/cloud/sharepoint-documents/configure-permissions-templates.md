@@ -13,7 +13,7 @@ so.client: online
 
 # How to set up SharePoint permissions for templates
 
-We recommend that you create a separate SharePoint document library on your SuperOffice Document site for your templates. If you do not use SharePoint to store your templates, you will need WebTools in order to edit the templates​.
+We recommend that you create a separate SharePoint document library on your SuperOffice Document site for your templates.
 
 ## Permissions to the SharePoint document library for SuperOffice templates
 
