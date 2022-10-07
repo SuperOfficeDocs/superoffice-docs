@@ -1,0 +1,103 @@
+# Workflow for copying modified files on main to language folders,
+# and generating publishing ZIP files containing just the changes
+name: Create translation ZIP file
+
+on:
+  # Runs manually
+  workflow_dispatch:
+    inputs:
+      sinceWhen:
+        description: 'Since When'
+        required: true
+        default: '3 weeks ago'
+        type: string
+
+        
+# Sets permissions of the GITHUB_TOKEN to allow creation of new branch with translations
+permissions:
+  contents: write
+  issues: write
+  deployments: write
+  id-token: write
+
+# Allow one concurrent deployment
+concurrency:
+  group: "translations"
+  cancel-in-progress: true
+
+jobs:
+  # Single build job since we're just copying some files around
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+        with:
+          ref: 351-migrate-en-user-and-admin-help
+
+      - name: Run some powershell
+        shell: pwsh
+        run: |
+          echo Powershell
+          dir Env:
+          get-location
+          # Invoke-Pester Unit.Tests.ps1 -Passthru
+          git --log --since="4 weeks ago" --name-only
+
+      - name: Upload artifact
+        uses: actions/upload-artifact@v3
+        with:
+          name: English-changes
+          # Upload entire repository
+          path: 'user-guide/en.zip'
+
+      - name: Create and push new branch
+        uses: EndBug/add-and-commit@v9
+        with:
+          # The arguments for the `git add` command (see the paragraph below for more info)
+          # Default: '.'
+          add: 'src'
+
+          # The name of the user that will be displayed as the author of the commit.
+          # Default: depends on the default_author input
+          author_name: Author Name
+
+          # The email of the user that will be displayed as the author of the commit.
+          # Default: depends on the default_author input
+          author_email: mail@example.com
+
+          # Additional arguments for the git commit command. The --message argument is already set by the message input.
+          # Default: ''
+          commit: --signoff
+
+          # The name of the custom committer you want to use, if different from the author of the commit.
+          # Default: the name of the author (set with either author_name or default_author)
+          committer_name: Committer Name
+
+          # The email of the custom committer you want to use, if different from the author of the commit.
+          # Default: the email of the author (set with either author_email or default_author)
+          committer_email: mail@example.com
+
+          # The local path to the directory where your repository is located. You should use actions/checkout first to set it up.
+          # Default: '.'
+          cwd: './path/to/the/repo'
+
+          # Determines the way the action fills missing author name and email. Three options are available:
+          # - github_actor -> UserName <UserName@users.noreply.github.com>
+          # - user_info -> Your Display Name <your-actual@email.com>
+          # - github_actions -> github-actions <email associated with the github logo>
+          # Default: github_actor
+          default_author: github_actor
+
+          # Arguments for the git fetch command. If set to false, the action won't fetch the repo.
+          # For more info as to why fetching is usually recommended, please see the "Performance on large repos" FAQ. 
+          # Default: --tags --force
+          fetch: false
+
+          # The message for the commit.
+          # Default: 'Commit from GitHub Actions (name of the workflow)'
+          message: 'Your commit message'
+
+          # If this input is set, the action will push the commit to a new branch with this name.
+          # Default: ''
+          new_branch: custom-new-branch
