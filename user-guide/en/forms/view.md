@@ -77,4 +77,4 @@ This tab is visible if you have activated **E-mail response** for this form (see
 
 <!-- Referenced images -->
 [img1]: ../../../common/icons/favourite-no.png
-[img2]: ../../media/icons/marketing-and-forms/btn-search.png
+[img2]: ../../../common/icons/nav-search.png
