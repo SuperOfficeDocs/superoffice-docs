@@ -1,15 +1,19 @@
 # Workflow for copying modified files on main to language folders,
 # and generating publishing ZIP files containing just the changes
-name: Create translation ZIP file
+name: Create named translation branch
 
 on:
   # Runs manually
   workflow_dispatch:
     inputs:
-      sinceWhen:
-        description: 'Since When'
+      name:
+        description: 'Translation Name'
         required: true
-        default: '3 weeks ago'
+        type: string
+      sinceWhen:
+        description: 'Include all changes since When'
+        required: true
+        default: '2 weeks ago'
         type: string
 
         
@@ -33,34 +37,34 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v3
         with:
-          ref: 351-migrate-en-user-and-admin-help
+          ref: main
 
-      - name: Run some powershell
+      - name: Create en-changes zip
         shell: pwsh
-        run: |
-          echo Powershell
-          dir Env:
-          get-location
-          # Invoke-Pester Unit.Tests.ps1 -Passthru
-          git --log --since="4 weeks ago" --name-only
+        run: Build/Copy-Changed-Files-To-Translations.ps1 "${{ inputs.name }}" "${{ inputs.sinceWhen }}"
 
-      - name: Upload artifact
+      - name: Upload en-changes artifact
         uses: actions/upload-artifact@v3
         with:
-          name: English-changes
-          # Upload entire repository
-          path: 'user-guide/en.zip'
+          name: Translate-${{ inputs.name }}-en-changes
+          # Upload changes file
+          path: 'translate-${{ inputs.name }}-en-changes.zip'
+
+      - name: Clean up en-changes zip
+        shell: pwsh
+        run: |
+          del ./translate-${{ inputs.name }}-en-changes.zip
 
       - name: Create and push new branch
         uses: EndBug/add-and-commit@v9
         with:
           # The arguments for the `git add` command (see the paragraph below for more info)
           # Default: '.'
-          add: 'src'
+          add: 'user-guide'
 
           # The name of the user that will be displayed as the author of the commit.
           # Default: depends on the default_author input
-          author_name: Author Name
+          author_name: Translate Workflow
 
           # The email of the user that will be displayed as the author of the commit.
           # Default: depends on the default_author input
@@ -72,7 +76,7 @@ jobs:
 
           # The name of the custom committer you want to use, if different from the author of the commit.
           # Default: the name of the author (set with either author_name or default_author)
-          committer_name: Committer Name
+          committer_name: Translate Workflow
 
           # The email of the custom committer you want to use, if different from the author of the commit.
           # Default: the email of the author (set with either author_email or default_author)
@@ -80,7 +84,7 @@ jobs:
 
           # The local path to the directory where your repository is located. You should use actions/checkout first to set it up.
           # Default: '.'
-          cwd: './path/to/the/repo'
+          # cwd: './path/to/the/repo'
 
           # Determines the way the action fills missing author name and email. Three options are available:
           # - github_actor -> UserName <UserName@users.noreply.github.com>
@@ -96,8 +100,8 @@ jobs:
 
           # The message for the commit.
           # Default: 'Commit from GitHub Actions (name of the workflow)'
-          message: 'Your commit message'
+          message: 'New branch: translate_${{ inputs.name }}'
 
           # If this input is set, the action will push the commit to a new branch with this name.
           # Default: ''
-          new_branch: custom-new-branch
+          new_branch: translate_${{ inputs.name }}
