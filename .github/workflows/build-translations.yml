@@ -43,9 +43,8 @@ jobs:
       - name: Create en-changes zip
         shell: pwsh
         run: |
-          dir -name
           dir -name build
-          & build/Copy-Changed-Files-To-Translations.ps1 "${{ inputs.name }}" "${{ inputs.sinceWhen }}"
+          & ./build/Copy-Changed-Files-To-Translations.ps1 "${{ inputs.name }}" "${{ inputs.sinceWhen }}"
 
       - name: Upload en-changes artifact
         uses: actions/upload-artifact@v3
