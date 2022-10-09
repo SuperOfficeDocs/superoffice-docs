@@ -44,8 +44,8 @@ jobs:
         shell: pwsh
         run: |
           dir 
-          dir Build
-          & Build/Copy-Changed-Files-To-Translations.ps1 "${{ inputs.name }}" "${{ inputs.sinceWhen }}"
+          dir build
+          & build/Copy-Changed-Files-To-Translations.ps1 "${{ inputs.name }}" "${{ inputs.sinceWhen }}"
 
       - name: Upload en-changes artifact
         uses: actions/upload-artifact@v3
