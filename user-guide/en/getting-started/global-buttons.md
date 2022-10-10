@@ -44,8 +44,8 @@ The global buttons appear throughout the user interface. Some of them are in the
 [img2]: ../../../common/icons/dropdown-icon.png
 [img3]: ../../../common/icons/phone.png
 [img4]: ../../../common/icons/search-icon-black.png
-[img5]: ../../media/icons/service/search.png
-[img6]: ../../media/icons/service/btn-editelementprofile.png
+[img5]: ../../../common/icons/search-icon-black.png
+[img6]: ../../../common/icons/settingstools.png
 [img7]: ../../media/icons/service/btn-calendar.jpg
 [img8]: ../../media/icons/btn-add.png
 [img9]: ../../../common/icons/favourite-no.png

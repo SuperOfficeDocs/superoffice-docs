@@ -71,4 +71,4 @@ In the **Settings** tab, set the following parameters:
 
 <!-- Referenced images -->
 [img1]: ../../../../media/icons/service/calendar.png
-[img2]: ../../../../media/icons/service/btn-clock.png
+[img2]: ../../../../../common/icons/now.png
