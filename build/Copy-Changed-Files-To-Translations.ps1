@@ -1,12 +1,11 @@
-param ($name, $sinceWhen)
+param ($name, $sinceWhen, $basedir)
 
-Write-Output "Current loc"
-Get-Location
+Write-Output "basedir=$basedir"
+Set-Location $basedir
 
 $log = &{ git log --since="$sinceWhen" --name-only }
 $changes = @($log) -match "user-guide/en/a*" | Select-Object -unique
 Compress-Archive -DestinationPath "translate-$name-en-changes.zip" -Path $changes
-Get-Location
 Get-ChildItem *.zip
 Write-Output "Changes"
 Write-Output $changes
