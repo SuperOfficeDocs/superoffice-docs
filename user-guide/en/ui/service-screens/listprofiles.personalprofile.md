@@ -17,7 +17,7 @@ Personal profiles apply to a single user. You configure personal profiles by cli
 2. Click ![icon][img1] on the far right of the request's properties. The **Edit element profile** screen appears.
 3. Next to **New field** are two empty fields.
     * In the left-hand field enter the field name.
-    * Click the list button ( ![icon][img2] ) next to the field on the right, and select which field in the database you want to get data from.
+    * Click the list button ![icon][img2] next to the field on the right, and select which field in the database you want to get data from.
 4. Click **Add** next to the two fields you have just completed. This new field is added under the preview at the top of the screen.
 5. Click **OK**. The changes are saved, and the next time you display this screen the new field will be included.
 6. If you want to revert to the default settings, return to the **Edit element profile** screen and click the **Restore default (deletes this profile)** button at the bottom of the screen.
@@ -36,5 +36,5 @@ Personal profiles apply to a single user. You configure personal profiles by cli
 [4]: listProfiles.globalProfiles.md
 
 <!-- Referenced images -->
-[img1]: ../../../media/icons/service/btn-editelementprofile.png
+[img1]: ../../../../common/icons/settingstools.png
 [img2]: ../../../../common/icons/dropdown-arrow.png

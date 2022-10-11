@@ -38,7 +38,7 @@ There are many different ways to bring up the search screen, depending on where 
 * You can select **Requests** > **Find requests** to search for requests. See [Search for requests][3].
 * You can use [predefined lists][4] to search for requests. See [Use lists][4].
 * You can select **Customers** > **Find contacts** or **Find companies** to search for contacts and companies.
-* In the knowledge base, you can click the **Search** icon ( ![icon][img6] ) to the right of a folder name to search for different types of content.
+* In the knowledge base, you can click the **Search** icon ![icon][img6] to the right of a folder name to search for different types of content.
 * The search screen is used as the basis for creating some types of selection. See [Create a selection][5].
 
 ## The Criteria screen
@@ -95,9 +95,9 @@ If you click one of the column headings below **Result**, you get the following 
 
 At the top right corner of the search results list are the following buttons:
 
-* **Update content** ( ![icon][img1] ): Clicking this button updates the search result with any new records that also match the criteria.
+* **Update content** ![icon][img1]: Clicking this button updates the search result with any new records that also match the criteria.
 * Click the ![icon][img2] menu button in the top right corner to access the change the view options.
-* **Edit element profile** ( ![icon][img8] ): Clicking this button takes you to the **Edit element profile** screen, where you can determine [how the search results should be presented][8].
+* **Edit element profile** ![icon][img8]: Clicking this button takes you to the **Edit element profile** screen, where you can determine [how the search results should be presented][8].
 
 Under the list, you can click ![icon][img2] to access the following options:
 
@@ -136,6 +136,6 @@ To return to the ordinary view, click the **Simple view** button at the top of t
 [img3]: ../../../../common/icons/dropdown-arrow.png
 [img4]: ../../../media/icons/btn-add.png
 [img5]: ../../../../common/icons/delete-red.png
-[img6]: ../../../media/icons/service/search.png
+[img6]: ../../../../common/icons/search-icon-black.png
 [img7]: ../../../media/icons/service/inputText.png
-[img8]: ../../../media/icons/service/btn-editelementprofile.png
+[img8]: ../../../../common/icons/settingstools.png
