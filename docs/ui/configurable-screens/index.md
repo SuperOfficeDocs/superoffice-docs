@@ -6,7 +6,7 @@ author: Bergfrid Dias
 so.date: 10.04.2022
 keywords: ui, screen, customization
 so.topic: concept
-so.version:
+so.version: 10
 so.envir:
 so.client:
 ---
@@ -37,6 +37,14 @@ The **Screen Designer** in Settings and maintenance replaces [PageBuilder][1] an
 * Organize custom fields in the **More** tab.
 * Add tabs for fields related to a specific area.
 * Remove unused tabs.
+
+## Layouts
+
+The system layout applies to all users unless you have created and assigned custom layouts to some users.
+
+* Active layouts
+
+* How to add group layout
 
 <!-- Referenced links -->
 [1]: ../web-app/pagebuilder/index.md
