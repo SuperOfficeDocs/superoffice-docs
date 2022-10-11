@@ -57,8 +57,8 @@ Select the fields you want to adjust and click left-align ( ![icon][img5] ) or r
 [1]: ../../ui/screen-designer/index.md
 
 <!-- Referenced images -->
-[img1]: ../../../media/icons/pil-hoeyre.bmp
-[img2]: ../../../media/icons/pil-venstre.bmp
+[img1]: ../../../media/icons/arrow-right.png
+[img2]: ../../../media/icons/arrow-left.png
 [img3]: ../../../media/icons/admin/pil-flyttopp.bmp
 [img4]: ../../../media/icons/admin/pil-flyttned.bmp
 [img5]: ../../../media/icons/admin/align-left.bmp

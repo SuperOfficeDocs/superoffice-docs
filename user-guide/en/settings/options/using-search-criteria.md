@@ -142,8 +142,8 @@ If you want to change a search criterion in the **Find** dialog, click it and se
 [1]: ../../sale/admin/sale-amount-class.md
 
 <!-- Referenced images -->
-[img1]: ../../../media/icons/pil-hoeyre.bmp
-[img2]: ../../../media/icons/pil-venstre.bmp
+[img1]: ../../../media/icons/arrow-right.png
+[img2]: ../../../media/icons/arrow-left.png
 [img3]: ../../../../common/icons/dropdown-icon.png
 [img4]: ../../../media/icons/admin/velg-alle.bmp
 [img5]: ../../../media/icons/admin/status-aktiv.bmp

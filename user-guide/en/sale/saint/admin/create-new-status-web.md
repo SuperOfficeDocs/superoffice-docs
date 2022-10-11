@@ -74,7 +74,7 @@ If a company, contact or project has several active statuses, the lower priority
 [8]: ../../../globalization/translate-fields.md
 
 <!-- Referenced images -->
-[img2]: ../../../../media/icons/admin/question.bmp
+[img2]: ../../../../media/icons/translate.png
 [img3]: ../../../../media/icons/admin/visualiser.bmp
 [img4]: ../../../../media/icons/admin/roedt-kryss.bmp
 [img5]: ../../../../media/icons/admin/pil-flyttopp.bmp

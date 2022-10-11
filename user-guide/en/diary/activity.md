@@ -62,7 +62,7 @@ You can show all activities, or just one type.
 
 ## Create activity
 
-You create activities using the ![icon][img2] **New** menu in the top bar, or by double-clicking in the section tab.
+You create activities using the ![icon][img2] **New** menu in the top bar, or by clicking **Add** button in the section tab.
 
 ## Delete activity
 
@@ -108,5 +108,5 @@ You can delete activities from any screen where they are displayed:
 
 <!-- Referenced images -->
 [img1]: ../../media/icons/utfoert.bmp
-[img2]: ../../media/icons/globalmenu-new.png
+[img2]: ../../../common/icons/plus-black.png
 [img3]: media/activities-detail.bmp

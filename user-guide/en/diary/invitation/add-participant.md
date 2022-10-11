@@ -63,6 +63,6 @@ To manually accept or decline an invitation on behalf of someone, select the nam
 [1]: index.md#status
 
 <!-- Referenced images -->
-[img2]: ../../../media/icons/pil-hoeyre.bmp
+[img2]: ../../../media/icons/arrow-right.png
 [img1]: ../../../media/icons/type-epost.bmp
 [img3]: ../../../media/icons/type-epost-inactive.bmp

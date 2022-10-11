@@ -63,5 +63,5 @@ To link the sale to stakeholders:
 
 <!-- Referenced images -->
 [img1]: ../../../media/icons/binders.bmp
-[img2]: ../../../media/icons/pil-hoeyre.bmp
+[img2]: ../../../media/icons/arrow-right.png
 [img3]: media/chap7-add-stakeholders.bmp
