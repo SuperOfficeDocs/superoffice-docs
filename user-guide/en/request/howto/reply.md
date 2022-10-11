@@ -26,7 +26,7 @@ When you respond to an customer enquiry, you can save time by using a reply temp
 
 1. Go to the **Message** tab, as described above.
 2. Position the mouse pointer in the message where you want to insert the reply template.
-3. Click the list button ( ![icon][img3] ), and select what to insert in the message. Optional: Select a language in the language list. If available, the text will be inserted in the selected language. Otherwise the default language will be used.
+3. Click the list button ![icon][img3], and select what to insert in the message. Optional: Select a language in the language list. If available, the text will be inserted in the selected language. Otherwise the default language will be used.
 4. In the list that appears, first click **Reply template** and then the entry you want.
 5. Click **Paste at cursor position**. The reply template text is inserted.
 6. Review the text and make any adjustments.
@@ -51,4 +51,4 @@ When you respond to an customer enquiry, you can save time by using a reply temp
 [img1]: ../../../media/icons/btn-menu.png
 [img2]: ../../../media/icons/service/msg-attachment.png
 [img3]: ../../../../common/icons/dropdown-arrow.png
-[img4]: ../../../media/icons/service/btn-preview.png
+[img4]: ../../../../common/icons/search-icon-black.png

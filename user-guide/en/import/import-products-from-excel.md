@@ -83,6 +83,6 @@ When the import is complete, a list of the imported products will be displayed. 
 
 <!-- Referenced images -->
 [img1]: ../../media/icons/admin/import-excel-small.bmp
-[img2]: ../../media/icons/admin/import-warning.png
+[img2]: ../../../common/icons/warning.png
 [img3]: ../../media/icons/admin/import-preview-icon-product-new.bmp
 [img4]: ../../media/icons/admin/import-preview-icon-product-changed.bmp

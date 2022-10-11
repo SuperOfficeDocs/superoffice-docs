@@ -93,5 +93,5 @@ Here you can add translated versions of the document template.
 [5]: ../../sale/saint/index.md
 
 <!-- Referenced images -->
-[img1]: ../../../media/icons/translate.png
+[img1]: ../../../../common/icons/az.png
 [img2]: ../../../media/icons/admin/pil-ned.bmp

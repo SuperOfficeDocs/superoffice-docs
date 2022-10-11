@@ -21,11 +21,11 @@ To create a new folder:
 
 2. Optional: Open an existing folder to create a sub-folder. You may have to click the **All ...** button first.
 
-3. Click the **Add folder** button ( ![icon][img1] ). The **Folder properties** dialog  appears.
+3. Click the **Add folder** button ![icon][img1]. The **Folder properties** dialog  appears.
 
 4. Enter a descriptive name for the folder in the **Name** field.
 
 5. Click **OK**. If the folder does not display in the list, click the **My ...** or **All ...** button.
 
 <!-- Referenced images -->
-[img1]: ../../media/icons/marketing-and-forms/btn-addfolder.png
+[img1]: ../../../common/icons/folder.png

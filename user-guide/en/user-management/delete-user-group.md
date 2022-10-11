@@ -32,4 +32,4 @@ language: en
 
 <!-- Referenced images -->
 [img1]: ../../media/icons/globalmenu-settings-small.png
-[img2]: ../../media/icons/admin/knapp-lister-liten.bmp
+[img2]: ../../../common/icons/nav-admin-lists-active.png

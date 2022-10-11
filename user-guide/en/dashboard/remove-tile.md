@@ -22,7 +22,7 @@ To delete a tile:
 
 2. Click the **Task** button, and select **Add tile / Edit layout**.
 
-3. In the dashboard, click the **Remove tile** icon (![icon][img1]) on the tile you want to remove.
+3. In the dashboard, click the **Remove tile** icon ![icon][img1] on the tile you want to remove.
 
 4. Click **OK** to confirm.
 
@@ -30,4 +30,4 @@ To delete a tile:
 [1]: add-tile.md
 
 <!-- Referenced images -->
-[img1]: ../../media/icons/dashboard/dashboard-tile-delete.png
+[img1]: ../../../common/icons/delete-circle-red.png

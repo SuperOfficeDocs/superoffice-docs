@@ -35,11 +35,11 @@ There are several types of tiles:
 
 ## Options in the Dashboard screen
 
-Pinned dashboards are displayed with a pin icon (![icon][img1]). This usually means that this is a dashboard that has been distributed to multiple users by an administrator.
+Pinned dashboards are displayed with a pin icon ![icon][img1]. This usually means that this is a dashboard that has been distributed to multiple users by an administrator.
 
-Dashboard favorites are displayed with a star icon (![icon][img2]). You can click this icon in the top-right corner to set a dashboard as favorite.
+Dashboard favorites are displayed with a star icon ![icon][img2]. You can click this icon in the top-right corner to set a dashboard as favorite.
 
-Click the **Refresh** button (![icon][img3]) to update the data in all tiles.
+Click the **Refresh** button ![icon][img3] to update the data in all tiles.
 
 Click the **Task** button to access the following functions:
 
@@ -62,6 +62,6 @@ Click the **Task** button to access the following functions:
 [6]: working-with-tiles.md
 
 <!-- Referenced images -->
-[img1]: ../../media/icons/dashboard/dashboard-pinned.png
-[img2]: ../../media/icons/dashboard/dashboard-favourite.png
+[img1]: ../../../common/icons/pinned.png
+[img2]: ../../../common/icons/favourite-yes.png
 [img3]: ../../media/icons/dashboard/dashboard-refresh.png

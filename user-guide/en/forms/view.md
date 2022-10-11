@@ -19,7 +19,7 @@ Here you have the following viewing options:
 * **My forms**: Shows the forms that you have created.
 * **Active forms**: Shows only forms that are active. Forms can be deactivated manually, or are automatically deactivated at a specific date or when a specific number of submissions have been received.
 * **All forms**: Shows all available forms.
-* **Search in forms**: Enter a search phrase and press **ENTER** or click the search icon ( ![icon][img2] ).
+* **Search in forms**: Enter a search phrase and press **ENTER** or click the search icon ![icon][img2].
 
 To view an existing form, click a form in the list. The **View form** screen opens.
 
@@ -76,5 +76,5 @@ This tab is visible if you have activated **E-mail response** for this form (see
 [6]: create.md
 
 <!-- Referenced images -->
-[img1]: ../../media/icons/favorite-inactive.png
-[img2]: ../../media/icons/marketing-and-forms/btn-search.png
+[img1]: ../../../common/icons/favourite-no.png
+[img2]: ../../../common/icons/nav-search.png

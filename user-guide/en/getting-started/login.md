@@ -71,4 +71,4 @@ Onsite: Contact your SuperOffice administrator to receive a new password.
 
 <!-- Referenced images -->
 [img1]: ../../media/icons/globalmenu-personalsettings-small.png
-[img2]: ../../media/icons/nav-service.png
+[img2]: ../../../common/icons/nav-cs.png

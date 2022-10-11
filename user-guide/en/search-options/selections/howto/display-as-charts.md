@@ -36,5 +36,5 @@ This means that your selection does not contain relevant data for this chart. Ch
 [1]: ../../../dashboard/index.md
 
 <!-- Referenced images -->
-[img1]: ../../../../media/icons/selection-preview.png
-[img2]: ../../../../media/icons/selection-refresh.png
+[img1]: ../../../../../common/icons/maximize-dark.png
+[img2]: ../../../../../common/icons/refresh-icon.png

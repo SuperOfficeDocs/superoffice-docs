@@ -145,7 +145,7 @@ If you want to change a search criterion in the **Find** dialog, click it and se
 [img1]: ../../../media/icons/arrow-right.png
 [img2]: ../../../media/icons/arrow-left.png
 [img3]: ../../../../common/icons/dropdown-icon.png
-[img4]: ../../../media/icons/admin/velg-alle.bmp
+[img4]: ../../../media/icons/merk-alle.bmp
 [img5]: ../../../media/icons/admin/status-aktiv.bmp
 [img6]: ../../../media/icons/admin/status-inaktiv.bmp
 [img7]: ../../../media/icons/admin/saint-counter-company.bmp

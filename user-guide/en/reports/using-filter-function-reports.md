@@ -11,13 +11,13 @@ language: en
 
 # Use the Filter function in the Reports screen
 
-You will find the **Filter** button ( ![icon][img1] ) under the report archive (the **Documents** section tab).
+You will find the **Filter** button ![icon][img1] under the report archive (the **Documents** section tab).
 
 To filter out the information displayed in the report archive:
 
 1. [!include[How to-goto-reports](includes/goto-reports.md)]
 
-2. Click the **Filter** button ( ![icon][img1] ).
+2. Click the **Filter** button ![icon][img1].
 
 3. In the **From** box, specify from how far back in time you want to show reports.
 
@@ -41,4 +41,4 @@ To filter out the information displayed in the report archive:
 <!-- Referenced links -->
 
 <!-- Referenced images -->
-[img1]: ../../media/icons/filter.bmp
+[img1]: ../../../common/icons/filter-icon.png

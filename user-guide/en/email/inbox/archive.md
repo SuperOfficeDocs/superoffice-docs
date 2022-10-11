@@ -45,4 +45,4 @@ To open an attachment or archive an attachment in SuperOffice:
 [3]: writing-email.md
 
 <!-- Referenced images -->
-[img1]: ../../../media/icons/inbox/web-email-archive-small.bmp
+[img1]: ../../../../common/icons/archive-icon.png

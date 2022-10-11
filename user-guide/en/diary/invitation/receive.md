@@ -59,7 +59,7 @@ When you select one of the invitations in the top part of the dialog, its detail
 
 > [!TIP]
 > When you select an invitation in the **Invitations** dialog, the day in question is shown in the **Diary** screen in the background, so that you can check whether you have other appointments or not.
-If you have other overlapping appointments, a **Conflict** icon (![icon][img6]) is also displayed in the preview in the **Invitations** dialog.
+If you have other overlapping appointments, a **Conflict** icon ![icon][img6] is also displayed in the preview in the **Invitations** dialog.
 
 ## Receive invitations to repeating follow-ups
 
@@ -67,24 +67,24 @@ If you select **Show repetitions** below the list of invitations, all instances 
 
 There are two ways to see if a follow-up is a repeating one:
 
-* The status icon ( ![icon][img5] ) is shown in the list of invitations.
+* The status icon ![icon][img5] is shown in the list of invitations.
 * You will see a 'repeat' icon at the top left of the bottom section of the dialog. See [Create repeating follow-ups][3] for more information about repeating follow-ups.
 
 Click **Close** to close the dialog.
 
 **Note:**
 
-* If you first accept an invitation and then delete the follow-up from the diary, it is counted as though you declined it. The follow-up disappears from the Diary and your name is marked with a red cross ( ![icon][img4] ) in the **Appointment**, **Task** or **Phone Call** dialog of the person who sent the invitation. [!include[See Appointment dialog](../../includes/see-apt-dialog.md)]
+* If you first accept an invitation and then delete the follow-up from the diary, it is counted as though you declined it. The follow-up disappears from the Diary and your name is marked with a red cross ![icon][img4] in the **Appointment**, **Task** or **Phone Call** dialog of the person who sent the invitation. [!include[See Appointment dialog](../../includes/see-apt-dialog.md)]
 
 * If you accept an invitation and subsequently open the dialog for follow-ups, you are not able to edit any information about the follow-up except for the **Priority**, **Completed** and **Alarm** fields. Other changes can only be made by the person who sent the invitation.
 
 * If you assign a follow-up to another user (i.e. the follow-up changes owner), and the recipient declines it, this works as described under [Receive responses to invitations][4].
 
-* If you close the **Invitations** dialog without accepting or declining the invitation, the follow-up remains there and an eye icon ( ![icon][img7] ) is displayed next to your name in the **Appointment**, **Task** or **Phone Call** dialog to show that you have seen it, but not made a decision.
+* If you close the **Invitations** dialog without accepting or declining the invitation, the follow-up remains there and an eye icon ![icon][img7] is displayed next to your name in the **Appointment**, **Task** or **Phone Call** dialog to show that you have seen it, but not made a decision.
 
 * Invitations are saved up until the day after the follow-up is marked as completed so that the participants can be informed of changes.
 
-* If you receive an invitation for a time when you are already occupied, an exclamation mark ( ![icon][img6] ) is displayed in the description of the follow-up in the **Invitations** dialog. This draws your attention to the fact that the invitation causes a conflict.
+* If you receive an invitation for a time when you are already occupied, an exclamation mark ![icon][img6] is displayed in the description of the follow-up in the **Invitations** dialog. This draws your attention to the fact that the invitation causes a conflict.
 
 <!-- Referenced links -->
 [1]: ../../clients/sales/diary/dialog-for-followups.md
@@ -94,8 +94,8 @@ Click **Close** to close the dialog.
 <!-- Referenced images -->
 [img1]: ../../../media/icons/globalmenu-notice-new.png
 [img2]: media/invitation.bmp
-[img3]: ../../../media/icons/invitation-accepted.bmp
-[img4]: ../../../media/icons/invitasjon-avslått.bmp
+[img3]: ../../../../common/icons/check-black.png
+[img4]: ../../../../common/icons/reject-appointment-icon.png
 [img5]: ../../../media/icons/recurring-booking-assignment.bmp
-[img6]: ../../../media/icons/invitation-dialog-exclamation-mark.bmp
-[img7]: ../../../media/icons/eye-icon.bmp
+[img6]: ../../../../common/icons/warning-red.png
+[img7]: ../../../../common/icons/assignment-seen.png

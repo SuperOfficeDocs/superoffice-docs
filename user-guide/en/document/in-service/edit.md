@@ -47,4 +47,4 @@ By editing the document's properties, you can, for example, change who is to hav
 [1]: create.md
 
 <!-- Referenced images -->
-[img1]: ../../../media/icons/service/btn-download.png
+[img1]: ../../../../common/icons/archive-icon.png

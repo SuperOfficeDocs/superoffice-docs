@@ -74,4 +74,4 @@ If you want to know which fields are displayed or not displayed, go to the **Set
 [5]: ../../../../import/import-products-from-excel.md
 
 <!-- Referenced images -->
-[img1]: ../../../../../media/icons/admin/soek.bmp
+[img1]: ../../../../../../common/icons/search-icon-black.png

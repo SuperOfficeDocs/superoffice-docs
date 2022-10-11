@@ -71,4 +71,4 @@ Using the ![icon][img2] menu button you can add recipients and clickers to a sel
 <!-- Referenced images -->
 [img1]: ../../../../media/icons/arrow-right.png
 [img2]: ../../../../media/icons/btn-menu.png
-[img3]: ../../../../media/icons/marketing-and-forms/btn-contact.png
+[img3]: ../../../../../common/icons/nav-contact.png

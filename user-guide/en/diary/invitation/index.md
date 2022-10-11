@@ -48,6 +48,6 @@ The follow-up is shown on the **Activities** section tab for the company in ques
 [3]: receive.md
 
 <!-- Referenced images -->
-[img1]: ../../../media/icons/invitation-accepted.bmp
-[img2]: ../../../media/icons/invitasjon-avslått.bmp
-[img3]: ../../../media/icons/eye-icon.bmp
+[img1]: ../../../../common/icons/check-black.png
+[img2]: ../../../../common/icons/reject-appointment-icon.png
+[img3]: ../../../../common/icons/assignment-seen.png

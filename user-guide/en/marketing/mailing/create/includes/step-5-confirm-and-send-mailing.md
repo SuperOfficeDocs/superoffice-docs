@@ -18,8 +18,8 @@ In order not to overload your servers during working hours, it might be a good i
 
 1. Click **Schedule**.
 2. Under **Schedule to send at**, select one of the following options:
-    * Click the **Choose date** icon ( ![icon][img3] ), and select the date and time the mailing is to start.
-    * Click **Set to now** ( ![icon][img2] ) to insert today's date and the time.
+    * Click the **Choose date** icon ![icon][img3], and select the date and time the mailing is to start.
+    * Click **Set to now** ![icon][img2] to insert today's date and the time.
 3. Click **OK**. The workflow closes and you are returned to the **Mailings** tab.
 
 ## What happens now?
@@ -34,4 +34,4 @@ To stop the mailing or start a planned mailing ahead of schedule, click the **St
 <!-- Referenced images -->
 [img1]: ../media/btn-sendnow.png
 [img2]: ../media/btn-schedule.png
-[img3]: ../../../../../media/icons/marketing-and-forms/btn-calendar.jpg
+[img3]: ../../../../../../common/icons/singlecolour/appointment.png

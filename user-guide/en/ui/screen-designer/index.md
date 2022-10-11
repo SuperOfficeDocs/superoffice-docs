@@ -42,4 +42,4 @@ The layouts are marked with status (published or draft) and the assigned user gr
 [2]: add-new-layout.md
 
 <!-- Referenced images -->
-[img1]: ../../../media/icons/admin/knapp-screendesigner.png
+[img1]: ../../../../common/icons/nav-admin-confscreen-active-h32.png

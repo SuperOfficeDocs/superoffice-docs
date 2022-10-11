@@ -143,8 +143,8 @@ In SuperOffice Settings and maintenance, you can also define your own views for 
 [img1]: ../../media/icons/arrow-left.png
 [img2]: ../../media/icons/arrow-right.png
 [img3]: ../../../common/icons/dropdown-icon.png
-[img4]: ../../media/icons/panel-right-hide.png
-[img5]: ../../media/icons/panel-right-show.png
+[img4]: ../../../common/icons/right-collapse.png
+[img5]: ../../../common/icons/right-expand.png
 [img7]: ../../media/icons/minicard-level.png
 [img8]: ../../media/icons/minicard-today.png
 [img9]: ../../media/icons/minicard-selected.png

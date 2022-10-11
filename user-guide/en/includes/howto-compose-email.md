@@ -43,7 +43,7 @@ To create quick replies:
 5. Click **Save**. The window closes and the new quick reply is saved.
 
 <!-- Referenced images -->
-[img1]: ../../media/icons/navigator-history-small.png
+[img1]: ../../../common/icons/nav-history.png
 [img2]: ../../media/icons/web-email-add-attachment-small.bmp
 [img3]: ../../media/icons/inbox/window-close.png
 [img4]: ../../../common/icons/copy-paste-icon.png

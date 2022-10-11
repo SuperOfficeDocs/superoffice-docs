@@ -39,4 +39,4 @@ Appointments can be displayed in the following places in SuperOffice CRM:
 [4]: activity.md
 
 <!-- Referenced images -->
-[img1]: ../../media/icons/knapperad-avtale.bmp
+[img1]: ../../../common/icons/appointment.png

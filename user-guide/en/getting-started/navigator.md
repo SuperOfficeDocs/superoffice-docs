@@ -139,10 +139,12 @@ If you hold the mouse pointer over a record in any the lists, a tooltip is displ
 
 <!-- Referenced images -->
 [img2]: media/navigator-preview-sales.png
+[img32]: media/navigator-preview-service.png
+
 [img3]: ../../media/icons/navigator-dashboard.bmp
 [img4]: ../../media/icons/navigator-company.bmp
 [img5]: ../../media/icons/navigator-contact.bmp
-[img6]: ../../../common/icons/nav-diary-h32.png
+[img6]: ../../media/icons/navigator-dagbok.bmp
 [img7]: ../../media/icons/navigator-salg.bmp
 [img8]: ../../media/icons/navigator-prosjekt.bmp
 [img9]: ../../media/icons/navigator-utvalg.bmp
@@ -152,22 +154,21 @@ If you hold the mouse pointer over a record in any the lists, a tooltip is displ
 [img13]: ../../media/icons/navigator-mailing.bmp
 [img14]: ../../media/icons/navigator-service.png
 [img15]: ../../media/icons/navigator-verktoey.bmp
-
-[img21]: ../../media/icons/panel-left-hide.png
-[img22]: ../../media/icons/panel-left-show.png
 [img23]: ../../media/icons/navigator-history.png
 [img24]: ../../media/icons/navigator-favorites.png
 [img25]: ../../media/icons/navigator-search.png
 [img26]: ../../media/icons/navigator-list.png
 
+[img21]: ../../media/icons/panel-left-hide.png
+[img22]: ../../media/icons/panel-left-show.png
+
 [img31]: ../../media/icons/nav-mailing.png
-[img32]: media/navigator-preview-service.png
 [img33]: ../../media/icons/nav-request.png
 [img34]: ../../media/icons/nav-company.png
 [img35]: ../../media/icons/nav-selection.png
 [img36]: ../../media/icons/nav-kb.png
-[img37]: ../../media/icons/nav-statistics.png
-[img39]: ../../media/icons/nav-chat.png
+[img37]: ../../../common/icons/nav-reports-h32.png
+[img39]: ../../../common/icons/nav-chat-h32.png
 
 [img41]: ../../../common/icons/nav-admin-chat-active-h32.png
 [img42]: ../../media/icons/admin/knapp-lisenser.bmp
@@ -178,6 +179,7 @@ If you hold the mouse pointer over a record in any the lists, a tooltip is displ
 [img47]: ../../media/icons/admin/knapp-ai.png
 [img48]: ../../media/icons/admin/knapp-lister.bmp
 [img49]: ../../media/icons/admin/knapp-quotesync.bmp
+
 [img50]: ../../media/icons/admin/knapp-arbeidsflyt.bmp
 [img51]: ../../media/icons/admin/knapp-screendesigner.png
 [img52]: ../../media/icons/admin/knapp-preferanser.bmp

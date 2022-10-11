@@ -28,7 +28,7 @@ If you want a list with two levels, you need to select headings for each individ
 
 4. Check **Use grouping and user group filtering for this list** in the top right.
 
-5. Check the box next to the required heading name in the **Headings** list to specify that the selected list item will be displayed under it. The box will then be marked with a tick (![icon][img4]).
+5. Check the box next to the required heading name in the **Headings** list to specify that the selected list item will be displayed under it. The box will then be marked with a tick (![icon][img1]).
 
     The changes are saved automatically.
 
@@ -65,4 +65,4 @@ If you want a list with two levels, you need to select headings for each individ
 [2]: index.md
 
 <!-- Referenced images -->
-[img4]: ../../../../media/icons/admin/valgtboks.bmp
+[img1]: ../../../../media/icons/btn-selected.png

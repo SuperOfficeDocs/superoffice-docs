@@ -15,7 +15,7 @@ language: en
 
 ## Request header
 
-The header of the request contains the properties defined when the [request was created][4]. The header consists of the request title, request ID, contact and deadline. In addition, you can click ![icon][img3] to set the request as a favourite ( ![icon][img4] ). The request will then be accessible via **My favourites** under **Requests** in the Navigator, and in the **My favourites** tile on the dashboard.
+The header of the request contains the properties defined when the [request was created][4]. The header consists of the request title, request ID, contact and deadline. In addition, you can click ![icon][img3] to set the request as a favourite ![icon][img4]. The request will then be accessible via **My favourites** under **Requests** in the Navigator, and in the **My favourites** tile on the dashboard.
 
 ## Message types
 
@@ -44,8 +44,8 @@ There are basically three types of messages:
 [7]: howto/index.md
 
 <!-- Referenced images -->
-[img1]: ../../media/icons/navigator-dashboard-small.bmp
-[img2]: ../../media/icons/nav-request-small.png
-[img5]: ../../media/icons/service/message-internal.png
-[img3]: ../../media/icons/favorite-inactive.png
-[img4]: ../../media/icons/favorite-inactive.png
+[img1]: ../../../common/icons/nav-dashboard.png
+[img2]: ../../../common/icons/nav-cs.png
+[img5]: ../../../common/icons/addcomment.png
+[img3]: ../../../common/icons/favourite-no.png
+[img4]: ../../../common/icons/favourite-yes.png

@@ -8,8 +8,8 @@
 | ![icon][img5] | All | Shows only entries in selection 1 and selection 2. |
 
 <!-- Referenced images -->
-[img1]: ../../../../media/icons/selection-comb-onlyin1.png
-[img2]: ../../../../media/icons/selection-comb-onlyin2.png
-[img3]: ../../../../media/icons/selection-comb-common.png
-[img4]: ../../../../media/icons/selection-comb-diff.png
-[img5]: ../../../../media/icons/selection-comb-all.png
+[img1]: ../../../../../common/icons/selection-combined-only-in-sel1.png
+[img2]: ../../../../../common/icons/selection-combined-only-in-sel2.png
+[img3]: ../../../../../common/icons/selection-combined-common.png
+[img4]: ../../../../../common/icons/selection-combined-difference.png
+[img5]: ../../../../../common/icons/selection-combined-all.png

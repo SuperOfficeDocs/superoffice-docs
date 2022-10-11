@@ -45,7 +45,7 @@ There are several ways in which you can join a video meeting in SuperOffice:
 [2]: ../clients/sales/diary/dialog-for-followups.md
 
 <!-- Referenced images -->
-[img1]: ../../media/icons/videomeeting-inactive.png
-[img2]: ../../media/icons/videomeeting-active.png
-[img3]: ../../media/icons/videomeeting-diaryicon.png
-[img4]: ../../media/icons/videomeeting-copylink.png
+[img1]: ../../../common/icons/videocall-off.png
+[img2]: ../../../common/icons/videocall.png
+[img3]: ../../../common/icons/diary-videocall.png
+[img4]: ../../../common/icons/diary-copy.png

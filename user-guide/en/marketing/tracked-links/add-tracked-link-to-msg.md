@@ -76,5 +76,5 @@ To add tracked links to the message:
 <!-- Referenced images -->
 [img4]: ../../../media/icons/marketing-and-forms/newbtn-link.png
 [img1]: ../../../media/icons/btn-add.png
-[img2]: ../../../media/icons/marketing-and-forms/btn-folder.png
+[img2]: ../../../../common/icons/folder.png
 [img3]: ../../../media/icons/marketing-and-forms/btn-link.png

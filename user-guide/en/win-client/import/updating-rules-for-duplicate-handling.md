@@ -56,4 +56,4 @@ You always need to specify rules for handling duplicates during importing. You d
 [3]: resetting-rules-for-duplicate-handling.md
 
 <!-- Referenced images -->
-[img1]: ../../../media/icons/admin/soek.bmp
+[img1]: ../../../../common/icons/search-icon-black.png

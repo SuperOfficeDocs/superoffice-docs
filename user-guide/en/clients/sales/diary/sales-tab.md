@@ -34,7 +34,7 @@ The following data is displayed:
 
 * The sale date (estimated, sold or lost)
 
-* A status icon for the sale, showing whether it is sold ( ![icon][img1] ), lost ( ![icon][img2] ) or stalled ( ![icon][img3] ) (if there is no icon, the sale is "open") (see [Stalled, sold and lost sales][4])
+* A status icon for the sale, showing whether it is sold ![icon][img1], lost ![icon][img2] or stalled ![icon][img3] (if there is no icon, the sale is "open") (see [Stalled, sold and lost sales][4])
 
 Sales not marked as completed are shown in this list.
 
@@ -60,6 +60,6 @@ The **Sales** section tab in the diary functions as a kind of "sales secretary" 
 <!-- Referenced images -->
 [img1]: ../../../../media/icons/salg-solgt-detaljkort.bmp
 [img2]: ../../../../media/icons/salg-tapt-detaljkort.bmp
-[img3]: ../../../../media/icons/salg-utsatt-detaljkort.bmp
+[img3]: ../../../../../common/icons/salestalled.png
 [img4]: media/sales-detail.bmp
 [img5]: ../../../../media/icons/globalmenu-personalsettings-small.png
