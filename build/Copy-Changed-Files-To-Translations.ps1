@@ -4,11 +4,11 @@ Write-Output "basedir=$basedir"
 Set-Location $basedir
 
 $log = &{ git log --since="$sinceWhen" --name-only }
-$changes = @($log) -match "user-guide/en/a*" | Select-Object -unique
-Compress-Archive -DestinationPath "translate-$name-en-changes.zip" -Path $changes
-Get-ChildItem *.zip
+$changes = @($log) -match "user-guide/en/a*" | Select-Object -unique | Where-Object { Test-Path $_ }
 Write-Output "Changes"
 Write-Output $changes
+Compress-Archive -DestinationPath "translate-$name-en-changes.zip" -Path $changes
+Get-ChildItem *.zip
 #
 $langs = @( 'no', 'de', 'sv' )
 $sourceFolderName = "user-guide/en/"
