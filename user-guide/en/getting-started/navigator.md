@@ -139,11 +139,9 @@ If you hold the mouse pointer over a record in any the lists, a tooltip is displ
 
 <!-- Referenced images -->
 [img2]: media/navigator-preview-sales.png
-[img32]: media/navigator-preview-service.png
-
-[img3]: ../../media/icons/navigator-dashboard.bmp
-[img4]: ../../media/icons/navigator-company.bmp
-[img5]: ../../media/icons/navigator-contact.bmp
+[img3]: ../../../common/icons/nav-dashboard-h32.png
+[img4]: ../../../common/icons/nav-company-h32.png
+[img5]: ../../../common/icons/nav-contact-h32.png
 [img6]: ../../media/icons/navigator-dagbok.bmp
 [img7]: ../../media/icons/navigator-salg.bmp
 [img8]: ../../media/icons/navigator-prosjekt.bmp
