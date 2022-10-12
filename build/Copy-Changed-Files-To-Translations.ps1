@@ -4,7 +4,7 @@ Write-Output "basedir=$basedir"
 Set-Location $basedir
 
 $log = &{ git log --since="$sinceWhen" --name-only }
-$changes = @($log) -match "user-guide/en/a*" | Select-Object -unique | Where-Object { Test-Path $_ }
+$changes = @($log) -like "user-guide/en/a*" | Select-Object -unique | Where-Object { Test-Path -Path $_ -PathType Leaf}
 Write-Output "Changes"
 Write-Output $changes
 Write-Output "-----"
