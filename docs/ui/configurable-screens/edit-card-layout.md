@@ -22,13 +22,16 @@ Before you customize a layout, determine who the intended users are.
 * Do they require additional tabs?
 * What is the logical order of fields?
 
+> [!NOTE]
+> You can also modify the **default layout** of one or more screens for all users to fit the specific needs of your organization. However, you can't edit the settings and you can't re-assign it.
+
 ## Edit card layout
 
 1. Open the Screen Designer.
 2. Select a card at the top: Company, Contact, Sale, or Project.
 3. Select a layout in the list on the left side.
-4. Click **Edit layout** below the preview. The Edit card layout window opens.
-5. Work your way through the tabs of the card.
+4. Click **Edit layout** below the preview.
+5. In the **Edit card layout** window, work your way through the tabs of the card.
 
     * [Add, edit, move, or remove a field][1]
     * [Add link or button][2]

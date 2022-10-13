@@ -31,7 +31,7 @@ To create a new screen layout:
 
 5. Enter a name and description for the new layout.
 
-6. Click the **Used by** field and assign the new layout to one or more user groups.
+6. Click the **Used by** field and assign the new layout to one or more user groups **or** sale/project type.
 
     > [!NOTE]
     > Only groups currently using the default layout are shown.
@@ -44,6 +44,14 @@ To create a new screen layout:
 
 1. With the new layout selected in the **Layouts** list, click the **Edit layout** button.
 
+2. Work your way through the tabs of the card.
+
+    * [Add, edit, move, or remove a field][1]
+    * [Add link or button][2]
+    * [Add tab][3]
+
+3. When you're done, save or publish the layout.
+
 ## Delete a layout
 
 When you delete a custom layout, user groups assigned to it are reassigned to the system layout.
@@ -54,5 +62,8 @@ To delete a layout:
 1. Click **Delete**.
 
 <!-- Referenced links -->
+[1]: working-with-fields.md
+[2]: add-button.md
+[3]: add-tab.md
 
 <!-- Referenced images -->

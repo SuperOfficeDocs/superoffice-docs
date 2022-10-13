@@ -40,13 +40,14 @@ The **Screen Designer** in Settings and maintenance replaces [PageBuilder][1] an
 
 ## Layouts
 
-The system layout applies to all users unless you have created and assigned custom layouts to some users.
+The default (system) layout applies to all users unless you have created and assigned custom layouts to some users.
 
-* Active layouts
+In addition, you can [add custom layouts][2] and assign them to a user group. Layouts in the **Sales** screen can alternatively be assigned to a **sales type**. Layouts in the **Project** screen can alternatively be assigned to a **project type**.
 
-* How to add group layout
+Layouts have status published or draft.
 
 <!-- Referenced links -->
 [1]: ../web-app/pagebuilder/index.md
+[2]: add-layout.md
 
 <!-- Referenced images -->
