@@ -16,7 +16,7 @@ items:
     You must have:
     * a [tenant](../terminology.md) and user with admin privileges for testing sign-in.
     * an understanding of [OpenID Connect](index.md). This example uses the [Authorization Code](../../api/authentication/online/sign-in-user/auth-code-flow.md) flow.
-    * a [registered application](../getting-started/get-app-keys.md) with Application Id (client_id) and Application Secret (client_secret).
+    * a [registered application](../../developer-portal/create-app/index.md) with Application Id (client_id) and Application Secret (client_secret).
 
     ![imageb65a.png -screenshot](../media/imageb65a.png)
 

@@ -64,19 +64,7 @@ For SOAP SuperOffice supplies .NET proxy assemblies as NuGet packages. All other
 
 ## Set up your SuperOffice app development environment
 
-Before you begin coding...
-
-Some platform capabilities must be explicitly enabled for the application:
-
-* System user token
-* Database mirroring
-* Webhooks
-* ERP Sync
-* Quote Connectors
-
-You may later change these settings, but these changes will revoke the current access to the tenants and require the customer administrator to re-approve the application.
-
-When we set up the application and send the client ID, client secret, and system user private key to you, we will also specify which web service endpoints your application will receive back by default. These endpoints are not changed unless you specifically ask for them. The same goes for any of the other capabilities or whitelisted URLs.
+Before you begin coding, the application must be [registered in the Developer Portal][2].
 
 ## Confused about where to start?
 
@@ -100,6 +88,7 @@ Creating an application for the SuperOffice App Store is not something to take l
 
 <!-- Referenced links -->
 [1]: app-envir.md
+[2]: ../../developer-portal/create-app/index.md
 [3]: ../terminology.md
 [4]: ../redirects/index.md
 [6]: ../certification/certify-app.md
