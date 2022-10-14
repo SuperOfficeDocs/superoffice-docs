@@ -118,10 +118,10 @@ The result of this should now be a table listing something like this:
 A nice improvement could be to use the `TimeSpan` class to pretty-print the closing time. Also, one could make this into a single-row report (one row per person). Note that in this case, it would be wise to use some variables (or perhaps a map) which remembers each value, and the print the row on `result.atGroupEnd(0)`. The reason for this is that you cannot be guaranteed that all types will show up. If I do not have any requests of type Hardware, then I will never get a group for this. This is similar to grouping in a database.
 
 <!-- Referenced links -->
-[1]: <xref:crmscript.native.searchengine>
-[2]: <xref:crmscript.native.stringmatrix>
-[3]: <xref:crmscript.native.statlib>
-[4]: <xref:crmscript.native.statresult>
+[1]: <xref:CRMScript.Native.SearchEngine>
+[2]: <xref:CRMScript.Native.StringMatrix>
+[3]: <xref:CRMScript.Native.StatLib>
+[4]: <xref:CRMScript.Native.StatResult>
 [5]: ../../../database/tables/ticket.md
 
 [img1]: media/report-table.png

@@ -262,7 +262,7 @@ For a customer who have 2 duplicate onsite-env. and already have OAuth 2.0 regis
 [6]: https://www.codetwo.com/kb/upn/#exchange
 [7]: https://www.codetwo.com/kb/upn/#office-365
 [8]: https://community.superoffice.com/en/learning/admin-guide/service/request-setup/service-mailbox-setup/
-[9]: ./inbox.html
+[9]: inbox.md
 
 <!-- Referenced images -->
 [img1]: media/320curl.jpg

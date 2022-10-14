@@ -12,10 +12,6 @@ items:
 - name: Changes
   href: database/index.md
   items:
-  - name: Whats new in 10.1.6.812
-    href: database/changes-10.1.6.812.md
-  - name: Whats new in 10.1.5.2031
-    href: database/changes-10.1.5.2031.md
   - name: Whats new in 10.1.5
     href: database/changes-10.1.5.md
   - name: Whats new in 10.1.2
