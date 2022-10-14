@@ -8,7 +8,8 @@ Set-Location $basedir
 $log = &{ git log --since="$sinceWhen" --name-only }
 $changes = @($log) -like "user-guide/en/a*" | Select-Object -unique | Where-Object { Test-Path -Path $_ -PathType Leaf}
 Write-Output "Changes"
-mkdir en -Force
+$targetFolderName = "en-changes/"
+New-Item -Path $targetFolderName -ItemType Directory -Force | Out-Null
 foreach ($itemToCopy in $changes)
 {
   if( Test-Path -Path $itemToCopy )
@@ -25,16 +26,16 @@ foreach ($itemToCopy in $changes)
       }
 
       Copy-Item -Path $itemToCopy -Destination $targetPathAndFile 
-      Write-Output $itemToCopy
+      Write-Output $targetPathAndFile
     }
   }
 }
 Write-Output "-----"
 
 Write-Output "Creating archive '$name'"
-Compress-Archive -DestinationPath "translate-$name-en-changes.zip" -Path "en"
+Compress-Archive -DestinationPath "translate-$name-en-changes.zip" -Path $targetFolderName
 Get-ChildItem *.zip
-Remove-Item en -Recurse -Force 
+Remove-Item -Path $targetFolderName -Recurse -Force 
 #
 Write-Output "Copying EN to languages folders"
 $langs = @( 'no', 'de', 'sv' )
