@@ -22,7 +22,7 @@ On the right is the remote ERP Connector, a remote website that exposes the web 
 
 ## Configure
 
-When administrators configure an ERP Sync Connector inside SuperOffice today, they must fill in a Sync Connector name and a Sync Connector URL.
+When administrators configure an **onsite** ERP Sync Connector, they must fill in a Sync Connector name and a Sync Connector URL. In **online**, the Sync Connector URL is **app://client_id**. There is more information about online configuration requirements in the [security][2] section.
 
 ![editsyncconnector -screenconnector][img2]
 

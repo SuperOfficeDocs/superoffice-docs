@@ -109,9 +109,9 @@ conceptualContent:
         - text: Get access to SOD
           itemType: how-to-guide
           url: ../apps/getting-started/get-access-to-sod.md
-        - text: Get application keys
+        - text: Register an application
           itemType: how-to-guide
-          url: ../apps/getting-started/get-app-keys.md
+          url: ../developer-portal/create-app/index.md
         - text: "Requirements"
           itemType: reference
           url: ../apps/requirements/index.md

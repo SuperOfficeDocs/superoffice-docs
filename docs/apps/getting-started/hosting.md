@@ -20,11 +20,11 @@ As a partner, you will have to host your applications in **your own cloud** envi
 
 In practical terms, this means that you must build and host a page that receives [JWT tokens][3] at the redirect URL. This page must be up and running before you attempt to connect to our APIs and authorize your application.
 
-Before you get to authorization, you must sign up to get your unique [client IDs and client secret][4]. You must tell us about your callback/redirect [URLs][5] when you [sign up][6].
+Before you get to authorization, you must sign up to get your unique [client IDs and client secret][4]. You must tell us about your callback/redirect [URLs][5] when you [create an application][6].
 
 <!-- Referenced links -->
 [1]: ../provisioning/index.md
 [3]: ../../api/authentication/online/validate-security-tokens.md
 [4]: ../terminology.md
 [5]: ../redirects/index.md
-[6]: get-app-keys.md
+[6]: ../../developer-portal/create-app/index.md
