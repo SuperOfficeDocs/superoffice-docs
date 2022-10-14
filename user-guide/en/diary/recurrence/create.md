@@ -68,5 +68,5 @@ In the **Appointment**, **Task** or **Phone call** dialog, the text next to the 
 [img2]: ../../../media/icons/arrow-right.png
 [img3]: ../../../media/icons/pil-ned.bmp
 [img4]: ../../../media/icons/pil-opp.bmp
-[img5]: ../../../media/icons/kalender-pil-venstre.bmp
-[img6]: ../../../media/icons/kalender-pil-hoeyre.bmp
+[img5]: ../../../media/icons/kalender-arrow-left.png
+[img6]: ../../../media/icons/kalender-arrow-right.png

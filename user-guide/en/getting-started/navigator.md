@@ -139,33 +139,31 @@ If you hold the mouse pointer over a record in any the lists, a tooltip is displ
 
 <!-- Referenced images -->
 [img2]: media/navigator-preview-sales.png
-[img32]: media/navigator-preview-service.png
-
 [img3]: ../../../common/icons/nav-dashboard-h32.png
 [img4]: ../../../common/icons/nav-company-h32.png
 [img5]: ../../../common/icons/nav-contact-h32.png
 [img6]: ../../media/icons/navigator-dagbok.bmp
-[img7]: ../../../common/icons/nav-sale-h32.png
-[img8]: ../../../common/icons/nav-project-h32.png
-[img9]: ../../../common/icons/nav-selection-h32.png
-[img10]: ../../../common/icons/nav-inbox-h32.png
-[img11]: ../../../common/icons/nav-chat-h32.png
-[img12]: ../../../common/icons/nav-reports-h32.png
-[img13]: ../../../common/icons/nav-marketing-h32.png
-[img14]: ../../../common/icons/nav-cs-h32.png
-[img15]: ../../../common/icons/nav-tools-h32.png
-[img23]: ../../../common/icons/nav-history.png
-[img24]: ../../../common/icons/favourite-icon.png
-[img25]: ../../../common/icons/nav-search.png
-[img26]: ../../../common/icons/nav-list.png
+[img7]: ../../media/icons/navigator-salg.bmp
+[img8]: ../../media/icons/navigator-prosjekt.bmp
+[img9]: ../../media/icons/navigator-utvalg.bmp
+[img10]: ../../media/icons/navigator-e-post.bmp
+[img11]: ../../media/icons/navigator-chat.png
+[img12]: ../../media/icons/navigator-rapporter.bmp
+[img13]: ../../media/icons/navigator-mailing.bmp
+[img14]: ../../media/icons/navigator-service.png
+[img15]: ../../media/icons/navigator-verktoey.bmp
+[img23]: ../../media/icons/navigator-history.png
+[img24]: ../../media/icons/navigator-favorites.png
+[img25]: ../../media/icons/navigator-search.png
+[img26]: ../../media/icons/navigator-list.png
 
-[img21]: ../../../common/icons/left-collapse.png
-[img22]: ../../../common/icons/left-expand.png
+[img21]: ../../media/icons/panel-left-hide.png
+[img22]: ../../media/icons/panel-left-show.png
 
-[img31]: ../../../common/icons/nav-marketing-h32.png
-[img33]: ../../../common/icons/nav-cs-h32.png
-[img34]: ../../../common/icons/nav-company-h32.png
-[img35]: ../../../common/icons/nav-selection-h32.png
+[img31]: ../../media/icons/nav-mailing.png
+[img33]: ../../media/icons/nav-request.png
+[img34]: ../../media/icons/nav-company.png
+[img35]: ../../media/icons/nav-selection.png
 [img36]: ../../media/icons/nav-kb.png
 [img37]: ../../../common/icons/nav-reports-h32.png
 [img39]: ../../../common/icons/nav-chat-h32.png

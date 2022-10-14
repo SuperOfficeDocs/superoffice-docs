@@ -46,6 +46,6 @@ There are basically three types of messages:
 <!-- Referenced images -->
 [img1]: ../../../common/icons/nav-dashboard.png
 [img2]: ../../../common/icons/nav-cs.png
-[img5]: ../../media/icons/service/message-internal.png
+[img5]: ../../../common/icons/addcomment.png
 [img3]: ../../../common/icons/favourite-no.png
 [img4]: ../../../common/icons/favourite-yes.png

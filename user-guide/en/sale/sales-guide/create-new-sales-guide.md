@@ -158,4 +158,4 @@ Agenda for first meeting:
 [4]: ../../settings/lists/document-template.md
 
 <!-- Referenced images -->
-[img1]: ../../../media/icons/admin/knapp-arbeidsflyt-liten.bmp
+[img1]: ../../../../common/icons/nav-admin-workflow-active.png

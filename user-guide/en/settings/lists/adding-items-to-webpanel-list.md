@@ -85,4 +85,4 @@ This is how to fill out the fields in the **Edit list items** dialog when the it
 [1]: adding-items.md
 
 <!-- Referenced images -->
-[img1]: ../../../media/icons/admin/knapp-verktoey-liten.bmp
+[img1]: ../../../../common/icons/nav-tools.png

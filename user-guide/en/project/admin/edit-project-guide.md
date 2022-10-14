@@ -28,4 +28,4 @@ The changes are saved automatically.
 [3]: adding-items-to-project-status-list.md
 
 <!-- Referenced images -->
-[img1]: ../../../media/icons/admin/knapp-arbeidsflyt-liten.bmp
+[img1]: ../../../../common/icons/nav-admin-workflow-active.png

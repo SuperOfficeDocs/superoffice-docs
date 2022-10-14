@@ -37,4 +37,4 @@ If you want to assign a user to this group, [edit the user][1] and select this g
 
 <!-- Referenced images -->
 [img1]: ../../media/icons/globalmenu-settings-small.png
-[img2]: ../../media/icons/admin/knapp-lister-liten.bmp
+[img2]: ../../../common/icons/nav-admin-lists-active.png

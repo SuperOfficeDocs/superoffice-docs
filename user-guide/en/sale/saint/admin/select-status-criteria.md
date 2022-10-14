@@ -49,5 +49,5 @@ A status is only active for companies, contacts or projects that fulfil all the 
 
 <!-- Referenced images -->
 [img1]: ../../../../media/icons/admin/pil-ned.bmp
-[img2]: ../../../../media/icons/arrow-right.png
-[img3]: ../../../../media/icons/btn-selected.png
+[img2]: ../../../../media/icons/pil-hoeyre.bmp
+[img3]: ../../../../media/icons/admin/avmerkingsboks.bmp

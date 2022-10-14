@@ -89,9 +89,9 @@ The section at the bottom contains the following options:
   * Click **Upload files (or drag here)** to browse to and add a file from a disk or server.
   * Drag and drop a file from Windows Explorer to the attachments field.
   * Click **Choose a CRM document** to select a document in SuperOffice CRM.
-* **Insert**: Click the list button ( ![icon][img4] ), and select what to insert in the message. You can add a reply template, an FAQ entry, a previous message, or an attachment. Optional: You can also add reply templates in other languages. Select a language in the language list. If available, the text will be inserted in the selected language. Otherwise the default language will be used. See [Create new language version of reply template][7].
+* **Insert**: Click the list button ![icon][img4], and select what to insert in the message. You can add a reply template, an FAQ entry, a previous message, or an attachment. Optional: You can also add reply templates in other languages. Select a language in the language list. If available, the text will be inserted in the selected language. Otherwise the default language will be used. See [Create new language version of reply template][7].
 * **Internal/External**: Here you can select **External** if the contact is to have access to the message via SuperOffice Customer Centre, or **Internal** if the contact is not to have access to the message.
-* **Time spent**: Here you can record how much time was spent dealing with the message. The clock starts automatically when you create the request. You can stop the clock by clicking the stop button ( ![icon][img5] ), and also re-start the clock by clicking the start button ( ![icon][img6] ). Click ![icon][img7] (**Select time span**) button to register time spent.
+* **Time spent**: Here you can record how much time was spent dealing with the message. The clock starts automatically when you create the request. You can stop the clock by clicking the stop button ![icon][img5], and also re-start the clock by clicking the start button ![icon][img6]. Click ![icon][img7] (**Select time span**) button to register time spent.
 
 > [!NOTE]
 > The default request signature will be added to the message. You can edit the signature directly or
@@ -132,6 +132,6 @@ This tab contains any extra fields defined for requests. These will vary from co
 [img2]: ../../../media/icons/service/msg-toolbar.png
 [img3]: ../../../media/icons/service/msg-attachment.png
 [img4]: ../../../../common/icons/dropdown-arrow.png
-[img5]: ../../../media/icons/service/stop.png
-[img6]: ../../../media/icons/service/play.png
+[img5]: ../../../../common/icons/stop.png
+[img6]: ../../../../common/icons/play.png
 [img7]: ../../../../common/icons/timespan.png

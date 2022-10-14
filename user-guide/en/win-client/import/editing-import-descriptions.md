@@ -34,4 +34,4 @@ To edit import descriptions:
 [1]: creating-import-descriptions.md
 
 <!-- Referenced images -->
-[img1]: ../../../media/icons/admin/soek.bmp
+[img1]: ../../../../common/icons/search-icon-black.png
