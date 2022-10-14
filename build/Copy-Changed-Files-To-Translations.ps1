@@ -60,7 +60,7 @@ foreach ($lang in $langs)
       Copy-Item -Path $itemToCopy -Destination $targetPathAndFile 
       if( $itemToCopy -like "*.md")
       {
-        Write-Output "$itemToCopy --> $targetPathAndFile"
+        # Write-Output "$itemToCopy --> $targetPathAndFile"
         # Update language code
         $content = Get-Content -path $targetPathAndFile -raw # get as single string
         # (?m) = regex mode select multiline line matching

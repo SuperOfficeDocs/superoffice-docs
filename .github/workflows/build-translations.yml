@@ -76,7 +76,7 @@ jobs:
 
           # Additional arguments for the git commit command. The --message argument is already set by the message input.
           # Default: ''
-          commit: --signoff
+          # commit: --signoff
 
           # The name of the custom committer you want to use, if different from the author of the commit.
           # Default: the name of the author (set with either author_name or default_author)
