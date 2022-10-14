@@ -13,7 +13,7 @@ so.client:
 
 # Assign layout to group, sale type, or project type
 
-[!include[Requirement](../../../common/includes/req-dev-tools.md)]
+[!include[Requirement](../../../../common/includes/req-dev-tools.md)]
 
 > [!NOTE]
 > The default layout can't be assigned.
@@ -21,9 +21,9 @@ so.client:
 If you delete a layout, user groups assigned to it, will go back to the default layout.
 
 1. Open the Screen Designer.
-2. Select a card at the top: Company, Contact, Sale, or Project.
+2. At the top, select a screen: Company, Contact, Sale, or Project.
 3. Select a layout in the list on the left side.
-4. Click the **Used by** field. Your options depend on the card.
+4. Click the **Used by** field. Your options depend on the selected screen.
 
     * Company and contact: Select one or more user groups.
     * Sale: First select assignment method (user group or sale type), then select the specific groups or types.

@@ -13,7 +13,7 @@ so.client:
 
 # Add a tab
 
-[!include[Requirement](../../../common/includes/req-dev-tools.md)]
+[!include[Requirement](../../../../common/includes/req-dev-tools.md)]
 
 You can add custom tabs, for example, for fields related to a specific area.
 

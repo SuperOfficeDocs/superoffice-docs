@@ -22,7 +22,7 @@ highlightedContent:
     # Card
     - title: "Configurable screens"
       itemType: overview
-      url: configurable-screens/index.md
+      url: screen-designer/index.md
     # Card
     - title: "Web application API"
       itemType: reference
@@ -41,6 +41,34 @@ conceptualContent:
   title: "" # < 60 chars (optional)
   summary: ""
   items:
+    # Card
+    - title: Configurable screens
+      summary: "Configurable screens gives CRM Administrators a unified way of customizing the SuperOffice CRM user interface."
+      links:
+        - url: screen-designer/index.md
+          itemType: concept
+          text: Intro
+        - text: Add a layout
+          itemType: how-to-guide
+          url: add-layout.md
+        - text: Edit the layout of a card
+          itemType: how-to-guide
+          url: edit-card-layout.md
+        - text: Working with fields
+          itemType: how-to-guide
+          url: working-with-fields.md
+        - text: Add a link or button
+          itemType: how-to-guide
+          url: add-button.md
+        - text: Add a tab
+          itemType: how-to-guide
+          url: add-tab
+        - text: Delete a tab
+          itemType: how-to-guide
+          url: delete-tab
+        - text: Assign layout to group or sale/project type
+          itemType: how-to-guide
+          url: assign-layout.md
     # Card
     - title: Web panels
       summary: ""
@@ -91,34 +119,6 @@ conceptualContent:
       - url: soprotocol/get-contact.md
         itemType: how-to-guide
         text: How to get a contact
-    # Card
-    - title: Configurable screens
-      summary: ""
-      links:
-        - url: configurable-screens/index.md
-          itemType: concept
-          text: Intro
-        - text: Edit the layout of a card
-          itemType: how-to-guide
-          url: edit-card-layout.md
-        - text: Working with fields
-          itemType: how-to-guide
-          url: working-with-fields.md
-        - text: Add a link or button
-          itemType: how-to-guide
-          url: add-button.md
-        - text: Add a tab
-          itemType: how-to-guide
-          url: add-tab
-        - text: Delete a tab
-          itemType: how-to-guide
-          url: delete-tab
-        - text: Add a layout
-          itemType: how-to-guide
-          url: add-layout.md
-        - text: Assign layout to group or sale/project type
-          itemType: how-to-guide
-          url: assign-layout.md
     # Card
     - title: Custom screens
       summary: ""

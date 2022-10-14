@@ -15,7 +15,7 @@ so.client:
 
 [!include[Requirement](../../../common/includes/req-dev-tools.md)]
 
-The SuperOffice Screen Designer lets you design cards that make the most sense in your organization.
+The The **Screen Designer** in Settings and maintenance lets you design layouts that make the most sense in your organization. It replaces [PageBuilder][2] and the old way of customizing the UI - screen by screen.
 
 The **Layouts** list displays any existing screen layouts (usually the default layout), with a preview screen on the right.
 
@@ -24,12 +24,6 @@ The **Layouts** list displays any existing screen layouts (usually the default l
 * Settings: Customize appearance of individual field.
 * Columns: Choose how many columns (1-4) the fields and elements may occupy.
 * Tabs: Can be added, rearranged, and deleted.
-
-## More tab
-
-The **More** tab has all custom fields. You probably want to go through and organize these. You can add important custom fields other places.
-
-User-defined fields (udef) and extra fields are created as before.
 
 ## Where do I start?
 
@@ -40,6 +34,9 @@ To open the Screen Designer, go to **Settings and maintenance** and select **Scr
 * Available settings depend on the selected field type.
 
 Learn more about [working with fields][1]
+
+> [!NOTE]
+> After you publish a layout, users assigned to it must sign out of SuperOffice and back in to see the changes.
 
 ### Undo changes
 
@@ -55,6 +52,7 @@ Without the Development Tools license, new cards take effects and the custom fie
 <!-- When a customer publishes their first layout from the Screen Designer, page1 admin is gone. However, this ability is preserved you don't use the designer. -->
 
 <!-- Referenced links -->
-[1]: working-with-fields.md
+[1]: configurable-screens/working-with-fields.md
+[2]: ../web-app/pagebuilder/index.md
 
 <!-- Referenced images -->

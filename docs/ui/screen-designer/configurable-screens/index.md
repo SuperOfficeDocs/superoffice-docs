@@ -13,11 +13,9 @@ so.client:
 
 # Configurable screens
 
-[!include[Requirement](../../../common/includes/req-dev-tools.md)]
+[!include[Requirement](../../../../common/includes/req-dev-tools.md)]
 
 **Configurable screens** gives CRM Administrators a unified way of customizing the SuperOffice CRM user interface.
-
-The **Screen Designer** in Settings and maintenance replaces [PageBuilder][1] and the old way of customizing the UI - screen by screen.
 
 ## Which screens can I configure?
 
@@ -46,8 +44,19 @@ In addition, you can [add custom layouts][2] and assign them to a user group. La
 
 Layouts have status published or draft.
 
+![Screen Designer draft layout -screenshot][img1]
+
+![Screen Designer published layout -screenshot][img2]
+
+## More tab
+
+The **More** tab has all custom fields ordered by rank. You probably want to go through and organize these. You can add important custom fields other places.
+
+User-defined fields (udef) and extra fields are created as before.
+
 <!-- Referenced links -->
-[1]: ../web-app/pagebuilder/index.md
 [2]: add-layout.md
 
 <!-- Referenced images -->
+[img1]: media/status-draft.png
+[img2]: media/status-published.png

@@ -3,9 +3,9 @@ items:
   topicHref: index.yml
   expanded: true
   items:
-  - name: Configurable screens
-    href: configurable-screens/toc.yml
-    topicHref: configurable-screens/index.md
+  - name: Screen designer
+    href: screen-designer/toc.yml
+    topicHref: screen-designer/index.md
   - name: Web application
     href: web-app/toc.yml
     topicHref: web-app/index.yml
