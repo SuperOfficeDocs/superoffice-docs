@@ -16,10 +16,10 @@ so.version: 10
 **Standard fields:**
 
 | Field | Type | Can hide label | Comment |
-|---|---|---|---|
-| Address | Address | x | Show in expanded mode |
+|---|---|:-:|---|
+| [Address][6] | Address | x | Show in expanded mode |
 | Business | Text | x | |
-| Category | Text | x | |
+| [Category][8] | Text | x | |
 | Code | Text | x | |
 | Company name | Text | x | |
 | Country | Text | x | |
@@ -27,7 +27,7 @@ so.version: 10
 | Email | Text | x | |
 | ERP | ERP | x | Has no options |
 | Fax | Text | x | |
-| Interests | Interests | x | Has no options |
+| [Interests][7] | Interests | x | Has no options |
 | Last modified | Date | x | |
 | Main contact | Text | x | |
 | No mailings | Checkbox | x | |
@@ -43,6 +43,8 @@ so.version: 10
 | VAT No | Text | x | |
 | Website | Text | x | |
 
+For details about the value of each field, see the [Contact database table][2].
+
 **Default tabs:**
 
 * Company
@@ -55,9 +57,9 @@ so.version: 10
 **Standard fields:**
 
 | Field | Type | Can hide label | Comment |
-|---|---|---|---|
+|---|---|:-:|---|
 | Academic title | Text | x | |
-| Address | Address | x | Show in expanded mode |
+| [Address][6] | Address | x | Show in expanded mode |
 | Birthdate | Text | x | |
 | Business | Text | x | |
 | Category | Text | x | |
@@ -70,7 +72,7 @@ so.version: 10
 | Fax | Text | x | |
 | First name | Text | x | |
 | Former employee | Checkbox | x | |
-| Interests | Interests | x | Has no options |
+| [Interests][7] | Interests | x | Has no options |
 | Internet phone | Text | x | |
 | Last modified | Date | x | |
 | Last name | Text | x | |
@@ -92,6 +94,8 @@ so.version: 10
 | Use as postal address | Checkbox | x | |
 | Website | Text | x | |
 
+For details about the value of each field, see the [Person database table][3].
+
 **Default tabs:**
 
 * Contact
@@ -105,7 +109,7 @@ so.version: 10
 **Standard fields:**
 
 | Field | Type | Can hide label | Comment |
-|---|---|---|---|
+|---|---|:-:|---|
 | Company | Dropdown | x | |
 | Competitor | Dropdown | x | |
 | Contact | Dropdown | x | |
@@ -128,6 +132,8 @@ so.version: 10
 | Total cost | Number | x | Right-aligned amount |
 | Visible for | Text | x | |
 
+For details about the value of each field, see the [Sale database table][4].
+
 **Default tabs:**
 
 * Sale
@@ -141,7 +147,7 @@ so.version: 10
 **Standard fields:**
 
 | Field | Type | Can hide label | Comment |
-|---|---|---|---|
+|---|---|:-:|---|
 | Description | Text box | | Select number of rows. Has no label |
 | End date | Date picker | x | |
 | ERP | ERP | x | Has no options |
@@ -156,6 +162,8 @@ so.version: 10
 | Type | Drop-down | x | |
 | Website | Text | x | |
 
+For details about the value of each field, see the [Project database table][5].
+
 **Default tabs:**
 
 * Project
@@ -167,8 +175,20 @@ so.version: 10
 ## Related content
 
 * [Working with fields][1]
+* [Address formats][6]
+* [Learn more about sales][9]
+* [Learn more about projects][10]
 
 <!-- Referenced links -->
-[1]: customizable-screens/working-with-fields.md
+[1]: configurable-screens/working-with-fields.md
+[2]: ../../database/tables/contact.md
+[3]: ../../database/tables/person.md
+[4]: ../../database/tables/sale.md
+[5]: ../../database/tables/project.md
+[6]: ../../globalization-and-localization/address/index.md
+[7]: ../../company/interests.md
+[8]: ../../company/category-list.md
+[9]: ../../sale/overview.md
+[10]: ../../project/overview.md
 
 <!-- Referenced images -->
