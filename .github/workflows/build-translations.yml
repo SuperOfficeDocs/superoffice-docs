@@ -42,7 +42,7 @@ jobs:
 
       - name: Create en-changes zip
         shell: pwsh
-        run: Build/Copy-Changed-Files-To-Translations.ps1 "${{ inputs.name }}" "${{ inputs.sinceWhen }}"
+        run: build/Copy-Changed-Files-To-Translations.ps1 "${{ inputs.name }}" "${{ inputs.sinceWhen }}"
 
       - name: Upload en-changes artifact
         uses: actions/upload-artifact@v3
