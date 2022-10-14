@@ -1,0 +1,15 @@
+items:
+- name: Overview
+  href: index.md
+- name: Agents
+  href: listdbiagents.listdbiagents.md
+- name: Agent properties
+  href: listdbiagents.viewdbiagent.md
+- name: Edit agent
+  href: listdbiagents.editdbiagent.md
+- name: New agent schedule
+  href: listdbiagents.newdbiagentschedule.md
+- name: Agent Schedule properties
+  href: listdbiagents.editdbiagentschedule.md
+- name: Agent field properties
+  href: listdbiagents.editdbiagentfield.md
