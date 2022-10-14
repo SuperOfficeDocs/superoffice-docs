@@ -71,4 +71,3 @@ foreach ($lang in $langs)
   }
 }
 Write-Output "Done copying files"
- 
