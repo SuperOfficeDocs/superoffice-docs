@@ -61,6 +61,6 @@ To merge companies:
 [2]: ../person/merge-contacts.md
 
 <!-- Referenced images -->
-[img1]: ../../media/icons/slå-sammen-bytte.bmp
+[img1]: ../../../common/icons/info-ball.png
 [img3]: ../../media/icons/btn-menu.png
 [img4]: media/merge-companies.bmp

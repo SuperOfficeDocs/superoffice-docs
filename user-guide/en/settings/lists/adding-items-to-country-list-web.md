@@ -52,4 +52,4 @@ When you add an item to the **General - Country** list in Settings and maintenan
 [2]: currency.md
 
 <!-- Referenced images -->
-[img1]: ../../../media/icons/admin/pil-ned.bmp
+[img1]: ../../../media/icons/admin/arrow-down.png

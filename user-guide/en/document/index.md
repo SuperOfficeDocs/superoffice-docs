@@ -49,4 +49,4 @@ Documents can be letters, quotations or memos, and they can be displayed in seve
 [8]: ../globalization/doc-language-support.md
 
 <!-- Referenced images -->
-[img1]: ../../media/icons/knapperad-skriv.bmp
+[img1]: ../../../common/icons/document-h32.png

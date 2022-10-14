@@ -69,4 +69,4 @@ All SuperOffice CRM users have access to the **Reports** screen in SuperOffice C
 [2]: index.md
 
 <!-- Referenced images -->
-[img3]: ../../../media/icons/admin/pil-ned.bmp
+[img3]: ../../../media/icons/admin/arrow-down.png

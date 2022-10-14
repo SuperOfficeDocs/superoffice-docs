@@ -20,7 +20,7 @@
 <td><p>Appointment<img src="../../../../common/icons/appointment.png" alt="" /></td>
 <td><p>Task<img src="../../../../common/icons/appointment-task.png" alt="" /></td>
 <td><p>Phone Call<img src="../../../../common/icons/phone.png" alt="" /></td>
-<td><p>Document<p><img src="../../media/icons/knapperad-skriv.bmp" alt="" /></td>
+<td><p>Document<p><img src="../../../../common/icons/document-h32.png" alt="" /></td>
 <td><p>E-mail<img src="../../../../common/icons/nav-inbox.png" alt="" /></td>
 </tr>
 </table>

@@ -48,6 +48,6 @@ A status is only active for companies, contacts or projects that fulfil all the 
 [2]: manage-status-monitors.md
 
 <!-- Referenced images -->
-[img1]: ../../../../media/icons/admin/pil-ned.bmp
+[img1]: ../../../../media/icons/admin/arrow-down.png
 [img2]: ../../../../media/icons/pil-hoeyre.bmp
 [img3]: ../../../../media/icons/admin/avmerkingsboks.bmp

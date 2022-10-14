@@ -2,4 +2,4 @@
 Click the arrow ( ![icon][img1] ) and select
 
 <!-- Referenced images -->
-[img1]: ../../media/icons/admin/pil-ned.bmp
+[img1]: ../../media/icons/admin/arrow-down.png

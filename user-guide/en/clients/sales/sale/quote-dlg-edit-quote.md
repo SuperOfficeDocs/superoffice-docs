@@ -68,5 +68,5 @@ The bottom section of the dialog
 
 <!-- Referenced images -->
 [img1]: ../../../../../common/icons/favourite-yes.png
-[img6]: ../../../../media/icons/pil-opp.bmp
-[img7]: ../../../../media/icons/pil-ned.bmp
+[img6]: ../../../../media/icons/arrow-up.png
+[img7]: ../../../../media/icons/arrow-down.png

@@ -64,6 +64,6 @@ You will then be returned to the **View** tab, where you can create appointments
 
 <!-- Referenced images -->
 [img2]: ../../media/icons/arrow-right.png
-[img3]: ../../media/icons/pil-opp.bmp
-[img4]: ../../media/icons/pil-ned.bmp
+[img3]: ../../media/icons/arrow-up.png
+[img4]: ../../media/icons/arrow-down.png
 [img1]: ../../media/icons/btn-menu.png

@@ -44,4 +44,4 @@ When you add an item to the **Follow-up - Type** list in Settings and maintenanc
 [2]: ../../sale/saint/index.md
 
 <!-- Referenced images -->
-[img1]: ../../../media/icons/admin/pil-ned.bmp
+[img1]: ../../../media/icons/admin/arrow-down.png

@@ -78,5 +78,5 @@ Closes the dialog without saving changes.
 [img3]: ../../../../media/icons/arrow-left.png
 [img4]: ../../../../media/icons/merk-alle.bmp
 [img5]: ../../../../media/icons/velg-bort-alle.bmp
-[img6]: ../../../../media/icons/pil-opp.bmp
-[img7]: ../../../../media/icons/pil-ned.bmp
+[img6]: ../../../../media/icons/arrow-up.png
+[img7]: ../../../../media/icons/arrow-down.png

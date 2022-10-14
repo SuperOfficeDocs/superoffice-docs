@@ -51,4 +51,4 @@ Proceed as follows:
 
 <!-- Referenced images -->
 [img1]: ../../media/icons/btn-menu.png
-[img2]: ../../media/icons/slå-sammen-bytte.bmp
+[img2]: ../../../common/icons/info-ball.png
