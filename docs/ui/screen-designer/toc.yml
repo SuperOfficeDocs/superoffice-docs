@@ -20,6 +20,8 @@ items:
     href: configurable-screens/delete-tab.md
   - name: Assign layout to group or sale/project type
     href: configurable-screens/assign-layout.md
+  - name: Tutorial - place country before address
+    href: configurable-screens/tutorial-move-country.yml
 #- name: Configurable archives
 #  href: configurable-archives/index.md
 #  items:
