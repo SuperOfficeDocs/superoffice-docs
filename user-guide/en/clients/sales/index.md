@@ -16,7 +16,7 @@ so.lang: en
 * [The Contact screen][2]
 
 <!-- Referenced links -->
-[1]: company/index.md
+[1]: ../../company/screen/index.md
 [2]: contact/index.md
 
 <!-- Referenced images -->
