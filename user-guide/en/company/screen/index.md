@@ -11,7 +11,7 @@ language: en
 
 # The Company screen
 
-[!include[Intro](../../../company/includes/company-screen-intro.md)]
+[!include[Intro](../includes/company-screen-intro.md)]
 
 In the **Company** screen, every record in the database is displayed like an index card. A record in a database contains all the information that has been entered for a company.
 
@@ -33,7 +33,7 @@ The **Company** screen contains the following section tabs:
 | [Requests][6] | Shows SuperOffice Service requests for the active company. |
 | [ERP][7] | Here you can link a SuperOffice company to a customer/supplier in the ERP system. |
 
-[!include[Add more section tabs](../../../includes/more-tab.md)]
+[!include[Add more section tabs](../../includes/more-tab.md)]
 
 <!-- Referenced links -->
 [1]: contacts-tab.md
@@ -42,8 +42,8 @@ The **Company** screen contains the following section tabs:
 [4]: projects-tab.md
 [5]: sales-tab.md
 [6]: requests-tab.md
-[7]: ../../../erp/index.md
+[7]: ../../erp/index.md
 
 <!-- Referenced images -->
-[img1]: ../../../../media/icons/arrow-right.png
-[img2]: ../../../../media/icons/arrow-left.png
+[img1]: ../../../media/icons/arrow-right.png
+[img2]: ../../../media/icons/arrow-left.png

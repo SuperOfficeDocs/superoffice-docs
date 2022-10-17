@@ -32,9 +32,9 @@ Double-click on a relation row and the **Relation** dialog opens, showing all th
 * [Delete a relation][2]
 
 <!-- Referenced links -->
-[1]: ../../../company/add-relation.md
-[2]: ../../../company/delete-relation.md
+[1]: ../add-relation.md
+[2]: ../delete-relation.md
 
 <!-- Referenced images -->
-[img1]: ../../../../media/icons/binders.bmp
-[img2]: ../media/relations-detail.bmp
+[img1]: ../../../media/icons/binders.bmp
+[img2]: media/relations-detail.bmp

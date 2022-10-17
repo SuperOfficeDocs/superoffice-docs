@@ -33,3 +33,18 @@ items:
   href: address-formats.md
 - name: Customers in Service
   href: in-service/toc.yml
+- name: Company screen
+  href: screen/index.md
+  items:
+  - name: Contacts tab
+    href: screen/contacts-tab.md
+  - name: Relations tab
+    href: screen/relations-tab.md
+  - name: Activities tab
+    href: screen/activities-tab.md
+  - name: Projects tab
+    href: screen/projects-tab.md
+  - name: Sales tab
+    href: screen/sales-tab.md
+  - name: Requests tab
+    href: screen/requests-tab.md

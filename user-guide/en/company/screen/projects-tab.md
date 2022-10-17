@@ -19,9 +19,9 @@ Click **Add** to [create a new project][2]
 
 Double-click a project in the list to open the **Project** screen in SuperOffice CRM which contains information about the active project.
 
-[!include[Contents of the Projects tab](../includes/projects-tab.md)]
+[!include[Contents of the Projects tab](../../includes/projects-tab.md)]
 
-[!include[Conf. columns](../includes/tip-configure-columns.md)]
+[!include[Conf. columns](../../includes/tip-configure-columns.md)]
 
 ## Related topics
 
@@ -29,8 +29,8 @@ Double-click a project in the list to open the **Project** screen in SuperOffice
 * [Manage project][1]
 
 <!-- Referenced links -->
-[1]: ../../../project/index.md
-[2]: ../../../project/create.md
+[1]: ../../project/index.md
+[2]: ../../project/create.md
 
 <!-- Referenced images -->
-[img1]: ../media/projects-detail.bmp
+[img1]: media/projects-detail.bmp
