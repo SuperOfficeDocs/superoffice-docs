@@ -100,7 +100,7 @@ You can delete activities from any screen where they are displayed:
 [10]: change-completed-status.md
 [11]: phone-call/dial.md
 [12]: ../chat/index.md
-[13]: ../clients/sales/company/activities-tab.md
+[13]: ../company/screen/activities-tab.md
 [14]: ../clients/sales/contact/activities-tab.md
 [15]: ../clients/sales/project/activities-project.md
 [16]: ../clients/sales/sale/activities-sale.md

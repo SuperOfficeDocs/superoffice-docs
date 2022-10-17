@@ -46,7 +46,7 @@ Everything you need to find out about a company is available from a single scree
 [5]: merge-companies.md
 [6]: delete.md
 [7]: print.md
-[8]: ../clients/sales/company/index.md
+[8]: screen/index.md
 
 <!-- Referenced images -->
 

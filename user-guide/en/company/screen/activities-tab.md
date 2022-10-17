@@ -13,9 +13,9 @@ language: en
 
 The **Activities** section tab in the **Company** screen contains all the activities linked to the active company.
 
-[!include[Intro to activities](../../../includes/intro-activities.md)]
+[!include[Intro to activities](../../includes/intro-activities.md)]
 
-[!include[Contents of Activities tab](../includes/activities-tab.md)]
+[!include[Contents of Activities tab](../../includes/activities-tab.md)]
 
 ## What would you like to do?
 
@@ -26,10 +26,10 @@ The **Activities** section tab in the **Company** screen contains all the activi
 * [Use filters in the section tabs][5]
 
 <!-- Referenced links -->
-[1]: ../../../company/view-activities.md
-[2]: ../../../company/delete-activities-contact.md
-[3]: ../../../company/replying-to-email-from-activities-section-tab.md
-[4]: ../../../company/forwarding-email-from-activities-section-tab.md
-[5]: ../../howto/use-filters-in-section-tabs.md
+[1]: ../view-activities.md
+[2]: ../delete-activities-contact.md
+[3]: ../replying-to-email-from-activities-section-tab.md
+[4]: ../forwarding-email-from-activities-section-tab.md
+[5]: ../../clients/howto/use-filters-in-section-tabs.md
 
 <!-- Referenced images -->

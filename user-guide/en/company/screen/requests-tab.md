@@ -20,4 +20,4 @@ You can double-click a request to open it in a separate window. Click the **Edit
 <!-- Referenced links -->
 
 <!-- Referenced images -->
-[img1]: ../media/requests-detail.bmp
+[img1]: media/requests-detail.bmp

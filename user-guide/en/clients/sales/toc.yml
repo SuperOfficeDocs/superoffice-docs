@@ -1,19 +1,4 @@
 items:
-- name: Company screen
-  href: company/index.md
-  items:
-  - name: Contacts tab 
-    href: company/contacts-tab.md
-  - name: Relations tab
-    href: company/relations-tab.md
-  - name: Activities tab
-    href: company/activities-tab.md
-  - name: Projects tab
-    href: company/projects-tab.md
-  - name: Sales tab
-    href: company/sales-tab.md
-  - name: Requests tab
-    href: company/requests-tab.md
 - name: Contact screen
   href: contact/index.md
   items:

@@ -17,7 +17,7 @@ If the contact is associated with a company, these activities will also be avail
 
 [!include[Intro to Activities](../../../includes/intro-activities.md)]
 
-[!include[Contents of Activities tab](../includes/activities-tab.md)]
+[!include[Contents of Activities tab](../../../includes/activities-tab.md)]
 
 ## Filter activities
 
