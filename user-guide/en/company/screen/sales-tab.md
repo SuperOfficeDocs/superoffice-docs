@@ -33,5 +33,5 @@ If you check **Include stakeholders** at the bottom of the section tab, sales wh
 [4]: ../../clients/howto/using-filter-function-contact.md
 
 <!-- Referenced images -->
-[img1]: media/sale-detail.bmp
-[img2]: ../../../../common/icons/filter-icon.png
+[img1]: ../../company/screen/media/sale-detail.bmp
+[img2]: ../../../../../common/icons/filter-icon.png

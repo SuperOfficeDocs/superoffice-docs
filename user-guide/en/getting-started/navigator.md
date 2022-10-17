@@ -161,6 +161,7 @@ If you hold the mouse pointer over a record in any the lists, a tooltip is displ
 [img22]: ../../media/icons/panel-left-show.png
 
 [img31]: ../../media/icons/nav-mailing.png
+[img32]: media/navigator-preview-service.png
 [img33]: ../../media/icons/nav-request.png
 [img34]: ../../media/icons/nav-company.png
 [img35]: ../../media/icons/nav-selection.png

@@ -40,7 +40,7 @@ The products in the quote are displayed on this tab.
 * Double-click a product to edit it.
 * **Delete**: Click here to delete the selected product(s).
 * **Export**: Click here to export the list to a spreadsheet. See [Export section tabs][7].
-* Sort: Use the arrow keys ( ![icon][img6] / ![icon][img7] ) to change the order of the products.
+* Sort: Use the arrow keys ( ![icon][img2] / ![icon][img3] ) to change the order of the products.
 
 > [!TIP]
 > You can double-click the tabs to change the names of the alternatives in the quote.
@@ -68,5 +68,5 @@ The bottom section of the dialog
 
 <!-- Referenced images -->
 [img1]: ../../../../../common/icons/favourite-yes.png
-[img6]: ../../../../media/icons/arrow-up.png
-[img7]: ../../../../media/icons/arrow-down.png
+[img2]: ../../../../media/icons/arrow-up.png
+[img3]: ../../../../media/icons/arrow-down.png

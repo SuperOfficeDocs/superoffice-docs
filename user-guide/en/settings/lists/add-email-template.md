@@ -94,4 +94,4 @@ Here you can add translated versions of the document template.
 
 <!-- Referenced images -->
 [img1]: ../../../../common/icons/az.png
-[img2]: ../../../media/icons/admin/arrow-down.png
+[img2]: ../../../media/icons/arrow-down.png

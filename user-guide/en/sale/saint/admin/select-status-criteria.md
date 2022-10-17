@@ -35,7 +35,7 @@ A status is only active for companies, contacts or projects that fulfil all the 
     > [!NOTE]
     > You can only add one instance of each criteria type for each status. For example, you cannot add the **Postcode** criterion twice.
 
-1. Check that you have checked (![icon][img3]) the criteria you want to use for this status.
+1. Check that you have checked ( ![icon][img3] ) the criteria you want to use for this status.
 
 1. Click ![icon][img2] **Regenerate selected status monitor** to update the status with the criteria you have added. When the status has been regenerated, no red cross will be shown by the status name.
 
@@ -49,5 +49,5 @@ A status is only active for companies, contacts or projects that fulfil all the 
 
 <!-- Referenced images -->
 [img1]: ../../../../media/icons/admin/arrow-down.png
-[img2]: ../../../../media/icons/pil-hoeyre.bmp
-[img3]: ../../../../media/icons/admin/avmerkingsboks.bmp
+[img2]: ../../../../media/icons/arrow-right.png
+[img3]: ../../../../media/icons/btn-selected.png
