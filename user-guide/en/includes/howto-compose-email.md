@@ -44,7 +44,7 @@ To create quick replies:
 
 <!-- Referenced images -->
 [img1]: ../../../common/icons/nav-history.png
-[img2]: ../../media/icons/web-email-add-attachment-small.bmp
-[img3]: ../../media/icons/inbox/window-close.png
+[img2]: ../../media/icons/binders.bmp
+[img3]: ../../media/icons/window-close.png
 [img4]: ../../../common/icons/copy-paste-icon.png
 [img5]: ../../../common/icons/edit-black.png

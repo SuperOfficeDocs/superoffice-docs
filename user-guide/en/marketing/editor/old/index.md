@@ -124,7 +124,7 @@ In the paragraph menu, you can edit the properties of this paragraph. This menu 
 [img6]: ../../../../media/icons/marketing-and-forms/btn-editor-copy.jpg
 [img7]: ../../../../media/icons/marketing-and-forms/btn-editor-fullscreen.jpg
 [img8]: ../../../../media/icons/marketing-and-forms/btn-editor-move.jpg
-[img9]: ../../../../media/icons/marketing-and-forms/btn-cancel.png
+[img9]: ../../../../../common/icons/salelost.png
 [img10]: ../../../../media/icons/marketing-and-forms/btn-editor-newpara.jpg
 [img11]: ../../../../media/icons/marketing-and-forms/btn-editor-addcolumn.jpg
 [img12]: ../../../../media/icons/marketing-and-forms/btn-editor-edit.png

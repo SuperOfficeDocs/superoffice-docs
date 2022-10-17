@@ -123,4 +123,4 @@ Click **Next** to go to Step 5: Confirm. You can still revisit the **Recipients*
 
 <!-- Referenced images -->
 [img1]: ../../../../../media/icons/btn-add.png
-[img2]: ../../../../../media/icons/marketing-and-forms/btn-cancel.png
+[img2]: ../../../../../../common/icons/salelost.png

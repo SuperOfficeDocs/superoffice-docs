@@ -6,5 +6,5 @@
 | ![icon](../../../common/icons/phone.png) | Phone Call |
 | ![icon](../../../common/icons/document.png) | Document/report |
 | ![icon](../../../common/icons/pref-email.png) | Email |
-| ![icon](../../media/icons/type-mailing.bmp) | Mailing |
+| ![icon](../../../common/icons/singlecolour/mailings.png) | Mailing |
 | ![icon](../../../common/icons/chat.png) | Chat conversation |

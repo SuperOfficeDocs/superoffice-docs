@@ -65,5 +65,5 @@ Click this button to connect to another SuperOffice installation. Follow the ons
 
 <!-- Referenced images -->
 [img1]: ../../../../common/icons/soarchive.png
-[img2]: ../../../media/icons/gmaillink/checkbox-selected.png
-[img3]: ../../../media/icons/gmaillink/checkbox-unselected.png
+[img2]: ../../../media/icons/btn-selected.png
+[img3]: ../../../media/icons/btn-unselected.png
