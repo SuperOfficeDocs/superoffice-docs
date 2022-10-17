@@ -58,5 +58,5 @@ You can select which columns are displayed in the lists, as well as their order.
 [img1]: ../../../media/icons/arrow-right.png
 [img2]: ../../../media/icons/arrow-left.png
 [img3]: ../../../media/icons/admin/icon-horiz-resize-web.bmp
-[img4]: ../../../media/icons/admin/pil-flyttopp.bmp
-[img5]: ../../../media/icons/admin/pil-flyttned.bmp
+[img4]: ../../../media/icons/arrow-up.png
+[img5]: ../../../media/icons/arrow-down.png

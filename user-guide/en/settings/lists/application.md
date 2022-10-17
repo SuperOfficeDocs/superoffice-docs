@@ -35,5 +35,5 @@ After you have added items, you can specify details for each individual item. Yo
 [3]: adding-external-applications-to-application-list.md
 
 <!-- Referenced images -->
-[img1]: ../../../media/icons/admin/pil-flyttopp.bmp
-[img2]: ../../../media/icons/admin/pil-flyttned.bmp
+[img1]: ../../../media/icons/arrow-up.png
+[img2]: ../../../media/icons/arrow-down.png

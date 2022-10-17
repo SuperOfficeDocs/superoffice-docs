@@ -46,5 +46,5 @@ After you have added items, you can specify details for each individual item. Yo
 [3]: organize/headings.md
 
 <!-- Referenced images -->
-[img3]: ../../../media/icons/admin/pil-flyttopp.bmp
-[img4]: ../../../media/icons/admin/pil-flyttned.bmp
+[img3]: ../../../media/icons/arrow-up.png
+[img4]: ../../../media/icons/arrow-down.png

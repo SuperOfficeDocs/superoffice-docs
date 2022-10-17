@@ -53,5 +53,5 @@ Click the ![icon][img1] ![icon][img2] arrows on the far right to choose the posi
 <!-- Referenced links -->
 
 <!-- Referenced images -->
-[img1]: ../../../../../media/icons/admin/pil-flyttned.bmp
-[img2]: ../../../../../media/icons/admin/pil-flyttopp.bmp
+[img1]: ../../../../../media/icons/arrow-down.png
+[img2]: ../../../../../media/icons/arrow-up.png

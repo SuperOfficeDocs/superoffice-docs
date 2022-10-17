@@ -28,5 +28,5 @@ To edit the TAB order in one of the **More** tabs in SuperOffice CRM:
 <!-- Referenced links -->
 
 <!-- Referenced images -->
-[img1]: ../../../media/icons/admin/pil-flyttopp.bmp
-[img2]: ../../../media/icons/admin/pil-flyttned.bmp
+[img1]: ../../../media/icons/arrow-up.png
+[img2]: ../../../media/icons/arrow-down.png
