@@ -70,3 +70,5 @@ The bottom section of the dialog
 [img1]: ../../../../../common/icons/favourite-yes.png
 [img2]: ../../../../media/icons/arrow-up.png
 [img3]: ../../../../media/icons/arrow-down.png
+[img6]: ../../../../media/icons/arrow-up.png
+[img7]: ../../../../media/icons/arrow-down.png
