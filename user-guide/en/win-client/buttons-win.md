@@ -30,4 +30,4 @@ The Navigator on the far left of the main screen contains the following buttons:
 
 <!-- Referenced images -->
 [img1]: ../../media/icons/admin/knapp-status.bmp
-[img2]: ../../media/icons/admin/knapp-import.bmp
+[img2]: ../../../common/icons/nav-admin-import-active-h32.png
