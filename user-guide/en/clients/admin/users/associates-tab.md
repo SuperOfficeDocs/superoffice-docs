@@ -102,5 +102,5 @@ You can group the list of users by role, user plan, primary group etc. In additi
 [7]: ../../../user-management/role/index.md
 
 <!-- Referenced images -->
-[img1]: ../../../../media/icons/admin/btn-settings.png
-[img2]: ../../../../media/icons/admin/btn-columnfilter.png
+[img1]: ../../../../../common/icons/cog-wheel.png
+[img2]: ../../../../media/icons/btn-columnheaderfilter.png

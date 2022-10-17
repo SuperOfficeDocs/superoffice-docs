@@ -104,7 +104,7 @@ To create a new role:
 [6]: https://community.superoffice.com/en/support-faqs/faq/whichare-all-availablefunctional-rights-in-superoffice-and-what-each-of-them-mean/
 
 <!-- Referenced images -->
-[img5]: ../../../media/icons/admin/arrow-down.png
+[img5]: ../../../media/icons/arrow-down.png
 [img1]: ../../../media/icons/arrow-left.png
 [img2]: ../../../media/icons/arrow-right.png
 [img3]: ../../../media/icons/globalmenu-settings-small.png

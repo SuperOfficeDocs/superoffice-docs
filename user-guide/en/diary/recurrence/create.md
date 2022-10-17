@@ -68,5 +68,5 @@ In the **Appointment**, **Task** or **Phone call** dialog, the text next to the 
 [img2]: ../../../media/icons/arrow-right.png
 [img3]: ../../../media/icons/arrow-down.png
 [img4]: ../../../media/icons/arrow-up.png
-[img5]: ../../../media/icons/kalender-arrow-left.png
-[img6]: ../../../media/icons/kalender-arrow-right.png
+[img5]: ../../../media/icons/arrow-left.png
+[img6]: ../../../media/icons/arrow-right.png

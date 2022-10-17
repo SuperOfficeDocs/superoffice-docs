@@ -93,4 +93,4 @@ Here you can add translated versions of the document template.
 [4]: ../../sale/saint/index.md
 
 <!-- Referenced images -->
-[img1]: ../../../media/icons/admin/arrow-down.png
+[img1]: ../../../media/icons/arrow-down.png

@@ -60,4 +60,4 @@ How this works in practice:
 <!-- Referenced links -->
 
 <!-- Referenced images -->
-[img1]: ../../../media/icons/service/search.png
+[img1]: ../../../../common/icons/search-icon-black.png

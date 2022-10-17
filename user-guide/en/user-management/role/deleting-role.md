@@ -39,4 +39,4 @@ To delete a role:
 <!-- Referenced links -->
 
 <!-- Referenced images -->
-[img3]: ../../../media/icons/admin/arrow-down.png
+[img3]: ../../../media/icons/arrow-down.png

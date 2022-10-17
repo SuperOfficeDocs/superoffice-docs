@@ -85,4 +85,4 @@ In the **Script** tab, you can choose a script or macro to be run when the recip
 
 <!-- Referenced images -->
 [img1]: ../../../../common/icons/nav-contact.png
-[img2]: ../../../media/icons/marketing-and-forms/btn-calendar.jpg
+[img2]: ../../../../common/icons/pref-diary.png

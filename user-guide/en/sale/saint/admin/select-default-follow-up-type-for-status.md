@@ -42,4 +42,4 @@ You can specify a default follow-up type and descriptive text to be displayed in
 [3]: manage-status-monitors.md
 
 <!-- Referenced images -->
-[img1]: ../../../../media/icons/admin/arrow-down.png
+[img1]: ../../../../media/icons/arrow-down.png

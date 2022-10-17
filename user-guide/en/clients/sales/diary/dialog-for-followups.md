@@ -174,7 +174,7 @@ This tab displays any user-defined fields configured in SuperOffice Settings and
 [img1]: ../../../../media/icons/btn-menu.png
 [img2]: ../../../../../common/icons/dropdown-icon.png
 [img3]: ../../../../../common/icons/videocall-off.png
-[img4]: ../../../../media/icons/videomeeting-active.png
+[img4]: ../../../../../common/icons/videocall.png
 [img5]: ../../../../media/icons/followup-notcompleted.png
 [img6]: ../../../../media/icons/followup-completed.png
 [img7]: ../../../../../common/icons/diary-participants.png
