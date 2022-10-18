@@ -13,9 +13,9 @@ language: en
 
 The **Sales** section tab shows sales connected to the contact.
 
-[!include[Contents of the Sales section tab](../../../includes/sales-tab.md)]
+[!include[Contents of the Sales section tab](../../includes/sales-tab.md)]
 
-[!include[Conf. columns](../../../includes/tip-configure-columns.md)]
+[!include[Conf. columns](../../includes/tip-configure-columns.md)]
 
 Double-click a sale in the list to open the **Sale** screen in SuperOffice CRM which contains information about that sale.
 
@@ -26,9 +26,9 @@ Click the **Filter** button ![icon][img1] to [filter the list][3] by date, users
 If you check **Include stakeholders** at the bottom of the section tab, sales where the [contact is involved as a stakeholder][2] are also displayed.
 
 <!-- Referenced links -->
-[1]: ../../../sale/index.md
-[2]: ../../../sale/stakeholders/index.md
-[3]: ../../howto/using-filter-function-contact.md
+[1]: ../../sale/index.md
+[2]: ../../sale/stakeholders/index.md
+[3]: ../../clients/howto/using-filter-function-contact.md
 
 <!-- Referenced images -->
-[img1]: ../../../../../common/icons/filter-icon.png
+[img1]: ../../../../common/icons/filter-icon.png

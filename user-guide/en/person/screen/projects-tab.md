@@ -17,9 +17,9 @@ Click **Add to project** to add project members to a project.
 
 Double-click a project in the list to open the **Project** screen in SuperOffice CRM which contains information about the active project.
 
-[!include[Contents of the Projects tab](../../../includes/projects-tab.md)]
+[!include[Contents of the Projects tab](../../includes/projects-tab.md)]
 
-[!include[Conf. columns](../../../includes/tip-configure-columns.md)]
+[!include[Conf. columns](../../includes/tip-configure-columns.md)]
 
 ## Related topics
 
@@ -27,7 +27,7 @@ Double-click a project in the list to open the **Project** screen in SuperOffice
 * [Manage project][2]
 
 <!-- Referenced links -->
-[2]: ../../../project/index.md
-[3]: ../../../project/create.md
+[2]: ../../project/index.md
+[3]: ../../project/create.md
 
 <!-- Referenced images -->

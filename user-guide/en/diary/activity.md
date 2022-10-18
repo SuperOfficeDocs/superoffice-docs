@@ -101,7 +101,7 @@ You can delete activities from any screen where they are displayed:
 [11]: phone-call/dial.md
 [12]: ../chat/index.md
 [13]: ../company/screen/activities-tab.md
-[14]: ../clients/sales/contact/activities-tab.md
+[14]: ../person/screen/activities-tab.md
 [15]: ../clients/sales/project/activities-project.md
 [16]: ../clients/sales/sale/activities-sale.md
 [17]: ../clients/howto/use-filters-in-section-tabs.md

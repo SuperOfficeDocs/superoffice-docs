@@ -23,7 +23,7 @@ The columns of the **Relations** section tab contain the following information:
 Double-click on a relation row and the **Relation** dialog opens, showing all the information entered for that relation (see [Add relations][1]).
 
 <!-- Referenced links -->
-[1]: ../../../person/add-relation.md
+[1]: ../../person/add-relation.md
 
 <!-- Referenced images -->
-[img1]: ../../../../media/icons/binders.bmp
+[img1]: ../../../media/icons/binders.bmp

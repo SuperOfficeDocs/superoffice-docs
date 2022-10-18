@@ -17,6 +17,6 @@ so.lang: en
 
 <!-- Referenced links -->
 [1]: ../../company/screen/index.md
-[2]: contact/index.md
+[2]: ../../person/screen/index.md
 
 <!-- Referenced images -->
