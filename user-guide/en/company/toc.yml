@@ -31,8 +31,6 @@ items:
     href: forwarding-email-from-activities-section-tab.md
 - name: Address formats for different countries
   href: address-formats.md
-- name: Customers in Service
-  href: in-service/toc.yml
 - name: Company screen
   href: screen/index.md
   items:
@@ -48,3 +46,5 @@ items:
     href: screen/sales-tab.md
   - name: Requests tab
     href: screen/requests-tab.md
+- name: Customers in Service
+  href: in-service/toc.yml

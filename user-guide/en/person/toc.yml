@@ -1,19 +1,6 @@
 items:
 - name: Overview
   href: index.md
-- name: Contact screen
-  href: screen/index.md
-  items:
-  - name: Activities
-    href: screen/activities-tab.md
-  - name: Sales
-    href: screen/sales-tab.md
-  - name: Requests
-    href: screen/requests-tab.md
-  - name: Projects
-    href: screen/projects-tab.md
-  - name: Relations
-    href: screen/relations-tab.md
 - name: Create new contact
   href: create.md
 - name: Edit a contact
@@ -49,5 +36,18 @@ items:
       href: gdpr/privacy-legal-base-add.md
     - name: Add privacy source
       href: gdpr/privacy-source-add.md
+- name: Contact screen
+  href: screen/index.md
+  items:
+  - name: Activities
+    href: screen/activities-tab.md
+  - name: Sales
+    href: screen/sales-tab.md
+  - name: Requests
+    href: screen/requests-tab.md
+  - name: Projects
+    href: screen/projects-tab.md
+  - name: Relations
+    href: screen/relations-tab.md
 - name: Customers in Service
   href: in-service/toc.yml
