@@ -31,7 +31,7 @@ items:
     href: forwarding-email-from-activities-section-tab.md
 - name: Address formats for different countries
   href: address-formats.md
-- name: Company screen
+- name: Section tabs on company
   href: screen/index.md
   items:
   - name: Contacts tab
