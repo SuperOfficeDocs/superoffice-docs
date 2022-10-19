@@ -16,16 +16,14 @@ items:
     href: howto/quick-reply.md
   - name: Receive requests
     href: howto/receive.md
-  - name: Accept
+  - name: Take responsibility for request
     href: howto/accept.md
-  - name: Ask for help
+  - name: Ask another request handler for help
     href: howto/transfer.md
   - name: Forward messages to external parties
     href: howto/forward.md
-  - name: Reply
+  - name: Reply to customer
     href: howto/reply.md
-  - name: Add a message to multiple requests
-    href: howto/reply-batch.md
   - name: Split request 
     href: howto/split-request.md
   - name: Merge requests
@@ -36,6 +34,8 @@ items:
     href: howto/flag-message.md
   - name: Autosave
     href: howto/autosave.md
+  - name: Add a message to multiple requests
+    href: howto/reply-batch.md
   - name: Edit message
     href: howto/edit-message.md
   - name: Split message
@@ -72,6 +72,9 @@ items:
 
 - name: Reply templates
   href: reply-templates/toc.yml
+
+- name: FAQ
+  href: ../faq/toc.yml
 
 - name: Work with email addresses
   href: mailboxes/index.md

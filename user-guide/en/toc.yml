@@ -17,9 +17,6 @@ items:
     href: document/toc.yml
   - name: Request
     href: request/toc.yml
-    items:
-    - name: Faq
-      href: faq/toc.yml
   - name: Sale
     href: sale/toc.yml
   - name: Project
