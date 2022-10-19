@@ -60,6 +60,6 @@ items:
   - name: Windows client
     href: win-client/toc.yml
   - name: License agreement
-    href: License-agreement.md
+    href: license-agreement.md
   - name: Copyright information
     href: copyright.md
