@@ -3,6 +3,10 @@ items:
     href: index.md
   - name: Getting started
     href: getting-started/toc.yml
+  - name: Search options
+    href: search-options/toc.yml
+  - name: Dashboard
+    href: dashboard/toc.yml
   - name: Company
     href: company/toc.yml
   - name: Contact
@@ -11,52 +15,51 @@ items:
     href: diary/toc.yml
   - name: Document
     href: document/toc.yml
+  - name: Request
+    href: request/toc.yml
+    items:
+    - name: Faq
+      href: faq/toc.yml
   - name: Sale
     href: sale/toc.yml
   - name: Project
     href: project/toc.yml
-  - name: Search options
-    href: search-options/toc.yml
   - name: Email
     href: email/toc.yml
   - name: Chat
     href: chat/toc.yml
-  - name: Request
-    href: request/toc.yml
-  - name: Client interface
-    href: clients/toc.yml
-  - name: AI
-    href: ai/toc.yml
-  - name: Dashboard
-    href: dashboard/toc.yml
-  - name: Automation
-    href: automation/toc.yml
-  - name: Dashboard
-    href: dashboard/toc.yml
-  - name: Customer center
-    href: customer-center/toc.yml
-  - name: ERP
-    href: erp/toc.yml
-  - name: Faq
-    href: faq/toc.yml
-  - name: Marketing
-    href: marketing/toc.yml
   - name: Reports
     href: reports/toc.yml
-  - name: UI
-    href: ui/toc.yml
-  - name: Import web
-    href: import/toc.yml
-  - name: Custom objects
-    href: custom-objects/toc.yml
-  - name: Settings
-    href: settings/toc.yml
-  - name: Licenses
-    href: license/toc.yml
-  - name: User management
-    href: user-management/toc.yml
-  - name: Globalization
-    href: globalization/toc.yml
+  - name: Marketing
+    href: marketing/toc.yml
+  - name: Client interface
+    href: clients/toc.yml
+  - name: Customisation
+    items:
+    - name: Settings
+      href: settings/toc.yml
+    - name: UI
+      href: ui/toc.yml
+    - name: Custom objects
+      href: custom-objects/toc.yml
+    - name: Globalisation
+      href: globalization/toc.yml
+    - name: Import web
+      href: import/toc.yml
+    - name: AI
+      href: ai/toc.yml
+    - name: Automation
+      href: automation/toc.yml
+    - name: Customer center
+      href: customer-center/toc.yml
+    - name: ERP
+      href: erp/toc.yml
+  - name: Administration
+    items:
+    - name: User management
+      href: user-management/toc.yml
+    - name: Licenses
+      href: license/toc.yml
   - name: Windows client
     href: win-client/toc.yml
   - name: License agreement
