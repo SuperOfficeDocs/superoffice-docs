@@ -1,6 +1,21 @@
 items:
 - name: Overview
   href: index.md
+- name: Sale screen
+  items:
+  - name: Section tabs in the Sale screen
+    href: screen/sale-screen-section-tabs.md
+    items:
+    - name: Activities sale
+      href: screen/activities-sale.md
+    - name: Sales guide detail card
+      href: screen/salesguide-detailcard.md
+    - name: Quote detail card
+      href: screen/quote-detailcard.md
+  - name: Quote
+    items:
+    - name: Quote dlg edit quote
+      href: screen/quote-dlg-edit-quote.md
 - name: Create a sale
   href: create.md
 - name: Print a sale

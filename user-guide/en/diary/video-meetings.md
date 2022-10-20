@@ -42,7 +42,7 @@ There are several ways in which you can join a video meeting in SuperOffice:
 * right-click a video meeting in the diary and select **Join meeting**
 
 <!-- Referenced links -->
-[2]: ../clients/sales/diary/dialog-for-followups.md
+[2]: screen/dialog-for-followups.md
 
 <!-- Referenced images -->
 [img1]: ../../../common/icons/videocall-off.png

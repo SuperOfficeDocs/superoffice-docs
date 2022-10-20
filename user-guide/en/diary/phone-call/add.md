@@ -19,7 +19,7 @@ To enter a new call:
 The **Phone call** dialog opens. Here you specify the phone call details as described under [The Dialog for follow-ups][1].
 
 <!-- Referenced links -->
-[1]: ../../clients/sales/diary/dialog-for-followups.md
+[1]: ../screen/dialog-for-followups.md
 [2]: ../../getting-started/buttons-in-menu-bar.md
 
 <!-- Referenced images -->

@@ -50,7 +50,7 @@ You can prepare an email from both the **Contact** screen and the **Company** sc
 1. Click **Create** in the **Document** dialog.
 
 <!-- Referenced links -->
-[1]: ../clients/sales/document/document-dialog.md
+[1]: ../document/screen/index.md
 
 <!-- Referenced images -->
 [img1]: ../../media/icons/btn-menu.png

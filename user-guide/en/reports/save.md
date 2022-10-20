@@ -45,7 +45,7 @@ The report archive (the **Documents** section tab) at the bottom of the **Report
 [2]: cross-tables.md#export
 [3]: showing-report-properties.md
 [4]: view.md
-[5]: ../clients/sales/document/document-dialog.md
+[5]: ../document/screen/index.md
 [6]: open-from-archive.md
 [7]: using-filter-function-reports.md
 [8]: delete-from-archive.md

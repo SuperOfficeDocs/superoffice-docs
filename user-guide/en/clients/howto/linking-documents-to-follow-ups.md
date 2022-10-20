@@ -30,6 +30,6 @@ To see more details of a linked document, follow-up or sale, select the row in q
 To remove the link to a document, follow-up or sale, select the row in question and click **Delete**.
 
 <!-- Referenced links -->
-[1]: ../sales/document/document-dialog.md
+[1]: ../../document/screen/index.md
 
 <!-- Referenced images -->

@@ -1,6 +1,29 @@
 items:
 - name: Diary
   href: index.md
+  items:
+  - name: Calendar views
+    items:
+    - name: Day
+      href: screen/day.md
+    - name: Month
+      href: screen/month.md
+    - name: Week
+      href: screen/week.md
+    - name: View
+      href: screen/view.md
+    - name: Navigate in the Diary screen
+      href: screen/navigate-in-diary.md
+  - name: Section tabs
+    items:
+    - name: Activities
+      href: screen/activities-tab.md
+    - name: Sales
+      href: screen/sales-tab.md
+  - name: Dialog for followups
+    href: screen/dialog-for-followups.md
+  - name: The New group view dialog
+    href: screen/view-dialog.md
 - name: Activities
   href: activity.md
 - name: Appointment

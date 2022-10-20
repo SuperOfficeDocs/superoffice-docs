@@ -1,6 +1,15 @@
 items:
 - name: Overview
   href: index.md
+- name: Reports screen
+  href: screen/index.md
+  items:
+  - name: Report list
+    href: screen/report-list.md
+  - name: Criteria list
+    href: screen/criteria-list.md
+  - name: Report archive
+    href: screen/report-archive.md
 - name: Working with reports
   href: working-with-reports.md
   items:

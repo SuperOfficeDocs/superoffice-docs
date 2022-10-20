@@ -46,7 +46,7 @@ An assigned follow-up is one you have delegated to someone else. This works as f
 > If you have a lot of information on the list of invitations and only want to display responses from others, you can filter the list using the **Show responses** checkbox.
 
 <!-- Referenced links -->
-[1]: ../../clients/sales/diary/dialog-for-followups.md
+[1]: ../screen/dialog-for-followups.md
 [2]: add-participant.md
 
 <!-- Referenced images -->

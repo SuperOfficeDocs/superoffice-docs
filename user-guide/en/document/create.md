@@ -90,7 +90,7 @@ With SuperOffice CRM, you can log in from any PC using a browser, but your docum
 
 <!-- Referenced links -->
 [1]: upload.md
-[2]: ../clients/sales/document/document-dialog.md
+[2]: screen/index.md
 [3]: web-tools.md
 
 <!-- Referenced images -->

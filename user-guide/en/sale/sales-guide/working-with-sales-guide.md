@@ -65,8 +65,8 @@ In the **Sales guide** dialog you have three options:
 [Click here for an example of a sales guide.][3]
 
 <!-- Referenced links -->
-[1]: ../../clients/sales/document/document-dialog.md
-[2]: ../../clients/sales/diary/dialog-for-followups.md
+[1]: ../../document/screen/index.md
+[2]: ../../diary/screen/dialog-for-followups.md
 [3]: example-salesguide.md
 
 <!-- Referenced images -->

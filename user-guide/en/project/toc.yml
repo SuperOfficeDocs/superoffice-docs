@@ -1,6 +1,25 @@
 items:
 - name: Overview
   href: index.md
+- name: Project screen
+  items:
+  - name: More tab
+    href: screen/more-tab-project.md
+  - name: Event tab
+    href: screen/event-tab.md
+  - name: Note tab
+    href: screen/projectcard-tab-note.md
+  - name: Section tabs
+    href: screen/project-screen-section-tabs.md
+    items:
+    - name: Project guide section tab
+      href: screen/projectguide-detail.md
+    - name: Project members
+      href: screen/project-members.md
+    - name: Activities
+      href: screen/activities-project.md
+    - name: Sales
+      href: screen/sale.md
 - name: Create a project
   href: create.md
 - name: Add project image

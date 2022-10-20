@@ -1,6 +1,8 @@
 items:
 - name: Overview
   href: index.md
+- name: Chat screen
+  href: screen/index.md  
 - name: For customers
   items:
   - name: Using the chat function from the customer's perspective

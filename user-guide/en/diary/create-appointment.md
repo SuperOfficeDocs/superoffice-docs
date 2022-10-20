@@ -39,8 +39,8 @@ There are many ways to create an appointment. Regardless of which method you use
 > If you create the appointment from the **View** tab (see [The View tab][1]), you can choose to have the **Participants** dialog automatically filled out with the members of the view. To set this option, go to ![icon][img2] **Personal settings > Preferences > Functions** and set the **Participants from group view** preference to **Yes**. Click **Save**.
 
 <!-- Referenced links -->
-[1]: ../clients/sales/diary/view.md
-[2]: ../clients/sales/diary/dialog-for-followups.md
+[1]: screen/view.md
+[2]: screen/dialog-for-followups.md
 [3]: ../getting-started/buttons-in-menu-bar.md
 
 <!-- Referenced images -->

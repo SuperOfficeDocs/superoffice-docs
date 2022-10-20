@@ -32,7 +32,7 @@ To quickly upload a document to SuperOffice CRM, do as follows:
 * [Web Tools][6]
 
 <!-- Referenced links -->
-[1]: ../clients/sales/document/document-dialog.md
+[1]: screen/index.md
 [2]: create.md
 [3]: open.md
 [4]: edit.md

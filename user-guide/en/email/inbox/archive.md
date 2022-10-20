@@ -41,7 +41,7 @@ To open an attachment or archive an attachment in SuperOffice:
 [!include[Add contact](includes/add-contact-opens.md)]
 
 <!-- Referenced links -->
-[1]: ../../clients/sales/document/document-dialog.md
+[1]: ../../document/screen/index.md
 [3]: writing-email.md
 
 <!-- Referenced images -->

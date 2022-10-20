@@ -87,7 +87,7 @@ Click **Close** to close the dialog.
 * If you receive an invitation for a time when you are already occupied, an exclamation mark ![icon][img6] is displayed in the description of the follow-up in the **Invitations** dialog. This draws your attention to the fact that the invitation causes a conflict.
 
 <!-- Referenced links -->
-[1]: ../../clients/sales/diary/dialog-for-followups.md
+[1]: ../screen/dialog-for-followups.md
 [3]: ../recurrence/create.md
 [4]: response.md
 

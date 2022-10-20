@@ -62,8 +62,8 @@ Follow-ups are closely linked to the **Diary** screen, and some functions apply 
 [10]: recurrence/create.md
 [11]: invitation/index.md
 [12]: ../clients/howto/linking-documents-to-follow-ups.md
-[13]: ../clients/sales/diary/sales-tab.md
-[14]: ../clients/sales/diary/navigate-in-diary.md
+[13]: screen/sales-tab.md
+[14]: screen/navigate-in-diary.md
 [15]: ../globalization/time-zones.md
 [16]: activity.md
 [17]: delete-follow-up.md

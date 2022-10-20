@@ -58,7 +58,7 @@ You will then be returned to the **View** tab, where you can create appointments
 * [Create appointments for associates][4]
 
 <!-- Referenced links -->
-[1]: ../clients/sales/diary/view-dialog.md
+[1]: screen/view-dialog.md
 [2]: open.md
 [4]: create-follow-up.md#associate
 
