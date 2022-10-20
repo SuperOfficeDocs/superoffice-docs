@@ -29,6 +29,8 @@ items:
     href: reports/toc.yml
   - name: Marketing
     href: marketing/toc.yml
+  - name: FAQ
+    href: faq/toc.yml
   - name: Client interface
     href: clients/toc.yml
   - name: Customisation

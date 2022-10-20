@@ -73,9 +73,6 @@ items:
 - name: Reply templates
   href: reply-templates/toc.yml
 
-- name: FAQ
-  href: ../faq/toc.yml
-
 - name: Work with email addresses
   href: mailboxes/index.md
   items:
