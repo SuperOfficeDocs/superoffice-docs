@@ -62,10 +62,10 @@ conceptualContent:
           url: add-button.md
         - text: Add a tab
           itemType: how-to-guide
-          url: add-tab
+          url: add-tab.md
         - text: Delete a tab
           itemType: how-to-guide
-          url: delete-tab
+          url: remove-tab.md
         - text: Assign layout to group or sale/project type
           itemType: how-to-guide
           url: assign-layout.md

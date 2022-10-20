@@ -34,10 +34,10 @@ To add a new tab:
 ## Related content
 
 * [Working with fields][1]
-* [How to delete tab][2]
+* [How to remove a tab][2]
 
 <!-- Referenced links -->
 [1]: working-with-fields.md
-[2]: delete-tab.md
+[2]: remove-tab.md
 
 <!-- Referenced images -->

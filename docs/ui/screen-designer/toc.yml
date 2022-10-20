@@ -16,8 +16,8 @@ items:
     href: configurable-screens/organize-tab-contents.md
   - name: Add tab
     href: configurable-screens/add-tab.md
-  - name: Delete tab
-    href: configurable-screens/delete-tab.md
+  - name: Remove tab
+    href: configurable-screens/remove-tab.md
   - name: Assign layout to group or sale/project type
     href: configurable-screens/assign-layout.md
   - name: Tutorial - place country before address

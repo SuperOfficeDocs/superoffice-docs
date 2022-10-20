@@ -25,7 +25,7 @@ so.version: 10
 | Country | Text | x | |
 | Department | Text | x | |
 | Email | Text | x | |
-| ERP | ERP | x | Has no options |
+| ERP | ERP | x | Has no options. Configured in **Settings and maintenance** > **ERP**. |
 | Fax | Text | x | |
 | [Interests][7] | Interests | x | Has no options |
 | Last modified | Date | x | |
@@ -42,6 +42,7 @@ so.version: 10
 | Stop | Checkbox | x | |
 | VAT No | Text | x | |
 | Website | Text | x | |
+| Custom fields | | x | Both user-defined and extra |
 
 For details about the value of each field, see the [Contact database table][2].
 
@@ -68,7 +69,7 @@ For details about the value of each field, see the [Contact database table][2].
 | Country | Text | x | |
 | Direct phone | Text | x | |
 | Email | Text | x | |
-| ERP | ERP | x | Has no options |
+| ERP | ERP | x | Has no options. Configured in **Settings and maintenance** > **ERP**. |
 | Fax | Text | x | |
 | First name | Text | x | |
 | Former employee | Checkbox | x | |
@@ -93,6 +94,7 @@ For details about the value of each field, see the [Contact database table][2].
 | Title | Text | x | |
 | Use as postal address | Checkbox | x | |
 | Website | Text | x | |
+| Custom fields | | x | Both user-defined and extra |
 
 For details about the value of each field, see the [Person database table][3].
 
@@ -131,6 +133,7 @@ For details about the value of each field, see the [Person database table][3].
 | Stage - workflow | Multiline text | | Has no options |
 | Total cost | Number | x | Right-aligned amount |
 | Visible for | Text | x | |
+| Custom fields | | x | Both user-defined and extra |
 
 For details about the value of each field, see the [Sale database table][4].
 
@@ -150,7 +153,7 @@ For details about the value of each field, see the [Sale database table][4].
 |---|---|:-:|---|
 | Description | Text box | | Select number of rows. Has no label |
 | End date | Date picker | x | |
-| ERP | ERP | x | Has no options |
+| ERP | ERP | x | Has no options. Configured in **Settings and maintenance** > **ERP**. |
 | Last modified | Date | x | |
 | Next milestone | | x | |
 | Number | Text | x | |
@@ -161,6 +164,7 @@ For details about the value of each field, see the [Sale database table][4].
 | Status | Drop-down | x | |
 | Type | Drop-down | x | |
 | Website | Text | x | |
+| Custom fields | | x | Both user-defined and extra  |
 
 For details about the value of each field, see the [Project database table][5].
 

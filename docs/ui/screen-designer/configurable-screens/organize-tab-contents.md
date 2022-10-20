@@ -29,7 +29,7 @@ The instructions below assume you're already [editing the layout][1].
 By default, tabs have two columns. You can customize each tab individually and choose 1, 2, 3, or 4 columns depending on your needs.
 
 > [!NOTE]
-> Tabs with specific functions, such as **ERP** and **Note**, don't have a column setup.
+> Tabs with specific functions, such as **ERP** and **Note**, don't have a column setup. Go to **Settings and maintenance** > **ERP** to configure the contents of the ERP tab.
 
 1. Select the tab you want to adjust columns for.
 1. Select the **Columns** section.

@@ -102,11 +102,7 @@ Some settings depend on the selected action.
 
 ### Execute CRMScript
 
-* CRMScript: First select type of script, then the specific script to run. Types:
-
-  * Macro foundation scripts
-  * System scripts
-  * Test mailing
+* CRMScript: Select the specific script to run.
 
 ![Screen Designer, execute CRMScript on button -screenshot][img3]
 
