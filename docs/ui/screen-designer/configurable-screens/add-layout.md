@@ -48,7 +48,7 @@ To create a new screen layout:
 
     * [Add, edit, move, or remove a field][1]
     * [Add link or button][2]
-    * [Add tab][3], [Remove tab][4]
+    * [Add, remove, restore a tab][3]
 
 3. When you're done, save or publish the layout.
 
@@ -64,7 +64,6 @@ To delete a layout:
 <!-- Referenced links -->
 [1]: working-with-fields.md
 [2]: add-button.md
-[3]: add-tab.md
-[4]: remove-tab.md
+[3]: working-with-tabs.md
 
 <!-- Referenced images -->

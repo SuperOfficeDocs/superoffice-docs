@@ -36,7 +36,7 @@ Before you customize a layout, determine who the intended users are.
     * [Add, edit, move, or remove a field][1]
     * [Add link or button][2]
     * [Organize information into logical groups][4]
-    * [Add tab][3]
+    * [Add, remove, or restore a tab][3]
 
 ## Save, publish, or cancel
 
@@ -51,7 +51,7 @@ When you are done, click one of the following buttons:
 <!-- Referenced links -->
 [1]: working-with-fields.md
 [2]: add-button.md
-[3]: add-tab.md
-[4]: organize-tab-contents.md
+[3]: working-with-tabs.md
+[4]: working-with-tabs.md#add-heading-or-divider
 
 <!-- Referenced images -->

@@ -80,8 +80,8 @@ If you want the field back later, simply [re-add the field](#add-field).
 
 <!-- Referenced links -->
 [1]: edit-card-layout.md
-[2]: add-tab.md
-[3]: organize-tab-contents.md
+[2]: working-with-tabs.md
+[3]: working-with-tabs.md#add-heading-or-divider
 
 <!-- Referenced images -->
 [img1]: media/edit-card-layout-fields.png

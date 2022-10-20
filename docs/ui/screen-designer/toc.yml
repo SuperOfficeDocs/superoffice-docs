@@ -12,12 +12,8 @@ items:
     href: configurable-screens/working-with-fields.md
   - name: Add link or button
     href: configurable-screens/add-button.md
-  - name: Add columns, labels/titles, and dividers
-    href: configurable-screens/organize-tab-contents.md
-  - name: Add tab
-    href: configurable-screens/add-tab.md
-  - name: Remove tab
-    href: configurable-screens/remove-tab.md
+  - name: Working with tabs
+    href: configurable-screens/working-with-tabs.md
   - name: Assign layout to group or sale/project type
     href: configurable-screens/assign-layout.md
   - name: Tutorial - place country before address

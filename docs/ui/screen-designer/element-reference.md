@@ -15,34 +15,34 @@ so.version: 10
 
 **Standard fields:**
 
-| Field | Type | Can hide label | Comment |
-|---|---|:-:|---|
-| [Address][6] | Address | x | Show in expanded mode |
-| Business | Text | x | |
-| [Category][8] | Text | x | |
-| Code | Text | x | |
-| Company name | Text | x | |
-| Country | Text | x | |
-| Department | Text | x | |
-| Email | Text | x | |
-| ERP | ERP | x | Has no options. Configured in **Settings and maintenance** > **ERP**. |
-| Fax | Text | x | |
-| [Interests][7] | Interests | x | Has no options |
-| Last modified | Date | x | |
-| Main contact | Text | x | |
-| No mailings | Checkbox | x | |
-| Note | Text box | x | |
-| Number | Text | x | |
-| Our contact | Text | x | |
-| Our service contact | Text | x | |
-| Phone | Text | x | |
-| Priority | Text | x | |
-| Registered date | Date | x | |
-| Single interest | Checkbox | x | Select interest from list |
-| Stop | Checkbox | x | |
-| VAT No | Text | x | |
-| Website | Text | x | |
-| Custom fields | | x | Both user-defined and extra |
+| Field | Type | Comment |
+|---|---|---|
+| [Address][6] | Address | Show in expanded mode |
+| Business | Text | |
+| [Category][8] | Text | |
+| Code | Text | |
+| Company name | Text | |
+| Country | Text | |
+| Department | Text | |
+| Email | Text | |
+| ERP | ERP | Has no options. Configured in **Settings and maintenance** > **ERP**. |
+| Fax | Text | |
+| [Interests][7] | Interests | Has no options |
+| Last modified | Date | |
+| Main contact | Text | |
+| No mailings | Checkbox | |
+| Note | Text box | |
+| Number | Text | |
+| Our contact | Text | |
+| Our service contact | Text | |
+| Phone | Text | |
+| Priority | Text | |
+| Registered date | Date | |
+| Single interest | Checkbox | Select interest from list |
+| Stop | Checkbox | |
+| VAT No | Text | |
+| Website | Text | |
+| Custom fields | | Both user-defined and extra |
 
 For details about the value of each field, see the [Contact database table][2].
 
@@ -57,44 +57,44 @@ For details about the value of each field, see the [Contact database table][2].
 
 **Standard fields:**
 
-| Field | Type | Can hide label | Comment |
-|---|---|:-:|---|
-| Academic title | Text | x | |
-| [Address][6] | Address | x | Show in expanded mode |
-| Birthdate | Text | x | |
-| Business | Text | x | |
-| Category | Text | x | |
-| Chat | Text | x | |
-| Company | Text | x | |
-| Country | Text | x | |
-| Direct phone | Text | x | |
-| Email | Text | x | |
-| ERP | ERP | x | Has no options. Configured in **Settings and maintenance** > **ERP**. |
-| Fax | Text | x | |
-| First name | Text | x | |
-| Former employee | Checkbox | x | |
-| [Interests][7] | Interests | x | Has no options |
-| Internet phone | Text | x | |
-| Last modified | Date | x | |
-| Last name | Text | x | |
-| Middle name | Text | x | |
-| Mobile | Text | x | |
-| Mr/Ms | Text | x | |
-| Note | Text box | x | |
-| Number | Text | x | |
-| Our contact | Text | x | |
-| Our service contact | Text | x | |
-| Position | Text | x | |
-| Preferred language | Selection | x | |
-| Private | Text | x | |
-| Registered date | Date | x | |
-| Service priority | Text | x | |
-| Single interest | Checkbox | x | Select interest from list |
-| Subscription | | x | |
-| Title | Text | x | |
-| Use as postal address | Checkbox | x | |
-| Website | Text | x | |
-| Custom fields | | x | Both user-defined and extra |
+| Field | Type | Comment |
+|---|---|---|
+| Academic title | Text | |
+| [Address][6] | Address | Show in expanded mode |
+| Birthdate | Text | |
+| Business | Text | |
+| Category | Text | |
+| Chat | Text | |
+| Company | Text | |
+| Country | Text | |
+| Direct phone | Text | |
+| Email | Text | |
+| ERP | ERP | Has no options. Configured in **Settings and maintenance** > **ERP**. |
+| Fax | Text | |
+| First name | Text | |
+| Former employee | Checkbox | |
+| [Interests][7] | Interests | Has no options |
+| Internet phone | Text | |
+| Last modified | Date | |
+| Last name | Text | |
+| Middle name | Text | |
+| Mobile | Text | |
+| Mr/Ms | Text | |
+| Note | Text box | |
+| Number | Text | |
+| Our contact | Text | |
+| Our service contact | Text | |
+| Position | Text | |
+| Preferred language | Selection | |
+| Private | Text | |
+| Registered date | Date | |
+| Service priority | Text | |
+| Single interest | Checkbox | Select interest from list |
+| Subscription | | |
+| Title | Text | |
+| Use as postal address | Checkbox | |
+| Website | Text | |
+| Custom fields | | Both user-defined and extra |
 
 For details about the value of each field, see the [Person database table][3].
 
@@ -110,30 +110,30 @@ For details about the value of each field, see the [Person database table][3].
 
 **Standard fields:**
 
-| Field | Type | Can hide label | Comment |
-|---|---|:-:|---|
-| Company | Dropdown | x | |
-| Competitor | Dropdown | x | |
-| Contact | Dropdown | x | |
-| Credited | Dropdown | x | |
-| Description | Text box | | Select number of rows. Has no label |
-| Last modified | Date | x | |
+| Field | Type | Comment |
+|---|---|---|
+| Company | Dropdown | |
+| Competitor | Dropdown | |
+| Contact | Dropdown | |
+| Credited | Dropdown | |
+| Description | Text box | Select number of rows. Has no label |
+| Last modified | Date | |
 | Links | Links | | Has no options |
-| Number | Text | x | |
-| Owner | Drop-down | x | |
-| Probability | Text | x | Right-aligned percent |
-| Profit | Number | x | Percent and amount |
-| Project | Dropdown  | x | |
-| Registered date | Date | x | |
-| Sale date | Date picker | x | |
-| Sale type | Drop-down | x | |
-| Sales | Text | x | |
-| Source | Dropdown | x | |
-| Stage | Drop-down | x | |
-| Stage - workflow | Multiline text | | Has no options |
-| Total cost | Number | x | Right-aligned amount |
-| Visible for | Text | x | |
-| Custom fields | | x | Both user-defined and extra |
+| Number | Text | |
+| Owner | Drop-down | |
+| Probability | Text | Right-aligned percent |
+| Profit | Number | Percent and amount |
+| Project | Dropdown  | |
+| Registered date | Date | |
+| Sale date | Date picker | |
+| Sale type | Drop-down | |
+| Sales | Text | |
+| Source | Dropdown | |
+| Stage | Drop-down | |
+| Stage - workflow | Multiline text | Has no options |
+| Total cost | Number | Right-aligned amount |
+| Visible for | Text | |
+| Custom fields | | Both user-defined and extra |
 
 For details about the value of each field, see the [Sale database table][4].
 
@@ -149,22 +149,22 @@ For details about the value of each field, see the [Sale database table][4].
 
 **Standard fields:**
 
-| Field | Type | Can hide label | Comment |
-|---|---|:-:|---|
-| Description | Text box | | Select number of rows. Has no label |
-| End date | Date picker | x | |
-| ERP | ERP | x | Has no options. Configured in **Settings and maintenance** > **ERP**. |
-| Last modified | Date | x | |
-| Next milestone | | x | |
-| Number | Text | x | |
-| Project | Text | x | |
-| Published | Checkbox | x | |
-| Registered date | Date | x | |
-| Responsible | Drop-down | x | |
-| Status | Drop-down | x | |
-| Type | Drop-down | x | |
-| Website | Text | x | |
-| Custom fields | | x | Both user-defined and extra  |
+| Field | Type | Comment |
+|---|---|---|
+| Description | Text box | Select number of rows. Has no label |
+| End date | Date picker | |
+| ERP | ERP | Has no options. Configured in **Settings and maintenance** > **ERP**. |
+| Last modified | Date | |
+| Next milestone | | |
+| Number | Text | |
+| Project | Text | |
+| Published | Checkbox | |
+| Registered date | Date | |
+| Responsible | Drop-down | |
+| Status | Drop-down | |
+| Type | Drop-down | |
+| Website | Text | |
+| Custom fields | | Both user-defined and extra  |
 
 For details about the value of each field, see the [Project database table][5].
 
