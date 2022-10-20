@@ -25,7 +25,7 @@ You can archive an incoming email (including any attachments) as a document in S
 * [Archive or open attachments][3]
 
 <!-- Referenced links -->
-[1]: ../../clients/sales/document/document-dialog.md
+[1]: ../../document/screen/index.md
 [3]: opening-attachments-or-saving-them-on-disk.md
 
 <!-- Referenced images -->

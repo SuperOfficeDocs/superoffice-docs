@@ -52,6 +52,6 @@ If you have entered a follow-up in the Diary but are not yet sure of the time or
 
 <!-- Referenced links -->
 [1]: change-completed-status.md
-[2]: ../clients/sales/diary/activities-tab.md
+[2]: screen/activities-tab.md
 
 <!-- Referenced images -->

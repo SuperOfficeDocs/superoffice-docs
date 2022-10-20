@@ -39,7 +39,7 @@ You can receive invitations from a person outside your organization and easily a
 The message is removed from the inbox, and the appointment is added to you diary.
 
 <!-- Referenced links -->
-[1]: ../../clients/sales/document/document-dialog.md
+[1]: ../../document/screen/index.md
 
 <!-- Referenced images -->
 [img1]: ../../../../common/icons/attachments-black.png

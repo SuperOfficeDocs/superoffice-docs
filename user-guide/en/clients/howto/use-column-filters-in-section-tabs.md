@@ -44,7 +44,7 @@ Click ![icon][img1] and **Reset** to reset the filter.
 
 <!-- Referenced links -->
 [1]: sections-tabs-grouping-lists.md
-[2]: ../sales/selections/list-of-members.md#filtering-the-list-of-members
+[2]: ../../search-options/selections/screen/list-of-members.md#filtering-the-list-of-members
 [3]: ../../reports/using-filter-function-reports.md
 
 <!-- Referenced images -->

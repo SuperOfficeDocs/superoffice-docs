@@ -33,6 +33,6 @@ Your agents can access chat via the Navigator in both SuperOffice CRM and SuperO
 [6]: as-customer.md
 [7]: link-to-person.md
 [8]: create-contact.md
-[9]: ../clients/sales/chat/index.md
+[9]: screen/index.md
 
 <!-- Referenced images -->

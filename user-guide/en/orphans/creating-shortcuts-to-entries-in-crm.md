@@ -29,7 +29,7 @@ This function uses the SOProtocol. SuperOffice Web Tools must be installed for t
 * [The Document dialog][2]
 
 <!-- Referenced links -->
-[1]: ../clients/sales/diary/dialog-for-followups.md
-[2]: ../clients/sales/document/document-dialog.md
+[1]: ../diary/screen/dialog-for-followups.md
+[2]: ../document/screen/index.md
 
 <!-- Referenced images -->

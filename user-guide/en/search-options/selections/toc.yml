@@ -1,6 +1,8 @@
 items:
 - name: Overview
   href: index.md
+- name: Selections screen
+  href: screen/toc.yml
 - name: Static selections
   href: static-selections.md
 - name: Dynamic selections

@@ -26,7 +26,7 @@ You can preview documents and activities in the **Preview** view in the side pan
 * [Example of a sales guide][3]
 
 <!-- Referenced links -->
-[1]: ../../clients/sales/sale/salesguide-detailcard.md
+[1]: ../screen/salesguide-detailcard.md
 [2]: working-with-sales-guide.md
 [3]: example-salesguide.md
 

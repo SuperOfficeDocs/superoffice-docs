@@ -24,7 +24,7 @@ You can preview documents and activities in the **Preview** view in the side pan
 * [Work with project guides][3]
 
 <!-- Referenced links -->
-[1]: ../../clients/sales/project/projectguide-detail.md
+[1]: ../screen/projectguide-detail.md
 [2]: example-projectguide.md
 [3]: work-with-projectguide.md
 

@@ -87,7 +87,7 @@ If you double-click a document and nothing happens, try to right-click it and se
 <!-- Referenced links -->
 [1]: lock.md
 [2]: open.md
-[3]: ../clients/sales/document/document-dialog.md
+[3]: screen/index.md
 
 <!-- Referenced images -->
 [img1]: media/docfileuploaddragdrop.png

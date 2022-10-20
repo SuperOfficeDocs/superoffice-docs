@@ -60,8 +60,8 @@ You can move the project to the next status in two ways:
     4. Click **Save**.
 
 <!-- Referenced links -->
-[1]: ../../clients/sales/document/document-dialog.md
-[2]: ../../clients/sales/diary/dialog-for-followups.md
+[1]: ../../document/screen/index.md
+[2]: ../../diary/screen/dialog-for-followups.md
 [3]: example-projectguide.md
 
 <!-- Referenced images -->

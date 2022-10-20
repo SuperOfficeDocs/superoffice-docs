@@ -36,7 +36,7 @@
 <!-- Referenced links -->
 [5]: ../../getting-started/duplicates.md
 [2]: ../project-guide/index.md
-[3]: ../../clients/sales/project/more-tab-project.md
-[4]: ../../clients/sales/project/event-tab.md
+[3]: ../screen/more-tab-project.md
+[4]: ../screen/event-tab.md
 
 <!-- Referenced images -->
