@@ -46,7 +46,7 @@ items:
     - name: Import web
       href: import/toc.yml
     - name: AI
-      href: ai/index.md
+      href: ai/toc.yml
     - name: Automation
       href: automation/toc.yml
     - name: Customer center

@@ -51,3 +51,15 @@ items:
   href: export.md
 - name: Freetext search and Travel
   href: freetext-search-and-travel.md
+- name: Orphans
+  items:
+  - name: Log users off
+    href: ../orphans/logging-users-off.md
+  - name: Create shortcut
+    href: ../orphans/creating-shortcuts-to-entries-in-crm.md
+  - name: Manage external users
+    href: ../orphans/managing-external-users.md
+  - name: Examples of parameter use
+    href: ../orphans/parameter-examples.md
+  - name: Document templates with multiple languages
+    href: ../orphans/using-document-templates-for-multiple-languages.md

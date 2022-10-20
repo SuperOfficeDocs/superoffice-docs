@@ -20,7 +20,7 @@ items:
     href: tracked-links/define-link-actions.md
   - name: Add tracked link to message
     href: tracked-links/add-tracked-link-to-msg.md
-  - name: Examples
+  - name: Examples of use
     href: tracked-links/examples.md
   - name: Explore clicks after sending
     href: tracked-links/explore-clicks.md
@@ -33,6 +33,8 @@ items:
     href: editor/drag-and-drop/toc.yml
   - name: Old editor
     href: editor/old/toc.yml
+  - name: Forms
+    href: ../forms/toc.yml
 - name: For administrators
   items:
   - name: Define settings for mailings
