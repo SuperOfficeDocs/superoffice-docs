@@ -30,7 +30,8 @@ To add a new field:
 
 1. Select the tab you want to add the field to.
 2. Make sure the **Fields** section is selected.
-3. Locate the field you want to add in the list.
+3. Locate the desired field in the **Fields** list.
+
 
     > [!TIP]
     > Use the filter function to find specific fields.
