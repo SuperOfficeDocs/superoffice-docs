@@ -33,7 +33,8 @@ To add a new tab:
 3. Select the number of columns you want to use in the new tab.
 
 > [!TIP]
-> If you later want to rename the tab, select the tab and select **Columns**. You can't rename any of the default tabs.
+> To rename the tab, select the tab and select **Columns**. You can't rename any of the default tabs.
+
 
 ## Remove a tab
 
