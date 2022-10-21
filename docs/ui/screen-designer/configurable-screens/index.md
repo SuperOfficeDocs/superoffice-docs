@@ -26,7 +26,8 @@ so.client:
 
 ## What can I customize?
 
-* Modify the system layout of one or more screens for all users to fit the specific needs of your organization.
+* Modify the default (system) layout of one or more screens for all users to fit the specific needs of your organization.
+
 * Add personalized views for user groups to make them more effective.
 * Design layouts optimized for specific project types and sales types.
 * Hide fields that are never used.
