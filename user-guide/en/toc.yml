@@ -31,6 +31,8 @@ items:
     href: marketing/toc.yml
   - name: FAQ
     href: faq/toc.yml
+  - name: Forms
+    href: forms/toc.yml
   - name: How to...
     href: howto/toc.yml
   - name: Customization
