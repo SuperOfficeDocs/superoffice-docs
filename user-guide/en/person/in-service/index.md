@@ -48,7 +48,7 @@ Click the ![icon][img1] **Actions** button to access the following options:
 [3]: edit.md
 [4]: ../../request/howto/create.md
 [5]: ../../request/howto/quick-reply.md
-[6]: ../../customer-center/viewcustomer.sendnewcustmail.md
+[6]: ../../customer-center/send-credentials.md
 [7]: ../../request/invoice/for-contact.md
 [8]: delete.md
 

@@ -45,11 +45,11 @@ In this section of SuperOffice Service, you can configure the system to tailor i
 [8]: ../../request/screen/system-templates.md
 [9]: system.md
 [10]: ../../settings/options/custlangs/index.md
-[11]: ../../customer-center/listcustcenter.config.md
-[12]: ../../customer-center/listcustcenter.edit.md
+[11]: ../../customer-center/config.md
+[12]: ../../customer-center/edit.md
 [13]: ../../chat/admin/index.md
 [14]: ../screen/soap-config.md
-[15]: ../../clients/admin/system-design.md
+[15]: ../../clients/admin/index.md
 [16]: ../../request/invoice/index.md
 
 <!-- Referenced images -->

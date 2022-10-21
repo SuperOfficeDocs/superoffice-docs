@@ -1,7 +1,9 @@
 items:
 - name: Customer centre configuration
-  href: listcustcenter.config.md
+  href: config.md
 - name: Customer centre source files
-  href: listcustcenter.edit.md
+  href: edit.md
 - name: Send passwords to contacts
-  href: viewcustomer.sendnewcustmail.md
+  href: send-credentials.md
+- name: In Settings and maintenance
+  href: screen/index.md

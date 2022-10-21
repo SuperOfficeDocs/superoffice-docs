@@ -1,7 +1,7 @@
 ---
-uid: help-en-customers-viewcustomer-sendnewcustmail
-title: customers viewCustomer sendNewCustMail
-description: customers viewCustomer sendNewCustMail
+uid: help-en-customer-center-send-credentials
+title: Send passwords to contacts
+description: Send passwords to contacts
 author: SuperOffice RnD
 so.date: 06.29.2022
 keywords: Service

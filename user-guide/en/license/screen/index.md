@@ -77,8 +77,8 @@ Under **System notifications** you will find the following columns:
 
 <!-- Referenced links -->
 [1]: ../../settings/system-events.md
-[3]: ../../license/index.md
-[4]: ../../license/activate.md
-[5]: ../../license/activate.md#buy
+[3]: ../index.md
+[4]: ../activate.md
+[5]: ../activate.md#buy
 
 <!-- Referenced images -->

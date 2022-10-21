@@ -50,7 +50,7 @@ The **Tables** screen displays the tables that are configured in the system. Usi
 4. Click **OK** when you are asked if you want to delete the entry.
 
 <!-- Referenced links -->
-[1]: ../../clients/admin/listextratables.md
+[1]: ../../ui/screen/listextratables.md
 [2]: ../../search-options/in-service/index.md
 
 <!-- Referenced images -->

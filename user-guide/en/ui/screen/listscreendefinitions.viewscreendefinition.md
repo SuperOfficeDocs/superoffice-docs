@@ -33,11 +33,11 @@ Here you can view the details of the selected screen.
   * **Buttons**: Lists the buttons which are connected to actions in the screen.
 
 <!-- Referenced links -->
-[1]: listScreenDefinitions.editScreenDefinition.md
-[2]: listScreenDefinitions.editLanguage.md
-[3]: listScreenDefinitions.editScreenElement.md
-[4]: listScreenDefinitions.editScreenAction.md
+[1]: listscreendefinitions.editscreendefinition.md
+[2]: listscreendefinitions.editlanguage.md
+[3]: listscreendefinitions.editscreenelement.md
+[4]: listscreendefinitions.editscreenaction.md
 [5]: ../../automation/create-macro.md
-[6]: listScreenDefinitions.viewScreenDefinitionDesign.md
+[6]: listscreendefinitions.viewscreendefinitiondesign.md
 
 <!-- Referenced images -->

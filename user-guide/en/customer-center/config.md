@@ -1,5 +1,5 @@
 ---
-uid: help-en-admin-listcustcenter-config
+uid: help-en-customer-center-config
 title: Customer centre configuration
 description: Customer centre configuration
 author: SuperOffice RnD
@@ -56,7 +56,7 @@ Do as follows:
 8. Click **Save** when you are done.
 
 <!-- Referenced links -->
-[1]: listCustCenter.edit.md
+[1]: edit.md
 
 <!-- Referenced images -->
 [img1]: ../../media/icons/globalmenu-settings-small.png

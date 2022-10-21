@@ -30,6 +30,6 @@ The autosave feature is activated by default when you view and edit requests (in
 
 <!-- Referenced links -->
 [1]: quick-reply.md
-[2]: ../../clients/admin/listscreendefinitions.editscreendefinition.md
+[2]: ../../ui/screen/listscreendefinitions.editscreendefinition.md
 
 <!-- Referenced images -->

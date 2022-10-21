@@ -9,3 +9,40 @@ items:
   href: screen-designer/toc.yml
 - name: Service screens
   href: service-screens/toc.yml
+- name: System design
+  href: screen/index.md
+  items:
+  - name: Tables
+    href: screen/listextratables.md
+  - name: ScreenChoosers
+    href: screen/listscreenchoosers.md
+    items:
+    - name: editScreenChooser
+      href: screen/listscreenchoosers.editscreenchooser.md
+  - name: viewScreenDefinition
+    href: screen/listscreendefinitions.viewscreendefinition.md
+    items:
+    - name: editLanguage
+      href: screen/listscreendefinitions.editlanguage.md
+    - name: editScreenAction
+      href: screen/listscreendefinitions.editscreenaction.md
+    - name: editScreenDefinition
+      href: screen/listscreendefinitions.editscreendefinition.md
+    - name: editScreenDefinitionFolder
+      href: screen/listscreendefinitions.editscreendefinitionfolder.md
+    - name: editScreenElement
+      href: screen/listscreendefinitions.editscreenelement.md
+    - name: viewScreenDefinitionDesign
+      href: screen/listscreendefinitions.viewscreendefinitiondesign.md
+  - name: Packages
+    href: screen/listpackages.md
+    items:
+    - name: Package properties
+      href: screen/listpackages.editpackage.md 
+  - name: System scripts
+    href: screen/listsystemscripts.md
+    items:
+    - name: Edit system script
+      href: screen/listsystemscripts.editsystemscript.md
+  - name: Debug log
+    href: screen/listdebuglog.md

@@ -1,5 +1,5 @@
 ---
-uid: help-en-admin-listcustcenter-edit
+uid: help-en-customer-center-edit
 title: Customer centre source files
 description: Customer centre source files
 author: SuperOffice RnD

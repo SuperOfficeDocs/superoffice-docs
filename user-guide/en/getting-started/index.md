@@ -106,8 +106,8 @@ SuperOffice is available as an online application (cloud-based) and as an onsite
 [18]: ../marketing/index.md
 
 [21]: ../automation/index.md
-[23]: ../clients/admin/customer-center.md
-[24]: ../clients/admin/system-design.md
+[23]: ../customer-center/screen/index.md
+[24]: ../clients/admin/index.md
 [25]: ../license/index.md
 [26]: ../user-management/index.md
 [27]: ../user-management/role/index.md

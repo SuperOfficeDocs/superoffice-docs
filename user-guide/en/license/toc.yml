@@ -3,3 +3,5 @@ items:
   href: index.md
 - name: Activate license
   href: activate.md
+- name: Licences screen
+  href: screen/index.md

@@ -22,7 +22,7 @@ In the **Customer centre** screen, you define settings for the customer centre a
 
 <!-- Referenced links -->
 [1]: ../../settings/options/custlangs/index.md
-[2]: ../../customer-center/listCustCenter.config.md
-[3]: ../../customer-center/listCustCenter.edit.md
+[2]: ../config.md
+[3]: ../edit.md
 
 <!-- Referenced images -->

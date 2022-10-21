@@ -32,20 +32,20 @@ Here you can find the advanced options in SuperOffice.
 * [Debug log][15]
 
 <!-- Referenced links -->
-[1]: ../../clients/admin/listextratables.md
+[1]: listextratables.md
 [2]: ../../automation/index.md
 [3]: ../../automation/macro-script.md
 [4]: ../../automation/trigger.md
 [5]: ../../automation/schedule-task.md
 [6]: ../../automation/debug.md
 [7]: ../../automation/tracing.md
-[8]: ../../clients/admin/listscreendefinitions.editscreendefinition.md
-[9]: ../../clients/admin/listscreenchoosers.md
-[10]: ../../clients/service/listsystemscripts.md
-[11]: ../../ui/extra-menus/index.md
-[12]: ../../ui/web-panels/index.md
-[13]: ../../clients/service/listpackages.md
+[8]: listscreendefinitions.editscreendefinition.md
+[9]: listscreenchoosers.md
+[10]: listsystemscripts.md
+[11]: ../extra-menus/index.md
+[12]: ../web-panels/index.md
+[13]: listpackages.md
 [14]: ../../automation/data-exchange/index.md
-[15]: ../../clients/service/listdebuglog.md
+[15]: listdebuglog.md
 
 <!-- Referenced images -->

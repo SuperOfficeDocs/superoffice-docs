@@ -59,7 +59,7 @@ To delete a profile from SuperOffice Service, do as follows:
 * [Global profiles][5]
 
 <!-- Referenced links -->
-[1]: ../../clients/admin/listScreenDefinitions.editScreenDefinition.md
+[1]: ../screen/listScreenDefinitions.editScreenDefinition.md
 [2]: ../../user-management/role/index.md
 [3]: ../../user-management/role/create-role.md
 [4]: listProfiles.personalProfile.md
