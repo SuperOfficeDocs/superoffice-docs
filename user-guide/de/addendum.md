@@ -7,10 +7,10 @@ so.date: 09.15.2022
 keywords: SSMA, maintenance, agreement
 so.topic: reference
 
-so.lang: en
+so.lang: de
 ---
 
-# Addendum to SuperOffice Software Maintenance Agreement
+# Verkaufen die to SuperOffice Software Maintenance Agreement
 
 This addendum is related to new features in SuperOffice 8. To activate these new features, SuperOffice needs a consent, as detailed below, from a Customer Representative authorized to grant such consent.
 
