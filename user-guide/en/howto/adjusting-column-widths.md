@@ -39,7 +39,7 @@ You can set columns widths to be adjusted automatically according to the content
 <!-- Referenced links -->
 [1]: sorting-lists.md
 [2]: changing-column-view.md
-[3]: ../../company/change-rank-of-contacts.md
+[3]: ../company/change-rank-of-contacts.md
 
 <!-- Referenced images -->
-[img1]: ../../../../common/icons/cog-wheel.png
+[img1]: ../../../common/icons/cog-wheel.png

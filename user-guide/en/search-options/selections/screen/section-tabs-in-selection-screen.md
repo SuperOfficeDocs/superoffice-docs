@@ -30,7 +30,7 @@ To move backwards and forwards between selections:
 * Click the previous/next buttons ( ![icon][img2] ![icon][img1] ) at the top right of the screen
 
 <!-- Referenced links -->
-[11]: ../../../clients/howto/section-tabs.md
+[11]: ../../../howto/section-tabs.md
 
 [1]: list-of-members.md
 [2]: selection-tab-company-contact.md

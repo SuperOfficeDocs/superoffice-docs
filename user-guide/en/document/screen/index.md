@@ -148,7 +148,7 @@ This tab displays any [user-defined fields][3] configured in SuperOffice Setting
 [7]: ../../diary/change-completed-status.md
 [8]: ../lock.md
 [9]: ../../orphans/creating-shortcuts-to-entries-in-crm.md
-[2]: ../../clients/howto/linking-documents-to-follow-ups.md
+[2]: ../../howto/linking-documents-to-follow-ups.md
 [3]: ../../custom-objects/udef/index.md
 
 <!-- Referenced images -->

@@ -68,7 +68,7 @@ They will then be shown in a different color. They are also shown in this way on
 [6]: ../../person/delete.md
 [7]: ../../person/send-email.md
 [8]: ../change-rank-of-contacts.md
-[9]: ../../clients/howto/changing-column-view.md
+[9]: ../../howto/changing-column-view.md
 
 <!-- Referenced images -->
 [img1]: media/contacts-detail.bmp

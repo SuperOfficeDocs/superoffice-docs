@@ -28,9 +28,9 @@ If Quote functionality is active, you can also set various options for quotes cr
 * [Add items to the Sale - Type, Stages, Quote list][2]
 
 <!-- Referenced links -->
-[1]: ../../sale/stakeholders/sales-role-stakeholders.md
-[2]: ../../sale/admin/sale-type-stages-quote.md
-[3]: ../../clients/admin/sale-stage.md
-[4]: ../../clients/admin/sales-guide.md
+[1]: ../stakeholders/sales-role-stakeholders.md
+[2]: ../admin/sale-type-stages-quote.md
+[3]: sale-stage.md
+[4]: sales-guide.md
 
 <!-- Referenced images -->

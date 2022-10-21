@@ -21,6 +21,8 @@ Certain features like replication, Travel, Satellite, import and scripting are o
 
 The buttons in Settings and maintenance activate their associated functions with a single click, making it easy to navigate quickly between the different parts of the program.
 
+Click the **App Store** link to open the SuperOffice App Store, where you can explore standard apps, modules and integrations that can expand SuperOffice CRM Online.
+
 <!-- Referenced links -->
 [1]: ../win-client/index.md
 

@@ -28,7 +28,7 @@ To search for information in the knowledge base:
 * [Work with reply templates][5]
 
 <!-- Referenced links -->
-[1]: ../../clients/service/knowledge-base.md
+[1]: ../../request/screen/knowledge-base.md
 [2]: ../../request/externaldocument.md
 [3]: ../../document/in-service/index.md
 [4]: ../../faq/index.md

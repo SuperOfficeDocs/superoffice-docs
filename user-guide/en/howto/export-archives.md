@@ -33,8 +33,8 @@ You can export all section tabs containing records in SuperOffice CRM to an Exce
 <!-- Referenced links -->
 [1]: changing-column-view.md
 [2]: use-filters-in-section-tabs.md
-[3]: ../../search-options/selections/howto/index.md
+[3]: ../search-options/selections/howto/index.md
 
 <!-- Referenced images -->
-[img1]: ../../../media/icons/globalmenu-personalsettings-small.png
-[img2]: ../../../../common/icons/archive-icon.png
+[img1]: ../../media/icons/globalmenu-personalsettings-small.png
+[img2]: ../../../common/icons/archive-icon.png

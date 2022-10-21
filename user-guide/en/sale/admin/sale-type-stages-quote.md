@@ -88,8 +88,8 @@ Here you can choose whether the quote must be approved if the total discount is 
 
 <!-- Referenced links -->
 [2]: ../../settings/lists/adding-items.md
-[3]: ../../clients/admin/sale-stage.md
+[3]: ../screen/sale-stage.md
 [4]: ../stakeholders/sales-role-stakeholders.md
-[5]: ../../clients/admin/sales-guide.md
+[5]: ../screen/sales-guide.md
 
 <!-- Referenced images -->

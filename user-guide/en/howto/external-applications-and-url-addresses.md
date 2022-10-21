@@ -33,5 +33,5 @@ Linked applications and URL addresses which you have access to in SuperOffice CR
 <!-- Referenced links -->
 
 <!-- Referenced images -->
-[img1]: ../../../media/icons/globalmenu-mainmenu-small.png
-[img2]: ../../../../common/icons/nav-tools.png
+[img1]: ../../media/icons/globalmenu-mainmenu-small.png
+[img2]: ../../../common/icons/nav-tools.png

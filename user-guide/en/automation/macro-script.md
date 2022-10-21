@@ -43,7 +43,7 @@ A script is a small program written to perform specific tasks, and requires prog
 * [Create folder][4]
 
 <!-- Referenced links -->
-[1]: ../clients/admin/script-screen.md
+[1]: screen/index.md
 [2]: create-script.md
 [3]: create-macro.md
 [4]: create-folder.md

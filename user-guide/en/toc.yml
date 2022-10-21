@@ -31,8 +31,8 @@ items:
     href: marketing/toc.yml
   - name: FAQ
     href: faq/toc.yml
-  - name: Client interface
-    href: clients/toc.yml
+  - name: How to...
+    href: howto/toc.yml
   - name: Customisation
     items:
     - name: Settings

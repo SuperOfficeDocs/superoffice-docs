@@ -163,7 +163,7 @@ This tab displays any user-defined fields configured in SuperOffice Settings and
 [5]: ../set-alarm.md
 [6]: ../invitation/index.md
 [7]: ../open.md
-[8]: ../../clients/howto/linking-documents-to-follow-ups.md
+[8]: ../../howto/linking-documents-to-follow-ups.md
 [9]: ../video-meetings.md
 [10]: ../../globalization/time-zones.md
 [11]: ../change-completed-status.md

@@ -62,7 +62,7 @@ The bottom section of the dialog
 [3]: ../../sale/quote/send.md
 [4]: ../../sale/quote/create-order.md
 [6]: ../../sale/quote/add-product.md
-[7]: ../../clients/howto/export-archives.md
+[7]: ../../howto/export-archives.md
 [8]: ../../sale/quote/index.md#status
 [9]: ../../sale/quote/add-product.md#warning
 

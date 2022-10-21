@@ -31,6 +31,6 @@ Click once on a column heading to sort the list by this column in ascending orde
 [2]: use-filters-in-section-tabs.md
 [3]: adjusting-column-widths.md
 [4]: changing-column-view.md
-[5]: ../../company/change-rank-of-contacts.md
+[5]: ../company/change-rank-of-contacts.md
 
 <!-- Referenced images -->

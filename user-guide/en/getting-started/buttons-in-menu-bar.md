@@ -82,8 +82,8 @@ At the top left in SuperOffice CRM is the SuperOffice logo, which has the follow
 * If you hold down **CTRL** while clicking the logo, you go to the company you yourself are part of. (The main company is a [preference][6] that you can change.)
 
 <!-- Referenced links -->
-[1]: ../clients/howto/external-applications-and-url-addresses.md
-[2]: ../clients/howto/use-filters-in-section-tabs.md
+[1]: ../howto/external-applications-and-url-addresses.md
+[2]: ../howto/use-filters-in-section-tabs.md
 [3]: restore-deleted-companies-and-contacts.md
 [4]: ../diary/invitation/receive.md
 [5]: ../search-options/find-dialog.md

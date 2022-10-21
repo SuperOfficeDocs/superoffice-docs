@@ -16,6 +16,14 @@ items:
     items:
     - name: Quote dlg edit quote
       href: screen/quote-dlg-edit-quote.md
+  - name: In Settings and maintenance
+    items:
+    - name: Sales guide
+      href: screen/sales-guide.md
+    - name: Sale stage
+      href: screen/sale-stage.md
+    - name: Sales type (for stages)
+      href: screen/sales-type-for-stages.md
 - name: Create a sale
   href: create.md
 - name: Print a sale

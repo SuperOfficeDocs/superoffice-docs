@@ -49,7 +49,7 @@ In this section of SuperOffice Service, you can configure the system to tailor i
 [12]: ../../customer-center/edit.md
 [13]: ../../chat/admin/index.md
 [14]: ../screen/soap-config.md
-[15]: ../../clients/admin/index.md
+[15]: ../../ui/screen/index.md
 [16]: ../../request/invoice/index.md
 
 <!-- Referenced images -->

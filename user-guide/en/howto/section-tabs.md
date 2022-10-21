@@ -47,7 +47,7 @@ To change the default number of records, do as follows:
 * [Section tabs in the Selection screen][14]
 
 <!-- Referenced links -->
-[1]: ../../getting-started/preferences.md
+[1]: ../getting-started/preferences.md
 [2]: sorting-lists.md
 [3]: sections-tabs-grouping-lists.md
 [4]: use-filters-in-section-tabs.md
@@ -55,12 +55,12 @@ To change the default number of records, do as follows:
 [6]: changing-column-view.md
 [7]: export-archives.md
 [8]: using-filter-function-contact.md
-[9]: ../../company/screen/index.md
-[10]: ../../person/screen/index.md
-[11]: ../../diary/screen/index.md
-[12]: ../../sale/screen/sale-screen-section-tabs.md
-[13]: ../../project/screen/project-screen-section-tabs.md
-[14]: ../../search-options/selections/screen/section-tabs-in-selection-screen.md
+[9]: ../company/screen/index.md
+[10]: ../person/screen/index.md
+[11]: ../diary/screen/index.md
+[12]: ../sale/screen/sale-screen-section-tabs.md
+[13]: ../project/screen/project-screen-section-tabs.md
+[14]: ../search-options/selections/screen/section-tabs-in-selection-screen.md
 
 <!-- Referenced images -->
-[img1]: ../../../../common/icons/cog-wheel.png
+[img1]: ../../../common/icons/cog-wheel.png

@@ -45,12 +45,12 @@ The following columns are displayed on the **Activities** section tab:
 
 <!-- Referenced links -->
 [1]: ../../diary/change-completed-status.md
-[2]: ../../clients/howto/changing-column-view.md
+[2]: ../../howto/changing-column-view.md
 [3]: ../../company/view-activities.md
 [4]: ../../company/delete-activities-contact.md
 [5]: ../../company/replying-to-email-from-activities-section-tab.md
 [6]: ../../company/forwarding-email-from-activities-section-tab.md
-[7]: ../../clients/howto/using-filter-function-contact.md
+[7]: ../../howto/using-filter-function-contact.md
 
 <!-- Referenced images -->
 [img1]: ../../../media/icons/utfoert.bmp

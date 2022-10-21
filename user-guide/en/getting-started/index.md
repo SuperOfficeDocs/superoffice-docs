@@ -58,7 +58,7 @@ Most administration of SuperOffice CRM is performed via Settings and maintenance
 * [AI services][30]
 * [Lists][31]
 * [Quote/Sync][32]
-* [Workflow][33]
+* Workflow
 * [Screen designer][34]
 * [Preferences][35]
 * [Chat][16]
@@ -107,7 +107,7 @@ SuperOffice is available as an online application (cloud-based) and as an onsite
 
 [21]: ../automation/index.md
 [23]: ../customer-center/screen/index.md
-[24]: ../clients/admin/index.md
+[24]: ../ui/screen/index.md
 [25]: ../license/index.md
 [26]: ../user-management/index.md
 [27]: ../user-management/role/index.md
@@ -117,7 +117,6 @@ SuperOffice is available as an online application (cloud-based) and as an onsite
 
 [31]: ../settings/lists/index.md
 [32]: ../sale/quote/quote-sync/index.md
-[33]: ../clients/admin/workflow.md
 [34]: ../ui/screen-designer/index.md
 [35]: ../settings/preferences/index.md
 [36]: ../settings/options/index.md

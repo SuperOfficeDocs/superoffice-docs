@@ -20,3 +20,5 @@ items:
   href: tracing.md
 - name: Data Exchange
   href: data-exchange/toc.yml
+- name: In Settings and maintenance
+  href: screen/index.md

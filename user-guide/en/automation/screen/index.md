@@ -40,10 +40,10 @@ This screen has following options:
 | ![icon][img4] | **Trace script**: Click here to start [tracing the script or macro][3]. |
 
 <!-- Referenced links -->
-[1]: ../../automation/create-script.md
-[2]: ../../automation/debug.md
-[3]: ../../automation/tracing.md
-[4]: ../../automation/create-folder.md
+[1]: ../create-script.md
+[2]: ../debug.md
+[3]: ../tracing.md
+[4]: ../create-folder.md
 
 <!-- Referenced images -->
 [img1]: ../../../media/icons/arrow-left.png

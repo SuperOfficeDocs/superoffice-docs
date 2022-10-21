@@ -60,7 +60,7 @@ The second column contains icons that indicate the type of activity, for example
 [4]: ../../company/delete-activities-contact.md
 [5]: ../../company/replying-to-email-from-activities-section-tab.md
 [6]: ../../company/forwarding-email-from-activities-section-tab.md
-[7]: ../../clients/howto/using-filter-function-contact.md
+[7]: ../../howto/using-filter-function-contact.md
 
 <!-- Referenced images -->
 [img1]: media/project-activities.bmp

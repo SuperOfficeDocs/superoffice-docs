@@ -52,7 +52,7 @@ Either you do not have access rights to the export function (see [Roles][4]), or
 [3]: quote-delete-deactivate-pricelist-or-product.md
 [4]: ../../../../user-management/role/index.md
 [5]: ../../../../settings/preferences/index.md
-[6]: ../../../../clients/howto/adjusting-views.md
+[6]: ../../../../howto/adjusting-views.md
 
 <!-- Referenced images -->
 [img1]: ../../../../../../common/icons/export.png

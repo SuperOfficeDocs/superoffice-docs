@@ -59,7 +59,7 @@ You move between the main sections of SuperOffice CRM and Service using the Navi
 | ![icon][img47] | **AI services**: opens the screen for AI services, where you can configure settings for text analysis, sentiment analysis and categorization of requests. | [AI services][20] |
 | ![icon][img48] | **Lists**: opens the **Lists** screen, containing descriptions and definitions of the lists in SuperOffice CRM. | [Lists][21] |
 | ![icon][img49] | **Quote/Sync**: opens the **Quote/Sync** screen, where you can administrate connections and settings for ERP systems that are linked to SuperOffice CRM. Here you can also work on the price lists and products in the SuperOffice database. | [Quote/Sync][22] |
-| ![icon][img50] | **Workflow**: opens the **Workflow** screen, where you can define sales guides and project guides for SuperOffice CRM. | [Workflow][23] |
+| ![icon][img50] | **Workflow**: opens the **Workflow** screen, where you can define sales guides and project guides for SuperOffice CRM. | |
 | ![icon][img51] | **Screen designer**: opens the Screen designer screen, where you can create custom screen layouts for specific user groups. | [Screen designer][24] |
 | ![icon][img52] | **Preferences**: opens the **Preferences** screen, where you can specify a number of settings for different aspects of SuperOffice CRM, for example, the number of elements to display in the history list, the default type for new activities, and so on. Here you can also configure [Video meetings][42] and the [Document library][43]. | [Preferences][25] |
 | ![icon][img41] | **Chat**: opens the **Chat** screen, where you can create chat channels and set up the chat feature. | [Chat][2] |
@@ -114,13 +114,12 @@ If you hold the mouse pointer over a record in any the lists, a tooltip is displ
 [32]: ../search-options/selections/in-service/index.md
 [33]: ../dashboard/in-service/statistics/index.md
 [34]: ../request/index.md
-[35]: ../clients/service/knowledge-base.md
+[35]: ../request/screen/knowledge-base.md
 [37]: ../dashboard/in-service/index.md
 
 [20]: ../ai/index.md
 [21]: ../settings/lists/index.md
 [22]: ../sale/quote/quote-sync/index.md
-[23]: ../clients/admin/workflow.md
 [24]: ../ui/screen-designer/index.md
 [25]: ../settings/preferences/index.md
 [26]: ../settings/options/index.md

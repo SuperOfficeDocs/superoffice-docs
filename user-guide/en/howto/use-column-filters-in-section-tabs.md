@@ -44,10 +44,10 @@ Click ![icon][img1] and **Reset** to reset the filter.
 
 <!-- Referenced links -->
 [1]: sections-tabs-grouping-lists.md
-[2]: ../../search-options/selections/screen/list-of-members.md#filtering-the-list-of-members
-[3]: ../../reports/using-filter-function-reports.md
+[2]: ../search-options/selections/screen/list-of-members.md#filtering-the-list-of-members
+[3]: ../reports/using-filter-function-reports.md
 
 <!-- Referenced images -->
-[img1]: ../../../../common/icons/cog-wheel.png
-[img2]: ../../../media/icons/btn-columnheaderfilter.png
+[img1]: ../../../common/icons/cog-wheel.png
+[img2]: ../../media/icons/btn-columnheaderfilter.png
 [img3]: media/sectiontab-filter-columns.png

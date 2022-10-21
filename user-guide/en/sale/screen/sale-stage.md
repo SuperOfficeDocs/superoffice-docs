@@ -20,6 +20,6 @@ The **Sale** tab in the **Sale** screen in SuperOffice CRM contains the **Stage*
 [Add items to the Sale - Stage list][1]
 
 <!-- Referenced links -->
-[1]: ../../sale/admin/adding-items-to-sale-stage-list.md
+[1]: ../admin/adding-items-to-sale-stage-list.md
 
 <!-- Referenced images -->

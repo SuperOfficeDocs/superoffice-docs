@@ -104,7 +104,7 @@ You can delete activities from any screen where they are displayed:
 [14]: ../person/screen/activities-tab.md
 [15]: ../project/screen/activities-project.md
 [16]: ../sale/screen/activities-sale.md
-[17]: ../clients/howto/use-filters-in-section-tabs.md
+[17]: ../howto/use-filters-in-section-tabs.md
 
 <!-- Referenced images -->
 [img1]: ../../media/icons/utfoert.bmp

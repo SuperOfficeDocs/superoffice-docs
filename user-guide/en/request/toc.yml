@@ -10,6 +10,8 @@ items:
     href: screen/system-templates.md
   - name: In Settings and maintenance
     href: screen/request-admin.md
+  - name: Knowledge base
+    href: screen/knowledge-base.md
 - name: Open and view a request
   href: open.md
 - name: Get next request in the queue

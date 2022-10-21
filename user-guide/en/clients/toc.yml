@@ -1,9 +1,0 @@
-items:
-- name: Overview
-  href: index.md
-- name: Settings and maintenance
-  href: admin/index.md
-- name: Service
-  href: service/toc.yml
-- name: How to...
-  href: howto/toc.yml
