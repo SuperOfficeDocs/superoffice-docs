@@ -1,10 +1,10 @@
 ---
-uid: help-en-editing-fields
+uid: help-en-udef-edit
 title: Editing fields web
 description: Editing fields web
 author: SuperOffice RnD
 so.date: 06.29.2022
-keywords: Settings and maintenance
+keywords: udef, custom field
 so.topic: help
 language: en
 ---
@@ -30,7 +30,7 @@ To edit a field from one of the **More** tabs in SuperOffice CRM:
 > If you are defining [page 1 fields][2], you must first publish the changes for user-defined fields. Then you need to define page 1 fields for the various user groups and save (not publish).
 
 <!-- Referenced links -->
-[1]: adding-fields.md
+[1]: add.md
 [2]: page-1-fields.md
 
 <!-- Referenced images -->

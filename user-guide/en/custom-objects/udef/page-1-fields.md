@@ -1,15 +1,18 @@
 ---
 uid: help-en-page-1-fields
-title: page 1 fields web
-description: page 1 fields web
+title: Select page 1 fields
+description: Select page 1 fields
 author: SuperOffice RnD
 so.date: 06.29.2022
-keywords: Settings and maintenance
+keywords: udef, custom field
 so.topic: help
 language: en
 ---
 
 # Select page 1 fields
+
+> [!NOTE]
+> This feature is not available if your organization uses customized screen layouts.
 
 Among the user-defined fields that are displayed in the **More** tabs in SuperOffice CRM, you can choose *three* that will function as page 1 fields (so called because they are displayed on the "first page" in their respective screens).
 

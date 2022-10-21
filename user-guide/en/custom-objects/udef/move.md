@@ -1,10 +1,10 @@
 ---
-uid: help-en-moving-fields
-title: Moving fields web
-description: Moving fields web
+uid: help-en-udef-move
+title: Moving fields
+description: Moving fields
 author: SuperOffice RnD
 so.date: 06.29.2022
-keywords: Settings and maintenance
+keywords: udef, custom field
 so.topic: help
 language: en
 ---
@@ -18,9 +18,9 @@ When you add new fields, they will be placed beneath each other by default. Each
 
 ## How do I move fields?
 
-* Click and drag using the mouse. The field(s) will automatically be adjusted to fit the grid.
+* Click and drag using the mouse. The fields will automatically be adjusted to fit the grid.
 * Click a field and use the arrow keys on the keyboard.
-* Click a field and use the arrow keys in the bottom right-hand corner ( ![icon][img2] ![icon][img1] ![icon][img4] ![icon][img3] ).
+* Click a field and use the arrow keys in the bottom-right corner ( ![icon][img2] ![icon][img1] ![icon][img4] ![icon][img3] ).
 * Double-click a field and specify position values **X** and **Y** in the **Fields** dialog.
 
 ## How do I set position?

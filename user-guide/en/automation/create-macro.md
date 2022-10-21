@@ -1,7 +1,7 @@
 ---
 uid: help-en-automation-macro-create
-title: Create a macro
-description: Create a macro
+title: Create a macro - example from SuperOffice Service
+description: Example of how to create a macro in SuperOffice Service.
 author: SuperOffice RnD
 so.date: 06.29.2022
 keywords: script, macro
@@ -9,9 +9,7 @@ so.topic: howto
 language: en
 ---
 
-# Create a macro
-
-**Example from SuperOffice Service:**
+# Create a macro - example from SuperOffice Service
 
 Many companies often receive requests relating to invoicing. Such requests should go straight to the accounts department. Instead of editing every request and changing category and owner, we can create a macro that performs all these actions. The macro can be assigned to ![icon][img1] **Actions** in the **Request** screen. Invoice questions can thus be delegated to the accounts department with just one click.
 

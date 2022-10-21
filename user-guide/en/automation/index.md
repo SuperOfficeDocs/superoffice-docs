@@ -15,12 +15,12 @@ CRMScript is a feature that allows you to automate tasks in or modify the behavi
 
 To access the functions in CRMScript:
 
-* In SuperOffice Service, select ![icon][img1] **System settings** &gt; **System design** &gt; **CRMScript**.
+* In SuperOffice Service, select ![icon][img1] **System settings** > **System design** > **CRMScript**.
 * In SuperOffice Settings and maintenance, click **CRMScript** in the navigator.
 
 Triggers are scripts that are executed for specific events in the system, such as when a new sale is created or a request gets closed. Triggers can react silently to what happens, or block the operation and show an explanation back to the user.
 
-The following tabs are available:
+## Tabs
 
 * [Macros and scripts][1] - Create macros and scripts to automate and schedule tasks in SuperOffice.
 * [Triggers][2] - Define that a certain event in the system will trigger one or more predefined actions.

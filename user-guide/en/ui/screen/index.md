@@ -32,7 +32,7 @@ Here you can find the advanced options in SuperOffice.
 * [Debug log][15]
 
 <!-- Referenced links -->
-[1]: listextratables.md
+[1]: index.md
 [2]: ../../automation/index.md
 [3]: ../../automation/macro-script.md
 [4]: ../../automation/trigger.md

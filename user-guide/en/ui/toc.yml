@@ -13,7 +13,7 @@ items:
   href: screen/index.md
   items:
   - name: Tables
-    href: screen/listextratables.md
+    href: screen/index.md
   - name: ScreenChoosers
     href: screen/listscreenchoosers.md
     items:

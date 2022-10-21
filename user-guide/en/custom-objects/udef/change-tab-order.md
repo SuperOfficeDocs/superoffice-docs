@@ -1,10 +1,10 @@
 ---
-uid: help-en-editing-tab-order-of-fields
-title: Editing the TAB order of fields web
-description: Editing the TAB order of fields web
+uid: help-en-udef-change-tab-order
+title: Editing the TAB order of fields
+description: Editing the TAB order of fields
 author: SuperOffice RnD
 so.date: 06.29.2022
-keywords: Settings and maintenance
+keywords: udef, custom field
 so.topic: help
 language: en
 ---

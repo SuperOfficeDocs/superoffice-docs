@@ -19,11 +19,12 @@ To go to the **Macros and scripts** tab:
 ## Options
 
 This screen has following options:
-
-* **New script**: Click here to [create a new script][2].
-* **New macro**: Click here to [create a new macro][3].
-* **New folder**: Click this button to [create a new folder][4].
-* **Search**: Click here to search for macros and scripts in the selected folder and sub-folders.
+| Option | Description |
+|---|---|
+ New script | Click here to [create a new script][2]. |
+ New macro | Click here to [create a new macro][3]. |
+ New folder | Click this button to [create a new folder][4]. |
+ Search | Click here to search for macros and scripts in the selected folder and sub-folders. |
 
 ## Script screen
 
@@ -31,13 +32,13 @@ When you click a script or macro in the **Macros and scripts** tab, the **Script
 
 This screen has following options:
 
-| Icon | Description |
-|---|---|
-| ![icon][img1] | **Macros and scripts**: Click here to return to the list of the scripts and macros. |
-| ![icon][img3] | **Edit script**: Click here to edit the [script or macro][1]. |
-| ![icon][img5] | **Run script**: Click here to run the script or macro in standard mode. |
-| ![icon][img6] | **Debug script**: Click here to run the selected script or macro in debug mode. This opens the **Debugger** screen. If you run a script in debug mode, it stops at the first line. You can open a [debug session][2] from the **Debug sessions** tab. |
-| ![icon][img4] | **Trace script**: Click here to start [tracing the script or macro][3]. |
+| Icon | Option | Description |
+|---|---|---|
+| ![icon][img1] | Macros and scripts | Click here to return to the list of the scripts and macros. |
+| ![icon][img3] | Edit script | Click here to edit the [script or macro][1]. |
+| ![icon][img5] | Run script | Click here to run the script or macro in standard mode. |
+| ![icon][img6] | Debug script | Click here to run the selected script or macro in debug mode. This opens the **Debugger** screen. If you run a script in debug mode, it stops at the first line. You can open a [debug session][2] from the **Debug sessions** tab. |
+| ![icon][img4] | Trace script | Click here to start [tracing the script or macro][3]. |
 
 <!-- Referenced links -->
 [1]: ../create-script.md

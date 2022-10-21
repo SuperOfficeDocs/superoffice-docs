@@ -1,10 +1,10 @@
 ---
-uid: help-en-blogic-listextratables-listfields
-title: blogic listExtraTables listFields
-description: blogic listExtraTables listFields
+uid: help-en-extra-fields
+title: Extra fields
+description: Extra fields
 author: SuperOffice RnD
 so.date: 06.29.2022
-keywords: Service
+keywords: extra field, custom field
 so.topic: help
 language: en
 ---
