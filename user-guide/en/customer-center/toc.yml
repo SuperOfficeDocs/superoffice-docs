@@ -1,9 +1,9 @@
 items:
-- name: Customer centre configuration
+- name: Overview
+  href: index.md
+- name: Configuration
   href: config.md
-- name: Customer centre source files
+- name: Source files
   href: edit.md
 - name: Send passwords to contacts
   href: send-credentials.md
-- name: In Settings and maintenance
-  href: screen/index.md

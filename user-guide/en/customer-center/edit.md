@@ -17,14 +17,14 @@ In the **Customer centre source files** screen, you can edit the default pages i
 
 Do as follows:
 
-1. Select ![icon][img1] **System settings** &gt; **Customer centre source files**.
+1. Select ![icon][img1] **System settings** > **Customer centre source files**.
 
-2. Click a web page in the list.
+2. Click a webpage in the list.
 
-3. Click a language tab. The html code for the page opens in a simple text editor.
+3. Click a language tab. The HTML code for the page opens in a simple text editor.
 
     > [!NOTE]
-    > If the page is empty, copy the html code from another language tab.
+    > If the page is empty, copy the HTML code from another language tab.
 
 4. Make any necessary changes.
 

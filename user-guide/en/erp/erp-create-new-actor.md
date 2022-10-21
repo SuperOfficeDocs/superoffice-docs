@@ -1,11 +1,11 @@
 ---
 uid: help-en-erp-create-new-actor
-title: ERP create new actor
-description: ERP create new actor
+title: Create an actor in the ERP system
+description: Create an actor in the ERP system
 author: SuperOffice RnD
 so.date: 07.04.2022
-keywords: CRM
-so.topic: help
+keywords: ERP
+so.topic: howto
 language: en
 ---
 

@@ -1,11 +1,11 @@
 ---
-uid: help-en-erp-main
-title: ERP main
-description: ERP main
+uid: help-en-erp
+title: ERP
+description: ERP
 author: SuperOffice RnD
 so.date: 07.04.2022
-keywords: CRM
-so.topic: help
+keywords: ERP
+so.topic: concept
 language: en
 ---
 

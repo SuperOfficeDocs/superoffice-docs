@@ -1,11 +1,11 @@
 ---
 uid: help-en-erp-connect
-title: ERP connect
-description: ERP connect
+title: Connect to ERP
+description: Connect to ERP
 author: SuperOffice RnD
 so.date: 07.04.2022
-keywords: CRM
-so.topic: help
+keywords: ERP
+so.topic: howto
 language: en
 ---
 
