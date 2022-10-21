@@ -6,7 +6,6 @@ author: Bergfrid Dias
 so.date: 09.15.2022
 keywords: SSMA, maintenance, agreement
 so.topic: reference
-
 so.lang: de
 ---
 
