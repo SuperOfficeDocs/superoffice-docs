@@ -15,7 +15,8 @@ so.client:
 
 [!include[Requirement](../../../../common/includes/req-dev-tools.md)]
 
-**Configurable screens** gives CRM Administrators a unified way of customizing the SuperOffice CRM user interface.
+Configurable screens enable CRM Administrators to customize SuperOffice CRM user interface controls.
+
 
 ## Which screens can I configure?
 
