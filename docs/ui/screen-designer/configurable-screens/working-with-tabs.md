@@ -35,10 +35,9 @@ To add a new tab:
 > [!TIP]
 > To rename the tab, select the tab and select **Columns**. You can't rename any of the default tabs.
 
-
 ## Remove a tab
 
-Whether you've added a tab that's become irrelevant or there's a tab some or all groups in your organization doesn't use, it can likely be removed.
+To reduce clutter, remove irrelevant and no longer useful tabs.
 
 Layouts must have at least one tab. If there is only one tab remaining, you can't remove it.
 
@@ -81,10 +80,9 @@ By default, tabs have two columns. You can customize each tab individually and c
 1. Select the **Columns** section.
 1. Choose one of the four layout options.
 
-If you reduce the number of columns, the fields will be moved to the new last column. For example, If you change from three to two, all fields in the third column are moved to the bottom of column 2. If you change to one column, all fields are moved to the first column.
+If you reduce the number of columns, the fields are moved to the new last column. For example, when reducing the number of columns from three to two, all fields in the third column move to the bottom of column 2. When reduced to one column, all fields are moved to the first column.
 
 The columns are vertically stacked when the screen size is too small to show them all horizontally.
-
 
 With four columns, the visibility of some fields can be impaired. Consider hiding the field label to gain more space.
 

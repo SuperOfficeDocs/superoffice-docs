@@ -67,15 +67,13 @@ To move a field:
 
 ## Remove (hide) field
 
-To reduce clutter, it is useful to hide fields that are never used (either by the organization or a specific user group). The field and its contents remains in the database even tho it's not shown.
+To reduce clutter, hide fields that are never used. Removed fields affect only what is shown in the user interface, and don't change the database or table values in any way.
 
 To remove a field:
 
 * Hold the pointer over a field and click the red circled x.
 
-
 To restore the field, simply [re-add the field](#add-field).
-
 
 > [!NOTE]
 > Mandatory fields can't be deleted. However, you can move a mandatory field to another tab.
