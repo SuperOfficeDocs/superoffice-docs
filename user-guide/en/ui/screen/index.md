@@ -45,7 +45,7 @@ Here you can find the advanced options in SuperOffice.
 [11]: ../extra-menus/index.md
 [12]: ../web-panels/index.md
 [13]: listpackages.md
-[14]: ../../automation/data-exchange/index.md
+[14]: ../../automation/screen/data-exchange.md
 [15]: listdebuglog.md
 
 <!-- Referenced images -->
