@@ -25,7 +25,8 @@ The **Layouts** list displays any existing screen layouts (usually the default l
 
 * Settings: Lists options to customize the appearance and or settings of the selected field.
 
-* Columns: Choose how many columns (1-4) the fields and elements may occupy.
+* Columns: Lists column layout options to contain fields and elements.
+
 * Tabs: Can be added, rearranged, and deleted.
 
 ## Where do I start?
