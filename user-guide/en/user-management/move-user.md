@@ -35,6 +35,6 @@ To move a user:
 1. Click **Move**. The user is moved to the specified company.
 
 <!-- Referenced links -->
-[2]: ../clients/admin/users/our-companies-tab.md
+[2]: screen/our-companies-tab.md
 
 <!-- Referenced images -->

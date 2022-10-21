@@ -1,6 +1,21 @@
 items:
   - name: Overview
     href: index.md
+  - name: Users screen
+    href: screen/index.md
+    items:
+    - name: Associates tab
+      href: screen/associates-tab.md
+    - name: Other users tab
+      href: screen/other-users-tab.md
+    - name: Our companies
+      href: screen/our-companies-tab.md
+    - name: User licences tab
+      href: screen/user-licences-tab.md
+    - name: User groups
+      href: screen/user-groups-tab.md
+    - name: Users screen
+      href: screen/users-screen-service.md
   - name: Add user
     items:
     - name: Add a SuperOffice CRM user

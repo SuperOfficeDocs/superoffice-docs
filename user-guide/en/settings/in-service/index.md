@@ -42,13 +42,13 @@ In this section of SuperOffice Service, you can configure the system to tailor i
 [5]: ../../request/priority/index.md
 [6]: ../../request/status/index.md
 [7]: ../../email/service/index.md
-[8]: ../../clients/admin/requests/system-templates.md
+[8]: ../../request/screen/system-templates.md
 [9]: system.md
 [10]: ../../settings/options/custlangs/index.md
 [11]: ../../customer-center/listcustcenter.config.md
 [12]: ../../customer-center/listcustcenter.edit.md
 [13]: ../../chat/admin/index.md
-[14]: ../../clients/admin/requests/soap-config.md
+[14]: ../screen/soap-config.md
 [15]: ../../clients/admin/system-design.md
 [16]: ../../request/invoice/index.md
 

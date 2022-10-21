@@ -11,7 +11,7 @@ language: en
 
 # Request screen
 
-When you double-click a row in the [search results screen][1], you are taken to the **Request** screen. This screen comprises the following sections:
+The **Request** screen has the following sections:
 
 * At the top of the screen, the request header contains basic information about the request.
 * Below the header is a row of buttons for performing tasks associated with requests.
@@ -77,17 +77,16 @@ At the bottom of the **Messages** tab, you can send replies and forward messages
 The **Details** tab contains an overview of the request.
 
 <!-- Referenced links -->
-[1]: ../../request/find.md#result
-[3]: ../../request/howto/transfer.md
-[4]: ../../request/howto/reply.md
-[5]: ../../request/howto/accept.md
-[6]: ../../request/howto/split-request.md
-[7]: ../../request/howto/merge.md
+[3]: ../howto/transfer.md
+[4]: ../howto/reply.md
+[5]: ../howto/accept.md
+[6]: ../howto/split-request.md
+[7]: ../howto/merge.md
 [8]: ../../faq/create.md
-[9]: ../../request/howto/edit-message.md
-[10]: ../../request/howto/forward.md
-[11]: ../../request/howto/split-message.md
-[14]: ../../request/category/index.md
+[9]: ../howto/edit-message.md
+[10]: ../howto/forward.md
+[11]: ../howto/split-message.md
+[14]: ../category/index.md
 
 <!-- Referenced images -->
 [img1]: ../../../media/icons/btn-menu.png

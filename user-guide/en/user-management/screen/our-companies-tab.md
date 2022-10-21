@@ -35,8 +35,8 @@ The company list consists of the following columns:
 * [Create associate][3]
 
 <!-- Referenced links -->
-[1]: ../../../user-management/add-our-companies.md
-[2]: ../../../user-management/delete-our-companies.md
-[3]: ../../../user-management/index.md
+[1]: ../add-our-companies.md
+[2]: ../delete-our-companies.md
+[3]: ../index.md
 
 <!-- Referenced images -->

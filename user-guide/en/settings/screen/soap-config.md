@@ -22,6 +22,6 @@ In the **SOAP** screen, you can configure the SOAP interface. You can set up 3 t
 * [Add an IP address range][1]
 
 <!-- Referenced links -->
-[1]: ../../../settings/configure-soap.md
+[1]: ../configure-soap.md
 
 <!-- Referenced images -->

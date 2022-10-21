@@ -22,3 +22,7 @@ items:
   items:
   - name: Configure SOAP interface
     href: configure-soap.md
+- name: Screens
+  items:
+  - name: SOAP
+    href: screen/soap-config.md

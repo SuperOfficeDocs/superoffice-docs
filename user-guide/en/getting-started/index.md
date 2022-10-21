@@ -123,6 +123,6 @@ SuperOffice is available as an online application (cloud-based) and as an onsite
 [36]: ../settings/options/index.md
 [37]: ../import/index.md
 [38]: ../custom-objects/udef/index.md
-[39]: ../clients/admin/requests/index.md
+[39]: ../request/screen/index.md
 [40]: ../win-client/main-sections-of-maintenance-client.md
 [41]: https://online.superoffice.com/appstore

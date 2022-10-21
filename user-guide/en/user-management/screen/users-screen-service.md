@@ -38,7 +38,7 @@ Using the **User groups** tab in the **Users** screen, you can collect the users
 * [Edit users][1]
 
 <!-- Referenced links -->
-[1]: ../../user-management/update-user.md#service
+[1]: ../update-user.md#service
 
 <!-- Referenced images -->
 [img1]: ../../../media/icons/globalmenu-settings-small.png

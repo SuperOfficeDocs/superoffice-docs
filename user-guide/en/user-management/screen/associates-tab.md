@@ -93,14 +93,14 @@ You can group the list of users by role, user plan, primary group etc. In additi
 * [Log users off][5]
 
 <!-- Referenced links -->
-[1]: ../../../user-management/delete-user.md
-[2]: ../../../user-management/add-associate.md
-[3]: ../../../user-management/move-user.md
-[4]: ../../../user-management/import-users.md
-[5]: ../../../orphans/logging-users-off.md
-[6]: ../../howto/adjusting-views.md
-[7]: ../../../user-management/role/index.md
+[1]: ../delete-user.md
+[2]: ../add-associate.md
+[3]: ../move-user.md
+[4]: ../import-users.md
+[5]: ../../orphans/logging-users-off.md
+[6]: ../../clients/howto/adjusting-views.md
+[7]: ../role/index.md
 
 <!-- Referenced images -->
-[img1]: ../../../../../common/icons/cog-wheel.png
-[img2]: ../../../../media/icons/btn-columnheaderfilter.png
+[img1]: ../../../../common/icons/cog-wheel.png
+[img2]: ../../../media/icons/btn-columnheaderfilter.png

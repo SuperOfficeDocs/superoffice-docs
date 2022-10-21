@@ -11,7 +11,9 @@ language: en
 
 # Requests
 
-In this screen you can find various functions related to requests in SuperOffice Service. See the following topics:
+In this screen you can find various functions related to requests in SuperOffice Service.
+
+See the following topics:
 
 * [Categories][1]
 * [Priorities][2]
@@ -21,11 +23,11 @@ In this screen you can find various functions related to requests in SuperOffice
 * [SOAP][6]
 
 <!-- Referenced links -->
-[1]: ../../../request/category/index.md
-[2]: ../../../request/priority/index.md
-[3]: ../../../request/status/index.md
-[4]: ../../../email/service/mailboxes/index.md
+[1]: ../category/index.md
+[2]: ../priority/index.md
+[3]: ../status/index.md
+[4]: ../../email/service/mailboxes/index.md
 [5]: system-templates.md
-[6]: soap-config.md
+[6]: ../../settings/screen/soap-config.md
 
 <!-- Referenced images -->

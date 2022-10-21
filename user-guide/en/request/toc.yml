@@ -1,6 +1,15 @@
 items:
 - name: Overview
   href: index.md
+- name: Request screens
+  href: screen/index.md
+  items:
+  - name: Request log
+    href: screen/ticket-log.md
+  - name: System templates
+    href: screen/system-templates.md
+  - name: In Settings and maintenance
+    href: screen/request-admin.md
 - name: Open and view a request
   href: open.md
 - name: Get next request in the queue

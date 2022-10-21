@@ -12,7 +12,7 @@ so.envir: onsite
 
 # Other users
 
-[!include[Requirement](../../../includes/note-users-that-req-es.md)]
+[!include[Requirement](../../includes/note-users-that-req-es.md)]
 
 On the **Other users** tab in the **Users** screen, you can edit login rights for and add the following user types:
 
@@ -28,10 +28,10 @@ On the **Other users** tab in the **Users** screen, you can edit login rights fo
 * [Delete other users][4]
 
 <!-- Referenced links -->
-[1]: ../../../user-management/add-other-user.md
-[2]: ../../../user-management/update-user.md#other
-[3]: ../../../user-management/edit-logon-rights-for-other-users.md
-[4]: ../../../user-management/delete-user.md#other
-[5]: ../../../user-management/index.md
+[1]: ../add-other-user.md
+[2]: ../update-user.md#other
+[3]: ../edit-logon-rights-for-other-users.md
+[4]: ../delete-user.md#other
+[5]: ../index.md
 
 <!-- Referenced images -->
