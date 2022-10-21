@@ -17,14 +17,13 @@ so.version: 10
 
 Before customizing a layout, determine who the intended users are.
 
-
 * What do they need at their fingertips?
 * Do they need all default fields and tabs, or should you remove something?
 * Do they require additional tabs?
 * What is the logical order of fields?
 
 > [!NOTE]
-> You can also modify the **default layout** of one or more screens for all users to fit the specific needs of your organization. However, you can't edit the settings and you can't re-assign it.
+> You can edit the **default layout**, however, you can't edit the settings and you can't re-assign it.
 
 ## Edit card layout
 
@@ -41,7 +40,7 @@ Before customizing a layout, determine who the intended users are.
 
 ## Save, publish, or cancel
 
-When you are done, click one of the following buttons:
+After editing a layout, click one of the following buttons:
 
 | Button | Description |
 |---|---|

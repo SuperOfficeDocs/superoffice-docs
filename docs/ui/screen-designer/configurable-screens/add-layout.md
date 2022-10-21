@@ -17,7 +17,6 @@ so.client:
 
 Whether you add a personalized view for a selected user group or design a layout optimized for specific project types and sales types, start by adding a new layout for a screen in the Screen Designer.
 
-
 ## Create new layout
 
 To create a new screen layout:
@@ -55,7 +54,7 @@ To create a new screen layout:
 
 ## Delete a layout
 
-When you delete a custom layout, user groups assigned to it are reassigned to the system layout.
+When a user-group-based layout is deleted, users in that group will see the default (system) layout.
 
 To delete a layout:
 
