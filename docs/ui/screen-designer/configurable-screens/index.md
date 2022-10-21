@@ -43,7 +43,8 @@ The default (system) layout applies to all users unless you have created and ass
 
 In addition, you can [add custom layouts][2] and assign them to a user group. Layouts in the **Sales** screen can alternatively be assigned to a **sales type**. Layouts in the **Project** screen can alternatively be assigned to a **project type**.
 
-Layouts have status published or draft.
+Layouts have status *published* or *draft*.
+
 
 ![Screen Designer draft layout -screenshot][img1]
 
