@@ -15,7 +15,8 @@ so.client:
 
 [!include[Requirement](../../../../common/includes/req-dev-tools.md)]
 
-Whether you want to add a personalized view for selected user groups or design layouts optimized for specific project types and sales types, you start by adding a new layout for a screen in the Screen Designer.
+Whether you add a personalized view for a selected user group or design a layout optimized for specific project types and sales types, start by adding a new layout for a screen in the Screen Designer.
+
 
 ## Create new layout
 
