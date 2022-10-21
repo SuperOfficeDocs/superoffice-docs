@@ -43,7 +43,7 @@ conceptualContent:
   items:
     # Card
     - title: Configurable screens
-      summary: "Configurable screens gives CRM Administrators a unified way of customizing the SuperOffice CRM user interface."
+      summary: "Configurable screens enable CRM Administrators to customize SuperOffice CRM user interface controls."
       links:
         - url: screen-designer/index.md
           itemType: concept
