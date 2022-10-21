@@ -1,7 +1,7 @@
 ---
 uid: help-en-import
-title: Import web
-description: Import web
+title: Import
+description: Import
 author: SuperOffice RnD
 so.date: 06.29.2022
 keywords: Settings and maintenance, import

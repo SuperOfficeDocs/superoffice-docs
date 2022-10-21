@@ -5,7 +5,7 @@ items:
     href: import-from-excel.md
   - name: Import from Outlook
     href: import-from-outlook.md
-  - name: Import from Mac Address book
+  - name: Import from Mac address book
     href: import-from-mac-addressbook.md
   - name: Import from Gmail
     href: import-from-gmail.md

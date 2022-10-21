@@ -22,7 +22,7 @@ If you have an Excel spreadsheet with a list of products, you can easily import 
 
 To import an Excel spreadsheet with products into the SuperOffice database:
 
-## A. Export products from an Excel import file
+## Export products from an Excel import file
 
 1. [!include[Open Import](includes/open-import.md)]
 
@@ -41,14 +41,12 @@ To import an Excel spreadsheet with products into the SuperOffice database:
 > [!NOTE]
 > At this stage, products from Excel have not yet been imported into the SuperOffice database. SuperOffice will only upload the product list from the spreadsheet, so that you can specify the import settings.
 
-## B. Adjust the import
+## Adjust the import
 
 As the Excel spreadsheet may contain anything from just a few to a large number of columns, it is important that the columns with data you want to import are linked to the correct SuperOffice field.
 
 > [!NOTE]
 > The spreadsheet must at minimum contain the columns you select for duplicate check in the procedure below (name, code or name+code).
-
-[!include[To do this](../includes/to-do-this.md)]
 
 1. Find the column containing the name of the products, click the **(No Selection)** column title and select **Product: Name**.
 
@@ -75,7 +73,7 @@ As the Excel spreadsheet may contain anything from just a few to a large number 
 
 8. When you have checked that this actually is the data you want to import, click **Import**.
 
-## C. Complete the import
+## Complete the import
 
 When the import is complete, a list of the imported products will be displayed. Above the list is a link to the updated price list.
 

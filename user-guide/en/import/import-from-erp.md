@@ -15,14 +15,14 @@ language: en
 
 This is how to proceed when importing actors (customers, suppliers and individuals) from an ERP system into the SuperOffice database:
 
-## A. Select actors to be imported from the ERP system
+## Select actors to be imported from the ERP system
 
 > [!NOTE]
-> If the **ERP Sync** icon ( ![icon][img1] ) is inactive, you must turn off synchronisation in **Quote/Sync** &gt; **Sync** tab.
+> If the **ERP Sync** icon ( ![icon][img1] ) is inactive, you must turn off synchronisation in **Quote/Sync** > **Sync** tab.
 
 1. [!include[Open Import](includes/open-import.md)]
 2. [!include[Select source](includes/select-source.md)]
-3. In the **ERP connection** list, select the connection you want to import from (see [Sync][2]).
+3. In the **ERP connection** list, [select the connection][2] you want to import from.
 4. In the **Actor type** list, select what you want to import. These might, for example, be customers, suppliers or individuals.
 5. Click **OK**. The **Search ERP** dialog appears.
 6. Search for the actors you want to import, such as all suppliers in a specific town. [!include[See search criteria](../includes/see-search-admin.md)]
@@ -32,7 +32,7 @@ This is how to proceed when importing actors (customers, suppliers and individua
 > [!NOTE]
 > At this stage, actors from the ERP system have not yet been imported into the SuperOffice database. SuperOffice just loads the actors you want to import, so that you can define the import settings.
 
-## B. Configure the import
+## Configure the import
 
 1. [!include[Configure import settings](includes/configure-import-settings.md)]
 
@@ -42,7 +42,7 @@ This is how to proceed when importing actors (customers, suppliers and individua
 
 1. Once you have verified that these are really the data you want to import, click **Import**
 
-## C. Complete the import
+## Complete the import
 
 Once the import has finished, two lists are displayed:
 

@@ -15,8 +15,10 @@ language: en
 
 To import your companies into the SuperOffice database:
 
-## A. Import companies/contacts from Mac Address book
-NEED complete rewrite to get correct behaviour, need more info from Max/Office integration team. The icon in Import appears if user have WebTools for Mac installed and opening Settings and maintenance.
+## Import companies/contacts from Mac Address book
+
+<!-- NEED complete rewrite to get correct behaviour, need more info from Max/Office integration team.  -->
+The icon in Import appears if user have WebTools for Mac installed and opening Settings and maintenance.
 
 1. [!include[Open Import](includes/open-import.md)]
 
@@ -32,7 +34,7 @@ NEED complete rewrite to get correct behaviour, need more info from Max/Office i
 
     When the import from Outlook has finished, the companies/contacts will be displayed in the **Import** screen.
 
-## B. Adjust the import
+## Adjust the import
 
 [!include[Adjust for Gmail/Outlook](includes/adjust-email-only.md)]
 
@@ -46,7 +48,7 @@ NEED complete rewrite to get correct behaviour, need more info from Max/Office i
 
 [!include[Contacts without icons](includes/troubleshoot-import.md)]
 
-## C. Complete the import
+## Complete the import
 
 [!include[Step: complete the import](includes/import-complete.md)]
 

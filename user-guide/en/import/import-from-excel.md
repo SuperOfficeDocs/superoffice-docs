@@ -30,7 +30,7 @@ If you have an Excel spreadsheet with a list of your companies/contacts and asso
 
 To import an Excel spreadsheet into the SuperOffice database:
 
-## A. Import companies/contacts from an Excel file
+## Import companies/contacts from an Excel file
 
 1. [!include[Open Import](includes/open-import.md)]
 
@@ -43,14 +43,12 @@ To import an Excel spreadsheet into the SuperOffice database:
 > [!NOTE]
 > At this stage, companies/contacts from Excel have not yet been imported into the SuperOffice database. SuperOffice will only upload the company/contact list from the spreadsheet, so that you can specify the import settings.
 
-## B. Adjust the import
+## Adjust the import
 
 As the Excel spreadsheet may contain anything from just a few to a large number of columns, it is important that the columns with data you want to import are linked to the correct SuperOffice field.
 
 > [!NOTE]
 > If the Excel spreadsheet had a title row at the top, this will also be displayed in the list. You can remove this when you preview the data in the next step.
-
-[!include[To do this](../includes/to-do-this.md)]
 
 1. Find the column containing the name of the companies, click the **(No Selection)** column title and select **Company: Name**.
 
@@ -76,7 +74,7 @@ As the Excel spreadsheet may contain anything from just a few to a large number 
 
 You must link all the required SuperOffice fields to their respective columns in order to continue. The required fields will be displayed above the table. If you have specified that contacts without companies should be added as new companies, only the SuperOffice field **Company: Name** is mandatory.
 
-## C. Complete the import
+## Complete the import
 
 [!include[Step: complete the import](includes/import-complete.md)]
 

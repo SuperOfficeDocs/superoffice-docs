@@ -15,7 +15,7 @@ language: en
 
 To import your Gmail companies into the SuperOffice database:
 
-## A. Import companies/contacts from Gmail
+## Import companies/contacts from Gmail
 
 1. [!include[Open Import](includes/open-import.md)]
 
@@ -32,7 +32,7 @@ To import your Gmail companies into the SuperOffice database:
     > [!NOTE]
     > The companies from Gmail will not be imported into the SuperOffice database yet. SuperOffice will only upload the company list from Gmail, so that you can specify the import settings.
 
-## B. Adjust the import
+## Adjust the import
 
 [!include[Adjust for Gmail/Outlook](includes/adjust-email-only.md)]
 
@@ -46,7 +46,7 @@ To import your Gmail companies into the SuperOffice database:
 
 [!include[Contacts without icons](includes/troubleshoot-import.md)]
 
-## C. Complete the import
+## Complete the import
 
 [!include[Step: complete the import](includes/import-complete.md)]
 

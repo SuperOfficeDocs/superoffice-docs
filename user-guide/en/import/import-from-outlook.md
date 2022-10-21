@@ -23,7 +23,7 @@ To import your Outlook companies into the SuperOffice database:
 
     <details><summary>Is an error message displayed?</summary>
 
-    You must install and configure SuperOffice WebTools in order to import companies from Outlook. In SuperOffice CRM, go to **File &gt; Download &gt; SuperOffice WebTools**. Contact user support if you experience problems.
+    You must install and configure SuperOffice WebTools in order to import companies from Outlook. In SuperOffice CRM, go to **File** > **Download** > **SuperOffice WebTools**. Contact user support if you experience problems.
     </details>
 
     > [!NOTE]

@@ -64,8 +64,6 @@ A duplicate occurs if you have the same record in the import file and in the dat
 
 Under **Company**, and **Contact**, and **Product** in the **Import settings** dialog, specify how duplicates are to be managed.
 
-[!include[To do this](../includes/to-do-this.md)]
-
 1. Click the **Duplicate match** list box and select the field(s) that are to be used to identify duplicate companies or contacts.
 
     > [!NOTE]
@@ -129,7 +127,7 @@ If contacts in the import source are not listed with a company, you have three o
 
 When you import contacts, you must also set the legal basis and consent source for the purpose **Sales and service**:
 
-* **Legal basis**: Select a legal basis from the list, or select **Use default** to use the default legal basis defined in the **Privacy** screen (see [Privacy][1]).
+* **Legal basis**: Select a [legal basis][1] from the list, or select **Use default** to use the default legal basis defined in the **Privacy** screen.
 * **Consent source**: This value is by default set to **Import**, but you can select another value in the list.
 
 ## Manage list values that do not exist in SuperOffice
