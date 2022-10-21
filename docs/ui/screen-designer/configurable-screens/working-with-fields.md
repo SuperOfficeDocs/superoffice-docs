@@ -24,7 +24,8 @@ The list of fields on any screen contains all standard SuperOffice fields for th
 
 ## Add field
 
-You can place the same field in multiple locations in the screen layout, if relevant.
+Any field can appear in multiple locations, if relevant.
+
 
 To add a new field:
 
