@@ -73,7 +73,8 @@ To remove a field:
 
 * Hold the pointer over a field and click the red x.
 
-If you want the field back later, simply [re-add the field](#add-field).
+To restore the field, simply [re-add the field](#add-field).
+
 
 > [!NOTE]
 > Mandatory fields can't be deleted. However, you can move a mandatory field to another tab.
