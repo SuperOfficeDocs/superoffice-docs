@@ -15,7 +15,8 @@ so.version: 10
 
 ## Considerations
 
-Before you customize a layout, determine who the intended users are.
+Before customizing a layout, determine who the intended users are.
+
 
 * What do they need at their fingertips?
 * Do they need all default fields and tabs, or should you remove something?
