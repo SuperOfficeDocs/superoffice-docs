@@ -43,7 +43,8 @@ Learn more about [working with fields][1]
 Use the **Task** button to revert to an earlier version of the screen.
 
 
-* **Reset to factory settings:** This option discards all changes and resets the screen layout to the standard layout delivered by SuperOffice.
+* **Reset to factory settings:** This option discards all changes and resets the screen layout to the default (system) layout delivered by SuperOffice.
+
 * **Discard draft:** Discards all changes and resets to the published version of the screen layout.
 
 ## What if I don't use the Screen Designer?
