@@ -20,7 +20,8 @@ The **Screen Designer** in Settings and maintenance lets you design layouts that
 The **Layouts** list displays any existing screen layouts (usually the default layout), with a preview screen on the right.
 
 * Fields: Here you can find all available data fields for the selected screen layout. Use the filter function to find specific fields.
-* Elements: Here you can add various non-data elements such as labels, dividers, links and, buttons.
+* Elements: Lists all non-data screen elements such as labels, dividers, links and, buttons.
+
 * Settings: Customize appearance of individual field.
 * Columns: Choose how many columns (1-4) the fields and elements may occupy.
 * Tabs: Can be added, rearranged, and deleted.
