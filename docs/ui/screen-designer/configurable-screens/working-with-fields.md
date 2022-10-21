@@ -71,7 +71,8 @@ To reduce clutter, it is useful to hide fields that are never used (either by th
 
 To remove a field:
 
-* Hold the pointer over a field and click the red x.
+* Hold the pointer over a field and click the red circled x.
+
 
 To restore the field, simply [re-add the field](#add-field).
 
