@@ -15,7 +15,7 @@ so.client:
 
 [!include[Requirement](../../../common/includes/req-dev-tools.md)]
 
-The The **Screen Designer** in Settings and maintenance lets you design layouts that make the most sense in your organization. It replaces [PageBuilder][2] and the old way of customizing the UI - screen by screen.
+The **Screen Designer** in Settings and maintenance lets you design layouts that make the most sense in your organization. It replaces [PageBuilder][2] and the old way of customizing the UI - screen by screen.
 
 The **Layouts** list displays any existing screen layouts (usually the default layout), with a preview screen on the right.
 
@@ -27,7 +27,7 @@ The **Layouts** list displays any existing screen layouts (usually the default l
 
 ## Where do I start?
 
-To open the Screen Designer, go to **Settings and maintenance** and select **Screen Designer** from the navigator.
+To open the Screen Designer, click ![icon][img1], select **Settings and maintenance**, and then select **Screen Designer** from the navigator.
 
 * Drag and drop field into the editor.
 * Select a field to move it, or to update its settings.
@@ -41,7 +41,6 @@ Learn more about [working with fields][1]
 ### Undo changes
 
 Use the **Task** button to revert to an earlier version of the screen.
-
 
 * **Reset to factory settings:** This option discards all changes and resets the screen layout to the default (system) layout delivered by SuperOffice.
 
@@ -58,3 +57,4 @@ Without the Development Tools license, new cards take effects and the custom fie
 [2]: ../web-app/pagebuilder/index.md
 
 <!-- Referenced images -->
+[img1]:../../../common/icons/mainmenu.png

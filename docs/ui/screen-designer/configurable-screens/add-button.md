@@ -15,7 +15,7 @@ so.client:
 
 [!include[Requirement](../../../../common/includes/req-dev-tools.md)]
 
-Add custom buttons and links to the same areas you can add fields to. You can add URLs for looking up information in other websites, allow users to run CRMScripts from the screen, and add navigation to other parts of SuperOffice using SoProtocol.
+Add custom buttons and links to the same areas you can add fields to. The URL is used to open a webpage in the current or new tab, run a CRMScript from the screen, or navigate to other parts of SuperOffice using [SoProtocol][3].
 
 Buttons and links work similarly. The difference is that you can style a button but not a link.
 
@@ -43,7 +43,6 @@ The instructions below assume you're already [editing the layout][4].
     * Execute CRMScript: Select this option to add a [CRMScript][2] to run specific actions in SuperOffice.
 
     * Shortcut ([SoProtocol][3]): Select this option to add a control that, when clicked, navigates to a different area or screen in SuperOffice.
-
 
 1. In the **Mode** list, choose if the button should always be available, or if it should only be available in read or edit mode.
 1. In the **Style** list, select the style of the button.
@@ -77,7 +76,7 @@ When the element is selected:
 1. Repeat steps 2-3 for additional languages.
 1. Click **Close** to exit the translation dialog.
 
-You can add, edit, and remove translations later. But remember to republish the layout.
+Remember to republish the layout.
 
 ## Reference
 
@@ -109,7 +108,6 @@ Some settings depend on the selected action.
 ![Screen Designer, execute CRMScript on button -screenshot][img3]
 
 [Learn more about CRMScript][2]
-
 
 ## Shortcut (SoProtocol)
 
