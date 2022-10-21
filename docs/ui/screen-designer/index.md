@@ -36,7 +36,7 @@ To open the Screen Designer, click ![icon][img1], select **Settings and maintena
 Learn more about [working with fields][1]
 
 > [!NOTE]
-> After you publish a layout, users assigned to it must sign out of SuperOffice and back in to see the changes.
+> After you publish a layout, users in groups assigned to it must sign out of SuperOffice and back in to see the changes.
 
 ### Undo changes
 

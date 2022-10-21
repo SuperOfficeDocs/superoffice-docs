@@ -17,7 +17,6 @@ so.client:
 
 Configurable screens enable CRM Administrators to customize SuperOffice CRM user interface controls.
 
-
 ## Which screens can I configure?
 
 * Company
@@ -52,12 +51,15 @@ Layouts have status *published* or *draft*.
 
 ## More tab
 
-The **More** tab has all custom fields ordered by rank. You probably want to go through and organize these. You can add important custom fields other places.
+The **More** tab contains all [custom fields][3] ordered by rank. These fields are configurable within this area, and optionally added on other screens.
 
-User-defined fields (udef) and extra fields are created as before.
+[User-defined fields][5] (udef) and [extra fields][4] are created as before.
 
 <!-- Referenced links -->
 [2]: add-layout.md
+[3]: ../../../custom-objects/overview.md
+[4]: https://help.superoffice.com/Documentation/Help/EN/CRM/10.1/UserHelp/index.htm#t=Service%2Ftopics%2Fblogic.listExtraTables.listFields.editField.html
+[5]: https://help.superoffice.com/Documentation/Help/EN/CRM/WebHelpAdmin/index.htm#t=fields_web%2FAdding_fields_web.htm
 
 <!-- Referenced images -->
 [img1]: media/status-draft.png

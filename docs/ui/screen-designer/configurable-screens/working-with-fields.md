@@ -15,7 +15,6 @@ so.version: 10
 
 Labels and fields represent the essential contents of a screen. Whether creating a new layout or modify an existing one, start by clicking **Edit layout**. [Show me the detailed steps.][1] When done, **save or publish** the layout.
 
-
 > [!TIP]
 > You might want to [add or remove tabs][2] before you fine-tune the fields.
 
@@ -27,13 +26,11 @@ The list of fields on any screen contains all standard SuperOffice fields for th
 
 Any field can appear in multiple locations, if relevant.
 
-
 To add a new field:
 
 1. Select the tab you want to add the field to.
 2. Make sure the **Fields** section is selected.
 3. Locate the desired field in the **Fields** list.
-
 
     > [!TIP]
     > Use the filter function to find specific fields.
@@ -58,7 +55,7 @@ For example formatting, see the screenshot in the section about [adding a headin
 
 ## Move field
 
-You can give easy access to important custom fields by adding or moving them to the main (left-most) tab. You can also move less important fields to secondary tabs as an alternative to removing them.
+You can give easy access to important custom fields by adding or moving them to the main (left-most) tab. You can move less important fields to secondary tabs as an alternative to removing them.
 
 To move a field:
 
