@@ -83,7 +83,8 @@ By default, tabs have two columns. You can customize each tab individually and c
 
 If you reduce the number of columns, the fields will be moved to the new last column. For example, If you change from three to two, all fields in the third column are moved to the bottom of column 2. If you change to one column, all fields are moved to the first column.
 
-If a user doesn't have the screen size to fit all columns, the columns will be stacked vertically.
+The columns are vertically stacked when the screen size is too small to show them all horizontally.
+
 
 With four columns, the visibility of some fields can be impaired. Consider hiding the field label to gain more space.
 
