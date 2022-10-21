@@ -91,7 +91,7 @@ At the top left in SuperOffice CRM is the SuperOffice logo, which has the follow
 [7]: ../settings/edit-email-signature.md
 [8]: duplicates.md
 [9]: notes.md
-[15]: ../orphans/creating-shortcuts-to-entries-in-crm.md
+[15]: ../win-client/creating-shortcuts-to-entries-in-crm.md
 [17]: ../sale/sales-targets.md
 
 <!-- Referenced images -->

@@ -1,5 +1,5 @@
 ---
-uid: help-en-updating-database
+uid: help-en-update-database
 title: Updating the database
 description: Updating the database
 author: SuperOffice RnD

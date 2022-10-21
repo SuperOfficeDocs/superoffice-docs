@@ -5,7 +5,7 @@ description: Create FAQ entries
 author: SuperOffice RnD
 so.date: 06.29.2022
 keywords: FAQ
-so.topic: help
+so.topic: howto
 language: en
 ---
 

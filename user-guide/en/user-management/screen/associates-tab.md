@@ -97,7 +97,7 @@ You can group the list of users by role, user plan, primary group etc. In additi
 [2]: ../add-associate.md
 [3]: ../move-user.md
 [4]: ../import-users.md
-[5]: ../../orphans/logging-users-off.md
+[5]: ../../win-client/logging-users-off.md
 [6]: ../../howto/adjusting-views.md
 [7]: ../role/index.md
 

@@ -4,8 +4,8 @@ title: Administrate folders of FAQ entries
 description: Administrate folders of FAQ entries
 author: SuperOffice RnD
 so.date: 06.29.2022
-keywords: FAQ
-so.topic: help
+keywords: FAQ, folder
+so.topic: howto
 language: en
 ---
 

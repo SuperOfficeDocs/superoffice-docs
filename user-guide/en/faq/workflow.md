@@ -5,7 +5,7 @@ description: Workflow stages
 author: SuperOffice RnD
 so.date: 06.29.2022
 keywords: FAQ
-so.topic: help
+so.topic: howto
 language: en
 ---
 
@@ -32,9 +32,9 @@ In a new installation, the workflow contains two default stages: **Unpublished**
 
 ## Edit stage
 
-You can both change the name of a stage and alter which users are to have access to it. [!include[To do this](../includes/to-do-this.md)]
+You can both change the name of a stage and alter which users are to have access to it.
 
-1. Select **Knowledge Base** &gt; **FAQ** and click the **Workflow** button.
+1. Select **Knowledge Base** > **FAQ** and click the **Workflow** button.
 2. Click the name of the stage. This takes you to the **Edit stage** screen.
 3. Edit the name as required.
 4. Change which users are to have access to the stage:
@@ -47,7 +47,7 @@ You can both change the name of a stage and alter which users are to have access
 > [!NOTE]
 > You cannot delete the default **Unpublished** and **Published** stages.
 
-1. Select **Knowledge Base** &gt; **FAQ** and click the ![icon][img2] **Workflow** button.
+1. Select **Knowledge Base** > **FAQ** and click the ![icon][img2] **Workflow** button.
 2. Click the name of the stage. This takes you to the **Edit stage** screen.
 3. Click **Delete**. If the stage is not associated with any FAQ entries, it is deleted immediately.
 4. If it is linked to FAQ entries, you need to select which stage in the workflow these FAQ entries should be moved to. Select the stage you want in the **Move to workflow** list.
@@ -55,7 +55,7 @@ You can both change the name of a stage and alter which users are to have access
 
 ## Publish via workflow
 
-1. Open the FAQ entry. See [View FAQ entries][1].
+1. [Open the FAQ entry][1].
 2. If you want to adjust anything before publishing, follow the procedure under [Publish FAQ entries][2].
 3. Click the **Move forward in workflow** button until **Published** is shown in the **Workflow stage** field in the **Details** tab.
 

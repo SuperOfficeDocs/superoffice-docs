@@ -39,7 +39,7 @@ There are two important things to remember before you import data:
 [4]: specifying-advanced-import-settings.md
 [5]: duplicates-import.md
 [6]: import-descriptions.md
-[7]: ../updating-database.md
+[7]: ../update-database.md
 [8]: ../backup-routines.md
 
 <!-- Referenced images -->

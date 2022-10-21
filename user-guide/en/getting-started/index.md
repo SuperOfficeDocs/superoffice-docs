@@ -73,7 +73,7 @@ Most administration of SuperOffice CRM is performed via Settings and maintenance
 
 You can easily switch between these screens by clicking the buttons in the Navigator.
 
-To access SOLoader, advanced import, replication, Travel and scripting, see [The main sections of Windows Client settings][40].
+To access SOLoader, advanced import, replication, Travel and scripting, see [Windows Client settings][40].
 
 ## Differences between onsite and online installations
 
@@ -123,5 +123,5 @@ SuperOffice is available as an online application (cloud-based) and as an onsite
 [37]: ../import/index.md
 [38]: ../custom-objects/udef/index.md
 [39]: ../request/screen/index.md
-[40]: ../win-client/main-sections-of-maintenance-client.md
+[40]: ../win-client/index.md
 [41]: https://online.superoffice.com/appstore

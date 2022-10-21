@@ -1,10 +1,9 @@
 items:
-- name: Changing the language version web
-  href: changing-language-version-web.md
-- name: Translate fields
+- name: Change active language
+  href: change-language.md
+- name: Translate field labels
   href: translate-fields.md
 - name: Language support for documents
   href: doc-language-support.md
-
 - name: Time zones
   href: time-zones.md

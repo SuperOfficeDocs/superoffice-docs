@@ -49,7 +49,7 @@ The fields in the **Import** screen and their use are described under [Import fi
 [4]: specifying-advanced-import-settings.md
 [5]: duplicates-import.md
 [6]: import-descriptions.md
-[7]: ../updating-database.md
+[7]: ../update-database.md
 [8]: ../export.md
 [9]: ../../import/index.md
 

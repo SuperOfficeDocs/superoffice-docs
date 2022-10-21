@@ -1,11 +1,11 @@
 ---
-uid: help-en-changing-language-version-web
-title: Changing the language version web
-description: Changing the language version web
+uid: help-en-language-change
+title: Change active language
+description: Change active language
 author: SuperOffice RnD
 so.date: 06.29.2022
-keywords: Settings and maintenance, language
-so.topic: help
+keywords: language
+so.topic: howto
 language: en
 ---
 
@@ -13,7 +13,7 @@ language: en
 
 To use Settings and maintenance in another language:
 
-1. Go to ![icon][img1] **Personal settings &gt; Local settings**.
+1. Go to ![icon][img1] **Personal settings** > **Local settings**.
 2. Select the language you require in the **Active language** list.
 3. Click **OK**.
 

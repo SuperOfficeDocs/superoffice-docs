@@ -110,7 +110,7 @@ When you click this button, the following options are displayed:
 
 * **Delete**: Deletes the current entry.
 * **Help**: Opens the help for the active dialog.
-* **Copy shortcut**: Copies a [shortcut][9] to the active entry.
+* **Copy shortcut**: Copies a [shortcut to the active entry][9].
 * **Revert to saved version**: Select this option to [cancel a check-out][8]. This may be relevant if you have checked out the document by mistake and are unable to check it in again.
 
 Below these options are shortcuts to other relevant tasks that can be performed on the active entry. In SuperOffice Settings and maintenance, you can also define your own tasks and add them under the **Task** button. For more information about this, see the Help for SuperOffice Settings and maintenance.
@@ -147,7 +147,7 @@ This tab displays any [user-defined fields][3] configured in SuperOffice Setting
 [6]: ../../search-options/using-fastsearcher.md
 [7]: ../../diary/change-completed-status.md
 [8]: ../lock.md
-[9]: ../../orphans/creating-shortcuts-to-entries-in-crm.md
+[9]: ../../win-client/creating-shortcuts-to-entries-in-crm.md
 [2]: ../../howto/linking-documents-to-follow-ups.md
 [3]: ../../custom-objects/udef/index.md
 

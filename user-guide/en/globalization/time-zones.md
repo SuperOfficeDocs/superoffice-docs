@@ -5,7 +5,7 @@ description: Time zones
 author: SuperOffice RnD
 so.date: 07.04.2022
 keywords: CRM
-so.topic: help
+so.topic: concept
 language: en
 ---
 
@@ -14,7 +14,7 @@ language: en
 SuperOffice CRM supports follow-ups in different time zones. Time zones are enabled if there is a list box for selecting a time zone at the bottom left of the diary (flag and country).
 
 > [!NOTE]
-> Use of time zones must be enabled per country in SuperOffice Settings and maintenance (under **Options** &gt; **Time zones**). In addition, you can go to **Preferences** to show the time zone selector and set the default time zone. More help on how to set up time zones can also be found there.
+> Use of time zones must be enabled per country in SuperOffice Settings and maintenance (under **Options** > **Time zones**). In addition, you can go to **Preferences** to show the time zone selector and set the default time zone. More help on how to set up time zones can also be found there.
 
 ## How do time zones work in SuperOffice CRM?
 
@@ -29,11 +29,11 @@ This function supports summer time.
 
 ## How do you select time zones?
 
-Time zones are displayed in a list box in the Diary (see [Diary][1]) and in the dialog for follow-ups.[!include[See Appointment dialog](../includes/see-apt-dialog.md)] The default time zone for your SuperOffice database is displayed at the top, using this icon: ![icon][img1].
+Time zones are displayed in a list box in the [Diary][1] and in the dialog for follow-ups. [!include[See Appointment dialog](../includes/see-apt-dialog.md)] The default time zone for your SuperOffice database is displayed at the top, using this icon: ![icon][img1].
 
 The time zone list is sorted by country. At the top of the list is the name of the selected country and its flag. You can get to the time zone list in several different ways:
 
-* Use the field at the top with the selected country and flag as a search field. You can search in the time zone field in the same way as in the FastSearcher fields (see [Use FastSearcher][2]), and you can search for both countries and cities, assuming the city is included in the time zone data. If, for example, you don't know the time zone for Canberra, you can search for Canberra and bring up the relevant Australian time zone in the list.
+* Use the field at the top with the selected country and flag as a search field. You can search in the time zone field in the same way as in the [FastSearcher][2] fields, and you can search for both countries and cities, assuming the city is included in the time zone data. If, for example, you don't know the time zone for Canberra, you can search for Canberra and bring up the relevant Australian time zone in the list.
 * By searching for a number of hours to find the correct time zone. For example, if you enter +3, all time zones that are three hours after the time zone specified in SuperOffice CRM will be displayed.
 
 > [!NOTE]

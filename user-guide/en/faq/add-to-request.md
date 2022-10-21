@@ -5,19 +5,19 @@ description: Add FAQ entries to messages
 author: SuperOffice RnD
 so.date: 06.29.2022
 keywords: FAQ
-so.topic: help
+so.topic: howto
 language: en
 ---
 
 # Add FAQ entries to messages
 
-When you respond to a customer enquiry, you can save time by inserting a link to an FAQ entry in your reply. [!include[To do this](../includes/to-do-this.md)]
+When you respond to a customer enquiry, you can save time by inserting a link to an FAQ entry in your reply.
 
 1. Go to the **Message** tab, as described under [Reply to customer][1].
 2. Position the mouse pointer in the message where you want to insert the link.
-3. In the **Insert** field, first click **FAQ entry** and then the entry you want.
-    or
-    Click **Add text** ![icon][img1] in the toolbar, click the folder icon ![icon][img2], click **FAQ entry** and then the entry you want.
+3. Select the entry you want:
+    * In the **Insert** field, click **FAQ entry** and then select an entry. Or,
+    *Click **Add text** ![icon][img1] in the toolbar, click the folder icon ![icon][img2], click **FAQ entry**, and then select an entry.
 4. Click **Paste at cursor position**. A link is inserted which the customer can click to show the relevant FAQ entry in the customer centre.
 
 > [!TIP]

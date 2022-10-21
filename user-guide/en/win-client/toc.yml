@@ -1,13 +1,8 @@
 items:
-- name: Main sections of the Maintenance client
-  href: main-sections-of-maintenance-client.md
-  items:
-  - name: Log in to Windows Client settings
-    href: log-in-to-windows-client-settings.md
-  - name: Buttons win
-    href: buttons-win.md
-  - name: Backup routines
-    href: backup-routines.md
+- name: Overview
+  href: index.md
+- name: Backup routines
+  href: backup-routines.md
 - name: Status screen
   href: status-screen.md
 - name: Import
@@ -46,20 +41,18 @@ items:
       - name: Editing import descriptions
         href: import/editing-import-descriptions.md
 - name: Updating the database
-  href: updating-database.md
+  href: update-database.md
 - name: Export
   href: export.md
 - name: Freetext search and Travel
   href: freetext-search-and-travel.md
-- name: Orphans
-  items:
-  - name: Log users off
-    href: ../orphans/logging-users-off.md
-  - name: Create shortcut
-    href: ../orphans/creating-shortcuts-to-entries-in-crm.md
-  - name: Manage external users
-    href: ../orphans/managing-external-users.md
-  - name: Examples of parameter use
-    href: ../orphans/parameter-examples.md
-  - name: Document templates with multiple languages
-    href: ../orphans/using-document-templates-for-multiple-languages.md
+- name: Log users off
+  href: logging-users-off.md
+- name: Create shortcut
+  href: creating-shortcuts-to-entries-in-crm.md
+- name: Manage external users
+  href: managing-external-users.md
+- name: Examples of parameter use
+  href: parameter-examples.md
+- name: Document templates with multiple languages
+  href: using-document-templates-for-multiple-languages.md
