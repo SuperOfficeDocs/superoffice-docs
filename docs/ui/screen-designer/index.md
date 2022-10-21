@@ -23,7 +23,8 @@ The **Layouts** list displays any existing screen layouts (usually the default l
 
 * Elements: Lists all non-data screen elements such as labels, dividers, links and, buttons.
 
-* Settings: Customize appearance of individual field.
+* Settings: Lists options to customize the appearance and or settings of the selected field.
+
 * Columns: Choose how many columns (1-4) the fields and elements may occupy.
 * Tabs: Can be added, rearranged, and deleted.
 
