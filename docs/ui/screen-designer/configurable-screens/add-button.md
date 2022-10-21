@@ -106,7 +106,8 @@ Some settings depend on the selected action.
 
 ![Screen Designer, execute CRMScript on button -screenshot][img3]
 
-[Learn more about CRMScripts][2]
+[Learn more about CRMScript][2]
+
 
 ## Shortcut (SoProtocol)
 
