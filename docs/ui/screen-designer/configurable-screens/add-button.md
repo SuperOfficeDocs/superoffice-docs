@@ -42,7 +42,8 @@ The instructions below assume you're already [editing the layout][4].
     * Open website: Select this option to add a link to a website. Select the URL encoding and target as necessary.
     * Execute CRMScript: Select this option to add a [CRMScript][2] to run specific actions in SuperOffice.
 
-    * Shortcut ([SoProtocol][3]): Select this option to add a shortcut to other screens and records in SuperOffice.
+    * Shortcut ([SoProtocol][3]): Select this option to add a control that, when clicked, navigates to a different area or screen in SuperOffice.
+
 
 1. In the **Mode** list, choose if the button should always be available, or if it should only be available in read or edit mode.
 1. In the **Style** list, select the style of the button.
