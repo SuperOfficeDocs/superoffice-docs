@@ -1,10 +1,10 @@
 ---
-uid: help-en-reports-print
-title: Printing reports
-description: Printing reports
+uid: help-en-report-print
+title: Print reports
+description: Print reports
 author: SuperOffice RnD
 so.date: 07.04.2022
-keywords: CRM
+keywords: report
 so.topic: help
 language: en
 ---
@@ -34,6 +34,6 @@ Follow the steps below to print the list, group list, calendar and text export r
 <!-- Referenced links -->
 [1]: cross-tables.md#print
 [2]: labels/print-labels.md
-[3]: showing-report-properties.md
+[3]: properties.md
 
 <!-- Referenced images -->

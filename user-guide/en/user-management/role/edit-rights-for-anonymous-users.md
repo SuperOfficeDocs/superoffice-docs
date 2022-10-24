@@ -16,8 +16,6 @@ so.envir: onsite
 
 There is only one role for anonymous users and only the data rights for this role can be edited.
 
-[!include[To do this](../../includes/to-do-this.md)]
-
 1. [!include[Open Roles](includes/open-roles.md)]
 
 2. Select the **Anonymous** tab.

@@ -1,10 +1,10 @@
 ---
-uid: help-en-editing-favorite-reports
+uid: help-en-report-fav-edit
 title: Editing favorite reports
 description: Editing favorite reports
 author: SuperOffice RnD
 so.date: 07.04.2022
-keywords: CRM
+keywords: report
 so.topic: help
 language: en
 ---

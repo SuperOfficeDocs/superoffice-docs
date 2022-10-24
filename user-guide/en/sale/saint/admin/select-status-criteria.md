@@ -20,8 +20,6 @@ A status is only active for companies, contacts or projects that fulfil all the 
 [!include[Examples](../../../includes/status-examples.md)]
 </details>
 
-[!include[To do this](../../../includes/to-do-this.md)]
-
 [!include[Open SAINT](includes/open-saint-select-tab.md)]
 
 1. Select the required status in the status list on the left of the screen.

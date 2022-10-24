@@ -4,7 +4,7 @@ title: Displaying cross tables
 description: Displaying cross tables
 author: SuperOffice RnD
 so.date: 07.04.2022
-keywords: CRM
+keywords: report
 so.topic: help
 language: en
 ---
@@ -19,8 +19,6 @@ Cross tables can be displayed and printed in various ways. You can select which 
 ## <a id="install" />Install the CrossTable viewer
 
 To view a cross table report (.Dcube file), you need to install the **CrossTable viewer**. You only need to do this once per computer.
-
-Do as follows:
 
 1. Click ![icon][img1] (main menu) and select **Download > Download CrossTable viewer**.
 2. Click the downloaded file (**SoCrossTableInstaller.exe**) to run it.
@@ -75,7 +73,7 @@ Saving reports as files works slightly differently for cross table reports than 
 | ![icon][img9], ![icon][img10] | You can also drag and drop individual components of the cross table. The mouse pointer turns into a four-headed arrow when you hold it over a moveable component. Fields where you can move components are displayed with a green line when you hold the mouse pointer over them. |
 
 <!-- Referenced links -->
-[1]: showing-report-properties.md
+[1]: properties.md
 
 <!-- Referenced images -->
 [img1]: ../../media/icons/globalmenu-mainmenu-small.png

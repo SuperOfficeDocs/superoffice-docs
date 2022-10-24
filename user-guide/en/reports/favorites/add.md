@@ -1,11 +1,11 @@
 ---
-uid: help-en-adding-favorite-reports
+uid: help-en-report-fav-add
 title: Adding favorite reports
 description: Adding favorite reports
 author: SuperOffice RnD
 so.date: 07.04.2022
-keywords: CRM
-so.topic: help
+keywords: report
+so.topic: howto
 language: en
 ---
 
@@ -13,11 +13,9 @@ language: en
 
 Reports that you use a lot or have edited you can add to the list of [favorite reports][1].
 
-[!include[To do this](../../includes/to-do-this.md)]
-
 1. [!include[How to-goto-reports](../includes/goto-reports.md)]
 2. Select the tab you require from **Company**, **Project**, **Sale,** **Activity** or **Selection**.
-3. Select a report from the report list and make the required changes. (See [Edit search criteria in reports][2]).
+3. Select a report from the report list and [edit search criteria][2].
 4. Click **Add to favorites** at the bottom right of the criteria list. The **Add favourite** dialog opens.
 5. Enter the name of the report in the **Please enter a name for your report** field.
 6. Type in the required text in the **Report description** field. If you have amended any criteria in the report, change the description accordingly.
@@ -28,7 +26,7 @@ Reports that you use a lot or have edited you can add to the list of [favorite r
 
 <!-- Referenced links -->
 [1]: index.md
-[2]: ../editing-search-criteria-in-reports.md
+[2]: ../search-criteria/edit.md
 [3]: edit.md
 
 <!-- Referenced images -->

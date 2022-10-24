@@ -4,8 +4,8 @@ title: Define settings for mailings
 description: Define settings for mailings
 author: SuperOffice RnD
 so.date: 06.29.2022
-keywords: Marketing
-so.topic: help
+keywords: Marketing, settings
+so.topic: reference
 language: en
 so.envir: onsite
 ---

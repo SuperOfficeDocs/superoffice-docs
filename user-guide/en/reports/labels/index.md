@@ -4,8 +4,8 @@ title: Displaying labels
 description: Displaying labels
 author: SuperOffice RnD
 so.date: 07.04.2022
-keywords: CRM
-so.topic: help
+keywords: report
+so.topic: howto
 language: en
 ---
 
@@ -35,7 +35,7 @@ language: en
 7. You can save the PDF file from the PDF viewer, so you can open it later.
 
 <!-- Referenced links -->
-[1]: ../showing-report-properties.md
+[1]: ../properties.md
 [2]: add-format.md
 [3]: edit-format.md
 [4]: remove-format.md

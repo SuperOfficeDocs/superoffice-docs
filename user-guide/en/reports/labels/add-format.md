@@ -1,19 +1,17 @@
 ---
-uid: help-en-adding-label-formats
-title: Adding label formats
-description: Adding label formats
+uid: help-en-report-label-format-add
+title: Add label formats
+description: Add label formats
 author: SuperOffice RnD
 so.date: 07.04.2022
-keywords: CRM
-so.topic: help
+keywords: report
+so.topic: howto
 language: en
 ---
 
 # Add label formats
 
 To print labels in a format different from those already available, you can define your own new format.
-
-[!include[To do this](../../includes/to-do-this.md)]
 
 1. [!include[How to-goto-reports](../includes/goto-reports.md)]
 2. Select the required report (see [Show report properties][1]).
@@ -31,6 +29,6 @@ To print labels in a format different from those already available, you can defi
 10. Click **Save**. The label dialog opens, where your new format will now be included in the list.
 
 <!-- Referenced links -->
-[1]: ../showing-report-properties.md
+[1]: ../properties.md
 
 <!-- Referenced images -->

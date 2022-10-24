@@ -5,7 +5,7 @@ description: Field options
 author: SuperOffice RnD
 so.date: 06.29.2022
 keywords: Forms
-so.topic: help
+so.topic: reference
 language: en
 ---
 

@@ -4,8 +4,8 @@ title: Standard Reports
 description: Standard Reports
 author: SuperOffice RnD
 so.date: 07.04.2022
-keywords: CRM
-so.topic: help
+keywords: report
+so.topic: concept
 language: en
 ---
 
@@ -30,12 +30,12 @@ SuperOffice CRM is supplied with a number of reports as standard, but an organiz
 
 ## Edit and delete standard reports
 
-You can neither edit nor delete the standard reports themselves. What you can do however is to save a standard report as a favorite report and then adjust the search criteria as you wish (see [Add favorite reports][3] and [Edit search criteria in reports][4]).
+You can neither edit nor delete the standard reports themselves. What you can do however is to [save a standard report as a favorite report][3] and then [adjust the search criteria as you wish][4].
 
 <!-- Referenced links -->
-[1]: showing-report-properties.md
+[1]: properties.md
 [2]: favorites/index.md
 [3]: favorites/add.md
-[4]: editing-search-criteria-in-reports.md
+[4]: search-criteria/edit.md
 
 <!-- Referenced images -->

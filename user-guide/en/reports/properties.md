@@ -1,11 +1,11 @@
 ---
-uid: help-en-showing-report-properties
+uid: help-en-report-properties
 title: Showing report properties
 description: Showing report properties
 author: SuperOffice RnD
 so.date: 07.04.2022
-keywords: CRM
-so.topic: help
+keywords: report
+so.topic: howto
 language: en
 ---
 
@@ -31,8 +31,8 @@ To view the properties of individual reports in the **Reports** screen:
 
 <!-- Referenced links -->
 [1]: standard-reports.md#types
-[2]: search-criteria-reports.md
-[3]: screen/criteria-list.md
+[2]: search-criteria/index.md
+[3]: screen/index.md#criteria
 [4]: index.md#report-types
 [5]: favorites/index.md
 

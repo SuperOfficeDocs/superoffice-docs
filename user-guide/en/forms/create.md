@@ -5,7 +5,7 @@ description: Create a new form
 author: SuperOffice RnD
 so.date: 06.29.2022
 keywords: Forms
-so.topic: help
+so.topic: howto
 language: en
 ---
 

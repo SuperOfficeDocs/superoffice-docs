@@ -1,18 +1,18 @@
 ---
-uid: help-en-deleting-favorite-reports
+uid: help-en-report-fav-delete
 title: Deleting favorite reports
 description: Deleting favorite reports
 author: SuperOffice RnD
 so.date: 07.04.2022
-keywords: CRM
-so.topic: help
+keywords: report
+so.topic: howto
 language: en
 ---
 
 # Delete favorite reports
 
 > [!NOTE]
-> This assumes that you have added some [favorite reports][1]).
+> This assumes that you have added some [favorite reports][1].
 
 To delete favorite reports:
 

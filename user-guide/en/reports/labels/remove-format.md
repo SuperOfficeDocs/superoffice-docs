@@ -1,11 +1,11 @@
 ---
-uid: help-en-removing-label-formats
+uid: help-en-report-label-format-remove
 title: Removing label formats
 description: Removing label formats
 author: SuperOffice RnD
 so.date: 07.04.2022
-keywords: CRM
-so.topic: help
+keywords: report
+so.topic: howto
 language: en
 ---
 
@@ -21,6 +21,6 @@ To remove existing label formats:
 6. Close the dialog.
 
 <!-- Referenced links -->
-[1]: ../showing-report-properties.md
+[1]: ../properties.md
 
 <!-- Referenced images -->

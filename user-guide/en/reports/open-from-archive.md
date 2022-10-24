@@ -1,11 +1,11 @@
 ---
-uid: help-en-open-from-archive
-title: Opening reports in the report archive
-description: Opening reports in the report archive
+uid: help-en-report-open-from-archive
+title: Open reports in the report archive
+description: Open reports in the report archive
 author: SuperOffice RnD
 so.date: 07.04.2022
-keywords: CRM
-so.topic: help
+keywords: report
+so.topic: howto
 language: en
 ---
 
@@ -13,7 +13,7 @@ language: en
 
 To open saved reports, either double-click the required report or right-click it and select **Open**.
 
-Download the document from the **Document** dialog. The report opens in the default program for the format the report was saved in (see [Save reports as files][1]).
+Download the document from the **Document** dialog. The report opens in the default program for the [format the report was saved in][1].
 
 <!-- Referenced links -->
 [1]: save.md

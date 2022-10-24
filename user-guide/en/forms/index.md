@@ -5,7 +5,7 @@ description: Work with forms
 author: SuperOffice RnD
 so.date: 06.29.2022
 keywords: Forms
-so.topic: help
+so.topic: concept
 language: en
 ---
 
@@ -15,7 +15,7 @@ The forms feature is a powerful engine to get information from a form into Super
 
 See examples here: [How to create forms (examples)][1]
 
-It is easy to create a form and post it on any web page you want it to show, like “Contact me” forms, and it is easy to transform all those new prospects to contacts in SuperOffice.
+It is easy to create a form and post it on any web page you want it to show, like "Contact me" forms, and it is easy to transform all those new prospects to contacts in SuperOffice.
 
 Examples of forms: start free trial, contact us, update data, consent management.
 

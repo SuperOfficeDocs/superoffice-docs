@@ -30,7 +30,7 @@ The following filtering options are available in the section tabs:
 [1]: use-column-filters-in-section-tabs.md
 [2]: using-filter-function-contact.md
 [3]: ../search-options/selections/screen/list-of-members.md#filtering-the-list-of-members
-[4]: ../reports/using-filter-function-reports.md
+[4]: ../reports/filter.md
 
 <!-- Referenced images -->
 [img1]: media/sectiontab-filter-overview.png

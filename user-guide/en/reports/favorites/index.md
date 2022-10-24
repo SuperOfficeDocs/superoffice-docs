@@ -1,10 +1,10 @@
 ---
-uid: help-en-favorite-reports
+uid: help-en-report-fav
 title: Favorite reports
 description: Favorite reports
 author: SuperOffice RnD
 so.date: 07.04.2022
-keywords: CRM
+keywords: report
 so.topic: help
 language: en
 ---
@@ -16,7 +16,7 @@ In the **Reports** screen you can save reports which you use a lot or have edite
 > [!NOTE]
 > The list is empty until you define some favorite reports.
 
-These favorite reports are in fact standard reports for which you have changed the search criteria. Favorite reports act as shortcuts to the search criteria which you normally use when running reports. For more information about how to make the change the search criteria, see [Edit search criteria in reports][4].
+These favorite reports are in fact standard reports for which you have [changed the search criteria][4]. Favorite reports act as shortcuts to the search criteria which you normally use when running reports.
 
 > [!TIP]
 > You can bring up the list of favorite reports instantly by clicking the **Favourites** tab in the **Reports** screen, or by clicking the word **Reports** next to the **Reports** button in the Navigator and selecting **Favourites**.
@@ -31,6 +31,6 @@ These favorite reports are in fact standard reports for which you have changed t
 [1]: add.md
 [2]: edit.md
 [3]: delete.md
-[4]: ../editing-search-criteria-in-reports.md
+[4]: ../search-criteria/edit.md
 
 <!-- Referenced images -->

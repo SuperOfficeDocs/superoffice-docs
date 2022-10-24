@@ -1,10 +1,10 @@
 ---
-uid: help-en-reports-view
+uid: help-en-report-view
 title: Viewing reports
 description: Viewing reports
 author: SuperOffice RnD
 so.date: 07.04.2022
-keywords: CRM
+keywords: report
 so.topic: help
 language: en
 ---
@@ -18,8 +18,6 @@ How this works varies slightly from report type to report type. If you want to d
 
 > [!TIP]
 > If you are not sure which report type you have, check the thumbnail at the top right of the **Reports** screen. For more information about this, see **Report types** under [Show report properties][3].
-
-Do as follows:
 
 1. Select the required report.
 2. Click the **Preview** button under the criteria list. A PDF is generated in your browser.
@@ -41,7 +39,7 @@ You can save the PDF file from the PDF viewer, so you can open it later.
 <!-- Referenced links -->
 [1]: index.md
 [2]: labels/index.md
-[3]: showing-report-properties.md
+[3]: properties.md
 [4]: labels/add-format.md
 [5]: labels/edit-format.md
 [6]: labels/remove-format.md

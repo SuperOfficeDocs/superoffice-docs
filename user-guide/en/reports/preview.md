@@ -1,11 +1,11 @@
 ---
-uid: help-en-functions-in-preview-window
+uid: help-en-report-preview
 title: Functions in the preview window
 description: Functions in the preview window
 author: SuperOffice RnD
 so.date: 06.29.2022
-keywords: CRM
-so.topic: help
+keywords: report
+so.topic: concept
 language: en
 ---
 

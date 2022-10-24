@@ -20,7 +20,7 @@ If you want to interact with your customers via Facebook, you will want to creat
 > This assumes that you have developer access to Facebook. To get developer access:
 > Log in to Facebook; Go to [https://developers.facebook.com][1]; Click **Register** and follow the instructions.
 
-Firstly, you need to set up an application on Facebook in cooperation with the user or owner of the page you want to receive messages from. [!include[To do this](../../../includes/to-do-this.md)]
+Firstly, you need to set up an application on Facebook in cooperation with the user or owner of the page you want to receive messages from.
 
 1. Open a browser and log in to Facebook.
 2. Go to <https://developers.facebook.com>.
@@ -30,8 +30,6 @@ Firstly, you need to set up an application on Facebook in cooperation with the u
 ## Step 2: Set up a Facebook account in SuperOffice Service
 
 Now you need to set up a Facebook account in SuperOffice Service.
-
-[!include[To do this](../../../includes/to-do-this.md)]
 
 [!include[Go to email](../includes/goto-email.md)]
 

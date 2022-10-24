@@ -3,18 +3,11 @@ items:
   href: index.md
 - name: Reports screen
   href: screen/index.md
-  items:
-  - name: Report list
-    href: screen/report-list.md
-  - name: Criteria list
-    href: screen/criteria-list.md
-  - name: Report archive
-    href: screen/report-archive.md
 - name: Working with reports
   href: working-with-reports.md
   items:
   - name: Showing report properties
-    href: showing-report-properties.md
+    href: properties.md
   - name: Create a report
     href: create.md
   - name: Running reports
@@ -22,7 +15,7 @@ items:
   - name: Viewing reports
     href: view.md
   - name: Preview
-    href: functions-in-preview-window.md
+    href: preview.md
   - name: Printing reports
     href: print.md
   - name: Saving reports as files
@@ -30,7 +23,7 @@ items:
   - name: Opening reports in the report archive
     href: open-from-archive.md
   - name: Using the Filter function Reports
-    href: using-filter-function-reports.md
+    href: filter.md
   - name: Deleting reports from the report archive
     href: delete-from-archive.md
 - name: Standard reports
@@ -44,13 +37,13 @@ items:
     href: favorites/edit.md
   - name: Deleting favourite reports
     href: favorites/delete.md
-- name: Search criteria reports
-  href: search-criteria-reports.md
+- name: Search criteria
+  href: search-criteria/index.md
   items:
-  - name: Adding search criteria to reports
-    href: adding-search-criteria-to-reports.md
-  - name: Editing search criteria in reports
-    href: editing-search-criteria-in-reports.md
+  - name: Add search criteria to reports
+    href: search-criteria/add.md
+  - name: Edit search criteria in reports
+    href: search-criteria/edit.md
 - name: Labels
   href: labels/index.md
   items:

@@ -1,11 +1,11 @@
 ---
-uid: help-en-editing-search-criteria-in-reports
-title: Editing search criteria in reports
-description: Editing search criteria in reports
+uid: help-en-report-search-criteria-edit
+title: Edit search criteria in reports
+description: Edit search criteria in reports
 author: SuperOffice RnD
 so.date: 07.04.2022
-keywords: CRM
-so.topic: help
+keywords: report
+so.topic: howto
 language: en
 ---
 
@@ -15,7 +15,7 @@ You can edit search criteria in favourite reports. Standard reports cannot actua
 
 To edit search criteria in reports:
 
-1. [!include[How to-goto-reports](includes/goto-reports.md)]
+1. [!include[How to-goto-reports](../includes/goto-reports.md)]
 
 2. Select a tab. The reports are displayed in the report list.
 
@@ -28,7 +28,7 @@ To edit search criteria in reports:
 
 5. The **Add/edit search criteria** dialog appears.
 
-6. Edit the required information as described under [Use search criteria][2].
+6. [Edit the required information][2].
 
     > [!NOTE]
     > The criteria you can choose from vary according to the tab and report you have selected.
@@ -65,11 +65,11 @@ Now we are going to amend slightly the standard report criteria, so that you can
 8. Click **OK**.
 
 <!-- Referenced links -->
-[1]: labels/add-format.md
-[2]: ../search-options/using-search-criteria.md
+[1]: ../labels/add-format.md
+[2]: ../../search-options/using-search-criteria.md
 
 <!-- Referenced images -->
-[img1]: ../../media/icons/arrow-right.png
-[img2]: ../../media/icons/arrow-left.png
-[img3]: media/edit-criteria.bmp
-[img4]: media/edit-criteria-2.bmp
+[img1]: ../../../media/icons/arrow-right.png
+[img2]: ../../../media/icons/arrow-left.png
+[img3]: ../media/edit-criteria.bmp
+[img4]: ../media/edit-criteria-2.bmp

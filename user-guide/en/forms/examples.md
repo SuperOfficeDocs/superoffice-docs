@@ -5,7 +5,7 @@ description: How to create forms (examples)
 author: SuperOffice RnD
 so.date: 06.29.2022
 keywords: Forms
-so.topic: help
+so.topic: comcept
 language: en
 ---
 

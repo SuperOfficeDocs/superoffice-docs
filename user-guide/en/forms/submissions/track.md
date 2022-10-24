@@ -5,7 +5,7 @@ description: Track form submissions and view statistics
 author: SuperOffice RnD
 so.date: 06.29.2022
 keywords: Forms
-so.topic: help
+so.topic: reference
 language: en
 ---
 
@@ -15,7 +15,7 @@ To view statistics about your form, go to the **Forms** tab and click the form i
 
 You can find form statistics in the following tabs:
 
-## **Summary**
+## Summary
 
 Here you can basic information about the form, including a preview of the form, and view various submission statistics:
 
@@ -25,11 +25,11 @@ Here you can basic information about the form, including a preview of the form, 
 * **Completion rate**: Status for submitted forms.
 * **Mailing**: This field is visible if you have activated **E-mail response** for this form (see [Create a new form - Actions][1]). Click the link to view information and statistics about the form response. See [Track the mailing and view statistics][2].
 
-## **Reports**
+## Reports
 
 These charts show statistics for the form (mouse-over to view exact numbers).
 
-## **Form submissions**
+## Form submissions
 
 Here you can view and process all submitted forms. A red icon on the tab indicates new form submissions (![icon][img1]).
 

@@ -1,15 +1,15 @@
 ---
-uid: help-en-using-filter-function-reports
-title: Using the Filter function Reports
-description: Using the Filter function Reports
+uid: help-en-report-filters
+title:  Filters in the Reports screen
+description: Filters in the Reports screen
 author: SuperOffice RnD
 so.date: 07.04.2022
-keywords: CRM
-so.topic: help
+keywords: report
+so.topic: howto
 language: en
 ---
 
-# Use the Filter function in the Reports screen
+# Filters in the Reports screen
 
 You will find the **Filter** button ![icon][img1] under the report archive (the **Documents** section tab).
 

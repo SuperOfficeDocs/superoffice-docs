@@ -4,8 +4,8 @@ title: Reports
 description: Reports
 author: SuperOffice RnD
 so.date: 07.04.2022
-keywords: CRM
-so.topic: help
+keywords: report
+so.topic: concept
 language: en
 ---
 
@@ -50,13 +50,13 @@ Open the **Reports** screen by clicking the **Reports** button ![icon][img7] in 
 
 <!-- Referenced links -->
 [1]: ../dashboard/index.md
-[2]: showing-report-properties.md
+[2]: properties.md
 [3]: create.md
 [4]: view.md
 [5]: print.md
 [9]: save.md
 [6]: open-from-archive.md
-[7]: using-filter-function-reports.md
+[7]: filter.md
 [8]: delete-from-archive.md
 
 <!-- Referenced images -->

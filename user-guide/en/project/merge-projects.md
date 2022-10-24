@@ -13,8 +13,6 @@ language: en
 
 If you have two nearly identical projects, it is possible to merge them, including the project members and activities. The source project will then be deleted.
 
-[!include[To do this](../includes/to-do-this.md)]
-
 1. Go to the project you want merge into another project. (See [Use the Find screen][1].)
 
 2. Click ![icon][img1] **Task** on the **Project** card and select **Merge projects**. The **Merge projects** dialog opens.
