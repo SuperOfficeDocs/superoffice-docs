@@ -9,4 +9,4 @@ This can mean one of the following:
 If you do not want to register this email address in SuperOffice CRM, click **Do not add contact to SuperOffice** to go to the **Document** dialog.
 
 <!-- Referenced links -->
-[2]: ../adding-email-addresses-in-crm.md
+[2]: ../manage-senders.md

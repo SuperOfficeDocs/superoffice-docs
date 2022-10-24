@@ -5,6 +5,7 @@
 * **Sale**: If relevant, link the document to a sale.
 * **Project**: If relevant, link the document to a project.
 * **Date**: Today's date is automatically inserted in this field. Click the field to select another date.
+* **Time**: Click the field to select another time.
 * **Type**: Select one of the available document templates.
 * **Visible for**: Select whether the document will be visible to all users, private visible only to the owner) or visible to all users in a user group to which the owner belongs.
 * **Mark as completed**: This option is checked by default, but you can uncheck it if necessary.

@@ -1,11 +1,11 @@
 ---
-uid: help-en-email-archive-incoming
+uid: help-en-gmail-link-archive-incoming
 title: email archive incoming
 description: email archive incoming
 author: SuperOffice RnD
 so.date: 06.29.2022
 keywords: Gmail Link
-so.topic: help
+so.topic: howto
 language: en
 ---
 
@@ -19,7 +19,7 @@ Follow these steps:
 
 2. Click ![icon][img1] in the email toolbar.
 
-    If the sender of the email is not listed in SuperOffice CRM, a warning will appear at the top of the dialog. See [Handling emails from senders not registered in SuperOffice][1]. A warning also appears if the sender is registered on multiple companies in SuperOffice CRM. See [Handling emails from senders with several listings][2].
+    If the sender of the email is not listed in SuperOffice CRM, a warning will appear at the top of the dialog. A warning also appears if the sender is registered on multiple companies in SuperOffice CRM.
 
 3. In the dialog, the **Company** and **Contact** fields have been filled in if the sender is registered in SuperOffice. Fill in relevant information in the following fields:
 
@@ -30,17 +30,17 @@ Follow these steps:
 Click the link in the pop-up message to open the document in SuperOffice.
 
 > [!NOTE]
-> You can also archive attachments as documents. See [Archive attachments][3].
+> You can also [archive attachments as documents][3].
 
 ## What would you like to do now?
 
 * [Archive attachments][3]
 * [Create activity][5]
 * [Create request][6]
+* [Manage senders][1]
 
 <!-- Referenced links -->
-[1]: handling-emails-from-senders-not-listed-in-superoffice.md
-[2]: handling-emails-from-senders-with-several-listings.md
+[1]: manage-senders.md
 [3]: archive-attachments.md
 [5]: archive-emails-as-activities.md
 [6]: archive-emails-as-requests.md

@@ -4,8 +4,8 @@ title: Compose an email
 description: Compose an email
 author: SuperOffice RnD
 so.date: 06.29.2022
-keywords: CRM
-so.topic: help
+keywords: email
+so.topic: howto
 language: en
 ---
 

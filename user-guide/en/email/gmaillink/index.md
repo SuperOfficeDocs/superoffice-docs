@@ -1,11 +1,11 @@
 ---
-uid: help-en--gmail-link
+uid: help-en-gmail-link
 title: SuperOffice Gmail Link
 description: SuperOffice Gmail Link
 author: SuperOffice RnD
 so.date: 06.29.2022
 keywords: Gmail Link
-so.topic: help
+so.topic: concept
 language: en
 ---
 
@@ -37,7 +37,7 @@ To install SuperOffice Gmail Link, go to the [SuperOffice App Store][1].
 [4]: email-archive-outgoing.md
 [5]: archive-emails-as-activities.md
 [6]: archive-emails-as-requests.md
-[7]: add-sender-to-superoffice.md
+[7]: manage-senders.md
 [8]: settings.md
 
 <!-- Referenced images -->

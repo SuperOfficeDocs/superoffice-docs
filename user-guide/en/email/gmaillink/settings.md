@@ -1,11 +1,11 @@
 ---
-uid: help-en-settings
-title: Settings
-description: Settings
+uid: help-en-gmail-link-settings
+title:  Edit Gmail Link settings
+description:  Edit Gmail Link settings
 author: SuperOffice RnD
 so.date: 06.29.2022
 keywords: Gmail Link
-so.topic: help
+so.topic: reference
 language: en
 ---
 
@@ -32,18 +32,18 @@ Unchecked ![icon][img3]: Only document templates of the type **Email** will be d
 
 ## Default outgoing email template
 
-Select the default document template to be used when archiving outgoing email messages. See [Archive outgoing email][4].
+Select the default document template to be used when [archiving outgoing email messages][4].
 
 > [!TIP]
 > Start typing in the list to search for a document template.
 
 ## Default incoming email template
 
-Select the default document template to be used when archiving incoming email messages. See [Archive incoming email][3].
+Select the default document template to be used when [archiving incoming email messages][3].
 
 ## Default activity type
 
-Select the default activity type to be used when creating an activity from an incoming email message. See [Create activity][5].
+Select the default activity type to be used when [creating an activity][5] from an incoming email message.
 
 ## SuperOffice account information
 

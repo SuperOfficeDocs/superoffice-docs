@@ -1,15 +1,15 @@
 ---
-uid: help-en-inbox
-title: Inbox CRM web
-description: Inbox CRM web
+uid: help-en-email-inbox
+title: SuperOffice Inbox
+description: SuperOffice Inbox
 author: SuperOffice RnD
 so.date: 07.04.2022
 keywords: email
-so.topic: help
+so.topic: concept
 language: en
 ---
 
-# Inbox (Web)
+# SuperOffice Inbox
 
 The inbox in SuperOffice CRM is based on a separate email client which gives you access to your email via the Internet, without requiring you to have an email program installed locally on your PC. In this main topic we explain how to use this email facility.
 
@@ -33,7 +33,7 @@ The **Inbox** screen consists of the following main sections:
 * [Compose an email][2]
 
 <!-- Referenced links -->
-[1]: preview-field.md
-[2]: writing-email.md
+[1]: preview.md
+[2]: compose.md
 
 <!-- Referenced images -->

@@ -1,11 +1,11 @@
 ---
-uid: help-en-archive-emails
+uid: help-en-email-inbox-archive
 title: Archive emails
 description: Archive emails
 author: SuperOffice RnD
 so.date: 07.04.2022
 keywords: email
-so.topic: help
+so.topic: howto
 language: en
 ---
 
@@ -42,7 +42,7 @@ To open an attachment or archive an attachment in SuperOffice:
 
 <!-- Referenced links -->
 [1]: ../../document/screen/index.md
-[3]: writing-email.md
+[3]: compose.md
 
 <!-- Referenced images -->
 [img1]: ../../../../common/icons/archive-icon.png

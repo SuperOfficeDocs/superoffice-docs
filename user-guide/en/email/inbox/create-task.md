@@ -1,11 +1,11 @@
 ---
-uid: help-en-create-task
+uid: help-en-email-inbox-create-task
 title: Create task
 description: Create task
 author: SuperOffice RnD
 so.date: 07.04.2022
 keywords: email
-so.topic: help
+so.topic: howto
 language: en
 ---
 

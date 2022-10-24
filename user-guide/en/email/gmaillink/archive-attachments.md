@@ -1,11 +1,11 @@
 ---
-uid: help-en-archive-attachments
-title: Archive attachments
-description: Archive attachments
+uid: help-en-gmail-link-archive-attachment
+title: Archive attachment
+description: Archive attachment
 author: SuperOffice RnD
 so.date: 06.29.2022
 keywords: Gmail Link
-so.topic: help
+so.topic: howto
 language: en
 ---
 
@@ -20,7 +20,7 @@ If the attachment is the only part of the email you would like to keep for futur
 
 3. Click the SuperOffice icon ![icon][img2]. The dialog **Archive attachment as a SuperOffice document** opens.
 
-    If the sender of the email is not listed in SuperOffice CRM, a warning will appear at the top of the dialog. See [Handling emails from senders not registered in SuperOffice][1]. A warning also appears if the sender is registered on multiple companies in SuperOffice CRM. See [Handling emails from senders with several listings][2].
+    If the sender of the email is not listed in SuperOffice CRM, a warning will appear at the top of the dialog. A warning also appears if the sender is registered on multiple companies in SuperOffice CRM.
 
 4. In the dialog, the **Company** and **Contact** fields have been filled in if the sender is registered in SuperOffice. Fill in relevant information in the following fields:
 
@@ -37,13 +37,11 @@ If the attachment is the only part of the email you would like to keep for futur
 * [Look up sender in SuperOffice][7]
 
 <!-- Referenced links -->
-[1]: handling-emails-from-senders-not-listed-in-superoffice.md
-[2]: handling-emails-from-senders-with-several-listings.md
 [3]: email-archive-incoming.md
 [4]: email-archive-outgoing.md
 [5]: archive-emails-as-activities.md
 [6]: archive-emails-as-requests.md
-[7]: add-sender-to-superoffice.md
+[7]: manage-senders.md
 
 <!-- Referenced images -->
 [img1]: media/attachment-save.png

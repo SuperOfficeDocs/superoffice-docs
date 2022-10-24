@@ -1,22 +1,19 @@
 ---
-uid: help-en-archive-emails-as-requests
-title: Archive emails as requests
-description: Archive emails as requests
+uid: help-en-gmail-link-archive-email-as-requests
+title: Archive email as requests
+description: Archive email as requests
 author: SuperOffice RnD
 so.date: 06.29.2022
 keywords: Gmail Link
-so.topic: help
+so.topic: howto
 language: en
 ---
 
 # Create request
 
+[!include[Requirement](../../../../common/includes/req-service-essentials.md)]
+
 You can create a request in SuperOffice Service based on an email in your Gmail inbox.
-
-> [!NOTE]
-> This function requires a licence for SuperOffice Service.
-
-Follow these steps:
 
 1. In the Gmail inbox, open an email.
 2. Click the **More** button ( ![icon][img1] ) in the email toolbar.

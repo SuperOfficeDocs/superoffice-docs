@@ -1,15 +1,15 @@
 ---
-uid: help-en-inbox-options
-title: inbox
-description: inbox
+uid: help-en-email-inbox-options
+title: Options
+description: Options
 author: SuperOffice RnD
 so.date: 07.04.2022
-keywords: email, email, inbox
-so.topic: help
+keywords: email, inbox
+so.topic: reference
 language: en
 ---
 
-# The Inbox
+# Options
 
 The inbox contains the following options:
 
@@ -17,7 +17,7 @@ The inbox contains the following options:
 
 | Icon | Description |
 |---|---|
-| New | Click here to create a new message. See [Compose an email][1]. |
+| New | Click here to [create a new message][1]. |
 | Delete | |
 | Search | Enter text in this field to start searching in the open folder. |
 | INBOX | Click here to select a folder. The default folder is Inbox. |
@@ -31,7 +31,7 @@ The inbox contains the following options:
 | ![icon][img4] | Refresh: Click here to refresh the inbox. |
 
 <!-- Referenced links -->
-[1]: writing-email.md
+[1]: compose.md
 
 <!-- Referenced images -->
 [img2]: ../../../../common/icons/dropdown-arrow.png

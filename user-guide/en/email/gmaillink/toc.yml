@@ -1,24 +1,19 @@
 items:
-- name: SuperOffice Gmail Link
+- name: Overview
   href: index.md
+- name: Working with incoming emails
   items:
-  - name: Working with incoming emails
-    items:
-    - name: Archive incoming email
-      href: email-archive-incoming.md
-    - name: Archive attachments
-      href: archive-attachments.md
-    - name: Create activity
-      href: archive-emails-as-activities.md
-    - name: Create request
-      href: archive-emails-as-requests.md
-    - name: Handling emails from senders not listed in SuperOffice
-      href: handling-emails-from-senders-not-listed-in-superoffice.md
-    - name: Handling emails from senders with several listings
-      href: handling-emails-from-senders-with-several-listings.md
-    - name: Look up sender to SuperOffice
-      href: add-sender-to-superoffice.md
-    - name: Archive outgoing email
-      href: email-archive-outgoing.md
-    - name: Edit Gmail Link settings
-      href: settings.md
+  - name: Archive incoming email
+    href: email-archive-incoming.md
+  - name: Archive attachments
+    href: archive-attachments.md
+  - name: Create activity
+    href: archive-emails-as-activities.md
+  - name: Create request
+    href: archive-emails-as-requests.md
+  - name: Manage senders
+    href: manage-senders.md
+- name: Archive outgoing email
+  href: email-archive-outgoing.md
+- name: Edit Gmail Link settings
+  href: settings.md

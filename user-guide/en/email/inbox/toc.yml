@@ -2,28 +2,26 @@ items:
 - name: Overview
   href: index.md
 - name: The first time you log in
-  href: first-time-login.md
+  href: first-login.md
 - name: Inbox options
   href: inbox-options.md
-- name: View email messages
-  href: preview-field.md
+- name: View an email message
+  href: preview.md
 - name: Compose an email
-  href: writing-email.md
-- name: Move emails to folders
-  href: moving-email-to-folders.md
+  href: compose.md
+- name: Move emails to a folder
+  href: move-email-to-folder.md
 - name: Mark emails as read/unread
-  href: mark-emails-as-read-unread.md
-- name: Receive invitations
-  href: receive-invitations.md
+  href: mark-as-read.md
+- name: Accept invitations
+  href: invitations.md
 - name: Archive emails
   href: archive.md
 - name: Create task
   href: create-task.md
 - name: Create request
   href: create-request.md
-- name: Look up sender in SuperOffice
-  href: look-up-sender-to-superoffice.md
-- name: Add email addresses in SuperOffice CRM
-  href: adding-email-addresses-in-crm.md
-- name: Print email
-  href: printing-email.md
+- name: Manage senders
+  href: manage-senders.md
+- name: Print an email
+  href: print.md
