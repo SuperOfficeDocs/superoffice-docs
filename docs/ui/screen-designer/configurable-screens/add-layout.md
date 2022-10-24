@@ -54,7 +54,7 @@ To create a new screen layout:
 
 ## Delete a layout
 
-When a user-group-based layout is deleted, users in that group will see the default (system) layout.
+When a user-group-based layout is deleted, users in that group see the default (system) layout.
 
 To delete a layout:
 

@@ -15,7 +15,7 @@ so.client:
 
 [!include[Requirement](../../../../common/includes/req-dev-tools.md)]
 
-Add custom buttons and links to the same areas you can add fields to. The URL is used to open a webpage in the current or new tab, run a CRMScript from the screen, or navigate to other parts of SuperOffice using [SoProtocol][3].
+Add custom buttons and links to the same areas you add fields to. The URL is used to open a webpage in the current or new tab, run a CRMScript from the screen, or navigate to other parts of SuperOffice using [SoProtocol][3].
 
 Buttons and links work similarly. The difference is that you can style a button but not a link.
 
@@ -67,7 +67,7 @@ The name and tooltip text can be translated into other languages.
 
 When the element is selected:
 
-1. Click the A-Z button next to the label.
+1. Click the **A-Z** button next to the label.
 1. Click **Add** and select a language from the list.
 1. Enter text for the new language.
 

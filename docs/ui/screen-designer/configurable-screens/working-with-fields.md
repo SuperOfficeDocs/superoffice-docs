@@ -28,7 +28,7 @@ Any field can appear in multiple locations, if relevant.
 
 To add a new field:
 
-1. Select the tab you want to add the field to.
+1. Select the tab where you want to add the field.
 2. Make sure the **Fields** section is selected.
 3. Locate the desired field in the **Fields** list.
 
@@ -55,7 +55,7 @@ For example formatting, see the screenshot in the section about [adding a headin
 
 ## Move field
 
-You can give easy access to important custom fields by adding or moving them to the main (left-most) tab. You can move less important fields to secondary tabs as an alternative to removing them.
+Add or move important custom fields to the main (left-most) tab for easy access. Move less important fields to secondary tabs as an alternative to removing them.
 
 To move a field:
 

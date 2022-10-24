@@ -52,7 +52,7 @@ Use the **Task** button to revert to an earlier version of the screen.
 
 ## What if I don't use the Screen Designer?
 
-Without the Development Tools license, new cards take effects and the custom fields are displayed in two columns.
+Without the Development Tools license, the **More** tab shows all custom fields, organized in two columns.
 
 <!-- When a customer publishes their first layout from the Screen Designer, page1 admin is gone. However, this ability is preserved you don't use the designer. -->
 

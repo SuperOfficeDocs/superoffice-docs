@@ -80,7 +80,7 @@ By default, tabs have two columns. You can customize each tab individually and c
 1. Select the **Columns** section.
 1. Choose one of the four layout options.
 
-If you reduce the number of columns, the fields are moved to the new last column. For example, when reducing the number of columns from three to two, all fields in the third column move to the bottom of column 2. When reduced to one column, all fields are moved to the first column.
+If you reduce the number of columns, the fields are moved to the new last column. For example, when reducing the number of columns from three to two, all fields in the third column move to the bottom of column 2. When reduced to one column, all fields moved to the first column.
 
 The columns are vertically stacked when the screen size is too small to show them all horizontally.
 
