@@ -33,7 +33,7 @@ To create an extra table:
     * **Parent field**: This field is used in connection with hierarchical tables.
     * **Full name**: If this is a hierarchical table, this field can specify a field that is automatically updated with the entry's full name based on the name field for this entry, and all parent entries.
     * **Hide ID field**: If this option is enabled, then the ID field will not be shown when listing entries in the table.
-    * **Hide the table**: If you check this option, the table will not be visible from ![icon][img3] **Requests** &gt; **Tables**.
+    * **Hide the table**: If you check this option, the table will not be visible from ![icon][img3] **Requests** > **Tables**.
 4. Click **OK** to save the new table.
 
 ## What would you like to do now?

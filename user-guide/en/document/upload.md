@@ -4,7 +4,7 @@ title: Upload documents
 description: Upload documents
 author: SuperOffice RnD
 so.date: 06.29.2022
-keywords: CRM
+keywords: document
 so.topic: help
 language: en
 ---
@@ -29,7 +29,7 @@ To quickly upload a document to SuperOffice CRM, do as follows:
 * [Open documents][3]
 * [Check in/out documents][5]
 * [Edit documents][4]
-* [Web Tools][6]
+* [WebTools][6]
 
 <!-- Referenced links -->
 [1]: screen/index.md

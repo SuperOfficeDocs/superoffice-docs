@@ -17,7 +17,7 @@ To generate a personal data report for a contact:
 
 [!include[Go to Contact screen](../../includes/goto-contact.md)]
 
-1. Click **Task** ( ![icon][img1] ) &gt; **Generate personal data report**.
+1. Click **Task** ( ![icon][img1] ) > **Generate personal data report**.
 
 1. In the **Privacy report** dialog, you view the information registered on the contact.
 

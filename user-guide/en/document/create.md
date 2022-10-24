@@ -4,7 +4,7 @@ title: Creating new documents
 description: Creating new documents
 author: SuperOffice RnD
 so.date: 06.29.2022
-keywords: CRM
+keywords: document
 so.topic: help
 language: en
 ---
@@ -18,7 +18,7 @@ Follow the instructions below, depending on how documents are managed in your Su
 
 [!include[Requirement](../includes/req-licence-gen.md)]
 
-## How do I know if I am using SharePoint, SuperOffice Web Tools or not?
+## How do I know if I am using SharePoint, SuperOffice WebTools or not?
 
 [!include[How to check document library](includes/webtools-or-sharepoint.md)]
 
@@ -37,9 +37,9 @@ Follow the instructions below, depending on how documents are managed in your Su
 
 5. Close the tab or your desktop app. The document is automatically saved to SharePoint.
 
-## Create a new document without SuperOffice Web Tools
+## Create a new document without SuperOffice WebTools
 
-If you have not installed SuperOffice Web Tools, you need to manually download documents to edit them. You also have to upload the edited documents to the central server afterwards.
+If you have not installed SuperOffice WebTools, you need to manually download documents to edit them. You also have to upload the edited documents to the central server afterwards.
 
 > [!NOTE]
 > This procedure describes how to create new documents if you are using a desktop text-editing application. The actual process may be slightly different if you use an online text-editing tool (like Microsoft Office Online) and a document library (like SharePoint).
@@ -52,7 +52,7 @@ If you have not installed SuperOffice Web Tools, you need to manually download d
 
 4. Click **Open** and **Edit**. The **File download** dialog opens automatically. Here you can click one of the following buttons:
 
-    * **Open**: When you click **Open**, the document is opened in the text editing application. Type in the contents of the document and select **File** &gt; **Save As** to save it in the desired location on your PC.
+    * **Open**: When you click **Open**, the document is opened in the text editing application. Type in the contents of the document and select **File** > **Save As** to save it in the desired location on your PC.
 
     * **Save**: When you click **Save**, the **Save As** dialog appears. Here you specify where on the PC you want to save the file, and then click **Save** to start the download. Click **Close** when the download has finished. Open Windows Explorer and browse to the document you have just saved. Open the document, enter the required text and save the document.
 
@@ -70,9 +70,9 @@ If you have not installed SuperOffice Web Tools, you need to manually download d
 
 8. Close the **Document** dialog by clicking **Save**.
 
-## Create a new document using SuperOffice Web Tools
+## Create a new document using SuperOffice WebTools
 
-With SuperOffice CRM, you can log in from any PC using a browser, but your documents will then be saved on the central server. Downloading and uploading of documents are handled automatically by SuperOffice Web Tools.
+With SuperOffice CRM, you can log in from any PC using a browser, but your documents will then be saved on the central server. Downloading and uploading of documents are handled automatically by SuperOffice WebTools.
 
 1. Click **New** > **Document** on the top bar.
 
@@ -86,7 +86,7 @@ With SuperOffice CRM, you can log in from any PC using a browser, but your docum
 
 ## Related topics
 
-* [Web Tools][3]
+* [WebTools][3]
 
 <!-- Referenced links -->
 [1]: upload.md

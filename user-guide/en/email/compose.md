@@ -27,7 +27,7 @@ When you have finished the message, and want to send it, you have the following 
 > [!TIP]
 > If you do not archive the message when you send it, you can still go to the sent folder and archive the message as described in [Archive incoming email][2].
 >
-> The signature template at the bottom of the message can be edited in ![icon][img1] **Personal settings** &gt; **Edit personal signature**.
+> The signature template at the bottom of the message can be edited in ![icon][img1] **Personal settings** > **Edit personal signature**.
 
 <!-- Referenced links -->
 [1]: ../document/create.md

@@ -13,7 +13,7 @@ language: en
 
 To display the contents of a document in the knowledge base:
 
-1. Select **Knowledge Base** &gt; **Documents**. This takes you to the **Documents** screen. The documents are in a [folder structure][1] that you can create yourself.
+1. Select **Knowledge Base** > **Documents**. This takes you to the **Documents** screen. The documents are in a [folder structure][1] that you can create yourself.
 2. Go to the required folder.
 3. Do one of the following:
     * Click the document name to go to the **Document properties** screen. Here you can also view and edit the contents of certain document types, such as html, txt and the native ejr format.

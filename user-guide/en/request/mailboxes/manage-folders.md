@@ -11,7 +11,7 @@ language: en
 
 # Administrate email address folders
 
-Under **Knowledge Base** &gt; **E-mail addresses** you can create a folder structure for e-mail addresses, to give them a logical structure and make it easy for others to find information. You can create subfolders in all folders, and you can place e-mail addresses in any of these folders as appropriate. Find out more below about how to work with the folder structure.
+Under **Knowledge Base** > **E-mail addresses** you can create a folder structure for e-mail addresses, to give them a logical structure and make it easy for others to find information. You can create subfolders in all folders, and you can place e-mail addresses in any of these folders as appropriate. Find out more below about how to work with the folder structure.
 
 ## Create folders
 

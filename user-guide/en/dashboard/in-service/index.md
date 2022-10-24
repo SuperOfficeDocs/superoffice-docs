@@ -1,7 +1,7 @@
 ---
 uid: help-en-dashboard-in-service
-title: ticket mainMenu
-description: ticket mainMenu
+title:  Dashboards in Service
+description:  Dashboards in Service
 author: SuperOffice RnD
 so.date: 06.29.2022
 keywords: dashboard
@@ -71,11 +71,11 @@ Depending on the rights you have in the system, the **Status** tile may also sho
 
 ## Own open requests
 
-Shows requests that belong to you and which have the **Open** status. In other words, this list contains the requests you are responsible for dealing with.
+Shows requests that belong to you and that have the **Open** status. In other words, this list contains the requests you are responsible for dealing with.
 
 ## Unassigned requests
 
-Lists requests that no-one has been assigned responsibility for. If you want to [take responsibility for one of the requests][2], it is important you do so by clicking **Accept request**. Otherwise there is a risk of others answering the request at the same time.
+Lists requests that no-one has been assigned responsibility for. If you want to [take responsibility for one of the requests][2], it is important you click **Accept request**. Otherwise, someone else might answer the request at the same time.
 
 ## What would you like to do now?
 

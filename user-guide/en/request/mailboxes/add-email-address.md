@@ -11,11 +11,11 @@ language: en
 
 # Create e-mail addresses
 
-When you register e-mail addresses under **Knowledge Base** &gt; **E-mail addresses**, they become available in most places where you need to send e-mail, such as in the **New request** and **Add message** screens. This speeds up request processing.
+When you register e-mail addresses under **Knowledge Base** > **E-mail addresses**, they become available in most places where you need to send e-mail, such as in the **New request** and **Add message** screens. This speeds up request processing.
 
 To register an e-mail address:
 
-1. Select **Knowledge Base** &gt; **E-mail addresses**.
+1. Select **Knowledge Base** > **E-mail addresses**.
 
 2. Go to the folder you want to put the e-mail address in. If it does not yet exist, you can [create a new folder][1].
 

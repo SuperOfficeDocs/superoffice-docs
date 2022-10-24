@@ -31,7 +31,7 @@ The simplest way to search for requests is to use the predefined searches availa
     <details><summary>How?</summary>
     To specify that only requests from categories you are a member of are displayed:
 
-    1. Select ![icon][img2] **Personal settings &gt; Settings**.
+    1. Select ![icon][img2] **Personal settings** > **Settings**.
     2. Select the **Preferences** tab.
     3. Check **Show only own categories**.
     4. Click **OK**.

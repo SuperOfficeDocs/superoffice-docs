@@ -24,7 +24,7 @@ If you have been assigned the **Allow administration of external users** right i
     * By using the [history list][1] or [FastSearcher][2].
     * By double-clicking on a company in a search result or in a selection.
 
-2. Click ![icon][img1] **Task** &gt; **External users**. The **External users** dialog appears.
+2. Click ![icon][img1] **Task** > **External users**. The **External users** dialog appears.
 
 3. Follow one of the procedures below.
 

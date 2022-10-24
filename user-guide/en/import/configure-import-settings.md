@@ -135,7 +135,7 @@ When you import contacts, you must also set the legal basis and consent source f
 The import source may, for example, contain businesses that are not registered in SuperOffice. You must then choose how new categories, businesses, positions, custom list values and interests are to be managed. In the list boxes under **Lists**, you have the following options:
 
 * **Add new item to the list**: New values will be added to SuperOffice.
-* **Ignore - use default**: New values will not be imported, and the default value for category or business will be used. You specify the default value under **Preferences** &gt; **Default values**.
+* **Ignore - use default**: New values will not be imported, and the default value for category or business will be used. You specify the default value under **Preferences** > **Default values**.
 
     > [!NOTE]
     > **Position** does not have a default value.

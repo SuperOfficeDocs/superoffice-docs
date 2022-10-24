@@ -17,7 +17,7 @@ If you checked **Show in left menu** when you created a selection (see [Create a
 
 For selections that are not displayed in the Navigator, you can do as follows:
 
-1. Select **Selections** &gt; **List selections**. This takes you to the **List selections** screen.
+1. Select **Selections** > **List selections**. This takes you to the **List selections** screen.
 2. Point at the selection name, to make the icons appear to the right.
 3. Click the **Update number of results** icon ( ![icon][img1] ). The number in brackets next to the name is updated.
 

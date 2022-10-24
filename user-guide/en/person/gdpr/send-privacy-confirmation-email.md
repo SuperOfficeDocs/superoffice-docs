@@ -31,7 +31,7 @@ To send the privacy confirmation email to a contact:
 
 [!include[Go to Contact screen](../../includes/goto-contact.md)]
 
-1. Click **Task** (![icon][img1]) &gt; **Send privacy confirmation email**.
+1. Click **Task** (![icon][img1]) > **Send privacy confirmation email**.
 
 1. In the dialog that opens, fill in the following fields:
     * **Send to**: Use the default email address or select another address.

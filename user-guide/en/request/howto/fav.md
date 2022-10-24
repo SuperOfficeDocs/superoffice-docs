@@ -29,7 +29,7 @@ In SuperOffice Service there is a favourites list, to which you can add requests
 1. Search for the relevant requests.
 2. Click the checkbox next to each request you want to add to the favourites list.
 3. Click ![icon][img5] in the lower left corner of the list.
-4. Select **Batch management &gt; Add to my favourites**.
+4. Select **Batch management** > **Add to my favourites**.
 
 ## View the favourites list
 

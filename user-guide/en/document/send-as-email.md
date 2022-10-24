@@ -4,7 +4,7 @@ title: Send a document as email
 description: Send a document as email
 author: SuperOffice RnD
 so.date: 06.29.2022
-keywords: CRM
+keywords: document
 so.topic: help
 language: en
 ---

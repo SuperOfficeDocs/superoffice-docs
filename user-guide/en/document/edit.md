@@ -4,7 +4,7 @@ title: Editing documents
 description: Editing documents
 author: SuperOffice RnD
 so.date: 06.29.2022
-keywords: CRM
+keywords: document
 so.topic: help
 language: en
 ---
@@ -24,7 +24,7 @@ Follow the instructions below, depending on how documents are managed in your Su
 
 [!include[Requirement](../includes/req-licence-gen.md)]
 
-## How do I know if I am using SharePoint, SuperOffice Web Tools or not?
+## How do I know if I am using SharePoint, SuperOffice WebTools or not?
 
 [!include[How to check document library](includes/webtools-or-sharepoint.md)]
 
@@ -48,7 +48,7 @@ To change document properties, for example, the project to which the document is
 
 3. Close the tab or your desktop app. The document is automatically saved to SharePoint
 
-## Edit document content - without SuperOffice Web Tools
+## Edit document content - without SuperOffice WebTools
 
 > [!NOTE]
 > This procedure describes how to create new documents if you are using a desktop text-editing application. The actual process may be slightly different if you use an online text-editing tool (like Microsoft Office Online) and a document library (like SharePoint).
@@ -57,7 +57,7 @@ To change document properties, for example, the project to which the document is
 2. Click **Open**.
 3. If a dialog box displays, click **Edit**.
 4. The file download dialog opens automatically. Choose from the following options:
-    * **Open**: When you click the option for opening, the document is opened in the text-editing application. Type in the contents of the document and select **File** &gt; **Save As** to save it in the desired location on your PC.
+    * **Open**: When you click the option for opening, the document is opened in the text-editing application. Type in the contents of the document and select **File** > **Save As** to save it in the desired location on your PC.
     * **Save**: When you click the option for saving, the **Save As** dialog appears. Specify where on your PC you want to save the file, and save it. Then open the document, enter the required text and save the document.
 5. Close the text-editing program.
 6. Go to the **Document** dialog.
@@ -72,12 +72,12 @@ To change document properties, for example, the project to which the document is
 
 8. Close the **Document** dialog by clicking **Save**. The document is checked in and the status is set to **Completed**.
 
-## Edit document content - using SuperOffice Web Tools
+## Edit document content - using SuperOffice WebTools
 
 1. Double-click the required document. (See [Open documents][2] for how to do this.)
 2. If a dialog box displays, click **Edit**.
 3. Save it and close the text-editing application.
-4. (if applicable) In the dialog that appears, click **Yes** if you are done editing the document. Click **No** to keep the document checked out. This dialog only appears if you have activated this option in SuperOffice Web Tools.
+4. (if applicable) In the dialog that appears, click **Yes** if you are done editing the document. Click **No** to keep the document checked out. This dialog only appears if you have activated this option in SuperOffice WebTools.
 5. The document is checked in and the status is set to **Completed**.
 
 ## Troubleshooting

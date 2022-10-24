@@ -24,7 +24,7 @@ In the **Extra menus** screen, you can add extra menus (buttons, menus, links, s
 * **Navigator**
 
   * Additional options on the navigator buttons
-  * Additional options under ![icon][img2] **System settings** &gt; **System design**
+  * Additional options under ![icon][img2] **System settings** > **System design**
   * Additional options on the **New** button in the top bar.
 
 ## What can I add as extra menus?

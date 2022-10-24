@@ -14,7 +14,7 @@ language: en
 Under **Knowledge Base > Documents** you can add documents to make them available to yourself and/or other users. Such documents might include price lists, installation routines and brochures.
 
 > [!NOTE]
-> The difference between **Documents** and **External documents** (see [Work with external documents][1]) is that the latter contains files that are accessible to everyone, including unregistered customers.
+> The difference between **Documents** and **External documents** is that the latter contains files that are accessible to everyone, including unregistered customers.
 
 ## What would you like to do now?
 
@@ -24,6 +24,7 @@ Under **Knowledge Base > Documents** you can add documents to make them availabl
 * [Delete documents][5]
 * [Search for documents][6]
 * [Administrate folders of documents][7]
+* [Work with external documents][1]
 
 <!-- Referenced links -->
 [1]: ../../request/externaldocument.md

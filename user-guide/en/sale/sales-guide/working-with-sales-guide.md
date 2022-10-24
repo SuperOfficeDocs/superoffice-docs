@@ -60,7 +60,7 @@ In the **Sales guide** dialog you have three options:
 * Check **Always create follow-up? Do not show this dialog again** if, in future, you always want to create the suggested follow-up. The dialog for follow-ups will then open automatically next time.
 
 > [!TIP]
-> If you want to reset this option, so that the **Sales guide** dialog opens, go to ![icon][img1] **Personal settings &gt; Preferences &gt; Sale** and select **Yes** for the **Confirm creation of suggested follow-up** option.
+> If you want to reset this option, so that the **Sales guide** dialog opens, go to ![icon][img1] **Personal settings** > **Preferences** > **Sale** and select **Yes** for the **Confirm creation of suggested follow-up** option.
 
 [Click here for an example of a sales guide.][3]
 

@@ -15,7 +15,7 @@ Tasks are follow-ups which do not usually have a defined time or duration. They 
 
 ![icon][img1]
 
-No matter where you are in SuperOffice CRM, you can create a new task by clicking **New** &gt; **Task** on the top bar.
+No matter where you are in SuperOffice CRM, you can create a new task by clicking **New** > **Task** on the top bar.
 
 Tasks can be displayed in the following places in SuperOffice CRM:
 

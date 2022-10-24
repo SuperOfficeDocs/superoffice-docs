@@ -1,5 +1,5 @@
 <!-- markdownlint-disable-file MD041 -->
-1. Select **New &gt; E-mail**. The **Mail** dialog opens.
+1. Select **New** > **Email**. The **Mail** dialog opens.
 
 2. Click in the **To** field, and start typing the name of the contact you want to send the message to.
 

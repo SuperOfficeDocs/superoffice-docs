@@ -87,7 +87,7 @@ If you reply to an enquiry and think the same question may arise again, it is a 
 
 You can also create an FAQ entry as follows:
 
-1. Select **Knowledge Base** &gt; **FAQ**.
+1. Select **Knowledge Base** > **FAQ**.
 2. Go to the folder you want to put the FAQ entry in. If it does not yet exist, you can [create a new folder][2].
 3. Click the **New entry** button. This takes you to the **FAQ entry properties** screen.
 4. Follow the procedure above starting at step 3..

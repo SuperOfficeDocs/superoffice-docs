@@ -14,13 +14,13 @@ language: en
 Common profiles are linked to a role and apply to all users who have that role (see [Roles][2]). You configure common profiles in the **Show profiles** screen. This screen contains two types of profiles:
 
 * **System**: These profiles you can configure by following the procedure below.
-* **System screens**: This is a list of screens created using the system designers in SuperOffice Service. You can change these if you have access to **System design** &gt; **Screens** (see [Screens][1]).
+* **System screens**: This is a list of screens created using the system designers in SuperOffice Service. You can change these if you have access to **System design** > **Screens** (see [Screens][1]).
 
 ## Create common profiles
 
 We explain how to create a common profile by using a specific example. In the example below, we assume that you want to add a field in the **Find requests** screen.
 
-1. Select ![icon][img1] **System settings &gt; Profile**. The **Show profiles** screen appears.
+1. Select ![icon][img1] **System settings** > **Profile**. The **Show profiles** screen appears.
 2. Choose **System**. This displays a hierarchical list of all the profiles in the system.
 3. Click **Search**.
 4. Point at **Find requests**, and click ![icon][img2] (**New common profile**) to the right of the name. The **Edit element profile** screen appears.
@@ -36,7 +36,7 @@ We explain how to create a common profile by using a specific example. In the ex
 
 To edit the information already recorded for a profile:
 
-1. Select ![icon][img1] **System settings** &gt; **Profile**. The **Show profiles** screen appears.
+1. Select ![icon][img1] **System settings** > **Profile**. The **Show profiles** screen appears.
 2. Choose **System**. This displays a hierarchical list of all the profiles in the system.
 3. Drill down into the hierarchy until you find the profile you want.
 4. Click the profile name. The **Edit element profile** screen appears.
@@ -47,7 +47,7 @@ To edit the information already recorded for a profile:
 
 To delete a profile from SuperOffice Service, do as follows:
 
-1. Select ![icon][img1] **System settings** &gt; **Profile**. The **Show profiles** screen appears.
+1. Select ![icon][img1] **System settings** > **Profile**. The **Show profiles** screen appears.
 2. Choose **System**. This displays a hierarchical list of all the profiles in the system.
 3. Drill down into the hierarchy until you find the profile you want.
 4. Click the profile name. The **Edit element profile** screen appears.

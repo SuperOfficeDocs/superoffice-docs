@@ -18,7 +18,7 @@ At the top of the **List selections** screen are two buttons:
 
 To view existing selections, do as follows:
 
-1. Select **Selections** &gt; **List selections**. This takes you to the **List selections** screen, containing a list of all the selections you have access to. The number of records in each selection is given in parentheses. You can hover the mouse pointer over the name of a selection to display the selection type (for example, static or dynamic) and what type of records it contains.
+1. Select **Selections** > **List selections**. This takes you to the **List selections** screen, containing a list of all the selections you have access to. The number of records in each selection is given in parentheses. You can hover the mouse pointer over the name of a selection to display the selection type (for example, static or dynamic) and what type of records it contains.
 
     > [!TIP]
     > If you check **Show in left menu** when you [create a selection][1], the name of the selection is also displayed under **Selections** in the Navigator.

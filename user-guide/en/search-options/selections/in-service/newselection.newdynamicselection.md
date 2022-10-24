@@ -16,7 +16,7 @@ language: en
 > [!TIP]
 > You can also create a dynamic selection based on search criteria. See [Create a selection based on search criteria][1].
 
-1. Select **Selections** &gt; **New selection**. This takes you to the **New selection** screen.
+1. Select **Selections** > **New selection**. This takes you to the **New selection** screen.
 2. In the **Source table** field, select which type of records you want to include in the selection. For instance, if you want to create a selection of requests, select **Request**.
 3. Check **Dynamic selection**.
 4. Click **Continue**. This takes you to the **Edit selection** screen.

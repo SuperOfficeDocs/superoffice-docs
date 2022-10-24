@@ -41,7 +41,7 @@ language: en
 
 ## Define a status in Service
 
-1. Select ![icon][img1] **System settings** &gt; **Request status**. The **Request status** screen appears.
+1. Select ![icon][img1] **System settings** > **Request status**. The **Request status** screen appears.
 
 2. Click the **New status** button. This takes you to the **Edit request status** screen.
 

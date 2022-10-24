@@ -11,7 +11,7 @@ language: en
 
 # List email addresses
 
-If you want details of the email addresses that have been registered, select **Knowledge Base** &gt; **E-mail addresses**. This takes you to the **E-mail addresses** screen, which contains e-mail addresses in a folder structure that you can create yourself. See [Administrate e-mail address folders][1].
+If you want details of the email addresses that have been registered, select **Knowledge Base** > **E-mail addresses**. This takes you to the **E-mail addresses** screen, which contains e-mail addresses in a folder structure that you can create yourself. See [Administrate e-mail address folders][1].
 
 * To create a new e-mail address, see [Create e-mail addresses][2].
 * To edit an existing e-mail address, click the name in the list. See [Create e-mail addresses][2].

@@ -114,7 +114,7 @@ Add more tabs for additional fields, or remove irrelevant tabs.
 
 **To remove a tab:**
 
-1. Select the tab and click **Task** &gt; **Remove tab**.
+1. Select the tab and click **Task** > **Remove tab**.
 2. Click **OK** in the dialog that is displayed.
 
 **To add a new tab:**

@@ -2,9 +2,7 @@ items:
 - name: Overview
   href: index.md
 - name: Document screen
-  items:
-  - name: Document dialog
-    href: screen/index.md
+  href: screen/index.md
 - name: Creating new documents
   href: create.md
 - name: Upload documents
@@ -21,7 +19,7 @@ items:
   href: delete.md
 - name: Template variables
   href: template-variables.md
-- name: Web Tools
+- name: WebTools
   href: web-tools.md
 - name: Documents in Service
   href: in-service/index.md

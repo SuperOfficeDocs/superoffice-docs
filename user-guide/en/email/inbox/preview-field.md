@@ -24,7 +24,7 @@ The **Preview** tab contains the following fields:
 | Attachments | Displays any attachments to the message. |
 
 > [!NOTE]
-> Go to ![icon][img1] **Personal settings &gt; email options**. Open the **General** tab. If you check **Show inline images**, inline images will be displayed in preview.
+> Go to ![icon][img1] **Personal settings** > **Email options**. Open the **General** tab. If you check **Show inline images**, inline images will be displayed in preview.
 
 ## Related topics
 

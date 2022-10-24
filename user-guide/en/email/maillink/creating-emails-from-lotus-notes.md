@@ -13,7 +13,7 @@ language: en
 
 Follow these steps to create an email from Lotus Notes:
 
-1. Above the message list, click **New** &gt; **Message** to open the **New message** form. A new email window opens.
+1. Above the message list, click **New** > **Message** to open the **New message** form. A new email window opens.
 
 2. In the **To** field, enter the email address(es) of the recipient(s). You can also use the **Select recipients** dialog (see [Selecting recipients][1]).
 

@@ -22,7 +22,7 @@ To edit the content of the document itself, for example the text in a letter, yo
 
 Proceed as follows:
 
-1. Select **Knowledge Base** &gt; **Documents**.
+1. Select **Knowledge Base** > **Documents**.
 2. Go to the folder where the document is located.
 3. Click ![icon][img1] **Download** to download a document.
 4. Edit and save the document using the application the document was originally created in.
@@ -34,7 +34,7 @@ Proceed as follows:
 
 By editing the document's properties, you can, for example, change who is to have access to the document. Proceed as follows:
 
-1. Select **Knowledge Base** &gt; **Documents**.
+1. Select **Knowledge Base** > **Documents**.
 2. Go to the folder where the document is located.
 3. Click the document name to go to the **Document properties** screen.
 4. Make the required changes. For more information about the fields in this screen, see [Create documents][1].

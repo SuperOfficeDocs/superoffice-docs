@@ -15,7 +15,7 @@ You can restore companies and contacts that have been deleted by mistake, either
 
 In order to restore deleted companies or contacts:
 
-1. Choose ![icon][img1] **Personal settings** &gt; **Recycle bin**. The **Recycle bin** dialog opens.
+1. Choose ![icon][img1] **Personal settings** > **Recycle bin**. The **Recycle bin** dialog opens.
 
 2. Select the **Company** or **Contact** tab. Companies and contacts deleted by you are displayed.
 

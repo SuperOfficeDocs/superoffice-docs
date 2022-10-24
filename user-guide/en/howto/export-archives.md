@@ -28,7 +28,7 @@ You can export all section tabs containing records in SuperOffice CRM to an Exce
 3. Save the spreadsheet wherever you want.
 
 > [!NOTE]
-> If you know that this function has been enabled in SuperOffice Settings and maintenance, but you cannot see the ![icon][img2] **Export** button at the bottom of the section tabs, go to ![icon][img1] **Personal settings &gt; Preferences &gt; Functions &gt; Show Export button in the section tabs** and select **Yes**.
+> If you know that this function has been enabled in SuperOffice Settings and maintenance, but you cannot see the ![icon][img2] **Export** button at the bottom of the section tabs, go to ![icon][img1] **Personal settings** > **Preferences** > **Functions** > **Show Export button in the section tabs** and select **Yes**.
 
 <!-- Referenced links -->
 [1]: changing-column-view.md

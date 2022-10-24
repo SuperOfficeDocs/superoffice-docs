@@ -4,7 +4,7 @@ title: Template variables
 description: Template variables
 author: SuperOffice RnD
 so.date: 06.29.2022
-keywords: CRM
+keywords: document
 so.topic: help
 language: en
 ---

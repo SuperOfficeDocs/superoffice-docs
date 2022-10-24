@@ -11,7 +11,7 @@ language: en
 
 # Administrate folders of selections
 
-Under **Selections** &gt; **List selections** you can create a folder structure for the selections, to give them a logical structure and make it easy for others to find information. You can create sub-folders in all folders, and you can place the selections in any of these folders. Find out more below about how to work with the folder structure.
+Under **Selections** > **List selections** you can create a folder structure for the selections, to give them a logical structure and make it easy for others to find information. You can create sub-folders in all folders, and you can place the selections in any of these folders. Find out more below about how to work with the folder structure.
 
 ## Create folders
 

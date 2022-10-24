@@ -15,7 +15,7 @@ You can specify a number of settings for different parts of SuperOffice CRM, for
 
 ## To change a preference
 
-1. Choose ![icon][img12] **Personal settings &gt; Preferences**. The **Preferences** dialog opens.
+1. Choose ![icon][img12] **Personal settings** > **Preferences**. The **Preferences** dialog opens.
 2. Select the required preference from the list on the left.
 3. Enter the required setting in the window on the right.
 4. Click **Save** to save the changes and close the **Preferences** dialog. You can click **Cancel** to discard your changes.

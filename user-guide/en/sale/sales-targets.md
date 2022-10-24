@@ -17,7 +17,7 @@ Set up sales targets to keep track of your budgets. Sales targets can be set up 
 
 Before you start using the sales targets feature, you must set up a few things in SuperOffice Settings and Maintenance:
 
-* By default the sales targets are divided into months, but you can change this to quarterly targets. In SuperOffice Settings and Maintenance, go to **Preferences** &gt; **Global system preferences** &gt; **Targets** to make any changes.
+* By default the sales targets are divided into months, but you can change this to quarterly targets. In SuperOffice Settings and Maintenance, go to **Preferences** > **Global system preferences** > **Targets** to make any changes.
 
 * Locking and unlocking sales targets are only available to users with the functional right called **Can lock and unlock targets**. This can be changed in **Roles** in SuperOffice Settings and Maintenance.
 

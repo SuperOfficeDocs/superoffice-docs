@@ -4,7 +4,7 @@ title: Deleting documents
 description: Deleting documents
 author: SuperOffice RnD
 so.date: 06.29.2022
-keywords: CRM
+keywords: document
 so.topic: help
 language: en
 ---

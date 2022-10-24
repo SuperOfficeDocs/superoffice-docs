@@ -65,7 +65,7 @@ To create a role for associates in the company or for external users:
 
 To create a new role:
 
-1. Select ![icon][img3] **System settings &gt; Roles**.
+1. Select ![icon][img3] **System settings** > **Roles**.
 
 2. Click the **New role** button. The **Create roles** screen opens.
 3. Enter the following information:

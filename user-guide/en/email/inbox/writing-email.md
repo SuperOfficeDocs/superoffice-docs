@@ -12,7 +12,7 @@ language: en
 # Compose an email
 
 > [!TIP]
-> The procedure below describes how to compose an email message from the inbox. You can also compose an email message by clicking **New &gt; email** on the top bar.
+> The procedure below describes how to compose an email message from the inbox. You can also compose an email message by clicking **New** > **Email** on the top bar.
 
 ## Compose
 
@@ -30,7 +30,7 @@ When you have finished the message, and want to send it, you have the following 
 > [!TIP]
 > If you do not archive the message when you send it, you can still go to the sent folder and archive the message as described in [Archive incoming email][2].
 >
-> The signature template at the bottom of the message can be edited in ![icon][img1] **Personal settings** &gt; **Edit personal signature**.
+> The signature template at the bottom of the message can be edited in ![icon][img1] **Personal settings** > **Edit personal signature**.
 
 ## Entering information in the New email dialog
 

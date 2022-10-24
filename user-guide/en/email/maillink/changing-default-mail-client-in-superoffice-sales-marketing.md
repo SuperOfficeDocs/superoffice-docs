@@ -16,7 +16,7 @@ If you want to change mail client, it is possible to change clients in the **Pre
 Follow these steps:
 
 1. Open SuperOffice CRM.
-2. Choose ![icon][img1] **Personal settings &gt; Preferences**. The **Preferences** dialog opens.
+2. Choose ![icon][img1] **Personal settings** > **Preferences**. The **Preferences** dialog opens.
 3. In the navigator on the left-hand side of the **Preferences** dialog, select **Email**.
 4. In the **Email client** field, select your preferred mail client.
 5. Click **Save**.

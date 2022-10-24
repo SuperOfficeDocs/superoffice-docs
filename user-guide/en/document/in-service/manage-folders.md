@@ -11,7 +11,7 @@ language: en
 
 # Manage document folders
 
-Under **Knowledge Base**> **Documents** you can create a folder structure for documents, to give them a logical structure and make it easy for others to find information. You can create sub-folders in all folders, and you can place the documents in any of these folders. Find out more below about how to work with the folder structure.
+Under **Knowledge Base** > **Documents** you can create a folder structure for documents, to give them a logical structure and make it easy for others to find information. You can create sub-folders in all folders, and you can place the documents in any of these folders. Find out more below about how to work with the folder structure.
 
 ## Create folders
 

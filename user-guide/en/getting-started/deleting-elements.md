@@ -42,7 +42,7 @@ Below you will find a description of the buttons in the dialog and what effect t
 
 To suppress this dialog: Check **Do not show this dialog again** at the bottom of the delete dialog.
 
-To reactivate this dialog: Go to ![icon][img1] **Personal settings &gt; Preferences &gt; Functions** and set the **Show confirmation dialog** option to **No**.
+To reactivate this dialog: Go to ![icon][img1] **Personal settings** > **Preferences** > **Functions** and set the **Show confirmation dialog** option to **No**.
 
 > [!NOTE]
 > When you delete a company, a selection or a project, you are always asked to confirm the deletion, and the **Do not show this dialog again** option is not available.

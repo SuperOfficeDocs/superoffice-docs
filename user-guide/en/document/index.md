@@ -4,7 +4,7 @@ title: Work with documents
 description: Work with documents
 author: SuperOffice RnD
 so.date: 06.29.2022
-keywords: CRM
+keywords: document
 so.topic: help
 language: en
 ---
@@ -17,12 +17,14 @@ No matter where you are in SuperOffice CRM, you can create or upload a new docum
 
 Documents can be letters, quotations or memos, and they can be displayed in several places in SuperOffice CRM.
 
-* In the **Company** screen, you can display all the documents linked to the active company on the **Activities** section tab.
-* In the **Contact** screen, you can display all the documents linked to the active contact on the **Activities** section tab.
-* In the **Sale** screen, you can display all the documents linked to the active sale on the **Activities** section tab.
-* In the **Project** screen, you can display all the documents linked to the active project on the **Activities** section tab.
-* In the **Diary** screen, on the **Activities** section tab, you can display all documents that are not yet completed, plus those marked as completed since you last logged in to SuperOffice CRM.
-* In the **Selection** screen, on the **Documents** section tab, you can display a selection of documents.
+| Screen | Section tab | Contents |
+|---|---|---|
+| Company | Activities | All documents linked to the active company |
+| Contact | Activities | All documents linked to the active contact |
+| Sale | Activities | All documents linked to the active sale |
+| Project | Activities | All documents linked to the active project |
+| Diary | Activities | All uncompleted documents plus those marked as completed since you last logged in to SuperOffice CRM. |
+| Selection | Documents | A selection of documents |
 
 > [!TIP]
 > To open and examine an existing document, double-click the required row on the section tab.

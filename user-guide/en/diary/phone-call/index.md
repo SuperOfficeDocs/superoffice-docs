@@ -14,11 +14,11 @@ language: en
 Calls are follow-ups with a default duration of 15 minutes. The default start time is the current time and the date is today’s date. You can set up a call follow-up if, for example, you want to enter an outgoing phone call.
 
 > [!TIP]
-> You can change the default duration to something other than 15 minutes. Select ![icon][img1] **Personal settings &gt; Preferences** &gt; **Default values** &gt; **Duration of a new phone call** and enter the required value as described under [Preferences][4].
+> You can change the default duration to something other than 15 minutes. Select ![icon][img1] **Personal settings** > **Preferences** > **Default values** > **Duration of a new phone call** and enter the required value as described under [Preferences][4].
 
 ![icon][img2]
 
-No matter where you are in SuperOffice CRM, you can create a new phone call by selecting **New** &gt; **Phone Call** on the top bar.
+No matter where you are in SuperOffice CRM, you can create a new phone call by selecting **New** > **Phone Call** on the top bar.
 
 Phone calls can be displayed in the following places in SuperOffice CRM:
 
