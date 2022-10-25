@@ -1,18 +1,18 @@
 ---
 uid: help-en-stakeholder-create
-title: Create stakeholders
-description: Create stakeholders
+title: Create a stakeholder
+description: How to link a sale to a stakeholder (company or contact) in SuperOffice.
 author: SuperOffice RnD
 so.date: 07.04.2022
 keywords: sale
-so.topic: help
+so.topic: howto
 language: en
 ---
 
-# Create stakeholders
+# Create a stakeholder
 
 > [!NOTE]
-> You can also add stakeholders via the section tabs containing contacts in the **Company** and **Selection** screens. See [Add project members and stakeholders from section tabs][2] for more information.
+> You can also [add stakeholders via the section tabs][2] containing contacts in the **Company** and **Selection** screens.
 
 To link the sale to stakeholders:
 

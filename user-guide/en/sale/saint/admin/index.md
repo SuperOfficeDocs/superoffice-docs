@@ -61,13 +61,13 @@ To create a status, you need to perform these steps:
 * [Manage status monitors][8]
 
 <!-- Referenced links -->
-[1]: create-new-status-web.md
+[1]: create-status.md
 [2]: select-image-for-status.md
 [3]: select-default-follow-up-type-for-status.md
 [4]: select-status-criteria.md
 [5]: select-period-length.md
-[6]: restore-deleted-status-web.md
-[7]: edit-description-for-status.md
+[6]: restore-status.md
+[7]: edit-status.md
 [8]: manage-status-monitors.md
 
 <!-- Referenced images -->

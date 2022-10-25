@@ -1,11 +1,12 @@
 ---
-uid: help-en-deactivate-sales-guide
+uid: help-en-sales-guide-deactivate
 title: Deactivate sales guide
-description: Deactivate sales guide
+description: How to deactivate a sales guide in SuperOffice
 author: SuperOffice RnD
 so.date: 06.29.2022
-keywords: Settings and maintenance
-so.topic: help
+keywords: sale, guide
+so.topic: howto
+so.audience: admin
 language: en
 ---
 
@@ -18,6 +19,6 @@ To remove a sales guide from a sale type, you can deactivate it. You do this by 
 If you subsequently want to reuse the sales guide, you can simply check this option again. Any follow-ups and documents previously added to the sales guide's stages will be automatically retrieved. You can also add new follow-ups and/or documents, or delete those you don't want to use in this sales guide.
 
 <!-- Referenced links -->
-[1]: ../admin/sale-type-stages-quote.md
+[1]: ../admin/add-sale-type.md
 
 <!-- Referenced images -->

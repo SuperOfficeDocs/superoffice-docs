@@ -1,11 +1,11 @@
 ---
-uid: help-en-quote-dlg-edit-quote
-title: quote dlg edit quote
-description: quote dlg edit quote
+uid: help-en-quote-dialog-edit
+title: The Edit quote dialog
+description: The Edit quote dialog
 author: SuperOffice RnD
 so.date: 07.04.2022
-keywords: CRM
-so.topic: help
+keywords: sale, quote
+so.topic: reference
 language: en
 ---
 
@@ -39,7 +39,7 @@ The products in the quote are displayed on this tab.
 * **Add**: Click here to search for and [add products][6].
 * Double-click a product to edit it.
 * **Delete**: Click here to delete the selected product(s).
-* **Export**: Click here to export the list to a spreadsheet. See [Export section tabs][7].
+* **Export**: Click here to [export the list][7] to a spreadsheet.
 * Sort: Use the arrow keys ( ![icon][img2] / ![icon][img3] ) to change the order of the products.
 
 > [!TIP]

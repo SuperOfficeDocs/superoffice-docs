@@ -1,11 +1,12 @@
 ---
-uid: help-en-sale-stage
+uid: help-en-sale-stage-admin
 title: Sale - Stage
 description: Sale - Stage
 author: SuperOffice RnD
 so.date: 06.29.2022
-keywords: Settings and maintenance
-so.topic: help
+keywords: sale, stage
+so.topic: reference
+so.audience: admin
 language: en
 ---
 
@@ -20,6 +21,6 @@ The **Sale** tab in the **Sale** screen in SuperOffice CRM contains the **Stage*
 [Add items to the Sale - Stage list][1]
 
 <!-- Referenced links -->
-[1]: ../admin/adding-items-to-sale-stage-list.md
+[1]: ../admin/add-stage.md
 
 <!-- Referenced images -->

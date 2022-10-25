@@ -1,11 +1,12 @@
 ---
-uid: help-en-sale-sales-type-for-stages
-title: Sale - Sales type (for stages)
-description: Sale - Sales type (for stages)
+uid: help-en-sale-type-admin
+title: Sales type (for stages)
+description: Sales type (for stages)
 author: SuperOffice RnD
 so.date: 06.29.2022
-keywords: Settings and maintenance
-so.topic: help
+keywords: sale, type, stage
+so.topic: reference
+so.audience: admin
 language: en
 ---
 
@@ -15,9 +16,9 @@ The **Sale** tab in the **Sale** screen in SuperOffice CRM contains the **Sale t
 
 ## Stages
 
-Each sale in SuperOffice CRM must have a sale type, and each sale type can contain several sale stages (see [Sale - Stage][3]). You can also specify that specific sale types are to have a [sales guide][4], to guide sales staff through the different stages of a sale, with associated follow-ups and documents.
+Each sale in SuperOffice CRM must have a sale type, and each sale type can contain several [sale stages][3]. You can also specify that specific sale types are to have a [sales guide][4], to guide sales staff through the different stages of a sale, with associated follow-ups and documents.
 
-For each sale type, you can also specify that the sale type has stakeholders. See [Sale - Stakeholder Role][1].
+For each sale type, you can specify [stakeholders][1].
 
 ## Quote attachments, defaults and approval
 
@@ -28,8 +29,8 @@ If Quote functionality is active, you can also set various options for quotes cr
 * [Add items to the Sale - Type, Stages, Quote list][2]
 
 <!-- Referenced links -->
-[1]: ../stakeholders/sales-role-stakeholders.md
-[2]: ../admin/sale-type-stages-quote.md
+[1]: ../stakeholders/index.md
+[2]: ../admin/add-sale-type.md
 [3]: sale-stage.md
 [4]: sales-guide.md
 

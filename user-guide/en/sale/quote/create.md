@@ -38,7 +38,7 @@ To create a quote:
 [1]: ../create.md
 [2]: add-product.md
 [3]: versions.md
-[4]: ../screen/quote-dlg-edit-quote.md
+[4]: ../screen/edit-quote-dialog.md
 [5]: add-alternative.md
 [6]: create-quote-document.md
 [7]: send.md

@@ -1,11 +1,11 @@
 ---
-uid: help-en-create-new-status-web
-title: Create new status web
-description: Create new status web
+uid: help-en-saint-status-create
+title: Create new status
+description: Create new status
 author: SuperOffice RnD
 so.date: 06.29.2022
-keywords: Settings and maintenance, sale, SAINT
-so.topic: help
+keywords: sale, SAINT
+so.topic: howto
 language: en
 ---
 
@@ -32,7 +32,7 @@ To add a new status:
     [!include[Example](includes/example-status-description.md)]
     </details>
 
-    The name and description are displayed in SuperOffice CRM when the user holds the mouse pointer over the status image or opens the status image for the company. You can subsequently edit the description by following the procedure under [Edit a status description][2].
+    The name and description are displayed in SuperOffice CRM when the user holds the mouse pointer over the status image or opens the status image for the company. You can subsequently [edit the description][2].
 
 5. Click **Save**. The status is displayed in the status list.
 
@@ -40,7 +40,7 @@ To add a new status:
 
     ![icon][img3] – the **Visualise** icon indicates whether to display a status image for company, contact or project cards that fulfil the status criteria. The icon is only displayed if you have checked **Visualise** in the **Image** tab for the status in question (see [Select an image for a status][3]).
 
-    ![icon][img4] – a red cross indicates that the status needs to be regenerated. The status must be regenerated (see [Manage status monitors][4]) each time you have added, edited or deleted a criterion or if, for example, you have changed an intention for a task. Statuses with red crosses are not updated and do not return current data when using SuperOffice CRM (see [Manage status monitors][4]).
+    ![icon][img4] – a red cross indicates that the status needs to be regenerated. The [status must be regenerated][4] each time you have added, edited or deleted a criterion or if, for example, you have changed an intention for a task. Statuses with red crosses are not updated and do not return current data when using SuperOffice CRM.
 
     **Name** – the name of the statuses. Deleted statuses are displayed in red if you have checked **Show deleted**.
 
@@ -65,7 +65,7 @@ If a company, contact or project has several active statuses, the lower priority
 
 <!-- Referenced links -->
 [1]: ../../../document/template-variables.md
-[2]: edit-description-for-status.md
+[2]: edit-status.md
 [3]: select-image-for-status.md
 [4]: manage-status-monitors.md
 [5]: select-default-follow-up-type-for-status.md

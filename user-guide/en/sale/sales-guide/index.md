@@ -1,11 +1,11 @@
 ---
 uid: help-en-sales-guide
-title: sales guide
-description: sales guide
+title: Sales guide
+description: Introduction to sales guides in SuperOffice
 author: SuperOffice RnD
 so.date: 07.04.2022
-keywords: sale
-so.topic: help
+keywords: sale, guide
+so.topic: concept
 language: en
 ---
 
@@ -23,12 +23,10 @@ You can preview documents and activities in the **Preview** view in the side pan
 
 * [The Sales guide section tab][1]
 * [Work with sales guides][2]
-* [Example of a sales guide][3]
 
 <!-- Referenced links -->
-[1]: ../screen/salesguide-detailcard.md
+[1]: ../screen/sales-guide-tab.md
 [2]: working-with-sales-guide.md
-[3]: example-salesguide.md
 
 <!-- Referenced images -->
 [img1]: media/60-chap7-salesguide-first-meeting.bmp

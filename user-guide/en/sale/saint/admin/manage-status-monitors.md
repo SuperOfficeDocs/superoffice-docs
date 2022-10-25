@@ -4,7 +4,7 @@ title: Manage status monitors
 description: Manage status monitors
 author: SuperOffice RnD
 so.date: 06.29.2022
-keywords: Settings and maintenance, sale, SAINT
+keywords: sale, SAINT
 so.topic: help
 language: en
 ---

@@ -1,42 +1,45 @@
 ---
 uid: help-en-sale
-title: sale
-description: sale
+title: Sale
+description: Introduction to sale in SuperOffice
 author: SuperOffice RnD
 so.date: 07.04.2022
 keywords: sale
-so.topic: help
+so.topic: concept
 language: en
 ---
 
 # Sale
 
-The sale function in SuperOffice CRM enables you to record sales, keep track of costs and profits for every sale, and link sales to projects. The **Sale** screen contains information recorded about the sales entered in SuperOffice CRM.
+The sale function in SuperOffice CRM enables you to record sales, keep track of costs and profits for every sale, and link sales to projects.
 
-You can also [create a quote][1] in the **Quote** section tab in the **Sale** screen.
+## Where can I view sales?
 
-In addition to the **Sale** screen, sales can be displayed in the following places in SuperOffice CRM:
+In addition to the [**Sale** screen][2], sales can be displayed in the following places in SuperOffice CRM:
 
-* On the **Sales** section tab in the **Company** screen.
-* On the **Sales** section tab in the **Contact** screen.
-* On the **Sales** section tab in the **Diary** screen.
-* On the **Sales** section tab in the **Project** screen.
+* On the **Sales** section tab in the **Company** screen
+* On the **Sales** section tab in the **Contact** screen
+* On the **Sales** section tab in the **Diary** screen
+* On the **Sales** section tab in the **Project** screen
 
 > [!TIP]
-> If you double-click a sale in one of these locations, the sale opens in the **Sale** screen.
+> Double-click a sale in one of these locations to open the sale in the **Sale** screen.
 
-If you have selected a sale type for which a sales guide has been defined, the **Sales guide** section tab is displayed. For more information, see [Sales guide][3].
-
-In the **Sale** screen, each sale is displayed like an index card. You can see all the information that has been recorded for a sale.
-
-To move backwards and forwards between sales click the previous/next buttons ( ![icon][img2] ![icon][img1] ) at the bottom right of the cards
-
-## Add record as a favourite
+## Add a sale to favourites
 
 [!include[ALT](../includes/howto-add-favorite.md)]
 
+## Print a sale
+
+To print information about a sale:
+
+1. Go to the required sale.
+2. Click the **Task** button and select **Print**.
+3. In the window which displays the contents to be printed, click **Print**.
+
 ## What would you like to do now?
 
+* [Read about the Sale screen][2]
 * [Record a sale][4]
 * [Create stakeholders][5]
 * [Work with sales guides][6]
@@ -45,12 +48,10 @@ To move backwards and forwards between sales click the previous/next buttons ( !
 
 <!-- Referenced links -->
 [1]: quote/create.md
-[3]: sales-guide/index.md
+[2]: screen/index.md
 [4]: create.md
-[5]: stakeholders/create-stakeholders.md
+[5]: stakeholders/create.md
 [6]: sales-guide/working-with-sales-guide.md
 [7]: sales-targets.md
 
 <!-- Referenced images -->
-[img1]: ../../media/icons/arrow-right.png
-[img2]: ../../media/icons/arrow-left.png

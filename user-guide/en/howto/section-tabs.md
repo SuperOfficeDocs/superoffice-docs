@@ -58,7 +58,7 @@ To change the default number of records, do as follows:
 [9]: ../company/screen/index.md
 [10]: ../person/screen/index.md
 [11]: ../diary/screen/index.md
-[12]: ../sale/screen/sale-screen-section-tabs.md
+[12]: ../sale/screen/index.md
 [13]: ../project/screen/project-screen-section-tabs.md
 [14]: ../search-options/selections/screen/section-tabs-in-selection-screen.md
 

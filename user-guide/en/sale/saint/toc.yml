@@ -3,7 +3,7 @@ items:
   href: index.md
 - name: Status dialog
   href: status-dialog.md
-- name: Using status monitors in dynamic selections
+- name: SAINT in dynamic selections
   href: using-status-monitors-in-dynamic-selections.md
 - name: For administrators
   href: admin/index.md
@@ -11,16 +11,16 @@ items:
   - name: Manage status monitors
     href: admin/manage-status-monitors.md
   - name: Create new status
-    href: admin/create-new-status-web.md
+    href: admin/create-status.md
   - name: Edit description for status
-    href: admin/edit-description-for-status.md
+    href: admin/edit-status.md
   - name: Restore deleted status
-    href: admin/restore-deleted-status-web.md
-  - name: Select default follow up type for status
+    href: admin/restore-status.md
+  - name: Default follow-up type for status
     href: admin/select-default-follow-up-type-for-status.md
-  - name: Select image for status
+  - name: Image for status
     href: admin/select-image-for-status.md
-  - name: Select period length
+  - name: Period length
     href: admin/select-period-length.md
-  - name: Select status criteria
+  - name: Status criteria
     href: admin/select-status-criteria.md

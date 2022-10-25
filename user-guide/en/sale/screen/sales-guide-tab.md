@@ -1,11 +1,11 @@
 ---
-uid: help-en-salesguide-detailcard
-title: Salesguide detailcard
-description: Salesguide detailcard
+uid: help-en-sale-screen-tab-guide
+title: The Sales guide section tab
+description: The Sales guide section tab
 author: SuperOffice RnD
 so.date: 07.04.2022
-keywords: sale
-so.topic: help
+keywords: sale, guide
+so.topic: reference
 language: en
 ---
 

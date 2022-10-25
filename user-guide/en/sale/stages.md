@@ -1,11 +1,11 @@
 ---
 uid: help-en-sale-stages
-title: Status of a sale sold and lost
-description: Status of a sale sold and lost
+title: Status of a sale, sold and lost
+description: Status of a sale, sold and lost
 author: SuperOffice RnD
 so.date: 07.04.2022
 keywords: sale
-so.topic: help
+so.topic: concept
 language: en
 ---
 
@@ -13,7 +13,7 @@ language: en
 
 In the **Stage** field in the **Sale** screen, you can set the sale to **Sold** or **Lost**. You can also check the **Stalled** checkbox below this field if you want put the sales process on hold. If you do this, the fields underneath change, along with the icon at the top left of the **Sale** screen.
 
-For individual sale types, a list of stages, as defined in SuperOffice Settings and maintenance, is also displayed. To find out more about these, see the [Sales guide][1].
+For individual sale types, a list of stages, as defined in SuperOffice Settings and maintenance, is also displayed. [Read more about sales guides][1].
 
 | Icon | Meaning |
 |---|---|
@@ -53,10 +53,12 @@ If you set the sale to **Sold** or **Lost**, you can enter the date, any competi
 
 * [Fields in the Sale screen][2]
 * [Sales guide][1]
+* [Add stage][3]
 
 <!-- Referenced links -->
 [1]: sales-guide/index.md
-[2]: create.md
+[2]: screen/index.md
+[3]: admin/add-stage.md
 
 <!-- Referenced images -->
 [img1]: ../../media/icons/salg-utsatt.bmp

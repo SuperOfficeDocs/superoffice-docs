@@ -1,72 +1,63 @@
 items:
 - name: Overview
   href: index.md
-- name: Sale screen
-  items:
-  - name: Section tabs in the Sale screen
-    href: screen/sale-screen-section-tabs.md
-    items:
-    - name: Activities sale
-      href: screen/activities-sale.md
-    - name: Sales guide detail card
-      href: screen/salesguide-detailcard.md
-    - name: Quote detail card
-      href: screen/quote-detailcard.md
-  - name: Quote
-    items:
-    - name: Quote dlg edit quote
-      href: screen/quote-dlg-edit-quote.md
-  - name: In Settings and maintenance
-    items:
-    - name: Sales guide
-      href: screen/sales-guide.md
-    - name: Sale stage
-      href: screen/sale-stage.md
-    - name: Sales type (for stages)
-      href: screen/sales-type-for-stages.md
 - name: Create a sale
   href: create.md
-- name: Print a sale
-  href: print.md
 - name: Delete a sale
   href: delete.md
-- name: Status of a sale
+- name: Status of a sale (stages)
   href: stages.md
-- name: StakeHolders
+- name: Stakeholders
   href: stakeholders/index.md
   items:
   - name: Create stakeholders
-    href: stakeholders/create-stakeholders.md
+    href: stakeholders/create.md
   - name: Edit stakeholders
-    href: stakeholders/edit-stakeholders.md
-  - name: Sales role (Stakeholders)
-    href: stakeholders/sales-role-stakeholders.md
+    href: stakeholders/edit.md
 - name: Sales guide
   href: sales-guide/index.md
   items:
   - name: Working with sales guide
     href: sales-guide/working-with-sales-guide.md
-  - name: Example
-    href: sales-guide/example-salesguide.md
-  - name: Create new sales guide
-    href: sales-guide/create-new-sales-guide.md
-  - name: Edit sales guide
-    href: sales-guide/edit-sales-guide.md
-  - name: Deactivate sales guide
-    href: sales-guide/deactivate-sales-guide.md
+  - name: For administrators
+    items:
+    - name: Create new sales guide
+      href: sales-guide/create.md
+    - name: Edit sales guide
+      href: sales-guide/edit.md
+    - name: Deactivate sales guide
+      href: sales-guide/deactivate.md
 - name: Sales targets
   href: sales-targets.md
+- name: Sale screen
+  href: screen/index.md
+  items:
+  - name: Section tabs
+    items:
+    - name: Activities
+      href: screen/activities-sale.md
+    - name: Sales guide
+      href: screen/sales-guide-tab.md
+    - name: Quote
+      href: screen/quote-tab.md
+  - name: The Edit quote dialog
+    href: screen/edit-quote-dialog.md
 - name: For administrators
   items:
-  - name: Adding items to the Sale Stage list
-    href: admin/adding-items-to-sale-stage-list.md
-  - name: Adding items to the Sale Sales type (for stages) list
-    href: admin/sale-type-stages-quote.md
-  - name: Sale Amount class
-    href: admin/sale-amount-class.md
+  - name: Relevant pages
     items:
-    - name: Adding items to the Sale Amount class list
-      href: admin/adding-items-to-sale-amount-class-list.md
+    - name: Sales guide (Workflow)
+      href: screen/sales-guide-admin.md
+    - name: Sale stage
+      href: screen/sale-stage.md
+    - name: Sales type (for stages)
+      href: screen/sales-type-for-stages.md
+  - name: Add a sale stage
+    href: admin/add-stage.md
+  - name: Add a sales type
+    href: admin/add-sale-type.md
+  - name: Add sale amount class
+    href: admin/add-amount-class.md
 - name: Quote
   href: quote/toc.yml
 - name: SAINT
