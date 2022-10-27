@@ -18,7 +18,7 @@ In this section, you add the Reverse proxy override if you want to export larger
 
 ```XML
 <Client>
-  <add key="ExportPageSize" value="10" />
+  <add key="ExportRowLimit" value="20000" />
 </Client>
 ```
 
