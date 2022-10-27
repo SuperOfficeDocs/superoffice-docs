@@ -1,11 +1,11 @@
 ---
-uid: help-en-projectguide-detail
-title: Projectguide detail
-description: Projectguide detail
+uid: help-en-project-screen-tab-guide
+title: Project guide section tab
+description: Project guide section tab
 author: SuperOffice RnD
 so.date: 07.04.2022
-keywords: CRM
-so.topic: help
+keywords: project, guide
+so.topic: reference
 language: en
 ---
 
@@ -38,12 +38,10 @@ Once a follow-up or document has been created, you can subsequently delete or ed
 
 ## What would you like to do now?
 
-* [Work with project guides][1]
-* [Look at a sample project guide][2]
+* [Work with project guides][1] (includes an example)
 
 <!-- Referenced links -->
-[1]: ../project-guide/work-with-projectguide.md
-[2]: ../project-guide/example-projectguide.md
+[1]: ../project-guide/working-with.md
 
 <!-- Referenced images -->
 [img1]: media/guide-completed-status.bmp

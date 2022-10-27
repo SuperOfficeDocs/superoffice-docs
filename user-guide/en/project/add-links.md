@@ -1,10 +1,10 @@
 ---
-uid: help-en-project-add-links
+uid: help-en-project-link-add
 title: Add links from the Project screen
 description: Add links from the Project screen
 author: SuperOffice RnD
 so.date: 07.04.2022
-keywords: CRM
+keywords: project
 so.topic: help
 language: en
 ---

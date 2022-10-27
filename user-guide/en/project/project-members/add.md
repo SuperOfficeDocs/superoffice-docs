@@ -1,11 +1,11 @@
 ---
-uid: help-en-adding-project-members
-title: Adding project members
-description: Adding project members
+uid: help-en-project-member-add
+title: Add project member
+description: How to add a project member in SuperOffice
 author: SuperOffice RnD
 so.date: 07.04.2022
-keywords: CRM
-so.topic: help
+keywords: project, member
+so.topic: howto
 language: en
 ---
 
@@ -13,7 +13,7 @@ language: en
 
 To link the project to a company, you must specify at least one project member.
 
-## Project Members
+## Project members
 
 1. [!include[Go to project](../includes/goto-project.md)]
 

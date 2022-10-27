@@ -1,11 +1,11 @@
 ---
 uid: help-en-project-edit
-title: Editing projects
-description: Editing projects
+title: Edit a project
+description: How to edit a project in SuperOffice
 author: SuperOffice RnD
 so.date: 07.04.2022
-keywords: CRM
-so.topic: help
+keywords: project
+so.topic: howto
 language: en
 ---
 

@@ -1,29 +1,29 @@
 ---
 uid: help-en-project-screen-sale
-title: Sale
-description: Sale
+title: Sales tab
+description: Sales tab in the Project screen
 author: SuperOffice RnD
 so.date: 07.04.2022
-keywords: CRM
-so.topic: help
+keywords: project, sale
+so.topic: reference
 language: en
 ---
 
-# Sales
+# Sales tab
 
 **Sales** is one of the section tabs at the bottom of the **Project** screen. It contains information about any sales linked to the project.
 
 The columns of the **Sales** section tab contain the following information:
 
 * ![icon][img1] : The first column in the **Sales** section tab specifies the **Completed** status of a sale. A tick in the checkbox ![icon][img2] means that the sale is completed, while an empty box means that it is not completed.
-* a status icon for the sale, showing whether it is sold ![icon][img1], lost ![icon][img3] or stalled ![icon][img4] (if there is no icon, the sale is "open") (see [Stalled, sold and lost sales][1])
-* the date of the sale
-* the sale amount
-* the current stage of the sale
-* the date of the next activity recorded for the sale (the oldest follow-up that has not yet been completed)
-* the name of the sale
-* the name of the company the sale is linked to
-* any contact the sale is linked to
+* A status icon for the sale, showing whether it is sold ![icon][img1], lost ![icon][img3] or stalled ![icon][img4] (if there is no icon, the sale is "open") (see [Stalled, sold and lost sales][1])
+* The date of the sale
+* The sale amount
+* The current stage of the sale
+* The date of the next activity recorded for the sale (the oldest follow-up that has not yet been completed)
+* The name of the sale
+* The name of the company the sale is linked to
+* Any contact the sale is linked to
 
 Double-click a sale in the list to open the **Sale** screen in SuperOffice CRM which contains information about that sale. For more details on how to manage sales, see [Sale][2].
 

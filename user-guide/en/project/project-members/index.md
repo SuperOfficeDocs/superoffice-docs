@@ -4,8 +4,8 @@ title: Project members
 description: Project members
 author: SuperOffice RnD
 so.date: 07.04.2022
-keywords: CRM
-so.topic: help
+keywords: project, member
+so.topic: concept
 language: en
 ---
 
@@ -15,13 +15,13 @@ Project members are the participants in a project. For each member, you can acce
 
 ## What would you like to do now?
 
-* [Add project members][1]
-* [Edit or delete project members][3]
+* [Add a project member][1]
+* [Edit or delete a project member][3]
 * [Send email to project members][4]
 
 <!-- Referenced links -->
-[1]: adding-project-members.md
-[3]: editing-project-members.md
+[1]: add.md
+[3]: edit.md
 [4]: send-email-to.md
 
 <!-- Referenced images -->

@@ -19,7 +19,7 @@ To delete a company and associated data:
 
 1. The **Delete Company** dialog opens. Click **Yes** to confirm that you really want to delete the company.
 
-    For more details about this, see [Delete items in SuperOffice CRM][1].
+    [!include[Deleting items](../includes/tip-deletion.md)]
 
 [!include[Note about restore](../includes/note-restore.md)]
 
@@ -30,7 +30,6 @@ To delete a company and associated data:
 * [Delete records permanently][3]
 
 <!-- Referenced links -->
-[1]: ../getting-started/deleting-elements.md
 [2]: ../getting-started/restore-deleted-companies-and-contacts.md
 [3]: ../search-options/selections/howto/deleting-companies-permanently.md
 [4]: merge-companies.md

@@ -1,15 +1,16 @@
 ---
-uid: help-en-adding-items-to-project-type-list
-title: Adding items to the Project - Type list
-description: Adding items to the Project - Type list
+uid: help-en-project-type-add
+title:  Add a project type
+description: How to add a project type in SuperOffice Settings and maintenance
 author: SuperOffice RnD
 so.date: 06.29.2022
-keywords: Settings and maintenance
-so.topic: help
+keywords: project, type
+so.topic: howto
+so.audience: admin
 language: en
 ---
 
-# Add items to the Project - Type, status list
+# Add a project type
 
 When you add an item to the **Project - Type, status** list, the **Edit list item** dialog is not the same as described under [Add items][1].
 
@@ -34,7 +35,7 @@ When you add an item to the **Project - Type, status** list, the **Edit list ite
 
 <!-- Referenced links -->
 [1]: ../../settings/lists/adding-items.md
-[2]: project-status.md
-[3]: project-guide.md
+[2]: ../screen/project-status-admin.md
+[3]: ../project-guide/index.md
 
 <!-- Referenced images -->

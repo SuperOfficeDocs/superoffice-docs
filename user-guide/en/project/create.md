@@ -1,17 +1,15 @@
 ---
 uid: help-en-project-create
-title: Creating projects
-description: Creating projects
+title: Create a project
+description: How to create a project in SuperOffice
 author: SuperOffice RnD
 so.date: 07.04.2022
-keywords: CRM
-so.topic: help
+keywords: project
+so.topic: howto
 language: en
 ---
 
-# Create projects
-
-To create projects:
+# Create a project
 
 1. Click **New** on the top bar and select **Project**.
     An empty project card opens.
@@ -37,10 +35,10 @@ To create projects:
 
 <!-- Referenced links -->
 
-[5]: project-members/adding-project-members.md
+[5]: project-members/add.md
 [7]: edit.md
 [8]: merge-projects.md
 [9]: delete.md
-[1]: project-guide/work-with-projectguide.md
+[1]: project-guide/working-with.md
 
 <!-- Referenced images -->

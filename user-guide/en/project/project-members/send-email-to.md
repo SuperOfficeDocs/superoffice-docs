@@ -1,11 +1,11 @@
 ---
-uid: help-en-email-project-members
-title: Sending emails to project members
-description: Sending emails to project members
+uid: help-en-project-member-email
+title: Send email to project members
+description: How to email to stakeholders or project members in SuperOffice
 author: SuperOffice RnD
 so.date: 07.04.2022
-keywords: CRM
-so.topic: help
+keywords: project, member, stakeholder, email
+so.topic: howto
 language: en
 ---
 
@@ -28,7 +28,7 @@ language: en
     * Send: The email is sent and will be available in the **Activities** section tab.
     * Send and archive: The email is sent and saved as a document. See more information below.
 
-7. If you selected **Send and archive**, the **Document** dialog opens when you send the email. Add information in this dialog as necessary (see [The Document dialog][1]).
+7. If you selected **Send and archive**, the **Document** dialog opens when you send the email. [Add information in this dialog as necessary][1].
 
 8. Click **Create** in the **Document** dialog.
 

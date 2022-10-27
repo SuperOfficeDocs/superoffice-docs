@@ -1,11 +1,11 @@
 ---
-uid: help-en-project-add-image
+uid: help-en-project-image-add
 title: Add a project image
-description: Add a project image
+description: How to add a project image
 author: SuperOffice RnD
 so.date: 07.04.2022
-keywords: CRM
-so.topic: help
+keywords: project
+so.topic: howto
 language: en
 ---
 
@@ -17,9 +17,9 @@ To add a project image:
 
 1. Open the **Project** screen. There are several ways to open the **Project** screen:
 
-    * By clicking the **Project** button in the Navigator.
-    * By using the [history list][1] or [FastSearcher][2].
-    * By double-clicking a project in a search result or the **Projects** section tab in the **Company** screen.
+    * Click the **Project** button in the Navigator.
+    * Use the [history list][1] or [FastSearcher][2].
+    * Double-click a project in a search result or the **Projects** section tab in the **Company** screen.
 
 2. Select the **Image** tab.
 

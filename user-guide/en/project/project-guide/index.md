@@ -1,11 +1,11 @@
 ---
 uid: help-en-project-guide
 title: Project guide
-description: Project guide
+description: Introduction to project guides in SuperOffice
 author: SuperOffice RnD
 so.date: 07.04.2022
-keywords: CRM
-so.topic: help
+keywords: project, guide
+so.topic: concept
 language: en
 ---
 
@@ -20,12 +20,10 @@ You can preview documents and activities in the **Preview** view in the side pan
 ## Related topics
 
 * [Project guide section tab][1]
-* [Project guide example][2]
-* [Work with project guides][3]
+* [Working with project guides][3] (includes an example)
 
 <!-- Referenced links -->
-[1]: ../screen/projectguide-detail.md
-[2]: example-projectguide.md
-[3]: work-with-projectguide.md
+[1]: ../screen/project-guide-tab.md
+[3]: working-with.md
 
 <!-- Referenced images -->

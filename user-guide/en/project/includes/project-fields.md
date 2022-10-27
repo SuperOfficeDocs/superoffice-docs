@@ -27,7 +27,7 @@
 
 1. **Next milestone:** If the project is linked to a project guide, the **Next milestone** field shows the date of the next milestone follow-up linked to the project. If this date is prior to today, it is shown in red. If the project is not linked to a project guide, the project end date is shown here. The **Next milestone** date calculates automatically based on activities linked to the project or entered via the project guide. Usually this is the date of the next open activity in the project's **Activities** section tab.
 
-1. **User-defined fields:** Here, three of the fields from the **More** tab may be displayed (see [The More tab][3]), as defined in SuperOffice Settings and maintenance. The fields displayed can vary from user group to user group.
+1. **User-defined fields:** Here, three of the fields from the **More** tab may be displayed, as defined in SuperOffice Settings and maintenance. The fields displayed can vary from user group to user group.
 
 1. **Completed:** This box indicates whether the project is completed or not.
 
@@ -36,7 +36,6 @@
 <!-- Referenced links -->
 [5]: ../../getting-started/duplicates.md
 [2]: ../project-guide/index.md
-[3]: ../screen/more-tab-project.md
-[4]: ../screen/event-tab.md
+[4]: ../screen/index.md#event-tab
 
 <!-- Referenced images -->

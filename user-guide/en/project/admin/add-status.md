@@ -1,15 +1,16 @@
 ---
-uid: help-en-adding-items-to-project-status-list
-title: Adding items to the Project - Status list
-description: Adding items to the Project - Status list
+uid: help-en-project-status-add
+title: Add a project status
+description: How to add a project status in SuperOffice Settings and maintenance
 author: SuperOffice RnD
 so.date: 06.29.2022
-keywords: Settings and maintenance
-so.topic: help
+keywords: project
+so.topic: howto
+so.audience: admin
 language: en
 ---
 
-# Add items to the Project - Status list
+# Add a project status
 
 [!include[Edit list item](../../includes/edit-list-item.md)] when you are adding an item to the **Project - Status** list:
 

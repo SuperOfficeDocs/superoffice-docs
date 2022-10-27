@@ -1,25 +1,6 @@
 items:
 - name: Overview
   href: index.md
-- name: Project screen
-  items:
-  - name: More tab
-    href: screen/more-tab-project.md
-  - name: Event tab
-    href: screen/event-tab.md
-  - name: Note tab
-    href: screen/projectcard-tab-note.md
-  - name: Section tabs
-    href: screen/project-screen-section-tabs.md
-    items:
-    - name: Project guide section tab
-      href: screen/projectguide-detail.md
-    - name: Project members
-      href: screen/project-members.md
-    - name: Activities
-      href: screen/activities-project.md
-    - name: Sales
-      href: screen/sale.md
 - name: Create a project
   href: create.md
 - name: Add project image
@@ -32,29 +13,58 @@ items:
   href: merge-projects.md
 - name: Delete a project
   href: delete.md
-- name: Print projects
-  href: print.md
 - name: Project members
   href: project-members/index.md
   items:
-  - name: Add project members
-    href: project-members/adding-project-members.md
-  - name: Edit project members
-    href: project-members/editing-project-members.md
-  - name: Invite project members to a meeting
-    href: project-members/invite-project-members-to-meeting.md
-  - name: Sending emails to project members
+  - name: Add a project member
+    href: project-members/add.md
+  - name: Edit a project member
+    href: project-members/edit.md
+  - name: Invite to a meeting
+    href: project-members/invite-to-meeting.md
+  - name: Send emails to project members
     href: project-members/send-email-to.md
   - name: Create document mailing to project members
     href: project-members/create-mailing.md
 - name: Project guide
   href: project-guide/index.md
   items:
-  - name: Work with project guide
-    href: project-guide/work-with-projectguide.md
-  - name: Example project guide
-    href: project-guide/example-projectguide.md
-  - name: View followups and documents
+  - name: Working with a project guide
+    href: project-guide/working-with.md
+  - name: View follow-ups and documents
     href: project-guide/view-followups-and-documents.md
+  - name: For administrators
+    items:
+    - name: Create new project guide
+      href: project-guide/create.md
+    - name: Edit project-guide
+      href: project-guide/edit.md
+    - name: Deactivate project guide
+      href: project-guide/deactivate.md
+- name: Project screen
+  href: screen/index.md
+  items:
+  - name: Section tabs
+    items:
+    - name: Project guide
+      href: screen/project-guide-tab.md
+    - name: Project members
+      href: screen/project-members-tab.md
+    - name: Activities
+      href: screen/activities-project.md
+    - name: Sales
+      href: screen/sale.md
 - name: For administrators
-  href: admin/toc.yml
+  items:
+  - name: Relevant pages
+    items:
+    - name: Project Status
+      href: screen/project-status-admin.md
+    - name: Project Type
+      href: screen/project-type-admin.md
+    - name: Project guide
+      href: screen/project-guide-admin.md
+  - name: Add a project status
+    href: admin/add-status.md
+  - name: Add a project type
+    href: admin/add-project-type.md

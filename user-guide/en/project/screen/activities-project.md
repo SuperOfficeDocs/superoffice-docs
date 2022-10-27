@@ -1,11 +1,11 @@
 ---
-uid: help-en-activities-project
-title: Activities Project
-description: Activities Project
+uid: help-en-project-screen-activities
+title: Activities tab
+description: The Activities tab in the Project screen
 author: SuperOffice RnD
 so.date: 07.04.2022
-keywords: CRM
-so.topic: help
+keywords: project
+so.topic: reference
 language: en
 ---
 

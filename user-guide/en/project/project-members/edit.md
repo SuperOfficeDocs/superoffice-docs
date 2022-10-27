@@ -1,11 +1,11 @@
 ---
-uid: help-en-editing-project-members
+uid: help-en-project-member-edit
 title: Editing project members
-description: Editing project members
+description: How to edit or delete a project member in SuperOffice.
 author: SuperOffice RnD
 so.date: 07.04.2022
-keywords: CRM
-so.topic: help
+keywords: project, member
+so.topic: howto
 language: en
 ---
 
@@ -31,6 +31,6 @@ You can edit the details in the **Function** and **Comments** field for project 
 3. In the dialog that appears, click **Yes**.
 
 <!-- Referenced links -->
-[1]: adding-project-members.md
+[1]: add.md
 
 <!-- Referenced images -->

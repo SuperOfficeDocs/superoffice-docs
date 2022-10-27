@@ -4,8 +4,8 @@ title: Project members
 description: Project members
 author: SuperOffice RnD
 so.date: 07.04.2022
-keywords: CRM
-so.topic: help
+keywords: project, member
+so.topic: reference
 language: en
 ---
 
@@ -15,13 +15,11 @@ language: en
 
 ## What would you like to do now?
 
-* [Add project members][1]
+* [Add a project member][1]
 * [Edit or delete project members][3]
-* [Send email to project members][4]
 
 <!-- Referenced links -->
-[1]: ../project-members/adding-project-members.md
-[3]: ../project-members/editing-project-members.md
-[4]: ../project-members/send-email-to.md
+[1]: ../project-members/add.md
+[3]: ../project-members/edit.md
 
 <!-- Referenced images -->

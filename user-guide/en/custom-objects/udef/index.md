@@ -88,7 +88,7 @@ You can then add these fields to the **Project** screen:
 <!-- Referenced links -->
 [1]: page-1-fields.md
 [2]: ../../settings/lists/adding-user-defined-lists.md
-[3]: ../../project/screen/more-tab-project.md
+[3]: ../../project/screen/index.md#more
 [4]: ../../diary/screen/dialog-for-followups.md
 [5]: ../../document/screen/index.md
 [6]: ../../company/create.md#more-tab

@@ -1,15 +1,18 @@
 ---
-uid: help-en-create-new-project-guide
+uid: help-en-project-guide-create
 title: Create new project guide
-description: Create new project guide
+description: How to create a new project guide in SuperOffice
 author: SuperOffice RnD
 so.date: 06.29.2022
-keywords: Settings and maintenance
-so.topic: help
+keywords: projet, guide
+so.topic: howto
+so.audience: admin
 language: en
 ---
 
 # Create a new project guide
+
+[!include[Must be admin](../../includes/req-admin.md)]
 
 In Settings and maintenance, you define which project types are to be assigned a project guide and which statuses and activities the project guides are to contain. What a project guide looks like can therefore vary, but below is an example of how a project using a project guide may appear.
 
@@ -23,24 +26,21 @@ For example, you might have a project type named **Conference**. This project ty
 
 This procedure shows you how to create a project guide from scratch.
 
-Before you can create the project guide itself, you need to define
+1. Define [statuses](#create-stage) to include in the project guide
+2. Define the [project type](#create-type) (with associated statuses) that the project guide will be linked to
+3. Design the [project guide](#create-guide)
 
-* statuses to include in the project guide
-* the project type (with associated statuses) that the project guide will be linked to
+## <a id="create-stage" /> Create statuses for the project guide
 
-Once you have done that, you can start designing the [project guide](#create-guide) itself.
-
-## <a id="create-stage" /> A. Create statuses for the project guide
-
-A project guide must be linked to a project type, which in turn consists of several statuses. You can create statuses by following the procedure under [Add items to the Project - Status list][2].
+A project guide must be linked to a project type, which in turn consists of several statuses. [How to create a status][2].
 
 A project guide for a project of the Conference type might, for example, comprise the "Planned", "In progress" and "Closing" statuses.
 
 Go to the next procedure to link the statuses to a project type.
 
-## <a id="create-type" /> B. Create a project type for the project guide
+## <a id="create-type" /> Create a project type for the project guide
 
-A project guide must be linked to a project type. You can create a project type by following the procedure under [Add items to the Project - Type, status list][3].
+A project guide must be linked to a project type. [How to create a project type][3].
 
 Examples of project types: "Conference", "Campaign", "Internal".
 
@@ -49,7 +49,7 @@ Examples of project types: "Conference", "Campaign", "Internal".
 
 Go to the next procedure to create the project guide.
 
-## <a id="create-guide" />C. Create a project guide
+## <a id="create-guide" />Create a project guide
 
 Once you have created statuses and specified a project type for the project guide, you can design the project guide itself. You do this by adding follow-ups and/or documents for each status in the project guide.
 
@@ -157,8 +157,8 @@ Planning meeting:
 
 <!-- Referenced links -->
 [1]: ../../../../docs/document/templates/variables/from-project-card.md
-[2]: adding-items-to-project-status-list.md
-[3]: adding-items-to-project-type-list.md
+[2]: ../admin/add-status.md
+[3]: ../admin/add-project-type.md
 [4]: ../../settings/lists/document-template.md
 
 <!-- Referenced images -->

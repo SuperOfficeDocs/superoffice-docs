@@ -1,11 +1,11 @@
 ---
-uid: help-en-merge-projects
+uid: help-en-project-merge
 title: Merge projects
-description: Merge projects
+description: How to merge project in SuperOffice
 author: SuperOffice RnD
 so.date: 07.04.2022
-keywords: CRM
-so.topic: help
+keywords: project
+so.topic: howto
 language: en
 ---
 
