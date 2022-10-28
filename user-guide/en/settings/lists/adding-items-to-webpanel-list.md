@@ -79,7 +79,7 @@ This is how to fill out the fields in the **Edit list items** dialog when the it
 1. [!include[Save or cancel](../../includes/save-or-cancel.md)]
 
 > [!TIP]
-> If you add a URL address, it may be useful to use template variables for the active company, for example, to retrieve information from other applications via a URL. To do this, the URL address must specify parameters, as in this fictitious example: `http://www.comlist.com/data/indiv/detail.jsp?orgno=<orgn>`. orgn here is the template variable for the organisation number, but other variables like company name &lt;name&gt;, company phone number &lt;cpho&gt;, contact name &lt;attn&gt;, can also be used.
+> If you add a URL address, it may be useful to use template variables for the active company, for example, to retrieve information from other applications via a URL. The URL address must specify parameters, as in this fictitious example: `http://www.comlist.com/data/indiv/detail.jsp?orgno=<orgn>`. orgn here is the template variable for the organisation number, but other variables like company name &lt;name&gt;, company phone number &lt;cpho&gt;, contact name &lt;attn&gt;, can also be used.
 
 <!-- Referenced links -->
 [1]: adding-items.md

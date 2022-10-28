@@ -33,7 +33,7 @@ To use the search function in SuperOffice CRM:
 9. When you have specified and activated the search criteria you want, click the **Find** button. The **Results** tab opens with the search results which match the search criteria you have specified.
 
 > [!TIP]
-> If, for example, you want to search for all companies, you can use the percent sign (%) when entering search criteria for **Company**. For more information about how to use search criteria, see [Use search criteria][3].
+> If, for example, you want to search for all companies, you can use the percent sign (%) when [entering search criteria][3] for **Company**.
 
 ## Work with search results
 
@@ -103,7 +103,7 @@ Imagine that you are a sales department manager and you want to make a presentat
 
 14. Click **Add**.
 
-15. In the list that appears, enter "Status" in order to FastSearch in the field.
+15. In the list that appears, enter "Status" to FastSearch in the field.
 
 16. From the list that is displayed, select **Sale** - **Status** (with the sale icon ![icon][img5] in front of it).
 

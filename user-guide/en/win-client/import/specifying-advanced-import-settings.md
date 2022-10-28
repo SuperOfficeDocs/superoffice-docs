@@ -63,7 +63,7 @@ To specify advanced import settings:
 1. Check **Update freetext index** if you want to update the freetext index continuously during the import, so that it is completely updated when the import is finished.
 
     > [!NOTE]
-    > The import speed decreases if you check **Update freetext index**. If you want to import large quantities of data, an alternative is to run the import without checking this option and generate a new freetext index later from the **Options** screen. For more details, see [Regenerate a freetext index][2].
+    > The import speed decreases if you check **Update freetext index**. If you want to import large quantities of data, an alternative is to run the import without checking this option and [generate a new freetext index][2] later from the **Options** screen.
 
 1. When you have specified the required settings, click **OK**.
 

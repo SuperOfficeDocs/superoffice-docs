@@ -15,7 +15,7 @@ The **View** tab in the **Diary** screen shows your own diary with your user ID 
 
 ![Diary screen, the View tab -screenshot][img1]
 
-The **View** tab is used mainly to open and look at overviews of other users or resources, in order to find out when they will be available, before inviting them to a meeting by [linking them to follow-ups][5], or creating follow-ups for them.
+The **View** tab is used mainly to open and look at overviews of other users or resources, to find out when they will be available, before inviting them to a meeting by [linking them to follow-ups][5], or creating follow-ups for them.
 
 ## Task button
 

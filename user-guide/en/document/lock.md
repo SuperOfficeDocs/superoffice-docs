@@ -48,7 +48,7 @@ By default, a document is opened in edit mode. Below we have described the diffe
 > [!NOTE]
 > If you do not want a document to be automatically checked in when you save and close it, you can activate the **Suggest check-in when editing is complete** option in **Preferences** in SuperOffice WebTools.
 
-* Read mode: The document is opened for reading. If you make changes to the document, they will not be saved. To save the document with your changes, you must create a new document in SuperOffice CRM and upload the file with your changes. See [Edit documents][1].
+* Read mode: The document is opened for reading. If you make changes to the document, they will not be saved. To [save the document with your changes][1], you must create a new document in SuperOffice CRM and upload the file with your changes.
 
 ## Cancel a check-out (revert to saved version)
 

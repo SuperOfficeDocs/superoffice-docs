@@ -21,9 +21,7 @@ To edit information recorded for a contact, do as follows:
 
 1. Click **Edit**.
 
-1. Make the required changes.
-
-    See [Create new contacts][1] for an explanation of the information you can specify here.
+1. [Make the required changes][1].
 
 1. Finally, click the **Save** button to close the dialog and save your changes.
 

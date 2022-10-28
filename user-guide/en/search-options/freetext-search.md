@@ -37,7 +37,7 @@ You can preview records in the [side panel][1]. Click the list at the top of the
 
 ## Why am I getting no hits for a search word that I know is in the database?
 
-If you get no hits for a search word that is in the SuperOffice database, this may be because you need to build the freetext search index in SuperOffice Settings and maintenance. For more information about this, see the SuperOffice Settings and maintenance help.
+If you get no hits for a search word that is in the SuperOffice database, this may be because you need to build the freetext search index in SuperOffice Settings and maintenance.
 
 ## Related topics
 

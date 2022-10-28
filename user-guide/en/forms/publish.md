@@ -13,8 +13,6 @@ language: en
 
 When you have created the form and (if relevant) the form response, you can publish the form.
 
-To do so:
-
 1. Go to the **Forms** tab.
 
 2. Click the form to open it in view mode.
@@ -23,7 +21,7 @@ To do so:
 
 4. Go to the **Publish** tab.
 
-5. (optional) Select **Show with pre-filled fields** to add field identifiers to the link/JavaScript. If no field identifiers are added, you have probably not added these IDs to the fields in the form. This option is relevant if you want to pre-fill fields in the forms with existing customer data from SuperOffice. See [Using pre-filled fields in form][1].
+5. (optional) Select **Show with pre-filled fields** to add field identifiers to the link/JavaScript. If no field identifiers are added, you have probably not added these IDs to the fields in the form. This option is relevant if you want to [pre-fill fields in the forms][1] with existing customer data from SuperOffice.
 
 6. On the left side of the screen, select a publishing option for the form:
     * **Direct link**: A direct link to the form.

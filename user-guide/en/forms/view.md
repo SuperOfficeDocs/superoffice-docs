@@ -28,7 +28,7 @@ In the top part of the screen, you have the following options:
 * **Inactive**/**Active**: Click this slider button to activate or deactivate the form.
 * **Refresh**: Click this button to update the screen.
 * **Edit**: Click this button to edit the form.
-* ![icon][img1]: Click this button to set the form as a favourite. See [Add favourites][1].
+* ![icon][img1]: Click this button to set the form as a [favourite][1].
 
 ## Tabs
 
@@ -47,11 +47,11 @@ Next to **Mailing** is a link to the form response mailing used in association w
 
 ### Publish
 
-Here you can find the link and script for publishing the form on a web page or in a mailing. See [Publish forms][3].
+Here you can find the link and script for [publishing the form][3] on a web page or in a mailing.
 
 Click the **Open in new window** button to preview the form.
 
-**Show with pre-filled fields**: Select this option to add field names to the link and JavaScript. By adding template variables to the form link in mailings, the form fields can be pre-filled with existing data (name, e-mail etc.) for registered contacts. See [Using pre-filled fields in form][4].
+**Show with pre-filled fields**: Select this option to add field names to the link and JavaScript. By adding template variables to the form link in mailings, the form fields can be [pre-filled with existing data][4] (name, email etc.) for registered contacts.
 
 On the left side of the screen you can select various types of publishing options for the form.
 

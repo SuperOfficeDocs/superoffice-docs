@@ -8,7 +8,7 @@ In the final step, **Confirm**, you can view a summary of the mailing and verify
 
 Click **Send now** ![icon][img1] to send the mailing immediately. The workflow closes and you are returned to the **Mailings** tab.
 
-Click the mailing in the list to view sending status and statistics. See [Track the mailing and view statistics][1].
+Click the mailing in the list to view sending status and statistics. [How to track the mailing and view statistics][1].
 
 ## Schedule to send
 

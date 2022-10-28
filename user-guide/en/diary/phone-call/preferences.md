@@ -13,11 +13,10 @@ language: en
 
 You can dial out from SuperOffice CRM in one of the following ways:
 
-* Clicking a telephone number in the **Company** screen
-* Clicking ![icon][img1] in a dialog.
-* Right-clicking a person in a section tab and selecting **Call *name***.
-
-See also [Dial contacts][1].
+* Click a telephone number in the **Company** screen
+* Click ![icon][img1] in a dialog.
+* Right-click a person in a section tab and selecting **Call *name***.
+* [Dial contacts][1].
 
 Phone preferences are handled differently in the Windows and Web clients. Learn about phone preferences for Windows and Web below.
 

@@ -13,7 +13,7 @@ language: en
 
 [!include[Requirement](../includes/note-saint-req.md)]
 
-You can specify the period (duration in days) for the following counters:
+You can specify the period (duration in days) for the following [counters][1]:
 
 * Number of completed/non-completed activities in period
 * Number of completed/non-completed sales in period
@@ -22,8 +22,6 @@ You can specify the period (duration in days) for the following counters:
 [!include[Define counter](../../includes/def-counter.md)]
 
 You can specify up to three different periods, so that you can choose between shorter or longer periods for the various SAINT criteria. For example: If you set **Period 1** to 30 days and **Period 2** to 90 days, you will for example be able to choose between the SAINT criteria "Number of sales last 30 days" AND "Number of sales last 90 days".
-
-For more about counters, see **Counter fields** under [Use search criteria][1].
 
 1. Open the **SAINT** screen.
 

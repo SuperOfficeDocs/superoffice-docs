@@ -14,11 +14,11 @@ language: en
 Cross tables can be displayed and printed in various ways. You can select which parts of the cross table to print, preview the cross table, or print it as an ordinary table or as a chart.
 
 > [!TIP]
-> If you are not sure if your report is a cross table, you can check the image between the report list and the report description. For more information about this, see **Report types** under [Show report properties][1].
+> If you are not sure if your report is a cross table, you can check the image between the report list and the report description. [How][1].
 
 ## <a id="install" />Install the CrossTable viewer
 
-To view a cross table report (.Dcube file), you need to install the **CrossTable viewer**. You only need to do this once per computer.
+To view a cross table report (.Dcube file), you need to install the **CrossTable viewer** (once per computer).
 
 1. Click ![icon][img1] (main menu) and select **Download > Download CrossTable viewer**.
 2. Click the downloaded file (**SoCrossTableInstaller.exe**) to run it.

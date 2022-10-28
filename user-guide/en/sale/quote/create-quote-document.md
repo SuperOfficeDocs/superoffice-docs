@@ -17,16 +17,14 @@ Once you have created the quote and added the products you want, you can create 
 
 2. Click **Click to create quote document** at the top of the quote or on the **Quote** section tab. The **Document** dialog opens.
 
-3. Complete the fields with the required information.
-
-    See [The Document dialog][2] for an explanation of what to enter here.
+3. [Complete the fields with the required information][2].
 
 4. Click the **Create** button to create a new document based on the selected document template.
 
 5. Type in the document content, and save and close it in the usual way in the program. The document is then displayed on the **Activities** section tab in the **Sale** screen (and in the **Company** and **Diary** screens).
 
 > [!TIP]
-> There is a list of the variables you can insert into documents you create. You can find the variables in [Template variables][3].
+> There is a [list of the variables][3] you can insert into documents you create.
 
 ## How can I change the quote document?
 
@@ -41,7 +39,7 @@ If have created a quote document for a quote, but want to use another document, 
     > [!NOTE]
     > The list displays all quote documents registered for the active sale.
 
-## See also
+## Related content
 
 * [Send a quote][4]
 * [Place an order][5]

@@ -26,10 +26,7 @@ To edit the name and/or description of an item:
 
 3. Double-click the required item in the **Items** list. The **Edit list item** dialog opens.
 
-    <details><summary>Do you want to edit an item in a specialised list?</summary>
-
-    Some list types are more specialised than those referred to in this procedure. For more information, see [Specialised lists][2].
-    </details>
+    [How to update a specialised list][2].
 
 4. Type a new name for the item in the **Name** field.
 

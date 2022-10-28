@@ -95,7 +95,7 @@ If the document has been checked out for editing, one of the following icons are
 By default, the document is marked as completed (![icon][img4]), but you can remove this check mark if you wish (![icon][img5]). The document will then be displayed on the **Activities** section tab in the **Diary** screen until it is marked as completed.
 
 > [!NOTE]
-> You cannot edit a completed document until you have undone its **Completed** status. See [Change Completed status of an activity][7].
+> You cannot edit a completed document until you have undone its **Completed** status. [How to change Completed status of an activity][7].
 
 ### User-defined fields
 
@@ -113,7 +113,7 @@ When you click this button, the following options are displayed:
 * **Copy shortcut**: Copies a [shortcut to the active entry][9].
 * **Revert to saved version**: Select this option to [cancel a check-out][8]. This may be relevant if you have checked out the document by mistake and are unable to check it in again.
 
-Below these options are shortcuts to other relevant tasks that can be performed on the active entry. In SuperOffice Settings and maintenance, you can also define your own tasks and add them under the **Task** button. For more information about this, see the Help for SuperOffice Settings and maintenance.
+Below these options are shortcuts to other relevant tasks that can be performed on the active entry. In SuperOffice Settings and maintenance, you can also define your own tasks and add them under the **Task** button.
 
 ## Details tab
 
@@ -123,7 +123,7 @@ The **Details** tab contains detailed information about the document.
 
 * **Document:** Click the link to upload the document or drag and drop the document from Windows Explorer to the **Document** dialog.
 
-    For more details, see [Create new documents][5] and [Edit documents][1].
+    For details, see [Create new documents][5] and [Edit documents][1].
 
 **Publish:** Check here if you want the document to be visible to external users in Audience (requires a separate license).
 

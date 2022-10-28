@@ -17,7 +17,7 @@ The knowledge base gives request handlers access to saved data in a single locat
 
 * **Documents**: Here you can [add documents][2] to make them available to yourself and/or other users. Such documents might include price lists, installation routines and brochures.
 
-* **External documents**: Here you can add documents to make them available to anyone using SuperOffice Service, including unregistered customers. See [Work with external documents][3].
+* **External documents**: Here you can [add documents][3] to make them available to anyone using SuperOffice Service, including unregistered customers.
 
 * **E-mail addresses**: Here you can [create a list of email addresses][4] that you use frequently, for example, people who are neither users nor registered as contacts in SuperOffice Service. These addresses will then be accessible in most places where you may want to send an e-mail.
 

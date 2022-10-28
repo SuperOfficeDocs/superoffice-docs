@@ -17,7 +17,7 @@ To edit existing label formats:
 2. [Select the required report][1].
 3. Click the **Preview** button under the criteria list. The label dialog opens.
 4. Select the label format you want to edit and click **Edit**.
-5. Make the required changes in the next dialog and click **Save**. For more information about the different fields, see [Add label formats][2].
+5. [Make the required changes][2] in the next dialog and click **Save**.
 
 <!-- Referenced links -->
 [1]: ../properties.md

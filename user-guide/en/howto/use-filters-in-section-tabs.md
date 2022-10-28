@@ -22,7 +22,7 @@ The following filtering options are available in the section tabs:
 
 * The **Filter** button ![icon][img2] : You can filter the **Activities** and **Sales** section tabs by date, users and groups. See [Filter activities and sales][2].
 * Activities filters (check-boxes): You can filter the **Activities** section tabs by activity type. Click the arrow and select check-boxes to show/hide mailings, documents, follow-ups and forms/chats (**Other**) in the list.
-* The column filter ![icon][img3] : Click the column filter button ![icon][img3] on a column header to filter on that column. See [Use column filters in the section tabs][1].
+* The column filter ![icon][img3] : Click the column filter button ![icon][img3] on a column header to [filter on that column][1].
 * To filter the list of members in the **Selection** screen, see [Filtering the List of Members][3].
 * To filter the **Documents** section tab in the **Reports** screen, see [Use the Filter function in the Reports screen][4].
 

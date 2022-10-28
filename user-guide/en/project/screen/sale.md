@@ -16,7 +16,7 @@ language: en
 The columns of the **Sales** section tab contain the following information:
 
 * ![icon][img1] : The first column in the **Sales** section tab specifies the **Completed** status of a sale. A tick in the checkbox ![icon][img2] means that the sale is completed, while an empty box means that it is not completed.
-* A status icon for the sale, showing whether it is sold ![icon][img1], lost ![icon][img3] or stalled ![icon][img4] (if there is no icon, the sale is "open") (see [Stalled, sold and lost sales][1])
+* A [status icon for the sale][1], showing whether it is sold ![icon][img1], lost ![icon][img3] or stalled ![icon][img4] (if there is no icon, the sale is "open")
 * The date of the sale
 * The sale amount
 * The current stage of the sale
@@ -25,7 +25,7 @@ The columns of the **Sales** section tab contain the following information:
 * The name of the company the sale is linked to
 * Any contact the sale is linked to
 
-Double-click a sale in the list to open the **Sale** screen in SuperOffice CRM which contains information about that sale. For more details on how to manage sales, see [Sale][2].
+Double-click a sale in the list to open the **Sale** screen in SuperOffice CRM which contains information about that [sale][2].
 
 ## Related topics
 

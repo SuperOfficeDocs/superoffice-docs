@@ -49,9 +49,9 @@ The **Sales** section tab in the diary functions as a kind of "sales secretary" 
     > [!NOTE]
     > The number of days ahead, based on the next activity date, is defined in the **Preferences** dialog. Go to ![icon][img5] **Personal settings > Preferences**. Select **Functions** > **Show days ahead**.
 
-* All sales with overdue activities, i.e. which have an end date earlier than today. These sales are shown in red.
+* All sales with overdue activities (end date is earlier than today). These sales are shown in red.
 
-* Stalled sales where you have set a reopen date. The reopen date overwrites the date in the **Next activity** field and is displayed in the **Next activity** column on the **Sales** section tab. (For more information on stalled sales, the reopen date and next activity, see [Stalled, sold and lost sales][4].)
+* [Stalled sales][4] where you have set a reopen date. The reopen date overwrites the date in the **Next activity** field and is displayed in the **Next activity** column on the **Sales** section tab.
 
 <!-- Referenced links -->
 [1]: activities-tab.md

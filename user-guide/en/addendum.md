@@ -14,11 +14,11 @@ so.lang: en
 
 This addendum is related to new features in SuperOffice 8. To activate these new features, SuperOffice needs a consent, as detailed below, from a Customer Representative authorized to grant such consent.
 
-In order to access certain services offered by SuperOffice, like technical support and SuperOffice Community, SuperOffice needs access to some information about the users.
+To access certain services offered by SuperOffice, like technical support and SuperOffice Community, SuperOffice needs access to some information about the users.
 
 The Customer hereby grants SuperOffice access to collect usernames and data (username, name and email address) of users of SuperOffice CRM. The Customer is responsible for informing the users and securing their acceptance of this collection.
 
-The Customer also accepts that statistical data about the use of SuperOffice CRM (NOT including any customer data or personal data) can be uploaded to SuperOffice servers. The purpose of this is to enable insights to user patterns that may be used by SuperOffice in order to improve our products and services.
+The Customer also accepts that statistical data about the use of SuperOffice CRM (NOT including any customer data or personal data) can be uploaded to SuperOffice servers. The purpose of this is to enable insights to user patterns that may be used by SuperOffice to improve our products and services.
 
 Transformation and storage of all collected data is done in accordance with SuperOffice Security and Privacy Statement.
 

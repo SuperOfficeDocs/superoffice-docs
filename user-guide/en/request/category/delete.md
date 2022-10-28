@@ -22,7 +22,7 @@ To delete a category:
 1. Click the category name.
 
     > [!TIP]
-    > If the category is a subcategory, you first need to click the arrow to the left of the parent category in order to display the associated subcategories.
+    > If the category is a subcategory, you first need to click the arrow to the left of the parent category to display the associated subcategories.
 
 1. Click the **Delete** button at the bottom of the screen.
 

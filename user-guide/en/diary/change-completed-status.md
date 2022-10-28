@@ -21,8 +21,8 @@ To change the status:
 
     ![Change Completed status of an activity -screenshot][img3]
 
-> [!TIP]
-> For more information about how to open activities, see the [Open follow-ups][1] and [Open documents][2] topics.
+    > [!TIP]
+    > For details, see [Open follow-ups][1] and [Open documents][2].
 
 * Hold the mouse pointer over the box in the **Completed** column (![icon][img2]) in the **Activities** section tab. Then click the checkbox ( ![icon][img1] ).
 

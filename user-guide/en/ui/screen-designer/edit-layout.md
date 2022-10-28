@@ -21,7 +21,7 @@ When you have [created a new layout][4], it is time to customize it according to
 
 1. Click **Edit layout** below the preview. The **Edit card layout** window opens.
 
-1. See the sections below for more information on how to edit the layout.
+1. See the sections below for how to edit the layout.
 
 1. When you have finished the screen layout, click one of the following buttons:
 

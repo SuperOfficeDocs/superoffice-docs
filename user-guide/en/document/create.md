@@ -26,7 +26,7 @@ Follow the instructions below, depending on how documents are managed in your Su
 
 1. Click **New** > **Document** on the top bar.
 
-2. The **Document** dialog opens. Complete the fields with the required information. See [The Document dialog][2] for an explanation of what to enter here.
+2. The **Document** dialog opens. [Complete the fields with the required information][2].
 
 3. Click the **Create** button to create a new document based on the selected document template. The document is created in SharePoint and opened in a new tab with the online text-editing application (Office Online).
 
@@ -46,7 +46,7 @@ If you have not installed SuperOffice WebTools, you need to manually download do
 
 1. Click **New** > **Document** on the top bar.
 
-2. The **Document** dialog opens. Complete the fields with the required information. See [The Document dialog][2] for an explanation of what to enter here.
+2. The **Document** dialog opens. [Complete the fields with the required information][2]e.
 
 3. Click the **Create** button to create a new document based on the selected document template. The document is created on the server.
 
@@ -76,7 +76,7 @@ With SuperOffice CRM, you can log in from any PC using a browser, but your docum
 
 1. Click **New** > **Document** on the top bar.
 
-2. The **Document** dialog opens. Complete the fields with the required information. See [The Document dialog][2] for an explanation of what to enter here.
+2. The **Document** dialog opens. [Complete the fields with the required information][2].
 
 3. Click the **Create** button to create a new document based on the selected document template. The **Document** dialog is closed automatically, and the document opens in your default text-editing application.
 

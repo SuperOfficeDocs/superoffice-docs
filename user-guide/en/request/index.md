@@ -35,7 +35,7 @@ The header of the request contains the properties defined when the [request was 
 There are three types of messages:
 
 * **Enquiries** from customers or other external parties
-* **Replies** to these enquiries, possibly with a request for more details
+* **Replies** to these enquiries, possibly asking for more details
 * Internal comments about the request, such as questions to a colleague
 
 > [!TIP]

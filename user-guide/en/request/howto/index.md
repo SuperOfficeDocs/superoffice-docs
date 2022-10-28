@@ -32,7 +32,7 @@ Different companies have different routines for request handling and can use Sup
 1. The customer writes an email to support@company.com or fills out a form in a user-support portal.
 2. The customer receives [automatic acknowledgement][11] of receipt of the enquiry.
 3. The enquiry from the customer is automatically registered as a request in SuperOffice Service.
-4. The request ends up with a request handler in SuperOffice Service. See [Receive requests][12] and [Find requests][13].
+4. The request ends up with a request handler in SuperOffice Service. See [Assign requests][12] and [Find requests][13].
 5. The request handler reads through the request.
 6. The request handler is unable to fulfil the request on his own and does one of the following:
     * [Asks a colleague][2].

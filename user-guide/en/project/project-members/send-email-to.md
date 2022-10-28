@@ -26,7 +26,7 @@ language: en
 
 6. Send the email by clicking one of the following buttons:
     * Send: The email is sent and will be available in the **Activities** section tab.
-    * Send and archive: The email is sent and saved as a document. See more information below.
+    * Send and archive: The email is sent and saved as a document.
 
 7. If you selected **Send and archive**, the **Document** dialog opens when you send the email. [Add information in this dialog as necessary][1].
 

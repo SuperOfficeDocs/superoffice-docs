@@ -13,7 +13,7 @@ language: en
 
 SuperOffice CRM is supplied with a set of standard templates for both national and international use.
 
-These templates are used when you create documents from SuperOffice CRM. For more information about creating documents, see "Creating new documents" in the help for Standard CRM.
+These templates are used when you create documents from SuperOffice CRM.
 
 The templates contain variables which extract information from the SuperOffice database and enter it into the document automatically.
 
@@ -26,8 +26,6 @@ You can edit the standard templates supplied with SuperOffice CRM and save them 
 > [!NOTE]
 > You must not change the file names of the system templates as this will prevent the functions included in them from working.
 
-To change a standard template:
-
 1. [!include[Go to Lists](includes/goto-lists.md)]
 2. [!include[Click arrow and select](../../includes/expand-list.md)] **Document - Template**.
     All previously defined items for the selected list are displayed in the **Items** list.
@@ -36,7 +34,7 @@ To change a standard template:
 5. Save the document with a new name to keep the original template intact, or with the same name to overwrite it.
 
 > [!NOTE]
-> If you save a standard template with a new name, you have created a new template. You must link this template to SuperOffice CRM. For more details, see [Add a document template][1].
+> If you save a standard template with a new name, you have created a new template. You must [link this template to SuperOffice CRM][1].
 
 ## What would you like to do now?
 

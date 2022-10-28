@@ -30,7 +30,7 @@ We explain how to create a common profile by using a specific example. In the ex
     * **Enter the label for the field here**: Enter the field name.
     * **Choose field**: Select which field in the database you want to get data from.
 8. Click the **OK**. The new criterion is added below the others.
-9. Click **OK**. The new profile is created. You can now, for example, link it to a specific role (see [Create roles][3]).
+9. Click **OK**. The new profile is created. You can now, for example, [link it to a specific role][3].
 
 ## Edit common profiles
 
@@ -40,7 +40,7 @@ To edit the information already recorded for a profile:
 2. Choose **System**. This displays a hierarchical list of all the profiles in the system.
 3. Drill down into the hierarchy until you find the profile you want.
 4. Click the profile name. The **Edit element profile** screen appears.
-5. Make the required changes. For more information about this screen, see the procedure above.
+5. Make the required changes.
 6. Click **OK**. The changes are saved.
 
 ## Delete common profiles

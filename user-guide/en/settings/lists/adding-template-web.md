@@ -17,7 +17,7 @@ Before you can use templates you have created, you need to link them to SuperOff
 
 If you have created new templates or have changed a standard template and saved it with a different file name, you must link the templates to SuperOffice CRM, so that the program can find them when you write documents using SuperOffice CRM.
 
-Templates are displayed as items in the **Document - Template** list and you link a template to SuperOffice CRM by entering it as an item in the list. For more details, see below.
+Templates are displayed as items in the **Document - Template** list and you link a template to SuperOffice CRM by entering it as an item in the list.
 
 [!include[Edit list item](../../includes/edit-list-item.md)] when the items are document templates:
 
@@ -44,7 +44,7 @@ Templates are displayed as items in the **Document - Template** list and you lin
 
 4. Click **Save** in the **Edit list item** dialog. The dialog is updated.
 5. Optional: Edit the template name, if required, and click **Edit** to edit the template file itself.
-6. Enter the required information in the **Details** and **Languages** tabs. For more information, see below.
+6. Enter the required information in the **Details** and **Languages** tabs.
 7. Click **Save**. The template is added as a separate item in the **Items** list. Repeat this procedure to add more templates.
 
 ## Details tab

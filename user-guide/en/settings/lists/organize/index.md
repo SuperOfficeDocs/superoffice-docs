@@ -28,9 +28,7 @@ To specify that a list should be grouped:
 3. Check **Use grouping and user group filtering for this list** at the top right.
 
 > [!NOTE]
-> The grouping function is not available for some of the predefined lists (for example, the **General - User group** list). If a list cannot be grouped, this checkbox is disabled.
-
-For more details on defining headings for grouped lists, see [Group items under headings][1].
+> The grouping function is not available for some of the predefined lists (for example, the **General - User group** list). If a list cannot be grouped, this checkbox is disabled. [How to group items under headings][1].
 
 <!-- Referenced links -->
 [1]: grouping-items-under-headings.md

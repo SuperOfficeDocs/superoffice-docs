@@ -15,10 +15,7 @@ To edit the information already recorded for a contact:
 
 1. Open the **Contact** screen.
 2. Click the ![icon][img1] **Actions** button and select **Edit contact**. The **Contact properties** screen appears.
-3. Make the required changes.
-
-    For more information about the fields in this screen, see [Create contacts][2].
-
+3. [Make the required changes][2].
 4. Click **OK**. The changes are saved.
 
 <!-- Referenced links -->

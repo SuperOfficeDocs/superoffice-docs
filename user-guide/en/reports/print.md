@@ -11,12 +11,7 @@ language: en
 
 # Print reports
 
-The procedure for printing reports is the same for lists, group lists, calendars and text export. For labels and cross tables it is slightly different. For more information, see:
-
-* [Print cross tables][1]
-* [Print labels][2]
-
-Follow the steps below to print the list, group list, calendar and text export report types.
+## Print list, group list, calendar, text export report types
 
 1. [!include[How to-goto-reports](includes/goto-reports.md)]
 
@@ -30,6 +25,11 @@ Follow the steps below to print the list, group list, calendar and text export r
     > If you do not have a PDF viewer, you will be asked if you want to install one.
 
 5. Click the print button in the PDF viewer.
+
+## Print labels and cross tables
+
+* [Print cross tables][1]
+* [Print labels][2]
 
 <!-- Referenced links -->
 [1]: cross-tables.md#print

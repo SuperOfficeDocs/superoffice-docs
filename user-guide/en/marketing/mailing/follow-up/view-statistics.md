@@ -32,7 +32,7 @@ You can find mailing statistics in the following tabs:
 
 * **Tracked links**: This tab displays the [number of clicks on each tracked link][3] in the mailing. Click a link to go the **View link** screen and display a list of which recipients clicked the link.
 
-* **Manage bounces**: See [Manage bounces][4].
+* **Manage bounces**: [How to manage bounces][4].
 
 > [!NOTE]
 > The **Reports** and **Tracked links** tabs require the Marketing User licence. Some tabs are not available for SMS mailings and document mailings.

@@ -37,7 +37,7 @@ By editing the document's properties, you can, for example, change who is to hav
 1. Select **Knowledge Base** > **Documents**.
 2. Go to the folder where the document is located.
 3. Click the document name to go to the **Document properties** screen.
-4. Make the required changes. For more information about the fields in this screen, see [Create documents][1].
+4. [Make the required changes][1].
 5. Click **OK**. The changes are saved.
 
 > [!TIP]

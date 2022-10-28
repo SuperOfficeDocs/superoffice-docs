@@ -30,8 +30,8 @@ To update multiple records:
 4. Select an action in the **Action** column. The available actions will depend on the type of field you have selected in the previous step. Here are some examples of available actions:
     * **Check**: Check or uncheck a checkbox.
     * **Toggle**: Uncheck a checked checkbox and vice versa.
-    * **Search and replace**: Find a text and replace it. See [Search and replace](#search-and-replace).
-    * **Regex**: Update a field using regular expressions. See [Regex](#regex).
+    * **Search and replace**: [Find a text and replace it](#search-and-replace).
+    * **Regex**: Update a field using [regular expressions](#regex).
     * **Set**: Apply a new value to the field.
     * **Clear**: Clear any value from the field.
     * List actions: Select or clear single or multiple values for list fields.

@@ -16,7 +16,7 @@ When a form is submitted from a Customer Centre or web site, the data is collect
 In the **Form submissions** tab you can view all submitted forms. Use the filter options at the bottom of the list to view only submissions with specific statuses.
 
 > [!NOTE]
-> You can also view submissions for individual forms by opening a form in the **Forms** tab. See [Track form submissions and view statistics][1].
+> You can also [view submissions for individual forms][1] by opening a form in the **Forms** tab.
 
 The **Form status** column can have the following statuses:
 

@@ -33,7 +33,7 @@ If you click on the name of a user or resource, this user or resource becomes th
 > [!NOTE]
 > Other users are displayed with the ![icon][img2] icon and red underlining, while resources are displayed with the ![icon][img3] icon and blue underlining.
 
-When you open the diary of another user or resource, you can switch between the different tabs as in your own diary, and you can [create follow-ups][2] in their diaries by clicking and selecting time periods with the mouse, provided that you have the access rights to do so.
+When you open the diary of another user or resource, you can switch between the different tabs as in your own diary, and you can [create follow-ups][2] in their diaries by clicking and selecting time periods with the mouse, provided that you have the access rights.
 
 ## View multiple diaries (group view)
 

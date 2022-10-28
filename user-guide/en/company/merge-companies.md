@@ -32,7 +32,7 @@ To merge companies:
     * Merge identical contacts. If you select this option, contacts with identical names will be merged.
 
         > [!NOTE]
-        > The names must be EXACTLY the same, i.e. first name, middle name and last name, in order to be merged.)
+        > The names must be EXACTLY the same, first name, middle name and last name, to be merged.
 
     * **Replace empty fields in \[target company\] with values from \[source company\]**. If you select this option, empty data fields in the **To** company will be updated with data from the **From** company.
 

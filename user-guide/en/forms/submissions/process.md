@@ -26,7 +26,7 @@ To process a submission:
 2. Double-click a row. The **Form submission** window opens.
 3. Review the submitted data in the **Data from form** tab.
 4. Go to the **Actions** tab to view the actions that are performed on the form data when you process it.
-5. In the **Submitter** side panel, you must link the submitter to an existing or new contact in SuperOffice. See the next topic on how to do this.
+5. In the **Submitter** side panel, you must link the submitter to an existing or new contact in SuperOffice.
 6. Click **Process**.
 
 ## Linking the submitter to a SuperOffice contact and company

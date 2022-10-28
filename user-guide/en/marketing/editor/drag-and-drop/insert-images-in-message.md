@@ -34,14 +34,14 @@ Create a stylish mailing using images. You can add images from the SuperOffice d
 
 6. Select one of the available images.
     or
-    If you want to use an image that is not in the list, you can click **Add** to choose an image file on your PC. See [Add images][1].
+    If you want to [use an image that is not in the list][1], you can click **Add** to choose an image file on your PC.
 
 7. Click the image in the message and make any necessary changes in the side-panel. Check that the image is correctly displayed and adjust as necessary.
 
     > [!TIP]
     > For additional image editing options, click **Apply Effects & More**.
 
-8. (optional) Add a tracked link to the image. For example, if you are inserting a picture of a product you are launching, you can add a link to an information page for the product. You can create a new link or add an existing link. See [Include links you want to track][2].
+8. (optional) [Add a tracked link][2] to the image. For example, if you are inserting a picture of a product you are launching, you can add a link to an information page for the product. You can create a new link or add an existing link.
 
     To add a regular link (untracked): Select the image, and enter the link in the **URL** field.
 
@@ -65,7 +65,7 @@ Choose among millions of images from the royalty-free online image library.
     > [!TIP]
     > For additional image editing options, click **Apply Effects & More**.
 
-6. (optional) Add a tracked link to the image. For example, if you are inserting a picture of a product you are launching, you can add a link to an information page for the product. You can create a new link or add an existing link. See [Include links you want to track][2].
+6. (optional) [Add a tracked link][2] to the image. For example, if you are inserting a picture of a product you are launching, you can add a link to an information page for the product. You can create a new link or add an existing link.
 
     To add a regular link (untracked): Select the image, and enter the link in the **URL** field.
 

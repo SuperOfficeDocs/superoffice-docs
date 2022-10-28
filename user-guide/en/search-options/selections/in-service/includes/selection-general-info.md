@@ -9,7 +9,7 @@
 
 * **Show in left menu**: Check here if you want the name of the selection to appear under **Selections** in the Navigator.
 
-* **Field for parameter constraint**: This field can be used to enter a key or a filter in order to display a selection as a web panel.
+* **Field for parameter constraint**: This field can be used to enter a key or a filter to display a selection as a web panel.
 
 <!-- Referenced links -->
 [1]: ../editselectionfolder.md

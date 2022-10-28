@@ -52,7 +52,7 @@ As the Excel spreadsheet may contain anything from just a few to a large number 
 
 2. Find the column containing the product code, click the **(No Selection)** column title and select **Product: Code**.
 
-3. Select the SuperOffice fields for the rest of the columns in the table. You do not need to do this for the columns you do not want to import.
+3. Select the SuperOffice fields for the rest of the columns in the table. Skip the columns you do not want to import.
 
 4. [!include[Configure import settings](includes/configure-import-settings.md)]
 

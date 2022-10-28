@@ -12,7 +12,7 @@ language: en
 # Display labels
 
 > [!TIP]
-> If you are not sure if your report is a label format, you can check the image at the top right in the **Reports** screen. For more information about this, see **Report types** under [Show report properties][1].
+> If you are not sure if your report is a label format, you can check the image at the top right in the **Reports** screen. [How][1].
 
 1. [!include[How to-goto-reports](../includes/goto-reports.md)]
 
@@ -23,7 +23,7 @@ language: en
 4. In the **Choose label** dialog, select the required label format.
 
     > [!NOTE]
-    > You can also add, edit and delete label formats. This is described under [Add label formats][2], [Edit label formats][3], and [Remove label formats][4].
+    > You can also [add][2], [edit][3], and [delete][4] label formats.
 
 5. Click **OK**. A PDF is generated in your browser.
 

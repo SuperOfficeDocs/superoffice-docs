@@ -34,12 +34,12 @@ To change document properties, for example, the project to which the document is
 
 1. [Select the required document][2].
 2. Right-click and select **Document**. If you double-click on the document, it opens directly in the application it was created in.
-3. Make the required changes in the **Document** dialog. (See [The Document dialog][3]).
+3. [Make the required changes][3] in the **Document** dialog.
 4. Click the **Save** button.
 
 ## Edit document content using SharePoint Documents
 
-1. Double-click the required document. (See [Open documents][2] for how to do this.) The document opens in a new tab with the online text-editing program (Office Online).
+1. [Double-click the required document][2]. The document opens in a new tab with the online text-editing program (Office Online).
 
     > [!NOTE]
     > If you want to use your desktop editing program, you can choose **Open in Desktop App** from Office Online.
@@ -53,7 +53,7 @@ To change document properties, for example, the project to which the document is
 > [!NOTE]
 > This procedure describes how to create new documents if you are using a desktop text-editing application. The actual process may be slightly different if you use an online text-editing tool (like Microsoft Office Online) and a document library (like SharePoint).
 
-1. Double-click the required document. (See [Open documents][2] for how to do this.) The **Document** dialog opens.
+1. [Double-click the required document][2]. The **Document** dialog opens.
 2. Click **Open**.
 3. If a dialog box displays, click **Edit**.
 4. The file download dialog opens automatically. Choose from the following options:
@@ -74,7 +74,7 @@ To change document properties, for example, the project to which the document is
 
 ## Edit document content - using SuperOffice WebTools
 
-1. Double-click the required document. (See [Open documents][2] for how to do this.)
+1. [Double-click the required document][2].
 2. If a dialog box displays, click **Edit**.
 3. Save it and close the text-editing application.
 4. (if applicable) In the dialog that appears, click **Yes** if you are done editing the document. Click **No** to keep the document checked out. This dialog only appears if you have activated this option in SuperOffice WebTools.

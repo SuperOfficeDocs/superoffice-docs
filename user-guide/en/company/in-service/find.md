@@ -14,13 +14,8 @@ language: en
 To find companies that are registered in the system:
 
 1. Select **Customers** > **Find company**. This takes you to the **Criteria** screen.
-1. Enter the required search criteria under **Criteria**.
-
-    > [!TIP]
-    > See [Search in SuperOffice Service][1] to find out how to define search criteria.
-
+1. [Enter the required search criteria][1] under **Criteria**.
 1. Click **Search**.
-
 1. Under **Find companies** are the companies that match your search criteria. If you select one of the companies in the list, the requests and contacts linked to that company are displayed in the preview section.
 
     [!include[How to preview search](../../includes/show-reading-pane.md)]

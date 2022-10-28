@@ -28,7 +28,7 @@ Among the user-defined fields that are displayed in the **More** tabs in SuperOf
 
 1. Check **Allow different page 1 fields for different user groups** at the bottom of the tab if you want to specify different page 1 fields for different user groups. If this is left unchecked, the fields you specify will be used for all user groups.
 
-1. In the user group list above, select the required user group (if you have checked **Allow different page 1 fields for different user groups** in the previous step). For more details on user groups, see below.
+1. In the user group list above, select the required user group (if you have checked **Allow different page 1 fields for different user groups** in the previous step).
 
 1. In the **Field 1** list box, choose the field to display at the top. Choose the fields to display in the next positions in the **Field 2** and **Field 3** list boxes.
 

@@ -25,7 +25,7 @@ The **Options** screen is divided into the following tabs:
 | Customer languages | Here you can configure the customer languages, making it easy to communicate with customers in different languages. You can also set up category names in SuperOffice Customer Centre. | [Customer languages][6] |
 
 > [!NOTE]
-> If your organisation has a licence for SAINT, the **Options** screen also contains the **Status monitors** tab. For more details, see [Status monitors][7].
+> If your organisation has a licence for [SAINT][7], the **Options** screen also contains the **Status monitors** tab.
 
 <!-- Referenced links -->
 [1]: freetext-search/index.md

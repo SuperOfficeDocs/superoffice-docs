@@ -14,7 +14,7 @@ language: en
 The **Reports** screen is a report generator supplied with a set of standard reports which you can use to print reports based on data from SuperOffice CRM. You can customize the search criteria in standard reports and in this way define your own favorite reports.
 
 > [!TIP]
-> See [Dashboard][1] for other ways to present SuperOffice data.
+> [Dashboards][1] are another way to present SuperOffice data.
 
 ## Where are my reports?
 

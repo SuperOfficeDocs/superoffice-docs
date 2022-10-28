@@ -26,7 +26,14 @@ The main screen in SuperOffice CRM consists of five main elements:
     At the right side of the screen is the [side panel][20]. The side panel is a flexible display window that can be configured in lots of different ways.
 
 * **The Section tabs**
-    The section tabs appear below the main card. These contain, for example, lists of contacts, project members and activities that are linked to the relevant record in the main card. For more details of the section tabs, see: [Section tabs in the Company screen][9], [Section tabs in the Contact screen][11], [List of members][19], [Project screen section tabs][15], [Sale screen section tabs][17] and [Activities section tab][13].
+    The section tabs appear below the main card. These contain, for example, lists of contacts, project members and activities that are linked to the relevant record in the main card.
+
+  * [In the Company screen][9]
+  * [In the Contact screen][11]
+  * [In the Project screen][15]
+  * [In the Sale screen][17]
+  * [List of members][19]
+  * [Activities][13]
 
 <!-- Referenced links -->
 [1]: navigator.md

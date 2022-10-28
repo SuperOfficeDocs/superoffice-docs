@@ -41,7 +41,7 @@ To create a new priority:
         > [!NOTE]
         > In Settings and maintenance, **Escalate requests according to time frame** is set in the **Escalating events** tab.
 
-    For details about each fields, see [Priority settings](#priority-settings)
+    For details about each fields, see [Priority settings](#priority-settings).
 
 1. Under **Time frame**, specify the time frame that applies to request processing.
 

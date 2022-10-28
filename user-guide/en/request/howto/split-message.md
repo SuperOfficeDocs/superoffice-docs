@@ -43,7 +43,7 @@ If a message contains two issues that should be handled separately, you can spli
 
 11. Click **OK**. The message is split and the new request opens.
 
-## See also
+## Related content
 
 * [Split requests][2]
 

@@ -25,7 +25,7 @@ The **View statuses** dialog is displayed when you click a status image for a co
 | Close | Click here to close the status dialog. |
 
 > [!NOTE]
-> **Add to selection** can only be used for static selections. For more information about how to use statuses in dynamic selections, see [Use status monitors in dynamic selections][1]
+> **Add to selection** can only be used for static selections. [How to use statuses in dynamic selections][1].
 
 ## Related topics
 

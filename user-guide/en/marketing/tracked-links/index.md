@@ -28,15 +28,15 @@ In the **Tracked links** tab you have the following options:
 
 Menu options:
 
-* **View**. See [Work with tracked links after the mailing][2].
-* **Edit**. See [Create tracked links][1].
-* **Reset**. See [Reset counters for links][2].
+* **View**. [How to work with tracked links after the mailing][2].
+* **Edit**. [How to create tracked links][1].
+* **Reset**. [How to reset counters for links][2].
 * **Move to folder**. Click here to move the link to another folder.
 * **Delete**. Click here to delete the link.
 
 ## Which links am I tracking?
 
-To view all the links in a mailing, open the mailing in view mode and select the **Tracked links** tab. See [Work with tracked links after the mailing][4].
+To [view all the links in a mailing][4], open the mailing in view mode and select the **Tracked links** tab.
 
 ## Google Analytics
 
@@ -48,7 +48,7 @@ When setting up a mailing, you have the option of using Google Analytics as the 
 
 Read more on SuperOffice Community: [Simple Google Analytics email tracking][5].
 
-## See also
+## Related content
 
 * [Include links you want to track][3]
 * [Add subscription links][4]

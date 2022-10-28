@@ -78,7 +78,7 @@ This is an overview of special options in some of the available fields.
 
 * **Image**: Add an image to the form. Click the link to select an image or drag and drop an image to the **Image** field. Use the **Position** radio buttons to place the image on the form.
 
-* **Section**: Add a section between the fields to create a multi-page form. This is very useful if your form contains many fields and you want to avoid scrolling. See [Create multi-page forms][2].
+* **Section**: Add a section between the fields to [create a multi-page form][2]. This is very useful if your form contains many fields and you want to avoid scrolling.
 
 <!-- Referenced links -->
 [1]: ../../../docs/marketing/forms/recaptcha.md

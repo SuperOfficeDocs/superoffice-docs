@@ -29,7 +29,7 @@ To quickly access a specific record (such as a request or contact), function or 
 </details>
 
 > [!TIP]
-> There is also a quick search option. For more information about this, see [Use quick search][1]. In addition, clicking the various navigator buttons gives you access to more search options (see [Navigator options][2]).
+> There is also a [quick search option][1]. In addition, clicking the various [navigator buttons][2] gives you access to more search options.
 
 ## Open the search screen
 

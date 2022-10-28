@@ -21,7 +21,7 @@ Double-click an activity in the section tab to view or edit it, as required.
 
 ### Completed status ![icon][img3]
 
-The first column in the **Activities** section tab indicates the **Completed** status of an activity. A tick in the checkbox (![icon][img2]) means that the activity is completed, while an empty box means that it is not completed. For more details on the **Completed** status, see [Change Completed status of an activity][2].
+The first column in the **Activities** section tab indicates the **Completed** status of an activity. A tick in the checkbox (![icon][img2]) means that the activity is completed, while an empty box means that it is not completed.
 
 ### Type icons
 
@@ -52,6 +52,7 @@ The second column contains icons that indicate the type of activity, for example
 * [Reply to email from the Activities section tab][5]
 * [Forward email from the Activities section tab][6]
 * [Filter activities][7]
+* [Change Completed status of an activity][2]
 
 <!-- Referenced links -->
 [1]: ../../diary/activity.md

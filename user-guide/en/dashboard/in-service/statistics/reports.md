@@ -14,7 +14,7 @@ language: en
 This screens contains predefined reports.
 
 > [!TIP]
-> You also have access to the new and improved reports in SuperOffice Service. See Standard reports.
+> You also have access to the new and improved reports in SuperOffice Service.
 
 To run a report:
 

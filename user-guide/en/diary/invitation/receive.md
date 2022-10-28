@@ -65,14 +65,14 @@ If you have other overlapping appointments, a **Conflict** icon ![icon][img6] is
 
 If you select **Show repetitions** below the list of invitations, all instances of the follow-up are displayed.
 
-There are two ways to see if a follow-up is a repeating one:
+There are two ways to see if a [follow-up is recurring][3]:
 
 * The status icon ![icon][img5] is shown in the list of invitations.
-* You will see a 'repeat' icon at the top left of the bottom section of the dialog. See [Create repeating follow-ups][3] for more information about repeating follow-ups.
+* You will see a 'repeat' icon at the top left of the bottom section of the dialog.
 
 Click **Close** to close the dialog.
 
-**Note:**
+### Note
 
 * If you first accept an invitation and then delete the follow-up from the diary, it is counted as though you declined it. The follow-up disappears from the Diary and your name is marked with a red cross ![icon][img4] in the **Appointment**, **Task** or **Phone Call** dialog of the person who sent the invitation. [!include[See Appointment dialog](../../includes/see-apt-dialog.md)]
 

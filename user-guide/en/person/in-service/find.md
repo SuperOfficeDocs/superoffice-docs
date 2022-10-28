@@ -13,14 +13,14 @@ language: en
 
 This screen is used to search for contacts in the system. You can search all contact fields (first name, last name, phone number, etc.) as well as fields for related records.
 
-For example, you can search for all contacts in all companies with a specific priority, or all contacts with a specific e-mail address type. The table structure can be extended with extra fields and tables, in order to record contacts' interests or similar. In practice, you can filter on all values available in the system, for both contacts and related tables (companies, priority, etc.). When sending out newsletters, you may, for example, want to find all contacts interested in a specific product, or who have been registered in a particular period.
+For example, you can search for all contacts in all companies with a specific priority, or all contacts with a specific e-mail address type. The table structure can be extended with extra fields and tables, to record contacts' interests or similar. In practice, you can filter on all values available in the system, for both contacts and related tables (companies, priority, etc.). When sending out newsletters, you may, for example, want to find all contacts interested in a specific product, or who have been registered in a particular period.
 
 All searches in SuperOffice Service, regardless of what you are searching for (requests, companies, contacts, etc.), are performed from the same screen.
 
 To find contacts that are registered in the system:
 
 1. Select **Customers** > **Find contacts**.
-2. Enter the required search criteria under **Criteria**. See [Search in SuperOffice Service][2] to find out how to define search criteria.
+2. [Enter the required search criteria][2] under **Criteria**.
 3. Click **Search**.
 4. Under **Find contacts** are the contacts that match your search criteria. If you select one of the contacts in the list, the requests linked to that contact are displayed in the preview section.
 
@@ -36,7 +36,7 @@ Once you have got a list of contacts, you will be in a screen containing the fol
 * **Result**: This contains all the contacts that match your search criteria.
 * **Preview**: Displays the requests linked to the contact selected under **Find contacts**.
 
-To edit the search criteria, click **Show criteria**. See [Search in SuperOffice Service][2].
+To edit the search criteria, click **Show criteria**.
 
 ## Result
 

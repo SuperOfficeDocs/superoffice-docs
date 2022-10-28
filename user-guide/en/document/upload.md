@@ -19,7 +19,7 @@ To quickly upload a document to SuperOffice CRM, do as follows:
 
 3. (optional) Click ![icon][img1] in the top-right corner to set the document to **Completed** (![icon][img2]).
 
-4. Complete the fields with the required information. See [The Document dialog][1] for an explanation of what to enter here.
+4. [Complete the fields with the required information][1].
 
 5. Click the **Create** button to create the new document in SuperOffice CRM. The document is added to the **Activities** section tab.
 

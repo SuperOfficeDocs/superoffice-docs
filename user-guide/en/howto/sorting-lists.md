@@ -17,10 +17,11 @@ In the different section tabs in SuperOffice CRM, you can sort the lists by the 
 
 ## Simple sorting
 
-Click once on a column heading to sort the list by this column in ascending order. Click once more to sort in descending order. See also [Grouping lists][1].
+Click once on a column heading to sort the list by this column in ascending order. Click once more to sort in descending order.
 
 ## What would you like to do now?
 
+* [Groupe lists][1]
 * [Use filters in the section tabs][2]
 * [Change the rank of contacts][5]
 * [Adjust column widths][3]

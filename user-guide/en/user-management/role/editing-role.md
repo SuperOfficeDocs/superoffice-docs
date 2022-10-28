@@ -25,7 +25,7 @@ To edit a role:
     See [Edit rights for anonymous users][1].
     </details>
 
-3. In the list, double-click the role you want to edit. For more information about the predefined roles, see [Role][3].
+3. In the list, double-click the [role][3] you want to edit.
 
 4. In the **Create New Role** dialog, change the name and description of the role as required and then click **Save**.
 
@@ -47,10 +47,7 @@ To edit the information already recorded for a role in Service:
 
 1. Select ![icon][img1] **System settings > Roles**.
 2. Click the required role name. The **Edit role** screen appears.
-3. Make the required changes.
-
-    For more information about the tabs and fields in this screen, see [Create roles][2].
-
+3. [Make the required changes][2].
 4. Click **OK**. The changes are saved.
 
 <!-- Referenced links -->

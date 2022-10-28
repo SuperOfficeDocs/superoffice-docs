@@ -41,7 +41,7 @@ Fill in the fields below, click **Create** and compose the email as described ab
 When you have finished the message, and want to send it, you have the following options:
 
 * To send the message straightaway, click the **Send** button.
-* To send the message and archive it as a document in SuperOffice CRM, click **Send and archive**. The **Document** dialog opens. See [Create new documents][1].
+* To send the message and archive it as a document in SuperOffice CRM, click **Send and archive**. The **Document** dialog opens. [How to create a document][1].
 
 > [!TIP]
 > If you do not archive the message when you send it, you can still go to the sent folder and archive the message as described in [Archive incoming email][2].

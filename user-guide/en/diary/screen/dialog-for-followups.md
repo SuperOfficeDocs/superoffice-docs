@@ -88,7 +88,7 @@ Check here when the [follow-up is completed][11].
 
 ![icon][img1]
 
-Click this button to access relevant tasks that can be performed on the active entry. Examples: Delete, Print, Send as e-mail, Assign to and Cancel meeting. In SuperOffice Settings and maintenance, you can also define your own tasks and add them under the **Task** button. For more information about this, see the Help for SuperOffice Settings and maintenance.
+Click this button to access relevant tasks that can be performed on the active entry. Examples: Delete, Print, Send as e-mail, Assign to and Cancel meeting. In SuperOffice Settings and maintenance, you can also define your own tasks and add them under the **Task** button.
 
 ### Registered/Last modified
 
@@ -153,7 +153,7 @@ This tab contains information about URLs, activities (documents and follow-ups),
 
 ## The More tab
 
-This tab displays any user-defined fields configured in SuperOffice Settings and maintenance. See the SuperOffice Settings and maintenance help for more information about configuring user-defined fields.
+This tab displays any [custom fields][14] configured in SuperOffice Settings and maintenance.
 
 <!-- Referenced links -->
 [1]: ../appointment.md
@@ -169,6 +169,7 @@ This tab displays any user-defined fields configured in SuperOffice Settings and
 [11]: ../change-completed-status.md
 [12]: ../../search-options/using-fastsearcher.md
 [13]: ../../getting-started/preferences.md
+[14]: ../../custom-objects/index.md
 
 <!-- Referenced images -->
 [img1]: ../../../media/icons/btn-menu.png

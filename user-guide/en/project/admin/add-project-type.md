@@ -23,7 +23,7 @@ When you add an item to the **Project - Type, status** list, the **Edit list ite
 
 2. In the **Estimated time for this project process**, enter a duration for the project (number of weeks, days or months). When you create a new project of this project type, the end date will be set relative to the time you enter here (today's date + estimated time).
 
-3. In the **Statuses used for this project type** list, check off the statuses you want to include for the project type. This step is optional, but if you want to link the project type to a project guide, you should check at least two statuses. For more details on how to create statuses, see [Project - Status][2].
+3. In the **Statuses used for this project type** list, check off the statuses you want to include for the project type. This step is optional, but if you want to link the project type to a project guide, you should check at least two statuses. [How to create a project status][2].
 
 4. Check **This project type is linked to a guide** if you want all projects of this project type to follow a [project guide][3].
 

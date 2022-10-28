@@ -11,8 +11,6 @@ language: en
 
 # Delete relation (Contact screen)
 
-You can delete relations that have been set up, as follows:
-
 [!include[Go to Contact screen](../includes/goto-contact.md)]
 
 1. Right-click the required relation on the **Relations** section tab and select **Delete**. The **Delete Relation** dialog opens.

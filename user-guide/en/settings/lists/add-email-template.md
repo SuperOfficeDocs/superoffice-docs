@@ -40,7 +40,7 @@ Templates are displayed as items in the **E-mail - Template** list and you can a
 
 7. Click **Edit** to edit the template file itself. If you have created a new e-mail template, you need to add content to the template.
 
-8. Enter the required information in the **Details** and **Languages** tabs. For more information, see below.
+8. Enter the required information in the **Details** and **Languages** tabs.
 
 9. Click **Save**. The template is added as a separate item in the **Items** list. Repeat this procedure to add more templates.
 

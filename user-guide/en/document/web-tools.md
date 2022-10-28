@@ -30,7 +30,7 @@ To upgrade or install SuperOffice WebTools, go to the following SuperOffice supp
 6. Double-click on the file **SuperOffice WebTools Installer.pkg** to start the installation.
 7. Click **Continue**.
 8. Click **Install**.
-9. If you are asked for your user name and password in order to install, enter them and click **Install Software**.
+9. If you are asked for your user name and password to install, enter them and click **Install Software**.
 10. When the message “The installation was successful” is displayed, click **Close** in the **WebTools** dialog box.
 11. Finally, log out of SuperOffice CRM, close the web browser window, and reopen your browser window to log in again.
 

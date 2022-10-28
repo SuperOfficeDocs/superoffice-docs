@@ -12,7 +12,7 @@ so.envir: onsite
 
 # Manage external users
 
-If you have been assigned the **Allow administration of external users** right in SuperOffice Settings and maintenance, you can add and remove external users in SuperOffice CRM in connection with Audience or third-party applications. External users can also be administrated in SuperOffice Settings and maintenance. For more information about this, see the SuperOffice Settings and maintenance help.
+If you have been assigned the **Allow administration of external users** right in SuperOffice Settings and maintenance, you can add and remove external users in SuperOffice CRM in connection with Audience or third-party applications. External users can also be administrated in SuperOffice Settings and maintenance.
 
 ## To open the External users dialog
 

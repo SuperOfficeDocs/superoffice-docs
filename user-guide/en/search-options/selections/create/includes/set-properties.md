@@ -1,5 +1,5 @@
 <!-- markdownlint-disable-file MD041 -->
-1. The **Owner** field automatically displays the user currently logged in. After you have saved a new selection, you can change the owner by [editing the selection][1]. In practice, this means that you transfer it from yourself to someone else. In order to edit a selection, you must either be the owner or have administrator access, or you must have been given editing access via the **Functions** preference in SuperOffice Settings and maintenance.
+1. The **Owner** field automatically displays the user currently logged in. After you have saved a new selection, you can change the owner by [editing the selection][1]. In practice, this means that you transfer it from yourself to someone else. To edit a selection, you must either be the owner or have administrator access, or you must have been given editing access via the **Functions** preference in SuperOffice Settings and maintenance.
 
 1. In the **Category** field, choose the type of selection you require. These options are defined in SuperOffice Settings and maintenance.
 

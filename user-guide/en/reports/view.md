@@ -17,7 +17,7 @@ How this works varies slightly from report type to report type. If you want to d
 * [Display labels][2]
 
 > [!TIP]
-> If you are not sure which report type you have, check the thumbnail at the top right of the **Reports** screen. For more information about this, see **Report types** under [Show report properties][3].
+> If you are not sure which report type you have, check the thumbnail at the top right of the **Reports** screen. [How][3].
 
 1. Select the required report.
 2. Click the **Preview** button under the criteria list. A PDF is generated in your browser.

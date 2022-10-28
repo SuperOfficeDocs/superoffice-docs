@@ -14,7 +14,7 @@ language: en
 If you want to delete a selection, you do not delete the actual records it contains. They will remain in the system, but will no longer be available as a collected dataset under **Selection**. Proceed as follows:
 
 > [!NOTE]
-> In order to delete a selection, you need to have access to both read and edit the selection in question.
+> To delete a selection, you need to have access to both read and edit the selection in question.
 
 1. Select **Selections** > **List selections**. This takes you to the **List selections** screen.
 2. Point at the selection name, to make the icons appear to the right.

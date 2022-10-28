@@ -15,16 +15,16 @@ The **Active settings** field contains a list of the settings for the preference
 
 The field consists of three columns:
 
-* **Who**: Shows who the setting applies to, i.e. the name of the system, database, group or user.
+* **Who**: Shows who the setting applies to (the name of the system, database, group or user).
 
     > [!NOTE]
     > If this is an individual user, a tooltip about this user will pop up when you hold the mouse pointer over the user’s initials in this column.
 
-* **Level**: shows which level the setting applies to: system, database, group or user (see [Levels for preference settings][1]).
+* **Level**: shows which [level the setting applies to][1] (system, database, group or user).
 
 * **Value**: shows the value specified for the setting.
 
-The contents of these columns are defined in the **Setting** dialog. For more details, see [Add preference settings][2].
+The contents of these columns are defined in the **Setting** dialog. [How to add preference settings][2].
 
 You can sort the rows in the columns by clicking on the required column heading. Click the column heading once to sort in reverse order.
 

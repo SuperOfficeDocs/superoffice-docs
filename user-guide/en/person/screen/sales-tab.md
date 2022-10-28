@@ -19,7 +19,7 @@ The **Sales** section tab shows sales connected to the contact.
 
 Double-click a sale in the list to open the **Sale** screen in SuperOffice CRM which contains information about that sale.
 
-Click **Add** to create a new sale. For more details on how to manage sales, see [Sale][1].
+Click **Add** to create a new [sale][1].
 
 Click the **Filter** button ![icon][img1] to [filter the list][3] by date, users or groups.
 

@@ -11,8 +11,6 @@ language: en
 
 # Delete relations
 
-You can delete relations that have been set up, as follows:
-
 [!include[Go to company](../includes/goto-company.md)]
 
 1. Right-click the required relation on the **Relations** section tab and select **Delete**. The **Delete Relation** dialog opens.

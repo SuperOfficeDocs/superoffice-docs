@@ -18,8 +18,8 @@ You can export all section tabs containing records in SuperOffice CRM to an Exce
 
 ## Before you export
 
-* Select which columns you want to include in the export and the order of the columns. See [Configure columns][1].
-* Filter the records in the section tab to display only the data you want to export. Filtering is not available in all sections tabs. See [Use filters in the section tabs][2].
+* [Configure columns][1]. Select which columns you want to include in the export and the order of the columns.
+* [Filter the records in the section][2] tab to display only the data you want to export. Filtering is not available in all sections tabs.
 
 ## Export a section tab
 

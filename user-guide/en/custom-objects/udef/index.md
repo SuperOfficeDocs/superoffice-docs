@@ -16,7 +16,7 @@ Several sections of SuperOffice CRM, for example, the **Company** screen, contai
 All companies and organisations have their own requirements with regard to the information they need to register concerning their customers, sales, projects, contracts, and so on. You can enter your own fields for SuperOffice CRM in the **Fields** screen. This way, you can customise the type of information that can be registered concerning companies, contacts, projects, sales, documents and follow-ups.
 
 > [!NOTE]
-> You can specify 3 fields that can be displayed on the "first page" in their respective screens or dialogs. See [Select page 1 fields][1].
+> You can specify 3 fields that can be displayed on the "first page" in their respective screens or dialogs. [How][1].
 
 ## Field types
 

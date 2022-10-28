@@ -25,7 +25,7 @@ Everywhere you are able to enter search criteria, you will find a criteria list 
 2. Click the **Add** button.
     A new line is added to the criteria list and a list of fields to choose from is displayed.
 
-3. Select the field you want to search for information in. You can also [enter the start of the name][2] in the appropriate field. There are different types of fields. Click the field description for more information about the field type:
+3. Select the field you want to search for information in. You can also [enter the start of the name][2] in the appropriate field. There are different types of fields (click to expand):
 
     * <details><summary>Text field</summary>
 

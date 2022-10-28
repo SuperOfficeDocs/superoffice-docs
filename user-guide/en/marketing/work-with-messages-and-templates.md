@@ -56,7 +56,7 @@ To create a new e-mail template from scratch:
 5. Click the blue box (column) in the message, and edit the layout in the side-panel.
 6. Click **Add Content** in a column. The side-panel displays various content types (such as images and text) that can be added to the column.
 7. Click and drag a content type from the side-panel to a column in the message.
-8. Click the content in the message to edit it. See [Edit content][2].
+8. Click the content in the message to [edit][2] it.
 9. Click outside the column when you are done.
 10. Click and drag columns from the side-panel to add more content to your message.
 11. Click **OK** when you are done. The new template displays in the templates list.

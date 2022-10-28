@@ -31,7 +31,7 @@ These options are used for selecting which email body to use.
 
 | Option | Description |
 |---|---|
-| Use SuperOffice email body | You can predefine an email body that uses data from SuperOffice CRM. In order to use this template, you need to select this option. |
+| Use SuperOffice email body | You can predefine an email body that uses data from SuperOffice CRM. To use this template, you need to select this option. |
 | Use default body from email client | If you would like to use the default body from the mail client, you may select this option. |
 
 ## Warnings

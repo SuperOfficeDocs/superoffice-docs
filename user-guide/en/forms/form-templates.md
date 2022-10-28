@@ -17,7 +17,7 @@ language: en
 
 ## Using form templates
 
-To access form templates, do as follows:
+To access form templates:
 
 1. Select the **Form templates** tab.
 2. Click **All templates**.

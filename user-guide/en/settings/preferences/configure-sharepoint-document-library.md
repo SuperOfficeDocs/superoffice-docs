@@ -58,7 +58,7 @@ In this step you must select which document fields to transfer as document prope
 These fields can be used to create views in your SharePoint document library. You can also search and group by these fields in SharePoint. Specific fields can be hidden if necessary.
 
 > [!NOTE]
-> In order to maintain changes to documents in SuperOffice, we must store the ID of the fields. ID columns can be hidden in your SharePoint document views.
+> To maintain changes to documents in SuperOffice, we must store the ID of the fields. ID columns can be hidden in your SharePoint document views.
 
 Click **Next step** to continue.
 
@@ -72,7 +72,7 @@ To enable group access:
 
 1. Select **Enable group access to SharePoint documents based on "Visible for" settings in SuperOffice**.
 
-2. In order to set permissions for documents in SharePoint, we need read/write permissions for the selected site. This is a one-time authorization and will only include the site you have selected for your SuperOffice documents.
+2. To set permissions for documents in SharePoint, we need read/write permissions for the selected site. This is a one-time authorization and will only include the site you have selected for your SuperOffice documents.
 
     > [!NOTE]
     > Only a Microsoft 365 Global Administrator can authorize these permissions. In addition, the Microsoft 365 Global Administrator must be a member of the owner group of the site, since site owner permissions are required to set read/write permissions.

@@ -54,7 +54,7 @@ As the Excel spreadsheet may contain anything from just a few to a large number 
 
 1. Find the column containing the first and last names of the contacts, click the **(No Selection)** column title and select **Contact: First name** and **Contact: Last name**. If there is a single column containing both first and last names, select **Contact: Full name**.
 
-1. Select the SuperOffice fields for the rest of the columns in the table. You do not need to do this for the columns you do not want to import.
+1. Select the SuperOffice fields for the rest of the columns in the table. Skip the columns you do not want to import.
 
 1. [!include[Configure import settings](includes/configure-import-settings.md)]
 
@@ -72,7 +72,7 @@ As the Excel spreadsheet may contain anything from just a few to a large number 
 
 **I can't get any further!**
 
-You must link all the required SuperOffice fields to their respective columns in order to continue. The required fields will be displayed above the table. If you have specified that contacts without companies should be added as new companies, only the SuperOffice field **Company: Name** is mandatory.
+You must link all the required SuperOffice fields to their respective columns to continue. The required fields will be displayed above the table. If you have specified that contacts without companies should be added as new companies, only the SuperOffice field **Company: Name** is mandatory.
 
 ## Complete the import
 

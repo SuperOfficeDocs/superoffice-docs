@@ -35,8 +35,6 @@ To activate and publish the form, see [Publish forms][2].
 
 If you are creating a form with many fields, it might be useful to split the form into multiple pages. This will make the form more user-friendly and easier to read. The user can navigate using **Next** and **Previous** buttons, and you can also add a progress bar to indicate how much is left to fill in.
 
-To do so:
-
 1. Create a form as described above.
 2. Go to the **Fields** category.
 3. Click the **Add** button (![icon][img2]). The **Add element** window opens.
@@ -128,7 +126,7 @@ To activate double opt-in:
 
 1. Click **Enable double opt-in**.
 2. In the **Message** tab, enter the text to display after the form has been submitted. Click **Show/hide toolbar** ![icon][img7] to display formatting options for the text.
-3. In the **E-mail** tab, create the confirmation e-mail sent to the persons submitting the form. In order to do so:
+3. In the **E-mail** tab, create the confirmation e-mail sent to the persons submitting the form.
     1. **Subject**: Enter the subject of the confirmation e-mail.
     2. **Sender address**: Enter the e-mail address to display in the **From** field in the confirmation mail.
     3. **Confirmation text**: Enter the body text of the e-mail. Click **Show/hide toolbar** ![icon][img7] to display formatting options for the text. Click **Open text editor in dialog** ![icon][img8] to edit the text in a larger editor.
@@ -163,7 +161,7 @@ Here you can define how a submitted form should be processed. Fill in the follow
 **How should a form submission be processed?** Here you can define if the submitted forms should be processed automatically or not.
 
 * **Automatically process all submissions. Create new contact if no match found**: All form submissions are processed automatically. There will no notifications of submitted forms.
-* **Manually if submitter is unknown. Automatically if submitter is known**: If the e-mail address submitted in the form matches an e-mail address in SuperOffice, the form submission is processed automatically. Otherwise, it must be processed manually. You will receive a notification (![icon][img11]).See [Process form submissions][6].
+* **Manually if submitter is unknown. Automatically if submitter is known**: If the e-mail address submitted in the form matches an e-mail address in SuperOffice, the form submission is processed automatically. Otherwise, it must be processed manually. You will receive a notification (![icon][img11]). See [Process form submissions][6].
 * **Manually for all submissions**: You will receive a notification (![icon][img11]) for each submitted form. To process form submissions manually, see [Process form submissions][6].
 
 **What should happen when the form is processed?** Here you can select actions to perform when a form is processed (automatically or manually):
@@ -171,7 +169,7 @@ Here you can define how a submitted form should be processed. Fill in the follow
 * **Add contact to selection**: If you have selected automatic processing above, you should add a selection here to keep track of contacts added via this form. This will also make it easier to remove any irrelevant contacts (and companies).
 * **Add contact to project**: Select a project. Contacts who submit this form will be added to this project.
 * **Add interest to contact**: Select an interest. This interest will be added to contacts who submit this form.
-* **E-mail response**: Select a form response to send to contacts when their form is processed. To create a form response, see [Form response: Step 1: Setup][7].
+* **E-mail response**: Select a form response to send to contacts when their form is processed. [How to create a form response][7].
 * **Create request**: If you have added a request field in the **Fields** category, you must also select a default category and priority for the requests that are create from this form. Submitted forms will be available under **Requests** in SuperOffice Service and in the **Request** section tab in the **Company** and **Contact** screens in SuperOffice CRM.
 * **Execute CRMScript**: Select a script or macro to run when a form submission is processed. See [CRMScript][8].
 * **Default category** / **Default business**: Select a default category and business for all contacts or companies that are added to SuperOffice based on submitted forms. With this option, you can group the form submissions and new contacts/campanies to one specific category and/or business.

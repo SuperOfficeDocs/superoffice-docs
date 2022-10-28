@@ -31,7 +31,7 @@
 
 1. **Completed:** This box indicates whether the project is completed or not.
 
-1. **Publish:** (requires separate licence) If you check this box, the project will be visible to external users through third-party applications. For more information about this, see the SuperOffice Audience help. You can choose to have the project published for a specified period of time only (see [The Event tab][4]).
+1. **Publish:** (requires separate licence) If you check this box, the project will be visible to external users through third-party applications. You can choose to have the project published for a specified period of time only (see [The Event tab][4]).
 
 <!-- Referenced links -->
 [5]: ../../getting-started/duplicates.md

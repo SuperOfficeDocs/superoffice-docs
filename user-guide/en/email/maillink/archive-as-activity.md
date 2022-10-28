@@ -11,7 +11,7 @@ language: en
 
 # Archive email as activity
 
-If you receive an email requesting you to do something, you can convert the email into an activity in SuperOffice CRM.
+If you receive an email requesting you to take action, you can convert the email into an activity in SuperOffice CRM.
 
 1. Select the email(s) you would like to archive as an activity.
 

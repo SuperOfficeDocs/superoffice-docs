@@ -28,7 +28,7 @@ Trackable links can be used in a variety of interesting ways:
 
     An alternative to this unsubscribe link is to let the customer unsubscribe from individual recipient lists, such as the "Product A newsletter" list, so that they will still receive mailings from other recipient lists.
 
-    You do this by adding a link (for example "Click here if you no longer wish to receive our newsletters"), which the customer can click in order to remove himself/herself from the recipient list. The customer is then removed from the selection you used as a basis for the mailing.
+    You do this by adding a link (for example "Click here if you no longer wish to receive our newsletters"), which the customer can click to remove himself/herself from the recipient list. The customer is then removed from the selection you used as a basis for the mailing.
 
     If a newsletter is sent only to contacts with the "Newsletter" interest, you can define that this interest should be removed for recipients who click the link.
 

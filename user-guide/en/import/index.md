@@ -36,7 +36,7 @@ Here are some examples of various types of import:
 
 If you want to import your companies and/or contacts into an empty SuperOffice database, you can for example do the following:
 
-* Import all company and contact data. Make sure you link all columns in the import to the correct SuperOffice fields and specify the correct [Import settings][6] in order to include all the necessary data from the import source.
+* Import all company and contact data. Make sure you link all columns in the import to the correct SuperOffice fields and specify the correct [Import settings][6] to include all the necessary data from the import source.
 * Import companies only: If you only want to import companies without contacts, go to[Import settings][6] and select the **None - do not import contact** option in the **Duplicate match** list box under **Contact**.
 * Import contacts only: If you only want to import contacts without companies, go to [Import settings][6] and select the **Import contacts without company** option in the **If no company name** list box under **Contact**.
 
@@ -46,7 +46,7 @@ If SuperOffice contains obsolete information and you want to update these fields
 
 ## Import additional information
 
-If you are missing a lot of information about customers and contacts in SuperOffice, you have the option of updating only empty fields without overwriting the existing information. To do this, use the **Merge - update empty fields** action when importing companies and contacts.
+If you are missing a lot of information about customers and contacts in SuperOffice, use the **Merge - update empty fields** action when importing companies and contacts. This will update only empty fields without overwriting the existing information.
 
 <!-- Referenced links -->
 [1]: import-from-excel.md

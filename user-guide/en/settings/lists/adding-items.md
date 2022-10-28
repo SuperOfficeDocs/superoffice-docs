@@ -21,7 +21,7 @@ To add items to both predefined and user-defined lists:
 
     <details><summary>Do you want to add an item to a specialised list?</summary>
 
-    Some list types are more specialised than those referred to in this procedure. For more information, see [Specialised lists][1].
+    Some list types are more specialised than those referred to in this procedure. [Specialised lists][1].
     </details>
 
 4. Enter the required name of the item in the **Name** field.

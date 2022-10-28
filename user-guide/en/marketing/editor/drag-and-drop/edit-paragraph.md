@@ -16,7 +16,7 @@ language: en
 > [!TIP]
 > To edit global properties and layout for the message, select **Body** (![icon][img2]) in the side-panel. If you have defined specific properties for individual sections, these are not overridden by global properties.
 >
-> Use the **Desktop** (![icon][img3]) and **Mobile** (![icon][img4]) at the top of the side-panel to edit properties for desktop versions and mobile versions of the message. See [Customise the message for display on mobile devices][1].
+> Use the **Desktop** (![icon][img3]) and **Mobile** (![icon][img4]) at the top of the side-panel to edit properties for desktop versions and [mobile versions of the messages][1].
 
 ## Edit text content
 
@@ -31,7 +31,7 @@ To edit text content (text blocks) in a message, do as follows:
 
 4. Click **Merge tags** (same as template variables) to [insert merge tags in the message][2].
 
-5. Add tracked links to the message. For example, you can add a link to an information page for a product. You can create a new link or add an existing link. See [Include links you want to track][3].
+5. [Add tracked links to the message][3]. For example, you can add a link to an information page for a product. You can create a new link or add an existing link.
 
     To add a regular link (untracked): Select a text and click ![icon][img6] in the toolbar. Enter the link in the **URL** field.
 

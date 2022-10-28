@@ -23,7 +23,7 @@ To create a new email filter:
 
     * **Description**: Enter a brief description of the email filter.
     * **Priority**: In this list box, you select the filter's priority. A value of 10 is the highest priority and 1 the lowest.
-    * **Script**: Here you can select a script or macro to be run by this filter. See [Macros and scripts][1].
+    * **Script**: Here you can select a [script or macro][1] to be run by this filter.
 
 1. Select whether to apply this filter for all incoming email or only emails matching specific criteria:
 
