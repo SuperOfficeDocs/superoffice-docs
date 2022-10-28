@@ -81,13 +81,23 @@ if (m.size() == 0) {
 Returns the value for the given key.
 
 ```crmscript
-Map m = Map("height=25\nwidth=10;
+Map m = Map("height=25\nwidth=10);
 String key = depth;
 
 printLine(m.get(key));
 ```
 
 `getKey()` and `getVal()` also retrieve data from the map. These methods depend on the internal iterator of the map and are described in the *Looping* section.
+
+### String getWithFallBack(String key, String fallback)
+
+Returns the fallback value if key does not exist.
+
+```crmscript!
+Map m = Map("height=25\nwidth=10");
+
+printLine(m.getWithFallBack("foo", "bar"));
+```
 
 ## Updating elements
 
