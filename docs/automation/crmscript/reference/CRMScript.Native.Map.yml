@@ -16,6 +16,7 @@ items:
   - CRMScript.Native.Map.get(String)
   - CRMScript.Native.Map.getKey()
   - CRMScript.Native.Map.getVal()
+  - CRMScript.Native.Map.getWithFallBack(String, String)
   - CRMScript.Native.Map.increaseValueForKey(String, Float)
   - CRMScript.Native.Map.increaseValueForKey(String, Integer)
   - CRMScript.Native.Map.insert(String, String)
@@ -206,6 +207,33 @@ items:
     return:
       type: CRMScript.Global.String
       description: "The value pointed to by the internal iterator."
+- uid: CRMScript.Native.Map.getWithFallBack(String, String)
+  commentId: M:CRMScript.Native.Map.getWithFallBack(String, String)
+  id: getWithFallBack(String, String)
+  so.intellisense: Map.getWithFallBack
+  so.version: 10.1.8
+  langs:
+  - crmscript
+  parent: CRMScript.Native.Map
+  name: getWithFallBack(String, String)
+  nameWithType: Map.getWithFallBack(String, String)
+  fullName: CRMScript.Native.Map.getWithFallBack(String, String)
+  type: Method
+  summary: "\nReturns the fallback value if key does not exist.\n"
+  example:
+    - "\n<pre><code>Map m = Map(&quot;height=25\\nwidth=10&quot;);\nprintLine(m.getWithFallBack(&quot;foo&quot;, &quot;bar&quot;));</code></pre>\n"
+  syntax:
+    content: String getWithFallBack(String key, String fallback)
+    parameters: 
+      - id: key
+      type: CRMScript.Global.String
+      description: "The key to look up."
+      - id: fallback
+        type: CRMScript.Global.String
+        description: "The fallback value."
+    return:
+      type: CRMScript.Global.String
+      description: "The value of key or fallback value if key does not exist."
 - uid: CRMScript.Native.Map.increaseValueForKey(String, Integer)
   commentId: M:CRMScript.Native.Map.increaseValueForKey(String, Integer)
   id: increaseValueForKey(String, Integer)
