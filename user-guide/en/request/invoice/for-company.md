@@ -4,17 +4,17 @@ title: View invoice data for companies
 description: View invoice data for companies
 author: SuperOffice RnD
 so.date: 06.29.2022
-keywords: Service
+keywords: request
 so.topic: help
 language: en
 ---
 
 # View invoice data for companies
 
-When processing requests, you have the option of registering invoice data as you proceed (see [Invoice information][1]). When the request is closed, the customer can be invoiced for the work performed.
+When processing requests, you have the option of [registering invoice data][1] as you proceed. When the request is closed, the customer can be invoiced for the work performed.
 
 > [!NOTE]
-> The invoice feature is only available if you have registered invoice types and have the required feature toggle. See [Invoice types][2].
+> The invoice feature is only available if you have registered [invoice types][2] and have the required feature toggle.
 
 To view invoice information that has been registered for a specific company, do as follows:
 

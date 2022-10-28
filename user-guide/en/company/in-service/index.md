@@ -45,7 +45,7 @@ Click the ![icon][img1] **Actions** button to access the following options:
 
 <!-- Referenced links -->
 [1]: find.md
-[2]: ../../request/open.md
+[2]: ../../request/index.md#open
 [3]: ../../person/in-service/index.md
 [4]: create.md
 [5]: edit.md

@@ -5,7 +5,7 @@ description: Delete request status
 author: SuperOffice RnD
 so.date: 06.29.2022
 keywords: request, status
-so.topic: help
+so.topic: howto
 language: en
 ---
 

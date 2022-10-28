@@ -33,7 +33,7 @@ Click the ![icon][img1] **Actions** button to access the following options:
 
 * **Edit contact**: Click here to [change the details][3] registered for the contact.
 * **New request**: Click here to [create a new request][4] linked to the contact in question.
-* **New quick request**: Click here to create a new request as fast as possible, linked to the contact in question. See [New quick request][5].
+* **New quick request**: Click here to create a new request as fast as possible, linked to the contact in question.
 * **Send password**: Click here to [send the contact's user name and password by email][6].
 * **Invoices**: Click here to [display invoice data][7] recorded for the contact.
 * **Open in SuperOffice CRM**: Click here to show the contact in SuperOffice CRM, if you have a licence for this application.
@@ -47,7 +47,6 @@ Click the ![icon][img1] **Actions** button to access the following options:
 [2]: create.md
 [3]: edit.md
 [4]: ../../request/howto/create.md
-[5]: ../../request/howto/quick-reply.md
 [6]: ../../customer-center/send-credentials.md
 [7]: ../../request/invoice/for-contact.md
 [8]: delete.md

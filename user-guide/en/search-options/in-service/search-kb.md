@@ -29,7 +29,7 @@ To search for information in the knowledge base:
 
 <!-- Referenced links -->
 [1]: ../../request/screen/knowledge-base.md
-[2]: ../../request/externaldocument.md
+[2]: ../../request/external-document.md
 [3]: ../../document/in-service/index.md
 [4]: ../../faq/index.md
 [5]: ../../request/reply-templates/index.md

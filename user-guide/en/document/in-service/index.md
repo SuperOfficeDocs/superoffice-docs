@@ -27,7 +27,7 @@ Under **Knowledge Base > Documents** you can add documents to make them availabl
 * [Work with external documents][1]
 
 <!-- Referenced links -->
-[1]: ../../request/externaldocument.md
+[1]: ../../request/external-document.md
 [2]: view.md
 [3]: create.md
 [4]: edit.md

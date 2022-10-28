@@ -4,8 +4,8 @@ title:  Add requests to the favourites list
 description:  Add requests to the favourites list
 author: SuperOffice RnD
 so.date: 06.29.2022
-keywords: Service
-so.topic: help
+keywords: request, fav
+so.topic: howto
 language: en
 ---
 
@@ -14,7 +14,7 @@ language: en
 In SuperOffice Service there is a favourites list, to which you can add requests you want to remind yourself to follow up.
 
 > [!TIP]
-> You can also add contacts, companies, selections and mailings to your favourites. These favourites can be accessed by clicking the relevant icon in the Navigator and clicking ![icon][img3]. See [Favourites][1].
+> You can also add contacts, companies, selections and mailings to your [favourites][1]. These favourites can be accessed by clicking the relevant icon in the Navigator and clicking ![icon][img3].
 
 ## Add one request
 
@@ -47,7 +47,7 @@ To view the favourites list, do one of the following:
 <!-- Referenced links -->
 [1]: ../../getting-started/favourites.md
 [2]: transfer.md
-[3]: ../open.md
+[3]: ../index.md#open
 
 <!-- Referenced images -->
 [img1]: ../../../../common/icons/favourite-no.png

@@ -4,8 +4,8 @@ title: Create reply templates
 description: Create reply templates
 author: SuperOffice RnD
 so.date: 06.29.2022
-keywords: Service
-so.topic: help
+keywords: request
+so.topic: howto
 language: en
 ---
 
@@ -67,20 +67,41 @@ To create a new reply template:
 
 11. Click **OK** to save the reply template. The **(Unspecified language)** tab changes to the selected language. Click **Back** to go back to the folder structure for reply templates. It is now available for use in [responding to customer enquiries][4].
 
+## Create custom layout for replies using categories
+
+To give each department in your company a custom layout for their correspondence, you can create reply templates with different layouts. Each reply template can be linked to a [category][1] representing a department. All outgoing replies from the categories (departments) will be merged with the department specific design.
+
+Apart from the layout/formatting of the reply template, it must contain the following template variables to be able to merge with the reply:
+
+```text
+[[IF:message.bodyHtml!=""]]
+[[message.bodyHtml]]
+[[ELSE]]
+[[message.body]]
+[[ENDIF]]
+```
+
+## <a id="autofaq" />Automatic FAQ reply
+
+SuperOffice Service comes with a set of reply templates. Among these reply templates you will find "Example of an automated FAQ response". This reply template contains an example of automation of replies to the customer, in the **HTML text** tab.
+
+Based on the customer's request, the system searches for corresponding words (including key words) in FAQ entries in SuperOffice Service. Based on the degree of correlation between these, suggested FAQs that could help the customer are included in the reply template that is automatically sent to the customer to confirm receipt of the request.
+
+You can select the degree of correlation between the request from the customer and the FAQ entries in the field **Minimum score for FAQ search result (in percent)** in ![icon][img2] **System settings > System > Settings**.
+
 ## What would you like to do now?
 
 * [Create new language version of reply template][5]
 * [Edit reply templates][6]
 * [Copy reply templates][7]
-* [Reply template with different layout based on category][8]
 
 <!-- Referenced links -->
+[1]: ../category/index.md
 [2]: manage-folders.md
 [4]: ../howto/reply.md
 [5]: new-language.md
 [6]: edit.md
 [7]: copy.md
-[8]: custom-category.md
 
 <!-- Referenced images -->
 [img1]: ../../../../common/icons/delete-red.png

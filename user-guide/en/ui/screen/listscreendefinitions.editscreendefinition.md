@@ -20,7 +20,7 @@ Here you can edit the properties of a screen. You can create a script to precalc
 * **ID string**: A string which uniquely identifies this screen, so that it can be referenced in URL's
 * **Authentication key**: It is possible to run a custom-defined screen without being logged in as an user. In order to do this, you need to supply an authentication key.
 * **Warn on navigate**: Warn when the user navigates away from a page which contains unsaved data.
-* **Use auto-save**: Activate the autosave function. See [Autosave][1].
+* **Use auto-save**: Activate the [autosave function][1].
 
 ## **Scripts**
 
@@ -30,7 +30,7 @@ Here you can edit the properties of a screen. You can create a script to precalc
 * **Hidden variables**: The variables defined here are saved when the screen is submitted, so the next screen has access to them.
 
 <!-- Referenced links -->
-[1]: ../../request/howto/autosave.md
+[1]: ../../request/howto/create.md
 
 <!-- Referenced images -->
 [img1]: ../../../../common/icons/dropdown-arrow.png

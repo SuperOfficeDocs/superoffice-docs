@@ -4,8 +4,8 @@ title: View invoice data for contacts
 description: View invoice data for contacts
 author: SuperOffice RnD
 so.date: 06.29.2022
-keywords: Service
-so.topic: help
+keywords: request, invoice
+so.topic: howto
 language: en
 ---
 

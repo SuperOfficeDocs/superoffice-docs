@@ -1,11 +1,11 @@
 ---
 uid: help-en-request-message-edit
 title: Edit message
-description: Edit message
+description: How to edit a message in a request in SuperOffice
 author: SuperOffice RnD
 so.date: 06.29.2022
-keywords: Service
-so.topic: help
+keywords: request
+so.topic: howto
 language: en
 ---
 
@@ -24,7 +24,7 @@ It is possible to edit the properties of a message in a request, but only admini
 5. Click **OK** when you are finished.
 
 <!-- Referenced links -->
-[1]: ../open.md
+[1]: ../index.md#open
 [2]: create.md#invoice-information
 
 <!-- Referenced images -->

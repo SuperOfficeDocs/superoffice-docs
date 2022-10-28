@@ -4,8 +4,8 @@ title: Copy reply templates
 description: Copy reply templates
 author: SuperOffice RnD
 so.date: 06.29.2022
-keywords: Service
-so.topic: help
+keywords: request
+so.topic: howto
 language: en
 ---
 
@@ -23,13 +23,11 @@ If you want to create a new reply template based on an existing reply template, 
 ## What would you like to do now?
 
 * [Add reply templates to messages][3]
-* [Create reply templates][4]
 * [Edit reply templates][5]
 * [Delete reply templates][6]
 
 <!-- Referenced links -->
 [3]: ../howto/reply.md
-[4]: create.md
 [5]: edit.md
 [6]: delete.md
 

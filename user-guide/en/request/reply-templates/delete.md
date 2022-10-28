@@ -4,7 +4,7 @@ title: Delete reply templates
 description: Delete reply templates
 author: SuperOffice RnD
 so.date: 06.29.2022
-keywords: Service
+keywords: request
 so.topic: help
 language: en
 ---

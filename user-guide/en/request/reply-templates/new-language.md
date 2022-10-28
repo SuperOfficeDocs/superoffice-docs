@@ -4,8 +4,8 @@ title: Create new language version of reply template
 description: Create new language version of reply template
 author: SuperOffice RnD
 so.date: 06.29.2022
-keywords: Service
-so.topic: help
+keywords: request
+so.topic: howto
 language: en
 ---
 

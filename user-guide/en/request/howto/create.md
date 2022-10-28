@@ -4,24 +4,23 @@ title: ticket newTicket
 description: ticket newTicket
 author: SuperOffice RnD
 so.date: 06.29.2022
-keywords: Service
+keywords: request
 so.topic: help
 language: en
 ---
 
 # Create a request
 
-> [!TIP]
-> If you are very busy and just need to register a request fast, see [New quick request][1].
+A request can arrive in the system via an email from the customer, or you can register it manually via the **New request** screen. This would be the case if a customer makes an enquiry by phone.
 
-A request can arrive in the system via an e-mail from the customer, or you can register it manually via the **New request** screen. This would be the case if a customer makes an enquiry by phone.
+## Workflow
 
 1. Select **Requests** > **New request**.
 
 2. When you create a new request, the **To** field has the following purposes:
 
     * By default, the contact(s) entered here will also be the contact(s) for the new request.
-    * Contact(s) entered here will receive the message (in the **Message** tab) by e-mail (even if the access level of the message is set to **Internal**).
+    * Contact(s) entered here will receive the message (in the **Message** tab) by email (even if the access level of the message is set to **Internal**).
     * If you enter more than one contact, the first contact will be the main contact for the request. You can click and drag the contacts to change the order.
 
     In the **To** field, start typing the name (or phone number) of the contact. In the list of search results, use the up/down arrow keys on your keyboard to select a contact and press **ENTER**.
@@ -46,7 +45,7 @@ A request can arrive in the system via an e-mail from the customer, or you can r
 
 7. Go to the **Extra fields** tab and enter information in any available [extra fields](#extra-fields).
 
-8. Click **OK** to save the request. See also [Autosave][2].
+8. Click **OK** to save the request. See also [Autosave](#autosave).
 
 ## Properties
 
@@ -72,7 +71,7 @@ Here you enter information to correctly assign and prioritize the request.
   * You can add additional contacts if you like.
   * Contacts added here will be linked to the request and are able to view information about the request in SuperOffice Customer Centre.
   * If you enter more than one contact, the first contact will be the main contact for the request. You can click and drag the contacts to change the order.
-  * Click ![icon][img1] to create a new contact. See [Create contacts][5].
+  * Click ![icon][img1] to [create a new contact][5].
 * Automatically add message recipients as request contacts: This checkbox is selected by default for new requests, so any recipients you add in the **To** field when creating the request, will also be added as contacts for the request. The contacts are added when you click **OK**.
 
 ## Message
@@ -89,7 +88,7 @@ The section at the bottom contains the following options:
   * Click **Upload files (or drag here)** to browse to and add a file from a disk or server.
   * Drag and drop a file from Windows Explorer to the attachments field.
   * Click **Choose a CRM document** to select a document in SuperOffice CRM.
-* **Insert**: Click the list button ![icon][img4], and select what to insert in the message. You can add a reply template, an FAQ entry, a previous message, or an attachment. Optional: You can also add reply templates in other languages. Select a language in the language list. If available, the text will be inserted in the selected language. Otherwise the default language will be used. See [Create new language version of reply template][7].
+* **Insert**: Click the list button ![icon][img4], and select what to insert in the message. You can add a reply template, an FAQ entry, a previous message, or an attachment. Optional: You can also [add reply templates in other languages][7]. Select a language in the language list. If available, the text will be inserted in the selected language. Otherwise the default language will be used.
 * **Internal/External**: Here you can select **External** if the contact is to have access to the message via SuperOffice Customer Centre, or **Internal** if the contact is not to have access to the message.
 * **Time spent**: Here you can record how much time was spent dealing with the message. The clock starts automatically when you create the request. You can stop the clock by clicking the stop button ![icon][img5], and also re-start the clock by clicking the start button ![icon][img6]. Click ![icon][img7] (**Select time span**) button to register time spent.
 
@@ -112,16 +111,34 @@ Here you can add invoice lines as internal information for the request.
 
 This tab contains any extra fields defined for requests. These will vary from company to company.
 
+## Autosave
+
+Whenever you are working on a request and suddenly receive a more urgent request, you’ll have to leave the request you are working on to solve the prioritized request.
+
+The autosave function will automatically save your changes until you click **OK** to send or cancel the changes to your request.
+
+Autosaved information is placed in the local storage of your browser, so your data will even survive a browser crash, reboot, logout and login.
+
+The autosave feature is activated by default when you view and edit requests and reply/reply all).
+
+### Limitations
+
+* Autosaved data will not be transferred from one computer to another. This means that you cannot start replying to a request at work, and then continue at home.
+* Autosaved data will not be shared between two different browsers.
+* The autosave function is a useful feature, but should not replace saving your work the proper way.
+
+> [!TIP]
+> If you are using custom screens, you can [activate or deactivate autosave][6].
+
 ## What would you like to do now?
 
 * [Process requests][9]
 
 <!-- Referenced links -->
-[1]: quick-reply.md
-[2]: autosave.md
 [3]: ../priority/escalation-levels.md
 [4]: ../tags.md
 [5]: ../../person/in-service/create.md
+[6]: ../../ui/screen/listscreendefinitions.editscreendefinition.md
 [7]: ../reply-templates/new-language.md
 [8]: ../invoice/index.md
 [9]: index.md

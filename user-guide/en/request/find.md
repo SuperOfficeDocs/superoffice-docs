@@ -1,11 +1,11 @@
 ---
 uid: help-en-request-find
 title: Find a request
-description: Find a request
+description: How to find a request in SuperOffice
 author: SuperOffice RnD
 so.date: 06.29.2022
-keywords: Service
-so.topic: help
+keywords: request
+so.topic: howto
 language: en
 ---
 
@@ -18,7 +18,7 @@ If you want to find a specific request in SuperOffice Service, do one of the fol
 * Use the [quick search][3] in the top right corner.
 
 > [!TIP]
-> There is more general information about searching in the [Search in SuperOffice Service][4] topic.
+> Learn about [search in SuperOffice Service][4] in general.
 
 ## <a id="list" />Use lists
 

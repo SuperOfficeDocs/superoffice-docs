@@ -80,7 +80,7 @@ Lists requests that no-one has been assigned responsibility for. If you want to 
 ## What would you like to do now?
 
 * [Create a dashboard][1]
-* [Receive requests][3]
+* [Assign requests][3]
 * [Create requests][4]
 * [Find requests][5]
 * [Process requests][6]
@@ -88,7 +88,7 @@ Lists requests that no-one has been assigned responsibility for. If you want to 
 <!-- Referenced links -->
 [1]: ../create.md#service
 [2]: ../../request/howto/accept.md
-[3]: ../../request/howto/receive.md
+[3]: ../../request/howto/assign.md
 [4]: ../../request/howto/create.md
 [5]: ../../request/find.md
 [6]: ../../request/howto/index.md

@@ -4,15 +4,15 @@ title: Delete invoice types
 description: Delete invoice types
 author: SuperOffice RnD
 so.date: 06.29.2022
-keywords: Service
-so.topic: help
+keywords: request, invoice
+so.topic: howto
 so.user: admin
 language: en
 ---
 
 # Delete invoice types
 
-To delete an invoice type from SuperOffice Service, do as follows:
+To delete an invoice type from SuperOffice Service:
 
 1. Select ![icon][img1] **System settings** > **Invoice types**.
 2. Click the required invoice type. The **Invoice type properties** screen appears.

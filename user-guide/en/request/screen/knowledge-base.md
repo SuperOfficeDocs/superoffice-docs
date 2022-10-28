@@ -1,11 +1,11 @@
 ---
 uid: help-en-knowledge-base
-title:  Knowledge Base
-description:  Knowledge Base
+title: Knowledge Base
+description: Knowledge Base
 author: SuperOffice RnD
 so.date: 06.29.2022
-keywords: Service
-so.topic: help
+keywords: request
+so.topic: reference
 language: en
 ---
 
@@ -19,7 +19,7 @@ The knowledge base gives request handlers access to saved data in a single locat
 
 * **External documents**: Here you can add documents to make them available to anyone using SuperOffice Service, including unregistered customers. See [Work with external documents][3].
 
-* **E-mail addresses**: Here you can [create a list of e-mail addresses][4] that you use frequently, for example, people who are neither users nor registered as contacts in SuperOffice Service. These addresses will then be accessible in most places where you may want to send an e-mail.
+* **E-mail addresses**: Here you can [create a list of email addresses][4] that you use frequently, for example, people who are neither users nor registered as contacts in SuperOffice Service. These addresses will then be accessible in most places where you may want to send an e-mail.
 
 * **FAQ**: This contains a [list of frequently asked questions][5] and their answers. These entries can be made available in a web-based customer centre, where customers themselves can search for answers, and request handlers can add links to FAQ entries when replying to enquiries.
 
@@ -28,7 +28,7 @@ The knowledge base gives request handlers access to saved data in a single locat
 <!-- Referenced links -->
 [1]: ../../search-options/in-service/search-kb.md
 [2]: ../../document/in-service/index.md
-[3]: ../externaldocument.md
+[3]: ../external-document.md
 [4]: ../mailboxes/index.md
 [5]: ../../faq/index.md
 [6]: ../reply-templates/index.md

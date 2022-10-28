@@ -4,8 +4,8 @@ title: Template variables
 description: Template variables
 author: SuperOffice RnD
 so.date: 06.29.2022
-keywords: Service
-so.topic: help
+keywords: request
+so.topic: reference
 language: en
 ---
 

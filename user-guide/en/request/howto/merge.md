@@ -4,8 +4,8 @@ title: Merge requests
 description: Merge requests
 author: SuperOffice RnD
 so.date: 06.29.2022
-keywords: Service
-so.topic: help
+keywords: request
+so.topic: howto
 language: en
 ---
 
@@ -37,7 +37,7 @@ The requests that have been overwritten (i.e. the request IDs have been overwrit
 * [Forward messages to external parties][5]
 
 <!-- Referenced links -->
-[1]: ../open.md
+[1]: ../index.md#open
 [2]: ../../search-options/in-service/quick-search.md
 [3]: reply.md
 [4]: transfer.md

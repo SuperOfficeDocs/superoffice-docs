@@ -4,8 +4,8 @@ title: Invoice
 description: Invoice
 author: SuperOffice RnD
 so.date: 06.29.2022
-keywords: Service
-so.topic: help
+keywords: request
+so.topic: concept
 language: en
 ---
 

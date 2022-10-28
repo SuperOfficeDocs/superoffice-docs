@@ -1,17 +1,17 @@
 ---
-uid: help-en-document-emailaddressbook-neweabentry
-title: document emailAddressBook newEabEntry
-description: document emailAddressBook newEabEntry
+uid: help-en-mailbox-add
+title: Create email addresses
+description: Create email addresses
 author: SuperOffice RnD
 so.date: 06.29.2022
-keywords: Service
-so.topic: help
+keywords: request, mailbox
+so.topic: howto
 language: en
 ---
 
-# Create e-mail addresses
+# Create email addresses
 
-When you register e-mail addresses under **Knowledge Base** > **E-mail addresses**, they become available in most places where you need to send e-mail, such as in the **New request** and **Add message** screens. This speeds up request processing.
+When you register email addresses under **Knowledge Base** > **E-mail addresses**, they become available in most places where you need to send email, such as in the **New request** and **Add message** screens. This speeds up request processing.
 
 To register an e-mail address:
 

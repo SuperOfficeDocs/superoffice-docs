@@ -4,14 +4,14 @@ title: Reply to customer
 description: Reply to customer
 author: SuperOffice RnD
 so.date: 06.29.2022
-keywords: Service
-so.topic: help
+keywords: request
+so.topic: howto
 language: en
 ---
 
 # Reply to customer
 
-In request handling, your most important task is to respond to enquiries. Proceed as follows:
+In request handling, your most important task is to respond to enquiries.
 
 1. [Open the request][1].
 2. Click ![icon][img1] and select **Reply** or **Reply to all**. The **Message** tab in the **Request** screen appears. The contact is automatically added as a recipient in the **To** field.
@@ -41,7 +41,7 @@ When you respond to an customer enquiry, you can save time by using a reply temp
 * [Create new language version of reply template][5]
 
 <!-- Referenced links -->
-[1]: ../open.md
+[1]: ../index.md#open
 [2]: create.md#message
 [3]: close.md
 [4]: flag-message.md

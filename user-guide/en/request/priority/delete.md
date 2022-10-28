@@ -5,7 +5,7 @@ description: Delete priority
 author: SuperOffice RnD
 so.date: 06.29.2022
 keywords: request, priority
-so.topic: help
+so.topic: howto
 language: en
 ---
 

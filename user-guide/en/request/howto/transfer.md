@@ -4,8 +4,8 @@ title: Ask another request handler for help
 description: Ask another request handler for help
 author: SuperOffice RnD
 so.date: 06.29.2022
-keywords: Service
-so.topic: help
+keywords: request
+so.topic: howto
 language: en
 ---
 
@@ -34,7 +34,7 @@ As a request handler, you are not always able to answer the request on your own.
 > Before transferring responsibility for the request to someone else, it is a good idea to [add it to your favourites list][2], to remind yourself to follow it up. It will no longer be displayed under **Own open requests** when someone else is defined in the **Owner** field.
 
 <!-- Referenced links -->
-[1]: ../open.md
+[1]: ../index.md#open
 [2]: fav.md
 [3]: ../category/index.md
 

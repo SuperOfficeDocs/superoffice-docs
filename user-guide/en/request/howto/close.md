@@ -1,17 +1,17 @@
 ---
 uid: help-en-request-close
-title: Close requests
-description: Close requests
+title: Close a request
+description: How to close a request in SuperOffice
 author: SuperOffice RnD
 so.date: 06.29.2022
-keywords: Service
-so.topic: help
+keywords: request
+so.topic: howto
 language: en
 ---
 
 # Close requests
 
-Once you have responded to the request, you can set its status to **Closed**. This can be done in two different ways:
+Once you have responded to the request, you can set its status to **Closed**. This can be done in different ways:
 
 * When you send the final [request to a customer][1], you can also select **Closed** under **Status** in the **Properties** tab.
 * You can [open a request][2] at any time and select **Closed** in the **Status** list.
@@ -19,7 +19,7 @@ Once you have responded to the request, you can set its status to **Closed**. Th
 
 <!-- Referenced links -->
 [1]: reply.md
-[2]: ../open.md
+[2]: ../index.md#open
 [3]: forward.md
 
 <!-- Referenced images -->

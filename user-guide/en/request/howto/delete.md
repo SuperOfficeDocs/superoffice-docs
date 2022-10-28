@@ -1,11 +1,11 @@
 ---
 uid: help-en-request-delete
 title: Delete requests
-description: Delete requests
+description: How to delete a request in SuperOffice
 author: SuperOffice RnD
 so.date: 06.29.2022
-keywords: Service
-so.topic: help
+keywords: request
+so.topic: howto
 language: en
 ---
 
@@ -15,8 +15,6 @@ language: en
 > To access this function, your user must belong to a role with the functional right **Service administration**.
 
 In general, it is not recommended to delete a request. In some cases, however, you may have to delete a request to comply with your company's privacy policy. All messages and attachments/files linked to the request are also deleted.
-
-In order to do so:
 
 1. [Open the request you want to delete][1].
 2. Click ![icon][img1] and select **Edit request**.

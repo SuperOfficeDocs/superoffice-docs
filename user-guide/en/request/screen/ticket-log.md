@@ -1,11 +1,11 @@
 ---
-uid: help-en-ticket-showlisttickets-listticketlog
-title: ticket showListTickets listTicketLog
-description: ticket showListTickets listTicketLog
+uid: help-en-request-log
+title: Request log
+description: Request log
 author: SuperOffice RnD
 so.date: 06.29.2022
-keywords: Service
-so.topic: help
+keywords: request
+so.topic: concept
 language: en
 ---
 

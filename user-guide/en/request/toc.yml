@@ -1,32 +1,17 @@
 items:
 - name: Overview
   href: index.md
-- name: Request screens
-  href: screen/index.md
-  items:
-  - name: Request log
-    href: screen/ticket-log.md
-  - name: System templates
-    href: screen/system-templates.md
-  - name: In Settings and maintenance
-    href: screen/request-admin.md
-  - name: Knowledge base
-    href: screen/knowledge-base.md
-- name: Open and view a request
-  href: open.md
-- name: Get next request in the queue
-  href: next-in-queue.md
-- name: Find a request
-  href: find.md
 - name: How to...
   href: howto/index.md
   items:
+  - name: Find a request
+    href: find.md
   - name: Create a request
     href: howto/create.md
-  - name: New quick request
-    href: howto/quick-reply.md
-  - name: Receive requests
-    href: howto/receive.md
+  - name: Automatic assignment
+    href: howto/assign.md
+  - name: Get next request in the queue
+    href: next-in-queue.md
   - name: Take responsibility for request
     href: howto/accept.md
   - name: Ask another request handler for help
@@ -35,16 +20,14 @@ items:
     href: howto/forward.md
   - name: Reply to customer
     href: howto/reply.md
-  - name: Split request 
+  - name: Split request
     href: howto/split-request.md
   - name: Merge requests
     href: howto/merge.md
-  - name: Add requests to the favourites list
+  - name: Add requests to favourites
     href: howto/fav.md
   - name: Keep track of messages
     href: howto/flag-message.md
-  - name: Autosave
-    href: howto/autosave.md
   - name: Add a message to multiple requests
     href: howto/reply-batch.md
   - name: Edit message
@@ -62,7 +45,7 @@ items:
     href: category/create.md
   - name: Delete category
     href: category/delete.md
-- name: Using tags in requests
+- name: Tags
   href: tags.md
 - name: Priorities
   href: priority/index.md
@@ -87,15 +70,13 @@ items:
 - name: Work with email addresses
   href: mailboxes/index.md
   items:
-  - name: List email addresses
-    href: mailboxes/view-addresses.md
-  - name: newEabEntry
+  - name: Create email addresses
     href: mailboxes/add-email-address.md
-  - name: editEabFolder
+  - name: Administrate email address folders
     href: mailboxes/manage-folders.md
 
 - name: External document
-  href: externaldocument.md
+  href: external-document.md
   
 - name: Invoice
   href: invoice/index.md
@@ -109,5 +90,12 @@ items:
   - name: Delete invoice types
     href: invoice/delete-type.md
 
-- name: Customers
-  href: customers.md
+- name: Request screens
+  href: screen/index.md
+  items:
+  - name: Request log
+    href: screen/ticket-log.md
+  - name: System templates
+    href: screen/system-templates.md
+  - name: Knowledge base
+    href: screen/knowledge-base.md

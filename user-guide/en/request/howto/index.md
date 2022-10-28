@@ -1,17 +1,19 @@
 ---
 uid: help-en-request-howto
-title: ticket showListTickets
-description: ticket showListTickets
+title: Request management
+description: Request management
 author: SuperOffice RnD
 so.date: 06.29.2022
-keywords: Service
-so.topic: help
+keywords: request
+so.topic: concept
 language: en
 ---
 
 # Request management
 
-How request handling progresses will vary from request to request. The topics below describe how to perform typical tasks:
+How request handling progresses will vary from request to request.
+
+## Typical tasks
 
 * [Take responsibility for requests][1]
 * [Ask another request handler for help.][2]
@@ -27,7 +29,7 @@ Different companies have different routines for request handling and can use Sup
 
 ## Scenario 1: The customer submits the request by email
 
-1. The customer writes an e-mail to support@company.com or fills out a form in a user-support portal.
+1. The customer writes an email to support@company.com or fills out a form in a user-support portal.
 2. The customer receives [automatic acknowledgement][11] of receipt of the enquiry.
 3. The enquiry from the customer is automatically registered as a request in SuperOffice Service.
 4. The request ends up with a request handler in SuperOffice Service. See [Receive requests][12] and [Find requests][13].
@@ -84,7 +86,7 @@ Save time by letting the system categorize requests for you. If this function is
 [8]: reply-batch.md
 [9]: edit-message.md
 [11]: ../reply-templates/index.md
-[12]: receive.md
+[12]: assign.md
 [13]: ../find.md
 [14]: create.md
 

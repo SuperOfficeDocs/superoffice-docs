@@ -5,7 +5,7 @@ description: Escalation levels
 author: SuperOffice RnD
 so.date: 06.29.2022
 keywords: request, priority, escalate
-so.topic: help
+so.topic: howto
 language: en
 ---
 

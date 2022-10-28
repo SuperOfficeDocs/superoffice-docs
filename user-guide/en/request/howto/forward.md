@@ -1,11 +1,11 @@
 ---
 uid: help-en-request-forward
 title: Forward to external parties
-description: Forward to external parties
+description: How to forward a request to external parties
 author: SuperOffice RnD
 so.date: 06.29.2022
-keywords: Service
-so.topic: help
+keywords: request
+so.topic: howto
 language: en
 ---
 
@@ -40,7 +40,7 @@ In the request lists, you can forward multiple requests at the same time.
 9. Click **OK**. The requests are sent.
 
 <!-- Referenced links -->
-[1]: ../open.md
+[1]: ../index.md#open
 [2]: create.md#message
 
 <!-- Referenced images -->

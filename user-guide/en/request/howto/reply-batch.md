@@ -1,10 +1,10 @@
 ---
-uid: help-en-request-
+uid: help-en-request-reply-batch
 title: Add a message to multiple requests
 description: Add a message to multiple requests
 author: SuperOffice RnD
 so.date: 06.29.2022
-keywords: Service
+keywords: request
 so.topic: help
 language: en
 ---

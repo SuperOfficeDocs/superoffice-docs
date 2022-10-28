@@ -100,7 +100,7 @@ Since the option to create FAQ entries this way is only available to administrat
 * [Publish FAQ entries][3]
 
 <!-- Referenced links -->
-[1]: ../request/open.md
+[1]: ../request/index.md#open
 [2]: manage-folders.md
 [3]: publish.md
 [4]: edit.md

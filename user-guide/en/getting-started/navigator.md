@@ -110,7 +110,7 @@ If you hold the mouse pointer over a record in any the lists, a tooltip is displ
 [11]: ../marketing/index.md
 [12]: about-service.md
 [15]: favourites.md
-[31]: ../request/customers.md
+[31]: ../request/index.md#customers
 [32]: ../search-options/selections/in-service/index.md
 [33]: ../dashboard/in-service/statistics/index.md
 [34]: ../request/index.md

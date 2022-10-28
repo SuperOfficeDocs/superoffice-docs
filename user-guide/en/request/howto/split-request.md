@@ -4,7 +4,7 @@ title: Split requests
 description: Split requests
 author: SuperOffice RnD
 so.date: 06.29.2022
-keywords: Service
+keywords: request
 so.topic: help
 language: en
 ---
@@ -47,7 +47,7 @@ To split a request:
 
 <!-- Referenced links -->
 [1]: split-message.md
-[2]: ../open.md
+[2]: ../index.md#open
 [3]: ../priority/escalation-levels.md
 [4]: reply.md
 [5]: transfer.md

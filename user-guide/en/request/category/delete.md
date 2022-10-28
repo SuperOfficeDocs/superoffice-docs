@@ -5,7 +5,7 @@ description: Delete category
 author: SuperOffice RnD
 so.date: 06.29.2022
 keywords: request, category
-so.topic: help
+so.topic: howto
 so.user: admin
 language: en
 ---
