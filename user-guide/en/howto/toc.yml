@@ -1,4 +1,12 @@
 items:
+- name: Delete an element
+  href: deleting-elements.md
+- name: Restore deleted companies and contacts
+  href: restore-deleted-companies-and-contacts.md
+- name: Duplicates
+  href: duplicates.md
+- name: Bulk update
+  href: bulk-update.md
 - name: Work with the Section tabs
   href: section-tabs.md
   items:

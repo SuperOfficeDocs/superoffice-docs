@@ -22,6 +22,6 @@ The **Bulk update** task allows you to change specific values across multiple re
 1. Follow the steps for [Bulk update][2].
 
 <!-- Referenced links -->
-[2]: ../../../getting-started/bulk-update.md
+[2]: ../../../howto/bulk-update.md
 
 <!-- Referenced images -->

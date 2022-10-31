@@ -88,7 +88,7 @@ If you try to enter a company that is similar to one that is already in SuperOff
 [!include[Tip](../includes/tip-open-website.md)]
 
 <!-- Referenced links -->
-[2]: ../getting-started/duplicates.md
+[2]: ../howto/duplicates.md
 [3]: ../getting-started/preferences.md
 
 <!-- Referenced images -->

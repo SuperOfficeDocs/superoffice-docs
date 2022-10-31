@@ -34,7 +34,7 @@
 1. **Publish:** (requires separate licence) If you check this box, the project will be visible to external users through third-party applications. You can choose to have the project published for a specified period of time only (see [The Event tab][4]).
 
 <!-- Referenced links -->
-[5]: ../../getting-started/duplicates.md
+[5]: ../../howto/duplicates.md
 [2]: ../project-guide/index.md
 [4]: ../screen/index.md#event-tab
 

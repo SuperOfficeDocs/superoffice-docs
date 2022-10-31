@@ -84,12 +84,12 @@ At the top left in SuperOffice CRM is the SuperOffice logo, which has the follow
 <!-- Referenced links -->
 [1]: ../howto/external-applications-and-url-addresses.md
 [2]: ../howto/use-filters-in-section-tabs.md
-[3]: restore-deleted-companies-and-contacts.md
+[3]: ../howto/restore-deleted-companies-and-contacts.md
 [4]: ../diary/invitation/receive.md
 [5]: ../search-options/find-dialog.md
 [6]: preferences.md
 [7]: ../settings/edit-email-signature.md
-[8]: duplicates.md
+[8]: ../howto/duplicates.md
 [9]: notes.md
 [15]: ../win-client/creating-shortcuts-to-entries-in-crm.md
 [17]: ../sale/sales-targets.md

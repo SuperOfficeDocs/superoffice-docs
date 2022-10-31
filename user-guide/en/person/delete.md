@@ -54,8 +54,8 @@ There are three ways you can delete a contact from SuperOffice CRM:
 
 <!-- Referenced links -->
 [2]: merge-contacts.md
-[3]: ../getting-started/bulk-update.md
-[5]: ../getting-started/restore-deleted-companies-and-contacts.md
+[3]: ../howto/bulk-update.md
+[5]: ../howto/restore-deleted-companies-and-contacts.md
 [6]: create.md
 
 <!-- Referenced images -->

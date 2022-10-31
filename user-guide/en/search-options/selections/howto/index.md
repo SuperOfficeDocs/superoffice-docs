@@ -63,7 +63,7 @@ From the **Task** button in the **Selection** screen or the **Find** screen, you
 [2]: create-mailings.md
 [3]: send-email.md
 [4]: generate-follow-ups.md
-[5]: ../../../getting-started/bulk-update.md
+[5]: ../../../howto/bulk-update.md
 [6]: ../update/index.md
 [7]: ../update/delete.md
 [9]: print-labels.md

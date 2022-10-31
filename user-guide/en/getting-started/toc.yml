@@ -30,15 +30,5 @@ items:
   href: info-box.md
 - name: Note and Notepad
   href: notes.md
-- name: How to...
-  items:
-  - name: Delete an element
-    href: deleting-elements.md
-  - name: Restore deleted companies and contacts
-    href: restore-deleted-companies-and-contacts.md
-  - name: Duplicates
-    href: duplicates.md
-  - name: Bulk update
-    href: bulk-update.md
 - name: Technical requirements
   href: technical-requirements.md
