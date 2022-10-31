@@ -31,10 +31,12 @@ items:
   - CRMScript.Global.Void.decodeBase64AsStream(String)
   - CRMScript.Global.Void.decodeDBValue(String)
   - CRMScript.Global.Void.enableDebug(String)
+  - CRMScript.Global.Void.encodeBase32(Byte[])
   - CRMScript.Global.Void.encodeBase64(Byte[])
   - CRMScript.Global.Void.encodeBase64(Byte[],Bool)
   - CRMScript.Global.Void.encodeBase64(NSStream)
   - CRMScript.Global.Void.encodeBase64(NSStream,Bool)
+  - CRMScript.Global.Void.encodeHMACSHA1(Byte[],Byte[])
   - CRMScript.Global.Void.encodeHMACSHA1(String,String)
   - CRMScript.Global.Void.encodeHMACSHA256(String,String)
   - CRMScript.Global.Void.encodeHMACSHA512(String,String)
@@ -808,6 +810,29 @@ items:
     return:
       type: CRMScript.Global.Void
   example: 
+- uid: CRMScript.Global.Void.encodeBase32(Byte[])
+  commentId: M:CRMScript.Global.Void.encodeBase32(Byte[])
+  id: 'encodeBase32(Byte[])'
+  so.intellisense: Void.encodeBase32
+  so.version: 10.1.9
+  langs:
+  - crmscript
+  name: 'encodeBase32(Byte[])'
+  nameWithType: Void.encodeBase32(Byte[])
+  fullName: CRMScript.Global.Void.encodeBase32(Byte[])
+  type: Method
+  summary: "\nEncodes bytes to a base 32 string.\n"
+  remarks: 
+  syntax: 
+    content: String encodeBase32(Byte[] data)
+    parameters:
+    - id: data
+      type: CRMScript.Global.Byte[]
+      description: "Data to encode."
+    return:
+      type: CRMScript.Global.String
+      description: "A Base32-encoded string."
+  example: 
 - uid: CRMScript.Global.Void.encodeBase64(Byte[])
   commentId: M:CRMScript.Global.Void.encodeBase64(Byte[])
   id: 'encodeBase64(Byte[])'
@@ -906,6 +931,32 @@ items:
       type: CRMScript.Global.String
       description: "A Base64-encoded string."
   example: 
+- uid: CRMScript.Global.Void.encodeHMACSHA1(Byte[],Byte[])
+  commentId: M:CRMScript.Global.Void.encodeHMACSHA1(Byte[],Byte[])
+  id: 'encodeHMACSHA1(Byte[],Byte[])'
+  so.intellisense: Void.encodeHMACSHA1
+  so.version: 10.1.9
+  langs:
+  - crmscript
+  name: 'encodeHMACSHA1(Byte[],Byte[])'
+  nameWithType: Void.encodeHMACSHA1(Byte[],Byte[])
+  fullName: CRMScript.Global.Void.encodeHMACSHA1(Byte[],Byte[])
+  type: Method
+  summary: "\nGenerates and returns a hash from a specified key-value bytearray using the HMAC SHA1 encoding algorithm.\n"
+  remarks: "\nThis can be used to ensure data integrity. The hash cannot be decrypted back.\n"
+  syntax: 
+    content: Byte[] encodeHMACSHA1(Byte[] key, Byte[] value)
+    parameters:
+    - id: key
+      type: CRMScript.Global.Byte[]
+      description: "The key used to creating the hash"
+    - id: value
+      type: CRMScript.Global.Byte[]
+      description: "The value to be hashed."
+    return:
+      type: CRMScript.Global.Byte[]
+      description: "The generated hash"
+  example: 
 - uid: CRMScript.Global.Void.encodeHMACSHA1(String,String)
   commentId: M:CRMScript.Global.Void.encodeHMACSHA1(String,String)
   id: 'encodeHMACSHA1(String,String)'
@@ -930,7 +981,7 @@ items:
       description: "The value to be hashed."
     return:
       type: CRMScript.Global.String
-      description: "The generated hash"
+      description: "The generated hash (formatted as hex)."
   example: 
 - uid: CRMScript.Global.Void.encodeHMACSHA256(String,String)
   commentId: M:CRMScript.Global.Void.encodeHMACSHA256(String,String)
@@ -1005,7 +1056,7 @@ items:
       description: "The value to be hashed."
     return:
       type: CRMScript.Global.String
-      description: "The generated hash. The same value always returns the same hash (formatted as hex)."
+      description: "The generated hash (formatted as hex)."
   example: 
   - "\n<pre><code>String s = &quot;Hello world!&quot;;\n\nprintLine(encodeSHA1(&quot;Hello there!&quot;)); // Prints &quot;6b19cb3790b6da8f7c34b4d8895d78a56d078624&quot;\nprintLine(encodeSHA1(&quot;Hello world!&quot;)); // Prints &quot;d3486ae9136e7856bc42212385ea797094475802&quot;\nprintLine(encodeSHA1(s));              // Prints &quot;d3486ae9136e7856bc42212385ea797094475802&quot;</code></pre>\n"
 - uid: CRMScript.Global.Void.encodeSHA256(String,String)
