@@ -1,11 +1,11 @@
 ---
 uid: help-en-ui-side-panel
-title: Navigating in the mini card
-description: Navigating in the mini card
+title: Navigating in the side panel
+description: Navigating in the side panel
 author: SuperOffice RnD
 so.date: 06.29.2022
-keywords: CRM
-so.topic: help
+keywords: side panel
+so.topic: reference
 language: en
 ---
 
@@ -129,22 +129,22 @@ Shows a list of members of the current selection in the **Selection** screen.
 In SuperOffice Settings and maintenance, you can also define your own views for the side panel. This is described in more detail in the SuperOffice Settings and maintenance help.
 
 <!-- Referenced links -->
-[1]: ../search-options/using-history-list.md
-[2]: ../person/create.md
-[3]: ../diary/screen/day.md
-[4]: ../diary/screen/index.md
-[5]: ../document/screen/index.md
-[6]: ../diary/screen/dialog-for-followups.md
-[7]: ../search-options/selections/create/create-dynamic.yml
-[8]: favourites.md
-[9]: notes.md
+[1]: ../../search-options/using-history-list.md
+[2]: ../../person/create.md
+[3]: ../../diary/screen/day.md
+[4]: ../../diary/screen/index.md
+[5]: ../../document/screen/index.md
+[6]: ../../diary/screen/dialog-for-followups.md
+[7]: ../../search-options/selections/create/create-dynamic.yml
+[8]: ../favourites.md
+[9]: ../notes.md
 
 <!-- Referenced images -->
-[img1]: ../../media/icons/arrow-left.png
-[img2]: ../../media/icons/arrow-right.png
-[img3]: ../../../common/icons/dropdown-icon.png
-[img4]: ../../../common/icons/right-collapse.png
-[img5]: ../../../common/icons/right-expand.png
-[img7]: ../../media/icons/minicard-level.png
-[img8]: ../../media/icons/minicard-today.png
-[img9]: ../../media/icons/minicard-selected.png
+[img1]: ../../../media/icons/arrow-left.png
+[img2]: ../../../media/icons/arrow-right.png
+[img3]: ../../../../common/icons/dropdown-icon.png
+[img4]: ../../../../common/icons/right-collapse.png
+[img5]: ../../../../common/icons/right-expand.png
+[img7]: ../../../media/icons/minicard-level.png
+[img8]: ../../../media/icons/minicard-today.png
+[img9]: ../../../media/icons/minicard-selected.png

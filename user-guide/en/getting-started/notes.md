@@ -4,8 +4,8 @@ title: Taking notes
 description: Taking notes
 author: SuperOffice RnD
 so.date: 06.29.2022
-keywords: CRM
-so.topic: help
+keywords: note, notepad
+so.topic: howto
 language: en
 ---
 
@@ -51,7 +51,7 @@ When you display the Notepad on the screen, you can grab the top part of the not
 If the Notepad is open when you close SuperOffice CRM, it will also be displayed when you next start the program, with all the text saved.
 
 <!-- Referenced links -->
-[1]: side-panel.md
+[1]: main-screen/side-panel.md
 
 <!-- Referenced images -->
 [img1]: ../../media/icons/globalmenu-mainmenu-small.png

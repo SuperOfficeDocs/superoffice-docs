@@ -4,8 +4,8 @@ title: Buttons in the menu bar
 description: Buttons in the menu bar
 author: SuperOffice RnD
 so.date: 06.29.2022
-keywords: CRM
-so.topic: help
+keywords: top bar, button
+so.topic: reference
 language: en
 ---
 
@@ -16,7 +16,7 @@ The items at the top of the screen vary slightly between SuperOffice CRM, Servic
 | Button | Name | Description |
 |---|---|---|
 | ![icon][img3] | New | Click this button to quickly create new companies, contacts, sales, projects, selections, activities (appointments, phone calls, tasks, documents and emails), requests, FAQ entries, and mailings. |
-| ![icon][img8] | Find | Click this button to  [search for][5] companies, contacts, projects, selections, follow-ups, sales and documents in SuperOffice CRM. NA to Service |
+| ![icon][img8] | Find | Click this button to [search for][5] companies, contacts, projects, selections, follow-ups, sales and documents in SuperOffice CRM. NA to Service |
 | ![icon][img4] | No invitations / Notifications | Click here to open a list of new notifications in SuperOffice CRM, such as [invitations][4] and approved sales/quotes. Click an item in the list to open the relevant record. |
 | ![icon][img5] | Unread invitations | |
 | ![icon][img6] | Unanswered invitations | |
@@ -76,31 +76,31 @@ The other buttons in SuperOffice Service are described in connection with the ta
 
 At the top left in SuperOffice CRM is the SuperOffice logo, which has the following functions:
 
-![SuperOffice logo][img11]
+![SuperOffice logo][img9]
 
 * If you click the logo, the SuperOffice Community website is displayed.
 * If you hold down **CTRL** while clicking the logo, you go to the company you yourself are part of. (The main company is a [preference][6] that you can change.)
 
 <!-- Referenced links -->
-[1]: ../howto/external-applications-and-url-addresses.md
-[2]: ../howto/use-filters-in-section-tabs.md
-[3]: ../howto/restore-deleted-companies-and-contacts.md
-[4]: ../diary/invitation/receive.md
-[5]: ../search-options/find-dialog.md
-[6]: preferences.md
-[7]: ../settings/edit-email-signature.md
-[8]: ../howto/duplicates.md
-[9]: notes.md
-[15]: ../win-client/creating-shortcuts-to-entries-in-crm.md
-[17]: ../sale/sales-targets.md
+[1]: ../../howto/external-applications-and-url-addresses.md
+[2]: ../../howto/use-filters-in-section-tabs.md
+[3]: ../../howto/restore-deleted-companies-and-contacts.md
+[4]: ../../diary/invitation/receive.md
+[5]: ../../search-options/find-dialog.md
+[6]: ../preferences.md
+[7]: ../../settings/edit-email-signature.md
+[8]: ../../howto/duplicates.md
+[9]: ../notes.md
+[15]: ../../win-client/creating-shortcuts-to-entries-in-crm.md
+[17]: ../../sale/sales-targets.md
 
 <!-- Referenced images -->
-[img1]: ../../media/icons/globalmenu-mainmenu.png
-[img2]: ../../media/icons/globalmenu-personalsettings.png
-[img3]: ../../../common/icons/plus-black.png
-[img4]: ../../media/icons/globalmenu-notice.png
-[img5]: ../../media/icons/globalmenu-notice-new.png
-[img6]: ../../media/icons/globalmenu-notice-pending.png
-[img7]: ../../../common/icons/search-icon-black.png
-[img8]: ../media/globalmenu-find.png
-[img11]: ../../media/superoffice-logo.bmp
+[img1]: ../../../media/icons/globalmenu-mainmenu.png
+[img2]: ../../../media/icons/globalmenu-personalsettings.png
+[img3]: ../../../../common/icons/plus-black.png
+[img4]: ../../../media/icons/globalmenu-notice.png
+[img5]: ../../../media/icons/globalmenu-notice-new.png
+[img6]: ../../../media/icons/globalmenu-notice-pending.png
+[img7]: ../../../../common/icons/search-icon-black.png
+[img8]: ../../media/globalmenu-find.png
+[img9]: ../../../media/superoffice-logo.bmp

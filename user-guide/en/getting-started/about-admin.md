@@ -1,11 +1,11 @@
 ---
-uid: help-en-admin-web
-title: admin web
-description: admin web
+uid: help-en-admin-intro
+title: Settings and maintenance
+description: Settings and maintenance
 author: SuperOffice RnD
 so.date: 06.29.2022
 keywords: Settings and maintenance
-so.topic: help
+so.topic: concept
 language: en
 so.client: web
 ---

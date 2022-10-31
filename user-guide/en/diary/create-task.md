@@ -17,6 +17,6 @@ The **Task** dialog opens. Here you specify the task details as described under 
 
 <!-- Referenced links -->
 [1]: screen/dialog-for-followups.md
-[2]: ../getting-started/buttons-in-menu-bar.md
+[2]: ../getting-started/main-screen/buttons-in-menu-bar.md
 
 <!-- Referenced images -->

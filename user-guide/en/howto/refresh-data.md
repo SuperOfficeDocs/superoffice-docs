@@ -4,8 +4,8 @@ title: Refreshing data
 description: Refreshing data
 author: SuperOffice RnD
 so.date: 06.29.2022
-keywords: CRM
-so.topic: help
+keywords: refresh, F5
+so.topic: howto
 language: en
 ---
 

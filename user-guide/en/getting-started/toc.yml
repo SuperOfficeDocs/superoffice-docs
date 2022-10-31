@@ -10,22 +10,20 @@ items:
 - name: Log in
   href: login.md
 - name: The main screen
-  href: main-screen.md
+  href: main-screen/index.md
   items:
   - name: Navigator
-    href: navigator.md
+    href: main-screen/navigator.md
   - name: Buttons on the top bar
-    href: buttons-in-menu-bar.md
+    href: main-screen/buttons-in-menu-bar.md
   - name: Global buttons
-    href: global-buttons.md
+    href: main-screen/global-buttons.md
   - name: Side panels
-    href: side-panel.md
-  - name: Preferences
-    href: preferences.md
+    href: main-screen/side-panel.md
+- name: Preferences
+  href: preferences.md
 - name: Favourites
   href: favourites.md
-- name: Refresh data
-  href: refresh-data.md
 - name: Tooltip
   href: info-box.md
 - name: Note and Notepad

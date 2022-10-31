@@ -86,11 +86,11 @@ SuperOffice is available as an online application (cloud-based) and as an onsite
 * [Search options in SuperOffice CRM][6]
 
 <!-- Referenced links -->
-[1]: navigator.md
-[2]: buttons-in-menu-bar.md
-[3]: global-buttons.md
+[1]: main-screen/navigator.md
+[2]: main-screen/buttons-in-menu-bar.md
+[3]: main-screen/global-buttons.md
 [4]: login.md
-[5]: main-screen.md
+[5]: main-screen/index.md
 [6]: ../search-options/index.md
 [7]: ../dashboard/index.md
 [8]: ../company/index.md

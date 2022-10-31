@@ -5,6 +5,8 @@ items:
   href: restore-deleted-companies-and-contacts.md
 - name: Duplicates
   href: duplicates.md
+- name: Refresh data
+  href: refresh-data.md
 - name: Bulk update
   href: bulk-update.md
 - name: Work with the Section tabs
