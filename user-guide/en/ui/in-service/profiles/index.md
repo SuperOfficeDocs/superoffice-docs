@@ -1,17 +1,17 @@
 ---
-uid: help-en-admin-listprofiles
-title: admin listProfiles
-description: admin listProfiles
+uid: help-en-service-profile
+title: Profile
+description: Profile
 author: SuperOffice RnD
 so.date: 06.29.2022
-keywords: Service
-so.topic: help
+keywords: profile, service
+so.topic: concept
 language: en
 ---
 
 # Profile
 
-[!include[Restricted access](../../includes/note-insufficient-rights.md)]
+[!include[Restricted access](../../../includes/note-insufficient-rights.md)]
 
 Profiles in the system are used for configuring the appearance and behaviour of screen elements.
 
@@ -36,8 +36,8 @@ Using profiles, SuperOffice Service can be adapted to the needs of individual us
 * [Global profiles][3]
 
 <!-- Referenced links -->
-[1]: listProfiles.commonProfiles.md
-[2]: listProfiles.commonProfiles.md
-[3]: listProfiles.globalProfiles.md
+[1]: personal.md
+[2]: common.md
+[3]: global.md
 
 <!-- Referenced images -->

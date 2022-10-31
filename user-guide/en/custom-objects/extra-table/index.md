@@ -1,5 +1,5 @@
 ---
-uid: help-en-extra-tables
+uid: help-en-extra-table
 title:  Extra tables
 description:  Extra tables
 author: SuperOffice RnD
@@ -50,7 +50,7 @@ The **Tables** screen displays the tables that are configured in the system. Usi
 4. Click **OK** when you are asked if you want to delete the entry.
 
 <!-- Referenced links -->
-[1]: ../../ui/screen/index.md
+[1]: ../../ui/in-service/index.md
 [2]: ../../search-options/in-service/index.md
 
 <!-- Referenced images -->

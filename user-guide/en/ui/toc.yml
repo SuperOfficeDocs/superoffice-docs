@@ -1,48 +1,34 @@
 items:
 #- name: Overview
 #  href: index.md
-- name: Extra menus
-  href: extra-menus/toc.yml
-- name: Web panels
-  href: web-panels/toc.yml
 - name: Screen designer
   href: screen-designer/toc.yml
-- name: Service screens
-  href: service-screens/toc.yml
-- name: System design
-  href: screen/index.md
+- name: Web panels
+  href: web-panels/index.md
+- name: Extra menus
+  href: extra-menus/index.md
   items:
-  - name: Tables
-    href: screen/index.md
+  - name: Add function to menu button (Actions)
+    href: extra-menus/actions.md
+  - name: Add navigator group and extra menu
+    href: extra-menus/navigator.md
+  - name: Menu properties
+    href: extra-menus/properties.md
+- name: In Service
+  href: in-service/index.md
+  items:
   - name: ScreenChoosers
-    href: screen/listscreenchoosers.md
+    href: in-service/screen-chooser.md
+  - name: Screen definition
+    href: in-service/screen-definition.md
+  - name: Screen properties
+    href: in-service/screen-properties.md
+  - name: Profiles
+    href: in-service/profiles/index.md
     items:
-    - name: editScreenChooser
-      href: screen/listscreenchoosers.editscreenchooser.md
-  - name: viewScreenDefinition
-    href: screen/listscreendefinitions.viewscreendefinition.md
-    items:
-    - name: editLanguage
-      href: screen/listscreendefinitions.editlanguage.md
-    - name: editScreenAction
-      href: screen/listscreendefinitions.editscreenaction.md
-    - name: editScreenDefinition
-      href: screen/listscreendefinitions.editscreendefinition.md
-    - name: editScreenDefinitionFolder
-      href: screen/listscreendefinitions.editscreendefinitionfolder.md
-    - name: editScreenElement
-      href: screen/listscreendefinitions.editscreenelement.md
-    - name: viewScreenDefinitionDesign
-      href: screen/listscreendefinitions.viewscreendefinitiondesign.md
-  - name: Packages
-    href: screen/listpackages.md
-    items:
-    - name: Package properties
-      href: screen/listpackages.editpackage.md 
-  - name: System scripts
-    href: screen/listsystemscripts.md
-    items:
-    - name: Edit system script
-      href: screen/listsystemscripts.editsystemscript.md
-  - name: Debug log
-    href: screen/listdebuglog.md
+    - name: Personal profiles
+      href: in-service/profiles/personal.md
+    - name: Common profiles
+      href: in-service/profiles/common.md
+    - name: Global profiles
+      href: in-service/profiles/global.md

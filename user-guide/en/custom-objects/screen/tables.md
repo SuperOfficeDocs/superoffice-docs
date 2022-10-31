@@ -1,15 +1,15 @@
 ---
-uid: help-en-blogic-listextratables
-title: blogic listExtraTables
-description: blogic listExtraTables
+uid: help-en-tables-screen
+title: Tables screen
+description: Tables screen in System Design
 author: SuperOffice RnD
 so.date: 06.29.2022
-keywords: Service
+keywords: table, field, system design
 so.topic: help
 language: en
 ---
 
-# Tables
+# Tables screen
 
 [!include[Requirement](../../includes/req-expander-services.md)]
 
@@ -33,7 +33,7 @@ This screen is used to edit the properties of a new or existing table folder. Ta
 * [Define extra fields][2]
 
 <!-- Referenced links -->
-[1]: ../../custom-objects/extra-table/create.md
-[2]: ../../custom-objects/extra-field/create.md
+[1]: ../extra-table/create.md
+[2]: ../extra-field/create.md
 
 <!-- Referenced images -->

@@ -26,3 +26,5 @@ items:
   items:
   - name: SOAP
     href: screen/soap-config.md
+  - name: Package properties
+    href: screen/listpackages.editpackage.md

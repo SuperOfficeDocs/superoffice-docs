@@ -1,11 +1,11 @@
 ---
-uid: help-en-blogic-listscreendefinitions-editscreendefinition
-title: blogic listScreenDefinitions editScreenDefinition
-description: blogic listScreenDefinitions editScreenDefinition
+uid: help-en-service-screen-properties
+title: Screen properties
+description: Screen properties
 author: SuperOffice RnD
 so.date: 06.29.2022
-keywords: Service
-so.topic: help
+keywords: screen
+so.topic: reference
 language: en
 ---
 
@@ -13,7 +13,7 @@ language: en
 
 Here you can edit the properties of a screen. You can create a script to precalculate variables, possibly based on CGI variables that the screen obtains via a URL, or on a form entry in the current screen or another screen.
 
-## **Properties**
+## Properties
 
 * **Folder:** If you have organised the screens into a folder structure, click ![icon][img1] and select a folder.
 * **Name**: A descriptive name for the screen.
@@ -22,7 +22,7 @@ Here you can edit the properties of a screen. You can create a script to precalc
 * **Warn on navigate**: Warn when the user navigates away from a page which contains unsaved data.
 * **Use auto-save**: Activate the [autosave function][1].
 
-## **Scripts**
+## Scripts
 
 * **Loading script (before setFromCgi)**: This script is run before setFromCgi, i.e. before the screen elements are assigned their values
 * **Loading script (after setFromCgi)**: This script is run after setFromCgi, i.e. after the screen elements are assigned their values

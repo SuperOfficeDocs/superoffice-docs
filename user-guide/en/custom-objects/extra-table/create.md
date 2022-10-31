@@ -1,11 +1,11 @@
 ---
-uid: help-en-blogic-listextratables-editextratable
-title: blogic listExtraTables editExtraTable
-description: blogic listExtraTables editExtraTable
+uid: help-en-extra-table-create
+title:  Define extra tables
+description:  Define extra tables
 author: SuperOffice RnD
 so.date: 06.29.2022
 keywords: extra table
-so.topic: help
+so.topic: howto
 language: en
 ---
 
