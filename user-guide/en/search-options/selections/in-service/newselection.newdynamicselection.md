@@ -32,11 +32,9 @@ language: en
 
 ## What would you like to do now?
 
-[Update a selection][3]
-
-[View selections][4]
-
-[Edit a selection][5]
+* [Update a selection][3]
+* [View selections][4]
+* [Edit a selection][5]
 
 <!-- Referenced links -->
 [1]: newSelection.newSelection.md

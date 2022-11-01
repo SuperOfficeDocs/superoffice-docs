@@ -13,9 +13,7 @@ language: en
 
 1. Click **Requests**, **Customers**, **Selections**, **Knowledge Base** or **Marketing** in the Navigator on the left of the window. An empty field is displayed at the top. Below is a list of actions/functions and navigation options for the selected navigator button.
 
-2. Type in the empty field the name of the record to search for. As you type in each letter, the list underneath displays all matches.
-
-    Here are the available search options:
+2. Type in the empty field the name of the record to search for. As you type in each letter, the list underneath displays all matches. Options:
 
     * **Requests**: Enter a request ID or the first part of the request title.
     * **Customers**: Enter the first or last name of contact or the first part of the company name.

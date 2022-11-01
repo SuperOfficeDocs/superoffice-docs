@@ -38,13 +38,13 @@ Click ![icon][img1] and **Reset** to reset the filter.
 
 ## Related topics
 
-* To filter the list of members in the **Selection** screen, see [Filtering the List of Members][2].
-* To filter the **Documents** section tab in the **Reports** screen, see [Use the Filter function in the Reports screen][3].
-* [Grouping lists][1]
+* [Filter the list of selection members][2]
+* [Filter documents in the Reports screen][3]
+* [Group lists][1]
 
 <!-- Referenced links -->
 [1]: sections-tabs-grouping-lists.md
-[2]: ../search-options/selections/screen/list-of-members.md#filtering-the-list-of-members
+[2]: ../search-options/selections/screen/index.md#filter
 [3]: ../reports/filter.md
 
 <!-- Referenced images -->

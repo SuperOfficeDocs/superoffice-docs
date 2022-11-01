@@ -13,8 +13,12 @@ language: en
 
 > [!NOTE]
 > To edit a selection, you must own it or have administrator access.
+>
+> You cannot edit the **Selection of** field.
+>
+> You can turn a dynamic selection or a combined selection into a static selection, but you cannot turn a static selection into a dynamic selection or a combined selection.
 
-To edit an existing selection:
+## Edit an existing selection
 
 [!include[Open Selections](../includes/goto-selections.md)]
 

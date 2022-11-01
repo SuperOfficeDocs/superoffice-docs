@@ -1,11 +1,11 @@
 ---
-uid: help-en-rms-search-searchresult
-title: rms search searchResult
-description: rms search searchResult
+uid: help-en-search-result-service
+title: Manage the display of search results
+description: Manage the display of search results in Service
 author: SuperOffice RnD
 so.date: 06.29.2022
-keywords: Service
-so.topic: help
+keywords: search, Service
+so.topic: howto
 language: en
 ---
 

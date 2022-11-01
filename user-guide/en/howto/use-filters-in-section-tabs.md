@@ -29,7 +29,7 @@ The following filtering options are available in the section tabs:
 <!-- Referenced links -->
 [1]: use-column-filters-in-section-tabs.md
 [2]: using-filter-function-contact.md
-[3]: ../search-options/selections/screen/list-of-members.md#filtering-the-list-of-members
+[3]: ../search-options/selections/screen/index.md#filter
 [4]: ../reports/filter.md
 
 <!-- Referenced images -->

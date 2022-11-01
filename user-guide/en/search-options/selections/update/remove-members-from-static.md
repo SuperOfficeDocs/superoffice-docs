@@ -15,11 +15,11 @@ language: en
 
 [!include[Open Selections](../includes/goto-selections.md)]
 
-1. Go to the required static selection. You can, for example, search as described under [Use the Find screen][1].
+1. Go to the required static selection. For example, [use the Find screen][1].
 
 1. Click the **Remove members** button in the tab.
 
-1. In the **Remove members matching** dialog, specify the desired criteria (see [Use search criteria][2]).
+1. In the **Remove members matching** dialog, specify the desired [criteria][2].
 
 1. Click **OK**. All members that satisfy the specified search criteria will be removed.
 
@@ -27,7 +27,7 @@ language: en
 
 [!include[Open Selections](../includes/goto-selections.md)]
 
-1. Go to the required static selection. You can, for example, search as described under [Use the Find screen][1].
+1. Go to the required static selection.
 
 1. Select one or more entries in the list of members.
 

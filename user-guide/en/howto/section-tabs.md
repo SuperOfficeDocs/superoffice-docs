@@ -60,7 +60,7 @@ To change the default number of records, do as follows:
 [11]: ../diary/screen/index.md
 [12]: ../sale/screen/index.md
 [13]: ../project/screen/index.md
-[14]: ../search-options/selections/screen/section-tabs-in-selection-screen.md
+[14]: ../search-options/selections/screen/index.md
 
 <!-- Referenced images -->
 [img1]: ../../../common/icons/cog-wheel.png

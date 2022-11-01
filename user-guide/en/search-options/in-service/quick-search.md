@@ -1,11 +1,11 @@
 ---
-uid: help-en-rms-search-usequicksearch
-title: rms search useQuickSearch
-description: rms search useQuickSearch
+uid: help-en-quick-search
+title: Use quick search
+description: Use quick search
 author: SuperOffice RnD
 so.date: 06.29.2022
-keywords: Service
-so.topic: help
+keywords: search, Service
+so.topic: howto
 language: en
 ---
 
