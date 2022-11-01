@@ -257,6 +257,15 @@ For a customer who have 2 duplicate onsite-env. and already have OAuth 2.0 regis
 
 > [!NOTE]
 > The use of App Passwords is dependent on basic authentication. This type of authentication will be discontinued by Microsoft in October 2022.
+        
+<details>
+<summary>Show details on the redirect flow when connecting</summary>
+When a user starts logging into the crm inbox / Service mailbox, they enter their email address. We use the domain of the email address to try to figure out if this belongs to a provider that supports oauth2 (so far Microsoft is supported). To figure this out, we look up the mx records for the domain and we look for the domain in the Thunderbird autoconfig database (query my.domain.com : https://autoconfig.thunderbird.net/v1.1/my.domain.com ). This database contains some large company domains, but most company domains will not be found here. If either the company domain MX records or the database lookup resolves to office365.com , the user is automatically redirected to Microsoft for Oauth2 based login. If we don't recognize the email domain as a microsoft domain, the user can either input the password for normal IMAP/SMTP login or press a button to authenticate with Microsoft using Oauth2 authentication/authorization flow.
+
+When the user starts the auth flow, the user initiates with an active session in CRM.web .
+When the auth flow completes, the CRM.web  request is posted back without session cookies due to the same-site LAX restrictions. This means that ASP.net  creates a new session (since it does not see an existing session cookie). We use the PRG (https://en.wikipedia.org/wiki/Post/Redirect/Get ) workaround with the tokens saved in cookies to get the session back so we can decrypt the tokens and save them to the DB properly
+![PRG redirect flow -screenshot][img6]
+</details>
 
 <!-- Referenced links -->
 [6]: https://www.codetwo.com/kb/upn/#exchange
@@ -270,3 +279,4 @@ For a customer who have 2 duplicate onsite-env. and already have OAuth 2.0 regis
 [img3]: media/outboxitem.jpg
 [img4]: media/outboundlog.jpg
 [img5]: media/setup_microsoft.png
+[img6]: https://online2.superoffice.com/Cust1990/CS/scripts/customer.fcgi/getAttachment/5170485-ISO7rEU8onNzyrSROc5eCM7tI4A1xoxJJF8BSp4g12NUJPGalIr77TpCnJa6hkAf-0/image-20221101155629-1.png
