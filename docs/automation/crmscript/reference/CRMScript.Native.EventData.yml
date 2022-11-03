@@ -22,6 +22,7 @@ items:
   - CRMScript.Native.EventData.setOutputValue(String,String)
   - CRMScript.Native.EventData.setStateValue(String,String)
   - CRMScript.Native.EventData.setValidationMessage(String)
+  - CRMScript.Native.EventData.showDialog(String)
   name: EventData
   nameWithType: EventData
   fullName: CRMScript.Native.EventData
@@ -356,6 +357,28 @@ items:
       type: CRMScript.Global.Void
   example: 
   - "\n<pre><code>EventData ed = getEventData();\nif(ed.getInputValue(&quot;x_invoice_no.value&quot;) == &quot;&quot;) {\n  getHtmlElement(&quot;x_invoice_no&quot;).setErrorMessage(&quot;Error&quot;);\n  ed.setBlockExecution(true);\n}\n\nString orgNr = ed.getInputValue(&quot;ContactEntity.OrgNr&quot;);\nif(orgNr.isEmpty()) {\n  ed.setValidationMessage(&quot;Please type in a Org.Nr&quot;);\n}\nelse if(!orgNr.isDigit() || orgNr.getLength() != 9) {\n  // ...\n}</code></pre>\n"
+- uid: CRMScript.Native.EventData.showDialog(String)
+  commentId: M:CRMScript.Native.EventData.showDialog(String)
+  id: 'showDialog(String)'
+  so.intellisense: EventData.showDialog
+  so.version: 10.1.9
+  langs:
+  - crmscript
+  name: 'showDialog(String)'
+  nameWithType: EventData.showDialog(String)
+  fullName: CRMScript.Native.EventData.showDialog(String)
+  type: Method
+  summary: "\nMethod to trigger a dialog which can handle input from user.\n"
+  remarks: "<h3>JSON format</h3><table><thead><tr><th>Attribute</th><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>type</td><td>String</td><td>What type of dialog to open. Supports "yesno" or "okcancel"</td></tr><tr><td>title</td><td>String</td><td>Title of dialog</td></tr><tr><td>icon</td><td>String</td><td>What type of icon to show on dialog. Supports "info", "warn", "error" or "question"</td></tr><tr><td>text</td><td>String</td><td>Body text in dialog</td></tr><tr><td>width</td><td>Integer</td><td>Dialog width</td></tr><tr><td>height</td><td>Integer</td><td>Dialog height</td></tr><tr><td>fields</td><td>Array</td><td>Array with fields. See description below</td></tr><tr><td>blockExecutionOnCancel</td><td>Bool</td><td>If true, stop execution if the user press cancel</td></tr><tr><td>prefix</td><td>String</td><td>If defined, prefix fields in the input values with this text</td></tr></tbody></table><h3>Field configuration</h3><table><thead><tr><th>type</th><th>default</th><th>name</th><th>text</th><th>placeholder</th><th>mandatory</th><th>listName</th><th>listItems</th></tr></thead><tbody><tr><td>label</td><td></td><td></td><td>x</td><td></td><td></td><td></td></tr><tr><td>text</td><td>String</td><td>x</td><td>x</td><td>x</td><td>x</td><td></td><td></td></tr><tr><td>integer</td><td>Integer</td><td>x</td><td>x</td><td>x</td><td>x</td><td></td><td></td></tr><tr><td>decimal</td><td>Float</td><td>x</td><td>x</td><td>x</td><td>x</td><td></td><td></td></tr><tr><td>checkbox</td><td>Bool</td><td>x</td><td>x</td><td>x</td><td>x</td><td></td><td></td></tr><tr><td>list</td><td>String</td><td>x</td><td>x</td><td>x</td><td>x</td><td>x</td><td>x</td></tr></tbody></table><h3>Field properties</h3><table><thead><tr><th>Field attribute</th><th>Type</th></tr></thead><tbody><tr><td>name</td><td>String</td></tr><tr><td>text</td><td>String</td></tr><tr><td>placeholder</td><td>String</td></tr><tr><td>mandatory</td><td>Bool</td></tr><tr><td>listName</td><td>String</td></tr><tr><td>listItems</td><td>Array</td></tr></tbody></table>"
+  syntax: 
+    content: Void showDialog(String json)
+    parameters:
+    - id: json
+      type: CRMScript.Global.String
+      description: "JSON formatted string containing dialog configuration."
+    return:
+      type: CRMScript.Global.Void
+  example: 
 references:
 - uid: CRMScript.Native.EventData
   commentId: T:CRMScript.Native.EventData
