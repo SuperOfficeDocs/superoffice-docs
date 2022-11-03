@@ -821,7 +821,7 @@ items:
   nameWithType: Void.encodeBase32(Byte[])
   fullName: CRMScript.Global.Void.encodeBase32(Byte[])
   type: Method
-  summary: "\nEncodes bytes to a base 32 string.\n"
+  summary: "\nEncodes bytes to a base32 string.\n"
   remarks: 
   syntax: 
     content: String encodeBase32(Byte[] data)
@@ -831,7 +831,7 @@ items:
       description: "Data to encode."
     return:
       type: CRMScript.Global.String
-      description: "A Base32-encoded string."
+      description: "A base32-encoded string."
   example: 
 - uid: CRMScript.Global.Void.encodeBase64(Byte[])
   commentId: M:CRMScript.Global.Void.encodeBase64(Byte[])
@@ -844,7 +844,7 @@ items:
   nameWithType: Void.encodeBase64(Byte[])
   fullName: CRMScript.Global.Void.encodeBase64(Byte[])
   type: Method
-  summary: "\nEncodes bytes to a base 64 string.\n"
+  summary: "\nEncodes bytes to a base64 string.\n"
   remarks: "\nYou can optionally pass a Bool to control if the encoded data should be wrapped with new lines or not.\n"
   syntax: 
     content: String encodeBase64(Byte[] data)
@@ -854,7 +854,7 @@ items:
       description: "Data to encode."
     return:
       type: CRMScript.Global.String
-      description: "A Base64-encoded string."
+      description: "A base64-encoded string."
   example: 
 - uid: CRMScript.Global.Void.encodeBase64(Byte[],Bool)
   commentId: M:CRMScript.Global.Void.encodeBase64(Byte[],Bool)
@@ -867,7 +867,7 @@ items:
   nameWithType: Void.encodeBase64(Byte[],Bool)
   fullName: CRMScript.Global.Void.encodeBase64(Byte[],Bool)
   type: Method
-  summary: "\nEncodes bytes to a base 64 string specifying if the encoded data should be wrapped with new lines or not.\n"
+  summary: "\nEncodes bytes to a base64 string specifying if the encoded data should be wrapped with new lines or not.\n"
   remarks:
   syntax: 
     content: String encodeBase64(Byte[] data, bool wrapLines)
@@ -880,7 +880,7 @@ items:
       description: "Controls if the encoded data should be wrapped with new lines."
     return:
       type: CRMScript.Global.String
-      description: "A Base64-encoded string."
+      description: "A base64-encoded string."
   example: 
 - uid: CRMScript.Global.Void.encodeBase64(NSStream)
   commentId: M:CRMScript.Global.Void.encodeBase64(NSStream)
@@ -893,7 +893,7 @@ items:
   nameWithType: Void.encodeBase64(NSStream)
   fullName: CRMScript.Global.Void.encodeBase64(NSStream)
   type: Method
-  summary: "\nEncodes bytes to a base 64 string.\n"
+  summary: "\nEncodes bytes to a base64 string.\n"
   remarks: "\nYou can optionally pass a Bool to control if the encoded data should be wrapped with new lines or not.\n"
   syntax: 
     content: String encodeBase64(NSStream data)
@@ -903,7 +903,7 @@ items:
       description: "Data to encode."
     return:
       type: CRMScript.Global.String
-      description: "A Base64-encoded string."
+      description: "A base64-encoded string."
   example: 
 - uid: CRMScript.Global.Void.encodeBase64(NSStream,Bool)
   commentId: M:CRMScript.Global.Void.encodeBase64(NSStream,Bool)
@@ -916,7 +916,7 @@ items:
   nameWithType: Void.encodeBase64(NSStream,Bool)
   fullName: CRMScript.Global.Void.encodeBase64(NSStream,Bool)
   type: Method
-  summary: "\nEncodes bytes to a base 64 string specifying if the encoded data should be wrapped with new lines or not.\n"
+  summary: "\nEncodes bytes to a base64 string specifying if the encoded data should be wrapped with new lines or not.\n"
   remarks:
   syntax: 
     content: String encodeBase64(NSStream data, bool wrapLines)
@@ -929,7 +929,7 @@ items:
       description: "Controls if the encoded data should be wrapped with new lines."
     return:
       type: CRMScript.Global.String
-      description: "A Base64-encoded string."
+      description: "A base64-encoded string."
   example: 
 - uid: CRMScript.Global.Void.encodeHMACSHA1(Byte[],Byte[])
   commentId: M:CRMScript.Global.Void.encodeHMACSHA1(Byte[],Byte[])
@@ -942,20 +942,20 @@ items:
   nameWithType: Void.encodeHMACSHA1(Byte[],Byte[])
   fullName: CRMScript.Global.Void.encodeHMACSHA1(Byte[],Byte[])
   type: Method
-  summary: "\nGenerates and returns a hash from a specified key-value bytearray using the HMAC SHA1 encoding algorithm.\n"
+  summary: "\nGenerates and returns a hash from a specified key-value pair using the HMAC SHA1 encoding algorithm.\n"
   remarks: "\nThis can be used to ensure data integrity. The hash cannot be decrypted back.\n"
   syntax: 
     content: Byte[] encodeHMACSHA1(Byte[] key, Byte[] value)
     parameters:
     - id: key
       type: CRMScript.Global.Byte[]
-      description: "The key used to creating the hash"
+      description: "The key used to create the hash."
     - id: value
       type: CRMScript.Global.Byte[]
       description: "The value to be hashed."
     return:
       type: CRMScript.Global.Byte[]
-      description: "The generated hash"
+      description: "The generated hash."
   example: 
 - uid: CRMScript.Global.Void.encodeHMACSHA1(String,String)
   commentId: M:CRMScript.Global.Void.encodeHMACSHA1(String,String)
