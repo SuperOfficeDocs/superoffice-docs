@@ -81,7 +81,7 @@ if (m.size() == 0) {
 Returns the value for the given key.
 
 ```crmscript
-Map m = Map("height=25\nwidth=10);
+Map m = Map("height=25\nwidth=10");
 String key = depth;
 
 printLine(m.get(key));

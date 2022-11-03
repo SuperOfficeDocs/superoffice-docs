@@ -225,15 +225,15 @@ items:
   syntax:
     content: String getWithFallBack(String key, String fallback)
     parameters: 
-      - id: key
+    - id: key
       type: CRMScript.Global.String
       description: "The key to look up."
-      - id: fallback
-        type: CRMScript.Global.String
-        description: "The fallback value."
+    - id: fallback
+      type: CRMScript.Global.String
+      description: "The fallback value."
     return:
       type: CRMScript.Global.String
-      description: "The value of key or fallback value if key does not exist."
+      description: "The value of key, or fallback value if key does not exist."
 - uid: CRMScript.Native.Map.increaseValueForKey(String, Integer)
   commentId: M:CRMScript.Native.Map.increaseValueForKey(String, Integer)
   id: increaseValueForKey(String, Integer)
