@@ -102,4 +102,4 @@ To delete an escalation level, do as follows:
 
 <!-- Referenced images -->
 [img1]: ../../../media/icons/globalmenu-settings-small.png
-[img2]: ../../../media/icons/service/calendar.png
+[img2]: ../../../../common/icons/diaryblack.png

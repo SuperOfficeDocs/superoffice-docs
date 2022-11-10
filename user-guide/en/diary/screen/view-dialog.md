@@ -76,7 +76,7 @@ Closes the dialog without saving changes.
 <!-- Referenced images -->
 [img2]: ../../../media/icons/arrow-right.png
 [img3]: ../../../media/icons/arrow-left.png
-[img4]: ../../../media/icons/merk-alle.bmp
-[img5]: ../../../media/icons/velg-bort-alle.bmp
+[img4]: ../../../media/icons/btn-selectall.png
+[img5]: ../../../media/icons/btn-unselectall.png
 [img6]: ../../../media/icons/arrow-up.png
 [img7]: ../../../media/icons/arrow-down.png

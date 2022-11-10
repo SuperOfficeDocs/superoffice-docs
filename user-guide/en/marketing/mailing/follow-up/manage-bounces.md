@@ -106,4 +106,4 @@ Use this option to set a contact as a former employee.
 <!-- Referenced links -->
 
 <!-- Referenced images -->
-[img1]: ../../../../media/icons/marketing-and-forms/warning-asterisk-red.png
+[img1]: ../../../../../common/icons/warning.png

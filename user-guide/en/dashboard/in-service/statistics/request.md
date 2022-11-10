@@ -70,5 +70,5 @@ In the **Settings** tab, set the following parameters:
 <!-- Referenced links -->
 
 <!-- Referenced images -->
-[img1]: ../../../../media/icons/service/calendar.png
+[img1]: ../../../../../common/icons/diaryblack.png
 [img2]: ../../../../../common/icons/now.png

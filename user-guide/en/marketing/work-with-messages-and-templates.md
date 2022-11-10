@@ -97,7 +97,7 @@ To create a new SMS template from scratch:
 To import a JSON file:
 
 1. Go to the **Message templates** tab.
-2. Click **Import** (![icon][img3]). The **Import** dialog displays.
+2. Click **Import**. The **Import** dialog displays.
 3. Select the file you want to import.
 4. Click **OK**. The message template is added.
 
@@ -109,4 +109,3 @@ To import a JSON file:
 <!-- Referenced images -->
 [img1]: ../../media/icons/btn-menu.png
 [img2]: ../../media/icons/btn-add.png
-[img3]: ../../media/icons/marketing-and-forms/btn-import.png

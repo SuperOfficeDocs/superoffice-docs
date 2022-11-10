@@ -40,4 +40,4 @@ The contacts that have been overwritten will no longer be available in favourite
 
 <!-- Referenced images -->
 [img1]: ../../../media/icons/btn-menu.png
-[img2]: ../../../media/icons/service/btn-selectall.png
+[img2]: ../../../media/icons/btn-selectall.png

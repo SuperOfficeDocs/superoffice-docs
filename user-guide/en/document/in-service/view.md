@@ -32,4 +32,4 @@ To display the contents of a document in the knowledge base:
 [4]: delete.md
 
 <!-- Referenced images -->
-[img1]: ../../../media/icons/service/down.png
+[img1]: ../../../../common/icons/archive-icon.png

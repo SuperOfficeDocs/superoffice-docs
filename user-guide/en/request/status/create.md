@@ -63,7 +63,7 @@ language: en
 
 9. Click **OK**. The request status is created.
 
-10. If required, adjust the position of the status using the arrow buttons ( ![icon][img2] and ![icon][img3] ) in the **Rank** column in the **Request status** screen. The rank here specifies the order in the **Status** list box when creating a new request.
+10. If required, adjust the position of the status using the drag handel button ( ![icon][img2] ) in the **Request status** screen. The rank here specifies the order in the **Status** list box when creating a new request.
 
 ## Related content
 
@@ -74,5 +74,4 @@ language: en
 
 <!-- Referenced images -->
 [img1]: ../../../media/icons/globalmenu-settings-small.png
-[img2]: ../../../media/icons/service/btn-rankup.png
-[img3]: ../../../media/icons/service/btn-rankdown.png
+[img2]: ../../../../common/icons/drag-handle.png

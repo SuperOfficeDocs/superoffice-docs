@@ -63,4 +63,4 @@ But you first need to register a company.
 <!-- Referenced images -->
 [img1]: ../../../media/icons/btn-add.png
 [img2]: ../../../../common/icons/delete-red.png
-[img3]: ../../../media/icons/service/btn-active-user.png
+[img3]: ../../../../common/icons/personblack.png

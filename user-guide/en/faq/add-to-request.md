@@ -17,7 +17,7 @@ When you respond to a customer enquiry, you can save time by inserting a link to
 2. Position the mouse pointer in the message where you want to insert the link.
 3. Select the entry you want:
     * In the **Insert** field, click **FAQ entry** and then select an entry. Or,
-    *Click **Add text** ![icon][img1] in the toolbar, click the folder icon ![icon][img2], click **FAQ entry**, and then select an entry.
+    *Click **Text** ![icon][img1] in the toolbar ![icon][img3] , click the folder icon ![icon][img2], click **FAQ entry**, and then select an entry.
 4. Click **Paste at cursor position**. A link is inserted which the customer can click to show the relevant FAQ entry in the customer centre.
 
 > [!TIP]
@@ -29,3 +29,4 @@ When you respond to a customer enquiry, you can save time by inserting a link to
 <!-- Referenced images -->
 [img1]: ../../media/icons/service/btn-add-text.png
 [img2]: ../../../common/icons/folder.png
+[img3]: ../../media/icons/service/msg-toolbar.png

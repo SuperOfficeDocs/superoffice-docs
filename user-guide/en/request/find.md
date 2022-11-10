@@ -102,12 +102,12 @@ Contains a list of requests that match the criteria specified above. Here you ca
 * Sort the requests by clicking the appropriate column heading.
 * Select a row to display the content of that request in the preview section.
 * [Open a request][3] by double-clicking the relevant row.
-* Click the ![icon][img5] menu button in the top right corner to access the change the view options.
+* Click the ![icon][img1] menu button in the top right corner to access the change the view options.
 
 > [!TIP]
-> Requests with a red envelope icon ( ![icon][img6] ) in the **Status** column are unread, while those with a blue icon ( ![icon][img3] ) have been read. A yellow envelope icon ( ![icon][img4] ) means read by the owner, but subsequently amended.
+> The status **Open** together with the **Read** column will give an overview if the request have been **Read by owner**, **New information** or **Not read by owner**.
 
-Under the list, you can click the ![icon][img5] menu button to access the following options:
+Under the list, you can click the ![icon][img1] menu button to access the following options:
 
 * **Export**: Click here to export the list under **Result** to a file. You can choose from these formats: Excel, HTML and plain text.
 
@@ -136,7 +136,3 @@ If the preview section is not visible, click the ![icon][img1] menu button in th
 <!-- Referenced images -->
 [img1]: ../../media/icons/btn-menu.png
 [img2]: ../../media/icons/globalmenu-personalsettings-small.png
-[img3]: ../../media/icons/service/mail-green.png
-[img4]: ../../media/icons/service/mail-yellow.png
-[img5]: ../../media/icons/btn-menu.png
-[img6]: ../../media/icons/service/mail-red.png

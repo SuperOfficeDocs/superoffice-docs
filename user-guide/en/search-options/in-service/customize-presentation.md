@@ -25,7 +25,7 @@ Clicking the element profile button ![icon][img3] in the search results list tak
 
 3. Click the element profile button ![icon][img3] on the far right of the column headings. The **Edit element profile** screen appears. This contains a list of the columns that have already been specified.
 
-4. If there is a **View functions** button ![icon][img4] below the list, simply go to the next item. But if there is a **Show fields** button ![icon][img5], click this first.
+4. If there is a **View functions** button below the list, simply go to the next item. But if there is a **Show fields** button, click this first.
 
 5. In the left-hand field below the list, enter the required column name.
 
@@ -48,13 +48,13 @@ You can also add functions, for example, a summary column in the search results 
 
 1. First follow the procedure above for adding a column called, for example, "Read by request handler", which gets information from the **Read by owner** field in the database.
 2. Use the up arrow ![icon][img8] to move this column until it is just below the **Created** (ticket.created_at) column.
-3. Click the **View functions** button ![icon][img9].
+3. Click the **View functions** button.
 4. In the field on the far left below the list, enter the name you want to give the column that will contain the function.
 5. In the list box on the right of the name field, select the **Time difference** function.
 6. In the next list box, select **Column 3**, corresponding to the **Created** column.
 7. In the next list box, select **Column 4**, corresponding to the **Read by request handler** column.
 8. Click **Add column** The new column containing the **Time difference** function is added at the bottom of the column list.
-9. If you want to move the column farther to the left of the table view, click the up arrow ![icon][img10] to the right of the relevant entry under **Columns**, until it is correctly positioned.
+9. If you want to move the column farther to the left of the table view, click the up arrow ![icon][img9] to the right of the relevant entry under **Columns**, until it is correctly positioned.
 10. Click **OK**. The column containing the function is added.
 
 > [!TIP]
@@ -62,7 +62,7 @@ You can also add functions, for example, a summary column in the search results 
 
 ## Change the order of columns
 
-Use the arrow buttons ![icon][img10] and ![icon][img11] to the right of the columns to move the various columns where you want.
+Use the arrow buttons ![icon][img9] and ![icon][img10] to the right of the columns to move the various columns where you want.
 
 ## Edit columns
 
@@ -85,11 +85,8 @@ Click the delete icon ![icon][img1] to the right of the required column. The col
 [img1]: ../../../../common/icons/delete-red.png
 [img2]: ../../../media/icons/edit.png
 [img3]: ../../../../common/icons/settingstools.png
-[img4]: ../../../media/icons/service/calculator.png
-[img5]: ../../../../common/icons/field.png
 [img6]: ../../../../common/icons/dropdown-arrow.png
-[img7]: ../../../media/icons/service/up.png
+[img7]: ../../../media/icons/arrow-up.png
 [img8]: ../../../media/icons/service/btn-RankUp.png
-[img9]: ../../../media/icons/service/calculator.png
-[img10]: ../../../media/icons/service/btn-RankUp.png
-[img11]: ../../../media/icons/service/btn-RankDown.png
+[img9]: ../../../media/icons/service/btn-RankUp.png
+[img10]: ../../../media/icons/service/btn-RankDown.png

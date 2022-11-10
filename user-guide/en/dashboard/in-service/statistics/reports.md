@@ -30,4 +30,4 @@ To run a report:
 
 <!-- Referenced images -->
 [img1]: ../../../../media/icons/edit.png
-[img2]: ../../../../media/icons/service/btn-showreport.png
+[img2]: ../../../../../common/icons/document-report.png

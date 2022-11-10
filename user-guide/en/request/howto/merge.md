@@ -45,4 +45,4 @@ The requests that have been overwritten (i.e. the request IDs have been overwrit
 
 <!-- Referenced images -->
 [img1]: ../../../media/icons/btn-menu.png
-[img2]: ../../../media/icons/service/btn-selectall.png
+[img2]: ../../../media/icons/btn-selectall.png
