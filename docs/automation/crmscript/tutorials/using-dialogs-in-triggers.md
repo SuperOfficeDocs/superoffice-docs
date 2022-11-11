@@ -3,7 +3,7 @@ uid: crmscript-using-dialogs-triggers-tutorial
 title: Using dialogs in triggers
 description: Using dialogs in triggers
 author: kronicz
-so.date: 02.11.2022
+so.date: 10.11.2022
 keywords: CRMScript, Automation, Triggers
 so.topic: tutorial
 ---
@@ -11,6 +11,10 @@ so.topic: tutorial
 # Using dialogs in triggers
 
 In certain scenarios it can be necessary to ask user for input or confirmation before completing process, using this method we allow for creating a simple dialog which will return input back to CRMScript trigger, based on this you should be able to create a useful workflow.
+
+A simple reallife scenario could be that when your users are booking new customer meetings they often forget to add travel time in their calendar.
+
+## Creating a new CRMScript trigger on After appointment save
 
 ```crmscript
 //Helper functions
@@ -48,7 +52,7 @@ Void inputText(JSONBuilder jb, String name, String label, String placeholder, St
 // Create a number field
 Void inputNumber(JSONBuilder jb, String name, String label, String placeholder, Integer default, Bool mandatory) {
   jb.pushObject("");
-  jb.addString("type", "text");
+  jb.addString("type", "number");
   jb.addString("name", name);
   jb.addString("text", label);
   jb.addString("placeholder", placeholder);

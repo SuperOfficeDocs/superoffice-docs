@@ -71,7 +71,7 @@ After you set a custom value, it can be accessed - also by other `EventData` obj
 ## Open dialog to handle user interaction
 
 > [!NOTE]
-> From version xxx we support generating a dialog from CRMScript triggers in Sales client.
+> From version 10.1.9 we support generating a dialog from CRMScript triggers in Sales client.
 
 In certain scenarios it can be necessary to ask user for input or confirmation before completing process, using this method we allow for creating a simple dialog which will return input back to CRMScript trigger, based on this you should be able to create a useful workflow.
 
