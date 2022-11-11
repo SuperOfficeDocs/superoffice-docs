@@ -11,6 +11,7 @@ items:
   - CRMScript.Global.Date
   - CRMScript.Global.DateTime
   - CRMScript.Global.Float
+  - CRMScript.Global.Long
   - CRMScript.Global.Integer
   - CRMScript.Global.String
   - CRMScript.Global.Time
@@ -50,6 +51,12 @@ references:
   name: Float
   nameWithType: Float
   fullName: CRMScript.Global.Float
+- uid: CRMScript.Global.Long
+  commentId: T:CRMScript.Global.Long
+  isExternal: true
+  name: Long
+  nameWithType: Long
+  fullName: CRMScript.Global.Long
 - uid: CRMScript.Global.String
   commentId: T:CRMScript.Global.String
   isExternal: true
