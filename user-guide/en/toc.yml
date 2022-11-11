@@ -36,7 +36,7 @@ items:
   - name: How to...
     href: howto/toc.yml
   - name: Customization
-    href: custom-objects/customization-sub-cat-index.yml
+    href: custom-objects/customization-sub-cat-index.yml    
     items:
     - name: Settings
       href: settings/toc.yml
@@ -51,6 +51,7 @@ items:
     - name: ERP
       href: erp/toc.yml
   - name: Administration
+    href: license/toc.yml
     items:
     - name: Licenses
       href: license/toc.yml
