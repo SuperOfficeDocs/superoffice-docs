@@ -14,136 +14,162 @@ In certain scenarios it can be necessary to ask user for input or confirmation b
 
 A simple reallife scenario could be that when your users are booking new customer meetings they often forget to add travel time in their calendar.
 
-## Creating a new CRMScript trigger on After appointment save
+## Creating a new CRMScript trigger on before appointment save
+
+When creating a new appointment we should open a small dialog to prompt user if they would like to add travel time.
+
+![firstdialog -screenshot][img1]
+
+First we need to create a new CRMScript trigger for event "Before saving appointment", and start by adding first dialog step;
 
 ```crmscript
-//Helper functions
-// Create a text element
-Void label(JSONBuilder jb, String text) {
-  jb.pushObject("");
-  jb.addString("type", "label");
-  jb.addString("text", text);
-  jb.popLevel();
-}
-
-// Create a checkbox
-Void checkbox(JSONBuilder jb, String name, String label, Bool default, Bool mandatory) {
-  jb.pushObject("");
-  jb.addString("type", "checkbox");
-  jb.addString("name", name);
-  jb.addString("text", label);
-  jb.addBoolean("default", default);
-  jb.addBoolean("mandatory", mandatory);
-  jb.popLevel();
-}
-
-// Create a text field
-Void inputText(JSONBuilder jb, String name, String label, String placeholder, String default, Bool mandatory) {
-  jb.pushObject("");
-  jb.addString("type", "text");
-  jb.addString("name", name);
-  jb.addString("text", label);
-  jb.addString("placeholder", placeholder);
-  jb.addString("default", default);
-  jb.addBoolean("mandatory", mandatory);
-  jb.popLevel();
-}
-
-// Create a number field
-Void inputNumber(JSONBuilder jb, String name, String label, String placeholder, Integer default, Bool mandatory) {
-  jb.pushObject("");
-  jb.addString("type", "number");
-  jb.addString("name", name);
-  jb.addString("text", label);
-  jb.addString("placeholder", placeholder);
-  jb.addInteger("default", default);
-  jb.addBoolean("mandatory", mandatory);
-  jb.popLevel();
-}
-
-// Create an MDO list field using a list name
-Void mdoListFromName(JSONBuilder jb, String name, String label, String placeholder, String listName, Integer default, Bool mandatory) {
-  jb.pushObject("");
-  jb.addString("type", "list");
-  jb.addString("name", name);
-  jb.addString("text", label);
-  jb.addString("placeholder", placeholder);
-  jb.addInteger("default", default);
-  jb.addString("listName", listName);
-  jb.addBoolean("mandatory", mandatory);
-  jb.popLevel();
-}
-
-// Create an MDO list field using a static list
-Void mdoList(JSONBuilder jb, String name, String label, String placeholder, String[] list, String default, Bool mandatory) {
-  jb.pushObject("");
-  jb.addString("type", "list");
-  jb.addString("name", name);
-  jb.addString("text", label);
-  jb.addString("placeholder", placeholder);
-  jb.addString("default", default);
-  jb.pushArray("listItems");
-  for (Integer i = 0; i < list.length(); i++) {
-    jb.addString("", list[i]);
-  }
-  jb.popLevel();
-  jb.addBoolean("mandatory", mandatory);
-  jb.popLevel();
-}
-
 EventData ed = getEventData();
-JSONBuilder jb;
-jb.pushObject(""); // <object>
-jb.addString("type", "yesNo"); // Type of buttons, yesNo gives "Yes" and "No" buttons while "okCancel" gives "OK" and "Cancel" buttons. If omitted you get OK / Cancel buttons by default.
-jb.addString("title", "Really save?"); // Dialog title
-jb.addString("text", "Do you really want to save?"); // Dialog body
-jb.addString("icon", "information"); // One of "information", "question", "warning", "error" - or it can be omitted for no icon
+Bool isNew = ed.getInputValue("IsNew").toBool();
 
-// Dialog size
-jb.addInteger("width", 500);
-jb.addInteger("height", 400);
-
-// Begin add fields
-jb.pushArray("fields"); // <array>
-
-// Create a non interactive text element
-label(jb, "This is a label text.");
-
-// Create an input text field that is not mandatory
-inputText(jb, "text", "Input text", "Enter text", "", false);
-
-// Create an input number field that is not mandatory
-inputNumber(jb, "number2", "Override Number", "Number", ed.getInputValue("ContactEntity.Number2").toInteger(), false);
-
-// Create an MDO list showing the list of associates
-mdoListFromName(jb, "namedList", "Select user", "Select user", "associate", 0, false);
-
-// Create a static list with 5 values
-String[5] values;
-values[0] = "Value 1";
-values[1] = "Value 2";
-values[2] = "Value 3";
-values[3] = "Value 4";
-values[4] = "Value 5";
-mdoList(jb, "staticList", "Select value", "Select value", values, values[0], true);
-
-// Create a mandatory checkbox field
-checkbox(jb, "confirm", "Accept terms?", false, true);
-
-// Close all the open tags in the JSONBuilder
-jb.finalize();// </array> </object>
-
-
-String confirm = ed.getInputValue("confirm"); // Assume you have a checkbox with name "confirm" here.
-if (confirm == "") {
-  // Blank value means the user hasnt seen the dialog so this block should have code to show the dialog
-  // Show dialog
-  ed.showDialog(jb.getString());
-} else {
-  // We can use input values here
-  Bool confirmFlag = confirm.toBool();  // Convert the string value to a bool
-  String text = ed.getEventData("text"); // Assume the dialog showed a field with name "text"
-  ed.setMessage("The value entered in text field was: " + text);  
+//Only run script if its a new appointment
+if(isNew)
+{
+  String step1 = ed.getInputValue("step1_button");
+  String step2 = ed.getInputValue("step2_button");
+  //Only show this dialog if not shown already
+  if(step1 == "")
+  {
+    EventDataDialogDefinition dialog;
+    dialog.setTitle("Travel time");
+    dialog.setType("yesno");
+    dialog.setIcon("question");
+    dialog.setPrefix("step1_"); //Adding prefix to dialog fields
+    dialog.setText("Do you want to add travel time to your appointment?");
+    ed.showDialog(dialog);
+  }
 }
 
 ```
+
+If user selects "Yes" we should open a new dialog to capture input from user in next dialog step.
+
+![seconddialog -screenshot][img2]
+
+Continuing our current CRMScript trigger with adding additional dialog;
+
+```crmscript
+EventData ed = getEventData();
+Bool isNew = ed.getInputValue("IsNew").toBool();
+
+//Only run script if its a new appointment
+if(isNew)
+{
+  String step1 = ed.getInputValue("step1_button");
+  String step2 = ed.getInputValue("step2_button");
+  //Only show this dialog if not shown already
+  if(step1 == "")
+  {
+    EventDataDialogDefinition dialog;
+    dialog.setTitle("Travel time");
+    dialog.setType("yesno");
+    dialog.setIcon("question");
+    dialog.setPrefix("step1_"); //Adding prefix to dialog fields
+    dialog.setText("Do you want to add travel time to your appointment?");
+    ed.showDialog(dialog);
+  }
+  else if(step1 == "yes")
+  {
+    if(step2 == "")
+    {
+      Integer default;
+      EventDataDialogDefinition dialog;
+      dialog.setTitle("Travel time");
+      dialog.setType("okcancel");
+      dialog.setIcon("info");
+      dialog.setPrefix("step2_");
+      dialog.setText("Input travel time in hours:");
+      dialog.addInteger("time", "Add travel time", default, "Input hours", true); //Adding mandatory input field
+      ed.showDialog(dialog);
+      ed.setOutputValue("step1_button", "yes"); //Making sure we send first dialog button value
+    }
+  }
+}
+```
+
+If user chooses to complete this dialog, we should add a new appointment of a specific type with duration user gave in dialog.
+
+![diaryresult -screenshot][img3]
+
+Putting it all together we are able to provide very useful automation;
+
+```crmscript
+EventData ed = getEventData();
+Bool isNew = ed.getInputValue("IsNew").toBool();
+
+//Only run script if its a new appointment
+if(isNew)
+{
+  String step1 = ed.getInputValue("step1_button");
+  String step2 = ed.getInputValue("step2_button");
+  //Only show this dialog if not shown already
+  if(step1 == "")
+  {
+    EventDataDialogDefinition dialog;
+    dialog.setTitle("Travel time");
+    dialog.setType("yesno");
+    dialog.setIcon("question");
+    dialog.setPrefix("step1_"); //Adding prefix to dialog fields
+    dialog.setText("Do you want to add travel time to your appointment?");
+    ed.showDialog(dialog);
+  }
+  else if(step1 == "yes")
+  {
+    if(step2 == "")
+    {
+      Integer default;
+      EventDataDialogDefinition dialog;
+      dialog.setTitle("Travel time");
+      dialog.setType("okcancel");
+      dialog.setIcon("info");
+      dialog.setPrefix("step2_");
+      dialog.setText("Input travel time in hours:");
+      dialog.addInteger("time", "Add travel time", default, "Input hours", true); //Adding mandatory input field
+      ed.showDialog(dialog);
+      ed.setOutputValue("step1_button", "yes"); //Making sure we send first dialog button value
+    }
+    else if(step2 == "ok")
+    {
+      DateTime startDate = ed.getInputValue("AppointmentEntity.EndDate").toDateTime();
+      DateTime endDate = ed.getInputValue("AppointmentEntity.EndDate").toDateTime().addHour(ed.getInputValue("step2_time").toInteger());
+      Integer personId = ed.getInputValue("AppointmentEntity.Person.PersonId").toInteger();
+      Integer contactId = ed.getInputValue("AppointmentEntity.Contact.ContactId").toInteger();
+      Integer appointmentType = 13; //Setting correct Appointment Type
+      NSAppointmentAgent agent;
+      NSAppointmentEntity appoint = agent.CreateDefaultAppointmentEntity();
+      NSAssociate assoc;
+      NSTaskListItem task;
+      task.SetTaskListItemId(appointmentType);
+      appoint.SetTask(task);
+      if(personId > 0)
+      {
+        NSPerson person;
+        person.SetPersonId(personId);
+        appoint.SetPerson(person);
+      }
+      if(contactId > 0)
+      {
+        NSContact contact;
+        contact.SetContactId(contactId);
+        appoint.SetContact(contact);
+      }
+      appoint.SetDescription("Travel time to " + ed.getInputValue("AppointmentEntity.Contact.Name") + " " + ed.getInputValue("AppointmentEntity.Person.Name"));
+      assoc.SetAssociateId(ed.getInputValue("AppointmentEntity.Associate.AssociateId").toInteger());
+      appoint.SetAssociate(assoc);
+      appoint.SetStartDate(startDate);
+      appoint.SetEndDate(endDate);
+      agent.SaveAppointmentEntity(appoint);
+    }
+  }
+}
+´´´
+
+Hopefully this has given a good overview of how to utilize this to automate tasks, and chaining dialogs together.
+
+[img1]: media/step1-dialog.png
+[img2]: media/step2-dialog.png
+[img3]: media/diary.png

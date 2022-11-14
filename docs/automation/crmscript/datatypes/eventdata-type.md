@@ -75,7 +75,7 @@ After you set a custom value, it can be accessed - also by other `EventData` obj
 
 In certain scenarios it can be necessary to ask user for input or confirmation before completing process, using this method we allow for creating a simple dialog which will return input back to CRMScript trigger, based on this you should be able to create a useful workflow.
 
-* Void [showDialog(String json)][15]
+* Void [showDialog(EventDataDialogDefinition dialog)][15]
 
 ## Messages
 
@@ -122,4 +122,4 @@ Navigation uses [SOProtocol][2] and [URL parameters][3].
 [12]: <xref:CRMScript.Native.EventData.setValidationMessage(String)>
 [13]: <xref:CRMScript.Native.EventData.getNavigateTo()>
 [14]: <xref:CRMScript.Native.EventData.setNavigateTo(String)>
-[15]: <xref:CRMScript.Native.EventData.showDialog(String)>
+[15]: <xref:CRMScript.Native.EventData.showDialog(EventDataDialogDefinition)>
