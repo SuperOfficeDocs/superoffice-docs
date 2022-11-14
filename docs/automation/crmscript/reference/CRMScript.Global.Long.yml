@@ -9,10 +9,10 @@ items:
     - CRMScript.Global.Long.#ctor
     - CRMScript.Global.Long.#ctor(Long)
     - CRMScript.Global.Long.#ctor(Integer)
-    - CRMScript.Global.Long.toString()
-    - CRMScript.Global.Long.isNull()
     - CRMScript.Global.Long.getHighInteger()
     - CRMScript.Global.Long.getLowInteger()
+    - CRMScript.Global.Long.isNull()
+    - CRMScript.Global.Long.toString()
   name: Long
   nameWithType: Long
   fullName: CRMScript.Global.Long
@@ -23,6 +23,7 @@ items:
   commentId: M:CRMScript.Global.Long.#ctor
   id: '#ctor'
   so.intellisense: Void.Long
+  so.version: 10.1.9
   langs:
   - crmscript
   parent: CRMScript.Global.Long
@@ -40,6 +41,7 @@ items:
   commentId: M:CRMScript.Global.Long.#ctor(Long)
   id: '#ctor(Long)'
   so.intellisense: Void.Long
+  so.version: 10.1.9
   langs:
   - crmscript
   parent: CRMScript.Global.Long
@@ -60,6 +62,7 @@ items:
   commentId: M:CRMScript.Global.Long.#ctor(Integer)
   id: '#ctor(Integer)'
   so.intellisense: Void.Long
+  so.version: 10.1.9
   langs:
   - crmscript
   parent: CRMScript.Global.Long
@@ -80,6 +83,7 @@ items:
   commentId: M:CRMScript.Global.Long.toString()
   id: toString()
   so.intellisense: Long.toString
+  so.version: 10.1.9
   langs:
   - crmscript
   parent: CRMScript.Global.Long
@@ -145,7 +149,7 @@ items:
   nameWithType: Long.getLowInteger()
   fullName: CRMScript.Global.Long.getLowInteger()
   type: Method
-  summary: "\nReturn the low 32 bits Integer of the Long.\n"
+  summary: "\nReturn the low 32-bit Integer of the Long.\n"
   example:
   - "\n<pre><code>Long c = 576460752303423488L;\nprint(c.getLowInteger().toString());</code></pre>\n"
   syntax:

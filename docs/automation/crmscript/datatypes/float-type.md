@@ -53,6 +53,17 @@ Float twoSquared = Float("1.4142");
 printLine(phi.toString(1) + ", " + twoSquared.toString(2));
 ```
 
+### Float Float(Long value)
+
+Pass a `Long` and have it converted to a `Float` object.
+
+```crmscript!
+Long n = 314L;
+Float discount = Float(n);
+Float vat = Float(25);
+printLine(discount.toString(1) + ", " + vat.toString(2));
+```
+
 ## Numeric strings
 
 Strings can have numeric content but are always written in quotes.
