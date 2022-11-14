@@ -68,6 +68,7 @@ After we have logged in we are taken straight to the contact page that contains 
 
 Since the SoProtocol string acts as a URL we can use it inside an iframe. This is very simple all you have to do is give the SoProtocol string as the src value of the iframe. Below is the code that you have to add as the HTML code of your web page.
 
+<!-- markdownlint-disable MD013 -->
 ```html
 <html xmlns="http://www.w3.org/1999/xhtml" >
 <head runat="server">
@@ -82,6 +83,7 @@ Since the SoProtocol string acts as a URL we can use it inside an iframe. This i
 </body>
 </html>
 ```
+<!-- markdownlint-restore -->
 
 In the above code, we have asked for contact ID 3. So when the iframe gets executed it will first take us to the login page of SuperOffice web since we have not logged into the system. After we have logged in the SoProtocol string will take us to the contact that we wanted.
 
