@@ -15,7 +15,7 @@ so.client:
 
 [!include[Requirement](../../../../common/includes/req-dev-tools.md)]
 
-Add custom buttons and links to the same areas you add fields to. The URL is used to open a webpage in the current or new tab, run a CRMScript from the screen, or navigate to other parts of SuperOffice using [SoProtocol][3].
+Custom buttons and links are added to the **Preview** pane when editing a layout. The URL is used to open a webpage in the current or new tab, run a CRMScript from the screen, or navigate to other parts of SuperOffice using [SoProtocol][3].
 
 Buttons and links work similarly. The difference is that you can style a button but not a link.
 
@@ -99,7 +99,7 @@ Some settings depend on the selected action.
 ![Screen Designer, open website on button -screenshot][img4]
 
 > [!NOTE]
-> If you require any other protocol than HTTP, you must explicitly add it to the URL.
+> It's recommended to specify the protocol, for example `https://www.superoffice.com`; otherwise, the default is HTTP.
 
 ### Execute CRMScript
 
