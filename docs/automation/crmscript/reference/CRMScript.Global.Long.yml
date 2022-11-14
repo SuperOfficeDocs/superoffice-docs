@@ -126,7 +126,7 @@ items:
   nameWithType: Long.getHighInteger()
   fullName: CRMScript.Global.Long.getHighInteger()
   type: Method
-  summary: "\nReturn the high 32 bits Integer of the Long.\n"
+  summary: "\nReturns the high 32-bit Integer of the Long.\n"
   example:
   - "\n<pre><code>Long c = 576460752303423488L;\nprint(c.getHighInteger().toString());</code></pre>\n"
   syntax:
