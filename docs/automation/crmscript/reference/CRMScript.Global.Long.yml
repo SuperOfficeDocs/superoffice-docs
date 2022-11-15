@@ -149,7 +149,7 @@ items:
   nameWithType: Long.getLowInteger()
   fullName: CRMScript.Global.Long.getLowInteger()
   type: Method
-  summary: "\nReturn the low 32-bit Integer of the Long.\n"
+  summary: "\nReturns the low 32-bit Integer of the Long.\n"
   example:
   - "\n<pre><code>Long c = 576460752303423488L;\nprint(c.getLowInteger().toString());</code></pre>\n"
   syntax:
