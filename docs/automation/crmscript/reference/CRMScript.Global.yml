@@ -11,8 +11,8 @@ items:
   - CRMScript.Global.Date
   - CRMScript.Global.DateTime
   - CRMScript.Global.Float
-  - CRMScript.Global.Long
   - CRMScript.Global.Integer
+  - CRMScript.Global.Long
   - CRMScript.Global.String
   - CRMScript.Global.Time
   - CRMScript.Global.Void
