@@ -164,7 +164,7 @@ references:
   name: Long
   nameWithType: Long
   fullName: CRMScript.Global.Long
-- uid: CRMScript.Global.Long
+- uid: CRMScript.Global.Integer
   commentId: T:CRMScript.Global.Integer
   isExternal: true
   name: Integer
