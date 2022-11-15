@@ -967,7 +967,7 @@ items:
   nameWithType: String.toLong()
   fullName: CRMScript.Global.String.toLong()
   type: Method
-  summary: "\nConvert the given String to a Long. If the number in the String is outside the bounds of a Long, it will become the highest or lowest possible number.\n"
+  summary: "\nConverts a String to a Long. If the number in the String is outside the bounds of a Long, it will become the highest or lowest possible number.\n"
   syntax:
     content: Long toLong()
     parameters: []
