@@ -19,7 +19,7 @@ items:
   nameWithType: Integer
   fullName: CRMScript.Global.Integer
   type: Class
-  summary: "\nIntegers are positive and negative whole 32bit unsigned numbers without decimals. If you need to work with decimals, use the Float data type.\n"
+  summary: "\nIntegers are positive and negative whole 32-bit unsigned numbers without decimals. If you need to work with decimals, use the Float data type.\n"
 - uid: CRMScript.Global.Integer.#ctor
   commentId: M:CRMScript.Global.Integer.#ctor
   id: '#ctor'
