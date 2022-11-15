@@ -9,8 +9,8 @@ items:
   - CRMScript.Global.Float.#ctor
   - CRMScript.Global.Float.#ctor(Float)
   - CRMScript.Global.Float.#ctor(Integer)
-  - CRMScript.Global.Float.#ctor(String)
   - CRMScript.Global.Float.#ctor(Long)
+  - CRMScript.Global.Float.#ctor(String)
   - CRMScript.Global.Float.abs()
   - CRMScript.Global.Float.floor()
   - CRMScript.Global.Float.isNull()
