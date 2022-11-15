@@ -18,7 +18,7 @@ items:
   fullName: CRMScript.Global.Long
   type: Class
   so.version: 10.1.9
-  summary: "\Longs are positive and negative whole 64bit unsigned numbers without decimals. If you need to work with decimals, use the Float data type.\nTo represent a long number in the code as a literal, suffix it with an &quot;L&quot;, e.g. &quot;Long l = 576460752303423488L;&quot;"
+  summary: "\Longs are positive and negative whole 64-bit unsigned numbers without decimals. If you need to work with decimals, use the Float data type.\nTo represent a long number in the code as a literal, suffix it with an &quot;L&quot;, for example, &quot;Long l = 576460752303423488L;&quot;"
 - uid: CRMScript.Global.Long.#ctor
   commentId: M:CRMScript.Global.Long.#ctor
   id: '#ctor'
