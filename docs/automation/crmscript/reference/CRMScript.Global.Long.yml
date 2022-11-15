@@ -113,7 +113,7 @@ items:
   summary: "\nReturns true if it has no value and false if it does.\n"
   remarks: "\nA NULL/NUL/NIL Long is different from zero, in that it is conceptually without a value. However, when a null Long is used naively, CRMScript is usually forgiving and interprets it as zero.\n"
   example:
-  - "\n<pre><code>Long i;\nprintLine(i.isNull().toString());\ni = 0;\nprintLine(i.isNull().toString());</code></pre>\nThe 1st output will be true because we haven't initialized ì yet.\nThe next output will be false because i now has the value 0.\n"
+  - "\n<pre><code>Long i;\nprintLine(i.isNull().toString());\ni = 0;\nprintLine(i.isNull().toString());</code></pre>\nThe first output will be true because we haven't initialized i yet.\nThe next output will be false because i now has the value 0.\n"
   syntax:
     content: Bool isNull()
     parameters: []
