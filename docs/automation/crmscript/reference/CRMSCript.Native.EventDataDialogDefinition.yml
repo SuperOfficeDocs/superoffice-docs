@@ -718,7 +718,7 @@ items:
   nameWithType: EventDataDialogDefinition.setIcon(String)
   fullName: CRMScript.Native.EventDataDialogDefinition.setIcon(String)
   type: Method
-  summary: "\Set icon type on dialog.\n"
+  summary: "\nSets icon type on dialog.\n"
   remarks: "\nSupports:<ul><li>info</li><li>warn</li><li>warn</li><li>error</li><li>question</li></ul>\n"
   syntax: 
     content: Void setIcon(String value)
