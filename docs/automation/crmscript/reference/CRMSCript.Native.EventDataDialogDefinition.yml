@@ -116,7 +116,8 @@ items:
     description: 
     return:
       type: CRMScript.Global.Void
-  example: "\n<pre><code>EventDataDialogDefinition def;\ndef.addCheckbox(&quot;checkme&quot;, &quot;My checkbox&quot;,true);</code></pre>\n"
+  example: 
+  - "\n<pre><code>EventDataDialogDefinition def;\ndef.addCheckbox(&quot;checkme&quot;, &quot;My checkbox&quot;,true);</code></pre>\n"
 - uid: CRMScript.Native.EventDataDialogDefinition.addFloat(String,String)
   commentId: M:CRMScript.Native.EventDataDialogDefinition.addFloat(String,String)
   id: 'addFloat(String,String)'
