@@ -846,7 +846,7 @@ items:
   nameWithType: EventDataDialogDefinition.setTitle(String)
   fullName: CRMScript.Native.EventDataDialogDefinition.setTitle(String)
   type: Method
-  summary: "\Set title on dialog.\n"
+  summary: "\nSets title on dialog.\n"
   remarks:
   syntax: 
     content: Void setTitle(String value)
