@@ -20,7 +20,7 @@ When creating a new appointment we should open a small dialog to prompt user if 
 
 ![firstdialog -screenshot][img1]
 
-First we need to create a new CRMScript trigger for event "Before saving appointment", and start by adding first dialog step;
+First we need to create a new CRMScript trigger for event **Before saving appointment**.  Start by adding first dialog step:
 
 ```crmscript
 EventData ed = getEventData();
