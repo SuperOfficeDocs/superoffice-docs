@@ -42,17 +42,6 @@ Float vat = Float(25);
 printLine(discount.toString(1) + ", " + vat.toString(2));
 ```
 
-### Float Float(String number)
-
-Pass a `String` containing a decimal number. The constructor will parse the text and create a `Float` object.
-
-```crmscript!
-String o = "1.618";
-Float phi = Float(o);
-Float twoSquared = Float("1.4142");
-printLine(phi.toString(1) + ", " + twoSquared.toString(2));
-```
-
 ### Float Float(Long value)
 
 Pass a `Long` and have it converted to a `Float` object.
@@ -62,6 +51,17 @@ Long n = 314L;
 Float discount = Float(n);
 Float vat = Float(25);
 printLine(discount.toString(1) + ", " + vat.toString(2));
+```
+
+### Float Float(String number)
+
+Pass a `String` containing a decimal number. The constructor will parse the text and create a `Float` object.
+
+```crmscript!
+String o = "1.618";
+Float phi = Float(o);
+Float twoSquared = Float("1.4142");
+printLine(phi.toString(1) + ", " + twoSquared.toString(2));
 ```
 
 ## Numeric strings
