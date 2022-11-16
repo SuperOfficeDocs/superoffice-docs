@@ -12,7 +12,7 @@ so.topic: tutorial
 
 In certain scenarios it can be necessary to ask user for input or confirmation before completing process, using this method we allow for creating a simple dialog which will return input back to CRMScript trigger, based on this you should be able to create a useful workflow.
 
-A simple reallife scenario could be that when your users are booking new customer meetings they often forget to add travel time in their calendar.
+A simple real-life scenario could be that when your users are booking new customer meetings they often forget to add travel time in their calendar.
 
 ## Creating a new CRMScript trigger on before appointment save
 
