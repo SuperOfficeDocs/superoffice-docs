@@ -328,7 +328,7 @@ items:
   nameWithType: EventDataDialogDefinition.addList(String,String,String)
   fullName: CRMScript.Native.EventDataDialogDefinition.addList(String,String,String)
   type: Method
-  summary: "\nAdd a list field from listname with given label.\n"
+  summary: "\nAdds a list field from listName with the given label.\n"
   remarks: 
   syntax: 
     content: Void addList(String id, String label, String listName)
