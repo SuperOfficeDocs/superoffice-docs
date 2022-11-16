@@ -50,7 +50,7 @@ If user selects "Yes" we should open a new dialog to capture input from user in 
 
 ![seconddialog -screenshot][img2]
 
-Continuing our current CRMScript trigger with adding additional dialog;
+Continuing our current CRMScript trigger with adding additional dialog:
 
 ```crmscript
 EventData ed = getEventData();
