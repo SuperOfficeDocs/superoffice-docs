@@ -804,7 +804,7 @@ items:
   nameWithType: EventDataDialogDefinition.setText(String)
   fullName: CRMScript.Native.EventDataDialogDefinition.setText(String)
   type: Method
-  summary: "\Set body text on dialog.\n"
+  summary: "\nSets body text on dialog.\n"
   remarks:
   syntax: 
     content: Void setText(String value)
