@@ -761,7 +761,7 @@ items:
   nameWithType: EventDataDialogDefinition.setPrefix(String)
   fullName: CRMScript.Native.EventDataDialogDefinition.setPrefix(String)
   type: Method
-  summary: "\Set prefix for fields in dialog.\n"
+  summary: "\nSets prefix for fields in dialog.\n"
   remarks:
   syntax: 
     content: Void setPrefix(String value)
