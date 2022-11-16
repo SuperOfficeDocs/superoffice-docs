@@ -73,7 +73,8 @@ After you set a custom value, it can be accessed - also by other `EventData` obj
 > [!NOTE]
 > From version 10.1.9 we support generating a dialog from CRMScript triggers in Sales client.
 
-In certain scenarios it can be necessary to ask user for input or confirmation before completing process, using this method we allow for creating a simple dialog which will return input back to CRMScript trigger, based on this you should be able to create a useful workflow.
+In certain scenarios, it can be necessary to ask the user for input or confirmation before completing process, using this method we allow for creating a simple dialog which will return input back to CRMScript trigger. Use this to construct a useful workflow.
+
 
 * Void [showDialog(EventDataDialogDefinition dialog)][15]
 
