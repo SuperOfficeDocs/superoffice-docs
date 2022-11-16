@@ -375,10 +375,11 @@ items:
     parameters:
     - id: dialog
       type: CRMScript.Global.EventDataDialogDefinition
-      description:
+      description: "Dialog definition"
     return:
       type: CRMScript.Global.Void
-  example: "\nEventData ed = getEventData();\nEventDataDialogDefinition dialog;\ndialog.setTitle(&quot;My dialog title&quot;);\ndialog.setType(&quot;okcancel&quot;);\ndialog.setIcon(&quot;info&quot;);\ndialog.setWidth(200);\ndialog.setHeight(200);\ndialog.setPrefix(&quot;step1_&quot;);\ndialog.setText(&quot;My body text&quot;);\ned.showDialog(dialog);\n"
+  example: 
+  - "\n<pre><code>EventData ed = getEventData();\nEventDataDialogDefinition dialog;\ndialog.setTitle(&quot;My dialog title&quot;);\ndialog.setType(&quot;okcancel&quot;);\ndialog.setIcon(&quot;info&quot;);\ndialog.setWidth(200);\ndialog.setHeight(200);\ndialog.setPrefix(&quot;step1_&quot;);\ndialog.setText(&quot;My body text&quot;);\ned.showDialog(dialog);\n</pre></code>\n"
 references:
 - uid: CRMScript.Native.EventData
   commentId: T:CRMScript.Native.EventData

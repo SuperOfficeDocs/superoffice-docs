@@ -25,22 +25,22 @@ items:
   - CRMScript.Native.EventDataDialogDefinition.addText(String,String)
   - CRMScript.Native.EventDataDialogDefinition.addText(String,String,String)
   - CRMScript.Native.EventDataDialogDefinition.addText(String,String,String,String,Bool)
-  - CRMScript.Native.EventDataDialogDefinition.removeField(String)
   - CRMScript.Native.EventDataDialogDefinition.getBlockExecutionOnCancel()
-  - CRMScript.Native.EventDataDialogDefinition.setBlockExecutionOnCancel(Bool)
   - CRMScript.Native.EventDataDialogDefinition.getHeight()
-  - CRMScript.Native.EventDataDialogDefinition.setHeight(Integer)
   - CRMScript.Native.EventDataDialogDefinition.getIcon()
-  - CRMScript.Native.EventDataDialogDefinition.setIcon(String)
   - CRMScript.Native.EventDataDialogDefinition.getPrefix()
-  - CRMScript.Native.EventDataDialogDefinition.setPrefix(String)
   - CRMScript.Native.EventDataDialogDefinition.getText()
-  - CRMScript.Native.EventDataDialogDefinition.setText(String)
   - CRMScript.Native.EventDataDialogDefinition.getTitle()
-  - CRMScript.Native.EventDataDialogDefinition.setTitle(String)
   - CRMScript.Native.EventDataDialogDefinition.getType()
-  - CRMScript.Native.EventDataDialogDefinition.setType(String)
+  - CRMScript.Native.EventDataDialogDefinition.removeField(String)
+  - CRMScript.Native.EventDataDialogDefinition.setBlockExecutionOnCancel(Bool)
+  - CRMScript.Native.EventDataDialogDefinition.setHeight(Integer)
   - CRMScript.Native.EventDataDialogDefinition.getWidth()
+  - CRMScript.Native.EventDataDialogDefinition.setIcon(String)
+  - CRMScript.Native.EventDataDialogDefinition.setPrefix(String)
+  - CRMScript.Native.EventDataDialogDefinition.setText(String)
+  - CRMScript.Native.EventDataDialogDefinition.setTitle(String)
+  - CRMScript.Native.EventDataDialogDefinition.setType(String)
   - CRMScript.Native.EventDataDialogDefinition.setWidth(Integer)
   name: EventDataDialogDefinition
   nameWithType: EventDataDialogDefinition
@@ -75,20 +75,21 @@ items:
   nameWithType: EventDataDialogDefinition.addCheckbox(String,String)
   fullName: CRMScript.Native.EventDataDialogDefinition.addCheckbox(String,String)
   type: Method
-  summary: "\nAdd a checkbox field with given label.\n"
+  summary: "\nAdds a checkbox field with given label.\n"
   remarks: 
   syntax: 
     content: Void addCheckbox(String id, String label)
     parameters:
     - id: id
       type: CRMScript.Global.String
-      description: 
+      description: "Field identifier."
     - id: label
       type: CRMScript.Global.String
-      description: 
+      description: "Field label."
     return:
       type: CRMScript.Global.Void
-  example: "\n<pre><code>EventDataDialogDefinition def;\ndef.addCheckbox(&quot;checkme&quot;, &quot;My checkbox&quot;);</code></pre>\n"
+  example: 
+  - "\n<pre><code>EventDataDialogDefinition def;\ndef.addCheckbox(&quot;checkme&quot;, &quot;My checkbox&quot;);</code></pre>\n"
 - uid: CRMScript.Native.EventDataDialogDefinition.addCheckbox(String,String,Bool)
   commentId: M:CRMScript.Native.EventDataDialogDefinition.addCheckbox(String,String,Bool)
   id: 'addCheckbox(String,String,Bool)'
@@ -100,20 +101,20 @@ items:
   nameWithType: EventDataDialogDefinition.addCheckbox(String,String,Bool)
   fullName: CRMScript.Native.EventDataDialogDefinition.addCheckbox(String,String,Bool)
   type: Method
-  summary: "\nAdd a checkbox field with given label. Possible to set field as mandatory.\n"
+  summary: "\nAdds a checkbox field with given label. Possible to set field as mandatory.\n"
   remarks: 
   syntax: 
     content: Void addCheckbox(String id, String label, Bool mandatory)
     parameters:
     - id: id
       type: CRMScript.Global.String
-      description: 
+      description: "Field identifier."
     - id: label
       type: CRMScript.Global.String
-      description: 
+      description: "Field label."
     - id: mandatory
-    type: CRMScript.Global.Bool
-    description: 
+      type: CRMScript.Global.Bool
+      description: "Setting field to mandatory if true."
     return:
       type: CRMScript.Global.Void
   example: 
@@ -129,20 +130,21 @@ items:
   nameWithType: EventDataDialogDefinition.addFloat(String,String)
   fullName: CRMScript.Native.EventDataDialogDefinition.addFloat(String,String)
   type: Method
-  summary: "\nAdd a Float field with given label.\n"
+  summary: "\nAdds a Float field with given label.\n"
   remarks: 
   syntax: 
     content: Void addFloat(String id, String label)
     parameters:
     - id: id
       type: CRMScript.Global.String
-      description: 
+      description: "Field identifier."
     - id: label
       type: CRMScript.Global.String
-      description: 
+      description: "Field label."
     return:
       type: CRMScript.Global.Void
-  example: "\n<pre><code>EventDataDialogDefinition def;\ndef.addFloat(&quot;floatNumber&quot;, &quot;My float&quot;);</code></pre>\n"
+  example: 
+  - "\n<pre><code>EventDataDialogDefinition def;\ndef.addFloat(&quot;floatNumber&quot;, &quot;My float&quot;);</code></pre>\n"
 - uid: CRMScript.Native.EventDataDialogDefinition.addFloat(String,String,Float)
   commentId: M:CRMScript.Native.EventDataDialogDefinition.addFloat(String,String,Float)
   id: 'addFloat(String,String,Float)'
@@ -154,27 +156,28 @@ items:
   nameWithType: EventDataDialogDefinition.addFloat(String,String,Float)
   fullName: CRMScript.Native.EventDataDialogDefinition.addFloat(String,String,Float)
   type: Method
-  summary: "\nAdd a Float field with given label and a default value.\n"
+  summary: "\nAdds a Float field with given label and a default value.\n"
   remarks: 
   syntax: 
     content: Void addFloat(String id, String label, Float defaultValue)
     parameters:
     - id: id
       type: CRMScript.Global.String
-      description: 
+      description: "Field identifier."
     - id: label
       type: CRMScript.Global.String
-      description: 
+      description: "Field label."
     - id: defaultValue
       type: CRMScript.Global.Float
-      description: 
+      description: "Default value for field."
     return:
       type: CRMScript.Global.Void
-  example: "\n<pre><code>EventDataDialogDefinition def;\ndef.addFloat(&quot;floatNumber&quot;, &quot;My float&quot;, 3.14);</code></pre>\n"
+  example: 
+  - "\n<pre><code>EventDataDialogDefinition def;\ndef.addFloat(&quot;floatNumber&quot;, &quot;My float&quot;, 3.14);</code></pre>\n"
 - uid: CRMScript.Native.EventDataDialogDefinition.addFloat(String,String,Float,String,Bool)
   commentId: M:CRMScript.Native.EventDataDialogDefinition.addFloat(String,String,Float,String,Bool)
   id: 'addFloat(String,String,Float,String,Bool)'
-  so.intellisense: EventDataDialogDefinition.aaddFloat(String,String,Float,String,Bool)
+  so.intellisense: EventDataDialogDefinition.addFloat(String,String,Float,String,Bool)
   so.version: 10.1.9
   langs:
   - crmscript
@@ -182,29 +185,30 @@ items:
   nameWithType: EventDataDialogDefinition.addFloat(String,String,Float,String,Bool)
   fullName: CRMScript.Native.EventDataDialogDefinition.addFloat(String,String,Float,String,Bool)
   type: Method
-  summary: "\nAdd a Float field with given label, default value, and placeholder text. Possible to set field as mandatory.\n"
+  summary: "\nAdds a Float field with given label, default value, placeholder text. Possible to set field as mandatory.\n"
   remarks: 
   syntax: 
     content: Void addFloat(String id, String label, Float defaultValue, String placeholder, Bool mandatory)
     parameters:
     - id: id
       type: CRMScript.Global.String
-      description: 
+      description: "Field identifier."
     - id: label
       type: CRMScript.Global.String
-      description: 
+      description: "Field label."
     - id: defaultValue
       type: CRMScript.Global.Float
-      description: 
+      description: "Default value for field."
     - id: placeholder
       type: CRMScript.Global.String
-      description: 
+      description: "Placeholder text."
     - id: mandatory
       type: CRMScript.Global.Bool
-      description: 
+      description: "Setting field to mandatory if true."
     return:
       type: CRMScript.Global.Void
-  example: "\n<pre><code>EventDataDialogDefinition def;\ndef.addFloat(&quot;floatNumber&quot;, &quot;My float&quot;, 3.14, &quot;Input decimal number&quot;, true);</code></pre>\n"
+  example: 
+  - "\n<pre><code>EventDataDialogDefinition def;\ndef.addFloat(&quot;floatNumber&quot;, &quot;My float&quot;, 3.14, &quot;Input decimal number&quot;, true);</code></pre>\n"
 - uid: CRMScript.Native.EventDataDialogDefinition.addInteger(String,String)
   commentId: M:CRMScript.Native.EventDataDialogDefinition.addInteger(String,String)
   id: 'addInteger(String,String)'
@@ -216,20 +220,21 @@ items:
   nameWithType: EventDataDialogDefinition.addInteger(String,String)
   fullName: CRMScript.Native.EventDataDialogDefinition.addInteger(String,String)
   type: Method
-  summary: "\nAdd a Integer field with given label.\n"
+  summary: "\nAdds a Integer field with given label.\n"
   remarks: 
   syntax: 
     content: Void addInteger(String id, String label)
     parameters:
     - id: id
       type: CRMScript.Global.String
-      description: 
+      description: "Field identifier."
     - id: label
       type: CRMScript.Global.String
-      description: 
+      description: "Field label."
     return:
       type: CRMScript.Global.Void
-  example: "\n<pre><code>EventDataDialogDefinition def;\ndef.addInteger(&quot;integer&quot;, &quot;My Integer&quot;);</code></pre>\n"
+  example: 
+  - "\n<pre><code>EventDataDialogDefinition def;\ndef.addInteger(&quot;integer&quot;, &quot;My Integer&quot;);</code></pre>\n"
 - uid: CRMScript.Native.EventDataDialogDefinition.addInteger(String,String,Integer)
   commentId: M:CRMScript.Native.EventDataDialogDefinition.addInteger(String,String,Integer)
   id: 'addInteger(String,String,Integer)'
@@ -241,23 +246,24 @@ items:
   nameWithType: EventDataDialogDefinition.addInteger(String,String,Integer)
   fullName: CRMScript.Native.EventDataDialogDefinition.addInteger(String,String,Integer)
   type: Method
-  summary: "\nAdd a Integer field with given label and a default value.\n"
+  summary: "\nAdds a Integer field with given label and a default value.\n"
   remarks: 
   syntax: 
     content: Void addInteger(String id, String label, Integer defaultValue)
     parameters:
     - id: id
       type: CRMScript.Global.String
-      description: 
+      description: "Field identifier."
     - id: label
       type: CRMScript.Global.String
-      description: 
+      description: "Field label."
     - id: defaultValue
       type: CRMScript.Global.Integer
-      description: 
+      description: "Default value for field."
     return:
       type: CRMScript.Global.Void
-  example: "\n<pre><code>EventDataDialogDefinition def;\ndef.addInteger(&quot;integer&quot;, &quot;My Integer&quot;, 3);</code></pre>\n"
+  example: 
+  - "\n<pre><code>EventDataDialogDefinition def;\ndef.addInteger(&quot;integer&quot;, &quot;My Integer&quot;, 3);</code></pre>\n"
 - uid: CRMScript.Native.EventDataDialogDefinition.addInteger(String,String,Integer,String,Bool)
   commentId: M:CRMScript.Native.EventDataDialogDefinition.addInteger(String,String,Integer,String,Bool)
   id: 'addInteger(String,String,Integer,String,Bool)'
@@ -269,29 +275,30 @@ items:
   nameWithType: EventDataDialogDefinition.addInteger(String,String,Integer,String,Bool)
   fullName: CRMScript.Native.EventDataDialogDefinition.addInteger(String,String,Integer,String,Bool)
   type: Method
-  summary: "\nAdd a Integer field with given label, default value and a placeholder text. Possible to set field as mandatory\n"
+  summary: "\nAdds a Integer field with given label, default value, placeholder text. Possible to set field as mandatory.\n"
   remarks: 
   syntax: 
     content: Void addInteger(String id, String label, Integer defaultValue, String placeholder, Bool mandatory)
     parameters:
     - id: id
       type: CRMScript.Global.String
-      description: 
+      description: "Field identifier."
     - id: label
       type: CRMScript.Global.String
-      description: 
+      description: "Field label."
     - id: defaultValue
       type: CRMScript.Global.Integer
-      description: 
+      description: "Default value for field."
     - id: placeholder
       type: CRMScript.Global.String
-      description: 
+      description: "Placeholder text."
     - id: mandatory
       type: CRMScript.Global.Bool
-      description: 
+      description: "Setting field to mandatory if true."
     return:
       type: CRMScript.Global.Void
-  example: "\n<pre><code>EventDataDialogDefinition def;\ndef.addInteger(&quot;integer&quot;, &quot;My Integer&quot;, 3, &quot;Input number&quot;, true);</code></pre>\n"
+  example: 
+  - "\n<pre><code>EventDataDialogDefinition def;\ndef.addInteger(&quot;integer&quot;, &quot;My Integer&quot;, 3, &quot;Input number&quot;, true);</code></pre>\n"
 - uid: CRMScript.Native.EventDataDialogDefinition.addLabel(String,String)
   commentId: M:CRMScript.Native.EventDataDialogDefinition.addLabel(String,String)
   id: 'addLabel(String,String)'
@@ -303,20 +310,21 @@ items:
   nameWithType: EventDataDialogDefinition.addLabel(String,String)
   fullName: CRMScript.Native.EventDataDialogDefinition.addLabel(String,String)
   type: Method
-  summary: "\nAdd a label field.\n"
+  summary: "\nAdds a label field.\n"
   remarks: 
   syntax: 
     content: Void addLabel(String id, String label)
     parameters:
     - id: id
       type: CRMScript.Global.String
-      description: 
+      description: "Field identifier."
     - id: label
       type: CRMScript.Global.String
-      description: 
+      description: "Field label."
     return:
       type: CRMScript.Global.Void
-  example: "\n<pre><code>EventDataDialogDefinition def;\ndef.addLabel(&quot;label1&quot;, &quot;My label&quot;);</code></pre>\n"
+  example: 
+  - "\n<pre><code>EventDataDialogDefinition def;\ndef.addLabel(&quot;label1&quot;, &quot;My label&quot;);</code></pre>\n"
 - uid: CRMScript.Native.EventDataDialogDefinition.addList(String,String,String)
   commentId: M:CRMScript.Native.EventDataDialogDefinition.addList(String,String,String)
   id: 'addList(String,String,String)'
@@ -335,16 +343,17 @@ items:
     parameters:
     - id: id
       type: CRMScript.Global.String
-      description: 
+      description: "Field identifier."
     - id: label
       type: CRMScript.Global.String
-      description: 
+      description: "Field label."
     - id: listName
       type: CRMScript.Global.String
-      description: 
+      description: "Listname."
     return:
       type: CRMScript.Global.Void
-  example: "\n<pre><code>EventDataDialogDefinition def;\ndef.addList(&quot;listAssociate&quot;, &quot;Choose associate&quot;, &quot;associate&quot;);</code></pre>\n"
+  example: 
+  - "\n<pre><code>EventDataDialogDefinition def;\ndef.addList(&quot;listAssociate&quot;, &quot;Choose associate&quot;, &quot;associate&quot;);</code></pre>\n"
 - uid: CRMScript.Native.EventDataDialogDefinition.addList(String,String,String,Integer)
   commentId: M:CRMScript.Native.EventDataDialogDefinition.addList(String,String,String,Integer)
   id: 'addList(String,String,String,Integer)'
@@ -356,26 +365,27 @@ items:
   nameWithType: EventDataDialogDefinition.addList(String,String,String,Integer)
   fullName: CRMScript.Native.EventDataDialogDefinition.addList(String,String,String,Integer)
   type: Method
-  summary: "\nAdd a list field from listname with given label and default value.\n"
+  summary: "\nAdds a list field from listname with given label and default value.\n"
   remarks: 
   syntax: 
     content: Void addList(String id, String label, String listName, Integer defaultValue)
     parameters:
     - id: id
       type: CRMScript.Global.String
-      description: 
+      description: "Field identifier."
     - id: label
       type: CRMScript.Global.String
-      description: 
+      description: "Field label."
     - id: listName
       type: CRMScript.Global.String
-      description: 
+      description: "Listname."
     - id: defaultValue
       type: CRMScript.Global.Integer
-      description: 
+      description: "Default value for field."
     return:
       type: CRMScript.Global.Void
-  example: "\n<pre><code>EventDataDialogDefinition def;\ndef.addList(&quot;listAssociate&quot;, &quot;Choose assosciate&quot;, &quot;associate&quot;, 1);</code></pre>\n"
+  example: 
+  - "\n<pre><code>EventDataDialogDefinition def;\ndef.addList(&quot;listAssociate&quot;, &quot;Choose assosciate&quot;, &quot;associate&quot;, 1);</code></pre>\n"
 - uid: CRMScript.Native.EventDataDialogDefinition.addList(String,String,String,Integer,String,Bool)
   commentId: M:CRMScript.Native.EventDataDialogDefinition.addList(String,String,String,Integer,String,Bool)
   id: 'addList(String,String,String,Integer,String,Bool)'
@@ -387,32 +397,33 @@ items:
   nameWithType: EventDataDialogDefinition.addList(String,String,String,Integer,String,Bool)
   fullName: CRMScript.Native.EventDataDialogDefinition.addList(String,String,String,Integer,String,Bool)
   type: Method
-  summary: "\nAdd a list field from listname with given label, default value and placeholder text. Possible to set field as mandatory\n"
+  summary: "\nAdds a list field from listname with given label, default value, placeholder text. Possible to set field as mandatory.\n"
   remarks: 
   syntax: 
     content: Void addList(String id, String label, String listName, Integer defaultValue, String placeholder, Bool mandatory)
     parameters:
     - id: id
       type: CRMScript.Global.String
-      description: 
+      description: "Field identifier."
     - id: label
       type: CRMScript.Global.String
-      description: 
+      description: "Field label."
     - id: listName
       type: CRMScript.Global.String
-      description: 
+      description: "Listname."
     - id: defaultValue
       type: CRMScript.Global.Integer
-      description: 
+      description: "Default value for field."
     - id: placeholder
       type: CRMScript.Global.String
-      description: 
+      description: "Placeholder text."
     - id: mandatory
       type: CRMScript.Global.Bool
-      description: 
+      description: "Setting field to mandatory if true."
     return:
       type: CRMScript.Global.Void
-  example: "\n<pre><code>EventDataDialogDefinition def;\ndef.addList(&quot;listAssociate&quot;, &quot;Choose assosciate&quot;, &quot;associate&quot;, 1, &quot;Select from list&quot;, false);</code></pre>\n"
+  example: 
+  - "\n<pre><code>EventDataDialogDefinition def;\ndef.addList(&quot;listAssociate&quot;, &quot;Choose assosciate&quot;, &quot;associate&quot;, 1, &quot;Select from list&quot;, false);</code></pre>\n"
 - uid: CRMScript.Native.EventDataDialogDefinition.addList(String,String,String[],String,String,Bool)
   commentId: M:CRMScript.Native.EventDataDialogDefinition.addList(String,String,String[],String,String,Bool)
   id: 'addList(String,String,String[],String,String,Bool)'
@@ -424,32 +435,33 @@ items:
   nameWithType: EventDataDialogDefinition.addList(String,String,String[],String,String,Bool)
   fullName: CRMScript.Native.EventDataDialogDefinition.addList(String,String,String[],String,String,Bool)
   type: Method
-  summary: "\nAdd a list field from manually created list with given label, default value and placeholder text. Possible to set field as mandatory\n"
+  summary: "\nAdds a list field from manually created list with given label, default value, placeholder text. Possible to set field as mandatory.\n"
   remarks: 
   syntax: 
     content: Void addList(String id, String label, String[] listItems, String defaultValue, String placeholder, Bool mandatory)
     parameters:
     - id: id
       type: CRMScript.Global.String
-      description: 
+      description: "Field identifier."
     - id: label
       type: CRMScript.Global.String
-      description: 
+      description: "Field label."
     - id: listItems
       type: CRMScript.Global.String[]
-      description: 
+      description: "String array of items."
     - id: defaultValue
       type: CRMScript.Global.String
-      description: 
+      description: "Default value for field."
     - id: placeholder
       type: CRMScript.Global.String
-      description: 
+      description: "Placeholder text."
     - id: mandatory
       type: CRMScript.Global.Bool
-      description: 
+      description: "Setting field to mandatory if true."
     return:
       type: CRMScript.Global.Void
-  example: "\n<pre><code>EventDataDialogDefinition def;\nString[2] items;\nitems[0] = &quot;Value 1&quot;;\nitems[1] = &quot;Value 2&quot;;\ndef.addList(&quot;listItems&quot;, &quot;Choose item&quot;, items, &quot;&quot;, &quot;Select from list&quot;, false);</code></pre>\n"
+  example: 
+  - "\n<pre><code>EventDataDialogDefinition def;\nString[2] items;\nitems[0] = &quot;Value 1&quot;;\nitems[1] = &quot;Value 2&quot;;\ndef.addList(&quot;listItems&quot;, &quot;Choose item&quot;, items, &quot;&quot;, &quot;Select from list&quot;, false);</code></pre>\n"
 - uid: CRMScript.Native.EventDataDialogDefinition.addList(String,String,String,Integer,String,Bool,String,Bool)
   commentId: M:CRMScript.Native.EventDataDialogDefinition.addList(String,String,String,Integer,String,Bool,String,Bool)
   id: 'addList(String,String,String,Integer,String,Bool,String,Bool)'
@@ -461,38 +473,39 @@ items:
   nameWithType: EventDataDialogDefinition.addList(String,String,String,Integer,String,Bool,String,Bool)
   fullName: CRMScript.Native.EventDataDialogDefinition.addList(String,String,String,Integer,String,Bool,String,Bool)
   type: Method
-  summary: "\nAdd a list field from listname with given label, default value and placeholder text. Possible to set additionalInfo supported by list and force list to be flat. Possible to set field as mandatory\n"
+  summary: "\nAdds a list field from listname with given label, default value, placeholder text. Possible to set additionalInfo supported by list and force list to be flat. Possible to set field as mandatory.\n"
   remarks: 
   syntax: 
     content: Void addList(String id, String label, String listName, Integer defaultValue, String placeholder, Bool mandatory, String additionalInfo, Bool forceFlatList)
     parameters:
     - id: id
       type: CRMScript.Global.String
-      description: 
+      description: "Field identifier."
     - id: label
       type: CRMScript.Global.String
-      description: 
+      description: "Field label."
     - id: listName
       type: CRMScript.Global.String
-      description: 
+      description: "Listname."
     - id: defaultValue
       type: CRMScript.Global.Integer
-      description: 
+      description: "Default value for field."
     - id: placeholder
       type: CRMScript.Global.String
-      description: 
+      description: "Placeholder text."
     - id: mandatory
       type: CRMScript.Global.Bool
-      description: 
+      description: "Setting field to mandatory if true,"
     - id: additionalInfo
       type: CRMScript.Global.String
-      description: 
+      description: "Additional info parameters supported by specified list."
     - id: forceFlatList
       type: CRMScript.Global.Bool
-      description: 
+      description: "If true will return list without hierarchical structure."
     return:
       type: CRMScript.Global.Void
-  example: "\n<pre><code>EventDataDialogDefinition def;\ndef.addList(&quot;listAssociate&quot;, &quot;Choose assosciate&quot;, &quot;associate&quot;, 1, &quot;Select from list&quot;, false, &quot;&quot;, false);</code></pre>\n"
+  example: 
+  - "\n<pre><code>EventDataDialogDefinition def;\ndef.addList(&quot;listAssociate&quot;, &quot;Choose assosciate&quot;, &quot;associate&quot;, 1, &quot;Select from list&quot;, false, &quot;&quot;, false);</code></pre>\n"
 - uid: CRMScript.Native.EventDataDialogDefinition.addText(String,String)
   commentId: M:CRMScript.Native.EventDataDialogDefinition.addText(String,String)
   id: 'addText(String,String)'
@@ -504,20 +517,21 @@ items:
   nameWithType: EventDataDialogDefinition.addText(String,String)
   fullName: CRMScript.Native.EventDataDialogDefinition.addText(String,String)
   type: Method
-  summary: "\nAdd a text field with given label.\n"
+  summary: "\nAdds a text field with given label.\n"
   remarks: 
   syntax: 
     content: Void addText(String id, String label)
     parameters:
     - id: id
       type: CRMScript.Global.String
-      description: 
+      description: "Field identifier."
     - id: label
       type: CRMScript.Global.String
-      description: 
+      description: "Field label."
     return:
       type: CRMScript.Global.Void
-  example: "\n<pre><code>EventDataDialogDefinition def;\ndef.addText(&quot;textinput&quot;, &quot;My Input&quot;);</code></pre>\n"
+  example: 
+  - "\n<pre><code>EventDataDialogDefinition def;\ndef.addText(&quot;textinput&quot;, &quot;My Input&quot;);</code></pre>\n"
 - uid: CRMScript.Native.EventDataDialogDefinition.addText(String,String,String)
   commentId: M:CRMScript.Native.EventDataDialogDefinition.addText(String,String,String)
   id: 'addText(String,String,String)'
@@ -529,23 +543,24 @@ items:
   nameWithType: EventDataDialogDefinition.addText(String,String,String)
   fullName: CRMScript.Native.EventDataDialogDefinition.addText(String,String,String)
   type: Method
-  summary: "\nAdd a text field with given label and a default value.\n"
+  summary: "\nAdds a text field with given label and a default value.\n"
   remarks: 
   syntax: 
     content: Void addText(String id, String label, String defaultValue)
     parameters:
     - id: id
       type: CRMScript.Global.String
-      description: 
+      description: "Field identifier."
     - id: label
       type: CRMScript.Global.String
-      description: 
+      description: "Field label."
     - id: defaultValue
       type: CRMScript.Global.String
-      description: 
+      description: "Default value for field."
     return:
       type: CRMScript.Global.Void
-  example: "\n<pre><code>EventDataDialogDefinition def;\ndef.addText(&quot;textinput&quot;, &quot;My Input&quot;, &quot;Default&quot;);</code></pre>\n"
+  example: 
+  - "\n<pre><code>EventDataDialogDefinition def;\ndef.addText(&quot;textinput&quot;, &quot;My Input&quot;, &quot;Default&quot;);</code></pre>\n"
 - uid: CRMScript.Native.EventDataDialogDefinition.addText(String,String,String,String,Bool)
   commentId: M:CRMScript.Native.EventDataDialogDefinition.addText(String,String,String,String,Bool)
   id: 'addText(String,String,String,String,Bool)'
@@ -557,29 +572,30 @@ items:
   nameWithType: EventDataDialogDefinition.addText(String,String,String,String,Bool)
   fullName: CRMScript.Native.EventDataDialogDefinition.addText(String,String,String,String,Bool)
   type: Method
-  summary: "\nAdd a text field with given label, default value and a placeholder text. Possible to set field as mandatory\n"
+  summary: "\nAdds a text field with given label, default value, placeholder text. Possible to set field as mandatory.\n"
   remarks: 
   syntax: 
     content: Void addText(String id, String label, String defaultValue, String placeholder, Bool mandatory)
     parameters:
     - id: id
       type: CRMScript.Global.String
-      description: 
+      description: "Field identifier."
     - id: label
       type: CRMScript.Global.String
-      description: 
+      description: "Field label."
     - id: defaultValue
       type: CRMScript.Global.String
-      description: 
+      description: "Default value for field."
     - id: placeholder
       type: CRMScript.Global.String
-      description: 
+      description: "Placeholder text."
     - id: mandatory
       type: CRMScript.Global.Bool
-      description: 
+      description: "Setting field to mandatory if true."
     return:
       type: CRMScript.Global.Void
-  example: "\n<pre><code>EventDataDialogDefinition def;\ndef.addText(&quot;textinput&quot;, &quot;My Input&quot;, &quot;Default&quot;, &quot;Type something&quot;, false);</code></pre>\n"
+  example: 
+  - "\n<pre><code>EventDataDialogDefinition def;\ndef.addText(&quot;textinput&quot;, &quot;My Input&quot;, &quot;Default&quot;, &quot;Type something&quot;, false);</code></pre>\n"
 - uid: CRMScript.Native.EventDataDialogDefinition.removeField(String)
   commentId: M:CRMScript.Native.EventDataDialogDefinition.removeField(String)
   id: 'removeField(String)'
@@ -598,10 +614,11 @@ items:
     parameters:
     - id: id
       type: CRMScript.Global.String
-      description: 
+      description: "Field identifier."
     return:
       type: CRMScript.Global.Void
-  example: "\n<pre><code>EventDataDialogDefinition def;\ndef.removeField(&quot;checkme&quot;);</code></pre>\n"
+  example: 
+  - "\n<pre><code>EventDataDialogDefinition def;\ndef.removeField(&quot;checkme&quot;);</code></pre>\n"
 - uid: CRMScript.Native.EventDataDialogDefinition.getBlockExecutionOnCancel()
   commentId: M:CRMScript.Native.EventDataDialogDefinition.getBlockExecutionOnCancel()
   id: 'getBlockExecutionOnCancel()'
@@ -620,7 +637,7 @@ items:
     parameters: []
     return:
       type: CRMScript.Global.Bool
-      description:
+      description: 
   example:
 - uid: CRMScript.Native.EventDataDialogDefinition.setBlockExecutionOnCancel(Bool)
   commentId: M:CRMScript.Native.EventDataDialogDefinition.setBlockExecutionOnCancel(Bool)
@@ -640,7 +657,7 @@ items:
     parameters:
     - id: value
       type: CRMScript.Global.Bool
-      description: 
+      description: "Setting value to true will block execution when cancelling dialog."
     return:
       type: CRMScript.Global.Void
   example:
@@ -682,11 +699,12 @@ items:
     parameters:
     - id: height
       type: CRMScript.Global.Integer
-      description: 
+      description: "Value for height."
     return:
       type: CRMScript.Global.Void
       description:
-  example: "\n<pre><code>EventDataDialogDefinition def;\ndef.setHeight(200);\n</code></pre>\n"
+  example: 
+  - "\n<pre><code>EventDataDialogDefinition def;\ndef.setHeight(200);\n</code></pre>\n"
 - uid: CRMScript.Native.EventDataDialogDefinition.getIcon()
   commentId: M:CRMScript.Native.EventDataDialogDefinition.getIcon()
   id: 'getIcon()'
@@ -699,7 +717,7 @@ items:
   fullName: CRMScript.Native.EventDataDialogDefinition.getIcon()
   type: Method
   summary: "\nReturns type of icon on dialog\n"
-  remarks: "\nSupports:<ul><li>info</li><li>warn</li><li>warn</li><li>error</li><li>question</li></ul>\n"
+  remarks: "\nSupports:<ul><li>info</li><li>warn</li><li>error</li><li>question</li></ul>\n"
   syntax: 
     content: String getIcon()
     parameters: []
@@ -719,7 +737,7 @@ items:
   fullName: CRMScript.Native.EventDataDialogDefinition.setIcon(String)
   type: Method
   summary: "\nSets icon type on dialog.\n"
-  remarks: "\nSupports:<ul><li>info</li><li>warn</li><li>warn</li><li>error</li><li>question</li></ul>\n"
+  remarks: "\nSupports:<ul><li>info</li><li>warn</li><li>error</li><li>question</li></ul>\n"
   syntax: 
     content: Void setIcon(String value)
     parameters:
@@ -729,7 +747,8 @@ items:
     return:
       type: CRMScript.Global.Void
       description:
-  example: "\n<pre><code>EventDataDialogDefinition def;\ndef.setIcon(&quot;info&quot;);\n</code></pre>\n"
+  example: 
+  - "\n<pre><code>EventDataDialogDefinition def;\ndef.setIcon(&quot;info&quot;);\n</code></pre>\n"
 - uid: CRMScript.Native.EventDataDialogDefinition.getPrefix()
   commentId: M:CRMScript.Native.EventDataDialogDefinition.getPrefix()
   id: 'getPrefix()'
@@ -768,11 +787,12 @@ items:
     parameters:
     - id: value
       type: CRMScript.Global.String
-      description: 
+      description: "Sets prefix on all fields."
     return:
       type: CRMScript.Global.Void
       description:
-  example: "\n<pre><code>EventDataDialogDefinition def;\ndef.setPrefix(&quot;info_&quot;);\n</code></pre>\n"
+  example: 
+  - "\n<pre><code>EventDataDialogDefinition def;\ndef.setPrefix(&quot;info_&quot;);\n</code></pre>\n"
 - uid: CRMScript.Native.EventDataDialogDefinition.getText()
   commentId: M:CRMScript.Native.EventDataDialogDefinition.getText()
   id: 'getText()'
@@ -811,11 +831,12 @@ items:
     parameters:
     - id: value
       type: CRMScript.Global.String
-      description: 
+      description: "Sets body text on dialog."
     return:
       type: CRMScript.Global.Void
       description:
-  example: "\n<pre><code>EventDataDialogDefinition def;\ndef.setText(&quot;My dialog body&quot;);\n</code></pre>\n"
+  example: 
+  - "\n<pre><code>EventDataDialogDefinition def;\ndef.setText(&quot;My dialog body&quot;);\n</code></pre>\n"
 - uid: CRMScript.Native.EventDataDialogDefinition.getTitle()
   commentId: M:CRMScript.Native.EventDataDialogDefinition.getTitle()
   id: 'getTitle()'
@@ -854,11 +875,12 @@ items:
     parameters:
     - id: value
       type: CRMScript.Global.String
-      description: 
+      description: "Sets title on dialog."
     return:
       type: CRMScript.Global.Void
       description:
-  example: "\n<pre><code>EventDataDialogDefinition def;\ndef.setTitle(&quot;My dialog title&quot;);\n</code></pre>\n"
+  example: 
+  - "\n<pre><code>EventDataDialogDefinition def;\ndef.setTitle(&quot;My dialog title&quot;);\n</code></pre>\n"
 - uid: CRMScript.Native.EventDataDialogDefinition.getType()
   commentId: M:CRMScript.Native.EventDataDialogDefinition.getType()
   id: 'getType()'
@@ -897,11 +919,12 @@ items:
     parameters:
     - id: type
       type: CRMScript.Global.String
-      description: 
+      description: "Sets type on dialog."
     return:
       type: CRMScript.Global.Void
       description:
-  example: "\n<pre><code>EventDataDialogDefinition def;\ndef.setType(&quot;yesno&quot;);\n</code></pre>\n"
+  example: 
+  - "\n<pre><code>EventDataDialogDefinition def;\ndef.setType(&quot;yesno&quot;);\n</code></pre>\n"
 - uid: CRMScript.Native.EventDataDialogDefinition.getWidth()
   commentId: M:CRMScript.Native.EventDataDialogDefinition.getWidth()
   id: 'getWidth()'
@@ -940,11 +963,12 @@ items:
     parameters:
     - id: height
       type: CRMScript.Global.Integer
-      description: 
+      description: "Value for width."
     return:
       type: CRMScript.Global.Void
       description:
-  example: "\n<pre><code>EventDataDialogDefinition def;\ndef.setWidth(200);\n</code></pre>\n"
+  example: 
+  - "\n<pre><code>EventDataDialogDefinition def;\ndef.setWidth(200);\n</code></pre>\n"
 references:
 - uid: CRMScript.Native.EventDataDialogDefinition
   commentId: T:CRMScript.Native.EventDataDialogDefinition
@@ -964,6 +988,12 @@ references:
   name: String
   nameWithType: String
   fullName: CRMScript.Global.String
+- uid: CRMScript.Global.String[]
+  commentId: T:CRMScript.Global.String[]
+  isExternal: true
+  name: String[]
+  nameWithType: String[]
+  fullName: CRMScript.Global.String[]
 - uid: CRMScript.Global.Integer
   commentId: T:CRMScript.Global.Integer
   isExternal: true
