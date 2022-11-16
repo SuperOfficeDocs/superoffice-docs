@@ -368,7 +368,7 @@ items:
   nameWithType: EventData.showDialog(EventDataDialogDefinition)
   fullName: CRMScript.Native.EventData.showDialog(EventDataDialogDefinition)
   type: Method
-  summary: "\nMethod to trigger a dialog which can handle input from user.\n"
+  summary: "\nTriggers a dialog to handle user input.\n"
   remarks:
   syntax: 
     content: Void showDialog(EventDataDialogDefinition dialog)
