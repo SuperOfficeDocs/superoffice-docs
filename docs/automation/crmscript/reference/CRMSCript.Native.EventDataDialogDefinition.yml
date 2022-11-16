@@ -344,7 +344,7 @@ items:
       description: 
     return:
       type: CRMScript.Global.Void
-  example: "\n<pre><code>EventDataDialogDefinition def;\ndef.addList(&quot;listAssociate&quot;, &quot;Choose assosciate&quot;, &quot;associate&quot;);</code></pre>\n"
+  example: "\n<pre><code>EventDataDialogDefinition def;\ndef.addList(&quot;listAssociate&quot;, &quot;Choose associate&quot;, &quot;associate&quot;);</code></pre>\n"
 - uid: CRMScript.Native.EventDataDialogDefinition.addList(String,String,String,Integer)
   commentId: M:CRMScript.Native.EventDataDialogDefinition.addList(String,String,String,Integer)
   id: 'addList(String,String,String,Integer)'
