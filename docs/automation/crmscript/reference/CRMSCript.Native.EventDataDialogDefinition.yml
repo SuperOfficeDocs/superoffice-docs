@@ -181,7 +181,7 @@ items:
   nameWithType: EventDataDialogDefinition.addFloat(String,String,Float,String,Bool)
   fullName: CRMScript.Native.EventDataDialogDefinition.addFloat(String,String,Float,String,Bool)
   type: Method
-  summary: "\nAdd a Float field with given label, default value and placeholder text. Possible to set field as mandatory\n"
+  summary: "\nAdd a Float field with given label, default value, and placeholder text. Possible to set field as mandatory.\n"
   remarks: 
   syntax: 
     content: Void addFloat(String id, String label, Float defaultValue, String placeholder, Bool mandatory)
