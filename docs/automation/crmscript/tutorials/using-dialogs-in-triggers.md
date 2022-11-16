@@ -56,7 +56,7 @@ Continuing our current CRMScript trigger with adding additional dialog;
 EventData ed = getEventData();
 Bool isNew = ed.getInputValue("IsNew").toBool();
 
-//Only run script if its a new appointment
+//Only run script if it's a new appointment
 if(isNew)
 {
   String step1 = ed.getInputValue("step1_button");
