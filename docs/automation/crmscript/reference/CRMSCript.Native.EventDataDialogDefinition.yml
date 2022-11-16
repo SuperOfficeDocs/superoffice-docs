@@ -889,7 +889,7 @@ items:
   nameWithType: EventDataDialogDefinition.setType(String)
   fullName: CRMScript.Native.EventDataDialogDefinition.setType(String)
   type: Method
-  summary: "\Set type of dialog.\n"
+  summary: "\nSets type of dialog.\n"
   remarks: "\nSupports:<ul><li>yesno</li><li>okcancel</li></ul>\n"
   syntax: 
     content: Void setType(String type)
