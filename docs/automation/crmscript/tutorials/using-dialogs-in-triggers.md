@@ -95,7 +95,7 @@ If user chooses to complete this dialog, we should add a new appointment of a sp
 
 ![diaryresult -screenshot][img3]
 
-Putting it all together we are able to provide very useful automation;
+Putting it all together we are able to provide very useful automation:
 
 ```crmscript
 EventData ed = getEventData();
