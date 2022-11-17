@@ -1,28 +1,28 @@
 ### YamlMime:SubCategory
 
-title: SuperID
+title: Customization
 summary: ""
 
 metadata:
-  title: SuperID
+  title: Customization
   description: "Learn about SuperID, identity providers, and federated sign-in."
-  so.product: superid
+  so.product: customization
   so.topic: landing-page
-  author: Bergfrid Dias
-  so.author: digitaldiina
-  so.date: 02.02.2022
+  author: Help & Learn
+  so.author: helplearn
+  so.date: 11.11.2022
 
 # linkListType: architecture | concept | deploy | download | get-started | how-to-guide | learn | overview | quickstart | reference | sample | tutorial | video | whats-new
 
 landingContent:
 
   # Card
-  - title: Learn about SuperID
+  - title: Customize your solution
     linkLists:
-      - linkListType: overview
+      - linkListType: how-to-guide
         links:
-        - text: What is SuperID?
-          url: overview.md
+        - text: Preferences
+          url: settings/preferences/index.md
         - text: Sign-in services
           url: sign-in-services.md
         - text: User accounts and passwords
