@@ -36,7 +36,7 @@ items:
   - name: How to...
     href: howto/toc.yml
   - name: Customization
-    href: custom-objects/customization-sub-cat-index.yml    
+    href: custom-objects/index.yml
     items:
     - name: Settings
       href: settings/toc.yml
@@ -69,3 +69,4 @@ items:
     href: license-agreement.md
   - name: Copyright information
     href: copyright.md
+    
