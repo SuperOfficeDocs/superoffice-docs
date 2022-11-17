@@ -14,24 +14,28 @@ language: en
 > [!NOTE]
 > Some of the functions described here, require specific functional rights or licences.
 
-The **Dashboard** feature in SuperOffice CRM gives you quick access to the charts, reports and statistics that are most important to you. You can choose from a wide range of pre-defined charts, and also add charts from dynamic selections or create your own.
+The **Dashboard** feature in SuperOffice CRM gives you quick access to the charts, reports and statistics that are most important to you. You can choose from a wide range of pre-defined tiles, and also add tiles from dynamic selections or create your own.
 
 Dashboards are displayed as tabs at the top of the screen. Pinned dashboards and dashboards set as favorite are displayed here, in addition to the most recently used dashboard. To view other dashboards that you have access to, search in the navigator.
 
 ## Tiles
 
-Each chart in a dashboard is presented as a tile. A dashboard can contain multiple tiles.
+Each tile in a dashboard contains either a chart, a list or a number. A dashboard can contain multiple tiles.
 
 The tiles can also be customized to show only data from selections. Access rights and confidentiality apply to the tile data, so tiles will only display information you have access to. Tile data typically relates to you, or your groups, and to a specific period (this month, last 6 month, etc.)
 
-There are several types of tiles:
+There are several types of charts:
 
+* Pie
+* Big number
+* List
 * Column
 * Bar
-* Area and pie charts
-* Column+line charts and bar+line charts
-* Lists,
-* Key numbers and big numbers
+* Line
+* Area
+* Gauge
+* Column + line
+* Bar + line
 
 ## Options in the Dashboard screen
 
