@@ -124,7 +124,8 @@ Use your own email server for outgoing SuperOffice Service to your customers. Yo
 
 ### How to configure your CRM Online site to use your own SMTP (outgoing) mail server?
 
-Get in contact with our support and they will help you to get it configured.
+Contact our support directly, and they will help you to get it configured.
+
 
 **Access to your SMTP server from Online servers:**
 
