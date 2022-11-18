@@ -66,6 +66,7 @@ items:
     - CRMScript.Global.String.toDateTime()
     - CRMScript.Global.String.toFloat()
     - CRMScript.Global.String.toInteger()
+    - CRMScript.Global.String.toLong()
     - CRMScript.Global.String.toLower()
     - CRMScript.Global.String.toTime()
     - CRMScript.Global.String.toUpper()
@@ -954,6 +955,25 @@ items:
     parameters: []
     return:
       type: CRMScript.Global.Integer
+- uid: CRMScript.Global.String.toLong()
+  commentId: M:CRMScript.Global.String.toLong()
+  id: toLong()
+  so.version: 10.1.9
+  so.intellisense: String.toLong
+  langs:
+  - crmscript
+  parent: CRMScript.Global.String
+  name: toLong()
+  nameWithType: String.toLong()
+  fullName: CRMScript.Global.String.toLong()
+  type: Method
+  summary: "\nConverts a String to a Long.\n"
+  remarks: "\nIf the number in the String is outside the bounds of a Long, it will become the highest positive or lowest negative number of a Long.\n"
+  syntax: 
+    content: Long toLong()
+    parameters: []
+    return:
+      type: CRMScript.Global.Long
 - uid: CRMScript.Global.String.toFloat()
   commentId: M:CRMScript.Global.String.toFloat()
   id: toFloat()
@@ -1679,6 +1699,12 @@ references:
   name: Float
   nameWithType: Float
   fullName: CRMScript.Global.Float
+- uid: CRMScript.Global.Long
+  commentId: T:CRMScript.Global.Long
+  isExternal: true
+  name: Long
+  nameWithType: Long
+  fullName: CRMScript.Global.Long
 - uid: CRMScript.Native.Vector
   commentId: T:CRMScript.Native.Vector
   isExternal: true
