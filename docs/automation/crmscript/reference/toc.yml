@@ -58,6 +58,8 @@ items:
     href: CRMScript.Native.Email.yml
   - name: EventData
     href: CRMScript.Native.EventData.yml
+  - name: EventDataDialogDefinition
+    href: CRMScript.Native.EventDataDialogDefinition.yml
   - name: ExtraFieldsInfo
     href: CRMScript.Native.ExtraFieldsInfo.yml
   - name: ExtraTable
