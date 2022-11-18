@@ -279,4 +279,4 @@ When the auth flow completes, the CRM.web  request is posted back without sessio
 [img3]: media/outboxitem.jpg
 [img4]: media/outboundlog.jpg
 [img5]: media/setup_microsoft.png
-[img6]: https://online2.superoffice.com/Cust1990/CS/scripts/customer.fcgi/getAttachment/5170485-ISO7rEU8onNzyrSROc5eCM7tI4A1xoxJJF8BSp4g12NUJPGalIr77TpCnJa6hkAf-0/image-20221101155629-1.png
+[img6]: media/oauthflow.png
