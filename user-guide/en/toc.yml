@@ -36,8 +36,9 @@ items:
   - name: How to...
     href: howto/toc.yml
   - name: Customization
-    href: custom-objects/index.yml
     items:
+    - name: Overview
+      href: custom-objects/index.yml
     - name: Settings
       href: settings/toc.yml
     - name: CRMScript
@@ -51,7 +52,6 @@ items:
     - name: ERP
       href: erp/toc.yml
   - name: Administration
-    href: license/toc.yml
     items:
     - name: Licenses
       href: license/toc.yml
