@@ -17,6 +17,8 @@ items:
     href: CRMScript.Global.Float.yml
   - name: Integer
     href: CRMScript.Global.Integer.yml
+  - name: Long
+    href: CRMScript.Global.Long.yml
   - name: String
     href: CRMScript.Global.String.yml
   - name: Time
@@ -58,6 +60,8 @@ items:
     href: CRMScript.Native.Email.yml
   - name: EventData
     href: CRMScript.Native.EventData.yml
+  - name: EventDataDialogDefinition
+    href: CRMScript.Native.EventDataDialogDefinition.yml
   - name: ExtraFieldsInfo
     href: CRMScript.Native.ExtraFieldsInfo.yml
   - name: ExtraTable
