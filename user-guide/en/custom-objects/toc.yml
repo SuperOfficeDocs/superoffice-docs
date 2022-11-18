@@ -1,6 +1,6 @@
 items:
 - name: Overview
-  href: index.md
+  href: overview.md
 - name: Extra tables
   href: extra-table/index.md
   items:
