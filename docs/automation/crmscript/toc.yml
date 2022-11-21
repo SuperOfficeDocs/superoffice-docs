@@ -139,6 +139,8 @@ items:
     href: tutorials/using-crmscript-statlib-for-reporting.md
   - name: Waiting for customer reminder
     href: tutorials/waiting-for-customer-status-with-reminders.md
+  - name: Using dialogs in triggers
+    href: tutorials/using-dialogs-in-triggers.md
 - name: Reference
   href: reference/toc.yml
   topicHref: reference/index.md

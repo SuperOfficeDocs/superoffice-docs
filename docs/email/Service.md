@@ -170,6 +170,29 @@ You do not have to delete and create a new mailbox just to change authentication
     * If we recognize the UPN as an Microsoft 365 email account, we will redirect you to Microsoft for authentication.
     * Completing authentication towards Microsoft will redirect you back to Mailboxes tab.
 4. Click OK. The mailbox is updated.
+        
+### Give access to SuperOffice Office365/Azure Enterprise App
+
+When registering, if the current user (by email address) doesn't have grant access rights, you first need to get a domain AAD administrator to authenticate and register it manually. You do this by registering the domain with us.
+
+We use the same service as for our federated sign-in service we use for CRM Online customers. This enables us to recognize the domain of the user's email address and redirect to the correct identity provider for authentication. This will add our Azure Enterprise App to your domains app list. 
+
+This process will have no effect on login/authentication of SuperOffice Onsite users in general.
+
+To register Microsoft as an IDP and grant the SuperOffice ID Azure AD application access to read user profile information, the user should be Global Admin or App Admin.
+        
+#### Start IDP registration
+
+1. Go to `https://id.superoffice.com/identityprovider/register`.
+2. Select your organization's identity provider (Choose Microsoft).
+3. You are sent to the provider's sign-in page after starting registration.
+4. Authenticate with your Global admin or App admin Azure AD account.
+5. Accept the permissions and grant SuperOffice access to read profile information if prompted.
+6. Confirm that all users of this domain should use the identity provider (not used for onsite logins). This scope is for OAuth only.
+
+### Endpoints used in the communication
+
+From SuperOffice's side, it's only `accessgateway.superoffice.com`. On Microsoft's Office365 OAuth and Identity side, we have no control over the endpoints they use. That is how oAuth works, you are redirected to a provider you have chosen to trust.
 
 ### How to troubleshoot when using OAuth
 
@@ -257,6 +280,13 @@ For a customer who have 2 duplicate onsite-env. and already have OAuth 2.0 regis
 
 > [!NOTE]
 > The use of App Passwords is dependent on basic authentication. This type of authentication will be discontinued by Microsoft in October 2022.
+        
+<details>
+<summary>Show details on the redirect flow when connecting</summary>
+When a user starts logging in to the CRM inbox / Service mailbox, they enter their email address. We use the domain of the email address to try to figure out if this belongs to a provider that supports OAuth 2.0 (so far Microsoft is supported). To figure this out, we look up the MX records for the domain and we look for the domain in the Thunderbird autoconfig database (query my.domain.com : `https://autoconfig.thunderbird.net/v1.1/my.domain.com`). This database contains some large company domains, but most company domains will not be found here. If either the company domain MX records or the database lookup resolves to `office365.com`, the user is automatically redirected to Microsoft for OAuth2-based login. If we don't recognize the email domain as a microsoft domain, the user can either input the password for normal IMAP/SMTP login or press a button to authenticate with Microsoft using OAuth 2.0 authentication/authorization flow.
+
+When the user starts the authentication flow, the user initiates with an active session in CRM.web. When the authentication flow completes, the CRM.web request is posted back without session cookies due to the same-site LAX restrictions. This means that ASP.net creates a new session (since it does not see an existing session cookie). We use the PRG (`https://en.wikipedia.org/wiki/Post/Redirect/Get`) workaround with the tokens saved in cookies to get the session back so we can decrypt the tokens and save them to the database properly ![PRG redirect flow -screenshot][img6]
+</details>
 
 <!-- Referenced links -->
 [6]: https://www.codetwo.com/kb/upn/#exchange
@@ -270,3 +300,4 @@ For a customer who have 2 duplicate onsite-env. and already have OAuth 2.0 regis
 [img3]: media/outboxitem.jpg
 [img4]: media/outboundlog.jpg
 [img5]: media/setup_microsoft.png
+[img6]: media/oauthflow.png
