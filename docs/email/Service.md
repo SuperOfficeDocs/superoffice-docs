@@ -171,21 +171,28 @@ You do not have to delete and create a new mailbox just to change authentication
     * Completing authentication towards Microsoft will redirect you back to Mailboxes tab.
 4. Click OK. The mailbox is updated.
         
-### Giving access to SO O365/Azure Enterprise App
-In some cases where you don't have rights to grand access with the email account you are trying to register, you may get an AAD administrator of your domain to authenticate and register it manually up front. You do this by registering the domain with us. 
-We use the same service as for our "federated sign-in service" we use for CRM Online customers. This enables us to recognize the domain of the user's email address and redirect to the correct identity provider for authentication. This will add our Azure Enterprise App to your domains app list. (This process will have no effect on login / auth of SuperOffice Onsite users in general).
+### Give access to SuperOffice Office365/Azure Enterprise App
+
+When registering, if the current user (by email address) doesn't have grant access rights, you first need to get a domain AAD administrator to authenticate and register it manually. You do this by registering the domain with us.
+
+We use the same service as for our federated sign-in service we use for CRM Online customers. This enables us to recognize the domain of the user's email address and redirect to the correct identity provider for authentication. This will add our Azure Enterprise App to your domains app list. 
+
+This process will have no effect on login/authentication of SuperOffice Onsite users in general.
+
 To register Microsoft as an IDP and grant the SuperOffice ID Azure AD application access to read user profile information, the user should be Global Admin or App Admin.
         
 #### Start IDP registration
-1. Go to https://id.superoffice.com/identityprovider/register.
+
+1. Go to `https://id.superoffice.com/identityprovider/register`.
 2. Select your organization's identity provider (Choose Microsoft).
 3. You are sent to the provider's sign-in page after starting registration.
 4. Authenticate with your Global admin or App admin Azure AD account.
 5. Accept the permissions and grant SuperOffice access to read profile information if prompted.
-6. Confirm that all users of this domain should use the identity provider (not used for login onsite. I this scope it is for OAuth only)
+6. Confirm that all users of this domain should use the identity provider (not used for onsite logins). This scope is for OAuth only.
 
 ### Endpoints used in the communication
-From SuperOffice side it's only accessgateway.superoffice.com. On the MS O365 OAuth and Identity side we have no control over the endpoints they use. That is how oAuth works, you are redirected to a provider you have chosen to trust.
+
+From SuperOffice's side, it's only `accessgateway.superoffice.com`. On Microsoft's Office365 OAuth and Identity side, we have no control over the endpoints they use. That is how oAuth works, you are redirected to a provider you have chosen to trust.
 
 ### How to troubleshoot when using OAuth
 
