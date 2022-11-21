@@ -38,7 +38,8 @@ items:
   - name: Customization
     items:
     - name: Overview
-      href: custom-objects/index.yml
+      href: custom-objects/toc.yml
+      topicHref: custom-objects/index.yml
     - name: Settings
       href: settings/toc.yml
     - name: CRMScript
