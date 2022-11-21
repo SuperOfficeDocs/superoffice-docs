@@ -17,68 +17,91 @@ metadata:
 landingContent:
 
   # Card
-  - title: Customize your solution
+  - title: Lists, preferences, options and settings
     linkLists:
       - linkListType: how-to-guide
         links:
+        - text: Lists
+          url: settings/lists/index.md
         - text: Preferences
           url: settings/preferences/index.md
-        - text: Sign-in services
-          url: sign-in-services.md
-        - text: User accounts and passwords
-          url: user-accounts-and-passwords.md
+        - text: Options
+          url: settings/options/index.md
+        - text: Personal settings
+          url: settings/personal-settings/index.md
+      - linkListType: how-to-guide
+        links:
+        - text: System settings in Service
+          url: settings/in-service/index.md
 
   # Card
-  - title: Federated sign-in guide
+  - title: Macros and CRMScript
     linkLists:
       - linkListType: how-to-guide
         links:
-        - text: Overview
-          url: howto/federated-sign-in-guide.md
-        - text: Check IdP domain
-          url: howto/check-idp-domain.md
-        - text: Register IdP
-          url: howto/register-idp.md
-        - text: Map IdP usernames
-          url: howto/map-idp-usernames.md
-        - text: Complete user transition
-          url: howto/complete-user-transition.md
+        - text: Macros and scripts
+          url: automation/macro-script.md
+        - text: Create a macro
+          url: automation/create-macro.md
+        - text: Create a script
+          url: automation/create-script.md
+        - text: Debug sessions
+          url: automation/debug.md
+        - text: Create a scheduled task
+          url: automation/schedule-task.md
+        - text: Tracing
+          url: automation/tracing.md
+        - text: Triggers
+          url: automation/trigger.md
+
   # Card
-  - title: Identity providers
+  - title: User interface
     linkLists:
       - linkListType: how-to-guide
         links:
-        - text: Check IDP domain
-          url: howto/check-idp-domain.md
-        - text: Register IDP
-          url: howto/register-idp.md
-        - text: Map IDP usernames
-          url: howto/map-idp-usernames.md
-      - linkListType: concept
+        - text: Screen designer
+          url: ui/screen-designer/index.md
+        - text: Extra menus
+          url: ui/extra-menus/index.md
+        - text: Web panels
+          url: ui/web-panels/index.md
+      - linkListType: how-to-guide
         links:
-        - text: IdP and document handling
-          url: idp-and-doc-handling.md
+        - text: Profile in Service
+          url: ui/in-service/profiles/index.md
+
   # Card
-  - title: Reference
+  - title: Custom objects
     linkLists:
-      - linkListType: reference
+      - linkListType: how-to-guide
         links:
-        - text: Terms and conditions
-          url: terms-and-conditions.md
-        - text: Known challenges
-          url: known-challenges.md
-      - linkListType: concept
-        links:
-        - text: Primary tenant
-          url: primary-tenant.md
+        - text: User-defined fields
+          url: custom-objects/udef/index.md
+        - text: Extra fields
+          url: custom-objects/extra-field/create.md
+        - text: Extra tables
+          url: custom-objects/extra-table/create.md
+      
   # Card
-  - title: Integrations
+  - title: Customer centre
     linkLists:
-      - linkListType: concept
+      - linkListType: how-to-guide
         links:
-        - text: WebTools
-          url: superid-webtools-maillink-pocket.md
-        - text: MailLink
-          url: superid-webtools-maillink-pocket.md
-        - text: Pocket CRM
-          url: superid-webtools-maillink-pocket.md
+        - text: Customer centre configuration
+          url: customer-center/config.md
+        - text: Customer centre source files
+          url: customer-center/edit.md
+        - text: Send passwords to contacts
+          url: customer-center/send-credentials.md
+
+ # Card
+  - title: ERP
+    linkLists:
+      - linkListType: how-to-guide
+        links:
+        - text: Connect to ERP
+          url: erp/erp-connect.md
+        - text: Create ERP actor
+          url: erp/erp-create-new-actor.md
+        - text: Disable synchronisation
+          url: erp/erp-sync-disconnect.md
