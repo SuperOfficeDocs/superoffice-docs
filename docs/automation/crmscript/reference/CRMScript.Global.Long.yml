@@ -122,7 +122,7 @@ items:
 - uid: CRMScript.Global.Long.getHighInteger()
   commentId: M:CRMScript.Global.Long.getHighInteger()
   id: getHighInteger()
-  so.intellisense: Integer.getHighInteger
+  so.intellisense: Long.getHighInteger
   langs:
   - crmscript
   parent: CRMScript.Global.Long
@@ -141,7 +141,7 @@ items:
 - uid: CRMScript.Global.Long.getLowInteger()
   commentId: M:CRMScript.Global.Long.getLowInteger()
   id: getLowInteger()
-  so.intellisense: Integer.getLowInteger
+  so.intellisense: Long.getLowInteger
   langs:
   - crmscript
   parent: CRMScript.Global.Long
