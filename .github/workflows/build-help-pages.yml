@@ -36,7 +36,7 @@ jobs:
         env:
           TOKEN: ${{ secrets.GH_PAT }}
         run: |
-          git clone "https://${TOKEN}@github.com/SuperOfficeDocs/build-bocs.git"
+          git clone "https://${TOKEN}@github.com/SuperOfficeDocs/build-docs.git"
       - uses: nikeee/docfx-action@master
         name: Build Documentation
         with:
