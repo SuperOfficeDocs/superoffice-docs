@@ -57,33 +57,27 @@ items:
 - name: Selections in Service
   href: in-service/index.md
   items:
+  - name: Create a selection based on search criteria
+    href: in-service/create-from-search.md
+  - name: Create a dynamic selection
+    href: in-service/create-dynamic.md
+  - name: Create a script-based selection
+    href: in-service/create-script-based.md
+  - name: Create a static selection
+    href: in-service/create-static.md
+  - name: Create a combined selection
+    href: in-service/create-combined.md
   - name: List selections
-    href: in-service/listselections.md
+    href: in-service/list.md
   - name: Update a selection
-    href: in-service/updateselection.md
-  - name: Create a selection
-    href: in-service/newselection.md
-    items:
-    - name: Create a selection based on search criteria
-      href: in-service/newselection.newselection.md
-    - name: Create a dynamic selection
-      href: in-service/newselection.newdynamicselection.md
-    - name: Create a script-based selection
-      href: in-service/newselection.newscriptselection.md
-    - name: Create a static selection
-      href: in-service/newselection.newstatselection.md
-    - name: Create a combined selection
-      href: in-service/newselection.newcombiselection.md
-  - name: Delete records in a selection
-    href: in-service/deleterecords.md
-  - name: Delete a selection
-    href: in-service/deleteselection.md
+    href: in-service/update.md
   - name: Edit a selection
-    href: in-service/editselection2.md
-    items:
-    - name: Manage columns in selections
-      href: in-service/editselection2.editprofile.md
+    href: in-service/edit.md
+  - name: Manage columns in selections
+    href: in-service/manage-columns.md
+  - name: Delete a selection or its records
+    href: in-service/delete.md
   - name: Administrate folders of selections
-    href: in-service/editselectionfolder.md
+    href: in-service/manage-folders.md
 
 

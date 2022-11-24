@@ -6,4 +6,4 @@
 * Under **Sample table** you can see what the selection will look like with the current settings.
 
 <!-- Referenced links -->
-[2]: ../editselection2.editprofile.md
+[2]: ../manage-columns.md

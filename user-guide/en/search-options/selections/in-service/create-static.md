@@ -1,11 +1,11 @@
 ---
-uid: help-en-selections-newselection-newstatselection
-title: selections newSelection newStatSelection
-description: selections newSelection newStatSelection
+uid: help-en-selections-static-create-service
+title: Create a static selection
+description: How to create a static selection in Service.
 author: SuperOffice RnD
 so.date: 06.29.2022
-keywords: Service
-so.topic: help
+keywords: selection, static
+so.topic: howto
 language: en
 ---
 
@@ -13,7 +13,7 @@ language: en
 
 You can find records and add them all, or some of them at a time, to a static selection. You can perform many searches in different tables and using different criteria, and select the records you want to include in the selection. When they are no longer relevant, you simply remove them from the selection.
 
-A static selection contains only those records you have added to it manually, unlike a dynamic selection (see [Create a dynamic selection][1]). Once you have created a static selection and added records to it, it will always contain the same records until you either add or remove some. A static selection works like a report in which you always have full control over the records.
+A static selection contains only those records you have added to it manually, unlike a [dynamic selection][1]. Once you have created a static selection and added records to it, it will always contain the same records until you either add or remove some. A static selection works like a report in which you always have full control over the records.
 
 1. Select **Selections** > **New selection**. This takes you to the **New selection** screen.
 
@@ -27,7 +27,7 @@ A static selection contains only those records you have added to it manually, un
 
     [!include[Contents of Selection General info tab](includes/selection-general-info.md)]
 
-6. In the **Selection** tab, specify the search criteria you want for the selection. You can read more about search criteria under [Search in SuperOffice Service][2].
+6. In the **Selection** tab, specify the [search criteria you want for the selection][2].
 
 7. Click the **Search** button to start the search.
 
@@ -52,11 +52,11 @@ A static selection contains only those records you have added to it manually, un
 * [Edit a selection][5]
 
 <!-- Referenced links -->
-[1]: newSelection.newDynamicSelection.md
+[1]: create-dynamic.md
 [2]:../../in-service/index.md
-[3]: updateSelection.md
-[4]: listSelections.md
-[5]: editSelection2.md
+[3]: update.md
+[4]: list.md
+[5]: edit.md
 
 <!-- Referenced images -->
 [img1]: ../../../../media/icons/btn-add.png

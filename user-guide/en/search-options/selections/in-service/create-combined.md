@@ -1,11 +1,11 @@
 ---
-uid: help-en-selections-newselection-newcombiselection
-title: selections newSelection newCombiSelection
-description: selections newSelection newCombiSelection
+uid: help-en-selections-combined-create-service
+title: Create a combined selection
+description: How to create a combined selection in Service.
 author: SuperOffice RnD
 so.date: 06.29.2022
-keywords: Service
-so.topic: help
+keywords: selection, combined
+so.topic: howto
 language: en
 ---
 
@@ -69,9 +69,9 @@ A combined selection is a combination of two or more existing selections. Here y
 * [Edit a selection][3]
 
 <!-- Referenced links -->
-[1]: updateSelection.md
-[2]: listSelections.md
-[3]: editSelection2.md
+[1]: update.md
+[2]: list.md
+[3]: edit.md
 
 <!-- Referenced images -->
 [img1]: ../../../../../common/icons/dropdown-arrow.png

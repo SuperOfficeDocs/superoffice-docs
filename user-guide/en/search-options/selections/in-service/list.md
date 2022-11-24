@@ -1,11 +1,11 @@
 ---
-uid: help-en-selections-listselections
-title: selections listSelections
-description: selections listSelections
+uid: help-en-selections-list-service
+title:  List selections
+description: How to list selections in Service
 author: SuperOffice RnD
 so.date: 06.29.2022
-keywords: Service
-so.topic: help
+keywords: selection
+so.topic: howto
 language: en
 ---
 
@@ -13,15 +13,15 @@ language: en
 
 At the top of the **List selections** screen are two buttons:
 
-* **New selection**: Click here to [create a new selection][1].
-* **New folder**: Click here to [create a new folder][2]. This applies if you have arranged your selections into a folder structure.
+* **New selection**: Click here to create a new selection.
+* **New folder**: Click here to create a new folder. This applies if you have arranged your selections into a folder structure.
 
-To view existing selections, do as follows:
+## View existing selections
 
 1. Select **Selections** > **List selections**. This takes you to the **List selections** screen, containing a list of all the selections you have access to. The number of records in each selection is given in parentheses. You can hover the mouse pointer over the name of a selection to display the selection type (for example, static or dynamic) and what type of records it contains.
 
     > [!TIP]
-    > If you check **Show in left menu** when you [create a selection][1], the name of the selection is also displayed under **Selections** in the Navigator.
+    > If you check **Show in left menu** when you create a selection, the name of the selection is also displayed under **Selections** in the Navigator.
 
 2. Click the required selection. The selection is opened so that you can see which records it contains.
 
@@ -36,17 +36,15 @@ To view existing selections, do as follows:
 ## What would you like to do now?
 
 * [Update a selection][3]
-* [Create a selection][1]
 * [Edit a selection][4]
 * [Delete a selection][5]
 * [Administrate folders of selections][2]
 
 <!-- Referenced links -->
-[1]: newSelection.md
-[2]: editSelectionFolder.md
-[3]: updateSelection.md
-[4]: editSelection2.md
-[5]: deleteSelection.md
+[2]: manage-folders.md
+[3]: update.md
+[4]: edit.md
+[5]: delete.md
 
 <!-- Referenced images -->
 [img1]: ../../../../media/icons/btn-menu.png
