@@ -35,11 +35,9 @@ items:
     href: faq/toc.yml
   - name: How to...
     href: howto/toc.yml
-  - name: Customization
+  - name: Customisation
+    topicHref: custom-objects/index.yml
     items:
-    - name: Overview
-      href: custom-objects/toc.yml
-      topicHref: custom-objects/index.yml
     - name: Settings
       href: settings/toc.yml
     - name: CRMScript
