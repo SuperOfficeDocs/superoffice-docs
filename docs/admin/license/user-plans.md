@@ -126,6 +126,30 @@ User plans are identified by the `ExtraFlags` field being 1 on their module lice
 
 When the same person needs access to more than one plan, they become a multi-plan user (previously called a complete user).
 
+We have the basic plans:
+
+* Sales-Essentials
+* Sales-Premium
+* Service-Essentials
+* Service-Premium
+* Marketing
+
+These can then be combined to produce:
+
+* Sales-Essentials + Service-Essentials
+* Sales-Premium + Service-Essentials
+* Sales-Essentials + Service-Premium
+* Sales-Premium + Service-Premium
+* Sales-Essentials + Service-Essentials + Marketing
+* Sales-Premium + Service-Essentials + Marketing
+* Sales-Essentials + Service-Premium + Marketing
+* Sales-Premium + Service-Premium + Marketing
+* Sales-Essentials + Marketing
+* Sales-Premium + Marketing
+* Service-Essentials + Marketing
+* Service-Premium + Marketing
+
+
 ## Available add-on subscriptions
 
 * [Customer Engagement Platform (CEP)][8]
