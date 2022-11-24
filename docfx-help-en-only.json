@@ -45,7 +45,7 @@
     "fileMetadataFiles": [],
     "template": [
       "default",
-      "build-bocs/templates/superoffice"
+      "./build-bocs/templates/superoffice"
     ],
     "postProcessors": [],
     "markdownEngineName": "markdig",
