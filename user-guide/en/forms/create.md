@@ -180,7 +180,7 @@ Here you can define how a submitted form should be processed. Fill in the follow
 * [Publish forms][2]
 
 <!-- Referenced links -->
-[1]: https://community.superoffice.com/en/Technical/Blog/simple-google-analytics-email-tracking/
+[1]: https://community.superoffice.com/en/technical/blogs/archive/simple-google-analytics-email-tracking/
 [2]: publish.md
 [4]: field-options.md
 [5]: submissions/index.md
