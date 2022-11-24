@@ -1,21 +1,21 @@
 ---
-uid: help-en-selections-editselection2-editprofile
-title: selections editSelection2 editProfile
-description: selections editSelection2 editProfile
+uid: help-en-selections-columns-service
+title:  Manage columns in selections
+description: How to manage columns in selections in Service.
 author: SuperOffice RnD
 so.date: 06.29.2022
-keywords: Service
-so.topic: help
+keywords: selection
+so.topic: howto
 language: en
 ---
 
 # Manage columns in selections
 
-When you create or edit selections, you can adjust how many columns to display in the selection in question. Find out more about this below.
+When you create or edit selections, you can adjust how many columns to display in the selection in question.
 
 ## Add columns
 
-1. Open the **Edit selection** screen. See [Create selection][1] or [Edit selection][2].
+1. Open the **Edit selection** screen.
 
 2. Go to the **Profile** tab. Under **Columns** is a list of the columns already specified.
 
@@ -56,7 +56,7 @@ You can also add functions, for example, a summary column in the selection. We w
 
 ## Change the order of columns
 
-1. Open the **Edit selection** screen. See [Create selection][1] or [Edit selection][2].
+1. Open the **Edit selection** screen.
 2. Go to the **Profile** tab. Under **Columns** is a list of the columns already specified.
 3. Use the arrow buttons ( ![icon][img4] and ![icon][img5] ) to the right of the columns to move the various columns where you want.
 4. Click **OK**. The changes are saved.
@@ -65,7 +65,7 @@ You can also add functions, for example, a summary column in the selection. We w
 
 You can edit the information about the existing columns, for example the name and column widths. Proceed as follows:
 
-1. Open the **Edit selection** screen. See [Create selection][1] or [Edit selection][2].
+1. Open the **Edit selection** screen.
 2. Go to the **Profile** tab. Under **Columns** is a list of the columns already specified.
 3. To the right of the required column, click the edit icon ( ![icon][img2] ). The fields under the column overview show information specified for the selected column.
 4. Edit the information as described under [Add columns](#add-columns) or [Add functions](#add-functions).
@@ -74,14 +74,12 @@ You can edit the information about the existing columns, for example the name an
 
 ## Delete columns
 
-1. Open the **Edit selection** screen. See [Create selection][1] or [Edit selection][2].
+1. Open the **Edit selection** screen.
 2. Go to the **Profile** tab. Under **Columns** is a list of the columns already specified.
 3. Click the delete icon ( ![icon][img1] ) to the right of the required column. The column is removed immediately.
 4. Click **OK**. The changes are saved.
 
 <!-- Referenced links -->
-[1]: newSelection.md
-[2]: editSelection2.md
 
 <!-- Referenced images -->
 [img1]: ../../../../../common/icons/delete-red.png

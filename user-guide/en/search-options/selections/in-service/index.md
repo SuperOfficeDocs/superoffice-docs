@@ -1,11 +1,11 @@
 ---
-uid: help-en-selections
-title: selections
-description: selections
+uid: help-en-selections-service
+title: Selections
+description: Introduction to selections in Service
 author: SuperOffice RnD
 so.date: 06.29.2022
-keywords: Service
-so.topic: help
+keywords: selection
+so.topic: concept
 language: en
 ---
 
@@ -39,18 +39,24 @@ A combined selection is a combination of two or more existing selections. Here y
 
 * [View selections][4]
 * [Update a selection][5]
-* [Create selections][6]
+* Define a new selection:
+  * [Create a dynamic selection][6]
+  * [Create a selection based on search criteria][9].
+  * [Create a script-based selection][1]
+  * [Create a static selection][2]
+  * [Create a combined selection][3]
 * [Edit a selection][7]
 * [Delete a selection][8]
 
 <!-- Referenced links -->
-[1]: newSelection.newScriptSelection.md
-[2]: newSelection.newStatSelection.md
-[3]: newSelection.newCombiSelection.md
-[4]: listSelections.md
-[5]: updateSelection.md
-[6]: newSelection.md
-[7]: editSelection2.md
-[8]: deleteSelection.md
+[1]: create-script-based.md
+[2]: create-static.md
+[3]: create-combined.md
+[4]: list.md
+[5]: update.md
+[7]: edit.md
+[8]: delete.md
+[6]: create-dynamic.md
+[9]: create-from-search.md
 
 <!-- Referenced images -->

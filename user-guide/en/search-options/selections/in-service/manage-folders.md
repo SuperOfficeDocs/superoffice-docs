@@ -1,11 +1,11 @@
 ---
-uid: help-en-selections-editselectionfolder
-title: selections editSelectionFolder
-description: selections editSelectionFolder
+uid: help-en-selections-folder-service
+title: Administrate folders of selections
+description: Administrate folders of selections
 author: SuperOffice RnD
 so.date: 06.29.2022
-keywords: Service
-so.topic: help
+keywords: selection, folder
+so.topic: howto
 language: en
 ---
 
@@ -24,12 +24,3 @@ Under **Selections** > **List selections** you can create a folder structure for
 ## Delete folders
 
 [!include[How to delete a selection folder](../../../includes/selection-delete-folder.md)]
-
-## What would you like to do now?
-
-* [Create a selection][1]
-
-<!-- Referenced links -->
-[1]: newSelection.md
-
-<!-- Referenced images -->

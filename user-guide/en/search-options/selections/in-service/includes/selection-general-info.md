@@ -12,7 +12,7 @@
 * **Field for parameter constraint**: This field can be used to enter a key or a filter to display a selection as a web panel.
 
 <!-- Referenced links -->
-[1]: ../editselectionfolder.md
+[1]: ../manage-folders.md
 
 <!-- Referenced images -->
 [img1]: ../../../../../../common/icons/dropdown-arrow.png

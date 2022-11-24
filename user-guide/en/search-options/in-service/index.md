@@ -35,11 +35,11 @@ To quickly access a specific record (such as a request or contact), function or 
 
 There are many different ways to bring up the search screen, depending on where in the system you are:
 
-* You can select **Requests** > **Find requests** to search for requests. See [Search for requests][3].
-* You can use [predefined lists][4] to search for requests. See [Use lists][4].
+* You can select **Requests** > **Find requests** to [search for requests][3].
+* You can use [predefined lists][4] to search for requests.
 * You can select **Customers** > **Find contacts** or **Find companies** to search for contacts and companies.
 * In the knowledge base, you can click the **Search** icon ![icon][img6] to the right of a folder name to search for different types of content.
-* The search screen is used as the basis for creating some types of selection. See [Create a selection][5].
+* The search screen is used as the basis for creating some [types of selection][5].
 
 ## The Criteria screen
 
@@ -63,7 +63,7 @@ At the bottom of the **Criteria** screen, you have the following options:
 
 * **Clear search fields**: When you click this button, the values entered in the fields in the search screen are cleared. This is a quick way of emptying all the fields.
 * **Restore default**: When you click this button, all the [criteria you have added](#add-search-criteria) are removed.
-* **Save as selection**: Click here to create a selection consisting of the records that meet the specified criteria. See [Create a selection based on search criteria][6].
+* **Save as selection**: Click here to [create a selection consisting of the records that meet the specified criteria][6].
 * **Advanced view**: Click here for access to more [advanced search options](#use-advanced-view).
 
 ## Add search criteria
@@ -125,8 +125,8 @@ To return to the ordinary view, click the **Simple view** button at the top of t
 [2]: in-navigator.md
 [3]: ../../request/find.md
 [4]: ../../request/find.md#use-lists
-[5]: ../selections/in-service/newselection.md
-[6]: ../selections/in-service/newselection.newselection.md
+[5]: ../selections/in-service/index.md
+[6]: ../selections/in-service/create-from-search.md
 [7]: customize-presentation.md#add-columns
 [8]: customize-presentation.md
 
