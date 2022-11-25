@@ -68,9 +68,7 @@ When the customer is ready to launch the approved application on their productio
 ## Best practices
 
 > [!NOTE]
-> Any data that was created by the app will still be in your sandbox, like the web panels that were automatically set up by the app. To  hide them, go to [Lists - GUI Web panel][1] in Settings and Maintenance.
-
-* Turn off **Statistics OptIn - Configured** and **UserSync OptIn - Configured** (see below).
+> If your sandbox was cloned from an existing and running CRM Online tenant with apps authroized, then data that was created by the apps in the source will still be in your sandbox. Examples would beweb panels that were automatically set up by the app. To  hide them, go to [Lists - GUI Web panel][1] in Settings and Maintenance.
 
 * If you have **ERP sync apps** in production, you should log in to Settings and Maintenance and turn off automatic syncing. Since these apps are not authorized on the sandbox it will not sync, just generate errors.
 
