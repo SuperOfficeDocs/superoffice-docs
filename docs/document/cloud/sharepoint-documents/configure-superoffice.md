@@ -77,7 +77,14 @@ We recommend that you select all here. These fields will appear as columns in yo
 ### Group access on SharePoint documents based on Visible for settings
 
 * If you plan not to use Visible for, you leave this ticked off​.
-* If you plan to use Visible for, you tick this on – and follow the next steps.​
+* If you plan to use Visible for, you tick this on – and follow the next steps.
+
+### Apps for SuperOffice (system user)
+
+Enable system user for storing documents in SharePoint. If you have for instance a third-party app that creates documents in SuperOffice, you need to Enable system user for storing documents in SharePoint.
+
+> [!NOTE]
+> You cannot turn this on the first time you configure SharePoint documents, it must be fully configured. Complete the configuration and start the Wizard (Settings), navigate to Step 3 and turn it on.
 
 ​    ![Groups and access​ -screenshot][img4]
 
