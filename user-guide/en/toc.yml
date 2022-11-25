@@ -21,6 +21,8 @@ items:
     href: sale/toc.yml
   - name: Project
     href: project/toc.yml
+  - name: Selection
+    href: search-options/selections/toc.yml
   - name: Email
     href: email/toc.yml
   - name: Chat

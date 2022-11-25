@@ -13,10 +13,6 @@ items:
   href: using-history-list.md
 - name: Wild cards
   href: wild-cards.md
-
-- name: Selection
-  href: selections/toc.yml
-
 - name: Search in Service
   href: in-service/index.md
   items:
@@ -28,3 +24,5 @@ items:
     href: in-service/search-kb.md
   - name: Search in the Navigator
     href: in-service/in-navigator.md
+- name: Selection
+  href: selections/toc.yml

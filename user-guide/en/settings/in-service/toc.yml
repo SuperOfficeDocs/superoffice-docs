@@ -1,6 +1,8 @@
 items:
-- name: Overview
+- name: Overview of settings in Service
   href: index.md
+- name: Personal settings in Service
+  href: personal-settings/toc.yml
 - name: System
   href: system.md
   items:

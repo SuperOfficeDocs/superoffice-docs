@@ -4,7 +4,7 @@ title: Configure SOAP interface
 description: Configure SOAP interface
 author: SuperOffice RnD
 so.date: 06.29.2022
-keywords: Service
+keywords: Service, onsite
 so.topic: howto
 language: en
 ---

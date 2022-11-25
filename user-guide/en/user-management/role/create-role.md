@@ -96,7 +96,7 @@ To create a new role:
 * [Edit roles][4]
 
 <!-- Referenced links -->
-[1]: ../../settings/personal-settings/user-info.md
+[1]: ../../settings/in-service/personal-settings/user-info.md
 [2]: ../../ui/in-service/profiles/index.md
 [3]: ../../faq/workflow.md
 [4]: editing-role.md
