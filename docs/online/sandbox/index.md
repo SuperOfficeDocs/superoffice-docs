@@ -57,6 +57,14 @@ Yes, almost. All the customer data, such as company, contact, sale, and project 
 
 * [See all steps][5]
 
+## Developing custom app in production sandbox
+
+Because the tenant is in an isolated cluster, a production sandbox is suitable for custom app development and can be treated like a SOD tenant in this regard. Use it to develop and test ideas, with real data.
+
+However, as with any custom application under development, it must be [validated][6] before it gets access to the customer's production tenant. Always keep our [best practices][7] in mind before requesting validation.
+
+When the customer is ready to launch the approved application on their production tenant, reply to the ticket received when the request to publish was submitted.
+
 ## Best practices
 
 > [!NOTE]
@@ -78,6 +86,8 @@ Yes, almost. All the customer data, such as company, contact, sale, and project 
 [3]: ../../admin/license/user-plans.md
 [4]: order-sandbox.md
 [5]: clone-to.md
+[6]: ../../apps/activate/validate-app.md
+[7]: ../../apps/best-practices.md
 
 <!-- Referenced images -->
 [img12]: media/imageu533bo.png
