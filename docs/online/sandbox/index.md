@@ -3,7 +3,7 @@ title: Production sandbox (test environment)
 uid: prod-sandbox
 description: SuperOffice production sandbox
 author: Bergfrid Dias
-so.date: 12.06.2021
+so.date: 11.25.2022
 keywords: sandbox, production sandbox environment, test environment
 so.topic: concept
 so.envir: cloud
@@ -72,28 +72,6 @@ Yes, almost. All the customer data, such as company, contact, sale, and project 
 
 * If you plan to test a partner app, ask them ahead of time if the app supports authenticating against multiple tenants.
 
-## Community users and your test database (Onsite installation only)
-
-> [!NOTE]
-> This section only applies to Onsite installations.
-
-We are aware that some Onsite installations use their SuperOffice production serial number on more than one database, and if you are one of those please read on.
-
-Each SuperOffice database sends information to us, that is both Onsite from version 8.0 and CRM Online, as part of our Terms of Service. This is both statistical and user information, and by clicking **Accept** on this dialog, we regularly receive information from your database regarding users and use.
-
-![Terms of service -screenshot][img1]
-
-When this is accepted, we will be updated if you for example retire an associate in your database. Now, if this is the production database and a real user that has been marked as retired, then this is OK. On the other hand, if you have made a copy of your production database, and as a test delete all users or several users, then this will affect you and your colleagues’ login to this community.
-
-Also, we gather user statistics, this is information like how many rows are there in the contact table, appointment table, sale table, and so on, giving us an indication of how our customers use our product (not what they store in it) and it helps us make our products even better. But for the statistics to be useful we only want it from the production database where it is in real use, and not from your test database.
-
-> [!CAUTION]
-> So, if you choose to copy your production database and this addendum is accepted, then each sandbox must turn off the **Statistics OptIn - Configured** and **UserSync OptIn - Configured**.
-
-To turn off these settings, set both preferences to **No**.
-
-![Turn off opt-in -screenshot][img2]
-
 <!-- Referenced links -->
 [1]: https://help.superoffice.com/Documentation/Help/EN/CRM/WebHelpAdmin/index.htm#t=chap08%2FWebpanel.htm
 [2]: replace.md
@@ -102,7 +80,5 @@ To turn off these settings, set both preferences to **No**.
 [5]: clone-to.md
 
 <!-- Referenced images -->
-[img1]: media/13062-28350.jpg
-[img2]: media/13063-28352.jpg
 [img12]: media/imageu533bo.png
 [img13]: media/imagemvheo.png
