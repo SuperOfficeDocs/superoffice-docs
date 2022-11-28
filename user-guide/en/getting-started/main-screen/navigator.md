@@ -130,7 +130,7 @@ If you hold the mouse pointer over a record in any the lists, a tooltip is displ
 [42]: ../../settings/preferences/video-meetings/index.md
 [43]: ../../settings/preferences/document-library.md
 [44]: ../https://online.superoffice.com/appstore
-[45]: ../../license/index.md
+[45]: ../../license/overview.md
 [46]: ../../user-management/index.md
 [47]: ../../user-management/role/index.md
 [48]: ../../person/gdpr/privacy.md

@@ -1,6 +1,6 @@
 items:
 - name: Overview
-  href: index.md
+  href: overview.md
 - name: Activate license
   href: activate.md
 - name: Licences screen

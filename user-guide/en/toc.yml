@@ -53,6 +53,7 @@ items:
     - name: ERP
       href: erp/toc.yml
   - name: Administration and system settings
+    topicHref: license/index.yml
     items:
     - name: Licenses
       href: license/toc.yml

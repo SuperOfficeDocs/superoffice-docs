@@ -42,6 +42,6 @@ You can start the following types of event from the **Licences** screen **Status
 
 <!-- Referenced links -->
 [1]: add-system-event.md
-[2]: ../license/index.md
+[2]: ../license/overview.md
 
 <!-- Referenced images -->
