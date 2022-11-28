@@ -42,6 +42,8 @@ items:
     items:
     - name: Settings
       href: settings/toc.yml
+    - name: Privacy
+      href: gdpr/toc.yml
     - name: CRMScript
       href: automation/toc.yml
     - name: User interface

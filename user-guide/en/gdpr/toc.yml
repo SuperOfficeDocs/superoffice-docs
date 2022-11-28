@@ -1,18 +1,17 @@
 items:
 - name: Privacy settings
   href: ../person/gdpr/privacy.md
+- name: Edit privacy settings for a contact
+  href: ../person/gdpr/edit-legalbase.md
+- name: Send privacy confirmation email
+  href: ../person/gdpr/send-privacy-confirmation-email.md
+- name: Generate personal data report
+  href: ../person/gdpr/generate-personal-data-report.md
+- name: For administrators
   items:
-  - name: Edit privacy settings for a contact
-    href: ../person/gdpr/edit-legalbase.md
-  - name: Send privacy confirmation email
-    href: ../person/gdpr/send-privacy-confirmation-email.md
-  - name: Generate personal data report
-    href: ../person/gdpr/generate-personal-data-report.md
-  - name: For administrators
-    items:
-    - name: Add consent purpose
-      href: add-consent-purpose.md
-    - name: Add legal base
-      href: ../settings/lists/privacy-legal-base-add.md
-    - name: Add privacy source
-      href: ../settings/lists/privacy-source-add.md
+  - name: Add consent purpose
+    href: add-consent-purpose.md
+  - name: Add legal base
+    href: ../settings/lists/privacy-legal-base-add.md
+  - name: Add privacy source
+    href: ../settings/lists/privacy-source-add.md
