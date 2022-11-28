@@ -275,6 +275,7 @@ items:
   - CRMScript.NetServer.NSListAgent.SetVisibleForUserGroups(Integer,Integer,NSSelectableMDOListItem[])
   - CRMScript.NetServer.NSListAgent.SetVisibleForUserGroupsFromListName(String,Integer)
   - CRMScript.NetServer.NSListAgent.SortListItems(Integer,String)
+  - CRMScript.NetServer.NSListAgent.UpdateCategoryMemberships(NSTicketCategoryMembershipEntity[],NSTicketCategoryMembershipEntity[],NSTicketCategoryMembershipEntity[])
   - CRMScript.NetServer.NSListAgent.UpdateHierarchyFromPath(Integer,String,NSHierarchyEntity)
   name: NSListAgent
   nameWithType: NSListAgent
@@ -6533,6 +6534,34 @@ items:
       type: CRMScript.NetServer.NSHierarchyEntity
   example: 
   - "\n<pre><code>NSListAgent agent;\nInteger domain;\nString path;\nNSHierarchyEntity entity;\nNSHierarchyEntity res = agent.UpdateHierarchyFromPath(domain, path, entity);</code></pre>\n"
+- uid: CRMScript.NetServer.NSListAgent.UpdateCategoryMemberships(NSTicketCategoryMembershipEntity[],NSTicketCategoryMembershipEntity[],NSTicketCategoryMembershipEntity[])
+  commentId: M:CRMScript.NetServer.NSListAgent.UpdateCategoryMemberships(NSTicketCategoryMembershipEntity[],NSTicketCategoryMembershipEntity[],NSTicketCategoryMembershipEntity[])
+  id: 'UpdateCategoryMemberships(NSTicketCategoryMembershipEntity[],NSTicketCategoryMembershipEntity[],NSTicketCategoryMembershipEntity[])'
+  so.intellisense: NSListAgent.UpdateCategoryMemberships
+  langs:
+  - crmscript
+  name: 'UpdateCategoryMemberships(NSTicketCategoryMembershipEntity[],NSTicketCategoryMembershipEntity[],NSTicketCategoryMembershipEntity[])'
+  nameWithType: NSListAgent.UpdateCategoryMemberships(NSTicketCategoryMembershipEntity[],NSTicketCategoryMembershipEntity[],NSTicketCategoryMembershipEntity[])
+  fullName: CRMScript.NetServer.NSListAgent.UpdateCategoryMemberships(NSTicketCategoryMembershipEntity[],NSTicketCategoryMembershipEntity[],NSTicketCategoryMembershipEntity[])
+  type: Method
+  summary: "\nUpdates a TicketCategory memberships.\n"
+  remarks:
+  syntax: 
+    content: Void UpdateCategoryMemberships(NSTicketCategoryMembershipEntity[] membershipsToAdd, NSTicketCategoryMembershipEntity[] membershipsToUpdate, NSTicketCategoryMembershipEntity[] membershipsToDelete)
+    parameters:
+    - id: membershipsToAdd
+      type: CRMScript.NetServer.NetServer.NSTicketCategoryMembershipEntity[]
+      description: "Memberships to add."
+    - id: membershipsToUpdate
+      type: CRMScript.NetServer.NetServer.NSTicketCategoryMembershipEntity[]
+      description: "Memberships to update."
+    - id: membershipsToDelete
+      type: CRMScript.NetServer.NetServer.NSTicketCategoryMembershipEntity[]
+      description: "Memberships to delete."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>Integer ticketCategoryId = 16;\nInteger associateId = 23;\nNSListAgent listAgent;\n// add a member with x weight\nNSTicketCategoryMembershipEntity[] membershipsToAdd;\nNSTicketCategoryMembershipEntity membership;\nNSAssociate user;\nuser.SetAssociateId(associateId);\nmembership.SetUser(user);\nmembership.SetWeight(5);\nmembershipsToAdd.pushBack(membership);\n// update a member, change it's weight\nNSTicketCategoryMembershipEntity[] membershipsToUpdate;\n// members to delete\nNSTicketCategoryMembershipEntity[] membershipsToDelete;\nlistAgent.UpdateCategoryMemberships(ticketCategoryId, membershipsToAdd, membershipsToUpdate, membershipsToDelete);\n</code></pre>\n"
 references:
 - uid: CRMScript.NetServer.NSListAgent
   commentId: T:CRMScript.NetServer.NSListAgent
@@ -8004,3 +8033,9 @@ references:
   name: LocalizedTextType
   nameWithType: LocalizedTextType
   fullName: CRMScript.NetServer.LocalizedTextType
+- uid: CRMScript.NetServer.NSTicketCategoryMembershipEntity[]
+  commentId: T:CRMScript.NetServer.NetServer.NSTicketCategoryMembershipEntity[]
+  isExternal: true
+  name: NetServer.NSTicketCategoryMembershipEntity[]
+  nameWithType: NetServer.NSTicketCategoryMembershipEntity[]
+  fullName: CRMScript.NetServer.NetServer.NSTicketCategoryMembershipEntity[]
