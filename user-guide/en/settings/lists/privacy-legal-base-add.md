@@ -17,3 +17,11 @@ language: en
 2. Enter a unique identifier for the legal basis in the **Key** field. This value will remain unique independent of database and is used by developers.
 3. Type in a description of the item in the **Description** field.
 4. [!include[Save or cancel](../../includes/save-or-cancel.md)]
+
+    > [!TIP]
+    > How to add items to the [Privacy - Source list][1].
+
+<!-- Referenced links -->
+[1]: privacy-source-add.md
+
+<!-- Referenced images -->

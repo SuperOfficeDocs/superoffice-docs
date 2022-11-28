@@ -20,7 +20,7 @@ items:
 - name: Delete relation
   href: delete-relation.md
 - name: Privacy settings
-  href: gdpr/index.md
+  href: gdpr/privacy.md
   items:
   - name: Edit privacy settings for a contact
     href: gdpr/edit-legalbase.md
@@ -31,11 +31,11 @@ items:
   - name: For administrators
     items:
     - name: Add consent purpose
-      href: gdpr/add-consent-purpose.md
+      href: ../gdpr/add-consent-purpose.md
     - name: Add legal base
-      href: gdpr/privacy-legal-base-add.md
+      href: ../settings/lists/privacy-legal-base-add.md
     - name: Add privacy source
-      href: gdpr/privacy-source-add.md
+      href: ../settings/lists/privacy-source-add.md
 - name: Section tabs on person
   href: screen/index.md
   items:

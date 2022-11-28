@@ -90,9 +90,9 @@ Here you can choose whether the quote must be approved if the total discount is 
 * **Total earning is below limit**. Enter a percentage value.
 
 <!-- Referenced links -->
-[2]: ../../settings/lists/adding-items.md
-[3]: ../screen/sale-stage.md
-[4]: ../stakeholders/index.md
-[5]: ../screen/sales-guide-admin.md
+[2]: adding-items.md
+[3]: ../../sale/screen/sale-stage.md
+[4]: ../../sale/stakeholders/index.md
+[5]: ../../sale/screen/sales-guide-admin.md
 
 <!-- Referenced images -->

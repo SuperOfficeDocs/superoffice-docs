@@ -42,23 +42,21 @@ items:
       href: screen/quote-tab.md
   - name: The Edit quote dialog
     href: screen/edit-quote-dialog.md
-- name: For administrators
-  items:
-  - name: Relevant pages
-    items:
-    - name: Sales guide (Workflow)
-      href: screen/sales-guide-admin.md
-    - name: Sale stage
-      href: screen/sale-stage.md
-    - name: Sales type (for stages)
-      href: screen/sales-type-for-stages.md
-  - name: Add a sale stage
-    href: admin/add-stage.md
-  - name: Add a sales type
-    href: admin/add-sale-type.md
-  - name: Add sale amount class
-    href: admin/add-amount-class.md
 - name: Quote
   href: quote/toc.yml
 - name: SAINT
   href: saint/toc.yml
+- name: For administrators
+  items:
+  - name: Sales guide (Workflow)
+    href: screen/sales-guide-admin.md
+  - name: Sale stage
+    href: screen/sale-stage.md
+  - name: Add a sale stage
+    href: ../settings/lists/sale-stage.md
+  - name: Sales type (for stages)
+    href: screen/sales-type-for-stages.md
+  - name: Add a sales type
+    href: ../settings/lists/sale-type.md
+  - name: Add sale amount class
+    href: ../settings/lists/sale-amount-class.md

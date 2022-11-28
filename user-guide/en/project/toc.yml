@@ -33,7 +33,7 @@ items:
     href: project-guide/working-with.md
   - name: View follow-ups and documents
     href: project-guide/view-followups-and-documents.md
-  - name: For administrators
+  - name: Maintenance
     items:
     - name: Create new project guide
       href: project-guide/create.md
@@ -41,30 +41,32 @@ items:
       href: project-guide/edit.md
     - name: Deactivate project guide
       href: project-guide/deactivate.md
-- name: Project screen
+- name: Project screens and tabs
   href: screen/index.md
   items:
-  - name: Section tabs
-    items:
-    - name: Project guide
-      href: screen/project-guide-tab.md
-    - name: Project members
-      href: screen/project-members-tab.md
-    - name: Activities
-      href: screen/activities-project.md
-    - name: Sales
-      href: screen/sale.md
+  - name: Project guide
+    href: screen/project-guide-tab.md
+  - name: Project members
+    href: screen/project-members-tab.md
+  - name: Activities
+    href: screen/activities-project.md
+  - name: Sales
+    href: screen/sale.md
 - name: For administrators
   items:
-  - name: Relevant pages
-    items:
-    - name: Project Status
-      href: screen/project-status-admin.md
-    - name: Project Type
-      href: screen/project-type-admin.md
-    - name: Project guide
-      href: screen/project-guide-admin.md
+  - name: Project Status
+    href: screen/project-status-admin.md
   - name: Add a project status
-    href: admin/add-status.md
+    href: ../settings/lists/add-project-status
+  - name: Project Type
+    href: screen/project-type-admin.md
   - name: Add a project type
-    href: admin/add-project-type.md
+    href: ../settings/lists/project-type.md
+  - name: Project guide
+    href: screen/project-guide-admin.md
+  - name: Create new project guide
+    href: project-guide/create.md
+  - name: Edit project-guide
+    href: project-guide/edit.md
+  - name: Deactivate project guide
+    href: project-guide/deactivate.md

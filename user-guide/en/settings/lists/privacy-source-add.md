@@ -29,7 +29,11 @@ language: en
 
 6. [!include[Save or cancel](../../includes/save-or-cancel.md)]
 
+    > [!TIP]
+    > How to add items to the [Privacy - Legal base list][2].
+
 <!-- Referenced links -->
-[1]: ../../settings/lists/adding-template-web.md
+[1]: adding-template-web.md
+[2]: privacy-legal-base-add.md
 
 <!-- Referenced images -->

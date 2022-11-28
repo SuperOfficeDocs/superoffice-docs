@@ -22,6 +22,8 @@ items:
     href: main-screen/side-panel.md
 - name: Preferences
   href: preferences.md
+- name: Edit e-mail signature
+  href: edit-email-signature.md
 - name: Favourites
   href: favourites.md
 - name: Tooltip

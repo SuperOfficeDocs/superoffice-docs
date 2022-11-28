@@ -1,12 +1,12 @@
 ### YamlMime:SubCategory
 
-title: Customization
-summary: ""
+title: Customisation
+summary: "Learn about different customisation of all your lists, possibilities to add fields and layout of the different main cards in the screen designer, set up macros and script and all other fine tuning of your system"
 
 metadata:
-  title: Customization
+  title: Customisation
   description: "Learn about SuperID, identity providers, and federated sign-in."
-  so.product: customization
+  so.product: customisation
   so.topic: landing-page
   author: Help & Learn
   so.author: helplearn
@@ -35,6 +35,34 @@ landingContent:
           url: settings/in-service/index.md
 
   # Card
+  - title: Custom objects
+    linkLists:
+      - linkListType: how-to-guide
+        links:
+        - text: User-defined fields
+          url: custom-objects/udef/index.md
+        - text: Extra fields
+          url: custom-objects/extra-field/create.md
+        - text: Extra tables
+          url: custom-objects/extra-table/create.md
+      
+  # Card
+  - title: User interface
+    linkLists:
+      - linkListType: how-to-guide
+        links:
+        - text: Screen designer
+          url: ui/screen-designer/index.md
+        - text: Extra menus
+          url: ui/extra-menus/index.md
+        - text: Web panels
+          url: ui/web-panels/index.md
+      - linkListType: how-to-guide
+        links:
+        - text: Profile in Service
+          url: ui/in-service/profiles/index.md
+
+  # Card
   - title: Macros and CRMScript
     linkLists:
       - linkListType: how-to-guide
@@ -54,34 +82,6 @@ landingContent:
         - text: Triggers
           url: automation/trigger.md
 
-  # Card
-  - title: User interface
-    linkLists:
-      - linkListType: how-to-guide
-        links:
-        - text: Screen designer
-          url: ui/screen-designer/index.md
-        - text: Extra menus
-          url: ui/extra-menus/index.md
-        - text: Web panels
-          url: ui/web-panels/index.md
-      - linkListType: how-to-guide
-        links:
-        - text: Profile in Service
-          url: ui/in-service/profiles/index.md
-
-  # Card
-  - title: Custom objects
-    linkLists:
-      - linkListType: how-to-guide
-        links:
-        - text: User-defined fields
-          url: custom-objects/udef/index.md
-        - text: Extra fields
-          url: custom-objects/extra-field/create.md
-        - text: Extra tables
-          url: custom-objects/extra-table/create.md
-      
   # Card
   - title: Customer centre
     linkLists:

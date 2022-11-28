@@ -19,6 +19,6 @@ To remove a sales guide from a sale type, you can deactivate it. You do this by 
 If you subsequently want to reuse the sales guide, you can simply check this option again. Any follow-ups and documents previously added to the sales guide's stages will be automatically retrieved. You can also add new follow-ups and/or documents, or delete those you don't want to use in this sales guide.
 
 <!-- Referenced links -->
-[1]: ../admin/add-sale-type.md
+[1]: ../../settings/lists/sale-type.md
 
 <!-- Referenced images -->

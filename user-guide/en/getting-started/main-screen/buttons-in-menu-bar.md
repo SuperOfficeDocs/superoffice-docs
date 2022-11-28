@@ -88,7 +88,7 @@ At the top left in SuperOffice CRM is the SuperOffice logo, which has the follow
 [4]: ../../diary/invitation/receive.md
 [5]: ../../search-options/find-dialog.md
 [6]: ../preferences.md
-[7]: ../../settings/edit-email-signature.md
+[7]: ../../getting-started/edit-email-signature.md
 [8]: ../../howto/duplicates.md
 [9]: ../notes.md
 [15]: ../../win-client/creating-shortcuts-to-entries-in-crm.md

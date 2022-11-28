@@ -88,8 +88,8 @@ Here you can add translated versions of the document template.
 <!-- Referenced links -->
 [1]: ../../globalization/translate-fields.md
 [2]: ../../document/template-variables.md
-[3]: ../../sale/admin/add-sale-type.md
-[4]: ../../person/gdpr/privacy-source-add.md
+[3]: ../../settings/lists/sale-type.md
+[4]: ../../settings/lists/privacy-source-add.md
 [5]: ../../sale/saint/index.md
 
 <!-- Referenced images -->

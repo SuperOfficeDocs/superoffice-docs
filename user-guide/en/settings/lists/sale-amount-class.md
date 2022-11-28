@@ -39,6 +39,6 @@ When you add an item to the **Sale - Amount class** list, the **Edit List Item**
 5. [!include[Save or cancel](../../includes/save-or-cancel.md)]
 
 <!-- Referenced links -->
-[1]: ../../settings/lists/adding-items.md
+[1]: adding-items.md
 
 <!-- Referenced images -->

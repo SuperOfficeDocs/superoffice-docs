@@ -40,10 +40,10 @@ You also need to set the **Enable Stakeholders** preference in the **Sale** pref
 
 <!-- Referenced links -->
 [1]: create.md
-[2]: ../../project/project-members/add.md
+[2]: ../../project/project-members/add.md#from-section-tab
 [3]: edit.md
 [4]: ../../project/project-members/send-email-to.md
-[5]: ../admin/add-sale-type.md
+[5]: ../../settings/lists/sale-type.md
 [6]: ../../settings/lists/items.md
 [7]: ../../settings/preferences/preferences-tab/adding-preference-settings.md
 

@@ -52,7 +52,7 @@ items:
       href: customer-center/toc.yml
     - name: ERP
       href: erp/toc.yml
-  - name: Administration
+  - name: Administration and system settings
     items:
     - name: Licenses
       href: license/toc.yml

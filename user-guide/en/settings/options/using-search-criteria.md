@@ -139,7 +139,7 @@ In the list box, select the field you want to search for information in. The fie
 If you want to change a search criterion in the **Find** dialog, click it and select a different one from the list that appears, as described above.
 
 <!-- Referenced links -->
-[1]: ../../sale/admin/add-amount-class.md
+[1]: ../sale-amount-class.md
 
 <!-- Referenced images -->
 [img1]: ../../../media/icons/arrow-right.png

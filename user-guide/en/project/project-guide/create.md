@@ -14,7 +14,7 @@ language: en
 
 [!include[Must be admin](../../includes/req-admin.md)]
 
-In Settings and maintenance, you define which project types are to be assigned a project guide and which statuses and activities the project guides are to contain. What a project guide looks like can therefore vary, but below is an example of how a project using a project guide may appear.
+In **Settings and maintenance**, you define which project types are to be assigned a project guide and which statuses and activities the project guides are to contain. What a project guide looks like can therefore vary, but below is an example of how a project using a project guide may appear.
 
 For example, you might have a project type named **Conference**. This project type may be linked to a project guide containing the following statuses, follow-ups and documents:
 
@@ -157,8 +157,8 @@ Planning meeting:
 
 <!-- Referenced links -->
 [1]: ../../../../docs/document/templates/variables/from-project-card.md
-[2]: ../admin/add-status.md
-[3]: ../admin/add-project-type.md
+[2]: ../../settings/lists/project-status
+[3]: ../../settings/lists/project-type.md
 [4]: ../../settings/lists/document-template.md
 
 <!-- Referenced images -->
