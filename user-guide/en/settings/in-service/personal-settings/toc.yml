@@ -14,7 +14,7 @@ items:
 - name: Other groups
   href: other-groups.md
 - name: Password
-  href: in-service/password.md
+  href: ../password.md
 - name: Notification
   href: notification.md
 - name: Extra fields

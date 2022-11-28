@@ -22,6 +22,6 @@ The statuses displayed in the list depend of the [project type][1]. You can sele
 
 <!-- Referenced links -->
 [1]: project-type-admin.md
-[2]: ../admin/add-project-status
+[2]: ../../settings/lists/project-status.md
 
 <!-- Referenced images -->

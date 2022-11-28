@@ -27,7 +27,7 @@ items:
 - name: Edit email signature
   href: ../getting-started/edit-email-signature.md
 - name: Personal settings in Service
-  href: personal-settings/toc.yml
+  href: in-service/personal-settings/toc.yml
 - name: System settings in Service
   href: in-service/toc.yml
 - name: System events

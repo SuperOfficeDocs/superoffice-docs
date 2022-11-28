@@ -57,7 +57,7 @@ items:
   - name: Project Status
     href: screen/project-status-admin.md
   - name: Add a project status
-    href: ../settings/lists/add-project-status
+    href: ../settings/lists/project-status
   - name: Project Type
     href: screen/project-type-admin.md
   - name: Add a project type
