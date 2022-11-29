@@ -56,12 +56,14 @@ items:
   items:
   - name: Project Status
     href: screen/project-status-admin.md
-  - name: Add a project status
-    href: ../settings/lists/project-status
+    items:
+    - name: Add a project status
+      href: ../settings/lists/project-status
   - name: Project Type
     href: screen/project-type-admin.md
-  - name: Add a project type
-    href: ../settings/lists/project-type.md
+    items:
+    - name: Add a project type
+      href: ../settings/lists/project-type.md
   - name: Project guide
     href: screen/project-guide-admin.md
   - name: Create new project guide
@@ -70,3 +72,4 @@ items:
     href: project-guide/edit.md
   - name: Deactivate project guide
     href: project-guide/deactivate.md
+    
