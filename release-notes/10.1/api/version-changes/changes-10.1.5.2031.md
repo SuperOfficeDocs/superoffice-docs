@@ -4,6 +4,7 @@ description: Changes from v10.1.2.1565 and v10.1.5.2031
 so.date: 10/10/2022
 ---
 
+<!-- markdownlint-disable-file MD024 -->
 # Changes from v10.1.2.1565 and v10.1.5.2031
 
 ## Web Services
