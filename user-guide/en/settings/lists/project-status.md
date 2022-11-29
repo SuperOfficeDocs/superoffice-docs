@@ -10,7 +10,7 @@ so.audience: admin
 language: en
 ---
 
-# Add a project status
+# Add a project status - :wrench:
 
 :wrench:
 

@@ -43,7 +43,14 @@ items:
     - name: Settings
       href: settings/toc.yml
     - name: Privacy
-      href: gdpr/toc.yml
+      href: ../person/gdpr/privacy.md
+      items:
+      - name: Add consent purpose
+        href: gdpr/add-consent-purpose.md
+      - name: Add legal base
+        href: ../settings/lists/privacy-legal-base-add.md
+      - name: Add privacy source
+        href: ../settings/lists/privacy-source-add.md
     - name: CRMScript
       href: automation/toc.yml
     - name: User interface

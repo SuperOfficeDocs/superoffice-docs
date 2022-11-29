@@ -35,7 +35,7 @@ items:
     href: project-guide/view-followups-and-documents.md
   - name: Maintenance
     items:
-    - name: Create new project guide
+    - name: Create new project guide, 
       href: project-guide/create.md
     - name: Edit project-guide
       href: project-guide/edit.md

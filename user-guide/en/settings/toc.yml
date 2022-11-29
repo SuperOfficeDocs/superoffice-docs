@@ -7,23 +7,6 @@ items:
   href: options/toc.yml
 - name: Lists
   href: lists/toc.yml
-- name: Privacy settings
-  href: ../person/gdpr/privacy.md
-  items:
-  - name: Edit privacy settings for a contact
-    href: ../person/gdpr/edit-legalbase.md
-  - name: Send privacy confirmation email
-    href: ../person/gdpr/send-privacy-confirmation-email.md
-  - name: Generate personal data report
-    href: ../person/gdpr/generate-personal-data-report.md
-  - name: For administrators
-    items:
-    - name: Add consent purpose
-      href: ../gdpr/add-consent-purpose.md
-    - name: Add legal base
-      href: ../settings/lists/privacy-legal-base-add.md
-    - name: Add privacy source
-      href: ../settings/lists/privacy-source-add.md
 - name: Edit email signature
   href: ../getting-started/edit-email-signature.md
 - name: Personal settings in Service
