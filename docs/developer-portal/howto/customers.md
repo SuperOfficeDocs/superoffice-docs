@@ -3,38 +3,39 @@ title: Customers
 uid: dp-customers
 description: Find out who your customers are in the SuperOffice Developer Portal.
 author: Bergfrid Dias
-so.date: 06.05.2022
+so.date: 11.29.2022
 keywords: Developer Portal, app, customer
 so.topic: howto
-so.version:
+so.dp-version: 1.9
 so.envir: cloud
-so.client:
 ---
 
 # Find out who your customers are
 
-You can check which customers that have authorized a specific app and get a list of all customers for your company. The information is shown per environment (SOD, Stage, Production).
+You can check which customers that have authorized a specific app and get a list of all customers for your company. The information is shown the Developer Portal per environment (SOD, Stage, Production). We do not yet show you if they are actively using the app.
+
+![List of customers -screenshot][img1]
 
 > [!NOTE]
-> We do not yet show you if they are actively using the app.
+> New app authorizations do not show up immediately in the portal. The information is synchronized every hour. Be patient, and check again later.
 
 ## Who has authorized this app?
+
+The **app page** shows customers for one specific application.
 
 [!include[Go to the app page](../includes/go-to-app-page.md)]
 
 1. Select **Overview** and locate the **Customers** section.
 
-    ![List of customers -screenshot][img1]
-
 1. Click through the environment specific tabs.
 
 ## Who are my customers?
 
+The **partner page** shows customers for all applications developed by a specific company.
+
 1. In the Developer Portal, go to your partner page.
 
 2. Select **Overview** and locate the **Customers** section.
-
-    ![List of customers -screenshot][img1]
 
 3. Click through the environment specific tabs.
 
